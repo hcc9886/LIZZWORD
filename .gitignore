@@ -1,0 +1,19 @@
+# 系统与编辑器产物
+.DS_Store
+.screenshots/
+
+# 原始稿件目录：页面运行时不读取，仅作稿件留存
+content/
+
+# 词书原始文本稿件：非运行时依赖
+books/source/
+
+# 中间批次：页面只读取 toefl-core-5000-0001.json，其余为生成过程中的中间产物
+books/prepared/*
+!books/prepared/toefl-core-5000-0001.json
+books/prepared/_deprecated/
+
+# 临时脚本与临时产物
+_tmp_*
+*.tmp
+*.log
