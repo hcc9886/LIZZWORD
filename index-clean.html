@@ -1231,17 +1231,33 @@
     font-weight: 600;
     cursor: pointer;
   }
+  /* 加载进度：右上角轻量提示，让用户看到数据在持续到达 */
+  .load-progress {
+    position: fixed;
+    top: 12px;
+    right: 12px;
+    z-index: 9998;
+    padding: 6px 12px;
+    font-size: 12px;
+    color: #334155;
+    background: #fff;
+    border: 1px solid #e2e8f0;
+    border-radius: 999px;
+    box-shadow: 0 4px 14px rgba(15, 23, 42, 0.08);
+  }
+  .load-progress[hidden] { display: none; }
   </style>
   <!-- 新手教程 + Lizz 小狐狸样式（全部 lz- 前缀，不污染主页面） -->
   <link rel="stylesheet" href="books/lizz/lizz.css">
 </head>
 <body>
-  <!-- 任一数据资源 404 或超过 3 秒未返回，都会在这里显示具体项与重试按钮 -->
+  <!-- 任一数据资源 404、网络中断或连续 10 秒无新数据，都会在这里显示具体项与重试按钮 -->
   <div id="loadErrorBanner" class="load-error-banner" hidden>
     <div class="load-error-title">数据加载失败</div>
     <ul id="loadErrorList"></ul>
     <button type="button" class="load-error-retry" id="loadErrorRetry">重试</button>
   </div>
+  <div id="loadProgress" class="load-progress" hidden></div>
   <div class="page">
     <!-- 顶部状态条：今日待学 / 待复习 / 已掌握 / 下次复习 -->
     <header class="app-head">
@@ -6479,7 +6495,7 @@
       });
     }
 
-    // 加载深度索引：3 秒超时，失败也照常放行（页面走浅层兜底并弹出红色提示）
+    // 加载深度索引：20 秒总时长兜底，失败也照常放行（页面走浅层兜底并弹出红色提示）
     function loadDeepIndex(done) {
       if (typeof done === "function") {
         if (deepIndexReady) { done(); } else { deepIndexWaiters.push(done); }
@@ -6514,8 +6530,8 @@
       script.async = true;
       const timer = setTimeout(() => {
         script.onload = script.onerror = null;
-        finish(false, `超时 ${LOAD_TIMEOUT_MS / 1000} 秒`);
-      }, LOAD_TIMEOUT_MS);
+        finish(false, `超过 ${SCRIPT_TIMEOUT_MS / 1000} 秒无响应`);
+      }, SCRIPT_TIMEOUT_MS);
       script.onload = () => { clearTimeout(timer); finish(true); };
       script.onerror = () => {
         clearTimeout(timer);
@@ -6538,7 +6554,7 @@
       return deepFailed.has(batch);
     }
 
-    // 单个深度分片：3 秒超时，失败后立即结束等待并提示，可点重试
+    // 单个深度分片：20 秒总时长兜底，失败后立即结束等待并提示，可点重试
     function loadDeepBatch(batch, done) {
       if (!batch) { if (typeof done === "function") done(false); return; }
       if (deepLoaded.has(batch)) { if (typeof done === "function") done(true); return; }
@@ -6561,9 +6577,9 @@
         const timer = setTimeout(() => {
           script.onload = script.onerror = null;
           deepFailed.add(batch);
-          reportLoadError(key, url.replace(/^\.\//, ""), `超时 ${LOAD_TIMEOUT_MS / 1000} 秒`, retry);
+          reportLoadError(key, url.replace(/^\.\//, ""), `超过 ${SCRIPT_TIMEOUT_MS / 1000} 秒无响应`, retry);
           resolve(false);
-        }, LOAD_TIMEOUT_MS);
+        }, SCRIPT_TIMEOUT_MS);
         script.onload = () => {
           clearTimeout(timer);
           clearLoadError(key);
@@ -6596,7 +6612,7 @@
 
     function ensureDeep(wordId, done) {
       if (deepReady(wordId)) { if (typeof done === "function") done(true); return; }
-      // 索引可能还在加载：等它（最多 3 秒）再决定是否注入分片
+      // 索引可能还在加载：等它（最长 20 秒）再决定是否注入分片
       loadDeepIndex(() => {
         if (deepReady(wordId)) { if (typeof done === "function") done(true); return; }
         loadDeepBatch(deepBatchOf(wordId), done);
@@ -10219,11 +10235,49 @@
     }
 
     // ============================================================
-    // 资源加载：统一 3 秒超时 + 顶部红色错误条（每项可单独重试）
+    // 资源加载：空闲超时（10 秒无新数据）+ 顶部红色错误条（每项可单独重试）
     // ============================================================
-    const LOAD_TIMEOUT_MS = 3000;
+    const LOAD_IDLE_TIMEOUT_MS = 10000;   // 连续 10 秒没有新数据到达才判定失败
+    const LOAD_TOTAL_TIMEOUT_MS = 20000;  // 不支持流式读取的环境退回的总时长上限
+    const SCRIPT_TIMEOUT_MS = 20000;      // script 标签无法观测进度，只用总时长兜底
     let appStarted = false;
     const loadErrorState = new Map();
+    // 加载进度：已完成的资源项数与累计收到的字节数
+    const loadProgress = { tasks: 0, done: 0, bytes: 0 };
+
+    function formatBytes(value) {
+      if (value >= 1024 * 1024) return `${(value / 1024 / 1024).toFixed(1)} MB`;
+      if (value >= 1024) return `${Math.round(value / 1024)} KB`;
+      return `${value} B`;
+    }
+
+    function renderLoadProgress() {
+      const el = document.getElementById("loadProgress");
+      if (!el) return;
+      if (loadProgress.tasks === 0 || loadProgress.done >= loadProgress.tasks) {
+        el.hidden = true;
+        el.textContent = "";
+        return;
+      }
+      el.hidden = false;
+      el.textContent = `正在加载词条… ${loadProgress.done}/${loadProgress.tasks} 项 · 已收到 ${formatBytes(loadProgress.bytes)}`;
+    }
+
+    function progressTaskStart() {
+      loadProgress.tasks += 1;
+      renderLoadProgress();
+    }
+
+    function progressTaskEnd() {
+      loadProgress.done += 1;
+      renderLoadProgress();
+    }
+
+    function progressAddBytes(bytes) {
+      if (!bytes) return;
+      loadProgress.bytes += bytes;
+      renderLoadProgress();
+    }
 
     function renderLoadErrors() {
       const banner = document.getElementById("loadErrorBanner");
@@ -10267,25 +10321,96 @@
     function probeHttpStatus(url) {
       return fetch(url, { method: "HEAD", cache: "no-store" })
         .then((response) => `HTTP ${response.status}`)
-        .catch(() => "网络错误");
+        .catch(() => "网络中断");
     }
 
-    function fetchJson(url, ms) {
-      const limit = ms || LOAD_TIMEOUT_MS;
-      const controller = typeof AbortController !== "undefined" ? new AbortController() : null;
-      const timer = setTimeout(() => { if (controller) controller.abort(); }, limit);
-      return fetch(url, { cache: "no-store", signal: controller ? controller.signal : undefined })
-        .then((response) => {
-          if (!response.ok) throw new Error(`HTTP ${response.status}`);
-          return response.json();
-        })
-        .catch((error) => {
-          const reason = error && error.name === "AbortError"
-            ? `超时 ${limit / 1000} 秒`
-            : ((error && error.message) || "请求失败");
-          throw new Error(reason);
-        })
-        .finally(() => clearTimeout(timer));
+    // 空闲超时：持续收到数据就不算超时；连续 10 秒没有新数据才失败。
+    // 支持流式读取的环境按已收字节判定；不支持时退回 20 秒总时长上限。
+    function fetchJson(url) {
+      progressTaskStart();
+      let finished = false;
+      const finish = (fn) => {
+        if (finished) return;
+        finished = true;
+        progressTaskEnd();
+        fn();
+      };
+      return new Promise((resolve, reject) => {
+        const controller = typeof AbortController !== "undefined" ? new AbortController() : null;
+        let idleTimer = null;
+        let totalTimer = null;
+        let abortReason = "";
+        const cleanup = () => {
+          clearTimeout(idleTimer);
+          clearTimeout(totalTimer);
+        };
+        const stop = (reason) => {
+          if (finished) return;
+          abortReason = reason;
+          cleanup();
+          if (controller) { try { controller.abort(); } catch (error) { /* 请求已结束 */ } }
+          finish(() => reject(new Error(reason)));
+        };
+        const armIdle = () => {
+          clearTimeout(idleTimer);
+          idleTimer = setTimeout(() => stop(`超过 ${LOAD_IDLE_TIMEOUT_MS / 1000} 秒无响应`), LOAD_IDLE_TIMEOUT_MS);
+        };
+        armIdle();
+        fetch(url, { cache: "no-store", signal: controller ? controller.signal : undefined })
+          .then((response) => {
+            if (!response.ok) {
+              cleanup();
+              throw new Error(`HTTP ${response.status}`);
+            }
+            const reader = response.body && typeof response.body.getReader === "function"
+              && typeof TextDecoder !== "undefined"
+              ? response.body.getReader()
+              : null;
+            if (!reader) {
+              // 无流式读取能力：退回总时长上限
+              armIdle();
+              totalTimer = setTimeout(() => stop(`超过 ${LOAD_TOTAL_TIMEOUT_MS / 1000} 秒无响应`), LOAD_TOTAL_TIMEOUT_MS);
+              return response.json();
+            }
+            const decoder = new TextDecoder("utf-8");
+            const chunks = [];
+            const pump = () => reader.read().then((chunk) => {
+              if (chunk.done) {
+                cleanup();
+                return;
+              }
+              const value = chunk.value;
+              if (value && value.length) {
+                progressAddBytes(value.length);
+                chunks.push(value);
+              }
+              armIdle();
+              return pump();
+            });
+            return pump().then(() => {
+              const merged = new Uint8Array(chunks.reduce((sum, item) => sum + item.length, 0));
+              let offset = 0;
+              chunks.forEach((item) => { merged.set(item, offset); offset += item.length; });
+              try {
+                return JSON.parse(decoder.decode(merged));
+              } catch (error) {
+                throw new Error("数据格式错误");
+              }
+            });
+          })
+          .then((data) => { finish(() => resolve(data)); })
+          .catch((error) => {
+            cleanup();
+            if (finished) return;
+            const raw = error && error.message ? error.message : "";
+            const message = (error && error.name === "AbortError")
+              ? (abortReason || `超过 ${LOAD_IDLE_TIMEOUT_MS / 1000} 秒无响应`)
+              : (/^(Failed to fetch|Load failed|NetworkError|network error)$/i.test(raw) || !raw
+                ? "网络中断"
+                : raw);
+            finish(() => reject(new Error(message)));
+          });
+      });
     }
 
     function applyBookData(book, prepared, distractors) {
