@@ -1,7 +1,8 @@
 /* ============================================================
    Lizz · 积分商店（装扮 / 积分 / 持久化）
    - 积分：每背完 10 个新词 +10；当天全部复习完成 +10
-   - 20 套装扮，购买后立刻戴到角落的小狐狸身上
+   - 100 件装扮（50 配饰 + 50 套衣服），购买后立刻戴到角落的小狐狸身上
+   - 类别 / 路线 / 稀有度三层筛选 + 分页，避免一次渲染 100 张卡
    - 状态写在 lizzword_lizz_v1.shop，读盘 → 修改 → 立即写盘，避免旧状态覆盖
    - 支持 ?lizz-shop=1 自动打开，便于本地预览
    ============================================================ */
@@ -20,10 +21,14 @@
   const REVIEW_POINTS = 10;      // 当天复习完成积分
   const FEED_WORDS = 10;         // 每 10 个新词换 1 次喂食
   const MAX_LEDGER = 30;
+  const PAGE_SIZE = 18;          // 每页卡片数，控制 390px 下的渲染量
 
   let lastTickAt = 0;
   let panel = null;
-  let activeFilter = "all";
+  let activeCategory = "all";    // all | accessory | outfit | owned
+  let activeRarity = "all";      // all | common | rare | epic | legendary
+  let activeRoute = "all";       // all | school | daily | glam | abstract（仅衣服）
+  let pageIndex = 0;
   let pendingBuyId = "";
   let pendingTimer = null;
   let lastFocus = null;
@@ -360,7 +365,7 @@
 
         <div class="lz-shop-wallet">
           <div class="lz-shop-balance"><span>积分</span><b id="lzShopPoints">0</b></div>
-          <div class="lz-shop-owned"><span>已收集</span><b id="lzShopOwned">0/20</b></div>
+          <div class="lz-shop-owned"><span>已收集</span><b id="lzShopOwned">0/100</b></div>
           <div class="lz-shop-earn" id="lzShopEarn">今日已赚 0</div>
         </div>
 
@@ -376,8 +381,11 @@
           </div>
         </div>
 
-        <div class="lz-shop-filters" id="lzShopFilters" role="group" aria-label="装扮筛选"></div>
+        <div class="lz-shop-filters" id="lzShopCats" role="group" aria-label="装扮类别"></div>
+        <div class="lz-shop-filters" id="lzShopRarities" role="group" aria-label="稀有度筛选"></div>
+        <div class="lz-shop-filters" id="lzShopRoutes" role="group" aria-label="衣服路线" hidden></div>
         <div class="lz-shop-grid" id="lzShopGrid"></div>
+        <div class="lz-shop-pager" id="lzShopPager" hidden></div>
         <p class="lz-shop-foot">
           背完 10 个新词 +10 积分 · 当天全部复习完成 +10 积分<br>
           积分与已购装扮只保存在本机浏览器，不会上传。
@@ -391,6 +399,7 @@
 
   function render() {
     if (!panel) return;
+    const focusKey = focusSelectorOf(document.activeElement);
     const shop = readShop();
     const pointsEl = panel.querySelector("#lzShopPoints");
     const ownedEl = panel.querySelector("#lzShopOwned");
@@ -413,30 +422,106 @@
 
     renderFilters(shop);
     renderGrid(shop);
+    if (focusKey) {
+      const back = panel.querySelector(focusKey);
+      if (back) back.focus({ preventScroll: true });
+    }
   }
 
-  function filterLabel(key) {
-    if (key === "all") return "全部";
-    if (key === "owned") return "已拥有";
-    return ACC.RARITY[key].label;
+  // 重绘后把焦点还给同一个筛选按钮，避免积分刷新时键盘焦点被吃掉
+  function focusSelectorOf(el) {
+    if (!el || !panel || !panel.contains(el) || typeof el.getAttribute !== "function") return "";
+    const pairs = ["data-shop-cat", "data-shop-rarity", "data-shop-route", "data-shop-page"];
+    for (let i = 0; i < pairs.length; i += 1) {
+      const value = el.getAttribute(pairs[i]);
+      if (value !== null) return `[${pairs[i]}="${value}"]`;
+    }
+    return "";
   }
 
-  function filterCount(key, shop) {
-    if (key === "all") return ACC.items.length;
-    if (key === "owned") return shop.owned.length;
-    return ACC.items.filter((item) => item.rarity === key).length;
+  function shopChip(attr, key, label, count, active) {
+    return `<button type="button" class="lz-shop-chip${active ? " is-active" : ""}" ${attr}="${key}" aria-pressed="${active}">${label}<span>${count}</span></button>`;
+  }
+
+  // 只应用「类别 + 路线」两层筛选，稀有度计数要用这个基数
+  function baseItems(shop) {
+    let list = ACC.items.slice();
+    if (activeCategory === "owned") {
+      list = list.filter((item) => shop.owned.includes(item.id));
+    } else if (activeCategory !== "all") {
+      list = list.filter((item) => item.category === activeCategory);
+    }
+    if (activeCategory === "outfit" && activeRoute !== "all") {
+      list = list.filter((item) => item.route === activeRoute);
+    }
+    return list;
+  }
+
+  function visibleItems(shop) {
+    const list = baseItems(shop);
+    if (activeRarity === "all") return list;
+    return list.filter((item) => item.rarity === activeRarity);
   }
 
   function renderFilters(shop) {
-    const wrap = panel.querySelector("#lzShopFilters");
-    if (!wrap) return;
-    const keys = ["all", "common", "rare", "epic", "legendary", "owned"];
-    wrap.innerHTML = keys.map((key) => {
-      const active = activeFilter === key;
-      return `<button type="button" class="lz-shop-chip${active ? " is-active" : ""}" data-shop-filter="${key}" aria-pressed="${active}">
-        ${filterLabel(key)}<span>${filterCount(key, shop)}</span>
-      </button>`;
-    }).join("");
+    const catWrap = panel.querySelector("#lzShopCats");
+    const rarityWrap = panel.querySelector("#lzShopRarities");
+    const routeWrap = panel.querySelector("#lzShopRoutes");
+    const base = baseItems(shop);
+
+    if (catWrap) {
+      const catCounts = {
+        all: ACC.items.length,
+        accessory: ACC.items.filter((item) => item.category === "accessory").length,
+        outfit: ACC.items.filter((item) => item.category === "outfit").length,
+        owned: shop.owned.length
+      };
+      const catKeys = ["all", "accessory", "outfit", "owned"];
+      catWrap.innerHTML = catKeys.map((key) => shopChip(
+        "data-shop-cat",
+        key,
+        key === "all" ? "全部" : (key === "owned" ? "已拥有" : ACC.CATEGORY_LABELS[key]),
+        catCounts[key],
+        activeCategory === key
+      )).join("");
+    }
+
+    if (rarityWrap) {
+      const rarityCounts = { all: base.length };
+      base.forEach((item) => {
+        rarityCounts[item.rarity] = (rarityCounts[item.rarity] || 0) + 1;
+      });
+      const rarityKeys = ["all", "common", "rare", "epic", "legendary"];
+      rarityWrap.innerHTML = rarityKeys.map((key) => shopChip(
+        "data-shop-rarity",
+        key,
+        key === "all" ? "不限稀有度" : ACC.RARITY[key].label,
+        rarityCounts[key] || 0,
+        activeRarity === key
+      )).join("");
+    }
+
+    if (routeWrap) {
+      const showRoutes = activeCategory === "outfit";
+      routeWrap.hidden = !showRoutes;
+      if (showRoutes) {
+        const outfits = ACC.items.filter((item) => item.category === "outfit");
+        const routeCounts = { all: outfits.length };
+        outfits.forEach((item) => {
+          routeCounts[item.route] = (routeCounts[item.route] || 0) + 1;
+        });
+        const routeKeys = ["all", "school", "daily", "glam", "abstract"];
+        routeWrap.innerHTML = routeKeys.map((key) => shopChip(
+          "data-shop-route",
+          key,
+          key === "all" ? "全部路线" : ACC.ROUTES[key],
+          routeCounts[key] || 0,
+          activeRoute === key
+        )).join("");
+      } else {
+        routeWrap.innerHTML = "";
+      }
+    }
   }
 
   function itemAction(item, shop) {
@@ -451,25 +536,33 @@
 
   function renderGrid(shop) {
     const grid = panel.querySelector("#lzShopGrid");
+    const pager = panel.querySelector("#lzShopPager");
     if (!grid) return;
 
-    let items = ACC.items.slice();
-    if (activeFilter === "owned") {
-      items = items.filter((item) => shop.owned.includes(item.id));
-    } else if (activeFilter !== "all") {
-      items = items.filter((item) => item.rarity === activeFilter);
-    }
+    const list = visibleItems(shop);
+    const pages = Math.max(1, Math.ceil(list.length / PAGE_SIZE));
+    pageIndex = Math.min(Math.max(pageIndex, 0), pages - 1);
+    const start = pageIndex * PAGE_SIZE;
+    const pageItems = list.slice(start, start + PAGE_SIZE);
 
-    if (!items.length) {
-      grid.innerHTML = `<p class="lz-shop-empty">这里还空着。背几组单词，把第一件装扮带回家吧。</p>`;
+    if (!list.length) {
+      grid.innerHTML = `<p class="lz-shop-empty">这里还空着。换一个筛选，或者背几组单词把第一件装扮带回家吧。</p>`;
+      if (pager) {
+        pager.hidden = true;
+        pager.innerHTML = "";
+      }
       return;
     }
 
-    grid.innerHTML = items.map((item) => {
+    grid.innerHTML = pageItems.map((item) => {
       const rarity = ACC.RARITY[item.rarity];
       const owned = shop.owned.includes(item.id);
       const equipped = shop.equipped === item.id;
       const action = itemAction(item, shop);
+      const meta = item.category === "outfit" && item.route
+        ? `${rarity.label} · ${ACC.ROUTES[item.route]}`
+        : rarity.label;
+      const figure = item.category === "outfit" ? ACC.figureFragment : ACC.headFragment;
       const classes = [
         "lz-shop-card",
         `rarity-${item.rarity}`,
@@ -479,15 +572,28 @@
       ].filter(Boolean).join(" ");
       return `<button type="button" class="${classes}" data-shop-item="${item.id}" title="${item.hint}">
         <span class="lz-shop-thumb">
-          <svg viewBox="0 0 100 100" aria-hidden="true" focusable="false">${ACC.headFragment}${item.svg}</svg>
+          <svg viewBox="0 0 100 100" aria-hidden="true" focusable="false">${figure}${item.svg}</svg>
         </span>
         <span class="lz-shop-info">
           <span class="lz-shop-name">${item.name}</span>
-          <span class="lz-shop-rarity">${rarity.label}</span>
+          <span class="lz-shop-rarity">${meta}</span>
         </span>
         <span class="lz-shop-action">${action.text}</span>
       </button>`;
     }).join("");
+
+    if (pager) {
+      if (pages <= 1) {
+        pager.hidden = true;
+        pager.innerHTML = "";
+      } else {
+        pager.hidden = false;
+        pager.innerHTML = `
+          <button type="button" class="lz-shop-page-btn" data-shop-page="-1"${pageIndex === 0 ? " disabled" : ""}>上一页</button>
+          <span class="lz-shop-page-num">第 ${pageIndex + 1} / ${pages} 页 · 共 ${list.length} 件</span>
+          <button type="button" class="lz-shop-page-btn" data-shop-page="1"${pageIndex >= pages - 1 ? " disabled" : ""}>下一页</button>`;
+      }
+    }
   }
 
   function onPanelClick(event) {
@@ -497,11 +603,43 @@
       return;
     }
 
-    const filterBtn = event.target.closest("[data-shop-filter]");
-    if (filterBtn) {
-      activeFilter = filterBtn.getAttribute("data-shop-filter") || "all";
+    const catBtn = event.target.closest("[data-shop-cat]");
+    if (catBtn) {
+      activeCategory = catBtn.getAttribute("data-shop-cat") || "all";
+      activeRoute = "all";
+      pageIndex = 0;
       pendingBuyId = "";
       render();
+      return;
+    }
+
+    const rarityBtn = event.target.closest("[data-shop-rarity]");
+    if (rarityBtn) {
+      activeRarity = rarityBtn.getAttribute("data-shop-rarity") || "all";
+      pageIndex = 0;
+      pendingBuyId = "";
+      render();
+      return;
+    }
+
+    const routeBtn = event.target.closest("[data-shop-route]");
+    if (routeBtn) {
+      activeRoute = routeBtn.getAttribute("data-shop-route") || "all";
+      pageIndex = 0;
+      pendingBuyId = "";
+      render();
+      return;
+    }
+
+    const pageBtn = event.target.closest("[data-shop-page]");
+    if (pageBtn && !pageBtn.disabled) {
+      pageIndex += Number(pageBtn.getAttribute("data-shop-page")) || 0;
+      pendingBuyId = "";
+      render();
+      const valid = panel.querySelector(`[data-shop-page]:not([disabled])`);
+      if (valid) valid.focus({ preventScroll: true });
+      const grid = panel.querySelector("#lzShopGrid");
+      if (grid) grid.scrollIntoView({ block: "nearest" });
       return;
     }
 
@@ -565,6 +703,7 @@
   }
 
   let shopToastTimer = null;
+  let openFrame = null;
   function showShopToast(text) {
     if (!panel) return;
     let toast = panel.querySelector(".lz-shop-toast");
@@ -592,7 +731,12 @@
     render();
     panel.hidden = false;
     document.body.classList.add("lz-shop-open");
-    window.requestAnimationFrame(() => panel.classList.add("is-open"));
+    if (openFrame) window.cancelAnimationFrame(openFrame);
+    openFrame = window.requestAnimationFrame(() => {
+      openFrame = null;
+      if (!panel || panel.hidden) return;
+      panel.classList.add("is-open");
+    });
     document.addEventListener("keydown", onKeydown);
     const closeBtn = panel.querySelector(".lz-shop-close");
     if (closeBtn) closeBtn.focus();
@@ -605,6 +749,10 @@
 
   function close() {
     if (!panel || panel.hidden) return;
+    if (openFrame) {
+      window.cancelAnimationFrame(openFrame);
+      openFrame = null;
+    }
     panel.classList.remove("is-open");
     document.body.classList.remove("lz-shop-open");
     pendingBuyId = "";
