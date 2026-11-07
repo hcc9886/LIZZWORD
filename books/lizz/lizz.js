@@ -77,10 +77,13 @@
     el.innerHTML = `
       <div class="lz-lizz-bubble" id="lzLizzBubble" role="status" aria-live="polite" hidden></div>
       <div class="lz-lizz-avatar">
-        ${PHOTO_URL ? `<img class="lz-lizz-photo" src="${esc(PHOTO_URL)}" alt="Lizz" hidden>` : ""}
-        ${S.FOX_SVG || ""}
+        <div class="lz-lizz-figure">
+          ${PHOTO_URL ? `<img class="lz-lizz-photo" src="${esc(PHOTO_URL)}" alt="Lizz" hidden>` : ""}
+          ${S.FOX_SVG || ""}
+          <div class="lz-lizz-accessory" id="lzLizzAccessory" aria-hidden="true"></div>
+        </div>
       </div>
-      <div class="lz-lizz-bowl" aria-hidden="true" data-food="0">${S.BOWL_SVG || ""}</div>`;
+      <div class="lz-lizz-bowl" aria-hidden="true" data-food="0">${S.BOWL_SVG || ""}<span class="lz-bowl-badge" hidden></span></div>`;
     document.body.appendChild(el);
     widget = el;
     bubble = el.querySelector("#lzLizzBubble");
@@ -99,6 +102,13 @@
         onCharacterClick();
       }
     });
+
+    // 通知商店 / 喂食模块：角落狐狸已经建好，可以挂装扮与碗的点击了
+    try {
+      document.dispatchEvent(new CustomEvent("lizzword:avatar-ready", { detail: { widget: el } }));
+    } catch (error) {
+      /* ignore */
+    }
     return el;
   }
 
@@ -120,7 +130,7 @@
     const target = String(url || DEFAULT_PHOTO_URL);
     try { window.localStorage.setItem(S.PHOTO_KEY, target); } catch (error) { /* 忽略 */ }
     buildWidget();
-    const holder = widget.querySelector(".lz-lizz-avatar");
+    const holder = widget.querySelector(".lz-lizz-figure") || widget.querySelector(".lz-lizz-avatar");
     let photo = holder.querySelector(".lz-lizz-photo");
     if (!photo) {
       photo = document.createElement("img");
@@ -250,8 +260,8 @@
     }
   }
 
-  /* 看到碗里的食物：先星星眼，紧接着弱弱地傲娇一句 */
-  function starEyesReaction(bubbleDelay) {
+  /* 只做星星眼视觉，不附带台词（供喂食等外部模块复用自己的台词） */
+  function triggerStarEyes() {
     buildWidget();
     if (!widget) return;
     widget.classList.remove("is-star-eyes");
@@ -262,6 +272,13 @@
       starTimer = null;
       if (widget) widget.classList.remove("is-star-eyes");
     }, STAR_EYES_MS);
+  }
+
+  /* 看到碗里的食物：先星星眼，紧接着弱弱地傲娇一句 */
+  function starEyesReaction(bubbleDelay) {
+    buildWidget();
+    if (!widget) return;
+    triggerStarEyes();
     if (tsundereTimer) clearTimeout(tsundereTimer);
     tsundereTimer = setTimeout(() => {
       tsundereTimer = null;
@@ -273,6 +290,30 @@
         true
       );
     }, bubbleDelay == null ? 620 : bubbleDelay);
+  }
+
+  /* 外部模块（商店喂食）写入状态后，重新读盘并刷新碗 */
+  function syncFromStorage(options) {
+    state = S.load();
+    if (widget && typeof renderFood === "function") {
+      renderFood(Boolean(options && options.animate));
+    }
+    return state;
+  }
+
+  /* 外部模块指定的夸奖 / 道谢台词：星星眼 + 气泡，不触发傲娇计时器 */
+  function celebrate(text) {
+    if (!state) return false;
+    buildWidget();
+    if (!widget || widget.hidden) return false;
+    triggerStarEyes();
+    const line = String(text || pickLine(S.LINES.groupThanks, "lastThanks"));
+    showBubbleHTML(
+      `<span class="lz-bubble-face">${esc(S.pickFace(state, Math.random))}</span><span class="lz-bubble-line lz-bubble-rule">${esc(line)}</span>`,
+      4600,
+      true
+    );
+    return true;
   }
 
   /* 碗里有食物时：记账后延迟一点再冒星星眼（先看到碗，再“嘴硬”） */
@@ -654,7 +695,9 @@
     usePhoto,
     hidePhoto,
     photoUrl: () => (typeof S.photoUrl === "function" ? S.photoUrl() : ""),
-    version: "1.0.3",
+    syncFromStorage,
+    celebrate,
+    version: "1.1.0",
     _test: {
       click: onCharacterClick,
       resolveBurst,

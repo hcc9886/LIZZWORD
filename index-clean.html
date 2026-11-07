@@ -1249,6 +1249,7 @@
   </style>
   <!-- 新手教程 + Lizz 小狐狸样式（全部 lz- 前缀，不污染主页面） -->
   <link rel="stylesheet" href="books/lizz/lizz.css">
+  <link rel="stylesheet" href="books/lizz/study.css">
 </head>
 <body>
   <!-- 任一数据资源 404、网络中断或连续 10 秒无新数据，都会在这里显示具体项与重试按钮 -->
@@ -7984,6 +7985,7 @@
         : "";
       return `
         <div class="feedback ${opts.ok ? "ok" : "soft-bad"}">${opts.ok ? "✓ 答对了" : "✗ 答错了"}</div>
+        ${opts.scoreLabel ? `<p class="grade-line ${opts.scoreTone === "ok" ? "is-ok" : "is-warn"}">${esc(opts.scoreLabel)}</p>` : ""}
         ${opts.ok ? "" : answerInfoHTML(opts.wordItem, opts.sense, opts.note)}
         <div class="summary-card">
           <p class="summary-label">速览确认 · 看清这个词再走</p>
@@ -8249,6 +8251,10 @@
                   extra: writeCurrent.correct
                     ? (writeCurrent.finished ? "写阶段完成，点「确认」查看完成页。" : "")
                     : "写阶段只纠正不重置；已排到写队列末尾，3–7 个其他词之后再出现。",
+                  scoreLabel: writeCurrent.grade && writeCurrent.grade.band !== "exact"
+                    ? `近似给分 ${writeCurrent.grade.score.toFixed(2)} · ${writeCurrent.grade.reason}`
+                    : "",
+                  scoreTone: writeCurrent.grade && writeCurrent.grade.pass ? "ok" : "warn",
                   nextKind: "write",
                   nextLabel: writeCurrent.finished ? "确认，查看完成页" : "确认，下一个"
                 })
@@ -8273,11 +8279,16 @@
 
       const wordItem = getWord(writeCurrent.wordId);
       const wordId = writeCurrent.wordId;
-      const correct = normalizeWord(raw) === normalizeWord(wordItem.word);
+      const grade = window.LIZZWORD_GRADE
+        ? window.LIZZWORD_GRADE.gradeWrite(raw, wordItem.word, wordItem)
+        : { score: normalizeWord(raw) === normalizeWord(wordItem.word) ? 1 : 0,
+            band: "exact", pass: normalizeWord(raw) === normalizeWord(wordItem.word), reason: "" };
+      const correct = grade.pass;
 
       markAnswered(wordId);
       writeCurrent.submitted = true;
       writeCurrent.correct = correct;
+      writeCurrent.grade = grade;
 
       if (correct) {
         state.writeQueue = state.writeQueue.filter((id) => id !== wordId);
@@ -8787,6 +8798,10 @@
             extra: item.correct
               ? (item.finished ? "写完成，点「确认」进入说。" : "")
               : "已排到写队列末尾，3–7 个其他词之后再出现。",
+            scoreLabel: item.grade && item.grade.band !== "exact"
+              ? `近似给分 ${item.grade.score.toFixed(2)} · ${item.grade.reason}`
+              : "",
+            scoreTone: item.grade && item.grade.pass ? "ok" : "warn",
             nextKind,
             nextLabel: item.finished ? "确认，进入说阶段" : "确认，下一个"
           });
@@ -8927,11 +8942,16 @@
       takeUndoSnapshot();
       const wordItem = getWord(current.wordId);
       const wordId = current.wordId;
-      const correct = normalizeWord(raw) === normalizeWord(wordItem.word);
+      const grade = window.LIZZWORD_GRADE
+        ? window.LIZZWORD_GRADE.gradeWrite(raw, wordItem.word, wordItem)
+        : { score: normalizeWord(raw) === normalizeWord(wordItem.word) ? 1 : 0,
+            band: "exact", pass: normalizeWord(raw) === normalizeWord(wordItem.word), reason: "" };
+      const correct = grade.pass;
 
       markAnswered(wordId);
       current.submitted = true;
       current.correct = correct;
+      current.grade = grade;
 
       if (correct) {
         session.correctCount += 1;
@@ -9243,6 +9263,11 @@
               ? `下一批 ${previewBatch.length} 个已备词 · 左右滑动切换`
               : (noPrepared ? "该词深度内容尚未准备" : "已备内容不足，需要补充词条")}</span>
           </button>
+
+          <button type="button" class="home-btn" data-enter="lizz-shop">
+            <span class="home-title">lizz</span>
+            <span class="home-sub" id="homeLizzSummary">${lizzShopSubtitle()}</span>
+          </button>
         </section>
 
         <p class="home-progress">当前组已学 <b>${finishedToday ? target : learned}</b> / ${target} · 今日累计 <b>${state.groupsToday}</b> 组 · <b>${state.wordsToday}</b> 个词${finishedToday ? " · 已完成" : ""}</p>
@@ -9451,25 +9476,38 @@
         ? pair(wordItem.mnemonics.normalIntro.en, wordItem.mnemonics.normalIntro.cn)
         : "";
 
+      const headerExample = wordItem.scene
+        ? { en: wordItem.scene, cn: wordItem.sceneCN || "" }
+        : (wordItem.senses && wordItem.senses[0] && wordItem.senses[0].example
+          ? { en: wordItem.senses[0].example, cn: wordItem.senses[0].exampleCN || "" }
+          : null);
+
       const headerHTML = withHeader ? `
         <header>
           <div class="word-row">
             <h1 class="word">${esc(wordItem.word)}</h1>
             <span class="ipa">英 ${esc(wordItem.ipa_uk)} · 美 ${esc(wordItem.ipa_us)}</span>
             ${speakBtn(wordItem.word)}
+            <button type="button" class="wordcard-extra" data-flashcard="${esc(wordItem.word)}">记忆卡</button>
           </div>
+          ${headerExample ? `
+            <p class="word-scene">${esc(headerExample.en)} ${speakBtn(headerExample.en, "en-US", "🔊 AI 朗读")}</p>
+            ${headerExample.cn ? `<p class="word-scene word-scene-cn">${esc(headerExample.cn)}</p>` : ""}` : ""}
           <p class="word-def">${esc(wordItem.definition_zh)}</p>
-          <p class="word-en">${esc(wordItem.definition_en)} ${speakBtn(wordItem.definition_en, "en-US", "🔊 AI 朗读")}</p>
-          <p class="core-image">核心意象：${esc(wordItem.core_image)}</p>
-          ${sceneArtHTML(wordItem.word)}
-          <p class="word-scene">${esc(wordItem.scene)} ${speakBtn(wordItem.scene, "en-US", "🔊 AI 朗读")}</p>
-          <p class="word-scene word-scene-cn">${esc(wordItem.sceneCN || "")}</p>
+          <details class="fold">
+            <summary>更多词义与场景</summary>
+            <p class="word-en">${esc(wordItem.definition_en)} ${speakBtn(wordItem.definition_en, "en-US", "🔊 AI 朗读")}</p>
+            <p class="core-image">核心意象：${esc(wordItem.core_image)}</p>
+            ${sceneArtHTML(wordItem.word)}
+          </details>
         </header>` : "";
 
       el.innerHTML = `
         ${headerHTML}
 
-        <nav class="tabs" role="tablist" aria-label="内容分区">
+        <details class="fold fold-deep">
+          <summary>深度内容 · 速览 / 核心义项 / 语义地图 / 词源 / 词缀 / 相似词 / 联想记忆</summary>
+          <nav class="tabs" role="tablist" aria-label="内容分区">
           <button type="button" class="tab is-active" data-tab="dict" role="tab" aria-selected="true">速览</button>
           <button type="button" class="tab" data-tab="senses" role="tab" aria-selected="false">核心义项</button>
           <button type="button" class="tab" data-tab="map" role="tab" aria-selected="false">语义地图</button>
@@ -9543,6 +9581,7 @@
               ${abstractHTML}
             </div>` : emptyNote()}
         </section>
+        </details>
       `;
 
       return el;
@@ -10082,10 +10121,23 @@
         return;
       }
 
+      // 词卡 header：记忆卡弹层
+      const flashBtn = event.target.closest("[data-flashcard]");
+      if (flashBtn && window.LIZZWORD_FLASHCARD) {
+        const flashWord = getWord(flashBtn.dataset.flashcard);
+        if (flashWord) window.LIZZWORD_FLASHCARD.open(flashWord);
+        return;
+      }
+
       // 主界面入口
       const enterButton = event.target.closest("[data-enter]");
       if (enterButton) {
         const target = enterButton.dataset.enter;
+        // 积分商店是独立浮层，不能交给 showView（否则会落到词库浏览）
+        if (target === "lizz-shop") {
+          if (window.LIZZWORD_LIZZ_SHOP) window.LIZZWORD_LIZZ_SHOP.toggle();
+          return;
+        }
         if (target === "study" && state.stage === "done") {
           startNextGroup();
           return;
@@ -10911,6 +10963,22 @@
       loadBookBundle(activeBookConfig, boot);
     }
 
+    function lizzShopSubtitle() {
+      const shop = window.LIZZWORD_LIZZ_SHOP;
+      return shop && typeof shop.summaryHTML === "function"
+        ? shop.summaryHTML()
+        : "每日单词积分 · 装扮商店";
+    }
+
+    function refreshLizzEntry() {
+      const el = document.getElementById("homeLizzSummary");
+      if (el) el.textContent = lizzShopSubtitle();
+    }
+
+    document.addEventListener("lizzword:shop-changed", refreshLizzEntry);
+    document.addEventListener("DOMContentLoaded", refreshLizzEntry);
+    window.addEventListener("load", refreshLizzEntry);
+
     start();
   </script>
   <!-- 新手教程 + Lizz 小狐狸：教程词数据 → 状态/形象 → 教程流程 → Lizz 角色 -->
@@ -10918,6 +10986,12 @@
   <script src="books/lizz/lizz-state.js"></script>
   <script src="books/lizz/tutorial-flow.js"></script>
   <script src="books/lizz/lizz.js"></script>
+  <!-- 装扮数据 → 积分商店 → 碗点击喂食 → 写阶段近似给分 → 记忆卡 -->
+  <script src="books/lizz/lizz-accessories.js"></script>
+  <script src="books/lizz/lizz-shop.js"></script>
+  <script src="books/lizz/lizz-feed.js"></script>
+  <script src="books/lizz/lizz-grade.js"></script>
+  <script src="books/lizz/flashcard.js"></script>
   <script>
     // 显式挂载一次（init 幂等，与 lizz.js 的自动初始化不冲突）
     if (window.LIZZWORD_LIZZ) window.LIZZWORD_LIZZ.init();

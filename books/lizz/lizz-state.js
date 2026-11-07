@@ -1,6 +1,8 @@
 /* ============================================================
    Lizz · 独立状态与视觉资源
    - localStorage key: lizzword_lizz_v1（不改动 lizzword_state_v1 的任何字段）
+   - 装扮商店写在同一个 key 的 shop 字段；保存时自动合并磁盘上的最新 shop，
+     避免 lizz.js 的旧内存状态覆盖刚买到的装扮或刚赚到的积分
    - 连点 25 次躲起来，背完 10 个单词后悄悄回来（不再有“彻底消失到次日”）
    - 30 种颜文字与 Lizz 台词
    - 内置简笔小狐狸 SVG（不新增图片文件；仍保留 lizz.png 替换槽位）
@@ -8,8 +10,14 @@
 (function () {
   "use strict";
 
-  const KEY = "lizzword_lizz_v1";
-  const APP_KEY = "lizzword_state_v1";
+  // 预览页可以用 window.LIZZWORD_LIZZ_KEY / LIZZWORD_LIZZ_APP_KEY 指向独立的坑，
+  // 避免试玩时污染正式存档；正式页面不设置这两个变量，行为完全不变。
+  const KEY = (typeof window.LIZZWORD_LIZZ_KEY === "string" && window.LIZZWORD_LIZZ_KEY)
+    ? window.LIZZWORD_LIZZ_KEY
+    : "lizzword_lizz_v1";
+  const APP_KEY = (typeof window.LIZZWORD_LIZZ_APP_KEY === "string" && window.LIZZWORD_LIZZ_APP_KEY)
+    ? window.LIZZWORD_LIZZ_APP_KEY
+    : "lizzword_state_v1";
   const PHOTO_KEY = "lizzword_lizz_photo_v1";
   const VERSION = 1;
 
@@ -234,7 +242,7 @@
       hiddenBaseline: null,    // { date, groupsToday, wordsToday }
       lastFace: -1,
       softHideCount: 0,
-      food: 0,                 // 碗里食物份数（0–FOOD_CAP，点击不消耗）
+      food: 0,                 // 碗里食物份数（0–FOOD_CAP，点击不消耗；喂食会额外 +1）
       foodReacted: 0,          // 已经为“第几份食物”冒过星星眼，避免每次点击都重复
       groupSeen: null,         // { date, groupsToday }：识别“又完成了一组”
       thanksPending: false,    // 完成一组后等用户点一下道谢
@@ -242,6 +250,7 @@
       lastPraise: -1,
       lastThanks: -1,
       lastTsundere: -1,
+      shop: null,              // 商店状态（points/owned/equipped...），由 lizz-shop.js 维护
       updatedAt: ""
     };
   }
@@ -294,7 +303,24 @@
     return p.date === today && p.wordsToday >= 10;
   }
 
+  /* 每次落盘前，先合并磁盘上最新的 shop 字段。
+     lizz.js 会长期持有一份内存 state；商店模块随时可能在别处写入积分与装扮。
+     如果不合并，点一下狐狸、换个颜文字就可能把刚买的装扮覆盖回旧的。 */
+  function mergeLatestShop(state) {
+    try {
+      const raw = window.localStorage.getItem(KEY);
+      if (!raw) return;
+      const latest = JSON.parse(raw);
+      if (latest && typeof latest === "object" && latest.shop && typeof latest.shop === "object") {
+        state.shop = latest.shop;
+      }
+    } catch (error) {
+      /* 存档损坏时保留内存里的值 */
+    }
+  }
+
   function persist(state) {
+    mergeLatestShop(state);
     state.updatedAt = new Date().toISOString();
     try {
       window.localStorage.setItem(KEY, JSON.stringify(state));
@@ -302,6 +328,26 @@
       /* 隐私模式或存储被禁用时，至少让本次会话继续可用 */
     }
     return state;
+  }
+
+  /* 商店模块专用的“读盘 → 改 → 立即写盘”通道：
+     不复用内存里的 state，也不会被 mergeLatestShop 用旧值覆盖。
+     单线程 localStorage 下，这就是一次完整且不丢字段的事务。 */
+  function writeRaw(state) {
+    state.v = VERSION;
+    state.updatedAt = new Date().toISOString();
+    try {
+      window.localStorage.setItem(KEY, JSON.stringify(state));
+    } catch (error) {
+      /* ignore */
+    }
+    return state;
+  }
+
+  function update(mutator) {
+    const state = load();
+    if (typeof mutator === "function") mutator(state);
+    return writeRaw(state);
   }
 
   function load() {
@@ -406,6 +452,8 @@
     shouldReturn,
     load,
     save,
+    update,
+    writeRaw,
     setMode,
     pickFace,
     photoUrl
