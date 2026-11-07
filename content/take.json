@@ -1,0 +1,510 @@
+{
+  "word": "take",
+  "ipa_uk": "/teɪk/",
+  "ipa_us": "/teɪk/",
+  "definition_zh": "拿；花费",
+  "definition_en": "to get something into your hands or possession; to use up time or effort",
+  "core_image": "拿到自己这里；花掉时间",
+  "scene": "出门前提醒，你说 Don't forget to take an umbrella with you.",
+  "sceneCN": "这里 take 是「带走、随身携带」（第 2 个义项）；句意：别忘了随身带把伞。",
+  "pos": [
+    {
+      "tag": "vt.",
+      "zh": "拿；取；抓"
+    },
+    {
+      "tag": "vt.",
+      "zh": "带走；乘坐；接受"
+    },
+    {
+      "tag": "vt.",
+      "zh": "花费；需要（时间、精力）"
+    },
+    {
+      "tag": "n.",
+      "zh": "（电影）一次拍摄；（一次）收入"
+    }
+  ],
+  "collocations": [
+    {
+      "phrase": "take off",
+      "zh": "起飞；脱下"
+    },
+    {
+      "phrase": "take care of",
+      "zh": "照顾；处理"
+    },
+    {
+      "phrase": "take part in",
+      "zh": "参加"
+    },
+    {
+      "phrase": "take place",
+      "zh": "发生；举行"
+    },
+    {
+      "phrase": "take away",
+      "zh": "带走；外卖"
+    }
+  ],
+  "forms": [
+    {
+      "label": "三单（第三人称单数）",
+      "form": "takes"
+    },
+    {
+      "label": "过去式",
+      "form": "took"
+    },
+    {
+      "label": "过去分词",
+      "form": "taken"
+    },
+    {
+      "label": "现在分词",
+      "form": "taking"
+    }
+  ],
+  "derivatives": [
+    {
+      "word": "taking",
+      "pos": "n.",
+      "zh": "拿取；获得"
+    },
+    {
+      "word": "taker",
+      "pos": "n.",
+      "zh": "接受者；取用者"
+    },
+    {
+      "word": "takings",
+      "pos": "n.",
+      "zh": "营业收入"
+    },
+    {
+      "word": "takeaway",
+      "pos": "n.",
+      "zh": "外卖；外卖店"
+    }
+  ],
+  "senses": [
+    {
+      "no": "01",
+      "title": "Hand: reach out and grasp",
+      "titleCN": "伸手抓住：用手拿",
+      "definition": "to reach for something and hold it in your hand",
+      "definitionCN": "伸手拿到某物并握在手里",
+      "example": "Take the keys from the table.",
+      "exampleCN": "把桌上的钥匙拿起来。",
+      "why": "The core move is simple: the hand crosses the space to an object and closes on it. At this point nothing else has happened — no carrying, no using.",
+      "whyCN": "核心动作很简单：手越过空间伸向物体，然后合拢握住。到这一步为止还没有别的事发生——没有带走，也没有使用。"
+    },
+    {
+      "no": "02",
+      "title": "Carry: take it along",
+      "titleCN": "带走；随身携带",
+      "definition": "to carry something with you when you go somewhere",
+      "definitionCN": "把某物带在身上去别处",
+      "example": "Take an umbrella with you; it may rain.",
+      "exampleCN": "带把伞，可能会下雨。",
+      "why": "Once the hand has the object, the body moves and the object moves with it. Grasp becomes carry: the arrow keeps going away from the original place.",
+      "whyCN": "手拿到东西之后，人一动，东西就跟着动。'抓住'于是变成'带走'——箭头从原来的位置继续向外延伸。"
+    },
+    {
+      "no": "03",
+      "title": "Take a bus: be carried",
+      "titleCN": "乘坐：被载着走",
+      "definition": "to travel by using a bus, train, taxi, or similar vehicle",
+      "definitionCN": "乘坐（公交、火车、出租车等）",
+      "example": "We took a taxi to the station.",
+      "exampleCN": "我们坐出租车去了车站。",
+      "why": "Here the subject carries nothing; the vehicle carries the person. It is the same 'move away with' relation, with the roles swapped.",
+      "whyCN": "这里主语并没有拿东西，而是交通工具把人带走。还是'带着走'的关系，只是角色反过来了。"
+    },
+    {
+      "no": "04",
+      "title": "Receive: the thing comes to you",
+      "titleCN": "接受；收下",
+      "definition": "to accept something that is offered or given",
+      "definitionCN": "接受别人给的东西或提议",
+      "example": "She took the job without hesitating.",
+      "exampleCN": "她毫不犹豫地接受了这份工作。",
+      "why": "Take reverses direction here: instead of reaching out, you let what is offered cross into your boundary. Handing over is the mirror image of taking away.",
+      "whyCN": "take 在这里方向反过来：不是你伸手去够，而是让递过来的东西越过边界进入你这边。'递出'正是'拿走'的镜像动作。"
+    },
+    {
+      "no": "05",
+      "title": "Take medicine: let it into the body",
+      "titleCN": "服用；吸入（进入身体）",
+      "definition": "to swallow medicine, or to draw air or liquid into your body",
+      "definitionCN": "服（药）；吸（气）",
+      "example": "Take this medicine twice a day.",
+      "exampleCN": "这药每天吃两次。",
+      "why": "The body is a container with an opening; what goes in is taken in. Physical grasp becomes ingestion — the object ends up inside you.",
+      "whyCN": "身体是一个有开口的容器，从开口进去的东西就是被'拿进去'了。用手抓取变成了吞入，物体最终到了你身体里面。"
+    },
+    {
+      "no": "06",
+      "title": "It takes an hour: use up time",
+      "titleCN": "花费（时间）",
+      "definition": "to need a certain amount of time",
+      "definitionCN": "需要、花费（若干时间）",
+      "example": "The trip takes about two hours.",
+      "exampleCN": "这趟行程大约要两个小时。",
+      "why": "Time is imagined as a measured supply you draw from. The action takes hours out of your day and they are gone — grasp becomes consumption of time.",
+      "whyCN": "时间被想象成一份可以取用的量。这件事从你的一天里'拿走'几个小时，用完就没了——抓取于是变成了对时间的消耗。"
+    },
+    {
+      "no": "07",
+      "title": "It takes courage: require a quality",
+      "titleCN": "需要（勇气、努力等）",
+      "definition": "to need a particular quality or amount of effort",
+      "definitionCN": "需要（某种品质或努力）",
+      "example": "It takes courage to admit you were wrong.",
+      "exampleCN": "承认自己错了需要勇气。",
+      "why": "This extends the time sense: a task draws on a resource — courage, patience, skill — and uses part of it up. Whatever a job consumes, the job 'takes'.",
+      "whyCN": "这是时间义的延伸：一件事会从你身上取用某种资源——勇气、耐心、技巧——并消耗掉一部分。凡是任务要消耗的东西，都可以说它'需要'。"
+    },
+    {
+      "no": "08",
+      "title": "Take it as a promise: interpret",
+      "titleCN": "理解；把……当作",
+      "definition": "to understand something in a particular way",
+      "definitionCN": "以某种方式理解；把……看作",
+      "example": "I took her silence as a yes.",
+      "exampleCN": "我把她的沉默当成了同意。",
+      "why": "Understanding is grasping with the mind: an idea outside you is picked up and brought inside. The hand's reach becomes the mind's reach.",
+      "whyCN": "理解是用心智去抓取：外面的一条信息被接住，带进里面。手的伸展变成了心智的伸展。"
+    },
+    {
+      "no": "09",
+      "title": "Take a photo: capture an image",
+      "titleCN": "拍摄；记录（影像）",
+      "definition": "to make a photograph, or to record an image or a measurement",
+      "definitionCN": "拍照；记录（影像、数据）",
+      "example": "He took a photo of the sunset.",
+      "exampleCN": "他拍了一张日落的照片。",
+      "why": "The camera grasps the light and fixes it, so the image is taken and kept. Capture is a technical kind of taking: the object is copied into your possession.",
+      "whyCN": "相机'抓住'光线并把它固定下来，影像就被取走并留住了。'捕捉'是 take 的技术版：把对象复制一份收进自己的所有物里。"
+    },
+    {
+      "no": "10",
+      "title": "Take five from ten: remove or subtract",
+      "titleCN": "拿走；减去",
+      "definition": "to remove something, or to subtract one number from another",
+      "definitionCN": "拿走；从……中减去",
+      "example": "Take five from ten and you get five.",
+      "exampleCN": "十减去五等于五。",
+      "why": "This is the plainest reading of take away: the thing leaves its place and goes elsewhere. In arithmetic the number is simply taken out of the total.",
+      "whyCN": "这是 take away 最字面的读法：东西离开原位、去了别处。在算术里，就是把一个数从总数里'拿走'。"
+    }
+  ],
+  "etymology": {
+    "intro": {
+      "en": "take is a Scandinavian loan that pushed out the native English verb for 'take'. The dates below are approximate.",
+      "cn": "take 是一个斯堪的纳维亚借词，它把英语本土表示'拿'的动词挤出了常用位置。下面的年代为大致估计。"
+    },
+    "items": [
+      {
+        "era": "OLD NORSE (c. 800–1100)",
+        "en": "Old Norse taka meant 'to take, grasp, lay hold', with past tense tok and past participle tekinn. The same verb survives in Swedish ta and Danish tage.",
+        "cn": "古诺斯语 taka 意为'拿、抓、握住'，过去式 tok，过去分词 tekinn。同一个动词至今留在瑞典语 ta 和丹麦语 tage 里。"
+      },
+      {
+        "era": "LATE OLD ENGLISH (c. 1000–1150)",
+        "en": "English borrowed it as tacan, first in northern texts where Scandinavian settlement was dense. From the 12th century the weaker sense 'get for oneself, obtain, receive' appears.",
+        "cn": "英语把它借进来作 tacan，最早出现在斯堪的纳维亚人聚居的北部文本中。到 12 世纪，较弱的'弄到自己手里、获得、收到'义开始出现。"
+      },
+      {
+        "era": "PROTO-GERMANIC",
+        "en": "The verb goes back to *takan- (root *tak- 'to take'), source also of Middle Low German tacken, Middle Dutch taken and Gothic tekan 'to touch'. The origin of the root itself is uncertain; OED suggests it may originally have meant 'to touch'.",
+        "cn": "这个词可追溯到原始日耳曼语 *takan-（词根 *tak- '拿'），中古低地德语 tacken、中古荷兰语 taken、哥特语 tekan'触摸'都来自这里。词根本身的来源不确定，OED 推测它最初也许是'触摸'的意思。"
+      },
+      {
+        "era": "LATIN SIDE",
+        "en": "Latin had a semantic twin, capere 'to take, seize' (past participle captus), which gave English capture, accept, except and concept. It is a separate borrowing, not a cognate. Latin tangere 'to touch' looks similar to *tak-, but no proven link is established, so the resemblance should be treated as coincidence.",
+        "cn": "拉丁语有一个意思上的孪生词 capere'拿、抓'（过去分词 captus），它给英语留下了 capture、accept、except、concept。这是另一条借入路径，不是同源词。拉丁语 tangere'触摸'和 *tak- 看起来相似，但并没有被证实的亲缘关系，所以这种相似只应当作巧合。"
+      },
+      {
+        "era": "MODERN ENGLISH",
+        "en": "Modern English keeps the strong pattern take – took – taken, and take replaced the older native verb niman, which died out around 1500 except in the slang sense 'steal'. The noun take 'that which is taken' dates from the 1650s.",
+        "cn": "现代英语保留强动词变化 take – took – taken；take 取代了更早的本土动词 niman，后者约在 1500 年消失，只剩'偷'这一俚语义。名词 take（'所取之物'）始见于 17 世纪 50 年代。"
+      }
+    ]
+  },
+  "similar": {
+    "note": {
+      "en": "Words below are easy to mix up with take. The notes start with sound and spelling, then give the meaning.",
+      "cn": "下面这些词很容易和 take 混淆。说明先讲读音和拼写，再讲意思。"
+    },
+    "groups": [
+      {
+        "heading": "SOUND-ALIKE",
+        "entries": [
+          {
+            "word": "tack",
+            "ipa": "/tæk/",
+            "tag": "near sound",
+            "definition": "a short nail with a flat head; also a way of doing something. The vowel is short /æ/, not the diphthong /eɪ/.",
+            "definitionCN": "图钉；方针、做法。元音是短音 /æ/，不是双元音 /eɪ/。"
+          },
+          {
+            "word": "tech",
+            "ipa": "/tek/",
+            "tag": "near sound",
+            "definition": "technology, or the technology industry. It also ends in /k/, but the vowel is /e/, not /eɪ/.",
+            "definitionCN": "科技；科技行业。结尾同样是 /k/，但元音是 /e/，不是 /eɪ/。"
+          },
+          {
+            "word": "teak",
+            "ipa": "/tiːk/",
+            "tag": "near sound",
+            "definition": "a hard tropical wood used for furniture and boats. The long /iː/ makes it rhyme with peak, not with take.",
+            "definitionCN": "柚木（一种做家具和船的硬木）。长音 /iː/ 让它与 peak 押韵，而不是与 take 押韵。"
+          }
+        ]
+      },
+      {
+        "heading": "LOOK-ALIKE",
+        "entries": [
+          {
+            "word": "make",
+            "ipa": "/meɪk/",
+            "tag": "spelling",
+            "definition": "to create or cause something. Same -ake ending and same rhyme, but m- instead of t-, and the meaning is production.",
+            "definitionCN": "制作；使成为。同样是 -ake 结尾、同样押韵，但开头是 m- 不是 t-，意思是'做'。"
+          },
+          {
+            "word": "sake",
+            "ipa": "/seɪk/",
+            "tag": "spelling",
+            "definition": "purpose or benefit, as in for the sake of. Same rhyme and ending; only the first letter differs.",
+            "definitionCN": "缘故、利益，常用于 for the sake of。押韵和结尾相同，只差第一个字母。"
+          },
+          {
+            "word": "tale",
+            "ipa": "/teɪl/",
+            "tag": "spelling",
+            "definition": "a story. The first three letters and the vowel are the same, but it ends in -le, not -ke.",
+            "definitionCN": "故事。前三个字母和元音相同，但结尾是 -le，不是 -ke。"
+          },
+          {
+            "word": "tank",
+            "ipa": "/tæŋk/",
+            "tag": "spelling",
+            "definition": "a large container, or an armoured vehicle. Same ta- start, but the vowel is /æ/ and the ending is -nk.",
+            "definitionCN": "大容器；坦克。开头同为 ta-，但元音是 /æ/，结尾是 -nk。"
+          },
+          {
+            "word": "talk",
+            "ipa": "/tɔːk/",
+            "tag": "spelling",
+            "definition": "to speak. It starts with tal- and ends in -k, but the vowel is /ɔː/ and the l is pronounced.",
+            "definitionCN": "说话。开头是 tal-、结尾是 -k，但元音是 /ɔː/，而且 l 要发音。"
+          }
+        ]
+      }
+    ]
+  },
+  "mnemonics": {
+    "normalIntro": {
+      "en": "Normal associations: real compounds, real phrases and real scenes. No invented etymology.",
+      "cn": "正常联想：真实的复合词、真实短语和真实场景，不编造词源。"
+    },
+    "normal": [
+      {
+        "en": "take a photo — here take means capture, not grab. The camera takes the image and keeps it, which is why we can also say capture a photo.",
+        "cn": "take a photo —— 这里的 take 是'捕捉'，不是'抓'。相机把影像取走并保存下来，所以也可以说 capture a photo。"
+      },
+      {
+        "en": "take medicine — the mouth is the boundary; the medicine crosses it and ends up inside the body.",
+        "cn": "take medicine —— 嘴就是那道边界；药越过它，最后进到身体里面。"
+      },
+      {
+        "en": "It takes an hour — time is treated as a supply you spend, so an activity draws hours out of your day.",
+        "cn": "It takes an hour —— 时间被视为一份可以花掉的存量，所以一件事会从你的一天里取走几个小时。"
+      },
+      {
+        "en": "take after someone — a family resemblance is 'taken' from your parents: a feature is received and carried with you.",
+        "cn": "take after someone —— 家族相似是从父母那里'拿'来的：某个特征被接收下来，一直带着。"
+      },
+      {
+        "en": "mistake = mis- (wrongly) + take. The word first meant 'misunderstand': to take something in the wrong way.",
+        "cn": "mistake = mis-（错误地）+ take。这个词最早就是'误解'的意思：把某物拿错了方向。"
+      }
+    ],
+    "abstract": [
+      {
+        "en": "Abstractly, take is an arrow that ends at you: something outside your boundary crosses the line and becomes yours. Symbol: ○ ──▶ ●",
+        "cn": "抽象地看，take 是一支指向你的箭头：边界外的东西越过这条线，变成你的。符号：○ ──▶ ●"
+      },
+      {
+        "en": "The same arrow can move an object (carry), a person (a bus takes you), or time (an hour is drawn out of your day). The geometry never changes; only the cargo does.",
+        "cn": "同一支箭头可以搬运物体（带走）、搬运人（公交车把你带走），也可以搬运时间（一小时从你的一天里被抽走）。几何形状从不改变，变的只是被搬的东西。"
+      },
+      {
+        "en": "Mental taking repeats the move inward: an idea outside you is grasped and brought inside, which is why take can mean 'understand' and 'interpret'. Symbol: ○ ──▶ ● with the arrow ending in the mind.",
+        "cn": "心智上的 take 重复同一次向内移动：外面的一个想法被抓住、带进里面，所以 take 能表示'理解'和'解读'。符号：○ ──▶ ●，只是箭头终点落在心里。"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "en": "Take the umbrella with you; it looks like rain.",
+      "cn": "带把伞，看样子要下雨。"
+    },
+    {
+      "en": "It took me an hour to finish the report.",
+      "cn": "我花了一小时才写完报告。"
+    },
+    {
+      "en": "I took his advice and changed my plan.",
+      "cn": "我接受了他的建议，改了计划。"
+    }
+  ],
+  "dict_mnemonic": {
+    "note": "谐音记忆 · 非词源",
+    "text": "坦克（take）—— 坦克开过来，一把把东西都拿走了 → take",
+    "word": "take"
+  },
+  "root": "源自古诺斯语 taka（抓、拿），约 11 世纪借入英语，逐渐取代本土的 niman。",
+  "sensesIntro": {
+    "en": "Ten common senses of take. One movement runs through them all: reach out, close the hand, bring the thing to yourself.",
+    "cn": "take 的十个常见义项。一条动作贯穿全部：伸手、合掌、把东西带到自己这里。"
+  },
+  "semanticMap": {
+    "core": {
+      "en": "CORE IMAGE: reach out → grasp → bring the thing across the boundary to yourself.",
+      "cn": "核心意象：伸手 → 抓住 → 把东西越过边界带到自己这里。"
+    },
+    "chain": [
+      "REACH OUT",
+      "GRASP",
+      "CARRY AWAY",
+      "RECEIVE",
+      "CONSUME",
+      "ACCEPT"
+    ],
+    "branches": [
+      {
+        "senses": "S1 · S2",
+        "en": "PHYSICAL TAKE: the hand reaches, closes, and the body carries the object away with it.",
+        "cn": "物理拿取：手伸出去、合拢，然后身体把物体一起带走。"
+      },
+      {
+        "senses": "S3",
+        "en": "BE CARRIED: the vehicle does the carrying and the person is the cargo — the same relation with the roles reversed.",
+        "cn": "被载着走：交通工具承担'带'的动作，人成了被带的东西——同一种关系，角色对调。"
+      },
+      {
+        "senses": "S4 · S8",
+        "en": "INTO ONE'S OWN: what is offered crosses in (accept), and what is understood crosses into the mind (interpret).",
+        "cn": "进入自己的范围：递过来的东西越过边界（接受），被理解的东西进入心智（解读）。"
+      },
+      {
+        "senses": "S5 · S6 · S7",
+        "en": "CONSUMPTION: body, time and effort are finite supplies; whatever a task draws out of them, the task 'takes'.",
+        "cn": "消耗：身体、时间和精力都是有限存量；一件事从其中取走多少，它就'花费'多少。"
+      },
+      {
+        "senses": "S9 · S10",
+        "en": "CAPTURE AND REMOVAL: an image is taken and kept; a number is taken out of the total.",
+        "cn": "捕捉与移除：影像被取走并保存；数字从总数里被拿走。"
+      }
+    ]
+  },
+  "affixes": {
+    "intro": {
+      "en": "take is a highly productive element: prefixes and suffixes point its core motion — reach, grasp, remove — at new meanings.",
+      "cn": "take 是一个能产性很高的成分：前缀和后缀把它'伸手、抓住、拿走'的核心动作引导到新的含义上。"
+    },
+    "latinIntro": {
+      "en": "Latin capere 'to take, seize' (past participle captus) built a large English family with the forms cap-, cip- and cept-. This is a separate borrowing with the same core meaning, not a cognate of take.",
+      "cn": "拉丁语 capere'拿、抓'（过去分词 captus）在英语里造出了一个庞大的词族，形式包括 cap-、cip- 和 cept-。这是另一条借入路径，核心意思相同，但不是 take 的同源词。"
+    },
+    "items": [
+      {
+        "word": "mistake",
+        "structure": "mis- (wrongly) + take",
+        "meaning": "to understand wrongly; an error",
+        "meaningCN": "误解；错误（mis- 表示'错误地'）",
+        "example": "I mistook her umbrella for mine.",
+        "exampleCN": "我把她的伞错当成我的了。"
+      },
+      {
+        "word": "overtake",
+        "structure": "over- (beyond, past) + take",
+        "meaning": "to catch up with and pass someone or something",
+        "meaningCN": "追上并超过（over- 表示'越过、超过'）",
+        "example": "The cyclist overtook the bus on the left.",
+        "exampleCN": "骑车的人从左侧超过了公交车。"
+      },
+      {
+        "word": "undertake",
+        "structure": "under- (upon oneself, beneath the load) + take",
+        "meaning": "to take a task upon oneself; to begin work on it",
+        "meaningCN": "承担；着手做（under- 在这里表示'把担子放到自己身上'）",
+        "example": "The company agreed to undertake the repairs.",
+        "exampleCN": "公司同意承担维修工作。"
+      },
+      {
+        "word": "intake",
+        "structure": "in- (in, into) + take",
+        "meaning": "the amount taken in; also an opening where something enters",
+        "meaningCN": "摄入量；进气口（in- 表示'进入'）",
+        "example": "You should cut down your salt intake.",
+        "exampleCN": "你该减少盐的摄入量。"
+      },
+      {
+        "word": "taken",
+        "structure": "take + -en (past participle ending)",
+        "meaning": "the past participle: grasped, received, or occupied",
+        "meaningCN": "过去分词：被拿走的、被接受的、被占用的（-en 是过去分词词尾）",
+        "example": "All the seats were taken.",
+        "exampleCN": "所有座位都被占了。"
+      },
+      {
+        "word": "taker",
+        "structure": "take + -er (person who does the action)",
+        "meaning": "a person who takes something, often in a stated way",
+        "meaningCN": "取用者、接受者（-er 表示做这个动作的人）",
+        "example": "She is a risk-taker by nature.",
+        "exampleCN": "她天生是个爱冒险的人。"
+      },
+      {
+        "word": "takings",
+        "structure": "take + -ing + -s (things taken in)",
+        "meaning": "the money a shop or business receives from sales",
+        "meaningCN": "营业收入（-ings 表示'收进来的东西'）",
+        "example": "The shop's takings fell during the winter.",
+        "exampleCN": "这家店冬天的营业额下降了。"
+      }
+    ],
+    "latinEntries": [
+      {
+        "word": "capture",
+        "structure": "capt- (taken) + -ure",
+        "meaning": "to catch and hold someone or something; the act of catching",
+        "meaningCN": "捕获；夺取"
+      },
+      {
+        "word": "accept",
+        "structure": "ac- (to) + cept- (taken)",
+        "meaning": "to take something that is offered to you",
+        "meaningCN": "接受（把递来的东西拿过来）"
+      },
+      {
+        "word": "except",
+        "structure": "ex- (out) + cept- (taken)",
+        "meaning": "to take one thing out of the rest; hence 'not including'",
+        "meaningCN": "把……拿出去 → 除……之外"
+      },
+      {
+        "word": "concept",
+        "structure": "con- (together) + cept- (taken)",
+        "meaning": "an idea the mind has taken in and gathered together",
+        "meaningCN": "概念（心智把信息收拢、拿住的结果）"
+      }
+    ]
+  }
+}

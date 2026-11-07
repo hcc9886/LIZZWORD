@@ -1,0 +1,506 @@
+{
+  "word": "keep",
+  "ipa_uk": "/kiːp/",
+  "ipa_us": "/kiːp/",
+  "definition_zh": "保持；保留",
+  "definition_en": "to continue to have something, or to stay in a state or course of action",
+  "core_image": "让状态持续下去",
+  "scene": "考试前老师说 Please keep quiet during the exam.",
+  "sceneCN": "这里 keep 是「保持（某种状态）」（第 2 个义项）；句意：考试期间请保持安静。",
+  "pos": [
+    {
+      "tag": "vt.",
+      "zh": "保留；保存；留着"
+    },
+    {
+      "tag": "vt.",
+      "zh": "使保持（某种状态）；继续做"
+    },
+    {
+      "tag": "vt.",
+      "zh": "遵守；守（秘密）"
+    },
+    {
+      "tag": "vt.",
+      "zh": "饲养；经营；照料"
+    },
+    {
+      "tag": "n.",
+      "zh": "生计；饲养费；（城堡）主楼"
+    }
+  ],
+  "collocations": [
+    {
+      "phrase": "keep on",
+      "zh": "继续（做）"
+    },
+    {
+      "phrase": "keep up",
+      "zh": "跟上；保持"
+    },
+    {
+      "phrase": "keep away",
+      "zh": "远离；不靠近"
+    },
+    {
+      "phrase": "keep in touch",
+      "zh": "保持联系"
+    },
+    {
+      "phrase": "keep quiet",
+      "zh": "保持安静；保密"
+    }
+  ],
+  "forms": [
+    {
+      "label": "三单（第三人称单数）",
+      "form": "keeps"
+    },
+    {
+      "label": "过去式",
+      "form": "kept"
+    },
+    {
+      "label": "过去分词",
+      "form": "kept"
+    },
+    {
+      "label": "现在分词",
+      "form": "keeping"
+    }
+  ],
+  "derivatives": [
+    {
+      "word": "keeping",
+      "pos": "n.",
+      "zh": "保管；保持一致"
+    },
+    {
+      "word": "keeper",
+      "pos": "n.",
+      "zh": "看守人；守门员"
+    },
+    {
+      "word": "keepsake",
+      "pos": "n.",
+      "zh": "纪念品"
+    },
+    {
+      "word": "upkeep",
+      "pos": "n.",
+      "zh": "保养；保养费"
+    }
+  ],
+  "senses": [
+    {
+      "no": "01",
+      "title": "Keep it: continue to have",
+      "titleCN": "保留：继续拥有",
+      "definition": "to continue to have something and not give it away",
+      "definitionCN": "继续拥有某物，不把它给出去",
+      "example": "You can keep the book; I have another copy.",
+      "exampleCN": "这本书你留着吧，我还有一本。",
+      "why": "The core is continuation, not grasp. The object stays in your possession across time; nothing moves, and that is exactly the point.",
+      "whyCN": "核心是'持续'，不是'抓'。东西在时间里一直留在你的所有范围内；什么都没动，而这正是要点。"
+    },
+    {
+      "no": "02",
+      "title": "Keep warm: stay in a state",
+      "titleCN": "保持（某种状态）",
+      "definition": "to stay, or to make someone or something stay, in a particular state",
+      "definitionCN": "（使）保持某种状态",
+      "example": "Keep warm and drink plenty of water.",
+      "exampleCN": "注意保暖，多喝水。",
+      "why": "A state is treated like an object you can hold in place. The adjective names the state, and keep says: do not let it change.",
+      "whyCN": "一种状态被当作可以'按住'的东西。形容词说出是什么状态，keep 则说：别让它变。"
+    },
+    {
+      "no": "03",
+      "title": "Keep talking: continue an action",
+      "titleCN": "继续做（某事）",
+      "definition": "to continue doing something, or to do it repeatedly",
+      "definitionCN": "继续做某事；反复做",
+      "example": "She kept talking even after everyone had left.",
+      "exampleCN": "大家都走了，她还在讲。",
+      "why": "An action is stretched along the time line instead of an object being held. Keep + -ing means the action is not allowed to stop.",
+      "whyCN": "这里被拉长时间线的不是物体，而是一个动作。keep + -ing 表示这个动作不被允许停下来。"
+    },
+    {
+      "no": "04",
+      "title": "Keep a promise: observe faithfully",
+      "titleCN": "遵守；守（承诺、约）",
+      "definition": "to do what you have promised or agreed to do",
+      "definitionCN": "履行、遵守（承诺、约定、规矩）",
+      "example": "He always keeps his word.",
+      "exampleCN": "他总是守信。",
+      "why": "This is one of the oldest senses: cepan was used around the year 1000 to translate Latin observare 'watch over, heed'. To keep a promise is to watch over it until it is done.",
+      "whyCN": "这是最古老的义项之一：约公元 1000 年，cēpan 就被用来翻译拉丁语 observare'看守、留意'。守约就是把承诺看住，直到它兑现。"
+    },
+    {
+      "no": "05",
+      "title": "Keep a secret: hold it inside",
+      "titleCN": "守住（秘密）；不泄露",
+      "definition": "to not tell other people something private",
+      "definitionCN": "不把私密的事告诉别人",
+      "example": "Can you keep a secret?",
+      "exampleCN": "你能守住秘密吗？",
+      "why": "A secret is information inside your boundary. Keeping it means the boundary holds and nothing leaks out — guarding, not owning.",
+      "whyCN": "秘密是边界里面的信息。守住它，意味着边界不破、没有东西漏出去——这是'看守'，不是'拥有'。"
+    },
+    {
+      "no": "06",
+      "title": "Keep the sheep in: prevent from leaving",
+      "titleCN": "拦住；使不能离开",
+      "definition": "to stop people or animals from leaving or entering a place",
+      "definitionCN": "阻止人或其他动物离开或进入某处",
+      "example": "The fence keeps the sheep in the field.",
+      "exampleCN": "栅栏把羊拦在田里。",
+      "why": "Here keep is a boundary in action: the fence holds the animals inside the frame. The verb describes the frame's effect, not the owner's hand.",
+      "whyCN": "这里的 keep 是'边界在起作用'：栅栏把羊留在框里。动词描述的是框的效果，而不是主人的手。"
+    },
+    {
+      "no": "07",
+      "title": "Keep bees: look after, maintain",
+      "titleCN": "饲养；经营；照料",
+      "definition": "to own and look after animals, or to run a shop or business",
+      "definitionCN": "饲养（动物）；经营（店铺、生意）",
+      "example": "They keep bees and sell the honey.",
+      "exampleCN": "他们养蜂，卖蜂蜜。",
+      "why": "This is the verb's oldest layer: 'tend, watch over' — cattle, bees, a shop. What you keep, you maintain day after day, so keeping becomes a livelihood.",
+      "whyCN": "这是这个词最老的一层意思：'照料、看管'——看牛、养蜂、看店。你 keep 的东西，需要日复一日地维持，于是'照料'变成了'营生'。"
+    },
+    {
+      "no": "08",
+      "title": "Milk keeps for three days: stay fresh",
+      "titleCN": "（食物）保鲜；不变质",
+      "definition": "to stay in good condition; to not spoil",
+      "definitionCN": "（食物等）保持不坏、不变质",
+      "example": "Milk keeps for about three days in the fridge.",
+      "exampleCN": "牛奶在冰箱里大约能放三天。",
+      "why": "The subject is now the thing itself, and keep is intransitive: the state of being good continues on its own. What is preserved is the same state over time.",
+      "whyCN": "这里主语变成了东西本身，keep 也不带宾语：'完好'这个状态自己延续下去。被保住的是同一状态在时间中的延续。"
+    },
+    {
+      "no": "09",
+      "title": "Earn your keep: food and lodging",
+      "titleCN": "生计；食宿（名词）",
+      "definition": "the food, shelter, and money needed to support a person or animal",
+      "definitionCN": "维持生活所需的食宿和费用",
+      "example": "He works on the farm for his keep.",
+      "exampleCN": "他在农场干活，换取食宿。",
+      "why": "The noun turns maintenance into a thing: what is needed to keep you alive. The verb's care becomes the cost of being cared for.",
+      "whyCN": "名词把'维持'变成了一样东西：让你活下去所需要的。动词的'照料'变成了'被照料的代价'。"
+    },
+    {
+      "no": "10",
+      "title": "The castle keep: the part that holds",
+      "titleCN": "（城堡）主楼；永久地（口语）",
+      "definition": "the strong central tower of a castle; also, in for keeps, permanently",
+      "definitionCN": "城堡中央坚固的主楼；for keeps 表示'永久地、当真地'",
+      "example": "The old keep still stands on the hill.",
+      "exampleCN": "那座古老的主楼仍立在山丘上。",
+      "why": "A keep is 'that which keeps' — the stronghold that holds out attackers. For keeps extends the same idea to time: what is kept is not given back.",
+      "whyCN": "keep 作名词指'守住的那个东西'——抵挡进攻的坚固据点。for keeps 把同一个想法延伸到时间上：被 keep 住的东西不再还回去。"
+    }
+  ],
+  "etymology": {
+    "intro": {
+      "en": "keep appears suddenly in written English around the year 1000, already with many senses. Its deeper origin is uncertain, and that uncertainty should be stated rather than hidden.",
+      "cn": "keep 大约在公元 1000 年突然出现在书面英语中，而且一出现就带着许多义项。它更早的来源并不确定，这一点应当说明，而不是掩盖。"
+    },
+    "items": [
+      {
+        "era": "LATE OLD ENGLISH (c. 1000)",
+        "en": "cepan (past tense cepte) meant 'to seize, hold; to seek after, desire', and also 'to observe or carry out in practice; to look out for, pay attention to'. It was used around 1000 to translate Latin observare.",
+        "cn": "cēpan（过去式 cepte）意为'抓住、握住；追求、渴望'，也表示'遵守、践行；留意、关注'。约公元 1000 年它被用来翻译拉丁语 observare。"
+      },
+      {
+        "era": "PROTO-GERMANIC — UNCERTAIN",
+        "en": "The ancestor is reconstructed as *kopjan, but its origin is uncertain. One suggestion links it to Old English capian 'to look' (from *kap-), which would give a basic sense 'keep an eye on, see to it'. Some older notes connect it with cēap 'bargain, purchase' (the source of cheap), but that is not generally accepted. Treat both as hypotheses.",
+        "cn": "祖词被重构为原始日耳曼语 *kopjan，但来源不确定。一种说法把它和古英语 capian'看'（来自 *kap-）联系起来，这样基本义就是'盯着、留意'。一些较早的笔记把它和 cēap'交易、购买'（cheap 的来源）联系起来，但这并非普遍接受的看法。两种都只应当作假设。"
+      },
+      {
+        "era": "MIDDLE ENGLISH (c. 1150–1500)",
+        "en": "Middle English kēpen expanded in every direction: 'guard, defend' (12c.); 'restrain' (early 13c.); 'take care of, protect' (mid-13c.); 'preserve, maintain, carry on' a shop (mid-14c.); 'prevent from leaving' and 'preserve without loss or change' (late 14c.); 'stay, remain' (early 15c.); 'continue doing' (mid-15c.).",
+        "cn": "中古英语 kēpen 向各个方向扩展：'守卫、防御'（12 世纪）；'约束、阻止'（13 世纪初）；'照顾、保护'（13 世纪中）；'维持、经营'店铺（14 世纪中）；'使不能离开'、'保存而不失不变'（14 世纪末）；'停留、留下'（15 世纪初）；'继续做'（15 世纪中）。"
+      },
+      {
+        "era": "LATIN SIDE",
+        "en": "keep was used to translate both Latin conservare 'preserve, keep safe' and tenere 'keep, retain'. The Latin serv- family gave English preserve, conserve, reserve and observe; it is a separate borrowing, not a cognate.",
+        "cn": "keep 曾同时用来翻译拉丁语 conservare'保存、保护'和 tenere'保持、留住'。拉丁语 serv- 词族给英语留下了 preserve、conserve、reserve、observe；这是另一条借入路径，不是同源词。"
+      },
+      {
+        "era": "MODERN ENGLISH",
+        "en": "Modern English has keep – kept – kept. The noun keep dates from the mid-13th century ('care, heed'); 'castle keep' is from the 1580s; 'food or livelihood' from 1801, with earn one's keep from 1885. For keeps is American colloquial, from 1861.",
+        "cn": "现代英语的变化是 keep – kept – kept。名词 keep 始见于 13 世纪中（'照料、留意'）；'城堡主楼'义始见于 16 世纪 80 年代；'食物、生计'义始见于 1801 年，earn one's keep 始见于 1885 年。for keeps 是 1861 年起的美式口语。"
+      }
+    ]
+  },
+  "similar": {
+    "note": {
+      "en": "Words below are easy to confuse with keep. Sound and spelling first, then meaning.",
+      "cn": "下面这些词容易和 keep 混淆。先讲读音和拼写，再讲意思。"
+    },
+    "groups": [
+      {
+        "heading": "SOUND-ALIKE",
+        "entries": [
+          {
+            "word": "keen",
+            "ipa": "/kiːn/",
+            "tag": "near sound",
+            "definition": "very eager, or sharp in mind or edge. Same long /iː/ and one syllable, but it ends in -n, not -p.",
+            "definitionCN": "热衷的；敏锐的。同样是长音 /iː/、单音节，但结尾是 -n，不是 -p。"
+          },
+          {
+            "word": "sleep",
+            "ipa": "/sliːp/",
+            "tag": "near sound",
+            "definition": "to rest with your eyes closed. It rhymes exactly with keep; only the opening sl- differs.",
+            "definitionCN": "睡觉。与 keep 完全押韵，只差开头的 sl-。"
+          },
+          {
+            "word": "jeep",
+            "ipa": "/dʒiːp/",
+            "tag": "near sound",
+            "definition": "a small, strong car for rough ground. Same rhyme, but it starts with the affricate /dʒ/.",
+            "definitionCN": "吉普车。押韵相同，但开头是塞擦音 /dʒ/。"
+          },
+          {
+            "word": "cape",
+            "ipa": "/keɪp/",
+            "tag": "near sound",
+            "definition": "a cloak, or a point of land into the sea. The spelling looks like keep, but the vowel is /eɪ/, not /iː/.",
+            "definitionCN": "披风；海角。拼写像 keep，但元音是 /eɪ/，不是 /iː/。"
+          }
+        ]
+      },
+      {
+        "heading": "LOOK-ALIKE",
+        "entries": [
+          {
+            "word": "kept",
+            "ipa": "/kept/",
+            "tag": "form",
+            "definition": "This is keep's own past tense and past participle, not another word. One syllable, short /e/, ending in -t.",
+            "definitionCN": "这就是 keep 自己的过去式和过去分词，不是另一个词。单音节，短音 /e/，结尾是 -t。"
+          },
+          {
+            "word": "deep",
+            "ipa": "/diːp/",
+            "tag": "spelling",
+            "definition": "going far down or far in. It rhymes with keep and differs only in the first letter.",
+            "definitionCN": "深的。与 keep 押韵，只差第一个字母。"
+          },
+          {
+            "word": "peek",
+            "ipa": "/piːk/",
+            "tag": "spelling",
+            "definition": "to look quickly and secretly. It uses the same letters as keep in a different order, with the same sound pattern.",
+            "definitionCN": "偷看。字母和 keep 相同只是顺序不同，读音模式也一样。"
+          },
+          {
+            "word": "kelp",
+            "ipa": "/kelp/",
+            "tag": "spelling",
+            "definition": "a large brown seaweed. It starts with kel- and ends in -p, but the vowel is short /e/.",
+            "definitionCN": "海带（大型褐藻）。开头是 kel-、结尾是 -p，但元音是短音 /e/。"
+          }
+        ]
+      }
+    ]
+  },
+  "mnemonics": {
+    "normalIntro": {
+      "en": "Normal associations: real phrases and real compounds that show the same 'continue, maintain' idea.",
+      "cn": "正常联想：真实的短语和复合词，它们都体现同一个'持续、维持'的想法。"
+    },
+    "normal": [
+      {
+        "en": "keep the change — the money stays with you instead of going back to the cashier; keep means 'continue to have'.",
+        "cn": "keep the change —— 钱留在你这里，不再回到收银员手里；keep 就是'继续拥有'。"
+      },
+      {
+        "en": "keep a promise — the promise is watched over until it is carried out; this is the oldest recorded sense of keep, 'observe'.",
+        "cn": "keep a promise —— 承诺被看住，直到兑现；这正是 keep 最早被记录的义项'遵守'。"
+      },
+      {
+        "en": "keep a shop / keep bees — keep here means tend and maintain. This is the 'watch over' layer that the verb started from.",
+        "cn": "keep a shop / keep bees —— 这里的 keep 是'照料、维持'。这就是这个词出发时的那层'看管'意思。"
+      },
+      {
+        "en": "earn your keep — keep as a noun is the food and shelter that maintain you; working for it means paying for that maintenance.",
+        "cn": "earn your keep —— 名词 keep 指维持你生活的食宿；为它干活，就是为这份'维持'付账。"
+      },
+      {
+        "en": "keepsake = keep + sake: an object kept for the sake of the person who gave it.",
+        "cn": "keepsake = keep + sake：为了送给你的人而一直留着的物件，也就是纪念品。"
+      }
+    ],
+    "abstract": [
+      {
+        "en": "Abstractly, keep is a line, not a frame: the same state repeated along time. Symbol: ●━━━● — same dot, unbroken line.",
+        "cn": "抽象地看，keep 是一条线，而不是一个框：同一状态沿着时间重复。符号：●━━━● —— 同一个点，一条不断的线。"
+      },
+      {
+        "en": "Where hold stops something from leaving, keep stops something from changing: a kept promise, a kept record, a kept habit. Guarding is the daily maintenance of that line. Symbol: ●━━━● with a watchful eye above it.",
+        "cn": "hold 阻止东西离开，keep 阻止东西改变：守住的承诺、保存的记录、保持的习惯。'看守'就是每天给这条线做维护。符号：●━━━●，上方再加一只留意的眼睛。"
+      },
+      {
+        "en": "The line can also be a supply: what you keep, you continue to have — a shop, animals, food, a livelihood. Continuity becomes sustenance. Symbol: ●━━━● turning into a bowl at the end.",
+        "cn": "这条线也可以是一份供给：你 keep 的东西，你就继续拥有——店铺、牲畜、食物、生计。'延续'于是变成'养命'。符号：●━━━●，线尾变成一个碗。"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "en": "You can keep the change.",
+      "cn": "零钱你留着吧。"
+    },
+    {
+      "en": "She kept working until midnight.",
+      "cn": "她一直工作到半夜。"
+    },
+    {
+      "en": "Can you keep a secret?",
+      "cn": "你能守住秘密吗？"
+    }
+  ],
+  "dict_mnemonic": {
+    "note": "谐音记忆 · 非词源",
+    "text": "科普（keep）—— 好的科普知识值得一直保留、别丢 → keep",
+    "word": "keep"
+  },
+  "root": "源自晚期古英语 cēpan（看守、留意），词源本身不确定。",
+  "sensesIntro": {
+    "en": "Ten common senses of keep. One idea runs through them: a state is continued, and continuing it takes care.",
+    "cn": "keep 的十个常见义项。一个想法贯穿其中：让某种状态持续下去，而持续需要照料。"
+  },
+  "semanticMap": {
+    "core": {
+      "en": "CORE IMAGE: hold a state or thing steady through time — continuity, not grip.",
+      "cn": "核心意象：让某个状态或东西在时间中稳定延续——重点是连续，不是抓握。"
+    },
+    "chain": [
+      "HOLD",
+      "WATCH",
+      "CONTINUE",
+      "PRESERVE",
+      "MAINTAIN",
+      "SUSTAIN"
+    ],
+    "branches": [
+      {
+        "senses": "S1 · S2 · S3",
+        "en": "CONTINUATION: possession, a state, or an action simply goes on — the same thing across more time.",
+        "cn": "延续：所有物、状态或动作只是继续下去——同一个东西占据更多时间。"
+      },
+      {
+        "senses": "S4 · S5",
+        "en": "WATCHING OVER: a promise is observed and a secret is guarded; both need attention holding the line.",
+        "cn": "看管：承诺被遵守，秘密被守住；两者都需要注意力把这条线按住。"
+      },
+      {
+        "senses": "S6",
+        "en": "BOUNDARY: a fence keeps animals in — the frame itself does the holding.",
+        "cn": "边界：栅栏把牲畜拦在里面——起'握'作用的是框本身。"
+      },
+      {
+        "senses": "S7 · S8",
+        "en": "MAINTENANCE: animals and shops need daily care; food keeps when its good state lasts.",
+        "cn": "维持：牲畜和店铺需要天天照料；食物的'好状态'能持续，就是保鲜。"
+      },
+      {
+        "senses": "S9 · S10",
+        "en": "NOUN: what maintains you (keep = food and lodging), and the stronghold that holds out — for keeps means for good.",
+        "cn": "名词：维持你生活的东西（keep 指食宿），以及守住不放的据点——for keeps 就是'永久地'。"
+      }
+    ]
+  },
+  "affixes": {
+    "intro": {
+      "en": "keep forms real compounds with -er, -ing and everyday nouns; each one keeps the core idea of continuing or maintaining.",
+      "cn": "keep 与 -er、-ing 以及日常名词构成真实的复合词；每一个都保留了'持续、维持'的核心意思。"
+    },
+    "latinIntro": {
+      "en": "Latin servare 'to keep safe' (stem serv-) produced preserve, conserve, reserve and observe — a separate borrowing with the same core meaning, not a cognate of keep.",
+      "cn": "拉丁语 servare'保全'（词干 serv-）产生了 preserve、conserve、reserve、observe——这是另一条借入路径，核心意思相同，但不是 keep 的同源词。"
+    },
+    "items": [
+      {
+        "word": "keeper",
+        "structure": "keep + -er (person who keeps)",
+        "meaning": "a person who looks after something, such as animals or a place",
+        "meaningCN": "看守人、饲养员；守门员（-er 表示做这个动作的人）",
+        "example": "The keeper feeds the animals at six.",
+        "exampleCN": "饲养员六点喂动物。"
+      },
+      {
+        "word": "keeping",
+        "structure": "keep + -ing (act or state of keeping)",
+        "meaning": "the act of keeping something; also agreement or harmony",
+        "meaningCN": "保管；保持一致、协调（-ing 把动作变成名词）",
+        "example": "The new building is in keeping with the old town.",
+        "exampleCN": "新建筑与老城区风格协调。"
+      },
+      {
+        "word": "keepsake",
+        "structure": "keep + sake (for the sake of)",
+        "meaning": "an object kept because it reminds you of a person or event",
+        "meaningCN": "纪念品（为了某个人或某件事而留着的物件）",
+        "example": "She gave me a photo as a keepsake.",
+        "exampleCN": "她送我一张照片作纪念。"
+      },
+      {
+        "word": "housekeeping",
+        "structure": "house + keeping",
+        "meaning": "the work of cleaning and running a home; also money for household costs",
+        "meaningCN": "家务；家用（料理一个家的日常维持）",
+        "example": "They share the housekeeping and the bills.",
+        "exampleCN": "他们共同承担家务和开销。"
+      },
+      {
+        "word": "upkeep",
+        "structure": "up- (in good order) + keep",
+        "meaning": "the work and money needed to keep something in good condition",
+        "meaningCN": "保养；保养费（up- 表示'维持良好状态'）",
+        "example": "The upkeep of the old house is expensive.",
+        "exampleCN": "这栋老房子的保养费用很高。"
+      },
+      {
+        "word": "beekeeper",
+        "structure": "bee + keeper",
+        "meaning": "a person who keeps and raises bees",
+        "meaningCN": "养蜂人（饲养蜜蜂的人）",
+        "example": "The beekeeper sells honey at the market.",
+        "exampleCN": "养蜂人在市场上卖蜂蜜。"
+      }
+    ],
+    "latinEntries": [
+      {
+        "word": "preserve",
+        "structure": "pre- (beforehand) + serv- (keep safe)",
+        "meaning": "to keep something safe from harm or decay",
+        "meaningCN": "保存；保护（预先保住）"
+      },
+      {
+        "word": "conserve",
+        "structure": "con- (together, fully) + serv- (keep safe)",
+        "meaning": "to keep something from being lost or wasted",
+        "meaningCN": "保存；节约（完整地保住）"
+      },
+      {
+        "word": "reserve",
+        "structure": "re- (back) + serv- (keep safe)",
+        "meaning": "to keep something back for later use; to book",
+        "meaningCN": "保留；预订（留在后面）"
+      },
+      {
+        "word": "observe",
+        "structure": "ob- (toward, before) + serv- (keep, watch)",
+        "meaning": "to watch something carefully; to keep a rule or custom",
+        "meaningCN": "观察；遵守（守在前面看）"
+      }
+    ]
+  }
+}

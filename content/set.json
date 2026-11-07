@@ -1,0 +1,474 @@
+{
+  "word": "set",
+  "ipa_uk": "/set/",
+  "ipa_us": "/set/",
+  "definition_zh": "放置；设定",
+  "definition_en": "to put something in a fixed place or position; to adjust or fix",
+  "core_image": "把东西固定到某个位置",
+  "scene": "设闹钟 Set the alarm for 7.",
+  "sceneCN": "这里 set 是「设定」（第 4 个义项：把装置调到某个值）；句意：把闹钟设到 7 点。",
+  "pos": [
+    {
+      "tag": "vt.",
+      "zh": "放置；设定；使处于（某状态）"
+    },
+    {
+      "tag": "vi.",
+      "zh": "（太阳、月亮）落下；凝固"
+    },
+    {
+      "tag": "n.",
+      "zh": "一套；一组；（网球等）一盘"
+    },
+    {
+      "tag": "adj.",
+      "zh": "固定的；准备好的"
+    }
+  ],
+  "collocations": [
+    {
+      "phrase": "set up",
+      "zh": "建立；安排；安装"
+    },
+    {
+      "phrase": "set off",
+      "zh": "出发；触发"
+    },
+    {
+      "phrase": "set out",
+      "zh": "出发；着手做"
+    },
+    {
+      "phrase": "a set of",
+      "zh": "一套／一组"
+    }
+  ],
+  "forms": [
+    {
+      "label": "三单",
+      "form": "sets"
+    },
+    {
+      "label": "过去式",
+      "form": "set"
+    },
+    {
+      "label": "过去分词",
+      "form": "set"
+    },
+    {
+      "label": "现在分词",
+      "form": "setting"
+    }
+  ],
+  "derivatives": [
+    {
+      "word": "setting",
+      "pos": "n.",
+      "zh": "环境；背景；设置"
+    },
+    {
+      "word": "reset",
+      "pos": "v.",
+      "zh": "重置；重新设定"
+    },
+    {
+      "word": "offset",
+      "pos": "v./n.",
+      "zh": "抵消；补偿"
+    },
+    {
+      "word": "sunset",
+      "pos": "n.",
+      "zh": "日落；末期"
+    }
+  ],
+  "senses": [
+    {
+      "no": "01",
+      "title": "Place: put something down in a spot",
+      "titleCN": "放置：把东西稳当地放到某个位置",
+      "definition": "to put something in a particular place, often carefully or deliberately",
+      "definitionCN": "放置；安放（常指有意识地、稳当地放）",
+      "example": "She set the vase on the shelf.",
+      "exampleCN": "她把花瓶放在架子上。",
+      "why": "Old English settan is the causative of sittan 'to sit': it means 'cause to sit'. So set does not merely move a thing; it makes the thing sit down in a place and stay there.",
+      "whyCN": "古英语 settan 是 sittan（坐）的使役形式，意思是“使……坐”。所以 set 不只是移动东西，而是让东西在某个位置上“坐下来”并待在那里。"
+    },
+    {
+      "no": "02",
+      "title": "Fix: hold something firmly in position",
+      "titleCN": "固定：让东西牢牢待在原位",
+      "definition": "to fix something in position so that it cannot move",
+      "definitionCN": "使固定；使牢固地处于某个位置",
+      "example": "The doctor set the broken bone in a cast.",
+      "exampleCN": "医生把断骨复位固定，打上石膏。",
+      "why": "Settan also carried the sense 'fix firmly'. Once an object has been made to sit, the next idea is that it stays seated: a gem is set in a ring, a bone is set back in place.",
+      "whyCN": "settan 还带有“牢牢固定”的意思。东西被“使坐”之后，下一步就是“坐住不动”：宝石被嵌在戒指上，断骨被固定回原位。"
+    },
+    {
+      "no": "03",
+      "title": "Arrange: set the table",
+      "titleCN": "布置：把东西各就各位",
+      "definition": "to arrange objects in the order or positions they should have",
+      "definitionCN": "布置；安排；把……摆放整齐",
+      "example": "Could you set the table for dinner?",
+      "exampleCN": "你能摆好餐具准备吃晚饭吗？",
+      "why": "Arrangement is many small placements in a pattern. Set the table means make each plate, glass and fork sit in its assigned spot, so the whole table is set.",
+      "whyCN": "布置就是按一个图案做很多次小“放置”。set the table 就是让每个盘子、杯子、叉子都坐到指定位置，于是整张桌子就“摆好了”。"
+    },
+    {
+      "no": "04",
+      "title": "Adjust: set a device to a chosen value",
+      "titleCN": "设定：把装置调到某个值",
+      "definition": "to adjust a clock, machine, or control so that it works at a chosen time or level",
+      "definitionCN": "设定、调校（钟表、机器、控制器到某个时间或数值）",
+      "example": "Set the alarm for seven.",
+      "exampleCN": "把闹钟设到七点。",
+      "why": "A dial is an object set at a mark. Setting the alarm places the pointer in a fixed spot so that the machine acts when it reaches that spot. Physical placement becomes a numeric setting.",
+      "whyCN": "表盘就是一个被“放”在某个刻度上的东西。设闹钟就是把指针放到固定的一点，机器走到那一点就动作。物理上的“放置”由此变成了数值上的“设定”。"
+    },
+    {
+      "no": "05",
+      "title": "Establish: set a date, rule, or record",
+      "titleCN": "确定：定下日期、规则、纪录",
+      "definition": "to decide and fix something such as a date, price, rule, or record",
+      "definitionCN": "确定；规定；创下（日期、价格、规则、纪录）",
+      "example": "They set a date for the wedding.",
+      "exampleCN": "他们定下了婚礼日期。",
+      "why": "Once a thing is fixed in place, it cannot move. A date, a price and a rule are fixed points that everyone must work around. A record is a mark set so high that later attempts are measured against it.",
+      "whyCN": "东西一旦被固定在位置上，就不能动了。日期、价格、规则都是大家必须围着它安排的固定点。纪录则是一个被“放”得很高的刻度，后来者都要对着它量。"
+    },
+    {
+      "no": "06",
+      "title": "Harden: glue or concrete sets",
+      "titleCN": "凝固：胶水、混凝土变硬定型",
+      "definition": "to become solid, firm, or permanent, especially of glue, concrete, or jelly",
+      "definitionCN": "（胶水、混凝土、果冻等）凝固、变硬、定型",
+      "example": "Let the glue set before you use the cup.",
+      "exampleCN": "等胶水凝固后再用杯子。",
+      "why": "This is the intransitive direction of the same image: instead of someone making a thing sit, the material sits down by itself. Particles stop moving, the mass rests, and it is set.",
+      "whyCN": "这是同一意象的不及物方向：不是有人让东西坐下，而是材料自己“坐下来”。颗粒停止运动，整团东西静止下来，于是它凝固了。"
+    },
+    {
+      "no": "07",
+      "title": "Go down: the sun sets",
+      "titleCN": "落下：（太阳）下山",
+      "definition": "to go down below the horizon, used of the sun, moon, or stars",
+      "definitionCN": "（太阳、月亮、星星）落到地平线以下；落下",
+      "example": "The sun sets behind the hills at six.",
+      "exampleCN": "六点太阳落在山后。",
+      "why": "The sun does not literally sit, but it appears to descend and rest below the horizon. English uses the same 'sink down, settle' image here that gives us settle.",
+      "whyCN": "太阳并不是真的“坐”，但它看起来下降并停在地平线以下。英语在这里用的正是与 settle 同源的“下沉、安顿”意象。"
+    },
+    {
+      "no": "08",
+      "title": "Put into a state: set something free",
+      "titleCN": "使处于：使自由、使着火",
+      "definition": "to cause someone or something to be in a particular state",
+      "definitionCN": "使……处于某种状态（set free 释放；set on fire 点燃）",
+      "example": "The birds were set free at the edge of the forest.",
+      "exampleCN": "鸟儿在森林边上被放生了。",
+      "why": "The place where an object is set can be abstract. Instead of a shelf, the location is a condition: free, on fire, in motion. The grammar stays the same: set + object + state.",
+      "whyCN": "东西被“放”的位置可以是抽象的。那个位置不再是一个架子，而是一种状态：自由、着火、运转。句型没变——set + 宾语 + 状态。"
+    },
+    {
+      "no": "09",
+      "title": "A set: things that belong together",
+      "titleCN": "一套：归在一起的一组东西",
+      "definition": "a group of things of the same kind that are used together",
+      "definitionCN": "一套；一组（同类且配套使用的东西）",
+      "example": "She bought a set of kitchen knives.",
+      "exampleCN": "她买了一套厨房刀具。",
+      "why": "A set is things set together: each item was placed with the others, and the group is treated as one fixed unit. The noun keeps the 'placed together' idea of the verb.",
+      "whyCN": "a set 就是被“放”在一起的东西：每一件都被放到其他件旁边，整组被当成一个固定的单位。名词保留了动词“放置在一起”的意思。"
+    },
+    {
+      "no": "10",
+      "title": "A set: the place where a scene happens",
+      "titleCN": "场景：戏剧、电影的布景",
+      "definition": "the scenery and furniture used for a play or film scene",
+      "definitionCN": "（戏剧、电影的）布景；场景",
+      "example": "The crew built a street set in the studio.",
+      "exampleCN": "摄制组在摄影棚里搭了一条街的布景。",
+      "why": "A stage set is scenery set in place: walls, chairs and props are put in fixed positions so the action can happen there. The place itself is built by placement.",
+      "whyCN": "舞台布景就是把布景“放”到位：墙、椅子、道具都被固定在特定位置，好让剧情在那里发生。这个“地点”本身是由一次次摆放搭出来的。"
+    }
+  ],
+  "etymology": {
+    "intro": {
+      "en": "set is a native Germanic word, not a borrowing. It is the causative partner of sit, and that 'make something sit' idea explains its very wide range. Dates are approximate.",
+      "cn": "set 是土生土长的日耳曼词，不是外来借词。它是 sit 的使役搭档，“让某物坐下”这个意思解释了它为什么用途如此之广。年代为大致估计。"
+    },
+    "items": [
+      {
+        "era": "OLD ENGLISH (c. 700–1100)",
+        "en": "settan (transitive) meant 'cause to sit; make or cause to rest as on a seat; put in a definite place; arrange, fix, adjust; appoint (a time)'.",
+        "cn": "古英语 settan（及物）意为“使坐；使像坐在座位上一样安歇；放在确定的位置；安排、固定、调好；定下（时间）”。"
+      },
+      {
+        "era": "PROTO-GERMANIC",
+        "en": "From *(bi)satejanan 'to cause to sit, set', the causative form of the verb that became sit. Cognates include Old Norse setja, Dutch zetten, German setzen and Gothic satjan.",
+        "cn": "来自原始日耳曼语 *(bi)satejanan“使坐、放置”，它是 sit 那个动词的使役形式。同源词包括古诺斯语 setja、荷兰语 zetten、德语 setzen、哥特语 satjan。"
+      },
+      {
+        "era": "PROTO-INDO-EUROPEAN",
+        "en": "The whole family goes back to PIE *sed- 'to sit', which also produced Latin sedere 'to sit' and sella 'seat'. The root is a reconstruction, not a recorded word.",
+        "cn": "整个词族可追溯到原始印欧语 *sed-“坐”，它同时产生了拉丁语 sedere“坐”和 sella“座位”。这个词根是重构出来的，没有直接文献记录。"
+      },
+      {
+        "era": "THE CAUSATIVE PAIR: SET AND SIT",
+        "en": "English has kept the pair: sit is what you do, set is what you do to something else. Because almost anything can be made to sit somewhere, set became a general-purpose verb, like put. It has been confused with sit since at least the early 14c.",
+        "cn": "英语保留了这个成对的区分：sit 是你自己坐，set 是你让别的东西坐。因为几乎任何东西都能被“使坐”，set 就成了像 put 一样的万能动词。至少从 14 世纪初起，它就和 sit 发生混淆。"
+      },
+      {
+        "era": "MODERN ENGLISH",
+        "en": "The verb does not change: set – set – set – setting. The noun set, meaning a group of matching things used together, is recorded in the 15th century and grows from the same 'placed together' idea.",
+        "cn": "动词变化不变形：set – set – set – setting。名词 set 表示“配套的一组东西”，15 世纪已有记录，也是从“放置在一起”这个意思长出来的。"
+      }
+    ]
+  },
+  "similar": {
+    "note": {
+      "en": "set sits inside a cluster of short, similar-looking words. Check the vowel and the final consonant first, then the meaning.",
+      "cn": "set 周围挤着一串又短又像的词。先看元音和词尾辅音，再看意思。"
+    },
+    "groups": [
+      {
+        "heading": "SOUND-ALIKE",
+        "entries": [
+          {
+            "word": "sett",
+            "ipa": "/set/",
+            "tag": "same sound",
+            "definition": "a badger's burrow, or a small paving block. It is a homophone of set but a different noun.",
+            "definitionCN": "獾洞；铺路用小石块。和 set 同音，但是另一个名词。"
+          },
+          {
+            "word": "sit",
+            "ipa": "/sɪt/",
+            "tag": "near sound",
+            "definition": "to rest with your weight on your bottom. The vowel is short /ɪ/, not /e/, and sit is what you do to yourself, not to an object.",
+            "definitionCN": "坐。元音是短音 /ɪ/，不是 /e/；而且 sit 是自己坐，set 是让别的东西坐。"
+          },
+          {
+            "word": "sent",
+            "ipa": "/sent/",
+            "tag": "near sound",
+            "definition": "past tense and past participle of send. It ends in -nt, while set ends in a single t.",
+            "definitionCN": "send（发送）的过去式和过去分词。词尾是 -nt，而 set 只有一个 t。"
+          },
+          {
+            "word": "seat",
+            "ipa": "/siːt/",
+            "tag": "near sound",
+            "definition": "a place to sit, or to place someone in one. The vowel is long /iː/ and the word ends in -t after a long vowel.",
+            "definitionCN": "座位；使就座。元音是长音 /iː/，拼写以 -t 收尾但读起来更长。"
+          }
+        ]
+      },
+      {
+        "heading": "LOOK-ALIKE",
+        "entries": [
+          {
+            "word": "sit",
+            "ipa": "/sɪt/",
+            "tag": "spelling",
+            "definition": "verb: to be seated. One letter differs, but the grammar is opposite: sit is intransitive, set is usually transitive.",
+            "definitionCN": "动词：坐着。只差一个字母，但语法相反：sit 不及物，set 通常及物。"
+          },
+          {
+            "word": "sent",
+            "ipa": "/sent/",
+            "tag": "spelling",
+            "definition": "verb: past of send. It looks like set with an extra n, and the meaning is sending, not placing.",
+            "definitionCN": "动词：send 的过去式。看起来像 set 多了一个 n，意思是“发送”而不是“放置”。"
+          },
+          {
+            "word": "settee",
+            "ipa": "/seˈtiː/",
+            "tag": "spelling",
+            "definition": "a long soft seat for two or more people. It is probably a variant of settle, the bench, so it is a distant relative rather than the same word.",
+            "definitionCN": "长沙发；双人以上座椅。它大概是 settle（长凳）的变体，所以只是远亲，不是同一个词。"
+          }
+        ]
+      }
+    ]
+  },
+  "mnemonics": {
+    "normalIntro": {
+      "en": "Normal associations: real, explainable links — the causative pair with sit, compounds, and everyday scenes.",
+      "cn": "正常联想：真实、可解释的联系——与 sit 的使役配对、复合词和日常场景。"
+    },
+    "normal": [
+      {
+        "en": "set = cause to sit. Whenever you set something down, you are making it sit where you want it.",
+        "cn": "set = 使……坐。每次你把东西放下，都是在让它坐到你想要的位置。"
+      },
+      {
+        "en": "set the table: each plate and fork is placed in its own spot, so the whole arrangement is set.",
+        "cn": "set the table：每个盘子和叉子都放到自己的位置，整个布置就“设定”好了。"
+      },
+      {
+        "en": "sunset = sun + set: the sun appears to sink and rest below the horizon.",
+        "cn": "sunset = sun + set：太阳看起来下沉，停在地平线以下。"
+      },
+      {
+        "en": "mindset = mind + set: a way of thinking that has become fixed, like glue that has set.",
+        "cn": "mindset = mind + set：一种已经固定下来的思维方式，就像凝固了的胶水。"
+      },
+      {
+        "en": "set a record: the mark is placed so high that later attempts must be measured against it.",
+        "cn": "set a record：把刻度放得那么高，后来者都得对着它量。"
+      }
+    ],
+    "abstract": [
+      {
+        "en": "set is placement that becomes permanence: put a thing down, fix it, and it stays.",
+        "cn": "set 是“放置”变成“固定”：把东西放下，固定住，它就留在那里。"
+      },
+      {
+        "en": "Once fixed, the thing can act as a standard — a set clock, a set rule, a set date, a set record.",
+        "cn": "一旦固定，它就能充当标准——调好的钟、定下的规则、定好的日期、创下的纪录。"
+      },
+      {
+        "en": "The same image runs both ways: outward arrangement (a set of tools) and inward settling (glue sets, the sun sets).",
+        "cn": "同一个意象有两个方向：向外的安排（一套工具），以及向内的安顿（胶水凝固、太阳落下）。"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "en": "Set the alarm for seven.",
+      "cn": "把闹钟设到七点。"
+    },
+    {
+      "en": "The sun sets behind the hills.",
+      "cn": "太阳落在山后。"
+    },
+    {
+      "en": "She bought a set of kitchen knives.",
+      "cn": "她买了一套厨房刀具。"
+    }
+  ],
+  "dict_mnemonic": {
+    "note": "谐音记忆 · 非词源",
+    "text": "塞特（set）—— 塞到特定的位置，它就固定住了 → set",
+    "word": "set"
+  },
+  "root": "源自古英语 settan“使坐、放置”，是 sittan（坐）的使役形式，核心是“让某物坐下并固定”。",
+  "sensesIntro": {
+    "en": "Ten common senses of set. Each grows from one core image: cause something to sit in a place, and then make it stay fixed there.",
+    "cn": "set 的十个常见义项。每一个都从同一个核心意象长出来：让某物在某个位置坐下，然后让它固定在那里。"
+  },
+  "semanticMap": {
+    "core": {
+      "en": "CORE IMAGE: cause to sit → rest in a fixed spot → order → permanence.",
+      "cn": "核心意象：使坐 → 停在固定的位置 → 秩序 → 永久不变。"
+    },
+    "chain": [
+      "SIT",
+      "PLACE",
+      "FIX",
+      "ARRANGE",
+      "ESTABLISH",
+      "ADJUST / HARDEN"
+    ],
+    "branches": [
+      {
+        "senses": "S1 · S3",
+        "en": "PLACE AND ARRANGE: a thing is made to sit in a spot; many such spots make a table setting.",
+        "cn": "放置与布置：让东西坐到某个位置；很多个这样的位置就构成一桌摆设。"
+      },
+      {
+        "senses": "S2 · S6 · S7",
+        "en": "FIX AND SINK: the sitting becomes permanent or the material sinks down — a gem, a bone, glue, the sun.",
+        "cn": "固定与下沉：这个“坐”变成永久状态，或者材料向下沉——宝石、断骨、胶水、太阳。"
+      },
+      {
+        "senses": "S4 · S5",
+        "en": "SET A VALUE: a pointer, a date, a rule or a record is pinned to one position and becomes a standard.",
+        "cn": "设定数值：指针、日期、规则、纪录被钉在一个位置上，成为标准。"
+      },
+      {
+        "senses": "S8",
+        "en": "SET A STATE: the abstract location is a condition — free, on fire, in motion.",
+        "cn": "设定状态：抽象的“位置”就是一种状态——自由、着火、运转。"
+      },
+      {
+        "senses": "S9 · S10",
+        "en": "THINGS SET TOGETHER: objects or scenery placed as a group form one set.",
+        "cn": "放在一起的事物：物品或布景成组摆放，就构成一个 set。"
+      }
+    ]
+  },
+  "affixes": {
+    "intro": {
+      "en": "set is a productive element: re-, off-, out- and up- redirect its idea of fixed placement, while -ing turns it into a noun.",
+      "cn": "set 是一个能产的构词成分：re-、off-、out-、up- 等前缀把它“固定放置”的意思引到新方向，-ing 则使它名词化。"
+    },
+    "latinIntro": {
+      "en": "set has no Latin borrowing of its own. The only Latin link is distant: PIE *sed- 'to sit' also gave Latin sedere 'to sit' and sella 'seat', the source of English session, sediment and preside. Those are cognates, not derivatives of set.",
+      "cn": "set 没有自己的拉丁借词来源。它与拉丁语只有很远的联系：原始印欧语 *sed-“坐”同时产生了拉丁语 sedere“坐”和 sella“座位”，英语 session、sediment、preside 来自后者。这些是远亲同源词，不是 set 的派生词。"
+    },
+    "items": [
+      {
+        "word": "setting",
+        "structure": "set + -ing（名词后缀，表动作、结果或状态）",
+        "meaning": "the place and time in which something happens; a control on a device",
+        "meaningCN": "环境；背景；（设备的）设置",
+        "example": "The story has a mountain setting.",
+        "exampleCN": "这个故事以山区为背景。"
+      },
+      {
+        "word": "reset",
+        "structure": "re-（再、重新）+ set",
+        "meaning": "to set something again; to return a device to its first state",
+        "meaningCN": "重新设定；重置（re- 表示“再、重新”）",
+        "example": "Reset the clock after the power cut.",
+        "exampleCN": "停电之后把钟重新调好。"
+      },
+      {
+        "word": "offset",
+        "structure": "off（离开、抵掉）+ set",
+        "meaning": "to balance one cost or effect against another; a difference or displacement",
+        "meaningCN": "抵消；补偿；偏移量",
+        "example": "Higher sales offset the rise in costs.",
+        "exampleCN": "销量上升抵消了成本上涨。"
+      },
+      {
+        "word": "outset",
+        "structure": "out（向外、出发）+ set",
+        "meaning": "the beginning of something",
+        "meaningCN": "开始；开端（out 表示“向外、出发”）",
+        "example": "He warned us at the outset.",
+        "exampleCN": "他一开始就提醒过我们。"
+      },
+      {
+        "word": "sunset",
+        "structure": "sun（太阳）+ set（落下）",
+        "meaning": "the time when the sun goes down; also the end of a period",
+        "meaningCN": "日落；末期（set 指“落下”）",
+        "example": "We watched the sunset from the beach.",
+        "exampleCN": "我们在海滩上看日落。"
+      },
+      {
+        "word": "mindset",
+        "structure": "mind（头脑）+ set（固定下来的东西）",
+        "meaning": "a settled way of thinking",
+        "meaningCN": "心态；思维定式",
+        "example": "A growth mindset helps you keep learning.",
+        "exampleCN": "成长型心态能帮你持续学习。"
+      },
+      {
+        "word": "settle",
+        "structure": "古英语 setlan < setl（座位），与 set 同属“坐”的词族",
+        "meaning": "to come to rest; to live permanently; to decide or arrange",
+        "meaningCN": "安定；定居；解决（经名词 setl“座位”而来，不是 set + -le 的普通派生）",
+        "example": "They settled in a small town near the coast.",
+        "exampleCN": "他们在海边一个小镇定居下来。"
+      }
+    ],
+    "latinEntries": []
+  }
+}

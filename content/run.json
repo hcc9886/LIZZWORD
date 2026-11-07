@@ -1,0 +1,495 @@
+{
+  "word": "run",
+  "ipa_uk": "/rʌn/",
+  "ipa_us": "/rʌn/",
+  "definition_zh": "跑；经营",
+  "definition_en": "to move quickly on foot, or to keep something operating",
+  "core_image": "连续快速地动起来",
+  "scene": "叔叔开咖啡店，他说 My uncle runs a small coffee shop to make a living.",
+  "sceneCN": "这里 run 是「经营」（第 3 个义项：让一件事持续运转）；句意：我叔叔经营一家小咖啡店谋生。",
+  "pos": [
+    {
+      "tag": "vi.",
+      "zh": "跑；流动；运转；延伸；持续"
+    },
+    {
+      "tag": "vt.",
+      "zh": "经营；管理；驾驶；刊登"
+    },
+    {
+      "tag": "n.",
+      "zh": "一段连续；一连串；跑步"
+    }
+  ],
+  "collocations": [
+    {
+      "phrase": "run out of",
+      "zh": "用完；耗尽"
+    },
+    {
+      "phrase": "run into",
+      "zh": "偶遇；撞上"
+    },
+    {
+      "phrase": "run away",
+      "zh": "逃跑"
+    },
+    {
+      "phrase": "run a business",
+      "zh": "经营生意"
+    },
+    {
+      "phrase": "in the long run",
+      "zh": "从长远来看"
+    }
+  ],
+  "forms": [
+    {
+      "label": "三单（he/she/it）",
+      "form": "runs"
+    },
+    {
+      "label": "过去式（已经跑过）",
+      "form": "ran"
+    },
+    {
+      "label": "过去分词（完成体／被动）",
+      "form": "run"
+    },
+    {
+      "label": "现在分词（进行体）",
+      "form": "running"
+    }
+  ],
+  "derivatives": [
+    {
+      "word": "runner",
+      "pos": "n.",
+      "zh": "跑步者；赛跑者"
+    },
+    {
+      "word": "running",
+      "pos": "n./adj.",
+      "zh": "跑步；连续的；运转中的"
+    },
+    {
+      "word": "runaway",
+      "pos": "adj./n.",
+      "zh": "逃跑的；失控的；逃亡者"
+    },
+    {
+      "word": "rerun",
+      "pos": "n./v.",
+      "zh": "重播；重新运行"
+    }
+  ],
+  "senses": [
+    {
+      "no": "01",
+      "title": "Run: move fast on foot",
+      "titleCN": "跑：用双脚快速移动",
+      "definition": "to move quickly on foot, faster than walking",
+      "definitionCN": "跑；奔跑",
+      "example": "She runs five kilometres every morning.",
+      "exampleCN": "她每天早上跑五公里。",
+      "why": "Core sense: the body moves continuously and quickly along a path. Every other sense keeps either the continuity or the directed motion.",
+      "whyCN": "核心义：身体沿路径连续而快速地移动。其他义项都保留了“连续”或“有方向地动”这两个要素。"
+    },
+    {
+      "no": "02",
+      "title": "Run: a machine operates",
+      "titleCN": "运转：机器持续工作",
+      "definition": "to operate or work, used about machines and engines",
+      "definitionCN": "（机器、发动机）运转；运行",
+      "example": "The engine was still running when we arrived.",
+      "exampleCN": "我们到的时候发动机还在运转。",
+      "why": "A machine repeats the same internal motion without stopping. That repeated motion is the same 'continuous movement', moved inside the machine.",
+      "whyCN": "机器不停重复内部运动；这种连续运动正是同一个“持续地动”，只是搬到了机器内部。"
+    },
+    {
+      "no": "03",
+      "title": "Run: manage a business",
+      "titleCN": "经营：让一件事持续运转",
+      "definition": "to manage or operate a business, organization, or system",
+      "definitionCN": "经营；管理；运营",
+      "example": "My aunt runs a small bakery.",
+      "exampleCN": "我姑姑经营一家小面包店。",
+      "why": "To run a business is to keep all its parts moving and working every day. Management is the act of preventing the machine from stopping.",
+      "whyCN": "经营一门生意，就是让它所有部件每天持续运转。管理就是不让这台“机器”停下来的动作。"
+    },
+    {
+      "no": "04",
+      "title": "Run: liquid flows",
+      "titleCN": "流动：液体连续地走",
+      "definition": "to flow, used about rivers, taps, and other liquids",
+      "definitionCN": "（液体）流动；流",
+      "example": "The river runs through the old town.",
+      "exampleCN": "这条河穿过老城。",
+      "why": "Old English rinnan meant both 'run' and 'flow'. Water moving along a channel has exactly the same continuous, directed motion as a runner.",
+      "whyCN": "古英语 rinnan 同时表示“跑”和“流”。水沿水道前进，和奔跑者一样是连续、有方向的运动。"
+    },
+    {
+      "no": "05",
+      "title": "Run: extend in a direction",
+      "titleCN": "延伸：一条线连续铺开",
+      "definition": "to extend or continue in a particular direction",
+      "definitionCN": "延伸；沿……走向",
+      "example": "The road runs along the coast for ten miles.",
+      "exampleCN": "这条路沿海岸延伸十英里。",
+      "why": "A road does not move, but it presents a continuous line from one point to the next. The eye 'runs' along it, so the line is said to run.",
+      "whyCN": "路不会动，但它从一点到另一点呈现出一条连续的线。眼睛沿着它“跑”，于是这条线也被说成 run。"
+    },
+    {
+      "no": "06",
+      "title": "Run: last or continue",
+      "titleCN": "持续：在时间中连续不断",
+      "definition": "to continue for a period of time or to have a particular length",
+      "definitionCN": "持续；进行；有效",
+      "example": "The play ran for three months.",
+      "exampleCN": "这部戏连续上演了三个月。",
+      "why": "Time is imagined as a path. Something that keeps going along that path 'runs' through time; its length is how far it runs.",
+      "whyCN": "时间被想象成一条路径。持续存在的东西在这条路径上一直走，就是“跑”过时间；它的时长就是它跑了多远。"
+    },
+    {
+      "no": "07",
+      "title": "Run for office: compete",
+      "titleCN": "竞选：在争夺中跑在前面",
+      "definition": "to compete in an election for a political position",
+      "definitionCN": "（run for）竞选（公职）",
+      "example": "She is running for mayor this year.",
+      "exampleCN": "她今年竞选市长。",
+      "why": "An election is a race. The candidate who 'runs' is the one moving toward the prize, and the campaign is the course.",
+      "whyCN": "选举就是一场赛跑。参选者就是朝目标移动的人，竞选过程就是跑道。"
+    },
+    {
+      "no": "08",
+      "title": "Run: colour spreads",
+      "titleCN": "洇开：颜色在布料里跑",
+      "definition": "to spread beyond the proper area, used about ink, dye, or colour",
+      "definitionCN": "（墨水、染料）洇开；掉色",
+      "example": "The red shirt ran in the wash and stained everything.",
+      "exampleCN": "那件红衬衫洗的时候掉色，把所有东西都染了。",
+      "why": "Dye in water moves outward along the fabric without a fixed boundary. That uncontrolled spreading is still a kind of running — motion that escapes its channel.",
+      "whyCN": "染料在水里沿着布料向外移动，没有固定边界。这种不受控的扩散仍是一种“跑”——跑出了原本的水道。"
+    },
+    {
+      "no": "09",
+      "title": "Run: publish or print",
+      "titleCN": "刊登：让内容进入发行流程",
+      "definition": "to print or publish something in a newspaper or magazine",
+      "definitionCN": "刊登；发表",
+      "example": "The paper ran the story on its front page.",
+      "exampleCN": "报纸把这篇报道登在了头版。",
+      "why": "A printing press runs through its cycle, and the copies run off the press. Publishing a story is letting it go through that run.",
+      "whyCN": "印刷机跑完一轮流程，印本从机器上“跑”出来。刊登一篇报道，就是让它走完这一轮。"
+    },
+    {
+      "no": "10",
+      "title": "A run: a continuous series",
+      "titleCN": "名词：一段连续；一连串",
+      "definition": "a continuous period or series of something",
+      "definitionCN": "（名词）一段连续的时间；一连串",
+      "example": "The team has had a long run of wins.",
+      "exampleCN": "这支队伍已经连赢了很多场。",
+      "why": "The noun keeps the shape of a line: a run is one uninterrupted stretch of events, like one continuous run along a track.",
+      "whyCN": "名词保留了“一条线”的形状：a run 就是事件中一段不中断的连续，就像在跑道上一口气跑完的一段。"
+    }
+  ],
+  "etymology": {
+    "intro": {
+      "en": "Run is a merger of two related Old English verbs, one intransitive and one transitive. Dates are approximate.",
+      "cn": "run 由两个相关的古英语动词合并而来，一个是不可及物的，一个是及物的。年代为大致估计。"
+    },
+    "items": [
+      {
+        "era": "OLD ENGLISH",
+        "en": "rinnan, irnan (class III strong verb) meant 'to run, flow, run together', with past tense ran and past participle runnen. A second verb, ærnan / earnan, meant 'to ride, run to, reach, gain by running'.",
+        "cn": "rinnan、irnan（第三类强动词）意为“跑、流动、汇流”，过去式 ran，过去分词 runnen。另一个动词 ærnan / earnan 意为“骑马、跑向、到达、靠奔跑获得”。"
+      },
+      {
+        "era": "MERGER",
+        "en": "The modern verb merges the intransitive strong verb with the transitive weak causative. The r/n metathesis explains the variant forms rinnan and irnan; the initial letters sometimes switched places.",
+        "cn": "现代动词把不可及物的强动词和及物的弱使役动词合并在一起。r 与 n 的换位解释了 rinnan 和 irnan 这两种变体；开头的两个字母有时会互换位置。"
+      },
+      {
+        "era": "PROTO-GERMANIC",
+        "en": "The ancestor is *rinnaną 'to run, flow' (German rinnen 'to flow', rennen 'to run', Dutch rennen, Old Norse renna, Gothic rinnan). The causative is *rannjanan.",
+        "cn": "更早的祖词是原始日耳曼语 *rinnaną“跑、流动”（德语 rinnen“流”、rennen“跑”，荷兰语 rennen，古诺斯语 renna，哥特语 rinnan）。使役形式是 *rannjanan。"
+      },
+      {
+        "era": "PROTO-INDO-EUROPEAN",
+        "en": "Watkins derives both verbs from PIE *rei- 'to run, flow', via a nasalized form *ri-ne-a-. Boutkan and others regard this as doubtful, because the supposed related forms are poorly attested, and list the word as having no certain Indo-European etymology.",
+        "cn": "Watkins 把两个动词都追溯到原始印欧语 *rei-“跑、流动”，经由鼻音化形式 *ri-ne-a-。Boutkan 等人认为这一说法可疑，因为假定的同源形式证据不足，因此把该词列为“没有确定的印欧语词源”。"
+      },
+      {
+        "era": "LATIN SIDE",
+        "en": "Latin currere 'to run' gave English current, cursor, course, occur and excursion. This family is not cognate with run; it is a separate word family with the same meaning, useful for comparison but not for etymology.",
+        "cn": "拉丁语 currere“跑”产生了英语 current、cursor、course、occur、excursion。这个词族与 run 并不同源，只是意思相同，可供比较，但不能当作 run 的词源。"
+      },
+      {
+        "era": "MODERN ENGLISH",
+        "en": "The past tense is ran and the past participle is run (unchanged). The noun run is recorded from the 14th–15th centuries. The senses 'machine operates' (1560s), 'colour spreads' (1771), 'manage a business' (1861, American English) and 'publish' (1884) all developed later.",
+        "cn": "过去式是 ran，过去分词仍是 run（形式不变）。名词 run 在 14–15 世纪已有记录。“机器运转”（16 世纪 60 年代）、“颜色洇开”（1771）、“经营生意”（1861，美式英语）和“刊登”（1884）都是后来发展出来的义项。"
+      }
+    ]
+  },
+  "similar": {
+    "note": {
+      "en": "Words below can be confused with run. The notes point to sound and spelling first, then meaning.",
+      "cn": "下面这些词容易和 run 混淆。说明先讲读音和拼写，再讲意思。"
+    },
+    "groups": [
+      {
+        "heading": "SOUND-ALIKE",
+        "entries": [
+          {
+            "word": "ran",
+            "ipa": "/ræn/",
+            "tag": "near sound",
+            "definition": "the past tense of run. The vowel is /æ/, not /ʌ/, so ran and run do not rhyme.",
+            "definitionCN": "run 的过去式。元音是 /æ/，不是 /ʌ/，所以 ran 和 run 并不押韵。"
+          },
+          {
+            "word": "wren",
+            "ipa": "/ren/",
+            "tag": "near sound",
+            "definition": "a very small brown bird. It has a silent w and a short /e/, so it sounds close to 'ren', not 'run'.",
+            "definitionCN": "一种很小的棕色鸟（鹪鹩）。它的 w 不发音，元音是短 /e/，听起来接近“ren”，不是 run。"
+          },
+          {
+            "word": "ruin",
+            "ipa": "/ˈruːɪn/",
+            "tag": "near sound",
+            "definition": "to destroy or spoil something; also the remains of a destroyed building. It has two syllables and a long /uː/.",
+            "definitionCN": "毁坏；破坏；也可作名词，表示废墟。它有两个音节，元音是长音 /uː/。"
+          }
+        ]
+      },
+      {
+        "heading": "LOOK-ALIKE",
+        "entries": [
+          {
+            "word": "ran",
+            "ipa": "/ræn/",
+            "tag": "spelling",
+            "definition": "past tense of run. It swaps u for a, so the spelling and the vowel both change.",
+            "definitionCN": "run 的过去式。它把 u 换成 a，拼写和元音都变了。"
+          },
+          {
+            "word": "ruin",
+            "ipa": "/ˈruːɪn/",
+            "tag": "spelling",
+            "definition": "to destroy; a ruined building. It looks like run with an extra i, but has a long /uː/ and two syllables.",
+            "definitionCN": "毁坏；废墟。它看起来像 run 多了一个 i，但读长音 /uː/，而且有两个音节。"
+          },
+          {
+            "word": "rung",
+            "ipa": "/rʌŋ/",
+            "tag": "spelling",
+            "definition": "the past participle of ring; also one step of a ladder. It ends in -ng, not -n.",
+            "definitionCN": "ring 的过去分词；也可指梯子的一级。它结尾是 -ng，不是 -n。"
+          },
+          {
+            "word": "rune",
+            "ipa": "/ruːn/",
+            "tag": "spelling",
+            "definition": "a letter of an ancient Germanic alphabet. The final e is silent and the vowel is long /uː/.",
+            "definitionCN": "古代日耳曼字母表中的一个字母（卢恩字母）。结尾的 e 不发音，元音是长音 /uː/。"
+          }
+        ]
+      }
+    ]
+  },
+  "mnemonics": {
+    "normalIntro": {
+      "en": "Normal associations: real, explainable links — real suffixes, compounds and common phrases, not made-up rhymes.",
+      "cn": "正常联想：真实、可解释的联系——真实的后缀、复合词和常见短语，而不是编造的顺口溜。"
+    },
+    "normal": [
+      {
+        "en": "runner = run + -er: the person or thing that runs.",
+        "cn": "runner = run + -er：跑的人或跑的东西，也就是跑步者。"
+      },
+      {
+        "en": "runway = run + way: the strip of ground on which a plane runs to take off or land.",
+        "cn": "runway = run + way：飞机用来加速起飞或降落的那条地面，也就是跑道。"
+      },
+      {
+        "en": "running water = water that runs: a stream or tap water that keeps moving, not still water.",
+        "cn": "running water = 会流的水：不断流动的溪水或自来水，而不是静止的水。"
+      },
+      {
+        "en": "in the long run = over a long stretch of time, as if looking down a long track.",
+        "cn": "in the long run = 在很长一段路程之后，也就是从长远来看。"
+      },
+      {
+        "en": "run out of = the supply runs until nothing is left, like a runner reaching the end of the track.",
+        "cn": "run out of = 供应一直“跑”到没有为止，就像跑步者跑到跑道尽头。"
+      }
+    ],
+    "abstract": [
+      {
+        "en": "Run is a line with an arrowhead and no full stop: →→→. It insists on continuing.",
+        "cn": "run 是一条带箭头、没有句号的线：→→→。它坚持要继续下去。"
+      },
+      {
+        "en": "The line can lie on the ground (a road), in water (a river), in time (a run of shows), or inside a machine (an engine running).",
+        "cn": "这条线可以铺在地上（路）、放在水里（河）、放进时间里（一连串演出），或者装进机器里（发动机运转）。"
+      },
+      {
+        "en": "Management and publishing are the same line seen from the side: someone keeps the process moving. Run never means 'stay'; it always means 'keep going'.",
+        "cn": "经营和刊登是同一条线从侧面看的样子：有人让整个过程持续动起来。run 从不表示“停留”，它总是表示“继续走”。"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "en": "She runs to school every day.",
+      "cn": "她每天跑步去学校。"
+    },
+    {
+      "en": "He runs a small bookshop in the town centre.",
+      "cn": "他在市中心经营一家小书店。"
+    },
+    {
+      "en": "We ran out of milk this morning.",
+      "cn": "今天早上我们的牛奶用完了。"
+    }
+  ],
+  "dict_mnemonic": {
+    "note": "谐音记忆 · 非词源",
+    "text": "软（run）—— 跑到腿发软，还在继续跑 → run",
+    "word": "run"
+  },
+  "root": "源自古英语 rinnan / irnan，核心含义为“跑、流动”。",
+  "sensesIntro": {
+    "en": "Ten common senses of run. One image: continuous, directed motion — along the ground, through water, across time, or inside a working machine.",
+    "cn": "run 的十个常见义项。一个意象：连续、有方向的运动——沿地面、穿水流、跨时间，或在运转的机器内部。"
+  },
+  "semanticMap": {
+    "core": {
+      "en": "CORE IMAGE: continuous, directed motion — something keeps moving along a path.",
+      "cn": "核心意象：连续、有方向的运动——某物沿一条路径不停向前。"
+    },
+    "chain": [
+      "BODY",
+      "PATH",
+      "FLOW",
+      "CONTINUE",
+      "OPERATE",
+      "SERIES"
+    ],
+    "branches": [
+      {
+        "senses": "S1 · S4 · S5",
+        "en": "ALONG A PATH: feet, water and roads all trace a continuous line.",
+        "cn": "沿路径：脚、水、道路都在描出一条连续的线。"
+      },
+      {
+        "senses": "S2 · S3",
+        "en": "KEEPING IT MOVING: a machine runs by itself; a manager runs it on purpose.",
+        "cn": "让它持续动：机器自己运转；管理者有意让它运转。"
+      },
+      {
+        "senses": "S6 · S10",
+        "en": "LINE IN TIME: a play runs for months; a run is one continuous stretch.",
+        "cn": "时间中的线：一部戏连续上演几个月；a run 就是一段不中断的连续。"
+      },
+      {
+        "senses": "S7 · S8",
+        "en": "RACE AND ESCAPE: an election is a race; dye is motion that escapes its channel.",
+        "cn": "竞赛与逃逸：选举是一场赛跑；染料是跑出水道的运动。"
+      },
+      {
+        "senses": "S9",
+        "en": "THROUGH A PROCESS: a story goes through the press run and comes out printed.",
+        "cn": "穿过流程：一篇报道走完印刷机的一轮运转，最后被印出来。"
+      }
+    ]
+  },
+  "affixes": {
+    "intro": {
+      "en": "Run is a productive verb root: suffixes and prefixes turn its 'continuous motion' into people, places, and processes.",
+      "cn": "run 是一个能产的动词词根：后缀和前缀把它“连续运动”的核心变成人、地点和过程。"
+    },
+    "latinIntro": {
+      "en": "",
+      "cn": ""
+    },
+    "items": [
+      {
+        "word": "runner",
+        "structure": "run + -er (person or thing that runs)",
+        "meaning": "a person or thing that runs",
+        "meaningCN": "跑步者；赛跑者（-er 表示做动作的人或物）",
+        "example": "She is a fast runner.",
+        "exampleCN": "她跑得很快。"
+      },
+      {
+        "word": "running",
+        "structure": "run + -ing (action or ongoing state)",
+        "meaning": "the activity of running; also continuing or in operation",
+        "meaningCN": "跑步；连续的；运转中的（-ing 表示动作或持续状态）",
+        "example": "Running is good exercise.",
+        "exampleCN": "跑步是很好的锻炼。"
+      },
+      {
+        "word": "runaway",
+        "structure": "run + away",
+        "meaning": "someone who has escaped; out of control",
+        "meaningCN": "逃亡者；失控的（away 表示“离开”）",
+        "example": "The runaway horse was finally caught.",
+        "exampleCN": "那匹脱缰的马终于被抓住了。"
+      },
+      {
+        "word": "rerun",
+        "structure": "re- (again) + run",
+        "meaning": "to run or show something again; a repeated broadcast",
+        "meaningCN": "重播；重新运行（re- 表示“再一次”）",
+        "example": "The channel will rerun the series next month.",
+        "exampleCN": "这个频道下个月会重播这部剧。"
+      },
+      {
+        "word": "outrun",
+        "structure": "out- (beyond, faster than) + run",
+        "meaning": "to run faster than someone or something",
+        "meaningCN": "跑得比……快；超过（out- 表示“超过”）",
+        "example": "No one can outrun him on this team.",
+        "exampleCN": "在这个队里没人跑得比他快。"
+      },
+      {
+        "word": "overrun",
+        "structure": "over- (beyond, excess) + run",
+        "meaning": "to spread over and occupy something; to exceed a limit",
+        "meaningCN": "溢出；侵占；超出（over- 表示“越过、过量”）",
+        "example": "The garden was overrun with weeds.",
+        "exampleCN": "花园里长满了杂草。"
+      },
+      {
+        "word": "runny",
+        "structure": "run + -y (having the quality of)",
+        "meaning": "flowing or tending to flow, as a runny nose",
+        "meaningCN": "流动的；流鼻涕的（-y 构成形容词）",
+        "example": "The child had a runny nose.",
+        "exampleCN": "那个孩子流鼻涕了。"
+      },
+      {
+        "word": "runway",
+        "structure": "run + way",
+        "meaning": "the strip where aircraft take off and land; also a catwalk",
+        "meaningCN": "飞机跑道；（时装）T 台",
+        "example": "The plane waited on the runway.",
+        "exampleCN": "飞机在跑道上等待。"
+      },
+      {
+        "word": "forerunner",
+        "structure": "fore- (before) + runner",
+        "meaning": "a person or thing that came before and prepared the way",
+        "meaningCN": "先驱；前身（fore- 表示“在……之前”）",
+        "example": "The telegram was a forerunner of the email.",
+        "exampleCN": "电报是电子邮件的先驱。"
+      }
+    ],
+    "latinEntries": []
+  }
+}

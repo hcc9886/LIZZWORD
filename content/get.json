@@ -1,0 +1,518 @@
+{
+  "word": "get",
+  "ipa_uk": "/ɡet/",
+  "ipa_us": "/ɡet/",
+  "definition_zh": "得到；变得",
+  "definition_en": "to come to have something, or to reach a new state",
+  "core_image": "从没有到有，或变成另一种状态",
+  "scene": "天黑后才到家，你说 We got home after dark.",
+  "sceneCN": "这里 get 是「到达」（第 4 个义项：走完路径到达终点）；句意：我们天黑之后才到家。",
+  "pos": [
+    {
+      "tag": "vt.",
+      "zh": "得到；获得；收到；去取来"
+    },
+    {
+      "tag": "vi.",
+      "zh": "到达；变得"
+    },
+    {
+      "tag": "link-v.",
+      "zh": "变得（get + 形容词／过去分词，表示进入某状态）"
+    }
+  ],
+  "collocations": [
+    {
+      "phrase": "get up",
+      "zh": "起床"
+    },
+    {
+      "phrase": "get on",
+      "zh": "上车；进展"
+    },
+    {
+      "phrase": "get off",
+      "zh": "下车"
+    },
+    {
+      "phrase": "get over",
+      "zh": "克服；从……中恢复"
+    },
+    {
+      "phrase": "get rid of",
+      "zh": "摆脱；扔掉"
+    }
+  ],
+  "forms": [
+    {
+      "label": "三单（he/she/it）",
+      "form": "gets"
+    },
+    {
+      "label": "过去式（已经发生）",
+      "form": "got"
+    },
+    {
+      "label": "过去分词（英式常用）",
+      "form": "got"
+    },
+    {
+      "label": "过去分词（美式常用）",
+      "form": "gotten"
+    },
+    {
+      "label": "现在分词（进行体）",
+      "form": "getting"
+    }
+  ],
+  "derivatives": [
+    {
+      "word": "getaway",
+      "pos": "n.",
+      "zh": "逃跑；（短期）度假"
+    },
+    {
+      "word": "get-together",
+      "pos": "n.",
+      "zh": "聚会；非正式会面"
+    },
+    {
+      "word": "forget",
+      "pos": "v.",
+      "zh": "忘记"
+    },
+    {
+      "word": "go-getter",
+      "pos": "n.",
+      "zh": "进取心强、主动争取的人"
+    }
+  ],
+  "senses": [
+    {
+      "no": "01",
+      "title": "Obtain: come to have",
+      "titleCN": "得到：把东西拿到自己手里",
+      "definition": "to obtain or come to have something",
+      "definitionCN": "得到；获得（某物）",
+      "example": "I got a new bike for my birthday.",
+      "exampleCN": "我生日得到了一辆新自行车。",
+      "why": "Get starts with a source outside you. You move toward it, reach it, and it becomes yours: the path ends in possession.",
+      "whyCN": "get 的起点是你之外的源头：你朝它移动、够到它，它才归你所有——路径的终点就是“拥有”。"
+    },
+    {
+      "no": "02",
+      "title": "Receive: something comes to you",
+      "titleCN": "收到：东西从外面来到你这里",
+      "definition": "to receive something that is sent or given to you",
+      "definitionCN": "收到；接到（寄来或给予的东西）",
+      "example": "Did you get my message?",
+      "exampleCN": "你收到我的消息了吗？",
+      "why": "Here the path runs the other way: the thing travels to you instead of you travelling to it. The result is the same — it is now in your hands.",
+      "whyCN": "这里路径方向相反：不是你走向它，而是它来到你这里；结果相同——它现在在你手里。"
+    },
+    {
+      "no": "03",
+      "title": "Fetch: go and bring something back",
+      "titleCN": "去取来：走到源头再带回来",
+      "definition": "to go to a place and bring something back",
+      "definitionCN": "去取；去拿回来",
+      "example": "Can you get me a glass of water?",
+      "exampleCN": "你能给我拿一杯水来吗？",
+      "why": "This is the full geometry of get: leave your place, go to the source, take, and return. The word covers the whole round trip, not just the grabbing.",
+      "whyCN": "这是 get 的完整路径：离开原地、走到源头、拿取、再回来。这个词覆盖整个往返过程，而不只是“抓”的动作。"
+    },
+    {
+      "no": "04",
+      "title": "Reach: arrive at a place",
+      "titleCN": "到达：走完路径到达终点",
+      "definition": "to arrive at a place or reach a point",
+      "definitionCN": "到达；抵达（某地或某一点）",
+      "example": "How do I get to the station?",
+      "exampleCN": "去车站怎么走？",
+      "why": "If getting something means moving along a path until you have it, then getting somewhere is the same path with a place as its end point. Arrival is possession of a location.",
+      "whyCN": "如果“得到东西”是沿路径走到拥有它，那么“到达某地”就是同一路径把地点当作终点。抵达就是“拥有一个位置”。"
+    },
+    {
+      "no": "05",
+      "title": "Become: pass into a new state",
+      "titleCN": "变得：进入另一种状态",
+      "definition": "to become or start to be in a particular state",
+      "definitionCN": "变得；开始处于某种状态",
+      "example": "It's getting dark, so let's go home.",
+      "exampleCN": "天快黑了，我们回家吧。",
+      "why": "Possession can be abstract: you 'get' a state in the same way you get an object. The path now ends not in a thing but in a condition — dark, tired, ready.",
+      "whyCN": "“拥有”可以是抽象的：你像得到一个物件那样“得到”一种状态。路径的终点不再是东西，而是某种状况——黑、累、准备好。"
+    },
+    {
+      "no": "06",
+      "title": "Cause: make something happen",
+      "titleCN": "使役：让别人或别物进入某状态",
+      "definition": "to cause someone or something to do something or be in a state",
+      "definitionCN": "让……做；使……变成",
+      "example": "I finally got him to agree.",
+      "exampleCN": "我终于让他同意了。",
+      "why": "If a person can get a state, that person can also get another person into a state. The same 'bring to an end point' now works through a causal link.",
+      "whyCN": "如果一个人能得到一种状态，他也能把另一个人“弄到”某种状态。同一个“带到终点”的动作，现在通过因果关系施加出去。"
+    },
+    {
+      "no": "07",
+      "title": "Understand: grasp with the mind",
+      "titleCN": "理解：在脑子里抓住",
+      "definition": "to understand something, especially a joke or an idea",
+      "definitionCN": "理解；明白（笑话、想法）",
+      "example": "Sorry, I don't get the joke.",
+      "exampleCN": "抱歉，我没听懂这个笑话。",
+      "why": "Understanding is physical grasping moved inward: the mind reaches out, takes the idea, and holds it. English uses grasp and catch in the same way.",
+      "whyCN": "理解是把“抓住”从手上搬到脑子里：心智伸出去、拿住想法。英语里 grasp、catch 也是同样的用法。"
+    },
+    {
+      "no": "08",
+      "title": "Catch an illness",
+      "titleCN": "染上：疾病来到身上",
+      "definition": "to become ill with a disease",
+      "definitionCN": "得（病）；染上（疾病）",
+      "example": "I got a cold from my roommate.",
+      "exampleCN": "我被室友传染了感冒。",
+      "why": "An illness is something unwanted that comes to you and then stays with you. It follows the receive path, but the thing received is a condition.",
+      "whyCN": "疾病是一种不请自来、来了就留在你身上的东西。它走的是“收到”的路径，只是收到的是疾病这种状态。"
+    },
+    {
+      "no": "09",
+      "title": "Get + past participle: change of state",
+      "titleCN": "get + 过去分词：进入新状态",
+      "definition": "used with a past participle to show that someone or something enters a new state",
+      "definitionCN": "与过去分词连用，表示进入某种新状态（如结婚、迷路、穿好）",
+      "example": "They got married last spring.",
+      "exampleCN": "他们去年春天结婚了。",
+      "why": "This is become in grammar form: get supplies the movement, the participle supplies the end state. The phrase profiles the change, not the state itself.",
+      "whyCN": "这是“变得”的语法形式：get 提供“移动”，过去分词提供终点状态。这个结构强调变化过程，而不是状态本身。"
+    },
+    {
+      "no": "10",
+      "title": "Have got: possession in speech",
+      "titleCN": "have got：口语中的拥有",
+      "definition": "used in informal British English to mean 'have' or 'must'",
+      "definitionCN": "（英式口语）有；必须",
+      "example": "I've got two tickets for tonight.",
+      "exampleCN": "我有两张今晚的票。",
+      "why": "Have got began as 'have obtained': the result of getting is still in your hands, so the perfect form came to mean plain possession.",
+      "whyCN": "have got 原本是“已经得到”：得到的结果还在手里，于是完成形式逐渐表示单纯的“拥有”。"
+    }
+  ],
+  "etymology": {
+    "intro": {
+      "en": "Get came into Middle English from Old Norse, while native Old English kept the same root mostly inside compounds. Dates are approximate.",
+      "cn": "get 在中古英语时期从古诺斯语进入英语；本土古英语主要把这个词根保留在复合词里。年代为大致估计。"
+    },
+    "items": [
+      {
+        "era": "OLD NORSE (c. 1200)",
+        "en": "Middle English geten came from Old Norse geta 'to obtain, reach; to be able; to beget; to learn', a verb of very wide meaning (past tense gatum, past participle getenn).",
+        "cn": "中古英语 geten 来自古诺斯语 geta，意为“获得、到达；能够；生育；学会”，是一个含义非常宽的动词（过去式 gatum，过去分词 getenn）。"
+      },
+      {
+        "era": "OLD ENGLISH",
+        "en": "Old English had the same root mainly in compounds such as begietan 'to get, beget' and forgietan 'to forget'. The old past tense gat survives in biblical begat, and the old participle survives in gotten.",
+        "cn": "古英语主要把这个词根用在复合词里，如 begietan“取得、生育”和 forgietan“忘记”。古老的过去式 gat 还留在《圣经》式的 begat 里，古老的过去分词则留在 gotten 里。"
+      },
+      {
+        "era": "PROTO-GERMANIC",
+        "en": "The ancestor is reconstructed as *getan, also the source of Old Swedish gissa 'to guess' (literally 'to try to get') and Gothic bigitan 'to find'. German vergessen 'to forget' belongs to the same compound family.",
+        "cn": "更早的祖词被重构为原始日耳曼语 *getan，它也是古瑞典语 gissa“猜”（字面义“试着得到”）和哥特语 bigitan“找到”的来源。德语 vergessen“忘记”属于同一个复合词族。"
+      },
+      {
+        "era": "PROTO-INDO-EUROPEAN",
+        "en": "Standard references trace it to PIE *ghend- (also written *ghed-), 'to seize, take'. Latin prehendere 'to seize' comes from the same root, which is why apprehend and comprehend belong here.",
+        "cn": "通行词源资料把它追溯到原始印欧语词根 *ghend-（也写作 *ghed-），意为“抓住、拿取”。拉丁语 prehendere“抓住”同出这一词根，所以 apprehend、comprehend 也属于这一族。"
+      },
+      {
+        "era": "MODERN ENGLISH",
+        "en": "Modern English keeps got as the past tense. The past participle is got in British English and usually gotten in American English. The phrase have got developed from 'have obtained' into a plain marker of possession.",
+        "cn": "现代英语用 got 作过去式。过去分词在英式英语中多用 got，在美式英语中通常用 gotten。短语 have got 从“已经得到”发展成了单纯的“拥有”标记。"
+      }
+    ]
+  },
+  "similar": {
+    "note": {
+      "en": "Words below can be confused with get. The notes point to sound and spelling first, then meaning.",
+      "cn": "下面这些词容易和 get 混淆。说明先讲读音和拼写，再讲意思。"
+    },
+    "groups": [
+      {
+        "heading": "SOUND-ALIKE",
+        "entries": [
+          {
+            "word": "gate",
+            "ipa": "/ɡeɪt/",
+            "tag": "near sound",
+            "definition": "a door or opening in a wall or fence. The vowel is /eɪ/, not /e/, and it ends in -te.",
+            "definitionCN": "大门；围墙或栅栏上的开口。元音是 /eɪ/，不是 /e/，结尾是 -te。"
+          },
+          {
+            "word": "gut",
+            "ipa": "/ɡʌt/",
+            "tag": "near sound",
+            "definition": "the intestines; also a verb meaning to remove the inside of something. The vowel is /ʌ/, not /e/.",
+            "definitionCN": "肠子；也可作动词，表示“取出内部东西”。元音是 /ʌ/，不是 /e/。"
+          },
+          {
+            "word": "guess",
+            "ipa": "/ɡes/",
+            "tag": "near sound",
+            "definition": "to give an answer without being sure. It has the same vowel but ends in -ss, not -t.",
+            "definitionCN": "猜；在不确定时给出答案。元音相同，但结尾是 -ss，不是 -t。"
+          },
+          {
+            "word": "got",
+            "ipa": "/ɡɒt/",
+            "tag": "form confusion",
+            "definition": "the past tense of get (British /ɡɒt/, American /ɡɑːt/). It is not a different word, just a different form.",
+            "definitionCN": "get 的过去式（英式 /ɡɒt/，美式 /ɡɑːt/）。它不是另一个词，只是同一个词的不同形式。"
+          }
+        ]
+      },
+      {
+        "heading": "LOOK-ALIKE",
+        "entries": [
+          {
+            "word": "got",
+            "ipa": "/ɡɒt/",
+            "tag": "spelling",
+            "definition": "past tense of get. get is the present form; got has o instead of e and marks past time.",
+            "definitionCN": "get 的过去式。get 是现在形式；got 把 e 换成 o，并表示过去。"
+          },
+          {
+            "word": "gotten",
+            "ipa": "/ˈɡɒtən/",
+            "tag": "spelling",
+            "definition": "the American past participle of get. It adds a double t and -en, so it looks longer than got.",
+            "definitionCN": "get 的美式过去分词。它多了双 t 和 -en，看起来比 got 长。"
+          },
+          {
+            "word": "gist",
+            "ipa": "/dʒɪst/",
+            "tag": "spelling",
+            "definition": "the main point or general meaning of something. It looks like get plus -st, but starts with /dʒ/, not /ɡ/.",
+            "definitionCN": "要点；大意。它看起来像 get 加 -st，但开头读 /dʒ/，不是 /ɡ/。"
+          },
+          {
+            "word": "gate",
+            "ipa": "/ɡeɪt/",
+            "tag": "spelling",
+            "definition": "a door in a wall or fence. It looks like g + ate; the vowel letter is the same, but the sound is different.",
+            "definitionCN": "大门；围墙或栅栏上的门。它看起来像 g + ate；元音字母相同，但读音不同。"
+          }
+        ]
+      }
+    ]
+  },
+  "mnemonics": {
+    "normalIntro": {
+      "en": "Normal associations: real, explainable links — real prefixes, compounds and common phrases, not made-up rhymes.",
+      "cn": "正常联想：真实、可解释的联系——真实的前缀、复合词和常见短语，而不是编造的顺口溜。"
+    },
+    "normal": [
+      {
+        "en": "forget = for- (away, off) + get. To 'un-get' something from the mind is to lose the ability to recall it.",
+        "cn": "forget = for-（离开、去掉）+ get。把某物从脑子里“去掉”，就是失去回忆它的能力，也就是忘记。"
+      },
+      {
+        "en": "beget = be- (an old verb prefix, here with a causative force) + get. To beget a child is to 'get' a new person into being.",
+        "cn": "beget = be-（古英语动词前缀，这里带使役意味）+ get。beget a child 就是让一个新生命“产生出来”。"
+      },
+      {
+        "en": "get-together = get + together. When people get together, the result is a get-together.",
+        "cn": "get-together = get + together。人们 get together（聚到一起），结果就是一场 get-together（聚会）。"
+      },
+      {
+        "en": "getaway = get + away. A getaway is the act of getting away, or a short trip away from work.",
+        "cn": "getaway = get + away。getaway 就是“离开”这个动作，或者离开工作的一趟短假。"
+      },
+      {
+        "en": "have got = have obtained. The perfect form still shows the result: what you got is in your hands, so 'I've got it' means 'I have it'.",
+        "cn": "have got = 已经得到。完成形式仍保留结果：你得到的东西还在手里，所以 I've got it 就是“我有它”。"
+      }
+    ],
+    "abstract": [
+      {
+        "en": "Abstractly, get is a movement that ends in contact: an empty hand leaves, travels, closes, and comes back full. Symbol: ○ →→ ●.",
+        "cn": "抽象地看，get 是一段以“接触”结束的移动：空手出发、经过路径、合拢、然后满载而归。符号：○ →→ ●。"
+      },
+      {
+        "en": "The same arrow can point at an object (obtain), at a place (arrive), at a state (become), or at an idea (understand). In every case something is reached and held.",
+        "cn": "同一个箭头可以指向物件（得到）、指向地点（到达）、指向状态（变得）或指向想法（理解）。无论指向什么，都是“够到并握住”。"
+      },
+      {
+        "en": "So get is one geometry — approach until contact — applied to objects, places, conditions and thoughts. It never means 'stay'; it always means 'come to be at'.",
+        "cn": "所以 get 是一个几何动作——一直靠近，直到接触——再把它施加到物件、地点、状况和想法上。它从不表示“停留”，而总是表示“来到某个位置／状态”。"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "en": "I got a letter from my sister yesterday.",
+      "cn": "我昨天收到了姐姐的一封信。"
+    },
+    {
+      "en": "It's getting cold outside, so wear a coat.",
+      "cn": "外面越来越冷了，穿件外套吧。"
+    },
+    {
+      "en": "She got the job after two interviews.",
+      "cn": "两轮面试后，她得到了这份工作。"
+    }
+  ],
+  "dict_mnemonic": {
+    "note": "谐音记忆 · 非词源",
+    "text": "盖特（get）—— 把奖品盖在手底下，它就归你了 → get 得到",
+    "word": "get"
+  },
+  "root": "源自古诺斯语 geta，核心含义为“取得、抓住”。",
+  "sensesIntro": {
+    "en": "Ten common senses of get. They follow one path: start outside, move toward, reach, hold — then let the held thing become a place or a state.",
+    "cn": "get 的十个常见义项。它们沿着同一条路径：从外面出发、朝目标移动、够到、握住——再让“握住的东西”变成一个地点或一种状态。"
+  },
+  "semanticMap": {
+    "core": {
+      "en": "CORE IMAGE: from nothing → path → contact → in hand → new state.",
+      "cn": "核心意象：从无 → 路径 → 接触 → 到手 → 新状态。"
+    },
+    "chain": [
+      "SOURCE",
+      "PATH",
+      "REACH",
+      "GRASP",
+      "POSSESS",
+      "STATE"
+    ],
+    "branches": [
+      {
+        "senses": "S1 · S2",
+        "en": "TWO DIRECTIONS: you go to the source (obtain), or the source comes to you (receive).",
+        "cn": "两个方向：你走向源头（得到），或者源头走向你（收到）。"
+      },
+      {
+        "senses": "S3 · S4",
+        "en": "PATH AND END POINT: fetch is a round trip to the source and back; arrive is a one-way trip to a place.",
+        "cn": "路径与终点：fetch（去取来）是走到源头再回来的往返；arrive（到达）是走到某个地点的一次单程。"
+      },
+      {
+        "senses": "S5 · S9 · S10",
+        "en": "STATE AS POSSESSION: become, get + past participle, and have got all treat a state like something held.",
+        "cn": "状态即拥有：become、get + 过去分词、have got 都把一种状态当作“握在手里的东西”。"
+      },
+      {
+        "senses": "S6",
+        "en": "CAUSATION: make someone else reach a state, as if bringing them to an end point.",
+        "cn": "使役：让别人抵达某种状态，就像把别人带到终点。"
+      },
+      {
+        "senses": "S7 · S8",
+        "en": "INWARD AND UNWANTED: grasp an idea in the mind; receive an illness in the body.",
+        "cn": "向内与不请自来：在脑子里抓住一个想法；在身体上接收一种疾病。"
+      }
+    ]
+  },
+  "affixes": {
+    "intro": {
+      "en": "Get is a productive verb root: prefixes and suffixes aim its core idea of reaching and holding at new meanings.",
+      "cn": "get 是一个能产的动词词根：前缀和后缀把它“够到并握住”的核心意思引导到新的含义上。"
+    },
+    "latinIntro": {
+      "en": "English also borrowed a cognate family from Latin prehendere 'to seize' (past participle prehensus). It appears in English as prehend- or prehens-. Both families go back to PIE *ghend-.",
+      "cn": "英语还从拉丁语 prehendere“抓住”（过去分词 prehensus）借来一个同源词族，在英语中写作 prehend- 或 prehens-。这两个词族都追溯到原始印欧语 *ghend-。"
+    },
+    "items": [
+      {
+        "word": "forget",
+        "structure": "for- (away, amiss) + get",
+        "meaning": "to fail to remember; literally to 'un-get' something from the mind",
+        "meaningCN": "忘记（for- 表示“离开、去掉”，字面义是“把某物从脑子里去掉”）",
+        "example": "I forgot his name again.",
+        "exampleCN": "我又忘了他的名字。"
+      },
+      {
+        "word": "beget",
+        "structure": "be- (old verb prefix, around/about) + get",
+        "meaning": "to bring a child into being; to cause something",
+        "meaningCN": "生育；引起（be- 是古英语动词前缀，含“围绕、加强”义）",
+        "example": "Violence begets violence.",
+        "exampleCN": "暴力会滋生暴力。"
+      },
+      {
+        "word": "getter",
+        "structure": "get + -er (person or thing that gets)",
+        "meaning": "a person who gets; also a material that absorbs residual gas inside a vacuum tube",
+        "meaningCN": "获得者；吸气剂（真空管中吸收残余气体的材料）（-er 表示做动作的人或物）",
+        "example": "A getter removes leftover gas from the tube.",
+        "exampleCN": "吸气剂会清除管中残余的气体。"
+      },
+      {
+        "word": "getaway",
+        "structure": "get + away",
+        "meaning": "an escape, especially by a criminal; also a short holiday",
+        "meaningCN": "逃跑（尤指作案后）；短假（away 表示“离开”）",
+        "example": "The thieves made a quick getaway.",
+        "exampleCN": "窃贼迅速逃走了。"
+      },
+      {
+        "word": "get-together",
+        "structure": "get + together",
+        "meaning": "an informal meeting or party",
+        "meaningCN": "非正式聚会（together 表示“聚到一起”）",
+        "example": "We're having a small get-together on Friday.",
+        "exampleCN": "我们周五有个小型聚会。"
+      },
+      {
+        "word": "getup",
+        "structure": "get + up",
+        "meaning": "an outfit, especially an unusual one",
+        "meaningCN": "（口语）装束、打扮（尤指奇特的穿着）",
+        "example": "He arrived in a strange getup.",
+        "exampleCN": "他穿着一身奇怪的装束来了。"
+      },
+      {
+        "word": "unforgettable",
+        "structure": "un- (not) + forget + -able (can be ...ed)",
+        "meaning": "impossible to forget",
+        "meaningCN": "难以忘怀的（un- 表示否定，-able 表示“能被……的”）",
+        "example": "It was an unforgettable trip.",
+        "exampleCN": "那是一次难忘的旅行。"
+      },
+      {
+        "word": "forgetful",
+        "structure": "forget + -ful (full of)",
+        "meaning": "often forgetting things",
+        "meaningCN": "健忘的（-ful 表示“充满……的”）",
+        "example": "My grandfather has become forgetful.",
+        "exampleCN": "我爷爷变得健忘了。"
+      }
+    ],
+    "latinEntries": [
+      {
+        "word": "apprehend",
+        "structure": "ap- (to) + prehend- (seize)",
+        "meaning": "to seize or arrest; to understand",
+        "meaningCN": "逮捕；理解（抓住某人，或在心里抓住某个意思）"
+      },
+      {
+        "word": "comprehend",
+        "structure": "com- (together) + prehend- (seize)",
+        "meaning": "to grasp mentally; to include",
+        "meaningCN": "理解；包含（把意思整体抓住）"
+      },
+      {
+        "word": "comprehensive",
+        "structure": "com- (together) + prehens- (seize) + -ive",
+        "meaning": "covering everything; complete",
+        "meaningCN": "全面的；综合的（把所有部分都抓住）"
+      },
+      {
+        "word": "prehensile",
+        "structure": "prehens- (grasping) + -ile (able to)",
+        "meaning": "able to grasp, as a monkey's tail",
+        "meaningCN": "能抓握的（如猴子的尾巴）（-ile 表示“能……的”）"
+      }
+    ]
+  }
+}

@@ -1,0 +1,455 @@
+{
+  "word": "put",
+  "ipa_uk": "/pʊt/",
+  "ipa_us": "/pʊt/",
+  "definition_zh": "放",
+  "definition_en": "to move something into a place, position, or state",
+  "core_image": "把东西放到某个地方",
+  "scene": "别拖作业，你说 Don't put off your homework until Sunday.",
+  "sceneCN": "这里是「推迟、往后拖」的意思（第 5 个义项：把事挪到更晚再做）；句意：别把作业拖到周日。",
+  "pos": [
+    {
+      "tag": "vt.",
+      "zh": "放；放置；使处于（某状态）"
+    },
+    {
+      "tag": "vt.",
+      "zh": "表达；说（用某种方式）"
+    },
+    {
+      "tag": "n.",
+      "zh": "（铅球）推掷；投掷"
+    }
+  ],
+  "collocations": [
+    {
+      "phrase": "put on",
+      "zh": "穿上；戴上；假装"
+    },
+    {
+      "phrase": "put off",
+      "zh": "推迟；拖延"
+    },
+    {
+      "phrase": "put up with",
+      "zh": "忍受；容忍"
+    },
+    {
+      "phrase": "put away",
+      "zh": "收起来；放回原处"
+    }
+  ],
+  "forms": [
+    {
+      "label": "三单",
+      "form": "puts"
+    },
+    {
+      "label": "过去式",
+      "form": "put"
+    },
+    {
+      "label": "过去分词",
+      "form": "put"
+    },
+    {
+      "label": "现在分词",
+      "form": "putting"
+    }
+  ],
+  "derivatives": [
+    {
+      "word": "input",
+      "pos": "n./v.",
+      "zh": "输入；投入"
+    },
+    {
+      "word": "output",
+      "pos": "n./v.",
+      "zh": "输出；产量"
+    },
+    {
+      "word": "put-down",
+      "pos": "n.",
+      "zh": "贬低的话；羞辱"
+    },
+    {
+      "word": "put-on",
+      "pos": "n.",
+      "zh": "假扮；骗局"
+    }
+  ],
+  "senses": [
+    {
+      "no": "01",
+      "title": "Place: put something somewhere",
+      "titleCN": "放置：把东西放到某个地方",
+      "definition": "to move something to a particular place and leave it there",
+      "definitionCN": "把某物移到某个位置并留在那里；放置",
+      "example": "Put the keys on the table.",
+      "exampleCN": "把钥匙放在桌上。",
+      "why": "The oldest recorded sense of put is 'thrust, push, shove'. Putting is a directed push: the hand moves an object to a chosen point and lets it rest there. The core is transfer with an endpoint.",
+      "whyCN": "put 有记录的最早意思是“推、搡、猛推”。放置就是一次有方向的推：手把物体送到选定的点，然后让它停在那里。核心是“转移 + 终点”。"
+    },
+    {
+      "no": "02",
+      "title": "Put someone in a state or condition",
+      "titleCN": "使处于：使某人进入某种状态",
+      "definition": "to cause someone or something to be in a particular situation or condition",
+      "definitionCN": "使某人／某物处于某种处境或状态",
+      "example": "That decision put the whole team in danger.",
+      "exampleCN": "那个决定让整个团队陷入危险。",
+      "why": "A person is treated like an object that can be pushed into a place. The place is abstract — danger, prison, at ease — but the geometry is the same: move X into position Y and leave it there.",
+      "whyCN": "人被当作可以被推进某个位置的物体。这个位置是抽象的——危险、监狱、自在——但几何关系没变：把 X 移到 Y 位置并留在那里。"
+    },
+    {
+      "no": "03",
+      "title": "Express: put it another way",
+      "titleCN": "表达：换一种说法",
+      "definition": "to express an idea in words, especially in a particular way",
+      "definitionCN": "（用某种方式）表达、说；措辞",
+      "example": "Let me put it another way.",
+      "exampleCN": "让我换个说法。",
+      "why": "Words are objects placed in a row. To put an idea is to place its meaning into a sentence, slot by slot. How should I put it? is literally asking where to place the meaning so it fits.",
+      "whyCN": "词是按顺序排好的物体。把想法“put”出来，就是把意思一个槽一个槽地放进句子里。How should I put it? 字面上就是在问：这个意思放在哪里才合适。"
+    },
+    {
+      "no": "04",
+      "title": "Invest or apply: put money into a project",
+      "titleCN": "投入：把钱、精力放进某件事",
+      "definition": "to spend or apply something such as money, time, or effort on a purpose",
+      "definitionCN": "把（钱、时间、精力）投入某个用途",
+      "example": "They put all their savings into the new business.",
+      "exampleCN": "他们把全部积蓄投入到新生意里。",
+      "why": "Money and effort are objects you can push into a target. The endpoint is not a shelf but a project or a person; the transfer is what matters, not the physical contact.",
+      "whyCN": "钱和精力是可以被推进某个目标的物体。终点不是架子，而是项目或某个人；重要的是转移，而不是物理接触。"
+    },
+    {
+      "no": "05",
+      "title": "Put off: move something to a later time",
+      "titleCN": "推迟：把事情推到以后",
+      "definition": "to delay something until a later time",
+      "definitionCN": "推迟；拖延",
+      "example": "They put off the meeting until Friday.",
+      "exampleCN": "他们把会议推迟到星期五。",
+      "why": "Put off pushes the event away from now. The 'place' is a time slot: what was placed in today is pushed to a later slot. This is the placement image applied to the calendar.",
+      "whyCN": "put off 把事情从“现在”推开。这里的“位置”是时间段：原本放在今天的事，被推到了后面的槽位。这就是把“放置”用到日历上。"
+    },
+    {
+      "no": "06",
+      "title": "Put up with: bear a burden",
+      "titleCN": "忍受：扛着一种负担",
+      "definition": "to accept something unpleasant or difficult without protest",
+      "definitionCN": "忍受、容忍（不愉快或困难的事）",
+      "example": "I can't put up with this noise any longer.",
+      "exampleCN": "我再也忍受不了这种噪音了。",
+      "why": "The image is bearing a weight that has been placed on you: you hold it up instead of dropping it. The exact history of the phrase is disputed, so it is safest to explain the modern image rather than claim a certain origin.",
+      "whyCN": "这个意象是扛着一个被放到你身上的重物：你把它撑住，而不是丢下。这个短语的确切来源有争议，所以稳妥的做法是解释它今天的意象，而不是断言某个确定来源。"
+    },
+    {
+      "no": "07",
+      "title": "Put on: wear, or pretend",
+      "titleCN": "穿上；装出",
+      "definition": "to dress yourself in something, or to pretend to have a quality",
+      "definitionCN": "穿上、戴上；装出（某种样子）",
+      "example": "She put on her coat and left.",
+      "exampleCN": "她穿上外套就出门了。",
+      "why": "Clothes are placed onto the body. A manner or an accent can be placed on the same way, like a costume, so put on also means to wear a false front.",
+      "whyCN": "衣服被放到身体上。举止或口音也能以同样的方式“放”上去，就像套上一件戏服，于是 put on 也有了“装出假样子”的意思。"
+    },
+    {
+      "no": "08",
+      "title": "Put down: press down, end, or humiliate",
+      "titleCN": "压下：镇压、放下，或贬低",
+      "definition": "to stop something by force; to place something down; to make someone feel small",
+      "definitionCN": "镇压；放下；贬低（使某人难堪）",
+      "example": "The officers put down the revolt in two days.",
+      "exampleCN": "官员们两天内镇压了叛乱。",
+      "why": "Down is the direction of force. A revolt is pushed down until it stops; a person is pushed down with words. The physical downward push becomes social and political suppression.",
+      "whyCN": "down 是力量的方向。叛乱被按下去直到停止；一个人被话语按下去。物理上的“向下压”就变成了社会和政治上的压制。"
+    },
+    {
+      "no": "09",
+      "title": "Put together: assemble parts",
+      "titleCN": "组装：把零件放到一起",
+      "definition": "to join separate parts so that they form one thing",
+      "definitionCN": "把各部分组合起来；组装",
+      "example": "We put the desk together in an hour.",
+      "exampleCN": "我们一小时内就把书桌组装好了。",
+      "why": "Put together places each part next to the others until a single whole exists. The endpoint is not a location in space but an arrangement: the parts rest in relation to one another.",
+      "whyCN": "put together 把每个零件放到其他零件旁边，直到出现一个整体。终点不是空间里的某个地点，而是一种排列：各部分彼此相对地停在那里。"
+    },
+    {
+      "no": "10",
+      "title": "The shot put: a thrust of weight",
+      "titleCN": "铅球：把重物推掷出去",
+      "definition": "the sports event in which a heavy ball is thrown from the shoulder",
+      "definitionCN": "推铅球（体育项目）",
+      "example": "He won a medal in the shot put.",
+      "exampleCN": "他在铅球项目上拿了奖牌。",
+      "why": "The noun put, recorded around 1300, first meant a throw of a heavy weight. The sport keeps the oldest sense of the verb — thrust or shove — and the ball is pushed, not swung.",
+      "whyCN": "名词 put 约 1300 年就有记录，最早指“把重物投掷出去”。这项运动保留了动词最古老的意思——推、搡——铅球是被推出去的，不是抡出去的。"
+    }
+  ],
+  "etymology": {
+    "intro": {
+      "en": "put is a native English verb of uncertain deeper origin. Its oldest sense is physical thrust, not abstract placement. Dates are approximate.",
+      "cn": "put 是英语本族动词，但更早的来源并不确定。它最早的意思是物理上的“推”，而不是抽象的“放置”。年代为大致估计。"
+    },
+    "items": [
+      {
+        "era": "OLD ENGLISH (late, c. 1000–1150)",
+        "en": "A verb *putian is not recorded directly but is implied by putung 'a putting, an instigation' and by pytan 'to put out, thrust out' (used of eyes). The meaning was 'to thrust, push, shove'.",
+        "cn": "动词 *putian 没有直接文献记录，但可以从 putung“一放、鼓动”和 pytan“推出、戳出”（用于眼睛）推知。它的意思是“推、搡、猛推”。"
+      },
+      {
+        "era": "PROTO-GERMANIC / COGNATES",
+        "en": "Probably from a Germanic stem that also gave Danish putte 'to put', Swedish dialect putta, Old Norse pota 'to poke', and Dutch poten 'to plant'. The exact stem is not settled.",
+        "cn": "可能来自一个日耳曼语词干，同一词干还产生了丹麦语 putte“放”、瑞典方言 putta、古诺斯语 pota“戳”、荷兰语 poten“种植”。确切词干尚无定论。"
+      },
+      {
+        "era": "UNCERTAIN ORIGIN",
+        "en": "There is no agreed Proto-Indo-European root for put. Some dictionaries suggest a link to words for pushing or poking; others simply label it unknown. Treat any single PIE root as a hypothesis, not a fact.",
+        "cn": "put 没有一个公认的原始印欧语词根。有的词典推测它与表示“推、戳”的词有联系，有的干脆标为来源不明。任何单一印欧词根都只能算假说，不能当定论。"
+      },
+      {
+        "era": "THE THROWING NOUN (c. 1300)",
+        "en": "The noun put first meant the act of throwing a heavy weight overhand, as a test of strength. Putt is a Scottish form and pronunciation of the same word (1510s), which is why golf has putt and the sport has the shot put.",
+        "cn": "名词 put 最早指“把重物从肩上投掷出去”的比力气的动作。putt 是同一个词的苏格兰形式和读音（16 世纪初），所以高尔夫里有 putt，田径里有 shot put。"
+      },
+      {
+        "era": "MODERN ENGLISH",
+        "en": "The verb is invariant: put – put – put – putting. The older past form putted is recorded in the 14c–15c but is now obsolete; today putted belongs only to the golf verb putt.",
+        "cn": "动词不变形：put – put – put – putting。更早的过去式 putted 在 14 至 15 世纪有记录，但现在已经废弃；今天 putted 只属于高尔夫动词 putt。"
+      }
+    ]
+  },
+  "similar": {
+    "note": {
+      "en": "put is short enough to collide with several words. Check the vowel sound first, then the final consonant.",
+      "cn": "put 太短，容易和好几个词撞上。先看元音，再看词尾辅音。"
+    },
+    "groups": [
+      {
+        "heading": "SOUND-ALIKE",
+        "entries": [
+          {
+            "word": "putt",
+            "ipa": "/pʌt/",
+            "tag": "near sound",
+            "definition": "a gentle golf stroke, or to make one. It began as a Scottish form of put, but its vowel is /ʌ/, not /ʊ/.",
+            "definitionCN": "高尔夫轻击；轻推。它原本是 put 的苏格兰形式，但元音读 /ʌ/，不是 /ʊ/。"
+          },
+          {
+            "word": "pot",
+            "ipa": "/pɒt/",
+            "tag": "near sound",
+            "definition": "a round container for cooking or plants. The vowel is open /ɒ/ and the final consonant is t, but the word is unrelated.",
+            "definitionCN": "锅；花盆。元音是开口的 /ɒ/，词尾也是 t，但与 put 没有词源关系。"
+          },
+          {
+            "word": "punt",
+            "ipa": "/pʌnt/",
+            "tag": "near sound",
+            "definition": "a flat-bottomed boat, or to kick a ball after dropping it. It ends in -nt, while put ends in a single t.",
+            "definitionCN": "平底船；踢落地球。词尾是 -nt，而 put 只有一个 t。"
+          }
+        ]
+      },
+      {
+        "heading": "LOOK-ALIKE",
+        "entries": [
+          {
+            "word": "putt",
+            "ipa": "/pʌt/",
+            "tag": "spelling",
+            "definition": "golf term: a soft stroke toward the hole. One extra t, a different vowel, and a much narrower meaning.",
+            "definitionCN": "高尔夫术语：朝洞轻推。多一个 t，元音不同，意思也窄得多。"
+          },
+          {
+            "word": "pot",
+            "ipa": "/pɒt/",
+            "tag": "spelling",
+            "definition": "noun: a container. It differs by one letter and one vowel sound, and is not related.",
+            "definitionCN": "名词：容器（锅、盆）。只差一个字母和一个元音，且没有词源关系。"
+          },
+          {
+            "word": "pout",
+            "ipa": "/paʊt/",
+            "tag": "spelling",
+            "definition": "to push out your lips in displeasure. It looks like put with an extra o, but the vowel is the diphthong /aʊ/.",
+            "definitionCN": "噘嘴（不高兴）。看起来像 put 多了一个 o，但元音是双元音 /aʊ/。"
+          }
+        ]
+      }
+    ]
+  },
+  "mnemonics": {
+    "normalIntro": {
+      "en": "Normal associations: real, explainable links — compounds, prepositions and everyday scenes.",
+      "cn": "正常联想：真实、可解释的联系——复合词、介词搭配和日常场景。"
+    },
+    "normal": [
+      {
+        "en": "input / output = put in / put out: data or goods are placed into or out of a system.",
+        "cn": "input / output = put in / put out：数据或货物被放进系统，或从系统里出来。"
+      },
+      {
+        "en": "put off = push something away from now, into a later time slot.",
+        "cn": "put off = 把事情从“现在”推开，推到后面的时间段。"
+      },
+      {
+        "en": "put on clothes = place cloth onto the body; put on an accent = place a costume onto the voice.",
+        "cn": "put on clothes = 把布放到身上；put on an accent = 给声音套上一件戏服。"
+      },
+      {
+        "en": "shot put: the athlete thrusts the ball from the shoulder, which is the verb's oldest 'push' sense.",
+        "cn": "shot put：运动员把球从肩上推出去，这正是这个动词最古老的“推”的意思。"
+      },
+      {
+        "en": "put up with = hold up a weight placed on you; the modern image is clear even though the phrase's origin is disputed.",
+        "cn": "put up with = 撑住一个被放到你身上的重物；尽管这个短语的来源有争议，今天的意象是清楚的。"
+      }
+    ],
+    "abstract": [
+      {
+        "en": "put is a transfer arrow: hand → push → a resting point. The thing changes location, and everything else is metaphor.",
+        "cn": "put 是一支转移箭头：手 → 推 → 一个停下的点。东西改变了位置，其余都是比喻。"
+      },
+      {
+        "en": "The resting point can be a place, a state, a sentence slot, a time slot, or a person's mind — the geometry never changes.",
+        "cn": "这个停下的点可以是地点、状态、句子里的槽位、时间段，或一个人的头脑——几何关系始终不变。"
+      },
+      {
+        "en": "Because the verb is so bare, English lets the preposition supply the meaning: put in, out, on, off, down, together.",
+        "cn": "因为这个动词本身太“空”，英语就让后面的介词提供意义：put in、out、on、off、down、together。"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "en": "Put the keys on the table.",
+      "cn": "把钥匙放在桌上。"
+    },
+    {
+      "en": "Let me put it another way.",
+      "cn": "让我换个说法。"
+    },
+    {
+      "en": "They put off the meeting until Friday.",
+      "cn": "他们把会议推迟到星期五。"
+    }
+  ],
+  "dict_mnemonic": {
+    "note": "谐音记忆 · 非词源",
+    "text": "扑特（put）—— 轻轻一扑，把东西放到特定位置 → put",
+    "word": "put"
+  },
+  "root": "源自古英语 *putian（推、放），更早来源不明；核心是“用手把东西推放到某处”。",
+  "sensesIntro": {
+    "en": "Ten common senses of put. Each grows from one core image: a hand pushes an object to a chosen point and lets it rest there.",
+    "cn": "put 的十个常见义项。每一个都从同一个核心意象长出来：手把物体推到选定的点，然后让它停在那里。"
+  },
+  "semanticMap": {
+    "core": {
+      "en": "CORE IMAGE: hand → push → chosen point → the object rests there.",
+      "cn": "核心意象：手 → 推 → 选定的点 → 物体停在那里。"
+    },
+    "chain": [
+      "HAND",
+      "THRUST",
+      "PLACE",
+      "REST IN A SPOT",
+      "CAUSE TO BE",
+      "STATE / EXPRESSION"
+    ],
+    "branches": [
+      {
+        "senses": "S1 · S9 · S10",
+        "en": "PHYSICAL PLACEMENT: push an object to a spot, place parts together, or thrust a weight away.",
+        "cn": "物理放置：把物体推到某处、把零件放到一起，或把重物推出去。"
+      },
+      {
+        "senses": "S2 · S7 · S8",
+        "en": "STATE AND FORCE: the endpoint is a condition or a downward pressure — danger, a worn coat, a suppressed revolt.",
+        "cn": "状态与力量：终点是一种处境或向下的压力——危险、穿上的外套、被压下的叛乱。"
+      },
+      {
+        "senses": "S3",
+        "en": "WORDS AS OBJECTS: meaning is placed into sentence slots, one word at a time.",
+        "cn": "词也是物体：意思被一个词一个词地放进句子的槽位里。"
+      },
+      {
+        "senses": "S4",
+        "en": "RESOURCES PUSHED IN: money, time and effort are transferred into a target and left there.",
+        "cn": "资源被推入：钱、时间、精力被转移到某个目标里并留在那里。"
+      },
+      {
+        "senses": "S5 · S6",
+        "en": "TIME AND BURDEN: the endpoint can be a later time slot, or a weight you must hold up.",
+        "cn": "时间与负担：终点可以是后面的时间段，也可以是一个你必须撑住的重量。"
+      }
+    ]
+  },
+  "affixes": {
+    "intro": {
+      "en": "put combines freely with particles: in, out, down, on and through all specify where the object is pushed or what state it lands in.",
+      "cn": "put 能自由地和小品词组合：in、out、down、on、through 都指明东西被推向哪里，或落进什么状态。"
+    },
+    "latinIntro": {
+      "en": "put has no reliable Latin source, and it is not related to Latin ponere 'to put, place' (the source of compose, deposit, position, postpone). Those words mean 'put', but they are a separate Latin family, so they are not listed here as relatives.",
+      "cn": "put 没有可靠的拉丁语来源，也和拉丁语 ponere“放置”（compose、deposit、position、postpone 的来源）没有关系。那些词虽然也表示“放”，但属于另一个拉丁词族，所以不能当作 put 的亲属列在这里。"
+    },
+    "items": [
+      {
+        "word": "input",
+        "structure": "in（进入）+ put",
+        "meaning": "data, energy, or advice put into a system or process",
+        "meaningCN": "输入；投入（in 表示“进入”）",
+        "example": "The program waits for user input.",
+        "exampleCN": "程序在等待用户输入。"
+      },
+      {
+        "word": "output",
+        "structure": "out（出来）+ put",
+        "meaning": "what a system, factory, or person produces",
+        "meaningCN": "输出；产量（out 表示“出来”）",
+        "example": "The factory doubled its output last year.",
+        "exampleCN": "这家工厂去年产量翻了一番。"
+      },
+      {
+        "word": "put-down",
+        "structure": "put + down（短语动词转名词）",
+        "meaning": "a remark that makes someone feel small or foolish",
+        "meaningCN": "贬低的话；羞辱（由 put down“压下”转成名词）",
+        "example": "That was a cruel put-down.",
+        "exampleCN": "那是一句很刻薄的贬低。"
+      },
+      {
+        "word": "put-on",
+        "structure": "put + on（短语动词转名词）",
+        "meaning": "a deception, or a joke that pretends to be real",
+        "meaningCN": "假扮；骗局（由 put on“穿上、装出”转成名词）",
+        "example": "His accent was just a put-on.",
+        "exampleCN": "他的口音只是装出来的。"
+      },
+      {
+        "word": "putter",
+        "structure": "put + -er（做动作的人或物）；高尔夫义来自 putt + -er",
+        "meaning": "one who puts (rare); a golf club used for gentle strokes — but that club is named from putt, not from this verb",
+        "meaningCN": "放置者（少见）；高尔夫轻击杆——但这一支来自 putt，不是 put + -er 的常规派生",
+        "example": "She chose a putter for the short final shot.",
+        "exampleCN": "最后一杆距离很短，她选了轻击杆。"
+      },
+      {
+        "word": "throughput",
+        "structure": "through（穿过）+ put",
+        "meaning": "the amount of material or work processed in a given time",
+        "meaningCN": "吞吐量；处理量（through 表示“穿过”）",
+        "example": "The new system raised throughput by a third.",
+        "exampleCN": "新系统把处理量提高了三分之一。"
+      }
+    ],
+    "latinEntries": []
+  }
+}

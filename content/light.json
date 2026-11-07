@@ -1,0 +1,542 @@
+{
+  "word": "light",
+  "ipa_uk": "/laɪt/",
+  "ipa_us": "/laɪt/",
+  "definition_zh": "光；轻的",
+  "definition_en": "brightness that makes things visible; not heavy in weight",
+  "core_image": "让黑暗或重量没有负担",
+  "scene": "拎起朋友的包说 Wow, this is light!",
+  "sceneCN": "这里 light 是「轻的」（第 5 个义项：重量小）；句意：哇，这个（包）好轻！",
+  "pos": [
+    {
+      "tag": "n.",
+      "zh": "光；光线；灯；光源"
+    },
+    {
+      "tag": "adj.",
+      "zh": "轻的；浅色的；轻微的；轻松的"
+    },
+    {
+      "tag": "v.",
+      "zh": "点燃；照亮"
+    }
+  ],
+  "collocations": [
+    {
+      "phrase": "turn on the light",
+      "zh": "开灯"
+    },
+    {
+      "phrase": "light up",
+      "zh": "点亮；照亮；（脸上）露出喜色"
+    },
+    {
+      "phrase": "light a fire",
+      "zh": "生火；点火"
+    },
+    {
+      "phrase": "come to light",
+      "zh": "被发现；为人所知"
+    },
+    {
+      "phrase": "in the light of",
+      "zh": "鉴于；根据"
+    }
+  ],
+  "forms": [
+    {
+      "label": "三单（he/she/it）",
+      "form": "lights"
+    },
+    {
+      "label": "过去式（常用）",
+      "form": "lit"
+    },
+    {
+      "label": "过去式（多作定语）",
+      "form": "lighted"
+    },
+    {
+      "label": "过去分词（常用）",
+      "form": "lit"
+    },
+    {
+      "label": "过去分词（多作定语）",
+      "form": "lighted"
+    },
+    {
+      "label": "现在分词（进行体）",
+      "form": "lighting"
+    },
+    {
+      "label": "比较级（形容词“轻的／浅的”）",
+      "form": "lighter"
+    },
+    {
+      "label": "最高级（形容词“轻的／浅的”）",
+      "form": "lightest"
+    }
+  ],
+  "derivatives": [
+    {
+      "word": "lighten",
+      "pos": "v.",
+      "zh": "减轻；变亮"
+    },
+    {
+      "word": "lightly",
+      "pos": "adv.",
+      "zh": "轻轻地；轻微地"
+    },
+    {
+      "word": "lighting",
+      "pos": "n.",
+      "zh": "照明；灯光设备"
+    },
+    {
+      "word": "lighter",
+      "pos": "n.",
+      "zh": "打火机（也可作形容词 light 的比较级）"
+    }
+  ],
+  "senses": [
+    {
+      "no": "01",
+      "title": "Light: brightness that lets you see",
+      "titleCN": "光：让人看见的明亮",
+      "definition": "the natural energy from the sun, or brightness from a lamp, that makes things visible",
+      "definitionCN": "光；光线；日光",
+      "example": "The light in this room is too bright.",
+      "exampleCN": "这个房间的光太亮了。",
+      "why": "Core sense: light removes darkness, and with darkness removed, things become visible. Every other sense of 'light' starts from this visible-energy image.",
+      "whyCN": "核心义：光让黑暗消失，黑暗消失后事物就可见。light 的其他含义都从这个“可见的能量”意象出发。"
+    },
+    {
+      "no": "02",
+      "title": "A light: a lamp or a source of light",
+      "titleCN": "灯：发出光的光源",
+      "definition": "a device or a source that produces light, such as a lamp",
+      "definitionCN": "灯；光源",
+      "example": "Please turn on the light.",
+      "exampleCN": "请把灯打开。",
+      "why": "Metonymy: the thing that carries the brightness is called by the brightness itself. The source stands for the light it gives.",
+      "whyCN": "转喻：承载光亮的东西直接用“光”来称呼。光源代替了它所发出的光。"
+    },
+    {
+      "no": "03",
+      "title": "Light: set something burning",
+      "titleCN": "点燃：让火开始发光",
+      "definition": "to make something start to burn",
+      "definitionCN": "点燃；点着",
+      "example": "She lit a candle and sat down.",
+      "exampleCN": "她点了一支蜡烛，然后坐下。",
+      "why": "Fire is a source of light. To make fire start is to bring that light into existence, so the verb light means 'cause to give light by burning'.",
+      "whyCN": "火是光的来源。让火开始，就是让那种光出现，所以动词 light 表示“使燃烧而发光”。"
+    },
+    {
+      "no": "04",
+      "title": "Light: give light to a place",
+      "titleCN": "照亮：让光落到某处",
+      "definition": "to give light to a place or thing",
+      "definitionCN": "照亮；为……提供光",
+      "example": "The whole street was lit by the setting sun.",
+      "exampleCN": "整条街道被夕阳照亮。",
+      "why": "The same light-energy is now directed onto an object. The object moves from dark to visible, which is the core change.",
+      "whyCN": "同一种光能被导向某个对象；对象从暗变亮，这正是核心变化。"
+    },
+    {
+      "no": "05",
+      "title": "Light: not heavy",
+      "titleCN": "轻的：重量小",
+      "definition": "not heavy; weighing little",
+      "definitionCN": "轻的；不重的",
+      "example": "This bag is light enough to carry all day.",
+      "exampleCN": "这个包很轻，可以整天提着。",
+      "why": "This is a different word that happens to share the spelling. Its own core is 'little weight', so a light load is a load that does not press on you.",
+      "whyCN": "这是另一个恰好同形的词。它自己的核心是“重量小”，所以 light 的负担是不会压着你的负担。"
+    },
+    {
+      "no": "06",
+      "title": "Light: pale in colour",
+      "titleCN": "浅色的：颜色淡",
+      "definition": "pale in colour; not dark",
+      "definitionCN": "浅色的；淡的",
+      "example": "She painted the walls light blue.",
+      "exampleCN": "她把墙刷成了浅蓝色。",
+      "why": "Colour is judged by how much light it seems to hold. A pale colour looks 'full of light', so light came to mean the opposite of dark in colour too.",
+      "whyCN": "人们用“含光量”来判断颜色：浅色看起来“充满光”，于是 light 也从“光线充足”引申为颜色上的“淡”。"
+    },
+    {
+      "no": "07",
+      "title": "Light: not great in amount or force",
+      "titleCN": "轻微的：分量或力度小",
+      "definition": "not great in amount, force, or severity",
+      "definitionCN": "轻微的；少量的；不严重的",
+      "example": "A light rain began to fall.",
+      "exampleCN": "开始下起了小雨。",
+      "why": "From 'little weight' comes 'little force': a light rain, a light touch, a light punishment all carry little weight or pressure.",
+      "whyCN": "从“重量小”引申出“力度小”：小雨、轻触、轻罚，都是分量或压力很小的东西。"
+    },
+    {
+      "no": "08",
+      "title": "Light: not serious or difficult",
+      "titleCN": "轻松的：不严肃、不费力",
+      "definition": "not serious, difficult, or heavy in tone",
+      "definitionCN": "轻松的；不严肃的；供消遣的",
+      "example": "We watched a light comedy after dinner.",
+      "exampleCN": "晚饭后我们看了一部轻松喜剧。",
+      "why": "Something without weight is easy to carry. A task or a story without 'weight' is easy to bear, so light means entertaining and not serious.",
+      "whyCN": "没有重量的东西容易拿；没有“分量”的任务或故事也容易承受，于是 light 表示轻松、不严肃。"
+    },
+    {
+      "no": "09",
+      "title": "Come to light: become known",
+      "titleCN": "显露：被人看见、为人所知",
+      "definition": "to become known or visible, especially after being hidden",
+      "definitionCN": "（come to light）被发现；显露出来",
+      "example": "New facts came to light during the trial.",
+      "exampleCN": "审判过程中新的证据被披露出来。",
+      "why": "Hidden things are in darkness; when they come into the light, they become visible. Knowledge is treated as sight.",
+      "whyCN": "隐藏的事物处在黑暗里；一旦进入光中，就变得可见。知识被当作“看见”。"
+    },
+    {
+      "no": "10",
+      "title": "In a new light: from a different view",
+      "titleCN": "从新的角度看",
+      "definition": "a particular way of considering something",
+      "definitionCN": "（in a new/different light）从新的角度；以不同的眼光",
+      "example": "The letter made her see his decision in a new light.",
+      "exampleCN": "这封信让她从新的角度看待他的决定。",
+      "why": "Lighting determines what you can see and how it looks. A different light on an object is a different view of it.",
+      "whyCN": "光线决定你能看见什么、它看起来怎样。换一束光照同一个对象，就是换一个视角看它。"
+    }
+  ],
+  "etymology": {
+    "intro": {
+      "en": "The spelling light hides two different words: one from 'bright', one from 'not heavy'. Both were lēoht in Old English and fell together in Modern English. Dates are approximate.",
+      "cn": "light 这个拼写下藏着两个不同的词：一个来自“明亮”，一个来自“不重”。它们在古英语里都写作 lēoht，在现代英语中合成了一个同形词。年代为大致估计。"
+    },
+    "items": [
+      {
+        "era": "OLD ENGLISH — BRIGHTNESS (c. 700–1100)",
+        "en": "lēoht (West Saxon), lēht (Anglian) meant 'light, daylight; bright, shining', as both noun and adjective. The -gh- spelling was later added by Anglo-French scribes to show the Germanic h-sound.",
+        "cn": "lēoht（西撒克逊）、lēht（盎格利亚）意为“光、日光；明亮的、发光的”，既是名词也是形容词。后来的 -gh- 拼法是盎格鲁-法语抄写员为了标出日耳曼语的 h 音而加的。"
+      },
+      {
+        "era": "PROTO-GERMANIC & PIE — BRIGHTNESS",
+        "en": "From Proto-Germanic *leuhtą / *leuhta- (German Licht, Dutch licht, Gothic liuhaþ), from PIE *leuk- 'light, brightness'. Latin lux, lūcis 'light' and lūmen 'light' come from the same root, as does Greek leukos 'white'.",
+        "cn": "来自原始日耳曼语 *leuhtą / *leuhta-（德语 Licht、荷兰语 licht、哥特语 liuhaþ），再往前是原始印欧语 *leuk-“光、明亮”。拉丁语 lux、lūcis“光”和 lūmen“光”同出这一词根，希腊语 leukos“白”也是。"
+      },
+      {
+        "era": "OLD ENGLISH — NOT HEAVY",
+        "en": "A separate lēoht meant 'not heavy, lightly built; easy, slight, quick'. It comes from Proto-Germanic *lingkhtaz (Old Norse léttr, German leicht, Dutch licht, Gothic leihts), from PIE *legwh- 'not heavy'.",
+        "cn": "另一个 lēoht 意为“不重、结构轻巧；容易的、轻微的、敏捷的”。它来自原始日耳曼语 *lingkhtaz（古诺斯语 léttr、德语 leicht、荷兰语 licht、哥特语 leihts），再往前是原始印欧语 *legwh-“不重”。"
+      },
+      {
+        "era": "HOMONYM NOTE",
+        "en": "Standard etymological dictionaries treat the 'bright' light and the 'not heavy' light as different words from different roots. A few older popular accounts try to connect them through 'bright, clear → easy', but that link is not generally accepted.",
+        "cn": "标准词源词典把“明亮”的 light 和“不重”的 light 看作来自不同词根的两个词。少数较早的通俗说法试图用“明亮、清楚 → 容易”把两者连起来，但这一联系并未被普遍接受。"
+      },
+      {
+        "era": "LATIN & GREEK SIDE",
+        "en": "Latin lux / lūcis and lūmen gave English lucid, translucent, luminous and illuminate. Greek leukos 'white' gave leukemia and leukocyte. These are cognates of the 'brightness' light through PIE *leuk-, not borrowings of the English word.",
+        "cn": "拉丁语 lux / lūcis 和 lūmen 产生了英语 lucid、translucent、luminous、illuminate。希腊语 leukos“白”产生了 leukemia、leukocyte。它们通过原始印欧语 *leuk- 与“明亮”义的 light 同源，并不是直接借用了英语这个词。"
+      },
+      {
+        "era": "MODERN ENGLISH",
+        "en": "The verb has two paths: light 'ignite / illuminate' comes from Old English līhtan (from the noun), while light 'alight, get down' comes from līhtan 'make light, relieve of weight' — a rare crossing between the two families. The past tense is lit, with lighted kept in attributive and compound uses.",
+        "cn": "动词有两条来路：表示“点燃／照亮”的 light 来自古英语 līhtan（源自名词）；表示“下车、下来”的 light 来自 līhtan“使变轻、卸下重量”——这是两个词族少见的交叉。过去式常用 lit，lighted 多保留在定语和复合词中。"
+      }
+    ]
+  },
+  "similar": {
+    "note": {
+      "en": "Words below can be confused with light. The notes point to sound and spelling first, then meaning.",
+      "cn": "下面这些词容易和 light 混淆。说明先讲读音和拼写，再讲意思。"
+    },
+    "groups": [
+      {
+        "heading": "SOUND-ALIKE",
+        "entries": [
+          {
+            "word": "lite",
+            "ipa": "/laɪt/",
+            "tag": "same sound",
+            "definition": "an informal or advertising spelling of light, used for low-calorie or low-fat products. It works as an adjective, not as a verb or a lamp.",
+            "definitionCN": "light 的非正式／广告拼法，常用于低热量、低脂产品。它只作形容词，不作动词或“灯”。"
+          },
+          {
+            "word": "alight",
+            "ipa": "/əˈlaɪt/",
+            "tag": "near sound",
+            "definition": "a verb meaning to get off a bus, train, or other vehicle; also an adjective meaning 'burning'. The extra a- changes both form and meaning.",
+            "definitionCN": "动词，表示从公共汽车、火车等下来；也可作形容词，表示“燃烧着的”。多出的 a- 让形式和意思都变了。"
+          },
+          {
+            "word": "delight",
+            "ipa": "/dɪˈlaɪt/",
+            "tag": "near sound",
+            "definition": "great pleasure; to please someone greatly. It begins with de-, not with l-, so it is not a form of light.",
+            "definitionCN": "高兴；使某人非常愉快。它以 de- 开头，不是 l- 开头，所以不是 light 的某种形式。"
+          }
+        ]
+      },
+      {
+        "heading": "LOOK-ALIKE",
+        "entries": [
+          {
+            "word": "slight",
+            "ipa": "/slaɪt/",
+            "tag": "spelling",
+            "definition": "adjective: small in degree; verb: to treat someone without respect. It adds s- before light.",
+            "definitionCN": "形容词：轻微的、细小的；动词：轻视、怠慢。它在 light 前多一个 s-。"
+          },
+          {
+            "word": "sight",
+            "ipa": "/saɪt/",
+            "tag": "spelling",
+            "definition": "noun: the ability to see, or something you see. It has no l, so it is sight, not slight or light.",
+            "definitionCN": "视力；景象（名词）。它没有 l，所以是 sight，不是 slight 或 light。"
+          },
+          {
+            "word": "night",
+            "ipa": "/naɪt/",
+            "tag": "spelling",
+            "definition": "noun: the dark part of the day. It starts with n- instead of l-, and is the opposite of day.",
+            "definitionCN": "夜晚（名词）。它以 n- 开头而不是 l-，正是“白天”的反面。"
+          },
+          {
+            "word": "lightning",
+            "ipa": "/ˈlaɪtnɪŋ/",
+            "tag": "spelling",
+            "definition": "noun: the bright flash in a storm. It is written without the e of lightening and has only two syllables.",
+            "definitionCN": "闪电（名词）。拼写中没有 lightening 里的 e，只有两个音节。"
+          },
+          {
+            "word": "lightening",
+            "ipa": "/ˈlaɪtənɪŋ/",
+            "tag": "spelling",
+            "definition": "the -ing form of lighten: making something lighter or brighter. It keeps the e and has three syllables; it is not lightning.",
+            "definitionCN": "lighten 的 -ing 形式：使变轻或变亮的过程。它保留 e，有三个音节；它不是“闪电”。"
+          }
+        ]
+      }
+    ]
+  },
+  "mnemonics": {
+    "normalIntro": {
+      "en": "Normal associations: real, explainable links — real compounds and common phrases, not made-up rhymes.",
+      "cn": "正常联想：真实、可解释的联系——真实的复合词和常见短语，而不是编造的顺口溜。"
+    },
+    "normal": [
+      {
+        "en": "daylight = day + light: the light that belongs to the day.",
+        "cn": "daylight = day + light：属于白天的光，也就是日光。"
+      },
+      {
+        "en": "lighthouse = light + house: a house that holds a light to guide ships.",
+        "cn": "lighthouse = light + house：一座装着灯、用来指引船只的房子，也就是灯塔。"
+      },
+      {
+        "en": "lighten does two jobs: light (adj. not heavy) + -en = make less heavy; light (noun) + -en = make brighter.",
+        "cn": "lighten 有两个工作：light（形容词“轻”）+ -en = 使变轻；light（名词“光”）+ -en = 使变亮。"
+      },
+      {
+        "en": "lightning is the flash in a storm; lightening is the act of making something lighter or brighter. The e makes it the slow process, not the flash.",
+        "cn": "lightning 是暴风雨中的闪电；lightening 是使某物变轻或变亮的过程。多出的 e 表示这是一个过程，而不是那道闪光。"
+      },
+      {
+        "en": "shed light on something = make it clear. Light reveals what was hidden, and understanding is pictured as seeing.",
+        "cn": "shed light on something = 把某事讲清楚。光让隐藏的东西显露出来，而理解被想象成“看见”。"
+      }
+    ],
+    "abstract": [
+      {
+        "en": "Light is a switch from hidden to seen. Symbol: ☾ → ☀ — a dark field becomes a lit field, and every shape in it appears.",
+        "cn": "light 是从“隐藏”到“可见”的一次切换。符号：☾ → ☀——暗下来的场变成被照亮的场，里面每一个形状都显现出来。"
+      },
+      {
+        "en": "The weight-light is a second switch: a load loses mass until it barely presses down. Same spelling, different origin — do not force one metaphor onto both.",
+        "cn": "表示“轻”的 light 是第二个开关：负担不断减少重量，直到几乎不再压下来。拼写相同，来源不同——不要把同一个比喻硬套到两者身上。"
+      },
+      {
+        "en": "The extended senses follow visibility: what is lit can be seen, what is seen can be understood, and the angle of the light is the angle of the view.",
+        "cn": "引申义沿着“可见性”展开：被照亮的东西能被看见，被看见的东西能被理解，而光的角度就是看问题的角度。"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "en": "Turn off the light before you leave.",
+      "cn": "离开前把灯关掉。"
+    },
+    {
+      "en": "This jacket is very light, so it is good for summer.",
+      "cn": "这件夹克很轻，所以适合夏天穿。"
+    },
+    {
+      "en": "The truth finally came to light.",
+      "cn": "真相终于显露出来。"
+    }
+  ],
+  "dict_mnemonic": {
+    "note": "谐音记忆 · 非词源",
+    "text": "来特（light）—— 光来得特别亮，是“光”；拎起来特别轻，是“轻” → light",
+    "word": "light"
+  },
+  "root": "两个同形异源的古英语词：lēoht“光”与 lēoht“轻”，分别来自印欧词根 *leuk- 和 *legwh-。",
+  "sensesIntro": {
+    "en": "Ten common senses of light. Two source words share one spelling: brightness removes darkness, while little weight removes pressure.",
+    "cn": "light 的十个常见义项。两个来源不同的词共用同一个拼写：明亮驱散黑暗，轻巧卸下压力。"
+  },
+  "semanticMap": {
+    "core": {
+      "en": "CORE IMAGE: darkness or weight is removed, so what was hidden or heavy becomes visible or easy.",
+      "cn": "核心意象：黑暗或重量被移走，原本被遮住或压住的东西变得可见、可承受。"
+    },
+    "chain": [
+      "DARK",
+      "LIGHT",
+      "VISIBLE",
+      "CLEAR",
+      "INSIGHT"
+    ],
+    "branches": [
+      {
+        "senses": "S1 · S2 · S3 · S4",
+        "en": "VISIBLE ENERGY: light itself, its source, setting it alight, and throwing it on a place.",
+        "cn": "可见的能量：光本身、光的来源、把火点着、把光投向某处。"
+      },
+      {
+        "senses": "S6 · S10",
+        "en": "COLOUR AND VIEW: how much light a colour seems to carry; which light you see an object in.",
+        "cn": "颜色与视角：一种颜色看起来含多少光；你从哪束光里看一个对象。"
+      },
+      {
+        "senses": "S9",
+        "en": "KNOWLEDGE AS SIGHT: hidden facts enter the light and become known.",
+        "cn": "知识即看见：隐藏的事实进入光中，就被人知道。"
+      },
+      {
+        "senses": "S5 · S7 · S8",
+        "en": "WEIGHT REMOVED: a second, unrelated 'light' — little weight → little force → little seriousness.",
+        "cn": "重量被移走：另一个来源无关的 light——重量小 → 力度小 → 严肃性小。"
+      },
+      {
+        "senses": "S1–S4 vs S5–S8",
+        "en": "HOMONYM NOTE: the left track belongs to the 'brightness' word; the right track belongs to the 'not heavy' word.",
+        "cn": "同形异源提示：左边这条轨道属于“明亮”那个词；右边这条轨道属于“不重”那个词。"
+      }
+    ]
+  },
+  "affixes": {
+    "intro": {
+      "en": "Light is a highly productive root in two ways: it forms words about brightness and words about lightness of weight. Prefixes and suffixes send both cores into everyday vocabulary.",
+      "cn": "light 是一个高度能产的词根，有两条路：一条构成与“光”有关的词，一条构成与“轻”有关的词。前缀和后缀把这两个核心带进大量日常词汇。"
+    },
+    "latinIntro": {
+      "en": "Latin lux / lūcis 'light' and lūmen 'light' are cognates of the brightness-light through PIE *leuk-. This family is not borrowed from the English word; it is a distant relative. Greek leukos 'white' belongs to the same root.",
+      "cn": "拉丁语 lux / lūcis“光”和 lūmen“光”通过原始印欧语 *leuk- 与“明亮”义的 light 同源。这一族不是从英语这个词借出去的，而是远亲。希腊语 leukos“白”也属于同一词根。"
+    },
+    "items": [
+      {
+        "word": "lighten",
+        "structure": "light (adj. not heavy) + -en (make)",
+        "meaning": "to make or become less heavy",
+        "meaningCN": "使变轻；减轻（-en 表示“使……”，这里来自形容词“轻的”）",
+        "example": "We lightened the load by leaving the tent behind.",
+        "exampleCN": "我们把帐篷留下，减轻了负担。"
+      },
+      {
+        "word": "lighten",
+        "structure": "light (n. brightness) + -en (make)",
+        "meaning": "to make or become brighter",
+        "meaningCN": "使变亮；照亮（同形动词的另一支，来自名词“光”）",
+        "example": "A few lamps lightened the dark room.",
+        "exampleCN": "几盏灯照亮了昏暗的房间。"
+      },
+      {
+        "word": "lightly",
+        "structure": "light + -ly (in a ... manner)",
+        "meaning": "gently; with little weight or force",
+        "meaningCN": "轻轻地；轻微地（-ly 是副词后缀）",
+        "example": "She touched his shoulder lightly.",
+        "exampleCN": "她轻轻碰了碰他的肩膀。"
+      },
+      {
+        "word": "enlighten",
+        "structure": "en- (make, put into) + lighten (make bright)",
+        "meaning": "to give someone knowledge or understanding",
+        "meaningCN": "启发；使明白（en- 表示“使进入”，lighten 表示“使变亮”）",
+        "example": "The book enlightened me about the subject.",
+        "exampleCN": "这本书让我对这个主题有了新的认识。"
+      },
+      {
+        "word": "daylight",
+        "structure": "day + light",
+        "meaning": "the natural light of the day",
+        "meaningCN": "日光；白昼的光",
+        "example": "We finished the work before daylight faded.",
+        "exampleCN": "我们在天色暗下来之前完成了工作。"
+      },
+      {
+        "word": "headlight",
+        "structure": "head + light",
+        "meaning": "the large lamp at the front of a vehicle",
+        "meaningCN": "（汽车等的）前照灯；头灯",
+        "example": "One headlight was broken.",
+        "exampleCN": "一个前照灯坏了。"
+      },
+      {
+        "word": "lightweight",
+        "structure": "light + weight",
+        "meaning": "weighing less than usual; also not serious or important",
+        "meaningCN": "轻量的；无足轻重的",
+        "example": "She bought a lightweight jacket for the trip.",
+        "exampleCN": "她为这次旅行买了一件轻便夹克。"
+      },
+      {
+        "word": "lighting",
+        "structure": "light + -ing (noun of action or result)",
+        "meaning": "the arrangement or equipment that gives light",
+        "meaningCN": "照明；灯光设备（-ing 构成名词，表示行为或结果）",
+        "example": "The stage lighting was too dim.",
+        "exampleCN": "舞台灯光太暗了。"
+      },
+      {
+        "word": "lighthouse",
+        "structure": "light + house",
+        "meaning": "a tower with a light that guides ships",
+        "meaningCN": "灯塔",
+        "example": "The lighthouse stands at the end of the harbour.",
+        "exampleCN": "灯塔立在港口尽头。"
+      }
+    ],
+    "latinEntries": [
+      {
+        "word": "lucid",
+        "structure": "luc- (light) + -id (adjective suffix)",
+        "meaning": "clear and easy to understand",
+        "meaningCN": "清晰的；明白易懂的（luc- 表示“光”）"
+      },
+      {
+        "word": "translucent",
+        "structure": "trans- (through) + luc- (light) + -ent",
+        "meaning": "letting light pass through",
+        "meaningCN": "半透明的（光能穿过）"
+      },
+      {
+        "word": "luminous",
+        "structure": "lumin- (light) + -ous (full of)",
+        "meaning": "giving off light",
+        "meaningCN": "发光的；明亮的（-ous 表示“充满……的”）"
+      },
+      {
+        "word": "illuminate",
+        "structure": "il- (in, on) + lumin- (light) + -ate",
+        "meaning": "to light up; to make clear",
+        "meaningCN": "照亮；阐明"
+      }
+    ]
+  }
+}

@@ -1,0 +1,493 @@
+{
+  "word": "turn",
+  "ipa_uk": "/tɜːn/",
+  "ipa_us": "/tɝːn/",
+  "definition_zh": "转；变得",
+  "definition_en": "to move around an axis or change direction; to become",
+  "core_image": "让方向或状态转个弯",
+  "scene": "路口问路 Turn left at the corner.",
+  "sceneCN": "这里 turn 是「转向」（第 2 个义项：改变行进方向）；句意：在拐角处左转。",
+  "pos": [
+    {
+      "tag": "vt.",
+      "zh": "转动；翻转；使变成"
+    },
+    {
+      "tag": "vi.",
+      "zh": "转向；转弯；变成"
+    },
+    {
+      "tag": "n.",
+      "zh": "轮次；（一）圈；转弯处"
+    }
+  ],
+  "collocations": [
+    {
+      "phrase": "turn on",
+      "zh": "打开（电器）"
+    },
+    {
+      "phrase": "turn off",
+      "zh": "关掉（电器）"
+    },
+    {
+      "phrase": "turn out",
+      "zh": "结果是；原来是"
+    },
+    {
+      "phrase": "in turn",
+      "zh": "依次；反过来"
+    }
+  ],
+  "forms": [
+    {
+      "label": "三单",
+      "form": "turns"
+    },
+    {
+      "label": "过去式",
+      "form": "turned"
+    },
+    {
+      "label": "过去分词",
+      "form": "turned"
+    },
+    {
+      "label": "现在分词",
+      "form": "turning"
+    }
+  ],
+  "derivatives": [
+    {
+      "word": "turning",
+      "pos": "n.",
+      "zh": "转弯处；转向"
+    },
+    {
+      "word": "turner",
+      "pos": "n.",
+      "zh": "车工；翻铲"
+    },
+    {
+      "word": "return",
+      "pos": "v./n.",
+      "zh": "返回；归还"
+    },
+    {
+      "word": "turnover",
+      "pos": "n.",
+      "zh": "营业额；人员更替率"
+    }
+  ],
+  "senses": [
+    {
+      "no": "01",
+      "title": "Rotate: spin around a fixed axis",
+      "titleCN": "旋转：绕着一个固定的轴转",
+      "definition": "to move in a circle around a center or axis",
+      "definitionCN": "绕中心或轴转动；使旋转",
+      "example": "Turn the wheel slowly with both hands.",
+      "exampleCN": "用双手慢慢转动方向盘。",
+      "why": "The oldest layer of turn is a lathe. Latin tornus means lathe, and tornare means to round a piece of wood while it spins about a fixed point. The core image is a fixed center with everything else revolving around it.",
+      "whyCN": "turn 最古老的一层意思来自车床。拉丁语 tornus 就是“车床”，tornare 指让木料绕一个固定点旋转着被削圆。因此核心意象是：中心不动，其余部分绕着它转。"
+    },
+    {
+      "no": "02",
+      "title": "Change direction: turn left or right",
+      "titleCN": "转向：左转、右转、改变行进方向",
+      "definition": "to change the direction in which you are moving or facing",
+      "definitionCN": "改变行进或面对的方向；转向",
+      "example": "Turn left at the next corner.",
+      "exampleCN": "在下一个路口左转。",
+      "why": "A person walking is a body with a facing. Turning is simply rotating that body around its own vertical axis, so the same word that spins a wheel also redirects a walker.",
+      "whyCN": "走路的人是一个带“朝向”的身体。转向就是让这个身体绕自身的竖直轴旋转，所以让轮子旋转的词，也能让走路的人改变方向。"
+    },
+    {
+      "no": "03",
+      "title": "Turn into: become something else",
+      "titleCN": "变成：转化为另一种事物",
+      "definition": "to change into a different substance, form, or kind",
+      "definitionCN": "变成；转化为（另一种物质、形态或种类）",
+      "example": "The water turned into ice overnight.",
+      "exampleCN": "水一夜之间结成了冰。",
+      "why": "On a lathe a block of wood is spun and cut until it leaves as a new shape: the material stays, the form changes. Turn into keeps that workshop image of something being reworked into another form.",
+      "whyCN": "在车床上，一块木头被旋转着切削，最后以新的形状离开：材料没变，形态变了。turn into 保留的就是这个作坊画面——东西被转着加工成了另一种形态。"
+    },
+    {
+      "no": "04",
+      "title": "Flip or reverse: turn a page",
+      "titleCN": "翻转：翻页、翻面、里外掉个个儿",
+      "definition": "to move something so that the other side is showing or facing up",
+      "definitionCN": "翻转；把（某物）翻面，使另一面朝上或朝外",
+      "example": "Turn the page and read the next paragraph.",
+      "exampleCN": "翻到下一页，读下一段。",
+      "why": "Half a rotation presents the other side. A page, a pancake, a sleeve and a pocket all have two faces; turning is the 180-degree move that swaps which face you see.",
+      "whyCN": "转半圈就会露出另一面。书页、煎饼、袖子、口袋都有两面，turn 就是转 180 度，把你看的那一面换掉。"
+    },
+    {
+      "no": "05",
+      "title": "Become: turn pale, turn thirty",
+      "titleCN": "变得：脸色变化、年龄到了某个数",
+      "definition": "to become a particular state, colour, or age, often without control",
+      "definitionCN": "变得（某种状态、颜色）；到（某个年龄）",
+      "example": "Her face turned pale when she heard the news.",
+      "exampleCN": "听到这个消息，她脸色变得煞白。",
+      "why": "A state has a visible face: flushed or pale, fresh or sour. Changing state is that face turning to its opposite. Age works the same way: the dial of years clicks round to a new number.",
+      "whyCN": "状态有一张看得见的“脸”：红润或苍白，新鲜或发酸。状态改变，就是这张脸转到了相反的一面。年龄也一样：年份的表盘转到了新的数字。"
+    },
+    {
+      "no": "06",
+      "title": "Turn to or turn against: change sides",
+      "titleCN": "转向某人求助；转而反对",
+      "definition": "to change whom you face, support, or rely on",
+      "definitionCN": "转向（某人求助）；转而反对（原来支持的一方）",
+      "example": "When he lost his job, he turned to his old teacher for advice.",
+      "exampleCN": "失业后，他向当年的老师求助。",
+      "why": "Loyalty is a direction of facing: an ally faces you, an enemy faces away. So the physical act of turning becomes a change of allegiance: turn to someone for help, turn against or turn on someone in hostility.",
+      "whyCN": "忠诚就是一种朝向：盟友面向你，敌人背对你。于是物理上的“转身”变成了立场的改变——turn to 是转过去求助，turn against 或 turn on 是转过去敌对。"
+    },
+    {
+      "no": "07",
+      "title": "Turn a profit: convert effort into a result",
+      "titleCN": "获利：把投入转化为收益",
+      "definition": "to produce or earn something, especially money, from what you have",
+      "definitionCN": "（从原料、投入中）获得、赚得（利润等）；把……变成收益",
+      "example": "The small bakery turned a profit in its second year.",
+      "exampleCN": "这家小面包店第二年就开始盈利。",
+      "why": "The lathe takes raw material and delivers a finished product. Turn a profit uses the same picture with money as the output: effort and stock are rotated into earnings.",
+      "whyCN": "车床把原料加工成成品。turn a profit 用的是同一幅图，只是产出换成了钱：投入和存货被“转”成了利润。"
+    },
+    {
+      "no": "08",
+      "title": "A turn: your share in a rotation",
+      "titleCN": "轮次：轮到你的那一次",
+      "definition": "the time when it is your chance to do something, in a fixed order",
+      "definitionCN": "（按顺序轮到的）轮次；机会",
+      "example": "It is your turn to speak.",
+      "exampleCN": "轮到你发言了。",
+      "why": "A wheel that comes round brings each spoke to the top in order. One full rotation gives every spoke one turn, so a turn became a person's slot in a repeating order.",
+      "whyCN": "轮子转一圈，每根辐条依次转到最上面。转一整圈，每根辐条就轮到一次，于是 a turn 成了一个人在循环顺序里的那一次机会。"
+    },
+    {
+      "no": "09",
+      "title": "A turn: a bend in the road",
+      "titleCN": "转弯处：路上拐弯的地方",
+      "definition": "a place where a road or path changes direction",
+      "definitionCN": "（道路的）转弯处；拐弯",
+      "example": "There is a sharp turn just after the bridge.",
+      "exampleCN": "过了桥就有一个急转弯。",
+      "why": "A path that keeps changing direction traces an arc; the point where it bends is a turn. From there it is a short step to the abstract turning point, where a life or a story changes direction.",
+      "whyCN": "不断改变方向的路会画出一条弧线，拐弯的那个点就是 a turn。由此再走一小步，就是抽象的 turning point——人生或故事改变方向的转折点。"
+    },
+    {
+      "no": "10",
+      "title": "Turn out: the way things end up",
+      "titleCN": "结果是：事情最后变成什么样",
+      "definition": "to happen or be found in a particular way in the end",
+      "definitionCN": "结果是；原来是；最后发现是",
+      "example": "The party turned out better than we expected.",
+      "exampleCN": "聚会的结果比我们预想的好。",
+      "why": "When the rotation stops, the work presents its finished face. Turn out applies that last look to events: after all the turning, this is the face the situation shows.",
+      "whyCN": "旋转停下来时，工件呈现出它完工的那一面。turn out 把这个“最后一面”用到事情上：转来转去之后，事情露出的就是这张脸。"
+    }
+  ],
+  "etymology": {
+    "intro": {
+      "en": "turn is not a native English word. It came from French, and French took it from the Latin word for a lathe. Dates are approximate.",
+      "cn": "turn 不是英语本族词。它从法语进来，而法语又是从拉丁语里“车床”这个词借来的。年代为大致估计。"
+    },
+    "items": [
+      {
+        "era": "OLD ENGLISH (c. 1000–1200)",
+        "en": "turnian meant 'to rotate, revolve; move about an axis, center, or fixed position'. English also borrowed the same verb from Old French torner, and the two forms reinforced each other.",
+        "cn": "古英语 turnian 意为“旋转、绕转；绕轴心或固定位置运动”。英语同时从古法语借入了同一个动词 torner，两种形式互相加强。"
+      },
+      {
+        "era": "OLD FRENCH",
+        "en": "torner, turner meant 'to turn away or around; draw aside; change, transform; turn on a lathe' (modern French tourner). This is the form that supplied the everyday English verb.",
+        "cn": "古法语 torner、turner 意为“转开、转动；拉开；改变、变形；在车床上车削”（现代法语 tourner）。日常英语里的 turn 主要来自这一形式。"
+      },
+      {
+        "era": "LATIN",
+        "en": "tornare 'to polish, round off, fashion, turn on a lathe', from tornus 'lathe'. The lathe is the key image: the work spins, the chisel stays still, and a new shape appears.",
+        "cn": "拉丁语 tornare 意为“打磨、削圆、加工成形、在车床上车削”，来自 tornus“车床”。车床是关键意象：工件转，刀具不动，新形状就出现了。"
+      },
+      {
+        "era": "GREEK / PROTO-INDO-EUROPEAN",
+        "en": "Greek tornos 'lathe, tool for drawing circles' is the next step back, traced by Watkins to PIE *tere- 'to rub, turn'. The PIE root is a reconstruction, not a recorded word.",
+        "cn": "再往前是希腊语 tornos“车床、画圆工具”。Watkins 把它追溯到原始印欧语词根 *tere-“摩擦、转”。这个印欧词根是重构出来的，并没有直接文献记录。"
+      },
+      {
+        "era": "THE LATHE BECOMES A METAPHOR",
+        "en": "By the mid-14c English used turn for 'shape while rotating on a lathe', and from that came 'form, fashion, shape in any way'. The senses 'change direction', 'change into' and 'change state' are recorded from the 12c–14c. The abstract senses are the workshop image applied to life.",
+        "cn": "到 14 世纪中期，英语已用 turn 表示“在车床上旋转着加工成形”，由此发展出“塑造、使成形”的一般意思。“改变方向”“变成”“改变状态”等义在 12 至 14 世纪已有记录。抽象义就是把作坊里的画面搬到生活里。"
+      },
+      {
+        "era": "MODERN ENGLISH",
+        "en": "The verb is regular: turn – turned – turned – turning. The noun turn is recorded from c. 1300 as an act of turning; the senses 'one's turn in an order' and 'a bend in a road' developed later from the same rotation image.",
+        "cn": "动词变化规则：turn – turned – turned – turning。名词 turn 约 1300 年已有“一次转动”的记录；“按顺序轮到的一次”和“路上的转弯处”都是后来从同一个旋转意象发展出来的。"
+      }
+    ]
+  },
+  "similar": {
+    "note": {
+      "en": "Words below are easily confused with turn. The notes start with sound and spelling, then meaning.",
+      "cn": "下面这些词容易和 turn 混淆。说明先讲读音和拼写，再讲意思。"
+    },
+    "groups": [
+      {
+        "heading": "SOUND-ALIKE",
+        "entries": [
+          {
+            "word": "tern",
+            "ipa": "/tɜːn/",
+            "tag": "same sound",
+            "definition": "a seabird with long pointed wings. It is a homophone of turn but has nothing to do with rotation.",
+            "definitionCN": "一种长翅尖翼的海鸟。和 turn 同音，但与“转”毫无关系。"
+          },
+          {
+            "word": "burn",
+            "ipa": "/bɜːn/",
+            "tag": "near sound",
+            "definition": "to be on fire, or to damage something with fire. Only the first consonant differs: b instead of t.",
+            "definitionCN": "燃烧；烧毁。只有第一个辅音不同：b 代替 t。"
+          },
+          {
+            "word": "learn",
+            "ipa": "/lɜːn/",
+            "tag": "near sound",
+            "definition": "to gain knowledge or skill. It rhymes with turn but begins with l.",
+            "definitionCN": "学习；获知。与 turn 押韵，但以 l 开头。"
+          }
+        ]
+      },
+      {
+        "heading": "LOOK-ALIKE",
+        "entries": [
+          {
+            "word": "return",
+            "ipa": "/rɪˈtɜːn/",
+            "tag": "prefix",
+            "definition": "to come or go back. It is re- 'back' + turn, so it is a member of the family, not a stranger.",
+            "definitionCN": "返回；归还。它是 re-（回）+ turn，是本词族的成员，不是易混的陌生词。"
+          },
+          {
+            "word": "torn",
+            "ipa": "/tɔːn/",
+            "tag": "spelling",
+            "definition": "past participle of tear, meaning 'ripped'. It looks like turn but has a different vowel and a different verb behind it.",
+            "definitionCN": "tear（撕）的过去分词，意为“撕破的”。形状像 turn，但元音不同，来源动词也不同。"
+          },
+          {
+            "word": "turnip",
+            "ipa": "/ˈtɜːnɪp/",
+            "tag": "spelling",
+            "definition": "a round root vegetable. Its first element is probably turn, from its round shape, as if it had been turned on a lathe; the second is nepe, an old word for turnip.",
+            "definitionCN": "萝卜（一种圆形根菜）。它的前半部分很可能就是 turn，取“圆得像在车床上车出来”的意思；后半部分 nepe 是“萝卜”的古词。"
+          }
+        ]
+      }
+    ]
+  },
+  "mnemonics": {
+    "normalIntro": {
+      "en": "Normal associations: real, explainable links — compounds, prefixes and everyday scenes, not invented rhymes.",
+      "cn": "正常联想：真实、可解释的联系——复合词、前缀和日常场景，而不是编造的顺口溜。"
+    },
+    "normal": [
+      {
+        "en": "return = re- (back) + turn: to turn back toward the place you came from.",
+        "cn": "return = re-（回）+ turn：转回到你来的地方。"
+      },
+      {
+        "en": "turnstile = turn + stile (a step over a fence): a gate whose arms turn as each person passes.",
+        "cn": "turnstile = turn + stile（翻越栅栏的踏步）：每过一个人，闸臂就转一下的闸机。"
+      },
+      {
+        "en": "turnover = turn + over: money that turns over in a shop, or staff who turn over when they leave and are replaced.",
+        "cn": "turnover = turn + over：店里资金“转”一圈的营业额，或员工走了又补上的人员更替。"
+      },
+      {
+        "en": "turn a page = a 180-degree turn. The paper does not slide sideways; it rotates.",
+        "cn": "turn a page = 转 180 度。纸不是横着挪走，而是整片翻过去。"
+      },
+      {
+        "en": "turn pale = the face turns to its opposite state, like a dial clicking round to a new number.",
+        "cn": "turn pale = 脸转到相反的状态，就像表盘“咔”地转到新数字。"
+      }
+    ],
+    "abstract": [
+      {
+        "en": "turn is an arc around a fixed point. The axis never moves; only the facing changes.",
+        "cn": "turn 是绕固定点画出的一段弧：轴心始终不动，改变的只是朝向。"
+      },
+      {
+        "en": "That is why turn can change direction, state, loyalty or fortune without changing identity: the thing stays, its face rotates.",
+        "cn": "所以 turn 能改变方向、状态、立场或运势，却不改变事物本身：东西还在，只是脸转过去了。"
+      },
+      {
+        "en": "Every extended sense is the same geometry seen from another angle — a page, a road, a year, a market, an ally.",
+        "cn": "所有引申义都是同一套几何从不同角度去看——一页纸、一条路、一年、一个市场、一个盟友。"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "en": "Turn left at the next corner.",
+      "cn": "在下一个路口左转。"
+    },
+    {
+      "en": "The milk has turned sour.",
+      "cn": "牛奶已经变酸了。"
+    },
+    {
+      "en": "It is your turn to speak.",
+      "cn": "轮到你发言了。"
+    }
+  ],
+  "dict_mnemonic": {
+    "note": "谐音记忆 · 非词源",
+    "text": "特恩（turn）—— 车轮一转，就转到特别恩待你的方向 → turn",
+    "word": "turn"
+  },
+  "root": "源自拉丁语 tornus（车床），经古法语 tourner 进入英语，核心是“绕轴旋转”。",
+  "sensesIntro": {
+    "en": "Ten common senses of turn. Each grows from one core image: something revolves around a fixed axis, and everything else follows from which side now faces you.",
+    "cn": "turn 的十个常见义项。每一个都从同一个核心意象长出来：某物绕一个固定的轴旋转，接下来的一切都取决于现在哪一面朝向你。"
+  },
+  "semanticMap": {
+    "core": {
+      "en": "CORE IMAGE: a fixed axis → rotation → a different face or direction → a different state.",
+      "cn": "核心意象：固定的轴 → 旋转 → 换成另一面或另一个方向 → 进入另一种状态。"
+    },
+    "chain": [
+      "AXIS",
+      "ROTATION",
+      "NEW DIRECTION",
+      "NEW FACE",
+      "NEW STATE",
+      "NEW ROLE"
+    ],
+    "branches": [
+      {
+        "senses": "S1 · S4",
+        "en": "PHYSICAL ROTATION: a wheel, a page, a pancake — the object spins or flips around its own center.",
+        "cn": "物理旋转：车轮、书页、煎饼——物体绕自己的中心转动或翻转。"
+      },
+      {
+        "senses": "S2 · S9",
+        "en": "DIRECTION IN SPACE: a body or a road changes the line it follows; the bend itself becomes a noun.",
+        "cn": "空间里的方向：身体或道路改变所走的线，拐弯的地方本身也成了名词。"
+      },
+      {
+        "senses": "S3 · S5",
+        "en": "BECOMING: a thing keeps its identity but presents a new form or state, like wood reshaped on a lathe.",
+        "cn": "变成：事物保持自身，却呈现新的形态或状态，就像木料在车床上被重新成型。"
+      },
+      {
+        "senses": "S6 · S10",
+        "en": "FACING: loyalty is which side you face, and the outcome is the face a situation shows when the turning stops.",
+        "cn": "朝向：忠诚就是你面向哪一边；结果则是转完停下时事情露出的那张脸。"
+      },
+      {
+        "senses": "S7 · S8",
+        "en": "PRODUCTION AND SUCCESSION: raw material turned into output; a wheel turned once gives each spoke its turn.",
+        "cn": "产出与轮替：原料被转成产出；轮子转一圈，每根辐条就轮到一次。"
+      }
+    ]
+  },
+  "affixes": {
+    "intro": {
+      "en": "turn is a productive element: prefixes and suffixes aim its idea of rotation at direction, return, reversal and output.",
+      "cn": "turn 是一个能产的构词成分：前缀和后缀把它“旋转”的意思引向方向、返回、翻转和产出。"
+    },
+    "latinIntro": {
+      "en": "turn is itself a Latin word borrowed through French: Latin tornare 'to turn on a lathe' and tornus 'lathe'. Other English words from the same Latin line came through French as well.",
+      "cn": "turn 本身就是经法语借入的拉丁词：拉丁语 tornare“在车床上车削”和 tornus“车床”。同一拉丁来源的其他英语词也都经法语进来。"
+    },
+    "items": [
+      {
+        "word": "turning",
+        "structure": "turn + -ing（名词后缀，表动作或结果）",
+        "meaning": "the act of rotating; a place where a road bends",
+        "meaningCN": "旋转；（道路的）转弯处",
+        "example": "Slow down before the turning.",
+        "exampleCN": "进转弯处前要减速。"
+      },
+      {
+        "word": "turner",
+        "structure": "turn + -er（表示做动作的人或物）",
+        "meaning": "a person who works with a lathe; a flat tool for turning food",
+        "meaningCN": "车工；翻铲（做翻面动作的工具）",
+        "example": "My uncle is a skilled turner.",
+        "exampleCN": "我叔叔是个熟练的车工。"
+      },
+      {
+        "word": "return",
+        "structure": "re-（回、再次）+ turn",
+        "meaning": "to come or go back to a place",
+        "meaningCN": "返回；归还（re- 表示“回、再次”）",
+        "example": "She returned home at six.",
+        "exampleCN": "她六点回了家。"
+      },
+      {
+        "word": "overturn",
+        "structure": "over-（翻过、在上方）+ turn",
+        "meaning": "to turn something over; to cancel a decision officially",
+        "meaningCN": "使翻倒；推翻（决定、判决）（over- 表示“翻过、在上方”）",
+        "example": "The court overturned the old ruling.",
+        "exampleCN": "法院推翻了旧裁决。"
+      },
+      {
+        "word": "upturn",
+        "structure": "up-（向上）+ turn",
+        "meaning": "an improvement or rise in a situation",
+        "meaningCN": "好转；上升（up- 表示“向上”）",
+        "example": "The market showed a slight upturn.",
+        "exampleCN": "市场出现小幅回升。"
+      },
+      {
+        "word": "turnover",
+        "structure": "turn + over（翻转、周转）",
+        "meaning": "the money a business receives; the rate at which staff leave and are replaced",
+        "meaningCN": "营业额；（人员的）更替率",
+        "example": "The shop has a daily turnover of two thousand dollars.",
+        "exampleCN": "这家店日营业额两千美元。"
+      },
+      {
+        "word": "turnstile",
+        "structure": "turn + stile（翻越栅栏的踏步）",
+        "meaning": "a rotating gate that lets one person through at a time",
+        "meaningCN": "旋转闸机（一次只过一人的转门）",
+        "example": "Tap your card at the turnstile.",
+        "exampleCN": "在闸机处刷一下卡。"
+      }
+    ],
+    "latinEntries": [
+      {
+        "word": "tour",
+        "structure": "古法语 tour < tourner（转、绕行）",
+        "meaning": "a journey that goes round a series of places; a shift or period of duty",
+        "meaningCN": "巡回旅行；（轮班）一班"
+      },
+      {
+        "word": "tournament",
+        "structure": "古法语 torneiement < torneier（转身、比武）",
+        "meaning": "a competition in which players or teams meet in a series of games",
+        "meaningCN": "锦标赛；联赛"
+      },
+      {
+        "word": "tourniquet",
+        "structure": "法语 tourniquet < tourner（转、绞紧）",
+        "meaning": "a band twisted tight to stop blood flowing from a limb",
+        "meaningCN": "止血带（绞紧以止血的带子）"
+      },
+      {
+        "word": "tourist",
+        "structure": "tour + -ist（人）",
+        "meaning": "a person who travels to places for pleasure",
+        "meaningCN": "游客；观光者"
+      }
+    ]
+  }
+}

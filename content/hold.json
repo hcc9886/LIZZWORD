@@ -1,0 +1,499 @@
+{
+  "word": "hold",
+  "ipa_uk": "/həʊld/",
+  "ipa_us": "/hoʊld/",
+  "definition_zh": "握住；保持",
+  "definition_en": "to keep something in your hand or in place, so that it does not move or leave",
+  "core_image": "让东西保持在原地",
+  "scene": "请人帮忙扶门，你说 Could you hold the door for a moment?",
+  "sceneCN": "这里 hold 是「扶住、使保持在原位」（第 2 个义项）；句意：你能帮忙扶一会儿门吗？",
+  "pos": [
+    {
+      "tag": "vt.",
+      "zh": "握住；托住；使保持（位置）"
+    },
+    {
+      "tag": "vt.",
+      "zh": "容纳；装得下"
+    },
+    {
+      "tag": "vt.",
+      "zh": "举行；拥有；担任（职务）"
+    },
+    {
+      "tag": "vi.",
+      "zh": "保持有效；站得住脚"
+    },
+    {
+      "tag": "n.",
+      "zh": "握；抓；支撑点"
+    }
+  ],
+  "collocations": [
+    {
+      "phrase": "hold on",
+      "zh": "等一下；抓紧"
+    },
+    {
+      "phrase": "hold back",
+      "zh": "忍住；阻拦"
+    },
+    {
+      "phrase": "hold up",
+      "zh": "举起来；支撑住；延误"
+    },
+    {
+      "phrase": "hold out",
+      "zh": "伸出；坚持"
+    },
+    {
+      "phrase": "get hold of",
+      "zh": "抓住；弄到手"
+    }
+  ],
+  "forms": [
+    {
+      "label": "三单（第三人称单数）",
+      "form": "holds"
+    },
+    {
+      "label": "过去式",
+      "form": "held"
+    },
+    {
+      "label": "过去分词",
+      "form": "held"
+    },
+    {
+      "label": "现在分词",
+      "form": "holding"
+    }
+  ],
+  "derivatives": [
+    {
+      "word": "holding",
+      "pos": "n.",
+      "zh": "持有（股份）；控股"
+    },
+    {
+      "word": "holder",
+      "pos": "n.",
+      "zh": "持有者；支架"
+    },
+    {
+      "word": "foothold",
+      "pos": "n.",
+      "zh": "立足点"
+    },
+    {
+      "word": "household",
+      "pos": "n.",
+      "zh": "家庭；一户人家"
+    }
+  ],
+  "senses": [
+    {
+      "no": "01",
+      "title": "Grasp: keep in the hand",
+      "titleCN": "握住：拿在手里",
+      "definition": "to have something in your hand and not let it go",
+      "definitionCN": "把某物握在手里，不让它掉",
+      "example": "She held the cup with both hands.",
+      "exampleCN": "她双手握着杯子。",
+      "why": "The hand closes into a ring around the object. That ring is a frame, and the frame is what stops the object from falling or leaving.",
+      "whyCN": "手握成一个环，把物体圈在中间。这个环就是'框'，框住它，东西才不会掉、不会走。"
+    },
+    {
+      "no": "02",
+      "title": "Hold the door: keep in position",
+      "titleCN": "扶住；使保持在原位",
+      "definition": "to keep something in a particular position, especially so it does not fall or close",
+      "definitionCN": "使某物保持在某个位置，尤指不让它倒下或关上",
+      "example": "Can you hold the door for me?",
+      "exampleCN": "你能帮我扶住门吗？",
+      "why": "A door wants to swing shut; the hand takes over from the hinge and becomes the frame that fixes the position. Supporting is holding without grasping.",
+      "whyCN": "门本来要自己关上；手代替了铰链，变成固定位置的'框'。'扶'是不用抓握的'握'。"
+    },
+    {
+      "no": "03",
+      "title": "Contain: a bottle holds a litre",
+      "titleCN": "容纳；装得下",
+      "definition": "to have the capacity to contain something",
+      "definitionCN": "有容纳某物的容量",
+      "example": "This bottle holds one litre of water.",
+      "exampleCN": "这个瓶子能装一升水。",
+      "why": "A container is a frame made of walls. What is inside is kept inside, so hold moves from the hand to the vessel, and then to the idea of capacity.",
+      "whyCN": "容器是用壁做成的'框'，里面的东西被留在里面。于是 hold 从手转到容器，再转指容量。"
+    },
+    {
+      "no": "04",
+      "title": "Hold back: restrain",
+      "titleCN": "拦住；抑制",
+      "definition": "to stop someone or something from moving forward, or to control a feeling",
+      "definitionCN": "阻止某人或某物前进；抑制（情绪）",
+      "example": "The barrier held the crowd back.",
+      "exampleCN": "护栏把人群挡在了后面。",
+      "why": "Here the frame pushes outward instead of enclosing: force is applied against movement. Holding back tears puts the same frame around a feeling.",
+      "whyCN": "这里的'框'不是围住，而是向外推：力逆着运动方向使。'忍住眼泪'就是把同一个框套在情绪上。"
+    },
+    {
+      "no": "05",
+      "title": "Hold someone: detain",
+      "titleCN": "拘留；扣留",
+      "definition": "to keep someone in custody or make them stay",
+      "definitionCN": "拘留；使某人不能离开",
+      "example": "The police held him for questioning.",
+      "exampleCN": "警方把他扣留讯问。",
+      "why": "A cell is a legal frame; the person is kept inside it. Custody is containment applied to a human being.",
+      "whyCN": "牢房是法律意义上的'框'，人被留在框里。'拘留'就是把'容纳'用在人身上。"
+    },
+    {
+      "no": "06",
+      "title": "Hold a ticket: keep possession",
+      "titleCN": "持有；保留（票据、股份）",
+      "definition": "to have and keep something as yours",
+      "definitionCN": "持有、保留（属于自己的东西）",
+      "example": "Hold on to your ticket until the end of the trip.",
+      "exampleCN": "车票留到行程结束再扔。",
+      "why": "The hand keeps the object from leaving your possession. Holding is the state version of taking: what was taken stays taken.",
+      "whyCN": "手让东西不离开你的所有范围。'持有'是 take 的状态版：拿到的东西继续留在手里。"
+    },
+    {
+      "no": "07",
+      "title": "Hold office: occupy a position",
+      "titleCN": "担任；占据（职位、纪录）",
+      "definition": "to have a job, a position, or a record",
+      "definitionCN": "担任（职务）；保持（纪录）",
+      "example": "She holds the world record in swimming.",
+      "exampleCN": "她保持着游泳世界纪录。",
+      "why": "A position is imagined as a place; holding it means your grip keeps you in that place. Possession becomes occupation.",
+      "whyCN": "职位被想象成一个位置；'握'住它就等于让自己留在这个位置上。'拥有'于是变成'占据'。"
+    },
+    {
+      "no": "08",
+      "title": "Hold a meeting: carry on",
+      "titleCN": "举行；进行（会议、活动）",
+      "definition": "to organize and carry on an event such as a meeting or ceremony",
+      "definitionCN": "举行、进行（会议、仪式等活动）",
+      "example": "We hold a team meeting every Monday.",
+      "exampleCN": "我们每周一开团队会。",
+      "why": "This comes from the older sense 'maintain, carry on': the event is kept in existence for its duration. The frame here is made of time.",
+      "whyCN": "这来自更早的'维持、进行'义：活动在被'保持存在'的这段时间里持续进行。这里的'框'是时间做成的。"
+    },
+    {
+      "no": "09",
+      "title": "Hold an opinion: believe",
+      "titleCN": "持（某种观点）；认为",
+      "definition": "to have a belief or opinion",
+      "definitionCN": "持有（观点、信念）",
+      "example": "He holds strong views about education.",
+      "exampleCN": "他对教育有很坚定的看法。",
+      "why": "An idea is grasped mentally and not released: you keep it in mind, so you 'hold' it. Mental holding mirrors manual holding.",
+      "whyCN": "一个想法被心智抓住、不放掉：你把它留在心里，所以说你'持有'它。心智的握，是手的握的镜像。"
+    },
+    {
+      "no": "10",
+      "title": "The rule still holds: remain valid",
+      "titleCN": "仍然有效；站得住脚",
+      "definition": "to remain true or valid",
+      "definitionCN": "仍然成立、有效",
+      "example": "That argument no longer holds.",
+      "exampleCN": "那个论点已经站不住了。",
+      "why": "An argument or rule is a structure that must keep its shape under pressure. If it neither breaks nor slips, it holds — validity is stability.",
+      "whyCN": "论点或规则是一个要在压力下保持形状的结构。如果它没断、没滑，它就'握得住'——'有效'就是稳定。"
+    }
+  ],
+  "etymology": {
+    "intro": {
+      "en": "hold is a native English strong verb with a Germanic family behind it. Its oldest recorded sense was probably not 'grasp' but 'tend, watch over'.",
+      "cn": "hold 是英语本族语的强动词，背后是一整个日耳曼词族。它最早被记录的义项也许不是'握'，而是'照料、看守'。"
+    },
+    "items": [
+      {
+        "era": "OLD ENGLISH (c. 700–1100)",
+        "en": "West Saxon healdan, Anglian haldan, meant 'to contain, grasp, retain; to observe or fulfil a custom; to possess, control, rule; to detain; to foster, cherish, keep watch over'. It was a class VII strong verb: past tense heold, past participle healden.",
+        "cn": "西撒克逊方言作 healdan，盎格利亚方言作 haldan，意为'容纳、握住、保留；遵守并履行习俗；拥有、控制、统治；扣留；养育、珍视、看守'。它是第七类强动词：过去式 heold，过去分词 healden。"
+      },
+      {
+        "era": "PROTO-GERMANIC",
+        "en": "The ancestor is *haldanan, shared with Old Saxon haldan, Old Frisian halda, Old Norse halda, Dutch houden, German halten and Gothic haldan 'to tend'.",
+        "cn": "祖词是原始日耳曼语 *haldanan，古撒克逊语 haldan、古弗里斯语 halda、古诺斯语 halda、荷兰语 houden、德语 halten 和哥特语 haldan'照料'都同出一源。"
+      },
+      {
+        "era": "ORIGINAL SENSE",
+        "en": "On the evidence of Gothic and a secondary Old English sense, OED calls it 'generally accepted' that the verb first meant 'to keep, tend, watch over' — as with grazing cattle — and only later widened to 'have as one's own'. The sense of looking survives in behold.",
+        "cn": "根据哥特语和古英语中的一个次要义项，OED 认为'普遍接受'的看法是：这个动词最初意为'看守、照料、看护'——比如看牛吃草——后来才扩展为'归自己所有'。'看'这一层意思还留在 behold 里。"
+      },
+      {
+        "era": "LATIN SIDE",
+        "en": "Latin tenere 'to hold' (stem ten-/tain-) built a parallel family: contain, retain, maintain, detain, tenant. It is a separate borrowing, not a cognate. The old past participle holden was replaced by held in the 16th century but survives in beholden and in some legal wording.",
+        "cn": "拉丁语 tenere'握住'（词干 ten-/tain-）另造出了一族词：contain、retain、maintain、detain、tenant。这是另一条借入路径，不是同源词。旧的过去分词 holden 在 16 世纪被 held 取代，但仍活在 beholden 和某些法律用语里。"
+      },
+      {
+        "era": "MODERN ENGLISH",
+        "en": "Modern English has hold – held – held. The noun hold is older than it looks: c. 1100 'act of holding', c. 1200 'a grip or support', and from the 1950s 'a waiting state' in telephony. The ship's hold is a different word, a 15th-century alteration of holl 'hull, hollow place'.",
+        "cn": "现代英语的变化是 hold – held – held。名词 hold 比看上去更古老：约 1100 年指'握的行为'，约 1200 年指'可抓握的支撑物'，20 世纪 50 年代起又指电话中的'等待接通状态'。船舱的 hold 是另一个词，是 15 世纪对 holl（'船壳、空腔'）的改写。"
+      }
+    ]
+  },
+  "similar": {
+    "note": {
+      "en": "Words below can be confused with hold. Sound and spelling come first, meaning second.",
+      "cn": "下面这些词容易和 hold 混淆。先讲读音和拼写，再讲意思。"
+    },
+    "groups": [
+      {
+        "heading": "SOUND-ALIKE",
+        "entries": [
+          {
+            "word": "holed",
+            "ipa": "/həʊld/",
+            "tag": "same sound",
+            "definition": "the past tense of hole, meaning 'made a hole in' or 'hit a ball into a hole'. It sounds exactly like hold; only the -ed tells them apart on paper.",
+            "definitionCN": "hole（打洞；把球打进洞）的过去式。读音和 hold 完全相同，纸面上只能靠 -ed 分辨。"
+          },
+          {
+            "word": "hole",
+            "ipa": "/həʊl/",
+            "tag": "near sound",
+            "definition": "an opening or a hollow space. It lacks the final /d/, so the tongue stops earlier.",
+            "definitionCN": "洞；孔。少了结尾的 /d/，舌头停得更早。"
+          },
+          {
+            "word": "bold",
+            "ipa": "/bəʊld/",
+            "tag": "near sound",
+            "definition": "brave, or strong and clear in appearance. Same -old ending, but b- instead of h-.",
+            "definitionCN": "大胆的；醒目的。同样是 -old 结尾，但开头是 b- 不是 h-。"
+          },
+          {
+            "word": "told",
+            "ipa": "/təʊld/",
+            "tag": "near sound",
+            "definition": "the past tense of tell. Same rhyme and ending; the meaning is speaking, not holding.",
+            "definitionCN": "tell 的过去式。押韵、结尾相同，但意思是'告诉'，不是'握住'。"
+          }
+        ]
+      },
+      {
+        "heading": "LOOK-ALIKE",
+        "entries": [
+          {
+            "word": "held",
+            "ipa": "/held/",
+            "tag": "form",
+            "definition": "This is hold's own past tense and past participle, not another word. It looks like hold but has a short /e/ and no o.",
+            "definitionCN": "这就是 hold 自己的过去式和过去分词，不是另一个词。它长得像 hold，但元音是短音 /e/，而且没有 o。"
+          },
+          {
+            "word": "old",
+            "ipa": "/əʊld/",
+            "tag": "spelling",
+            "definition": "having lived a long time. It is hold with the h removed, and the meaning is age, not grip.",
+            "definitionCN": "年老的；旧的。就是去掉 h 的 hold，意思是年龄，不是握。"
+          },
+          {
+            "word": "gold",
+            "ipa": "/ɡəʊld/",
+            "tag": "spelling",
+            "definition": "a yellow precious metal. Same -old ending, but starts with g- and is a noun.",
+            "definitionCN": "黄金。同样是 -old 结尾，但开头是 g-，而且是名词。"
+          }
+        ]
+      }
+    ]
+  },
+  "mnemonics": {
+    "normalIntro": {
+      "en": "Normal associations: real compounds and real phrases, each explaining one part of hold.",
+      "cn": "正常联想：真实的复合词和真实短语，每一个都解释 hold 的某一面。"
+    },
+    "normal": [
+      {
+        "en": "hold the door — your hand is the frame that keeps the door in place, replacing the hinge for a moment.",
+        "cn": "hold the door —— 你的手就是让门留在原位的'框'，暂时替代了铰链。"
+      },
+      {
+        "en": "hold a meeting — from the older sense 'carry on, maintain': the meeting is kept in existence for its length.",
+        "cn": "hold a meeting —— 来自更早的'进行、维持'义：会议被'保持存在'一段时间。"
+      },
+      {
+        "en": "hold water — an argument that holds water keeps its shape under testing, so it remains valid.",
+        "cn": "hold water —— 站得住脚的论点在检验下能保持形状，所以它是有效的。"
+      },
+      {
+        "en": "withhold = with (away, back) + hold. To withhold is to hold something back from the person who should get it.",
+        "cn": "withhold = with（离开、往回）+ hold。'扣留'就是把本该给别人的东西握回去、不给出去。"
+      },
+      {
+        "en": "household = house + hold, where hold had a Middle English sense 'dwelling, habitation' — the people and things of one dwelling.",
+        "cn": "household = house + hold，这里的 hold 在中古英语里有'住所、居所'的意思，即同一处住所里的人与物。"
+      }
+    ],
+    "abstract": [
+      {
+        "en": "Abstractly, hold is a frame drawn around a thing: the frame stops the thing from leaving. No force is needed; what matters is staying. Symbol: [ ● ]",
+        "cn": "抽象地看，hold 是在东西周围画出的一个'框'：框让东西离不开。它不需要用力，关键是'留住'。符号：[ ● ]"
+      },
+      {
+        "en": "The frame can be made of different materials — a hand, a wall, a law, a stare. That is why one verb covers grip, containment, custody and attention. Symbol: [ ● ] with thicker walls.",
+        "cn": "这个框可以用不同材料做成——一只手、一堵墙、一条法律、一道目光。所以同一个动词能覆盖握、容纳、扣留和注视。符号：[ ● ]，只是框壁更厚。"
+      },
+      {
+        "en": "The frame can also be turned inward: what you hold in mind is what you refuse to release — an opinion, a secret, a memory. Symbol: [ ● ] where the dot is an idea.",
+        "cn": "这个框也可以向内转：你在心里'握'住的东西，就是你拒绝放手的——一个观点、一个秘密、一段记忆。符号：[ ● ]，只是框里的点变成了想法。"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "en": "Can you hold the door for me?",
+      "cn": "你能帮我扶住门吗？"
+    },
+    {
+      "en": "This jug holds two litres of milk.",
+      "cn": "这个罐子能装两升牛奶。"
+    },
+    {
+      "en": "She held the umbrella against the wind.",
+      "cn": "她顶着风握住伞。"
+    }
+  ],
+  "dict_mnemonic": {
+    "note": "谐音记忆 · 非词源",
+    "text": "厚的手掌（hold）—— 手掌够厚，才握得住、托得稳 → hold",
+    "word": "hold"
+  },
+  "root": "源自古英语 healdan（握住、看守），与德语 halten 同源。",
+  "sensesIntro": {
+    "en": "Ten common senses of hold. All of them use one shape: something is put inside a frame and kept from leaving.",
+    "cn": "hold 的十个常见义项。它们都共用同一个形状：把东西放进一个框里，让它离不开。"
+  },
+  "semanticMap": {
+    "core": {
+      "en": "CORE IMAGE: a frame — hand, wall, law, attention — around a thing, so it stays where it is.",
+      "cn": "核心意象：用手、墙、法律或注意力，在东西周围围出一个'框'，让它留在原处。"
+    },
+    "chain": [
+      "GRASP",
+      "FRAME",
+      "STOP MOVEMENT",
+      "CONTAIN",
+      "MAINTAIN",
+      "POSSESS"
+    ],
+    "branches": [
+      {
+        "senses": "S1 · S2",
+        "en": "PHYSICAL: the hand grasps or supports, and the frame fixes a position.",
+        "cn": "物理层面：手握或托，框把位置固定住。"
+      },
+      {
+        "senses": "S3 · S5",
+        "en": "ENCLOSURE: a vessel holds volume, a cell holds a person — capacity and custody are the same frame.",
+        "cn": "围合：容器握住容积，牢房握住人——容量和扣留是同一个框。"
+      },
+      {
+        "senses": "S4",
+        "en": "RESISTANCE: the frame pushes back against movement — hold back a crowd, hold back tears.",
+        "cn": "抵抗：框逆着运动方向推回去——拦住人群、忍住眼泪。"
+      },
+      {
+        "senses": "S6 · S7",
+        "en": "OWNERSHIP: what stays in your grip is yours; a position held is a place occupied.",
+        "cn": "归属：留在你握中的东西归你；被握住的职位就是一个被占据的位置。"
+      },
+      {
+        "senses": "S8 · S9 · S10",
+        "en": "CONTINUITY: events, opinions and rules are held — kept in existence, kept in mind, kept valid.",
+        "cn": "延续：活动、观点和规则被'握住'——保持存在、保持在心里、保持有效。"
+      }
+    ]
+  },
+  "affixes": {
+    "intro": {
+      "en": "hold combines with particles and prefixes that shift the frame: upward, backward, outward, or around a whole house.",
+      "cn": "hold 与小品词和前缀组合，改变'框'的方向：向上、向后、向外，或者围住整个家。"
+    },
+    "latinIntro": {
+      "en": "Latin tenere 'to hold' (stem ten-/tain-) produced a large English family: contain, retain, maintain, detain, tenant. It is a separate borrowing with the same core meaning, not a cognate of hold.",
+      "cn": "拉丁语 tenere'握住'（词干 ten-/tain-）在英语里造出了一个大家族：contain、retain、maintain、detain、tenant。这是另一条借入路径，核心意思相同，但不是 hold 的同源词。"
+    },
+    "items": [
+      {
+        "word": "holder",
+        "structure": "hold + -er (person or thing that holds)",
+        "meaning": "a person who holds something, or an object made to hold something",
+        "meaningCN": "持有者；支架、容器（-er 表示做这个动作的人或物）",
+        "example": "Put the pen back in its holder.",
+        "exampleCN": "把笔放回笔座里。"
+      },
+      {
+        "word": "holding",
+        "structure": "hold + -ing (act or thing held)",
+        "meaning": "the act of holding; shares or property that someone owns",
+        "meaningCN": "持有；股份、资产（-ing 把动作变成名词）",
+        "example": "She has a large holding in the company.",
+        "exampleCN": "她持有这家公司大量股份。"
+      },
+      {
+        "word": "uphold",
+        "structure": "up- (up, in support) + hold",
+        "meaning": "to support or confirm a law, decision, or principle",
+        "meaningCN": "支持、维护（法律、裁决、原则）（up- 表示'向上托住'）",
+        "example": "The court upheld the original decision.",
+        "exampleCN": "法院维持了原判。"
+      },
+      {
+        "word": "withhold",
+        "structure": "with- (away, back) + hold",
+        "meaning": "to keep something back and refuse to give it",
+        "meaningCN": "扣留；拒绝给予（with- 表示'往回、离开'）",
+        "example": "The company withheld his pay for a week.",
+        "exampleCN": "公司扣了他的工资一周。"
+      },
+      {
+        "word": "household",
+        "structure": "house + hold (Middle English 'dwelling')",
+        "meaning": "all the people living together in one house; the home as a unit",
+        "meaningCN": "一家人；家庭（hold 在中古英语里指'住所'）",
+        "example": "The whole household shares the chores.",
+        "exampleCN": "全家一起分担家务。"
+      },
+      {
+        "word": "foothold",
+        "structure": "foot + hold (a place to hold)",
+        "meaning": "a place where your foot can rest; a small position from which to advance",
+        "meaningCN": "落脚点；立足点、据点",
+        "example": "The climbers found a foothold on the rock.",
+        "exampleCN": "攀登者在岩壁上找到了一个落脚点。"
+      }
+    ],
+    "latinEntries": [
+      {
+        "word": "retain",
+        "structure": "re- (back) + tain- (hold)",
+        "meaning": "to keep something and not lose it",
+        "meaningCN": "保留；留住"
+      },
+      {
+        "word": "contain",
+        "structure": "con- (together) + tain- (hold)",
+        "meaning": "to hold something inside; to have within itself",
+        "meaningCN": "包含；容纳"
+      },
+      {
+        "word": "maintain",
+        "structure": "manu- (hand, Latin manus) + tain- (hold)",
+        "meaning": "to keep something in good condition; to keep a claim standing",
+        "meaningCN": "维持；保养；坚持（主张）"
+      },
+      {
+        "word": "detain",
+        "structure": "de- (away) + tain- (hold)",
+        "meaning": "to keep someone from leaving; to delay",
+        "meaningCN": "扣留；拘留；耽搁"
+      }
+    ]
+  }
+}
