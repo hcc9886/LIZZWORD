@@ -1,0 +1,1508 @@
+/* ============================================================
+   Lizzword · 新手教程 + Lizz 小狐狸
+   所有类名以 lz- 开头，避免和主页面既有样式冲突
+   ============================================================ */
+
+/* ---------- 基础 ---------- */
+.lz-tut,
+.lz-lizz {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+}
+
+.lz-tut button,
+.lz-lizz button {
+  font-family: inherit;
+}
+
+.lz-tut *,
+.lz-lizz * {
+  box-sizing: border-box;
+}
+
+.lz-tut-open {
+  overflow: hidden;
+}
+
+/* ---------- 教程遮罩 ---------- */
+.lz-tut {
+  position: fixed;
+  inset: 0;
+  z-index: 80;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 22px 16px;
+  background: rgba(17, 27, 43, 0.58);
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+}
+
+.lz-tut-shell {
+  width: 100%;
+  max-width: 840px;
+  max-height: calc(100vh - 44px);
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 24px 70px rgba(15, 23, 42, 0.34);
+  overflow: hidden;
+  animation: lz-shell-in 0.28s ease both;
+}
+
+@supports (height: 100dvh) {
+  .lz-tut-shell {
+    max-height: calc(100dvh - 44px);
+  }
+}
+
+@keyframes lz-shell-in {
+  from { opacity: 0; transform: translateY(10px) scale(0.985); }
+  to { opacity: 1; transform: none; }
+}
+
+/* ---------- 顶栏 ---------- */
+.lz-tut-top {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 11px 18px;
+  border-bottom: 1px solid #edf1f7;
+  background: #fff;
+  z-index: 2;
+}
+
+.lz-skip {
+  flex: 0 0 auto;
+  padding: 6px 12px;
+  border-radius: 999px;
+  border: 1px solid #dbe3ef;
+  background: #f8fafd;
+  color: #5b6b82;
+  font-size: 0.76rem;
+  line-height: 1.2;
+  cursor: pointer;
+  transition: background 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+}
+
+.lz-skip:hover {
+  background: #fff3f2;
+  border-color: #f1c7c2;
+  color: #b45345;
+}
+
+.lz-tut-title {
+  flex: 1 1 auto;
+  min-width: 0;
+  text-align: center;
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  color: #334155;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.lz-tut-progress {
+  flex: 0 0 auto;
+  max-width: 48%;
+  padding: 4px 9px;
+  border-radius: 999px;
+  background: #eef3ff;
+  color: #3157d5;
+  font-size: 0.7rem;
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* ---------- Lizz 引导区 ---------- */
+.lz-guide {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  gap: 11px;
+  padding: 13px 18px 3px;
+  background: linear-gradient(180deg, #f7f9ff 0%, #ffffff 88%);
+}
+
+.lz-guide-avatar {
+  position: relative;
+  flex: 0 0 76px;
+  width: 76px;
+  height: 76px;
+  border-radius: 16px;
+  background: radial-gradient(circle at 50% 62%, #fff8ef 0%, #fff 68%);
+  border: 1px solid #f0e6da;
+  box-shadow: 0 6px 16px rgba(164, 127, 80, 0.12);
+  overflow: hidden;
+}
+
+.lz-guide-avatar .lz-fox-svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.lz-guide-avatar .lz-guide-photo {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  background: #fff;
+  z-index: 1;
+}
+
+.lz-guide-bubble {
+  position: relative;
+  flex: 1 1 auto;
+  min-width: 0;
+  padding: 9px 12px;
+  border-radius: 14px;
+  border: 1px solid #e1e8f7;
+  background: #fff;
+  box-shadow: 0 4px 14px rgba(49, 87, 213, 0.06);
+}
+
+.lz-guide-bubble::before {
+  content: "";
+  position: absolute;
+  left: -6px;
+  top: 20px;
+  width: 10px;
+  height: 10px;
+  background: #fff;
+  border-left: 1px solid #e1e8f7;
+  border-bottom: 1px solid #e1e8f7;
+  transform: rotate(45deg);
+}
+
+.lz-guide-name {
+  margin: 0 0 3px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  color: #3157d5;
+}
+
+.lz-guide-text {
+  margin: 0;
+  font-size: 0.86rem;
+  line-height: 1.65;
+  color: #334155;
+  word-break: break-word;
+}
+
+.lz-guide-react {
+  margin: 4px 0 0;
+  min-height: 0;
+  font-size: 0.76rem;
+  line-height: 1.5;
+  color: #a16207;
+}
+
+.lz-guide-react.is-pop {
+  animation: lz-react-pop 0.32s ease both;
+}
+
+@keyframes lz-react-pop {
+  from { opacity: 0; transform: translateY(3px); }
+  to { opacity: 1; transform: none; }
+}
+
+/* ---------- 内容区 ---------- */
+.lz-tut-body {
+  flex: 1 1 auto;
+  min-height: 0;
+  padding: 8px 18px 20px;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior: contain;
+}
+
+.lz-card {
+  padding: 16px;
+  border: 1px solid #e8edf5;
+  border-radius: 16px;
+  background: #fbfcff;
+}
+
+.lz-kicker {
+  margin: 0 0 4px;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #8496b8;
+}
+
+.lz-card-title {
+  margin: 0 0 9px;
+  font-size: clamp(1.05rem, 2.4vw, 1.24rem);
+  line-height: 1.4;
+  color: #172033;
+}
+
+.lz-card-text {
+  margin: 0 0 9px;
+  font-size: 0.88rem;
+  line-height: 1.7;
+  color: #465268;
+}
+
+.lz-list {
+  margin: 0 0 14px;
+  padding-left: 18px;
+  font-size: 0.86rem;
+  line-height: 1.75;
+  color: #4c5a70;
+}
+
+.lz-list li + li {
+  margin-top: 4px;
+}
+
+.lz-guide-block {
+  margin-top: 10px;
+  padding: 9px 11px;
+  border-radius: 11px;
+  background: #f3f6fd;
+  border: 1px solid #e7edfa;
+}
+
+.lz-guide-tag {
+  display: inline-block;
+  margin-bottom: 3px;
+  padding: 2px 7px;
+  border-radius: 999px;
+  background: #fff;
+  color: #3157d5;
+  font-size: 0.66rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+.lz-guide-block p {
+  margin: 0;
+  font-size: 0.85rem;
+  line-height: 1.68;
+  color: #3f4c62;
+}
+
+.lz-stats {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 8px;
+  margin: 12px 0 14px;
+}
+
+.lz-stats > div {
+  padding: 10px 6px;
+  border-radius: 12px;
+  background: #fff;
+  border: 1px solid #e6ecf6;
+  text-align: center;
+}
+
+.lz-stats span {
+  display: block;
+  font-size: 1.24rem;
+  font-weight: 700;
+  color: #3157d5;
+  line-height: 1.2;
+}
+
+.lz-stats small {
+  display: block;
+  margin-top: 2px;
+  font-size: 0.66rem;
+  color: #8492a8;
+}
+
+/* ---------- 按钮 ---------- */
+.lz-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 44px;
+  padding: 10px 16px;
+  border: 1px solid #2f55d0;
+  border-radius: 12px;
+  background: #3157d5;
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: 600;
+  line-height: 1.35;
+  cursor: pointer;
+  transition: transform 0.12s ease, background 0.15s ease, box-shadow 0.15s ease;
+}
+
+.lz-btn:hover {
+  background: #2848b8;
+  box-shadow: 0 6px 16px rgba(49, 87, 213, 0.18);
+}
+
+.lz-btn:active {
+  transform: translateY(1px);
+}
+
+.lz-btn.ghost {
+  border-color: #dbe3ef;
+  background: #f7f9fc;
+  color: #4c5a70;
+}
+
+.lz-btn.ghost:hover {
+  background: #eef2f9;
+  box-shadow: none;
+}
+
+.lz-btn:disabled {
+  opacity: 0.45;
+  cursor: default;
+  box-shadow: none;
+}
+
+.lz-row {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.lz-row .lz-btn {
+  flex: 1 1 140px;
+  width: auto;
+}
+
+.lz-mt {
+  margin-top: 13px;
+}
+
+.lz-tip-line {
+  margin-top: 8px;
+  font-size: 0.72rem;
+  line-height: 1.5;
+  color: #8492a8;
+  text-align: center;
+}
+
+/* ---------- 阶段条 / 题目 ---------- */
+.lz-stagebar {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.lz-pill {
+  padding: 4px 9px;
+  border-radius: 999px;
+  background: #eef3ff;
+  color: #3157d5;
+  font-size: 0.7rem;
+  font-weight: 700;
+}
+
+.lz-stage-count {
+  font-size: 0.7rem;
+  color: #8492a8;
+}
+
+.lz-quiz-label {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: #8496b8;
+}
+
+.lz-prompt {
+  margin: 5px 0 0;
+  font-size: clamp(1.04rem, 2.7vw, 1.3rem);
+  line-height: 1.55;
+  font-weight: 600;
+  color: #172033;
+  word-break: break-word;
+}
+
+.lz-prompt-word {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  font-size: clamp(1.42rem, 5vw, 1.9rem);
+}
+
+.lz-prompt-sub {
+  margin: 5px 0 0;
+  font-size: 0.76rem;
+  color: #8492a8;
+}
+
+.lz-prompt-note {
+  margin-bottom: 8px;
+  font-size: 0.78rem;
+  color: #8492a8;
+}
+
+/* ---------- 选项 ---------- */
+.lz-options {
+  display: grid;
+  gap: 8px;
+  margin-top: 13px;
+}
+
+.lz-option {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  width: 100%;
+  padding: 11px 12px;
+  border: 1px solid #e1e7f1;
+  border-radius: 12px;
+  background: #fff;
+  color: #263244;
+  font-size: 0.88rem;
+  line-height: 1.5;
+  text-align: left;
+  cursor: pointer;
+  transition: border-color 0.14s ease, background 0.14s ease, box-shadow 0.14s ease;
+}
+
+.lz-option:hover {
+  border-color: #b9c9f1;
+  background: #f8faff;
+}
+
+.lz-option.is-highlight {
+  border-color: #3157d5;
+  background: #f2f6ff;
+  box-shadow: 0 0 0 3px rgba(49, 87, 213, 0.12);
+}
+
+.lz-option.is-correct {
+  border-color: #55b57c;
+  background: #effaf3;
+  box-shadow: none;
+}
+
+.lz-option.is-wrong {
+  border-color: #e1706a;
+  background: #fff2f1;
+  box-shadow: none;
+}
+
+.lz-option-key {
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #eef2f8;
+  color: #8492a8;
+  font-size: 0.68rem;
+  font-weight: 700;
+}
+
+.lz-option.is-highlight .lz-option-key {
+  background: #3157d5;
+  color: #fff;
+}
+
+.lz-option-text {
+  flex: 1 1 auto;
+  min-width: 0;
+  word-break: break-word;
+}
+
+/* ---------- 发音按钮 ---------- */
+.lz-speak {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  padding: 4px 9px;
+  border: 1px solid #d7e0fb;
+  border-radius: 999px;
+  background: #eff3ff;
+  color: #3355c5;
+  font-size: 0.7rem;
+  font-weight: 600;
+  line-height: 1.3;
+  cursor: pointer;
+  vertical-align: middle;
+  white-space: nowrap;
+  transition: background 0.14s ease;
+}
+
+.lz-speak:hover {
+  background: #e4ebff;
+}
+
+.lz-speak:disabled {
+  opacity: 0.55;
+  cursor: default;
+}
+
+.lz-speak.is-playing {
+  background: #dce6ff;
+}
+
+.lz-speak-sm {
+  padding: 3px 8px;
+  font-size: 0.66rem;
+}
+
+.lz-ipa {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 400;
+  color: #8492a8;
+  white-space: nowrap;
+}
+
+/* ---------- 场景 / 写 ---------- */
+.lz-scene {
+  margin: 10px 0;
+  padding: 8px;
+  border-radius: 12px;
+  background: #f8faff;
+  border: 1px solid #e9eff9;
+}
+
+.lz-scene svg {
+  display: block;
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.lz-scene-sentence {
+  margin: 10px 0 6px;
+  padding: 12px 13px;
+  border-left: 3px solid #3157d5;
+  border-radius: 8px;
+  background: #f7f9ff;
+  font-size: 0.94rem;
+  line-height: 1.65;
+  color: #1f2937;
+  word-break: break-word;
+}
+
+.lz-scene-cn {
+  margin: 0;
+  font-size: 0.8rem;
+  line-height: 1.6;
+  color: #64748b;
+}
+
+.lz-write-clue {
+  margin-top: 9px;
+  padding: 11px 12px;
+  border-radius: 11px;
+  background: #f7f9fd;
+  border: 1px solid #e8edf6;
+  font-size: 0.84rem;
+  line-height: 1.7;
+  color: #465268;
+}
+
+.lz-write-clue p {
+  margin: 0 0 4px;
+}
+
+.lz-write-clue p:last-child {
+  margin-bottom: 0;
+}
+
+.lz-write-row {
+  display: flex;
+  gap: 8px;
+  margin-top: 11px;
+  flex-wrap: wrap;
+}
+
+.lz-input {
+  flex: 1 1 170px;
+  min-width: 0;
+  min-height: 44px;
+  padding: 10px 13px;
+  border: 1px solid #dce4f0;
+  border-radius: 12px;
+  background: #fff;
+  color: #172033;
+  font-size: 1rem;
+  line-height: 1.4;
+  outline: none;
+  transition: border-color 0.14s ease, box-shadow 0.14s ease;
+}
+
+.lz-input:focus {
+  border-color: #3157d5;
+  box-shadow: 0 0 0 3px rgba(49, 87, 213, 0.13);
+}
+
+.lz-write-submit {
+  flex: 0 0 auto;
+  width: auto;
+  min-width: 86px;
+}
+
+.lz-write-msg {
+  margin: 6px 0 0;
+  font-size: 0.78rem;
+  color: #b45309;
+}
+
+/* ---------- 提示 / 自评 ---------- */
+.lz-hint-row {
+  margin-top: 9px;
+}
+
+.lz-hint {
+  margin-top: 8px;
+  padding: 10px 12px;
+  border-radius: 11px;
+  background: #fffbeb;
+  border: 1px solid #f3e2b8;
+  font-size: 0.82rem;
+  line-height: 1.6;
+}
+
+.lz-hint p {
+  margin: 0 0 3px;
+}
+
+.lz-hint p:last-child {
+  margin-bottom: 0;
+}
+
+.lz-hint-word {
+  font-weight: 700;
+  color: #92400e;
+}
+
+.lz-hint-en {
+  color: #64748b;
+  font-size: 0.78rem;
+}
+
+.lz-judge-row {
+  margin-top: 7px;
+}
+
+/* ---------- 反馈 ---------- */
+.lz-feedback {
+  margin-top: 13px;
+  padding: 12px;
+  border-radius: 13px;
+  border: 1px solid #dce6f5;
+  background: #fbfcff;
+}
+
+.lz-feedback.is-ok {
+  border-color: #bce7cc;
+  background: #f2fbf6;
+}
+
+.lz-feedback.is-bad {
+  border-color: #f3c9c5;
+  background: #fff6f5;
+}
+
+.lz-feedback-title {
+  margin: 0 0 8px;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.lz-feedback.is-ok .lz-feedback-title {
+  color: #16794a;
+}
+
+.lz-feedback.is-bad .lz-feedback-title {
+  color: #b53b32;
+}
+
+.lz-answer-full {
+  margin: 0 0 10px;
+  padding: 10px 11px;
+  border-radius: 10px;
+  background: #fff;
+  border: 1px dashed #e2c7c4;
+}
+
+.lz-answer-word {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  flex-wrap: wrap;
+  font-size: 1.06rem;
+  font-weight: 700;
+  color: #172033;
+}
+
+.lz-answer-def {
+  margin: 5px 0 3px;
+  font-size: 0.87rem;
+  line-height: 1.6;
+  color: #263244;
+}
+
+.lz-answer-sense {
+  margin: 0 0 3px;
+  font-size: 0.8rem;
+  line-height: 1.6;
+  color: #5c4a2e;
+}
+
+.lz-answer-en {
+  margin: 0;
+  font-size: 0.76rem;
+  line-height: 1.55;
+  color: #8492a8;
+}
+
+.lz-summary {
+  padding: 1px 1px 0;
+}
+
+.lz-summary-word {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  flex-wrap: wrap;
+  margin: 0 0 6px;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #172033;
+}
+
+.lz-summary p {
+  margin: 0 0 4px;
+  font-size: 0.82rem;
+  line-height: 1.62;
+  color: #465268;
+}
+
+.lz-example {
+  margin: 7px 0 0;
+  padding: 8px 10px;
+  border-radius: 9px;
+  background: #fff;
+  border: 1px solid #edf1f7;
+  font-size: 0.82rem;
+  line-height: 1.6;
+  color: #263244;
+}
+
+.lz-example span {
+  color: #7a8699;
+  font-size: 0.78rem;
+}
+
+.lz-extra {
+  margin-top: 8px !important;
+  padding: 8px 10px;
+  border-radius: 9px;
+  background: #fffbeb;
+  color: #7c5a12 !important;
+}
+
+.lz-extra:empty {
+  display: none;
+}
+
+/* ---------- 完整词条卡 ---------- */
+.lz-wordcard {
+  margin-top: 4px;
+  padding: 14px;
+  border: 1px solid #e8edf5;
+  border-radius: 14px;
+  background: #fff;
+}
+
+.lz-wordhead {
+  padding-bottom: 4px;
+}
+
+.lz-wordrow {
+  display: flex;
+  align-items: baseline;
+  gap: 9px;
+  flex-wrap: wrap;
+}
+
+.lz-word {
+  margin: 0;
+  font-size: clamp(1.8rem, 6.8vw, 2.4rem);
+  line-height: 1.15;
+  letter-spacing: 0.01em;
+  color: #131c2b;
+  word-break: break-word;
+}
+
+.lz-audio-row {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  margin-top: 3px;
+}
+
+.lz-def {
+  margin: 7px 0 2px;
+  font-size: 0.94rem;
+  line-height: 1.65;
+  font-weight: 600;
+  color: #263244;
+}
+
+.lz-def-en {
+  margin: 0 0 7px;
+  font-size: 0.78rem;
+  line-height: 1.55;
+  color: #7a8699;
+}
+
+.lz-core {
+  margin: 7px 0 0;
+  padding: 8px 10px;
+  border-radius: 10px;
+  background: #fffaf2;
+  border: 1px solid #f2e3ce;
+  font-size: 0.83rem;
+  line-height: 1.6;
+  color: #6b5230;
+}
+
+.lz-core span {
+  display: inline-block;
+  margin-right: 6px;
+  padding: 1px 6px;
+  border-radius: 999px;
+  background: #fff;
+  font-size: 0.64rem;
+  font-weight: 700;
+  color: #a9713a;
+}
+
+.lz-scene-text {
+  margin: 9px 0 4px;
+  font-size: 0.86rem;
+  line-height: 1.65;
+  color: #263244;
+}
+
+.lz-scene-cn {
+  margin: 3px 0 0;
+}
+
+.lz-sec {
+  margin-top: 13px;
+  padding-top: 11px;
+  border-top: 1px dashed #e7ecf4;
+}
+
+.lz-sec h3,
+.lz-sec > summary {
+  margin: 0 0 7px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: #6f7f97;
+}
+
+.lz-fold > summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  cursor: pointer;
+  list-style: none;
+  user-select: none;
+}
+
+.lz-fold > summary::-webkit-details-marker {
+  display: none;
+}
+
+.lz-fold > summary::after {
+  content: "展开";
+  flex: 0 0 auto;
+  padding: 2px 7px;
+  border-radius: 999px;
+  background: #eef2f9;
+  color: #7a8699;
+  font-size: 0.62rem;
+  font-weight: 600;
+  letter-spacing: 0;
+}
+
+.lz-fold[open] > summary::after {
+  content: "收起";
+  background: #e7eeff;
+  color: #3157d5;
+}
+
+.lz-sec-intro {
+  margin: 0 0 8px;
+  font-size: 0.78rem;
+  line-height: 1.65;
+  color: #6b778b;
+}
+
+.lz-pos {
+  margin: 0 0 4px;
+  font-size: 0.82rem;
+  line-height: 1.6;
+}
+
+.lz-tag {
+  display: inline-block;
+  margin-right: 6px;
+  padding: 1px 6px;
+  border-radius: 6px;
+  background: #eef2f9;
+  color: #5b6b82;
+  font-size: 0.68rem;
+  font-weight: 600;
+}
+
+.lz-sense {
+  margin: 6px 0 0;
+  border: 1px solid #e9eef7;
+  border-radius: 11px;
+  background: #fcfdff;
+  overflow: hidden;
+}
+
+.lz-sense > summary {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+  flex-wrap: wrap;
+  padding: 9px 10px;
+  cursor: pointer;
+  list-style: none;
+  user-select: none;
+}
+
+.lz-sense > summary::-webkit-details-marker {
+  display: none;
+}
+
+.lz-sense[open] > summary {
+  border-bottom: 1px solid #edf1f8;
+  background: #f8faff;
+}
+
+.lz-no {
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 24px;
+  height: 20px;
+  padding: 0 5px;
+  border-radius: 999px;
+  background: #e8eeff;
+  color: #3157d5;
+  font-size: 0.64rem;
+  font-weight: 700;
+}
+
+.lz-sense-title {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: #263244;
+}
+
+.lz-sense-cn {
+  font-size: 0.75rem;
+  color: #7a8699;
+}
+
+.lz-sense-body {
+  padding: 9px 11px 11px;
+}
+
+.lz-en {
+  margin: 0 0 3px;
+  font-size: 0.82rem;
+  line-height: 1.6;
+  color: #334155;
+}
+
+.lz-cn {
+  margin: 0 0 5px;
+  font-size: 0.8rem;
+  line-height: 1.6;
+  color: #6b778b;
+}
+
+.lz-example {
+  margin-top: 6px;
+}
+
+.lz-why {
+  margin: 6px 0 2px;
+  font-size: 0.78rem;
+  line-height: 1.65;
+  color: #5c4a2e;
+}
+
+.lz-why-en {
+  margin: 0;
+  font-size: 0.73rem;
+  line-height: 1.55;
+  color: #98a3b4;
+}
+
+.lz-chain {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin: 6px 0 9px;
+}
+
+.lz-chain-item {
+  padding: 4px 8px;
+  border-radius: 8px;
+  background: #f2f6ff;
+  border: 1px solid #dfe8fb;
+  font-size: 0.72rem;
+  color: #3d5bb5;
+}
+
+.lz-chain-arrow {
+  color: #aab6c9;
+  font-size: 0.72rem;
+}
+
+.lz-branch {
+  display: flex;
+  gap: 7px;
+  margin: 0 0 5px;
+  font-size: 0.77rem;
+  line-height: 1.6;
+  color: #5b6b82;
+}
+
+.lz-branch-no {
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 22px;
+  height: 18px;
+  padding: 0 5px;
+  border-radius: 999px;
+  background: #eef2f9;
+  color: #6b778b;
+  font-size: 0.62rem;
+  font-weight: 700;
+}
+
+.lz-etym {
+  margin: 0 0 7px;
+  padding-left: 9px;
+  border-left: 2px solid #e8edf5;
+}
+
+.lz-era {
+  display: inline-block;
+  margin-bottom: 1px;
+  padding: 1px 6px;
+  border-radius: 5px;
+  background: #f4f6fa;
+  color: #7a8699;
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+.lz-etym .lz-cn {
+  margin: 2px 0 1px;
+}
+
+.lz-root {
+  margin: 8px 0 0;
+  padding: 8px 10px;
+  border-radius: 9px;
+  background: #fffaf2;
+  font-size: 0.78rem;
+  line-height: 1.65;
+  color: #6b5230;
+}
+
+.lz-affix,
+.lz-similar {
+  margin: 0 0 7px;
+  padding: 8px 10px;
+  border-radius: 9px;
+  background: #fbfcff;
+  border: 1px solid #edf1f8;
+}
+
+.lz-affix-word,
+.lz-similar-head {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  flex-wrap: wrap;
+  margin: 0 0 3px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #263244;
+}
+
+.lz-affix-word span {
+  font-size: 0.68rem;
+  font-weight: 400;
+  color: #98a3b4;
+}
+
+.lz-affix .lz-cn,
+.lz-affix .lz-en,
+.lz-similar .lz-cn,
+.lz-similar .lz-en {
+  margin: 0 0 2px;
+}
+
+.lz-subhead {
+  margin: 9px 0 4px;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  color: #3157d5;
+}
+
+.lz-latin {
+  margin: 0 0 4px;
+  font-size: 0.78rem;
+  line-height: 1.6;
+  color: #5b6b82;
+}
+
+.lz-mnemonic {
+  margin: 0 0 7px;
+  font-size: 0.8rem;
+  line-height: 1.6;
+  color: #334155;
+}
+
+.lz-mnemonic .lz-en {
+  color: #98a3b4;
+  font-size: 0.72rem;
+}
+
+.lz-colloc {
+  display: flex;
+  align-items: baseline;
+  gap: 7px;
+  flex-wrap: wrap;
+  margin: 0 0 3px;
+  font-size: 0.8rem;
+  line-height: 1.55;
+}
+
+.lz-colloc .lz-en {
+  margin: 0;
+  font-weight: 600;
+}
+
+.lz-colloc .lz-cn {
+  margin: 0;
+}
+
+.lz-form {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin: 0 0 3px;
+  font-size: 0.79rem;
+  line-height: 1.55;
+}
+
+.lz-form span {
+  color: #8492a8;
+  font-size: 0.7rem;
+}
+
+.lz-empty {
+  margin: 0;
+  font-size: 0.78rem;
+  color: #98a3b4;
+}
+
+.lz-dict {
+  margin: 9px 0 0;
+  padding: 8px 10px;
+  border-radius: 9px;
+  background: #f2f6ff;
+  font-size: 0.78rem;
+  line-height: 1.6;
+  color: #3d5bb5;
+}
+
+/* ---------- Lizz 角落常驻 ---------- */
+.lz-lizz {
+  position: fixed;
+  right: 18px;
+  bottom: 18px;
+  z-index: 55;
+  width: 92px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  cursor: pointer;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.lz-lizz.is-in {
+  animation: lz-lizz-appear 0.45s cubic-bezier(0.2, 0.8, 0.3, 1) both;
+}
+
+@keyframes lz-lizz-appear {
+  from { opacity: 0; transform: translateY(8px) scale(0.88); }
+  to { opacity: 1; transform: none; }
+}
+
+.lz-lizz-avatar {
+  position: relative;
+  width: 84px;
+  height: 84px;
+  transition: opacity 0.55s ease, transform 0.55s ease;
+  filter: drop-shadow(0 6px 10px rgba(120, 88, 52, 0.16));
+}
+
+.lz-lizz-avatar > * {
+  width: 100%;
+  height: 100%;
+  display: block;
+  animation: lz-lizz-bob 4.2s ease-in-out infinite;
+  transform-origin: 50% 90%;
+}
+
+.lz-lizz-photo {
+  object-fit: contain;
+  image-rendering: auto;
+}
+
+.lz-lizz.has-photo .lz-fox-svg {
+  display: none;
+}
+
+.lz-lizz:not(.has-photo) .lz-lizz-photo {
+  display: none;
+}
+
+@keyframes lz-lizz-bob {
+  0%, 100% { transform: translateY(0) rotate(-0.4deg); }
+  50% { transform: translateY(-3px) rotate(0.5deg); }
+}
+
+.lz-lizz:hover .lz-lizz-avatar > * {
+  animation-duration: 2.4s;
+}
+
+.lz-lizz:focus-visible {
+  outline: none;
+}
+
+.lz-lizz:focus-visible .lz-lizz-avatar {
+  outline: 3px solid #a9bdf7;
+  outline-offset: 3px;
+  border-radius: 50%;
+}
+
+.lz-lizz.is-vanishing .lz-lizz-avatar {
+  opacity: 0;
+  transform: translateY(10px) scale(0.6);
+}
+
+.lz-lizz.is-vanishing .lz-lizz-avatar > * {
+  animation: none;
+}
+
+.lz-lizz.is-vanishing .lz-lizz-bubble {
+  opacity: 0;
+  transform: translateY(8px) scale(0.94);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.lz-lizz-bubble {
+  position: absolute;
+  right: 0;
+  bottom: calc(100% + 3px);
+  width: max-content;
+  max-width: min(250px, calc(100vw - 40px));
+  padding: 8px 11px;
+  border-radius: 13px;
+  border: 1px solid #e3e9f4;
+  background: #fff;
+  box-shadow: 0 10px 26px rgba(15, 23, 42, 0.16);
+  z-index: 2;
+  word-break: break-word;
+}
+
+.lz-lizz-bubble::after {
+  content: "";
+  position: absolute;
+  right: 26px;
+  bottom: -6px;
+  width: 10px;
+  height: 10px;
+  background: #fff;
+  border-right: 1px solid #e3e9f4;
+  border-bottom: 1px solid #e3e9f4;
+  transform: rotate(45deg);
+}
+
+.lz-lizz-bubble.is-pop {
+  animation: lz-bubble-pop 0.24s cubic-bezier(0.2, 0.8, 0.3, 1) both;
+}
+
+@keyframes lz-bubble-pop {
+  from { opacity: 0; transform: translateY(5px) scale(0.9); }
+  to { opacity: 1; transform: none; }
+}
+
+.lz-bubble-face {
+  display: block;
+  font-size: 1.08rem;
+  line-height: 1.45;
+  color: #263244;
+  white-space: nowrap;
+}
+
+.lz-bubble-line {
+  display: block;
+  margin-top: 3px;
+  font-size: 0.76rem;
+  line-height: 1.5;
+  color: #6b778b;
+}
+
+.lz-bubble-rule {
+  margin-top: 5px;
+  font-size: 0.78rem;
+  line-height: 1.58;
+  color: #5c4a2e;
+}
+
+.lz-lizz-bubble.is-wide {
+  max-width: min(270px, calc(100vw - 36px));
+  padding: 9px 11px;
+}
+
+/* ---------- 响应式 ---------- */
+@media (max-width: 640px) {
+  .lz-tut {
+    align-items: flex-start;
+    padding: 7px;
+  }
+
+  .lz-tut-shell {
+    max-height: calc(100vh - 14px);
+    border-radius: 15px;
+  }
+
+  @supports (height: 100dvh) {
+    .lz-tut-shell {
+      max-height: calc(100dvh - 14px);
+    }
+  }
+
+  .lz-tut-top {
+    padding: 9px 12px;
+  }
+
+  .lz-tut-title {
+    font-size: 0.74rem;
+  }
+
+  .lz-tut-progress {
+    max-width: 46%;
+    font-size: 0.64rem;
+  }
+
+  .lz-guide {
+    padding: 10px 12px 2px;
+    gap: 8px;
+  }
+
+  .lz-guide-avatar {
+    flex-basis: 58px;
+    width: 58px;
+    height: 58px;
+  }
+
+  .lz-guide-bubble {
+    padding: 8px 10px;
+  }
+
+  .lz-guide-text {
+    font-size: 0.82rem;
+  }
+
+  .lz-tut-body {
+    padding: 6px 12px 16px;
+  }
+
+  .lz-card,
+  .lz-wordcard {
+    padding: 12px;
+  }
+
+  .lz-stats {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .lz-write-submit {
+    flex: 1 1 100%;
+    width: 100%;
+  }
+
+  .lz-prompt-word {
+    font-size: 1.5rem;
+  }
+
+  .lz-lizz {
+    right: 12px;
+    bottom: 12px;
+    width: 78px;
+  }
+
+  .lz-lizz-avatar {
+    width: 70px;
+    height: 70px;
+  }
+
+  .lz-lizz-bubble {
+    max-width: min(240px, calc(100vw - 28px));
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .lz-tut-shell,
+  .lz-lizz.is-in,
+  .lz-lizz-avatar > *,
+  .lz-lizz-bubble.is-pop,
+  .lz-guide-react.is-pop {
+    animation: none !important;
+  }
+}

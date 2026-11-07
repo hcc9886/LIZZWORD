@@ -1279,6 +1279,8 @@
     cursor: pointer;
   }
   </style>
+  <!-- 新手教程 + Lizz 小狐狸样式（全部 lz- 前缀，不污染主页面） -->
+  <link rel="stylesheet" href="books/lizz/lizz.css">
 </head>
 <body>
   <!-- 任一数据资源 404 或超过 3 秒未返回，都会在这里显示具体项与重试按钮 -->
@@ -10730,6 +10732,15 @@
     };
 
     start();
+  </script>
+  <!-- 新手教程 + Lizz 小狐狸：教程词数据 → 状态/形象 → 教程流程 → Lizz 角色 -->
+  <script src="books/lizz/tutorial-words.js"></script>
+  <script src="books/lizz/lizz-state.js"></script>
+  <script src="books/lizz/tutorial-flow.js"></script>
+  <script src="books/lizz/lizz.js"></script>
+  <script>
+    // 显式挂载一次（init 幂等，与 lizz.js 的自动初始化不冲突）
+    if (window.LIZZWORD_LIZZ) window.LIZZWORD_LIZZ.init();
   </script>
 </body>
 </html>
