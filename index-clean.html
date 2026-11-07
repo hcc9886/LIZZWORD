@@ -9271,7 +9271,7 @@
 
           <button type="button" class="home-btn" data-enter="games">
             <span class="home-title">小游戏</span>
-            <span class="home-sub">翻牌配对 · 快闪辨义 · 字母重组 · 听音选词</span>
+            <span class="home-sub">翻牌配对 · 快闪辨义</span>
           </button>
         </section>
 
@@ -9826,22 +9826,34 @@
         other.textContent = other.dataset.label;
       });
 
-      window.speechSynthesis.cancel();
-
-      const utterance = new SpeechSynthesisUtterance(text);
-      utterance.lang = button.dataset.lang || "en-US";
-      utterance.rate = Number(button.dataset.rate) || 0.9;
-
       button.classList.add("is-playing");
       button.textContent = "🔊 AI 朗读中…";
       const reset = () => {
         button.classList.remove("is-playing");
         button.textContent = label;
       };
-      utterance.onend = reset;
-      utterance.onerror = reset;
 
-      window.speechSynthesis.speak(utterance);
+      const speech = window.LZSpeech;
+      if (!speech) {
+        reset();
+        showToast("语音组件没有加载成功，可以先看音标自己读。");
+        return;
+      }
+
+      // 统一封装会处理 voices 未就绪、iOS resume、cancel/speak 竞态
+      const started = speech.speak(text, {
+        lang: button.dataset.lang || "en-US",
+        rate: Number(button.dataset.rate) || 0.9,
+        timeout: 2000,
+        endTimeout: 2500,
+        onEnd: reset,
+        onFail: (reason) => {
+          reset();
+          if (reason === "empty") return;
+          showToast("没有听到声音：请确认设备未静音，并在系统语音设置中安装英文语音包。");
+        }
+      });
+      if (!started) reset();
     }
 
     // ============================================================
@@ -10993,6 +11005,7 @@
   </script>
   <!-- 新手教程 + Lizz 小狐狸：教程词数据 → 状态/形象 → 教程流程 → Lizz 角色 -->
   <script src="books/lizz/tutorial-words.js"></script>
+  <script src="books/lizz/speech.js"></script>
   <script src="books/lizz/lizz-state.js"></script>
   <script src="books/lizz/tutorial-flow.js"></script>
   <script src="books/lizz/lizz.js"></script>

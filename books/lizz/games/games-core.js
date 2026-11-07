@@ -67,13 +67,7 @@
     match: byWord(words.filter(function (item) {
       return zhCount[item.zh] === 1 && item.zh.length <= 6 && item.word.length <= 10;
     })),
-    scramble: byWord(words.filter(function (item) {
-      return item.word.length >= 4 && item.word.length <= 10;
-    })),
     flash: byWord(words.filter(function (item) {
-      return item.zh.length <= 8;
-    })),
-    listen: byWord(words.filter(function (item) {
       return item.zh.length <= 8;
     }))
   };

@@ -36,7 +36,30 @@
 
   function speak(text) {
     const word = String(text || "").trim();
-    if (!word || !window.speechSynthesis || typeof window.SpeechSynthesisUtterance !== "function") return;
+    if (!word) return;
+
+    const speech = window.LZSpeech;
+    if (speech) {
+      speech.speak(word, {
+        lang: "en-US",
+        rate: 0.9,
+        timeout: 1800,
+        endTimeout: 2500,
+        onFail: () => {
+          const hint = root && root.querySelector(".lz-flash-hint");
+          if (!hint) return;
+          if (!hint.dataset.original) hint.dataset.original = hint.textContent;
+          hint.textContent = "没听到声音？可以先看音标自己读";
+          window.setTimeout(() => {
+            if (hint.dataset.original) hint.textContent = hint.dataset.original;
+          }, 2600);
+        }
+      });
+      return;
+    }
+
+    // 兜底：LZSpeech 未加载时的旧逻辑
+    if (!window.speechSynthesis || typeof window.SpeechSynthesisUtterance !== "function") return;
     try {
       window.speechSynthesis.cancel();
       const utterance = new window.SpeechSynthesisUtterance(word);

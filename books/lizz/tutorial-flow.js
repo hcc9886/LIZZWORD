@@ -149,23 +149,37 @@
       setReactionText("这个浏览器不能朗读…我念给你听：先看音标吧。");
       return;
     }
-    const synth = window.speechSynthesis;
-    synth.cancel();
-    const utterance = new SpeechSynthesisUtterance(text);
-    utterance.lang = lang || "en-US";
-    utterance.rate = 0.9;
     const original = button ? button.getAttribute("data-lz-label") || button.textContent : "";
-    if (button) {
-      button.classList.add("is-playing");
-      button.textContent = "🔊 朗读中";
-    }
-    utterance.onend = () => {
+    const reset = () => {
       if (button) {
         button.classList.remove("is-playing");
         button.textContent = original;
       }
     };
-    synth.speak(utterance);
+    if (button) {
+      button.classList.add("is-playing");
+      button.textContent = "🔊 朗读中";
+    }
+
+    const speech = window.LZSpeech;
+    if (!speech) {
+      reset();
+      setReactionText("语音组件没有加载成功，可以先看音标自己读。");
+      return;
+    }
+
+    // 统一封装会处理 voices 未就绪、iOS resume、cancel/speak 竞态
+    speech.speak(text, {
+      lang: lang || "en-US",
+      rate: 0.9,
+      timeout: 2200,
+      endTimeout: 3000,
+      onEnd: reset,
+      onFail: () => {
+        reset();
+        setReactionText("没有听到声音…可以先看音标自己读，或检查系统是否装了英文语音包。");
+      }
+    });
   }
 
   function allForms(entry) {
