@@ -18,9 +18,12 @@
   let frontSpeak = null;
   let backSpeak = null;
   let closeButton = null;
+  let flipButton = null;
   let flipped = false;
   let lastFocus = null;
   let speakingWord = "";
+  let closing = false;
+  let closeTimer = null;
 
   function esc(value) {
     return String(value == null ? "" : value)
@@ -91,6 +94,7 @@
     frontSpeak = root.querySelector(".lz-flash-speak-front");
     backSpeak = root.querySelector(".lz-flash-speak-back");
     closeButton = root.querySelector(".lz-flash-close");
+    flipButton = root.querySelector("[data-flash-flip]");
 
     root.addEventListener("click", (event) => {
       if (event.target.closest("[data-flash-close]")) {
@@ -121,7 +125,7 @@
   }
 
   function onKeydown(event) {
-    if (!root || root.hidden) return;
+    if (!root || root.hidden || closing) return;
     if (event.key === "Escape") {
       event.preventDefault();
       event.stopPropagation();
@@ -137,6 +141,15 @@
     }
   }
 
+  function syncFlipUI() {
+    if (!root) return;
+    flipped = Boolean(root.classList.contains("is-flipped"));
+    if (flipButton) flipButton.textContent = flipped ? "翻回单词" : "翻面";
+    root.setAttribute("aria-label", flipped ? "记忆卡 · 含义" : "记忆卡 · 单词");
+    const face = root.querySelector(flipped ? ".lz-flash-back" : ".lz-flash-front");
+    if (face) face.scrollTop = 0;
+  }
+
   function setText(node, text, hidden) {
     node.textContent = text || "";
     node.hidden = hidden || !text;
@@ -145,10 +158,20 @@
   function open(wordItem) {
     if (!wordItem) return false;
     build();
-    lastFocus = document.activeElement;
-    flipped = false;
-    root.classList.remove("is-open", "is-flipped");
-    root.hidden = false;
+    const wasOpen = !root.hidden && root.classList.contains("is-open") && !closing;
+    if (!wasOpen) {
+      lastFocus = document.activeElement;
+      document.body.classList.add("lz-flash-open");
+      root.classList.remove("is-open");
+      root.hidden = false;
+    }
+    closing = false;
+    if (closeTimer) {
+      window.clearTimeout(closeTimer);
+      closeTimer = null;
+    }
+    root.classList.remove("is-flipped");
+    syncFlipUI();
 
     const word = String(wordItem.word || "");
     speakingWord = word;
@@ -167,42 +190,46 @@
     const sceneCN = wordItem.sceneCN || (sense && sense.exampleCN) || "";
     setText(backScene, sceneCN ? `例句：${sceneCN}` : "", false);
 
-    document.body.classList.add("lz-flash-open");
-    window.requestAnimationFrame(() => {
-      if (root && !root.hidden) root.classList.add("is-open");
-    });
-    if (closeButton) closeButton.focus({ preventScroll: true });
+    if (!wasOpen) {
+      window.requestAnimationFrame(() => {
+        if (root && !root.hidden && !closing) root.classList.add("is-open");
+      });
+    }
+    // 初始焦点放在“翻面”上：空格/回车直接翻面，而不是误触右上角关闭
+    const focusTarget = flipButton || closeButton;
+    if (focusTarget) focusTarget.focus({ preventScroll: true });
     return true;
   }
 
   function close() {
-    if (!root || root.hidden) return;
+    if (!root || root.hidden || closing) return;
+    closing = true;
     root.classList.remove("is-open");
     document.body.classList.remove("lz-flash-open");
     if (lastFocus && typeof lastFocus.focus === "function") {
       lastFocus.focus({ preventScroll: true });
     }
     lastFocus = null;
-    window.setTimeout(() => {
+    if (closeTimer) window.clearTimeout(closeTimer);
+    closeTimer = window.setTimeout(() => {
+      closeTimer = null;
       if (root && !root.classList.contains("is-open")) {
         root.hidden = true;
         root.classList.remove("is-flipped");
+        flipped = false;
+        syncFlipUI();
       }
     }, 220);
   }
 
   function flip() {
-    if (!root || root.hidden) return;
-    flipped = !flipped;
-    root.classList.toggle("is-flipped", flipped);
-    const button = root.querySelector("[data-flash-flip]");
-    if (button) button.textContent = flipped ? "翻回单词" : "翻面";
-    const face = flipped ? root.querySelector(".lz-flash-back") : root.querySelector(".lz-flash-front");
-    if (face) face.scrollTop = 0;
+    if (!root || root.hidden || closing) return;
+    root.classList.toggle("is-flipped", !flipped);
+    syncFlipUI();
   }
 
   function isOpen() {
-    return Boolean(root && !root.hidden);
+    return Boolean(root && !root.hidden && !closing);
   }
 
   window.LIZZWORD_FLASHCARD = { open, close, flip, isOpen };

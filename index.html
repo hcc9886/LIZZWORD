@@ -951,6 +951,24 @@
     .debug-standalone > summary::before { content: "▸ "; }
     .debug-standalone[open] > summary::before { content: "▾ "; }
     .debug-standalone .debug-body { padding: 0 16px 16px; }
+    /* 调试入口：默认藏在「我的词书」底部，明确提示风险 */
+    .debug-entry {
+      display: block;
+      width: 100%;
+      margin: 16px 0 0;
+      padding: 12px 14px;
+      text-align: left;
+      background: #fff8ef;
+      border: 1px dashed #dfb78d;
+      border-radius: 10px;
+      color: #7a5a36;
+      font-size: 0.78rem;
+      line-height: 1.65;
+      cursor: pointer;
+    }
+    .debug-entry b { display: block; margin-bottom: 2px; color: #9a4f1f; font-size: 0.84rem; }
+    .debug-entry:hover { background: #fff1dd; border-color: #cf9a63; }
+    .debug-entry:focus-visible { outline: 2px solid #e8b27c; outline-offset: 2px; }
 
     .home-btn:hover:not(:disabled) { background: #fbfcff; border-color: #cfdbf0; }
     .home-btn:disabled { opacity: 0.6; cursor: not-allowed; box-shadow: none; background: #f7f9fc; }
@@ -9293,8 +9311,6 @@
       const learned = Math.min(state.stage1Done.length, sessionWordCount());
       const target = state.learnWords.length || state.dailyTarget || 10;
       const previewBatch = previewWords();
-      // 重渲染时保留测试面板的展开状态，避免每点一个按钮就自动收起
-      const debugWasOpen = Boolean(document.getElementById("debugPanel") && document.getElementById("debugPanel").open);
 
       document.getElementById("view-home").innerHTML = `
         ${homeBookBarHTML()}
@@ -9328,12 +9344,15 @@
             <span class="home-title">lizz</span>
             <span class="home-sub" id="homeLizzSummary">${lizzShopSubtitle()}</span>
           </button>
+
+          <button type="button" class="home-btn" data-enter="games">
+            <span class="home-title">小游戏</span>
+            <span class="home-sub">翻牌配对 · 快闪辨义 · 字母重组 · 听音选词</span>
+          </button>
         </section>
 
         <p class="home-progress">当前组已学 <b>${finishedToday ? target : learned}</b> / ${target} · 今日累计 <b>${state.groupsToday}</b> 组 · <b>${state.wordsToday}</b> 个词${finishedToday ? " · 已完成" : ""}</p>
-        ${quoteCardHTML()}
-        ${debugPanelHTML(debugWasOpen)}`;
-      renderDebug();
+        ${quoteCardHTML()}`;
     }
 
     function renderLibrary() {
@@ -9341,6 +9360,8 @@
       const mastered = countMastered();
       const next = getNextReview();
       const nextText = next ? dueText(next.due) : "暂无";
+      // 重渲染时保留调试面板的展开状态，避免每点一个调试按钮就自动收起
+      const debugWasOpen = Boolean(document.getElementById("debugPanel") && document.getElementById("debugPanel").open);
       document.getElementById("view-library").innerHTML = `
         ${bookCardHTML()}
         <button type="button" class="btn-primary az-entry" data-enter="az">全部单词 A–Z · ${words.length.toLocaleString()} 个</button>
@@ -9350,13 +9371,23 @@
             <p class="pool-srs">SRS 节点：${SRS_INTERVALS.join(" → ")} 天</p>
             ${poolRowsHTML()}
           </div>
-        </details>`;
+        </details>
+        ${debugArmed ? debugPanelHTML(debugWasOpen) : debugEntryHTML()}`;
+      renderDebug();
+    }
+
+    function debugEntryHTML() {
+      return `
+        <button type="button" class="debug-entry" data-debug-open>
+          <b>调试面板 · 仅供测试</b>
+          切换后学习状态会被改写，请勿误触。点此进入。
+        </button>`;
     }
 
     function debugPanelHTML(open) {
       return `
         <details class="debug debug-standalone" id="debugPanel" ${open ? "open" : ""}>
-          <summary>开发者测试面板（测试用 · 点击展开）</summary>
+          <summary>调试面板 · 仅供测试，切换后学习状态会被改写</summary>
           <div class="debug-body">
             <p class="debug-date" id="debugDate"></p>
             <div class="debug-row">
@@ -9840,6 +9871,8 @@
     }
 
     let viewMode = "home";
+    // 调试面板必须从「我的词书」主动进入并二次确认，离开词书页即重新上锁
+    let debugArmed = false;
 
     function viewTitle() {
       if (viewMode === "study") return `新学 · ${STAGE_LABELS[state.stage]}`;
@@ -9887,6 +9920,7 @@
       current = null;
       writeCurrent = null;
       speakCurrent = null;
+      if (mode !== "library") debugArmed = false;
 
       // 进入新学前按每日目标锁定今日队列；只抽一次，不再补词
       if (mode === "study") ensureLearnSession();
@@ -10225,6 +10259,17 @@
         return;
       }
 
+      // 我的词书：调试面板需主动点开并二次确认后才渲染
+      if (event.target.closest("[data-debug-open]")) {
+        if (!window.confirm("调试面板仅供测试，切换后学习状态会被改写。确定要展开吗？")) return;
+        debugArmed = true;
+        renderView();
+        const panel = document.getElementById("debugPanel");
+        if (panel) panel.open = true;
+        renderDebug();
+        return;
+      }
+
       // 主界面入口
       const enterButton = event.target.closest("[data-enter]");
       if (enterButton) {
@@ -10232,6 +10277,11 @@
         // 积分商店是独立浮层，不能交给 showView（否则会落到词库浏览）
         if (target === "lizz-shop") {
           if (window.LIZZWORD_LIZZ_SHOP) window.LIZZWORD_LIZZ_SHOP.toggle();
+          return;
+        }
+        // 小游戏是独立页面，保留原有背词流程不受影响
+        if (target === "games") {
+          location.href = "games.html";
           return;
         }
         if (target === "study" && state.stage === "done") {

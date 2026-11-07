@@ -9268,6 +9268,11 @@
             <span class="home-title">lizz</span>
             <span class="home-sub" id="homeLizzSummary">${lizzShopSubtitle()}</span>
           </button>
+
+          <button type="button" class="home-btn" data-enter="games">
+            <span class="home-title">小游戏</span>
+            <span class="home-sub">翻牌配对 · 快闪辨义 · 字母重组 · 听音选词</span>
+          </button>
         </section>
 
         <p class="home-progress">当前组已学 <b>${finishedToday ? target : learned}</b> / ${target} · 今日累计 <b>${state.groupsToday}</b> 组 · <b>${state.wordsToday}</b> 个词${finishedToday ? " · 已完成" : ""}</p>
@@ -10136,6 +10141,11 @@
         // 积分商店是独立浮层，不能交给 showView（否则会落到词库浏览）
         if (target === "lizz-shop") {
           if (window.LIZZWORD_LIZZ_SHOP) window.LIZZWORD_LIZZ_SHOP.toggle();
+          return;
+        }
+        // 小游戏是独立页面，保留原有背词流程不受影响
+        if (target === "games") {
+          location.href = "games.html";
           return;
         }
         if (target === "study" && state.stage === "done") {

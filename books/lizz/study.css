@@ -124,6 +124,7 @@ body.lz-flash-open {
   backdrop-filter: blur(4px);
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
   opacity: 0;
+  pointer-events: none;
   transition: opacity 0.2s ease;
 }
 
@@ -133,6 +134,7 @@ body.lz-flash-open {
 
 .lz-flash.is-open {
   opacity: 1;
+  pointer-events: auto;
 }
 
 .lz-flash * {
@@ -214,7 +216,9 @@ body.lz-flash-open {
   padding: 26px 20px 22px;
   border: 1px solid #e8edf5;
   border-radius: 15px;
+  overflow-x: hidden;
   overflow-y: auto;
+  overflow-wrap: anywhere;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
@@ -379,22 +383,25 @@ body.lz-flash-open {
   .lz-flash-face {
     -webkit-backface-visibility: visible;
     backface-visibility: visible;
-    transition: opacity 0.12s ease;
+    transition: none;
   }
 
   .lz-flash-back {
     opacity: 0;
+    visibility: hidden;
     transform: none;
     pointer-events: none;
   }
 
   .lz-flash.is-flipped .lz-flash-back {
     opacity: 1;
+    visibility: visible;
     pointer-events: auto;
   }
 
   .lz-flash.is-flipped .lz-flash-front {
     opacity: 0;
+    visibility: hidden;
     pointer-events: none;
   }
 
