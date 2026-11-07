@@ -1,9 +1,8 @@
 /* ============================================================
    Lizz 角色 · 教程编排 · 主界面角落常驻
    - 教程由 Lizz 自我介绍后带入
-   - 点一下：随机颜文字（30 种）
-   - 连点 3 下：躲起来，背完 10 个单词后回到主界面
-   - 连点 10 下：消失到第二天（本地日期）
+   - 点一下：随机颜文字（30 种）；碗里有食物时先星星眼再傲娇一句
+   - 连点 25 下：躲起来，背完 10 个单词后悄悄回来
    - 状态写在 lizzword_lizz_v1，绝不改动 lizzword_state_v1 的既有字段
    - 形象：内置简笔小狐狸 SVG；启用图片槽位后优先显示 books/lizz/lizz.png
    ============================================================ */
@@ -23,10 +22,12 @@
   const PHOTO_URL = typeof S.photoUrl === "function" ? S.photoUrl() : "";
 
   const BURST_IDLE_MS = 1100;
+  const EXIT_CLICKS = 25;          // 连点 25 次才离开（旧的 3 次 / 10 次判断已作废）
   const SOFT_RULE_MS = 3800;
-  const GONE_RULE_MS = 3200;
   const FADE_MS = 560;
   const TUTORIAL_DELAY_MS = 380;
+  const SECRET_WINDOW_MS = 2600;   // “偷偷回来”后的反应窗口，期间不叠加大声夸奖
+  const STAR_EYES_MS = 1600;       // 星星眼持续时间
 
   let state = null;
   let widget = null;
@@ -41,6 +42,11 @@
   let autoTimer = null;
   let pendingBubble = null;
   let vanishTimer = null;
+  let vanishHideTimer = null;
+  let starTimer = null;
+  let tsundereTimer = null;
+  let secretReactTimer = null;
+  let secretUntil = 0;
 
   function esc(value) {
     return String(value == null ? "" : value)
@@ -84,6 +90,9 @@
     if (photo) bindPhoto(el, photo);
 
     el.addEventListener("click", onCharacterClick);
+    el.addEventListener("animationend", (event) => {
+      if (event.animationName === "lz-lizz-secret-in") el.classList.remove("is-secret-in");
+    });
     el.addEventListener("keydown", (event) => {
       if (event.key === "Enter" || event.key === " ") {
         event.preventDefault();
@@ -139,14 +148,27 @@
     widget.classList.remove("has-photo");
   }
 
-  function showWidget() {
+  function playSecretIn() {
+    if (!widget) return;
+    widget.classList.remove("is-vanishing", "is-in", "is-secret-in");
+    void widget.offsetWidth;
+    widget.classList.add("is-secret-in");
+  }
+
+  function showWidget(secret) {
     if (!state || !state.tutorialDone || state.mode !== "active" || TUT.isOpen()) return;
     if (!appVisibleForLizz()) return;
     buildWidget();
-    if (!widget.hidden) return;
+    if (!widget.hidden) {
+      // 正在“离开”的淡出中途被召回：撤掉淡出，改用悄悄淡入
+      if (secret) playSecretIn();
+      return;
+    }
     widget.hidden = false;
+    widget.classList.remove("is-in", "is-secret-in");
     void widget.offsetWidth;
-    widget.classList.add("is-in");
+    // 偷偷回来：慢淡入 + 很小的上浮，不冒“我回来了”的提示
+    widget.classList.add(secret ? "is-secret-in" : "is-in");
     locked = false;
     if (pendingBubble) {
       const pending = pendingBubble;
@@ -161,7 +183,14 @@
       clearTimeout(vanishTimer);
       vanishTimer = null;
     }
-    widget.classList.remove("is-in", "is-vanishing");
+    if (vanishHideTimer) {
+      clearTimeout(vanishHideTimer);
+      vanishHideTimer = null;
+    }
+    if (starTimer) { clearTimeout(starTimer); starTimer = null; }
+    if (tsundereTimer) { clearTimeout(tsundereTimer); tsundereTimer = null; }
+    if (secretReactTimer) { clearTimeout(secretReactTimer); secretReactTimer = null; }
+    widget.classList.remove("is-in", "is-vanishing", "is-secret-in", "is-star-eyes");
     widget.hidden = true;
     if (bubble) {
       bubble.hidden = true;
@@ -195,11 +224,11 @@
     return appHomeVisible() || appDoneVisible();
   }
 
-  function syncVisibility() {
+  function syncVisibility(secret) {
     if (!state) return;
     if (hiding) return;
     const shouldShow = state.tutorialDone && state.mode === "active" && !TUT.isOpen() && appVisibleForLizz();
-    if (shouldShow) showWidget();
+    if (shouldShow) showWidget(Boolean(secret));
     else hideWidget();
   }
 
@@ -219,6 +248,44 @@
       void bowl.offsetWidth;
       bowl.classList.add("is-pop");
     }
+  }
+
+  /* 看到碗里的食物：先星星眼，紧接着弱弱地傲娇一句 */
+  function starEyesReaction(bubbleDelay) {
+    buildWidget();
+    if (!widget) return;
+    widget.classList.remove("is-star-eyes");
+    void widget.offsetWidth;
+    widget.classList.add("is-star-eyes");
+    if (starTimer) clearTimeout(starTimer);
+    starTimer = setTimeout(() => {
+      starTimer = null;
+      if (widget) widget.classList.remove("is-star-eyes");
+    }, STAR_EYES_MS);
+    if (tsundereTimer) clearTimeout(tsundereTimer);
+    tsundereTimer = setTimeout(() => {
+      tsundereTimer = null;
+      if (!state || !widget || widget.hidden) return;
+      const line = pickLine(S.LINES.tsundere, "lastTsundere");
+      showBubbleHTML(
+        `<span class="lz-bubble-face">${esc(S.pickFace(state, Math.random))}</span><span class="lz-bubble-line lz-bubble-rule">${esc(line)}</span>`,
+        4600,
+        true
+      );
+    }, bubbleDelay == null ? 620 : bubbleDelay);
+  }
+
+  /* 碗里有食物时：记账后延迟一点再冒星星眼（先看到碗，再“嘴硬”） */
+  function celebrateFood(delay) {
+    if (!state || Number(state.food) <= 0) return;
+    state.foodReacted = Number(state.food) || 0;
+    S.save(state);
+    if (secretReactTimer) clearTimeout(secretReactTimer);
+    secretReactTimer = setTimeout(() => {
+      secretReactTimer = null;
+      if (!state || state.mode !== "active" || !widget || widget.hidden || TUT.isOpen()) return;
+      starEyesReaction(620);
+    }, delay == null ? 450 : delay);
   }
 
   /* ============================================================
@@ -283,7 +350,7 @@
   }
 
   /* ============================================================
-     点击：一下颜文字 / 连点 3 下 / 连点 10 下
+     点击：一下颜文字 / 连点 25 下离开
      ============================================================ */
   function onCharacterClick() {
     if (!state || !state.tutorialDone || state.mode !== "active" || TUT.isOpen() || hiding) return;
@@ -301,13 +368,16 @@
         4600,
         true
       );
+    } else if (Number(state.food) > 0 && state.foodReacted !== Number(state.food)) {
+      // 常驻状态下碗里有新食物：星星眼 + 傲娇（同一份食物只反应一次）
+      celebrateFood(120);
     } else {
       faceBubble(2400);
     }
     if (burstTimer) clearTimeout(burstTimer);
 
-    if (burst >= 10) {
-      // 到 10 下就锁定，留一点时间让最后一个颜文字显示，然后彻底不见
+    if (burst >= EXIT_CLICKS) {
+      // 到 25 下就锁定，留一点时间让最后一个反应显示，再说规则并离开
       locked = true;
       burstTimer = setTimeout(resolveBurst, 520);
     } else {
@@ -319,11 +389,7 @@
     const count = burst;
     burst = 0;
     burstTimer = null;
-    if (count >= 10) {
-      beginGone();
-      return;
-    }
-    if (count >= 3) {
+    if (count >= EXIT_CLICKS) {
       beginSoftHide();
       return;
     }
@@ -344,20 +410,6 @@
     vanishTimer = setTimeout(() => { vanishTimer = null; vanish(); }, SOFT_RULE_MS);
   }
 
-  function beginGone() {
-    if (!state || hiding) return;
-    hiding = true;
-    locked = true;
-    if (burstTimer) {
-      clearTimeout(burstTimer);
-      burstTimer = null;
-    }
-    burst = 0;
-    state = S.setMode(state, "gone", { goneCount: (state.goneCount || 0) + 1 });
-    linesBubble(S.LINES.gone, GONE_RULE_MS);
-    vanishTimer = setTimeout(() => { vanishTimer = null; vanish(); }, GONE_RULE_MS);
-  }
-
   function vanish() {
     if (!widget) {
       hiding = false;
@@ -368,7 +420,8 @@
       bubbleTimer = null;
     }
     widget.classList.add("is-vanishing");
-    setTimeout(() => {
+    vanishHideTimer = setTimeout(() => {
+      vanishHideTimer = null;
       widget.hidden = true;
       widget.classList.remove("is-vanishing", "is-in");
       if (bubble) {
@@ -384,8 +437,23 @@
   function onReturned() {
     hiding = false;
     locked = false;
-    syncVisibility();
-    ruleBubble(S.LINES.returned, 3800);
+    burst = 0;
+    if (burstTimer) {
+      clearTimeout(burstTimer);
+      burstTimer = null;
+    }
+    if (vanishTimer) {
+      clearTimeout(vanishTimer);
+      vanishTimer = null;
+    }
+    if (vanishHideTimer) {
+      clearTimeout(vanishHideTimer);
+      vanishHideTimer = null;
+    }
+    secretUntil = Date.now() + SECRET_WINDOW_MS;
+    // 悄悄回来：只做淡入，不弹“我回来了”的大提示
+    syncVisibility(true);
+    if (Number(state.food) > 0) celebrateFood(700);
   }
 
   /* ============================================================
@@ -426,18 +494,13 @@
     if (!state) return;
     state.food = Math.min(S.FOOD_CAP, (Number(state.food) || 0) + 1);
     state.praiseAt = new Date().toISOString();
-    if (state.mode === "gone") {
-      // 10 连点规则优先：次日前不出现；食物照样记进碗里，等她回来再看见
-      S.save(state);
-      renderFood(true);
-      return;
-    }
-    if (state.mode === "hidden") {
-      // 3 连点隐藏态：完成一组就是“背完 10 个词”的兑现时机，直接回归
+    const wasHidden = state.mode === "hidden";
+    if (wasHidden) {
+      // 隐藏态：完成一组就是“背完 10 个词”的兑现时机，悄悄回来
       state.mode = "active";
       state.hiddenAt = "";
       state.hiddenBaseline = null;
-      state.goneUntil = "";
+      secretUntil = Date.now() + SECRET_WINDOW_MS;
     }
     hiding = false;
     locked = false;
@@ -450,11 +513,23 @@
       clearTimeout(vanishTimer);
       vanishTimer = null;
     }
+    if (vanishHideTimer) {
+      clearTimeout(vanishHideTimer);
+      vanishHideTimer = null;
+    }
     state.thanksPending = true;
+    const secret = wasHidden || Date.now() < secretUntil;
+    if (secret) state.foodReacted = state.food;
     S.save(state);
     renderFood(true);
-    syncVisibility();
-    ruleBubble([pickLine(S.LINES.groupPraise, "lastPraise")], 5200);
+    // 只有“本次真的从隐藏态回来”才重播偷偷淡入；已在场时不重复淡入
+    syncVisibility(wasHidden);
+    if (secret) {
+      // 偷偷回来的同一刻不弹夸奖，先让“星星眼 + 我只是回来看看”演完
+      celebrateFood(700);
+    } else {
+      ruleBubble([pickLine(S.LINES.groupPraise, "lastPraise")], 5200);
+    }
   }
 
   /* ============================================================
@@ -497,11 +572,11 @@
   }
 
   /* ============================================================
-     轮询：软隐藏后等 10 词；彻底不见后等第二天
+     轮询：软隐藏后等背完 10 个词，再悄悄回来
      ============================================================ */
   function tick() {
     if (!state) return;
-    if (state.mode === "hidden" || state.mode === "gone") {
+    if (state.mode === "hidden") {
       const before = state.mode;
       state = S.load();
       if (before !== "active" && state.mode === "active") {
@@ -546,6 +621,7 @@
     hiding = false;
     locked = false;
     burst = 0;
+    secretUntil = 0;
     if (burstTimer) {
       clearTimeout(burstTimer);
       burstTimer = null;
@@ -578,7 +654,7 @@
     usePhoto,
     hidePhoto,
     photoUrl: () => (typeof S.photoUrl === "function" ? S.photoUrl() : ""),
-    version: "1.0.2",
+    version: "1.0.3",
     _test: {
       click: onCharacterClick,
       resolveBurst,

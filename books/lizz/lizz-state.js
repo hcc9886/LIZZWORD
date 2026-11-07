@@ -1,7 +1,7 @@
 /* ============================================================
    Lizz · 独立状态与视觉资源
    - localStorage key: lizzword_lizz_v1（不改动 lizzword_state_v1 的任何字段）
-   - “第二天”按本地日期判断
+   - 连点 25 次躲起来，背完 10 个单词后悄悄回来（不再有“彻底消失到次日”）
    - 30 种颜文字与 Lizz 台词
    - 内置简笔小狐狸 SVG（不新增图片文件；仍保留 lizz.png 替换槽位）
    ============================================================ */
@@ -116,17 +116,18 @@
       "你愿意继续，我就愿意等。下一组见，好吗？",
       "谢谢你…今天也辛苦了。再来一点点就好。"
     ],
+    // 看到碗里食物时的“嘴硬心软”台词（先星星眼，再弱弱地傲娇一句）
+    tsundere: [
+      "我、我只是回来看看…才不是为了你。",
+      "别误会…我只是路过，顺便看看碗里有没有剩的。",
+      "……我回来看看而已。你继续学，别管我。",
+      "哼…我只是来看一眼。真的，就一眼。",
+      "我、我不是特意回来的…只是刚好走到这边。",
+      "碗里有东西…我、我可不是被它引回来的。"
+    ],
     softHide: [
       "我…先躲起来。",
-      "你背完 10 个单词，我就会回到主界面。真的，10 个。"
-    ],
-    gone: [
-      "这次…我要消失到明天。",
-      "明天我才会回来。别、别忘了我。"
-    ],
-    returned: [
-      "我…我回来了。",
-      "你背完了。我看见了。"
+      "背完 10 个单词我就回来。真的，10 个。"
     ],
     stay: [
       "以后我就待在左下角。",
@@ -170,6 +171,14 @@
       <circle cx="58.5" cy="37" r="2.6" fill="#4a3b32"/>
       <circle cx="42.4" cy="36.1" r=".9" fill="#fff"/>
       <circle cx="59.4" cy="36.1" r=".9" fill="#fff"/>
+
+      <!-- 星星眼：默认隐藏，看到碗里有食物时短暂出现 -->
+      <g class="lz-fox-star-eyes" aria-hidden="true">
+        <path class="lz-star lz-star-left" d="M41.5 31.5l1.6 3.4 3.7.5-2.7 2.6.6 3.7-3.2-1.7-3.2 1.7.6-3.7-2.7-2.6 3.7-.5z" fill="#ffd166" stroke="#4a3b32" stroke-width="1.1" stroke-linejoin="round"/>
+        <path class="lz-star lz-star-right" d="M58.5 31.5l1.6 3.4 3.7.5-2.7 2.6.6 3.7-3.2-1.7-3.2 1.7.6-3.7-2.7-2.6 3.7-.5z" fill="#ffd166" stroke="#4a3b32" stroke-width="1.1" stroke-linejoin="round"/>
+        <path class="lz-spark lz-spark-right" d="M73 25l1 2.6 2.6 1-2.6 1-1 2.6-1-2.6-2.6-1 2.6-1z" fill="#ffe8a3" stroke="#f4b26f" stroke-width=".8"/>
+        <path class="lz-spark lz-spark-left" d="M27 22l.7 1.8 1.8.7-1.8.7-.7 1.8-.7-1.8-1.8-.7 1.8-.7z" fill="#ffe8a3" stroke="#f4b26f" stroke-width=".8"/>
+      </g>
       <ellipse cx="33" cy="45" rx="4" ry="2.4" fill="#f7b2b2" opacity=".8"/>
       <ellipse cx="67" cy="45" rx="4" ry="2.4" fill="#f7b2b2" opacity=".8"/>
       <path d="M47.6 45.5h4.8l-2.4 2.8z" fill="#4a3b32"/>
@@ -213,11 +222,6 @@
     return `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}`;
   }
 
-  function tomorrowKey() {
-    const now = new Date();
-    return dateKeyOf(new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1));
-  }
-
   function baseState() {
     return {
       v: VERSION,
@@ -225,19 +229,19 @@
       tutorialSkippedAt: "",
       tutorialFinishedAt: "",
       introSeen: false,
-      mode: "active",          // active | hidden（背完 10 词回来） | gone（第二天回来）
+      mode: "active",          // active | hidden（背完 10 词回来）
       hiddenAt: "",
       hiddenBaseline: null,    // { date, groupsToday, wordsToday }
-      goneUntil: "",
       lastFace: -1,
       softHideCount: 0,
-      goneCount: 0,
       food: 0,                 // 碗里食物份数（0–FOOD_CAP，点击不消耗）
+      foodReacted: 0,          // 已经为“第几份食物”冒过星星眼，避免每次点击都重复
       groupSeen: null,         // { date, groupsToday }：识别“又完成了一组”
       thanksPending: false,    // 完成一组后等用户点一下道谢
       praiseAt: "",
       lastPraise: -1,
       lastThanks: -1,
+      lastTsundere: -1,
       updatedAt: ""
     };
   }
@@ -316,30 +320,26 @@
     state.tutorialSkippedAt = typeof state.tutorialSkippedAt === "string" ? state.tutorialSkippedAt : "";
     state.tutorialFinishedAt = typeof state.tutorialFinishedAt === "string" ? state.tutorialFinishedAt : "";
     state.hiddenAt = typeof state.hiddenAt === "string" ? state.hiddenAt : "";
-    state.goneUntil = typeof state.goneUntil === "string" ? state.goneUntil : "";
     state.lastFace = Number.isInteger(state.lastFace) ? state.lastFace : -1;
     state.softHideCount = Number(state.softHideCount) || 0;
-    state.goneCount = Number(state.goneCount) || 0;
     state.hiddenBaseline = normalizeBaseline(state.hiddenBaseline);
     state.food = Math.min(FOOD_CAP, Math.max(0, Number(state.food) || 0));
+    state.foodReacted = Math.min(FOOD_CAP, Math.max(0, Number(state.foodReacted) || 0));
     state.groupSeen = normalizeGroupSeen(state.groupSeen);
     state.thanksPending = Boolean(state.thanksPending);
     state.praiseAt = typeof state.praiseAt === "string" ? state.praiseAt : "";
     state.lastPraise = Number.isInteger(state.lastPraise) ? state.lastPraise : -1;
     state.lastThanks = Number.isInteger(state.lastThanks) ? state.lastThanks : -1;
-    if (!["active", "hidden", "gone"].includes(state.mode)) state.mode = "active";
+    state.lastTsundere = Number.isInteger(state.lastTsundere) ? state.lastTsundere : -1;
 
-    let changed = false;
-    const today = dateKeyOf();
+    // 旧版本“彻底消失到次日”的兼容迁移：
+    // mode=gone / goneUntil 一律视为可见，避免老用户升级后狐狸再也不出现。
+    const legacyGone = state.mode === "gone";
+    if (!["active", "hidden"].includes(state.mode)) state.mode = "active";
+    delete state.goneUntil;
+    delete state.goneCount;
 
-    // 彻底不见：第二天（本地日期）自动回来
-    if (state.mode === "gone") {
-      if (!state.goneUntil || today >= state.goneUntil) {
-        state.mode = "active";
-        state.goneUntil = "";
-        changed = true;
-      }
-    }
+    let changed = legacyGone;
 
     // 软隐藏：只有背完 10 个词才回来
     if (state.mode === "hidden") {
@@ -364,7 +364,6 @@
     if (mode === "active") {
       state.hiddenAt = "";
       state.hiddenBaseline = null;
-      state.goneUntil = "";
     }
     if (mode === "hidden") {
       state.hiddenAt = new Date().toISOString();
@@ -374,11 +373,6 @@
         groupsToday: p ? p.groupsToday : 0,
         wordsToday: p ? p.wordsToday : 0
       };
-    }
-    if (mode === "gone") {
-      state.hiddenAt = new Date().toISOString();
-      state.hiddenBaseline = null;
-      state.goneUntil = tomorrowKey();
     }
     if (extra && typeof extra === "object") Object.assign(state, extra);
     return persist(state);
@@ -408,7 +402,6 @@
     BOWL_SVG,
     FOOD_CAP,
     dateKeyOf,
-    tomorrowKey,
     readAppProgress,
     shouldReturn,
     load,
