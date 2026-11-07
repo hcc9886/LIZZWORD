@@ -1247,9 +1247,46 @@
       .speak-box { padding: 12px; }
       .write-row .btn-primary { flex: 1 1 110px; padding: 12px 14px; }
     }
+  /* 加载失败提示：顶部红色错误框，列出具体失败项并提供重试 */
+  .load-error-banner {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    max-height: 55vh;
+    overflow-y: auto;
+    padding: 12px 16px;
+    background: #b42318;
+    color: #fff;
+    font-size: 14px;
+    line-height: 1.5;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
+  }
+  .load-error-banner[hidden] { display: none; }
+  .load-error-banner .load-error-title { font-weight: 700; margin-bottom: 4px; }
+  .load-error-banner ul { margin: 0; padding-left: 18px; }
+  .load-error-banner li { margin: 2px 0; word-break: break-all; }
+  .load-error-banner .load-error-retry {
+    margin-top: 8px;
+    padding: 6px 14px;
+    border: 0;
+    border-radius: 6px;
+    background: #fff;
+    color: #b42318;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+  }
   </style>
 </head>
 <body>
+  <!-- 任一数据资源 404 或超过 3 秒未返回，都会在这里显示具体项与重试按钮 -->
+  <div id="loadErrorBanner" class="load-error-banner" hidden>
+    <div class="load-error-title">数据加载失败</div>
+    <ul id="loadErrorList"></ul>
+    <button type="button" class="load-error-retry" id="loadErrorRetry">重试</button>
+  </div>
   <div class="page">
     <!-- 顶部状态条：今日待学 / 待复习 / 已掌握 / 下次复习 -->
     <header class="app-head">
@@ -6456,6 +6493,9 @@
     const deepLoaded = new Set();
     const deepFailed = new Set();
     const deepLoading = new Map();
+    let deepIndexReady = false;    // 索引已尝试加载（成功或失败都算就绪，避免无限等待）
+    let deepIndexLoading = false;
+    let deepIndexWaiters = [];     // 等索引就绪后再决定走深度分片还是浅层兜底
 
     // 分片脚本执行时把词条覆盖到对应的轻量词条上
     window.__LIZZWORD_DEEP_SHARD = function (batch, list) {
@@ -6484,17 +6524,48 @@
       });
     }
 
+    // 加载深度索引：3 秒超时，失败也照常放行（页面走浅层兜底并弹出红色提示）
     function loadDeepIndex(done) {
-      const finish = () => {
-        deepIndex = window.__LIZZWORD_DEEP_INDEX || null;
+      if (typeof done === "function") {
+        if (deepIndexReady) { done(); } else { deepIndexWaiters.push(done); }
+      }
+      if (deepIndexReady || deepIndexLoading) return;
+      deepIndexLoading = true;
+      const flush = () => {
+        const waiters = deepIndexWaiters.slice();
+        deepIndexWaiters = [];
+        waiters.forEach((fn) => { try { fn(); } catch (error) { /* 单个回调异常不影响其余 */ } });
+      };
+      const finish = (ok, reason) => {
+        deepIndexLoading = false;
+        deepIndexReady = true;
+        deepIndex = ok ? (window.__LIZZWORD_DEEP_INDEX || null) : null;
         buildDeepWordMap();
-        if (typeof done === "function") done();
+        if (ok) {
+          clearLoadError("deep-index");
+        } else {
+          reportLoadError("deep-index", "books/deep/index.js", reason || "加载失败", () => {
+            deepIndexReady = false;
+            deepIndexLoading = false;
+            window.__LIZZWORD_DEEP_INDEX = null;
+            loadDeepIndex();
+            flush();
+          });
+        }
+        flush();
       };
       const script = document.createElement("script");
       script.src = "./books/deep/index.js";
       script.async = true;
-      script.onload = finish;
-      script.onerror = finish;
+      const timer = setTimeout(() => {
+        script.onload = script.onerror = null;
+        finish(false, `超时 ${LOAD_TIMEOUT_MS / 1000} 秒`);
+      }, LOAD_TIMEOUT_MS);
+      script.onload = () => { clearTimeout(timer); finish(true); };
+      script.onerror = () => {
+        clearTimeout(timer);
+        probeHttpStatus("./books/deep/index.js").then((status) => finish(false, status));
+      };
       document.head.appendChild(script);
     }
 
@@ -6502,15 +6573,17 @@
       return deepWordBatch.get(wordId) || "";
     }
 
-    // 该词是否已经可以完整渲染；未准备过且索引里也没有时按浅层兜底
+    // 该词是否已经可以完整渲染；索引未就绪时先等待，避免误判为“无深度内容”
     function deepReady(wordId) {
       const item = getWord(wordId);
       if (!item || item.__deep) return true;
+      if (!deepIndexReady) return false;
       const batch = deepBatchOf(wordId);
       if (!batch) return true;
       return deepFailed.has(batch);
     }
 
+    // 单个深度分片：3 秒超时，失败后立即结束等待并提示，可点重试
     function loadDeepBatch(batch, done) {
       if (!batch) { if (typeof done === "function") done(false); return; }
       if (deepLoaded.has(batch)) { if (typeof done === "function") done(true); return; }
@@ -6519,21 +6592,60 @@
         deepLoading.get(batch).then((ok) => { if (typeof done === "function") done(ok); });
         return;
       }
+      const url = `./books/deep/toefl-core-5000-${batch}.js`;
+      const key = `deep-${batch}`;
+      const retry = () => {
+        deepFailed.delete(batch);
+        deepLoading.delete(batch);
+        loadDeepBatch(batch, () => { if (typeof renderAll === "function") renderAll(); });
+      };
       const promise = new Promise((resolve) => {
         const script = document.createElement("script");
-        script.src = `./books/deep/toefl-core-5000-${batch}.js`;
+        script.src = url;
         script.async = true;
-        script.onload = () => { deepLoaded.add(batch); resolve(true); };
-        script.onerror = () => { deepFailed.add(batch); resolve(false); };
+        const timer = setTimeout(() => {
+          script.onload = script.onerror = null;
+          deepFailed.add(batch);
+          reportLoadError(key, url.replace(/^\.\//, ""), `超时 ${LOAD_TIMEOUT_MS / 1000} 秒`, retry);
+          resolve(false);
+        }, LOAD_TIMEOUT_MS);
+        script.onload = () => {
+          clearTimeout(timer);
+          clearLoadError(key);
+          deepLoaded.add(batch);
+          resolve(true);
+        };
+        script.onerror = () => {
+          clearTimeout(timer);
+          deepFailed.add(batch);
+          probeHttpStatus(url).then((status) => reportLoadError(key, url.replace(/^\.\//, ""), status, retry));
+          resolve(false);
+        };
         document.head.appendChild(script);
       });
       deepLoading.set(batch, promise);
       promise.then((ok) => { if (typeof done === "function") done(ok); });
     }
 
+    // 后台逐个预热本组深度分片：避免 10 个分片同时抢占带宽，拖慢当前词的渲染
+    function prefetchLearnDeep() {
+      const ids = state.learnWords.slice();
+      let cursor = 0;
+      const step = () => {
+        if (cursor >= ids.length) return;
+        const id = ids[cursor++];
+        ensureDeep(id, () => setTimeout(step, 0));
+      };
+      setTimeout(step, 1200);
+    }
+
     function ensureDeep(wordId, done) {
       if (deepReady(wordId)) { if (typeof done === "function") done(true); return; }
-      loadDeepBatch(deepBatchOf(wordId), done);
+      // 索引可能还在加载：等它（最多 3 秒）再决定是否注入分片
+      loadDeepIndex(() => {
+        if (deepReady(wordId)) { if (typeof done === "function") done(true); return; }
+        loadDeepBatch(deepBatchOf(wordId), done);
+      });
     }
 
     // 单次渲染前等待深度内容；失败也继续渲染，深层区块走空内容兜底
@@ -7405,8 +7517,8 @@
       state.learnDebug = false;
       state.todayDoneAt = "";
       saveState();
-      // 后台预取本组词的深度批次，后面的认词/答题只需等当前这个词
-      state.learnWords.forEach((id) => ensureDeep(id));
+      // 后台逐个预取本组词的深度批次，后面的认词/答题只需等当前这个词
+      prefetchLearnDeep();
     }
 
     // 清空当日新学队列（跨日或切换词书时使用），保留已学记录与复习池
@@ -9106,6 +9218,7 @@
       if (location.protocol === "file:") return;
       fetchJson("books/quotes.json")
         .then((data) => {
+          clearLoadError("quotes");
           const list = data && Array.isArray(data.quotes)
             ? data.quotes.filter((item) => item && item.en && item.zh && item.author)
             : [];
@@ -9113,8 +9226,8 @@
           quotesData = list;
           refreshQuoteCard();
         })
-        .catch(() => {
-          // file:// 下本地 fetch 会被拦截，静默使用内嵌兜底
+        .catch((error) => {
+          reportLoadError("quotes", "books/quotes.json", (error && error.message) || "加载失败", loadQuotes);
         });
     }
 
@@ -10311,15 +10424,79 @@
       rolloverLearnDay();
       syncGroupStatsDate();
       saveState();
+      appStarted = true;
       viewMode = "home";
       renderAll();
     }
 
-    function fetchJson(url) {
-      return fetch(url, { cache: "no-store" }).then((response) => {
-        if (!response.ok) throw new Error(`HTTP ${response.status}`);
-        return response.json();
+    // ============================================================
+    // 资源加载：统一 3 秒超时 + 顶部红色错误条（每项可单独重试）
+    // ============================================================
+    const LOAD_TIMEOUT_MS = 3000;
+    let appStarted = false;
+    const loadErrorState = new Map();
+
+    function renderLoadErrors() {
+      const banner = document.getElementById("loadErrorBanner");
+      const list = document.getElementById("loadErrorList");
+      if (!banner || !list) return;
+      list.textContent = "";
+      loadErrorState.forEach((item) => {
+        const li = document.createElement("li");
+        li.textContent = `${item.label}（${item.reason}）`;
+        list.appendChild(li);
       });
+      banner.hidden = loadErrorState.size === 0;
+    }
+
+    function clearLoadError(key) {
+      if (!loadErrorState.has(key)) return;
+      loadErrorState.delete(key);
+      renderLoadErrors();
+    }
+
+    function reportLoadError(key, label, reason, retry) {
+      loadErrorState.set(key, { label, reason, retry });
+      renderLoadErrors();
+    }
+
+    function bindLoadErrorRetry() {
+      const button = document.getElementById("loadErrorRetry");
+      if (!button || button.__bound) return;
+      button.__bound = true;
+      button.addEventListener("click", () => {
+        const pending = [...loadErrorState.values()];
+        loadErrorState.clear();
+        renderLoadErrors();
+        pending.forEach((item) => {
+          try { item.retry(); } catch (error) { /* 单次重试失败不阻塞其他项 */ }
+        });
+      });
+    }
+
+    // 用 HEAD 请求探明失败原因，让提示能写明「HTTP 404」而不是笼统的网络错误
+    function probeHttpStatus(url) {
+      return fetch(url, { method: "HEAD", cache: "no-store" })
+        .then((response) => `HTTP ${response.status}`)
+        .catch(() => "网络错误");
+    }
+
+    function fetchJson(url, ms) {
+      const limit = ms || LOAD_TIMEOUT_MS;
+      const controller = typeof AbortController !== "undefined" ? new AbortController() : null;
+      const timer = setTimeout(() => { if (controller) controller.abort(); }, limit);
+      return fetch(url, { cache: "no-store", signal: controller ? controller.signal : undefined })
+        .then((response) => {
+          if (!response.ok) throw new Error(`HTTP ${response.status}`);
+          return response.json();
+        })
+        .catch((error) => {
+          const reason = error && error.name === "AbortError"
+            ? `超时 ${limit / 1000} 秒`
+            : ((error && error.message) || "请求失败");
+          throw new Error(reason);
+        })
+        .finally(() => clearTimeout(timer));
     }
 
     function applyBookData(book, prepared, distractors) {
@@ -10376,26 +10553,62 @@
       return DEFAULT_BOOK_ID;
     }
 
-    // 读取一本书的全部深度词条批次；全部缺失时返回 null，页面走“尚未准备”
+    // 读取一本书的全部深度词条批次；缺失的批次逐项提示，全部缺失时返回 null
     async function fetchPreparedFiles(config) {
       const files = Array.isArray(config.preparedFiles) ? config.preparedFiles : [];
       if (!files.length) return null;
       const results = await Promise.allSettled(files.map((file) => fetchJson(file)));
-      const fulfilled = results.filter((item) => item.status === "fulfilled");
+      const fulfilled = [];
+      results.forEach((result, index) => {
+        const file = files[index];
+        const key = `prepared-${config.id}-${index}`;
+        if (result.status === "fulfilled") {
+          fulfilled.push(result.value);
+          clearLoadError(key);
+          return;
+        }
+        reportLoadError(key, file.replace(/^\.\//, ""), (result.reason && result.reason.message) || "加载失败", () => {
+          loadBookBundle(config, afterBookRetry);
+        });
+      });
       if (!fulfilled.length) return null;
       return fulfilled
         .flatMap((item) => (Array.isArray(item.value) ? item.value : []))
         .filter((item) => item && item.word);
     }
 
-    // 按词书配置加载书信息、深度词条与干扰项；任一文件缺失都使用该书的兜底
+    // 词书数据重试后：已启动就只重绘，未启动才走完整 boot，避免打断进行中的学习
+    function afterBookRetry() {
+      if (appStarted) {
+        saveState();
+        renderAll();
+      } else {
+        boot();
+      }
+    }
+
+    // 按词书配置加载书信息、深度词条与干扰项；缺失项逐项提示且可用兜底继续
     function loadBookBundle(config, done) {
-      Promise.allSettled([
+      const labels = {};
+      labels[0] = [config.bookFile, "词书主数据"];
+      labels[2] = [config.distractorsFile, "干扰项数据"];
+      const fail = (index, reason) => {
+        const entry = labels[index];
+        if (!entry) return;
+        const key = `book-${config.id}-${index}`;
+        reportLoadError(key, entry[0].replace(/^\.\//, ""), reason, () => loadBookBundle(config, afterBookRetry));
+      };
+      return Promise.allSettled([
         fetchJson(config.bookFile),
         fetchPreparedFiles(config),
         fetchJson(config.distractorsFile)
       ]).then((results) => {
         const value = (index) => (results[index].status === "fulfilled" ? results[index].value : null);
+        results.forEach((result, index) => {
+          const key = `book-${config.id}-${index}`;
+          if (result.status === "rejected") fail(index, (result.reason && result.reason.message) || "加载失败");
+          else clearLoadError(key);
+        });
         applyBookData(value(0) || config.fallback, value(1), value(2));
         // 首批深度词条缺失不影响整本词表；逐词内容仍由 books/deep 分片按需加载
         if (typeof done === "function") done();
@@ -10460,18 +10673,21 @@
 
     function start() {
       activeBookConfig = getBookConfig(savedBookId());
-      // 与词书加载并行；失败（含 file://）时静默保留内嵌兜底
+      bindLoadErrorRetry();
+      // 名句与词书并行；失败（含 file://）时静默保留内嵌兜底
       loadQuotes();
-      // 深度索引用 <script> 加载，file:// 下同样可用；就绪后再决定走哪条词书路径
-      loadDeepIndex(() => {
-        // 双击打开时是 file://，fetch 本地 json 会被 CORS 拦，用索引补全词表
-        if (location.protocol === "file:") {
+      if (location.protocol === "file:") {
+        // 双击打开时 fetch 本地 json 会被 CORS 拦，必须等深度索引来补全词表
+        loadDeepIndex(() => {
           applyDeepFallbackWords();
           boot();
-          return;
-        }
-        loadBookBundle(activeBookConfig, boot);
-      });
+        });
+        return;
+      }
+      // 网络环境：词书数据与深度索引同时发起，词书就绪即可首屏可交互，
+      // 索引只影响“完整词条”，不再阻塞首屏
+      loadDeepIndex();
+      loadBookBundle(activeBookConfig, boot);
     }
 
     // 调试 / 自动化测试可直接调用这些纯函数
