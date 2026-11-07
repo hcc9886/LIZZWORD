@@ -6542,49 +6542,60 @@
       });
     }
 
-    // 加载深度索引：20 秒总时长兜底，失败也照常放行（页面走浅层兜底并弹出红色提示）
+    function flushDeepIndexWaiters() {
+      const waiters = deepIndexWaiters.slice();
+      deepIndexWaiters = [];
+      waiters.forEach((fn) => { try { fn(); } catch (error) { /* 单个回调异常不影响其余 */ } });
+    }
+
+    function reportDeepIndexFailure(reason) {
+      reportLoadError("deep-index", "books/deep/index.js", reason, () => {
+        deepIndexReady = false;
+        deepIndexLoading = false;
+        loadDeepIndex();
+      });
+    }
+
+    // 加载深度索引：缓存优先，后台用“重试 + 镜像”刷新；失败也照常放行
     function loadDeepIndex(done) {
       if (typeof done === "function") {
-        if (deepIndexReady) { done(); } else { deepIndexWaiters.push(done); }
+        if (deepIndexReady) { done(); return; }
+        deepIndexWaiters.push(done);
       }
-      if (deepIndexReady || deepIndexLoading) return;
+      if (deepIndexLoading) return;
+      // 先用上次成功的索引让页面立刻可判定“哪些词有深度内容”，再后台刷新
+      if (!deepIndexReady) {
+        const cached = readCache(DEEP_INDEX_URL);
+        if (cached && typeof cached === "object") {
+          window.__LIZZWORD_DEEP_INDEX = cached;
+          deepIndex = cached;
+          buildDeepWordMap();
+          deepIndexReady = true;
+          clearLoadError("deep-index");
+          flushDeepIndexWaiters();
+        }
+      }
       deepIndexLoading = true;
-      const flush = () => {
-        const waiters = deepIndexWaiters.slice();
-        deepIndexWaiters = [];
-        waiters.forEach((fn) => { try { fn(); } catch (error) { /* 单个回调异常不影响其余 */ } });
-      };
-      const finish = (ok, reason) => {
+      loadScriptWithFallback(DEEP_INDEX_URL).then(() => {
+        const fresh = window.__LIZZWORD_DEEP_INDEX || null;
         deepIndexLoading = false;
         deepIndexReady = true;
-        deepIndex = ok ? (window.__LIZZWORD_DEEP_INDEX || null) : null;
-        buildDeepWordMap();
-        if (ok) {
-          clearLoadError("deep-index");
-        } else {
-          reportLoadError("deep-index", "books/deep/index.js", reason || "加载失败", () => {
-            deepIndexReady = false;
-            deepIndexLoading = false;
-            window.__LIZZWORD_DEEP_INDEX = null;
-            loadDeepIndex();
-            flush();
-          });
+        if (!fresh) {
+          if (!deepIndex) reportDeepIndexFailure("数据格式错误");
+          flushDeepIndexWaiters();
+          return;
         }
-        flush();
-      };
-      const script = document.createElement("script");
-      script.src = "./books/deep/index.js";
-      script.async = true;
-      const timer = setTimeout(() => {
-        script.onload = script.onerror = null;
-        finish(false, `超过 ${SCRIPT_TIMEOUT_MS / 1000} 秒无响应`);
-      }, SCRIPT_TIMEOUT_MS);
-      script.onload = () => { clearTimeout(timer); finish(true); };
-      script.onerror = () => {
-        clearTimeout(timer);
-        probeHttpStatus("./books/deep/index.js").then((status) => finish(false, status));
-      };
-      document.head.appendChild(script);
+        deepIndex = fresh;
+        buildDeepWordMap();
+        writeCache(DEEP_INDEX_URL, fresh);
+        clearLoadError("deep-index");
+        flushDeepIndexWaiters();
+      }).catch((error) => {
+        deepIndexLoading = false;
+        deepIndexReady = true;
+        if (!deepIndex) reportDeepIndexFailure((error && error.message) || "加载失败");
+        flushDeepIndexWaiters();
+      });
     }
 
     function deepBatchOf(wordId) {
@@ -6601,7 +6612,7 @@
       return deepFailed.has(batch);
     }
 
-    // 单个深度分片：20 秒总时长兜底，失败后立即结束等待并提示，可点重试
+    // 单个深度分片：带退避重试与镜像兜底，失败后立即结束等待并提示，可点重试
     function loadDeepBatch(batch, done) {
       if (!batch) { if (typeof done === "function") done(false); return; }
       if (deepLoaded.has(batch)) { if (typeof done === "function") done(true); return; }
@@ -6617,29 +6628,17 @@
         deepLoading.delete(batch);
         loadDeepBatch(batch, () => { if (typeof renderAll === "function") renderAll(); });
       };
-      const promise = new Promise((resolve) => {
-        const script = document.createElement("script");
-        script.src = url;
-        script.async = true;
-        const timer = setTimeout(() => {
-          script.onload = script.onerror = null;
-          deepFailed.add(batch);
-          reportLoadError(key, url.replace(/^\.\//, ""), `超过 ${SCRIPT_TIMEOUT_MS / 1000} 秒无响应`, retry);
-          resolve(false);
-        }, SCRIPT_TIMEOUT_MS);
-        script.onload = () => {
-          clearTimeout(timer);
-          clearLoadError(key);
-          deepLoaded.add(batch);
-          resolve(true);
-        };
-        script.onerror = () => {
-          clearTimeout(timer);
-          deepFailed.add(batch);
-          probeHttpStatus(url).then((status) => reportLoadError(key, url.replace(/^\.\//, ""), status, retry));
-          resolve(false);
-        };
-        document.head.appendChild(script);
+      const promise = loadScriptWithFallback(url).then(() => {
+        deepLoaded.add(batch);
+        clearLoadError(key);
+        return true;
+      }).catch((error) => {
+        deepFailed.add(batch);
+        reportLoadError(key, url.replace(/^\.\//, ""), (error && error.message) || "加载失败", retry);
+        return false;
+      }).then((ok) => {
+        deepLoading.delete(batch);
+        return ok;
       });
       deepLoading.set(batch, promise);
       promise.then((ok) => { if (typeof done === "function") done(ok); });
@@ -9231,20 +9230,31 @@
       card.innerHTML = quoteCardBody(dailyQuote());
     }
 
+    function applyQuotes(data) {
+      const list = data && Array.isArray(data.quotes)
+        ? data.quotes.filter((item) => item && item.en && item.zh && item.author)
+        : [];
+      if (!list.length) return false;
+      quotesData = list;
+      refreshQuoteCard();
+      return true;
+    }
+
     function loadQuotes() {
       // 双击打开时是 file://，本地 fetch 必被拦截，直接用内嵌兜底，避免控制台噪音
       if (location.protocol === "file:") return;
+      // 缓存优先：先用上次的名句渲染，再后台刷新
+      const hadCache = applyQuotes(readCache("books/quotes.json"));
       fetchJson("books/quotes.json")
         .then((data) => {
+          applyQuotes(data);
           clearLoadError("quotes");
-          const list = data && Array.isArray(data.quotes)
-            ? data.quotes.filter((item) => item && item.en && item.zh && item.author)
-            : [];
-          if (!list.length) return;
-          quotesData = list;
-          refreshQuoteCard();
         })
         .catch((error) => {
+          if (hadCache) {
+            clearLoadError("quotes");
+            return;
+          }
           reportLoadError("quotes", "books/quotes.json", (error && error.message) || "加载失败", loadQuotes);
         });
     }
@@ -10453,6 +10463,27 @@
     const LOAD_IDLE_TIMEOUT_MS = 10000;   // 连续 10 秒没有新数据到达才判定失败
     const LOAD_TOTAL_TIMEOUT_MS = 20000;  // 不支持流式读取的环境退回的总时长上限
     const SCRIPT_TIMEOUT_MS = 20000;      // script 标签无法观测进度，只用总时长兜底
+    // 单个资源先在本源重试（指数退避），仍失败再换镜像源各取一次
+    const LOAD_RETRY_DELAYS = [0, 900, 2200];
+    const MIRROR_RETRY_DELAYS = [0, 900];
+    // 数据缓存：版本变化会让旧缓存整体失效；体积上限避免写爆 localStorage
+    const CACHE_VERSION = "v1";
+    const CACHE_PREFIX = `lizzword:data:${CACHE_VERSION}:`;
+    const CACHE_MAX_CHARS = 3000000;
+    const CACHE_MAX_ENTRY_CHARS = 1500000;
+    // JSON 兜底：Pages 与 jsDelivr/raw 都带 CORS（Netlify 不带，跨域时不可用）
+    const JSON_MIRROR_BASES = [
+      "https://hcc9886.github.io/LIZZWORD/",
+      "https://cdn.jsdelivr.net/gh/hcc9886/LIZZWORD@main/",
+      "https://raw.githubusercontent.com/hcc9886/LIZZWORD/main/"
+    ];
+    // 脚本兜底：script 标签不需要 CORS，Netlify 也能用
+    const SCRIPT_MIRROR_BASES = [
+      "https://hcc9886.github.io/LIZZWORD/",
+      "https://lizzword.netlify.app/",
+      "https://cdn.jsdelivr.net/gh/hcc9886/LIZZWORD@main/"
+    ];
+    const DEEP_INDEX_URL = "./books/deep/index.js";
     let appStarted = false;
     const loadErrorState = new Map();
     // 加载进度：已完成的资源项数与累计收到的字节数
@@ -10462,6 +10493,87 @@
       if (value >= 1024 * 1024) return `${(value / 1024 / 1024).toFixed(1)} MB`;
       if (value >= 1024) return `${Math.round(value / 1024)} KB`;
       return `${value} B`;
+    }
+
+    // ============================================================
+    // 本地缓存：成功后按“相对路径”写入 localStorage，下次冷启先渲染缓存
+    // ============================================================
+    function cacheUsable() {
+      if (location.protocol === "file:") return false;
+      try {
+        return typeof localStorage !== "undefined" && Boolean(localStorage);
+      } catch (error) {
+        return false;
+      }
+    }
+
+    function cachePath(url) {
+      return String(url || "")
+        .replace(/^[a-z]+:\/\/[^/]+/i, "")
+        .replace(/^(?:\.\/)+/, "")
+        .replace(/^\/+/, "")
+        .split("?")[0]
+        .split("#")[0];
+    }
+
+    function absoluteAssetUrl(url) {
+      try {
+        return new URL(url, location.href).href.split("?")[0].split("#")[0];
+      } catch (error) {
+        return String(url || "");
+      }
+    }
+
+    function readCache(url) {
+      if (!cacheUsable()) return null;
+      try {
+        const raw = localStorage.getItem(CACHE_PREFIX + cachePath(url));
+        if (!raw) return null;
+        const payload = JSON.parse(raw);
+        return payload && typeof payload === "object" && "data" in payload ? payload.data : null;
+      } catch (error) {
+        return null;
+      }
+    }
+
+    function writeCache(url, data) {
+      if (!cacheUsable() || data === undefined) return;
+      const key = CACHE_PREFIX + cachePath(url);
+      let payload = "";
+      try {
+        payload = JSON.stringify({ ts: Date.now(), data });
+      } catch (error) {
+        return;
+      }
+      if (!payload || payload.length > CACHE_MAX_ENTRY_CHARS) return;
+      try {
+        // 先按时间淘汰旧缓存，确保总占用不超过上限；同名旧值直接替换
+        const entries = [];
+        for (let i = 0; i < localStorage.length; i += 1) {
+          const name = localStorage.key(i);
+          if (!name || name.indexOf(CACHE_PREFIX) !== 0) continue;
+          const value = localStorage.getItem(name) || "";
+          let ts = 0;
+          try { ts = JSON.parse(value).ts || 0; } catch (error) { ts = 0; }
+          entries.push({ name, size: value.length, ts });
+        }
+        let total = entries.reduce((sum, entry) => sum + entry.size, 0);
+        const same = entries.find((entry) => entry.name === key);
+        if (same) {
+          total -= same.size;
+          localStorage.removeItem(key);
+        }
+        const others = entries.filter((entry) => entry.name !== key).sort((a, b) => a.ts - b.ts);
+        while (others.length && total + payload.length > CACHE_MAX_CHARS) {
+          const oldest = others.shift();
+          localStorage.removeItem(oldest.name);
+          total -= oldest.size;
+        }
+        if (total + payload.length > CACHE_MAX_CHARS) return;
+        localStorage.setItem(key, payload);
+      } catch (error) {
+        // 隐私模式或配额不足：忽略缓存，不影响正常加载
+      }
     }
 
     function renderLoadProgress() {
@@ -10522,10 +10634,10 @@
       button.__bound = true;
       button.addEventListener("click", () => {
         const pending = [...loadErrorState.values()];
-        loadErrorState.clear();
-        renderLoadErrors();
+        // 不清空整个列表：每项成功后由自己的 clearLoadError 移除，
+        // 这样已恢复的项不会因为其它项重试失败而重新挂上
         pending.forEach((item) => {
-          try { item.retry(); } catch (error) { /* 单次重试失败不阻塞其他项 */ }
+          try { item.retry(); } catch (error) { /* 单项失败不阻塞其他项 */ }
         });
       });
     }
@@ -10537,18 +10649,59 @@
         .catch(() => "网络中断");
     }
 
-    // 空闲超时：持续收到数据就不算超时；连续 10 秒没有新数据才失败。
-    // 支持流式读取的环境按已收字节判定；不支持时退回 20 秒总时长上限。
-    function fetchJson(url) {
-      progressTaskStart();
-      let finished = false;
-      const finish = (fn) => {
-        if (finished) return;
-        finished = true;
-        progressTaskEnd();
-        fn();
+    function delay(ms) {
+      return new Promise((resolve) => setTimeout(resolve, ms));
+    }
+
+    function isPermanentHttp(error) {
+      const message = (error && error.message) || "";
+      return /^HTTP (400|401|403|404|410)$/.test(message);
+    }
+
+    function summarizeLoadError(primaryErrors, mirrorErrors) {
+      const httpOf = (list) => {
+        for (let i = 0; i < list.length; i += 1) {
+          const message = (list[i] && list[i].message) || "";
+          if (/^HTTP \d{3}$/.test(message)) return message;
+        }
+        return "";
       };
+      const primaryHttp = httpOf(primaryErrors);
+      if (primaryHttp) return primaryHttp;
+      if (primaryErrors.length) {
+        return primaryErrors.some((error) => /无响应/.test((error && error.message) || ""))
+          ? `超过 ${LOAD_IDLE_TIMEOUT_MS / 1000} 秒无响应`
+          : "网络中断";
+      }
+      const mirrorHttp = httpOf(mirrorErrors);
+      if (mirrorHttp) return mirrorHttp;
+      if (mirrorErrors.some((error) => /无响应/.test((error && error.message) || ""))) {
+        return `超过 ${LOAD_IDLE_TIMEOUT_MS / 1000} 秒无响应`;
+      }
+      return "网络中断";
+    }
+
+    // 镜像兜底地址：排除当前站点自身，避免对同一个源重复请求
+    function fallbackAssetUrls(url, isJson) {
+      const clean = cachePath(url);
+      if (!clean) return [];
+      const primary = absoluteAssetUrl(url);
+      const list = [];
+      (isJson ? JSON_MIRROR_BASES : SCRIPT_MIRROR_BASES).forEach((base) => {
+        const candidate = base + clean;
+        const candidateAbs = absoluteAssetUrl(candidate);
+        if (candidateAbs && candidateAbs !== primary && !list.includes(candidateAbs)) {
+          list.push(candidateAbs);
+        }
+      });
+      return list;
+    }
+
+    // 单次 JSON 请求：持续收到数据就不算超时；连续 10 秒无新数据才失败。
+    // 支持流式读取的环境按已收字节判定；不支持时退回 20 秒总时长上限。
+    function fetchJsonOnce(url) {
       return new Promise((resolve, reject) => {
+        let finished = false;
         const controller = typeof AbortController !== "undefined" ? new AbortController() : null;
         let idleTimer = null;
         let totalTimer = null;
@@ -10563,6 +10716,11 @@
           cleanup();
           if (controller) { try { controller.abort(); } catch (error) { /* 请求已结束 */ } }
           finish(() => reject(new Error(reason)));
+        };
+        const finish = (fn) => {
+          if (finished) return;
+          finished = true;
+          fn();
         };
         const armIdle = () => {
           clearTimeout(idleTimer);
@@ -10626,6 +10784,108 @@
       });
     }
 
+    // 带重试与镜像兜底的 JSON 加载：本源 3 次（含首试）→ 镜像 2 次
+    async function fetchJsonWithFallback(url) {
+      const primaryErrors = [];
+      for (let i = 0; i < LOAD_RETRY_DELAYS.length; i += 1) {
+        if (LOAD_RETRY_DELAYS[i]) await delay(LOAD_RETRY_DELAYS[i]);
+        try {
+          const data = await fetchJsonOnce(url);
+          writeCache(url, data);
+          return data;
+        } catch (error) {
+          primaryErrors.push(error);
+          if (isPermanentHttp(error)) throw error;
+        }
+      }
+      const mirrorErrors = [];
+      const mirrors = fallbackAssetUrls(url, true);
+      for (let m = 0; m < mirrors.length; m += 1) {
+        for (let i = 0; i < MIRROR_RETRY_DELAYS.length; i += 1) {
+          if (MIRROR_RETRY_DELAYS[i]) await delay(MIRROR_RETRY_DELAYS[i]);
+          try {
+            const data = await fetchJsonOnce(mirrors[m]);
+            writeCache(url, data);
+            return data;
+          } catch (error) {
+            mirrorErrors.push(error);
+            if (isPermanentHttp(error)) break;
+          }
+        }
+      }
+      throw new Error(summarizeLoadError(primaryErrors, mirrorErrors));
+    }
+
+    function fetchJson(url) {
+      progressTaskStart();
+      return fetchJsonWithFallback(url).then(
+        (data) => { progressTaskEnd(); return data; },
+        (error) => { progressTaskEnd(); throw error; }
+      );
+    }
+
+    // script 标签加载：同样支持退避重试与镜像；加载成功与否靠 onload/onerror
+    function loadScriptOnce(url) {
+      return new Promise((resolve, reject) => {
+        const script = document.createElement("script");
+        script.src = absoluteAssetUrl(url);
+        script.async = true;
+        let timer = null;
+        let settled = false;
+        const cleanup = () => {
+          clearTimeout(timer);
+          script.onload = script.onerror = null;
+        };
+        const settle = (error) => {
+          if (settled) return;
+          settled = true;
+          cleanup();
+          if (error) {
+            if (script.parentNode) script.parentNode.removeChild(script);
+            reject(error);
+          } else {
+            resolve();
+          }
+        };
+        timer = setTimeout(() => settle(new Error(`超过 ${SCRIPT_TIMEOUT_MS / 1000} 秒无响应`)), SCRIPT_TIMEOUT_MS);
+        script.onload = () => settle(null);
+        script.onerror = () => settle(new Error("网络中断"));
+        document.head.appendChild(script);
+      });
+    }
+
+    async function loadScriptWithFallback(url) {
+      const primaryErrors = [];
+      for (let i = 0; i < LOAD_RETRY_DELAYS.length; i += 1) {
+        if (LOAD_RETRY_DELAYS[i]) await delay(LOAD_RETRY_DELAYS[i]);
+        try {
+          await loadScriptOnce(url);
+          return;
+        } catch (error) {
+          primaryErrors.push(error);
+          // script 的 onerror 不带状态码，第一次失败后探一次，404 直接失败不空转
+          if (i === 0) {
+            const status = await probeHttpStatus(url);
+            if (/^HTTP 4/.test(status)) throw new Error(status);
+          }
+        }
+      }
+      const mirrorErrors = [];
+      const mirrors = fallbackAssetUrls(url, false);
+      for (let m = 0; m < mirrors.length; m += 1) {
+        for (let i = 0; i < MIRROR_RETRY_DELAYS.length; i += 1) {
+          if (MIRROR_RETRY_DELAYS[i]) await delay(MIRROR_RETRY_DELAYS[i]);
+          try {
+            await loadScriptOnce(mirrors[m]);
+            return;
+          } catch (error) {
+            mirrorErrors.push(error);
+          }
+        }
+      }
+      throw new Error(summarizeLoadError(primaryErrors, mirrorErrors));
+    }
+
     function applyBookData(book, prepared, distractors) {
       if (book && Array.isArray(book.entries) && book.name) {
         // 展示用的书名与介绍以 index.html 里的词书配置为准，
@@ -10680,70 +10940,117 @@
       return DEFAULT_BOOK_ID;
     }
 
-    // 读取一本书的全部深度词条批次；缺失的批次逐项提示，全部缺失时返回 null
-    async function fetchPreparedFiles(config) {
+    // 从缓存里读出一本书的已备词条槽位（每个文件一个槽，便于按项重试）
+    function readCachedPrepared(config) {
       const files = Array.isArray(config.preparedFiles) ? config.preparedFiles : [];
-      if (!files.length) return null;
-      const results = await Promise.allSettled(files.map((file) => fetchJson(file)));
-      const fulfilled = [];
-      results.forEach((result, index) => {
-        const file = files[index];
-        const key = `prepared-${config.id}-${index}`;
-        if (result.status === "fulfilled") {
-          fulfilled.push(result.value);
-          clearLoadError(key);
+      return files.map((file) => {
+        const data = readCache(file);
+        return Array.isArray(data) ? data : null;
+      });
+    }
+
+    // 按词书配置加载书信息、已备词条与干扰项：
+    // 缓存命中先 boot；主数据一到就 boot，不等其它文件；各资源独立重试与报错。
+    function loadBookBundle(config, done) {
+      const bookKey = `book-${config.id}-0`;
+      const distractorKey = `book-${config.id}-2`;
+      const bookLabel = config.bookFile.replace(/^\.\//, "");
+      const distractorLabel = (config.distractorsFile || "").replace(/^\.\//, "");
+      const preparedFiles = Array.isArray(config.preparedFiles) ? config.preparedFiles : [];
+      const preparedSlots = readCachedPrepared(config);
+      const bookCache = readCache(config.bookFile);
+      const distractorCache = readCache(config.distractorsFile);
+      let bookData = bookCache && Array.isArray(bookCache.entries) ? bookCache : null;
+      let distractorData = distractorCache && Array.isArray(distractorCache.groups) ? distractorCache : null;
+      let booted = false;
+
+      const collectPrepared = () => {
+        const list = [];
+        preparedSlots.forEach((slot) => {
+          if (Array.isArray(slot)) list.push(...slot);
+        });
+        return list.length ? list.filter((item) => item && item.word) : null;
+      };
+
+      const deliver = () => {
+        // 主数据是首屏必需项；没有它就不拿半套数据启动
+        if (!bookData) return;
+        applyBookData(bookData || config.fallback || BOOK_FALLBACK, collectPrepared(), distractorData);
+        if (!booted) {
+          booted = true;
+          if (typeof done === "function") done();
           return;
         }
-        reportLoadError(key, file.replace(/^\.\//, ""), (result.reason && result.reason.message) || "加载失败", () => {
-          loadBookBundle(config, afterBookRetry);
-        });
-      });
-      if (!fulfilled.length) return null;
-      return fulfilled
-        .flatMap((item) => (Array.isArray(item.value) ? item.value : []))
-        .filter((item) => item && item.word);
-    }
-
-    // 词书数据重试后：已启动就只重绘，未启动才走完整 boot，避免打断进行中的学习
-    function afterBookRetry() {
-      if (appStarted) {
-        saveState();
-        renderAll();
-      } else {
-        boot();
-      }
-    }
-
-    // 按词书配置加载书信息、深度词条与干扰项；缺失项逐项提示且可用兜底继续
-    function loadBookBundle(config, done) {
-      const labels = {};
-      labels[0] = [config.bookFile, "词书主数据"];
-      labels[2] = [config.distractorsFile, "干扰项数据"];
-      const fail = (index, reason) => {
-        const entry = labels[index];
-        if (!entry) return;
-        const key = `book-${config.id}-${index}`;
-        reportLoadError(key, entry[0].replace(/^\.\//, ""), reason, () => loadBookBundle(config, afterBookRetry));
+        if (appStarted) {
+          // 只在首页静默刷新；学习/复习中重绘会清掉已输入内容
+          if (viewMode === "home") {
+            saveState();
+            renderAll();
+          }
+        }
       };
-      return Promise.allSettled([
-        fetchJson(config.bookFile),
-        fetchPreparedFiles(config),
-        fetchJson(config.distractorsFile)
-      ]).then((results) => {
-        const value = (index) => (results[index].status === "fulfilled" ? results[index].value : null);
-        results.forEach((result, index) => {
-          const key = `book-${config.id}-${index}`;
-          if (result.status === "rejected") fail(index, (result.reason && result.reason.message) || "加载失败");
-          else clearLoadError(key);
+
+      // 缓存命中：不赌网络，先把页面拉起来
+      deliver();
+
+      // 主数据：用自己的重试/镜像链路，成功后才 boot
+      let realBookLoaded = Boolean(bookData);
+      const loadBook = () => {
+        fetchJson(config.bookFile).then((data) => {
+          if (data && Array.isArray(data.entries)) {
+            bookData = data;
+            realBookLoaded = true;
+          }
+          clearLoadError(bookKey);
+          deliver();
+        }).catch((error) => {
+          // 已有缓存/真数据时，后台刷新失败不打扰用户
+          if (realBookLoaded) {
+            clearLoadError(bookKey);
+            return;
+          }
+          bookData = config.fallback || BOOK_FALLBACK;
+          deliver();
+          reportLoadError(bookKey, bookLabel, (error && error.message) || "加载失败", loadBook);
         });
-        applyBookData(value(0) || config.fallback, value(1), value(2));
-        // 首批深度词条缺失不影响整本词表；逐词内容仍由 books/deep 分片按需加载
-        if (typeof done === "function") done();
-      }).catch(() => {
-        applyBookData(config.fallback || BOOK_FALLBACK, null, null);
-        preparedEntries = [];
-        if (typeof done === "function") done();
+      };
+      loadBook();
+
+      // 已备词条：每个文件独立重试，单个失败不阻塞首屏
+      preparedFiles.forEach((file, index) => {
+        const key = `prepared-${config.id}-${index}`;
+        const label = file.replace(/^\.\//, "");
+        const loadOne = () => {
+          fetchJson(file).then((data) => {
+            if (Array.isArray(data)) preparedSlots[index] = data;
+            clearLoadError(key);
+            deliver();
+          }).catch((error) => {
+            if (Array.isArray(preparedSlots[index])) {
+              clearLoadError(key);
+              return;
+            }
+            reportLoadError(key, label, (error && error.message) || "加载失败", loadOne);
+          });
+        };
+        loadOne();
       });
+
+      // 干扰项：可选数据，晚到或失败都不影响首屏
+      const loadDistractors = () => {
+        fetchJson(config.distractorsFile).then((data) => {
+          if (data && Array.isArray(data.groups)) distractorData = data;
+          clearLoadError(distractorKey);
+          deliver();
+        }).catch((error) => {
+          if (distractorData) {
+            clearLoadError(distractorKey);
+            return;
+          }
+          reportLoadError(distractorKey, distractorLabel, (error && error.message) || "加载失败", loadDistractors);
+        });
+      };
+      loadDistractors();
     }
 
     // 切换词书：清空当日新学队列，按新词书重新抽词；选择结果随存档持久化
