@@ -1294,6 +1294,7 @@
   width: 100%;
   height: 100%;
   display: block;
+  isolation: isolate;
   animation: lz-lizz-bob 4.2s ease-in-out infinite;
   transform-origin: 50% 90%;
 }
@@ -1312,8 +1313,7 @@
   position: absolute;
   inset: 0;
   pointer-events: none;
-  opacity: 0;
-  transition: opacity 0.25s ease;
+  opacity: 1;
 }
 
 .lz-lizz-accessory.is-on {
@@ -1322,9 +1322,16 @@
 
 .lz-lizz-accessory svg,
 .lz-acc-svg {
+  position: absolute;
+  inset: 0;
   display: block;
   width: 100%;
   height: 100%;
+}
+
+/* 翅膀画在狐狸身体后面，只从两侧露出来 */
+.lz-acc-wings {
+  z-index: -1;
 }
 
 .lz-lizz-figure > .lz-fox-svg {
@@ -1943,6 +1950,7 @@ body.lz-shop-open {
   flex: none;
   width: 88px;
   height: 88px;
+  isolation: isolate;
 }
 
 .lz-shop-bigfox .lz-fox-svg {
@@ -1957,26 +1965,71 @@ body.lz-shop-open {
   pointer-events: none;
 }
 
+.lz-shop-bigacc svg {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.lz-shop-current {
+  flex: 1;
+  min-width: 0;
+}
+
 .lz-shop-current p {
-  margin: 0 0 2px;
+  margin: 0 0 4px;
   font-size: 10px;
   color: #9a8a70;
 }
 
-.lz-shop-current b {
-  display: block;
-  font-size: 14px;
+.lz-shop-wearing {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 3px 10px;
+}
+
+.lz-shop-wear {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  min-width: 0;
+}
+
+.lz-shop-wear-slot {
+  flex: none;
+  font-size: 9px;
+  color: #a2947d;
+}
+
+.lz-shop-wear-name {
+  flex: 1;
+  min-width: 0;
+  font-size: 10.5px;
   color: #2b3446;
+  font-weight: 700;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.lz-shop-wear-name.is-empty {
+  color: #b3a68f;
+  font-weight: 400;
 }
 
 .lz-shop-unequip {
-  margin-top: 6px;
-  padding: 3px 9px;
+  flex: none;
+  width: 15px;
+  height: 15px;
+  padding: 0;
   border: 1px solid #d9d0bf;
-  border-radius: 8px;
+  border-radius: 50%;
   background: #fff;
-  color: #7a6d5b;
+  color: #8a7a63;
   font-size: 10px;
+  line-height: 1;
   cursor: pointer;
   font-family: inherit;
 }

@@ -25,13 +25,15 @@
 
   let lastTickAt = 0;
   let panel = null;
-  let activeCategory = "all";    // all | accessory | outfit | owned
+  let activeCategory = "all";    // all | accessory | outfit | wings | handheld | owned
   let activeRarity = "all";      // all | common | rare | epic | legendary
   let activeRoute = "all";       // all | school | daily | glam | abstract（仅衣服）
   let pageIndex = 0;
   let pendingBuyId = "";
   let pendingTimer = null;
   let lastFocus = null;
+
+  const SLOT_KEYS = ["accessory", "outfit", "wings", "handheld"];
 
   function todayKey() {
     return S.dateKeyOf();
@@ -44,14 +46,36 @@
     return n;
   }
 
+  // 四个部位各自独立；旧存档里的 equipped 字符串按物品类别迁移到对应槽
+  function normalizeSlots(src, owned) {
+    const slots = { accessory: "", outfit: "", wings: "", handheld: "" };
+    const accept = (slot, id) => {
+      const key = String(id || "");
+      if (!owned.includes(key)) return;
+      const item = ACC.byId.get(key);
+      if (!item || item.category !== slot) return;
+      slots[slot] = key;
+    };
+    if (src.slots && typeof src.slots === "object") {
+      SLOT_KEYS.forEach((slot) => accept(slot, src.slots[slot]));
+    } else if (typeof src.equipped === "string" && src.equipped) {
+      const item = ACC.byId.get(src.equipped);
+      if (item) accept(item.category, src.equipped);
+    }
+    return slots;
+  }
+
+  // 保留 equipped 字符串镜像，兼容只认识旧字段的云同步逻辑
+  function mirrorEquipped(slots) {
+    return slots.accessory || slots.outfit || slots.wings || slots.handheld || "";
+  }
+
   function normalizeShop(raw) {
     const src = raw && typeof raw === "object" ? raw : {};
     const owned = Array.isArray(src.owned)
       ? Array.from(new Set(src.owned.map((id) => String(id || "")).filter((id) => ACC.byId.has(id))))
       : [];
-    const equipped = (typeof src.equipped === "string" && owned.includes(src.equipped))
-      ? src.equipped
-      : "";
+    const slots = normalizeSlots(src, owned);
     const words = src.words && typeof src.words === "object" ? src.words : {};
     const review = src.review && typeof src.review === "object" ? src.review : {};
     const feed = src.feed && typeof src.feed === "object" ? src.feed : {};
@@ -63,7 +87,8 @@
     return {
       points: clampInt(src.points, 0, 999999),
       owned,
-      equipped,
+      slots,
+      equipped: mirrorEquipped(slots),
       words: {
         date: typeof words.date === "string" ? words.date : "",
         lastWords: clampInt(words.lastWords, 0, 999999),
@@ -131,6 +156,8 @@
       owned: shop.owned.length,
       total: ACC.items.length,
       equipped: shop.equipped,
+      slots: shop.slots,
+      wearing: SLOT_KEYS.filter((slot) => shop.slots[slot]).length,
       todayEarned: todayEarned(shop)
     };
   }
@@ -254,7 +281,8 @@
 
     shop.points -= item.price;
     shop.owned.push(item.id);
-    shop.equipped = item.id;
+    shop.slots[item.category] = item.id;
+    shop.equipped = mirrorEquipped(shop.slots);
     writeShop(shop);
     applyAccessory();
     notifyChanged();
@@ -262,18 +290,29 @@
   }
 
   function equipItem(id) {
+    const item = ACC.byId.get(String(id || ""));
+    if (!item) return false;
     const shop = readShop();
-    if (!shop.owned.includes(id)) return false;
-    shop.equipped = id;
+    if (!shop.owned.includes(item.id)) return false;
+    shop.slots[item.category] = item.id;
+    shop.equipped = mirrorEquipped(shop.slots);
     writeShop(shop);
     applyAccessory();
     notifyChanged();
     return true;
   }
 
-  function unequipItem() {
+  // 传部位名只摘该部位；不传则四个部位一起摘
+  function unequipItem(slot) {
     const shop = readShop();
-    shop.equipped = "";
+    if (typeof slot === "string" && shop.slots[slot]) {
+      shop.slots[slot] = "";
+    } else if (typeof slot !== "string") {
+      SLOT_KEYS.forEach((key) => { shop.slots[key] = ""; });
+    } else {
+      return false;
+    }
+    shop.equipped = mirrorEquipped(shop.slots);
     writeShop(shop);
     applyAccessory();
     notifyChanged();
@@ -328,18 +367,26 @@
   }
 
   /* ===== 角落狐狸佩戴 ===== */
-  function accessorySVG(id) {
+  function layerSVG(id, slot) {
     const item = ACC.byId.get(String(id || ""));
     if (!item) return "";
-    return `<svg class="lz-acc-svg" viewBox="0 0 100 100" aria-hidden="true" focusable="false">${item.svg}</svg>`;
+    return `<svg class="lz-acc-svg lz-acc-${slot}" viewBox="0 0 100 100" aria-hidden="true" focusable="false">${item.svg}</svg>`;
+  }
+
+  // 从后到前：翅膀 → 身体（衣服基座）→ 手持物 → 头部配饰
+  function layersHTML(slots) {
+    return ["wings", "outfit", "handheld", "accessory"]
+      .map((slot) => (slots[slot] ? layerSVG(slots[slot], slot) : ""))
+      .join("");
   }
 
   function applyAccessory() {
     const shop = readShop();
+    const html = layersHTML(shop.slots);
     const holders = document.querySelectorAll("#lzLizzAccessory");
     Array.prototype.forEach.call(holders, (holder) => {
-      holder.innerHTML = shop.equipped ? accessorySVG(shop.equipped) : "";
-      holder.classList.toggle("is-on", Boolean(shop.equipped));
+      holder.innerHTML = html;
+      holder.classList.toggle("is-on", Boolean(html));
     });
     if (panel && !panel.hidden) render();
   }
@@ -365,7 +412,7 @@
 
         <div class="lz-shop-wallet">
           <div class="lz-shop-balance"><span>积分</span><b id="lzShopPoints">0</b></div>
-          <div class="lz-shop-owned"><span>已收集</span><b id="lzShopOwned">0/100</b></div>
+          <div class="lz-shop-owned"><span>已收集</span><b id="lzShopOwned">0/200</b></div>
           <div class="lz-shop-earn" id="lzShopEarn">今日已赚 0</div>
         </div>
 
@@ -376,8 +423,7 @@
           </div>
           <div class="lz-shop-current">
             <p>Lizz 现在戴着</p>
-            <b id="lzShopEquippedName">什么也没戴</b>
-            <button type="button" class="lz-shop-unequip" id="lzShopUnequip" hidden>摘下</button>
+            <div class="lz-shop-wearing" id="lzShopWearing"></div>
           </div>
         </div>
 
@@ -404,9 +450,8 @@
     const pointsEl = panel.querySelector("#lzShopPoints");
     const ownedEl = panel.querySelector("#lzShopOwned");
     const earnEl = panel.querySelector("#lzShopEarn");
-    const nameEl = panel.querySelector("#lzShopEquippedName");
+    const wearingEl = panel.querySelector("#lzShopWearing");
     const bigAcc = panel.querySelector("#lzShopBigAcc");
-    const unequipBtn = panel.querySelector("#lzShopUnequip");
 
     if (pointsEl) pointsEl.textContent = String(shop.points);
     if (ownedEl) ownedEl.textContent = `${shop.owned.length}/${ACC.items.length}`;
@@ -415,23 +460,37 @@
       earnEl.textContent = earned > 0 ? `今日已赚 +${earned}` : "今日已赚 0";
     }
 
-    const equippedItem = ACC.byId.get(shop.equipped);
-    if (nameEl) nameEl.textContent = equippedItem ? equippedItem.name : "什么也没戴";
-    if (bigAcc) bigAcc.innerHTML = shop.equipped ? accessorySVG(shop.equipped) : "";
-    if (unequipBtn) unequipBtn.hidden = !equippedItem;
+    if (wearingEl) {
+      wearingEl.innerHTML = SLOT_KEYS.map((slot) => {
+        const item = ACC.byId.get(shop.slots[slot]);
+        const label = ACC.CATEGORY_LABELS[slot];
+        return `<div class="lz-shop-wear">
+          <span class="lz-shop-wear-slot">${label}</span>
+          <b class="lz-shop-wear-name${item ? "" : " is-empty"}" title="${item ? item.name : ""}">${item ? item.name : "未佩戴"}</b>
+          ${item ? `<button type="button" class="lz-shop-unequip" data-shop-unequip="${slot}" aria-label="摘下${label}：${item.name}">×</button>` : ""}
+        </div>`;
+      }).join("");
+    }
+    if (bigAcc) bigAcc.innerHTML = layersHTML(shop.slots);
 
     renderFilters(shop);
     renderGrid(shop);
     if (focusKey) {
       const back = panel.querySelector(focusKey);
-      if (back) back.focus({ preventScroll: true });
+      if (back && !back.disabled) {
+        back.focus({ preventScroll: true });
+      } else {
+        // 翻到最后一页时“下一页”会变成 disabled，焦点退回仍可用的翻页键 / 卡片
+        const fallback = panel.querySelector(".lz-shop-page-btn:not([disabled])") || panel.querySelector("[data-shop-item]");
+        if (fallback) fallback.focus({ preventScroll: true });
+      }
     }
   }
 
   // 重绘后把焦点还给同一个筛选按钮，避免积分刷新时键盘焦点被吃掉
   function focusSelectorOf(el) {
     if (!el || !panel || !panel.contains(el) || typeof el.getAttribute !== "function") return "";
-    const pairs = ["data-shop-cat", "data-shop-rarity", "data-shop-route", "data-shop-page"];
+    const pairs = ["data-shop-cat", "data-shop-rarity", "data-shop-route", "data-shop-page", "data-shop-unequip", "data-shop-item"];
     for (let i = 0; i < pairs.length; i += 1) {
       const value = el.getAttribute(pairs[i]);
       if (value !== null) return `[${pairs[i]}="${value}"]`;
@@ -472,11 +531,12 @@
     if (catWrap) {
       const catCounts = {
         all: ACC.items.length,
-        accessory: ACC.items.filter((item) => item.category === "accessory").length,
-        outfit: ACC.items.filter((item) => item.category === "outfit").length,
         owned: shop.owned.length
       };
-      const catKeys = ["all", "accessory", "outfit", "owned"];
+      ["accessory", "outfit", "wings", "handheld"].forEach((key) => {
+        catCounts[key] = ACC.items.filter((item) => item.category === key).length;
+      });
+      const catKeys = ["all", "accessory", "outfit", "wings", "handheld", "owned"];
       catWrap.innerHTML = catKeys.map((key) => shopChip(
         "data-shop-cat",
         key,
@@ -526,7 +586,7 @@
 
   function itemAction(item, shop) {
     const owned = shop.owned.includes(item.id);
-    const equipped = shop.equipped === item.id;
+    const equipped = shop.slots[item.category] === item.id;
     if (equipped) return { text: "佩戴中 · 摘下", cls: "is-equipped" };
     if (owned) return { text: "戴上", cls: "is-owned" };
     if (pendingBuyId === item.id) return { text: `确认兑换 · ${item.price}`, cls: "is-pending" };
@@ -557,12 +617,11 @@
     grid.innerHTML = pageItems.map((item) => {
       const rarity = ACC.RARITY[item.rarity];
       const owned = shop.owned.includes(item.id);
-      const equipped = shop.equipped === item.id;
+      const equipped = shop.slots[item.category] === item.id;
       const action = itemAction(item, shop);
-      const meta = item.category === "outfit" && item.route
-        ? `${rarity.label} · ${ACC.ROUTES[item.route]}`
-        : rarity.label;
-      const figure = item.category === "outfit" ? ACC.figureFragment : ACC.headFragment;
+      const routeText = item.category === "outfit" && item.route ? ` · ${ACC.ROUTES[item.route]}` : "";
+      const statusText = equipped ? " · 佩戴中" : (owned ? " · 已拥有" : "");
+      const meta = `${rarity.label}${routeText}${statusText}`;
       const classes = [
         "lz-shop-card",
         `rarity-${item.rarity}`,
@@ -572,7 +631,7 @@
       ].filter(Boolean).join(" ");
       return `<button type="button" class="${classes}" data-shop-item="${item.id}" title="${item.hint}">
         <span class="lz-shop-thumb">
-          <svg viewBox="0 0 100 100" aria-hidden="true" focusable="false">${figure}${item.svg}</svg>
+          <svg viewBox="0 0 100 100" aria-hidden="true" focusable="false">${ACC.thumbOf(item)}</svg>
         </span>
         <span class="lz-shop-info">
           <span class="lz-shop-name">${item.name}</span>
@@ -636,15 +695,14 @@
       pageIndex += Number(pageBtn.getAttribute("data-shop-page")) || 0;
       pendingBuyId = "";
       render();
-      const valid = panel.querySelector(`[data-shop-page]:not([disabled])`);
-      if (valid) valid.focus({ preventScroll: true });
       const grid = panel.querySelector("#lzShopGrid");
       if (grid) grid.scrollIntoView({ block: "nearest" });
       return;
     }
 
-    if (event.target.closest("#lzShopUnequip")) {
-      unequipItem();
+    const unequipBtn = event.target.closest("[data-shop-unequip]");
+    if (unequipBtn) {
+      unequipItem(unequipBtn.getAttribute("data-shop-unequip"));
       return;
     }
 
@@ -659,8 +717,8 @@
     if (!item) return;
     const shop = readShop();
 
-    if (shop.equipped === item.id) {
-      unequipItem();
+    if (shop.slots[item.category] === item.id) {
+      unequipItem(item.category);
       return;
     }
     if (shop.owned.includes(item.id)) {
