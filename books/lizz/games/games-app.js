@@ -1,6 +1,6 @@
 /* ============================================================
    LIZZWORD · 小游戏入口与路由
-   首页 → 选择游戏；#match / #flash
+   首页 → 选择游戏；#match / #flash / #scramble / #listen
    ============================================================ */
 (function () {
   "use strict";
@@ -34,6 +34,19 @@
     flash: `
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
         <path d="M13.2 2.5 5.8 13.2h5.1l-1 8.3 7.3-10.7h-5.1l1.1-8.3Z"/>
+      </svg>`,
+    scramble: `
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round">
+        <rect x="2.5" y="3.5" width="8.4" height="8.4" rx="2"/>
+        <rect x="13.1" y="3.5" width="8.4" height="8.4" rx="2" fill="#fff8ec"/>
+        <rect x="2.5" y="13.1" width="8.4" height="8.4" rx="2" fill="#fff8ec"/>
+        <rect x="13.1" y="13.1" width="8.4" height="8.4" rx="2"/>
+      </svg>`,
+    listen: `
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M4 9.3v5.4h3.1l4.2 3.4V5.9L7.1 9.3H4Z"/>
+        <path d="M14.8 9.2a4.1 4.1 0 0 1 0 5.6"/>
+        <path d="M17.6 6.6a7.6 7.6 0 0 1 0 10.8"/>
       </svg>`
   };
 
@@ -81,7 +94,7 @@
         ${FOX}
         <div>
           <h1>单词小游戏</h1>
-          <p>两款轻量小游戏，单局 3–5 分钟。围着词义回忆反复练习，不打断原有背词节奏。</p>
+          <p>四款轻量小游戏，单局 3–5 分钟。围着词义回忆与拼写反复练习，不打断原有背词节奏。</p>
         </div>
       </div>
       <div class="lzg-games">${cards}</div>
