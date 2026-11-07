@@ -40,6 +40,7 @@
   let initialized = false;
   let autoTimer = null;
   let pendingBubble = null;
+  let vanishTimer = null;
 
   function esc(value) {
     return String(value == null ? "" : value)
@@ -72,10 +73,12 @@
       <div class="lz-lizz-avatar">
         ${PHOTO_URL ? `<img class="lz-lizz-photo" src="${esc(PHOTO_URL)}" alt="Lizz" hidden>` : ""}
         ${S.FOX_SVG || ""}
-      </div>`;
+      </div>
+      <div class="lz-lizz-bowl" aria-hidden="true" data-food="0">${S.BOWL_SVG || ""}</div>`;
     document.body.appendChild(el);
     widget = el;
     bubble = el.querySelector("#lzLizzBubble");
+    renderFood(false);
 
     const photo = el.querySelector(".lz-lizz-photo");
     if (photo) bindPhoto(el, photo);
@@ -138,7 +141,7 @@
 
   function showWidget() {
     if (!state || !state.tutorialDone || state.mode !== "active" || TUT.isOpen()) return;
-    if (!appHomeVisible()) return;
+    if (!appVisibleForLizz()) return;
     buildWidget();
     if (!widget.hidden) return;
     widget.hidden = false;
@@ -154,6 +157,10 @@
 
   function hideWidget() {
     if (!widget) return;
+    if (vanishTimer) {
+      clearTimeout(vanishTimer);
+      vanishTimer = null;
+    }
     widget.classList.remove("is-in", "is-vanishing");
     widget.hidden = true;
     if (bubble) {
@@ -175,12 +182,43 @@
     return style.display !== "none" && style.visibility !== "hidden";
   }
 
+  /* 完成页（“学习完成”）也算主界面，Lizz 会在这里出现并夸奖 */
+  function appDoneVisible() {
+    const study = document.getElementById("view-study");
+    if (!study || study.hidden) return false;
+    const style = window.getComputedStyle(study);
+    if (style.display === "none" || style.visibility === "hidden") return false;
+    return Boolean(study.querySelector("[data-next-group]"));
+  }
+
+  function appVisibleForLizz() {
+    return appHomeVisible() || appDoneVisible();
+  }
+
   function syncVisibility() {
     if (!state) return;
     if (hiding) return;
-    const shouldShow = state.tutorialDone && state.mode === "active" && !TUT.isOpen() && appHomeVisible();
+    const shouldShow = state.tutorialDone && state.mode === "active" && !TUT.isOpen() && appVisibleForLizz();
     if (shouldShow) showWidget();
     else hideWidget();
+  }
+
+  /* 碗里的食物：state.food 记份数（上限 S.FOOD_CAP），最多画 3 份 */
+  function renderFood(animate) {
+    if (!widget) return;
+    const bowl = widget.querySelector(".lz-lizz-bowl");
+    if (!bowl) return;
+    const count = state ? Number(state.food) || 0 : 0;
+    const shown = Math.min(3, count);
+    bowl.setAttribute("data-food", String(count));
+    Array.prototype.forEach.call(bowl.querySelectorAll(".lz-food"), (el, index) => {
+      el.style.display = index >= shown ? "none" : "";
+    });
+    if (animate && shown > 0) {
+      bowl.classList.remove("is-pop");
+      void bowl.offsetWidth;
+      bowl.classList.add("is-pop");
+    }
   }
 
   /* ============================================================
@@ -237,7 +275,7 @@
   /* 不在主界面时先存着，等 Lizz 真正可见再冒泡 */
   function ruleBubble(lines, duration) {
     const face = S.pickFace(state, Math.random);
-    if (!widget || widget.hidden || !appHomeVisible() || TUT.isOpen()) {
+    if (!widget || widget.hidden || !appVisibleForLizz() || TUT.isOpen()) {
       pendingBubble = { lines: (lines || []).slice(), duration: duration, face: face };
       return;
     }
@@ -253,7 +291,19 @@
     if (locked) return;
 
     burst += 1;
-    faceBubble(2400);
+    if (state.thanksPending) {
+      // 完成一组后的第一次点击：开心道谢 + 鼓励继续
+      state.thanksPending = false;
+      S.save(state);
+      const line = pickLine(S.LINES.groupThanks, "lastThanks");
+      showBubbleHTML(
+        `<span class="lz-bubble-face">${esc(S.pickFace(state, Math.random))}</span><span class="lz-bubble-line lz-bubble-rule">${esc(line)}</span>`,
+        4600,
+        true
+      );
+    } else {
+      faceBubble(2400);
+    }
     if (burstTimer) clearTimeout(burstTimer);
 
     if (burst >= 10) {
@@ -291,7 +341,7 @@
     burst = 0;
     state = S.setMode(state, "hidden", { softHideCount: (state.softHideCount || 0) + 1 });
     linesBubble(S.LINES.softHide, SOFT_RULE_MS);
-    setTimeout(() => vanish(), SOFT_RULE_MS);
+    vanishTimer = setTimeout(() => { vanishTimer = null; vanish(); }, SOFT_RULE_MS);
   }
 
   function beginGone() {
@@ -305,7 +355,7 @@
     burst = 0;
     state = S.setMode(state, "gone", { goneCount: (state.goneCount || 0) + 1 });
     linesBubble(S.LINES.gone, GONE_RULE_MS);
-    setTimeout(() => vanish(), GONE_RULE_MS);
+    vanishTimer = setTimeout(() => { vanishTimer = null; vanish(); }, GONE_RULE_MS);
   }
 
   function vanish() {
@@ -336,6 +386,75 @@
     locked = false;
     syncVisibility();
     ruleBubble(S.LINES.returned, 3800);
+  }
+
+  /* ============================================================
+     完成一组学习：沿用主页面 finishToday() 写入的 groupsToday 增量，
+     不自己另造“完成”判定
+     ============================================================ */
+  function pickLine(list, field) {
+    if (!list || !list.length) return "";
+    let index = Math.floor(Math.random() * list.length);
+    if (state[field] === index) index = (index + 1) % list.length;
+    state[field] = index;
+    S.save(state);
+    return list[index];
+  }
+
+  function checkGroupProgress() {
+    if (!state) return;
+    const progress = S.readAppProgress();
+    if (!progress || !progress.date) return;
+    if (!state.groupSeen) {
+      // 第一次挂载：只记基线，不为历史上的完成补夸奖
+      state.groupSeen = { date: progress.date, groupsToday: progress.groupsToday };
+      S.save(state);
+      return;
+    }
+    if (state.groupSeen.date !== progress.date) {
+      state.groupSeen = { date: progress.date, groupsToday: progress.groupsToday };
+      S.save(state);
+      return;
+    }
+    if (progress.groupsToday >= state.groupSeen.groupsToday + 1) {
+      state.groupSeen.groupsToday = progress.groupsToday;
+      onGroupCompleted();
+    }
+  }
+
+  function onGroupCompleted() {
+    if (!state) return;
+    state.food = Math.min(S.FOOD_CAP, (Number(state.food) || 0) + 1);
+    state.praiseAt = new Date().toISOString();
+    if (state.mode === "gone") {
+      // 10 连点规则优先：次日前不出现；食物照样记进碗里，等她回来再看见
+      S.save(state);
+      renderFood(true);
+      return;
+    }
+    if (state.mode === "hidden") {
+      // 3 连点隐藏态：完成一组就是“背完 10 个词”的兑现时机，直接回归
+      state.mode = "active";
+      state.hiddenAt = "";
+      state.hiddenBaseline = null;
+      state.goneUntil = "";
+    }
+    hiding = false;
+    locked = false;
+    burst = 0;
+    if (burstTimer) {
+      clearTimeout(burstTimer);
+      burstTimer = null;
+    }
+    if (vanishTimer) {
+      clearTimeout(vanishTimer);
+      vanishTimer = null;
+    }
+    state.thanksPending = true;
+    S.save(state);
+    renderFood(true);
+    syncVisibility();
+    ruleBubble([pickLine(S.LINES.groupPraise, "lastPraise")], 5200);
   }
 
   /* ============================================================
@@ -390,6 +509,7 @@
         return;
       }
     }
+    checkGroupProgress();
     syncVisibility();
   }
 
@@ -458,7 +578,7 @@
     usePhoto,
     hidePhoto,
     photoUrl: () => (typeof S.photoUrl === "function" ? S.photoUrl() : ""),
-    version: "1.0.1",
+    version: "1.0.2",
     _test: {
       click: onCharacterClick,
       resolveBurst,

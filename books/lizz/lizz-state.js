@@ -98,7 +98,23 @@
     finish: [
       "走完了…！",
       "五步都走完了。你比我想的厉害。",
-      "以后我就待在右下角。点我一下，我会冒个颜文字。"
+      "以后我就待在左下角。点我一下，我会冒个颜文字。"
+    ],
+    groupPraise: [
+      "你、你学完了…！我一直在这边看着。",
+      "这一组结束了…你比刚才稳多了。真的。",
+      "完成了…我、我有点替你高兴。",
+      "你坚持下来了…我在角落里记着呢。",
+      "一组学完啦…我、我想给你鼓个掌。",
+      "刚才你特别专注…我都不敢出声。"
+    ],
+    groupThanks: [
+      "谢谢你…愿意让我待在旁边。下一组，我还在。",
+      "被你想起来…我很开心。我们一点点继续，好吗？",
+      "谢谢你还点了我一下…我会一直陪着的。",
+      "这声谢谢…我收下了。你慢慢学，不用急。",
+      "你愿意继续，我就愿意等。下一组见，好吗？",
+      "谢谢你…今天也辛苦了。再来一点点就好。"
     ],
     softHide: [
       "我…先躲起来。",
@@ -113,7 +129,7 @@
       "你背完了。我看见了。"
     ],
     stay: [
-      "以后我就待在右下角。",
+      "以后我就待在左下角。",
       "点我一下就好。"
     ],
     click: [
@@ -162,6 +178,32 @@
 
   window.LIZZWORD_LIZZ_FOX_SVG = FOX_SVG;
 
+  /* ===== 简笔小碗 =====
+     默认是空的；每完成一组学习加一份食物（上限 FOOD_CAP 份，点击不消耗）。
+     碗里最多显示 3 份，超出部分只记在状态里。 */
+  const FOOD_CAP = 5;
+  const BOWL_SVG = `
+    <svg viewBox="0 0 48 34" class="lz-bowl-svg" role="img" aria-label="Lizz 的小碗">
+      <ellipse cx="24" cy="31" rx="15" ry="2.6" fill="#e8edf6"/>
+      <path d="M6 12h36c0 9-7 15-18 15S6 21 6 12z" fill="#fffaf2" stroke="#4a3b32" stroke-width="2" stroke-linejoin="round"/>
+      <g class="lz-food lz-food-1" transform="translate(9 6)">
+        <path d="M0 3c2.4-3.6 6.2-3.6 8.6 0-2.4 3.6-6.2 3.6-8.6 0z" fill="#f4b26f" stroke="#4a3b32" stroke-width="1.5" stroke-linejoin="round"/>
+        <path d="M0 3l-3.2-2.2v4.4z" fill="#f4b26f" stroke="#4a3b32" stroke-width="1.5" stroke-linejoin="round"/>
+        <circle cx="6" cy="2.1" r=".65" fill="#4a3b32"/>
+      </g>
+      <g class="lz-food lz-food-2" transform="translate(18 5)">
+        <path d="M0 3c2.4-3.6 6.2-3.6 8.6 0-2.4 3.6-6.2 3.6-8.6 0z" fill="#f4b26f" stroke="#4a3b32" stroke-width="1.5" stroke-linejoin="round"/>
+        <path d="M0 3l-3.2-2.2v4.4z" fill="#f4b26f" stroke="#4a3b32" stroke-width="1.5" stroke-linejoin="round"/>
+        <circle cx="6" cy="2.1" r=".65" fill="#4a3b32"/>
+      </g>
+      <g class="lz-food lz-food-3" transform="translate(27 6.6)">
+        <path d="M0 3c2.4-3.6 6.2-3.6 8.6 0-2.4 3.6-6.2 3.6-8.6 0z" fill="#f4b26f" stroke="#4a3b32" stroke-width="1.5" stroke-linejoin="round"/>
+        <path d="M0 3l-3.2-2.2v4.4z" fill="#f4b26f" stroke="#4a3b32" stroke-width="1.5" stroke-linejoin="round"/>
+        <circle cx="6" cy="2.1" r=".65" fill="#4a3b32"/>
+      </g>
+      <ellipse cx="24" cy="12" rx="18" ry="4.6" fill="#fffaf2" stroke="#4a3b32" stroke-width="2"/>
+    </svg>`;
+
   function pad(n) {
     return String(n).padStart(2, "0");
   }
@@ -190,6 +232,12 @@
       lastFace: -1,
       softHideCount: 0,
       goneCount: 0,
+      food: 0,                 // 碗里食物份数（0–FOOD_CAP，点击不消耗）
+      groupSeen: null,         // { date, groupsToday }：识别“又完成了一组”
+      thanksPending: false,    // 完成一组后等用户点一下道谢
+      praiseAt: "",
+      lastPraise: -1,
+      lastThanks: -1,
       updatedAt: ""
     };
   }
@@ -200,6 +248,15 @@
       date: typeof value.date === "string" ? value.date : "",
       groupsToday: Number(value.groupsToday) || 0,
       wordsToday: Number(value.wordsToday) || 0
+    };
+  }
+
+  function normalizeGroupSeen(value) {
+    if (!value || typeof value !== "object") return null;
+    if (typeof value.date !== "string" || !value.date) return null;
+    return {
+      date: value.date,
+      groupsToday: Number(value.groupsToday) || 0
     };
   }
 
@@ -264,6 +321,12 @@
     state.softHideCount = Number(state.softHideCount) || 0;
     state.goneCount = Number(state.goneCount) || 0;
     state.hiddenBaseline = normalizeBaseline(state.hiddenBaseline);
+    state.food = Math.min(FOOD_CAP, Math.max(0, Number(state.food) || 0));
+    state.groupSeen = normalizeGroupSeen(state.groupSeen);
+    state.thanksPending = Boolean(state.thanksPending);
+    state.praiseAt = typeof state.praiseAt === "string" ? state.praiseAt : "";
+    state.lastPraise = Number.isInteger(state.lastPraise) ? state.lastPraise : -1;
+    state.lastThanks = Number.isInteger(state.lastThanks) ? state.lastThanks : -1;
     if (!["active", "hidden", "gone"].includes(state.mode)) state.mode = "active";
 
     let changed = false;
@@ -342,6 +405,8 @@
     FACES,
     LINES,
     FOX_SVG,
+    BOWL_SVG,
+    FOOD_CAP,
     dateKeyOf,
     tomorrowKey,
     readAppProgress,

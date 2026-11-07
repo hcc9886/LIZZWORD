@@ -1260,13 +1260,13 @@
 /* ---------- Lizz 角落常驻 ---------- */
 .lz-lizz {
   position: fixed;
-  right: 18px;
-  bottom: 18px;
+  left: calc(18px + env(safe-area-inset-left, 0px));
+  bottom: calc(18px + env(safe-area-inset-bottom, 0px));
   z-index: 55;
   width: 92px;
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
+  align-items: flex-start;
   cursor: pointer;
   user-select: none;
   -webkit-tap-highlight-color: transparent;
@@ -1315,6 +1315,42 @@
   50% { transform: translateY(-3px) rotate(0.5deg); }
 }
 
+/* ---------- Lizz 的小碗与食物 ---------- */
+.lz-lizz-bowl {
+  position: absolute;
+  left: calc(100% - 4px);
+  bottom: 3px;
+  width: 46px;
+  pointer-events: none;
+  transition: opacity 0.55s ease, transform 0.55s ease;
+  filter: drop-shadow(0 4px 6px rgba(120, 88, 52, 0.12));
+}
+
+.lz-bowl-svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.lz-lizz-bowl .lz-food {
+  transition: opacity 0.3s ease;
+}
+
+.lz-lizz-bowl.is-pop .lz-bowl-svg {
+  animation: lz-bowl-pop 0.4s ease both;
+}
+
+@keyframes lz-bowl-pop {
+  0% { transform: scale(1); }
+  45% { transform: scale(1.14) rotate(-2deg); }
+  100% { transform: scale(1); }
+}
+
+.lz-lizz.is-vanishing .lz-lizz-bowl {
+  opacity: 0;
+  transform: translateY(10px) scale(0.6);
+}
+
 .lz-lizz:hover .lz-lizz-avatar > * {
   animation-duration: 2.4s;
 }
@@ -1346,7 +1382,7 @@
 
 .lz-lizz-bubble {
   position: absolute;
-  right: 0;
+  left: 0;
   bottom: calc(100% + 3px);
   width: max-content;
   max-width: min(250px, calc(100vw - 40px));
@@ -1362,7 +1398,7 @@
 .lz-lizz-bubble::after {
   content: "";
   position: absolute;
-  right: 26px;
+  left: 28px;
   bottom: -6px;
   width: 10px;
   height: 10px;
@@ -1482,14 +1518,19 @@
   }
 
   .lz-lizz {
-    right: 12px;
-    bottom: 12px;
+    left: calc(12px + env(safe-area-inset-left, 0px));
+    bottom: calc(12px + env(safe-area-inset-bottom, 0px));
     width: 78px;
   }
 
   .lz-lizz-avatar {
     width: 70px;
     height: 70px;
+  }
+
+  .lz-lizz-bowl {
+    bottom: 2px;
+    width: 40px;
   }
 
   .lz-lizz-bubble {

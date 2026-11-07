@@ -65,6 +65,25 @@
     }
   };
 
+  /* 选择题两个方向共用一份“方向参数”：题干取哪个字段、选项取哪个字段，
+     都在这里定义，避免题干和选项各写各的又错开 */
+  const CHOICE_DIRECTIONS = {
+    stage2: {
+      promptField: "definition_zh",  // 题干：中文释义
+      optionField: "word",           // 选项：英文词形
+      label: "看中文，选出对应的英文",
+      sub: "只从 hello、bye、love 里选",
+      speak: false
+    },
+    stage2b: {
+      promptField: "word",           // 题干：英文词形
+      optionField: "definition_zh",  // 选项：中文释义
+      label: "看英文，选出对应的中文",
+      sub: "先听发音，再选意思",
+      speak: true
+    }
+  };
+
   let overlay = null;
   let runtime = null;
   let options = {};
@@ -531,17 +550,12 @@
       values: [],
       answerValue: ""
     };
-    if (stage === "stage2") {
-      current.answerValue = entry.definition_zh;
+    const dir = CHOICE_DIRECTIONS[stage];
+    if (dir) {
+      current.answerValue = entry[dir.optionField];
       current.values = shuffle([
-        entry.definition_zh,
-        ...WORDS.filter((item) => item.word !== entry.word).map((item) => item.definition_zh)
-      ]);
-    } else if (stage === "stage2b") {
-      current.answerValue = entry.word;
-      current.values = shuffle([
-        entry.word,
-        ...WORDS.filter((item) => item.word !== entry.word).map((item) => item.word)
+        entry[dir.optionField],
+        ...WORDS.filter((item) => item.word !== entry.word).map((item) => item[dir.optionField])
       ]);
     }
     runtime.highlight = 0;
@@ -670,21 +684,18 @@
         <div class="lz-prompt-note">先看完整个词条，不急着答题。</div>
         ${renderFullCard(entry)}`;
     }
-    if (current.stage === "stage2") {
+    const dir = CHOICE_DIRECTIONS[current.stage];
+    if (dir) {
+      const promptText = esc(entry[dir.promptField]);
+      const promptClass = dir.speak ? "lz-prompt lz-prompt-word" : "lz-prompt";
       return `
-        <div class="lz-quiz-label">看中文，选出对应的英文</div>
-        <div class="lz-prompt">${esc(entry.definition_zh)}</div>
-        <div class="lz-prompt-sub">只从 hello、bye、love 里选</div>`;
-    }
-    if (current.stage === "stage2b") {
-      return `
-        <div class="lz-quiz-label">看英文，选出对应的中文</div>
-        <div class="lz-prompt lz-prompt-word">
-          ${esc(entry.word)}
+        <div class="lz-quiz-label">${esc(dir.label)}</div>
+        <div class="${promptClass}">
+          ${promptText}${dir.speak ? `
           <span class="lz-ipa">英 ${esc(entry.ipa_uk)} · 美 ${esc(entry.ipa_us)}</span>
-          ${speakButton(entry.word, "en-US", "🔊 AI 朗读")}
+          ${speakButton(entry.word, "en-US", "🔊 AI 朗读")}` : ""}
         </div>
-        <div class="lz-prompt-sub">先听发音，再选意思</div>`;
+        <div class="lz-prompt-sub">${esc(dir.sub)}</div>`;
     }
     if (current.stage === "speak") {
       return `
