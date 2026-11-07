@@ -10,6 +10,30 @@
   const G = window.LZG;
   if (!G) return;
 
+  // 统一走 window.LZSpeech；未加载时直接按「语音不可用」处理，不再回落到旧 G.tts
+  const voice = window.LZSpeech || null;
+
+  function voiceOk() {
+    return Boolean(voice && voice.supported());
+  }
+
+  function voiceStop() {
+    if (voice) voice.cancel();
+  }
+
+  function voiceRead(text, opts) {
+    opts = opts || {};
+    if (!voice) {
+      if (opts.onFail) opts.onFail("unsupported");
+      return false;
+    }
+    opts.lang = "en-US";
+    opts.rate = 0.88;
+    opts.timeout = 1600;
+    opts.endTimeout = 2500;
+    return voice.speak(text, opts);
+  }
+
   const QUESTIONS = 12;
 
   const ICON = `
@@ -60,9 +84,9 @@
         timer = null;
       }
       clearLater();
-      G.tts.cancel();
+      voiceStop();
 
-      const hasTts = G.tts.supported();
+      const hasTts = voiceOk();
       stage.innerHTML = `
         <div class="lzg-intro">
           <div class="lzg-intro-icon">${ICON}</div>
@@ -85,7 +109,7 @@
     function begin() {
       if (timer) timer.stop();
       clearLater();
-      G.tts.cancel();
+      voiceStop();
 
       state = {
         index: 0,
@@ -98,7 +122,8 @@
         used: {},
         word: null,
         options: [],
-        mode: G.tts.supported() ? "tts" : "ipa"
+        mode: voiceOk() ? "tts" : "ipa",
+        failNotified: false
       };
 
       timer = G.createTimer(function (ms) {
@@ -174,12 +199,11 @@
 
     function speakCurrent() {
       if (!state || state.mode !== "tts" || state.answered) return;
+
       const orb = stage.querySelector("[data-speak]");
       if (orb) orb.classList.add("is-playing");
 
-      G.tts.speak(state.word.word, {
-        rate: 0.88,
-        timeout: 1500,
+      voiceRead(state.word.word, {
         onStart: function () {
           if (orb) orb.classList.add("is-playing");
         },
@@ -190,8 +214,12 @@
           if (orb) orb.classList.remove("is-playing");
           if (!state || state.answered || state.mode !== "tts") return;
           state.mode = "ipa";
-          setTip("没有听到语音，已切换到音标模式");
+          if (!state.failNotified) {
+            state.failNotified = true;
+            api.toast("没有听到语音，已切换到音标模式", 2400);
+          }
           renderQuestion();
+          setTip("没有听到语音，已切换到音标模式");
         }
       });
     }
@@ -202,6 +230,9 @@
         finish();
         return;
       }
+
+      // 切题先停掉上一句，避免叠音
+      voiceStop();
 
       state.index++;
       state.answered = false;
@@ -265,7 +296,8 @@
       }
 
       if (state.mode === "tts") {
-        G.tts.speak(state.word.word, { rate: 0.88, timeout: 1500 });
+        // 交给 LZSpeech 内部 cancel + 忙时延迟 80ms，避免 Chrome 同步 cancel→speak 竞态
+        voiceRead(state.word.word);
       }
 
       later(function () {
@@ -278,7 +310,7 @@
     function finish() {
       if (!state) return;
       timer.stop();
-      G.tts.cancel();
+      voiceStop();
       const elapsed = timer.elapsed();
       const isNew = api.saveScore({ score: state.score, time: elapsed });
       const accuracy = Math.round(state.correct / QUESTIONS * 100);
@@ -321,7 +353,7 @@
       const switchBtn = event.target.closest("[data-switch]");
       if (switchBtn) {
         if (!state || state.answered) return;
-        G.tts.cancel();
+        voiceStop();
         state.mode = state.mode === "tts" ? "ipa" : "tts";
         setTip(state.mode === "ipa" ? "已切换到音标模式" : "再试一次语音播放");
         renderQuestion();
@@ -337,7 +369,7 @@
     return function () {
       clearLater();
       if (timer) timer.stop();
-      G.tts.cancel();
+      voiceStop();
     };
   }
 

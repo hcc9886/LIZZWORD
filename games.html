@@ -18,6 +18,8 @@
 
 <!-- 词池：脚本内联，file:// 双击可用，不经过 fetch -->
 <script src="books/lizz/games/games-words.js"></script>
+<!-- 统一语音封装：放在核心之前，确保 G 初始化前 LZSpeech 已就位 -->
+<script src="books/lizz/speech.js"></script>
 <script src="books/lizz/games/games-core.js"></script>
 <!-- 四款游戏各自注册，互不依赖 -->
 <script src="books/lizz/games/game-match.js"></script>
