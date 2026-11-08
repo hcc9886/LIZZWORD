@@ -78,6 +78,7 @@
       clearLater();
 
       state = {
+        roundId: G.newRoundId("scramble"),
         index: 0,
         correct: 0,
         combo: 0,
@@ -325,6 +326,7 @@
       const elapsed = timer.elapsed();
       const isNew = api.saveScore({ score: state.score, time: elapsed });
       const accuracy = Math.round(state.correct / QUESTIONS * 100);
+      const reward = G.awardPoints("scramble", state.roundId, accuracy);
       const hintsUsed = HINTS - state.hintsLeft;
 
       let praise;
@@ -344,6 +346,7 @@
             <div class="lzg-result-stat"><b>${hintsUsed}</b><span>使用提示</span></div>
             <div class="lzg-result-stat"><b>${G.formatTime(elapsed)}</b><span>用时</span></div>
           </div>
+          ${G.rewardBlock(reward)}
           <div class="lzg-result-actions">
             <button type="button" class="lzg-btn lzg-btn-primary" data-replay>再来一局</button>
             <button type="button" class="lzg-btn lzg-btn-ghost" data-home>换个小游戏</button>

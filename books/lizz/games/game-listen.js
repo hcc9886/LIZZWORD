@@ -135,6 +135,7 @@
       voiceStop();
 
       state = {
+        roundId: G.newRoundId("listen"),
         index: 0,
         correct: 0,
         combo: 0,
@@ -357,6 +358,7 @@
       const elapsed = timer.elapsed();
       const isNew = api.saveScore({ score: state.score, time: elapsed });
       const accuracy = Math.round(state.correct / QUESTIONS * 100);
+      const reward = G.awardPoints("listen", state.roundId, accuracy);
 
       let praise;
       if (state.correct === QUESTIONS) praise = "12 个词都听准了，辨音很稳。";
@@ -375,6 +377,7 @@
             <div class="lzg-result-stat"><b>×${state.maxCombo}</b><span>最高连击</span></div>
             <div class="lzg-result-stat"><b>${G.formatTime(elapsed)}</b><span>用时</span></div>
           </div>
+          ${G.rewardBlock(reward)}
           <div class="lzg-result-actions">
             <button type="button" class="lzg-btn lzg-btn-primary" data-replay>再来一局</button>
             <button type="button" class="lzg-btn lzg-btn-ghost" data-home>换个小游戏</button>

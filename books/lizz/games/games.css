@@ -523,6 +523,31 @@ body.lzg-body {
   line-height: 1.65;
 }
 
+.lzg-result-reward {
+  margin: 12px auto 0;
+  max-width: 420px;
+  padding: 9px 12px;
+  border: 1px dashed #ead6bb;
+  border-radius: 12px;
+  background: #fffbf4;
+  color: #7c6852;
+  font-size: 11.5px;
+  line-height: 1.6;
+  text-align: left;
+}
+
+.lzg-result-reward b {
+  color: #b3752e;
+  font-variant-numeric: tabular-nums;
+}
+
+.lzg-result-reward.is-qualified {
+  border-style: solid;
+  border-color: #f0cfa0;
+  background: #fff4df;
+  color: #8a5a22;
+}
+
 .lzg-result-stats {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));

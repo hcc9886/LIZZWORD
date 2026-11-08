@@ -101,6 +101,7 @@
       clearLater();
 
       state = {
+        roundId: G.newRoundId("match"),
         round: 1,
         matchedTotal: 0,
         pairInRound: 0,
@@ -295,6 +296,7 @@
       const accuracy = state.attempts ? Math.round(state.matchedTotal / state.attempts * 100) : 0;
 
       const isNew = api.saveScore({ score: state.score, time: elapsed });
+      const reward = G.awardPoints("match", state.roundId, accuracy);
 
       let praise;
       if (accuracy >= 90) praise = "几乎没走弯路，位置记得很稳。";
@@ -313,6 +315,7 @@
             <div class="lzg-result-stat"><b>×${state.maxCombo}</b><span>最高连击</span></div>
             <div class="lzg-result-stat"><b>${accuracy}%</b><span>配对准确率</span></div>
           </div>
+          ${G.rewardBlock(reward)}
           <div class="lzg-result-actions">
             <button type="button" class="lzg-btn lzg-btn-primary" data-replay>再来一局</button>
             <button type="button" class="lzg-btn lzg-btn-ghost" data-home>换个小游戏</button>

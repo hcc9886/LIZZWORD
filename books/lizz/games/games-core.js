@@ -287,6 +287,138 @@
     };
   })();
 
+  /* ---------- 积分奖励（写入 Lizz 商店同一账户） ---------- */
+  const LIZZ_KEY = (typeof window.LIZZWORD_LIZZ_KEY === "string" && window.LIZZWORD_LIZZ_KEY)
+    ? window.LIZZWORD_LIZZ_KEY
+    : "lizzword_lizz_v1";
+  const MAX_LEDGER = 30;
+  const GAME_PASS_RATE = 80;
+  const GAME_POINTS = 10;
+
+  function todayKey() {
+    const d = new Date();
+    const m = d.getMonth() + 1;
+    const day = d.getDate();
+    return d.getFullYear() + "-" + (m < 10 ? "0" : "") + m + "-" + (day < 10 ? "0" : "") + day;
+  }
+
+  function readLizzFull() {
+    try {
+      const raw = localStorage.getItem(LIZZ_KEY);
+      if (raw) {
+        const parsed = JSON.parse(raw);
+        if (parsed && typeof parsed === "object") return parsed;
+      }
+    } catch (e) { /* ignore */ }
+    return {};
+  }
+
+  function shopPoints(shop) {
+    const n = Math.floor(Number(shop && shop.points) || 0);
+    return Math.max(0, Math.min(999999, n));
+  }
+
+  function getShopPoints() {
+    return shopPoints(readLizzFull().shop);
+  }
+
+  // 读盘 → 累加 → 立即写盘，保留其它字段，避免覆盖已有积分/装扮
+  function addShopPoints(amount) {
+    const full = readLizzFull();
+    const shop = full.shop && typeof full.shop === "object" ? full.shop : {};
+    const before = shopPoints(shop);
+    const next = Math.min(999999, before + amount);
+    shop.points = next;
+
+    const ledger = Array.isArray(shop.ledger)
+      ? shop.ledger.filter(function (row) {
+          return row && typeof row === "object" && Number(row.amount) > 0;
+        })
+      : [];
+    ledger.push({
+      at: Date.now(),
+      date: todayKey(),
+      type: "games",
+      amount: amount
+    });
+    shop.ledger = ledger.slice(-MAX_LEDGER);
+
+    full.shop = shop;
+    if (typeof full.v === "undefined") full.v = 1;
+    full.updatedAt = new Date().toISOString();
+    try {
+      localStorage.setItem(LIZZ_KEY, JSON.stringify(full));
+    } catch (e) {
+      /* 隐私模式或容量不足时静默降级 */
+    }
+    try {
+      document.dispatchEvent(new CustomEvent("lizzword:shop-changed", {
+        detail: { points: next }
+      }));
+    } catch (e) { /* ignore */ }
+    return next;
+  }
+
+  function newRoundId(gameId) {
+    return String(gameId || "game") + "-" + Date.now().toString(36) + "-" +
+      Math.random().toString(36).slice(2, 8);
+  }
+
+  // 达到 80% 才加 10 分；同一局（roundId）只发一次，不扣分
+  function awardPoints(gameId, roundId, accuracy) {
+    const rate = Math.max(0, Math.min(100, Math.round(Number(accuracy) || 0)));
+    const qualified = rate >= GAME_PASS_RATE;
+    const data = readStore();
+    const last = data.lastReward && typeof data.lastReward === "object" ? data.lastReward : null;
+    const total = getShopPoints();
+
+    if (!qualified) {
+      data.lastReward = {
+        gameId: gameId,
+        roundId: roundId,
+        rate: rate,
+        qualified: false,
+        points: 0,
+        at: Date.now()
+      };
+      writeStore(data);
+      return { qualified: false, rate: rate, points: 0, total: total, duplicate: false };
+    }
+
+    if (last && last.roundId === roundId && last.qualified) {
+      return { qualified: true, rate: rate, points: 0, total: total, duplicate: true };
+    }
+
+    const next = addShopPoints(GAME_POINTS);
+    data.lastReward = {
+      gameId: gameId,
+      roundId: roundId,
+      rate: rate,
+      qualified: true,
+      points: GAME_POINTS,
+      at: Date.now()
+    };
+    writeStore(data);
+    return { qualified: true, rate: rate, points: GAME_POINTS, total: next, duplicate: false };
+  }
+
+  function rewardBlock(reward) {
+    if (!reward) return "";
+    if (!reward.qualified) {
+      return `<div class="lzg-result-reward">` +
+        `<b>未达标</b> · 本局正确率 ${reward.rate}%，低于 80%，本局不加分 · ` +
+        `当前总积分 <b>${reward.total}</b></div>`;
+    }
+    if (reward.duplicate) {
+      return `<div class="lzg-result-reward is-qualified">` +
+        `<b>已达标</b> · 本局正确率 ${reward.rate}%，10 积分已领取，不重复发放 · ` +
+        `当前总积分 <b>${reward.total}</b></div>`;
+    }
+    return `<div class="lzg-result-reward is-qualified">` +
+      `<b>已达标</b> · 本局正确率 ${reward.rate}%，奖励 <b>+${reward.points}</b> 积分 · ` +
+      `当前总积分 <b>${reward.total}</b></div>`;
+  }
+
   /* ---------- 浮动提示 ---------- */
   let toastTimer = 0;
   function toast(text, ms) {
@@ -327,6 +459,10 @@
     createTimer: createTimer,
     getBest: getBest,
     saveBest: saveBest,
+    newRoundId: newRoundId,
+    awardPoints: awardPoints,
+    rewardBlock: rewardBlock,
+    getShopPoints: getShopPoints,
     tts: tts,
     toast: toast,
     register: register,
