@@ -8574,12 +8574,25 @@
     // ============================================================
     // 11. 复习：两轮认词 + 写 + 说
     // ============================================================
+    // 当日复习批次上限：跟随当天词量（10 / 15 / 20），不把整本书的到期词一次全塞进来
+    function reviewBatchLimit() {
+      const sessionSize = Array.isArray(state.learnWords)
+        ? state.learnWords.filter((id) => getWord(id)).length
+        : 0;
+      return Math.max(1, sessionSize || Number(state.dailyTarget) || 10);
+    }
+
+    // 当日批次快照：只取当天词量以内的到期词；循环时复用这份快照，不重新从整本书取词
+    function reviewBatchWords() {
+      return getDueWords().slice(0, reviewBatchLimit());
+    }
+
     function ensureReviewSession() {
       const today = dateKey(getToday());
       const existing = state.reviewSession;
       if (existing && existing.date === today) return existing;
 
-      const due = getDueWords();
+      const due = reviewBatchWords();
       if (!due.length) return null;
       const session = {
         date: today,
@@ -8714,6 +8727,37 @@
       window.LZStudyTimer.pauseReview();
       session.summary = buildReviewSummary(session);
       saveState();
+    }
+
+    // 完成页「继续复习」：在当天同一批词里再走一轮，不换词、不重复改动 SRS 排期
+    function restartReviewRound() {
+      const session = state.reviewSession;
+      if (!session) return;
+      session.loopCount = (Number(session.loopCount) || 0) + 1;
+      session.summary = null;
+      session.startMs = 0;
+      session.recallQueue = shuffle(session.due);
+      session.recallPassed = [];
+      session.recallWrong = 0;
+      session.recallDone = false;
+      session.r1 = shuffle(session.due);
+      session.r1Passed = [];
+      session.r2 = [];
+      session.r2Passed = [];
+      session.writeQueue = [];
+      session.writeDone = [];
+      session.speakQueue = [];
+      session.speakDone = [];
+      session.correctCount = 0;
+      session.wrongCount = 0;
+      // graded / hadWrong 保留：这一批词当天已经结算过 SRS，第二轮只复练不再改节点
+      current = null;
+      undoSnapshot = null;
+      undoUsed = false;
+      saveState();
+      renderReviewView();
+      renderStats();
+      if (window.LZStudyTimer) window.LZStudyTimer.resumeReview();
     }
 
     function renderReviewView() {
@@ -9060,7 +9104,9 @@
           <p class="done-text">下次复习：${esc(nextText)}</p>
           ${summary.recallWrong > 0 ? `<p class="done-text">回想关有 ${summary.recallWrong} 次没想起来（这一关不计入排期）。</p>` : ""}
           <p class="done-text encourage">${esc(summary.encouragement)}</p>
-          <button type="button" class="btn-primary" data-home>返回主界面</button>
+          <p class="done-text">这一轮 ${session ? session.due.length : summary.words} 个词已走完：可以继续在这批词里再来一轮，也可以结束本次复习。</p>
+          <button type="button" class="btn-primary" data-review-again>继续复习</button>
+          <button type="button" class="btn-ghost" data-home>完成</button>
         </section>`;
     }
 
@@ -9306,7 +9352,7 @@
           <button type="button" class="home-btn" data-enter="preview">
             <span class="home-title">预习</span>
             <span class="home-sub">${previewBatch.length
-              ? `下一批 ${previewBatch.length} 个已备词 · 左右滑动切换`
+              ? `${state.learnWords.length ? "当日批次" : "下一批"} ${previewBatch.length} 个词 · 左右滑动切换`
               : (noPrepared ? "该词深度内容尚未准备" : "已备内容不足，需要补充词条")}</span>
           </button>
 
@@ -9709,18 +9755,28 @@
     // 14. 预习：下一批已备词，左右滑动 / 箭头切换
     // ============================================================
     let previewIndex = 0;
+    let previewRoundDone = false;
     let previewTouchX = null;
 
-    // 已备池中尚未学过、也不在今日队列里的下一批；预抽后当天刷新保持不变
+    // 当日已有学习批次时，预习就锁在这批词里；没有批次才展示预抽的下一批
     function previewWords() {
+      const sessionList = (Array.isArray(state.learnWords) ? state.learnWords : [])
+        .map((id) => getWord(id))
+        .filter(Boolean);
+      if (sessionList.length) return sessionList;
       return ensurePreviewBatch().map((id) => getWord(id)).filter(Boolean);
     }
 
     function movePreview(step) {
       const list = previewWords();
-      if (!list.length) return;
+      if (!list.length || previewRoundDone) return;
       const next = previewIndex + step;
-      if (next < 0 || next >= list.length) return;
+      if (next < 0) return;
+      if (next >= list.length) {
+        previewRoundDone = true;
+        renderPreview();
+        return;
+      }
       previewIndex = next;
       renderPreview();
     }
@@ -9742,6 +9798,21 @@
         return;
       }
 
+      // 走完一轮：只在这批词里继续循环，不混入本书其他词
+      if (previewRoundDone) {
+        view.ontouchstart = null;
+        view.ontouchend = null;
+        view.innerHTML = `
+          <section class="study-card">
+            <h2 class="done-title">预习完成</h2>
+            <p class="done-text">这一轮 ${previewList.length} 个词已经看完。</p>
+            <p class="done-text">继续预习会在同一批词里从第 1 个再来一轮，不会跳到其他词。</p>
+            <button type="button" class="btn-primary" data-preview-again>继续预习</button>
+            <button type="button" class="btn-ghost" data-home>完成</button>
+          </section>`;
+        return;
+      }
+
       if (previewIndex >= previewList.length) previewIndex = 0;
       const wordItem = previewList[previewIndex];
       if (!deepReady(wordItem.word)) {
@@ -9752,11 +9823,12 @@
       previewList.forEach((item) => ensureDeep(item.word));
 
       const globalIndex = words.findIndex((item) => item.word === wordItem.word);
+      const last = previewIndex === previewList.length - 1;
       view.innerHTML = `
         <section class="browse-bar">
           <button type="button" class="browse-step" data-preview-step="-1" ${previewIndex === 0 ? "disabled" : ""}>← 上一个</button>
           <span class="browse-pos">${previewIndex + 1} / ${previewList.length}</span>
-          <button type="button" class="browse-step" data-preview-step="1" ${previewIndex === previewList.length - 1 ? "disabled" : ""}>下一个 →</button>
+          <button type="button" class="browse-step" data-preview-step="1">${last ? "完成本轮 →" : "下一个 →"}</button>
         </section>
         <article class="preview-card">
           <div class="preview-deep"></div>
@@ -9800,7 +9872,7 @@
     function viewTitle() {
       if (viewMode === "study") return `新学 · ${STAGE_LABELS[state.stage]}`;
       if (viewMode === "review") return "复习 · 四轮";
-      if (viewMode === "preview") return "预习 · 下一批";
+      if (viewMode === "preview") return state.learnWords.length ? "预习 · 当日批次" : "预习 · 下一批";
       if (viewMode === "browse") return "词库浏览";
       if (viewMode === "az") return "全部单词 · A–Z";
       if (viewMode === "library") return "我的词书";
@@ -9848,6 +9920,11 @@
 
       // 进入新学前按每日目标锁定今日队列；只抽一次，不再补词
       if (mode === "study") ensureLearnSession();
+      // 每次进入预习都从这批词的第 1 个开始
+      if (mode === "preview") {
+        previewIndex = 0;
+        previewRoundDone = false;
+      }
 
       renderView();
       renderStats();
@@ -10158,6 +10235,18 @@
       // 返回主界面
       if (event.target.closest("#backHome") || event.target.closest("[data-home]")) {
         showView("home");
+        return;
+      }
+
+      // 完成页：同一批词再来一轮（预习 / 复习）
+      if (event.target.closest("[data-preview-again]")) {
+        previewRoundDone = false;
+        previewIndex = 0;
+        renderPreview();
+        return;
+      }
+      if (event.target.closest("[data-review-again]")) {
+        restartReviewRound();
         return;
       }
 
