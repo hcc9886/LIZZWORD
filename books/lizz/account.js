@@ -45,6 +45,11 @@
   };
 
   const RETRY_DELAYS = [5000, 20000, 60000, 180000, 600000];
+  // 单次请求最多等 15 秒；一轮同步（study + lizz 各一次拉取与推送）整体最多 30 秒
+  const REQUEST_TIMEOUT_MS = 15000;
+  const SYNC_BUDGET_MS = 30000;
+  // 线上站点根路径：邮箱确认邮件回跳统一落到这里，避免落到 localhost
+  const PRODUCTION_SITE_URL = "https://hcc9886.github.io/LIZZWORD/";
   const isFileMode = (function () {
     try {
       return window.location.protocol === "file:";
@@ -242,6 +247,13 @@
   /* ============================================================
      网络层：真实 Supabase 或 mock 适配器
      ============================================================ */
+  function requestTimeoutMs(deadline) {
+    const single = Math.max(1000, Number(CFG.requestTimeoutMs) || REQUEST_TIMEOUT_MS);
+    if (!deadline) return single;
+    // 越接近整轮同步的截止时间，单次请求可用预算越小，保证整体不超时
+    return Math.min(single, Number(deadline) - Date.now());
+  }
+
   async function request(opts) {
     const options = opts || {};
     if (ADAPTER && typeof ADAPTER.request === "function") {
@@ -259,47 +271,59 @@
     if (options.token) headers.Authorization = "Bearer " + options.token;
     if (options.prefer) headers.Prefer = options.prefer;
 
-    const controller = typeof AbortController === "function" ? new AbortController() : null;
-    const timer = controller
-      ? window.setTimeout(() => controller.abort(), Number(CFG.requestTimeoutMs) || 12000)
-      : null;
+    const budget = requestTimeoutMs(options.deadline);
+    if (budget <= 0) throw timeoutError(0);
 
-    let response;
-    try {
-      response = await window.fetch(url, {
+    const controller = typeof AbortController === "function" ? new AbortController() : null;
+
+    // 超时保护必须覆盖“发请求 + 读响应体”全过程：
+    // 只给 fetch 定时，一旦响应头先到、响应体卡住，await response.text() 会永远不 resolve
+    const work = (async () => {
+      const response = await window.fetch(url, {
         method: method,
         headers: headers,
         body: options.body == null ? undefined : JSON.stringify(options.body),
         signal: controller ? controller.signal : undefined,
         cache: "no-store"
       });
-    } catch (error) {
-      if (timer) window.clearTimeout(timer);
-      if (error && error.name === "AbortError") {
-        const timeoutError = makeError(0, "请求超时");
-        timeoutError.timeout = true;
-        throw timeoutError;
+      const text = await response.text().catch(() => "");
+      let data = null;
+      if (text) {
+        try {
+          data = JSON.parse(text);
+        } catch (error) {
+          data = text;
+        }
       }
-      throw makeError(0, "网络中断");
-    }
-    if (timer) window.clearTimeout(timer);
+      if (!response.ok) {
+        const message = (isObject(data) && (data.msg || data.message || data.error_description || data.error))
+          || ("HTTP " + response.status);
+        const code = (isObject(data) && data.code) ? String(data.code) : "";
+        throw makeError(response.status, String(message), code);
+      }
+      return { status: response.status, data: data };
+    })();
 
-    let data = null;
-    const text = await response.text().catch(() => "");
-    if (text) {
-      try {
-        data = JSON.parse(text);
-      } catch (error) {
-        data = text;
-      }
+    let timer = null;
+    const guard = new Promise((resolve, reject) => {
+      timer = window.setTimeout(() => {
+        if (controller) {
+          try { controller.abort(); } catch (error) { /* ignore */ }
+        }
+        reject(timeoutError(budget));
+      }, budget);
+    });
+
+    try {
+      return await Promise.race([work, guard]);
+    } catch (error) {
+      if (error && error.timeout) throw error;
+      if (error && error.name === "AbortError") throw timeoutError(budget);
+      if (error && error.status !== undefined) throw error;
+      throw makeError(0, "网络中断");
+    } finally {
+      if (timer) window.clearTimeout(timer);
     }
-    if (!response.ok) {
-      const message = (isObject(data) && (data.msg || data.message || data.error_description || data.error))
-        || ("HTTP " + response.status);
-      const code = (isObject(data) && data.code) ? String(data.code) : "";
-      throw makeError(response.status, String(message), code);
-    }
-    return { status: response.status, data: data };
   }
 
   function makeError(status, message, code) {
@@ -307,6 +331,15 @@
     error.status = status;
     error.code = code || "";
     error.isNetwork = status === 0 || status >= 500;
+    return error;
+  }
+
+  // 超时统一走这个错误对象：budget <= 0 表示整轮同步的 30 秒预算已耗尽
+  function timeoutError(budget) {
+    const seconds = Math.max(0, Math.round((Number(budget) || 0) / 1000));
+    const error = makeError(0, "请求超时");
+    error.timeout = true;
+    error.timeoutSeconds = seconds;
     return error;
   }
 
@@ -322,9 +355,13 @@
     const message = String((error && error.message) || "");
     const status = error && error.status;
     if (status === 0) {
-      return error && error.timeout
-        ? "连接云端超时（15 秒），本地数据已保留，请稍后重试。"
-        : "网络不可用，已转入本地队列，稍后自动重试。";
+      if (error && error.timeout) {
+        const seconds = Number(error.timeoutSeconds) || 0;
+        return seconds
+          ? "同步失败，请重试：连接云端超时（最多等待 " + seconds + " 秒），本地数据已保留。"
+          : "同步失败，请重试：本轮同步超过 30 秒仍未完成，已中止，本地数据已保留。";
+      }
+      return "网络不可用，同步失败，已转入本地队列稍后重试。";
     }
     if (/Invalid login credentials/i.test(message)) return "邮箱或密码不正确。";
     if (/Email not confirmed/i.test(message)) return "邮箱还没确认，请先点邮件里的确认链接。";
@@ -353,7 +390,7 @@
       password: cleanPassword,
       data: { display_name: String(displayName || "").trim() }
     };
-    const redirect = String(CFG.emailRedirectTo || "").trim() || safeLocationHref();
+    const redirect = emailRedirectHref();
     const query = redirect ? "redirect_to=" + encodeURIComponent(redirect) : "";
 
     try {
@@ -412,7 +449,7 @@
     return { ok: true };
   }
 
-  async function ensureFreshSession() {
+  async function ensureFreshSession(deadline) {
     const session = readSession();
     if (!session) return null;
     const nowSec = Math.floor(Date.now() / 1000);
@@ -423,7 +460,8 @@
         method: "POST",
         path: "/auth/v1/token",
         query: "grant_type=refresh_token",
-        body: { refresh_token: session.refresh_token }
+        body: { refresh_token: session.refresh_token },
+        deadline: deadline
       });
       const refreshed = normalizeSession(res.data);
       if (!refreshed) throw makeError(401, "refresh failed");
@@ -442,12 +480,20 @@
     }
   }
 
-  function safeLocationHref() {
+  // 邮箱确认回跳地址：配置优先；线上固定站点根路径，本地调试回当前页面，避免落到 localhost
+  function emailRedirectHref() {
+    const configured = String(CFG.emailRedirectTo || "").trim();
+    if (configured) return configured;
     try {
-      if (isFileMode) return "";
-      return window.location.href.split("#")[0];
+      const loc = window.location;
+      if (loc.protocol === "file:") return PRODUCTION_SITE_URL;
+      const host = String(loc.hostname || "");
+      if (host === "localhost" || host === "127.0.0.1" || host === "0.0.0.0" || host === "::1" || host === "[::1]") {
+        return loc.origin + loc.pathname;
+      }
+      return PRODUCTION_SITE_URL;
     } catch (error) {
-      return "";
+      return PRODUCTION_SITE_URL;
     }
   }
 
@@ -801,19 +847,20 @@
   /* ============================================================
      同步主流程
      ============================================================ */
-  async function pullRow(name, session) {
+  async function pullRow(name, session, deadline) {
     const def = DATASETS[name];
     const res = await request({
       method: "GET",
       path: "/rest/v1/" + def.table,
       query: "select=*&user_id=eq." + encodeURIComponent(session.user.id) + "&limit=1",
-      token: session.access_token
+      token: session.access_token,
+      deadline: deadline
     });
     const rows = Array.isArray(res.data) ? res.data : (isObject(res.data) ? [res.data] : []);
     return rows.length ? rows[0] : null;
   }
 
-  async function pushRow(name, state, session) {
+  async function pushRow(name, state, session, deadline) {
     const def = DATASETS[name];
     const body = [{
       user_id: session.user.id,
@@ -827,7 +874,8 @@
       query: "on_conflict=user_id",
       body: body,
       token: session.access_token,
-      prefer: "resolution=merge-duplicates,return=representation"
+      prefer: "resolution=merge-duplicates,return=representation",
+      deadline: deadline
     });
     const rows = Array.isArray(res.data) ? res.data : [];
     return rows.length ? rows[0] : null;
@@ -835,12 +883,12 @@
 
   async function syncDataset(name, session, options) {
     const opts = options || {};
-    const def = DATASETS[name];
+    const deadline = opts.deadline;
     const local = readLocal(name);
     let remote = cloudCache[name];
 
     if (opts.full || !remote) {
-      remote = await pullRow(name, session);
+      remote = await pullRow(name, session, deadline);
       cloudCache[name] = remote;
     }
 
@@ -860,7 +908,7 @@
 
     writeLocal(name, merged);
 
-    const row = await pushRow(name, merged, session);
+    const row = await pushRow(name, merged, session, deadline);
     if (row) cloudCache[name] = row;
     lastSyncAt[name] = nowIso();
     return { name: name, ok: true, bytes: JSON.stringify(merged).length };
@@ -885,28 +933,43 @@
       return { ok: false, reason: "offline", message: lastError };
     }
 
-    const session = await ensureFreshSession();
+    // 整轮同步的硬预算：单次请求各有时限，累计也不允许超过 30 秒
+    const deadline = Date.now() + Math.max(10000, Number(CFG.syncBudgetMs) || SYNC_BUDGET_MS);
+
+    const session = await ensureFreshSession(deadline);
     if (!session) return { ok: false, reason: "no-session", message: "请先登录。" };
 
     if (syncing) {
       syncAgain = true;
-      if (!opts.manual) return { ok: false, reason: "busy" };
-      // 手动「立即同步」时等一轮后台同步结束，避免误报 busy
+      if (!opts.manual) return { ok: false, reason: "busy", message: "正在同步中，稍后会自动完成。" };
+      // 手动「立即同步」最多等 6 秒；等不到立刻带提示返回，不让按钮无限停在「同步中…」
       for (let i = 0; i < 24 && syncing; i += 1) {
         await new Promise((resolve) => window.setTimeout(resolve, 250));
       }
-      if (syncing) return { ok: false, reason: "busy" };
+      if (syncing) {
+        return { ok: false, reason: "busy", message: "正在同步中，请稍候再点「立即同步」。" };
+      }
     }
 
     syncing = true;
     lastError = "";
     const results = [];
-    let failed = [];
+    const failed = [];
     let uninitialized = false;
     try {
       for (const name of Object.keys(DATASETS)) {
+        // 预算耗尽后不再发新请求，直接记为失败并入队，保证本轮一定能结束
+        if (Date.now() >= deadline) {
+          failed.push(name);
+          enqueue(name);
+          lastError = "同步失败，请重试：本轮同步超过 30 秒仍未完成，已中止，本地数据已保留。";
+          continue;
+        }
         try {
-          results.push(await syncDataset(name, session, { full: opts.force !== false && opts.full !== false }));
+          results.push(await syncDataset(name, session, {
+            full: opts.force !== false && opts.full !== false,
+            deadline: deadline
+          }));
           dequeue(name);
         } catch (error) {
           failed.push(name);
@@ -929,6 +992,7 @@
       return {
         ok: ok,
         reason: uninitialized ? "uninitialized" : (failed.length ? "sync-failed" : ""),
+        message: ok ? "" : (lastError || "同步失败，请重试。"),
         results: results,
         error: lastError,
         queued: uninitialized ? [] : failed
@@ -1255,11 +1319,26 @@
     }
     if (event.target.closest("[data-acc-sync]")) {
       const btn = event.target.closest("[data-acc-sync]");
+      if (btn.disabled) return;
       btn.disabled = true;
       btn.textContent = "同步中…";
-      const result = await syncNow({ force: true, manual: true });
-      if (result && !result.ok && result.message) setPanelError(result.message);
-      renderPanel();
+      let message = "";
+      try {
+        const result = await syncNow({ force: true, manual: true });
+        if (result && !result.ok) message = result.message || "同步失败，请重试。";
+      } catch (error) {
+        // syncNow 理论上不会抛错，这里兜底：任何异常都必须给出提示并复位按钮
+        message = friendlyError(error) || "同步失败，请重试。";
+      } finally {
+        if (message) lastError = message;
+        renderPanel();
+        const live = panel ? panel.querySelector("[data-acc-sync]") : null;
+        if (live) {
+          live.disabled = false;
+          live.textContent = "立即同步";
+        }
+        if (message) setPanelError(message);
+      }
       return;
     }
     if (event.target.closest("[data-acc-signout]")) {
