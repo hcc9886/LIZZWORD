@@ -1,6 +1,6 @@
 /* ============================================================
    小游戏三 · 字母重组（Letter Scramble）
-   根据中文释义与音标，把打乱的字母按顺序拼回单词。
+   根据中文释义，把打乱的字母按顺序拼回单词。
    10 题一局，可用 3 次「提示首字母」，每次提示会扣分。
    ============================================================ */
 (function () {
@@ -59,7 +59,7 @@
           <div class="lzg-intro-icon">${ICON}</div>
           <h2>把字母拼回原来的单词</h2>
           <p class="lzg-intro-lead">
-            先看中文释义与音标，再依次点击下方字母。拼满之后会自动判定，
+            先看中文释义，再依次点击下方字母。拼满之后会自动判定，
             拼错也能马上看到正确拼写。
           </p>
           <ul class="lzg-rules">
@@ -165,7 +165,6 @@
           <div class="lzg-scramble-meaning">
             <p class="lzg-scramble-tag">根据释义拼出单词</p>
             <p class="lzg-scramble-zh">${G.escapeHtml(word.zh)}</p>
-            <p class="lzg-scramble-ipa">${G.escapeHtml(word.ipa)}</p>
             <p class="lzg-scramble-count">${letters.length} 个字母 · 剩余提示 ${state.hintsLeft} 次</p>
           </div>
           <div class="lzg-slots" data-slots></div>
@@ -309,7 +308,7 @@
         const reveal = document.createElement("div");
         reveal.className = "lzg-reveal";
         reveal.innerHTML = `<b>${G.escapeHtml(state.word.word)}</b> ` +
-          `${G.escapeHtml(state.word.ipa)} · ${G.escapeHtml(state.word.zh)}`;
+          `${G.escapeHtml(state.word.zh)}`;
         holder.appendChild(reveal);
       }
 
@@ -331,7 +330,7 @@
       let praise;
       if (state.correct === QUESTIONS) praise = "10 个单词全部拼对，字母顺序很稳。";
       else if (state.correct >= 7) praise = "拼写底子不错，错的词再拼一次就记住了。";
-      else praise = "先按音标读一遍再拼，字母顺序会更容易想起来。";
+      else praise = "先按中文释义回想单词，再按字母顺序拼，会更容易想起来。";
 
       stage.innerHTML = `
         <div class="lzg-result">
@@ -390,7 +389,7 @@
   G.register({
     id: "scramble",
     title: "字母重组",
-    tagline: "看释义与音标，把打乱的字母拼回去",
+    tagline: "看中文释义，把打乱的字母拼回去",
     desc: "10 题 · 点选字母拼写，附 3 次首字母提示",
     icon: ICON,
     mount: mount

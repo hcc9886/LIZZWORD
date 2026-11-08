@@ -1,7 +1,8 @@
 /* ============================================================
    小游戏四 · 听音选词（Listen & Choose）
    用 speechSynthesis 朗读英文单词，从四个英文单词里选出听到的那个。
-   无语音或朗读失败时，自动降级为「看音标选词」，保证 file:// 也能玩。
+   首题由用户点击喇叭触发朗读（保证用户手势），之后自动朗读。
+   朗读失败时给出明确提示并提供「跳过本题」，界面上不出现音标。
    12 题一局。
    ============================================================ */
 (function () {
@@ -29,9 +30,31 @@
     }
     opts.lang = "en-US";
     opts.rate = 0.88;
-    opts.timeout = 1600;
+    // 真机上首次朗读可能被策略延迟，超时放宽到 3 秒，避免还没出声就判失败
+    opts.timeout = 3000;
     opts.endTimeout = 2500;
     return voice.speak(text, opts);
+  }
+
+  // 把底层失败原因翻译成用户能看懂、能照着操作的提示
+  function voiceFailText(reason) {
+    const value = String(reason || "");
+    if (value === "not-allowed") {
+      return "浏览器暂时拦了自动播放，请再点一下喇叭；仍无声可检查手机静音开关。";
+    }
+    if (value === "unsupported") {
+      return "当前浏览器不支持语音朗读，可以点「跳过本题」继续。";
+    }
+    if (value === "language-unavailable" || value === "voice-unavailable") {
+      return "系统没有可用的英文语音包，可点喇叭重试，或跳过本题。";
+    }
+    if (value === "audio-busy" || value === "audio-hardware" || value === "synthesis-failed" || value === "synthesis-unavailable") {
+      return "语音播放失败，请检查设备声音后点喇叭重试，或跳过本题。";
+    }
+    if (value === "timeout") {
+      return "没有听到声音：可能缺少英文语音包，或手机静音/音量过低。点喇叭重试，或跳过本题。";
+    }
+    return "没有听到语音，点喇叭重试，或跳过本题。";
   }
 
   const QUESTIONS = 12;
@@ -92,13 +115,13 @@
           <div class="lzg-intro-icon">${ICON}</div>
           <h2>听发音，选出这个单词</h2>
           <p class="lzg-intro-lead">
-            每题会自动朗读一个英文单词，你从四个单词里选出听到的那个。
-            如果浏览器没有可用的英文语音，会自动改为看音标选词。
+            第一题请先点一下圆形喇叭听发音，之后会继续自动朗读。
+            听不清可以随时重听；如果设备没有声音，可以点「跳过本题」继续。
           </p>
           <ul class="lzg-rules">
-            <li>一局 12 题，可随时点圆形按钮重听。</li>
+            <li>一局 12 题，点圆形喇叭即可重听。</li>
             <li>连续答对累积连击，得分逐题提高。</li>
-            <li>${hasTts ? "本机语音合成接口可用；若没有声音会自动改用音标。" : "本机暂未检测到语音合成，将使用音标模式。"}</li>
+            <li>${hasTts ? "本机语音合成接口可用；若没有声音，可点「跳过本题」继续。" : "本机暂未检测到语音合成，进入后可点「跳过本题」继续。"}</li>
           </ul>
           <div class="lzg-intro-actions">
             <button type="button" class="lzg-btn lzg-btn-primary" data-start>开始游戏</button>
@@ -122,7 +145,8 @@
         used: {},
         word: null,
         options: [],
-        mode: voiceOk() ? "tts" : "ipa",
+        // 首题不自动朗读：必须有真实点击，后续题才允许自动读
+        autoRead: false,
         failNotified: false
       };
 
@@ -163,21 +187,16 @@
     function renderQuestion() {
       if (!state || !state.word) return;
 
-      const word = state.word;
-      const isTts = state.mode === "tts";
+      const needsTap = !state.autoRead;
 
       stage.innerHTML = hudMarkup() + `
         <div class="lzg-listen-card">
-          <p class="lzg-listen-label">${isTts ? "听发音，选出正确的单词" : "语音不可用 · 看音标选词"}</p>
-          ${isTts
-            ? `<button type="button" class="lzg-listen-orb" data-speak aria-label="再听一次">${SPEAKER}</button>`
-            : `<p class="lzg-listen-ipa">${G.escapeHtml(word.ipa)}</p>`}
-          <p class="lzg-listen-hint">${isTts
-            ? "没听清可以重复播放，反复听清尾音更容易分辨。"
-            : "浏览器没有可用的英文语音，改为根据音标选择单词。"}</p>
-          <button type="button" class="lzg-listen-fallback" data-switch>
-            ${isTts ? "语音没声音？改用音标" : "再试一次语音播放"}
-          </button>
+          <p class="lzg-listen-label">听发音，选出正确的单词</p>
+          <button type="button" class="lzg-listen-orb" data-speak aria-label="点击听音">${SPEAKER}</button>
+          <p class="lzg-listen-hint">${needsTap
+            ? "先点一下上方喇叭听发音；听不到可以跳过本题。"
+            : "没听清可以重复播放，反复听清尾音更容易分辨。"}</p>
+          <button type="button" class="lzg-listen-fallback" data-skip>跳过本题</button>
         </div>
         <div class="lzg-options lzg-listen-options" data-options>
           ${state.options.map(function (item, index) {
@@ -187,39 +206,48 @@
               </button>`;
           }).join("")}
         </div>
-        <p class="lzg-tip" data-tip aria-live="polite">${isTts
-          ? "点击圆形按钮可以重听"
-          : "根据音标选出对应的单词"}</p>`;
+        <p class="lzg-tip" data-tip aria-live="polite">${needsTap
+          ? "点击喇叭听发音"
+          : "点击圆形按钮可以重听"}</p>`;
 
-      if (isTts && !state.answered) {
-        // 让首帧先渲染，再开始朗读
+      if (state.autoRead && !state.answered) {
+        // 用户已经用真实点击听过一次，后续题可以自动朗读
         later(speakCurrent, 60);
       }
     }
 
     function speakCurrent() {
-      if (!state || state.mode !== "tts" || state.answered) return;
+      if (!state || state.answered) return;
 
       const orb = stage.querySelector("[data-speak]");
       if (orb) orb.classList.add("is-playing");
 
       voiceRead(state.word.word, {
         onStart: function () {
+          if (!state) return;
+          state.autoRead = true;
           if (orb) orb.classList.add("is-playing");
+          const hint = stage.querySelector(".lzg-listen-hint");
+          if (hint) hint.textContent = "没听清可以重复播放，反复听清尾音更容易分辨。";
+          setTip("点击圆形按钮可以重听");
         },
         onEnd: function () {
           if (orb) orb.classList.remove("is-playing");
         },
-        onFail: function () {
+        onFail: function (reason) {
           if (orb) orb.classList.remove("is-playing");
-          if (!state || state.answered || state.mode !== "tts") return;
-          state.mode = "ipa";
+          if (!state || state.answered) return;
+          if (reason === "canceled" || reason === "interrupted") return;
+          // 失败后不再自动朗读，下一题必须由用户点击，避免连续静默失败
+          state.autoRead = false;
+          const hint = stage.querySelector(".lzg-listen-hint");
+          if (hint) hint.textContent = "点一下上方喇叭重试；听不到可以点「跳过本题」。";
+          const text = voiceFailText(reason);
+          setTip(text, "bad");
           if (!state.failNotified) {
             state.failNotified = true;
-            api.toast("没有听到语音，已切换到音标模式", 2400);
+            api.toast(text, 3000);
           }
-          renderQuestion();
-          setTip("没有听到语音，已切换到音标模式");
         }
       });
     }
@@ -243,6 +271,23 @@
       state.options = G.quiz(word, "listen").options;
 
       renderQuestion();
+    }
+
+    // 不依赖语音的兜底：跳过本题，比赛继续，界面上不出现音标
+    function skipQuestion() {
+      if (!state || state.locked || state.answered) return;
+      state.answered = true;
+      state.locked = true;
+      voiceStop();
+      Array.prototype.forEach.call(stage.querySelectorAll("[data-opt]"), function (btn) {
+        btn.disabled = true;
+      });
+      setTip("已跳过本题，进入下一题", "bad");
+      later(function () {
+        if (!state) return;
+        if (state.index >= QUESTIONS) finish();
+        else nextQuestion();
+      }, 600);
     }
 
     function choose(index) {
@@ -291,14 +336,12 @@
         const reveal = document.createElement("div");
         reveal.className = "lzg-reveal";
         reveal.innerHTML = `<b>${G.escapeHtml(state.word.word)}</b> ` +
-          `${G.escapeHtml(state.word.ipa)} · ${G.escapeHtml(state.word.zh)}`;
+          `${G.escapeHtml(state.word.zh)}`;
         card.appendChild(reveal);
       }
 
-      if (state.mode === "tts") {
-        // 交给 LZSpeech 内部 cancel + 忙时延迟 80ms，避免 Chrome 同步 cancel→speak 竞态
-        voiceRead(state.word.word);
-      }
+      // 作答点击本身也是用户手势，再补读一次答案
+      voiceRead(state.word.word);
 
       later(function () {
         if (!state) return;
@@ -350,13 +393,8 @@
         return;
       }
 
-      const switchBtn = event.target.closest("[data-switch]");
-      if (switchBtn) {
-        if (!state || state.answered) return;
-        voiceStop();
-        state.mode = state.mode === "tts" ? "ipa" : "tts";
-        setTip(state.mode === "ipa" ? "已切换到音标模式" : "再试一次语音播放");
-        renderQuestion();
+      if (event.target.closest("[data-skip]")) {
+        skipQuestion();
         return;
       }
 
@@ -377,7 +415,7 @@
     id: "listen",
     title: "听音选词",
     tagline: "听英文发音，从四个单词里找出它",
-    desc: "12 题 · 自动朗读，无语音时改用音标",
+    desc: "12 题 · 点击听音，听不到可跳过",
     icon: ICON,
     mount: mount
   });

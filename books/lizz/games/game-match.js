@@ -179,8 +179,7 @@
 
       board.innerHTML = shuffled.map(function (card) {
         const label = card.side === "en"
-          ? '<span class="lzg-mcard-en">' + G.escapeHtml(card.item.word) + '</span>' +
-            '<span class="lzg-mcard-ipa">' + G.escapeHtml(card.item.ipa) + '</span>'
+          ? '<span class="lzg-mcard-en">' + G.escapeHtml(card.item.word) + '</span>'
           : '<span class="lzg-mcard-zh">' + G.escapeHtml(card.item.zh) + '</span>';
         return `
           <button type="button" class="lzg-mcard" data-id="${card.id}" data-side="${card.side}"

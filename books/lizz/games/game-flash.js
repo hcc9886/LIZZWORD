@@ -151,7 +151,6 @@
         <div class="lzg-flash-card is-flashing" data-flash style="--flash-ms:${FLASH_MS}ms">
           <p class="lzg-flash-label" data-flash-label>记住这个单词</p>
           <div class="lzg-flash-word">${G.escapeHtml(word.word)}</div>
-          <div class="lzg-flash-ipa">${G.escapeHtml(word.ipa)}</div>
           <div class="lzg-flash-count"><i></i></div>
         </div>
         <div data-options></div>
@@ -225,7 +224,7 @@
         const reveal = document.createElement("div");
         reveal.className = "lzg-reveal";
         reveal.innerHTML = `<b>${G.escapeHtml(state.answer.word)}</b> ` +
-          `${G.escapeHtml(state.answer.ipa)} · ${G.escapeHtml(state.answer.zh)}`;
+          `${G.escapeHtml(state.answer.zh)}`;
         holder.appendChild(reveal);
       }
 
