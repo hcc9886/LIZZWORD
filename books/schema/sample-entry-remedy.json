@@ -1,0 +1,549 @@
+[
+  {
+    "word": "remedy",
+    "ipa_uk": "/ˈremədi/",
+    "ipa_us": "/ˈremədi/",
+    "definition_zh": "补救办法；治疗方法；药物；纠正措施；（法律）救济",
+    "definition_en": "a treatment that cures or relieves an illness, or a way of correcting a problem or repairing harm",
+    "core_image": "手边的一剂药，把失衡的身体或局面重新调回正轨",
+    "scene": "山村诊所的药柜几乎空了，老人却还发着高烧。The nurse mixed a simple remedy from honey, lemon and hot water.",
+    "sceneCN": "这里 remedy 是「药剂、疗法」（第 1 个义项：缓解病症的药物或疗法）；句意为护士用蜂蜜、柠檬和热水调了一剂简单的药。图中可辨识物件：药柜、陶罐、汤勺。",
+    "pos": [
+      {
+        "tag": "n.",
+        "zh": "名词：药物、疗法；补救办法；法律救济"
+      },
+      {
+        "tag": "v.",
+        "zh": "动词：医治、缓解；纠正、补救"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "a remedy for",
+        "zh": "……的补救办法（或疗法）"
+      },
+      {
+        "phrase": "home remedy",
+        "zh": "家庭偏方"
+      },
+      {
+        "phrase": "herbal remedy",
+        "zh": "草药疗法"
+      },
+      {
+        "phrase": "legal remedy",
+        "zh": "法律救济"
+      },
+      {
+        "phrase": "remedy the situation",
+        "zh": "补救局面"
+      },
+      {
+        "phrase": "beyond remedy",
+        "zh": "无可补救；无法挽回"
+      }
+    ],
+    "forms": [
+      {
+        "label": "复数（名词）",
+        "form": "remedies"
+      },
+      {
+        "label": "三单（动词）",
+        "form": "remedies"
+      },
+      {
+        "label": "过去式（动词）",
+        "form": "remedied"
+      },
+      {
+        "label": "过去分词（动词）",
+        "form": "remedied"
+      },
+      {
+        "label": "现在分词（动词）",
+        "form": "remedying"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "remedial",
+        "pos": "adj.",
+        "zh": "由本词加形容词后缀构成，义为「补救的；治疗上的；辅导性的」"
+      },
+      {
+        "word": "remediation",
+        "pos": "n.",
+        "zh": "由动词加名词后缀构成，义为「补救；修复；治理」"
+      },
+      {
+        "word": "remediate",
+        "pos": "v.",
+        "zh": "由本词加动词后缀构成，义为「补救；修复；治理」"
+      },
+      {
+        "word": "remediable",
+        "pos": "adj.",
+        "zh": "由本词加后缀构成，义为「可补救的；可治疗的」"
+      },
+      {
+        "word": "remediless",
+        "pos": "adj.",
+        "zh": "由本词加后缀构成，义为「无法补救的；无可救药的」"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "A treatment for an illness",
+        "titleCN": "治病的方法：药物或疗法",
+        "definition": "a medicine or treatment that cures or relieves a disease or symptom",
+        "definitionCN": "治愈或缓解疾病、症状的药物或疗法",
+        "example": "Honey and lemon are a traditional remedy for a sore throat.",
+        "exampleCN": "蜂蜜和柠檬是缓解喉咙痛的传统疗法。",
+        "why": "Latin mederi meant to heal, and re- adds the idea of bringing the body back; a remedy is the thing that sets a sick body back where it belongs.",
+        "whyCN": "拉丁语 mederi 意为「医治」，re- 带「回到」的意思；remedy 就是把病中的身体带回正轨的那件东西。"
+      },
+      {
+        "no": "02",
+        "title": "A solution to a problem",
+        "titleCN": "问题的解决办法",
+        "definition": "a means of correcting or improving a bad situation, especially a practical one",
+        "definitionCN": "纠正或改善糟糕局面的手段，尤指切实可行的办法",
+        "example": "The city is looking for a remedy for its chronic traffic jams.",
+        "exampleCN": "这座城市正在寻找解决长期交通拥堵的办法。",
+        "why": "A broken situation is treated like a sick body: find the measure that restores it, and that measure is the remedy.",
+        "whyCN": "坏掉的局面被当作病中的身体来对待：找到让它恢复的措施，这项措施就是 remedy。"
+      },
+      {
+        "no": "03",
+        "title": "Legal relief",
+        "titleCN": "法律救济",
+        "definition": "a legal means of obtaining compensation or correcting a wrong, such as damages or an injunction",
+        "definitionCN": "获得赔偿或纠正不公的法律手段，如损害赔偿或禁令",
+        "example": "The tenants sought a legal remedy after the landlord ignored the repairs.",
+        "exampleCN": "房东无视维修要求后，租户寻求法律救济。",
+        "why": "Law borrowed the medical image: a wrong is an injury, and the court offers the measure that repairs it.",
+        "whyCN": "法律借用了医学的比喻：不法行为是一种伤害，法院提供的正是修复它的措施。"
+      },
+      {
+        "no": "04",
+        "title": "To cure or relieve",
+        "titleCN": "医治；缓解",
+        "definition": "to cure, relieve, or treat a disease, symptom, or physical problem",
+        "definitionCN": "治愈、缓解或治疗疾病、症状或身体问题",
+        "example": "The doctor could not remedy the infection with the usual antibiotics.",
+        "exampleCN": "医生无法用常用抗生素治好这处感染。",
+        "why": "The verb turns the noun into action: applying the healing measure to the body.",
+        "whyCN": "动词把名词变成动作：把医治的措施施加到身体上。"
+      },
+      {
+        "no": "05",
+        "title": "To correct a bad situation",
+        "titleCN": "补救；纠正",
+        "definition": "to correct or improve a situation, system, or condition that is wrong or unsatisfactory",
+        "definitionCN": "纠正或改善错误、不理想的情况、制度或状况",
+        "example": "The new manager remedied the worst flaws in the scheduling system.",
+        "exampleCN": "新经理纠正了排班系统中最严重的缺陷。",
+        "why": "If a problem is a disease of a system, remedying it is the treatment that brings the system back to working order.",
+        "whyCN": "如果问题是系统的疾病，那么 remedy 就是让系统恢复运转的治疗。"
+      },
+      {
+        "no": "06",
+        "title": "To make up for harm or loss",
+        "titleCN": "弥补损害或损失",
+        "definition": "to compensate for damage, loss, or a defect, often by repairing or balancing it",
+        "definitionCN": "补偿损害、损失或缺陷，常通过修复或衡平来实现",
+        "example": "The company remedied the damage by rebuilding the flooded warehouse.",
+        "exampleCN": "公司通过重建被淹的仓库来弥补损失。",
+        "why": "The measure is applied after the harm: what was taken away is put back, as far as it can be.",
+        "whyCN": "措施在伤害之后才施加：被拿走的东西尽可能被放回去。"
+      },
+      {
+        "no": "07",
+        "title": "A household or herbal preparation",
+        "titleCN": "偏方；草药制剂",
+        "definition": "a simple preparation, often made at home from plants or common ingredients, used to treat minor ailments",
+        "definitionCN": "常在家中用植物或常见材料调制的简易制剂，用于治疗小病",
+        "example": "Her grandmother's remedy for a cough was warm milk with crushed garlic.",
+        "exampleCN": "她祖母治咳嗽的偏方是热牛奶加捣碎的大蒜。",
+        "why": "This is the noun at its most concrete: the healing measure exists as something you can hold, mix, and take.",
+        "whyCN": "这是名词最具体的用法：医治的措施成了能拿在手里、能调制、能服用的东西。"
+      },
+      {
+        "no": "08",
+        "title": "Beyond remedy: past repair",
+        "titleCN": "无可补救：超出修复范围",
+        "definition": "in the phrase beyond remedy, in a state that can no longer be cured or repaired",
+        "definitionCN": "用于短语 beyond remedy，表示已无法治愈或修复的状态",
+        "example": "By the time the leak was found, the old manuscript was beyond remedy.",
+        "exampleCN": "发现漏水时，那份旧手稿已经无法补救了。",
+        "why": "The measure has a reach; once the damage passes that reach, no treatment can bring it back.",
+        "whyCN": "措施有其能够触及的范围；一旦损害超出这个范围，任何治疗都无法把它带回来。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Remedy comes from Latin through Old French, and the whole family gathers around one healing verb.",
+        "cn": "remedy 经由古法语来自拉丁语，整个词族都围绕一个表示「医治」的动词聚集。"
+      },
+      "items": [
+        {
+          "era": "PROTO-INDO-EUROPEAN",
+          "en": "*med- is generally reconstructed as 'to measure, take appropriate measures'. The deeper origin of this root is source uncertain.",
+          "cn": "一般认为原始印欧语 *med- 表示「衡量、采取适当的措施」；这个更早的来源不确定。"
+        },
+        {
+          "era": "LATIN MEDERI",
+          "en": "The verb mederi meant 'to heal, cure', and it also produced medicus 'physician' and medicina 'medicine'.",
+          "cn": "动词 mederi 意为「医治、治愈」，它还生出 medicus「医生」与 medicina「药物」。"
+        },
+        {
+          "era": "LATIN REMEDIUM",
+          "en": "Re plus mederi formed remedium, 'a cure, medicine, antidote; a means of correction'. The re- has been explained both as 'back, again' and as an intensifier, and the sources do not fully agree.",
+          "cn": "re- 与 mederi 构成 remedium，意为「药剂、解药、补救手段」。关于 re- 是「回、再」还是加强语气，各家解释并不完全一致。"
+        },
+        {
+          "era": "OLD FRENCH REMEDIE",
+          "en": "Old French remedie carried the word into English with the medical and the corrective senses already joined.",
+          "cn": "古法语 remedie 把这个词带入英语，医学义与纠正义当时已经并存。"
+        },
+        {
+          "era": "ENGLISH, 13TH–15TH C.",
+          "en": "The noun is recorded from about 1200; the verb appears in the fifteenth century. Exact first dates are uncertain.",
+          "cn": "名词约自 1200 年有记录；动词见于十五世纪。确切首见年代不确定。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "Legal and everyday branches grew apart: courts speak of a remedy for a wrong, while households speak of a home remedy.",
+          "cn": "法律义与日常义逐渐分开：法庭谈对不法行为的救济，家庭则谈家常偏方。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "The look-alike group gathers words built on the same healing root; the near-meaning group gathers cures, treatments and general solutions with different reach.",
+        "cn": "形近组收同一「医治」词根构成的一族词；近义组收治愈、治疗与一般性解决办法，彼此适用范围不同。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "remedial",
+              "ipa": "/rɪˈmiːdiəl/",
+              "tag": "same root",
+              "definition": "An adjective meaning corrective, therapeutic, or intended to improve a skill that is weak.",
+              "definitionCN": "形容词，义为「补救的、治疗上的、辅导性的」，用于改善薄弱的技能。"
+            },
+            {
+              "word": "remediation",
+              "ipa": "/rɪˌmiːdiˈeɪʃn/",
+              "tag": "same root",
+              "definition": "The noun for the act of correcting, repairing, or cleaning up damage.",
+              "definitionCN": "名词，义为「补救、修复、治理」，指纠正或清理损害的行为。"
+            },
+            {
+              "word": "remediate",
+              "ipa": "/rɪˈmiːdieɪt/",
+              "tag": "same root",
+              "definition": "The verb meaning to correct or clean up damage, especially in law or environmental work.",
+              "definitionCN": "动词，义为「补救、修复、治理」，多用于法律或环境治理。"
+            },
+            {
+              "word": "medley",
+              "ipa": "/ˈmedli/",
+              "tag": "different root",
+              "definition": "A mixture of things, especially songs or styles; it merely looks similar and comes from another root.",
+              "definitionCN": "名词，义为「混杂物、杂曲」，尤其指歌曲或风格的混合；只是拼写相近，词源不同。"
+            },
+            {
+              "word": "remediless",
+              "ipa": "/ˈremidiləs/",
+              "tag": "derived form",
+              "definition": "Without any cure or means of repair; formed directly from remedy plus the suffix -less.",
+              "definitionCN": "形容词，义为「无法补救的、无可救药的」，由本词加后缀 -less 直接构成。"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "cure",
+              "ipa": "/kjʊə(r)/",
+              "tag": "near meaning",
+              "definition": "To make a disease or illness go away; stronger and more strictly medical than remedy.",
+              "definitionCN": "动词或名词，义为「治愈、疗法」，比 remedy 更强调病痛消失，医学色彩更强。"
+            },
+            {
+              "word": "treatment",
+              "ipa": "/ˈtriːtmənt/",
+              "tag": "near meaning",
+              "definition": "Medical care given for an illness; broader than remedy and does not promise a cure.",
+              "definitionCN": "名词，义为「治疗、疗程」，范围比 remedy 更宽，不保证治愈。"
+            },
+            {
+              "word": "antidote",
+              "ipa": "/ˈæntɪdəʊt/",
+              "tag": "near meaning",
+              "definition": "A substance that counteracts poison or a harmful effect; a narrower medical term.",
+              "definitionCN": "名词，义为「解毒剂、对抗手段」，专指抵消毒物或有害影响的物质，医学范围更窄。"
+            },
+            {
+              "word": "solution",
+              "ipa": "/səˈluːʃn/",
+              "tag": "near meaning",
+              "definition": "An answer to a problem; general and non-medical, with no image of healing.",
+              "definitionCN": "名词，义为「解决办法、答案」，属一般用语，不带「医治」的比喻。"
+            },
+            {
+              "word": "redress",
+              "ipa": "/rɪˈdres/",
+              "tag": "formal, legal",
+              "definition": "To correct or compensate for a wrong, especially in law; formal in tone.",
+              "definitionCN": "动词或名词，义为「纠正、补偿」，多用于法律语境，语气正式。"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "These hooks use the real Latin root and the common phrases the word actually appears in.",
+        "cn": "下面这些记忆钩子使用真实的拉丁词根，以及这个词实际出现的常见搭配。"
+      },
+      "normal": [
+        {
+          "en": "mederi is to heal: remedy is the healing measure brought back to the body.",
+          "cn": "mederi 是「医治」：remedy 就是被带回到身体上的医治措施。"
+        },
+        {
+          "en": "The same root gives medicine, medical and medic; all of them are about healing.",
+          "cn": "同一词根还给出 medicine、medical、medic，它们都与医治有关。"
+        },
+        {
+          "en": "A home remedy is a household preparation, not a professional prescription.",
+          "cn": "home remedy 是家常制剂，不是专业处方。"
+        },
+        {
+          "en": "Law calls compensation for a wrong a legal remedy.",
+          "cn": "法律把对不法行为的补偿称为 legal remedy。"
+        },
+        {
+          "en": "Beyond remedy means past the point where any repair can still work.",
+          "cn": "beyond remedy 意为已经过了任何修复都能起作用的程度。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "Picture a small bottle beside a tilted scale: the illness is the tilt, and the remedy is the weight that brings the beam level again.",
+          "cn": "想象一只小瓶放在倾斜的天平旁：疾病是那点倾斜，remedy 是让横梁重新水平的砝码。"
+        },
+        {
+          "en": "The same bottle can be a law, a policy or a repair: wherever something is out of balance, a remedy is the measure that restores it.",
+          "cn": "同一只瓶子也可以是一条法律、一项政策或一次维修：凡是失衡之处，remedy 就是让它恢复的措施。"
+        },
+        {
+          "en": "A remedy does not erase the past; it puts back as much of the balance as can still be recovered.",
+          "cn": "补救不会抹掉过去，它只是把还能挽回的那部分平衡放回去。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "A warm drink with honey is a common remedy for a scratchy throat.",
+        "cn": "加蜂蜜的热饮是缓解喉咙发痒的常见办法。"
+      },
+      {
+        "en": "The committee proposed three remedies for the housing shortage.",
+        "cn": "委员会提出了三项解决住房短缺的办法。"
+      },
+      {
+        "en": "Engineers remedied the vibration problem before the bridge reopened.",
+        "cn": "工程师在桥梁重新开放前解决了振动问题。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「瑞米迪」——米袋一放，病床回正：补救、治疗",
+      "word": "remedy"
+    },
+    "root": "拉丁语 remedium「药剂、补救手段」由 re-「回、再」+ mederi「医治」构成；mederi 又生出 medicus「医生」与 medicina「药物」。原始印欧语 *med-「衡量、采取适当措施」一般认为成立，更早来源不确定。",
+    "sensesIntro": {
+      "en": "Eight senses of remedy all apply one measure to something out of balance: a body, a problem, a legal wrong, a damaged system, a household ailment, or a state past repair.",
+      "cn": "remedy 的八个义项都在把同一项「措施」用到失衡的对象上：身体、问题、法律上的不公、受损的系统、家常小病，或已无法修复的状态。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: a small bottle of medicine is placed beside a tilted scale, and the scale returns to level.",
+        "cn": "核心意象：一小瓶药放在倾斜的天平旁，天平重新回到水平。"
+      },
+      "chain": [
+        "IMBALANCE",
+        "MEASURE",
+        "HEALING",
+        "RELIEF",
+        "CORRECTION",
+        "REDRESS"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "THE BODY: a disease is an imbalance, and the remedy is the measure that treats it.",
+          "cn": "身体线：疾病是失衡，remedy 是医治它的措施。"
+        },
+        {
+          "senses": "02 · 05 · 06",
+          "en": "THE SYSTEM: a problem, a flawed arrangement or a loss is corrected by the same measure applied outside the body.",
+          "cn": "系统线：问题、有缺陷的安排或损失，由同一项措施在身体之外加以纠正。"
+        },
+        {
+          "senses": "03",
+          "en": "THE COURT: law treats a wrong as an injury and offers a remedy to repair it.",
+          "cn": "法庭线：法律把不法行为当作伤害，并提供救济来修复它。"
+        },
+        {
+          "senses": "04",
+          "en": "THE ACT: the verb names applying the healing measure, not the bottle itself.",
+          "cn": "动作线：动词指的是施加医治措施，而不是那只瓶子本身。"
+        },
+        {
+          "senses": "07 · 08",
+          "en": "THE EXTREMES: a household preparation is the measure at its most concrete, while beyond remedy marks the end of its reach.",
+          "cn": "两端线：家常制剂是措施最具体的一端，beyond remedy 则标出它触及范围的尽头。"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Remedy is built from a Latin prefix and a Latin healing root; English adds ordinary suffixes to make the family.",
+        "cn": "remedy 由拉丁语前缀与表示「医治」的拉丁词根构成；英语再普通后缀扩展出这一词族。"
+      },
+      "latinIntro": {
+        "en": "Latin mederi, medicus, medicina and remedium are all recorded, so only the deeper Indo-European root is reconstructed.",
+        "cn": "拉丁语 mederi、medicus、medicina 与 remedium 均有文献记录，只有更早的印欧词根属于重构形式。"
+      },
+      "items": [
+        {
+          "word": "re-",
+          "structure": "Latin prefix",
+          "meaning": "back, again",
+          "meaningCN": "回；再",
+          "example": "The prefix suggests a return to a former state.",
+          "exampleCN": "这个前缀暗示回到从前的状态。"
+        },
+        {
+          "word": "mederi",
+          "structure": "Latin verb",
+          "meaning": "to heal, cure",
+          "meaningCN": "医治；治愈",
+          "example": "The verb is the healing root of the family.",
+          "exampleCN": "这个动词是这一词族的「医治」词根。"
+        },
+        {
+          "word": "remedium",
+          "structure": "Latin noun",
+          "meaning": "a cure, remedy, means of correction",
+          "meaningCN": "药剂；补救手段",
+          "example": "The noun joined the prefix and the healing root.",
+          "exampleCN": "这个名词把前缀与「医治」词根合在一起。"
+        },
+        {
+          "word": "-ial",
+          "structure": "adjective suffix",
+          "meaning": "relating to",
+          "meaningCN": "与……有关的",
+          "example": "It forms remedial.",
+          "exampleCN": "它构成 remedial。"
+        },
+        {
+          "word": "-ate",
+          "structure": "verb suffix",
+          "meaning": "to make or perform",
+          "meaningCN": "使……；做……",
+          "example": "It forms remediate.",
+          "exampleCN": "它构成 remediate。"
+        },
+        {
+          "word": "-ion",
+          "structure": "noun suffix",
+          "meaning": "act or result",
+          "meaningCN": "动作或结果",
+          "example": "It forms remediation.",
+          "exampleCN": "它构成 remediation。"
+        },
+        {
+          "word": "-able",
+          "structure": "adjective suffix",
+          "meaning": "able to be",
+          "meaningCN": "可以被……的",
+          "example": "It forms remediable.",
+          "exampleCN": "它构成 remediable。"
+        },
+        {
+          "word": "-less",
+          "structure": "adjective suffix",
+          "meaning": "without",
+          "meaningCN": "没有……的",
+          "example": "It forms remediless.",
+          "exampleCN": "它构成 remediless。"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "mederi",
+          "structure": "Latin verb",
+          "meaning": "to heal, cure",
+          "meaningCN": "医治；治愈"
+        },
+        {
+          "word": "medicus",
+          "structure": "Latin noun from mederi",
+          "meaning": "physician",
+          "meaningCN": "医生"
+        },
+        {
+          "word": "medicina",
+          "structure": "Latin noun from medicus",
+          "meaning": "medicine, remedy",
+          "meaningCN": "药物；医术"
+        },
+        {
+          "word": "remedium",
+          "structure": "Latin noun",
+          "meaning": "a cure, remedy, means of correction",
+          "meaningCN": "药剂；补救手段"
+        }
+      ],
+      "derivatives": [
+        {
+          "word": "remedial",
+          "pos": "adj.",
+          "zh": "由本词加形容词后缀构成，义为「补救的；治疗上的；辅导性的」"
+        },
+        {
+          "word": "remediation",
+          "pos": "n.",
+          "zh": "由动词加名词后缀构成，义为「补救；修复；治理」"
+        },
+        {
+          "word": "remediate",
+          "pos": "v.",
+          "zh": "由本词加动词后缀构成，义为「补救；修复；治理」"
+        },
+        {
+          "word": "remediable",
+          "pos": "adj.",
+          "zh": "由本词加后缀构成，义为「可补救的；可治疗的」"
+        },
+        {
+          "word": "remediless",
+          "pos": "adj.",
+          "zh": "由本词加后缀构成，义为「无法补救的；无可救药的」"
+        }
+      ]
+    }
+  }
+]
