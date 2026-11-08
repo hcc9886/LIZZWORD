@@ -33,7 +33,7 @@
   let pendingTimer = null;
   let lastFocus = null;
 
-  const SLOT_KEYS = ["accessory", "outfit", "wings", "handheld"];
+  const SLOT_KEYS = ["accessory", "outfit", "wings", "handheld", "expression", "skin"];
 
   function todayKey() {
     return S.dateKeyOf();
@@ -46,9 +46,9 @@
     return n;
   }
 
-  // 四个部位各自独立；旧存档里的 equipped 字符串按物品类别迁移到对应槽
+  // 六个部位各自独立；旧存档里的 equipped 字符串按物品类别迁移到对应槽
   function normalizeSlots(src, owned) {
-    const slots = { accessory: "", outfit: "", wings: "", handheld: "" };
+    const slots = { accessory: "", outfit: "", wings: "", handheld: "", expression: "", skin: "" };
     const accept = (slot, id) => {
       const key = String(id || "");
       if (!owned.includes(key)) return;
@@ -67,7 +67,7 @@
 
   // 保留 equipped 字符串镜像，兼容只认识旧字段的云同步逻辑
   function mirrorEquipped(slots) {
-    return slots.accessory || slots.outfit || slots.wings || slots.handheld || "";
+    return slots.accessory || slots.outfit || slots.wings || slots.handheld || slots.expression || slots.skin || "";
   }
 
   function normalizeShop(raw) {
@@ -373,21 +373,42 @@
     return `<svg class="lz-acc-svg lz-acc-${slot}" viewBox="0 0 100 100" aria-hidden="true" focusable="false">${item.svg}</svg>`;
   }
 
-  // 从后到前：翅膀 → 身体（衣服基座）→ 手持物 → 头部配饰
+  // 从后到前：翅膀 → 身体（衣服基座）→ 手持物 → 表情 → 头部配饰
+  // 肤色不占绘制层，直接写进狐狸本体的 CSS 变量
   function layersHTML(slots) {
-    return ["wings", "outfit", "handheld", "accessory"]
+    return ["wings", "outfit", "handheld", "expression", "accessory"]
       .map((slot) => (slots[slot] ? layerSVG(slots[slot], slot) : ""))
       .join("");
+  }
+
+  // 把肤色调色板写到承载狐狸的容器上；摘下时移除变量，回到默认橘色
+  function applySkin(root, skinItem) {
+    if (!root) return;
+    const palette = skinItem && skinItem.palette;
+    if (palette) {
+      root.style.setProperty("--lz-skin-fur", palette.fur);
+      root.style.setProperty("--lz-skin-inner", palette.inner);
+      root.style.setProperty("--lz-skin-shadow", palette.shadow);
+      root.classList.add("lz-has-skin");
+    } else {
+      root.style.removeProperty("--lz-skin-fur");
+      root.style.removeProperty("--lz-skin-inner");
+      root.style.removeProperty("--lz-skin-shadow");
+      root.classList.remove("lz-has-skin");
+    }
   }
 
   function applyAccessory() {
     const shop = readShop();
     const html = layersHTML(shop.slots);
+    const skinItem = ACC.byId.get(shop.slots.skin) || null;
     const holders = document.querySelectorAll("#lzLizzAccessory");
     Array.prototype.forEach.call(holders, (holder) => {
       holder.innerHTML = html;
       holder.classList.toggle("is-on", Boolean(html));
+      applySkin(holder.closest(".lz-lizz-figure"), skinItem);
     });
+    Array.prototype.forEach.call(document.querySelectorAll(".lz-shop-bigfox"), (root) => applySkin(root, skinItem));
     if (panel && !panel.hidden) render();
   }
 
@@ -412,7 +433,7 @@
 
         <div class="lz-shop-wallet">
           <div class="lz-shop-balance"><span>积分</span><b id="lzShopPoints">0</b></div>
-          <div class="lz-shop-owned"><span>已收集</span><b id="lzShopOwned">0/200</b></div>
+          <div class="lz-shop-owned"><span>已收集</span><b id="lzShopOwned">0/${ACC.items.length}</b></div>
           <div class="lz-shop-earn" id="lzShopEarn">今日已赚 0</div>
         </div>
 
@@ -472,6 +493,7 @@
       }).join("");
     }
     if (bigAcc) bigAcc.innerHTML = layersHTML(shop.slots);
+    applySkin(panel.querySelector(".lz-shop-bigfox"), ACC.byId.get(shop.slots.skin) || null);
 
     renderFilters(shop);
     renderGrid(shop);
@@ -533,10 +555,10 @@
         all: ACC.items.length,
         owned: shop.owned.length
       };
-      ["accessory", "outfit", "wings", "handheld"].forEach((key) => {
+      ["accessory", "outfit", "wings", "handheld", "expression", "skin"].forEach((key) => {
         catCounts[key] = ACC.items.filter((item) => item.category === key).length;
       });
-      const catKeys = ["all", "accessory", "outfit", "wings", "handheld", "owned"];
+      const catKeys = ["all", "accessory", "outfit", "wings", "handheld", "expression", "skin", "owned"];
       catWrap.innerHTML = catKeys.map((key) => shopChip(
         "data-shop-cat",
         key,

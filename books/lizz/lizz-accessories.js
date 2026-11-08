@@ -32,11 +32,13 @@
     accessory: "配饰",
     outfit: "衣服",
     wings: "翅膀",
-    handheld: "手持物"
+    handheld: "手持物",
+    expression: "表情",
+    skin: "肤色"
   };
 
-  // 四个可以同时穿戴的部位，顺序即绘制顺序（从后到前）
-  const SLOTS = ["wings", "outfit", "handheld", "accessory"];
+  // 六个可以同时穿戴的部位；前五项是绘制层（从后到前），肤色通过调色板作用于狐狸本体
+  const SLOTS = ["wings", "outfit", "handheld", "expression", "accessory", "skin"];
 
   function slotOf(item) {
     if (!item) return "";
@@ -565,6 +567,317 @@
     ][v];
   }
 
+
+  /* ============================================================
+     表情：60 张独立的脸
+     - 每张脸自己画一层头部底色 + 眉眼 / 嘴形 / 腮红 / 情绪符号，
+       佩戴时盖住狐狸默认的五官，而不是换色或滤镜
+     - 头部底色用 var(--lz-skin-fur)，和肤色一起变化时不会出现色差
+     ============================================================ */
+  const FACE_INK = "#4a3b32";
+
+  function faceShell() {
+    return `<circle cx="50" cy="38" r="21" style="fill:var(--lz-skin-fur,#f4b26f)" stroke="${FACE_INK}" stroke-width="2"/>` +
+      `<ellipse cx="50" cy="48" rx="13" ry="9.5" fill="#fff"/>`;
+  }
+
+  function eyeRound(cx, r, dy) {
+    const y = 37 + (dy || 0);
+    return `<circle cx="${cx}" cy="${y}" r="${r}" fill="${FACE_INK}"/>` +
+      `<circle cx="${cx + 0.9}" cy="${(y - 0.9).toFixed(1)}" r="${(r * 0.33).toFixed(2)}" fill="#fff"/>`;
+  }
+
+  function eyesRound(r, dy) {
+    return eyeRound(41.5, r, dy) + eyeRound(58.5, r, dy);
+  }
+
+  function eyesTiny() {
+    return `<circle cx="41.5" cy="37" r="1.5" fill="${FACE_INK}"/><circle cx="58.5" cy="37" r="1.5" fill="${FACE_INK}"/>`;
+  }
+
+  function eyesHappy() {
+    return `<path d="M36 38q5-6 10 0M54 38q5-6 10 0" fill="none" stroke="${FACE_INK}" stroke-width="1.8" stroke-linecap="round"/>`;
+  }
+
+  function eyesContent() {
+    return `<path d="M36 35.5q5 6 10 0M54 35.5q5 6 10 0" fill="none" stroke="${FACE_INK}" stroke-width="1.8" stroke-linecap="round"/>`;
+  }
+
+  function eyesSleepy() {
+    return `<path d="M36 37.5h10M54 37.5h10" fill="none" stroke="${FACE_INK}" stroke-width="2" stroke-linecap="round"/>` +
+      `<path d="M36.5 34.6l-1.2-1.4M40 34.4v-1.6M43.5 34.6l1.2-1.4M54.5 34.6l-1.2-1.4M58 34.4v-1.6M61.5 34.6l1.2-1.4" stroke="#9a8f83" stroke-width=".8"/>`;
+  }
+
+  function eyesHalf() {
+    return `<rect x="36" y="35.4" width="10" height="3.2" rx="1.6" fill="${FACE_INK}"/>` +
+      `<rect x="54" y="35.4" width="10" height="3.2" rx="1.6" fill="${FACE_INK}"/>` +
+      `<circle cx="39.5" cy="37" r=".75" fill="#fff"/><circle cx="57.5" cy="37" r=".75" fill="#fff"/>`;
+  }
+
+  function eyesSquint() {
+    return `<path d="M36 35q5 4.5 10 0M54 35q5 4.5 10 0" fill="none" stroke="${FACE_INK}" stroke-width="1.9" stroke-linecap="round"/>`;
+  }
+
+  function eyesWide() {
+    return `<circle cx="41.5" cy="37" r="4.3" fill="#fff" stroke="${FACE_INK}" stroke-width="1.2"/>` +
+      `<circle cx="58.5" cy="37" r="4.3" fill="#fff" stroke="${FACE_INK}" stroke-width="1.2"/>` +
+      `<circle cx="41.5" cy="37.5" r="1.5" fill="${FACE_INK}"/><circle cx="58.5" cy="37.5" r="1.5" fill="${FACE_INK}"/>`;
+  }
+
+  function eyesBlank() {
+    return `<circle cx="41.5" cy="37" r="2.7" fill="#fff" stroke="${FACE_INK}" stroke-width="1.2"/>` +
+      `<circle cx="58.5" cy="37" r="2.7" fill="#fff" stroke="${FACE_INK}" stroke-width="1.2"/>`;
+  }
+
+  function eyesUp() {
+    return eyeRound(41.5, 2.9, -1.2) + eyeRound(58.5, 2.9, -1.2);
+  }
+
+  function eyesLeft() {
+    return `<circle cx="40" cy="37" r="2.9" fill="${FACE_INK}"/><circle cx="57" cy="37" r="2.9" fill="${FACE_INK}"/>` +
+      `<circle cx="40.9" cy="36.1" r=".95" fill="#fff"/><circle cx="57.9" cy="36.1" r=".95" fill="#fff"/>`;
+  }
+
+  function eyesWink() {
+    return `<path d="M36 38q5-6 10 0" fill="none" stroke="${FACE_INK}" stroke-width="1.8" stroke-linecap="round"/>` + eyeRound(58.5, 2.7, 0);
+  }
+
+  function eyesWinkR() {
+    return eyeRound(41.5, 2.7, 0) + `<path d="M54 38q5-6 10 0" fill="none" stroke="${FACE_INK}" stroke-width="1.8" stroke-linecap="round"/>`;
+  }
+
+  function eyesHeart() {
+    return heartShape(41.5, 36.6, 3.4, "#f07a8a") + heartShape(58.5, 36.6, 3.4, "#f07a8a");
+  }
+
+  function eyesStar() {
+    return star5(41.5, 36.5, 3.6, 1.8, "#ffd166") + star5(58.5, 36.5, 3.6, 1.8, "#ffd166");
+  }
+
+  function eyesTeary() {
+    return `<circle cx="41.5" cy="37" r="3" fill="${FACE_INK}"/><circle cx="58.5" cy="37" r="3" fill="${FACE_INK}"/>` +
+      `<circle cx="42.6" cy="35.7" r="1.15" fill="#fff"/><circle cx="59.6" cy="35.7" r="1.15" fill="#fff"/>` +
+      `<circle cx="39.8" cy="38.5" r=".7" fill="#bfe0ff"/><circle cx="56.8" cy="38.5" r=".7" fill="#bfe0ff"/>`;
+  }
+
+  function eyesCry() {
+    return `<path d="M36 36q5 5 10 0M54 36q5 5 10 0" fill="none" stroke="${FACE_INK}" stroke-width="1.8" stroke-linecap="round"/>` +
+      tearDrop(38, 40) + tearDrop(61, 40);
+  }
+
+  function eyesSpiral() {
+    const one = (cx) => `<circle cx="${cx}" cy="37" r="3.1" fill="none" stroke="${FACE_INK}" stroke-width="1.1"/>` +
+      `<circle cx="${cx}" cy="37" r="1.9" fill="none" stroke="${FACE_INK}" stroke-width="1.1"/>` +
+      `<circle cx="${cx}" cy="37" r=".8" fill="${FACE_INK}"/>`;
+    return one(41.5) + one(58.5);
+  }
+
+  function eyesX() {
+    return `<path d="M38.5 34.5l6 5M44.5 34.5l-6 5M55.5 34.5l6 5M61.5 34.5l-6 5" stroke="${FACE_INK}" stroke-width="1.7" stroke-linecap="round"/>`;
+  }
+
+  function eyesTight() {
+    return `<path d="M44.5 34l-3.5 3 3.5 3M55.5 34l3.5 3-3.5 3" fill="none" stroke="${FACE_INK}" stroke-width="1.8" stroke-linecap="round"/>`;
+  }
+
+  function eyesShake() {
+    return `<path d="M36 37q1.8-2 3.4 0t3.4 0h2.4M54 37q1.8-2 3.4 0t3.4 0h2.4" fill="none" stroke="${FACE_INK}" stroke-width="1.6" stroke-linecap="round"/>`;
+  }
+
+  function brows(kind) {
+    const style = `fill="none" stroke="${FACE_INK}" stroke-width="1.3" stroke-linecap="round" opacity=".78"`;
+    if (kind === "raised") return `<path d="M35.5 29.5q4.5-4 9-1M64.5 29.5q-4.5-4-9-1" ${style}/>`;
+    if (kind === "worried") return `<path d="M35.5 31.5l8.5-3M64.5 31.5l-8.5-3" ${style}/>`;
+    if (kind === "angry") return `<path d="M35.5 28.5l8.5 3M64.5 28.5l-8.5 3" ${style}/>`;
+    if (kind === "flat") return `<path d="M36 29.5h8M56 29.5h8" ${style}/>`;
+    if (kind === "oneUp") return `<path d="M35.5 29.5q4.5-4 9-1M56 30h8" ${style}/>`;
+    if (kind === "furrow") return `<path d="M37 30.5l6.5 1.5M63 30.5l-6.5 1.5" ${style}/>`;
+    return "";
+  }
+
+  function mouth(kind) {
+    const stroke = `fill="none" stroke="${FACE_INK}" stroke-width="1.5" stroke-linecap="round"`;
+    if (kind === "smile") return `<path d="M46.5 51q3.5 3 7 0" ${stroke}/>`;
+    if (kind === "small") return `<path d="M48 51.5q2 2 4 0" ${stroke}/>`;
+    if (kind === "flat") return `<path d="M46 51.8h8" ${stroke}/>`;
+    if (kind === "wave") return `<path d="M45.5 52q2.25-2.5 4.5 0t4.5 0" ${stroke}/>`;
+    if (kind === "pout") return `<path d="M46.5 53q3.5-3.5 7 0" ${stroke}/>`;
+    if (kind === "smirk") return `<path d="M46 51q4 3 8 .5" ${stroke}/>`;
+    if (kind === "sad") return `<path d="M45 54q5-4.5 10 0" ${stroke}/>`;
+    if (kind === "dot") return `<circle cx="50" cy="52" r="1.3" fill="${FACE_INK}"/>`;
+    if (kind === "o") return `<ellipse cx="50" cy="52" rx="3.4" ry="3.2" fill="${FACE_INK}" opacity=".88"/>`;
+    if (kind === "open") {
+      return `<ellipse cx="50" cy="52.4" rx="5.2" ry="3.8" fill="#e2725b" stroke="${FACE_INK}" stroke-width="1.1"/>` +
+        `<ellipse cx="50" cy="54.2" rx="2.6" ry="1.4" fill="#ff9eb5"/>`;
+    }
+    if (kind === "giggle") {
+      return `<path d="M44.8 50.5q5.2 6.5 10.4 0q-2.4 4.5-5.2 4.5t-5.2-4.5z" fill="#e2725b" stroke="${FACE_INK}" stroke-width="1.1" stroke-linejoin="round"/>` +
+        `<ellipse cx="50" cy="54.4" rx="2.4" ry="1.3" fill="#ff9eb5"/>`;
+    }
+    if (kind === "tongue") {
+      return `<path d="M46.5 51q3.5 3 7 0" ${stroke}/>` +
+        `<path d="M48 52.2q2 3.8 4 0q1.6.2 1 2.4q-3 2.2-6 0q-.8-1.8 1-2.4z" fill="#ff9eb5" stroke="${FACE_INK}" stroke-width=".9" stroke-linejoin="round"/>`;
+    }
+    if (kind === "yawn") {
+      return `<ellipse cx="50" cy="52.6" rx="4.2" ry="4.6" fill="#8a4a44" stroke="${FACE_INK}" stroke-width="1.2"/>` +
+        `<ellipse cx="50" cy="55.2" rx="2.4" ry="1.3" fill="#ff9eb5"/>`;
+    }
+    if (kind === "grit") {
+      return `<rect x="45.3" y="50" width="9.4" height="4.6" rx="2.2" fill="#fff" stroke="${FACE_INK}" stroke-width="1.1"/>` +
+        `<path d="M47.8 50v4.6M50 50v4.6M52.2 50v4.6" stroke="${FACE_INK}" stroke-width=".8"/>`;
+    }
+    return "";
+  }
+
+  function blush(kind) {
+    if (!kind || kind === "none") return "";
+    const op = kind === "strong" ? 1 : 0.72;
+    const base = `<ellipse cx="32.5" cy="45" rx="4.2" ry="2.5" fill="#f7b2b2" opacity="${op}"/>` +
+      `<ellipse cx="67.5" cy="45" rx="4.2" ry="2.5" fill="#f7b2b2" opacity="${op}"/>`;
+    if (kind === "strong") {
+      return base + `<path d="M28.8 46.5l2-3M31.3 47l2-3M33.5 47l1.5-2.2M66 46.5l2-3M68.5 47l2-3M70.7 47l1.5-2.2" stroke="#e08a8a" stroke-width=".8"/>`;
+    }
+    return base;
+  }
+
+  function tearDrop(cx, cy, scale) {
+    const s = scale || 1;
+    return `<path d="M${cx} ${cy}q${2.6 * s} ${4.6 * s} 0 ${6 * s}q${-2.6 * s} ${-1.5 * s} 0 ${-6 * s}z" fill="#8ec5ff" stroke="#4a3b32" stroke-width=".7" opacity=".92"/>`;
+  }
+
+  function sweatDrop() {
+    return `<path d="M70 26q3 6 0 8q-4-2 0-8z" fill="#8ec5ff" stroke="#4a3b32" stroke-width=".9"/>`;
+  }
+
+  function zzzMarks() {
+    return `<path d="M64 14h5l-5 5h5M68.5 8h4l-4 4h4M71.5 13.5h3l-3 3h3" fill="none" stroke="#9aa7bd" stroke-width="1.2" stroke-linejoin="round"/>`;
+  }
+
+  function angerMark() {
+    return `<path d="M68 25q3-4 6-1M66 29q4-2 6 2M72 21q-1 5 2 7M76 25q-4 3-1 6" fill="none" stroke="#e2725b" stroke-width="1.4" stroke-linecap="round"/>`;
+  }
+
+  function questionMark() {
+    return `<path d="M69.5 21q2.4-3.6 5.6-1.2q1.8 1.6.4 3.7q-1.6 1.3-1.8 3" fill="none" stroke="#b58a3c" stroke-width="1.5" stroke-linecap="round"/>` +
+      `<circle cx="73.2" cy="30.5" r="1.1" fill="#b58a3c"/>`;
+  }
+
+  function dotsMarks() {
+    return `<circle cx="66" cy="30" r="1" fill="#8a97a9"/><circle cx="69.5" cy="30" r="1" fill="#8a97a9"/><circle cx="73" cy="30" r="1" fill="#8a97a9"/>`;
+  }
+
+  function haloRing() {
+    return `<ellipse cx="50" cy="12.5" rx="12" ry="3" fill="none" stroke="#ffd166" stroke-width="2" opacity=".9"/>`;
+  }
+
+  function moonMark() {
+    return `<path d="M74 9a6 6 0 1 0 6 8a5 5 0 1 1-6-8z" fill="#ffe8a3" stroke="#d8b25f" stroke-width=".9"/>`;
+  }
+
+  function faceSVG(opts) {
+    return `<g>${faceShell()}${opts.eyes}${opts.brows ? brows(opts.brows) : ""}${opts.mouth ? mouth(opts.mouth) : ""}${blush(opts.blush)}${opts.extra || ""}</g>`;
+  }
+
+  /* ---------- 表情 60 件：普通 20 / 稀有 16 / 史诗 15 / 传说 9 ---------- */
+  const expressionItems = [
+    { id: "face-happy", name: "开心", en: "Happy", category: "expression", rarity: "common", price: 30, hint: "嘴角一翘，今天就不算白过。", svg: faceSVG({ eyes: eyesHappy(), brows: "raised", mouth: "smile", blush: "soft" }) },
+    { id: "face-blank", name: "放空", en: "Blank", category: "expression", rarity: "common", price: 32, hint: "脑子暂时不在服务区。", svg: faceSVG({ eyes: eyesTiny(), mouth: "flat" }) },
+    { id: "face-shy", name: "害羞", en: "Shy", category: "expression", rarity: "common", price: 35, hint: "脸比耳朵先红。", svg: faceSVG({ eyes: eyesContent(), brows: "worried", mouth: "dot", blush: "strong" }) },
+    { id: "face-sleepy", name: "困", en: "Sleepy", category: "expression", rarity: "common", price: 35, hint: "眼皮已经在打商量了。", svg: faceSVG({ eyes: eyesSleepy(), mouth: "small", blush: "soft", extra: zzzMarks() }) },
+    { id: "face-curious", name: "好奇", en: "Curious", category: "expression", rarity: "common", price: 38, hint: "那是什么？让我看看。", svg: faceSVG({ eyes: eyesRound(2.9), brows: "oneUp", mouth: "o", blush: "soft" }) },
+    { id: "face-smile", name: "微笑", en: "Smile", category: "expression", rarity: "common", price: 40, hint: "不吵不闹，刚刚好。", svg: faceSVG({ eyes: eyesRound(2.6), mouth: "smile", blush: "soft" }) },
+    { id: "face-wink", name: "眨眼", en: "Wink", category: "expression", rarity: "common", price: 40, hint: "只眨眼，不说话。", svg: faceSVG({ eyes: eyesWink(), brows: "raised", mouth: "smirk", blush: "soft" }) },
+    { id: "face-pout", name: "委屈", en: "Pout", category: "expression", rarity: "common", price: 42, hint: "明明不是我的错。", svg: faceSVG({ eyes: eyesTeary(), brows: "worried", mouth: "pout", blush: "soft" }) },
+    { id: "face-proud", name: "得意", en: "Proud", category: "expression", rarity: "common", price: 45, hint: "这题我早就会了。", svg: faceSVG({ eyes: eyesHalf(), brows: "oneUp", mouth: "smirk", blush: "soft" }) },
+    { id: "face-shock", name: "惊讶", en: "Shocked", category: "expression", rarity: "common", price: 45, hint: "等、等一下！", svg: faceSVG({ eyes: eyesWide(), brows: "raised", mouth: "o" }) },
+    { id: "face-tsundere", name: "傲娇", en: "Tsundere", category: "expression", rarity: "common", price: 48, hint: "才不是特意等你的。", svg: faceSVG({ eyes: eyesHalf(), brows: "angry", mouth: "flat", blush: "soft" }) },
+    { id: "face-angry", name: "生气", en: "Angry", category: "expression", rarity: "common", price: 48, hint: "哄一下，只哄一下。", svg: faceSVG({ eyes: eyesSquint(), brows: "angry", mouth: "grit", extra: angerMark() }) },
+    { id: "face-innocent", name: "无辜", en: "Innocent", category: "expression", rarity: "common", price: 50, hint: "我什么都没做。", svg: faceSVG({ eyes: eyesRound(3.2), brows: "raised", mouth: "small", blush: "soft" }) },
+    { id: "face-thinking", name: "思考", en: "Thinking", category: "expression", rarity: "common", price: 50, hint: "这个词……好像见过。", svg: faceSVG({ eyes: eyesLeft(), brows: "furrow", mouth: "flat", extra: questionMark() }) },
+    { id: "face-giggle", name: "偷笑", en: "Giggle", category: "expression", rarity: "common", price: 52, hint: "嘘，别让它听见。", svg: faceSVG({ eyes: eyesContent(), mouth: "giggle", blush: "soft" }) },
+    { id: "face-nap", name: "打盹", en: "Nap", category: "expression", rarity: "common", price: 52, hint: "就闭眼三秒。", svg: faceSVG({ eyes: eyesContent(), mouth: "small", extra: zzzMarks() }) },
+    { id: "face-hungry", name: "馋嘴", en: "Hungry", category: "expression", rarity: "common", price: 55, hint: "碗里还有一口吧？", svg: faceSVG({ eyes: eyesRound(3.1), brows: "raised", mouth: "tongue", blush: "soft" }) },
+    { id: "face-love", name: "心动", en: "Heart Eyes", category: "expression", rarity: "common", price: 58, hint: "扑通，扑通。", svg: faceSVG({ eyes: eyesHeart(), mouth: "smile", blush: "strong" }) },
+    { id: "face-dizzy", name: "晕乎", en: "Dizzy", category: "expression", rarity: "common", price: 60, hint: "世界在转，我不转。", svg: faceSVG({ eyes: eyesSpiral(), mouth: "wave" }) },
+    { id: "face-bored", name: "无聊", en: "Bored", category: "expression", rarity: "common", price: 65, hint: "下一页还是这些词。", svg: faceSVG({ eyes: eyesHalf(), brows: "flat", mouth: "flat" }) },
+
+    { id: "face-excited", name: "兴奋", en: "Excited", category: "expression", rarity: "rare", price: 70, hint: "来了来了，终于来了！", svg: faceSVG({ eyes: eyesStar(), brows: "raised", mouth: "open", blush: "soft", extra: sparkle(68, 24, 2.6, "#ffd166") + sparkle(30, 18, 1.8, "#ffe8a3") }) },
+    { id: "face-cry", name: "大哭", en: "Crying", category: "expression", rarity: "rare", price: 74, hint: "眼泪比单词先掉下来。", svg: faceSVG({ eyes: eyesCry(), brows: "worried", mouth: "sad", blush: "soft" }) },
+    { id: "face-awkward", name: "尴尬", en: "Awkward", category: "expression", rarity: "rare", price: 76, hint: "刚才那句当我没说。", svg: faceSVG({ eyes: eyesLeft(), brows: "worried", mouth: "wave", blush: "strong", extra: sweatDrop() }) },
+    { id: "face-sly", name: "坏笑", en: "Sly Grin", category: "expression", rarity: "rare", price: 78, hint: "计划已经想好了。", svg: faceSVG({ eyes: eyesHalf(), brows: "oneUp", mouth: "smirk" }) },
+    { id: "face-actcute", name: "撒娇", en: "Acting Cute", category: "expression", rarity: "rare", price: 80, hint: "就一次，好不好嘛。", svg: faceSVG({ eyes: eyesHappy(), brows: "raised", mouth: "tongue", blush: "strong", extra: heartShape(28, 22, 2.4, "#ff9eb5") + heartShape(72, 19, 2, "#ff9eb5") }) },
+    { id: "face-guilty", name: "心虚", en: "Guilty", category: "expression", rarity: "rare", price: 82, hint: "刚才偷吃的是谁呢。", svg: faceSVG({ eyes: eyesLeft(), brows: "worried", mouth: "wave", extra: sweatDrop() }) },
+    { id: "face-adorable", name: "卖萌", en: "Adorable", category: "expression", rarity: "rare", price: 84, hint: "这样看，谁还生气得起来。", svg: faceSVG({ eyes: eyesRound(3.4), brows: "raised", mouth: "smile", blush: "strong", extra: sparkle(72, 20, 2.4, "#ffb3c0") }) },
+    { id: "face-panic", name: "慌张", en: "Panic", category: "expression", rarity: "rare", price: 86, hint: "没背完！还没背完！", svg: faceSVG({ eyes: eyesWide(), brows: "worried", mouth: "wave", extra: sweatDrop() + tearDrop(30, 22, .7) }) },
+    { id: "face-smug", name: "得瑟", en: "Smug", category: "expression", rarity: "rare", price: 88, hint: "夸我，快夸我。", svg: faceSVG({ eyes: eyesHalf(), brows: "raised", mouth: "smirk", extra: sparkle(73, 22, 2.8, "#ffd166") }) },
+    { id: "face-sulky", name: "赌气", en: "Sulky", category: "expression", rarity: "rare", price: 90, hint: "哼，不理你了。", svg: faceSVG({ eyes: eyesTight(), brows: "angry", mouth: "pout", blush: "soft" }) },
+    { id: "face-moved", name: "感动", en: "Moved", category: "expression", rarity: "rare", price: 92, hint: "你居然还记得。", svg: faceSVG({ eyes: eyesTeary(), brows: "worried", mouth: "smile", blush: "soft", extra: tearDrop(33, 48, .85) }) },
+    { id: "face-dream", name: "做梦", en: "Dreaming", category: "expression", rarity: "rare", price: 95, hint: "梦里的单词都会背。", svg: faceSVG({ eyes: eyesContent(), mouth: "smile", blush: "soft", extra: zzzMarks() + moonMark() }) },
+    { id: "face-sneeze", name: "打喷嚏", en: "Sneeze", category: "expression", rarity: "rare", price: 98, hint: "啊……啊啾！", svg: faceSVG({ eyes: eyesTight(), mouth: "open", blush: "soft", extra: `<path d="M27 20l-3-3M26 25l-4-1M29 16l-1-3" stroke="#9a8f83" stroke-width="1.2" stroke-linecap="round"/>` }) },
+    { id: "face-whistle", name: "吹口哨", en: "Whistling", category: "expression", rarity: "rare", price: 100, hint: "假装什么都没听见。", svg: faceSVG({ eyes: eyesWinkR(), mouth: "o", extra: `<path d="M67 20q4-2 6 1t5-1" fill="none" stroke="#9aa7bd" stroke-width="1.1" stroke-linecap="round"/>` }) },
+    { id: "face-cheer", name: "加油", en: "Cheering", category: "expression", rarity: "rare", price: 105, hint: "再背十个就到手了！", svg: faceSVG({ eyes: eyesStar(), mouth: "open", blush: "strong", extra: sparkle(28, 20, 2.6, "#ffd166") + sparkle(72, 26, 2.2, "#ffd166") }) },
+    { id: "face-uneasy", name: "坐不住", en: "Fidgety", category: "expression", rarity: "rare", price: 115, hint: "总感觉还有事没做。", svg: faceSVG({ eyes: eyesShake(), brows: "worried", mouth: "wave", extra: `<path d="M27 51q3 2 6 0M67 51q3 2 6 0" fill="none" stroke="#9a8f83" stroke-width="1.1"/>` }) },
+
+    { id: "face-roar", name: "怒吼", en: "Roar", category: "expression", rarity: "epic", price: 130, hint: "这次真的有点凶。", svg: faceSVG({ eyes: eyesSquint(), brows: "angry", mouth: "grit", extra: angerMark() }) },
+    { id: "face-faint", name: "恍神", en: "Dazed", category: "expression", rarity: "epic", price: 135, hint: "人在这里，魂不在。", svg: faceSVG({ eyes: eyesBlank(), mouth: "flat", extra: dotsMarks() }) },
+    { id: "face-hypno", name: "催眠", en: "Hypnotized", category: "expression", rarity: "epic", price: 140, hint: "看久了会跟着转。", svg: faceSVG({ eyes: eyesSpiral(), mouth: "o", extra: `<circle cx="50" cy="18" r="7" fill="none" stroke="#9aa7bd" stroke-width="1" stroke-dasharray="2 3"/>` }) },
+    { id: "face-terrified", name: "恐惧", en: "Terrified", category: "expression", rarity: "epic", price: 145, hint: "别、别过来。", svg: faceSVG({ eyes: eyesWide(), brows: "worried", mouth: "o", extra: sweatDrop() + `<path d="M28 18l3 3M72 18l-3 3" stroke="#8a97a9" stroke-width="1.2"/>` }) },
+    { id: "face-breakdown", name: "崩溃", en: "Breakdown", category: "expression", rarity: "epic", price: 150, hint: "今天先到这里吧。", svg: faceSVG({ eyes: eyesCry(), brows: "worried", mouth: "open", blush: "soft", extra: tearDrop(44, 46, 1.1) + tearDrop(56, 46, 1.1) }) },
+    { id: "face-brow", name: "挑眉", en: "Raised Brow", category: "expression", rarity: "epic", price: 155, hint: "哦？你确定？", svg: faceSVG({ eyes: eyesHalf(), brows: "oneUp", mouth: "smirk", extra: sparkle(73, 20, 2.4, "#ffd166") }) },
+    { id: "face-peek", name: "偷看", en: "Peeking", category: "expression", rarity: "epic", price: 160, hint: "就一眼，真的就一眼。", svg: faceSVG({ eyes: eyesLeft(), brows: "worried", mouth: "dot", blush: "strong" }) },
+    { id: "face-jealous", name: "吃醋", en: "Jealous", category: "expression", rarity: "epic", price: 165, hint: "为什么它也有小鱼干。", svg: faceSVG({ eyes: eyesSquint(), brows: "angry", mouth: "pout", blush: "soft", extra: `<path d="M70 31q3-5 5 0q2 4 4 0q-1 5-5 4t-4-4z" fill="#ffb36b" stroke="#4a3b32" stroke-width=".8"/>` }) },
+    { id: "face-proud2", name: "自豪", en: "Proud Smile", category: "expression", rarity: "epic", price: 170, hint: "今天多背了一组，值得。", svg: faceSVG({ eyes: eyesHappy(), brows: "raised", mouth: "smile", blush: "soft", extra: sparkle(28, 22, 2.2, "#ffd166") + sparkle(72, 20, 2.6, "#ffd166") }) },
+    { id: "face-unimpressed", name: "无语", en: "Speechless", category: "expression", rarity: "epic", price: 175, hint: "……你开心就好。", svg: faceSVG({ eyes: eyesHalf(), brows: "flat", mouth: "flat", extra: dotsMarks() + sweatDrop() }) },
+    { id: "face-crazy", name: "疯掉", en: "Going Crazy", category: "expression", rarity: "epic", price: 180, hint: "这个词到底怎么读！", svg: faceSVG({ eyes: eyesX(), mouth: "open", extra: `<path d="M25 22q4-4 8 0t8 0M59 18q4-4 8 0t8 0" fill="none" stroke="#9aa7bd" stroke-width="1.1"/>` }) },
+    { id: "face-sleepwalk", name: "梦游", en: "Sleepwalking", category: "expression", rarity: "epic", price: 185, hint: "别叫我，我还在梦里背。", svg: faceSVG({ eyes: eyesContent(), mouth: "wave", extra: zzzMarks() + sparkle(30, 20, 1.8, "#ffe8a3") }) },
+    { id: "face-teary", name: "泪目", en: "Misty Eyes", category: "expression", rarity: "epic", price: 195, hint: "不是哭，是眼睛太满了。", svg: faceSVG({ eyes: eyesTeary(), mouth: "smile", blush: "soft", extra: tearDrop(34, 47, .9) }) },
+    { id: "face-mischief", name: "调皮", en: "Mischievous", category: "expression", rarity: "epic", price: 200, hint: "猜猜我藏了什么。", svg: faceSVG({ eyes: eyesWink(), brows: "oneUp", mouth: "tongue", blush: "soft", extra: sparkle(73, 22, 2.2, "#ffb3c0") }) },
+    { id: "face-cold", name: "冷脸", en: "Cold Face", category: "expression", rarity: "epic", price: 210, hint: "温度降了三度。", svg: faceSVG({ eyes: eyesHalf(), brows: "flat", mouth: "flat", extra: `<path d="M26 18l-3-4M28 14l-1-4M74 18l3-4M72 14l1-4" stroke="#9db4d8" stroke-width="1.3" stroke-linecap="round"/>` }) },
+
+    { id: "face-legend-joy", name: "传说·狂喜", en: "Legend Joy", category: "expression", rarity: "legendary", price: 240, hint: "全身都在冒小星星。", svg: faceSVG({ eyes: eyesStar(), brows: "raised", mouth: "open", blush: "strong", extra: heartShape(28, 20, 2.6, "#ff9eb5") + heartShape(72, 18, 2.4, "#ff9eb5") + sparkle(24, 30, 2.2, "#ffd166") }) },
+    { id: "face-legend-rain", name: "传说·泪崩", en: "Legend Tears", category: "expression", rarity: "legendary", price: 260, hint: "眼泪已经有自己的天气。", svg: faceSVG({ eyes: eyesCry(), brows: "worried", mouth: "sad", blush: "soft", extra: tearDrop(34, 33, 1.1) + tearDrop(44, 45, 1.2) + tearDrop(56, 45, 1.2) + tearDrop(66, 33, 1.1) }) },
+    { id: "face-legend-love", name: "传说·心动", en: "Legend Love", category: "expression", rarity: "legendary", price: 280, hint: "眼睛里能装下一整个春天。", svg: faceSVG({ eyes: eyesHeart(), mouth: "smile", blush: "strong", extra: heartShape(30, 17, 2.2, "#ff9eb5") + heartShape(70, 22, 2.8, "#ff9eb5") + heartShape(76, 12, 1.7, "#ffb3c0") }) },
+    { id: "face-legend-rage", name: "传说·暴怒", en: "Legend Rage", category: "expression", rarity: "legendary", price: 300, hint: "连耳朵都在冒火。", svg: faceSVG({ eyes: eyesSquint(), brows: "angry", mouth: "grit", extra: angerMark() + `<path d="M27 18q2-6 5-1q2-6 4 0q2-5 3 1" fill="#ff9a5c" stroke="#e2725b" stroke-width="1" opacity=".9"/>` }) },
+    { id: "face-legend-dream", name: "传说·入梦", en: "Legend Dream", category: "expression", rarity: "legendary", price: 330, hint: "梦里在月亮上背单词。", svg: faceSVG({ eyes: eyesContent(), mouth: "smile", blush: "soft", extra: zzzMarks() + moonMark() + sparkle(26, 24, 2, "#ffe8a3") }) },
+    { id: "face-legend-king", name: "传说·王者得意", en: "Legend King", category: "expression", rarity: "legendary", price: 360, hint: "这一页，我说了算。", svg: faceSVG({ eyes: eyesHalf(), brows: "oneUp", mouth: "smirk", blush: "soft", extra: `<path d="M66 14l3-5 3 4 3-6 2 7h-11z" fill="#ffd166" stroke="#4a3b32" stroke-width="1"/>` }) },
+    { id: "face-legend-shy", name: "传说·害羞冒烟", en: "Legend Shy", category: "expression", rarity: "legendary", price: 390, hint: "耳朵尖都在冒热气。", svg: faceSVG({ eyes: eyesContent(), brows: "worried", mouth: "dot", blush: "strong", extra: `<path d="M69 20q4-4 5 1t4-1M72 25q3-3 3 1t3-1" fill="none" stroke="#d7dde6" stroke-width="1.4" stroke-linecap="round"/>` }) },
+    { id: "face-legend-spin", name: "传说·天旋地转", en: "Legend Spin", category: "expression", rarity: "legendary", price: 410, hint: "星星在绕着脑袋跑。", svg: faceSVG({ eyes: eyesSpiral(), mouth: "wave", extra: sparkle(26, 20, 2.4, "#ffd166") + sparkle(72, 18, 2.4, "#ffd166") + `<path d="M28 30q3 2 6 0M66 30q3 2 6 0" fill="none" stroke="#9aa7bd" stroke-width="1"/>` }) },
+    { id: "face-legend-zen", name: "传说·顿悟", en: "Legend Zen", category: "expression", rarity: "legendary", price: 420, hint: "忽然，全都想通了。", svg: faceSVG({ eyes: eyesBlank(), mouth: "flat", blush: "soft", extra: haloRing() }) }
+  ];
+
+  /* ---------- 肤色 6 档：基础外观，价格 30–60 ---------- */
+  const skinItems = [
+    {
+      id: "skin-cream", name: "奶油白", en: "Cream", category: "skin", rarity: "common", price: 30,
+      hint: "像刚晒过的棉被，软软的。",
+      palette: { fur: "#ffe8d2", inner: "#fff6ec", shadow: "#f0e2d4" }
+    },
+    {
+      id: "skin-honey", name: "蜂蜜橘", en: "Honey", category: "skin", rarity: "common", price: 35,
+      hint: "最常见的狐狸色，暖得刚好。",
+      palette: { fur: "#f4b26f", inner: "#ffe3cb", shadow: "#e3eaf4" }
+    },
+    {
+      id: "skin-caramel", name: "焦糖棕", en: "Caramel", category: "skin", rarity: "common", price: 40,
+      hint: "像在炉子边烤过一会儿。",
+      palette: { fur: "#d9945a", inner: "#f6d3ae", shadow: "#e7d6c2" }
+    },
+    {
+      id: "skin-cocoa", name: "可可棕", en: "Cocoa", category: "skin", rarity: "common", price: 45,
+      hint: "深一点的颜色，更显眼睛亮。",
+      palette: { fur: "#b26f43", inner: "#e3b48c", shadow: "#dcc6b2" }
+    },
+    {
+      id: "skin-silver", name: "银灰白", en: "Silver", category: "skin", rarity: "common", price: 50,
+      hint: "像落了一层薄薄的雪。",
+      palette: { fur: "#cfd8e3", inner: "#eef3f8", shadow: "#e3eaf4" }
+    },
+    {
+      id: "skin-mint", name: "薄荷绿", en: "Mint", category: "skin", rarity: "common", price: 60,
+      hint: "夏天限定，凉凉的。",
+      palette: { fur: "#a8dcc0", inner: "#d8f1e4", shadow: "#d9ece2" }
+    }
+  ];
 
   const items = [
     /* ---------- 普通 · 8 件 ---------- */
@@ -2328,7 +2641,16 @@
     { id: "hand-plush-5", name: "龙龙玩偶", en: "Dragon Doll", category: "handheld", rarity: "legendary", price: 400, hint: "小是小，气势很足。", svg: plushProp(4, ["#7fb98a", "#a8dcc0"]) }
   ];
 
-  items.push(...wingItems, ...handheldItems);
+  items.push(...wingItems, ...handheldItems, ...expressionItems, ...skinItems);
+
+  // 肤色缩略图：把身体 / 头部的狐狸主色替换成对应调色板
+  function tintedFragment(fragment, palette) {
+    if (!palette) return fragment;
+    return fragment
+      .replace(/fill="#f4b26f"/g, `fill="${palette.fur}"`)
+      .replace(/fill="#ffe3cb"/g, `fill="${palette.inner}"`)
+      .replace(/fill="#e3eaf4"/g, `fill="${palette.shadow}"`);
+  }
 
   // 老存档里没有 category / route，统一补默认值，保证 200 件都能被筛选到
   items.forEach((item) => {
@@ -2344,12 +2666,16 @@
   }
 
   // 图鉴 / 商店缩略图：按真实层序合成
-  // 翅膀 → 身体（含衣服）→ 手持物 → 头部配饰
+  // 翅膀 → 身体（含衣服）→ 手持物 → 表情 → 头部配饰；肤色只替换主色
   function thumbOf(item) {
     if (!item) return "";
     if (item.category === "wings") return `${item.svg}${bodyFragment}${headFragment}`;
     if (item.category === "handheld") return `${bodyFragment}${item.svg}${headFragment}`;
     if (item.category === "outfit") return `${bodyFragment}${item.svg}${headFragment}`;
+    if (item.category === "expression") return `${bodyFragment}${headFragment}${item.svg}`;
+    if (item.category === "skin") {
+      return `${tintedFragment(bodyFragment, item.palette)}${tintedFragment(headFragment, item.palette)}`;
+    }
     return `${bodyFragment}${headFragment}${item.svg}`;
   }
 

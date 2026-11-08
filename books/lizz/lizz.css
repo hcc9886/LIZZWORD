@@ -1334,6 +1334,52 @@
   z-index: -1;
 }
 
+/* ---------- 肤色：作用在狐狸本体上，不是额外的一层 ---------- */
+.lz-lizz-figure,
+.lz-shop-bigfox {
+  --lz-skin-fur: #f4b26f;
+  --lz-skin-inner: #ffe3cb;
+  --lz-skin-shadow: #e3eaf4;
+}
+
+/* 主体 / 耳朵 / 尾巴 / 爪子统一主色，避免出现深浅不一的色块 */
+.lz-lizz-figure .lz-fox-svg .lz-fox-tail,
+.lz-lizz-figure .lz-fox-svg .lz-fox-body,
+.lz-lizz-figure .lz-fox-svg .lz-fox-ear-up,
+.lz-lizz-figure .lz-fox-svg .lz-fox-ear-droop,
+.lz-lizz-figure .lz-fox-svg .lz-fox-head,
+.lz-lizz-figure .lz-fox-svg ellipse[cx="41"][cy="91"],
+.lz-lizz-figure .lz-fox-svg ellipse[cx="59"][cy="91"],
+.lz-shop-bigfox .lz-fox-svg .lz-fox-tail,
+.lz-shop-bigfox .lz-fox-svg .lz-fox-body,
+.lz-shop-bigfox .lz-fox-svg .lz-fox-ear-up,
+.lz-shop-bigfox .lz-fox-svg .lz-fox-ear-droop,
+.lz-shop-bigfox .lz-fox-svg .lz-fox-head,
+.lz-shop-bigfox .lz-fox-svg ellipse[cx="41"][cy="91"],
+.lz-shop-bigfox .lz-fox-svg ellipse[cx="59"][cy="91"] {
+  fill: var(--lz-skin-fur);
+}
+
+/* 耳朵内侧用同色系的浅色，和主色一起变化 */
+.lz-lizz-figure .lz-fox-svg path[fill="#ffe3cb"],
+.lz-shop-bigfox .lz-fox-svg path[fill="#ffe3cb"] {
+  fill: var(--lz-skin-inner);
+}
+
+.lz-lizz-figure .lz-fox-svg .lz-fox-shadow,
+.lz-shop-bigfox .lz-fox-svg .lz-fox-shadow {
+  fill: var(--lz-skin-shadow);
+}
+
+/* 表情层盖住默认五官，头部底色跟随肤色变量 */
+.lz-acc-expression {
+  z-index: 1;
+}
+
+.lz-acc-accessory {
+  z-index: 2;
+}
+
 .lz-lizz-figure > .lz-fox-svg {
   width: 100%;
   height: 100%;
