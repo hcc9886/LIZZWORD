@@ -1,0 +1,125 @@
+{
+  "status": "本版已定稿冻结",
+  "frozen": true,
+  "note": "本版已定稿冻结：八本词书均已按同一套规则重建，词数与文件逐本一致，同书内原形重复数为 0。",
+  "generated_at": "2026-11-08T09:40:01.967Z",
+  "rules": [
+    "只收原形词（lemma）：动词不收 -s/-ed/-ing/-en 变形，名词只收单数，形容词只收原级；比较级、最高级、过去式、过去分词一律不入表",
+    "剔除专名：人名、姓氏、地名、品牌、缩写、生造词、拼写错误均不收",
+    "同书内按原形去重，不会出现 abide 与 abides 同时存在",
+    "补词按各考试难度层级选词，四六级不互相照抄",
+    "尽量带 pos 与简短中文释义，查不到释义的只保留 word"
+  ],
+  "books": {
+    "middle": {
+      "target": 1600,
+      "original_count": 2014,
+      "final_count": 1600,
+      "kept_from_original": 82,
+      "added": 1518,
+      "removed": 1932,
+      "duplicate_lemma": 0,
+      "with_pos": 1600,
+      "with_meaning_zh": 1600,
+      "match_target": true,
+      "match_dup_zero": true
+    },
+    "gaokao": {
+      "target": 3500,
+      "original_count": 2113,
+      "final_count": 3500,
+      "kept_from_original": 153,
+      "added": 3347,
+      "removed": 1960,
+      "duplicate_lemma": 0,
+      "with_pos": 3498,
+      "with_meaning_zh": 3500,
+      "match_target": true,
+      "match_dup_zero": true
+    },
+    "cet4": {
+      "target": 4500,
+      "original_count": 2023,
+      "final_count": 4500,
+      "kept_from_original": 184,
+      "added": 4316,
+      "removed": 1839,
+      "duplicate_lemma": 0,
+      "with_pos": 4499,
+      "with_meaning_zh": 4496,
+      "match_target": true,
+      "match_dup_zero": true
+    },
+    "cet6": {
+      "target": 5500,
+      "original_count": 2151,
+      "final_count": 5500,
+      "kept_from_original": 215,
+      "added": 5285,
+      "removed": 1936,
+      "duplicate_lemma": 0,
+      "with_pos": 5500,
+      "with_meaning_zh": 5498,
+      "match_target": true,
+      "match_dup_zero": true
+    },
+    "ielts": {
+      "target": 6000,
+      "original_count": 2206,
+      "final_count": 6000,
+      "kept_from_original": 237,
+      "added": 5763,
+      "removed": 1969,
+      "duplicate_lemma": 0,
+      "with_pos": 5987,
+      "with_meaning_zh": 5999,
+      "match_target": true,
+      "match_dup_zero": true
+    },
+    "daily": {
+      "target": 3000,
+      "original_count": 2045,
+      "final_count": 3000,
+      "kept_from_original": 135,
+      "added": 2865,
+      "removed": 1910,
+      "duplicate_lemma": 0,
+      "with_pos": 3000,
+      "with_meaning_zh": 3000,
+      "match_target": true,
+      "match_dup_zero": true
+    },
+    "sat": {
+      "target": 3500,
+      "original_count": 4325,
+      "final_count": 3500,
+      "kept_from_original": 281,
+      "added": 3219,
+      "removed": 4044,
+      "duplicate_lemma": 0,
+      "with_pos": 3485,
+      "with_meaning_zh": 3495,
+      "match_target": true,
+      "match_dup_zero": true
+    },
+    "shanghai": {
+      "target": 500,
+      "original_count": 151,
+      "final_count": 500,
+      "kept_from_original": 105,
+      "added": 395,
+      "removed": 46,
+      "duplicate_lemma": 0,
+      "with_pos": 500,
+      "with_meaning_zh": 500,
+      "match_target": true,
+      "match_dup_zero": true
+    }
+  },
+  "total": {
+    "original": 17028,
+    "final": 28100,
+    "added": 26708,
+    "removed": 15636
+  }
+}

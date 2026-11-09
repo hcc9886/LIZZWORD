@@ -1,0 +1,7653 @@
+[
+ {
+  "word": "bus",
+  "ipa_uk": "/bʌs/",
+  "ipa_us": "/bʌs/",
+  "definition_zh": "公共汽车；大巴；总线",
+  "definition_en": "a large road vehicle that carries many passengers",
+  "core_image": "站台前停靠的一辆红色公交车",
+  "scene": "站台上排着一条长队。The bus stopped right in front of us.",
+  "sceneCN": "这里 bus 是「公共汽车」（第 1 个义项：载客的大型道路车辆）；句意是公交车正好停在我们面前。",
+  "pos": [
+   {
+    "tag": "n.",
+    "zh": "名词：公共汽车；大巴"
+   },
+   {
+    "tag": "n.",
+    "zh": "名词：（计算机）总线"
+   }
+  ],
+  "collocations": [
+   {
+    "phrase": "take a bus",
+    "zh": "乘公交车"
+   },
+   {
+    "phrase": "a bus stop",
+    "zh": "公交车站"
+   },
+   {
+    "phrase": "a school bus",
+    "zh": "校车"
+   },
+   {
+    "phrase": "by bus",
+    "zh": "乘公交车"
+   },
+   {
+    "phrase": "a bus driver",
+    "zh": "公交车司机"
+   }
+  ],
+  "forms": [
+   {
+    "label": "复数",
+    "form": "buses"
+   }
+  ],
+  "derivatives": [
+   {
+    "word": "minibus",
+    "pos": "n.",
+    "zh": "小型巴士"
+   },
+   {
+    "word": "busload",
+    "pos": "n.",
+    "zh": "一车的人"
+   }
+  ],
+  "senses": [
+   {
+    "no": "01",
+    "title": "A large passenger vehicle",
+    "titleCN": "公共汽车",
+    "definition": "a large road vehicle carrying many passengers on a fixed route",
+    "definitionCN": "沿固定线路运送众多乘客的大型道路车辆",
+    "example": "The bus stopped right in front of us.",
+    "exampleCN": "公交车正好停在我们面前。",
+    "why": "This is the main sense, shortened from omnibus.",
+    "whyCN": "这是主要义项，由 omnibus 缩略而来。"
+   },
+   {
+    "no": "02",
+    "title": "A coach for a group",
+    "titleCN": "大巴",
+    "definition": "a large vehicle hired to carry a group",
+    "definitionCN": "为团体包用的大型车辆",
+    "example": "The team travelled by bus to the match.",
+    "exampleCN": "球队坐大巴去比赛。",
+    "why": "The same vehicle serves scheduled routes and private groups.",
+    "whyCN": "同一种车辆既可跑固定线路，也可供团体包用。"
+   },
+   {
+    "no": "03",
+    "title": "A channel inside a computer",
+    "titleCN": "总线",
+    "definition": "a set of wires that carries data inside a computer",
+    "definitionCN": "计算机内部传输数据的一组线路",
+    "example": "The data moves along the bus to the screen.",
+    "exampleCN": "数据沿总线传到屏幕。",
+    "why": "Engineers borrowed the passenger vehicle's name for a shared path.",
+    "whyCN": "工程师借用了「公共车辆」的名字，指共用的一条通路。"
+   }
+  ],
+  "etymology": {
+   "intro": {
+    "en": "Bus is a shortened form of omnibus, Latin for 'for all'.",
+    "cn": "bus 是 omnibus 的缩略形式，拉丁语意为「为所有人」。"
+   },
+   "items": [
+    {
+     "era": "LATIN",
+     "en": "omnibus meant for all, in the dative plural.",
+     "cn": "omnibus 是复数与格，意为「为所有人」。"
+    },
+    {
+     "era": "NINETEENTH CENTURY",
+     "en": "French carriages for all passengers took the name.",
+     "cn": "法国的公共马车用了这个名字。"
+    },
+    {
+     "era": "EARLY TWENTIETH CENTURY",
+     "en": "bus shortened omnibus in everyday speech.",
+     "cn": "口语中 omnibus 缩略为 bus。"
+    },
+    {
+     "era": "MID TWENTIETH CENTURY",
+     "en": "Computer engineers named a shared channel a bus.",
+     "cn": "计算机工程师把共用通道称作 bus。"
+    },
+    {
+     "era": "PRESENT DAY ENGLISH",
+     "en": "bus means a city vehicle or a data channel.",
+     "cn": "如今 bus 指城市车辆或数据传输通道。"
+    }
+   ]
+  },
+  "similar": {
+   "note": {
+    "en": "The look-alike group shares the b- and -s shape; the near-meaning group gives other passenger vehicles.",
+    "cn": "形近组共享 b- 与 -s 的外形；近义组是其他载客车辆。"
+   },
+   "groups": [
+    {
+     "heading": "LOOK-ALIKE",
+     "entries": [
+      {
+       "word": "bug",
+       "ipa": "/bʌɡ/",
+       "tag": "look-alike",
+       "definition": "a small insect",
+       "definitionCN": "小虫"
+      },
+      {
+       "word": "bush",
+       "ipa": "/bʊʃ/",
+       "tag": "look-alike",
+       "definition": "a low woody plant",
+       "definitionCN": "灌木"
+      },
+      {
+       "word": "buzz",
+       "ipa": "/bʌz/",
+       "tag": "look-alike",
+       "definition": "a low continuous sound",
+       "definitionCN": "嗡嗡声"
+      }
+     ]
+    },
+    {
+     "heading": "NEAR MEANING",
+     "entries": [
+      {
+       "word": "coach",
+       "ipa": "/kəʊtʃ/",
+       "tag": "near synonym",
+       "definition": "a bus for long journeys",
+       "definitionCN": "长途客车"
+      },
+      {
+       "word": "shuttle",
+       "ipa": "/ˈʃʌtl/",
+       "tag": "near synonym",
+       "definition": "a vehicle going back and forth",
+       "definitionCN": "穿梭班车"
+      },
+      {
+       "word": "tram",
+       "ipa": "/træm/",
+       "tag": "related",
+       "definition": "a vehicle running on rails in a street",
+       "definitionCN": "有轨电车"
+      }
+     ]
+    }
+   ]
+  },
+  "mnemonics": {
+   "normalIntro": {
+    "en": "A bus is a vehicle for everybody, which is what omnibus meant.",
+    "cn": "bus 是给所有人坐的车，omnibus 本来就是这个意思。"
+   },
+   "normal": [
+    {
+     "en": "You wait for a bus at a stop.",
+     "cn": "在车站等公交车。"
+    },
+    {
+     "en": "The plural is buses.",
+     "cn": "复数是 buses。"
+    },
+    {
+     "en": "Children ride a school bus.",
+     "cn": "孩子们坐校车。"
+    },
+    {
+     "en": "A minibus is smaller than a bus.",
+     "cn": "minibus 比公交车小。"
+    },
+    {
+     "en": "By bus is cheaper than by taxi.",
+     "cn": "坐公交比打车便宜。"
+    }
+   ],
+   "abstract": [
+    {
+     "en": "See a line of people stepping up one by one.",
+     "cn": "想象一队人依次上车。"
+    },
+    {
+     "en": "See a wide windscreen above a route sign.",
+     "cn": "想象线路牌上方的宽大挡风玻璃。"
+    },
+    {
+     "en": "See many wires running to one screen.",
+     "cn": "想象许多线汇向同一块屏幕。"
+    }
+   ]
+  },
+  "examples": [
+   {
+    "en": "The bus stopped right in front of us.",
+    "cn": "公交车正好停在我们面前。"
+   },
+   {
+    "en": "The team travelled by bus to the match.",
+    "cn": "球队坐大巴去比赛。"
+   },
+   {
+    "en": "The data moves along the bus to the screen.",
+    "cn": "数据沿总线传到屏幕。"
+   }
+  ],
+  "dict_mnemonic": {
+   "note": "拆词记忆 · 非词源",
+   "text": "bus 只有三个字母，像站牌上的三个字，一眼就认出来。",
+   "word": "bus"
+  },
+  "root": "bus 是 omnibus 的缩略，omnibus 在拉丁语中意为「为所有人」，十九世纪指公共马车，二十世纪指公共汽车，后又成为计算机「总线」的术语。",
+  "sensesIntro": {
+   "en": "A city vehicle, a hired coach, and a channel inside a machine.",
+   "cn": "城市里的公交车、包用的大巴、以及机器内部的通道。"
+  },
+  "semanticMap": {
+   "core": {
+    "en": "CORE IMAGE: a red bus pulling up at a stop.",
+    "cn": "核心意象：一辆红色公交车停靠站台。"
+   },
+   "chain": [
+    "STOP",
+    "DOOR",
+    "ROUTE",
+    "PASSENGERS",
+    "TICKET",
+    "CITY"
+   ],
+   "branches": [
+    {
+     "senses": "01",
+     "en": "take a bus",
+     "cn": "乘公交车"
+    },
+    {
+     "senses": "01",
+     "en": "a bus stop",
+     "cn": "公交车站"
+    },
+    {
+     "senses": "02",
+     "en": "travel by bus",
+     "cn": "坐大巴出行"
+    },
+    {
+     "senses": "03",
+     "en": "the data bus",
+     "cn": "数据总线"
+    },
+    {
+     "senses": "01",
+     "en": "a bus driver",
+     "cn": "公交司机"
+    }
+   ]
+  },
+  "affixes": {
+   "intro": {
+    "en": "Bus joins mini- and load to name small vehicles and full ones.",
+    "cn": "bus 可与 mini-、load 组合，表示小型车与满车的人。"
+   },
+   "latinIntro": {
+    "en": "The base is Latin; the entries below are relatives and near synonyms.",
+    "cn": "词基来自拉丁语，下面列的是亲属词与近义词。"
+   },
+   "items": [
+    {
+     "word": "bus",
+     "structure": "Latin omnibus",
+     "meaning": "a vehicle for all passengers",
+     "meaningCN": "公共汽车",
+     "example": "take a bus",
+     "exampleCN": "乘公交车"
+    },
+    {
+     "word": "minibus",
+     "structure": "mini- + bus",
+     "meaning": "a small bus",
+     "meaningCN": "小巴",
+     "example": "a hotel minibus",
+     "exampleCN": "酒店小巴"
+    },
+    {
+     "word": "busload",
+     "structure": "bus + load",
+     "meaning": "as many people as a bus holds",
+     "meaningCN": "一车人",
+     "example": "a busload of tourists",
+     "exampleCN": "一车游客"
+    },
+    {
+     "word": "coach",
+     "structure": "French coche",
+     "meaning": "a long-distance bus",
+     "meaningCN": "长途客车",
+     "example": "a coach trip",
+     "exampleCN": "长途大巴旅行"
+    },
+    {
+     "word": "shuttle",
+     "structure": "Old English scytel",
+     "meaning": "a vehicle going back and forth",
+     "meaningCN": "班车",
+     "example": "an airport shuttle",
+     "exampleCN": "机场班车"
+    },
+    {
+     "word": "tram",
+     "structure": "Middle Low German traam",
+     "meaning": "a street rail vehicle",
+     "meaningCN": "有轨电车",
+     "example": "take the tram",
+     "exampleCN": "坐电车"
+    },
+    {
+     "word": "route",
+     "structure": "French route",
+     "meaning": "the way a bus travels",
+     "meaningCN": "路线",
+     "example": "a bus route",
+     "exampleCN": "公交线路"
+    },
+    {
+     "word": "stop",
+     "structure": "Old English stoppian",
+     "meaning": "a place where a bus halts",
+     "meaningCN": "车站",
+     "example": "the next stop",
+     "exampleCN": "下一站"
+    }
+   ],
+   "latinEntries": []
+  }
+ },
+ {
+  "word": "bush",
+  "ipa_uk": "/bʊʃ/",
+  "ipa_us": "/bʊʃ/",
+  "definition_zh": "灌木；灌木丛；荒野",
+  "definition_en": "a low woody plant with many branches",
+  "core_image": "院墙边一丛密密的矮树",
+  "scene": "院门被院子边的一丛矮树挡住了。A low bush hid the gate.",
+  "sceneCN": "这里 bush 是「灌木」（第 1 个义项：低矮多枝的木本植物）；句意是一丛矮灌木把院门挡住了。",
+  "pos": [
+   {
+    "tag": "n.",
+    "zh": "名词：灌木；灌木丛"
+   },
+   {
+    "tag": "n.",
+    "zh": "名词：荒野地区"
+   }
+  ],
+  "collocations": [
+   {
+    "phrase": "a rose bush",
+    "zh": "玫瑰丛"
+   },
+   {
+    "phrase": "trim the bushes",
+    "zh": "修剪灌木"
+   },
+   {
+    "phrase": "beat around the bush",
+    "zh": "拐弯抹角"
+   },
+   {
+    "phrase": "in the bush",
+    "zh": "在荒野里"
+   },
+   {
+    "phrase": "a thick bush",
+    "zh": "茂密的灌木"
+   }
+  ],
+  "forms": [
+   {
+    "label": "复数",
+    "form": "bushes"
+   }
+  ],
+  "derivatives": [
+   {
+    "word": "bushy",
+    "pos": "adj.",
+    "zh": "浓密的，灌木丛生的"
+   },
+   {
+    "word": "bushland",
+    "pos": "n.",
+    "zh": "灌木地带"
+   }
+  ],
+  "senses": [
+   {
+    "no": "01",
+    "title": "A low woody plant",
+    "titleCN": "灌木",
+    "definition": "a plant smaller than a tree, with many stems",
+    "definitionCN": "比树矮小、有许多枝干的植物",
+    "example": "A low bush hid the gate.",
+    "exampleCN": "一丛矮灌木把院门挡住了。",
+    "why": "This is the oldest sense, naming a clump of woody growth.",
+    "whyCN": "这是最古老的义项，指一丛木质枝条。"
+   },
+   {
+    "no": "02",
+    "title": "Wild country covered with shrubs",
+    "titleCN": "荒野",
+    "definition": "land far from towns, covered with wild plants",
+    "definitionCN": "远离城镇、长满野生植物的土地",
+    "example": "They walked for days through the bush.",
+    "exampleCN": "他们在荒野里走了好几天。",
+    "why": "A land of bushes took the name of the plant itself.",
+    "whyCN": "长满灌木的地方直接借用了植物的名字。"
+   }
+  ],
+  "etymology": {
+   "intro": {
+    "en": "Bush is a Germanic word for a clump of woody stems.",
+    "cn": "bush 是日耳曼语词，指一丛木质枝条。"
+   },
+   "items": [
+    {
+     "era": "OLD ENGLISH",
+     "en": "busc named a clump of shrubs.",
+     "cn": "busc 指一丛灌木。"
+    },
+    {
+     "era": "MIDDLE ENGLISH",
+     "en": "bush kept the plant sense and added wild land.",
+     "cn": "bush 保留植物义，又添上荒野义。"
+    },
+    {
+     "era": "SEVENTEENTH CENTURY",
+     "en": "Beat around the bush named hunting that avoided the thicket.",
+     "cn": "beat around the bush 指打猎时绕开灌木丛。"
+    },
+    {
+     "era": "NINETEENTH CENTURY",
+     "en": "Settlers called wild country the bush.",
+     "cn": "移民把荒野称作 the bush。"
+    },
+    {
+     "era": "PRESENT DAY ENGLISH",
+     "en": "bush means a shrub, a thicket or wild land.",
+     "cn": "如今 bush 指灌木、灌木丛或荒野。"
+    }
+   ]
+  },
+  "similar": {
+   "note": {
+    "en": "The look-alike group shares the b- and -sh shape; the near-meaning group gives other woody plants.",
+    "cn": "形近组共享 b- 与 -sh 的外形；近义组是其他木本植物。"
+   },
+   "groups": [
+    {
+     "heading": "LOOK-ALIKE",
+     "entries": [
+      {
+       "word": "brush",
+       "ipa": "/brʌʃ/",
+       "tag": "look-alike",
+       "definition": "a tool with stiff hairs",
+       "definitionCN": "刷子"
+      },
+      {
+       "word": "blush",
+       "ipa": "/blʌʃ/",
+       "tag": "look-alike",
+       "definition": "to turn red in the face",
+       "definitionCN": "脸红"
+      },
+      {
+       "word": "push",
+       "ipa": "/pʊʃ/",
+       "tag": "look-alike",
+       "definition": "to press something forward",
+       "definitionCN": "推"
+      }
+     ]
+    },
+    {
+     "heading": "NEAR MEANING",
+     "entries": [
+      {
+       "word": "shrub",
+       "ipa": "/ʃrʌb/",
+       "tag": "near synonym",
+       "definition": "a small woody plant",
+       "definitionCN": "灌木"
+      },
+      {
+       "word": "hedge",
+       "ipa": "/hedʒ/",
+       "tag": "near synonym",
+       "definition": "a line of bushes as a boundary",
+       "definitionCN": "树篱"
+      },
+      {
+       "word": "thicket",
+       "ipa": "/ˈθɪkɪt/",
+       "tag": "related",
+       "definition": "a dense group of bushes",
+       "definitionCN": "密丛"
+      }
+     ]
+    }
+   ]
+  },
+  "mnemonics": {
+   "normalIntro": {
+    "en": "A bush is a tree that never grew tall.",
+    "cn": "bush 就是一棵始终没长高的树。"
+   },
+   "normal": [
+    {
+     "en": "A rose bush blooms in early summer.",
+     "cn": "玫瑰丛在初夏开花。"
+    },
+    {
+     "en": "The plural is bushes.",
+     "cn": "复数是 bushes。"
+    },
+    {
+     "en": "Bushy eyebrows are thick and full.",
+     "cn": "bushy 的眉毛又浓又密。"
+    },
+    {
+     "en": "Don't beat around the bush, say it plainly.",
+     "cn": "别拐弯抹角，直接说。"
+    },
+    {
+     "en": "The bush means wild country far from towns.",
+     "cn": "the bush 指远离城镇的荒野。"
+    }
+   ],
+   "abstract": [
+    {
+     "en": "See many thin stems rising from one root.",
+     "cn": "想象一个根上长出许多细枝。"
+    },
+    {
+     "en": "See green leaves hiding a low gate.",
+     "cn": "想象绿叶遮住一扇矮门。"
+    },
+    {
+     "en": "See a dry path winding through scrub.",
+     "cn": "想象一条穿过矮丛的干土小路。"
+    }
+   ]
+  },
+  "examples": [
+   {
+    "en": "A low bush hid the gate.",
+    "cn": "一丛矮灌木把院门挡住了。"
+   },
+   {
+    "en": "They walked for days through the bush.",
+    "cn": "他们在荒野里走了好几天。"
+   },
+   {
+    "en": "She trimmed the bushes along the wall.",
+    "cn": "她修剪了墙边的一排灌木。"
+   }
+  ],
+  "dict_mnemonic": {
+   "note": "拆词记忆 · 非词源",
+   "text": "bush 与 push 只差一个字母，拨开前面的灌木，就得用手往外推一推。",
+   "word": "bush"
+  },
+  "root": "bush 源自古英语 busc，指一丛木质枝条；中古英语起兼指荒野，十七世纪有「绕开灌木打猎」的说法，遂有 beat around the bush 的比喻。",
+  "sensesIntro": {
+   "en": "A low woody plant and the wild land it covers.",
+   "cn": "一种低矮的木本植物，以及被它覆盖的荒野。"
+  },
+  "semanticMap": {
+   "core": {
+    "en": "CORE IMAGE: a thick clump of low stems by a wall.",
+    "cn": "核心意象：墙边一丛低矮稠密的枝条。"
+   },
+   "chain": [
+    "STEM",
+    "LEAVES",
+    "CLUMP",
+    "HEDGE",
+    "WILD",
+    "COVER"
+   ],
+   "branches": [
+    {
+     "senses": "01",
+     "en": "a rose bush",
+     "cn": "玫瑰丛"
+    },
+    {
+     "senses": "01",
+     "en": "trim the bushes",
+     "cn": "修剪灌木"
+    },
+    {
+     "senses": "01",
+     "en": "a thick bush",
+     "cn": "茂密的灌木"
+    },
+    {
+     "senses": "02",
+     "en": "in the bush",
+     "cn": "在荒野里"
+    },
+    {
+     "senses": "01",
+     "en": "beat around the bush",
+     "cn": "拐弯抹角"
+    }
+   ]
+  },
+  "affixes": {
+   "intro": {
+    "en": "Bush takes -y and joins land to name thick growth and wild country.",
+    "cn": "bush 加 -y，或与 land 组合，可表示浓密与荒野。"
+   },
+   "latinIntro": {
+    "en": "The base is Old English; the Latin items below are related only in meaning.",
+    "cn": "词基来自古英语，下面的拉丁词只在意思上相关。"
+   },
+   "items": [
+    {
+     "word": "bush",
+     "structure": "Old English busc",
+     "meaning": "a low woody plant",
+     "meaningCN": "灌木",
+     "example": "a rose bush",
+     "exampleCN": "玫瑰丛"
+    },
+    {
+     "word": "bushy",
+     "structure": "bush + -y",
+     "meaning": "thick and full",
+     "meaningCN": "浓密的",
+     "example": "bushy eyebrows",
+     "exampleCN": "浓密的眉毛"
+    },
+    {
+     "word": "bushland",
+     "structure": "bush + land",
+     "meaning": "land covered with shrubs",
+     "meaningCN": "灌木地带",
+     "example": "dry bushland",
+     "exampleCN": "干燥的灌木地"
+    },
+    {
+     "word": "shrub",
+     "structure": "Old English scrybb",
+     "meaning": "a small woody plant",
+     "meaningCN": "灌木",
+     "example": "a flowering shrub",
+     "exampleCN": "开花的灌木"
+    },
+    {
+     "word": "hedge",
+     "structure": "Old English hecg",
+     "meaning": "a boundary of bushes",
+     "meaningCN": "树篱",
+     "example": "a garden hedge",
+     "exampleCN": "花园树篱"
+    },
+    {
+     "word": "thicket",
+     "structure": "Old English þicce",
+     "meaning": "a dense growth of bushes",
+     "meaningCN": "密丛",
+     "example": "a thicket of reeds",
+     "exampleCN": "一片芦苇丛"
+    },
+    {
+     "word": "grass",
+     "structure": "Old English græs",
+     "meaning": "low green ground plants",
+     "meaningCN": "草",
+     "example": "long grass",
+     "exampleCN": "长草"
+    },
+    {
+     "word": "tree",
+     "structure": "Old English trēow",
+     "meaning": "a tall woody plant",
+     "meaningCN": "树",
+     "example": "a tall tree",
+     "exampleCN": "高大的树"
+    }
+   ],
+   "latinEntries": []
+  }
+ },
+ {
+  "word": "businessman",
+  "ipa_uk": "/ˈbɪznəsmən/",
+  "ipa_us": "/ˈbɪznəsmæn/",
+  "definition_zh": "商人；企业家；商务人士",
+  "definition_en": "a man who works in business, especially as an owner or manager",
+  "core_image": "手提公文包走在写字楼大厅的人",
+  "scene": "候机厅里他抬手看表。The businessman checked his watch before the meeting.",
+  "sceneCN": "这里 businessman 是「商人」（第 1 个义项：从事商业经营的男人）；句意是这位商人在开会前看了看表。",
+  "pos": [
+   {
+    "tag": "n.",
+    "zh": "名词：商人；企业家"
+   }
+  ],
+  "collocations": [
+   {
+    "phrase": "a successful businessman",
+    "zh": "成功的商人"
+   },
+   {
+    "phrase": "a local businessman",
+    "zh": "当地商人"
+   },
+   {
+    "phrase": "an American businessman",
+    "zh": "一位美国商人"
+   },
+   {
+    "phrase": "a businessman in a suit",
+    "zh": "穿西装的商人"
+   },
+   {
+    "phrase": "a retired businessman",
+    "zh": "退休的商人"
+   }
+  ],
+  "forms": [
+   {
+    "label": "复数",
+    "form": "businessmen"
+   }
+  ],
+  "derivatives": [
+   {
+    "word": "businesswoman",
+    "pos": "n.",
+    "zh": "女商人"
+   },
+   {
+    "word": "business",
+    "pos": "n.",
+    "zh": "生意，商业"
+   }
+  ],
+  "senses": [
+   {
+    "no": "01",
+    "title": "A man in business",
+    "titleCN": "商人",
+    "definition": "a man who owns or runs a business",
+    "definitionCN": "拥有或经营企业的男人",
+    "example": "The businessman checked his watch before the meeting.",
+    "exampleCN": "这位商人在开会前看了看表。",
+    "why": "The compound joins business with man to name the person.",
+    "whyCN": "这个合成词把 business 与 man 合起来指人。"
+   },
+   {
+    "no": "02",
+    "title": "A man travelling for work",
+    "titleCN": "商务人士",
+    "definition": "a man travelling or working on company matters",
+    "definitionCN": "因公司事务出差或办事的男人",
+    "example": "Two businessmen shared the morning flight.",
+    "exampleCN": "两位商务人士搭乘同一班早班机。",
+    "why": "The word widened from owners to anyone working in trade.",
+    "whyCN": "这个词从企业主扩展到所有从事商业活动的人。"
+   }
+  ],
+  "etymology": {
+   "intro": {
+    "en": "Businessman is an English compound of business and man.",
+    "cn": "businessman 是 business 与 man 组成的英语合成词。"
+   },
+   "items": [
+    {
+     "era": "OLD ENGLISH",
+     "en": "bisig meant busy, and business grew from it.",
+     "cn": "bisig 意为忙碌，business 由它而来。"
+    },
+    {
+     "era": "EIGHTEENTH CENTURY",
+     "en": "business meant trade and dealings.",
+     "cn": "business 指生意与交易。"
+    },
+    {
+     "era": "NINETEENTH CENTURY",
+     "en": "businessman named a man engaged in trade.",
+     "cn": "businessman 指从事商业的男人。"
+    },
+    {
+     "era": "TWENTIETH CENTURY",
+     "en": "The word covered managers and company travellers.",
+     "cn": "这个词涵盖管理者与出差办事的人。"
+    },
+    {
+     "era": "PRESENT DAY ENGLISH",
+     "en": "businessman means an owner, manager or travelling client.",
+     "cn": "如今 businessman 指企业主、管理者或出差的客户。"
+    }
+   ]
+  },
+  "similar": {
+   "note": {
+    "en": "The look-alike group shares the business- stem; the near-meaning group gives other trade words.",
+    "cn": "形近组共用 business- 词干；近义组是其他与商贸相关的词。"
+   },
+   "groups": [
+    {
+     "heading": "LOOK-ALIKE",
+     "entries": [
+      {
+       "word": "business",
+       "ipa": "/ˈbɪznəs/",
+       "tag": "look-alike",
+       "definition": "trade and commercial activity",
+       "definitionCN": "生意，商业"
+      },
+      {
+       "word": "busy",
+       "ipa": "/ˈbɪzi/",
+       "tag": "look-alike",
+       "definition": "having much to do",
+       "definitionCN": "忙碌的"
+      },
+      {
+       "word": "businesslike",
+       "ipa": "/ˈbɪznəslaɪk/",
+       "tag": "look-alike",
+       "definition": "practical and efficient",
+       "definitionCN": "干练的"
+      }
+     ]
+    },
+    {
+     "heading": "NEAR MEANING",
+     "entries": [
+      {
+       "word": "merchant",
+       "ipa": "/ˈmɜːtʃənt/",
+       "tag": "near synonym",
+       "definition": "a person who buys and sells goods",
+       "definitionCN": "商人"
+      },
+      {
+       "word": "trader",
+       "ipa": "/ˈtreɪdə/",
+       "tag": "near synonym",
+       "definition": "a person who trades goods",
+       "definitionCN": "交易商"
+      },
+      {
+       "word": "entrepreneur",
+       "ipa": "/ˌɒntrəprəˈnɜː/",
+       "tag": "related",
+       "definition": "a person who starts a business",
+       "definitionCN": "创业者"
+      }
+     ]
+    }
+   ]
+  },
+  "mnemonics": {
+   "normalIntro": {
+    "en": "A businessman is a man whose business is business.",
+    "cn": "businessman 就是以生意为业的人。"
+   },
+   "normal": [
+    {
+     "en": "He carries contracts in his case.",
+     "cn": "他的公文包里装着合同。"
+    },
+    {
+     "en": "The plural is businessmen.",
+     "cn": "复数是 businessmen。"
+    },
+    {
+     "en": "A businesswoman runs the same kind of company.",
+     "cn": "businesswoman 经营同样的公司。"
+    },
+    {
+     "en": "Business means trade and dealings.",
+     "cn": "business 指生意与交易。"
+    },
+    {
+     "en": "A businessman often travels for meetings.",
+     "cn": "商人常为开会出差。"
+    }
+   ],
+   "abstract": [
+    {
+     "en": "See a handshake at the end of a table.",
+     "cn": "想象长桌尽头的一次握手。"
+    },
+    {
+     "en": "See a briefcase set down by a gate.",
+     "cn": "想象登机口旁放下的公文包。"
+    },
+    {
+     "en": "See a calendar full of appointments.",
+     "cn": "想象排满约见的日历。"
+    }
+   ]
+  },
+  "examples": [
+   {
+    "en": "The businessman checked his watch before the meeting.",
+    "cn": "这位商人在开会前看了看表。"
+   },
+   {
+    "en": "Two businessmen shared the morning flight.",
+    "cn": "两位商务人士搭乘同一班早班机。"
+   },
+   {
+    "en": "A local businessman paid for the new bridge.",
+    "cn": "一位当地商人出资修建了新桥。"
+   }
+  ],
+  "dict_mnemonic": {
+   "note": "拆词记忆 · 非词源",
+   "text": "business 加 man，字面就是「生意人」，两个词一拼，身份就清楚了。",
+   "word": "businessman"
+  },
+  "root": "businessman 由 business（生意，源自 busy）与 man 合成， nineteenth 世纪起指从事商贸的男子，二十世纪扩展到企业管理者和出差办事的商务人士。",
+  "sensesIntro": {
+   "en": "A man who owns a business and a man who travels for one.",
+   "cn": "拥有企业的男人，以及为公司出差的男人。"
+  },
+  "semanticMap": {
+   "core": {
+    "en": "CORE IMAGE: a man with a briefcase crossing an office lobby.",
+    "cn": "核心意象：拎着公文包穿过写字楼大厅的男人。"
+   },
+   "chain": [
+    "BUSINESS",
+    "TRADE",
+    "OFFICE",
+    "MEETING",
+    "CONTRACT",
+    "PROFIT"
+   ],
+   "branches": [
+    {
+     "senses": "01",
+     "en": "a successful businessman",
+     "cn": "成功的商人"
+    },
+    {
+     "senses": "01",
+     "en": "a local businessman",
+     "cn": "当地商人"
+    },
+    {
+     "senses": "02",
+     "en": "businessmen on a flight",
+     "cn": "航班上的商务人士"
+    },
+    {
+     "senses": "01",
+     "en": "a retired businessman",
+     "cn": "退休的商人"
+    },
+    {
+     "senses": "01",
+     "en": "a businessman in a suit",
+     "cn": "穿西装的商人"
+    }
+   ]
+  },
+  "affixes": {
+   "intro": {
+    "en": "Businessman swaps man for woman, and shares its stem with business.",
+    "cn": "businessman 可把 man 换成 woman，并与 business 共用词干。"
+   },
+   "latinIntro": {
+    "en": "The base is English; the Latin items below are related only in meaning.",
+    "cn": "词基是英语，下面的拉丁词只在意思上相关。"
+   },
+   "items": [
+    {
+     "word": "businessman",
+     "structure": "business + man",
+     "meaning": "a man in trade",
+     "meaningCN": "商人",
+     "example": "a local businessman",
+     "exampleCN": "当地商人"
+    },
+    {
+     "word": "businesswoman",
+     "structure": "business + woman",
+     "meaning": "a woman in trade",
+     "meaningCN": "女商人",
+     "example": "a businesswoman in banking",
+     "exampleCN": "银行业的女商人"
+    },
+    {
+     "word": "business",
+     "structure": "busy + -ness",
+     "meaning": "trade and commercial work",
+     "meaningCN": "生意",
+     "example": "do business",
+     "exampleCN": "做生意"
+    },
+    {
+     "word": "merchant",
+     "structure": "Latin mercari",
+     "meaning": "a buyer and seller of goods",
+     "meaningCN": "商人",
+     "example": "a tea merchant",
+     "exampleCN": "茶商"
+    },
+    {
+     "word": "trader",
+     "structure": "trade + -er",
+     "meaning": "one who trades",
+     "meaningCN": "交易商",
+     "example": "a wool trader",
+     "exampleCN": "羊毛商"
+    },
+    {
+     "word": "entrepreneur",
+     "structure": "French entreprendre",
+     "meaning": "a person who starts a business",
+     "meaningCN": "创业者",
+     "example": "a young entrepreneur",
+     "exampleCN": "年轻创业者"
+    },
+    {
+     "word": "deal",
+     "structure": "Old English dǣlan",
+     "meaning": "a business agreement",
+     "meaningCN": "交易",
+     "example": "close a deal",
+     "exampleCN": "达成交易"
+    },
+    {
+     "word": "trade",
+     "structure": "Middle Low German trade",
+     "meaning": "the buying and selling of goods",
+     "meaningCN": "贸易",
+     "example": "foreign trade",
+     "exampleCN": "对外贸易"
+    }
+   ],
+   "latinEntries": []
+  }
+ },
+ {
+  "word": "busy",
+  "ipa_uk": "/ˈbɪzi/",
+  "ipa_us": "/ˈbɪzi/",
+  "definition_zh": "忙碌的；繁忙的；忙于……的",
+  "definition_en": "having a lot to do",
+  "core_image": "桌上三份文件与响个不停的电话",
+  "scene": "电话一直在响，她连头都没抬。She was too busy to answer the phone.",
+  "sceneCN": "这里 busy 是「忙碌的」（第 1 个义项：有许多事要做）；句意是她忙得没空接电话。",
+  "pos": [
+   {
+    "tag": "adj.",
+    "zh": "形容词：忙碌的；繁忙的"
+   },
+   {
+    "tag": "v.",
+    "zh": "动词：使忙于（busy oneself）"
+   }
+  ],
+  "collocations": [
+   {
+    "phrase": "busy with work",
+    "zh": "忙于工作"
+   },
+   {
+    "phrase": "a busy street",
+    "zh": "繁忙的街道"
+   },
+   {
+    "phrase": "busy doing something",
+    "zh": "正忙着做某事"
+   },
+   {
+    "phrase": "a busy day",
+    "zh": "忙碌的一天"
+   },
+   {
+    "phrase": "too busy to talk",
+    "zh": "忙得没空说话"
+   }
+  ],
+  "forms": [
+   {
+    "label": "比较级",
+    "form": "busier"
+   },
+   {
+    "label": "最高级",
+    "form": "busiest"
+   }
+  ],
+  "derivatives": [
+   {
+    "word": "business",
+    "pos": "n.",
+    "zh": "生意，事务，由 busy 派生"
+   },
+   {
+    "word": "busily",
+    "pos": "adv.",
+    "zh": "忙碌地"
+   }
+  ],
+  "senses": [
+   {
+    "no": "01",
+    "title": "Having much to do",
+    "titleCN": "忙碌的",
+    "definition": "having a lot of work or things to do",
+    "definitionCN": "有许多工作或事情要做",
+    "example": "She was too busy to answer the phone.",
+    "exampleCN": "她忙得没空接电话。",
+    "why": "This is the oldest sense, from a word for being occupied.",
+    "whyCN": "这是最古老的义项，来自表示「被占住」的词。"
+   },
+   {
+    "no": "02",
+    "title": "Full of activity",
+    "titleCN": "繁忙的",
+    "definition": "full of people and movement",
+    "definitionCN": "人多、活动频繁的",
+    "example": "The street is busy at this hour.",
+    "exampleCN": "这个时段街上很繁忙。",
+    "why": "A place crowded with people looks as occupied as a person.",
+    "whyCN": "挤满人的地方，看起来和人一样「被占满」。"
+   },
+   {
+    "no": "03",
+    "title": "Occupied with doing something",
+    "titleCN": "忙于……的",
+    "definition": "spending time on a particular activity",
+    "definitionCN": "把时间花在某项活动上",
+    "example": "He was busy writing reports all morning.",
+    "exampleCN": "他一上午都在忙着写报告。",
+    "why": "The adjective takes a second action to show what fills the time.",
+    "whyCN": "这个形容词后面接一个动作，说明时间被什么占满。"
+   }
+  ],
+  "etymology": {
+   "intro": {
+    "en": "Busy is an Old English word for being occupied, and it gave us business.",
+    "cn": "busy 是古英语中表示「被占住」的词，business 由它派生。"
+   },
+   "items": [
+    {
+     "era": "OLD ENGLISH",
+     "en": "bisig meant careful, occupied or anxious.",
+     "cn": "bisig 意为专注、忙碌或忧虑。"
+    },
+    {
+     "era": "MIDDLE ENGLISH",
+     "en": "busy settled on having much to do.",
+     "cn": "busy 固定为「有许多事要做」。"
+    },
+    {
+     "era": "SIXTEENTH CENTURY",
+     "en": "business grew from busy to mean dealings.",
+     "cn": "business 由 busy 发展出「事务、生意」。"
+    },
+    {
+     "era": "NINETEENTH CENTURY",
+     "en": "A busy street named a crowded place.",
+     "cn": "a busy street 指人多热闹的街。"
+    },
+    {
+     "era": "PRESENT DAY ENGLISH",
+     "en": "busy covers people, places and occupied time.",
+     "cn": "如今 busy 涵盖人、地点与被占满的时间。"
+    }
+   ]
+  },
+  "similar": {
+   "note": {
+    "en": "The look-alike group shares the bu- opening; the near-meaning group gives occupied words.",
+    "cn": "形近组共享 bu- 开头；近义组是表示「被占用」的词。"
+   },
+   "groups": [
+    {
+     "heading": "LOOK-ALIKE",
+     "entries": [
+      {
+       "word": "bus",
+       "ipa": "/bʌs/",
+       "tag": "look-alike",
+       "definition": "a large passenger vehicle",
+       "definitionCN": "公共汽车"
+      },
+      {
+       "word": "bush",
+       "ipa": "/bʊʃ/",
+       "tag": "look-alike",
+       "definition": "a low woody plant",
+       "definitionCN": "灌木"
+      },
+      {
+       "word": "bury",
+       "ipa": "/ˈberi/",
+       "tag": "look-alike",
+       "definition": "to put something in the earth",
+       "definitionCN": "掩埋"
+      }
+     ]
+    },
+    {
+     "heading": "NEAR MEANING",
+     "entries": [
+      {
+       "word": "occupied",
+       "ipa": "/ˈɒkjupaɪd/",
+       "tag": "near synonym",
+       "definition": "busy with something",
+       "definitionCN": "忙于……的"
+      },
+      {
+       "word": "engaged",
+       "ipa": "/ɪnˈɡeɪdʒd/",
+       "tag": "near synonym",
+       "definition": "busy or in use",
+       "definitionCN": "忙于；被占用的"
+      },
+      {
+       "word": "hectic",
+       "ipa": "/ˈhektɪk/",
+       "tag": "related",
+       "definition": "very busy and fast",
+       "definitionCN": "忙乱的"
+      }
+     ]
+    }
+   ]
+  },
+  "mnemonics": {
+   "normalIntro": {
+    "en": "Busy is a desk with no empty space left.",
+    "cn": "busy 就是一张再也放不下东西的桌子。"
+   },
+   "normal": [
+    {
+     "en": "The comparative is busier.",
+     "cn": "比较级是 busier。"
+    },
+    {
+     "en": "The busiest hour is just before lunch.",
+     "cn": "最忙的时段是午饭前。"
+    },
+    {
+     "en": "Business comes from busy.",
+     "cn": "business 就是从 busy 来的。"
+    },
+    {
+     "en": "Busily means in a busy way.",
+     "cn": "busily 意为忙碌地。"
+    },
+    {
+     "en": "Too busy to talk means no time at all.",
+     "cn": "too busy to talk 指一点空也没有。"
+    }
+   ],
+   "abstract": [
+    {
+     "en": "See a phone ringing beside an untouched cup.",
+     "cn": "想象电话响着，杯子还没动过。"
+    },
+    {
+     "en": "See a crossing full of people at noon.",
+     "cn": "想象正午挤满人的路口。"
+    },
+    {
+     "en": "See two hands typing without a pause.",
+     "cn": "想象两只不曾停下的打字的手。"
+    }
+   ]
+  },
+  "examples": [
+   {
+    "en": "She was too busy to answer the phone.",
+    "cn": "她忙得没空接电话。"
+   },
+   {
+    "en": "The street is busy at this hour.",
+    "cn": "这个时段街上很繁忙。"
+   },
+   {
+    "en": "He was busy writing reports all morning.",
+    "cn": "他一上午都在忙着写报告。"
+   }
+  ],
+  "dict_mnemonic": {
+   "note": "拆词记忆 · 非词源",
+   "text": "busy 与 bus 只差两个字母，挤公交的时候，人人都是一副忙忙碌碌的样子。",
+   "word": "busy"
+  },
+  "root": "busy 源自古英语 bisig，本指专注、被占住，中古英语起固定为「忙碌」；其名词形式 business 由它派生，后来又泛指生意与事务。",
+  "sensesIntro": {
+   "en": "A person with no spare time, a crowded place, and time filled by one task.",
+   "cn": "抽不出空的人、挤满人的地方、被一件事占满的时间。"
+  },
+  "semanticMap": {
+   "core": {
+    "en": "CORE IMAGE: a desk piled with papers and a ringing phone.",
+    "cn": "核心意象：堆满文件、电话直响的桌子。"
+   },
+   "chain": [
+    "WORK",
+    "PAPERS",
+    "PHONE",
+    "RUSH",
+    "CROWD",
+    "TIRED"
+   ],
+   "branches": [
+    {
+     "senses": "01",
+     "en": "busy with work",
+     "cn": "忙于工作"
+    },
+    {
+     "senses": "01",
+     "en": "a busy day",
+     "cn": "忙碌的一天"
+    },
+    {
+     "senses": "02",
+     "en": "a busy street",
+     "cn": "繁忙的街道"
+    },
+    {
+     "senses": "03",
+     "en": "busy doing something",
+     "cn": "忙着做某事"
+    },
+    {
+     "senses": "01",
+     "en": "too busy to talk",
+     "cn": "忙得没空说话"
+    }
+   ]
+  },
+  "affixes": {
+   "intro": {
+    "en": "Busy gives -ness to form business and -ly to form busily.",
+    "cn": "busy 加 -ness 构成 business，加 -ly 构成 busily。"
+   },
+   "latinIntro": {
+    "en": "The base is Old English; the Latin items below are related only in meaning.",
+    "cn": "词基来自古英语，下面的拉丁词只在意思上相关。"
+   },
+   "items": [
+    {
+     "word": "busy",
+     "structure": "Old English bisig",
+     "meaning": "having much to do",
+     "meaningCN": "忙碌的",
+     "example": "a busy day",
+     "exampleCN": "忙碌的一天"
+    },
+    {
+     "word": "business",
+     "structure": "busy + -ness",
+     "meaning": "work, trade or dealings",
+     "meaningCN": "生意",
+     "example": "do business",
+     "exampleCN": "做生意"
+    },
+    {
+     "word": "busily",
+     "structure": "busy + -ly",
+     "meaning": "in a busy manner",
+     "meaningCN": "忙碌地",
+     "example": "work busily",
+     "exampleCN": "忙碌地工作"
+    },
+    {
+     "word": "occupy",
+     "structure": "Latin occupare",
+     "meaning": "to fill or take up",
+     "meaningCN": "占用",
+     "example": "occupy a seat",
+     "exampleCN": "占座"
+    },
+    {
+     "word": "engaged",
+     "structure": "en- + gage",
+     "meaning": "busy or in use",
+     "meaningCN": "忙于",
+     "example": "engaged in talk",
+     "exampleCN": "忙于谈话"
+    },
+    {
+     "word": "rush",
+     "structure": "Old French ruser",
+     "meaning": "to move with great speed",
+     "meaningCN": "匆忙",
+     "example": "rush to work",
+     "exampleCN": "赶去上班"
+    },
+    {
+     "word": "hectic",
+     "structure": "Greek hektikos",
+     "meaning": "very busy and fast",
+     "meaningCN": "忙乱的",
+     "example": "a hectic week",
+     "exampleCN": "忙乱的一周"
+    },
+    {
+     "word": "idle",
+     "structure": "Old English īdel",
+     "meaning": "not busy at all",
+     "meaningCN": "空闲的",
+     "example": "idle hours",
+     "exampleCN": "空闲时光"
+    }
+   ],
+   "latinEntries": []
+  }
+ },
+ {
+  "word": "but",
+  "ipa_uk": "/bʌt/",
+  "ipa_us": "/bʌt/",
+  "definition_zh": "但是；除……之外；只，仅仅",
+  "definition_en": "used to introduce something different from what was said",
+  "core_image": "话说到一半忽然转了方向",
+  "scene": "雨下了一整天。It rained all day, but nobody complained.",
+  "sceneCN": "这里 but 是「但是」（第 1 个义项：引出与前句相反的情况）；句意是雨下了一整天，但没人抱怨。",
+  "pos": [
+   {
+    "tag": "conj.",
+    "zh": "连词：但是"
+   },
+   {
+    "tag": "prep.",
+    "zh": "介词：除……之外"
+   },
+   {
+    "tag": "adv.",
+    "zh": "副词：只，仅仅"
+   }
+  ],
+  "collocations": [
+   {
+    "phrase": "not only but also",
+    "zh": "不但……而且"
+   },
+   {
+    "phrase": "but for",
+    "zh": "要不是"
+   },
+   {
+    "phrase": "all but",
+    "zh": "几乎；除了……都"
+   },
+   {
+    "phrase": "nothing but",
+    "zh": "只不过"
+   },
+   {
+    "phrase": "last but not least",
+    "zh": "最后但同样重要的是"
+   }
+  ],
+  "forms": [
+   {
+    "label": "无变化",
+    "form": "but"
+   }
+  ],
+  "derivatives": [
+   {
+    "word": "however",
+    "pos": "adv.",
+    "zh": "然而，不过在句中起同样的转折作用"
+   },
+   {
+    "word": "except",
+    "pos": "prep.",
+    "zh": "除……之外，与 but 的介词义相近"
+   }
+  ],
+  "senses": [
+   {
+    "no": "01",
+    "title": "Introducing a contrast",
+    "titleCN": "但是",
+    "definition": "used to join a statement that differs from the first",
+    "definitionCN": "用来连接与前一句不同或相反的说法",
+    "example": "It rained all day, but nobody complained.",
+    "exampleCN": "雨下了一整天，但没人抱怨。",
+    "why": "This is the main sense, turning the sentence another way.",
+    "whyCN": "这是主要义项，把话锋转到另一个方向。"
+   },
+   {
+    "no": "02",
+    "title": "Except",
+    "titleCN": "除……之外",
+    "definition": "used to mean all except a particular thing",
+    "definitionCN": "表示除了某事物以外的全部",
+    "example": "Everyone but Tom had gone home.",
+    "exampleCN": "除了汤姆，大家都回家了。",
+    "why": "The old sense of 'outside' survives in this use.",
+    "whyCN": "「在外面」这一古老含义在这一用法中留存下来。"
+   },
+   {
+    "no": "03",
+    "title": "Only",
+    "titleCN": "只，仅仅",
+    "definition": "used to mean only or merely",
+    "definitionCN": "表示「只不过」的意思",
+    "example": "We can but try.",
+    "exampleCN": "我们只能试一试。",
+    "why": "A limiting sense grew from the idea of leaving everything out.",
+    "whyCN": "「排除其余」的想法发展出了「仅仅」的意思。"
+   }
+  ],
+  "etymology": {
+   "intro": {
+    "en": "But began as a word meaning outside or except.",
+    "cn": "but 最初表示「在外」或「除……之外」。"
+   },
+   "items": [
+    {
+     "era": "OLD ENGLISH",
+     "en": "būtan meant outside or without.",
+     "cn": "būtan 意为在外面、没有。"
+    },
+    {
+     "era": "MIDDLE ENGLISH",
+     "en": "but came to mean except in a sentence.",
+     "cn": "but 在句中开始表示「除了」。"
+    },
+    {
+     "era": "FOURTEENTH CENTURY",
+     "en": "but turned into the common word of contrast.",
+     "cn": "but 成为常见的转折词。"
+    },
+    {
+     "era": "SIXTEENTH CENTURY",
+     "en": "The limiting sense of only appeared.",
+     "cn": "「仅仅」这一限定义出现。"
+    },
+    {
+     "era": "PRESENT DAY ENGLISH",
+     "en": "but marks contrast, exception or limitation.",
+     "cn": "如今 but 表示转折、例外或限定。"
+    }
+   ]
+  },
+  "similar": {
+   "note": {
+    "en": "The look-alike group differs by one letter; the near-meaning group gives other contrast words.",
+    "cn": "形近组只差一个字母；近义组是其他表示转折的词。"
+   },
+   "groups": [
+    {
+     "heading": "LOOK-ALIKE",
+     "entries": [
+      {
+       "word": "bat",
+       "ipa": "/bæt/",
+       "tag": "look-alike",
+       "definition": "a stick used to hit a ball",
+       "definitionCN": "球棒"
+      },
+      {
+       "word": "bit",
+       "ipa": "/bɪt/",
+       "tag": "look-alike",
+       "definition": "a small piece",
+       "definitionCN": "一点"
+      },
+      {
+       "word": "butt",
+       "ipa": "/bʌt/",
+       "tag": "look-alike",
+       "definition": "the thick end of something",
+       "definitionCN": "粗端"
+      }
+     ]
+    },
+    {
+     "heading": "NEAR MEANING",
+     "entries": [
+      {
+       "word": "however",
+       "ipa": "/haʊˈevə/",
+       "tag": "near synonym",
+       "definition": "used to add a contrasting point",
+       "definitionCN": "然而"
+      },
+      {
+       "word": "yet",
+       "ipa": "/jet/",
+       "tag": "near synonym",
+       "definition": "but at the same time",
+       "definitionCN": "然而"
+      },
+      {
+       "word": "except",
+       "ipa": "/ɪkˈsept/",
+       "tag": "related",
+       "definition": "not including",
+       "definitionCN": "除……之外"
+      }
+     ]
+    }
+   ]
+  },
+  "mnemonics": {
+   "normalIntro": {
+    "en": "But is a small hinge that turns the sentence.",
+    "cn": "but 就是让句子转向的一个小铰链。"
+   },
+   "normal": [
+    {
+     "en": "Not only but also joins two strong points.",
+     "cn": "not only but also 连接两个重点。"
+    },
+    {
+     "en": "But for the rain, we would have gone.",
+     "cn": "要不是下雨，我们就去了。"
+    },
+    {
+     "en": "All but one student passed.",
+     "cn": "除了一个学生，其余都通过了。"
+    },
+    {
+     "en": "Nothing but water was left.",
+     "cn": "只剩下水了。"
+    },
+    {
+     "en": "Everyone but Tom had gone home.",
+     "cn": "除了汤姆，大家都回家了。"
+    }
+   ],
+   "abstract": [
+    {
+     "en": "See a road bend sharply the other way.",
+     "cn": "想象道路忽然拐向另一边。"
+    },
+    {
+     "en": "See one empty chair among full ones.",
+     "cn": "想象满座之中空着一把椅子。"
+    },
+    {
+     "en": "See a single coin in an open hand.",
+     "cn": "想象摊开的手心里只有一枚硬币。"
+    }
+   ]
+  },
+  "examples": [
+   {
+    "en": "It rained all day, but nobody complained.",
+    "cn": "雨下了一整天，但没人抱怨。"
+   },
+   {
+    "en": "Everyone but Tom had gone home.",
+    "cn": "除了汤姆，大家都回家了。"
+   },
+   {
+    "en": "We can but try.",
+    "cn": "我们只能试一试。"
+   }
+  ],
+  "dict_mnemonic": {
+   "note": "拆词记忆 · 非词源",
+   "text": "but 只有三个字母，读起来短促一顿，正好像说话时忽然停一下换个方向。",
+   "word": "but"
+  },
+  "root": "but 源自古英语 būtan，本义为「在外面、没有」，中古英语起在句中表示「除了」，十四世纪发展为最常见的转折连词，十六世纪又有了「仅仅」的限定用法。",
+  "sensesIntro": {
+   "en": "A turn against what came before, an exception, and a limit.",
+   "cn": "与前文相反的一转、一个例外、一个限定。"
+  },
+  "semanticMap": {
+   "core": {
+    "en": "CORE IMAGE: a sentence turning at a hinge.",
+    "cn": "核心意象：句子在一个铰链处转向。"
+   },
+   "chain": [
+    "OUTSIDE",
+    "EXCEPT",
+    "TURN",
+    "CONTRAST",
+    "LIMIT",
+    "ONLY"
+   ],
+   "branches": [
+    {
+     "senses": "01",
+     "en": "small but strong",
+     "cn": "小而结实"
+    },
+    {
+     "senses": "02",
+     "en": "everyone but Tom",
+     "cn": "除了汤姆所有人"
+    },
+    {
+     "senses": "02",
+     "en": "all but one",
+     "cn": "除了一个"
+    },
+    {
+     "senses": "03",
+     "en": "we can but try",
+     "cn": "只能试试"
+    },
+    {
+     "senses": "01",
+     "en": "last but not least",
+     "cn": "最后但同样重要"
+    }
+   ]
+  },
+  "affixes": {
+   "intro": {
+    "en": "But has no endings of its own, so the items below are its near forms.",
+    "cn": "but 本身不带词缀，下面列出的是它在用法上相邻的词。"
+   },
+   "latinIntro": {
+    "en": "The base is Old English; the Latin items below are related only in meaning.",
+    "cn": "词基来自古英语，下面的拉丁词只在意思上相关。"
+   },
+   "items": [
+    {
+     "word": "but",
+     "structure": "Old English būtan",
+     "meaning": "except, or a turn in speech",
+     "meaningCN": "但是；除……之外",
+     "example": "small but strong",
+     "exampleCN": "小而结实"
+    },
+    {
+     "word": "however",
+     "structure": "how + ever",
+     "meaning": "in spite of that",
+     "meaningCN": "然而",
+     "example": "however late",
+     "exampleCN": "无论多晚"
+    },
+    {
+     "word": "except",
+     "structure": "Latin excipere",
+     "meaning": "not including",
+     "meaningCN": "除……之外",
+     "example": "except one",
+     "exampleCN": "除了一个"
+    },
+    {
+     "word": "yet",
+     "structure": "Old English gīet",
+     "meaning": "but even so",
+     "meaningCN": "然而",
+     "example": "yet it worked",
+     "exampleCN": "然而它奏效了"
+    },
+    {
+     "word": "although",
+     "structure": "all + though",
+     "meaning": "even though",
+     "meaningCN": "虽然",
+     "example": "although tired",
+     "exampleCN": "虽然累了"
+    },
+    {
+     "word": "though",
+     "structure": "Old English þēah",
+     "meaning": "despite the fact that",
+     "meaningCN": "虽然",
+     "example": "though small",
+     "exampleCN": "虽然小"
+    },
+    {
+     "word": "only",
+     "structure": "Old English ānlic",
+     "meaning": "no more than",
+     "meaningCN": "仅仅",
+     "example": "only one",
+     "exampleCN": "只有一个"
+    },
+    {
+     "word": "contrast",
+     "structure": "Latin contra + stare",
+     "meaning": "a clear difference",
+     "meaningCN": "对比",
+     "example": "a sharp contrast",
+     "exampleCN": "鲜明的对比"
+    }
+   ],
+   "latinEntries": []
+  }
+ },
+ {
+  "word": "butcher",
+  "ipa_uk": "/ˈbʊtʃə/",
+  "ipa_us": "/ˈbʊtʃər/",
+  "definition_zh": "屠夫；肉贩；屠宰；糟蹋",
+  "definition_en": "a person who cuts up and sells meat",
+  "core_image": "市场里挂着一扇肉的铺子",
+  "scene": "市场尽头的铺子挂着整扇肉。The butcher sharpened his knife behind the counter.",
+  "sceneCN": "这里 butcher 是「肉贩」（第 1 个义项：切割并出售肉类的人）；句意是肉贩在柜台后磨刀。",
+  "pos": [
+   {
+    "tag": "n.",
+    "zh": "名词：屠夫；肉贩"
+   },
+   {
+    "tag": "v.",
+    "zh": "动词：屠宰；糟蹋"
+   }
+  ],
+  "collocations": [
+   {
+    "phrase": "a local butcher",
+    "zh": "当地的肉贩"
+   },
+   {
+    "phrase": "a butcher's knife",
+    "zh": "屠刀"
+   },
+   {
+    "phrase": "at the butcher's",
+    "zh": "在肉铺"
+   },
+   {
+    "phrase": "butcher the animals",
+    "zh": "屠宰牲畜"
+   },
+   {
+    "phrase": "butcher the language",
+    "zh": "把语言用得一团糟"
+   }
+  ],
+  "forms": [
+   {
+    "label": "复数",
+    "form": "butchers"
+   },
+   {
+    "label": "过去式",
+    "form": "butchered"
+   },
+   {
+    "label": "现在分词",
+    "form": "butchering"
+   }
+  ],
+  "derivatives": [
+   {
+    "word": "butchery",
+    "pos": "n.",
+    "zh": "屠宰；血腥屠杀"
+   },
+   {
+    "word": "slaughter",
+    "pos": "v.",
+    "zh": "屠宰，与 butcher 的动作相近"
+   }
+  ],
+  "senses": [
+   {
+    "no": "01",
+    "title": "A person who sells meat",
+    "titleCN": "肉贩",
+    "definition": "a person who cuts up meat and sells it",
+    "definitionCN": "切割并出售肉类的人",
+    "example": "The butcher sharpened his knife behind the counter.",
+    "exampleCN": "肉贩在柜台后磨刀。",
+    "why": "This is the main sense, from a word for one who kills goats.",
+    "whyCN": "这是主要义项，源自「宰羊的人」。"
+   },
+   {
+    "no": "02",
+    "title": "To kill and cut up animals",
+    "titleCN": "屠宰",
+    "definition": "to kill animals and cut them into meat",
+    "definitionCN": "宰杀牲畜并切成肉块",
+    "example": "They butchered a pig for the feast.",
+    "exampleCN": "他们为宴席宰了一头猪。",
+    "why": "The trade gave its name to the work it does.",
+    "whyCN": "这个行当把名字给了它所做的活。"
+   },
+   {
+    "no": "03",
+    "title": "To spoil something badly",
+    "titleCN": "糟蹋",
+    "definition": "to do something so badly that it is ruined",
+    "definitionCN": "把事情做得极糟，弄坏了",
+    "example": "He butchered the song at the party.",
+    "exampleCN": "他在聚会上把那首歌唱得一塌糊涂。",
+    "why": "Cutting a thing carelessly ruins it, like meat cut wrong.",
+    "whyCN": "乱切会把东西毁掉，就像肉被切坏了。"
+   }
+  ],
+  "etymology": {
+   "intro": {
+    "en": "Butcher came from French for a dealer in goat meat.",
+    "cn": "butcher 借自法语，指卖山羊肉的商人。"
+   },
+   "items": [
+    {
+     "era": "OLD FRENCH",
+     "en": "bochier meant a dealer in goat meat.",
+     "cn": "bochier 指卖山羊肉的商人。"
+    },
+    {
+     "era": "MIDDLE ENGLISH",
+     "en": "butcher named anyone who sold meat.",
+     "cn": "butcher 指任何卖肉的人。"
+    },
+    {
+     "era": "SIXTEENTH CENTURY",
+     "en": "The verb meant to kill and cut up animals.",
+     "cn": "动词义为宰杀并切分牲畜。"
+    },
+    {
+     "era": "NINETEENTH CENTURY",
+     "en": "Butcher extended to spoiling a job badly.",
+     "cn": "butcher 扩展到把事情做坏。"
+    },
+    {
+     "era": "PRESENT DAY ENGLISH",
+     "en": "butcher means a meat seller, a slaughterer or a bungler.",
+     "cn": "如今 butcher 指肉贩、屠宰者或把事情做坏的人。"
+    }
+   ]
+  },
+  "similar": {
+   "note": {
+    "en": "The look-alike group shares the but- opening; the near-meaning group gives trade and killing words.",
+    "cn": "形近组共享 but- 开头；近义组是商贸与宰杀类的词。"
+   },
+   "groups": [
+    {
+     "heading": "LOOK-ALIKE",
+     "entries": [
+      {
+       "word": "butter",
+       "ipa": "/ˈbʌtə/",
+       "tag": "look-alike",
+       "definition": "a soft yellow food made from cream",
+       "definitionCN": "黄油"
+      },
+      {
+       "word": "bottle",
+       "ipa": "/ˈbɒtl/",
+       "tag": "look-alike",
+       "definition": "a glass container for liquid",
+       "definitionCN": "瓶子"
+      },
+      {
+       "word": "bachelor",
+       "ipa": "/ˈbætʃələ/",
+       "tag": "look-alike",
+       "definition": "an unmarried man",
+       "definitionCN": "单身男子"
+      }
+     ]
+    },
+    {
+     "heading": "NEAR MEANING",
+     "entries": [
+      {
+       "word": "slaughterer",
+       "ipa": "/ˈslɔːtərə/",
+       "tag": "near synonym",
+       "definition": "a person who kills animals for meat",
+       "definitionCN": "屠宰者"
+      },
+      {
+       "word": "dealer",
+       "ipa": "/ˈdiːlə/",
+       "tag": "near synonym",
+       "definition": "a person who buys and sells goods",
+       "definitionCN": "商人"
+      },
+      {
+       "word": "grocer",
+       "ipa": "/ˈɡrəʊsə/",
+       "tag": "related",
+       "definition": "a shopkeeper selling food",
+       "definitionCN": "食品杂货商"
+      }
+     ]
+    }
+   ]
+  },
+  "mnemonics": {
+   "normalIntro": {
+    "en": "A butcher turns a whole animal into cuts of meat.",
+    "cn": "butcher 把整只牲畜变成一块块肉。"
+   },
+   "normal": [
+    {
+     "en": "Buy meat at the butcher's.",
+     "cn": "在肉铺买肉。"
+    },
+    {
+     "en": "The plural is butchers.",
+     "cn": "复数是 butchers。"
+    },
+    {
+     "en": "A butcher's knife is broad and heavy.",
+     "cn": "屠刀又宽又重。"
+    },
+    {
+     "en": "Butchery also means cruel killing.",
+     "cn": "butchery 也指血腥屠杀。"
+    },
+    {
+     "en": "To butcher a song is to sing it badly.",
+     "cn": "butcher a song 指把歌唱得很糟。"
+    }
+   ],
+   "abstract": [
+    {
+     "en": "See a row of hooks along a cold wall.",
+     "cn": "想象冷墙上的一排挂钩。"
+    },
+    {
+     "en": "See a steel blade wiped on a cloth.",
+     "cn": "想象钢刀在布上擦过。"
+    },
+    {
+     "en": "See a page torn in the wrong places.",
+     "cn": "想象一页纸被剪得乱七八糟。"
+    }
+   ]
+  },
+  "examples": [
+   {
+    "en": "The butcher sharpened his knife behind the counter.",
+    "cn": "肉贩在柜台后磨刀。"
+   },
+   {
+    "en": "They butchered a pig for the feast.",
+    "cn": "他们为宴席宰了一头猪。"
+   },
+   {
+    "en": "He butchered the song at the party.",
+    "cn": "他在聚会上把那首歌唱得一塌糊涂。"
+   }
+  ],
+  "dict_mnemonic": {
+   "note": "拆词记忆 · 非词源",
+   "text": "butcher 与 butter 只差一个字母，肉铺的柜台上除了肉，也常摆着黄油。",
+   "word": "butcher"
+  },
+  "root": "butcher 借自古法语 bochier，本指卖山羊肉的商人；中古英语起泛指肉贩，十六世纪起作动词表示屠宰，十九世纪又引申为「把事情做得一团糟」。",
+  "sensesIntro": {
+   "en": "The man at the meat counter, the killing he does, and a job ruined.",
+   "cn": "肉摊后的人、他所做的宰杀、以及被做坏的事情。"
+  },
+  "semanticMap": {
+   "core": {
+    "en": "CORE IMAGE: a meat shop with a carcass on a hook.",
+    "cn": "核心意象：挂着整扇肉的肉铺。"
+   },
+   "chain": [
+    "ANIMAL",
+    "KNIFE",
+    "CUT",
+    "MEAT",
+    "COUNTER",
+    "RUIN"
+   ],
+   "branches": [
+    {
+     "senses": "01",
+     "en": "a local butcher",
+     "cn": "当地肉贩"
+    },
+    {
+     "senses": "01",
+     "en": "at the butcher's",
+     "cn": "在肉铺"
+    },
+    {
+     "senses": "02",
+     "en": "butcher the animals",
+     "cn": "屠宰牲畜"
+    },
+    {
+     "senses": "03",
+     "en": "butcher the language",
+     "cn": "把语言用得一团糟"
+    },
+    {
+     "senses": "01",
+     "en": "a butcher's knife",
+     "cn": "屠刀"
+    }
+   ]
+  },
+  "affixes": {
+   "intro": {
+    "en": "Butcher takes -y for the trade and -ing for the act.",
+    "cn": "butcher 加 -y 表示行业，加 -ing 表示动作。"
+   },
+   "latinIntro": {
+    "en": "The base is Old French; the Latin items below are related only in meaning.",
+    "cn": "词基来自古法语，下面的拉丁词只在意思上相关。"
+   },
+   "items": [
+    {
+     "word": "butcher",
+     "structure": "Old French bochier",
+     "meaning": "a meat seller",
+     "meaningCN": "肉贩",
+     "example": "a local butcher",
+     "exampleCN": "当地肉贩"
+    },
+    {
+     "word": "butchery",
+     "structure": "butcher + -y",
+     "meaning": "the trade or a cruel killing",
+     "meaningCN": "屠宰；屠杀",
+     "example": "senseless butchery",
+     "exampleCN": "无谓的屠杀"
+    },
+    {
+     "word": "butchering",
+     "structure": "butcher + -ing",
+     "meaning": "the act of cutting up meat",
+     "meaningCN": "屠宰",
+     "example": "the butchering of pigs",
+     "exampleCN": "宰猪"
+    },
+    {
+     "word": "meat",
+     "structure": "Old English mete",
+     "meaning": "the flesh of animals as food",
+     "meaningCN": "肉",
+     "example": "fresh meat",
+     "exampleCN": "鲜肉"
+    },
+    {
+     "word": "knife",
+     "structure": "Old English cnīf",
+     "meaning": "a blade for cutting",
+     "meaningCN": "刀",
+     "example": "a sharp knife",
+     "exampleCN": "锋利的刀"
+    },
+    {
+     "word": "slaughter",
+     "structure": "Old Norse slātr",
+     "meaning": "to kill animals for food",
+     "meaningCN": "屠宰",
+     "example": "slaughter a sheep",
+     "exampleCN": "宰羊"
+    },
+    {
+     "word": "carve",
+     "structure": "Old English ceorfan",
+     "meaning": "to cut meat into pieces",
+     "meaningCN": "切肉",
+     "example": "carve the roast",
+     "exampleCN": "切烤肉"
+    },
+    {
+     "word": "chop",
+     "structure": "Middle English choppen",
+     "meaning": "to cut with a heavy blow",
+     "meaningCN": "剁",
+     "example": "chop the wood",
+     "exampleCN": "劈柴"
+    }
+   ],
+   "latinEntries": []
+  }
+ },
+ {
+  "word": "butter",
+  "ipa_uk": "/ˈbʌtə/",
+  "ipa_us": "/ˈbʌtər/",
+  "definition_zh": "黄油；牛油；抹黄油；讨好",
+  "definition_en": "a soft yellow food made from cream and spread on bread",
+  "core_image": "面包上慢慢融开的淡黄色油脂",
+  "scene": "早餐桌上的面包还热着。She spread butter on the warm toast.",
+  "sceneCN": "这里 butter 是「黄油」（第 1 个义项：用奶油制成的黄色食品）；句意是她把黄油抹在热吐司上。",
+  "pos": [
+   {
+    "tag": "n.",
+    "zh": "名词：黄油；牛油"
+   },
+   {
+    "tag": "vt.",
+    "zh": "动词：给…抹黄油；讨好"
+   }
+  ],
+  "collocations": [
+   {
+    "phrase": "bread and butter",
+    "zh": "涂黄油的面包；生计"
+   },
+   {
+    "phrase": "melt the butter",
+    "zh": "融化黄油"
+   },
+   {
+    "phrase": "peanut butter",
+    "zh": "花生酱"
+   },
+   {
+    "phrase": "butter the toast",
+    "zh": "给吐司抹黄油"
+   },
+   {
+    "phrase": "a pat of butter",
+    "zh": "一小块黄油"
+   }
+  ],
+  "forms": [
+   {
+    "label": "三单",
+    "form": "butters"
+   },
+   {
+    "label": "过去式",
+    "form": "buttered"
+   },
+   {
+    "label": "过去分词",
+    "form": "buttered"
+   },
+   {
+    "label": "现在分词",
+    "form": "buttering"
+   }
+  ],
+  "derivatives": [
+   {
+    "word": "buttery",
+    "pos": "adj.",
+    "zh": "黄油般的；含黄油的"
+   },
+   {
+    "word": "buttermilk",
+    "pos": "n.",
+    "zh": "酪乳，搅黄油后剩下的酸味液体"
+   },
+   {
+    "word": "butterfat",
+    "pos": "n.",
+    "zh": "乳脂，牛奶中提取黄油的部分"
+   }
+  ],
+  "senses": [
+   {
+    "no": "01",
+    "title": "The yellow spread made from cream",
+    "titleCN": "黄油",
+    "definition": "a soft yellow food made from cream, used on bread",
+    "definitionCN": "用奶油制成的柔软黄色食品，常涂在面包上",
+    "example": "She spread butter on the warm toast.",
+    "exampleCN": "她把黄油抹在热吐司上。",
+    "why": "The core image is fat churned from cream until it turns solid and yellow.",
+    "whyCN": "核心意象是把奶油搅打到凝固发黄，这就是黄油的来历。"
+   },
+   {
+    "no": "02",
+    "title": "To spread butter on something",
+    "titleCN": "抹黄油",
+    "definition": "to put butter on bread or another surface",
+    "definitionCN": "把黄油涂在面包或其他表面上",
+    "example": "He buttered a slice of bread for breakfast.",
+    "exampleCN": "他早餐时给一片面包抹了黄油。",
+    "why": "The noun turned into a verb by naming the action of applying it.",
+    "whyCN": "名词直接转为动词，指「把黄油涂上去」这个动作。"
+   },
+   {
+    "no": "03",
+    "title": "To flatter someone",
+    "titleCN": "讨好",
+    "definition": "to praise someone insincerely in order to gain something",
+    "definitionCN": "为了得到好处而虚假地称赞某人",
+    "example": "She tried to butter up the manager before the review.",
+    "exampleCN": "评审之前她想讨好经理。",
+    "why": "Smooth butter suggests smooth words that make a person easy to please.",
+    "whyCN": "顺滑的黄油引申为顺耳的话，把人哄得软下来。"
+   }
+  ],
+  "etymology": {
+   "intro": {
+    "en": "Butter reached English from Latin through Germanic and Old French forms.",
+    "cn": "butter 经由日耳曼语和古法语，从拉丁语进入英语。"
+   },
+   "items": [
+    {
+     "era": "GREEK",
+     "en": "boutyron named cow cheese, from bous and tyros.",
+     "cn": "boutyron 意为牛乳制的奶酪，由 bous 与 tyros 组成。"
+    },
+    {
+     "era": "LATIN",
+     "en": "butyrum borrowed the Greek word for this food.",
+     "cn": "拉丁语 butyrum 借入这个希腊词。"
+    },
+    {
+     "era": "OLD ENGLISH",
+     "en": "butere appears in early records for the dairy food.",
+     "cn": "古英语 butere 已见于早期文献，指这种乳制品。"
+    },
+    {
+     "era": "MIDDLE ENGLISH",
+     "en": "butter kept the food sense and began to be used as a verb.",
+     "cn": "中古英语保留食物义，并开始用作动词。"
+    },
+    {
+     "era": "MODERN ENGLISH",
+     "en": "butter names the spread and the act of spreading it.",
+     "cn": "现代英语中 butter 兼指黄油与涂抹的动作。"
+    }
+   ]
+  },
+  "similar": {
+   "note": {
+    "en": "The look-alike group shares the butter- opening; the near-meaning group gives other fats.",
+    "cn": "形近组都以 butter- 开头；近义组是其他食用油脂。"
+   },
+   "groups": [
+    {
+     "heading": "LOOK-ALIKE",
+     "entries": [
+      {
+       "word": "buttermilk",
+       "ipa": "/ˈbʌtəmɪlk/",
+       "tag": "same root",
+       "definition": "the sour liquid left after churning butter",
+       "definitionCN": "搅制黄油后剩下的酸味液体"
+      },
+      {
+       "word": "buttery",
+       "ipa": "/ˈbʌtəri/",
+       "tag": "derived form",
+       "definition": "containing or tasting of butter",
+       "definitionCN": "含黄油的；有黄油味的"
+      },
+      {
+       "word": "butterscotch",
+       "ipa": "/ˈbʌtəskɒtʃ/",
+       "tag": "same root",
+       "definition": "a sweet made with butter and brown sugar",
+       "definitionCN": "用黄油和红糖制成的糖果"
+      }
+     ]
+    },
+    {
+     "heading": "NEAR MEANING",
+     "entries": [
+      {
+       "word": "margarine",
+       "ipa": "/ˌmɑːdʒəˈriːn/",
+       "tag": "near meaning",
+       "definition": "a yellow spread made from vegetable oils",
+       "definitionCN": "用植物油制成的黄色涂抹食品"
+      },
+      {
+       "word": "ghee",
+       "ipa": "/ɡiː/",
+       "tag": "near meaning",
+       "definition": "clarified butter used in South Asian cooking",
+       "definitionCN": "南亚烹饪用的澄清黄油"
+      },
+      {
+       "word": "lard",
+       "ipa": "/lɑːd/",
+       "tag": "related",
+       "definition": "fat from a pig, used in cooking",
+       "definitionCN": "猪油，用于烹饪"
+      }
+     ]
+    }
+   ]
+  },
+  "mnemonics": {
+   "normalIntro": {
+    "en": "Butter is a dairy word that also became a verb.",
+    "cn": "butter 是乳制品词，同时也转成了动词。"
+   },
+   "normal": [
+    {
+     "en": "Bread and butter is a fixed pair.",
+     "cn": "bread and butter 是固定搭配。"
+    },
+    {
+     "en": "Peanut butter keeps the same pattern.",
+     "cn": "peanut butter 沿用同样的构词方式。"
+    },
+    {
+     "en": "The verb forms are butters and buttered.",
+     "cn": "动词形式是 butters 和 buttered。"
+    },
+    {
+     "en": "Buttermilk is the liquid left after churning.",
+     "cn": "buttermilk 是搅制黄油后剩下的液体。"
+    },
+    {
+     "en": "Butter up means to flatter.",
+     "cn": "butter up 义为讨好。"
+    }
+   ],
+   "abstract": [
+    {
+     "en": "See a knife gliding over soft yellow fat.",
+     "cn": "想象一把刀划过柔软的黄色油脂。"
+    },
+    {
+     "en": "See toast turning glossy as the butter melts.",
+     "cn": "想象黄油融化后吐司泛起油光。"
+    },
+    {
+     "en": "See a wooden churn turning cream into a solid block.",
+     "cn": "想象木桶把奶油搅成一块固体。"
+    }
+   ]
+  },
+  "examples": [
+   {
+    "en": "She spread butter on the warm toast.",
+    "cn": "她把黄油抹在热吐司上。"
+   },
+   {
+    "en": "He buttered a slice of bread for breakfast.",
+    "cn": "他早餐时给一片面包抹了黄油。"
+   },
+   {
+    "en": "Too much butter makes the cake heavy.",
+    "cn": "黄油放太多会让蛋糕发腻。"
+   }
+  ],
+  "dict_mnemonic": {
+   "note": "拆词记忆 · 非词源",
+   "text": "把 butter 拆成 butt 加 er，像是把一块圆鼓鼓的油脂按在面包上，抹开就成了黄油。",
+   "word": "butter"
+  },
+  "root": "butter 源自希腊语 boutyron，由 bous（牛）与 tyros（奶酪）组成，经拉丁语 butyrum 与古英语 butere 传入英语，本指牛乳制成的油脂食品。",
+  "sensesIntro": {
+   "en": "A dairy food, the act of spreading it, and smooth talk.",
+   "cn": "一种乳制食品、涂抹它的动作，以及顺耳的奉承话。"
+  },
+  "semanticMap": {
+   "core": {
+    "en": "CORE IMAGE: yellow fat melting on warm bread.",
+    "cn": "核心意象：黄色油脂在热面包上融化。"
+   },
+   "chain": [
+    "CREAM",
+    "CHURN",
+    "YELLOW FAT",
+    "BREAD",
+    "COOKING",
+    "FLATTERY"
+   ],
+   "branches": [
+    {
+     "senses": "01",
+     "en": "a pat of butter",
+     "cn": "一小块黄油"
+    },
+    {
+     "senses": "01",
+     "en": "peanut butter",
+     "cn": "花生酱"
+    },
+    {
+     "senses": "02",
+     "en": "butter the toast",
+     "cn": "给吐司抹黄油"
+    },
+    {
+     "senses": "01",
+     "en": "melt the butter",
+     "cn": "融化黄油"
+    },
+    {
+     "senses": "03",
+     "en": "butter up the manager",
+     "cn": "讨好经理"
+    }
+   ]
+  },
+  "affixes": {
+   "intro": {
+    "en": "Butter combines with nouns and suffixes to name dairy products.",
+    "cn": "butter 能与名词和后缀组合，构成乳制品的说法。"
+   },
+   "latinIntro": {
+    "en": "The base goes back to Greek and Latin; the items below are related forms.",
+    "cn": "词基可追溯到希腊语与拉丁语，下面列出相关词形。"
+   },
+   "items": [
+    {
+     "word": "butter",
+     "structure": "Old English butere",
+     "meaning": "the dairy spread",
+     "meaningCN": "黄油",
+     "example": "bread and butter",
+     "exampleCN": "涂黄油的面包"
+    },
+    {
+     "word": "buttermilk",
+     "structure": "butter + milk",
+     "meaning": "liquid left after churning",
+     "meaningCN": "酪乳",
+     "example": "a glass of buttermilk",
+     "exampleCN": "一杯酪乳"
+    },
+    {
+     "word": "buttery",
+     "structure": "butter + -y",
+     "meaning": "tasting of butter",
+     "meaningCN": "有黄油味的",
+     "example": "a buttery pastry",
+     "exampleCN": "黄油味酥点"
+    },
+    {
+     "word": "butterscotch",
+     "structure": "butter + scotch",
+     "meaning": "a butter and sugar sweet",
+     "meaningCN": "黄油糖",
+     "example": "butterscotch sauce",
+     "exampleCN": "黄油糖酱"
+    },
+    {
+     "word": "cream",
+     "structure": "Old French cresme",
+     "meaning": "the rich part of milk",
+     "meaningCN": "奶油",
+     "example": "fresh cream",
+     "exampleCN": "新鲜奶油"
+    },
+    {
+     "word": "milk",
+     "structure": "Old English meolc",
+     "meaning": "the white drink from cows",
+     "meaningCN": "牛奶",
+     "example": "a jug of milk",
+     "exampleCN": "一罐牛奶"
+    },
+    {
+     "word": "bread",
+     "structure": "Old English bread",
+     "meaning": "baked food from flour",
+     "meaningCN": "面包",
+     "example": "a slice of bread",
+     "exampleCN": "一片面包"
+    },
+    {
+     "word": "toast",
+     "structure": "Old French toster",
+     "meaning": "bread browned by heat",
+     "meaningCN": "烤面包片",
+     "example": "warm toast",
+     "exampleCN": "热吐司"
+    }
+   ],
+   "latinEntries": [
+    {
+     "word": "butyrum",
+     "structure": "Latin noun",
+     "meaning": "butter",
+     "meaningCN": "黄油"
+    }
+   ]
+  }
+ },
+ {
+  "word": "butterfly",
+  "ipa_uk": "/ˈbʌtəflaɪ/",
+  "ipa_us": "/ˈbʌtərflaɪ/",
+  "definition_zh": "蝴蝶；蝶泳；紧张不安",
+  "definition_en": "an insect with large colourful wings that flies by day",
+  "core_image": "花丛间扇动彩色翅膀的小昆虫",
+  "scene": "花园里的花刚开。A butterfly landed on the yellow flower.",
+  "sceneCN": "这里 butterfly 是「蝴蝶」（第 1 个义项：翅膀宽大的白天飞行的昆虫）；句意是一只蝴蝶落在黄花上。",
+  "pos": [
+   {
+    "tag": "n.",
+    "zh": "名词：蝴蝶"
+   },
+   {
+    "tag": "n.",
+    "zh": "名词：蝶泳；紧张感"
+   }
+  ],
+  "collocations": [
+   {
+    "phrase": "a butterfly net",
+    "zh": "捕蝶网"
+   },
+   {
+    "phrase": "butterfly stroke",
+    "zh": "蝶泳"
+   },
+   {
+    "phrase": "butterflies in the stomach",
+    "zh": "心里发慌"
+   },
+   {
+    "phrase": "a butterfly garden",
+    "zh": "蝴蝶园"
+   },
+   {
+    "phrase": "chase a butterfly",
+    "zh": "追蝴蝶"
+   }
+  ],
+  "forms": [
+   {
+    "label": "复数",
+    "form": "butterflies"
+   }
+  ],
+  "derivatives": [
+   {
+    "word": "butterflyfish",
+    "pos": "n.",
+    "zh": "蝴蝶鱼，因外形和色彩像蝴蝶得名"
+   },
+   {
+    "word": "butterfly effect",
+    "pos": "n.",
+    "zh": "蝴蝶效应，喻微小变化引起巨大后果"
+   },
+   {
+    "word": "moth",
+    "pos": "n.",
+    "zh": "蛾，与蝴蝶同属鳞翅目，语义关联"
+   }
+  ],
+  "senses": [
+   {
+    "no": "01",
+    "title": "The colourful flying insect",
+    "titleCN": "蝴蝶",
+    "definition": "an insect with two pairs of large colourful wings",
+    "definitionCN": "有两对宽大彩色翅膀的昆虫",
+    "example": "A butterfly landed on the yellow flower.",
+    "exampleCN": "一只蝴蝶落在黄花上。",
+    "why": "The core image is a thin body carried by broad bright wings over flowers.",
+    "whyCN": "核心意象是细小的身体由宽大鲜艳的翅膀托着，在花间飞。"
+   },
+   {
+    "no": "02",
+    "title": "The swimming stroke",
+    "titleCN": "蝶泳",
+    "definition": "a swimming style in which both arms move together over the water",
+    "definitionCN": "双臂同时划出水面的一种游泳姿势",
+    "example": "He swam the butterfly across the pool.",
+    "exampleCN": "他用蝶泳游过了泳池。",
+    "why": "The wide arm motion looks like the beat of butterfly wings.",
+    "whyCN": "双臂张开划动的样子，像蝴蝶扇动翅膀。"
+   },
+   {
+    "no": "03",
+    "title": "A fluttering feeling of nerves",
+    "titleCN": "紧张不安",
+    "definition": "a nervous fluttering feeling in the stomach",
+    "definitionCN": "胃里一阵阵发慌的紧张感",
+    "example": "She had butterflies before the interview.",
+    "exampleCN": "面试前她心里直发慌。",
+    "why": "Nervous fluttering inside the body is pictured as wings beating.",
+    "whyCN": "体内因紧张而扑动的感觉，被想象成翅膀在扇。"
+   }
+  ],
+  "etymology": {
+   "intro": {
+    "en": "Butterfly is an old English compound whose first element is debated.",
+    "cn": "butterfly 是古英语复合词，第一个成分的来源仍有争论。"
+   },
+   "items": [
+    {
+     "era": "OLD ENGLISH",
+     "en": "buttorfleoge is recorded for the insect.",
+     "cn": "古英语 buttorfleoge 已用来指这种昆虫。"
+    },
+    {
+     "era": "MIDDLE ENGLISH",
+     "en": "butterflie replaced the older spelling.",
+     "cn": "中古英语 butterflie 取代了更早的拼写。"
+    },
+    {
+     "era": "SIXTEENTH CENTURY",
+     "en": "The butterfly stroke was named after the insect's wings.",
+     "cn": "蝶泳因动作像蝴蝶翅膀而得名。"
+    },
+    {
+     "era": "NINETEENTH CENTURY",
+     "en": "Butterflies in the stomach described stage fright.",
+     "cn": "butterflies in the stomach 形容上台前的紧张。"
+    },
+    {
+     "era": "MODERN ENGLISH",
+     "en": "Butterfly covers the insect, the stroke and nervous fluttering.",
+     "cn": "现代英语中 butterfly 兼指昆虫、泳姿与紧张感。"
+    }
+   ]
+  },
+  "similar": {
+   "note": {
+    "en": "The look-alike group shares the butter- opening; the near-meaning group gives other flying insects.",
+    "cn": "形近组都以 butter- 开头；近义组是其他会飞的昆虫。"
+   },
+   "groups": [
+    {
+     "heading": "LOOK-ALIKE",
+     "entries": [
+      {
+       "word": "buttercup",
+       "ipa": "/ˈbʌtəkʌp/",
+       "tag": "spelling",
+       "definition": "a small yellow wild flower",
+       "definitionCN": "一种黄色小野花，只是拼写相近，词源不同"
+      },
+      {
+       "word": "butter",
+       "ipa": "/ˈbʌtə/",
+       "tag": "same root",
+       "definition": "the yellow dairy spread",
+       "definitionCN": "黄油"
+      },
+      {
+       "word": "butterflyfish",
+       "ipa": "/ˈbʌtəflaɪfɪʃ/",
+       "tag": "derived form",
+       "definition": "a bright reef fish named for its shape",
+       "definitionCN": "因外形得名的彩色珊瑚鱼"
+      }
+     ]
+    },
+    {
+     "heading": "NEAR MEANING",
+     "entries": [
+      {
+       "word": "moth",
+       "ipa": "/mɒθ/",
+       "tag": "near meaning",
+       "definition": "a flying insect related to the butterfly",
+       "definitionCN": "与蝴蝶近缘的飞虫，即蛾"
+      },
+      {
+       "word": "dragonfly",
+       "ipa": "/ˈdræɡənflaɪ/",
+       "tag": "related",
+       "definition": "a long-bodied insect with two pairs of wings",
+       "definitionCN": "身体细长、有两对翅膀的蜻蜓"
+      },
+      {
+       "word": "bee",
+       "ipa": "/biː/",
+       "tag": "related",
+       "definition": "a flying insect that makes honey",
+       "definitionCN": "酿蜜的飞虫，即蜜蜂"
+      }
+     ]
+    }
+   ]
+  },
+  "mnemonics": {
+   "normalIntro": {
+    "en": "Butterfly joins two old words into one insect name.",
+    "cn": "butterfly 由两个古老词合成一个昆虫名。"
+   },
+   "normal": [
+    {
+     "en": "The plural is butterflies.",
+     "cn": "复数是 butterflies。"
+    },
+    {
+     "en": "Butterfly stroke is a swimming style.",
+     "cn": "butterfly stroke 是一种泳姿。"
+    },
+    {
+     "en": "Butterflies in the stomach means nerves.",
+     "cn": "butterflies in the stomach 指紧张。"
+    },
+    {
+     "en": "The second part comes from fly.",
+     "cn": "后半部分来自 fly 这个词。"
+    },
+    {
+     "en": "A butterfly net is used to catch them.",
+     "cn": "捕蝶网用来捉蝴蝶。"
+    }
+   ],
+   "abstract": [
+    {
+     "en": "See two bright wings closing and opening on a flower.",
+     "cn": "想象花上两片亮翅一开一合。"
+    },
+    {
+     "en": "See a swimmer's arms sweep out like wings.",
+     "cn": "想象游泳者双臂像翅膀一样展开。"
+    },
+    {
+     "en": "See a small fluttering feeling rise in the chest.",
+     "cn": "想象胸口升起一阵扑动的感觉。"
+    }
+   ]
+  },
+  "examples": [
+   {
+    "en": "A butterfly landed on the yellow flower.",
+    "cn": "一只蝴蝶落在黄花上。"
+   },
+   {
+    "en": "He swam the butterfly across the pool.",
+    "cn": "他用蝶泳游过了泳池。"
+   },
+   {
+    "en": "She had butterflies before the interview.",
+    "cn": "面试前她心里直发慌。"
+   }
+  ],
+  "dict_mnemonic": {
+   "note": "拆词记忆 · 非词源",
+   "text": "把 butterfly 拆成 butter 加 fly，像是黄油色的飞虫在花上扑腾，一拆就把蝴蝶记住了。",
+   "word": "butterfly"
+  },
+  "root": "butterfly 是古英语 buttorfleoge 的延续，由 buttor 与 fleoge（飞虫）合成；第一个成分究竟指黄油还是另有来源，学界仍有不同说法。",
+  "sensesIntro": {
+   "en": "An insect, a swimming stroke and a nervous feeling.",
+   "cn": "一种昆虫、一种泳姿，以及一种紧张的感觉。"
+  },
+  "semanticMap": {
+   "core": {
+    "en": "CORE IMAGE: bright wings opening over a flower.",
+    "cn": "核心意象：鲜艳的翅膀在花上展开。"
+   },
+   "chain": [
+    "INSECT",
+    "WING",
+    "FLOWER",
+    "STROKE",
+    "NERVES",
+    "COLOUR"
+   ],
+   "branches": [
+    {
+     "senses": "01",
+     "en": "a butterfly net",
+     "cn": "捕蝶网"
+    },
+    {
+     "senses": "01",
+     "en": "a butterfly garden",
+     "cn": "蝴蝶园"
+    },
+    {
+     "senses": "02",
+     "en": "butterfly stroke",
+     "cn": "蝶泳"
+    },
+    {
+     "senses": "03",
+     "en": "butterflies in the stomach",
+     "cn": "心里发慌"
+    },
+    {
+     "senses": "01",
+     "en": "chase a butterfly",
+     "cn": "追蝴蝶"
+    }
+   ]
+  },
+  "affixes": {
+   "intro": {
+    "en": "Butterfly forms compounds with other nouns and with -fish.",
+    "cn": "butterfly 可以和其他名词以及 -fish 组成复合词。"
+   },
+   "latinIntro": {
+    "en": "The Latin word for butterfly is not the source of the English form.",
+    "cn": "拉丁语里表示蝴蝶的词，并不是这个英语词形的来源。"
+   },
+   "items": [
+    {
+     "word": "butterfly",
+     "structure": "Old English buttorfleoge",
+     "meaning": "the day-flying insect",
+     "meaningCN": "蝴蝶",
+     "example": "a butterfly net",
+     "exampleCN": "捕蝶网"
+    },
+    {
+     "word": "butterflyfish",
+     "structure": "butterfly + fish",
+     "meaning": "a reef fish with bright bands",
+     "meaningCN": "蝴蝶鱼",
+     "example": "a striped butterflyfish",
+     "exampleCN": "一条条纹蝴蝶鱼"
+    },
+    {
+     "word": "buttercup",
+     "structure": "butter + cup",
+     "meaning": "a yellow wild flower",
+     "meaningCN": "毛茛属黄花",
+     "example": "a field of buttercups",
+     "exampleCN": "一片黄花"
+    },
+    {
+     "word": "moth",
+     "structure": "Old English moþþe",
+     "meaning": "a night-flying insect",
+     "meaningCN": "蛾",
+     "example": "a grey moth",
+     "exampleCN": "一只灰蛾"
+    },
+    {
+     "word": "caterpillar",
+     "structure": "Old French catepelose",
+     "meaning": "the larva of a butterfly",
+     "meaningCN": "毛毛虫",
+     "example": "a green caterpillar",
+     "exampleCN": "一条绿毛毛虫"
+    },
+    {
+     "word": "cocoon",
+     "structure": "French cocon",
+     "meaning": "the case of a pupa",
+     "meaningCN": "茧",
+     "example": "spin a cocoon",
+     "exampleCN": "结茧"
+    },
+    {
+     "word": "wing",
+     "structure": "Old Norse vængr",
+     "meaning": "the part used for flying",
+     "meaningCN": "翅膀",
+     "example": "open its wings",
+     "exampleCN": "展开翅膀"
+    },
+    {
+     "word": "flower",
+     "structure": "Old French flour",
+     "meaning": "the bloom of a plant",
+     "meaningCN": "花",
+     "example": "a yellow flower",
+     "exampleCN": "一朵黄花"
+    }
+   ],
+   "latinEntries": [
+    {
+     "word": "papilio",
+     "structure": "Latin noun",
+     "meaning": "butterfly",
+     "meaningCN": "蝴蝶"
+    }
+   ]
+  }
+ },
+ {
+  "word": "button",
+  "ipa_uk": "/ˈbʌtn/",
+  "ipa_us": "/ˈbʌtn/",
+  "definition_zh": "纽扣；按钮；扣上",
+  "definition_en": "a small round object used to fasten clothes or to work a machine",
+  "core_image": "外套门襟上一粒圆圆的扣子",
+  "scene": "出门前他在镜子前整理外套。He buttoned his coat before leaving.",
+  "sceneCN": "这里 button 是「扣上」（第 3 个义项：用纽扣把衣物系紧）；句意是他出门前扣好了外套。",
+  "pos": [
+   {
+    "tag": "n.",
+    "zh": "名词：纽扣；按钮"
+   },
+   {
+    "tag": "vt.",
+    "zh": "动词：扣上，用纽扣系紧"
+   }
+  ],
+  "collocations": [
+   {
+    "phrase": "press the button",
+    "zh": "按按钮"
+   },
+   {
+    "phrase": "a shirt button",
+    "zh": "衬衫纽扣"
+   },
+   {
+    "phrase": "button up your coat",
+    "zh": "把外套扣好"
+   },
+   {
+    "phrase": "the elevator button",
+    "zh": "电梯按钮"
+   },
+   {
+    "phrase": "a row of buttons",
+    "zh": "一排纽扣"
+   }
+  ],
+  "forms": [
+   {
+    "label": "复数",
+    "form": "buttons"
+   },
+   {
+    "label": "过去式",
+    "form": "buttoned"
+   },
+   {
+    "label": "过去分词",
+    "form": "buttoned"
+   },
+   {
+    "label": "现在分词",
+    "form": "buttoning"
+   }
+  ],
+  "derivatives": [
+   {
+    "word": "buttonhole",
+    "pos": "n.",
+    "zh": "扣眼，衣服上让纽扣穿过的孔"
+   },
+   {
+    "word": "unbutton",
+    "pos": "v.",
+    "zh": "解开纽扣"
+   },
+   {
+    "word": "buttoned",
+    "pos": "adj.",
+    "zh": "扣着纽扣的，常形容衣着整齐"
+   }
+  ],
+  "senses": [
+   {
+    "no": "01",
+    "title": "The small fastener on clothes",
+    "titleCN": "纽扣",
+    "definition": "a small round object sewn onto clothes to fasten them",
+    "definitionCN": "缝在衣服上用来系紧的小圆物",
+    "example": "A button came off his shirt.",
+    "exampleCN": "他衬衫上掉了一粒纽扣。",
+    "why": "The core image is a round disc that holds two edges of cloth together.",
+    "whyCN": "核心意象是一枚圆片把两片布边扣在一起。"
+   },
+   {
+    "no": "02",
+    "title": "The part you press on a machine",
+    "titleCN": "按钮",
+    "definition": "a small part on a machine that you push to make it work",
+    "definitionCN": "机器上按下就能让它运转的小部件",
+    "example": "Press the button to start the machine.",
+    "exampleCN": "按按钮启动机器。",
+    "why": "A machine button is a small round piece you press, like a sewn button.",
+    "whyCN": "机器的按钮也是按下的小圆块，和衣服上的纽扣形状相似。"
+   },
+   {
+    "no": "03",
+    "title": "To fasten with buttons",
+    "titleCN": "扣上",
+    "definition": "to fasten clothes with buttons",
+    "definitionCN": "用纽扣把衣服系紧",
+    "example": "He buttoned his coat before leaving.",
+    "exampleCN": "他出门前扣好了外套。",
+    "why": "The noun became a verb naming the act of pushing a button through a hole.",
+    "whyCN": "名词转为动词，指把纽扣推进扣眼这个动作。"
+   }
+  ],
+  "etymology": {
+   "intro": {
+    "en": "Button came into English from Old French and first meant a bud.",
+    "cn": "button 经古法语进入英语，最初指花蕾。"
+   },
+   "items": [
+    {
+     "era": "OLD FRENCH",
+     "en": "bouton meant a bud and a round fastening.",
+     "cn": "古法语 bouton 兼指花蕾与圆形扣件。"
+    },
+    {
+     "era": "MIDDLE ENGLISH",
+     "en": "botoun named the fastening sewn on clothes.",
+     "cn": "中古英语 botoun 指缝在衣服上的扣件。"
+    },
+    {
+     "era": "SIXTEENTH CENTURY",
+     "en": "Buttons became common on coats and sleeves.",
+     "cn": "十六世纪起纽扣广泛用于外套与袖子。"
+    },
+    {
+     "era": "NINETEENTH CENTURY",
+     "en": "The word was applied to parts pressed on machines.",
+     "cn": "十九世纪起这个词也指机器上按压的部件。"
+    },
+    {
+     "era": "MODERN ENGLISH",
+     "en": "Button covers clothes fasteners, machine controls and the verb.",
+     "cn": "现代英语中 button 兼指纽扣、按钮与扣上。"
+    }
+   ]
+  },
+  "similar": {
+   "note": {
+    "en": "The look-alike group shares the button base; the near-meaning group gives other fasteners.",
+    "cn": "形近组共用 button 词基；近义组是其他扣合件。"
+   },
+   "groups": [
+    {
+     "heading": "LOOK-ALIKE",
+     "entries": [
+      {
+       "word": "buttonhole",
+       "ipa": "/ˈbʌtnhəʊl/",
+       "tag": "same root",
+       "definition": "a hole for a button to pass through",
+       "definitionCN": "让纽扣穿过的扣眼"
+      },
+      {
+       "word": "unbutton",
+       "ipa": "/ˌʌnˈbʌtn/",
+       "tag": "derived form",
+       "definition": "to open clothes by undoing buttons",
+       "definitionCN": "解开纽扣"
+      },
+      {
+       "word": "buttoned",
+       "ipa": "/ˈbʌtnd/",
+       "tag": "derived form",
+       "definition": "fastened with buttons",
+       "definitionCN": "扣着纽扣的"
+      }
+     ]
+    },
+    {
+     "heading": "NEAR MEANING",
+     "entries": [
+      {
+       "word": "buckle",
+       "ipa": "/ˈbʌkl/",
+       "tag": "near meaning",
+       "definition": "a metal fastener on a belt",
+       "definitionCN": "腰带上的金属扣"
+      },
+      {
+       "word": "zipper",
+       "ipa": "/ˈzɪpə/",
+       "tag": "near meaning",
+       "definition": "a sliding fastener on clothes",
+       "definitionCN": "衣服上的拉链"
+      },
+      {
+       "word": "knob",
+       "ipa": "/nɒb/",
+       "tag": "related",
+       "definition": "a round handle you turn or push",
+       "definitionCN": "可转动或按压的圆形把手"
+      }
+     ]
+    }
+   ]
+  },
+  "mnemonics": {
+   "normalIntro": {
+    "en": "Button names a fastening, a control and the act of fastening.",
+    "cn": "button 既指扣件、控制件，也指扣上的动作。"
+   },
+   "normal": [
+    {
+     "en": "Press the button is a common phrase.",
+     "cn": "press the button 是常见说法。"
+    },
+    {
+     "en": "The plural is buttons.",
+     "cn": "复数是 buttons。"
+    },
+    {
+     "en": "The past tense is buttoned.",
+     "cn": "过去式是 buttoned。"
+    },
+    {
+     "en": "Unbutton adds the prefix un-.",
+     "cn": "unbutton 加了前缀 un-。"
+    },
+    {
+     "en": "A buttonhole holds the button.",
+     "cn": "buttonhole 是扣眼。"
+    }
+   ],
+   "abstract": [
+    {
+     "en": "See a round disc slide through a stitched hole.",
+     "cn": "想象一枚圆片穿过缝好的扣眼。"
+    },
+    {
+     "en": "See a finger press a lift button and the doors close.",
+     "cn": "想象手指按下电梯按钮，门合上了。"
+    },
+    {
+     "en": "See a coat front closing one button at a time.",
+     "cn": "想象外套门襟一粒一粒扣上。"
+    }
+   ]
+  },
+  "examples": [
+   {
+    "en": "A button came off his shirt.",
+    "cn": "他衬衫上掉了一粒纽扣。"
+   },
+   {
+    "en": "Press the button to start the machine.",
+    "cn": "按按钮启动机器。"
+   },
+   {
+    "en": "He buttoned his coat before leaving.",
+    "cn": "他出门前扣好了外套。"
+   }
+  ],
+  "dict_mnemonic": {
+   "note": "拆词记忆 · 非词源",
+   "text": "把 button 读成「巴腾」，像是手指一按，扣子「腾」地弹进扣眼，动作和声音一起记住。",
+   "word": "button"
+  },
+  "root": "button 源自古法语 bouton，本指花蕾，因圆形凸起的样子引申为衣服上的纽扣，后来又用于机器上按压的按钮，并由名词转为动词。",
+  "sensesIntro": {
+   "en": "A round fastener, a control on a machine, and the act of fastening.",
+   "cn": "圆形扣件、机器上的控制件，以及扣合的动作。"
+  },
+  "semanticMap": {
+   "core": {
+    "en": "CORE IMAGE: a round disc pulled through a stitched hole.",
+    "cn": "核心意象：一枚圆片被拉过缝好的扣眼。"
+   },
+   "chain": [
+    "ROUND",
+    "CLOTHES",
+    "FASTEN",
+    "MACHINE",
+    "PRESS",
+    "CONTROL"
+   ],
+   "branches": [
+    {
+     "senses": "01",
+     "en": "a shirt button",
+     "cn": "衬衫纽扣"
+    },
+    {
+     "senses": "01",
+     "en": "a row of buttons",
+     "cn": "一排纽扣"
+    },
+    {
+     "senses": "02",
+     "en": "press the button",
+     "cn": "按按钮"
+    },
+    {
+     "senses": "02",
+     "en": "the elevator button",
+     "cn": "电梯按钮"
+    },
+    {
+     "senses": "03",
+     "en": "button up your coat",
+     "cn": "把外套扣好"
+    }
+   ]
+  },
+  "affixes": {
+   "intro": {
+    "en": "Button forms new words with un-, -hole and -ed.",
+    "cn": "button 能加 un-、-hole 与 -ed 构成新词。"
+   },
+   "latinIntro": {
+    "en": "The word comes from Old French, so there is no Latin family to list.",
+    "cn": "这个词来自古法语，没有可列的拉丁同族词。"
+   },
+   "items": [
+    {
+     "word": "button",
+     "structure": "Old French bouton",
+     "meaning": "a round fastening",
+     "meaningCN": "纽扣",
+     "example": "a shirt button",
+     "exampleCN": "衬衫纽扣"
+    },
+    {
+     "word": "unbutton",
+     "structure": "un- + button",
+     "meaning": "to undo buttons",
+     "meaningCN": "解开纽扣",
+     "example": "unbutton the coat",
+     "exampleCN": "解开外套"
+    },
+    {
+     "word": "buttonhole",
+     "structure": "button + hole",
+     "meaning": "a hole for a button",
+     "meaningCN": "扣眼",
+     "example": "sew a buttonhole",
+     "exampleCN": "缝一个扣眼"
+    },
+    {
+     "word": "buttoned",
+     "structure": "button + -ed",
+     "meaning": "fastened with buttons",
+     "meaningCN": "扣好的",
+     "example": "a buttoned jacket",
+     "exampleCN": "扣好的夹克"
+    },
+    {
+     "word": "buckle",
+     "structure": "Old French boucle",
+     "meaning": "a belt fastener",
+     "meaningCN": "带扣",
+     "example": "fasten the buckle",
+     "exampleCN": "扣上带扣"
+    },
+    {
+     "word": "zipper",
+     "structure": "zip + -er",
+     "meaning": "a sliding fastener",
+     "meaningCN": "拉链",
+     "example": "pull the zipper",
+     "exampleCN": "拉拉链"
+    },
+    {
+     "word": "knob",
+     "structure": "Middle Low German knobbe",
+     "meaning": "a round handle",
+     "meaningCN": "圆形把手",
+     "example": "turn the knob",
+     "exampleCN": "转动把手"
+    },
+    {
+     "word": "switch",
+     "structure": "Middle Dutch swijch",
+     "meaning": "a device that turns power on",
+     "meaningCN": "开关",
+     "example": "flip the switch",
+     "exampleCN": "拨动开关"
+    }
+   ],
+   "latinEntries": []
+  }
+ },
+ {
+  "word": "buy",
+  "ipa_uk": "/baɪ/",
+  "ipa_us": "/baɪ/",
+  "definition_zh": "购买；买到；相信；划算的商品",
+  "definition_en": "to get something by paying money for it",
+  "core_image": "递出钱换回想要的东西",
+  "scene": "她在市场摊位前挑好了水果。She bought fresh apples at the stall.",
+  "sceneCN": "这里 buy 是「购买」（第 1 个义项：用钱换取物品）；句意是她在摊位上买了新鲜苹果。",
+  "pos": [
+   {
+    "tag": "vt.",
+    "zh": "动词：购买；买到；相信"
+   },
+   {
+    "tag": "n.",
+    "zh": "名词：购买；划算的商品"
+   }
+  ],
+  "collocations": [
+   {
+    "phrase": "buy a house",
+    "zh": "买房子"
+   },
+   {
+    "phrase": "buy time",
+    "zh": "争取时间"
+   },
+   {
+    "phrase": "a good buy",
+    "zh": "划算的买卖"
+   },
+   {
+    "phrase": "buy online",
+    "zh": "网上购买"
+   },
+   {
+    "phrase": "buy in bulk",
+    "zh": "大批量购买"
+   }
+  ],
+  "forms": [
+   {
+    "label": "三单",
+    "form": "buys"
+   },
+   {
+    "label": "过去式",
+    "form": "bought"
+   },
+   {
+    "label": "过去分词",
+    "form": "bought"
+   },
+   {
+    "label": "现在分词",
+    "form": "buying"
+   }
+  ],
+  "derivatives": [
+   {
+    "word": "buyer",
+    "pos": "n.",
+    "zh": "买家，购买商品的人"
+   },
+   {
+    "word": "buying",
+    "pos": "n.",
+    "zh": "购买行为，也指采购"
+   },
+   {
+    "word": "buyout",
+    "pos": "n.",
+    "zh": "收购，买下全部股份"
+   }
+  ],
+  "senses": [
+   {
+    "no": "01",
+    "title": "To pay money for something",
+    "titleCN": "购买",
+    "definition": "to obtain goods by paying money",
+    "definitionCN": "付钱取得商品",
+    "example": "She bought fresh apples at the stall.",
+    "exampleCN": "她在摊位上买了新鲜苹果。",
+    "why": "The core image is money leaving the hand and goods coming back.",
+    "whyCN": "核心意象是钱递出去，东西换回来。"
+   },
+   {
+    "no": "02",
+    "title": "To accept as true",
+    "titleCN": "相信",
+    "definition": "to believe or accept an idea or story",
+    "definitionCN": "相信或接受某种说法",
+    "example": "I do not buy that excuse.",
+    "exampleCN": "我不信那个借口。",
+    "why": "Accepting an idea is pictured as paying for it and taking it home.",
+    "whyCN": "接受一种说法，被比作付钱把它买回家。"
+   },
+   {
+    "no": "03",
+    "title": "Something worth the price",
+    "titleCN": "划算的商品",
+    "definition": "a thing bought at a good price",
+    "definitionCN": "以便宜价格买到的东西",
+    "example": "This coat was a good buy.",
+    "exampleCN": "这件外套买得很划算。",
+    "why": "The verb turned into a noun naming the thing that was worth buying.",
+    "whyCN": "动词转为名词，指值得买下的那件东西。"
+   }
+  ],
+  "etymology": {
+   "intro": {
+    "en": "Buy is a Germanic verb with an irregular past tense.",
+    "cn": "buy 是日耳曼语动词，过去式不规则。"
+   },
+   "items": [
+    {
+     "era": "OLD ENGLISH",
+     "en": "bycgan meant to acquire by payment.",
+     "cn": "古英语 bycgan 意为通过付款取得。"
+    },
+    {
+     "era": "OLD NORSE",
+     "en": "Related forms in Norse shared the same trading sense.",
+     "cn": "古诺尔斯语中的相关词形也有相同的交易义。"
+    },
+    {
+     "era": "MIDDLE ENGLISH",
+     "en": "bien and bought settled into the modern pattern.",
+     "cn": "中古英语的拼写与过去式逐渐固定下来。"
+    },
+    {
+     "era": "SIXTEENTH CENTURY",
+     "en": "The noun buy named a purchase or a bargain.",
+     "cn": "十六世纪起名词 buy 指一次购买或便宜货。"
+    },
+    {
+     "era": "MODERN ENGLISH",
+     "en": "Buy covers shopping, belief and good value.",
+     "cn": "现代英语中 buy 兼指购物、相信与划算。"
+    }
+   ]
+  },
+  "similar": {
+   "note": {
+    "en": "The look-alike group shares the buy base; the near-meaning group gives trading words.",
+    "cn": "形近组共用 buy 词基；近义组是交易相关的词。"
+   },
+   "groups": [
+    {
+     "heading": "LOOK-ALIKE",
+     "entries": [
+      {
+       "word": "buyer",
+       "ipa": "/ˈbaɪə/",
+       "tag": "derived form",
+       "definition": "a person who buys something",
+       "definitionCN": "买家"
+      },
+      {
+       "word": "buying",
+       "ipa": "/ˈbaɪɪŋ/",
+       "tag": "derived form",
+       "definition": "the act of purchasing",
+       "definitionCN": "购买行为"
+      },
+      {
+       "word": "bought",
+       "ipa": "/bɔːt/",
+       "tag": "derived form",
+       "definition": "the past tense of buy",
+       "definitionCN": "buy 的过去式"
+      }
+     ]
+    },
+    {
+     "heading": "NEAR MEANING",
+     "entries": [
+      {
+       "word": "purchase",
+       "ipa": "/ˈpɜːtʃəs/",
+       "tag": "near meaning",
+       "definition": "to buy something, especially formally",
+       "definitionCN": "购买，尤指正式购买"
+      },
+      {
+       "word": "sell",
+       "ipa": "/sel/",
+       "tag": "opposite",
+       "definition": "to give goods in return for money",
+       "definitionCN": "卖出，与买相对"
+      },
+      {
+       "word": "shop",
+       "ipa": "/ʃɒp/",
+       "tag": "related",
+       "definition": "to visit shops to buy things",
+       "definitionCN": "逛店购物"
+      }
+     ]
+    }
+   ]
+  },
+  "mnemonics": {
+   "normalIntro": {
+    "en": "Buy is short but its past tense changes completely.",
+    "cn": "buy 很短，但过去式变化很大。"
+   },
+   "normal": [
+    {
+     "en": "The past tense is bought.",
+     "cn": "过去式是 bought。"
+    },
+    {
+     "en": "Buy time means to delay.",
+     "cn": "buy time 义为争取时间。"
+    },
+    {
+     "en": "A good buy is a bargain.",
+     "cn": "a good buy 指划算的买卖。"
+    },
+    {
+     "en": "The agent noun is buyer.",
+     "cn": "表示人的名词是 buyer。"
+    },
+    {
+     "en": "Buy out means to purchase a whole company.",
+     "cn": "buy out 义为整体收购。"
+    }
+   ],
+   "abstract": [
+    {
+     "en": "See a coin cross the counter and an apple come back.",
+     "cn": "想象一枚硬币递过柜台，换回一个苹果。"
+    },
+    {
+     "en": "See a hand take a story and put it in a bag.",
+     "cn": "想象一只手把一种说法装进袋子带走。"
+    },
+    {
+     "en": "See a price tag far below the usual number.",
+     "cn": "想象价签上的数字远低于平常。"
+    }
+   ]
+  },
+  "examples": [
+   {
+    "en": "She bought fresh apples at the stall.",
+    "cn": "她在摊位上买了新鲜苹果。"
+   },
+   {
+    "en": "I do not buy that excuse.",
+    "cn": "我不信那个借口。"
+   },
+   {
+    "en": "This coat was a good buy.",
+    "cn": "这件外套买得很划算。"
+   }
+  ],
+  "dict_mnemonic": {
+   "note": "拆词记忆 · 非词源",
+   "text": "buy 读起来像「拜」，付钱时把钞票一递，像拱手拜一下，钱出去、东西进来。",
+   "word": "buy"
+  },
+  "root": "buy 源自古英语 bycgan，属日耳曼语动词，本义为付钱取得；过去式 bought 保留了古老的不规则变化。",
+  "sensesIntro": {
+   "en": "Paying for goods, accepting an idea, and a bargain.",
+   "cn": "付钱买货、接受一种说法，以及划算的买卖。"
+  },
+  "semanticMap": {
+   "core": {
+    "en": "CORE IMAGE: money out of the hand, goods into the bag.",
+    "cn": "核心意象：钱递出手，货物装进袋。"
+   },
+   "chain": [
+    "MONEY",
+    "CHOICE",
+    "PAYMENT",
+    "OWNERSHIP",
+    "BELIEF",
+    "BARGAIN"
+   ],
+   "branches": [
+    {
+     "senses": "01",
+     "en": "buy a house",
+     "cn": "买房子"
+    },
+    {
+     "senses": "01",
+     "en": "buy online",
+     "cn": "网上购买"
+    },
+    {
+     "senses": "01",
+     "en": "buy in bulk",
+     "cn": "大批量购买"
+    },
+    {
+     "senses": "02",
+     "en": "not buy the excuse",
+     "cn": "不信那个借口"
+    },
+    {
+     "senses": "03",
+     "en": "a good buy",
+     "cn": "划算的买卖"
+    }
+   ]
+  },
+  "affixes": {
+   "intro": {
+    "en": "Buy forms nouns with -er and -out.",
+    "cn": "buy 能加 -er 与 -out 构成名词。"
+   },
+   "latinIntro": {
+    "en": "The verb is Germanic; the items below are related trading words.",
+    "cn": "这个动词属日耳曼语，下面列出交易相关的词。"
+   },
+   "items": [
+    {
+     "word": "buy",
+     "structure": "Old English bycgan",
+     "meaning": "to pay for goods",
+     "meaningCN": "购买",
+     "example": "buy a house",
+     "exampleCN": "买房子"
+    },
+    {
+     "word": "buyer",
+     "structure": "buy + -er",
+     "meaning": "a person who buys",
+     "meaningCN": "买家",
+     "example": "a serious buyer",
+     "exampleCN": "一位认真的买家"
+    },
+    {
+     "word": "buying",
+     "structure": "buy + -ing",
+     "meaning": "the act of purchasing",
+     "meaningCN": "购买行为",
+     "example": "buying habits",
+     "exampleCN": "购买习惯"
+    },
+    {
+     "word": "buyout",
+     "structure": "buy + out",
+     "meaning": "a purchase of a whole company",
+     "meaningCN": "整体收购",
+     "example": "a management buyout",
+     "exampleCN": "管理层收购"
+    },
+    {
+     "word": "purchase",
+     "structure": "Old French purchacier",
+     "meaning": "to buy formally",
+     "meaningCN": "正式购买",
+     "example": "purchase a ticket",
+     "exampleCN": "购买车票"
+    },
+    {
+     "word": "sell",
+     "structure": "Old English sellan",
+     "meaning": "to give goods for money",
+     "meaningCN": "出售",
+     "example": "sell a car",
+     "exampleCN": "卖车"
+    },
+    {
+     "word": "shop",
+     "structure": "Old English sceoppa",
+     "meaning": "to visit shops",
+     "meaningCN": "购物",
+     "example": "shop for food",
+     "exampleCN": "购买食品"
+    },
+    {
+     "word": "pay",
+     "structure": "Old French paier",
+     "meaning": "to give money owed",
+     "meaningCN": "付款",
+     "example": "pay in cash",
+     "exampleCN": "现金付款"
+    }
+   ],
+   "latinEntries": []
+  }
+ },
+ {
+  "word": "buyer",
+  "ipa_uk": "/ˈbaɪə/",
+  "ipa_us": "/ˈbaɪər/",
+  "definition_zh": "买家；采购员",
+  "definition_en": "a person who buys something",
+  "core_image": "在柜台前付钱取货的人",
+  "scene": "拍卖厅里气氛很紧。The buyer raised a hand for the last lot.",
+  "sceneCN": "这里 buyer 是「买家」（第 1 个义项：出钱购买的人）；句意是买家为最后一件拍品举了手。",
+  "pos": [
+   {
+    "tag": "n.",
+    "zh": "名词：买家，购买者"
+   },
+   {
+    "tag": "n.",
+    "zh": "名词：采购员"
+   }
+  ],
+  "collocations": [
+   {
+    "phrase": "a potential buyer",
+    "zh": "潜在买家"
+   },
+   {
+    "phrase": "find a buyer",
+    "zh": "找到买家"
+   },
+   {
+    "phrase": "a car buyer",
+    "zh": "购车者"
+   },
+   {
+    "phrase": "the buyer pays",
+    "zh": "买家付款"
+   },
+   {
+    "phrase": "a buyer's market",
+    "zh": "买方市场"
+   }
+  ],
+  "forms": [
+   {
+    "label": "复数",
+    "form": "buyers"
+   }
+  ],
+  "derivatives": [
+   {
+    "word": "buy",
+    "pos": "v.",
+    "zh": "购买，buyer 的动词基础形式"
+   },
+   {
+    "word": "buying",
+    "pos": "n.",
+    "zh": "购买行为，由动词加 -ing 构成"
+   },
+   {
+    "word": "buyout",
+    "pos": "n.",
+    "zh": "整体收购，由 buy 加 out 构成"
+   }
+  ],
+  "senses": [
+   {
+    "no": "01",
+    "title": "A person who buys",
+    "titleCN": "买家",
+    "definition": "someone who pays money for goods or property",
+    "definitionCN": "为商品或房产付钱的人",
+    "example": "The buyer raised a hand for the last lot.",
+    "exampleCN": "买家为最后一件拍品举了手。",
+    "why": "The verb buy plus -er names the person who performs the action.",
+    "whyCN": "动词 buy 加 -er，指执行这个动作的人。"
+   },
+   {
+    "no": "02",
+    "title": "A company's purchasing officer",
+    "titleCN": "采购员",
+    "definition": "a person whose job is to buy goods for a company",
+    "definitionCN": "以替公司采购货物为职业的人",
+    "example": "The buyer ordered paper for the whole office.",
+    "exampleCN": "采购员为整个办公室订购了纸张。",
+    "why": "The same agent suffix was applied to a professional role in trade.",
+    "whyCN": "同一个表示施动者的后缀，被用到贸易中的职业角色上。"
+   },
+   {
+    "no": "03",
+    "title": "The purchasing side of a deal",
+    "titleCN": "买方",
+    "definition": "the side of a deal that pays rather than sells",
+    "definitionCN": "交易中出钱而非出售的一方",
+    "example": "The buyer asked for a lower price.",
+    "exampleCN": "买方要求降价。",
+    "why": "In business talk the person stands for the whole purchasing side.",
+    "whyCN": "在商业语境里，用这个人指代整个出钱的一方。"
+   }
+  ],
+  "etymology": {
+   "intro": {
+    "en": "Buyer is an English agent noun built on the old verb buy.",
+    "cn": "buyer 是在古老动词 buy 之上构成的英语施动名词。"
+   },
+   "items": [
+    {
+     "era": "OLD ENGLISH",
+     "en": "bycgan meant to obtain goods with money.",
+     "cn": "古英语 bycgan 意为用钱取得货物。"
+    },
+    {
+     "era": "MIDDLE ENGLISH",
+     "en": "The agent ending -er was added to name the person.",
+     "cn": "中古英语加上施动后缀 -er，用来指人。"
+    },
+    {
+     "era": "SIXTEENTH CENTURY",
+     "en": "Buyer appeared in market and property records.",
+     "cn": "十六世纪 buyer 已见于市场与房产记录。"
+    },
+    {
+     "era": "NINETEENTH CENTURY",
+     "en": "The word named a paid purchasing officer in firms.",
+     "cn": "十九世纪起这个词指公司里的专职采购员。"
+    },
+    {
+     "era": "MODERN ENGLISH",
+     "en": "Buyer covers shoppers, professional purchasers and the buying side.",
+     "cn": "现代英语中 buyer 兼指购物者、专职采购员与买方。"
+    }
+   ]
+  },
+  "similar": {
+   "note": {
+    "en": "The look-alike group shares the buy base; the near-meaning group gives people in a trade.",
+    "cn": "形近组共用 buy 词基；近义组是交易中的人物。"
+   },
+   "groups": [
+    {
+     "heading": "LOOK-ALIKE",
+     "entries": [
+      {
+       "word": "buy",
+       "ipa": "/baɪ/",
+       "tag": "same root",
+       "definition": "to obtain goods by paying",
+       "definitionCN": "购买"
+      },
+      {
+       "word": "buying",
+       "ipa": "/ˈbaɪɪŋ/",
+       "tag": "derived form",
+       "definition": "the act of purchasing",
+       "definitionCN": "购买行为"
+      },
+      {
+       "word": "buyout",
+       "ipa": "/ˈbaɪaʊt/",
+       "tag": "same root",
+       "definition": "the purchase of a whole company",
+       "definitionCN": "整体收购"
+      }
+     ]
+    },
+    {
+     "heading": "NEAR MEANING",
+     "entries": [
+      {
+       "word": "purchaser",
+       "ipa": "/ˈpɜːtʃəsə/",
+       "tag": "near meaning",
+       "definition": "a person who buys something formally",
+       "definitionCN": "正式购买者"
+      },
+      {
+       "word": "customer",
+       "ipa": "/ˈkʌstəmə/",
+       "tag": "near meaning",
+       "definition": "a person who buys from a shop",
+       "definitionCN": "顾客"
+      },
+      {
+       "word": "seller",
+       "ipa": "/ˈselə/",
+       "tag": "opposite",
+       "definition": "a person who sells goods",
+       "definitionCN": "卖家，与买家相对"
+      }
+     ]
+    }
+   ]
+  },
+  "mnemonics": {
+   "normalIntro": {
+    "en": "Buyer is simply buy plus the person ending -er.",
+    "cn": "buyer 就是 buy 加上表示人的后缀 -er。"
+   },
+   "normal": [
+    {
+     "en": "The plural is buyers.",
+     "cn": "复数是 buyers。"
+    },
+    {
+     "en": "A potential buyer may sign a contract.",
+     "cn": "潜在买家可能会签合同。"
+    },
+    {
+     "en": "A buyer's market favours the purchaser.",
+     "cn": "买方市场对买家有利。"
+    },
+    {
+     "en": "The verb behind it is buy.",
+     "cn": "它背后的动词是 buy。"
+    },
+    {
+     "en": "A company buyer orders supplies.",
+     "cn": "公司采购员负责订货。"
+    }
+   ],
+   "abstract": [
+    {
+     "en": "See a hand rise with a numbered card.",
+     "cn": "想象一只手举着号码牌。"
+    },
+    {
+     "en": "See cash placed on a counter and goods taken away.",
+     "cn": "想象现金放在柜台上，货物被拿走。"
+    },
+    {
+     "en": "See a clipboard listing what an office needs.",
+     "cn": "想象写字板上列着办公室要买的东西。"
+    }
+   ]
+  },
+  "examples": [
+   {
+    "en": "The buyer raised a hand for the last lot.",
+    "cn": "买家为最后一件拍品举了手。"
+   },
+   {
+    "en": "The buyer ordered paper for the whole office.",
+    "cn": "采购员为整个办公室订购了纸张。"
+   },
+   {
+    "en": "They are still looking for a buyer.",
+    "cn": "他们还在寻找买家。"
+   }
+  ],
+  "dict_mnemonic": {
+   "note": "拆词记忆 · 非词源",
+   "text": "buy 加 er，er 像一个人站着，前面是买东西的动作，合起来就是站在柜台前付钱的那个人。",
+   "word": "buyer"
+  },
+  "root": "buyer 由古英语动词 bycgan（购买）加施动后缀 -er 构成，字面就是「买东西的人」，后来也指企业里专职采购的人。",
+  "sensesIntro": {
+   "en": "A shopper, a professional purchaser, and the paying side of a deal.",
+   "cn": "购物的人、专职采购的人，以及交易中出钱的一方。"
+  },
+  "semanticMap": {
+   "core": {
+    "en": "CORE IMAGE: a person paying at the counter.",
+    "cn": "核心意象：一个人在柜台前付钱。"
+   },
+   "chain": [
+    "MONEY",
+    "CHOICE",
+    "PURCHASE",
+    "OWNERSHIP",
+    "MARKET",
+    "ROLE"
+   ],
+   "branches": [
+    {
+     "senses": "01",
+     "en": "a potential buyer",
+     "cn": "潜在买家"
+    },
+    {
+     "senses": "01",
+     "en": "find a buyer",
+     "cn": "找到买家"
+    },
+    {
+     "senses": "01",
+     "en": "a car buyer",
+     "cn": "购车者"
+    },
+    {
+     "senses": "02",
+     "en": "a company buyer",
+     "cn": "公司采购员"
+    },
+    {
+     "senses": "03",
+     "en": "a buyer's market",
+     "cn": "买方市场"
+    }
+   ]
+  },
+  "affixes": {
+   "intro": {
+    "en": "The ending -er turns buy into the name of a person.",
+    "cn": "后缀 -er 把 buy 变成指人的名词。"
+   },
+   "latinIntro": {
+    "en": "The base is Germanic; the related trading words below are listed for contrast.",
+    "cn": "词基属日耳曼语，下面列出交易相关词作对照。"
+   },
+   "items": [
+    {
+     "word": "buyer",
+     "structure": "buy + -er",
+     "meaning": "a person who buys",
+     "meaningCN": "买家",
+     "example": "a potential buyer",
+     "exampleCN": "潜在买家"
+    },
+    {
+     "word": "buy",
+     "structure": "Old English bycgan",
+     "meaning": "to pay for goods",
+     "meaningCN": "购买",
+     "example": "buy a house",
+     "exampleCN": "买房子"
+    },
+    {
+     "word": "buying",
+     "structure": "buy + -ing",
+     "meaning": "the act of purchasing",
+     "meaningCN": "购买行为",
+     "example": "buying power",
+     "exampleCN": "购买力"
+    },
+    {
+     "word": "buyout",
+     "structure": "buy + out",
+     "meaning": "a full purchase of a firm",
+     "meaningCN": "整体收购",
+     "example": "a management buyout",
+     "exampleCN": "管理层收购"
+    },
+    {
+     "word": "purchase",
+     "structure": "Old French purchacier",
+     "meaning": "to buy formally",
+     "meaningCN": "正式购买",
+     "example": "purchase a ticket",
+     "exampleCN": "购买车票"
+    },
+    {
+     "word": "customer",
+     "structure": "custom + -er",
+     "meaning": "a person who buys from a shop",
+     "meaningCN": "顾客",
+     "example": "a regular customer",
+     "exampleCN": "老顾客"
+    },
+    {
+     "word": "seller",
+     "structure": "sell + -er",
+     "meaning": "a person who sells",
+     "meaningCN": "卖家",
+     "example": "the seller agrees",
+     "exampleCN": "卖方同意"
+    },
+    {
+     "word": "market",
+     "structure": "Latin mercatus",
+     "meaning": "a place of trade",
+     "meaningCN": "市场",
+     "example": "a busy market",
+     "exampleCN": "繁忙的市场"
+    }
+   ],
+   "latinEntries": []
+  }
+ },
+ {
+  "word": "by",
+  "ipa_uk": "/baɪ/",
+  "ipa_us": "/baɪ/",
+  "definition_zh": "由；被；在…旁边；通过；不迟于",
+  "definition_en": "used to show who does something or how it is done",
+  "core_image": "紧挨着某物旁边站着",
+  "scene": "文章末尾有一行小字。The poem was written by a young student.",
+  "sceneCN": "这里 by 是「由、被」（第 1 个义项：表示动作的发出者）；句意是这首诗由一位年轻学生写成。",
+  "pos": [
+   {
+    "tag": "prep.",
+    "zh": "介词：由；被；在…旁边；通过；不迟于"
+   },
+   {
+    "tag": "adv.",
+    "zh": "副词：经过；在旁边"
+   }
+  ],
+  "collocations": [
+   {
+    "phrase": "by bus",
+    "zh": "乘公交车"
+   },
+   {
+    "phrase": "by the window",
+    "zh": "在窗边"
+   },
+   {
+    "phrase": "by hand",
+    "zh": "用手工"
+   },
+   {
+    "phrase": "by Friday",
+    "zh": "不迟于周五"
+   },
+   {
+    "phrase": "step by step",
+    "zh": "一步一步地"
+   },
+   {
+    "phrase": "by chance",
+    "zh": "偶然"
+   }
+  ],
+  "forms": [
+   {
+    "label": "无变化",
+    "form": "by"
+   }
+  ],
+  "derivatives": [
+   {
+    "word": "nearby",
+    "pos": "adj.",
+    "zh": "附近的，由 near 与 by 组合而成"
+   },
+   {
+    "word": "bypass",
+    "pos": "v.",
+    "zh": "绕过，由 by 与 pass 组合而成"
+   },
+   {
+    "word": "byproduct",
+    "pos": "n.",
+    "zh": "副产品，由 by 与 product 组合而成"
+   }
+  ],
+  "senses": [
+   {
+    "no": "01",
+    "title": "Showing who does an action",
+    "titleCN": "由；被",
+    "definition": "used after a passive verb to name the doer",
+    "definitionCN": "用在被动结构之后，引出动作的发出者",
+    "example": "The poem was written by a young student.",
+    "exampleCN": "这首诗由一位年轻学生写成。",
+    "why": "The doer stands close to the action, and by marks that nearness.",
+    "whyCN": "动作的发出者紧挨着动作，by 就标记这种贴近关系。"
+   },
+   {
+    "no": "02",
+    "title": "At the side of something",
+    "titleCN": "在…旁边",
+    "definition": "next to or very near a person or thing",
+    "definitionCN": "在人或物的旁边或很近处",
+    "example": "She sat by the window all afternoon.",
+    "exampleCN": "她整个下午都坐在窗边。",
+    "why": "The oldest sense is physical nearness, and the other uses grow from it.",
+    "whyCN": "最古老的意思是空间上的靠近，其他用法都从这里长出来。"
+   },
+   {
+    "no": "03",
+    "title": "No later than a time",
+    "titleCN": "不迟于",
+    "definition": "not later than a stated time or date",
+    "definitionCN": "不晚于某个时间或日期",
+    "example": "Please reply by Friday.",
+    "exampleCN": "请在周五之前回复。",
+    "why": "A point in time is pictured as a line you must stay beside.",
+    "whyCN": "某个时间点被想象成一条线，你必须待在它旁边而不过去。"
+   },
+   {
+    "no": "04",
+    "title": "By means of something",
+    "titleCN": "通过；借助",
+    "definition": "used to show the method or means used",
+    "definitionCN": "用来表示所使用的方法或手段",
+    "example": "We travel to work by train.",
+    "exampleCN": "我们乘火车上班。",
+    "why": "A means is the path you pass along, and by marks the path.",
+    "whyCN": "手段就是你所经过的路径，by 用来标记这条路径。"
+   }
+  ],
+  "etymology": {
+   "intro": {
+    "en": "By is one of the oldest English prepositions, with a wide spread of meanings.",
+    "cn": "by 是英语最古老的介词之一，义项非常广。"
+   },
+   "items": [
+    {
+     "era": "OLD ENGLISH",
+     "en": "bī meant near or beside.",
+     "cn": "古英语 bī 意为在附近、在旁边。"
+    },
+    {
+     "era": "MIDDLE ENGLISH",
+     "en": "by extended from place to means and agency.",
+     "cn": "中古英语中 by 从空间义扩展到手段与施动。"
+    },
+    {
+     "era": "SIXTEENTH CENTURY",
+     "en": "The passive by-agent pattern became regular.",
+     "cn": "被动句里用 by 引出施动者的结构固定下来。"
+    },
+    {
+     "era": "EIGHTEENTH CENTURY",
+     "en": "By plus a date came to mark a deadline.",
+     "cn": "by 加日期开始表示截止时间。"
+    },
+    {
+     "era": "MODERN ENGLISH",
+     "en": "By covers place, agent, means and deadline.",
+     "cn": "现代英语中 by 兼指位置、施动、手段与截止。"
+    }
+   ]
+  },
+  "similar": {
+   "note": {
+    "en": "The look-alike group shares the by element; the near-meaning group gives other prepositions.",
+    "cn": "形近组都含 by 这个成分；近义组是其他介词。"
+   },
+   "groups": [
+    {
+     "heading": "LOOK-ALIKE",
+     "entries": [
+      {
+       "word": "nearby",
+       "ipa": "/ˌnɪəˈbaɪ/",
+       "tag": "compound",
+       "definition": "close to where you are",
+       "definitionCN": "附近的"
+      },
+      {
+       "word": "bypass",
+       "ipa": "/ˈbaɪpɑːs/",
+       "tag": "compound",
+       "definition": "to go around a place",
+       "definitionCN": "绕过"
+      },
+      {
+       "word": "byproduct",
+       "ipa": "/ˈbaɪprɒdʌkt/",
+       "tag": "compound",
+       "definition": "something produced as a side result",
+       "definitionCN": "副产品"
+      }
+     ]
+    },
+    {
+     "heading": "NEAR MEANING",
+     "entries": [
+      {
+       "word": "beside",
+       "ipa": "/bɪˈsaɪd/",
+       "tag": "near meaning",
+       "definition": "at the side of someone or something",
+       "definitionCN": "在某人或某物旁边"
+      },
+      {
+       "word": "through",
+       "ipa": "/θruː/",
+       "tag": "near meaning",
+       "definition": "from one end or side to the other",
+       "definitionCN": "穿过，从一端到另一端"
+      },
+      {
+       "word": "via",
+       "ipa": "/ˈvaɪə/",
+       "tag": "near meaning",
+       "definition": "by way of a place or method",
+       "definitionCN": "经由，通过"
+      }
+     ]
+    }
+   ]
+  },
+  "mnemonics": {
+   "normalIntro": {
+    "en": "By is short and works as a preposition and an adverb.",
+    "cn": "by 很短，既可作介词也可作副词。"
+   },
+   "normal": [
+    {
+     "en": "By bus names the means of travel.",
+     "cn": "by bus 表示出行方式。"
+    },
+    {
+     "en": "By Friday marks a deadline.",
+     "cn": "by Friday 表示截止时间。"
+    },
+    {
+     "en": "Step by step means gradually.",
+     "cn": "step by step 义为逐步地。"
+    },
+    {
+     "en": "The passive uses by before the doer.",
+     "cn": "被动结构里 by 放在施动者之前。"
+    },
+    {
+     "en": "By chance means accidentally.",
+     "cn": "by chance 义为偶然。"
+    }
+   ],
+   "abstract": [
+    {
+     "en": "See a person standing right beside a wall.",
+     "cn": "想象一个人紧贴墙边站着。"
+    },
+    {
+     "en": "See a path running past a house.",
+     "cn": "想象一条小路从房子旁边经过。"
+    },
+    {
+     "en": "See a clock hand stop at a date on the calendar.",
+     "cn": "想象时针停在日历上的某一天。"
+    }
+   ]
+  },
+  "examples": [
+   {
+    "en": "The poem was written by a young student.",
+    "cn": "这首诗由一位年轻学生写成。"
+   },
+   {
+    "en": "She sat by the window all afternoon.",
+    "cn": "她整个下午都坐在窗边。"
+   },
+   {
+    "en": "Please reply by Friday.",
+    "cn": "请在周五之前回复。"
+   }
+  ],
+  "dict_mnemonic": {
+   "note": "拆词记忆 · 非词源",
+   "text": "by 只有两个字母，像一个人贴着墙边站，位置就在旁边，于是有了「在…旁」和「由、通过」这些用法。",
+   "word": "by"
+  },
+  "root": "by 源自古英语 bī，本义为「在附近、在旁边」，后来由空间上的靠近扩展到手段、施动者与时间界限。",
+  "sensesIntro": {
+   "en": "Nearness in space, the doer of an action, a means, and a deadline.",
+   "cn": "空间上的靠近、动作的发出者、手段，以及时间界限。"
+  },
+  "semanticMap": {
+   "core": {
+    "en": "CORE IMAGE: standing right beside something.",
+    "cn": "核心意象：紧挨着某物站着。"
+   },
+   "chain": [
+    "POSITION",
+    "NEARNESS",
+    "PATH",
+    "AGENT",
+    "MEANS",
+    "DEADLINE"
+   ],
+   "branches": [
+    {
+     "senses": "02",
+     "en": "by the window",
+     "cn": "在窗边"
+    },
+    {
+     "senses": "01",
+     "en": "written by a student",
+     "cn": "由学生写成"
+    },
+    {
+     "senses": "04",
+     "en": "by bus",
+     "cn": "乘公交车"
+    },
+    {
+     "senses": "04",
+     "en": "by hand",
+     "cn": "用手工"
+    },
+    {
+     "senses": "03",
+     "en": "by Friday",
+     "cn": "不迟于周五"
+    }
+   ]
+  },
+  "affixes": {
+   "intro": {
+    "en": "By also appears inside compounds such as nearby and bypass.",
+    "cn": "by 也出现在 nearby、bypass 这样的复合词里。"
+   },
+   "latinIntro": {
+    "en": "The word is Germanic; via below is a Latin relative in meaning.",
+    "cn": "这个词属日耳曼语，下面的 via 是意思相关的拉丁词。"
+   },
+   "items": [
+    {
+     "word": "by",
+     "structure": "Old English bī",
+     "meaning": "near, beside",
+     "meaningCN": "在旁边",
+     "example": "by the door",
+     "exampleCN": "在门边"
+    },
+    {
+     "word": "nearby",
+     "structure": "near + by",
+     "meaning": "close at hand",
+     "meaningCN": "附近的",
+     "example": "a nearby shop",
+     "exampleCN": "附近的商店"
+    },
+    {
+     "word": "bypass",
+     "structure": "by + pass",
+     "meaning": "to go around",
+     "meaningCN": "绕过",
+     "example": "bypass the town",
+     "exampleCN": "绕过城镇"
+    },
+    {
+     "word": "byproduct",
+     "structure": "by + product",
+     "meaning": "a side result",
+     "meaningCN": "副产品",
+     "example": "a useful byproduct",
+     "exampleCN": "有用的副产品"
+    },
+    {
+     "word": "beside",
+     "structure": "be- + side",
+     "meaning": "at the side of",
+     "meaningCN": "在…旁边",
+     "example": "beside the river",
+     "exampleCN": "在河边"
+    },
+    {
+     "word": "through",
+     "structure": "Old English þurh",
+     "meaning": "from one side to the other",
+     "meaningCN": "穿过",
+     "example": "through the door",
+     "exampleCN": "穿过门"
+    },
+    {
+     "word": "via",
+     "structure": "Latin via",
+     "meaning": "by way of",
+     "meaningCN": "经由",
+     "example": "via London",
+     "exampleCN": "经由伦敦"
+    },
+    {
+     "word": "near",
+     "structure": "Old English nēar",
+     "meaning": "close in space",
+     "meaningCN": "靠近",
+     "example": "near the station",
+     "exampleCN": "靠近车站"
+    }
+   ],
+   "latinEntries": [
+    {
+     "word": "via",
+     "structure": "Latin noun",
+     "meaning": "way, road",
+     "meaningCN": "道路"
+    }
+   ]
+  }
+ },
+ {
+  "word": "bye",
+  "ipa_uk": "/baɪ/",
+  "ipa_us": "/baɪ/",
+  "definition_zh": "再见；轮空晋级；顺便说",
+  "definition_en": "a short informal way of saying goodbye",
+  "core_image": "挥手道别时张开的口型",
+  "scene": "校门口散场时孩子们纷纷挥手。She waved and said bye at the gate.",
+  "sceneCN": "这里 bye 是「再见」（第 1 个义项：非正式的告别语）；句意是她在校门口挥手说再见。",
+  "pos": [
+   {
+    "tag": "int.",
+    "zh": "感叹词：再见"
+   },
+   {
+    "tag": "n.",
+    "zh": "名词：轮空晋级；告别"
+   }
+  ],
+  "collocations": [
+   {
+    "phrase": "say bye",
+    "zh": "说再见"
+   },
+   {
+    "phrase": "bye for now",
+    "zh": "先再见"
+   },
+   {
+    "phrase": "wave bye",
+    "zh": "挥手告别"
+   },
+   {
+    "phrase": "a bye to the next round",
+    "zh": "直接晋级下一轮"
+   },
+   {
+    "phrase": "bye-bye",
+    "zh": "再见，儿语说法"
+   }
+  ],
+  "forms": [
+   {
+    "label": "复数",
+    "form": "byes"
+   }
+  ],
+  "derivatives": [
+   {
+    "word": "goodbye",
+    "pos": "n.",
+    "zh": "告别，bye 的完整形式"
+   },
+   {
+    "word": "farewell",
+    "pos": "n.",
+    "zh": "告别，语义相关的正式说法"
+   },
+   {
+    "word": "byes",
+    "pos": "n.",
+    "zh": "轮空名额，复数形式"
+   }
+  ],
+  "senses": [
+   {
+    "no": "01",
+    "title": "An informal farewell",
+    "titleCN": "再见",
+    "definition": "a short word said when leaving someone",
+    "definitionCN": "离开某人时说的简短告别语",
+    "example": "She waved and said bye at the gate.",
+    "exampleCN": "她在校门口挥手说再见。",
+    "why": "The core image is a wave and a shortened farewell word.",
+    "whyCN": "核心意象是挥手的动作加上一个缩短的告别词。"
+   },
+   {
+    "no": "02",
+    "title": "A free pass to the next round",
+    "titleCN": "轮空晋级",
+    "definition": "the right to advance in a competition without playing",
+    "definitionCN": "在比赛中不必出场就进入下一轮的权利",
+    "example": "Our team got a bye to the next round.",
+    "exampleCN": "我们队轮空直接进入下一轮。",
+    "why": "A player left without a partner stands aside, and the word for standing by was borrowed.",
+    "whyCN": "没有对手的选手站到一边，于是借用了表示「在旁边」的说法。"
+   },
+   {
+    "no": "03",
+    "title": "Incidentally, in an old phrase",
+    "titleCN": "顺便说",
+    "definition": "used in the old phrase by the bye to mean incidentally",
+    "definitionCN": "用于旧说法 by the bye，表示顺便提一句",
+    "example": "By the bye, the post has arrived.",
+    "exampleCN": "顺便说一句，邮件到了。",
+    "why": "A remark thrown in beside the main talk is marked as standing by.",
+    "whyCN": "在主话题旁边顺带插一句，就用「在旁边」来标记。"
+   }
+  ],
+  "etymology": {
+   "intro": {
+    "en": "Bye is a worn-down form of goodbye, which began as a blessing.",
+    "cn": "bye 是 goodbye 的缩略形式，而 goodbye 原本是一句祝福。"
+   },
+   "items": [
+    {
+     "era": "MIDDLE ENGLISH",
+     "en": "God be with ye was said when parting.",
+     "cn": "分别时说 God be with ye，意为愿上帝与你同在。"
+    },
+    {
+     "era": "SIXTEENTH CENTURY",
+     "en": "The phrase shrank into godbwye in writing.",
+     "cn": "书面形式缩写成 godbwye。"
+    },
+    {
+     "era": "EIGHTEENTH CENTURY",
+     "en": "Goodbye and the short bye both became common.",
+     "cn": "goodbye 与更短的 bye 都流行起来。"
+    },
+    {
+     "era": "NINETEENTH CENTURY",
+     "en": "Sporting rules used bye for a player without an opponent.",
+     "cn": "十九世纪比赛规则用 bye 指没有对手的选手。"
+    },
+    {
+     "era": "MODERN ENGLISH",
+     "en": "Bye is a casual farewell and a sporting free pass.",
+     "cn": "现代英语中 bye 既是随意的告别语，也指轮空晋级。"
+    }
+   ]
+  },
+  "similar": {
+   "note": {
+    "en": "The look-alike group shares the bye spelling; the near-meaning group gives other farewells.",
+    "cn": "形近组共用 bye 的拼写；近义组是其他告别说法。"
+   },
+   "groups": [
+    {
+     "heading": "LOOK-ALIKE",
+     "entries": [
+      {
+       "word": "goodbye",
+       "ipa": "/ˌɡʊdˈbaɪ/",
+       "tag": "same root",
+       "definition": "the full form of the farewell",
+       "definitionCN": "bye 的完整形式"
+      },
+      {
+       "word": "bye-bye",
+       "ipa": "/ˈbaɪbaɪ/",
+       "tag": "same root",
+       "definition": "a child's way of saying goodbye",
+       "definitionCN": "儿语的再见"
+      },
+      {
+       "word": "by",
+       "ipa": "/baɪ/",
+       "tag": "spelling",
+       "definition": "a preposition meaning near or by means of",
+       "definitionCN": "介词，义为在旁边或通过，只是拼写相近，词源不同"
+      }
+     ]
+    },
+    {
+     "heading": "NEAR MEANING",
+     "entries": [
+      {
+       "word": "farewell",
+       "ipa": "/ˌfeəˈwel/",
+       "tag": "near meaning",
+       "definition": "a formal word said when leaving",
+       "definitionCN": "正式的告别语"
+      },
+      {
+       "word": "so long",
+       "ipa": "/ˌsəʊ ˈlɒŋ/",
+       "tag": "informal",
+       "definition": "an informal way to say goodbye",
+       "definitionCN": "非正式的告别说法"
+      },
+      {
+       "word": "see you",
+       "ipa": "/ˈsiː juː/",
+       "tag": "informal",
+       "definition": "a casual promise to meet again",
+       "definitionCN": "随口说的回头见"
+      }
+     ]
+    }
+   ]
+  },
+  "mnemonics": {
+   "normalIntro": {
+    "en": "Bye is short, casual and heard at every door.",
+    "cn": "bye 短促随意，几乎每道门口都能听到。"
+   },
+   "normal": [
+    {
+     "en": "Goodbye is the full form of bye.",
+     "cn": "goodbye 是 bye 的完整形式。"
+    },
+    {
+     "en": "Bye-bye is common with children.",
+     "cn": "bye-bye 常用于对小孩说话。"
+    },
+    {
+     "en": "A bye means a free pass in a draw.",
+     "cn": "a bye 指抽签中的轮空。"
+    },
+    {
+     "en": "By the bye means incidentally.",
+     "cn": "by the bye 义为顺便说一句。"
+    },
+    {
+     "en": "The plural is byes.",
+     "cn": "复数是 byes。"
+    }
+   ],
+   "abstract": [
+    {
+     "en": "See a hand lift and swing at a school gate.",
+     "cn": "想象校门口一只手抬起来挥动。"
+    },
+    {
+     "en": "See a name left alone on a tournament sheet.",
+     "cn": "想象赛程表上孤零零留下一个名字。"
+    },
+    {
+     "en": "See a speaker lean aside to add one more thing.",
+     "cn": "想象说话人侧过身再补一句。"
+    }
+   ]
+  },
+  "examples": [
+   {
+    "en": "She waved and said bye at the gate.",
+    "cn": "她在校门口挥手说再见。"
+   },
+   {
+    "en": "Our team got a bye to the next round.",
+    "cn": "我们队轮空直接进入下一轮。"
+   },
+   {
+    "en": "By the bye, the post has arrived.",
+    "cn": "顺便说一句，邮件到了。"
+   }
+  ],
+  "dict_mnemonic": {
+   "note": "拆词记忆 · 非词源",
+   "text": "bye 读起来像「拜」，挥手时嘴上说拜，手也像拱起来拜别，声音和动作一起就把再见记住了。",
+   "word": "bye"
+  },
+  "root": "bye 是 goodbye 的口语缩略，而 goodbye 来自中古英语的祝福语 God be with ye；十九世纪起又被借去指比赛中的轮空。",
+  "sensesIntro": {
+   "en": "A casual farewell, a sporting free pass, and an old aside.",
+   "cn": "随意的告别、比赛中的轮空，以及旧说法里的顺带一句。"
+  },
+  "semanticMap": {
+   "core": {
+    "en": "CORE IMAGE: a hand waving at a doorway.",
+    "cn": "核心意象：在门口挥手。"
+   },
+   "chain": [
+    "DEPARTURE",
+    "WAVE",
+    "SPEECH",
+    "SPORT",
+    "EXEMPTION",
+    "CASUAL"
+   ],
+   "branches": [
+    {
+     "senses": "01",
+     "en": "say bye",
+     "cn": "说再见"
+    },
+    {
+     "senses": "01",
+     "en": "bye for now",
+     "cn": "先再见"
+    },
+    {
+     "senses": "01",
+     "en": "wave bye",
+     "cn": "挥手告别"
+    },
+    {
+     "senses": "02",
+     "en": "a bye to the next round",
+     "cn": "轮空晋级"
+    },
+    {
+     "senses": "03",
+     "en": "by the bye",
+     "cn": "顺便说一句"
+    }
+   ]
+  },
+  "affixes": {
+   "intro": {
+    "en": "Bye mostly appears in fixed phrases rather than new compounds.",
+    "cn": "bye 多出现在固定说法里，较少构成新复合词。"
+   },
+   "latinIntro": {
+    "en": "The word is English in form; the list below gives related farewell words.",
+    "cn": "这个词是英语自身的形式，下面列出相关的告别词。"
+   },
+   "items": [
+    {
+     "word": "bye",
+     "structure": "short form of goodbye",
+     "meaning": "an informal farewell",
+     "meaningCN": "再见",
+     "example": "say bye",
+     "exampleCN": "说再见"
+    },
+    {
+     "word": "goodbye",
+     "structure": "God be with ye",
+     "meaning": "a parting blessing",
+     "meaningCN": "告别祝福",
+     "example": "wave goodbye",
+     "exampleCN": "挥手告别"
+    },
+    {
+     "word": "bye-bye",
+     "structure": "bye + bye",
+     "meaning": "a child's farewell",
+     "meaningCN": "儿语再见",
+     "example": "say bye-bye",
+     "exampleCN": "说拜拜"
+    },
+    {
+     "word": "farewell",
+     "structure": "fare + well",
+     "meaning": "a formal goodbye",
+     "meaningCN": "正式告别",
+     "example": "a fond farewell",
+     "exampleCN": "深情的告别"
+    },
+    {
+     "word": "wave",
+     "structure": "Old English wafian",
+     "meaning": "to move the hand in greeting",
+     "meaningCN": "挥手",
+     "example": "wave at a friend",
+     "exampleCN": "向朋友挥手"
+    },
+    {
+     "word": "leave",
+     "structure": "Old English lǣfan",
+     "meaning": "to go away from",
+     "meaningCN": "离开",
+     "example": "leave the room",
+     "exampleCN": "离开房间"
+    },
+    {
+     "word": "part",
+     "structure": "Latin partire",
+     "meaning": "to separate and go away",
+     "meaningCN": "分别",
+     "example": "part at the station",
+     "exampleCN": "在车站分别"
+    },
+    {
+     "word": "greeting",
+     "structure": "greet + -ing",
+     "meaning": "a word said on meeting",
+     "meaningCN": "问候语",
+     "example": "a warm greeting",
+     "exampleCN": "热情的问候"
+    }
+   ],
+   "latinEntries": []
+  }
+ },
+ {
+  "word": "cabbage",
+  "ipa_uk": "/ˈkæbɪdʒ/",
+  "ipa_us": "/ˈkæbɪdʒ/",
+  "definition_zh": "卷心菜；甘蓝；钞票",
+  "definition_en": "a large round vegetable with thick leaves packed in layers",
+  "core_image": "菜地里层层包裹的圆球",
+  "scene": "菜市场堆着刚摘的青菜。She bought a cabbage for the soup.",
+  "sceneCN": "这里 cabbage 是「卷心菜」（第 1 个义项：叶片层层包成球的蔬菜）；句意是她买了一个卷心菜煮汤。",
+  "pos": [
+   {
+    "tag": "n.",
+    "zh": "名词：卷心菜；甘蓝"
+   },
+   {
+    "tag": "n.",
+    "zh": "名词：俚语，钞票"
+   }
+  ],
+  "collocations": [
+   {
+    "phrase": "a head of cabbage",
+    "zh": "一棵卷心菜"
+   },
+   {
+    "phrase": "red cabbage",
+    "zh": "紫甘蓝"
+   },
+   {
+    "phrase": "cabbage soup",
+    "zh": "卷心菜汤"
+   },
+   {
+    "phrase": "shredded cabbage",
+    "zh": "卷心菜丝"
+   },
+   {
+    "phrase": "grow cabbage",
+    "zh": "种卷心菜"
+   }
+  ],
+  "forms": [
+   {
+    "label": "复数",
+    "form": "cabbages"
+   }
+  ],
+  "derivatives": [
+   {
+    "word": "cabbageworm",
+    "pos": "n.",
+    "zh": "菜青虫，专吃卷心菜叶的幼虫"
+   },
+   {
+    "word": "kale",
+    "pos": "n.",
+    "zh": "羽衣甘蓝，与卷心菜同属的蔬菜"
+   },
+   {
+    "word": "broccoli",
+    "pos": "n.",
+    "zh": "西兰花，同属十字花科蔬菜"
+   }
+  ],
+  "senses": [
+   {
+    "no": "01",
+    "title": "The layered green vegetable",
+    "titleCN": "卷心菜",
+    "definition": "a round vegetable with thick leaves wrapped around a firm heart",
+    "definitionCN": "叶片层层层包住硬芯的圆形蔬菜",
+    "example": "She bought a cabbage for the soup.",
+    "exampleCN": "她买了一个卷心菜煮汤。",
+    "why": "The core image is a head made of leaves folded over one another.",
+    "whyCN": "核心意象是一颗由层层叶片包成的菜球。"
+   },
+   {
+    "no": "02",
+    "title": "The whole cabbage family",
+    "titleCN": "甘蓝类",
+    "definition": "the group of leafy plants that includes cabbage and kale",
+    "definitionCN": "包括卷心菜和羽衣甘蓝在内的叶菜类群",
+    "example": "Farmers here grow several cabbages.",
+    "exampleCN": "这里的农民种好几种甘蓝。",
+    "why": "One common member lent its name to the whole group.",
+    "whyCN": "其中一个常见成员的名字，被用来指整个类群。"
+   },
+   {
+    "no": "03",
+    "title": "Old slang for money",
+    "titleCN": "钞票",
+    "definition": "an old slang word for paper money",
+    "definitionCN": "旧时俚语，指纸币",
+    "example": "He saved his cabbage for a rainy day.",
+    "exampleCN": "他把钱存起来以备不时之需。",
+    "why": "Green banknotes were compared to the green leaves of the vegetable.",
+    "whyCN": "绿色的纸币被比作这种蔬菜的绿叶。"
+   }
+  ],
+  "etymology": {
+   "intro": {
+    "en": "Cabbage goes back through French to a Latin word for head.",
+    "cn": "cabbage 经由法语，追溯到拉丁语里表示「头」的词。"
+   },
+   "items": [
+    {
+     "era": "LATIN",
+     "en": "caput meant the head.",
+     "cn": "拉丁语 caput 意为头。"
+    },
+    {
+     "era": "OLD FRENCH",
+     "en": "caboche meant a head, including a leafy one.",
+     "cn": "古法语 caboche 指头，也可指叶球。"
+    },
+    {
+     "era": "MIDDLE ENGLISH",
+     "en": "caboche named the leafy garden vegetable.",
+     "cn": "中古英语 caboche 指这种叶菜。"
+    },
+    {
+     "era": "SIXTEENTH CENTURY",
+     "en": "The spelling cabbage settled in English.",
+     "cn": "十六世纪拼写固定为 cabbage。"
+    },
+    {
+     "era": "MODERN ENGLISH",
+     "en": "Cabbage names the vegetable, its family and old slang for money.",
+     "cn": "现代英语中 cabbage 指这种蔬菜、其类群以及旧俚语里的钱。"
+    }
+   ]
+  },
+  "similar": {
+   "note": {
+    "en": "The look-alike group shares the cabbage base; the near-meaning group gives other leafy vegetables.",
+    "cn": "形近组共用 cabbage 词基；近义组是其他叶菜。"
+   },
+   "groups": [
+    {
+     "heading": "LOOK-ALIKE",
+     "entries": [
+      {
+       "word": "cabbageworm",
+       "ipa": "/ˈkæbɪdʒwɜːm/",
+       "tag": "compound",
+       "definition": "a caterpillar that feeds on cabbage leaves",
+       "definitionCN": "取食卷心菜叶的幼虫"
+      },
+      {
+       "word": "cabbage white",
+       "ipa": "/ˌkæbɪdʒ ˈwaɪt/",
+       "tag": "compound",
+       "definition": "a white butterfly whose larvae eat cabbage",
+       "definitionCN": "幼虫吃卷心菜的白色粉蝶"
+      },
+      {
+       "word": "cabbagy",
+       "ipa": "/ˈkæbɪdʒi/",
+       "tag": "derived form",
+       "definition": "smelling or tasting of cabbage",
+       "definitionCN": "有卷心菜气味或味道的"
+      }
+     ]
+    },
+    {
+     "heading": "NEAR MEANING",
+     "entries": [
+      {
+       "word": "kale",
+       "ipa": "/keɪl/",
+       "tag": "near meaning",
+       "definition": "a leafy green vegetable of the same family",
+       "definitionCN": "同科的绿叶蔬菜，即羽衣甘蓝"
+      },
+      {
+       "word": "broccoli",
+       "ipa": "/ˈbrɒkəli/",
+       "tag": "near meaning",
+       "definition": "a green vegetable with a thick stalk",
+       "definitionCN": "茎粗的绿色蔬菜，即西兰花"
+      },
+      {
+       "word": "lettuce",
+       "ipa": "/ˈletɪs/",
+       "tag": "related",
+       "definition": "a leafy vegetable eaten in salads",
+       "definitionCN": "做沙拉用的叶菜，即生菜"
+      }
+     ]
+    }
+   ]
+  },
+  "mnemonics": {
+   "normalIntro": {
+    "en": "Cabbage is named for its head-like shape.",
+    "cn": "cabbage 因形似人头而得名。"
+   },
+   "normal": [
+    {
+     "en": "A head of cabbage is the usual unit.",
+     "cn": "一棵卷心菜常用 a head of cabbage 表示。"
+    },
+    {
+     "en": "The plural is cabbages.",
+     "cn": "复数是 cabbages。"
+    },
+    {
+     "en": "Red cabbage keeps its colour when pickled.",
+     "cn": "紫甘蓝腌后仍保留颜色。"
+    },
+    {
+     "en": "Kale and broccoli are close relatives.",
+     "cn": "羽衣甘蓝和西兰花是近亲。"
+    },
+    {
+     "en": "Cabbage once meant paper money in slang.",
+     "cn": "cabbage 在旧俚语里指纸币。"
+    }
+   ],
+   "abstract": [
+    {
+     "en": "See a round head of leaves packed tight.",
+     "cn": "想象一颗叶片紧包的圆球。"
+    },
+    {
+     "en": "See a knife cut through layer after layer.",
+     "cn": "想象刀一层层切进去。"
+    },
+    {
+     "en": "See green notes folded like leaves.",
+     "cn": "想象绿色纸币像叶子一样叠着。"
+    }
+   ]
+  },
+  "examples": [
+   {
+    "en": "She bought a cabbage for the soup.",
+    "cn": "她买了一个卷心菜煮汤。"
+   },
+   {
+    "en": "Slice the cabbage thinly before cooking.",
+    "cn": "下锅前把卷心菜切薄。"
+   },
+   {
+    "en": "He saved his cabbage for a rainy day.",
+    "cn": "他把钱存起来以备不时之需。"
+   }
+  ],
+  "dict_mnemonic": {
+   "note": "拆词记忆 · 非词源",
+   "text": "把 cabbage 读成「开包治」，像是把一棵卷心菜一层层开包，里面的芯正好治饿，画面一出来就记住了。",
+   "word": "cabbage"
+  },
+  "root": "cabbage 经古法语 caboche（头）上溯到拉丁语 caput（头），因为叶片层层包成的菜球形状像人头，后来也引申指甘蓝类蔬菜与旧俚语里的钞票。",
+  "sensesIntro": {
+   "en": "A layered vegetable, its plant family, and old slang for money.",
+   "cn": "一种层叠的蔬菜、它的类群，以及旧俚语里的钱。"
+  },
+  "semanticMap": {
+   "core": {
+    "en": "CORE IMAGE: a round head of leaves packed in layers.",
+    "cn": "核心意象：一颗叶片层层紧包的圆球。"
+   },
+   "chain": [
+    "LEAVES",
+    "LAYERS",
+    "HEAD",
+    "GARDEN",
+    "FOOD",
+    "MONEY"
+   ],
+   "branches": [
+    {
+     "senses": "01",
+     "en": "a head of cabbage",
+     "cn": "一棵卷心菜"
+    },
+    {
+     "senses": "01",
+     "en": "cabbage soup",
+     "cn": "卷心菜汤"
+    },
+    {
+     "senses": "01",
+     "en": "shredded cabbage",
+     "cn": "卷心菜丝"
+    },
+    {
+     "senses": "02",
+     "en": "several cabbages",
+     "cn": "好几种甘蓝"
+    },
+    {
+     "senses": "03",
+     "en": "save his cabbage",
+     "cn": "把钱存起来"
+    }
+   ]
+  },
+  "affixes": {
+   "intro": {
+    "en": "Cabbage forms compounds with worm, white and the adjective ending -y.",
+    "cn": "cabbage 能与 worm、white 组成复合词，也能加 -y 构成形容词。"
+   },
+   "latinIntro": {
+    "en": "The base is Latin caput, head, which also gives capital.",
+    "cn": "词基是拉丁语 caput（头），capital 也出自这里。"
+   },
+   "items": [
+    {
+     "word": "cabbage",
+     "structure": "Old French caboche",
+     "meaning": "the layered vegetable",
+     "meaningCN": "卷心菜",
+     "example": "a head of cabbage",
+     "exampleCN": "一棵卷心菜"
+    },
+    {
+     "word": "cabbageworm",
+     "structure": "cabbage + worm",
+     "meaning": "a cabbage-eating larva",
+     "meaningCN": "菜青虫",
+     "example": "a green cabbageworm",
+     "exampleCN": "一条绿色菜青虫"
+    },
+    {
+     "word": "cabbagy",
+     "structure": "cabbage + -y",
+     "meaning": "smelling of cabbage",
+     "meaningCN": "有卷心菜味的",
+     "example": "a cabbagy smell",
+     "exampleCN": "卷心菜的气味"
+    },
+    {
+     "word": "kale",
+     "structure": "Old English cāl",
+     "meaning": "a leafy cabbage relative",
+     "meaningCN": "羽衣甘蓝",
+     "example": "a bunch of kale",
+     "exampleCN": "一把羽衣甘蓝"
+    },
+    {
+     "word": "broccoli",
+     "structure": "Italian broccoli",
+     "meaning": "a green stalked vegetable",
+     "meaningCN": "西兰花",
+     "example": "steamed broccoli",
+     "exampleCN": "蒸西兰花"
+    },
+    {
+     "word": "lettuce",
+     "structure": "Old French laitues",
+     "meaning": "a salad leaf vegetable",
+     "meaningCN": "生菜",
+     "example": "crisp lettuce",
+     "exampleCN": "脆生菜"
+    },
+    {
+     "word": "leaf",
+     "structure": "Old English lēaf",
+     "meaning": "the flat green part of a plant",
+     "meaningCN": "叶子",
+     "example": "a green leaf",
+     "exampleCN": "一片绿叶"
+    },
+    {
+     "word": "garden",
+     "structure": "Old French gardin",
+     "meaning": "a plot for growing plants",
+     "meaningCN": "菜园",
+     "example": "a vegetable garden",
+     "exampleCN": "菜园"
+    }
+   ],
+   "latinEntries": [
+    {
+     "word": "caput",
+     "structure": "Latin noun",
+     "meaning": "head",
+     "meaningCN": "头"
+    }
+   ]
+  }
+ },
+ {
+  "word": "cabin",
+  "ipa_uk": "/ˈkæbɪn/",
+  "ipa_us": "/ˈkæbɪn/",
+  "definition_zh": "小木屋；船舱；机舱",
+  "definition_en": "a small simple house made of wood",
+  "core_image": "林间用原木搭起的小屋",
+  "scene": "雪落在松林深处。They stayed in a wooden cabin for the night.",
+  "sceneCN": "这里 cabin 是「小木屋」（第 1 个义项：简陋的木制小屋）；句意是他们在一间木屋里过夜。",
+  "pos": [
+   {
+    "tag": "n.",
+    "zh": "名词：小木屋；村舍"
+   },
+   {
+    "tag": "n.",
+    "zh": "名词：船舱；机舱"
+   }
+  ],
+  "collocations": [
+   {
+    "phrase": "a log cabin",
+    "zh": "原木小屋"
+   },
+   {
+    "phrase": "cabin crew",
+    "zh": "机组乘务员"
+   },
+   {
+    "phrase": "a cabin in the woods",
+    "zh": "林中木屋"
+   },
+   {
+    "phrase": "book a cabin",
+    "zh": "预订船舱"
+   },
+   {
+    "phrase": "the passenger cabin",
+    "zh": "客舱"
+   }
+  ],
+  "forms": [
+   {
+    "label": "复数",
+    "form": "cabins"
+   }
+  ],
+  "derivatives": [
+   {
+    "word": "cabined",
+    "pos": "adj.",
+    "zh": "被关在小空间里的，受限制的"
+   },
+   {
+    "word": "cottage",
+    "pos": "n.",
+    "zh": "村舍，语义相关的小屋"
+   },
+   {
+    "word": "hut",
+    "pos": "n.",
+    "zh": "简陋小屋，语义相关"
+   }
+  ],
+  "senses": [
+   {
+    "no": "01",
+    "title": "A small wooden house",
+    "titleCN": "小木屋",
+    "definition": "a simple house built of wood, often in the country",
+    "definitionCN": "用木头搭成的简陋房屋，常在乡间",
+    "example": "They stayed in a wooden cabin for the night.",
+    "exampleCN": "他们在一间木屋里过夜。",
+    "why": "The core image is a small shelter raised from rough logs.",
+    "whyCN": "核心意象是用粗糙原木搭起的小小栖身处。"
+   },
+   {
+    "no": "02",
+    "title": "A room on a ship",
+    "titleCN": "船舱",
+    "definition": "a small private room on a ship for passengers",
+    "definitionCN": "船上供乘客使用的小舱室",
+    "example": "Their cabin looked out over the sea.",
+    "exampleCN": "他们的船舱朝海。",
+    "why": "A small enclosed space on a ship repeats the snug shelter of the wooden house.",
+    "whyCN": "船上狭小的封闭空间，沿用了木屋那种紧凑的庇护感。"
+   },
+   {
+    "no": "03",
+    "title": "The passenger area of a plane",
+    "titleCN": "机舱",
+    "definition": "the part of an aircraft where passengers sit",
+    "definitionCN": "飞机上乘客乘坐的部分",
+    "example": "The cabin lights dimmed before take-off.",
+    "exampleCN": "起飞前机舱的灯暗了下来。",
+    "why": "The enclosed passenger space of an aircraft took the same word.",
+    "whyCN": "飞机上封闭的乘客空间，也沿用了同一个词。"
+   }
+  ],
+  "etymology": {
+   "intro": {
+    "en": "Cabin comes from French and Latin words for a small hut.",
+    "cn": "cabin 来自法语与拉丁语中表示小屋的词。"
+   },
+   "items": [
+    {
+     "era": "LATIN",
+     "en": "capanna meant a simple hut or stall.",
+     "cn": "拉丁语 capanna 指简陋的小屋或棚子。"
+    },
+    {
+     "era": "OLD FRENCH",
+     "en": "cabane named a small dwelling.",
+     "cn": "古法语 cabane 指小型住所。"
+    },
+    {
+     "era": "MIDDLE ENGLISH",
+     "en": "cabin named a rough shelter and a ship room.",
+     "cn": "中古英语 cabin 兼指简陋住所与船上舱室。"
+    },
+    {
+     "era": "NINETEENTH CENTURY",
+     "en": "Log cabins became a symbol of frontier life.",
+     "cn": "十九世纪原木小屋成为拓荒生活的象征。"
+    },
+    {
+     "era": "MODERN ENGLISH",
+     "en": "Cabin covers wooden houses, ship rooms and aircraft cabins.",
+     "cn": "现代英语中 cabin 兼指木屋、船舱与机舱。"
+    }
+   ]
+  },
+  "similar": {
+   "note": {
+    "en": "The look-alike group shares the cabin base; the near-meaning group gives other small dwellings.",
+    "cn": "形近组共用 cabin 词基；近义组是其他小屋类住所。"
+   },
+   "groups": [
+    {
+     "heading": "LOOK-ALIKE",
+     "entries": [
+      {
+       "word": "cabana",
+       "ipa": "/kəˈbɑːnə/",
+       "tag": "spelling",
+       "definition": "a small shelter by a pool or beach",
+       "definitionCN": "泳池或海滩边的小棚屋，只是拼写相近，词源不同"
+      },
+      {
+       "word": "cabined",
+       "ipa": "/ˈkæbɪnd/",
+       "tag": "derived form",
+       "definition": "confined in a small space",
+       "definitionCN": "被限制在小空间里的"
+      },
+      {
+       "word": "cabinet",
+       "ipa": "/ˈkæbɪnət/",
+       "tag": "same root",
+       "definition": "a piece of storage furniture",
+       "definitionCN": "储物橱柜，与 cabin 同源"
+      }
+     ]
+    },
+    {
+     "heading": "NEAR MEANING",
+     "entries": [
+      {
+       "word": "cottage",
+       "ipa": "/ˈkɒtɪdʒ/",
+       "tag": "near meaning",
+       "definition": "a small house in the country",
+       "definitionCN": "乡间小屋"
+      },
+      {
+       "word": "hut",
+       "ipa": "/hʌt/",
+       "tag": "near meaning",
+       "definition": "a very simple small shelter",
+       "definitionCN": "非常简陋的小屋"
+      },
+      {
+       "word": "lodge",
+       "ipa": "/lɒdʒ/",
+       "tag": "related",
+       "definition": "a small house used for holidays or hunting",
+       "definitionCN": "度假或狩猎用的小屋"
+      }
+     ]
+    }
+   ]
+  },
+  "mnemonics": {
+   "normalIntro": {
+    "en": "Cabin names a small enclosed shelter on land, sea or in the air.",
+    "cn": "cabin 指陆上、海上或空中一个狭小的封闭空间。"
+   },
+   "normal": [
+    {
+     "en": "The plural is cabins.",
+     "cn": "复数是 cabins。"
+    },
+    {
+     "en": "A log cabin is built from whole logs.",
+     "cn": "log cabin 用整根原木搭建。"
+    },
+    {
+     "en": "Cabin crew work in the passenger cabin.",
+     "cn": "cabin crew 在客舱工作。"
+    },
+    {
+     "en": "On a ship you book a cabin.",
+     "cn": "在船上要预订船舱。"
+    },
+    {
+     "en": "The word shares a root with cabinet.",
+     "cn": "这个词与 cabinet 同源。"
+    }
+   ],
+   "abstract": [
+    {
+     "en": "See lamplight in a small window among pines.",
+     "cn": "想象松林中一扇小窗透出灯光。"
+    },
+    {
+     "en": "See a narrow bunk rocking with the sea.",
+     "cn": "想象窄窄的床铺随海浪摇晃。"
+    },
+    {
+     "en": "See the cabin lights dim as the plane taxis.",
+     "cn": "想象飞机滑行时机舱灯变暗。"
+    }
+   ]
+  },
+  "examples": [
+   {
+    "en": "They stayed in a wooden cabin for the night.",
+    "cn": "他们在一间木屋里过夜。"
+   },
+   {
+    "en": "Their cabin looked out over the sea.",
+    "cn": "他们的船舱朝海。"
+   },
+   {
+    "en": "The cabin lights dimmed before take-off.",
+    "cn": "起飞前机舱的灯暗了下来。"
+   }
+  ],
+  "dict_mnemonic": {
+   "note": "拆词记忆 · 非词源",
+   "text": "cab 是出租车，in 是里面，合起来像钻进一辆小小的车厢，再变成林子里的小屋和船上的舱室。",
+   "word": "cabin"
+  },
+  "root": "cabin 经古法语 cabane 上溯到拉丁语 capanna，本指简陋的小屋或棚子，后来用于船上的舱室与飞机的客舱。",
+  "sensesIntro": {
+   "en": "A wooden house, a ship room and an aircraft passenger area.",
+   "cn": "木屋、船上舱室，以及飞机客舱。"
+  },
+  "semanticMap": {
+   "core": {
+    "en": "CORE IMAGE: a small log shelter in the woods.",
+    "cn": "核心意象：林中一间原木小屋。"
+   },
+   "chain": [
+    "WOOD",
+    "FOREST",
+    "SHELTER",
+    "SHIP",
+    "AIRCRAFT",
+    "PASSENGER"
+   ],
+   "branches": [
+    {
+     "senses": "01",
+     "en": "a log cabin",
+     "cn": "原木小屋"
+    },
+    {
+     "senses": "01",
+     "en": "a cabin in the woods",
+     "cn": "林中木屋"
+    },
+    {
+     "senses": "02",
+     "en": "book a cabin",
+     "cn": "预订船舱"
+    },
+    {
+     "senses": "02",
+     "en": "a private cabin",
+     "cn": "私人舱室"
+    },
+    {
+     "senses": "03",
+     "en": "the passenger cabin",
+     "cn": "客舱"
+    }
+   ]
+  },
+  "affixes": {
+   "intro": {
+    "en": "Cabin forms compounds with crew and takes the ending -ed.",
+    "cn": "cabin 能与 crew 组成复合词，也能加 -ed 构成形容词。"
+   },
+   "latinIntro": {
+    "en": "The base is Latin capanna, a hut.",
+    "cn": "词基是拉丁语 capanna，意为小屋。"
+   },
+   "items": [
+    {
+     "word": "cabin",
+     "structure": "Old French cabane",
+     "meaning": "a small shelter",
+     "meaningCN": "小屋",
+     "example": "a log cabin",
+     "exampleCN": "原木小屋"
+    },
+    {
+     "word": "cabin crew",
+     "structure": "cabin + crew",
+     "meaning": "staff who serve passengers",
+     "meaningCN": "机组乘务员",
+     "example": "the cabin crew",
+     "exampleCN": "机组乘务员"
+    },
+    {
+     "word": "cabined",
+     "structure": "cabin + -ed",
+     "meaning": "confined, shut in",
+     "meaningCN": "受限制的",
+     "example": "a cabined room",
+     "exampleCN": "狭小的房间"
+    },
+    {
+     "word": "cabana",
+     "structure": "Spanish cabaña",
+     "meaning": "a poolside shelter",
+     "meaningCN": "池边小棚",
+     "example": "a beach cabana",
+     "exampleCN": "海滩小棚"
+    },
+    {
+     "word": "cottage",
+     "structure": "cot + -age",
+     "meaning": "a small country house",
+     "meaningCN": "村舍",
+     "example": "a stone cottage",
+     "exampleCN": "石砌村舍"
+    },
+    {
+     "word": "hut",
+     "structure": "French hutte",
+     "meaning": "a simple shelter",
+     "meaningCN": "简陋小屋",
+     "example": "a wooden hut",
+     "exampleCN": "木棚屋"
+    },
+    {
+     "word": "lodge",
+     "structure": "Old French loge",
+     "meaning": "a small holiday house",
+     "meaningCN": "度假小屋",
+     "example": "a hunting lodge",
+     "exampleCN": "狩猎小屋"
+    },
+    {
+     "word": "shelter",
+     "structure": "Middle English scheltrun",
+     "meaning": "a place giving protection",
+     "meaningCN": "庇护所",
+     "example": "take shelter",
+     "exampleCN": "躲避"
+    }
+   ],
+   "latinEntries": [
+    {
+     "word": "capanna",
+     "structure": "Latin noun",
+     "meaning": "hut, stall",
+     "meaningCN": "小屋，棚子"
+    }
+   ]
+  }
+ },
+ {
+  "word": "cabinet",
+  "ipa_uk": "/ˈkæbɪnət/",
+  "ipa_us": "/ˈkæbɪnət/",
+  "definition_zh": "橱柜；内阁；陈列室",
+  "definition_en": "a piece of furniture with shelves or drawers for storing things",
+  "core_image": "靠墙立着的带门储物柜",
+  "scene": "厨房里碗碟都收在柜中。She put the plates back in the cabinet.",
+  "sceneCN": "这里 cabinet 是「橱柜」（第 1 个义项：带门和隔板的储物家具）；句意是她把盘子放回橱柜。",
+  "pos": [
+   {
+    "tag": "n.",
+    "zh": "名词：橱柜；储物柜"
+   },
+   {
+    "tag": "n.",
+    "zh": "名词：内阁；陈列室"
+   }
+  ],
+  "collocations": [
+   {
+    "phrase": "a kitchen cabinet",
+    "zh": "厨房橱柜"
+   },
+   {
+    "phrase": "a filing cabinet",
+    "zh": "文件柜"
+   },
+   {
+    "phrase": "a cabinet meeting",
+    "zh": "内阁会议"
+   },
+   {
+    "phrase": "a medicine cabinet",
+    "zh": "药柜"
+   },
+   {
+    "phrase": "a cabinet minister",
+    "zh": "内阁部长"
+   }
+  ],
+  "forms": [
+   {
+    "label": "复数",
+    "form": "cabinets"
+   }
+  ],
+  "derivatives": [
+   {
+    "word": "cabinetry",
+    "pos": "n.",
+    "zh": "橱柜制作工艺，也指整套橱柜"
+   },
+   {
+    "word": "cabinetmaker",
+    "pos": "n.",
+    "zh": "细木匠，专门制作橱柜的人"
+   },
+   {
+    "word": "cabin",
+    "pos": "n.",
+    "zh": "小屋，cabinet 的同源词"
+   }
+  ],
+  "senses": [
+   {
+    "no": "01",
+    "title": "A storage cupboard",
+    "titleCN": "橱柜",
+    "definition": "a piece of furniture with doors and shelves for keeping things",
+    "definitionCN": "带门和隔板、用来存放物品的家具",
+    "example": "She put the plates back in the cabinet.",
+    "exampleCN": "她把盘子放回橱柜。",
+    "why": "The core image is a closed wooden box standing against a wall.",
+    "whyCN": "核心意象是一只靠墙立着的封闭木柜。"
+   },
+   {
+    "no": "02",
+    "title": "The senior ministers of a government",
+    "titleCN": "内阁",
+    "definition": "the group of senior ministers who advise a head of government",
+    "definitionCN": "为政府首脑提供建议的高级部长群体",
+    "example": "The cabinet met to discuss the budget.",
+    "exampleCN": "内阁开会讨论预算。",
+    "why": "Ministers once met in a small private room, and the room's name passed to the group.",
+    "whyCN": "部长们曾在一间小密室里议事，房间的名字就转指这群人。"
+   },
+   {
+    "no": "03",
+    "title": "A small room for display",
+    "titleCN": "陈列室",
+    "definition": "a small room used to display objects or keep a collection",
+    "definitionCN": "用来陈列物品或收藏品的小房间",
+    "example": "The coin cabinet is upstairs.",
+    "exampleCN": "钱币陈列室在楼上。",
+    "why": "The older sense was a small private room, later used for showing collections.",
+    "whyCN": "较早的意思是私密小房间，后来用于展出收藏品。"
+   }
+  ],
+  "etymology": {
+   "intro": {
+    "en": "Cabinet began as a small room and later named the furniture in it.",
+    "cn": "cabinet 最初指小房间，后来指房间里的家具。"
+   },
+   "items": [
+    {
+     "era": "OLD FRENCH",
+     "en": "cabinet was a diminutive of cabine, a small room.",
+     "cn": "古法语 cabinet 是 cabine 的指小形式，意为小房间。"
+    },
+    {
+     "era": "SIXTEENTH CENTURY",
+     "en": "English cabinet named a private room for valuables.",
+     "cn": "十六世纪英语 cabinet 指存放贵重物品的私室。"
+    },
+    {
+     "era": "SEVENTEENTH CENTURY",
+     "en": "The word shifted to the chest of drawers kept there.",
+     "cn": "十七世纪词义转向放在那里的抽屉柜。"
+    },
+    {
+     "era": "EIGHTEENTH CENTURY",
+     "en": "Cabinet named the advisers meeting in a private room.",
+     "cn": "十八世纪 cabinet 指在私室议事的顾问团。"
+    },
+    {
+     "era": "MODERN ENGLISH",
+     "en": "Cabinet covers cupboards, government advisers and display rooms.",
+     "cn": "现代英语中 cabinet 兼指橱柜、政府内阁与陈列室。"
+    }
+   ]
+  },
+  "similar": {
+   "note": {
+    "en": "The look-alike group shares the cabin base; the near-meaning group gives other storage furniture.",
+    "cn": "形近组共用 cabin 词基；近义组是其他储物家具。"
+   },
+   "groups": [
+    {
+     "heading": "LOOK-ALIKE",
+     "entries": [
+      {
+       "word": "cabinetry",
+       "ipa": "/ˈkæbɪnətri/",
+       "tag": "derived form",
+       "definition": "the craft of making cabinets",
+       "definitionCN": "橱柜制作工艺"
+      },
+      {
+       "word": "cabinetmaker",
+       "ipa": "/ˈkæbɪnətmeɪkə/",
+       "tag": "compound",
+       "definition": "a skilled maker of furniture",
+       "definitionCN": "细木匠"
+      },
+      {
+       "word": "cabin",
+       "ipa": "/ˈkæbɪn/",
+       "tag": "same root",
+       "definition": "a small wooden house or room",
+       "definitionCN": "小木屋或舱室"
+      }
+     ]
+    },
+    {
+     "heading": "NEAR MEANING",
+     "entries": [
+      {
+       "word": "cupboard",
+       "ipa": "/ˈkʌbəd/",
+       "tag": "near meaning",
+       "definition": "a piece of furniture with shelves and doors",
+       "definitionCN": "带门和隔板的储物柜"
+      },
+      {
+       "word": "locker",
+       "ipa": "/ˈlɒkə/",
+       "tag": "near meaning",
+       "definition": "a small locked cupboard for personal things",
+       "definitionCN": "带锁的小储物柜"
+      },
+      {
+       "word": "wardrobe",
+       "ipa": "/ˈwɔːdrəʊb/",
+       "tag": "related",
+       "definition": "a tall cupboard for clothes",
+       "definitionCN": "挂衣服的高柜"
+      }
+     ]
+    }
+   ]
+  },
+  "mnemonics": {
+   "normalIntro": {
+    "en": "Cabinet moved from a room to the furniture and then to a government group.",
+    "cn": "cabinet 从小房间转到家具，再转到政府班子。"
+   },
+   "normal": [
+    {
+     "en": "The plural is cabinets.",
+     "cn": "复数是 cabinets。"
+    },
+    {
+     "en": "A filing cabinet holds documents.",
+     "cn": "filing cabinet 存放文件。"
+    },
+    {
+     "en": "A cabinet meeting is held by ministers.",
+     "cn": "cabinet meeting 由部长们召开。"
+    },
+    {
+     "en": "Cabinetry is the craft of making cabinets.",
+     "cn": "cabinetry 指橱柜制作工艺。"
+    },
+    {
+     "en": "The word is related to cabin.",
+     "cn": "这个词与 cabin 同源。"
+    }
+   ],
+   "abstract": [
+    {
+     "en": "See a wall of doors opening onto neat shelves.",
+     "cn": "想象一整墙柜门打开，露出整齐的隔板。"
+    },
+    {
+     "en": "See a small room with a heavy table and closed doors.",
+     "cn": "想象一间小室，里面一张厚桌，门关着。"
+    },
+    {
+     "en": "See coins laid out under glass in a quiet room.",
+     "cn": "想象安静房间里玻璃下的钱币展品。"
+    }
+   ]
+  },
+  "examples": [
+   {
+    "en": "She put the plates back in the cabinet.",
+    "cn": "她把盘子放回橱柜。"
+   },
+   {
+    "en": "The cabinet met to discuss the budget.",
+    "cn": "内阁开会讨论预算。"
+   },
+   {
+    "en": "The coin cabinet is upstairs.",
+    "cn": "钱币陈列室在楼上。"
+   }
+  ],
+  "dict_mnemonic": {
+   "note": "拆词记忆 · 非词源",
+   "text": "cabinet 和 cabin 同源，都是小空间；先记住小木屋，再想屋里靠墙立着带门的柜子，最后想到关起门议事的内阁。",
+   "word": "cabinet"
+  },
+  "root": "cabinet 是古法语 cabine（小房间）的指小形式，本指私密小室，后来指室内的储物柜，又指在小室议事的政府顾问团。",
+  "sensesIntro": {
+   "en": "A storage cupboard, a group of senior ministers, and a display room.",
+   "cn": "储物橱柜、高级部长组成的班子，以及陈列室。"
+  },
+  "semanticMap": {
+   "core": {
+    "en": "CORE IMAGE: a closed wooden cupboard against a wall.",
+    "cn": "核心意象：靠墙立着的封闭木柜。"
+   },
+   "chain": [
+    "FURNITURE",
+    "DOORS",
+    "STORAGE",
+    "ROOM",
+    "GOVERNMENT",
+    "ADVISERS"
+   ],
+   "branches": [
+    {
+     "senses": "01",
+     "en": "a kitchen cabinet",
+     "cn": "厨房橱柜"
+    },
+    {
+     "senses": "01",
+     "en": "a filing cabinet",
+     "cn": "文件柜"
+    },
+    {
+     "senses": "01",
+     "en": "a medicine cabinet",
+     "cn": "药柜"
+    },
+    {
+     "senses": "02",
+     "en": "a cabinet meeting",
+     "cn": "内阁会议"
+    },
+    {
+     "senses": "03",
+     "en": "the coin cabinet",
+     "cn": "钱币陈列室"
+    }
+   ]
+  },
+  "affixes": {
+   "intro": {
+    "en": "Cabinet forms compounds with maker and takes the ending -ry.",
+    "cn": "cabinet 能与 maker 组成复合词，也能加 -ry 构成名词。"
+   },
+   "latinIntro": {
+    "en": "The base is a French diminutive; the Latin relative is capanna, a hut.",
+    "cn": "词基是法语的指小形式，拉丁语中的相关词是 capanna（小屋）。"
+   },
+   "items": [
+    {
+     "word": "cabinet",
+     "structure": "Old French cabinet",
+     "meaning": "a small room, then a cupboard",
+     "meaningCN": "小房间，后指橱柜",
+     "example": "a kitchen cabinet",
+     "exampleCN": "厨房橱柜"
+    },
+    {
+     "word": "cabinetry",
+     "structure": "cabinet + -ry",
+     "meaning": "the craft of cabinet making",
+     "meaningCN": "橱柜工艺",
+     "example": "fine cabinetry",
+     "exampleCN": "精细橱柜工艺"
+    },
+    {
+     "word": "cabinetmaker",
+     "structure": "cabinet + maker",
+     "meaning": "a maker of fine furniture",
+     "meaningCN": "细木匠",
+     "example": "a skilled cabinetmaker",
+     "exampleCN": "熟练细木匠"
+    },
+    {
+     "word": "cabin",
+     "structure": "Old French cabane",
+     "meaning": "a small shelter",
+     "meaningCN": "小屋",
+     "example": "a log cabin",
+     "exampleCN": "原木小屋"
+    },
+    {
+     "word": "cupboard",
+     "structure": "cup + board",
+     "meaning": "a shelved storage furniture",
+     "meaningCN": "储物柜",
+     "example": "a kitchen cupboard",
+     "exampleCN": "厨房储物柜"
+    },
+    {
+     "word": "locker",
+     "structure": "lock + -er",
+     "meaning": "a small locked cupboard",
+     "meaningCN": "带锁小柜",
+     "example": "a school locker",
+     "exampleCN": "学校储物柜"
+    },
+    {
+     "word": "wardrobe",
+     "structure": "ward + robe",
+     "meaning": "a tall clothes cupboard",
+     "meaningCN": "衣柜",
+     "example": "a wooden wardrobe",
+     "exampleCN": "木衣柜"
+    },
+    {
+     "word": "shelf",
+     "structure": "Middle English shelfe",
+     "meaning": "a flat board for storing things",
+     "meaningCN": "隔板",
+     "example": "a top shelf",
+     "exampleCN": "最上层隔板"
+    }
+   ],
+   "latinEntries": [
+    {
+     "word": "capanna",
+     "structure": "Latin noun",
+     "meaning": "hut",
+     "meaningCN": "小屋"
+    }
+   ]
+  }
+ },
+ {
+  "word": "cable",
+  "ipa_uk": "/ˈkeɪbl/",
+  "ipa_us": "/ˈkeɪbl/",
+  "definition_zh": "电缆；缆绳；电报",
+  "definition_en": "a thick strong wire or rope used to carry electricity or signals",
+  "core_image": "粗壮的金属线缆盘绕成圈",
+  "scene": "工人在路边挖开沟槽。They laid a new cable under the street.",
+  "sceneCN": "这里 cable 是「电缆」（第 1 个义项：输送电力的粗线）；句意是他们在街道下面铺了新电缆。",
+  "pos": [
+   {
+    "tag": "n.",
+    "zh": "名词：电缆；缆绳"
+   },
+   {
+    "tag": "v.",
+    "zh": "动词：发电报；铺设电缆"
+   }
+  ],
+  "collocations": [
+   {
+    "phrase": "a power cable",
+    "zh": "电力电缆"
+   },
+   {
+    "phrase": "cable TV",
+    "zh": "有线电视"
+   },
+   {
+    "phrase": "lay a cable",
+    "zh": "铺设电缆"
+   },
+   {
+    "phrase": "a cable car",
+    "zh": "缆车"
+   },
+   {
+    "phrase": "send a cable",
+    "zh": "发电报"
+   }
+  ],
+  "forms": [
+   {
+    "label": "复数",
+    "form": "cables"
+   },
+   {
+    "label": "过去式",
+    "form": "cabled"
+   },
+   {
+    "label": "过去分词",
+    "form": "cabled"
+   },
+   {
+    "label": "现在分词",
+    "form": "cabling"
+   }
+  ],
+  "derivatives": [
+   {
+    "word": "cabling",
+    "pos": "n.",
+    "zh": "布线，整套电缆系统"
+   },
+   {
+    "word": "cablegram",
+    "pos": "n.",
+    "zh": "海底电报，经电缆传送的电文"
+   },
+   {
+    "word": "cableway",
+    "pos": "n.",
+    "zh": "索道，用缆绳牵引的运输装置"
+   }
+  ],
+  "senses": [
+   {
+    "no": "01",
+    "title": "A thick wire for power or signals",
+    "titleCN": "电缆",
+    "definition": "a bundle of wires covered in a thick protective cover",
+    "definitionCN": "外面包着厚保护层的线束",
+    "example": "They laid a new cable under the street.",
+    "exampleCN": "他们在街道下面铺了新电缆。",
+    "why": "The core image is a thick line that carries force from one place to another.",
+    "whyCN": "核心意象是一根粗线，把力量从一处送到另一处。"
+   },
+   {
+    "no": "02",
+    "title": "A strong thick rope",
+    "titleCN": "缆绳",
+    "definition": "a very thick rope used to hold or pull heavy things",
+    "definitionCN": "用来拉住或拖动重物的粗绳",
+    "example": "The ship was tied with a steel cable.",
+    "exampleCN": "船用钢缆系住了。",
+    "why": "Before electricity, the word named the heavy rope on ships and bridges.",
+    "whyCN": "在电出现之前，这个词指船和桥上的粗绳。"
+   },
+   {
+    "no": "03",
+    "title": "A message sent by telegraph",
+    "titleCN": "电报",
+    "definition": "a short message sent by telegraph under the sea",
+    "definitionCN": "经海底电缆用电报发出的简短消息",
+    "example": "He sent a cable to his family.",
+    "exampleCN": "他给家人发了一封电报。",
+    "why": "Messages travelled along submarine cables, so the cable lent its name to the message.",
+    "whyCN": "消息沿着海底电缆传送，电缆的名字就借给了电文。"
+   }
+  ],
+  "etymology": {
+   "intro": {
+    "en": "Cable goes back through French to a Latin word for a halter.",
+    "cn": "cable 经法语上溯到拉丁语里表示缰绳的词。"
+   },
+   "items": [
+    {
+     "era": "LATIN",
+     "en": "capulum meant a halter or rope.",
+     "cn": "拉丁语 capulum 指缰绳或绳索。"
+    },
+    {
+     "era": "OLD NORTH FRENCH",
+     "en": "cable named a strong rope.",
+     "cn": "古北法语 cable 指结实的粗绳。"
+    },
+    {
+     "era": "MIDDLE ENGLISH",
+     "en": "cable was used for ships' ropes.",
+     "cn": "中古英语 cable 用于船上的缆绳。"
+    },
+    {
+     "era": "NINETEENTH CENTURY",
+     "en": "Telegraph cables crossed the sea and cable meant a telegram.",
+     "cn": "十九世纪海底电报电缆横跨大洋，cable 也指电报。"
+    },
+    {
+     "era": "MODERN ENGLISH",
+     "en": "Cable covers power lines, ropes, television and telegrams.",
+     "cn": "现代英语中 cable 兼指电力线、缆绳、有线电视与电报。"
+    }
+   ]
+  },
+  "similar": {
+   "note": {
+    "en": "The look-alike group shares the cable base; the near-meaning group gives other lines and ropes.",
+    "cn": "形近组共用 cable 词基；近义组是其他线绳类词。"
+   },
+   "groups": [
+    {
+     "heading": "LOOK-ALIKE",
+     "entries": [
+      {
+       "word": "cabling",
+       "ipa": "/ˈkeɪblɪŋ/",
+       "tag": "derived form",
+       "definition": "a system of cables",
+       "definitionCN": "整套布线"
+      },
+      {
+       "word": "cablegram",
+       "ipa": "/ˈkeɪblɡræm/",
+       "tag": "compound",
+       "definition": "a message sent by submarine cable",
+       "definitionCN": "海底电报"
+      },
+      {
+       "word": "cableway",
+       "ipa": "/ˈkeɪblweɪ/",
+       "tag": "compound",
+       "definition": "a ropeway for carrying loads",
+       "definitionCN": "索道"
+      }
+     ]
+    },
+    {
+     "heading": "NEAR MEANING",
+     "entries": [
+      {
+       "word": "wire",
+       "ipa": "/ˈwaɪə/",
+       "tag": "near meaning",
+       "definition": "a thin metal thread carrying electricity",
+       "definitionCN": "导电的细金属线"
+      },
+      {
+       "word": "rope",
+       "ipa": "/rəʊp/",
+       "tag": "near meaning",
+       "definition": "a thick cord of twisted fibres",
+       "definitionCN": "多股纤维拧成的粗绳"
+      },
+      {
+       "word": "cord",
+       "ipa": "/kɔːd/",
+       "tag": "related",
+       "definition": "a thin flexible rope or wire",
+       "definitionCN": "细软的绳或线"
+      }
+     ]
+    }
+   ]
+  },
+  "mnemonics": {
+   "normalIntro": {
+    "en": "Cable names a thick line that carries power, pulls loads or sends news.",
+    "cn": "cable 指输送电力、牵引重物或传递消息的粗线。"
+   },
+   "normal": [
+    {
+     "en": "The plural is cables.",
+     "cn": "复数是 cables。"
+    },
+    {
+     "en": "Cable TV arrives through a cable.",
+     "cn": "cable TV 通过电缆传送。"
+    },
+    {
+     "en": "A cable car hangs from a cable.",
+     "cn": "缆车悬挂在缆绳上。"
+    },
+    {
+     "en": "Send a cable means send a telegram.",
+     "cn": "send a cable 义为发电报。"
+    },
+    {
+     "en": "Cabling is the whole wiring system.",
+     "cn": "cabling 指整套布线。"
+    }
+   ],
+   "abstract": [
+    {
+     "en": "See a thick black line coiled on the ground.",
+     "cn": "想象地上盘着一圈粗黑线缆。"
+    },
+    {
+     "en": "See a ship held steady by two taut ropes.",
+     "cn": "想象船被两根绷紧的粗绳拉住。"
+    },
+    {
+     "en": "See a short message arriving from under the ocean.",
+     "cn": "想象一封短信从海底传来。"
+    }
+   ]
+  },
+  "examples": [
+   {
+    "en": "They laid a new cable under the street.",
+    "cn": "他们在街道下面铺了新电缆。"
+   },
+   {
+    "en": "The ship was tied with a steel cable.",
+    "cn": "船用钢缆系住了。"
+   },
+   {
+    "en": "He sent a cable to his family.",
+    "cn": "他给家人发了一封电报。"
+   }
+  ],
+  "dict_mnemonic": {
+   "note": "拆词记忆 · 非词源",
+   "text": "cable 读起来像「开播」，一开播就要有线缆，粗线一通，电和消息都沿着它走。",
+   "word": "cable"
+  },
+  "root": "cable 经古北法语 cable 上溯到拉丁语 capulum（缰绳、绳索），本指粗绳，十九世纪海底电报电缆普及后也指电报。",
+  "sensesIntro": {
+   "en": "A power line, a heavy rope, and a message sent by telegraph.",
+   "cn": "电力线、粗缆绳，以及经电报发出的消息。"
+  },
+  "semanticMap": {
+   "core": {
+    "en": "CORE IMAGE: a thick line coiled and ready to carry force.",
+    "cn": "核心意象：盘好的粗线，随时输送力量。"
+   },
+   "chain": [
+    "WIRE",
+    "ROPE",
+    "POWER",
+    "SIGNAL",
+    "TELEGRAM",
+    "CAR"
+   ],
+   "branches": [
+    {
+     "senses": "01",
+     "en": "a power cable",
+     "cn": "电力电缆"
+    },
+    {
+     "senses": "01",
+     "en": "lay a cable",
+     "cn": "铺设电缆"
+    },
+    {
+     "senses": "01",
+     "en": "cable TV",
+     "cn": "有线电视"
+    },
+    {
+     "senses": "02",
+     "en": "a steel cable",
+     "cn": "钢缆"
+    },
+    {
+     "senses": "03",
+     "en": "send a cable",
+     "cn": "发电报"
+    }
+   ]
+  },
+  "affixes": {
+   "intro": {
+    "en": "Cable forms compounds with car, way and gram.",
+    "cn": "cable 能与 car、way、gram 组成复合词。"
+   },
+   "latinIntro": {
+    "en": "The base is Latin capulum, a halter or rope.",
+    "cn": "词基是拉丁语 capulum，意为缰绳或绳索。"
+   },
+   "items": [
+    {
+     "word": "cable",
+     "structure": "Old North French cable",
+     "meaning": "a thick rope or wire",
+     "meaningCN": "粗缆",
+     "example": "a power cable",
+     "exampleCN": "电力电缆"
+    },
+    {
+     "word": "cabling",
+     "structure": "cable + -ing",
+     "meaning": "a system of cables",
+     "meaningCN": "布线系统",
+     "example": "office cabling",
+     "exampleCN": "办公室布线"
+    },
+    {
+     "word": "cablegram",
+     "structure": "cable + gram",
+     "meaning": "a telegram by cable",
+     "meaningCN": "海底电报",
+     "example": "send a cablegram",
+     "exampleCN": "发海底电报"
+    },
+    {
+     "word": "cableway",
+     "structure": "cable + way",
+     "meaning": "a ropeway",
+     "meaningCN": "索道",
+     "example": "a mountain cableway",
+     "exampleCN": "山上索道"
+    },
+    {
+     "word": "wire",
+     "structure": "Old English wīr",
+     "meaning": "a thin metal line",
+     "meaningCN": "金属线",
+     "example": "a live wire",
+     "exampleCN": "带电导线"
+    },
+    {
+     "word": "rope",
+     "structure": "Old English rāp",
+     "meaning": "a thick cord",
+     "meaningCN": "粗绳",
+     "example": "a coil of rope",
+     "exampleCN": "一盘绳子"
+    },
+    {
+     "word": "cord",
+     "structure": "Old French corde",
+     "meaning": "a thin flexible line",
+     "meaningCN": "细绳",
+     "example": "a power cord",
+     "exampleCN": "电源线"
+    },
+    {
+     "word": "telegram",
+     "structure": "tele- + gram",
+     "meaning": "a message sent by telegraph",
+     "meaningCN": "电报",
+     "example": "an urgent telegram",
+     "exampleCN": "加急电报"
+    }
+   ],
+   "latinEntries": [
+    {
+     "word": "capulum",
+     "structure": "Latin noun",
+     "meaning": "halter, rope",
+     "meaningCN": "缰绳，绳索"
+    }
+   ]
+  }
+ },
+ {
+  "word": "cake",
+  "ipa_uk": "/keɪk/",
+  "ipa_us": "/keɪk/",
+  "definition_zh": "蛋糕；饼状食物；结块",
+  "definition_en": "a sweet food made by baking flour, eggs, sugar and fat",
+  "core_image": "刚出炉、表面金黄的圆形糕点",
+  "scene": "烤箱门一开，甜香扑出来。She cut the cake into eight pieces.",
+  "sceneCN": "这里 cake 是「蛋糕」（第 1 个义项：烘烤成的甜点）；句意是她把蛋糕切成八块。",
+  "pos": [
+   {
+    "tag": "n.",
+    "zh": "名词：蛋糕；饼状食物"
+   },
+   {
+    "tag": "v.",
+    "zh": "动词：结块，结成硬壳"
+   }
+  ],
+  "collocations": [
+   {
+    "phrase": "a birthday cake",
+    "zh": "生日蛋糕"
+   },
+   {
+    "phrase": "a piece of cake",
+    "zh": "一块蛋糕；容易的事"
+   },
+   {
+    "phrase": "bake a cake",
+    "zh": "烤蛋糕"
+   },
+   {
+    "phrase": "chocolate cake",
+    "zh": "巧克力蛋糕"
+   },
+   {
+    "phrase": "fish cake",
+    "zh": "鱼饼"
+   }
+  ],
+  "forms": [
+   {
+    "label": "复数",
+    "form": "cakes"
+   },
+   {
+    "label": "过去式",
+    "form": "caked"
+   },
+   {
+    "label": "过去分词",
+    "form": "caked"
+   },
+   {
+    "label": "现在分词",
+    "form": "caking"
+   }
+  ],
+  "derivatives": [
+   {
+    "word": "caked",
+    "pos": "adj.",
+    "zh": "结块的，糊着一层硬壳的"
+   },
+   {
+    "word": "cakey",
+    "pos": "adj.",
+    "zh": "像蛋糕一样松软的"
+   },
+   {
+    "word": "cupcake",
+    "pos": "n.",
+    "zh": "纸杯蛋糕，由 cup 与 cake 组合"
+   }
+  ],
+  "senses": [
+   {
+    "no": "01",
+    "title": "The baked sweet food",
+    "titleCN": "蛋糕",
+    "definition": "a sweet food baked from flour, eggs, sugar and fat",
+    "definitionCN": "用面粉、鸡蛋、糖和油脂烘烤成的甜食",
+    "example": "She cut the cake into eight pieces.",
+    "exampleCN": "她把蛋糕切成八块。",
+    "why": "The core image is a soft golden round fresh from the oven.",
+    "whyCN": "核心意象是刚出炉、金黄松软的圆形糕点。"
+   },
+   {
+    "no": "02",
+    "title": "A flat round mass of food",
+    "titleCN": "饼状食物",
+    "definition": "a flat round piece of food made from mashed or minced ingredients",
+    "definitionCN": "把食材捣碎或切碎后做成的扁平圆块",
+    "example": "We had fish cakes for lunch.",
+    "exampleCN": "我们午饭吃了鱼饼。",
+    "why": "The round baked shape was extended to savoury patties of similar form.",
+    "whyCN": "烘烤成型的圆块，被引申到形状相似的咸味饼。"
+   },
+   {
+    "no": "03",
+    "title": "To form a hard mass",
+    "titleCN": "结块",
+    "definition": "to become covered with or form a hard dry layer",
+    "definitionCN": "表面结成或形成一层干硬的壳",
+    "example": "The mud caked on his boots.",
+    "exampleCN": "泥巴在他靴子上结成了块。",
+    "why": "A dried crust looks like the firm top of a baked cake.",
+    "whyCN": "干硬的表层看起来像烤糕点的硬皮。"
+   }
+  ],
+  "etymology": {
+   "intro": {
+    "en": "Cake is an Old Norse loanword that replaced older English forms.",
+    "cn": "cake 是古诺尔斯语借词，取代了更早的英语形式。"
+   },
+   "items": [
+    {
+     "era": "OLD NORSE",
+     "en": "kaka meant a flat baked bread.",
+     "cn": "古诺尔斯语 kaka 指扁平的烘烤面食。"
+    },
+    {
+     "era": "MIDDLE ENGLISH",
+     "en": "cake named a round loaf or sweet baked food.",
+     "cn": "中古英语 cake 指圆形面包或甜味烘烤食品。"
+    },
+    {
+     "era": "SIXTEENTH CENTURY",
+     "en": "Sugar and eggs made cakes sweeter and lighter.",
+     "cn": "十六世纪糖和鸡蛋让蛋糕更甜更松软。"
+    },
+    {
+     "era": "NINETEENTH CENTURY",
+     "en": "Cake also named savoury patties such as fish cake.",
+     "cn": "十九世纪 cake 也指鱼饼这类咸味饼。"
+    },
+    {
+     "era": "MODERN ENGLISH",
+     "en": "Cake covers sweet bakes, patties and the verb to cake.",
+     "cn": "现代英语中 cake 兼指甜点、饼块与结块的动作。"
+    }
+   ]
+  },
+  "similar": {
+   "note": {
+    "en": "The look-alike group shares the cake base; the near-meaning group gives other baked foods.",
+    "cn": "形近组共用 cake 词基；近义组是其他烘焙食品。"
+   },
+   "groups": [
+    {
+     "heading": "LOOK-ALIKE",
+     "entries": [
+      {
+       "word": "cupcake",
+       "ipa": "/ˈkʌpkeɪk/",
+       "tag": "compound",
+       "definition": "a small cake baked in a paper cup",
+       "definitionCN": "纸杯蛋糕"
+      },
+      {
+       "word": "pancake",
+       "ipa": "/ˈpænkeɪk/",
+       "tag": "compound",
+       "definition": "a thin flat cake fried in a pan",
+       "definitionCN": "平底锅煎的薄饼"
+      },
+      {
+       "word": "caked",
+       "ipa": "/keɪkt/",
+       "tag": "derived form",
+       "definition": "covered with a hard dry layer",
+       "definitionCN": "结了一层硬壳的"
+      }
+     ]
+    },
+    {
+     "heading": "NEAR MEANING",
+     "entries": [
+      {
+       "word": "pastry",
+       "ipa": "/ˈpeɪstri/",
+       "tag": "near meaning",
+       "definition": "baked food made from dough and fat",
+       "definitionCN": "用面团和油脂烤成的点心"
+      },
+      {
+       "word": "biscuit",
+       "ipa": "/ˈbɪskɪt/",
+       "tag": "near meaning",
+       "definition": "a small hard sweet baked food",
+       "definitionCN": "小块硬质甜饼干"
+      },
+      {
+       "word": "pie",
+       "ipa": "/paɪ/",
+       "tag": "related",
+       "definition": "a baked dish with pastry around a filling",
+       "definitionCN": "外裹面皮的烤制馅饼"
+      }
+     ]
+    }
+   ]
+  },
+  "mnemonics": {
+   "normalIntro": {
+    "en": "Cake names the sweet bake, the flat patty and the dried crust.",
+    "cn": "cake 指甜点、扁饼，也指结成的硬壳。"
+   },
+   "normal": [
+    {
+     "en": "The plural is cakes.",
+     "cn": "复数是 cakes。"
+    },
+    {
+     "en": "A piece of cake also means an easy task.",
+     "cn": "a piece of cake 也指轻而易举的事。"
+    },
+    {
+     "en": "Cupcake and pancake are common compounds.",
+     "cn": "cupcake 和 pancake 是常见复合词。"
+    },
+    {
+     "en": "Caked with mud describes a dried layer.",
+     "cn": "caked with mud 形容结了一层干泥。"
+    },
+    {
+     "en": "The word came from Old Norse kaka.",
+     "cn": "这个词来自古诺尔斯语 kaka。"
+    }
+   ],
+   "abstract": [
+    {
+     "en": "See a golden round rise behind the oven door.",
+     "cn": "想象烤箱门后一个金黄圆糕鼓起来。"
+    },
+    {
+     "en": "See a knife slide through soft layers.",
+     "cn": "想象刀切过松软的层层糕体。"
+    },
+    {
+     "en": "See dry mud harden into a shell on a boot.",
+     "cn": "想象干泥在靴子上结成硬壳。"
+    }
+   ]
+  },
+  "examples": [
+   {
+    "en": "She cut the cake into eight pieces.",
+    "cn": "她把蛋糕切成八块。"
+   },
+   {
+    "en": "We had fish cakes for lunch.",
+    "cn": "我们午饭吃了鱼饼。"
+   },
+   {
+    "en": "The mud caked on his boots.",
+    "cn": "泥巴在他靴子上结成了块。"
+   }
+  ],
+  "dict_mnemonic": {
+   "note": "拆词记忆 · 非词源",
+   "text": "cake 读起来像「凯克」，像是切开蛋糕时刀落到案板上的「克」一声，切一块就记住一块。",
+   "word": "cake"
+  },
+  "root": "cake 借自古诺尔斯语 kaka，本指扁平的烘烤面食，中古英语起指圆形面包与甜点，后又引申指饼状食物和结块。",
+  "sensesIntro": {
+   "en": "A sweet baked food, a flat patty, and a hard dried crust.",
+   "cn": "烘烤甜点、扁平饼块，以及干硬的结壳。"
+  },
+  "semanticMap": {
+   "core": {
+    "en": "CORE IMAGE: a golden round fresh from the oven.",
+    "cn": "核心意象：刚出炉的金黄圆糕。"
+   },
+   "chain": [
+    "FLOUR",
+    "OVEN",
+    "SWEET",
+    "SLICE",
+    "CELEBRATION",
+    "MASS"
+   ],
+   "branches": [
+    {
+     "senses": "01",
+     "en": "a birthday cake",
+     "cn": "生日蛋糕"
+    },
+    {
+     "senses": "01",
+     "en": "bake a cake",
+     "cn": "烤蛋糕"
+    },
+    {
+     "senses": "01",
+     "en": "chocolate cake",
+     "cn": "巧克力蛋糕"
+    },
+    {
+     "senses": "02",
+     "en": "fish cake",
+     "cn": "鱼饼"
+    },
+    {
+     "senses": "03",
+     "en": "caked with mud",
+     "cn": "结着泥块"
+    }
+   ]
+  },
+  "affixes": {
+   "intro": {
+    "en": "Cake forms compounds with cup and pan and takes -ed and -y.",
+    "cn": "cake 能与 cup、pan 组成复合词，也能加 -ed 与 -y。"
+   },
+   "latinIntro": {
+    "en": "The word is Norse in origin; the items below are related food words.",
+    "cn": "这个词源自诺尔斯语，下面列出相关食物词。"
+   },
+   "items": [
+    {
+     "word": "cake",
+     "structure": "Old Norse kaka",
+     "meaning": "a baked sweet food",
+     "meaningCN": "蛋糕",
+     "example": "a birthday cake",
+     "exampleCN": "生日蛋糕"
+    },
+    {
+     "word": "cupcake",
+     "structure": "cup + cake",
+     "meaning": "a small cake in a paper cup",
+     "meaningCN": "纸杯蛋糕",
+     "example": "a chocolate cupcake",
+     "exampleCN": "巧克力纸杯蛋糕"
+    },
+    {
+     "word": "pancake",
+     "structure": "pan + cake",
+     "meaning": "a thin fried cake",
+     "meaningCN": "薄煎饼",
+     "example": "a stack of pancakes",
+     "exampleCN": "一叠薄煎饼"
+    },
+    {
+     "word": "caked",
+     "structure": "cake + -ed",
+     "meaning": "covered with a hard layer",
+     "meaningCN": "结硬壳的",
+     "example": "boots caked with mud",
+     "exampleCN": "沾满干泥的靴子"
+    },
+    {
+     "word": "pastry",
+     "structure": "paste + -ry",
+     "meaning": "baked dough food",
+     "meaningCN": "糕点",
+     "example": "a sweet pastry",
+     "exampleCN": "甜酥点"
+    },
+    {
+     "word": "biscuit",
+     "structure": "Latin bis coctus",
+     "meaning": "a hard baked sweet",
+     "meaningCN": "饼干",
+     "example": "a dry biscuit",
+     "exampleCN": "干饼干"
+    },
+    {
+     "word": "pie",
+     "structure": "Middle English pie",
+     "meaning": "a filled baked dish",
+     "meaningCN": "馅饼",
+     "example": "an apple pie",
+     "exampleCN": "苹果馅饼"
+    },
+    {
+     "word": "bake",
+     "structure": "Old English bacan",
+     "meaning": "to cook in an oven",
+     "meaningCN": "烘烤",
+     "example": "bake bread",
+     "exampleCN": "烤面包"
+    }
+   ],
+   "latinEntries": []
+  }
+ },
+ {
+  "word": "calculate",
+  "ipa_uk": "/ˈkælkjuleɪt/",
+  "ipa_us": "/ˈkælkjuleɪt/",
+  "definition_zh": "计算；估计；打算",
+  "definition_en": "to work out an amount or result using numbers",
+  "core_image": "在纸上一步步列出数字并相加",
+  "scene": "结账前他对着账单核对。He calculated the total cost carefully.",
+  "sceneCN": "这里 calculate 是「计算」（第 1 个义项：用数字算出结果）；句意是他仔细计算了总花费。",
+  "pos": [
+   {
+    "tag": "v.",
+    "zh": "动词：计算；估计；打算"
+   }
+  ],
+  "collocations": [
+   {
+    "phrase": "calculate the cost",
+    "zh": "计算成本"
+   },
+   {
+    "phrase": "calculate the distance",
+    "zh": "计算距离"
+   },
+   {
+    "phrase": "calculate accurately",
+    "zh": "准确计算"
+   },
+   {
+    "phrase": "be calculated to",
+    "zh": "旨在，用意在于"
+   },
+   {
+    "phrase": "calculate on",
+    "zh": "指望，预料"
+   }
+  ],
+  "forms": [
+   {
+    "label": "三单",
+    "form": "calculates"
+   },
+   {
+    "label": "过去式",
+    "form": "calculated"
+   },
+   {
+    "label": "过去分词",
+    "form": "calculated"
+   },
+   {
+    "label": "现在分词",
+    "form": "calculating"
+   }
+  ],
+  "derivatives": [
+   {
+    "word": "calculation",
+    "pos": "n.",
+    "zh": "计算，由动词加 -ion 构成"
+   },
+   {
+    "word": "calculator",
+    "pos": "n.",
+    "zh": "计算器，由动词加 -or 构成"
+   },
+   {
+    "word": "calculated",
+    "pos": "adj.",
+    "zh": "蓄意的，精心安排的"
+   },
+   {
+    "word": "calculating",
+    "pos": "adj.",
+    "zh": "精明的，善于算计的"
+   }
+  ],
+  "senses": [
+   {
+    "no": "01",
+    "title": "To work out with numbers",
+    "titleCN": "计算",
+    "definition": "to find a total or amount by using numbers",
+    "definitionCN": "通过运算求出总数或数量",
+    "example": "He calculated the total cost carefully.",
+    "exampleCN": "他仔细计算了总花费。",
+    "why": "The core image is small stones moved one by one to keep a count.",
+    "whyCN": "核心意象是一颗颗小石子被挪动，用来记数。"
+   },
+   {
+    "no": "02",
+    "title": "To estimate or judge",
+    "titleCN": "估计",
+    "definition": "to judge the likely amount or effect without exact figures",
+    "definitionCN": "在没有精确数字时判断大致数量或效果",
+    "example": "We calculated that the trip would take three hours.",
+    "exampleCN": "我们估计这趟行程要三个小时。",
+    "why": "Counting grew into judging, even when no exact sum is possible.",
+    "whyCN": "从精确计数扩展到判断，即使算不出精确结果也用它。"
+   },
+   {
+    "no": "03",
+    "title": "To intend for a purpose",
+    "titleCN": "打算；旨在",
+    "definition": "to design something to have a particular effect",
+    "definitionCN": "使某事物产生特定效果，用意在于",
+    "example": "The remark was calculated to calm the crowd.",
+    "exampleCN": "那句话意在安抚人群。",
+    "why": "A planned effect is worked out in advance, like a sum on paper.",
+    "whyCN": "预想的效果提前算好，就像纸上先列出的算式。"
+   }
+  ],
+  "etymology": {
+   "intro": {
+    "en": "Calculate comes from the Latin word for a counting stone.",
+    "cn": "calculate 来自拉丁语里表示计数石子的词。"
+   },
+   "items": [
+    {
+     "era": "LATIN",
+     "en": "calculus meant a small stone used for counting.",
+     "cn": "拉丁语 calculus 指用来计数的小石子。"
+    },
+    {
+     "era": "LATE LATIN",
+     "en": "calculare meant to reckon with such stones.",
+     "cn": "晚期拉丁语 calculare 意为用小石子核算。"
+    },
+    {
+     "era": "MIDDLE ENGLISH",
+     "en": "calculen named working out an amount.",
+     "cn": "中古英语 calculen 指算出数量。"
+    },
+    {
+     "era": "SEVENTEENTH CENTURY",
+     "en": "The word extended to judging and planning.",
+     "cn": "十七世纪词义扩展到判断与谋划。"
+    },
+    {
+     "era": "MODERN ENGLISH",
+     "en": "Calculate covers arithmetic, estimation and intention.",
+     "cn": "现代英语中 calculate 兼指运算、估计与用意。"
+    }
+   ]
+  },
+  "similar": {
+   "note": {
+    "en": "The look-alike group shares the calcul- base; the near-meaning group gives other number verbs.",
+    "cn": "形近组共用 calcul- 词基；近义组是其他与数字有关的动词。"
+   },
+   "groups": [
+    {
+     "heading": "LOOK-ALIKE",
+     "entries": [
+      {
+       "word": "calculation",
+       "ipa": "/ˌkælkjuˈleɪʃn/",
+       "tag": "derived form",
+       "definition": "the process or result of calculating",
+       "definitionCN": "计算过程或结果"
+      },
+      {
+       "word": "calculator",
+       "ipa": "/ˈkælkjuleɪtə/",
+       "tag": "derived form",
+       "definition": "a device for doing arithmetic",
+       "definitionCN": "计算器"
+      },
+      {
+       "word": "calculated",
+       "ipa": "/ˈkælkjuleɪtɪd/",
+       "tag": "derived form",
+       "definition": "done on purpose",
+       "definitionCN": "蓄意的"
+      }
+     ]
+    },
+    {
+     "heading": "NEAR MEANING",
+     "entries": [
+      {
+       "word": "compute",
+       "ipa": "/kəmˈpjuːt/",
+       "tag": "near meaning",
+       "definition": "to work out an amount with numbers",
+       "definitionCN": "用数字算出结果"
+      },
+      {
+       "word": "estimate",
+       "ipa": "/ˈestɪmeɪt/",
+       "tag": "near meaning",
+       "definition": "to judge an amount roughly",
+       "definitionCN": "大致估算"
+      },
+      {
+       "word": "count",
+       "ipa": "/kaʊnt/",
+       "tag": "related",
+       "definition": "to say numbers in order or find a total",
+       "definitionCN": "数数或求总数"
+      }
+     ]
+    }
+   ]
+  },
+  "mnemonics": {
+   "normalIntro": {
+    "en": "Calculate is built on the Latin word for a counting stone.",
+    "cn": "calculate 建立在拉丁语「计数石子」这个词上。"
+   },
+   "normal": [
+    {
+     "en": "The noun is calculation.",
+     "cn": "名词是 calculation。"
+    },
+    {
+     "en": "The device is a calculator.",
+     "cn": "计算工具是 calculator。"
+    },
+    {
+     "en": "Calculated can mean deliberate.",
+     "cn": "calculated 可表示蓄意的。"
+    },
+    {
+     "en": "Calculating can mean shrewd.",
+     "cn": "calculating 可表示精明的。"
+    },
+    {
+     "en": "Calculate the cost is a common phrase.",
+     "cn": "calculate the cost 是常见搭配。"
+    }
+   ],
+   "abstract": [
+    {
+     "en": "See pebbles lined up in rows on a table.",
+     "cn": "想象桌上石子排成一行行。"
+    },
+    {
+     "en": "See a pencil adding figures down a page.",
+     "cn": "想象铅笔在纸上把数字一列列相加。"
+    },
+    {
+     "en": "See a plan drawn before the words are spoken.",
+     "cn": "想象话未出口，打算已经画好。"
+    }
+   ]
+  },
+  "examples": [
+   {
+    "en": "He calculated the total cost carefully.",
+    "cn": "他仔细计算了总花费。"
+   },
+   {
+    "en": "We calculated that the trip would take three hours.",
+    "cn": "我们估计这趟行程要三个小时。"
+   },
+   {
+    "en": "The remark was calculated to calm the crowd.",
+    "cn": "那句话意在安抚人群。"
+   }
+  ],
+  "dict_mnemonic": {
+   "note": "拆词记忆 · 非词源",
+   "text": "calculate 里有 calc，像 chalk 粉笔，粉笔在纸上列数字、一行行算，算出结果就是 calculate。",
+   "word": "calculate"
+  },
+  "root": "calculate 源自拉丁语 calculus（计数用的小石子），动词 calculare 意为用小石子核算，后来泛指一切数值运算，并引申出估计与谋划。",
+  "sensesIntro": {
+   "en": "Working out numbers, judging roughly, and planning an effect.",
+   "cn": "数值运算、大致判断，以及预先谋划效果。"
+  },
+  "semanticMap": {
+   "core": {
+    "en": "CORE IMAGE: counting stones moved into rows.",
+    "cn": "核心意象：计数石子被排成一行行。"
+   },
+   "chain": [
+    "NUMBERS",
+    "SUM",
+    "STONE",
+    "ESTIMATE",
+    "PLAN",
+    "RESULT"
+   ],
+   "branches": [
+    {
+     "senses": "01",
+     "en": "calculate the cost",
+     "cn": "计算成本"
+    },
+    {
+     "senses": "01",
+     "en": "calculate the distance",
+     "cn": "计算距离"
+    },
+    {
+     "senses": "02",
+     "en": "calculate that it will rain",
+     "cn": "估计会下雨"
+    },
+    {
+     "senses": "03",
+     "en": "calculated to calm the crowd",
+     "cn": "意在安抚人群"
+    },
+    {
+     "senses": "01",
+     "en": "calculate accurately",
+     "cn": "准确计算"
+    }
+   ]
+  },
+  "affixes": {
+   "intro": {
+    "en": "Calculate takes -ion, -or and -ed to make new words.",
+    "cn": "calculate 能加 -ion、-or 与 -ed 构成新词。"
+   },
+   "latinIntro": {
+    "en": "The base is Latin calculus, a counting stone.",
+    "cn": "词基是拉丁语 calculus，意为计数石子。"
+   },
+   "items": [
+    {
+     "word": "calculate",
+     "structure": "Latin calculare",
+     "meaning": "to reckon with numbers",
+     "meaningCN": "计算",
+     "example": "calculate the cost",
+     "exampleCN": "计算成本"
+    },
+    {
+     "word": "calculation",
+     "structure": "calculate + -ion",
+     "meaning": "the act or result of reckoning",
+     "meaningCN": "计算",
+     "example": "a quick calculation",
+     "exampleCN": "快速计算"
+    },
+    {
+     "word": "calculator",
+     "structure": "calculate + -or",
+     "meaning": "a device for arithmetic",
+     "meaningCN": "计算器",
+     "example": "a pocket calculator",
+     "exampleCN": "袖珍计算器"
+    },
+    {
+     "word": "calculating",
+     "structure": "calculate + -ing",
+     "meaning": "shrewd, planning ahead",
+     "meaningCN": "精明的",
+     "example": "a calculating look",
+     "exampleCN": "精明的神色"
+    },
+    {
+     "word": "calculus",
+     "structure": "Latin calculus",
+     "meaning": "a counting stone, later a branch of maths",
+     "meaningCN": "计数石子，后指微积分",
+     "example": "differential calculus",
+     "exampleCN": "微分学"
+    },
+    {
+     "word": "compute",
+     "structure": "Latin computare",
+     "meaning": "to reckon with numbers",
+     "meaningCN": "运算",
+     "example": "compute the average",
+     "exampleCN": "计算平均值"
+    },
+    {
+     "word": "estimate",
+     "structure": "Latin aestimare",
+     "meaning": "to judge roughly",
+     "meaningCN": "估算",
+     "example": "estimate the cost",
+     "exampleCN": "估算成本"
+    },
+    {
+     "word": "arithmetic",
+     "structure": "Greek arithmos",
+     "meaning": "the study of numbers",
+     "meaningCN": "算术",
+     "example": "mental arithmetic",
+     "exampleCN": "心算"
+    }
+   ],
+   "latinEntries": [
+    {
+     "word": "calculus",
+     "structure": "Latin noun",
+     "meaning": "counting stone",
+     "meaningCN": "计数石子"
+    }
+   ]
+  }
+ },
+ {
+  "word": "calculation",
+  "ipa_uk": "/ˌkælkjuˈleɪʃn/",
+  "ipa_us": "/ˌkælkjuˈleɪʃn/",
+  "definition_zh": "计算；计算结果；盘算",
+  "definition_en": "the process of working out an amount with numbers",
+  "core_image": "写满数字与运算符号的纸",
+  "scene": "黑板上一列数字被逐一划去。The final calculation gave a surprising answer.",
+  "sceneCN": "这里 calculation 是「计算结果」（第 2 个义项：算出的数值）；句意是最终的计算结果令人意外。",
+  "pos": [
+   {
+    "tag": "n.",
+    "zh": "名词：计算；计算结果"
+   },
+   {
+    "tag": "n.",
+    "zh": "名词：盘算，深思熟虑"
+   }
+  ],
+  "collocations": [
+   {
+    "phrase": "make a calculation",
+    "zh": "进行计算"
+   },
+   {
+    "phrase": "a rough calculation",
+    "zh": "粗略计算"
+   },
+   {
+    "phrase": "the calculation is correct",
+    "zh": "计算正确"
+   },
+   {
+    "phrase": "by his calculation",
+    "zh": "据他估算"
+   },
+   {
+    "phrase": "political calculation",
+    "zh": "政治算计"
+   }
+  ],
+  "forms": [
+   {
+    "label": "复数",
+    "form": "calculations"
+   }
+  ],
+  "derivatives": [
+   {
+    "word": "calculate",
+    "pos": "v.",
+    "zh": "计算，calculation 的动词形式"
+   },
+   {
+    "word": "calculator",
+    "pos": "n.",
+    "zh": "计算器"
+   },
+   {
+    "word": "calculating",
+    "pos": "adj.",
+    "zh": "精明的，善于算计的"
+   }
+  ],
+  "senses": [
+   {
+    "no": "01",
+    "title": "The process of reckoning",
+    "titleCN": "计算",
+    "definition": "the act of working out an amount with numbers",
+    "definitionCN": "用数字求出数量的过程",
+    "example": "The calculation took him several minutes.",
+    "exampleCN": "这项计算花了他好几分钟。",
+    "why": "The core image is a page of figures waiting to be added.",
+    "whyCN": "核心意象是一页等待相加的数字。"
+   },
+   {
+    "no": "02",
+    "title": "The result reached",
+    "titleCN": "计算结果",
+    "definition": "the amount or answer obtained by reckoning",
+    "definitionCN": "通过运算得到的数量或答案",
+    "example": "The final calculation gave a surprising answer.",
+    "exampleCN": "最终的计算结果令人意外。",
+    "why": "The process and its answer share one word, so the sum itself is a calculation.",
+    "whyCN": "过程与答案共用一词，算出来的数值也叫 calculation。"
+   },
+   {
+    "no": "03",
+    "title": "Careful planning or scheming",
+    "titleCN": "盘算",
+    "definition": "careful thought about what will be gained or lost",
+    "definitionCN": "对得失所作的仔细考虑",
+    "example": "His silence was a matter of political calculation.",
+    "exampleCN": "他的沉默是出于政治盘算。",
+    "why": "Weighing gains is pictured as doing sums before acting.",
+    "whyCN": "权衡得失，被想象成行动之前先做算术。"
+   }
+  ],
+  "etymology": {
+   "intro": {
+    "en": "Calculation is the Latin-derived noun behind calculate.",
+    "cn": "calculation 是源自拉丁语的名词，与 calculate 同源。"
+   },
+   "items": [
+    {
+     "era": "LATIN",
+     "en": "calculus meant a small counting stone.",
+     "cn": "拉丁语 calculus 指计数用的小石子。"
+    },
+    {
+     "era": "LATE LATIN",
+     "en": "calculatio named the act of reckoning.",
+     "cn": "晚期拉丁语 calculatio 指核算这一行为。"
+    },
+    {
+     "era": "MIDDLE ENGLISH",
+     "en": "calculacioun entered English for reckoning.",
+     "cn": "中古英语 calculacioun 进入英语，表示计算。"
+    },
+    {
+     "era": "SEVENTEENTH CENTURY",
+     "en": "The word also named a result and a plan.",
+     "cn": "十七世纪起也指结果与盘算。"
+    },
+    {
+     "era": "MODERN ENGLISH",
+     "en": "Calculation covers the process, the answer and shrewd planning.",
+     "cn": "现代英语中 calculation 兼指过程、答案与精明盘算。"
+    }
+   ]
+  },
+  "similar": {
+   "note": {
+    "en": "The look-alike group shares the calcul- base; the near-meaning group gives related number nouns.",
+    "cn": "形近组共用 calcul- 词基；近义组是相关的数字名词。"
+   },
+   "groups": [
+    {
+     "heading": "LOOK-ALIKE",
+     "entries": [
+      {
+       "word": "calculate",
+       "ipa": "/ˈkælkjuleɪt/",
+       "tag": "same root",
+       "definition": "to work out an amount",
+       "definitionCN": "计算"
+      },
+      {
+       "word": "calculator",
+       "ipa": "/ˈkælkjuleɪtə/",
+       "tag": "same root",
+       "definition": "a device for arithmetic",
+       "definitionCN": "计算器"
+      },
+      {
+       "word": "calculating",
+       "ipa": "/ˈkælkjuleɪtɪŋ/",
+       "tag": "derived form",
+       "definition": "shrewd and self-seeking",
+       "definitionCN": "精于算计的"
+      }
+     ]
+    },
+    {
+     "heading": "NEAR MEANING",
+     "entries": [
+      {
+       "word": "computation",
+       "ipa": "/ˌkɒmpjuˈteɪʃn/",
+       "tag": "near meaning",
+       "definition": "the process of calculating",
+       "definitionCN": "运算过程"
+      },
+      {
+       "word": "estimate",
+       "ipa": "/ˈestɪmət/",
+       "tag": "near meaning",
+       "definition": "a rough judgment of an amount",
+       "definitionCN": "对数量的粗略判断"
+      },
+      {
+       "word": "arithmetic",
+       "ipa": "/əˈrɪθmətɪk/",
+       "tag": "related",
+       "definition": "the branch of maths about numbers",
+       "definitionCN": "算术"
+      }
+     ]
+    }
+   ]
+  },
+  "mnemonics": {
+   "normalIntro": {
+    "en": "Calculation is the noun made from calculate with -ion.",
+    "cn": "calculation 是 calculate 加 -ion 构成的名词。"
+   },
+   "normal": [
+    {
+     "en": "The plural is calculations.",
+     "cn": "复数是 calculations。"
+    },
+    {
+     "en": "Make a calculation is a common phrase.",
+     "cn": "make a calculation 是常见搭配。"
+    },
+    {
+     "en": "A rough calculation is not exact.",
+     "cn": "rough calculation 指粗略计算。"
+    },
+    {
+     "en": "By his calculation means as he estimated.",
+     "cn": "by his calculation 义为据他估算。"
+    },
+    {
+     "en": "The verb behind it is calculate.",
+     "cn": "它背后的动词是 calculate。"
+    }
+   ],
+   "abstract": [
+    {
+     "en": "See a page dense with figures and signs.",
+     "cn": "想象一页写满数字与符号的纸。"
+    },
+    {
+     "en": "See a single number circled at the bottom.",
+     "cn": "想象页底一个被圈出的数字。"
+    },
+    {
+     "en": "See a quiet face weighing two choices.",
+     "cn": "想象一张安静的脸在权衡两个选择。"
+    }
+   ]
+  },
+  "examples": [
+   {
+    "en": "The calculation took him several minutes.",
+    "cn": "这项计算花了他好几分钟。"
+   },
+   {
+    "en": "The final calculation gave a surprising answer.",
+    "cn": "最终的计算结果令人意外。"
+   },
+   {
+    "en": "His silence was a matter of political calculation.",
+    "cn": "他的沉默是出于政治盘算。"
+   }
+  ],
+  "dict_mnemonic": {
+   "note": "拆词记忆 · 非词源",
+   "text": "calculation 是 calculate 加 ion，ion 像一张写满算式的纸，算完把结果圈起来，过程与答案都归到这个词里。",
+   "word": "calculation"
+  },
+  "root": "calculation 经晚期拉丁语 calculatio 进入英语，词基是 calculus（计数石子），因此既指运算过程，也指算出的结果，还引申为对得失的盘算。",
+  "sensesIntro": {
+   "en": "The reckoning process, the answer it gives, and the planning behind an act.",
+   "cn": "运算过程、算出的答案，以及行动背后的盘算。"
+  },
+  "semanticMap": {
+   "core": {
+    "en": "CORE IMAGE: a page of figures ending in one circled answer.",
+    "cn": "核心意象：一页数字最后圈出一个答案。"
+   },
+   "chain": [
+    "NUMBERS",
+    "PROCESS",
+    "SUM",
+    "ESTIMATE",
+    "STRATEGY",
+    "RESULT"
+   ],
+   "branches": [
+    {
+     "senses": "01",
+     "en": "make a calculation",
+     "cn": "进行计算"
+    },
+    {
+     "senses": "01",
+     "en": "a rough calculation",
+     "cn": "粗略计算"
+    },
+    {
+     "senses": "02",
+     "en": "the final calculation",
+     "cn": "最终的计算结果"
+    },
+    {
+     "senses": "02",
+     "en": "by his calculation",
+     "cn": "据他估算"
+    },
+    {
+     "senses": "03",
+     "en": "political calculation",
+     "cn": "政治算计"
+    }
+   ]
+  },
+  "affixes": {
+   "intro": {
+    "en": "Calculation is built from calculate plus the noun ending -ion.",
+    "cn": "calculation 由 calculate 加名词后缀 -ion 构成。"
+   },
+   "latinIntro": {
+    "en": "The base is Latin calculus, a counting stone.",
+    "cn": "词基是拉丁语 calculus，意为计数石子。"
+   },
+   "items": [
+    {
+     "word": "calculation",
+     "structure": "calculate + -ion",
+     "meaning": "the act or result of reckoning",
+     "meaningCN": "计算或计算结果",
+     "example": "a rough calculation",
+     "exampleCN": "粗略计算"
+    },
+    {
+     "word": "calculate",
+     "structure": "Latin calculare",
+     "meaning": "to reckon with numbers",
+     "meaningCN": "计算",
+     "example": "calculate the cost",
+     "exampleCN": "计算成本"
+    },
+    {
+     "word": "calculator",
+     "structure": "calculate + -or",
+     "meaning": "a device for arithmetic",
+     "meaningCN": "计算器",
+     "example": "a pocket calculator",
+     "exampleCN": "袖珍计算器"
+    },
+    {
+     "word": "calculating",
+     "structure": "calculate + -ing",
+     "meaning": "shrewd",
+     "meaningCN": "精明的",
+     "example": "a calculating smile",
+     "exampleCN": "精明的笑"
+    },
+    {
+     "word": "calculus",
+     "structure": "Latin calculus",
+     "meaning": "a counting stone",
+     "meaningCN": "计数石子",
+     "example": "a pile of calculus",
+     "exampleCN": "一堆计数石子"
+    },
+    {
+     "word": "compute",
+     "structure": "Latin computare",
+     "meaning": "to reckon",
+     "meaningCN": "运算",
+     "example": "compute the sum",
+     "exampleCN": "计算总和"
+    },
+    {
+     "word": "estimate",
+     "structure": "Latin aestimare",
+     "meaning": "to judge roughly",
+     "meaningCN": "估算",
+     "example": "estimate the cost",
+     "exampleCN": "估算成本"
+    },
+    {
+     "word": "arithmetic",
+     "structure": "Greek arithmos",
+     "meaning": "the study of numbers",
+     "meaningCN": "算术",
+     "example": "simple arithmetic",
+     "exampleCN": "简单算术"
+    }
+   ],
+   "latinEntries": [
+    {
+     "word": "calculatio",
+     "structure": "Late Latin noun",
+     "meaning": "a reckoning",
+     "meaningCN": "核算"
+    }
+   ]
+  }
+ }
+]

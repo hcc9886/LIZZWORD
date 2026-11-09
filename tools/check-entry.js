@@ -299,7 +299,7 @@ function checkEntry(entry, ctx) {
     const w = entry.word;
     if (w !== w.trim()) err('word', '首尾不得有空白');
     if (/\s{2,}/.test(w)) err('word', '不得包含连续空格');
-    if (!/^[A-Za-z][A-Za-z' -]*[A-Za-z]$/.test(w)) err('word', '只能包含英文字母、空格、连字符或撇号');
+    if (!/^[A-Za-z](?:[A-Za-z' -]*[A-Za-z])?$/.test(w)) err('word', '只能包含英文字母、空格、连字符或撇号');
   }
   for (const k of ['ipa_uk', 'ipa_us']) {
     if (typeof entry[k] === 'string' && !ipaValid(entry[k])) {
@@ -365,8 +365,8 @@ function checkEntry(entry, ctx) {
   if (checkArray(entry.senses, 'senses', err)) {
     if (entry.senses.length < 2) {
       err('senses', `义项分组至少需要 2 组，当前 ${entry.senses.length} 组`);
-    } else if (entry.senses.length < 8 || entry.senses.length > 10) {
-      warn('senses', `TOEFL 深度词条标准为 8-10 组，当前 ${entry.senses.length} 组`);
+    } else if (entry.senses.length > 10) {
+      warn('senses', `义项分组上限为 10 组，当前 ${entry.senses.length} 组`);
     }
     const seenNo = new Set();
     entry.senses.forEach((s, i) => {

@@ -1,0 +1,7547 @@
+[
+ {
+  "word": "between",
+  "ipa_uk": "/bɪˈtwiːn/",
+  "ipa_us": "/bɪˈtwiːn/",
+  "definition_zh": "在……之间；（时间）在……期间",
+  "definition_en": "in the space or time that separates two things",
+  "core_image": "两排书架之间的一条窄过道",
+  "scene": "两排书架之间留着一条窄过道。A narrow path runs between the two shelves.",
+  "sceneCN": "这里 between 是「在……之间」（第 1 个义项：处在两个事物中间的空间）；句意是两排书架之间有一条窄道。",
+  "pos": [
+   {
+    "tag": "prep.",
+    "zh": "介词：在……之间；在……期间"
+   },
+   {
+    "tag": "adv.",
+    "zh": "副词：在中间"
+   }
+  ],
+  "collocations": [
+   {
+    "phrase": "between the two",
+    "zh": "在两者之间"
+   },
+   {
+    "phrase": "between you and me",
+    "zh": "私下说"
+   },
+   {
+    "phrase": "between classes",
+    "zh": "课间"
+   },
+   {
+    "phrase": "in between",
+    "zh": "在中间"
+   },
+   {
+    "phrase": "divide between",
+    "zh": "在……之间分配"
+   }
+  ],
+  "forms": [
+   {
+    "label": "无变化",
+    "form": "between"
+   }
+  ],
+  "derivatives": [
+   {
+    "word": "intermediate",
+    "pos": "adj.",
+    "zh": "语义关联词，义为「中间的」，对应 between 所处的层级"
+   },
+   {
+    "word": "interval",
+    "pos": "n.",
+    "zh": "语义关联词，义为「间隔」，对应 between 划出的空档"
+   }
+  ],
+  "senses": [
+   {
+    "no": "01",
+    "title": "In the space separating two things",
+    "titleCN": "在……之间",
+    "definition": "in the space that separates two things",
+    "definitionCN": "处在两个事物中间的空间",
+    "example": "A narrow path runs between the two shelves.",
+    "exampleCN": "两排书架之间有一条窄道。",
+    "why": "This is the oldest spatial sense, built on the idea of two points.",
+    "whyCN": "这是最古老的空间义，建立在「两个点」的观念上。"
+   },
+   {
+    "no": "02",
+    "title": "During the time separating two events",
+    "titleCN": "在……期间",
+    "definition": "in the period that separates two events",
+    "definitionCN": "处在两个事件中间的那段时间",
+    "example": "Please do not talk between classes.",
+    "exampleCN": "课间请不要讲话。",
+    "why": "Time was pictured as a line, so the gap between events took the word.",
+    "whyCN": "时间被想成一条线，两个事件之间的空档就用了这个词。"
+   },
+   {
+    "no": "03",
+    "title": "Shared by two sides",
+    "titleCN": "在……之间分配",
+    "definition": "shared or divided by two or more people",
+    "definitionCN": "由两方或多方共同分配",
+    "example": "They divided the money between them.",
+    "exampleCN": "他们把钱分了。",
+    "why": "A space between two sides became a share held by both.",
+    "whyCN": "两方之间的空间，转为双方共有的份额。"
+   }
+  ],
+  "etymology": {
+   "intro": {
+    "en": "Between comes from an Old English phrase meaning by two.",
+    "cn": "between 来自一个意为「由两者」的古英语短语。"
+   },
+   "items": [
+    {
+     "era": "OLD ENGLISH",
+     "en": "betweonum meant among two.",
+     "cn": "betweonum 意为「在两者之间」。"
+    },
+    {
+     "era": "MIDDLE ENGLISH",
+     "en": "the word settled as between.",
+     "cn": "这个词定型为 between。"
+    },
+    {
+     "era": "FOURTEENTH CENTURY",
+     "en": "between also marked a period of time.",
+     "cn": "between 也开始标记一段时间。"
+    },
+    {
+     "era": "SIXTEENTH CENTURY",
+     "en": "between you and me became a phrase.",
+     "cn": "between you and me 成为固定说法。"
+    },
+    {
+     "era": "PRESENT DAY ENGLISH",
+     "en": "between usually takes two named things.",
+     "cn": "如今 between 通常接两个明确的对象。"
+    }
+   ]
+  },
+  "similar": {
+   "note": {
+    "en": "The look-alike group shares the be- opening; the near-meaning group gives words for being among things.",
+    "cn": "形近组都以 be- 开头；近义组是表示处在其中的词。"
+   },
+   "groups": [
+    {
+     "heading": "LOOK-ALIKE",
+     "entries": [
+      {
+       "word": "beneath",
+       "ipa": "/bɪˈniːθ/",
+       "tag": "look-alike",
+       "definition": "in a lower position",
+       "definitionCN": "在下面"
+      },
+      {
+       "word": "beyond",
+       "ipa": "/bɪˈjɒnd/",
+       "tag": "look-alike",
+       "definition": "on the other side of",
+       "definitionCN": "在……那边"
+      },
+      {
+       "word": "betwixt",
+       "ipa": "/bɪˈtwɪkst/",
+       "tag": "look-alike",
+       "definition": "an old word for between",
+       "definitionCN": "between 的古体"
+      }
+     ]
+    },
+    {
+     "heading": "NEAR MEANING",
+     "entries": [
+      {
+       "word": "among",
+       "ipa": "/əˈmʌŋ/",
+       "tag": "near synonym",
+       "definition": "in the middle of a group",
+       "definitionCN": "在……之中"
+      },
+      {
+       "word": "amid",
+       "ipa": "/əˈmɪd/",
+       "tag": "near synonym",
+       "definition": "surrounded by something",
+       "definitionCN": "在……当中"
+      },
+      {
+       "word": "midst",
+       "ipa": "/mɪdst/",
+       "tag": "related",
+       "definition": "the middle of a situation",
+       "definitionCN": "中间"
+      }
+     ]
+    }
+   ]
+  },
+  "mnemonics": {
+   "normalIntro": {
+    "en": "Between marks the gap that belongs to two things at once.",
+    "cn": "between 标记同时属于两样东西的那道空隙。"
+   },
+   "normal": [
+    {
+     "en": "Between usually names two things.",
+     "cn": "between 通常接两个对象。"
+    },
+    {
+     "en": "Among is used for groups of more than two.",
+     "cn": "三者以上多用 among。"
+    },
+    {
+     "en": "Between you and me means keep it secret.",
+     "cn": "between you and me 指私下说。"
+    },
+    {
+     "en": "In between works as an adverb.",
+     "cn": "in between 可作副词用。"
+    },
+    {
+     "en": "The word never changes its form.",
+     "cn": "这个词形式从不变化。"
+    }
+   ],
+   "abstract": [
+    {
+     "en": "See a narrow aisle between two shelves.",
+     "cn": "想象两排书架间的窄道。"
+    },
+    {
+     "en": "See two classes with a short break between.",
+     "cn": "想象两节课之间短短的休息。"
+    },
+    {
+     "en": "See one pie cut into two shares.",
+     "cn": "想象一个派被分成两份。"
+    }
+   ]
+  },
+  "examples": [
+   {
+    "en": "A narrow path runs between the two shelves.",
+    "cn": "两排书架之间有一条窄道。"
+   },
+   {
+    "en": "Please do not talk between classes.",
+    "cn": "课间请不要讲话。"
+   },
+   {
+    "en": "They divided the money between them.",
+    "cn": "他们把钱分了。"
+   }
+  ],
+  "dict_mnemonic": {
+   "note": "拆词记忆 · 非词源",
+   "text": "be 加 tw 加 een，tw 提示 two，站在两者中间就是 between。",
+   "word": "between"
+  },
+  "root": "古英语 betweonum 由 be- 与 tweonum（两者）构成，本义「在两者之间」，中古英语定型为 between，后扩展到时间与分配关系。",
+  "sensesIntro": {
+   "en": "A gap in space, a gap in time and a shared share all sit between.",
+   "cn": "空间里的空隙、时间里的空档、双方共有的份额，都落在 between 之间。"
+  },
+  "semanticMap": {
+   "core": {
+    "en": "CORE IMAGE: a narrow aisle between two shelves.",
+    "cn": "核心意象：两排书架间的窄道。"
+   },
+   "chain": [
+    "TWO",
+    "SPACE",
+    "PATH",
+    "TIME",
+    "SHARE",
+    "MIDDLE"
+   ],
+   "branches": [
+    {
+     "senses": "01",
+     "en": "between the shelves",
+     "cn": "在书架之间"
+    },
+    {
+     "senses": "01",
+     "en": "between you and me",
+     "cn": "私下说"
+    },
+    {
+     "senses": "02",
+     "en": "between classes",
+     "cn": "课间"
+    },
+    {
+     "senses": "03",
+     "en": "divide between them",
+     "cn": "在他们之间分配"
+    },
+    {
+     "senses": "03",
+     "en": "in between",
+     "cn": "在中间"
+    }
+   ]
+  },
+  "affixes": {
+   "intro": {
+    "en": "Between is a fixed form with no endings of its own.",
+    "cn": "between 形式固定，没有自己的词尾变化。"
+   },
+   "latinIntro": {
+    "en": "There is no Latin base; the word is Old English.",
+    "cn": "这里没有拉丁词基，这个词来自古英语。"
+   },
+   "items": [
+    {
+     "word": "between",
+     "structure": "Old English betweonum",
+     "meaning": "in the gap of two",
+     "meaningCN": "在两者之间",
+     "example": "between two chairs",
+     "exampleCN": "两把椅子之间"
+    },
+    {
+     "word": "in between",
+     "structure": "in + between",
+     "meaning": "in the middle",
+     "meaningCN": "在中间",
+     "example": "a gap in between",
+     "exampleCN": "中间的空隙"
+    },
+    {
+     "word": "among",
+     "structure": "Old English on gemang",
+     "meaning": "in a group",
+     "meaningCN": "在……之中",
+     "example": "among friends",
+     "exampleCN": "在朋友之中"
+    },
+    {
+     "word": "amid",
+     "structure": "a- + mid",
+     "meaning": "in the middle of",
+     "meaningCN": "在……当中",
+     "example": "amid the noise",
+     "exampleCN": "在喧闹之中"
+    },
+    {
+     "word": "middle",
+     "structure": "Old English middel",
+     "meaning": "the central part",
+     "meaningCN": "中间",
+     "example": "the middle row",
+     "exampleCN": "中间一排"
+    },
+    {
+     "word": "interval",
+     "structure": "Latin intervallum",
+     "meaning": "a gap in time",
+     "meaningCN": "间隔",
+     "example": "a short interval",
+     "exampleCN": "短暂的间隔"
+    },
+    {
+     "word": "intermediate",
+     "structure": "inter- + mediate",
+     "meaning": "in the middle level",
+     "meaningCN": "中间的",
+     "example": "an intermediate class",
+     "exampleCN": "中级班"
+    },
+    {
+     "word": "share",
+     "structure": "Old English scearu",
+     "meaning": "a part given out",
+     "meaningCN": "份额",
+     "example": "an equal share",
+     "exampleCN": "相等的份额"
+    }
+   ],
+   "latinEntries": []
+  }
+ },
+ {
+  "word": "beyond",
+  "ipa_uk": "/bɪˈjɒnd/",
+  "ipa_us": "/bɪˈjɑːnd/",
+  "definition_zh": "在……那边；超出；迟于",
+  "definition_en": "on the other side of something, or more than a limit",
+  "core_image": "越过山脊后展开的陌生平原",
+  "scene": "翻过山脊，眼前展开一片陌生平原。The village lies beyond the hills.",
+  "sceneCN": "这里 beyond 是「在……那边」（第 1 个义项：位于某物的另一侧）；句意是村庄在山的那一边。",
+  "pos": [
+   {
+    "tag": "prep.",
+    "zh": "介词：在……那边；超出"
+   },
+   {
+    "tag": "adv.",
+    "zh": "副词：在更远处"
+   }
+  ],
+  "collocations": [
+   {
+    "phrase": "beyond the river",
+    "zh": "河那边"
+   },
+   {
+    "phrase": "beyond belief",
+    "zh": "难以置信"
+   },
+   {
+    "phrase": "beyond control",
+    "zh": "无法控制"
+   },
+   {
+    "phrase": "beyond doubt",
+    "zh": "毫无疑问"
+   },
+   {
+    "phrase": "go beyond",
+    "zh": "超越"
+   }
+  ],
+  "forms": [
+   {
+    "label": "无变化",
+    "form": "beyond"
+   }
+  ],
+  "derivatives": [
+   {
+    "word": "exceed",
+    "pos": "v.",
+    "zh": "语义关联词，义为「超过」，对应 beyond 的越界含义"
+   },
+   {
+    "word": "surpass",
+    "pos": "v.",
+    "zh": "语义关联词，义为「胜过」，对应 go beyond 的含义"
+   }
+  ],
+  "senses": [
+   {
+    "no": "01",
+    "title": "On the other side",
+    "titleCN": "在……那边",
+    "definition": "on the far side of something",
+    "definitionCN": "位于某物的另一侧",
+    "example": "The village lies beyond the hills.",
+    "exampleCN": "村庄在山的那一边。",
+    "why": "This is the oldest spatial sense, looking past a boundary.",
+    "whyCN": "这是最古老的空间义，视线越过一条界线。"
+   },
+   {
+    "no": "02",
+    "title": "More than a limit",
+    "titleCN": "超出",
+    "definition": "greater than a limit or ability",
+    "definitionCN": "超过某个限度或能力",
+    "example": "The price is beyond our budget.",
+    "exampleCN": "这个价格超出了我们的预算。",
+    "why": "Crossing a physical line became crossing any limit.",
+    "whyCN": "越过实际的界线，引申为越过任何限度。"
+   },
+   {
+    "no": "03",
+    "title": "Later than a point in time",
+    "titleCN": "迟于",
+    "definition": "later than a stated time",
+    "definitionCN": "晚于某个时间点",
+    "example": "Do not stay out beyond ten.",
+    "exampleCN": "十点以后别待在外面。",
+    "why": "Time was treated as a line that can be crossed.",
+    "whyCN": "时间被当作一条可以越过的线。"
+   }
+  ],
+  "etymology": {
+   "intro": {
+    "en": "Beyond is be- plus yond, an old word for the far side.",
+    "cn": "beyond 是 be- 加上 yond，后者是表示「那边」的古词。"
+   },
+   "items": [
+    {
+     "era": "OLD ENGLISH",
+     "en": "begeondan meant on the far side.",
+     "cn": "begeondan 意为「在另一边」。"
+    },
+    {
+     "era": "MIDDLE ENGLISH",
+     "en": "beyond became the usual form.",
+     "cn": "beyond 成为通用形式。"
+    },
+    {
+     "era": "FOURTEENTH CENTURY",
+     "en": "the word also meant more than.",
+     "cn": "这个词也开始表示「超过」。"
+    },
+    {
+     "era": "SIXTEENTH CENTURY",
+     "en": "beyond belief entered common speech.",
+     "cn": "beyond belief 进入日常表达。"
+    },
+    {
+     "era": "PRESENT DAY ENGLISH",
+     "en": "beyond covers space, limits and time.",
+     "cn": "如今 beyond 涵盖空间、限度与时间。"
+    }
+   ]
+  },
+  "similar": {
+   "note": {
+    "en": "The look-alike group shares the be- opening; the near-meaning group gives words for passing a point.",
+    "cn": "形近组都以 be- 开头；近义组是表示越过某点的词。"
+   },
+   "groups": [
+    {
+     "heading": "LOOK-ALIKE",
+     "entries": [
+      {
+       "word": "behind",
+       "ipa": "/bɪˈhaɪnd/",
+       "tag": "look-alike",
+       "definition": "at the back of something",
+       "definitionCN": "在……后面"
+      },
+      {
+       "word": "beneath",
+       "ipa": "/bɪˈniːθ/",
+       "tag": "look-alike",
+       "definition": "in a lower position",
+       "definitionCN": "在下面"
+      },
+      {
+       "word": "beside",
+       "ipa": "/bɪˈsaɪd/",
+       "tag": "look-alike",
+       "definition": "next to something",
+       "definitionCN": "在……旁边"
+      }
+     ]
+    },
+    {
+     "heading": "NEAR MEANING",
+     "entries": [
+      {
+       "word": "past",
+       "ipa": "/pɑːst/",
+       "tag": "near synonym",
+       "definition": "further than a point",
+       "definitionCN": "超过"
+      },
+      {
+       "word": "over",
+       "ipa": "/ˈəʊvə(r)/",
+       "tag": "near synonym",
+       "definition": "across or above",
+       "definitionCN": "越过"
+      },
+      {
+       "word": "above",
+       "ipa": "/əˈbʌv/",
+       "tag": "related",
+       "definition": "at a higher level than",
+       "definitionCN": "高于"
+      }
+     ]
+    }
+   ]
+  },
+  "mnemonics": {
+   "normalIntro": {
+    "en": "Beyond means on the far side, past a line you can see.",
+    "cn": "beyond 指在可见界线的另一侧。"
+   },
+   "normal": [
+    {
+     "en": "Beyond the hills means on the far side.",
+     "cn": "beyond the hills 指山的另一边。"
+    },
+    {
+     "en": "Beyond belief means too strange to accept.",
+     "cn": "beyond belief 指难以置信。"
+    },
+    {
+     "en": "Beyond control means no one can stop it.",
+     "cn": "beyond control 指无法控制。"
+    },
+    {
+     "en": "Beyond doubt means certainly true.",
+     "cn": "beyond doubt 指毫无疑问。"
+    },
+    {
+     "en": "The word is fixed in form.",
+     "cn": "这个词形式固定。"
+    }
+   ],
+   "abstract": [
+    {
+     "en": "See a ridge with open land past it.",
+     "cn": "想象山脊之后开阔的土地。"
+    },
+    {
+     "en": "See a price tag above a budget line.",
+     "cn": "想象价签高过预算线。"
+    },
+    {
+     "en": "See a clock passing ten at night.",
+     "cn": "想象夜里时钟越过十点。"
+    }
+   ]
+  },
+  "examples": [
+   {
+    "en": "The village lies beyond the hills.",
+    "cn": "村庄在山的那一边。"
+   },
+   {
+    "en": "The price is beyond our budget.",
+    "cn": "这个价格超出了我们的预算。"
+   },
+   {
+    "en": "Do not stay out beyond ten.",
+    "cn": "十点以后别待在外面。"
+   }
+  ],
+  "dict_mnemonic": {
+   "note": "拆词记忆 · 非词源",
+   "text": "be 加 yond（那边），站在那边之外，就是 beyond。",
+   "word": "beyond"
+  },
+  "root": "古英语 begeondan 由 be- 与 geond（越过）构成，本义「在较远的一边」，中古英语定型为 beyond，后引申为超出限度与迟于某时。",
+  "sensesIntro": {
+   "en": "Space, limit and time each have a line that beyond crosses.",
+   "cn": "空间、限度与时间，各自都有一条被 beyond 越过的线。"
+  },
+  "semanticMap": {
+   "core": {
+    "en": "CORE IMAGE: a ridge with open land past it.",
+    "cn": "核心意象：山脊之后开阔的土地。"
+   },
+   "chain": [
+    "FAR",
+    "HILL",
+    "SIDE",
+    "LIMIT",
+    "MIND",
+    "MORE"
+   ],
+   "branches": [
+    {
+     "senses": "01",
+     "en": "beyond the hills",
+     "cn": "在山那边"
+    },
+    {
+     "senses": "01",
+     "en": "beyond the river",
+     "cn": "在河那边"
+    },
+    {
+     "senses": "02",
+     "en": "beyond belief",
+     "cn": "难以置信"
+    },
+    {
+     "senses": "02",
+     "en": "beyond control",
+     "cn": "无法控制"
+    },
+    {
+     "senses": "03",
+     "en": "beyond ten",
+     "cn": "十点以后"
+    }
+   ]
+  },
+  "affixes": {
+   "intro": {
+    "en": "Beyond is a fixed form that takes no endings.",
+    "cn": "beyond 形式固定，不加词尾。"
+   },
+   "latinIntro": {
+    "en": "There is no Latin base; the word is Old English.",
+    "cn": "这里没有拉丁词基，这个词来自古英语。"
+   },
+   "items": [
+    {
+     "word": "beyond",
+     "structure": "be- + geond",
+     "meaning": "on the far side",
+     "meaningCN": "在那边",
+     "example": "beyond the wall",
+     "exampleCN": "墙那边"
+    },
+    {
+     "word": "past",
+     "structure": "Middle English passed",
+     "meaning": "further than",
+     "meaningCN": "超过",
+     "example": "past midnight",
+     "exampleCN": "过了午夜"
+    },
+    {
+     "word": "over",
+     "structure": "Old English ofer",
+     "meaning": "across",
+     "meaningCN": "越过",
+     "example": "over the bridge",
+     "exampleCN": "过桥"
+    },
+    {
+     "word": "above",
+     "structure": "Old English abufan",
+     "meaning": "at a higher level",
+     "meaningCN": "高于",
+     "example": "above the clouds",
+     "exampleCN": "云层之上"
+    },
+    {
+     "word": "exceed",
+     "structure": "Latin excedere",
+     "meaning": "to go past a limit",
+     "meaningCN": "超过",
+     "example": "exceed the speed limit",
+     "exampleCN": "超速"
+    },
+    {
+     "word": "surpass",
+     "structure": "Old French surpasser",
+     "meaning": "to be greater than",
+     "meaningCN": "胜过",
+     "example": "surpass expectations",
+     "exampleCN": "超出预期"
+    },
+    {
+     "word": "limit",
+     "structure": "Latin limes",
+     "meaning": "a boundary",
+     "meaningCN": "限度",
+     "example": "a speed limit",
+     "exampleCN": "限速"
+    },
+    {
+     "word": "horizon",
+     "structure": "Greek horizōn",
+     "meaning": "the far line of sight",
+     "meaningCN": "地平线",
+     "example": "beyond the horizon",
+     "exampleCN": "地平线之外"
+    }
+   ],
+   "latinEntries": []
+  }
+ },
+ {
+  "word": "bicycle",
+  "ipa_uk": "/ˈbaɪsɪkl/",
+  "ipa_us": "/ˈbaɪsɪkl/",
+  "definition_zh": "自行车",
+  "definition_en": "a vehicle with two wheels that a person drives by pedalling",
+  "core_image": "靠在墙边的旧自行车，链条上还有油",
+  "scene": "一辆旧自行车靠在墙边。He rides his bicycle to work.",
+  "sceneCN": "这里 bicycle 是「自行车」（第 1 个义项：靠脚踏驱动的两轮车）；句意是他骑自行车上班。",
+  "pos": [
+   {
+    "tag": "n.",
+    "zh": "名词：自行车"
+   },
+   {
+    "tag": "v.",
+    "zh": "动词：骑自行车"
+   }
+  ],
+  "collocations": [
+   {
+    "phrase": "ride a bicycle",
+    "zh": "骑自行车"
+   },
+   {
+    "phrase": "bicycle lane",
+    "zh": "自行车道"
+   },
+   {
+    "phrase": "bicycle pump",
+    "zh": "自行车打气筒"
+   },
+   {
+    "phrase": "by bicycle",
+    "zh": "骑自行车（前往）"
+   },
+   {
+    "phrase": "electric bicycle",
+    "zh": "电动自行车"
+   }
+  ],
+  "forms": [
+   {
+    "label": "复数",
+    "form": "bicycles"
+   },
+   {
+    "label": "过去式",
+    "form": "bicycled"
+   },
+   {
+    "label": "过去分词",
+    "form": "bicycled"
+   },
+   {
+    "label": "现在分词",
+    "form": "bicycling"
+   }
+  ],
+  "derivatives": [
+   {
+    "word": "bicyclist",
+    "pos": "n.",
+    "zh": "由 bicycle 加 -ist 构成，义为「骑自行车的人」"
+   },
+   {
+    "word": "bicycling",
+    "pos": "n.",
+    "zh": "由 bicycle 加 -ing 构成，义为「骑行运动」"
+   },
+   {
+    "word": "bike",
+    "pos": "n.",
+    "zh": "bicycle 的口语缩略形式"
+   }
+  ],
+  "senses": [
+   {
+    "no": "01",
+    "title": "A two-wheeled vehicle",
+    "titleCN": "自行车",
+    "definition": "a vehicle with two wheels driven by pedals",
+    "definitionCN": "靠脚踏驱动的两轮车",
+    "example": "He rides his bicycle to work.",
+    "exampleCN": "他骑自行车上班。",
+    "why": "The name joins two Greek roots for two and wheel.",
+    "whyCN": "这个名字由表示「二」和「轮」的两个希腊词根合成。"
+   },
+   {
+    "no": "02",
+    "title": "To travel by bicycle",
+    "titleCN": "骑自行车",
+    "definition": "to travel on a bicycle",
+    "definitionCN": "骑自行车出行",
+    "example": "They bicycled across the country.",
+    "exampleCN": "他们骑车穿越了全国。",
+    "why": "The noun became a verb for the activity.",
+    "whyCN": "名词转为动词，指这项活动。"
+   }
+  ],
+  "etymology": {
+   "intro": {
+    "en": "Bicycle was coined in the nineteenth century from Latin and Greek roots.",
+    "cn": "bicycle 在十九世纪由拉丁与希腊词根新造。"
+   },
+   "items": [
+    {
+     "era": "NINETEENTH CENTURY",
+     "en": "bicycle named a two-wheeled machine.",
+     "cn": "bicycle 指两轮机械。"
+    },
+    {
+     "era": "EIGHTEEN SIXTIES",
+     "en": "pedals were added to the front wheel.",
+     "cn": "脚踏被装到前轮上。"
+    },
+    {
+     "era": "EIGHTEEN EIGHTIES",
+     "en": "the safety bicycle took its modern shape.",
+     "cn": "安全型自行车形成现代样式。"
+    },
+    {
+     "era": "TWENTIETH CENTURY",
+     "en": "bicycle became everyday transport.",
+     "cn": "自行车成为日常交通工具。"
+    },
+    {
+     "era": "PRESENT DAY ENGLISH",
+     "en": "bike is the common short form.",
+     "cn": "如今 bike 是常见简称。"
+    }
+   ]
+  },
+  "similar": {
+   "note": {
+    "en": "The look-alike group starts with bi-; the near-meaning group gives riding words.",
+    "cn": "形近组都以 bi- 开头；近义组是骑行相关词。"
+   },
+   "groups": [
+    {
+     "heading": "LOOK-ALIKE",
+     "entries": [
+      {
+       "word": "tricycle",
+       "ipa": "/ˈtraɪsɪkl/",
+       "tag": "look-alike",
+       "definition": "a vehicle with three wheels",
+       "definitionCN": "三轮车"
+      },
+      {
+       "word": "bike",
+       "ipa": "/baɪk/",
+       "tag": "look-alike",
+       "definition": "a short word for bicycle",
+       "definitionCN": "自行车（简称）"
+      },
+      {
+       "word": "bilingual",
+       "ipa": "/ˌbaɪˈlɪŋɡwəl/",
+       "tag": "look-alike",
+       "definition": "using two languages",
+       "definitionCN": "双语的"
+      }
+     ]
+    },
+    {
+     "heading": "NEAR MEANING",
+     "entries": [
+      {
+       "word": "cycle",
+       "ipa": "/ˈsaɪkl/",
+       "tag": "near synonym",
+       "definition": "to ride a bicycle",
+       "definitionCN": "骑车"
+      },
+      {
+       "word": "motorbike",
+       "ipa": "/ˈməʊtəbaɪk/",
+       "tag": "related",
+       "definition": "a motorcycle",
+       "definitionCN": "摩托车"
+      },
+      {
+       "word": "scooter",
+       "ipa": "/ˈskuːtə(r)/",
+       "tag": "related",
+       "definition": "a small two-wheeled vehicle",
+       "definitionCN": "踏板车"
+      }
+     ]
+    }
+   ]
+  },
+  "mnemonics": {
+   "normalIntro": {
+    "en": "Bicycle is bi- two plus cycle wheel.",
+    "cn": "bicycle 就是 bi-（二）加 cycle（轮）。"
+   },
+   "normal": [
+    {
+     "en": "The plural is bicycles.",
+     "cn": "复数是 bicycles。"
+    },
+    {
+     "en": "Ride a bicycle is the usual verb phrase.",
+     "cn": "ride a bicycle 是常见动宾搭配。"
+    },
+    {
+     "en": "A bicycle lane is for bikes only.",
+     "cn": "bicycle lane 只给自行车用。"
+    },
+    {
+     "en": "Bike is the short spoken form.",
+     "cn": "bike 是口语简称。"
+    },
+    {
+     "en": "A bicyclist rides a bicycle.",
+     "cn": "bicyclist 指骑自行车的人。"
+    }
+   ],
+   "abstract": [
+    {
+     "en": "See an old bike leaning on a wall.",
+     "cn": "想象一辆旧车靠墙停着。"
+    },
+    {
+     "en": "See two wheels spinning along a lane.",
+     "cn": "想象两个车轮沿车道转动。"
+    },
+    {
+     "en": "See a chain oiled before a long ride.",
+     "cn": "想象长途骑行前上过油的链条。"
+    }
+   ]
+  },
+  "examples": [
+   {
+    "en": "He rides his bicycle to work.",
+    "cn": "他骑自行车上班。"
+   },
+   {
+    "en": "They bicycled across the country.",
+    "cn": "他们骑车穿越了全国。"
+   },
+   {
+    "en": "A bicycle lane runs beside the road.",
+    "cn": "路边有一条自行车道。"
+   }
+  ],
+  "dict_mnemonic": {
+   "note": "拆词记忆 · 非词源",
+   "text": "bi 是「二」，cycle 是「轮子转圈」，两个轮子转起来就是自行车。",
+   "word": "bicycle"
+  },
+  "root": "十九世纪用拉丁语 bi-（二）与希腊语 kyklos（轮）新造，指两轮脚踏车；十九世纪八十年代安全型车型定型后普及，口语简称为 bike。",
+  "sensesIntro": {
+   "en": "The machine and the act of riding it share one word.",
+   "cn": "两轮的车与骑它的动作共用一个词。"
+  },
+  "semanticMap": {
+   "core": {
+    "en": "CORE IMAGE: an old bike leaning on a wall.",
+    "cn": "核心意象：靠墙的旧自行车。"
+   },
+   "chain": [
+    "WHEEL",
+    "TWO",
+    "PEDAL",
+    "CHAIN",
+    "ROAD",
+    "RIDE"
+   ],
+   "branches": [
+    {
+     "senses": "01",
+     "en": "ride a bicycle",
+     "cn": "骑自行车"
+    },
+    {
+     "senses": "01",
+     "en": "a bicycle lane",
+     "cn": "自行车道"
+    },
+    {
+     "senses": "01",
+     "en": "by bicycle",
+     "cn": "骑自行车前往"
+    },
+    {
+     "senses": "02",
+     "en": "bicycle to school",
+     "cn": "骑车上学"
+    },
+    {
+     "senses": "02",
+     "en": "bicycling across the country",
+     "cn": "骑车穿越全国"
+    }
+   ]
+  },
+  "affixes": {
+   "intro": {
+    "en": "Bicycle takes -s, -ed and -ing, and builds bicyclist.",
+    "cn": "bicycle 可加 -s、-ed、-ing，并构成 bicyclist。"
+   },
+   "latinIntro": {
+    "en": "The roots are Latin bi-, two, and Greek kyklos, wheel.",
+    "cn": "词根是拉丁语 bi-（二）与希腊语 kyklos（轮）。"
+   },
+   "items": [
+    {
+     "word": "bicycle",
+     "structure": "bi- + cycle",
+     "meaning": "a two-wheeled vehicle",
+     "meaningCN": "自行车",
+     "example": "ride a bicycle",
+     "exampleCN": "骑自行车"
+    },
+    {
+     "word": "bicycles",
+     "structure": "bicycle + -s",
+     "meaning": "more than one bicycle",
+     "meaningCN": "自行车（复数）",
+     "example": "parked bicycles",
+     "exampleCN": "停放的自行车"
+    },
+    {
+     "word": "bicycled",
+     "structure": "bicycle + -ed",
+     "meaning": "travelled by bicycle",
+     "meaningCN": "骑车出行过",
+     "example": "we bicycled home",
+     "exampleCN": "我们骑车回家"
+    },
+    {
+     "word": "bicycling",
+     "structure": "bicycle + -ing",
+     "meaning": "the activity of cycling",
+     "meaningCN": "骑行运动",
+     "example": "bicycling in the hills",
+     "exampleCN": "在山间骑行"
+    },
+    {
+     "word": "bicyclist",
+     "structure": "bicycle + -ist",
+     "meaning": "one who rides a bike",
+     "meaningCN": "骑车人",
+     "example": "a careful bicyclist",
+     "exampleCN": "谨慎的骑车人"
+    },
+    {
+     "word": "bike",
+     "structure": "shortened form",
+     "meaning": "a bicycle",
+     "meaningCN": "自行车（简称）",
+     "example": "a new bike",
+     "exampleCN": "一辆新车"
+    },
+    {
+     "word": "cycle",
+     "structure": "Greek kyklos",
+     "meaning": "a wheel or round",
+     "meaningCN": "轮；循环",
+     "example": "a cycle lane",
+     "exampleCN": "自行车道"
+    },
+    {
+     "word": "wheel",
+     "structure": "Old English hweol",
+     "meaning": "a round part that turns",
+     "meaningCN": "车轮",
+     "example": "two wheels",
+     "exampleCN": "两个轮子"
+    }
+   ],
+   "latinEntries": []
+  }
+ },
+ {
+  "word": "bid",
+  "ipa_uk": "/bɪd/",
+  "ipa_us": "/bɪd/",
+  "definition_zh": "出价；投标；努力争取",
+  "definition_en": "to offer a price, or to make an effort to get something",
+  "core_image": "拍卖师举起木槌等下一个价",
+  "scene": "拍卖师举起木槌，等着下一个价。She bid twice for the old painting.",
+  "sceneCN": "这里 bid 是「出价」（第 1 个义项：在交易中报出愿付的价钱）；句意是她为那幅旧画出了两次价。",
+  "pos": [
+   {
+    "tag": "v.",
+    "zh": "动词：出价；投标；争取"
+   },
+   {
+    "tag": "n.",
+    "zh": "名词：出价；投标"
+   }
+  ],
+  "collocations": [
+   {
+    "phrase": "bid for",
+    "zh": "为……出价"
+   },
+   {
+    "phrase": "make a bid",
+    "zh": "出价；投标"
+   },
+   {
+    "phrase": "bid farewell",
+    "zh": "道别"
+   },
+   {
+    "phrase": "highest bid",
+    "zh": "最高出价"
+   },
+   {
+    "phrase": "bid up",
+    "zh": "抬价"
+   }
+  ],
+  "forms": [
+   {
+    "label": "第三人称单数",
+    "form": "bids"
+   },
+   {
+    "label": "过去式",
+    "form": "bid"
+   },
+   {
+    "label": "过去分词",
+    "form": "bid"
+   },
+   {
+    "label": "现在分词",
+    "form": "bidding"
+   }
+  ],
+  "derivatives": [
+   {
+    "word": "bidder",
+    "pos": "n.",
+    "zh": "由 bid 加 -der 构成，义为「出价者」"
+   },
+   {
+    "word": "bidding",
+    "pos": "n.",
+    "zh": "由 bid 加 -ding 构成，义为「竞标」"
+   },
+   {
+    "word": "outbid",
+    "pos": "v.",
+    "zh": "由 out- 加 bid 构成，义为「出价高于」"
+   },
+   {
+    "word": "overbid",
+    "pos": "v.",
+    "zh": "由 over- 加 bid 构成，义为「出价过高」"
+   }
+  ],
+  "senses": [
+   {
+    "no": "01",
+    "title": "To offer a price",
+    "titleCN": "出价",
+    "definition": "to offer a sum of money for something",
+    "definitionCN": "为某物报出愿付的价钱",
+    "example": "She bid twice for the old painting.",
+    "exampleCN": "她为那幅旧画出了两次价。",
+    "why": "This is the commercial sense, heard at auctions and tenders.",
+    "whyCN": "这是商业义，常见于拍卖与招标场合。"
+   },
+   {
+    "no": "02",
+    "title": "To say farewell",
+    "titleCN": "道别",
+    "definition": "to say goodbye or greet someone formally",
+    "definitionCN": "正式道别或问候",
+    "example": "He bade farewell to his friends.",
+    "exampleCN": "他向朋友们道别。",
+    "why": "The old sense was to announce or command, and farewell kept it.",
+    "whyCN": "古义是「宣告、吩咐」，道别保留了这一层。"
+   },
+   {
+    "no": "03",
+    "title": "To try to win something",
+    "titleCN": "争取",
+    "definition": "to make an effort to gain something",
+    "definitionCN": "为获得某物而努力",
+    "example": "The city will bid to host the games.",
+    "exampleCN": "这座城市将申办运动会。",
+    "why": "Offering a price turned into offering a plan or effort.",
+    "whyCN": "报出价钱，引申为报出方案或努力。"
+   }
+  ],
+  "etymology": {
+   "intro": {
+    "en": "Bid comes from an Old English verb meaning to offer or command.",
+    "cn": "bid 来自一个意为「提供、吩咐」的古英语动词。"
+   },
+   "items": [
+    {
+     "era": "OLD ENGLISH",
+     "en": "beodan meant to offer or announce.",
+     "cn": "beodan 意为「提供、宣告」。"
+    },
+    {
+     "era": "MIDDLE ENGLISH",
+     "en": "bidden meant to command or ask.",
+     "cn": "bidden 意为「吩咐、请求」。"
+    },
+    {
+     "era": "SIXTEENTH CENTURY",
+     "en": "bid named a price at an auction.",
+     "cn": "bid 指拍卖中的出价。"
+    },
+    {
+     "era": "NINETEENTH CENTURY",
+     "en": "bid for contracts became common.",
+     "cn": "投标承接合同变得常见。"
+    },
+    {
+     "era": "PRESENT DAY ENGLISH",
+     "en": "the past tense stays bid.",
+     "cn": "如今过去式仍是 bid。"
+    }
+   ]
+  },
+  "similar": {
+   "note": {
+    "en": "The look-alike group differs by one letter; the near-meaning group gives offer words.",
+    "cn": "形近组只差一个字母；近义组是表示报价的词。"
+   },
+   "groups": [
+    {
+     "heading": "LOOK-ALIKE",
+     "entries": [
+      {
+       "word": "big",
+       "ipa": "/bɪɡ/",
+       "tag": "look-alike",
+       "definition": "large in size",
+       "definitionCN": "大的"
+      },
+      {
+       "word": "bit",
+       "ipa": "/bɪt/",
+       "tag": "look-alike",
+       "definition": "a small piece",
+       "definitionCN": "一点"
+      },
+      {
+       "word": "bud",
+       "ipa": "/bʌd/",
+       "tag": "look-alike",
+       "definition": "a young flower or leaf",
+       "definitionCN": "花蕾"
+      }
+     ]
+    },
+    {
+     "heading": "NEAR MEANING",
+     "entries": [
+      {
+       "word": "offer",
+       "ipa": "/ˈɒfə(r)/",
+       "tag": "near synonym",
+       "definition": "to say you will pay or give",
+       "definitionCN": "提供；出价"
+      },
+      {
+       "word": "tender",
+       "ipa": "/ˈtendə(r)/",
+       "tag": "near synonym",
+       "definition": "to make a formal offer",
+       "definitionCN": "投标"
+      },
+      {
+       "word": "propose",
+       "ipa": "/prəˈpəʊz/",
+       "tag": "related",
+       "definition": "to put forward a plan",
+       "definitionCN": "提议"
+      }
+     ]
+    }
+   ]
+  },
+  "mnemonics": {
+   "normalIntro": {
+    "en": "Bid is the price you offer and the effort you offer.",
+    "cn": "bid 既是你报出的价钱，也是你付出的努力。"
+   },
+   "normal": [
+    {
+     "en": "The past tense is bid, not bidded.",
+     "cn": "过去式是 bid，不是 bidded。"
+    },
+    {
+     "en": "Bid for means offer money for.",
+     "cn": "bid for 指为……出价。"
+    },
+    {
+     "en": "The person is a bidder.",
+     "cn": "出价的人叫 bidder。"
+    },
+    {
+     "en": "Outbid means offer more than others.",
+     "cn": "outbid 指出价高于别人。"
+    },
+    {
+     "en": "Bid farewell is a formal goodbye.",
+     "cn": "bid farewell 是正式道别。"
+    }
+   ],
+   "abstract": [
+    {
+     "en": "See an auctioneer holding a wooden hammer.",
+     "cn": "想象拍卖师握着木槌。"
+    },
+    {
+     "en": "See a hand raised with a number.",
+     "cn": "想象一只手举起报出数字。"
+    },
+    {
+     "en": "See a sealed envelope sent for a contract.",
+     "cn": "想象为合同寄出的密封信封。"
+    }
+   ]
+  },
+  "examples": [
+   {
+    "en": "She bid twice for the old painting.",
+    "cn": "她为那幅旧画出了两次价。"
+   },
+   {
+    "en": "He bade farewell to his friends.",
+    "cn": "他向朋友们道别。"
+   },
+   {
+    "en": "The city will bid to host the games.",
+    "cn": "这座城市将申办运动会。"
+   }
+  ],
+  "dict_mnemonic": {
+   "note": "拆词记忆 · 非词源",
+   "text": "bid 短促有力，像拍卖场上举手喊价的一声。",
+   "word": "bid"
+  },
+  "root": "古英语 beodan 意为「提供、宣告」，中古英语 bidden 转为「吩咐、请求」，十六世纪起指拍卖出价，十九世纪起指投标与申办。",
+  "sensesIntro": {
+   "en": "Offering money, offering a farewell and offering an effort share one old verb.",
+   "cn": "报出价钱、道出告别、付出努力，共用一个古老动词。"
+  },
+  "semanticMap": {
+   "core": {
+    "en": "CORE IMAGE: an auctioneer holding a wooden hammer.",
+    "cn": "核心意象：握着木槌的拍卖师。"
+   },
+   "chain": [
+    "PRICE",
+    "HAND",
+    "AUCTION",
+    "COMPETE",
+    "WIN",
+    "DEAL"
+   ],
+   "branches": [
+    {
+     "senses": "01",
+     "en": "bid for a painting",
+     "cn": "为画作出价"
+    },
+    {
+     "senses": "01",
+     "en": "the highest bid",
+     "cn": "最高出价"
+    },
+    {
+     "senses": "02",
+     "en": "bid farewell",
+     "cn": "道别"
+    },
+    {
+     "senses": "03",
+     "en": "bid to host",
+     "cn": "申办"
+    },
+    {
+     "senses": "03",
+     "en": "bid for power",
+     "cn": "争夺权力"
+    }
+   ]
+  },
+  "affixes": {
+   "intro": {
+    "en": "Bid doubles its d before -ing, and takes out- and over-.",
+    "cn": "bid 加 -ing 要双写 d，并能加 out-、over-。"
+   },
+   "latinIntro": {
+    "en": "There is no Latin base; the word is Old English.",
+    "cn": "这里没有拉丁词基，这个词来自古英语。"
+   },
+   "items": [
+    {
+     "word": "bid",
+     "structure": "Old English beodan",
+     "meaning": "to offer a price",
+     "meaningCN": "出价",
+     "example": "bid at an auction",
+     "exampleCN": "在拍卖会出价"
+    },
+    {
+     "word": "bids",
+     "structure": "bid + -s",
+     "meaning": "offers a price",
+     "meaningCN": "出价（第三人称单数）",
+     "example": "she bids again",
+     "exampleCN": "她再次出价"
+    },
+    {
+     "word": "bidding",
+     "structure": "bid + -d + -ing",
+     "meaning": "the act of offering",
+     "meaningCN": "竞标",
+     "example": "the bidding war",
+     "exampleCN": "竞价战"
+    },
+    {
+     "word": "bidder",
+     "structure": "bid + -d + -er",
+     "meaning": "one who bids",
+     "meaningCN": "出价者",
+     "example": "the top bidder",
+     "exampleCN": "最高出价者"
+    },
+    {
+     "word": "outbid",
+     "structure": "out- + bid",
+     "meaning": "to offer more",
+     "meaningCN": "出价高于",
+     "example": "outbid rivals",
+     "exampleCN": "压过对手出价"
+    },
+    {
+     "word": "overbid",
+     "structure": "over- + bid",
+     "meaning": "to offer too much",
+     "meaningCN": "出价过高",
+     "example": "overbid for a house",
+     "exampleCN": "为房子出价过高"
+    },
+    {
+     "word": "offer",
+     "structure": "Latin offerre",
+     "meaning": "to present for acceptance",
+     "meaningCN": "提供",
+     "example": "offer a price",
+     "exampleCN": "报价"
+    },
+    {
+     "word": "tender",
+     "structure": "Old French tendre",
+     "meaning": "to make a formal offer",
+     "meaningCN": "投标",
+     "example": "tender a contract",
+     "exampleCN": "投标承包"
+    }
+   ],
+   "latinEntries": []
+  }
+ },
+ {
+  "word": "big",
+  "ipa_uk": "/bɪɡ/",
+  "ipa_us": "/bɪɡ/",
+  "definition_zh": "大的；重要的；年长的",
+  "definition_en": "large in size, important, or older",
+  "core_image": "一头大象堵住了整条小路",
+  "scene": "大象慢慢走过来，把小路占满了。A big elephant blocked the narrow path.",
+  "sceneCN": "这里 big 是「大的」（第 1 个义项：体积或占地规模大）；句意是一头大象堵住了窄路。",
+  "pos": [
+   {
+    "tag": "adj.",
+    "zh": "形容词：大的；重要的；年长的"
+   },
+   {
+    "tag": "adv.",
+    "zh": "副词：大大地；成功地"
+   }
+  ],
+  "collocations": [
+   {
+    "phrase": "big city",
+    "zh": "大城市"
+   },
+   {
+    "phrase": "big deal",
+    "zh": "大事"
+   },
+   {
+    "phrase": "big difference",
+    "zh": "很大的差别"
+   },
+   {
+    "phrase": "too big",
+    "zh": "太大"
+   },
+   {
+    "phrase": "big brother",
+    "zh": "哥哥"
+   }
+  ],
+  "forms": [
+   {
+    "label": "比较级",
+    "form": "bigger"
+   },
+   {
+    "label": "最高级",
+    "form": "biggest"
+   }
+  ],
+  "derivatives": [
+   {
+    "word": "biggish",
+    "pos": "adj.",
+    "zh": "由 big 加 -g- 与 -ish 构成，义为「略大的」"
+   },
+   {
+    "word": "biggie",
+    "pos": "n.",
+    "zh": "由 big 加 -ie 构成，口语指「大事、大人物」"
+   }
+  ],
+  "senses": [
+   {
+    "no": "01",
+    "title": "Large in size",
+    "titleCN": "大的",
+    "definition": "large in size or amount",
+    "definitionCN": "体积或数量大",
+    "example": "A big elephant blocked the narrow path.",
+    "exampleCN": "一头大象堵住了窄路。",
+    "why": "This is the basic sense, measured against ordinary things.",
+    "whyCN": "这是基本义，与普通大小相比而言。"
+   },
+   {
+    "no": "02",
+    "title": "Important or serious",
+    "titleCN": "重要的",
+    "definition": "important or having a strong effect",
+    "definitionCN": "重要或影响很大的",
+    "example": "This is a big decision for the family.",
+    "exampleCN": "这对这个家庭是个重大决定。",
+    "why": "Things that matter loom large in the mind, so size words became value words.",
+    "whyCN": "重要的事在脑中显得巨大，于是尺寸词转为价值词。"
+   },
+   {
+    "no": "03",
+    "title": "Older",
+    "titleCN": "年长的",
+    "definition": "older, used of siblings",
+    "definitionCN": "指兄弟姐妹中年长的",
+    "example": "My big brother taught me to swim.",
+    "exampleCN": "我哥哥教我游泳。",
+    "why": "An older child is bigger, so size stood for age in the family.",
+    "whyCN": "年长的孩子个子更大，于是尺寸在家庭里代指年龄。"
+   }
+  ],
+  "etymology": {
+   "intro": {
+    "en": "Big appeared in northern English in the Middle Ages with an unclear origin.",
+    "cn": "big 在中世纪出现于英格兰北部，确切来源不明。"
+   },
+   "items": [
+    {
+     "era": "MIDDLE ENGLISH",
+     "en": "big meant strong or stout.",
+     "cn": "big 意为「强壮、结实」。"
+    },
+    {
+     "era": "FOURTEENTH CENTURY",
+     "en": "the word spread south for large size.",
+     "cn": "这个词向南传播，表示「尺寸大」。"
+    },
+    {
+     "era": "SIXTEENTH CENTURY",
+     "en": "big also meant important.",
+     "cn": "big 也开始表示「重要」。"
+    },
+    {
+     "era": "NINETEENTH CENTURY",
+     "en": "big brother named an older brother.",
+     "cn": "big brother 指哥哥。"
+    },
+    {
+     "era": "PRESENT DAY ENGLISH",
+     "en": "big doubles its g before -er and -est.",
+     "cn": "如今 big 加 -er、-est 时双写 g。"
+    }
+   ]
+  },
+  "similar": {
+   "note": {
+    "en": "The look-alike group differs by one vowel; the near-meaning group gives size words.",
+    "cn": "形近组只差一个元音；近义组是表示大小的词。"
+   },
+   "groups": [
+    {
+     "heading": "LOOK-ALIKE",
+     "entries": [
+      {
+       "word": "bag",
+       "ipa": "/bæɡ/",
+       "tag": "look-alike",
+       "definition": "a container for carrying things",
+       "definitionCN": "袋子"
+      },
+      {
+       "word": "bug",
+       "ipa": "/bʌɡ/",
+       "tag": "look-alike",
+       "definition": "a small insect",
+       "definitionCN": "虫子"
+      },
+      {
+       "word": "dig",
+       "ipa": "/dɪɡ/",
+       "tag": "look-alike",
+       "definition": "to break up soil",
+       "definitionCN": "挖"
+      }
+     ]
+    },
+    {
+     "heading": "NEAR MEANING",
+     "entries": [
+      {
+       "word": "large",
+       "ipa": "/lɑːdʒ/",
+       "tag": "near synonym",
+       "definition": "great in size",
+       "definitionCN": "大的"
+      },
+      {
+       "word": "great",
+       "ipa": "/ɡreɪt/",
+       "tag": "near synonym",
+       "definition": "very large or important",
+       "definitionCN": "巨大的"
+      },
+      {
+       "word": "huge",
+       "ipa": "/hjuːdʒ/",
+       "tag": "related",
+       "definition": "extremely large",
+       "definitionCN": "巨大的"
+      }
+     ]
+    }
+   ]
+  },
+  "mnemonics": {
+   "normalIntro": {
+    "en": "Big covers size, importance and the older brother at once.",
+    "cn": "big 同时覆盖尺寸、重要性与哥哥这三层。"
+   },
+   "normal": [
+    {
+     "en": "The comparative doubles the g: bigger.",
+     "cn": "比较级要双写 g：bigger。"
+    },
+    {
+     "en": "Big deal often sounds dismissive.",
+     "cn": "big deal 常带不以为然的语气。"
+    },
+    {
+     "en": "Big also means important.",
+     "cn": "big 也能表示「重要」。"
+    },
+    {
+     "en": "Big brother means an older brother.",
+     "cn": "big brother 指哥哥。"
+    },
+    {
+     "en": "The word is short and ends in a hard g.",
+     "cn": "这个词很短，以硬音 g 收尾。"
+    }
+   ],
+   "abstract": [
+    {
+     "en": "See a huge elephant filling a path.",
+     "cn": "想象大象塞满整条小路。"
+    },
+    {
+     "en": "See a wide door beside a small one.",
+     "cn": "想象一扇大门挨着小门。"
+    },
+    {
+     "en": "See an older brother holding a hand.",
+     "cn": "想象哥哥牵着一只手。"
+    }
+   ]
+  },
+  "examples": [
+   {
+    "en": "A big elephant blocked the narrow path.",
+    "cn": "一头大象堵住了窄路。"
+   },
+   {
+    "en": "This is a big decision for the family.",
+    "cn": "这对这个家庭是个重大决定。"
+   },
+   {
+    "en": "My big brother taught me to swim.",
+    "cn": "我哥哥教我游泳。"
+   }
+  ],
+  "dict_mnemonic": {
+   "note": "拆词记忆 · 非词源",
+   "text": "big 的 b 像鼓起的肚子，g 像撑开的腿，整个词就是「大」。",
+   "word": "big"
+  },
+  "root": "中古英语出现于英格兰北部，本义「强壮、结实」，十四世纪南传后转指「尺寸大」，十六世纪起引申为「重要」，近代又用于兄弟姐妹中的年长者。",
+  "sensesIntro": {
+   "en": "Size, importance and seniority all look big to the eye.",
+   "cn": "尺寸、重要性、年长，在眼里都显得「大」。"
+  },
+  "semanticMap": {
+   "core": {
+    "en": "CORE IMAGE: a huge elephant filling a path.",
+    "cn": "核心意象：塞满小路的大象。"
+   },
+   "chain": [
+    "SIZE",
+    "SPACE",
+    "POWER",
+    "CITY",
+    "GROW",
+    "FIRM"
+   ],
+   "branches": [
+    {
+     "senses": "01",
+     "en": "a big house",
+     "cn": "大房子"
+    },
+    {
+     "senses": "01",
+     "en": "too big",
+     "cn": "太大"
+    },
+    {
+     "senses": "02",
+     "en": "a big deal",
+     "cn": "大事"
+    },
+    {
+     "senses": "02",
+     "en": "a big decision",
+     "cn": "重大决定"
+    },
+    {
+     "senses": "03",
+     "en": "big brother",
+     "cn": "哥哥"
+    }
+   ]
+  },
+  "affixes": {
+   "intro": {
+    "en": "Big doubles its g before -er and -est, and takes -ish and -ie.",
+    "cn": "big 加 -er、-est 时双写 g，也能加 -ish、-ie。"
+   },
+   "latinIntro": {
+    "en": "There is no Latin base; the origin of the word is uncertain.",
+    "cn": "这里没有拉丁词基，这个词的来源并不确定。"
+   },
+   "items": [
+    {
+     "word": "big",
+     "structure": "Middle English big",
+     "meaning": "large",
+     "meaningCN": "大的",
+     "example": "a big room",
+     "exampleCN": "大房间"
+    },
+    {
+     "word": "bigger",
+     "structure": "big + -g- + -er",
+     "meaning": "larger",
+     "meaningCN": "更大的",
+     "example": "a bigger box",
+     "exampleCN": "更大的盒子"
+    },
+    {
+     "word": "biggest",
+     "structure": "big + -g- + -est",
+     "meaning": "largest",
+     "meaningCN": "最大的",
+     "example": "the biggest city",
+     "exampleCN": "最大的城市"
+    },
+    {
+     "word": "biggish",
+     "structure": "big + -g- + -ish",
+     "meaning": "rather large",
+     "meaningCN": "略大的",
+     "example": "a biggish garden",
+     "exampleCN": "稍大的花园"
+    },
+    {
+     "word": "biggie",
+     "structure": "big + -ie",
+     "meaning": "something important",
+     "meaningCN": "大事",
+     "example": "no biggie",
+     "exampleCN": "没什么大不了"
+    },
+    {
+     "word": "large",
+     "structure": "Latin largus",
+     "meaning": "great in size",
+     "meaningCN": "大的",
+     "example": "a large crowd",
+     "exampleCN": "一大群人"
+    },
+    {
+     "word": "great",
+     "structure": "Old English great",
+     "meaning": "very big",
+     "meaningCN": "巨大的",
+     "example": "a great wall",
+     "exampleCN": "巨大的墙"
+    },
+    {
+     "word": "huge",
+     "structure": "Old French ahuge",
+     "meaning": "extremely large",
+     "meaningCN": "巨大的",
+     "example": "a huge wave",
+     "exampleCN": "巨浪"
+    }
+   ],
+   "latinEntries": []
+  }
+ },
+ {
+  "word": "bike",
+  "ipa_uk": "/baɪk/",
+  "ipa_us": "/baɪk/",
+  "definition_zh": "自行车（口语）；摩托车",
+  "definition_en": "a bicycle or motorcycle",
+  "core_image": "车棚里挤满学生的自行车",
+  "scene": "车棚里挤满学生的自行车。She left her bike by the gate.",
+  "sceneCN": "这里 bike 是「自行车」（第 1 个义项：两轮脚踏车的口语说法）；句意是她把车停在了门边。",
+  "pos": [
+   {
+    "tag": "n.",
+    "zh": "名词：自行车；摩托车（口语）"
+   },
+   {
+    "tag": "v.",
+    "zh": "动词：骑自行车"
+   }
+  ],
+  "collocations": [
+   {
+    "phrase": "ride a bike",
+    "zh": "骑自行车"
+   },
+   {
+    "phrase": "bike lane",
+    "zh": "自行车道"
+   },
+   {
+    "phrase": "bike ride",
+    "zh": "骑行"
+   },
+   {
+    "phrase": "by bike",
+    "zh": "骑自行车（前往）"
+   },
+   {
+    "phrase": "mountain bike",
+    "zh": "山地车"
+   }
+  ],
+  "forms": [
+   {
+    "label": "复数",
+    "form": "bikes"
+   },
+   {
+    "label": "过去式",
+    "form": "biked"
+   },
+   {
+    "label": "过去分词",
+    "form": "biked"
+   },
+   {
+    "label": "现在分词",
+    "form": "biking"
+   }
+  ],
+  "derivatives": [
+   {
+    "word": "biker",
+    "pos": "n.",
+    "zh": "由 bike 加 -er 构成，义为「骑车人」"
+   },
+   {
+    "word": "biking",
+    "pos": "n.",
+    "zh": "由 bike 加 -ing 构成，义为「骑行活动」"
+   },
+   {
+    "word": "bicycle",
+    "pos": "n.",
+    "zh": "bike 的完整形式，义为「自行车」"
+   }
+  ],
+  "senses": [
+   {
+    "no": "01",
+    "title": "A bicycle",
+    "titleCN": "自行车",
+    "definition": "a bicycle, in everyday speech",
+    "definitionCN": "日常口语中的自行车",
+    "example": "She left her bike by the gate.",
+    "exampleCN": "她把自行车停在了门边。",
+    "why": "This is a clipped form of bicycle, used in casual talk.",
+    "whyCN": "这是 bicycle 的截短形式，多用于随便的口语。"
+   },
+   {
+    "no": "02",
+    "title": "A motorcycle",
+    "titleCN": "摩托车",
+    "definition": "a motorcycle, especially in American use",
+    "definitionCN": "尤指美式用法中的摩托车",
+    "example": "He rode his bike down the highway.",
+    "exampleCN": "他骑着摩托上了公路。",
+    "why": "The short word widened from pedals to engines.",
+    "whyCN": "这个短词从脚踏车扩大到带发动机的车。"
+   },
+   {
+    "no": "03",
+    "title": "To ride a bike",
+    "titleCN": "骑车",
+    "definition": "to travel by bicycle",
+    "definitionCN": "骑自行车出行",
+    "example": "We biked along the river.",
+    "exampleCN": "我们沿河骑车。",
+    "why": "The noun became a verb for the activity.",
+    "whyCN": "名词转为动词，表示这项活动。"
+   }
+  ],
+  "etymology": {
+   "intro": {
+    "en": "Bike is a nineteenth-century shortening of bicycle.",
+    "cn": "bike 是十九世纪对 bicycle 的截短。"
+   },
+   "items": [
+    {
+     "era": "NINETEENTH CENTURY",
+     "en": "bike appeared as slang for bicycle.",
+     "cn": "bike 作为自行车的俚语出现。"
+    },
+    {
+     "era": "EIGHTEEN EIGHTIES",
+     "en": "the short word spread with safety bicycles.",
+     "cn": "随着安全型自行车普及，这个短词流行。"
+    },
+    {
+     "era": "TWENTIETH CENTURY",
+     "en": "bike also covered motorcycles.",
+     "cn": "bike 也开始指摩托车。"
+    },
+    {
+     "era": "NINETEEN SEVENTIES",
+     "en": "mountain bikes gave the word new life.",
+     "cn": "山地车让这个词重获活力。"
+    },
+    {
+     "era": "PRESENT DAY ENGLISH",
+     "en": "bike is common in speech and signs.",
+     "cn": "如今 bike 常见于口语和标识。"
+    }
+   ]
+  },
+  "similar": {
+   "note": {
+    "en": "The look-alike group differs by one letter; the near-meaning group gives cycling words.",
+    "cn": "形近组只差一个字母；近义组是骑行相关词。"
+   },
+   "groups": [
+    {
+     "heading": "LOOK-ALIKE",
+     "entries": [
+      {
+       "word": "like",
+       "ipa": "/laɪk/",
+       "tag": "look-alike",
+       "definition": "to enjoy something",
+       "definitionCN": "喜欢"
+      },
+      {
+       "word": "hike",
+       "ipa": "/haɪk/",
+       "tag": "look-alike",
+       "definition": "a long walk in the country",
+       "definitionCN": "远足"
+      },
+      {
+       "word": "bake",
+       "ipa": "/beɪk/",
+       "tag": "look-alike",
+       "definition": "to cook in an oven",
+       "definitionCN": "烘烤"
+      }
+     ]
+    },
+    {
+     "heading": "NEAR MEANING",
+     "entries": [
+      {
+       "word": "bicycle",
+       "ipa": "/ˈbaɪsɪkl/",
+       "tag": "near synonym",
+       "definition": "a two-wheeled pedal vehicle",
+       "definitionCN": "自行车"
+      },
+      {
+       "word": "cycle",
+       "ipa": "/ˈsaɪkl/",
+       "tag": "near synonym",
+       "definition": "to ride a bicycle",
+       "definitionCN": "骑车"
+      },
+      {
+       "word": "motorbike",
+       "ipa": "/ˈməʊtəbaɪk/",
+       "tag": "related",
+       "definition": "a motorcycle",
+       "definitionCN": "摩托车"
+      }
+     ]
+    }
+   ]
+  },
+  "mnemonics": {
+   "normalIntro": {
+    "en": "Bike is bicycle cut short for quick speech.",
+    "cn": "bike 是 bicycle 为说话省力而截短的。"
+   },
+   "normal": [
+    {
+     "en": "The plural is bikes.",
+     "cn": "复数是 bikes。"
+    },
+    {
+     "en": "By bike means travelling on a bike.",
+     "cn": "by bike 指骑自行车前往。"
+    },
+    {
+     "en": "A bike lane is marked for bikes.",
+     "cn": "bike lane 是给自行车划的道。"
+    },
+    {
+     "en": "In America a bike can mean a motorbike.",
+     "cn": "在美式用法里 bike 也可指摩托。"
+    },
+    {
+     "en": "The verb is biked in the past.",
+     "cn": "动词过去式是 biked。"
+    }
+   ],
+   "abstract": [
+    {
+     "en": "See a crowded school bike shed.",
+     "cn": "想象挤满自行车的车棚。"
+    },
+    {
+     "en": "See two wheels turning by a river.",
+     "cn": "想象河边转动的两个车轮。"
+    },
+    {
+     "en": "See a helmet hung on handlebars.",
+     "cn": "想象挂在车把上的头盔。"
+    }
+   ]
+  },
+  "examples": [
+   {
+    "en": "She left her bike by the gate.",
+    "cn": "她把自行车停在了门边。"
+   },
+   {
+    "en": "He rode his bike down the highway.",
+    "cn": "他骑着摩托上了公路。"
+   },
+   {
+    "en": "We biked along the river.",
+    "cn": "我们沿河骑车。"
+   }
+  ],
+  "dict_mnemonic": {
+   "note": "拆词记忆 · 非词源",
+   "text": "bicycle 太长，说快了只剩 bike 两个音节。",
+   "word": "bike"
+  },
+  "root": "十九世纪由 bicycle 截短而来，先作俚语，后随安全型自行车普及；二十世纪起在美式英语中也指摩托车，二十世纪七十年代山地车又推动了它的使用。",
+  "sensesIntro": {
+   "en": "One short word covers bicycles, motorbikes and the ride itself.",
+   "cn": "一个短词既指自行车、摩托，也指骑行的动作。"
+  },
+  "semanticMap": {
+   "core": {
+    "en": "CORE IMAGE: a crowded school bike shed.",
+    "cn": "核心意象：挤满自行车的车棚。"
+   },
+   "chain": [
+    "WHEEL",
+    "PEDAL",
+    "LANE",
+    "CITY",
+    "RIDE",
+    "FREE"
+   ],
+   "branches": [
+    {
+     "senses": "01",
+     "en": "ride a bike",
+     "cn": "骑自行车"
+    },
+    {
+     "senses": "01",
+     "en": "a bike lane",
+     "cn": "自行车道"
+    },
+    {
+     "senses": "02",
+     "en": "a motorbike on the highway",
+     "cn": "公路上的摩托"
+    },
+    {
+     "senses": "03",
+     "en": "bike to school",
+     "cn": "骑车上学"
+    },
+    {
+     "senses": "03",
+     "en": "biking along the river",
+     "cn": "沿河骑行"
+    }
+   ]
+  },
+  "affixes": {
+   "intro": {
+    "en": "Bike takes -s, -ed and -ing, and builds biker and biking.",
+    "cn": "bike 可加 -s、-ed、-ing，并构成 biker 与 biking。"
+   },
+   "latinIntro": {
+    "en": "The long form bicycle uses Latin bi- and Greek kyklos.",
+    "cn": "完整形式 bicycle 用拉丁语 bi- 与希腊语 kyklos。"
+   },
+   "items": [
+    {
+     "word": "bike",
+     "structure": "short form of bicycle",
+     "meaning": "a bicycle",
+     "meaningCN": "自行车",
+     "example": "ride a bike",
+     "exampleCN": "骑自行车"
+    },
+    {
+     "word": "bikes",
+     "structure": "bike + -s",
+     "meaning": "more than one bike",
+     "meaningCN": "自行车（复数）",
+     "example": "many bikes",
+     "exampleCN": "许多自行车"
+    },
+    {
+     "word": "biked",
+     "structure": "bike + -ed",
+     "meaning": "rode a bike",
+     "meaningCN": "骑过车",
+     "example": "we biked home",
+     "exampleCN": "我们骑车回家"
+    },
+    {
+     "word": "biking",
+     "structure": "bike + -ing",
+     "meaning": "the activity of riding",
+     "meaningCN": "骑行",
+     "example": "biking in summer",
+     "exampleCN": "夏天骑行"
+    },
+    {
+     "word": "biker",
+     "structure": "bike + -er",
+     "meaning": "one who rides a bike",
+     "meaningCN": "骑车人",
+     "example": "a mountain biker",
+     "exampleCN": "山地车骑手"
+    },
+    {
+     "word": "bicycle",
+     "structure": "bi- + cycle",
+     "meaning": "a pedal two-wheeler",
+     "meaningCN": "自行车",
+     "example": "a new bicycle",
+     "exampleCN": "一辆新自行车"
+    },
+    {
+     "word": "cycle",
+     "structure": "Greek kyklos",
+     "meaning": "to ride a bike",
+     "meaningCN": "骑车",
+     "example": "cycle to work",
+     "exampleCN": "骑车上班"
+    },
+    {
+     "word": "lane",
+     "structure": "Old English lane",
+     "meaning": "a narrow road",
+     "meaningCN": "车道",
+     "example": "a bike lane",
+     "exampleCN": "自行车道"
+    }
+   ],
+   "latinEntries": []
+  }
+ },
+ {
+  "word": "bill",
+  "ipa_uk": "/bɪl/",
+  "ipa_us": "/bɪl/",
+  "definition_zh": "账单；法案；鸟喙",
+  "definition_en": "a statement of money owed, a proposed law, or a bird's beak",
+  "core_image": "餐馆桌角压着的那张长条账单",
+  "scene": "账单压在餐馆桌角，旁边放着找零。He paid the bill and left a tip.",
+  "sceneCN": "这里 bill 是「账单」（第 1 个义项：列出应付金额的单据）；句意是他付了账单并留下小费。",
+  "pos": [
+   {
+    "tag": "n.",
+    "zh": "名词：账单；法案；鸟喙"
+   },
+   {
+    "tag": "v.",
+    "zh": "动词：给……开账单"
+   }
+  ],
+  "collocations": [
+   {
+    "phrase": "pay the bill",
+    "zh": "付账"
+   },
+   {
+    "phrase": "phone bill",
+    "zh": "电话费账单"
+   },
+   {
+    "phrase": "bill for",
+    "zh": "为……开账单"
+   },
+   {
+    "phrase": "pass a bill",
+    "zh": "通过法案"
+   },
+   {
+    "phrase": "electricity bill",
+    "zh": "电费单"
+   }
+  ],
+  "forms": [
+   {
+    "label": "复数",
+    "form": "bills"
+   },
+   {
+    "label": "过去式",
+    "form": "billed"
+   },
+   {
+    "label": "过去分词",
+    "form": "billed"
+   },
+   {
+    "label": "现在分词",
+    "form": "billing"
+   }
+  ],
+  "derivatives": [
+   {
+    "word": "billing",
+    "pos": "n.",
+    "zh": "由 bill 加 -ing 构成，义为「开票、计费」"
+   },
+   {
+    "word": "billboard",
+    "pos": "n.",
+    "zh": "由 bill 与 board 复合，义为「广告牌」"
+   }
+  ],
+  "senses": [
+   {
+    "no": "01",
+    "title": "A statement of money owed",
+    "titleCN": "账单",
+    "definition": "a paper listing money that must be paid",
+    "definitionCN": "列出应付金额的单据",
+    "example": "He paid the bill and left a tip.",
+    "exampleCN": "他付了账单并留下小费。",
+    "why": "This comes from a word for a sealed document.",
+    "whyCN": "这个义项来自表示「盖印文书」的词。"
+   },
+   {
+    "no": "02",
+    "title": "A proposed law",
+    "titleCN": "法案",
+    "definition": "a draft law put before a parliament",
+    "definitionCN": "提交议会审议的法律草案",
+    "example": "The bill passed after a long debate.",
+    "exampleCN": "经过长时间辩论，法案通过了。",
+    "why": "A bill was once a royal document, so laws kept the name.",
+    "whyCN": "bill 曾是皇家文书，法律沿用了这个名字。"
+   },
+   {
+    "no": "03",
+    "title": "A bird's beak",
+    "titleCN": "鸟喙",
+    "definition": "the hard mouth of a bird",
+    "definitionCN": "鸟类坚硬的嘴",
+    "example": "The bird cleaned its bill on the branch.",
+    "exampleCN": "鸟在树枝上擦拭喙。",
+    "why": "This sense has a separate Old English root, bile.",
+    "whyCN": "这个义项另有古英语词根 bile。"
+   }
+  ],
+  "etymology": {
+   "intro": {
+    "en": "Bill joins two histories: a Latin document and an Old English beak.",
+    "cn": "bill 汇合了两条历史：拉丁语的文书与古英语的鸟喙。"
+   },
+   "items": [
+    {
+     "era": "LATIN BULLA",
+     "en": "bulla meant a sealed document.",
+     "cn": "bulla 意为「盖印文书」。"
+    },
+    {
+     "era": "MEDIEVAL LATIN",
+     "en": "billa named a written list.",
+     "cn": "billa 指书面清单。"
+    },
+    {
+     "era": "MIDDLE ENGLISH",
+     "en": "bill meant a note of money owed.",
+     "cn": "bill 指欠款单据。"
+    },
+    {
+     "era": "FIFTEENTH CENTURY",
+     "en": "parliament used bill for a draft law.",
+     "cn": "议会用 bill 指法律草案。"
+    },
+    {
+     "era": "OLD ENGLISH BILE",
+     "en": "bile meant a bird's beak.",
+     "cn": "古英语 bile 指鸟喙。"
+    },
+    {
+     "era": "PRESENT DAY ENGLISH",
+     "en": "both senses live on in one spelling.",
+     "cn": "两个义项在同一个拼写里并存。"
+    }
+   ]
+  },
+  "similar": {
+   "note": {
+    "en": "The look-alike group differs by one letter; the near-meaning group gives payment words.",
+    "cn": "形近组只差一个字母；近义组是付款相关词。"
+   },
+   "groups": [
+    {
+     "heading": "LOOK-ALIKE",
+     "entries": [
+      {
+       "word": "bell",
+       "ipa": "/bel/",
+       "tag": "look-alike",
+       "definition": "a ringing metal object",
+       "definitionCN": "铃"
+      },
+      {
+       "word": "fill",
+       "ipa": "/fɪl/",
+       "tag": "look-alike",
+       "definition": "to make something full",
+       "definitionCN": "装满"
+      },
+      {
+       "word": "pill",
+       "ipa": "/pɪl/",
+       "tag": "look-alike",
+       "definition": "a small round medicine",
+       "definitionCN": "药丸"
+      }
+     ]
+    },
+    {
+     "heading": "NEAR MEANING",
+     "entries": [
+      {
+       "word": "invoice",
+       "ipa": "/ˈɪnvɔɪs/",
+       "tag": "near synonym",
+       "definition": "a list of goods and money due",
+       "definitionCN": "发票"
+      },
+      {
+       "word": "check",
+       "ipa": "/tʃek/",
+       "tag": "near synonym",
+       "definition": "a restaurant bill in America",
+       "definitionCN": "餐馆账单"
+      },
+      {
+       "word": "account",
+       "ipa": "/əˈkaʊnt/",
+       "tag": "related",
+       "definition": "a record of money",
+       "definitionCN": "账户"
+      }
+     ]
+    }
+   ]
+  },
+  "mnemonics": {
+   "normalIntro": {
+    "en": "Bill is paper that asks for money, paper that proposes law, and a bird's hard mouth.",
+    "cn": "bill 既是要钱的纸、提议法律的纸，也是鸟的硬嘴。"
+   },
+   "normal": [
+    {
+     "en": "The plural is bills.",
+     "cn": "复数是 bills。"
+    },
+    {
+     "en": "Pay the bill at the counter.",
+     "cn": "到柜台付账。"
+    },
+    {
+     "en": "A bill can also be a draft law.",
+     "cn": "bill 也可以指法律草案。"
+    },
+    {
+     "en": "A bird's bill is its beak.",
+     "cn": "鸟的 bill 就是喙。"
+    },
+    {
+     "en": "Billed means charged or advertised.",
+     "cn": "billed 指被收费或被宣传。"
+    }
+   ],
+   "abstract": [
+    {
+     "en": "See a long paper slip under a cup.",
+     "cn": "想象杯子下压着的长条单据。"
+    },
+    {
+     "en": "See hands raised to vote on a law.",
+     "cn": "想象举手对法律表决。"
+    },
+    {
+     "en": "See a sparrow wiping its beak.",
+     "cn": "想象麻雀擦拭它的喙。"
+    }
+   ]
+  },
+  "examples": [
+   {
+    "en": "He paid the bill and left a tip.",
+    "cn": "他付了账单并留下小费。"
+   },
+   {
+    "en": "The bill passed after a long debate.",
+    "cn": "经过长时间辩论，法案通过了。"
+   },
+   {
+    "en": "The bird cleaned its bill on the branch.",
+    "cn": "鸟在树枝上擦拭喙。"
+   }
+  ],
+  "dict_mnemonic": {
+   "note": "拆词记忆 · 非词源",
+   "text": "bill 像一张窄长的纸条，正是一张账单的形状。",
+   "word": "bill"
+  },
+  "root": "表示账单与法案的 bill 源自拉丁语 bulla（盖印文书），经中世纪拉丁语 billa 进入英语；表示鸟喙的 bill 则来自古英语 bile，两条来源合流为同一拼写。",
+  "sensesIntro": {
+   "en": "One spelling carries a debt note, a draft law and a bird's mouth.",
+   "cn": "同一个拼写承载欠款单、法律草案与鸟嘴三个义项。"
+  },
+  "semanticMap": {
+   "core": {
+    "en": "CORE IMAGE: a long paper slip under a cup.",
+    "cn": "核心意象：杯子下压着的长条单据。"
+   },
+   "chain": [
+    "PAPER",
+    "MONEY",
+    "LAW",
+    "BEAK",
+    "DEBT",
+    "SIGN"
+   ],
+   "branches": [
+    {
+     "senses": "01",
+     "en": "pay the bill",
+     "cn": "付账"
+    },
+    {
+     "senses": "01",
+     "en": "an electricity bill",
+     "cn": "电费单"
+    },
+    {
+     "senses": "02",
+     "en": "pass a bill",
+     "cn": "通过法案"
+    },
+    {
+     "senses": "03",
+     "en": "a bird's bill",
+     "cn": "鸟喙"
+    },
+    {
+     "senses": "03",
+     "en": "clean its bill",
+     "cn": "擦拭喙"
+    }
+   ]
+  },
+  "affixes": {
+   "intro": {
+    "en": "Bill takes -s, -ed and -ing, and joins board to form billboard.",
+    "cn": "bill 可加 -s、-ed、-ing，还能与 board 复合成 billboard。"
+   },
+   "latinIntro": {
+    "en": "The document sense comes from Latin bulla; the beak sense is Old English.",
+    "cn": "文书义来自拉丁语 bulla，鸟喙义来自古英语。"
+   },
+   "items": [
+    {
+     "word": "bill",
+     "structure": "Latin billa",
+     "meaning": "a note of money owed",
+     "meaningCN": "账单",
+     "example": "pay the bill",
+     "exampleCN": "付账"
+    },
+    {
+     "word": "bills",
+     "structure": "bill + -s",
+     "meaning": "more than one bill",
+     "meaningCN": "账单（复数）",
+     "example": "monthly bills",
+     "exampleCN": "每月账单"
+    },
+    {
+     "word": "billed",
+     "structure": "bill + -ed",
+     "meaning": "charged or advertised",
+     "meaningCN": "被收费的",
+     "example": "billed monthly",
+     "exampleCN": "按月收费"
+    },
+    {
+     "word": "billing",
+     "structure": "bill + -ing",
+     "meaning": "the sending of bills",
+     "meaningCN": "计费",
+     "example": "billing address",
+     "exampleCN": "账单地址"
+    },
+    {
+     "word": "billboard",
+     "structure": "bill + board",
+     "meaning": "a large sign",
+     "meaningCN": "广告牌",
+     "example": "a roadside billboard",
+     "exampleCN": "路边广告牌"
+    },
+    {
+     "word": "invoice",
+     "structure": "French envoi",
+     "meaning": "a list of money due",
+     "meaningCN": "发票",
+     "example": "send an invoice",
+     "exampleCN": "寄发票"
+    },
+    {
+     "word": "account",
+     "structure": "Latin computare",
+     "meaning": "a record of money",
+     "meaningCN": "账户",
+     "example": "a bank account",
+     "exampleCN": "银行账户"
+    },
+    {
+     "word": "beak",
+     "structure": "Latin beccus",
+     "meaning": "a bird's mouth",
+     "meaningCN": "鸟喙",
+     "example": "a sharp beak",
+     "exampleCN": "尖喙"
+    }
+   ],
+   "latinEntries": []
+  }
+ },
+ {
+  "word": "billion",
+  "ipa_uk": "/ˈbɪljən/",
+  "ipa_us": "/ˈbɪljən/",
+  "definition_zh": "十亿；大量",
+  "definition_en": "a thousand million, or a very large number",
+  "core_image": "屏幕上滚过一长串数字",
+  "scene": "屏幕上滚过一长串数字。The company is worth two billion dollars.",
+  "sceneCN": "这里 billion 是「十亿」（第 1 个义项：一千个百万）；句意是这家公司值二十亿美元。",
+  "pos": [
+   {
+    "tag": "n.",
+    "zh": "名词：十亿；大量"
+   },
+   {
+    "tag": "num.",
+    "zh": "数词：十亿"
+   }
+  ],
+  "collocations": [
+   {
+    "phrase": "two billion",
+    "zh": "二十亿"
+   },
+   {
+    "phrase": "billions of",
+    "zh": "数十亿的"
+   },
+   {
+    "phrase": "a billion dollars",
+    "zh": "十亿美元"
+   },
+   {
+    "phrase": "billion-dollar",
+    "zh": "价值十亿美元的"
+   },
+   {
+    "phrase": "several billion",
+    "zh": "好几十亿"
+   }
+  ],
+  "forms": [
+   {
+    "label": "复数",
+    "form": "billions"
+   }
+  ],
+  "derivatives": [
+   {
+    "word": "billionaire",
+    "pos": "n.",
+    "zh": "由 billion 加 -aire 构成，义为「亿万富翁」"
+   },
+   {
+    "word": "billionth",
+    "pos": "adj.",
+    "zh": "由 billion 加 -th 构成，义为「第十亿的」"
+   }
+  ],
+  "senses": [
+   {
+    "no": "01",
+    "title": "A thousand million",
+    "titleCN": "十亿",
+    "definition": "the number 1,000,000,000",
+    "definitionCN": "一千个百万",
+    "example": "The company is worth two billion dollars.",
+    "exampleCN": "这家公司值二十亿美元。",
+    "why": "Modern English uses the short scale, where a billion is a thousand million.",
+    "whyCN": "现代英语采用短级差制，十亿等于一千个百万。"
+   },
+   {
+    "no": "02",
+    "title": "A very large number",
+    "titleCN": "大量",
+    "definition": "a very large number of things",
+    "definitionCN": "数量极大的事物",
+    "example": "Billions of stars fill the sky.",
+    "exampleCN": "天上有数十亿颗星星。",
+    "why": "The number became a word for anything countless.",
+    "whyCN": "这个数字转而指任何数不清的东西。"
+   }
+  ],
+  "etymology": {
+   "intro": {
+    "en": "Billion was formed in French from bi- and million.",
+    "cn": "billion 在法语中由 bi- 与 million 组合而成。"
+   },
+   "items": [
+    {
+     "era": "SIXTEENTH CENTURY",
+     "en": "French coined billion for a huge number.",
+     "cn": "法语造出 billion 表示巨大的数。"
+    },
+    {
+     "era": "SEVENTEENTH CENTURY",
+     "en": "English borrowed the word.",
+     "cn": "英语借入这个词。"
+    },
+    {
+     "era": "NINETEENTH CENTURY",
+     "en": "Britain and America differed on its value.",
+     "cn": "英美对它的数值曾有不同的理解。"
+    },
+    {
+     "era": "TWENTIETH CENTURY",
+     "en": "the short scale spread worldwide.",
+     "cn": "短级差制在全世界推广。"
+    },
+    {
+     "era": "PRESENT DAY ENGLISH",
+     "en": "billion usually means a thousand million.",
+     "cn": "如今 billion 通常指十亿。"
+    }
+   ]
+  },
+  "similar": {
+   "note": {
+    "en": "The look-alike group shares the -illion pattern; the near-meaning group gives other huge numbers.",
+    "cn": "形近组共享 -illion 结构；近义组是其他巨大数值。"
+   },
+   "groups": [
+    {
+     "heading": "LOOK-ALIKE",
+     "entries": [
+      {
+       "word": "million",
+       "ipa": "/ˈmɪljən/",
+       "tag": "look-alike",
+       "definition": "a thousand thousand",
+       "definitionCN": "百万"
+      },
+      {
+       "word": "trillion",
+       "ipa": "/ˈtrɪljən/",
+       "tag": "look-alike",
+       "definition": "a thousand billion",
+       "definitionCN": "万亿"
+      },
+      {
+       "word": "bullion",
+       "ipa": "/ˈbʊliən/",
+       "tag": "look-alike",
+       "definition": "gold or silver in bars",
+       "definitionCN": "金条"
+      }
+     ]
+    },
+    {
+     "heading": "NEAR MEANING",
+     "entries": [
+      {
+       "word": "million",
+       "ipa": "/ˈmɪljən/",
+       "tag": "near synonym",
+       "definition": "the number 1,000,000",
+       "definitionCN": "百万"
+      },
+      {
+       "word": "trillion",
+       "ipa": "/ˈtrɪljən/",
+       "tag": "related",
+       "definition": "a thousand billion",
+       "definitionCN": "万亿"
+      },
+      {
+       "word": "zillion",
+       "ipa": "/ˈzɪljən/",
+       "tag": "related",
+       "definition": "an informal word for a huge number",
+       "definitionCN": "极大数目"
+      }
+     ]
+    }
+   ]
+  },
+  "mnemonics": {
+   "normalIntro": {
+    "en": "Billion is a thousand million, with bi- hinting at the second big step.",
+    "cn": "billion 是一千个百万，bi- 提示它比百万又进一大步。"
+   },
+   "normal": [
+    {
+     "en": "Billion has two l letters in the middle.",
+     "cn": "billion 中间有两个 l。"
+    },
+    {
+     "en": "The plural is billions.",
+     "cn": "复数是 billions。"
+    },
+    {
+     "en": "Billions of means a countless number.",
+     "cn": "billions of 指数不清的量。"
+    },
+    {
+     "en": "A billionaire has a billion or more.",
+     "cn": "billionaire 指拥有十亿以上财富的人。"
+    },
+    {
+     "en": "Billion follows million and precedes trillion.",
+     "cn": "billion 排在 million 之后、trillion 之前。"
+    }
+   ],
+   "abstract": [
+    {
+     "en": "See a long row of digits on a screen.",
+     "cn": "想象屏幕上长长一串数字。"
+    },
+    {
+     "en": "See a night sky packed with stars.",
+     "cn": "想象挤满星星的夜空。"
+    },
+    {
+     "en": "See a city of endless lit windows.",
+     "cn": "想象灯火无尽的城市。"
+    }
+   ]
+  },
+  "examples": [
+   {
+    "en": "The company is worth two billion dollars.",
+    "cn": "这家公司值二十亿美元。"
+   },
+   {
+    "en": "Billions of stars fill the sky.",
+    "cn": "天上有数十亿颗星星。"
+   },
+   {
+    "en": "The project cost several billion yuan.",
+    "cn": "这个项目花了数十亿元。"
+   }
+  ],
+  "dict_mnemonic": {
+   "note": "拆词记忆 · 非词源",
+   "text": "bi 是「二」，million 是「百万」，第二个百万级台阶就是十亿。",
+   "word": "billion"
+  },
+  "root": "十六世纪法语用 bi- 与 million 造出 billion，英语于十七世纪借入；十九世纪英美对数值理解不同，二十世纪短级差制通行，十亿即一千个百万。",
+  "sensesIntro": {
+   "en": "The exact number and the idea of countless both live in billion.",
+   "cn": "精确的十亿与「数不清」的意味都活在 billion 里。"
+  },
+  "semanticMap": {
+   "core": {
+    "en": "CORE IMAGE: a long row of digits on a screen.",
+    "cn": "核心意象：屏幕上长长一串数字。"
+   },
+   "chain": [
+    "ONE",
+    "THOUSAND",
+    "MILLION",
+    "ZERO",
+    "SCALE",
+    "WEALTH"
+   ],
+   "branches": [
+    {
+     "senses": "01",
+     "en": "two billion",
+     "cn": "二十亿"
+    },
+    {
+     "senses": "01",
+     "en": "a billion dollars",
+     "cn": "十亿美元"
+    },
+    {
+     "senses": "01",
+     "en": "billion-dollar deal",
+     "cn": "十亿美元级交易"
+    },
+    {
+     "senses": "02",
+     "en": "billions of stars",
+     "cn": "数十亿颗星"
+    },
+    {
+     "senses": "02",
+     "en": "billions of people",
+     "cn": "数十亿人"
+    }
+   ]
+  },
+  "affixes": {
+   "intro": {
+    "en": "Billion takes -s and -th, and joins -aire for a rich person.",
+    "cn": "billion 可加 -s、-th，并与 -aire 组合指巨富。"
+   },
+   "latinIntro": {
+    "en": "The base is Latin bi-, two, attached to million.",
+    "cn": "词基是拉丁语 bi-（二），接在 million 之前。"
+   },
+   "items": [
+    {
+     "word": "billion",
+     "structure": "bi- + million",
+     "meaning": "a thousand million",
+     "meaningCN": "十亿",
+     "example": "one billion",
+     "exampleCN": "十亿"
+    },
+    {
+     "word": "billions",
+     "structure": "billion + -s",
+     "meaning": "many billions",
+     "meaningCN": "数十亿",
+     "example": "billions of cells",
+     "exampleCN": "数十亿个细胞"
+    },
+    {
+     "word": "billionaire",
+     "structure": "billion + -aire",
+     "meaning": "a very rich person",
+     "meaningCN": "亿万富翁",
+     "example": "a young billionaire",
+     "exampleCN": "年轻的亿万富翁"
+    },
+    {
+     "word": "billionth",
+     "structure": "billion + -th",
+     "meaning": "the ordinal of a billion",
+     "meaningCN": "第十亿的",
+     "example": "the billionth visitor",
+     "exampleCN": "第十亿位访客"
+    },
+    {
+     "word": "million",
+     "structure": "Italian milione",
+     "meaning": "a thousand thousand",
+     "meaningCN": "百万",
+     "example": "two million",
+     "exampleCN": "两百万"
+    },
+    {
+     "word": "trillion",
+     "structure": "tri- + million",
+     "meaning": "a thousand billion",
+     "meaningCN": "万亿",
+     "example": "one trillion",
+     "exampleCN": "一万亿"
+    },
+    {
+     "word": "zero",
+     "structure": "Arabic sifr",
+     "meaning": "the number nought",
+     "meaningCN": "零",
+     "example": "add three zeros",
+     "exampleCN": "加三个零"
+    },
+    {
+     "word": "wealth",
+     "structure": "Middle English welthe",
+     "meaning": "a large amount of money",
+     "meaningCN": "财富",
+     "example": "great wealth",
+     "exampleCN": "巨额财富"
+    }
+   ],
+   "latinEntries": []
+  }
+ },
+ {
+  "word": "bin",
+  "ipa_uk": "/bɪn/",
+  "ipa_us": "/bɪn/",
+  "definition_zh": "箱；垃圾桶",
+  "definition_en": "a container for storing things or for waste",
+  "core_image": "厨房角落装着菜叶的桶",
+  "scene": "厨房角落的桶里堆着菜叶。He threw the peel into the bin.",
+  "sceneCN": "这里 bin 是「垃圾桶」（第 2 个义项：盛放废弃物的容器）；句意是他把果皮扔进了垃圾桶。",
+  "pos": [
+   {
+    "tag": "n.",
+    "zh": "名词：箱；垃圾桶"
+   },
+   {
+    "tag": "v.",
+    "zh": "动词：把……扔进垃圾桶；丢弃"
+   }
+  ],
+  "collocations": [
+   {
+    "phrase": "rubbish bin",
+    "zh": "垃圾桶"
+   },
+   {
+    "phrase": "bin liner",
+    "zh": "垃圾袋"
+   },
+   {
+    "phrase": "wheelie bin",
+    "zh": "带轮垃圾桶"
+   },
+   {
+    "phrase": "recycling bin",
+    "zh": "回收箱"
+   },
+   {
+    "phrase": "throw in the bin",
+    "zh": "扔进垃圾桶"
+   }
+  ],
+  "forms": [
+   {
+    "label": "复数",
+    "form": "bins"
+   },
+   {
+    "label": "过去式",
+    "form": "binned"
+   },
+   {
+    "label": "过去分词",
+    "form": "binned"
+   },
+   {
+    "label": "现在分词",
+    "form": "binning"
+   }
+  ],
+  "derivatives": [
+   {
+    "word": "binman",
+    "pos": "n.",
+    "zh": "由 bin 与 man 复合，英式英语指「垃圾清运工」"
+   },
+   {
+    "word": "dustbin",
+    "pos": "n.",
+    "zh": "由 dust 与 bin 复合，英式英语指「垃圾桶」"
+   }
+  ],
+  "senses": [
+   {
+    "no": "01",
+    "title": "A storage container",
+    "titleCN": "储物箱",
+    "definition": "a container for keeping things in",
+    "definitionCN": "用来存放物品的容器",
+    "example": "Store the rice in a dry bin.",
+    "exampleCN": "把米存放在干燥的箱子里。",
+    "why": "This is the older sense, a simple basket or box.",
+    "whyCN": "这是较早的义项，指简单的筐或箱。"
+   },
+   {
+    "no": "02",
+    "title": "A waste container",
+    "titleCN": "垃圾桶",
+    "definition": "a container for things thrown away",
+    "definitionCN": "盛放废弃物的容器",
+    "example": "He threw the peel into the bin.",
+    "exampleCN": "他把果皮扔进了垃圾桶。",
+    "why": "The same container became the place for rubbish at home.",
+    "whyCN": "同一种容器在家里成了丢废弃物的地方。"
+   },
+   {
+    "no": "03",
+    "title": "To throw something away",
+    "titleCN": "丢弃",
+    "definition": "to put something in the bin",
+    "definitionCN": "把某物扔进垃圾桶",
+    "example": "They binned the old papers.",
+    "exampleCN": "他们把旧文件丢了。",
+    "why": "The container became a verb for the act of discarding.",
+    "whyCN": "容器转为动词，表示丢弃的动作。"
+   }
+  ],
+  "etymology": {
+   "intro": {
+    "en": "Bin is an Old English word for a basket, probably from Latin.",
+    "cn": "bin 是古英语中表示筐的词，可能源自拉丁语。"
+   },
+   "items": [
+    {
+     "era": "OLD ENGLISH",
+     "en": "binne meant a basket or crib.",
+     "cn": "binne 意为「筐、储物格」。"
+    },
+    {
+     "era": "MIDDLE ENGLISH",
+     "en": "bins held grain and coal.",
+     "cn": "箱筐用来装谷物和煤。"
+    },
+    {
+     "era": "NINETEENTH CENTURY",
+     "en": "bin named a household rubbish container.",
+     "cn": "bin 指家庭垃圾桶。"
+    },
+    {
+     "era": "TWENTIETH CENTURY",
+     "en": "recycling bins appeared in cities.",
+     "cn": "回收箱出现在城市里。"
+    },
+    {
+     "era": "PRESENT DAY ENGLISH",
+     "en": "bin also works as a verb.",
+     "cn": "如今 bin 也作动词使用。"
+    }
+   ]
+  },
+  "similar": {
+   "note": {
+    "en": "The look-alike group differs by one vowel; the near-meaning group gives containers.",
+    "cn": "形近组只差一个元音；近义组是各类容器。"
+   },
+   "groups": [
+    {
+     "heading": "LOOK-ALIKE",
+     "entries": [
+      {
+       "word": "bun",
+       "ipa": "/bʌn/",
+       "tag": "look-alike",
+       "definition": "a small round bread",
+       "definitionCN": "小圆面包"
+      },
+      {
+       "word": "ban",
+       "ipa": "/bæn/",
+       "tag": "look-alike",
+       "definition": "an official order against something",
+       "definitionCN": "禁令"
+      },
+      {
+       "word": "bit",
+       "ipa": "/bɪt/",
+       "tag": "look-alike",
+       "definition": "a small piece",
+       "definitionCN": "一点"
+      }
+     ]
+    },
+    {
+     "heading": "NEAR MEANING",
+     "entries": [
+      {
+       "word": "box",
+       "ipa": "/bɒks/",
+       "tag": "near synonym",
+       "definition": "a container with straight sides",
+       "definitionCN": "盒子"
+      },
+      {
+       "word": "basket",
+       "ipa": "/ˈbɑːskɪt/",
+       "tag": "near synonym",
+       "definition": "a container made of woven material",
+       "definitionCN": "篮子"
+      },
+      {
+       "word": "container",
+       "ipa": "/kənˈteɪnə(r)/",
+       "tag": "related",
+       "definition": "anything that holds something",
+       "definitionCN": "容器"
+      }
+     ]
+    }
+   ]
+  },
+  "mnemonics": {
+   "normalIntro": {
+    "en": "A bin holds things, and later holds what we throw away.",
+    "cn": "bin 先用来装东西，后来装我们丢掉的东西。"
+   },
+   "normal": [
+    {
+     "en": "The plural is bins.",
+     "cn": "复数是 bins。"
+    },
+    {
+     "en": "A rubbish bin is for waste.",
+     "cn": "rubbish bin 用来装垃圾。"
+    },
+    {
+     "en": "A bin liner keeps the bin clean.",
+     "cn": "bin liner 让桶保持干净。"
+    },
+    {
+     "en": "The verb binned means threw away.",
+     "cn": "动词 binned 指丢掉了。"
+    },
+    {
+     "en": "British English prefers bin to trash can.",
+     "cn": "英式英语更常说 bin。"
+    }
+   ],
+   "abstract": [
+    {
+     "en": "See vegetable peel piled in a kitchen bin.",
+     "cn": "想象厨房桶里堆着菜叶。"
+    },
+    {
+     "en": "See three coloured bins by a gate.",
+     "cn": "想象门口三只不同颜色的桶。"
+    },
+    {
+     "en": "See a hand dropping paper into a bin.",
+     "cn": "想象一只手把纸丢进桶里。"
+    }
+   ]
+  },
+  "examples": [
+   {
+    "en": "He threw the peel into the bin.",
+    "cn": "他把果皮扔进了垃圾桶。"
+   },
+   {
+    "en": "Store the rice in a dry bin.",
+    "cn": "把米存放在干燥的箱子里。"
+   },
+   {
+    "en": "They binned the old papers.",
+    "cn": "他们把旧文件丢了。"
+   }
+  ],
+  "dict_mnemonic": {
+   "note": "拆词记忆 · 非词源",
+   "text": "bin 的 b 与 n 像桶的两道壁，中间装东西。",
+   "word": "bin"
+  },
+  "root": "古英语 binne 指筐或储物格，可能借自拉丁语；中古英语用来装谷物与煤，十九世纪起指家庭垃圾桶，二十世纪出现分类回收箱，并发展出动词用法。",
+  "sensesIntro": {
+   "en": "The same container stores grain and receives rubbish.",
+   "cn": "同一种容器，既存放谷物，也接收垃圾。"
+  },
+  "semanticMap": {
+   "core": {
+    "en": "CORE IMAGE: vegetable peel piled in a kitchen bin.",
+    "cn": "核心意象：厨房桶里堆着菜叶。"
+   },
+   "chain": [
+    "CONTAINER",
+    "STORE",
+    "WASTE",
+    "KITCHEN",
+    "CLEAN",
+    "EMPTY"
+   ],
+   "branches": [
+    {
+     "senses": "01",
+     "en": "a grain bin",
+     "cn": "粮箱"
+    },
+    {
+     "senses": "01",
+     "en": "a storage bin",
+     "cn": "储物箱"
+    },
+    {
+     "senses": "02",
+     "en": "a rubbish bin",
+     "cn": "垃圾桶"
+    },
+    {
+     "senses": "02",
+     "en": "a recycling bin",
+     "cn": "回收箱"
+    },
+    {
+     "senses": "03",
+     "en": "bin the papers",
+     "cn": "把文件丢掉"
+    }
+   ]
+  },
+  "affixes": {
+   "intro": {
+    "en": "Bin doubles its n before -ed and -ing, and joins man and dust.",
+    "cn": "bin 加 -ed、-ing 要双写 n，并能与 man、dust 复合。"
+   },
+   "latinIntro": {
+    "en": "The word is Old English, possibly from Latin benna.",
+    "cn": "这个词来自古英语，可能源自拉丁语 benna。"
+   },
+   "items": [
+    {
+     "word": "bin",
+     "structure": "Old English binne",
+     "meaning": "a container",
+     "meaningCN": "箱子",
+     "example": "a storage bin",
+     "exampleCN": "储物箱"
+    },
+    {
+     "word": "bins",
+     "structure": "bin + -s",
+     "meaning": "more than one bin",
+     "meaningCN": "箱子（复数）",
+     "example": "three bins",
+     "exampleCN": "三个箱子"
+    },
+    {
+     "word": "binned",
+     "structure": "bin + -n- + -ed",
+     "meaning": "threw away",
+     "meaningCN": "丢弃了",
+     "example": "binned the note",
+     "exampleCN": "把便条丢了"
+    },
+    {
+     "word": "binning",
+     "structure": "bin + -n- + -ing",
+     "meaning": "the act of discarding",
+     "meaningCN": "丢弃",
+     "example": "binning old stock",
+     "exampleCN": "处理旧库存"
+    },
+    {
+     "word": "binman",
+     "structure": "bin + man",
+     "meaning": "a rubbish collector",
+     "meaningCN": "垃圾清运工",
+     "example": "the binman came early",
+     "exampleCN": "清运工来得很早"
+    },
+    {
+     "word": "dustbin",
+     "structure": "dust + bin",
+     "meaning": "a rubbish container",
+     "meaningCN": "垃圾桶",
+     "example": "an old dustbin",
+     "exampleCN": "旧垃圾桶"
+    },
+    {
+     "word": "box",
+     "structure": "Latin buxis",
+     "meaning": "a stiff container",
+     "meaningCN": "盒子",
+     "example": "a wooden box",
+     "exampleCN": "木盒"
+    },
+    {
+     "word": "basket",
+     "structure": "Old French basket",
+     "meaning": "a woven container",
+     "meaningCN": "篮子",
+     "example": "a shopping basket",
+     "exampleCN": "购物篮"
+    }
+   ],
+   "latinEntries": []
+  }
+ },
+ {
+  "word": "bind",
+  "ipa_uk": "/baɪnd/",
+  "ipa_us": "/baɪnd/",
+  "definition_zh": "捆绑；装订；约束",
+  "definition_en": "to tie things together, or to place an obligation on someone",
+  "core_image": "麻绳把一摞纸箱牢牢捆住",
+  "scene": "麻绳把纸箱牢牢捆在一起。They bound the boxes with rope.",
+  "sceneCN": "这里 bind 是「捆绑」（第 1 个义项：用绳带把东西系在一起）；句意是他们用绳子把箱子捆好。",
+  "pos": [
+   {
+    "tag": "v.",
+    "zh": "动词：捆绑；装订；约束"
+   },
+   {
+    "tag": "n.",
+    "zh": "名词：（口语）困境"
+   }
+  ],
+  "collocations": [
+   {
+    "phrase": "bind together",
+    "zh": "捆在一起"
+   },
+   {
+    "phrase": "bind up",
+    "zh": "包扎"
+   },
+   {
+    "phrase": "bind to",
+    "zh": "使结合于"
+   },
+   {
+    "phrase": "legally bind",
+    "zh": "具有法律约束力"
+   },
+   {
+    "phrase": "bind a book",
+    "zh": "装订书"
+   }
+  ],
+  "forms": [
+   {
+    "label": "第三人称单数",
+    "form": "binds"
+   },
+   {
+    "label": "过去式",
+    "form": "bound"
+   },
+   {
+    "label": "过去分词",
+    "form": "bound"
+   },
+   {
+    "label": "现在分词",
+    "form": "binding"
+   }
+  ],
+  "derivatives": [
+   {
+    "word": "binding",
+    "pos": "adj.",
+    "zh": "由 bind 加 -ing 构成，义为「有约束力的」"
+   },
+   {
+    "word": "binder",
+    "pos": "n.",
+    "zh": "由 bind 加 -er 构成，义为「装订工、活页夹」"
+   },
+   {
+    "word": "unbind",
+    "pos": "v.",
+    "zh": "由 un- 加 bind 构成，义为「解开」"
+   }
+  ],
+  "senses": [
+   {
+    "no": "01",
+    "title": "To tie together",
+    "titleCN": "捆绑",
+    "definition": "to tie things together with rope or string",
+    "definitionCN": "用绳或带把东西系在一起",
+    "example": "They bound the boxes with rope.",
+    "exampleCN": "他们用绳子把箱子捆好。",
+    "why": "This is the oldest sense, working with hands and rope.",
+    "whyCN": "这是最古老的义项，用双手与绳索完成。"
+   },
+   {
+    "no": "02",
+    "title": "To fasten pages into a book",
+    "titleCN": "装订",
+    "definition": "to fasten pages together as a book",
+    "definitionCN": "把书页固定成册",
+    "example": "The pages were bound in leather.",
+    "exampleCN": "书页被装订上皮面。",
+    "why": "Binding a book is tying pages the way rope ties boxes.",
+    "whyCN": "装订书就是像捆箱子那样把书页系住。"
+   },
+   {
+    "no": "03",
+    "title": "To place an obligation",
+    "titleCN": "约束",
+    "definition": "to place a legal or moral duty on someone",
+    "definitionCN": "给某人加上法律或道义上的义务",
+    "example": "The contract binds both sides.",
+    "exampleCN": "这份合同对双方都有约束力。",
+    "why": "A promise ties a person the way rope ties a load.",
+    "whyCN": "承诺把人系住，就像绳子系住货物。"
+   }
+  ],
+  "etymology": {
+   "intro": {
+    "en": "Bind is an ancient Germanic verb for tying.",
+    "cn": "bind 是日耳曼语中表示「系、捆」的古老动词。"
+   },
+   "items": [
+    {
+     "era": "OLD ENGLISH",
+     "en": "bindan meant to tie.",
+     "cn": "bindan 意为「捆绑」。"
+    },
+    {
+     "era": "MIDDLE ENGLISH",
+     "en": "bind also meant to make a book.",
+     "cn": "bind 也开始表示「装订」。"
+    },
+    {
+     "era": "FOURTEENTH CENTURY",
+     "en": "the word described legal duty.",
+     "cn": "这个词开始描述法律义务。"
+    },
+    {
+     "era": "SIXTEENTH CENTURY",
+     "en": "bound became the past tense.",
+     "cn": "bound 成为过去式。"
+    },
+    {
+     "era": "PRESENT DAY ENGLISH",
+     "en": "binding means having force.",
+     "cn": "如今 binding 表示「有约束力」。"
+    }
+   ]
+  },
+  "similar": {
+   "note": {
+    "en": "The look-alike group differs by one vowel; the near-meaning group gives tying words.",
+    "cn": "形近组只差一个元音；近义组是表示系缚的词。"
+   },
+   "groups": [
+    {
+     "heading": "LOOK-ALIKE",
+     "entries": [
+      {
+       "word": "band",
+       "ipa": "/bænd/",
+       "tag": "look-alike",
+       "definition": "a group of musicians",
+       "definitionCN": "乐队"
+      },
+      {
+       "word": "bond",
+       "ipa": "/bɒnd/",
+       "tag": "look-alike",
+       "definition": "a close connection",
+       "definitionCN": "纽带"
+      },
+      {
+       "word": "bend",
+       "ipa": "/bend/",
+       "tag": "look-alike",
+       "definition": "to make something curved",
+       "definitionCN": "使弯曲"
+      }
+     ]
+    },
+    {
+     "heading": "NEAR MEANING",
+     "entries": [
+      {
+       "word": "tie",
+       "ipa": "/taɪ/",
+       "tag": "near synonym",
+       "definition": "to fasten with string",
+       "definitionCN": "系"
+      },
+      {
+       "word": "fasten",
+       "ipa": "/ˈfɑːsn/",
+       "tag": "near synonym",
+       "definition": "to fix something firmly",
+       "definitionCN": "扣紧"
+      },
+      {
+       "word": "attach",
+       "ipa": "/əˈtætʃ/",
+       "tag": "related",
+       "definition": "to join one thing to another",
+       "definitionCN": "附上"
+      }
+     ]
+    }
+   ]
+  },
+  "mnemonics": {
+   "normalIntro": {
+    "en": "Bind ties rope, pages and promises alike.",
+    "cn": "bind 把绳索、书页与承诺一样系住。"
+   },
+   "normal": [
+    {
+     "en": "The past tense is bound.",
+     "cn": "过去式是 bound。"
+    },
+    {
+     "en": "Binding means having legal force.",
+     "cn": "binding 指具有法律效力。"
+    },
+    {
+     "en": "A binder holds loose pages.",
+     "cn": "binder 是装活页的夹子。"
+    },
+    {
+     "en": "Bind up a wound means wrap it.",
+     "cn": "bind up a wound 指包扎伤口。"
+    },
+    {
+     "en": "Unbind means to set free.",
+     "cn": "unbind 指解开、释放。"
+    }
+   ],
+   "abstract": [
+    {
+     "en": "See rope pulled tight around boxes.",
+     "cn": "想象绳子紧勒住纸箱。"
+    },
+    {
+     "en": "See hands pressing pages into a cover.",
+     "cn": "想象双手把书页压进封皮。"
+    },
+    {
+     "en": "See a signed contract on a table.",
+     "cn": "想象桌上签好的合同。"
+    }
+   ]
+  },
+  "examples": [
+   {
+    "en": "They bound the boxes with rope.",
+    "cn": "他们用绳子把箱子捆好。"
+   },
+   {
+    "en": "The pages were bound in leather.",
+    "cn": "书页被装订上皮面。"
+   },
+   {
+    "en": "The contract binds both sides.",
+    "cn": "这份合同对双方都有约束力。"
+   }
+  ],
+  "dict_mnemonic": {
+   "note": "拆词记忆 · 非词源",
+   "text": "b 与 d 像两根柱子，中间用绳捆住，就是 bind。",
+   "word": "bind"
+  },
+  "root": "古英语 bindan 意为捆绑，中古英语起用于装订书籍，十四世纪引申出法律与道义上的约束，过去式 bound 沿用至今。",
+  "sensesIntro": {
+   "en": "Rope, bookbinding and contracts all bind in the same way.",
+   "cn": "绳索、装订与合同，都用同一种方式「系住」。"
+  },
+  "semanticMap": {
+   "core": {
+    "en": "CORE IMAGE: rope pulled tight around boxes.",
+    "cn": "核心意象：绳子紧勒住纸箱。"
+   },
+   "chain": [
+    "ROPE",
+    "KNOT",
+    "TOGETHER",
+    "BOOK",
+    "PROMISE",
+    "LIMIT"
+   ],
+   "branches": [
+    {
+     "senses": "01",
+     "en": "bind the boxes",
+     "cn": "捆箱子"
+    },
+    {
+     "senses": "01",
+     "en": "bind up a wound",
+     "cn": "包扎伤口"
+    },
+    {
+     "senses": "02",
+     "en": "bind a book",
+     "cn": "装订书"
+    },
+    {
+     "senses": "03",
+     "en": "legally bind",
+     "cn": "有法律约束"
+    },
+    {
+     "senses": "03",
+     "en": "binding agreement",
+     "cn": "有约束力的协议"
+    }
+   ]
+  },
+  "affixes": {
+   "intro": {
+    "en": "Bind takes -s and -ing, with bound as its past form.",
+    "cn": "bind 可加 -s、-ing，过去式是不规则的 bound。"
+   },
+   "latinIntro": {
+    "en": "There is no Latin base; the word is Germanic.",
+    "cn": "这里没有拉丁词基，这个词来自日耳曼语。"
+   },
+   "items": [
+    {
+     "word": "bind",
+     "structure": "Old English bindan",
+     "meaning": "to tie",
+     "meaningCN": "捆绑",
+     "example": "bind the load",
+     "exampleCN": "捆货物"
+    },
+    {
+     "word": "binds",
+     "structure": "bind + -s",
+     "meaning": "ties",
+     "meaningCN": "捆绑（第三人称单数）",
+     "example": "the rule binds us",
+     "exampleCN": "规则约束我们"
+    },
+    {
+     "word": "bound",
+     "structure": "irregular past of bind",
+     "meaning": "tied",
+     "meaningCN": "捆住了",
+     "example": "they bound the books",
+     "exampleCN": "他们把书装订好"
+    },
+    {
+     "word": "binding",
+     "structure": "bind + -ing",
+     "meaning": "having force",
+     "meaningCN": "有约束力的",
+     "example": "a binding promise",
+     "exampleCN": "有约束力的承诺"
+    },
+    {
+     "word": "binder",
+     "structure": "bind + -er",
+     "meaning": "something that holds pages",
+     "meaningCN": "活页夹",
+     "example": "a ring binder",
+     "exampleCN": "环形活页夹"
+    },
+    {
+     "word": "unbind",
+     "structure": "un- + bind",
+     "meaning": "to set free",
+     "meaningCN": "解开",
+     "example": "unbind the rope",
+     "exampleCN": "解开绳子"
+    },
+    {
+     "word": "tie",
+     "structure": "Old English tigan",
+     "meaning": "to fasten",
+     "meaningCN": "系",
+     "example": "tie a knot",
+     "exampleCN": "打个结"
+    },
+    {
+     "word": "fasten",
+     "structure": "Old English fæstnian",
+     "meaning": "to fix firmly",
+     "meaningCN": "扣紧",
+     "example": "fasten the belt",
+     "exampleCN": "系紧带子"
+    }
+   ],
+   "latinEntries": []
+  }
+ },
+ {
+  "word": "biology",
+  "ipa_uk": "/baɪˈɒlədʒi/",
+  "ipa_us": "/baɪˈɑːlədʒi/",
+  "definition_zh": "生物学；（某地区的）生物",
+  "definition_en": "the study of living things, or the living things of a place",
+  "core_image": "显微镜下缓缓移动的细胞",
+  "scene": "显微镜下，细胞在缓慢移动。She studies biology at university.",
+  "sceneCN": "这里 biology 是「生物学」（第 1 个义项：研究生物的科学）；句意是她在大学学习生物学。",
+  "pos": [
+   {
+    "tag": "n.",
+    "zh": "名词：生物学；生物"
+   }
+  ],
+  "collocations": [
+   {
+    "phrase": "study biology",
+    "zh": "学习生物学"
+   },
+   {
+    "phrase": "marine biology",
+    "zh": "海洋生物学"
+   },
+   {
+    "phrase": "biology class",
+    "zh": "生物课"
+   },
+   {
+    "phrase": "molecular biology",
+    "zh": "分子生物学"
+   },
+   {
+    "phrase": "biology teacher",
+    "zh": "生物老师"
+   }
+  ],
+  "forms": [
+   {
+    "label": "不可数",
+    "form": "biology"
+   }
+  ],
+  "derivatives": [
+   {
+    "word": "biologist",
+    "pos": "n.",
+    "zh": "由 biology 加 -ist 构成，义为「生物学家」"
+   },
+   {
+    "word": "biological",
+    "pos": "adj.",
+    "zh": "由 biology 加 -ical 构成，义为「生物的」"
+   },
+   {
+    "word": "biologically",
+    "pos": "adv.",
+    "zh": "由 biological 加 -ally 构成，义为「在生物学上」"
+   }
+  ],
+  "senses": [
+   {
+    "no": "01",
+    "title": "The science of living things",
+    "titleCN": "生物学",
+    "definition": "the scientific study of living things",
+    "definitionCN": "研究生物的科学",
+    "example": "She studies biology at university.",
+    "exampleCN": "她在大学学习生物学。",
+    "why": "The Greek roots mean the study of life.",
+    "whyCN": "希腊词根的意思就是「关于生命的研究」。"
+   },
+   {
+    "no": "02",
+    "title": "Living things of a place",
+    "titleCN": "生物",
+    "definition": "the living things found in an area",
+    "definitionCN": "某一地区生活的生物",
+    "example": "The biology of the lake is very rich.",
+    "exampleCN": "这个湖的生物非常丰富。",
+    "why": "The name of the science also names its subject matter.",
+    "whyCN": "学科之名也用来指它研究的对象。"
+   }
+  ],
+  "etymology": {
+   "intro": {
+    "en": "Biology joins Greek bios, life, and -logy, study.",
+    "cn": "biology 由希腊语 bios（生命）与 -logy（研究）合成。"
+   },
+   "items": [
+    {
+     "era": "GREEK BIOS",
+     "en": "bios meant life.",
+     "cn": "bios 意为「生命」。"
+    },
+    {
+     "era": "GREEK LOGOS",
+     "en": "logos meant word or reason.",
+     "cn": "logos 意为「言说、道理」。"
+    },
+    {
+     "era": "EARLY NINETEENTH CENTURY",
+     "en": "biology named the science of life.",
+     "cn": "biology 成为研究生命的学科名。"
+    },
+    {
+     "era": "TWENTIETH CENTURY",
+     "en": "biology split into many branches.",
+     "cn": "生物学分出许多分支。"
+    },
+    {
+     "era": "PRESENT DAY ENGLISH",
+     "en": "biology also means local living things.",
+     "cn": "如今 biology 也指一地的生物。"
+    }
+   ]
+  },
+  "similar": {
+   "note": {
+    "en": "The look-alike group shares the -ology ending; the near-meaning group gives life-science words.",
+    "cn": "形近组都以 -ology 收尾；近义组是生命科学相关词。"
+   },
+   "groups": [
+    {
+     "heading": "LOOK-ALIKE",
+     "entries": [
+      {
+       "word": "biography",
+       "ipa": "/baɪˈɒɡrəfi/",
+       "tag": "look-alike",
+       "definition": "the story of a person's life",
+       "definitionCN": "传记"
+      },
+      {
+       "word": "geology",
+       "ipa": "/dʒiˈɒlədʒi/",
+       "tag": "look-alike",
+       "definition": "the study of rocks",
+       "definitionCN": "地质学"
+      },
+      {
+       "word": "ecology",
+       "ipa": "/iˈkɒlədʒi/",
+       "tag": "look-alike",
+       "definition": "the study of living systems",
+       "definitionCN": "生态学"
+      }
+     ]
+    },
+    {
+     "heading": "NEAR MEANING",
+     "entries": [
+      {
+       "word": "botany",
+       "ipa": "/ˈbɒtəni/",
+       "tag": "near synonym",
+       "definition": "the study of plants",
+       "definitionCN": "植物学"
+      },
+      {
+       "word": "zoology",
+       "ipa": "/zuˈɒlədʒi/",
+       "tag": "near synonym",
+       "definition": "the study of animals",
+       "definitionCN": "动物学"
+      },
+      {
+       "word": "science",
+       "ipa": "/ˈsaɪəns/",
+       "tag": "related",
+       "definition": "organised knowledge of the world",
+       "definitionCN": "科学"
+      }
+     ]
+    }
+   ]
+  },
+  "mnemonics": {
+   "normalIntro": {
+    "en": "Biology is bio, life, plus logy, study.",
+    "cn": "biology 就是 bio（生命）加 logy（研究）。"
+   },
+   "normal": [
+    {
+     "en": "Biology is uncountable as a subject.",
+     "cn": "作学科时 biology 不可数。"
+    },
+    {
+     "en": "A biologist works in biology.",
+     "cn": "biologist 从事生物学研究。"
+    },
+    {
+     "en": "The adjective is biological.",
+     "cn": "形容词是 biological。"
+    },
+    {
+     "en": "Marine biology studies sea life.",
+     "cn": "marine biology 研究海洋生物。"
+    },
+    {
+     "en": "The -logy ending signals a field of study.",
+     "cn": "词尾 -logy 表示一门学问。"
+    }
+   ],
+   "abstract": [
+    {
+     "en": "See cells drifting under a microscope.",
+     "cn": "想象显微镜下漂移的细胞。"
+    },
+    {
+     "en": "See a leaf held up to the light.",
+     "cn": "想象举向光线的叶片。"
+    },
+    {
+     "en": "See a notebook filled with sketches of insects.",
+     "cn": "想象画满昆虫的笔记本。"
+    }
+   ]
+  },
+  "examples": [
+   {
+    "en": "She studies biology at university.",
+    "cn": "她在大学学习生物学。"
+   },
+   {
+    "en": "The biology of the lake is very rich.",
+    "cn": "这个湖的生物非常丰富。"
+   },
+   {
+    "en": "Molecular biology has advanced quickly.",
+    "cn": "分子生物学发展得很快。"
+   }
+  ],
+  "dict_mnemonic": {
+   "note": "拆词记忆 · 非词源",
+   "text": "bio 是「生命」，logy 是「学问」，研究生命的学问就是生物学。",
+   "word": "biology"
+  },
+  "root": "由希腊语 bios（生命）与 -logia（研究）合成，十九世纪初成为学科名称，二十世纪分裂出分子生物学等分支，也用于指一地的生物。",
+  "sensesIntro": {
+   "en": "The science and the living matter it studies share one name.",
+   "cn": "这门学科与它所研究的活物共用一个名字。"
+  },
+  "semanticMap": {
+   "core": {
+    "en": "CORE IMAGE: cells drifting under a microscope.",
+    "cn": "核心意象：显微镜下漂移的细胞。"
+   },
+   "chain": [
+    "LIFE",
+    "CELL",
+    "OBSERVE",
+    "CLASSIFY",
+    "EXPLAIN",
+    "KNOW"
+   ],
+   "branches": [
+    {
+     "senses": "01",
+     "en": "study biology",
+     "cn": "学习生物学"
+    },
+    {
+     "senses": "01",
+     "en": "marine biology",
+     "cn": "海洋生物学"
+    },
+    {
+     "senses": "01",
+     "en": "molecular biology",
+     "cn": "分子生物学"
+    },
+    {
+     "senses": "02",
+     "en": "the biology of the lake",
+     "cn": "湖中的生物"
+    },
+    {
+     "senses": "02",
+     "en": "local biology",
+     "cn": "本地生物"
+    }
+   ]
+  },
+  "affixes": {
+   "intro": {
+    "en": "Biology builds biologist and biological with -ist and -ical.",
+    "cn": "biology 可加 -ist、-ical 构成 biologist 与 biological。"
+   },
+   "latinIntro": {
+    "en": "The roots are Greek bios, life, and logos, word.",
+    "cn": "词根是希腊语 bios（生命）与 logos（言说）。"
+   },
+   "items": [
+    {
+     "word": "biology",
+     "structure": "bio- + -logy",
+     "meaning": "the study of life",
+     "meaningCN": "生物学",
+     "example": "study biology",
+     "exampleCN": "学习生物学"
+    },
+    {
+     "word": "biologist",
+     "structure": "biology + -ist",
+     "meaning": "a student of life",
+     "meaningCN": "生物学家",
+     "example": "a field biologist",
+     "exampleCN": "野外生物学家"
+    },
+    {
+     "word": "biological",
+     "structure": "biology + -ical",
+     "meaning": "about living things",
+     "meaningCN": "生物的",
+     "example": "biological research",
+     "exampleCN": "生物研究"
+    },
+    {
+     "word": "biologically",
+     "structure": "biological + -ly",
+     "meaning": "in biological terms",
+     "meaningCN": "在生物学上",
+     "example": "biologically active",
+     "exampleCN": "有生物活性"
+    },
+    {
+     "word": "biography",
+     "structure": "bio- + -graphy",
+     "meaning": "a written life",
+     "meaningCN": "传记",
+     "example": "a short biography",
+     "exampleCN": "简短传记"
+    },
+    {
+     "word": "botany",
+     "structure": "Greek botanē",
+     "meaning": "the study of plants",
+     "meaningCN": "植物学",
+     "example": "botany class",
+     "exampleCN": "植物学课"
+    },
+    {
+     "word": "zoology",
+     "structure": "zoo- + -logy",
+     "meaning": "the study of animals",
+     "meaningCN": "动物学",
+     "example": "zoology museum",
+     "exampleCN": "动物学博物馆"
+    },
+    {
+     "word": "cell",
+     "structure": "Latin cella",
+     "meaning": "the smallest living unit",
+     "meaningCN": "细胞",
+     "example": "a living cell",
+     "exampleCN": "活细胞"
+    }
+   ],
+   "latinEntries": []
+  }
+ },
+ {
+  "word": "biotechnology",
+  "ipa_uk": "/ˌbaɪəʊtekˈnɒlədʒi/",
+  "ipa_us": "/ˌbaɪoʊtekˈnɑːlədʒi/",
+  "definition_zh": "生物技术",
+  "definition_en": "the use of living things to make products or solve problems",
+  "core_image": "实验室里一排培养皿泛着微光",
+  "scene": "实验室里一排培养皿在灯下泛光。Biotechnology has changed medicine.",
+  "sceneCN": "这里 biotechnology 是「生物技术」（第 1 个义项：利用生物体制造产品或解决问题）；句意是生物技术改变了医学。",
+  "pos": [
+   {
+    "tag": "n.",
+    "zh": "名词：生物技术；生物技术学"
+   }
+  ],
+  "collocations": [
+   {
+    "phrase": "modern biotechnology",
+    "zh": "现代生物技术"
+   },
+   {
+    "phrase": "biotechnology company",
+    "zh": "生物技术公司"
+   },
+   {
+    "phrase": "biotechnology industry",
+    "zh": "生物技术产业"
+   },
+   {
+    "phrase": "biotechnology research",
+    "zh": "生物技术研究"
+   },
+   {
+    "phrase": "agricultural biotechnology",
+    "zh": "农业生物技术"
+   }
+  ],
+  "forms": [
+   {
+    "label": "不可数",
+    "form": "biotechnology"
+   }
+  ],
+  "derivatives": [
+   {
+    "word": "biotech",
+    "pos": "n.",
+    "zh": "biotechnology 的缩略形式，义为「生物技术」"
+   },
+   {
+    "word": "biotechnological",
+    "pos": "adj.",
+    "zh": "由 biotechnology 加 -ical 构成，义为「生物技术的」"
+   },
+   {
+    "word": "biotechnologist",
+    "pos": "n.",
+    "zh": "由 biotechnology 加 -ist 构成，义为「生物技术专家」"
+   }
+  ],
+  "senses": [
+   {
+    "no": "01",
+    "title": "Using life to make products",
+    "titleCN": "生物技术",
+    "definition": "the industrial use of living things",
+    "definitionCN": "利用生物体进行工业生产",
+    "example": "Biotechnology has changed medicine.",
+    "exampleCN": "生物技术改变了医学。",
+    "why": "This is the working sense, covering drugs, crops and materials.",
+    "whyCN": "这是实用义，涵盖药物、作物与材料。"
+   },
+   {
+    "no": "02",
+    "title": "The field of study",
+    "titleCN": "生物技术学",
+    "definition": "the academic subject that studies such methods",
+    "definitionCN": "研究这类方法的学科",
+    "example": "She teaches biotechnology at the college.",
+    "exampleCN": "她在这所学院教生物技术。",
+    "why": "Any technology also becomes a subject taught in schools.",
+    "whyCN": "任何技术也会成为学校里的课程。"
+   }
+  ],
+  "etymology": {
+   "intro": {
+    "en": "Biotechnology is a twentieth-century compound of bio and technology.",
+    "cn": "biotechnology 是二十世纪由 bio 与 technology 合成的词。"
+   },
+   "items": [
+    {
+     "era": "EARLY TWENTIETH CENTURY",
+     "en": "the word named farming and fermentation methods.",
+     "cn": "这个词先指农业与发酵方法。"
+    },
+    {
+     "era": "NINETEEN FIFTIES",
+     "en": "microbiology gave the term new weight.",
+     "cn": "微生物学让这个词更有分量。"
+    },
+    {
+     "era": "NINETEEN SEVENTIES",
+     "en": "gene methods created a new industry.",
+     "cn": "基因技术催生新产业。"
+    },
+    {
+     "era": "NINETEEN NINETIES",
+     "en": "biotech became a common short form.",
+     "cn": "biotech 成为常见简称。"
+    },
+    {
+     "era": "PRESENT DAY ENGLISH",
+     "en": "the term covers medicine, food and energy.",
+     "cn": "如今这个词涵盖医药、食品与能源。"
+    }
+   ]
+  },
+  "similar": {
+   "note": {
+    "en": "The look-alike group shares the -ology pattern; the near-meaning group gives related fields.",
+    "cn": "形近组共享 -ology 结构；近义组是相关领域。"
+   },
+   "groups": [
+    {
+     "heading": "LOOK-ALIKE",
+     "entries": [
+      {
+       "word": "technology",
+       "ipa": "/tekˈnɒlədʒi/",
+       "tag": "look-alike",
+       "definition": "the use of scientific knowledge",
+       "definitionCN": "技术"
+      },
+      {
+       "word": "biology",
+       "ipa": "/baɪˈɒlədʒi/",
+       "tag": "look-alike",
+       "definition": "the study of living things",
+       "definitionCN": "生物学"
+      },
+      {
+       "word": "biography",
+       "ipa": "/baɪˈɒɡrəfi/",
+       "tag": "look-alike",
+       "definition": "the story of a person's life",
+       "definitionCN": "传记"
+      }
+     ]
+    },
+    {
+     "heading": "NEAR MEANING",
+     "entries": [
+      {
+       "word": "bioengineering",
+       "ipa": "/ˌbaɪəʊendʒɪˈnɪərɪŋ/",
+       "tag": "near synonym",
+       "definition": "engineering applied to life",
+       "definitionCN": "生物工程"
+      },
+      {
+       "word": "genetics",
+       "ipa": "/dʒəˈnetɪks/",
+       "tag": "related",
+       "definition": "the study of genes",
+       "definitionCN": "遗传学"
+      },
+      {
+       "word": "biotech",
+       "ipa": "/ˈbaɪəʊtek/",
+       "tag": "related",
+       "definition": "a short word for biotechnology",
+       "definitionCN": "生物技术（简称）"
+      }
+     ]
+    }
+   ]
+  },
+  "mnemonics": {
+   "normalIntro": {
+    "en": "Biotechnology is biology put to work in industry.",
+    "cn": "biotechnology 就是把生物学用到工业上去。"
+   },
+   "normal": [
+    {
+     "en": "Biotech is the everyday short form.",
+     "cn": "biotech 是日常简称。"
+    },
+    {
+     "en": "The word is uncountable as a field.",
+     "cn": "作领域时这个词不可数。"
+    },
+    {
+     "en": "A biotechnologist works in the field.",
+     "cn": "biotechnologist 指这一行的专家。"
+    },
+    {
+     "en": "The adjective is biotechnological.",
+     "cn": "形容词是 biotechnological。"
+    },
+    {
+     "en": "The word joins bio, life, with technology.",
+     "cn": "这个词由 bio（生命）与技术合成。"
+    }
+   ],
+   "abstract": [
+    {
+     "en": "See rows of petri dishes glowing softly.",
+     "cn": "想象一排微微发亮的培养皿。"
+    },
+    {
+     "en": "See a vat of fermenting liquid.",
+     "cn": "想象一大罐发酵中的液体。"
+    },
+    {
+     "en": "See a green field grown from new seed.",
+     "cn": "想象用新种子种出的绿田。"
+    }
+   ]
+  },
+  "examples": [
+   {
+    "en": "Biotechnology has changed medicine.",
+    "cn": "生物技术改变了医学。"
+   },
+   {
+    "en": "She teaches biotechnology at the college.",
+    "cn": "她在这所学院教生物技术。"
+   },
+   {
+    "en": "The biotechnology industry is growing fast.",
+    "cn": "生物技术产业发展得很快。"
+   }
+  ],
+  "dict_mnemonic": {
+   "note": "拆词记忆 · 非词源",
+   "text": "bio 是「生命」，technology 是「技术」，把生命变成技术就是生物技术。",
+   "word": "biotechnology"
+  },
+  "root": "二十世纪由 bio（生命）与 technology（技术）合成，最初指农业与发酵工艺，二十世纪七十年代基因技术兴起后成为独立产业，简称 biotech。",
+  "sensesIntro": {
+   "en": "The industry and the classroom subject carry the same long name.",
+   "cn": "产业与课堂上的学科，共用这个长长的名字。"
+  },
+  "semanticMap": {
+   "core": {
+    "en": "CORE IMAGE: rows of petri dishes glowing softly.",
+    "cn": "核心意象：一排微微发亮的培养皿。"
+   },
+   "chain": [
+    "LIFE",
+    "CELL",
+    "TOOL",
+    "LAB",
+    "PRODUCT",
+    "CURE"
+   ],
+   "branches": [
+    {
+     "senses": "01",
+     "en": "modern biotechnology",
+     "cn": "现代生物技术"
+    },
+    {
+     "senses": "01",
+     "en": "agricultural biotechnology",
+     "cn": "农业生物技术"
+    },
+    {
+     "senses": "01",
+     "en": "a biotechnology company",
+     "cn": "生物技术公司"
+    },
+    {
+     "senses": "02",
+     "en": "teach biotechnology",
+     "cn": "教授生物技术"
+    },
+    {
+     "senses": "02",
+     "en": "biotechnology research",
+     "cn": "生物技术研究"
+    }
+   ]
+  },
+  "affixes": {
+   "intro": {
+    "en": "Biotechnology takes -ical and -ist, and shortens to biotech.",
+    "cn": "biotechnology 可加 -ical、-ist，并缩略为 biotech。"
+   },
+   "latinIntro": {
+    "en": "The roots are Greek bios, life, and technē, skill.",
+    "cn": "词根是希腊语 bios（生命）与 technē（技艺）。"
+   },
+   "items": [
+    {
+     "word": "biotechnology",
+     "structure": "bio- + technology",
+     "meaning": "using life in industry",
+     "meaningCN": "生物技术",
+     "example": "modern biotechnology",
+     "exampleCN": "现代生物技术"
+    },
+    {
+     "word": "biotech",
+     "structure": "shortened form",
+     "meaning": "biotechnology",
+     "meaningCN": "生物技术（简称）",
+     "example": "a biotech firm",
+     "exampleCN": "生物技术公司"
+    },
+    {
+     "word": "biotechnological",
+     "structure": "biotechnology + -ical",
+     "meaning": "about biotechnology",
+     "meaningCN": "生物技术的",
+     "example": "biotechnological methods",
+     "exampleCN": "生物技术方法"
+    },
+    {
+     "word": "biotechnologist",
+     "structure": "biotechnology + -ist",
+     "meaning": "an expert in the field",
+     "meaningCN": "生物技术专家",
+     "example": "a young biotechnologist",
+     "exampleCN": "年轻的生物技术专家"
+    },
+    {
+     "word": "biology",
+     "structure": "bio- + -logy",
+     "meaning": "the study of life",
+     "meaningCN": "生物学",
+     "example": "study biology",
+     "exampleCN": "学习生物学"
+    },
+    {
+     "word": "technology",
+     "structure": "technē + -logy",
+     "meaning": "applied skill",
+     "meaningCN": "技术",
+     "example": "new technology",
+     "exampleCN": "新技术"
+    },
+    {
+     "word": "genetics",
+     "structure": "gene + -ics",
+     "meaning": "the study of genes",
+     "meaningCN": "遗传学",
+     "example": "modern genetics",
+     "exampleCN": "现代遗传学"
+    },
+    {
+     "word": "laboratory",
+     "structure": "Latin laborare",
+     "meaning": "a room for research",
+     "meaningCN": "实验室",
+     "example": "a research laboratory",
+     "exampleCN": "研究实验室"
+    }
+   ],
+   "latinEntries": []
+  }
+ },
+ {
+  "word": "bird",
+  "ipa_uk": "/bɜːd/",
+  "ipa_us": "/bɜːrd/",
+  "definition_zh": "鸟；禽类；供食用的禽肉",
+  "definition_en": "a small animal with feathers and wings that can usually fly",
+  "core_image": "清晨枝头抖动羽毛的麻雀",
+  "scene": "清晨的枝头，一只麻雀抖落翅膀上的露水。A small bird hopped along the wet branch.",
+  "sceneCN": "这里 bird 是「鸟」（第 1 个义项：有羽毛和翅膀的小动物）；句意是清晨一只小鸟在湿润的枝头跳来跳去。",
+  "pos": [
+   {
+    "tag": "n.",
+    "zh": "名词：鸟；禽类"
+   },
+   {
+    "tag": "n.",
+    "zh": "名词：供食用的禽肉"
+   }
+  ],
+  "collocations": [
+   {
+    "phrase": "a bird's nest",
+    "zh": "鸟巢"
+   },
+   {
+    "phrase": "bird song",
+    "zh": "鸟鸣"
+   },
+   {
+    "phrase": "a young bird",
+    "zh": "雏鸟"
+   },
+   {
+    "phrase": "keep birds",
+    "zh": "养鸟"
+   },
+   {
+    "phrase": "watch birds",
+    "zh": "观鸟"
+   }
+  ],
+  "forms": [
+   {
+    "label": "复数",
+    "form": "birds"
+   }
+  ],
+  "derivatives": [
+   {
+    "word": "birdlike",
+    "pos": "adj.",
+    "zh": "像鸟一样的，形容细瘦轻快的动作"
+   },
+   {
+    "word": "birder",
+    "pos": "n.",
+    "zh": "观鸟者，专门观察记录野鸟的人"
+   },
+   {
+    "word": "birdie",
+    "pos": "n.",
+    "zh": "小鸟，口语里对鸟的昵称"
+   }
+  ],
+  "senses": [
+   {
+    "no": "01",
+    "title": "A feathered animal",
+    "titleCN": "鸟",
+    "definition": "an animal with feathers, wings and a beak",
+    "definitionCN": "有羽毛、翅膀和喙的动物",
+    "example": "A small bird hopped along the wet branch.",
+    "exampleCN": "一只小鸟在湿润的枝头跳来跳去。",
+    "why": "This is the oldest sense and still names the creature itself.",
+    "whyCN": "这是最古老的义项，直接指这种动物本身。"
+   },
+   {
+    "no": "02",
+    "title": "Bird meat on the table",
+    "titleCN": "禽肉",
+    "definition": "the meat of a bird served as food",
+    "definitionCN": "作为食物端上桌的禽类肉",
+    "example": "They roasted a bird for the holiday.",
+    "exampleCN": "节日里他们烤了一只禽。",
+    "why": "Farm birds were food, so the creature's name moved to the dish.",
+    "whyCN": "农家养的鸟是食物，于是鸟的名字也移到了菜上。"
+   }
+  ],
+  "etymology": {
+   "intro": {
+    "en": "Bird began as a word for a chick and slowly took over the general name.",
+    "cn": "bird 最初指雏鸟，后来慢慢取代旧词成为通称。"
+   },
+   "items": [
+    {
+     "era": "OLD ENGLISH",
+     "en": "bridd first meant a young bird.",
+     "cn": "bridd 最初指幼鸟。"
+    },
+    {
+     "era": "MIDDLE ENGLISH",
+     "en": "the letters shifted and bird became the common form.",
+     "cn": "字母顺序发生变动，bird 成为通行写法。"
+    },
+    {
+     "era": "FIFTEENTH CENTURY",
+     "en": "bird replaced fowl in everyday speech.",
+     "cn": "在日常说法里，bird 取代了 fowl。"
+    },
+    {
+     "era": "NINETEENTH CENTURY",
+     "en": "bird watching grew into a popular hobby.",
+     "cn": "观鸟逐渐成为一种流行的爱好。"
+    },
+    {
+     "era": "PRESENT DAY ENGLISH",
+     "en": "bird covers both the animal and its meat.",
+     "cn": "如今 bird 既指这种动物，也指它的肉。"
+    }
+   ]
+  },
+  "similar": {
+   "note": {
+    "en": "The look-alike group shares the b-r-d shape; the near-meaning group names other feathered creatures.",
+    "cn": "形近组共用 b-r-d 的字母骨架；近义组是其他带羽毛的动物名称。"
+   },
+   "groups": [
+    {
+     "heading": "LOOK-ALIKE",
+     "entries": [
+      {
+       "word": "bind",
+       "ipa": "/baɪnd/",
+       "tag": "look-alike",
+       "definition": "to tie something together",
+       "definitionCN": "捆绑"
+      },
+      {
+       "word": "birch",
+       "ipa": "/bɜːtʃ/",
+       "tag": "look-alike",
+       "definition": "a tree with pale bark",
+       "definitionCN": "白桦树"
+      },
+      {
+       "word": "bard",
+       "ipa": "/bɑːd/",
+       "tag": "look-alike",
+       "definition": "an old word for a poet",
+       "definitionCN": "诗人（古语）"
+      }
+     ]
+    },
+    {
+     "heading": "NEAR MEANING",
+     "entries": [
+      {
+       "word": "fowl",
+       "ipa": "/faʊl/",
+       "tag": "near synonym",
+       "definition": "a farm bird kept for eggs or meat",
+       "definitionCN": "家禽"
+      },
+      {
+       "word": "poultry",
+       "ipa": "/ˈpəʊltri/",
+       "tag": "near synonym",
+       "definition": "birds raised for food",
+       "definitionCN": "家禽（总称）"
+      },
+      {
+       "word": "sparrow",
+       "ipa": "/ˈspærəʊ/",
+       "tag": "related",
+       "definition": "a small brown bird",
+       "definitionCN": "麻雀"
+      }
+     ]
+    }
+   ]
+  },
+  "mnemonics": {
+   "normalIntro": {
+    "en": "Bird is a short old word whose four letters are easy to keep.",
+    "cn": "bird 是个简短的老词，四个字母很好记。"
+   },
+   "normal": [
+    {
+     "en": "The plural simply adds s.",
+     "cn": "复数直接加 s。"
+    },
+    {
+     "en": "Bird names the animal, not a species.",
+     "cn": "bird 指动物大类，不指某一个物种。"
+    },
+    {
+     "en": "Fowl is the older word for farm birds.",
+     "cn": "fowl 是更早的家禽说法。"
+    },
+    {
+     "en": "A bird's nest shows the possessive ending.",
+     "cn": "a bird's nest 展示了所有格写法。"
+    },
+    {
+     "en": "Bird meat is the second, table sense.",
+     "cn": "禽肉是第二个、与餐桌有关的义项。"
+    }
+   ],
+   "abstract": [
+    {
+     "en": "See a sparrow on a wet branch.",
+     "cn": "想象一只麻雀停在湿枝上。"
+    },
+    {
+     "en": "See a nest holding three eggs.",
+     "cn": "想象鸟巢里躺着三枚蛋。"
+    },
+    {
+     "en": "See a roasted bird on a plate.",
+     "cn": "想象盘子里摆着一只烤禽。"
+    }
+   ]
+  },
+  "examples": [
+   {
+    "en": "A small bird hopped along the wet branch.",
+    "cn": "一只小鸟在湿润的枝头跳来跳去。"
+   },
+   {
+    "en": "They roasted a bird for the holiday.",
+    "cn": "节日里他们烤了一只禽。"
+   },
+   {
+    "en": "Birds fly south before winter comes.",
+    "cn": "冬天来临前，鸟儿飞往南方。"
+   }
+  ],
+  "dict_mnemonic": {
+   "note": "拆词记忆 · 非词源",
+   "text": "bird 开头的 bir 读起来轻快，像小鸟振翅的声音，四个字母就把这只小动物记住了。",
+   "word": "bird"
+  },
+  "root": "bird 源自古英语 bridd，本指幼鸟；中古英语时期词形变为 bird，逐渐取代 fowl 成为通称，后来又引申出禽肉义。",
+  "sensesIntro": {
+   "en": "One creature first, and later the meat it gives.",
+   "cn": "先指这种动物，后来也指它提供的肉。"
+  },
+  "semanticMap": {
+   "core": {
+    "en": "CORE IMAGE: a sparrow shaking dew from its feathers.",
+    "cn": "核心意象：一只麻雀抖落羽毛上的露水。"
+   },
+   "chain": [
+    "CREATURE",
+    "FEATHER",
+    "WING",
+    "FLIGHT",
+    "NEST",
+    "FOOD"
+   ],
+   "branches": [
+    {
+     "senses": "01",
+     "en": "a small bird",
+     "cn": "一只小鸟"
+    },
+    {
+     "senses": "01",
+     "en": "bird song",
+     "cn": "鸟鸣"
+    },
+    {
+     "senses": "01",
+     "en": "a bird's nest",
+     "cn": "鸟巢"
+    },
+    {
+     "senses": "02",
+     "en": "roast a bird",
+     "cn": "烤一只禽"
+    },
+    {
+     "senses": "02",
+     "en": "bird meat",
+     "cn": "禽肉"
+    }
+   ]
+  },
+  "affixes": {
+   "intro": {
+    "en": "Bird is a native English noun with a simple plural.",
+    "cn": "bird 是英语本族名词，复数形式很简单。"
+   },
+   "latinIntro": {
+    "en": "There is no Latin base here; the word is Old English.",
+    "cn": "这里没有拉丁词基，这个词来自古英语。"
+   },
+   "items": [
+    {
+     "word": "bird",
+     "structure": "Old English bridd",
+     "meaning": "a feathered creature",
+     "meaningCN": "有羽毛的动物",
+     "example": "a small bird",
+     "exampleCN": "一只小鸟"
+    },
+    {
+     "word": "birdlike",
+     "structure": "bird + -like",
+     "meaning": "resembling a bird",
+     "meaningCN": "像鸟的",
+     "example": "a birdlike call",
+     "exampleCN": "像鸟的叫声"
+    },
+    {
+     "word": "birder",
+     "structure": "bird + -er",
+     "meaning": "a person who watches birds",
+     "meaningCN": "观鸟者",
+     "example": "a keen birder",
+     "exampleCN": "热心的观鸟者"
+    },
+    {
+     "word": "fowl",
+     "structure": "Old English fugol",
+     "meaning": "a farm bird",
+     "meaningCN": "家禽",
+     "example": "keep fowl",
+     "exampleCN": "养家禽"
+    },
+    {
+     "word": "poultry",
+     "structure": "Old French pouletrie",
+     "meaning": "birds raised for food",
+     "meaningCN": "家禽",
+     "example": "a poultry farm",
+     "exampleCN": "家禽养殖场"
+    },
+    {
+     "word": "nest",
+     "structure": "Old English nest",
+     "meaning": "the home a bird builds",
+     "meaningCN": "鸟巢",
+     "example": "build a nest",
+     "exampleCN": "筑巢"
+    },
+    {
+     "word": "feather",
+     "structure": "Old English fether",
+     "meaning": "a bird's light covering",
+     "meaningCN": "羽毛",
+     "example": "a soft feather",
+     "exampleCN": "柔软的羽毛"
+    },
+    {
+     "word": "wing",
+     "structure": "Old Norse vaengr",
+     "meaning": "the limb used for flight",
+     "meaningCN": "翅膀",
+     "example": "spread its wings",
+     "exampleCN": "展开翅膀"
+    },
+    {
+     "word": "flight",
+     "structure": "Old English flyht",
+     "meaning": "the act of flying",
+     "meaningCN": "飞行",
+     "example": "a long flight",
+     "exampleCN": "长途飞行"
+    }
+   ],
+   "latinEntries": []
+  }
+ },
+ {
+  "word": "birth",
+  "ipa_uk": "/bɜːθ/",
+  "ipa_us": "/bɜːrθ/",
+  "definition_zh": "出生；诞生；血统；起源",
+  "definition_en": "the time when a baby comes into the world",
+  "core_image": "产房里婴儿的第一声啼哭",
+  "scene": "产房的门开了一条缝，里面传来婴儿的哭声。The nurse recorded the exact time of birth.",
+  "sceneCN": "这里 birth 是「出生」（第 1 个义项：婴儿来到世上的时刻）；句意是护士记下了出生的准确时间。",
+  "pos": [
+   {
+    "tag": "n.",
+    "zh": "名词：出生；诞生"
+   },
+   {
+    "tag": "n.",
+    "zh": "名词：血统；出身"
+   }
+  ],
+  "collocations": [
+   {
+    "phrase": "at birth",
+    "zh": "出生时"
+   },
+   {
+    "phrase": "give birth",
+    "zh": "生育；分娩"
+   },
+   {
+    "phrase": "birth rate",
+    "zh": "出生率"
+   },
+   {
+    "phrase": "date of birth",
+    "zh": "出生日期"
+   },
+   {
+    "phrase": "by birth",
+    "zh": "就出身而言"
+   }
+  ],
+  "forms": [
+   {
+    "label": "复数",
+    "form": "births"
+   }
+  ],
+  "derivatives": [
+   {
+    "word": "birthday",
+    "pos": "n.",
+    "zh": "生日，每年纪念出生的那一天"
+   },
+   {
+    "word": "birthplace",
+    "pos": "n.",
+    "zh": "出生地，某人或某事物开始的地方"
+   },
+   {
+    "word": "birthright",
+    "pos": "n.",
+    "zh": "与生俱来的权利，因出身而享有的东西"
+   }
+  ],
+  "senses": [
+   {
+    "no": "01",
+    "title": "The time of being born",
+    "titleCN": "出生",
+    "definition": "the act or moment of coming into the world",
+    "definitionCN": "来到这个世界的行为或时刻",
+    "example": "The nurse recorded the exact time of birth.",
+    "exampleCN": "护士记下了出生的准确时间。",
+    "why": "This is the oldest sense, tied to the delivery of a child.",
+    "whyCN": "这是最古老的义项，与分娩这件事直接相连。"
+   },
+   {
+    "no": "02",
+    "title": "Family origin",
+    "titleCN": "血统；出身",
+    "definition": "the family or social position one is born into",
+    "definitionCN": "一个人出生时所处的家庭或社会地位",
+    "example": "She is Italian by birth.",
+    "exampleCN": "她按出身是意大利人。",
+    "why": "Where and to whom one was born marked rank, so birth came to mean origin.",
+    "whyCN": "出生地点与家庭标示身份，于是 birth 引申为出身。"
+   },
+   {
+    "no": "03",
+    "title": "The beginning of something new",
+    "titleCN": "起源；开端",
+    "definition": "the start of an idea, movement or thing",
+    "definitionCN": "某个想法、运动或事物的开始",
+    "example": "The birth of the internet changed daily life.",
+    "exampleCN": "互联网的诞生改变了日常生活。",
+    "why": "A new thing was pictured as being born, so birth spread to beginnings.",
+    "whyCN": "新事物被想象成「诞生」，于是 birth 扩展到了开端义。"
+   }
+  ],
+  "etymology": {
+   "intro": {
+    "en": "Birth came into English from Norse rather than from Old English.",
+    "cn": "birth 是从古诺斯语进入英语的，而不是古英语原有的词。"
+   },
+   "items": [
+    {
+     "era": "OLD NORSE",
+     "en": "byrth meant the act of bearing a child.",
+     "cn": "byrth 意为生育孩子的行为。"
+    },
+    {
+     "era": "MIDDLE ENGLISH",
+     "en": "birth entered northern English and spread south.",
+     "cn": "birth 先进入英格兰北部，随后向南方扩散。"
+    },
+    {
+     "era": "THIRTEENTH CENTURY",
+     "en": "birth also named family line and rank.",
+     "cn": "birth 也开始指家族血统与身份。"
+    },
+    {
+     "era": "SIXTEENTH CENTURY",
+     "en": "writers used birth for the start of things.",
+     "cn": "作家们用 birth 指事物的开端。"
+    },
+    {
+     "era": "PRESENT DAY ENGLISH",
+     "en": "birth covers delivery, origin and beginning.",
+     "cn": "如今 birth 兼指分娩、出身与开端。"
+    }
+   ]
+  },
+  "similar": {
+   "note": {
+    "en": "The look-alike group differs by one letter; the near-meaning group names delivery and origin.",
+    "cn": "形近组只差一个字母；近义组是表示分娩和起源的词。"
+   },
+   "groups": [
+    {
+     "heading": "LOOK-ALIKE",
+     "entries": [
+      {
+       "word": "berth",
+       "ipa": "/bɜːθ/",
+       "tag": "look-alike",
+       "definition": "a bed on a train or ship",
+       "definitionCN": "铺位"
+      },
+      {
+       "word": "bath",
+       "ipa": "/bɑːθ/",
+       "tag": "look-alike",
+       "definition": "a large container for washing",
+       "definitionCN": "浴缸"
+      },
+      {
+       "word": "birch",
+       "ipa": "/bɜːtʃ/",
+       "tag": "look-alike",
+       "definition": "a tree with pale bark",
+       "definitionCN": "白桦树"
+      }
+     ]
+    },
+    {
+     "heading": "NEAR MEANING",
+     "entries": [
+      {
+       "word": "delivery",
+       "ipa": "/dɪˈlɪvəri/",
+       "tag": "near synonym",
+       "definition": "the act of giving birth",
+       "definitionCN": "分娩"
+      },
+      {
+       "word": "nativity",
+       "ipa": "/nəˈtɪvəti/",
+       "tag": "near synonym",
+       "definition": "the birth of a person",
+       "definitionCN": "出生（书面语）"
+      },
+      {
+       "word": "origin",
+       "ipa": "/ˈɒrɪdʒɪn/",
+       "tag": "related",
+       "definition": "the point where something starts",
+       "definitionCN": "起源"
+      }
+     ]
+    }
+   ]
+  },
+  "mnemonics": {
+   "normalIntro": {
+    "en": "Birth is the moment a life starts, and by extension any beginning.",
+    "cn": "birth 是一条生命开始的时刻，也可泛指任何开端。"
+   },
+   "normal": [
+    {
+     "en": "Give birth is the verb phrase for delivery.",
+     "cn": "give birth 是表示分娩的动词短语。"
+    },
+    {
+     "en": "At birth marks the starting point.",
+     "cn": "at birth 标记起点。"
+    },
+    {
+     "en": "By birth points to family origin.",
+     "cn": "by birth 指出身。"
+    },
+    {
+     "en": "Birth rate counts newborns in a year.",
+     "cn": "birth rate 统计一年内的新生儿数量。"
+    },
+    {
+     "en": "Do not confuse birth with berth, a bed.",
+     "cn": "注意别把 birth 与表示铺位的 berth 弄混。"
+    }
+   ],
+   "abstract": [
+    {
+     "en": "See a newborn take its first breath.",
+     "cn": "想象新生儿呼出第一口气。"
+    },
+    {
+     "en": "See a family tree with many branches.",
+     "cn": "想象一棵枝杈繁多的家谱树。"
+    },
+    {
+     "en": "See a small idea grow into a movement.",
+     "cn": "想象一个小小的想法长成一场运动。"
+    }
+   ]
+  },
+  "examples": [
+   {
+    "en": "The nurse recorded the exact time of birth.",
+    "cn": "护士记下了出生的准确时间。"
+   },
+   {
+    "en": "She is Italian by birth.",
+    "cn": "她按出身是意大利人。"
+   },
+   {
+    "en": "The birth of the internet changed daily life.",
+    "cn": "互联网的诞生改变了日常生活。"
+   }
+  ],
+  "dict_mnemonic": {
+   "note": "拆词记忆 · 非词源",
+   "text": "birth 与 berth 只差一个字母，可以记成婴儿出生要床位，出生是 birth，铺位是 berth。",
+   "word": "birth"
+  },
+  "root": "birth 源自古诺斯语 byrth，意为生育；中古英语时期进入英语并取代本土说法，先指分娩，后引申为血统出身与事物开端。",
+  "sensesIntro": {
+   "en": "A delivery, a family line and a fresh start all share one word.",
+   "cn": "一次分娩、一条血统、一个开端，共用同一个词。"
+  },
+  "semanticMap": {
+   "core": {
+    "en": "CORE IMAGE: a newborn's first cry in the delivery room.",
+    "cn": "核心意象：产房里新生儿的第一次啼哭。"
+   },
+   "chain": [
+    "BEGINNING",
+    "BABY",
+    "DELIVERY",
+    "BLOOD",
+    "FAMILY",
+    "ORIGIN"
+   ],
+   "branches": [
+    {
+     "senses": "01",
+     "en": "at birth",
+     "cn": "出生时"
+    },
+    {
+     "senses": "01",
+     "en": "give birth",
+     "cn": "生育"
+    },
+    {
+     "senses": "02",
+     "en": "Italian by birth",
+     "cn": "按出身是意大利人"
+    },
+    {
+     "senses": "02",
+     "en": "a man of noble birth",
+     "cn": "出身贵族的人"
+    },
+    {
+     "senses": "03",
+     "en": "the birth of an idea",
+     "cn": "一个想法的诞生"
+    }
+   ]
+  },
+  "affixes": {
+   "intro": {
+    "en": "Birth builds a small family of compound nouns with day, place and right.",
+    "cn": "birth 与 day、place、right 组合，构成一小族复合名词。"
+   },
+   "latinIntro": {
+    "en": "The base is Norse, though related Latin words for birth also appear below.",
+    "cn": "词基本身来自诺斯语，下面也列出与出生相关的拉丁词。"
+   },
+   "items": [
+    {
+     "word": "birth",
+     "structure": "Old Norse byrth",
+     "meaning": "the act of being born",
+     "meaningCN": "出生",
+     "example": "at birth",
+     "exampleCN": "出生时"
+    },
+    {
+     "word": "birthday",
+     "structure": "birth + day",
+     "meaning": "the day one was born",
+     "meaningCN": "生日",
+     "example": "a birthday cake",
+     "exampleCN": "生日蛋糕"
+    },
+    {
+     "word": "birthplace",
+     "structure": "birth + place",
+     "meaning": "the place one was born",
+     "meaningCN": "出生地",
+     "example": "his birthplace",
+     "exampleCN": "他的出生地"
+    },
+    {
+     "word": "birthright",
+     "structure": "birth + right",
+     "meaning": "a right gained by origin",
+     "meaningCN": "与生俱来的权利",
+     "example": "a birthright claim",
+     "exampleCN": "基于出身的权利主张"
+    },
+    {
+     "word": "berth",
+     "structure": "Middle English berth",
+     "meaning": "a bed on a ship or train",
+     "meaningCN": "铺位",
+     "example": "a lower berth",
+     "exampleCN": "下铺"
+    },
+    {
+     "word": "delivery",
+     "structure": "Latin de- + liberare",
+     "meaning": "the act of giving birth",
+     "meaningCN": "分娩",
+     "example": "a safe delivery",
+     "exampleCN": "顺利分娩"
+    },
+    {
+     "word": "origin",
+     "structure": "Latin origo",
+     "meaning": "the point where something starts",
+     "meaningCN": "起源",
+     "example": "the origin of life",
+     "exampleCN": "生命的起源"
+    },
+    {
+     "word": "native",
+     "structure": "Latin nativus",
+     "meaning": "born in a certain place",
+     "meaningCN": "本地的",
+     "example": "a native speaker",
+     "exampleCN": "母语者"
+    },
+    {
+     "word": "natal",
+     "structure": "Latin natalis",
+     "meaning": "relating to birth",
+     "meaningCN": "出生的",
+     "example": "a natal day",
+     "exampleCN": "出生之日"
+    }
+   ],
+   "latinEntries": []
+  }
+ },
+ {
+  "word": "birthday",
+  "ipa_uk": "/ˈbɜːθdeɪ/",
+  "ipa_us": "/ˈbɜːrθdeɪ/",
+  "definition_zh": "生日；诞生的日子",
+  "definition_en": "the day each year when someone was born",
+  "core_image": "插满蜡烛的生日蛋糕",
+  "scene": "桌上摆着一个插满小蜡烛的蛋糕。We sang songs at her birthday party.",
+  "sceneCN": "这里 birthday 是「生日」（第 1 个义项：每年纪念出生的那一天）；句意是我们在她的生日聚会上唱歌。",
+  "pos": [
+   {
+    "tag": "n.",
+    "zh": "名词：生日；每年出生的纪念日"
+   },
+   {
+    "tag": "n.",
+    "zh": "名词：某事物诞生的日子"
+   }
+  ],
+  "collocations": [
+   {
+    "phrase": "birthday party",
+    "zh": "生日聚会"
+   },
+   {
+    "phrase": "birthday cake",
+    "zh": "生日蛋糕"
+   },
+   {
+    "phrase": "happy birthday",
+    "zh": "生日快乐"
+   },
+   {
+    "phrase": "birthday present",
+    "zh": "生日礼物"
+   },
+   {
+    "phrase": "birthday card",
+    "zh": "生日贺卡"
+   }
+  ],
+  "forms": [
+   {
+    "label": "复数",
+    "form": "birthdays"
+   }
+  ],
+  "derivatives": [
+   {
+    "word": "anniversary",
+    "pos": "n.",
+    "zh": "语义关联词，义为「周年纪念日」，与生日同属按年纪念的日期"
+   },
+   {
+    "word": "celebration",
+    "pos": "n.",
+    "zh": "语义关联词，义为「庆祝活动」，是生日当天常见的行为"
+   }
+  ],
+  "senses": [
+   {
+    "no": "01",
+    "title": "The yearly day of one's birth",
+    "titleCN": "生日",
+    "definition": "the same date each year as the day a person was born",
+    "definitionCN": "每年与出生那天相同的日期",
+    "example": "We sang songs at her birthday party.",
+    "exampleCN": "我们在她的生日聚会上唱歌。",
+    "why": "The compound joins birth with day to mark one yearly date.",
+    "whyCN": "这个词由 birth 与 day 组合，专指每年那一个日期。"
+   },
+   {
+    "no": "02",
+    "title": "The day something began",
+    "titleCN": "诞生的日子",
+    "definition": "the date when an organization or thing started",
+    "definitionCN": "某个组织或事物开始的那一天",
+    "example": "The city celebrated the birthday of its library.",
+    "exampleCN": "这座城市庆祝了图书馆的诞生日。",
+    "why": "Anything pictured as born can be given a birthday.",
+    "whyCN": "任何被想象成「诞生」的事物，都可以有生日。"
+   }
+  ],
+  "etymology": {
+   "intro": {
+    "en": "Birthday is a plain compound of two Old English words.",
+    "cn": "birthday 是两个古英语词直接组合而成的复合词。"
+   },
+   "items": [
+    {
+     "era": "OLD ENGLISH",
+     "en": "byrth meant birth and daeg meant day.",
+     "cn": "byrth 意为出生，daeg 意为日子。"
+    },
+    {
+     "era": "MIDDLE ENGLISH",
+     "en": "the two words joined as birth day.",
+     "cn": "两个词合写成 birth day。"
+    },
+    {
+     "era": "SIXTEENTH CENTURY",
+     "en": "birthday marked the yearly return of one's birth date.",
+     "cn": "birthday 指每年回到出生那天的日子。"
+    },
+    {
+     "era": "NINETEENTH CENTURY",
+     "en": "cakes and cards made birthday a family event.",
+     "cn": "蛋糕与贺卡让生日成为家庭活动。"
+    },
+    {
+     "era": "PRESENT DAY ENGLISH",
+     "en": "birthday also marks the start of groups and things.",
+     "cn": "如今 birthday 也可指团体与事物的创立日。"
+    }
+   ]
+  },
+  "similar": {
+   "note": {
+    "en": "The look-alike group also ends in day or keeps the birth- opening; the near-meaning group names yearly dates.",
+    "cn": "形近组同样以 day 结尾或保留 birth- 开头；近义组是表示年度日期的词。"
+   },
+   "groups": [
+    {
+     "heading": "LOOK-ALIKE",
+     "entries": [
+      {
+       "word": "birthplace",
+       "ipa": "/ˈbɜːθpleɪs/",
+       "tag": "look-alike",
+       "definition": "the place where someone was born",
+       "definitionCN": "出生地"
+      },
+      {
+       "word": "birthrate",
+       "ipa": "/ˈbɜːθreɪt/",
+       "tag": "look-alike",
+       "definition": "the number of births in a year",
+       "definitionCN": "出生率"
+      },
+      {
+       "word": "holiday",
+       "ipa": "/ˈhɒlədeɪ/",
+       "tag": "look-alike",
+       "definition": "a day of rest or celebration",
+       "definitionCN": "假日"
+      }
+     ]
+    },
+    {
+     "heading": "NEAR MEANING",
+     "entries": [
+      {
+       "word": "anniversary",
+       "ipa": "/ˌænɪˈvɜːsəri/",
+       "tag": "near synonym",
+       "definition": "the yearly return of a special date",
+       "definitionCN": "周年纪念日"
+      },
+      {
+       "word": "celebration",
+       "ipa": "/ˌselɪˈbreɪʃn/",
+       "tag": "near synonym",
+       "definition": "a happy event held to mark something",
+       "definitionCN": "庆祝活动"
+      },
+      {
+       "word": "jubilee",
+       "ipa": "/ˈdʒuːbɪliː/",
+       "tag": "related",
+       "definition": "a special anniversary celebration",
+       "definitionCN": "周年庆典"
+      }
+     ]
+    }
+   ]
+  },
+  "mnemonics": {
+   "normalIntro": {
+    "en": "Birthday is simply birth plus day, the day of one's birth returning each year.",
+    "cn": "birthday 就是 birth 加 day，指出生那天每年回来的日子。"
+   },
+   "normal": [
+    {
+     "en": "The plural changes y to ies.",
+     "cn": "复数把词尾 y 变成 ies。"
+    },
+    {
+     "en": "Happy birthday is the fixed greeting.",
+     "cn": "happy birthday 是固定祝语。"
+    },
+    {
+     "en": "Birthday cake and birthday card are common compounds.",
+     "cn": "birthday cake 与 birthday card 都是常见组合。"
+    },
+    {
+     "en": "No apostrophe is needed in the compound.",
+     "cn": "这个复合词里不需要加撇号。"
+    },
+    {
+     "en": "The second sense marks an institution's start.",
+     "cn": "第二个义项指机构的创立日。"
+    }
+   ],
+   "abstract": [
+    {
+     "en": "See candles glowing on a round cake.",
+     "cn": "想象圆蛋糕上烛光摇曳。"
+    },
+    {
+     "en": "See a wrapped present on a table.",
+     "cn": "想象桌上放着一份包好的礼物。"
+    },
+    {
+     "en": "See a crowd singing the same song.",
+     "cn": "想象一群人同唱一首歌。"
+    }
+   ]
+  },
+  "examples": [
+   {
+    "en": "We sang songs at her birthday party.",
+    "cn": "我们在她的生日聚会上唱歌。"
+   },
+   {
+    "en": "The city celebrated the birthday of its library.",
+    "cn": "这座城市庆祝了图书馆的诞生日。"
+   },
+   {
+    "en": "He sent me a birthday card from abroad.",
+    "cn": "他从国外给我寄了一张生日贺卡。"
+   }
+  ],
+  "dict_mnemonic": {
+   "note": "拆词记忆 · 非词源",
+   "text": "birth 是出生，day 是日子，两个词一拼就是生日；蛋糕上的蜡烛一年添一根。",
+   "word": "birthday"
+  },
+  "root": "birthday 由古英语 byrth（出生）与 daeg（日子）复合而成，中古英语合写，先指每年回到出生那天的日期，后扩展到机构与事物的创立日。",
+  "sensesIntro": {
+   "en": "One yearly date for a person, and by extension for anything that starts.",
+   "cn": "先指个人的年度日期，再扩展到任何开始存在的事物。"
+  },
+  "semanticMap": {
+   "core": {
+    "en": "CORE IMAGE: a cake crowded with small candles.",
+    "cn": "核心意象：插满小蜡烛的蛋糕。"
+   },
+   "chain": [
+    "BIRTH",
+    "DAY",
+    "YEAR",
+    "CAKE",
+    "GIFT",
+    "MEMORY"
+   ],
+   "branches": [
+    {
+     "senses": "01",
+     "en": "birthday party",
+     "cn": "生日聚会"
+    },
+    {
+     "senses": "01",
+     "en": "birthday cake",
+     "cn": "生日蛋糕"
+    },
+    {
+     "senses": "01",
+     "en": "happy birthday",
+     "cn": "生日快乐"
+    },
+    {
+     "senses": "02",
+     "en": "the birthday of a library",
+     "cn": "图书馆的创建日"
+    },
+    {
+     "senses": "02",
+     "en": "a company birthday",
+     "cn": "公司成立纪念日"
+    }
+   ]
+  },
+  "affixes": {
+   "intro": {
+    "en": "Birthday is a transparent compound, so its parts can be learned one by one.",
+    "cn": "birthday 是个透明的复合词，可以拆成两部分分别记。"
+   },
+   "latinIntro": {
+    "en": "Both halves are native English; Latin words for yearly dates appear below.",
+    "cn": "两个组成部分都来自英语本族语，下面列出与年度日期相关的拉丁词。"
+   },
+   "items": [
+    {
+     "word": "birthday",
+     "structure": "birth + day",
+     "meaning": "the day of one's birth",
+     "meaningCN": "生日",
+     "example": "a birthday party",
+     "exampleCN": "生日聚会"
+    },
+    {
+     "word": "birth",
+     "structure": "Old Norse byrth",
+     "meaning": "the act of being born",
+     "meaningCN": "出生",
+     "example": "at birth",
+     "exampleCN": "出生时"
+    },
+    {
+     "word": "day",
+     "structure": "Old English daeg",
+     "meaning": "a period of twenty-four hours",
+     "meaningCN": "一天",
+     "example": "a sunny day",
+     "exampleCN": "晴朗的一天"
+    },
+    {
+     "word": "anniversary",
+     "structure": "Latin anniversarius",
+     "meaning": "a yearly return of a date",
+     "meaningCN": "周年纪念日",
+     "example": "a wedding anniversary",
+     "exampleCN": "结婚纪念日"
+    },
+    {
+     "word": "celebration",
+     "structure": "Latin celebrare",
+     "meaning": "a happy gathering to mark an event",
+     "meaningCN": "庆祝活动",
+     "example": "a birthday celebration",
+     "exampleCN": "生日庆祝"
+    },
+    {
+     "word": "cake",
+     "structure": "Old Norse kaka",
+     "meaning": "a sweet baked food",
+     "meaningCN": "蛋糕",
+     "example": "a slice of cake",
+     "exampleCN": "一块蛋糕"
+    },
+    {
+     "word": "candle",
+     "structure": "Old English candel",
+     "meaning": "a wax stick that burns",
+     "meaningCN": "蜡烛",
+     "example": "blow out the candles",
+     "exampleCN": "吹灭蜡烛"
+    },
+    {
+     "word": "gift",
+     "structure": "Old Norse gift",
+     "meaning": "something given to someone",
+     "meaningCN": "礼物",
+     "example": "a small gift",
+     "exampleCN": "小礼物"
+    },
+    {
+     "word": "card",
+     "structure": "Latin charta",
+     "meaning": "a folded paper message",
+     "meaningCN": "卡片",
+     "example": "a birthday card",
+     "exampleCN": "生日贺卡"
+    }
+   ],
+   "latinEntries": []
+  }
+ },
+ {
+  "word": "biscuit",
+  "ipa_uk": "/ˈbɪskɪt/",
+  "ipa_us": "/ˈbɪskɪt/",
+  "definition_zh": "饼干；美式软烤饼",
+  "definition_en": "a small thin dry cake that is usually sweet",
+  "core_image": "配茶的一摞圆形薄饼干",
+  "scene": "茶盘边放着一摞圆圆的薄饼。She dipped a biscuit into her tea.",
+  "sceneCN": "这里 biscuit 是「饼干」（第 1 个义项：薄而干的小甜饼）；句意是她把一块饼干浸到茶里。",
+  "pos": [
+   {
+    "tag": "n.",
+    "zh": "名词：饼干，薄而干的甜饼"
+   },
+   {
+    "tag": "n.",
+    "zh": "名词：美式软烤饼，配肉汁食用"
+   }
+  ],
+  "collocations": [
+   {
+    "phrase": "a packet of biscuits",
+    "zh": "一包饼干"
+   },
+   {
+    "phrase": "chocolate biscuit",
+    "zh": "巧克力饼干"
+   },
+   {
+    "phrase": "biscuit tin",
+    "zh": "饼干罐"
+   },
+   {
+    "phrase": "dunk a biscuit",
+    "zh": "把饼干蘸一下"
+   },
+   {
+    "phrase": "take the biscuit",
+    "zh": "最离谱；最令人吃惊"
+   }
+  ],
+  "forms": [
+   {
+    "label": "复数",
+    "form": "biscuits"
+   }
+  ],
+  "derivatives": [
+   {
+    "word": "biscuity",
+    "pos": "adj.",
+    "zh": "饼干似的，形容干爽带甜的口感"
+   },
+   {
+    "word": "biscotti",
+    "pos": "n.",
+    "zh": "语义关联词，义为意式脆饼，与 biscuit 同源同族"
+   }
+  ],
+  "senses": [
+   {
+    "no": "01",
+    "title": "A thin dry sweet cake",
+    "titleCN": "饼干",
+    "definition": "a small flat cake baked until crisp",
+    "definitionCN": "烤到干脆的小块扁平饼",
+    "example": "She dipped a biscuit into her tea.",
+    "exampleCN": "她把一块饼干浸到茶里。",
+    "why": "Hard twice-baked bread became the crisp biscuit of the tea table.",
+    "whyCN": "烤两遍的硬面包，演变成茶桌上的脆饼干。"
+   },
+   {
+    "no": "02",
+    "title": "A soft American roll",
+    "titleCN": "美式软烤饼",
+    "definition": "a soft bread roll served with gravy in the southern states",
+    "definitionCN": "美国南方配肉汁吃的松软小面包",
+    "example": "He ordered biscuits and gravy for breakfast.",
+    "exampleCN": "他早餐点了软烤饼配肉汁。",
+    "why": "American cooks kept an older soft bread meaning that Britain dropped.",
+    "whyCN": "美国厨人保留了英国已弃用的松软面包旧义。"
+   }
+  ],
+  "etymology": {
+   "intro": {
+    "en": "Biscuit literally means twice cooked, from Latin by way of French.",
+    "cn": "biscuit 字面意思是「烤两次」，经法语来自拉丁语。"
+   },
+   "items": [
+    {
+     "era": "LATIN",
+     "en": "bis coctus meant cooked twice.",
+     "cn": "bis coctus 意为烤过两次的。"
+    },
+    {
+     "era": "OLD FRENCH",
+     "en": "bescuit kept the idea of twice-baked bread.",
+     "cn": "bescuit 保留了「烤两次的面包」这一意思。"
+    },
+    {
+     "era": "MIDDLE ENGLISH",
+     "en": "the word entered English as a hard dry bread.",
+     "cn": "这个词以「硬而干的面包」之义进入英语。"
+    },
+    {
+     "era": "EIGHTEENTH CENTURY",
+     "en": "biscuit named the dry bread taken to sea.",
+     "cn": "biscuit 指水手带上船的干面包。"
+    },
+    {
+     "era": "NINETEENTH CENTURY",
+     "en": "sweet biscuits became a tea-time staple.",
+     "cn": "甜饼干成为下午茶的常客。"
+    },
+    {
+     "era": "PRESENT DAY ENGLISH",
+     "en": "British biscuit is a cookie, American biscuit a soft roll.",
+     "cn": "英式 biscuit 是曲奇类饼干，美式则是松软小面包。"
+    }
+   ]
+  },
+  "similar": {
+   "note": {
+    "en": "The look-alike group shares the -isk- or -sk- sound; the near-meaning group names other baked snacks.",
+    "cn": "形近组共用 -isk- 或 -sk- 的音；近义组是其他烘焙小食。"
+   },
+   "groups": [
+    {
+     "heading": "LOOK-ALIKE",
+     "entries": [
+      {
+       "word": "biscotti",
+       "ipa": "/bɪˈskɒti/",
+       "tag": "look-alike",
+       "definition": "hard Italian almond biscuits",
+       "definitionCN": "意式杏仁脆饼"
+      },
+      {
+       "word": "brisket",
+       "ipa": "/ˈbrɪskɪt/",
+       "tag": "look-alike",
+       "definition": "a cut of meat from the chest",
+       "definitionCN": "牛胸肉"
+      },
+      {
+       "word": "basket",
+       "ipa": "/ˈbɑːskɪt/",
+       "tag": "look-alike",
+       "definition": "a container with a handle",
+       "definitionCN": "篮子"
+      }
+     ]
+    },
+    {
+     "heading": "NEAR MEANING",
+     "entries": [
+      {
+       "word": "cookie",
+       "ipa": "/ˈkʊki/",
+       "tag": "near synonym",
+       "definition": "a small sweet cake baked flat",
+       "definitionCN": "曲奇饼干"
+      },
+      {
+       "word": "cracker",
+       "ipa": "/ˈkrækə/",
+       "tag": "near synonym",
+       "definition": "a thin dry salted biscuit",
+       "definitionCN": "薄脆咸饼"
+      },
+      {
+       "word": "wafer",
+       "ipa": "/ˈweɪfə/",
+       "tag": "related",
+       "definition": "a very thin crisp sweet biscuit",
+       "definitionCN": "威化饼"
+      }
+     ]
+    }
+   ]
+  },
+  "mnemonics": {
+   "normalIntro": {
+    "en": "Biscuit hides its history in its first syllable: bis means twice.",
+    "cn": "biscuit 把来历藏在第一个音节里：bis 就是两次。"
+   },
+   "normal": [
+    {
+     "en": "Bis means twice and cuit means cooked.",
+     "cn": "bis 意为两次，cuit 意为煮烤。"
+    },
+    {
+     "en": "The plural simply adds s.",
+     "cn": "复数直接加 s。"
+    },
+    {
+     "en": "In Britain a biscuit is a cookie.",
+     "cn": "在英国，biscuit 就是曲奇类饼干。"
+    },
+    {
+     "en": "In America a biscuit is a soft roll.",
+     "cn": "在美国，biscuit 是松软的小面包。"
+    },
+    {
+     "en": "Take the biscuit is an idiom for the worst case.",
+     "cn": "take the biscuit 是表示「最离谱」的习惯说法。"
+    }
+   ],
+   "abstract": [
+    {
+     "en": "See a stack of round biscuits beside a cup.",
+     "cn": "想象茶杯旁一摞圆饼干。"
+    },
+    {
+     "en": "See a biscuit softened in hot tea.",
+     "cn": "想象饼干在热茶里泡软。"
+    },
+    {
+     "en": "See a soft roll covered in gravy.",
+     "cn": "想象松软小面包浇上肉汁。"
+    }
+   ]
+  },
+  "examples": [
+   {
+    "en": "She dipped a biscuit into her tea.",
+    "cn": "她把一块饼干浸到茶里。"
+   },
+   {
+    "en": "He ordered biscuits and gravy for breakfast.",
+    "cn": "他早餐点了软烤饼配肉汁。"
+   },
+   {
+    "en": "The tin was full of chocolate biscuits.",
+    "cn": "罐子里装满了巧克力饼干。"
+   }
+  ],
+  "dict_mnemonic": {
+   "note": "拆词记忆 · 非词源",
+   "text": "bis 是两次，cuit 是煮烤，烤两遍才够脆，这就是 biscuit 饼干的由来。",
+   "word": "biscuit"
+  },
+  "root": "biscuit 源自拉丁语 bis coctus（烤两次），经古法语 bescuit 进入英语，原指耐存放的硬面包，后指薄脆甜饼；美式英语另保留松软小面包义。",
+  "sensesIntro": {
+   "en": "Twice-baked bread turned into a crisp biscuit, while America kept a soft roll.",
+   "cn": "烤两次的面包变成了脆饼干，而美国保留了松软小面包的旧义。"
+  },
+  "semanticMap": {
+   "core": {
+    "en": "CORE IMAGE: a stack of round biscuits beside a teacup.",
+    "cn": "核心意象：茶杯旁一摞圆饼干。"
+   },
+   "chain": [
+    "TWICE",
+    "BAKE",
+    "DRY",
+    "SWEET",
+    "TEA",
+    "SNACK"
+   ],
+   "branches": [
+    {
+     "senses": "01",
+     "en": "a chocolate biscuit",
+     "cn": "一块巧克力饼干"
+    },
+    {
+     "senses": "01",
+     "en": "a biscuit tin",
+     "cn": "饼干罐"
+    },
+    {
+     "senses": "01",
+     "en": "dunk a biscuit",
+     "cn": "把饼干蘸一下"
+    },
+    {
+     "senses": "02",
+     "en": "biscuits and gravy",
+     "cn": "软烤饼配肉汁"
+    },
+    {
+     "senses": "02",
+     "en": "a warm biscuit",
+     "cn": "一块热软烤饼"
+    }
+   ]
+  },
+  "affixes": {
+   "intro": {
+    "en": "Biscuit is a loanword whose Latin prefix bis still shows the sense twice.",
+    "cn": "biscuit 是外来词，拉丁前缀 bis 仍保留「两次」的意思。"
+   },
+   "latinIntro": {
+    "en": "The Latin base bis coctus is the key to the spelling.",
+    "cn": "拉丁词基 bis coctus 是记住拼写的关键。"
+   },
+   "items": [
+    {
+     "word": "biscuit",
+     "structure": "Latin bis coctus",
+     "meaning": "bread baked twice",
+     "meaningCN": "烤两次的面包",
+     "example": "a dry biscuit",
+     "exampleCN": "一块干饼干"
+    },
+    {
+     "word": "biscotti",
+     "structure": "Italian biscotto",
+     "meaning": "a hard Italian biscuit",
+     "meaningCN": "意式脆饼",
+     "example": "almond biscotti",
+     "exampleCN": "杏仁脆饼"
+    },
+    {
+     "word": "cookie",
+     "structure": "Dutch koekje",
+     "meaning": "a small sweet cake",
+     "meaningCN": "曲奇",
+     "example": "a chocolate cookie",
+     "exampleCN": "巧克力曲奇"
+    },
+    {
+     "word": "cracker",
+     "structure": "crack + -er",
+     "meaning": "a thin dry salted biscuit",
+     "meaningCN": "薄脆咸饼",
+     "example": "a cheese cracker",
+     "exampleCN": "芝士薄饼"
+    },
+    {
+     "word": "wafer",
+     "structure": "Old French waufre",
+     "meaning": "a very thin crisp biscuit",
+     "meaningCN": "威化饼",
+     "example": "a vanilla wafer",
+     "exampleCN": "香草威化"
+    },
+    {
+     "word": "bakery",
+     "structure": "bake + -ery",
+     "meaning": "a shop that sells baked goods",
+     "meaningCN": "面包店",
+     "example": "a local bakery",
+     "exampleCN": "本地面包店"
+    },
+    {
+     "word": "dough",
+     "structure": "Old English dag",
+     "meaning": "the mixture before baking",
+     "meaningCN": "面团",
+     "example": "roll out the dough",
+     "exampleCN": "擀面团"
+    },
+    {
+     "word": "oven",
+     "structure": "Old English ofen",
+     "meaning": "the closed box used for baking",
+     "meaningCN": "烤箱",
+     "example": "a hot oven",
+     "exampleCN": "热烤箱"
+    }
+   ],
+   "latinEntries": []
+  }
+ },
+ {
+  "word": "bit",
+  "ipa_uk": "/bɪt/",
+  "ipa_us": "/bɪt/",
+  "definition_zh": "一点；小块；片刻；比特",
+  "definition_en": "a small piece or amount of something",
+  "core_image": "桌上剩下的一小块干面包",
+  "scene": "桌上只剩下一小块干面包。He ate every bit of the cake.",
+  "sceneCN": "这里 bit 是「一点；小块」（第 1 个义项：数量很少的一块）；句意是他把蛋糕一点不剩地吃完了。",
+  "pos": [
+   {
+    "tag": "n.",
+    "zh": "名词：一点；小块；少量"
+   },
+   {
+    "tag": "n.",
+    "zh": "名词：比特，计算机最小的信息单位"
+   }
+  ],
+  "collocations": [
+   {
+    "phrase": "a bit of",
+    "zh": "一点；少量"
+   },
+   {
+    "phrase": "bit by bit",
+    "zh": "一点一点地"
+   },
+   {
+    "phrase": "quite a bit",
+    "zh": "相当多"
+   },
+   {
+    "phrase": "every bit",
+    "zh": "完全；每一分"
+   },
+   {
+    "phrase": "a little bit",
+    "zh": "稍微；一点点"
+   }
+  ],
+  "forms": [
+   {
+    "label": "复数",
+    "form": "bits"
+   }
+  ],
+  "derivatives": [
+   {
+    "word": "bitty",
+    "pos": "adj.",
+    "zh": "零碎的，由许多小块拼成的"
+   },
+   {
+    "word": "bitwise",
+    "pos": "adj.",
+    "zh": "按位进行的，计算机里逐位处理的意思"
+   }
+  ],
+  "senses": [
+   {
+    "no": "01",
+    "title": "A small piece",
+    "titleCN": "一点；小块",
+    "definition": "a very small piece or amount of something",
+    "definitionCN": "某物很小的一块或很少的量",
+    "example": "He ate every bit of the cake.",
+    "exampleCN": "他把蛋糕一点不剩地吃完了。",
+    "why": "The word began as a piece bitten off, so a small amount was its first sense.",
+    "whyCN": "这个词本指咬下来的一小块，所以「少量」是最早的义项。"
+   },
+   {
+    "no": "02",
+    "title": "A short while",
+    "titleCN": "片刻",
+    "definition": "a short period of time",
+    "definitionCN": "很短的一段时间",
+    "example": "Wait a bit and I will be ready.",
+    "exampleCN": "稍等一会儿，我就准备好了。",
+    "why": "A small piece of time was pictured as a bit of the day.",
+    "whyCN": "把时间切成小块，一小段就成了一 bit。"
+   },
+   {
+    "no": "03",
+    "title": "A unit of digital data",
+    "titleCN": "比特",
+    "definition": "the smallest unit of information in computing",
+    "definitionCN": "计算机中表示信息的最小单位",
+    "example": "One byte is made of eight bits.",
+    "exampleCN": "一个字节由八个比特组成。",
+    "why": "Engineers borrowed the everyday word for a tiny piece for a binary digit.",
+    "whyCN": "工程师借用了「一小块」这个日常词，来指二进制的每一位。"
+   }
+  ],
+  "etymology": {
+   "intro": {
+    "en": "Bit began as a piece bitten off food and grew into time and data.",
+    "cn": "bit 本指从食物上咬下的一小块，后来扩展到时间与数据。"
+   },
+   "items": [
+    {
+     "era": "OLD ENGLISH",
+     "en": "bita meant a piece bitten off.",
+     "cn": "bita 意为咬下来的一块。"
+    },
+    {
+     "era": "MIDDLE ENGLISH",
+     "en": "bit named a small piece of food.",
+     "cn": "bit 指一小块食物。"
+    },
+    {
+     "era": "SEVENTEENTH CENTURY",
+     "en": "a bit of time came to mean a short while.",
+     "cn": "a bit of time 开始表示一小段时间。"
+    },
+    {
+     "era": "TWENTIETH CENTURY",
+     "en": "computing gave bit its digital sense.",
+     "cn": "计算机领域赋予 bit 数字信息的含义。"
+    },
+    {
+     "era": "PRESENT DAY ENGLISH",
+     "en": "bit covers pieces, short times and data units.",
+     "cn": "如今 bit 兼指小块、片刻与数据单位。"
+    }
+   ]
+  },
+  "similar": {
+   "note": {
+    "en": "The look-alike group differs by a single vowel; the near-meaning group names small parts.",
+    "cn": "形近组只差一个元音；近义组是表示小部分的词。"
+   },
+   "groups": [
+    {
+     "heading": "LOOK-ALIKE",
+     "entries": [
+      {
+       "word": "bat",
+       "ipa": "/bæt/",
+       "tag": "look-alike",
+       "definition": "a stick used in ball games",
+       "definitionCN": "球棒"
+      },
+      {
+       "word": "bet",
+       "ipa": "/bet/",
+       "tag": "look-alike",
+       "definition": "to risk money on a result",
+       "definitionCN": "打赌"
+      },
+      {
+       "word": "pit",
+       "ipa": "/pɪt/",
+       "tag": "look-alike",
+       "definition": "a deep hole in the ground",
+       "definitionCN": "深坑"
+      }
+     ]
+    },
+    {
+     "heading": "NEAR MEANING",
+     "entries": [
+      {
+       "word": "piece",
+       "ipa": "/piːs/",
+       "tag": "near synonym",
+       "definition": "a part cut from something",
+       "definitionCN": "一块"
+      },
+      {
+       "word": "fragment",
+       "ipa": "/ˈfræɡmənt/",
+       "tag": "near synonym",
+       "definition": "a small broken part",
+       "definitionCN": "碎片"
+      },
+      {
+       "word": "scrap",
+       "ipa": "/skræp/",
+       "tag": "related",
+       "definition": "a tiny leftover piece",
+       "definitionCN": "小块剩料"
+      }
+     ]
+    }
+   ]
+  },
+  "mnemonics": {
+   "normalIntro": {
+    "en": "Bit is what is left after a bite: a small piece.",
+    "cn": "bit 就是 bite 之后留下的那一口：一小块。"
+   },
+   "normal": [
+    {
+     "en": "A bit of means a small amount.",
+     "cn": "a bit of 表示少量。"
+    },
+    {
+     "en": "Bit by bit means slowly, piece by piece.",
+     "cn": "bit by bit 表示一点一点地。"
+    },
+    {
+     "en": "A little bit softens the amount further.",
+     "cn": "a little bit 把数量说得更轻微。"
+    },
+    {
+     "en": "Bit is also the past tense of bite.",
+     "cn": "bit 同时是 bite 的过去式。"
+    },
+    {
+     "en": "In computing a byte holds eight bits.",
+     "cn": "在计算机里，一个字节含八个比特。"
+    }
+   ],
+   "abstract": [
+    {
+     "en": "See one crumb left on a plate.",
+     "cn": "想象盘子里只剩一点面包屑。"
+    },
+    {
+     "en": "See a clock hand move one small step.",
+     "cn": "想象钟表的指针挪过一小格。"
+    },
+    {
+     "en": "See a row of tiny switches set to one or zero.",
+     "cn": "想象一排小开关，只能拨到一或零。"
+    }
+   ]
+  },
+  "examples": [
+   {
+    "en": "He ate every bit of the cake.",
+    "cn": "他把蛋糕一点不剩地吃完了。"
+   },
+   {
+    "en": "Wait a bit and I will be ready.",
+    "cn": "稍等一会儿，我就准备好了。"
+   },
+   {
+    "en": "One byte is made of eight bits.",
+    "cn": "一个字节由八个比特组成。"
+   }
+  ],
+  "dict_mnemonic": {
+   "note": "拆词记忆 · 非词源",
+   "text": "bit 是 bite 的过去式，咬下一口就得到一小块，所以 bit 也表示一点。",
+   "word": "bit"
+  },
+  "root": "bit 源自古英语 bita，本指咬下来的一块，与 bite 同源；中古英语指小块食物，十七世纪起可指一小段时间，二十世纪又获得计算机比特义。",
+  "sensesIntro": {
+   "en": "A crumb, a short wait and a digital switch all count as bits.",
+   "cn": "一点碎屑、一段等待、一个数字开关，都可以用 bit 来数。"
+  },
+  "semanticMap": {
+   "core": {
+    "en": "CORE IMAGE: one small piece of bread left on a plate.",
+    "cn": "核心意象：盘子里剩下的一小块面包。"
+   },
+   "chain": [
+    "BITE",
+    "PIECE",
+    "SMALL",
+    "MOMENT",
+    "DATA",
+    "UNIT"
+   ],
+   "branches": [
+    {
+     "senses": "01",
+     "en": "a bit of bread",
+     "cn": "一小块面包"
+    },
+    {
+     "senses": "01",
+     "en": "bit by bit",
+     "cn": "一点一点地"
+    },
+    {
+     "senses": "02",
+     "en": "wait a bit",
+     "cn": "稍等一会儿"
+    },
+    {
+     "senses": "03",
+     "en": "eight bits",
+     "cn": "八个比特"
+    },
+    {
+     "senses": "03",
+     "en": "a bit of data",
+     "cn": "一位数据"
+    }
+   ]
+  },
+  "affixes": {
+   "intro": {
+    "en": "Bit keeps the shape of bite and spreads into measuring words.",
+    "cn": "bit 保留着 bite 的词形，并扩展到各种计量说法。"
+   },
+   "latinIntro": {
+    "en": "The base is Old English; the Latin words below are related in meaning only.",
+    "cn": "词基来自古英语，下面的拉丁词只在意思上相关。"
+   },
+   "items": [
+    {
+     "word": "bit",
+     "structure": "Old English bita",
+     "meaning": "a piece bitten off",
+     "meaningCN": "咬下的一小块",
+     "example": "a bit of bread",
+     "exampleCN": "一小块面包"
+    },
+    {
+     "word": "bite",
+     "structure": "Old English bitan",
+     "meaning": "to cut with the teeth",
+     "meaningCN": "咬",
+     "example": "bite an apple",
+     "exampleCN": "咬一口苹果"
+    },
+    {
+     "word": "bitty",
+     "structure": "bit + -y",
+     "meaning": "made of small pieces",
+     "meaningCN": "零碎的",
+     "example": "a bitty style",
+     "exampleCN": "零碎的风格"
+    },
+    {
+     "word": "piece",
+     "structure": "Old French piece",
+     "meaning": "a part of something",
+     "meaningCN": "一块",
+     "example": "a piece of paper",
+     "exampleCN": "一张纸"
+    },
+    {
+     "word": "fragment",
+     "structure": "Latin fragmentum",
+     "meaning": "a broken piece",
+     "meaningCN": "碎片",
+     "example": "a glass fragment",
+     "exampleCN": "玻璃碎片"
+    },
+    {
+     "word": "byte",
+     "structure": "invented from bite",
+     "meaning": "eight bits of data",
+     "meaningCN": "字节",
+     "example": "a single byte",
+     "exampleCN": "一个字节"
+    },
+    {
+     "word": "binary",
+     "structure": "Latin binarius",
+     "meaning": "using two digits",
+     "meaningCN": "二进制的",
+     "example": "binary code",
+     "exampleCN": "二进制代码"
+    },
+    {
+     "word": "crumb",
+     "structure": "Old English cruma",
+     "meaning": "a tiny piece of bread",
+     "meaningCN": "面包屑",
+     "example": "a few crumbs",
+     "exampleCN": "几粒面包屑"
+    }
+   ],
+   "latinEntries": []
+  }
+ },
+ {
+  "word": "bite",
+  "ipa_uk": "/baɪt/",
+  "ipa_us": "/baɪt/",
+  "definition_zh": "咬；咬伤；一口；刺痛",
+  "definition_en": "to cut or crush something with your teeth",
+  "core_image": "咬下一口苹果留下的牙印",
+  "scene": "他对着红苹果咬下去，汁水顺着手腕流。He took a bite and smiled.",
+  "sceneCN": "这里 bite 是「一口」（第 2 个义项：一次咬下的量）；句意是他咬了一口，然后笑了。",
+  "pos": [
+   {
+    "tag": "v.",
+    "zh": "动词：咬；咬伤；蜇"
+   },
+   {
+    "tag": "n.",
+    "zh": "名词：一口；咬伤"
+   }
+  ],
+  "collocations": [
+   {
+    "phrase": "take a bite",
+    "zh": "咬一口"
+   },
+   {
+    "phrase": "bite into",
+    "zh": "咬进；咬住"
+   },
+   {
+    "phrase": "bite your nails",
+    "zh": "咬指甲"
+   },
+   {
+    "phrase": "a snake bite",
+    "zh": "蛇咬的伤"
+   },
+   {
+    "phrase": "bite back",
+    "zh": "忍住不说"
+   }
+  ],
+  "forms": [
+   {
+    "label": "过去式",
+    "form": "bit"
+   },
+   {
+    "label": "过去分词",
+    "form": "bitten"
+   },
+   {
+    "label": "现在分词",
+    "form": "biting"
+   },
+   {
+    "label": "第三人称单数",
+    "form": "bites"
+   }
+  ],
+  "derivatives": [
+   {
+    "word": "biting",
+    "pos": "adj.",
+    "zh": "刺骨的，形容风或寒冷锐利逼人"
+   },
+   {
+    "word": "biter",
+    "pos": "n.",
+    "zh": "咬人的动物，也用于 nail biter 这类说法"
+   }
+  ],
+  "senses": [
+   {
+    "no": "01",
+    "title": "To cut with the teeth",
+    "titleCN": "咬",
+    "definition": "to use the teeth to cut into something",
+    "definitionCN": "用牙齿切入某物",
+    "example": "The dog bit the postman.",
+    "exampleCN": "那条狗咬了邮递员。",
+    "why": "This is the oldest sense, naming the action of the teeth.",
+    "whyCN": "这是最古老的义项，直接指牙齿的动作。"
+   },
+   {
+    "no": "02",
+    "title": "An amount taken in one bite",
+    "titleCN": "一口",
+    "definition": "the amount of food taken into the mouth at one time",
+    "definitionCN": "一次送入口中的食物量",
+    "example": "She took a bite and smiled.",
+    "exampleCN": "她咬了一口，笑了。",
+    "why": "The action became a noun for the amount it produces.",
+    "whyCN": "动作转成名词，指这一次动作取下的量。"
+   },
+   {
+    "no": "03",
+    "title": "A sharp stinging feeling",
+    "titleCN": "刺痛；寒意",
+    "definition": "a sharp cold or painful feeling",
+    "definitionCN": "尖锐的寒冷或疼痛感",
+    "example": "The wind had a real bite this morning.",
+    "exampleCN": "今早的风真有些刺骨。",
+    "why": "Cold that seemed to cut the skin was pictured as teeth biting.",
+    "whyCN": "像要割破皮肤的寒冷，被想象成牙齿在咬。"
+   }
+  ],
+  "etymology": {
+   "intro": {
+    "en": "Bite is an Old English strong verb whose past forms bit and bitten survived.",
+    "cn": "bite 是古英语的强变化动词，过去式 bit 与过去分词 bitten 沿用至今。"
+   },
+   "items": [
+    {
+     "era": "OLD ENGLISH",
+     "en": "bitan meant to cut with the teeth.",
+     "cn": "bitan 意为用牙齿切咬。"
+    },
+    {
+     "era": "MIDDLE ENGLISH",
+     "en": "the past tense bit and participle bitten settled.",
+     "cn": "过去式 bit 与过去分词 bitten 固定下来。"
+    },
+    {
+     "era": "THIRTEENTH CENTURY",
+     "en": "bite also named a wound made by teeth.",
+     "cn": "bite 也开始指牙齿造成的伤口。"
+    },
+    {
+     "era": "SIXTEENTH CENTURY",
+     "en": "writers used bite for sharp cold.",
+     "cn": "作家们用 bite 形容刺骨的寒冷。"
+    },
+    {
+     "era": "PRESENT DAY ENGLISH",
+     "en": "bite keeps both the action and the amount senses.",
+     "cn": "如今 bite 兼指咬的动作与咬下的量。"
+    }
+   ]
+  },
+  "similar": {
+   "note": {
+    "en": "The look-alike group shares the b-t pattern; the near-meaning group names other ways of using teeth.",
+    "cn": "形近组共用 b-t 的字母骨架；近义组是其他用牙的动作。"
+   },
+   "groups": [
+    {
+     "heading": "LOOK-ALIKE",
+     "entries": [
+      {
+       "word": "bit",
+       "ipa": "/bɪt/",
+       "tag": "look-alike",
+       "definition": "a small piece",
+       "definitionCN": "一小块"
+      },
+      {
+       "word": "bait",
+       "ipa": "/beɪt/",
+       "tag": "look-alike",
+       "definition": "food used to attract fish",
+       "definitionCN": "鱼饵"
+      },
+      {
+       "word": "byte",
+       "ipa": "/baɪt/",
+       "tag": "look-alike",
+       "definition": "a unit of computer data",
+       "definitionCN": "字节"
+      }
+     ]
+    },
+    {
+     "heading": "NEAR MEANING",
+     "entries": [
+      {
+       "word": "chew",
+       "ipa": "/tʃuː/",
+       "tag": "near synonym",
+       "definition": "to grind food with the teeth",
+       "definitionCN": "咀嚼"
+      },
+      {
+       "word": "gnaw",
+       "ipa": "/nɔː/",
+       "tag": "near synonym",
+       "definition": "to keep biting something hard",
+       "definitionCN": "啃"
+      },
+      {
+       "word": "nibble",
+       "ipa": "/ˈnɪbl/",
+       "tag": "related",
+       "definition": "to take small repeated bites",
+       "definitionCN": "小口小口地咬"
+      }
+     ]
+    }
+   ]
+  },
+  "mnemonics": {
+   "normalIntro": {
+    "en": "Bite is the act; bit is what is left; bitten is the finished state.",
+    "cn": "bite 是动作，bit 是咬下的那一块，bitten 是已经被咬的状态。"
+   },
+   "normal": [
+    {
+     "en": "The past tense is bit, not bited.",
+     "cn": "过去式是 bit，不是 bited。"
+    },
+    {
+     "en": "The past participle is bitten.",
+     "cn": "过去分词是 bitten。"
+    },
+    {
+     "en": "Take a bite uses the noun sense.",
+     "cn": "take a bite 用的是名词义。"
+    },
+    {
+     "en": "Byte sounds the same but means data.",
+     "cn": "byte 读音相同，但指数据单位。"
+    },
+    {
+     "en": "A biting wind cuts like teeth.",
+     "cn": "a biting wind 像牙齿一样割人。"
+    }
+   ],
+   "abstract": [
+    {
+     "en": "See teeth marks in a red apple.",
+     "cn": "想象红苹果上留下牙印。"
+    },
+    {
+     "en": "See a dog held back by its lead.",
+     "cn": "想象一条被绳子拉住的狗。"
+    },
+    {
+     "en": "See a cold wind cutting across a street.",
+     "cn": "想象寒风横扫过街道。"
+    }
+   ]
+  },
+  "examples": [
+   {
+    "en": "The dog bit the postman.",
+    "cn": "那条狗咬了邮递员。"
+   },
+   {
+    "en": "She took a bite and smiled.",
+    "cn": "她咬了一口，笑了。"
+   },
+   {
+    "en": "The wind had a real bite this morning.",
+    "cn": "今早的风真有些刺骨。"
+   }
+  ],
+  "dict_mnemonic": {
+   "note": "拆词记忆 · 非词源",
+   "text": "bite 与 byte 同音，一个用牙齿咬，一个是计算机里的字节，靠上下文区分。",
+   "word": "bite"
+  },
+  "root": "bite 源自古英语强变化动词 bitan，过去式 bit、过去分词 bitten 一直沿用；由「用牙切入」引申出伤口、一口的量，以及寒风刺骨等说法。",
+  "sensesIntro": {
+   "en": "Teeth, a mouthful, and a cutting wind all belong to bite.",
+   "cn": "牙齿的动作、一口的量、割人的寒风，都归在 bite 之下。"
+  },
+  "semanticMap": {
+   "core": {
+    "en": "CORE IMAGE: teeth marks left in a red apple.",
+    "cn": "核心意象：红苹果上留下的牙印。"
+   },
+   "chain": [
+    "TEETH",
+    "CUT",
+    "FOOD",
+    "MOUTH",
+    "WOUND",
+    "SHARP"
+   ],
+   "branches": [
+    {
+     "senses": "01",
+     "en": "bite an apple",
+     "cn": "咬一口苹果"
+    },
+    {
+     "senses": "01",
+     "en": "a snake bite",
+     "cn": "蛇咬的伤"
+    },
+    {
+     "senses": "02",
+     "en": "take a bite",
+     "cn": "咬一口"
+    },
+    {
+     "senses": "03",
+     "en": "the bite of winter",
+     "cn": "冬天的寒意"
+    },
+    {
+     "senses": "03",
+     "en": "a biting wind",
+     "cn": "刺骨的寒风"
+    }
+   ]
+  },
+  "affixes": {
+   "intro": {
+    "en": "Bite has an irregular past and a small family of derived forms.",
+    "cn": "bite 的过去式不规则，并有一小族派生形式。"
+   },
+   "latinIntro": {
+    "en": "The base is Old English; Latin appears only in related words below.",
+    "cn": "词基来自古英语，下面的拉丁成分只出现在相关词里。"
+   },
+   "items": [
+    {
+     "word": "bite",
+     "structure": "Old English bitan",
+     "meaning": "to cut with the teeth",
+     "meaningCN": "咬",
+     "example": "bite an apple",
+     "exampleCN": "咬苹果"
+    },
+    {
+     "word": "bit",
+     "structure": "Old English bita",
+     "meaning": "a piece bitten off",
+     "meaningCN": "一小块",
+     "example": "a bit of cake",
+     "exampleCN": "一小块蛋糕"
+    },
+    {
+     "word": "bitten",
+     "structure": "Old English biten",
+     "meaning": "the past participle of bite",
+     "meaningCN": "bite 的过去分词",
+     "example": "once bitten",
+     "exampleCN": "一旦被咬过"
+    },
+    {
+     "word": "biting",
+     "structure": "bite + -ing",
+     "meaning": "sharp and cold",
+     "meaningCN": "刺骨的",
+     "example": "a biting wind",
+     "exampleCN": "刺骨的寒风"
+    },
+    {
+     "word": "biter",
+     "structure": "bite + -er",
+     "meaning": "one that bites",
+     "meaningCN": "咬人的东西",
+     "example": "a nail biter",
+     "exampleCN": "咬指甲的人"
+    },
+    {
+     "word": "chew",
+     "structure": "Old English ceowan",
+     "meaning": "to grind food with teeth",
+     "meaningCN": "咀嚼",
+     "example": "chew slowly",
+     "exampleCN": "慢慢咀嚼"
+    },
+    {
+     "word": "nibble",
+     "structure": "Middle Low German nibbeln",
+     "meaning": "to take small bites",
+     "meaningCN": "小口咬",
+     "example": "nibble a biscuit",
+     "exampleCN": "小口咬饼干"
+    },
+    {
+     "word": "gnaw",
+     "structure": "Old English gnagan",
+     "meaning": "to wear away by biting",
+     "meaningCN": "啃",
+     "example": "gnaw a bone",
+     "exampleCN": "啃骨头"
+    },
+    {
+     "word": "tooth",
+     "structure": "Old English toth",
+     "meaning": "the hard part used for biting",
+     "meaningCN": "牙齿",
+     "example": "a sharp tooth",
+     "exampleCN": "尖牙"
+    }
+   ],
+   "latinEntries": []
+  }
+ },
+ {
+  "word": "bitter",
+  "ipa_uk": "/ˈbɪtə/",
+  "ipa_us": "/ˈbɪtər/",
+  "definition_zh": "苦的；痛苦的；怨恨的；严寒的",
+  "definition_en": "having a strong sharp taste that is not sweet",
+  "core_image": "咬到苦药片时皱起的眉头",
+  "scene": "他咬到药片外层，眉头立刻皱紧。The medicine left a bitter taste in her mouth.",
+  "sceneCN": "这里 bitter 是「苦的」（第 1 个义项：味道强烈发苦）；句意是药在她嘴里留下了苦味。",
+  "pos": [
+   {
+    "tag": "adj.",
+    "zh": "形容词：苦的；痛苦的；严寒的"
+   },
+   {
+    "tag": "adj.",
+    "zh": "形容词：怨恨的；愤愤不平的"
+   }
+  ],
+  "collocations": [
+   {
+    "phrase": "bitter taste",
+    "zh": "苦味"
+   },
+   {
+    "phrase": "bitter cold",
+    "zh": "严寒"
+   },
+   {
+    "phrase": "bitter enemy",
+    "zh": "死敌"
+   },
+   {
+    "phrase": "a bitter argument",
+    "zh": "激烈的争吵"
+   },
+   {
+    "phrase": "a bitter experience",
+    "zh": "痛苦的经历"
+   }
+  ],
+  "forms": [
+   {
+    "label": "比较级",
+    "form": "bitterer"
+   },
+   {
+    "label": "最高级",
+    "form": "bitterest"
+   }
+  ],
+  "derivatives": [
+   {
+    "word": "bitterly",
+    "pos": "adv.",
+    "zh": "痛苦地；怨恨地；极度地"
+   },
+   {
+    "word": "bitterness",
+    "pos": "n.",
+    "zh": "苦味；痛苦；怨恨"
+   }
+  ],
+  "senses": [
+   {
+    "no": "01",
+    "title": "Sharp and unpleasant to taste",
+    "titleCN": "苦的",
+    "definition": "having a strong sharp taste that is not sweet",
+    "definitionCN": "味道强烈尖锐、不甜的",
+    "example": "The medicine left a bitter taste in her mouth.",
+    "exampleCN": "药在她嘴里留下了苦味。",
+    "why": "The word came from bite, because a bitter taste seems to bite the tongue.",
+    "whyCN": "这个词来自 bite，因为苦味像是在咬舌头。"
+   },
+   {
+    "no": "02",
+    "title": "Causing deep pain",
+    "titleCN": "痛苦的",
+    "definition": "causing great sadness or hardship",
+    "definitionCN": "带来深切悲伤或艰难的",
+    "example": "Losing the match was a bitter experience.",
+    "exampleCN": "输掉那场比赛是一次痛苦的经历。",
+    "why": "A taste that hurt the tongue became a metaphor for pain in life.",
+    "whyCN": "刺痛舌头的味道，被用来比喻生活中的痛苦。"
+   },
+   {
+    "no": "03",
+    "title": "Full of resentment",
+    "titleCN": "怨恨的",
+    "definition": "feeling angry and unable to forgive",
+    "definitionCN": "心怀愤怒、难以释怀的",
+    "example": "He remained bitter about the decision.",
+    "exampleCN": "他对那个决定一直耿耿于怀。",
+    "why": "Long-held pain hardened into anger, and the same word covered it.",
+    "whyCN": "长久的痛苦硬结成怒气，同一个词也承担了这层意思。"
+   },
+   {
+    "no": "04",
+    "title": "Unpleasantly cold",
+    "titleCN": "严寒的",
+    "definition": "extremely and sharply cold",
+    "definitionCN": "极其寒冷刺骨的",
+    "example": "A bitter wind swept the empty street.",
+    "exampleCN": "一阵刺骨的寒风扫过空荡的街道。",
+    "why": "Cold that stings the skin was described with the same biting image.",
+    "whyCN": "刺痛皮肤的寒冷，用了同样「咬人」的意象。"
+   }
+  ],
+  "etymology": {
+   "intro": {
+    "en": "Bitter is an Old English word built on the same root as bite.",
+    "cn": "bitter 是古英语词，与 bite 同出一个词根。"
+   },
+   "items": [
+    {
+     "era": "OLD ENGLISH",
+     "en": "biter meant sharp to the taste.",
+     "cn": "biter 意为味道尖锐刺激的。"
+    },
+    {
+     "era": "OLD ENGLISH",
+     "en": "the word was tied to bitan, to bite.",
+     "cn": "这个词与表示咬的 bitan 相连。"
+    },
+    {
+     "era": "MIDDLE ENGLISH",
+     "en": "bitter extended from taste to painful feelings.",
+     "cn": "bitter 从味觉扩展到痛苦的情绪。"
+    },
+    {
+     "era": "FOURTEENTH CENTURY",
+     "en": "bitter also described harsh cold.",
+     "cn": "bitter 也开始形容严酷的寒冷。"
+    },
+    {
+     "era": "PRESENT DAY ENGLISH",
+     "en": "bitter covers taste, pain, resentment and cold.",
+     "cn": "如今 bitter 兼指苦味、痛苦、怨恨与严寒。"
+    }
+   ]
+  },
+  "similar": {
+   "note": {
+    "en": "The look-alike group shares the -tter ending; the near-meaning group names other sharp tastes and feelings.",
+    "cn": "形近组共用 -tter 结尾；近义组是其他尖锐的味道与情绪词。"
+   },
+   "groups": [
+    {
+     "heading": "LOOK-ALIKE",
+     "entries": [
+      {
+       "word": "batter",
+       "ipa": "/ˈbætə/",
+       "tag": "look-alike",
+       "definition": "a thin mixture for baking",
+       "definitionCN": "面糊"
+      },
+      {
+       "word": "butter",
+       "ipa": "/ˈbʌtə/",
+       "tag": "look-alike",
+       "definition": "a soft yellow food made from cream",
+       "definitionCN": "黄油"
+      },
+      {
+       "word": "biter",
+       "ipa": "/ˈbaɪtə/",
+       "tag": "look-alike",
+       "definition": "one that bites",
+       "definitionCN": "咬人的东西"
+      }
+     ]
+    },
+    {
+     "heading": "NEAR MEANING",
+     "entries": [
+      {
+       "word": "sour",
+       "ipa": "/ˈsaʊə/",
+       "tag": "near synonym",
+       "definition": "having a sharp acid taste",
+       "definitionCN": "酸的"
+      },
+      {
+       "word": "harsh",
+       "ipa": "/hɑːʃ/",
+       "tag": "near synonym",
+       "definition": "rough and unkind",
+       "definitionCN": "严酷的"
+      },
+      {
+       "word": "resentful",
+       "ipa": "/rɪˈzentfl/",
+       "tag": "related",
+       "definition": "feeling angry about unfair treatment",
+       "definitionCN": "心怀怨恨的"
+      }
+     ]
+    }
+   ]
+  },
+  "mnemonics": {
+   "normalIntro": {
+    "en": "Bitter starts at the tongue and reaches the heart.",
+    "cn": "bitter 从舌尖出发，一直走到心里。"
+   },
+   "normal": [
+    {
+     "en": "Bitter and bite share the same root.",
+     "cn": "bitter 与 bite 同根。"
+    },
+    {
+     "en": "Bitter cold is stronger than simply cold.",
+     "cn": "bitter cold 比单纯的 cold 更冷。"
+    },
+    {
+     "en": "A bitter person holds a grudge.",
+     "cn": "a bitter person 指心里存着怨恨的人。"
+    },
+    {
+     "en": "The adverb is bitterly, not bitterlily.",
+     "cn": "副词是 bitterly，不要拼错。"
+    },
+    {
+     "en": "The noun bitterness adds -ness.",
+     "cn": "名词 bitterness 是加 -ness 构成的。"
+    }
+   ],
+   "abstract": [
+    {
+     "en": "See a face screwed up over dark coffee.",
+     "cn": "想象一张被浓咖啡苦得皱起的脸。"
+    },
+    {
+     "en": "See someone turn away after a quarrel.",
+     "cn": "想象有人在争吵后转身离开。"
+    },
+    {
+     "en": "See a bare tree in a cutting wind.",
+     "cn": "想象一棵光秃的树立在寒风里。"
+    }
+   ]
+  },
+  "examples": [
+   {
+    "en": "The medicine left a bitter taste in her mouth.",
+    "cn": "药在她嘴里留下了苦味。"
+   },
+   {
+    "en": "Losing the match was a bitter experience.",
+    "cn": "输掉那场比赛是一次痛苦的经历。"
+   },
+   {
+    "en": "A bitter wind swept the empty street.",
+    "cn": "一阵刺骨的寒风扫过空荡的街道。"
+   }
+  ],
+  "dict_mnemonic": {
+   "note": "拆词记忆 · 非词源",
+   "text": "bitter 与 bite 同源，苦得像被咬了一口，所以苦味和痛苦都用它。",
+   "word": "bitter"
+  },
+  "root": "bitter 源自古英语 biter，与 bitan（咬）同根，本义「味道尖锐刺舌」；中古英语起扩展到痛苦与怨恨，后来又形容严寒。",
+  "sensesIntro": {
+   "en": "A biting taste turned into a biting feeling and a biting wind.",
+   "cn": "刺舌的味道，变成了刺心的感受，也变成了刺骨的风。"
+  },
+  "semanticMap": {
+   "core": {
+    "en": "CORE IMAGE: a face wrinkled after tasting bitter medicine.",
+    "cn": "核心意象：尝到苦药后皱起的脸。"
+   },
+   "chain": [
+    "TASTE",
+    "SHARP",
+    "MOUTH",
+    "PAIN",
+    "ANGER",
+    "COLD"
+   ],
+   "branches": [
+    {
+     "senses": "01",
+     "en": "a bitter taste",
+     "cn": "苦味"
+    },
+    {
+     "senses": "01",
+     "en": "bitter medicine",
+     "cn": "苦药"
+    },
+    {
+     "senses": "02",
+     "en": "a bitter loss",
+     "cn": "痛苦的失败"
+    },
+    {
+     "senses": "03",
+     "en": "bitter words",
+     "cn": "怨恨的话"
+    },
+    {
+     "senses": "04",
+     "en": "a bitter wind",
+     "cn": "刺骨的寒风"
+    }
+   ]
+  },
+  "affixes": {
+   "intro": {
+    "en": "Bitter gains adverbs and nouns from two common suffixes.",
+    "cn": "bitter 加上两个常见后缀，就得到副词与名词。"
+   },
+   "latinIntro": {
+    "en": "The base is Old English; the Latin items below are related in meaning.",
+    "cn": "词基来自古英语，下面的拉丁词只在意思上相关。"
+   },
+   "items": [
+    {
+     "word": "bitter",
+     "structure": "Old English biter",
+     "meaning": "sharp to the taste",
+     "meaningCN": "味道发苦",
+     "example": "a bitter taste",
+     "exampleCN": "苦味"
+    },
+    {
+     "word": "bitterly",
+     "structure": "bitter + -ly",
+     "meaning": "in a bitter way",
+     "meaningCN": "痛苦地；怨恨地",
+     "example": "weep bitterly",
+     "exampleCN": "痛哭"
+    },
+    {
+     "word": "bitterness",
+     "structure": "bitter + -ness",
+     "meaning": "the state of being bitter",
+     "meaningCN": "苦味；怨恨",
+     "example": "deep bitterness",
+     "exampleCN": "深深的怨恨"
+    },
+    {
+     "word": "bite",
+     "structure": "Old English bitan",
+     "meaning": "to cut with the teeth",
+     "meaningCN": "咬",
+     "example": "bite an apple",
+     "exampleCN": "咬苹果"
+    },
+    {
+     "word": "sour",
+     "structure": "Old English sur",
+     "meaning": "sharp and acidic",
+     "meaningCN": "酸的",
+     "example": "a sour lemon",
+     "exampleCN": "酸柠檬"
+    },
+    {
+     "word": "sweet",
+     "structure": "Old English swete",
+     "meaning": "having a sugary taste",
+     "meaningCN": "甜的",
+     "example": "a sweet peach",
+     "exampleCN": "甜桃"
+    },
+    {
+     "word": "harsh",
+     "structure": "Middle English harsk",
+     "meaning": "rough and unkind",
+     "meaningCN": "严酷的",
+     "example": "harsh words",
+     "exampleCN": "严厉的话"
+    },
+    {
+     "word": "resent",
+     "structure": "Latin re- + sentire",
+     "meaning": "to feel angry about a wrong",
+     "meaningCN": "怨恨",
+     "example": "resent a decision",
+     "exampleCN": "怨恨一个决定"
+    }
+   ],
+   "latinEntries": []
+  }
+ },
+ {
+  "word": "bitterly",
+  "ipa_uk": "/ˈbɪtəli/",
+  "ipa_us": "/ˈbɪtərli/",
+  "definition_zh": "痛苦地；怨恨地；严寒地",
+  "definition_en": "in a way that shows deep pain or anger",
+  "core_image": "转身离开时绷紧的嘴角",
+  "scene": "她转过身，嘴角绷得发白。She wept bitterly after the letter arrived.",
+  "sceneCN": "这里 bitterly 是「痛苦地」（第 1 个义项：带着深切痛苦的方式）；句意是信到之后她痛哭起来。",
+  "pos": [
+   {
+    "tag": "adv.",
+    "zh": "副词：痛苦地；怨恨地"
+   },
+   {
+    "tag": "adv.",
+    "zh": "副词：极其，用于修饰寒冷、失望等负面词"
+   }
+  ],
+  "collocations": [
+   {
+    "phrase": "weep bitterly",
+    "zh": "痛哭"
+   },
+   {
+    "phrase": "complain bitterly",
+    "zh": "愤愤地抱怨"
+   },
+   {
+    "phrase": "bitterly cold",
+    "zh": "严寒刺骨"
+   },
+   {
+    "phrase": "bitterly disappointed",
+    "zh": "深感失望"
+   },
+   {
+    "phrase": "bitterly regret",
+    "zh": "深为懊悔"
+   }
+  ],
+  "forms": [
+   {
+    "label": "无变化",
+    "form": "bitterly"
+   }
+  ],
+  "derivatives": [
+   {
+    "word": "bitterness",
+    "pos": "n.",
+    "zh": "苦味；痛苦；怨恨"
+   },
+   {
+    "word": "embitter",
+    "pos": "v.",
+    "zh": "使心怀怨恨，使处境更糟"
+   }
+  ],
+  "senses": [
+   {
+    "no": "01",
+    "title": "With deep pain",
+    "titleCN": "痛苦地",
+    "definition": "in a way that shows great sadness or suffering",
+    "definitionCN": "以表现出深切悲伤或痛苦的方式",
+    "example": "She wept bitterly after the letter arrived.",
+    "exampleCN": "信到之后她痛哭起来。",
+    "why": "The suffix -ly turned the taste word into a way of showing pain.",
+    "whyCN": "后缀 -ly 把这个味道词变成了表现痛苦的方式。"
+   },
+   {
+    "no": "02",
+    "title": "With strong resentment",
+    "titleCN": "怨恨地",
+    "definition": "in a way that shows anger and a sense of unfairness",
+    "definitionCN": "以表现出愤怒与不公之感的方式",
+    "example": "He complained bitterly about the decision.",
+    "exampleCN": "他愤愤地抱怨那个决定。",
+    "why": "The anger sense of bitter passed straight into the adverb.",
+    "whyCN": "bitter 的怨恨义直接进入了副词。"
+   },
+   {
+    "no": "03",
+    "title": "To an extreme degree",
+    "titleCN": "严寒地；极度地",
+    "definition": "used with words like cold to mean very severely",
+    "definitionCN": "与 cold 等词连用，表示程度极其严重",
+    "example": "It was bitterly cold on the platform.",
+    "exampleCN": "站台上冷得刺骨。",
+    "why": "Bitter cold was so sharp that the adverb became a general intensifier.",
+    "whyCN": "刺骨的寒冷太强烈，副词因而成了泛用的程度加强词。"
+   }
+  ],
+  "etymology": {
+   "intro": {
+    "en": "Bitterly is bitter plus the old adverb ending -ly.",
+    "cn": "bitterly 是 bitter 加上古老的副词词尾 -ly。"
+   },
+   "items": [
+    {
+     "era": "OLD ENGLISH",
+     "en": "biter meant sharp to the taste.",
+     "cn": "biter 意为味道尖锐的。"
+    },
+    {
+     "era": "OLD ENGLISH",
+     "en": "the ending -lice formed adverbs from adjectives.",
+     "cn": "词尾 -lice 把形容词变成副词。"
+    },
+    {
+     "era": "MIDDLE ENGLISH",
+     "en": "bitterliche became the modern bitterly.",
+     "cn": "bitterliche 演变为今天的 bitterly。"
+    },
+    {
+     "era": "FOURTEENTH CENTURY",
+     "en": "bitterly described weeping and grief.",
+     "cn": "bitterly 开始形容哭泣与悲伤。"
+    },
+    {
+     "era": "PRESENT DAY ENGLISH",
+     "en": "bitterly also strengthens cold and disappointment.",
+     "cn": "如今 bitterly 也用来加强寒冷与失望的程度。"
+    }
+   ]
+  },
+  "similar": {
+   "note": {
+    "en": "The look-alike group shares the -tterly shape; the near-meaning group gives other adverbs of intensity.",
+    "cn": "形近组共用 -tterly 的词形；近义组是其他表示程度的副词。"
+   },
+   "groups": [
+    {
+     "heading": "LOOK-ALIKE",
+     "entries": [
+      {
+       "word": "bitter",
+       "ipa": "/ˈbɪtə/",
+       "tag": "look-alike",
+       "definition": "having a sharp unpleasant taste",
+       "definitionCN": "苦的"
+      },
+      {
+       "word": "bitters",
+       "ipa": "/ˈbɪtəz/",
+       "tag": "look-alike",
+       "definition": "a bitter drink used in cocktails",
+       "definitionCN": "苦味酒"
+      },
+      {
+       "word": "latterly",
+       "ipa": "/ˈlætəli/",
+       "tag": "look-alike",
+       "definition": "recently or lately",
+       "definitionCN": "近来"
+      }
+     ]
+    },
+    {
+     "heading": "NEAR MEANING",
+     "entries": [
+      {
+       "word": "sorely",
+       "ipa": "/ˈsɔːli/",
+       "tag": "near synonym",
+       "definition": "very much or severely",
+       "definitionCN": "极度地"
+      },
+      {
+       "word": "deeply",
+       "ipa": "/ˈdiːpli/",
+       "tag": "near synonym",
+       "definition": "to a great degree",
+       "definitionCN": "深深地"
+      },
+      {
+       "word": "harshly",
+       "ipa": "/ˈhɑːʃli/",
+       "tag": "related",
+       "definition": "in a cruel or severe way",
+       "definitionCN": "严厉地"
+      }
+     ]
+    }
+   ]
+  },
+  "mnemonics": {
+   "normalIntro": {
+    "en": "Bitterly tells how something bitter is done or felt.",
+    "cn": "bitterly 说明一件苦事是以怎样的方式发生或被感受的。"
+   },
+   "normal": [
+    {
+     "en": "Add -ly to bitter to get the adverb.",
+     "cn": "bitter 加 -ly 就是副词。"
+    },
+    {
+     "en": "Weep bitterly is the most common pairing.",
+     "cn": "weep bitterly 是最常见的搭配。"
+    },
+    {
+     "en": "Bitterly cold means extremely cold.",
+     "cn": "bitterly cold 表示冷到极点。"
+    },
+    {
+     "en": "Complain bitterly shows lasting anger.",
+     "cn": "complain bitterly 显出积压的怒气。"
+    },
+    {
+     "en": "The adverb never changes form.",
+     "cn": "这个副词形式从不变化。"
+    }
+   ],
+   "abstract": [
+    {
+     "en": "See a letter held in shaking hands.",
+     "cn": "想象一封信被颤抖的手捏着。"
+    },
+    {
+     "en": "See someone arguing with a tight jaw.",
+     "cn": "想象有人绷着下巴争辩。"
+    },
+    {
+     "en": "See breath turning white on a frozen platform.",
+     "cn": "想象在冰冷的站台上呼出白气。"
+    }
+   ]
+  },
+  "examples": [
+   {
+    "en": "She wept bitterly after the letter arrived.",
+    "cn": "信到之后她痛哭起来。"
+   },
+   {
+    "en": "He complained bitterly about the decision.",
+    "cn": "他愤愤地抱怨那个决定。"
+   },
+   {
+    "en": "It was bitterly cold on the platform.",
+    "cn": "站台上冷得刺骨。"
+   }
+  ],
+  "dict_mnemonic": {
+   "note": "拆词记忆 · 非词源",
+   "text": "bitter 是苦，ly 是副词尾巴，苦到心里，就成了痛苦地、怨恨地。",
+   "word": "bitterly"
+  },
+  "root": "bitterly 由形容词 bitter 加副词后缀 -ly 构成，-ly 源自古英语 -lice；本义「带苦味地」，中古英语起引申为痛苦地、怨恨地，并常与 cold 连用表示严寒。",
+  "sensesIntro": {
+   "en": "One adverb carries grief, resentment and biting cold.",
+   "cn": "一个副词同时承载悲苦、怨恨与刺骨的严寒。"
+  },
+  "semanticMap": {
+   "core": {
+    "en": "CORE IMAGE: a mouth tightened while turning away.",
+    "cn": "核心意象：转身离开时绷紧的嘴角。"
+   },
+   "chain": [
+    "BITTER",
+    "TASTE",
+    "GRIEF",
+    "ANGER",
+    "COLD",
+    "DEGREE"
+   ],
+   "branches": [
+    {
+     "senses": "01",
+     "en": "weep bitterly",
+     "cn": "痛哭"
+    },
+    {
+     "senses": "01",
+     "en": "regret bitterly",
+     "cn": "深为懊悔"
+    },
+    {
+     "senses": "02",
+     "en": "complain bitterly",
+     "cn": "愤愤地抱怨"
+    },
+    {
+     "senses": "03",
+     "en": "bitterly cold",
+     "cn": "严寒刺骨"
+    },
+    {
+     "senses": "03",
+     "en": "bitterly disappointed",
+     "cn": "极度失望"
+    }
+   ]
+  },
+  "affixes": {
+   "intro": {
+    "en": "Bitterly is a regular -ly adverb, so its spelling follows a clear rule.",
+    "cn": "bitterly 是规则的 -ly 副词，拼写遵循清楚的规则。"
+   },
+   "latinIntro": {
+    "en": "The base is Old English; the Latin items below are related in meaning.",
+    "cn": "词基来自古英语，下面的拉丁词只在意思上相关。"
+   },
+   "items": [
+    {
+     "word": "bitterly",
+     "structure": "bitter + -ly",
+     "meaning": "in a bitter manner",
+     "meaningCN": "痛苦地",
+     "example": "weep bitterly",
+     "exampleCN": "痛哭"
+    },
+    {
+     "word": "bitter",
+     "structure": "Old English biter",
+     "meaning": "sharp to the taste",
+     "meaningCN": "苦的",
+     "example": "a bitter taste",
+     "exampleCN": "苦味"
+    },
+    {
+     "word": "bitterness",
+     "structure": "bitter + -ness",
+     "meaning": "deep resentment",
+     "meaningCN": "怨恨",
+     "example": "hidden bitterness",
+     "exampleCN": "隐藏的怨恨"
+    },
+    {
+     "word": "embitter",
+     "structure": "em- + bitter",
+     "meaning": "to make someone resentful",
+     "meaningCN": "使人心怀怨恨",
+     "example": "embitter a dispute",
+     "exampleCN": "使争端更添怨恨"
+    },
+    {
+     "word": "sorely",
+     "structure": "sore + -ly",
+     "meaning": "very much",
+     "meaningCN": "极度地",
+     "example": "sorely missed",
+     "exampleCN": "被深深怀念"
+    },
+    {
+     "word": "deeply",
+     "structure": "deep + -ly",
+     "meaning": "to a great degree",
+     "meaningCN": "深深地",
+     "example": "deeply moved",
+     "exampleCN": "深受感动"
+    },
+    {
+     "word": "harshly",
+     "structure": "harsh + -ly",
+     "meaning": "in a cruel way",
+     "meaningCN": "严厉地",
+     "example": "speak harshly",
+     "exampleCN": "说话严厉"
+    },
+    {
+     "word": "cold",
+     "structure": "Old English cald",
+     "meaning": "having a low temperature",
+     "meaningCN": "寒冷的",
+     "example": "a cold night",
+     "exampleCN": "寒冷的夜晚"
+    }
+   ],
+   "latinEntries": []
+  }
+ }
+]
