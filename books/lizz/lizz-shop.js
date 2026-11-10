@@ -329,20 +329,21 @@
     const used = shop.feed.date === today ? shop.feed.used : 0;
     const available = Math.max(0, credits - used);
     const lizz = S.load();
-    const food = clampInt(lizz.food, 0, S.FOOD_CAP);
-    const room = Math.max(0, S.FOOD_CAP - food);
-    const canFeed = available > 0 && room > 0;
+    // 库存无上限：永远可以继续投喂叠加
+    const food = Math.max(0, Math.floor(Number(lizz.food) || 0));
+    const room = Infinity;
+    const canFeed = available > 0;
     return {
       available,
       used,
       credits,
       counted,
       food,
-      cap: S.FOOD_CAP,
+      cap: Infinity,
       room,
       needMore: Math.max(0, (used + 1) * FEED_WORDS - counted),
       canFeed,
-      reason: room <= 0 ? "full" : (available <= 0 ? "empty" : "ok")
+      reason: available <= 0 ? "empty" : "ok"
     };
   }
 
@@ -352,7 +353,8 @@
 
     let nextFood = 0;
     S.update((state) => {
-      state.food = Math.min(S.FOOD_CAP, clampInt(state.food, 0, S.FOOD_CAP) + 1);
+      // 库存无上限：只叠加，不再封顶
+      state.food = Math.max(0, Math.floor(Number(state.food) || 0)) + 1;
       state.foodReacted = state.food;
       const shop = normalizeShop(state.shop);
       const today = todayKey();

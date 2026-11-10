@@ -242,21 +242,74 @@
     else hideWidget();
   }
 
-  /* 碗里的食物：state.food 记份数（上限 S.FOOD_CAP），最多画 3 份 */
+  /* 碗里的饼干：state.food 记库存（无上限），碗里最多画 S.COOKIE_VISIBLE_MAX 块 */
   function renderFood(animate) {
     if (!widget) return;
     const bowl = widget.querySelector(".lz-lizz-bowl");
     if (!bowl) return;
     const count = state ? Number(state.food) || 0 : 0;
-    const shown = Math.min(3, count);
+    const shown = Math.min(S.COOKIE_VISIBLE_MAX || 12, count);
     bowl.setAttribute("data-food", String(count));
     Array.prototype.forEach.call(bowl.querySelectorAll(".lz-food"), (el, index) => {
       el.style.display = index >= shown ? "none" : "";
     });
-    if (animate && shown > 0) {
+    renderBadge(count);
+    applyMood(count);
+    if (animate && count > 0) {
       bowl.classList.remove("is-pop");
       void bowl.offsetWidth;
       bowl.classList.add("is-pop");
+    }
+  }
+
+  /* 碗角标：库存超过可见块数时显示实际总数 */
+  function renderBadge(count) {
+    if (!widget) return;
+    const bowl = widget.querySelector(".lz-lizz-bowl");
+    if (!bowl) return;
+    let badge = bowl.querySelector(".lz-bowl-badge");
+    if (!badge) return;
+    const shown = Math.min(S.COOKIE_VISIBLE_MAX || 12, count);
+    if (count > shown && shown >= (S.COOKIE_VISIBLE_MAX || 12)) {
+      badge.hidden = false;
+      badge.textContent = `🍪×${count}`;
+    }
+    // 其余角标交给喂食模块（lz-feed.js refreshBadge）管理，这里不隐藏它
+  }
+
+  /* 按库存档位切换表情：≥5 块“不可置信”，≥10 块“幸福到发懵”（更夸张） */
+  function applyMood(count) {
+    if (!widget) return;
+    const mood = S.moodFor(count);
+    widget.classList.toggle("is-shock", mood === "unbelievable" || mood === "overjoyed");
+    widget.classList.toggle("is-overjoyed", mood === "overjoyed");
+  }
+
+  /* 新词 → 饼干：按 readAppProgress() 的 wordsToday 增量结算，直接进碗（无上限） */
+  function checkCookieProgress() {
+    if (!state) return;
+    const progress = S.readAppProgress();
+    if (!progress || !progress.date) return;
+    if (!state.cookieSeen || state.cookieSeen.date !== progress.date) {
+      // 新的一天：以当天当前进度为基线，历史进度不补发饼干
+      state.cookieSeen = { date: progress.date, wordsToday: progress.wordsToday };
+      S.save(state);
+      return;
+    }
+    const delta = progress.wordsToday - state.cookieSeen.wordsToday;
+    if (delta > 0) {
+      state.cookieSeen.wordsToday = progress.wordsToday;
+      state.food = (Number(state.food) || 0) + delta * (S.COOKIE_PER_WORD || 1);
+      if (state.foodReacted !== state.food && state.mode === "active") {
+        // 新饼干入碗：星星眼 + 傲娇，同批只反应一次
+        celebrateFood(500);
+      }
+      S.save(state);
+      renderFood(true);
+    } else if (delta < 0) {
+      // 进度被重置：只校准基线，不回收已入碗的饼干
+      state.cookieSeen.wordsToday = progress.wordsToday;
+      S.save(state);
     }
   }
 
@@ -533,7 +586,8 @@
 
   function onGroupCompleted() {
     if (!state) return;
-    state.food = Math.min(S.FOOD_CAP, (Number(state.food) || 0) + 1);
+    // 完成一组额外奖励 1 块饼干（新词结算另算）；库存无上限，直接叠加
+    state.food = (Number(state.food) || 0) + 1;
     state.praiseAt = new Date().toISOString();
     const wasHidden = state.mode === "hidden";
     if (wasHidden) {
@@ -626,7 +680,29 @@
       }
     }
     checkGroupProgress();
+    checkCookieProgress();
+    eatCookies();
     syncVisibility();
+  }
+
+  /* Lizz 自己吃饼干：库存 > 0 且今天没吃满 COOKIE_EAT_CAP 时，隔一会儿吃一块 */
+  let lastEatAt = 0;
+  function eatCookies() {
+    if (!state || state.mode !== "active") return;
+    if (TUT.isOpen()) return;
+    const now = Date.now();
+    if (now - lastEatAt < 8000) return; // 约 8 秒吃一块
+    const room = typeof S.eatRoom === "function" ? S.eatRoom(state) : 0;
+    if (room <= 0) return;
+    lastEatAt = now;
+    state.food = (Number(state.food) || 0) - 1;
+    state.eatenToday = (S.clampEat ? S.clampEat(state.eatenToday) : state.eatenToday) + 1;
+    if (state.eatenToday === S.COOKIE_EAT_CAP) {
+      // 恰好吃满今天上限：说一句吃饱了
+      ruleBubble([pickLine(S.LINES.foodFull || S.LINES.click, "lastThanks")], 4200);
+    }
+    S.save(state);
+    renderFood(true);
   }
 
   /* ============================================================

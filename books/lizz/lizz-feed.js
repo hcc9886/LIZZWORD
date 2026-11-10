@@ -3,7 +3,7 @@
    - 点击碗不会触发狐狸本体的连点计数
    - 用“今天背过的 10 个新词”换 1 次投喂机会
    - 小卡非模态、9 秒自动收起，不打断背词主流程
-   - 食物仍受 FOOD_CAP = 5 限制，跨天重置投喂次数
+   - 库存无上限，背得越多碗里叠得越多；Lizz 自己一天最多吃 12 块
    ============================================================ */
 (function () {
   "use strict";
@@ -113,17 +113,13 @@
     let actionLabel = "喂给它";
     let disabled = false;
 
-    if (status.room <= 0) {
-      body = `<p class="lz-feed-text">碗里已经堆得满满的…Lizz 摸了摸肚子，说真的吃不下了。</p>`;
-      actionLabel = "碗满啦";
-      disabled = true;
-    } else if (status.available <= 0) {
+    if (status.available <= 0) {
       body = `<p class="lz-feed-text">今天已经背了 <b>${status.counted}</b> 个新词。再背 <b>${status.needMore}</b> 个，就能换一份小点心。</p>`;
       actionLabel = `还差 ${status.needMore} 个词`;
       disabled = true;
     } else {
       body = `<p class="lz-feed-text">用今天背过的 <b>${SHOP.FEED_WORDS}</b> 个新词，换一份小点心喂给 Lizz？</p>
-        <p class="lz-feed-sub">今日还能换 <b>${status.available}</b> 次 · 碗里已有 ${status.food} 份</p>`;
+        <p class="lz-feed-sub">今日还能换 <b>${status.available}</b> 次 · 碗里已有 ${status.food} 块（背得越多她越开心）</p>`;
     }
 
     card = document.createElement("div");

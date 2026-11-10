@@ -4,6 +4,8 @@
    - 装扮商店写在同一个 key 的 shop 字段；保存时自动合并磁盘上的最新 shop，
      避免 lizz.js 的旧内存状态覆盖刚买到的装扮或刚赚到的积分
    - 连点 25 次躲起来，背完 10 个单词后悄悄回来（不再有“彻底消失到次日”）
+   - 小饼干：每背完 1 个新词 +1 块（库存无上限），每天最多吃掉 12 块；
+     碗里 ≥5 块时露出“不可置信”的表情
    - 30 种颜文字与 Lizz 台词
    - 内置简笔小狐狸 SVG（不新增图片文件；仍保留 lizz.png 替换槽位）
    ============================================================ */
@@ -146,6 +148,11 @@
       "嗯？",
       "别、别一直点…",
       "我在。"
+    ],
+    foodFull: [
+      "今天吃够了…剩下的明天再吃。",
+      "（摸摸肚子）12 块是极限了…明天再吃。",
+      "吃、吃饱了…剩下的先存着，坏不了。"
     ]
   };
 
@@ -174,11 +181,21 @@
       <ellipse cx="50" cy="48" rx="13" ry="9.5" fill="#fff"/>
 
       <!-- 怯生生的眉眼 -->
-      <path d="M36 31q3-3 7-1M64 31q-3-3-7-1" fill="none" stroke="#4a3b32" stroke-width="1.5" stroke-linecap="round" opacity=".7"/>
-      <circle cx="41.5" cy="37" r="2.6" fill="#4a3b32"/>
-      <circle cx="58.5" cy="37" r="2.6" fill="#4a3b32"/>
-      <circle cx="42.4" cy="36.1" r=".9" fill="#fff"/>
-      <circle cx="59.4" cy="36.1" r=".9" fill="#fff"/>
+      <path class="lz-fox-brow" d="M36 31q3-3 7-1M64 31q-3-3-7-1" fill="none" stroke="#4a3b32" stroke-width="1.5" stroke-linecap="round" opacity=".7"/>
+      <circle class="lz-fox-eye" cx="41.5" cy="37" r="2.6" fill="#4a3b32"/>
+      <circle class="lz-fox-eye" cx="58.5" cy="37" r="2.6" fill="#4a3b32"/>
+      <circle class="lz-fox-glint" cx="42.4" cy="36.1" r=".9" fill="#fff"/>
+      <circle class="lz-fox-glint" cx="59.4" cy="36.1" r=".9" fill="#fff"/>
+
+      <!-- 不可置信：瞪大的眼睛 + 张开的嘴（stock ≥ COOKIE_TIERS 的 5 块档） -->
+      <g class="lz-fox-shock" aria-hidden="true">
+        <circle class="lz-shock-eye" cx="41.5" cy="36.6" r="5" fill="#fff" stroke="#4a3b32" stroke-width="1.6"/>
+        <circle class="lz-shock-eye" cx="58.5" cy="36.6" r="5" fill="#fff" stroke="#4a3b32" stroke-width="1.6"/>
+        <circle cx="41.5" cy="37.3" r="1.5" fill="#4a3b32"/>
+        <circle cx="58.5" cy="37.3" r="1.5" fill="#4a3b32"/>
+        <ellipse cx="50" cy="51.2" rx="3" ry="3.8" fill="#4a3b32"/>
+        <path d="M29.5 23.5l-2.2-4M70.5 23.5l2.2-4" fill="none" stroke="#4a3b32" stroke-width="1.6" stroke-linecap="round"/>
+      </g>
 
       <!-- 星星眼：默认隐藏，看到碗里有食物时短暂出现 -->
       <g class="lz-fox-star-eyes" aria-hidden="true">
@@ -187,38 +204,78 @@
         <path class="lz-spark lz-spark-right" d="M73 25l1 2.6 2.6 1-2.6 1-1 2.6-1-2.6-2.6-1 2.6-1z" fill="#ffe8a3" stroke="#f4b26f" stroke-width=".8"/>
         <path class="lz-spark lz-spark-left" d="M27 22l.7 1.8 1.8.7-1.8.7-.7 1.8-.7-1.8-1.8-.7 1.8-.7z" fill="#ffe8a3" stroke="#f4b26f" stroke-width=".8"/>
       </g>
-      <ellipse cx="33" cy="45" rx="4" ry="2.4" fill="#f7b2b2" opacity=".8"/>
-      <ellipse cx="67" cy="45" rx="4" ry="2.4" fill="#f7b2b2" opacity=".8"/>
-      <path d="M47.6 45.5h4.8l-2.4 2.8z" fill="#4a3b32"/>
-      <path d="M48.4 50.5q1.6 2.4 3.2 0" fill="none" stroke="#4a3b32" stroke-width="1.5" stroke-linecap="round"/>
+      <ellipse class="lz-fox-blush lz-fox-blush-left" cx="33" cy="45" rx="4" ry="2.4" fill="#f7b2b2" opacity=".8"/>
+      <ellipse class="lz-fox-blush lz-fox-blush-right" cx="67" cy="45" rx="4" ry="2.4" fill="#f7b2b2" opacity=".8"/>
+      <path class="lz-fox-nose" d="M47.6 45.5h4.8l-2.4 2.8z" fill="#4a3b32"/>
+      <path class="lz-fox-mouth" d="M48.4 50.5q1.6 2.4 3.2 0" fill="none" stroke="#4a3b32" stroke-width="1.5" stroke-linecap="round"/>
     </svg>`;
 
   window.LIZZWORD_LIZZ_FOX_SVG = FOX_SVG;
 
+  /* ===== 小饼干换算与情绪档位 =====
+     饼干库存只由“新词数”决定，和每天吃掉的量分开记：
+     - COOKIE_PER_WORD：每背完 1 个新词 → 碗里 +1 块，库存无上限
+     - COOKIE_EAT_CAP：Lizz 每天最多吃掉 12 块，跨天重置
+     - COOKIE_VISIBLE_MAX：碗里最多画 12 块，更多只体现在角标数字
+     - COOKIE_TIERS：按库存量决定表情档位，5 块起“不可置信” */
+  const COOKIE_PER_WORD = 1;
+  const COOKIE_EAT_CAP = 12;
+  const COOKIE_VISIBLE_MAX = 12;
+  const COOKIE_TIERS = [
+    { min: 0, key: "normal", label: "平静" },
+    { min: 1, key: "happy", label: "开心" },
+    { min: 3, key: "excited", label: "兴奋" },
+    { min: 5, key: "unbelievable", label: "不可置信" },
+    { min: 10, key: "overjoyed", label: "幸福到发懵" }
+  ];
+
+  // 兼容旧字段名：food 现在是“库存”，不再有 5 份上限
+  const FOOD_CAP = Infinity;
+
+  // 今天已吃掉的饼干数，永远夹在 0–COOKIE_EAT_CAP
+  function clampEat(value) {
+    return Math.min(COOKIE_EAT_CAP, Math.max(0, Math.floor(Number(value) || 0)));
+  }
+
+  // 今天 Lizz 还能再吃几块（库存充足时也不超过每日上限）
+  function eatRoom(state) {
+    const stock = Math.max(0, Math.floor(Number(state && state.food) || 0));
+    const eaten = clampEat(state && state.eatenToday);
+    return Math.max(0, Math.min(stock, COOKIE_EAT_CAP - eaten));
+  }
+
+  function moodFor(count) {
+    const n = Math.max(0, Math.floor(Number(count) || 0));
+    let mood = COOKIE_TIERS[0].key;
+    COOKIE_TIERS.forEach((tier) => {
+      if (n >= tier.min) mood = tier.key;
+    });
+    return mood;
+  }
+
   /* ===== 简笔小碗 =====
-     默认是空的；每完成一组学习加一份食物（上限 FOOD_CAP 份，点击不消耗）。
-     碗里最多显示 3 份，超出部分只记在状态里。 */
-  const FOOD_CAP = 5;
+     碗里最多堆 COOKIE_VISIBLE_MAX 块饼干；底部 5 → 中间 4 → 顶部 3。 */
+  const COOKIE_LAYOUT = [
+    [7, 9], [13, 9], [19, 9], [25, 9], [31, 9],
+    [10, 5.5], [16.5, 5.5], [23, 5.5], [29.5, 5.5],
+    [14, 2], [20.5, 2], [27, 2]
+  ];
+  const COOKIE_ROTATIONS = [-6, 4, -3, 5, -5, 3, -4, 6, -2, 4, -6, 3];
+
+  function cookieSVG(index, xy, rotate) {
+    return `<g class="lz-food lz-food-${index}" transform="translate(${xy[0]} ${xy[1]}) rotate(${rotate} 4 2.4)">
+      <ellipse cx="4" cy="2.4" rx="4" ry="2.4" fill="#f4b26f" stroke="#4a3b32" stroke-width="1.3"/>
+      <circle cx="2.6" cy="1.9" r=".55" fill="#4a3b32"/>
+      <circle cx="5.2" cy="2.9" r=".55" fill="#4a3b32"/>
+    </g>`;
+  }
+
   const BOWL_SVG = `
     <svg viewBox="0 0 48 34" class="lz-bowl-svg" role="img" aria-label="Lizz 的小碗">
       <ellipse cx="24" cy="31" rx="15" ry="2.6" fill="#e8edf6"/>
       <path d="M6 12h36c0 9-7 15-18 15S6 21 6 12z" fill="#fffaf2" stroke="#4a3b32" stroke-width="2" stroke-linejoin="round"/>
-      <g class="lz-food lz-food-1" transform="translate(9 6)">
-        <path d="M0 3c2.4-3.6 6.2-3.6 8.6 0-2.4 3.6-6.2 3.6-8.6 0z" fill="#f4b26f" stroke="#4a3b32" stroke-width="1.5" stroke-linejoin="round"/>
-        <path d="M0 3l-3.2-2.2v4.4z" fill="#f4b26f" stroke="#4a3b32" stroke-width="1.5" stroke-linejoin="round"/>
-        <circle cx="6" cy="2.1" r=".65" fill="#4a3b32"/>
-      </g>
-      <g class="lz-food lz-food-2" transform="translate(18 5)">
-        <path d="M0 3c2.4-3.6 6.2-3.6 8.6 0-2.4 3.6-6.2 3.6-8.6 0z" fill="#f4b26f" stroke="#4a3b32" stroke-width="1.5" stroke-linejoin="round"/>
-        <path d="M0 3l-3.2-2.2v4.4z" fill="#f4b26f" stroke="#4a3b32" stroke-width="1.5" stroke-linejoin="round"/>
-        <circle cx="6" cy="2.1" r=".65" fill="#4a3b32"/>
-      </g>
-      <g class="lz-food lz-food-3" transform="translate(27 6.6)">
-        <path d="M0 3c2.4-3.6 6.2-3.6 8.6 0-2.4 3.6-6.2 3.6-8.6 0z" fill="#f4b26f" stroke="#4a3b32" stroke-width="1.5" stroke-linejoin="round"/>
-        <path d="M0 3l-3.2-2.2v4.4z" fill="#f4b26f" stroke="#4a3b32" stroke-width="1.5" stroke-linejoin="round"/>
-        <circle cx="6" cy="2.1" r=".65" fill="#4a3b32"/>
-      </g>
       <ellipse cx="24" cy="12" rx="18" ry="4.6" fill="#fffaf2" stroke="#4a3b32" stroke-width="2"/>
+      ${COOKIE_LAYOUT.map((xy, i) => cookieSVG(i, xy, COOKIE_ROTATIONS[i])).join("")}
     </svg>`;
 
   function pad(n) {
@@ -242,7 +299,7 @@
       hiddenBaseline: null,    // { date, groupsToday, wordsToday }
       lastFace: -1,
       softHideCount: 0,
-      food: 0,                 // 碗里食物份数（0–FOOD_CAP，点击不消耗；喂食会额外 +1）
+      food: 0,                 // 饼干库存（无上限；新词结算 + 喂食叠加，Lizz 每天最多吃掉 12 块）
       foodReacted: 0,          // 已经为“第几份食物”冒过星星眼，避免每次点击都重复
       groupSeen: null,         // { date, groupsToday }：识别“又完成了一组”
       thanksPending: false,    // 完成一组后等用户点一下道谢
@@ -250,6 +307,8 @@
       lastPraise: -1,
       lastThanks: -1,
       lastTsundere: -1,
+      eatenDate: "",           // Lizz 今天吃掉饼干的日期（跨天重置）
+      eatenToday: 0,           // 今天已吃掉的饼干数（上限 COOKIE_EAT_CAP）
       shop: null,              // 商店状态（points/owned/equipped...），由 lizz-shop.js 维护
       updatedAt: ""
     };
@@ -378,6 +437,16 @@
     state.lastThanks = Number.isInteger(state.lastThanks) ? state.lastThanks : -1;
     state.lastTsundere = Number.isInteger(state.lastTsundere) ? state.lastTsundere : -1;
 
+    // 每日吃掉数：跨天自动归零；同日不超过 COOKIE_EAT_CAP
+    let changed = false;
+    if (state.eatenDate !== dateKeyOf()) {
+      state.eatenDate = dateKeyOf();
+      state.eatenToday = 0;
+      changed = true;
+    } else {
+      state.eatenToday = clampEat(state.eatenToday);
+    }
+
     // 旧版本“彻底消失到次日”的兼容迁移：
     // mode=gone / goneUntil 一律视为可见，避免老用户升级后狐狸再也不出现。
     const legacyGone = state.mode === "gone";
@@ -385,7 +454,7 @@
     delete state.goneUntil;
     delete state.goneCount;
 
-    let changed = legacyGone;
+    if (legacyGone) changed = true;
 
     // 软隐藏：只有背完 10 个词才回来
     if (state.mode === "hidden") {
@@ -447,6 +516,12 @@
     FOX_SVG,
     BOWL_SVG,
     FOOD_CAP,
+    COOKIE_PER_WORD,
+    COOKIE_EAT_CAP,
+    COOKIE_VISIBLE_MAX,
+    moodFor,
+    clampEat,
+    eatRoom,
     dateKeyOf,
     readAppProgress,
     shouldReturn,

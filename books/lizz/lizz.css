@@ -1416,6 +1416,53 @@
   transition: opacity 0.18s ease;
 }
 
+/* ---------- 不可置信表情：碗里 ≥5 块饼干时 ---------- */
+.lz-fox-shock {
+  opacity: 0;
+  transition: opacity 0.2s ease;
+  transform-box: fill-box;
+  transform-origin: 50% 50%;
+}
+
+/* 不可置信时：遮住默认眼睛/嘴，亮出瞪大的双眼 */
+.lz-lizz.is-shock .lz-fox-eye,
+.lz-lizz.is-shock .lz-fox-glint,
+.lz-lizz.is-shock .lz-fox-mouth,
+.lz-lizz.is-shock .lz-fox-brow {
+  opacity: 0;
+}
+
+.lz-lizz.is-shock .lz-fox-shock {
+  opacity: 1;
+  animation: lz-shock-pop 0.45s cubic-bezier(0.2, 0.9, 0.3, 1.35) both;
+}
+
+/* 10 块以上“幸福到发懵”：瞳孔乱颤 + 脸红加深 */
+.lz-lizz.is-overjoyed .lz-shock-eye {
+  animation: lz-shock-dizzy 0.9s ease-in-out infinite;
+}
+
+.lz-lizz.is-overjoyed .lz-fox-blush {
+  opacity: 1;
+  animation: lz-blush-pulse 1.4s ease-in-out infinite;
+}
+
+@keyframes lz-shock-pop {
+  0% { transform: scale(0.55); opacity: 0; }
+  70% { transform: scale(1.12); opacity: 1; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+@keyframes lz-shock-dizzy {
+  0%, 100% { transform: translateX(-0.7px); }
+  50% { transform: translateX(0.7px); }
+}
+
+@keyframes lz-blush-pulse {
+  0%, 100% { opacity: 0.85; }
+  50% { opacity: 1; }
+}
+
 .lz-lizz.is-star-eyes .lz-fox-star-eyes {
   opacity: 1;
 }
