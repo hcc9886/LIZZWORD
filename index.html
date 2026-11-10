@@ -6458,6 +6458,16 @@
         distractorsFile: "./books/distractors.json",
         dailyOptions: [10, 15, 20],
         fallback: BOOK_FALLBACK
+      },
+      {
+        id: "shanghai-primary",
+        name: "上海小学一年级词汇",
+        intro: "上海小学一年级英语词汇：500 清单词 + 69 个补充词，共 569 条深度词条。",
+        bookFile: "./books/shanghai.json",
+        preparedFiles: Array.from({length: 33}, (_, i) => `./books/prepared/shanghai-${String(i+1).padStart(4,"0")}.json`),
+        distractorsFile: "./books/distractors.json",
+        dailyOptions: [5, 10, 15, 20],
+        fallback: null
       }
     ];
     const DEFAULT_BOOK_ID = BOOKS[0].id;
