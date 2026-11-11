@@ -1,9 +1,9 @@
 /* ============================================================
    Lizz · 碗点击喂食
    - 点击碗不会触发狐狸本体的连点计数
-   - 用“今天背过的 10 个新词”换 1 次投喂机会
+   - 自主投喂：碗里有多少块饼干就能喂多少次，喂一块少一块
    - 小卡非模态、9 秒自动收起，不打断背词主流程
-   - 库存无上限，背得越多碗里叠得越多；Lizz 自己一天最多吃 12 块
+   - 饼干每背 1 个新词 +1 块，库存每天清零
    ============================================================ */
 (function () {
   "use strict";
@@ -46,7 +46,7 @@
     bowl.removeAttribute("aria-hidden");
     bowl.setAttribute("role", "button");
     bowl.setAttribute("tabindex", "0");
-    bowl.setAttribute("aria-label", "给 Lizz 一份小点心（用今天背过的单词换）");
+    bowl.setAttribute("aria-label", "给 Lizz 喂一块小饼干");
 
     let badge = bowl.querySelector(".lz-bowl-badge");
     if (!badge) {
@@ -82,9 +82,9 @@
     } catch (error) {
       return;
     }
-    if (status.canFeed) {
+    if (status.food > 0) {
       badge.hidden = false;
-      badge.textContent = `🍪${status.available}`;
+      badge.textContent = `🍪${status.food}`;
       badge.classList.add("is-on");
     } else {
       badge.hidden = true;
@@ -113,13 +113,14 @@
     let actionLabel = "喂给它";
     let disabled = false;
 
-    if (status.available <= 0) {
-      body = `<p class="lz-feed-text">今天已经背了 <b>${status.counted}</b> 个新词。再背 <b>${status.needMore}</b> 个，就能换一份小点心。</p>`;
-      actionLabel = `还差 ${status.needMore} 个词`;
+    if (status.food <= 0) {
+      body = `<p class="lz-feed-text">碗里还是空的。每背完 <b>1</b> 个新词就会掉一块饼干，攒一攒再来喂吧。</p>
+        <p class="lz-feed-sub">今天已背 <b>${status.counted}</b> 个新词 · 饼干到第二天会清零</p>`;
+      actionLabel = "碗里空空的";
       disabled = true;
     } else {
-      body = `<p class="lz-feed-text">用今天背过的 <b>${SHOP.FEED_WORDS}</b> 个新词，换一份小点心喂给 Lizz？</p>
-        <p class="lz-feed-sub">今日还能换 <b>${status.available}</b> 次 · 碗里已有 ${status.food} 块（背得越多她越开心）</p>`;
+      body = `<p class="lz-feed-text">从碗里拿一块饼干喂给 Lizz？碗里现在有 <b>${status.food}</b> 块。</p>
+        <p class="lz-feed-sub">每背 1 个新词 +1 块 · 饼干到第二天会清零，今天多喂喂她吧</p>`;
     }
 
     card = document.createElement("div");

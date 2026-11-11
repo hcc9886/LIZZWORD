@@ -685,22 +685,17 @@
     syncVisibility();
   }
 
-  /* Lizz 自己吃饼干：库存 > 0 且今天没吃满 COOKIE_EAT_CAP 时，隔一会儿吃一块 */
+  /* Lizz 自己吃饼干：库存 > 0 时，隔一会儿吃一块（库存每天清零） */
   let lastEatAt = 0;
   function eatCookies() {
     if (!state || state.mode !== "active") return;
     if (TUT.isOpen()) return;
     const now = Date.now();
     if (now - lastEatAt < 8000) return; // 约 8 秒吃一块
-    const room = typeof S.eatRoom === "function" ? S.eatRoom(state) : 0;
-    if (room <= 0) return;
+    if ((Number(state.food) || 0) <= 0) return;
     lastEatAt = now;
     state.food = (Number(state.food) || 0) - 1;
     state.eatenToday = (S.clampEat ? S.clampEat(state.eatenToday) : state.eatenToday) + 1;
-    if (state.eatenToday === S.COOKIE_EAT_CAP) {
-      // 恰好吃满今天上限：说一句吃饱了
-      ruleBubble([pickLine(S.LINES.foodFull || S.LINES.click, "lastThanks")], 4200);
-    }
     S.save(state);
     renderFood(true);
   }

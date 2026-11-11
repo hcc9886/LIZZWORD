@@ -319,31 +319,29 @@
     return true;
   }
 
-  /* ===== 喂食 ===== */
+  /* ===== 喂食 =====
+     自主投喂：碗里有多少块就能喂多少次，不再消耗“背词换额度”；
+     额度只决定“今天攒了几块”，库存每天清零。 */
   function getFeedStatus() {
     tick(true);
     const shop = readShop();
     const today = todayKey();
     const counted = shop.words.date === today ? shop.words.counted : 0;
     const credits = Math.floor(counted / FEED_WORDS);
-    const used = shop.feed.date === today ? shop.feed.used : 0;
-    const available = Math.max(0, credits - used);
     const lizz = S.load();
-    // 库存无上限：永远可以继续投喂叠加
     const food = Math.max(0, Math.floor(Number(lizz.food) || 0));
-    const room = Infinity;
-    const canFeed = available > 0;
+    const canFeed = food > 0;
     return {
-      available,
-      used,
+      available: food,
+      used: 0,
       credits,
       counted,
       food,
       cap: Infinity,
-      room,
-      needMore: Math.max(0, (used + 1) * FEED_WORDS - counted),
+      room: food,
+      needMore: 0,
       canFeed,
-      reason: available <= 0 ? "empty" : "ok"
+      reason: food <= 0 ? "empty" : "ok"
     };
   }
 
@@ -353,14 +351,9 @@
 
     let nextFood = 0;
     S.update((state) => {
-      // 库存无上限：只叠加，不再封顶
-      state.food = Math.max(0, Math.floor(Number(state.food) || 0)) + 1;
+      // 自主投喂：从碗里取一块喂给 Lizz（Lizz 吃掉，库存 -1）
+      state.food = Math.max(0, (Math.floor(Number(state.food) || 0)) - 1);
       state.foodReacted = state.food;
-      const shop = normalizeShop(state.shop);
-      const today = todayKey();
-      if (shop.feed.date !== today) shop.feed = { date: today, used: 0 };
-      shop.feed.used += 1;
-      state.shop = shop;
       nextFood = state.food;
     });
 

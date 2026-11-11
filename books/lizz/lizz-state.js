@@ -4,8 +4,8 @@
    - 装扮商店写在同一个 key 的 shop 字段；保存时自动合并磁盘上的最新 shop，
      避免 lizz.js 的旧内存状态覆盖刚买到的装扮或刚赚到的积分
    - 连点 25 次躲起来，背完 10 个单词后悄悄回来（不再有“彻底消失到次日”）
-   - 小饼干：每背完 1 个新词 +1 块（库存无上限），每天最多吃掉 12 块；
-     碗里 ≥5 块时露出“不可置信”的表情
+   - 小饼干：每背完 1 个新词 +1 块（库存无上限），玩家可随时自主投喂；
+     库存每天清零，跨天后碗里回到 0 块重新攒；
    - 30 种颜文字与 Lizz 台词
    - 内置简笔小狐狸 SVG（不新增图片文件；仍保留 lizz.png 替换槽位）
    ============================================================ */
@@ -213,13 +213,12 @@
   window.LIZZWORD_LIZZ_FOX_SVG = FOX_SVG;
 
   /* ===== 小饼干换算与情绪档位 =====
-     饼干库存只由“新词数”决定，和每天吃掉的量分开记：
-     - COOKIE_PER_WORD：每背完 1 个新词 → 碗里 +1 块，库存无上限
-     - COOKIE_EAT_CAP：Lizz 每天最多吃掉 12 块，跨天重置
+     饼干库存只由“新词数”决定，玩家可随时自主投喂：
+     - COOKIE_PER_WORD：每背完 1 个新词 → 碗里 +1 块，当日库存无上限
+     - 库存每天清零：跨天后碗里回到 0 块，重新攒
      - COOKIE_VISIBLE_MAX：碗里最多画 12 块，更多只体现在角标数字
      - COOKIE_TIERS：按库存量决定表情档位，5 块起“不可置信” */
   const COOKIE_PER_WORD = 1;
-  const COOKIE_EAT_CAP = 12;
   const COOKIE_VISIBLE_MAX = 12;
   const COOKIE_TIERS = [
     { min: 0, key: "normal", label: "平静" },
@@ -232,16 +231,9 @@
   // 兼容旧字段名：food 现在是“库存”，不再有 5 份上限
   const FOOD_CAP = Infinity;
 
-  // 今天已吃掉的饼干数，永远夹在 0–COOKIE_EAT_CAP
+  // 今天已吃掉的饼干数：保留字段兼容旧存档，不再设上限
   function clampEat(value) {
-    return Math.min(COOKIE_EAT_CAP, Math.max(0, Math.floor(Number(value) || 0)));
-  }
-
-  // 今天 Lizz 还能再吃几块（库存充足时也不超过每日上限）
-  function eatRoom(state) {
-    const stock = Math.max(0, Math.floor(Number(state && state.food) || 0));
-    const eaten = clampEat(state && state.eatenToday);
-    return Math.max(0, Math.min(stock, COOKIE_EAT_CAP - eaten));
+    return Math.max(0, Math.floor(Number(value) || 0));
   }
 
   function moodFor(count) {
@@ -308,7 +300,8 @@
       lastThanks: -1,
       lastTsundere: -1,
       eatenDate: "",           // Lizz 今天吃掉饼干的日期（跨天重置）
-      eatenToday: 0,           // 今天已吃掉的饼干数（上限 COOKIE_EAT_CAP）
+      eatenToday: 0,           // 今天已吃掉的饼干数（保留字段，兼容旧存档）
+      foodDate: "",            // 饼干库存归属的日期（跨天清零）
       shop: null,              // 商店状态（points/owned/equipped...），由 lizz-shop.js 维护
       updatedAt: ""
     };
@@ -447,6 +440,14 @@
       state.eatenToday = clampEat(state.eatenToday);
     }
 
+    // 饼干库存每天清零：跨天后碗里回到 0 块重新攒
+    if (state.foodDate !== dateKeyOf()) {
+      state.foodDate = dateKeyOf();
+      state.food = 0;
+      state.foodReacted = 0;
+      changed = true;
+    }
+
     // 旧版本“彻底消失到次日”的兼容迁移：
     // mode=gone / goneUntil 一律视为可见，避免老用户升级后狐狸再也不出现。
     const legacyGone = state.mode === "gone";
@@ -517,11 +518,9 @@
     BOWL_SVG,
     FOOD_CAP,
     COOKIE_PER_WORD,
-    COOKIE_EAT_CAP,
     COOKIE_VISIBLE_MAX,
     moodFor,
     clampEat,
-    eatRoom,
     dateKeyOf,
     readAppProgress,
     shouldReturn,
