@@ -6487,6 +6487,16 @@
         distractorsFile: "./books/distractors.json",
         dailyOptions: [5, 10, 15, 20],
         fallback: null
+      },
+      {
+        id: "middle",
+        name: "初中核心词汇",
+        intro: "初中英语核心词汇 1,600 词，每词均为 22 键深度词条。",
+        bookFile: "./books/middle.json",
+        preparedFiles: Array.from({length: 80}, (_, i) => `./books/prepared/middle-${String(i+1).padStart(4,"0")}.json`),
+        distractorsFile: "./books/distractors.json",
+        dailyOptions: [5, 10, 15, 20],
+        fallback: null
       }
     ];
     const DEFAULT_BOOK_ID = BOOKS[0].id;
