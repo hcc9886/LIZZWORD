@@ -6468,6 +6468,25 @@
         distractorsFile: "./books/distractors.json",
         dailyOptions: [5, 10, 15, 20],
         fallback: null
+      },
+      {
+        id: "cet4",
+        name: "CET4 大学英语四级词汇",
+        intro: "大学英语四级核心词汇 4,500 词，每词均为 22 键深度词条。",
+        bookFile: "./books/cet4.json",
+        preparedFiles: (() => {
+          const missing = new Set(["0099", "0100", "0101", "0109", "0111", "0113"]);
+          const files = [];
+          for (let i = 1; i <= 116; i++) {
+            const id = String(i).padStart(4, "0");
+            if (!missing.has(id)) files.push(`./books/prepared/cet4-${id}.json`);
+          }
+          for (let i = 1; i <= 111; i++) files.push(`./books/prepared/cet4b-${String(i).padStart(4, "0")}.json`);
+          return files;
+        })(),
+        distractorsFile: "./books/distractors.json",
+        dailyOptions: [5, 10, 15, 20],
+        fallback: null
       }
     ];
     const DEFAULT_BOOK_ID = BOOKS[0].id;
