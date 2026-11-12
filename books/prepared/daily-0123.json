@@ -870,893 +870,6 @@
     }
   },
   {
-    "word": "statement",
-    "ipa_uk": "/ˈsteɪtmənt/",
-    "ipa_us": "/ˈsteɪtmənt/",
-    "definition_zh": "陈述；声明；说法；报表；结单",
-    "definition_en": "something said or written that gives information, or an official report of money or facts",
-    "core_image": "一方印着字的纸从机构窗口递出——白纸黑字，字字可查",
-    "scene": "月底，银行信件准时寄到家里。The bank statement showed every payment she had made that month.",
-    "sceneCN": "这里 statement 是「对账单；结单」（第 4 个义项：机构出具的正式报表）；句意为银行对账单列出了她当月的每一笔支出。",
-    "pos": [
-      {
-        "tag": "n.",
-        "zh": "名词：陈述；声明；报表"
-      }
-    ],
-    "collocations": [
-      {
-        "phrase": "an official statement",
-        "zh": "官方声明"
-      },
-      {
-        "phrase": "make a statement",
-        "zh": "发表声明；表明态度"
-      },
-      {
-        "phrase": "a bank statement",
-        "zh": "银行对账单"
-      },
-      {
-        "phrase": "a true statement",
-        "zh": "真话；真实陈述"
-      },
-      {
-        "phrase": "a fashion statement",
-        "zh": "时尚宣言"
-      },
-      {
-        "phrase": "issue a statement",
-        "zh": "发布声明"
-      }
-    ],
-    "forms": [
-      {
-        "label": "复数",
-        "form": "statements"
-      }
-    ],
-    "derivatives": [
-      {
-        "word": "state",
-        "pos": "v.",
-        "zh": "本词的动词基础，义为「陈述；说明」"
-      },
-      {
-        "word": "statemented",
-        "pos": "adj.",
-        "zh": "由本词加-ed 构成，义为「获正式教育评估的（英国特殊教育用语）」"
-      },
-      {
-        "word": "misstatement",
-        "pos": "n.",
-        "zh": "由 mis- 加本词构成，义为「错误陈述」"
-      }
-    ],
-    "senses": [
-      {
-        "no": "01",
-        "title": "Something said or written that gives information",
-        "titleCN": "陈述；表述",
-        "definition": "a sentence or set of words giving information or an opinion",
-        "definitionCN": "给出信息或观点的句子或词组",
-        "example": "The report contains several questionable statements.",
-        "exampleCN": "报告里有几处可疑的表述。",
-        "why": "Facts are set out in words, fixed like lines on a page.",
-        "whyCN": "事实以文字陈列，如纸上固定的行列。"
-      },
-      {
-        "no": "02",
-        "title": "An official public announcement",
-        "titleCN": "（官方）声明",
-        "definition": "a formal announcement made to the public or press",
-        "definitionCN": "面向公众或媒体的正式公告",
-        "example": "The company issued a statement about the safety recall.",
-        "exampleCN": "公司就安全召回发布了声明。",
-        "why": "The institution sets its words in an official frame.",
-        "whyCN": "机构把自己的话放进正式的框里。"
-      },
-      {
-        "no": "03",
-        "title": "An expression of attitude through dress or action",
-        "titleCN": "态度表达；时尚宣言",
-        "definition": "clothes, art, or actions that declare a personal stance",
-        "definitionCN": "借服装、艺术或行动宣示个人立场",
-        "example": "Her bright red coat was a real fashion statement.",
-        "exampleCN": "她那件鲜红大衣真是一场时尚宣言。",
-        "why": "What you wear is read like written words.",
-        "whyCN": "你的穿着如文字般被解读。"
-      },
-      {
-        "no": "04",
-        "title": "An official report of money or facts",
-        "titleCN": "报表；结单；清单",
-        "definition": "a printed record of money movements, sales, or facts over a period",
-        "definitionCN": "一段时间内资金流动、销售或事实的打印记录",
-        "example": "Check your statement before paying the bill.",
-        "exampleCN": "付账前先核对一下对账单。",
-        "why": "Numbers, like words, are set out in an official list.",
-        "whyCN": "数字与文字一样被陈列在正式单据上。"
-      },
-      {
-        "no": "05",
-        "title": "A formal sentence in logic or law",
-        "titleCN": "（逻辑/法律）命题；陈述",
-        "definition": "a sentence that can be judged true or false in logic, or a formal account in law",
-        "definitionCN": "逻辑中可判定真假的句子，或法律中的正式陈述",
-        "example": "In logic, every statement is either true or false.",
-        "exampleCN": "在逻辑学中，每个命题非真即假。",
-        "why": "The sentence is fixed in a frame where truth can be tested.",
-        "whyCN": "句子被固定在可检验真假的框架里。"
-      }
-    ],
-    "etymology": {
-      "intro": {
-        "en": "Statement is state plus -ment: words that are set out in a fixed, official form.",
-        "cn": "statement 即 state 加 -ment：以固定、正式形式陈列的话语。"
-      },
-      "items": [
-        {
-          "era": "PROTO-INDO-EUROPEAN",
-          "en": "The stand-root *sta- underlies state and statement.",
-          "cn": "「站立」词根 *sta- 是 state 与 statement 的基础。"
-        },
-        {
-          "era": "LATIN AND OLD FRENCH",
-          "en": "Latin stare grew into state via Old French estat, meaning a standing condition.",
-          "cn": "拉丁 stare 经古法语 estat 长出 state，意为「站立的状态」。"
-        },
-        {
-          "era": "ENGLISH, 16TH C.",
-          "en": "The verb state, \"to set out in words\", formed in English.",
-          "cn": "十六世纪英语形成动词 state「以文字陈明」。"
-        },
-        {
-          "era": "ENGLISH, 18TH C.",
-          "en": "Adding -ment gave statement: the words so set out.",
-          "cn": "加 -ment 构成 statement：如此陈明的言语。"
-        },
-        {
-          "era": "MODERN ENGLISH",
-          "en": "Bank statements, official statements, and fashion statements spread the noun widely.",
-          "cn": "银行结单、官方声明与时尚宣言让该名词广泛传播。"
-        }
-      ]
-    },
-    "similar": {
-      "note": {
-        "en": "Statement grows from the stand-root family and pairs with the say-family of announcement words.",
-        "cn": "statement 由「站立」词族长出，并与「言说」词族的公告类词配对。"
-      },
-      "groups": [
-        {
-          "heading": "LOOK-ALIKE",
-          "entries": [
-            {
-              "word": "state",
-              "ipa": "/steɪt/",
-              "tag": "same root",
-              "definition": "a condition, a country, or the verb to say formally",
-              "definitionCN": "状态；国家；陈述；statement 的词基"
-            },
-            {
-              "word": "misstatement",
-              "ipa": "/ˌmɪsˈsteɪtmənt/",
-              "tag": "derived form",
-              "definition": "a wrong statement",
-              "definitionCN": "错误陈述；由 mis- 加本词"
-            },
-            {
-              "word": "statute",
-              "ipa": "/ˈstætʃuːt/",
-              "tag": "spelling",
-              "definition": "a written law",
-              "definitionCN": "成文法；拼写相近但词源不同"
-            }
-          ]
-        },
-        {
-          "heading": "NEAR MEANING",
-          "entries": [
-            {
-              "word": "announcement",
-              "ipa": "/əˈnaʊnsmənt/",
-              "tag": "near meaning",
-              "definition": "a public notice of news",
-              "definitionCN": "公告；通知"
-            },
-            {
-              "word": "declaration",
-              "ipa": "/ˌdekləˈreɪʃən/",
-              "tag": "near meaning",
-              "definition": "a formal and public statement",
-              "definitionCN": "宣布；宣言"
-            },
-            {
-              "word": "assertion",
-              "ipa": "/əˈsɜːʃən/",
-              "tag": "near meaning",
-              "definition": "a confident claim made without proof",
-              "definitionCN": "断言；主张"
-            },
-            {
-              "word": "remark",
-              "ipa": "/rɪˈmɑːk/",
-              "tag": "near meaning",
-              "definition": "a casual spoken comment",
-              "definitionCN": "随口评论；与正式声明相对"
-            }
-          ]
-        }
-      ]
-    },
-    "mnemonics": {
-      "normalIntro": {
-        "en": "Five real hooks for statement and its state-root.",
-        "cn": "五条真实钩子帮助记住 statement 及其 state 词根。"
-      },
-      "normal": [
-        {
-          "en": "state + -ment: the words formally set out.",
-          "cn": "state + -ment：正式陈明的话语。"
-        },
-        {
-          "en": "a bank statement: money set out line by line.",
-          "cn": "bank statement：资金逐行陈列。"
-        },
-        {
-          "en": "make a statement: clothes can talk too.",
-          "cn": "make a statement：衣着也会说话。"
-        },
-        {
-          "en": "misstatement: the wrong words were set out.",
-          "cn": "misstatement：陈明错了的话。"
-        },
-        {
-          "en": "state and statement share the old stand-root.",
-          "cn": "state 与 statement 共享古老的「站立」词根。"
-        }
-      ],
-      "abstract": [
-        {
-          "en": "See a sealed envelope marked OFFICIAL STATEMENT.",
-          "cn": "看见封口盖着 OFFICIAL STATEMENT 的信封。"
-        },
-        {
-          "en": "Picture a ledger page ruled with straight lines.",
-          "cn": "想象一页划满直线的账册。"
-        },
-        {
-          "en": "Hear a spokesperson read calm words to the cameras.",
-          "cn": "听发言人面对镜头平静宣读。"
-        }
-      ]
-    },
-    "examples": [
-      {
-        "en": "Her statement to the police was short and clear.",
-        "cn": "她对警方的陈述简短清晰。"
-      },
-      {
-        "en": "The painting makes a bold statement about war.",
-        "cn": "这幅画对战争作出了大胆的表述。"
-      },
-      {
-        "en": "The monthly statement arrives by email now.",
-        "cn": "月度结单如今通过电子邮件送达。"
-      }
-    ],
-    "dict_mnemonic": {
-      "note": "谐音记忆 · 非词源",
-      "text": "「斯得特门特」——像「死白的门特」：白纸黑字，从门里递出的正式文书。",
-      "word": "statement"
-    },
-    "root": "statement 由动词 state「陈明」加名词后缀 -ment 构成；state 经古法语 estat 上溯拉丁 stare「站立」，属「站立」词族。",
-    "sensesIntro": {
-      "en": "Statement is words set out in a fixed frame: said, published, worn, printed, or tested for truth.",
-      "cn": "statement 是被固定框定后陈列的话语：说出、发布、穿上、打印或接受真伪检验。"
-    },
-    "semanticMap": {
-      "core": {
-        "en": "CORE IMAGE: words fixed into a formal frame and set out",
-        "cn": "核心意象：话语被固定进正式框架后陈列"
-      },
-      "chain": [
-        "SET OUT",
-        "FIX IN WORDS",
-        "PUBLISH",
-        "PRINT THE RECORD",
-        "DECLARE A STANCE",
-        "TEST FOR TRUTH"
-      ],
-      "branches": [
-        {
-          "senses": "01 · 05",
-          "en": "words judged by what they claim",
-          "cn": "据所言内容接受评判的话语"
-        },
-        {
-          "senses": "02",
-          "en": "the institution's public words",
-          "cn": "机构的公开言辞"
-        },
-        {
-          "senses": "03",
-          "en": "clothes and acts that read like words",
-          "cn": "如文字般被解读的衣着与行动"
-        },
-        {
-          "senses": "04",
-          "en": "numbers set out like words",
-          "cn": "如文字般陈列的数字"
-        },
-        {
-          "senses": "01",
-          "en": "the plain information sense",
-          "cn": "单纯的信息义项"
-        }
-      ]
-    },
-    "affixes": {
-      "intro": {
-        "en": "Statement is state with a suffix that turns action into a thing.",
-        "cn": "statement 是 state 加上把动作转为名词的后缀。"
-      },
-      "latinIntro": {
-        "en": "Latin stare, from the stand-root, is the deep base of state and statement.",
-        "cn": "拉丁 stare 出自「站立」词根，是 state 与 statement 的深层基础。"
-      },
-      "items": [
-        {
-          "word": "state",
-          "structure": "base verb",
-          "meaning": "to say formally and clearly",
-          "meaningCN": "正式陈述",
-          "example": "The minister stated her position clearly.",
-          "exampleCN": "部长清晰陈述了立场。"
-        },
-        {
-          "word": "-ment",
-          "structure": "noun suffix",
-          "meaning": "the thing produced by the action",
-          "meaningCN": "动作的产物",
-          "example": "Agreement and statement both end in -ment.",
-          "exampleCN": "agreement 与 statement 都以 -ment 结尾。"
-        },
-        {
-          "word": "mis-",
-          "structure": "negating prefix",
-          "meaning": "wrongly stated",
-          "meaningCN": "错误陈述",
-          "example": "The audit found a misstatement of costs.",
-          "exampleCN": "审计发现成本陈述有误。"
-        },
-        {
-          "word": "-ed",
-          "structure": "adjective suffix",
-          "meaning": "given a formal record, as in education",
-          "meaningCN": "获正式评估的",
-          "example": "A statemented child receives extra support.",
-          "exampleCN": "获正式评估的儿童可获额外支持。"
-        },
-        {
-          "word": "bank-",
-          "structure": "noun compound",
-          "meaning": "the record of account activity",
-          "meaningCN": "银行结单",
-          "example": "Her bank statement arrived on the first.",
-          "exampleCN": "她的银行结单一号到达。"
-        },
-        {
-          "word": "fashion-",
-          "structure": "noun compound",
-          "meaning": "clothes that declare identity",
-          "meaningCN": "时尚宣言",
-          "example": "Oversized glasses are a fashion statement.",
-          "exampleCN": "超大眼镜是一种时尚宣言。"
-        },
-        {
-          "word": "official-",
-          "structure": "noun compound",
-          "meaning": "words from an authority",
-          "meaningCN": "官方声明",
-          "example": "An official statement followed the accident.",
-          "exampleCN": "事故之后发布了官方声明。"
-        },
-        {
-          "word": "stare",
-          "structure": "Latin cognate",
-          "meaning": "to stand",
-          "meaningCN": "站立",
-          "example": "Latin stare is the deep root of state.",
-          "exampleCN": "拉丁 stare 是 state 的深层词根。"
-        }
-      ],
-      "latinEntries": [
-        {
-          "word": "stare",
-          "structure": "Latin verb",
-          "meaning": "to stand",
-          "meaningCN": "站立"
-        }
-      ],
-      "derivatives": [
-        {
-          "word": "misstatement",
-          "pos": "n.",
-          "zh": "由 mis- 加本词构成，义为「错误陈述」"
-        },
-        {
-          "word": "statemented",
-          "pos": "adj.",
-          "zh": "由本词加-ed 构成，义为「获正式教育评估的」"
-        }
-      ]
-    }
-  },
-  {
-    "word": "station",
-    "ipa_uk": "/ˈsteɪʃən/",
-    "ipa_us": "/ˈsteɪʃən/",
-    "definition_zh": "车站；站；所；局；驻地；电视台；派驻；安置",
-    "definition_en": "a place where a service stops and works, such as a railway stop, a police base, or a broadcasting office",
-    "core_image": "一方固定的驻点——火车在此停驻，警察在此坐镇，电波从此发出",
-    "scene": "傍晚的站台上，路灯次第亮起。We said goodbye on the platform of the small country station.",
-    "sceneCN": "这里 station 是「车站」（第 1 个义项：火车停靠的场所）；句意为我们在小乡站的月台上道别。",
-    "pos": [
-      {
-        "tag": "n.",
-        "zh": "名词：车站；站；所；局；岗位"
-      },
-      {
-        "tag": "v.",
-        "zh": "动词：派驻；安置"
-      }
-    ],
-    "collocations": [
-      {
-        "phrase": "a railway station",
-        "zh": "火车站"
-      },
-      {
-        "phrase": "a police station",
-        "zh": "警察局"
-      },
-      {
-        "phrase": "a radio station",
-        "zh": "广播电台"
-      },
-      {
-        "phrase": "a space station",
-        "zh": "空间站"
-      },
-      {
-        "phrase": "be stationed in",
-        "zh": "被派驻于"
-      },
-      {
-        "phrase": "a gas station",
-        "zh": "加油站"
-      }
-    ],
-    "forms": [
-      {
-        "label": "三单",
-        "form": "stations"
-      },
-      {
-        "label": "过去式",
-        "form": "stationed"
-      },
-      {
-        "label": "过去分词",
-        "form": "stationed"
-      },
-      {
-        "label": "现在分词",
-        "form": "stationing"
-      },
-      {
-        "label": "复数",
-        "form": "stations"
-      }
-    ],
-    "derivatives": [
-      {
-        "word": "stationary",
-        "pos": "adj.",
-        "zh": "与本词同根，义为「静止的；不动的」"
-      },
-      {
-        "word": "stationery",
-        "pos": "n.",
-        "zh": "与本词同根，义为「文具（原指在固定地点出售）」"
-      },
-      {
-        "word": "waystation",
-        "pos": "n.",
-        "zh": "由 way 加本词构成，义为「中途站」"
-      }
-    ],
-    "senses": [
-      {
-        "no": "01",
-        "title": "A place where trains stop",
-        "titleCN": "车站",
-        "definition": "a place with platforms where trains stop for passengers",
-        "definitionCN": "设有月台、供列车停靠载客的场所",
-        "example": "The train pulls into the station at seven.",
-        "exampleCN": "火车七点进站。",
-        "why": "The stop where trains stand fixed for a while.",
-        "whyCN": "列车停驻片刻的固定之点。"
-      },
-      {
-        "no": "02",
-        "title": "A base for a service",
-        "titleCN": "（警察、消防、护理）站；局；所",
-        "definition": "the building where a police, fire, or medical service works",
-        "definitionCN": "警察、消防或医疗服务的驻地建筑",
-        "example": "Report the theft at the nearest police station.",
-        "exampleCN": "请到最近的警察局报案。",
-        "why": "The service sits fixed in one building, like a train at its stop.",
-        "whyCN": "服务机构固定坐镇一栋建筑，如列车停靠其站。"
-      },
-      {
-        "no": "03",
-        "title": "A broadcasting office",
-        "titleCN": "电台；电视台",
-        "definition": "a company or place that sends out radio or television programs",
-        "definitionCN": "播送广播或电视节目的机构或场所",
-        "example": "The local station filmed the festival all day.",
-        "exampleCN": "当地电视台全天拍摄了庆典。",
-        "why": "Waves are sent out from one fixed point.",
-        "whyCN": "电波从一个固定之点发出。"
-      },
-      {
-        "no": "04",
-        "title": "A fixed post of duty",
-        "titleCN": "岗位；驻地",
-        "definition": "the fixed place or duty where a person or ship serves",
-        "definitionCN": "人员或舰船服役的固定地点或岗位",
-        "example": "The sailors rushed to their battle stations.",
-        "exampleCN": "水兵们迅速奔向各自的战斗岗位。",
-        "why": "The stand-root at its most literal: the spot where you stand.",
-        "whyCN": "「站立」词根最字面的呈现：你站立的地点。"
-      },
-      {
-        "no": "05",
-        "title": "A place with equipment for one purpose",
-        "titleCN": "（科学/补给）站",
-        "definition": "a place built for one purpose, such as research or fuel",
-        "definitionCN": "为科研、加油等单一目的而设的场所",
-        "example": "The research station sits on the polar ice.",
-        "exampleCN": "科考站坐落在极地冰原上。",
-        "why": "People and tools stand fixed where the work demands.",
-        "whyCN": "人立于工具所在之处，工作要求便在那里。"
-      },
-      {
-        "no": "06",
-        "title": "To send a person to a fixed post",
-        "titleCN": "派驻；安置",
-        "definition": "to send someone to a place for duty and keep them there",
-        "definitionCN": "派人前往某地执行任务并令其驻留",
-        "example": "Guards were stationed at every gate.",
-        "exampleCN": "每个大门都派了卫兵驻守。",
-        "why": "The noun of place becomes the act of placing.",
-        "whyCN": "地点名词化作安置的动作。"
-      }
-    ],
-    "etymology": {
-      "intro": {
-        "en": "Station is pure Latin stand-root: from stare \"to stand\" through stare per annum \"to stand firm for the year\", to a fixed post or stop.",
-        "cn": "station 是纯粹的拉丁「站立」词根：由 stare「站立」经 stare per annum「常年驻守」到固定的驻点或停靠处。"
-      },
-      "items": [
-        {
-          "era": "PROTO-INDO-EUROPEAN",
-          "en": "The root *sta-, \"to stand\", is the base.",
-          "cn": "词根 *sta-「站立」为词之基础。"
-        },
-        {
-          "era": "LATIN",
-          "en": "Latin statio meant a standing still, a post, or a watch.",
-          "cn": "拉丁语 statio 意为站立不动、驻点或哨位。"
-        },
-        {
-          "era": "OLD FRENCH AND ENGLISH",
-          "en": "Old French station entered English in the 13th century as a fixed post or duty.",
-          "cn": "十三世纪经古法语进入英语，指固定的岗位或职守。"
-        },
-        {
-          "era": "19TH C.",
-          "en": "Railway stations, police stations, and stations of the cross spread the stop sense.",
-          "cn": "火车站、警察局与苦路十四站扩展了「停靠」义。"
-        },
-        {
-          "era": "MODERN ENGLISH",
-          "en": "Radio stations, space stations, and the verb to station completed the range.",
-          "cn": "电台、空间站与动词「派驻」完成词义版图。"
-        }
-      ]
-    },
-    "similar": {
-      "note": {
-        "en": "Station heads the stand-root family of fixed places and stands beside its cousins state and status.",
-        "cn": "station 领衔「站立」词族的固定场所词群，与近亲 state、status 并立。"
-      },
-      "groups": [
-        {
-          "heading": "LOOK-ALIKE",
-          "entries": [
-            {
-              "word": "stationary",
-              "ipa": "/ˈsteɪʃənəri/",
-              "tag": "same root",
-              "definition": "not moving; the -ary spelling means still",
-              "definitionCN": "静止的；-ary 拼写意为不动"
-            },
-            {
-              "word": "stationery",
-              "ipa": "/ˈsteɪʃənəri/",
-              "tag": "same root",
-              "definition": "writing paper and pens; the -ery spelling means goods",
-              "definitionCN": "文具；-ery 拼写意为货品"
-            },
-            {
-              "word": "statue",
-              "ipa": "/ˈstætʃuː/",
-              "tag": "spelling",
-              "definition": "a carved standing figure",
-              "definitionCN": "雕像；拼写相近但词尾不同"
-            }
-          ]
-        },
-        {
-          "heading": "NEAR MEANING",
-          "entries": [
-            {
-              "word": "terminal",
-              "ipa": "/ˈtɜːmɪnəl/",
-              "tag": "near meaning",
-              "definition": "the end building of a transport line",
-              "definitionCN": "终点站；航空港楼"
-            },
-            {
-              "word": "depot",
-              "ipa": "/ˈdepəʊ/",
-              "tag": "near meaning",
-              "definition": "a storage or repair base",
-              "definitionCN": "仓库；车库；基地"
-            },
-            {
-              "word": "post",
-              "ipa": "/pəʊst/",
-              "tag": "near meaning",
-              "definition": "a fixed place of duty",
-              "definitionCN": "哨位；岗位"
-            },
-            {
-              "word": "base",
-              "ipa": "/beɪs/",
-              "tag": "near meaning",
-              "definition": "a center of operations or a fixed place of duty",
-              "definitionCN": "基地；据点"
-            }
-          ]
-        }
-      ]
-    },
-    "mnemonics": {
-      "normalIntro": {
-        "en": "Five real hooks for station and its twins.",
-        "cn": "五条真实钩子帮助记住 station 与它的孪生词。"
-      },
-      "normal": [
-        {
-          "en": "station, stationary, stationery: one root, two spellings, three lives.",
-          "cn": "station、stationary、stationery：同根、两种拼写、三种人生。"
-        },
-        {
-          "en": "A station is where things stand: trains, police, radio waves.",
-          "cn": "station 是「站立之所」：列车、警察、电波。"
-        },
-        {
-          "en": "battle stations: the place where you stand in battle.",
-          "cn": "battle stations：战斗中你该站的位置。"
-        },
-        {
-          "en": "stationed abroad: fixed there for duty.",
-          "cn": "stationed abroad：因任务驻留他国。"
-        },
-        {
-          "en": "space station: a home that stands in the sky.",
-          "cn": "space station：立于天上的家。"
-        }
-      ],
-      "abstract": [
-        {
-          "en": "Hear the echo of a hall where trains come to rest.",
-          "cn": "听列车归站时大厅的回声。"
-        },
-        {
-          "en": "See a guard posted at the gate, motionless.",
-          "cn": "看见卫兵钉在大门旁，纹丝不动。"
-        },
-        {
-          "en": "Picture waves leaving one tall antenna night after night.",
-          "cn": "想象电波夜复一夜离开同一根高塔天线。"
-        }
-      ]
-    },
-    "examples": [
-      {
-        "en": "Meet me at the central station at noon.",
-        "cn": "中午在中央车站见。"
-      },
-      {
-        "en": "The ship was stationed off the northern coast.",
-        "cn": "该舰被派驻在北部海岸外海。"
-      },
-      {
-        "en": "The weather station reports the temperature every hour.",
-        "cn": "气象站每小时报告一次气温。"
-      }
-    ],
-    "dict_mnemonic": {
-      "note": "谐音记忆 · 非词源",
-      "text": "「斯戴申」——像「死钉身」：把人和车死钉在一个地点，站住不动。",
-      "word": "station"
-    },
-    "root": "拉丁 statio「驻点、哨位」出自 stare「站立」，经古法语 station 于十三世纪进入英语；属「站立」词根（*sta-）族。",
-    "sensesIntro": {
-      "en": "One standing post becomes a train stop, a police base, a radio office, and the act of posting people there.",
-      "cn": "一个站立驻点化作列车站、警察局、电台，以及把人派驻其间的动作。"
-    },
-    "semanticMap": {
-      "core": {
-        "en": "CORE IMAGE: a fixed spot where something stands to serve",
-        "cn": "核心意象：供某物驻立服务之固定地点"
-      },
-      "chain": [
-        "STAND STILL",
-        "FIX THE SPOT",
-        "STOP TO SERVE",
-        "SEND OUT",
-        "POST PEOPLE",
-        "HOLD THE POST"
-      ],
-      "branches": [
-        {
-          "senses": "01 · 05",
-          "en": "places where trains, science, and fuel stand",
-          "cn": "列车、科考与燃料驻立之处"
-        },
-        {
-          "senses": "02 · 04",
-          "en": "services and sailors fixed at their posts",
-          "cn": "坐镇于岗位的服务与水兵"
-        },
-        {
-          "senses": "03",
-          "en": "waves sent from one fixed point",
-          "cn": "从固定点发出的电波"
-        },
-        {
-          "senses": "06",
-          "en": "people placed at their standing spots",
-          "cn": "被安置到驻立点的人"
-        },
-        {
-          "senses": "01",
-          "en": "the everyday stop sense",
-          "cn": "日常的停靠义项"
-        }
-      ]
-    },
-    "affixes": {
-      "intro": {
-        "en": "Station is statio with an English face; its cousins wear -ary and -ery.",
-        "cn": "station 是 statio 的英语面孔；其近亲披着 -ary 与 -ery。"
-      },
-      "latinIntro": {
-        "en": "Latin stare \"to stand\" is the deep root; statio is its place-form.",
-        "cn": "拉丁 stare「站立」为深层词根；statio 是其地点形态。"
-      },
-      "items": [
-        {
-          "word": "-tion",
-          "structure": "noun suffix",
-          "meaning": "the act or place of standing",
-          "meaningCN": "驻立的动作或地点",
-          "example": "Station and station both end in -tion.",
-          "exampleCN": "station 之类名词以 -tion 收尾。"
-        },
-        {
-          "word": "-ary",
-          "structure": "adjective suffix",
-          "meaning": "standing still",
-          "meaningCN": "静止的",
-          "example": "A stationary car blocked the lane.",
-          "exampleCN": "一辆停着的车堵住了车道。"
-        },
-        {
-          "word": "-ery",
-          "structure": "goods suffix",
-          "meaning": "the goods of a fixed shop",
-          "meaningCN": "固定店铺所售之物",
-          "example": "She bought stationery for school.",
-          "exampleCN": "她买了开学文具。"
-        },
-        {
-          "word": "space-",
-          "structure": "noun compound",
-          "meaning": "a home fixed in orbit",
-          "meaningCN": "空间站",
-          "example": "The space station circles every 90 minutes.",
-          "exampleCN": "空间站每 90 分钟绕行一周。"
-        },
-        {
-          "word": "police-",
-          "structure": "noun compound",
-          "meaning": "the base of a police force",
-          "meaningCN": "警察局",
-          "example": "He reported the crime at the police station.",
-          "exampleCN": "他到警察局报了案。"
-        },
-        {
-          "word": "gas-",
-          "structure": "noun compound",
-          "meaning": "a place where fuel is sold",
-          "meaningCN": "加油站",
-          "example": "Stop at a gas station before the desert road.",
-          "exampleCN": "走沙漠公路前先在加油站停一下。"
-        },
-        {
-          "word": "statio",
-          "structure": "Latin source noun",
-          "meaning": "a standing post",
-          "meaningCN": "驻点；哨位",
-          "example": "Latin statio named a guard's fixed post.",
-          "exampleCN": "拉丁 statio 指哨兵的固定岗位。"
-        },
-        {
-          "word": "status",
-          "structure": "Latin cognate",
-          "meaning": "the standing of a person",
-          "meaningCN": "地位；身份",
-          "example": "His status in the firm rose quickly.",
-          "exampleCN": "他在公司的地位迅速上升。"
-        }
-      ],
-      "latinEntries": [
-        {
-          "word": "stare",
-          "structure": "Latin verb",
-          "meaning": "to stand",
-          "meaningCN": "站立"
-        },
-        {
-          "word": "statio",
-          "structure": "Latin noun",
-          "meaning": "a standing post",
-          "meaningCN": "驻点；哨位"
-        }
-      ],
-      "derivatives": [
-        {
-          "word": "stationary",
-          "pos": "adj.",
-          "zh": "与本词同根，义为「静止的」"
-        },
-        {
-          "word": "stationery",
-          "pos": "n.",
-          "zh": "与本词同根，义为「文具」"
-        }
-      ]
-    }
-  },
-  {
     "word": "statistic",
     "ipa_uk": "/stəˈtɪstɪk/",
     "ipa_us": "/stəˈtɪstɪk/",
@@ -2582,452 +1695,6 @@
           "word": "status symbol",
           "pos": "n.",
           "zh": "由本词加复合成分构成的短语，义为「身份的象征；彰显地位之物」"
-        }
-      ]
-    }
-  },
-  {
-    "word": "stay",
-    "ipa_uk": "/steɪ/",
-    "ipa_us": "/steɪ/",
-    "definition_zh": "停留；暂住；保持；坚持；逗留；支柱",
-    "definition_en": "to remain in a place or condition, or a period of living somewhere, or a rope that holds something firm",
-    "core_image": "双脚站在原地不走——身体、情绪与绳索都稳稳保持原状",
-    "scene": "旅馆大堂的挂钟指向九点。They decided to stay another night because the storm kept falling.",
-    "sceneCN": "这里 stay 是「暂住；多留」（第 1 个义项：继续停留某处）；句意为他们决定再住一晚，因为暴风雪未停。",
-    "pos": [
-      {
-        "tag": "v.",
-        "zh": "动词：停留；暂住；保持"
-      },
-      {
-        "tag": "n.",
-        "zh": "名词：逗留；暂住；支柱；（法律）中止"
-      }
-    ],
-    "collocations": [
-      {
-        "phrase": "stay in",
-        "zh": "待在家里"
-      },
-      {
-        "phrase": "stay up",
-        "zh": "熬夜"
-      },
-      {
-        "phrase": "stay calm",
-        "zh": "保持冷静"
-      },
-      {
-        "phrase": "stay for dinner",
-        "zh": "留下来吃晚饭"
-      },
-      {
-        "phrase": "an overnight stay",
-        "zh": "过夜逗留"
-      },
-      {
-        "phrase": "stay of execution",
-        "zh": "缓刑；行刑中止"
-      }
-    ],
-    "forms": [
-      {
-        "label": "三单",
-        "form": "stays"
-      },
-      {
-        "label": "过去式",
-        "form": "stayed"
-      },
-      {
-        "label": "过去分词",
-        "form": "stayed"
-      },
-      {
-        "label": "现在分词",
-        "form": "staying"
-      },
-      {
-        "label": "复数",
-        "form": "stays"
-      }
-    ],
-    "derivatives": [
-      {
-        "word": "stayer",
-        "pos": "n.",
-        "zh": "由本词加 -er 构成，义为「留下来的人；坚持到底者」"
-      },
-      {
-        "word": "stays",
-        "pos": "n.",
-        "zh": "由本词构成的传统复数，义为「（旧式）紧身胸衣的撑条」"
-      }
-    ],
-    "senses": [
-      {
-        "no": "01",
-        "title": "To remain in a place",
-        "titleCN": "停留；暂住",
-        "definition": "to remain somewhere instead of leaving, or to live somewhere for a while",
-        "definitionCN": "留在某处不离开，或小住一段时间",
-        "example": "We stayed with friends by the lake.",
-        "exampleCN": "我们暂住在湖边朋友家。",
-        "why": "The feet stand fixed where they are.",
-        "whyCN": "双脚钉在原地不动。"
-      },
-      {
-        "no": "02",
-        "title": "To remain in a condition",
-        "titleCN": "保持（某种状态）",
-        "definition": "to continue in a certain state or quality",
-        "definitionCN": "继续处于某种状态或品质",
-        "example": "Keep the soup on a low heat so it stays warm.",
-        "exampleCN": "汤用小火煨着，保持温热。",
-        "why": "What stands still keeps its shape.",
-        "whyCN": "静止不动的东西保持原形。"
-      },
-      {
-        "no": "03",
-        "title": "To hold firmly in position",
-        "titleCN": "稳住；支撑",
-        "definition": "to keep something firm or in place, especially a rope or brace",
-        "definitionCN": "使某物稳固或就位，尤指缆索或撑杆",
-        "example": "The mast is stayed by strong steel ropes.",
-        "exampleCN": "桅杆由坚固的钢索固定。",
-        "why": "The oldest nautical sense: ropes that let the mast stand.",
-        "whyCN": "最古老的航海义：让桅杆立住的缆索。"
-      },
-      {
-        "no": "04",
-        "title": "A period of remaining somewhere",
-        "titleCN": "逗留期间；小住",
-        "definition": "the time spent living or being in a place",
-        "definitionCN": "在某处居住或停留的时间",
-        "example": "Enjoy your stay in the capital!",
-        "exampleCN": "祝你在首都逗留愉快！",
-        "why": "The fixed standing time becomes a countable visit.",
-        "whyCN": "驻立的时段成为可数的到访。"
-      },
-      {
-        "no": "05",
-        "title": "A legal pause of action",
-        "titleCN": "（法律）中止；延缓",
-        "definition": "a court order stopping a legal process for a time",
-        "definitionCN": "法院暂时中止法律程序的命令",
-        "example": "The judge granted a stay of the proceedings.",
-        "exampleCN": "法官批准中止诉讼程序。",
-        "why": "The process stands still, held where it is.",
-        "whyCN": "程序被按在原地停驻。"
-      },
-      {
-        "no": "06",
-        "title": "A rope or brace holding something upright",
-        "titleCN": "支柱；拉索",
-        "definition": "a strong rope or rod that keeps a mast or structure upright",
-        "definitionCN": "使桅杆或构筑物保持直立的缆索或撑杆",
-        "example": "One of the ship's stays snapped in the wind.",
-        "exampleCN": "狂风中船上一根拉索崩断。",
-        "why": "The sense-3 rope, used as a noun for the thing itself.",
-        "whyCN": "第三义之绳转作名词，指绳本身。"
-      }
-    ],
-    "etymology": {
-      "intro": {
-        "en": "Stay grew from old Germanic and French roots about standing still: first ropes that let a mast stand, then every kind of remaining.",
-        "cn": "stay 由古老词根「站立不动」生长：先是指让桅杆立住的绳索，后指一切停留。"
-      },
-      "items": [
-        {
-          "era": "PROTO-INDO-EUROPEAN",
-          "en": "The root *sta-, \"to stand\", is shared with stable and stand.",
-          "cn": "词根 *sta-「站立」与 stable、stand 共享。"
-        },
-        {
-          "era": "OLD FRENCH AND GERMANIC",
-          "en": "Old French estayer, from a Germanic root for \"to prop\", meant to support; two streams met in English.",
-          "cn": "古法语 estayer（源自日耳曼「支撑」词根）意为支撑；两支源流在英语汇合。"
-        },
-        {
-          "era": "ENGLISH, 15TH–16TH C.",
-          "en": "Nautical stays and the sense of halting both appear early.",
-          "cn": "航海的拉索义与「止住」义均早期出现。"
-        },
-        {
-          "era": "ENGLISH, 17TH C.",
-          "en": "The sense of remaining in a place or state settled.",
-          "cn": "「停留在某地或某状态」之义定型。"
-        },
-        {
-          "era": "MODERN ENGLISH",
-          "en": "Legal stays, hotel stays, and stay calm fixed the everyday range.",
-          "cn": "法律中止、旅馆住宿与保持冷静定形于现代用法。"
-        }
-      ]
-    },
-    "similar": {
-      "note": {
-        "en": "Stay belongs to the great stand-family and is often confused with its own spelling twin steady.",
-        "cn": "stay 属庞大的「站立」词族，并常与其拼写近亲 steady 混淆。"
-      },
-      "groups": [
-        {
-          "heading": "LOOK-ALIKE",
-          "entries": [
-            {
-              "word": "steady",
-              "ipa": "/ˈstedi/",
-              "tag": "same root",
-              "definition": "firm and not wobbling",
-              "definitionCN": "平稳的；与 stay 同根"
-            },
-            {
-              "word": "stayer",
-              "ipa": "/ˈsteɪə/",
-              "tag": "derived form",
-              "definition": "one who stays or persists",
-              "definitionCN": "留下者；坚持者；由 stay 派生"
-            },
-            {
-              "word": "stays",
-              "ipa": "/steɪz/",
-              "tag": "same word",
-              "definition": "the noun plural, also old corset supports",
-              "definitionCN": "复数；亦指旧式紧身衣撑条"
-            }
-          ]
-        },
-        {
-          "heading": "NEAR MEANING",
-          "entries": [
-            {
-              "word": "remain",
-              "ipa": "/rɪˈmeɪn/",
-              "tag": "near meaning",
-              "definition": "to stay behind or continue in place",
-              "definitionCN": "留下；保持，较正式"
-            },
-            {
-              "word": "sojourn",
-              "ipa": "/ˈsɒdʒən/",
-              "tag": "near meaning",
-              "definition": "a temporary stay",
-              "definitionCN": "小住；旅居，较文雅"
-            },
-            {
-              "word": "leave",
-              "ipa": "/liːv/",
-              "tag": "opposite",
-              "definition": "to go away from a place",
-              "definitionCN": "离开；与停留相对"
-            },
-            {
-              "word": "linger",
-              "ipa": "/ˈlɪŋɡə/",
-              "tag": "near meaning",
-              "definition": "to stay longer than needed",
-              "definitionCN": "徘徊；逗留不去"
-            }
-          ]
-        }
-      ]
-    },
-    "mnemonics": {
-      "normalIntro": {
-        "en": "Five real hooks for stay and its standing.",
-        "cn": "五条真实钩子帮助记住 stay 及其「站立」本源。"
-      },
-      "normal": [
-        {
-          "en": "stay and steady share the stand-root: both mean fixed.",
-          "cn": "stay 与 steady 同根：都指钉定不动。"
-        },
-        {
-          "en": "stay up late: your body stays out of bed.",
-          "cn": "stay up late：身体留在床外。"
-        },
-        {
-          "en": "Boat masts stand because of stays.",
-          "cn": "桅杆立得住，全靠 stay（拉索）。"
-        },
-        {
-          "en": "stay calm: your feelings keep their standing.",
-          "cn": "stay calm：情绪保持原位。"
-        },
-        {
-          "en": "a stay of execution: the law makes time stand still.",
-          "cn": "a stay of execution：法律让时间静止。"
-        }
-      ],
-      "abstract": [
-        {
-          "en": "Feel your feet refusing the open door.",
-          "cn": "感受双脚拒绝敞开的门。"
-        },
-        {
-          "en": "See soup holding its warm stillness on the stove.",
-          "cn": "看见炉上的汤保持着温热的静止。"
-        },
-        {
-          "en": "Watch ropes hold a tall mast against the wind.",
-          "cn": "看缆索顶住风势稳住高桅。"
-        }
-      ]
-    },
-    "examples": [
-      {
-        "en": "Stay where you are until help arrives.",
-        "cn": "待在原地等待救援。"
-      },
-      {
-        "en": "The soup stayed warm for hours in the pot.",
-        "cn": "汤在锅里保温了好几个小时。"
-      },
-      {
-        "en": "Their stay in Paris lasted only two days.",
-        "cn": "他们在巴黎的逗留只有两天。"
-      }
-    ],
-    "dict_mnemonic": {
-      "note": "谐音记忆 · 非词源",
-      "text": "「斯得」——像「死等」：死等不走，站在原地到天亮。",
-      "word": "stay"
-    },
-    "root": "一般认为 stay 由两支源流汇合：古法语 estayer「支撑」（日耳曼词根）与表示「站立」的 *sta- 词族（与 stable、stand 同源）；航海拉索义最古老。",
-    "sensesIntro": {
-      "en": "One standing still grows into ropes that hold, periods of living somewhere, and laws that freeze time.",
-      "cn": "一次站立不动长成稳住万物的绳索、异地小住的时光与冻结时间的法令。"
-    },
-    "semanticMap": {
-      "core": {
-        "en": "CORE IMAGE: standing fixed where you are, unmoved",
-        "cn": "核心意象：钉在原地，不为所动"
-      },
-      "chain": [
-        "STAND STILL",
-        "HOLD SHAPE",
-        "HOLD FAST",
-        "REMAIN IN TIME",
-        "FREEZE THE LAW",
-        "STAY THE COURSE"
-      ],
-      "branches": [
-        {
-          "senses": "01 · 04",
-          "en": "feet and visits that do not move on",
-          "cn": "不挪动的双脚与不缩短的到访"
-        },
-        {
-          "senses": "02",
-          "en": "states that keep their form",
-          "cn": "保持原形的状态"
-        },
-        {
-          "senses": "03 · 06",
-          "en": "ropes that let things stand",
-          "cn": "让物立住的绳索"
-        },
-        {
-          "senses": "05",
-          "en": "laws that stand still time",
-          "cn": "令时间静止的法令"
-        },
-        {
-          "senses": "01",
-          "en": "the plain remaining sense",
-          "cn": "单纯的停留义项"
-        }
-      ]
-    },
-    "affixes": {
-      "intro": {
-        "en": "Stay is short but shares the largest root family in English.",
-        "cn": "stay 短小，却共享英语最庞大的词根家族。"
-      },
-      "latinIntro": {
-        "en": "Latin stare is the deep twin of the Germanic side of stay.",
-        "cn": "拉丁 stare 是 stay 日耳曼一侧的深层孪生。"
-      },
-      "items": [
-        {
-          "word": "-er",
-          "structure": "agent suffix",
-          "meaning": "one who stays or endures",
-          "meaningCN": "留下者；坚持者",
-          "example": "She was a stayer in hard times.",
-          "exampleCN": "困难时期她始终坚持。"
-        },
-        {
-          "word": "-ed",
-          "structure": "adjective compound",
-          "meaning": "stayed: held by ropes",
-          "meaningCN": "被拉索固定的",
-          "example": "The stayed mast held in the gale.",
-          "exampleCN": "拉索固定的桅杆顶住了狂风。"
-        },
-        {
-          "word": "steady",
-          "structure": "same-root cognate",
-          "meaning": "firm and unshaking",
-          "meaningCN": "平稳的",
-          "example": "Take a steady grip on the rail.",
-          "exampleCN": "抓紧扶手，保持平稳。"
-        },
-        {
-          "word": "stay-in",
-          "structure": "phrasal compound",
-          "meaning": "remaining at home",
-          "meaningCN": "宅在家",
-          "example": "We had a stay-in Saturday night.",
-          "exampleCN": "周六晚上我们宅在家里。"
-        },
-        {
-          "word": "home-",
-          "structure": "noun compound",
-          "meaning": "staying home, as in staycation",
-          "meaningCN": "居家度假",
-          "example": "Our staycation saved the travel budget.",
-          "exampleCN": "居家度假省下了旅行预算。"
-        },
-        {
-          "word": "stare",
-          "structure": "Latin cognate",
-          "meaning": "to stand",
-          "meaningCN": "站立",
-          "example": "Latin stare underlies state and station.",
-          "exampleCN": "拉丁 stare 支撑着 state 与 station。"
-        },
-        {
-          "word": "overnight-",
-          "structure": "time compound",
-          "meaning": "one night's stay",
-          "meaningCN": "过夜",
-          "example": "An overnight stay cost little.",
-          "exampleCN": "过夜一晚花费不多。"
-        },
-        {
-          "word": "out-",
-          "structure": "phrasal element",
-          "meaning": "stay out: remain away",
-          "meaningCN": "在外面待着",
-          "example": "The kids stayed out until dark.",
-          "exampleCN": "孩子们在外面玩到天黑。"
-        }
-      ],
-      "latinEntries": [
-        {
-          "word": "stare",
-          "structure": "Latin verb",
-          "meaning": "to stand",
-          "meaningCN": "站立"
-        }
-      ],
-      "derivatives": [
-        {
-          "word": "stayer",
-          "pos": "n.",
-          "zh": "由本词加 -er 构成，义为「留下者；坚持到底者」"
         }
       ]
     }
@@ -8929,6 +7596,1627 @@
           "word": "stomachful",
           "pos": "n.",
           "zh": "由本词加量词后缀 -ful 构成，义为「一胃的量；饱足」"
+        }
+      ]
+    }
+  },
+  {
+    "word": "stone",
+    "ipa_uk": "/stəʊn/",
+    "ipa_us": "/stoʊn/",
+    "definition_zh": "石头；石料；果核；结石",
+    "definition_en": "a hard piece of rock, rock used for building, or the hard seed of a fruit",
+    "core_image": "一块被溪水磨得光滑的灰色石头",
+    "scene": "孩子们在河边捡石头。The children picked up stones by the river.",
+    "sceneCN": "这里 stone 是「石头」（第 1 个义项）；句意：孩子们在河边捡石头。",
+    "pos": [
+      {
+        "tag": "n.",
+        "zh": "石头"
+      },
+      {
+        "tag": "n.",
+        "zh": "石料；石材"
+      },
+      {
+        "tag": "n.",
+        "zh": "果核；结石"
+      },
+      {
+        "tag": "v.",
+        "zh": "向……扔石头"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "stone wall",
+        "zh": "石墙"
+      },
+      {
+        "phrase": "a stone's throw",
+        "zh": "一箭之遥"
+      },
+      {
+        "phrase": "leave no stone unturned",
+        "zh": "想尽一切办法"
+      },
+      {
+        "phrase": "kidney stone",
+        "zh": "肾结石"
+      },
+      {
+        "phrase": "Stone Age",
+        "zh": "石器时代"
+      }
+    ],
+    "forms": [
+      {
+        "label": "复数",
+        "form": "stones"
+      },
+      {
+        "label": "过去式",
+        "form": "stoned"
+      },
+      {
+        "label": "过去分词",
+        "form": "stoned"
+      },
+      {
+        "label": "现在分词",
+        "form": "stoning"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "stony",
+        "pos": "adj.",
+        "zh": "多石的；冷酷的"
+      },
+      {
+        "word": "stonily",
+        "pos": "adv.",
+        "zh": "冷酷地"
+      },
+      {
+        "word": "stoniness",
+        "pos": "n.",
+        "zh": "多石；冷酷"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "A piece of rock",
+        "titleCN": "石头",
+        "definition": "a hard solid piece of rock",
+        "definitionCN": "一块坚硬的岩石",
+        "example": "The children picked up stones.",
+        "exampleCN": "孩子们捡起了石头。",
+        "why": "This is the basic object sense.",
+        "whyCN": "这是最基本的实物义项。"
+      },
+      {
+        "no": "02",
+        "title": "Building rock",
+        "titleCN": "石料",
+        "definition": "rock cut and used as a building material",
+        "definitionCN": "切割后用作建筑材料的岩石",
+        "example": "The house is built of stone.",
+        "exampleCN": "这房子是用石头建的。",
+        "why": "The material takes the name of its pieces.",
+        "whyCN": "材料沿用了石块的名字。"
+      },
+      {
+        "no": "03",
+        "title": "The seed of fruit",
+        "titleCN": "果核",
+        "definition": "the hard seed inside a fruit",
+        "definitionCN": "水果内部坚硬的种子",
+        "example": "He removed the stone from the peach.",
+        "exampleCN": "他把桃核取了出来。",
+        "why": "The hard seed looks like a small stone.",
+        "whyCN": "坚硬的果核像一块小石头。"
+      },
+      {
+        "no": "04",
+        "title": "A hard mass in the body",
+        "titleCN": "结石",
+        "definition": "a small hard mass that forms inside the body",
+        "definitionCN": "体内形成的小硬块",
+        "example": "He passed a kidney stone.",
+        "exampleCN": "他排出了一颗肾结石。",
+        "why": "The body forms its own small stones.",
+        "whyCN": "身体自己也会长出不小的石头。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Stone is one of the oldest Germanic words in English.",
+        "cn": "stone 是英语中最古老的日耳曼语词之一。"
+      },
+      "items": [
+        {
+          "era": "GERMANIC",
+          "en": "The root named hard rock.",
+          "cn": "该词根指坚硬的岩石。"
+        },
+        {
+          "era": "OLD ENGLISH",
+          "en": "Old English stan meant a stone.",
+          "cn": "古英语 stan 指石头。"
+        },
+        {
+          "era": "MIDDLE ENGLISH",
+          "en": "Stone also named building material.",
+          "cn": "stone 也指建筑材料。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "Stone named the hard seed of fruit.",
+          "cn": "stone 指水果坚硬的核。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "Stone named hard masses in the body.",
+          "cn": "stone 指体内的结石。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "Stone is compared with look-alike words and with words for rock.",
+        "cn": "把 stone 与形近词以及表示岩石的词作比较。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "stove",
+              "ipa": "/stəʊv/",
+              "tag": "noun",
+              "definition": "an appliance for cooking",
+              "definitionCN": "炉子"
+            },
+            {
+              "word": "stole",
+              "ipa": "/stəʊl/",
+              "tag": "verb",
+              "definition": "past of steal",
+              "definitionCN": "偷（过去式）"
+            },
+            {
+              "word": "tone",
+              "ipa": "/təʊn/",
+              "tag": "noun",
+              "definition": "the quality of a sound",
+              "definitionCN": "音调"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "rock",
+              "ipa": "/rɒk/",
+              "tag": "noun",
+              "definition": "hard material of the earth",
+              "definitionCN": "岩石"
+            },
+            {
+              "word": "pebble",
+              "ipa": "/ˈpebl/",
+              "tag": "noun",
+              "definition": "a small smooth stone",
+              "definitionCN": "小石子"
+            },
+            {
+              "word": "boulder",
+              "ipa": "/ˈbəʊldə(r)/",
+              "tag": "noun",
+              "definition": "a very large stone",
+              "definitionCN": "巨石"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Stone is hard, heavy, and older than anything built from it.",
+        "cn": "石头坚硬、沉重，比用它建成的任何东西都古老。"
+      },
+      "normal": [
+        {
+          "en": "The stone is heavy.",
+          "cn": "这块石头很重。"
+        },
+        {
+          "en": "The wall is made of stone.",
+          "cn": "这堵墙是石头砌的。"
+        },
+        {
+          "en": "The peach has a hard stone.",
+          "cn": "桃子有个硬核。"
+        },
+        {
+          "en": "They left no stone unturned.",
+          "cn": "他们想尽了办法。"
+        },
+        {
+          "en": "The school is a stone's throw away.",
+          "cn": "学校就在一箭之遥。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "A stone remembers every hand that lifted it.",
+          "cn": "石头记得每一双搬过它的手。"
+        },
+        {
+          "en": "Hard stone, soft water, and time wins.",
+          "cn": "硬石头，软流水，时间最后赢。"
+        },
+        {
+          "en": "A heart of stone feels nothing, which is not a gift.",
+          "cn": "铁石心肠什么都感受不到，这并非恩赐。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "The children picked up stones by the river.",
+        "cn": "孩子们在河边捡石头。"
+      },
+      {
+        "en": "The house is built of stone.",
+        "cn": "这房子是用石头建的。"
+      },
+      {
+        "en": "He removed the stone from the peach.",
+        "cn": "他把桃核取了出来。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "构词记忆 · 非词源",
+      "text": "stone 是「石头」，也指「石料」「果核」「结石」；a stone's throw 是一箭之遥，leave no stone unturned 是想尽一切办法。",
+      "word": "stone"
+    },
+    "root": "来自古英语 stan（石头），与日耳曼语同源；由坚硬的岩石，引申为建筑材料，再由「硬块」的形象引申出果核与体内结石。",
+    "sensesIntro": {
+      "en": "Stone is a piece of rock, building rock, the hard seed of fruit, or a hard mass in the body.",
+      "cn": "stone 是石头、石料、果核，或体内的结石。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "Hard matter that outlasts soft hands.",
+        "cn": "比柔软的手更久存的坚硬物质。"
+      },
+      "chain": [
+        "EARTH",
+        "ROCK",
+        "HARD",
+        "BUILD",
+        "SEED",
+        "STONE"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "The children picked up stones.",
+          "cn": "孩子们捡起了石头。"
+        },
+        {
+          "senses": "02",
+          "en": "The house is built of stone.",
+          "cn": "这房子是用石头建的。"
+        },
+        {
+          "senses": "03",
+          "en": "He removed the stone from the peach.",
+          "cn": "他把桃核取了出来。"
+        },
+        {
+          "senses": "04",
+          "en": "He passed a kidney stone.",
+          "cn": "他排出了一颗肾结石。"
+        },
+        {
+          "senses": "01 · 02",
+          "en": "Loose stones become a solid wall.",
+          "cn": "散落的石头变成坚固的墙。"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Stone takes endings and builds words for rock and hardness.",
+        "cn": "stone 加词尾，构成与岩石和坚硬相关的词。"
+      },
+      "latinIntro": {
+        "en": "There is no Latin root; the word is Germanic.",
+        "cn": "这个词没有拉丁词根，属于日耳曼语来源。"
+      },
+      "items": [
+        {
+          "word": "stone",
+          "structure": "Old English stan",
+          "meaning": "rock",
+          "meaningCN": "石头",
+          "example": "The stone is heavy.",
+          "exampleCN": "这块石头很重。"
+        },
+        {
+          "word": "stones",
+          "structure": "stone + -s",
+          "meaning": "rocks",
+          "meaningCN": "石头（复数）",
+          "example": "The path is full of stones.",
+          "exampleCN": "小路上满是石头。"
+        },
+        {
+          "word": "stony",
+          "structure": "stone + -y",
+          "meaning": "full of stones",
+          "meaningCN": "多石的",
+          "example": "The field is stony.",
+          "exampleCN": "这块地多石。"
+        },
+        {
+          "word": "stonily",
+          "structure": "stony + -ly",
+          "meaning": "coldly",
+          "meaningCN": "冷酷地",
+          "example": "He looked at her stonily.",
+          "exampleCN": "他冷冷地看着她。"
+        },
+        {
+          "word": "stoniness",
+          "structure": "stony + -ness",
+          "meaning": "the state of being stony",
+          "meaningCN": "多石；冷酷",
+          "example": "The stoniness of the soil surprised us.",
+          "exampleCN": "土壤之多石让我们吃惊。"
+        },
+        {
+          "word": "stonework",
+          "structure": "stone + work",
+          "meaning": "stone building work",
+          "meaningCN": "石造部分",
+          "example": "The stonework is old.",
+          "exampleCN": "石造部分很古老。"
+        },
+        {
+          "word": "Stone Age",
+          "structure": "stone + age",
+          "meaning": "the early age of stone tools",
+          "meaningCN": "石器时代",
+          "example": "People used stone tools in the Stone Age.",
+          "exampleCN": "石器时代的人使用石制工具。"
+        },
+        {
+          "word": "kidney stone",
+          "structure": "kidney + stone",
+          "meaning": "a hard mass in the kidney",
+          "meaningCN": "肾结石",
+          "example": "He passed a kidney stone.",
+          "exampleCN": "他排出了一颗肾结石。"
+        }
+      ],
+      "latinEntries": []
+    }
+  },
+  {
+    "word": "stop",
+    "ipa_uk": "/stɒp/",
+    "ipa_us": "/stɑːp/",
+    "definition_zh": "停止；阻止；堵塞；车站",
+    "definition_en": "to cease moving or doing something, to block, or a place where a bus stops",
+    "core_image": "一只抬起的手掌挡住前行的脚步",
+    "scene": "红灯亮了，汽车停了下来。The light turned red and the car stopped.",
+    "sceneCN": "这里 stop 是「停止」（第 1 个义项）；句意：红灯亮了，汽车停了下来。",
+    "pos": [
+      {
+        "tag": "v.",
+        "zh": "停止；停下"
+      },
+      {
+        "tag": "v.",
+        "zh": "阻止"
+      },
+      {
+        "tag": "v.",
+        "zh": "堵塞"
+      },
+      {
+        "tag": "n.",
+        "zh": "车站；停止"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "stop doing",
+        "zh": "停止做"
+      },
+      {
+        "phrase": "stop to do",
+        "zh": "停下来去做"
+      },
+      {
+        "phrase": "bus stop",
+        "zh": "公交车站"
+      },
+      {
+        "phrase": "stop by",
+        "zh": "顺路拜访"
+      },
+      {
+        "phrase": "put a stop to",
+        "zh": "制止"
+      },
+      {
+        "phrase": "stop over",
+        "zh": "中途停留"
+      }
+    ],
+    "forms": [
+      {
+        "label": "第三人称单数",
+        "form": "stops"
+      },
+      {
+        "label": "过去式",
+        "form": "stopped"
+      },
+      {
+        "label": "过去分词",
+        "form": "stopped"
+      },
+      {
+        "label": "现在分词",
+        "form": "stopping"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "stoppage",
+        "pos": "n.",
+        "zh": "停止；阻塞"
+      },
+      {
+        "word": "stopper",
+        "pos": "n.",
+        "zh": "塞子"
+      },
+      {
+        "word": "stopwatch",
+        "pos": "n.",
+        "zh": "秒表"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "Cease moving",
+        "titleCN": "停止",
+        "definition": "to cease moving or doing something",
+        "definitionCN": "停止移动或停止做某事",
+        "example": "The car stopped at the light.",
+        "exampleCN": "汽车在红灯前停下。",
+        "why": "This is the basic sense of halting.",
+        "whyCN": "这是表示停止的基本义项。"
+      },
+      {
+        "no": "02",
+        "title": "Prevent",
+        "titleCN": "阻止",
+        "definition": "to prevent something from happening or continuing",
+        "definitionCN": "阻止某事发生或继续",
+        "example": "They stopped the leak in time.",
+        "exampleCN": "他们及时止住了漏水。",
+        "why": "Halting an action becomes preventing it.",
+        "whyCN": "让动作停下，引申为阻止。"
+      },
+      {
+        "no": "03",
+        "title": "Plug a hole",
+        "titleCN": "堵塞",
+        "definition": "to block a hole or passage",
+        "definitionCN": "堵住孔洞或通道",
+        "example": "He stopped the bottle with a cork.",
+        "exampleCN": "他用软木塞塞住了瓶子。",
+        "why": "The oldest sense was to plug with tow.",
+        "whyCN": "最古老的义项正是用麻絮塞住。"
+      },
+      {
+        "no": "04",
+        "title": "A bus stop",
+        "titleCN": "车站",
+        "definition": "a place where a bus or train picks up people",
+        "definitionCN": "公交车或火车上下客的地方",
+        "example": "We met at the bus stop.",
+        "exampleCN": "我们在公交车站见面。",
+        "why": "The place where motion stops takes the name.",
+        "whyCN": "运动停下的地点沿用了这个词。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Stop first meant to plug a hole, then to halt.",
+        "cn": "stop 最初表示塞住孔洞，后来才表示停下。"
+      },
+      "items": [
+        {
+          "era": "LATIN",
+          "en": "Latin stuppa meant tow, coarse fibre.",
+          "cn": "拉丁语 stuppa 指麻絮、粗纤维。"
+        },
+        {
+          "era": "OLD ENGLISH",
+          "en": "Stoppian meant to plug with tow.",
+          "cn": "stoppian 意为用麻絮塞住。"
+        },
+        {
+          "era": "MIDDLE ENGLISH",
+          "en": "Stop broadened to mean to halt.",
+          "cn": "stop 的词义扩展为停下。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "Stop also meant to prevent.",
+          "cn": "stop 也表示阻止。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "A stop became a place for buses.",
+          "cn": "stop 成为公交车站的名称。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "Stop is compared with look-alike words and with words for halting.",
+        "cn": "把 stop 与形近词以及表示停止的词作比较。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "step",
+              "ipa": "/step/",
+              "tag": "noun",
+              "definition": "a movement of the foot",
+              "definitionCN": "脚步"
+            },
+            {
+              "word": "stoop",
+              "ipa": "/stuːp/",
+              "tag": "verb",
+              "definition": "to bend down",
+              "definitionCN": "弯腰"
+            },
+            {
+              "word": "shop",
+              "ipa": "/ʃɒp/",
+              "tag": "noun",
+              "definition": "a place to buy things",
+              "definitionCN": "商店"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "cease",
+              "ipa": "/siːs/",
+              "tag": "verb",
+              "definition": "to come to an end",
+              "definitionCN": "终止"
+            },
+            {
+              "word": "halt",
+              "ipa": "/hɔːlt/",
+              "tag": "verb",
+              "definition": "to stop suddenly",
+              "definitionCN": "骤然停下"
+            },
+            {
+              "word": "quit",
+              "ipa": "/kwɪt/",
+              "tag": "verb",
+              "definition": "to give up doing",
+              "definitionCN": "放弃"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Stop is a hand raised against motion.",
+        "cn": "stop 是一只对着运动举起的手。"
+      },
+      "normal": [
+        {
+          "en": "The bus stops here.",
+          "cn": "公交车在这里停。"
+        },
+        {
+          "en": "Stop talking, please.",
+          "cn": "请停止说话。"
+        },
+        {
+          "en": "We stopped to rest.",
+          "cn": "我们停下来休息。"
+        },
+        {
+          "en": "The cork stops the bottle.",
+          "cn": "软木塞堵住了瓶子。"
+        },
+        {
+          "en": "I will stop by after work.",
+          "cn": "下班后我顺路过来。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "A stop is a small promise to look before going on.",
+          "cn": "停一下，是继续之前先看一眼的小小承诺。"
+        },
+        {
+          "en": "Some stops are endings and some are breaths.",
+          "cn": "有些停下是终结，有些只是呼吸。"
+        },
+        {
+          "en": "You cannot stop the river, only choose where to stand.",
+          "cn": "你拦不住河水，只能选择站在哪里。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "The light turned red and the car stopped.",
+        "cn": "红灯亮了，汽车停了下来。"
+      },
+      {
+        "en": "They stopped the leak in time.",
+        "cn": "他们及时止住了漏水。"
+      },
+      {
+        "en": "We met at the bus stop.",
+        "cn": "我们在公交车站见面。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "构词记忆 · 非词源",
+      "text": "stop 是「停止」；stop doing 是停止做，stop to do 是停下来去做，bus stop 是公交车站，put a stop to 是制止某事。",
+      "word": "stop"
+    },
+    "root": "可追溯至拉丁语 stuppa（麻絮），古英语 stoppian 本义是「用麻絮塞住」；由堵塞孔洞，引申为让运动与行为停下，再引申为阻止与车站。",
+    "sensesIntro": {
+      "en": "Stop means to halt, to prevent, to plug, or a place where vehicles halt.",
+      "cn": "stop 表示停下、阻止、堵塞，或车辆停靠的车站。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "Motion meeting a wall.",
+        "cn": "运动撞上了一堵墙。"
+      },
+      "chain": [
+        "MOVE",
+        "HALT",
+        "BLOCK",
+        "HOLD",
+        "WAIT",
+        "STOP"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "The car stopped at the light.",
+          "cn": "汽车在红灯前停下。"
+        },
+        {
+          "senses": "02",
+          "en": "They stopped the leak in time.",
+          "cn": "他们及时止住了漏水。"
+        },
+        {
+          "senses": "03",
+          "en": "He stopped the bottle with a cork.",
+          "cn": "他用软木塞塞住了瓶子。"
+        },
+        {
+          "senses": "04",
+          "en": "We met at the bus stop.",
+          "cn": "我们在公交车站见面。"
+        },
+        {
+          "senses": "01 · 04",
+          "en": "The stop is where the stopping happens.",
+          "cn": "车站，正是停车发生的地方。"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Stop doubles its final letter and builds words for halting.",
+        "cn": "stop 变化时双写词尾，并构成表示停止的词。"
+      },
+      "latinIntro": {
+        "en": "The Latin source stuppa meant tow used for plugging.",
+        "cn": "拉丁语来源 stuppa 指用来堵塞的麻絮。"
+      },
+      "items": [
+        {
+          "word": "stop",
+          "structure": "Old English stoppian",
+          "meaning": "to halt",
+          "meaningCN": "停止",
+          "example": "The bus stops here.",
+          "exampleCN": "公交车在这里停。"
+        },
+        {
+          "word": "stops",
+          "structure": "stop + -s",
+          "meaning": "third person form",
+          "meaningCN": "停止（第三人称单数）",
+          "example": "The clock stops at noon.",
+          "exampleCN": "钟在中午停了。"
+        },
+        {
+          "word": "stopped",
+          "structure": "stop + -ed",
+          "meaning": "past form",
+          "meaningCN": "停止（过去式）",
+          "example": "The car stopped.",
+          "exampleCN": "车停了。"
+        },
+        {
+          "word": "stopping",
+          "structure": "stop + -ing",
+          "meaning": "the act of halting",
+          "meaningCN": "停止（现在分词）",
+          "example": "Stopping is harder than starting.",
+          "exampleCN": "停下来比开始更难。"
+        },
+        {
+          "word": "stoppage",
+          "structure": "stop + -age",
+          "meaning": "a halt or block",
+          "meaningCN": "停工；阻塞",
+          "example": "A stoppage delayed the match.",
+          "exampleCN": "一次中断延误了比赛。"
+        },
+        {
+          "word": "stopper",
+          "structure": "stop + -er",
+          "meaning": "a plug",
+          "meaningCN": "塞子",
+          "example": "Put the stopper in the bottle.",
+          "exampleCN": "把塞子塞进瓶子。"
+        },
+        {
+          "word": "stopwatch",
+          "structure": "stop + watch",
+          "meaning": "a watch for timing",
+          "meaningCN": "秒表",
+          "example": "He clicked the stopwatch.",
+          "exampleCN": "他按下了秒表。"
+        },
+        {
+          "word": "bus stop",
+          "structure": "bus + stop",
+          "meaning": "a place where buses stop",
+          "meaningCN": "公交车站",
+          "example": "We met at the bus stop.",
+          "exampleCN": "我们在公交车站见面。"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "stop",
+          "structure": "Latin stuppa to Old English stoppian",
+          "meaning": "to plug with tow",
+          "meaningCN": "用麻絮塞住",
+          "example": "The earliest stop was a plug.",
+          "exampleCN": "最早的 stop 就是一个塞子。"
+        }
+      ]
+    }
+  },
+  {
+    "word": "storage",
+    "ipa_uk": "/ˈstɔːrɪdʒ/",
+    "ipa_us": "/ˈstɔːrɪdʒ/",
+    "definition_zh": "贮藏；储存；仓储；存储空间",
+    "definition_en": "the act of keeping things until needed, or the space used for this",
+    "core_image": "码到屋顶的纸箱和一排上好锁的柜子",
+    "scene": "这些箱子被放进仓库储存。The boxes are kept in storage.",
+    "sceneCN": "这里 storage 是「贮藏」（第 1 个义项）；句意：这些箱子被放进仓库储存。",
+    "pos": [
+      {
+        "tag": "n.",
+        "zh": "贮藏；储存"
+      },
+      {
+        "tag": "n.",
+        "zh": "储存空间"
+      },
+      {
+        "tag": "n.",
+        "zh": "数据存储"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "storage space",
+        "zh": "储存空间"
+      },
+      {
+        "phrase": "storage room",
+        "zh": "储藏室"
+      },
+      {
+        "phrase": "in storage",
+        "zh": "存放着"
+      },
+      {
+        "phrase": "data storage",
+        "zh": "数据存储"
+      },
+      {
+        "phrase": "cold storage",
+        "zh": "冷藏"
+      }
+    ],
+    "forms": [
+      {
+        "label": "无变化",
+        "form": "storage"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "store",
+        "pos": "v.",
+        "zh": "储存；贮藏"
+      },
+      {
+        "word": "storehouse",
+        "pos": "n.",
+        "zh": "仓库"
+      },
+      {
+        "word": "storeroom",
+        "pos": "n.",
+        "zh": "储藏室"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "Keeping things",
+        "titleCN": "贮藏",
+        "definition": "the act of keeping things until they are needed",
+        "definitionCN": "把东西留到需要时再用的行为",
+        "example": "The boxes are kept in storage.",
+        "exampleCN": "这些箱子被存放着。",
+        "why": "This is the core sense of keeping.",
+        "whyCN": "这是表示存放的核心义项。"
+      },
+      {
+        "no": "02",
+        "title": "Space for keeping",
+        "titleCN": "储存空间",
+        "definition": "space used for keeping things",
+        "definitionCN": "用来存放物品的空间",
+        "example": "We need more storage in the kitchen.",
+        "exampleCN": "厨房里我们需要更多储存空间。",
+        "why": "The action names the room it needs.",
+        "whyCN": "这个行为也指它所需的空间。"
+      },
+      {
+        "no": "03",
+        "title": "Digital memory",
+        "titleCN": "数据存储",
+        "definition": "the keeping of data in a computer",
+        "definitionCN": "在计算机中保存数据",
+        "example": "The phone has plenty of storage.",
+        "exampleCN": "这部手机有很大的存储空间。",
+        "why": "Digital memory repeats the old image.",
+        "whyCN": "数字记忆重复了古老的存放意象。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Storage is store plus the suffix age.",
+        "cn": "storage 由 store 加后缀 age 构成。"
+      },
+      "items": [
+        {
+          "era": "LATIN",
+          "en": "Latin instaurare meant to set up or renew.",
+          "cn": "拉丁语 instaurare 意为建立或更新。"
+        },
+        {
+          "era": "OLD FRENCH",
+          "en": "Estorer meant to furnish or supply.",
+          "cn": "estorer 意为置备或供给。"
+        },
+        {
+          "era": "MIDDLE ENGLISH",
+          "en": "Store meant a supply kept ready.",
+          "cn": "store 指备好的存货。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "The suffix age formed storage.",
+          "cn": "后缀 age 构成了 storage。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "Storage spread to computers.",
+          "cn": "storage 扩展到计算机领域。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "Storage is compared with look-alike words and with words for keeping.",
+        "cn": "把 storage 与形近词以及表示保存的词作比较。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "stage",
+              "ipa": "/steɪdʒ/",
+              "tag": "noun",
+              "definition": "a raised floor for shows",
+              "definitionCN": "舞台"
+            },
+            {
+              "word": "store",
+              "ipa": "/stɔː(r)/",
+              "tag": "verb",
+              "definition": "to keep for later",
+              "definitionCN": "储存"
+            },
+            {
+              "word": "stowage",
+              "ipa": "/ˈstəʊɪdʒ/",
+              "tag": "noun",
+              "definition": "space for stowing goods",
+              "definitionCN": "装载处"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "keeping",
+              "ipa": "/ˈkiːpɪŋ/",
+              "tag": "noun",
+              "definition": "the act of holding safely",
+              "definitionCN": "保管"
+            },
+            {
+              "word": "warehousing",
+              "ipa": "/ˈweəhaʊzɪŋ/",
+              "tag": "noun",
+              "definition": "the storing of goods in a warehouse",
+              "definitionCN": "仓储"
+            },
+            {
+              "word": "memory",
+              "ipa": "/ˈmeməri/",
+              "tag": "noun",
+              "definition": "the ability to keep information",
+              "definitionCN": "记忆"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Storage is where things wait until you need them.",
+        "cn": "storage 就是东西等着你取用的地方。"
+      },
+      "normal": [
+        {
+          "en": "The chairs are in storage.",
+          "cn": "椅子存放着。"
+        },
+        {
+          "en": "We need more storage space.",
+          "cn": "我们需要更多储存空间。"
+        },
+        {
+          "en": "Fruit goes into cold storage.",
+          "cn": "水果进入冷藏。"
+        },
+        {
+          "en": "Data storage is cheap now.",
+          "cn": "如今数据存储很便宜。"
+        },
+        {
+          "en": "The storeroom is locked.",
+          "cn": "储藏室锁着。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "Storage is a promise that the future will need the past.",
+          "cn": "储存，是一个相信将来仍需要过去的承诺。"
+        },
+        {
+          "en": "We store what we fear to lose.",
+          "cn": "我们存放的，都是怕失去的东西。"
+        },
+        {
+          "en": "Memory is storage without shelves.",
+          "cn": "记忆，是没有货架的储存。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "The boxes are kept in storage.",
+        "cn": "这些箱子被存放着。"
+      },
+      {
+        "en": "We need more storage in the kitchen.",
+        "cn": "厨房里我们需要更多储存空间。"
+      },
+      {
+        "en": "The phone has plenty of storage.",
+        "cn": "这部手机有很大的存储空间。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "构词记忆 · 非词源",
+      "text": "storage 是 store 加后缀 age，表示「贮藏、储存」；storage space 是储存空间，in storage 是存放着，data storage 是数据存储。",
+      "word": "storage"
+    },
+    "root": "由 store 加后缀 age 构成；store 经古法语 estorer（置备）来自拉丁语 instaurare（建立、更新），因此 storage 字面就是「置备起来的状态」。",
+    "sensesIntro": {
+      "en": "Storage is the keeping of things, the space for it, or digital memory.",
+      "cn": "storage 是物品的存放、存放所需的空间，或数字存储。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "Things set aside and kept safe.",
+        "cn": "被放到一边、妥善保管的东西。"
+      },
+      "chain": [
+        "THING",
+        "PLACE",
+        "KEEP",
+        "ROOM",
+        "DATA",
+        "STORAGE"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "The boxes are kept in storage.",
+          "cn": "这些箱子被存放着。"
+        },
+        {
+          "senses": "02",
+          "en": "We need more storage in the kitchen.",
+          "cn": "厨房里我们需要更多储存空间。"
+        },
+        {
+          "senses": "03",
+          "en": "The phone has plenty of storage.",
+          "cn": "这部手机有很大的存储空间。"
+        },
+        {
+          "senses": "01 · 02",
+          "en": "Keeping needs a place to keep things.",
+          "cn": "存放需要有地方放东西。"
+        },
+        {
+          "senses": "02 · 03",
+          "en": "Shelves and chips both hold what we save.",
+          "cn": "货架和芯片，都存着我们要留住的东西。"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Storage takes the suffix age and builds compounds for storing.",
+        "cn": "storage 带后缀 age，并构成表示存放的复合词。"
+      },
+      "latinIntro": {
+        "en": "The Latin source instaurare meant to set up or renew.",
+        "cn": "拉丁语来源 instaurare 意为建立或更新。"
+      },
+      "items": [
+        {
+          "word": "storage",
+          "structure": "store + -age",
+          "meaning": "the act of keeping",
+          "meaningCN": "贮藏",
+          "example": "Storage costs money.",
+          "exampleCN": "储存要花钱。"
+        },
+        {
+          "word": "store",
+          "structure": "Old French estorer",
+          "meaning": "to keep for later",
+          "meaningCN": "储存",
+          "example": "Store the boxes here.",
+          "exampleCN": "把箱子存这里。"
+        },
+        {
+          "word": "storehouse",
+          "structure": "store + house",
+          "meaning": "a building for goods",
+          "meaningCN": "仓库",
+          "example": "The storehouse is full.",
+          "exampleCN": "仓库满了。"
+        },
+        {
+          "word": "storeroom",
+          "structure": "store + room",
+          "meaning": "a room for goods",
+          "meaningCN": "储藏室",
+          "example": "The storeroom is locked.",
+          "exampleCN": "储藏室锁着。"
+        },
+        {
+          "word": "storage space",
+          "structure": "storage + space",
+          "meaning": "room for keeping things",
+          "meaningCN": "储存空间",
+          "example": "We need more storage space.",
+          "exampleCN": "我们需要更多储存空间。"
+        },
+        {
+          "word": "cold storage",
+          "structure": "cold + storage",
+          "meaning": "cool keeping",
+          "meaningCN": "冷藏",
+          "example": "Fruit goes into cold storage.",
+          "exampleCN": "水果进入冷藏。"
+        },
+        {
+          "word": "data storage",
+          "structure": "data + storage",
+          "meaning": "keeping digital data",
+          "meaningCN": "数据存储",
+          "example": "Data storage is cheap now.",
+          "exampleCN": "如今数据存储很便宜。"
+        },
+        {
+          "word": "in storage",
+          "structure": "in + storage",
+          "meaning": "kept away for later",
+          "meaningCN": "存放着",
+          "example": "The chairs are in storage.",
+          "exampleCN": "椅子存放着。"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "store",
+          "structure": "Latin instaurare to Old French estorer",
+          "meaning": "to set up, to supply",
+          "meaningCN": "建立；置备"
+        }
+      ]
+    }
+  },
+  {
+    "word": "store",
+    "ipa_uk": "/stɔː(r)/",
+    "ipa_us": "/stɔːr/",
+    "definition_zh": "商店；储存；储备；存储",
+    "definition_en": "a shop, a supply kept for future use, or to keep something for later",
+    "core_image": "货架后面堆满货物的库房",
+    "scene": "这家店周末很忙。The store is busy on weekends.",
+    "sceneCN": "这里 store 是「商店」（第 1 个义项）；句意：这家店周末很忙。",
+    "pos": [
+      {
+        "tag": "n.",
+        "zh": "商店"
+      },
+      {
+        "tag": "n.",
+        "zh": "储备；储藏"
+      },
+      {
+        "tag": "v.",
+        "zh": "储存；贮藏"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "department store",
+        "zh": "百货商店"
+      },
+      {
+        "phrase": "store up",
+        "zh": "储备；积攒"
+      },
+      {
+        "phrase": "in store",
+        "zh": "储备着；即将发生"
+      },
+      {
+        "phrase": "store data",
+        "zh": "存储数据"
+      },
+      {
+        "phrase": "chain store",
+        "zh": "连锁店"
+      },
+      {
+        "phrase": "store away",
+        "zh": "收起来"
+      }
+    ],
+    "forms": [
+      {
+        "label": "复数",
+        "form": "stores"
+      },
+      {
+        "label": "过去式",
+        "form": "stored"
+      },
+      {
+        "label": "过去分词",
+        "form": "stored"
+      },
+      {
+        "label": "现在分词",
+        "form": "storing"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "storage",
+        "pos": "n.",
+        "zh": "储存；储藏"
+      },
+      {
+        "word": "storehouse",
+        "pos": "n.",
+        "zh": "仓库"
+      },
+      {
+        "word": "storeroom",
+        "pos": "n.",
+        "zh": "储藏室"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "A shop",
+        "titleCN": "商店",
+        "definition": "a shop where goods are sold",
+        "definitionCN": "出售商品的店铺",
+        "example": "The store opens at nine.",
+        "exampleCN": "这家店九点开门。",
+        "why": "This is the everyday American sense.",
+        "whyCN": "这是美式英语中日常的商店义项。"
+      },
+      {
+        "no": "02",
+        "title": "A supply kept",
+        "titleCN": "储备",
+        "definition": "a supply of something kept for future use",
+        "definitionCN": "留待将来使用的储备",
+        "example": "They keep a store of wood.",
+        "exampleCN": "他们存着一批木柴。",
+        "why": "The shop and the stock share one idea of keeping.",
+        "whyCN": "商店与存货共享「存放」这一概念。"
+      },
+      {
+        "no": "03",
+        "title": "Keep for later",
+        "titleCN": "储存",
+        "definition": "to keep something for future use",
+        "definitionCN": "把某物留待将来使用",
+        "example": "We stored the boxes in the attic.",
+        "exampleCN": "我们把箱子存在阁楼里。",
+        "why": "The noun turns into the act of keeping.",
+        "whyCN": "名词转化为存放的动作。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Store came through Old French from a Latin verb for setting up.",
+        "cn": "store 经古法语来自一个表示建立的拉丁语动词。"
+      },
+      "items": [
+        {
+          "era": "LATIN",
+          "en": "Instaurare meant to set up or renew.",
+          "cn": "instaurare 意为建立或更新。"
+        },
+        {
+          "era": "OLD FRENCH",
+          "en": "Estorer meant to furnish or supply.",
+          "cn": "estorer 意为置备或供给。"
+        },
+        {
+          "era": "MIDDLE ENGLISH",
+          "en": "Store named a supply kept ready.",
+          "cn": "store 指备好的存货。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "Store named a shop in America.",
+          "cn": "store 在美式英语中指商店。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "Store spread to data kept on machines.",
+          "cn": "store 扩展到机器保存的数据。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "Store is compared with look-alike words and with words for shops and supplies.",
+        "cn": "把 store 与形近词以及表示商店和储备的词作比较。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "stove",
+              "ipa": "/stəʊv/",
+              "tag": "noun",
+              "definition": "an appliance for cooking",
+              "definitionCN": "炉子"
+            },
+            {
+              "word": "score",
+              "ipa": "/skɔː(r)/",
+              "tag": "noun",
+              "definition": "the number of points",
+              "definitionCN": "得分"
+            },
+            {
+              "word": "shore",
+              "ipa": "/ʃɔː(r)/",
+              "tag": "noun",
+              "definition": "the land beside water",
+              "definitionCN": "岸"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "shop",
+              "ipa": "/ʃɒp/",
+              "tag": "noun",
+              "definition": "a place where goods are sold",
+              "definitionCN": "商店"
+            },
+            {
+              "word": "supply",
+              "ipa": "/səˈplaɪ/",
+              "tag": "noun",
+              "definition": "an amount kept ready",
+              "definitionCN": "供应；储备"
+            },
+            {
+              "word": "stock",
+              "ipa": "/stɒk/",
+              "tag": "noun",
+              "definition": "goods kept for sale",
+              "definitionCN": "库存"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "A store sells what it keeps, and keeps what it sells.",
+        "cn": "商店卖它存的东西，也存它要卖的东西。"
+      },
+      "normal": [
+        {
+          "en": "The store is busy on weekends.",
+          "cn": "这家店周末很忙。"
+        },
+        {
+          "en": "Store the rice in a dry place.",
+          "cn": "把米存放在干燥的地方。"
+        },
+        {
+          "en": "They store up food for winter.",
+          "cn": "他们为冬天储备食物。"
+        },
+        {
+          "en": "There is a surprise in store for you.",
+          "cn": "有个惊喜在等着你。"
+        },
+        {
+          "en": "The phone stores thousands of photos.",
+          "cn": "这部手机存着数千张照片。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "A store is a promise made to tomorrow.",
+          "cn": "商店，是向明天许下的承诺。"
+        },
+        {
+          "en": "We store what we cannot yet use.",
+          "cn": "我们存放的，是暂时用不上的东西。"
+        },
+        {
+          "en": "Every shelf holds a small future.",
+          "cn": "每一层货架，都托着一点未来。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "The store is busy on weekends.",
+        "cn": "这家店周末很忙。"
+      },
+      {
+        "en": "They keep a store of wood.",
+        "cn": "他们存着一批木柴。"
+      },
+      {
+        "en": "We stored the boxes in the attic.",
+        "cn": "我们把箱子存在阁楼里。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "构词记忆 · 非词源",
+      "text": "store 是「商店」，也指「储备」和「储存」；department store 是百货商店，store up 是储备，in store 是储备着或即将发生。",
+      "word": "store"
+    },
+    "root": "经古法语 estorer（置备、供给）来自拉丁语 instaurare（建立、更新）；由置备物资，引申为储备、储存，再指售货的商店。",
+    "sensesIntro": {
+      "en": "Store is a shop, a supply kept ready, or the act of keeping something.",
+      "cn": "store 是商店、备好的储备，或储存的行为。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "Goods held until someone needs them.",
+        "cn": "货物被存着，直到有人需要。"
+      },
+      "chain": [
+        "SHOP",
+        "GOODS",
+        "KEEP",
+        "SUPPLY",
+        "SAVE",
+        "STORE"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "The store opens at nine.",
+          "cn": "这家店九点开门。"
+        },
+        {
+          "senses": "02",
+          "en": "They keep a store of wood.",
+          "cn": "他们存着一批木柴。"
+        },
+        {
+          "senses": "03",
+          "en": "We stored the boxes in the attic.",
+          "cn": "我们把箱子存在阁楼里。"
+        },
+        {
+          "senses": "01 · 02",
+          "en": "A shop is simply a store of goods on show.",
+          "cn": "商店不过是将存货摆出来给人看。"
+        },
+        {
+          "senses": "02 · 03",
+          "en": "To store is to build a store for later.",
+          "cn": "储存，就是为以后备下一份库存。"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Store takes endings and builds words for shops and keeping.",
+        "cn": "store 加词尾，构成与商店和存放相关的词。"
+      },
+      "latinIntro": {
+        "en": "The Latin source instaurare meant to set up or renew.",
+        "cn": "拉丁语来源 instaurare 意为建立或更新。"
+      },
+      "items": [
+        {
+          "word": "store",
+          "structure": "Old French estorer",
+          "meaning": "to keep, a shop",
+          "meaningCN": "储存；商店",
+          "example": "The store is open.",
+          "exampleCN": "商店开着。"
+        },
+        {
+          "word": "stores",
+          "structure": "store + -s",
+          "meaning": "shops or supplies",
+          "meaningCN": "商店或储备（复数）",
+          "example": "The stores close early.",
+          "exampleCN": "商店很早关门。"
+        },
+        {
+          "word": "stored",
+          "structure": "store + -ed",
+          "meaning": "kept for later",
+          "meaningCN": "储存（过去式）",
+          "example": "They stored the apples.",
+          "exampleCN": "他们储存了苹果。"
+        },
+        {
+          "word": "storing",
+          "structure": "store + -ing",
+          "meaning": "the act of keeping",
+          "meaningCN": "储存（现在分词）",
+          "example": "Storing grain needs dry air.",
+          "exampleCN": "储存谷物需要干燥的空气。"
+        },
+        {
+          "word": "storage",
+          "structure": "store + -age",
+          "meaning": "the keeping of goods",
+          "meaningCN": "储存；仓储",
+          "example": "Storage costs money.",
+          "exampleCN": "储存要花钱。"
+        },
+        {
+          "word": "storehouse",
+          "structure": "store + house",
+          "meaning": "a building for goods",
+          "meaningCN": "仓库",
+          "example": "The storehouse is full.",
+          "exampleCN": "仓库满了。"
+        },
+        {
+          "word": "storeroom",
+          "structure": "store + room",
+          "meaning": "a room for goods",
+          "meaningCN": "储藏室",
+          "example": "The storeroom is locked.",
+          "exampleCN": "储藏室锁着。"
+        },
+        {
+          "word": "department store",
+          "structure": "department + store",
+          "meaning": "a large shop with many sections",
+          "meaningCN": "百货商店",
+          "example": "She works in a department store.",
+          "exampleCN": "她在一家百货商店工作。"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "store",
+          "structure": "Latin instaurare to Old French estorer",
+          "meaning": "to set up, to supply",
+          "meaningCN": "建立；置备"
         }
       ]
     }
