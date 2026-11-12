@@ -6497,6 +6497,28 @@
         distractorsFile: "./books/distractors.json",
         dailyOptions: [5, 10, 15, 20],
         fallback: null
+      },
+      {
+        id: "daily",
+        name: "每日核心词汇",
+        intro: "每日英语核心词汇 3,000 词，每词均为 22 键深度词条。",
+        bookFile: "./books/daily.json",
+        preparedFiles: (() => {
+          const files = [];
+          for (let i = 1; i <= 144; i++) {
+            const num = String(i).padStart(4, "0");
+            files.push(`./books/prepared/daily-${num}.json`);
+            if (i === 117) {
+              for (const s of ["a", "b", "c", "d", "e", "f"]) {
+                files.push(`./books/prepared/daily-${num}${s}.json`);
+              }
+            }
+          }
+          return files;
+        })(),
+        distractorsFile: "./books/distractors.json",
+        dailyOptions: [5, 10, 15, 20],
+        fallback: null
       }
     ];
     const DEFAULT_BOOK_ID = BOOKS[0].id;
