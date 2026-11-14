@@ -1,0 +1,181 @@
+{
+  "word": "butt",
+  "ipa_uk": "/bʌt/",
+  "ipa_us": "/bʌt/",
+  "definition_zh": "用头（角）顶撞；烟蒂；枪托；酒桶；屁股（口语）",
+  "definition_en": "to strike with the head or horns; also the end of a cigarette, the stock end of a gun, a large barrel, or (informal) the bottom",
+  "core_image": "公羊低头一顶，把对手撞出老远",
+  "scene": "山坡上两只公羊低着头冲向对方。The young ram learned to butt his rival off the ledge.",
+  "sceneCN": "这里 butt 是「用头顶撞」（第 1 个义项：以头或角冲撞）；句意是这只小公羊学会了用头把对手顶下石台。",
+  "pos": [
+    { "tag": "v.", "zh": "用头（角）顶撞；冲撞" },
+    { "tag": "n.", "zh": "烟蒂；枪托；酒桶；（口语）屁股" }
+  ],
+  "collocations": [
+    { "phrase": "butt in", "zh": "插嘴；干预" },
+    { "phrase": "butt heads", "zh": "顶牛；正面冲突" },
+    { "phrase": "a cigarette butt", "zh": "烟蒂" },
+    { "phrase": "the butt of a rifle", "zh": "枪托" },
+    { "phrase": "the butt of a joke", "zh": "被取笑的对象" }
+  ],
+  "forms": [
+    { "label": "过去式", "form": "butted" },
+    { "label": "过去分词", "form": "butted" },
+    { "label": "现在分词", "form": "butting" },
+    { "label": "三单", "form": "butts" },
+    { "label": "复数", "form": "butts" }
+  ],
+  "derivatives": [
+    { "word": "butting", "pos": "n.", "zh": "由动词加 -ing 转名词，义为「顶撞行为」" },
+    { "word": "buttock", "pos": "n.", "zh": "同源名词，义为「臀部」" },
+    { "word": "abut", "pos": "v.", "zh": "由拉丁前缀加同源词根构成，义为「毗邻，紧靠」" }
+  ],
+  "senses": [
+    {
+      "no": "01",
+      "title": "To strike with the head or horns",
+      "titleCN": "用头（角）顶撞",
+      "definition": "to hit someone or something with the head or horns, pushing forward",
+      "definitionCN": "用头或角向前冲撞某人或某物",
+      "example": "Goats butt each other to decide who leads the herd.",
+      "exampleCN": "山羊互相顶撞，决出谁是头羊。",
+      "why": "The image is a lowered head driven forward like a blow.",
+      "whyCN": "核心意象是低头向前一顶，像一次打击。"
+    },
+    {
+      "no": "02",
+      "title": "The thick end of a tool or cigarette",
+      "titleCN": "粗端；烟蒂",
+      "definition": "the larger or thicker end of something, especially the leftover stub of a smoked cigarette or the stock end of a gun",
+      "definitionCN": "器物较粗的一端，尤指抽剩的烟蒂或枪的托端",
+      "example": "He crushed the butt under his boot.",
+      "exampleCN": "他一脚踩灭了烟蒂。",
+      "why": "The same word names the thick end that absorbs the blow, like the animal's head.",
+      "whyCN": "同一个词也指承受冲撞的粗端，正如顶撞用的头部。"
+    },
+    {
+      "no": "03",
+      "title": "A large cask for wine or water",
+      "titleCN": "大酒桶；大水桶",
+      "definition": "a large barrel or cask, especially for wine, beer or rainwater",
+      "definitionCN": "大桶，多用于盛酒、啤酒或雨水",
+      "example": "A rain butt stood under the cottage eaves.",
+      "exampleCN": "农舍屋檐下放着一只接雨水的大桶。",
+      "why": "A separate old French word for a cask happened to match this form.",
+      "whyCN": "这是古法语另一支「大桶」一词的巧合同形，与顶撞义并不同源。"
+    },
+    {
+      "no": "04",
+      "title": "A person or thing that is mocked",
+      "titleCN": "被嘲笑的对象",
+      "definition": "a person or thing at whom mockery or criticism is directed",
+      "definitionCN": "成为嘲笑或批评目标的人或事物",
+      "example": "The clumsy apprentice was the butt of every joke in the workshop.",
+      "exampleCN": "这个笨手笨脚的学徒成了作坊里所有笑话的靶子。",
+      "why": "The target of blows becomes the target of laughter.",
+      "whyCN": "承受撞击的「靶」转为承受笑声的「靶」。"
+    },
+    {
+      "no": "05",
+      "title": "The bottom (informal)",
+      "titleCN": "屁股（口语）",
+      "definition": "informal word for the part of the body one sits on",
+      "definitionCN": "口语中指坐着的身体部位",
+      "example": "Get off your butt and help us move the table.",
+      "exampleCN": "别闲坐着了，过来帮我们搬桌子。",
+      "why": "The thick-end sense slid to the rounded end of the body.",
+      "whyCN": "「粗端」义滑移到身体浑圆的末端。"
+    }
+  ],
+  "etymology": {
+    "intro": { "en": "Butt is really two or three words that look alike: a butting head from French boter, a cask from Old French butt, and a thick end from the same Germanic root as button.", "cn": "butt 实为几个同形词：顶撞义出自法语 boter，大桶义出自古法语 butt，粗端义则与 button 同一日耳曼词根。" },
+    "items": [
+      { "era": "GERMANIC ROOT", "en": "a Germanic root for 'to strike, push' gave Old French boter and English beat-adjacent forms.", "cn": "日耳曼词根表示「击打、推撞」，进入古法语 boter，与英语 beat 相邻。" },
+      { "era": "OLD FRENCH", "en": "boter meant to push or strike; butt entered English in the sense of thrusting with the head.", "cn": "古法语 boter 意为推撞；butt 进入英语时即指用头顶撞。" },
+      { "era": "OLD FRENCH BUTT", "en": "a separate Old French butt meant a cask, from Late Latin buttis.", "cn": "古法语另一词 butt 指大桶，出自后期拉丁语 buttis。" },
+      { "era": "ENGLISH, 14TH–16TH C.", "en": "the thick-end sense grew through archery butts and the end of a tool, later the cigarette butt.", "cn": "十四至十六世纪，「粗端」义经射箭靶座、工具末端发展，后指烟蒂。" },
+      { "era": "MODERN ENGLISH", "en": "informal use for the bottom is American, and butt in is the common idiom for interrupting.", "cn": "现代英语中，「屁股」义为美式口语，butt in 则是「插嘴」的常用习语。" }
+    ]
+  },
+  "similar": {
+    "note": { "en": "The look-alike group collects same-form words of different origins; the near-meaning group gives striking and stub words.", "cn": "形近组收集同形异源词；近义组是冲撞与「剩余短端」词汇。" },
+    "groups": [
+      {
+        "heading": "LOOK-ALIKE",
+        "entries": [
+          { "word": "abut", "ipa": "/əˈbʌt/", "tag": "same root", "definition": "to border on, touch at an end", "definitionCN": "毗邻，端部相接，同源动词" },
+          { "word": "butte", "ipa": "/bjuːt/", "tag": "spelling", "definition": "a steep-sided flat-topped hill", "definitionCN": "孤峰平顶山，只是拼写相近，词源无关" },
+          { "word": "button", "ipa": "/ˈbʌtən/", "tag": "same root", "definition": "a small fastening knob", "definitionCN": "纽扣，与「粗端」义同出日耳曼词根" },
+          { "word": "buttress", "ipa": "/ˈbʌtrɪs/", "tag": "same root", "definition": "a supporting structure", "definitionCN": "扶壁，同出「推撞」词根的支撑义" }
+        ]
+      },
+      {
+        "heading": "NEAR MEANING",
+        "entries": [
+          { "word": "ram", "ipa": "/ræm/", "tag": "near meaning", "definition": "to strike or force by driving", "definitionCN": "猛撞，用力撞入" },
+          { "word": "stub", "ipa": "/stʌb/", "tag": "near meaning", "definition": "the short leftover end, as of a pencil or cigarette", "definitionCN": "残余短端，如铅笔头、烟蒂" },
+          { "word": "cask", "ipa": "/kɑːsk/", "tag": "near meaning", "definition": "a large barrel for liquids", "definitionCN": "大桶，与 butt 的桶义相近" },
+          { "word": "target", "ipa": "/ˈtɑːɡɪt/", "tag": "near meaning", "definition": "the object aimed at, as in archery or mockery", "definitionCN": "靶子，引申为被攻击或嘲笑的对象" },
+          { "word": "shove", "ipa": "/ʃʌv/", "tag": "near meaning", "definition": "to push roughly", "definitionCN": "猛推" }
+        ]
+      }
+    ]
+  },
+  "mnemonics": {
+    "normalIntro": { "en": "One short word, several thick ends: the ram's head, the cigarette's stub, the gun's stock.", "cn": "一个短词，多种「粗端」：公羊的头、烟卷的蒂、枪的托。" },
+    "normal": [
+      { "en": "Butt heads means to clash directly.", "cn": "butt heads 指正面冲突、顶牛。" },
+      { "en": "Butt in means to interrupt rudely.", "cn": "butt in 指粗鲁插嘴。" },
+      { "en": "A cigarette butt is the stub left after smoking.", "cn": "cigarette butt 是抽剩的烟蒂。" },
+      { "en": "The butt of a joke takes the mockery.", "cn": "the butt of a joke 指被取笑的对象。" },
+      { "en": "Abut keeps the same root in a mild form: to touch ends.", "cn": "abut 保留同根的温和义：端部相接。" }
+    ],
+    "abstract": [
+      { "en": "Feel the thud of a ram's head against your shield.", "cn": "感受公羊头撞在盾上的闷响。" },
+      { "en": "See smoke curl up from a crushed butt on the pavement.", "cn": "看人行道上被踩灭的烟蒂冒出最后一缕烟。" },
+      { "en": "Picture a rain barrel brimming under the eaves.", "cn": "想象屋檐下接满雨水的大桶。" }
+    ]
+  },
+  "examples": [
+    { "en": "The two rams butted heads until one gave way.", "cn": "两只公羊顶了半天脑袋，直到一方退让。" },
+    { "en": "Please don't butt in while adults are talking.", "cn": "大人说话时请别插嘴。" },
+    { "en": "The old wine butt held more than a bathtub would.", "cn": "那只旧酒桶比浴缸装得还多。" }
+  ],
+  "dict_mnemonic": { "note": "谐音记忆 · 非词源", "text": "「巴特」——小羊「巴不得」用脑袋「特」别使劲地顶你一下。", "word": "butt" },
+  "root": "butt 的顶撞义源自日耳曼语「击打、推撞」词根，经古法语 boter 进入英语；「粗端、烟蒂」义与 button 同根，指承受撞击的一端；「大桶」义另出后期拉丁语 buttis，属同形异源。",
+  "sensesIntro": { "en": "From a pushing head grow the blow, the thick end that takes blows, the mocked target, the cask by coincidence, and the seated end of the body.", "cn": "从一只顶撞的头部生出：那一撞、承受撞击的粗端、被嘲笑的靶子、因同形而并存的酒桶，以及身体的末端。" },
+  "semanticMap": {
+    "core": { "en": "CORE IMAGE: a lowered head driving forward into a blow.", "cn": "核心意象：低下的头向前猛地一顶。" },
+    "chain": ["PUSH", "IMPACT", "THICK END", "TARGET", "MOCKERY", "RESTING END"],
+    "branches": [
+      { "senses": "01", "en": "rams butt heads on the hillside", "cn": "公羊在山坡上顶牛" },
+      { "senses": "01", "en": "butt in, a verbal shove", "cn": "butt in，话语上的横插一杠" },
+      { "senses": "02", "en": "a cigarette butt crushed underfoot", "cn": "被踩灭的烟蒂" },
+      { "senses": "04", "en": "the butt of every joke", "cn": "所有笑话的靶子" },
+      { "senses": "05", "en": "get off your butt", "cn": "别坐着不动（口语）" }
+    ]
+  },
+  "affixes": {
+    "intro": { "en": "Butt is short and sturdy like its meaning; its relatives keep the idea of pushing or of thick ends.", "cn": "butt 短而结实，恰如其义；同族词都保有「推撞」或「粗端」之意。" },
+    "latinIntro": { "en": "The striking root passed from Germanic into French and back; the cask word is Late Latin buttis.", "cn": "「击打」词根从日耳曼语进入法语再回流英语；「大桶」词另出后期拉丁语 buttis。" },
+    "items": [
+      { "word": "butt", "structure": "Old French boter", "meaning": "to strike with the head", "meaningCN": "用头顶撞", "example": "goats butt each other", "exampleCN": "山羊互相顶撞" },
+      { "word": "abut", "structure": "abut, from the same root", "meaning": "to join at an end", "meaningCN": "毗邻；端接", "example": "the garden abuts the wall", "exampleCN": "花园紧靠围墙" },
+      { "word": "button", "structure": "same Germanic root", "meaning": "a knob, a thick end", "meaningCN": "纽扣；圆头", "example": "a brass button", "exampleCN": "铜纽扣" },
+      { "word": "buttress", "structure": "butt + -ress", "meaning": "a structure that pushes against a wall", "meaningCN": "扶壁", "example": "a flying buttress", "exampleCN": "飞扶壁" },
+      { "word": "buttock", "structure": "butt + -ock", "meaning": "the rounded end of the body", "meaningCN": "臀部", "example": "a buttock of beef", "exampleCN": "牛后腿肉" },
+      { "word": "cigarette butt", "structure": "compound", "meaning": "the smoked stub", "meaningCN": "烟蒂", "example": "drop the butt in the ashtray", "exampleCN": "把烟蒂丢进烟灰缸" },
+      { "word": "butt of a rifle", "structure": "fixed phrase", "meaning": "the stock end of a gun", "meaningCN": "枪托", "example": "rifle butts at the drill", "exampleCN": "操练中的枪托" },
+      { "word": "water butt", "structure": "British compound", "meaning": "a rain barrel", "meaningCN": "雨水桶", "example": "a water butt by the shed", "exampleCN": "棚边的雨水桶" },
+      { "word": "butts", "structure": "archery term", "meaning": "the mound used as a target", "meaningCN": "射箭靶座", "example": "practice at the butts", "exampleCN": "在靶座前练习" }
+    ],
+    "latinEntries": [
+      { "word": "buttis", "structure": "Late Latin noun (f.)", "meaning": "a cask", "meaningCN": "大桶", "example": "source of the barrel sense", "exampleCN": "「酒桶」义之源" }
+    ],
+    "derivatives": [
+      { "word": "abut", "pos": "v.", "zh": "毗邻；紧靠" },
+      { "word": "buttock", "pos": "n.", "zh": "臀部" },
+      { "word": "buttress", "pos": "n.", "zh": "扶壁；支撑物" }
+    ]
+  }
+}

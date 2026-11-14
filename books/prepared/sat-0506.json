@@ -1,0 +1,144 @@
+{
+  "word": "cadaver",
+  "ipa_uk": "/kəˈdeɪvə/",
+  "ipa_us": "/kəˈdævər/",
+  "definition_zh": "尸体（尤指供解剖的遗体）",
+  "definition_en": "a dead human body, especially one used for medical study",
+  "core_image": "解剖台上盖着白布的遗体，医学生排队肃立",
+  "scene": "医学院的解剖厅里，白布下躺着一位捐献遗体的老人。The students studied the cadaver with quiet respect.",
+  "sceneCN": "这里 cadaver 是「遗体、尸体」（第 1 个义项：供医学研究的遗体）；句意是学生们怀着敬意研究这具遗体。",
+  "pos": [
+    { "tag": "n.", "zh": "尸体；遗体（多指医学用尸）" }
+  ],
+  "collocations": [
+    { "phrase": "a human cadaver", "zh": "人的遗体" },
+    { "phrase": "cadaver lab", "zh": "尸体解剖实验室" },
+    { "phrase": "cadaver dissection", "zh": "尸体解剖" },
+    { "phrase": "cadaver dog", "zh": "寻尸犬" },
+    { "phrase": "a preserved cadaver", "zh": "经防腐处理的遗体" }
+  ],
+  "forms": [
+    { "label": "复数", "form": "cadavers" }
+  ],
+  "derivatives": [
+    { "word": "cadaveric", "pos": "adj.", "zh": "由 cadaver 加 -ic 构成，义为「尸体的；尸状的」" },
+    { "word": "cadaverous", "pos": "adj.", "zh": "同根形容词，义为「似尸的；（面色）苍白如尸的」" },
+    { "word": "cadaverine", "pos": "n.", "zh": "同根化学名词，义为「尸胺」（腐败产生的物质）" }
+  ],
+  "senses": [
+    {
+      "no": "01",
+      "title": "A dead human body",
+      "titleCN": "尸体；遗体",
+      "definition": "the dead body of a human being, especially for dissection or study",
+      "definitionCN": "人的尸体，尤指供解剖或研究之用",
+      "example": "The anatomy course begins with a donated cadaver.",
+      "exampleCN": "解剖课从一具捐献的遗体开始。",
+      "why": "Latin cadere, to fall, gives the sense of one who has fallen.",
+      "whyCN": "拉丁语 cadere 意为「倒下」，尸体即「已倒下者」。"
+    },
+    {
+      "no": "02",
+      "title": "A corpse-like appearance",
+      "titleCN": "尸态；尸相（借代用法）",
+      "definition": "used attributively for something resembling a corpse in pallor or stillness",
+      "definitionCN": "作定语，形容如尸体般苍白或静止之物",
+      "example": "The patient's cadaver pallor alarmed the nurse.",
+      "exampleCN": "病人尸一样的苍白脸色让护士大惊。",
+      "why": "The noun lends its stillness and pallor as a description.",
+      "whyCN": "名词借出其「静止与苍白」作描写。"
+    }
+  ],
+  "etymology": {
+    "intro": { "en": "Cadaver comes from Latin cadere, to fall, so a cadaver is literally one who has fallen.", "cn": "cadaver 出自拉丁语 cadere（倒下），字面义即「已倒下者」。" },
+    "items": [
+      { "era": "PROTO-INDO-EUROPEAN", "en": "a reconstructed root kad- meant to fall; details of the reconstruction are debated.", "cn": "重构词根 kad- 意为「落下」，重构细节尚有争议。" },
+      { "era": "LATIN CADERE", "en": "cadere meant to fall, and gave a whole family of falling words.", "cn": "拉丁语 cadere 意为「落下」，衍生出一族「落下」词汇。" },
+      { "era": "LATIN CADAVER", "en": "cadaver meant a corpse, the body of one who has fallen.", "cn": "拉丁语 cadaver 指尸体，即「倒下者的躯体」。" },
+      { "era": "MEDICINE, 16TH C.", "en": "English anatomy took cadaver from post-classical Latin for dissected bodies.", "cn": "十六世纪英语解剖学承袭后期拉丁语，用 cadaver 指被解剖的遗体。" },
+      { "era": "MODERN ENGLISH", "en": "cadaver now spans anatomy labs, search dogs and forensic science.", "cn": "如今 cadaver 用于解剖实验室、寻尸犬与法医学。" }
+    ]
+  },
+  "similar": {
+    "note": { "en": "The look-alike group shares the falling root; the near-meaning group lists other words for the dead.", "cn": "形近组同出「落下」词根；近义组是其他表「尸体」的词。" },
+    "groups": [
+      {
+        "heading": "LOOK-ALIKE",
+        "entries": [
+          { "word": "cadaverous", "ipa": "/kəˈdævərəs/", "tag": "derived form", "definition": "pale and corpse-like", "definitionCN": "苍白如尸的" },
+          { "word": "cadaveric", "ipa": "/kəˈdævərɪk/", "tag": "derived form", "definition": "of or from a corpse", "definitionCN": "尸体的；取自尸体的" },
+          { "word": "cadence", "ipa": "/ˈkeɪdəns/", "tag": "same root", "definition": "a falling of the voice, rhythm", "definitionCN": "节奏；声调的抑扬，同出 cadere 词根" },
+          { "word": "accident", "ipa": "/ˈæksɪdənt/", "tag": "same root", "definition": "something that befalls, an unplanned event", "definitionCN": "事故，同出「落到身上」词根" }
+        ]
+      },
+      {
+        "heading": "NEAR MEANING",
+        "entries": [
+          { "word": "corpse", "ipa": "/kɔːps/", "tag": "near meaning", "definition": "a dead body, the general word", "definitionCN": "尸体，通用词" },
+          { "word": "remains", "ipa": "/rɪˈmeɪnz/", "tag": "near meaning", "definition": "the body of a dead person, respectful", "definitionCN": "遗骸，较尊敬的说法" },
+          { "word": "carcass", "ipa": "/ˈkɑːkəs/", "tag": "near meaning", "definition": "the dead body of an animal", "definitionCN": "（动物的）躯体" },
+          { "word": "body", "ipa": "/ˈbɒdi/", "tag": "near meaning", "definition": "the physical frame, dead or alive", "definitionCN": "身体；躯体" },
+          { "word": "morgue", "ipa": "/mɔːɡ/", "tag": "related", "definition": "a place where corpses are kept", "definitionCN": "停尸房，相关场所词" }
+        ]
+      }
+    ]
+  },
+  "mnemonics": {
+    "normalIntro": { "en": "The root means to fall: a cadaver is one who has fallen for good.", "cn": "词根意为「倒下」：cadaver 就是永远倒下之人。" },
+    "normal": [
+      { "en": "Latin cadere means to fall.", "cn": "拉丁语 cadere 意为「倒下」。" },
+      { "en": "Cadence keeps the falling sense in speech rhythm.", "cn": "cadence 在语调节奏中保留「落下」之义。" },
+      { "en": "Cadaverous describes a corpse-like pale face.", "cn": "cadaverous 形容苍白如尸的面孔。" },
+      { "en": "Cadaver dogs are trained to find the dead.", "cn": "cadaver dog 是受训寻尸的犬。" },
+      { "en": "Cadaverine is the chemical of decay.", "cn": "cadaverine 是腐败产生的尸胺。" }
+    ],
+    "abstract": [
+      { "en": "See a white sheet lifted gently in the lab.", "cn": "看解剖室里白布被轻轻掀起。" },
+      { "en": "Feel the hush of students around the table.", "cn": "感受解剖台边学生的肃静。" },
+      { "en": "Picture a leaf falling once, and lying still.", "cn": "想象一片叶子落下后静卧不动。" }
+    ]
+  },
+  "examples": [
+    { "en": "Donated cadavers make surgical training possible.", "cn": "捐献的遗体使外科训练成为可能。" },
+    { "en": "The cadaver dog led rescuers to the collapsed floor.", "cn": "寻尸犬把救援人员引到了坍塌的楼板处。" },
+    { "en": "His face was cadaverous after the long illness.", "cn": "久病之后，他的脸色苍白如尸。" }
+  ],
+  "dict_mnemonic": { "note": "谐音记忆 · 非词源", "text": "「卡·带·我」——担架上的人已不能说话，只剩皮带「卡」着「带」走「我」。", "word": "cadaver" },
+  "root": "cadaver 源自拉丁语 cadere「倒下、坠落」，名词 cadaver 即「倒下者的躯体」；同族词 cadence（声调下落、节奏）、accident（落到身上之事）、decadent（堕落的）共享「落下」词根。",
+  "sensesIntro": { "en": "One who has fallen gives English its clinical word for the dead body.", "cn": "「倒下者」一词为英语提供了死者的临床称呼。" },
+  "semanticMap": {
+    "core": { "en": "CORE IMAGE: a still form under a white sheet.", "cn": "核心意象：白布下一动不动的躯体。" },
+    "chain": ["FALL", "STILLNESS", "PALLOR", "STUDY", "RESPECT", "FORENSICS"],
+    "branches": [
+      { "senses": "01", "en": "a donated cadaver in the lab", "cn": "实验室里的捐献遗体" },
+      { "senses": "01", "en": "cadaver dissection class", "cn": "尸体解剖课" },
+      { "senses": "01", "en": "a cadaver dog at work", "cn": "工作中的寻尸犬" },
+      { "senses": "02", "en": "a cadaverous complexion", "cn": "苍白如尸的面色" },
+      { "senses": "01 · 02", "en": "the corpse itself and its borrowed pallor", "cn": "尸体本身与其借出的苍白" }
+    ]
+  },
+  "affixes": {
+    "intro": { "en": "The falling root cad- runs from speech rhythm to corpses.", "cn": "词根 cad-「落下」贯穿语调、节奏直到尸体。" },
+    "latinIntro": { "en": "Latin cadere, to fall, is the shared stem of the family.", "cn": "拉丁语 cadere「落下」是该词族的共同词干。" },
+    "items": [
+      { "word": "cadere", "structure": "Latin verb", "meaning": "to fall", "meaningCN": "落下；倒下", "example": "cadere in terram", "exampleCN": "倒在地上（拉丁语）" },
+      { "word": "cadaver", "structure": "cadere noun form", "meaning": "a fallen body, corpse", "meaningCN": "尸体", "example": "dissect a cadaver", "exampleCN": "解剖遗体" },
+      { "word": "cadaveric", "structure": "cadaver + -ic", "meaning": "of a corpse", "meaningCN": "尸体的", "example": "cadaveric graft", "exampleCN": "尸体移植组织" },
+      { "word": "cadaverous", "structure": "cadaver + -ous", "meaning": "corpse-like", "meaningCN": "苍白如尸的", "example": "a cadaverous face", "exampleCN": "尸样的面孔" },
+      { "word": "cadence", "structure": "cadere via Italian", "meaning": "rhythmic flow, falling pitch", "meaningCN": "节奏；抑扬", "example": "the cadence of speech", "exampleCN": "说话的抑扬顿挫" },
+      { "word": "accident", "structure": "ad- + cadere", "meaning": "something that befalls", "meaningCN": "事故；意外", "example": "a road accident", "exampleCN": "车祸" },
+      { "word": "decadent", "structure": "de- + cadent", "meaning": "falling away in standards", "meaningCN": "堕落的；颓废的", "example": "a decadent age", "exampleCN": "颓废的时代" },
+      { "word": "cadaverine", "structure": "cadaver + -ine", "meaning": "a compound of decay", "meaningCN": "尸胺", "example": "cadaverine's foul smell", "exampleCN": "尸胺的恶臭" },
+      { "word": "corpse", "structure": "Latin corpus via French", "meaning": "a dead body", "meaningCN": "尸体", "example": "identify the corpse", "exampleCN": "辨认尸体" }
+    ],
+    "latinEntries": [
+      { "word": "cadaver", "structure": "Latin noun (m./f., cadaveris)", "meaning": "a corpse", "meaningCN": "尸体" },
+      { "word": "cadere", "structure": "Latin verb, third conjugation", "meaning": "to fall", "meaningCN": "落下；倒下" }
+    ],
+    "derivatives": [
+      { "word": "cadaveric", "pos": "adj.", "zh": "尸体的" },
+      { "word": "cadaverous", "pos": "adj.", "zh": "苍白如尸的" },
+      { "word": "cadaverine", "pos": "n.", "zh": "尸胺" }
+    ]
+  }
+}
