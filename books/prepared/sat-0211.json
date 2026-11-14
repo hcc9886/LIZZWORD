@@ -1,0 +1,489 @@
+[
+  {
+    "word": "approximation",
+    "ipa_uk": "/əˌprɒksɪˈmeɪʃn/",
+    "ipa_us": "/əˌprɑːksɪˈmeɪʃn/",
+    "definition_zh": "近似；接近；近似值；粗略估算；逼近；近似物",
+    "definition_en": "the act of coming close to something; a value, estimate, or model that is close to the true one but not exact; also a thing that resembles another",
+    "core_image": "一支箭落在靶心旁边：没有正中，但已经足够靠近",
+    "scene": "一支箭射中靶心旁一指宽处，教练用小尺量出偏差，记录在计分板上。The coach called the measured distance an approximation, not an exact value.",
+    "sceneCN": "这里 approximation 是「近似、接近」（第 1 个义项：靠近某物或某个值的行为）；句意：教练说这段距离只是近似值，不是精确测量。图中可辨识物件：弓、箭、靶心、小尺、记分板。",
+    "pos": [
+      {
+        "tag": "n.",
+        "zh": "近似；接近；近似值；粗略估算；逼近"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "a good approximation",
+        "zh": "一个很好的近似"
+      },
+      {
+        "phrase": "a rough approximation",
+        "zh": "粗略的近似"
+      },
+      {
+        "phrase": "an approximation to",
+        "zh": "对……的近似"
+      },
+      {
+        "phrase": "a first approximation",
+        "zh": "初步近似"
+      },
+      {
+        "phrase": "successive approximation",
+        "zh": "逐次逼近"
+      }
+    ],
+    "forms": [
+      {
+        "label": "复数（名词，多于一个）",
+        "form": "approximations"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "approximate",
+        "pos": "adj./v.",
+        "zh": "近似的；大约的；接近；近似"
+      },
+      {
+        "word": "approximately",
+        "pos": "adv.",
+        "zh": "大约；近似地"
+      },
+      {
+        "word": "approximative",
+        "pos": "adj.",
+        "zh": "近似的；接近的"
+      },
+      {
+        "word": "approximator",
+        "pos": "n.",
+        "zh": "近似者；近似计算装置"
+      },
+      {
+        "word": "approximated",
+        "pos": "adj.",
+        "zh": "被近似的；估算出的"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "Coming near: the act of approaching",
+        "titleCN": "靠近：接近某物的动作",
+        "definition": "the act of coming near or close to a place, thing, or value",
+        "definitionCN": "靠近某个地点、事物或数值的行为",
+        "example": "The approximation of the storm forced the boats back to harbour.",
+        "exampleCN": "风暴的逼近迫使船只返回港口。",
+        "why": "Latin approximare is ad- 'to' plus proximare 'come near', from proximus 'nearest'. The earliest English sense, recorded in the early 15th c., is simply the act of coming close.",
+        "whyCN": "拉丁语 approximare 是 ad-“向”加 proximare“靠近”，后者出自 proximus“最近的”。英语最早的义项记录于 15 世纪早期，就是“靠近”这个动作。"
+      },
+      {
+        "no": "02",
+        "title": "A value close to the truth: the near figure",
+        "titleCN": "接近真值的数：近似值",
+        "definition": "a number, measurement, or result that is close to the true value but not exact",
+        "definitionCN": "接近真实值但不精确的数字、测量或结果",
+        "example": "Pi to two decimals is the approximation 3.14.",
+        "exampleCN": "圆周率保留两位小数，近似值是 3.14。",
+        "why": "From the act of coming near, the noun shifts to the result of that approach: a figure that has come close to the true value. The 1650s sense 'result of approximating' is exactly this landing point.",
+        "whyCN": "名词从“靠近的动作”转到“靠近的结果”：一个已经接近真值的数字。17 世纪 50 年代出现的“近似的结果”义，正是这个落点。"
+      },
+      {
+        "no": "03",
+        "title": "A rough estimate: close enough for the purpose",
+        "titleCN": "粗略估算：够用就好",
+        "definition": "a rough calculation or estimate that is accepted because it is close enough for a practical purpose",
+        "definitionCN": "为实际目的而接受的粗略计算或估计，因为已经足够接近",
+        "example": "A quick approximation put the crowd at three thousand.",
+        "exampleCN": "快速估算一下，人群大约有三千人。",
+        "why": "The approach is deliberately not exact: you stop when you are near enough. Approximation here names the stopping point, not a failure to reach the target.",
+        "whyCN": "这种靠近是刻意不精确的：够近就停下。这里的 approximation 命名的是这个停下的位置，而不是“没打中靶心”的失败。"
+      },
+      {
+        "no": "04",
+        "title": "A near copy: something resembling another",
+        "titleCN": "近似仿本：像，但不是原物",
+        "definition": "a thing that resembles another thing in appearance or character without being the same",
+        "definitionCN": "在外观或性质上像另一物、但并不相同的东西",
+        "example": "The model is only an approximation of the real bridge.",
+        "exampleCN": "这个模型只是真实桥梁的一个近似物。",
+        "why": "Two objects can come near each other in shape. The copy approaches the original without touching it, so approximation becomes resemblance rather than measurement.",
+        "whyCN": "两个物件可以在形状上彼此靠近。仿本接近原作却没有重合，因此 approximation 从测量变成“相似之物”。"
+      },
+      {
+        "no": "05",
+        "title": "Mathematical approximation: a curve that comes close",
+        "titleCN": "数学逼近：曲线靠上目标",
+        "definition": "a mathematical expression or method that comes close to a value, curve, or function without equalling it",
+        "definitionCN": "接近某个值、曲线或函数但不与之相等的数学表达式或方法",
+        "example": "The students used a straight line as an approximation to the curve.",
+        "exampleCN": "学生们用一条直线作为这条曲线的近似。",
+        "why": "Here the approach is formalised: a simpler object is chosen because it comes near the true one. Approximation becomes a tool for replacing the hard exact object with a near one.",
+        "whyCN": "这里的靠近被形式化了：选择一个更简单的对象，因为它接近真实对象。approximation 于是成为“用近似的对象替换难处理的精确对象”的工具。"
+      },
+      {
+        "no": "06",
+        "title": "Numerical or statistical approximation: close by method",
+        "titleCN": "数值或统计近似：用方法靠近",
+        "definition": "a result obtained by a numerical or statistical method that converges on, or estimates, a true value",
+        "definitionCN": "通过数值或统计方法得到的、收敛到或估计出真值的结果",
+        "example": "The simulation's approximation improved with every extra round of sampling.",
+        "exampleCN": "每增加一轮抽样，模拟的近似就更精确。",
+        "why": "The approach is now repeated by a procedure: each step brings the result nearer. Approximation names both the method's output and the closeness it achieves.",
+        "whyCN": "这里的靠近由一套程序反复执行：每一步都把结果带得更近。approximation 既命名方法的输出，也命名它达到的接近程度。"
+      },
+      {
+        "no": "07",
+        "title": "Approximation to a standard: nearing the target",
+        "titleCN": "接近标准：朝指标靠拢",
+        "definition": "a state of coming close to a standard, norm, or desired level without fully reaching it",
+        "definitionCN": "接近某个标准、规范或理想水平但尚未完全达到的状态",
+        "example": "The new engine's efficiency is a close approximation to the design target.",
+        "exampleCN": "新发动机的效率已很接近设计目标。",
+        "why": "What is approached is now an abstract target. The word measures the gap that remains, so it can describe progress toward a norm rather than a number.",
+        "whyCN": "此时被靠近的是一个抽象目标。这个词衡量仍然存在的差距，因此可以描述朝某个规范取得的进展，而不只是一个数字。"
+      },
+      {
+        "no": "08",
+        "title": "A model close to reality: useful but not exact",
+        "titleCN": "接近现实的模型：有用但不精确",
+        "definition": "a simplified model or description that is close enough to reality to be useful, while knowingly not exact",
+        "definitionCN": "一种简化模型或描述，接近现实到足以有用，同时明知并不精确",
+        "example": "The economic model is an approximation that ignores migration.",
+        "exampleCN": "这个经济模型是一个忽略了人口迁移的近似。",
+        "why": "A model approaches the world but never becomes the world. Approximation here names the accepted distance between a simplified account and the reality it describes.",
+        "whyCN": "模型靠近世界，却永远不会变成世界。这里的 approximation 命名的是简化描述与被描述现实之间被接受的距离。"
+      },
+      {
+        "no": "09",
+        "title": "The quality of being near but not identical",
+        "titleCN": "近似性：接近但不相同",
+        "definition": "the quality or state of being close to something in value, form, or meaning without being identical to it",
+        "definitionCN": "在数值、形式或意义上接近某物、但不完全相同的性质或状态",
+        "example": "The translation's approximation to the original is its greatest strength and its limit.",
+        "exampleCN": "这份译文与原作的近似，既是它最大的优点，也是它的局限。",
+        "why": "The noun moves from countable results to an abstract quality: the degree of nearness itself. This is the latest and most general branch, where approximation means 'closeness without identity'.",
+        "whyCN": "名词从可数的结果转到抽象性质：接近的程度本身。这是最晚、也最一般化的分支，approximation 在此意为“接近但不重合”。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Approximation is an action noun in -ion, from Latin -ionem, naming an act or its result. It comes from Latin approximare 'come near to' — ad- 'to' plus proximare 'come near' — or from the English verb approximate. The root proximus is the superlative of prope 'near', so the whole word is built from nearness, not from price or ownership.",
+        "cn": "approximation 是带 -ion 的动作名词，-ion 来自拉丁语 -ionem，命名动作或其结果。它来自拉丁语 approximare“接近”——ad-“向”加 proximare“靠近”——或来自英语动词 approximate。词根 proximus 是 prope“近”的最高级，因此整个词建立在“近”上，而不是“价格”或“所有权”。"
+      },
+      "items": [
+        {
+          "era": "EARLY 15C.",
+          "en": "First recorded as approximacioun, 'act of coming near or close'. The earliest sense is physical or spatial approach, not numerical accuracy.",
+          "cn": "最早记录为 approximacioun，意为“靠近、接近的动作”。最早的义项是物理或空间上的接近，不是数值精度。"
+        },
+        {
+          "era": "LATIN ACTION NOUN",
+          "en": "The noun is the action noun of approximate (v.), or is taken directly from Latin approximare. The suffix -ion marks the action or its result: the coming near, then the thing that has come near.",
+          "cn": "这个名词是动词 approximate 的动作名词，或直接取自拉丁语 approximare。后缀 -ion 标记动作或其结果：先是“靠近”，再是“已经靠近的东西”。"
+        },
+        {
+          "era": "LATIN VERB",
+          "en": "Approximare 'come near to' = ad- 'to' + proximare 'come near'. The prefix points the movement toward a target, so the verb means approach rather than mere proximity.",
+          "cn": "approximare“接近”= ad-“向”+ proximare“靠近”。前缀把运动指向一个目标，因此这个动词是“朝……靠近”，而不只是“在旁边”。"
+        },
+        {
+          "era": "LATIN ROOT",
+          "en": "Proximare comes from proximus 'nearest', the superlative of prope 'near'. The root is a ranking of nearness, which is why an approximation is the closest available figure rather than an exact one.",
+          "cn": "proximare 来自 proximus“最近的”，即 prope“近”的最高级。这个词根是对“近”的排序，因此 approximation 是“可得到的最接近的数字”，而不是精确值。"
+        },
+        {
+          "era": "1640S–1650S",
+          "en": "The adjective approximate is recorded in the 1640s meaning 'near in position, close to', and the noun's sense 'result of approximating' in the 1650s.",
+          "cn": "形容词 approximate 记录于 17 世纪 40 年代，义为“位置上靠近的”；名词“近似的结果”义记录于 17 世纪 50 年代。"
+        },
+        {
+          "era": "1816",
+          "en": "The sense 'near in accuracy or correctness' appears in 1816. This is the branch behind approximations to a true value, a standard, or a model of reality.",
+          "cn": "“在准确度或正确性上接近”的义项出现于 1816 年。这就是“接近真值、标准或现实模型”的分支。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "The first group puts approximation beside its own base and the two look-alike roots that must not be confused with it; the second group separates it from estimate, estimation and resemblance.",
+        "cn": "第一组把 approximation 放在它自己的基础词，以及两个绝不能与它混淆的形近词根旁边；第二组把它与 estimate、estimation、resemblance 分开。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "approximate",
+              "ipa": "/əˈprɒksɪmət/",
+              "tag": "same proximus family",
+              "definition": "close to the true value or position but not exact. It is the adjective and verb behind approximation, built on the same proximus root.",
+              "definitionCN": "接近真实值或位置但不精确的。它是 approximation 背后的形容词与动词，建立在同一 proximus 词根上。"
+            },
+            {
+              "word": "appropriate",
+              "ipa": "/əˈprəʊpriət/",
+              "tag": "different root: proprius",
+              "definition": "suitable or proper for a purpose. It comes from proprius 'one's own', not from proximus 'nearest', despite the similar opening.",
+              "definitionCN": "适合某目的的；恰当的。它来自 proprius“自己的”，而不是 proximus“最近的”，尽管开头很像。"
+            },
+            {
+              "word": "appreciate",
+              "ipa": "/əˈpriːʃieɪt/",
+              "tag": "different root: pretium",
+              "definition": "to value, be grateful for, or rise in value. It comes from pretium 'price', a third root that merely looks like the other two.",
+              "definitionCN": "重视；感激；增值。它来自 pretium“价格”，是第三个只是看起来相似的词根。"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "estimate",
+              "ipa": "/ˈestɪmeɪt/",
+              "tag": "general judgment",
+              "definition": "a judgment of size, value, or amount based on evidence. An estimate need not be close to a known true value, while an approximation always suggests closeness.",
+              "definitionCN": "依据证据对大小、价值或数量作出的判断。estimate 不一定接近已知真值，而 approximation 总含有“已经靠近”的意思。"
+            },
+            {
+              "word": "estimation",
+              "ipa": "/ˌestɪˈmeɪʃn/",
+              "tag": "process or opinion",
+              "definition": "the act of estimating, or a considered opinion of worth. It stresses judgment, while approximation stresses nearness to an exact value.",
+              "definitionCN": "估算的行为，或经过考虑的价值判断。它强调判断，而 approximation 强调与精确值的接近。"
+            },
+            {
+              "word": "resemblance",
+              "ipa": "/rɪˈzembləns/",
+              "tag": "similarity of appearance",
+              "definition": "the state of looking like someone or something else. It covers the 'near copy' branch, while approximation can also be numerical.",
+              "definitionCN": "看起来像某人某物的状态。它覆盖“近似仿本”这一分支，而 approximation 还可以是数值上的。"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "These links are real: proximus 'nearest' and prope 'near', the ad- prefix, the -ion action noun, and the fixed phrases rough approximation and successive approximation.",
+        "cn": "这些联想都是真实的：proximus“最近的”与 prope“近”、ad- 前缀、-ion 动作名词，以及 rough approximation、successive approximation 等固定搭配。"
+      },
+      "normal": [
+        {
+          "en": "Prope is 'near' and proximus is 'nearest': approximation is the figure that has come nearest to the true one.",
+          "cn": "prope 是“近”，proximus 是“最近的”：approximation 就是已经最靠近真值的那个数字。"
+        },
+        {
+          "en": "Ad- means 'to': approximare is to move toward a target, so every approximation contains a direction of approach.",
+          "cn": "ad- 意为“向”：approximare 就是朝目标移动，因此每个 approximation 里都含有一个靠近的方向。"
+        },
+        {
+          "en": "Approximate is the adjective and verb; approximately is the adverb; approximation is the noun of the act or result.",
+          "cn": "approximate 是形容词和动词，approximately 是副词，approximation 是动作或结果的名词。"
+        },
+        {
+          "en": "A rough approximation and a first approximation are standard phrases: close enough to start, not close enough to finish.",
+          "cn": "a rough approximation 与 a first approximation 是标准说法：近到可以开始，但还没近到可以结束。"
+        },
+        {
+          "en": "Successive approximation is a real method: each attempt comes closer than the one before.",
+          "cn": "successive approximation 是一种真实的方法：每一次尝试都比上一次更靠近。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "An arrow lands beside the bullseye: the score depends on how near, and the nearness is the whole point.",
+          "cn": "一支箭落在靶心旁边：得分取决于有多近，而“近”正是全部意义。"
+        },
+        {
+          "en": "A staircase tries to follow a smooth curve: each step is flat and exact, yet the staircase only approximates the curve.",
+          "cn": "一段楼梯试图跟随一条光滑曲线：每级台阶都是平直而精确的，但整段楼梯只是曲线的近似。"
+        },
+        {
+          "en": "A pencil sketch of a face: fewer lines than a photograph, yet near enough for you to recognise who it is.",
+          "cn": "一张人脸的铅笔速写：线条比照片少得多，却已经近到让你认得出那是谁。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "The figure is an approximation; the exact cost will be known after the survey.",
+        "cn": "这个数字只是近似值；确切成本要等勘测之后才知道。"
+      },
+      {
+        "en": "Her description was a fair approximation of what we saw.",
+        "cn": "她的描述相当接近我们所看到的情形。"
+      },
+      {
+        "en": "The method uses successive approximation to solve the equation.",
+        "cn": "这种方法用逐次逼近来解方程。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「阿普若克西美申」——阿普若（Ap-pro）射出一箭，克西（Ke Xi）喊“差一点”，美申（Mei Shen）把箭拔下来又朝靶心靠近一步 → approximation 近似、接近",
+      "word": "approximation"
+    },
+    "root": "源自拉丁语 approximare“接近”（ad-“向”+ proximare“靠近”，proximus“最近的”是 prope“近”的最高级），核心是“靠近”，再由空间接近引申为数值与判断上的近似。",
+    "sensesIntro": {
+      "en": "Nine senses of approximation all follow one movement: something comes near a target without landing on it. From physical approach and a near figure, the word extends to rough estimates, near copies, mathematical and numerical methods, standards, models, and finally the abstract quality of closeness.",
+      "cn": "approximation 的九个义项都遵循同一个动作：某物朝目标靠近，却没有落在目标上。从物理接近与一个接近的数字，它扩展到粗略估算、近似仿本、数学与数值方法、标准、模型，最后到抽象的“接近性”。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: an arrow landing beside the bullseye, close but not exact.",
+        "cn": "核心意象：一支箭落在靶心旁边，很近，但不正中。"
+      },
+      "chain": [
+        "COME NEAR",
+        "NEAREST POINT",
+        "CLOSE VALUE",
+        "USEFUL ESTIMATE",
+        "METHOD THAT CONVERGES",
+        "CLOSENESS WITHOUT IDENTITY"
+      ],
+      "branches": [
+        {
+          "senses": "01 · 02",
+          "en": "APPROACH AND RESULT: the act of coming near, and the near figure that results.",
+          "cn": "靠近与结果：接近的动作，以及由此得到的接近数字。"
+        },
+        {
+          "senses": "03",
+          "en": "ROUGH ESTIMATE: closeness accepted because it is enough for the purpose.",
+          "cn": "粗略估算：因为够用而被接受的接近。"
+        },
+        {
+          "senses": "04",
+          "en": "NEAR COPY: resemblance, where one object comes near another in form.",
+          "cn": "近似仿本：相似，一个物件在形态上靠近另一个。"
+        },
+        {
+          "senses": "05 · 06",
+          "en": "FORMAL METHODS: curves, functions and procedures that converge on a true value.",
+          "cn": "形式方法：曲线、函数与程序朝真值收敛。"
+        },
+        {
+          "senses": "07 · 08 · 09",
+          "en": "STANDARDS, MODELS AND QUALITY: nearing a target, modelling reality, and closeness as such.",
+          "cn": "标准、模型与性质：靠近目标、模拟现实，以及“接近”本身。"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Approximation is approximat- plus -ion, from Latin -ionem, an action-or-result noun. The same stem gives approximate, approximately, approximative, approximator and approximated; the bare proxim- root lives on in proximity and proximate.",
+        "cn": "approximation 是 approximat- 加 -ion，后者来自拉丁语 -ionem，构成动作或结果名词。同一词干给出 approximate、approximately、approximative、approximator 与 approximated；光秃的 proxim- 词根仍活在 proximity 与 proximate 中。"
+      },
+      "latinIntro": {
+        "en": "The direct source is Latin approximare, ad- plus proximare 'come near'. Proximare comes from proximus 'nearest', the superlative of prope 'near'; English proximity keeps the same proximus stem.",
+        "cn": "直接来源是拉丁语 approximare，即 ad- 加 proximare“靠近”。proximare 来自 proximus“最近的”，即 prope“近”的最高级；英语 proximity 保留同一 proximus 词干。"
+      },
+      "items": [
+        {
+          "word": "approximation",
+          "structure": "approximat- (come near) + -ion (action or result noun)",
+          "meaning": "the act of coming near, or a near value or model",
+          "meaningCN": "近似；接近；近似值（-ion 构成动作或结果名词）",
+          "example": "The map is only an approximation of the coast.",
+          "exampleCN": "这幅地图只是海岸线的一个近似。"
+        },
+        {
+          "word": "approximate",
+          "structure": "ap- (to) + proxim- (nearest) + -ate (verb or adjective)",
+          "meaning": "to come near, or close to the true value",
+          "meaningCN": "接近；近似的（-ate 构成动词或形容词）",
+          "example": "The repair will approximate two hundred dollars.",
+          "exampleCN": "维修费大约要两百美元。"
+        },
+        {
+          "word": "approximately",
+          "structure": "approximate + -ly (adverb)",
+          "meaning": "about; near a stated figure",
+          "meaningCN": "大约；近似地（-ly 构成副词）",
+          "example": "The trip takes approximately three hours.",
+          "exampleCN": "这段行程大约需要三小时。"
+        },
+        {
+          "word": "approximative",
+          "structure": "approximate + -ive (adjective)",
+          "meaning": "of the nature of an approximation; not exact",
+          "meaningCN": "近似的；接近的（-ive 构成形容词）",
+          "example": "The study offers only an approximative answer.",
+          "exampleCN": "这项研究只给出一个近似的答案。"
+        },
+        {
+          "word": "approximator",
+          "structure": "approximate + -or (person or device)",
+          "meaning": "a person or device that produces approximations",
+          "meaningCN": "近似者；近似计算装置（-or 表示做该动作的人或物）",
+          "example": "The software acts as a curve approximator.",
+          "exampleCN": "这个软件起到曲线逼近器的作用。"
+        },
+        {
+          "word": "approximated",
+          "structure": "approximate + -ed (past participle as adjective)",
+          "meaning": "estimated or brought close to a value",
+          "meaningCN": "被近似的；估算出的（-ed 构成形容词）",
+          "example": "The approximated cost was still too high.",
+          "exampleCN": "估算出的成本仍然太高。"
+        },
+        {
+          "word": "proximity",
+          "structure": "proxim- (nearest) + -ity (state noun)",
+          "meaning": "nearness in space or time",
+          "meaningCN": "接近；邻近（-ity 构成状态名词）",
+          "example": "The house's proximity to the river worried the owners.",
+          "exampleCN": "这房子离河太近，让房主担心。"
+        },
+        {
+          "word": "proximate",
+          "structure": "proxim- (nearest) + -ate (adjective)",
+          "meaning": "nearest in space, time, or cause",
+          "meaningCN": "最近的；直接的（-ate 构成形容词）",
+          "example": "The proximate cause of the fire was a faulty wire.",
+          "exampleCN": "火灾的直接原因是一根故障电线。"
+        },
+        {
+          "word": "approximable",
+          "structure": "approximate + -able (adjective)",
+          "meaning": "able to be approximated or estimated closely",
+          "meaningCN": "可逼近的；可近似估算的（-able 表示能够被……的）",
+          "example": "The function is approximable by a short series.",
+          "exampleCN": "这个函数可以用一个短级数逼近。"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "prope",
+          "structure": "prope (adverb)",
+          "meaning": "near, close by",
+          "meaningCN": "近；在附近"
+        },
+        {
+          "word": "proximus",
+          "structure": "proximus (superlative of prope)",
+          "meaning": "nearest, next",
+          "meaningCN": "最近的；紧邻的"
+        },
+        {
+          "word": "proximare",
+          "structure": "proximus + -are (verb)",
+          "meaning": "to come near, approach",
+          "meaningCN": "靠近；接近"
+        },
+        {
+          "word": "approximare",
+          "structure": "ad- (to) + proximare (come near)",
+          "meaning": "to come near to, approach",
+          "meaningCN": "接近；靠近"
+        }
+      ]
+    }
+  }
+]

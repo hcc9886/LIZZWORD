@@ -1,0 +1,494 @@
+[
+  {
+    "word": "arbitrate",
+    "ipa_uk": "/ˈɑːbɪtreɪt/",
+    "ipa_us": "/ˈɑːrbɪtreɪt/",
+    "definition_zh": "仲裁；公断；居中调停作出裁决",
+    "definition_en": "to settle a dispute by acting as a neutral judge agreed to by both sides",
+    "core_image": "法庭之外的正席：一位两边都认的中间人听完双方后拍板",
+    "scene": "劳资谈判再度破裂，双方最终请出一位德高望重的长者。A retired judge was asked to arbitrate the pay dispute.",
+    "sceneCN": "这里 arbitrate 是「仲裁、公断」（第 1 个义项：以中立第三方身份裁决纠纷）；句意为：人们请一位退休法官来仲裁这起薪酬纠纷。",
+    "pos": [
+      {
+        "tag": "vt.",
+        "zh": "仲裁；公断（纠纷）"
+      },
+      {
+        "tag": "vi.",
+        "zh": "居中仲裁；调停"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "arbitrate a dispute",
+        "zh": "仲裁争端"
+      },
+      {
+        "phrase": "arbitrate between the parties",
+        "zh": "在双方之间居中公断"
+      },
+      {
+        "phrase": "agree to arbitrate",
+        "zh": "同意交付仲裁"
+      },
+      {
+        "phrase": "arbitrate a pay claim",
+        "zh": "仲裁薪酬诉求"
+      },
+      {
+        "phrase": "arbitrate a dispute over pay",
+        "zh": "仲裁一场薪酬纠纷"
+      },
+      {
+        "phrase": "arbitrate a boundary question",
+        "zh": "仲裁边界问题"
+      }
+    ],
+    "forms": [
+      {
+        "label": "三单",
+        "form": "arbitrates"
+      },
+      {
+        "label": "过去式",
+        "form": "arbitrated"
+      },
+      {
+        "label": "过去分词",
+        "form": "arbitrated"
+      },
+      {
+        "label": "现在分词",
+        "form": "arbitrating"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "arbitration",
+        "pos": "n.",
+        "zh": "动词加 -ion，义为「仲裁；公断」"
+      },
+      {
+        "word": "arbitrator",
+        "pos": "n.",
+        "zh": "加施动后缀 -or，义为「仲裁人」"
+      },
+      {
+        "word": "arbitrary",
+        "pos": "adj.",
+        "zh": "同根形容词，义为「武断的；任意的」"
+      },
+      {
+        "word": "arbiter",
+        "pos": "n.",
+        "zh": "同根名词，义为「裁决者；权威」"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "To settle a dispute as a neutral third party",
+        "titleCN": "以中立第三方身份裁决纠纷",
+        "definition": "to hear both sides and give a binding or persuasive decision",
+        "definitionCN": "听取双方陈述并作出有约束力或有说服力的裁决",
+        "example": "The committee arbitrated the contract dispute.",
+        "exampleCN": "委员会仲裁了这起合同纠纷。",
+        "why": "The root arbiter is the one who goes to see and judge in person.",
+        "whyCN": "词根 arbiter 指亲自前往察看并裁断之人。"
+      },
+      {
+        "no": "02",
+        "title": "To judge between two claims",
+        "titleCN": "在两种主张之间裁断",
+        "definition": "to decide which of two competing positions should prevail",
+        "definitionCN": "决定两个相互竞争的主张中何者成立",
+        "example": "The referee arbitrated between the two teams' versions.",
+        "exampleCN": "裁判在两队的说法之间作出裁断。",
+        "why": "Judging means standing between and weighing both hands.",
+        "whyCN": "裁断意味着站到中间、掂量两边。"
+      },
+      {
+        "no": "03",
+        "title": "To settle by formal arbitration",
+        "titleCN": "经正式仲裁程序解决",
+        "definition": "to refer a matter to a structured arbitration process",
+        "definitionCN": "把事项提交给正式的仲裁程序",
+        "example": "Both firms agreed to arbitrate rather than sue.",
+        "exampleCN": "两家公司同意仲裁而非起诉。",
+        "why": "The private judge replaces the public courtroom.",
+        "whyCN": "私人的裁决者替代了公开的法庭。"
+      },
+      {
+        "no": "04",
+        "title": "To mediate informally",
+        "titleCN": "非正式地调停",
+        "definition": "to help settle an everyday quarrel or difference",
+        "definitionCN": "帮忙化解日常的争吵或分歧",
+        "example": "She arbitrated between her squabbling children.",
+        "exampleCN": "她在争吵的孩子中间居中调停。",
+        "why": "The image of the neutral judge shrinks to the kitchen table.",
+        "whyCN": "中立裁判的形象缩小到了餐桌旁。"
+      },
+      {
+        "no": "05",
+        "title": "To resolve competition over resources",
+        "titleCN": "裁断资源之争",
+        "definition": "to settle rival demands for limited goods or funds",
+        "definitionCN": "了结对有限财物或资金的相争需求",
+        "example": "The board arbitrated the budget conflict.",
+        "exampleCN": "董事会裁断了预算冲突。",
+        "why": "Sharing means someone must hold the scales.",
+        "whyCN": "分配总要有人执掌天平。"
+      },
+      {
+        "no": "06",
+        "title": "To decide a question of fact or meaning",
+        "titleCN": "裁断事实或语义之争",
+        "definition": "to settle disagreement about evidence or interpretation",
+        "definitionCN": "了结关于证据或解释的分歧",
+        "example": "New evidence will arbitrate the question of authorship.",
+        "exampleCN": "新证据将裁决著作权归属之争。",
+        "why": "Facts themselves can play the judge.",
+        "whyCN": "事实本身也能充当裁判。"
+      },
+      {
+        "no": "07",
+        "title": "To act as final authority in a field",
+        "titleCN": "在领域内充当最终裁定者",
+        "definition": "to serve as the recognized standard that settles doubts",
+        "definitionCN": "作为公认标准去消解疑问",
+        "example": "The dictionary arbitrates questions of modern usage.",
+        "exampleCN": "这部词典仲裁着现代用法的疑难。",
+        "why": "An authority is an arbiter by metaphor.",
+        "whyCN": "权威在比喻意义上就是裁决者。"
+      },
+      {
+        "no": "08",
+        "title": "To decide by one's own power",
+        "titleCN": "凭自身权力定夺",
+        "definition": "to settle a matter by personal authority without external review",
+        "definitionCN": "不经外部审查、凭一己权威了结事务",
+        "example": "The council arbitrated the case in closed session.",
+        "exampleCN": "委员会闭门定夺了此案。",
+        "why": "Held judgment without appeal sharpens the root image.",
+        "whyCN": "不可上诉的终局裁决强化了词根意象。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Arbitrate comes from Latin arbitrari, to judge, from arbiter, one who goes and sees for himself.",
+        "cn": "arbitrate 来自拉丁语 arbitrari（裁断），词根是 arbiter（亲往察看裁断者）。"
+      },
+      "items": [
+        {
+          "era": "PROTO-INDO-EUROPEAN",
+          "en": "The reconstructed root *ar- meant to fit together, matching things rightly.",
+          "cn": "重构词根 *ar- 意为拼合、使相配。"
+        },
+        {
+          "era": "LATIN",
+          "en": "Arbiter combined ar- (fit) with a going element: one who goes to judge.",
+          "cn": "arbiter 由 ar-（匹配）加出行成分构成：亲往裁断之人。"
+        },
+        {
+          "era": "LATIN, VERB",
+          "en": "Arbitrari meant to judge or form an opinion, especially between parties.",
+          "cn": "arbitrari 意为裁断、形成见解，尤指当事双方之间。"
+        },
+        {
+          "era": "MIDDLE ENGLISH / FRENCH, 16TH C.",
+          "en": "English took arbitrate through or beside French arbitrer for settling disputes privately.",
+          "cn": "英语十六世纪经法语 arbitrer 借入 arbitrate，指以私人方式了断纠纷。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "It now names both formal arbitration and everyday mediation.",
+          "cn": "如今既指正式仲裁，也指日常调停。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "Arbitrate is the verb at the center of the arbiter family.",
+        "cn": "arbitrate 是 arbiter 词族中心的动词。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "arbitrator",
+              "ipa": "/ˈɑːrbɪtreɪtər/",
+              "tag": "same root",
+              "definition": "the person who arbitrates",
+              "definitionCN": "仲裁人"
+            },
+            {
+              "word": "arbitration",
+              "ipa": "/ˌɑːrbɪˈtreɪʃn/",
+              "tag": "same root",
+              "definition": "the process of arbitrating",
+              "definitionCN": "仲裁程序"
+            },
+            {
+              "word": "arbitrary",
+              "ipa": "/ˈɑːrbətreri/",
+              "tag": "same root",
+              "definition": "based on whim rather than reason",
+              "definitionCN": "武断的；任意的"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "mediate",
+              "ipa": "/ˈmiːdieɪt/",
+              "tag": "near meaning",
+              "definition": "to help parties reach agreement without deciding for them",
+              "definitionCN": "调解（不代作决定）"
+            },
+            {
+              "word": "adjudicate",
+              "ipa": "/əˈdʒuːdɪkeɪt/",
+              "tag": "near meaning",
+              "definition": "to make a formal judicial decision",
+              "definitionCN": "判决；裁定"
+            },
+            {
+              "word": "umpire",
+              "ipa": "/ˈʌmpaɪər/",
+              "tag": "near meaning",
+              "definition": "an official who settles disputes in a game",
+              "definitionCN": "裁判员；公断人"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "The arbiter family gives arbitrate its whole meaning.",
+        "cn": "arbiter 词族撑起了 arbitrate 的全部含义。"
+      },
+      "normal": [
+        {
+          "en": "arbitrate = arbit(er) + -ate: to act as the arbiter.",
+          "cn": "arbitrate = arbit(er) + -ate：扮演裁决者。"
+        },
+        {
+          "en": "Same root as arbitrary — but here the judging is legitimate.",
+          "cn": "与 arbitrary 同根——只是这里的裁断名正言顺。"
+        },
+        {
+          "en": "Pattern: arbitrate a dispute / arbitrate between A and B.",
+          "cn": "句式：arbitrate a dispute / arbitrate between A and B。"
+        },
+        {
+          "en": "Contrast: mediate helps agreement; arbitrate decides.",
+          "cn": "对比：mediate 促成和解，arbitrate 直接裁决。"
+        },
+        {
+          "en": "Family set: arbiter, arbitrator, arbitration, arbitrate.",
+          "cn": "词族套装：arbiter、arbitrator、arbitration、arbitrate。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "Two clenched fists, one open hand in the middle closing both.",
+          "cn": "两只握紧的拳头，中间一只张开的手把二者合拢。"
+        },
+        {
+          "en": "A scale held steady at the border line between two fields.",
+          "cn": "一杆天平稳稳停在两块田的界线上。"
+        },
+        {
+          "en": "Arbitrate sounds like 'our bee trait': our bee judges which flower wins.",
+          "cn": "arbitrate 听着像 our-bee-trate：我们的蜜蜂裁定哪朵花胜出。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "An independent expert will arbitrate the royalties dispute.",
+        "cn": "一位独立专家将仲裁这笔版税纠纷。"
+      },
+      {
+        "en": "Union and management agreed to arbitrate rather than strike.",
+        "cn": "工会与资方同意仲裁而非罢工。"
+      },
+      {
+        "en": "She was chosen to arbitrate between the two departments.",
+        "cn": "她被推举在两个部门之间居中公断。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「阿比踹特」——阿比被特别请来踹平两边的争执，即仲裁，谐音仅助记。",
+      "word": "arbitrate"
+    },
+    "root": "拉丁词根 arbiter（亲往察看并裁断者）：arbitrate 由 arbitrari（裁断）经法语而来，本义「居中亲裁」，即以双方认可的第三方身份了断纠纷。",
+    "sensesIntro": {
+      "en": "From acting as the neutral judge, arbitrate grows into judging between claims, formal arbitration, informal mediation, settling rival demands, letting facts decide, serving as an authority, and deciding by one's own power.",
+      "cn": "从「充当中立裁判」出发，arbitrate 生长为裁断对立主张、正式仲裁、日常调停、裁断资源之争、以事实定案、充当领域权威与凭一己权力定夺。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: a trusted judge seated between two disputing sides",
+        "cn": "核心意象：受双方信任的裁判坐在争执双方中间"
+      },
+      "chain": [
+        "NEUTRALITY",
+        "HEARING",
+        "WEIGHING",
+        "DECISION",
+        "AGREEMENT",
+        "AUTHORITY"
+      ],
+      "branches": [
+        {
+          "senses": "01 · 03",
+          "en": "the formal seat: neutral judgment and structured arbitration",
+          "cn": "正式席位：中立裁断与规范仲裁"
+        },
+        {
+          "senses": "02 · 05",
+          "en": "weighing two sides, whether claims or demands",
+          "cn": "掂量两侧：主张之争或资源之争"
+        },
+        {
+          "senses": "04",
+          "en": "the small scale: everyday quarrels settled informally",
+          "cn": "小天平：日常口角的非正式化解"
+        },
+        {
+          "senses": "06 · 07",
+          "en": "facts and authorities as arbiters",
+          "cn": "事实与权威充当仲裁者"
+        },
+        {
+          "senses": "08",
+          "en": "judgment without appeal",
+          "cn": "不可上诉的终局裁断"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Arbitrate is the verb of a compact family around the Latin judge.",
+        "cn": "arbitrate 是围绕拉丁语「裁判者」构成的紧凑词族中的动词。"
+      },
+      "latinIntro": {
+        "en": "Latin arbiter literally joins fitting (ar-) with going (a step toward the case).",
+        "cn": "拉丁语 arbiter 字面上是「匹配」加「前往」：走向案件去裁断的人。"
+      },
+      "items": [
+        {
+          "word": "arbit",
+          "structure": "Latin root",
+          "meaning": "judge, decide",
+          "meaningCN": "裁决、判定",
+          "example": "arbitrate, arbitrary",
+          "exampleCN": "仲裁、武断的"
+        },
+        {
+          "word": "-ate",
+          "structure": "verb suffix",
+          "meaning": "to act as, to make",
+          "meaningCN": "充当、使",
+          "example": "arbitrate, activate",
+          "exampleCN": "仲裁、激活"
+        },
+        {
+          "word": "arbiter",
+          "structure": "Latin noun",
+          "meaning": "a judge, an authority",
+          "meaningCN": "裁决者；权威",
+          "example": "the arbiter of fashion",
+          "exampleCN": "时尚的裁判"
+        },
+        {
+          "word": "arbitrator",
+          "structure": "arbitrat + -or",
+          "meaning": "one who arbitrates",
+          "meaningCN": "仲裁人",
+          "example": "an independent arbitrator",
+          "exampleCN": "独立仲裁人"
+        },
+        {
+          "word": "arbitration",
+          "structure": "arbitrat + -ion",
+          "meaning": "the act of arbitrating",
+          "meaningCN": "仲裁",
+          "example": "binding arbitration",
+          "exampleCN": "有约束力的仲裁"
+        },
+        {
+          "word": "arbitrary",
+          "structure": "arbitr + -ary",
+          "meaning": "resting on discretion",
+          "meaningCN": "武断的；任意的",
+          "example": "an arbitrary choice",
+          "exampleCN": "任意的选择"
+        },
+        {
+          "word": "adjudicate",
+          "structure": "ad- + judicare",
+          "meaning": "to judge formally in court",
+          "meaningCN": "判决",
+          "example": "adjudicate a claim",
+          "exampleCN": "裁定索赔"
+        },
+        {
+          "word": "mediate",
+          "structure": "medius (middle) + -ate",
+          "meaning": "to stand between parties",
+          "meaningCN": "调解",
+          "example": "mediate a ceasefire",
+          "exampleCN": "调停停火"
+        },
+        {
+          "word": "umpire",
+          "structure": "from Old French nonper, odd (number)",
+          "meaning": "a neutral decider",
+          "meaningCN": "公断人；裁判",
+          "example": "the umpire's call",
+          "exampleCN": "裁判的判罚"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "arbitrari",
+          "structure": "Latin verb",
+          "meaning": "to judge, form an opinion",
+          "meaningCN": "裁断、形成见解"
+        },
+        {
+          "word": "arbiter",
+          "structure": "Latin noun",
+          "meaning": "judge, witness",
+          "meaningCN": "裁判、见证人"
+        },
+        {
+          "word": "arbitrium",
+          "structure": "Latin noun",
+          "meaning": "judgment, free choice",
+          "meaningCN": "判断、自由裁量"
+        }
+      ],
+      "derivatives": [
+        {
+          "word": "arbitration",
+          "pos": "n.",
+          "zh": "同根派生，义为「仲裁；公断」"
+        },
+        {
+          "word": "arbitrator",
+          "pos": "n.",
+          "zh": "同根派生，义为「仲裁人」"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,489 @@
+[
+  {
+    "word": "appertain",
+    "ipa_uk": "/ˌæpəˈteɪn/",
+    "ipa_us": "/ˌæpərˈteɪn/",
+    "definition_zh": "属于；与……有关；适合于（身份、权利等）",
+    "definition_en": "to belong or relate to something, especially as a right or duty proper to it",
+    "core_image": "系在主人身上：权利像链子一样拴在身份或职位上",
+    "scene": "老律师翻开地契，指着一行小字讲解权利的归属。These grazing rights appertain to the owner of the hillside.",
+    "sceneCN": "这里 appertain 是「属于、随附于」（第 1 个义项：权利归属）；句意为：这些放牧权属于山坡的所有人。",
+    "pos": [
+      {
+        "tag": "vi.",
+        "zh": "属于；与……有关；随附于"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "appertain to",
+        "zh": "属于；与……有关"
+      },
+      {
+        "phrase": "rights appertaining to the office",
+        "zh": "随职位而来的权利"
+      },
+      {
+        "phrase": "duties appertaining to the role",
+        "zh": "与角色相称的职责"
+      },
+      {
+        "phrase": "privileges that appertain to rank",
+        "zh": "随地位而来的特权"
+      },
+      {
+        "phrase": "matters appertaining to the case",
+        "zh": "与案件有关的事项"
+      }
+    ],
+    "forms": [
+      {
+        "label": "三单",
+        "form": "appertains"
+      },
+      {
+        "label": "过去式",
+        "form": "appertained"
+      },
+      {
+        "label": "过去分词",
+        "form": "appertained"
+      },
+      {
+        "label": "现在分词",
+        "form": "appertaining"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "pertain",
+        "pos": "vi.",
+        "zh": "同根动词（去前缀），义为「关于；属于；适用」"
+      },
+      {
+        "word": "pertinent",
+        "pos": "adj.",
+        "zh": "同根派生，义为「切题的；相关的」"
+      },
+      {
+        "word": "pertinence",
+        "pos": "n.",
+        "zh": "pertinent 的名词，义为「相关性；针对性」"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "To belong as a right",
+        "titleCN": "作为权利归属",
+        "definition": "to belong to someone as a legal or rightful possession",
+        "definitionCN": "作为法定或正当的归属而属于某人",
+        "example": "The title and its privileges appertain to the eldest son.",
+        "exampleCN": "头衔及其特权属于长子。",
+        "why": "The root tenere means to hold, so rights are pictured as held onto their owner.",
+        "whyCN": "词根 tenere 意为握持，权利被想象为紧握在所有者手中。"
+      },
+      {
+        "no": "02",
+        "title": "To relate to a subject",
+        "titleCN": "与某主题相关",
+        "definition": "to have a connection with a topic or matter",
+        "definitionCN": "与某一话题或事项有联系",
+        "example": "All documents appertaining to the sale were archived.",
+        "exampleCN": "与销售有关的所有文件都归了档。",
+        "why": "Things held together belong to the same cluster of meaning.",
+        "whyCN": "被一并握持的东西属于同一意义群。"
+      },
+      {
+        "no": "03",
+        "title": "To attach to a position or status",
+        "titleCN": "随职位或身份而来",
+        "definition": "to attach naturally to an office, rank, or role",
+        "definitionCN": "天然地附着于某一职位、等级或角色",
+        "example": "Duties appertain to every office.",
+        "exampleCN": "每个职位都自带职责。",
+        "why": "A role holds its own duties, just as a hand holds tools.",
+        "whyCN": "角色握有自己的职责，正如手握着工具。"
+      },
+      {
+        "no": "04",
+        "title": "To be proper or fitting",
+        "titleCN": "相称；适宜",
+        "definition": "to be appropriate to a person or thing in character",
+        "definitionCN": "在性质上与某人某物相称",
+        "example": "Silence appertains to grief.",
+        "exampleCN": "沉默与悲哀相称。",
+        "why": "What belongs to a thing fits its nature, yielding the propriety sense.",
+        "whyCN": "属于某物的就是合其本性的，于是产生相称义。"
+      },
+      {
+        "no": "05",
+        "title": "To concern a person indirectly",
+        "titleCN": "间接涉及某人",
+        "definition": "to touch upon someone's interests without directly involving them",
+        "definitionCN": "涉及某人利益但不直接牵连其本人",
+        "example": "The rumor appertains to her family, not to her.",
+        "exampleCN": "传言涉及她的家人，而非她本人。",
+        "why": "A held thread can lead outward to nearby interests.",
+        "whyCN": "被握住的线头可以牵到临近的利益上。"
+      },
+      {
+        "no": "06",
+        "title": "To form part of a system",
+        "titleCN": "构成系统的一部分",
+        "definition": "to be one of the elements held within a larger set",
+        "definitionCN": "作为更大集合中的一员",
+        "example": "These rituals appertain to the old religion.",
+        "exampleCN": "这些仪式属于旧宗教的一部分。",
+        "why": "The system holds its parts the way a circle holds its points.",
+        "whyCN": "系统握住各部分，如同圆握住它的点。"
+      },
+      {
+        "no": "07",
+        "title": "To pertain in legal use",
+        "titleCN": "法律语境中的归属",
+        "definition": "in law, to attach to property or an estate as an incident",
+        "definitionCN": "法律上作为附属事项附着于财产或地产",
+        "example": "Easements appertain to the dominant land.",
+        "exampleCN": "地役权附着于需役地。",
+        "why": "Law fixes holding into formal ownership, sharpening the root image.",
+        "whyCN": "法律把「握持」固化为正式的所有，强化了词根意象。"
+      },
+      {
+        "no": "08",
+        "title": "To follow from a quality",
+        "titleCN": "由性质自然引出",
+        "definition": "to result from or accompany an inherent quality",
+        "definitionCN": "由内在性质引发或相伴而生",
+        "example": "Respect appertains to wisdom.",
+        "exampleCN": "敬重随智慧而生。",
+        "why": "Qualities hold their consequences, like a root holds its fruit.",
+        "whyCN": "性质握有自己的结果，如同根握着果。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Appertain comes from Latin pertinere, to reach through to, hence to belong, from per- plus tenere.",
+        "cn": "appertain 来自拉丁语 pertinere（贯穿而达，引申为属于），由 per- 加 tenere 构成。"
+      },
+      "items": [
+        {
+          "era": "PROTO-INDO-EUROPEAN",
+          "en": "The reconstructed root *ten- meant to stretch or extend.",
+          "cn": "重构词根 *ten- 意为伸展、延伸。"
+        },
+        {
+          "era": "LATIN",
+          "en": "Tenere meant to hold; per- added the idea of thoroughness, so pertinere meant to extend right through.",
+          "cn": "tenere 意为握持；per- 增加彻底之意，pertinere 即「贯穿延伸」。"
+        },
+        {
+          "era": "LATE LATIN",
+          "en": "Pertinere shifted to mean to belong or relate, the image of a chain held at both ends.",
+          "cn": "pertinere 转义为「属于、相关」，如两端被握住的链条。"
+        },
+        {
+          "era": "OLD FRENCH / MIDDLE ENGLISH",
+          "en": "English formed appertain in the fourteenth century from pertain with the Latin-style prefix ap-.",
+          "cn": "英语十四世纪在 pertain 上加拉丁风格前缀 ap- 构成 appertain。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "It survives mainly in formal and legal writing, meaning to belong or relate to.",
+          "cn": "如今主要见于正式与法律文体，意为属于或与……有关。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "Appertain belongs to the ten-family of holding words and stands near several belong-words.",
+        "cn": "appertain 属于 ten「握持」词族，并与若干「属于」类词相邻。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "pertain",
+              "ipa": "/pərˈteɪn/",
+              "tag": "same root",
+              "definition": "to relate or belong to something",
+              "definitionCN": "关于；属于"
+            },
+            {
+              "word": "pertinent",
+              "ipa": "/ˈpɜːrtənənt/",
+              "tag": "same root",
+              "definition": "directly relevant to the matter at hand",
+              "definitionCN": "切题的；相关的"
+            },
+            {
+              "word": "retain",
+              "ipa": "/rɪˈteɪn/",
+              "tag": "same root",
+              "definition": "to keep in possession",
+              "definitionCN": "保留；保持"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "belong",
+              "ipa": "/bɪˈlɒŋ/",
+              "tag": "near meaning",
+              "definition": "to be the property or proper part of something",
+              "definitionCN": "属于；是……的正当部分"
+            },
+            {
+              "word": "relate",
+              "ipa": "/rɪˈleɪt/",
+              "tag": "near meaning",
+              "definition": "to have a connection with",
+              "definitionCN": "与……有联系"
+            },
+            {
+              "word": "concern",
+              "ipa": "/kənˈsɜːrn/",
+              "tag": "near meaning",
+              "definition": "to be about or affect",
+              "definitionCN": "涉及；关系到"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Anchor appertain in the ten-family of holding words.",
+        "cn": "把 appertain 锚定在 ten「握持」词族上。"
+      },
+      "normal": [
+        {
+          "en": "appertain = ap- (toward) + tain (hold): held toward its owner.",
+          "cn": "appertain = ap-（朝向）+ tain（握持）：被握向它的主人。"
+        },
+        {
+          "en": "Same root as contain, retain, obtain — all about holding.",
+          "cn": "与 contain、retain、obtain 同根——都关乎握持。"
+        },
+        {
+          "en": "Classic pattern: rights appertain to the office.",
+          "cn": "经典句式：rights appertain to the office（权利随职位而来）。"
+        },
+        {
+          "en": "pertain is the plainer twin; appertain is the legal, formal one.",
+          "cn": "pertain 是朴素的孪生词；appertain 更法律化、更正式。"
+        },
+        {
+          "en": "pertinent, the adjective cousin, means relevant.",
+          "cn": "形容词亲戚 pertinent 意为切题的。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "A crown held in a firm grip — the grip is who it appertains to.",
+          "cn": "一只手紧握王冠——握住的那只手就是它的归属。"
+        },
+        {
+          "en": "A chain linking a key to a belt: the key appertains to the belt.",
+          "cn": "链条把钥匙拴在腰带上：钥匙属于腰带。"
+        },
+        {
+          "en": "Appertain sounds like 'a purse-tain': the purse holds what belongs to you.",
+          "cn": "appertain 听着像 a purse-tain：钱包握着属于你的东西。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "Certain duties appertain to the office of chairman.",
+        "cn": "某些职责是主席职位固有的。"
+      },
+      {
+        "en": "Please file everything appertaining to this contract.",
+        "cn": "请把与这份合同有关的一切归档。"
+      },
+      {
+        "en": "The honors that appertain to rank were never his goal.",
+        "cn": "随地位而来的荣耀从来不是他的目标。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「阿婆疼」——阿婆疼谁，家产就「属于」谁，谐音仅助记，不是词源。",
+      "word": "appertain"
+    },
+    "root": "拉丁词根 ten-/tain-（握持）：appertain 由 ap-（朝向）+ pertinere（贯穿而握）构成，本义「延伸握持到」，引申为权利、职责「握在」某身份或事项之中，即属于。",
+    "sensesIntro": {
+      "en": "From rights held by an owner, appertain extends to subjects related, roles and their duties, fittingness, indirect concern, membership in a system, legal incidents, and qualities and their consequences.",
+      "cn": "从「权利握在所有者手中」出发，appertain 依次延伸到相关主题、职位职责、相称性、间接关涉、系统成员、法律附属以及性质与其结果。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: a right held firmly by its proper owner",
+        "cn": "核心意象：一项权利被其正当主人牢牢握住"
+      },
+      "chain": [
+        "HOLDING",
+        "BELONGING",
+        "RELEVANCE",
+        "PROPRIETY",
+        "INCIDENT",
+        "CONSEQUENCE"
+      ],
+      "branches": [
+        {
+          "senses": "01 · 03 · 07",
+          "en": "formal ownership: rights, offices, legal incidents",
+          "cn": "正式的所有：权利、职位、法律附属"
+        },
+        {
+          "senses": "02 · 05",
+          "en": "relevance: matters and interests held in the same hand",
+          "cn": "相关性：被同一只手握住的事项与利益"
+        },
+        {
+          "senses": "04",
+          "en": "what fits a thing belongs to it",
+          "cn": "相称之物即属于此物"
+        },
+        {
+          "senses": "06",
+          "en": "membership held within a larger system",
+          "cn": "被更大系统握住的成员身份"
+        },
+        {
+          "senses": "08",
+          "en": "qualities holding their own consequences",
+          "cn": "性质握有自己的结果"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Appertain is one of dozens of English words built on the holding root tain.",
+        "cn": "appertain 是英语里几十个建立在「握持」词根 tain 上的词之一。"
+      },
+      "latinIntro": {
+        "en": "Latin tenere, to hold, is the mother root of contain, retain, tenant, and more.",
+        "cn": "拉丁语 tenere（握持）是 contain、retain、tenant 等词的母词根。"
+      },
+      "items": [
+        {
+          "word": "per-",
+          "structure": "Latin prefix",
+          "meaning": "through, thoroughly",
+          "meaningCN": "贯穿、彻底",
+          "example": "appertain, persist",
+          "exampleCN": "归属、坚持"
+        },
+        {
+          "word": "ten/tain",
+          "structure": "Latin root",
+          "meaning": "hold",
+          "meaningCN": "握持",
+          "example": "appertain, tenant",
+          "exampleCN": "归属、房客"
+        },
+        {
+          "word": "contain",
+          "structure": "con- + tenere",
+          "meaning": "to hold together",
+          "meaningCN": "容纳",
+          "example": "The box contains books.",
+          "exampleCN": "盒子里装着书。"
+        },
+        {
+          "word": "retain",
+          "structure": "re- + tenere",
+          "meaning": "to hold back, keep",
+          "meaningCN": "保留",
+          "example": "She retained her title.",
+          "exampleCN": "她保住了头衔。"
+        },
+        {
+          "word": "obtain",
+          "structure": "ob- + tenere",
+          "meaning": "to get hold of",
+          "meaningCN": "获得",
+          "example": "He obtained permission.",
+          "exampleCN": "他获得了许可。"
+        },
+        {
+          "word": "sustain",
+          "structure": "sub- + tenere",
+          "meaning": "to hold up from below",
+          "meaningCN": "支撑；维持",
+          "example": "The beam sustains the roof.",
+          "exampleCN": "横梁支撑屋顶。"
+        },
+        {
+          "word": "tenant",
+          "structure": "tenens, holding",
+          "meaning": "one who holds land",
+          "meaningCN": "房客；佃户",
+          "example": "a new tenant",
+          "exampleCN": "新租户"
+        },
+        {
+          "word": "pertinent",
+          "structure": "per- + tain + -ent",
+          "meaning": "holding to the point",
+          "meaningCN": "切题的",
+          "example": "a pertinent question",
+          "exampleCN": "切题的问题"
+        },
+        {
+          "word": "tenacious",
+          "structure": "ten + -acious",
+          "meaning": "holding firmly",
+          "meaningCN": "顽强的",
+          "example": "a tenacious fighter",
+          "exampleCN": "顽强的斗士"
+        },
+        {
+          "word": "pertain",
+          "structure": "per- + tenere",
+          "meaning": "to belong, relate",
+          "meaningCN": "属于；关于",
+          "example": "rules pertaining to safety",
+          "exampleCN": "有关安全的规则"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "pertinere",
+          "structure": "Latin verb",
+          "meaning": "to extend through, belong",
+          "meaningCN": "贯穿而达、属于"
+        },
+        {
+          "word": "tenere",
+          "structure": "Latin verb",
+          "meaning": "to hold",
+          "meaningCN": "握持"
+        },
+        {
+          "word": "appertinere",
+          "structure": "Late Latin verb",
+          "meaning": "to belong to",
+          "meaningCN": "属于"
+        }
+      ],
+      "derivatives": [
+        {
+          "word": "pertain",
+          "pos": "vi.",
+          "zh": "同根动词，义为「关于；属于」"
+        },
+        {
+          "word": "pertinent",
+          "pos": "adj.",
+          "zh": "同根派生，义为「切题的；相关的」"
+        }
+      ]
+    }
+  }
+]

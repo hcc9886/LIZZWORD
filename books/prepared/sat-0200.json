@@ -1,0 +1,492 @@
+[
+  {
+    "word": "appellate",
+    "ipa_uk": "/əˈpelət/",
+    "ipa_us": "/əˈpelət/",
+    "definition_zh": "上诉的；受理上诉的；与上诉审有关的",
+    "definition_en": "relating to or having the power to hear appeals and review the decisions of lower courts",
+    "core_image": "更高的法庭：低位法官判完，卷宗被送往高处的法庭复核",
+    "scene": "初审失利后，律师把厚厚的卷宗递交给更高一级的法庭。The appellate court agreed to review the lower court's decision.",
+    "sceneCN": "这里 appellate 是「上诉的、受理上诉的」（第 1 个义项：与上诉审有关的）；句意为：上诉法院同意复核下级法院的判决。",
+    "pos": [
+      {
+        "tag": "adj.",
+        "zh": "上诉的；受理上诉的；用于上诉审的"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "appellate court",
+        "zh": "上诉法院"
+      },
+      {
+        "phrase": "appellate jurisdiction",
+        "zh": "上诉管辖权"
+      },
+      {
+        "phrase": "appellate procedure",
+        "zh": "上诉程序"
+      },
+      {
+        "phrase": "appellate judge",
+        "zh": "上诉法院法官"
+      },
+      {
+        "phrase": "appellate review",
+        "zh": "上诉复审"
+      },
+      {
+        "phrase": "appellate brief",
+        "zh": "上诉状；上诉摘要"
+      }
+    ],
+    "forms": [
+      {
+        "label": "比较级",
+        "form": "more appellate"
+      },
+      {
+        "label": "最高级",
+        "form": "most appellate"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "appeal",
+        "pos": "n./v.",
+        "zh": "由拉丁词根 appellare（呼喊）直接发展而来，义为「上诉；呼吁」"
+      },
+      {
+        "word": "appellation",
+        "pos": "n.",
+        "zh": "同根派生，义为「名称；称号」"
+      },
+      {
+        "word": "appellate jurisdiction",
+        "pos": "n.",
+        "zh": "复合术语，义为「上诉管辖权」"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "Relating to appeals in law",
+        "titleCN": "上诉的；与上诉有关的",
+        "definition": "connected with the process of asking a higher court to change a decision",
+        "definitionCN": "与请求上级法院改变原判的程序有关的",
+        "example": "She filed an appellate motion last week.",
+        "exampleCN": "她上周提交了上诉动议。",
+        "why": "The word is built on appeal, so its basic image is carrying a case upward to a higher court.",
+        "whyCN": "这个词建立在 appeal（上诉）之上，基本意象就是把案子向上递送到更高的法庭。"
+      },
+      {
+        "no": "02",
+        "title": "Having the power to hear appeals",
+        "titleCN": "受理上诉的（法院）",
+        "definition": "describing a court that is authorized to review decisions made by lower courts",
+        "definitionCN": "形容有权复核下级法院裁决的法院",
+        "example": "The appellate court overturned the verdict.",
+        "exampleCN": "上诉法院推翻了原判。",
+        "why": "Once a case moves upward, the court that receives it gains the special name appellate court.",
+        "whyCN": "案子被向上递送后，接手的法院就获得了「上诉法院」这一专门名称。"
+      },
+      {
+        "no": "03",
+        "title": "Concerned with judges of appeal courts",
+        "titleCN": "上诉审法官的",
+        "definition": "describing judges whose work is to review earlier rulings rather than hold trials",
+        "definitionCN": "形容职责是复核先前裁决而非开庭初审的法官",
+        "example": "An appellate judge questioned both lawyers for hours.",
+        "exampleCN": "一位上诉法官盘问了双方律师数小时。",
+        "why": "The reviewing work defines the person, so the adjective extends naturally from court to judge.",
+        "whyCN": "复核工作定义了这类法官，于是形容词自然从法院延伸到法官身上。"
+      },
+      {
+        "no": "04",
+        "title": "Concerned with review of legal error",
+        "titleCN": "侧重审查法律错误的",
+        "definition": "involving the examination of whether the lower court applied the law correctly",
+        "definitionCN": "指审查下级法院适用法律是否正确的审级活动",
+        "example": "The appellate focus was on legal error, not new evidence.",
+        "exampleCN": "上诉审查的重点是法律错误，而非新证据。",
+        "why": "Reviewing means checking the reasoning, which narrows the image to questions of law.",
+        "whyCN": "复核意味着检查推理过程，意象因此聚焦在法律适用问题上。"
+      },
+      {
+        "no": "05",
+        "title": "Of appellate jurisdiction",
+        "titleCN": "上诉管辖权的",
+        "definition": "describing the official authority of a higher court to take appeals",
+        "definitionCN": "形容上级法院受理上诉案件的法定权力",
+        "example": "The Supreme Court exercised its appellate jurisdiction.",
+        "exampleCN": "最高法院行使了上诉管辖权。",
+        "why": "Power follows the process: the court that can hear appeals holds appellate jurisdiction.",
+        "whyCN": "权力随程序而来：能受理上诉的法院就拥有上诉管辖权。"
+      },
+      {
+        "no": "06",
+        "title": "Following the appeal track",
+        "titleCN": "走上诉程序的",
+        "definition": "describing procedures, briefs, or stages that belong to the appeal process",
+        "definitionCN": "形容属于上诉流程的程序、文书或阶段",
+        "example": "They missed the appellate deadline by two days.",
+        "exampleCN": "他们错过上诉期限两天。",
+        "why": "The whole machinery of the appeal route borrows the same adjective as the court itself.",
+        "whyCN": "上诉路线上的整套机器都沿用法院本身的这个形容词。"
+      },
+      {
+        "no": "07",
+        "title": "Concerned with appellate argument",
+        "titleCN": "上诉言词辩论的",
+        "definition": "describing oral arguments presented before a reviewing court",
+        "definitionCN": "形容在复核法庭前进行的言词辩论",
+        "example": "Her appellate argument lasted only twenty minutes.",
+        "exampleCN": "她的上诉辩论只持续了二十分钟。",
+        "why": "Argument is the spoken part of review, so it takes the same label.",
+        "whyCN": "辩论是复核程序的口头部分，因此沿用同一标签。"
+      },
+      {
+        "no": "08",
+        "title": "Contrasted with trial-level matters",
+        "titleCN": "与初审事务相对的",
+        "definition": "used to distinguish reviewing functions from first-instance trial functions",
+        "definitionCN": "用于把复核职能与初审职能区分开",
+        "example": "Trial courts find facts; appellate courts correct mistakes.",
+        "exampleCN": "初审法院认定事实，上诉法院纠正错误。",
+        "why": "The word exists mainly to mark the boundary between two levels of judging.",
+        "whyCN": "这个词存在的意义主要就是标出两级审判之间的界线。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Appellate comes straight from the Latin verb appellare, to address or call upon, through the legal sense of calling a higher court.",
+        "cn": "appellate 直接来自拉丁语动词 appellare（称呼、呼唤），经「呼唤更高法院」的法律义发展而来。"
+      },
+      "items": [
+        {
+          "era": "PROTO-INDO-EUROPEAN",
+          "en": "The reconstructed root *pel- meant to thrust or drive, giving Latin pellere, to push or beat.",
+          "cn": "重构词根 *pel- 意为「推动、驱赶」，衍生出拉丁语 pellere（推、击打）。"
+        },
+        {
+          "era": "LATIN",
+          "en": "Appellare, formed with the intensive prefix ad- plus pellere, meant to drive toward, hence to address or call upon by name.",
+          "cn": "appellare 由加强前缀 ad- 加 pellere 构成，意为「向……驱使」，引申为「称呼、呼唤」。"
+        },
+        {
+          "era": "LATIN, LEGAL SENSE",
+          "en": "In Roman law, appellare meant to call upon a higher magistrate against a decision, the ancestor of the legal appeal.",
+          "cn": "在罗马法中，appellare 指就某一裁决呼唤更高的长官，是法律上诉的祖先。"
+        },
+        {
+          "era": "OLD FRENCH",
+          "en": "appeler carried both the naming sense and the legal sense into medieval French.",
+          "cn": "appeler 把「命名」与「上诉」两义一并带入中古法语。"
+        },
+        {
+          "era": "ENGLISH, 15TH–16TH C.",
+          "en": "English adopted appeal and then the Late Latin adjective form appellate for courts of appeal.",
+          "cn": "英语先吸收 appeal，再借后期拉丁语形容词形式 appellate 称呼上诉法院。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "Today appellate is almost entirely a legal term for the reviewing level of the judiciary.",
+          "cn": "如今 appellate 几乎完全是司法术语，指复核审级。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "Appellate is easily confused with words built on the same Latin root and with near legal terms.",
+        "cn": "appellate 容易与同根词以及近义法律术语混淆。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "appeal",
+              "ipa": "/əˈpiːl/",
+              "tag": "same root",
+              "definition": "to request that a higher court review a decision; a formal request",
+              "definitionCN": "请求上级法院复核裁决；正式的请求"
+            },
+            {
+              "word": "appellation",
+              "ipa": "/ˌæpəˈleɪʃn/",
+              "tag": "same root",
+              "definition": "a name or title given to someone or something",
+              "definitionCN": "名称；称号"
+            },
+            {
+              "word": "appellate jurisdiction",
+              "ipa": "/ˌæpəˈpelət ˌdʒʊərɪsˈdɪkʃn/",
+              "tag": "legal phrase",
+              "definition": "the authority of a court to review lower court decisions",
+              "definitionCN": "法院复核下级裁决的权力"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "reviewing",
+              "ipa": "/rɪˈvjuːɪŋ/",
+              "tag": "near meaning",
+              "definition": "examining something again, as an appellate body examines a case",
+              "definitionCN": "再次审查的，如复核机构审查案件"
+            },
+            {
+              "word": "higher-court",
+              "ipa": "/ˈhaɪə kɔːt/",
+              "tag": "near meaning",
+              "definition": "belonging to a court above the trial level",
+              "definitionCN": "属于高于初审法院的审级的"
+            },
+            {
+              "word": "revisory",
+              "ipa": "/rɪˈvaɪzəri/",
+              "tag": "formal, rare",
+              "definition": "having power to revise or correct earlier decisions",
+              "definitionCN": "有修订或纠正先前裁决权力的"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Remember appellate through its family of call-words from Latin appellare.",
+        "cn": "通过拉丁语 appellare 的「呼唤」词族来记 appellate。"
+      },
+      "normal": [
+        {
+          "en": "appellate = appeal + -ate, literally 'appeal-related'.",
+          "cn": "appellate = appeal + -ate，字面就是「与上诉有关的」。"
+        },
+        {
+          "en": "Latin ad- (toward) + pellere (drive): calling a court 'toward' you.",
+          "cn": "拉丁语 ad-（朝向）+ pellere（驱使）：把法院「唤向」自己。"
+        },
+        {
+          "en": "Appellation means a name; appellate means the court you call upon.",
+          "cn": "appellation 是「名称」，appellate 是「你呼唤的法院」，两词同根。"
+        },
+        {
+          "en": "Collocation anchor: appellate court is the standard phrase.",
+          "cn": "搭配锚点：appellate court 是标准说法。"
+        },
+        {
+          "en": "Trial courts find facts; appellate courts correct them.",
+          "cn": "初审法院认定事实，上诉法院纠正错误——记住这组分工。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "Picture an escalator carrying a case file up to a taller courthouse.",
+          "cn": "想象一部扶梯把案卷送上更高的法院大楼。"
+        },
+        {
+          "en": "The higher court's door has a bell: you ring it to appeal.",
+          "cn": "高处法院的门上挂着一口钟：敲钟即是呼唤复核。"
+        },
+        {
+          "en": "Appellate sounds like 'a peal' — a peal of bells calling the case upward.",
+          "cn": "appellate 听着像 a peal——一阵钟声把案子召唤上去。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "The appellate court reversed the lower court's ruling.",
+        "cn": "上诉法院推翻了下级法院的裁决。"
+      },
+      {
+        "en": "He has argued dozens of cases in appellate courts.",
+        "cn": "他在上诉法院辩护过几十起案件。"
+      },
+      {
+        "en": "Appeals must follow strict appellate procedures.",
+        "cn": "上诉必须遵循严格的上诉程序。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「阿牌勒特」——上诉就像拿着「阿爸的牌」勒令下级法院重新审，别把谐音当词源。",
+      "word": "appellate"
+    },
+    "root": "拉丁词根 pell-/pel-（推、驱使）：appellate 由 ad-（朝向）+ pellere（驱使）构成，本义「向……呼唤」，引申为「呼唤上级法院复核」，即上诉的。",
+    "sensesIntro": {
+      "en": "From the core image of calling a case upward, appellate spreads to courts, judges, jurisdiction, procedure, argument, and the trial-versus-review contrast.",
+      "cn": "从「把案子向上呼唤」的核心意象出发，appellate 依次铺开到法院、法官、管辖权、程序、辩论以及初审与复核的对照。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: a case being called upward to a higher court",
+        "cn": "核心意象：案件被呼唤着向上送往更高的法庭"
+      },
+      "chain": [
+        "APPEAL",
+        "HIGHER COURT",
+        "REVIEW",
+        "LEGAL ERROR",
+        "CORRECTION",
+        "FINAL RULING"
+      ],
+      "branches": [
+        {
+          "senses": "01 · 06",
+          "en": "the upward journey of a case: appeal and its procedure",
+          "cn": "案件的向上旅程：上诉及其程序"
+        },
+        {
+          "senses": "02 · 03",
+          "en": "the receiving side: courts and judges empowered to hear appeals",
+          "cn": "接手的一方：有权受理上诉的法院与法官"
+        },
+        {
+          "senses": "04 · 05",
+          "en": "what may be reviewed: legal error under appellate jurisdiction",
+          "cn": "可复核的内容：上诉管辖权下的法律错误"
+        },
+        {
+          "senses": "07",
+          "en": "the spoken moment: appellate argument before the panel",
+          "cn": "口头时刻：合议庭前的上诉辩论"
+        },
+        {
+          "senses": "08",
+          "en": "the dividing line: trial facts versus appellate correction",
+          "cn": "分界线：初审事实与上诉纠错"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Appellate is built from Latin parts, and the same parts build a whole family of English words.",
+        "cn": "appellate 由拉丁语部件构成，同样的部件还构成了英语里一整族词。"
+      },
+      "latinIntro": {
+        "en": "The core is Latin pellere, to drive or push, one of the most productive Latin roots.",
+        "cn": "核心是拉丁语 pellere（驱使、推动），属最高产的拉丁词根之一。"
+      },
+      "items": [
+        {
+          "word": "ap-/ad-",
+          "structure": "Latin prefix",
+          "meaning": "to, toward",
+          "meaningCN": "朝向",
+          "example": "appellate, appeal",
+          "exampleCN": "呼唤上级法院"
+        },
+        {
+          "word": "pell/puls",
+          "structure": "Latin root",
+          "meaning": "drive, push, beat",
+          "meaningCN": "驱使、推动",
+          "example": "compel, pulse",
+          "exampleCN": "强迫、脉搏"
+        },
+        {
+          "word": "-ate",
+          "structure": "adjective suffix",
+          "meaning": "having the nature of",
+          "meaningCN": "具有……性质的",
+          "example": "appellate",
+          "exampleCN": "上诉的"
+        },
+        {
+          "word": "compel",
+          "structure": "com- + pellere",
+          "meaning": "to drive together, force",
+          "meaningCN": "强迫",
+          "example": "The law compels disclosure.",
+          "exampleCN": "法律强制披露。"
+        },
+        {
+          "word": "expel",
+          "structure": "ex- + pellere",
+          "meaning": "to drive out",
+          "meaningCN": "驱逐",
+          "example": "He was expelled from school.",
+          "exampleCN": "他被学校开除。"
+        },
+        {
+          "word": "repel",
+          "structure": "re- + pellere",
+          "meaning": "to drive back",
+          "meaningCN": "击退；排斥",
+          "example": "The coating repels water.",
+          "exampleCN": "涂层防水。"
+        },
+        {
+          "word": "propel",
+          "structure": "pro- + pellere",
+          "meaning": "to drive forward",
+          "meaningCN": "推进",
+          "example": "Wind propels the boat.",
+          "exampleCN": "风推动小船。"
+        },
+        {
+          "word": "impulse",
+          "structure": "in- + puls (pellere)",
+          "meaning": "a sudden push or drive",
+          "meaningCN": "冲动；冲量",
+          "example": "She bought it on impulse.",
+          "exampleCN": "她一时冲动买了它。"
+        },
+        {
+          "word": "dispel",
+          "structure": "dis- + pellere",
+          "meaning": "to drive away",
+          "meaningCN": "驱散",
+          "example": "The talk dispelled the rumors.",
+          "exampleCN": "谈话驱散了谣言。"
+        },
+        {
+          "word": "appeal",
+          "structure": "ad- + pellere via Old French",
+          "meaning": "to call upon",
+          "meaningCN": "呼吁；上诉",
+          "example": "They appealed the verdict.",
+          "exampleCN": "他们对判决提起上诉。"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "appellare",
+          "structure": "Latin verb",
+          "meaning": "to address, call upon",
+          "meaningCN": "称呼、呼唤",
+          "example": "Appellare senatorem erat morem Romanum.",
+          "exampleCN": "称呼元老的名号是罗马习俗。"
+        },
+        {
+          "word": "appellatio",
+          "structure": "Latin noun",
+          "meaning": "a naming, appellation",
+          "meaningCN": "命名、称号"
+        },
+        {
+          "word": "repellere",
+          "structure": "Latin verb",
+          "meaning": "to drive back",
+          "meaningCN": "击退"
+        }
+      ],
+      "derivatives": [
+        {
+          "word": "appeal",
+          "pos": "n./v.",
+          "zh": "同根词，义为「上诉；呼吁」"
+        },
+        {
+          "word": "appellation",
+          "pos": "n.",
+          "zh": "同根派生，义为「名称；称号」"
+        }
+      ]
+    }
+  }
+]

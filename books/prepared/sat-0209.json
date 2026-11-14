@@ -1,0 +1,377 @@
+[
+  {
+    "word": "approval",
+    "ipa_uk": "/əˈpruːvl/",
+    "ipa_us": "/əˈpruːvl/",
+    "definition_zh": "赞成；认可；批准；同意",
+    "definition_en": "a favourable opinion of something, or official permission for it",
+    "core_image": "文件末尾落下的一个同意签名",
+    "scene": "方案在会议上被逐条讨论，最后所有人点头。The plan needs the board's approval.",
+    "sceneCN": "这里 approval 是「批准」（第 2 个义项：官方的许可）；句意是这个方案需要董事会的批准。",
+    "pos": [
+      {
+        "tag": "n.",
+        "zh": "名词：赞成；认可；批准"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "give approval",
+        "zh": "给予批准"
+      },
+      {
+        "phrase": "seek approval",
+        "zh": "寻求认可"
+      },
+      {
+        "phrase": "meet with approval",
+        "zh": "获得赞同"
+      },
+      {
+        "phrase": "subject to approval",
+        "zh": "有待批准"
+      },
+      {
+        "phrase": "win approval",
+        "zh": "赢得赞同"
+      }
+    ],
+    "forms": [
+      {
+        "label": "复数",
+        "form": "approvals"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "approve",
+        "pos": "v.",
+        "zh": "动词：赞成；批准"
+      },
+      {
+        "word": "approving",
+        "pos": "adj.",
+        "zh": "形容词：赞许的"
+      },
+      {
+        "word": "disapproval",
+        "pos": "n.",
+        "zh": "名词：不赞成；反对"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "A favourable opinion",
+        "titleCN": "赞成；认可",
+        "definition": "the feeling or expression that something is good",
+        "definitionCN": "认为某事很好的感觉或表示",
+        "example": "Her suggestion met with general approval.",
+        "exampleCN": "她的建议得到普遍赞同。",
+        "why": "Latin approbare meant 'to prove good', from ad and probare, 'to test'; approval is the verdict that a thing has passed the test.",
+        "whyCN": "拉丁语 approbare 意为「证明是好的」，由 ad 与 probare「检验」构成；approval 就是「经检验合格」的结论。"
+      },
+      {
+        "no": "02",
+        "title": "Official permission",
+        "titleCN": "批准；许可",
+        "definition": "formal agreement that allows something to happen",
+        "definitionCN": "允许某事发生的正式同意",
+        "example": "The plan needs the board's approval.",
+        "exampleCN": "这个方案需要董事会的批准。",
+        "why": "A good verdict from an authority becomes permission, because what has been judged good may now proceed.",
+        "whyCN": "来自权威的「合格」判定就变成许可，因为被判为好的事现在可以推进了。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Approval is the noun of approve, whose Latin root means 'to prove good'.",
+        "cn": "approval 是 approve 的名词，其拉丁词根意为「证明是好的」。"
+      },
+      "items": [
+        {
+          "era": "LATIN PROBARE",
+          "en": "probare meant 'to test, prove'.",
+          "cn": "probare 意为「检验、证明」。"
+        },
+        {
+          "era": "LATIN APPROBARE",
+          "en": "approbare meant 'to prove good, commend'.",
+          "cn": "approbare 意为「证明良好、称赞」。"
+        },
+        {
+          "era": "OLD FRENCH APROVER",
+          "en": "Old French aprover gave English approve.",
+          "cn": "古法语 aprover 给英语带来 approve。"
+        },
+        {
+          "era": "ENGLISH, 15TH C.",
+          "en": "Approval named the act of judging something good.",
+          "cn": "approval 指判定某事良好的行为。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "The sense of formal permission became standard in administration.",
+          "cn": "正式许可义在行政语境中成为标准。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "The look-alike group shares the prove root; the near-meaning group gives other words for consent.",
+        "cn": "形近组共享「证明」词根；近义组是其他表示同意的词。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "approve",
+              "ipa": "/əˈpruːv/",
+              "tag": "same root",
+              "definition": "to think well of or permit",
+              "definitionCN": "赞成；批准"
+            },
+            {
+              "word": "approving",
+              "ipa": "/əˈpruːvɪŋ/",
+              "tag": "same root",
+              "definition": "showing favour",
+              "definitionCN": "赞许的"
+            },
+            {
+              "word": "disapproval",
+              "ipa": "/ˌdɪsəˈpruːvl/",
+              "tag": "same root",
+              "definition": "an unfavourable opinion",
+              "definitionCN": "不赞成"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "consent",
+              "ipa": "/kənˈsent/",
+              "tag": "near synonym",
+              "definition": "permission given",
+              "definitionCN": "同意"
+            },
+            {
+              "word": "endorsement",
+              "ipa": "/ɪnˈdɔːsmənt/",
+              "tag": "near synonym",
+              "definition": "public support",
+              "definitionCN": "支持；背书"
+            },
+            {
+              "word": "refusal",
+              "ipa": "/rɪˈfjuːzl/",
+              "tag": "opposite",
+              "definition": "the act of saying no",
+              "definitionCN": "拒绝"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Approval is a stamp that says this has been tested and is good.",
+        "cn": "approval 就是一枚印章，写着「已检验，合格」。"
+      },
+      "normal": [
+        {
+          "en": "Give approval and seek approval are the two common verb phrases.",
+          "cn": "give approval 与 seek approval 是两个常用动词搭配。"
+        },
+        {
+          "en": "Subject to approval means it still needs consent.",
+          "cn": "subject to approval 意为仍有待批准。"
+        },
+        {
+          "en": "The verb is approve of for opinions, approve for permission.",
+          "cn": "动词表示看法用 approve of，表示许可用 approve。"
+        },
+        {
+          "en": "Disapproval is the negative, made with dis-.",
+          "cn": "disapproval 是用 dis- 构成的否定形式。"
+        },
+        {
+          "en": "Stress the second syllable: a-PPROV-al.",
+          "cn": "重音在第二个音节：a-PPROV-al。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "See a signature at the bottom of a page.",
+          "cn": "想象页面底部的签名。"
+        },
+        {
+          "en": "See a room of people nodding at once.",
+          "cn": "想象满屋的人同时点头。"
+        },
+        {
+          "en": "See a stamp pressed on a document.",
+          "cn": "想象印章压在文件上。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "Her suggestion met with general approval.",
+        "cn": "她的建议得到普遍赞同。"
+      },
+      {
+        "en": "The plan needs the board's approval.",
+        "cn": "这个方案需要董事会的批准。"
+      },
+      {
+        "en": "The budget was passed subject to approval by the council.",
+        "cn": "预算获得通过，但仍需议会批准。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "拆词记忆 · 非词源",
+      "text": "ap-（向）加 prov（证明）加 -al：证明它是好的，就是赞同。",
+      "word": "approval"
+    },
+    "root": "来自拉丁语 approbare「证明良好」，由 ad 与 probare「检验」构成；由「检验合格」发展出赞同与批准两义。",
+    "sensesIntro": {
+      "en": "A judgement of quality turns into a formal permission to proceed.",
+      "cn": "对质量的判定，转化为允许推进的正式许可。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: a stamp marking a document as tested and good.",
+        "cn": "核心意象：文件上标明「检验合格」的印章。"
+      },
+      "chain": [
+        "TEST",
+        "PROVE",
+        "JUDGE GOOD",
+        "FAVOUR",
+        "PERMISSION",
+        "PROCEED"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "meet with approval",
+          "cn": "获得赞同"
+        },
+        {
+          "senses": "01",
+          "en": "win public approval",
+          "cn": "赢得公众认可"
+        },
+        {
+          "senses": "01",
+          "en": "an approving look",
+          "cn": "赞许的目光"
+        },
+        {
+          "senses": "02",
+          "en": "the board's approval",
+          "cn": "董事会批准"
+        },
+        {
+          "senses": "02",
+          "en": "subject to approval",
+          "cn": "有待批准"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "A -al noun on approve, from a Latin verb of testing.",
+        "cn": "这是一个建立在 approve 上的 -al 名词，源于表示检验的拉丁动词。"
+      },
+      "latinIntro": {
+        "en": "The root probare, 'to test', also gives prove, probable, and probation.",
+        "cn": "词根 probare「检验」也派生出 prove、probable 与 probation。"
+      },
+      "items": [
+        {
+          "word": "approval",
+          "structure": "approve + -al",
+          "meaning": "a good verdict or permission",
+          "meaningCN": "赞同；批准",
+          "example": "give approval",
+          "exampleCN": "给予批准"
+        },
+        {
+          "word": "approvals",
+          "structure": "approval + -s",
+          "meaning": "permissions, plural",
+          "meaningCN": "批准（复数）",
+          "example": "several approvals",
+          "exampleCN": "数项批准"
+        },
+        {
+          "word": "approve",
+          "structure": "ad- + probare",
+          "meaning": "to judge good",
+          "meaningCN": "赞成；批准",
+          "example": "approve the budget",
+          "exampleCN": "批准预算"
+        },
+        {
+          "word": "approving",
+          "structure": "approve + -ing",
+          "meaning": "showing favour",
+          "meaningCN": "赞许的",
+          "example": "an approving nod",
+          "exampleCN": "赞许的点头"
+        },
+        {
+          "word": "disapproval",
+          "structure": "dis- + approval",
+          "meaning": "an unfavourable view",
+          "meaningCN": "不赞成",
+          "example": "express disapproval",
+          "exampleCN": "表示不赞成"
+        },
+        {
+          "word": "prove",
+          "structure": "Latin probare",
+          "meaning": "to establish as true",
+          "meaningCN": "证明",
+          "example": "prove a point",
+          "exampleCN": "证明一个观点"
+        },
+        {
+          "word": "probable",
+          "structure": "probare + -able",
+          "meaning": "likely to be true",
+          "meaningCN": "很可能的",
+          "example": "a probable cause",
+          "exampleCN": "可能的原因"
+        },
+        {
+          "word": "consent",
+          "structure": "con- + sentire",
+          "meaning": "to feel together, hence agree",
+          "meaningCN": "同意",
+          "example": "give consent",
+          "exampleCN": "表示同意"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "probare",
+          "structure": "Latin verb",
+          "meaning": "to test, prove",
+          "meaningCN": "检验；证明"
+        },
+        {
+          "word": "approbare",
+          "structure": "ad + probare",
+          "meaning": "to prove good",
+          "meaningCN": "证明良好"
+        }
+      ]
+    }
+  }
+]

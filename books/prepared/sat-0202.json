@@ -1,0 +1,498 @@
+[
+  {
+    "word": "append",
+    "ipa_uk": "/əˈpend/",
+    "ipa_us": "/əˈpend/",
+    "definition_zh": "附加；添加；追加（尤其在文件末尾）",
+    "definition_en": "to add something to the end of a written document or piece of writing",
+    "core_image": "挂在末尾：像在长卷末尾续接一张纸",
+    "scene": "报告写完后，秘书在最后又贴上了一页附录。She decided to append a detailed table to the end of her report.",
+    "sceneCN": "这里 append 是「在文末附加」（第 1 个义项：把内容加到末尾）；句意为：她决定在报告末尾附加一张详表。",
+    "pos": [
+      {
+        "tag": "vt.",
+        "zh": "附加；添加；追加"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "append a note",
+        "zh": "附上一条注释"
+      },
+      {
+        "phrase": "append to the document",
+        "zh": "附加到文档"
+      },
+      {
+        "phrase": "append data to a file",
+        "zh": "向文件追加数据"
+      },
+      {
+        "phrase": "append a signature",
+        "zh": "附上签名"
+      },
+      {
+        "phrase": "append an appendix",
+        "zh": "加附附录"
+      },
+      {
+        "phrase": "append conditions",
+        "zh": "附加条件"
+      }
+    ],
+    "forms": [
+      {
+        "label": "三单",
+        "form": "appends"
+      },
+      {
+        "label": "过去式",
+        "form": "appended"
+      },
+      {
+        "label": "过去分词",
+        "form": "appended"
+      },
+      {
+        "label": "现在分词",
+        "form": "appending"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "appendix",
+        "pos": "n.",
+        "zh": "由拉丁名词后缀构成，义为「附录；阑尾」"
+      },
+      {
+        "word": "appendage",
+        "pos": "n.",
+        "zh": "同根派生，义为「附加物；附属肢体」"
+      },
+      {
+        "word": "appendant",
+        "pos": "adj./n.",
+        "zh": "加形容词后缀 -ant，义为「附加的；附加物」"
+      },
+      {
+        "word": "appendicitis",
+        "pos": "n.",
+        "zh": "appendix 加炎症后缀，义为「阑尾炎」"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "To add to the end of a text",
+        "titleCN": "在文末附加",
+        "definition": "to add writing or material at the end of a document",
+        "definitionCN": "在文件末尾添加文字或材料",
+        "example": "The lawyer appended two exhibits to the contract.",
+        "exampleCN": "律师在合同后附上两份证物。",
+        "why": "The root pendere means to hang, so the basic image is hanging something at the tail of a text.",
+        "whyCN": "词根 pendere 意为悬挂，基本意象就是把东西挂在一篇文章的尾部。"
+      },
+      {
+        "no": "02",
+        "title": "To add data in computing",
+        "titleCN": "在计算中追加数据",
+        "definition": "to add data to the end of an existing file, string, or list",
+        "definitionCN": "把数据加到已有文件、字符串或列表的末尾",
+        "example": "The program appends each log entry to a file.",
+        "exampleCN": "程序把每条日志追加到文件里。",
+        "why": "Computing borrowed the paper image: new bytes hang at the tail of the old file.",
+        "whyCN": "计算领域借用了纸面意象：新字节挂在旧文件的尾部。"
+      },
+      {
+        "no": "03",
+        "title": "To attach as a supplement",
+        "titleCN": "作为补充附上",
+        "definition": "to attach something secondary that supports the main text",
+        "definitionCN": "附上支撑正文的次要材料",
+        "example": "She appended her research notes for reference.",
+        "exampleCN": "她附上研究笔记供参考。",
+        "why": "What hangs at the end is usually support material, giving the supplement sense.",
+        "whyCN": "挂在末尾的通常是辅助材料，于是产生补充义。"
+      },
+      {
+        "no": "04",
+        "title": "To affix a signature or seal",
+        "titleCN": "附上签名或印章",
+        "definition": "to add one's signature or seal to a document",
+        "definitionCN": "在文件上加署签名或盖章",
+        "example": "He appended his signature without reading the terms.",
+        "exampleCN": "他没看条款就签了字。",
+        "why": "A signature hangs at the bottom of a page, an image of physical attachment.",
+        "whyCN": "签名悬在页底，是物理附着的意象。"
+      },
+      {
+        "no": "05",
+        "title": "To add conditions or clauses",
+        "titleCN": "附加条件或条款",
+        "definition": "to add extra conditions, clauses, or requirements",
+        "definitionCN": "追加额外的条件、条款或要求",
+        "example": "They appended several conditions to the agreement.",
+        "exampleCN": "他们在协议上附加了几个条件。",
+        "why": "Conditions ride at the tail of the main deal, extending the end-attachment image.",
+        "whyCN": "条件挂在主交易后面，延伸了末尾附着的意象。"
+      },
+      {
+        "no": "06",
+        "title": "To continue a record",
+        "titleCN": "续接记录",
+        "definition": "to extend an ongoing record by adding new entries",
+        "definitionCN": "通过添加新条目延续进行中的记录",
+        "example": "The captain appended the day's events to the logbook.",
+        "exampleCN": "船长把当天的事件续记进航海日志。",
+        "why": "Records grow by hanging new lines after old ones.",
+        "whyCN": "记录靠在旧行后面挂上新行来生长。"
+      },
+      {
+        "no": "07",
+        "title": "To add as a lesser attachment",
+        "titleCN": "作为次要附属加上",
+        "definition": "to add something regarded as secondary or less important",
+        "definitionCN": "加上被视为次要或不太重要的东西",
+        "example": "Critics felt the ending was merely appended.",
+        "exampleCN": "评论者觉得结尾只是硬接上去的。",
+        "why": "Because the tail is secondary to the body, appended can imply low status.",
+        "whyCN": "尾巴相对身体是次要的，appended 因此可暗示地位低。"
+      },
+      {
+        "no": "08",
+        "title": "To string together in sequence",
+        "titleCN": "按序串接",
+        "definition": "to join pieces one after another into a single sequence",
+        "definitionCN": "把片段一个接一个连成单一序列",
+        "example": "The editor appended the chapters into one volume.",
+        "exampleCN": "编辑把各章串接成一册。",
+        "why": "Repeated hanging builds a chain, giving the sequence sense.",
+        "whyCN": "反复悬挂连成一串，于是产生序列义。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Append comes from Latin appendere, to hang something onto something else, from ad- plus pendere.",
+        "cn": "append 来自拉丁语 appendere（把某物悬挂在另一物上），由 ad- 加 pendere 构成。"
+      },
+      "items": [
+        {
+          "era": "PROTO-INDO-EUROPEAN",
+          "en": "The reconstructed root *(s)pen- meant to draw, stretch, or spin.",
+          "cn": "重构词根 *(s)pen- 意为拉、伸、纺。"
+        },
+        {
+          "era": "LATIN",
+          "en": "Pendere meant to hang or weigh; with ad- it formed appendere, to hang upon.",
+          "cn": "pendere 意为悬挂、称重；加 ad- 构成 appendere，意为悬挂其上。"
+        },
+        {
+          "era": "LATE LATIN",
+          "en": "Appendere developed the sense of paying or attaching as a dependency.",
+          "cn": "后期拉丁语中 appendere 发展出依附、归属之义。"
+        },
+        {
+          "era": "OLD FRENCH / MIDDLE ENGLISH",
+          "en": "English took append directly from Latin in the fifteenth century, first in legal use for dependencies.",
+          "cn": "英语十五世纪直接从拉丁语借入 append，最初用于法律语境表附属。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "It now chiefly means to add material to the end of a text or file.",
+          "cn": "如今它主要指在文本或文件末尾添加材料。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "Append belongs to a large pend-family and sits beside several add-words.",
+        "cn": "append 属于庞大的 pend 词族，并与若干「添加」类词相邻。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "appendix",
+              "ipa": "/əˈpendɪks/",
+              "tag": "same root",
+              "definition": "supplementary material at the end of a book; also a body organ",
+              "definitionCN": "书末附录；阑尾"
+            },
+            {
+              "word": "appendage",
+              "ipa": "/əˈpendɪdʒ/",
+              "tag": "same root",
+              "definition": "a part attached to a larger body",
+              "definitionCN": "附加物；附属肢体"
+            },
+            {
+              "word": "suspend",
+              "ipa": "/səˈspend/",
+              "tag": "same root",
+              "definition": "to hang something up or stop it temporarily",
+              "definitionCN": "悬挂；暂停"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "attach",
+              "ipa": "/əˈtætʃ/",
+              "tag": "near meaning",
+              "definition": "to fasten or join one thing to another",
+              "definitionCN": "把一物系于或连接到另一物"
+            },
+            {
+              "word": "add",
+              "ipa": "/æd/",
+              "tag": "near meaning",
+              "definition": "to put something together with something else",
+              "definitionCN": "把某物与另一物放在一起"
+            },
+            {
+              "word": "annex",
+              "ipa": "/əˈneks/",
+              "tag": "near meaning",
+              "definition": "to add or join territory or a building",
+              "definitionCN": "兼并；附加（领土、建筑）"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "The pend-family of hanging words unlocks append instantly.",
+        "cn": "「悬挂」词族 pend 一族能让你秒懂 append。"
+      },
+      "normal": [
+        {
+          "en": "append = ap- (toward) + pend (hang): hang it onto the end.",
+          "cn": "append = ap-（朝向）+ pend（悬挂）：挂到末尾。"
+        },
+        {
+          "en": "Same root as appendix, the thing appended at the back of a book.",
+          "cn": "与 appendix 同根，即书末被附加的部分。"
+        },
+        {
+          "en": "Same family: suspend, depend, pendant — all about hanging.",
+          "cn": "同族词：suspend、depend、pendant——都关乎悬挂。"
+        },
+        {
+          "en": "In programming, append means adding to the end of a list or file.",
+          "cn": "在编程里，append 表示加到列表或文件末尾。"
+        },
+        {
+          "en": "Opposite idea: prepend adds to the front instead.",
+          "cn": "对比记：prepend 是加到开头。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "Picture clipping one more page to the tail of a long scroll.",
+          "cn": "想象在长卷末端再夹上一页纸。"
+        },
+        {
+          "en": "A charm hangs at the end of a bracelet — appended, not inserted.",
+          "cn": "手链末端挂着坠子——是附加而非插入。"
+        },
+        {
+          "en": "Append sounds like 'a pen': use a pen to add the last line.",
+          "cn": "append 听着像 a pen：用笔补上最后一行。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "Please append your initials to each page.",
+        "cn": "请在每一页附上你的姓名首字母。"
+      },
+      {
+        "en": "The report appended a glossary of technical terms.",
+        "cn": "报告在后面附上了术语表。"
+      },
+      {
+        "en": "You can append new records without rewriting the file.",
+        "cn": "你可以在不重写文件的情况下追加新记录。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「阿盆的」——把文件扔进「阿盆」的末尾再添一勺，谐音只助记，不是词源。",
+      "word": "append"
+    },
+    "root": "拉丁词根 pend-/pens-（悬挂、称重）：append 由 ad-（朝向）+ pendere（悬挂）构成，本义「悬挂于上」，引申为「把材料挂在文末」，即附加。",
+    "sensesIntro": {
+      "en": "From hanging material at the tail of a text, append spreads to file data, supplements, signatures, conditions, records, subordinate attachments, and sequenced strings.",
+      "cn": "从「把材料挂在文末」出发，append 依次铺开到文件数据、补充材料、签名、附加条件、记录续接、次要附属与按序串接。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: hanging something onto the tail of a text",
+        "cn": "核心意象：把东西悬挂在一篇文字的尾部"
+      },
+      "chain": [
+        "ATTACHMENT",
+        "ADDITION",
+        "SUPPLEMENT",
+        "SEQUENCE",
+        "SUBORDINATION",
+        "COMPLETION"
+      ],
+      "branches": [
+        {
+          "senses": "01 · 04 · 05",
+          "en": "physical marks of attachment: texts, signatures, conditions",
+          "cn": "物理附着痕迹：文本、签名、条件"
+        },
+        {
+          "senses": "02 · 06",
+          "en": "growing records: file data and ongoing logs",
+          "cn": "生长的记录：文件数据与进行中的日志"
+        },
+        {
+          "senses": "03",
+          "en": "support material that completes the main text",
+          "cn": "补全正文的辅助材料"
+        },
+        {
+          "senses": "07",
+          "en": "subordinate status of what hangs at the tail",
+          "cn": "挂在尾部的次要地位"
+        },
+        {
+          "senses": "08",
+          "en": "strings of pieces joined in sequence",
+          "cn": "按序串接的片段"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Append is a clean compound of a prefix and the pend root, the source of dozens of English words.",
+        "cn": "append 由前缀加 pend 词根干净地拼成，这一词根是几十个英语词的来源。"
+      },
+      "latinIntro": {
+        "en": "Latin pendere, to hang or weigh, is one of the most fruitful roots in English.",
+        "cn": "拉丁语 pendere（悬挂、称重）是英语里最高产的词根之一。"
+      },
+      "items": [
+        {
+          "word": "ap-/ad-",
+          "structure": "Latin prefix",
+          "meaning": "to, toward",
+          "meaningCN": "朝向",
+          "example": "append, appeal",
+          "exampleCN": "附加、呼吁"
+        },
+        {
+          "word": "pend/pens",
+          "structure": "Latin root",
+          "meaning": "hang, weigh",
+          "meaningCN": "悬挂、称重",
+          "example": "append, pension",
+          "exampleCN": "附加、养老金"
+        },
+        {
+          "word": "suspend",
+          "structure": "sub- + pendere",
+          "meaning": "to hang beneath; to pause",
+          "meaningCN": "悬挂；暂停",
+          "example": "The lamp was suspended from the ceiling.",
+          "exampleCN": "灯悬挂在天花板上。"
+        },
+        {
+          "word": "depend",
+          "structure": "de- + pendere",
+          "meaning": "to hang from, rely on",
+          "meaningCN": "依赖",
+          "example": "Children depend on parents.",
+          "exampleCN": "孩子依赖父母。"
+        },
+        {
+          "word": "expend",
+          "structure": "ex- + pendere",
+          "meaning": "to pay out",
+          "meaningCN": "花费",
+          "example": "They expended great effort.",
+          "exampleCN": "他们付出了巨大努力。"
+        },
+        {
+          "word": "pension",
+          "structure": "pens + -ion",
+          "meaning": "periodic payment",
+          "meaningCN": "养老金",
+          "example": "He lives on a pension.",
+          "exampleCN": "他靠养老金生活。"
+        },
+        {
+          "word": "pendant",
+          "structure": "pend + -ant",
+          "meaning": "a hanging ornament",
+          "meaningCN": "吊坠",
+          "example": "a pearl pendant",
+          "exampleCN": "珍珠吊坠"
+        },
+        {
+          "word": "independent",
+          "structure": "in- + de- + pend + -ent",
+          "meaning": "not hanging on others",
+          "meaningCN": "独立的",
+          "example": "an independent nation",
+          "exampleCN": "独立的国家"
+        },
+        {
+          "word": "compensate",
+          "structure": "com- + pens + -ate",
+          "meaning": "to weigh together, make up for",
+          "meaningCN": "补偿",
+          "example": "Nothing compensates for lost time.",
+          "exampleCN": "失去的时间无法补偿。"
+        },
+        {
+          "word": "pending",
+          "structure": "pend + -ing",
+          "meaning": "hanging unresolved",
+          "meaningCN": "悬而未决的",
+          "example": "a pending case",
+          "exampleCN": "未决的案件"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "appendere",
+          "structure": "Latin verb",
+          "meaning": "to hang upon, attach",
+          "meaningCN": "悬挂其上、附加"
+        },
+        {
+          "word": "appendix",
+          "structure": "Latin noun",
+          "meaning": "an attachment, supplement",
+          "meaningCN": "附加物、附录"
+        },
+        {
+          "word": "pendere",
+          "structure": "Latin verb",
+          "meaning": "to hang, weigh",
+          "meaningCN": "悬挂、称重"
+        }
+      ],
+      "derivatives": [
+        {
+          "word": "appendix",
+          "pos": "n.",
+          "zh": "同根派生，义为「附录；阑尾」"
+        },
+        {
+          "word": "appendage",
+          "pos": "n.",
+          "zh": "同根派生，义为「附加物；附属肢体」"
+        }
+      ]
+    }
+  }
+]

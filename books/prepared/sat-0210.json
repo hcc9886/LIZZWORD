@@ -1,0 +1,377 @@
+[
+  {
+    "word": "approximately",
+    "ipa_uk": "/əˈprɒksɪmətli/",
+    "ipa_us": "/əˈprɑːksɪmətli/",
+    "definition_zh": "大约；大概；近似地",
+    "definition_en": "used before a number to show that it is not exact, or to describe something as nearly but not exactly so",
+    "core_image": "秤杆停在差一点水平的位置",
+    "scene": "她在站台上看了好几次表。The journey takes approximately two hours.",
+    "sceneCN": "这里 approximately 是「大约」（第 1 个义项：用于数量或时间的不精确估计）；句意是这段路程大约要两个小时。",
+    "pos": [
+      {
+        "tag": "adv.",
+        "zh": "副词：大约；近似地"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "approximately equal",
+        "zh": "大致相等"
+      },
+      {
+        "phrase": "approximately two hours",
+        "zh": "大约两小时"
+      },
+      {
+        "phrase": "approximately half",
+        "zh": "大约一半"
+      },
+      {
+        "phrase": "approximately the same",
+        "zh": "大致相同"
+      },
+      {
+        "phrase": "approximately correct",
+        "zh": "大致正确"
+      }
+    ],
+    "forms": [
+      {
+        "label": "无变形",
+        "form": "approximately"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "approximate",
+        "pos": "adj.",
+        "zh": "形容词：近似的；大约的"
+      },
+      {
+        "word": "approximation",
+        "pos": "n.",
+        "zh": "名词：近似值；近似"
+      },
+      {
+        "word": "approximative",
+        "pos": "adj.",
+        "zh": "形容词：近似的"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "About, before a number",
+        "titleCN": "大约（用于数量或时间）",
+        "definition": "used to give a figure that is close to the true one",
+        "definitionCN": "给出一个接近真实值的数字",
+        "example": "The repair will take approximately three days.",
+        "exampleCN": "这次修理大约要三天。",
+        "why": "The suffix -ly turns the adjective approximate into a marker placed before figures that are nearest rather than exact.",
+        "whyCN": "后缀 -ly 把形容词 approximate 变成标记词，专门放在那些「最接近而非精确」的数字前面。"
+      },
+      {
+        "no": "02",
+        "title": "In a broadly similar way",
+        "titleCN": "大致上；大体相当地",
+        "definition": "used when two things are nearly, but not exactly, the same",
+        "definitionCN": "用于说明两件事大体相同但并不完全一致",
+        "example": "The two methods are approximately equivalent in cost.",
+        "exampleCN": "这两种方法在成本上大致相当。",
+        "why": "From counting, the word extends to comparing qualities: two things may stand near each other without matching exactly.",
+        "whyCN": "从计数扩展到性质比较：两样东西可以彼此靠得很近，却并不完全吻合。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Approximately is simply the adjective approximate with the adverb ending -ly.",
+        "cn": "approximately 就是形容词 approximate 加上副词后缀 -ly。"
+      },
+      "items": [
+        {
+          "era": "LATIN PROPE",
+          "en": "prope meant 'near'.",
+          "cn": "prope 意为「近」。"
+        },
+        {
+          "era": "LATIN PROXIMUS",
+          "en": "The superlative proximus meant 'nearest'.",
+          "cn": "最高级 proximus 意为「最近的」。"
+        },
+        {
+          "era": "LATIN APPROXIMARE",
+          "en": "approximare meant 'to come near'.",
+          "cn": "approximare 意为「靠近」。"
+        },
+        {
+          "era": "ENGLISH APPROXIMATE",
+          "en": "English formed the adjective approximate from the Latin verb.",
+          "cn": "英语由这个拉丁动词造出形容词 approximate。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "Adding -ly produced the everyday adverb for rough figures.",
+          "cn": "加上 -ly 之后，形成了日常用来修饰约数的副词。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "The look-alike group shares the root; the near-meaning group gives other hedges for numbers.",
+        "cn": "形近组同根；近义组是其他用来给数字留余地的词。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "approximate",
+              "ipa": "/əˈprɒksɪmət/",
+              "tag": "same root",
+              "definition": "nearly exact",
+              "definitionCN": "近似的"
+            },
+            {
+              "word": "approximation",
+              "ipa": "/əˌprɒksɪˈmeɪʃn/",
+              "tag": "same root",
+              "definition": "a rough value",
+              "definitionCN": "近似值"
+            },
+            {
+              "word": "approximative",
+              "ipa": "/əˈprɒksɪmətɪv/",
+              "tag": "same root",
+              "definition": "near rather than exact",
+              "definitionCN": "近似的"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "about",
+              "ipa": "/əˈbaʊt/",
+              "tag": "near synonym",
+              "definition": "roughly",
+              "definitionCN": "大约"
+            },
+            {
+              "word": "roughly",
+              "ipa": "/ˈrʌfli/",
+              "tag": "near synonym",
+              "definition": "without precision",
+              "definitionCN": "粗略地"
+            },
+            {
+              "word": "nearly",
+              "ipa": "/ˈnɪəli/",
+              "tag": "related",
+              "definition": "almost",
+              "definitionCN": "几乎"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Approximately softens a number so it is not a promise.",
+        "cn": "approximately 让数字变得柔和，不再像承诺。"
+      },
+      "normal": [
+        {
+          "en": "It usually sits right before the figure.",
+          "cn": "它通常紧挨在数字前面。"
+        },
+        {
+          "en": "In speech people often shorten it to about.",
+          "cn": "口语里人们常把它换成 about。"
+        },
+        {
+          "en": "The adjective form drops the -ly.",
+          "cn": "形容词形式去掉 -ly。"
+        },
+        {
+          "en": "It can also compare two things as broadly equal.",
+          "cn": "它也能表示两件事大体相等。"
+        },
+        {
+          "en": "Stress the second syllable: ap-PROX-i-mate-ly.",
+          "cn": "重音在第二个音节：ap-PROX-i-mate-ly。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "See a needle stopping a hair below the mark.",
+          "cn": "想象指针停在刻度下方一点点。"
+        },
+        {
+          "en": "See two lines that almost, not quite, meet.",
+          "cn": "想象两条几乎相接却未相接的线。"
+        },
+        {
+          "en": "See a hand waving to mean roughly so.",
+          "cn": "想象一只手左右摆动表示大概如此。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "The journey takes approximately two hours.",
+        "cn": "这段路程大约要两个小时。"
+      },
+      {
+        "en": "The repair will take approximately three days.",
+        "cn": "这次修理大约要三天。"
+      },
+      {
+        "en": "The two methods are approximately equivalent in cost.",
+        "cn": "这两种方法在成本上大致相当。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "拆词记忆 · 非词源",
+      "text": "approximate（近似的）加 -ly：以近似的方式，就是大约。",
+      "word": "approximately"
+    },
+    "root": "由形容词 approximate 加副词后缀 -ly 构成；approximate 源自拉丁语 approximare「靠近」，其词根 proximus 意为「最近的」。",
+    "sensesIntro": {
+      "en": "One adverb covers both a rough figure and a rough match between things.",
+      "cn": "同一个副词既修饰粗略的数字，也描述事物之间大致的吻合。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: a weighing scale resting a little off level.",
+        "cn": "核心意象：一架天平略微偏离水平。"
+      },
+      "chain": [
+        "NEAR",
+        "NEAREST",
+        "ROUGH FIGURE",
+        "HEDGE",
+        "BROADLY EQUAL",
+        "NOT EXACT"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "approximately ten minutes",
+          "cn": "大约十分钟"
+        },
+        {
+          "senses": "01",
+          "en": "approximately half",
+          "cn": "大约一半"
+        },
+        {
+          "senses": "02",
+          "en": "approximately equal",
+          "cn": "大致相等"
+        },
+        {
+          "senses": "02",
+          "en": "approximately the same size",
+          "cn": "大小大致相同"
+        },
+        {
+          "senses": "01",
+          "en": "approximately correct",
+          "cn": "大致正确"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "An adverb made by adding -ly to a Latin-derived adjective.",
+        "cn": "这是一个由拉丁来源形容词加 -ly 构成的副词。"
+      },
+      "latinIntro": {
+        "en": "The root prope, 'near', also lies behind proximity.",
+        "cn": "词根 prope「近」也是 proximity 的来源。"
+      },
+      "items": [
+        {
+          "word": "approximately",
+          "structure": "approximate + -ly",
+          "meaning": "about",
+          "meaningCN": "大约",
+          "example": "approximately five",
+          "exampleCN": "大约五个"
+        },
+        {
+          "word": "approximate",
+          "structure": "ad- + proximus + -ate",
+          "meaning": "nearly exact",
+          "meaningCN": "近似的",
+          "example": "an approximate figure",
+          "exampleCN": "大约的数字"
+        },
+        {
+          "word": "approximated",
+          "structure": "approximate + -ed",
+          "meaning": "came close",
+          "meaningCN": "接近过",
+          "example": "the data approximated a line",
+          "exampleCN": "数据接近一条直线"
+        },
+        {
+          "word": "approximating",
+          "structure": "approximate + -ing",
+          "meaning": "coming close",
+          "meaningCN": "接近中",
+          "example": "a curve approximating the shape",
+          "exampleCN": "接近该形状的曲线"
+        },
+        {
+          "word": "approximation",
+          "structure": "approximate + -ion",
+          "meaning": "rough value",
+          "meaningCN": "近似值",
+          "example": "a rough approximation",
+          "exampleCN": "粗略的近似"
+        },
+        {
+          "word": "approximative",
+          "structure": "approximate + -ive",
+          "meaning": "near, not exact",
+          "meaningCN": "近似的",
+          "example": "an approximative estimate",
+          "exampleCN": "近似的估计"
+        },
+        {
+          "word": "proximity",
+          "structure": "proximus + -ity",
+          "meaning": "nearness",
+          "meaningCN": "邻近",
+          "example": "in close proximity",
+          "exampleCN": "在近旁"
+        },
+        {
+          "word": "proximate",
+          "structure": "proximus + -ate",
+          "meaning": "immediately near",
+          "meaningCN": "紧邻的",
+          "example": "the proximate cause",
+          "exampleCN": "直接原因"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "prope",
+          "structure": "Latin adverb",
+          "meaning": "near",
+          "meaningCN": "近"
+        },
+        {
+          "word": "proximus",
+          "structure": "Latin superlative",
+          "meaning": "nearest",
+          "meaningCN": "最近的"
+        }
+      ]
+    }
+  }
+]
