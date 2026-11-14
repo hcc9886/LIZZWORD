@@ -1,0 +1,471 @@
+{
+  "word": "balk",
+  "ipa_uk": "/bɔːk/",
+  "ipa_us": "/bɔːk/",
+  "definition_zh": "拒绝继续；突然止步；妨碍；棒球的牵制犯规",
+  "definition_en": "to refuse to proceed or stop short abruptly; also, to hinder, and a baseball illegal motion",
+  "core_image": "马匹走到沟边前蹄一收，说什么也不肯再迈",
+  "scene": "缰绳拉了三次，马打了个响鼻停在栅栏前。The horse balked at the narrow bridge.",
+  "sceneCN": "这里 balk 指「（马等）突然止步不前」（第 1 个义项：拒绝继续）；句意：那匹马在窄桥前停住不肯走。",
+  "pos": [
+    {
+      "tag": "vi.",
+      "zh": "畏缩不前；拒绝继续"
+    },
+    {
+      "tag": "vt.",
+      "zh": "阻止；使受挫；（棒球）做牵制犯规"
+    },
+    {
+      "tag": "n.",
+      "zh": "障碍；失误；（木材）大方料"
+    }
+  ],
+  "collocations": [
+    {
+      "phrase": "balk at",
+      "zh": "对……退缩；拒绝"
+    },
+    {
+      "phrase": "balk a plan",
+      "zh": "阻挠计划"
+    },
+    {
+      "phrase": "commit a balk",
+      "zh": "（棒球）犯规"
+    },
+    {
+      "phrase": "refuse to balk",
+      "zh": "不肯退缩"
+    },
+    {
+      "phrase": "a balk of timber",
+      "zh": "一根大方木"
+    }
+  ],
+  "forms": [
+    {
+      "label": "三单",
+      "form": "balks"
+    },
+    {
+      "label": "过去式",
+      "form": "balked"
+    },
+    {
+      "label": "过去分词",
+      "form": "balked"
+    },
+    {
+      "label": "现在分词",
+      "form": "balking"
+    },
+    {
+      "label": "英式变体",
+      "form": "bauk"
+    }
+  ],
+  "derivatives": [
+    {
+      "word": "balking",
+      "pos": "adj.",
+      "zh": "畏缩不前的（balk + -ing）"
+    },
+    {
+      "word": "balky",
+      "pos": "adj.",
+      "zh": "倔强止步的；不听使唤的（balk + -y）"
+    },
+    {
+      "word": "balker",
+      "pos": "n.",
+      "zh": "止步者；妨碍者（balk + -er）"
+    }
+  ],
+  "senses": [
+    {
+      "no": "01",
+      "title": "Of animals, to stop and refuse",
+      "titleCN": "（牲口）止步不前",
+      "definition": "of a horse or mule, to stop abruptly and refuse to go on",
+      "definitionCN": "指马、骡等突然停步、拒绝前进",
+      "example": "The mule balked a mile from the mine.",
+      "exampleCN": "离矿一英里处，骡子说什么也不走了。",
+      "why": "The ridge of unplowed earth stopped the plow and the team alike.",
+      "whyCN": "田垄间未犁的土埂既挡犁，也挡牲口。"
+    },
+    {
+      "no": "02",
+      "title": "Of people, to hesitate or refuse",
+      "titleCN": "（人）畏缩；拒绝",
+      "definition": "to recoil from or refuse to accept something proposed",
+      "definitionCN": "对所提之事退缩、不愿接受",
+      "example": "The board balked at the price.",
+      "exampleCN": "董事会嫌价格太高，不肯点头。",
+      "why": "Human stubbornness borrowed the mule's motion.",
+      "whyCN": "人的固执借用了骡子那一停。"
+    },
+    {
+      "no": "03",
+      "title": "To thwart or get in the way",
+      "titleCN": "阻止；使受挫",
+      "definition": "to block or frustrate someone's plan or progress",
+      "definitionCN": "阻挠某人的计划或进展",
+      "example": "Rain balked the harvest for a week.",
+      "exampleCN": "阴雨使收割耽搁了一周。",
+      "why": "What stops the animal stops the plan; the obstacle verb followed.",
+      "whyCN": "能让牲口停步者亦能令计划搁浅，障碍动词随之而生。"
+    },
+    {
+      "no": "04",
+      "title": "The unplowed ridge, the original noun",
+      "titleCN": "（本义）田埂；土垄",
+      "definition": "a ridge of land left unplowed between furrows",
+      "definitionCN": "犁沟之间留下的未耕土埂",
+      "example": "The field still showed its old balks under the grass.",
+      "exampleCN": "草皮之下仍可见旧日田埂。",
+      "why": "This is the word's first sense, the ridge that stops the plow.",
+      "whyCN": "这是词的本义：挡住犁头的土埂。"
+    },
+    {
+      "no": "05",
+      "title": "A baseball illegal motion",
+      "titleCN": "（棒球）牵制犯规",
+      "definition": "an illegal pitcher's motion that lets runners advance",
+      "definitionCN": "投手违规动作，跑者可乘机进垒",
+      "example": "The umpire called a balk and the runner took second.",
+      "exampleCN": "裁判判牵制犯规，跑者上二垒。",
+      "why": "American baseball froze the hindering sense into a rule.",
+      "whyCN": "美式棒球把「妨碍」义冻结成了一条规则。"
+    },
+    {
+      "no": "06",
+      "title": "A timber square",
+      "titleCN": "（木材）大方料",
+      "definition": "a thick beam or square-sawn length of wood",
+      "definitionCN": "厚木梁或方锯木料",
+      "example": "Oak balks framed the new barn.",
+      "exampleCN": "橡木大方料搭起新谷仓的骨架。",
+      "why": "A ridge and a beam share the same long, blocking shape.",
+      "whyCN": "田埂与木梁同属「横亘的长条」。"
+    },
+    {
+      "no": "07",
+      "title": "A check in games",
+      "titleCN": "（游戏）失误；顿挫",
+      "definition": "in billiards and older games, a missed stroke or a marking line",
+      "definitionCN": "台球及旧游戏中指失误一击或界线标记",
+      "example": "He left the red on the balk line.",
+      "exampleCN": "他把红球留在了开球线上。",
+      "why": "Games adopted the stopping line as a boundary.",
+      "whyCN": "游戏把「停顿之线」借作界线。"
+    },
+    {
+      "no": "08",
+      "title": "Balky, the stubborn habit",
+      "titleCN": "（形容词）倔强的；不动窝的",
+      "definition": "in balky, given to stopping without cause",
+      "definitionCN": "形容词 balky，指动辄无故停步",
+      "example": "The balky printer jammed every Monday.",
+      "exampleCN": "那台倔打印机每逢周一必卡纸。",
+      "why": "The mule's temperament became a machine's too.",
+      "whyCN": "骡子的脾气，机器也学了去。"
+    }
+  ],
+  "etymology": {
+    "intro": {
+      "en": "Balk comes from Old English balca, a ridge or beam, from Proto-Germanic balkon, a dividing piece; the verb grew in the fourteenth century from the ridge that stops the plow, and baseball fixed the legal sense in the nineteenth century.",
+      "cn": "balk 出自古英语 balca「田埂、横梁」，源自原始日耳曼语 balkon「分隔物」；动词义于 14 世纪从「挡犁之埂」发展而来；棒球「牵制犯规」义则定型于 19 世纪的美国。"
+    },
+    "items": [
+      {
+        "era": "PROTO-GERMANIC",
+        "en": "The root balkon meant a dividing beam or ridge.",
+        "cn": "词根 balkon 意为分隔的梁木或田埂。"
+      },
+      {
+        "era": "OLD ENGLISH, BALCA",
+        "en": "balca named both the ridge in the field and the beam in the roof.",
+        "cn": "古英语 balca 兼指田间土埂与屋顶横梁。"
+      },
+      {
+        "era": "NORSE COUSINS",
+        "en": "Old Norse bálkr and modern Swedish balk keep the beam sense in Scandinavia.",
+        "cn": "古诺斯语 bálkr 与瑞典语 balk 在北欧保留梁木义。"
+      },
+      {
+        "era": "MIDDLE ENGLISH, VERB, 14TH C.",
+        "en": "To balk arose from the stopping-ridge: to check the plow, then any plan.",
+        "cn": "动词 balk 从「停顿之埂」产生：先挡犁，后挡一切计划。"
+      },
+      {
+        "era": "ENGLISH, EMIGRANTS",
+        "en": "Settlers carried balk to America, where a sawmill is still a balk mill.",
+        "cn": "移民把 balk 带到美洲，锯木厂至今称大方料为 balk。"
+      },
+      {
+        "era": "AMERICAN BASEBALL, 19TH C.",
+        "en": "The rulebook sense, the pitcher's balk, entered official baseball in the nineteenth century.",
+        "cn": "19 世纪棒球规则正式写入投手牵制犯规（balk）。"
+      }
+    ]
+  },
+  "similar": {
+    "note": {
+      "en": "Group one gathers the beam family and sound-alikes; group two gathers refusal and hindrance words.",
+      "cn": "第一组收梁木词族与音近词；第二组收拒绝与阻碍义场的词。"
+    },
+    "groups": [
+      {
+        "heading": "LOOK-ALIKE",
+        "entries": [
+          {
+            "word": "bulk",
+            "ipa": "/bʌlk/",
+            "tag": "look-alike, different vowel",
+            "definition": "mass or size; shares the Old English family but a different vowel and sense.",
+            "definitionCN": "体积、大量；同出古英语词族，元音与词义不同。"
+          },
+          {
+            "word": "balcony",
+            "ipa": "/ˈbælkəni/",
+            "tag": "look-alike",
+            "definition": "a platform outside a window; from Italian balcone, not the ridge.",
+            "definitionCN": "阳台；出自意大利语 balcone，与田埂词根无关。"
+          },
+          {
+            "word": "balk line",
+            "ipa": "/ˈbɔːk laɪn/",
+            "tag": "same root, billiards",
+            "definition": "the boundary line on a billiard table.",
+            "definitionCN": "台球桌上的界线。"
+          }
+        ]
+      },
+      {
+        "heading": "NEAR MEANING",
+        "entries": [
+          {
+            "word": "demur",
+            "ipa": "/dɪˈmɜː/",
+            "tag": "near meaning",
+            "definition": "to raise polite objection; the formal cousin.",
+            "definitionCN": "婉言异议；正式语域的同族。"
+          },
+          {
+            "word": "hesitate",
+            "ipa": "/ˈhezɪteɪt/",
+            "tag": "near meaning",
+            "definition": "to pause from doubt.",
+            "definitionCN": "因犹豫而停顿。"
+          },
+          {
+            "word": "thwart",
+            "ipa": "/θwɔːt/",
+            "tag": "near meaning",
+            "definition": "to defeat a plan by active opposition.",
+            "definitionCN": "以对抗挫败计划。"
+          },
+          {
+            "word": "stall",
+            "ipa": "/stɔːl/",
+            "tag": "near meaning",
+            "definition": "to delay or (of an engine) stop from lack of power.",
+            "definitionCN": "拖延；（发动机）熄火停转。"
+          },
+          {
+            "word": "proceed",
+            "ipa": "/prəˈsiːd/",
+            "tag": "opposite",
+            "definition": "to go forward; the direct antonym of balk at.",
+            "definitionCN": "继续前进；balk at 的直接反义。"
+          }
+        ]
+      }
+    ]
+  },
+  "mnemonics": {
+    "normalIntro": {
+      "en": "Picture a balk in the field: the ridge no plow and no mule will cross.",
+      "cn": "想象田里的 balk：犁不肯过，骡也不肯过的那条埂。"
+    },
+    "normal": [
+      {
+        "en": "balk at is the fixed pattern: balk at the price.",
+        "cn": "固定搭配 balk at：如 balk at the price。"
+      },
+      {
+        "en": "Original sense: the unplowed ridge that stopped the plow.",
+        "cn": "本义：挡住犁头的未耕土埂。"
+      },
+      {
+        "en": "Baseball keeps the noun: a balk advances the runner.",
+        "cn": "棒球保留名词：balk 判罚后跑者进垒。"
+      },
+      {
+        "en": "A balk of timber is the carpenter's square beam.",
+        "cn": "a balk of timber 指木匠的大方料。"
+      },
+      {
+        "en": "Balky, the adjective, describes mules and printers alike.",
+        "cn": "形容词 balky 可形容骡子，也可形容打印机。"
+      }
+    ],
+    "abstract": [
+      {
+        "en": "Feel the harness go slack as the animal plants its feet.",
+        "cn": "感觉牲口四蹄扎地，缰绳一下子松了。"
+      },
+      {
+        "en": "Balk is the body's veto, cast without a word.",
+        "cn": "balk 是身体无言投出的否决票。"
+      },
+      {
+        "en": "See the furrow stop where the earth rises.",
+        "cn": "看犁沟在土埂前止步。"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "en": "Investors balked when the founder priced the round too high.",
+      "cn": "创始人要价过高，投资者打了退堂鼓。"
+    },
+    {
+      "en": "Guards balked the prisoner's escape at the wall.",
+      "cn": "狱警在高墙下粉碎了囚犯的越狱企图。"
+    },
+    {
+      "en": "The pitcher was called for a balk, gifting the tying run.",
+      "cn": "投手被判牵制犯规，白白送出追平分。"
+    }
+  ],
+  "dict_mnemonic": {
+    "note": "谐音记忆 · 非词源",
+    "text": "「剥壳」——让他剥壳他就罢工，说什么也不肯继续",
+    "word": "balk"
+  },
+  "root": "出自古英语 balca「田埂、横梁」，源自原始日耳曼语 balkon「分隔物」，与古诺斯语 bálkr、瑞典语 balk 同源；本义为田间挡犁的土埂，14 世纪引申出动词「（牲口）止步」「（人）畏缩」「阻挠」；19 世纪美式棒球将名词义定为「牵制犯规」；方木义与田埂义同源并峙。",
+  "sensesIntro": {
+    "en": "Eight senses grow from one ridge: the animal that stops, the person who refuses, the plan that is blocked, the beam, the billiard line, the baseball rule, and the adjective for all things stubborn.",
+    "cn": "八义项皆自一条土埂生长：止步的牲口、拒绝的人、受阻的计划、横梁、台球界线、棒球规则，以及形容一切倔强的形容词。"
+  },
+  "semanticMap": {
+    "core": {
+      "en": "CORE IMAGE: a long ridge of earth that nothing on four legs or four wheels will cross.",
+      "cn": "核心意象：一道土埂横亘，四条腿与四个轮子都不肯越过。"
+    },
+    "chain": [
+      "THE RIDGE",
+      "THE PLOW THAT STOPS",
+      "THE MULE THAT STOPS",
+      "THE PERSON WHO REFUSES",
+      "THE PLAN THAT FAILS",
+      "THE RULE THAT PUNISHES"
+    ],
+    "branches": [
+      {
+        "senses": "01 · 02",
+        "en": "THE REFUSAL SIDE: animal and human stopping short.",
+        "cn": "拒绝一面：牲口与人的骤停。"
+      },
+      {
+        "senses": "03",
+        "en": "THE HINDRANCE SIDE: plans balked by weather or men.",
+        "cn": "妨碍一面：被天或人搅黄的计划。"
+      },
+      {
+        "senses": "04 · 06",
+        "en": "THE TIMBER SIDE: ridge and beam, one shape twice named.",
+        "cn": "木石一面：田埂与横梁，一形两名。"
+      },
+      {
+        "senses": "05 · 07",
+        "en": "THE GAMES SIDE: the baseball rule and the billiard line.",
+        "cn": "游戏一面：棒球规则与台球界线。"
+      },
+      {
+        "senses": "08",
+        "en": "THE TEMPER SIDE: balky machines and mules.",
+        "cn": "脾性一面：倔强的机器与骡子。"
+      }
+    ]
+  },
+  "affixes": {
+    "intro": {
+      "en": "Balk is a bare Germanic root; its family wears only plain English endings.",
+      "cn": "balk 是裸的日耳曼词根，其词族只穿平实的英语词尾。"
+    },
+    "latinIntro": {
+      "en": "No Latin enters: the line runs straight from Proto-Germanic balkon through Old English balca.",
+      "cn": "无拉丁成分：词线从原始日耳曼语 balkon 直贯古英语 balca。"
+    },
+    "items": [
+      {
+        "word": "balkon",
+        "structure": "Proto-Germanic noun",
+        "meaning": "dividing ridge, beam",
+        "meaningCN": "分隔之埂；梁",
+        "example": "balkon as reconstructed root",
+        "exampleCN": "重构词根 balkon"
+      },
+      {
+        "word": "balca",
+        "structure": "Old English noun",
+        "meaning": "ridge, beam",
+        "meaningCN": "田埂；横梁",
+        "example": "balca in charters",
+        "exampleCN": "古文书中的 balca"
+      },
+      {
+        "word": "bulk",
+        "structure": "Old Norse related noun",
+        "meaning": "cargo, mass",
+        "meaningCN": "货物；体积",
+        "example": "in bulk",
+        "exampleCN": "散装"
+      },
+      {
+        "word": "balky",
+        "structure": "balk + -y",
+        "meaning": "stubbornly stopping",
+        "meaningCN": "倔强止步的",
+        "example": "a balky engine",
+        "exampleCN": "动不动就熄火的发动机"
+      },
+      {
+        "word": "balking",
+        "structure": "balk + -ing",
+        "meaning": "refusing to proceed",
+        "meaningCN": "畏缩不前的",
+        "example": "balking donors",
+        "exampleCN": "迟疑的捐助人"
+      },
+      {
+        "word": "balk line",
+        "structure": "compound",
+        "meaning": "billiard boundary",
+        "meaningCN": "台球界线",
+        "example": "behind the balk line",
+        "exampleCN": "界线之后"
+      },
+      {
+        "word": "demur",
+        "structure": "Latin demorari via French",
+        "meaning": "to object",
+        "meaningCN": "异议",
+        "example": "demur at the suggestion",
+        "exampleCN": "对建议持异议"
+      },
+      {
+        "word": "beam",
+        "structure": "Old English beam",
+        "meaning": "tree, long piece of timber",
+        "meaningCN": "梁；光束",
+        "example": "a roof beam",
+        "exampleCN": "房梁"
+      }
+    ],
+    "latinEntries": []
+  }
+}

@@ -1,0 +1,298 @@
+{
+  "word": "avalanche",
+  "ipa_uk": "/ˈævəlɑːnʃ/",
+  "ipa_us": "/ˈævəlæntʃ/",
+  "definition_zh": "雪崩；山崩；大量涌现之物；纷至沓来",
+  "definition_en": "a mass of snow, ice, or rock sliding swiftly down a mountainside; also, an overwhelming quantity of things arriving at once",
+  "core_image": "山坡上的积雪突然整体松脱，轰然压向谷底",
+  "scene": "向导忽然吹响哨子，整面山坡的积雪开始滑动。An avalanche buried the trail behind the climbers.",
+  "sceneCN": "这里 avalanche 指「雪崩」（第 1 个义项：积雪滑落）；句意：雪崩掩埋了登山者身后的路径。",
+  "pos": [
+    { "tag": "n.", "zh": "雪崩；崩塌；大量涌来之物" },
+    { "tag": "v.", "zh": "雪崩般涌下；压倒性地到来" }
+  ],
+  "collocations": [
+    { "phrase": "trigger an avalanche", "zh": "引发雪崩" },
+    { "phrase": "an avalanche of letters", "zh": "雪片般涌来的信件" },
+    { "phrase": "avalanche warning", "zh": "雪崩警报" },
+    { "phrase": "be buried by an avalanche", "zh": "被雪崩掩埋" },
+    { "phrase": "an avalanche of criticism", "zh": "排山倒海的批评" }
+  ],
+  "forms": [
+    { "label": "复数", "form": "avalanches" },
+    { "label": "三单", "form": "avalanches" },
+    { "label": "过去式", "form": "avalanched" },
+    { "label": "过去分词", "form": "avalanched" },
+    { "label": "现在分词", "form": "avalanching" }
+  ],
+  "derivatives": [
+    { "word": "avalanched", "pos": "adj.", "zh": "被雪崩覆盖的（avalanche + -ed）" },
+    { "word": "slab avalanche", "pos": "n.", "zh": "板状雪崩（复合术语，最危险的类型）" },
+    { "word": "landslide", "pos": "n.", "zh": "山体滑坡（近义构造，另一词根）" }
+  ],
+  "senses": [
+    {
+      "no": "01",
+      "title": "A mass of snow sliding down a mountain",
+      "titleCN": "雪崩",
+      "definition": "a large mass of snow and ice that slides swiftly down a mountainside",
+      "definitionCN": "大量积雪沿山坡急速滑落的灾害",
+      "example": "The avalanche cut off the only road into the valley.",
+      "exampleCN": "雪崩切断了进谷的唯一道路。",
+      "why": "The core image is a slope letting go: once the snow starts moving, nothing can hold it.",
+      "whyCN": "核心意象是山坡松手：积雪一旦开始滑动，什么都拦不住。"
+    },
+    {
+      "no": "02",
+      "title": "A fall of rock or earth",
+      "titleCN": "山崩；岩崩",
+      "definition": "a similar slide of rock, soil, or debris down a slope",
+      "definitionCN": "岩石、泥土或碎屑沿坡面发生的类似滑落",
+      "example": "A rock avalanche blocked the river and formed a lake.",
+      "exampleCN": "岩崩堵塞河道，形成了一片湖泊。",
+      "why": "Any loose mass on a slope shares the snowslide's logic, so the word extended.",
+      "whyCN": "坡上任何松散物都具有雪崩式的滑动逻辑，词义随之扩展。"
+    },
+    {
+      "no": "03",
+      "title": "An overwhelming quantity arriving at once",
+      "titleCN": "大量涌现之物；纷至沓来",
+      "definition": "an overwhelmingly large amount of something arriving together",
+      "definitionCN": "同时涌来的压倒性数量的事物",
+      "example": "The show received an avalanche of fan mail.",
+      "exampleCN": "节目组收到雪片般的观众来信。",
+      "why": "The mass-on-the-move image fits anything that arrives all at once and cannot be stopped.",
+      "whyCN": "「整体滑动、无法阻挡」的意象正好形容同时涌来、无从招架的大量事物。"
+    },
+    {
+      "no": "04",
+      "title": "A sudden breakdown of a system",
+      "titleCN": "（系统）连锁崩塌",
+      "definition": "a rapid chain reaction in which one failure triggers many others",
+      "definitionCN": "一处失灵引发接连崩溃的连锁反应",
+      "example": "A small outage caused an avalanche of server failures.",
+      "exampleCN": "一次小故障引发了服务器接连崩溃。",
+      "why": "Physics borrows the slope image: one slipping grain sets the whole pile moving.",
+      "whyCN": "物理学借用坡面意象：一粒沙滑动，整个沙堆随之而动。"
+    },
+    {
+      "no": "05",
+      "title": "To descend like an avalanche",
+      "titleCN": "雪崩般涌下",
+      "definition": "to move down or forward in a sudden, irresistible mass",
+      "definitionCN": "如雪崩般以不可阻挡的整体之势涌下",
+      "example": "Runners avalanched down the final hill of the race.",
+      "exampleCN": "选手们在赛道最后一坡一拥而下。",
+      "why": "The noun turned verb keeps the single picture: the whole mass moving at once.",
+      "whyCN": "名词转动词保留了同一画面：整体同时移动。"
+    },
+    {
+      "no": "06",
+      "title": "To overwhelm completely",
+      "titleCN": "压倒；使应接不暇",
+      "definition": "to overwhelm someone with far more than can be handled",
+      "definitionCN": "以远超承受能力的事物将人压倒",
+      "example": "The interns were avalanched with paperwork on day one.",
+      "exampleCN": "实习生们第一天就被文书工作淹没。",
+      "why": "Being under an avalanche means being buried; the verb keeps the burial.",
+      "whyCN": "身处雪崩即被掩埋，动词保留了这个「被埋」义。"
+    },
+    {
+      "no": "07",
+      "title": "In electronics, a self-sustaining cascade",
+      "titleCN": "（电子学）雪崩击穿",
+      "definition": "of current or particles, a multiplying cascade, as in avalanche breakdown",
+      "definitionCN": "指电流或粒子自我倍增的级联，如雪崩击穿",
+      "example": "Avalanche diodes exploit a controlled electron cascade.",
+      "exampleCN": "雪崩二极管利用受控的电子级联。",
+      "why": "One carrier frees two, two free four: growth that mimics the snowslide.",
+      "whyCN": "一个载流子撞出两个、两个撞出四个：增长方式与雪崩如出一辙。"
+    },
+    {
+      "no": "08",
+      "title": "In sports, a sudden cascade of scoring",
+      "titleCN": "（体育）接连得分；溃败",
+      "definition": "a rapid run of goals or points against one side",
+      "definitionCN": "一方接连失分或对方连续得分的局面",
+      "example": "Three goals in ten minutes started an avalanche.",
+      "exampleCN": "十分钟内连进三球，攻势如雪崩般展开。",
+      "why": "Once the first goal falls, more seem to follow by the same slope logic.",
+      "whyCN": "第一球失守后，失球便如顺坡而下般接连发生。"
+    }
+  ],
+  "etymology": {
+    "intro": {
+      "en": "Avalanche comes from French avalanche, from a Savoyard patois word for a snowslide, probably built on the verb avaler, to descend, from Latin ad plus vallum, valley; the deeper prehistory is uncertain.",
+      "cn": "avalanche 出自法语 avalanche，源于萨瓦地区方言中「雪滑」一词，一般认为由动词 avaler「落下」构成，后者出自拉丁语 ad（向）+ vallum（谷）；更早来源不确定。"
+    },
+    "items": [
+      {
+        "era": "LATIN",
+        "en": "Late Latin had a term for descent or landslide, traditionally linked to ad, toward, plus vallum, valley.",
+        "cn": "晚期拉丁语已有指下落或滑坡的词，传统上联系 ad「向」+ vallum「谷」。"
+      },
+      {
+        "era": "ALPINE PATOIS",
+        "en": "Savoyard shepherds used lavanche or avalantze for a snow that slides.",
+        "cn": "萨瓦牧人用 lavanche、avalantze 一类词指会滑动的雪。"
+      },
+      {
+        "era": "FRENCH, 17TH–18TH C.",
+        "en": "Standard French fixed the form avalanche for the Alpine snowslide.",
+        "cn": "标准法语在 17 至 18 世纪固定为 avalanche，指阿尔卑斯雪崩。"
+      },
+      {
+        "era": "ENGLISH, 1760S–1770S",
+        "en": "English travelers in the Alps borrowed the word; Horace Walpole helped popularize it.",
+        "cn": "游历阿尔卑斯的英国人借入该词，沃波尔等人使其流行。"
+      },
+      {
+        "era": "ENGLISH, 19TH C.",
+        "en": "The figurative sense, an overwhelming flood of things, spread in the nineteenth century.",
+        "cn": "19 世纪，「大量涌来」的比喻义广泛传播。"
+      },
+      {
+        "era": "MODERN ENGLISH",
+        "en": "Physics and electronics adopted the word for multiplying cascades.",
+        "cn": "物理学与电子学借该词命名自我倍增的级联现象。"
+      }
+    ]
+  },
+  "similar": {
+    "note": {
+      "en": "Group one gathers look-alikes and borrowed French relatives; group two gathers other words for slides and floods.",
+      "cn": "第一组收形近词及法语借词近亲；第二组收其他滑坡、倾泻类词。"
+    },
+    "groups": [
+      {
+        "heading": "LOOK-ALIKE",
+        "entries": [
+          {
+            "word": "aval",
+            "ipa": "/ˈeɪvəl/",
+            "tag": "look-alike, different root",
+            "definition": "relating to bonds that pay yearly interest; shares only the opening letters.",
+            "definitionCN": "按年付息的（债券）；仅开头字母与 avalanche 相同，词源无关。"
+          },
+          {
+            "word": "lavage",
+            "ipa": "/ləˈvɑːʒ/",
+            "tag": "look-alike, different root",
+            "definition": "washing out of a body cavity; ends in a similar -age sound but has no Alpine past.",
+            "definitionCN": "灌洗术；词尾读音相近，但与雪山毫无渊源，词源不同。"
+          },
+          {
+            "word": "avaler",
+            "ipa": "/avale/",
+            "tag": "same root",
+            "definition": "the French verb to swallow or let down, inside the word's probable history.",
+            "definitionCN": "法语动词「吞下、放下」，一般认为藏在本词的构成史中。"
+          }
+        ]
+      },
+      {
+        "heading": "NEAR MEANING",
+        "entries": [
+          {
+            "word": "landslide",
+            "ipa": "/ˈlændslaɪd/",
+            "tag": "near meaning",
+            "definition": "a slide of earth or rock; also a sweeping electoral victory.",
+            "definitionCN": "山体滑坡；也指压倒性的选举胜利。"
+          },
+          {
+            "word": "torrent",
+            "ipa": "/ˈtɒrənt/",
+            "tag": "near meaning",
+            "definition": "a violent stream, literal or of words.",
+            "definitionCN": "急流；也指倾泻般的话语。"
+          },
+          {
+            "word": "deluge",
+            "ipa": "/ˈdeljuːdʒ/",
+            "tag": "near meaning",
+            "definition": "a great flood; an overwhelming amount arriving together.",
+            "definitionCN": "大洪水；同时涌来的大量事物。"
+          },
+          {
+            "word": "cascade",
+            "ipa": "/kæˈskeɪd/",
+            "tag": "near meaning",
+            "definition": "a small waterfall; a sequence in which each step triggers the next.",
+            "definitionCN": "小瀑布；层层引发的连锁序列。"
+          }
+        ]
+      }
+    ]
+  },
+  "mnemonics": {
+    "normalIntro": {
+      "en": "Read avalanche as a-val-anch: a mass anchoring loose, then sliding down the valley.",
+      "cn": "把 avalanche 拆成 a-val-anch 记：松脱的雪团顺谷而下。"
+    },
+    "normal": [
+      { "en": "val inside the word echoes Latin vallum, valley: snow runs down into the valley.", "cn": "词中 val 呼应拉丁语 vallum「谷」：雪往谷底滑。" },
+      { "en": "French avaler means to swallow: the mountain swallows the village.", "cn": "法语 avaler 意为吞下：大山吞掉村庄。" },
+      { "en": "an avalanche of is the fixed figurative pattern.", "cn": "an avalanche of 是固定比喻搭配：大量的。" },
+      { "en": "trigger and avalanche often go together in news English.", "cn": "新闻英语中 trigger 与 avalanche 常连用：引发雪崩。" },
+      { "en": "Plural spelling: avalanche ends -che, so the s stays audible.", "cn": "复数拼写：词尾 -che，加 s 后仍发 /ʃ/ 音。" }
+    ],
+    "abstract": [
+      { "en": "Hear one crack, then the whole slope answering.", "cn": "先听一声脆响，接着整面山坡回应。" },
+      { "en": "Picture your inbox buried to the ceiling.", "cn": "想象你的收件箱被信件埋到天花板。" },
+      { "en": "Avalanche is gravity losing patience in one piece.", "cn": "雪崩是重力在一瞬间整体失去耐心。" }
+    ]
+  },
+  "examples": [
+    { "en": "Rescue teams probed the snow for hours after the avalanche.", "cn": "雪崩后救援队在雪中探测了数小时。" },
+    { "en": "The report triggered an avalanche of complaints from readers.", "cn": "报道引发读者铺天盖地的投诉。" },
+    { "en": "Skiers carry beacons in case they are avalanched off the piste.", "cn": "滑雪者携带信标，以防在雪道外遭遇雪崩。" }
+  ],
+  "dict_mnemonic": {
+    "note": "谐音记忆 · 非词源",
+    "text": "「阿瓦，愣失」——阿瓦还愣着，雪已失滑而下，轰隆隆追了上来",
+    "word": "avalanche"
+  },
+  "root": "出自法语 avalanche，源于萨瓦方言指雪滑的词；一般认为由晚期拉丁语指下落的词构成，常见分析为 ad（向）+ vallum（谷），即「向谷中落下」；更早来源不确定。18 世纪经阿尔卑斯旅行文学进入英语，词形与法语一致。",
+  "sensesIntro": {
+    "en": "Eight senses run from the literal snowslide outward: rockfalls, floods of mail, chain-reaction failures, and the verb meanings built on the same mass-in-motion picture.",
+    "cn": "八个义项从字面的雪崩向外延展：岩崩、信件洪流、连锁崩塌，以及由「整体运动」画面派生的动词义。"
+  },
+  "semanticMap": {
+    "core": {
+      "en": "CORE IMAGE: a whole slope of snow letting go at once, moving as one mass.",
+      "cn": "核心意象：整面山坡的积雪同时松脱，作为一个整体移动。"
+    },
+    "chain": ["THE SLOPE LETS GO", "THE MASS DESCENDS", "THE BURIAL", "THE FLOOD OF THINGS", "THE CHAIN REACTION", "THE IRRESISTIBLE WAVE"],
+    "branches": [
+      { "senses": "01 · 02", "en": "THE PHYSICAL SIDE: snowslides and rockslides on real slopes.", "cn": "自然一面：真实坡面上的雪崩与岩崩。" },
+      { "senses": "03", "en": "THE QUANTITY SIDE: mail, applications, praise arriving as one mass.", "cn": "数量一面：信件、申请、赞誉一齐涌到。" },
+      { "senses": "04 · 07", "en": "THE SYSTEM SIDE: failures and particles multiplying down the chain.", "cn": "系统一面：故障与粒子沿链条倍增。" },
+      { "senses": "05 · 06", "en": "THE VERB SIDE: to move or bury with that same mass force.", "cn": "动词一面：以同样的整体之力涌动或掩埋。" },
+      { "senses": "08", "en": "THE SPORTS SIDE: goals falling faster than a defense can hold.", "cn": "体育一面：失球快过防线所能承受。" }
+    ]
+  },
+  "affixes": {
+    "intro": {
+      "en": "Avalanche is a folk-split word: speakers long read it as a French verb phrase a valer, to descend, so no clean prefix plus root division survives.",
+      "cn": "avalanche 常被民间拆解为法语动词短语 a valer「落下」，因此没有干净的前缀加词根分界。"
+    },
+    "latinIntro": {
+      "en": "The Latin trace is the pair ad, toward, and vallum, valley, behind the later French verb avaler.",
+      "cn": "拉丁痕迹在于 ad（向）与 vallum（谷）这对成分，后融入法语动词 avaler。"
+    },
+    "items": [
+      { "word": "avaler", "structure": "French verb", "meaning": "to swallow, to let down", "meaningCN": "吞下；放下", "example": "avaler sa salive", "exampleCN": "咽下口水" },
+      { "word": "ad-", "structure": "Latin prefix", "meaning": "toward", "meaningCN": "朝向", "example": "advance, adhere", "exampleCN": "前进、附着" },
+      { "word": "vallum", "structure": "Latin noun", "meaning": "rampart, valley", "meaningCN": "壁垒；谷", "example": "vallum in Roman camp terms", "exampleCN": "罗马营地的壕垒" },
+      { "word": "valley", "structure": "Old French valee", "meaning": "low land between hills", "meaningCN": "山谷", "example": "a green valley", "exampleCN": "青翠的山谷" },
+      { "word": "lavage", "structure": "French lav + -age", "meaning": "washing", "meaningCN": "灌洗；清洗", "example": "gastric lavage", "exampleCN": "洗胃" },
+      { "word": "-anche ending", "structure": "Alpine patois ending", "meaning": "marker of the dialect word lavanche", "meaningCN": "萨瓦方言词尾", "example": "lavanche in Savoy patois", "exampleCN": "萨瓦方言中的 lavanche" },
+      { "word": "avalanched", "structure": "avalanche + -ed", "meaning": "struck by an avalanche", "meaningCN": "遭雪崩袭击的", "example": "the avalanched slope", "exampleCN": "发生过雪崩的坡面" },
+      { "word": "avalanching", "structure": "avalanche + -ing", "meaning": "sliding as an avalanche", "meaningCN": "如雪崩般滑落", "example": "avalanching snow", "exampleCN": "正在滑塌的积雪" }
+    ],
+    "latinEntries": [
+      { "word": "vallum", "structure": "Latin noun", "meaning": "rampart; valley (in the folk analysis)", "meaningCN": "壁垒；谷（民间解析中）" }
+    ]
+  }
+}

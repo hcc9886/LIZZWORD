@@ -1,0 +1,300 @@
+{
+  "word": "baleful",
+  "ipa_uk": "/ˈbeɪlfl/",
+  "ipa_us": "/ˈbeɪlfl/",
+  "definition_zh": "有害的；凶恶的；不祥的",
+  "definition_en": "threatening harm or evil; sinister in effect or appearance",
+  "core_image": "巫婆炉火边抬起的阴冷目光",
+  "scene": "炉火忽暗，墙上的影子拉长了脖颈。He gave the intruder a baleful stare.",
+  "sceneCN": "这里 baleful 指「凶恶的、不祥的」（第 1 个义项：带有威胁与恶意）；句意：他向闯入者投去阴狠的一瞥。",
+  "pos": [
+    { "tag": "adj.", "zh": "有害的；凶恶的；不祥的" }
+  ],
+  "collocations": [
+    { "phrase": "a baleful stare", "zh": "凶狠的凝视" },
+    { "phrase": "a baleful influence", "zh": "有害的影响" },
+    { "phrase": "baleful eyes", "zh": "不祥的眼睛" },
+    { "phrase": "a baleful look", "zh": "阴沉的神色" },
+    { "phrase": "baleful consequences", "zh": "恶果" }
+  ],
+  "forms": [
+    { "label": "形容词（基本式）", "form": "baleful" },
+    { "label": "比较级", "form": "more baleful" },
+    { "label": "最高级", "form": "most baleful" }
+  ],
+  "derivatives": [
+    { "word": "balefully", "pos": "adv.", "zh": "不祥地；凶恶地（baleful + -ly）" },
+    { "word": "balefulness", "pos": "n.", "zh": "凶恶；危害（baleful + -ness）" },
+    { "word": "bale", "pos": "n.", "zh": "（废义）灾祸；悲恸（baleful 的词根名词）" }
+  ],
+  "senses": [
+    {
+      "no": "01",
+      "title": "Sinister in expression",
+      "titleCN": "（神情）凶恶的；不祥的",
+      "definition": "of a look or manner, menacing and full of malice",
+      "definitionCN": "形容目光或神态充满威胁与恶意",
+      "example": "The cat fixed a baleful eye on the puppy.",
+      "exampleCN": "猫恶狠狠地盯着那只小狗。",
+      "why": "The old noun bale meant sorrow and harm; the face that promises them is baleful.",
+      "whyCN": "古名词 bale 意为灾殃与伤害，预示二者之脸即 baleful。"
+    },
+    {
+      "no": "02",
+      "title": "Harmful in influence",
+      "titleCN": "（影响）有害的",
+      "definition": "of forces, policies, or powers, working injury or ruin",
+      "definitionCN": "指势力、政策或权力造成伤害与毁灭",
+      "example": "Corruption proved a baleful influence on the port.",
+      "exampleCN": "腐败对港口造成了恶劣影响。",
+      "why": "Old poetry paired bale with fire and ruin; the adjective kept the scope.",
+      "whyCN": "古诗以 bale 配火与毁灭，形容词保留了这一广度。"
+    },
+    {
+      "no": "03",
+      "title": "Deadly or destructive in effect",
+      "titleCN": "致命的；毁灭性的",
+      "definition": "bringing death or destruction, in elevated or poetic use",
+      "definitionCN": "书面或诗歌用法，指带来死亡或毁灭",
+      "example": "The plague's baleful progress emptied the city.",
+      "exampleCN": "瘟疫肆虐，城市为之一空。",
+      "why": "The Germanic root meant destruction before it meant sadness.",
+      "whyCN": "日耳曼词根先表毁灭，后才转为悲恸。"
+    },
+    {
+      "no": "04",
+      "title": "Ominous, boding ill",
+      "titleCN": "凶兆的；不吉的",
+      "definition": "of signs or events, foretelling disaster",
+      "definitionCN": "指征兆或事件预示灾祸",
+      "example": "A baleful moon rose over the burned ridge.",
+      "exampleCN": "焦黑的山脊上升起一轮不祥的月。",
+      "why": "What threatens harm also announces it.",
+      "whyCN": "威胁伤害之物，亦即宣告伤害之物。"
+    },
+    {
+      "no": "05",
+      "title": "Sorrowful in the old poetry",
+      "titleCN": "（古诗）悲恸的",
+      "definition": "in archaic use, full of misery or grief",
+      "definitionCN": "古义中指充满悲惨与哀恸",
+      "example": "The widow's baleful cries filled the hall.",
+      "exampleCN": "寡妇的悲号响彻大厅。",
+      "why": "Bale and woe were twins in medieval verse.",
+      "whyCN": "中古诗歌里 bale 与 woe 是一对孪生词。"
+    },
+    {
+      "no": "06",
+      "title": "Of speech, poisoning with malice",
+      "titleCN": "（言语）恶毒的",
+      "definition": "of words or counsel, crafted to injure the hearer",
+      "definitionCN": "指言语或进言蓄意加害听者",
+      "example": "A baleful whisper turned the brothers against each other.",
+      "exampleCN": "一句恶毒的耳语让兄弟反目。",
+      "why": "Evil that travels by ear is still evil.",
+      "whyCN": "借耳朵行凶的恶，仍是恶。"
+    },
+    {
+      "no": "07",
+      "title": "Of institutions, corrosive over time",
+      "titleCN": "（制度）侵蚀性的",
+      "definition": "of systems or customs, slowly corrupting those inside them",
+      "definitionCN": "指制度或习俗日积月累地腐蚀其中之人",
+      "example": "Critics called the quota a baleful inheritance.",
+      "exampleCN": "批评者称那套配额是贻害已久的遗产。",
+      "why": "Slow harm borrows the language of active evil.",
+      "whyCN": "缓慢之害借用了主动之恶的语言。"
+    },
+    {
+      "no": "08",
+      "title": "In fantasy and fiction, dark magic",
+      "titleCN": "（奇幻文学）邪术的",
+      "definition": "a stock adjective for dark spells and cursed objects",
+      "definitionCN": "奇幻文学中形容黑暗法术与诅咒之物的惯用词",
+      "example": "The ring's baleful glow warned the hobbit away.",
+      "exampleCN": "魔戒凶光闪闪，警告霍比特人退后。",
+      "why": "Genre writing inherited the Gothic dictionary wholesale.",
+      "whyCN": "类型写作整体继承了哥特的词库。"
+    }
+  ],
+  "etymology": {
+    "intro": {
+      "en": "Baleful is the archaic noun bale, evil or sorrow, from Old English bealu, plus -ful; bealu goes back to a Germanic root for destruction, cognate with Old Norse bölvun, curse.",
+      "cn": "baleful 由古名词 bale（邪恶、悲恸）加 -ful 构成；bale 出自古英语 bealu，可追溯至日耳曼语表「毁灭」的词根，与古诺斯语 bölvun「诅咒」同源。"
+    },
+    "items": [
+      {
+        "era": "PROTO-GERMANIC",
+        "en": "The harm-root is reconstructed as balu-, destruction or wickedness.",
+        "cn": "「伤害」词根被重构为 balu-「毁灭、邪恶」。"
+      },
+      {
+        "era": "OLD ENGLISH, BEALU",
+        "en": "bealu was a strong poetic word for evil, torment, and destruction, common in Beowulf.",
+        "cn": "bealu 是表邪恶、苦难、毁灭的强诗歌词，常见于《贝奥武甫》。"
+      },
+      {
+        "era": "OLD NORSE COGNATE",
+        "en": "Old Norse bölvun, curse, and boli, mischief, keep the root alive next door.",
+        "cn": "古诺斯语 bölvun「诅咒」与 boli「祸害」在邻近语言中保存着词根。"
+      },
+      {
+        "era": "MIDDLE ENGLISH, BALE",
+        "en": "Middle English bale named sorrow and hell-fire in romance and sermon alike.",
+        "cn": "中古英语 bale 在传奇与布道中兼指悲恸与地狱之火。"
+      },
+      {
+        "era": "MIDDLE ENGLISH, BALEFUL",
+        "en": "The adjective baleful formed early, attested before 1400.",
+        "cn": "形容词 baleful 早已形成，1400 年前已见于记载。"
+      },
+      {
+        "era": "MODERN ENGLISH",
+        "en": "The noun bale of sorrow died out; baleful carries it alone, favoring stares and influences.",
+        "cn": "表悲恸的名词 bale 已消亡，唯 baleful 独承其义，多形容目光与影响。"
+      }
+    ]
+  },
+  "similar": {
+    "note": {
+      "en": "Group one gathers the sorrow-bale family and the homograph trap; group two gathers the sinister scale.",
+      "cn": "第一组收「灾殃 bale」词族与同形词陷阱；第二组收阴恶刻度上的词。"
+    },
+    "groups": [
+      {
+        "heading": "LOOK-ALIKE",
+        "entries": [
+          {
+            "word": "bale",
+            "ipa": "/beɪl/",
+            "tag": "homograph, different sense",
+            "definition": "the common noun for a bound bundle, unrelated in origin to the bale inside baleful.",
+            "definitionCN": "常用名词「货包」，与 baleful 中的 bale 词源无关。"
+          },
+          {
+            "word": "ballet",
+            "ipa": "/ˈbæleɪ/",
+            "tag": "look-alike, different root",
+            "definition": "the dance; similar letters, Italian origin, no harm in it.",
+            "definitionCN": "芭蕾；字母相近、源出意大利语，毫无凶恶之意。"
+          },
+          {
+            "word": "balefully",
+            "ipa": "/ˈbeɪlfəli/",
+            "tag": "derived form",
+            "definition": "in a baleful manner.",
+            "definitionCN": "不祥地；凶恶地。"
+          }
+        ]
+      },
+      {
+        "heading": "NEAR MEANING",
+        "entries": [
+          {
+            "word": "sinister",
+            "ipa": "/ˈsɪnɪstə/",
+            "tag": "near meaning",
+            "definition": "threatening evil, from the Latin left hand.",
+            "definitionCN": "阴险不祥的，源自拉丁语「左」。"
+          },
+          {
+            "word": "malevolent",
+            "ipa": "/məˈlevələnt/",
+            "tag": "near meaning",
+            "definition": "wishing harm to others.",
+            "definitionCN": "心存恶意的。"
+          },
+          {
+            "word": "baneful",
+            "ipa": "/ˈbeɪnfl/",
+            "tag": "near meaning",
+            "definition": "ruinous; a near-twin from a different Old English root (bana, slayer).",
+            "definitionCN": "致命的；近义孪生词，出自另一古英语词根 bana「杀戮者」。"
+          },
+          {
+            "word": "malign",
+            "ipa": "/məˈlaɪn/",
+            "tag": "near meaning",
+            "definition": "evil in influence or disposition.",
+            "definitionCN": "有害的；恶毒的。"
+          },
+          {
+            "word": "benignant",
+            "ipa": "/bɪˈnɪɡnənt/",
+            "tag": "opposite",
+            "definition": "kindly and gracious; the antonym pole.",
+            "definitionCN": "仁慈宽厚的；反义一极。"
+          }
+        ]
+      }
+    ]
+  },
+  "mnemonics": {
+    "normalIntro": {
+      "en": "Read it as bale plus full: full of bale, the old word for harm.",
+      "cn": "读作 bale + full：盛满古义「灾殃」之物。"
+    },
+    "normal": [
+      { "en": "bale here means sorrow and harm, not the hay bale.", "cn": "此处 bale 指灾殃悲恸，不是干草捆。" },
+      { "en": "a baleful stare is the classic collocation.", "cn": "a baleful stare 是经典搭配。" },
+      { "en": "Compare baneful: same meaning, different Old English root.", "cn": "对照 baneful：同义而古英语词根不同。" },
+      { "en": "Beowulf keeps the root alive in bealu.", "cn": "《贝奥武甫》中的 bealu 保存着这个词根。" },
+      { "en": "Adverb and noun: balefully, balefulness.", "cn": "副词与名词：balefully、balefulness。" }
+    ],
+    "abstract": [
+      { "en": "Feel the temperature drop when the eyes turn.", "cn": "感觉目光转来时气温骤降。" },
+      { "en": "Baleful is the shadow that arrives before its owner.", "cn": "baleful 是先于主人抵达的影子。" },
+      { "en": "Hear the vowel lengthen, as menace does.", "cn": "听那个长元音，一如威胁的绵长。" }
+    ]
+  },
+  "examples": [
+    { "en": "A baleful fog swallowed the lighthouse beam.", "cn": "不祥的浓雾吞没了灯塔的光束。" },
+    { "en": "The usurper's baleful reign ended in a single night.", "cn": "篡位者的暴政在一夜之间覆灭。" },
+    { "en": "She spoke of the mine's baleful legacy of dust and debt.", "cn": "她谈起那座矿留下的粉尘与债务之祸。" }
+  ],
+  "dict_mnemonic": {
+    "note": "谐音记忆 · 非词源",
+    "text": "「被偶服」——被那双恶狠狠的眼睛盯上，就像被偶人附了身",
+    "word": "baleful"
+  },
+  "root": "baleful = bale（古义「灾殃、悲恸」，古英语 bealu）+ -ful。bealu 可追溯至原始日耳曼语词根 balu-「毁灭、邪恶」，与古诺斯语 bölvun「诅咒」同源；《贝奥武甫》等古英语诗歌常用。形容词于 1400 年前形成；后来名词 bale 消亡，唯 baleful 独存，与「货包」义的 bale 无关。",
+  "sensesIntro": {
+    "en": "Eight senses spread the old harm across registers: the evil eye, the corrupting influence, the deadly plague, the ominous moon, the archaic grief, poisoned words, corroding institutions, and fantasy's dark magic.",
+    "cn": "八义项把古老的「害」铺展到各个语域：恶眼、腐蚀性影响、致命瘟疫、不祥之月、古义之悲、恶毒言语、侵蚀性制度，以及奇幻的黑暗魔法。"
+  },
+  "semanticMap": {
+    "core": {
+      "en": "CORE IMAGE: harm announced by a look before any blow falls.",
+      "cn": "核心意象：拳未落，眼先害人。"
+    },
+    "chain": ["THE OLD HARM", "THE EVIL EYE", "THE POISONED WORD", "THE RUINOUS FORCE", "THE ILL OMEN", "THE SLOW CORROSION"],
+    "branches": [
+      { "senses": "01 · 06", "en": "THE FACE AND VOICE SIDE: stares and whispers that wound.", "cn": "面容言语一面：伤人的目光与耳语。" },
+      { "senses": "02 · 03 · 07", "en": "THE FORCE SIDE: influences, plagues, and institutions that ruin.", "cn": "势力一面：致毁的影响、瘟疫与制度。" },
+      { "senses": "04", "en": "THE OMEN SIDE: signs that promise disaster.", "cn": "征兆一面：预告灾祸的迹象。" },
+      { "senses": "05", "en": "THE GRIEF SIDE: the archaic sorrowful use.", "cn": "悲恸一面：古义的哀伤用法。" },
+      { "senses": "08", "en": "THE FICTION SIDE: genre magic wearing the old word.", "cn": "虚构一面：披着古词的类型魔法。" }
+    ]
+  },
+  "affixes": {
+    "intro": {
+      "en": "Baleful is a native English compound: old noun bale plus suffix -ful.",
+      "cn": "baleful 是本族英语复合词：古名词 bale 加后缀 -ful。"
+    },
+    "latinIntro": {
+      "en": "No Latin is involved; the adjective was built before Chaucer, from purely Germanic parts.",
+      "cn": "与拉丁语无关；该形容词在乔叟之前已由纯日耳曼成分构成。"
+    },
+    "items": [
+      { "word": "bale", "structure": "Old English bealu", "meaning": "evil, sorrow, destruction (archaic)", "meaningCN": "灾殃；悲恸（废义）", "example": "woe and bale in old verse", "exampleCN": "古诗中的哀恸与灾殃" },
+      { "word": "-ful", "structure": "adjective suffix", "meaning": "full of", "meaningCN": "充满……的", "example": "baleful, mournful", "exampleCN": "凶恶的；悲哀的" },
+      { "word": "bealu", "structure": "Old English noun", "meaning": "evil, torment", "meaningCN": "邪恶；苦难", "example": "bealu in Beowulf", "exampleCN": "《贝奥武甫》中的 bealu" },
+      { "word": "balefully", "structure": "baleful + -ly", "meaning": "in a sinister way", "meaningCN": "不祥地", "example": "glare balefully", "exampleCN": "恶狠狠地瞪着" },
+      { "word": "balefulness", "structure": "baleful + -ness", "meaning": "sinister quality", "meaningCN": "凶恶", "example": "the balefulness of the omen", "exampleCN": "凶兆之凶" },
+      { "word": "baneful", "structure": "bane + -ful", "meaning": "ruinous, deadly", "meaningCN": "致命的", "example": "baneful habits", "exampleCN": "恶习" },
+      { "word": "bane", "structure": "Old English bana", "meaning": "cause of ruin, poison", "meaningCN": "祸根；毒物", "example": "the bane of his life", "exampleCN": "他一生的祸根" },
+      { "word": "sinister", "structure": "Latin left-hand word", "meaning": "threatening evil", "meaningCN": "不祥的", "example": "a sinister plot", "exampleCN": "阴险的阴谋" }
+    ],
+    "latinEntries": []
+  }
+}

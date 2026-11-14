@@ -1,0 +1,302 @@
+{
+  "word": "aversion",
+  "ipa_uk": "/əˈvɜːʃn/",
+  "ipa_us": "/əˈvɜːrʒn/",
+  "definition_zh": "厌恶；反感；憎恶的事物",
+  "definition_en": "a strong feeling of dislike or repugnance toward something",
+  "core_image": "一闻到那气味，整个人就往后缩",
+  "scene": "她还没进门就捂住了鼻子。She has an aversion to the smell of fresh paint.",
+  "sceneCN": "这里 aversion 指「厌恶、反感」（第 1 个义项：强烈的不喜欢）；句意：她一闻到新油漆的气味就本能地反感。",
+  "pos": [
+    { "tag": "n.", "zh": "厌恶；反感；憎恶的对象" }
+  ],
+  "collocations": [
+    { "phrase": "have an aversion to", "zh": "厌恶；对……反感" },
+    { "phrase": "a deep aversion", "zh": "深深的厌恶" },
+    { "phrase": "an aversion to risk", "zh": "对风险的厌恶" },
+    { "phrase": "aversion therapy", "zh": "厌恶疗法" },
+    { "phrase": "feel aversion toward", "zh": "对……怀有反感" }
+  ],
+  "forms": [
+    { "label": "复数", "form": "aversions" },
+    { "label": "相关形容词", "form": "averse" }
+  ],
+  "derivatives": [
+    { "word": "averse", "pos": "adj.", "zh": "厌恶的；不愿的（aversion 的形容词基础）" },
+    { "word": "aversive", "pos": "adj.", "zh": "令人反感的；引发回避的（aversion + -ive）" },
+    { "word": "aversively", "pos": "adv.", "zh": "令人反感地（aversive + -ly）" }
+  ],
+  "senses": [
+    {
+      "no": "01",
+      "title": "A strong feeling of dislike",
+      "titleCN": "厌恶；反感",
+      "definition": "an intense and settled feeling of dislike toward a thing, act, or person",
+      "definitionCN": "对某物、某行为或某人的强烈而稳固的厌恶感",
+      "example": "His aversion to crowds kept him out of stadiums.",
+      "exampleCN": "他对人群的厌恶让他从不进体育场。",
+      "why": "The root means turned away: the feeling that pivots you from a thing.",
+      "whyCN": "词根义为「转开」：那种把你从某物前转走的情绪。"
+    },
+    {
+      "no": "02",
+      "title": "The object of dislike",
+      "titleCN": "憎恶的对象",
+      "definition": "the thing or person one feels aversion toward",
+      "definitionCN": "引发或承受厌恶的具体对象",
+      "example": "Crowds became his chief aversion.",
+      "exampleCN": "人群成了他最憎恶的东西。",
+      "why": "The feeling names what it points at, as loves and hates both do.",
+      "whyCN": "情绪会转而指称其对象，爱与恨皆然。"
+    },
+    {
+      "no": "03",
+      "title": "Reluctance or unwillingness",
+      "titleCN": "不愿；抗拒",
+      "definition": "a disinclination to do something, milder than disgust",
+      "definitionCN": "对做某事的不情愿，弱于憎恶",
+      "example": "She felt an aversion to signing the contract so soon.",
+      "exampleCN": "她不愿这么快就签下合同。",
+      "why": "The turning away can be small: a hesitation rather than a recoil.",
+      "whyCN": "「转开」可以很小：只是迟疑，而非后缩。"
+    },
+    {
+      "no": "04",
+      "title": "Risk aversion in economics",
+      "titleCN": "（经济学）风险厌恶",
+      "definition": "the preference for certain outcomes over gambles of equal expected value",
+      "definitionCN": "在期望值相同的情况下宁取确定结果的偏好",
+      "example": "Risk aversion explains why insurers stay in business.",
+      "exampleCN": "风险厌恶解释了保险业长盛的原因。",
+      "why": "Decision theory borrowed the feeling-word for a measurable preference.",
+      "whyCN": "决策理论借情绪词命名一种可测量的偏好。"
+    },
+    {
+      "no": "05",
+      "title": "Conditioned avoidance in psychology",
+      "titleCN": "（心理学）习得性回避",
+      "definition": "learned avoidance of a stimulus paired with discomfort",
+      "definitionCN": "因刺激伴随不适而习得的回避反应",
+      "example": "Taste aversion stopped the wolves from baited traps.",
+      "exampleCN": "味觉厌恶让狼群不再碰下了药的陷阱。",
+      "why": "One bad pairing is enough; the body remembers the turning away.",
+      "whyCN": "一次糟糕的配对就足够；身体记住了那一次转开。"
+    },
+    {
+      "no": "06",
+      "title": "Aversion therapy",
+      "titleCN": "厌恶疗法",
+      "definition": "treatment that pairs an unwanted behavior with unpleasant stimuli",
+      "definitionCN": "把不良行为与不快刺激配对的治疗方法",
+      "example": "Aversion therapy once paired smoking with mild shocks.",
+      "exampleCN": "厌恶疗法曾把吸烟与轻微电击配对。",
+      "why": "Clinics trained the turning away on purpose.",
+      "whyCN": "临床上有意训练这种「转开」反应。"
+    },
+    {
+      "no": "07",
+      "title": "Moral repugnance",
+      "titleCN": "（道德层面的）深恶痛绝",
+      "definition": "revulsion at cruelty, injustice, or corruption on principle",
+      "definitionCN": "出于原则对残暴、不公或腐败的憎恶",
+      "example": "His aversion to cruelty drove him into law.",
+      "exampleCN": "他对残暴的深恶痛绝驱使他投身法律。",
+      "why": "When the turning away is principled, it becomes a stance.",
+      "whyCN": "当「转开」出于原则，它就成了一种立场。"
+    },
+    {
+      "no": "08",
+      "title": "Instinctive physical recoil",
+      "titleCN": "生理性的本能排斥",
+      "definition": "an automatic bodily recoil at smells, textures, or sights",
+      "definitionCN": "对气味、质感或画面不假思索的身体后退",
+      "example": "A visceral aversion made her drop the spoon.",
+      "exampleCN": "本能的排斥让她丢下了勺子。",
+      "why": "This is the root at its most literal: the spine itself turns.",
+      "whyCN": "这是词根最字面的呈现：连脊椎都在转开。"
+    }
+  ],
+  "etymology": {
+    "intro": {
+      "en": "Aversion comes from Latin aversio, a turning away, from avertere, from ab, away, plus vertere, to turn; English took both the noun and its adjective averse from the same participle.",
+      "cn": "aversion 出自拉丁语 aversio「转开」，源于 avertere，由 ab（离开）+ vertere（转）构成；英语的名词 aversion 与形容词 averse 同出一源。"
+    },
+    "items": [
+      {
+        "era": "PROTO-INDO-EUROPEAN",
+        "en": "The turn-root is the reconstructed wer-, to bend or turn.",
+        "cn": "「转」的词根出自重构词干 wer-「弯、转」。"
+      },
+      {
+        "era": "LATIN",
+        "en": "averted combined ab, away, with vertere, to turn.",
+        "cn": "拉丁语 avertere 组合 ab「离开」与 vertere「转」。"
+      },
+      {
+        "era": "LATE LATIN, AVERSIO",
+        "en": "aversio named the act or state of turning away, soon in moral contexts.",
+        "cn": "aversio 指转开的动作或状态，很快用于道德语境。"
+      },
+      {
+        "era": "FRENCH, AVERSION",
+        "en": "Old and Middle French carried aversion with the psychological sense.",
+        "cn": "古法语与中古法语以 aversion 承载心理义项。"
+      },
+      {
+        "era": "ENGLISH, 17TH C.",
+        "en": "English adopted aversion around 1600, first of mental turning from objects of dislike.",
+        "cn": "英语约在 1600 年前后借入 aversion，先指心理上对所憎之物的背离。"
+      },
+      {
+        "era": "MODERN ENGLISH",
+        "en": "Economics added risk aversion, and psychology added conditioned aversion.",
+        "cn": "经济学加入「风险厌恶」，心理学加入「条件性厌恶」。"
+      }
+    ]
+  },
+  "similar": {
+    "note": {
+      "en": "Group one gathers the turning family and a spelling trap; group two gathers words of strong dislike.",
+      "cn": "第一组收「转」词族及拼写陷阱；第二组收强烈厌恶义场的词。"
+    },
+    "groups": [
+      {
+        "heading": "LOOK-ALIKE",
+        "entries": [
+          {
+            "word": "adversion",
+            "ipa": "/ədˈvɜːʒn/",
+            "tag": "look-alike, rare",
+            "definition": "a rare, obsolete word for turning toward; one letter from aversion.",
+            "definitionCN": "罕见的废词，义为「转向」；与 aversion 仅差一个字母。"
+          },
+          {
+            "word": "aversio",
+            "ipa": "/əˈvɜːʃiəʊ/",
+            "tag": "same root",
+            "definition": "the Late Latin source noun, a turning away.",
+            "definitionCN": "晚期拉丁语源头名词，义为「转开」。"
+          },
+          {
+            "word": "avert",
+            "ipa": "/əˈvɜːt/",
+            "tag": "same root",
+            "definition": "the verb of the family: to turn away or prevent.",
+            "definitionCN": "词族中的动词：转开、防止。"
+          }
+        ]
+      },
+      {
+        "heading": "NEAR MEANING",
+        "entries": [
+          {
+            "word": "repugnance",
+            "ipa": "/rɪˈpʌɡnəns/",
+            "tag": "near meaning",
+            "definition": "strong, often moral, dislike; more formal than aversion.",
+            "definitionCN": "强烈且常带道德色彩的憎恶；比 aversion 更正式。"
+          },
+          {
+            "word": "revulsion",
+            "ipa": "/rɪˈvʌlʃn/",
+            "tag": "near meaning",
+            "definition": "sudden and violent disgust; aversion at its most physical.",
+            "definitionCN": "突发而剧烈的恶心感；aversion 最生理性的一面。"
+          },
+          {
+            "word": "distaste",
+            "ipa": "/ˌdɪsˈteɪst/",
+            "tag": "near meaning",
+            "definition": "mild dislike; the polite end of the scale.",
+            "definitionCN": "轻微的不喜欢；厌恶刻度上温和的一端。"
+          },
+          {
+            "word": "loathing",
+            "ipa": "/ˈləʊðɪŋ/",
+            "tag": "near meaning",
+            "definition": "settled, intense hatred; beyond mere aversion.",
+            "definitionCN": "根深蒂固的憎恨；超出单纯的厌恶。"
+          },
+          {
+            "word": "disinclination",
+            "ipa": "/ˌdɪsɪnklɪˈneɪʃn/",
+            "tag": "near meaning",
+            "definition": "unwillingness without emotional heat.",
+            "definitionCN": "不带情绪温度的不情愿。"
+          }
+        ]
+      }
+    ]
+  },
+  "mnemonics": {
+    "normalIntro": {
+      "en": "Keep the family visible: avert, averse, aversion are one turning in three grammars.",
+      "cn": "看清词族：avert、averse、aversion 是同一个「转」的三种语法形态。"
+    },
+    "normal": [
+      { "en": "av- from ab- means away; -sion makes the turning a noun.", "cn": "av- 出自 ab-「离开」；-sion 把「转」变成名词。" },
+      { "en": "have an aversion to is the standard pattern; note the preposition to.", "cn": "固定句型 have an aversion to，注意介词用 to。" },
+      { "en": "risk aversion is the economics term every exam loves.", "cn": "risk aversion 是考试偏爱的经济学术语：风险厌恶。" },
+      { "en": "aversion therapy is the clinical collocation.", "cn": "aversion therapy 是临床搭配：厌恶疗法。" },
+      { "en": "Plural aversions lists your several dislikes.", "cn": "复数 aversions 可列举多种厌恶。" }
+    ],
+    "abstract": [
+      { "en": "Feel the whole body step back one measured pace.", "cn": "感觉整个人向后退了整整齐齐的一步。" },
+      { "en": "Aversion is a door your mind shuts before thinking.", "cn": "aversion 是理智开口之前心先关上的门。" },
+      { "en": "Picture the compass needle refusing a direction it once held.", "cn": "想象罗盘针拒绝它曾指向的方向。" }
+    ]
+  },
+  "examples": [
+    { "en": "He confessed an aversion to loud music of any era.", "cn": "他坦承对任何年代的吵闹音乐都很反感。" },
+    { "en": "Her aversions ran from cilantro to committee meetings.", "cn": "她的厌恶清单从香菜一路排到委员会会议。" },
+    { "en": "Investors' risk aversion rose sharply after the crash.", "cn": "崩盘后投资者的风险厌恶急剧上升。" }
+  ],
+  "dict_mnemonic": {
+    "note": "谐音记忆 · 非词源",
+    "text": "「恶我神」——那味道一飘来就「恶我神」，魂儿都厌恶得缩回去了",
+    "word": "aversion"
+  },
+  "root": "出自晚期拉丁语 aversio「转开」，为 avertere（ab- 离开 + vertere 转）的名词化形式，与 avert、averse 同族；约 1600 年经法语进入英语，先表心理背离，近现代被经济学与心理学借作术语。",
+  "sensesIntro": {
+    "en": "Eight senses follow the turning away: the feeling, its object, plain reluctance, and the technical senses that economics and psychology built on it.",
+    "cn": "八个义项顺着「转开」展开：情绪本身、情绪对象、单纯的不情愿，以及经济学与心理学在此之上建立的技术义项。"
+  },
+  "semanticMap": {
+    "core": {
+      "en": "CORE IMAGE: the whole body stepping back before the mind explains why.",
+      "cn": "核心意象：理智还没解释，身体已先退后一步。"
+    },
+    "chain": ["THE TURNING AWAY", "THE SETTLED DISLIKE", "THE REFUSAL", "THE MEASURED PREFERENCE", "THE TRAINED AVOIDANCE", "THE PRINCIPLED NO"],
+    "branches": [
+      { "senses": "01 · 02", "en": "THE FEELING SIDE: the dislike and the thing it points at.", "cn": "情感一面：厌恶本身与它指向的对象。" },
+      { "senses": "03", "en": "THE WILLINGNESS SIDE: mild, everyday reluctance.", "cn": "意愿一面：日常而轻微的不情愿。" },
+      { "senses": "04", "en": "THE ECONOMIC SIDE: measured risk aversion.", "cn": "经济一面：可度量的风险厌恶。" },
+      { "senses": "05 · 06", "en": "THE CLINICAL SIDE: conditioned and therapeutic avoidance.", "cn": "临床一面：条件性回避与厌恶疗法。" },
+      { "senses": "07 · 08", "en": "THE DEEP SIDE: moral principle and bodily recoil.", "cn": "深层一面：道德原则与生理排斥。" }
+    ]
+  },
+  "affixes": {
+    "intro": {
+      "en": "Aversion is the participle aversus plus the noun ending -io: a turning, made into a thing.",
+      "cn": "aversion 由分词 aversus 加名词词尾 -io 构成：把「转开」变成一个事物。"
+    },
+    "latinIntro": {
+      "en": "Latin made -tio nouns from participles, and French -tion passed them into English by the hundred.",
+      "cn": "拉丁语用 -tio 由分词造名词，法语 -tion 又把成百上千个这样的词送进英语。"
+    },
+    "items": [
+      { "word": "aversio", "structure": "aversus + -io", "meaning": "a turning away", "meaningCN": "转开", "example": "aversio in late Latin", "exampleCN": "晚期拉丁语中的 aversio" },
+      { "word": "ab-", "structure": "Latin prefix", "meaning": "away, from", "meaningCN": "离开", "example": "absent, abstain", "exampleCN": "缺席、戒除" },
+      { "word": "vertere", "structure": "Latin verb", "meaning": "to turn", "meaningCN": "转动", "example": "vertere as family root", "exampleCN": "词族核心动词" },
+      { "word": "-tion", "structure": "noun suffix", "meaning": "act, state, result", "meaningCN": "行为；状态；结果", "example": "action, aversion, motion", "exampleCN": "行动、厌恶、运动" },
+      { "word": "averse", "structure": "aversion's adjective", "meaning": "disliking, opposed", "meaningCN": "厌恶的", "example": "averse to change", "exampleCN": "抵触变革" },
+      { "word": "aversive", "structure": "aversion + -ive", "meaning": "causing avoidance", "meaningCN": "引发回避的", "example": "aversive stimulus", "exampleCN": "厌恶刺激" },
+      { "word": "diversion", "structure": "di- + version", "meaning": "a turning aside", "meaningCN": "转移；消遣", "example": "river diversion", "exampleCN": "河流改道" },
+      { "word": "avert", "structure": "ab- + vert", "meaning": "to turn away, prevent", "meaningCN": "转移；防止", "example": "avert disaster", "exampleCN": "避免灾难" }
+    ],
+    "latinEntries": [
+      { "word": "aversio", "structure": "Late Latin noun", "meaning": "a turning away", "meaningCN": "转开" },
+      { "word": "averto", "structure": "Latin verb", "meaning": "to turn away", "meaningCN": "使转开" }
+    ]
+  }
+}

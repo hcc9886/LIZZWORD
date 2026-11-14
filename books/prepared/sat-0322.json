@@ -1,0 +1,301 @@
+{
+  "word": "avocation",
+  "ipa_uk": "/ˌævəˈkeɪʃn/",
+  "ipa_us": "/ˌævəˈkeɪʃn/",
+  "definition_zh": "副业；业余爱好；消遣",
+  "definition_en": "a hobby or minor occupation pursued alongside one's main work",
+  "core_image": "白天在诊室听诊，晚上在阁楼刻木版",
+  "scene": "钢笔律师放下公文包，取出刻刀。Bookbinding became his avocation after retirement.",
+  "sceneCN": "这里 avocation 指「业余爱好」（第 1 个义项：主业之外的消遣）；句意：退休后，装订书成了他的业余爱好。",
+  "pos": [
+    { "tag": "n.", "zh": "副业；业余爱好；消遣" }
+  ],
+  "collocations": [
+    { "phrase": "pursue an avocation", "zh": "从事业余爱好" },
+    { "phrase": "avocation and vocation", "zh": "副业与主业" },
+    { "phrase": "a satisfying avocation", "zh": "令人满足的消遣" },
+    { "phrase": "turn an avocation into a vocation", "zh": "把爱好变成职业" },
+    { "phrase": "by avocation", "zh": "以……为业余爱好" }
+  ],
+  "forms": [
+    { "label": "复数", "form": "avocations" }
+  ],
+  "derivatives": [
+    { "word": "vocation", "pos": "n.", "zh": "职业；天职（同根反义对照词）" },
+    { "word": "vocational", "pos": "adj.", "zh": "职业的（vocation + -al）" },
+    { "word": "avocational", "pos": "adj.", "zh": "业余的（avocation + -al）" }
+  ],
+  "senses": [
+    {
+      "no": "01",
+      "title": "A hobby beside one's work",
+      "titleCN": "业余爱好；消遣",
+      "definition": "an activity followed for pleasure in spare time, apart from the main job",
+      "definitionCN": "业余时间出于兴趣从事的活动，非主业",
+      "example": "Her avocation was restoring old clocks.",
+      "exampleCN": "她的业余爱好是修复老钟表。",
+      "why": "The Latin root avocare means to call away: the hobby calls you away from work.",
+      "whyCN": "拉丁词根 avocare 意为「唤走」：爱好把你从正事上唤走。"
+    },
+    {
+      "no": "02",
+      "title": "A minor occupation",
+      "titleCN": "副业；兼职营生",
+      "definition": "a small secondary occupation, sometimes earning a little money",
+      "definitionCN": "次要的营生，有时略有收入",
+      "example": "Beekeeping was a modest avocation that paid for itself.",
+      "exampleCN": "养蜂是份小副业，勉强自给。",
+      "why": "Called-away time can still be work, only second-ranked.",
+      "whyCN": "被唤走的时光也可以是劳作，只是排位居次。"
+    },
+    {
+      "no": "03",
+      "title": "One's usual calling, in older use",
+      "titleCN": "（旧义）职业；日常事务",
+      "definition": "in older English, a person's regular business or calling",
+      "definitionCN": "旧式英语中指某人的常规营生",
+      "example": "The letter mentioned his avocation as a surveyor.",
+      "exampleCN": "信中提到他做测量员的营生。",
+      "why": "Early usage sat closer to the Latin: whatever calls you, even the job.",
+      "whyCN": "早期用法更贴近拉丁语：凡「呼唤你」的，包括职业本身。"
+    },
+    {
+      "no": "04",
+      "title": "Distraction or diversion",
+      "titleCN": "消遣；解闷",
+      "definition": "something that diverts or relieves the mind from serious affairs",
+      "definitionCN": "使心思从正务上得到消解与放松之物",
+      "example": "Gardening served the judge as a needed avocation.",
+      "exampleCN": "园艺是法官不可或缺的调剂。",
+      "why": "The calling-away is the point: relief by being drawn elsewhere.",
+      "whyCN": "「唤走」正是关键：被引向别处从而得到喘息。"
+    },
+    {
+      "no": "05",
+      "title": "An avocation turned profession",
+      "titleCN": "（转化中的）准职业",
+      "definition": "a hobby in the process of becoming one's vocation",
+      "definitionCN": "正在转变为职业的爱好",
+      "example": "Her photography avocation grew into a studio.",
+      "exampleCN": "她的摄影爱好后来发展成一间影楼。",
+      "why": "The word sits on the border; people cross it.",
+      "whyCN": "这个词立在边界上，而人们会跨越边界。"
+    },
+    {
+      "no": "06",
+      "title": "The respectable dilettante sphere",
+      "titleCN": "（雅趣圈的）风雅消遣",
+      "definition": "the cultivated amateur sphere, as in an avocation of gentlemen scholars",
+      "definitionCN": "绅士学者的风雅业余领域",
+      "example": "Botany was a fashionable avocation in the eighteenth century.",
+      "exampleCN": "18 世纪，植物学是时髦的雅趣。",
+      "why": "Amateur once meant lover: the avocation of those who could afford to love.",
+      "whyCN": "amateur 本义是「爱好者」：avocation 属于有闲去爱的人们。"
+    },
+    {
+      "no": "07",
+      "title": "Legal sense, a calling away",
+      "titleCN": "（法律古义）传唤离任",
+      "definition": "in older legal language, the removal of a case or person to another jurisdiction",
+      "definitionCN": "旧法律用语，指将案件或人员移转他辖",
+      "example": "An avocation of the suit shifted it to chancery.",
+      "exampleCN": "案件移转后归大法官庭审理。",
+      "why": "The root verb avocare lived in legal Latin for summoning away.",
+      "whyCN": "词根动词 avocare 在法律拉丁语中即「传唤他去」。"
+    },
+    {
+      "no": "08",
+      "title": "A pleasurable identity",
+      "titleCN": "（身份上的）第二重自我",
+      "definition": "the self one becomes through a beloved sideline",
+      "definitionCN": "借由热爱的副业获得的另一种自我身份",
+      "example": "At the easel he was someone else: the painter of his avocation.",
+      "exampleCN": "画架前他成了另一个人：副业里的画家。",
+      "why": "A calling-away calls up a second self to answer it.",
+      "whyCN": "被唤走时，会有第二个自我起身应答。"
+    }
+  ],
+  "etymology": {
+    "intro": {
+      "en": "Avocation comes from Latin avocatio, a calling away, from avocare, from ab, away, plus vocare, to call; English took the word in the fifteenth century, at first near its legal sense.",
+      "cn": "avocation 出自拉丁语 avocatio「唤走」，由 avocare 构成，后者为 ab（离开）+ vocare（呼唤）；英语于 15 世纪借入，起初贴近其法律义。"
+    },
+    "items": [
+      {
+        "era": "PROTO-INDO-EUROPEAN",
+        "en": "The call-root is the reconstructed wek-, to speak or call out.",
+        "cn": "「呼唤」词根出自重构词干 wek-「说、喊」。"
+      },
+      {
+        "era": "LATIN",
+        "en": "avocare combined ab, away, with vocare, to call: to summon someone off.",
+        "cn": "avocare 组合 ab「离开」与 vocare「呼唤」：把人召走。"
+      },
+      {
+        "era": "LATIN, AVOCATIO",
+        "en": "avocatio meant a diversion, distraction, or legal removal.",
+        "cn": "avocatio 指消遣、分心，或法律上的移转。"
+      },
+      {
+        "era": "ENGLISH, 15TH C.",
+        "en": "Middle English used avocation for distraction and for calling off a case.",
+        "cn": "中古英语用 avocation 表分心及案件撤移。"
+      },
+      {
+        "era": "ENGLISH, 17TH–19TH C.",
+        "en": "The hobby sense consolidated, paired against vocation in Victorian prose.",
+        "cn": "17 至 19 世纪「爱好」义定型，维多利亚散文常将其与 vocation 对举。"
+      },
+      {
+        "era": "MODERN ENGLISH",
+        "en": "Today the pairing avocation and vocation is the word's classic frame.",
+        "cn": "如今 avocation 与 vocation 的对举是这个词的经典语境。"
+      }
+    ]
+  },
+  "similar": {
+    "note": {
+      "en": "Group one gathers the vocare family and its call-aways; group two gathers the work-and-play scale.",
+      "cn": "第一组收 vocare 词族及诸「唤走」词；第二组收工作与消遣刻度上的词。"
+    },
+    "groups": [
+      {
+        "heading": "LOOK-ALIKE",
+        "entries": [
+          {
+            "word": "vocation",
+            "ipa": "/vəʊˈkeɪʃn/",
+            "tag": "same root",
+            "definition": "the main calling, one prefix away and opposite in rank.",
+            "definitionCN": "主业、天职；仅一个前缀之差，位阶相反。"
+          },
+          {
+            "word": "evocation",
+            "ipa": "/ˌevəˈkeɪʃn/",
+            "tag": "look-alike, different prefix",
+            "definition": "the act of summoning a memory or feeling; shares vocare, not the hobby sense.",
+            "definitionCN": "唤起记忆或情感；共享 vocare 词根，但与爱好无关。"
+          },
+          {
+            "word": "advocation",
+            "ipa": "/ˌædvəˈkeɪʃn/",
+            "tag": "look-alike, rare",
+            "definition": "a rare obsolete form of advocacy; one letter from avocation.",
+            "definitionCN": "advocacy 的罕见废形；与 avocation 仅差一个字母。"
+          }
+        ]
+      },
+      {
+        "heading": "NEAR MEANING",
+        "entries": [
+          {
+            "word": "hobby",
+            "ipa": "/ˈhɒbi/",
+            "tag": "near meaning",
+            "definition": "the plain everyday word for a pastime.",
+            "definitionCN": "消遣的日常普通说法。"
+          },
+          {
+            "word": "pastime",
+            "ipa": "/ˈpɑːstaɪm/",
+            "tag": "near meaning",
+            "definition": "an activity that makes time pass pleasantly.",
+            "definitionCN": "消磨时光的活动。"
+          },
+          {
+            "word": "sideline",
+            "ipa": "/ˈsaɪdlaɪn/",
+            "tag": "near meaning",
+            "definition": "a secondary money-earning activity.",
+            "definitionCN": "有副收入的第二营生。"
+          },
+          {
+            "word": "diversion",
+            "ipa": "/daɪˈvɜːʃn/",
+            "tag": "near meaning",
+            "definition": "something that turns the mind aside for relief.",
+            "definitionCN": "让心思转向以获休息之物。"
+          },
+          {
+            "word": "pursuit",
+            "ipa": "/pəˈsjuːt/",
+            "tag": "near meaning",
+            "definition": "an occupation, main or spare-time, formal register.",
+            "definitionCN": "营生或消遣，正式语域。"
+          }
+        ]
+      }
+    ]
+  },
+  "mnemonics": {
+    "normalIntro": {
+      "en": "Split it a-vo-ca-tion: a calling away from your vocation.",
+      "cn": "拆成 a-vo-ca-tion 记：从主业里被唤走的那一声呼唤。"
+    },
+    "normal": [
+      { "en": "vocare means to call; vocation calls you to work, avocation calls you away.", "cn": "vocare 意为呼唤：vocation 把你唤去上班，avocation 把你唤走。" },
+      { "en": "ab- away plus vocare call: the same ab- as in avert.", "cn": "ab- 离开 + vocare 呼唤；ab- 与 avert 中相同。" },
+      { "en": "Classic pairing: avocation and vocation.", "cn": "经典对举：avocation 与 vocation。" },
+      { "en": "by avocation a lawyer means he practices law, loves something else.", "cn": "by avocation 的句式：以某事为业余爱好。" },
+      { "en": "Spelling trap: not advocation; there is no d.", "cn": "拼写陷阱：中间没有 d，不是 advocation。" }
+    ],
+    "abstract": [
+      { "en": "Hear the workday phone ring, and the little bell of the workbench answer.", "cn": "听工作日的电话在响，工作台的小铃也答了一声。" },
+      { "en": "An avocation is the room your other self keeps.", "cn": "avocation 是你的另一个自我常住的房间。" },
+      { "en": "Picture the briefcase set down beside a wooden flute.", "cn": "想象公文包被放下，旁边是一支木笛。" }
+    ]
+  },
+  "examples": [
+    { "en": "Taxidermy was the naturalist's strange avocation.", "cn": "标本剥制是那位博物学家的怪癖爱好。" },
+    { "en": "She hoped to turn her avocation into a full-time vocation.", "cn": "她希望把业余爱好变成全职事业。" },
+    { "en": "Chess, by avocation, sharpened his courtroom thinking.", "cn": "作为业余爱好的国际象棋磨利了他法庭上的思维。" }
+  ],
+  "dict_mnemonic": {
+    "note": "谐音记忆 · 非词源",
+    "text": "「爱我开心」——爱我开心的事就是我的业余爱好",
+    "word": "avocation"
+  },
+  "root": "出自拉丁语 avocatio「唤走、消遣」，由 avocare（ab- 离开 + vocare 呼唤）构成，与 vocation 同根而加相反方向的前缀；15 世纪进入英语，先用于法律与「分心」义，17 世纪起「业余爱好」义成为主流。",
+  "sensesIntro": {
+    "en": "Eight senses pivot on being called away: the hobby, the side job, the old legal summoning, the relief of diversion, and the second self a pastime can create.",
+    "cn": "八个义项围绕「被唤走」展开：爱好、副业、旧法律上的传唤、消遣的喘息，以及爱好塑造的第二重自我。"
+  },
+  "semanticMap": {
+    "core": {
+      "en": "CORE IMAGE: a voice calling you off the main road onto a small bright path.",
+      "cn": "核心意象：一个声音把你从大路唤向小径。"
+    },
+    "chain": ["THE CALL AWAY", "THE SPARE HOUR", "THE LOVED CRAFT", "THE SECOND SELF", "THE BORDER CROSSING", "THE RELEASE"],
+    "branches": [
+      { "senses": "01 · 04 · 08", "en": "THE PLEASURE SIDE: hobby, relief, and the self it builds.", "cn": "愉悦一面：爱好、喘息及其塑造的自我。" },
+      { "senses": "02 · 05", "en": "THE WORK SIDE: sideline earnings and hobbies crossing into professions.", "cn": "劳作一面：副业收入与爱好转职。" },
+      { "senses": "03", "en": "THE OLD SIDE: the earlier sense of one's regular calling.", "cn": "旧义一面：早期指常规营生的用法。" },
+      { "senses": "06", "en": "THE LEISURED SIDE: genteel dilettantism.", "cn": "有闲一面：绅士式的风雅消遣。" },
+      { "senses": "07", "en": "THE LEGAL SIDE: the case called away to another court.", "cn": "法律一面：被移转他庭的案件。" }
+    ]
+  },
+  "affixes": {
+    "intro": {
+      "en": "Avocation is ab- plus vocare plus -tion: a calling away, made into a noun.",
+      "cn": "avocation 由 ab- + vocare + -tion 构成：把「唤走」铸成名词。"
+    },
+    "latinIntro": {
+      "en": "Vocare seeded a large English family through Latin and French: voice, vocal, invoke, provoke, advocate.",
+      "cn": "vocare 经拉丁、法语在英语中繁衍出大家族：voice、vocal、invoke、provoke、advocate。"
+    },
+    "items": [
+      { "word": "avocatio", "structure": "avocare + -tio", "meaning": "a calling away, diversion", "meaningCN": "唤走；消遣", "example": "avocatio in legal Latin", "exampleCN": "法律拉丁语中的 avocatio" },
+      { "word": "ab-", "structure": "Latin prefix", "meaning": "away, from", "meaningCN": "离开", "example": "avert, absent", "exampleCN": "转移、缺席" },
+      { "word": "vocare", "structure": "Latin verb", "meaning": "to call", "meaningCN": "呼唤", "example": "vocare as family root", "exampleCN": "词族核心动词" },
+      { "word": "vocation", "structure": "voca- + -tion", "meaning": "a calling, profession", "meaningCN": "天职；职业", "example": "a teaching vocation", "exampleCN": "教书的使命" },
+      { "word": "invoke", "structure": "in- + voke", "meaning": "to call upon", "meaningCN": "援引；祈求", "example": "invoke a rule", "exampleCN": "援引规则" },
+      { "word": "provoke", "structure": "pro- + voke", "meaning": "to call forth, stir", "meaningCN": "激起；挑衅", "example": "provoke laughter", "exampleCN": "引人发笑" },
+      { "word": "advocate", "structure": "ad- + vocate", "meaning": "to call to one's side", "meaningCN": "倡导；拥护", "example": "advocate reform", "exampleCN": "倡导改革" },
+      { "word": "avocational", "structure": "avocation + -al", "meaning": "of a hobby", "meaningCN": "业余的", "example": "avocational interests", "exampleCN": "业余兴趣" }
+    ],
+    "latinEntries": [
+      { "word": "avocatio", "structure": "Latin noun", "meaning": "a calling away", "meaningCN": "唤走" },
+      { "word": "avoco", "structure": "Latin verb", "meaning": "to call away", "meaningCN": "唤走" }
+    ]
+  }
+}
