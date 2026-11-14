@@ -1,0 +1,371 @@
+[
+  {
+    "word": "beck",
+    "ipa_uk": "/bek/",
+    "ipa_us": "/bek/",
+    "definition_zh": "点头示意（现多用于 at someone's beck and call）；（英北方言）小溪",
+    "definition_en": "a nod or gesture of command, surviving in the phrase at someone's beck and call; in northern English dialect, a small stream",
+    "core_image": "主人一个点头，仆人立刻应声而来",
+    "scene": "老宅的管家总是随叫随到，仿佛听命于一根手指的示意。The staff were at his beck and call from morning until night.",
+    "sceneCN": "这里 beck 是「点头示意」（第 1 个义项：表示召唤的点头或手势）；句意是仆人们从早到晚听候他随时的召唤。",
+    "pos": [
+      {
+        "tag": "n.",
+        "zh": "点头示意；召唤；（方言）小溪"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "at someone's beck and call",
+        "zh": "听候某人随时差遣"
+      },
+      {
+        "phrase": "at his beck",
+        "zh": "听他招呼"
+      },
+      {
+        "phrase": "a mountain beck",
+        "zh": "山间小溪（方言）"
+      },
+      {
+        "phrase": "at the boss's beck",
+        "zh": "听老板招呼"
+      },
+      {
+        "phrase": "a quiet beck",
+        "zh": "安静的小溪（方言）"
+      }
+    ],
+    "forms": [
+      {
+        "label": "复数",
+        "form": "becks"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "beckon",
+        "pos": "v.",
+        "zh": "同根动词，义为「招手；召唤」"
+      },
+      {
+        "word": "beckoning",
+        "pos": "adj.",
+        "zh": "由 beckon 加 -ing 构成，义为「召唤般的；吸引人的」"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "A nod or gesture of command",
+        "titleCN": "点头示意；召唤",
+        "definition": "a silent signal, especially a nod, used to summon someone",
+        "definitionCN": "无声的信号，尤指点头，用来召唤他人",
+        "example": "The staff were at his beck and call from morning until night.",
+        "exampleCN": "仆人们从早到晚听候他随时的召唤。",
+        "why": "The word is a shortened form of beckon, the act of bidding with a nod.",
+        "whyCN": "该词是 beckon 的缩短形式，即以点头示意召人。"
+      },
+      {
+        "no": "02",
+        "title": "A small stream in northern dialect",
+        "titleCN": "小溪（方言）",
+        "definition": "in northern English dialect, a small brook or stream",
+        "definitionCN": "英格兰北方方言中的小河、溪流",
+        "example": "Sheep grazed beside the clear beck below the hill.",
+        "exampleCN": "羊群在山下清澈的小溪旁吃草。",
+        "why": "This is a separate Old Norse word bikki for a stream, unrelated to beckoning.",
+        "whyCN": "这是另一个源自古诺斯语 bikki（溪流）的词，与「召唤」义无关。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Beck has two sources: a clipped beckon and a Norse word for a stream.",
+        "cn": "beck 有两个来源：beckon 的缩短形式，以及古诺斯语中表示溪流的词。"
+      },
+      "items": [
+        {
+          "era": "OLD ENGLISH",
+          "en": "becnian meant to make a sign, source of beckon.",
+          "cn": "古英语 becnian 意为「做示意动作」，是 beckon 的来源。"
+        },
+        {
+          "era": "MIDDLE ENGLISH",
+          "en": "beck arose as a shortened form of beknen.",
+          "cn": "中古英语 beck 由 beknen 缩短而来。"
+        },
+        {
+          "era": "OLD NORSE",
+          "en": "bikki meant a brook, giving the northern beck.",
+          "cn": "古诺斯语 bikki 意为小溪，衍生北方方言的 beck。"
+        },
+        {
+          "era": "ENGLISH, 14TH-15TH C.",
+          "en": "the phrase at beck and call fixed the summoning sense.",
+          "cn": "十四至十五世纪短语 at beck and call 固定了「召唤」义。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "beck survives mainly in at someone's beck and call and in place names.",
+          "cn": "如今 beck 主要存于 at someone's beck and call 及地名中。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "The look-alike group shares spelling or the beckon root; the near-meaning group gathers signals of command and small streams.",
+        "cn": "形近组共享拼写或 beckon 词根；近义组汇集指令信号与小溪。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "beckon",
+              "ipa": "/ˈbekən/",
+              "tag": "same root, verb",
+              "definition": "to signal with a hand or nod to come",
+              "definitionCN": "招手；点头召唤——beck 的完整形式"
+            },
+            {
+              "word": "peck",
+              "ipa": "/pek/",
+              "tag": "spelling",
+              "definition": "to strike with the beak",
+              "definitionCN": "啄；只是拼写相近，词源不同"
+            },
+            {
+              "word": "neck",
+              "ipa": "/nek/",
+              "tag": "spelling",
+              "definition": "the body part joining head and shoulders",
+              "definitionCN": "颈；只是拼写相近，词源不同"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "gesture",
+              "ipa": "/ˈdʒestʃə(r)/",
+              "tag": "near synonym",
+              "definition": "a movement expressing an idea or command",
+              "definitionCN": "手势；泛指表达意思的动作"
+            },
+            {
+              "word": "summons",
+              "ipa": "/ˈsʌmənz/",
+              "tag": "near synonym",
+              "definition": "an order to appear",
+              "definitionCN": "传唤；强调命令性"
+            },
+            {
+              "word": "brook",
+              "ipa": "/brʊk/",
+              "tag": "related, dialect sense",
+              "definition": "a small stream",
+              "definitionCN": "小溪；对应方言义"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Beck is beckon cut short, plus a Norse stream.",
+        "cn": "beck 是 beckon 的缩短形式，另有古诺斯语「小溪」一源。"
+      },
+      "normal": [
+        {
+          "en": "At someone's beck and call means always ready to serve.",
+          "cn": "at someone's beck and call 意为听候随时差遣。"
+        },
+        {
+          "en": "Beckon is the full verb.",
+          "cn": "beckon 是完整的动词。"
+        },
+        {
+          "en": "The plural is becks.",
+          "cn": "复数是 becks。"
+        },
+        {
+          "en": "In Yorkshire a beck is a stream.",
+          "cn": "在约克郡，beck 指小溪。"
+        },
+        {
+          "en": "The summoning sense needs a silent nod, not a word.",
+          "cn": "「召唤」义靠无声点头，不需言语。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "See a finger crooked once, and a servant appear.",
+          "cn": "看一根手指一勾，仆人便现身。"
+        },
+        {
+          "en": "Hear the hush of a house waiting on a nod.",
+          "cn": "听一座宅邸等候点头的寂静。"
+        },
+        {
+          "en": "Picture clear water sliding over stones.",
+          "cn": "想象清水漫过卵石。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "The staff were at his beck and call from morning until night.",
+        "cn": "仆人们从早到晚听候他随时的召唤。"
+      },
+      {
+        "en": "Sheep grazed beside the clear beck below the hill.",
+        "cn": "羊群在山下清澈的小溪旁吃草。"
+      },
+      {
+        "en": "A slight beck from the chairman ended the debate.",
+        "cn": "主席轻轻一点头，辩论便告结束。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「 beckon 丢了尾巴剩 beck」——把招手叫人剪短，就是「示意召唤」。",
+      "word": "beck"
+    },
+    "root": "「召唤」义源自古英语 becnian（做示意动作）的中古英语缩短形式 beck；「小溪」义则为另一个来源，即古诺斯语 bikki（溪流），两词同形异源；固定短语 at someone's beck and call 约定型于中古英语晚期。",
+    "sensesIntro": {
+      "en": "One clipped word serves the silent summons and, by separate roots, the northern stream.",
+      "cn": "一个截短词，既指无声的召唤，又因另源而指北方的小溪。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: a single nod that brings a servant running.",
+        "cn": "核心意象：一个点头便召来仆人。"
+      },
+      "chain": [
+        "SIGNAL",
+        "COMMAND",
+        "OBEDIENCE",
+        "SERVICE",
+        "SILENCE",
+        "CURRENT"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "at someone's beck and call",
+          "cn": "听候随时差遣"
+        },
+        {
+          "senses": "01",
+          "en": "at his beck",
+          "cn": "听他招呼"
+        },
+        {
+          "senses": "01",
+          "en": "a slight beck",
+          "cn": "轻轻一点头"
+        },
+        {
+          "senses": "02",
+          "en": "a mountain beck",
+          "cn": "山间小溪"
+        },
+        {
+          "senses": "02",
+          "en": "the clear beck below the hill",
+          "cn": "山下清澈的小溪"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Beck belongs to the becnian family that also gives beckon.",
+        "cn": "beck 属于 becnian 词族，同族还有 beckon。"
+      },
+      "latinIntro": {
+        "en": "There is no Latin base; the roots are Old English and Old Norse.",
+        "cn": "这里没有拉丁词基，词根为古英语与古诺斯语。"
+      },
+      "items": [
+        {
+          "word": "becnian",
+          "structure": "Old English verb",
+          "meaning": "to make a sign",
+          "meaningCN": "做示意动作",
+          "example": "he becnode him to cum",
+          "exampleCN": "他示意他过来"
+        },
+        {
+          "word": "beckon",
+          "structure": "Old English becnian via Middle English",
+          "meaning": "to summon with a gesture",
+          "meaningCN": "招手召唤",
+          "example": "beckon to someone",
+          "exampleCN": "向某人招手"
+        },
+        {
+          "word": "beck",
+          "structure": "clipped form of beckon",
+          "meaning": "a nod of summons",
+          "meaningCN": "点头示意；召唤",
+          "example": "at his beck and call",
+          "exampleCN": "听候他差遣"
+        },
+        {
+          "word": "bikki",
+          "structure": "Old Norse noun",
+          "meaning": "a brook",
+          "meaningCN": "小溪",
+          "example": "a Yorkshire beck",
+          "exampleCN": "约克郡小溪"
+        },
+        {
+          "word": "gesture",
+          "structure": "Latin gesta",
+          "meaning": "a movement of meaning",
+          "meaningCN": "手势",
+          "example": "a commanding gesture",
+          "exampleCN": "命令的手势"
+        },
+        {
+          "word": "summons",
+          "structure": "summon + -s",
+          "meaning": "an order to appear",
+          "meaningCN": "传唤",
+          "example": "a royal summons",
+          "exampleCN": "王室传召"
+        },
+        {
+          "word": "brook",
+          "structure": "Old English brōc",
+          "meaning": "a small stream",
+          "meaningCN": "小溪",
+          "example": "a shady brook",
+          "exampleCN": "林荫小溪"
+        },
+        {
+          "word": "obedience",
+          "structure": "Latin oboedientia",
+          "meaning": "the state of obeying",
+          "meaningCN": "服从",
+          "example": "blind obedience",
+          "exampleCN": "盲从"
+        }
+      ],
+      "latinEntries": [],
+      "derivatives": [
+        {
+          "word": "beckon",
+          "pos": "v.",
+          "zh": "由同源完整形式构成，义为「招手；召唤」"
+        },
+        {
+          "word": "beckoner",
+          "pos": "n.",
+          "zh": "由 beckon 加 -er 构成，义为「招手召唤者」"
+        }
+      ]
+    }
+  }
+]
