@@ -1,0 +1,364 @@
+[
+  {
+    "word": "atom",
+    "ipa_uk": "/ˈætəm/",
+    "ipa_us": "/ˈætəm/",
+    "definition_zh": "原子；微粒；一点点",
+    "definition_en": "the smallest unit of a chemical element, or a very small amount",
+    "core_image": "一颗小到不能再切开的小球",
+    "scene": "黑板上画着电子绕着中心转的圈。The atom has a nucleus at its centre.",
+    "sceneCN": "这里 atom 是「原子」（第 1 个义项：构成元素的基本微粒）；句意是原子中心有一个原子核。",
+    "pos": [
+      {
+        "tag": "n.",
+        "zh": "名词：原子；微粒；一点点"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "a carbon atom",
+        "zh": "碳原子"
+      },
+      {
+        "phrase": "split the atom",
+        "zh": "分裂原子"
+      },
+      {
+        "phrase": "a hydrogen atom",
+        "zh": "氢原子"
+      },
+      {
+        "phrase": "not an atom of",
+        "zh": "一点也没有"
+      },
+      {
+        "phrase": "atom bomb",
+        "zh": "原子弹"
+      }
+    ],
+    "forms": [
+      {
+        "label": "复数",
+        "form": "atoms"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "atomic",
+        "pos": "adj.",
+        "zh": "形容词：原子的"
+      },
+      {
+        "word": "atomize",
+        "pos": "v.",
+        "zh": "动词：使雾化；使分裂成微粒"
+      },
+      {
+        "word": "atomizer",
+        "pos": "n.",
+        "zh": "名词：喷雾器"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "Smallest unit of an element",
+        "titleCN": "原子",
+        "definition": "the smallest unit of a chemical element that can take part in a reaction",
+        "definitionCN": "能参与化学反应的最小元素单位",
+        "example": "The atom has a nucleus at its centre.",
+        "exampleCN": "原子中心有一个原子核。",
+        "why": "Atom comes from Greek atomos, 'uncut', from a- 'not' plus temnein 'to cut', because the ancients thought it could not be divided further.",
+        "whyCN": "atom 来自希腊语 atomos「不可切分的」，由 a-「不」与 temnein「切」构成，因为古人以为它小到不能再分。"
+      },
+      {
+        "no": "02",
+        "title": "A very small amount",
+        "titleCN": "一点点；微量",
+        "definition": "a very small amount of something",
+        "definitionCN": "极少的一点分量",
+        "example": "There is not an atom of truth in the rumour.",
+        "exampleCN": "这个传言里没有一点真实成分。",
+        "why": "The smallest unit of matter became a measure of the smallest possible amount, used for emphasis in negatives.",
+        "whyCN": "物质的最小单位被借来度量最小可能的分量，多用于否定句以加强语气。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Atom is a Greek word that literally says 'not cuttable'.",
+        "cn": "atom 是个希腊词，字面意思就是「不可切分」。"
+      },
+      "items": [
+        {
+          "era": "GREEK TEMNEIN",
+          "en": "temnein meant 'to cut'.",
+          "cn": "temnein 意为「切」。"
+        },
+        {
+          "era": "GREEK ATOMOS",
+          "en": "atomos meant 'indivisible'.",
+          "cn": "atomos 意为「不可分割的」。"
+        },
+        {
+          "era": "LATIN ATOMUS",
+          "en": "atomus named the smallest particle.",
+          "cn": "atomus 指最小的微粒。"
+        },
+        {
+          "era": "EARLY MODERN ENGLISH",
+          "en": "Atom entered scientific English as the basic particle.",
+          "cn": "atom 作为基本微粒进入科学英语。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "The word also became a figure for a tiny amount.",
+          "cn": "这个词也成了「极小分量」的说法。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "The look-alike group is the atom family; the near-meaning group names particles and specks.",
+        "cn": "形近组是 atom 词族；近义组是表示微粒与少许的词。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "atomic",
+              "ipa": "/əˈtɒmɪk/",
+              "tag": "same root",
+              "definition": "relating to atoms",
+              "definitionCN": "原子的"
+            },
+            {
+              "word": "atomize",
+              "ipa": "/ˈætəmaɪz/",
+              "tag": "same root",
+              "definition": "to break into fine particles",
+              "definitionCN": "使雾化"
+            },
+            {
+              "word": "atomizer",
+              "ipa": "/ˈætəmaɪzə/",
+              "tag": "same root",
+              "definition": "a device that sprays",
+              "definitionCN": "喷雾器"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "particle",
+              "ipa": "/ˈpɑːtɪkl/",
+              "tag": "near synonym",
+              "definition": "a very small piece",
+              "definitionCN": "微粒"
+            },
+            {
+              "word": "molecule",
+              "ipa": "/ˈmɒlɪkjuːl/",
+              "tag": "near synonym",
+              "definition": "a group of atoms",
+              "definitionCN": "分子"
+            },
+            {
+              "word": "speck",
+              "ipa": "/spek/",
+              "tag": "related",
+              "definition": "a tiny mark or bit",
+              "definitionCN": "微粒；小点"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Atom means uncut: the piece nobody could divide any further.",
+        "cn": "atom 意为不可切分，指那块谁也无法再分的微粒。"
+      },
+      "normal": [
+        {
+          "en": "The word is countable: an atom, two atoms.",
+          "cn": "它可数：一个原子、两个原子。"
+        },
+        {
+          "en": "For emphasis in negatives, use not an atom of.",
+          "cn": "否定句里用 not an atom of 加强语气。"
+        },
+        {
+          "en": "The adjective is atomic, not atomical.",
+          "cn": "形容词是 atomic，不是 atomical。"
+        },
+        {
+          "en": "Do not confuse atom with molecule, which is a group.",
+          "cn": "不要与 molecule 混淆，后者是原子的组合。"
+        },
+        {
+          "en": "Stress falls on the first syllable.",
+          "cn": "重音在第一音节。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "See a ball so small that no knife can enter it.",
+          "cn": "想象一颗小到刀锋都进不去的球。"
+        },
+        {
+          "en": "See a single dot of dust on glass.",
+          "cn": "想象玻璃上的一粒尘点。"
+        },
+        {
+          "en": "See a diagram of rings around one centre.",
+          "cn": "想象中心周围画着几个圈的示意图。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "The atom has a nucleus at its centre.",
+        "cn": "原子中心有一个原子核。"
+      },
+      {
+        "en": "There is not an atom of truth in the rumour.",
+        "cn": "这个传言里没有一点真实成分。"
+      },
+      {
+        "en": "A water molecule contains two hydrogen atoms and one oxygen atom.",
+        "cn": "一个水分子含两个氢原子和一个氧原子。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "拆词记忆 · 非词源",
+      "text": "a-（不）加 tom（切）：不可再切的最小微粒，就是原子；再抽象一步，就是「一点点」。",
+      "word": "atom"
+    },
+    "root": "源自希腊语 atomos「不可分割的」，由 a-「不」与 temnein「切」构成，经拉丁语 atomus 进入英语；由最小微粒引申为极小的分量。",
+    "sensesIntro": {
+      "en": "The smallest piece of matter and the smallest possible amount share one limit.",
+      "cn": "物质的最小一块与分量的最小一点，共用同一条底线。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: a dot no knife can divide.",
+        "cn": "核心意象：一个刀也切不开的点。"
+      },
+      "chain": [
+        "UNCUT",
+        "SMALLEST",
+        "PARTICLE",
+        "MATTER",
+        "NUCLEUS",
+        "TRACE"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "a carbon atom",
+          "cn": "碳原子"
+        },
+        {
+          "senses": "01",
+          "en": "split the atom",
+          "cn": "分裂原子"
+        },
+        {
+          "senses": "01",
+          "en": "a hydrogen atom",
+          "cn": "氢原子"
+        },
+        {
+          "senses": "02",
+          "en": "not an atom of truth",
+          "cn": "一点真实成分也没有"
+        },
+        {
+          "senses": "02",
+          "en": "not an atom of evidence",
+          "cn": "一点证据也没有"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "The Greek root tom, 'cut', links atom with anatomy and dichotomy.",
+        "cn": "希腊词根 tom 意为「切」，把 atom 与 anatomy、dichotomy 连在一起。"
+      },
+      "latinIntro": {
+        "en": "Greek atomos reached English through Latin atomus.",
+        "cn": "希腊语 atomos 经拉丁语 atomus 进入英语。"
+      },
+      "items": [
+        {
+          "word": "atom",
+          "structure": "a- (not) + tom (cut)",
+          "meaning": "the uncut particle",
+          "meaningCN": "原子",
+          "example": "a carbon atom",
+          "exampleCN": "碳原子"
+        },
+        {
+          "word": "atomic",
+          "structure": "atom + -ic",
+          "meaning": "relating to atoms",
+          "meaningCN": "原子的",
+          "example": "atomic structure",
+          "exampleCN": "原子结构"
+        },
+        {
+          "word": "atomize",
+          "structure": "atom + -ize",
+          "meaning": "to reduce to fine particles",
+          "meaningCN": "使雾化",
+          "example": "atomize the liquid",
+          "exampleCN": "把液体雾化"
+        },
+        {
+          "word": "atomizer",
+          "structure": "atomize + -er",
+          "meaning": "a spraying device",
+          "meaningCN": "喷雾器",
+          "example": "a perfume atomizer",
+          "exampleCN": "香水喷雾器"
+        },
+        {
+          "word": "atomism",
+          "structure": "atom + -ism",
+          "meaning": "the theory of atoms",
+          "meaningCN": "原子论",
+          "example": "ancient atomism",
+          "exampleCN": "古代原子论"
+        },
+        {
+          "word": "anatomy",
+          "structure": "ana- (up) + tom (cut) + -y",
+          "meaning": "cutting up for study",
+          "meaningCN": "解剖；解剖学",
+          "example": "human anatomy",
+          "exampleCN": "人体解剖"
+        },
+        {
+          "word": "dichotomy",
+          "structure": "dicho- (in two) + tom (cut)",
+          "meaning": "a cutting in two",
+          "meaningCN": "二分法",
+          "example": "a false dichotomy",
+          "exampleCN": "虚假的二分"
+        },
+        {
+          "word": "epitome",
+          "structure": "epi- (upon) + tom (cut)",
+          "meaning": "a cutting short, a summary",
+          "meaningCN": "典型；缩影",
+          "example": "the epitome of style",
+          "exampleCN": "风格的典范"
+        }
+      ],
+      "latinEntries": []
+    }
+  }
+]

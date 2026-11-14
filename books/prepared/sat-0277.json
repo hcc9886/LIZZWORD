@@ -1,0 +1,547 @@
+[
+  {
+    "word": "assimilation",
+    "ipa_uk": "/əˌsɪmɪˈleɪʃən/",
+    "ipa_us": "/əˌsɪməˈleɪʃən/",
+    "definition_zh": "同化；吸收；使某物融入更大的整体",
+    "definition_en": "the process of becoming like something else, or of absorbing something into a larger whole",
+    "core_image": "一颗石子落进一锅浓汤，外形渐渐消失，味道却散进整锅汤里",
+    "scene": "新搬来的家庭在几年里改说当地语言、参加本地节庆，孩子们的同学不再觉得他们外来。Over two generations, the immigrant family achieved full assimilation into the host community.",
+    "sceneCN": "这里 assimilation 指「移民群体逐步融入主流社会的文化同化」（第 1 个义项：群体吸收进主流文化的过程）；句意为经过两代人，这个移民家庭完成了对当地社会的同化。可辨识物件：街区、节庆旗帜、学校门口、家庭餐桌。",
+    "pos": [
+      {
+        "tag": "n.",
+        "zh": "同化；融合（社会文化义，常作不可数）"
+      },
+      {
+        "tag": "n.",
+        "zh": "吸收（生理、认知或语音义）"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "cultural assimilation",
+        "zh": "文化同化"
+      },
+      {
+        "phrase": "assimilation into society",
+        "zh": "融入社会"
+      },
+      {
+        "phrase": "the assimilation of immigrants",
+        "zh": "移民的同化"
+      },
+      {
+        "phrase": "phonetic assimilation",
+        "zh": "语音同化"
+      },
+      {
+        "phrase": "assimilation of nutrients",
+        "zh": "营养吸收"
+      },
+      {
+        "phrase": "forced assimilation",
+        "zh": "强制同化"
+      }
+    ],
+    "forms": [
+      {
+        "label": "不可数用法（整体过程）",
+        "form": "assimilation"
+      },
+      {
+        "label": "可数复数（具体过程或案例）",
+        "form": "assimilations"
+      },
+      {
+        "label": "动词（同化；吸收）",
+        "form": "assimilate"
+      },
+      {
+        "label": "形容词（同化的）",
+        "form": "assimilative"
+      },
+      {
+        "label": "形容词（可被吸收的）",
+        "form": "assimilable"
+      },
+      {
+        "label": "名词（同化论者）",
+        "form": "assimilationist"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "assimilate",
+        "pos": "v.",
+        "zh": "同化；吸收；使相似"
+      },
+      {
+        "word": "assimilative",
+        "pos": "adj.",
+        "zh": "同化的；吸收的"
+      },
+      {
+        "word": "assimilable",
+        "pos": "adj.",
+        "zh": "可同化的；可吸收的"
+      },
+      {
+        "word": "assimilationist",
+        "pos": "n./adj.",
+        "zh": "主张同化者（的）"
+      },
+      {
+        "word": "assimilated",
+        "pos": "adj.",
+        "zh": "已被同化的"
+      },
+      {
+        "word": "dissimilation",
+        "pos": "n.",
+        "zh": "异化（语音或文化上的反向过程）"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "Cultural absorption into a host society",
+        "titleCN": "融入主流社会的文化同化",
+        "definition": "the process by which a group or person takes on the culture of a host society",
+        "definitionCN": "群体或个人逐渐接受主流社会文化的过程",
+        "example": "Over two generations, the immigrant family achieved full assimilation into the host community.",
+        "exampleCN": "经过两代人，这个移民家庭完成了对当地社会的同化。",
+        "why": "The Latin verb meant 'to make like'; in society the process makes newcomers like the majority.",
+        "whyCN": "拉丁动词意为「使相似」；在社会层面，这个过程使新来者变得像多数人。"
+      },
+      {
+        "no": "02",
+        "title": "Physiological absorption",
+        "titleCN": "生理吸收",
+        "definition": "the process by which the body takes nutrients into its own tissue",
+        "definitionCN": "身体把营养纳入自身组织的过程",
+        "example": "Assimilation of nutrients begins in the small intestine.",
+        "exampleCN": "营养的吸收从小肠开始。",
+        "why": "The body literally makes food like itself, turning foreign matter into tissue, which is the oldest concrete sense.",
+        "whyCN": "身体确实把食物变得像自己，把外来物质变成组织，这是最古老的具体义。"
+      },
+      {
+        "no": "03",
+        "title": "Cognitive assimilation",
+        "titleCN": "认知同化",
+        "definition": "the fitting of new experience into an existing mental framework",
+        "definitionCN": "把新经验纳入既有心智框架",
+        "example": "Piaget described assimilation as fitting new experience into an existing schema.",
+        "exampleCN": "皮亚杰把同化描述为把新经验纳入既有图式。",
+        "why": "The mind, like the body, absorbs what is new by making it fit what is already there.",
+        "whyCN": "心智与身体一样，通过让新事物贴合已有之物来吸收它。"
+      },
+      {
+        "no": "04",
+        "title": "Phonetic assimilation",
+        "titleCN": "语音同化",
+        "definition": "the change of a speech sound so that it becomes more like a neighbouring sound",
+        "definitionCN": "一个语音变得与相邻语音更相似",
+        "example": "In handbag the n of hand becomes m by assimilation before b.",
+        "exampleCN": "在英语复合词「手袋」中，前一词尾的鼻音受后接双唇音影响，经同化变成双唇鼻音。",
+        "why": "Sounds, like people, adjust to their neighbours; the technical sense applies the old verb to pronunciation.",
+        "whyCN": "音与人一样会向邻居靠拢；这个技术义把古老的动词用到发音上。"
+      },
+      {
+        "no": "05",
+        "title": "Immigrant assimilation policy",
+        "titleCN": "移民同化政策",
+        "definition": "a state programme that expects newcomers to adopt the majority culture",
+        "definitionCN": "要求新来者接受多数文化的国家政策",
+        "example": "The city's assimilation policy offered language classes but demanded cultural surrender.",
+        "exampleCN": "这座城市的同化政策提供语言课程，却要求文化上的归顺。",
+        "why": "When the process is planned by institutions, the noun names a policy and carries its political weight.",
+        "whyCN": "当过程由机构规划时，这个名词指一项政策，并带上政治分量。"
+      },
+      {
+        "no": "06",
+        "title": "Structural assimilation",
+        "titleCN": "结构性同化",
+        "definition": "entry of a minority into the institutions and social networks of the majority",
+        "definitionCN": "少数群体进入多数群体的制度与社会网络",
+        "example": "Structural assimilation meant immigrants entered clubs, schools and political parties.",
+        "exampleCN": "结构性同化意味着移民进入俱乐部、学校与政党。",
+        "why": "Sociologists split assimilation into parts; the structural part concerns access to institutions rather than taste or language.",
+        "whyCN": "社会学家把同化分成若干部分；结构部分关乎制度准入，而非口味或语言。"
+      },
+      {
+        "no": "07",
+        "title": "Forced assimilation",
+        "titleCN": "强制同化",
+        "definition": "assimilation imposed by power, often through schools, law or punishment",
+        "definitionCN": "由权力强加的同化，常通过学校、法律或惩罚",
+        "example": "Boarding schools practised forced assimilation of indigenous children.",
+        "exampleCN": "寄宿学校对原住民儿童实行强制同化。",
+        "why": "The same noun can name coercion, because absorption into a larger whole may be demanded rather than chosen.",
+        "whyCN": "同一个名词也能指强迫，因为融入更大整体可能是被要求而非自愿的。"
+      },
+      {
+        "no": "08",
+        "title": "Abstract incorporation into a framework",
+        "titleCN": "抽象地并入框架",
+        "definition": "the incorporation of a foreign element into an existing system or narrative",
+        "definitionCN": "把外来要素并入既有体系或叙述",
+        "example": "The essay assimilates every dissent into one smooth narrative.",
+        "exampleCN": "这篇文章把一切异议都同化进一个平滑的叙述。",
+        "why": "The abstract sense drops people and bodies: any odd element can be made to fit a system.",
+        "whyCN": "抽象义不再涉及人与身体：任何异质要素都可以被弄得贴合某个体系。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Assimilation comes from Latin assimilatio, from assimilare 'to make like', built on ad- 'to' and similis 'like'. English uses it for bodies, minds, sounds and societies. Dates are approximate.",
+        "cn": "assimilation 来自拉丁 assimilatio，源于 assimilare「使相似」，由 ad-「向」与 similis「相似」构成。英语用它指身体、心智、语音与社会。年代均为约数。"
+      },
+      "items": [
+        {
+          "era": "LATIN SIMILIS",
+          "en": "Similis meant 'like, similar'. It is generally connected with simul 'together' and similis 'like', but the pre-Latin shape is a reconstruction rather than a witnessed form.",
+          "cn": "similis 意为「相似的」。一般认为它与 simul「一起」同源，但拉丁语之前的形态属重构形式，并无实际书证。"
+        },
+        {
+          "era": "LATIN ASSIMILARE",
+          "en": "Ad- 'to, toward' plus similis produced assimilare 'to make like, to liken, to absorb'.",
+          "cn": "ad-「向、朝」加 similis 构成 assimilare「使相似、比作、吸收」。"
+        },
+        {
+          "era": "ENGLISH NOUN",
+          "en": "The noun entered English in the sixteenth century, first in the general sense of making one thing like another.",
+          "cn": "这个名词在十六世纪进入英语，最初泛指使一物像另一物。"
+        },
+        {
+          "era": "BODY AND MIND",
+          "en": "Physiology adopted it for the conversion of food into tissue, and psychology later for the fitting of new experience into existing schemas.",
+          "cn": "生理学用它指食物转化为组织，心理学后来用它指把新经验纳入既有图式。"
+        },
+        {
+          "era": "SOCIETY AND SPEECH",
+          "en": "Nineteenth-century sociology applied it to immigrant groups, and linguistics used it for sounds becoming like their neighbours.",
+          "cn": "十九世纪社会学把它用于移民群体，语言学则用它指语音向邻近语音靠拢。"
+        },
+        {
+          "era": "UNCERTAIN DETAILS",
+          "en": "Source uncertain (deeper origin): the link of similis to simul is generally accepted but the pre-Latin form is reconstructed, and the earliest use of each technical sense is not precisely dated.",
+          "cn": "来源不确定（更深词源）：similis 与 simul 的联系虽被一般接受，但拉丁语之前的形态属重构形式；各技术义的最早书证年代并不精确。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "Group one is built on the same 'like' root; group two names absorption or blending under other names.",
+        "cn": "第一组同出「相似」词根；第二组是用其他名称表达吸收或混合的说法。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "assimilate",
+              "ipa": "/əˈsɪmɪleɪt/",
+              "tag": "the verb",
+              "definition": "The action behind the noun; it can take a direct object or appear in the passive.",
+              "definitionCN": "名词背后的动作；可带宾语，也可用被动式。"
+            },
+            {
+              "word": "assimilated",
+              "ipa": "/əˈsɪmɪleɪtɪd/",
+              "tag": "past participle",
+              "definition": "Describes a person or group already absorbed, not the process.",
+              "definitionCN": "描述已被吸收的个人或群体，而非过程。"
+            },
+            {
+              "word": "assimilative",
+              "ipa": "/əˈsɪmɪlətɪv/",
+              "tag": "adjective",
+              "definition": "Means tending to absorb or make similar; it describes a capacity.",
+              "definitionCN": "意为有吸收或同化倾向的；描述一种能力。"
+            },
+            {
+              "word": "dissimilation",
+              "ipa": "/ˌdɪsɪmɪˈleɪʃən/",
+              "tag": "the opposite",
+              "definition": "The reverse process, in which sounds or traits become less alike; the prefix changes the direction.",
+              "definitionCN": "相反的过程，语音或特质变得更不相似；前缀改变了方向。"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "integration",
+              "ipa": "/ˌɪntɪˈɡreɪʃən/",
+              "tag": "joining a whole",
+              "definition": "Entry into a society without necessarily losing one's own culture; assimilation is stronger.",
+              "definitionCN": "进入社会但未必失去自身文化；同化的程度更强。"
+            },
+            {
+              "word": "absorption",
+              "ipa": "/əˈbzɔːpʃən/",
+              "tag": "taking in",
+              "definition": "The plain word for one thing taking in another, used of liquids, knowledge and groups.",
+              "definitionCN": "指一物吸纳另一物的普通说法，可用于液体、知识与群体。"
+            },
+            {
+              "word": "acculturation",
+              "ipa": "/æˌkʌltʃəˈreɪʃən/",
+              "tag": "two-way change",
+              "definition": "Cultural change through contact that can go both ways; assimilation usually points toward the majority.",
+              "definitionCN": "接触引起的文化变化，可是双向的；同化通常指向多数群体。"
+            },
+            {
+              "word": "homogenization",
+              "ipa": "/ˌhɒmədʒənaɪˈzeɪʃən/",
+              "tag": "making uniform",
+              "definition": "The result of many things becoming the same; it stresses sameness rather than absorption.",
+              "definitionCN": "指许多事物变得相同的结果，强调相同而非吸收。"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Normal associations: real morphemes, real collocations and real contrasts, not invented rhymes.",
+        "cn": "正常联想：真实的构词成分、真实搭配与真实对比，而非编造的顺口溜。"
+      },
+      "normal": [
+        {
+          "en": "ad- 'toward' plus similis 'like': to move toward being like.",
+          "cn": "ad-「向」加 similis「相似」：朝「像」的方向移动。"
+        },
+        {
+          "en": "The family runs assimilate, assimilated, assimilation, assimilative, assimilable, assimilationist.",
+          "cn": "同族词包括 assimilate、assimilated、assimilation、assimilative、assimilable、assimilationist。"
+        },
+        {
+          "en": "Fixed phrases: cultural assimilation, assimilation of immigrants, phonetic assimilation.",
+          "cn": "固定搭配：文化同化、移民的同化、语音同化。"
+        },
+        {
+          "en": "The same noun serves the stomach, the mind, the mouth and the state.",
+          "cn": "同一个名词可用于胃、心智、口舌与国家。"
+        },
+        {
+          "en": "Opposite direction is marked by a different prefix in dissimilation.",
+          "cn": "相反方向由 dissimilation 中的另一个前缀标记。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "Picture a lump of sugar disappearing into hot tea.",
+          "cn": "想象一块糖消失在热茶里。"
+        },
+        {
+          "en": "Picture a new word being spoken in the accent of its new street.",
+          "cn": "想象一个新词用它新所在街道的口音说出。"
+        },
+        {
+          "en": "Picture a map redrawn until the old border is only a faint line.",
+          "cn": "想象地图被重画，旧边界只剩一道淡线。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "Assimilation into the village took a generation and cost the family its old language.",
+        "cn": "融入这个村庄花了一代人的时间，也让这家人失去了旧语言。"
+      },
+      {
+        "en": "The laboratory measured the assimilation of iron in the digestive tract.",
+        "cn": "实验室测量了消化道中铁的吸收。"
+      },
+      {
+        "en": "Linguists describe the assimilation of place of articulation in rapid speech.",
+        "cn": "语言学家描述快速语流中发音部位的同化。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「朝向」加「相似」加「过程」——朝「变得相似」走的过程",
+      "word": "assimilation"
+    },
+    "root": "拉丁 assimilare「使相似」= ad-（向）+ similis（相似），名词 assimilatio；similis 一般认为与 simul「一起」同源，但更早形态属重构。英语 assimilation。",
+    "sensesIntro": {
+      "en": "Eight senses follow one move: something outside is made like the inside, whether the inside is a society, a body, a mind, a sound system or a written argument.",
+      "cn": "八个义项沿同一个动作展开：把外部之物变得像内部之物，这个「内部」可以是社会、身体、心智、语音系统或一篇论述。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: a stone dropped into thick soup, losing its outline while its taste spreads through the pot.",
+        "cn": "核心意象：一颗石子落进浓汤，外形渐失，味道却散进整锅。"
+      },
+      "chain": [
+        "ABSORB",
+        "MAKE LIKE",
+        "BODY",
+        "MIND",
+        "SOUND",
+        "SOCIETY"
+      ],
+      "branches": [
+        {
+          "senses": "01 · 05",
+          "en": "SOCIETY AND POLICY: a group may be absorbed by the majority, and the state may demand it.",
+          "cn": "社会与政策：群体可能被多数吸收，国家也可能强制要求。"
+        },
+        {
+          "senses": "02",
+          "en": "BODY: food becomes tissue, the most concrete form of the process.",
+          "cn": "身体：食物变成组织，这是该过程最具体的形式。"
+        },
+        {
+          "senses": "03 · 08",
+          "en": "MIND AND TEXT: new experience fits a schema, and an argument can absorb dissent.",
+          "cn": "心智与文本：新经验贴合图式，一篇论述也能吸收异议。"
+        },
+        {
+          "senses": "04",
+          "en": "SOUND: a speech sound adjusts to its neighbour.",
+          "cn": "语音：语音向邻近语音靠拢。"
+        },
+        {
+          "senses": "06 · 07",
+          "en": "INSTITUTIONS AND FORCE: entry into schools and parties is different from compulsory absorption.",
+          "cn": "制度与强制：进入学校与政党，不同于强迫吸收。"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Assimilation can be read from a Latin prefix, the Latin adjective for 'like', and the noun suffix that names a process.",
+        "cn": "assimilation 可以按拉丁前缀、表示「相似」的拉丁形容词，以及表示过程的名词后缀逐段读出。"
+      },
+      "latinIntro": {
+        "en": "Latin similis supplies similar, similarity and assimilate; ad- adds direction toward, and the noun suffix names the process.",
+        "cn": "拉丁 similis 衍生 similar、similarity 与 assimilate；ad- 增添朝向，名词后缀指过程。"
+      },
+      "items": [
+        {
+          "word": "ad-",
+          "structure": "ad- (Latin prefix)",
+          "meaning": "to, toward",
+          "meaningCN": "向；朝",
+          "example": "The prefix aims the action at a target.",
+          "exampleCN": "这个前缀把动作指向目标。"
+        },
+        {
+          "word": "similis",
+          "structure": "similis, simile (Latin adjective)",
+          "meaning": "like, similar",
+          "meaningCN": "相似的；相像的",
+          "example": "The adjective supplies the goal of the action.",
+          "exampleCN": "这个形容词提供动作的目标。"
+        },
+        {
+          "word": "assimilare",
+          "structure": "ad- + similis (Latin verb)",
+          "meaning": "to make like, absorb",
+          "meaningCN": "使相似；吸收",
+          "example": "The verb names the act of making one thing like another.",
+          "exampleCN": "这个动词指使一物像另一物。"
+        },
+        {
+          "word": "assimilation",
+          "structure": "assimilare + -ation (process noun)",
+          "meaning": "the process of becoming like or being absorbed",
+          "meaningCN": "同化或吸收的过程",
+          "example": "Assimilation can be cultural or physical.",
+          "exampleCN": "同化可以是文化的，也可以是生理的。"
+        },
+        {
+          "word": "assimilate",
+          "structure": "assimilare through French",
+          "meaning": "to absorb or make similar",
+          "meaningCN": "吸收；使相似",
+          "example": "The body assimilates nutrients.",
+          "exampleCN": "身体吸收营养。"
+        },
+        {
+          "word": "assimilated",
+          "structure": "assimilate + -ed (past participle)",
+          "meaning": "already absorbed or made similar",
+          "meaningCN": "已被吸收或同化的",
+          "example": "An assimilated group speaks the majority language.",
+          "exampleCN": "被同化的群体说多数人的语言。"
+        },
+        {
+          "word": "assimilative",
+          "structure": "assimilate + -ive (tending to)",
+          "meaning": "tending to absorb or make similar",
+          "meaningCN": "有吸收或同化倾向的",
+          "example": "The process is assimilative by nature.",
+          "exampleCN": "这个过程本质上是同化性的。"
+        },
+        {
+          "word": "assimilable",
+          "structure": "assimilate + -able (can be)",
+          "meaning": "able to be absorbed",
+          "meaningCN": "可被吸收的",
+          "example": "Some nutrients are more assimilable than others.",
+          "exampleCN": "有些营养比其他营养更易吸收。"
+        },
+        {
+          "word": "assimilationist",
+          "structure": "assimilation + -ist (advocate)",
+          "meaning": "a person who favours assimilation",
+          "meaningCN": "主张同化的人",
+          "example": "The policy was defended by assimilationists.",
+          "exampleCN": "这项政策得到同化论者的辩护。"
+        },
+        {
+          "word": "dissimilation",
+          "structure": "dis- (apart) + similis + -ation",
+          "meaning": "the reverse process, becoming less alike",
+          "meaningCN": "异化；变得不相似",
+          "example": "Dissimilation makes neighbouring sounds differ.",
+          "exampleCN": "异化使相邻语音变得不同。"
+        }
+      ],
+      "derivatives": [
+        {
+          "word": "similar",
+          "structure": "similis + -ar (adjective)",
+          "meaning": "like, alike",
+          "meaningCN": "相似的"
+        },
+        {
+          "word": "similarity",
+          "structure": "similar + -ity (state noun)",
+          "meaning": "the state of being alike",
+          "meaningCN": "相似性"
+        },
+        {
+          "word": "dissimilate",
+          "structure": "dis- + assimilare",
+          "meaning": "to make unlike; to become less similar",
+          "meaningCN": "使不同；异化"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "similis",
+          "structure": "similis, simile (adjective)",
+          "meaning": "like, similar",
+          "meaningCN": "相似的；相像的"
+        },
+        {
+          "word": "assimilare",
+          "structure": "assimilare, assimilavi, assimilatum (verb, first conjugation)",
+          "meaning": "to make like, absorb",
+          "meaningCN": "使相似；吸收"
+        },
+        {
+          "word": "similitudo",
+          "structure": "similitudo, similitudinis (f., third declension)",
+          "meaning": "likeness, similarity",
+          "meaningCN": "相似；相像"
+        }
+      ]
+    }
+  }
+]
