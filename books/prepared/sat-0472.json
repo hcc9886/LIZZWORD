@@ -1,0 +1,151 @@
+{
+  "word": "brokerage",
+  "ipa_uk": "/ˈbrəʊkərɪdʒ/",
+  "ipa_us": "/ˈbroʊkərɪdʒ/",
+  "definition_zh": "经纪业务；经纪公司；佣金，回扣",
+  "definition_en": "the business of a broker; a firm of brokers; the fee a broker charges",
+  "core_image": "中间人一手牵买家一手牵卖家，从成交里抽一小截",
+  "scene": "交易大厅里电话声此起彼伏，报价屏不停闪烁。Her brokerage handled trades for two hundred clients.",
+  "sceneCN": "这里 brokerage 是「经纪公司」（第 2 个义项：经营代理买卖业务的公司）；句意是她所在的经纪公司为两百名客户打理交易。",
+  "pos": [
+    { "tag": "n.", "zh": "经纪业务；经纪公司；经纪人佣金" }
+  ],
+  "collocations": [
+    { "phrase": "a real estate brokerage", "zh": "房地产经纪公司" },
+    { "phrase": "open a brokerage account", "zh": "开立证券经纪账户" },
+    { "phrase": "charge brokerage", "zh": "收取佣金" },
+    { "phrase": "an online brokerage", "zh": "线上券商" },
+    { "phrase": "brokerage fees", "zh": "经纪费" }
+  ],
+  "forms": [
+    { "label": "复数", "form": "brokerages" }
+  ],
+  "derivatives": [
+    { "word": "broker", "pos": "n.", "zh": "brokerage 的基础词，义为「经纪人；掮客」" },
+    { "word": "brokership", "pos": "n.", "zh": "由 broker 加 -ship 构成，义为「经纪身份；经纪行当（罕用）」" },
+    { "word": "brokering", "pos": "n.", "zh": "由动词加 -ing 构成，义为「居间撮合的行为」" }
+  ],
+  "senses": [
+    {
+      "no": "01",
+      "title": "The broker's business",
+      "titleCN": "经纪业务",
+      "definition": "the trade of acting as an agent between buyers and sellers",
+      "definitionCN": "在买卖双方之间居间代理的业务",
+      "example": "The firm moved from banking into brokerage.",
+      "exampleCN": "这家公司从银行业转入了经纪业务。",
+      "why": "The agent suffix -age turns the broker into his line of work.",
+      "whyCN": "集体或行为后缀 -age 把经纪人转成他的业务行当。"
+    },
+    {
+      "no": "02",
+      "title": "A firm of brokers",
+      "titleCN": "经纪公司",
+      "definition": "a company whose business is brokerage",
+      "definitionCN": "经营经纪业务的公司机构",
+      "example": "She opened an account at a discount brokerage.",
+      "exampleCN": "她在一家折扣券商开了账户。",
+      "why": "A business name easily becomes the name of the business place.",
+      "whyCN": "业务的名称顺势转指经营这项业务的机构。"
+    },
+    {
+      "no": "03",
+      "title": "The broker's fee",
+      "titleCN": "佣金；回扣",
+      "definition": "the fee or commission charged for arranging a deal",
+      "definitionCN": "为撮合交易而收取的酬金",
+      "example": "The deal cost them a hefty brokerage.",
+      "exampleCN": "这笔交易让他们付了一笔可观的佣金。",
+      "why": "-age also names payment for a service, like postage orstorage.",
+      "whyCN": "-age 也可表服务酬金，如 postage、storage 之类。"
+    }
+  ],
+  "etymology": {
+    "intro": { "en": "Brokerage is broker plus -age, and broker itself comes from an Old French word for small trader.", "cn": "brokerage 由 broker 加 -age 构成，broker 则源自古法语指小贩的词。" },
+    "items": [
+      { "era": "OLD FRENCH", "en": "broceour meant a small trader, wine seller or retailer.", "cn": "古法语 broceour 指小贩、酒贩或零售商。" },
+      { "era": "ANGLO-NORMAN", "en": "brocour crossed into England with the wine trade.", "cn": "随酒业传入英格兰，词形作 brocour。" },
+      { "era": "ENGLISH, 14TH C.", "en": "broker meant a middleman in trade, at first with a hint of trickery.", "cn": "十四世纪英语 broker 指居间商人，起初略带贬义。" },
+      { "era": "ENGLISH, 16TH–17TH C.", "en": "brokerage formed on broker with the -age suffix for business and fees.", "cn": "十六至十七世纪以 broker 加 -age 构成 brokerage，兼指业务与佣金。" },
+      { "era": "PRESENT DAY ENGLISH", "en": "brokerage now names firms, accounts and fees in finance and property.", "cn": "如今 brokerage 用于金融与地产，指券商、账户与佣金。" }
+    ]
+  },
+  "similar": {
+    "note": { "en": "Brokerage belongs to the world of agents and middlemen.", "cn": "brokerage 属于代理与居间业务的世界。" },
+    "groups": [
+      {
+        "heading": "LOOK-ALIKE",
+        "entries": [
+          { "word": "broker", "ipa": "/ˈbrəʊkə(r)/", "tag": "same root", "definition": "an agent who buys and sells for others", "definitionCN": "经纪人，brokerage 的基础词" },
+          { "word": "brokering", "ipa": "/ˈbrəʊkərɪŋ/", "tag": "derived form", "definition": "the act of arranging deals as a broker", "definitionCN": "居间撮合的行为" },
+          { "word": "storage", "ipa": "/ˈstɔːrɪdʒ/", "tag": "same suffix", "definition": "the fee or act of storing", "definitionCN": "仓储（费）——同为 -age 表费用，词根不同" }
+        ]
+      },
+      {
+        "heading": "NEAR MEANING",
+        "entries": [
+          { "word": "agency", "ipa": "/ˈeɪdʒənsi/", "tag": "near meaning", "definition": "the business of acting for others; an agent's firm", "definitionCN": "代理业务；代理机构" },
+          { "word": "commission", "ipa": "/kəˈmɪʃn/", "tag": "near meaning", "definition": "a fee paid as a percentage of a sale", "definitionCN": "按成交额抽取的佣金" },
+          { "word": "dealer", "ipa": "/ˈdiːlə(r)/", "tag": "near meaning", "definition": "a trader who buys and sells on his own account", "definitionCN": "自营商，与经纪人相对" },
+          { "word": "intermediary", "ipa": "/ˌɪntəˈmiːdiəri/", "tag": "near meaning", "definition": "a person who acts between two parties", "definitionCN": "中间人；斡旋者" },
+          { "word": "firm", "ipa": "/fɜːm/", "tag": "near meaning", "definition": "a business company", "definitionCN": "商行；公司" }
+        ]
+      }
+    ]
+  },
+  "mnemonics": {
+    "normalIntro": { "en": "Stack the word: broker plus age equals the broker's business, firm and fee.", "cn": "把词拆开记：broker 加 age，即经纪人的业务、公司与佣金。" },
+    "normal": [
+      { "en": "Broker + age: like postage, a fee word.", "cn": "broker 加 -age，如 postage 一样可表费用。" },
+      { "en": "A brokerage account is where the broker works for you.", "cn": "brokerage account 就是券商替你操作交易的账户。" },
+      { "en": "Real estate brokerage sells houses for a cut.", "cn": "地产中介抽成卖房。" },
+      { "en": "Dealer trades his own goods; broker trades yours.", "cn": "dealer 卖自己的货，broker 卖你的货。" },
+      { "en": "Age here means business, not years.", "cn": "这里的 -age 表业务，与年龄无关。" }
+    ],
+    "abstract": [
+      { "en": "See a middleman shaking two hands at once.", "cn": "想象中间人同时握住两只手。" },
+      { "en": "Watch a thin slice peel off every big deal.", "cn": "看着每笔大交易上削下薄薄一片。" },
+      { "en": "Hear ringing phones in a room full of screens.", "cn": "听满屋屏幕间电话铃声大作。" }
+    ]
+  },
+  "examples": [
+    { "en": "The brokerage earned a fee on every share traded.", "cn": "券商从每笔股票交易中抽取佣金。" },
+    { "en": "He left banking to open a small brokerage downtown.", "cn": "他离开银行业，在市中心开了家小经纪行。" },
+    { "en": "They cut brokerage costs by trading online.", "cn": "他们改做线上交易以省下经纪费。" }
+  ],
+  "dict_mnemonic": { "note": "谐音记忆 · 非词源", "text": "「不若亏之」——中间人劝你：「不若亏之」，亏他一点佣金，买卖才成。", "word": "brokerage" },
+  "root": "brokerage 由 broker（经纪人）加 -age（业务、费用）构成；broker 源自古法语 broceour／brocour（小贩、酒商），更早词源不确定，或与灌木丛（broce）中摆摊的零售者有关，属存疑假说。",
+  "sensesIntro": { "en": "The -age suffix spreads one root across the business, the firm and the fee.", "cn": "一个 -age 后缀，让同一个词根覆盖了业务、公司和佣金三义。" },
+  "semanticMap": {
+    "core": { "en": "CORE IMAGE: a middleman taking a thin slice of the deal.", "cn": "核心意象：中间人从成交中抽走薄薄一片。" },
+    "chain": ["BROKER", "MIDDLEMAN", "DEAL", "FIRM", "FEE", "ACCOUNT"],
+    "branches": [
+      { "senses": "01", "en": "go into brokerage", "cn": "进入经纪行业" },
+      { "senses": "01 · 02", "en": "an insurance brokerage", "cn": "保险经纪行" },
+      { "senses": "02", "en": "a brokerage account", "cn": "券商账户" },
+      { "senses": "03", "en": "charge heavy brokerage", "cn": "收取高额佣金" },
+      { "senses": "01 · 03", "en": "brokerage on the deal", "cn": "该笔交易的佣金" }
+    ]
+  },
+  "affixes": {
+    "intro": { "en": "The family is small: the agent, his act, his status and his business.", "cn": "词族不大：经纪人、其行为、其身份、其业务。" },
+    "latinIntro": { "en": "The trail is French and possibly older still, ending in uncertainty.", "cn": "词源经法语上溯，更早来源不确定。" },
+    "items": [
+      { "word": "broker", "structure": "noun base", "meaning": "an agent for buyers and sellers", "meaningCN": "经纪人", "example": "a stock broker", "exampleCN": "证券经纪人" },
+      { "word": "-age", "structure": "noun suffix", "meaning": "business, fee, collective", "meaningCN": "表业务、费用或集合的后缀", "example": "postage, storage, brokerage", "exampleCN": "如 postage、storage、brokerage 等词" },
+      { "word": "brokerage", "structure": "broker + -age", "meaning": "broker's business, firm or fee", "meaningCN": "经纪业务；经纪公司；佣金", "example": "a brokerage house", "exampleCN": "证券行" },
+      { "word": "brokering", "structure": "verb + -ing", "meaning": "arranging deals between parties", "meaningCN": "居间撮合", "example": "the brokering of peace talks", "exampleCN": "和谈的斡旋" },
+      { "word": "brokership", "structure": "broker + -ship", "meaning": "the status of broker", "meaningCN": "经纪身份", "example": "his brokership lapsed", "exampleCN": "他的经纪资格失效（罕用）" },
+      { "word": "pawnbroker", "structure": "compound", "meaning": "a lender against pledged goods", "meaningCN": "典当商", "example": "the pawnbroker's window", "exampleCN": "当铺橱窗" },
+      { "word": "power broker", "structure": "compound", "meaning": "a person who deals in influence", "meaningCN": "权力掮客", "example": "a Washington power broker", "exampleCN": "华盛顿的权力掮客" },
+      { "word": "agency", "structure": "parallel -cy noun", "meaning": "the business of an agent", "meaningCN": "代理业务；中介", "example": "a travel agency", "exampleCN": "旅行社" },
+      { "word": "commission", "structure": "parallel fee noun", "meaning": "percentage fee on sales", "meaningCN": "佣金", "example": "ten percent commission", "exampleCN": "一成佣金" },
+      { "word": "dealer", "structure": "parallel trader noun", "meaning": "one who trades for himself", "meaningCN": "自营商", "example": "a car dealer", "exampleCN": "汽车商行" }
+    ],
+    "latinEntries": [],
+    "derivatives": [
+      { "word": "broker", "pos": "n.", "zh": "经纪人" },
+      { "word": "brokering", "pos": "n.", "zh": "居间撮合" }
+    ]
+  }
+}

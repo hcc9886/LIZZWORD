@@ -1,0 +1,551 @@
+{
+  "word": "biodegradable",
+  "ipa_uk": "/ˌbaɪəʊdɪˈɡreɪdəbl/",
+  "ipa_us": "/ˌbaɪoʊdɪˈɡreɪdəbl/",
+  "definition_zh": "可生物降解的；能被微生物分解的",
+  "definition_en": "able to be broken down by living organisms, especially microorganisms, into simple natural substances",
+  "core_image": "一只纸盒埋在湿土里，边缘被菌丝啃成缺口，半年后只剩几片碎屑与深色的土",
+  "scene": "公园把塑料餐盒换成纸浆做的盒子，埋进堆肥坑里几个月后就只剩碎屑。The coffee shop now serves its meals in biodegradable trays.",
+  "sceneCN": "这里指材料能被微生物分解成简单天然物质（第 1 个义项：可被生物分解）；句意为这家咖啡馆现在用可生物降解的餐盘盛饭。",
+  "pos": [
+    {
+      "tag": "adj.",
+      "zh": "可生物降解的；能被微生物分解的"
+    }
+  ],
+  "collocations": [
+    {
+      "phrase": "biodegradable packaging",
+      "zh": "可生物降解包装"
+    },
+    {
+      "phrase": "biodegradable plastic",
+      "zh": "可生物降解塑料"
+    },
+    {
+      "phrase": "fully biodegradable",
+      "zh": "完全可生物降解的"
+    },
+    {
+      "phrase": "biodegradable waste",
+      "zh": "可生物降解废物"
+    },
+    {
+      "phrase": "biodegradable detergent",
+      "zh": "可生物降解洗涤剂"
+    },
+    {
+      "phrase": "certified biodegradable",
+      "zh": "经认证可生物降解的"
+    }
+  ],
+  "forms": [
+    {
+      "label": "形容词原形",
+      "form": "biodegradable"
+    },
+    {
+      "label": "比较级",
+      "form": "more biodegradable"
+    },
+    {
+      "label": "最高级",
+      "form": "most biodegradable"
+    },
+    {
+      "label": "名词（性质）",
+      "form": "biodegradability"
+    },
+    {
+      "label": "动词",
+      "form": "biodegrade"
+    },
+    {
+      "label": "副词",
+      "form": "biodegradably"
+    }
+  ],
+  "derivatives": [
+    {
+      "word": "biodegrade",
+      "pos": "v.",
+      "zh": "由表示「生命」的成分加表示「降级、分解」的动词构成，义为「生物降解」"
+    },
+    {
+      "word": "biodegradation",
+      "pos": "n.",
+      "zh": "由该动词加表示动作结果的名词尾构成，义为「生物降解过程」"
+    },
+    {
+      "word": "biodegradability",
+      "pos": "n.",
+      "zh": "由该形容词加表示性质的名词尾构成，义为「可生物降解性」"
+    },
+    {
+      "word": "degradable",
+      "pos": "adj.",
+      "zh": "该词去掉表示「生命」的成分后剩下的形容词，义为「可降解的」，降解方式不限"
+    },
+    {
+      "word": "non-biodegradable",
+      "pos": "adj.",
+      "zh": "由表示否定的前缀加该词构成，义为「不可生物降解的」"
+    },
+    {
+      "word": "compostable",
+      "pos": "adj.",
+      "zh": "相邻术语，指可在堆肥条件下分解并产出可用堆肥，义为「可堆肥的」"
+    }
+  ],
+  "senses": [
+    {
+      "no": "01",
+      "title": "Breakable down by living organisms",
+      "titleCN": "可被生物分解",
+      "definition": "able to be decomposed by bacteria, fungi or other organisms rather than only by heat, light or chemicals",
+      "definitionCN": "能被细菌、真菌或其他生物分解，而不是只能靠热、光或化学品分解",
+      "example": "The liner is biodegradable, so it breaks down in soil within a season.",
+      "exampleCN": "这种衬垫是可生物降解的，因此在一个季节内就能在土壤里分解。",
+      "why": "The first element means life and the last means able to be, so the word says living things can take it apart.",
+      "whyCN": "前一个成分意为「生命」，后一个成分意为「能够被……」，因此这个词说的是活物能把它拆开。"
+    },
+    {
+      "no": "02",
+      "title": "Leaving only harmless natural products",
+      "titleCN": "分解后只留下无害的天然物质",
+      "definition": "breaking down into water, carbon dioxide, biomass and simple minerals rather than toxic residue",
+      "definitionCN": "分解为水、二氧化碳、生物质与简单矿物质，而不是留下有毒残留",
+      "example": "A material is only fully biodegradable if no harmful residue is left behind.",
+      "exampleCN": "一种材料只有不留下有害残留，才算完全可生物降解。",
+      "why": "Complete breakdown is judged by what remains, which is why the claim is tested rather than assumed.",
+      "whyCN": "完全分解要看剩下什么来判断，这正是这一说法需要检测而不能想当然的原因。"
+    },
+    {
+      "no": "03",
+      "title": "Dependent on specific conditions",
+      "titleCN": "依赖特定分解条件",
+      "definition": "requiring the right microbes, moisture, oxygen and temperature before decomposition can proceed",
+      "definitionCN": "需要合适的微生物、湿度、氧气与温度，分解才能进行",
+      "example": "The bag is biodegradable but needs a warm, moist compost heap to break down at all.",
+      "exampleCN": "这种袋子可生物降解，但必须有温暖潮湿的堆肥堆才能真正分解。",
+      "why": "Microbes are living workers, so their working conditions become conditions of the material.",
+      "whyCN": "微生物是活着的工人，因此它们的工作条件就成了这种材料的条件。"
+    },
+    {
+      "no": "04",
+      "title": "A property of packaging and products",
+      "titleCN": "包装与制品的一项属性",
+      "definition": "a stated property of films, trays, bags, cutlery and detergents sold as environmentally preferable",
+      "definitionCN": "薄膜、托盘、袋子、餐具与洗涤剂等被宣称为更环保产品时标明的属性",
+      "example": "The shop prints biodegradable on the box, but not the conditions needed.",
+      "exampleCN": "这家店在盒子上印了「可生物降解」，却没有印所需的分解条件。",
+      "why": "The word became a marketing attribute once disposable goods needed an environmental defence.",
+      "whyCN": "一次性用品需要环境方面的辩护时，这个词就成了一种营销属性。"
+    },
+    {
+      "no": "05",
+      "title": "Compostable as a stricter claim",
+      "titleCN": "可堆肥：更严格的一类声称",
+      "definition": "able to break down in a defined composting system within a set time and leave usable compost",
+      "definitionCN": "能在规定的堆肥系统内于限定时间内分解，并留下可用的堆肥",
+      "example": "The fork is compostable at industrial temperatures but not biodegradable in a garden heap.",
+      "exampleCN": "这把叉子能在工业温度下堆肥分解，在花园堆肥堆里却不能生物降解。",
+      "why": "Composting adds a time limit and a quality test, so it is the narrower and better-evidenced claim.",
+      "whyCN": "堆肥增加了时间限制与质量检验，因此是更窄、证据更充分的说法。"
+    },
+    {
+      "no": "06",
+      "title": "Distinct from merely degradable",
+      "titleCN": "区别于仅只「可降解」",
+      "definition": "differing from degradable, which covers breakdown by light, heat or mechanical action as well as microbes",
+      "definitionCN": "与「可降解」不同，后者把光、热或机械作用造成的分解也计算在内",
+      "example": "A photodegradable sheet fragments in sunlight yet is not biodegradable.",
+      "exampleCN": "一种光降解薄膜在阳光下会碎裂，却不是可生物降解的。",
+      "why": "Fragmenting is not decomposing, and the word keeps that distinction by naming the living agent.",
+      "whyCN": "碎裂不等于分解，这个词通过点明「生物」这一作用者来守住这条界线。"
+    },
+    {
+      "no": "07",
+      "title": "A certification and label claim",
+      "titleCN": "认证与标签上的声称",
+      "definition": "a claim checked against a published standard before it may appear on a product",
+      "definitionCN": "须按已发布标准检验后才能出现在产品上的声称",
+      "example": "Only two of the nine bags carried a certified biodegradable mark.",
+      "exampleCN": "九种袋子中只有两种带有经认证的可生物降解标志。",
+      "why": "Because the word sells, it needed standards to stop it from meaning nothing.",
+      "whyCN": "正因为这个词能卖货，才需要标准来防止它变得毫无意义。"
+    },
+    {
+      "no": "08",
+      "title": "Limited in a landfill",
+      "titleCN": "在填埋场中的局限",
+      "definition": "decomposing very slowly or not at all when buried without oxygen in a sealed landfill",
+      "definitionCN": "在缺氧的封闭填埋场中被埋时分解极慢，甚至完全不分解",
+      "example": "Buried without air, even a biodegradable cup may release methane for decades.",
+      "exampleCN": "在无氧条件下被埋，即使可生物降解的杯子也可能数十年持续释放甲烷。",
+      "why": "The adjective describes a capacity, not a guarantee, and the missing conditions explain the gap.",
+      "whyCN": "这个形容词描述一种能力，而不是一项保证，缺失的条件正好解释了这一落差。"
+    },
+    {
+      "no": "09",
+      "title": "A timescale rather than an instant",
+      "titleCN": "指一段尺度而非瞬间",
+      "definition": "breaking down over months or years, with the duration depending on material and setting",
+      "definitionCN": "在数月或数年尺度上分解，时长取决于材料与所处环境",
+      "example": "The manufacturer states that the tray is biodegradable within ninety days in commercial compost.",
+      "exampleCN": "制造商说明这种托盘在商业堆肥条件下九十天内可生物降解。",
+      "why": "Living decomposition is slow by nature, so any label for it has to carry a period.",
+      "whyCN": "生物分解天生缓慢，因此任何相关标注都必须带上一个时间。"
+    }
+  ],
+  "etymology": {
+    "intro": {
+      "en": "The word is a twentieth-century compound. A Greek element for life is joined to a Latin verb for stepping down, and an English adjective ending completes it.",
+      "cn": "这个词是二十世纪复合词：希腊语的「生命」成分接上拉丁语表示「逐级下降」的动词，再由英语形容词词尾收尾。"
+    },
+    "items": [
+      {
+        "era": "GREEK BIOS",
+        "en": "Bios meant life, and it became the standard first element in compounds about living processes.",
+        "cn": "这个词意为生命，后来成了表示生命过程的复合词的标准前项。"
+      },
+      {
+        "era": "LATIN GRADUS",
+        "en": "Gradus meant a step, and it supplied the image of moving down one level at a time.",
+        "cn": "这个词意为一步、一级，提供了「一级一级往下走」的形象。"
+      },
+      {
+        "era": "LATIN DEGRADARE",
+        "en": "The verb meant to lower in rank, built from the prefix for down and the noun for step.",
+        "cn": "这个动词意为降低等级，由表示「向下」的前缀与表示「级」的名词构成。"
+      },
+      {
+        "era": "FRENCH DÉGRADER",
+        "en": "French carried the verb into English in the fourteenth century, first as a word about rank and later about condition.",
+        "cn": "法语把这个动词带入英语，时在十四世纪，先指等级，后指状态。"
+      },
+      {
+        "era": "LATIN -ABILIS",
+        "en": "The ending meant able to be, and it turned the verb into a capacity rather than an event.",
+        "cn": "这个词尾意为「能够被……」，把动词变成一种能力而非一次事件。"
+      },
+      {
+        "era": "ENGLISH, 20TH CENTURY",
+        "en": "Chemists and packaging engineers formed the compound in the mid-twentieth century; its exact first appearance is dated only approximately.",
+        "cn": "化学家与包装工程师在二十世纪中叶造出这个复合词；其确切首见时间只能给约数。"
+      }
+    ]
+  },
+  "similar": {
+    "note": {
+      "en": "The first group shares the life or step element; the second group names other ways materials break down.",
+      "cn": "第一组共用「生命」或「级」的成分；第二组是材料分解的其他方式。"
+    },
+    "groups": [
+      {
+        "heading": "LOOK-ALIKE",
+        "entries": [
+          {
+            "word": "biodegrade",
+            "ipa": "/ˌbaɪəʊdɪˈɡreɪd/",
+            "tag": "same root",
+            "definition": "The verb for being broken down by living organisms.",
+            "definitionCN": "指被生物分解的动词。"
+          },
+          {
+            "word": "biodegradation",
+            "ipa": "/ˌbaɪəʊdɪɡreɪˈdeɪʃn/",
+            "tag": "same root",
+            "definition": "The process itself, as studied and measured.",
+            "definitionCN": "指被研究与测量的分解过程本身。"
+          },
+          {
+            "word": "biodegradability",
+            "ipa": "/ˌbaɪəʊdɪˌɡreɪdəˈbɪləti/",
+            "tag": "same root",
+            "definition": "The property of being able to decompose biologically.",
+            "definitionCN": "指可被生物分解的性质。"
+          },
+          {
+            "word": "degradable",
+            "ipa": "/dɪˈɡreɪdəbl/",
+            "tag": "same root",
+            "definition": "Able to break down by any means, including light and heat.",
+            "definitionCN": "指能通过任何方式分解，包括光与热。"
+          },
+          {
+            "word": "biodiversity",
+            "ipa": "/ˌbaɪəʊdaɪˈvɜːsəti/",
+            "tag": "different root",
+            "definition": "Variety of life; it shares the life element but belongs to the variety stem.",
+            "definitionCN": "指生命多样性；共用「生命」成分，但属于「多样」词干。"
+          }
+        ]
+      },
+      {
+        "heading": "NEAR MEANING",
+        "entries": [
+          {
+            "word": "compostable",
+            "ipa": "/kɒmˈpɒstəbl/",
+            "tag": "near meaning",
+            "definition": "Able to break down in a composting system within a stated time and leave usable compost.",
+            "definitionCN": "指能在堆肥系统内于规定时间分解并留下可用堆肥。"
+          },
+          {
+            "word": "decomposable",
+            "ipa": "/ˌdiːkəmˈpəʊzəbl/",
+            "tag": "near meaning",
+            "definition": "Able to be broken down into simpler parts, without saying by what.",
+            "definitionCN": "指能被分解成更简单的部分，但不说由什么分解。"
+          },
+          {
+            "word": "photodegradable",
+            "ipa": "/ˌfəʊtəʊdɪˈɡreɪdəbl/",
+            "tag": "near meaning",
+            "definition": "Broken down by light, which may leave fragments rather than simple substances.",
+            "definitionCN": "指由光分解，可能留下碎片而非简单物质。"
+          },
+          {
+            "word": "recyclable",
+            "ipa": "/ˌriːˈsaɪkləbl/",
+            "tag": "near meaning",
+            "definition": "Able to be processed into new material, a different route from decomposition.",
+            "definitionCN": "指能被加工成新材料，是与分解不同的一条路径。"
+          }
+        ]
+      }
+    ]
+  },
+  "mnemonics": {
+    "normalIntro": {
+      "en": "Normal associations take the word apart into life, step and capacity, then put it back into a compost heap.",
+      "cn": "正常联想把词拆成「生命」「级」与「能力」，再把它放回堆肥堆里。"
+    },
+    "normal": [
+      {
+        "en": "Bio is life, degrade is stepping down, and able says it can be done: life can step it down.",
+        "cn": "前项是生命，动词是逐级下降，词尾是「能够」：活物能把它降下来。"
+      },
+      {
+        "en": "Biodegrade and biodegradation are the verb and the process; the adjective ends in a different suffix.",
+        "cn": "动词与过程各有其词形，形容词的词尾又不同。"
+      },
+      {
+        "en": "Compostable is the stronger claim, because it adds a time limit and a quality test.",
+        "cn": "「可堆肥」是更强的说法，因为它加了时限与质量检验。"
+      },
+      {
+        "en": "A sealed landfill has no oxygen, so even a degradable cup may last for decades.",
+        "cn": "封闭填埋场没有氧气，所以即使可降解杯子也可能存留数十年。"
+      },
+      {
+        "en": "The label should carry a period, because biological breakdown is measured in months, not minutes.",
+        "cn": "标签应当带时限，因为生物分解以月计，而不是以分钟计。"
+      }
+    ],
+    "abstract": [
+      {
+        "en": "Biodegradable is a promise about the future made by a material that cannot keep it alone; it needs a place with the right microbes.",
+        "cn": "「可生物降解」是材料对未来作出的承诺，而它无法独自兑现，需要一个有合适微生物的地方。"
+      },
+      {
+        "en": "Being edible to microbes is not the same as being harmless: what matters is what is left after the meal.",
+        "cn": "能被微生物吃掉不等于无害，关键是这顿饭吃完剩下什么。"
+      },
+      {
+        "en": "Every claim of return to nature rests on a hidden set of conditions, and those conditions are the real subject.",
+        "cn": "每一种「回归自然」的说法都依赖一整套隐性条件，而那套条件才是真正的主题。"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "en": "The new mulch is fully biodegradable and breaks down within one season.",
+      "cn": "这种新覆盖物完全可生物降解，一个季节内就会分解。"
+    },
+    {
+      "en": "Biodegradable bags still need oxygen to decompose, so they fail in sealed landfills.",
+      "cn": "可生物降解袋子仍需氧气才能分解，因此在封闭填埋场里失效。"
+    },
+    {
+      "en": "The lab tested whether the film was biodegradable under soil conditions.",
+      "cn": "实验室检测了这种薄膜在土壤条件下是否可生物降解。"
+    }
+  ],
+  "dict_mnemonic": {
+    "note": "谐音记忆 · 非词源",
+    "text": "读作「拜欧迪格雷德波」——拜欧是生命，迪格雷德是降级，波是能够：生命能够把它降级拆开",
+    "word": "biodegradable"
+  },
+  "root": "希腊语 bios「生命」+ 拉丁语 degradare「降低等级」← de-「向下」+ gradus「级、步」；英语经法语于十四世纪引入表示「降级」的动词，二十世纪中叶再加表示「能够被……」的词尾构成该形容词，确切首见时间只能给约数。",
+  "sensesIntro": {
+    "en": "Nine senses separate what the word promises from what it requires: the living agent, the harmless residue, the conditions, the product, the stricter compost claim, the weaker degradable claim, certification, landfills and time.",
+    "cn": "九个义项把承诺与前提分开：分解者、无害残留、所需条件、产品属性、更严的堆肥声称、更宽的降解说法、认证、填埋场与时间尺度。"
+  },
+  "semanticMap": {
+    "core": {
+      "en": "CORE IMAGE: a paper tray in damp soil, its edges eaten away by fungal threads into crumbs.",
+      "cn": "核心意象：湿土里的一只纸托盘，边缘被菌丝啃成碎屑。"
+    },
+    "chain": [
+      "A MATERIAL",
+      "LIVING AGENTS",
+      "STEPWISE BREAKDOWN",
+      "SIMPLE SUBSTANCES",
+      "CONDITIONS NEEDED",
+      "A HELD CLAIM"
+    ],
+    "branches": [
+      {
+        "senses": "01",
+        "en": "THE AGENT: bacteria and fungi do the work, not heat or light.",
+        "cn": "作用者：干活的是细菌与真菌，而不是热或光。"
+      },
+      {
+        "senses": "02",
+        "en": "THE RESIDUE: what is left must be water, gas, biomass and minerals.",
+        "cn": "残留：剩下必须是水、气体、生物质与矿物。"
+      },
+      {
+        "senses": "03 · 08 · 09",
+        "en": "THE CONDITIONS AND THE CLOCK: microbes need moisture, air and warmth, and the process runs in months or years.",
+        "cn": "条件与时钟：微生物需要湿度、空气与温度，过程以月或年计。"
+      },
+      {
+        "senses": "04 · 07",
+        "en": "THE MARKET AND THE CHECK: a product attribute that must be certified before it sells.",
+        "cn": "市场与检验：一种必须先经认证才能售卖的产品属性。"
+      },
+      {
+        "senses": "05 · 06",
+        "en": "THE NEIGHBOURING CLAIMS: a stricter compost standard on one side, a looser degradable one on the other.",
+        "cn": "邻近声称：一边是更严的堆肥标准，一边是更宽的降解说法。"
+      }
+    ]
+  },
+  "affixes": {
+    "intro": {
+      "en": "Three elements make the word: a Greek life element, a Latin step verb and a Latin capacity ending.",
+      "cn": "三个成分构成这个词：希腊语「生命」、拉丁语「逐级下降」动词与拉丁语「能够」词尾。"
+    },
+    "latinIntro": {
+      "en": "Latin supplies gradus, degradare and the ending -abilis, all recorded forms.",
+      "cn": "拉丁语提供了「级」「降低等级」与词尾三种有记录的形式。"
+    },
+    "items": [
+      {
+        "word": "bio-",
+        "structure": "Greek element",
+        "meaning": "life, living things",
+        "meaningCN": "生命；生物",
+        "example": "It names the agent that does the work.",
+        "exampleCN": "它点明干活的作用者。"
+      },
+      {
+        "word": "de-",
+        "structure": "Latin prefix",
+        "meaning": "down, downward",
+        "meaningCN": "向下；下降",
+        "example": "It marks movement to a lower state.",
+        "exampleCN": "它标记向更低状态的移动。"
+      },
+      {
+        "word": "grad-",
+        "structure": "Latin stem",
+        "meaning": "step, grade",
+        "meaningCN": "步；级",
+        "example": "It gives the sense of one level at a time.",
+        "exampleCN": "它给出「一级一级」的意思。"
+      },
+      {
+        "word": "-able",
+        "structure": "Latin adjective ending",
+        "meaning": "able to be",
+        "meaningCN": "能够被……的",
+        "example": "It turns an event into a capacity.",
+        "exampleCN": "它把事件变成能力。"
+      },
+      {
+        "word": "-ation",
+        "structure": "Latin noun ending",
+        "meaning": "action, process",
+        "meaningCN": "动作；过程",
+        "example": "It names the process itself.",
+        "exampleCN": "它命名过程本身。"
+      },
+      {
+        "word": "-ity",
+        "structure": "Latin noun ending",
+        "meaning": "state or quality",
+        "meaningCN": "状态；性质",
+        "example": "It names the property.",
+        "exampleCN": "它命名这一性质。"
+      },
+      {
+        "word": "biodegrade",
+        "structure": "English verb",
+        "meaning": "to break down biologically",
+        "meaningCN": "生物分解",
+        "example": "It is the verb behind the adjective.",
+        "exampleCN": "它是形容词背后的动词。"
+      },
+      {
+        "word": "non-",
+        "structure": "Latin prefix",
+        "meaning": "not",
+        "meaningCN": "不；非",
+        "example": "It marks material that microbes cannot use.",
+        "exampleCN": "它标记微生物用不了的材料。"
+      }
+    ],
+    "latinEntries": [
+      {
+        "word": "gradus",
+        "structure": "Latin noun",
+        "meaning": "step, grade",
+        "meaningCN": "步；级"
+      },
+      {
+        "word": "degradare",
+        "structure": "Latin verb",
+        "meaning": "to lower, reduce in rank",
+        "meaningCN": "降低；使降级"
+      },
+      {
+        "word": "-abilis",
+        "structure": "Latin adjective ending",
+        "meaning": "able to be",
+        "meaningCN": "能够被……的"
+      },
+      {
+        "word": "degradatio",
+        "structure": "Latin noun from degradare",
+        "meaning": "a lowering",
+        "meaningCN": "降级；下降"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "biodegrade",
+        "pos": "v.",
+        "zh": "由该形容词去掉词尾并还原为动词，义为「生物降解」"
+      },
+      {
+        "word": "biodegradation",
+        "pos": "n.",
+        "zh": "由该动词加过程名词词尾构成，义为「生物降解过程」"
+      },
+      {
+        "word": "biodegradability",
+        "pos": "n.",
+        "zh": "由该形容词加性质名词词尾构成，义为「可生物降解性」"
+      },
+      {
+        "word": "non-biodegradable",
+        "pos": "adj.",
+        "zh": "由否定前缀加该形容词构成，义为「不可生物降解的」"
+      }
+    ]
+  }
+}

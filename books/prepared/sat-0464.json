@@ -1,0 +1,512 @@
+{
+  "word": "botanical",
+  "ipa_uk": "/bəˈtænɪkl/",
+  "ipa_us": "/bəˈtænɪkl/",
+  "definition_zh": "植物的；植物学的；植物提取的",
+  "definition_en": "relating to plants as living things, to the science that studies them, or to substances obtained from them",
+  "core_image": "标本夹里一片压平的叶子，旁边贴着写有拉丁学名的小标签",
+  "scene": "植物学家在标本册里压好一株蕨类，在标签上写下它的拉丁学名。The field team pressed a fern into the specimen folder and wrote its botanical name on the label.",
+  "sceneCN": "这里 botanical name 中的 botanical 是「植物学名的；与正式拉丁学名有关的」（第 5 个义项：与正式拉丁学名有关）；句意：野外考察队把一株蕨类压进植物标本夹，并在标签上写下它的植物学名。场景要点：标本夹、压平的蕨叶、拉丁学名标签、采集标签。",
+  "pos": [
+    {
+      "tag": "adj.",
+      "zh": "植物的；植物学的；植物提取的"
+    },
+    {
+      "tag": "n.",
+      "zh": "（botanicals）植物提取物；植物性成分"
+    }
+  ],
+  "collocations": [
+    {
+      "phrase": "botanical garden",
+      "zh": "植物园"
+    },
+    {
+      "phrase": "botanical name",
+      "zh": "植物学名；拉丁学名"
+    },
+    {
+      "phrase": "botanical survey",
+      "zh": "植物调查"
+    },
+    {
+      "phrase": "botanical extract",
+      "zh": "植物提取物"
+    },
+    {
+      "phrase": "botanical illustration",
+      "zh": "植物学插图；植物图谱"
+    },
+    {
+      "phrase": "botanical classification",
+      "zh": "植物分类"
+    },
+    {
+      "phrase": "botanical specimen",
+      "zh": "植物标本"
+    }
+  ],
+  "forms": [
+    {
+      "label": "比较级（更……的）",
+      "form": "more botanical"
+    },
+    {
+      "label": "复数（名词 botanicals）",
+      "form": "botanicals"
+    }
+  ],
+  "derivatives": [
+    {
+      "word": "botany",
+      "pos": "n.",
+      "zh": "植物学"
+    },
+    {
+      "word": "botanist",
+      "pos": "n.",
+      "zh": "植物学家"
+    },
+    {
+      "word": "botanically",
+      "pos": "adv.",
+      "zh": "植物学上；从植物学角度"
+    },
+    {
+      "word": "botanic",
+      "pos": "adj.",
+      "zh": "植物的；植物学的（多用于机构名称）"
+    }
+  ],
+  "senses": [
+    {
+      "no": "01",
+      "title": "Relating to living plants",
+      "titleCN": "与活体植物有关",
+      "definition": "relating to plants as living organisms, especially their structure, growth, and kinds",
+      "definitionCN": "与作为活体生物的植物有关，尤指其结构、生长与种类",
+      "example": "The botanical survey recorded 240 species along the ridge.",
+      "exampleCN": "这次植物调查在山脊沿线记录了 240 个物种。",
+      "why": "The family chain runs botany → botanic → botanical, but -al does not add the meaning 'plant'. Latin -alis means 'pertaining to', so it turns botanic 'of plants' into an adjective of relation; the plant meaning sits in the Greek-derived stem botan-.",
+      "whyCN": "这个词族的关系链是 botany → botanic → botanical，但 -al 并不添加“植物”这个意义。拉丁 -alis 意为“与……有关”，它把 botanic“植物的”变成表关系的形容词；植物义始终在希腊来源的词干 botan- 里。"
+    },
+    {
+      "no": "02",
+      "title": "Belonging to the science of botany",
+      "titleCN": "属于植物学这门学科",
+      "definition": "belonging to botany as a scientific discipline, including its methods, names, and classifications",
+      "definitionCN": "属于作为学科的植物学，包括其方法、命名与分类",
+      "example": "Botanical nomenclature follows strict international rules.",
+      "exampleCN": "植物学命名遵循严格的国际规则。",
+      "why": "Because botanic already meant 'pertaining to the science of plants', adding -al lets the adjective describe the discipline itself. The reference shifts from the organism to the organized body of knowledge about it.",
+      "whyCN": "由于 botanic 本已表示“与植物研究有关的”，再加 -al 就让形容词可以描述这门学科本身。指称对象从植物体转向关于植物的系统知识。"
+    },
+    {
+      "no": "03",
+      "title": "Made from or obtained from plants",
+      "titleCN": "由植物制成或提取",
+      "definition": "made from or obtained from plants, especially in medicine, cosmetics, or agriculture",
+      "definitionCN": "由植物制成或从植物中提取，尤用于医药、化妆品或农业",
+      "example": "The cream contains botanical extracts rather than synthetic oils.",
+      "exampleCN": "这款乳霜含有植物提取物，而不是合成油脂。",
+      "why": "This is metonymy: the source stands for the product. The adjective still names plant origin, but the noun it modifies is now an extract or ingredient, so the plant has been reduced to material.",
+      "whyCN": "这是转喻：来源代替了产品。形容词仍命名植物来源，但它修饰的名词已变成提取物或成分，于是植物被压缩成了材料。"
+    },
+    {
+      "no": "04",
+      "title": "Relating to a garden or collection",
+      "titleCN": "植物园的；植物收藏的",
+      "definition": "relating to a place or collection where plants are grown, labelled, and shown for study or display",
+      "definitionCN": "与种植、标注并展示植物以供研究或观赏的场所或收藏有关",
+      "example": "The botanical garden keeps a glasshouse for tropical species.",
+      "exampleCN": "这座植物园为热带物种保留了一间温室。",
+      "why": "A botanical garden is a living archive: plants are arranged and labelled like research material. The adjective marks the place as scientific rather than merely ornamental, so the garden becomes an instrument of botany.",
+      "whyCN": "植物园是一座活的档案库：植物被排列、标注，像研究材料。这个形容词标记该场所是科学性的，而不只是观赏性的，于是园圃成了植物学的工具。"
+    },
+    {
+      "no": "05",
+      "title": "Relating to the formal Latin name",
+      "titleCN": "与正式拉丁学名有关",
+      "definition": "relating to the formal Latin name or taxonomic placing of a plant",
+      "definitionCN": "与植物的正式拉丁学名或分类位置有关",
+      "example": "The botanical name for the common oak is Quercus robur.",
+      "exampleCN": "普通橡树的植物学名是 Quercus robur。",
+      "why": "Naming is the most precise layer of botany. A botanical name is not a local label but a fixed Latin address that places the plant in a genus and species, so the adjective signals taxonomic exactness.",
+      "whyCN": "命名是植物学中最精确的一层。botanical name 不是地方俗称，而是把植物固定在属与种中的拉丁地址，因此这个形容词标记的是分类学上的精确性。"
+    },
+    {
+      "no": "06",
+      "title": "Noun: plant-derived substances",
+      "titleCN": "名词：植物提取物",
+      "definition": "in the plural, substances or ingredients obtained from plants, used in cosmetics, supplements, or pesticides",
+      "definitionCN": "复数形式指从植物取得的物质或成分，用于化妆品、补充剂或杀虫剂",
+      "example": "Regulators require proof that botanicals are free of contaminants.",
+      "exampleCN": "监管机构要求证明植物提取物不含污染物。",
+      "why": "This is a zero conversion: the phrase 'botanical ingredients' drops its head noun, and the adjective remains as the class name. The plural botanicals then names the category of such substances.",
+      "whyCN": "这是零派生：短语 botanical ingredients 省略中心名词，形容词留下来充当类别名。复数 botanicals 于是指这一类物质。"
+    },
+    {
+      "no": "07",
+      "title": "Relating to scientific plant drawing",
+      "titleCN": "植物科学绘图的",
+      "definition": "relating to accurate drawings or prints that record a plant's form so that it can be identified",
+      "definitionCN": "与准确记录植物形态、以便识别之用的绘图或版画有关",
+      "example": "The herbarium keeps a botanical illustration of every type specimen.",
+      "exampleCN": "标本馆为每一份模式标本保存一幅植物学插图。",
+      "why": "An identification drawing must show veins, hairs, and flower parts rather than a pleasing view. Botanical therefore marks the image as a diagnostic record, extending the adjective from the plant to the way it is documented.",
+      "whyCN": "用于识别的绘图必须画出叶脉、毛被与花部，而不是一幅好看的景。botanical 因此标记这幅图是诊断性记录，把形容词从植物本身延伸到记录植物的方式。"
+    },
+    {
+      "no": "08",
+      "title": "Usage boundary: botanical versus botanic",
+      "titleCN": "用法边界：botanical 与 botanic",
+      "definition": "both mean 'of plants'; botanical is the default modern adjective, while botanic survives mainly in fixed institutional names",
+      "definitionCN": "两者都表示“植物的”；botanical 是现代默认形容词，botanic 主要残留在固定的机构名称中",
+      "example": "The Royal Botanic Gardens use botanic in their title, though the work done there is botanical.",
+      "exampleCN": "英国皇家植物园在名称里用 botanic，但那里做的工作是 botanical 的。",
+      "why": "-ic and -ical are twin adjective endings built on the same stem. English specialised them: botanic stayed in older names such as botanic garden, while botanical took over general and technical use.",
+      "whyCN": "-ic 与 -ical 是同一词干上的成对形容词后缀。英语把它们分工了：botanic 留在 botanic garden 等较老名称里，而 botanical 接管了一般与技术用法。"
+    },
+    {
+      "no": "09",
+      "title": "Usage boundary: botanical versus herbal",
+      "titleCN": "用法边界：botanical 与 herbal",
+      "definition": "botanical describes plant origin neutrally; herbal implies the traditional use of whole plants as medicine",
+      "definitionCN": "botanical 中性描述植物来源；herbal 暗示把整株植物作传统药用的做法",
+      "example": "A herbal tea is brewed from leaves; a botanical blend may be any plant-derived mixture.",
+      "exampleCN": "herbal tea 是用叶子冲泡的；botanical blend 则可以是任何植物来源的混合物。",
+      "why": "Herbal carries the older craft of gathering and brewing herbs. Botanical is the laboratory-neutral term, which is why a cosmetics firm prefers it: it claims a plant source without claiming medical action.",
+      "whyCN": "herbal 带着采集、煎煮草药的旧手艺色彩。botanical 是实验室式的中性词，因此化妆品公司更爱用它：它只声称植物来源，不声称医疗功效。"
+    }
+  ],
+  "etymology": {
+    "intro": {
+      "en": "Botanical is a derived adjective, not a root word. The Greek-derived stem names plants and pasturage; botanic entered English first, and -al made botanical from it. The modern family chain is often given as botany → botanic → botanical, but that is a chain of meaning and word formation, not a single line of descent.",
+      "cn": "botanical 是派生形容词，不是词根词。希腊来源的词干先表示植物与牧草；botanic 先进入英语，-al 再由它构成 botanical。现代常把词族链记作 botany → botanic → botanical，但那是意义与构词的链条，不是一条单向血统。"
+    },
+    "items": [
+      {
+        "era": "GREEK",
+        "en": "Greek botanē meant 'plant, grass, pasture, fodder', and botanikos meant 'of herbs'. Etymonline notes that the Greek words seem to have more to do with pasturage than with plants; related forms include botamia 'pastures, meadows', boter 'herdsman', and boton 'grazing beast'. The deeper origin of the family is not established.",
+        "cn": "希腊语 botanē 意为“植物、草、牧场、牧草”，botanikos 意为“草本的”。etymonline 指出这些希腊词更多与放牧有关，而非与植物学有关；相关形式有 botamia“牧场、草地”、boter“牧人”、boton“吃草的牲畜”。这个词族的更深来源尚未确定。"
+      },
+      {
+        "era": "MEDIEVAL LATIN / FRENCH",
+        "en": "Medieval Latin botanicus 'of plants' carried the Greek adjective into learned Latin, and French botanique (17c.) passed it into English. Latin had no native name for plant science, so this borrowed stem did the work.",
+        "cn": "中世纪拉丁语 botanicus“植物的”把这个希腊形容词带入学术拉丁语，法语 botanique（17 世纪）再把它传入英语。拉丁语没有本土的植物科学名称，于是由这个借来的词干承担。"
+      },
+      {
+        "era": "BOTANIC",
+        "en": "English botanic is recorded from the 1650s, meaning 'pertaining to the science or study of plants'. It came from French botanique or directly from Medieval Latin botanicus, and it is the shorter of the two English adjectives.",
+        "cn": "英语 botanic 于 17 世纪 50 年代有记录，意为“与植物研究有关的”。它来自法语 botanique，或直接来自中世纪拉丁语 botanicus，是两个英语形容词中较短的一个。"
+      },
+      {
+        "era": "BOTANICAL",
+        "en": "Botanical is recorded from the same decade, formed as botanic + -al. Latin -alis (through French -al) means 'of, like, pertaining to', so -al adds relation, not plant meaning. Morphologically botanical is botanic + -al; it is not built directly from botany with -ical.",
+        "cn": "botanical 在同一时期有记录，由 botanic + -al 构成。拉丁 -alis（经法语 -al）意为“属于、像、与……有关”，所以 -al 添加的是关系，不是植物义。形态上 botanical 是 botanic + -al，并不是由 botany 直接加 -ical。"
+      },
+      {
+        "era": "BOTANY / BOTANIST",
+        "en": "Botany, the name of the discipline, is recorded from the 1690s, formed from botanic with -y on the model of astronomy. Botanist is recorded from the 1680s as botany + -ist. Etymonline's dates make the person word appear slightly earlier than the field noun; that apparent contradiction means the exact derivation order is uncertain.",
+        "cn": "表示学科的 botany 于 17 世纪 90 年代有记录，由 botanic 加 -y、仿 astronomy 构成。botanist 于 17 世纪 80 年代有记录，按 botany + -ist 解释。etymonline 的年代让人这个词略早于学科名词；这一表面矛盾说明确切的派生先后存疑。"
+      },
+      {
+        "era": "MODERN ENGLISH",
+        "en": "Modern usage extends the adjective from living plants to extracts, gardens, Latin names, drawings, and products. The 'plant-derived' sense is a later narrowing whose exact first date is not recorded. Botanical is now the neutral default, while botanic survives chiefly in institution names.",
+        "cn": "现代用法把这个形容词从活体植物延伸到提取物、园圃、拉丁学名、绘图与产品。“植物提取的”义是后来收窄出来的，其确切最早年代未见记录。botanical 现为中性默认词，botanic 主要残留在机构名称中。"
+      }
+    ]
+  },
+  "similar": {
+    "note": {
+      "en": "The first group shares the botan- stem with different endings; the second separates plant-related adjectives by domain and by what part of the plant they stress.",
+      "cn": "第一组共享 botan- 词干而后缀不同；第二组按领域以及所强调的植物部位来区分与植物相关的形容词。"
+    },
+    "groups": [
+      {
+        "heading": "LOOK-ALIKE",
+        "entries": [
+          {
+            "word": "botanic",
+            "ipa": "/bəˈtænɪk/",
+            "tag": "same stem, older twin",
+            "definition": "The older adjective from the same stem, now mostly fixed in names such as botanic garden. It lacks the general 'plant-derived' use of botanical.",
+            "definitionCN": "由同一词干构成的较老形容词，现多固定在 botanic garden 等名称中。它没有 botanical 那种一般的“植物提取的”用法。"
+          },
+          {
+            "word": "botany",
+            "ipa": "/ˈbɒtəni/",
+            "tag": "the field noun",
+            "definition": "The science that studies plants. It is the field itself, while botanical is the adjective of relation built on botanic.",
+            "definitionCN": "研究植物的科学。它是学科本身，而 botanical 是建立在 botanic 上的关系形容词。"
+          },
+          {
+            "word": "botanist",
+            "ipa": "/ˈbɒtənɪst/",
+            "tag": "person suffix",
+            "definition": "A person who studies plants. It shares botan- with botanical but adds -ist, so it names a practitioner rather than a quality.",
+            "definitionCN": "研究植物的人。它与 botanical 共享 botan-，但加上 -ist，因此命名的是从业者，而不是性质。"
+          },
+          {
+            "word": "botanically",
+            "ipa": "/bəˈtænɪkli/",
+            "tag": "adverb form",
+            "definition": "In botanical terms; from the viewpoint of plant science. The -ly ending makes it modify a verb or a whole statement, not a noun.",
+            "definitionCN": "从植物学角度；以植物学的说法。后缀 -ly 使它修饰动词或整句，而不是名词。"
+          }
+        ]
+      },
+      {
+        "heading": "NEAR MEANING",
+        "entries": [
+          {
+            "word": "herbal",
+            "ipa": "/ˈhɜːbl/",
+            "tag": "traditional medicine",
+            "definition": "Relating to herbs used as medicine or flavouring. It stresses traditional preparation, while botanical merely states a plant origin.",
+            "definitionCN": "与作药用或调味用的草药有关。它强调传统制法，而 botanical 只陈述植物来源。"
+          },
+          {
+            "word": "floral",
+            "ipa": "/ˈflɔːrəl/",
+            "tag": "flowers only",
+            "definition": "Relating to flowers, not to plants in general. A floral scent comes from blossoms; a botanical survey covers mosses and ferns too.",
+            "definitionCN": "与花有关，而非笼统与植物有关。floral scent 来自花朵；植物调查则连苔藓和蕨类也包含。"
+          },
+          {
+            "word": "horticultural",
+            "ipa": "/ˌhɔːtɪˈkʌltʃərəl/",
+            "tag": "garden cultivation",
+            "definition": "Relating to the cultivation of gardens. It names the growing practice, while botanical names the scientific study of the plants themselves.",
+            "definitionCN": "与园圃栽培有关。它命名的是种植实践，而 botanical 命名的是对植物本身的科学研究。"
+          },
+          {
+            "word": "vegetal",
+            "ipa": "/ˈvedʒətl/",
+            "tag": "technical contrast",
+            "definition": "Relating to plants as opposed to animals or minerals. It is a technical contrast word and rarely appears where botanical would do.",
+            "definitionCN": "与植物有关，以区别于动物或矿物。它是技术性的对比词，很少出现在本可用 botanical 的地方。"
+          }
+        ]
+      }
+    ]
+  },
+  "mnemonics": {
+    "normalIntro": {
+      "en": "Real associations: the Greek 'plant, fodder' stem, the twin endings -ic and -ical, and the living collocations botanical name and botanical garden.",
+      "cn": "真实联想：希腊语“植物、牧草”词干、成对后缀 -ic 与 -ical，以及真实搭配 botanical name、botanical garden。"
+    },
+    "normal": [
+      {
+        "en": "botanic + -al = botanical. The -al only adds 'pertaining to'; the plant meaning comes from the Greek-derived stem.",
+        "cn": "botanic + -al = botanical。-al 只添加“与……有关”；植物义来自希腊来源的词干。"
+      },
+      {
+        "en": "Greek botanē was fodder and pasture before it was a science; the same word fed animals and later fed scholars.",
+        "cn": "希腊语 botanē 先是牧草与牧场，后来才成为科学；同一个词先喂养牲畜，后来喂养学者。"
+      },
+      {
+        "en": "botanic and botanical are twins from one stem. Older institutions kept the short twin; everyday English took the long one.",
+        "cn": "botanic 与 botanical 是同一词干生出的双胞胎。较老的机构留下短的那个，日常英语取了长的那个。"
+      },
+      {
+        "en": "A botanical name is a Latin address: genus first, species second, and the plant can be found from that address anywhere.",
+        "cn": "botanical name 是一个拉丁地址：先属后种，凭这个地址在任何地方都能找到这株植物。"
+      },
+      {
+        "en": "Botanicals in a cream are the plant parts reduced to ingredients; the adjective has become the noun for the material itself.",
+        "cn": "乳霜里的 botanicals 是被还原成成分的植物部分；形容词已经变成指材料本身的名词。"
+      }
+    ],
+    "abstract": [
+      {
+        "en": "A pressed leaf with a label: the moment a living thing becomes an object of knowledge is the moment botanical begins.",
+        "cn": "一片压平的叶子加一张标签：活物变成知识对象的那一刻，就是 botanical 开始的地方。"
+      },
+      {
+        "en": "A herbarium drawer is an archive where plants are filed like documents, and botanical is the stamp on the folder.",
+        "cn": "标本馆的抽屉是一座档案库，植物像文件一样被归档，botanical 就是文件夹上的那枚印章。"
+      },
+      {
+        "en": "A garden bed and a laboratory bench use one word because both arrange plants so that someone can look closely and name what is there.",
+        "cn": "花圃与实验台共用一个词，因为两者都把植物安排妥当，好让人靠近观察并说出那是什么。"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "en": "The botanical garden holds one of the oldest collections of alpine plants.",
+      "cn": "这座植物园收藏着最古老的高山植物标本之一。"
+    },
+    {
+      "en": "Botanical extracts are listed separately from synthetic fragrance oils.",
+      "cn": "植物提取物与合成香精油分开列示。"
+    },
+    {
+      "en": "Students learn to write a botanical description of a single leaf.",
+      "cn": "学生学着为一片叶子写出植物学描述。"
+    }
+  ],
+  "dict_mnemonic": {
+    "note": "谐音记忆 · 非词源",
+    "text": "“博坦尼克”——博物学家在植物园里给每片叶子贴标签 → botanical 植物的、植物学的",
+    "word": "botanical"
+  },
+  "root": "botanic（植物的）+ -al（拉丁 -alis，“与……有关”）；botanic 来自法语 botanique 或中世纪拉丁语 botanicus，再上溯希腊语 botanikos“草本的”、botanē“植物、牧场、牧草”；更早的联系存疑。",
+  "sensesIntro": {
+    "en": "Nine senses of botanical follow one movement: take a living plant, press and label it, then let that label travel to extracts, gardens, Latin names, drawings, and products.",
+    "cn": "botanical 的九个义项沿着一条动作链展开：把活体植物压平、贴标签，再让这张标签延伸到提取物、园圃、拉丁学名、绘图与产品。"
+  },
+  "semanticMap": {
+    "core": {
+      "en": "CORE IMAGE: a plant is pressed, labelled, and named, so a living thing becomes an object of knowledge.",
+      "cn": "核心意象：植物被压平、贴标签、命名，于是一个活物变成了知识对象。"
+    },
+    "chain": [
+      "LIVING PLANT",
+      "PRESS IT FLAT",
+      "WRITE THE NAME",
+      "CLASSIFY",
+      "EXTRACT",
+      "CARRY THE LABEL"
+    ],
+    "branches": [
+      {
+        "senses": "01 · 02",
+        "en": "PLANT LIFE AND DISCIPLINE: the adjective points first at the organism, then at the organized science that studies it.",
+        "cn": "植物生命与学科：形容词先指向植物体，再指向研究它的系统科学。"
+      },
+      {
+        "senses": "03 · 06",
+        "en": "MATERIAL: the plant is reduced to an extract, and the adjective becomes the plural noun for such substances.",
+        "cn": "材料：植物被还原为提取物，形容词又变成指这类物质的复数名词。"
+      },
+      {
+        "senses": "04 · 05",
+        "en": "PLACE AND NAME: a labelled garden and a Latin binomial are the plant turned into an addressable record.",
+        "cn": "场所与名称：标注过的园圃和拉丁双名，都是植物被变成可检索的记录。"
+      },
+      {
+        "senses": "07 · 08",
+        "en": "RECORD AND TWIN: scientific drawing is documentation, and botanic marks the older institutional twin of botanical.",
+        "cn": "记录与孪生词：科学绘图是文档化，而 botanic 标记 botanical 较老的机构用孪生形式。"
+      },
+      {
+        "senses": "09",
+        "en": "BOUNDARY: herbal marks the traditional medicinal edge that botanical avoids by staying neutral.",
+        "cn": "边界：herbal 标出传统药用的边缘，而 botanical 以中性立场避开它。"
+      }
+    ]
+  },
+  "affixes": {
+    "intro": {
+      "en": "Botanical has no live English prefix. It is botanic + -al; the Greek and Latin material sits frozen inside the stem, and English can still add -ly to the finished adjective.",
+      "cn": "botanical 没有活的英语前缀。它是 botanic + -al；希腊语与拉丁语材料凝固在词干内部，英语还能在成品形容词后加 -ly。"
+    },
+    "latinIntro": {
+      "en": "One Greek stem botan- runs through botany, botanic, botanical, and botanist. Greek botanē meant 'plant, pasture, fodder' and botanikos meant 'of herbs'; Medieval Latin botanicus carried both into the schools.",
+      "cn": "一个希腊词干 botan- 贯穿 botany、botanic、botanical 与 botanist。希腊语 botanē 意为“植物、牧场、牧草”，botanikos 意为“草本的”；中世纪拉丁语 botanicus 把两者带入学术。"
+    },
+    "items": [
+      {
+        "word": "botany",
+        "structure": "botan- (plant stem) + -y (name of a field, on the model of astronomy)",
+        "meaning": "the science of plants; the suffix names a domain of knowledge, not a person or quality",
+        "meaningCN": "植物学；后缀 -y 命名一个知识领域，而不是人或性质",
+        "example": "Botany began as the description and naming of useful plants.",
+        "exampleCN": "植物学最初是对有用植物的描述与命名。"
+      },
+      {
+        "word": "botanic",
+        "structure": "botan- + -ic (Greek -ikos, via Latin -icus and French -ique)",
+        "meaning": "pertaining to the science or study of plants; the shorter adjective",
+        "meaningCN": "与植物研究有关的；较短的那个形容词",
+        "example": "The botanic collection was catalogued by species.",
+        "exampleCN": "这批植物收藏按物种编目。"
+      },
+      {
+        "word": "botanical",
+        "structure": "botanic + -al (Latin -alis, 'pertaining to')",
+        "meaning": "relating to plants or botany; the longer and now default adjective",
+        "meaningCN": "植物的；植物学的；较长且现为默认的形容词",
+        "example": "The botanical survey listed every fern in the valley.",
+        "exampleCN": "这次植物调查列出了山谷里的每一种蕨类。"
+      },
+      {
+        "word": "botanist",
+        "structure": "botan- (botany stem) + -ist (person who practises)",
+        "meaning": "a person who studies plants; the shift is from a field to its practitioner",
+        "meaningCN": "研究植物的人；语义从学科转到从业者",
+        "example": "A botanist identified the moss as a new species.",
+        "exampleCN": "一位植物学家鉴定出这种苔藓是新物种。"
+      },
+      {
+        "word": "botanically",
+        "structure": "botanical + -ly (adverb of manner or viewpoint)",
+        "meaning": "in botanical terms; the adjective becomes an adverb of viewpoint",
+        "meaningCN": "从植物学角度；形容词变成表视角的副词",
+        "example": "Botanically, the tomato is a fruit.",
+        "exampleCN": "从植物学上说，番茄是一种果实。"
+      },
+      {
+        "word": "botanize",
+        "structure": "botan- + -ize (to act in a particular way)",
+        "meaning": "to collect or study plants in the field; the suffix turns the field into an activity",
+        "meaningCN": "在野外采集或研究植物；后缀把学科变成活动",
+        "example": "They botanized along the stream for the whole morning.",
+        "exampleCN": "他们整个上午沿溪采集植物。"
+      },
+      {
+        "word": "botanicals",
+        "structure": "botanical + -s (plural of a zero-derived noun)",
+        "meaning": "plant-derived ingredients; the adjective has become a class noun",
+        "meaningCN": "植物提取物；形容词已变成类别名词",
+        "example": "The label lists three botanicals and no synthetic perfume.",
+        "exampleCN": "标签列出三种植物成分，不含合成香精。"
+      },
+      {
+        "word": "ethnobotanical",
+        "structure": "ethno- (a people, culture) + botanical",
+        "meaning": "relating to how a particular people use plants",
+        "meaningCN": "与某一族群如何使用植物有关",
+        "example": "Ethnobotanical fieldwork records which plants a village uses for medicine.",
+        "exampleCN": "民族植物学田野工作记录一个村庄用哪些植物作药。"
+      },
+      {
+        "word": "paleobotany",
+        "structure": "paleo- (ancient) + botany",
+        "meaning": "the study of fossil plants",
+        "meaningCN": "研究化石植物的古植物学",
+        "example": "Paleobotany reconstructs ancient forests from fossil leaves.",
+        "exampleCN": "古植物学根据化石叶片重建远古森林。"
+      }
+    ],
+    "latinEntries": [
+      {
+        "word": "botanē",
+        "structure": "Greek noun",
+        "meaning": "plant, grass, pasture, fodder",
+        "meaningCN": "植物；草；牧场；牧草"
+      },
+      {
+        "word": "botanikos",
+        "structure": "botanē + -ikos (of, pertaining to)",
+        "meaning": "of herbs or plants",
+        "meaningCN": "草本的；植物的"
+      },
+      {
+        "word": "botanicus",
+        "structure": "Greek botanikos → Medieval Latin",
+        "meaning": "relating to plants; the immediate source of botanic",
+        "meaningCN": "与植物有关的；botanic 的直接来源"
+      },
+      {
+        "word": "-alis",
+        "structure": "Latin adjective suffix",
+        "meaning": "of, like, pertaining to; the ancestor of English -al",
+        "meaningCN": "属于、像、与……有关的；英语 -al 的前身"
+      }
+    ]
+  }
+}

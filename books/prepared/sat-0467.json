@@ -1,0 +1,155 @@
+{
+  "word": "braze",
+  "ipa_uk": "/breɪz/",
+  "ipa_us": "/breɪz/",
+  "definition_zh": "用黄铜钎焊；铜焊",
+  "definition_en": "to join two pieces of metal by melting brass between them",
+  "core_image": "黄铜在火焰里熔成一线亮液，把两块钢铁牢牢咬合",
+  "scene": "修理铺里师傅把两根钢管对齐，火焰枪喷出蓝火。The mechanic will braze the two steel pipes together with a brass rod.",
+  "sceneCN": "这里 braze 是「铜焊、钎焊」（第 1 个义项：用黄铜做钎料把金属接合）；句意是师傅用黄铜焊条把两根钢管焊在一起。",
+  "pos": [
+    { "tag": "vt.", "zh": "用黄铜钎焊；铜焊（金属件）" },
+    { "tag": "vi.", "zh": "进行铜焊作业" }
+  ],
+  "collocations": [
+    { "phrase": "braze a joint", "zh": "钎焊接头" },
+    { "phrase": "braze with a torch", "zh": "用喷枪铜焊" },
+    { "phrase": "braze steel pipes", "zh": "铜焊钢管" },
+    { "phrase": "braze the seam", "zh": "钎焊缝隙" },
+    { "phrase": "braze brass rod", "zh": "用黄铜焊条施焊" }
+  ],
+  "forms": [
+    { "label": "三单", "form": "brazes" },
+    { "label": "过去式", "form": "brazed" },
+    { "label": "过去分词", "form": "brazed" },
+    { "label": "现在分词", "form": "brazing" }
+  ],
+  "derivatives": [
+    { "word": "brazing", "pos": "n.", "zh": "由动词加 -ing 构成，义为「钎焊工艺」" },
+    { "word": "brazer", "pos": "n.", "zh": "由动词加 -er 构成，义为「做铜焊的工人」" }
+  ],
+  "senses": [
+    {
+      "no": "01",
+      "title": "To join metal with brass",
+      "titleCN": "铜焊；钎焊",
+      "definition": "to join two pieces of metal by melting a brass filler between them",
+      "definitionCN": "熔化黄铜做填料，把两块金属接合在一起",
+      "example": "He brazed the broken bracket back onto the frame.",
+      "exampleCN": "他把断裂的托架铜焊回车架上。",
+      "why": "The craft is named after the brass filler that melts and grips the parts.",
+      "whyCN": "这门手艺以黄铜填料命名：铜液熔化后把两块金属咬住。"
+    },
+    {
+      "no": "02",
+      "title": "To carry out brazing work",
+      "titleCN": "做钎焊活；施焊",
+      "definition": "to work as a welder using brass filler and a torch",
+      "definitionCN": "以喷枪和黄铜填料进行焊接作业",
+      "example": "The apprentice learned to braze before touching the arc welder.",
+      "exampleCN": "学徒先学铜焊，才允许碰电弧焊机。",
+      "why": "Once the material defines the craft, the verb widens to the activity itself.",
+      "whyCN": "材料定义了手艺之后，动词自然扩展到整项作业活动。"
+    },
+    {
+      "no": "03",
+      "title": "To repair by brazing",
+      "titleCN": "用铜焊修补",
+      "definition": "to fix a cracked metal object by brazing over the crack",
+      "definitionCN": "在裂缝上钎焊黄铜，把损坏的金属件修好",
+      "example": "Grandpa brazed the leak in the old kettle.",
+      "exampleCN": "爷爷用铜焊补好了旧水壶的漏缝。",
+      "why": "A joining action applied to damage becomes a repair action.",
+      "whyCN": "接合的动作落在破损处，就从「连接」长出「修补」的含义。"
+    }
+  ],
+  "etymology": {
+    "intro": { "en": "Braze goes back through Old French and Latin to a word for brass.", "cn": "braze 经古法语和拉丁语追溯到一个表示「黄铜」的词。" },
+    "items": [
+      { "era": "LATIN", "en": "aes and its derived form meant copper or brass.", "cn": "拉丁语 aes 及其派生形式指铜或黄铜。" },
+      { "era": "VULGAR LATIN", "en": "a reconstructed form brasa is thought to have meant glowing coals.", "cn": "一般认为通俗拉丁语的重构形式 brasa 指烧红的炭。" },
+      { "era": "OLD FRENCH", "en": "braser meant to burn or to work with hot brass.", "cn": "古法语 braser 意为灼烧或加工烧红的黄铜。" },
+      { "era": "ENGLISH, 16TH–17TH C.", "en": "English took the word as braze, naming the craft of joining with brass.", "cn": "英语在十六至十七世纪借入 braze，命名用黄铜接合的工艺。" },
+      { "era": "PRESENT DAY ENGLISH", "en": "braze is the standard technical verb for brazing, next to welding and soldering.", "cn": "如今 braze 是钎焊的标准术语，与电焊、锡焊相区别。" }
+    ]
+  },
+  "similar": {
+    "note": { "en": "Braze is easy to confuse with blaze, and it belongs to a family of metal-joining verbs.", "cn": "braze 极易与 blaze 混淆，同时也和一组金属接合动词同场出现。" },
+    "groups": [
+      {
+        "heading": "LOOK-ALIKE",
+        "entries": [
+          { "word": "blaze", "ipa": "/bleɪz/", "tag": "spelling", "definition": "to burn brightly", "definitionCN": "熊熊燃烧；只是拼写相近，词源不同" },
+          { "word": "brazen", "ipa": "/ˈbreɪzn/", "tag": "same root", "definition": "made of brass; shamelessly bold", "definitionCN": "黄铜制的；引申为厚颜无耻的，与 braze 同出黄铜一词根" },
+          { "word": "brass", "ipa": "/brɑːs/", "tag": "same root", "definition": "the yellow copper-zinc alloy used as the brazing filler", "definitionCN": "黄铜，铜锌合金，正是 braze 所用的填料" }
+        ]
+      },
+      {
+        "heading": "NEAR MEANING",
+        "entries": [
+          { "word": "weld", "ipa": "/weld/", "tag": "near meaning", "definition": "to join metals by melting the metals themselves", "definitionCN": "熔化母材本身把金属焊在一起，温度更高" },
+          { "word": "solder", "ipa": "/ˈsəʊldə(r)/", "tag": "near meaning", "definition": "to join metals with a soft low-melting alloy", "definitionCN": "用低熔点软合金锡焊，温度更低" },
+          { "word": "soldering", "ipa": "/ˈsəʊldərɪŋ/", "tag": "near meaning", "definition": "the soft-solder process", "definitionCN": "锡焊工艺，与钎焊相对" }
+        ]
+      }
+    ]
+  },
+  "mnemonics": {
+    "normalIntro": { "en": "Use the shared root of brass and brazen to remember braze.", "cn": "借助 brass 和 brazen 的同根关系来记 braze。" },
+    "normal": [
+      { "en": "Braze contains brass by sound: BRAss to BRAze.", "cn": "braze 与 brass 声音相近：黄铜料，铜焊接。" },
+      { "en": "Brazen means brass-faced, from the same root.", "cn": "brazen（厚脸皮）原义「黄铜脸」，与 braze 同根。" },
+      { "en": "The filler melts, so braze rhymes with blaze of the torch.", "cn": "焊枪的火焰一闪（blaze），黄铜熔化即钎焊（braze）。" },
+      { "en": "B-R-A-Z: Brass Rod Adds Zip to the joint.", "cn": "黄铜焊条（Brass Rod）给接头加上韧劲，取首字母 B-R-A-Z。" },
+      { "en": "Weld melts the base, solder is soft, braze sits in between.", "cn": "电焊熔母材，锡焊用软料，铜焊居其间。" }
+    ],
+    "abstract": [
+      { "en": "Picture a river of glowing brass stitching two steel plates.", "cn": "想象一条发光的黄铜小河把两块钢板缝合。" },
+      { "en": "Feel the torch flame wrapping the joint like a bracelet.", "cn": "感觉喷枪火焰像手镯一样环住接头。" },
+      { "en": "The seam cools from cherry red to steel grey in one breath.", "cn": "焊缝由樱红一瞬冷却成钢灰。" }
+    ]
+  },
+  "examples": [
+    { "en": "The workshop brazed the copper fittings onto the pipe.", "cn": "车间把铜配件钎焊到管子上。" },
+    { "en": "He learned to braze with a torch before he was fifteen.", "cn": "他十五岁前就学会了用喷枪铜焊。" },
+    { "en": "A careful braze can be as strong as a weld on thin tubing.", "cn": "精细的钎焊在薄壁管上可以和电焊一样牢固。" }
+  ],
+  "dict_mnemonic": { "note": "谐音记忆 · 非词源", "text": "「布瑞兹」——像把黄铜「布」满接缝，火一「瑞」出，铜液「兹兹」作响，焊口便成了。", "word": "braze" },
+  "root": "一般认为源自通俗拉丁语 brasa（烧红的炭），与德语 Brand（燃烧）同源；经古法语 braser 进入英语。核心词形是拉丁语 aes（铜），词义核心为「以黄铜施热接合」。",
+  "sensesIntro": { "en": "From the craft of joining with brass, the verb widens to the activity and then to repair.", "cn": "从「用黄铜接合」的工艺出发，动词扩展到整项作业，再长出修补之义。" },
+  "semanticMap": {
+    "core": { "en": "CORE IMAGE: molten brass gripping two pieces of steel.", "cn": "核心意象：熔化的黄铜把两块钢铁咬合在一起。" },
+    "chain": ["BRASS", "FILLER", "HEAT", "JOIN", "CRAFT", "REPAIR"],
+    "branches": [
+      { "senses": "01", "en": "braze a joint", "cn": "钎焊接头" },
+      { "senses": "01 · 02", "en": "braze with a torch", "cn": "用喷枪施焊" },
+      { "senses": "02", "en": "learn to braze", "cn": "学做钎焊活" },
+      { "senses": "03", "en": "braze a leak shut", "cn": "铜焊补漏" },
+      { "senses": "01 · 03", "en": "a brazed bracket", "cn": "焊上去的托架" }
+    ]
+  },
+  "affixes": {
+    "intro": { "en": "Braze is a single-morpheme verb, so its family is built by adding suffixes.", "cn": "braze 是单语素动词，其词族靠加后缀扩展。" },
+    "latinIntro": { "en": "The root traces to Latin aes, copper, through a Vulgar Latin form for glowing coals.", "cn": "词根经通俗拉丁语「烧红的炭」上溯到拉丁语 aes（铜）。" },
+    "items": [
+      { "word": "braze", "structure": "verb base", "meaning": "to join with brass", "meaningCN": "铜焊；钎焊", "example": "braze the pipes", "exampleCN": "铜焊管子" },
+      { "word": "brazing", "structure": "verb + -ing", "meaning": "the brazing process", "meaningCN": "钎焊工艺", "example": "brazing temperature", "exampleCN": "钎焊温度" },
+      { "word": "brazer", "structure": "verb + -er", "meaning": "a worker who brazes", "meaningCN": "钎焊工", "example": "a skilled brazer", "exampleCN": "熟练的钎焊工" },
+      { "word": "brazed", "structure": "verb + -ed", "meaning": "joined by brazing", "meaningCN": "经钎焊的", "example": "a brazed joint", "exampleCN": "钎焊接头" },
+      { "word": "brazen", "structure": "brass root + -en", "meaning": "made of brass; bold", "meaningCN": "黄铜制的；厚颜的", "example": "a brazen face", "exampleCN": "厚脸皮" },
+      { "word": "brazier", "structure": "brass root + -ier", "meaning": "a pan for burning coals", "meaningCN": "火盆", "example": "a street brazier", "exampleCN": "街边火盆" },
+      { "word": "brass", "structure": "related alloy noun", "meaning": "copper-zinc alloy", "meaningCN": "黄铜", "example": "brass fittings", "exampleCN": "黄铜配件" },
+      { "word": "solder", "structure": "parallel craft verb", "meaning": "to join with soft alloy", "meaningCN": "锡焊", "example": "solder the wire", "exampleCN": "锡焊导线" },
+      { "word": "weld", "structure": "parallel craft verb", "meaning": "to fuse metals directly", "meaningCN": "电焊；熔焊", "example": "weld the beams", "exampleCN": "焊接横梁" },
+      { "word": "forge", "structure": "related craft verb", "meaning": "to shape metal by heat and hammering", "meaningCN": "锻造", "example": "forge a horseshoe", "exampleCN": "锻打马蹄铁" }
+    ],
+    "latinEntries": [
+      { "word": "aes", "structure": "Latin noun", "meaning": "copper, bronze", "meaningCN": "铜；青铜" },
+      { "word": "brasa", "structure": "Vulgar Latin, reconstructed", "meaning": "glowing coals", "meaningCN": "烧红的炭（重构形式）" }
+    ],
+    "derivatives": [
+      { "word": "brazing", "pos": "n.", "zh": "钎焊工艺" },
+      { "word": "brazer", "pos": "n.", "zh": "钎焊工" }
+    ]
+  }
+}

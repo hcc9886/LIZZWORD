@@ -1,0 +1,484 @@
+{
+  "word": "bias",
+  "ipa_uk": "/ˈbaɪəs/",
+  "ipa_us": "/ˈbaɪəs/",
+  "definition_zh": "偏见；偏向；偏差；使有偏见",
+  "definition_en": "an unfair preference or a systematic slant in judgment, data, or design, or to influence something unfairly",
+  "core_image": "保龄球被做偏的一侧：球滚着滚着自己拐向一边",
+  "scene": "研究发布前，审稿人反复追问样本来源是否站得住脚。The study was criticized for a bias that favoured the sponsor's product.",
+  "sceneCN": "这里 bias 是「研究中的系统性偏差」（第 2 个义项：数据或方法偏向一方）；句意：这项研究因偏向赞助商产品而受到批评。场景要点：研究报告、赞助商标志、一边倒的数据图表。",
+  "pos": [
+    {
+      "tag": "n.",
+      "zh": "偏见；偏向；偏差；斜线"
+    },
+    {
+      "tag": "vt.",
+      "zh": "使有偏见；使偏向"
+    }
+  ],
+  "collocations": [
+    {
+      "phrase": "a bias against",
+      "zh": "对……的偏见"
+    },
+    {
+      "phrase": "a bias towards",
+      "zh": "对……的偏向"
+    },
+    {
+      "phrase": "confirmation bias",
+      "zh": "确认偏误"
+    },
+    {
+      "phrase": "unconscious bias",
+      "zh": "无意识偏见"
+    },
+    {
+      "phrase": "on the bias",
+      "zh": "斜着；沿斜纹方向（裁剪用语）"
+    }
+  ],
+  "forms": [
+    {
+      "label": "复数（名词）",
+      "form": "biases"
+    },
+    {
+      "label": "三单（he/she/it）",
+      "form": "biases"
+    },
+    {
+      "label": "过去式（已经发生）",
+      "form": "biased"
+    },
+    {
+      "label": "过去分词（完成／被动）",
+      "form": "biased"
+    },
+    {
+      "label": "现在分词（进行体）",
+      "form": "biasing"
+    }
+  ],
+  "derivatives": [
+    {
+      "word": "biased",
+      "pos": "adj.",
+      "zh": "有偏见的；偏向的"
+    },
+    {
+      "word": "unbiased",
+      "pos": "adj.",
+      "zh": "无偏见的；公正的"
+    },
+    {
+      "word": "debias",
+      "pos": "v.",
+      "zh": "消除偏差；去偏"
+    },
+    {
+      "word": "bias-free",
+      "pos": "adj.",
+      "zh": "无偏差的；无偏见的"
+    }
+  ],
+  "senses": [
+    {
+      "no": "01",
+      "title": "Prejudice for or against a group",
+      "titleCN": "偏见：对某群体先有立场",
+      "definition": "an unfair preference or dislike for a person or group based on identity rather than evidence",
+      "definitionCN": "基于身份而非证据，对某人或某群体不公平的偏好或厌恶",
+      "example": "The hiring panel was accused of gender bias.",
+      "exampleCN": "招聘小组被指存在性别偏见。",
+      "why": "The original bias was a weight placed off-centre on a bowling ball. The ball therefore curves one way; a mind with bias curves toward one group.",
+      "whyCN": "最初的 bias 是保龄球上偏置的配重。球因此向一边拐；有 bias 的心也会向某个群体拐。"
+    },
+    {
+      "no": "02",
+      "title": "Systematic distortion in data or research",
+      "titleCN": "系统性偏差：数据整体偏了一边",
+      "definition": "a systematic error that makes results consistently differ from the truth in one direction",
+      "definitionCN": "使结果持续朝一个方向偏离真实情况的系统性误差",
+      "example": "The survey suffered from selection bias because it only reached smartphone users.",
+      "exampleCN": "这项调查存在选择偏差，因为它只触及智能手机用户。",
+      "why": "A bowling ball with an off-centre weight does not make random errors; it curves the same way every time. Statistical bias is that consistent curve.",
+      "whyCN": "偏置配重的保龄球不是随机出错，而是每次都朝同一边弯。统计偏差就是这种持续一致的弯曲。"
+    },
+    {
+      "no": "03",
+      "title": "A personal leaning or tendency",
+      "titleCN": "个人偏向：心里更倾向某一边",
+      "definition": "a preference or inclination that shapes how someone thinks or acts",
+      "definitionCN": "影响一个人思考或行动方式的偏好或倾向",
+      "example": "He has a bias for simple solutions over complicated ones.",
+      "exampleCN": "他偏向简单方案，而不是复杂方案。",
+      "why": "The curve need not be hostile; any off-centre weight makes the ball drift. In the same way, a mild preference is already a bias.",
+      "whyCN": "这种弯曲不必带敌意；只要配重偏离中心，球就会漂。同样，温和的偏好也已经是一种 bias。"
+    },
+    {
+      "no": "04",
+      "title": "An oblique line or grain",
+      "titleCN": "斜线：布料或裁剪的斜向",
+      "definition": "a slanting direction, especially the diagonal grain of woven fabric or a cut made across it",
+      "definitionCN": "倾斜的方向，尤指织物的斜纹或横过布纹的裁剪",
+      "example": "The dress was cut on the bias so that it would drape softly.",
+      "exampleCN": "这条裙子沿斜纹裁剪，因此垂坠柔和。",
+      "why": "This is the oldest concrete sense: biais in Old French meant 'slant, oblique'. The line runs across the straight grain.",
+      "whyCN": "这是最古老的实体义：古法语 biais 就是“倾斜、斜的”。这条线横过笔直的布纹。"
+    },
+    {
+      "no": "05",
+      "title": "To influence unfairly",
+      "titleCN": "使有偏见：把判断推向一边",
+      "definition": "to cause someone or something to favour one side unfairly",
+      "definitionCN": "使某人或某事物不公平地偏向一边",
+      "example": "The editor was accused of biasing the report against the opposition.",
+      "exampleCN": "编辑被指让报道对反对派产生偏见。",
+      "why": "The verb applies the off-centre weight: a force is added to one side, so the result rolls that way.",
+      "whyCN": "动词就是加上偏置配重：往一边施力，结果便朝那边滚。"
+    },
+    {
+      "no": "06",
+      "title": "Electronics: a steady voltage or current",
+      "titleCN": "电子学：偏置电压或电流",
+      "definition": "a fixed voltage or current applied to a device to set its operating point",
+      "definitionCN": "施加于器件、用来设定其工作点的固定电压或电流",
+      "example": "The transistor needs a small bias voltage to conduct.",
+      "exampleCN": "晶体管需要一个小偏置电压才能导通。",
+      "why": "The electrical sense keeps the geometry: the operating point is pushed away from the centre to one side so the device responds correctly.",
+      "whyCN": "电子义保留了这种几何：工作点被从中心推向一边，器件才能正确响应。"
+    },
+    {
+      "no": "07",
+      "title": "Cognitive bias",
+      "titleCN": "认知偏误：思维自己走捷径",
+      "definition": "in psychology, a repeatable pattern in which judgment departs from logic or evidence",
+      "definitionCN": "心理学中判断反复偏离逻辑或证据的模式",
+      "example": "Confirmation bias makes people notice evidence that supports what they already believe.",
+      "exampleCN": "确认偏误使人更容易注意到支持自己既有信念的证据。",
+      "why": "The mind's default path is the off-centre weight. It saves effort but curves every judgment in the same direction.",
+      "whyCN": "心智的默认路径就是那块偏置配重。它省力，却让每个判断都朝同一方向弯。"
+    },
+    {
+      "no": "08",
+      "title": "Algorithmic or AI bias",
+      "titleCN": "算法偏见：模型学进了偏差",
+      "definition": "a systematic unfairness in a model or system, usually learned from biased data or design choices",
+      "definitionCN": "模型或系统中系统性的不公平，通常来自有偏差的数据或设计选择",
+      "example": "The chatbot showed bias because its training data underrepresented certain dialects.",
+      "exampleCN": "这个聊天机器人表现出偏见，因为训练数据对某些方言代表性不足。",
+      "why": "A model repeats the curve it was trained on. If the data leaned one way, the machine leans the same way at scale.",
+      "whyCN": "模型会重复它被训练时见到的弯曲。数据偏向一边，机器就会大规模地朝同一边偏。"
+    },
+    {
+      "no": "09",
+      "title": "Media bias",
+      "titleCN": "媒体偏向：报道框架有倾斜",
+      "definition": "a tendency in news reporting to present events from one perspective or to favour one side",
+      "definitionCN": "新闻报道倾向于从某一视角呈现事件或偏袒某一方",
+      "example": "Readers complained about the paper's political bias.",
+      "exampleCN": "读者抱怨这家报纸有政治偏向。",
+      "why": "Selection and framing act like an off-centre weight on the whole report: some facts are pushed forward, others are pushed out of view.",
+      "whyCN": "选择与框架就像给整篇报道加了偏置配重：有些事实被推向前面，另一些被推出视野。"
+    }
+  ],
+  "etymology": {
+    "intro": {
+      "en": "Bias began as a word for a slanting line and became the name of a weighted bowling ball. From that curved roll came the modern senses of prejudice and systematic distortion.",
+      "cn": "bias 最初指一条斜线，后来成为偏置保龄球的名称。从那种弯曲的滚动，长出了现代“偏见”和“系统性偏差”的含义。"
+    },
+    "items": [
+      {
+        "era": "1520S",
+        "en": "Bias enters English in the 1520s as 'an oblique or diagonal line'. The earliest uses are about cuts, slopes, and geometry.",
+        "cn": "bias 在 1520 年代进入英语，意为“斜线、对角线”。最早用法与裁剪、斜面、几何有关。"
+      },
+      {
+        "era": "1560S BOWLING",
+        "en": "By the 1560s a bias was also a weight placed on one side of a bowling ball so that it curved as it rolled. The bowl had a bias; the path showed it.",
+        "cn": "到 1560 年代，bias 也指保龄球一侧的配重，使球滚动时弯曲。球本身“有 bias”，轨迹把这一点显示出来。"
+      },
+      {
+        "era": "OLD FRENCH",
+        "en": "The English word comes from Old French biais 'slant, slope, oblique'. French already used it for both a diagonal line and a leaning tendency.",
+        "cn": "英语这个词来自古法语 biais“倾斜、斜面、斜的”。法语中它已经既指斜线，也指倾向。"
+      },
+      {
+        "era": "ORIGIN UNCERTAIN",
+        "en": "The deeper origin of biais is not settled. One suggestion traces it through Vulgar Latin *(e)bigassius to Greek epikarsios 'athwart, crosswise', from epi- 'upon' + karsios 'oblique'; this is a hypothesis, not an attested chain.",
+        "cn": "biais 更深层的来源尚无定论。一种说法认为它经通俗拉丁语 *(e)bigassius 追溯到希腊语 epikarsios“横向的、斜穿过去的”，由 epi-“在上”+ karsios“斜的”构成；这只是假说，不是有文献链的结论。"
+      },
+      {
+        "era": "1570S FIGURATIVE",
+        "en": "By the 1570s bias was used for a leaning of the mind. A ball that curves became a judgment that curves; the weight moved from the bowl to the person.",
+        "cn": "到 1570 年代，bias 被用于表示心智的倾向。会弯的球变成了会弯的判断；配重从球上移到了人身上。"
+      },
+      {
+        "era": "MODERN ENGLISH",
+        "en": "Statistics, psychology, electronics, media studies, and AI all use the same geometry: a system pushed off-centre, so that its output consistently leans one way.",
+        "cn": "统计学、心理学、电子学、媒体研究和人工智能都使用同一种几何：系统被推离中心，于是输出持续偏向一边。"
+      }
+    ]
+  },
+  "similar": {
+    "note": {
+      "en": "The first group is built on the same bias; the second collects words for unfair leaning, each naming a different kind of tilt.",
+      "cn": "第一组建立在同一个 bias 上；第二组收“不公平倾向”的词，各自命名不同类型的倾斜。"
+    },
+    "groups": [
+      {
+        "heading": "LOOK-ALIKE",
+        "entries": [
+          {
+            "word": "biased",
+            "ipa": "/ˈbaɪəst/",
+            "tag": "derived adjective",
+            "definition": "showing an unfair preference. It is the past participle of bias used as an adjective.",
+            "definitionCN": "表现出不公平偏好的。它是 bias 的过去分词转作形容词。"
+          },
+          {
+            "word": "unbiased",
+            "ipa": "/ʌnˈbaɪəst/",
+            "tag": "negative form",
+            "definition": "fair and without preference. Un- 'not' + biased removes the off-centre weight.",
+            "definitionCN": "公正、无偏好的。un-“不”+ biased，去掉偏置配重。"
+          },
+          {
+            "word": "biases",
+            "ipa": "/ˈbaɪəsɪz/",
+            "tag": "inflected form",
+            "definition": "plural of bias, or the third-person singular of the verb. It is not a different root.",
+            "definitionCN": "bias 的复数，或动词第三人称单数。它不是另一个词根。"
+          }
+        ]
+      },
+      {
+        "heading": "NEAR MEANING",
+        "entries": [
+          {
+            "word": "prejudice",
+            "ipa": "/ˈpredʒədɪs/",
+            "tag": "pre-judgment of people",
+            "definition": "an opinion formed before knowing the facts, especially about a group. It is usually social and emotional; bias can be statistical and neutral in tone.",
+            "definitionCN": "在了解事实之前形成的看法，尤指对某群体。它通常带社会性和情绪性；bias 可以是统计性的、语气中性的。"
+          },
+          {
+            "word": "partiality",
+            "ipa": "/ˌpɑːʃiˈæləti/",
+            "tag": "favouritism",
+            "definition": "unfair support for one person or side. It stresses favouring a particular party rather than a distorted system.",
+            "definitionCN": "对某人或某一方的不公平支持。它强调偏袒特定一方，而不是系统被扭曲。"
+          },
+          {
+            "word": "slant",
+            "ipa": "/slɑːnt/",
+            "tag": "angled presentation",
+            "definition": "a particular point of view imposed on information, or a sloping direction. Slant is often used for media framing.",
+            "definitionCN": "强加于信息的特定视角，或倾斜方向。slant 常用于媒体框架。"
+          },
+          {
+            "word": "tendency",
+            "ipa": "/ˈtendənsi/",
+            "tag": "general inclination",
+            "definition": "a general inclination to behave in a certain way. It is broader and can be neutral, while bias implies unfairness in most modern uses.",
+            "definitionCN": "以某种方式行事的一般倾向。它更宽泛，可以中性；bias 在现代用法中多含不公平意味。"
+          }
+        ]
+      }
+    ]
+  },
+  "mnemonics": {
+    "normalIntro": {
+      "en": "Real image and relatives: a bowling ball with an off-centre weight, the adjective biased, and the modern debias.",
+      "cn": "只用真实意象与同族词：一侧加配重的保龄球、形容词 biased，以及现代词 debias。"
+    },
+    "normal": [
+      {
+        "en": "A bowling ball with a weight on one side curves as it rolls. That curve is the original bias.",
+        "cn": "一侧加配重的保龄球滚起来会弯。那道弯曲就是最初的 bias。"
+      },
+      {
+        "en": "Biased is the adjective: a biased report has a weight on one side of its scale.",
+        "cn": "biased 是形容词：a biased report 的天平一侧被加了重量。"
+      },
+      {
+        "en": "Unbiased removes the weight, so the result can roll straight.",
+        "cn": "unbiased 去掉了那块配重，结果才能直着滚。"
+      },
+      {
+        "en": "To debias a model is to find and remove the off-centre weight in its training data.",
+        "cn": "debias 一个模型，就是找出并移除训练数据里的偏置配重。"
+      },
+      {
+        "en": "On the bias means diagonally across the grain of cloth, the oldest concrete sense.",
+        "cn": "on the bias 指沿斜纹横过布纹，这是最古老的实体义。"
+      }
+    ],
+    "abstract": [
+      {
+        "en": "Bias is not the same as being wrong. It is a consistent direction of error, like a ball that always curves left.",
+        "cn": "bias 不等于“错了”，而是一种持续一致的错误方向，像永远向左弯的球。"
+      },
+      {
+        "en": "The weight can sit in a person, a dataset, a question, a newsroom, or a circuit. The geometry is identical.",
+        "cn": "配重可以放在一个人、一份数据、一道问题、一间新闻编辑室或一个电路里。几何关系完全相同。"
+      },
+      {
+        "en": "Removing bias is not the same as having no perspective; it means no hidden weight is steering the result without being declared.",
+        "cn": "消除 bias 不等于没有视角；它意味着没有隐藏的配重在不声明的情况下操纵结果。"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "en": "The judge was asked to step aside because of a perceived bias.",
+      "cn": "由于被认为存在偏见，法官被要求回避。"
+    },
+    {
+      "en": "The test was redesigned to remove cultural bias.",
+      "cn": "这项测试被重新设计，以消除文化偏差。"
+    },
+    {
+      "en": "Social media algorithms can amplify political bias.",
+      "cn": "社交媒体算法会放大政治偏向。"
+    }
+  ],
+  "dict_mnemonic": {
+    "note": "谐音记忆 · 非词源",
+    "text": "“拜厄斯”——拜厄斯看人总先挑一边站，像偏心的保龄球 → bias 偏见、偏向",
+    "word": "bias"
+  },
+  "root": "源自古法语 biais“倾斜、斜面”；最初指斜线，16 世纪又指保龄球一侧的配重，球因此弯曲滚动，核心是“偏离中心、持续倒向一边”。更深词源不确定。",
+  "sensesIntro": {
+    "en": "Nine senses of bias, all built on one geometry: a weight placed off-centre, making the path curve consistently toward one side.",
+    "cn": "bias 的九个义项都建立在同一种几何上：配重偏离中心，使路径持续朝一边弯曲。"
+  },
+  "semanticMap": {
+    "core": {
+      "en": "CORE IMAGE: an off-centre weight that makes a ball, a judgment, or a system lean one way.",
+      "cn": "核心意象：偏离中心的配重，让球、判断或系统倒向一边。"
+    },
+    "chain": [
+      "OFF-CENTRE WEIGHT",
+      "PATH CURVES",
+      "CONSISTENT DIRECTION",
+      "PREFERENCE FOR ONE SIDE",
+      "UNFAIR JUDGMENT",
+      "SYSTEMATIC DISTORTION"
+    ],
+    "branches": [
+      {
+        "senses": "01 · 03 · 09",
+        "en": "SOCIAL AND MEDIA LEANING: prejudice toward a group, a personal preference, a newsroom's framing.",
+        "cn": "社会与媒体倾向：对群体的偏见、个人偏好、新闻编辑室的框架。"
+      },
+      {
+        "senses": "02 · 07 · 08",
+        "en": "SYSTEMATIC ERROR: selection bias, cognitive shortcuts, and learned algorithmic unfairness.",
+        "cn": "系统性误差：选择偏差、认知捷径，以及算法学到的系统性不公。"
+      },
+      {
+        "senses": "04",
+        "en": "GEOMETRY: the original slant of a line or the diagonal grain of cloth.",
+        "cn": "几何：最初的斜线，或布料的斜纹。"
+      },
+      {
+        "senses": "05",
+        "en": "THE VERB: to add the off-centre weight and push a result toward one side.",
+        "cn": "动词：加上偏置配重，把结果推向一边。"
+      },
+      {
+        "senses": "06",
+        "en": "ELECTRONICS: a fixed voltage that sets an operating point away from centre.",
+        "cn": "电子学：把工作点设定在偏离中心的固定电压。"
+      }
+    ]
+  },
+  "affixes": {
+    "intro": {
+      "en": "Bias is a borrowed French noun. English adds -ed, un-, -es, and -ing; modern technical English coins de- and -free compounds.",
+      "cn": "bias 是借入的法语名词。英语加 -ed、un-、-es、-ing；现代技术英语又造出 de- 和 -free 复合词。"
+    },
+    "latinIntro": {
+      "en": "There is no reliable classical Latin word for bias. The suggested Vulgar Latin *(e)bigassius, linked to Greek epikarsios, is a hypothesis, so latinEntries is left empty rather than presenting a speculative root as fact.",
+      "cn": "bias 没有可靠的古典拉丁语来源。所谓的通俗拉丁语 *(e)bigassius（与希腊语 epikarsios 相联系）只是假说，因此 latinEntries 留空，不把推测词根当作事实。"
+    },
+    "items": [
+      {
+        "word": "biases",
+        "structure": "bias + -es (plural / third person)",
+        "meaning": "more than one bias, or 'it biases'",
+        "meaningCN": "多种偏见；或动词第三人称单数",
+        "example": "The report identifies several hidden biases.",
+        "exampleCN": "报告指出了几处隐藏的偏见。"
+      },
+      {
+        "word": "biased",
+        "structure": "bias + -ed (past participle / adjective)",
+        "meaning": "influenced unfairly; showing a preference",
+        "meaningCN": "有偏见的；偏向的（-ed 构成分词或形容词）",
+        "example": "The sample was biased toward younger voters.",
+        "exampleCN": "样本偏向年轻选民。"
+      },
+      {
+        "word": "unbiased",
+        "structure": "un- (not) + biased",
+        "meaning": "fair and without a leaning",
+        "meaningCN": "无偏见的；公正的（un- 表示否定）",
+        "example": "We need an unbiased review of the evidence.",
+        "exampleCN": "我们需要对证据进行公正的审查。"
+      },
+      {
+        "word": "biasing",
+        "structure": "bias + -ing (participle)",
+        "meaning": "influencing something toward one side",
+        "meaningCN": "使产生偏向；正在加偏置（-ing 构成分词）",
+        "example": "The wording of the question was biasing the answers.",
+        "exampleCN": "问题的措辞正在使答案产生偏向。"
+      },
+      {
+        "word": "biassing",
+        "structure": "bias + -ing (British spelling variant)",
+        "meaning": "the same as biasing, with doubled s",
+        "meaningCN": "与 biasing 同义，英式拼写双写 s",
+        "example": "British journals often print biassing.",
+        "exampleCN": "英国期刊常印作 biassing。"
+      },
+      {
+        "word": "debias",
+        "structure": "de- (remove) + bias",
+        "meaning": "to remove a known bias from data or a process",
+        "meaningCN": "去偏；从数据或流程中消除偏差（de- 表示去除）",
+        "example": "The team tried to debias the training set.",
+        "exampleCN": "团队试图去除训练集的偏差。"
+      },
+      {
+        "word": "debiasing",
+        "structure": "de- + bias + -ing",
+        "meaning": "the process of removing bias",
+        "meaningCN": "去偏过程；消除偏差",
+        "example": "Debiasing is easier when the source of the skew is known.",
+        "exampleCN": "当偏差来源已知时，去偏会更容易。"
+      },
+      {
+        "word": "bias-free",
+        "structure": "bias + free (without)",
+        "meaning": "designed or tested to contain no bias",
+        "meaningCN": "无偏差的；无偏见的（free 表示“没有”）",
+        "example": "The company promised a bias-free hiring process.",
+        "exampleCN": "公司承诺采用无偏见的招聘流程。"
+      },
+      {
+        "word": "overbias",
+        "structure": "over- (too much) + bias",
+        "meaning": "to apply excessive bias in electronics or modelling",
+        "meaningCN": "过偏；施加过大的偏置（over- 表示“过度”，技术用语）",
+        "example": "The amplifier was overbiased and overheated.",
+        "exampleCN": "放大器偏置过大，导致过热。"
+      }
+    ],
+    "latinEntries": []
+  }
+}
