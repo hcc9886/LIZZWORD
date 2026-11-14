@@ -1,0 +1,156 @@
+{
+  "word": "bungle",
+  "ipa_uk": "/ˈbʌŋɡl/",
+  "ipa_us": "/ˈbʌŋɡl/",
+  "definition_zh": "搞糟；笨手笨脚地做；把事情弄坏",
+  "definition_en": "to carry out a task clumsily or badly, spoiling it",
+  "core_image": "越帮越忙的手，把线团绕成一团乱麻",
+  "scene": "他自告奋勇修水管，结果拧爆了接头。The plumber bungled the simple repair and flooded the kitchen.",
+  "sceneCN": "这里 bungle 是「搞砸、笨拙地弄坏」（第 1 个义项：因笨拙而把事办糟）；句意是水暖工把简单的修理搞砸，厨房发了水。",
+  "pos": [
+    { "tag": "vt.", "zh": "搞糟；笨拙地做坏" },
+    { "tag": "vi.", "zh": "笨手笨脚；出错" }
+  ],
+  "collocations": [
+    { "phrase": "bungle a job", "zh": "把活儿干砸" },
+    { "phrase": "bungle an attempt", "zh": "把尝试搞糟" },
+    { "phrase": "bungle the investigation", "zh": "把调查弄得一团糟" },
+    { "phrase": "bungle one's lines", "zh": "说错台词" },
+    { "phrase": "a bungled robbery", "zh": "一场砸了的抢劫" }
+  ],
+  "forms": [
+    { "label": "过去式", "form": "bungled" },
+    { "label": "过去分词", "form": "bungled" },
+    { "label": "现在分词", "form": "bungling" },
+    { "label": "三单", "form": "bungles" }
+  ],
+  "derivatives": [
+    { "word": "bungler", "pos": "n.", "zh": "由动词加 -er 构成，义为「笨手笨脚的人，老是搞砸的人」" },
+    { "word": "bungling", "pos": "adj.", "zh": "由现在分词转形容词，义为「笨拙的，老出错的」" },
+    { "word": "blunder", "pos": "n.", "zh": "近义词，义为「大错，失误」" }
+  ],
+  "senses": [
+    {
+      "no": "01",
+      "title": "To spoil a task through clumsiness",
+      "titleCN": "把事情搞糟；弄坏",
+      "definition": "to ruin a job by handling it clumsily or incompetently",
+      "definitionCN": "因笨拙或无能而把工作搞砸",
+      "example": "They bungled the launch and lost the client.",
+      "exampleCN": "他们把发布活动搞砸了，丢了客户。",
+      "why": "The Swedish source means to work clumsily; clumsy work spoils the thing itself.",
+      "whyCN": "瑞典语源词本指笨拙干活，笨拙的活计必然毁掉成品。"
+    },
+    {
+      "no": "02",
+      "title": "To act clumsily in general",
+      "titleCN": "笨手笨脚；屡屡出错（不及物）",
+      "definition": "to do things in a habitually clumsy, botching way",
+      "definitionCN": "做事一贯笨拙、经常出错",
+      "example": "He bungles whenever he touches tools.",
+      "exampleCN": "他一碰工具就出岔子。",
+      "why": "One spoiled task generalizes into a manner of working.",
+      "whyCN": "一次搞砸推广成一贯的做派，动词由及物转不及物。"
+    },
+    {
+      "no": "03",
+      "title": "A botched act or attempt",
+      "titleCN": "搞砸的事（名词化用法）",
+      "definition": "a spoiled piece of work resulting from clumsy handling",
+      "definitionCN": "因笨拙处理而失败的活计或尝试",
+      "example": "The escape was a complete bungle.",
+      "exampleCN": "那次逃跑彻底砸了锅。",
+      "why": "The action names its product: the botch itself.",
+      "whyCN": "动作转指其产物，「搞砸」即「砸了的那件事」。"
+    }
+  ],
+  "etymology": {
+    "intro": { "en": "Bungle is first recorded in the sixteenth century, probably borrowed from Swedish bunga, to work clumsily.", "cn": "bungle 首见于十六世纪，一般认为借自瑞典语 bunga（笨拙地干活）。" },
+    "items": [
+      { "era": "SCANDINAVIAN", "en": "Swedish bunga and related dialect words meant to languish or work badly.", "cn": "瑞典语 bunga 及相关方言词指萎靡、干活糟糕。" },
+      { "era": "SCOTS ENGLISH, 16TH C.", "en": "bungle appears in Scots with the sense of acting awkwardly.", "cn": "十六世纪苏格兰英语中 bungle 意为举止笨拙。" },
+      { "era": "ENGLISH, 16TH–17TH C.", "en": "the verb spread through English for botching any task.", "cn": "十六至十七世纪该动词传遍英语，泛指把事办砸。" },
+      { "era": "ENGLISH, 18TH–19TH C.", "en": "bungler and bungling named the habitual botcher.", "cn": "十八至十九世纪 bungler、bungling 指惯于出错之人。" },
+      { "era": "PRESENT DAY ENGLISH", "en": "bungle is common in news prose for official incompetence.", "cn": "如今 bungle 常见于新闻文体，指官方办事无能。" }
+    ]
+  },
+  "similar": {
+    "note": { "en": "Bungle rhymes with a small family of -le verbs and stands among the botching words.", "cn": "bungle 与一小族 -le 动词押韵，置身「搞砸」词汇群。" },
+    "groups": [
+      {
+        "heading": "LOOK-ALIKE",
+        "entries": [
+          { "word": "bungler", "ipa": "/ˈbʌŋɡlə/", "tag": "derived form", "definition": "one who bungles", "definitionCN": "笨手笨脚者，bungle 的施动名词" },
+          { "word": "bungling", "ipa": "/ˈbʌŋɡlɪŋ/", "tag": "derived form", "definition": "clumsily botching", "definitionCN": "笨拙的，bungle 的现在分词" },
+          { "word": "bung", "ipa": "/bʌŋ/", "tag": "spelling", "definition": "a stopper for a cask; a throw", "definitionCN": "桶塞；扔，仅开头字母相同，词源无关" },
+          { "word": "jungle", "ipa": "/ˈdʒʌŋɡl/", "tag": "spelling", "definition": "dense tropical forest", "definitionCN": "丛林，拼形相近，词源不同" }
+        ]
+      },
+      {
+        "heading": "NEAR MEANING",
+        "entries": [
+          { "word": "botch", "ipa": "/bɒtʃ/", "tag": "near meaning", "definition": "to spoil by poor workmanship", "definitionCN": "把活做坏，笨拙修补" },
+          { "word": "fumble", "ipa": "/ˈfʌmbl/", "tag": "near meaning", "definition": "to handle clumsily", "definitionCN": "笨手笨脚地摸索、失误" },
+          { "word": "flub", "ipa": "/flʌb/", "tag": "near meaning", "definition": "to bungle, especially a performance", "definitionCN": "（表演、发言）搞砸" },
+          { "word": "muff", "ipa": "/mʌf/", "tag": "near meaning", "definition": "to fail to catch or perform", "definitionCN": "漏接，搞砸" },
+          { "word": "botched", "ipa": "/bɒtʃt/", "tag": "near meaning", "definition": "spoiled by clumsy work", "definitionCN": "被搞砸了的（常用定语）" }
+        ]
+      }
+    ]
+  },
+  "mnemonics": {
+    "normalIntro": { "en": "Hear the clumsy thud in the middle: bun-GLE, a job dropped.", "cn": "听词中间那记笨重的闷响：bun-GLE，活儿掉地上了。" },
+    "normal": [
+      { "en": "The Swedish source bunga means to work clumsily.", "cn": "瑞典语源词 bunga 意为笨拙干活。" },
+      { "en": "-le marks clumsy verbs: fumble, mumble, bungle.", "cn": "-le 标记笨拙类动词：fumble、mumble、bungle。" },
+      { "en": "Bungler is the person; bungling is the style.", "cn": "bungler 指人，bungling 指作风。" },
+      { "en": "Botch and bungle often appear together in criticism.", "cn": "botch 与 bungle 在批评语中常连用。" },
+      { "en": "A bungled attempt is the standard news collocation.", "cn": "a bungled attempt 是新闻标配搭配。" }
+    ],
+    "abstract": [
+      { "en": "Watch icing slide off a cake you tilt too far.", "cn": "看你把蛋糕倾斜过头，糖霜整片滑落。" },
+      { "en": "Hear a key snap inside a lock you forced.", "cn": "听钥匙断在你硬拧的锁芯里。" },
+      { "en": "Feel wet paint smear under a hasty palm.", "cn": "感受湿漆在你匆忙的手掌下晕开。" }
+    ]
+  },
+  "examples": [
+    { "en": "The agency bungled the evacuation plans.", "cn": "该机构把撤离方案搞得一团糟。" },
+    { "en": "He bungled his opening line and lost the room.", "cn": "他开场白就说砸了，冷了全场。" },
+    { "en": "Years of bungling left the project millions over budget.", "cn": "连年失误使项目预算超支数百万。" }
+  ],
+  "dict_mnemonic": { "note": "谐音记忆 · 非词源", "text": "「帮狗」——他想「帮」忙却越帮越乱，像条拆家的「狗」，把事彻底搞砸。", "word": "bungle" },
+  "root": "bungle 首见于十六世纪苏格兰英语，一般认为借自瑞典语 bunga（萎靡、笨拙干活），属斯堪的纳维亚借词；词根与表笨拙动作的 -le 动词一族（fumble、mumble）风格一致，无古典拉丁词根。",
+  "sensesIntro": { "en": "Clumsy handling first ruins the task, then names the clumsy manner, and finally the ruined result itself.", "cn": "笨拙的手法先毁掉差事，继而指称笨拙的做派，最后转指那件砸了的成品。" },
+  "semanticMap": {
+    "core": { "en": "CORE IMAGE: helping hands that unravel the ball of wool.", "cn": "核心意象：越帮越乱、把毛线团扯散的手。" },
+    "chain": ["CLUMSINESS", "ERROR", "DAMAGE", "FAILURE", "EMBARRASSMENT", "INCOMPETENCE"],
+    "branches": [
+      { "senses": "01", "en": "bungle a simple repair", "cn": "把简单修理搞砸" },
+      { "senses": "01", "en": "a bungled negotiation", "cn": "砸锅的谈判" },
+      { "senses": "02", "en": "he bungles at every turn", "cn": "他动辄出错" },
+      { "senses": "01 · 03", "en": "the bungle of the rollout", "cn": "上线事故的败笔" },
+      { "senses": "03", "en": "the whole affair was a bungle", "cn": "整件事从头砸到尾" }
+    ]
+  },
+  "affixes": {
+    "intro": { "en": "Bungle wears the frequentative -le suffix that marks clumsy repeated action.", "cn": "bungle 带着表「笨拙反复动作」的 -le 后缀。" },
+    "latinIntro": { "en": "The stem is Scandinavian; no Latin relative exists.", "cn": "词干出自斯堪的纳维亚语，拉丁语中并无亲缘。" },
+    "items": [
+      { "word": "bunga", "structure": "Swedish verb, source", "meaning": "to work clumsily, languish", "meaningCN": "笨拙干活，萎靡", "example": "dialect bunga", "exampleCN": "方言中的 bunga（如词源所示）" },
+      { "word": "-le", "structure": "frequentative suffix", "meaning": "repeated, often clumsy action", "meaningCN": "表反复（常笨拙）动作的后缀", "example": "fumble, stumble, bungle", "exampleCN": "如 fumble、stumble、bungle 等词" },
+      { "word": "bungle", "structure": "Scandinavian stem + -le", "meaning": "to botch a task", "meaningCN": "搞糟", "example": "bungle the job", "exampleCN": "把活干砸" },
+      { "word": "bungler", "structure": "bungle + -er", "meaning": "a habitual botcher", "meaningCN": "老是搞砸的人", "example": "an utter bungler", "exampleCN": "十足的笨蛋" },
+      { "word": "botch", "structure": "Middle English bocchen", "meaning": "to repair badly; to ruin", "meaningCN": "修坏，搞砸", "example": "botch a surgery", "exampleCN": "手术失败" },
+      { "word": "fumble", "structure": "fumb + -le", "meaning": "to grope clumsily", "meaningCN": "笨拙摸索", "example": "fumble for keys", "exampleCN": "摸钥匙" },
+      { "word": "stumble", "structure": "stump + -le", "meaning": "to trip; to falter", "meaningCN": "绊倒；结巴", "example": "stumble on the stairs", "exampleCN": "在楼梯上绊了一下" },
+      { "word": "mumble", "structure": "mum + -le", "meaning": "to speak indistinctly", "meaningCN": "咕哝", "example": "mumble an apology", "exampleCN": "含糊道歉" },
+      { "word": "flub", "structure": "American imitative verb", "meaning": "to bungle a line or act", "meaningCN": "（台词、动作）搞砸", "example": "flub one's lines", "exampleCN": "说错台词" },
+      { "word": "blunder", "structure": "Old Norse blunda", "meaning": "a stupid mistake; to err blindly", "meaningCN": "大错；瞎撞", "example": "a costly blunder", "exampleCN": "代价高昂的失误" }
+    ],
+    "latinEntries": [],
+    "derivatives": [
+      { "word": "bungler", "pos": "n.", "zh": "笨手笨脚的人" },
+      { "word": "bungling", "pos": "adj.", "zh": "笨拙出错的" }
+    ]
+  }
+}

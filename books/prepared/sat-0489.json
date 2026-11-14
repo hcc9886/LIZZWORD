@@ -1,0 +1,492 @@
+{
+ "word": "buoyant",
+ "ipa_uk": "/ˈbɔɪənt/",
+ "ipa_us": "/ˈbɔɪənt/",
+ "definition_zh": "有浮力的；能漂浮的；轻快的；乐观的；（市场）保持景气的",
+ "definition_en": "able to float or keep something afloat; also light-hearted, cheerful or economically firm",
+ "core_image": "一块干木被按进水里，手一松就立刻弹回水面，还带着水珠",
+ "scene": "一块干木被按进水里，松手后立刻弹回水面。Dry wood is buoyant enough to float for days.",
+ "sceneCN": "这里 buoyant 指「具有浮力、能漂浮的」（第 1 个义项：物理上的浮性）；句意为干木的浮力足以使它漂浮数日。",
+ "pos": [
+  {
+   "tag": "adj.",
+   "zh": "有浮力的；能漂浮的；轻快的；乐观的；保持景气的"
+  }
+ ],
+ "collocations": [
+  {
+   "phrase": "buoyant mood",
+   "zh": "轻快的心情"
+  },
+  {
+   "phrase": "buoyant market",
+   "zh": "景气的市场"
+  },
+  {
+   "phrase": "buoyant demand",
+   "zh": "旺盛的需求"
+  },
+  {
+   "phrase": "buoyant plume",
+   "zh": "上升羽流"
+  },
+  {
+   "phrase": "buoyant material",
+   "zh": "有浮力的材料"
+  },
+  {
+   "phrase": "buoyant spirits",
+   "zh": "高涨的情绪"
+  }
+ ],
+ "forms": [
+  {
+   "label": "比较级",
+   "form": "more buoyant"
+  },
+  {
+   "label": "最高级",
+   "form": "most buoyant"
+  },
+  {
+   "label": "副词",
+   "form": "buoyantly"
+  },
+  {
+   "label": "名词",
+   "form": "buoyancy"
+  },
+  {
+   "label": "动词",
+   "form": "buoy"
+  }
+ ],
+ "derivatives": [
+  {
+   "word": "buoyancy",
+   "pos": "n.",
+   "zh": "buoy + -ancy（拉丁 -antia 抽象名词后缀）→ 浮力；浮性；乐观"
+  },
+  {
+   "word": "buoyantly",
+   "pos": "adv.",
+   "zh": "buoyant + -ly（副词后缀）→ 轻快地；乐观地"
+  },
+  {
+   "word": "buoy",
+   "pos": "v./n.",
+   "zh": "buoy（中古荷兰语 boeye「浮标」）→ 使浮起、鼓舞；浮标"
+  },
+  {
+   "word": "buoyant plume",
+   "pos": "n.",
+   "zh": "buoyant + plume（羽流）→ 上升羽流：因密度较小而上升的流体柱"
+  },
+  {
+   "word": "buoyant force",
+   "pos": "n.",
+   "zh": "buoyant + force（力）→ 浮力：流体对物体的向上作用力"
+  }
+ ],
+ "senses": [
+  {
+   "no": "01",
+   "title": "Able to float",
+   "titleCN": "能漂浮的：具有浮力",
+   "definition": "able to stay on the surface of a liquid",
+   "definitionCN": "能留在液体表面而不下沉",
+   "example": "Dry wood is buoyant enough to float for days.",
+   "exampleCN": "干木的浮力足以使它漂浮数日。",
+   "why": "a thing is buoyant when the fluid pushes up at least as hard as gravity pulls down.",
+   "whyCN": "当流体向上推的力至少等于重力向下拉时，物体就是有浮力的。"
+  },
+  {
+   "no": "02",
+   "title": "Keeping something afloat",
+   "titleCN": "能托住他物的：提供浮力",
+   "definition": "having enough lift to support a load",
+   "definitionCN": "有足够托举力承载负荷",
+   "example": "The hull is buoyant even with a full cargo.",
+   "exampleCN": "船体即使满载货物也有浮力。",
+   "why": "the adjective can describe not only the floater but also the thing whose lift keeps another object up.",
+   "whyCN": "这个形容词不仅能描述漂浮者，也能描述以其托举力撑住他物的东西。"
+  },
+  {
+   "no": "03",
+   "title": "Rising through a fluid",
+   "titleCN": "在流体中上升的",
+   "definition": "less dense than the surrounding fluid and therefore rising",
+   "definitionCN": "密度小于周围流体因而上升",
+   "example": "A buoyant plume rises from the vent.",
+   "exampleCN": "一股上升羽流从喷口升起。",
+   "why": "the same density rule that floats a boat lifts a warm plume through colder water.",
+   "whyCN": "托起船只的密度规则，同样把暖羽流举过更冷的水。"
+  },
+  {
+   "no": "04",
+   "title": "Light-hearted",
+   "titleCN": "心情轻快的",
+   "definition": "cheerful and lively in mood",
+   "definitionCN": "情绪愉快而活泼",
+   "example": "The children were buoyant after the race.",
+   "exampleCN": "比赛之后孩子们情绪高涨。",
+   "why": "mood is described with up-down images, and what floats stays up; hence the cheerful sense.",
+   "whyCN": "心情用上下意象描述，而浮得起的东西留在上面，于是产生愉快义。"
+  },
+  {
+   "no": "05",
+   "title": "Optimistic and resilient",
+   "titleCN": "乐观且有韧性的",
+   "definition": "able to recover confidence after difficulty",
+   "definitionCN": "困难之后能恢复信心",
+   "example": "She remained buoyant despite the rejection.",
+   "exampleCN": "尽管遭到拒绝，她仍然乐观。",
+   "why": "coming back to the surface after being pushed down is the physical shape of recovering optimism.",
+   "whyCN": "被压下去后回到水面，正是恢复乐观的物理形状。"
+  },
+  {
+   "no": "06",
+   "title": "Firm in market terms",
+   "titleCN": "市场坚挺的",
+   "definition": "active and strong, said of prices, demand or an economy",
+   "definitionCN": "指价格、需求或经济活跃而强劲",
+   "example": "The housing market remained buoyant through the winter.",
+   "exampleCN": "住房市场在整个冬季保持景气。",
+   "why": "prices that do not sink are described as floating high, which is the economic use of the adjective.",
+   "whyCN": "不下沉的价格被描述为浮得高，这就是这个形容词的经济用法。"
+  },
+  {
+   "no": "07",
+   "title": "Confident in manner",
+   "titleCN": "举止自信的",
+   "definition": "showing easy confidence and high spirits",
+   "definitionCN": "表现出从容的自信与高涨的情绪",
+   "example": "He gave a buoyant wave from the stage.",
+   "exampleCN": "他在台上轻快地挥手。",
+   "why": "the mood sense extends from feeling to visible behaviour, which is how the adjective describes a manner.",
+   "whyCN": "情绪义从感受延伸到可见行为，这个形容词因此也能描述举止。"
+  },
+  {
+   "no": "08",
+   "title": "Lifting the atmosphere",
+   "titleCN": "使气氛轻快的",
+   "definition": "making a place or event feel cheerful",
+   "definitionCN": "使场所或事件显得愉快",
+   "example": "The music gave the room a buoyant atmosphere.",
+   "exampleCN": "音乐给房间带来轻快的气氛。",
+   "why": "what lifts people's spirits is said to lift the atmosphere itself.",
+   "whyCN": "能把人的情绪托起来的东西，也被说成托起了气氛本身。"
+  }
+ ],
+ "etymology": {
+  "intro": {
+   "en": "Buoyant is formed in English from buoy plus the Latin-derived adjective suffix -ant, from -antem. The origin of buoy is unsettled; a link to Latin boia 'leather collar' is a hypothesis only. Dates are approximate.",
+   "cn": "buoyant 在英语中由 buoy 加拉丁语源形容词后缀 -ant（来自 -antem）构成。buoy 的来源没有定论，与拉丁 boia「皮制颈环」的联系仅是假说。年代均为约数。"
+  },
+  "items": [
+   {
+    "era": "MIDDLE DUTCH BOEYE",
+    "en": "Buoy came into English in the sixteenth century, probably from Middle Dutch boeye or Old French buie, a float or fetter.",
+    "cn": "buoy 于十六世纪进入英语，可能来自中古荷兰语 boeye 或古法语 buie，指浮标或束缚物。"
+   },
+   {
+    "era": "UNCERTAIN ORIGIN",
+    "en": "Source uncertain: no agreed pre-English source exists, and the Latin boia suggestion remains unproven.",
+    "cn": "来源不确定：英语之前的来源没有共识，拉丁 boia 的说法未获证明。"
+   },
+   {
+    "era": "SUFFIX -ANT",
+    "en": "The suffix -ant comes from Latin -antem, the present participle ending used in adjectives such as buoyant and defiant.",
+    "cn": "后缀 -ant 来自拉丁 -antem，即现在分词词尾，用于 buoyant、defiant 这类形容词。"
+   },
+   {
+    "era": "BUOYANT 18TH CENTURY",
+    "en": "The adjective appears in the early eighteenth century for objects that float.",
+    "cn": "这个形容词于十八世纪初出现，用于会漂浮的物体。"
+   },
+   {
+    "era": "SENSE EXTENSION",
+    "en": "By the nineteenth century buoyant described spirits and markets as well as hulls.",
+    "cn": "到十九世纪，buoyant 除船体之外也描述情绪与市场。"
+   },
+   {
+    "era": "UNCERTAIN DATE",
+    "en": "Source uncertain (first date only): the earliest citation differs across dictionaries, though the derivation is clear.",
+    "cn": "来源不确定（仅首见年代存疑）：各家词典所给最早书证不同，尽管派生关系清楚。"
+   }
+  ]
+ },
+ "similar": {
+  "note": {
+   "en": "Group one holds the adjectives most often confused with buoyant; group two holds the mood and market words with overlapping meaning.",
+   "cn": "第一组是常与 buoyant 混淆的形容词；第二组是语义重叠的情绪与市场词。"
+  },
+  "groups": [
+   {
+    "heading": "LOOK-ALIKE",
+    "entries": [
+     {
+      "word": "buoyancy",
+      "ipa": "/ˈbɔɪənsi/",
+      "tag": "the noun",
+      "definition": "The force or quality itself; buoyant is the adjective describing a thing that has it.",
+      "definitionCN": "指力或性质本身；buoyant 是描述具有该性质的形容词。"
+     },
+     {
+      "word": "floatable",
+      "ipa": "/ˈfləʊtəbl/",
+      "tag": "can be floated",
+      "definition": "Able to be floated or transported on water; it is about capability, not the upward force.",
+      "definitionCN": "能够漂浮或被水上运输的；说的是能力，不是向上力量。"
+     },
+     {
+      "word": "floating",
+      "ipa": "/ˈfləʊtɪŋ/",
+      "tag": "currently on the surface",
+      "definition": "Resting on the surface now; buoyant says the object can do so, not that it is doing so.",
+      "definitionCN": "此刻停在表面；buoyant 说物体能做到，而非正在做。"
+     },
+     {
+      "word": "submerged",
+      "ipa": "/səbˈmɜːdʒd/",
+      "tag": "the opposite state",
+      "definition": "Covered by water; it is the opposite of floating at the surface.",
+      "definitionCN": "被水覆盖；与浮在水面相对。"
+     }
+    ]
+   },
+   {
+    "heading": "NEAR MEANING",
+    "entries": [
+     {
+      "word": "cheerful",
+      "ipa": "/ˈtʃɪəfl/",
+      "tag": "plain mood word",
+      "definition": "Happy and pleasant in mood; buoyant adds energy and the image of rising.",
+      "definitionCN": "心情愉快和悦；buoyant 更带活力与上升的意象。"
+     },
+     {
+      "word": "optimistic",
+      "ipa": "/ɒpˈtɪmɪstɪk/",
+      "tag": "expecting good",
+      "definition": "Expecting good outcomes; buoyant stresses resilience and lifted spirits rather than prediction.",
+      "definitionCN": "预期好结果；buoyant 强调韧性与情绪高涨，而非预测。"
+     },
+     {
+      "word": "resilient",
+      "ipa": "/rɪˈzɪliənt/",
+      "tag": "able to recover",
+      "definition": "Able to recover quickly from difficulty; it is close to the emotional sense of buoyant but less about mood.",
+      "definitionCN": "能从困难中迅速恢复；接近 buoyant 的情绪义，但较少涉及心情。"
+     },
+     {
+      "word": "strong",
+      "ipa": "/strɒŋ/",
+      "tag": "market sense only",
+      "definition": "Powerful or firm, used of markets; buoyant is more specific and suggests upward activity.",
+      "definitionCN": "强劲有力，可用于市场；buoyant 更具体，暗示向上的活跃。"
+     }
+    ]
+   }
+  ]
+ },
+ "mnemonics": {
+  "normalIntro": {
+   "en": "Normal associations: real physics, real markets and real morphology, not invented rhymes.",
+   "cn": "正常联想：真实的物理、真实的市场与真实的构词，而非编造的顺口溜。"
+  },
+  "normal": [
+   {
+    "en": "buoyant is the adjective of buoyancy: if buoyancy is the push, buoyant is what the push can hold up.",
+    "cn": "buoyant 是 buoyancy 的形容词：浮力是推力，buoyant 是这股推力托得住的东西。"
+   },
+   {
+    "en": "-ant is a present-participle ending, like in defiant: a thing in the act of staying up.",
+    "cn": "-ant 是现在分词词尾，如 defiant：一个正保持在上面的东西。"
+   },
+   {
+    "en": "Three uses in one word: a hull, a mood, a market.",
+    "cn": "一个词三种用法：船体、心情、市场。"
+   },
+   {
+    "en": "Warm fluid is buoyant because it is lighter than what surrounds it.",
+    "cn": "暖流体有浮力，因为它比周围的东西轻。"
+   },
+   {
+    "en": "Fixed phrases mark the senses: buoyant mood, buoyant market, buoyant plume.",
+    "cn": "固定搭配标出义项：轻快心情、景气市场、上升羽流。"
+   }
+  ],
+  "abstract": [
+   {
+    "en": "Buoyant is the refusal to stay at the bottom.",
+    "cn": "buoyant 是拒绝留在底部的态度。"
+   },
+   {
+    "en": "A buoyant mood is a private life jacket.",
+    "cn": "轻快的心情是一件私人救生衣。"
+   },
+   {
+    "en": "Prices can float, and so can people.",
+    "cn": "价格能浮，人也能浮。"
+   }
+  ]
+ },
+ "examples": [
+  {
+   "en": "Cork is buoyant because it is mostly trapped air.",
+   "cn": "软木有浮力，因为它大部分是封住的空气。"
+  },
+  {
+   "en": "The team stayed buoyant after the first defeat.",
+   "cn": "首场失利后，这支队伍仍然乐观。"
+  },
+  {
+   "en": "Buoyant demand pushed prices higher.",
+   "cn": "旺盛的需求把价格推高。"
+  }
+ ],
+ "dict_mnemonic": {
+  "note": "拆词记忆 · 非词源",
+  "text": "buoy（浮标）+ -ant（性质）＝能浮的；物理上浮得起，心情上轻快，市场上坚挺，三义同源。",
+  "word": "buoyant"
+ },
+ "root": "buoy（中古荷兰语 boeye 或古法语 buie「浮标、束缚物」，更早来源不确定）+ 拉丁现在分词词尾 -antem → -ant；十八世纪初出现。",
+ "sensesIntro": {
+  "en": "Eight senses follow one floating quality: a thing that floats, a thing that holds others up, a fluid that rises, a light mood, resilience, a firm market, confident manner and an uplifting atmosphere.",
+  "cn": "八个义项沿同一种漂浮性质展开：会浮的物、能托住他物的物、会上升的流体、轻快心情、韧性、坚挺市场、自信举止与上扬的气氛。"
+ },
+ "semanticMap": {
+  "core": {
+   "en": "CORE IMAGE: a plank pressed under water springs back to the surface when released.",
+   "cn": "核心意象：木板被按入水下，一松手就弹回水面。"
+  },
+  "chain": [
+   "OBJECT PRESSED DOWN",
+   "FLUID PUSHES BACK",
+   "OBJECT RISES",
+   "STAYS ON TOP",
+   "SPIRITS LIFT",
+   "PRICES HOLD HIGH"
+  ],
+  "branches": [
+   {
+    "senses": "01 · 02",
+    "en": "FLOAT AND SUPPORT: the object floats, and the object can hold another up.",
+    "cn": "漂浮与支撑：物体自己浮，物体也能托住另一个。"
+   },
+   {
+    "senses": "03",
+    "en": "CONVECTION: lightness makes a plume climb.",
+    "cn": "对流：轻使羽流上升。"
+   },
+   {
+    "senses": "04 · 05",
+    "en": "MOOD: lightness of feeling and recovery after pressure.",
+    "cn": "心情：感受的轻快与受压后的恢复。"
+   },
+   {
+    "senses": "06",
+    "en": "MARKET: prices that stay high and active.",
+    "cn": "市场：保持高位与活跃的价格。"
+   },
+   {
+    "senses": "07 · 08",
+    "en": "VISIBLE CHEER: confident manner and a lifted atmosphere.",
+    "cn": "可见的愉悦：自信举止与上扬的气氛。"
+   }
+  ]
+ },
+ "affixes": {
+  "intro": {
+   "en": "Buoyant is a borrowed noun stem plus a Latin participial suffix, so the derivation is fully readable.",
+   "cn": "buoyant 是借入名词词干加拉丁分词后缀，派生关系完全可读。"
+  },
+  "latinIntro": {
+   "en": "The suffix -antem is the Latin entry. Buoy has no established Latin ancestor, so no Latin noun is listed for it.",
+   "cn": "后缀 -antem 是拉丁条目。buoy 没有已确立的拉丁祖先，因此不列其拉丁名词。"
+  },
+  "items": [
+   {
+    "word": "buoy",
+    "structure": "buoy (English noun, origin uncertain)",
+    "meaning": "a floating marker",
+    "meaningCN": "漂浮的标记物",
+    "example": "The buoy marked the reef.",
+    "exampleCN": "浮标标出礁的位置。"
+   },
+   {
+    "word": "-antem",
+    "structure": "-antem (Latin present participle ending)",
+    "meaning": "being or doing",
+    "meaningCN": "正在……的",
+    "example": "The ending also shapes defiant and pleasant.",
+    "exampleCN": "这个词尾也构成 defiant 与 pleasant。"
+   },
+   {
+    "word": "-ant",
+    "structure": "-ant (English adjective suffix from Latin -antem)",
+    "meaning": "having a quality; doing",
+    "meaningCN": "具有某种性质；正在做",
+    "example": "Buoyant and tolerant share the ending.",
+    "exampleCN": "buoyant 与 tolerant 共用这个词尾。"
+   },
+   {
+    "word": "buoyant",
+    "structure": "buoy + -ant",
+    "meaning": "floating; cheerful; firm",
+    "meaningCN": "漂浮的；开朗的；坚挺的",
+    "example": "The raft stayed buoyant.",
+    "exampleCN": "木筏保持漂浮。"
+   },
+   {
+    "word": "buoyancy",
+    "structure": "buoy + -ancy",
+    "meaning": "the force or quality of floating",
+    "meaningCN": "漂浮的力或性质",
+    "example": "The diver checks buoyancy first.",
+    "exampleCN": "潜水员先检查浮力。"
+   },
+   {
+    "word": "buoyantly",
+    "structure": "buoyant + -ly",
+    "meaning": "cheerfully; with lift",
+    "meaningCN": "轻快地；带着上扬劲儿地",
+    "example": "He answered buoyantly.",
+    "exampleCN": "他轻快地回答。"
+   },
+   {
+    "word": "buoyant plume",
+    "structure": "buoyant + plume (compound noun)",
+    "meaning": "a rising fluid column",
+    "meaningCN": "上升的流体柱",
+    "example": "The buoyant plume reached the thermocline.",
+    "exampleCN": "上升羽流到达温跃层。"
+   },
+   {
+    "word": "buoyant force",
+    "structure": "buoyant + force (compound noun)",
+    "meaning": "the upward force of a fluid",
+    "meaningCN": "流体的向上作用力",
+    "example": "The buoyant force equals displaced weight.",
+    "exampleCN": "浮力等于排开流体的重量。"
+   },
+   {
+    "word": "buoyancy aid",
+    "structure": "buoyancy + aid (compound noun)",
+    "meaning": "a flotation device for people",
+    "meaningCN": "供人使用的助浮装置",
+    "example": "Children wear buoyancy aids on the lake.",
+    "exampleCN": "孩子们在湖上穿助浮衣。"
+   }
+  ],
+  "latinEntries": [
+   {
+    "word": "-antem",
+    "structure": "-antem (present participle ending)",
+    "meaning": "being or doing",
+    "meaningCN": "正在……的"
+   }
+  ]
+ }
+}
