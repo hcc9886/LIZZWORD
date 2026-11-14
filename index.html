@@ -1265,33 +1265,48 @@
       .speak-box { padding: 12px; }
       .write-row .btn-primary { flex: 1 1 110px; padding: 12px 14px; }
     }
-  /* 加载失败提示：顶部红色错误框，列出具体失败项并提供重试 */
+  /* 加载失败提示：底部小型非阻塞提示条，可关闭；不打断操作 */
   .load-error-banner {
     position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
+    bottom: 12px;
+    left: 12px;
+    right: 12px;
     z-index: 9999;
-    max-height: 55vh;
+    max-width: 520px;
+    margin: 0 auto;
+    max-height: 40vh;
     overflow-y: auto;
-    padding: 12px 16px;
-    background: #b42318;
-    color: #fff;
-    font-size: 14px;
+    padding: 10px 14px;
+    background: #fff7ed;
+    border: 1px solid #fdba74;
+    border-radius: 12px;
+    color: #7c2d12;
+    font-size: 13px;
     line-height: 1.5;
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 6px 18px rgba(15, 23, 42, 0.12);
   }
   .load-error-banner[hidden] { display: none; }
-  .load-error-banner .load-error-title { font-weight: 700; margin-bottom: 4px; }
-  .load-error-banner ul { margin: 0; padding-left: 18px; }
+  .load-error-head { display: flex; align-items: center; gap: 8px; }
+  .load-error-banner .load-error-title { font-weight: 700; flex: 1; }
+  .load-error-close {
+    border: 0;
+    background: transparent;
+    color: #7c2d12;
+    font-size: 16px;
+    line-height: 1;
+    padding: 2px 6px;
+    cursor: pointer;
+    border-radius: 6px;
+  }
+  .load-error-banner ul { margin: 4px 0 0; padding-left: 18px; }
   .load-error-banner li { margin: 2px 0; word-break: break-all; }
   .load-error-banner .load-error-retry {
     margin-top: 8px;
-    padding: 6px 14px;
-    border: 0;
+    padding: 5px 12px;
+    border: 1px solid #fdba74;
     border-radius: 6px;
     background: #fff;
-    color: #b42318;
+    color: #c2410c;
     font-size: 13px;
     font-weight: 600;
     cursor: pointer;
@@ -1311,6 +1326,64 @@
     box-shadow: 0 4px 14px rgba(15, 23, 42, 0.08);
   }
   .load-progress[hidden] { display: none; }
+  /* 词汇量测试 */
+  .vocab-intro { max-width: 640px; margin: 0 auto; padding: 20px 16px 40px; }
+  .vocab-card {
+    background: #fff;
+    border: 1px solid #e8edf5;
+    border-radius: 16px;
+    box-shadow: 0 8px 26px rgba(17, 39, 66, 0.06);
+    padding: 24px 20px;
+    text-align: center;
+  }
+  .vocab-heading { margin: 0 0 10px; font-size: 1.15rem; color: #16233a; }
+  .vocab-desc { margin: 0 0 16px; font-size: 0.9rem; line-height: 1.7; color: #64748b; text-align: left; }
+  .vocab-last { margin: 0 0 16px; font-size: 0.9rem; color: #334155; }
+  .vocab-progress { margin: 0 0 14px; font-size: 0.85rem; color: #94a3b8; }
+  .vocab-word { font-size: 1.9rem; font-weight: 700; color: #16233a; margin: 10px 0 22px; word-break: break-word; }
+  .vocab-options { display: grid; gap: 10px; }
+  .vocab-option {
+    width: 100%;
+    padding: 14px;
+    text-align: left;
+    font-size: 0.95rem;
+    color: #16233a;
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    cursor: pointer;
+  }
+  .vocab-option:active { background: #eef2ff; }
+  .vocab-badge {
+    display: inline-block;
+    min-width: 44px;
+    padding: 3px 12px;
+    border-radius: 999px;
+    color: #fff;
+    font-size: 0.85rem;
+    font-weight: 700;
+  }
+  .vocab-badge-big { font-size: 1.4rem; padding: 6px 22px; margin-bottom: 12px; }
+  .vocab-estimate { margin: 8px 0 4px; font-size: 1rem; color: #334155; }
+  .vocab-estimate b { font-size: 1.2rem; color: #16233a; }
+  .vocab-score { margin: 0 0 20px; font-size: 0.85rem; color: #94a3b8; }
+  .vocab-rec { text-align: left; margin-bottom: 10px; }
+  .vocab-note { margin: 6px 0 16px; font-size: 0.75rem; color: #94a3b8; }
+  .vocab-actions { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; }
+  .vocab-back {
+    padding: 10px 16px;
+    background: transparent;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    color: #64748b;
+    font-size: 0.9rem;
+    cursor: pointer;
+  }
+  .vocab-start { padding: 12px 28px; }
+  @media (max-width: 480px) {
+    .vocab-card { padding: 20px 14px; }
+    .vocab-word { font-size: 1.6rem; }
+  }
   </style>
   <!-- 新手教程 + Lizz 小狐狸样式（全部 lz- 前缀，不污染主页面） -->
   <link rel="stylesheet" href="books/lizz/lizz.css">
@@ -1319,9 +1392,12 @@
   <link rel="stylesheet" href="books/lizz/account.css">
 </head>
 <body>
-  <!-- 任一数据资源 404、网络中断或连续 10 秒无新数据，都会在这里显示具体项与重试按钮 -->
+  <!-- 任一数据资源 404、网络中断或超时，会在底部显示非阻塞提示条（有缓存可用时不提示），可关闭与重试 -->
   <div id="loadErrorBanner" class="load-error-banner" hidden>
-    <div class="load-error-title">数据加载失败</div>
+    <div class="load-error-head">
+      <span class="load-error-title">部分数据未能更新</span>
+      <button type="button" class="load-error-close" id="loadErrorClose" aria-label="关闭">×</button>
+    </div>
     <ul id="loadErrorList"></ul>
     <button type="button" class="load-error-retry" id="loadErrorRetry">重试</button>
   </div>
@@ -1357,6 +1433,9 @@
 
     <!-- 预览：左右滑动浏览下一批 10 个词 -->
     <main id="view-preview" hidden></main>
+
+    <!-- 词汇量测试：多轮自适应选择题，估算 CEFR 等级与词汇量并推荐词书 -->
+    <main id="view-vocab-test" hidden></main>
 
     <!-- 词库浏览：保留原来的七个分区 -->
     <main id="view-browse" hidden>
@@ -9500,6 +9579,11 @@
             <span class="home-sub" id="homeLizzSummary">${lizzShopSubtitle()}</span>
           </button>
 
+          <button type="button" class="home-btn" data-enter="vocab-test">
+            <span class="home-title">词汇量测试</span>
+            <span class="home-sub">${vocabTestHomeText()}</span>
+          </button>
+
           <button type="button" class="home-btn" data-enter="games">
             <span class="home-title">小游戏</span>
             <span class="home-sub">翻牌配对 · 快闪辨义 · 字母重组 · 听音选词</span>
@@ -9508,6 +9592,269 @@
 
         <p class="home-progress">当前组已学 <b>${finishedToday ? target : learned}</b> / ${target} · 今日累计 <b>${state.groupsToday}</b> 组 · <b>${state.wordsToday}</b> 个词${finishedToday ? " · 已完成" : ""}</p>
         ${quoteCardHTML()}`;
+    }
+
+    // ============================================================
+    // 词汇量测试：CEFR 自适应选择题，估算词汇量并推荐词书
+    // ============================================================
+    const VOCAB_RESULT_KEY = "lizzword:vocab-test-result";
+
+    // 迷你测试词库：按 CEFR 分 6 档，每档 30+ 常见代表词（word + 中文释义）
+    const VOCAB_LEVELS = [
+      { level: "A1", low: 500, high: 1000, words: [
+        ["apple","苹果"],["water","水"],["house","房子"],["dog","狗"],["book","书"],["run","跑"],
+        ["eat","吃"],["big","大的"],["red","红色的"],["mother","妈妈"],["school","学校"],["hand","手"],
+        ["happy","快乐的"],["milk","牛奶"],["tree","树"],["sun","太阳"],["sleep","睡觉"],["small","小的"],
+        ["friend","朋友"],["car","汽车"],["day","天"],["bird","鸟"],["open","打开"],["table","桌子"],
+        ["boy","男孩"],["rain","雨"],["chair","椅子"],["walk","走"],["snow","雪"],["cold","冷的"],
+        ["ball","球"],["door","门"],["fish","鱼"],["moon","月亮"],["egg","鸡蛋"],["read","读"]
+      ]},
+      { level: "A2", low: 1000, high: 2000, words: [
+        ["weather","天气"],["holiday","假期"],["kitchen","厨房"],["ticket","票"],["market","市场"],
+        ["dangerous","危险的"],["borrow","借入"],["quiet","安静的"],["luggage","行李"],["medicine","药"],
+        ["passport","护照"],["spend","花费"],["arrive","到达"],["cheap","便宜的"],["empty","空的"],
+        ["prefer","更喜欢"],["crowd","人群"],["share","分享"],["lazy","懒的"],["salary","薪水"],
+        ["stair","楼梯"],["receipt","收据"],["chore","家务"],["delicious","美味的"],["corner","角落"],
+        ["mistake","错误"],["invite","邀请"],["net","网"],["grandparent","祖父母"],["repair","修理"],["band","乐队"]
+      ]},
+      { level: "B1", low: 2000, high: 4000, words: [
+        ["achieve","实现"],["behavior","行为"],["confident","自信的"],["environment","环境"],
+        ["frequent","频繁的"],["government","政府"],["improve","改进"],["knowledge","知识"],
+        ["necessary","必要的"],["opinion","观点"],["pressure","压力"],["recognize","认出"],
+        ["society","社会"],["translate","翻译"],["useful","有用的"],["attempt","尝试"],
+        ["complain","抱怨"],["decide","决定"],["explain","解释"],["familiar","熟悉的"],
+        ["gradually","逐渐地"],["hesitate","犹豫"],["influence","影响"],["mention","提到"],
+        ["obvious","明显的"],["prevent","阻止"],["reliable","可靠的"],["solution","解决办法"],
+        ["tradition","传统"],["attitude","态度"],["confuse","使困惑"],["encourage","鼓励"],
+        ["generous","慷慨的"],["inherit","继承"],["patient","耐心的"],["signal","信号"]
+      ]},
+      { level: "B2", low: 4000, high: 8000, words: [
+        ["abandon","放弃"],["bureaucracy","官僚机构"],["compensate","补偿"],["deteriorate","恶化"],
+        ["eliminate","消除"],["fatigue","疲劳"],["genuine","真正的"],["hypothesis","假设"],
+        ["implement","实施"],["justification","正当理由"],["legitimate","合法的"],["manipulate","操纵"],
+        ["notorious","臭名昭著的"],["obstacle","障碍"],["phenomenon","现象"],["qualitative","定性的"],
+        ["redundant","多余的"],["scrutiny","仔细审查"],["tangible","有形的"],["utilize","利用"],
+        ["verify","核实"],["warrant","保证"],["aesthetic","美学的"],["controversy","争论"],
+        ["dilemma","困境"],["explicit","明确的"],["hierarchy","等级制度"],["incentive","激励"],
+        ["contradict","反驳"],["paradox","悖论"],["prevail","盛行"],["subordinate","下级的"],
+        ["trigger","触发"],["vulnerable","脆弱的"],["arbitrary","任意的"],["coherent","连贯的"]
+      ]},
+      { level: "C1", low: 8000, high: 15000, words: [
+        ["acrimonious","激烈的（争论）"],["benevolent","仁慈的"],["capitulate","投降"],["debilitating","使人虚弱的"],
+        ["ebullient","热情洋溢的"],["fastidious","挑剔的"],["gregarious","合群的"],["harangue","长篇大论的训斥"],
+        ["iconoclast","打破传统者"],["juxtapose","并置"],["laconic","简洁的"],["mellifluous","悦耳的"],
+        ["nefarious","邪恶的"],["obfuscate","使模糊"],["perfunctory","敷衍的"],["quixotic","不切实际的"],
+        ["recalcitrant","顽抗的"],["sycophant","谄媚者"],["taciturn","沉默寡言的"],["ubiquitous","无处不在的"],
+        ["vitriolic","尖刻的"],["wistful","惆怅的"],["anachronism","时代错误"],["belligerent","好斗的"],
+        ["circumspect","谨慎的"],["desultory","散漫的"],["enervate","使衰弱"],["intransigent","不肯妥协的"],
+        ["magnanimous","宽宏大量的"],["obsequious","谄媚的"],["parsimonious","吝啬的"],["querulous","爱发牢骚的"],
+        ["sanguine","乐观的"],["serendipity","意外发现珍宝的运气"],["vicissitude","变迁"],["zenith","顶点"]
+      ]},
+      { level: "C2", low: 15000, high: 30000, words: [
+        ["abstruse","深奥的"],["bellicose","好战的"],["catenate","使连接"],["denouement","结局"],
+        ["eleemosynary","施舍的"],["febrile","发热的"],["gauche","笨拙的"],["heuristic","启发式的"],
+        ["ineffable","难以言表的"],["jejune","空洞的"],["kudos","荣誉"],["limpid","清澈的"],
+        ["maudlin","感伤的"],["nihilism","虚无主义"],["oleaginous","油滑的"],["pusillanimous","怯懦的"],
+        ["quiddity","本质"],["redolent","芬芳的"],["susurrus","低语声"],["tendentious","有倾向性的"],
+        ["umbrage","不快"],["verisimilitude","逼真"],["woebegone","愁容满面的"],["xenophobia","仇外"],
+        ["approbation","认可"],["cachinnation","大笑"],["desideratum","必需之物"],["exiguous","稀少的"],
+        ["farrago","大杂烩"],["gravid","怀孕的"],["hypostasis","根本原理"],["inveterate","积习已深的"],
+        ["lucubration","刻苦研究"],["moiety","一半"],["novitiate","见习期"],["prestidigitation","变戏法"]
+      ]}
+    ];
+
+    // 按等级推荐词书：候选列表 + 过滤条件（BOOKS 里实际存在的才推荐），以后加新书自动生效
+    function vocabBookRecommendations(level) {
+      const candidates = {
+        A1: [
+          { id: "shanghai-primary", reason: "从最常见的一年级词汇起步，句子短、发音友好" },
+          { id: "middle", reason: "小学到初中的过渡核心词，覆盖日常表达" }
+        ],
+        A2: [
+          { id: "shanghai-primary", reason: "先把基础高频词彻底夯实" },
+          { id: "middle", reason: "初中核心词，正好承接你目前的水平" }
+        ],
+        B1: [
+          { id: "daily", reason: "日常核心 3000 词，与你的水平最匹配" },
+          { id: "cet4", reason: "四级词汇难度适中，可以挑战起来" }
+        ],
+        B2: [
+          { id: "cet4", reason: "四级词表能补齐你的常用词缺口" },
+          { id: "toefl-core-5000", reason: "托福核心学术词，向更高级别进阶" }
+        ],
+        C1: [
+          { id: "toefl-core-5000", reason: "托福核心学术词，巩固高端词汇量" }
+        ],
+        C2: [
+          { id: "toefl-core-5000", reason: "托福特高频学术词仍是刚需" }
+        ]
+      };
+      return (candidates[level] || candidates.B1)
+        .filter((book) => BOOKS.some((b) => b.id === book.id));
+    }
+
+    function vocabResultRead() {
+      try {
+        const raw = localStorage.getItem(VOCAB_RESULT_KEY);
+        if (!raw) return null;
+        const data = JSON.parse(raw);
+        return data && typeof data === "object" && data.level ? data : null;
+      } catch (error) {
+        return null;
+      }
+    }
+
+    function vocabResultWrite(result) {
+      try { localStorage.setItem(VOCAB_RESULT_KEY, JSON.stringify(result)); } catch (error) { /* 写不进就不持久化 */ }
+    }
+
+    function vocabTestHomeText() {
+      const result = vocabResultRead();
+      if (!result) return "测一测你的词汇量 →";
+      return `上次测试：约 ${Math.round(result.estimate).toLocaleString()} 词 · ${result.level}（${result.date}）· 再测一次 →`;
+    }
+
+    // 自适应测试状态
+    let vocabQuiz = null;
+
+    const VOCAB_QUIZ_STEPS = 20;      // 总题数
+    const VOCAB_AXIS_MIN = 0;         // 难度轴下界（低于 A1）
+    const VOCAB_AXIS_MAX = VOCAB_LEVELS.length - 1;  // 上界（C2 之外封顶）
+
+    function vocabQuizStart() {
+      vocabQuiz = { pos: 2, asked: [], question: null, correct: 0 };
+      renderVocabTest();
+    }
+
+    function vocabQuizPickQuestion() {
+      // 在当前难度档内随机抽一个没考过的词，4 个释义选项从同档其它词取干扰项
+      const level = VOCAB_LEVELS[vocabQuiz.pos];
+      const pool = level.words.filter((w) => !vocabQuiz.asked.includes(w[0]));
+      const fallbackPool = pool.length ? pool : level.words;
+      const target = fallbackPool[Math.floor(Math.random() * fallbackPool.length)];
+      const others = level.words.filter((w) => w[0] !== target[0]);
+      const distractors = [];
+      while (distractors.length < 3 && others.length) {
+        const pick = others.splice(Math.floor(Math.random() * others.length), 1)[0];
+        if (!distractors.some((d) => d[1] === pick[1])) distractors.push(pick);
+      }
+      while (distractors.length < 3) distractors.push(["elsewhere", "在别处"]);
+      const options = distractors.concat([target]);
+      for (let i = options.length - 1; i > 0; i -= 1) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [options[i], options[j]] = [options[j], options[i]];
+      }
+      vocabQuiz.question = { word: target[0], answer: target[1], options };
+      vocabQuiz.asked.push(target[0]);
+    }
+
+    const VOCAB_BADGES = {
+      A1: "#94a3b8", A2: "#38bdf8", B1: "#34d399",
+      B2: "#fbbf24", C1: "#fb923c", C2: "#f87171"
+    };
+
+    function renderVocabTest() {
+      const mount = document.getElementById("view-vocab-test");
+      if (!mount) return;
+      if (!vocabQuiz) {
+        const last = vocabResultRead();
+        mount.innerHTML = `
+          <section class="vocab-intro">
+            <div class="vocab-card">
+              <h2 class="vocab-heading">词汇量测试</h2>
+              <p class="vocab-desc">约 ${VOCAB_QUIZ_STEPS} 道选择题，选中文意思即可。答对难度上升、答错难度下降，结束时给出你的词汇量区间与 CEFR 等级。</p>
+              ${last ? `<p class="vocab-last">上次结果：<b>约 ${Math.round(last.estimate).toLocaleString()} 词</b> · <span class="vocab-badge" style="background:${VOCAB_BADGES[last.level] || "#94a3b8"}">${last.level}</span>（${last.date}）</p>` : ""}
+              <button type="button" class="btn-primary vocab-start" data-vocab-start>${last ? "再测一次" : "开始测试"}</button>
+              <button type="button" class="vocab-back" data-vocab-reset>← 返回主界面</button>
+            </div>
+          </section>`;
+        return;
+      }
+      if (vocabQuiz.done) {
+        renderVocabResult(mount);
+        return;
+      }
+      if (!vocabQuiz.question) vocabQuizPickQuestion();
+      const q = vocabQuiz.question;
+      mount.innerHTML = `
+        <section class="vocab-intro">
+          <div class="vocab-card">
+            <p class="vocab-progress">第 ${vocabQuiz.asked.length} / ${VOCAB_QUIZ_STEPS} 题</p>
+            <div class="vocab-word">${esc(q.word)}</div>
+            <div class="vocab-options">
+              ${q.options.map((opt, i) => `
+                <button type="button" class="vocab-option" data-vocab-answer="${i}">${esc(opt[1])}</button>
+              `).join("")}
+            </div>
+          </div>
+        </section>`;
+    }
+
+    function vocabQuizAnswer(index) {
+      if (!vocabQuiz || vocabQuiz.done || !vocabQuiz.question) return;
+      const correct = vocabQuiz.question.options[index][1] === vocabQuiz.question.answer;
+      if (correct) {
+        vocabQuiz.correct += 1;
+        vocabQuiz.pos = Math.min(VOCAB_AXIS_MAX, vocabQuiz.pos + 1);
+      } else {
+        vocabQuiz.pos = Math.max(VOCAB_AXIS_MIN, vocabQuiz.pos - 1);
+      }
+      vocabQuiz.question = null;
+      if (vocabQuiz.asked.length >= VOCAB_QUIZ_STEPS) vocabQuizFinish();
+      else renderVocabTest();
+    }
+
+    // 结束：按最终难度位置换算词汇量区间与 CEFR 等级
+    function vocabQuizFinish() {
+      const idx = Math.min(VOCAB_LEVELS.length - 1, Math.max(0, vocabQuiz.pos));
+      const tier = VOCAB_LEVELS[idx];
+      const span = (tier.high - tier.low);
+      const base = tier.low + span * (vocabQuiz.correct / VOCAB_QUIZ_STEPS) * 0.5;
+      const low = Math.max(300, Math.round(base * 0.85 / 100) * 100);
+      const high = Math.round(base * 1.2 / 100) * 100;
+      vocabQuiz.done = true;
+      vocabQuiz.result = {
+        level: tier.level,
+        estimate: (low + high) / 2,
+        range: [low, high],
+        correct: vocabQuiz.correct,
+        total: VOCAB_QUIZ_STEPS,
+        date: new Date().toLocaleDateString("zh-CN")
+      };
+      vocabResultWrite(vocabQuiz.result);
+      renderVocabTest();
+    }
+
+    function renderVocabResult(mount) {
+      const r = vocabQuiz.result;
+      const recs = vocabBookRecommendations(r.level);
+      mount.innerHTML = `
+        <section class="vocab-intro">
+          <div class="vocab-card vocab-result">
+            <span class="vocab-badge vocab-badge-big" style="background:${VOCAB_BADGES[r.level] || "#94a3b8"}">${r.level}</span>
+            <p class="vocab-estimate">估算词汇量 <b>${r.range[0].toLocaleString()} – ${r.range[1].toLocaleString()}</b> 词</p>
+            <p class="vocab-score">答对 ${r.correct} / ${r.total} 题</p>
+            <h3 class="vocab-heading">推荐词书</h3>
+            ${recs.length ? recs.map((book) => {
+              const info = BOOKS.find((b) => b.id === book.id) || {};
+              return `
+                <button type="button" class="home-btn vocab-rec" data-enter="library">
+                  <span class="home-title">${esc(info.name || book.id)}</span>
+                  <span class="home-sub">${esc(book.reason)}</span>
+                </button>`;
+            }).join("") : "<p class=\"vocab-desc\">暂无匹配的已上线词书</p>"}
+            <p class="vocab-note">更多词书（SAT/IELTS/CET6/高考）上线后将自动更新推荐</p>
+            <div class="vocab-actions">
+              <button type="button" class="btn-primary vocab-start" data-vocab-start>再测一次</button>
+              <button type="button" class="vocab-back" data-vocab-reset>← 返回主界面</button>
+            </div>
+          </div>
+        </section>`;
+    }
+
+    function vocabTestReset() {
+      vocabQuiz = null;
+      showView("home");
     }
 
     function renderLibrary() {
@@ -10062,6 +10409,7 @@
       if (viewMode === "browse") return "词库浏览";
       if (viewMode === "az") return "全部单词 · A–Z";
       if (viewMode === "library") return "我的词书";
+      if (viewMode === "vocab-test") return "词汇量测试";
       return "";
     }
 
@@ -10073,7 +10421,8 @@
         library: "view-library",
         preview: "view-preview",
         browse: "view-browse",
-        az: "view-az"
+        az: "view-az",
+        "vocab-test": "view-vocab-test"
       };
       Object.keys(views).forEach((key) => {
         document.getElementById(views[key]).hidden = key !== viewMode;
@@ -10087,6 +10436,7 @@
       else if (viewMode === "library") renderLibrary();
       else if (viewMode === "preview") renderPreview();
       else if (viewMode === "az") renderAz();
+      else if (viewMode === "vocab-test") renderVocabTest();
       else renderBrowse();
     }
 
@@ -10508,6 +10858,21 @@
         return;
       }
 
+      // 词汇量测试：开始 / 作答 / 返回
+      if (event.target.closest("[data-vocab-start]")) {
+        vocabQuizStart();
+        return;
+      }
+      const vocabAnswer = event.target.closest("[data-vocab-answer]");
+      if (vocabAnswer) {
+        vocabQuizAnswer(Number(vocabAnswer.dataset.vocabAnswer));
+        return;
+      }
+      if (event.target.closest("[data-vocab-reset]")) {
+        vocabTestReset();
+        return;
+      }
+
       // 阶段 1：看完完整词条即确认这个词，直接换下一个（每个词在认词关只出现一次）
       if (event.target.closest("[data-intro-done]")) {
         if (!current || current.kind !== "learn" || current.stage !== "stage1") return;
@@ -10780,9 +11145,9 @@
     }
 
     // ============================================================
-    // 资源加载：空闲超时（10 秒无新数据）+ 顶部红色错误条（每项可单独重试）
+    // 资源加载：空闲超时（15 秒无新数据）+ 底部轻提示条（每项可单独重试，可关闭，有缓存则静默）
     // ============================================================
-    const LOAD_IDLE_TIMEOUT_MS = 10000;   // 连续 10 秒没有新数据到达才判定失败
+    const LOAD_IDLE_TIMEOUT_MS = 15000;   // 连续 15 秒没有新数据到达才判定失败（网络慢时不轻易报错）
     const LOAD_TOTAL_TIMEOUT_MS = 20000;  // 不支持流式读取的环境退回的总时长上限
     const SCRIPT_TIMEOUT_MS = 20000;      // script 标签无法观测进度，只用总时长兜底
     // 单个资源先在本源重试（指数退避），仍失败再换镜像源各取一次
@@ -10926,20 +11291,11 @@
       renderLoadProgress();
     }
 
-    function renderLoadErrors() {
-      const banner = document.getElementById("loadErrorBanner");
-      const list = document.getElementById("loadErrorList");
-      if (!banner || !list) return;
-      list.textContent = "";
-      loadErrorState.forEach((item) => {
-        const li = document.createElement("li");
-        li.textContent = `${item.label}（${item.reason}）`;
-        list.appendChild(li);
-      });
-      banner.hidden = loadErrorState.size === 0;
-    }
+    // 本次会话被用户 × 关闭的失败项：不再弹提示（重试后成功会移除）
+    const loadErrorDismissed = new Set();
 
     function clearLoadError(key) {
+      loadErrorDismissed.delete(key);
       if (!loadErrorState.has(key)) return;
       loadErrorState.delete(key);
       renderLoadErrors();
@@ -10948,6 +11304,37 @@
     function reportLoadError(key, label, reason, retry) {
       loadErrorState.set(key, { label, reason, retry });
       renderLoadErrors();
+    }
+
+    // 关闭 ×：本次会话内不再显示该条目（状态保留，便于之后手动重试恢复）
+    function bindLoadErrorClose() {
+      const button = document.getElementById("loadErrorClose");
+      if (!button || button.__bound) return;
+      button.__bound = true;
+      button.addEventListener("click", () => {
+        loadErrorState.forEach((item, key) => loadErrorDismissed.add(key));
+        renderLoadErrors();
+      });
+    }
+
+    function renderLoadErrors() {
+      const banner = document.getElementById("loadErrorBanner");
+      const list = document.getElementById("loadErrorList");
+      if (!banner || !list) return;
+      list.textContent = "";
+      loadErrorState.forEach((item, key) => {
+        if (loadErrorDismissed.has(key)) return;
+        // 有可用缓存（该资源曾成功加载并写入 localStorage）时静默保留缓存数据，不打扰用户
+        if (readCache(item.label)) {
+          loadErrorDismissed.add(key);
+          return;
+        }
+        const li = document.createElement("li");
+        li.textContent = `${item.label}（${item.reason}）`;
+        list.appendChild(li);
+      });
+      const visible = [...loadErrorState.keys()].some((key) => !loadErrorDismissed.has(key));
+      banner.hidden = !visible;
     }
 
     function bindLoadErrorRetry() {
@@ -11430,6 +11817,7 @@
     function start() {
       activeBookConfig = getBookConfig(savedBookId());
       bindLoadErrorRetry();
+      bindLoadErrorClose();
       // 名句与词书并行；失败（含 file://）时静默保留内嵌兜底
       loadQuotes();
       if (location.protocol === "file:") {
