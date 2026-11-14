@@ -1,0 +1,512 @@
+{
+ "word": "beneficiary",
+ "ipa_uk": "/ˌbenɪˈfɪʃəri/",
+ "ipa_us": "/ˌbenɪˈfɪʃəri/",
+ "definition_zh": "受益人；受惠者；（遗嘱、保险、信托等的）受益方",
+ "definition_en": "a person or organization that receives money or an advantage under a will, policy, trust, or other arrangement",
+ "core_image": "一份文件的受益人栏上写着一个名字，箭头从文件指向这个人",
+ "scene": "她把人寿保单的受益人一栏填上妹妹的名字。She named her sister as the sole beneficiary of her life insurance policy.",
+ "sceneCN": "这里 beneficiary 是「受益人」（第 2 个义项：保险金受益人）；句意：她指定妹妹作为她人寿保险的唯一受益人。场景要点：保单、受益人栏、签名、保险公司印章、信封。",
+ "pos": [
+  {
+   "tag": "n.",
+   "zh": "受益人；受惠者；（保险、遗嘱、信托的）受益方"
+  }
+ ],
+ "collocations": [
+  {
+   "phrase": "sole beneficiary",
+   "zh": "唯一受益人"
+  },
+  {
+   "phrase": "named beneficiary",
+   "zh": "指定受益人"
+  },
+  {
+   "phrase": "primary beneficiary",
+   "zh": "第一顺位受益人"
+  },
+  {
+   "phrase": "beneficiary of a will",
+   "zh": "遗嘱受益人"
+  },
+  {
+   "phrase": "third-party beneficiary",
+   "zh": "（合同）第三方受益人"
+  },
+  {
+   "phrase": "beneficiary country",
+   "zh": "受援国；受益国"
+  },
+  {
+   "phrase": "beneficiary under the policy",
+   "zh": "保单项下的受益人"
+  }
+ ],
+ "forms": [
+  {
+   "label": "复数",
+   "form": "beneficiaries"
+  }
+ ],
+ "derivatives": [
+  {
+   "word": "beneficial",
+   "pos": "adj.",
+   "zh": "有益的；有利的"
+  },
+  {
+   "word": "benefit",
+   "pos": "n./v.",
+   "zh": "好处；受益；有益于"
+  },
+  {
+   "word": "benefactor",
+   "pos": "n.",
+   "zh": "捐助者；施惠者"
+  },
+  {
+   "word": "beneficence",
+   "pos": "n.",
+   "zh": "善行；仁慈"
+  }
+ ],
+ "senses": [
+  {
+   "no": "01",
+   "title": "One named in a will",
+   "titleCN": "遗嘱受益人：按遗嘱取得财产的人",
+   "definition": "a person named in a will to receive property or money from an estate",
+   "definitionCN": "在遗嘱中被指定从遗产中获得财产或钱财的人",
+   "example": "Her three grandchildren were the beneficiaries of the estate.",
+   "exampleCN": "她的三个孙辈是这笔遗产的受益人。",
+   "why": "beneficium is a favor or benefit, and -arius names the person connected with it; English -ary carries that personal sense. The first English use (1610s) was simply 'one who receives profits or advantages', and a will is the oldest concrete setting for that idea.",
+   "whyCN": "beneficium 是恩惠或好处，-arius 指与之相关的人，英语 -ary 承接了这个指人的含义。该词 1610 年代最早只是“获得利润或好处的人”，而遗嘱是这一观念最古老的落地场景。"
+  },
+  {
+   "no": "02",
+   "title": "Insurance beneficiary",
+   "titleCN": "保险金受益人：保单指定领钱的人",
+   "definition": "the person or party named in an insurance policy to receive its payout",
+   "definitionCN": "在保险单中被指定领取保险金的人或方",
+   "example": "The policy pays the beneficiary directly, outside the estate.",
+   "exampleCN": "保单直接向受益人赔付，不进入遗产程序。",
+   "why": "Insurance law lets a nomination do the work: the named person steps into the benefit at death. The general 'receiver of advantage' is narrowed to a named payee, which is why a beneficiary need not be an heir.",
+   "whyCN": "保险法让“指定”本身发挥作用：被指定者在被保险人死亡时直接承接这笔利益。泛指的“好处接受者”在这里收窄为具名收款人，所以受益人未必是继承人。"
+  },
+  {
+   "no": "03",
+   "title": "Trust beneficiary",
+   "titleCN": "信托受益人：享有信托利益的人",
+   "definition": "a person entitled to income or capital from a trust, while a trustee holds the legal title",
+   "definitionCN": "有权从信托中获得收益或本金、而由受托人持有法定所有权的人",
+   "example": "The trust's beneficiaries receive the income but do not control the capital.",
+   "exampleCN": "信托受益人领取收益，但不控制本金。",
+   "why": "In a trust, legal title and enjoyment split: the trustee holds, the beneficiary enjoys. The word names the equitable side of that split, which is the same 'one who enjoys the benefit' idea in technical form.",
+   "whyCN": "在信托中，法定所有权与享受权被拆开：受托人持有，受益人享有。这个词命名的正是这条裂缝中“享有”的那一侧，也就是“享有利益者”这一观念的技术形态。"
+  },
+  {
+   "no": "04",
+   "title": "Charity or aid recipient",
+   "titleCN": "慈善或援助的受助者",
+   "definition": "a person or household that receives help from a charity, welfare scheme, or aid programme",
+   "definitionCN": "从慈善机构、福利计划或援助项目获得帮助的个人或家庭",
+   "example": "The programme asks each beneficiary to attend a training session.",
+   "exampleCN": "该项目要求每位受助者参加一次培训。",
+   "why": "Aid language prefers beneficiary to 'poor person' because it frames the person as the rightful receiver of a benefit, not as an object of pity. The legal word supplies dignity as well as precision.",
+   "whyCN": "援助话语更愿意用 beneficiary 而不是“穷人”，因为它把人框定为“有资格获得好处的人”，而不是被怜悯的对象。这个法律词同时提供了精确与尊严。"
+  },
+  {
+   "no": "05",
+   "title": "Payment beneficiary in banking",
+   "titleCN": "银行付款的收款人；信用证受益人",
+   "definition": "the party to whom a payment is to be made, especially under a transfer or letter of credit",
+   "definitionCN": "应收款的一方，尤指汇款或信用证项下的收款人",
+   "example": "The bank released the funds once the beneficiary presented the shipping documents.",
+   "exampleCN": "受益人一提交装运单据，银行就放款了。",
+   "why": "In banking the benefit is a payment, so the beneficiary is the party to whom money is owed or addressed. The word becomes a technical label printed on forms, and the 'benefit' is reduced to a sum of money.",
+   "whyCN": "在银行业务中，好处就是一笔付款，所以 beneficiary 是应收款或被指定收款的一方。这个词成了印在单据上的技术标签，“好处”被压缩为一笔金额。"
+  },
+  {
+   "no": "06",
+   "title": "Third-party beneficiary of a contract",
+   "titleCN": "合同第三方受益人",
+   "definition": "a person outside a contract who is intended to receive its benefit and may enforce it",
+   "definitionCN": "合同之外、被意图给予合同利益并可据此主张权利的人",
+   "example": "The subcontractor was a third-party beneficiary of the main contract.",
+   "exampleCN": "分包商是主合同的第三方受益人。",
+   "why": "Contract law extends the will model: a person who never signed the agreement may still be its intended receiver. Beneficiary then means 'the one the promise was meant to benefit', not 'the one who made the promise'.",
+   "whyCN": "合同法延伸了遗嘱模型：从未签过协议的人也可能是约定的受益对象。此时 beneficiary 指“承诺本想使之受益的人”，而不是“作出承诺的人”。"
+  },
+  {
+   "no": "07",
+   "title": "Development beneficiary or country",
+   "titleCN": "发展项目的受益群体；受援国",
+   "definition": "a community, household group, or country that receives development assistance",
+   "definitionCN": "接受发展援助的社区、家庭群体或国家",
+   "example": "The report compared outcomes across five beneficiary countries.",
+   "exampleCN": "报告比较了五个受援国的结果。",
+   "why": "When the receiver is a whole community or state, the noun becomes a policy category. The benefit is now development assistance rather than a private gift, so the word works at the scale of projects and governments.",
+   "whyCN": "当接受方是整个社区或国家时，这个名词变成政策类别。此时的好处是发展援助而非私人赠与，于是这个词在项目与政府的尺度上运作。"
+  },
+  {
+   "no": "08",
+   "title": "Anyone who gains from an event",
+   "titleCN": "泛指受益者：从某事中得到好处的人",
+   "definition": "a person or group that profits from a change, event, or situation",
+   "definitionCN": "从某种变化、事件或局势中获利的人或群体",
+   "example": "Small exporters were the main beneficiaries of the weaker currency.",
+   "exampleCN": "小出口商是货币走弱的主要受益者。",
+   "why": "Once the legal senses are established, the word can be used loosely of anyone who profits from an event. The benefit need not come from a document at all; it can come from a policy, a storm, or a market move.",
+   "whyCN": "法律义项确立之后，这个词可以宽松地指任何从事件中获利的人。好处完全不必来自文件，也可以来自政策、风暴或市场波动。"
+  },
+  {
+   "no": "09",
+   "title": "Attributive: the receiving side",
+   "titleCN": "受益方的：作定语指接受的一方",
+   "definition": "used before another noun to label the receiving side of a scheme or arrangement",
+   "definitionCN": "置于另一名词前，标记某项计划或安排中接受的一方的",
+   "example": "Beneficiary families received the cash transfer at the start of each term.",
+   "exampleCN": "受益家庭在每学期开始时收到现金补助。",
+   "why": "English often puts a noun before another noun instead of using an adjective, and beneficiary does this job in phrases such as beneficiary country and beneficiary family. It still names a person or party, but it now modifies rather than stands alone.",
+   "whyCN": "英语常用名词而非形容词来修饰另一个名词，beneficiary 就在 beneficiary country、beneficiary family 这类短语里承担这个功能。它仍然指人或一方，但此时是修饰而非独立充当名词。"
+  }
+ ],
+ "etymology": {
+  "intro": {
+   "en": "Beneficiary and beneficial come from the same Latin noun beneficium, but they are not the same derivative. Beneficial goes through the adjective suffix -alis and names a quality; beneficiary goes through -arius and names a person. The noun reached English in the 1610s, probably through French.",
+   "cn": "beneficiary 和 beneficial 出自同一个拉丁名词 beneficium，但它们不是同一条派生。beneficial 走 -alis 这一形容词后缀，命名性质；beneficiary 走 -arius，命名人。这个名词在 17 世纪 10 年代进入英语，可能经由法语。"
+  },
+  "items": [
+   {
+    "era": "LATIN BENE + FACERE",
+    "en": "bene 'well' plus facere 'to do, make' produce beneficus 'generous, kind, obliging', literally 'doing well'. The pair is the common base of benefit, benefactor, beneficial and beneficiary.",
+    "cn": "bene“好”加上 facere“做、造”产生 beneficus“慷慨的、善良的、乐于助人的”，字面即“做好事”。这一对成分是 benefit、benefactor、beneficial、beneficiary 的共同基础。"
+   },
+   {
+    "era": "BENEFICIUM",
+    "en": "The noun beneficium 'a favor, service, kindness' adds -ium to the stem. It can mean a concrete benefit, a kindness done, and later a church office granted as a 'benefit' with its income.",
+    "cn": "名词 beneficium“恩惠、服务、善意”在词干上加 -ium。它可以指具体的好处、一次善举，后来也指作为“好处”授予的、带收入的教会圣职。"
+   },
+   {
+    "era": "BENEFICIARIUS",
+    "en": "beneficiarius means 'enjoying a favor, privileged', built with -arius 'connected with, belonging to'. In Latin it describes a person attached to a benefit; the suffix is personal, not abstract.",
+    "cn": "beneficiarius 意为“享有恩惠的、有特权的”，由 -arius“与……有关的、属于……的”构成。在拉丁语中它描述与好处相连的人；这个后缀是指人的，不是抽象性质的。"
+   },
+   {
+    "era": "FRENCH AND ENGLISH",
+    "en": "English beneficiary (1610s) probably came via French bénéficiaire, first as a noun 'one who receives profits or advantages', then in the 1620s as an adjective. The noun is now far more common than the adjective.",
+    "cn": "英语 beneficiary（17 世纪 10 年代）很可能经由法语 bénéficiaire 而来，先作名词“获得利润或好处的人”，17 世纪 20 年代再作形容词。如今名词用法远比形容词用法常见。"
+   },
+   {
+    "era": "DERIVATIONAL SPLIT",
+    "en": "This is the key contrast with beneficial. beneficialis uses -alis to make 'pertaining to a benefit', a quality adjective. beneficiarius uses -arius to make 'the person who enjoys a benefit', a personal noun. Same base, different suffix, different word class.",
+    "cn": "这是它与 beneficial 的关键差别。beneficialis 用 -alis 构成“与好处有关的”性质形容词；beneficiarius 用 -arius 构成“享有好处的人”这一指人名词。同一词基，不同后缀，不同词性。"
+   },
+   {
+    "era": "MODERN LEGAL SPECIALIZATION",
+    "en": "Modern English pushed the noun into law and finance: wills, life insurance, trusts, letters of credit, third-party contract rights. The old adjective use faded, and the attributive use in beneficiary country is a noun adjunct, not a revival of the adjective.",
+    "cn": "现代英语把这个名词推入法律与金融：遗嘱、人寿保险、信托、信用证、合同第三方权利。旧的形容词用法衰落了；beneficiary country 里的定语用法是名词作定语，并不是旧形容词的复活。"
+   }
+  ]
+ },
+ "similar": {
+  "note": {
+   "en": "The first group shares the Latin base but differs in suffix and direction (giver or receiver); the second group contains words for receivers that differ in legal status and setting.",
+   "cn": "第一组共享拉丁词基，但后缀和方向不同（给予者还是接受者）；第二组都是“接受者”，但法律身份与场景不同。"
+  },
+  "groups": [
+   {
+    "heading": "LOOK-ALIKE",
+    "entries": [
+     {
+      "word": "beneficial",
+      "ipa": "/ˌbenɪˈfɪʃl/",
+      "tag": "same root, adjective of quality",
+      "definition": "Producing a good effect. It is an adjective, so it can never stand for the person who receives; -ial marks quality, not a person.",
+      "definitionCN": "产生良好效果的。它是形容词，绝不能代替接受者本人；-ial 标记性质，不指人。"
+     },
+     {
+      "word": "beneficent",
+      "ipa": "/bɪˈnefɪsnt/",
+      "tag": "same root, the giver",
+      "definition": "Kind and generous in character. It points at the person who does good, the opposite direction from beneficiary.",
+      "definitionCN": "生性仁慈慷慨的。它指向行善的人，方向与 beneficiary 相反。"
+     },
+     {
+      "word": "benefice",
+      "ipa": "/ˈbenɪfɪs/",
+      "tag": "same root, church law",
+      "definition": "A church office with its income. It looks like beneficiary shortened, but it comes from the 'office granted' branch of beneficium.",
+      "definitionCN": "带收入的教会圣职。它看起来像 beneficiary 的缩短形式，但来自 beneficium“授予的职位”这一分支。"
+     },
+     {
+      "word": "benefactor",
+      "ipa": "/ˈbenɪfæktə/",
+      "tag": "same root, opposite role",
+      "definition": "A person who gives help or money. Benefactor gives; beneficiary receives; the -fact- of benefactor is the 'do' of facere.",
+      "definitionCN": "提供帮助或金钱的人。benefactor 给，beneficiary 收；benefactor 里的 -fact- 就是 facere 的“做”。"
+     }
+    ]
+   },
+   {
+    "heading": "NEAR MEANING",
+    "entries": [
+     {
+      "word": "recipient",
+      "ipa": "/rɪˈsɪpiənt/",
+      "tag": "neutral receiver",
+      "definition": "Anyone who receives something. It is neutral and carries no legal entitlement, whereas beneficiary implies a recognized right to the benefit.",
+      "definitionCN": "任何接受某物的人。它是中性的，不含法律权利；而 beneficiary 暗示对该利益有被承认的权利。"
+     },
+     {
+      "word": "heir",
+      "ipa": "/eə/",
+      "tag": "inheritance by status",
+      "definition": "A person who inherits property by law or blood relationship, whether or not a will names them.",
+      "definitionCN": "依法定或血缘继承财产的人，无论遗嘱是否点名。"
+     },
+     {
+      "word": "legatee",
+      "ipa": "/ˌleɡəˈtiː/",
+      "tag": "will, movable property",
+      "definition": "A person who receives a legacy, usually money or movable property, under a will. Narrower than beneficiary, which also covers insurance and trusts.",
+      "definitionCN": "依遗嘱接受遗赠（通常是钱或动产）的人。比 beneficiary 窄，后者还涵盖保险与信托。"
+     },
+     {
+      "word": "payee",
+      "ipa": "/peɪˈiː/",
+      "tag": "payment",
+      "definition": "The party to whom a payment is made, especially on a cheque or bill. It names only the receiving end of a payment.",
+      "definitionCN": "收款的一方，尤指支票或票据上的收款人。它只命名付款的接收端。"
+     }
+    ]
+   }
+  ]
+ },
+ "mnemonics": {
+  "normalIntro": {
+   "en": "Normal associations: real suffixes, real documents and real contrasts with the giver's word.",
+   "cn": "正常联想：真实的后缀、真实的文书，以及和“给予者”一词的真实对比。"
+  },
+  "normal": [
+   {
+    "en": "-ary marks a person attached to something; in beneficiary that person is attached to a benefit, while -ial in beneficial marks a quality instead.",
+    "cn": "-ary 标记附着于某物的人；在 beneficiary 里此人与“好处”相连，而 beneficial 的 -ial 标记的是性质。"
+   },
+   {
+    "en": "Three documents always have a beneficiary line: a will, an insurance policy, and a trust deed.",
+    "cn": "三种文书总有受益人栏：遗嘱、保单、信托契约。"
+   },
+   {
+    "en": "Direction test: benefactor gives, beneficiary receives. If the sentence is about giving, it is the wrong word.",
+    "cn": "方向测试：benefactor 给，beneficiary 收。如果句子讲的是“给”，那就用错了词。"
+   },
+   {
+    "en": "Same stem as beneficial, different suffix: -ary makes a person, -ial makes a quality.",
+    "cn": "与 beneficial 同词干、不同后缀：-ary 造人，-ial 造性质。"
+   },
+   {
+    "en": "In a letter of credit the form itself names the beneficiary, so banking gives the word a concrete place.",
+    "cn": "在信用证里，表格本身就要填 beneficiary，银行业务给了这个词一个具体的位置。"
+   }
+  ],
+  "abstract": [
+   {
+    "en": "Picture a document with an arrow leaving the page and landing on a person: the person at the arrow's end is the beneficiary.",
+    "cn": "想象一份文件，一支箭头离开纸面落在一个人身上：箭头末端的那个人就是 beneficiary。"
+   },
+   {
+    "en": "Picture two chairs facing each other: the giver's chair is benefactor, the receiver's chair is beneficiary.",
+    "cn": "想象两把面对面的椅子：给予者的椅子是 benefactor，接受者的椅子是 beneficiary。"
+   },
+   {
+    "en": "Picture a name written on a line: the line is the channel through which the benefit flows, and the name is the person at its end.",
+    "cn": "想象一条横线上写着一个名字：这条线是利益流动的通道，名字就是通道末端的人。"
+   }
+  ]
+ },
+ "examples": [
+  {
+   "en": "She left the house to her nephew as the sole beneficiary of her will.",
+   "cn": "她把房子留给侄子，作为她遗嘱的唯一受益人。"
+  },
+  {
+   "en": "The insurance company paid the beneficiary within thirty days.",
+   "cn": "保险公司在三十天内向受益人支付了赔款。"
+  },
+  {
+   "en": "Rural households were the main beneficiaries of the electrification programme.",
+   "cn": "农村家庭是电气化项目的主要受益者。"
+  }
+ ],
+ "dict_mnemonic": {
+  "note": "谐音记忆 · 非词源",
+  "text": "本（ben）来的好处（benefit）舍（she）给谁，谁就是 beneficiary 受益人",
+  "word": "beneficiary"
+ },
+ "root": "拉丁 bene“好”+ facere“做” → beneficium“恩惠” → beneficiarius“受恩惠者、享有特权者”；-ary 表“与……有关的人”。",
+ "sensesIntro": {
+  "en": "Nine senses share one position: the person at the receiving end of a benefit. What changes is the document that assigns it — a will, a policy, a trust, a contract, a payment order — or, in the loosest sense, no document at all.",
+  "cn": "九个义项共享同一个位置：处在利益接受端的那个人。变化的是分配利益的那份文书——遗嘱、保单、信托、合同、付款指令——或者在最宽松的义项里，根本没有文书。"
+ },
+ "semanticMap": {
+  "core": {
+   "en": "CORE IMAGE: a named person at the receiving end of a benefit written into a document.",
+   "cn": "核心意象：写在文书里的利益，末端是一个具名的接受者。"
+  },
+  "chain": [
+   "BENEFIT CREATED",
+   "FAVOR GRANTED",
+   "PERSON ATTACHED",
+   "NAME ON DOCUMENT",
+   "RIGHT TO RECEIVE",
+   "BENEFICIARY STATUS"
+  ],
+  "branches": [
+   {
+    "senses": "01 · 04",
+    "en": "PRIVATE AND CHARITABLE RECEIVERS: a will names an heir; a charity names the person it helps.",
+    "cn": "私人与慈善接受者：遗嘱点名继承人；慈善机构点名它帮助的人。"
+   },
+   {
+    "senses": "02 · 03",
+    "en": "POLICY AND TRUST: the nomination or the trust deed assigns the benefit to a named party.",
+    "cn": "保单与信托：指定或信托契据把利益分配给具名的一方。"
+   },
+   {
+    "senses": "05 · 06",
+    "en": "PAYMENT AND CONTRACT: banking and contract law make the beneficiary a technical party with a right to enforce.",
+    "cn": "付款与合同：银行和合同法使 beneficiary 成为有主张权的技术性当事方。"
+   },
+   {
+    "senses": "07 · 09",
+    "en": "COLLECTIVE AND ATTRIBUTIVE: whole countries and households become the receiving side of a programme.",
+    "cn": "集体与定语用法：整个国家与家庭成为项目的接受方。"
+   },
+   {
+    "senses": "08",
+    "en": "LOOSE EXTENSION: anyone who profits from an event, with no document at all.",
+    "cn": "宽松延伸：任何从事件中获利的人，完全不需要文书。"
+   }
+  ]
+ },
+ "affixes": {
+  "intro": {
+   "en": "Beneficiary is bene- + -fic- + -ary, and each piece is still readable: 'well' + 'doing' + 'person connected with'. The -ary ending is the decisive one, because it turns a benefit into a person.",
+   "cn": "beneficiary 是 bene- + -fic- + -ary，每一块至今仍可读：“好”+“做”+“与之相连的人”。决定性的是 -ary，因为它把“好处”变成了“人”。"
+  },
+  "latinIntro": {
+   "en": "Latin bene and facere also produced beneficium, beneficus and beneficiarius. English keeps the -ary branch for people (beneficiary) and the -ial branch for qualities (beneficial), a split inherited from Latin suffix choice.",
+   "cn": "拉丁 bene 和 facere 还产生了 beneficium、beneficus、beneficiarius。英语把 -ary 那一支留给指人（beneficiary），把 -ial 那一支留给性质（beneficial），这一分裂承自拉丁语的后缀选择。"
+  },
+  "items": [
+   {
+    "word": "benefit",
+    "structure": "bene- (well) + factum (thing done)",
+    "meaning": "an advantage; to help or gain",
+    "meaningCN": "好处；利益；有益于；受益",
+    "example": "The scholarship brought a real benefit to her family.",
+    "exampleCN": "这笔奖学金给她家带来了实实在在的好处。"
+   },
+   {
+    "word": "beneficial",
+    "structure": "bene- + -fic- + -ial (pertaining to)",
+    "meaning": "producing a good effect",
+    "meaningCN": "有益的；有利的",
+    "example": "The change was beneficial to the whole team.",
+    "exampleCN": "这一变化对整个团队都有益。"
+   },
+   {
+    "word": "beneficiary",
+    "structure": "bene- + -fic- + -ary (person connected with)",
+    "meaning": "a person who receives a benefit",
+    "meaningCN": "受益人；受惠者",
+    "example": "The beneficiary must show proof of identity.",
+    "exampleCN": "受益人必须出示身份证明。"
+   },
+   {
+    "word": "benefactor",
+    "structure": "bene- + fac- + -tor (one who does)",
+    "meaning": "one who gives help or money",
+    "meaningCN": "施惠者；捐助者",
+    "example": "A benefactor funded the new laboratory.",
+    "exampleCN": "一位捐助者出资修建了新实验室。"
+   },
+   {
+    "word": "beneficence",
+    "structure": "bene- + -fic- + -ence (quality noun)",
+    "meaning": "generosity; the doing of good",
+    "meaningCN": "仁慈；善行",
+    "example": "The clinic depends on the beneficence of donors.",
+    "exampleCN": "这家诊所依靠捐助者的善心维持。"
+   },
+   {
+    "word": "beneficent",
+    "structure": "bene- + -fic- + -ent (doing)",
+    "meaning": "kind and generous in action",
+    "meaningCN": "行善的；仁慈的",
+    "example": "A beneficent stranger paid for the medicine.",
+    "exampleCN": "一位好心的陌生人付了药费。"
+   },
+   {
+    "word": "benefice",
+    "structure": "beneficium → Old French benefice",
+    "meaning": "a church office with its income",
+    "meaningCN": "（教会）圣职及俸禄",
+    "example": "The bishop granted him a benefice.",
+    "exampleCN": "主教授予他一处圣职俸禄。"
+   },
+   {
+    "word": "beneficiary designation",
+    "structure": "beneficiary + designation (the act of naming)",
+    "meaning": "the formal act of naming a beneficiary",
+    "meaningCN": "受益人指定（正式指定受益人的行为）",
+    "example": "A beneficiary designation must be signed and dated.",
+    "exampleCN": "受益人指定必须签名并注明日期。"
+   },
+   {
+    "word": "maleficent",
+    "structure": "male- (badly) + -fic- + -ent",
+    "meaning": "doing harm",
+    "meaningCN": "作恶的；有害的",
+    "example": "The maleficent spell brought illness to the village.",
+    "exampleCN": "恶毒的咒语给村庄带来了疾病。"
+   },
+   {
+    "word": "manufacture",
+    "structure": "manu (hand) + factura (making)",
+    "meaning": "to make goods",
+    "meaningCN": "制造；生产",
+    "example": "They manufacture medical devices in this plant.",
+    "exampleCN": "他们在这座工厂生产医疗器械。"
+   }
+  ],
+  "latinEntries": [
+   {
+    "word": "bene",
+    "structure": "bene (adverb)",
+    "meaning": "well, rightly",
+    "meaningCN": "好；正确地"
+   },
+   {
+    "word": "facere",
+    "structure": "facere (verb)",
+    "meaning": "to do, to make",
+    "meaningCN": "做；制造"
+   },
+   {
+    "word": "beneficium",
+    "structure": "bene + facere + -ium",
+    "meaning": "a favor, service, kindness; a granted office",
+    "meaningCN": "恩惠；服务；善意；授予的职位"
+   },
+   {
+    "word": "beneficiarius",
+    "structure": "beneficium + -arius (connected with)",
+    "meaning": "enjoying a favor; privileged",
+    "meaningCN": "享有恩惠的；有特权的"
+   }
+  ]
+ }
+}
