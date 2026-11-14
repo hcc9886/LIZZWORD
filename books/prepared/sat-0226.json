@@ -1,0 +1,494 @@
+[
+  {
+    "word": "arid",
+    "ipa_uk": "/ˈærɪd/",
+    "ipa_us": "/ˈærɪd/",
+    "definition_zh": "干旱的；干燥的；荒芜的；（文风、话题）枯燥无味的；缺乏感情的",
+    "definition_en": "having so little rain that few plants can grow; also dry and uninteresting in style or feeling",
+    "core_image": "裂成多边形的黏土上，一丛带刺灌木孤零零地立着，天空白得没有云",
+    "scene": "裂开的黏土与带刺灌丛覆盖着这片干旱的平原。Cracked clay and thorny scrub covered the arid plain.",
+    "sceneCN": "这里 arid 指「降雨极少、植物难以生长的」（第 1 个义项：干旱气候或地区）；句意为裂开的黏土与带刺灌丛覆盖着这片干旱的平原。图中可辨识物件：多边形干裂缝、带刺灌丛、白色天空、砾石。",
+    "pos": [
+      {
+        "tag": "adj.",
+        "zh": "干旱的；干燥的；荒芜的；枯燥的；无感情的"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "arid climate",
+        "zh": "干旱气候"
+      },
+      {
+        "phrase": "arid region",
+        "zh": "干旱地区"
+      },
+      {
+        "phrase": "arid land",
+        "zh": "旱地；干旱土地"
+      },
+      {
+        "phrase": "semi-arid",
+        "zh": "半干旱的"
+      },
+      {
+        "phrase": "arid soil",
+        "zh": "干旱土壤"
+      },
+      {
+        "phrase": "arid prose",
+        "zh": "枯燥的散文"
+      }
+    ],
+    "forms": [
+      {
+        "label": "比较级",
+        "form": "arider"
+      },
+      {
+        "label": "最高级",
+        "form": "aridest"
+      },
+      {
+        "label": "名词（干旱）",
+        "form": "aridity"
+      },
+      {
+        "label": "副词（枯燥地；干旱地）",
+        "form": "aridly"
+      },
+      {
+        "label": "名词（干旱性，较少用）",
+        "form": "aridness"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "aridity",
+        "pos": "n.",
+        "zh": "干旱；干燥；（文风）枯燥"
+      },
+      {
+        "word": "aridly",
+        "pos": "adv.",
+        "zh": "干燥地；枯燥地"
+      },
+      {
+        "word": "aridness",
+        "pos": "n.",
+        "zh": "干旱性（较少用）"
+      },
+      {
+        "word": "semi-arid",
+        "pos": "adj.",
+        "zh": "半干旱的"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "A climate of very low rainfall",
+        "titleCN": "降水极少的干旱气候",
+        "definition": "describing a climate whose annual rainfall is too low to support rain-fed agriculture or continuous vegetation",
+        "definitionCN": "形容年降水太低、无法支持雨养农业或连续植被的气候",
+        "example": "Cracked clay and thorny scrub covered the arid plain.",
+        "exampleCN": "裂开的黏土与带刺灌丛覆盖着这片干旱的平原。",
+        "why": "arid enters English from Latin aridus 'dry, parched', whose root image is a surface dried out by sun.",
+        "whyCN": "arid 来自拉丁 aridus「干燥、烤干」，其词根意象是被太阳晒干的地表。"
+      },
+      {
+        "no": "02",
+        "title": "Dry and barren ground",
+        "titleCN": "干燥贫瘠的土地",
+        "definition": "describing land that holds little moisture and bears few plants, whether or not it is officially a desert",
+        "definitionCN": "形容蓄水少、植物稀少的地，无论是否正式算作荒漠",
+        "example": "Nothing will grow on that arid slope without irrigation.",
+        "exampleCN": "那片干旱坡地不灌溉什么也长不出来。",
+        "why": "the adjective describes a condition of the ground, while desert is a place and desertification is a process.",
+        "whyCN": "这个形容词描述地面的状态，而 desert 是地方、desertification 是过程。"
+      },
+      {
+        "no": "03",
+        "title": "Arid soil chemistry",
+        "titleCN": "干旱土壤的化学特征",
+        "definition": "soil low in organic matter, often alkaline, with salt or calcium carbonate layers near the surface",
+        "definitionCN": "有机质低、常偏碱，表层附近有盐层或碳酸钙层的土壤",
+        "example": "Arid soil forms a hard caliche layer that roots cannot pass.",
+        "exampleCN": "干旱土壤形成坚硬的钙积层，根穿不过去。",
+        "why": "little rain means little leaching, so salts and carbonates stay where they form.",
+        "whyCN": "雨少意味着淋洗少，盐与碳酸盐就留在原处。"
+      },
+      {
+        "no": "04",
+        "title": "Hyper-arid extremes",
+        "titleCN": "极端干旱（超干旱）",
+        "definition": "the most severe dryness class, where rain may not fall for years and life survives only in rare niches",
+        "definitionCN": "最严重的干旱等级，可能多年无雨，生命只在极少数微生境中存活",
+        "example": "Parts of the Atacama are hyper-arid rather than merely arid.",
+        "exampleCN": "阿塔卡马的部分地区属于超干旱，而不只是干旱。",
+        "why": "classification needs degrees, so arid gained a marked upper extreme with its own prefix.",
+        "whyCN": "分类需要等级，于是 arid 加前缀形成标记出的上端。"
+      },
+      {
+        "no": "05",
+        "title": "The semi-arid transition",
+        "titleCN": "半干旱过渡带",
+        "definition": "the zone between arid and subhumid where rainfall supports grass but not closed forest",
+        "definitionCN": "介于干旱与半湿润之间、降水足以长草却不足以成林的带",
+        "example": "Semi-arid country can flip from crop to dust within one season.",
+        "exampleCN": "半干旱地区能在一个季节内从庄稼变成尘土。",
+        "why": "the prefix semi- marks the boundary where the adjective stops applying strictly, and that boundary is the fragile zone.",
+        "whyCN": "前缀 semi- 标出该形容词不再严格适用的界线，而这条界线正是脆弱地带。"
+      },
+      {
+        "no": "06",
+        "title": "Dry and dull in style",
+        "titleCN": "文风或话题枯燥",
+        "definition": "describing writing, speech or a subject that is dry, lifeless and without interest",
+        "definitionCN": "形容文字、言谈或话题干瘪、无生气、引不起兴趣",
+        "example": "The report was accurate but arid, page after page of figures.",
+        "exampleCN": "这份报告准确却枯燥，一页接一页的数字。",
+        "why": "the metaphor borrows the physical sense: a text with no rain has no growth in it.",
+        "whyCN": "这一比喻借物理义：没有雨的文字里也长不出东西。"
+      },
+      {
+        "no": "07",
+        "title": "Emotionally dry",
+        "titleCN": "缺乏感情的",
+        "definition": "describing a manner or relationship that shows no warmth, feeling or imaginative sympathy",
+        "definitionCN": "形容态度或关系没有温度、感情或想象性的体谅",
+        "example": "An arid handshake ended the meeting.",
+        "exampleCN": "一次毫无温度的握手结束了会面。",
+        "why": "the same dryness moves from land to people: nothing nourishing passes between them.",
+        "whyCN": "同样的「干」从土地移到人身上：彼此之间没有任何滋养性的东西传递。"
+      },
+      {
+        "no": "08",
+        "title": "Arid-zone ecology",
+        "titleCN": "旱区生态与适应植物",
+        "definition": "the study and description of dryland communities, whose plants evade, resist or store scarce water",
+        "definitionCN": "对旱地群落的研究与描述，其植物回避、抵抗或储存稀缺的水",
+        "example": "Arid-zone plants often carry waxy leaves and deep taproots.",
+        "exampleCN": "旱区植物常具蜡质叶与深主根。",
+        "why": "as a compound modifier, arid labels a whole branch of ecology defined by water scarcity.",
+        "whyCN": "作复合修饰语时，arid 标出以缺水为定义的一整个生态学分支。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Arid comes straight from Latin aridus 'dry, parched', built on the verb arere 'to be dry', so its Latin line is short and well documented.",
+        "cn": "arid 直接来自拉丁 aridus「干燥、烤干」，由动词 arere「干燥」构成，其拉丁线索短且有文献。"
+      },
+      "items": [
+        {
+          "era": "LATIN ARERE",
+          "en": "Arere meant 'to be dry or parched'. It also underlies arefacere 'to dry up', seen in English arefaction.",
+          "cn": "arere 意为「干燥、被烤干」。它也构成 arefacere「使干」，英语 arefaction 即由此来。"
+        },
+        {
+          "era": "LATIN ARIDUS",
+          "en": "The adjective aridus described ground, air or a person dried out; it is the direct source of English arid.",
+          "cn": "形容词 aridus 描述被晒干的地、空气或人；它是英语 arid 的直接来源。"
+        },
+        {
+          "era": "ENGLISH, 16TH C.",
+          "en": "English took arid in the sixteenth century, at first in the physical sense of parched ground, with the figurative sense following later.",
+          "cn": "英语在 16 世纪借入 arid，最初指物理上被烤干的地，比喻义随后出现。"
+        },
+        {
+          "era": "SCIENTIFIC CLASSIFICATION",
+          "en": "Modern climatology fixed arid as a measurable zone, usually below about 250 mm of rain a year, and added semi- and hyper- grades.",
+          "cn": "现代气候学把 arid 固定为可测的带，通常年降水低于约 250 毫米，并加上 semi- 与 hyper- 等级。"
+        },
+        {
+          "era": "UNCERTAIN DETAILS",
+          "en": "Source uncertain (pre-Latin root): the Indo-European root commonly reconstructed as *as- 'to burn, glow' is a reconstruction, and the exact first English citation is not securely dated.",
+          "cn": "来源不确定（拉丁语之前词根）：通常重构的印欧词根 *as-「燃烧、发光」属重构形式；最早英语书证年代亦不可靠。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "Group one separates the arid family and its near spellings; group two separates the physical and figurative synonyms.",
+        "cn": "第一组区分 arid 词族与相近拼写；第二组区分物理义与比喻义的同义词。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "aridity",
+              "ipa": "/əˈrɪdəti/",
+              "tag": "noun",
+              "definition": "The noun for the state of being arid, both climatic and stylistic.",
+              "definitionCN": "表示干旱状态的名词，兼指气候与文风。"
+            },
+            {
+              "word": "aridly",
+              "ipa": "/ˈærɪdli/",
+              "tag": "adverb",
+              "definition": "The adverb, usually in the figurative sense of speaking or writing without warmth.",
+              "definitionCN": "副词，通常用于说话或写作缺乏温度的比喻义。"
+            },
+            {
+              "word": "aridness",
+              "ipa": "/ˈærɪdnəs/",
+              "tag": "rare noun",
+              "definition": "A rarer synonym of aridity; it is correct but much less frequent.",
+              "definitionCN": "aridity 的较罕用同义词；正确但频率低得多。"
+            },
+            {
+              "word": "semi-arid",
+              "ipa": "/ˌsemiˈærɪd/",
+              "tag": "prefix",
+              "definition": "Half-dry: the transition zone that is dry but not yet desert.",
+              "definitionCN": "半干燥：干旱但尚未成荒漠的过渡带。"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "dry",
+              "ipa": "/draɪ/",
+              "tag": "everyday",
+              "definition": "The plain word for lacking moisture; arid is its technical and often more severe counterpart.",
+              "definitionCN": "表示缺水的日常词；arid 是它技术化、通常更严重的对应词。"
+            },
+            {
+              "word": "parched",
+              "ipa": "/pɑːtʃt/",
+              "tag": "visibly dried",
+              "definition": "Dried out to cracking, used of soil, lips or throat; it stresses visible damage.",
+              "definitionCN": "干到开裂，用于土壤、嘴唇或喉咙；强调可见的损伤。"
+            },
+            {
+              "word": "barren",
+              "ipa": "/ˈbærən/",
+              "tag": "no production",
+              "definition": "Unable to bear crops or young; it is about productivity, not rainfall.",
+              "definitionCN": "不能产作物或后代；讲的是生产力，不是降水。"
+            },
+            {
+              "word": "desert",
+              "ipa": "/ˈdezət/",
+              "tag": "place noun",
+              "definition": "A place, not a quality; a desert is arid, but arid land need not be a desert.",
+              "definitionCN": "是地方而非性质；荒漠必干旱，但干旱地不必是荒漠。"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Normal associations: real morphemes, real collocations and real relatives, not invented rhymes.",
+        "cn": "正常联想：真实的构词成分、真实搭配与真实同族词，而非编造的顺口溜。"
+      },
+      "normal": [
+        {
+          "en": "Latin arere 'be dry' → aridus → arid: the shortest possible line.",
+          "cn": "拉丁 arere「干燥」→ aridus → arid：最短的一条线。"
+        },
+        {
+          "en": "The family runs arid, aridity, aridly, aridness, semi-arid.",
+          "cn": "同族词包括 arid、aridity、aridly、aridness、semi-arid。"
+        },
+        {
+          "en": "Fixed phrases: arid climate, arid region, arid soil, semi-arid.",
+          "cn": "固定搭配：干旱气候、干旱地区、干旱土壤、半干旱。"
+        },
+        {
+          "en": "The metaphor is the same dryness applied to prose and manners.",
+          "cn": "比喻就是把同一种「干」用在文章与举止上。"
+        },
+        {
+          "en": "The image is cracked clay under a white sky with one thorn bush.",
+          "cn": "意象是白空之下一片裂开的黏土，只有一丛刺灌。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "Think of a sponge left in the sun until it is hard.",
+          "cn": "想象一块海绵被晒到发硬。"
+        },
+        {
+          "en": "Think of a conversation where nothing green ever comes up.",
+          "cn": "想象一场谈话里始终长不出一点绿色。"
+        },
+        {
+          "en": "Think of a page so dry that the words crack apart.",
+          "cn": "想象一页纸干到字都裂开。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "Arid regions cover roughly a third of the land surface.",
+        "cn": "干旱地区约占陆地表面的三分之一。"
+      },
+      {
+        "en": "The lecture was learned but arid.",
+        "cn": "那场讲座很有学问，却枯燥无味。"
+      },
+      {
+        "en": "Arid air sucked the moisture from the washing.",
+        "cn": "干燥的空气把洗过的衣物水分吸干了。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「a-rid」联想「啊，rid（去掉）了水」——水被晒没了 → 干旱的",
+      "word": "arid"
+    },
+    "root": "拉丁 arere「干燥、被烤干」→ 形容词 aridus「干燥的」→ 英语 arid。通常重构的印欧词根 *as-「燃烧、发光」属重构形式，并非定论。",
+    "sensesIntro": {
+      "en": "Eight senses carry one dryness from climate and soil into extreme grades, then into style, feeling and the ecology that studies it.",
+      "cn": "八个义项把同一种「干」从气候与土壤，带到极端等级，再带到文风、感情与研究它的生态学。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: a surface baked hard by sun with too little water to support growth.",
+        "cn": "核心意象：被太阳烤硬的地表，水少到长不出东西。"
+      },
+      "chain": [
+        "LOW RAINFALL",
+        "BARREN GROUND",
+        "SALTY SOIL",
+        "EXTREME DRY",
+        "DRY STYLE",
+        "DRY FEELING"
+      ],
+      "branches": [
+        {
+          "senses": "01 · 05",
+          "en": "CLIMATE GRADES: arid is a zone, and semi-arid marks where it fades.",
+          "cn": "气候等级：arid 是一个带，semi-arid 标出它消退之处。"
+        },
+        {
+          "senses": "02 · 04",
+          "en": "SEVERITY: from barren ground to years without rain, the same quality deepens.",
+          "cn": "强度：从贫瘠地面到多年无雨，同一种性质不断加深。"
+        },
+        {
+          "senses": "03 · 08",
+          "en": "SOIL AND FLORA: little leaching leaves salt, and plants evolve wax and deep roots.",
+          "cn": "土壤与植物：淋洗少留下盐，植物演化出蜡质与深根。"
+        },
+        {
+          "senses": "06",
+          "en": "STYLE: a text without rain has no growth, so it is called arid.",
+          "cn": "文风：没有雨的文字长不出东西，因此被称作「干」。"
+        },
+        {
+          "senses": "07",
+          "en": "FEELING: the same dryness reaches manners and relationships.",
+          "cn": "感情：同一种「干」延伸到举止与关系。"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Arid is a Latin adjective stem that takes English noun and adverb suffixes, and a semi- prefix for the transition zone.",
+        "cn": "arid 是拉丁形容词词干，可接英语名词与副词后缀，并可用 semi- 前缀表示过渡带。"
+      },
+      "latinIntro": {
+        "en": "Latin arere 'be dry' and aridus 'dry' are both documented; the deeper Indo-European root is a reconstruction.",
+        "cn": "拉丁 arere「干燥」与 aridus「干燥的」均有文献；更深的印欧词根属重构。"
+      },
+      "items": [
+        {
+          "word": "arid",
+          "structure": "Latin aridus (adjective)",
+          "meaning": "dry, parched",
+          "meaningCN": "干燥的；烤干的",
+          "example": "Arid ground cracks into polygons.",
+          "exampleCN": "干旱地面裂成多边形。"
+        },
+        {
+          "word": "aridity",
+          "structure": "arid + -ity (state noun)",
+          "meaning": "the state of being dry",
+          "meaningCN": "干旱状态",
+          "example": "Aridity is measured by rainfall against evaporation.",
+          "exampleCN": "干旱度以降水和蒸发相比来衡量。"
+        },
+        {
+          "word": "aridly",
+          "structure": "arid + -ly (adverb)",
+          "meaning": "in a dry manner",
+          "meaningCN": "干燥地；枯燥地",
+          "example": "He answered aridly, without warmth.",
+          "exampleCN": "他干巴巴地回答，毫无温度。"
+        },
+        {
+          "word": "aridness",
+          "structure": "arid + -ness (state noun)",
+          "meaning": "dryness",
+          "meaningCN": "干燥性",
+          "example": "The aridness of the air preserved the wood.",
+          "exampleCN": "空气干燥使木头得以保存。"
+        },
+        {
+          "word": "semi-arid",
+          "structure": "semi- 'half' + arid",
+          "meaning": "partly dry",
+          "meaningCN": "半干旱的",
+          "example": "Semi-arid grassland feeds cattle in good years.",
+          "exampleCN": "半干旱草原在好年景能养牛。"
+        },
+        {
+          "word": "hyper-arid",
+          "structure": "hyper- 'beyond' + arid",
+          "meaning": "extremely dry",
+          "meaningCN": "超干旱的",
+          "example": "Hyper-arid deserts may go years without rain.",
+          "exampleCN": "超干旱荒漠可能多年无雨。"
+        },
+        {
+          "word": "arid-zone",
+          "structure": "arid + zone (compound)",
+          "meaning": "the dry climatic belt",
+          "meaningCN": "干旱气候带",
+          "example": "Arid-zone soils are thin in humus.",
+          "exampleCN": "旱区土壤腐殖质薄。"
+        },
+        {
+          "word": "arefaction",
+          "structure": "Latin arefacere 'make dry' + -ion",
+          "meaning": "the process of drying",
+          "meaningCN": "干燥过程",
+          "example": "Arefaction follows once the marsh is drained.",
+          "exampleCN": "湿地排干后便出现干燥过程。"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "arere",
+          "structure": "arere, arui (verb, second conjugation)",
+          "meaning": "to be dry, parched",
+          "meaningCN": "干燥；被烤干"
+        },
+        {
+          "word": "aridus",
+          "structure": "aridus (adjective, first/second declension)",
+          "meaning": "dry, parched",
+          "meaningCN": "干燥的；烤干的"
+        },
+        {
+          "word": "ariditas",
+          "structure": "ariditas, ariditatis (f., third declension)",
+          "meaning": "dryness",
+          "meaningCN": "干燥；干旱"
+        },
+        {
+          "word": "arefacere",
+          "structure": "arefacere, arefeci, arefactum (verb, third conjugation)",
+          "meaning": "to dry up, make dry",
+          "meaningCN": "使干；使干涸"
+        }
+      ]
+    }
+  }
+]

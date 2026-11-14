@@ -1,0 +1,539 @@
+[
+  {
+    "word": "archive",
+    "ipa_uk": "/ˈɑːkaɪv/",
+    "ipa_us": "/ˈɑːrkaɪv/",
+    "definition_zh": "档案；档案馆；档案库；存档资料；（动词）把……归档、存档",
+    "definition_en": "a collection of historical records preserved as evidence, the place that holds them, or a store of data; as a verb, to file or preserve something in such a collection",
+    "core_image": "一排贴着年份标签的灰色档案盒，盒口露出纸页边缘",
+    "scene": "档案室里一排排铁柜按年份编号，管理员正取出一份泛黄的卷宗。The archive holds records that date back to the founding of the university.",
+    "sceneCN": "这里 archive 是「保存作证据的历史记录集合」（第 1 个义项：档案集合）；句意：这间库房是公司的档案库，每只盒子都作为证据保存。图中可辨识物件：档案盒、年份标签、纸页、库房铁门、台灯、笔记本电脑。",
+    "pos": [
+      {
+        "tag": "n.",
+        "zh": "档案；档案馆；档案库；存档资料"
+      },
+      {
+        "tag": "vt.",
+        "zh": "把……归档；把……存档保存"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "the national archive",
+        "zh": "国家档案馆"
+      },
+      {
+        "phrase": "a digital archive",
+        "zh": "数字档案库"
+      },
+      {
+        "phrase": "archive a document",
+        "zh": "把文件归档"
+      },
+      {
+        "phrase": "archive the website",
+        "zh": "把网站存档保存"
+      },
+      {
+        "phrase": "the archive of the museum",
+        "zh": "博物馆的档案"
+      }
+    ],
+    "forms": [
+      {
+        "label": "复数（名词，多于一个）",
+        "form": "archives"
+      },
+      {
+        "label": "三单（动词）",
+        "form": "archives"
+      },
+      {
+        "label": "过去式（动词，已经发生）",
+        "form": "archived"
+      },
+      {
+        "label": "过去分词（动词，完成／被动）",
+        "form": "archived"
+      },
+      {
+        "label": "现在分词（动词，进行体）",
+        "form": "archiving"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "archival",
+        "pos": "adj.",
+        "zh": "档案的；档案保存的"
+      },
+      {
+        "word": "archivist",
+        "pos": "n.",
+        "zh": "档案管理员；档案学者"
+      },
+      {
+        "word": "archivable",
+        "pos": "adj.",
+        "zh": "可归档的；适合存档的"
+      },
+      {
+        "word": "archivally",
+        "pos": "adv.",
+        "zh": "在档案方面；以档案方式"
+      },
+      {
+        "word": "archivism",
+        "pos": "n.",
+        "zh": "档案主义；以档案为导向的实践"
+      },
+      {
+        "word": "archives",
+        "pos": "n.",
+        "zh": "档案馆；档案（复数形式，也是 archive 的逆构来源）"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "The preserved records: evidence kept on paper",
+        "titleCN": "被保存的记录：留作证据的纸页",
+        "definition": "a collection of documents and records preserved because they serve as evidence of the past",
+        "definitionCN": "因可作为过去之证据而被保存的文件与记录集合",
+        "example": "The archive contains every letter the company sent between 1900 and 1950.",
+        "exampleCN": "这批档案包含了该公司 1900 至 1950 年间寄出的每一封信。",
+        "why": "Greek ta arkheia were public records kept by the city. The core image is a box of papers retained on purpose, so archive first names the records that are kept rather than thrown away.",
+        "whyCN": "希腊语 ta arkheia 是城邦保存的公共记录。核心意象是一只被有意留存而非丢弃的纸箱，因此 archive 首先指被保留下来的记录本身。"
+      },
+      {
+        "no": "02",
+        "title": "The building: the place that holds the records",
+        "titleCN": "建筑物：存放记录的场所",
+        "definition": "the room, building or institution where such records are stored and made available",
+        "definitionCN": "存放这类记录并向人提供查阅的房间、建筑或机构",
+        "example": "The archive opens to researchers at nine in the morning.",
+        "exampleCN": "档案馆上午九点向研究者开放。",
+        "why": "The container for the records is named by the same word: arkheion was a public building, and the English noun can shift from papers to the roof that shelters them.",
+        "whyCN": "保存记录的容器用同一个词命名：arkheion 本就是公共建筑，英语名词因此可以从纸张滑向庇护它们的屋顶。"
+      },
+      {
+        "no": "03",
+        "title": "The data store: digital retention",
+        "titleCN": "数据仓库：数字留存",
+        "definition": "a store of digital material kept for future use, backup or research",
+        "definitionCN": "为将来使用、备份或研究而保存的数字资料库",
+        "example": "The server keeps an archive of every image uploaded since 2010.",
+        "exampleCN": "服务器保存着自 2010 年以来上传的每一张图片的存档。",
+        "why": "The evidence no longer has to be paper. A folder of old files performs the same act of retention, so archive transfers to digital storage without changing its purpose.",
+        "whyCN": "证据不必再是纸。一个装旧文件的文件夹执行同样的留存动作，因此 archive 不改其目的就转移到数字存储。"
+      },
+      {
+        "no": "04",
+        "title": "The body of work: an artist's or studio's past output",
+        "titleCN": "作品全集：艺术家或机构的过往产出",
+        "definition": "the accumulated past works of a person or organisation, kept as a record of their development",
+        "definitionCN": "个人或机构积累的过往作品，作为其发展过程的记录",
+        "example": "The fashion house's archive supplied the prints for the new collection.",
+        "exampleCN": "这家时装屋的档案库为新系列提供了印花图样。",
+        "why": "A studio's papers and samples are evidence of its own past. The word extends from public records to any accumulated body of work that can be consulted later.",
+        "whyCN": "工作室的纸稿与样品是它自身过去的证据。这个词从公共记录扩展到任何可供日后查阅的累积作品。"
+      },
+      {
+        "no": "05",
+        "title": "The compressed bundle: a file archive",
+        "titleCN": "压缩包：文件归档",
+        "definition": "in computing, a single file that bundles and often compresses many other files",
+        "definitionCN": "在计算机领域，把许多文件打包、通常还压缩成的一个文件",
+        "example": "Download the .zip archive and unpack it into a new folder.",
+        "exampleCN": "下载这个 .zip 压缩包，解压到一个新文件夹里。",
+        "why": "A physical archive box holds many papers in one container. The digital bundle reproduces that container, so the computing sense is a direct extension of 'many things kept together'.",
+        "whyCN": "实体档案盒把许多纸张装进一个容器。数字压缩包复制了这个容器，因此计算机义是“许多东西被收在一起”的直接延伸。"
+      },
+      {
+        "no": "06",
+        "title": "To file: enter a document into the collection",
+        "titleCN": "归档：把文件纳入馆藏",
+        "definition": "to file or enter a document into an archive collection, recorded as a verb from 1819",
+        "definitionCN": "把文件归入档案集合，动词义记录于 1819 年",
+        "example": "The clerk archived the deed in the county record office.",
+        "exampleCN": "职员把这份契据归入县档案室。",
+        "why": "Once the noun named the collection, the act of putting something into it became a verb. The box closes and the paper joins the row, so 'archive' means 'place into the kept set'.",
+        "whyCN": "一旦名词命名了集合，把东西放进集合的动作就变成动词。盒子合上，纸页加入那一排，于是 archive 表示“放入被保存的集合”。"
+      },
+      {
+        "no": "07",
+        "title": "To move data aside: long-term storage",
+        "titleCN": "移走数据：长期存储",
+        "definition": "to move digital material to a separate long-term store so that active systems stay uncluttered",
+        "definitionCN": "把数字资料移到单独的长期存储中，使在用系统保持清爽",
+        "example": "The team archived last year's logs to free up the server.",
+        "exampleCN": "团队把去年的日志存档，以腾出服务器空间。",
+        "why": "The verb keeps its filing meaning: material is moved from the active desk to the shelf. In computing the shelf is slower storage, but the action is still 'put away for later'.",
+        "whyCN": "动词保留“归档”含义：材料从在用桌面移到架子上。在计算机里，架子是较慢的存储，但动作仍是“收起来备用”。"
+      },
+      {
+        "no": "08",
+        "title": "To preserve for history: archive a website or a voice",
+        "titleCN": "为历史保存：存档网站或口述",
+        "definition": "to capture and preserve something fragile or ephemeral so that later researchers can still consult it",
+        "definitionCN": "抓取并保存易消失之物，使后来的研究者仍能查阅",
+        "example": "Librarians archived the protest website before it went offline.",
+        "exampleCN": "抗议网站下线之前，图书馆员把它存档了。",
+        "why": "A website is a record that disappears when the server is switched off. Archiving it does what arkheia did for the city: it turns a live event into kept evidence.",
+        "whyCN": "网站是记录，服务器一关就消失。给它存档，正是 arkheia 为城邦做过的事：把正在发生的事件变成被保存的证据。"
+      },
+      {
+        "no": "09",
+        "title": "The personal store: memory as an archive",
+        "titleCN": "个人储存：记忆作为档案",
+        "definition": "a figurative use for the accumulated store of memories, images or experiences that a person can draw on",
+        "definitionCN": "比喻用法：一个人可调用的记忆、影像或经验的累积储存",
+        "example": "Her childhood photographs are the archive of a vanished street.",
+        "exampleCN": "她童年的照片就是一条消失街道的档案。",
+        "why": "Memory retains selected traces and can be searched later, exactly like a box of papers. The word moves from institutional records to the private store of experience.",
+        "whyCN": "记忆保留经过挑选的痕迹，日后可被检索，完全像一箱纸。这个词从机构记录转移到私人的经验储存。"
+      },
+      {
+        "no": "10",
+        "title": "The back issue: a journal's published past",
+        "titleCN": "过刊：期刊已出版的过去",
+        "definition": "the collected back numbers of a newspaper or journal, available for consultation",
+        "definitionCN": "报纸或期刊已出版的过刊合集，可供查阅",
+        "example": "The magazine's archive is searchable back to its first issue.",
+        "exampleCN": "这份杂志的过刊可检索到创刊号。",
+        "why": "Each issue is a dated record, and together they form a run. The publishing archive is another shelf of the same strongroom, organized by date rather than by author.",
+        "whyCN": "每一期都是有日期的记录，合起来形成一个序列。出版档案是同一间库房里的另一排架子，按日期而非按作者排列。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Archive is a back-formation from archives, which entered English about 1600 from French archif and late Latin archivum. The source is Greek ta arkheia 'public records', kept in the arkheion or town hall, from arkhē 'government, beginning'. Although archaeology also goes back to arkhē, archive is not derived from archaeology.",
+        "cn": "archive 是由 archives 逆构而来的；archives 约于 1600 年从法语 archif 和晚期拉丁语 archivum 进入英语。其源头是希腊语 ta arkheia“公共记录”，保存在 arkheion（市政厅）中，出自 arkhē“政府、开端”。虽然 archaeology 也可追到 arkhē，但 archive 并不是由 archaeology 派生出来的。"
+      },
+      "items": [
+        {
+          "era": "C. 1600",
+          "en": "Archives is first recorded about 1600 as 'records or documents preserved as evidence'. The plural is the original English form.",
+          "cn": "archives 约于 1600 年首次记录，义为“作为证据保存的记录或文件”。复数形式才是英语最初的形式。"
+        },
+        {
+          "era": "FRENCH",
+          "en": "From French archif (16c.), which passed on the Latin word for written records and their repository.",
+          "cn": "来自法语 archif（16 世纪），后者把拉丁语中“书面记录及其存放处”的词传了过来。"
+        },
+        {
+          "era": "LATE LATIN",
+          "en": "Late Latin archivum, plural archiva, meant both 'written records' and the place where they were kept.",
+          "cn": "晚期拉丁语 archivum（复数 archiva）既指“书面记录”，也指存放这些记录的场所。"
+        },
+        {
+          "era": "GREEK",
+          "en": "The source is Greek ta arkheia 'public records', the plural of arkheion 'town hall, public building', from arkhē 'government', literally 'beginning, origin, first place'. Arkhē is the verbal noun of arkhein 'to be the first'.",
+          "cn": "源头是希腊语 ta arkheia“公共记录”，即 arkheion“市政厅、公共建筑”的复数，出自 arkhē“政府”，字面为“开端、起源、首位”。arkhē 是 arkhein“居于首位”的动名词。"
+        },
+        {
+          "era": "BACK-FORMATION",
+          "en": "The singular archive is a back-formation from archives, made by treating the plural -s as a plural ending. The exact date is not fixed in the standard references and is best left uncertain.",
+          "cn": "单数 archive 是从 archives 逆构出来的：把复数的 -s 当成了复数词尾。通行资料未给出确切年代，此处如实存疑。"
+        },
+        {
+          "era": "1819",
+          "en": "The verb is recorded in 1819 as 'to file or enter into an archive collection'. Digital and web senses follow in the late 20c.",
+          "cn": "动词义记录于 1819 年，意为“归档、纳入档案集合”。数字与网络义在 20 世纪晚期出现。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "The first group separates the plural source and close derivatives from a false friend; the second separates places and things that store records.",
+        "cn": "第一组区分复数来源、近亲派生词与一个假朋友；第二组区分存放记录的场所与物件。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "archives",
+              "ipa": "/ˈɑːkaɪvz/",
+              "tag": "plural source form",
+              "definition": "The original plural, meaning records or the institution that holds them. The singular archive was back-formed from it.",
+              "definitionCN": "最初的复数形式，指档案或保管档案的机构。单数 archive 正是由它逆构而来。"
+            },
+            {
+              "word": "archivist",
+              "ipa": "/ˈɑːkɪvɪst/",
+              "tag": "derived person noun",
+              "definition": "A person who appraises, arranges and preserves archives. It is archive + -ist, not a separate root.",
+              "definitionCN": "负责鉴定、整理和保存档案的人。它是 archive + -ist，并非另一词根。"
+            },
+            {
+              "word": "arch",
+              "ipa": "/ɑːtʃ/",
+              "tag": "false friend",
+              "definition": "A curved structural opening, from Latin arcus 'bow'. It looks like the first syllable of archive but is unrelated.",
+              "definitionCN": "拱形结构开口，来自拉丁语 arcus“弓”。它看起来像 archive 的第一音节，但并无词源关系。"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "repository",
+              "ipa": "/rɪˈpɒzɪtri/",
+              "tag": "place",
+              "definition": "A place where things are stored, especially records or objects. It stresses the container more than the historical evidence.",
+              "definitionCN": "存放物品（尤指记录或器物）的场所。它比 archive 更强调容器，而非历史证据。"
+            },
+            {
+              "word": "record",
+              "ipa": "/ˈrekɔːd/",
+              "tag": "single item",
+              "definition": "A single piece of written evidence. An archive is the organised collection of many records.",
+              "definitionCN": "单份书面证据。archive 是许多 records 的有组织集合。"
+            },
+            {
+              "word": "vault",
+              "ipa": "/vɔːlt/",
+              "tag": "secure storage",
+              "definition": "A secure room for valuables or records. It stresses protection from theft or damage, not public access.",
+              "definitionCN": "存放贵重物品或记录的安全房间。它强调防盗防损，而非公共查阅。"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "The links are real: the Greek public records arkheia, the plural archives from which the singular was back-formed, and the 1819 verb.",
+        "cn": "这些联想是真实的：希腊语公共记录 arkheia、逆构出单数的复数 archives，以及 1819 年的动词。"
+      },
+      "normal": [
+        {
+          "en": "Think of the plural first: archives are the records, and archive is the single collection or the act of filing.",
+          "cn": "先记复数：archives 是记录，archive 是单数的集合或归档动作。"
+        },
+        {
+          "en": "Greek ta arkheia were public records kept in the town hall; the building and the papers share one name.",
+          "cn": "希腊语 ta arkheia 是保存在市政厅的公共记录；建筑与纸张共用一个名称。"
+        },
+        {
+          "en": "A .zip archive is the digital version of a box: many files packed into one container.",
+          "cn": "zip 压缩包是盒子的数字版：许多文件被装进一个容器。"
+        },
+        {
+          "en": "The verb is 'put it in the box': archive a letter, archive a website, archive last year's logs.",
+          "cn": "动词就是“放进盒子”：把信归档、把网站存档、把去年的日志归档。"
+        },
+        {
+          "en": "Do not confuse it with archaeology: archive goes back to arkhē 'government', not to arkhaios 'ancient'.",
+          "cn": "别与 archaeology 混淆：archive 追到 arkhē“政府”，不是 arkhaios“古老”。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "Picture a strongroom: the door closes, the date label is written, and a moment of the past is made reachable.",
+          "cn": "想象一间档案库：门关上，年份标签写好，过去的一刻变得可被触及。"
+        },
+        {
+          "en": "The same act works on paper, film, code or memory: select, keep, label, and make searchable.",
+          "cn": "同一个动作作用于纸、胶片、代码或记忆：挑选、保留、贴标、使其可检索。"
+        },
+        {
+          "en": "An archive is a promise that the future will still be able to ask questions of the past.",
+          "cn": "档案是一个承诺：未来仍然能够向过去提问。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "The letters lay in the archive for ninety years before anyone read them.",
+        "cn": "这些信在档案馆里放了九十年，才有人读到。"
+      },
+      {
+        "en": "Please archive the signed contract under the client's name.",
+        "cn": "请把签好的合同按客户姓名归档。"
+      },
+      {
+        "en": "The web archive kept a copy of the page after the site closed.",
+        "cn": "网站关闭后，网络存档保留了这个页面的副本。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「阿凯伍」——阿凯把五箱旧文件搬进库房，贴上标签锁好门 → archive 档案；归档",
+      "word": "archive"
+    },
+    "root": "由 archives 逆构而来；archives 约 1600 年借自法语 archif，源头为晚期拉丁 archivum 与希腊 ta arkheia“公共记录”（arkheion“市政厅”，出自 arkhē“政府、开端”）。",
+    "sensesIntro": {
+      "en": "Ten senses of archive all perform one act: select something, keep it, and make it consultable later. From papers and the building that holds them, the word extends to data, a body of work, a zip file, the act of filing, long-term storage, web preservation, memory, and back issues.",
+      "cn": "archive 的十个义项都在执行同一个动作：挑选某物、保存它、让日后可查阅。从纸张与保管它们的建筑，这个词扩展到数据、作品全集、压缩包、归档动作、长期存储、网络保存、记忆与过刊。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: a labelled box of papers kept on purpose in a locked room.",
+        "cn": "核心意象：一只贴好标签的纸箱，被有意保存在上锁的房间里。"
+      },
+      "chain": [
+        "PUBLIC RECORDS",
+        "TOWN HALL",
+        "KEPT EVIDENCE",
+        "THE KEEPING PLACE",
+        "TO FILE AWAY",
+        "LONG-TERM STORE"
+      ],
+      "branches": [
+        {
+          "senses": "01 · 02",
+          "en": "PAPERS AND PLACE: the records and the building share one word, as arkheia and arkheion did.",
+          "cn": "纸张与场所：记录与建筑共用一个词，正如 arkheia 与 arkheion。"
+        },
+        {
+          "senses": "03 · 05",
+          "en": "DIGITAL CONTAINERS: a data store and a zip bundle reproduce the box in another medium.",
+          "cn": "数字容器：数据仓库与压缩包以另一种介质复制了这只盒子。"
+        },
+        {
+          "senses": "04 · 10",
+          "en": "ACCUMULATED OUTPUT: a studio's works and a journal's back issues are runs of dated records.",
+          "cn": "累积产出：工作室作品与期刊过刊，都是按日期排列的记录序列。"
+        },
+        {
+          "senses": "06 · 07",
+          "en": "THE VERB: filing a document and moving data aside are the same 'put it away'.",
+          "cn": "动词：归档文件与移走数据，都是同一个“收起来”。"
+        },
+        {
+          "senses": "08 · 09",
+          "en": "PRESERVING THE FLEETING: a website and a memory are saved so later questions can still be asked.",
+          "cn": "保存易逝之物：网站与记忆被存下，使日后的提问仍能成立。"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Archive has no living prefix or suffix of its own: the word came whole from Latin archivum and Greek arkheion. English then built archival, archivist, archivable and archivism on the noun, and the plural archives is the historical source.",
+        "cn": "archive 本身没有活的英语前缀或后缀：它是从拉丁语 archivum 和希腊语 arkheion 整体借来的。英语随后在这个名词上构造出 archival、archivist、archivable 与 archivism，而复数 archives 是它的历史来源。"
+      },
+      "latinIntro": {
+        "en": "Late Latin archivum and its plural archiva meant written records and their repository. Greek arkheion 'town hall' and arkheia 'public records' are the deeper source, from arkhē 'government, beginning'.",
+        "cn": "晚期拉丁语 archivum 及其复数 archiva 指书面记录及其存放处。更深的源头是希腊语 arkheion“市政厅”与 arkheia“公共记录”，出自 arkhē“政府、开端”。"
+      },
+      "items": [
+        {
+          "word": "archives",
+          "structure": "archiv- + -es (plural, the original borrowed form)",
+          "meaning": "records preserved as evidence, or the institution holding them",
+          "meaningCN": "作为证据保存的档案，或保管它们的机构（-es 为复数词尾）",
+          "example": "The city's archives go back to the twelfth century.",
+          "exampleCN": "这座城市的档案可追溯到 12 世纪。"
+        },
+        {
+          "word": "archive",
+          "structure": "back-formation from archives",
+          "meaning": "a collection of records, or to file into one",
+          "meaningCN": "档案集合；归档（由复数逆构出的单数）",
+          "example": "The archive fills three rooms.",
+          "exampleCN": "这批档案装满了三个房间。"
+        },
+        {
+          "word": "archival",
+          "structure": "archiv- + -al (adjective, Latin -alis)",
+          "meaning": "relating to archives or suitable for long preservation",
+          "meaningCN": "档案的；适合长期保存的（-al 构成形容词）",
+          "example": "Store the negatives in archival sleeves.",
+          "exampleCN": "把底片存放在档案级保护套里。"
+        },
+        {
+          "word": "archivist",
+          "structure": "archiv- + -ist (person who practices)",
+          "meaning": "a person who appraises and preserves archives",
+          "meaningCN": "档案管理员；档案学者（-ist 表示从业者）",
+          "example": "The archivist refused to separate the two collections.",
+          "exampleCN": "档案管理员拒绝把这两批馆藏分开。"
+        },
+        {
+          "word": "archivable",
+          "structure": "archive + -able (capable of)",
+          "meaning": "suitable or able to be archived",
+          "meaningCN": "可归档的；适合存档的（-able 表示能够）",
+          "example": "Only the final drafts are archivable.",
+          "exampleCN": "只有定稿适合存档。"
+        },
+        {
+          "word": "archivally",
+          "structure": "archival + -ly (adverb)",
+          "meaning": "in archival terms or by archival methods",
+          "meaningCN": "在档案方面；以档案方式（-ly 构成副词）",
+          "example": "The papers were archivally boxed in acid-free card.",
+          "exampleCN": "这些文件用无酸纸盒按档案标准装好。"
+        },
+        {
+          "word": "archivism",
+          "structure": "archive + -ism (practice or system)",
+          "meaning": "an orientation or practice centred on archiving",
+          "meaningCN": "档案主义；以存档为中心的做法（-ism 构成体系名词）",
+          "example": "The artist's archivism turned every receipt into a work.",
+          "exampleCN": "这位艺术家的档案主义把每张收据都变成了作品。"
+        },
+        {
+          "word": "archiving",
+          "structure": "archive + -ing (process noun)",
+          "meaning": "the ongoing act or process of archiving",
+          "meaningCN": "归档工作；存档过程（-ing 构成过程名词）",
+          "example": "Archiving the paper's website took three years.",
+          "exampleCN": "给这家报纸的网站存档花了三年。"
+        },
+        {
+          "word": "archived",
+          "structure": "archive + -ed (past participle or adjective)",
+          "meaning": "filed away, or stored and no longer active",
+          "meaningCN": "已归档的；已存档、不再活跃的（-ed 构成分词或形容词）",
+          "example": "The archived thread can still be searched.",
+          "exampleCN": "已存档的帖子仍然可以搜索。"
+        },
+        {
+          "word": "archivization",
+          "structure": "archive + -ization (process noun)",
+          "meaning": "the process of making something archival or of turning it into an archive",
+          "meaningCN": "档案化；使某物成为档案的过程（-ization 构成过程名词）",
+          "example": "The archivization of everyday life is a modern habit.",
+          "exampleCN": "把日常生活档案化是一种现代习惯。"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "archivum",
+          "structure": "late Latin noun, plural archiva",
+          "meaning": "written records; the place where they are kept",
+          "meaningCN": "晚期拉丁语名词，复数 archiva：书面记录；存放处"
+        },
+        {
+          "word": "archiva",
+          "structure": "late Latin plural",
+          "meaning": "collections of written records",
+          "meaningCN": "晚期拉丁语复数：一批批书面记录"
+        },
+        {
+          "word": "arkheion",
+          "structure": "Greek noun",
+          "meaning": "town hall, public building",
+          "meaningCN": "希腊语名词：市政厅、公共建筑"
+        },
+        {
+          "word": "arkheia",
+          "structure": "Greek plural noun",
+          "meaning": "public records",
+          "meaningCN": "希腊语复数名词：公共记录"
+        },
+        {
+          "word": "arkhē",
+          "structure": "Greek noun",
+          "meaning": "government, rule; literally beginning or first place",
+          "meaningCN": "希腊语名词：政府、统治；字面为开端或首位"
+        }
+      ]
+    }
+  }
+]

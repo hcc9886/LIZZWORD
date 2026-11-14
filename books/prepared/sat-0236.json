@@ -1,0 +1,494 @@
+[
+  {
+    "word": "artifact",
+    "ipa_uk": "/ˈɑːtɪfækt/",
+    "ipa_us": "/ˈɑːrtɪfækt/",
+    "definition_zh": "人工制品；文物；考古出土器物；（仪器或方法造成的）伪影、人为产物",
+    "definition_en": "an object made by a person, especially one of historical or cultural interest; also a false feature produced by an instrument or method rather than by the thing being studied",
+    "core_image": "一只手把石块敲出刃口，几千年后手早已消失，那块石头还躺在土层里等人编号",
+    "scene": "考古系的学生在实验室里给一件石制小刀贴标签，标签上写着它出自哪一层土。An archaeology student labels the artifact, a small stone blade, with the layer it came from.",
+    "sceneCN": "这里 artifact 指「由人制作、具有历史或文化价值的实物」（第 1 个义项：经人手加工并作为研究或收藏对象的器物）；句意为学生给这件石制小刀贴上标明出土层位的标签。可辨识物件：石刃、标签纸、卡尺、标本盒、记录本。",
+    "pos": [
+      {
+        "tag": "n.",
+        "zh": "人工制品；文物；出土器物"
+      },
+      {
+        "tag": "n.",
+        "zh": "伪影；人为产物；由方法造成的假象"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "cultural artifact",
+        "zh": "文化制品；文化器物"
+      },
+      {
+        "phrase": "archaeological artifact",
+        "zh": "考古器物；出土文物"
+      },
+      {
+        "phrase": "ancient artifact",
+        "zh": "古代器物"
+      },
+      {
+        "phrase": "digital artifact",
+        "zh": "数字伪影；数字产物"
+      },
+      {
+        "phrase": "remove artifacts",
+        "zh": "去除伪影"
+      },
+      {
+        "phrase": "an artifact of the system",
+        "zh": "系统本身的产物"
+      }
+    ],
+    "forms": [
+      {
+        "label": "复数（美式拼写）",
+        "form": "artifacts"
+      },
+      {
+        "label": "英式拼写",
+        "form": "artefact"
+      },
+      {
+        "label": "英式复数",
+        "form": "artefacts"
+      },
+      {
+        "label": "形容词（人工制品的）",
+        "form": "artifactual"
+      },
+      {
+        "label": "形容词（英式拼写）",
+        "form": "artefactual"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "artefact",
+        "pos": "n.",
+        "zh": "人工制品（英式拼写，与 artifact 同义）"
+      },
+      {
+        "word": "artifactual",
+        "pos": "adj.",
+        "zh": "人工制品的；器物层面的"
+      },
+      {
+        "word": "artefactual",
+        "pos": "adj.",
+        "zh": "人工制品的（英式拼写）"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "A thing made by human skill",
+        "titleCN": "人工制品：人手做出的实物",
+        "definition": "an object shaped or made by a person rather than formed by nature",
+        "definitionCN": "由人加工制作、而非自然形成的实物",
+        "example": "The museum displays artifacts from the bronze age.",
+        "exampleCN": "博物馆展出青铜时代的人工制品。",
+        "why": "Artifact joins ars, skill or craft, with factum, something made, so the literal reading is a thing made by skill; a natural stone becomes an artifact only after a hand has worked it.",
+        "whyCN": "artifact 由 ars「技艺、手艺」与 factum「做成之物」合成，字面就是「以手艺做成的东西」；天然石块要等人手加工之后才算 artifact。"
+      },
+      {
+        "no": "02",
+        "title": "An excavated find",
+        "titleCN": "出土器物：从遗址里取出的古物",
+        "definition": "a portable object recovered from an archaeological deposit and used to study past behaviour",
+        "definitionCN": "从考古堆积中取出、用于研究过去行为的手持器物",
+        "example": "Fragments of pottery are the most common artifacts at the site.",
+        "exampleCN": "陶片是该遗址最常见的出土器物。",
+        "why": "Archaeology narrows the word to what can be lifted, bagged and numbered; walls and ditches remain features, while movable things become artifacts.",
+        "whyCN": "考古学把这个词收窄到能拿起、装袋、编号的物件；墙基与沟槽算遗迹，能移动的东西才叫 artifact。"
+      },
+      {
+        "no": "03",
+        "title": "A false result from a method",
+        "titleCN": "伪影：仪器或方法造成的假结果",
+        "definition": "a spurious feature in an observation that comes from the instrument, the sample preparation or the procedure rather than from the subject",
+        "definitionCN": "观察中由仪器、样品制备或操作程序造成、并非研究对象本身的虚假特征",
+        "example": "The dark line on the scan is an artifact of the staining process.",
+        "exampleCN": "扫描图上的那条暗线是染色过程造成的伪影。",
+        "why": "Once making is separated from the object, the word can also name what the procedure made: a mark the method added rather than found.",
+        "whyCN": "一旦把「造」与「对象」分开，这个词也能指流程造出来的东西：图像里由方法添上、而非对象本身存在的部分。"
+      },
+      {
+        "no": "04",
+        "title": "A digital glitch",
+        "titleCN": "数字伪影：压缩或显示产生的杂点",
+        "definition": "a visible or audible fault introduced by compression, sampling or display rather than present in the original signal",
+        "definitionCN": "由压缩、采样或显示引入、原信号中并不存在的可见或可听瑕疵",
+        "example": "Heavy compression left blocky artifacts around the edges.",
+        "exampleCN": "过度压缩在边缘留下了方块状伪影。",
+        "why": "The scientific sense moved into computing unchanged: the tool chain itself leaves marks that look like part of the picture.",
+        "whyCN": "科学的伪影义原样进入计算机领域：工具链自己留下的痕迹，看上去却像画面的一部分。"
+      },
+      {
+        "no": "05",
+        "title": "A trace made by the medium",
+        "titleCN": "照片上并非实物的影像",
+        "definition": "a mark on a photograph or film produced by the lens, the sensor or the processing rather than by the scene",
+        "definitionCN": "由镜头、传感器或冲洗过程产生、并非场景中实物的影像痕迹",
+        "example": "The pale spot on the old print is a photographic artifact.",
+        "exampleCN": "这张老照片上的浅色斑点是一处摄影伪影。",
+        "why": "Film and lenses have their own chemistry and geometry; dust, flare and scratches are made by the medium, so the same label fits.",
+        "whyCN": "胶片与镜头有自己的化学与几何：灰尘、眩光和划痕是介质造出来的，因此用同一个标签。"
+      },
+      {
+        "no": "06",
+        "title": "A byproduct of a system",
+        "titleCN": "系统的产物：制度或设计造成的现象",
+        "definition": "a result that arises from the way a system is built or measured rather than from the thing it claims to describe",
+        "definitionCN": "由系统的构造或测量方式产生、而非其所声称描述的对象本身的结果",
+        "example": "The apparent rise in cases was an artifact of the new reporting rule.",
+        "exampleCN": "病例数看似上升，其实是新报告规则造成的产物。",
+        "why": "Abstracted from instruments, an artifact is any outcome manufactured by the frame: change the frame and the effect disappears.",
+        "whyCN": "从仪器义抽象出来后，artifact 指由框架制造的任何结果：换掉框架，效应就消失。"
+      },
+      {
+        "no": "07",
+        "title": "Cultural property in a collection",
+        "titleCN": "藏品：作为文化财产被收藏的器物",
+        "definition": "an item held, catalogued and protected as cultural property, often subject to ownership and repatriation rules",
+        "definitionCN": "作为文化财产被收藏、编目并保护、常涉及归属与归还规则的器物",
+        "example": "The government asked for the return of artifacts taken during the war.",
+        "exampleCN": "政府要求归还战争期间被取走的文物。",
+        "why": "The museum and legal sense adds a claim: the object is not only made by humans but is valued as part of a heritage that can be owned.",
+        "whyCN": "博物馆与法律义增加了一层主张：这件物品不仅由人制作，还被当作可被拥有的遗产来珍视。"
+      },
+      {
+        "no": "08",
+        "title": "The made opposed to the natural",
+        "titleCN": "人为之物：与自然物相对的技术造物",
+        "definition": "anything whose form is produced by human technique, used when contrasting the made with the grown",
+        "definitionCN": "形态由人的技术产生之物，用于与自然生成之物对照",
+        "example": "Philosophers ask whether a city is an artifact or a natural growth.",
+        "exampleCN": "哲学家追问城市是人为之物还是自然生长之物。",
+        "why": "This is the oldest and widest reading: the moment skill shapes material, the result belongs to the class of made things, whatever its size.",
+        "whyCN": "这是最古老也最宽的读法：技艺一旦作用于材料，产物就归入「人造之物」，不论其规模大小。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Artifact is a Latin phrase turned into one English word: arte, by skill, plus factum, a thing made. It entered English in the seventeenth century as a learned term and only later became the ordinary word for an excavated object. Dates are approximate.",
+        "cn": "artifact 是把一个拉丁短语压成一个英语词：arte「以技艺」加 factum「做成之物」。它在十七世纪作为学术用语进入英语，后来才成为指称出土器物的常用词。年代均为约数。"
+      },
+      "items": [
+        {
+          "era": "LATIN ARS",
+          "en": "Latin ars, genitive artis, meant skill, craft or technique; the ablative arte means by skill, and it is the form that appears inside artifact.",
+          "cn": "拉丁 ars（属格 artis）意为技艺、手艺或技术；夺格 arte 意为「以技艺」，正是出现在 artifact 里的形式。"
+        },
+        {
+          "era": "LATIN FACERE",
+          "en": "Facere meant to make or do; its supine factum supplied both the noun thing made and the ending that builds factory, manufacture and factitious.",
+          "cn": "facere 意为制作、做；其目的动名词 factum 既提供名词「做成之物」，也提供构成 factory、manufacture、factitious 的词尾。"
+        },
+        {
+          "era": "SEVENTEENTH-CENTURY ENGLISH",
+          "en": "The earliest English records use the word in anatomy and medicine for structures produced by disease or by technique, a sense close to the modern false-result reading.",
+          "cn": "最早的英语记录把它用在解剖学与医学中，指由疾病或技术造成的结构，这一用法接近现代「假结果」的读法。"
+        },
+        {
+          "era": "ARCHAEOLOGY EXTENDS IT",
+          "en": "From the nineteenth century the word was applied to the objects of ancient craft, and that museum sense now dominates everyday use.",
+          "cn": "十九世纪起，这个词被用于古代工艺的制品，这一博物馆义如今在日常使用中占主导。"
+        },
+        {
+          "era": "SPELLING SPLIT",
+          "en": "American usage settled on artifact, British usage on artefact; both spellings continue the same Latin source and mean the same thing.",
+          "cn": "美式用法定为 artifact，英式用法定为 artefact；两种拼写都延续同一拉丁来源，意思相同。"
+        },
+        {
+          "era": "UNCERTAIN DETAILS",
+          "en": "Source uncertain: no attested Latin noun artifactus exists, so the English word is a later combination rather than a direct borrowing, and dictionaries do not name the first author who used it.",
+          "cn": "来源不确定：拉丁语中并无已证实的名词 artifactus，因此这个英语词属后世组合，而非直接借词；辞书也没有指出最早使用它的作者。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "The first group holds words built on the same Latin stock of skill and making; the second group holds words for objects close in meaning but not made by human hands in the same sense.",
+        "cn": "第一组是同出拉丁「技艺与制作」词干的词；第二组是意思相近、但并非同样意义上由人手制作的物件。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "artefact",
+              "ipa": "/ˈɑːtɪfækt/",
+              "tag": "british spelling",
+              "definition": "The same word in British spelling; it is a variant, not a separate term with its own history.",
+              "definitionCN": "同一个词的英式拼写，只是变体，并非另有来历的独立术语。"
+            },
+            {
+              "word": "artifice",
+              "ipa": "/ˈɑːtɪfɪs/",
+              "tag": "skill or trick",
+              "definition": "From ars plus facere as well, but it names a clever device or a trick, not the object produced.",
+              "definitionCN": "同样由 ars 加 facere 构成，但它指巧妙的装置或诡计，而不是做出来的物件。"
+            },
+            {
+              "word": "artificial",
+              "ipa": "/ˌɑːtɪˈfɪʃəl/",
+              "tag": "the adjective",
+              "definition": "The adjective describing something made by skill rather than occurring naturally; it does not name a thing.",
+              "definitionCN": "形容词，描述由技艺而非自然生成的事物；它并不指称物件本身。"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "relic",
+              "ipa": "/ˈrelɪk/",
+              "tag": "surviving fragment",
+              "definition": "An object that survives from an earlier time, often valued for its age or holiness; the stress is on survival, not on being made.",
+              "definitionCN": "从更早时代留存下来的物件，常因年代或神圣性受珍视；重点是「留存」，而非「被制作」。"
+            },
+            {
+              "word": "specimen",
+              "ipa": "/ˈspesɪmən/",
+              "tag": "sample for study",
+              "definition": "An item kept as a sample of its kind for study; a specimen may be natural, while an artifact must be made.",
+              "definitionCN": "作为同类样本保存以供研究的物件；样本可以是天然的，而人工制品必须由人制作。"
+            },
+            {
+              "word": "object",
+              "ipa": "/ˈɒbdʒekt/",
+              "tag": "the neutral word",
+              "definition": "Any thing that can be handled; it makes no claim about who made it or why it matters.",
+              "definitionCN": "任何可拿取的物；它不主张由谁制作，也不说明为何重要。"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Normal associations: the two real Latin pieces, the archaeology rule, the scientific reversal and the spelling split.",
+        "cn": "正常联想：两个真实的拉丁成分、考古学的区分规则、科学义的反转，以及拼写分歧。"
+      },
+      "normal": [
+        {
+          "en": "ars, skill, plus factum, made: an artifact is literally a thing made by skill.",
+          "cn": "ars「技艺」加 factum「做成之物」：artifact 字面就是「以技艺做成的东西」。"
+        },
+        {
+          "en": "The same ars stock gives art, artifice, artificial and artifact; the same facere stock gives factory, manufacture and factitious.",
+          "cn": "同出 ars 的有 art、artifice、artificial、artifact；同出 facere 的有 factory、manufacture、factitious。"
+        },
+        {
+          "en": "Field rule: if it can be bagged and numbered, it is an artifact; if it stays in the ground, it is a feature.",
+          "cn": "田野规则：能装袋编号的叫器物；留在地里不动的叫遗迹。"
+        },
+        {
+          "en": "The scientific sense reverses the maker: there the instrument makes the mark, not the hand.",
+          "cn": "科学义把制作者换了人：那里留下痕迹的是仪器，不是手。"
+        },
+        {
+          "en": "American artifact, British artefact; the meaning does not change with the spelling.",
+          "cn": "美式 artifact，英式 artefact；意思不随拼写改变。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "Abstractly, an artifact is anything a system adds to its own picture, including the distortion in the lens.",
+          "cn": "抽象地看，artifact 是任何系统添进自身图景的东西，包括镜头里的畸变。"
+        },
+        {
+          "en": "Every made thing carries a signature of its maker, which is why artifacts can be read as evidence.",
+          "cn": "每一件人造之物都带着制作者的签名，正因如此器物才能被当作证据来读。"
+        },
+        {
+          "en": "The word keeps asking one question: was this shaped, or did it grow?",
+          "cn": "这个词始终在追问一件事：它是被塑造的，还是自己长成的？"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "Radiocarbon dating placed the artifact at about three thousand years old.",
+        "cn": "放射性碳测年把这件器物的年代定在约三千年前。"
+      },
+      {
+        "en": "The ring around the star in the image is an optical artifact, not a real structure.",
+        "cn": "图像中恒星周围的光环是光学伪影，并非真实结构。"
+      },
+      {
+        "en": "Researchers must separate the artifact of the measuring device from the signal they want.",
+        "cn": "研究者必须把测量仪器造成的伪影与真正想要的信号区分开。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「艺术（art）+ 事实（fact）」——用艺术手艺做出来的实体 → 人工制品、文物",
+      "word": "artifact"
+    },
+    "root": "拉丁 ars/artis「技艺」的夺格 arte「以技艺」+ factum「做成之物」（facere「制作」的目的动名词）；字面为「以技艺做成之物」。",
+    "sensesIntro": {
+      "en": "Eight senses follow one gesture: a hand works material into a thing, and that thing is then dug up, faked by an instrument, produced by a system and finally owned as heritage.",
+      "cn": "八个义项沿同一个动作展开：人手把材料做成物件，这件物件随后被挖出、被仪器伪造、被系统产出，最后被当作遗产拥有。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: a hand shaping stone, and the shaped stone outliving the hand.",
+        "cn": "核心意象：一只手把石头打出形状，而被塑形的石头比手活得更久。"
+      },
+      "chain": [
+        "SKILL MEETS MATERIAL",
+        "THE MADE THING",
+        "LIFTED FROM THE GROUND",
+        "FALSE MARK OF A TOOL",
+        "PRODUCT OF A FRAME",
+        "OWNED HERITAGE"
+      ],
+      "branches": [
+        {
+          "senses": "01 · 08",
+          "en": "MAKING ITSELF: craft applied to stuff is the root sense, and the broad contrast with nature is only its widest form.",
+          "cn": "制作本身：技艺作用于材料是根义，与自然相对只是它最宽的形态。"
+        },
+        {
+          "senses": "02 · 07",
+          "en": "THE KEPT OBJECT: once lifted and numbered, a made thing becomes evidence, and once owned it becomes heritage.",
+          "cn": "被保存的物件：被取出编号后成为证据，被拥有后成为遗产。"
+        },
+        {
+          "senses": "03 · 04",
+          "en": "THE INSTRUMENT MAKES TOO: the method adds a mark of its own, and the same logic explains digital faults.",
+          "cn": "仪器也在制作：方法自己添上一道痕迹，同一逻辑解释了数字瑕疵。"
+        },
+        {
+          "senses": "05",
+          "en": "THE MEDIUM LEAVES TRACES: lens, film and sensor write on the image as surely as a hand writes on clay.",
+          "cn": "介质留下痕迹：镜头、胶片与传感器在影像上书写，如同手在陶土上书写。"
+        },
+        {
+          "senses": "06",
+          "en": "THE FRAME INVENTS: abstracted once more, any system can manufacture an effect that vanishes when its frame is changed.",
+          "cn": "框架会发明：再抽象一层，任何系统都能制造出换掉框架就消失的效应。"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Artifact is built from two Latin pieces that also build a large English family, so the word can be read morpheme by morpheme: skill plus making.",
+        "cn": "artifact 由两个拉丁成分构成，这两个成分还构成一大批英语词，因此可以逐语素读出：技艺加制作。"
+      },
+      "latinIntro": {
+        "en": "Latin ars, genitive artis, gives art, artist, artifice and artificial; Latin facere gives fact, factory, manufacture and factitious. The artifact family sits exactly where the two meet.",
+        "cn": "拉丁 ars（属格 artis）衍生 art、artist、artifice、artificial；拉丁 facere 衍生 fact、factory、manufacture、factitious。artifact 一族正处在这两条线的交点上。"
+      },
+      "items": [
+        {
+          "word": "ars",
+          "structure": "ars, artis (Latin noun, skill, craft)",
+          "meaning": "skill, craft or technique",
+          "meaningCN": "技艺、手艺或技术",
+          "example": "Ars in Latin covered both craft and cunning.",
+          "exampleCN": "拉丁语 ars 兼指手艺与机巧。"
+        },
+        {
+          "word": "art",
+          "structure": "art (English, from Latin ars through Old French)",
+          "meaning": "the practice of skill, especially in making or expressing",
+          "meaningCN": "技艺的实践，尤指制作或表达上的",
+          "example": "The art of stone working changed human history.",
+          "exampleCN": "石作技艺改变了人类历史。"
+        },
+        {
+          "word": "artifice",
+          "structure": "artifice (Latin ars + facere, a thing made by skill)",
+          "meaning": "a clever device or a trick",
+          "meaningCN": "精巧的装置或诡计",
+          "example": "The lock was an artifice of great subtlety.",
+          "exampleCN": "这把锁是一件极为精巧的装置。"
+        },
+        {
+          "word": "artificial",
+          "structure": "artificial (Latin artificialis, made by art)",
+          "meaning": "made by human skill rather than occurring naturally",
+          "meaningCN": "由人的技艺制成而非自然生成",
+          "example": "Artificial light changed the working day.",
+          "exampleCN": "人造光改变了工作日。"
+        },
+        {
+          "word": "facere",
+          "structure": "facere (Latin verb, to make, to do)",
+          "meaning": "to make or do",
+          "meaningCN": "制作或做",
+          "example": "Facere is the source of many English -fect and -fact words.",
+          "exampleCN": "facere 是许多英语 -fect 与 -fact 词的来源。"
+        },
+        {
+          "word": "factum",
+          "structure": "factum (Latin supine of facere, a thing made)",
+          "meaning": "a thing made or done",
+          "meaningCN": "做成之事；做成之物",
+          "example": "Factum gave English fact its earliest sense of a deed.",
+          "exampleCN": "factum 给英语 fact 最早的「行为、事迹」义。"
+        },
+        {
+          "word": "fact",
+          "structure": "fact (English, from Latin factum, a thing done)",
+          "meaning": "something that is the case, originally a deed",
+          "meaningCN": "事实，原义为做过的事",
+          "example": "The fact was recorded before any theory was proposed.",
+          "exampleCN": "事实在提出任何理论之前就已被记录。"
+        },
+        {
+          "word": "factory",
+          "structure": "factory (Latin factorium, a place of making)",
+          "meaning": "a building where goods are made",
+          "meaningCN": "制造货物的场所",
+          "example": "The factory produced pottery for the whole province.",
+          "exampleCN": "这家工厂为全省生产陶器。"
+        },
+        {
+          "word": "manufacture",
+          "structure": "manu (hand) + factum (made) + -ure",
+          "meaning": "to make goods, originally by hand",
+          "meaningCN": "制造货物，原指用手制作",
+          "example": "They manufacture the blades from local flint.",
+          "exampleCN": "他们用当地燧石制造石刃。"
+        },
+        {
+          "word": "factitious",
+          "structure": "factitious (Latin facticius, made by art)",
+          "meaning": "artificially produced, often in a false way",
+          "meaningCN": "人为制造的，常带虚假意味",
+          "example": "A factitious glow came from the treated surface.",
+          "exampleCN": "处理过的表面发出一种人为的光。"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "ars",
+          "structure": "ars, artis (Latin noun, skill, craft)",
+          "meaning": "skill, craft, technique",
+          "meaningCN": "技艺、手艺、技术"
+        },
+        {
+          "word": "facere",
+          "structure": "facere (Latin verb, to make, to do)",
+          "meaning": "to make, to do",
+          "meaningCN": "制作、做"
+        },
+        {
+          "word": "factum",
+          "structure": "factum (Latin supine of facere)",
+          "meaning": "a thing made or done",
+          "meaningCN": "做成之物；做成之事"
+        }
+      ]
+    }
+  }
+]

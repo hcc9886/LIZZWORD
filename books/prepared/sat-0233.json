@@ -1,0 +1,414 @@
+[
+  {
+    "word": "arrear",
+    "ipa_uk": "/əˈrɪə(r)/",
+    "ipa_us": "/əˈrɪr/",
+    "definition_zh": "欠款；拖欠；落后（多用于复数 arrears）",
+    "definition_en": "an amount of money that is overdue and unpaid, or the state of being behind",
+    "core_image": "账簿上欠着没付的一栏栏旧账",
+    "scene": "月底房东又来敲门，租客翻着攒了三个月的账单。His rent has been in arrears since the spring.",
+    "sceneCN": "这里 arrears 是「拖欠、欠款」（第 1 个义项：逾期未付的钱）；句意是他的房租从春天起就一直拖欠着。",
+    "pos": [
+      {
+        "tag": "n.",
+        "zh": "欠款；拖欠的款项（常用复数）"
+      },
+      {
+        "tag": "n.",
+        "zh": "落后；耽搁（in arrears 短语中）"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "be in arrears with rent",
+        "zh": "拖欠房租"
+      },
+      {
+        "phrase": "tax arrears",
+        "zh": "欠税"
+      },
+      {
+        "phrase": "fall into arrears",
+        "zh": "开始拖欠"
+      },
+      {
+        "phrase": "pay off the arrears",
+        "zh": "补缴欠款"
+      },
+      {
+        "phrase": "work in arrears",
+        "zh": "事后计酬（先服务后付款）"
+      },
+      {
+        "phrase": "arrears of interest",
+        "zh": "应付未付利息"
+      }
+    ],
+    "forms": [
+      {
+        "label": "复数",
+        "form": "arrears"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "rear",
+        "pos": "n.",
+        "zh": "同源基础词，义为「后方；后部」，arrear 由「在后方」引申为「落后、欠着」"
+      },
+      {
+        "word": "arrearage",
+        "pos": "n.",
+        "zh": "arrear 加 -age，义为「欠款总额；拖欠状态」（法律用语）"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "Overdue unpaid money",
+        "titleCN": "欠款；拖欠的款项",
+        "definition": "money that should have been paid earlier but remains outstanding",
+        "definitionCN": "本应早付而仍未支付的款项",
+        "example": "The company cleared its tax arrears before the audit.",
+        "exampleCN": "公司在审计前清缴了欠税。",
+        "why": "Payments left behind schedule stay behind, like things at the rear.",
+        "whyCN": "逾期未付的钱被「落在后头」，如同置于队尾之物。"
+      },
+      {
+        "no": "02",
+        "title": "The state of being behind",
+        "titleCN": "落后；耽搁",
+        "definition": "the condition of lagging behind in duties, payments or progress",
+        "definitionCN": "在义务、付款或进度上落后的状态",
+        "example": "The bridge repairs are in arrears by two months.",
+        "exampleCN": "桥梁维修进度已落后两个月。",
+        "why": "The spatial sense of the rear maps directly onto schedule and duty.",
+        "whyCN": "「后方」的空间义直接映射到日程与义务上。"
+      },
+      {
+        "no": "03",
+        "title": "Payment after service",
+        "titleCN": "（计酬方式）事后付款",
+        "definition": "payment made at the end of a service period rather than in advance",
+        "definitionCN": "在服务期结束时而非提前支付的款项",
+        "example": "Wages here are paid in arrears, at the month's end.",
+        "exampleCN": "这里的工资是月底发放的事后结算。",
+        "why": "Money that follows the work sits behind it, hence in arrears.",
+        "whyCN": "钱跟在活儿后面，故称「在后方」支付。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Arrear comes from Old French ariere, behind, from Latin ad retro, to the back.",
+        "cn": "arrear 源自古法语 ariere（在后），上溯拉丁语 ad retro（向后）。"
+      },
+      "items": [
+        {
+          "era": "LATIN",
+          "en": "Ad (to) plus retro (backward) produced the phrase ad retro.",
+          "cn": "ad（向）加 retro（向后）构成短语 ad retro。"
+        },
+        {
+          "era": "VULGAR LATIN",
+          "en": "This blended into ad retro, giving late Latin forms like adretro.",
+          "cn": "该短语在通俗拉丁语中融合为 adretro 一类形式。"
+        },
+        {
+          "era": "OLD FRENCH",
+          "en": "Old French ariere meant behind, both in space and in duty.",
+          "cn": "古法语 ariere 义为「在后」，既指空间也指义务上的滞后。"
+        },
+        {
+          "era": "MIDDLE ENGLISH, 14TH C.",
+          "en": "Arrear entered English in legal and accounting texts as in arrear(s).",
+          "cn": "14 世纪 arrear 以 in arrear(s) 的形式进入英语法律与账务文本。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "The plural arrears is now the standard form in both legal and daily use.",
+          "cn": "现代英语中复数 arrears 已是法律与日常用语的通行形式。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "Arrear lives almost only in the phrase in arrears; watch the rear root.",
+        "cn": "arrear 几乎只活在 in arrears 短语里；留意词根 rear。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "rear",
+              "ipa": "/rɪr/",
+              "tag": "same root",
+              "definition": "the back part of something",
+              "definitionCN": "后部、后方，arrear 的同源基础词"
+            },
+            {
+              "word": "arrearage",
+              "ipa": "/əˈrɪrɪdʒ/",
+              "tag": "derived form, legal",
+              "definition": "the total amount in arrears",
+              "definitionCN": "欠款总额，arrear 的法律派生词"
+            },
+            {
+              "word": "arrange",
+              "ipa": "/əˈreɪndʒ/",
+              "tag": "spelling",
+              "definition": "to put in order",
+              "definitionCN": "安排，拼写开头相近但义为整理而非欠款"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "debt",
+              "ipa": "/det/",
+              "tag": "near meaning",
+              "definition": "money owed to someone",
+              "definitionCN": "债务，泛指所欠之钱，不含逾期之义"
+            },
+            {
+              "word": "default",
+              "ipa": "/dɪˈfɔːlt/",
+              "tag": "near meaning",
+              "definition": "failure to pay or fulfill an obligation",
+              "definitionCN": "违约、不履行义务，程度比拖欠更重"
+            },
+            {
+              "word": "overdue",
+              "ipa": "/ˌoʊvərˈduː/",
+              "tag": "near meaning",
+              "definition": "not paid or done by the expected time",
+              "definitionCN": "逾期的，形容状态而不指金额"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Picture money left at the rear of the line of payments.",
+        "cn": "把钱想象成落在付款队伍最后的欠账。"
+      },
+      "normal": [
+        {
+          "en": "ar + rear = behind, so arrears are payments left behind.",
+          "cn": "ar + rear ＝「在后」，欠款即「落在后面」的钱。"
+        },
+        {
+          "en": "Almost always used as in arrears.",
+          "cn": "几乎总以 in arrears 短语出现。"
+        },
+        {
+          "en": "In arrears can mean paid after the work is done.",
+          "cn": "in arrears 也可指事后计酬。"
+        },
+        {
+          "en": "Legal noun: arrearage, the total owed.",
+          "cn": "法律名词 arrearage：欠款总额。"
+        },
+        {
+          "en": "Collocations: tax arrears, rent in arrears.",
+          "cn": "搭配：欠税、拖欠房租。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "See a queue of bills with one limp envelope stuck at the back.",
+          "cn": "想象一列账单，末尾粘着一封瘪着的信封。"
+        },
+        {
+          "en": "Feel the calendar pages peeling away over an unpaid sum.",
+          "cn": "感受日历一页页翻过而欠款未动。"
+        },
+        {
+          "en": "Picture a runner trailing far behind the pack.",
+          "cn": "想象一名远远落在队伍末尾的跑者。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "The tenant fell into arrears after losing her job.",
+        "cn": "租客失业后开始拖欠房租。"
+      },
+      {
+        "en": "Salaries are paid one month in arrears.",
+        "cn": "工资按月度事后结算发放。"
+      },
+      {
+        "en": "Interest arrears accumulated on the overdue loan.",
+        "cn": "逾期贷款的欠息不断累积。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「额·锐儿」——债主额头上青筋暴起，锐利的目光盯着欠账人，月月催收「额锐儿」的旧账。",
+      "word": "arrear"
+    },
+    "root": "拉丁语 ad retro（向后）→ 古法语 ariere（在后）→ 英语 arrear；「落在后头」引申为「拖欠」；同根词 rear（后部）。",
+    "sensesIntro": {
+      "en": "From being behind in space, to behind in payment, schedule and wages.",
+      "cn": "由空间上的「落后」延伸到付款、进度与工资的「滞后」。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: an obligation stuck at the back of the line",
+        "cn": "核心意象：卡在队伍末尾未了的义务"
+      },
+      "chain": [
+        "BEHIND",
+        "POSTPONEMENT",
+        "OUTSTANDING DEBT",
+        "LAG",
+        "SETTLEMENT",
+        "OBLIGATION CLEARED"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "money left unpaid past due",
+          "cn": "逾期未付的款项"
+        },
+        {
+          "senses": "02",
+          "en": "progress trailing behind schedule",
+          "cn": "落后于日程的进度"
+        },
+        {
+          "senses": "03",
+          "en": "payment that follows the service",
+          "cn": "尾随服务之后的付款"
+        },
+        {
+          "senses": "01 · 02",
+          "en": "the weight of what is owed",
+          "cn": "拖欠所积的分量"
+        },
+        {
+          "senses": "01",
+          "en": "the final settling of accounts",
+          "cn": "最后的清账"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "The prefix ar- (ad-) plus rear keeps the idea of the back of a line.",
+        "cn": "前缀 ar-（ad-）加 rear 保留「队尾」的意象。"
+      },
+      "latinIntro": {
+        "en": "Latin retro (backward) also survives in retrograde and retrospect.",
+        "cn": "拉丁语 retro（向后）也留存于 retrograde 与 retrospect。"
+      },
+      "items": [
+        {
+          "word": "ar-",
+          "structure": "Latin prefix ad- before r",
+          "meaning": "to, toward",
+          "meaningCN": "朝；向",
+          "example": "arrear",
+          "exampleCN": "欠款"
+        },
+        {
+          "word": "retro-",
+          "structure": "Latin prefix",
+          "meaning": "backward",
+          "meaningCN": "向后",
+          "example": "retrospect",
+          "exampleCN": "回顾"
+        },
+        {
+          "word": "rear",
+          "structure": "Old English hrear / Old French",
+          "meaning": "back part",
+          "meaningCN": "后部",
+          "example": "at the rear of the bus",
+          "exampleCN": "在公交车后部"
+        },
+        {
+          "word": "arrearage",
+          "structure": "arrear + -age",
+          "meaning": "total owed",
+          "meaningCN": "欠款总额",
+          "example": "legal arrearage",
+          "exampleCN": "法定欠款"
+        },
+        {
+          "word": "-age",
+          "structure": "French noun suffix",
+          "meaning": "state or result",
+          "meaningCN": "状态或结果",
+          "example": "arrearage",
+          "exampleCN": "欠款"
+        },
+        {
+          "word": "default",
+          "structure": "de- + fallere",
+          "meaning": "failure to pay",
+          "meaningCN": "违约",
+          "example": "loan default",
+          "exampleCN": "贷款违约"
+        },
+        {
+          "word": "overdue",
+          "structure": "over + due",
+          "meaning": "past the deadline",
+          "meaningCN": "逾期的",
+          "example": "overdue payment",
+          "exampleCN": "逾期付款"
+        },
+        {
+          "word": "debt",
+          "structure": "Latin debitum",
+          "meaning": "what is owed",
+          "meaningCN": "债务",
+          "example": "national debt",
+          "exampleCN": "国债"
+        },
+        {
+          "word": "retrograde",
+          "structure": "retro + gradi",
+          "meaning": "moving backward",
+          "meaningCN": "倒退的",
+          "example": "retrograde motion",
+          "exampleCN": "逆行"
+        },
+        {
+          "word": "arrears (plural)",
+          "structure": "legal plural form",
+          "meaning": "unpaid sums",
+          "meaningCN": "欠款（复数形式）",
+          "example": "arrears of rent",
+          "exampleCN": "欠租"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "ad retro",
+          "structure": "Latin phrase",
+          "meaning": "to the back",
+          "meaningCN": "向后；落在后头"
+        },
+        {
+          "word": "aterriere",
+          "structure": "Anglo-Norman form",
+          "meaning": "in arrears",
+          "meaningCN": "拖欠地"
+        }
+      ],
+      "derivatives": [
+        {
+          "word": "arrearage",
+          "pos": "n.",
+          "zh": "欠款总额；拖欠状态"
+        }
+      ]
+    }
+  }
+]

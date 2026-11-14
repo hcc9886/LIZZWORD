@@ -1,0 +1,371 @@
+[
+  {
+    "word": "artistic",
+    "ipa_uk": "/ɑːˈtɪstɪk/",
+    "ipa_us": "/ɑːrˈtɪstɪk/",
+    "definition_zh": "艺术的；有艺术才华的；有审美品味的",
+    "definition_en": "relating to art, or showing natural skill and taste in art",
+    "core_image": "眼睛先在心里构图，再动手",
+    "scene": "房间的摆设并不贵，却处处有讲究。The whole room has an artistic feel.",
+    "sceneCN": "这里 artistic 是「有艺术气息的」（第 2 个义项：显出艺术才华与品味）；句意是整个房间有一种艺术气息。",
+    "pos": [
+      {
+        "tag": "adj.",
+        "zh": "形容词：艺术的；有艺术才华的"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "artistic talent",
+        "zh": "艺术天赋"
+      },
+      {
+        "phrase": "artistic style",
+        "zh": "艺术风格"
+      },
+      {
+        "phrase": "artistic director",
+        "zh": "艺术总监"
+      },
+      {
+        "phrase": "artistic merit",
+        "zh": "艺术价值"
+      },
+      {
+        "phrase": "an artistic temperament",
+        "zh": "艺术家的性情"
+      }
+    ],
+    "forms": [
+      {
+        "label": "无变形",
+        "form": "artistic"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "artist",
+        "pos": "n.",
+        "zh": "名词：艺术家"
+      },
+      {
+        "word": "artistically",
+        "pos": "adv.",
+        "zh": "副词：在艺术上"
+      },
+      {
+        "word": "artistry",
+        "pos": "n.",
+        "zh": "名词：艺术才能"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "Relating to art",
+        "titleCN": "艺术的",
+        "definition": "connected with art or with artists",
+        "definitionCN": "与艺术或艺术家相关的",
+        "example": "The city has a strong artistic tradition.",
+        "exampleCN": "这座城市有深厚的艺术传统。",
+        "why": "Artist plus -ic makes an adjective of belonging: whatever belongs to artists or their work is artistic.",
+        "whyCN": "artist 加 -ic 构成表示归属的形容词：属于艺术家或其作品的东西就是「艺术的」。"
+      },
+      {
+        "no": "02",
+        "title": "Showing artistic gift",
+        "titleCN": "有艺术才华的",
+        "definition": "naturally good at making or judging beautiful things",
+        "definitionCN": "天生擅长创作或鉴赏美的事物",
+        "example": "The whole room has an artistic feel.",
+        "exampleCN": "整个房间有一种艺术气息。",
+        "why": "The same adjective shifts from belonging to possessing: a person or place can show the quality itself.",
+        "whyCN": "同一个形容词从「属于」转向「具有」：人或场所本身可以显出这种品质。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Artistic is a modern adjective formed on artist.",
+        "cn": "artistic 是在 artist 之上构成的近代形容词。"
+      },
+      "items": [
+        {
+          "era": "LATIN ARS",
+          "en": "ars meant 'skill, craft'.",
+          "cn": "ars 意为「技艺、手艺」。"
+        },
+        {
+          "era": "ITALIAN ARTISTA",
+          "en": "artista named a skilled maker.",
+          "cn": "artista 指有技艺的制作者。"
+        },
+        {
+          "era": "ENGLISH ARTIST",
+          "en": "English artist settled in the sixteenth century.",
+          "cn": "英语 artist 在十六世纪定型。"
+        },
+        {
+          "era": "ENGLISH, 18TH C.",
+          "en": "The adjective artistic appeared with the rise of art criticism.",
+          "cn": "随着艺术批评兴起，形容词 artistic 出现。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "It now describes both art itself and people with taste.",
+          "cn": "如今它既修饰艺术本身，也形容有品味的人。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "The look-alike group is the artist family; the near-meaning group gives words of taste and beauty.",
+        "cn": "形近组是 artist 词族；近义组是表示品味与美的词。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "artist",
+              "ipa": "/ˈɑːtɪst/",
+              "tag": "same root",
+              "definition": "a maker of art",
+              "definitionCN": "艺术家"
+            },
+            {
+              "word": "artistically",
+              "ipa": "/ɑːˈtɪstɪkli/",
+              "tag": "same root",
+              "definition": "in art terms",
+              "definitionCN": "在艺术上"
+            },
+            {
+              "word": "artistry",
+              "ipa": "/ˈɑːtɪstri/",
+              "tag": "same root",
+              "definition": "artistic skill",
+              "definitionCN": "艺术才能"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "creative",
+              "ipa": "/kriˈeɪtɪv/",
+              "tag": "near synonym",
+              "definition": "good at making new things",
+              "definitionCN": "有创造力的"
+            },
+            {
+              "word": "aesthetic",
+              "ipa": "/iːsˈθetɪk/",
+              "tag": "near synonym",
+              "definition": "concerned with beauty",
+              "definitionCN": "审美的"
+            },
+            {
+              "word": "tasteful",
+              "ipa": "/ˈteɪstfl/",
+              "tag": "related",
+              "definition": "showing good judgment of beauty",
+              "definitionCN": "有品味的"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Artistic means either of art or full of art.",
+        "cn": "artistic 既可以指「属于艺术」，也可以指「充满艺术感」。"
+      },
+      "normal": [
+        {
+          "en": "Artistic director is a real job title.",
+          "cn": "artistic director 是真实的职位名称。"
+        },
+        {
+          "en": "Artistic merit judges a work's value.",
+          "cn": "artistic merit 用来评判作品的价值。"
+        },
+        {
+          "en": "The adverb adds -ally, not -ly.",
+          "cn": "副词加的是 -ally，而非 -ly。"
+        },
+        {
+          "en": "Do not confuse it with autistic.",
+          "cn": "注意不要与 autistic 混淆。"
+        },
+        {
+          "en": "Stress the middle syllable: ar-TIS-tic.",
+          "cn": "重音在中间音节：ar-TIS-tic。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "See a hand framing a view before drawing it.",
+          "cn": "想象一只手在取景后再落笔。"
+        },
+        {
+          "en": "See a plain room made lovely by one vase.",
+          "cn": "想象素净的房间因一只花瓶而变美。"
+        },
+        {
+          "en": "See paint marks left deliberately rough.",
+          "cn": "想象故意留下的粗粝笔触。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "The city has a strong artistic tradition.",
+        "cn": "这座城市有深厚的艺术传统。"
+      },
+      {
+        "en": "The whole room has an artistic feel.",
+        "cn": "整个房间有一种艺术气息。"
+      },
+      {
+        "en": "She comes from a very artistic family.",
+        "cn": "她出身于一个很有艺术氛围的家庭。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "拆词记忆 · 非词源",
+      "text": "artist（艺术家）加 -ic：与艺术家或艺术相关的，就是艺术的。",
+      "word": "artistic"
+    },
+    "root": "由 artist 加形容词后缀 -ic 构成；artist 经法语与意大利语源自拉丁语 ars「技艺」。",
+    "sensesIntro": {
+      "en": "Belonging to art and possessing art are two sides of one adjective.",
+      "cn": "「属于艺术」与「富有艺术感」是同一个形容词的两面。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: an eye composing a picture before the hand begins.",
+        "cn": "核心意象：动手之前，眼睛已在心里构图。"
+      },
+      "chain": [
+        "ART",
+        "ARTIST",
+        "BELONGING",
+        "GIFT",
+        "TASTE",
+        "BEAUTY"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "artistic style",
+          "cn": "艺术风格"
+        },
+        {
+          "senses": "01",
+          "en": "artistic tradition",
+          "cn": "艺术传统"
+        },
+        {
+          "senses": "02",
+          "en": "an artistic child",
+          "cn": "有艺术天赋的孩子"
+        },
+        {
+          "senses": "02",
+          "en": "an artistic arrangement",
+          "cn": "有艺术感的布置"
+        },
+        {
+          "senses": "01",
+          "en": "artistic merit",
+          "cn": "艺术价值"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "A nineteenth-century adjective grown from the noun artist.",
+        "cn": "这是一个由名词 artist 长出的十九世纪形容词。"
+      },
+      "latinIntro": {
+        "en": "The root ars, 'skill', underlies the whole family.",
+        "cn": "词根 ars「技艺」支撑着整个词族。"
+      },
+      "items": [
+        {
+          "word": "artistic",
+          "structure": "artist + -ic",
+          "meaning": "of art",
+          "meaningCN": "艺术的",
+          "example": "artistic work",
+          "exampleCN": "艺术作品"
+        },
+        {
+          "word": "artistically",
+          "structure": "artistic + -ally",
+          "meaning": "in art terms",
+          "meaningCN": "在艺术上",
+          "example": "artistically valuable",
+          "exampleCN": "有艺术价值"
+        },
+        {
+          "word": "artist",
+          "structure": "ars + -ist",
+          "meaning": "a maker of art",
+          "meaningCN": "艺术家",
+          "example": "a young artist",
+          "exampleCN": "年轻艺术家"
+        },
+        {
+          "word": "artists",
+          "structure": "artist + -s",
+          "meaning": "artists, plural",
+          "meaningCN": "艺术家（复数）",
+          "example": "two artists",
+          "exampleCN": "两位艺术家"
+        },
+        {
+          "word": "artistry",
+          "structure": "artist + -ry",
+          "meaning": "artistic skill",
+          "meaningCN": "艺术才能",
+          "example": "technical artistry",
+          "exampleCN": "技术上的艺术性"
+        },
+        {
+          "word": "art",
+          "structure": "Latin ars",
+          "meaning": "creative work",
+          "meaningCN": "艺术",
+          "example": "a work of art",
+          "exampleCN": "艺术品"
+        },
+        {
+          "word": "artful",
+          "structure": "art + -ful",
+          "meaning": "skilful",
+          "meaningCN": "巧妙的",
+          "example": "an artful design",
+          "exampleCN": "巧妙的设计"
+        },
+        {
+          "word": "artless",
+          "structure": "art + -less",
+          "meaning": "natural and simple",
+          "meaningCN": "朴实的",
+          "example": "artless charm",
+          "exampleCN": "质朴的魅力"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "ars",
+          "structure": "Latin noun",
+          "meaning": "skill, art",
+          "meaningCN": "技艺；艺术"
+        }
+      ]
+    }
+  }
+]
