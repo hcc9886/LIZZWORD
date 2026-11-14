@@ -1,0 +1,383 @@
+[
+  {
+    "word": "assemble",
+    "ipa_uk": "/əˈsembl/",
+    "ipa_us": "/əˈsembl/",
+    "definition_zh": "集合；聚集；组装；装配",
+    "definition_en": "to bring people together, or to fit parts together into a whole",
+    "core_image": "散落的零件一件件拼合成整体",
+    "scene": "操场上哨声一响，各班开始排队。The students assembled in the hall before noon.",
+    "sceneCN": "这里 assemble 是「集合」（第 1 个义项：人们聚到一处）；句意是学生们中午前在礼堂集合。",
+    "pos": [
+      {
+        "tag": "v.",
+        "zh": "动词：集合；聚集；组装"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "assemble a team",
+        "zh": "组建团队"
+      },
+      {
+        "phrase": "assemble the parts",
+        "zh": "把零件装配起来"
+      },
+      {
+        "phrase": "assemble in the hall",
+        "zh": "在礼堂集合"
+      },
+      {
+        "phrase": "assemble a machine",
+        "zh": "组装机器"
+      },
+      {
+        "phrase": "fully assembled",
+        "zh": "完全组装好的"
+      }
+    ],
+    "forms": [
+      {
+        "label": "三单",
+        "form": "assembles"
+      },
+      {
+        "label": "过去式",
+        "form": "assembled"
+      },
+      {
+        "label": "过去分词",
+        "form": "assembled"
+      },
+      {
+        "label": "现在分词",
+        "form": "assembling"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "assembly",
+        "pos": "n.",
+        "zh": "名词：集会；装配"
+      },
+      {
+        "word": "assembler",
+        "pos": "n.",
+        "zh": "名词：装配工；汇编程序"
+      },
+      {
+        "word": "assembled",
+        "pos": "adj.",
+        "zh": "形容词：组装好的"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "To come together in a group",
+        "titleCN": "集合；聚集",
+        "definition": "to gather people or to gather oneself in one place",
+        "definitionCN": "把人聚到一处，或自身聚到一处",
+        "example": "The students assembled in the hall before noon.",
+        "exampleCN": "学生们中午前在礼堂集合。",
+        "why": "Old French assembler came from Latin ad simul, 'to the same place', so the word begins as a gathering.",
+        "whyCN": "古法语 assembler 来自拉丁语 ad simul「到同一处」，所以这个词本义就是聚集。"
+      },
+      {
+        "no": "02",
+        "title": "To fit parts into a whole",
+        "titleCN": "组装；装配",
+        "definition": "to put separate pieces together so they work as one",
+        "definitionCN": "把分开的部件拼在一起，使其作为一个整体运作",
+        "example": "Workers assemble the engines by hand.",
+        "exampleCN": "工人们手工组装发动机。",
+        "why": "If parts are gathered in the right order, the gathering becomes construction; the same verb serves both.",
+        "whyCN": "若把零件按正确次序聚到一起，聚集就成了装配；同一个动词兼指两者。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Assemble goes back to a Latin phrase meaning 'to the same place'.",
+        "cn": "assemble 可追溯到意为「到同一处」的拉丁短语。"
+      },
+      "items": [
+        {
+          "era": "LATIN SIMUL",
+          "en": "simul meant 'together, at the same time'.",
+          "cn": "simul 意为「一起、同时」。"
+        },
+        {
+          "era": "LATIN AD SIMUL",
+          "en": "ad simul meant 'to the same place'.",
+          "cn": "ad simul 意为「到同一处」。"
+        },
+        {
+          "era": "OLD FRENCH ASSEMBLER",
+          "en": "assembler meant 'to gather together'.",
+          "cn": "assembler 意为「聚拢」。"
+        },
+        {
+          "era": "ENGLISH, 13TH C.",
+          "en": "English assemble first meant to gather people.",
+          "cn": "英语 assemble 最初指聚集人群。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "Industry gave it the sense of fitting parts.",
+          "cn": "工业赋予了它「拼装部件」义。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "The look-alike group is the assembly family; the near-meaning group splits gathering from building.",
+        "cn": "形近组是 assembly 词族；近义组把聚集与建造分开。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "assembly",
+              "ipa": "/əˈsembli/",
+              "tag": "same root",
+              "definition": "a gathering or a putting together",
+              "definitionCN": "集会；装配"
+            },
+            {
+              "word": "assembler",
+              "ipa": "/əˈsemblə(r)/",
+              "tag": "same root",
+              "definition": "one who fits parts",
+              "definitionCN": "装配工"
+            },
+            {
+              "word": "assembled",
+              "ipa": "/əˈsembld/",
+              "tag": "same root",
+              "definition": "put together",
+              "definitionCN": "组装好的"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "gather",
+              "ipa": "/ˈɡæðə(r)/",
+              "tag": "near synonym",
+              "definition": "to bring together",
+              "definitionCN": "聚集"
+            },
+            {
+              "word": "construct",
+              "ipa": "/kənˈstrʌkt/",
+              "tag": "near synonym",
+              "definition": "to build from parts",
+              "definitionCN": "建造"
+            },
+            {
+              "word": "collect",
+              "ipa": "/kəˈlekt/",
+              "tag": "related",
+              "definition": "to bring things in",
+              "definitionCN": "收集"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Assemble gathers either people or parts.",
+        "cn": "assemble 聚拢的要么是人，要么是零件。"
+      },
+      "normal": [
+        {
+          "en": "On a factory line, parts are assembled.",
+          "cn": "流水线上组装的是零件。"
+        },
+        {
+          "en": "At school, students assemble for a meeting.",
+          "cn": "学校里学生集合开会。"
+        },
+        {
+          "en": "The noun is assembly.",
+          "cn": "名词是 assembly。"
+        },
+        {
+          "en": "The stress falls on the second syllable.",
+          "cn": "重音落在第二个音节。"
+        },
+        {
+          "en": "The word has a silent final e before -ed.",
+          "cn": "加 -ed 时词尾的 e 被省去。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "See bolts being turned into a frame.",
+          "cn": "想象螺栓被拧进框架。"
+        },
+        {
+          "en": "See rows of students filling a hall.",
+          "cn": "想象学生成排填满礼堂。"
+        },
+        {
+          "en": "See a box of parts emptied on a table.",
+          "cn": "想象一盒零件倒在桌上。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "The students assembled in the hall before noon.",
+        "cn": "学生们中午前在礼堂集合。"
+      },
+      {
+        "en": "Workers assemble the engines by hand.",
+        "cn": "工人们手工组装发动机。"
+      },
+      {
+        "en": "The desk came fully assembled.",
+        "cn": "这张桌子送来时已组装完毕。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "拆词记忆 · 非词源",
+      "text": "as-（向）加 sembl（一起）：往一处凑，人凑齐是集合，零件凑齐是组装。",
+      "word": "assemble"
+    },
+    "root": "源自古法语 assembler「聚拢」，上溯拉丁语 ad simul「到同一处」；由人群聚集引申为部件装配。",
+    "sensesIntro": {
+      "en": "Gathering is the root, and parts gathered in order become a machine.",
+      "cn": "聚集是词根；零件按序聚齐，就成了机器。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: separate pieces drawn into one shape.",
+        "cn": "核心意象：分开的部件被收进同一个形状。"
+      },
+      "chain": [
+        "TOGETHER",
+        "SAME PLACE",
+        "GATHER",
+        "ORDER",
+        "FIT",
+        "BUILD"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "assemble the staff",
+          "cn": "召集员工"
+        },
+        {
+          "senses": "01",
+          "en": "assemble in the square",
+          "cn": "在广场集合"
+        },
+        {
+          "senses": "02",
+          "en": "assemble a bike",
+          "cn": "组装自行车"
+        },
+        {
+          "senses": "02",
+          "en": "assemble the parts",
+          "cn": "装配零件"
+        },
+        {
+          "senses": "02",
+          "en": "easy to assemble",
+          "cn": "易于组装"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "A French verb of gathering that industry made technical.",
+        "cn": "这是一个法语「聚集」动词，工业使它带上了技术含义。"
+      },
+      "latinIntro": {
+        "en": "The root simul, 'together', also gives similar and simultaneous.",
+        "cn": "词根 simul「一起」也派生出 similar 与 simultaneous。"
+      },
+      "items": [
+        {
+          "word": "assemble",
+          "structure": "ad + simul",
+          "meaning": "to gather or fit",
+          "meaningCN": "集合；组装",
+          "example": "assemble a team",
+          "exampleCN": "组建团队"
+        },
+        {
+          "word": "assembles",
+          "structure": "assemble + -s",
+          "meaning": "gathers, third person",
+          "meaningCN": "组装（三单）",
+          "example": "she assembles the unit",
+          "exampleCN": "她组装这台机器"
+        },
+        {
+          "word": "assembled",
+          "structure": "assemble + -ed",
+          "meaning": "put together",
+          "meaningCN": "组装好的",
+          "example": "a pre-assembled shelf",
+          "exampleCN": "预装好的架子"
+        },
+        {
+          "word": "assembling",
+          "structure": "assemble + -ing",
+          "meaning": "gathering",
+          "meaningCN": "组装中",
+          "example": "assembling the frame",
+          "exampleCN": "装配框架"
+        },
+        {
+          "word": "assembly",
+          "structure": "assemble + -y",
+          "meaning": "a meeting or fitting",
+          "meaningCN": "集会；装配",
+          "example": "an assembly line",
+          "exampleCN": "装配线"
+        },
+        {
+          "word": "assembler",
+          "structure": "assemble + -er",
+          "meaning": "one who fits",
+          "meaningCN": "装配工",
+          "example": "a skilled assembler",
+          "exampleCN": "熟练装配工"
+        },
+        {
+          "word": "similar",
+          "structure": "similis",
+          "meaning": "alike",
+          "meaningCN": "相似的",
+          "example": "a similar case",
+          "exampleCN": "类似情形"
+        },
+        {
+          "word": "simultaneous",
+          "structure": "simul + -aneous",
+          "meaning": "at the same time",
+          "meaningCN": "同时的",
+          "example": "simultaneous events",
+          "exampleCN": "同时发生的事"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "simul",
+          "structure": "Latin adverb",
+          "meaning": "together",
+          "meaningCN": "一起"
+        }
+      ]
+    }
+  }
+]

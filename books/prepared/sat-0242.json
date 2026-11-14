@@ -1,0 +1,549 @@
+[
+  {
+    "word": "aspiration",
+    "ipa_uk": "/ˌæs.pɪˈreɪ.ʃən/",
+    "ipa_us": "/ˌæs.pəˈreɪ.ʃən/",
+    "definition_zh": "志向；渴望达到的目标；送气发音；吸入；抽吸；一丝气息",
+    "definition_en": "a strong hope or aim to achieve something, or the act of breathing something in",
+    "core_image": "一个人站在海边深吸一口气，眼睛望着对岸还看不见的灯光",
+    "scene": "她把想去对岸读书的念头写在信的末尾，写完又对着窗外深吸了一口气。Her aspiration to study abroad survived two failed applications.",
+    "sceneCN": "这里 aspiration 指「想要达到的目标与渴望」（第 1 个义项：志向上的愿望）；句意为她想出国读书的志向挺过了两次申请失败。图中可辨识物件：写满字的信纸、窗外对岸的灯光、被吸进胸腔的一口气、两次退回的信封。",
+    "pos": [
+      {
+        "tag": "n.",
+        "zh": "志向；渴望；送气音；吸入；抽吸"
+      },
+      {
+        "tag": "n. (phonetics)",
+        "zh": "（语音学）送气"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "career aspirations",
+        "zh": "职业志向"
+      },
+      {
+        "phrase": "aspiration to do",
+        "zh": "做某事的志向"
+      },
+      {
+        "phrase": "the aspirations of a community",
+        "zh": "一个群体的共同期盼"
+      },
+      {
+        "phrase": "aspiration pneumonia",
+        "zh": "吸入性肺炎"
+      },
+      {
+        "phrase": "aspirated consonant",
+        "zh": "送气辅音"
+      },
+      {
+        "phrase": "high aspirations",
+        "zh": "很高的志向"
+      }
+    ],
+    "forms": [
+      {
+        "label": "单数",
+        "form": "aspiration"
+      },
+      {
+        "label": "复数",
+        "form": "aspirations"
+      },
+      {
+        "label": "动词",
+        "form": "aspire"
+      },
+      {
+        "label": "动词三单",
+        "form": "aspires"
+      },
+      {
+        "label": "动词过去式",
+        "form": "aspired"
+      },
+      {
+        "label": "形容词",
+        "form": "aspirational"
+      },
+      {
+        "label": "形容词（送气的）",
+        "form": "aspirated"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "aspire",
+        "pos": "v.",
+        "zh": "基础动词，来自拉丁语「向某处呼气」，语义为「渴望、立志」"
+      },
+      {
+        "word": "aspirational",
+        "pos": "adj.",
+        "zh": "由名词加形容词后缀构成，语义由「志向」转为「以志向为标榜的」"
+      },
+      {
+        "word": "aspirated",
+        "pos": "adj.",
+        "zh": "由过去分词转为形容词，语义由「送气」转为「带送气的」"
+      },
+      {
+        "word": "aspirant",
+        "pos": "n.",
+        "zh": "由动词词干加表示人的后缀构成，语义由「渴望」转为「追求某职位的人」"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "A hoped-for aim",
+        "titleCN": "想要达到的目标",
+        "definition": "a strong hope or ambition to achieve something in the future",
+        "definitionCN": "对未来取得某物所抱的强烈希望或志向",
+        "example": "Her aspiration to study abroad survived two failed applications.",
+        "exampleCN": "她想出国读书的志向挺过了两次申请失败。",
+        "why": "the Latin verb meant to breathe toward something, so an aspiration is a breath aimed at a distant object.",
+        "whyCN": "那个拉丁动词意为「朝某物呼气」，因此志向就是一缕朝远处目标呼出的气。"
+      },
+      {
+        "no": "02",
+        "title": "Longing for high rank",
+        "titleCN": "对高位或大成就的渴望",
+        "definition": "a desire for a high position, honour or a distinguished place",
+        "definitionCN": "对高职位、荣誉或显要位置的渴求",
+        "example": "His aspiration to the chair was known to everyone but him.",
+        "exampleCN": "他想坐主席位子的心思，除了他自己，人人都知道。",
+        "why": "breathing toward a seat of honour is the social form of the same reach.",
+        "whyCN": "朝着荣誉之位呼一口气，是同一份伸手在社会层面的形态。"
+      },
+      {
+        "no": "03",
+        "title": "Breath released in speech",
+        "titleCN": "说话时的送气",
+        "definition": "the audible burst of breath that follows some consonants, as in the p of pin",
+        "definitionCN": "某些辅音之后可听见的一股气流，如某些词首那个辅音之后的气",
+        "example": "The teacher marked the aspiration after the t with a small hook.",
+        "exampleCN": "老师在那个辅音之后用一个小钩标出送气。",
+        "why": "the phonetic sense is the literal one: breath pushed out at the moment of speaking.",
+        "whyCN": "语音义是最字面的用法：说话那一刻把气推出来。"
+      },
+      {
+        "no": "04",
+        "title": "Drawing foreign matter into the lungs",
+        "titleCN": "异物被吸入肺里",
+        "definition": "the entry of food, liquid or other matter into the airway and lungs",
+        "definitionCN": "食物、液体或其他物质进入气道与肺部",
+        "example": "The nurse watched for aspiration during the night feed.",
+        "exampleCN": "夜间喂食时护士一直留意有无误吸。",
+        "why": "here breathing in becomes dangerous because what is drawn in does not belong in the lungs.",
+        "whyCN": "这里的「吸」变得危险，因为被吸进去的东西不该在肺里。"
+      },
+      {
+        "no": "05",
+        "title": "Removal by suction",
+        "titleCN": "用抽吸取出",
+        "definition": "the use of suction to draw fluid or tissue out of a cavity",
+        "definitionCN": "用负压把液体或组织从腔体中吸出",
+        "example": "The aspiration of the cyst took less than a minute.",
+        "exampleCN": "囊肿的抽吸不到一分钟就完成了。",
+        "why": "the same drawing motion is turned to medical use, where breath is replaced by a pump.",
+        "whyCN": "同一个「吸」的动作被转作医疗用途，只是呼气换成了泵。"
+      },
+      {
+        "no": "06",
+        "title": "Drawing fluid up a tube",
+        "titleCN": "机械抽吸液体",
+        "definition": "the lifting of liquid by reduced pressure in an engine, pump or laboratory line",
+        "definitionCN": "在发动机、泵或实验管路中借压差把液体吸上来",
+        "example": "Fuel aspiration failed when the line cracked.",
+        "exampleCN": "管路开裂后燃油抽吸失效。",
+        "why": "machines borrow the word because a pump also pulls matter toward itself by creating a void.",
+        "whyCN": "机器借用这个词，因为泵也靠制造空处把物质拉向自己。"
+      },
+      {
+        "no": "07",
+        "title": "A breath of air",
+        "titleCN": "一丝气息、一阵微风",
+        "definition": "a single breath or a faint movement of air",
+        "definitionCN": "一次呼吸，或空气极轻微的流动",
+        "example": "An aspiration of wind came through the shutter and moved the ash.",
+        "exampleCN": "一丝风从百叶窗里进来，吹动了灰。",
+        "why": "the oldest physical layer survives in literary use, where the word means the air itself.",
+        "whyCN": "最古老的物理层在文学用法里留存，那里这个词指空气本身。"
+      },
+      {
+        "no": "08",
+        "title": "Shared hopes of a group",
+        "titleCN": "一个群体共同的期盼",
+        "definition": "the collective hopes that a community or a generation holds for its future",
+        "definitionCN": "一个社群或一代人对自身未来所抱的共同希望",
+        "example": "The school was built on the aspirations of families who had never had one.",
+        "exampleCN": "这所学校建立于那些从未有过学校的家庭的期盼之上。",
+        "why": "many breaths aimed at one future add up to a public aspiration, which is how politics uses the word.",
+        "whyCN": "许多口气朝同一个未来呼出，就汇成一种公共期盼，政治语言正是这样用它的。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Aspiration comes from Latin aspiratio 'a breathing upon', from aspirare 'to breathe toward', built on ad- 'to' and spirare 'to breathe'. The deeper origin of spirare is not settled. Dates are approximate.",
+        "cn": "该词来自拉丁 aspiratio「朝某物呼气」，其动词 aspirare「向……呼气」由 ad-「向」与 spirare「呼吸」构成。spirare 的更深来源尚无定论，年代均为约数。"
+      },
+      "items": [
+        {
+          "era": "LATIN SPIRARE",
+          "en": "Spirare meant 'to breathe, to blow'. Its deeper origin is uncertain; the comparison with a root for 'to blow' is a hypothesis rather than a demonstrated derivation.",
+          "cn": "spirare 意为「呼吸、吹」。其更深来源不确定；把它与表示「吹」的词根相比对，只是假说，并非已证实的派生。"
+        },
+        {
+          "era": "LATIN ASPIRARE",
+          "en": "Ad- 'to' plus spirare gave aspirare 'to breathe upon, to blow toward', and by metaphor to favour or to strive toward.",
+          "cn": "ad-「向」加 spirare 构成 aspirare「朝……呼气、向……吹」，并比喻为「眷顾」或「向往」。"
+        },
+        {
+          "era": "LATIN ASPIRATIO",
+          "en": "The noun aspiratio named the breathing and, in grammar, the rough breathing marked over certain letters.",
+          "cn": "名词 aspiratio 指这股呼气，并在语法中指标在某些字母上的粗气符号。"
+        },
+        {
+          "era": "ENGLISH ARRIVAL",
+          "en": "English took the noun in the fourteenth century, first for the grammatical sense of rough breathing.",
+          "cn": "英语在十四世纪吸收了这个名词，最早用于语法上的「粗气」义。"
+        },
+        {
+          "era": "MODERN RISE",
+          "en": "From the sixteenth century the word was used for a hope directed at a high aim, and the medical suction sense followed in the nineteenth.",
+          "cn": "从十六世纪起，这个词用于指向高目标的希望；医学上的抽吸义在十九世纪随后出现。"
+        },
+        {
+          "era": "UNCERTAIN DETAILS",
+          "en": "Source uncertain (deeper origin of spirare and the dating of the hopeful sense): no citation fixes the first use for ambition, and any Indo-European form offered for spirare is a reconstruction.",
+          "cn": "来源不确定（spirare 的更深来源与希望义的确切年代）：没有书证能定住它首次用于「抱负」的时间；凡为 spirare 给出的印欧语形式均属重构形式。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "Group one separates look-alikes built on the breathing verb from words that only sound similar; group two separates kinds of longing.",
+        "cn": "第一组区分同出「呼吸」动词的形近词与只是读音相近的词；第二组区分不同类型的渴望。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "aspire",
+              "ipa": "/əˈspaɪə/",
+              "tag": "the verb behind it",
+              "definition": "To aim at something high; the noun is the state, the verb is the reaching.",
+              "definitionCN": "朝高处立志；名词是那个状态，动词是那次伸手。"
+            },
+            {
+              "word": "inspiration",
+              "ipa": "/ˌɪnspəˈreɪʃən/",
+              "tag": "breathed in",
+              "definition": "In- 'into' plus spirare: a breathing in, hence the sudden idea that seems to arrive from outside.",
+              "definitionCN": "由 in-「入」加 spirare 构成：吸进来，因而指仿佛从外面到来的灵感。"
+            },
+            {
+              "word": "expiration",
+              "ipa": "/ˌekspəˈreɪʃən/",
+              "tag": "breathed out",
+              "definition": "Ex- 'out' plus spirare: breathing out, and by extension the end of a period when time has run out.",
+              "definitionCN": "由 ex-「出」加 spirare 构成：呼出，并引申指期限走完的到期。"
+            },
+            {
+              "word": "respiration",
+              "ipa": "/ˌrespəˈreɪʃən/",
+              "tag": "breathing repeatedly",
+              "definition": "Re- 'again' plus spirare: the whole cycle of breathing, with no aim attached.",
+              "definitionCN": "由 re-「再」加 spirare 构成：整个呼吸循环，不含目标。"
+            },
+            {
+              "word": "aspersion",
+              "ipa": "/əˈspɜːʃən/",
+              "tag": "sprinkling, then blame",
+              "definition": "From the same sprinkling verb, but it means a casting of doubt or a slander, not a hope.",
+              "definitionCN": "同出那个「洒、喷」的动词，但意思是对人泼脏水、造谣中伤，而非希望。"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "ambition",
+              "ipa": "/æmˈbɪʃən/",
+              "tag": "drive for position",
+              "definition": "A strong desire to rise in status or power; it is more worldly than aspiration.",
+              "definitionCN": "对地位或权力上升的强烈欲望；比 aspiration 更世俗。"
+            },
+            {
+              "word": "goal",
+              "ipa": "/ɡəʊl/",
+              "tag": "the concrete end",
+              "definition": "A specific end point one works toward; it is the target itself, not the longing for it.",
+              "definitionCN": "努力所指向的具体终点；是目标本身，而不是对目标的渴望。"
+            },
+            {
+              "word": "dream",
+              "ipa": "/driːm/",
+              "tag": "cherished and vague",
+              "definition": "A cherished wish, often distant and not yet planned; it is warmer and looser than aspiration.",
+              "definitionCN": "珍爱的愿望，往往遥远且尚无计划；比 aspiration 更温暖也更松散。"
+            },
+            {
+              "word": "yearning",
+              "ipa": "/ˈjɜːnɪŋ/",
+              "tag": "ache of longing",
+              "definition": "A deep and often painful longing; it stresses the ache rather than the plan to achieve.",
+              "definitionCN": "深沉而常带痛感的渴望；强调那份渴，而不是实现它的计划。"
+            },
+            {
+              "word": "intake",
+              "ipa": "/ˈɪnteɪk/",
+              "tag": "the physical drawing in",
+              "definition": "The amount taken into the body or a machine in a period; it is the plain physical relative of the suction sense.",
+              "definitionCN": "一段时间内进入身体或机器的量；是抽吸义最朴素的物理近亲。"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Normal associations: real morphemes, real collocations and real relatives, not invented rhymes.",
+        "cn": "正常联想：真实的构词成分、真实搭配与真实同族词，而非编造的顺口溜。"
+      },
+      "normal": [
+        {
+          "en": "The Latin verb means to breathe toward something, so a strong hope is a breath aimed at a far target.",
+          "cn": "那个拉丁动词意为「朝某物呼气」，因此一份强烈的希望就是一缕朝远处目标呼出的气。"
+        },
+        {
+          "en": "The family runs aspire, aspiration, aspirant, aspirational, aspirated.",
+          "cn": "同族词覆盖动词、名词、追求者、愿景式形容词与送气形容词。"
+        },
+        {
+          "en": "Fixed phrases mark the fields: career aspirations, aspiration pneumonia, aspirated consonant.",
+          "cn": "固定搭配标出领域：职业志向、吸入性肺炎、送气辅音。"
+        },
+        {
+          "en": "The same breathing verb gives inspiration, expiration and respiration, each with its own prefix direction.",
+          "cn": "同一个「呼吸」动词还给出 inspiration、expiration 与 respiration，各自带有自己的前缀方向。"
+        },
+        {
+          "en": "Medical suction keeps the physical picture: something is drawn out of a cavity by reduced pressure.",
+          "cn": "医学抽吸保留了物理图景：靠压差把某物从腔体中吸出。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "Picture a long breath held while looking across water at lights not yet reachable.",
+          "cn": "想象隔水望着还够不到的灯光时，长长地屏住一口气。"
+        },
+        {
+          "en": "Picture a seed on a sill, leaning toward a window it cannot move to.",
+          "cn": "想象窗台上的一粒种子，朝它无法移动过去的窗子倾斜。"
+        },
+        {
+          "en": "Picture a letter written and rewritten but never sent, kept in a drawer.",
+          "cn": "想象一封写了又改、始终没寄出的信，放在抽屉里。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "The scholarship matched her aspiration with a place at the college.",
+        "cn": "这笔奖学金让她的志向与一个学院名额对上了。"
+      },
+      {
+        "en": "Rural families spoke of their aspirations for a clinic of their own.",
+        "cn": "乡下家庭谈起他们想要一所自己的诊所的期盼。"
+      },
+      {
+        "en": "The doctor ordered suction to prevent aspiration during sleep.",
+        "cn": "医生安排了吸痰，以防睡眠中误吸。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「a 斯匹瑞」——朝远处深吸一口气再向前望 → 志向、渴望",
+      "word": "aspiration"
+    },
+    "root": "拉丁 aspiratio「呼气」← aspirare「向……呼气」= ad-（向）+ spirare（呼吸）；spirare 更深来源不确定。",
+    "sensesIntro": {
+      "en": "Eight senses follow one breath: air is aimed at a far object and becomes a hope; the same air is aimed at a seat of honour, then at a consonant, then drawn into a lung, then pulled by a pump, then felt as a faint wind, and finally shared by a whole community.",
+      "cn": "八个义项沿同一口气展开：气朝远处目标呼出而成希望；同一口气再朝荣誉之位、朝一个辅音、进一只肺、被泵抽动、化作一丝风，最后被整个社群共同呼出。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: a long breath drawn at the shore while looking at lights across the water.",
+        "cn": "核心意象：站在岸边望着对岸的灯光，长长吸一口气。"
+      },
+      "chain": [
+        "BREATHE",
+        "AIM THE BREATH",
+        "HOPE FOR MORE",
+        "SOUND THE BREATH",
+        "DRAW MATTER IN",
+        "SHARE THE HOPE"
+      ],
+      "branches": [
+        {
+          "senses": "01 · 02",
+          "en": "THE BREATH AIMED HIGH: hope for an aim and hunger for a seat of honour.",
+          "cn": "朝高处呼出的气：对目标的希望，以及对荣誉之位的渴求。"
+        },
+        {
+          "senses": "03",
+          "en": "THE BREATH HEARD: phonetics keeps the literal push of air.",
+          "cn": "被听见的气：语音学保留了最字面的推气。"
+        },
+        {
+          "senses": "04 · 06",
+          "en": "MATTER DRAWN IN: what enters a lung and what a pump pulls up a line.",
+          "cn": "被吸进的物质：进入肺里的东西，与泵沿着管路抽上来的东西。"
+        },
+        {
+          "senses": "05",
+          "en": "MATTER TAKEN OUT: clinical suction reverses the direction and removes.",
+          "cn": "被取出的物质：临床抽吸把方向反过来，取走东西。"
+        },
+        {
+          "senses": "07 · 08",
+          "en": "FROM A GUST TO A GENERATION: one faint breath widens into the shared hopes of many.",
+          "cn": "从一阵微风到一代人：一丝微弱的气，扩展成许多人的共同期盼。"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "The word is a Latin verb plus a noun suffix, and the same prefix and verb build several common English words, so the family is easy to read by parts.",
+        "cn": "这个词是一个拉丁动词加名词后缀，同一个前缀与动词还构成若干常用英语词，因此这一族很容易按部件读出。"
+      },
+      "latinIntro": {
+        "en": "Latin spirare 'to breathe' gives spirit, inspire, expire, respire and conspire; ad- 'to' appears in adapt, adjacent and admire.",
+        "cn": "拉丁 spirare「呼吸」衍生出 spirit、inspire、expire、respire 与 conspire；ad-「向」见于 adapt、adjacent 与 admire。"
+      },
+      "items": [
+        {
+          "word": "ad-",
+          "structure": "ad- (Latin prefix, 'to, toward')",
+          "meaning": "to; toward",
+          "meaningCN": "向；朝",
+          "example": "The prefix points the breath at an object.",
+          "exampleCN": "这个前缀把气指向某个对象。"
+        },
+        {
+          "word": "spirare",
+          "structure": "spirare (Latin verb, 'to breathe, blow')",
+          "meaning": "to breathe",
+          "meaningCN": "呼吸；吹",
+          "example": "The root carries the breathing.",
+          "exampleCN": "这个词根带着呼吸这个动作。"
+        },
+        {
+          "word": "aspirare",
+          "structure": "ad- + spirare",
+          "meaning": "to breathe upon, strive toward",
+          "meaningCN": "朝……呼气；向往",
+          "example": "The wind seemed to strive toward the cliff.",
+          "exampleCN": "那阵风仿佛朝崖上使劲。"
+        },
+        {
+          "word": "aspiration",
+          "structure": "aspirare + -tio (noun of action)",
+          "meaning": "a breathing toward, a hope",
+          "meaningCN": "朝某处呼气；志向",
+          "example": "Her aspiration was to build a clinic.",
+          "exampleCN": "她的志向是建一所诊所。"
+        },
+        {
+          "word": "aspire",
+          "structure": "aspirare passing into French and English",
+          "meaning": "to aim high",
+          "meaningCN": "立志；渴望",
+          "example": "He aspired to the vacant chair.",
+          "exampleCN": "他渴望那把空出的椅子。"
+        },
+        {
+          "word": "aspirant",
+          "structure": "aspire + -ant (person who acts)",
+          "meaning": "one who seeks a post",
+          "meaningCN": "谋求职位的人",
+          "example": "Ten aspirants sat the examination.",
+          "exampleCN": "十名求职者参加了考试。"
+        },
+        {
+          "word": "aspirational",
+          "structure": "aspiration + -al (adjective)",
+          "meaning": "expressing or appealing to hopes",
+          "meaningCN": "标示志向的；励志的",
+          "example": "The poster was aspirational rather than factual.",
+          "exampleCN": "这张海报是励志的，而不是写实的。"
+        },
+        {
+          "word": "aspirated",
+          "structure": "aspirate + -ed (participle)",
+          "meaning": "pronounced with a burst of breath",
+          "meaningCN": "带送气发音的",
+          "example": "The aspirated consonant was hard for the children.",
+          "exampleCN": "这个送气辅音让孩子们觉得难。"
+        },
+        {
+          "word": "inspiration",
+          "structure": "in- + spirare + -tion",
+          "meaning": "a breathing in, a sudden idea",
+          "meaningCN": "吸入；灵感",
+          "example": "The design came in a single inspiration.",
+          "exampleCN": "这个设计来自一次顿悟。"
+        },
+        {
+          "word": "expiration",
+          "structure": "ex- + spirare + -tion",
+          "meaning": "breathing out, the end of a term",
+          "meaningCN": "呼出；到期",
+          "example": "The lease reached expiration in June.",
+          "exampleCN": "租约在六月到期。"
+        },
+        {
+          "word": "spirit",
+          "structure": "spiritus, from spirare",
+          "meaning": "breath, vital principle",
+          "meaningCN": "气息；精神",
+          "example": "The spirit of the place was quiet.",
+          "exampleCN": "这个地方的气息很安静。"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "spirare",
+          "structure": "spirare, spiravi, spiratum (verb, first conjugation)",
+          "meaning": "to breathe, blow",
+          "meaningCN": "呼吸；吹"
+        },
+        {
+          "word": "aspirare",
+          "structure": "aspirare, aspiravi, aspiratum (verb, first conjugation)",
+          "meaning": "to breathe upon, strive toward",
+          "meaningCN": "朝……呼气；向往"
+        },
+        {
+          "word": "aspiratio",
+          "structure": "aspiratio, aspirationis (f., third declension)",
+          "meaning": "a breathing, a rough breathing",
+          "meaningCN": "呼气；粗气符号"
+        },
+        {
+          "word": "spiritus",
+          "structure": "spiritus, spiritus (m., fourth declension)",
+          "meaning": "breath, spirit",
+          "meaningCN": "气息；精神"
+        }
+      ]
+    }
+  }
+]

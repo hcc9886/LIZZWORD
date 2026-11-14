@@ -1,0 +1,452 @@
+[
+  {
+    "word": "assert",
+    "ipa_uk": "/əˈsɜːt/",
+    "ipa_us": "/əˈsɜːrt/",
+    "definition_zh": "断言；坚称；维护；主张（权利等）",
+    "definition_en": "to state firmly that something is true, or to act so as to make one's rights or presence felt",
+    "core_image": "拍着桌子一字一顿说话的人",
+    "scene": "听证会上，他敲着桌面逐条为自己的清白申辩，寸步不让。The witness asserted her innocence before the committee.",
+    "sceneCN": "这里 assert 是「断言、坚称」（第 1 个义项：坚定地陈述）；句意是证人在委员会面前坚称自己无辜。",
+    "pos": [
+      {
+        "tag": "vt.",
+        "zh": "断言；坚称"
+      },
+      {
+        "tag": "vt.",
+        "zh": "维护；坚持"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "assert one's innocence",
+        "zh": "坚称自己清白"
+      },
+      {
+        "phrase": "assert that something is true",
+        "zh": "断言某事属实"
+      },
+      {
+        "phrase": "assert one's rights",
+        "zh": "维护自己的权利"
+      },
+      {
+        "phrase": "assert oneself",
+        "zh": "坚持己见；彰显自己"
+      },
+      {
+        "phrase": "assert authority",
+        "zh": "树立权威"
+      },
+      {
+        "phrase": "assert independence",
+        "zh": "彰显独立"
+      }
+    ],
+    "forms": [
+      {
+        "label": "三单",
+        "form": "asserts"
+      },
+      {
+        "label": "过去式",
+        "form": "asserted"
+      },
+      {
+        "label": "过去分词",
+        "form": "asserted"
+      },
+      {
+        "label": "现在分词",
+        "form": "asserting"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "assertion",
+        "pos": "n.",
+        "zh": "由动词加名词后缀构成，义为「断言；主张」"
+      },
+      {
+        "word": "assertive",
+        "pos": "adj.",
+        "zh": "由动词加后缀构成，义为「自信而坚定的」"
+      },
+      {
+        "word": "assertively",
+        "pos": "adv.",
+        "zh": "由形容词加副词后缀构成，义为「坚定地」"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "To state firmly as true",
+        "titleCN": "断言；坚称",
+        "definition": "to declare something positively and confidently, often without proof",
+        "definitionCN": "肯定而自信地宣称，常不附带证明",
+        "example": "The article asserts that housing prices will fall next year.",
+        "exampleCN": "这篇文章断言房价明年将下跌。",
+        "why": "Latin serere means to join or link; asserting is binding a claim to a statement as if attaching it by hand.",
+        "whyCN": "拉丁语 serere 意为连接；assert 即用手把主张「系」在陈述上。"
+      },
+      {
+        "no": "02",
+        "title": "To claim or defend rights",
+        "titleCN": "维护；坚持（权利）",
+        "definition": "to make one's rights, power, or position felt and recognized",
+        "definitionCN": "使自己的权利、权力或地位得到承认",
+        "example": "The union asserted its right to strike.",
+        "exampleCN": "工会维护了罢工的权利。",
+        "why": "The same binding hand attaches one's standing to the world: you fasten your claim publicly.",
+        "whyCN": "同一只系结之手把自身地位固定于世界：公开拴紧自己的主张。"
+      },
+      {
+        "no": "03",
+        "title": "To make oneself noticed",
+        "titleCN": "彰显自己；坚持己见",
+        "definition": "to behave confidently so that others take notice, as in assert oneself",
+        "definitionCN": "自信行事使他人注意到自己，如 assert oneself",
+        "example": "Quiet students must learn to assert themselves in seminars.",
+        "exampleCN": "安静的学生必须学会在研讨课上大胆发言。",
+        "why": "Presence, like a claim, must be attached to the scene before it exists socially.",
+        "whyCN": "存在感如主张，须先「系」于场景，方能在社交中成立。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Assert comes from Latin asserere, to claim or affirm, from ad- plus serere, to join or bind.",
+        "cn": "assert 源自拉丁语 asserere（主张、申明），由 ad- 加 serere（连接、系结）构成。"
+      },
+      "items": [
+        {
+          "era": "PROTO-INDO-EUROPEAN",
+          "en": "The root *ser- meant to line up or bind together.",
+          "cn": "词根 *ser- 意为排成一行、系在一起。"
+        },
+        {
+          "era": "LATIN",
+          "en": "Serere meant to join, enlace, or set in a row.",
+          "cn": "拉丁语 serere 意为连接、缠绕、排列。"
+        },
+        {
+          "era": "LATIN",
+          "en": "Asserere meant to attach a claim, hence to affirm; in law, to claim a slave as free.",
+          "cn": "asserere 意为附上主张，进而申明；法律上指主张奴隶为自由人。"
+        },
+        {
+          "era": "LATE LATIN",
+          "en": "Assertio named the affirmation itself.",
+          "cn": "assertio 指申明行为本身。"
+        },
+        {
+          "era": "ENGLISH, 17TH C.",
+          "en": "English adopted assert in the seventeenth century for firm declaration.",
+          "cn": "十七世纪英语借入 assert，指坚定的宣告。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "Assert states with force; it does not argue step by step like prove.",
+        "cn": "assert 是有力的宣示，不像 prove 那样一步步论证。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "assertion",
+              "ipa": "/əˈsɜːʃn/",
+              "tag": "derived form",
+              "definition": "a firm statement or claim",
+              "definitionCN": "断言；主张"
+            },
+            {
+              "word": "assertive",
+              "ipa": "/əˈsɜːtɪv/",
+              "tag": "derived form",
+              "definition": "confident and direct in manner",
+              "definitionCN": "坚定自信的"
+            },
+            {
+              "word": "assert oneself",
+              "ipa": "/əˈsɜːt wʌnˈself/",
+              "tag": "phrase",
+              "definition": "to make one's presence felt",
+              "definitionCN": "彰显自己；坚持立场"
+            },
+            {
+              "word": "desert",
+              "ipa": "/dɪˈzɜːt/",
+              "tag": "same root",
+              "definition": "what is deserved, from the same serere family sense of attachment",
+              "definitionCN": "应得的赏罚（同根族内的近形词）"
+            },
+            {
+              "word": "series",
+              "ipa": "/ˈsɪəriːz/",
+              "tag": "same root",
+              "definition": "a linked row, the literal join of serere",
+              "definitionCN": "系列（serere「连接」的字面义）"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "declare",
+              "ipa": "/dɪˈkleə(r)/",
+              "tag": "near meaning",
+              "definition": "to state openly and formally",
+              "definitionCN": "宣布；声明"
+            },
+            {
+              "word": "maintain",
+              "ipa": "/meɪnˈteɪn/",
+              "tag": "near meaning",
+              "definition": "to keep asserting as true",
+              "definitionCN": "坚称；坚持认为"
+            },
+            {
+              "word": "contend",
+              "ipa": "/kənˈtend/",
+              "tag": "near meaning",
+              "definition": "to argue or claim in dispute",
+              "definitionCN": "主张；争辩"
+            },
+            {
+              "word": "affirm",
+              "ipa": "/əˈfɜːm/",
+              "tag": "near meaning",
+              "definition": "to state positively",
+              "definitionCN": "肯定；断言"
+            },
+            {
+              "word": "insist",
+              "ipa": "/ɪnˈsɪst/",
+              "tag": "near meaning",
+              "definition": "to demand firmly that something is so",
+              "definitionCN": "坚持；坚决要求"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Hear a-sort: asserting sorts the world and stakes your claim in place.",
+        "cn": "谐音「额瑟特」→「额竖帖」：额把主张竖成告帖钉在墙上，即 assert（断言）。"
+      },
+      "normal": [
+        {
+          "en": "serere ties; assert ties a claim down.",
+          "cn": "serere 是系结；assert 把主张系牢。"
+        },
+        {
+          "en": "assert oneself: make others notice you.",
+          "cn": "assert oneself：让他人注意到你。"
+        },
+        {
+          "en": "assertion is the noun of the claim.",
+          "cn": "assertion 是主张的名词。"
+        },
+        {
+          "en": "assertive people state needs without aggression.",
+          "cn": "assertive 的人表达需求而不咄咄逼人。"
+        },
+        {
+          "en": "series, insert, exert all share serere.",
+          "cn": "series、insert、exert 同出 serere。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "Picture a claim nailed to a courtroom door.",
+          "cn": "想象一条主张被钉在法庭门上。"
+        },
+        {
+          "en": "Feel your shoulders square as you speak.",
+          "cn": "体会发言时挺直的双肩。"
+        },
+        {
+          "en": "See a row of linked rings: each statement joined in place.",
+          "cn": "看见一排相连的环：每个陈述各就其位。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "The coach asserted that the team would bounce back.",
+        "cn": "教练断言球队会东山再起。"
+      },
+      {
+        "en": "Nations asserted sovereignty over the new waters.",
+        "cn": "各国宣示了对新水域的主权。"
+      },
+      {
+        "en": "She had to assert herself in a room full of executives.",
+        "cn": "她必须在一屋高管面前大胆表态。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「额瑟特」——额把主张竖成告帖、钉牢于墙，正是 assert 的断言。",
+      "word": "assert"
+    },
+    "root": "拉丁语 ad-（朝向）+ serere（连接、系结）→ asserere「把主张系附上来，申明」，经后期拉丁语与法语进入英语。",
+    "sensesIntro": {
+      "en": "Binding a claim to words becomes binding rights and presence to the world.",
+      "cn": "把主张系于言辞，进而把权利与存在感系于世界。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: a hand fastening a claim where all can see",
+        "cn": "核心意象：一只手把主张钉在众人可见之处"
+      },
+      "chain": [
+        "CLAIM",
+        "DECLARATION",
+        "CONFIDENCE",
+        "DEFENSE OF RIGHTS",
+        "SELF-ASSERTION",
+        "AUTHORITY"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "firm statement of fact",
+          "cn": "对事实的坚定陈述"
+        },
+        {
+          "senses": "02",
+          "en": "defense of rights and power",
+          "cn": "权利与权力的维护"
+        },
+        {
+          "senses": "03",
+          "en": "self-presence in company",
+          "cn": "众人面前的自我彰显"
+        },
+        {
+          "senses": "01 · 02",
+          "en": "words that stake a claim",
+          "cn": "立下主张的言辞"
+        },
+        {
+          "senses": "02 · 03",
+          "en": "standing made public",
+          "cn": "公之于众的地位"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "The serere family lines up English words about joining and binding.",
+        "cn": "serere 词族排布着英语中关于连接与系结的词。"
+      },
+      "latinIntro": {
+        "en": "Latin serere generated a family of joining words.",
+        "cn": "拉丁语 serere 产出一族表示连接的词。"
+      },
+      "items": [
+        {
+          "word": "as-",
+          "structure": "prefix from ad-",
+          "meaning": "toward",
+          "meaningCN": "朝向",
+          "example": "assert a claim",
+          "exampleCN": "申明主张"
+        },
+        {
+          "word": "-sert-",
+          "structure": "Latin root",
+          "meaning": "join, bind",
+          "meaningCN": "连接；系结",
+          "example": "assert one's rights",
+          "exampleCN": "维护权利"
+        },
+        {
+          "word": "-ion",
+          "structure": "Latin suffix",
+          "meaning": "act or result",
+          "meaningCN": "行为；结果",
+          "example": "a bold assertion",
+          "exampleCN": "大胆的断言"
+        },
+        {
+          "word": "-ive",
+          "structure": "Latin suffix",
+          "meaning": "tending to",
+          "meaningCN": "倾向于",
+          "example": "an assertive tone",
+          "exampleCN": "坚定的语气"
+        },
+        {
+          "word": "series",
+          "structure": "same root",
+          "meaning": "a linked sequence",
+          "meaningCN": "系列",
+          "example": "a series of tests",
+          "exampleCN": "一系列测试"
+        },
+        {
+          "word": "insert",
+          "structure": "in- + serere",
+          "meaning": "to join in",
+          "meaningCN": "插入",
+          "example": "insert a page",
+          "exampleCN": "插入一页"
+        },
+        {
+          "word": "exert",
+          "structure": "ex- + serere",
+          "meaning": "to put forth force",
+          "meaningCN": " exert 施加",
+          "example": "exert pressure",
+          "exampleCN": "施加压力"
+        },
+        {
+          "word": "affirm",
+          "structure": "Latin ad- + firmare",
+          "meaning": "to state positively",
+          "meaningCN": "肯定",
+          "example": "affirm a decision",
+          "exampleCN": "肯定决定"
+        },
+        {
+          "word": "insist",
+          "structure": "Latin in- + stare",
+          "meaning": "to stand on a demand",
+          "meaningCN": "坚持",
+          "example": "insist on payment",
+          "exampleCN": "坚持要求付款"
+        },
+        {
+          "word": "assertion",
+          "structure": "assert + -ion",
+          "meaning": "a claim stated firmly",
+          "meaningCN": "断言",
+          "example": "back up the assertion",
+          "exampleCN": "为断言提供依据"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "serere",
+          "structure": "Latin verb",
+          "meaning": "to join, bind",
+          "meaningCN": "连接；系结"
+        },
+        {
+          "word": "asserere",
+          "structure": "Latin compound verb",
+          "meaning": "to claim, affirm",
+          "meaningCN": "申明；主张"
+        }
+      ]
+    }
+  }
+]

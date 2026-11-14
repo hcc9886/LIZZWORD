@@ -1,0 +1,425 @@
+[
+  {
+    "word": "assessor",
+    "ipa_uk": "/əˈsesə(r)/",
+    "ipa_us": "/əˈsesər/",
+    "definition_zh": "评估员；估价员；评税员；（法庭）陪审顾问",
+    "definition_en": "an official who calculates the value or quality of something, especially property or taxes",
+    "core_image": "手持登记簿逐户为房产定价的市政人员",
+    "scene": "市政厅里，评估员对照图纸为每栋临街商铺核定税基。The county assessor valued the farmhouse at twice its asking price.",
+    "sceneCN": "这里 assessor 是「估价员、评税员」（第 1 个义项：核定价值的官员）；句意是县估价员把这栋农舍估为要价的两倍。",
+    "pos": [
+      {
+        "tag": "n.",
+        "zh": "估价员；评税员"
+      },
+      {
+        "tag": "n.",
+        "zh": "评估人；考官"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "the county assessor",
+        "zh": "县估价员"
+      },
+      {
+        "phrase": "a tax assessor",
+        "zh": "评税员"
+      },
+      {
+        "phrase": "insurance assessor",
+        "zh": "保险理赔评估员"
+      },
+      {
+        "phrase": "assessor's office",
+        "zh": "评估办公室"
+      },
+      {
+        "phrase": "an independent assessor",
+        "zh": "独立评估人"
+      }
+    ],
+    "forms": [
+      {
+        "label": "复数",
+        "form": "assessors"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "assess",
+        "pos": "v.",
+        "zh": "基础动词，义为「评估；核定」"
+      },
+      {
+        "word": "assessment",
+        "pos": "n.",
+        "zh": "由动词加名词后缀构成，义为「评估；核定税额」"
+      },
+      {
+        "word": "assessable",
+        "pos": "adj.",
+        "zh": "由动词加后缀构成，义为「可评估的；应征税的」"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "An official valuer",
+        "titleCN": "估价员；评税员",
+        "definition": "an official who determines the value of property for taxation",
+        "definitionCN": "为征税而核定财产价值的官员",
+        "example": "The assessor's list raised taxes across the district.",
+        "exampleCN": "估价员的清单提高了全区的税额。",
+        "why": "Latin assidere means to sit beside; the Roman assessor literally sat beside the magistrate to help fix amounts.",
+        "whyCN": "拉丁语 assidere 意为坐在旁边；罗马的 assessor 字面上就坐在官员旁协助定夺。"
+      },
+      {
+        "no": "02",
+        "title": "An expert evaluator",
+        "titleCN": "评估人；评审专家",
+        "definition": "a person who judges quality, skill, or damage, as in exams or insurance",
+        "definitionCN": "在考试、保险等场合评判质量、技能或损失的人",
+        "example": "Independent assessors reviewed the damaged warehouses.",
+        "exampleCN": "独立评估人核查了受损的仓库。",
+        "why": "Sitting beside a case remains the image: the evaluator views it close at hand.",
+        "whyCN": "「坐于一旁」仍是意象：评估者在近旁审视案情。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Assessor is the agent noun of assess, from Latin assidere, to sit beside, from ad- plus sedere, to sit.",
+        "cn": "assessor 是 assess 的施动者名词，assess 源自拉丁语 assidere（坐在旁边），由 ad- 加 sedere（坐）构成。"
+      },
+      "items": [
+        {
+          "era": "PROTO-INDO-EUROPEAN",
+          "en": "The root *sed- meant to sit.",
+          "cn": "词根 *sed- 意为坐。"
+        },
+        {
+          "era": "LATIN",
+          "en": "Sedere meant to sit; assidere meant to sit beside.",
+          "cn": "拉丁语 sedere 意为坐；assidere 意为坐在旁边。"
+        },
+        {
+          "era": "LATIN",
+          "en": "The Roman assessor sat beside officials to help set fees and fines.",
+          "cn": "罗马的 assessor 坐在官员旁协助定税与罚金。"
+        },
+        {
+          "era": "OLD FRENCH",
+          "en": "Assesser meant to fix a tax.",
+          "cn": "古法语 assesser 意为核定税额。"
+        },
+        {
+          "era": "ENGLISH, 17TH C.",
+          "en": "English formed assessor for tax officials and, later, examiners.",
+          "cn": "十七世纪英语用 assessor 指税官，后亦指考官。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "An assessor does not only judge: the root job is fixing amounts, especially for tax.",
+        "cn": "assessor 不只作评判：其本源职责是核定数额，尤指税额。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "assess",
+              "ipa": "/əˈses/",
+              "tag": "derived form",
+              "definition": "to estimate value or impose a charge",
+              "definitionCN": "评估；核定"
+            },
+            {
+              "word": "assessment",
+              "ipa": "/əˈsesmənt/",
+              "tag": "derived form",
+              "definition": "the act or result of assessing",
+              "definitionCN": "评估；估定金额"
+            },
+            {
+              "word": "assessable",
+              "ipa": "/əˈsesəbl/",
+              "tag": "derived form",
+              "definition": "liable to be assessed or taxed",
+              "definitionCN": "可估税的"
+            },
+            {
+              "word": "session",
+              "ipa": "/ˈseʃn/",
+              "tag": "same root",
+              "definition": "a sitting of a court or group, from sedere",
+              "definitionCN": "会议（同根，出自 sedere）"
+            },
+            {
+              "word": "sedentary",
+              "ipa": "/ˈsednteri/",
+              "tag": "same root",
+              "definition": "sitting much of the time",
+              "definitionCN": "久坐的（同根）"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "appraiser",
+              "ipa": "/əˈpreɪzə(r)/",
+              "tag": "near meaning",
+              "definition": "one who estimates value, especially for sale",
+              "definitionCN": "估价人（多指作价出售）"
+            },
+            {
+              "word": "evaluator",
+              "ipa": "/ɪˈvæljueɪtə(r)/",
+              "tag": "near meaning",
+              "definition": "one who judges worth or quality",
+              "definitionCN": "评估者"
+            },
+            {
+              "word": "valuator",
+              "ipa": "/ˈvæljueɪtə(r)/",
+              "tag": "near meaning",
+              "definition": "one who sets a value",
+              "definitionCN": "定值人"
+            },
+            {
+              "word": "examiner",
+              "ipa": "/ɪɡˈzæmɪnə(r)/",
+              "tag": "near meaning",
+              "definition": "one who tests or inspects",
+              "definitionCN": "考官；检查员"
+            },
+            {
+              "word": "adjuster",
+              "ipa": "/əˈdʒʌstə(r)/",
+              "tag": "near meaning",
+              "definition": "an insurance loss evaluator",
+              "definitionCN": "（保险）理算员"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Hear assess + or: the one who assesses sits beside the numbers.",
+        "cn": "assess（评估）+ or（人）：坐在账册旁核定数额的人，即 assessor。"
+      },
+      "normal": [
+        {
+          "en": "assidere: to sit beside the magistrate.",
+          "cn": "assidere：坐在官员身旁。"
+        },
+        {
+          "en": "the assessor helps fix fees and taxes.",
+          "cn": "assessor 协助核定税费。"
+        },
+        {
+          "en": "session, sedentary share the sitting root.",
+          "cn": "session、sedentary 同出「坐」词根。"
+        },
+        {
+          "en": "in Britain, assessors also aid judges.",
+          "cn": "在英国，assessor 亦协助法官。"
+        },
+        {
+          "en": "assess adds tax sense to evaluate.",
+          "cn": "assess 在「评估」外另有「征税」义。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "Picture a stool set beside a magistrate's bench.",
+          "cn": "想象官员席旁摆着的一张小凳。"
+        },
+        {
+          "en": "See a ledger open, one line at a time priced.",
+          "cn": "看见账本翻开，逐行标价。"
+        },
+        {
+          "en": "Feel the weight of an official's careful glance.",
+          "cn": "体会官员审慎目光的分量。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "The assessor reinspected the flooded shop.",
+        "cn": "评估员复查了被水淹的店铺。"
+      },
+      {
+        "en": "Homeowners argued with the assessor over square footage.",
+        "cn": "业主就建筑面积与估价员争辩。"
+      },
+      {
+        "en": "Exam assessors met to align their standards.",
+        "cn": "考官们开会统一评分标准。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「额赛瑟」——额坐在赛场旁打分定税，正是 assessor 的评估职责。",
+      "word": "assessor"
+    },
+    "root": "拉丁语 ad-（朝向）+ sedere（坐）→ assidere「坐在旁侧协助核定」，施动名词 assessor 即「核定人」。",
+    "sensesIntro": {
+      "en": "Sitting beside authority becomes valuing property and judging quality.",
+      "cn": "「坐在权威之侧」演化为核定财产价值与评判质量。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: a clerk seated beside the bench, pricing the world line by line",
+        "cn": "核心意象：坐在席位旁的书记员逐行给世界标价"
+      },
+      "chain": [
+        "SITTING BESIDE",
+        "MEASUREMENT",
+        "VALUATION",
+        "TAXATION",
+        "JUDGMENT",
+        "ACCOUNTABILITY"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "official fixing taxable value",
+          "cn": "核定应税价值的官员"
+        },
+        {
+          "senses": "02",
+          "en": "expert judging claims or work",
+          "cn": "评判理赔或作业的专家"
+        },
+        {
+          "senses": "01 · 02",
+          "en": "numbers set by a seated expert",
+          "cn": "由坐席专家核定的数字"
+        },
+        {
+          "senses": "01",
+          "en": "the tax link of the office",
+          "cn": "该职务的税务关联"
+        },
+        {
+          "senses": "02",
+          "en": "quality review in exams and claims",
+          "cn": "考试与理赔中的质量审查"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "The sedere family gathers English words about sitting and sessions.",
+        "cn": "sedere 词族汇集英语中关于坐与集会的词。"
+      },
+      "latinIntro": {
+        "en": "Latin sedere is the seat of a wide word family.",
+        "cn": "拉丁语 sedere 是一个庞大词族的「座位」。"
+      },
+      "items": [
+        {
+          "word": "as-",
+          "structure": "prefix from ad-",
+          "meaning": "toward",
+          "meaningCN": "朝向",
+          "example": "assess the damage",
+          "exampleCN": "评估损失"
+        },
+        {
+          "word": "-sess-",
+          "structure": "root from sedere",
+          "meaning": "sit",
+          "meaningCN": "坐",
+          "example": "the assessor's session",
+          "exampleCN": "评估员的议程"
+        },
+        {
+          "word": "-or",
+          "structure": "Latin suffix",
+          "meaning": "one who does",
+          "meaningCN": "做…的人",
+          "example": "the county assessor",
+          "exampleCN": "县估价员"
+        },
+        {
+          "word": "-ment",
+          "structure": "Latin suffix",
+          "meaning": "result",
+          "meaningCN": "结果",
+          "example": "tax assessment",
+          "exampleCN": "税额核定"
+        },
+        {
+          "word": "-able",
+          "structure": "suffix",
+          "meaning": "capable of",
+          "meaningCN": "可…的",
+          "example": "assessable income",
+          "exampleCN": "应税收入"
+        },
+        {
+          "word": "session",
+          "structure": "same root",
+          "meaning": "a sitting",
+          "meaningCN": "一场会议",
+          "example": "morning session",
+          "exampleCN": "上午场"
+        },
+        {
+          "word": "sedentary",
+          "structure": "same root",
+          "meaning": "given to sitting",
+          "meaningCN": "久坐的",
+          "example": "a sedentary job",
+          "exampleCN": "久坐的工作"
+        },
+        {
+          "word": "preside",
+          "structure": "pre- + sedere",
+          "meaning": "to sit before, chair",
+          "meaningCN": "主持",
+          "example": "preside over court",
+          "exampleCN": "主持庭审"
+        },
+        {
+          "word": "reside",
+          "structure": "re- + sedere",
+          "meaning": "to sit back, dwell",
+          "meaningCN": "居住",
+          "example": "reside in Paris",
+          "exampleCN": "定居巴黎"
+        },
+        {
+          "word": "sedan",
+          "structure": "possibly same root",
+          "meaning": "a covered seat carried, later a car",
+          "meaningCN": "轿子；轿车（词源或与「坐」相关）",
+          "example": "a black sedan",
+          "exampleCN": "黑色轿车"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "sedere",
+          "structure": "Latin verb",
+          "meaning": "to sit",
+          "meaningCN": "坐"
+        },
+        {
+          "word": "assidere",
+          "structure": "Latin compound verb",
+          "meaning": "to sit beside",
+          "meaningCN": "坐在旁边"
+        }
+      ]
+    }
+  }
+]

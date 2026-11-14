@@ -1,0 +1,550 @@
+[
+  {
+    "word": "assertion",
+    "ipa_uk": "/əˈsɜːʃn/",
+    "ipa_us": "/əˈsɜːrʃn/",
+    "definition_zh": "断言；主张；陈述；对权利或权威的维护；程序中的断言检查",
+    "definition_en": "a confident and forceful statement of fact or belief, or the act of stating or defending something",
+    "core_image": "一个人把一枚印章重重按在文件上，抬手时印痕已经固定，再难悄悄收回",
+    "scene": "审稿人指出，论文里那句强硬的判断并没有数据支撑，只能算是一种声明。The claim remained an assertion until the data arrived.",
+    "sceneCN": "这里指没有数据支撑的强硬判断（第 1 个义项：自信的断言）；句意为在数据到手之前，那个说法始终只是一句断言。",
+    "pos": [
+      {
+        "tag": "n.",
+        "zh": "断言；主张；维护；断言语句"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "make an assertion",
+        "zh": "作出断言"
+      },
+      {
+        "phrase": "a bold assertion",
+        "zh": "大胆的断言"
+      },
+      {
+        "phrase": "a false assertion",
+        "zh": "错误的断言"
+      },
+      {
+        "phrase": "assertion of rights",
+        "zh": "对权利的维护"
+      },
+      {
+        "phrase": "support an assertion",
+        "zh": "支持某一断言"
+      },
+      {
+        "phrase": "challenge an assertion",
+        "zh": "质疑某一断言"
+      },
+      {
+        "phrase": "self-assertion",
+        "zh": "自我主张"
+      }
+    ],
+    "forms": [
+      {
+        "label": "单数",
+        "form": "assertion"
+      },
+      {
+        "label": "复数",
+        "form": "assertions"
+      },
+      {
+        "label": "动词",
+        "form": "assert"
+      },
+      {
+        "label": "形容词",
+        "form": "assertive"
+      },
+      {
+        "label": "副词",
+        "form": "assertively"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "assert",
+        "pos": "v.",
+        "zh": "由同一拉丁词干构成的动词，义为「断言；维护」"
+      },
+      {
+        "word": "assertive",
+        "pos": "adj.",
+        "zh": "由动词加表示「倾向」的形容词尾构成，义为「自信的；坚定主张的」"
+      },
+      {
+        "word": "assertively",
+        "pos": "adv.",
+        "zh": "加副词尾，义为「断然地」"
+      },
+      {
+        "word": "assertiveness",
+        "pos": "n.",
+        "zh": "加表示性质的名词尾，义为「自信果断」"
+      },
+      {
+        "word": "asserted",
+        "pos": "adj.",
+        "zh": "加已然词尾，义为「已断言的；被主张的」"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "A confident statement of fact",
+        "titleCN": "自信的事实陈述",
+        "definition": "a firm statement that something is true, made without hesitation",
+        "definitionCN": "毫不迟疑地断定某事为真的陈述",
+        "example": "Her assertion that the test had failed was later confirmed.",
+        "exampleCN": "她关于测试失败的那句断言后来得到证实。",
+        "why": "The Latin verb meant to claim as one's own, and a claim made firmly becomes a statement of fact.",
+        "whyCN": "这个拉丁动词意为「认作自己的」，坚定地认领就成了一种事实陈述。"
+      },
+      {
+        "no": "02",
+        "title": "A claim open to challenge",
+        "titleCN": "可被质疑的主张",
+        "definition": "a statement put forward as true that others may reasonably dispute",
+        "definitionCN": "被提出为真、但他人可以合理反驳的陈述",
+        "example": "The report's central assertion has no data behind it.",
+        "exampleCN": "报告的核心主张背后没有数据。",
+        "why": "Anything asserted invites a counter-statement, so the word often marks a claim still awaiting proof.",
+        "whyCN": "凡是断言都会招来反陈述，因此这个词常标出尚待证明的主张。"
+      },
+      {
+        "no": "03",
+        "title": "A declaration of rights",
+        "titleCN": "对权利的声明",
+        "definition": "the act of stating or defending a right, title or claim",
+        "definitionCN": "声明或维护某项权利、名分或主张的行为",
+        "example": "The march was an assertion of the right to assemble.",
+        "exampleCN": "那场游行是对集会权利的一次声明。",
+        "why": "Rights are claimed before they are used, and the word covers that public claiming.",
+        "whyCN": "权利在被使用之前先被主张，这个词覆盖这种公开主张。"
+      },
+      {
+        "no": "04",
+        "title": "A proposition affirmed in logic",
+        "titleCN": "逻辑中被肯定的命题",
+        "definition": "a proposition that is put forward as true and from which inferences may follow",
+        "definitionCN": "被提出为真、并可据以推出结论的命题",
+        "example": "In the proof, each assertion must follow from the one before.",
+        "exampleCN": "在证明中，每个命题都必须由前一个推出。",
+        "why": "Logic treats an assertion as a statement with a truth value, which is a formal version of claiming.",
+        "whyCN": "逻辑学把断言看作有真值的陈述，这是「主张」的形式化版本。"
+      },
+      {
+        "no": "05",
+        "title": "An assertion in a program",
+        "titleCN": "程序中的断言检查",
+        "definition": "a statement in code that declares a condition which must be true at that point",
+        "definitionCN": "代码中声明某条件在该处必须为真的语句",
+        "example": "The developer added an assertion to catch empty input.",
+        "exampleCN": "开发者在代码里加了一个断言，用来捕获空输入。",
+        "why": "Programming borrowed the word because a check asserts that a condition holds, and fails loudly if it does not.",
+        "whyCN": "编程借用这个词，因为检查是在断言某条件成立，不成立就大声报错。"
+      },
+      {
+        "no": "06",
+        "title": "A forceful expression of opinion",
+        "titleCN": "有力的意见表达",
+        "definition": "a confident way of saying what one thinks, often in speech",
+        "definitionCN": "以自信的方式说出自己的想法，常见于口头表达",
+        "example": "His assertion that the plan was hopeless silenced the room.",
+        "exampleCN": "他那句计划毫无希望的说法让全场安静下来。",
+        "why": "Tone matters here: the noun can name the force of a statement as much as its content.",
+        "whyCN": "语气在这里很关键：这个名词既指内容，也指说话的力度。"
+      },
+      {
+        "no": "07",
+        "title": "An assertion of authority",
+        "titleCN": "对权威的彰显",
+        "definition": "the act of showing or enforcing one's power or control",
+        "definitionCN": "展示或强行施加自身权力与控制的行为",
+        "example": "The new manager's first meeting was an assertion of control.",
+        "exampleCN": "新任经理的第一次会议是一次掌控权的宣示。",
+        "why": "Power is often claimed before it is obeyed, and the word names that claim.",
+        "whyCN": "权力常在被服从之前先被主张，这个词就指那种主张。"
+      },
+      {
+        "no": "08",
+        "title": "A statement made without proof",
+        "titleCN": "无证明的陈述",
+        "definition": "a statement offered as true although no evidence has been supplied",
+        "definitionCN": "虽无证据却作为真实提出的陈述",
+        "example": "The essay opens with an assertion rather than a finding.",
+        "exampleCN": "这篇文章以一个断言而不是发现开头。",
+        "why": "Because the word does not itself guarantee proof, it can politely name something unproven.",
+        "whyCN": "因为这个词本身不保证有证明，它可以客气地指称未经证实的东西。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Assertion comes from Latin asserere, to claim or maintain, literally to join something to oneself. The noun entered English through French and kept both the sense of a firm statement and the sense of defending a right.",
+        "cn": "这个词来自拉丁语 asserere「主张、维护」，字面意为「把某物接到自己身上」。名词经法语进入英语，既保留「坚定陈述」的意思，也保留「维护权利」的意思。"
+      },
+      "items": [
+        {
+          "era": "LATIN SERERE",
+          "en": "Serere meant to join or arrange in a row, and it also gave the words for series and insert.",
+          "cn": "这个词根意为「连接、排成行」，也表示「系列」与「插入」的词也出自它。"
+        },
+        {
+          "era": "LATIN ASSERERE",
+          "en": "With the prefix ad-, the verb meant to join to oneself, hence to claim a thing as one's own and defend it.",
+          "cn": "加上表示「朝向」的前缀后，动词意为「接到自己身上」，因而指把某物认作自己的并加以维护。"
+        },
+        {
+          "era": "LEGAL AND RELIGIOUS USE",
+          "en": "Roman law used the verb for asserting freedom or a right, and English kept that public, declarative force.",
+          "cn": "罗马法用这个动词表示主张自由或权利，英语保留了这种公开宣告的力量。"
+        },
+        {
+          "era": "ENGLISH, 15TH CENTURY",
+          "en": "The noun assertion appeared in English writing on logic and law; its exact first record is uncertain.",
+          "cn": "名词「断言」在十五世纪的逻辑与法律写作中出现；确切最早记录不确定。"
+        },
+        {
+          "era": "LOGIC AND GRAMMAR",
+          "en": "Grammar calls a positive statement an assertive sentence, and logic treats assertions as propositions with truth values.",
+          "cn": "语法学把肯定陈述称为断言句，逻辑学把断言当作有真值的命题。"
+        },
+        {
+          "era": "COMPUTING, 20TH CENTURY",
+          "en": "Programming languages adopted assertion for a condition the program declares must hold at a given point.",
+          "cn": "编程语言采用这个词，指程序声明在某处必须成立的条件。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "The first group shares the joining root or looks similar; the second group names statements and claims of other strengths.",
+        "cn": "第一组共享「连接」词根或形近；第二组指力度不同的陈述与主张。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "assert",
+              "ipa": "/əˈsɜːt/",
+              "tag": "same root",
+              "definition": "The verb meaning to state firmly or to defend a right.",
+              "definitionCN": "指坚定陈述或维护权利的动词。"
+            },
+            {
+              "word": "assertive",
+              "ipa": "/əˈsɜːtɪv/",
+              "tag": "same root",
+              "definition": "Confident and direct in stating one's views.",
+              "definitionCN": "指陈述观点时自信直接的。"
+            },
+            {
+              "word": "assertiveness",
+              "ipa": "/əˈsɜːtɪvnəs/",
+              "tag": "same root",
+              "definition": "The quality of standing up for oneself calmly and directly.",
+              "definitionCN": "指平静而直接地维护自身立场的品质。"
+            },
+            {
+              "word": "insert",
+              "ipa": "/ɪnˈsɜːt/",
+              "tag": "same root, different prefix",
+              "definition": "To put something inside; same joining root, inward prefix.",
+              "definitionCN": "指把某物放入；与断言共享「连接」词根，前缀向内。"
+            },
+            {
+              "word": "desert",
+              "ipa": "/dɪˈzɜːt/",
+              "tag": "same root, different prefix",
+              "definition": "To abandon; the prefix means apart, so the joining is undone.",
+              "definitionCN": "指抛弃；前缀意为「分开」，即把连接解开。"
+            },
+            {
+              "word": "assertible",
+              "ipa": "/əˈsɜːtəbl/",
+              "tag": "same root",
+              "definition": "Capable of being asserted as true.",
+              "definitionCN": "指可以被断言为真的。"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "claim",
+              "ipa": "/kleɪm/",
+              "tag": "near meaning",
+              "definition": "A statement that something is true, often one not yet proved.",
+              "definitionCN": "指声称某事为真，常指尚未证明的说法。"
+            },
+            {
+              "word": "declaration",
+              "ipa": "/ˌdekləˈreɪʃn/",
+              "tag": "near meaning",
+              "definition": "A formal public statement, stronger in official weight than in proof.",
+              "definitionCN": "指正式的公开声明，官方分量重于证明。"
+            },
+            {
+              "word": "statement",
+              "ipa": "/ˈsteɪtmənt/",
+              "tag": "near meaning",
+              "definition": "The neutral word for something said or written.",
+              "definitionCN": "指说出或写下的内容，是中性的说法。"
+            },
+            {
+              "word": "contention",
+              "ipa": "/kənˈtenʃn/",
+              "tag": "near meaning",
+              "definition": "A point argued in a debate or essay.",
+              "definitionCN": "指辩论或文章中提出的论点。"
+            },
+            {
+              "word": "affirmation",
+              "ipa": "/ˌæfəˈmeɪʃn/",
+              "tag": "near meaning",
+              "definition": "A positive statement that something is true, often in law or religion.",
+              "definitionCN": "指肯定某事为真的陈述，常用于法律或宗教。"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Normal associations use the stamp picture, the legal claim of a right and the programming statement.",
+        "cn": "正常联想使用盖章的画面、对权利的法律主张以及程序中的断言语句。"
+      },
+      "normal": [
+        {
+          "en": "To assert is to claim something as one's own, which is why the word can mean both saying and defending.",
+          "cn": "断言就是把某物认作自己的，所以这个词既能指说出，也能指维护。"
+        },
+        {
+          "en": "An assertion is a stamp pressed down: the mark is made before anyone can argue with it.",
+          "cn": "断言是按下的一枚印章：印痕在别人反驳之前就已经留下。"
+        },
+        {
+          "en": "Assertive speech is confident speech, and assertiveness training teaches people to state needs plainly.",
+          "cn": "断言式说话就是自信的说话，「自信训练」教人把需求讲清楚。"
+        },
+        {
+          "en": "In code, an assertion is a promise that a condition holds, and a failed assertion stops the program.",
+          "cn": "在代码里，断言是「某条件成立」的承诺，断言失败会中止程序。"
+        },
+        {
+          "en": "Assertion of rights is a fixed legal phrase, showing that the word kept its declarative legal force.",
+          "cn": "「权利的主张」是固定法律说法，说明这个词保留了宣告式的法律力量。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "An assertion is a claim wearing the clothes of a fact, and the clothes are what listeners must see through.",
+          "cn": "断言是一个穿着事实外衣的主张，而听众要做的正是看穿这件外衣。"
+        },
+        {
+          "en": "Every field has its own way of stamping: logic stamps truth values, law stamps rights, code stamps conditions.",
+          "cn": "每个领域都有自己的盖章方式：逻辑盖真值，法律盖权利，代码盖条件。"
+        },
+        {
+          "en": "The word reminds us that before evidence arrives, all we have is someone standing behind a sentence.",
+          "cn": "这个词提醒我们，在证据到来之前，我们只有某个人站在一句话后面。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "The author's assertion about rising costs is supported by three surveys.",
+        "cn": "作者关于成本上升的断言得到三项调查的支持。"
+      },
+      {
+        "en": "No one could disprove his assertion that the method was safe.",
+        "cn": "没有人能反驳他关于该方法安全的断言。"
+      },
+      {
+        "en": "The code contains an assertion that the list is never empty.",
+        "cn": "这段代码里有一个断言，声明该列表永不为空。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "读作「阿瑟申」——把话「申」明得像盖了章，一口咬定，就是断言",
+      "word": "assertion"
+    },
+    "root": "拉丁语 asserere「主张、维护」= ad-「朝向」+ serere「连接、排成行」，字面为「接到自己身上」。罗马法用它表示主张自由或权利；名词经法语于十五世纪进入英语，兼指坚定陈述与权利维护；二十世纪编程语言又借它指断言语句。最早记录年代不确定。",
+    "sensesIntro": {
+      "en": "Eight senses run from speech act to code: a confident statement, a challengeable claim, a declaration of rights, a logical proposition, a program assertion, a forceful opinion, a show of authority, and an unproved statement.",
+      "cn": "八个义项从言语行为延伸到代码：自信陈述、可质疑的主张、权利声明、逻辑命题、程序断言、有力的意见、权威的彰显、无证明的陈述。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: a seal is pressed hard onto paper, and the mark stays after the hand lifts.",
+        "cn": "核心意象：印章重重压上纸面，手抬起后印痕仍在。"
+      },
+      "chain": [
+        "JOIN TO ONESELF",
+        "CLAIM",
+        "STATEMENT",
+        "DECLARATION",
+        "LOGIC",
+        "CODE CHECK"
+      ],
+      "branches": [
+        {
+          "senses": "01 · 08",
+          "en": "THE STAMPED SENTENCE: a firm statement that may or may not have proof behind it.",
+          "cn": "盖章的句子：坚定的陈述，背后未必有证明。"
+        },
+        {
+          "senses": "02",
+          "en": "THE OPEN CLAIM: a statement that invites others to dispute it.",
+          "cn": "敞开的主张：招来他人反驳的陈述。"
+        },
+        {
+          "senses": "03 · 07",
+          "en": "THE CLAIMED RIGHT: a right declared in public, and power shown by assertion.",
+          "cn": "被主张的权利：公开宣告的权利，以及以断言彰显的权力。"
+        },
+        {
+          "senses": "04",
+          "en": "THE LOGICAL PROPOSITION: a statement carrying a truth value.",
+          "cn": "逻辑命题：带有真值的陈述。"
+        },
+        {
+          "senses": "05 · 06",
+          "en": "THE CODE CHECK AND THE FORCEFUL TONE: a condition declared in code, and the weight of confident speech.",
+          "cn": "代码检查与有力语气：在代码中声明的条件，以及自信说话的重量。"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Assertion is a Latin verb turned noun whose root of joining still appears in English words of insertion and series.",
+        "cn": "这个词是拉丁语动词转成的名词，其「连接」词根至今仍出现在表示插入与系列的英语词中。"
+      },
+      "latinIntro": {
+        "en": "Latin supplies serere and asserere; the noun came through French and kept the legal flavour of claiming a right.",
+        "cn": "拉丁语提供了「连接」与「主张」两词；名词经法语而来，保留了「主张权利」的法律意味。"
+      },
+      "items": [
+        {
+          "word": "ad-",
+          "structure": "Latin prefix",
+          "meaning": "to, towards",
+          "meaningCN": "朝向",
+          "example": "It turns joining into joining to oneself.",
+          "exampleCN": "它把「连接」变成「接到自己身上」。"
+        },
+        {
+          "word": "serere",
+          "structure": "Latin verb",
+          "meaning": "to join, arrange in a row",
+          "meaningCN": "连接；排成行",
+          "example": "The root of insert and series.",
+          "exampleCN": "这是「插入」与「系列」的词根。"
+        },
+        {
+          "word": "asserere",
+          "structure": "Latin verb",
+          "meaning": "to claim, maintain",
+          "meaningCN": "主张；维护",
+          "example": "The direct source of the English noun.",
+          "exampleCN": "这是英语名词的直接来源。"
+        },
+        {
+          "word": "-tion",
+          "structure": "action noun ending",
+          "meaning": "the act or result of",
+          "meaningCN": "……的行为或结果",
+          "example": "It forms assertion from the verb stem.",
+          "exampleCN": "它由动词词干构成「断言」。"
+        },
+        {
+          "word": "as-",
+          "structure": "Latin prefix variant",
+          "meaning": "to, towards",
+          "meaningCN": "朝向",
+          "example": "The form ad- takes before s.",
+          "exampleCN": "这是「朝向」前缀在 s 前的变体。"
+        },
+        {
+          "word": "-ive",
+          "structure": "adjective ending",
+          "meaning": "tending to",
+          "meaningCN": "倾向于……的",
+          "example": "It forms assertive from the verb.",
+          "exampleCN": "它由动词构成形容词「自信主张的」。"
+        },
+        {
+          "word": "-ness",
+          "structure": "noun ending",
+          "meaning": "the quality of",
+          "meaningCN": "……的性质",
+          "example": "It forms assertiveness.",
+          "exampleCN": "它构成「自信果断」这一名词。"
+        },
+        {
+          "word": "-ed",
+          "structure": "past participle ending",
+          "meaning": "made or affected",
+          "meaningCN": "已……的",
+          "example": "It forms the adjective asserted.",
+          "exampleCN": "它构成形容词「被主张的」。"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "serere",
+          "structure": "Latin verb",
+          "meaning": "to join, arrange",
+          "meaningCN": "连接；排列"
+        },
+        {
+          "word": "asserere",
+          "structure": "Latin verb",
+          "meaning": "to claim, maintain",
+          "meaningCN": "主张；维护"
+        },
+        {
+          "word": "assertio",
+          "structure": "Latin noun",
+          "meaning": "a claiming, a declaration",
+          "meaningCN": "主张；宣告"
+        }
+      ],
+      "derivatives": [
+        {
+          "word": "assert",
+          "pos": "v.",
+          "zh": "同词干动词，义为「断言；维护」"
+        },
+        {
+          "word": "assertive",
+          "pos": "adj.",
+          "zh": "加倾向形容词尾，义为「自信坚定的」"
+        },
+        {
+          "word": "assertively",
+          "pos": "adv.",
+          "zh": "加副词尾，义为「断然地」"
+        },
+        {
+          "word": "assertiveness",
+          "pos": "n.",
+          "zh": "加性质名词尾，义为「自信果断」"
+        },
+        {
+          "word": "asserted",
+          "pos": "adj.",
+          "zh": "加已然词尾，义为「被主张的」"
+        }
+      ]
+    }
+  }
+]
