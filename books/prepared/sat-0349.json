@@ -1,0 +1,465 @@
+[
+  {
+    "word": "bass",
+    "ipa_uk": "/beɪs/",
+    "ipa_us": "/beɪs/",
+    "definition_zh": "低音；低音部；低音提琴；鲈鱼",
+    "definition_en": "the lowest range of sound or voice; the low-frequency part of music; a food fish",
+    "core_image": "音响里让你胸口发麻的那层嗡鸣",
+    "scene": "调音师蹲在音箱后拧低频旋钮，地板随之轻颤。Turn down the bass before the neighbors complain.",
+    "sceneCN": "这里 bass 指「低音」（第 1 个义项：音乐低频部分）；句意：在邻居投诉前把低音关小。",
+    "pos": [
+      {
+        "tag": "n.",
+        "zh": "低音；低音部"
+      },
+      {
+        "tag": "adj.",
+        "zh": "低音的"
+      },
+      {
+        "tag": "n.",
+        "zh": "鲈鱼（读 /bæs/）"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "bass guitar",
+        "zh": "低音吉他"
+      },
+      {
+        "phrase": "bass drum",
+        "zh": "大鼓"
+      },
+      {
+        "phrase": "bass line",
+        "zh": "低音线；贝斯线"
+      },
+      {
+        "phrase": "bass clef",
+        "zh": "低音谱号"
+      },
+      {
+        "phrase": "sea bass",
+        "zh": "海鲈"
+      },
+      {
+        "phrase": "turn up the bass",
+        "zh": "调高低音"
+      }
+    ],
+    "forms": [
+      {
+        "label": "复数（鱼）",
+        "form": "bass"
+      },
+      {
+        "label": "形容词",
+        "form": "bass"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "bassist",
+        "pos": "n.",
+        "zh": "低音提琴手；贝斯手（bass + -ist）"
+      },
+      {
+        "word": "baritone",
+        "pos": "n.",
+        "zh": "男中音（同根相关词）"
+      },
+      {
+        "word": "bassoon",
+        "pos": "n.",
+        "zh": "大管；巴松（同根相关词）"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "The low part of music",
+        "titleCN": "低音；低音部",
+        "definition": "the lowest range of pitches in music",
+        "definitionCN": "音乐中最低的音区",
+        "example": "The organ's bass shook the cathedral floor.",
+        "exampleCN": "管风琴的低音震得教堂地板发颤。",
+        "why": "Latin bassus meant low; music took the word for the floor of sound.",
+        "whyCN": "拉丁语 bassus 意为「低」；音乐取之指声音的地板。"
+      },
+      {
+        "no": "02",
+        "title": "The lowest male voice",
+        "titleCN": "男低音",
+        "definition": "the deepest singing voice of a man",
+        "definitionCN": "男声中最低沉的声部",
+        "example": "He sings bass in the choir.",
+        "exampleCN": "他在唱诗班唱男低音。",
+        "why": "The lowest part of the vocal range keeps the word.",
+        "whyCN": "人声音域之最低者沿用此词。"
+      },
+      {
+        "no": "03",
+        "title": "Low-frequency instruments",
+        "titleCN": "低音乐器",
+        "definition": "instruments designed for low pitch, as the double bass",
+        "definitionCN": "为低音而设的乐器，如低音提琴",
+        "example": "A double bass stood behind the cellist.",
+        "exampleCN": "大提琴手身后立着一架低音提琴。",
+        "why": "Each instrument family places its low member here.",
+        "whyCN": "各乐器家族的低音成员皆归此列。"
+      },
+      {
+        "no": "04",
+        "title": "The fish",
+        "titleCN": "鲈鱼",
+        "definition": "a food fish of fresh or sea water",
+        "definitionCN": "淡水或海产的食用鱼",
+        "example": "They caught bass off the rocks.",
+        "exampleCN": "他们在礁石外钓到鲈鱼。",
+        "why": "A different line: Old English bærs, perch, shortened to bass.",
+        "whyCN": "另一词线：古英语 bærs「河鲈」缩略为 bass。"
+      },
+      {
+        "no": "05",
+        "title": "Bass as amplifier power",
+        "titleCN": "音响低频",
+        "definition": "strong low-frequency sound from speakers",
+        "definitionCN": "音箱输出的强劲低频",
+        "example": "The car's bass rattled the windows.",
+        "exampleCN": "汽车音响的低音震得车窗作响。",
+        "why": "Reproduction technology borrowed the musical word.",
+        "whyCN": "放音技术借用音乐之词。"
+      },
+      {
+        "no": "06",
+        "title": "Bass clef",
+        "titleCN": "低音谱号",
+        "definition": "the F clef used for low-pitched notation",
+        "definitionCN": "标记低音的 F 谱号",
+        "example": "Left-hand piano parts are written in bass clef.",
+        "exampleCN": "钢琴左手声部记于低音谱号。",
+        "why": "Notation needs a flag for the basement of music.",
+        "whyCN": "乐谱需要一面标记「地下室」的旗。"
+      },
+      {
+        "no": "07",
+        "title": "Bass in mixed ensembles",
+        "titleCN": "合奏中的低音层",
+        "definition": "the foundational layer supporting harmony",
+        "definitionCN": "支撑和声的基础层",
+        "example": "A good bass line holds the whole band together.",
+        "exampleCN": "好的贝斯线能把整支乐队拢住。",
+        "why": "The bottom carries the building again.",
+        "whyCN": "底层再度承托整座建筑。"
+      },
+      {
+        "no": "08",
+        "title": "Bass guitar",
+        "titleCN": "低音吉他",
+        "definition": "the four-string electric instrument of popular music",
+        "definitionCN": "流行乐中四弦电声低音乐器",
+        "example": "She switched from guitar to bass.",
+        "exampleCN": "她从吉他转弹贝斯。",
+        "why": "Electric times gave the bass its own instrument.",
+        "whyCN": "电声时代让低音有了专属乐器。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Bass is a respelling of base, from Latin bassus, low; the fish bass is a separate word from Old English bærs, perch.",
+        "cn": "bass 是 base 的改拼，出拉丁 bassus「低」；鲈鱼义之 bass 是另一词，出古英语 bærs「河鲈」。"
+      },
+      "items": [
+        {
+          "era": "PROTO-INDO-EUROPEAN",
+          "en": "The root behind bassus meant short, low.",
+          "cn": "bassus 背后词根意为短、低。"
+        },
+        {
+          "era": "LATIN, BASSUS",
+          "en": "bassus meant low of stature or pitch.",
+          "cn": "拉丁语 bassus 指身矮或音低。"
+        },
+        {
+          "era": "ITALIAN, BASSO",
+          "en": "Italian basso carried the low voice into music.",
+          "cn": "意大利语 basso 把低音带入音乐。"
+        },
+        {
+          "era": "ENGLISH, MIDDLE PERIOD",
+          "en": "English spelled the music word base, then adopted bass to tell it from base, foundation.",
+          "cn": "英语先拼作 base，后改拼 bass 以区别「基础」之 base。"
+        },
+        {
+          "era": "OLD ENGLISH, BÆRS",
+          "en": "The fish came from bærs, the perch, its b-r dropping out.",
+          "cn": "鲈鱼出 bærs「河鲈」，首音 b-r 脱落。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "Group one holds the low family and look-alikes; group two holds the music-range field.",
+        "cn": "第一组收「低」词族与形近词；第二组收「音域」义场。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "base",
+              "ipa": "/beɪs/",
+              "tag": "same root",
+              "definition": "foundation or morally low; the spelling twin.",
+              "definitionCN": "基础或卑鄙；拼写孪生词。"
+            },
+            {
+              "word": "basso",
+              "ipa": "/ˈbæsəʊ/",
+              "tag": "same root",
+              "definition": "an Italian bass voice.",
+              "definitionCN": "意大利语男低音。"
+            },
+            {
+              "word": "boss",
+              "ipa": "/bɒs/",
+              "tag": "look-alike, different root",
+              "definition": "the person in charge of workers or an organization",
+              "definitionCN": "老板；上司——只是与 bass 拼写相近，词源不同"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "treble",
+              "ipa": "/ˈtrebl/",
+              "tag": "opposite",
+              "definition": "the highest range of sound.",
+              "definitionCN": "最高音区；反义对照。"
+            },
+            {
+              "word": "baritone",
+              "ipa": "/ˈbærɪtəʊ/",
+              "tag": "near meaning",
+              "definition": "the male voice just above bass.",
+              "definitionCN": "男中音；高于男低音。"
+            },
+            {
+              "word": "soprano",
+              "ipa": "/səˈprɑːnəʊ/",
+              "tag": "opposite",
+              "definition": "the highest female voice.",
+              "definitionCN": "女高音；反义对照。"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "bass is base with a different tail: the low floor of sound, plus a fish that shares only spelling.",
+        "cn": "bass 是换了尾巴的 base：声音的地板；而鲈鱼只分享拼写。"
+      },
+      "normal": [
+        {
+          "en": "Root: Latin bassus, low.",
+          "cn": "词根：拉丁语 bassus「低」。"
+        },
+        {
+          "en": "Italian kin: basso.",
+          "cn": "意大利同族：basso。"
+        },
+        {
+          "en": "Voice: sing bass.",
+          "cn": "声部：唱男低音。"
+        },
+        {
+          "en": "Fish: sea bass, different origin.",
+          "cn": "鱼：海鲈，另有来源。"
+        },
+        {
+          "en": "Spot: bass clef marks the low lines.",
+          "cn": "谱号：低音谱号标记低音行。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "Feel sound you hear with your ribs, not your ears.",
+          "cn": "体会用肋骨而非耳朵去听的声音。"
+        },
+        {
+          "en": "Bass is the gravity of music.",
+          "cn": "bass 是音乐里的重力。"
+        },
+        {
+          "en": "A choir without bass is a building without ground.",
+          "cn": "没有男低音的唱诗班，如无地基之楼。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "The choir's bass held the melody steady.",
+        "cn": "唱诗班的男低音稳住了旋律。"
+      },
+      {
+        "en": "Freshwater bass thrive in weedy lakes.",
+        "cn": "淡水鲈鱼在水草繁茂的湖中繁衍。"
+      },
+      {
+        "en": "Her bass guitar anchored the rhythm section.",
+        "cn": "她的贝斯撑住了整个节奏组。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「贝斯」——音译已通行：低音乐器就叫贝斯",
+      "word": "bass"
+    },
+    "root": "音乐义之 bass 出拉丁 bassus「低的」，与 base 同词异拼，受意大利语 basso 影响定形；鲈鱼义之 bass 出古英语 bærs「河鲈」的缩略，两词仅拼写相同。",
+    "sensesIntro": {
+      "en": "Eight senses descend one scale: the low range, the low voice, the low instruments, the fish, the amplifier, the clef, the harmonic floor, and the electric bass.",
+      "cn": "八个义项沿音阶下行：低音区、男低音、低音乐器、鲈鱼、音响低频、低音谱号、和声底层与电贝斯。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: the sound floor everything else stands on.",
+        "cn": "核心意象：其余声音立足其上的声之地板。"
+      },
+      "chain": [
+        "LOW",
+        "VOICE",
+        "INSTRUMENT",
+        "FISH",
+        "AMPLIFIER",
+        "FOUNDATION"
+      ],
+      "branches": [
+        {
+          "senses": "01 · 02",
+          "en": "Range and voice fix the low floor.",
+          "cn": "音域与人声钉住低音层。"
+        },
+        {
+          "senses": "03 · 08",
+          "en": "Old and electric instruments serve it.",
+          "cn": "传统与电声乐器皆为其服务。"
+        },
+        {
+          "senses": "05 · 06",
+          "en": "Speakers and clefs carry it into rooms and scores.",
+          "cn": "音箱与谱号把它带入房间与乐谱。"
+        },
+        {
+          "senses": "07",
+          "en": "The bass line is harmony's footing.",
+          "cn": "贝斯线是和声的地基。"
+        },
+        {
+          "senses": "04",
+          "en": "The fish swims in by spelling alone.",
+          "cn": "鲈鱼仅凭拼写游入本条。"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "The bass family splits at the spelling: one branch hums low, one branch swims.",
+        "cn": "bass 词族在拼写处分岔：一支低鸣，一支游弋。"
+      },
+      "latinIntro": {
+        "en": "Latin bassus and Italian basso feed the music branch.",
+        "cn": "拉丁 bassus 与意大利 basso 喂养音乐一支。"
+      },
+      "items": [
+        {
+          "word": "bassus",
+          "structure": "Latin adjective",
+          "meaning": "low",
+          "meaningCN": "低的",
+          "example": "source of bass",
+          "exampleCN": "bass 之源"
+        },
+        {
+          "word": "basso",
+          "structure": "Italian noun",
+          "meaning": "bass voice or part",
+          "meaningCN": "男低音；低音部",
+          "example": "sing basso",
+          "exampleCN": "唱男低音"
+        },
+        {
+          "word": "baryton",
+          "structure": "Greek-derived, related",
+          "meaning": "deep-toned",
+          "meaningCN": "低沉的",
+          "example": "baritone voice",
+          "exampleCN": "男中音"
+        },
+        {
+          "word": "-ist",
+          "structure": "Greek suffix",
+          "meaning": "player or specialist",
+          "meaningCN": "演奏者；从事者",
+          "example": "bassist",
+          "exampleCN": "贝斯手"
+        },
+        {
+          "word": "double bass",
+          "structure": "English compound",
+          "meaning": "largest bowed bass instrument",
+          "meaningCN": "低音提琴",
+          "example": "play the double bass",
+          "exampleCN": "演奏低音提琴"
+        },
+        {
+          "word": "bass drum",
+          "structure": "English compound",
+          "meaning": "largest drum of a kit",
+          "meaningCN": "大鼓",
+          "example": "boom of the bass drum",
+          "exampleCN": "大鼓的轰鸣"
+        },
+        {
+          "word": "bærs",
+          "structure": "Old English noun",
+          "meaning": "perch",
+          "meaningCN": "河鲈",
+          "example": "source of fish bass",
+          "exampleCN": "鲈鱼义之源"
+        },
+        {
+          "word": "bassoon",
+          "structure": "Italian-derived noun",
+          "meaning": "deep woodwind",
+          "meaningCN": "大管",
+          "example": "bassoon solo",
+          "exampleCN": "大管独奏"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "bassus",
+          "structure": "Latin adjective",
+          "meaning": "low, short",
+          "meaningCN": "低的"
+        }
+      ],
+      "derivatives": [
+        {
+          "word": "bassist",
+          "pos": "n.",
+          "zh": "贝斯手"
+        },
+        {
+          "word": "bassoon",
+          "pos": "n.",
+          "zh": "大管"
+        }
+      ]
+    }
+  }
+]

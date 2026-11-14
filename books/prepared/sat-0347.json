@@ -1,0 +1,505 @@
+[
+  {
+    "word": "base",
+    "ipa_uk": "/beɪs/",
+    "ipa_us": "/beɪs/",
+    "definition_zh": "基础；基地；垒；碱；卑鄙的；以……为基础",
+    "definition_en": "the bottom support of something; a main place of operations; morally low; to found on",
+    "core_image": "金字塔最底下那层石块：一切重量压在它身上",
+    "scene": "登山队把帐篷扎在山口平地上，从这里出发冲顶。They set up a base camp at the foot of the peak.",
+    "sceneCN": "这里 base 指「基地」（第 2 个义项：行动出发的主要据点）；句意：他们在峰脚下建了基地营。",
+    "pos": [
+      {
+        "tag": "n.",
+        "zh": "基础；底座"
+      },
+      {
+        "tag": "n.",
+        "zh": "基地；总部"
+      },
+      {
+        "tag": "adj.",
+        "zh": "卑鄙的；低劣的"
+      },
+      {
+        "tag": "vt.",
+        "zh": "以……为基础；把总部设在"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "base camp",
+        "zh": "基地营"
+      },
+      {
+        "phrase": "military base",
+        "zh": "军事基地"
+      },
+      {
+        "phrase": "baseball base",
+        "zh": "（棒球）垒"
+      },
+      {
+        "phrase": "base motives",
+        "zh": "卑劣动机"
+      },
+      {
+        "phrase": "industrial base",
+        "zh": "工业基础"
+      },
+      {
+        "phrase": "be based in",
+        "zh": "驻于；以……为本"
+      }
+    ],
+    "forms": [
+      {
+        "label": "第三人称单数",
+        "form": "bases"
+      },
+      {
+        "label": "过去式",
+        "form": "based"
+      },
+      {
+        "label": "过去分词",
+        "form": "based"
+      },
+      {
+        "label": "现在分词",
+        "form": "basing"
+      },
+      {
+        "label": "复数",
+        "form": "bases"
+      },
+      {
+        "label": "比较级",
+        "form": "baser / more base"
+      },
+      {
+        "label": "最高级",
+        "form": "basest / most base"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "basement",
+        "pos": "n.",
+        "zh": "地下室；底层（base + -ment）"
+      },
+      {
+        "word": "basic",
+        "pos": "adj.",
+        "zh": "基本的；碱性的（base 的形容词）"
+      },
+      {
+        "word": "basely",
+        "pos": "adv.",
+        "zh": "卑鄙地（base + -ly）"
+      },
+      {
+        "word": "baseness",
+        "pos": "n.",
+        "zh": "卑劣；下贱（base + -ness）"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "The bottom on which a thing stands",
+        "titleCN": "底座；基础",
+        "definition": "the lowest part that supports what is above",
+        "definitionCN": "承托上方之物的最底部分",
+        "example": "The statue stands on a marble base.",
+        "exampleCN": "雕像立在大理石底座上。",
+        "why": "Greek basis meant a step or footing: all weight begins below.",
+        "whyCN": "希腊语 basis 意为「踏步、立足」：一切重量皆始于下方。"
+      },
+      {
+        "no": "02",
+        "title": "A center of operations",
+        "titleCN": "基地；总部",
+        "definition": "a place from which activity is organized",
+        "definitionCN": "组织活动的据点",
+        "example": "The fleet returned to its home base.",
+        "exampleCN": "舰队返回母港基地。",
+        "why": "The foundation widened into any starting place.",
+        "whyCN": "「根基」扩大为一切出发点。"
+      },
+      {
+        "no": "03",
+        "title": "A starting point of ideas",
+        "titleCN": "根据；出发点",
+        "definition": "a principle or fact on which reasoning rests",
+        "definitionCN": "推理所依据的原则或事实",
+        "example": "The theory has a shaky base.",
+        "exampleCN": "这一理论的根基不稳。",
+        "why": "Arguments, like buildings, need ground under them.",
+        "whyCN": "论证如建筑，需有地基。"
+      },
+      {
+        "no": "04",
+        "title": "In baseball",
+        "titleCN": "（棒球）垒",
+        "definition": "one of the four stations a runner must touch",
+        "definitionCN": "跑垒员必须触及的四个点位之一",
+        "example": "He stole second base.",
+        "exampleCN": "他盗上二垒。",
+        "why": "Each station is a fixed footing in the game.",
+        "whyCN": "每个垒位都是赛场上固定的立足点。"
+      },
+      {
+        "no": "05",
+        "title": "In chemistry",
+        "titleCN": "碱",
+        "definition": "a substance that neutralizes acids",
+        "definitionCN": "与酸中和的物质",
+        "example": "Soap is mildly base in solution.",
+        "exampleCN": "肥皂溶液呈弱碱性。",
+        "why": "Translation of Latin basis kept in science.",
+        "whyCN": "科学沿用拉丁 basis 的译名。"
+      },
+      {
+        "no": "06",
+        "title": "Morally low",
+        "titleCN": "卑鄙的；卑劣的",
+        "definition": "without honor or moral principle",
+        "definitionCN": "不讲荣誉或道德原则的",
+        "example": "He betrayed them from base motives.",
+        "exampleCN": "他出于卑劣动机背叛了他们。",
+        "why": "Low of position became low of character.",
+        "whyCN": "地位之低转指品行之低。"
+      },
+      {
+        "no": "07",
+        "title": "Of low quality",
+        "titleCN": "劣质的",
+        "definition": "inferior, especially of metals or coin",
+        "definitionCN": "品质低劣，多指金属或钱币",
+        "example": "base coin was melted down.",
+        "exampleCN": "掺假的劣币被回炉。",
+        "why": "Base metal lacks the nobility of gold.",
+        "whyCN": "卑金属缺少黄金的「高贵」。"
+      },
+      {
+        "no": "08",
+        "title": "The verb: to found on",
+        "titleCN": "动词：以……为据",
+        "definition": "to use something as the ground for a decision or location",
+        "definitionCN": "以某事为决定或驻扎的依据",
+        "example": "The film is based on a true story.",
+        "exampleCN": "影片取材于真实故事。",
+        "why": "The noun made active: to give something a base.",
+        "whyCN": "名词动化：给某物一个根基。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Base as foundation comes from Latin basis, step, from Greek basis, a going or step; the moral sense of base, low, is a different word from Latin bassus, low, short.",
+        "cn": "表「基础」的 base 出自拉丁 basis「步、立足」，源自希腊语；表「卑鄙」的 base 是另一个词，出自拉丁 bassus「低的、矮的」。"
+      },
+      "items": [
+        {
+          "era": "PROTO-INDO-EUROPEAN",
+          "en": "The root gwa- meant to go, to step.",
+          "cn": "词根 gwa- 意为行走、跨步。"
+        },
+        {
+          "era": "GREEK, BASIS",
+          "en": "basis meant a step, footing, foundation.",
+          "cn": "希腊语 basis 指步、立足、基础。"
+        },
+        {
+          "era": "LATIN, BASIS",
+          "en": "Latin kept basis for the pedestal and for mathematical ground.",
+          "cn": "拉丁语 basis 兼指基座与数学中的底。"
+        },
+        {
+          "era": "LATIN, BASSUS",
+          "en": "A separate word bassus meant low in height or rank.",
+          "cn": "另一词 bassus 指身位或地位之低。"
+        },
+        {
+          "era": "ENGLISH, MIDDLE PERIOD",
+          "en": "The two words met in spelling; chemistry and baseball fixed the modern uses.",
+          "cn": "两词在拼法上合流；化学与棒球定型现代用法。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "Group one holds the two base lines and look-alikes; group two holds the support field.",
+        "cn": "第一组收两条 base 词线与形近词；第二组收「支撑」义场。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "bass",
+              "ipa": "/beɪs/",
+              "tag": "same root, different sense",
+              "definition": "deep sound; from bassus, the low word.",
+              "definitionCN": "低音；出自 bassus「低」。"
+            },
+            {
+              "word": "basis",
+              "ipa": "/ˈbeɪsɪs/",
+              "tag": "same root",
+              "definition": "the Latin form kept in academic English.",
+              "definitionCN": "拉丁原形，见于学术英语。"
+            },
+            {
+              "word": "abase",
+              "ipa": "/əˈbeɪs/",
+              "tag": "look-alike, different root",
+              "definition": "to behave in a way that makes yourself seem less important",
+              "definitionCN": "使谦卑；贬低自己——只是与 base 拼写相近，词源同根但语义已分化"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "foundation",
+              "ipa": "/faʊnˈdeɪʃn/",
+              "tag": "near meaning",
+              "definition": "the solid ground or starting basis of a thing.",
+              "definitionCN": "地基；根基。"
+            },
+            {
+              "word": "apex",
+              "ipa": "/ˈeɪpeks/",
+              "tag": "opposite",
+              "definition": "the topmost point.",
+              "definitionCN": "顶点；反义对照。"
+            },
+            {
+              "word": "ignoble",
+              "ipa": "/ɪɡˈnəʊbl/",
+              "tag": "near meaning",
+              "definition": "of low moral character.",
+              "definitionCN": "卑贱的；道德低下。"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "English base wears two masks: Greek basis, the footing, and Latin bassus, the low.",
+        "cn": "英语 base 戴着两张面具：希腊 basis「立足」，拉丁 bassus「低贱」。"
+      },
+      "normal": [
+        {
+          "en": "Root one: Greek basis, step.",
+          "cn": "词根一：希腊语 basis「步」。"
+        },
+        {
+          "en": "Root two: Latin bassus, low.",
+          "cn": "词根二：拉丁语 bassus「低」。"
+        },
+        {
+          "en": "Chemistry: acid meets base.",
+          "cn": "化学：酸与碱相遇。"
+        },
+        {
+          "en": "Baseball: touch every base.",
+          "cn": "棒球：踏遍每个垒。"
+        },
+        {
+          "en": "Phrase: base camp at the mountain's foot.",
+          "cn": "短语：山脚基地营。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "Feel the weight of a building settle into its lowest course of stone.",
+          "cn": "体会整座建筑的重量沉入最底层石块。"
+        },
+        {
+          "en": "Base is where the ladder must be held.",
+          "cn": "base 是梯子必须抵住的那一端。"
+        },
+        {
+          "en": "A base man is a building with no foundation at all.",
+          "cn": "卑劣之人是全无地基的危楼。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "The company is based in Shanghai.",
+        "cn": "这家公司总部设在上海。"
+      },
+      {
+        "en": "He acted from base envy.",
+        "cn": "他的行为出于卑劣的嫉妒。"
+      },
+      {
+        "en": "The lamp has a heavy bronze base.",
+        "cn": "这盏灯配着厚重的铜底座。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「杯石」——杯子底下垫的石头，正是底座",
+      "word": "base"
+    },
+    "root": "「基础」义出希腊语 basis「步、立足」，经拉丁 basis 进入英语；「卑鄙」义为另一词，出拉丁 bassus「低的」；两词在中古英语拼写合流。",
+    "sensesIntro": {
+      "en": "Eight senses stack like a pyramid: the footing, the camp, the argument, the base-runner, the alkali, the low character, the base metal, and the verb that grounds all things.",
+      "cn": "八个义项如金字塔层层相叠：底座、营地、论据、垒位、碱、卑行、贱金属，以及为万物奠基的动词。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: the lowest stone that carries all the rest.",
+        "cn": "核心意象：承托其余一切的最底石块。"
+      },
+      "chain": [
+        "STEP",
+        "FOUNDATION",
+        "CAMP",
+        "STATION",
+        "ALKALI",
+        "LOWNESS"
+      ],
+      "branches": [
+        {
+          "senses": "01 · 03",
+          "en": "Physical and logical ground share one footing.",
+          "cn": "实物与逻辑共一地基。"
+        },
+        {
+          "senses": "02 · 04",
+          "en": "Camps and stations are footings in motion.",
+          "cn": "营地与垒位是移动中的立足点。"
+        },
+        {
+          "senses": "05",
+          "en": "Chemistry keeps the Greek footing in Latin dress.",
+          "cn": "化学以拉丁外衣保留希腊立足点。"
+        },
+        {
+          "senses": "06 · 07",
+          "en": "Low of place becomes low of worth.",
+          "cn": "位置之低化作价值之低。"
+        },
+        {
+          "senses": "08",
+          "en": "The verb hands the base to whatever needs it.",
+          "cn": "动词把根基交予所需之物。"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Base breeds a wide family: foundations, chemists, and moralists all use its offspring.",
+        "cn": "base 子孙繁多：建筑师、化学家与道德家皆用其后裔。"
+      },
+      "latinIntro": {
+        "en": "Greek basis and Latin bassus feed two streams of derivatives.",
+        "cn": "希腊 basis 与拉丁 bassus 汇成两条派生之流。"
+      },
+      "items": [
+        {
+          "word": "basis",
+          "structure": "Greek-derived noun",
+          "meaning": "foundation",
+          "meaningCN": "基础",
+          "example": "on a daily basis",
+          "exampleCN": "按日"
+        },
+        {
+          "word": "-ment",
+          "structure": "Latin suffix",
+          "meaning": "place or result",
+          "meaningCN": "处所；结果",
+          "example": "basement",
+          "exampleCN": "地下室"
+        },
+        {
+          "word": "-ic",
+          "structure": "Greek suffix",
+          "meaning": "relating to",
+          "meaningCN": "与……相关的",
+          "example": "basic",
+          "exampleCN": "基本的"
+        },
+        {
+          "word": "bassus",
+          "structure": "Latin adjective",
+          "meaning": "low",
+          "meaningCN": "低的",
+          "example": "source of moral base",
+          "exampleCN": "卑义之源"
+        },
+        {
+          "word": "bass",
+          "structure": "English noun",
+          "meaning": "deep sound",
+          "meaningCN": "低音",
+          "example": "bass guitar",
+          "exampleCN": "低音吉他"
+        },
+        {
+          "word": "de-",
+          "structure": "Latin prefix",
+          "meaning": "down from",
+          "meaningCN": "自上而下",
+          "example": "debase",
+          "exampleCN": "贬低"
+        },
+        {
+          "word": "a-",
+          "structure": "Greek prefix",
+          "meaning": "not, without",
+          "meaningCN": "无；非",
+          "example": "abase",
+          "exampleCN": "使屈辱"
+        },
+        {
+          "word": "-ly",
+          "structure": "English suffix",
+          "meaning": "in the manner of",
+          "meaningCN": "以……方式",
+          "example": "basely",
+          "exampleCN": "卑鄙地"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "basis",
+          "structure": "Latin noun",
+          "meaning": "pedestal, footing",
+          "meaningCN": "基座；立足"
+        },
+        {
+          "word": "bassus",
+          "structure": "Latin adjective",
+          "meaning": "low, short",
+          "meaningCN": "低的"
+        }
+      ],
+      "derivatives": [
+        {
+          "word": "basic",
+          "pos": "adj.",
+          "zh": "基本的"
+        },
+        {
+          "word": "basement",
+          "pos": "n.",
+          "zh": "地下室"
+        },
+        {
+          "word": "debase",
+          "pos": "vt.",
+          "zh": "贬低"
+        }
+      ]
+    }
+  }
+]

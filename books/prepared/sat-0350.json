@@ -1,0 +1,461 @@
+[
+  {
+    "word": "battery",
+    "ipa_uk": "/ˈbætri/",
+    "ipa_us": "/ˈbætəri/",
+    "definition_zh": "电池；炮兵连；一组；殴打（法律）",
+    "definition_en": "a device storing electric energy; an artillery unit; a set or series; unlawful beating",
+    "core_image": "手电筒里首尾相接的两节小圆柱",
+    "scene": "停电的夜里，收音机突然没了声音。The radio died because the battery was flat.",
+    "sceneCN": "这里 battery 指「电池」（第 1 个义项：储电装置）；句意：收音机不响了，因为电池没电了。",
+    "pos": [
+      {
+        "tag": "n.",
+        "zh": "电池；蓄电池"
+      },
+      {
+        "tag": "n.",
+        "zh": "炮兵连；炮组"
+      },
+      {
+        "tag": "n.",
+        "zh": "一套；一系列"
+      },
+      {
+        "tag": "n.",
+        "zh": "（法律）殴打罪"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "recharge a battery",
+        "zh": "给电池充电"
+      },
+      {
+        "phrase": "a flat battery",
+        "zh": "没电的电池"
+      },
+      {
+        "phrase": "battery of tests",
+        "zh": "一系列测验"
+      },
+      {
+        "phrase": "assault and battery",
+        "zh": "人身侵害"
+      },
+      {
+        "phrase": "artillery battery",
+        "zh": "炮兵连"
+      }
+    ],
+    "forms": [
+      {
+        "label": "复数",
+        "form": "batteries"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "batter",
+        "pos": "v.",
+        "zh": "连续猛击（同根动词）"
+      },
+      {
+        "word": "battery-powered",
+        "pos": "adj.",
+        "zh": "电池供电的（复合形容词）"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "The electric cell",
+        "titleCN": "电池",
+        "definition": "a container that stores chemical energy as electricity",
+        "definitionCN": "以化学能储电的装置",
+        "example": "Insert two AA batteries before use.",
+        "exampleCN": "使用前装入两节五号电池。",
+        "why": "Benjamin Franklin linked toy Leyden jars in a battery, a row of guns.",
+        "whyCN": "富兰克林把串联的莱顿瓶比作一列炮，称 battery。"
+      },
+      {
+        "no": "02",
+        "title": "An artillery unit",
+        "titleCN": "炮兵连",
+        "definition": "a tactical unit of guns and their crews",
+        "definitionCN": "火炮与炮手编成的战术单位",
+        "example": "An artillery battery opened fire at dawn.",
+        "exampleCN": "拂晓时分炮兵连开火。",
+        "why": "French batterie meant the action of battering; guns batter.",
+        "whyCN": "法语 batterie 意为「猛击」；炮即猛击之器。"
+      },
+      {
+        "no": "03",
+        "title": "A set or series",
+        "titleCN": "一套；一系列",
+        "definition": "a group of similar things used together",
+        "definitionCN": "一起使用的一组相似事物",
+        "example": "She faced a battery of interviews.",
+        "exampleCN": "她接受了一连串面试。",
+        "why": "Guns in a row became anything in a row.",
+        "whyCN": "成列的炮化为成列的任何物。"
+      },
+      {
+        "no": "04",
+        "title": "The crime of beating",
+        "titleCN": "殴打罪",
+        "definition": "unlawful physical contact or violence against a person",
+        "definitionCN": "对他人身体的非法侵犯或暴力",
+        "example": "He was charged with assault and battery.",
+        "exampleCN": "他被控人身侵害罪。",
+        "why": "Law took the beating word straight from batter.",
+        "whyCN": "法律径取 batter「击打」之义。"
+      },
+      {
+        "no": "05",
+        "title": "Battery of kitchen tools",
+        "titleCN": "厨房器具组",
+        "definition": "a set of matched pots and pans",
+        "definitionCN": "成套的锅具",
+        "example": "a battery of copper pans",
+        "exampleCN": "一套铜锅",
+        "why": "Same row-idea, domesticated for the kitchen.",
+        "whyCN": "同一「成列」义，驯化入厨。"
+      },
+      {
+        "no": "06",
+        "title": "Rechargeable batteries",
+        "titleCN": "充电电池",
+        "definition": "batteries that can be restored by charging",
+        "definitionCN": "可通过充电恢复的电池",
+        "example": "Lithium batteries power most phones.",
+        "exampleCN": "锂电池为大多数手机供电。",
+        "why": "Chemistry learned to run the storm in reverse.",
+        "whyCN": "化学学会了让反应倒着走。"
+      },
+      {
+        "no": "07",
+        "title": "Battery chicken farming",
+        "titleCN": "层架式养殖",
+        "definition": "intensive cage housing of hens",
+        "definitionCN": "母鸡密集笼养方式",
+        "example": "battery hens in long sheds",
+        "exampleCN": "长棚里的笼养母鸡",
+        "why": "Hens stacked in rows like cells in a battery.",
+        "whyCN": "母鸡如电池般成排成格。"
+      },
+      {
+        "no": "08",
+        "title": "In psychiatry and testing",
+        "titleCN": "测评组合",
+        "definition": "a battery of psychological or medical tests",
+        "definitionCN": "成套的心理或医学测验",
+        "example": "The clinic ran a battery of memory tests.",
+        "exampleCN": "诊所做了一系列记忆测验。",
+        "why": "Tests, like guns, are deployed in batteries.",
+        "whyCN": "测验如炮，成列齐发。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Battery comes from French batterie, from Old French battre, to beat, from Latin batuere; guns, electric cells, and test series all inherit the beating or the row.",
+        "cn": "battery 出自法语 batterie，源于古法语 battre「击打」，上溯拉丁 batuere；火炮、电池与成套测验皆承其「击打」或「成列」之义。"
+      },
+      "items": [
+        {
+          "era": "LATIN, BATUERE",
+          "en": "batuere meant to beat, to strike.",
+          "cn": "拉丁语 batuere 意为击打。"
+        },
+        {
+          "era": "OLD FRENCH, BATTRE",
+          "en": "battre kept the beating sense; batterie meant assault.",
+          "cn": "古法语 battre 保留击打义；batterie 指攻击。"
+        },
+        {
+          "era": "FRENCH, BATTERIE",
+          "en": "The word named artillery in action.",
+          "cn": "该词指作战中的炮兵。"
+        },
+        {
+          "era": "ENGLISH, 16TH C.",
+          "en": "English took battery for bombardment, then for the gun unit.",
+          "cn": "英语先取「炮击」义，再指炮兵单位。"
+        },
+        {
+          "era": "ENGLISH, 1748+",
+          "en": "Franklin's battery of jars started the electric sense.",
+          "cn": "1748 年前后富兰克林以 battery 称并联电容器，电义始焉。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "The cell meaning now leads everyday speech.",
+          "cn": "如今电池义主导日常用语。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "Group one holds the beating family and look-alikes; group two holds the energy field.",
+        "cn": "第一组收「击打」词族与形近词；第二组收「能量」义场。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "batter",
+              "ipa": "/ˈbætə(r)/",
+              "tag": "same root",
+              "definition": "to beat repeatedly; also the pancake mix and the hitter.",
+              "definitionCN": "连续击打；亦指面糊与击球手。"
+            },
+            {
+              "word": "battle",
+              "ipa": "/ˈbætl/",
+              "tag": "same root family",
+              "definition": "combat; from the same bat- root via Latin and French.",
+              "definitionCN": "战斗；同出 bat- 词根。"
+            },
+            {
+              "word": "batty",
+              "ipa": "/ˈbæti/",
+              "tag": "look-alike, different root",
+              "definition": "slightly crazy",
+              "definitionCN": "疯狂的；古怪的——只是与 battery 拼写相近，词源不同"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "cell",
+              "ipa": "/sel/",
+              "tag": "near meaning",
+              "definition": "a single electric unit; a battery may hold many cells.",
+              "definitionCN": "单个电芯；电池可含多个电芯。"
+            },
+            {
+              "word": "generator",
+              "ipa": "/ˈdʒenəreɪtə(r)/",
+              "tag": "near meaning, different",
+              "definition": "a machine that makes electricity as it runs.",
+              "definitionCN": "发电机；运转时产电。"
+            },
+            {
+              "word": "charge",
+              "ipa": "/tʃɑːdʒ/",
+              "tag": "near meaning",
+              "definition": "to fill a battery with energy.",
+              "definitionCN": "充电。"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "battery beats twice: guns beat walls, and a row of jars became a battery of power.",
+        "cn": "battery 击打两次：炮击城墙，成列的瓶子又成了电源。"
+      },
+      "normal": [
+        {
+          "en": "Root: Latin batuere, beat.",
+          "cn": "词根：拉丁语 batuere「击打」。"
+        },
+        {
+          "en": "Artillery: a battery of guns.",
+          "cn": "炮兵：一列火炮。"
+        },
+        {
+          "en": "Law: assault and battery.",
+          "cn": "法律：人身侵害。"
+        },
+        {
+          "en": "Row: a battery of tests.",
+          "cn": "成列：一系列测验。"
+        },
+        {
+          "en": "Power: recharge the battery.",
+          "cn": "电源：给电池充电。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "Hear a drum line striking as one.",
+          "cn": "听鼓列齐击之声。"
+        },
+        {
+          "en": "Battery is violence organized into usefulness.",
+          "cn": "battery 是被组织成有用的暴力。"
+        },
+        {
+          "en": "Pocket a small thunderstorm for later.",
+          "cn": "把一场小雷暴揣进兜里备用。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "Solar panels charge the batteries by day.",
+        "cn": "太阳能板白天为电池充电。"
+      },
+      {
+        "en": "The battery commander ordered a smoke screen.",
+        "cn": "炮兵连长下令施放烟幕。"
+      },
+      {
+        "en": "Nurses ran a battery of blood tests.",
+        "cn": "护士做了一系列血液检测。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「白特雷」——白送的小玩意特能蓄雷（电）",
+      "word": "battery"
+    },
+    "root": "出自法语 batterie「炮组、击打」，源于古法语 battre「击打」，上溯拉丁语 batuere；富兰克林借「成列之炮」称并联电容器，遂生电池义。",
+    "sensesIntro": {
+      "en": "Eight senses fire one row: the cell, the guns, the series, the crime, the kitchen set, rechargeables, the hen cages, and the test battery.",
+      "cn": "八个义项齐发一列：电池、火炮、系列、罪行、厨具、充电电池、鸡笼与成套测验。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: guns in a row, striking as one.",
+        "cn": "核心意象：一列火炮，齐声轰击。"
+      },
+      "chain": [
+        "BEAT",
+        "ARTILLERY",
+        "ROW",
+        "ELECTRICITY",
+        "CRIME",
+        "SERIES"
+      ],
+      "branches": [
+        {
+          "senses": "02",
+          "en": "The beating word becomes the guns.",
+          "cn": "击打之词化作火炮。"
+        },
+        {
+          "senses": "01 · 06",
+          "en": "Franklin's row of jars stores the storm.",
+          "cn": "富兰克林的一列瓶子把雷暴存起来。"
+        },
+        {
+          "senses": "03 · 08",
+          "en": "Tests and tools borrow the row.",
+          "cn": "测验与器具借走「成列」。"
+        },
+        {
+          "senses": "04",
+          "en": "Law keeps the beating literal.",
+          "cn": "法律保留字面击打。"
+        },
+        {
+          "senses": "05 · 07",
+          "en": "Pans and hens stand in ranks too.",
+          "cn": "锅具与母鸡亦列队而立。"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "The bat- beating root runs through war, kitchen, and law.",
+        "cn": "bat-「击打」词根贯穿战争、厨房与法律。"
+      },
+      "latinIntro": {
+        "en": "Latin batuere and its French battre feed the whole family.",
+        "cn": "拉丁 batuere 与法语 battre 哺育整个词族。"
+      },
+      "items": [
+        {
+          "word": "batuere",
+          "structure": "Latin verb",
+          "meaning": "to beat",
+          "meaningCN": "击打",
+          "example": "source of battery",
+          "exampleCN": "battery 之源"
+        },
+        {
+          "word": "batter",
+          "structure": "English verb",
+          "meaning": "to strike repeatedly",
+          "meaningCN": "连续猛击",
+          "example": "waves batter the cliffs",
+          "exampleCN": "海浪拍击悬崖"
+        },
+        {
+          "word": "battle",
+          "structure": "English noun",
+          "meaning": "combat",
+          "meaningCN": "战斗",
+          "example": "pitched battle",
+          "exampleCN": "激战"
+        },
+        {
+          "word": "battalion",
+          "structure": "French-derived noun",
+          "meaning": "military unit",
+          "meaningCN": "营",
+          "example": "an infantry battalion",
+          "exampleCN": "步兵营"
+        },
+        {
+          "word": "abate",
+          "structure": "Latin-derived verb",
+          "meaning": "to beat down, lessen",
+          "meaningCN": "减弱",
+          "example": "the storm abated",
+          "exampleCN": "风暴减弱"
+        },
+        {
+          "word": "combat",
+          "structure": "Latin compound",
+          "meaning": "fight with",
+          "meaningCN": "搏斗",
+          "example": "combat troops",
+          "exampleCN": "作战部队"
+        },
+        {
+          "word": "battery hen",
+          "structure": "English compound",
+          "meaning": "caged laying hen",
+          "meaningCN": "笼养母鸡",
+          "example": "battery eggs",
+          "exampleCN": "笼养鸡蛋"
+        },
+        {
+          "word": "-ery",
+          "structure": "French suffix",
+          "meaning": "collection or place",
+          "meaningCN": "集合；场所",
+          "example": "battery, refinery",
+          "exampleCN": "炮组；精炼厂"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "batuere",
+          "structure": "Latin verb",
+          "meaning": "to beat",
+          "meaningCN": "击打"
+        }
+      ],
+      "derivatives": [
+        {
+          "word": "batter",
+          "pos": "vt.",
+          "zh": "连续猛击"
+        },
+        {
+          "word": "battery-powered",
+          "pos": "adj.",
+          "zh": "电池供电的"
+        }
+      ]
+    }
+  }
+]
