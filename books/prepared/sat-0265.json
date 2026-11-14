@@ -1,0 +1,184 @@
+[
+  {
+    "word": "assuage",
+    "ipa_uk": "/əˈsweɪdʒ/",
+    "ipa_us": "/əˈsweɪdʒ/",
+    "definition_zh": "缓和；减轻；平息；满足",
+    "definition_en": "to make an unpleasant feeling less intense, or to satisfy a desire",
+    "core_image": "一只手轻按波涛，水面渐渐归于平静",
+    "scene": "暴雨过后洪水未退，堤上一夜未眠的人们终于听到水声低了下去。Officials worked through the night to assuage the flood fears of the town.",
+    "sceneCN": "这里 assuage 是「缓和、平息」（第 1 个义项：减轻强烈的情绪）；句意为官员们连夜工作以平息镇民对洪水的恐惧。",
+    "pos": [
+      { "tag": "vt.", "zh": "缓和；减轻（情绪、痛苦）" },
+      { "tag": "vt.", "zh": "平息；满足（欲望、饥渴）" }
+    ],
+    "collocations": [
+      { "phrase": "assuage fears", "zh": "消除恐惧" },
+      { "phrase": "assuage guilt", "zh": "减轻内疚" },
+      { "phrase": "assuage hunger", "zh": "充饥" },
+      { "phrase": "assuage grief", "zh": "抚平悲伤" },
+      { "phrase": "assuage one's thirst", "zh": "解渴" },
+      { "phrase": "assuage anger", "zh": "平息怒火" }
+    ],
+    "forms": [
+      { "label": "三单", "form": "assuages" },
+      { "label": "过去式", "form": "assuaged" },
+      { "label": "过去分词", "form": "assuaged" },
+      { "label": "现在分词", "form": "assuaging" }
+    ],
+    "derivatives": [
+      { "word": "assuagement", "pos": "n.", "zh": "由动词加名词后缀构成，义为「缓和；减轻」" },
+      { "word": "suave", "pos": "adj.", "zh": "同根形容词，义为「温和的；圆滑的」" },
+      { "word": "suasion", "pos": "n.", "zh": "同根名词，义为「说服」" }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "To ease a painful feeling",
+        "titleCN": "缓和；减轻",
+        "definition": "to make grief, fear, or pain less intense",
+        "definitionCN": "使悲伤、恐惧或痛苦变得不那么强烈",
+        "example": "A warm meal can assuage sorrow for a while.",
+        "exampleCN": "一顿热饭能暂时抚慰悲伤。",
+        "why": "Latin suavis meant sweet; sweetening a harsh feeling softens it.",
+        "whyCN": "拉丁语 suavis 意为甜；给苦涩的情绪加点甜，它就缓和了。"
+      },
+      {
+        "no": "02",
+        "title": "To satisfy a desire",
+        "titleCN": "满足；平息（欲求）",
+        "definition": "to fulfil a craving such as hunger or curiosity",
+        "definitionCN": "满足如饥饿、好奇之类的渴求",
+        "example": "Nothing could assuage his hunger for news.",
+        "exampleCN": "什么都满足不了他对消息的渴求。",
+        "why": "A craving is an inner turbulence; satisfying it calms the surge.",
+        "whyCN": "渴求是内心的翻腾；满足它便平息了这股涌动。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Assuage comes from Old French asuagier, from Vulgar Latin *assuaviare, to sweeten, from Latin suavis.",
+        "cn": "assuage 源自古法语 asuagier，出自通俗拉丁语 *assuaviare（使变甜），词根为拉丁语 suavis（甜的）。"
+      },
+      "items": [
+        { "era": "PROTO-INDO-EUROPEAN", "en": "The root *swād- meant sweet.", "cn": "词根 *swād- 意为甜。" },
+        { "era": "LATIN", "en": "Suavis meant sweet, pleasant.", "cn": "拉丁语 suavis 意为甜的、令人愉快的。" },
+        { "era": "VULGAR LATIN", "en": "Assuaviare meant to make sweet, hence to soften.", "cn": "通俗拉丁语 assuaviare 意为使变甜，进而引申为使缓和。" },
+        { "era": "OLD FRENCH", "en": "Asuagier meant to calm or appease.", "cn": "古法语 asuagier 意为使平静、安抚。" },
+        { "era": "ENGLISH, 14TH C.", "en": "English adopted assuage in the fourteenth century.", "cn": "十四世纪英语借入 assuage。" }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "Assuage sweetens turmoil: the same root gives suave its smooth charm.",
+        "cn": "assuage 给纷扰加糖：同根的 suave 也带着温和顺滑。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            { "word": "suave", "ipa": "/swɑːv/", "tag": "same root", "definition": "smoothly agreeable in manner", "definitionCN": "温文尔雅的（同根形容词）" },
+            { "word": "suasion", "ipa": "/ˈsweɪʒn/", "tag": "same root", "definition": "the act of persuading", "definitionCN": "说服（同根名词）" },
+            { "word": "persuade", "ipa": "/pəˈsweɪd/", "tag": "same root", "definition": "to win over by talking", "definitionCN": "说服（同根）" },
+            { "word": "assault", "ipa": "/əˈsɔːlt/", "tag": "spelling", "definition": "similar opening letters, opposite meaning, different root", "definitionCN": "袭击（开头形似，意义相反，词源不同）" },
+            { "word": "sweet", "ipa": "/swiːt/", "tag": "same root idea", "definition": "English cousin of the sweet root", "definitionCN": "甜的（同词根的英语表亲）" }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            { "word": "mollify", "ipa": "/ˈmɒlɪfaɪ/", "tag": "near meaning", "definition": "to soften someone's anger", "definitionCN": "抚慰；使息怒" },
+            { "word": "appease", "ipa": "/əˈpiːz/", "tag": "near meaning", "definition": "to pacify by giving in", "definitionCN": "安抚；绥靖" },
+            { "word": "mitigate", "ipa": "/ˈmɪtɪɡeɪt/", "tag": "near meaning", "definition": "to make less severe", "definitionCN": "减轻；缓解" },
+            { "word": "allay", "ipa": "/əˈleɪ/", "tag": "near meaning", "definition": "to lay to rest a fear or doubt", "definitionCN": "平息；消除" },
+            { "word": "placate", "ipa": "/pləˈkeɪt/", "tag": "near meaning", "definition": "to calm by pleasing", "definitionCN": "安抚" }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "As + suage: think a-swaging, like a wave being smoothed flat.",
+        "cn": "把 assuage 想成 a-swage：像把一块铁敲平，把情绪熨平。"
+      },
+      "normal": [
+        { "en": "suavis means sweet, the root of the word.", "cn": "词根 suavis 意为甜。" },
+        { "en": "sweeten a feeling to soften it.", "cn": "给情绪加甜即是软化。" },
+        { "en": "suave shares the same sweet root.", "cn": "suave 同出甜的词根。" },
+        { "en": "common objects are fears and guilt.", "cn": "常见宾语是恐惧与内疚。" },
+        { "en": "it can also mean satisfy a craving.", "cn": "它也可表示满足渴求。" }
+      ],
+      "abstract": [
+        { "en": "Picture honey stirred into bitter tea.", "cn": "想象蜂蜜搅进苦茶。" },
+        { "en": "See a storm easing into a drizzle.", "cn": "看见暴风雨缓和成细雨。" },
+        { "en": "Feel a clenched fist slowly opening.", "cn": "体会紧握的拳头缓缓松开。" }
+      ]
+    },
+    "examples": [
+      { "en": "The envoy's words assuaged the crowd's anger.", "cn": "特使的话平息了人群的怒火。" },
+      { "en": "He ate quickly to assuage his hunger.", "cn": "他狼吞虎咽以解饥饿。" },
+      { "en": "Nothing could assuage her grief that winter.", "cn": "那年冬天什么都抚不平她的悲伤。" }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「额斯为奇」——额视此物为奇甜之药，苦痛得解即 assuage。",
+      "word": "assuage"
+    },
+    "root": "拉丁语 suavis（甜的）→ 通俗拉丁语 *assuaviare（使变甜）→ 古法语 asuagier（安抚）→ 英语 assuage（缓和；平息）。",
+    "sensesIntro": {
+      "en": "Sweetening a turmoil eases both raw feelings and inner cravings.",
+      "cn": "给纷扰加甜，既抚平情绪，也喂饱欲求。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: honey poured onto a storm",
+        "cn": "核心意象：往风暴上浇蜂蜜"
+      },
+      "chain": [
+        "SWEETNESS",
+        "SOFTENING",
+        "CALMING",
+        "RELIEF",
+        "SATISFACTION",
+        "PEACE"
+      ],
+      "branches": [
+        { "senses": "01", "en": "easing grief or fear", "cn": "抚平悲伤或恐惧" },
+        { "senses": "02", "en": "feeding a craving", "cn": "满足渴求" },
+        { "senses": "01 · 02", "en": "the sweet root at work", "cn": "甜的词根在起作用" },
+        { "senses": "01", "en": "gentle pacifying of anger", "cn": "温和地平息怒气" },
+        { "senses": "02", "en": "quieting an inner surge", "cn": "平息内心的涌动" }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "The sweet root links soothing with pleasing, from taste to temper.",
+        "cn": "甜的词根把抚慰与愉悦相连，从味觉到心绪。"
+      },
+      "latinIntro": {
+        "en": "Latin suavis, sweet, anchors the assuage family.",
+        "cn": "拉丁语 suavis（甜）是 assuage 词族的锚点。"
+      },
+      "items": [
+        { "word": "as-", "structure": "prefix from ad-", "meaning": "toward", "meaningCN": "朝向", "example": "assuage a fear", "exampleCN": "消除恐惧" },
+        { "word": "-suav-", "structure": "Latin root", "meaning": "sweet", "meaningCN": "甜", "example": "assuage hunger", "exampleCN": "充饥" },
+        { "word": "-age", "structure": "verb suffix via French", "meaning": "act of", "meaningCN": "…之行为", "example": "assuage grief", "exampleCN": "抚平悲伤" },
+        { "word": "suave", "structure": "same root adjective", "meaning": "smoothly pleasant", "meaningCN": "温文尔雅的", "example": "a suave diplomat", "exampleCN": "圆滑的外交官" },
+        { "word": "persuade", "structure": "per- + suadere", "meaning": "to urge through", "meaningCN": "说服", "example": "persuade a friend", "exampleCN": "说服朋友" },
+        { "word": "dissuade", "structure": "dis- + suadere", "meaning": "to urge away", "meaningCN": "劝阻", "example": "dissuade him from risk", "exampleCN": "劝他别冒险" },
+        { "word": "suasion", "structure": "suadere noun", "meaning": "persuasion", "meaningCN": "说服", "example": "moral suasion", "exampleCN": "道德劝诫" },
+        { "word": "sweet", "structure": "English cognate", "meaning": "sweet to taste", "meaningCN": "甜的", "example": "sweet fruit", "exampleCN": "甜果" },
+        { "word": "appease", "structure": "near synonym", "meaning": "to pacify", "meaningCN": "安抚", "example": "appease a child", "exampleCN": "哄好孩子" },
+        { "word": "mollify", "structure": "near synonym", "meaning": "to soften", "meaningCN": "使缓和", "example": "mollify critics", "exampleCN": "安抚批评者" }
+      ],
+      "latinEntries": [
+        { "word": "suavis", "structure": "Latin adjective", "meaning": "sweet, pleasant", "meaningCN": "甜的；悦人的" },
+        { "word": "assuaviare", "structure": "Vulgar Latin verb, reconstructed", "meaning": "to sweeten, soften", "meaningCN": "使变甜；使缓和" }
+      ],
+      "derivatives": [
+        { "word": "assuagement", "pos": "n.", "zh": "缓和；减轻" },
+        { "word": "suasion", "pos": "n.", "zh": "说服" }
+      ]
+    }
+  }
+]

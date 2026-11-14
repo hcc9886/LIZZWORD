@@ -1,0 +1,182 @@
+[
+  {
+    "word": "assignee",
+    "ipa_uk": "/ˌæsaɪˈniː/",
+    "ipa_us": "/ˌæsəˈniː/",
+    "definition_zh": "受让人；被指派人；承担人",
+    "definition_en": "a person to whom a right, property, or task is legally assigned or transferred",
+    "core_image": "合同末尾签字栏里接过权利的那个人",
+    "scene": "律师把一份写满条款的合同推过桌面，指着最下面等待签名的一栏。The assignee signed the contract and received all the rights to the patent.",
+    "sceneCN": "这里 assignee 是「受让人」（第 1 个义项：依法接受权利转让的人）；句意为受让人签署合同，取得了这项专利的全部权利。",
+    "pos": [
+      { "tag": "n.", "zh": "受让人（接受权利、财产转让者）" },
+      { "tag": "n.", "zh": "被指派承担任务的人" }
+    ],
+    "collocations": [
+      { "phrase": "the assignee of the patent", "zh": "专利的受让人" },
+      { "phrase": "assignee under the contract", "zh": "合同项下的受让人" },
+      { "phrase": "named assignee", "zh": "指定的受让人" },
+      { "phrase": "assignee of record", "zh": "登记在案的受让人" },
+      { "phrase": "rights of the assignee", "zh": "受让人的权利" }
+    ],
+    "forms": [
+      { "label": "复数", "form": "assignees" }
+    ],
+    "derivatives": [
+      { "word": "assign", "pos": "v.", "zh": "动词本源，义为「指派；转让」" },
+      { "word": "assignment", "pos": "n.", "zh": "由动词加名词后缀构成，义为「转让；任务」" },
+      { "word": "assignor", "pos": "n.", "zh": "同族对偶词，义为「转让人」" },
+      { "word": "assignation", "pos": "n.", "zh": "由动词加名词后缀构成，义为「转让（旧义）；幽会」" }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "A person who receives rights by legal transfer",
+        "titleCN": "受让人",
+        "definition": "a party to whom property, rights, or interests are formally transferred",
+        "definitionCN": "财产、权利或利益被正式转让给的当事方",
+        "example": "The assignee of the lease must honor its terms.",
+        "exampleCN": "租约的受让人必须遵守其条款。",
+        "why": "The suffix -ee marks the person who receives the action, so the assignee is the one the assignment lands on.",
+        "whyCN": "后缀 -ee 标记动作的承受者，受让人正是「转让」落在身上的那一方。"
+      },
+      {
+        "no": "02",
+        "title": "A person to whom a task is assigned",
+        "titleCN": "被指派人",
+        "definition": "a person designated to carry out a particular duty or job",
+        "definitionCN": "被指定执行某项职责或工作的人",
+        "example": "Each assignee reported progress to the project manager.",
+        "exampleCN": "每位被指派人都向项目经理汇报进展。",
+        "why": "Assignment spreads from law into ordinary work, and -ee keeps marking the receiver of the task.",
+        "whyCN": "assignment 从法律语境扩展到日常工作，-ee 依旧标记任务的承受者。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Assignee comes from the verb assign with the legal suffix -ee, tracing back through Old French to Latin assignare.",
+        "cn": "assignee 由动词 assign 加法律后缀 -ee 构成，经古法语追溯至拉丁语 assignare。"
+      },
+      "items": [
+        { "era": "LATIN", "en": "Assignare meant to mark out, allot, from ad- plus signare, to mark.", "cn": "拉丁语 assignare 意为标出、分配，出自 ad- 加 signare（作记号）。" },
+        { "era": "OLD FRENCH", "en": "Old French assigner carried the same sense of allotting.", "cn": "古法语 assigner 保留了分配、指定之义。" },
+        { "era": "ANGLO-LAW FRENCH", "en": "Medieval legal French paired assign with the suffix -ee for the receiving party.", "cn": "中世纪法律法语将 assign 与后缀 -ee 搭配，指接受一方。" },
+        { "era": "ENGLISH, 15TH–16TH C.", "en": "English adopted assignee in legal use by the fifteenth to sixteenth century.", "cn": "十五至十六世纪英语在法律语境中采用 assignee。" },
+        { "era": "MODERN ENGLISH", "en": "It now covers both legal transfers and ordinary task assignments.", "cn": "如今它既指法律转让的受让方，也指被分派任务的人。" }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "The -ee suffix flips the roles: one signs away, the other signs on.",
+        "cn": "后缀 -ee 翻转了角色：一方让出，一方接手。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            { "word": "assignor", "ipa": "/ˌæsaɪˈnɔːr/", "tag": "same root, opposite role", "definition": "the party who transfers the rights", "definitionCN": "转让人（与受让人相对）" },
+            { "word": "assign", "ipa": "/əˈsaɪn/", "tag": "derived form", "definition": "to transfer or appoint", "definitionCN": "转让；指派（动词本源）" },
+            { "word": "assignee in fact", "ipa": "/əˈsaɪn/", "tag": "compound phrase", "definition": "person receiving rights outside formal records", "definitionCN": "事实受让人（短语形式）" },
+            { "word": "esign", "ipa": "/ˈiːsaɪn/", "tag": "spelling", "definition": "electronic signing, unrelated root beyond sign", "definitionCN": "电子签名（拼写相近，实为 sign 的电子用法）" },
+            { "word": "assignation", "ipa": "/ˌæsɪɡˈneɪʃn/", "tag": "same root", "definition": "an appointment or a secret meeting", "definitionCN": "幽会；指定（同根旧义名词）" }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            { "word": "transferee", "ipa": "/ˌtrænsfɜːˈriː/", "tag": "near meaning", "definition": "person to whom property is transferred", "definitionCN": "受转让人（近义法律用语）" },
+            { "word": "grantee", "ipa": "/ɡrænˈtiː/", "tag": "near meaning", "definition": "person granted rights or property", "definitionCN": "被授予人" },
+            { "word": "beneficiary", "ipa": "/ˌbenɪˈfɪʃəri/", "tag": "near meaning", "definition": "one who benefits from an arrangement", "definitionCN": "受益人" },
+            { "word": "successor", "ipa": "/səkˈsesər/", "tag": "near meaning", "definition": "one who takes over a position or rights", "definitionCN": "继承人；继任者" },
+            { "word": "nominee", "ipa": "/ˌnɒmɪˈniː/", "tag": "near meaning", "definition": "person named to hold or receive something", "definitionCN": "被提名者；代名人" }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Break it as assign + ee: the ee is the one who ends up holding the rights.",
+        "cn": "拆成 assign + -ee：带 -ee 的那个就是最终接过权利的人。"
+      },
+      "normal": [
+        { "en": "-ee marks the receiver, as in employee and trainee.", "cn": "-ee 标记接受方，如 employee、trainee。" },
+        { "en": "assignor transfers, assignee receives.", "cn": "assignor 转让，assignee 接受。" },
+        { "en": "in law the word belongs to contract language.", "cn": "在法律中它是合同术语。" },
+        { "en": "plural is assignees, spelled with a double e ending.", "cn": "复数为 assignees，以双 e 结尾。" },
+        { "en": "assignment names the act or document of transfer.", "cn": "assignment 指转让行为或文书。" }
+      ],
+      "abstract": [
+        { "en": "Picture a baton passed in a relay; the catcher is the assignee.", "cn": "想象接力中递出的接力棒：接住它的就是受让人。" },
+        { "en": "See two signature lines; the second name is the assignee.", "cn": "看到两行签名栏：第二个名字是受让人。" },
+        { "en": "Feel a package delivered; whoever signs for it is the assignee.", "cn": "体会一件包裹送达：签收的人即受让人。" }
+      ]
+    },
+    "examples": [
+      { "en": "The assignee recorded the transfer at the registry.", "cn": "受让人在登记处办理了转让登记。" },
+      { "en": "Each assignee received a clear list of duties.", "cn": "每位被指派人都拿到一份明确的职责清单。" },
+      { "en": "Courts protect the assignee against hidden defects in the claim.", "cn": "法院保护受让人免受权利中的隐性瑕疵。" }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「额赛你」——任务「额」来「赛」给「你」，你就是被指派、受让的人。",
+      "word": "assignee"
+    },
+    "root": "拉丁语 ad-（朝向）+ signare（作记号）→ assignare（标出、分配）→ 古法语 assigner → 英语 assign 加法律后缀 -ee（承受者）。",
+    "sensesIntro": {
+      "en": "From signed transfers of rights come both legal assignees and everyday task holders.",
+      "cn": "从「签字转让」长出法律上的受让人与日常的被指派人两支。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: a name written on the receiving line of a contract",
+        "cn": "核心意象：合同受让栏上写下的名字"
+      },
+      "chain": [
+        "SIGNING",
+        "ALLOTTING",
+        "TRANSFERRING",
+        "RECEIVING",
+        "UNDERTAKING",
+        "ENTITLEMENT"
+      ],
+      "branches": [
+        { "senses": "01", "en": "receiving rights through legal transfer", "cn": "经法律转让接受权利" },
+        { "senses": "02", "en": "being designated for a task", "cn": "被指定承担任务" },
+        { "senses": "01 · 02", "en": "the receiving role marked by -ee", "cn": "-ee 标记的承受角色" },
+        { "senses": "01", "en": "entitlement recorded in documents", "cn": "文件记载的权利归属" },
+        { "senses": "02", "en": "responsibility accepted in work settings", "cn": "工作场景中接下的职责" }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Assignee shows how a legal suffix turns a verb into the receiving party.",
+        "cn": "assignee 展示了法律后缀如何把动词变成承受方名词。"
+      },
+      "latinIntro": {
+        "en": "Latin signare, to mark, is the seed of the whole assign family.",
+        "cn": "拉丁语 signare（作记号）是整个 assign 词族的种子。"
+      },
+      "items": [
+        { "word": "ad-", "structure": "Latin prefix", "meaning": "toward", "meaningCN": "朝向", "example": "assign a duty", "exampleCN": "指派任务" },
+        { "word": "-sign-", "structure": "Latin root", "meaning": "mark, sign", "meaningCN": "作记号；签署", "example": "sign the deed", "exampleCN": "签署契约" },
+        { "word": "-ee", "structure": "legal suffix", "meaning": "person receiving the action", "meaningCN": "动作承受者", "example": "the assignee of rights", "exampleCN": "权利受让人" },
+        { "word": "-or", "structure": "agent suffix", "meaning": "person performing the action", "meaningCN": "动作发出者", "example": "the assignor transfers", "exampleCN": "转让人实施转让" },
+        { "word": "-ment", "structure": "noun suffix", "meaning": "act or result", "meaningCN": "行为或结果", "example": "an assignment of lease", "exampleCN": "租约转让" },
+        { "word": "designate", "structure": "de- + signare", "meaning": "to mark out for a role", "meaningCN": "指定", "example": "designate a successor", "exampleCN": "指定继任者" },
+        { "word": "signature", "structure": "sign + -ature", "meaning": "a signed mark", "meaningCN": "签名", "example": "a wet signature", "exampleCN": "手写签名" },
+        { "word": "insignia", "structure": "Latin plural", "meaning": "marks of rank", "meaningCN": "徽章；标识", "example": "military insignia", "exampleCN": "军衔徽章" },
+        { "word": "consign", "structure": "con- + sign", "meaning": "to hand over, entrust", "meaningCN": "托运；交付", "example": "consign the goods", "exampleCN": "托运货物" },
+        { "word": "signal", "structure": "sign + -al", "meaning": "a marked sign", "meaningCN": "信号", "example": "a traffic signal", "exampleCN": "交通信号灯" }
+      ],
+      "latinEntries": [
+        { "word": "assignare", "structure": "Latin verb", "meaning": "to mark out, allot", "meaningCN": "标出；分配" },
+        { "word": "signare", "structure": "Latin verb", "meaning": "to mark, seal", "meaningCN": "作记号；盖印" }
+      ],
+      "derivatives": [
+        { "word": "assignment", "pos": "n.", "zh": "转让；任务" },
+        { "word": "assignor", "pos": "n.", "zh": "转让人" },
+        { "word": "assignable", "pos": "adj.", "zh": "可转让的" }
+      ]
+    }
+  }
+]
