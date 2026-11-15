@@ -1,0 +1,408 @@
+{
+ "word": "capacitor",
+ "ipa_uk": "/kəˈpæsɪtə(r)/",
+ "ipa_us": "/kəˈpæsɪtər/",
+ "definition_zh": "电容器",
+ "definition_en": "a device that stores electric charge and energy in an electric field between conductive plates",
+ "core_image": "两片金属板隔着一层绝缘膜对峙：电荷挤在两边蓄势待发",
+ "scene": "拆开的旧收音机主板暴露在台灯下，各色元件密密麻麻。A swollen capacitor had leaked and killed the radio.",
+ "sceneCN": "这里 capacitor 是「电容器」（第 1 个义项：储存电荷的元件）；句意是一只鼓包的电容器漏液，毁掉了收音机。",
+ "pos": [
+  {
+   "tag": "n.",
+   "zh": "电容器"
+  }
+ ],
+ "collocations": [
+  {
+   "phrase": "a charged capacitor",
+   "zh": "已充电的电容器"
+  },
+  {
+   "phrase": "capacitor bank",
+   "zh": "电容器组"
+  },
+  {
+   "phrase": "electrolytic capacitor",
+   "zh": "电解电容器"
+  },
+  {
+   "phrase": "discharge a capacitor",
+   "zh": "给电容器放电"
+  },
+  {
+   "phrase": "capacitor plate",
+   "zh": "电容器极板"
+  },
+  {
+   "phrase": "a failed capacitor",
+   "zh": "失效的电容器"
+  }
+ ],
+ "forms": [
+  {
+   "label": "复数",
+   "form": "capacitors"
+  }
+ ],
+ "derivatives": [
+  {
+   "word": "capacitance",
+   "pos": "n.",
+   "zh": "同根专业名词，义为「电容（量）」"
+  },
+  {
+   "word": "capacity",
+   "pos": "n.",
+   "zh": "同根基础名词，义为「容量；能力」"
+  },
+  {
+   "word": "capacitive",
+   "pos": "adj.",
+   "zh": "由 capacitance 加形容词后缀构成，义为「电容的；电容性的」"
+  }
+ ],
+ "senses": [
+  {
+   "no": "01",
+   "title": "The charge-storing component",
+   "titleCN": "电容器",
+   "definition": "an electrical component of conductive plates separated by an insulator, storing charge and releasing it quickly",
+   "definitionCN": "由绝缘层隔开的导电极板构成的电子元件，可储存并快速释放电荷",
+   "example": "The capacitor stores energy for the camera flash.",
+   "exampleCN": "电容器为相机闪光灯储能。",
+   "why": "The device is named for what it does: it has great capacity to hold charge.",
+   "whyCN": "器件因功能得名：它拥有储存电荷的巨大「容量」。"
+  },
+  {
+   "no": "02",
+   "title": "The capacitor as circuit element",
+   "titleCN": "（电路元件意义上的）电容",
+   "definition": "in circuit theory, the idealized element that opposes sudden voltage change and blocks direct current",
+   "definitionCN": "电路理论中抵抗电压突变的理想化元件，可隔断直流",
+   "example": "Couple the two stages with a capacitor to block the DC offset.",
+   "exampleCN": "用一只电容把两级电路耦合起来，隔掉直流偏置。",
+   "why": "Beyond the physical part, the word names the mathematical role in analysis.",
+   "whyCN": "超出实物之外，这个词还指分析中对应的数学角色。"
+  }
+ ],
+ "etymology": {
+  "intro": {
+   "en": "Capacitor is a modern coinage on the Latin stem cap-, to hold, naming a device whose whole job is holding charge.",
+   "cn": "capacitor 是在拉丁词干 cap-（容纳）上的现代造词，命名一个专职「容纳电荷」的器件。"
+  },
+  "items": [
+   {
+    "era": "PROTO-INDO-EUROPEAN",
+    "en": "The root *kap- means to grasp or hold, the ancient base of have and heavy.",
+    "cn": "词根 *kap- 意为抓住、握有，是 have、heavy 等词的古老源头。"
+   },
+   {
+    "era": "LATIN",
+    "en": "Latin capere meant to take or hold; capax described a thing able to hold much.",
+    "cn": "拉丁语 capere 意为拿取、容纳；capax 形容能装很多东西之物。"
+   },
+   {
+    "era": "PHYSICS, 18TH C.",
+    "en": "Early experimenters spoke of electrical capacity as bodies held charge; capacitance later quantified it.",
+    "cn": "十八世纪的实验者以「电容本领」描述物体储电；capacitance 一词后来将其定量化。"
+   },
+   {
+    "era": "ENGINEERING, 20TH C.",
+    "en": "The device name capacitor, favored in American usage over condenser, spread with the electronics industry.",
+    "cn": "二十世纪，美式用法偏爱的 capacitor 随电子工业普及，取代了 condenser。"
+   },
+   {
+    "era": "MODERN ENGLISH",
+    "en": "Today capacitors appear in everything from flash units to power grids and touchscreens.",
+    "cn": "如今电容器出现在闪光灯、电网到触控屏的一切设备中。"
+   }
+  ]
+ },
+ "similar": {
+  "note": {
+   "en": "Capacitor belongs to the cap- holding family and carries one famous look-alike trap.",
+   "cn": "capacitor 属于 cap-「容纳」词族，并带着一个著名的形近陷阱。"
+  },
+  "groups": [
+   {
+    "heading": "LOOK-ALIKE",
+    "entries": [
+     {
+      "word": "capacitance",
+      "ipa": "/kəˈpæsɪtəns/",
+      "tag": "same root, quantity",
+      "definition": "The measure of how much charge a capacitor can store per volt.",
+      "definitionCN": "电容量，即电容器每伏特能储存的电荷量。"
+     },
+     {
+      "word": "capacity",
+      "ipa": "/kəˈpæsəti/",
+      "tag": "same root, everyday noun",
+      "definition": "The amount something can hold or produce.",
+      "definitionCN": "容量；产能；能力。"
+     },
+     {
+      "word": "resistor",
+      "ipa": "/rɪˈzɪstər/",
+      "tag": "parallel device",
+      "definition": "The component that resists current, the other basic passive part.",
+      "definitionCN": "电阻器，抵抗电流的另一基本无源元件。"
+     },
+     {
+      "word": "condenser",
+      "ipa": "/kənˈdensər/",
+      "tag": "older synonym",
+      "definition": "The older British name for a capacitor, still used for special types.",
+      "definitionCN": "电容器旧称（英式），某些类型至今沿用。"
+     }
+    ]
+   },
+   {
+    "heading": "NEAR MEANING",
+    "entries": [
+     {
+      "word": "battery",
+      "ipa": "/ˈbætəri/",
+      "tag": "contrast",
+      "definition": "A chemical energy store that releases charge slowly and steadily.",
+      "definitionCN": "化学储能装置，缓慢稳定地释放电荷，与电容快速释放相对。"
+     },
+     {
+      "word": "accumulator",
+      "ipa": "/əˈkjuːmjəleɪtər/",
+      "tag": "near meaning",
+      "definition": "A charge-storing cell, older engineering vocabulary.",
+      "definitionCN": "蓄电池；蓄能器，较老的工程用语。"
+     },
+     {
+      "word": "dielectric",
+      "ipa": "/ˌdaɪɪˈlektrɪk/",
+      "tag": "near meaning, part",
+      "definition": "The insulating layer between a capacitor's plates.",
+      "definitionCN": "电容器极板间的绝缘介质层。"
+     },
+     {
+      "word": "inductor",
+      "ipa": "/ɪnˈdʌktər/",
+      "tag": "parallel device",
+      "definition": "The component that stores energy in a magnetic field, the capacitor's dual.",
+      "definitionCN": "电感器，在磁场中储能，是电容器的对偶元件。"
+     },
+     {
+      "word": "insulator",
+      "ipa": "/ˈɪnsəleɪtər/",
+      "tag": "opposite role",
+      "definition": "A material that blocks charge flow, the middle layer's job.",
+      "definitionCN": "绝缘体，阻挡电荷流动，即中间层的职责。"
+     }
+    ]
+   }
+  ]
+ },
+ "mnemonics": {
+  "normalIntro": {
+   "en": "Five hooks on the hold root and the two-plate standoff.",
+   "cn": "五条围绕「容纳」词根与「两板对峙」画面的记忆钩子。"
+  },
+  "normal": [
+   {
+    "en": "Root core: capacitor holds charge, exactly as capacity holds amounts.",
+    "cn": "词根核心：capacitor 容纳电荷，正如 capacity 容纳数量。"
+   },
+   {
+    "en": "Picture rule: two plates, one gap, charge pressed against both faces.",
+    "cn": "画面规则：两块极板、一道缝隙，电荷紧压在两面上。"
+   },
+   {
+    "en": "Family row: capacity, capacitance, capacitor, capacitive climb the same stem.",
+    "cn": "家族队列：capacity、capacitance、capacitor、capacitive 沿同一词干逐级而上。"
+   },
+   {
+    "en": "Usage split: American engineers say capacitor; British tradition long said condenser.",
+    "cn": "用法分野：美国工程师说 capacitor，英国传统长期说 condenser。"
+   },
+   {
+    "en": "Function hook: it blocks DC but passes AC, the exam line worth memorizing.",
+    "cn": "功能钩子：隔直流、通交流，是值得背下的考点句。"
+   }
+  ],
+  "abstract": [
+   {
+    "en": "Two armies of charge glaring across a valley neither may cross, strength growing with the silence.",
+    "cn": "两军电荷隔着一条谁也过不去的峡谷对峙，沉默中力量不断积蓄。"
+   },
+   {
+    "en": "A dam holding back a thin sheet of lightning, released in one blinding blink.",
+    "cn": "一道薄如蝉翼的闪电被水坝拦住，眨眼间倾泻而出。"
+   },
+   {
+    "en": "A sandwich of metal, plastic, metal, thin enough to hide inside every gadget.",
+    "cn": "金属-塑料-金属的三明治，薄得能藏进任何小玩意。"
+   }
+  ]
+ },
+ "examples": [
+  {
+   "en": "Technicians replaced every aging capacitor on the power board.",
+   "cn": "技术人员更换了电源板上所有老化的电容器。"
+  },
+  {
+   "en": "The defibrillator's capacitor stores the charge for the life-saving jolt.",
+   "cn": "除颤仪的电容器为救命的一击储存电荷。"
+  },
+  {
+   "en": "Touchscreens sense fingers through a grid of transparent capacitors.",
+   "cn": "触控屏通过透明电容阵列感知手指。"
+  }
+ ],
+ "dict_mnemonic": {
+  "note": "谐音记忆 · 非词源",
+  "text": "「克拍sitter」——「可拍」的照片全靠闪光灯，闪光灯里坐着（sitter）一只储电的电容；联想两块极板面对面「坐着」存电荷，即是电容器。",
+  "word": "capacitor"
+ },
+ "root": "现代科技造词，基于拉丁词干 cap-（容纳），出自 capere（拿取、容纳），可上溯至印欧词根 *kap-（抓取）。器件义为「储存电荷之物」，与 capacity（容量）、capacitance（电容量）、capacitive（电容性的）同族。美式英语用 capacitor，英式旧称 condenser。",
+ "sensesIntro": {
+  "en": "From the physical part the word extends to the idealized element of circuit theory.",
+  "cn": "从实物元件出发，词义延伸到电路理论中的理想化元件。"
+ },
+ "semanticMap": {
+  "core": {
+   "en": "CORE IMAGE: two charged plates separated by an insulator, energy held on a hair trigger.",
+   "cn": "核心意象：被绝缘层隔开的两块带电极板，能量蓄势于毫厘之间。"
+  },
+  "chain": [
+   "HOLDING",
+   "STORED CHARGE",
+   "TWO-PLATE DEVICE",
+   "QUICK RELEASE",
+   "CIRCUIT ELEMENT",
+   "GRID-SCALE STORAGE"
+  ],
+  "branches": [
+   {
+    "senses": "01",
+    "en": "THE BENCH: physical capacitors soldered into every board.",
+    "cn": "工作台：焊进每块电路板的实物电容。"
+   },
+   {
+    "senses": "02",
+    "en": "THE EQUATION: the abstract element in analysis and design.",
+    "cn": "方程：分析设计中的抽象元件。"
+   },
+   {
+    "senses": "01 · 02",
+    "en": "THE TIMING: capacitors set the heartbeat of circuits.",
+    "cn": "节律：电容器设定电路的心跳。"
+   },
+   {
+    "senses": "01",
+    "en": "THE POWER GRID: capacitor banks steadying voltage.",
+    "cn": "电网：稳定电压的电容器组。"
+   },
+   {
+    "senses": "01 · 02",
+    "en": "THE NAMESAKE: all of it named for the simple act of holding.",
+    "cn": "词源呼应：这一切都因「容纳」这一朴素动作而得名。"
+   }
+  ]
+ },
+ "affixes": {
+  "intro": {
+   "en": "Capacitor is the Latin stem capac- plus the agent noun ending -or, the thing that holds.",
+   "cn": "capacitor 由拉丁词干 capac- 加施动名词词尾 -or 构成，即「容纳之器」。"
+  },
+  "latinIntro": {
+   "en": "The cap- stem of holding powers both everyday and technical vocabulary.",
+   "cn": "cap-「容纳」词干同时驱动日常与技术词汇。"
+  },
+  "items": [
+   {
+    "word": "capere",
+    "structure": "Latin verb",
+    "meaning": "to take, hold",
+    "meaningCN": "拿取；容纳",
+    "example": "capere vim electricam",
+    "exampleCN": "容纳电力（拉丁语式用例示意）。"
+   },
+   {
+    "word": "capax",
+    "structure": "Latin adjective",
+    "meaning": "able to hold much",
+    "meaningCN": "能容纳很多的",
+    "example": "vas capax",
+    "exampleCN": "大容器（拉丁语用例示意）。"
+   },
+   {
+    "word": "-or",
+    "structure": "agent-noun suffix",
+    "meaning": "one that does",
+    "meaningCN": "施动者名词后缀",
+    "example": "capacitor, resistor",
+    "exampleCN": "如 capacitor、resistor。"
+   },
+   {
+    "word": "capacitance",
+    "structure": "capac- + -ance",
+    "meaning": "the measure of charge stored",
+    "meaningCN": "电容量",
+    "example": "a capacitance of ten microfarads",
+    "exampleCN": "电容量十微法。"
+   },
+   {
+    "word": "capacitive",
+    "structure": "capacitance + -ive",
+    "meaning": "relating to capacitance",
+    "meaningCN": "电容性的",
+    "example": "capacitive touch screen",
+    "exampleCN": "电容式触控屏。"
+   },
+   {
+    "word": "capacitor bank",
+    "structure": "noun compound",
+    "meaning": "a group of capacitors acting together",
+    "meaningCN": "电容器组",
+    "example": "the substation's capacitor bank",
+    "exampleCN": "变电站的电容器组。"
+   },
+   {
+    "word": "electrolytic capacitor",
+    "structure": "noun compound",
+    "meaning": "capacitor using an electrolyte layer",
+    "meaningCN": "电解电容器",
+    "example": "replace the electrolytic capacitors",
+    "exampleCN": "更换电解电容器。"
+   },
+   {
+    "word": "capacity",
+    "structure": "capac- + -ity",
+    "meaning": "amount that can be held",
+    "meaningCN": "容量",
+    "example": "storage capacity",
+    "exampleCN": "储存容量。"
+   }
+  ],
+  "latinEntries": [
+   {
+    "word": "capacitas",
+    "structure": "Late Latin noun",
+    "meaning": "capacity, roominess",
+    "meaningCN": "容量；宽广",
+    "example": "capacitas loci",
+    "exampleCN": "场所的容量（拉丁语用例示意）。"
+   }
+  ],
+  "derivatives": [
+   {
+    "word": "capacitance",
+    "pos": "n.",
+    "zh": "电容量"
+   },
+   {
+    "word": "capacitive",
+    "pos": "adj.",
+    "zh": "电容性的"
+   }
+  ]
+ }
+}
