@@ -7341,6 +7341,45 @@
       }
     }
 
+    // 小游戏是独立页面，读不到本页内存里的词表。跳转前把「当前词书 + 已学词 +
+    // 本书可用词条」写进独立键，四款游戏据此出题，难度与背词进度保持一致。
+    const GAMES_BRIDGE_KEY = "lizzword_games_bridge_v1";
+    function publishGamesBridge() {
+      try {
+        const usable = words.filter((item) => item && item.word
+          && item.ipa_us && item.ipa_us !== "音标未准备"
+          && item.definition_zh && item.definition_zh !== "释义未准备");
+        if (!usable.length) return;
+        // 游戏卡片只放得下短释义，取中文首义，与内联词池的口径一致
+        const shortZh = (item) => {
+          const chunks = String(item.definition_zh).split(/[；;、，,]/).map((s) => s.trim()).filter(Boolean);
+          return chunks[0] || String(item.definition_zh).trim();
+        };
+        const rows = usable.map((item) => ({ word: item.word, ipa: item.ipa_us, zh: shortZh(item) }));
+        const inBook = new Set(rows.map((row) => row.word));
+        // learnedEver 是跨书累积的，必须与本书词表求交集，否则会把别的书的词带进来
+        const learned = [...new Set((Array.isArray(state.learnedEver) ? state.learnedEver : []).filter((w) => inBook.has(w)))];
+        const config = getBookConfig(state.bookId);
+        localStorage.setItem(GAMES_BRIDGE_KEY, JSON.stringify({
+          v: 1,
+          bookId: config.id,
+          bookName: config.name,
+          at: Date.now(),
+          learned: learned,
+          words: rows
+        }));
+      } catch (error) {
+        // 快照写不进去时小游戏回退到内联词池，不影响背词流程
+      }
+    }
+
+    // 词书分片是逐个到达的，合并成一次写入，避免每片都序列化整本词表
+    let gamesBridgeTimer = 0;
+    function publishGamesBridgeSoon() {
+      clearTimeout(gamesBridgeTimer);
+      gamesBridgeTimer = setTimeout(publishGamesBridge, 400);
+    }
+
     function todayWrongCount() {
       return state.wrongDate === dateKey(getToday()) ? state.wrongCount : 0;
     }
@@ -7604,6 +7643,7 @@
       window.LZStudyTimer.pauseLearn();
       state.learnSummary = buildLearnSummary();
       saveState();
+      publishGamesBridge();
       // 整组词全部通过（不是答错重来的中间态）才弹一次鼓励
       showEncouragement();
     }
@@ -10842,6 +10882,7 @@
         }
         // 小游戏是独立页面，保留原有背词流程不受影响
         if (target === "games") {
+          publishGamesBridge();
           location.href = "games.html";
           return;
         }
@@ -11142,6 +11183,7 @@
       });
 
       renderAll();
+      publishGamesBridge();
     }
 
     // ============================================================
@@ -11685,6 +11727,7 @@
         // 主数据是首屏必需项；没有它就不拿半套数据启动
         if (!bookData) return;
         applyBookData(bookData || config.fallback || BOOK_FALLBACK, collectPrepared(), distractorData);
+        publishGamesBridgeSoon();
         if (!booted) {
           booted = true;
           if (typeof done === "function") done();
@@ -11796,6 +11839,7 @@
         }
         applyDeepFallbackWords();
         renderAll();
+        publishGamesBridge();
         return;
       }
       renderAll();

@@ -1,6 +1,7 @@
 /* ============================================================
    LIZZWORD · 单词小游戏核心
-   词池来自 games-words.js（脚本内联，不经过 fetch）。
+   词池优先取主程序写下的词书快照（lizzword_games_bridge_v1）：
+   已学词 → 本书全部词 → games-words.js 内联兜底，难度跟随背词进度。
    成绩写入独立的 lizzword_games_v1，不触碰主程序与 Lizz 的状态键。
    ============================================================ */
 (function () {
@@ -8,13 +9,71 @@
 
   const RAW = window.LIZZWORD_GAME_WORDS || [];
   const STORE_KEY = "lizzword_games_v1";
+  const BRIDGE_KEY = "lizzword_games_bridge_v1";
   const GAMES = [];
 
-  const words = RAW.map(function (item) {
-    return { word: item.word, ipa: item.ipa, zh: item.zh };
-  }).filter(function (item) {
-    return item.word && item.zh;
+  // 低于这个可玩词量就退回上一级范围，否则一局里全是重复词
+  const MIN_SCOPE_WORDS = 8;
+  const MODE_MIN = { all: 4, match: 6, scramble: 4, flash: 4, listen: 4 };
+
+  function normalizeRows(list) {
+    const seen = Object.create(null);
+    const rows = [];
+    (Array.isArray(list) ? list : []).forEach(function (item) {
+      if (!item || !item.word || !item.zh) return;
+      const word = String(item.word).trim();
+      const zh = String(item.zh).trim();
+      if (!word || !zh || word.length > 24 || /[一-龥]/.test(word)) return;
+      const key = word.toLowerCase();
+      if (seen[key]) return;
+      seen[key] = true;
+      rows.push({ word: word, ipa: item.ipa || "", zh: zh });
+    });
+    return rows;
+  }
+
+  function readBridge() {
+    try {
+      const raw = window.localStorage.getItem(BRIDGE_KEY);
+      if (!raw) return null;
+      const data = JSON.parse(raw);
+      if (!data || data.v !== 1 || !Array.isArray(data.words)) return null;
+      return data;
+    } catch (error) {
+      return null;
+    }
+  }
+
+  const builtinWords = normalizeRows(RAW);
+  const bridge = readBridge();
+  const bookWords = bridge ? normalizeRows(bridge.words) : [];
+  const learnedSet = Object.create(null);
+  (bridge && Array.isArray(bridge.learned) ? bridge.learned : []).forEach(function (word) {
+    learnedSet[String(word).toLowerCase()] = true;
   });
+  const learnedWords = bookWords.filter(function (item) {
+    return learnedSet[item.word.toLowerCase()];
+  });
+
+  let scope = "builtin";
+  let words = builtinWords;
+  if (learnedWords.length >= MIN_SCOPE_WORDS) {
+    scope = "learned";
+    words = learnedWords;
+  } else if (bookWords.length >= MIN_SCOPE_WORDS) {
+    scope = "book";
+    words = bookWords;
+  }
+
+  const context = {
+    bookId: scope === "builtin" ? "" : String(bridge.bookId || ""),
+    bookName: scope === "builtin" ? "" : String(bridge.bookName || ""),
+    scope: scope,
+    learnedCount: learnedWords.length,
+    bookCount: bookWords.length,
+    totalCount: words.length,
+    playable: {}
+  };
 
   /* ---------- 基础工具 ---------- */
   function shuffle(list) {
@@ -56,27 +115,50 @@
   }
 
   /* ---------- 词池 ---------- */
-  // 中文释义在本词池内唯一的词，才能安全用于「英文↔中文」配对。
+  // 中文释义在当前词池内唯一的词，才能安全用于「英文↔中文」配对。
   const zhCount = {};
   words.forEach(function (item) {
     zhCount[item.zh] = (zhCount[item.zh] || 0) + 1;
   });
 
+  // 词量不够时放宽外观限制（长度），但绝不放宽配对所需的释义唯一性
+  function fit(strict, relaxed, mode) {
+    return strict.length >= MODE_MIN[mode] ? strict : relaxed;
+  }
+
+  const uniqueZh = words.filter(function (item) {
+    return zhCount[item.zh] === 1;
+  });
+
+  // 字母重组要把单词拆成字母块，只有纯字母词条能进这一池；
+  // 题面只给中文释义，所以释义必须唯一，否则 accept / acceptance 都算对
+  const spellable = words.filter(function (item) {
+    return /^[A-Za-z]+$/.test(item.word) && zhCount[item.zh] === 1;
+  });
+
   const pools = {
     all: byWord(words),
-    match: byWord(words.filter(function (item) {
-      return zhCount[item.zh] === 1 && item.zh.length <= 6 && item.word.length <= 10;
-    })),
-    scramble: byWord(words.filter(function (item) {
+    match: byWord(fit(uniqueZh.filter(function (item) {
+      return item.zh.length <= 6 && item.word.length <= 10;
+    }), uniqueZh.filter(function (item) {
+      return item.zh.length <= 12 && item.word.length <= 16;
+    }), "match")),
+    scramble: byWord(fit(spellable.filter(function (item) {
       return item.word.length >= 4 && item.word.length <= 10;
-    })),
-    flash: byWord(words.filter(function (item) {
+    }), spellable.filter(function (item) {
+      return item.word.length >= 3 && item.word.length <= 14;
+    }), "scramble")),
+    flash: byWord(fit(words.filter(function (item) {
       return item.zh.length <= 8;
-    })),
-    listen: byWord(words.filter(function (item) {
+    }), words, "flash")),
+    listen: byWord(fit(words.filter(function (item) {
       return item.zh.length <= 8;
-    }))
+    }), words, "listen"))
   };
+
+  Object.keys(MODE_MIN).forEach(function (mode) {
+    context.playable[mode] = pools[mode].length >= MODE_MIN[mode];
+  });
 
   // 为一题生成若干个不重复、且中文释义不与正确答案重复的干扰项
   function optionsFor(correct, count, mode) {
@@ -449,6 +531,8 @@
   window.LZG = {
     words: words,
     pools: pools,
+    context: context,
+    modeMin: MODE_MIN,
     shuffle: shuffle,
     sample: sample,
     pickWords: pickWords,

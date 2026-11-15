@@ -71,19 +71,40 @@
     return best ? "最佳 " + best.score + " 分" : "未挑战";
   }
 
+  function scopeLabel() {
+    const ctx = G.context || {};
+    const book = ctx.bookName || "当前词书";
+    if (ctx.scope === "learned") return book + " · 已学 " + ctx.learnedCount + " 词";
+    if (ctx.scope === "book") return book + " · 本书词表";
+    return "内置词表";
+  }
+
+  function scopeNote() {
+    const ctx = G.context || {};
+    if (ctx.scope === "learned") return "只出当前词书里你已经学过的词，难度跟着背词进度走。";
+    if (ctx.scope === "book") return "已学词还太少，先用「" + (ctx.bookName || "当前词书") + "」整本词表出题；学满几组后自动切回已学词。";
+    return "还没读到背词进度，先用内置词表。从首页的「单词小游戏」入口进来就会自动同步。";
+  }
+
+  function playable(id) {
+    const map = (G.context && G.context.playable) || {};
+    return map[id] !== false;
+  }
+
   function renderHome() {
     currentId = "home";
     document.title = "单词小游戏 · LIZZWORD";
 
     const cards = G.games().map(function (game) {
       const best = G.getBest(game.id);
+      const ok = playable(game.id);
       return `
-        <a class="lzg-card" href="#${game.id}">
+        <a class="lzg-card${ok ? "" : " is-locked"}" href="#${game.id}">
           <span class="lzg-card-icon">${game.icon || ICONS[game.id] || ""}</span>
           <span class="lzg-card-body">
             <span class="lzg-card-title">${G.escapeHtml(game.title)}</span>
             <span class="lzg-card-desc">${G.escapeHtml(game.desc || "")}</span>
-            <span class="lzg-card-best">${bestText(best)}</span>
+            <span class="lzg-card-best${ok ? "" : " is-warn"}">${ok ? bestText(best) : "词量不足"}</span>
           </span>
           <span class="lzg-card-arrow" aria-hidden="true">›</span>
         </a>`;
@@ -95,11 +116,12 @@
         <div>
           <h1>单词小游戏</h1>
           <p>四款轻量小游戏，单局 3–5 分钟。围着词义回忆与拼写反复练习，不打断原有背词节奏。</p>
+          <span class="lzg-scope">${G.escapeHtml(scopeLabel())}</span>
         </div>
       </div>
       <div class="lzg-games">${cards}</div>
       <div class="lzg-home-foot">
-        可玩词条 ${G.words.length} 个 · 成绩只保存在本机浏览器
+        可玩词条 ${G.words.length} 个 · 成绩只保存在本机浏览器<br>${G.escapeHtml(scopeNote())}
       </div>`;
 
     currentCleanup = null;
@@ -122,6 +144,7 @@
         <div>
           <h1>${G.escapeHtml(game.title)}</h1>
           <p>${G.escapeHtml(game.tagline || "")}</p>
+          <span class="lzg-scope">${G.escapeHtml(scopeLabel())}</span>
         </div>
         <span class="lzg-best-chip" data-best-chip>${bestText(best)}</span>
       </div>
@@ -129,6 +152,21 @@
 
     const stage = app.querySelector("#lzg-stage");
     const chip = app.querySelector("[data-best-chip]");
+
+    if (!playable(id)) {
+      const need = (G.modeMin && G.modeMin[id]) || 4;
+      const have = (G.pools[id] || []).length;
+      stage.innerHTML = `
+        <div class="lzg-panel">
+          <p class="lzg-tip is-bad">当前范围里能出这道题的词只有 ${have} 个，至少需要 ${need} 个。</p>
+          <p class="lzg-tip">回首页多学几组词，词量够了这里会自动解锁。</p>
+          <div class="lzg-result-actions">
+            <a class="lzg-btn lzg-btn-primary" href="index.html">去背几个词</a>
+            <button type="button" class="lzg-btn lzg-btn-ghost" data-home>换个小游戏</button>
+          </div>
+        </div>`;
+      return;
+    }
 
     const api = {
       toast: G.toast,
