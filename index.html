@@ -1354,6 +1354,26 @@
     cursor: pointer;
   }
   .vocab-option:active { background: #eef2ff; }
+  .vocab-option:disabled { cursor: default; }
+  .vocab-option.is-correct { background: #ecfdf5; border-color: #34d399; font-weight: 600; }
+  .vocab-option.is-wrong { background: #fef2f2; border-color: #fca5a5; }
+  .vocab-option.is-dim { opacity: .5; }
+  .vocab-mark { float: right; font-size: 0.72rem; font-weight: 700; color: #1d6b3a; }
+  .vocab-unsure {
+    width: 100%;
+    margin-top: 12px;
+    padding: 12px;
+    background: #f8fafc;
+    border: 1px dashed #dbe3f0;
+    border-radius: 12px;
+    color: #64748b;
+    font-size: 0.9rem;
+  }
+  .vocab-unsure:active { background: #eef1f6; }
+  .vocab-feedback { margin: 14px 0 12px; font-size: 0.9rem; line-height: 1.7; text-align: left; color: #475569; }
+  .vocab-feedback.is-right { color: #1d6b3a; }
+  .vocab-feedback.is-wrong { color: #b42318; }
+  .vocab-next { width: 100%; padding: 12px; }
   .vocab-badge {
     display: inline-block;
     min-width: 44px;
@@ -9762,7 +9782,7 @@
     const VOCAB_AXIS_MAX = VOCAB_LEVELS.length - 1;  // 上界（C2 之外封顶）
 
     function vocabQuizStart() {
-      vocabQuiz = { pos: 2, asked: [], question: null, correct: 0 };
+      vocabQuiz = { pos: 2, asked: [], question: null, correct: 0, unsure: 0, feedback: null };
       renderVocabTest();
     }
 
@@ -9802,7 +9822,7 @@
           <section class="vocab-intro">
             <div class="vocab-card">
               <h2 class="vocab-heading">词汇量测试</h2>
-              <p class="vocab-desc">约 ${VOCAB_QUIZ_STEPS} 道选择题，选中文意思即可。答对难度上升、答错难度下降，结束时给出你的词汇量区间与 CEFR 等级。</p>
+              <p class="vocab-desc">约 ${VOCAB_QUIZ_STEPS} 道选择题，选中文意思即可，拿不准就点「不确定」。答对难度上升、答错或不确定难度下降，每题都会告诉你正确答案，结束时给出你的词汇量区间与 CEFR 等级。</p>
               ${last ? `<p class="vocab-last">上次结果：<b>约 ${Math.round(last.estimate).toLocaleString()} 词</b> · <span class="vocab-badge" style="background:${VOCAB_BADGES[last.level] || "#94a3b8"}">${last.level}</span>（${last.date}）</p>` : ""}
               <button type="button" class="btn-primary vocab-start" data-vocab-start>${last ? "再测一次" : "开始测试"}</button>
               <button type="button" class="vocab-back" data-vocab-reset>← 返回主界面</button>
@@ -9816,29 +9836,67 @@
       }
       if (!vocabQuiz.question) vocabQuizPickQuestion();
       const q = vocabQuiz.question;
+      const fb = vocabQuiz.feedback;
+      const answerIndex = q.options.findIndex((opt) => opt[1] === q.answer);
+      const isLast = vocabQuiz.asked.length >= VOCAB_QUIZ_STEPS;
       mount.innerHTML = `
         <section class="vocab-intro">
           <div class="vocab-card">
             <p class="vocab-progress">第 ${vocabQuiz.asked.length} / ${VOCAB_QUIZ_STEPS} 题</p>
             <div class="vocab-word">${esc(q.word)}</div>
             <div class="vocab-options">
-              ${q.options.map((opt, i) => `
-                <button type="button" class="vocab-option" data-vocab-answer="${i}">${esc(opt[1])}</button>
-              `).join("")}
+              ${q.options.map((opt, i) => {
+                let cls = "vocab-option";
+                if (fb) {
+                  if (i === answerIndex) cls += " is-correct";
+                  else if (i === fb.picked) cls += " is-wrong";
+                  else cls += " is-dim";
+                }
+                const mark = fb && i === answerIndex ? '<span class="vocab-mark">正确答案</span>' : "";
+                return `<button type="button" class="${cls}" data-vocab-answer="${i}"${fb ? " disabled" : ""}>${esc(opt[1])}${mark}</button>`;
+              }).join("")}
             </div>
+            ${fb ? `
+              <p class="vocab-feedback ${fb.correct ? "is-right" : "is-wrong"}">
+                ${fb.correct
+                  ? `答对了：<b>${esc(q.word)}</b> = ${esc(q.answer)}`
+                  : `${fb.unsure ? "不确定没关系" : "答错了"}，正确答案是 <b>${esc(q.answer)}</b>（${esc(q.word)}）`}
+              </p>
+              <button type="button" class="btn-primary vocab-next" data-vocab-next>${isLast ? "查看结果 →" : "下一题 →"}</button>
+            ` : `
+              <button type="button" class="vocab-unsure" data-vocab-unsure>不确定</button>
+            `}
           </div>
         </section>`;
     }
 
+    // 作答后先停在本题：标出正确答案，等玩家点「下一题」再前进
     function vocabQuizAnswer(index) {
-      if (!vocabQuiz || vocabQuiz.done || !vocabQuiz.question) return;
-      const correct = vocabQuiz.question.options[index][1] === vocabQuiz.question.answer;
+      if (!vocabQuiz || vocabQuiz.done || !vocabQuiz.question || vocabQuiz.feedback) return;
+      const q = vocabQuiz.question;
+      const correct = q.options[index][1] === q.answer;
+      vocabQuiz.feedback = { picked: index, correct, unsure: false };
       if (correct) {
         vocabQuiz.correct += 1;
         vocabQuiz.pos = Math.min(VOCAB_AXIS_MAX, vocabQuiz.pos + 1);
       } else {
         vocabQuiz.pos = Math.max(VOCAB_AXIS_MIN, vocabQuiz.pos - 1);
       }
+      renderVocabTest();
+    }
+
+    // 「不确定」：不计入答对，难度同样降一档，并直接展示正确答案
+    function vocabQuizUnsure() {
+      if (!vocabQuiz || vocabQuiz.done || !vocabQuiz.question || vocabQuiz.feedback) return;
+      vocabQuiz.feedback = { picked: -1, correct: false, unsure: true };
+      vocabQuiz.unsure += 1;
+      vocabQuiz.pos = Math.max(VOCAB_AXIS_MIN, vocabQuiz.pos - 1);
+      renderVocabTest();
+    }
+
+    function vocabQuizNext() {
+      if (!vocabQuiz || vocabQuiz.done || !vocabQuiz.feedback) return;
+      vocabQuiz.feedback = null;
       vocabQuiz.question = null;
       if (vocabQuiz.asked.length >= VOCAB_QUIZ_STEPS) vocabQuizFinish();
       else renderVocabTest();
@@ -9858,6 +9916,7 @@
         estimate: (low + high) / 2,
         range: [low, high],
         correct: vocabQuiz.correct,
+        unsure: vocabQuiz.unsure,
         total: VOCAB_QUIZ_STEPS,
         date: new Date().toLocaleDateString("zh-CN")
       };
@@ -9873,7 +9932,7 @@
           <div class="vocab-card vocab-result">
             <span class="vocab-badge vocab-badge-big" style="background:${VOCAB_BADGES[r.level] || "#94a3b8"}">${r.level}</span>
             <p class="vocab-estimate">估算词汇量 <b>${r.range[0].toLocaleString()} – ${r.range[1].toLocaleString()}</b> 词</p>
-            <p class="vocab-score">答对 ${r.correct} / ${r.total} 题</p>
+            <p class="vocab-score">答对 ${r.correct} / ${r.total} 题${r.unsure ? ` · 不确定 ${r.unsure} 题` : ""}</p>
             <h3 class="vocab-heading">推荐词书</h3>
             ${recs.length ? recs.map((book) => {
               const info = BOOKS.find((b) => b.id === book.id) || {};
@@ -10907,6 +10966,14 @@
       const vocabAnswer = event.target.closest("[data-vocab-answer]");
       if (vocabAnswer) {
         vocabQuizAnswer(Number(vocabAnswer.dataset.vocabAnswer));
+        return;
+      }
+      if (event.target.closest("[data-vocab-unsure]")) {
+        vocabQuizUnsure();
+        return;
+      }
+      if (event.target.closest("[data-vocab-next]")) {
+        vocabQuizNext();
         return;
       }
       if (event.target.closest("[data-vocab-reset]")) {
