@@ -410,6 +410,14 @@
     const shop = full.shop && typeof full.shop === "object" ? full.shop : {};
     const before = shopPoints(shop);
     const next = Math.min(999999, before + amount);
+    // 商店余额＝累计获得 − 累计花掉：只写 points 会在下次归一化时被抹掉，
+    // 所以已有累计值的存档必须同步抬高 earned（旧存档留给商店模块迁移）
+    if (shop.earned != null || shop.spent != null) {
+      const spent = Math.max(0, Math.floor(Number(shop.spent) || 0));
+      const earned = Math.max(0, Math.floor(Number(shop.earned) || 0));
+      shop.spent = spent;
+      shop.earned = Math.min(9999999, Math.max(earned + (next - before), next + spent));
+    }
     shop.points = next;
 
     const ledger = Array.isArray(shop.ledger)

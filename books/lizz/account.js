@@ -633,16 +633,53 @@
     return out;
   }
 
+  /* 商店快照统一交给 lizz-shop.js 归一化（含 earned/spent 累计值与旧存档迁移）；
+     没加载商店模块的预览页退化为只读余额，形状保持一致。 */
+  function normalizeShopSide(raw) {
+    const api = window.LIZZWORD_LIZZ_SHOP;
+    if (api && typeof api.normalizeShop === "function") return api.normalizeShop(raw);
+    const src = isObject(raw) ? raw : {};
+    const points = Math.max(0, Math.floor(Number(src.points) || 0));
+    const spent = Math.max(0, Math.floor(Number(src.spent) || 0));
+    const earned = Math.max(points + spent, Math.max(0, Math.floor(Number(src.earned) || 0)));
+    return {
+      points: earned - spent,
+      earned: earned,
+      spent: spent,
+      owned: Array.isArray(src.owned) ? src.owned.map((id) => String(id || "")) : [],
+      slots: isObject(src.slots) ? src.slots : {},
+      equipped: typeof src.equipped === "string" ? src.equipped : "",
+      words: isObject(src.words) ? src.words : {},
+      review: isObject(src.review) ? src.review : {},
+      feed: isObject(src.feed) ? src.feed : {},
+      ledger: Array.isArray(src.ledger) ? src.ledger : []
+    };
+  }
+
   function mergeShop(localShop, remoteShop, newerShop) {
-    const a = isObject(localShop) ? localShop : {};
-    const b = isObject(remoteShop) ? remoteShop : {};
-    const newer = isObject(newerShop) ? newerShop : a;
+    const a = normalizeShopSide(localShop);
+    const b = normalizeShopSide(remoteShop);
+    const newer = normalizeShopSide(newerShop);
     const owned = unionList(a.owned, b.owned);
-    const equippedA = typeof a.equipped === "string" ? a.equipped : "";
-    const equippedB = typeof b.equipped === "string" ? b.equipped : "";
-    let equipped = typeof newer.equipped === "string" ? newer.equipped : "";
-    if (!equipped) equipped = equippedA || equippedB;
-    if (equipped && !owned.includes(equipped)) equipped = "";
+
+    // 六个部位各自保留：优先较新快照，其次任一快照，且必须是已拥有的装扮
+    const slots = {};
+    const slotKeys = Array.from(new Set(
+      Object.keys(isObject(a.slots) ? a.slots : {}).concat(Object.keys(isObject(b.slots) ? b.slots : {}))
+    ));
+    slotKeys.forEach((key) => {
+      const pick = (isObject(newer.slots) && newer.slots[key])
+        || (isObject(a.slots) && a.slots[key])
+        || (isObject(b.slots) && b.slots[key])
+        || "";
+      slots[key] = owned.includes(pick) ? pick : "";
+    });
+    const SLOT_ORDER = ["accessory", "outfit", "wings", "handheld", "expression", "skin"];
+    let equipped = SLOT_ORDER.map((key) => slots[key]).find(Boolean) || "";
+    if (!equipped) {
+      const fallback = [newer.equipped, a.equipped, b.equipped].find((id) => typeof id === "string" && id && owned.includes(id));
+      equipped = fallback || "";
+    }
 
     const words = {
       date: "",
@@ -653,11 +690,19 @@
     const wa = isObject(a.words) ? a.words : {};
     const wb = isObject(b.words) ? b.words : {};
     const wNew = isObject(newer.words) ? newer.words : wa;
-    words.date = typeof wNew.date === "string" ? wNew.date : "";
+    // 结算游标跟「日期较新的一侧」走，避免旧日期的游标把今天已结算的词再算一遍积分
+    words.date = laterDate(wa.date, wb.date) || (typeof wNew.date === "string" ? wNew.date : "");
     const sameDay = wa.date && wb.date && wa.date === wb.date;
-    words.lastWords = sameDay ? Math.max(Number(wa.lastWords) || 0, Number(wb.lastWords) || 0) : Number(wNew.lastWords) || 0;
-    words.counted = sameDay ? Math.max(Number(wa.counted) || 0, Number(wb.counted) || 0) : Number(wNew.counted) || 0;
-    words.awarded = sameDay ? Math.max(Number(wa.awarded) || 0, Number(wb.awarded) || 0) : Number(wNew.awarded) || 0;
+    if (sameDay) {
+      words.lastWords = Math.max(Number(wa.lastWords) || 0, Number(wb.lastWords) || 0);
+      words.counted = Math.max(Number(wa.counted) || 0, Number(wb.counted) || 0);
+      words.awarded = Math.max(Number(wa.awarded) || 0, Number(wb.awarded) || 0);
+    } else {
+      const side = (wa.date && wa.date === words.date) ? wa : ((wb.date && wb.date === words.date) ? wb : wNew);
+      words.lastWords = Number(side.lastWords) || 0;
+      words.counted = Number(side.counted) || 0;
+      words.awarded = Number(side.awarded) || 0;
+    }
 
     const feedA = isObject(a.feed) ? a.feed : {};
     const feedB = isObject(b.feed) ? b.feed : {};
@@ -668,8 +713,11 @@
       ? Math.max(Number(feedA.used) || 0, Number(feedB.used) || 0)
       : Number(feedNew.used) || 0;
 
-    // 积分是余额：以较新快照为准；已购置装扮永远取并集，不会因合并而丢
-    const points = Number(newer.points) || 0;
+    // 积分是余额＝累计获得 − 累计花掉，两个累计值各取最大值：
+    // 换打开方式后本机的空快照不会清零云端余额，已购置装扮的花费也不会被旧快照退回
+    const earned = Math.max(Number(a.earned) || 0, Number(b.earned) || 0);
+    const spent = Math.max(Number(a.spent) || 0, Number(b.spent) || 0);
+    const points = Math.max(0, Math.floor(earned - spent));
 
     const ledger = [];
     const seen = Object.create(null);
@@ -688,8 +736,11 @@
     const reviewA = isObject(a.review) ? a.review : {};
     const reviewB = isObject(b.review) ? b.review : {};
     return {
-      points: Math.max(0, Math.floor(points)),
+      points: points,
+      earned: Math.floor(earned),
+      spent: Math.floor(spent),
       owned: owned,
+      slots: slots,
       equipped: equipped,
       words: words,
       review: {

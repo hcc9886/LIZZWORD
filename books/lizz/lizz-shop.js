@@ -70,12 +70,36 @@
     return slots.accessory || slots.outfit || slots.wings || slots.handheld || slots.expression || slots.skin || "";
   }
 
+  const MAX_TOTAL = 9999999;
+
+  function ownedPriceSum(owned) {
+    return owned.reduce((sum, id) => {
+      const item = ACC.byId.get(id);
+      return sum + (item ? clampInt(item.price, 0, MAX_TOTAL) : 0);
+    }, 0);
+  }
+
+  /* 余额＝累计获得 − 累计花掉。两个累计值只增不减，跨设备合并时各取最大值即可：
+     空快照（换打开方式后本机没有存档）不会把云端余额清零，购买也不会被旧快照退回。
+     旧存档没有 earned/spent：用「当前余额 + 已购置装扮总价」还原历史获得量。 */
+  function normalizeTotals(src, owned) {
+    const points = clampInt(src.points, 0, 999999);
+    if (src.earned == null && src.spent == null) {
+      const spent = ownedPriceSum(owned);
+      return { earned: clampInt(points + spent, 0, MAX_TOTAL), spent, points };
+    }
+    const spent = clampInt(src.spent, 0, MAX_TOTAL);
+    const earned = Math.max(spent, clampInt(src.earned, 0, MAX_TOTAL));
+    return { earned, spent, points: clampInt(earned - spent, 0, 999999) };
+  }
+
   function normalizeShop(raw) {
     const src = raw && typeof raw === "object" ? raw : {};
     const owned = Array.isArray(src.owned)
       ? Array.from(new Set(src.owned.map((id) => String(id || "")).filter((id) => ACC.byId.has(id))))
       : [];
     const slots = normalizeSlots(src, owned);
+    const totals = normalizeTotals(src, owned);
     const words = src.words && typeof src.words === "object" ? src.words : {};
     const review = src.review && typeof src.review === "object" ? src.review : {};
     const feed = src.feed && typeof src.feed === "object" ? src.feed : {};
@@ -85,7 +109,9 @@
         .slice(-MAX_LEDGER)
       : [];
     return {
-      points: clampInt(src.points, 0, 999999),
+      points: totals.points,
+      earned: totals.earned,
+      spent: totals.spent,
       owned,
       slots,
       equipped: mirrorEquipped(slots),
@@ -216,6 +242,7 @@
       const gain = (units - shop.words.awarded) * WORD_POINTS;
       shop.words.awarded = units;
       shop.points += gain;
+      shop.earned += gain;
       pushLedger(shop, "words", gain);
       earned += gain;
       changed = true;
@@ -233,6 +260,7 @@
     if (reviewDone && shop.review.lastAwardDate !== today) {
       shop.review.lastAwardDate = today;
       shop.points += REVIEW_POINTS;
+      shop.earned += REVIEW_POINTS;
       pushLedger(shop, "review", REVIEW_POINTS);
       earned += REVIEW_POINTS;
       changed = true;
@@ -280,6 +308,7 @@
     if (shop.points < item.price) return { ok: false, reason: "points", need: item.price - shop.points };
 
     shop.points -= item.price;
+    shop.spent += item.price;
     shop.owned.push(item.id);
     shop.slots[item.category] = item.id;
     shop.equipped = mirrorEquipped(shop.slots);
@@ -879,6 +908,7 @@
     equip: equipItem,
     unequip: unequipItem,
     getState: readShop,
+    normalizeShop,
     getSummary: shopSummary,
     summaryHTML() {
       const summary = shopSummary();
