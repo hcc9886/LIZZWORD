@@ -8862,23 +8862,17 @@
       return Math.max(1, sessionSize || Number(state.dailyTarget) || 10);
     }
 
-    // 当日批次快照：只取当天词量以内的到期词；循环时复用这份快照，不重新从整本书取词
+    // 当日批次快照：只取当天词量以内、今天还没复习过的到期词
     function reviewBatchWords() {
       return getDueWords().slice(0, reviewBatchLimit());
     }
 
-    function ensureReviewSession() {
-      const today = dateKey(getToday());
-      const existing = state.reviewSession;
-      if (existing && existing.date === today) return existing;
-
-      const due = reviewBatchWords();
-      if (!due.length) return null;
-      const session = {
-        date: today,
+    function newReviewSession(due, debug) {
+      return {
+        date: dateKey(getToday()),
         startMs: 0,
         elapsedMs: 0,   // 已结算的复习有效时长
-        debug: false,
+        debug: Boolean(debug),
         due: due.slice(),
         recallQueue: shuffle(due),
         recallPassed: [],
@@ -8898,6 +8892,16 @@
         wrongCount: 0,
         summary: null
       };
+    }
+
+    function ensureReviewSession() {
+      const today = dateKey(getToday());
+      const existing = state.reviewSession;
+      if (existing && existing.date === today) return existing;
+
+      const due = reviewBatchWords();
+      if (!due.length) return null;
+      const session = newReviewSession(due, false);
       state.reviewSession = session;
       saveState();
       return session;
@@ -9012,28 +9016,34 @@
       saveState();
     }
 
-    // 完成页「继续复习」：在当天同一批词里再走一轮，不换词、不重复改动 SRS 排期
+    // 完成页「继续复习」：先接上当天还没复习的到期词；到期词全走完了才复练这一批
     function restartReviewRound() {
       const session = state.reviewSession;
       if (!session) return;
-      session.loopCount = (Number(session.loopCount) || 0) + 1;
-      session.summary = null;
-      session.startMs = 0;
-      session.recallQueue = shuffle(session.due);
-      session.recallPassed = [];
-      session.recallWrong = 0;
-      session.recallDone = false;
-      session.r1 = shuffle(session.due);
-      session.r1Passed = [];
-      session.r2 = [];
-      session.r2Passed = [];
-      session.writeQueue = [];
-      session.writeDone = [];
-      session.speakQueue = [];
-      session.speakDone = [];
-      session.correctCount = 0;
-      session.wrongCount = 0;
-      // graded / hadWrong 保留：这一批词当天已经结算过 SRS，第二轮只复练不再改节点
+      const next = reviewBatchWords();
+      if (next.length) {
+        // 换了一批新词，必须重新判分，所以 graded / hadWrong 不能沿用
+        state.reviewSession = newReviewSession(next, session.debug);
+      } else {
+        session.loopCount = (Number(session.loopCount) || 0) + 1;
+        session.summary = null;
+        session.startMs = 0;
+        session.recallQueue = shuffle(session.due);
+        session.recallPassed = [];
+        session.recallWrong = 0;
+        session.recallDone = false;
+        session.r1 = shuffle(session.due);
+        session.r1Passed = [];
+        session.r2 = [];
+        session.r2Passed = [];
+        session.writeQueue = [];
+        session.writeDone = [];
+        session.speakQueue = [];
+        session.speakDone = [];
+        session.correctCount = 0;
+        session.wrongCount = 0;
+        // graded / hadWrong 保留：这一批词当天已经结算过 SRS，复练不再改节点
+      }
       current = null;
       undoSnapshot = null;
       undoUsed = false;
@@ -9375,6 +9385,11 @@
         due: [], correctCount: 0, wrongCount: 0, startMs: 0, debug: false
       });
       const nextText = summary.nextDue ? dueText(summary.nextDue) : (summary.mastered >= words.length ? "全部掌握" : "暂无");
+      const remaining = getDueWords().length;
+      const batchLimit = reviewBatchLimit();
+      const roundText = remaining > 0
+        ? `这一轮 ${session ? session.due.length : summary.words} 个词已走完，今天还有 ${remaining} 个到期词。点「继续复习」接上下一批（每批最多 ${batchLimit} 个）。`
+        : `今天到期的词都走完了。点「继续复习」可以把这 ${session ? session.due.length : summary.words} 个词再练一轮，不再改动排期。`;
       document.getElementById("view-review").innerHTML = `
         <section class="study-card">
           <h2 class="done-title">复习完成</h2>
@@ -9387,7 +9402,7 @@
           <p class="done-text">下次复习：${esc(nextText)}</p>
           ${summary.recallWrong > 0 ? `<p class="done-text">回想关有 ${summary.recallWrong} 次没想起来（这一关不计入排期）。</p>` : ""}
           <p class="done-text encourage">${esc(summary.encouragement)}</p>
-          <p class="done-text">这一轮 ${session ? session.due.length : summary.words} 个词已走完：可以继续在这批词里再来一轮，也可以结束本次复习。</p>
+          <p class="done-text">${esc(roundText)}</p>
           <button type="button" class="btn-primary" data-review-again>继续复习</button>
           <button type="button" class="btn-ghost" data-home>完成</button>
         </section>`;
