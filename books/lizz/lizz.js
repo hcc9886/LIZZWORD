@@ -285,30 +285,34 @@
     widget.classList.toggle("is-overjoyed", mood === "overjoyed");
   }
 
-  /* 新词 → 饼干：按 readAppProgress() 的 wordsToday 增量结算，直接进碗（无上限） */
+  /* 新词 → 饼干：当天每满一组 5 个词掉一块（5／10／15／20…），一组只发一次 */
   function checkCookieProgress() {
     if (!state) return;
     const progress = S.readAppProgress();
     if (!progress || !progress.date) return;
+    const size = S.COOKIE_GROUP_SIZE || 5;
+    const words = Math.max(0, Math.floor(Number(progress.wordsToday) || 0));
+    const groups = Math.floor(words / size);
     if (!state.cookieSeen || state.cookieSeen.date !== progress.date) {
       // 新的一天：以当天当前进度为基线，历史进度不补发饼干
-      state.cookieSeen = { date: progress.date, wordsToday: progress.wordsToday };
+      state.cookieSeen = { date: progress.date, wordsToday: words, awarded: groups };
       S.save(state);
       return;
     }
-    const delta = progress.wordsToday - state.cookieSeen.wordsToday;
-    if (delta > 0) {
-      state.cookieSeen.wordsToday = progress.wordsToday;
-      state.food = (Number(state.food) || 0) + delta * (S.COOKIE_PER_WORD || 1);
+    const gain = groups - state.cookieSeen.awarded;
+    if (gain > 0) {
+      state.cookieSeen.awarded = groups;
+      state.cookieSeen.wordsToday = words;
+      state.food = (Number(state.food) || 0) + gain;
       if (state.foodReacted !== state.food && state.mode === "active") {
         // 新饼干入碗：星星眼 + 傲娇，同批只反应一次
         celebrateFood(500);
       }
       S.save(state);
       renderFood(true);
-    } else if (delta < 0) {
-      // 进度被重置：只校准基线，不回收已入碗的饼干
-      state.cookieSeen.wordsToday = progress.wordsToday;
+    } else if (words !== state.cookieSeen.wordsToday) {
+      // 还没攒满一组，或进度被重置：只校准游标，不回收已入碗的饼干
+      state.cookieSeen.wordsToday = words;
       S.save(state);
     }
   }
@@ -586,8 +590,7 @@
 
   function onGroupCompleted() {
     if (!state) return;
-    // 完成一组额外奖励 1 块饼干（新词结算另算）；库存无上限，直接叠加
-    state.food = (Number(state.food) || 0) + 1;
+    // 饼干只按“每满 5 个新词”结算（checkCookieProgress），完成一组不再额外加块
     state.praiseAt = new Date().toISOString();
     const wasHidden = state.mode === "hidden";
     if (wasHidden) {
@@ -681,23 +684,7 @@
     }
     checkGroupProgress();
     checkCookieProgress();
-    eatCookies();
     syncVisibility();
-  }
-
-  /* Lizz 自己吃饼干：库存 > 0 时，隔一会儿吃一块（库存每天清零） */
-  let lastEatAt = 0;
-  function eatCookies() {
-    if (!state || state.mode !== "active") return;
-    if (TUT.isOpen()) return;
-    const now = Date.now();
-    if (now - lastEatAt < 8000) return; // 约 8 秒吃一块
-    if ((Number(state.food) || 0) <= 0) return;
-    lastEatAt = now;
-    state.food = (Number(state.food) || 0) - 1;
-    state.eatenToday = (S.clampEat ? S.clampEat(state.eatenToday) : state.eatenToday) + 1;
-    S.save(state);
-    renderFood(true);
   }
 
   /* ============================================================

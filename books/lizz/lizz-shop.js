@@ -19,7 +19,7 @@
   const WORD_UNIT = 10;          // 每 10 个新词
   const WORD_POINTS = 10;        // 每单元积分
   const REVIEW_POINTS = 10;      // 当天复习完成积分
-  const FEED_WORDS = 10;         // 每 10 个新词换 1 次喂食
+  const FEED_WORDS = 5;          // 每背满 5 个新词掉 1 块饼干（与 lizz-state.js 的 COOKIE_GROUP_SIZE 一致）
   const MAX_LEDGER = 30;
   const PAGE_SIZE = 18;          // 每页卡片数，控制 390px 下的渲染量
 

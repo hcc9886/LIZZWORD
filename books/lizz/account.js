@@ -91,6 +91,13 @@
     return new Date().toISOString();
   }
 
+  // 与 lizz-state.js 的 dateKeyOf 同格式：饼干按本地日期归属，跨天必须清零
+  function localDateKey() {
+    const d = new Date();
+    const pad = (n) => String(n).padStart(2, "0");
+    return `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}`;
+  }
+
   function clone(value) {
     if (value == null) return value;
     try {
@@ -765,8 +772,28 @@
     out.introSeen = Boolean(newer.introSeen || older.introSeen);
     out.tutorialSkippedAt = laterDate(newer.tutorialSkippedAt, older.tutorialSkippedAt);
     out.tutorialFinishedAt = laterDate(newer.tutorialFinishedAt, older.tutorialFinishedAt);
-    out.food = Math.max(Number(newer.food) || 0, Number(older.food) || 0);
-    out.foodReacted = Math.max(Number(newer.foodReacted) || 0, Number(older.foodReacted) || 0);
+    // 饼干是当日消耗品：只合并「归属日期＝今天」的快照。否则昨天没喂完的库存
+    // 会被另一台设备带回来，跨天清零就失效了。
+    const today = localDateKey();
+    const foodOf = (snap) => (isObject(snap) && snap.foodDate === today
+      ? Math.max(0, Math.floor(Number(snap.food) || 0))
+      : 0);
+    out.foodDate = today;
+    out.food = Math.max(foodOf(newer), foodOf(older));
+    out.foodReacted = Math.min(out.food, Math.max(Number(newer.foodReacted) || 0, Number(older.foodReacted) || 0));
+
+    // 发放游标同样只认今天的快照，取 awarded 较大的一方，避免同一组饼干被重发
+    const seenOf = (snap) => (isObject(snap) && isObject(snap.cookieSeen) && snap.cookieSeen.date === today
+      ? snap.cookieSeen
+      : null);
+    const seenNew = seenOf(newer);
+    const seenOld = seenOf(older);
+    if (seenNew || seenOld) {
+      const pick = !seenOld ? seenNew
+        : !seenNew ? seenOld
+          : (Number(seenOld.awarded) || 0) > (Number(seenNew.awarded) || 0) ? seenOld : seenNew;
+      out.cookieSeen = clone(pick);
+    }
     out.softHideCount = Math.max(Number(newer.softHideCount) || 0, Number(older.softHideCount) || 0);
     out.hiddenAt = laterDate(newer.hiddenAt, older.hiddenAt);
     out.praiseAt = laterDate(newer.praiseAt, older.praiseAt);

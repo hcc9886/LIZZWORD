@@ -4,8 +4,8 @@
    - 装扮商店写在同一个 key 的 shop 字段；保存时自动合并磁盘上的最新 shop，
      避免 lizz.js 的旧内存状态覆盖刚买到的装扮或刚赚到的积分
    - 连点 25 次躲起来，背完 10 个单词后悄悄回来（不再有“彻底消失到次日”）
-   - 小饼干：每背完 1 个新词 +1 块（库存无上限），玩家可随时自主投喂；
-     库存每天清零，跨天后碗里回到 0 块重新攒；
+   - 小饼干：每背完一组 5 个新词 +1 块（当天 5／10／15／20… 各掉一块），
+     玩家可随时自主投喂；库存每天清零，跨天后碗里回到 0 块重新攒；
    - 30 种颜文字与 Lizz 台词
    - 内置简笔小狐狸 SVG（不新增图片文件；仍保留 lizz.png 替换槽位）
    ============================================================ */
@@ -213,12 +213,12 @@
   window.LIZZWORD_LIZZ_FOX_SVG = FOX_SVG;
 
   /* ===== 小饼干换算与情绪档位 =====
-     饼干库存只由“新词数”决定，玩家可随时自主投喂：
-     - COOKIE_PER_WORD：每背完 1 个新词 → 碗里 +1 块，当日库存无上限
+     饼干按“组”发放，玩家可随时自主投喂：
+     - COOKIE_GROUP_SIZE：当天新词每满 5 个掉 1 块（5／10／15／20… 各一块）
      - 库存每天清零：跨天后碗里回到 0 块，重新攒
      - COOKIE_VISIBLE_MAX：碗里最多画 12 块，更多只体现在角标数字
      - COOKIE_TIERS：按库存量决定表情档位，5 块起“不可置信” */
-  const COOKIE_PER_WORD = 1;
+  const COOKIE_GROUP_SIZE = 5;
   const COOKIE_VISIBLE_MAX = 12;
   const COOKIE_TIERS = [
     { min: 0, key: "normal", label: "平静" },
@@ -291,8 +291,9 @@
       hiddenBaseline: null,    // { date, groupsToday, wordsToday }
       lastFace: -1,
       softHideCount: 0,
-      food: 0,                 // 饼干库存（无上限；新词结算 + 喂食叠加，Lizz 每天最多吃掉 12 块）
+      food: 0,                 // 饼干库存（每满 5 个新词 +1 块，跨天清零）
       foodReacted: 0,          // 已经为“第几份食物”冒过星星眼，避免每次点击都重复
+      cookieSeen: null,        // { date, wordsToday, awarded }：饼干按 5 词一组结算的游标
       groupSeen: null,         // { date, groupsToday }：识别“又完成了一组”
       thanksPending: false,    // 完成一组后等用户点一下道谢
       praiseAt: "",
@@ -322,6 +323,18 @@
     return {
       date: value.date,
       groupsToday: Number(value.groupsToday) || 0
+    };
+  }
+
+  /* awarded 是“当天已发到第几组”的高水位，只增不减：
+     进度被重置时游标可以回退，但已掉进碗里的饼干不会重复发。 */
+  function normalizeCookieSeen(value) {
+    if (!value || typeof value !== "object") return null;
+    if (typeof value.date !== "string" || !value.date) return null;
+    return {
+      date: value.date,
+      wordsToday: Math.max(0, Math.floor(Number(value.wordsToday) || 0)),
+      awarded: Math.max(0, Math.floor(Number(value.awarded) || 0))
     };
   }
 
@@ -424,6 +437,7 @@
     state.food = Math.min(FOOD_CAP, Math.max(0, Number(state.food) || 0));
     state.foodReacted = Math.min(FOOD_CAP, Math.max(0, Number(state.foodReacted) || 0));
     state.groupSeen = normalizeGroupSeen(state.groupSeen);
+    state.cookieSeen = normalizeCookieSeen(state.cookieSeen);
     state.thanksPending = Boolean(state.thanksPending);
     state.praiseAt = typeof state.praiseAt === "string" ? state.praiseAt : "";
     state.lastPraise = Number.isInteger(state.lastPraise) ? state.lastPraise : -1;
@@ -517,7 +531,7 @@
     FOX_SVG,
     BOWL_SVG,
     FOOD_CAP,
-    COOKIE_PER_WORD,
+    COOKIE_GROUP_SIZE,
     COOKIE_VISIBLE_MAX,
     moodFor,
     clampEat,

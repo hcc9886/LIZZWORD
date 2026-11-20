@@ -3,7 +3,7 @@
    - 点击碗不会触发狐狸本体的连点计数
    - 自主投喂：碗里有多少块饼干就能喂多少次，喂一块少一块
    - 小卡非模态、9 秒自动收起，不打断背词主流程
-   - 饼干每背 1 个新词 +1 块，库存每天清零
+   - 饼干每背满一组 5 个新词 +1 块（当天 5／10／15／20…），库存每天清零
    ============================================================ */
 (function () {
   "use strict";
@@ -109,18 +109,20 @@
     if (!widget) return;
 
     const status = SHOP.getFeedStatus();
+    const size = SHOP.FEED_WORDS || 5;
+    const toNext = size - (status.counted % size);
     let body = "";
     let actionLabel = "喂给它";
     let disabled = false;
 
     if (status.food <= 0) {
-      body = `<p class="lz-feed-text">碗里还是空的。每背完 <b>1</b> 个新词就会掉一块饼干，攒一攒再来喂吧。</p>
-        <p class="lz-feed-sub">今天已背 <b>${status.counted}</b> 个新词 · 饼干到第二天会清零</p>`;
+      body = `<p class="lz-feed-text">碗里还是空的。当天每背满 <b>${size}</b> 个新词才掉一块饼干（${size}／${size * 2}／${size * 3}／${size * 4}…），攒一攒再来喂吧。</p>
+        <p class="lz-feed-sub">今天已背 <b>${status.counted}</b> 个新词 · 再背 <b>${toNext}</b> 个掉下一块 · 饼干到第二天会清零</p>`;
       actionLabel = "碗里空空的";
       disabled = true;
     } else {
       body = `<p class="lz-feed-text">从碗里拿一块饼干喂给 Lizz？碗里现在有 <b>${status.food}</b> 块。</p>
-        <p class="lz-feed-sub">每背 1 个新词 +1 块 · 饼干到第二天会清零，今天多喂喂她吧</p>`;
+        <p class="lz-feed-sub">每背满 ${size} 个新词 +1 块 · 再背 <b>${toNext}</b> 个掉下一块 · 饼干到第二天会清零</p>`;
     }
 
     card = document.createElement("div");
