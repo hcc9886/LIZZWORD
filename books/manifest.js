@@ -852,7 +852,8 @@ window.BOOK_MANIFEST = {
     "./books/prepared/cet4b-0106.json",
     "./books/prepared/cet4b-0107.json",
     "./books/prepared/cet4b-0110.json",
-    "./books/prepared/cet4b-0111.json"
+    "./books/prepared/cet4b-0111.json",
+    "./books/prepared/medical-9001.json"
   ],
   "business-law": [
     "./books/prepared/cet4-0001.json",
