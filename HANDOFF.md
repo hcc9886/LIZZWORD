@@ -15,7 +15,7 @@ cd /Users/hcc/Desktop/LIZZWORD          # 仓库根目录必须用这个（不�
 node tools/next-words.js ielts 20       # 雅思下一批要写哪些词
 node tools/check-entry.js books/prepared/ielts-0102.json --existing   # 校验（唯一验收标准）
 git log --oneline -5
-git rev-list --count origin/main..HEAD  # 本地积压未推送提交数（本次交接时为 14，全部需要用户手动 push）
+git rev-list --count origin/main..HEAD  # 本地积压未推送提交数（本文件提交后为 15；接手时以本命令实测为准）
 ```
 
 铁律：
@@ -47,7 +47,7 @@ git rev-list --count origin/main..HEAD  # 本地积压未推送提交数（本�
 
 1. **IELTS 还差 3920 词（196 批）**——这是最大的未做完的事。下一批是 **0103，首词 `error`**。
 2. **批次 0103 已有半成品，但只存在于 `/tmp`，不在 git 里**（详见第 9 节）。接手方要么接着做完，要么直接丢弃重做，**不要以为仓库里有它**。
-3. **积压 14 个提交没推送**——线上 GitHub Pages 目前仍是旧版，用户报的「加载不出释义」在线上看不到修复。必须由用户在真实终端 `git push origin main`（Agent 侧 push 被主机权限拦下，重试无意义）。
+3. **积压提交没推送**（本交接文档这次提交之后是 15 个）——线上 GitHub Pages 目前仍是旧版，用户报的「加载不出释义」在线上看不到修复。必须由用户在真实终端 `git push origin main`（Agent 侧 push 被主机权限拦下，重试无意义）。
 4. **sat / cet6 / gaokao 三本书仍未上架**（第 2.2 节）：无主表、未注册，sat 还有 159 个单对象分片的坑。
 5. **AI 语音 5 项待办一项没动**（第 3.2 节）：朗读队列、语速/口音持久化、失败分级提示、iOS 真机回归、中文语音缺失降级。已核实 `speech.js` 与 `index.html` 里均无 `speakSequence`，`data-rate` 仍是写死的。
 
@@ -298,7 +298,7 @@ node tools/check-entry.js <文件或目录> [更多文件/目录] [--existing] [
 
 ## 7. 推送与线上验证
 
-- 本地 main 领先 origin/main **14 个提交**（`git rev-list --count origin/main..HEAD` 实测）。最近的三个雅思批次是 `3106b74`（0100 enrich）、`a22c3e0`（0101 entomologist）、`94722c5`（0102 episodic）；更早还有 `db3c850`（词条注册 + 语音兜底）、`bbce0aa`（朗读时长）、`889f4c9`（流水线工具 + 雅思主表）。
+- 本地 main 领先 origin/main **15 个提交**（含本交接文档这次提交；接手时请用 `git rev-list --count origin/main..HEAD` 实测）。最近的三个雅思批次是 `3106b74`（0100 enrich）、`a22c3e0`（0101 entomologist）、`94722c5`（0102 episodic）；更早还有 `db3c850`（词条注册 + 语音兜底）、`bbce0aa`（朗读时长）、`889f4c9`（流水线工具 + 雅思主表）。
 - **线上 GitHub Pages 目前完全没有这些内容**：用户看到的仍是「加载不出释义」的旧版。这一步不完成，前面所有修复都等于没发生。
 - Agent 侧 push 被主机权限分类拦下，**不要反复重试、不要换姿势绕开**。做法：明确告诉用户在真实终端执行
   ```bash
