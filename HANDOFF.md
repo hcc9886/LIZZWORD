@@ -12,13 +12,13 @@
 
 本节比正文新；与正文冲突时以本节为准。
 
-- IELTS 批次 **0103（error 起 20 词）已完成并提交**：`books/prepared/ielts-0103.json`，`check-entry.js --existing` 20/20、0 错 0 警。
-- 主表 `books/ielts.json` 重建到 **2100 词 / 103 片**；`index.html` 注册长度已改 103；`node tools/audit-books.js` 6 本全绿。
-- 下一批 **0104**，首词 `ethical`（`node tools/next-words.js ielts 20` 实测）。
+- IELTS 批次 **0103 / 0104 已完成并提交**：`books/prepared/ielts-0103.json`（error 起）、`ielts-0104.json`（ethical 起），各自 20/20、0 错 0 警。
+- 主表 `books/ielts.json` 重建到 **2120 词 / 104 片**；`index.html` 注册长度已改 104；`node tools/audit-books.js` 6 本全绿。
+- 下一批 **0105**，首词 `exacerbation`（`node tools/next-words.js ielts 20` 实测）。
 - 新增 `tools/audit-books.js`（词书加载自检，可 `--all` 扫未注册分片），新增 `docs/TRAE-BRIEF.md`（交给 Trae 的产品意见条款：学习模式、入门问卷、付费/免费、词书可行性、零基础书）。
-- 语音已加：`LZSpeech.speakSequence` 连读队列、语速/口音偏好持久化（`lizzword_speech_v1`）、失败分级提示；词卡「连读（词 → 例句 → 释义）」按钮。
-- 本地 main 领先 origin/main 的提交数继续增加（交接时 15，随后 +4），**push 仍被 Agent 侧权限拦住，必须用户在真实终端执行**。
-- 批次 0103 的 `/tmp` 在制品已消化完毕，第 10 节不再适用；后续批次按第 4 节流程正常生产即可。
+- 语音已加：`LZSpeech.speakSequence` 连读队列、语速/口音偏好持久化（`lizzword_speech_v1`）、失败分级提示、中文语音缺失降级；词卡「连读（词 → 例句 → 释义）」按钮。
+- 本地 main 领先 origin/main 的提交数继续增加（以 `git rev-list --count origin/main..HEAD` 实测为准），**push 仍被 Agent 侧权限拦住，必须用户在真实终端执行**。
+- 批次 0103 / 0104 的 `/tmp` 在制品已消化完毕，第 10 节不再适用；后续批次按第 4 节流程正常生产即可。
 
 ---
 
@@ -194,12 +194,12 @@ nohup python3 -m http.server 8123 --bind 127.0.0.1 >/tmp/http.log 2>&1 &
 - 朗读期间周期性 `resume()`，规避 Chrome 约 15 秒后静默停止长句。
 - 导出 `voices / voiceFor / estimateMs`，便于做语音选择与自检。
 
-待办（按性价比排序）：
-1. **朗读队列**：现在每次 `speak()` 开头都会 `cancel()`，「例句 + 中文释义」连读会被打断。建议在 LZSpeech 加 `speakSequence([{text, lang}])`，按钮状态只在开始 / 全部结束时变更。
-2. **语速与口音偏好持久化**：`index.html:6684` 的 `data-rate` 是写死的；存 localStorage，设置页给 0.7 / 0.9 / 1.1 三档 + 英音美音切换（用 `LZSpeech.voiceFor`）。
-3. **失败原因分级提示**：`onFail` 已能给出 `unsupported / timeout / exception / interrupted`，但 `index.html:10799` 只弹一句通用文案；`interrupted` 不该提示，`unsupported` 应提示更换浏览器。
-4. **iOS / Safari 真机回归**：解锁依赖首次手势里的 `resume()`（已挂 pointerdown），需真机验证一次。
-5. **中文语音缺失降级**：`voiceFor("zh-CN")` 返回 null 时提示用户安装系统语音包。
+待办（按性价比排序；2026-11-21 晚已落地 1/2/3/5，4 仍需真机）：
+1. ✅ **朗读队列**：`LZSpeech.speakSequence([{text, lang, rate}])` 已加；单条失败继续下一条，用户主动取消才整体停；词卡新增「连读（词 → 例句 → 释义）」。
+2. ✅ **语速与口音偏好持久化**：存 `lizzword_speech_v1`（rate 0.7/0.9/1.1，accent us/uk），词卡发音区有下拉设置；`speakBtn` 默认跟随偏好，英/美对照按钮固定口音。
+3. ✅ **失败原因分级提示**：`index.html` 的 `onFail` 已按 `unsupported / timeout / interrupted` 分级；`interrupted` 静默。
+4. ⬜ **iOS / Safari 真机回归**：解锁依赖首次手势里的 `resume()`（已挂 pointerdown），需真机验证一次。
+5. ✅ **中文语音缺失降级**：连读时 `voiceFor("zh-CN")` 为空且语音列表非空，则跳过中文并提示安装中文语音包。
 
 ### 3.3 未跟踪的历史 scratch 文件
 

@@ -287,13 +287,13 @@ curl -sI https://hcc9886.github.io/LIZZWORD/books/ielts.json | head -1   # 实�
 - 长句周期性 `resume()`，规避 Chrome 约 15 秒静默停止。
 - 导出 `voices / voiceFor / estimateMs`。
 
-待办（按性价比）：
+待办（按性价比）：**2026-11-21 晚已落地 1–3 与 5，4 待真机。**
 
-1. **朗读队列 `speakSequence([{text, lang, rate}])`**：现在每次 `speak()` 开头 `cancel()`，例句+释义连读会被打断。按钮状态只在开始/全部结束时变更。
-2. **语速与口音持久化**：`index.html:6684` 的 `data-rate` 写死；设置页给 0.7/0.9/1.1 三档 + 英音/美音切换（用 `voiceFor`），存 `localStorage`。
-3. **失败分级提示**：`onFail` 已给 `unsupported / timeout / exception / interrupted`；`index.html:10799` 只弹通用文案。`interrupted` 不提示，`unsupported` 提示换浏览器。
-4. **iOS/Safari 真机回归**：解锁依赖首次手势 `resume()`（已挂 pointerdown），需真机验证。
-5. **中文语音缺失降级**：`voiceFor("zh-CN")` 为 null 时提示安装系统语音包。
+1. ✅ **朗读队列 `speakSequence([{text, lang, rate}])`**：单条失败继续，用户取消才整体停；词卡已有「连读」按钮。
+2. ✅ **语速与口音持久化**：`lizzword_speech_v1`（0.7/0.9/1.1，us/uk），词卡发音区下拉设置。
+3. ✅ **失败分级提示**：`interrupted` 静默、`unsupported` 提示换浏览器、`timeout` 提示装语音包。
+4. ⬜ **iOS/Safari 真机回归**：解锁依赖首次手势 `resume()`（已挂 pointerdown），需真机验证。
+5. ✅ **中文语音缺失降级**：`voiceFor("zh-CN")` 为空且语音列表非空时跳过中文并提示。
 
 验收：Chrome/Safari/Edge 各测「单词 → 例句 → 中文释义」连读 3 遍不中断；切后台再回来能续读；无语音包时提示明确。
 

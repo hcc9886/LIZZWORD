@@ -6619,7 +6619,7 @@
         name: "IELTS 雅思核心词汇",
         intro: "雅思核心词汇 6,000 词，按字母顺序持续补齐，每词均为 22 键深度词条。",
         bookFile: "./books/ielts.json",
-        preparedFiles: Array.from({length: 103}, (_, i) => `./books/prepared/ielts-${String(i+1).padStart(4,"0")}.json`),
+        preparedFiles: Array.from({length: 104}, (_, i) => `./books/prepared/ielts-${String(i+1).padStart(4,"0")}.json`),
         distractorsFile: "./books/distractors.json",
         dailyOptions: [5, 10, 15, 20],
         fallback: null
@@ -10868,7 +10868,15 @@
         items.push({ text: wordItem.examples[0].en, lang: "en-US", rate: prefs.rate });
       }
       if (wordItem.definition_zh) {
-        items.push({ text: wordItem.definition_zh, lang: "zh-CN", rate: prefs.rate });
+        // 系统没装中文语音包时直接跳过中文，避免用英文音库硬读中文
+        let voiceList = [];
+        try { voiceList = speech.voices ? speech.voices() : []; } catch (e) { voiceList = []; }
+        const zhVoice = speech.voiceFor ? speech.voiceFor("zh-CN") : null;
+        if (zhVoice || !voiceList.length) {
+          items.push({ text: wordItem.definition_zh, lang: "zh-CN", rate: prefs.rate });
+        } else {
+          showToast("系统未安装中文语音包，连读已跳过中文释义；可在系统语音设置里安装中文语音。");
+        }
       }
 
       const label = button.textContent;
