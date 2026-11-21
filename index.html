@@ -229,6 +229,63 @@
       color: var(--t9aa6b8, #9aa6b8);
     }
 
+
+
+    /* ===== 计划卡 ===== */
+    .plan-card {
+      display: flex; align-items: center; justify-content: space-between; gap: 12px;
+      margin: 0 0 14px; padding: 14px 16px; border-radius: 14px;
+      background: linear-gradient(135deg, #fff8ec, #eef4ff);
+      border: 1px solid var(--re1e5f0, #e1e5f0);
+    }
+    .plan-card-empty { background: linear-gradient(135deg, #fff8ec, #fdf2f8); }
+    .plan-title { margin: 0; font-size: 0.98rem; font-weight: 700; color: var(--t1f2937, #1f2937); }
+    .plan-sub { margin: 4px 0 0; font-size: 0.82rem; color: var(--t6b7280, #6b7280); }
+    .plan-hint { margin: 4px 0 0; font-size: 0.78rem; color: var(--t9a3412, #9a3412); }
+    .plan-card .btn-primary, .plan-card .btn-ghost { flex: 0 0 auto; }
+
+    /* ===== 入门问卷 ===== */
+    .onboard-overlay {
+      position: fixed; inset: 0; z-index: 90;
+      background: rgba(17, 24, 39, 0.45); display: flex; align-items: center; justify-content: center;
+      padding: 18px;
+    }
+    .onboard-card {
+      width: min(440px, 100%); max-height: 88vh; overflow: auto;
+      background: #fff; border-radius: 18px; padding: 20px; box-shadow: 0 18px 50px rgba(0,0,0,0.25);
+    }
+    .onboard-title { margin: 0 0 6px; font-size: 1.12rem; }
+    .onboard-sub { margin: 0 0 14px; font-size: 0.84rem; color: #6b7280; }
+    .onboard-field { display: block; margin-bottom: 12px; font-size: 0.86rem; color: #374151; }
+    .onboard-field select, .onboard-field input[type="date"] {
+      width: 100%; margin-top: 6px; padding: 9px 10px; border-radius: 10px;
+      border: 1px solid #e1e5f0; background: #fff; font-size: 0.88rem;
+    }
+    .onboard-chips { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 8px; }
+    .onboard-chip {
+      display: inline-flex; align-items: center; gap: 6px; padding: 7px 10px;
+      border: 1px solid #e1e5f0; border-radius: 999px; font-size: 0.82rem; cursor: pointer;
+    }
+    .onboard-chip input { margin: 0; }
+    .onboard-actions { display: flex; justify-content: flex-end; gap: 10px; margin-top: 16px; }
+
+    /* ===== 零基础词卡 ===== */
+    .word-card .zero-card { display: flex; gap: 16px; align-items: flex-start; }
+    .zero-art {
+      flex: 0 0 auto; width: 88px; height: 88px; border-radius: 20px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 44px; background: var(--reff6e0, #fff6e0);
+      border: 1px solid var(--rffe0a3, #ffe0a3);
+    }
+    .zero-main { flex: 1 1 auto; min-width: 0; }
+    .zero-word-row { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
+    .zero-def { margin: 6px 0 4px; font-size: 1.02rem; color: var(--t374151, #374151); }
+    .zero-sentence { margin: 4px 0 8px; font-size: 0.95rem; color: var(--t4b5563, #4b5563); }
+    .zero-actions { display: flex; flex-wrap: wrap; gap: 8px; }
+    .zero-actions .speak, .zero-actions .speak-shadow, .zero-actions .speak-seq {
+      padding: 8px 12px; font-size: 0.86rem; border-radius: 10px;
+    }
+
     /* ===== 速览：词典基础信息 ===== */
     .dict-block + .dict-block { margin-top: 16px; }
     .dict-label {
@@ -1494,6 +1551,8 @@
   <script src="books/lizz/quiz-pool.js"></script>
   <script src="books/lizz/quiz-options.js"></script>
   <script src="books/lizz/study-timer.js"></script>
+  <script src="books/lizz/plan-engine.js"></script>
+  <script src="books/lizz/onboarding.js"></script>
   <script src="books/manifest.js"></script>
   <script>
     // ============================================================
@@ -9916,6 +9975,7 @@
 
       document.getElementById("view-home").innerHTML = `
         ${homeBookBarHTML()}
+        ${planCardHTML()}
         <section class="home-grid">
           <button type="button" class="home-btn" data-enter="review" ${reviewEnabled ? "" : "disabled"}>
             <span class="home-title">复习</span>
@@ -10588,6 +10648,102 @@
         <div class="dict-block"><p class="dict-label">例句</p>${examplesHTML}</div>`;
     }
 
+
+    // 零基础书专用：按释义关键词配一张 emoji 图（无外链、离线可用）
+    const ZERO_EMOJI = [
+      ["家庭", "🏠"], ["家", "🏠"], ["房子", "🏠"], ["学校", "🏫"], ["学生", "🎒"], ["老师", "🧑‍🏫"],
+      ["苹果", "🍎"], ["面包", "🍞"], ["米饭", "🍚"], ["食物", "🍽️"], ["吃", "🍽️"], ["牛奶", "🥛"],
+      ["水", "💧"], ["茶", "🍵"], ["咖啡", "☕"], ["猫", "🐱"], ["狗", "🐶"], ["鸟", "🐦"], ["鱼", "🐟"],
+      ["树", "🌳"], ["花", "🌸"], ["太阳", "☀️"], ["月亮", "🌙"], ["星星", "⭐"], ["雨", "🌧️"],
+      ["雪", "❄️"], ["风", "🌬️"], ["云", "☁️"], ["天气", "🌤️"], ["车", "🚗"], ["公共汽车", "🚌"],
+      ["自行车", "🚲"], ["飞机", "✈️"], ["火车", "🚆"], ["书", "📖"], ["笔", "✏️"], ["桌子", "🪑"],
+      ["椅子", "🪑"], ["床", "🛏️"], ["门", "🚪"], ["窗", "🪟"], ["球", "⚽"], ["时间", "⏰"],
+      ["颜色", "🎨"], ["红", "🔴"], ["蓝", "🔵"], ["绿", "🟢"], ["黄", "🟡"], ["黑", "⚫"], ["白", "⚪"],
+      ["手", "✋"], ["脚", "🦶"], ["眼睛", "👁️"], ["耳朵", "👂"], ["嘴", "👄"], ["头", "🧠"],
+      ["心", "❤️"], ["衣服", "👕"], ["鞋", "👟"], ["帽子", "🧢"], ["钱", "💰"], ["快乐", "😊"],
+      ["哭", "😢"], ["跑", "🏃"], ["走", "🚶"], ["睡觉", "😴"], ["坐", "🪑"], ["喝", "🥤"],
+      ["玩", "🎮"], ["唱", "🎤"], ["跳舞", "💃"], ["游泳", "🏊"], ["医生", "🧑‍⚕️"], ["医院", "🏥"],
+      ["警察", "👮"], ["工作", "💼"], ["时间表", "📅"], ["生日", "🎂"], ["礼物", "🎁"], ["电话", "📱"],
+      ["电脑", "💻"], ["音乐", "🎵"], ["电影", "🎬"], ["公园", "🌳"], ["商店", "🏪"], ["银行", "🏦"]
+    ];
+
+    function zeroBasicEmoji(wordItem) {
+      const text = String(wordItem.definition_zh || "") + " " + String(wordItem.core_image || "");
+      for (const [key, emoji] of ZERO_EMOJI) {
+        if (text.indexOf(key) >= 0) return emoji;
+      }
+      return String(wordItem.word || "?").slice(0, 1).toUpperCase();
+    }
+
+    function zeroBasicHeader(wordItem, headerExample) {
+      const emoji = zeroBasicEmoji(wordItem);
+      const sentence = headerExample ? headerExample.en : "";
+      return `
+        <header class="zero-card">
+          <div class="zero-art" aria-hidden="true">${esc(emoji)}</div>
+          <div class="zero-main">
+            <div class="zero-word-row">
+              <h1 class="word">${esc(wordItem.word)}</h1>
+              <span class="ipa">${esc(wordItem.ipa_uk)}</span>
+            </div>
+            <p class="zero-def">${esc(wordItem.definition_zh)}</p>
+            ${sentence ? `<p class="zero-sentence">${esc(sentence)} ${speakBtn(sentence, "en-US", "🔊 听例句")}</p>` : ""}
+            <div class="zero-actions">
+              ${speakBtn(wordItem.word, "en-US", "🔊 听单词")}
+              ${canSpeak ? `<button type="button" class="speak-shadow" data-shadow-word="${esc(wordItem.word)}">🎤 跟读</button>` : ""}
+              <button type="button" class="speak-seq" data-seq-word="${esc(wordItem.word)}">▶ 连读</button>
+            </div>
+          </div>
+        </header>`;
+    }
+
+    // 跟读：有语音识别就打分，没有就「听 → 跟读 → 再听」三步
+    function startShadowRead(button) {
+      const word = button.dataset.shadowWord;
+      const speech = window.LZSpeech;
+      if (!speech || !word) return;
+      const prefs = speechPrefs();
+      const lang = speech.accentLang ? speech.accentLang(prefs.accent) : "en-US";
+      const Recognition = SpeechRecognitionCtor;
+      const finish = (text) => {
+        button.disabled = false;
+        button.textContent = text || "🎤 跟读";
+      };
+      button.disabled = true;
+      button.textContent = "🎤 请跟读…";
+      if (!Recognition) {
+        speech.speak(word, { lang, rate: prefs.rate });
+        window.setTimeout(() => {
+          speech.speak(word, { lang, rate: prefs.rate });
+          finish("🎤 再听一次");
+        }, 2600);
+        showToast("当前浏览器不支持语音识别：先听一遍，再跟着读，最后再听一遍对照。");
+        return;
+      }
+      try {
+        const rec = new Recognition();
+        rec.lang = lang;
+        rec.interimResults = false;
+        rec.maxAlternatives = 1;
+        let done = false;
+        rec.onresult = (event) => {
+          const heard = String((event.results && event.results[0] && event.results[0][0] && event.results[0][0].transcript) || "").trim();
+          done = true;
+          const ok = heard.toLowerCase().replace(/[^a-z ]/g, "").trim() === String(word).toLowerCase();
+          button.textContent = ok ? "✅ 读得准" : "🟡 再试一次";
+          showToast(ok ? `听到「${heard}」，很标准！` : `听到「${heard}」，可以再慢一点读「${word}」。`);
+          if (!ok) speech.speak(word, { lang, rate: prefs.rate });
+          finish(button.textContent);
+        };
+        rec.onerror = () => { done = true; finish("🎤 跟读"); showToast("没听清楚，可以再试一次。"); };
+        rec.onend = () => { if (!done) finish("🎤 跟读"); };
+        rec.start();
+      } catch (e) {
+        finish("🎤 跟读");
+        showToast("语音识别启动失败，先听一遍再跟读。");
+      }
+    }
+
     function renderCard(wordItem, withHeader = true) {
       const el = document.createElement("article");
       el.className = "card word-card";
@@ -10686,7 +10842,8 @@
           ? { en: wordItem.senses[0].example, cn: wordItem.senses[0].exampleCN || "" }
           : null);
 
-      const headerHTML = withHeader ? `
+      const isZeroBasic = activeBookConfig && activeBookConfig.id === "zero-basic";
+      const headerHTML = withHeader && isZeroBasic ? zeroBasicHeader(wordItem, headerExample) : withHeader ? `
         <header>
           <div class="word-row">
             <h1 class="word">${esc(wordItem.word)}</h1>
@@ -11056,6 +11213,83 @@
       else if (mode === "review") window.LZStudyTimer.resumeReview();
     }
 
+
+    // ============================================================
+    // 计划：入门问卷 → 今日任务卡
+    // ============================================================
+    function planStats() {
+      let due = 0;
+      try { due = getDueWords().length; } catch (e) { due = 0; }
+      return {
+        due,
+        learned: Array.isArray(state.stage1Done) ? state.stage1Done.length : 0,
+        total: (bookInfo.entries || []).length
+      };
+    }
+
+    function currentPlan() {
+      const onboarding = window.LZOnboarding;
+      const engine = window.LZPlan;
+      if (!onboarding || !engine) return null;
+      const profile = onboarding.load();
+      if (!profile) return null;
+      return engine.buildPlan(profile, planStats(profile));
+    }
+
+    function planCardHTML() {
+      const plan = currentPlan();
+      if (!plan) {
+        return `
+          <section class="plan-card plan-card-empty">
+            <div>
+              <p class="plan-title">定制你的学习计划</p>
+              <p class="plan-sub">3 个问题，30 秒，之后每天按你的目标和时间排任务。</p>
+            </div>
+            <button type="button" class="btn-primary" data-plan-open>开始定制</button>
+          </section>`;
+      }
+      return `
+        <section class="plan-card">
+          <div class="plan-main">
+            <p class="plan-title">今日计划 · ${esc(plan.goalLabel)} · ${plan.minutes} 分钟</p>
+            <p class="plan-sub">新词 <b>${plan.newWords}</b> 个 · 复习 <b>${plan.reviewTarget}</b> 个 · 推荐 <b>${esc(plan.mix[0])}</b></p>
+            ${plan.examHint ? `<p class="plan-hint">${esc(plan.examHint)}</p>` : ""}
+          </div>
+          <button type="button" class="btn-ghost" data-plan-open>调整</button>
+        </section>`;
+    }
+
+    function openPlanWizard() {
+      const onboarding = window.LZOnboarding;
+      if (!onboarding) return;
+      onboarding.open({
+        onSave: (profile) => {
+          const plan = currentPlan();
+          if (plan) {
+            state.dailyTarget = plan.newWords;
+            saveState();
+          }
+          showToast("计划已生成：" + (plan ? `每天新词 ${plan.newWords} 个` : "已保存"));
+          renderAll();
+        },
+        onClose: () => renderAll()
+      });
+    }
+
+    function maybeOnboard() {
+      const onboarding = window.LZOnboarding;
+      if (!onboarding) return;
+      if (onboarding.hasProfile()) return;
+      try {
+        if (localStorage.getItem("lizzword_onboard_seen") === "1") return;
+        localStorage.setItem("lizzword_onboard_seen", "1");
+      } catch (e) { /* ignore */ }
+      window.setTimeout(() => onboarding.open({
+        onSave: () => { const plan = currentPlan(); if (plan) { state.dailyTarget = plan.newWords; saveState(); } renderAll(); },
+        onClose: () => renderAll()
+      }), 600);
+    }
+
     // ============================================================
     // 16. 朗读：全页共用
     // ============================================================
@@ -11366,6 +11600,18 @@
     });
 
     document.addEventListener("click", (event) => {
+      if (event.target.closest("[data-plan-open]")) {
+        openPlanWizard();
+        return;
+      }
+
+      // 零基础跟读
+      const shadowButton = event.target.closest("[data-shadow-word]");
+      if (shadowButton) {
+        if (!shadowButton.disabled) startShadowRead(shadowButton);
+        return;
+      }
+
       // 连读：单词 → 例句 → 中文释义
       const seqButton = event.target.closest("[data-seq-word]");
       if (seqButton) {
@@ -12525,6 +12771,7 @@
       // 索引只影响“完整词条”，不再阻塞首屏
       loadDeepIndex();
       loadBookBundle(activeBookConfig, boot);
+    maybeOnboard();
     }
 
     // 调试 / 自动化测试可直接调用这些纯函数
