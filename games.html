@@ -6,8 +6,10 @@
 <meta name="theme-color" content="#fff6e9">
 <meta name="description" content="LIZZWORD 单词小游戏：翻牌配对、快闪辨义、字母重组、听音选词">
 <title>单词小游戏 · LIZZWORD</title>
-<!-- 空的 favicon，避免 file:// 打开时控制台出现 404 请求 -->
-<link rel="icon" href="data:,">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" type="image/png" sizes="32x32" href="icons/icon-32.png">
+<link rel="apple-touch-icon" sizes="180x180" href="icons/icon-180.png">
+<meta name="mobile-web-app-capable" content="yes">
 <link rel="stylesheet" href="books/lizz/theme.css">
 <script src="books/lizz/theme.js"></script>
 <link rel="stylesheet" href="books/lizz/games/games.css">
@@ -31,5 +33,7 @@
 <script src="books/lizz/games/game-listen.js"></script>
 <!-- 入口与路由 -->
 <script src="books/lizz/games/games-app.js"></script>
+<!-- 应用化与离线（注册幂等，与主页共用同一个 Service Worker） -->
+<script src="books/lizz/pwa.js"></script>
 </body>
 </html>

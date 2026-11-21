@@ -4,8 +4,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" content="#f3f6fa">
-  <!-- 空的 favicon，避免本地打开时控制台出现 404 请求 -->
-  <link rel="icon" href="data:,">
+  <meta name="description" content="英语单词卡片：深度词条、复习计划、小游戏与 Lizz 陪伴，可安装为应用并离线使用">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" type="image/png" sizes="32x32" href="icons/icon-32.png">
+  <link rel="icon" type="image/png" sizes="64x64" href="icons/icon-64.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="icons/icon-180.png">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="LIZZWORD">
   <title>英语单词卡片 · break</title>
   <!-- 背景主题：变量与日夜配色先加载，theme.js 立刻定下 data-theme，避免闪一下白底 -->
   <link rel="stylesheet" href="books/lizz/theme.css">
@@ -9983,6 +9990,7 @@
       const nextText = next ? dueText(next.due) : "暂无";
       // 重渲染时保留调试面板的展开状态，避免每点一个调试按钮就自动收起
       const debugWasOpen = Boolean(document.getElementById("debugPanel") && document.getElementById("debugPanel").open);
+      const offlineWasOpen = Boolean(document.getElementById("offlineFold") && document.getElementById("offlineFold").open);
       document.getElementById("view-library").innerHTML = `
         ${bookCardHTML()}
         <button type="button" class="btn-primary az-entry" data-enter="az">全部单词 A–Z · ${words.length.toLocaleString()} 个</button>
@@ -9993,7 +10001,13 @@
             ${poolRowsHTML()}
           </div>
         </details>
+        ${offlineCardHTML()}
         ${debugArmed ? debugPanelHTML(debugWasOpen) : debugEntryHTML()}`;
+      if (offlineWasOpen) {
+        const fold = document.getElementById("offlineFold");
+        if (fold) fold.open = true;
+      }
+      refreshOfflineUsage();
       renderDebug();
     }
 
@@ -10028,6 +10042,140 @@
             <p class="debug-hint">只改页面内部的“当前日期”，不改系统时间；调试偏移也存进 localStorage。调试跳转与一键完成不计入学习耗时。</p>
           </div>
         </details>`;
+    }
+
+    // ============================================================
+    // 12c. 应用化与离线
+    //   Service Worker 会自动存下访问过的分片；这里再给一个
+    //   「把整本词书存到本地」的主动预取，进度只更新局部 DOM，不整页重渲染。
+    // ============================================================
+    const offlineUI = { busy: false, done: 0, total: 0, bytes: 0, note: "", bookId: "" };
+
+    function offlineFilesFor(config) {
+      const files = [];
+      const push = (url) => { if (url && files.indexOf(url) < 0) files.push(url); };
+      push("./index.html");
+      push("./games.html");
+      push(config.bookFile);
+      push(config.distractorsFile);
+      (config.preparedFiles || []).forEach(push);
+      if (config.id === "toefl-core-5000") {
+        // 托福的深度词条不在 prepared 分片里，而是 books/deep/*.js
+        push("./books/deep/index.js");
+        for (let i = 1; i <= 240; i++) push(`./books/deep/toefl-core-5000-${String(i).padStart(4, "0")}.js`);
+      }
+      return files;
+    }
+
+    function offlineCardHTML() {
+      const PWA = window.LZPWA;
+      const config = activeBookConfig;
+      const files = offlineFilesFor(config);
+      const selected = state.bookId || config.id || DEFAULT_BOOK_ID;
+      const sameBook = offlineUI.bookId === selected;
+      const status = !PWA || !PWA.supported
+        ? "当前是本地文件（file://）打开，浏览器不允许离线缓存。请用网址访问，或先用本地服务器打开。"
+        : (offlineUI.busy
+            ? `正在存入离线缓存… ${offlineUI.done} / ${offlineUI.total} 个文件`
+            : (sameBook && offlineUI.note
+                ? offlineUI.note
+                : `离线可打开 ${files.length} 个文件；不预取的话，只有联网时看过的内容能离线打开。`));
+      const installRow = !PWA || !PWA.supported
+        ? ""
+        : (PWA.installed()
+            ? `<p class="book-note">已作为应用安装。</p>`
+            : `<div class="debug-row"><button type="button" class="debug-btn" data-offline="install"${PWA.installAvailable() ? "" : " disabled"}>${PWA.installAvailable() ? "安装到桌面" : "浏览器未提供安装入口"}</button></div>`);
+      return `
+        <details class="pool-fold" id="offlineFold">
+          <summary>离线与安装 · 当前词书 <b>${esc(config.name || selected)}</b></summary>
+          <div class="pool-fold-body">
+            ${installRow}
+            <div class="debug-row">
+              <button type="button" class="debug-btn" data-offline="pack"${offlineUI.busy ? " disabled" : ""}>${offlineUI.busy ? "存入中…" : "把这本词书存到本地"}</button>
+              <button type="button" class="debug-btn" data-offline="clear"${offlineUI.busy ? " disabled" : ""}>清空离线数据</button>
+            </div>
+            <progress id="offlineProgress" max="${files.length}" value="${sameBook ? offlineUI.done : 0}" style="width:100%;height:8px"></progress>
+            <p class="book-note" id="offlineStatus">${esc(status)}</p>
+            <p class="debug-hint" id="offlineUsage">离线占用：计算中…</p>
+          </div>
+        </details>`;
+    }
+
+    function refreshOfflineUsage() {
+      const PWA = window.LZPWA;
+      const line = document.getElementById("offlineUsage");
+      if (!line) return;
+      if (!PWA || !PWA.supported) {
+        line.textContent = "离线服务未启用。";
+        return;
+      }
+      PWA.usage().then((info) => {
+        const node = document.getElementById("offlineUsage");
+        if (!node) return;
+        node.textContent = `离线占用 ${PWA.formatBytes(info.usage)}`
+          + (info.quota ? ` / 可用 ${PWA.formatBytes(info.quota)}` : "")
+          + (PWA.isOnline() ? "" : " · 当前离线");
+      }).catch(() => {
+        const node = document.getElementById("offlineUsage");
+        if (node) node.textContent = "离线占用：读取失败。";
+      });
+    }
+
+    function setOfflineStatus(text) {
+      const node = document.getElementById("offlineStatus");
+      if (node) node.textContent = text;
+    }
+
+    function runOfflinePack(button) {
+      const PWA = window.LZPWA;
+      if (!PWA || !PWA.supported || offlineUI.busy) return;
+      const config = activeBookConfig;
+      const files = offlineFilesFor(config);
+      offlineUI.busy = true;
+      offlineUI.bookId = config.id;
+      offlineUI.total = files.length;
+      offlineUI.done = 0;
+      offlineUI.bytes = 0;
+      offlineUI.note = "";
+      renderView();
+      const bar = document.getElementById("offlineProgress");
+      if (bar && button) button.focus();
+      PWA.pack(files, (data) => {
+        offlineUI.done = Number(data.done) || offlineUI.done;
+        offlineUI.bytes = Number(data.bytes) || offlineUI.bytes;
+        const progress = document.getElementById("offlineProgress");
+        if (progress) progress.value = offlineUI.done;
+        setOfflineStatus(`正在存入离线缓存… ${offlineUI.done} / ${offlineUI.total} 个文件 · ${PWA.formatBytes(offlineUI.bytes)}`);
+      }).then((result) => {
+        offlineUI.busy = false;
+        offlineUI.done = result.done;
+        offlineUI.bytes = result.bytes;
+        const bad = (result.failed || []).length;
+        offlineUI.note = result.stopped
+          ? `存储空间不足，只存下 ${result.done} / ${result.total} 个文件（${PWA.formatBytes(result.bytes)}）。`
+          : bad
+            ? `已存 ${result.done} / ${result.total} 个文件（${PWA.formatBytes(result.bytes)}），${bad} 个没取到。`
+            : `这本词书已离线可用：${result.done} 个文件，${PWA.formatBytes(result.bytes)}。`;
+        renderView();
+        refreshOfflineUsage();
+      }).catch((error) => {
+        offlineUI.busy = false;
+        offlineUI.note = `存入失败：${String(error && error.message || error)}`;
+        renderView();
+      });
+    }
+
+    function runOfflineClear() {
+      const PWA = window.LZPWA;
+      if (!PWA || !PWA.supported || offlineUI.busy) return;
+      if (!window.confirm("清空后需要重新联网下载词书内容，确定吗？")) return;
+      PWA.clearData().then(() => {
+        offlineUI.done = 0;
+        offlineUI.bytes = 0;
+        offlineUI.note = "离线数据已清空。";
+        renderView();
+        refreshOfflineUsage();
+      }).catch((error) => showToast(`清空失败：${String(error && error.message || error)}`));
     }
 
     function renderStageDone() {
@@ -10936,6 +11084,21 @@
       if (flashBtn && window.LIZZWORD_FLASHCARD) {
         const flashWord = getWord(flashBtn.dataset.flashcard);
         if (flashWord) window.LIZZWORD_FLASHCARD.open(flashWord);
+        return;
+      }
+
+      // 我的词书：离线与安装
+      const offlineButton = event.target.closest("[data-offline]");
+      if (offlineButton) {
+        const action = offlineButton.dataset.offline;
+        if (action === "pack") runOfflinePack(offlineButton);
+        else if (action === "clear") runOfflineClear();
+        else if (action === "install") {
+          const PWA = window.LZPWA;
+          if (PWA) PWA.install().then((outcome) => {
+            showToast(outcome === "accepted" ? "正在安装，稍后回到桌面找它。" : "安装未完成，也可以在浏览器菜单里选择「安装应用」。");
+          });
+        }
         return;
       }
 
@@ -12045,5 +12208,7 @@
     // 挂载账号模块：接管首页入口按钮，并在登录后做「本地优先 + 云端合并」
     if (window.LIZZWORD_ACCOUNT) window.LIZZWORD_ACCOUNT.init();
   </script>
+  <!-- 应用化与离线：Service Worker 注册 + 安装入口 + 词书离线包 -->
+  <script src="books/lizz/pwa.js"></script>
 </body>
 </html>

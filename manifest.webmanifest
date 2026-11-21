@@ -1,0 +1,27 @@
+{
+  "name": "LIZZWORD 英语单词卡片",
+  "short_name": "LIZZWORD",
+  "description": "带深度词条、复习计划与小游戏背单词应用，可离线使用。",
+  "lang": "zh-CN",
+  "dir": "ltr",
+  "id": "lizzword",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["window-controls-overlay", "standalone", "minimal-ui"],
+  "orientation": "any",
+  "background_color": "#f3f6fa",
+  "theme_color": "#f3f6fa",
+  "categories": ["education", "productivity", "reference"],
+  "icons": [
+    { "src": "./icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "./icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "./icons/maskable-192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
+    { "src": "./icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "继续学习", "short_name": "学习", "url": "./index.html#study", "description": "打开今天的学习队列" },
+    { "name": "我的词书", "short_name": "词书", "url": "./index.html#library", "description": "切换词书、查看复习池与离线包" },
+    { "name": "单词小游戏", "short_name": "小游戏", "url": "./games.html", "description": "翻牌配对、快闪辨义、字母重组、听音选词" }
+  ]
+}
