@@ -6825,6 +6825,36 @@
         distractorsFile: "./books/distractors.json",
         dailyOptions: [5, 10, 15, 20],
         fallback: null
+      },
+      {
+        id: "zero-basic",
+        name: "零基础启蒙 300 词",
+        intro: "只取最常用、最具体的名词动词形容词，配音标、图片联想、短例句与中文记忆钩子；每天 5–10 词就能上手，先会读会认，再展开进阶内容。共 300 词，每词均为 22 键深度词条。",
+        bookFile: "./books/zero-basic.json",
+        preparedFiles: Array.from({length: 15}, (_, i) => `./books/prepared/zero-basic-${String(i+1).padStart(4,"0")}.json`),
+        distractorsFile: "./books/distractors.json",
+        dailyOptions: [5, 10, 15, 20],
+        fallback: null
+      },
+      {
+        id: "affix-roots",
+        name: "词根词缀核心词 300",
+        intro: "优先收录词缀拆解最完整的高阶词，按「词根 → 前缀/后缀 → 同族词」的路径拆解，先懂构词再背词。共 299 词，每词均为 22 键深度词条。",
+        bookFile: "./books/affix-roots.json",
+        preparedFiles: Array.from({length: 15}, (_, i) => `./books/prepared/affix-roots-${String(i+1).padStart(4,"0")}.json`),
+        distractorsFile: "./books/distractors.json",
+        dailyOptions: [5, 10, 15, 20],
+        fallback: null
+      },
+      {
+        id: "collocation",
+        name: "高频搭配核心词 400",
+        intro: "每个词都带 6 条以上常用搭配，按「词块」而不是单词记忆，写作与口语见效最快。共 397 词，每词均为 22 键深度词条。",
+        bookFile: "./books/collocation.json",
+        preparedFiles: Array.from({length: 20}, (_, i) => `./books/prepared/collocation-${String(i+1).padStart(4,"0")}.json`),
+        distractorsFile: "./books/distractors.json",
+        dailyOptions: [5, 10, 15, 20],
+        fallback: null
       }
     ];
     const DEFAULT_BOOK_ID = BOOKS[0].id;
@@ -10453,6 +10483,15 @@
               <option value="uk"${prefs.accent === "uk" ? " selected" : ""}>英音</option>
             </select>
           </label>
+          <label class="speech-pref">声音
+            <select data-speech-voice>
+              <option value="">自动（挑最自然的）</option>
+              ${(window.LZSpeech && window.LZSpeech.voices ? window.LZSpeech.voices() : [])
+                .filter((v) => /^en/i.test(v.lang || ""))
+                .map((v) => `<option value="${esc(v.name)}"${prefs.voiceName === v.name ? " selected" : ""}>${esc(v.name)}</option>`)
+                .join("")}
+            </select>
+          </label>
         </div>`;
 
       const meaningsHTML = wordItem.pos.length
@@ -11007,7 +11046,7 @@
       }
 
       // 统一封装会处理 voices 未就绪、iOS resume、cancel/speak 竞态
-      const started = speech.speak(text, {
+      const started = (speech.speakNatural || speech.speak)(text, {
         lang: button.dataset.lang || "en-US",
         rate: Number(button.dataset.rate) || 0.9,
         timeout: 2000,
@@ -11273,12 +11312,14 @@
     document.addEventListener("change", (event) => {
       const rateSelect = event.target.closest("[data-speech-rate]");
       const accentSelect = event.target.closest("[data-speech-accent]");
-      if (!rateSelect && !accentSelect) return;
+      const voiceSelect = event.target.closest("[data-speech-voice]");
+      if (!rateSelect && !accentSelect && !voiceSelect) return;
       const speech = window.LZSpeech;
       if (!speech || !speech.setPrefs) return;
       const patch = {};
       if (rateSelect) patch.rate = Number(rateSelect.value);
       if (accentSelect) patch.accent = accentSelect.value;
+      if (voiceSelect) patch.voiceName = voiceSelect.value;
       speech.setPrefs(patch);
       showToast("语音偏好已保存，之后的朗读都会按这个设置。");
     });

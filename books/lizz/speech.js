@@ -22,16 +22,17 @@
   // 语速 / 口音偏好（localStorage 持久化，主页面与游戏页共用）
   // ------------------------------------------------------------
   const PREFS_KEY = "lizzword_speech_v1";
-  const DEFAULT_PREFS = { rate: 0.9, accent: "us" };
+  const DEFAULT_PREFS = { rate: 0.9, accent: "us", voiceName: "" };
 
   function getPrefs() {
-    const out = { rate: DEFAULT_PREFS.rate, accent: DEFAULT_PREFS.accent };
+    const out = { rate: DEFAULT_PREFS.rate, accent: DEFAULT_PREFS.accent, voiceName: DEFAULT_PREFS.voiceName };
     try {
       const raw = window.localStorage && window.localStorage.getItem(PREFS_KEY);
       if (raw) {
         const saved = JSON.parse(raw) || {};
         if (typeof saved.rate === "number" && saved.rate >= 0.5 && saved.rate <= 1.5) out.rate = saved.rate;
         if (saved.accent === "uk" || saved.accent === "us") out.accent = saved.accent;
+        if (typeof saved.voiceName === "string") out.voiceName = saved.voiceName;
       }
     } catch (e) { /* localStorage 不可用时退回默认值 */ }
     return out;
@@ -44,6 +45,7 @@
         next.rate = Math.min(1.5, Math.max(0.5, patch.rate));
       }
       if (patch.accent === "uk" || patch.accent === "us") next.accent = patch.accent;
+      if (typeof patch.voiceName === "string") next.voiceName = patch.voiceName;
     }
     try {
       if (window.localStorage) window.localStorage.setItem(PREFS_KEY, JSON.stringify(next));
@@ -81,22 +83,58 @@
     } catch (e) { /* ignore */ }
   }
 
+  // 语音包质量打分：优先自然音/神经音，排掉系统里的搞怪音与朗读腔很重的老音库
+  const GOOD_VOICE = [
+    "natural", "neural", "premium", "enhanced", "siri", "google",
+    "samantha", "aria", "jenny", "ava", "allison", "serena", "daniel", "karen", "moira", "tessa", "oliver", "libby", "sonia", "ryan"
+  ];
+  const BAD_VOICE = [
+    "zarvox", "trinoids", "whisper", "bells", "boing", "bubbles", "cellos", "bahh",
+    "jester", "organ", "superstar", "wobble", "albert", "bad news", "good news",
+    "ralph", "fred", "kathy", "grandma", "grandpa", "rocko", "shelley", "flo", "eddy", "reed"
+  ];
+
+  function scoreVoice(voice, lang) {
+    const name = String(voice.name || "").toLowerCase();
+    const vlang = String(voice.lang || "").toLowerCase();
+    const want = String(lang || "en-US").toLowerCase();
+    const base = want.split("-")[0];
+    let score = 0;
+    if (vlang === want) score += 100;
+    else if (vlang.indexOf(base) === 0) score += 40;
+    for (const hint of GOOD_VOICE) if (name.indexOf(hint) >= 0) score += 35;
+    for (const hint of BAD_VOICE) if (name.indexOf(hint) >= 0) score -= 120;
+    if (voice.localService) score += 5; // 本地音库更稳，断网也能读
+    if (voice.default) score += 8;
+    return score;
+  }
+
   function pickVoice(lang) {
     const list = voices.length ? voices : refresh();
     if (!list.length) return null;
     const want = String(lang || "en-US").toLowerCase();
     const base = want.split("-")[0];
-    const exact = list.find(function (v) { return String(v.lang || "").toLowerCase() === want; });
-    if (exact) return exact;
-    // 英文才有英音/美音兜底；其他语言只能用同前缀的语音，否则会拿美音读中文
-    if (base === "en") {
-      const us = list.find(function (v) { return /^en[-_]us/i.test(v.lang || ""); });
-      if (us) return us;
-      const gb = list.find(function (v) { return /^en[-_]gb/i.test(v.lang || ""); });
-      if (gb) return gb;
+    const saved = getPrefs().voiceName;
+    if (saved) {
+      const chosen = list.find(function (v) { return String(v.name || "") === saved; });
+      if (chosen) return chosen;
     }
-    return list.find(function (v) { return String(v.lang || "").toLowerCase().indexOf(base) === 0; })
-      || null;
+    const candidates = list.filter(function (v) {
+      const vlang = String(v.lang || "").toLowerCase();
+      if (base === "en") return vlang.indexOf("en") === 0;
+      return vlang.indexOf(base) === 0;
+    });
+    if (!candidates.length) return null;
+    let best = null;
+    let bestScore = -Infinity;
+    for (const voice of candidates) {
+      const score = scoreVoice(voice, want);
+      if (score > bestScore) {
+        best = voice;
+        bestScore = score;
+      }
+    }
+    return best;
   }
 
   function resume() {
@@ -206,6 +244,43 @@
 
     step();
     return true;
+  }
+
+  // 长句按标点切成小段再依次朗读，句子之间自然停顿，听起来不像一口气念完
+  function splitSentences(text, maxLen) {
+    const limit = maxLen || 120;
+    const value = String(text || "").trim();
+    if (value.length <= limit) return [value];
+    const parts = value.split(/(?<=[.!?;:,\u3002\uff0c\uff1b\uff1a])\s*/);
+    const out = [];
+    let buffer = "";
+    for (const part of parts) {
+      if (!part) continue;
+      const joined = buffer ? buffer.replace(/\s+$/, "") + " " + part : part;
+      if (joined.length > limit && buffer) {
+        out.push(buffer.trim());
+        buffer = part;
+      } else {
+        buffer = joined;
+      }
+    }
+    if (buffer.trim()) out.push(buffer.trim());
+    return out.filter(Boolean);
+  }
+
+  function speakNatural(text, opts) {
+    opts = opts || {};
+    const chunks = splitSentences(text, opts.maxLen || 120);
+    if (chunks.length <= 1) return speak(text, opts);
+    return speakSequence(chunks.map(function (chunk) {
+      return { text: chunk, lang: opts.lang, rate: opts.rate, pitch: opts.pitch };
+    }), {
+      rate: opts.rate,
+      lang: opts.lang,
+      onStart: opts.onStart,
+      onAllEnd: opts.onEnd,
+      onFail: opts.onFail
+    });
   }
 
   function speak(text, opts) {
@@ -346,6 +421,9 @@
     supported: supported,
     speak: speak,
     speakSequence: speakSequence,
+    speakNatural: speakNatural,
+    splitSentences: splitSentences,
+    scoreVoice: scoreVoice,
     cancel: cancel,
     refresh: refresh,
     getPrefs: getPrefs,

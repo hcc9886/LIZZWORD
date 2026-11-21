@@ -473,5 +473,5 @@ function main() {
   writeOutputs(result, corpus, loadChecker());
 }
 
-main();
-module.exports = { BOOKS, DOMAIN, readCorpus, build };
+if (require.main === module) main();
+module.exports = { BOOKS, DOMAIN, readCorpus, build, normalizeEntry, loadChecker, posName, stableRank };
