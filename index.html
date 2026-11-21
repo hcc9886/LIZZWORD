@@ -231,6 +231,42 @@
 
 
 
+
+    /* ===== 专项练习 ===== */
+    .drill-home, .drill-card, .wrong-card { padding: 8px 2px; }
+    .drill-sub { margin: 6px 0 14px; font-size: 0.86rem; color: #6b7280; }
+    .drill-modes { display: grid; gap: 10px; }
+    .drill-mode {
+      text-align: left; padding: 14px 16px; border-radius: 14px;
+      border: 1px solid #e1e5f0; background: #fff; cursor: pointer;
+    }
+    .drill-mode-title { display: block; font-weight: 700; font-size: 0.96rem; }
+    .drill-mode-sub { display: block; margin-top: 4px; font-size: 0.8rem; color: #6b7280; }
+    .drill-head { display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; }
+    .drill-tag { font-size: 0.78rem; padding: 3px 10px; border-radius: 999px; background: #eef4ff; color: #3157d5; }
+    .drill-progress { font-size: 0.8rem; color: #9ca3af; }
+    .drill-prompt { font-size: 1.04rem; line-height: 1.7; margin: 10px 0 6px; }
+    .drill-hint { font-size: 0.84rem; color: #9ca3af; margin: 0 0 12px; }
+    .drill-options { display: grid; gap: 8px; margin: 8px 0 12px; }
+    .drill-option {
+      padding: 12px 14px; border-radius: 12px; border: 1px solid #e1e5f0;
+      background: #fff; font-size: 0.94rem; text-align: left; cursor: pointer;
+    }
+    .drill-option.is-correct { border-color: #22c55e; background: #f0fdf4; }
+    .drill-option.is-wrong { border-color: #ef4444; background: #fef2f2; }
+    .drill-feedback { font-size: 0.88rem; margin: 0 0 10px; }
+    .drill-feedback.is-ok { color: #15803d; }
+    .drill-feedback.is-bad { color: #b91c1c; }
+    .drill-actions { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 10px; }
+    .wrong-list { list-style: none; padding: 0; margin: 0 0 14px; display: grid; gap: 8px; }
+    .wrong-item {
+      width: 100%; display: grid; grid-template-columns: 1fr auto; gap: 4px 10px;
+      padding: 10px 12px; border-radius: 12px; border: 1px solid #e1e5f0; background: #fff; text-align: left; cursor: pointer;
+    }
+    .wrong-word { font-weight: 700; }
+    .wrong-count { font-size: 0.76rem; color: #b91c1c; }
+    .wrong-def { grid-column: 1 / -1; font-size: 0.82rem; color: #6b7280; }
+
     /* ===== 计划卡 ===== */
     .plan-card {
       display: flex; align-items: center; justify-content: space-between; gap: 12px;
@@ -1532,6 +1568,12 @@
 
     <!-- 词汇量测试：多轮自适应选择题，估算 CEFR 等级与词汇量并推荐词书 -->
     <main id="view-vocab-test" hidden></main>
+
+    <!-- 专项练习：例句填空 / 形近辨析 / 词根拆解 -->
+    <main id="view-drill" hidden></main>
+
+    <!-- 错词本：反复错的词集中复习 -->
+    <main id="view-wrong" hidden></main>
 
     <!-- 词库浏览：保留原来的七个分区 -->
     <main id="view-browse" hidden>
@@ -8840,6 +8882,7 @@
       } else {
         bumpStageWrong(key);
         bumpWrong();
+        bumpWordWrong(wordId);
         // 写阶段以外的答错：清空该词后续阶段的通过记录，退回认词重走完整轮次
         resetWordToStage1(wordId);
         extra = stageKey === "stage1"
@@ -8967,6 +9010,7 @@
       } else {
         bumpStageWrong("s3");
         bumpWrong();
+        bumpWordWrong(writeCurrent && writeCurrent.wordId);
         state.writeQueue = state.writeQueue.filter((id) => id !== wordId);
         state.writeQueue.push(wordId);
       }
@@ -10010,6 +10054,16 @@
           <button type="button" class="home-btn" data-enter="vocab-test">
             <span class="home-title">词汇量测试</span>
             <span class="home-sub">${vocabTestHomeText()}</span>
+          </button>
+
+          <button type="button" class="home-btn" data-enter="drill">
+            <span class="home-title">专项练习</span>
+            <span class="home-sub">例句填空 · 形近辨析 · 词根拆解，十题一组</span>
+          </button>
+
+          <button type="button" class="home-btn" data-enter="wrong">
+            <span class="home-title">错词本</span>
+            <span class="home-sub">${wrongBookSummary()}</span>
           </button>
 
           <button type="button" class="home-btn" data-enter="games">
@@ -11151,6 +11205,8 @@
       if (viewMode === "az") return "全部单词 · A–Z";
       if (viewMode === "library") return "我的词书";
       if (viewMode === "vocab-test") return "词汇量测试";
+      if (viewMode === "drill") return "专项练习";
+      if (viewMode === "wrong") return "错词本";
       return "";
     }
 
@@ -11163,7 +11219,9 @@
         preview: "view-preview",
         browse: "view-browse",
         az: "view-az",
-        "vocab-test": "view-vocab-test"
+        "vocab-test": "view-vocab-test",
+        drill: "view-drill",
+        wrong: "view-wrong"
       };
       Object.keys(views).forEach((key) => {
         document.getElementById(views[key]).hidden = key !== viewMode;
@@ -11178,6 +11236,8 @@
       else if (viewMode === "preview") renderPreview();
       else if (viewMode === "az") renderAz();
       else if (viewMode === "vocab-test") renderVocabTest();
+      else if (viewMode === "drill") renderDrill();
+      else if (viewMode === "wrong") renderWrongBook();
       else renderBrowse();
     }
 
@@ -11394,6 +11454,221 @@
       if (!started) reset();
     }
 
+
+    // ============================================================
+    // 18. 专项练习（例句填空 / 形近辨析 / 词根拆解）+ 错词本
+    // ============================================================
+    const WRONG_KEY = "lizzword_wrong_v1";
+    let drill = null;
+
+    function wrongBookLoad() {
+      try {
+        const raw = localStorage.getItem(WRONG_KEY);
+        const data = raw ? JSON.parse(raw) : {};
+        return data && typeof data === "object" ? data : {};
+      } catch (e) { return {}; }
+    }
+
+    function wrongBookSave(map) {
+      try { localStorage.setItem(WRONG_KEY, JSON.stringify(map)); } catch (e) { /* ignore */ }
+    }
+
+    function bumpWordWrong(wordId) {
+      if (!wordId) return;
+      const map = wrongBookLoad();
+      const key = String(wordId).toLowerCase();
+      map[key] = (Number(map[key]) || 0) + 1;
+      wrongBookSave(map);
+    }
+
+    function wrongBookList() {
+      const map = wrongBookLoad();
+      return Object.keys(map)
+        .map((word) => ({ word, count: Number(map[word]) || 0, item: getWord(word) }))
+        .filter((row) => row.item && row.count > 0)
+        .sort((a, b) => b.count - a.count);
+    }
+
+    function wrongBookSummary() {
+      const list = wrongBookList();
+      if (!list.length) return "还没有错词，先去做专项练习";
+      return `${list.length} 个词需要重点看，最常见的是「${list[0].word}」`;
+    }
+
+    function drillPool() {
+      return words.filter((item) => item && item.__deep && Array.isArray(item.senses) && item.senses.length);
+    }
+
+    function pickDistractors(pool, answer, count) {
+      const out = [];
+      const seen = new Set([String(answer).toLowerCase()]);
+      for (const item of shuffle(pool)) {
+        const key = String(item.word).toLowerCase();
+        if (seen.has(key)) continue;
+        seen.add(key);
+        out.push(item.word);
+        if (out.length >= count) break;
+      }
+      return out;
+    }
+
+    function buildDrillQuestions(mode, count) {
+      const pool = drillPool();
+      if (pool.length < 4) return [];
+      const questions = [];
+      for (const item of shuffle(pool)) {
+        if (questions.length >= count) break;
+        if (mode === "example") {
+          const example = item.examples && item.examples[0];
+          if (!example || !example.en) continue;
+          const re = new RegExp("\\b" + escapeRegExp(item.word) + "\\w*", "i");
+          if (!re.test(example.en)) continue;
+          const blanked = example.en.replace(re, "______");
+          if (blanked.indexOf("______") < 0) continue;
+          questions.push({
+            type: "example",
+            prompt: blanked,
+            hint: example.cn || "",
+            answer: item.word,
+            options: shuffle([item.word].concat(pickDistractors(pool, item.word, 3)))
+          });
+        } else if (mode === "confusable") {
+          const group = item.similar && item.similar.groups && item.similar.groups[0];
+          if (!group || !Array.isArray(group.entries) || group.entries.length < 2) continue;
+          const others = group.entries.map((entry) => entry.word).filter((word) => word && word.toLowerCase() !== item.word.toLowerCase());
+          if (others.length < 2) continue;
+          questions.push({
+            type: "confusable",
+            prompt: `哪一个词表示「${item.senses[0].titleCN || item.definition_zh}」？`,
+            hint: item.senses[0].definitionCN || item.definition_zh,
+            answer: item.word,
+            options: shuffle([item.word].concat(others.slice(0, 3)))
+          });
+        } else {
+          const items = item.affixes && item.affixes.items;
+          if (!Array.isArray(items) || items.length < 3) continue;
+          const target = items[Math.floor(Math.random() * items.length)];
+          if (!target || !target.word || !target.meaningCN) continue;
+          const others = items.filter((entry) => entry.word !== target.word).map((entry) => entry.word);
+          questions.push({
+            type: "affix",
+            prompt: `哪个词根/词缀表示「${target.meaningCN}」？`,
+            hint: `来自 ${item.word}`,
+            answer: target.word,
+            options: shuffle([target.word].concat(others.slice(0, 3)))
+          });
+        }
+      }
+      return questions;
+    }
+
+    const DRILL_LABELS = { example: "例句填空", confusable: "形近辨析", affix: "词根拆解" };
+
+    function startDrill(mode) {
+      const questions = buildDrillQuestions(mode, 10);
+      drill = { mode, questions, index: 0, picked: "", score: 0, done: false };
+      if (!questions.length) {
+        drill = null;
+        showToast("这本书的深度词条还不够，换一本试试。");
+        return;
+      }
+      renderView();
+    }
+
+    function renderDrill() {
+      const mount = document.getElementById("view-drill");
+      if (!drill) {
+        mount.innerHTML = `
+          <section class="drill-home">
+            <h2 class="done-title">专项练习</h2>
+            <p class="drill-sub">从当前词书里抽 10 个词，练一个专项。</p>
+            <div class="drill-modes">
+              ${Object.keys(DRILL_LABELS).map((mode) => `
+                <button type="button" class="drill-mode" data-drill-mode="${mode}">
+                  <span class="drill-mode-title">${DRILL_LABELS[mode]}</span>
+                  <span class="drill-mode-sub">${mode === "example" ? "看句意填单词" : mode === "confusable" ? "区分近义与形近词" : "按词缀含义反查"}</span>
+                </button>`).join("")}
+            </div>
+          </section>`;
+        return;
+      }
+      const q = drill.questions[drill.index];
+      if (!q) {
+        mount.innerHTML = `
+          <section class="drill-home">
+            <h2 class="done-title">练习完成</h2>
+            <p class="drill-sub">答对 ${drill.score} / ${drill.questions.length}</p>
+            <div class="drill-actions">
+              <button type="button" class="btn-primary" data-drill-restart="${drill.mode}">再来一组</button>
+              <button type="button" class="btn-ghost" data-home>返回主界面</button>
+            </div>
+          </section>`;
+        return;
+      }
+      const answered = Boolean(drill.picked);
+      const correct = answered && drill.picked.toLowerCase() === q.answer.toLowerCase();
+      mount.innerHTML = `
+        <section class="drill-card">
+          <div class="drill-head">
+            <span class="drill-tag">${DRILL_LABELS[drill.mode]}</span>
+            <span class="drill-progress">${drill.index + 1} / ${drill.questions.length}</span>
+          </div>
+          <p class="drill-prompt">${esc(q.prompt)}</p>
+          ${q.hint ? `<p class="drill-hint">${esc(q.hint)}</p>` : ""}
+          <div class="drill-options">
+            ${q.options.map((option) => {
+              let cls = "drill-option";
+              if (answered) {
+                if (option.toLowerCase() === q.answer.toLowerCase()) cls += " is-correct";
+                else if (option === drill.picked) cls += " is-wrong";
+              }
+              return `<button type="button" class="${cls}" data-drill-pick="${esc(option)}" ${answered ? "disabled" : ""}>${esc(option)}</button>`;
+            }).join("")}
+          </div>
+          ${answered ? `<p class="drill-feedback ${correct ? "is-ok" : "is-bad"}">${correct ? "答对了" : "正确答案：" + esc(q.answer)}</p>` : ""}
+          <div class="drill-actions">
+            ${answered ? `<button type="button" class="btn-primary" data-drill-next>下一题</button>` : `<button type="button" class="btn-ghost" data-home>退出练习</button>`}
+          </div>
+        </section>`;
+    }
+
+    function renderWrongBook() {
+      const mount = document.getElementById("view-wrong");
+      const list = wrongBookList();
+      if (!list.length) {
+        mount.innerHTML = `<section class="drill-home"><h2 class="done-title">错词本还是空的</h2>
+          <p class="drill-sub">在学习、复习或专项练习里答错，词会自动进来。</p>
+          <button type="button" class="btn-primary" data-enter="drill">去练一组</button></section>`;
+        return;
+      }
+      mount.innerHTML = `
+        <section class="wrong-card">
+          <h2 class="done-title">错词本 · ${list.length} 个词</h2>
+          <p class="drill-sub">按错误次数排序，点单词直接看词卡。</p>
+          <ul class="wrong-list">
+            ${list.slice(0, 60).map((row) => `
+              <li>
+                <button type="button" class="wrong-item" data-wrong-word="${esc(row.word)}">
+                  <span class="wrong-word">${esc(row.word)}</span>
+                  <span class="wrong-count">错 ${row.count} 次</span>
+                  <span class="wrong-def">${esc(row.item.definition_zh || "")}</span>
+                </button>
+              </li>`).join("")}
+          </ul>
+          <div class="drill-actions">
+            <button type="button" class="btn-primary" data-enter="drill">专项练习</button>
+            <button type="button" class="btn-ghost" data-wrong-clear>清空错词本</button>
+          </div>
+        </section>`;
+    }
+
+    function openWordInBrowse(wordId) {
+      const index = words.findIndex((item) => item.word === wordId);
+      if (index < 0) return;
+      browseIndex = index;
+      showView("browse");
+    }
+
     // ============================================================
     // 17. 作答反馈 / 回撤 / 键盘 / 交互委托
     // ============================================================
@@ -11600,6 +11875,46 @@
     });
 
     document.addEventListener("click", (event) => {
+      const drillMode = event.target.closest("[data-drill-mode]");
+      if (drillMode) {
+        startDrill(drillMode.dataset.drillMode);
+        return;
+      }
+      const drillPick = event.target.closest("[data-drill-pick]");
+      if (drillPick && drill && !drill.picked) {
+        const picked = drillPick.dataset.drillPick;
+        drill.picked = picked;
+        if (drill.questions[drill.index] && picked.toLowerCase() === drill.questions[drill.index].answer.toLowerCase()) {
+          drill.score += 1;
+        } else {
+          bumpWordWrong(drill.questions[drill.index].answer);
+        }
+        renderDrill();
+        return;
+      }
+      if (event.target.closest("[data-drill-next]") && drill) {
+        drill.index += 1;
+        drill.picked = "";
+        renderDrill();
+        return;
+      }
+      const restart = event.target.closest("[data-drill-restart]");
+      if (restart) {
+        startDrill(restart.dataset.drillRestart);
+        return;
+      }
+      const wrongWord = event.target.closest("[data-wrong-word]");
+      if (wrongWord) {
+        openWordInBrowse(wrongWord.dataset.wrongWord);
+        return;
+      }
+      if (event.target.closest("[data-wrong-clear]")) {
+        wrongBookSave({});
+        renderView();
+        showToast("错词本已清空。");
+        return;
+      }
+
       if (event.target.closest("[data-plan-open]")) {
         openPlanWizard();
         return;
