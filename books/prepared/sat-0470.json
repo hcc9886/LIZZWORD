@@ -1,150 +1,413 @@
-{
-  "word": "brigadier",
-  "ipa_uk": "/ˌbrɪɡəˈdɪə(r)/",
-  "ipa_us": "/ˌbrɪɡəˈdɪr/",
-  "definition_zh": "准将；旅长",
-  "definition_en": "an army officer of high rank, commanding a brigade, just below a major general",
-  "core_image": "肩上一颗星，身后一整旅士兵",
-  "scene": "阅兵场上，军官迈步走过队列，肩章在阳光下发亮。The brigadier inspected the parade before the review began.",
-  "sceneCN": "这里 brigadier 是「准将、旅长」（第 1 个义项：指挥一旅部队的高级军官）；句意是检阅开始前准将视察受阅部队。",
-  "pos": [
-    { "tag": "n.", "zh": "准将；旅长" }
-  ],
-  "collocations": [
-    { "phrase": "brigadier general", "zh": "准将（美军军衔名）" },
-    { "phrase": "a brigadier commanding a brigade", "zh": "统率一个旅的准将" },
-    { "phrase": "promote to brigadier", "zh": "晋升为准将" },
-    { "phrase": "the brigadier's orders", "zh": "准将的命令" }
-  ],
-  "forms": [
-    { "label": "复数", "form": "brigadiers" }
-  ],
-  "derivatives": [
-    { "word": "brigade", "pos": "n.", "zh": "brigadier 的基础词，义为「旅；队」" },
-    { "word": "brigadier general", "pos": "n.", "zh": "复合词，义为「准将」（美军称谓）" },
-    { "word": "brigadiership", "pos": "n.", "zh": "由 brigadier 加 -ship 构成，义为「准将职位（罕用）」" }
-  ],
-  "senses": [
-    {
-      "no": "01",
-      "title": "A general officer commanding a brigade",
-      "titleCN": "准将；旅长",
-      "definition": "a senior army officer who commands a brigade, ranking just below a major general",
-      "definitionCN": "指挥一个旅的高级军官，军衔仅低于少将",
-      "example": "The brigadier ordered the battalion to hold the ridge.",
-      "exampleCN": "准将命令该营守住山脊。",
-      "why": "The title simply names the officer of a brigade, built on brigade.",
-      "whyCN": "军衔名直接建立在 brigade（旅）之上：指挥一旅者即 brigadier。"
-    },
-    {
-      "no": "02",
-      "title": "The rank itself",
-      "titleCN": "准将衔",
-      "definition": "the military rank between colonel and major general",
-      "definitionCN": "位于上校与少将之间的军衔等级",
-      "example": "He retired with the rank of brigadier.",
-      "exampleCN": "他以准将衔退役。",
-      "why": "Once the officer is named by the unit, the name extends to the rank itself.",
-      "whyCN": "既以部队命名军官，官名便转指军衔本身。"
-    },
-    {
-      "no": "03",
-      "title": "Head of certain police or fire units",
-      "titleCN": "（某些国家的）警察或消防分队长",
-      "definition": "in some countries, an officer in charge of a police or fire brigade unit",
-      "definitionCN": "在部分国家，指警队或消防队某分队的指挥官",
-      "example": "A fire brigadier coordinated the evening shift.",
-      "exampleCN": "消防分队长协调晚班调度。",
-      "why": "Brigade also names non-military squads, so their leaders borrow the title.",
-      "whyCN": "brigade 亦指非军事的队伍，其长官便借用这一头衔。"
-    }
-  ],
-  "etymology": {
-    "intro": { "en": "Brigadier comes from brigade, an Italian military word carried through French.", "cn": "brigadier 源自 brigade，后者是经法语传入的意大利军事用语。" },
-    "items": [
-      { "era": "ITALIAN", "en": "brigata meant a company or troop, from brigare, to fight or band together.", "cn": "意大利语 brigata 指队伍，源自 brigare（结伙、争斗）。" },
-      { "era": "FRENCH", "en": "brigade was adopted for a large military unit; brigadier named its commander.", "cn": "法语借入 brigade 指大型作战单位，brigadier 指其指挥官。" },
-      { "era": "ENGLISH, 17TH C.", "en": "English took brigade and brigadier in the seventeenth century.", "cn": "英语于十七世纪借入 brigade 与 brigadier。" },
-      { "era": "ENGLISH, 18TH–19TH C.", "en": "brigadier general settled as a rank in British and American usage.", "cn": "英美军制中 brigadier general 固定为正式军衔。" },
-      { "era": "PRESENT DAY ENGLISH", "en": "British usage says brigadier; American usage says brigadier general.", "cn": "英式称 brigadier，美式称 brigadier general。" }
-    ]
-  },
-  "similar": {
-    "note": { "en": "Brigadier belongs to a ladder of rank titles built on unit names.", "cn": "brigadier 与一组由部队单位名构成的军衔词同场出现。" },
-    "groups": [
+[
+  {
+    "word": "brigadier",
+    "ipa_uk": "/ˌbrɪɡəˈdɪə(r)/",
+    "ipa_us": "/ˌbrɪɡəˈdɪr/",
+    "definition_zh": "准将；旅长",
+    "definition_en": "an army officer of high rank, commanding a brigade, just below a major general",
+    "core_image": "肩上一颗星，身后一整旅士兵",
+    "scene": "阅兵场上，军官迈步走过队列，肩章在阳光下发亮。The brigadier inspected the parade before the review began.",
+    "sceneCN": "这里 brigadier 是「准将、旅长」（第 1 个义项：指挥一旅部队的高级军官）；句意是检阅开始前准将视察受阅部队。",
+    "pos": [
       {
-        "heading": "LOOK-ALIKE",
-        "entries": [
-          { "word": "brigade", "ipa": "/brɪˈɡeɪd/", "tag": "same root", "definition": "a large military unit; the base word of brigadier", "definitionCN": "旅；队，brigadier 的基础词" },
-          { "word": "brigadier general", "ipa": "/ˌbrɪɡədɪə ˈdʒenrəl/", "tag": "compound", "definition": "the American title for the same rank", "definitionCN": "美式同衔称谓「准将」" },
-          { "word": "brigand", "ipa": "/ˈbrɪɡənd/", "tag": "same root", "definition": "a bandit; shares the Italian root brigare", "definitionCN": "土匪；与 brigadier 同出意大利语 brigare（结伙）" }
-        ]
+        "tag": "n.",
+        "zh": "准将；旅长"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "brigadier general",
+        "zh": "准将（美军军衔名）"
       },
       {
-        "heading": "NEAR MEANING",
-        "entries": [
-          { "word": "colonel", "ipa": "/ˈkɜːnl/", "tag": "rank below", "definition": "the rank immediately below brigadier", "definitionCN": "上校，低于准将一级" },
-          { "word": "major general", "ipa": "/ˌmeɪdʒə ˈdʒenrəl/", "tag": "rank above", "definition": "the rank immediately above brigadier", "definitionCN": "少将，高于准将一级" },
-          { "word": "general", "ipa": "/ˈdʒenrəl/", "tag": "near meaning", "definition": "a top army officer", "definitionCN": "将军；上将级军官" },
-          { "word": "commander", "ipa": "/kəˈmɑːndə(r)/", "tag": "near meaning", "definition": "an officer in charge of a unit", "definitionCN": "指挥官；长官" },
-          { "word": "officer", "ipa": "/ˈɒfɪsə(r)/", "tag": "near meaning", "definition": "a person holding a position of authority in the forces", "definitionCN": "军官；官员" }
-        ]
+        "phrase": "a brigadier commanding a brigade",
+        "zh": "统率一个旅的准将"
+      },
+      {
+        "phrase": "promote to brigadier",
+        "zh": "晋升为准将"
+      },
+      {
+        "phrase": "the brigadier's orders",
+        "zh": "准将的命令"
       }
-    ]
-  },
-  "mnemonics": {
-    "normalIntro": { "en": "Build brigadier from brigade plus -ier, the man of the brigade.", "cn": "把 brigadier 拆成 brigade 加 -ier：指挥一旅之人。" },
-    "normal": [
-      { "en": "Brigadier is brigade plus -ier, like banker from bank.", "cn": "brigadier 等于 brigade 加 -ier，如 banker 之于 bank。" },
-      { "en": "Brigand and brigade share the root brigare, to band together.", "cn": "brigand 与 brigade 同根 brigare（结伙），一伙当兵、一伙落草。" },
-      { "en": "One star on the shoulder, one brigade behind.", "cn": "肩上一颗星，身后一整旅。" },
-      { "en": "Colonel up, brigadier above him, major general higher.", "cn": "上校之下，准将居中，少将更高。" },
-      { "en": "Fire brigades have brigadiers too in some countries.", "cn": "某些国家消防队也有 brigadier（分队长）。" }
     ],
-    "abstract": [
-      { "en": "See medals glint as the brigadier walks the line.", "cn": "想象准将走过队列时勋章闪光。" },
-      { "en": "Hear a single command roll across the parade ground.", "cn": "听一声口令滚过阅兵场。" },
-      { "en": "Feel the weight of a whole brigade moving at one word.", "cn": "感受一整旅人随一声令下齐动的分量。" }
-    ]
-  },
-  "examples": [
-    { "en": "The brigadier briefed the officers before dawn.", "cn": "准将在拂晓前向军官们布置任务。" },
-    { "en": "She was promoted to brigadier after twenty years of service.", "cn": "服役二十年后她晋升为准将。" },
-    { "en": "A police brigadier addressed the crowd through a loudspeaker.", "cn": "一名警队分队长用扩音器向人群喊话。" }
-  ],
-  "dict_mnemonic": { "note": "谐音记忆 · 非词源", "text": "「不日格带」——准将「不日」就要视查，身后「格」外齐整的部队被他一「带」。", "word": "brigadier" },
-  "root": "brigadier 由法语 brigade（旅）加 -ier（从事者）构成；brigade 源自意大利语 brigata（队伍），其词根 brigare（结伙）一般认为与意语 briga（争吵、纠纷）相关，更早来源存疑。",
-  "sensesIntro": { "en": "From commander of a brigade, the word widens to the rank and to some civil unit leaders.", "cn": "从「一旅之长」出发，扩展为军衔本身，再借给某些民事分队的主官。" },
-  "semanticMap": {
-    "core": { "en": "CORE IMAGE: one officer speaking, a whole brigade listening.", "cn": "核心意象：一名军官发令，一整旅人聆听。" },
-    "chain": ["BRIGADE", "COMMAND", "RANK", "INSPECTION", "ORDER", "RETIREMENT"],
-    "branches": [
-      { "senses": "01", "en": "the brigadier commands", "cn": "准将指挥" },
-      { "senses": "01 · 02", "en": "rank of brigadier", "cn": "准将衔" },
-      { "senses": "02", "en": "promoted to brigadier", "cn": "晋衔为准将" },
-      { "senses": "03", "en": "a fire brigadier", "cn": "消防分队长" },
-      { "senses": "01 · 03", "en": "the brigadier inspects", "cn": "长官视查" }
-    ]
-  },
-  "affixes": {
-    "intro": { "en": "The family is built on brigade with agent and rank suffixes.", "cn": "词族以 brigade 为基，加施动者与军衔后缀。" },
-    "latinIntro": { "en": "The trail leads back to Italian, not to classical Latin.", "cn": "词源上溯至意大利语，而非古典拉丁语。" },
-    "items": [
-      { "word": "brigade", "structure": "noun base", "meaning": "a military unit", "meaningCN": "旅；队", "example": "an armoured brigade", "exampleCN": "装甲旅" },
-      { "word": "-ier", "structure": "agent suffix", "meaning": "person connected with", "meaningCN": "表人的后缀", "example": "brigadier, financier", "exampleCN": "如 brigadier、financier 等词" },
-      { "word": "brigadier", "structure": "brigade + -ier", "meaning": "commander of a brigade", "meaningCN": "旅长；准将", "example": "a serving brigadier", "exampleCN": "在职准将" },
-      { "word": "brigadier general", "structure": "compound", "meaning": "American title for the rank", "meaningCN": "美式准将衔", "example": "Brigadier General Lee", "exampleCN": "李准将" },
-      { "word": "brigand", "structure": "same root brigare", "meaning": "a bandit", "meaningCN": "土匪；强盗", "example": "mountain brigands", "exampleCN": "山匪" },
-      { "word": "brigandage", "structure": "brigand + -age", "meaning": "the practice of banditry", "meaningCN": "劫掠行径", "example": "an era of brigandage", "exampleCN": "匪患横行的年代" },
-      { "word": "fire brigade", "structure": "compound", "meaning": "a fire-fighting unit", "meaningCN": "消防队", "example": "call the fire brigade", "exampleCN": "呼叫消防队" },
-      { "word": "brigadiership", "structure": "brigadier + -ship", "meaning": "the office of brigadier", "meaningCN": "准将职位", "example": "his brief brigadiership", "exampleCN": "他短暂的准将任期" },
-      { "word": "colonel", "structure": "adjacent rank noun", "meaning": "rank below brigadier", "meaningCN": "上校", "example": "a colonel's batman", "exampleCN": "上校的勤务兵" },
-      { "word": "general", "structure": "rank noun", "meaning": "top officer rank", "meaningCN": "将军", "example": "a five-star general", "exampleCN": "五星上将" }
+    "forms": [
+      {
+        "label": "复数",
+        "form": "brigadiers"
+      }
     ],
-    "latinEntries": [],
     "derivatives": [
-      { "word": "brigade", "pos": "n.", "zh": "旅；队" },
-      { "word": "brigadiership", "pos": "n.", "zh": "准将职位" }
-    ]
+      {
+        "word": "brigade",
+        "pos": "n.",
+        "zh": "brigadier 的基础词，义为「旅；队」"
+      },
+      {
+        "word": "brigadier general",
+        "pos": "n.",
+        "zh": "复合词，义为「准将」（美军称谓）"
+      },
+      {
+        "word": "brigadiership",
+        "pos": "n.",
+        "zh": "由 brigadier 加 -ship 构成，义为「准将职位（罕用）」"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "A general officer commanding a brigade",
+        "titleCN": "准将；旅长",
+        "definition": "a senior army officer who commands a brigade, ranking just below a major general",
+        "definitionCN": "指挥一个旅的高级军官，军衔仅低于少将",
+        "example": "The brigadier ordered the battalion to hold the ridge.",
+        "exampleCN": "准将命令该营守住山脊。",
+        "why": "The title simply names the officer of a brigade, built on brigade.",
+        "whyCN": "军衔名直接建立在 brigade（旅）之上：指挥一旅者即 brigadier。"
+      },
+      {
+        "no": "02",
+        "title": "The rank itself",
+        "titleCN": "准将衔",
+        "definition": "the military rank between colonel and major general",
+        "definitionCN": "位于上校与少将之间的军衔等级",
+        "example": "He retired with the rank of brigadier.",
+        "exampleCN": "他以准将衔退役。",
+        "why": "Once the officer is named by the unit, the name extends to the rank itself.",
+        "whyCN": "既以部队命名军官，官名便转指军衔本身。"
+      },
+      {
+        "no": "03",
+        "title": "Head of certain police or fire units",
+        "titleCN": "（某些国家的）警察或消防分队长",
+        "definition": "in some countries, an officer in charge of a police or fire brigade unit",
+        "definitionCN": "在部分国家，指警队或消防队某分队的指挥官",
+        "example": "A fire brigadier coordinated the evening shift.",
+        "exampleCN": "消防分队长协调晚班调度。",
+        "why": "Brigade also names non-military squads, so their leaders borrow the title.",
+        "whyCN": "brigade 亦指非军事的队伍，其长官便借用这一头衔。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Brigadier comes from brigade, an Italian military word carried through French.",
+        "cn": "brigadier 源自 brigade，后者是经法语传入的意大利军事用语。"
+      },
+      "items": [
+        {
+          "era": "ITALIAN",
+          "en": "brigata meant a company or troop, from brigare, to fight or band together.",
+          "cn": "意大利语 brigata 指队伍，源自 brigare（结伙、争斗）。"
+        },
+        {
+          "era": "FRENCH",
+          "en": "brigade was adopted for a large military unit; brigadier named its commander.",
+          "cn": "法语借入 brigade 指大型作战单位，brigadier 指其指挥官。"
+        },
+        {
+          "era": "ENGLISH, 17TH C.",
+          "en": "English took brigade and brigadier in the seventeenth century.",
+          "cn": "英语于十七世纪借入 brigade 与 brigadier。"
+        },
+        {
+          "era": "ENGLISH, 18TH–19TH C.",
+          "en": "brigadier general settled as a rank in British and American usage.",
+          "cn": "英美军制中 brigadier general 固定为正式军衔。"
+        },
+        {
+          "era": "PRESENT DAY ENGLISH",
+          "en": "British usage says brigadier; American usage says brigadier general.",
+          "cn": "英式称 brigadier，美式称 brigadier general。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "Brigadier belongs to a ladder of rank titles built on unit names.",
+        "cn": "brigadier 与一组由部队单位名构成的军衔词同场出现。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "brigade",
+              "ipa": "/brɪˈɡeɪd/",
+              "tag": "same root",
+              "definition": "a large military unit; the base word of brigadier",
+              "definitionCN": "旅；队，brigadier 的基础词"
+            },
+            {
+              "word": "brigadier general",
+              "ipa": "/ˌbrɪɡədɪə ˈdʒenrəl/",
+              "tag": "compound",
+              "definition": "the American title for the same rank",
+              "definitionCN": "美式同衔称谓「准将」"
+            },
+            {
+              "word": "brigand",
+              "ipa": "/ˈbrɪɡənd/",
+              "tag": "same root",
+              "definition": "a bandit; shares the Italian root brigare",
+              "definitionCN": "土匪；与 brigadier 同出意大利语 brigare（结伙）"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "colonel",
+              "ipa": "/ˈkɜːnl/",
+              "tag": "rank below",
+              "definition": "the rank immediately below brigadier",
+              "definitionCN": "上校，低于准将一级"
+            },
+            {
+              "word": "major general",
+              "ipa": "/ˌmeɪdʒə ˈdʒenrəl/",
+              "tag": "rank above",
+              "definition": "the rank immediately above brigadier",
+              "definitionCN": "少将，高于准将一级"
+            },
+            {
+              "word": "general",
+              "ipa": "/ˈdʒenrəl/",
+              "tag": "near meaning",
+              "definition": "a top army officer",
+              "definitionCN": "将军；上将级军官"
+            },
+            {
+              "word": "commander",
+              "ipa": "/kəˈmɑːndə(r)/",
+              "tag": "near meaning",
+              "definition": "an officer in charge of a unit",
+              "definitionCN": "指挥官；长官"
+            },
+            {
+              "word": "officer",
+              "ipa": "/ˈɒfɪsə(r)/",
+              "tag": "near meaning",
+              "definition": "a person holding a position of authority in the forces",
+              "definitionCN": "军官；官员"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Build brigadier from brigade plus -ier, the man of the brigade.",
+        "cn": "把 brigadier 拆成 brigade 加 -ier：指挥一旅之人。"
+      },
+      "normal": [
+        {
+          "en": "Brigadier is brigade plus -ier, like banker from bank.",
+          "cn": "brigadier 等于 brigade 加 -ier，如 banker 之于 bank。"
+        },
+        {
+          "en": "Brigand and brigade share the root brigare, to band together.",
+          "cn": "brigand 与 brigade 同根 brigare（结伙），一伙当兵、一伙落草。"
+        },
+        {
+          "en": "One star on the shoulder, one brigade behind.",
+          "cn": "肩上一颗星，身后一整旅。"
+        },
+        {
+          "en": "Colonel up, brigadier above him, major general higher.",
+          "cn": "上校之下，准将居中，少将更高。"
+        },
+        {
+          "en": "Fire brigades have brigadiers too in some countries.",
+          "cn": "某些国家消防队也有 brigadier（分队长）。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "See medals glint as the brigadier walks the line.",
+          "cn": "想象准将走过队列时勋章闪光。"
+        },
+        {
+          "en": "Hear a single command roll across the parade ground.",
+          "cn": "听一声口令滚过阅兵场。"
+        },
+        {
+          "en": "Feel the weight of a whole brigade moving at one word.",
+          "cn": "感受一整旅人随一声令下齐动的分量。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "The brigadier briefed the officers before dawn.",
+        "cn": "准将在拂晓前向军官们布置任务。"
+      },
+      {
+        "en": "She was promoted to brigadier after twenty years of service.",
+        "cn": "服役二十年后她晋升为准将。"
+      },
+      {
+        "en": "A police brigadier addressed the crowd through a loudspeaker.",
+        "cn": "一名警队分队长用扩音器向人群喊话。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「不日格带」——准将「不日」就要视查，身后「格」外齐整的部队被他一「带」。",
+      "word": "brigadier"
+    },
+    "root": "brigadier 由法语 brigade（旅）加 -ier（从事者）构成；brigade 源自意大利语 brigata（队伍），其词根 brigare（结伙）一般认为与意语 briga（争吵、纠纷）相关，更早来源存疑。",
+    "sensesIntro": {
+      "en": "From commander of a brigade, the word widens to the rank and to some civil unit leaders.",
+      "cn": "从「一旅之长」出发，扩展为军衔本身，再借给某些民事分队的主官。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: one officer speaking, a whole brigade listening.",
+        "cn": "核心意象：一名军官发令，一整旅人聆听。"
+      },
+      "chain": [
+        "BRIGADE",
+        "COMMAND",
+        "RANK",
+        "INSPECTION",
+        "ORDER",
+        "RETIREMENT"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "the brigadier commands",
+          "cn": "准将指挥"
+        },
+        {
+          "senses": "01 · 02",
+          "en": "rank of brigadier",
+          "cn": "准将衔"
+        },
+        {
+          "senses": "02",
+          "en": "promoted to brigadier",
+          "cn": "晋衔为准将"
+        },
+        {
+          "senses": "03",
+          "en": "a fire brigadier",
+          "cn": "消防分队长"
+        },
+        {
+          "senses": "01 · 03",
+          "en": "the brigadier inspects",
+          "cn": "长官视查"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "The family is built on brigade with agent and rank suffixes.",
+        "cn": "词族以 brigade 为基，加施动者与军衔后缀。"
+      },
+      "latinIntro": {
+        "en": "The trail leads back to Italian, not to classical Latin.",
+        "cn": "词源上溯至意大利语，而非古典拉丁语。"
+      },
+      "items": [
+        {
+          "word": "brigade",
+          "structure": "noun base",
+          "meaning": "a military unit",
+          "meaningCN": "旅；队",
+          "example": "an armoured brigade",
+          "exampleCN": "装甲旅"
+        },
+        {
+          "word": "-ier",
+          "structure": "agent suffix",
+          "meaning": "person connected with",
+          "meaningCN": "表人的后缀",
+          "example": "brigadier, financier",
+          "exampleCN": "如 brigadier、financier 等词"
+        },
+        {
+          "word": "brigadier",
+          "structure": "brigade + -ier",
+          "meaning": "commander of a brigade",
+          "meaningCN": "旅长；准将",
+          "example": "a serving brigadier",
+          "exampleCN": "在职准将"
+        },
+        {
+          "word": "brigadier general",
+          "structure": "compound",
+          "meaning": "American title for the rank",
+          "meaningCN": "美式准将衔",
+          "example": "Brigadier General Lee",
+          "exampleCN": "李准将"
+        },
+        {
+          "word": "brigand",
+          "structure": "same root brigare",
+          "meaning": "a bandit",
+          "meaningCN": "土匪；强盗",
+          "example": "mountain brigands",
+          "exampleCN": "山匪"
+        },
+        {
+          "word": "brigandage",
+          "structure": "brigand + -age",
+          "meaning": "the practice of banditry",
+          "meaningCN": "劫掠行径",
+          "example": "an era of brigandage",
+          "exampleCN": "匪患横行的年代"
+        },
+        {
+          "word": "fire brigade",
+          "structure": "compound",
+          "meaning": "a fire-fighting unit",
+          "meaningCN": "消防队",
+          "example": "call the fire brigade",
+          "exampleCN": "呼叫消防队"
+        },
+        {
+          "word": "brigadiership",
+          "structure": "brigadier + -ship",
+          "meaning": "the office of brigadier",
+          "meaningCN": "准将职位",
+          "example": "his brief brigadiership",
+          "exampleCN": "他短暂的准将任期"
+        },
+        {
+          "word": "colonel",
+          "structure": "adjacent rank noun",
+          "meaning": "rank below brigadier",
+          "meaningCN": "上校",
+          "example": "a colonel's batman",
+          "exampleCN": "上校的勤务兵"
+        },
+        {
+          "word": "general",
+          "structure": "rank noun",
+          "meaning": "top officer rank",
+          "meaningCN": "将军",
+          "example": "a five-star general",
+          "exampleCN": "五星上将"
+        }
+      ],
+      "latinEntries": [],
+      "derivatives": [
+        {
+          "word": "brigade",
+          "pos": "n.",
+          "zh": "旅；队"
+        },
+        {
+          "word": "brigadiership",
+          "pos": "n.",
+          "zh": "准将职位"
+        }
+      ]
+    }
   }
-}
+]

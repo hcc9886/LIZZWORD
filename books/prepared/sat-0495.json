@@ -1,159 +1,451 @@
-{
-  "word": "burnish",
-  "ipa_uk": "/ˈbɜːnɪʃ/",
-  "ipa_us": "/ˈbɜːrnɪʃ/",
-  "definition_zh": "擦亮；磨光；使光洁；使更有光泽",
-  "definition_en": "to polish a surface by rubbing, especially metal, until it shines",
-  "core_image": "布团在铜壶上转圈擦拭，映出人影",
-  "scene": "旅馆前台，老服务员把铜门把手擦得能照出笑脸。The valet burnished the brass rail until it gleamed.",
-  "sceneCN": "这里 burnish 是「擦亮、抛光」（第 1 个义项：摩擦使金属发亮）；句意是侍者把铜栏杆擦得闪闪发光。",
-  "pos": [
-    { "tag": "vt.", "zh": "擦亮；抛光；使光滑" },
-    { "tag": "vi.", "zh": "被擦亮；变得光洁" },
-    { "tag": "n.", "zh": "光泽；光亮" }
-  ],
-  "collocations": [
-    { "phrase": "burnish brass", "zh": "擦亮黄铜" },
-    { "phrase": "burnish one's image", "zh": "美化形象" },
-    { "phrase": "burnish a reputation", "zh": "增添声誉的光彩" },
-    { "phrase": "burnish to a shine", "zh": "擦得锃亮" },
-    { "phrase": "with a fine burnish", "zh": "带着细腻的光泽" }
-  ],
-  "forms": [
-    { "label": "过去式", "form": "burnished" },
-    { "label": "过去分词", "form": "burnished" },
-    { "label": "现在分词", "form": "burnishing" },
-    { "label": "三单", "form": "burnishes" }
-  ],
-  "derivatives": [
-    { "word": "burnished", "pos": "adj.", "zh": "由过去分词转形容词，义为「擦亮的，光洁的」" },
-    { "word": "burnisher", "pos": "n.", "zh": "由动词加 -er 构成，义为「抛光器，磨光工具」" },
-    { "word": "polish", "pos": "v.", "zh": "近义词，义为「擦亮，抛光」" }
-  ],
-  "senses": [
-    {
-      "no": "01",
-      "title": "To polish by rubbing",
-      "titleCN": "擦亮；磨光",
-      "definition": "to make a surface smooth and shiny by friction, especially metal",
-      "definitionCN": "以摩擦使表面平滑发亮，多用于金属",
-      "example": "She burnished the old candlesticks with a soft cloth.",
-      "exampleCN": "她用软布把旧烛台擦得锃亮。",
-      "why": "The French root means brown; rubbing brings out the deep glow of metal.",
-      "whyCN": "法语词根本义「褐色」，摩擦让金属透出深沉的光泽。"
-    },
-    {
-      "no": "02",
-      "title": "The sheen produced by polishing",
-      "titleCN": "光泽；光亮（名词）",
-      "definition": "the smooth shine that polished metal or wood displays",
-      "definitionCN": "打磨后的金属或木头呈现的光亮",
-      "example": "The table kept a warm burnish from years of hands.",
-      "exampleCN": "经年累月的摩挲给桌子留下温润的光泽。",
-      "why": "The act names its visible result.",
-      "whyCN": "动作转指其可见成果，擦亮即亮。"
-    },
-    {
-      "no": "03",
-      "title": "To improve a reputation or image",
-      "titleCN": "美化；润饰（比喻义）",
-      "definition": "to make a reputation, image or record look better",
-      "definitionCN": "使声誉、形象或履历更显光彩",
-      "example": "The charity work burnished the company's image.",
-      "exampleCN": "慈善活动为公司形象添了彩。",
-      "why": "Metal shine becomes figurative luster on a public face.",
-      "whyCN": "金属之光转为公众形象的光彩，义项移入比喻。"
-    }
-  ],
-  "etymology": {
-    "intro": { "en": "Burnish came from Old French brunir, to make brown, from brun, brown.", "cn": "burnish 源自古法语 brunir（使成褐色），词根 brun 意为褐色。" },
-    "items": [
-      { "era": "PROTO-INDO-EUROPEAN", "en": "a reconstructed root reudh-bher- may lie behind words for shining brown.", "cn": "一般重构词根与「发亮的褐色」相关，来源存有争议。" },
-      { "era": "OLD FRENCH", "en": "brun meant brown; brunir meant to make brown or gleam.", "cn": "古法语 brun 指褐色，brunir 指使成褐色或发亮。" },
-      { "era": "ANGLO-FRENCH", "en": "burnishen entered Middle English through legal and craft texts.", "cn": "经盎格鲁-法语 burnishen 进入中古英语，见于工艺文献。" },
-      { "era": "ENGLISH, 14TH–18TH C.", "en": "armorers and bookbinders used burnishers to gleam steel and leather.", "cn": "十四至十八世纪甲胄匠与装订工用磨光器处理钢铁与皮革。" },
-      { "era": "PRESENT DAY ENGLISH", "en": "burnish now also means to polish a public image.", "cn": "如今 burnish 还可指「美化公众形象」。" }
-    ]
-  },
-  "similar": {
-    "note": { "en": "Burnish carries the brun- root into English and stands by the polishing lexicon.", "cn": "burnish 把 brun- 词根带入英语，与抛光词汇为伍。" },
-    "groups": [
+[
+  {
+    "word": "burnish",
+    "ipa_uk": "/ˈbɜːnɪʃ/",
+    "ipa_us": "/ˈbɜːrnɪʃ/",
+    "definition_zh": "擦亮；磨光；使光洁；使更有光泽",
+    "definition_en": "to polish a surface by rubbing, especially metal, until it shines",
+    "core_image": "布团在铜壶上转圈擦拭，映出人影",
+    "scene": "旅馆前台，老服务员把铜门把手擦得能照出笑脸。The valet burnished the brass rail until it gleamed.",
+    "sceneCN": "这里 burnish 是「擦亮、抛光」（第 1 个义项：摩擦使金属发亮）；句意是侍者把铜栏杆擦得闪闪发光。",
+    "pos": [
       {
-        "heading": "LOOK-ALIKE",
-        "entries": [
-          { "word": "burnished", "ipa": "/ˈbɜːnɪʃt/", "tag": "derived form", "definition": "polished to a shine", "definitionCN": "擦亮的，burnish 的过去分词形容词" },
-          { "word": "burnisher", "ipa": "/ˈbɜːnɪʃə/", "tag": "derived form", "definition": "a smoothing tool", "definitionCN": "磨光工具，burnish 的施动名词" },
-          { "word": "burn", "ipa": "/bɜːn/", "tag": "spelling", "definition": "to consume with fire", "definitionCN": "燃烧，仅开头字母相同，词源无关" },
-          { "word": "brunette", "ipa": "/bruːˈnet/", "tag": "same root", "definition": "a brown-haired person", "definitionCN": "深色头发的人，同出 brun（褐）一词根" }
-        ]
+        "tag": "vt.",
+        "zh": "擦亮；抛光；使光滑"
       },
       {
-        "heading": "NEAR MEANING",
-        "entries": [
-          { "word": "polish", "ipa": "/ˈpɒlɪʃ/", "tag": "near meaning", "definition": "to make smooth and shiny", "definitionCN": "擦亮，抛光" },
-          { "word": "buff", "ipa": "/bʌf/", "tag": "near meaning", "definition": "to polish with soft leather", "definitionCN": "用软皮抛光" },
-          { "word": "shine", "ipa": "/ʃaɪn/", "tag": "near meaning", "definition": "to give out or polish to brightness", "definitionCN": "发亮；擦亮" },
-          { "word": "glaze", "ipa": "/ɡleɪz/", "tag": "near meaning", "definition": "to fit with a glossy surface", "definitionCN": "上釉，使光滑" },
-          { "word": "luster", "ipa": "/ˈlʌstə/", "tag": "near meaning", "definition": "a gentle sheen; gloss", "definitionCN": "光泽，光彩" }
-        ]
+        "tag": "vi.",
+        "zh": "被擦亮；变得光洁"
+      },
+      {
+        "tag": "n.",
+        "zh": "光泽；光亮"
       }
-    ]
-  },
-  "mnemonics": {
-    "normalIntro": { "en": "Rub until the brown gleam rises out of the metal.", "cn": "一直擦，直到金属透出褐色的光。" },
-    "normal": [
-      { "en": "The root brun means brown, the color of old brass.", "cn": "词根 brun 意为褐色，正是旧黄铜的颜色。" },
-      { "en": "The -ish ending is the French -ir verb ending in disguise.", "cn": "-ish 词尾其实是法语动词 -ir 的变体。" },
-      { "en": "Burnish one's image is the common figurative use.", "cn": "burnish one's image 是常见的比喻用法。" },
-      { "en": "A burnisher is the flat tool bookbinders rub with.", "cn": "burnisher 是装订工用的磨光工具。" },
-      { "en": "Burnish and burn have no family tie.", "cn": "burnish 与 burn 并无词源亲缘。" }
     ],
-    "abstract": [
-      { "en": "Feel the cloth grow warm as the brass brightens.", "cn": "感受铜器变亮时布团的温热。" },
-      { "en": "See your face wobble in the polished kettle.", "cn": "看见自己的笑脸在擦亮的铜壶上晃动。" },
-      { "en": "Hear the squeak of leather under a rubbing stone.", "cn": "听磨石下皮革被蹭出的吱吱声。" }
-    ]
-  },
-  "examples": [
-    { "en": "He burnished the shield until it mirrored the sun.", "cn": "他把盾牌擦得能映出太阳。" },
-    { "en": "The trial burnished her reputation for courage.", "cn": "这场审判为她平添了勇敢的美名。" },
-    { "en": "Old oak banquets keep their burnish from a century of sleeves.", "cn": "老橡木餐台留着百年衣袖磨出的光泽。" }
-  ],
-  "dict_mnemonic": { "note": "谐音记忆 · 非词源", "text": "「不如你洗」——铜壶脏了，「不如你」亲手「洗」一擦，立刻锃亮。", "word": "burnish" },
-  "root": "burnish 经盎格鲁-法语源自古法语 brunir「使成褐色、使发亮」，词根 brun「褐色」在英语中留下 brunette、brunet 等同族词；动词义「摩擦发亮」即由「透出褐色光泽」而来，无日耳曼词根。",
-  "sensesIntro": { "en": "Rubbing brown metal into shine first names the act, then the sheen, and finally the polish put on a public image.", "cn": "把褐色金属擦出光，先指动作，再指光泽，最后落在给形象「抛光」的比喻上。" },
-  "semanticMap": {
-    "core": { "en": "CORE IMAGE: a cloth circling brass until a face appears in it.", "cn": "核心意象：布团在黄铜上打转，直到映出人影。" },
-    "chain": ["RUBBING", "HEAT OF FRICTION", "SMOOTHNESS", "SHEEN", "REFLECTION", "ENHANCEMENT"],
-    "branches": [
-      { "senses": "01", "en": "burnish the ship's rail", "cn": "擦亮船舷栏杆" },
-      { "senses": "01", "en": "burnish to a mirror shine", "cn": "擦出镜面之光" },
-      { "senses": "01 · 03", "en": "burnish a public career", "cn": "为公众生涯增光添彩" },
-      { "senses": "02", "en": "the burnish of old silver", "cn": "旧银器的光泽" },
-      { "senses": "03", "en": "burnish a diplomatic record", "cn": "润饰外交履历" }
-    ]
-  },
-  "affixes": {
-    "intro": { "en": "Burnish keeps the French verb ending -ir as English -ish, like finish and punish.", "cn": "burnish 把法语动词尾 -ir 变作英语 -ish，与 finish、punish 同例。" },
-    "latinIntro": { "en": "The root brun is Germanic in origin but reached English through French.", "cn": "词根 brun 本出日耳曼语，却经法语进入英语。" },
-    "items": [
-      { "word": "brun", "structure": "Old French adjective", "meaning": "brown, dark-gleaming", "meaningCN": "褐色的，深而有光的", "example": "cheveux bruns", "exampleCN": "褐色头发（法语）" },
-      { "word": "brunir", "structure": "brun + -ir", "meaning": "to make brown or shiny", "meaningCN": "使成褐色，使发亮", "example": "brunir les armes", "exampleCN": "把兵器擦亮（古法语）" },
-      { "word": "-ish", "structure": "French -ir verb ending, English form", "meaning": "verb-forming ending", "meaningCN": "动词后缀", "example": "finish, punish, burnish", "exampleCN": "如 finish、punish、burnish 等词" },
-      { "word": "burnish", "structure": "Anglo-French burnishen", "meaning": "to polish by rubbing", "meaningCN": "擦亮", "example": "burnish the brass", "exampleCN": "擦亮黄铜" },
-      { "word": "burnished", "structure": "past participle", "meaning": "polished, gleaming", "meaningCN": "擦亮的", "example": "burnished armor", "exampleCN": "擦亮的盔甲" },
-      { "word": "burnisher", "structure": "burnish + -er", "meaning": "a polishing tool", "meaningCN": "磨光器", "example": "a steel burnisher", "exampleCN": "钢制磨光器" },
-      { "word": "brunette", "structure": "brun + -ette", "meaning": "brown-haired", "meaningCN": "深色头发的", "example": "a tall brunette", "exampleCN": "高个子黑发女郎" },
-      { "word": "polish", "structure": "Latin polire", "meaning": "to make smooth and shiny", "meaningCN": "抛光", "example": "polish the floor", "exampleCN": "擦地板" },
-      { "word": "buff", "structure": "imitative verb", "meaning": "to polish softly", "meaningCN": "软抛光", "example": "buff the silver", "exampleCN": "抛光银器" },
-      { "word": "patina", "structure": "Latin patina", "meaning": "a surface sheen from age", "meaningCN": "（岁月形成的）包浆光泽", "example": "the patina of age", "exampleCN": "岁月的光泽" }
+    "collocations": [
+      {
+        "phrase": "burnish brass",
+        "zh": "擦亮黄铜"
+      },
+      {
+        "phrase": "burnish one's image",
+        "zh": "美化形象"
+      },
+      {
+        "phrase": "burnish a reputation",
+        "zh": "增添声誉的光彩"
+      },
+      {
+        "phrase": "burnish to a shine",
+        "zh": "擦得锃亮"
+      },
+      {
+        "phrase": "with a fine burnish",
+        "zh": "带着细腻的光泽"
+      }
     ],
-    "latinEntries": [
-      { "word": "polire", "structure": "Latin verb, cognate field", "meaning": "to polish, refine", "meaningCN": "抛光，润饰（polish 与 polish 的名词义之源）" }
+    "forms": [
+      {
+        "label": "过去式",
+        "form": "burnished"
+      },
+      {
+        "label": "过去分词",
+        "form": "burnished"
+      },
+      {
+        "label": "现在分词",
+        "form": "burnishing"
+      },
+      {
+        "label": "三单",
+        "form": "burnishes"
+      }
     ],
     "derivatives": [
-      { "word": "burnished", "pos": "adj.", "zh": "擦亮的，光洁的" },
-      { "word": "burnisher", "pos": "n.", "zh": "磨光工具" }
-    ]
+      {
+        "word": "burnished",
+        "pos": "adj.",
+        "zh": "由过去分词转形容词，义为「擦亮的，光洁的」"
+      },
+      {
+        "word": "burnisher",
+        "pos": "n.",
+        "zh": "由动词加 -er 构成，义为「抛光器，磨光工具」"
+      },
+      {
+        "word": "polish",
+        "pos": "v.",
+        "zh": "近义词，义为「擦亮，抛光」"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "To polish by rubbing",
+        "titleCN": "擦亮；磨光",
+        "definition": "to make a surface smooth and shiny by friction, especially metal",
+        "definitionCN": "以摩擦使表面平滑发亮，多用于金属",
+        "example": "She burnished the old candlesticks with a soft cloth.",
+        "exampleCN": "她用软布把旧烛台擦得锃亮。",
+        "why": "The French root means brown; rubbing brings out the deep glow of metal.",
+        "whyCN": "法语词根本义「褐色」，摩擦让金属透出深沉的光泽。"
+      },
+      {
+        "no": "02",
+        "title": "The sheen produced by polishing",
+        "titleCN": "光泽；光亮（名词）",
+        "definition": "the smooth shine that polished metal or wood displays",
+        "definitionCN": "打磨后的金属或木头呈现的光亮",
+        "example": "The table kept a warm burnish from years of hands.",
+        "exampleCN": "经年累月的摩挲给桌子留下温润的光泽。",
+        "why": "The act names its visible result.",
+        "whyCN": "动作转指其可见成果，擦亮即亮。"
+      },
+      {
+        "no": "03",
+        "title": "To improve a reputation or image",
+        "titleCN": "美化；润饰（比喻义）",
+        "definition": "to make a reputation, image or record look better",
+        "definitionCN": "使声誉、形象或履历更显光彩",
+        "example": "The charity work burnished the company's image.",
+        "exampleCN": "慈善活动为公司形象添了彩。",
+        "why": "Metal shine becomes figurative luster on a public face.",
+        "whyCN": "金属之光转为公众形象的光彩，义项移入比喻。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Burnish came from Old French brunir, to make brown, from brun, brown.",
+        "cn": "burnish 源自古法语 brunir（使成褐色），词根 brun 意为褐色。"
+      },
+      "items": [
+        {
+          "era": "PROTO-INDO-EUROPEAN",
+          "en": "a reconstructed root reudh-bher- may lie behind words for shining brown.",
+          "cn": "一般重构词根与「发亮的褐色」相关，来源存有争议。"
+        },
+        {
+          "era": "OLD FRENCH",
+          "en": "brun meant brown; brunir meant to make brown or gleam.",
+          "cn": "古法语 brun 指褐色，brunir 指使成褐色或发亮。"
+        },
+        {
+          "era": "ANGLO-FRENCH",
+          "en": "burnishen entered Middle English through legal and craft texts.",
+          "cn": "经盎格鲁-法语 burnishen 进入中古英语，见于工艺文献。"
+        },
+        {
+          "era": "ENGLISH, 14TH–18TH C.",
+          "en": "armorers and bookbinders used burnishers to gleam steel and leather.",
+          "cn": "十四至十八世纪甲胄匠与装订工用磨光器处理钢铁与皮革。"
+        },
+        {
+          "era": "PRESENT DAY ENGLISH",
+          "en": "burnish now also means to polish a public image.",
+          "cn": "如今 burnish 还可指「美化公众形象」。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "Burnish carries the brun- root into English and stands by the polishing lexicon.",
+        "cn": "burnish 把 brun- 词根带入英语，与抛光词汇为伍。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "burnished",
+              "ipa": "/ˈbɜːnɪʃt/",
+              "tag": "derived form",
+              "definition": "polished to a shine",
+              "definitionCN": "擦亮的，burnish 的过去分词形容词"
+            },
+            {
+              "word": "burnisher",
+              "ipa": "/ˈbɜːnɪʃə/",
+              "tag": "derived form",
+              "definition": "a smoothing tool",
+              "definitionCN": "磨光工具，burnish 的施动名词"
+            },
+            {
+              "word": "burn",
+              "ipa": "/bɜːn/",
+              "tag": "spelling",
+              "definition": "to consume with fire",
+              "definitionCN": "燃烧，仅开头字母相同，词源无关"
+            },
+            {
+              "word": "brunette",
+              "ipa": "/bruːˈnet/",
+              "tag": "same root",
+              "definition": "a brown-haired person",
+              "definitionCN": "深色头发的人，同出 brun（褐）一词根"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "polish",
+              "ipa": "/ˈpɒlɪʃ/",
+              "tag": "near meaning",
+              "definition": "to make smooth and shiny",
+              "definitionCN": "擦亮，抛光"
+            },
+            {
+              "word": "buff",
+              "ipa": "/bʌf/",
+              "tag": "near meaning",
+              "definition": "to polish with soft leather",
+              "definitionCN": "用软皮抛光"
+            },
+            {
+              "word": "shine",
+              "ipa": "/ʃaɪn/",
+              "tag": "near meaning",
+              "definition": "to give out or polish to brightness",
+              "definitionCN": "发亮；擦亮"
+            },
+            {
+              "word": "glaze",
+              "ipa": "/ɡleɪz/",
+              "tag": "near meaning",
+              "definition": "to fit with a glossy surface",
+              "definitionCN": "上釉，使光滑"
+            },
+            {
+              "word": "luster",
+              "ipa": "/ˈlʌstə/",
+              "tag": "near meaning",
+              "definition": "a gentle sheen; gloss",
+              "definitionCN": "光泽，光彩"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Rub until the brown gleam rises out of the metal.",
+        "cn": "一直擦，直到金属透出褐色的光。"
+      },
+      "normal": [
+        {
+          "en": "The root brun means brown, the color of old brass.",
+          "cn": "词根 brun 意为褐色，正是旧黄铜的颜色。"
+        },
+        {
+          "en": "The -ish ending is the French -ir verb ending in disguise.",
+          "cn": "-ish 词尾其实是法语动词 -ir 的变体。"
+        },
+        {
+          "en": "Burnish one's image is the common figurative use.",
+          "cn": "burnish one's image 是常见的比喻用法。"
+        },
+        {
+          "en": "A burnisher is the flat tool bookbinders rub with.",
+          "cn": "burnisher 是装订工用的磨光工具。"
+        },
+        {
+          "en": "Burnish and burn have no family tie.",
+          "cn": "burnish 与 burn 并无词源亲缘。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "Feel the cloth grow warm as the brass brightens.",
+          "cn": "感受铜器变亮时布团的温热。"
+        },
+        {
+          "en": "See your face wobble in the polished kettle.",
+          "cn": "看见自己的笑脸在擦亮的铜壶上晃动。"
+        },
+        {
+          "en": "Hear the squeak of leather under a rubbing stone.",
+          "cn": "听磨石下皮革被蹭出的吱吱声。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "He burnished the shield until it mirrored the sun.",
+        "cn": "他把盾牌擦得能映出太阳。"
+      },
+      {
+        "en": "The trial burnished her reputation for courage.",
+        "cn": "这场审判为她平添了勇敢的美名。"
+      },
+      {
+        "en": "Old oak banquets keep their burnish from a century of sleeves.",
+        "cn": "老橡木餐台留着百年衣袖磨出的光泽。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「不如你洗」——铜壶脏了，「不如你」亲手「洗」一擦，立刻锃亮。",
+      "word": "burnish"
+    },
+    "root": "burnish 经盎格鲁-法语源自古法语 brunir「使成褐色、使发亮」，词根 brun「褐色」在英语中留下 brunette、brunet 等同族词；动词义「摩擦发亮」即由「透出褐色光泽」而来，无日耳曼词根。",
+    "sensesIntro": {
+      "en": "Rubbing brown metal into shine first names the act, then the sheen, and finally the polish put on a public image.",
+      "cn": "把褐色金属擦出光，先指动作，再指光泽，最后落在给形象「抛光」的比喻上。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: a cloth circling brass until a face appears in it.",
+        "cn": "核心意象：布团在黄铜上打转，直到映出人影。"
+      },
+      "chain": [
+        "RUBBING",
+        "HEAT OF FRICTION",
+        "SMOOTHNESS",
+        "SHEEN",
+        "REFLECTION",
+        "ENHANCEMENT"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "burnish the ship's rail",
+          "cn": "擦亮船舷栏杆"
+        },
+        {
+          "senses": "01",
+          "en": "burnish to a mirror shine",
+          "cn": "擦出镜面之光"
+        },
+        {
+          "senses": "01 · 03",
+          "en": "burnish a public career",
+          "cn": "为公众生涯增光添彩"
+        },
+        {
+          "senses": "02",
+          "en": "the burnish of old silver",
+          "cn": "旧银器的光泽"
+        },
+        {
+          "senses": "03",
+          "en": "burnish a diplomatic record",
+          "cn": "润饰外交履历"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Burnish keeps the French verb ending -ir as English -ish, like finish and punish.",
+        "cn": "burnish 把法语动词尾 -ir 变作英语 -ish，与 finish、punish 同例。"
+      },
+      "latinIntro": {
+        "en": "The root brun is Germanic in origin but reached English through French.",
+        "cn": "词根 brun 本出日耳曼语，却经法语进入英语。"
+      },
+      "items": [
+        {
+          "word": "brun",
+          "structure": "Old French adjective",
+          "meaning": "brown, dark-gleaming",
+          "meaningCN": "褐色的，深而有光的",
+          "example": "cheveux bruns",
+          "exampleCN": "褐色头发（法语）"
+        },
+        {
+          "word": "brunir",
+          "structure": "brun + -ir",
+          "meaning": "to make brown or shiny",
+          "meaningCN": "使成褐色，使发亮",
+          "example": "brunir les armes",
+          "exampleCN": "把兵器擦亮（古法语）"
+        },
+        {
+          "word": "-ish",
+          "structure": "French -ir verb ending, English form",
+          "meaning": "verb-forming ending",
+          "meaningCN": "动词后缀",
+          "example": "finish, punish, burnish",
+          "exampleCN": "如 finish、punish、burnish 等词"
+        },
+        {
+          "word": "burnish",
+          "structure": "Anglo-French burnishen",
+          "meaning": "to polish by rubbing",
+          "meaningCN": "擦亮",
+          "example": "burnish the brass",
+          "exampleCN": "擦亮黄铜"
+        },
+        {
+          "word": "burnished",
+          "structure": "past participle",
+          "meaning": "polished, gleaming",
+          "meaningCN": "擦亮的",
+          "example": "burnished armor",
+          "exampleCN": "擦亮的盔甲"
+        },
+        {
+          "word": "burnisher",
+          "structure": "burnish + -er",
+          "meaning": "a polishing tool",
+          "meaningCN": "磨光器",
+          "example": "a steel burnisher",
+          "exampleCN": "钢制磨光器"
+        },
+        {
+          "word": "brunette",
+          "structure": "brun + -ette",
+          "meaning": "brown-haired",
+          "meaningCN": "深色头发的",
+          "example": "a tall brunette",
+          "exampleCN": "高个子黑发女郎"
+        },
+        {
+          "word": "polish",
+          "structure": "Latin polire",
+          "meaning": "to make smooth and shiny",
+          "meaningCN": "抛光",
+          "example": "polish the floor",
+          "exampleCN": "擦地板"
+        },
+        {
+          "word": "buff",
+          "structure": "imitative verb",
+          "meaning": "to polish softly",
+          "meaningCN": "软抛光",
+          "example": "buff the silver",
+          "exampleCN": "抛光银器"
+        },
+        {
+          "word": "patina",
+          "structure": "Latin patina",
+          "meaning": "a surface sheen from age",
+          "meaningCN": "（岁月形成的）包浆光泽",
+          "example": "the patina of age",
+          "exampleCN": "岁月的光泽"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "polire",
+          "structure": "Latin verb, cognate field",
+          "meaning": "to polish, refine",
+          "meaningCN": "抛光，润饰（polish 与 polish 的名词义之源）"
+        }
+      ],
+      "derivatives": [
+        {
+          "word": "burnished",
+          "pos": "adj.",
+          "zh": "擦亮的，光洁的"
+        },
+        {
+          "word": "burnisher",
+          "pos": "n.",
+          "zh": "磨光工具"
+        }
+      ]
+    }
   }
-}
+]

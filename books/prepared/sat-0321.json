@@ -1,302 +1,466 @@
-{
-  "word": "avidity",
-  "ipa_uk": "/əˈvɪdəti/",
-  "ipa_us": "/əˈvɪdəti/",
-  "definition_zh": "热切；渴望；贪求；（医学）结合力",
-  "definition_en": "eager eagerness or keen desire; also, in medicine, the strength with which antibodies bind",
-  "core_image": "扑向书页的那双手，快得像怕词会飞走",
-  "scene": "新期刊刚到，学生就扑了过去。She read the papers with an avidity that startled her tutor.",
-  "sceneCN": "这里 avidity 指「热切、如饥似渴」（第 1 个义项：强烈的渴望）；句意：她如饥似渴地读那些论文，导师都吃了一惊。",
-  "pos": [
-    { "tag": "n.", "zh": "热切；渴望；贪求；（血清学）亲合力" }
-  ],
-  "collocations": [
-    { "phrase": "read with avidity", "zh": "如饥似渴地阅读" },
-    { "phrase": "an avidity for knowledge", "zh": "对知识的渴求" },
-    { "phrase": "high avidity antibodies", "zh": "高亲合力抗体" },
-    { "phrase": "with equal avidity", "zh": "同样热切地" },
-    { "phrase": "avidity of appetite", "zh": "食欲的旺盛" }
-  ],
-  "forms": [
-    { "label": "复数", "form": "avidities" },
-    { "label": "相关形容词", "form": "avid" }
-  ],
-  "derivatives": [
-    { "word": "avid", "pos": "adj.", "zh": "热切的；渴求的（avidity 的形容词基础）" },
-    { "word": "avidly", "pos": "adv.", "zh": "热切地（avid + -ly）" },
-    { "word": "avidness", "pos": "n.", "zh": "热切（avid + -ness，口语化变体）" }
-  ],
-  "senses": [
-    {
-      "no": "01",
-      "title": "Eager enthusiasm for something",
-      "titleCN": "热切；如饥似渴",
-      "definition": "keen, impatient eagerness toward an activity or pursuit",
-      "definitionCN": "对某项活动或追求急切而强烈的热情",
-      "example": "The class listened with an avidity rare in exam season.",
-      "exampleCN": "全班听得入神，考试季罕有如此热切。",
-      "why": "The Latin root avidus means eager; the noun names eagerness itself.",
-      "whyCN": "拉丁词根 avidus 意为「渴望」，名词即渴望本身。"
+[
+  {
+    "word": "avidity",
+    "ipa_uk": "/əˈvɪdəti/",
+    "ipa_us": "/əˈvɪdəti/",
+    "definition_zh": "热切；渴望；贪求；（医学）结合力",
+    "definition_en": "eager eagerness or keen desire; also, in medicine, the strength with which antibodies bind",
+    "core_image": "扑向书页的那双手，快得像怕词会飞走",
+    "scene": "新期刊刚到，学生就扑了过去。She read the papers with an avidity that startled her tutor.",
+    "sceneCN": "这里 avidity 指「热切、如饥似渴」（第 1 个义项：强烈的渴望）；句意：她如饥似渴地读那些论文，导师都吃了一惊。",
+    "pos": [
+      {
+        "tag": "n.",
+        "zh": "热切；渴望；贪求；（血清学）亲合力"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "read with avidity",
+        "zh": "如饥似渴地阅读"
+      },
+      {
+        "phrase": "an avidity for knowledge",
+        "zh": "对知识的渴求"
+      },
+      {
+        "phrase": "high avidity antibodies",
+        "zh": "高亲合力抗体"
+      },
+      {
+        "phrase": "with equal avidity",
+        "zh": "同样热切地"
+      },
+      {
+        "phrase": "avidity of appetite",
+        "zh": "食欲的旺盛"
+      }
+    ],
+    "forms": [
+      {
+        "label": "复数",
+        "form": "avidities"
+      },
+      {
+        "label": "相关形容词",
+        "form": "avid"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "avid",
+        "pos": "adj.",
+        "zh": "热切的；渴求的（avidity 的形容词基础）"
+      },
+      {
+        "word": "avidly",
+        "pos": "adv.",
+        "zh": "热切地（avid + -ly）"
+      },
+      {
+        "word": "avidness",
+        "pos": "n.",
+        "zh": "热切（avid + -ness，口语化变体）"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "Eager enthusiasm for something",
+        "titleCN": "热切；如饥似渴",
+        "definition": "keen, impatient eagerness toward an activity or pursuit",
+        "definitionCN": "对某项活动或追求急切而强烈的热情",
+        "example": "The class listened with an avidity rare in exam season.",
+        "exampleCN": "全班听得入神，考试季罕有如此热切。",
+        "why": "The Latin root avidus means eager; the noun names eagerness itself.",
+        "whyCN": "拉丁词根 avidus 意为「渴望」，名词即渴望本身。"
+      },
+      {
+        "no": "02",
+        "title": "Greed for food or pleasure",
+        "titleCN": "贪食；贪求享乐",
+        "definition": "intense appetite, especially for food or enjoyment",
+        "definitionCN": "强烈的欲望，尤指对食物或享乐",
+        "example": "The travelers ate with the avidity of the half-starved.",
+        "exampleCN": "旅人们以半饥者的贪馋狼吞虎咽。",
+        "why": "Older English kept the animal sense of appetite beside the noble one.",
+        "whyCN": "早期英语中，食欲的本能义与求知的高雅义并存。"
+      },
+      {
+        "no": "03",
+        "title": "Greed for gain",
+        "titleCN": "贪财；贪得无厌",
+        "definition": "covetous desire for money or advantage, the darker shade",
+        "definitionCN": "对钱财或利益的觊觎，词义的阴暗面",
+        "example": "He watched the bidding with cool avidity.",
+        "exampleCN": "他冷冷而贪婪地盯着竞价。",
+        "why": "The same eagerness pointed at property turns greedy.",
+        "whyCN": "同一份渴望指向财物时便转为贪婪。"
+      },
+      {
+        "no": "04",
+        "title": "Keenness of a pursuit or study",
+        "titleCN": "（治学、爱好上的）专注热忱",
+        "definition": "sustained enthusiasm with which one follows a subject",
+        "definitionCN": "长期投入某一学科或爱好所表现的持续热忱",
+        "example": "Her avidity for Roman coins filled the study.",
+        "exampleCN": "她痴迷罗马钱币，藏品摆满了书房。",
+        "why": "Eagerness that lasts stops being appetite and becomes devotion.",
+        "whyCN": "持续的渴望不再是胃口，而成了痴迷。"
+      },
+      {
+        "no": "05",
+        "title": "In immunology, antibody-binding strength",
+        "titleCN": "（免疫学）抗体亲合力",
+        "definition": "the overall strength of binding between an antibody and its antigen",
+        "definitionCN": "抗体与抗原之间结合的总体强度",
+        "example": "High avidity antibodies signal an older infection.",
+        "exampleCN": "高亲合力抗体提示感染时间较久。",
+        "why": "Medicine borrowed the eagerness image: binding that will not let go.",
+        "whyCN": "医学借用「紧抓不放」的意象命名结合强度。"
+      },
+      {
+        "no": "06",
+        "title": "In chemistry, close to affinity",
+        "titleCN": "（化学）亲合性",
+        "definition": "in older chemical writing, the mutual attraction of substances",
+        "definitionCN": "旧化学文献中物质间的相互吸引",
+        "example": "Early texts ranked the avidity of acids for bases.",
+        "exampleCN": "早期文献按酸对碱的亲合性排序。",
+        "why": "Before exact measures, attraction was described in appetite terms.",
+        "whyCN": "在精确测量之前，人们用「胃口」来描述吸引。"
+      },
+      {
+        "no": "07",
+        "title": "Competitive hunger in games or markets",
+        "titleCN": "（竞争中的）求胜饥渴",
+        "definition": "aggressive eagerness to win, bid, or trade",
+        "definitionCN": "取胜、竞价或交易中的猛烈冲劲",
+        "example": "The startup hired with an avidity that unsettled rivals.",
+        "exampleCN": "那家创业公司招人猛冲猛打，令对手不安。",
+        "why": "Markets reward appetites; the word migrated there.",
+        "whyCN": "市场奖励欲望，这个词也随行就市。"
+      },
+      {
+        "no": "08",
+        "title": "Avidness of an audience",
+        "titleCN": "（受众的）热捧",
+        "definition": "the eagerness of readers, fans, or crowds for a thing",
+        "definitionCN": "读者、粉丝或人群对某物的热切追捧",
+        "example": "The sequel was awaited with feverish avidity.",
+        "exampleCN": "续作在狂热的期待中呼之欲出。",
+        "why": "Appetite shared by many becomes an audience mood.",
+        "whyCN": "众人之欲汇聚，便成了一种受众情绪。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Avidity comes from Latin aviditas, from avidus, eager, from avere, to crave; English formed or borrowed the noun in the fifteenth century.",
+        "cn": "avidity 出自拉丁语 aviditas，源于 avidus「热切的」，词根为 avere「渴望」；英语名词约在 15 世纪形成或借入。"
+      },
+      "items": [
+        {
+          "era": "PROTO-INDO-EUROPEAN",
+          "en": "The crave-root is reconstructed as a stem of wishing or striving.",
+          "cn": "「渴望」词根被重构为表「希求、 striving」的词干。"
+        },
+        {
+          "era": "LATIN",
+          "en": "avere meant to desire eagerly; avidus described the greedy, hungry mind.",
+          "cn": "avere 意为热切渴望；avidus 形容饥渴、贪求之心。"
+        },
+        {
+          "era": "LATIN, AVIDITAS",
+          "en": "aviditas named eagerness as a quality, often with moral disapproval.",
+          "cn": "aviditas 指作为特质的渴望，常带道德贬义。"
+        },
+        {
+          "era": "ENGLISH, 15TH C.",
+          "en": "Middle English took avidity with the double sense of greed and eagerness.",
+          "cn": "中古英语借入 avidity，兼有贪婪与热切二义。"
+        },
+        {
+          "era": "ENGLISH, 17TH–18TH C.",
+          "en": "Scientific prose borrowed avidity for the mutual pull of substances.",
+          "cn": "17、18 世纪科学散文借 avidity 指物质间的相互吸引。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "Immunology fixed avidity as a technical measure of antibody binding.",
+          "cn": "现代免疫学将 avidity 定为抗体结合强度的术语。"
+        }
+      ]
     },
-    {
-      "no": "02",
-      "title": "Greed for food or pleasure",
-      "titleCN": "贪食；贪求享乐",
-      "definition": "intense appetite, especially for food or enjoyment",
-      "definitionCN": "强烈的欲望，尤指对食物或享乐",
-      "example": "The travelers ate with the avidity of the half-starved.",
-      "exampleCN": "旅人们以半饥者的贪馋狼吞虎咽。",
-      "why": "Older English kept the animal sense of appetite beside the noble one.",
-      "whyCN": "早期英语中，食欲的本能义与求知的高雅义并存。"
+    "similar": {
+      "note": {
+        "en": "Group one gathers the avere family and an affinity trap; group two gathers the eagerness scale.",
+        "cn": "第一组收 avere 词族及 affinity 之辨；第二组收热切刻度上的词。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "avid",
+              "ipa": "/ˈævɪd/",
+              "tag": "same root",
+              "definition": "the adjective: an avid reader wants the next page now.",
+              "definitionCN": "形容词：avid reader 指手不释卷的读者。"
+            },
+            {
+              "word": "affinity",
+              "ipa": "/əˈfɪnəti/",
+              "tag": "look-alike, different root",
+              "definition": "natural liking or attraction, from ad plus finis; do not swap with avidity in immunology, where the meanings differ.",
+              "definitionCN": "天然好感或亲合，出自 ad + finis；免疫学中与 avidity 含义不同，勿混。"
+            },
+            {
+              "word": "avarice",
+              "ipa": "/ˈævərɪs/",
+              "tag": "same root",
+              "definition": "greed for wealth, the same eager root aimed at money.",
+              "definitionCN": "贪财；同一「渴望」词根锁定在钱上。"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "eagerness",
+              "ipa": "/ˈiːɡənəs/",
+              "tag": "near meaning",
+              "definition": "the everyday word for keen desire.",
+              "definitionCN": "渴望的日常用词。"
+            },
+            {
+              "word": "zeal",
+              "ipa": "/ziːl/",
+              "tag": "near meaning",
+              "definition": "energetic devotion to a cause.",
+              "definitionCN": "对事业的热忱投入。"
+            },
+            {
+              "word": "keenness",
+              "ipa": "/ˈkiːnnəs/",
+              "tag": "near meaning",
+              "definition": "sharp, active interest.",
+              "definitionCN": "敏锐而活跃的兴趣。"
+            },
+            {
+              "word": "greed",
+              "ipa": "/ɡriːd/",
+              "tag": "near meaning",
+              "definition": "insatiable appetite, the blunt negative twin.",
+              "definitionCN": "永不满足的贪欲；直白的贬义孪生词。"
+            },
+            {
+              "word": "appetite",
+              "ipa": "/ˈæpɪtaɪt/",
+              "tag": "near meaning",
+              "definition": "physical or figurative hunger for something.",
+              "definitionCN": "对某物的胃口，实指或虚指。"
+            }
+          ]
+        }
+      ]
     },
-    {
-      "no": "03",
-      "title": "Greed for gain",
-      "titleCN": "贪财；贪得无厌",
-      "definition": "covetous desire for money or advantage, the darker shade",
-      "definitionCN": "对钱财或利益的觊觎，词义的阴暗面",
-      "example": "He watched the bidding with cool avidity.",
-      "exampleCN": "他冷冷而贪婪地盯着竞价。",
-      "why": "The same eagerness pointed at property turns greedy.",
-      "whyCN": "同一份渴望指向财物时便转为贪婪。"
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Keep the avere family in one breath: avere, avid, avidity, avarice.",
+        "cn": "一口气念完 avere 词族：avere、avid、avidity、avarice。"
+      },
+      "normal": [
+        {
+          "en": "avid plus -ity: the quality of being avid.",
+          "cn": "avid 加 -ity：即「热切」这一特质。"
+        },
+        {
+          "en": "An avid reader reads with avidity; the sentence twins them.",
+          "cn": "avid reader 配 read with avidity，成对记忆。"
+        },
+        {
+          "en": "The immunology term: avidity is grip strength for antibodies.",
+          "cn": "免疫学术语：avidity 是抗体的「握力」。"
+        },
+        {
+          "en": "Negative shade: with avidity can imply greed in money contexts.",
+          "cn": "贬义提示：金钱语境下 with avidity 可含贪婪。"
+        },
+        {
+          "en": "Spelling: avidity keeps the i before -ty, unlike avarice.",
+          "cn": "拼写：avidity 在 -ty 前保留 i，别与 avarice 混。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "See fingers already turning the next page.",
+          "cn": "看那手指已经去翻下一页。"
+        },
+        {
+          "en": "Avidity is hunger that found a bookshelf.",
+          "cn": "avidity 是找到了书架的饥饿。"
+        },
+        {
+          "en": "Picture an antibody closing its fist on a molecule.",
+          "cn": "想象抗体把分子攥进拳头。"
+        }
+      ]
     },
-    {
-      "no": "04",
-      "title": "Keenness of a pursuit or study",
-      "titleCN": "（治学、爱好上的）专注热忱",
-      "definition": "sustained enthusiasm with which one follows a subject",
-      "definitionCN": "长期投入某一学科或爱好所表现的持续热忱",
-      "example": "Her avidity for Roman coins filled the study.",
-      "exampleCN": "她痴迷罗马钱币，藏品摆满了书房。",
-      "why": "Eagerness that lasts stops being appetite and becomes devotion.",
-      "whyCN": "持续的渴望不再是胃口，而成了痴迷。"
+    "examples": [
+      {
+        "en": "He collected first editions with an avidity bordering on obsession.",
+        "cn": "他搜罗初版书的热切近乎痴迷。"
+      },
+      {
+        "en": "The stray dogs ate with the avidity of the long unfed.",
+        "cn": "流浪狗进食的贪婪显示它们饿了很久。"
+      },
+      {
+        "en": "Serum tests measured the avidity of her antibodies.",
+        "cn": "血清检测测量了她抗体的亲合力。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「饿喂弟」——弟饿得两眼放光，那股狼吞虎咽的劲就是 avidity",
+      "word": "avidity"
     },
-    {
-      "no": "05",
-      "title": "In immunology, antibody-binding strength",
-      "titleCN": "（免疫学）抗体亲合力",
-      "definition": "the overall strength of binding between an antibody and its antigen",
-      "definitionCN": "抗体与抗原之间结合的总体强度",
-      "example": "High avidity antibodies signal an older infection.",
-      "exampleCN": "高亲合力抗体提示感染时间较久。",
-      "why": "Medicine borrowed the eagerness image: binding that will not let go.",
-      "whyCN": "医学借用「紧抓不放」的意象命名结合强度。"
+    "root": "出自拉丁语 aviditas「渴望」，源自 avidus「热切的」，词根为 avere「热切渴望」，与 avarice 同源；15 世纪进入英语，兼有热切与贪婪二义；近代被化学借指亲合性，现代免疫学定名为抗体亲合力。",
+    "sensesIntro": {
+      "en": "Eight senses track one eagerness through its registers: the reader's hunger, the eater's appetite, the miser's greed, the scholar's devotion, and the lab's measure of grip.",
+      "cn": "八个义项追踪同一份渴望的不同语域：读者的饥渴、食者的胃口、守财奴的贪婪、学者的痴迷，以及实验室里的「握力」。"
     },
-    {
-      "no": "06",
-      "title": "In chemistry, close to affinity",
-      "titleCN": "（化学）亲合性",
-      "definition": "in older chemical writing, the mutual attraction of substances",
-      "definitionCN": "旧化学文献中物质间的相互吸引",
-      "example": "Early texts ranked the avidity of acids for bases.",
-      "exampleCN": "早期文献按酸对碱的亲合性排序。",
-      "why": "Before exact measures, attraction was described in appetite terms.",
-      "whyCN": "在精确测量之前，人们用「胃口」来描述吸引。"
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: hands that reach before the eyes finish looking.",
+        "cn": "核心意象：眼睛还没看完，手已经伸了过去。"
+      },
+      "chain": [
+        "THE CRAVING",
+        "THE REACH",
+        "THE GRIP",
+        "THE DEVOTION",
+        "THE EXCESS",
+        "THE MEASURED BOND"
+      ],
+      "branches": [
+        {
+          "senses": "01 · 04",
+          "en": "THE NOBLE SIDE: eagerness for learning and lasting devotion.",
+          "cn": "高雅一面：求知之渴与持久痴迷。"
+        },
+        {
+          "senses": "02 · 08",
+          "en": "THE APPETITE SIDE: eating bodies and eager crowds.",
+          "cn": "胃口一面：进食之躯与热切人群。"
+        },
+        {
+          "senses": "03 · 07",
+          "en": "THE DARK SIDE: greed for gain and markets' hunger.",
+          "cn": "阴暗一面：觊觎之贪与市场之渴。"
+        },
+        {
+          "senses": "05 · 06",
+          "en": "THE SCIENTIFIC SIDE: binding strength and chemical attraction.",
+          "cn": "科学一面：结合强度与化学吸引。"
+        },
+        {
+          "senses": "02",
+          "en": "THE BODILY SIDE: the appetite that eats.",
+          "cn": "身体一面：进食的胃口。"
+        }
+      ]
     },
-    {
-      "no": "07",
-      "title": "Competitive hunger in games or markets",
-      "titleCN": "（竞争中的）求胜饥渴",
-      "definition": "aggressive eagerness to win, bid, or trade",
-      "definitionCN": "取胜、竞价或交易中的猛烈冲劲",
-      "example": "The startup hired with an avidity that unsettled rivals.",
-      "exampleCN": "那家创业公司招人猛冲猛打，令对手不安。",
-      "why": "Markets reward appetites; the word migrated there.",
-      "whyCN": "市场奖励欲望，这个词也随行就市。"
-    },
-    {
-      "no": "08",
-      "title": "Avidness of an audience",
-      "titleCN": "（受众的）热捧",
-      "definition": "the eagerness of readers, fans, or crowds for a thing",
-      "definitionCN": "读者、粉丝或人群对某物的热切追捧",
-      "example": "The sequel was awaited with feverish avidity.",
-      "exampleCN": "续作在狂热的期待中呼之欲出。",
-      "why": "Appetite shared by many becomes an audience mood.",
-      "whyCN": "众人之欲汇聚，便成了一种受众情绪。"
+    "affixes": {
+      "intro": {
+        "en": "Avidity is the adjective avidus plus the noun ending -itas, quality of being eager.",
+        "cn": "avidity 由形容词 avidus 加名词词尾 -itas 构成，义为「渴望」之质。"
+      },
+      "latinIntro": {
+        "en": "Latin -itas nouns name qualities, and English -ity keeps them alive by the hundred.",
+        "cn": "拉丁语 -itas 名词命名性质，英语 -ity 成百上千地延续它们。"
+      },
+      "items": [
+        {
+          "word": "avere",
+          "structure": "Latin verb",
+          "meaning": "to crave eagerly",
+          "meaningCN": "热切渴望",
+          "example": "avere as family root",
+          "exampleCN": "词族核心动词"
+        },
+        {
+          "word": "avidus",
+          "structure": "avere + -idus",
+          "meaning": "eager, greedy",
+          "meaningCN": "热切的；贪婪的",
+          "example": "avidus legere",
+          "exampleCN": "渴望阅读"
+        },
+        {
+          "word": "aviditas",
+          "structure": "avidus + -itas",
+          "meaning": "eagerness",
+          "meaningCN": "渴望",
+          "example": "aviditas in moral Latin",
+          "exampleCN": "道德拉丁语中的 aviditas"
+        },
+        {
+          "word": "-ity",
+          "structure": "noun suffix",
+          "meaning": "state or quality",
+          "meaningCN": "状态；性质",
+          "example": "clarity, avidity",
+          "exampleCN": "清晰、热切"
+        },
+        {
+          "word": "avid",
+          "structure": "back-formation of the family",
+          "meaning": "keen, eager",
+          "meaningCN": "热切的",
+          "example": "an avid fan",
+          "exampleCN": "狂热的粉丝"
+        },
+        {
+          "word": "avidly",
+          "structure": "avid + -ly",
+          "meaning": "eagerly",
+          "meaningCN": "热切地",
+          "example": "watch avidly",
+          "exampleCN": "目不转睛地看"
+        },
+        {
+          "word": "avarice",
+          "structure": "same root, money-aimed",
+          "meaning": "greed for wealth",
+          "meaningCN": "贪财",
+          "example": "avarice and avidity are cousins",
+          "exampleCN": "avarice 与 avidity 是同源表亲"
+        },
+        {
+          "word": "affinity",
+          "structure": "ad + finis, different root",
+          "meaning": "attraction, kinship",
+          "meaningCN": "亲合；亲和",
+          "example": "affinity for languages",
+          "exampleCN": "语言天赋（亲和）"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "aviditas",
+          "structure": "Latin noun",
+          "meaning": "eagerness, greed",
+          "meaningCN": "渴望；贪婪"
+        },
+        {
+          "word": "avere",
+          "structure": "Latin verb",
+          "meaning": "to crave",
+          "meaningCN": "渴望"
+        }
+      ]
     }
-  ],
-  "etymology": {
-    "intro": {
-      "en": "Avidity comes from Latin aviditas, from avidus, eager, from avere, to crave; English formed or borrowed the noun in the fifteenth century.",
-      "cn": "avidity 出自拉丁语 aviditas，源于 avidus「热切的」，词根为 avere「渴望」；英语名词约在 15 世纪形成或借入。"
-    },
-    "items": [
-      {
-        "era": "PROTO-INDO-EUROPEAN",
-        "en": "The crave-root is reconstructed as a stem of wishing or striving.",
-        "cn": "「渴望」词根被重构为表「希求、 striving」的词干。"
-      },
-      {
-        "era": "LATIN",
-        "en": "avere meant to desire eagerly; avidus described the greedy, hungry mind.",
-        "cn": "avere 意为热切渴望；avidus 形容饥渴、贪求之心。"
-      },
-      {
-        "era": "LATIN, AVIDITAS",
-        "en": "aviditas named eagerness as a quality, often with moral disapproval.",
-        "cn": "aviditas 指作为特质的渴望，常带道德贬义。"
-      },
-      {
-        "era": "ENGLISH, 15TH C.",
-        "en": "Middle English took avidity with the double sense of greed and eagerness.",
-        "cn": "中古英语借入 avidity，兼有贪婪与热切二义。"
-      },
-      {
-        "era": "ENGLISH, 17TH–18TH C.",
-        "en": "Scientific prose borrowed avidity for the mutual pull of substances.",
-        "cn": "17、18 世纪科学散文借 avidity 指物质间的相互吸引。"
-      },
-      {
-        "era": "MODERN ENGLISH",
-        "en": "Immunology fixed avidity as a technical measure of antibody binding.",
-        "cn": "现代免疫学将 avidity 定为抗体结合强度的术语。"
-      }
-    ]
-  },
-  "similar": {
-    "note": {
-      "en": "Group one gathers the avere family and an affinity trap; group two gathers the eagerness scale.",
-      "cn": "第一组收 avere 词族及 affinity 之辨；第二组收热切刻度上的词。"
-    },
-    "groups": [
-      {
-        "heading": "LOOK-ALIKE",
-        "entries": [
-          {
-            "word": "avid",
-            "ipa": "/ˈævɪd/",
-            "tag": "same root",
-            "definition": "the adjective: an avid reader wants the next page now.",
-            "definitionCN": "形容词：avid reader 指手不释卷的读者。"
-          },
-          {
-            "word": "affinity",
-            "ipa": "/əˈfɪnəti/",
-            "tag": "look-alike, different root",
-            "definition": "natural liking or attraction, from ad plus finis; do not swap with avidity in immunology, where the meanings differ.",
-            "definitionCN": "天然好感或亲合，出自 ad + finis；免疫学中与 avidity 含义不同，勿混。"
-          },
-          {
-            "word": "avarice",
-            "ipa": "/ˈævərɪs/",
-            "tag": "same root",
-            "definition": "greed for wealth, the same eager root aimed at money.",
-            "definitionCN": "贪财；同一「渴望」词根锁定在钱上。"
-          }
-        ]
-      },
-      {
-        "heading": "NEAR MEANING",
-        "entries": [
-          {
-            "word": "eagerness",
-            "ipa": "/ˈiːɡənəs/",
-            "tag": "near meaning",
-            "definition": "the everyday word for keen desire.",
-            "definitionCN": "渴望的日常用词。"
-          },
-          {
-            "word": "zeal",
-            "ipa": "/ziːl/",
-            "tag": "near meaning",
-            "definition": "energetic devotion to a cause.",
-            "definitionCN": "对事业的热忱投入。"
-          },
-          {
-            "word": "keenness",
-            "ipa": "/ˈkiːnnəs/",
-            "tag": "near meaning",
-            "definition": "sharp, active interest.",
-            "definitionCN": "敏锐而活跃的兴趣。"
-          },
-          {
-            "word": "greed",
-            "ipa": "/ɡriːd/",
-            "tag": "near meaning",
-            "definition": "insatiable appetite, the blunt negative twin.",
-            "definitionCN": "永不满足的贪欲；直白的贬义孪生词。"
-          },
-          {
-            "word": "appetite",
-            "ipa": "/ˈæpɪtaɪt/",
-            "tag": "near meaning",
-            "definition": "physical or figurative hunger for something.",
-            "definitionCN": "对某物的胃口，实指或虚指。"
-          }
-        ]
-      }
-    ]
-  },
-  "mnemonics": {
-    "normalIntro": {
-      "en": "Keep the avere family in one breath: avere, avid, avidity, avarice.",
-      "cn": "一口气念完 avere 词族：avere、avid、avidity、avarice。"
-    },
-    "normal": [
-      { "en": "avid plus -ity: the quality of being avid.", "cn": "avid 加 -ity：即「热切」这一特质。" },
-      { "en": "An avid reader reads with avidity; the sentence twins them.", "cn": "avid reader 配 read with avidity，成对记忆。" },
-      { "en": "The immunology term: avidity is grip strength for antibodies.", "cn": "免疫学术语：avidity 是抗体的「握力」。" },
-      { "en": "Negative shade: with avidity can imply greed in money contexts.", "cn": "贬义提示：金钱语境下 with avidity 可含贪婪。" },
-      { "en": "Spelling: avidity keeps the i before -ty, unlike avarice.", "cn": "拼写：avidity 在 -ty 前保留 i，别与 avarice 混。" }
-    ],
-    "abstract": [
-      { "en": "See fingers already turning the next page.", "cn": "看那手指已经去翻下一页。" },
-      { "en": "Avidity is hunger that found a bookshelf.", "cn": "avidity 是找到了书架的饥饿。" },
-      { "en": "Picture an antibody closing its fist on a molecule.", "cn": "想象抗体把分子攥进拳头。" }
-    ]
-  },
-  "examples": [
-    { "en": "He collected first editions with an avidity bordering on obsession.", "cn": "他搜罗初版书的热切近乎痴迷。" },
-    { "en": "The stray dogs ate with the avidity of the long unfed.", "cn": "流浪狗进食的贪婪显示它们饿了很久。" },
-    { "en": "Serum tests measured the avidity of her antibodies.", "cn": "血清检测测量了她抗体的亲合力。" }
-  ],
-  "dict_mnemonic": {
-    "note": "谐音记忆 · 非词源",
-    "text": "「饿喂弟」——弟饿得两眼放光，那股狼吞虎咽的劲就是 avidity",
-    "word": "avidity"
-  },
-  "root": "出自拉丁语 aviditas「渴望」，源自 avidus「热切的」，词根为 avere「热切渴望」，与 avarice 同源；15 世纪进入英语，兼有热切与贪婪二义；近代被化学借指亲合性，现代免疫学定名为抗体亲合力。",
-  "sensesIntro": {
-    "en": "Eight senses track one eagerness through its registers: the reader's hunger, the eater's appetite, the miser's greed, the scholar's devotion, and the lab's measure of grip.",
-    "cn": "八个义项追踪同一份渴望的不同语域：读者的饥渴、食者的胃口、守财奴的贪婪、学者的痴迷，以及实验室里的「握力」。"
-  },
-  "semanticMap": {
-    "core": {
-      "en": "CORE IMAGE: hands that reach before the eyes finish looking.",
-      "cn": "核心意象：眼睛还没看完，手已经伸了过去。"
-    },
-    "chain": ["THE CRAVING", "THE REACH", "THE GRIP", "THE DEVOTION", "THE EXCESS", "THE MEASURED BOND"],
-    "branches": [
-      { "senses": "01 · 04", "en": "THE NOBLE SIDE: eagerness for learning and lasting devotion.", "cn": "高雅一面：求知之渴与持久痴迷。" },
-      { "senses": "02 · 08", "en": "THE APPETITE SIDE: eating bodies and eager crowds.", "cn": "胃口一面：进食之躯与热切人群。" },
-      { "senses": "03 · 07", "en": "THE DARK SIDE: greed for gain and markets' hunger.", "cn": "阴暗一面：觊觎之贪与市场之渴。" },
-      { "senses": "05 · 06", "en": "THE SCIENTIFIC SIDE: binding strength and chemical attraction.", "cn": "科学一面：结合强度与化学吸引。" },
-      { "senses": "02", "en": "THE BODILY SIDE: the appetite that eats.", "cn": "身体一面：进食的胃口。" }
-    ]
-  },
-  "affixes": {
-    "intro": {
-      "en": "Avidity is the adjective avidus plus the noun ending -itas, quality of being eager.",
-      "cn": "avidity 由形容词 avidus 加名词词尾 -itas 构成，义为「渴望」之质。"
-    },
-    "latinIntro": {
-      "en": "Latin -itas nouns name qualities, and English -ity keeps them alive by the hundred.",
-      "cn": "拉丁语 -itas 名词命名性质，英语 -ity 成百上千地延续它们。"
-    },
-    "items": [
-      { "word": "avere", "structure": "Latin verb", "meaning": "to crave eagerly", "meaningCN": "热切渴望", "example": "avere as family root", "exampleCN": "词族核心动词" },
-      { "word": "avidus", "structure": "avere + -idus", "meaning": "eager, greedy", "meaningCN": "热切的；贪婪的", "example": "avidus legere", "exampleCN": "渴望阅读" },
-      { "word": "aviditas", "structure": "avidus + -itas", "meaning": "eagerness", "meaningCN": "渴望", "example": "aviditas in moral Latin", "exampleCN": "道德拉丁语中的 aviditas" },
-      { "word": "-ity", "structure": "noun suffix", "meaning": "state or quality", "meaningCN": "状态；性质", "example": "clarity, avidity", "exampleCN": "清晰、热切" },
-      { "word": "avid", "structure": "back-formation of the family", "meaning": "keen, eager", "meaningCN": "热切的", "example": "an avid fan", "exampleCN": "狂热的粉丝" },
-      { "word": "avidly", "structure": "avid + -ly", "meaning": "eagerly", "meaningCN": "热切地", "example": "watch avidly", "exampleCN": "目不转睛地看" },
-      { "word": "avarice", "structure": "same root, money-aimed", "meaning": "greed for wealth", "meaningCN": "贪财", "example": "avarice and avidity are cousins", "exampleCN": "avarice 与 avidity 是同源表亲" },
-      { "word": "affinity", "structure": "ad + finis, different root", "meaning": "attraction, kinship", "meaningCN": "亲合；亲和", "example": "affinity for languages", "exampleCN": "语言天赋（亲和）" }
-    ],
-    "latinEntries": [
-      { "word": "aviditas", "structure": "Latin noun", "meaning": "eagerness, greed", "meaningCN": "渴望；贪婪" },
-      { "word": "avere", "structure": "Latin verb", "meaning": "to crave", "meaningCN": "渴望" }
-    ]
   }
-}
+]

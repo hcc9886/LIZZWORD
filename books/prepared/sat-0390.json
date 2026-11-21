@@ -1,398 +1,400 @@
-{
- "word": "berate",
- "ipa_uk": "/bɪˈreɪt/",
- "ipa_us": "/bɪˈreɪt/",
- "definition_zh": "痛斥；严责；训斥；大骂",
- "definition_en": "to scold or criticize someone angrily and at length",
- "core_image": "指着鼻子、唾沫横飞的长篇怒斥",
- "scene": "经理当着全办公室的面指着报表高声数落。The manager berated the intern for the tiny accounting error.",
- "sceneCN": "这里 berated 是「痛斥、严责」（第 1 个义项：愤怒地长时间责骂）；句意是经理当众为一个小的账目错误痛斥实习生。",
- "pos": [
+[
   {
-   "tag": "vt.",
-   "zh": "痛斥；严责；训斥"
-  }
- ],
- "collocations": [
-  {
-   "phrase": "berate someone publicly",
-   "zh": "当众痛斥某人"
-  },
-  {
-   "phrase": "berate oneself",
-   "zh": "自责不已"
-  },
-  {
-   "phrase": "berate someone for a mistake",
-   "zh": "因错误痛骂某人"
-  },
-  {
-   "phrase": "harshly berated",
-   "zh": "被严厉训斥"
-  },
-  {
-   "phrase": "berate the government",
-   "zh": "痛斥政府"
-  }
- ],
- "forms": [
-  {
-   "label": "第三人称单数",
-   "form": "berates"
-  },
-  {
-   "label": "过去式",
-   "form": "berated"
-  },
-  {
-   "label": "过去分词",
-   "form": "berated"
-  },
-  {
-   "label": "现在分词",
-   "form": "berating"
-  }
- ],
- "derivatives": [
-  {
-   "word": "rate",
-   "pos": "v.",
-   "zh": "基础词的古义「申斥」，今义「评级」"
-  },
-  {
-   "word": "berating",
-   "pos": "n.",
-   "zh": "由现在分词转名词，义为「痛斥；一顿臭骂」"
-  }
- ],
- "senses": [
-  {
-   "no": "01",
-   "title": "To scold angrily and at length",
-   "titleCN": "痛斥；严责",
-   "definition": "to speak to someone angrily for a long time about their fault",
-   "definitionCN": "因对方的过错愤怒地长时间责骂",
-   "example": "The manager berated the intern for the tiny accounting error.",
-   "exampleCN": "经理为一个小的账目错误痛斥实习生。",
-   "why": "Be- strengthens rate, an old word for scold, so it is scolding hard.",
-   "whyCN": "前缀 be- 强化古义「申斥」的 rate，即狠狠地骂。"
-  },
-  {
-   "no": "02",
-   "title": "To blame oneself bitterly",
-   "titleCN": "自责；痛责自己",
-   "definition": "to scold oneself inwardly for a fault or failure",
-   "definitionCN": "在心里为自己的过错或失败狠狠责备自己",
-   "example": "She berated herself all night for the missed deadline.",
-   "exampleCN": "她为错过的截止日期自责了一整夜。",
-   "why": "The scolding turns inward onto oneself.",
-   "whyCN": "「痛斥」的对象转向自身，成为自责。"
-  }
- ],
- "etymology": {
-  "intro": {
-   "en": "Berate is the prefix be- plus rate, an older English verb meaning to scold.",
-   "cn": "berate 由前缀 be- 加 rate 构成，rate 在旧义中指「申斥」。"
-  },
-  "items": [
-   {
-    "era": "OLD NORSE",
-    "en": "reta meant to scold, to find fault.",
-    "cn": "古诺斯语 reta 意为「责骂、挑错」。"
-   },
-   {
-    "era": "MIDDLE ENGLISH",
-    "en": "raten meant to chide or scold.",
-    "cn": "中古英语 raten 意为「斥责」。"
-   },
-   {
-    "era": "ENGLISH, 16TH C.",
-    "en": "the compound berate appeared in the sixteenth century.",
-    "cn": "复合词 berate 出现于十六世纪。"
-   },
-   {
-    "era": "ENGLISH, 17TH-18TH C.",
-    "en": "it settled into use for angry, lengthy scolding.",
-    "cn": "十七、十八世纪固定用于愤怒的长篇责骂。"
-   },
-   {
-    "era": "MODERN ENGLISH",
-    "en": "the plain verb rate lost the scolding sense, but berate keeps it.",
-    "cn": "动词 rate 单独使用已失去申斥义，该义只存于 berate。"
-   }
-  ]
- },
- "similar": {
-  "note": {
-   "en": "The look-alike group shares the be- prefix or spelling; the near-meaning group gathers scolding words.",
-   "cn": "形近组共享 be- 前缀或拼写；近义组汇集责骂类词。"
-  },
-  "groups": [
-   {
-    "heading": "LOOK-ALIKE",
-    "entries": [
-     {
-      "word": "rate",
-      "ipa": "/reɪt/",
-      "tag": "same root",
-      "definition": "to estimate value; once, to scold",
-      "definitionCN": "评级；旧义申斥——berate 的词基"
-     },
-     {
-      "word": "beret",
-      "ipa": "/ˈbereɪ/",
-      "tag": "spelling",
-      "definition": "a soft round cap",
-      "definitionCN": "贝雷帽——拼写相近，词源无关"
-     },
-     {
-      "word": "rebuke",
-      "ipa": "/rɪˈbjuːk/",
-      "tag": "same prefix family",
-      "definition": "a sharp reprimand",
-      "definitionCN": "斥责——同以 re- 类前缀加强语气的责备词"
-     }
-    ]
-   },
-   {
-    "heading": "NEAR MEANING",
-    "entries": [
-     {
-      "word": "reprimand",
-      "ipa": "/ˈreprɪmɑːnd/",
-      "tag": "near synonym",
-      "definition": "to rebuke formally, as by a superior",
-      "definitionCN": "申斥；多指上级的正式斥责"
-     },
-     {
-      "word": "upbraid",
-      "ipa": "/ʌpˈbreɪd/",
-      "tag": "near synonym",
-      "definition": "to scold severely, literary",
-      "definitionCN": "责骂；书面语色彩浓"
-     },
-     {
-      "word": "tongue-lash",
-      "ipa": "/ˈtʌŋlæʃ/",
-      "tag": "near synonym",
-      "definition": "to scold with harsh words",
-      "definitionCN": "痛骂；强调言辞如鞭"
-     }
-    ]
-   }
-  ]
- },
- "mnemonics": {
-  "normalIntro": {
-   "en": "Berate is be- plus rate, the old verb to scold.",
-   "cn": "berate 是 be- 加旧义「申斥」的 rate。"
-  },
-  "normal": [
-   {
-    "en": "The past form is berated.",
-    "cn": "过去式与过去分词是 berated。"
-   },
-   {
-    "en": "Berate oneself means to blame yourself hard.",
-    "cn": "berate oneself 指狠狠自责。"
-   },
-   {
-    "en": "It implies anger and length.",
-    "cn": "它暗示怒气冲冲、喋喋不休。"
-   },
-   {
-    "en": "Do not confuse with beret, the cap.",
-    "cn": "不要与贝雷帽 beret 混淆。"
-   },
-   {
-    "en": "Reprimand is more formal than berate.",
-    "cn": "reprimand 比 berate 更正式。"
-   }
-  ],
-  "abstract": [
-   {
-    "en": "See spit flying from a pointing finger.",
-    "cn": "看指人的手指间飞溅的唾沫。"
-   },
-   {
-    "en": "Feel ears burning under the words.",
-    "cn": "感受被骂得发烫的耳朵。"
-   },
-   {
-    "en": "Picture a mirror scolded by its own face.",
-    "cn": "想象镜子被镜中的自己训斥。"
-   }
-  ]
- },
- "examples": [
-  {
-   "en": "The manager berated the intern for the tiny accounting error.",
-   "cn": "经理为一个小的账目错误痛斥实习生。"
-  },
-  {
-   "en": "She berated herself all night for the missed deadline.",
-   "cn": "她为错过的截止日期自责了一整夜。"
-  },
-  {
-   "en": "Columnists berated the council over the failed project.",
-   "cn": "专栏作者们就失败的项目痛斥市议会。"
-  }
- ],
- "dict_mnemonic": {
-  "note": "谐音记忆 · 非词源",
-  "text": "「必·瑞特」——必听一通锐利斥责，领导点名骂得他面红耳赤。",
-  "word": "berate"
- },
- "root": "前缀 be-（古英语，表「对……施加」）加 rate（中古英语 raten「申斥」，源自古诺斯语 reta「责骂」）；复合词 berate 十六世纪见于英语，专指愤怒的长篇斥责；单独的 rate 后来只保留「评级」义。",
- "sensesIntro": {
-  "en": "One verb hurls long angry scolding at others or turns it on oneself.",
-  "cn": "一个动词，把长篇怒骂掷向别人，或转向自己变成自责。"
- },
- "semanticMap": {
-  "core": {
-   "en": "CORE IMAGE: a pointing finger and flying spit in a long scold.",
-   "cn": "核心意象：指着鼻子、唾沫横飞的长篇怒斥。"
-  },
-  "chain": [
-   "ANGER",
-   "SCOLDING",
-   "BLAME",
-   "SHAME",
-   "SELF-CRITICISM",
-   "REPRIMAND"
-  ],
-  "branches": [
-   {
-    "senses": "01",
-    "en": "berate someone publicly",
-    "cn": "当众痛斥某人"
-   },
-   {
-    "senses": "01",
-    "en": "berate someone for a mistake",
-    "cn": "因错误痛骂某人"
-   },
-   {
-    "senses": "01",
-    "en": "berate the government",
-    "cn": "痛斥政府"
-   },
-   {
-    "senses": "02",
-    "en": "berate oneself",
-    "cn": "自责不已"
-   },
-   {
-    "senses": "01 · 02",
-    "en": "harshly berated",
-    "cn": "被严厉训斥"
-   }
-  ]
- },
- "affixes": {
-  "intro": {
-   "en": "Berate shows be- pressing the old scolding verb rate onto a target.",
-   "cn": "berate 展示 be- 把旧义「申斥」的 rate 压向对象。"
-  },
-  "latinIntro": {
-   "en": "There is no Latin base; the parts are Germanic.",
-   "cn": "这里没有拉丁词基，组成部分是日耳曼语源的。"
-  },
-  "items": [
-   {
-    "word": "reta",
-    "structure": "Old Norse verb",
-    "meaning": "to scold, find fault",
-    "meaningCN": "责骂、挑错",
-    "example": "reta e-n",
-    "exampleCN": "责骂某人"
-   },
-   {
-    "word": "rate",
-    "structure": "Middle English raten",
-    "meaning": "to chide",
-    "meaningCN": "斥责",
-    "example": "he rated him soundly",
-    "exampleCN": "他把他痛骂一顿"
-   },
-   {
     "word": "berate",
-    "structure": "be- + rate",
-    "meaning": "to scold angrily and at length",
-    "meaningCN": "痛斥",
-    "example": "berate a subordinate",
-    "exampleCN": "痛斥下属"
-   },
-   {
-    "word": "berated",
-    "structure": "berate + -ed",
-    "meaning": "scolded harshly",
-    "meaningCN": "被痛斥的",
-    "example": "a berated clerk",
-    "exampleCN": "挨骂的职员"
-   },
-   {
-    "word": "berating",
-    "structure": "berate + -ing",
-    "meaning": "a long scolding",
-    "meaningCN": "一顿臭骂",
-    "example": "get a good berating",
-    "exampleCN": "挨了一顿好骂"
-   },
-   {
-    "word": "rebuke",
-    "structure": "re- + buke",
-    "meaning": "a sharp reprimand",
-    "meaningCN": "斥责",
-    "example": "a stern rebuke",
-    "exampleCN": "严厉的斥责"
-   },
-   {
-    "word": "reprimand",
-    "structure": "Latin reprimere",
-    "meaning": "a formal scolding",
-    "meaningCN": "申斥",
-    "example": "a written reprimand",
-    "exampleCN": "书面申斥"
-   },
-   {
-    "word": "upbraid",
-    "structure": "up- + braid",
-    "meaning": "to scold severely",
-    "meaningCN": "责骂",
-    "example": "upbraid a servant",
-    "exampleCN": "痛责仆人"
-   },
-   {
-    "word": "chide",
-    "structure": "Old English cidan",
-    "meaning": "to scold mildly",
-    "meaningCN": "责备",
-    "example": "chide a child gently",
-    "exampleCN": "温和地责备孩子"
-   }
-  ],
-  "latinEntries": [
-   {
-    "word": "reprimere",
-    "structure": "Latin verb",
-    "meaning": "to press back, check; source of reprimand",
-    "meaningCN": "压制；reprimand 的词源",
-    "example": "reprimere audaciam",
-    "exampleCN": "压制胆大妄为"
-   }
-  ],
-  "derivatives": [
-   {
-    "word": "berating",
-    "pos": "n.",
-    "zh": "由现在分词转名词，义为「痛斥；一顿臭骂」"
-   },
-   {
-    "word": "rate",
-    "pos": "v.",
-    "zh": "基础词的古义「申斥」，今义「评级」"
-   }
-  ]
- }
-}
+    "ipa_uk": "/bɪˈreɪt/",
+    "ipa_us": "/bɪˈreɪt/",
+    "definition_zh": "痛斥；严责；训斥；大骂",
+    "definition_en": "to scold or criticize someone angrily and at length",
+    "core_image": "指着鼻子、唾沫横飞的长篇怒斥",
+    "scene": "经理当着全办公室的面指着报表高声数落。The manager berated the intern for the tiny accounting error.",
+    "sceneCN": "这里 berated 是「痛斥、严责」（第 1 个义项：愤怒地长时间责骂）；句意是经理当众为一个小的账目错误痛斥实习生。",
+    "pos": [
+      {
+        "tag": "vt.",
+        "zh": "痛斥；严责；训斥"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "berate someone publicly",
+        "zh": "当众痛斥某人"
+      },
+      {
+        "phrase": "berate oneself",
+        "zh": "自责不已"
+      },
+      {
+        "phrase": "berate someone for a mistake",
+        "zh": "因错误痛骂某人"
+      },
+      {
+        "phrase": "harshly berated",
+        "zh": "被严厉训斥"
+      },
+      {
+        "phrase": "berate the government",
+        "zh": "痛斥政府"
+      }
+    ],
+    "forms": [
+      {
+        "label": "第三人称单数",
+        "form": "berates"
+      },
+      {
+        "label": "过去式",
+        "form": "berated"
+      },
+      {
+        "label": "过去分词",
+        "form": "berated"
+      },
+      {
+        "label": "现在分词",
+        "form": "berating"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "rate",
+        "pos": "v.",
+        "zh": "基础词的古义「申斥」，今义「评级」"
+      },
+      {
+        "word": "berating",
+        "pos": "n.",
+        "zh": "由现在分词转名词，义为「痛斥；一顿臭骂」"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "To scold angrily and at length",
+        "titleCN": "痛斥；严责",
+        "definition": "to speak to someone angrily for a long time about their fault",
+        "definitionCN": "因对方的过错愤怒地长时间责骂",
+        "example": "The manager berated the intern for the tiny accounting error.",
+        "exampleCN": "经理为一个小的账目错误痛斥实习生。",
+        "why": "Be- strengthens rate, an old word for scold, so it is scolding hard.",
+        "whyCN": "前缀 be- 强化古义「申斥」的 rate，即狠狠地骂。"
+      },
+      {
+        "no": "02",
+        "title": "To blame oneself bitterly",
+        "titleCN": "自责；痛责自己",
+        "definition": "to scold oneself inwardly for a fault or failure",
+        "definitionCN": "在心里为自己的过错或失败狠狠责备自己",
+        "example": "She berated herself all night for the missed deadline.",
+        "exampleCN": "她为错过的截止日期自责了一整夜。",
+        "why": "The scolding turns inward onto oneself.",
+        "whyCN": "「痛斥」的对象转向自身，成为自责。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Berate is the prefix be- plus rate, an older English verb meaning to scold.",
+        "cn": "berate 由前缀 be- 加 rate 构成，rate 在旧义中指「申斥」。"
+      },
+      "items": [
+        {
+          "era": "OLD NORSE",
+          "en": "reta meant to scold, to find fault.",
+          "cn": "古诺斯语 reta 意为「责骂、挑错」。"
+        },
+        {
+          "era": "MIDDLE ENGLISH",
+          "en": "raten meant to chide or scold.",
+          "cn": "中古英语 raten 意为「斥责」。"
+        },
+        {
+          "era": "ENGLISH, 16TH C.",
+          "en": "the compound berate appeared in the sixteenth century.",
+          "cn": "复合词 berate 出现于十六世纪。"
+        },
+        {
+          "era": "ENGLISH, 17TH-18TH C.",
+          "en": "it settled into use for angry, lengthy scolding.",
+          "cn": "十七、十八世纪固定用于愤怒的长篇责骂。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "the plain verb rate lost the scolding sense, but berate keeps it.",
+          "cn": "动词 rate 单独使用已失去申斥义，该义只存于 berate。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "The look-alike group shares the be- prefix or spelling; the near-meaning group gathers scolding words.",
+        "cn": "形近组共享 be- 前缀或拼写；近义组汇集责骂类词。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "rate",
+              "ipa": "/reɪt/",
+              "tag": "same root",
+              "definition": "to estimate value; once, to scold",
+              "definitionCN": "评级；旧义申斥——berate 的词基"
+            },
+            {
+              "word": "beret",
+              "ipa": "/ˈbereɪ/",
+              "tag": "spelling",
+              "definition": "a soft round cap",
+              "definitionCN": "贝雷帽——拼写相近，词源无关"
+            },
+            {
+              "word": "rebuke",
+              "ipa": "/rɪˈbjuːk/",
+              "tag": "same prefix family",
+              "definition": "a sharp reprimand",
+              "definitionCN": "斥责——同以 re- 类前缀加强语气的责备词"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "reprimand",
+              "ipa": "/ˈreprɪmɑːnd/",
+              "tag": "near synonym",
+              "definition": "to rebuke formally, as by a superior",
+              "definitionCN": "申斥；多指上级的正式斥责"
+            },
+            {
+              "word": "upbraid",
+              "ipa": "/ʌpˈbreɪd/",
+              "tag": "near synonym",
+              "definition": "to scold severely, literary",
+              "definitionCN": "责骂；书面语色彩浓"
+            },
+            {
+              "word": "tongue-lash",
+              "ipa": "/ˈtʌŋlæʃ/",
+              "tag": "near synonym",
+              "definition": "to scold with harsh words",
+              "definitionCN": "痛骂；强调言辞如鞭"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Berate is be- plus rate, the old verb to scold.",
+        "cn": "berate 是 be- 加旧义「申斥」的 rate。"
+      },
+      "normal": [
+        {
+          "en": "The past form is berated.",
+          "cn": "过去式与过去分词是 berated。"
+        },
+        {
+          "en": "Berate oneself means to blame yourself hard.",
+          "cn": "berate oneself 指狠狠自责。"
+        },
+        {
+          "en": "It implies anger and length.",
+          "cn": "它暗示怒气冲冲、喋喋不休。"
+        },
+        {
+          "en": "Do not confuse with beret, the cap.",
+          "cn": "不要与贝雷帽 beret 混淆。"
+        },
+        {
+          "en": "Reprimand is more formal than berate.",
+          "cn": "reprimand 比 berate 更正式。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "See spit flying from a pointing finger.",
+          "cn": "看指人的手指间飞溅的唾沫。"
+        },
+        {
+          "en": "Feel ears burning under the words.",
+          "cn": "感受被骂得发烫的耳朵。"
+        },
+        {
+          "en": "Picture a mirror scolded by its own face.",
+          "cn": "想象镜子被镜中的自己训斥。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "The manager berated the intern for the tiny accounting error.",
+        "cn": "经理为一个小的账目错误痛斥实习生。"
+      },
+      {
+        "en": "She berated herself all night for the missed deadline.",
+        "cn": "她为错过的截止日期自责了一整夜。"
+      },
+      {
+        "en": "Columnists berated the council over the failed project.",
+        "cn": "专栏作者们就失败的项目痛斥市议会。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「必·瑞特」——必听一通锐利斥责，领导点名骂得他面红耳赤。",
+      "word": "berate"
+    },
+    "root": "前缀 be-（古英语，表「对……施加」）加 rate（中古英语 raten「申斥」，源自古诺斯语 reta「责骂」）；复合词 berate 十六世纪见于英语，专指愤怒的长篇斥责；单独的 rate 后来只保留「评级」义。",
+    "sensesIntro": {
+      "en": "One verb hurls long angry scolding at others or turns it on oneself.",
+      "cn": "一个动词，把长篇怒骂掷向别人，或转向自己变成自责。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: a pointing finger and flying spit in a long scold.",
+        "cn": "核心意象：指着鼻子、唾沫横飞的长篇怒斥。"
+      },
+      "chain": [
+        "ANGER",
+        "SCOLDING",
+        "BLAME",
+        "SHAME",
+        "SELF-CRITICISM",
+        "REPRIMAND"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "berate someone publicly",
+          "cn": "当众痛斥某人"
+        },
+        {
+          "senses": "01",
+          "en": "berate someone for a mistake",
+          "cn": "因错误痛骂某人"
+        },
+        {
+          "senses": "01",
+          "en": "berate the government",
+          "cn": "痛斥政府"
+        },
+        {
+          "senses": "02",
+          "en": "berate oneself",
+          "cn": "自责不已"
+        },
+        {
+          "senses": "01 · 02",
+          "en": "harshly berated",
+          "cn": "被严厉训斥"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Berate shows be- pressing the old scolding verb rate onto a target.",
+        "cn": "berate 展示 be- 把旧义「申斥」的 rate 压向对象。"
+      },
+      "latinIntro": {
+        "en": "There is no Latin base; the parts are Germanic.",
+        "cn": "这里没有拉丁词基，组成部分是日耳曼语源的。"
+      },
+      "items": [
+        {
+          "word": "reta",
+          "structure": "Old Norse verb",
+          "meaning": "to scold, find fault",
+          "meaningCN": "责骂、挑错",
+          "example": "reta e-n",
+          "exampleCN": "责骂某人"
+        },
+        {
+          "word": "rate",
+          "structure": "Middle English raten",
+          "meaning": "to chide",
+          "meaningCN": "斥责",
+          "example": "he rated him soundly",
+          "exampleCN": "他把他痛骂一顿"
+        },
+        {
+          "word": "berate",
+          "structure": "be- + rate",
+          "meaning": "to scold angrily and at length",
+          "meaningCN": "痛斥",
+          "example": "berate a subordinate",
+          "exampleCN": "痛斥下属"
+        },
+        {
+          "word": "berated",
+          "structure": "berate + -ed",
+          "meaning": "scolded harshly",
+          "meaningCN": "被痛斥的",
+          "example": "a berated clerk",
+          "exampleCN": "挨骂的职员"
+        },
+        {
+          "word": "berating",
+          "structure": "berate + -ing",
+          "meaning": "a long scolding",
+          "meaningCN": "一顿臭骂",
+          "example": "get a good berating",
+          "exampleCN": "挨了一顿好骂"
+        },
+        {
+          "word": "rebuke",
+          "structure": "re- + buke",
+          "meaning": "a sharp reprimand",
+          "meaningCN": "斥责",
+          "example": "a stern rebuke",
+          "exampleCN": "严厉的斥责"
+        },
+        {
+          "word": "reprimand",
+          "structure": "Latin reprimere",
+          "meaning": "a formal scolding",
+          "meaningCN": "申斥",
+          "example": "a written reprimand",
+          "exampleCN": "书面申斥"
+        },
+        {
+          "word": "upbraid",
+          "structure": "up- + braid",
+          "meaning": "to scold severely",
+          "meaningCN": "责骂",
+          "example": "upbraid a servant",
+          "exampleCN": "痛责仆人"
+        },
+        {
+          "word": "chide",
+          "structure": "Old English cidan",
+          "meaning": "to scold mildly",
+          "meaningCN": "责备",
+          "example": "chide a child gently",
+          "exampleCN": "温和地责备孩子"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "reprimere",
+          "structure": "Latin verb",
+          "meaning": "to press back, check; source of reprimand",
+          "meaningCN": "压制；reprimand 的词源",
+          "example": "reprimere audaciam",
+          "exampleCN": "压制胆大妄为"
+        }
+      ],
+      "derivatives": [
+        {
+          "word": "berating",
+          "pos": "n.",
+          "zh": "由现在分词转名词，义为「痛斥；一顿臭骂」"
+        },
+        {
+          "word": "rate",
+          "pos": "v.",
+          "zh": "基础词的古义「申斥」，今义「评级」"
+        }
+      ]
+    }
+  }
+]

@@ -1,398 +1,400 @@
-{
- "word": "beset",
- "ipa_uk": "/bɪˈset/",
- "ipa_us": "/bɪˈset/",
- "definition_zh": "困扰；围困；包围；布满（困难等）",
- "definition_en": "to trouble or threaten from all sides, or to surround something",
- "core_image": "四面八方聚拢而来的阴影，把小小的屋子围在中间",
- "scene": "仓库还没开门，麻烦已从四面八方压来。The small firm was beset by lawsuits and lost shipments.",
- "sceneCN": "这里 beset 是「困扰、四面夹击」（第 1 个义项：被问题从各方纠缠）；句意是这家小公司被官司和丢失的货物团团困扰。",
- "pos": [
+[
   {
-   "tag": "vt.",
-   "zh": "困扰；围困；使苦恼"
-  }
- ],
- "collocations": [
-  {
-   "phrase": "be beset by difficulties",
-   "zh": "被困难重重困扰"
-  },
-  {
-   "phrase": "be beset with doubts",
-   "zh": "疑虑缠身"
-  },
-  {
-   "phrase": "beset on all sides",
-   "zh": "四面受敌"
-  },
-  {
-   "phrase": "a beset journey",
-   "zh": "一波三折的旅程"
-  },
-  {
-   "phrase": "beset with dangers",
-   "zh": "险象环生"
-  }
- ],
- "forms": [
-  {
-   "label": "第三人称单数",
-   "form": "besets"
-  },
-  {
-   "label": "过去式",
-   "form": "beset"
-  },
-  {
-   "label": "过去分词",
-   "form": "beset"
-  },
-  {
-   "label": "现在分词",
-   "form": "besetting"
-  }
- ],
- "derivatives": [
-  {
-   "word": "besetting",
-   "pos": "adj.",
-   "zh": "由现在分词转形容词，义为「不断困扰的；积习难改的」"
-  },
-  {
-   "word": "set",
-   "pos": "v.",
-   "zh": "基础词，义为「放置」，beset 由其构成"
-  }
- ],
- "senses": [
-  {
-   "no": "01",
-   "title": "To trouble from all sides",
-   "titleCN": "困扰；四面夹击",
-   "definition": "to attack, harass, or worry someone or something continuously",
-   "definitionCN": "接连不断地攻击、纠缠或烦扰",
-   "example": "The small firm was beset by lawsuits and lost shipments.",
-   "exampleCN": "这家小公司被官司和丢失的货物团团困扰。",
-   "why": "Be- plus set pictures troubles set down around a thing.",
-   "whyCN": "be- 加 set，画出麻烦被安放在四周的画面。"
-  },
-  {
-   "no": "02",
-   "title": "To surround physically",
-   "titleCN": "包围；围住",
-   "definition": "to enclose or ring around, as troops or ornaments surrounding something",
-   "definitionCN": "从外面围住，可指军队包围，也可指饰物镶嵌环绕",
-   "example": "Guards beset the tower at every gate.",
-   "exampleCN": "卫兵把塔楼的每一道门都围住了。",
-   "why": "The surrounding image can be hostile or simply encircling.",
-   "whyCN": "「围住」的画面既可带敌意，也可以只是环绕。"
-  }
- ],
- "etymology": {
-  "intro": {
-   "en": "Beset is the prefix be- plus set, to place or fix.",
-   "cn": "beset 由前缀 be- 加 set「放置」构成。"
-  },
-  "items": [
-   {
-    "era": "PROTO-INDO-EUROPEAN",
-    "en": "the root sed- meant to sit, to place oneself.",
-    "cn": "词根 sed- 意为「坐、安置」（重构形式）。"
-   },
-   {
-    "era": "OLD ENGLISH",
-    "en": "settan meant to set, to put in place.",
-    "cn": "古英语 settan 意为「放置」。"
-   },
-   {
-    "era": "OLD ENGLISH",
-    "en": "besettan meant to set around, to surround.",
-    "cn": "古英语 besettan 意为「置于四周、环绕」。"
-   },
-   {
-    "era": "MIDDLE ENGLISH",
-    "en": "besetten covered surrounding, attacking, and adorning.",
-    "cn": "中古英语 besetten 兼指包围、攻击与镶嵌。"
-   },
-   {
-    "era": "MODERN ENGLISH",
-    "en": "the passive be beset by now names being swamped by troubles.",
-    "cn": "如今被动式 be beset by 专指被麻烦缠身。"
-   }
-  ]
- },
- "similar": {
-  "note": {
-   "en": "The look-alike group shares the be- prefix or the set root; the near-meaning group gathers surrounding and troubling words.",
-   "cn": "形近组共享 be- 前缀或 set 词基；近义组汇集围困、困扰类词。"
-  },
-  "groups": [
-   {
-    "heading": "LOOK-ALIKE",
-    "entries": [
-     {
-      "word": "set",
-      "ipa": "/set/",
-      "tag": "same root",
-      "definition": "to put in a place",
-      "definitionCN": "放置——beset 的词基"
-     },
-     {
-      "word": "besiege",
-      "ipa": "/bɪˈsiːdʒ/",
-      "tag": "same prefix",
-      "definition": "to surround with armed forces",
-      "definitionCN": "围攻——形近的 be- 动词"
-     },
-     {
-      "word": "offset",
-      "ipa": "/ˈɒfset/",
-      "tag": "same root",
-      "definition": "to compensate for",
-      "definitionCN": "抵消——同用 set 词基，意义不同"
-     }
-    ]
-   },
-   {
-    "heading": "NEAR MEANING",
-    "entries": [
-     {
-      "word": "plagued",
-      "ipa": "/pleɪɡd/",
-      "tag": "near synonym",
-      "definition": "troubled continuously, as if by a disease",
-      "definitionCN": "饱受困扰的；强调持续折磨"
-     },
-     {
-      "word": "besieged",
-      "ipa": "/bɪˈsiːdʒd/",
-      "tag": "near synonym",
-      "definition": "surrounded by hostile forces or demands",
-      "definitionCN": "被围困的；强调人多势众的包围"
-     },
-     {
-      "word": "harassed",
-      "ipa": "/həˈræst/",
-      "tag": "near synonym",
-      "definition": "repeatedly troubled or worn down",
-      "definitionCN": "被烦扰的；强调反复侵扰"
-     }
-    ]
-   }
-  ]
- },
- "mnemonics": {
-  "normalIntro": {
-   "en": "Beset is be- plus set: troubles set down all around.",
-   "cn": "beset 是 be- 加 set：麻烦被安放在四面八方。"
-  },
-  "normal": [
-   {
-    "en": "The past and participle are also beset.",
-    "cn": "过去式与过去分词同为 beset。"
-   },
-   {
-    "en": "Besetting sins are habitual faults.",
-    "cn": "besetting sins 指积习难改的过错。"
-   },
-   {
-    "en": "Be beset by is the common passive.",
-    "cn": "常用被动式是 be beset by。"
-   },
-   {
-    "en": "It once meant to decorate around too.",
-    "cn": "它曾有「镶嵌环绕」之义。"
-   },
-   {
-    "en": "Compare with besieged and plagued.",
-    "cn": "对比 besieged 与 plagued。"
-   }
-  ],
-  "abstract": [
-   {
-    "en": "See shadows closing from every compass point.",
-    "cn": "看阴影从罗盘的每个方位收拢。"
-   },
-   {
-    "en": "Feel weeds gripping a lone rowboat.",
-    "cn": "感受水草缠住孤舟。"
-   },
-   {
-    "en": "Picture letters set like stones around a ring.",
-    "cn": "想象字母如宝石镶嵌在指环四周。"
-   }
-  ]
- },
- "examples": [
-  {
-   "en": "The small firm was beset by lawsuits and lost shipments.",
-   "cn": "这家小公司被官司和丢失的货物团团困扰。"
-  },
-  {
-   "en": "Guards beset the tower at every gate.",
-   "cn": "卫兵把塔楼的每一道门都围住了。"
-  },
-  {
-   "en": "The road north was beset with dangers at every turn.",
-   "cn": "北去的路处处险象环生。"
-  }
- ],
- "dict_mnemonic": {
-  "note": "谐音记忆 · 非词源",
-  "text": "「必·设它」——命运必在四周设下重重障碍，把人团团围住。",
-  "word": "beset"
- },
- "root": "前缀 be-（古英语，表「围绕施加」）加 set（古英语 settan「放置」，词根上溯至原始印欧语 sed-「坐、安置」，重构形式）；古英语 besettan「置于四周」，中古英语兼指包围、攻击与镶嵌，现代以被动式 be beset by 表「被困扰」。",
- "sensesIntro": {
-  "en": "One verb of setting-around grows from hostile siege to daily worry, with a jewel-like old sense of adornment.",
-  "cn": "一个「置于四周」的动词，从敌意的围攻长成日常的烦扰，还留有如镶宝石的旧义。"
- },
- "semanticMap": {
-  "core": {
-   "en": "CORE IMAGE: shadows closing in from every side of a small house.",
-   "cn": "核心意象：从四面八方围拢小屋的阴影。"
-  },
-  "chain": [
-   "SURROUNDING",
-   "PRESSURE",
-   "HARDSHIP",
-   "ANXIETY",
-   "ENDURANCE",
-   "ESCAPE"
-  ],
-  "branches": [
-   {
-    "senses": "01",
-    "en": "be beset by difficulties",
-    "cn": "被困难重重困扰"
-   },
-   {
-    "senses": "01",
-    "en": "be beset with doubts",
-    "cn": "疑虑缠身"
-   },
-   {
-    "senses": "01",
-    "en": "beset with dangers",
-    "cn": "险象环生"
-   },
-   {
-    "senses": "02",
-    "en": "beset on all sides",
-    "cn": "四面受敌"
-   },
-   {
-    "senses": "01 · 02",
-    "en": "a beset journey",
-    "cn": "一波三折的旅程"
-   }
-  ]
- },
- "affixes": {
-  "intro": {
-   "en": "Beset spreads the simple set into a ring of trouble.",
-   "cn": "beset 把简单的 set 铺成一圈麻烦。"
-  },
-  "latinIntro": {
-   "en": "There is no Latin base; the parts are Germanic.",
-   "cn": "这里没有拉丁词基，组成部分是日耳曼语源的。"
-  },
-  "items": [
-   {
-    "word": "settan",
-    "structure": "Old English verb",
-    "meaning": "to set, place",
-    "meaningCN": "放置",
-    "example": "settan stan",
-    "exampleCN": "放置石头"
-   },
-   {
-    "word": "besettan",
-    "structure": "be- + settan",
-    "meaning": "to set around, surround",
-    "meaningCN": "置于四周",
-    "example": "besettan þa burg",
-    "exampleCN": "围住城堡"
-   },
-   {
     "word": "beset",
-    "structure": "be- + set",
-    "meaning": "to trouble from all sides",
-    "meaningCN": "困扰；围困",
-    "example": "beset by doubts",
-    "exampleCN": "疑虑缠身"
-   },
-   {
-    "word": "besetting",
-    "structure": "beset + -ing",
-    "meaning": "habitually troubling",
-    "meaningCN": "积习难改的",
-    "example": "a besetting sin",
-    "exampleCN": "积习难改的过错"
-   },
-   {
-    "word": "offset",
-    "structure": "off- + set",
-    "meaning": "to balance against",
-    "meaningCN": "抵消",
-    "example": "offset the costs",
-    "exampleCN": "抵消成本"
-   },
-   {
-    "word": "subset",
-    "structure": "sub- + set",
-    "meaning": "a smaller group within",
-    "meaningCN": "子集",
-    "example": "a subset of data",
-    "exampleCN": "数据的子集"
-   },
-   {
-    "word": "upset",
-    "structure": "up- + set",
-    "meaning": "to overturn or distress",
-    "meaningCN": "打翻；使难过",
-    "example": "upset the plan",
-    "exampleCN": "打乱计划"
-   },
-   {
-    "word": "besiege",
-    "structure": "be- + siege",
-    "meaning": "to surround with forces",
-    "meaningCN": "围攻",
-    "example": "besieged by reporters",
-    "exampleCN": "被记者团团围住"
-   },
-   {
-    "word": "plague",
-    "structure": "Latin plaga",
-    "meaning": "to trouble continually",
-    "meaningCN": "困扰",
-    "example": "plagued by injuries",
-    "exampleCN": "饱受伤病困扰"
-   }
-  ],
-  "latinEntries": [
-   {
-    "word": "plaga",
-    "structure": "Latin noun",
-    "meaning": "a blow, misfortune; source of plague",
-    "meaningCN": "打击、灾祸；plague 的词源",
-    "example": "plaga caeli",
-    "exampleCN": "天灾"
-   }
-  ],
-  "derivatives": [
-   {
-    "word": "besetting",
-    "pos": "adj.",
-    "zh": "由现在分词转形容词，义为「积习难改的」"
-   },
-   {
-    "word": "set",
-    "pos": "v.",
-    "zh": "基础词，义为「放置」"
-   }
-  ]
- }
-}
+    "ipa_uk": "/bɪˈset/",
+    "ipa_us": "/bɪˈset/",
+    "definition_zh": "困扰；围困；包围；布满（困难等）",
+    "definition_en": "to trouble or threaten from all sides, or to surround something",
+    "core_image": "四面八方聚拢而来的阴影，把小小的屋子围在中间",
+    "scene": "仓库还没开门，麻烦已从四面八方压来。The small firm was beset by lawsuits and lost shipments.",
+    "sceneCN": "这里 beset 是「困扰、四面夹击」（第 1 个义项：被问题从各方纠缠）；句意是这家小公司被官司和丢失的货物团团困扰。",
+    "pos": [
+      {
+        "tag": "vt.",
+        "zh": "困扰；围困；使苦恼"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "be beset by difficulties",
+        "zh": "被困难重重困扰"
+      },
+      {
+        "phrase": "be beset with doubts",
+        "zh": "疑虑缠身"
+      },
+      {
+        "phrase": "beset on all sides",
+        "zh": "四面受敌"
+      },
+      {
+        "phrase": "a beset journey",
+        "zh": "一波三折的旅程"
+      },
+      {
+        "phrase": "beset with dangers",
+        "zh": "险象环生"
+      }
+    ],
+    "forms": [
+      {
+        "label": "第三人称单数",
+        "form": "besets"
+      },
+      {
+        "label": "过去式",
+        "form": "beset"
+      },
+      {
+        "label": "过去分词",
+        "form": "beset"
+      },
+      {
+        "label": "现在分词",
+        "form": "besetting"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "besetting",
+        "pos": "adj.",
+        "zh": "由现在分词转形容词，义为「不断困扰的；积习难改的」"
+      },
+      {
+        "word": "set",
+        "pos": "v.",
+        "zh": "基础词，义为「放置」，beset 由其构成"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "To trouble from all sides",
+        "titleCN": "困扰；四面夹击",
+        "definition": "to attack, harass, or worry someone or something continuously",
+        "definitionCN": "接连不断地攻击、纠缠或烦扰",
+        "example": "The small firm was beset by lawsuits and lost shipments.",
+        "exampleCN": "这家小公司被官司和丢失的货物团团困扰。",
+        "why": "Be- plus set pictures troubles set down around a thing.",
+        "whyCN": "be- 加 set，画出麻烦被安放在四周的画面。"
+      },
+      {
+        "no": "02",
+        "title": "To surround physically",
+        "titleCN": "包围；围住",
+        "definition": "to enclose or ring around, as troops or ornaments surrounding something",
+        "definitionCN": "从外面围住，可指军队包围，也可指饰物镶嵌环绕",
+        "example": "Guards beset the tower at every gate.",
+        "exampleCN": "卫兵把塔楼的每一道门都围住了。",
+        "why": "The surrounding image can be hostile or simply encircling.",
+        "whyCN": "「围住」的画面既可带敌意，也可以只是环绕。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Beset is the prefix be- plus set, to place or fix.",
+        "cn": "beset 由前缀 be- 加 set「放置」构成。"
+      },
+      "items": [
+        {
+          "era": "PROTO-INDO-EUROPEAN",
+          "en": "the root sed- meant to sit, to place oneself.",
+          "cn": "词根 sed- 意为「坐、安置」（重构形式）。"
+        },
+        {
+          "era": "OLD ENGLISH",
+          "en": "settan meant to set, to put in place.",
+          "cn": "古英语 settan 意为「放置」。"
+        },
+        {
+          "era": "OLD ENGLISH",
+          "en": "besettan meant to set around, to surround.",
+          "cn": "古英语 besettan 意为「置于四周、环绕」。"
+        },
+        {
+          "era": "MIDDLE ENGLISH",
+          "en": "besetten covered surrounding, attacking, and adorning.",
+          "cn": "中古英语 besetten 兼指包围、攻击与镶嵌。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "the passive be beset by now names being swamped by troubles.",
+          "cn": "如今被动式 be beset by 专指被麻烦缠身。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "The look-alike group shares the be- prefix or the set root; the near-meaning group gathers surrounding and troubling words.",
+        "cn": "形近组共享 be- 前缀或 set 词基；近义组汇集围困、困扰类词。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "set",
+              "ipa": "/set/",
+              "tag": "same root",
+              "definition": "to put in a place",
+              "definitionCN": "放置——beset 的词基"
+            },
+            {
+              "word": "besiege",
+              "ipa": "/bɪˈsiːdʒ/",
+              "tag": "same prefix",
+              "definition": "to surround with armed forces",
+              "definitionCN": "围攻——形近的 be- 动词"
+            },
+            {
+              "word": "offset",
+              "ipa": "/ˈɒfset/",
+              "tag": "same root",
+              "definition": "to compensate for",
+              "definitionCN": "抵消——同用 set 词基，意义不同"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "plagued",
+              "ipa": "/pleɪɡd/",
+              "tag": "near synonym",
+              "definition": "troubled continuously, as if by a disease",
+              "definitionCN": "饱受困扰的；强调持续折磨"
+            },
+            {
+              "word": "besieged",
+              "ipa": "/bɪˈsiːdʒd/",
+              "tag": "near synonym",
+              "definition": "surrounded by hostile forces or demands",
+              "definitionCN": "被围困的；强调人多势众的包围"
+            },
+            {
+              "word": "harassed",
+              "ipa": "/həˈræst/",
+              "tag": "near synonym",
+              "definition": "repeatedly troubled or worn down",
+              "definitionCN": "被烦扰的；强调反复侵扰"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Beset is be- plus set: troubles set down all around.",
+        "cn": "beset 是 be- 加 set：麻烦被安放在四面八方。"
+      },
+      "normal": [
+        {
+          "en": "The past and participle are also beset.",
+          "cn": "过去式与过去分词同为 beset。"
+        },
+        {
+          "en": "Besetting sins are habitual faults.",
+          "cn": "besetting sins 指积习难改的过错。"
+        },
+        {
+          "en": "Be beset by is the common passive.",
+          "cn": "常用被动式是 be beset by。"
+        },
+        {
+          "en": "It once meant to decorate around too.",
+          "cn": "它曾有「镶嵌环绕」之义。"
+        },
+        {
+          "en": "Compare with besieged and plagued.",
+          "cn": "对比 besieged 与 plagued。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "See shadows closing from every compass point.",
+          "cn": "看阴影从罗盘的每个方位收拢。"
+        },
+        {
+          "en": "Feel weeds gripping a lone rowboat.",
+          "cn": "感受水草缠住孤舟。"
+        },
+        {
+          "en": "Picture letters set like stones around a ring.",
+          "cn": "想象字母如宝石镶嵌在指环四周。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "The small firm was beset by lawsuits and lost shipments.",
+        "cn": "这家小公司被官司和丢失的货物团团困扰。"
+      },
+      {
+        "en": "Guards beset the tower at every gate.",
+        "cn": "卫兵把塔楼的每一道门都围住了。"
+      },
+      {
+        "en": "The road north was beset with dangers at every turn.",
+        "cn": "北去的路处处险象环生。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「必·设它」——命运必在四周设下重重障碍，把人团团围住。",
+      "word": "beset"
+    },
+    "root": "前缀 be-（古英语，表「围绕施加」）加 set（古英语 settan「放置」，词根上溯至原始印欧语 sed-「坐、安置」，重构形式）；古英语 besettan「置于四周」，中古英语兼指包围、攻击与镶嵌，现代以被动式 be beset by 表「被困扰」。",
+    "sensesIntro": {
+      "en": "One verb of setting-around grows from hostile siege to daily worry, with a jewel-like old sense of adornment.",
+      "cn": "一个「置于四周」的动词，从敌意的围攻长成日常的烦扰，还留有如镶宝石的旧义。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: shadows closing in from every side of a small house.",
+        "cn": "核心意象：从四面八方围拢小屋的阴影。"
+      },
+      "chain": [
+        "SURROUNDING",
+        "PRESSURE",
+        "HARDSHIP",
+        "ANXIETY",
+        "ENDURANCE",
+        "ESCAPE"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "be beset by difficulties",
+          "cn": "被困难重重困扰"
+        },
+        {
+          "senses": "01",
+          "en": "be beset with doubts",
+          "cn": "疑虑缠身"
+        },
+        {
+          "senses": "01",
+          "en": "beset with dangers",
+          "cn": "险象环生"
+        },
+        {
+          "senses": "02",
+          "en": "beset on all sides",
+          "cn": "四面受敌"
+        },
+        {
+          "senses": "01 · 02",
+          "en": "a beset journey",
+          "cn": "一波三折的旅程"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Beset spreads the simple set into a ring of trouble.",
+        "cn": "beset 把简单的 set 铺成一圈麻烦。"
+      },
+      "latinIntro": {
+        "en": "There is no Latin base; the parts are Germanic.",
+        "cn": "这里没有拉丁词基，组成部分是日耳曼语源的。"
+      },
+      "items": [
+        {
+          "word": "settan",
+          "structure": "Old English verb",
+          "meaning": "to set, place",
+          "meaningCN": "放置",
+          "example": "settan stan",
+          "exampleCN": "放置石头"
+        },
+        {
+          "word": "besettan",
+          "structure": "be- + settan",
+          "meaning": "to set around, surround",
+          "meaningCN": "置于四周",
+          "example": "besettan þa burg",
+          "exampleCN": "围住城堡"
+        },
+        {
+          "word": "beset",
+          "structure": "be- + set",
+          "meaning": "to trouble from all sides",
+          "meaningCN": "困扰；围困",
+          "example": "beset by doubts",
+          "exampleCN": "疑虑缠身"
+        },
+        {
+          "word": "besetting",
+          "structure": "beset + -ing",
+          "meaning": "habitually troubling",
+          "meaningCN": "积习难改的",
+          "example": "a besetting sin",
+          "exampleCN": "积习难改的过错"
+        },
+        {
+          "word": "offset",
+          "structure": "off- + set",
+          "meaning": "to balance against",
+          "meaningCN": "抵消",
+          "example": "offset the costs",
+          "exampleCN": "抵消成本"
+        },
+        {
+          "word": "subset",
+          "structure": "sub- + set",
+          "meaning": "a smaller group within",
+          "meaningCN": "子集",
+          "example": "a subset of data",
+          "exampleCN": "数据的子集"
+        },
+        {
+          "word": "upset",
+          "structure": "up- + set",
+          "meaning": "to overturn or distress",
+          "meaningCN": "打翻；使难过",
+          "example": "upset the plan",
+          "exampleCN": "打乱计划"
+        },
+        {
+          "word": "besiege",
+          "structure": "be- + siege",
+          "meaning": "to surround with forces",
+          "meaningCN": "围攻",
+          "example": "besieged by reporters",
+          "exampleCN": "被记者团团围住"
+        },
+        {
+          "word": "plague",
+          "structure": "Latin plaga",
+          "meaning": "to trouble continually",
+          "meaningCN": "困扰",
+          "example": "plagued by injuries",
+          "exampleCN": "饱受伤病困扰"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "plaga",
+          "structure": "Latin noun",
+          "meaning": "a blow, misfortune; source of plague",
+          "meaningCN": "打击、灾祸；plague 的词源",
+          "example": "plaga caeli",
+          "exampleCN": "天灾"
+        }
+      ],
+      "derivatives": [
+        {
+          "word": "besetting",
+          "pos": "adj.",
+          "zh": "由现在分词转形容词，义为「积习难改的」"
+        },
+        {
+          "word": "set",
+          "pos": "v.",
+          "zh": "基础词，义为「放置」"
+        }
+      ]
+    }
+  }
+]

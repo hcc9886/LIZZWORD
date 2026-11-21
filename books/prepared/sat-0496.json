@@ -1,155 +1,431 @@
-{
-  "word": "bursar",
-  "ipa_uk": "/ˈbɜːsə/",
-  "ipa_us": "/ˈbɜːrsər/",
-  "definition_zh": "（学校）财务主管；（英国大学）司库；学费奖学金领取者",
-  "definition_en": "the officer in charge of money at a school or college; also a student holding a bursary",
-  "core_image": "账房里管钱袋的先生，钥匙串在腰间叮当作响",
-  "scene": "学院账房里，管钱的先生正核对一叠账单。The bursar approved the budget for the new library.",
-  "sceneCN": "这里 bursar 是「财务主管、司库」（第 1 个义项：负责学校钱账的职员）；句意是这位司库批准了新图书馆的预算。",
-  "pos": [
-    { "tag": "n.", "zh": "（学校、学院的）财务主管；司库" },
-    { "tag": "n.", "zh": "领取助学金（奖学金）的学生" }
-  ],
-  "collocations": [
-    { "phrase": "the college bursar", "zh": "学院司库" },
-    { "phrase": "the bursar's office", "zh": "财务处" },
-    { "phrase": "as a bursar", "zh": "以奖学金生身份" },
-    { "phrase": "pay the bursar", "zh": "向财务主管缴费" },
-    { "phrase": "act as bursar", "zh": "担任财务主管" }
-  ],
-  "forms": [
-    { "label": "复数", "form": "bursars" }
-  ],
-  "derivatives": [
-    { "word": "bursary", "pos": "n.", "zh": "由 bursar 加 -y 构成，义为「助学金；奖学金」" },
-    { "word": "bursa", "pos": "n.", "zh": "同源拉丁词，本义「钱袋」，医学中指「滑囊」" },
-    { "word": "reimburse", "pos": "v.", "zh": "由 re- 加同源词根构成，义为「偿还，报销」" }
-  ],
-  "senses": [
-    {
-      "no": "01",
-      "title": "The money officer of a school or college",
-      "titleCN": "财务主管；司库",
-      "definition": "the official responsible for the finances and accounts of a school, college or similar institution",
-      "definitionCN": "负责学校、学院等机构财务与账目的职员",
-      "example": "The bursar signed off every payment the college made.",
-      "exampleCN": "学院的每笔付款都由司库签字核准。",
-      "why": "The word comes from the purse that held the money, and the officer keeps that purse.",
-      "whyCN": "这个词来自装钱的钱袋，主管就是守住钱袋的人。"
-    },
-    {
-      "no": "02",
-      "title": "A student who holds a bursary",
-      "titleCN": "助学金（奖学金）领取者",
-      "definition": "a student whose studies are paid for by a grant or scholarship, especially at a British school",
-      "definitionCN": "由补助金或奖学金资助学业的学生，多见于英国学校",
-      "example": "He entered the school as a bursar with his fees fully paid.",
-      "exampleCN": "他以奖学金生的身份入学，学费全免。",
-      "why": "The purse that pays the institution also pays the student, so the funded learner takes the purse's name.",
-      "whyCN": "钱袋既供机构开销，也资助学生，受助者便以钱袋为名。"
-    },
-    {
-      "no": "03",
-      "title": "A manager of a monastery's temporal affairs",
-      "titleCN": "（旧时修道院的）庶务管事",
-      "definition": "in some religious houses, the monk appointed to manage property and money matters",
-      "definitionCN": "在某些修会中受命管理财产与钱财事务的修士",
-      "example": "The old bursar kept the abbey's ledgers in careful order.",
-      "exampleCN": "老管事把修道院的账簿整理得井井有条。",
-      "why": "Monasteries ran large estates, so they needed a purse-keeper of their own.",
-      "whyCN": "修道院经营大量产业，同样需要一位管钱袋的人。"
-    }
-  ],
-  "etymology": {
-    "intro": { "en": "Bursar goes back to a Late Latin word for a bag or purse, the holder of money.", "cn": "bursar 源自后期拉丁语中指袋子、钱袋的词，即掌管钱财之人。" },
-    "items": [
-      { "era": "LATE LATIN", "en": "bursa meant a bag made of hide, later a purse of money.", "cn": "后期拉丁语 bursa 指皮革做的袋子，后指钱袋。" },
-      { "era": "MEDIEVAL LATIN", "en": "bursarius named the officer who kept the purse of an institution.", "cn": "中世纪拉丁语 bursarius 指为机构掌管钱袋的职员。" },
-      { "era": "OLD FRENCH", "en": "boussiere and bourser carried the purse sense into French.", "cn": "古法语 boussiere、bourser 把钱袋义带入法语。" },
-      { "era": "ENGLISH, 16TH–17TH C.", "en": "bursar entered English for the finance officer of a college, then for a funded student.", "cn": "十六至十七世纪 bursar 进入英语，先指学院财务官，后指受助学生。" },
-      { "era": "MODERN ENGLISH", "en": "The academic senses survive, while the related bursary names the grant itself.", "cn": "如今学校义项保留，同族的 bursary 指助学金本身。" }
-    ]
-  },
-  "similar": {
-    "note": { "en": "The look-alike group shares the purse root; the near-meaning group lists other money-handling roles.", "cn": "形近组同出「钱袋」词根；近义组是其他管钱的角色。" },
-    "groups": [
+[
+  {
+    "word": "bursar",
+    "ipa_uk": "/ˈbɜːsə/",
+    "ipa_us": "/ˈbɜːrsər/",
+    "definition_zh": "（学校）财务主管；（英国大学）司库；学费奖学金领取者",
+    "definition_en": "the officer in charge of money at a school or college; also a student holding a bursary",
+    "core_image": "账房里管钱袋的先生，钥匙串在腰间叮当作响",
+    "scene": "学院账房里，管钱的先生正核对一叠账单。The bursar approved the budget for the new library.",
+    "sceneCN": "这里 bursar 是「财务主管、司库」（第 1 个义项：负责学校钱账的职员）；句意是这位司库批准了新图书馆的预算。",
+    "pos": [
       {
-        "heading": "LOOK-ALIKE",
-        "entries": [
-          { "word": "bursary", "ipa": "/ˈbɜːsəri/", "tag": "derived form", "definition": "a grant of money for a student", "definitionCN": "助学金，bursar 的同族名词" },
-          { "word": "bursa", "ipa": "/ˈbɜːsə/", "tag": "same root", "definition": "a fluid-filled sac in the body, originally a purse", "definitionCN": "滑囊，本义钱袋，词源同源" },
-          { "word": "disburse", "ipa": "/dɪsˈbɜːs/", "tag": "same root", "definition": "to pay money out from a fund", "definitionCN": "支出，支付，同出钱袋词根" },
-          { "word": "reimburse", "ipa": "/ˌriːɪmˈbɜːs/", "tag": "same root", "definition": "to pay back money spent", "definitionCN": "偿还，报销，字面义「再装入钱袋」" }
-        ]
+        "tag": "n.",
+        "zh": "（学校、学院的）财务主管；司库"
       },
       {
-        "heading": "NEAR MEANING",
-        "entries": [
-          { "word": "treasurer", "ipa": "/ˈtreʒərə/", "tag": "near meaning", "definition": "a person who manages an organisation's money", "definitionCN": "司库，管理组织财务的人" },
-          { "word": "accountant", "ipa": "/əˈkaʊntənt/", "tag": "near meaning", "definition": "a professional keeper of accounts", "definitionCN": "会计师，专职记账者" },
-          { "word": "bailiff", "ipa": "/ˈbeɪlɪf/", "tag": "related", "definition": "an officer who manages an estate for its owner", "definitionCN": "（地产）管事，为业主管理产业" },
-          { "word": "registrar", "ipa": "/ˌredʒɪˈstrɑː/", "tag": "related", "definition": "a college officer keeping official records", "definitionCN": "注册主任，管理学籍档案的职员" }
-        ]
+        "tag": "n.",
+        "zh": "领取助学金（奖学金）的学生"
       }
-    ]
-  },
-  "mnemonics": {
-    "normalIntro": { "en": "Follow the purse: whoever holds it, in the office or in class, is the bursar.", "cn": "盯住钱袋：无论在账房还是在课堂，握钱袋者即 bursar。" },
-    "normal": [
-      { "en": "The root bursa means purse, the bag of money.", "cn": "词根 bursa 意为钱袋，装钱的袋子。" },
-      { "en": "Disburse means to let money out of the purse.", "cn": "disburse 指把钱从钱袋里发放出去。" },
-      { "en": "Reimburse literally means to fill the purse again.", "cn": "reimburse 字面义是「重新装满钱袋」，即偿还。" },
-      { "en": "Bursary is the purse given to a funded student.", "cn": "bursary 是发给受助学生的那只钱袋。" },
-      { "en": "In anatomy bursa kept the bag meaning as a sac.", "cn": "解剖学里 bursa 保留「袋」义，指滑囊。" }
     ],
-    "abstract": [
-      { "en": "Hear the jangle of keys on a purse-laden belt.", "cn": "听腰间挂着钱袋的钥匙串叮当作响。" },
-      { "en": "See the ledger open and the seal pressed on each page.", "cn": "看账簿翻开，每页都盖了印。" },
-      { "en": "Picture a scholar whose fees arrive in a small purse.", "cn": "想象一名学生，他的学费装在一只小钱袋里送来。" }
-    ]
-  },
-  "examples": [
-    { "en": "The bursar explained the fee increase to the parents.", "cn": "财务主管向家长们解释了涨费的原因。" },
-    { "en": "She won a place at the school as a bursar.", "cn": "她以奖学金生的身份获得了这所学校的名额。" },
-    { "en": "Disbursements from the fund are authorised by the bursar.", "cn": "基金支出均由财务主管核准。" }
-  ],
-  "dict_mnemonic": { "note": "谐音记忆 · 非词源", "text": "「拨色儿」——司库管钱，要给各院系「拨」款，还得「审」账目，颜色分明的账本一拨一审。", "word": "bursar" },
-  "root": "bursar 源自后期拉丁语 bursa「皮袋，钱袋」，中世纪拉丁语 bursarius 指为机构管钱袋的职员；同族词 disburse（支出）、reimburse（偿还，字面「再入袋」）、bursary（助学金）都围着这只钱袋展开。",
-  "sensesIntro": { "en": "From a Latin purse comes the keeper of a college's money, the student paid from that purse, and the old monastery's steward.", "cn": "从一只拉丁钱袋长出三个义项：学院管钱的司库、从钱袋受助的学生，以及旧时修道院的庶务管事。" },
-  "semanticMap": {
-    "core": { "en": "CORE IMAGE: a purse of money kept behind the office door.", "cn": "核心意象：账房门后守着的一只钱袋。" },
-    "chain": ["PURSE", "KEEPING", "ACCOUNTS", "INSTITUTION", "GRANT", "STUDENT"],
-    "branches": [
-      { "senses": "01", "en": "the bursar's office pays the bills", "cn": "财务处支付账单" },
-      { "senses": "01", "en": "the college bursar signs every cheque", "cn": "学院司库签署每张支票" },
-      { "senses": "02", "en": "a bursar whose fees are fully funded", "cn": "学费全免的奖学金生" },
-      { "senses": "02 · 01", "en": "bursar and bursary, holder and grant", "cn": "bursar 与 bursary：领钱人与那笔钱" },
-      { "senses": "03", "en": "the monastery bursar managing the estates", "cn": "修道院管事打理产业" }
-    ]
-  },
-  "affixes": {
-    "intro": { "en": "Bursar carries the Latin purse root with the agent ending, and its family all move money in or out of the bag.", "cn": "bursar 带着拉丁「钱袋」词根加施动者词尾，其同族词都围绕钱袋进出。" },
-    "latinIntro": { "en": "Late Latin bursa, a hide bag, is the shared root of the whole family.", "cn": "后期拉丁语 bursa（皮袋）是整个词族的共同词根。" },
-    "items": [
-      { "word": "bursa", "structure": "Late Latin noun", "meaning": "a hide bag, a purse", "meaningCN": "皮袋；钱袋", "example": "bursa full of coin", "exampleCN": "装满钱币的袋子" },
-      { "word": "bursarius", "structure": "bursa + -arius", "meaning": "keeper of the purse", "meaningCN": "掌管钱袋者", "example": "bursarius collegii", "exampleCN": "学院的司库（中世纪拉丁语）" },
-      { "word": "bursar", "structure": "bursa + -ar", "meaning": "a college finance officer", "meaningCN": "学院财务主管", "example": "the bursar of a college", "exampleCN": "学院司库" },
-      { "word": "bursary", "structure": "bursar + -y", "meaning": "a student grant", "meaningCN": "助学金", "example": "a means-tested bursary", "exampleCN": "按需发放的助学金" },
-      { "word": "disburse", "structure": "dis- + burs(e)", "meaning": "to pay out of a fund", "meaningCN": "支出；拨付", "example": "disburse the funds", "exampleCN": "拨付资金" },
-      { "word": "reimburse", "structure": "re- + im- + burs(e)", "meaning": "to pay back, refill the purse", "meaningCN": "偿还；报销", "example": "reimburse the expenses", "exampleCN": "报销费用" },
-      { "word": "bursa", "structure": "anatomical borrowing", "meaning": "a fluid-filled sac", "meaningCN": "滑囊", "example": "inflammation of the bursa", "exampleCN": "滑囊发炎" },
-      { "word": "burser", "structure": "obsolete variant", "meaning": "a treasurer, older spelling", "meaningCN": "司库（旧拼法）", "example": "the burser of the guild", "exampleCN": "行会的司库（旧用法）" },
-      { "word": "treasurer", "structure": "treasure + -er", "meaning": "a keeper of funds, parallel role", "meaningCN": "司库（平行角色）", "example": "the club treasurer", "exampleCN": "俱乐部司库" }
+    "collocations": [
+      {
+        "phrase": "the college bursar",
+        "zh": "学院司库"
+      },
+      {
+        "phrase": "the bursar's office",
+        "zh": "财务处"
+      },
+      {
+        "phrase": "as a bursar",
+        "zh": "以奖学金生身份"
+      },
+      {
+        "phrase": "pay the bursar",
+        "zh": "向财务主管缴费"
+      },
+      {
+        "phrase": "act as bursar",
+        "zh": "担任财务主管"
+      }
     ],
-    "latinEntries": [
-      { "word": "bursa", "structure": "Late Latin noun (f.)", "meaning": "a leather bag, a purse", "meaningCN": "皮袋；钱袋" },
-      { "word": "bursarius", "structure": "Medieval Latin noun", "meaning": "purse-keeper, bursar", "meaningCN": "管钱袋者；司库" }
+    "forms": [
+      {
+        "label": "复数",
+        "form": "bursars"
+      }
     ],
     "derivatives": [
-      { "word": "bursary", "pos": "n.", "zh": "助学金" },
-      { "word": "disburse", "pos": "v.", "zh": "支出；拨付" },
-      { "word": "reimburse", "pos": "v.", "zh": "偿还；报销" }
-    ]
+      {
+        "word": "bursary",
+        "pos": "n.",
+        "zh": "由 bursar 加 -y 构成，义为「助学金；奖学金」"
+      },
+      {
+        "word": "bursa",
+        "pos": "n.",
+        "zh": "同源拉丁词，本义「钱袋」，医学中指「滑囊」"
+      },
+      {
+        "word": "reimburse",
+        "pos": "v.",
+        "zh": "由 re- 加同源词根构成，义为「偿还，报销」"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "The money officer of a school or college",
+        "titleCN": "财务主管；司库",
+        "definition": "the official responsible for the finances and accounts of a school, college or similar institution",
+        "definitionCN": "负责学校、学院等机构财务与账目的职员",
+        "example": "The bursar signed off every payment the college made.",
+        "exampleCN": "学院的每笔付款都由司库签字核准。",
+        "why": "The word comes from the purse that held the money, and the officer keeps that purse.",
+        "whyCN": "这个词来自装钱的钱袋，主管就是守住钱袋的人。"
+      },
+      {
+        "no": "02",
+        "title": "A student who holds a bursary",
+        "titleCN": "助学金（奖学金）领取者",
+        "definition": "a student whose studies are paid for by a grant or scholarship, especially at a British school",
+        "definitionCN": "由补助金或奖学金资助学业的学生，多见于英国学校",
+        "example": "He entered the school as a bursar with his fees fully paid.",
+        "exampleCN": "他以奖学金生的身份入学，学费全免。",
+        "why": "The purse that pays the institution also pays the student, so the funded learner takes the purse's name.",
+        "whyCN": "钱袋既供机构开销，也资助学生，受助者便以钱袋为名。"
+      },
+      {
+        "no": "03",
+        "title": "A manager of a monastery's temporal affairs",
+        "titleCN": "（旧时修道院的）庶务管事",
+        "definition": "in some religious houses, the monk appointed to manage property and money matters",
+        "definitionCN": "在某些修会中受命管理财产与钱财事务的修士",
+        "example": "The old bursar kept the abbey's ledgers in careful order.",
+        "exampleCN": "老管事把修道院的账簿整理得井井有条。",
+        "why": "Monasteries ran large estates, so they needed a purse-keeper of their own.",
+        "whyCN": "修道院经营大量产业，同样需要一位管钱袋的人。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Bursar goes back to a Late Latin word for a bag or purse, the holder of money.",
+        "cn": "bursar 源自后期拉丁语中指袋子、钱袋的词，即掌管钱财之人。"
+      },
+      "items": [
+        {
+          "era": "LATE LATIN",
+          "en": "bursa meant a bag made of hide, later a purse of money.",
+          "cn": "后期拉丁语 bursa 指皮革做的袋子，后指钱袋。"
+        },
+        {
+          "era": "MEDIEVAL LATIN",
+          "en": "bursarius named the officer who kept the purse of an institution.",
+          "cn": "中世纪拉丁语 bursarius 指为机构掌管钱袋的职员。"
+        },
+        {
+          "era": "OLD FRENCH",
+          "en": "boussiere and bourser carried the purse sense into French.",
+          "cn": "古法语 boussiere、bourser 把钱袋义带入法语。"
+        },
+        {
+          "era": "ENGLISH, 16TH–17TH C.",
+          "en": "bursar entered English for the finance officer of a college, then for a funded student.",
+          "cn": "十六至十七世纪 bursar 进入英语，先指学院财务官，后指受助学生。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "The academic senses survive, while the related bursary names the grant itself.",
+          "cn": "如今学校义项保留，同族的 bursary 指助学金本身。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "The look-alike group shares the purse root; the near-meaning group lists other money-handling roles.",
+        "cn": "形近组同出「钱袋」词根；近义组是其他管钱的角色。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "bursary",
+              "ipa": "/ˈbɜːsəri/",
+              "tag": "derived form",
+              "definition": "a grant of money for a student",
+              "definitionCN": "助学金，bursar 的同族名词"
+            },
+            {
+              "word": "bursa",
+              "ipa": "/ˈbɜːsə/",
+              "tag": "same root",
+              "definition": "a fluid-filled sac in the body, originally a purse",
+              "definitionCN": "滑囊，本义钱袋，词源同源"
+            },
+            {
+              "word": "disburse",
+              "ipa": "/dɪsˈbɜːs/",
+              "tag": "same root",
+              "definition": "to pay money out from a fund",
+              "definitionCN": "支出，支付，同出钱袋词根"
+            },
+            {
+              "word": "reimburse",
+              "ipa": "/ˌriːɪmˈbɜːs/",
+              "tag": "same root",
+              "definition": "to pay back money spent",
+              "definitionCN": "偿还，报销，字面义「再装入钱袋」"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "treasurer",
+              "ipa": "/ˈtreʒərə/",
+              "tag": "near meaning",
+              "definition": "a person who manages an organisation's money",
+              "definitionCN": "司库，管理组织财务的人"
+            },
+            {
+              "word": "accountant",
+              "ipa": "/əˈkaʊntənt/",
+              "tag": "near meaning",
+              "definition": "a professional keeper of accounts",
+              "definitionCN": "会计师，专职记账者"
+            },
+            {
+              "word": "bailiff",
+              "ipa": "/ˈbeɪlɪf/",
+              "tag": "related",
+              "definition": "an officer who manages an estate for its owner",
+              "definitionCN": "（地产）管事，为业主管理产业"
+            },
+            {
+              "word": "registrar",
+              "ipa": "/ˌredʒɪˈstrɑː/",
+              "tag": "related",
+              "definition": "a college officer keeping official records",
+              "definitionCN": "注册主任，管理学籍档案的职员"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Follow the purse: whoever holds it, in the office or in class, is the bursar.",
+        "cn": "盯住钱袋：无论在账房还是在课堂，握钱袋者即 bursar。"
+      },
+      "normal": [
+        {
+          "en": "The root bursa means purse, the bag of money.",
+          "cn": "词根 bursa 意为钱袋，装钱的袋子。"
+        },
+        {
+          "en": "Disburse means to let money out of the purse.",
+          "cn": "disburse 指把钱从钱袋里发放出去。"
+        },
+        {
+          "en": "Reimburse literally means to fill the purse again.",
+          "cn": "reimburse 字面义是「重新装满钱袋」，即偿还。"
+        },
+        {
+          "en": "Bursary is the purse given to a funded student.",
+          "cn": "bursary 是发给受助学生的那只钱袋。"
+        },
+        {
+          "en": "In anatomy bursa kept the bag meaning as a sac.",
+          "cn": "解剖学里 bursa 保留「袋」义，指滑囊。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "Hear the jangle of keys on a purse-laden belt.",
+          "cn": "听腰间挂着钱袋的钥匙串叮当作响。"
+        },
+        {
+          "en": "See the ledger open and the seal pressed on each page.",
+          "cn": "看账簿翻开，每页都盖了印。"
+        },
+        {
+          "en": "Picture a scholar whose fees arrive in a small purse.",
+          "cn": "想象一名学生，他的学费装在一只小钱袋里送来。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "The bursar explained the fee increase to the parents.",
+        "cn": "财务主管向家长们解释了涨费的原因。"
+      },
+      {
+        "en": "She won a place at the school as a bursar.",
+        "cn": "她以奖学金生的身份获得了这所学校的名额。"
+      },
+      {
+        "en": "Disbursements from the fund are authorised by the bursar.",
+        "cn": "基金支出均由财务主管核准。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「拨色儿」——司库管钱，要给各院系「拨」款，还得「审」账目，颜色分明的账本一拨一审。",
+      "word": "bursar"
+    },
+    "root": "bursar 源自后期拉丁语 bursa「皮袋，钱袋」，中世纪拉丁语 bursarius 指为机构管钱袋的职员；同族词 disburse（支出）、reimburse（偿还，字面「再入袋」）、bursary（助学金）都围着这只钱袋展开。",
+    "sensesIntro": {
+      "en": "From a Latin purse comes the keeper of a college's money, the student paid from that purse, and the old monastery's steward.",
+      "cn": "从一只拉丁钱袋长出三个义项：学院管钱的司库、从钱袋受助的学生，以及旧时修道院的庶务管事。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: a purse of money kept behind the office door.",
+        "cn": "核心意象：账房门后守着的一只钱袋。"
+      },
+      "chain": [
+        "PURSE",
+        "KEEPING",
+        "ACCOUNTS",
+        "INSTITUTION",
+        "GRANT",
+        "STUDENT"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "the bursar's office pays the bills",
+          "cn": "财务处支付账单"
+        },
+        {
+          "senses": "01",
+          "en": "the college bursar signs every cheque",
+          "cn": "学院司库签署每张支票"
+        },
+        {
+          "senses": "02",
+          "en": "a bursar whose fees are fully funded",
+          "cn": "学费全免的奖学金生"
+        },
+        {
+          "senses": "02 · 01",
+          "en": "bursar and bursary, holder and grant",
+          "cn": "bursar 与 bursary：领钱人与那笔钱"
+        },
+        {
+          "senses": "03",
+          "en": "the monastery bursar managing the estates",
+          "cn": "修道院管事打理产业"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Bursar carries the Latin purse root with the agent ending, and its family all move money in or out of the bag.",
+        "cn": "bursar 带着拉丁「钱袋」词根加施动者词尾，其同族词都围绕钱袋进出。"
+      },
+      "latinIntro": {
+        "en": "Late Latin bursa, a hide bag, is the shared root of the whole family.",
+        "cn": "后期拉丁语 bursa（皮袋）是整个词族的共同词根。"
+      },
+      "items": [
+        {
+          "word": "bursa",
+          "structure": "Late Latin noun",
+          "meaning": "a hide bag, a purse",
+          "meaningCN": "皮袋；钱袋",
+          "example": "bursa full of coin",
+          "exampleCN": "装满钱币的袋子"
+        },
+        {
+          "word": "bursarius",
+          "structure": "bursa + -arius",
+          "meaning": "keeper of the purse",
+          "meaningCN": "掌管钱袋者",
+          "example": "bursarius collegii",
+          "exampleCN": "学院的司库（中世纪拉丁语）"
+        },
+        {
+          "word": "bursar",
+          "structure": "bursa + -ar",
+          "meaning": "a college finance officer",
+          "meaningCN": "学院财务主管",
+          "example": "the bursar of a college",
+          "exampleCN": "学院司库"
+        },
+        {
+          "word": "bursary",
+          "structure": "bursar + -y",
+          "meaning": "a student grant",
+          "meaningCN": "助学金",
+          "example": "a means-tested bursary",
+          "exampleCN": "按需发放的助学金"
+        },
+        {
+          "word": "disburse",
+          "structure": "dis- + burs(e)",
+          "meaning": "to pay out of a fund",
+          "meaningCN": "支出；拨付",
+          "example": "disburse the funds",
+          "exampleCN": "拨付资金"
+        },
+        {
+          "word": "reimburse",
+          "structure": "re- + im- + burs(e)",
+          "meaning": "to pay back, refill the purse",
+          "meaningCN": "偿还；报销",
+          "example": "reimburse the expenses",
+          "exampleCN": "报销费用"
+        },
+        {
+          "word": "bursa",
+          "structure": "anatomical borrowing",
+          "meaning": "a fluid-filled sac",
+          "meaningCN": "滑囊",
+          "example": "inflammation of the bursa",
+          "exampleCN": "滑囊发炎"
+        },
+        {
+          "word": "burser",
+          "structure": "obsolete variant",
+          "meaning": "a treasurer, older spelling",
+          "meaningCN": "司库（旧拼法）",
+          "example": "the burser of the guild",
+          "exampleCN": "行会的司库（旧用法）"
+        },
+        {
+          "word": "treasurer",
+          "structure": "treasure + -er",
+          "meaning": "a keeper of funds, parallel role",
+          "meaningCN": "司库（平行角色）",
+          "example": "the club treasurer",
+          "exampleCN": "俱乐部司库"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "bursa",
+          "structure": "Late Latin noun (f.)",
+          "meaning": "a leather bag, a purse",
+          "meaningCN": "皮袋；钱袋"
+        },
+        {
+          "word": "bursarius",
+          "structure": "Medieval Latin noun",
+          "meaning": "purse-keeper, bursar",
+          "meaningCN": "管钱袋者；司库"
+        }
+      ],
+      "derivatives": [
+        {
+          "word": "bursary",
+          "pos": "n.",
+          "zh": "助学金"
+        },
+        {
+          "word": "disburse",
+          "pos": "v.",
+          "zh": "支出；拨付"
+        },
+        {
+          "word": "reimburse",
+          "pos": "v.",
+          "zh": "偿还；报销"
+        }
+      ]
+    }
   }
-}
+]

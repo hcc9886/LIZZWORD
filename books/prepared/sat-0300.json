@@ -1,502 +1,504 @@
-{
-  "word": "authenticity",
-  "ipa_uk": "/ˌɔːθenˈtɪsəti/",
-  "ipa_us": "/ˌɑːθenˈtɪsəti/",
-  "definition_zh": "真实性；可靠性；真品性；正宗性；本真；真诚；权威性（古义）；原真性；认证有效性",
-  "definition_en": "the quality of being true, trustworthy, or genuinely from the source claimed, whether in a statement, an object, a place, or a person",
-  "core_image": "一枚旧印章压在纸上：纸会旧、字会淡，但印痕仍证明它出自该出的人之手",
-  "scene": "展灯下，策展人俯身灯前，对观众缓缓说道。A curator under a lamp says: People ask about authenticity, but what they really want is a reason to believe the story.",
-  "sceneCN": "这里 authenticity 指「真实性、真品性」（第 1 个义项、第 3 个义项：内容与事实相符、物件非伪造）；句意：人们问的是真伪，其实想要的是一个相信这个故事的理由。画面里有放大镜、旧画框和一枚印章。",
-  "pos": [
-    {
-      "tag": "n.",
-      "zh": "真实性；可靠性；真品性；正宗性；本真"
-    }
-  ],
-  "collocations": [
-    {
-      "phrase": "verify authenticity",
-      "zh": "验证真伪"
-    },
-    {
-      "phrase": "the authenticity of a document",
-      "zh": "文件的真实性"
-    },
-    {
-      "phrase": "a sense of authenticity",
-      "zh": "真实感；本真感"
-    },
-    {
-      "phrase": "cultural authenticity",
-      "zh": "文化上的正宗性"
-    },
-    {
-      "phrase": "authenticity of a signature",
-      "zh": "签名的真实性"
-    }
-  ],
-  "forms": [
-    {
-      "label": "复数",
-      "form": "authenticities"
-    }
-  ],
-  "derivatives": [
-    {
-      "word": "authentic",
-      "pos": "adj.",
-      "zh": "真正的；地道的；可信的"
-    },
-    {
-      "word": "authentically",
-      "pos": "adv.",
-      "zh": "真实地；地道地"
-    },
-    {
-      "word": "authenticate",
-      "pos": "v.",
-      "zh": "验证；证明为真"
-    },
-    {
-      "word": "authentication",
-      "pos": "n.",
-      "zh": "认证；身份验证"
-    },
-    {
-      "word": "inauthenticity",
-      "pos": "n.",
-      "zh": "不真实；虚假"
-    }
-  ],
-  "senses": [
-    {
-      "no": "01",
-      "title": "True to the facts",
-      "titleCN": "真实性：与事实对得上",
-      "definition": "the quality of being true to the facts, not invented or false",
-      "definitionCN": "与事实相符、并非编造或虚假的性质",
-      "example": "Historians questioned the authenticity of the diary's later pages.",
-      "exampleCN": "历史学家质疑这本日记后几页的真实性。",
-      "why": "-ity makes an abstract noun of authentic, whose Greek source authentikos came from authentes 'one who acts on his own authority'. Truth here is imagined as a warrant held by the person who was actually there.",
-      "whyCN": "-ity 把 authentic 变成抽象名词；其希腊语来源 authentikos 出自 authentes「凭自己权威行事的人」。这里的「真」被想象成当事人手里握着的一份凭证。"
-    },
-    {
-      "no": "02",
-      "title": "Worthy of belief",
-      "titleCN": "可靠性：值得相信",
-      "definition": "the quality of deserving belief or trust",
-      "definitionCN": "值得相信或信赖的性质",
-      "example": "The witness's authenticity was never in doubt.",
-      "exampleCN": "这名证人的可靠性从未受到怀疑。",
-      "why": "Authentic meant 'authoritative, duly authorized' in mid-14th-century English before it meant 'factual'. The credibility sense still carries that residue: a claim is believed because its source is entitled to speak.",
-      "whyCN": "14 世纪中叶的英语里，authentic 先指「有权威、经正式授权的」，后来才指「符合事实」。可信义仍带着这层残余：一个说法被相信，是因为它的来源有权说话。"
-    },
-    {
-      "no": "03",
-      "title": "The original object",
-      "titleCN": "真品性：不是复制品",
-      "definition": "the quality of being the original object, not a copy or forgery",
-      "definitionCN": "是原件而非复制品或伪造品的性质",
-      "example": "Experts spent months confirming the authenticity of the painting.",
-      "exampleCN": "专家花了几个月确认这幅画的真伪。",
-      "why": "Medieval Latin authenticus named a document with legal force; a sealed original proved itself. Applied to objects, the word asks whether this is the very thing, not a stand-in.",
-      "whyCN": "中世纪拉丁语 authenticus 指具有法律效力的文件；盖了印的原件能自证。用到物品上，这个词问的是「是不是就是这一件」，而不是替身。"
-    },
-    {
-      "no": "04",
-      "title": "Faithful to a place",
-      "titleCN": "正宗性：照着当地原样做",
-      "definition": "the quality of following the original regional method or recipe",
-      "definitionCN": "遵循原产地做法或配方的性质",
-      "example": "The restaurant's authenticity rests on its wood-fired oven and local flour.",
-      "exampleCN": "这家餐厅的正宗性靠的是柴火烤炉和本地面粉。",
-      "why": "When a practice travels, 'original' becomes 'local and unchanged'. The noun then praises fidelity to a place's own way rather than to a document.",
-      "whyCN": "一种做法流传出去后，「原初」就变成「当地且未改」。这个词于是称赞对某地自身做法的忠实，而不是对一份文件的忠实。"
-    },
-    {
-      "no": "05",
-      "title": "The authentic self",
-      "titleCN": "本真：做自己的那个人",
-      "definition": "the quality of living or acting in accordance with one's own character and values",
-      "definitionCN": "按自己的性格与价值生活或行动的性质",
-      "example": "Her essays are valued for their emotional authenticity.",
-      "exampleCN": "她的随笔因情感本真而受重视。",
-      "why": "Existential writers took 'acting on one's own authority' literally: an authentic person is one whose acts are their own, not borrowed. Authenticity becomes self-authorship.",
-      "whyCN": "存在主义作家把「凭自己权威行事」按字面理解：本真的人，其行为出于自己，而非借来。authenticity 于是成了「自己写自己」。"
-    },
-    {
-      "no": "06",
-      "title": "Unforced feeling",
-      "titleCN": "真诚：不演出来的情绪",
-      "definition": "the quality of expressing feelings without pretence",
-      "definitionCN": "不带伪装地表达情感的性质",
-      "example": "There was an authenticity in his apology that no polished speech could match.",
-      "exampleCN": "他的道歉里有一种真诚，是任何漂亮辞令都比不上的。",
-      "why": "The social sense narrows the existential one: if the feeling comes from the self, it shows. Genuine and authentic overlap here, though genuine stresses origin and authentic stresses warrant.",
-      "whyCN": "社交义把存在主义义收窄：若情感出自本人，就会显出来。这里 genuine 与 authentic 重叠，但 genuine 强调来源，authentic 强调凭证。"
-    },
-    {
-      "no": "07",
-      "title": "Authoritative, in older use",
-      "titleCN": "权威性：古义里的「正式有效」",
-      "definition": "the quality of being authoritative or formally valid, an older sense now rare",
-      "definitionCN": "具有权威或正式效力的性质，此为现已罕见的旧义",
-      "example": "In medieval law, the authenticity of a charter lay in its seal, not in its story.",
-      "exampleCN": "在中世纪法律里，一份特许状的有效性在于它的印章，而不在于它的叙述。",
-      "why": "The earliest English sense of authentic was 'authoritative, duly authorized', and the noun inherited it before 'factual' took over. The phrase 'of doubtful authenticity' still echoes that legal use.",
-      "whyCN": "authentic 最早的英语义是「有权威、经正式授权」，名词先继承了它，「符合事实」后来才占上风。短语 of doubtful authenticity 仍回响着那个法律用法。"
-    },
-    {
-      "no": "08",
-      "title": "Fidelity to an original state",
-      "titleCN": "原真性：复原到从前的样子",
-      "definition": "fidelity to an original state or style, as demanded in restoration or early music",
-      "definitionCN": "忠于原状或原风格，如文物修复或早期音乐所要求的",
-      "example": "Early-music groups argue about authenticity in tempo and tuning.",
-      "exampleCN": "早期音乐团体为速度和调音上的原真性争论不休。",
-      "why": "Restorers and period performers turned the question 'is it the original?' into a rule: reconstruct the object or performance as it once was. The noun names a standard of fidelity, not a physical fact.",
-      "whyCN": "修复者和古乐演奏者把「这是不是原件」变成一条规则：把物件或演出复原成它曾经的样子。这个名词命名的是一种忠实标准，而非一件实物事实。"
-    },
-    {
-      "no": "09",
-      "title": "Legally verified validity",
-      "titleCN": "认证有效性：验过之后才算数",
-      "definition": "the legal validity of a signature, document, or record after it has been checked",
-      "definitionCN": "签名、文件或记录经查验后具有的法律效力",
-      "example": "The notary checked the authenticity of the signature before the transfer.",
-      "exampleCN": "公证人在过户前核查了签名的真实性。",
-      "why": "Forensic and legal usage keeps the oldest institutional sense: an instrument is authentic when it has been properly executed and can be proved so. Verification is the modern ritual of authorizing.",
-      "whyCN": "法律与鉴定用法保留了最古老的制度义：文书经正式签署并能被证明，才算 authentic。查验就是现代版的「授权」仪式。"
-    }
-  ],
-  "etymology": {
-    "intro": {
-      "en": "Authenticity is a late abstract noun built on authentic, a word that began as a claim about authority, not about facts. Greek authentes was 'one who acts on his own authority'; -ity turned that warrant into a quality that can be questioned.",
-      "cn": "authenticity 是较晚出现的抽象名词，建立在 authentic 之上；而 authentic 最初讲的不是事实，而是权威。希腊语 authentes 指「凭自己权威行事的人」，-ity 把这份凭证变成一种可以被质疑的性质。"
-    },
-    "items": [
+[
+  {
+    "word": "authenticity",
+    "ipa_uk": "/ˌɔːθenˈtɪsəti/",
+    "ipa_us": "/ˌɑːθenˈtɪsəti/",
+    "definition_zh": "真实性；可靠性；真品性；正宗性；本真；真诚；权威性（古义）；原真性；认证有效性",
+    "definition_en": "the quality of being true, trustworthy, or genuinely from the source claimed, whether in a statement, an object, a place, or a person",
+    "core_image": "一枚旧印章压在纸上：纸会旧、字会淡，但印痕仍证明它出自该出的人之手",
+    "scene": "展灯下，策展人俯身灯前，对观众缓缓说道。A curator under a lamp says: People ask about authenticity, but what they really want is a reason to believe the story.",
+    "sceneCN": "这里 authenticity 指「真实性、真品性」（第 1 个义项、第 3 个义项：内容与事实相符、物件非伪造）；句意：人们问的是真伪，其实想要的是一个相信这个故事的理由。画面里有放大镜、旧画框和一枚印章。",
+    "pos": [
       {
-        "era": "GREEK (5C BC)",
-        "en": "authentikos 'original, genuine, principal' came from authentes 'one acting on one's own authority', analysable as autos 'self' + hentes 'doer, being'. The deeper root of hentes, PIE *sene- (2) 'to accomplish', is reconstructed and marked source uncertain.",
-        "cn": "authentikos「原初的、真正的、主要的」出自 authentes「凭自己权威行事的人」，可分析为 autos「自己」+ hentes「行事者、存在者」。hentes 更深的词根 PIE *sene- (2)「完成」是重构形式，标为「来源不确定」。"
-      },
-      {
-        "era": "LATE AND MEDIEVAL LATIN",
-        "en": "authenticus was the Latin form of the Greek adjective, used of documents and authorities. Legal force, not philosophical truth, was its first job in Western use.",
-        "cn": "authenticus 是这个希腊形容词的拉丁形式，用于文件和权威。它在西方用法里的第一份工作是法律效力，而不是哲学真理。"
-      },
-      {
-        "era": "OLD FRENCH (13C)",
-        "en": "autentique 'authentic; canonical' passed the word into English with its air of official approval and its missing -h-, which English later restored.",
-        "cn": "古法语 autentique「真正的；正典的」把这个词带进英语，带着官方认可的气息，也带着丢掉的 h；英语后来把这个 h 补了回去。"
-      },
-      {
-        "era": "MID-14C ENGLISH",
-        "en": "autentik is recorded as 'authoritative, duly authorized', and in the same period as 'real, entitled to acceptance as factual'. The two senses coexisted from the start.",
-        "cn": "autentik 被记录为「有权威的、经正式授权的」，同一时期也指「真实的、可被接受为事实的」。两个义项从一开始就并存。"
-      },
-      {
-        "era": "ENGLISH, 1620S–1760",
-        "en": "Earlier abstract nouns authentity (1650s) and authenticness (1620s) failed to settle. authenticity is recorded in 1760, formed from authentic + -ity, and that pattern won.",
-        "cn": "更早的抽象名词 authentity（17 世纪 50 年代）和 authenticness（17 世纪 20 年代）都没能站住。authenticity 记录于 1760 年，由 authentic + -ity 构成，这个模式最终胜出。"
-      },
-      {
-        "era": "19C–20C ENGLISH",
-        "en": "'Genuine original' extended to art and objects, then to regional food and heritage, and in the 20th century to the self and to historically informed performance.",
-        "cn": "「真品原件」义扩展到艺术与物品，再扩展到地方饮食与文化遗产；20 世纪又扩展到「真实的自我」和「历史复原演奏」。"
-      }
-    ]
-  },
-  "similar": {
-    "note": {
-      "en": "The first group shares the authent- stem or the -icity ending; the second group names qualities that answer the same question: can this be trusted as what it claims to be?",
-      "cn": "第一组共享 authent- 词干或 -icity 词尾；第二组是回答同一个问题的近义词：这东西能不能被信作它所声称的样子？"
-    },
-    "groups": [
-      {
-        "heading": "LOOK-ALIKE",
-        "entries": [
-          {
-            "word": "authentic",
-            "ipa": "/ɔːˈθentɪk/",
-            "tag": "the adjective behind the noun",
-            "definition": "real, genuine, or reliable. Remove -ity and you have the adjective from which authenticity is formed.",
-            "definitionCN": "真正的；地道的；可靠的。去掉 -ity 就是构成 authenticity 的形容词。"
-          },
-          {
-            "word": "authentication",
-            "ipa": "/ɔːˌθentɪˈkeɪʃn/",
-            "tag": "the act, not the quality",
-            "definition": "the process of proving something is genuine, especially a user's identity. It is an action noun, while authenticity is a quality noun.",
-            "definitionCN": "认证；身份验证。它是动作名词，而 authenticity 是性质名词。"
-          },
-          {
-            "word": "inauthenticity",
-            "ipa": "/ˌɪnɔːθenˈtɪsəti/",
-            "tag": "in- negates it",
-            "definition": "the quality of being false, imitative, or performed rather than genuine.",
-            "definitionCN": "不真实；虚假；造作。"
-          },
-          {
-            "word": "author",
-            "ipa": "/ˈɔːθə/",
-            "tag": "look-alike, different root",
-            "definition": "the creator of a work, from Latin auctor. It resembles authentic in sound but comes from a different family.",
-            "definitionCN": "作者；创作者，出自拉丁语 auctor。它听起来像 authentic，但词族不同。"
-          }
-        ]
-      },
-      {
-        "heading": "NEAR MEANING",
-        "entries": [
-          {
-            "word": "genuineness",
-            "ipa": "/ˈdʒenjuɪnnəs/",
-            "tag": "from the reputed source",
-            "definition": "the quality of being real and not adulterated or imitated. It stresses origin, while authenticity stresses warranted truth.",
-            "definitionCN": "真正；纯正；非伪造。它强调来源，authenticity 强调有凭证的真。"
-          },
-          {
-            "word": "validity",
-            "ipa": "/vəˈlɪdəti/",
-            "tag": "legally or logically sound",
-            "definition": "the quality of being based on sound reasoning or proper legal form. It covers the legal end of authenticity.",
-            "definitionCN": "有效性；正当性。它覆盖 authenticity 的法律一端。"
-          },
-          {
-            "word": "reliability",
-            "ipa": "/rɪˌlaɪəˈbɪləti/",
-            "tag": "can be depended on",
-            "definition": "the quality of consistently working or being trustworthy. It matches the 'worthy of belief' sense.",
-            "definitionCN": "可靠性；可信赖。对应 authenticity 的「值得相信」义。"
-          },
-          {
-            "word": "credibility",
-            "ipa": "/ˌkredəˈbɪləti/",
-            "tag": "believable",
-            "definition": "the quality of being convincing enough to be believed. It is about the audience's trust rather than the object's origin.",
-            "definitionCN": "可信度；公信力。它讲的是受众的信任，而非物品的来源。"
-          },
-          {
-            "word": "originality",
-            "ipa": "/əˌrɪdʒəˈnæləti/",
-            "tag": "first-hand, not copied",
-            "definition": "the quality of being the first of its kind, or of coming from the maker's own mind. It overlaps with authenticity in art.",
-            "definitionCN": "原创性；独创性。在艺术语境与 authenticity 重叠。"
-          }
-        ]
-      }
-    ]
-  },
-  "mnemonics": {
-    "normalIntro": {
-      "en": "The stem authent- carries 'one who acts on his own authority'; -ity is the suffix that turns any adjective of quality into a noun of quality.",
-      "cn": "词干 authent- 带着「凭自己权威行事者」的意思；-ity 则是把性质形容词变成性质名词的后缀。"
-    },
-    "normal": [
-      {
-        "en": "authentic + -ity: add the abstract-noun suffix and the adjective becomes the thing people argue about.",
-        "cn": "authentic + -ity：加上抽象名词后缀，形容词就变成了人们争论的那个「真不真」。"
-      },
-      {
-        "en": "Same ending as reality and validity: -ity words name a quality that can be measured or challenged.",
-        "cn": "和 reality、validity 同样的词尾：-ity 名词命名的是一种可被衡量、可被质疑的性质。"
-      },
-      {
-        "en": "A signature checked by a notary is authenticity in its oldest clothes: a seal that authorizes.",
-        "cn": "公证人核对的签名，是 authenticity 最古老的样子：一枚授权的印章。"
-      },
-      {
-        "en": "authentic food, authentic self, authentic document: one word, three questions about origin.",
-        "cn": "地道的食物、真实的自我、真迹文件：同一个词，问了三个关于来源的问题。"
-      },
-      {
-        "en": "The -th- in the middle is the Greek theta's footprint; the French form dropped it and English put it back.",
-        "cn": "中间的 -th- 是希腊字母 theta 留下的脚印；法语形式丢了它，英语又补了回来。"
+        "tag": "n.",
+        "zh": "真实性；可靠性；真品性；正宗性；本真"
       }
     ],
-    "abstract": [
+    "collocations": [
       {
-        "en": "Authenticity is not a fact but a claim: it asks who is entitled to say this is so.",
-        "cn": "authenticity 不是事实，而是一项主张：它问的是谁有权说「就是这样」。"
+        "phrase": "verify authenticity",
+        "zh": "验证真伪"
       },
       {
-        "en": "The same word covers a sealed charter, a village recipe and a person's inner life: authority has moved inward.",
-        "cn": "同一个词覆盖盖印的特许状、乡村食谱和一个人的内心：权威从外部移到了内部。"
+        "phrase": "the authenticity of a document",
+        "zh": "文件的真实性"
       },
       {
-        "en": "Every verification is a small ritual: the object does not change, only our warrant for believing it.",
-        "cn": "每一次验证都是一场小仪式：物件没有变，变的只是我们相信它的凭证。"
+        "phrase": "a sense of authenticity",
+        "zh": "真实感；本真感"
+      },
+      {
+        "phrase": "cultural authenticity",
+        "zh": "文化上的正宗性"
+      },
+      {
+        "phrase": "authenticity of a signature",
+        "zh": "签名的真实性"
       }
-    ]
-  },
-  "examples": [
-    {
-      "en": "The lab uses isotope tests to establish the authenticity of the ivory.",
-      "cn": "实验室用同位素检测来确定这批象牙的真伪。"
-    },
-    {
-      "en": "Tourists often mistake performance for authenticity.",
-      "cn": "游客常把表演当成了真实。"
-    },
-    {
-      "en": "She writes with an authenticity that comes from refusing easy answers.",
-      "cn": "她的写作有一种真诚，来自拒绝轻易的答案。"
-    }
-  ],
-  "dict_mnemonic": {
-    "note": "谐音联想 · 非词源",
-    "text": "authentic（真货）+ ity（一贴）——给真货贴上一张证明，贴上「真」的标签 → authenticity 真实性；真品性",
-    "word": "authenticity"
-  },
-  "root": "源自希腊语 authentikos「原初的、真正的」← authentes「凭自己权威行事者」（autos「自己」+ hentes「行事者」），经拉丁语 authenticus、古法语 autentique 进入英语；authenticity = authentic + -ity，把「有凭证的真」抽象成性质。",
-  "sensesIntro": {
-    "en": "Nine senses circle one question: does this come from the source it claims? The answer may rest on facts, on a seal, on a recipe, on a period score, or on a person's own life.",
-    "cn": "九个义项围着同一个问题转：它是否出自它所声称的来源？答案可能落在事实上、印章上、食谱上、古乐谱上，也可能落在一个人的自身生活上。"
-  },
-  "semanticMap": {
-    "core": {
-      "en": "CORE IMAGE: a seal that proves the thing came from the hand it names.",
-      "cn": "核心意象：一枚印章，证明这东西出自它所署的那只手。"
-    },
-    "chain": [
-      "A SOURCE THAT SPEAKS FOR ITSELF",
-      "AUTHORITY",
-      "FACTUAL TRUTH",
-      "THE ORIGINAL OBJECT",
-      "THE AUTHENTIC SELF",
-      "FIDELITY TO AN ORIGIN"
     ],
-    "branches": [
+    "forms": [
       {
-        "senses": "01 · 02",
-        "en": "TRUTH AND TRUST: a statement that matches the facts, and a source that deserves belief.",
-        "cn": "真与信：与事实相符的陈述，以及值得相信的来源。"
-      },
-      {
-        "senses": "03 · 09",
-        "en": "THE ORIGINAL AND THE PROVEN: the very object, not a copy, and the legal validation of a signature.",
-        "cn": "原件与验证：就是那一件而非复制品，以及签名的法律确认。"
-      },
-      {
-        "senses": "04 · 08",
-        "en": "FIDELITY TO A PLACE OR A TIME: the local recipe, and the restored period performance.",
-        "cn": "对地点或时代的忠实：地方食谱，以及复原的历史演出。"
-      },
-      {
-        "senses": "05 · 06",
-        "en": "THE INNER SOURCE: a self that acts on its own authority, and a feeling that does not perform.",
-        "cn": "内在来源：凭自己权威行动的自我，以及不表演的情感。"
-      },
-      {
-        "senses": "07",
-        "en": "THE OLD WARRANT: authority and formal validity, before truth became the main question.",
-        "cn": "古老的凭证：在「真」成为主要问题之前，权威与正式效力。"
+        "label": "复数",
+        "form": "authenticities"
       }
-    ]
-  },
-  "affixes": {
-    "intro": {
-      "en": "authenticity is authent- (Greek authentes, 'one acting on his own authority') + -ic (adjective) + -ity (quality noun). The family runs authenticate, authentication, inauthentic and inauthenticity; author is a look-alike, not a relative.",
-      "cn": "authenticity 是 authent-（希腊语 authentes「凭自己权威行事者」）+ -ic（形容词）+ -ity（性质名词）。词族有 authenticate、authentication、inauthentic、inauthenticity；author 只是形近，并非同族。"
-    },
-    "latinIntro": {
-      "en": "Greek authentikos became Latin authenticus; the verb authenticare produced authentication. Latin -itas (stem -itat-) is the source of English -ity.",
-      "cn": "希腊语 authentikos 变成拉丁语 authenticus；动词 authenticare 产生 authentication。拉丁语 -itas（词干 -itat-）是英语 -ity 的来源。"
-    },
-    "items": [
-      {
-        "word": "authenticity",
-        "structure": "authent- (source/authority) + -ic + -ity (quality)",
-        "meaning": "the quality of being genuine or trustworthy",
-        "meaningCN": "真实性；可靠性；真品性",
-        "example": "The authenticity of the manuscript was never seriously challenged.",
-        "exampleCN": "这份手稿的真实性从未受到严肃质疑。"
-      },
+    ],
+    "derivatives": [
       {
         "word": "authentic",
-        "structure": "authent- + -ic (adjective)",
-        "meaning": "real, genuine, or reliable",
-        "meaningCN": "真正的；地道的；可信的",
-        "example": "The shop sells authentic Basque linen.",
-        "exampleCN": "这家店出售正宗的巴斯克亚麻布。"
+        "pos": "adj.",
+        "zh": "真正的；地道的；可信的"
       },
       {
         "word": "authentically",
-        "structure": "authentic + -al + -ly (adverb)",
-        "meaning": "in a genuine or original way",
-        "meaningCN": "真实地；地道地",
-        "example": "The room is authentically furnished for the period.",
-        "exampleCN": "这个房间按那个时代的原样布置。"
+        "pos": "adv.",
+        "zh": "真实地；地道地"
       },
       {
         "word": "authenticate",
-        "structure": "authent- + -ic + -ate (verb)",
-        "meaning": "to prove that something is genuine",
-        "meaningCN": "验证；证明为真",
-        "example": "Two experts authenticated the drawing.",
-        "exampleCN": "两位专家鉴定了这幅素描为真迹。"
+        "pos": "v.",
+        "zh": "验证；证明为真"
       },
       {
         "word": "authentication",
-        "structure": "authenticate + -ion (action noun)",
-        "meaning": "the act of proving genuineness or identity",
-        "meaningCN": "认证；身份验证",
-        "example": "Two-factor authentication protects the account.",
-        "exampleCN": "双重认证保护这个账户。"
-      },
-      {
-        "word": "authenticator",
-        "structure": "authenticate + -or (agent)",
-        "meaning": "a person or device that verifies",
-        "meaningCN": "验证者；认证器",
-        "example": "The app serves as an authenticator.",
-        "exampleCN": "这个应用充当认证器。"
-      },
-      {
-        "word": "inauthentic",
-        "structure": "in- (not) + authentic",
-        "meaning": "not genuine; imitative",
-        "meaningCN": "不真实的；伪造的",
-        "example": "The accent sounded inauthentic to local ears.",
-        "exampleCN": "在本地人听来，那口音不地道。"
+        "pos": "n.",
+        "zh": "认证；身份验证"
       },
       {
         "word": "inauthenticity",
-        "structure": "in- + authentic + -ity",
-        "meaning": "the quality of being false or performed",
-        "meaningCN": "不真实；造作",
-        "example": "Viewers sensed the inauthenticity of the speech.",
-        "exampleCN": "观众感觉到了那篇演讲的造作。"
-      },
-      {
-        "word": "authenticness",
-        "structure": "authentic + -ness (quality)",
-        "meaning": "genuineness, in older use",
-        "meaningCN": "真实性（旧用法）",
-        "example": "The 1620s preferred authenticness to authenticity.",
-        "exampleCN": "17 世纪 20 年代的人更爱用 authenticness 而非 authenticity。"
+        "pos": "n.",
+        "zh": "不真实；虚假"
       }
     ],
-    "latinEntries": [
+    "senses": [
       {
-        "word": "authenticus",
-        "structure": "authenticus (adjective)",
-        "meaning": "authentic, original, authoritative",
-        "meaningCN": "真正的；原初的；有权威的"
+        "no": "01",
+        "title": "True to the facts",
+        "titleCN": "真实性：与事实对得上",
+        "definition": "the quality of being true to the facts, not invented or false",
+        "definitionCN": "与事实相符、并非编造或虚假的性质",
+        "example": "Historians questioned the authenticity of the diary's later pages.",
+        "exampleCN": "历史学家质疑这本日记后几页的真实性。",
+        "why": "-ity makes an abstract noun of authentic, whose Greek source authentikos came from authentes 'one who acts on his own authority'. Truth here is imagined as a warrant held by the person who was actually there.",
+        "whyCN": "-ity 把 authentic 变成抽象名词；其希腊语来源 authentikos 出自 authentes「凭自己权威行事的人」。这里的「真」被想象成当事人手里握着的一份凭证。"
       },
       {
-        "word": "authenticare",
-        "structure": "authentic- + -are (verb)",
-        "meaning": "to make valid, to authorize",
-        "meaningCN": "使有效；授权"
+        "no": "02",
+        "title": "Worthy of belief",
+        "titleCN": "可靠性：值得相信",
+        "definition": "the quality of deserving belief or trust",
+        "definitionCN": "值得相信或信赖的性质",
+        "example": "The witness's authenticity was never in doubt.",
+        "exampleCN": "这名证人的可靠性从未受到怀疑。",
+        "why": "Authentic meant 'authoritative, duly authorized' in mid-14th-century English before it meant 'factual'. The credibility sense still carries that residue: a claim is believed because its source is entitled to speak.",
+        "whyCN": "14 世纪中叶的英语里，authentic 先指「有权威、经正式授权的」，后来才指「符合事实」。可信义仍带着这层残余：一个说法被相信，是因为它的来源有权说话。"
       },
       {
-        "word": "auctor",
-        "structure": "auctor (noun)",
-        "meaning": "originator, creator; not the source of authentic",
-        "meaningCN": "创始者；作者（并非 authentic 的来源）"
+        "no": "03",
+        "title": "The original object",
+        "titleCN": "真品性：不是复制品",
+        "definition": "the quality of being the original object, not a copy or forgery",
+        "definitionCN": "是原件而非复制品或伪造品的性质",
+        "example": "Experts spent months confirming the authenticity of the painting.",
+        "exampleCN": "专家花了几个月确认这幅画的真伪。",
+        "why": "Medieval Latin authenticus named a document with legal force; a sealed original proved itself. Applied to objects, the word asks whether this is the very thing, not a stand-in.",
+        "whyCN": "中世纪拉丁语 authenticus 指具有法律效力的文件；盖了印的原件能自证。用到物品上，这个词问的是「是不是就是这一件」，而不是替身。"
+      },
+      {
+        "no": "04",
+        "title": "Faithful to a place",
+        "titleCN": "正宗性：照着当地原样做",
+        "definition": "the quality of following the original regional method or recipe",
+        "definitionCN": "遵循原产地做法或配方的性质",
+        "example": "The restaurant's authenticity rests on its wood-fired oven and local flour.",
+        "exampleCN": "这家餐厅的正宗性靠的是柴火烤炉和本地面粉。",
+        "why": "When a practice travels, 'original' becomes 'local and unchanged'. The noun then praises fidelity to a place's own way rather than to a document.",
+        "whyCN": "一种做法流传出去后，「原初」就变成「当地且未改」。这个词于是称赞对某地自身做法的忠实，而不是对一份文件的忠实。"
+      },
+      {
+        "no": "05",
+        "title": "The authentic self",
+        "titleCN": "本真：做自己的那个人",
+        "definition": "the quality of living or acting in accordance with one's own character and values",
+        "definitionCN": "按自己的性格与价值生活或行动的性质",
+        "example": "Her essays are valued for their emotional authenticity.",
+        "exampleCN": "她的随笔因情感本真而受重视。",
+        "why": "Existential writers took 'acting on one's own authority' literally: an authentic person is one whose acts are their own, not borrowed. Authenticity becomes self-authorship.",
+        "whyCN": "存在主义作家把「凭自己权威行事」按字面理解：本真的人，其行为出于自己，而非借来。authenticity 于是成了「自己写自己」。"
+      },
+      {
+        "no": "06",
+        "title": "Unforced feeling",
+        "titleCN": "真诚：不演出来的情绪",
+        "definition": "the quality of expressing feelings without pretence",
+        "definitionCN": "不带伪装地表达情感的性质",
+        "example": "There was an authenticity in his apology that no polished speech could match.",
+        "exampleCN": "他的道歉里有一种真诚，是任何漂亮辞令都比不上的。",
+        "why": "The social sense narrows the existential one: if the feeling comes from the self, it shows. Genuine and authentic overlap here, though genuine stresses origin and authentic stresses warrant.",
+        "whyCN": "社交义把存在主义义收窄：若情感出自本人，就会显出来。这里 genuine 与 authentic 重叠，但 genuine 强调来源，authentic 强调凭证。"
+      },
+      {
+        "no": "07",
+        "title": "Authoritative, in older use",
+        "titleCN": "权威性：古义里的「正式有效」",
+        "definition": "the quality of being authoritative or formally valid, an older sense now rare",
+        "definitionCN": "具有权威或正式效力的性质，此为现已罕见的旧义",
+        "example": "In medieval law, the authenticity of a charter lay in its seal, not in its story.",
+        "exampleCN": "在中世纪法律里，一份特许状的有效性在于它的印章，而不在于它的叙述。",
+        "why": "The earliest English sense of authentic was 'authoritative, duly authorized', and the noun inherited it before 'factual' took over. The phrase 'of doubtful authenticity' still echoes that legal use.",
+        "whyCN": "authentic 最早的英语义是「有权威、经正式授权」，名词先继承了它，「符合事实」后来才占上风。短语 of doubtful authenticity 仍回响着那个法律用法。"
+      },
+      {
+        "no": "08",
+        "title": "Fidelity to an original state",
+        "titleCN": "原真性：复原到从前的样子",
+        "definition": "fidelity to an original state or style, as demanded in restoration or early music",
+        "definitionCN": "忠于原状或原风格，如文物修复或早期音乐所要求的",
+        "example": "Early-music groups argue about authenticity in tempo and tuning.",
+        "exampleCN": "早期音乐团体为速度和调音上的原真性争论不休。",
+        "why": "Restorers and period performers turned the question 'is it the original?' into a rule: reconstruct the object or performance as it once was. The noun names a standard of fidelity, not a physical fact.",
+        "whyCN": "修复者和古乐演奏者把「这是不是原件」变成一条规则：把物件或演出复原成它曾经的样子。这个名词命名的是一种忠实标准，而非一件实物事实。"
+      },
+      {
+        "no": "09",
+        "title": "Legally verified validity",
+        "titleCN": "认证有效性：验过之后才算数",
+        "definition": "the legal validity of a signature, document, or record after it has been checked",
+        "definitionCN": "签名、文件或记录经查验后具有的法律效力",
+        "example": "The notary checked the authenticity of the signature before the transfer.",
+        "exampleCN": "公证人在过户前核查了签名的真实性。",
+        "why": "Forensic and legal usage keeps the oldest institutional sense: an instrument is authentic when it has been properly executed and can be proved so. Verification is the modern ritual of authorizing.",
+        "whyCN": "法律与鉴定用法保留了最古老的制度义：文书经正式签署并能被证明，才算 authentic。查验就是现代版的「授权」仪式。"
       }
-    ]
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Authenticity is a late abstract noun built on authentic, a word that began as a claim about authority, not about facts. Greek authentes was 'one who acts on his own authority'; -ity turned that warrant into a quality that can be questioned.",
+        "cn": "authenticity 是较晚出现的抽象名词，建立在 authentic 之上；而 authentic 最初讲的不是事实，而是权威。希腊语 authentes 指「凭自己权威行事的人」，-ity 把这份凭证变成一种可以被质疑的性质。"
+      },
+      "items": [
+        {
+          "era": "GREEK (5C BC)",
+          "en": "authentikos 'original, genuine, principal' came from authentes 'one acting on one's own authority', analysable as autos 'self' + hentes 'doer, being'. The deeper root of hentes, PIE *sene- (2) 'to accomplish', is reconstructed and marked source uncertain.",
+          "cn": "authentikos「原初的、真正的、主要的」出自 authentes「凭自己权威行事的人」，可分析为 autos「自己」+ hentes「行事者、存在者」。hentes 更深的词根 PIE *sene- (2)「完成」是重构形式，标为「来源不确定」。"
+        },
+        {
+          "era": "LATE AND MEDIEVAL LATIN",
+          "en": "authenticus was the Latin form of the Greek adjective, used of documents and authorities. Legal force, not philosophical truth, was its first job in Western use.",
+          "cn": "authenticus 是这个希腊形容词的拉丁形式，用于文件和权威。它在西方用法里的第一份工作是法律效力，而不是哲学真理。"
+        },
+        {
+          "era": "OLD FRENCH (13C)",
+          "en": "autentique 'authentic; canonical' passed the word into English with its air of official approval and its missing -h-, which English later restored.",
+          "cn": "古法语 autentique「真正的；正典的」把这个词带进英语，带着官方认可的气息，也带着丢掉的 h；英语后来把这个 h 补了回去。"
+        },
+        {
+          "era": "MID-14C ENGLISH",
+          "en": "autentik is recorded as 'authoritative, duly authorized', and in the same period as 'real, entitled to acceptance as factual'. The two senses coexisted from the start.",
+          "cn": "autentik 被记录为「有权威的、经正式授权的」，同一时期也指「真实的、可被接受为事实的」。两个义项从一开始就并存。"
+        },
+        {
+          "era": "ENGLISH, 1620S–1760",
+          "en": "Earlier abstract nouns authentity (1650s) and authenticness (1620s) failed to settle. authenticity is recorded in 1760, formed from authentic + -ity, and that pattern won.",
+          "cn": "更早的抽象名词 authentity（17 世纪 50 年代）和 authenticness（17 世纪 20 年代）都没能站住。authenticity 记录于 1760 年，由 authentic + -ity 构成，这个模式最终胜出。"
+        },
+        {
+          "era": "19C–20C ENGLISH",
+          "en": "'Genuine original' extended to art and objects, then to regional food and heritage, and in the 20th century to the self and to historically informed performance.",
+          "cn": "「真品原件」义扩展到艺术与物品，再扩展到地方饮食与文化遗产；20 世纪又扩展到「真实的自我」和「历史复原演奏」。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "The first group shares the authent- stem or the -icity ending; the second group names qualities that answer the same question: can this be trusted as what it claims to be?",
+        "cn": "第一组共享 authent- 词干或 -icity 词尾；第二组是回答同一个问题的近义词：这东西能不能被信作它所声称的样子？"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "authentic",
+              "ipa": "/ɔːˈθentɪk/",
+              "tag": "the adjective behind the noun",
+              "definition": "real, genuine, or reliable. Remove -ity and you have the adjective from which authenticity is formed.",
+              "definitionCN": "真正的；地道的；可靠的。去掉 -ity 就是构成 authenticity 的形容词。"
+            },
+            {
+              "word": "authentication",
+              "ipa": "/ɔːˌθentɪˈkeɪʃn/",
+              "tag": "the act, not the quality",
+              "definition": "the process of proving something is genuine, especially a user's identity. It is an action noun, while authenticity is a quality noun.",
+              "definitionCN": "认证；身份验证。它是动作名词，而 authenticity 是性质名词。"
+            },
+            {
+              "word": "inauthenticity",
+              "ipa": "/ˌɪnɔːθenˈtɪsəti/",
+              "tag": "in- negates it",
+              "definition": "the quality of being false, imitative, or performed rather than genuine.",
+              "definitionCN": "不真实；虚假；造作。"
+            },
+            {
+              "word": "author",
+              "ipa": "/ˈɔːθə/",
+              "tag": "look-alike, different root",
+              "definition": "the creator of a work, from Latin auctor. It resembles authentic in sound but comes from a different family.",
+              "definitionCN": "作者；创作者，出自拉丁语 auctor。它听起来像 authentic，但词族不同。"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "genuineness",
+              "ipa": "/ˈdʒenjuɪnnəs/",
+              "tag": "from the reputed source",
+              "definition": "the quality of being real and not adulterated or imitated. It stresses origin, while authenticity stresses warranted truth.",
+              "definitionCN": "真正；纯正；非伪造。它强调来源，authenticity 强调有凭证的真。"
+            },
+            {
+              "word": "validity",
+              "ipa": "/vəˈlɪdəti/",
+              "tag": "legally or logically sound",
+              "definition": "the quality of being based on sound reasoning or proper legal form. It covers the legal end of authenticity.",
+              "definitionCN": "有效性；正当性。它覆盖 authenticity 的法律一端。"
+            },
+            {
+              "word": "reliability",
+              "ipa": "/rɪˌlaɪəˈbɪləti/",
+              "tag": "can be depended on",
+              "definition": "the quality of consistently working or being trustworthy. It matches the 'worthy of belief' sense.",
+              "definitionCN": "可靠性；可信赖。对应 authenticity 的「值得相信」义。"
+            },
+            {
+              "word": "credibility",
+              "ipa": "/ˌkredəˈbɪləti/",
+              "tag": "believable",
+              "definition": "the quality of being convincing enough to be believed. It is about the audience's trust rather than the object's origin.",
+              "definitionCN": "可信度；公信力。它讲的是受众的信任，而非物品的来源。"
+            },
+            {
+              "word": "originality",
+              "ipa": "/əˌrɪdʒəˈnæləti/",
+              "tag": "first-hand, not copied",
+              "definition": "the quality of being the first of its kind, or of coming from the maker's own mind. It overlaps with authenticity in art.",
+              "definitionCN": "原创性；独创性。在艺术语境与 authenticity 重叠。"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "The stem authent- carries 'one who acts on his own authority'; -ity is the suffix that turns any adjective of quality into a noun of quality.",
+        "cn": "词干 authent- 带着「凭自己权威行事者」的意思；-ity 则是把性质形容词变成性质名词的后缀。"
+      },
+      "normal": [
+        {
+          "en": "authentic + -ity: add the abstract-noun suffix and the adjective becomes the thing people argue about.",
+          "cn": "authentic + -ity：加上抽象名词后缀，形容词就变成了人们争论的那个「真不真」。"
+        },
+        {
+          "en": "Same ending as reality and validity: -ity words name a quality that can be measured or challenged.",
+          "cn": "和 reality、validity 同样的词尾：-ity 名词命名的是一种可被衡量、可被质疑的性质。"
+        },
+        {
+          "en": "A signature checked by a notary is authenticity in its oldest clothes: a seal that authorizes.",
+          "cn": "公证人核对的签名，是 authenticity 最古老的样子：一枚授权的印章。"
+        },
+        {
+          "en": "authentic food, authentic self, authentic document: one word, three questions about origin.",
+          "cn": "地道的食物、真实的自我、真迹文件：同一个词，问了三个关于来源的问题。"
+        },
+        {
+          "en": "The -th- in the middle is the Greek theta's footprint; the French form dropped it and English put it back.",
+          "cn": "中间的 -th- 是希腊字母 theta 留下的脚印；法语形式丢了它，英语又补了回来。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "Authenticity is not a fact but a claim: it asks who is entitled to say this is so.",
+          "cn": "authenticity 不是事实，而是一项主张：它问的是谁有权说「就是这样」。"
+        },
+        {
+          "en": "The same word covers a sealed charter, a village recipe and a person's inner life: authority has moved inward.",
+          "cn": "同一个词覆盖盖印的特许状、乡村食谱和一个人的内心：权威从外部移到了内部。"
+        },
+        {
+          "en": "Every verification is a small ritual: the object does not change, only our warrant for believing it.",
+          "cn": "每一次验证都是一场小仪式：物件没有变，变的只是我们相信它的凭证。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "The lab uses isotope tests to establish the authenticity of the ivory.",
+        "cn": "实验室用同位素检测来确定这批象牙的真伪。"
+      },
+      {
+        "en": "Tourists often mistake performance for authenticity.",
+        "cn": "游客常把表演当成了真实。"
+      },
+      {
+        "en": "She writes with an authenticity that comes from refusing easy answers.",
+        "cn": "她的写作有一种真诚，来自拒绝轻易的答案。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音联想 · 非词源",
+      "text": "authentic（真货）+ ity（一贴）——给真货贴上一张证明，贴上「真」的标签 → authenticity 真实性；真品性",
+      "word": "authenticity"
+    },
+    "root": "源自希腊语 authentikos「原初的、真正的」← authentes「凭自己权威行事者」（autos「自己」+ hentes「行事者」），经拉丁语 authenticus、古法语 autentique 进入英语；authenticity = authentic + -ity，把「有凭证的真」抽象成性质。",
+    "sensesIntro": {
+      "en": "Nine senses circle one question: does this come from the source it claims? The answer may rest on facts, on a seal, on a recipe, on a period score, or on a person's own life.",
+      "cn": "九个义项围着同一个问题转：它是否出自它所声称的来源？答案可能落在事实上、印章上、食谱上、古乐谱上，也可能落在一个人的自身生活上。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: a seal that proves the thing came from the hand it names.",
+        "cn": "核心意象：一枚印章，证明这东西出自它所署的那只手。"
+      },
+      "chain": [
+        "A SOURCE THAT SPEAKS FOR ITSELF",
+        "AUTHORITY",
+        "FACTUAL TRUTH",
+        "THE ORIGINAL OBJECT",
+        "THE AUTHENTIC SELF",
+        "FIDELITY TO AN ORIGIN"
+      ],
+      "branches": [
+        {
+          "senses": "01 · 02",
+          "en": "TRUTH AND TRUST: a statement that matches the facts, and a source that deserves belief.",
+          "cn": "真与信：与事实相符的陈述，以及值得相信的来源。"
+        },
+        {
+          "senses": "03 · 09",
+          "en": "THE ORIGINAL AND THE PROVEN: the very object, not a copy, and the legal validation of a signature.",
+          "cn": "原件与验证：就是那一件而非复制品，以及签名的法律确认。"
+        },
+        {
+          "senses": "04 · 08",
+          "en": "FIDELITY TO A PLACE OR A TIME: the local recipe, and the restored period performance.",
+          "cn": "对地点或时代的忠实：地方食谱，以及复原的历史演出。"
+        },
+        {
+          "senses": "05 · 06",
+          "en": "THE INNER SOURCE: a self that acts on its own authority, and a feeling that does not perform.",
+          "cn": "内在来源：凭自己权威行动的自我，以及不表演的情感。"
+        },
+        {
+          "senses": "07",
+          "en": "THE OLD WARRANT: authority and formal validity, before truth became the main question.",
+          "cn": "古老的凭证：在「真」成为主要问题之前，权威与正式效力。"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "authenticity is authent- (Greek authentes, 'one acting on his own authority') + -ic (adjective) + -ity (quality noun). The family runs authenticate, authentication, inauthentic and inauthenticity; author is a look-alike, not a relative.",
+        "cn": "authenticity 是 authent-（希腊语 authentes「凭自己权威行事者」）+ -ic（形容词）+ -ity（性质名词）。词族有 authenticate、authentication、inauthentic、inauthenticity；author 只是形近，并非同族。"
+      },
+      "latinIntro": {
+        "en": "Greek authentikos became Latin authenticus; the verb authenticare produced authentication. Latin -itas (stem -itat-) is the source of English -ity.",
+        "cn": "希腊语 authentikos 变成拉丁语 authenticus；动词 authenticare 产生 authentication。拉丁语 -itas（词干 -itat-）是英语 -ity 的来源。"
+      },
+      "items": [
+        {
+          "word": "authenticity",
+          "structure": "authent- (source/authority) + -ic + -ity (quality)",
+          "meaning": "the quality of being genuine or trustworthy",
+          "meaningCN": "真实性；可靠性；真品性",
+          "example": "The authenticity of the manuscript was never seriously challenged.",
+          "exampleCN": "这份手稿的真实性从未受到严肃质疑。"
+        },
+        {
+          "word": "authentic",
+          "structure": "authent- + -ic (adjective)",
+          "meaning": "real, genuine, or reliable",
+          "meaningCN": "真正的；地道的；可信的",
+          "example": "The shop sells authentic Basque linen.",
+          "exampleCN": "这家店出售正宗的巴斯克亚麻布。"
+        },
+        {
+          "word": "authentically",
+          "structure": "authentic + -al + -ly (adverb)",
+          "meaning": "in a genuine or original way",
+          "meaningCN": "真实地；地道地",
+          "example": "The room is authentically furnished for the period.",
+          "exampleCN": "这个房间按那个时代的原样布置。"
+        },
+        {
+          "word": "authenticate",
+          "structure": "authent- + -ic + -ate (verb)",
+          "meaning": "to prove that something is genuine",
+          "meaningCN": "验证；证明为真",
+          "example": "Two experts authenticated the drawing.",
+          "exampleCN": "两位专家鉴定了这幅素描为真迹。"
+        },
+        {
+          "word": "authentication",
+          "structure": "authenticate + -ion (action noun)",
+          "meaning": "the act of proving genuineness or identity",
+          "meaningCN": "认证；身份验证",
+          "example": "Two-factor authentication protects the account.",
+          "exampleCN": "双重认证保护这个账户。"
+        },
+        {
+          "word": "authenticator",
+          "structure": "authenticate + -or (agent)",
+          "meaning": "a person or device that verifies",
+          "meaningCN": "验证者；认证器",
+          "example": "The app serves as an authenticator.",
+          "exampleCN": "这个应用充当认证器。"
+        },
+        {
+          "word": "inauthentic",
+          "structure": "in- (not) + authentic",
+          "meaning": "not genuine; imitative",
+          "meaningCN": "不真实的；伪造的",
+          "example": "The accent sounded inauthentic to local ears.",
+          "exampleCN": "在本地人听来，那口音不地道。"
+        },
+        {
+          "word": "inauthenticity",
+          "structure": "in- + authentic + -ity",
+          "meaning": "the quality of being false or performed",
+          "meaningCN": "不真实；造作",
+          "example": "Viewers sensed the inauthenticity of the speech.",
+          "exampleCN": "观众感觉到了那篇演讲的造作。"
+        },
+        {
+          "word": "authenticness",
+          "structure": "authentic + -ness (quality)",
+          "meaning": "genuineness, in older use",
+          "meaningCN": "真实性（旧用法）",
+          "example": "The 1620s preferred authenticness to authenticity.",
+          "exampleCN": "17 世纪 20 年代的人更爱用 authenticness 而非 authenticity。"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "authenticus",
+          "structure": "authenticus (adjective)",
+          "meaning": "authentic, original, authoritative",
+          "meaningCN": "真正的；原初的；有权威的"
+        },
+        {
+          "word": "authenticare",
+          "structure": "authentic- + -are (verb)",
+          "meaning": "to make valid, to authorize",
+          "meaningCN": "使有效；授权"
+        },
+        {
+          "word": "auctor",
+          "structure": "auctor (noun)",
+          "meaning": "originator, creator; not the source of authentic",
+          "meaningCN": "创始者；作者（并非 authentic 的来源）"
+        }
+      ]
+    }
   }
-}
+]

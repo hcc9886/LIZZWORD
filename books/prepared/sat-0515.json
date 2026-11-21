@@ -1,526 +1,528 @@
-{
- "word": "calculus",
- "ipa_uk": "/ˈkælkjələs/",
- "ipa_us": "/ˈkælkjələs/",
- "definition_zh": "微积分；演算体系；（体内）结石",
- "definition_en": "the branch of mathematics that studies continuous change through derivatives and integrals; also a system of calculation, or a hard mass formed in the body",
- "core_image": "一只碗里堆着几颗小石子，旁边是一张记满刻痕的木板，石子被一颗颗拨动来记数",
- "scene": "桌上一只碗里堆着几颗小石子，旁边是一块刻满记号的木板，有人把石子一颗颗拨过去记数。The doctor found a small calculus in the patient's kidney.",
- "sceneCN": "这里 calculus 指「体内形成的结石」（第 4 个义项：结石）；句意为医生在病人肾脏里发现一颗小结石。图中可辨识物件：碗、小石子、刻痕木板、拨动的手。",
- "pos": [
+[
   {
-   "tag": "n.",
-   "zh": "微积分；演算体系；结石"
-  }
- ],
- "collocations": [
-  {
-   "phrase": "differential calculus",
-   "zh": "微分学"
-  },
-  {
-   "phrase": "integral calculus",
-   "zh": "积分学"
-  },
-  {
-   "phrase": "calculus course",
-   "zh": "微积分课程"
-  },
-  {
-   "phrase": "renal calculus",
-   "zh": "肾结石"
-  },
-  {
-   "phrase": "dental calculus",
-   "zh": "牙结石"
-  },
-  {
-   "phrase": "predicate calculus",
-   "zh": "谓词演算"
-  }
- ],
- "forms": [
-  {
-   "label": "复数（演算体系义）",
-   "form": "calculuses"
-  },
-  {
-   "label": "复数（结石义）",
-   "form": "calculi"
-  },
-  {
-   "label": "形容词（结石的）",
-   "form": "calculous"
-  },
-  {
-   "label": "形容词（演算的）",
-   "form": "calculary"
-  },
-  {
-   "label": "相关动词",
-   "form": "calculate"
-  }
- ],
- "derivatives": [
-  {
-   "word": "calculate",
-   "pos": "v.",
-   "zh": "计算；推算"
-  },
-  {
-   "word": "calculation",
-   "pos": "n.",
-   "zh": "计算；算计"
-  },
-  {
-   "word": "calculator",
-   "pos": "n.",
-   "zh": "计算器"
-  },
-  {
-   "word": "calculous",
-   "pos": "adj.",
-   "zh": "结石的"
-  },
-  {
-   "word": "calculi",
-   "pos": "n.",
-   "zh": "结石（复数）"
-  }
- ],
- "senses": [
-  {
-   "no": "01",
-   "title": "The mathematics of continuous change",
-   "titleCN": "研究连续变化的微积分",
-   "definition": "the branch of mathematics that studies rates of change and accumulated totals by means of derivatives and integrals",
-   "definitionCN": "用导数与积分研究变化率与累积总量的数学分支",
-   "example": "Calculus turned the problem of motion into a problem of rates.",
-   "exampleCN": "微积分把运动问题化为变化率问题。",
-   "why": "The core sense is a system of computation built for quantities that change smoothly rather than in steps.",
-   "whyCN": "核心义是一套为平滑变化（而非逐级跳变）的量而建的计算体系。"
-  },
-  {
-   "no": "02",
-   "title": "The course in it",
-   "titleCN": "微积分课程",
-   "definition": "the university course in which differentiation and integration are taught",
-   "definitionCN": "教授微分与积分的大学课程",
-   "example": "Calculus is the gate through which most science students must pass.",
-   "exampleCN": "微积分是多数理科学生必须通过的关口。",
-   "why": "A branch taught to large numbers of students becomes a named course, and the word follows the timetable.",
-   "whyCN": "一门教给大量学生的学问成为具名课程，这个词也随之进入课表。"
-  },
-  {
-   "no": "03",
-   "title": "A cold reckoning",
-   "titleCN": "冷酷的精算（比喻）",
-   "definition": "used of a hard calculation of costs and benefits in which feelings play no part",
-   "definitionCN": "指不计感情、只算得失的冷酷算计",
-   "example": "The firm's calculus was simple: two hundred jobs against one factory.",
-   "exampleCN": "公司的算账很简单：两百个岗位对一座工厂。",
-   "why": "The figurative use borrows the word for any system of computation, then strips it of mathematics and leaves only the coldness.",
-   "whyCN": "比喻用法借用任何计算体系之名，再抽掉数学，只留下那份冷。"
-  },
-  {
-   "no": "04",
-   "title": "A stone in the kidney",
-   "titleCN": "肾结石",
-   "definition": "a hard mass formed from minerals in the kidney or bladder",
-   "definitionCN": "由矿物质在肾或膀胱中形成的坚硬块状物",
-   "example": "The doctor found a small calculus in the patient's kidney.",
-   "exampleCN": "医生在病人肾脏里发现一颗小结石。",
-   "why": "The Latin word meant a small pebble, and medical writers used it for stones formed in the body because the resemblance was exact.",
-   "whyCN": "这个拉丁词本指小石子，医学作者用它指体内形成的石头，因为两者形状确实相似。"
-  },
-  {
-   "no": "05",
-   "title": "Hard deposit on teeth",
-   "titleCN": "牙结石",
-   "definition": "a hardened layer of mineral deposit on the surface of a tooth",
-   "definitionCN": "牙齿表面矿化变硬的沉积层",
-   "example": "Dental calculus has to be removed by a hygienist.",
-   "exampleCN": "牙结石必须由洁牙师清除。",
-   "why": "The same pebble image extends to any hard mineral crust, and dentistry took it for the deposit on teeth.",
-   "whyCN": "同一个石子意象扩展到任何坚硬矿壳，牙科取它指牙面上的沉积。"
-  },
-  {
-   "no": "06",
-   "title": "A formal system of inference",
-   "titleCN": "形式化的推演体系",
-   "definition": "a set of symbols and rules for deriving statements, as in the propositional or predicate calculus",
-   "definitionCN": "由符号与规则组成、用于推出命题的体系，如命题演算或谓词演算",
-   "example": "The predicate calculus made the argument checkable by machine.",
-   "exampleCN": "谓词演算使这个论证可以由机器检验。",
-   "why": "Logicians wanted a word for rule-governed symbol manipulation, and borrowed the mathematicians' word for a computing system.",
-   "whyCN": "逻辑学家需要一个词指按规则摆弄符号，于是借用了数学家的「计算体系」一词。"
-  },
-  {
-   "no": "07",
-   "title": "A system of calculation in general",
-   "titleCN": "泛指一套计算体系",
-   "definition": "any organised method of computing according to fixed rules",
-   "definitionCN": "任何按固定规则进行计算的成体系方法",
-   "example": "Every calculus is a machine made of rules rather than wheels.",
-   "exampleCN": "每一套演算都是用规则而非齿轮做成的机器。",
-   "why": "The word's older and wider sense simply names an organised way of reckoning, before it was attached to any one branch.",
-   "whyCN": "这个词更旧更宽的义项只是命名一种成体系的算法，尚未绑定到某一分支。"
-  },
-  {
-   "no": "08",
-   "title": "The pebble used for counting",
-   "titleCN": "本义：计数用的小石子",
-   "definition": "in Latin, a small stone moved on a counting board to keep a tally",
-   "definitionCN": "在拉丁语中指在算板上拨动以记数的小石子",
-   "example": "Roman accountants moved calculi across a board instead of writing figures.",
-   "exampleCN": "罗马的账房拨动算板上的石子，而不写数字。",
-   "why": "The whole family of words about calculation begins with a handful of pebbles.",
-   "whyCN": "整套关于计算的词，都从一把小石子开始。"
-  }
- ],
- "etymology": {
-  "intro": {
-   "en": "The word is Latin for a small pebble, and it came to name both stones in the body and systems of calculation. Dates are approximate.",
-   "cn": "这个词在拉丁语中意为小石子，后来既指体内结石，也指计算体系。年代均为约数。"
-  },
-  "items": [
-   {
-    "era": "LATIN CALX",
-    "en": "Calx meant 'limestone, chalk'. Its origin is not established, and the forms offered for it in older etymologies are reconstructions.",
-    "cn": "calx 意为「石灰岩、白垩」。其来源未得到证明，较早词源学为其给出的形式均属重构。"
-   },
-   {
-    "era": "LATIN CALCULUS",
-    "en": "The diminutive calculus named a small stone or pebble, the kind moved on a counting board.",
-    "cn": "指小形式 calculus 指小石头或卵石，正是算板上被拨动的那一种。"
-   },
-   {
-    "era": "COUNTING BY PEBBLES",
-    "en": "From the pebbles came calculare 'to reckon' and the whole later family of words about calculation.",
-    "cn": "由这些石子生出表示「计算」的动词，以及后来整套与计算有关的词。"
-   },
-   {
-    "era": "MEDICAL SENSE",
-    "en": "Medical Latin used calculus for a hard mass formed in the body; English keeps this sense in renal and dental use.",
-    "cn": "医学拉丁语用 calculus 指体内形成的硬块；英语在肾结石与牙结石中保留这一义项。"
-   },
-   {
-    "era": "SEVENTEENTH-CENTURY MATHEMATICS",
-    "en": "Newton and Leibniz each built a method for rates and totals, and the Latin word for a system of computation was chosen to name it.",
-    "cn": "牛顿与莱布尼茨各自建立了处理变化率与总量的方法，人们选用拉丁语中表示计算体系的词来命名。"
-   },
-   {
-    "era": "MODERN SPLIT",
-    "en": "English now uses the singular for the branch and the Latin plural calculi for stones, so the two senses are kept apart by their plurals. First date uncertain: the logic sense spread through nineteenth- and twentieth-century textbooks with no single coining.",
-    "cn": "英语如今用单数指分支，用拉丁复数 calculi 指结石，两个义项靠复数形式分开。首见年代不确定：逻辑义经十九、二十世纪教科书扩散，并无单次命名。"
-   }
-  ]
- },
- "similar": {
-  "note": {
-   "en": "Group one separates near forms of the same root; group two separates other mathematical systems.",
-   "cn": "第一组辨析同根近形词；第二组辨析其他数学体系。"
-  },
-  "groups": [
-   {
-    "heading": "LOOK-ALIKE",
-    "entries": [
-     {
-      "word": "calculate",
-      "ipa": "/ˈkælkjuleɪt/",
-      "tag": "the verb",
-      "definition": "To work something out by arithmetic; it comes from the same pebble root but names the act, not the branch.",
-      "definitionCN": "指用算术算出某事；同出石子词根，但指行为而非分支。"
-     },
-     {
-      "word": "calculation",
-      "ipa": "/ˌkælkjəˈleɪʃən/",
-      "tag": "the act or result",
-      "definition": "The process or outcome of reckoning; it lacks the technical meaning of a formal system.",
-      "definitionCN": "计算的过程或结果；不含「形式体系」这一技术义。"
-     },
-     {
-      "word": "calculator",
-      "ipa": "/ˈkælkjuleɪtə/",
-      "tag": "the machine",
-      "definition": "A device that performs arithmetic; the suffix marks an instrument rather than a body of mathematics.",
-      "definitionCN": "执行算术运算的装置；词尾标记器械而非数学体系。"
-     },
-     {
-      "word": "calculous",
-      "ipa": "/ˈkælkjələs/",
-      "tag": "the adjective",
-      "definition": "An adjective meaning 'of the nature of a stone', used in medicine; it looks like the noun but is a describing word.",
-      "definitionCN": "意为「结石性的」医学形容词；看起来像名词，实为描述词。"
-     }
-    ]
-   },
-   {
-    "heading": "NEAR MEANING",
-    "entries": [
-     {
-      "word": "algebra",
-      "ipa": "/ˈældʒəbrə/",
-      "tag": "symbols and unknowns",
-      "definition": "Solves equations by rearranging symbols; calculus instead handles change and accumulation.",
-      "definitionCN": "通过重排符号解方程；微积分处理的则是变化与累积。"
-     },
-     {
-      "word": "analysis",
-      "ipa": "/əˈnælɪsɪs/",
-      "tag": "the wider modern field",
-      "definition": "The modern branch that contains calculus together with limits, series and functions; calculus is its introductory core.",
-      "definitionCN": "包含微积分以及极限、级数与函数的现代分支；微积分是它的入门核心。"
-     },
-     {
-      "word": "arithmetic",
-      "ipa": "/əˈrɪθmətɪk/",
-      "tag": "the four operations",
-      "definition": "Works with fixed numbers and the four operations; it has no notion of a limit.",
-      "definitionCN": "用固定数字做四则运算；没有极限的概念。"
-     },
-     {
-      "word": "geometry",
-      "ipa": "/dʒiˈɒmətri/",
-      "tag": "shape and space",
-      "definition": "Studies figures and space; calculus supplies the tools for curves and areas that geometry alone cannot total.",
-      "definitionCN": "研究图形与空间；微积分为几何单独无法求总的曲线与面积提供工具。"
-     }
-    ]
-   }
-  ]
- },
- "mnemonics": {
-  "normalIntro": {
-   "en": "Normal associations: real morphemes, real fixed phrases and real relatives, not invented rhymes.",
-   "cn": "正常联想：真实的构词成分、真实固定搭配与真实同族词，而非编造的顺口溜。"
-  },
-  "normal": [
-   {
-    "en": "The Latin word is a small pebble, so every word about calculation began with stones moved on a board.",
-    "cn": "这个拉丁词就是小石子，因此一切关于计算的词都起于算板上被拨动的石子。"
-   },
-   {
-    "en": "The same pebble named the stone in a kidney, which is why medicine and mathematics share one spelling.",
-    "cn": "同一颗石子也命名肾中的石头，因此医学与数学共用一个拼写。"
-   },
-   {
-    "en": "Fixed phrases mark both lives of the word: differential calculus, integral calculus, renal calculus, dental calculus.",
-    "cn": "固定搭配标出这个词的两世：微分学、积分学、肾结石、牙结石。"
-   },
-   {
-    "en": "The plural separates the senses: one form for systems, another for stones.",
-    "cn": "复数把义项分开：体系义与结石义各用不同的复数形式。"
-   },
-   {
-    "en": "A calculus is a machine made of rules, which is why logicians borrowed the name for formal inference.",
-    "cn": "一套演算是用规则做成的机器，因此逻辑学家借这个名称指形式推演。"
-   }
-  ],
-  "abstract": [
-   {
-    "en": "Picture a bowl of pebbles and a board of tally marks, the first computer.",
-    "cn": "想象一碗石子与一块刻满记号的板，那是最早的计算机。"
-   },
-   {
-    "en": "Picture a curve cut into strips so thin that each strip is almost a rectangle, then all added.",
-    "cn": "想象一条曲线被切成极薄的条，每条几乎是一个矩形，然后把它们相加。"
-   },
-   {
-    "en": "Picture a committee deciding lives by columns of figures, with no faces in the room.",
-    "cn": "想象一个委员会按几列数字决定人的去留，屋里没有一张脸。"
-   }
-  ]
- },
- "examples": [
-  {
-   "en": "Calculus is required for the physics major.",
-   "cn": "物理专业要求学微积分。"
-  },
-  {
-   "en": "The surgeon removed a calculus from the duct.",
-   "cn": "外科医生从导管中取出一颗结石。"
-  },
-  {
-   "en": "Their calculus ignored every cost that could not be counted.",
-   "cn": "他们的算计忽略了所有无法计数的代价。"
-  }
- ],
- "dict_mnemonic": {
-  "note": "谐音记忆 · 非词源",
-  "text": "记作「小石子」：拉丁语小石子，算板上拨石记数 → 计算体系 → 微积分、结石",
-  "word": "calculus"
- },
- "root": "拉丁 calx「石灰岩」的指小形式 calculus「小石子」，本指算板上记数用的石子，由此生出「计算」一族词；医学拉丁语借指体内结石；十七世纪牛顿与莱布尼茨的方法借「计算体系」之名，遂成微积分。",
- "sensesIntro": {
-  "en": "Eight senses follow a handful of pebbles: the branch of change, its course, a cold reckoning, a kidney stone, a deposit on teeth, a formal system of inference, any rule-governed computation, and the pebble itself.",
-  "cn": "八个义项沿一把小石子展开：研究变化的分支、其课程、冷酷的算计、肾结石、牙结石、形式推演体系、任何按规则的计算，以及那颗石子本身。"
- },
- "semanticMap": {
-  "core": {
-   "en": "CORE IMAGE: a bowl of pebbles beside a tally board, each stone moved to keep count.",
-   "cn": "核心意象：一只碗的石子放在记数板旁，每颗都被拨动以记数。"
-  },
-  "chain": [
-   "A SMALL STONE",
-   "KEEP COUNT",
-   "A SYSTEM OF RULES",
-   "RATES AND TOTALS",
-   "A HARD MASS",
-   "A COLD SUM"
-  ],
-  "branches": [
-   {
-    "senses": "01 · 07",
-    "en": "The branch and the general system: calculus is one organised way of computing, raised to a whole subject.",
-    "cn": "分支与一般体系：微积分是一种成体系的算法，被提升为一门学科。"
-   },
-   {
-    "senses": "02 · 03",
-    "en": "The course and the cold sum: one taught in a hall, one done in a boardroom with no faces.",
-    "cn": "课程与冷酷算账：一在大教室被教，一在会议室里做，后者没有脸孔。"
-   },
-   {
-    "senses": "04 · 05",
-    "en": "The stone in the body: kidney and tooth, both named after a pebble.",
-    "cn": "体内的石头：肾与牙，都以石子为名。"
-   },
-   {
-    "senses": "06",
-    "en": "The formal system: rules for deriving statements, borrowed from the computing sense.",
-    "cn": "形式体系：推演的规则，借自计算义。"
-   },
-   {
-    "senses": "08",
-    "en": "The pebble itself, where the whole family starts.",
-    "cn": "石子本身，整族词的起点。"
-   }
-  ]
- },
- "affixes": {
-  "intro": {
-   "en": "The word is a Latin diminutive, so its shape is root plus a suffix meaning 'little'; every English relative keeps that root.",
-   "cn": "这个词是拉丁指小形式，形状为词根加表示「小」的后缀；每个英语亲属词都保留这个词根。"
-  },
-  "latinIntro": {
-   "en": "Latin calx 'limestone' gives the root, -culus makes it a small stone, and calculare turns the stone into the act of reckoning.",
-   "cn": "拉丁语表示石灰岩的词给出词根，指小后缀把它变成小石子，动词又把石子变成计算的行为。"
-  },
-  "items": [
-   {
-    "word": "calx",
-    "structure": "Latin noun (f., calcis)",
-    "meaning": "limestone, chalk",
-    "meaningCN": "石灰岩；白垩",
-    "example": "The root names the material of which the pebbles were made.",
-    "exampleCN": "这个词根命名石子所用的材料。"
-   },
-   {
-    "word": "-culus",
-    "structure": "Latin diminutive suffix",
-    "meaning": "little",
-    "meaningCN": "小的",
-    "example": "The suffix shrinks the material into a single pebble.",
-    "exampleCN": "这个后缀把材料缩小成一颗石子。"
-   },
-   {
     "word": "calculus",
-    "structure": "calx + -culus",
-    "meaning": "a small stone, a pebble",
-    "meaningCN": "小石头；卵石",
-    "example": "The diminutive is the base of the whole family.",
-    "exampleCN": "这个指小形式是整族词的基础。"
-   },
-   {
-    "word": "calculare",
-    "structure": "calculus + -are (verb)",
-    "meaning": "to reckon with pebbles",
-    "meaningCN": "用石子计算",
-    "example": "The verb turns the object into an activity.",
-    "exampleCN": "这个动词把对象变成活动。"
-   },
-   {
-    "word": "calculate",
-    "structure": "calculare through French",
-    "meaning": "to work out by reckoning",
-    "meaningCN": "计算；算出",
-    "example": "English keeps the everyday verb from the same pebble.",
-    "exampleCN": "英语从这个石子得到日常动词。"
-   },
-   {
-    "word": "calculation",
-    "structure": "calculate + -ion",
-    "meaning": "the act or result of reckoning",
-    "meaningCN": "计算的行为或结果",
-    "example": "The noun names what the verb does.",
-    "exampleCN": "名词命名动词所做之事。"
-   },
-   {
-    "word": "calculous",
-    "structure": "calculus + -ous",
-    "meaning": "full of or caused by stones",
-    "meaningCN": "含石的；结石性的",
-    "example": "The adjective belongs to the medical sense only.",
-    "exampleCN": "这个形容词只属于医学义。"
-   },
-   {
-    "word": "calculi",
-    "structure": "Latin plural of calculus",
-    "meaning": "stones (in the body)",
-    "meaningCN": "体内的结石",
-    "example": "The Latin plural keeps the medical sense separate.",
-    "exampleCN": "拉丁复数把医学义单独保留。"
-   },
-   {
-    "word": "predicate calculus",
-    "structure": "fixed phrase",
-    "meaning": "a formal system for inference",
-    "meaningCN": "一种形式推演体系",
-    "example": "The phrase shows the borrowing by logic.",
-    "exampleCN": "这个短语显示逻辑学对它的借用。"
-   }
-  ],
-  "latinEntries": [
-   {
-    "word": "calculus",
-    "structure": "calculus, calculi (m., second declension)",
-    "meaning": "a pebble; a stone in the body",
-    "meaningCN": "卵石；体内结石"
-   },
-   {
-    "word": "calx",
-    "structure": "calx, calcis (f., third declension)",
-    "meaning": "limestone, chalk",
-    "meaningCN": "石灰岩；白垩"
-   },
-   {
-    "word": "calculare",
-    "structure": "calculare, calculavi, calculatum (verb, first conjugation)",
-    "meaning": "to reckon, compute",
-    "meaningCN": "计算；估算"
-   }
-  ],
-  "derivatives": [
-   {
-    "word": "calculate",
-    "pos": "v.",
-    "zh": "计算"
-   },
-   {
-    "word": "calculation",
-    "pos": "n.",
-    "zh": "计算；算计"
-   },
-   {
-    "word": "calculator",
-    "pos": "n.",
-    "zh": "计算器"
-   },
-   {
-    "word": "calculous",
-    "pos": "adj.",
-    "zh": "结石的"
-   }
-  ]
- }
-}
+    "ipa_uk": "/ˈkælkjələs/",
+    "ipa_us": "/ˈkælkjələs/",
+    "definition_zh": "微积分；演算体系；（体内）结石",
+    "definition_en": "the branch of mathematics that studies continuous change through derivatives and integrals; also a system of calculation, or a hard mass formed in the body",
+    "core_image": "一只碗里堆着几颗小石子，旁边是一张记满刻痕的木板，石子被一颗颗拨动来记数",
+    "scene": "桌上一只碗里堆着几颗小石子，旁边是一块刻满记号的木板，有人把石子一颗颗拨过去记数。The doctor found a small calculus in the patient's kidney.",
+    "sceneCN": "这里 calculus 指「体内形成的结石」（第 4 个义项：结石）；句意为医生在病人肾脏里发现一颗小结石。图中可辨识物件：碗、小石子、刻痕木板、拨动的手。",
+    "pos": [
+      {
+        "tag": "n.",
+        "zh": "微积分；演算体系；结石"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "differential calculus",
+        "zh": "微分学"
+      },
+      {
+        "phrase": "integral calculus",
+        "zh": "积分学"
+      },
+      {
+        "phrase": "calculus course",
+        "zh": "微积分课程"
+      },
+      {
+        "phrase": "renal calculus",
+        "zh": "肾结石"
+      },
+      {
+        "phrase": "dental calculus",
+        "zh": "牙结石"
+      },
+      {
+        "phrase": "predicate calculus",
+        "zh": "谓词演算"
+      }
+    ],
+    "forms": [
+      {
+        "label": "复数（演算体系义）",
+        "form": "calculuses"
+      },
+      {
+        "label": "复数（结石义）",
+        "form": "calculi"
+      },
+      {
+        "label": "形容词（结石的）",
+        "form": "calculous"
+      },
+      {
+        "label": "形容词（演算的）",
+        "form": "calculary"
+      },
+      {
+        "label": "相关动词",
+        "form": "calculate"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "calculate",
+        "pos": "v.",
+        "zh": "计算；推算"
+      },
+      {
+        "word": "calculation",
+        "pos": "n.",
+        "zh": "计算；算计"
+      },
+      {
+        "word": "calculator",
+        "pos": "n.",
+        "zh": "计算器"
+      },
+      {
+        "word": "calculous",
+        "pos": "adj.",
+        "zh": "结石的"
+      },
+      {
+        "word": "calculi",
+        "pos": "n.",
+        "zh": "结石（复数）"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "The mathematics of continuous change",
+        "titleCN": "研究连续变化的微积分",
+        "definition": "the branch of mathematics that studies rates of change and accumulated totals by means of derivatives and integrals",
+        "definitionCN": "用导数与积分研究变化率与累积总量的数学分支",
+        "example": "Calculus turned the problem of motion into a problem of rates.",
+        "exampleCN": "微积分把运动问题化为变化率问题。",
+        "why": "The core sense is a system of computation built for quantities that change smoothly rather than in steps.",
+        "whyCN": "核心义是一套为平滑变化（而非逐级跳变）的量而建的计算体系。"
+      },
+      {
+        "no": "02",
+        "title": "The course in it",
+        "titleCN": "微积分课程",
+        "definition": "the university course in which differentiation and integration are taught",
+        "definitionCN": "教授微分与积分的大学课程",
+        "example": "Calculus is the gate through which most science students must pass.",
+        "exampleCN": "微积分是多数理科学生必须通过的关口。",
+        "why": "A branch taught to large numbers of students becomes a named course, and the word follows the timetable.",
+        "whyCN": "一门教给大量学生的学问成为具名课程，这个词也随之进入课表。"
+      },
+      {
+        "no": "03",
+        "title": "A cold reckoning",
+        "titleCN": "冷酷的精算（比喻）",
+        "definition": "used of a hard calculation of costs and benefits in which feelings play no part",
+        "definitionCN": "指不计感情、只算得失的冷酷算计",
+        "example": "The firm's calculus was simple: two hundred jobs against one factory.",
+        "exampleCN": "公司的算账很简单：两百个岗位对一座工厂。",
+        "why": "The figurative use borrows the word for any system of computation, then strips it of mathematics and leaves only the coldness.",
+        "whyCN": "比喻用法借用任何计算体系之名，再抽掉数学，只留下那份冷。"
+      },
+      {
+        "no": "04",
+        "title": "A stone in the kidney",
+        "titleCN": "肾结石",
+        "definition": "a hard mass formed from minerals in the kidney or bladder",
+        "definitionCN": "由矿物质在肾或膀胱中形成的坚硬块状物",
+        "example": "The doctor found a small calculus in the patient's kidney.",
+        "exampleCN": "医生在病人肾脏里发现一颗小结石。",
+        "why": "The Latin word meant a small pebble, and medical writers used it for stones formed in the body because the resemblance was exact.",
+        "whyCN": "这个拉丁词本指小石子，医学作者用它指体内形成的石头，因为两者形状确实相似。"
+      },
+      {
+        "no": "05",
+        "title": "Hard deposit on teeth",
+        "titleCN": "牙结石",
+        "definition": "a hardened layer of mineral deposit on the surface of a tooth",
+        "definitionCN": "牙齿表面矿化变硬的沉积层",
+        "example": "Dental calculus has to be removed by a hygienist.",
+        "exampleCN": "牙结石必须由洁牙师清除。",
+        "why": "The same pebble image extends to any hard mineral crust, and dentistry took it for the deposit on teeth.",
+        "whyCN": "同一个石子意象扩展到任何坚硬矿壳，牙科取它指牙面上的沉积。"
+      },
+      {
+        "no": "06",
+        "title": "A formal system of inference",
+        "titleCN": "形式化的推演体系",
+        "definition": "a set of symbols and rules for deriving statements, as in the propositional or predicate calculus",
+        "definitionCN": "由符号与规则组成、用于推出命题的体系，如命题演算或谓词演算",
+        "example": "The predicate calculus made the argument checkable by machine.",
+        "exampleCN": "谓词演算使这个论证可以由机器检验。",
+        "why": "Logicians wanted a word for rule-governed symbol manipulation, and borrowed the mathematicians' word for a computing system.",
+        "whyCN": "逻辑学家需要一个词指按规则摆弄符号，于是借用了数学家的「计算体系」一词。"
+      },
+      {
+        "no": "07",
+        "title": "A system of calculation in general",
+        "titleCN": "泛指一套计算体系",
+        "definition": "any organised method of computing according to fixed rules",
+        "definitionCN": "任何按固定规则进行计算的成体系方法",
+        "example": "Every calculus is a machine made of rules rather than wheels.",
+        "exampleCN": "每一套演算都是用规则而非齿轮做成的机器。",
+        "why": "The word's older and wider sense simply names an organised way of reckoning, before it was attached to any one branch.",
+        "whyCN": "这个词更旧更宽的义项只是命名一种成体系的算法，尚未绑定到某一分支。"
+      },
+      {
+        "no": "08",
+        "title": "The pebble used for counting",
+        "titleCN": "本义：计数用的小石子",
+        "definition": "in Latin, a small stone moved on a counting board to keep a tally",
+        "definitionCN": "在拉丁语中指在算板上拨动以记数的小石子",
+        "example": "Roman accountants moved calculi across a board instead of writing figures.",
+        "exampleCN": "罗马的账房拨动算板上的石子，而不写数字。",
+        "why": "The whole family of words about calculation begins with a handful of pebbles.",
+        "whyCN": "整套关于计算的词，都从一把小石子开始。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "The word is Latin for a small pebble, and it came to name both stones in the body and systems of calculation. Dates are approximate.",
+        "cn": "这个词在拉丁语中意为小石子，后来既指体内结石，也指计算体系。年代均为约数。"
+      },
+      "items": [
+        {
+          "era": "LATIN CALX",
+          "en": "Calx meant 'limestone, chalk'. Its origin is not established, and the forms offered for it in older etymologies are reconstructions.",
+          "cn": "calx 意为「石灰岩、白垩」。其来源未得到证明，较早词源学为其给出的形式均属重构。"
+        },
+        {
+          "era": "LATIN CALCULUS",
+          "en": "The diminutive calculus named a small stone or pebble, the kind moved on a counting board.",
+          "cn": "指小形式 calculus 指小石头或卵石，正是算板上被拨动的那一种。"
+        },
+        {
+          "era": "COUNTING BY PEBBLES",
+          "en": "From the pebbles came calculare 'to reckon' and the whole later family of words about calculation.",
+          "cn": "由这些石子生出表示「计算」的动词，以及后来整套与计算有关的词。"
+        },
+        {
+          "era": "MEDICAL SENSE",
+          "en": "Medical Latin used calculus for a hard mass formed in the body; English keeps this sense in renal and dental use.",
+          "cn": "医学拉丁语用 calculus 指体内形成的硬块；英语在肾结石与牙结石中保留这一义项。"
+        },
+        {
+          "era": "SEVENTEENTH-CENTURY MATHEMATICS",
+          "en": "Newton and Leibniz each built a method for rates and totals, and the Latin word for a system of computation was chosen to name it.",
+          "cn": "牛顿与莱布尼茨各自建立了处理变化率与总量的方法，人们选用拉丁语中表示计算体系的词来命名。"
+        },
+        {
+          "era": "MODERN SPLIT",
+          "en": "English now uses the singular for the branch and the Latin plural calculi for stones, so the two senses are kept apart by their plurals. First date uncertain: the logic sense spread through nineteenth- and twentieth-century textbooks with no single coining.",
+          "cn": "英语如今用单数指分支，用拉丁复数 calculi 指结石，两个义项靠复数形式分开。首见年代不确定：逻辑义经十九、二十世纪教科书扩散，并无单次命名。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "Group one separates near forms of the same root; group two separates other mathematical systems.",
+        "cn": "第一组辨析同根近形词；第二组辨析其他数学体系。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "calculate",
+              "ipa": "/ˈkælkjuleɪt/",
+              "tag": "the verb",
+              "definition": "To work something out by arithmetic; it comes from the same pebble root but names the act, not the branch.",
+              "definitionCN": "指用算术算出某事；同出石子词根，但指行为而非分支。"
+            },
+            {
+              "word": "calculation",
+              "ipa": "/ˌkælkjəˈleɪʃən/",
+              "tag": "the act or result",
+              "definition": "The process or outcome of reckoning; it lacks the technical meaning of a formal system.",
+              "definitionCN": "计算的过程或结果；不含「形式体系」这一技术义。"
+            },
+            {
+              "word": "calculator",
+              "ipa": "/ˈkælkjuleɪtə/",
+              "tag": "the machine",
+              "definition": "A device that performs arithmetic; the suffix marks an instrument rather than a body of mathematics.",
+              "definitionCN": "执行算术运算的装置；词尾标记器械而非数学体系。"
+            },
+            {
+              "word": "calculous",
+              "ipa": "/ˈkælkjələs/",
+              "tag": "the adjective",
+              "definition": "An adjective meaning 'of the nature of a stone', used in medicine; it looks like the noun but is a describing word.",
+              "definitionCN": "意为「结石性的」医学形容词；看起来像名词，实为描述词。"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "algebra",
+              "ipa": "/ˈældʒəbrə/",
+              "tag": "symbols and unknowns",
+              "definition": "Solves equations by rearranging symbols; calculus instead handles change and accumulation.",
+              "definitionCN": "通过重排符号解方程；微积分处理的则是变化与累积。"
+            },
+            {
+              "word": "analysis",
+              "ipa": "/əˈnælɪsɪs/",
+              "tag": "the wider modern field",
+              "definition": "The modern branch that contains calculus together with limits, series and functions; calculus is its introductory core.",
+              "definitionCN": "包含微积分以及极限、级数与函数的现代分支；微积分是它的入门核心。"
+            },
+            {
+              "word": "arithmetic",
+              "ipa": "/əˈrɪθmətɪk/",
+              "tag": "the four operations",
+              "definition": "Works with fixed numbers and the four operations; it has no notion of a limit.",
+              "definitionCN": "用固定数字做四则运算；没有极限的概念。"
+            },
+            {
+              "word": "geometry",
+              "ipa": "/dʒiˈɒmətri/",
+              "tag": "shape and space",
+              "definition": "Studies figures and space; calculus supplies the tools for curves and areas that geometry alone cannot total.",
+              "definitionCN": "研究图形与空间；微积分为几何单独无法求总的曲线与面积提供工具。"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Normal associations: real morphemes, real fixed phrases and real relatives, not invented rhymes.",
+        "cn": "正常联想：真实的构词成分、真实固定搭配与真实同族词，而非编造的顺口溜。"
+      },
+      "normal": [
+        {
+          "en": "The Latin word is a small pebble, so every word about calculation began with stones moved on a board.",
+          "cn": "这个拉丁词就是小石子，因此一切关于计算的词都起于算板上被拨动的石子。"
+        },
+        {
+          "en": "The same pebble named the stone in a kidney, which is why medicine and mathematics share one spelling.",
+          "cn": "同一颗石子也命名肾中的石头，因此医学与数学共用一个拼写。"
+        },
+        {
+          "en": "Fixed phrases mark both lives of the word: differential calculus, integral calculus, renal calculus, dental calculus.",
+          "cn": "固定搭配标出这个词的两世：微分学、积分学、肾结石、牙结石。"
+        },
+        {
+          "en": "The plural separates the senses: one form for systems, another for stones.",
+          "cn": "复数把义项分开：体系义与结石义各用不同的复数形式。"
+        },
+        {
+          "en": "A calculus is a machine made of rules, which is why logicians borrowed the name for formal inference.",
+          "cn": "一套演算是用规则做成的机器，因此逻辑学家借这个名称指形式推演。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "Picture a bowl of pebbles and a board of tally marks, the first computer.",
+          "cn": "想象一碗石子与一块刻满记号的板，那是最早的计算机。"
+        },
+        {
+          "en": "Picture a curve cut into strips so thin that each strip is almost a rectangle, then all added.",
+          "cn": "想象一条曲线被切成极薄的条，每条几乎是一个矩形，然后把它们相加。"
+        },
+        {
+          "en": "Picture a committee deciding lives by columns of figures, with no faces in the room.",
+          "cn": "想象一个委员会按几列数字决定人的去留，屋里没有一张脸。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "Calculus is required for the physics major.",
+        "cn": "物理专业要求学微积分。"
+      },
+      {
+        "en": "The surgeon removed a calculus from the duct.",
+        "cn": "外科医生从导管中取出一颗结石。"
+      },
+      {
+        "en": "Their calculus ignored every cost that could not be counted.",
+        "cn": "他们的算计忽略了所有无法计数的代价。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "记作「小石子」：拉丁语小石子，算板上拨石记数 → 计算体系 → 微积分、结石",
+      "word": "calculus"
+    },
+    "root": "拉丁 calx「石灰岩」的指小形式 calculus「小石子」，本指算板上记数用的石子，由此生出「计算」一族词；医学拉丁语借指体内结石；十七世纪牛顿与莱布尼茨的方法借「计算体系」之名，遂成微积分。",
+    "sensesIntro": {
+      "en": "Eight senses follow a handful of pebbles: the branch of change, its course, a cold reckoning, a kidney stone, a deposit on teeth, a formal system of inference, any rule-governed computation, and the pebble itself.",
+      "cn": "八个义项沿一把小石子展开：研究变化的分支、其课程、冷酷的算计、肾结石、牙结石、形式推演体系、任何按规则的计算，以及那颗石子本身。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: a bowl of pebbles beside a tally board, each stone moved to keep count.",
+        "cn": "核心意象：一只碗的石子放在记数板旁，每颗都被拨动以记数。"
+      },
+      "chain": [
+        "A SMALL STONE",
+        "KEEP COUNT",
+        "A SYSTEM OF RULES",
+        "RATES AND TOTALS",
+        "A HARD MASS",
+        "A COLD SUM"
+      ],
+      "branches": [
+        {
+          "senses": "01 · 07",
+          "en": "The branch and the general system: calculus is one organised way of computing, raised to a whole subject.",
+          "cn": "分支与一般体系：微积分是一种成体系的算法，被提升为一门学科。"
+        },
+        {
+          "senses": "02 · 03",
+          "en": "The course and the cold sum: one taught in a hall, one done in a boardroom with no faces.",
+          "cn": "课程与冷酷算账：一在大教室被教，一在会议室里做，后者没有脸孔。"
+        },
+        {
+          "senses": "04 · 05",
+          "en": "The stone in the body: kidney and tooth, both named after a pebble.",
+          "cn": "体内的石头：肾与牙，都以石子为名。"
+        },
+        {
+          "senses": "06",
+          "en": "The formal system: rules for deriving statements, borrowed from the computing sense.",
+          "cn": "形式体系：推演的规则，借自计算义。"
+        },
+        {
+          "senses": "08",
+          "en": "The pebble itself, where the whole family starts.",
+          "cn": "石子本身，整族词的起点。"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "The word is a Latin diminutive, so its shape is root plus a suffix meaning 'little'; every English relative keeps that root.",
+        "cn": "这个词是拉丁指小形式，形状为词根加表示「小」的后缀；每个英语亲属词都保留这个词根。"
+      },
+      "latinIntro": {
+        "en": "Latin calx 'limestone' gives the root, -culus makes it a small stone, and calculare turns the stone into the act of reckoning.",
+        "cn": "拉丁语表示石灰岩的词给出词根，指小后缀把它变成小石子，动词又把石子变成计算的行为。"
+      },
+      "items": [
+        {
+          "word": "calx",
+          "structure": "Latin noun (f., calcis)",
+          "meaning": "limestone, chalk",
+          "meaningCN": "石灰岩；白垩",
+          "example": "The root names the material of which the pebbles were made.",
+          "exampleCN": "这个词根命名石子所用的材料。"
+        },
+        {
+          "word": "-culus",
+          "structure": "Latin diminutive suffix",
+          "meaning": "little",
+          "meaningCN": "小的",
+          "example": "The suffix shrinks the material into a single pebble.",
+          "exampleCN": "这个后缀把材料缩小成一颗石子。"
+        },
+        {
+          "word": "calculus",
+          "structure": "calx + -culus",
+          "meaning": "a small stone, a pebble",
+          "meaningCN": "小石头；卵石",
+          "example": "The diminutive is the base of the whole family.",
+          "exampleCN": "这个指小形式是整族词的基础。"
+        },
+        {
+          "word": "calculare",
+          "structure": "calculus + -are (verb)",
+          "meaning": "to reckon with pebbles",
+          "meaningCN": "用石子计算",
+          "example": "The verb turns the object into an activity.",
+          "exampleCN": "这个动词把对象变成活动。"
+        },
+        {
+          "word": "calculate",
+          "structure": "calculare through French",
+          "meaning": "to work out by reckoning",
+          "meaningCN": "计算；算出",
+          "example": "English keeps the everyday verb from the same pebble.",
+          "exampleCN": "英语从这个石子得到日常动词。"
+        },
+        {
+          "word": "calculation",
+          "structure": "calculate + -ion",
+          "meaning": "the act or result of reckoning",
+          "meaningCN": "计算的行为或结果",
+          "example": "The noun names what the verb does.",
+          "exampleCN": "名词命名动词所做之事。"
+        },
+        {
+          "word": "calculous",
+          "structure": "calculus + -ous",
+          "meaning": "full of or caused by stones",
+          "meaningCN": "含石的；结石性的",
+          "example": "The adjective belongs to the medical sense only.",
+          "exampleCN": "这个形容词只属于医学义。"
+        },
+        {
+          "word": "calculi",
+          "structure": "Latin plural of calculus",
+          "meaning": "stones (in the body)",
+          "meaningCN": "体内的结石",
+          "example": "The Latin plural keeps the medical sense separate.",
+          "exampleCN": "拉丁复数把医学义单独保留。"
+        },
+        {
+          "word": "predicate calculus",
+          "structure": "fixed phrase",
+          "meaning": "a formal system for inference",
+          "meaningCN": "一种形式推演体系",
+          "example": "The phrase shows the borrowing by logic.",
+          "exampleCN": "这个短语显示逻辑学对它的借用。"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "calculus",
+          "structure": "calculus, calculi (m., second declension)",
+          "meaning": "a pebble; a stone in the body",
+          "meaningCN": "卵石；体内结石"
+        },
+        {
+          "word": "calx",
+          "structure": "calx, calcis (f., third declension)",
+          "meaning": "limestone, chalk",
+          "meaningCN": "石灰岩；白垩"
+        },
+        {
+          "word": "calculare",
+          "structure": "calculare, calculavi, calculatum (verb, first conjugation)",
+          "meaning": "to reckon, compute",
+          "meaningCN": "计算；估算"
+        }
+      ],
+      "derivatives": [
+        {
+          "word": "calculate",
+          "pos": "v.",
+          "zh": "计算"
+        },
+        {
+          "word": "calculation",
+          "pos": "n.",
+          "zh": "计算；算计"
+        },
+        {
+          "word": "calculator",
+          "pos": "n.",
+          "zh": "计算器"
+        },
+        {
+          "word": "calculous",
+          "pos": "adj.",
+          "zh": "结石的"
+        }
+      ]
+    }
+  }
+]

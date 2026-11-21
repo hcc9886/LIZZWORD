@@ -1,450 +1,452 @@
-{
- "word": "candidate",
- "ipa_uk": "/ˈkændɪdət/",
- "ipa_us": "/ˈkændɪdət/",
- "definition_zh": "候选人；申请人；应试者；有望成为……的人（或物）",
- "definition_en": "a person who applies for or is put forward for a job, office, honor, or degree; also a thing likely to undergo or suit something",
- "core_image": "古罗马候选人穿一袭特别亮的白袍走在广场上，让人一眼认出他在谋求职位",
- "scene": "招聘会现场，简历一份份递进摊位，玻璃门后是面试官的长桌。Each candidate gave a five-minute self-introduction before the panel.",
- "sceneCN": "这里 candidate 是「求职者、应聘者」（第 2 个义项：谋求职位而接受考察的人）；句意是每位应聘者都向评审团做了五分钟的自我介绍。",
- "pos": [
+[
   {
-   "tag": "n.",
-   "zh": "候选人；候选人（竞选者）"
-  },
-  {
-   "tag": "n.",
-   "zh": "申请人；求职者；应试者"
-  },
-  {
-   "tag": "n.",
-   "zh": "有望成为……的人（或物）；适合的目标"
+    "word": "candidate",
+    "ipa_uk": "/ˈkændɪdət/",
+    "ipa_us": "/ˈkændɪdət/",
+    "definition_zh": "候选人；申请人；应试者；有望成为……的人（或物）",
+    "definition_en": "a person who applies for or is put forward for a job, office, honor, or degree; also a thing likely to undergo or suit something",
+    "core_image": "古罗马候选人穿一袭特别亮的白袍走在广场上，让人一眼认出他在谋求职位",
+    "scene": "招聘会现场，简历一份份递进摊位，玻璃门后是面试官的长桌。Each candidate gave a five-minute self-introduction before the panel.",
+    "sceneCN": "这里 candidate 是「求职者、应聘者」（第 2 个义项：谋求职位而接受考察的人）；句意是每位应聘者都向评审团做了五分钟的自我介绍。",
+    "pos": [
+      {
+        "tag": "n.",
+        "zh": "候选人；候选人（竞选者）"
+      },
+      {
+        "tag": "n.",
+        "zh": "申请人；求职者；应试者"
+      },
+      {
+        "tag": "n.",
+        "zh": "有望成为……的人（或物）；适合的目标"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "presidential candidate",
+        "zh": "总统候选人"
+      },
+      {
+        "phrase": "a candidate for the job",
+        "zh": "该职位的候选人"
+      },
+      {
+        "phrase": "doctoral candidate",
+        "zh": "博士候选人"
+      },
+      {
+        "phrase": "leading candidate",
+        "zh": "领先的候选人"
+      },
+      {
+        "phrase": "a candidate for surgery",
+        "zh": "适合做手术的病人"
+      },
+      {
+        "phrase": "screen candidates",
+        "zh": "甄选候选人"
+      }
+    ],
+    "forms": [
+      {
+        "label": "复数",
+        "form": "candidates"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "candidacy",
+        "pos": "n.",
+        "zh": "由 candidate 加抽象后缀构成，义为「候选资格；候选期」"
+      },
+      {
+        "word": "candid",
+        "pos": "adj.",
+        "zh": "同根词，义为「坦率的；直白的」（同出拉丁语 candidus）"
+      },
+      {
+        "word": "candor",
+        "pos": "n.",
+        "zh": "同根词，义为「坦诚；直率」"
+      },
+      {
+        "word": "candle",
+        "pos": "n.",
+        "zh": "同源远亲，义为「蜡烛」（源自「发光、白亮」同一词根）"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "A person standing for election",
+        "titleCN": "（竞选）候选人",
+        "definition": "a person formally put forward to compete for an elected office",
+        "definitionCN": "被正式提名参加竞选公职的人",
+        "example": "Three candidates are competing for the mayoral seat.",
+        "exampleCN": "三名候选人正在角逐市长职位。",
+        "why": "The Roman office-seeker wore a whitened toga, candidatus, to stand out in the forum.",
+        "whyCN": "罗马的谋官者身穿漂白托加袍（candidatus），好在广场上引人注目。"
+      },
+      {
+        "no": "02",
+        "title": "An applicant for a job or position",
+        "titleCN": "求职者；申请人",
+        "definition": "a person being considered for a post, especially through interviews or review",
+        "definitionCN": "正被考虑录用的人选，通常经过面试或评审",
+        "example": "The committee interviewed twelve candidates for the professorship.",
+        "exampleCN": "委员会面试了十二位申请该教席的人。",
+        "why": "Interviewing is the modern forum: applicants still present themselves to be seen and judged.",
+        "whyCN": "面试就是现代的广场：申请人依然要亮相、被观看与评判。"
+      },
+      {
+        "no": "03",
+        "title": "A person taking an examination",
+        "titleCN": "应试者；考生",
+        "definition": "a person sitting an examination or seeking an academic degree",
+        "definitionCN": "参加考试或谋求学位的人",
+        "example": "Candidates must present their identification before entering the hall.",
+        "exampleCN": "考生进入考场前须出示身份证件。",
+        "why": "A degree candidate stands for a honor yet to be conferred, an unfinished candidacy.",
+        "whyCN": "学位候选人谋求的是尚未授予的资格，候选状态尚未完成。"
+      },
+      {
+        "no": "04",
+        "title": "A thing likely to be chosen or affected",
+        "titleCN": "有望成为……的人（或物）",
+        "definition": "a person or thing considered likely to receive, undergo, or suit something",
+        "definitionCN": "被认为很可能获得、经历或适合某事的人或物",
+        "example": "The old bridge is a candidate for demolition.",
+        "exampleCN": "那座老桥很可能被拆除。",
+        "why": "Selection language transfers from people to objects: anything can wear the bright toga.",
+        "whyCN": "遴选用语由人转移到物：任何对象都可能穿上那件亮白袍。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Candidate comes from Latin candidatus, clothed in white, the shining toga worn by Roman office-seekers, from candidus, glowing white.",
+        "cn": "candidate 源自拉丁语 candidatus（穿白衣的），即罗马谋官者所穿的亮白托加袍，词根是 candidus（发亮的白色）。"
+      },
+      "items": [
+        {
+          "era": "PROTO-INDO-EUROPEAN",
+          "en": "The root *kand- means to shine or glow, giving words for light and whiteness.",
+          "cn": "词根 *kand- 意为发光、白亮，衍生出一批关于光与白的词。"
+        },
+        {
+          "era": "LATIN",
+          "en": "Latin candidus meant white, pure, or sincere; candidatus described the bleached toga of an office-seeker.",
+          "cn": "拉丁语 candidus 意为白的、纯洁的、真诚的；candidatus 形容谋官者漂白的托加袍。"
+        },
+        {
+          "era": "CLASSICAL ROME",
+          "en": "In the forum, the bright toga made the seeker instantly visible; hence candidatus became the word for an office-seeker.",
+          "cn": "在广场上，亮白袍让谋求职位者一眼可辨，candidatus 因此成为「谋官者」的专称。"
+        },
+        {
+          "era": "ENGLISH, 17TH C.",
+          "en": "English borrowed the word in the seventeenth century, at first with a Roman flavor, then for any aspirant.",
+          "cn": "英语于十七世纪借入该词，起初带着罗马色彩，随后泛指一切谋求者。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "Today it covers politicians, job applicants, examinees, and even objects slated for action.",
+          "cn": "如今它涵盖政客、求职者、考生，甚至被列入处理名单的物品。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "Candidate anchors the candidus family of whiteness and openness, and sits beside words for hopeful entrants.",
+        "cn": "candidate 是 candidus「白亮、坦诚」词族的核心，并与一系列「谋求者」词汇相邻。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "candid",
+              "ipa": "/ˈkændɪd/",
+              "tag": "same root, adjective",
+              "definition": "Frank and straightforward, from the same white-pure root.",
+              "definitionCN": "坦率的，源自同一「纯白」词根。"
+            },
+            {
+              "word": "candor",
+              "ipa": "/ˈkændər/",
+              "tag": "same root, noun",
+              "definition": "Openness and honesty of expression.",
+              "definitionCN": "坦诚；直率。"
+            },
+            {
+              "word": "candidacy",
+              "ipa": "/ˈkændɪdəsi/",
+              "tag": "derived form",
+              "definition": "The state or period of being a candidate.",
+              "definitionCN": "候选资格；候选期。"
+            },
+            {
+              "word": "candle",
+              "ipa": "/ˈkændəl/",
+              "tag": "same root, distant",
+              "definition": "A wax light, from the same shining root via Latin candela.",
+              "definitionCN": "蜡烛，经拉丁语 candela 出自同一「发光」词根的远亲。"
+            },
+            {
+              "word": "incandescent",
+              "ipa": "/ˌɪnkænˈdesənt/",
+              "tag": "same root, derived",
+              "definition": "Glowing with heat, the shining root with the in- prefix.",
+              "definitionCN": "白热的；炽热的，同一发光词根加前缀 in- 构成。"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "applicant",
+              "ipa": "/ˈæplɪkənt/",
+              "tag": "near meaning",
+              "definition": "One who formally applies, especially in writing.",
+              "definitionCN": "正式（书面）申请者。"
+            },
+            {
+              "word": "nominee",
+              "ipa": "/ˌnɒmɪˈniː/",
+              "tag": "near meaning",
+              "definition": "One formally named for an office or honor.",
+              "definitionCN": "被正式提名人。"
+            },
+            {
+              "word": "contender",
+              "ipa": "/kənˈtendər/",
+              "tag": "near meaning",
+              "definition": "One who competes seriously for something contested.",
+              "definitionCN": "认真角逐竞争的争夺者。"
+            },
+            {
+              "word": "aspirant",
+              "ipa": "/ˈæspərənt/",
+              "tag": "near meaning, formal",
+              "definition": "One who ambitiously seeks a high position.",
+              "definitionCN": "雄心勃勃谋求高位的人。"
+            },
+            {
+              "word": "incumbent",
+              "ipa": "/ɪnˈkʌmbənt/",
+              "tag": "opposite",
+              "definition": "The current holder of the office a candidate seeks.",
+              "definitionCN": "在任者，即候选人所谋求职位的现任持有者。"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Five hooks on the white toga story and the shining root family.",
+        "cn": "五条围绕「白袍典故」与「发光」词根家族的记忆钩子。"
+      },
+      "normal": [
+        {
+          "en": "Root story: Roman office-seekers wore a bleached toga, candidatus, the man in white.",
+          "cn": "词根典故：罗马谋官者身穿漂白托加袍，candidatus 即「白衣人」。"
+        },
+        {
+          "en": "Same root: candid, candor, candle, and incandescent all shine from one glowing stem.",
+          "cn": "同根串联：candid、candor、candle、incandescent 都从同一「发光」词干发亮。"
+        },
+        {
+          "en": "Collocation grid: presidential candidate, doctoral candidate, a candidate for surgery cover politics, study, and medicine.",
+          "cn": "搭配网格：presidential candidate、doctoral candidate、a candidate for surgery 分别对应政界、学界、医学。"
+        },
+        {
+          "en": "Opposite hook: the incumbent is already in the chair the candidate wants.",
+          "cn": "反义钩子：incumbent（在任者）已坐上候选人想要的位子。"
+        },
+        {
+          "en": "Derived noun: candidacy names the campaign period itself, as in launch a candidacy.",
+          "cn": "派生名词：candidacy 指候选期本身，如 launch a candidacy（宣布参选）。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "A toga bleached so bright it blinds, worn straight into the crowd of voters.",
+          "cn": "一件白得晃眼的托加袍，径直穿进选民的人潮。"
+        },
+        {
+          "en": "A row of chairs outside an interview room, each one holding a hopeful silhouette.",
+          "cn": "面试室外的一排椅子，每把椅子上都坐着一个满怀期待的剪影。"
+        },
+        {
+          "en": "A single name underlined in bright chalk on the blackboard list.",
+          "cn": "黑板名单上一个用亮粉笔加下划线的名字。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "Every candidate promised to fix the same three potholes.",
+        "cn": "每位候选人都承诺修好同样三个坑洼。"
+      },
+      {
+        "en": "The search firm narrowed the pool to six candidates.",
+        "cn": "猎头公司把候选人范围缩小到六人。"
+      },
+      {
+        "en": "Doctors agreed he was an ideal candidate for the transplant.",
+        "cn": "医生一致认为他是移植手术的理想人选。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「坎地得」——翻过坎（坎）走到台前（地）才能得（得）到职位，谋求者先过坎再得地，正是候选人；联想罗马人穿白袍亮相互选。",
+      "word": "candidate"
+    },
+    "root": "源自拉丁语 candidatus（身穿白衣者），指罗马共和国谋求公职者所穿的漂白托加袍；词根为 candidus（发亮的白色、纯洁），可上溯至印欧词根 *kand-（发光）。同根词有 candid（坦率的）、candor（坦诚）、candle（蜡烛）、incandescent（白热的）。十七世纪借入英语，词义从谋官者扩至一切谋求者与受考察者。",
+    "sensesIntro": {
+      "en": "From the man in the bright toga the word spreads to job applicants, examinees, and even objects awaiting action.",
+      "cn": "从「穿亮袍的人」出发，词义扩展到求职者、考生，乃至等待处理的物品。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: a figure in a shining white robe, standing out so the crowd can choose him.",
+        "cn": "核心意象：一身白袍亮到反光的人，站在人群中引人选择。"
+      },
+      "chain": [
+        "SHINING WHITE",
+        "VISIBLE FIGURE",
+        "OFFICE SEEKER",
+        "APPLICANT",
+        "EXAMINEE",
+        "SLATED OBJECT"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "THE FORUM: the Roman candidate turned modern politician.",
+          "cn": "广场：从罗马谋官者到现代政客。"
+        },
+        {
+          "senses": "02",
+          "en": "THE INTERVIEW ROOM: applicants presenting themselves for judgment.",
+          "cn": "面试间：接受评判的申请者。"
+        },
+        {
+          "senses": "03",
+          "en": "THE EXAM HALL: candidates seeking a degree or certificate.",
+          "cn": "考场：谋求学位或证书的应试者。"
+        },
+        {
+          "senses": "04",
+          "en": "THE WORKSHOP: things shortlisted for repair, demolition, or study.",
+          "cn": "工场：被列入待修、待拆、待研究名单的事物。"
+        },
+        {
+          "senses": "01 · 02",
+          "en": "THE COMMON THREAD: to be a candidate is to stand out and be chosen or refused.",
+          "cn": "共同线索：身为候选人，就是要站出来被选中或被淘汰。"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Candidate is candidus plus the agentive ending -atus, the man made shining white.",
+        "cn": "candidate 由 candidus 加施动词尾 -atus 构成，即「被弄得雪亮白的人」。"
+      },
+      "latinIntro": {
+        "en": "The candidus root of shining white feeds a bright family from candles to incandescent bulbs.",
+        "cn": "candidus「发光之白」词根滋养了一个从蜡烛到白炽灯泡的光亮词族。"
+      },
+      "items": [
+        {
+          "word": "cand-",
+          "structure": "Latin root",
+          "meaning": "shine, glow white",
+          "meaningCN": "发光；白亮",
+          "example": "candidus, white and pure",
+          "exampleCN": "candidus，白的、纯洁的。"
+        },
+        {
+          "word": "-atus",
+          "structure": "Latin perfect participle ending",
+          "meaning": "furnished with, made",
+          "meaningCN": "被赋予……的",
+          "example": "candidatus, robed in white",
+          "exampleCN": "candidatus，身着白袍的。"
+        },
+        {
+          "word": "candid",
+          "structure": "cand- + -id",
+          "meaning": "frank, unbiased",
+          "meaningCN": "坦率的；公正的",
+          "example": "a candid assessment",
+          "exampleCN": "坦率的评估。"
+        },
+        {
+          "word": "candor",
+          "structure": "cand- + -or",
+          "meaning": "openness, sincerity",
+          "meaningCN": "坦诚；直率",
+          "example": "speak with candor",
+          "exampleCN": "坦言相告。"
+        },
+        {
+          "word": "candle",
+          "structure": "cand- + -ela",
+          "meaning": "a wax light",
+          "meaningCN": "蜡烛",
+          "example": "candlelight dinner",
+          "exampleCN": "烛光晚餐。"
+        },
+        {
+          "word": "incandescent",
+          "structure": "in- + cand- + -escent",
+          "meaning": "glowing white with heat",
+          "meaningCN": "白热的；炽亮的",
+          "example": "incandescent bulb",
+          "exampleCN": "白炽灯泡。"
+        },
+        {
+          "word": "candidacy",
+          "structure": "candidate + -cy",
+          "meaning": "the state of being a candidate",
+          "meaningCN": "候选资格；候选期",
+          "example": "announce a candidacy",
+          "exampleCN": "宣布参选。"
+        },
+        {
+          "word": "candidature",
+          "structure": "candidate + -ure, British variant",
+          "meaning": "candidacy, chiefly British usage",
+          "meaningCN": "候选资格（英式说法）",
+          "example": "her candidature for the chair",
+          "exampleCN": "她对主席职位的角逐。"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "candidatus",
+          "structure": "Latin adjective as noun",
+          "meaning": "clothed in white; office-seeker",
+          "meaningCN": "穿白衣的；谋官者",
+          "example": "candidatus consulatus",
+          "exampleCN": "执政官职位候选人（拉丁语用例示意）。"
+        }
+      ],
+      "derivatives": [
+        {
+          "word": "candidacy",
+          "pos": "n.",
+          "zh": "候选资格；候选期"
+        },
+        {
+          "word": "candid",
+          "pos": "adj.",
+          "zh": "坦率的；直白的"
+        }
+      ]
+    }
   }
- ],
- "collocations": [
-  {
-   "phrase": "presidential candidate",
-   "zh": "总统候选人"
-  },
-  {
-   "phrase": "a candidate for the job",
-   "zh": "该职位的候选人"
-  },
-  {
-   "phrase": "doctoral candidate",
-   "zh": "博士候选人"
-  },
-  {
-   "phrase": "leading candidate",
-   "zh": "领先的候选人"
-  },
-  {
-   "phrase": "a candidate for surgery",
-   "zh": "适合做手术的病人"
-  },
-  {
-   "phrase": "screen candidates",
-   "zh": "甄选候选人"
-  }
- ],
- "forms": [
-  {
-   "label": "复数",
-   "form": "candidates"
-  }
- ],
- "derivatives": [
-  {
-   "word": "candidacy",
-   "pos": "n.",
-   "zh": "由 candidate 加抽象后缀构成，义为「候选资格；候选期」"
-  },
-  {
-   "word": "candid",
-   "pos": "adj.",
-   "zh": "同根词，义为「坦率的；直白的」（同出拉丁语 candidus）"
-  },
-  {
-   "word": "candor",
-   "pos": "n.",
-   "zh": "同根词，义为「坦诚；直率」"
-  },
-  {
-   "word": "candle",
-   "pos": "n.",
-   "zh": "同源远亲，义为「蜡烛」（源自「发光、白亮」同一词根）"
-  }
- ],
- "senses": [
-  {
-   "no": "01",
-   "title": "A person standing for election",
-   "titleCN": "（竞选）候选人",
-   "definition": "a person formally put forward to compete for an elected office",
-   "definitionCN": "被正式提名参加竞选公职的人",
-   "example": "Three candidates are competing for the mayoral seat.",
-   "exampleCN": "三名候选人正在角逐市长职位。",
-   "why": "The Roman office-seeker wore a whitened toga, candidatus, to stand out in the forum.",
-   "whyCN": "罗马的谋官者身穿漂白托加袍（candidatus），好在广场上引人注目。"
-  },
-  {
-   "no": "02",
-   "title": "An applicant for a job or position",
-   "titleCN": "求职者；申请人",
-   "definition": "a person being considered for a post, especially through interviews or review",
-   "definitionCN": "正被考虑录用的人选，通常经过面试或评审",
-   "example": "The committee interviewed twelve candidates for the professorship.",
-   "exampleCN": "委员会面试了十二位申请该教席的人。",
-   "why": "Interviewing is the modern forum: applicants still present themselves to be seen and judged.",
-   "whyCN": "面试就是现代的广场：申请人依然要亮相、被观看与评判。"
-  },
-  {
-   "no": "03",
-   "title": "A person taking an examination",
-   "titleCN": "应试者；考生",
-   "definition": "a person sitting an examination or seeking an academic degree",
-   "definitionCN": "参加考试或谋求学位的人",
-   "example": "Candidates must present their identification before entering the hall.",
-   "exampleCN": "考生进入考场前须出示身份证件。",
-   "why": "A degree candidate stands for a honor yet to be conferred, an unfinished candidacy.",
-   "whyCN": "学位候选人谋求的是尚未授予的资格，候选状态尚未完成。"
-  },
-  {
-   "no": "04",
-   "title": "A thing likely to be chosen or affected",
-   "titleCN": "有望成为……的人（或物）",
-   "definition": "a person or thing considered likely to receive, undergo, or suit something",
-   "definitionCN": "被认为很可能获得、经历或适合某事的人或物",
-   "example": "The old bridge is a candidate for demolition.",
-   "exampleCN": "那座老桥很可能被拆除。",
-   "why": "Selection language transfers from people to objects: anything can wear the bright toga.",
-   "whyCN": "遴选用语由人转移到物：任何对象都可能穿上那件亮白袍。"
-  }
- ],
- "etymology": {
-  "intro": {
-   "en": "Candidate comes from Latin candidatus, clothed in white, the shining toga worn by Roman office-seekers, from candidus, glowing white.",
-   "cn": "candidate 源自拉丁语 candidatus（穿白衣的），即罗马谋官者所穿的亮白托加袍，词根是 candidus（发亮的白色）。"
-  },
-  "items": [
-   {
-    "era": "PROTO-INDO-EUROPEAN",
-    "en": "The root *kand- means to shine or glow, giving words for light and whiteness.",
-    "cn": "词根 *kand- 意为发光、白亮，衍生出一批关于光与白的词。"
-   },
-   {
-    "era": "LATIN",
-    "en": "Latin candidus meant white, pure, or sincere; candidatus described the bleached toga of an office-seeker.",
-    "cn": "拉丁语 candidus 意为白的、纯洁的、真诚的；candidatus 形容谋官者漂白的托加袍。"
-   },
-   {
-    "era": "CLASSICAL ROME",
-    "en": "In the forum, the bright toga made the seeker instantly visible; hence candidatus became the word for an office-seeker.",
-    "cn": "在广场上，亮白袍让谋求职位者一眼可辨，candidatus 因此成为「谋官者」的专称。"
-   },
-   {
-    "era": "ENGLISH, 17TH C.",
-    "en": "English borrowed the word in the seventeenth century, at first with a Roman flavor, then for any aspirant.",
-    "cn": "英语于十七世纪借入该词，起初带着罗马色彩，随后泛指一切谋求者。"
-   },
-   {
-    "era": "MODERN ENGLISH",
-    "en": "Today it covers politicians, job applicants, examinees, and even objects slated for action.",
-    "cn": "如今它涵盖政客、求职者、考生，甚至被列入处理名单的物品。"
-   }
-  ]
- },
- "similar": {
-  "note": {
-   "en": "Candidate anchors the candidus family of whiteness and openness, and sits beside words for hopeful entrants.",
-   "cn": "candidate 是 candidus「白亮、坦诚」词族的核心，并与一系列「谋求者」词汇相邻。"
-  },
-  "groups": [
-   {
-    "heading": "LOOK-ALIKE",
-    "entries": [
-     {
-      "word": "candid",
-      "ipa": "/ˈkændɪd/",
-      "tag": "same root, adjective",
-      "definition": "Frank and straightforward, from the same white-pure root.",
-      "definitionCN": "坦率的，源自同一「纯白」词根。"
-     },
-     {
-      "word": "candor",
-      "ipa": "/ˈkændər/",
-      "tag": "same root, noun",
-      "definition": "Openness and honesty of expression.",
-      "definitionCN": "坦诚；直率。"
-     },
-     {
-      "word": "candidacy",
-      "ipa": "/ˈkændɪdəsi/",
-      "tag": "derived form",
-      "definition": "The state or period of being a candidate.",
-      "definitionCN": "候选资格；候选期。"
-     },
-     {
-      "word": "candle",
-      "ipa": "/ˈkændəl/",
-      "tag": "same root, distant",
-      "definition": "A wax light, from the same shining root via Latin candela.",
-      "definitionCN": "蜡烛，经拉丁语 candela 出自同一「发光」词根的远亲。"
-     },
-     {
-      "word": "incandescent",
-      "ipa": "/ˌɪnkænˈdesənt/",
-      "tag": "same root, derived",
-      "definition": "Glowing with heat, the shining root with the in- prefix.",
-      "definitionCN": "白热的；炽热的，同一发光词根加前缀 in- 构成。"
-     }
-    ]
-   },
-   {
-    "heading": "NEAR MEANING",
-    "entries": [
-     {
-      "word": "applicant",
-      "ipa": "/ˈæplɪkənt/",
-      "tag": "near meaning",
-      "definition": "One who formally applies, especially in writing.",
-      "definitionCN": "正式（书面）申请者。"
-     },
-     {
-      "word": "nominee",
-      "ipa": "/ˌnɒmɪˈniː/",
-      "tag": "near meaning",
-      "definition": "One formally named for an office or honor.",
-      "definitionCN": "被正式提名人。"
-     },
-     {
-      "word": "contender",
-      "ipa": "/kənˈtendər/",
-      "tag": "near meaning",
-      "definition": "One who competes seriously for something contested.",
-      "definitionCN": "认真角逐竞争的争夺者。"
-     },
-     {
-      "word": "aspirant",
-      "ipa": "/ˈæspərənt/",
-      "tag": "near meaning, formal",
-      "definition": "One who ambitiously seeks a high position.",
-      "definitionCN": "雄心勃勃谋求高位的人。"
-     },
-     {
-      "word": "incumbent",
-      "ipa": "/ɪnˈkʌmbənt/",
-      "tag": "opposite",
-      "definition": "The current holder of the office a candidate seeks.",
-      "definitionCN": "在任者，即候选人所谋求职位的现任持有者。"
-     }
-    ]
-   }
-  ]
- },
- "mnemonics": {
-  "normalIntro": {
-   "en": "Five hooks on the white toga story and the shining root family.",
-   "cn": "五条围绕「白袍典故」与「发光」词根家族的记忆钩子。"
-  },
-  "normal": [
-   {
-    "en": "Root story: Roman office-seekers wore a bleached toga, candidatus, the man in white.",
-    "cn": "词根典故：罗马谋官者身穿漂白托加袍，candidatus 即「白衣人」。"
-   },
-   {
-    "en": "Same root: candid, candor, candle, and incandescent all shine from one glowing stem.",
-    "cn": "同根串联：candid、candor、candle、incandescent 都从同一「发光」词干发亮。"
-   },
-   {
-    "en": "Collocation grid: presidential candidate, doctoral candidate, a candidate for surgery cover politics, study, and medicine.",
-    "cn": "搭配网格：presidential candidate、doctoral candidate、a candidate for surgery 分别对应政界、学界、医学。"
-   },
-   {
-    "en": "Opposite hook: the incumbent is already in the chair the candidate wants.",
-    "cn": "反义钩子：incumbent（在任者）已坐上候选人想要的位子。"
-   },
-   {
-    "en": "Derived noun: candidacy names the campaign period itself, as in launch a candidacy.",
-    "cn": "派生名词：candidacy 指候选期本身，如 launch a candidacy（宣布参选）。"
-   }
-  ],
-  "abstract": [
-   {
-    "en": "A toga bleached so bright it blinds, worn straight into the crowd of voters.",
-    "cn": "一件白得晃眼的托加袍，径直穿进选民的人潮。"
-   },
-   {
-    "en": "A row of chairs outside an interview room, each one holding a hopeful silhouette.",
-    "cn": "面试室外的一排椅子，每把椅子上都坐着一个满怀期待的剪影。"
-   },
-   {
-    "en": "A single name underlined in bright chalk on the blackboard list.",
-    "cn": "黑板名单上一个用亮粉笔加下划线的名字。"
-   }
-  ]
- },
- "examples": [
-  {
-   "en": "Every candidate promised to fix the same three potholes.",
-   "cn": "每位候选人都承诺修好同样三个坑洼。"
-  },
-  {
-   "en": "The search firm narrowed the pool to six candidates.",
-   "cn": "猎头公司把候选人范围缩小到六人。"
-  },
-  {
-   "en": "Doctors agreed he was an ideal candidate for the transplant.",
-   "cn": "医生一致认为他是移植手术的理想人选。"
-  }
- ],
- "dict_mnemonic": {
-  "note": "谐音记忆 · 非词源",
-  "text": "「坎地得」——翻过坎（坎）走到台前（地）才能得（得）到职位，谋求者先过坎再得地，正是候选人；联想罗马人穿白袍亮相互选。",
-  "word": "candidate"
- },
- "root": "源自拉丁语 candidatus（身穿白衣者），指罗马共和国谋求公职者所穿的漂白托加袍；词根为 candidus（发亮的白色、纯洁），可上溯至印欧词根 *kand-（发光）。同根词有 candid（坦率的）、candor（坦诚）、candle（蜡烛）、incandescent（白热的）。十七世纪借入英语，词义从谋官者扩至一切谋求者与受考察者。",
- "sensesIntro": {
-  "en": "From the man in the bright toga the word spreads to job applicants, examinees, and even objects awaiting action.",
-  "cn": "从「穿亮袍的人」出发，词义扩展到求职者、考生，乃至等待处理的物品。"
- },
- "semanticMap": {
-  "core": {
-   "en": "CORE IMAGE: a figure in a shining white robe, standing out so the crowd can choose him.",
-   "cn": "核心意象：一身白袍亮到反光的人，站在人群中引人选择。"
-  },
-  "chain": [
-   "SHINING WHITE",
-   "VISIBLE FIGURE",
-   "OFFICE SEEKER",
-   "APPLICANT",
-   "EXAMINEE",
-   "SLATED OBJECT"
-  ],
-  "branches": [
-   {
-    "senses": "01",
-    "en": "THE FORUM: the Roman candidate turned modern politician.",
-    "cn": "广场：从罗马谋官者到现代政客。"
-   },
-   {
-    "senses": "02",
-    "en": "THE INTERVIEW ROOM: applicants presenting themselves for judgment.",
-    "cn": "面试间：接受评判的申请者。"
-   },
-   {
-    "senses": "03",
-    "en": "THE EXAM HALL: candidates seeking a degree or certificate.",
-    "cn": "考场：谋求学位或证书的应试者。"
-   },
-   {
-    "senses": "04",
-    "en": "THE WORKSHOP: things shortlisted for repair, demolition, or study.",
-    "cn": "工场：被列入待修、待拆、待研究名单的事物。"
-   },
-   {
-    "senses": "01 · 02",
-    "en": "THE COMMON THREAD: to be a candidate is to stand out and be chosen or refused.",
-    "cn": "共同线索：身为候选人，就是要站出来被选中或被淘汰。"
-   }
-  ]
- },
- "affixes": {
-  "intro": {
-   "en": "Candidate is candidus plus the agentive ending -atus, the man made shining white.",
-   "cn": "candidate 由 candidus 加施动词尾 -atus 构成，即「被弄得雪亮白的人」。"
-  },
-  "latinIntro": {
-   "en": "The candidus root of shining white feeds a bright family from candles to incandescent bulbs.",
-   "cn": "candidus「发光之白」词根滋养了一个从蜡烛到白炽灯泡的光亮词族。"
-  },
-  "items": [
-   {
-    "word": "cand-",
-    "structure": "Latin root",
-    "meaning": "shine, glow white",
-    "meaningCN": "发光；白亮",
-    "example": "candidus, white and pure",
-    "exampleCN": "candidus，白的、纯洁的。"
-   },
-   {
-    "word": "-atus",
-    "structure": "Latin perfect participle ending",
-    "meaning": "furnished with, made",
-    "meaningCN": "被赋予……的",
-    "example": "candidatus, robed in white",
-    "exampleCN": "candidatus，身着白袍的。"
-   },
-   {
-    "word": "candid",
-    "structure": "cand- + -id",
-    "meaning": "frank, unbiased",
-    "meaningCN": "坦率的；公正的",
-    "example": "a candid assessment",
-    "exampleCN": "坦率的评估。"
-   },
-   {
-    "word": "candor",
-    "structure": "cand- + -or",
-    "meaning": "openness, sincerity",
-    "meaningCN": "坦诚；直率",
-    "example": "speak with candor",
-    "exampleCN": "坦言相告。"
-   },
-   {
-    "word": "candle",
-    "structure": "cand- + -ela",
-    "meaning": "a wax light",
-    "meaningCN": "蜡烛",
-    "example": "candlelight dinner",
-    "exampleCN": "烛光晚餐。"
-   },
-   {
-    "word": "incandescent",
-    "structure": "in- + cand- + -escent",
-    "meaning": "glowing white with heat",
-    "meaningCN": "白热的；炽亮的",
-    "example": "incandescent bulb",
-    "exampleCN": "白炽灯泡。"
-   },
-   {
-    "word": "candidacy",
-    "structure": "candidate + -cy",
-    "meaning": "the state of being a candidate",
-    "meaningCN": "候选资格；候选期",
-    "example": "announce a candidacy",
-    "exampleCN": "宣布参选。"
-   },
-   {
-    "word": "candidature",
-    "structure": "candidate + -ure, British variant",
-    "meaning": "candidacy, chiefly British usage",
-    "meaningCN": "候选资格（英式说法）",
-    "example": "her candidature for the chair",
-    "exampleCN": "她对主席职位的角逐。"
-   }
-  ],
-  "latinEntries": [
-   {
-    "word": "candidatus",
-    "structure": "Latin adjective as noun",
-    "meaning": "clothed in white; office-seeker",
-    "meaningCN": "穿白衣的；谋官者",
-    "example": "candidatus consulatus",
-    "exampleCN": "执政官职位候选人（拉丁语用例示意）。"
-   }
-  ],
-  "derivatives": [
-   {
-    "word": "candidacy",
-    "pos": "n.",
-    "zh": "候选资格；候选期"
-   },
-   {
-    "word": "candid",
-    "pos": "adj.",
-    "zh": "坦率的；直白的"
-   }
-  ]
- }
-}
+]

@@ -1,304 +1,474 @@
-{
-  "word": "avert",
-  "ipa_uk": "/əˈvɜːt/",
-  "ipa_us": "/əˈvɜːrt/",
-  "definition_zh": "转移（目光）；防止；避免（灾祸）",
-  "definition_en": "to turn something away, especially the eyes or the face; also, to prevent something bad from happening",
-  "core_image": "危局袭来之前，一只手把目光和灾祸一同拨开",
-  "scene": "司机猛打方向盘，事故擦身而过。Quick action averted a pileup on the bridge.",
-  "sceneCN": "这里 avert 指「防止、避免」（第 2 个义项：使灾祸不发生）；句意：果断的处置避免了桥上的连环追尾。",
-  "pos": [
-    { "tag": "vt.", "zh": "转移（目光等）；防止；避免" }
-  ],
-  "collocations": [
-    { "phrase": "avert one's eyes", "zh": "移开目光" },
-    { "phrase": "avert a crisis", "zh": "化解危机" },
-    { "phrase": "avert disaster", "zh": "避免灾难" },
-    { "phrase": "avert one's gaze", "zh": "转开视线" },
-    { "phrase": "avert a strike", "zh": "避免罢工" }
-  ],
-  "forms": [
-    { "label": "三单", "form": "averts" },
-    { "label": "过去式", "form": "averted" },
-    { "label": "过去分词", "form": "averted" },
-    { "label": "现在分词", "form": "averting" }
-  ],
-  "derivatives": [
-    { "word": "aversion", "pos": "n.", "zh": "厌恶；反感（avert 的名词同族）" },
-    { "word": "averse", "pos": "adj.", "zh": "厌恶的；不愿的（同族形容词）" },
-    { "word": "avertible", "pos": "adj.", "zh": "可避免的（avert + -ible）" }
-  ],
-  "senses": [
-    {
-      "no": "01",
-      "title": "To turn the eyes or face away",
-      "titleCN": "移开目光；转开脸",
-      "definition": "to turn the eyes, gaze, or face away from something",
-      "definitionCN": "把目光、视线或脸从某物上转开",
-      "example": "She averted her eyes during the accident scene.",
-      "exampleCN": "事故场面出现时她移开了目光。",
-      "why": "The Latin root is literal here: ab, away, plus vertere, to turn.",
-      "whyCN": "此处词根是字面的：ab「离开」+ vertere「转」。"
+[
+  {
+    "word": "avert",
+    "ipa_uk": "/əˈvɜːt/",
+    "ipa_us": "/əˈvɜːrt/",
+    "definition_zh": "转移（目光）；防止；避免（灾祸）",
+    "definition_en": "to turn something away, especially the eyes or the face; also, to prevent something bad from happening",
+    "core_image": "危局袭来之前，一只手把目光和灾祸一同拨开",
+    "scene": "司机猛打方向盘，事故擦身而过。Quick action averted a pileup on the bridge.",
+    "sceneCN": "这里 avert 指「防止、避免」（第 2 个义项：使灾祸不发生）；句意：果断的处置避免了桥上的连环追尾。",
+    "pos": [
+      {
+        "tag": "vt.",
+        "zh": "转移（目光等）；防止；避免"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "avert one's eyes",
+        "zh": "移开目光"
+      },
+      {
+        "phrase": "avert a crisis",
+        "zh": "化解危机"
+      },
+      {
+        "phrase": "avert disaster",
+        "zh": "避免灾难"
+      },
+      {
+        "phrase": "avert one's gaze",
+        "zh": "转开视线"
+      },
+      {
+        "phrase": "avert a strike",
+        "zh": "避免罢工"
+      }
+    ],
+    "forms": [
+      {
+        "label": "三单",
+        "form": "averts"
+      },
+      {
+        "label": "过去式",
+        "form": "averted"
+      },
+      {
+        "label": "过去分词",
+        "form": "averted"
+      },
+      {
+        "label": "现在分词",
+        "form": "averting"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "aversion",
+        "pos": "n.",
+        "zh": "厌恶；反感（avert 的名词同族）"
+      },
+      {
+        "word": "averse",
+        "pos": "adj.",
+        "zh": "厌恶的；不愿的（同族形容词）"
+      },
+      {
+        "word": "avertible",
+        "pos": "adj.",
+        "zh": "可避免的（avert + -ible）"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "To turn the eyes or face away",
+        "titleCN": "移开目光；转开脸",
+        "definition": "to turn the eyes, gaze, or face away from something",
+        "definitionCN": "把目光、视线或脸从某物上转开",
+        "example": "She averted her eyes during the accident scene.",
+        "exampleCN": "事故场面出现时她移开了目光。",
+        "why": "The Latin root is literal here: ab, away, plus vertere, to turn.",
+        "whyCN": "此处词根是字面的：ab「离开」+ vertere「转」。"
+      },
+      {
+        "no": "02",
+        "title": "To prevent something bad",
+        "titleCN": "防止；避免（灾祸）",
+        "definition": "to stop an expected evil, harm, or crisis from happening",
+        "definitionCN": "使预料中的灾祸、危害或危机不致发生",
+        "example": "Quiet diplomacy averted a trade war.",
+        "exampleCN": "低调外交避免了一场贸易战。",
+        "why": "Turning the danger away extends the bodily motion to events.",
+        "whyCN": "把危险「转」走，把身体动作延伸到了事件上。"
+      },
+      {
+        "no": "03",
+        "title": "To deflect a course of events",
+        "titleCN": "使（事态）转向",
+        "definition": "to bend a process or trend off its path before it lands",
+        "definitionCN": "在事态落定之前使其偏离原有轨道",
+        "example": "Reform averted the colony's slide into revolt.",
+        "exampleCN": "改革使殖民地免于滑向叛乱。",
+        "why": "A trend is a moving thing; it too can be turned.",
+        "whyCN": "趋势也是运动之物，同样可以被拨转。"
+      },
+      {
+        "no": "04",
+        "title": "To ward off harm by ritual or custom",
+        "titleCN": "（习俗）禳解；消灾",
+        "definition": "in traditional practice, to keep off evil through ritual means",
+        "definitionCN": "传统习俗中通过仪式手段驱避灾厄",
+        "example": "Charms were nailed up to avert the evil eye.",
+        "exampleCN": "人们钉上符咒以禳避邪眼。",
+        "why": "Before diplomacy there was magic: pushing evil aside with a gesture.",
+        "whyCN": "在外交之前先是法术：用一个动作把邪祟推开。"
+      },
+      {
+        "no": "05",
+        "title": "To divert resources or attention",
+        "titleCN": "转移（资源、注意力）",
+        "definition": "to redirect money, effort, or attention elsewhere",
+        "definitionCN": "把资金、精力或注意力引向别处",
+        "example": "The agency averted funds to the flooded provinces.",
+        "exampleCN": "该机构把资金转拨给受涝省份。",
+        "why": "Whatever flows can be re-turned: water, cash, or care.",
+        "whyCN": "凡流动之物皆可改道：水、资金、关怀皆然。"
+      },
+      {
+        "no": "06",
+        "title": "To avoid by turning aside oneself",
+        "titleCN": "（自己）闪避；避开",
+        "definition": "in older use, to step or lean aside to escape contact",
+        "definitionCN": "旧式用法中侧身或俯身避开接触",
+        "example": "The fencer averted the thrust with a slip of the hip.",
+        "exampleCN": "剑手侧髋一闪，避开了刺击。",
+        "why": "The earliest English sense kept the body at the center.",
+        "whyCN": "最早的英语义保留着身体中心。"
+      },
+      {
+        "no": "07",
+        "title": "Averted, as a gaze or disaster",
+        "titleCN": "（分词用法）被移开的；被避免的",
+        "definition": "in participial use, describing a gaze held aside or a disaster just missed",
+        "definitionCN": "分词用法，形容移开的视线或险些酿成的灾祸",
+        "example": "The report called it a narrowly averted meltdown.",
+        "exampleCN": "报告称那是一次险些酿成的熔毁，幸被避免。",
+        "why": "The participle freezes the instant of successful turning.",
+        "whyCN": "分词定格了「成功拨转」的一瞬。"
+      },
+      {
+        "no": "08",
+        "title": "Averting, as a habit of the eyes",
+        "titleCN": "（习惯性）回避目光",
+        "definition": "the gerundial use, habitual eye-avoidance in social behavior",
+        "definitionCN": "动名词用法，指社交中习惯性的目光回避",
+        "example": "Constant averting of the gaze read as guilt.",
+        "exampleCN": "频频回避目光被解读为心虚。",
+        "why": "A single motion, repeated, becomes a readable sign.",
+        "whyCN": "单一动作不断重复，便成了可被解读的信号。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Avert comes from Latin avertere, to turn away, from ab, away from, plus vertere, to turn; English borrowed the verb around the start of the fifteenth century.",
+        "cn": "avert 出自拉丁语 avertere「使转开」，由 ab（离开）+ vertere（转）构成；英语约在 15 世纪初借入该动词。"
+      },
+      "items": [
+        {
+          "era": "PROTO-INDO-EUROPEAN",
+          "en": "The turn-root descends from the reconstructed stem wer-, to bend or turn.",
+          "cn": "「转」词根出自重构词干 wer-「弯、转」。"
+        },
+        {
+          "era": "LATIN",
+          "en": "averted was a common verb: to turn anything away, eyes, blows, omens.",
+          "cn": "averted 是常用动词：目光、打击、凶兆皆可转开。"
+        },
+        {
+          "era": "CLASSICAL IDIOM",
+          "en": "Roman religion spoke of averting omens, a divina ritu, ritual turning of fate.",
+          "cn": "罗马宗教有「以仪式禳解征兆」之说。"
+        },
+        {
+          "era": "ENGLISH, 15TH C.",
+          "en": "Middle English first used avert for physically turning aside.",
+          "cn": "中古英语先以 avert 表身体上的闪避。"
+        },
+        {
+          "era": "ENGLISH, 17TH C.",
+          "en": "The preventive sense hardened: to avert war, to avert ruin.",
+          "cn": "17 世纪「防止」义定型：avert war、avert ruin。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "Today the two live senses are averted eyes and averted disaster.",
+          "cn": "如今该词的两个活跃义项是移开的目光与避免的灾难。"
+        }
+      ]
     },
-    {
-      "no": "02",
-      "title": "To prevent something bad",
-      "titleCN": "防止；避免（灾祸）",
-      "definition": "to stop an expected evil, harm, or crisis from happening",
-      "definitionCN": "使预料中的灾祸、危害或危机不致发生",
-      "example": "Quiet diplomacy averted a trade war.",
-      "exampleCN": "低调外交避免了一场贸易战。",
-      "why": "Turning the danger away extends the bodily motion to events.",
-      "whyCN": "把危险「转」走，把身体动作延伸到了事件上。"
+    "similar": {
+      "note": {
+        "en": "Group one gathers the vertere family and the eternal averse-adverse trap; group two gathers words of preventing and turning.",
+        "cn": "第一组收 vertere 词族与 averse-adverse 之辨；第二组收防止、转向义场的词。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "adverse",
+              "ipa": "/ˈædvɜːs/",
+              "tag": "look-alike, different prefix",
+              "definition": "adjective, unfavorable; adverse conditions work against you.",
+              "definitionCN": "形容词，不利的；adverse conditions 指不利条件，勿与 avert 混写。"
+            },
+            {
+              "word": "averse",
+              "ipa": "/əˈvɜːs/",
+              "tag": "same root",
+              "definition": "the adjective of the same family: feeling turned away from something.",
+              "definitionCN": "同族形容词：对某事心存厌恶。"
+            },
+            {
+              "word": "invert",
+              "ipa": "/ɪnˈvɜːt/",
+              "tag": "same root",
+              "definition": "to turn upside down; shares vertere.",
+              "definitionCN": "倒转；同享 vertere 词根。"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "prevent",
+              "ipa": "/prɪˈvent/",
+              "tag": "near meaning",
+              "definition": "to stop something from happening; broader and blander than avert.",
+              "definitionCN": "阻止发生；比 avert 更宽泛平直。"
+            },
+            {
+              "word": "forestall",
+              "ipa": "/fɔːˈstɔːl/",
+              "tag": "near meaning",
+              "definition": "to act first so the bad thing cannot start.",
+              "definitionCN": "先发制人地阻止，抢在坏事发生之前。"
+            },
+            {
+              "word": "deflect",
+              "ipa": "/dɪˈflekt/",
+              "tag": "near meaning",
+              "definition": "to turn aside a blow, question, or course.",
+              "definitionCN": "使打击、问题或进程偏转。"
+            },
+            {
+              "word": "divert",
+              "ipa": "/daɪˈvɜːt/",
+              "tag": "near meaning",
+              "definition": "to redirect a flow of things or attention.",
+              "definitionCN": "使事物或注意力改道。"
+            },
+            {
+              "word": "dodge",
+              "ipa": "/dɒdʒ/",
+              "tag": "near meaning",
+              "definition": "to move the body out of the way; informal and physical.",
+              "definitionCN": "闪身躲避；口语且偏身体动作。"
+            }
+          ]
+        }
+      ]
     },
-    {
-      "no": "03",
-      "title": "To deflect a course of events",
-      "titleCN": "使（事态）转向",
-      "definition": "to bend a process or trend off its path before it lands",
-      "definitionCN": "在事态落定之前使其偏离原有轨道",
-      "example": "Reform averted the colony's slide into revolt.",
-      "exampleCN": "改革使殖民地免于滑向叛乱。",
-      "why": "A trend is a moving thing; it too can be turned.",
-      "whyCN": "趋势也是运动之物，同样可以被拨转。"
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Read a-vert as away-turn: turn the eyes away, turn the disaster away.",
+        "cn": "把 a-vert 读作 away-turn：目光转走，灾难也转走。"
+      },
+      "normal": [
+        {
+          "en": "ab- away plus vert turn: the same vert as in reverse and convert.",
+          "cn": "ab- 离开 + vert 转：vert 与 reverse、convert 里的 vert 相同。"
+        },
+        {
+          "en": "avert one's eyes for the body sense; avert disaster for the event sense.",
+          "cn": "身体义用 avert one's eyes，事件义用 avert disaster。"
+        },
+        {
+          "en": "Avert takes the danger as object, never the person as object.",
+          "cn": "avert 的宾语是危险本身，不是人。"
+        },
+        {
+          "en": "narrowly averted is the set news phrase for a near miss.",
+          "cn": "narrowly averted 是新闻固定说法：险些未能避免。"
+        },
+        {
+          "en": "Adverse is the adjective that got the d; avert lost it.",
+          "cn": "带 d 的是形容词 adverse；avert 没有那个 d。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "See a hand press the tiller just before the reef.",
+          "cn": "想象触礁前一只手按住了舵。"
+        },
+        {
+          "en": "Avert is a small word for turning fate at the last second.",
+          "cn": "avert 这么小的词，却在最后一秒拨转了命运。"
+        },
+        {
+          "en": "Feel the neck pivot before the eyes do.",
+          "cn": "感觉脖颈先于眼睛转了过去。"
+        }
+      ]
     },
-    {
-      "no": "04",
-      "title": "To ward off harm by ritual or custom",
-      "titleCN": "（习俗）禳解；消灾",
-      "definition": "in traditional practice, to keep off evil through ritual means",
-      "definitionCN": "传统习俗中通过仪式手段驱避灾厄",
-      "example": "Charms were nailed up to avert the evil eye.",
-      "exampleCN": "人们钉上符咒以禳避邪眼。",
-      "why": "Before diplomacy there was magic: pushing evil aside with a gesture.",
-      "whyCN": "在外交之前先是法术：用一个动作把邪祟推开。"
+    "examples": [
+      {
+        "en": "The pilot averted catastrophe with a textbook landing.",
+        "cn": "飞行员以教科书式的降落避免了空难。"
+      },
+      {
+        "en": "He averted his gaze from the accident on the roadside.",
+        "cn": "他移开视线，不去看路边的车祸。"
+      },
+      {
+        "en": "Talks averted a nationwide rail strike at the last hour.",
+        "cn": "谈判在最后一刻避免了全国铁路大罢工。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「恶我特」——那锅汤端过来他就喊「恶我特」，赶紧把脸特特地转开",
+      "word": "avert"
     },
-    {
-      "no": "05",
-      "title": "To divert resources or attention",
-      "titleCN": "转移（资源、注意力）",
-      "definition": "to redirect money, effort, or attention elsewhere",
-      "definitionCN": "把资金、精力或注意力引向别处",
-      "example": "The agency averted funds to the flooded provinces.",
-      "exampleCN": "该机构把资金转拨给受涝省份。",
-      "why": "Whatever flows can be re-turned: water, cash, or care.",
-      "whyCN": "凡流动之物皆可改道：水、资金、关怀皆然。"
+    "root": "出自拉丁语 avertere「使转开」，由 ab-（离开）+ vertere（转）构成，属 vertere 大词族（reverse、convert、divert 等同源）。约 15 世纪初进入中古英语，先表身体闪避，17 世纪起「防止灾祸」义成为主导。",
+    "sensesIntro": {
+      "en": "Eight senses turn on one motion: the eyes averted, the disaster averted, the funds redirected, and the ritual gestures that once did the same work.",
+      "cn": "八个义项围绕同一个动作展开：移开目光、拨开灾难、转拨资金，以及古时承担同样职能的禳解仪式。"
     },
-    {
-      "no": "06",
-      "title": "To avoid by turning aside oneself",
-      "titleCN": "（自己）闪避；避开",
-      "definition": "in older use, to step or lean aside to escape contact",
-      "definitionCN": "旧式用法中侧身或俯身避开接触",
-      "example": "The fencer averted the thrust with a slip of the hip.",
-      "exampleCN": "剑手侧髋一闪，避开了刺击。",
-      "why": "The earliest English sense kept the body at the center.",
-      "whyCN": "最早的英语义保留着身体中心。"
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: a firm hand turning eyes, then events, off their collision course.",
+        "cn": "核心意象：一只手先把目光、再把事件从相撞的轨道上拨开。"
+      },
+      "chain": [
+        "THE TURN",
+        "THE LOOKING AWAY",
+        "THE NEAR MISS",
+        "THE DEFLECTED COURSE",
+        "THE RITUAL WARD",
+        "THE PREVENTED LOSS"
+      ],
+      "branches": [
+        {
+          "senses": "01 · 06 · 08",
+          "en": "THE BODY SIDE: eyes, stances, and the habits they form.",
+          "cn": "身体一面：目光、体态及其习惯。"
+        },
+        {
+          "senses": "02 · 07",
+          "en": "THE DISASTER SIDE: crises stopped and the participles that celebrate it.",
+          "cn": "灾难一面：被阻止的危机及定格其成功的分词。"
+        },
+        {
+          "senses": "03",
+          "en": "THE TREND SIDE: histories bent before they break.",
+          "cn": "趋势一面：在崩坏前被拨转的走向。"
+        },
+        {
+          "senses": "04",
+          "en": "THE RITUAL SIDE: charms and omens turned aside.",
+          "cn": "仪式一面：被禳转的符咒与征兆。"
+        },
+        {
+          "senses": "05",
+          "en": "THE FLOW SIDE: money and attention given a new channel.",
+          "cn": "流动一面：资金与注意力被引入新渠道。"
+        }
+      ]
     },
-    {
-      "no": "07",
-      "title": "Averted, as a gaze or disaster",
-      "titleCN": "（分词用法）被移开的；被避免的",
-      "definition": "in participial use, describing a gaze held aside or a disaster just missed",
-      "definitionCN": "分词用法，形容移开的视线或险些酿成的灾祸",
-      "example": "The report called it a narrowly averted meltdown.",
-      "exampleCN": "报告称那是一次险些酿成的熔毁，幸被避免。",
-      "why": "The participle freezes the instant of successful turning.",
-      "whyCN": "分词定格了「成功拨转」的一瞬。"
-    },
-    {
-      "no": "08",
-      "title": "Averting, as a habit of the eyes",
-      "titleCN": "（习惯性）回避目光",
-      "definition": "the gerundial use, habitual eye-avoidance in social behavior",
-      "definitionCN": "动名词用法，指社交中习惯性的目光回避",
-      "example": "Constant averting of the gaze read as guilt.",
-      "exampleCN": "频频回避目光被解读为心虚。",
-      "why": "A single motion, repeated, becomes a readable sign.",
-      "whyCN": "单一动作不断重复，便成了可被解读的信号。"
+    "affixes": {
+      "intro": {
+        "en": "Avert is compact: prefix ab- plus stem vert, with no suffix left on the verb.",
+        "cn": "avert 结构紧凑：前缀 ab- 加词干 vert，动词本身不再带后缀。"
+      },
+      "latinIntro": {
+        "en": "The vertere stem generated dozens of English verbs and nouns through French -vert and -version forms.",
+        "cn": "vertere 词干经法语 -vert、-version 形式繁衍出几十个英语动词和名词。"
+      },
+      "items": [
+        {
+          "word": "avert",
+          "structure": "ab- + vert",
+          "meaning": "to turn away",
+          "meaningCN": "使转开",
+          "example": "avert a crisis",
+          "exampleCN": "化解危机"
+        },
+        {
+          "word": "ab-",
+          "structure": "Latin prefix",
+          "meaning": "away, from",
+          "meaningCN": "离开；自",
+          "example": "abduct, abstain",
+          "exampleCN": "诱拐、戒除"
+        },
+        {
+          "word": "vertere",
+          "structure": "Latin verb",
+          "meaning": "to turn",
+          "meaningCN": "转动",
+          "example": "vertere in compounds",
+          "exampleCN": "复合词中的 vertere"
+        },
+        {
+          "word": "avertible",
+          "structure": "avert + -ible",
+          "meaning": "able to be prevented",
+          "meaningCN": "可避免的",
+          "example": "an avertible tragedy",
+          "exampleCN": "本可避免的悲剧"
+        },
+        {
+          "word": "aversion",
+          "structure": "aversus + -ion",
+          "meaning": "strong dislike",
+          "meaningCN": "厌恶",
+          "example": "an aversion to risk",
+          "exampleCN": "对风险的厌恶"
+        },
+        {
+          "word": "invert",
+          "structure": "in- + vert",
+          "meaning": "to turn upside down",
+          "meaningCN": "倒置",
+          "example": "invert the order",
+          "exampleCN": "颠倒顺序"
+        },
+        {
+          "word": "subvert",
+          "structure": "sub- + vert",
+          "meaning": "to undermine, turn from below",
+          "meaningCN": "颠覆",
+          "example": "subvert expectations",
+          "exampleCN": "颠覆预期"
+        },
+        {
+          "word": "vertigo",
+          "structure": "vertere + -igo",
+          "meaning": "dizziness, a turning sensation",
+          "meaningCN": "眩晕",
+          "example": "suffer from vertigo",
+          "exampleCN": "患眩晕症"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "averto",
+          "structure": "Latin verb",
+          "meaning": "to turn away",
+          "meaningCN": "使转开"
+        },
+        {
+          "word": "avertens",
+          "structure": "Latin participle",
+          "meaning": "turning away",
+          "meaningCN": "正在转开的"
+        }
+      ]
     }
-  ],
-  "etymology": {
-    "intro": {
-      "en": "Avert comes from Latin avertere, to turn away, from ab, away from, plus vertere, to turn; English borrowed the verb around the start of the fifteenth century.",
-      "cn": "avert 出自拉丁语 avertere「使转开」，由 ab（离开）+ vertere（转）构成；英语约在 15 世纪初借入该动词。"
-    },
-    "items": [
-      {
-        "era": "PROTO-INDO-EUROPEAN",
-        "en": "The turn-root descends from the reconstructed stem wer-, to bend or turn.",
-        "cn": "「转」词根出自重构词干 wer-「弯、转」。"
-      },
-      {
-        "era": "LATIN",
-        "en": "averted was a common verb: to turn anything away, eyes, blows, omens.",
-        "cn": "averted 是常用动词：目光、打击、凶兆皆可转开。"
-      },
-      {
-        "era": "CLASSICAL IDIOM",
-        "en": "Roman religion spoke of averting omens, a divina ritu, ritual turning of fate.",
-        "cn": "罗马宗教有「以仪式禳解征兆」之说。"
-      },
-      {
-        "era": "ENGLISH, 15TH C.",
-        "en": "Middle English first used avert for physically turning aside.",
-        "cn": "中古英语先以 avert 表身体上的闪避。"
-      },
-      {
-        "era": "ENGLISH, 17TH C.",
-        "en": "The preventive sense hardened: to avert war, to avert ruin.",
-        "cn": "17 世纪「防止」义定型：avert war、avert ruin。"
-      },
-      {
-        "era": "MODERN ENGLISH",
-        "en": "Today the two live senses are averted eyes and averted disaster.",
-        "cn": "如今该词的两个活跃义项是移开的目光与避免的灾难。"
-      }
-    ]
-  },
-  "similar": {
-    "note": {
-      "en": "Group one gathers the vertere family and the eternal averse-adverse trap; group two gathers words of preventing and turning.",
-      "cn": "第一组收 vertere 词族与 averse-adverse 之辨；第二组收防止、转向义场的词。"
-    },
-    "groups": [
-      {
-        "heading": "LOOK-ALIKE",
-        "entries": [
-          {
-            "word": "adverse",
-            "ipa": "/ˈædvɜːs/",
-            "tag": "look-alike, different prefix",
-            "definition": "adjective, unfavorable; adverse conditions work against you.",
-            "definitionCN": "形容词，不利的；adverse conditions 指不利条件，勿与 avert 混写。"
-          },
-          {
-            "word": "averse",
-            "ipa": "/əˈvɜːs/",
-            "tag": "same root",
-            "definition": "the adjective of the same family: feeling turned away from something.",
-            "definitionCN": "同族形容词：对某事心存厌恶。"
-          },
-          {
-            "word": "invert",
-            "ipa": "/ɪnˈvɜːt/",
-            "tag": "same root",
-            "definition": "to turn upside down; shares vertere.",
-            "definitionCN": "倒转；同享 vertere 词根。"
-          }
-        ]
-      },
-      {
-        "heading": "NEAR MEANING",
-        "entries": [
-          {
-            "word": "prevent",
-            "ipa": "/prɪˈvent/",
-            "tag": "near meaning",
-            "definition": "to stop something from happening; broader and blander than avert.",
-            "definitionCN": "阻止发生；比 avert 更宽泛平直。"
-          },
-          {
-            "word": "forestall",
-            "ipa": "/fɔːˈstɔːl/",
-            "tag": "near meaning",
-            "definition": "to act first so the bad thing cannot start.",
-            "definitionCN": "先发制人地阻止，抢在坏事发生之前。"
-          },
-          {
-            "word": "deflect",
-            "ipa": "/dɪˈflekt/",
-            "tag": "near meaning",
-            "definition": "to turn aside a blow, question, or course.",
-            "definitionCN": "使打击、问题或进程偏转。"
-          },
-          {
-            "word": "divert",
-            "ipa": "/daɪˈvɜːt/",
-            "tag": "near meaning",
-            "definition": "to redirect a flow of things or attention.",
-            "definitionCN": "使事物或注意力改道。"
-          },
-          {
-            "word": "dodge",
-            "ipa": "/dɒdʒ/",
-            "tag": "near meaning",
-            "definition": "to move the body out of the way; informal and physical.",
-            "definitionCN": "闪身躲避；口语且偏身体动作。"
-          }
-        ]
-      }
-    ]
-  },
-  "mnemonics": {
-    "normalIntro": {
-      "en": "Read a-vert as away-turn: turn the eyes away, turn the disaster away.",
-      "cn": "把 a-vert 读作 away-turn：目光转走，灾难也转走。"
-    },
-    "normal": [
-      { "en": "ab- away plus vert turn: the same vert as in reverse and convert.", "cn": "ab- 离开 + vert 转：vert 与 reverse、convert 里的 vert 相同。" },
-      { "en": "avert one's eyes for the body sense; avert disaster for the event sense.", "cn": "身体义用 avert one's eyes，事件义用 avert disaster。" },
-      { "en": "Avert takes the danger as object, never the person as object.", "cn": "avert 的宾语是危险本身，不是人。" },
-      { "en": "narrowly averted is the set news phrase for a near miss.", "cn": "narrowly averted 是新闻固定说法：险些未能避免。" },
-      { "en": "Adverse is the adjective that got the d; avert lost it.", "cn": "带 d 的是形容词 adverse；avert 没有那个 d。" }
-    ],
-    "abstract": [
-      { "en": "See a hand press the tiller just before the reef.", "cn": "想象触礁前一只手按住了舵。" },
-      { "en": "Avert is a small word for turning fate at the last second.", "cn": "avert 这么小的词，却在最后一秒拨转了命运。" },
-      { "en": "Feel the neck pivot before the eyes do.", "cn": "感觉脖颈先于眼睛转了过去。" }
-    ]
-  },
-  "examples": [
-    { "en": "The pilot averted catastrophe with a textbook landing.", "cn": "飞行员以教科书式的降落避免了空难。" },
-    { "en": "He averted his gaze from the accident on the roadside.", "cn": "他移开视线，不去看路边的车祸。" },
-    { "en": "Talks averted a nationwide rail strike at the last hour.", "cn": "谈判在最后一刻避免了全国铁路大罢工。" }
-  ],
-  "dict_mnemonic": {
-    "note": "谐音记忆 · 非词源",
-    "text": "「恶我特」——那锅汤端过来他就喊「恶我特」，赶紧把脸特特地转开",
-    "word": "avert"
-  },
-  "root": "出自拉丁语 avertere「使转开」，由 ab-（离开）+ vertere（转）构成，属 vertere 大词族（reverse、convert、divert 等同源）。约 15 世纪初进入中古英语，先表身体闪避，17 世纪起「防止灾祸」义成为主导。",
-  "sensesIntro": {
-    "en": "Eight senses turn on one motion: the eyes averted, the disaster averted, the funds redirected, and the ritual gestures that once did the same work.",
-    "cn": "八个义项围绕同一个动作展开：移开目光、拨开灾难、转拨资金，以及古时承担同样职能的禳解仪式。"
-  },
-  "semanticMap": {
-    "core": {
-      "en": "CORE IMAGE: a firm hand turning eyes, then events, off their collision course.",
-      "cn": "核心意象：一只手先把目光、再把事件从相撞的轨道上拨开。"
-    },
-    "chain": ["THE TURN", "THE LOOKING AWAY", "THE NEAR MISS", "THE DEFLECTED COURSE", "THE RITUAL WARD", "THE PREVENTED LOSS"],
-    "branches": [
-      { "senses": "01 · 06 · 08", "en": "THE BODY SIDE: eyes, stances, and the habits they form.", "cn": "身体一面：目光、体态及其习惯。" },
-      { "senses": "02 · 07", "en": "THE DISASTER SIDE: crises stopped and the participles that celebrate it.", "cn": "灾难一面：被阻止的危机及定格其成功的分词。" },
-      { "senses": "03", "en": "THE TREND SIDE: histories bent before they break.", "cn": "趋势一面：在崩坏前被拨转的走向。" },
-      { "senses": "04", "en": "THE RITUAL SIDE: charms and omens turned aside.", "cn": "仪式一面：被禳转的符咒与征兆。" },
-      { "senses": "05", "en": "THE FLOW SIDE: money and attention given a new channel.", "cn": "流动一面：资金与注意力被引入新渠道。" }
-    ]
-  },
-  "affixes": {
-    "intro": {
-      "en": "Avert is compact: prefix ab- plus stem vert, with no suffix left on the verb.",
-      "cn": "avert 结构紧凑：前缀 ab- 加词干 vert，动词本身不再带后缀。"
-    },
-    "latinIntro": {
-      "en": "The vertere stem generated dozens of English verbs and nouns through French -vert and -version forms.",
-      "cn": "vertere 词干经法语 -vert、-version 形式繁衍出几十个英语动词和名词。"
-    },
-    "items": [
-      { "word": "avert", "structure": "ab- + vert", "meaning": "to turn away", "meaningCN": "使转开", "example": "avert a crisis", "exampleCN": "化解危机" },
-      { "word": "ab-", "structure": "Latin prefix", "meaning": "away, from", "meaningCN": "离开；自", "example": "abduct, abstain", "exampleCN": "诱拐、戒除" },
-      { "word": "vertere", "structure": "Latin verb", "meaning": "to turn", "meaningCN": "转动", "example": "vertere in compounds", "exampleCN": "复合词中的 vertere" },
-      { "word": "avertible", "structure": "avert + -ible", "meaning": "able to be prevented", "meaningCN": "可避免的", "example": "an avertible tragedy", "exampleCN": "本可避免的悲剧" },
-      { "word": "aversion", "structure": "aversus + -ion", "meaning": "strong dislike", "meaningCN": "厌恶", "example": "an aversion to risk", "exampleCN": "对风险的厌恶" },
-      { "word": "invert", "structure": "in- + vert", "meaning": "to turn upside down", "meaningCN": "倒置", "example": "invert the order", "exampleCN": "颠倒顺序" },
-      { "word": "subvert", "structure": "sub- + vert", "meaning": "to undermine, turn from below", "meaningCN": "颠覆", "example": "subvert expectations", "exampleCN": "颠覆预期" },
-      { "word": "vertigo", "structure": "vertere + -igo", "meaning": "dizziness, a turning sensation", "meaningCN": "眩晕", "example": "suffer from vertigo", "exampleCN": "患眩晕症" }
-    ],
-    "latinEntries": [
-      { "word": "averto", "structure": "Latin verb", "meaning": "to turn away", "meaningCN": "使转开" },
-      { "word": "avertens", "structure": "Latin participle", "meaning": "turning away", "meaningCN": "正在转开的" }
-    ]
   }
-}
+]

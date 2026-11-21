@@ -1,372 +1,374 @@
-{
-  "word": "breakdown",
-  "ipa_uk": "/ˈbreɪkdaʊn/",
-  "ipa_us": "/ˈbreɪkdaʊn/",
-  "definition_zh": "故障；崩溃；分类细目",
-  "definition_en": "a failure of a machine or a system to work",
-  "core_image": "停在路边的抛锚汽车",
-  "scene": "汽车在高速路边抛锚。The car had a breakdown on the highway.",
-  "sceneCN": "这里 breakdown 是「故障」（第 1 个义项：机器或系统停止运转）；句意是汽车在高速路边抛锚。",
-  "pos": [
-    {
-      "tag": "n.",
-      "zh": "名词：故障；崩溃；分类细目"
-    }
-  ],
-  "collocations": [
-    {
-      "phrase": "an engine breakdown",
-      "zh": "发动机故障"
-    },
-    {
-      "phrase": "a nervous breakdown",
-      "zh": "精神崩溃"
-    },
-    {
-      "phrase": "a breakdown of costs",
-      "zh": "费用明细"
-    },
-    {
-      "phrase": "breakdown cover",
-      "zh": "道路救援"
-    },
-    {
-      "phrase": "a breakdown in talks",
-      "zh": "谈判破裂"
-    },
-    {
-      "phrase": "a full breakdown",
-      "zh": "完整明细"
-    }
-  ],
-  "forms": [
-    {
-      "label": "复数",
-      "form": "breakdowns"
-    }
-  ],
-  "derivatives": [
-    {
-      "word": "break down",
-      "pos": "phr.",
-      "zh": "出故障；分解"
-    },
-    {
-      "word": "broken-down",
-      "pos": "adj.",
-      "zh": "坏了的；破旧的"
-    }
-  ],
-  "senses": [
-    {
-      "no": "01",
-      "title": "A machine failure",
-      "titleCN": "故障",
-      "definition": "a time when a machine stops working",
-      "definitionCN": "机器停止运转的情况",
-      "example": "The car had a breakdown on the highway.",
-      "exampleCN": "汽车在高速路边抛锚。",
-      "why": "The verb break down turned into one noun.",
-      "whyCN": "动词短语 break down 合成了一个名词。"
-    },
-    {
-      "no": "02",
-      "title": "A collapse of health or talks",
-      "titleCN": "崩溃；破裂",
-      "definition": "a sudden failure of health or of an agreement",
-      "definitionCN": "健康或协议的突然崩溃",
-      "example": "He suffered a breakdown from overwork.",
-      "exampleCN": "他因过度劳累而精神崩溃。",
-      "why": "A stopped machine pictured a stopped mind or plan.",
-      "whyCN": "停下的机器被用来比喻停摆的心智或计划。"
-    },
-    {
-      "no": "03",
-      "title": "A list of separate parts",
-      "titleCN": "分类细目",
-      "definition": "a list that separates something into its parts",
-      "definitionCN": "把某事物拆成各个部分的清单",
-      "example": "She asked for a breakdown of the costs.",
-      "exampleCN": "她要求提供费用明细。",
-      "why": "Breaking a whole into parts produced this sense.",
-      "whyCN": "把整体拆成部分，就产生了这个义项。"
-    }
-  ],
-  "etymology": {
-    "intro": {
-      "en": "Breakdown joined break and down in English to name a collapse.",
-      "cn": "breakdown 由 break 与 down 在英语中组合，表示垮掉。"
-    },
-    "items": [
+[
+  {
+    "word": "breakdown",
+    "ipa_uk": "/ˈbreɪkdaʊn/",
+    "ipa_us": "/ˈbreɪkdaʊn/",
+    "definition_zh": "故障；崩溃；分类细目",
+    "definition_en": "a failure of a machine or a system to work",
+    "core_image": "停在路边的抛锚汽车",
+    "scene": "汽车在高速路边抛锚。The car had a breakdown on the highway.",
+    "sceneCN": "这里 breakdown 是「故障」（第 1 个义项：机器或系统停止运转）；句意是汽车在高速路边抛锚。",
+    "pos": [
       {
-        "era": "EIGHTEENTH CENTURY",
-        "en": "break down named a fall into pieces.",
-        "cn": "break down 指碎成几块。"
-      },
-      {
-        "era": "EARLY NINETEENTH CENTURY",
-        "en": "breakdown named a collapse of health.",
-        "cn": "breakdown 指健康的垮掉。"
-      },
-      {
-        "era": "LATE NINETEENTH CENTURY",
-        "en": "breakdown named a machine failure.",
-        "cn": "breakdown 指机器故障。"
-      },
-      {
-        "era": "TWENTIETH CENTURY",
-        "en": "breakdown named a list of parts.",
-        "cn": "breakdown 指分项清单。"
-      },
-      {
-        "era": "PRESENT DAY ENGLISH",
-        "en": "breakdown covers machines, health and costs.",
-        "cn": "如今 breakdown 兼指机器、健康与费用。"
-      }
-    ]
-  },
-  "similar": {
-    "note": {
-      "en": "The look-alike group shares the break- opening; the near-meaning group gives other failures.",
-      "cn": "形近组都以 break- 开头；近义组是其他表示失灵的词。"
-    },
-    "groups": [
-      {
-        "heading": "LOOK-ALIKE",
-        "entries": [
-          {
-            "word": "breakout",
-            "ipa": "/ˈbreɪkaʊt/",
-            "tag": "look-alike",
-            "definition": "an escape from a place",
-            "definitionCN": "越狱；突围"
-          },
-          {
-            "word": "breakthrough",
-            "ipa": "/ˈbreɪkθruː/",
-            "tag": "look-alike",
-            "definition": "an important advance",
-            "definitionCN": "突破"
-          },
-          {
-            "word": "breakup",
-            "ipa": "/ˈbreɪkʌp/",
-            "tag": "look-alike",
-            "definition": "the end of a relationship",
-            "definitionCN": "分手"
-          }
-        ]
-      },
-      {
-        "heading": "NEAR MEANING",
-        "entries": [
-          {
-            "word": "failure",
-            "ipa": "/ˈfeɪljə/",
-            "tag": "near synonym",
-            "definition": "a lack of success or working order",
-            "definitionCN": "失灵；失败"
-          },
-          {
-            "word": "collapse",
-            "ipa": "/kəˈlæps/",
-            "tag": "near synonym",
-            "definition": "a sudden fall or failure",
-            "definitionCN": "崩溃"
-          },
-          {
-            "word": "fault",
-            "ipa": "/fɔːlt/",
-            "tag": "related",
-            "definition": "a defect in a machine",
-            "definitionCN": "故障"
-          }
-        ]
-      }
-    ]
-  },
-  "mnemonics": {
-    "normalIntro": {
-      "en": "Breakdown is what happens when a machine or a plan stops working.",
-      "cn": "breakdown 是机器或计划停止运转时发生的事。"
-    },
-    "normal": [
-      {
-        "en": "The car had a breakdown.",
-        "cn": "汽车抛锚了。"
-      },
-      {
-        "en": "He had a nervous breakdown.",
-        "cn": "他精神崩溃了。"
-      },
-      {
-        "en": "Ask for a breakdown of the costs.",
-        "cn": "要求提供费用明细。"
-      },
-      {
-        "en": "The plural is breakdowns.",
-        "cn": "复数是 breakdowns。"
-      },
-      {
-        "en": "Breakdown cover pays for roadside help.",
-        "cn": "道路救援险支付路边援助。"
+        "tag": "n.",
+        "zh": "名词：故障；崩溃；分类细目"
       }
     ],
-    "abstract": [
+    "collocations": [
       {
-        "en": "See a car stopped by the road.",
-        "cn": "想象一辆停在路边的车。"
+        "phrase": "an engine breakdown",
+        "zh": "发动机故障"
       },
       {
-        "en": "See a machine with smoke coming out.",
-        "cn": "想象冒烟的机器。"
+        "phrase": "a nervous breakdown",
+        "zh": "精神崩溃"
       },
       {
-        "en": "See a bill split into small lines.",
-        "cn": "想象一张拆成小行的账单。"
+        "phrase": "a breakdown of costs",
+        "zh": "费用明细"
+      },
+      {
+        "phrase": "breakdown cover",
+        "zh": "道路救援"
+      },
+      {
+        "phrase": "a breakdown in talks",
+        "zh": "谈判破裂"
+      },
+      {
+        "phrase": "a full breakdown",
+        "zh": "完整明细"
       }
-    ]
-  },
-  "examples": [
-    {
-      "en": "The car had a breakdown on the highway.",
-      "cn": "汽车在高速路边抛锚。"
-    },
-    {
-      "en": "He suffered a breakdown from overwork.",
-      "cn": "他因过度劳累而精神崩溃。"
-    },
-    {
-      "en": "She asked for a breakdown of the costs.",
-      "cn": "她要求提供费用明细。"
-    }
-  ],
-  "dict_mnemonic": {
-    "note": "拆词记忆 · 非词源",
-    "text": "break 是打破，down 是倒下，机器打破后倒下，就是故障。",
-    "word": "breakdown"
-  },
-  "root": "breakdown 由 break 与 down 组合而成，十八世纪指碎成几块，十九世纪先后指健康垮掉与机器故障，二十世纪又指把整体拆开的费用或数据明细。",
-  "sensesIntro": {
-    "en": "A stopped machine, a collapse of health or talks, and a list of parts.",
-    "cn": "停下的机器、健康或谈判的崩溃、拆成部分的清单。"
-  },
-  "semanticMap": {
-    "core": {
-      "en": "CORE IMAGE: a car stopped at the roadside with smoke.",
-      "cn": "核心意象：冒着烟停在路边的汽车。"
-    },
-    "chain": [
-      "BREAK",
-      "STOP",
-      "MACHINE",
-      "HEALTH",
-      "TALKS",
-      "LIST"
     ],
-    "branches": [
+    "forms": [
       {
-        "senses": "01",
-        "en": "an engine breakdown",
-        "cn": "发动机故障"
-      },
-      {
-        "senses": "01",
-        "en": "breakdown cover",
-        "cn": "道路救援"
-      },
-      {
-        "senses": "02",
-        "en": "a nervous breakdown",
-        "cn": "精神崩溃"
-      },
-      {
-        "senses": "02",
-        "en": "a breakdown in talks",
-        "cn": "谈判破裂"
-      },
-      {
-        "senses": "03",
-        "en": "a breakdown of costs",
-        "cn": "费用明细"
+        "label": "复数",
+        "form": "breakdowns"
       }
-    ]
-  },
-  "affixes": {
-    "intro": {
-      "en": "Breakdown combines break with down and with other particles.",
-      "cn": "breakdown 由 break 与 down 及其他小品词组合。"
-    },
-    "latinIntro": {
-      "en": "The base is English; the Latin items below are related only in meaning.",
-      "cn": "词基来自英语，下面的拉丁词只在意思上相关。"
-    },
-    "items": [
-      {
-        "word": "breakdown",
-        "structure": "break + down",
-        "meaning": "a failure to work",
-        "meaningCN": "故障",
-        "example": "an engine breakdown",
-        "exampleCN": "发动机故障"
-      },
+    ],
+    "derivatives": [
       {
         "word": "break down",
-        "structure": "break + down",
-        "meaning": "to stop working",
-        "meaningCN": "出故障",
-        "example": "the car broke down",
-        "exampleCN": "汽车抛锚了"
+        "pos": "phr.",
+        "zh": "出故障；分解"
       },
       {
         "word": "broken-down",
-        "structure": "broken + down",
-        "meaning": "no longer working",
-        "meaningCN": "坏了的",
-        "example": "a broken-down van",
-        "exampleCN": "坏了的货车"
-      },
-      {
-        "word": "breakout",
-        "structure": "break + out",
-        "meaning": "an escape",
-        "meaningCN": "越狱",
-        "example": "a prison breakout",
-        "exampleCN": "越狱"
-      },
-      {
-        "word": "breakthrough",
-        "structure": "break + through",
-        "meaning": "an important advance",
-        "meaningCN": "突破",
-        "example": "a medical breakthrough",
-        "exampleCN": "医学突破"
-      },
-      {
-        "word": "breakup",
-        "structure": "break + up",
-        "meaning": "the end of a relationship",
-        "meaningCN": "分手",
-        "example": "a painful breakup",
-        "exampleCN": "痛苦的分手"
-      },
-      {
-        "word": "failure",
-        "structure": "Latin fallere",
-        "meaning": "a lack of working order",
-        "meaningCN": "失灵",
-        "example": "a power failure",
-        "exampleCN": "停电"
-      },
-      {
-        "word": "fault",
-        "structure": "Latin fallita",
-        "meaning": "a defect",
-        "meaningCN": "故障",
-        "example": "an electrical fault",
-        "exampleCN": "电气故障"
+        "pos": "adj.",
+        "zh": "坏了的；破旧的"
       }
     ],
-    "latinEntries": []
+    "senses": [
+      {
+        "no": "01",
+        "title": "A machine failure",
+        "titleCN": "故障",
+        "definition": "a time when a machine stops working",
+        "definitionCN": "机器停止运转的情况",
+        "example": "The car had a breakdown on the highway.",
+        "exampleCN": "汽车在高速路边抛锚。",
+        "why": "The verb break down turned into one noun.",
+        "whyCN": "动词短语 break down 合成了一个名词。"
+      },
+      {
+        "no": "02",
+        "title": "A collapse of health or talks",
+        "titleCN": "崩溃；破裂",
+        "definition": "a sudden failure of health or of an agreement",
+        "definitionCN": "健康或协议的突然崩溃",
+        "example": "He suffered a breakdown from overwork.",
+        "exampleCN": "他因过度劳累而精神崩溃。",
+        "why": "A stopped machine pictured a stopped mind or plan.",
+        "whyCN": "停下的机器被用来比喻停摆的心智或计划。"
+      },
+      {
+        "no": "03",
+        "title": "A list of separate parts",
+        "titleCN": "分类细目",
+        "definition": "a list that separates something into its parts",
+        "definitionCN": "把某事物拆成各个部分的清单",
+        "example": "She asked for a breakdown of the costs.",
+        "exampleCN": "她要求提供费用明细。",
+        "why": "Breaking a whole into parts produced this sense.",
+        "whyCN": "把整体拆成部分，就产生了这个义项。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Breakdown joined break and down in English to name a collapse.",
+        "cn": "breakdown 由 break 与 down 在英语中组合，表示垮掉。"
+      },
+      "items": [
+        {
+          "era": "EIGHTEENTH CENTURY",
+          "en": "break down named a fall into pieces.",
+          "cn": "break down 指碎成几块。"
+        },
+        {
+          "era": "EARLY NINETEENTH CENTURY",
+          "en": "breakdown named a collapse of health.",
+          "cn": "breakdown 指健康的垮掉。"
+        },
+        {
+          "era": "LATE NINETEENTH CENTURY",
+          "en": "breakdown named a machine failure.",
+          "cn": "breakdown 指机器故障。"
+        },
+        {
+          "era": "TWENTIETH CENTURY",
+          "en": "breakdown named a list of parts.",
+          "cn": "breakdown 指分项清单。"
+        },
+        {
+          "era": "PRESENT DAY ENGLISH",
+          "en": "breakdown covers machines, health and costs.",
+          "cn": "如今 breakdown 兼指机器、健康与费用。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "The look-alike group shares the break- opening; the near-meaning group gives other failures.",
+        "cn": "形近组都以 break- 开头；近义组是其他表示失灵的词。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "breakout",
+              "ipa": "/ˈbreɪkaʊt/",
+              "tag": "look-alike",
+              "definition": "an escape from a place",
+              "definitionCN": "越狱；突围"
+            },
+            {
+              "word": "breakthrough",
+              "ipa": "/ˈbreɪkθruː/",
+              "tag": "look-alike",
+              "definition": "an important advance",
+              "definitionCN": "突破"
+            },
+            {
+              "word": "breakup",
+              "ipa": "/ˈbreɪkʌp/",
+              "tag": "look-alike",
+              "definition": "the end of a relationship",
+              "definitionCN": "分手"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "failure",
+              "ipa": "/ˈfeɪljə/",
+              "tag": "near synonym",
+              "definition": "a lack of success or working order",
+              "definitionCN": "失灵；失败"
+            },
+            {
+              "word": "collapse",
+              "ipa": "/kəˈlæps/",
+              "tag": "near synonym",
+              "definition": "a sudden fall or failure",
+              "definitionCN": "崩溃"
+            },
+            {
+              "word": "fault",
+              "ipa": "/fɔːlt/",
+              "tag": "related",
+              "definition": "a defect in a machine",
+              "definitionCN": "故障"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Breakdown is what happens when a machine or a plan stops working.",
+        "cn": "breakdown 是机器或计划停止运转时发生的事。"
+      },
+      "normal": [
+        {
+          "en": "The car had a breakdown.",
+          "cn": "汽车抛锚了。"
+        },
+        {
+          "en": "He had a nervous breakdown.",
+          "cn": "他精神崩溃了。"
+        },
+        {
+          "en": "Ask for a breakdown of the costs.",
+          "cn": "要求提供费用明细。"
+        },
+        {
+          "en": "The plural is breakdowns.",
+          "cn": "复数是 breakdowns。"
+        },
+        {
+          "en": "Breakdown cover pays for roadside help.",
+          "cn": "道路救援险支付路边援助。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "See a car stopped by the road.",
+          "cn": "想象一辆停在路边的车。"
+        },
+        {
+          "en": "See a machine with smoke coming out.",
+          "cn": "想象冒烟的机器。"
+        },
+        {
+          "en": "See a bill split into small lines.",
+          "cn": "想象一张拆成小行的账单。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "The car had a breakdown on the highway.",
+        "cn": "汽车在高速路边抛锚。"
+      },
+      {
+        "en": "He suffered a breakdown from overwork.",
+        "cn": "他因过度劳累而精神崩溃。"
+      },
+      {
+        "en": "She asked for a breakdown of the costs.",
+        "cn": "她要求提供费用明细。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "拆词记忆 · 非词源",
+      "text": "break 是打破，down 是倒下，机器打破后倒下，就是故障。",
+      "word": "breakdown"
+    },
+    "root": "breakdown 由 break 与 down 组合而成，十八世纪指碎成几块，十九世纪先后指健康垮掉与机器故障，二十世纪又指把整体拆开的费用或数据明细。",
+    "sensesIntro": {
+      "en": "A stopped machine, a collapse of health or talks, and a list of parts.",
+      "cn": "停下的机器、健康或谈判的崩溃、拆成部分的清单。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: a car stopped at the roadside with smoke.",
+        "cn": "核心意象：冒着烟停在路边的汽车。"
+      },
+      "chain": [
+        "BREAK",
+        "STOP",
+        "MACHINE",
+        "HEALTH",
+        "TALKS",
+        "LIST"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "an engine breakdown",
+          "cn": "发动机故障"
+        },
+        {
+          "senses": "01",
+          "en": "breakdown cover",
+          "cn": "道路救援"
+        },
+        {
+          "senses": "02",
+          "en": "a nervous breakdown",
+          "cn": "精神崩溃"
+        },
+        {
+          "senses": "02",
+          "en": "a breakdown in talks",
+          "cn": "谈判破裂"
+        },
+        {
+          "senses": "03",
+          "en": "a breakdown of costs",
+          "cn": "费用明细"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Breakdown combines break with down and with other particles.",
+        "cn": "breakdown 由 break 与 down 及其他小品词组合。"
+      },
+      "latinIntro": {
+        "en": "The base is English; the Latin items below are related only in meaning.",
+        "cn": "词基来自英语，下面的拉丁词只在意思上相关。"
+      },
+      "items": [
+        {
+          "word": "breakdown",
+          "structure": "break + down",
+          "meaning": "a failure to work",
+          "meaningCN": "故障",
+          "example": "an engine breakdown",
+          "exampleCN": "发动机故障"
+        },
+        {
+          "word": "break down",
+          "structure": "break + down",
+          "meaning": "to stop working",
+          "meaningCN": "出故障",
+          "example": "the car broke down",
+          "exampleCN": "汽车抛锚了"
+        },
+        {
+          "word": "broken-down",
+          "structure": "broken + down",
+          "meaning": "no longer working",
+          "meaningCN": "坏了的",
+          "example": "a broken-down van",
+          "exampleCN": "坏了的货车"
+        },
+        {
+          "word": "breakout",
+          "structure": "break + out",
+          "meaning": "an escape",
+          "meaningCN": "越狱",
+          "example": "a prison breakout",
+          "exampleCN": "越狱"
+        },
+        {
+          "word": "breakthrough",
+          "structure": "break + through",
+          "meaning": "an important advance",
+          "meaningCN": "突破",
+          "example": "a medical breakthrough",
+          "exampleCN": "医学突破"
+        },
+        {
+          "word": "breakup",
+          "structure": "break + up",
+          "meaning": "the end of a relationship",
+          "meaningCN": "分手",
+          "example": "a painful breakup",
+          "exampleCN": "痛苦的分手"
+        },
+        {
+          "word": "failure",
+          "structure": "Latin fallere",
+          "meaning": "a lack of working order",
+          "meaningCN": "失灵",
+          "example": "a power failure",
+          "exampleCN": "停电"
+        },
+        {
+          "word": "fault",
+          "structure": "Latin fallita",
+          "meaning": "a defect",
+          "meaningCN": "故障",
+          "example": "an electrical fault",
+          "exampleCN": "电气故障"
+        }
+      ],
+      "latinEntries": []
+    }
   }
-}
+]

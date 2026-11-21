@@ -1,395 +1,397 @@
-{
- "word": "bellicose",
- "ipa_uk": "/ˈbelɪkəʊs/",
- "ipa_us": "/ˈbeləkoʊs/",
- "definition_zh": "好战的；好斗的；尚武的；咄咄逼人的",
- "definition_en": "eager to fight or quarrel; showing an aggressive and warlike spirit",
- "core_image": "一只攥紧拳头、浑身炸毛、随时要扑上去的斗鸡",
- "scene": "谈判还没开始，他已经拍着桌子、卷起袖子。His bellicose tone made the negotiation harder before it began.",
- "sceneCN": "这里 bellicose 是「好斗的、咄咄逼人的」（第 1 个义项：性情或言辞好战）；句意是他好斗的腔调让谈判一开始就变得艰难。",
- "pos": [
+[
   {
-   "tag": "adj.",
-   "zh": "好战的；好斗的；气势汹汹的"
-  }
- ],
- "collocations": [
-  {
-   "phrase": "a bellicose tone",
-   "zh": "好斗的语气"
-  },
-  {
-   "phrase": "bellicose rhetoric",
-   "zh": "挑衅性的言辞"
-  },
-  {
-   "phrase": "a bellicose nation",
-   "zh": "好战的国家"
-  },
-  {
-   "phrase": "bellicose gestures",
-   "zh": "挑衅的姿态"
-  },
-  {
-   "phrase": "in a bellicose mood",
-   "zh": "一肚子火气、想吵架的样子"
-  }
- ],
- "forms": [
-  {
-   "label": "比较级",
-   "form": "more bellicose"
-  },
-  {
-   "label": "最高级",
-   "form": "most bellicose"
-  }
- ],
- "derivatives": [
-  {
-   "word": "bellicosity",
-   "pos": "n.",
-   "zh": "由形容词加名词后缀构成，义为「好战性；挑衅态度」"
-  },
-  {
-   "word": "bellicosely",
-   "pos": "adv.",
-   "zh": "由形容词加副词后缀构成，义为「好斗地」"
-  },
-  {
-   "word": "belligerent",
-   "pos": "adj.",
-   "zh": "同根近义词，义为「交战的；好斗的」"
-  }
- ],
- "senses": [
-  {
-   "no": "01",
-   "title": "Eager to fight or quarrel",
-   "titleCN": "好斗的；好战的",
-   "definition": "having or showing a strong desire to fight, argue, or threaten",
-   "definitionCN": "一心想打架、争吵或威胁的样子",
-   "example": "His bellicose tone made the negotiation harder before it began.",
-   "exampleCN": "他好斗的腔调让谈判还没开始就变得艰难。",
-   "why": "The Latin bellum means war, and the suffix -ose means full of.",
-   "whyCN": "拉丁词基 bellum 意为「战争」，后缀 -ose 表示「充满」，合起来即「充满战争气」。"
-  },
-  {
-   "no": "02",
-   "title": "Warlike in manner of speech or policy",
-   "titleCN": "（言论、政策）强硬挑衅的",
-   "definition": "describing talk, writing, or policy that threatens or invites war",
-   "definitionCN": "形容言谈、文章或政策带有威胁、挑动战争的味道",
-   "example": "The editorial criticized the government's bellicose rhetoric.",
-   "exampleCN": "社论批评了政府挑衅性的言辞。",
-   "why": "The war image transfers from fists to words and policies.",
-   "whyCN": "「战争」意象从拳脚转移到言语与政策层面。"
-  }
- ],
- "etymology": {
-  "intro": {
-   "en": "Bellicose comes from Latin bellum, war, plus the suffix -osus.",
-   "cn": "bellicose 来自拉丁语 bellum「战争」加后缀 -osus「充满」。"
-  },
-  "items": [
-   {
-    "era": "PROTO-INDO-EUROPEAN",
-    "en": "the root delhw- meant to aim at, to urge on.",
-    "cn": "一般认为词根与「瞄准、驱使」有关（重构形式）。"
-   },
-   {
-    "era": "LATIN",
-    "en": "bellum meant war; bellicosus meant warlike, eager to fight.",
-    "cn": "拉丁语 bellum 意为「战争」，bellicosus 意为「好战的」。"
-   },
-   {
-    "era": "MIDDLE FRENCH",
-    "en": "belliqueux carried the same warlike sense into French.",
-    "cn": "中古法语 belliqueux 沿用好战之义。"
-   },
-   {
-    "era": "ENGLISH, 15TH C.",
-    "en": "bellicose was borrowed in the fifteenth century for warlike people and nations.",
-    "cn": "十五世纪英语借入 bellicose，形容好战之人、好战之国。"
-   },
-   {
-    "era": "MODERN ENGLISH",
-    "en": "today it often describes aggressive speech rather than real warfare.",
-    "cn": "如今多形容咄咄逼人的言辞，而非真实的战争。"
-   }
-  ]
- },
- "similar": {
-  "note": {
-   "en": "The look-alike group shares the bell- war root or spelling; the near-meaning group gathers aggressive words.",
-   "cn": "形近组共享 bell-「战争」词根或拼写；近义组汇集攻击性词。"
-  },
-  "groups": [
-   {
-    "heading": "LOOK-ALIKE",
-    "entries": [
-     {
-      "word": "belligerent",
-      "ipa": "/bəˈlɪdʒərənt/",
-      "tag": "same root",
-      "definition": "waging war; hostile in manner",
-      "definitionCN": "交战的；态度挑衅的——同根近亲"
-     },
-     {
-      "word": "rebellious",
-      "ipa": "/rɪˈbeljəs/",
-      "tag": "same root",
-      "definition": "opposing authority",
-      "definitionCN": "反叛的——同含 bellum 词根"
-     },
-     {
-      "word": "bellicosity",
-      "ipa": "/ˌbelɪˈkɒsəti/",
-      "tag": "derived form",
-      "definition": "a warlike disposition",
-      "definitionCN": "好战性——bellicose 的名词形式"
-     }
-    ]
-   },
-   {
-    "heading": "NEAR MEANING",
-    "entries": [
-     {
-      "word": "pugnacious",
-      "ipa": "/pʌɡˈneɪʃəs/",
-      "tag": "near synonym",
-      "definition": "quick to argue and fight",
-      "definitionCN": "爱斗嘴动手的；强调脾气"
-     },
-     {
-      "word": "belligerent",
-      "ipa": "/bəˈlɪdʒərənt/",
-      "tag": "near synonym",
-      "definition": "hostile and aggressive",
-      "definitionCN": "挑衅的；常指当下态度"
-     },
-     {
-      "word": "hawkish",
-      "ipa": "/ˈhɔːkɪʃ/",
-      "tag": "near synonym",
-      "definition": "favouring warlike policy",
-      "definitionCN": "鹰派的；专用于政策立场"
-     }
-    ]
-   }
-  ]
- },
- "mnemonics": {
-  "normalIntro": {
-   "en": "Bellicose is bellum plus -ose: full of war.",
-   "cn": "bellicose 是 bellum 加 -ose：浑身是战气。"
-  },
-  "normal": [
-   {
-    "en": "Bellum is Latin for war.",
-    "cn": "bellum 是拉丁语的「战争」。"
-   },
-   {
-    "en": "The noun is bellicosity.",
-    "cn": "名词形式是 bellicosity。"
-   },
-   {
-    "en": "Rebellion shares the bell- root.",
-    "cn": "rebellion 同含 bell- 词根。"
-   },
-   {
-    "en": "A bellicose tone invites conflict.",
-    "cn": "好斗的语气招致冲突。"
-   },
-   {
-    "en": "Compare with belligerent and pugnacious.",
-    "cn": "对比 belligerent 与 pugnacious。"
-   }
-  ],
-  "abstract": [
-   {
-    "en": "See a rooster with raised hackles.",
-    "cn": "看一只炸毛的公鸡。"
-   },
-   {
-    "en": "Feel the drumbeat before the charge.",
-    "cn": "感受冲锋前的战鼓。"
-   },
-   {
-    "en": "Picture a table slammed by a fist.",
-    "cn": "想象拳头砸在桌面上。"
-   }
-  ]
- },
- "examples": [
-  {
-   "en": "His bellicose tone made the negotiation harder before it began.",
-   "cn": "他好斗的腔调让谈判还没开始就变得艰难。"
-  },
-  {
-   "en": "The editorial criticized the government's bellicose rhetoric.",
-   "cn": "社论批评了政府挑衅性的言辞。"
-  },
-  {
-   "en": "History remembers him as a bellicose emperor.",
-   "cn": "历史记住的是一位好战的皇帝。"
-  }
- ],
- "dict_mnemonic": {
-  "note": "谐音记忆 · 非词源",
-  "text": "「白力抠死」——白费力气也要抠住对方死磕，一副好斗相。",
-  "word": "bellicose"
- },
- "root": "拉丁语 bellum「战争」（词根一般认为可上溯至原始印欧语，表「瞄准、驱使」，属重构形式）加后缀 -osus「充满……的」，经中古法语 belliqueux，于十五世纪借入英语；同根词还有 belligerent「交战的」、rebellion「反叛」等。",
- "sensesIntro": {
-  "en": "One adjective spreads the smell of war from tempers to words to policies.",
-  "cn": "一个形容词，让「战争气」从脾气蔓延到言辞、再到政策。"
- },
- "semanticMap": {
-  "core": {
-   "en": "CORE IMAGE: a rooster with raised hackles, ready to strike.",
-   "cn": "核心意象：炸毛备战、随时扑上的斗鸡。"
-  },
-  "chain": [
-   "WAR",
-   "AGGRESSION",
-   "THREAT",
-   "CONFRONTATION",
-   "PROVOCATION",
-   "HOSTILITY"
-  ],
-  "branches": [
-   {
-    "senses": "01",
-    "en": "in a bellicose mood",
-    "cn": "一肚子火气"
-   },
-   {
-    "senses": "01",
-    "en": "a bellicose nation",
-    "cn": "好战的国家"
-   },
-   {
-    "senses": "02",
-    "en": "bellicose rhetoric",
-    "cn": "挑衅性言辞"
-   },
-   {
-    "senses": "02",
-    "en": "a bellicose tone",
-    "cn": "好斗的语气"
-   },
-   {
-    "senses": "01 · 02",
-    "en": "bellicose gestures",
-    "cn": "挑衅的姿态"
-   }
-  ]
- },
- "affixes": {
-  "intro": {
-   "en": "Bellicose shows the bell- war root wearing the -ose suffix.",
-   "cn": "bellicose 展示 bell-「战争」词根配上 -ose 后缀。"
-  },
-  "latinIntro": {
-   "en": "The Latin root bellum heads a whole family of war words.",
-   "cn": "拉丁词根 bellum 领衔一整族「战争」词。"
-  },
-  "items": [
-   {
-    "word": "bellum",
-    "structure": "Latin noun",
-    "meaning": "war",
-    "meaningCN": "战争",
-    "example": "bellum gerere",
-    "exampleCN": "进行战争"
-   },
-   {
     "word": "bellicose",
-    "structure": "bellum + -ose",
-    "meaning": "warlike, eager to fight",
-    "meaningCN": "好战的",
-    "example": "a bellicose speech",
-    "exampleCN": "好战的演说"
-   },
-   {
-    "word": "bellicosity",
-    "structure": "bellicose + -ity",
-    "meaning": "warlike spirit",
-    "meaningCN": "好战性",
-    "example": "growing bellicosity",
-    "exampleCN": "日益高涨的好战气焰"
-   },
-   {
-    "word": "belligerent",
-    "structure": "bellum + gerere",
-    "meaning": "waging war",
-    "meaningCN": "交战的；挑衅的",
-    "example": "belligerent powers",
-    "exampleCN": "交战国"
-   },
-   {
-    "word": "rebellion",
-    "structure": "re- + bellum",
-    "meaning": "armed resistance to authority",
-    "meaningCN": "反叛",
-    "example": "crush a rebellion",
-    "exampleCN": "平定叛乱"
-   },
-   {
-    "word": "rebel",
-    "structure": "re- + bellum",
-    "meaning": "one who resists authority",
-    "meaningCN": "反叛者",
-    "example": "a rebel army",
-    "exampleCN": "叛军"
-   },
-   {
-    "word": "pugnacious",
-    "structure": "Latin pugnare",
-    "meaning": "quick to fight",
-    "meaningCN": "好斗的",
-    "example": "a pugnacious debater",
-    "exampleCN": "好斗的辩手"
-   },
-   {
-    "word": "hawkish",
-    "structure": "hawk + -ish",
-    "meaning": "favouring forceful policy",
-    "meaningCN": "鹰派的",
-    "example": "a hawkish senator",
-    "exampleCN": "鹰派参议员"
-   },
-   {
-    "word": "militant",
-    "structure": "Latin militare",
-    "meaning": "combative in support of a cause",
-    "meaningCN": "激进的；好斗的",
-    "example": "a militant group",
-    "exampleCN": "激进团体"
-   }
-  ],
-  "latinEntries": [
-   {
-    "word": "bellum",
-    "structure": "Latin noun",
-    "meaning": "war; source of bellicose and belligerent",
-    "meaningCN": "战争；bellicose 与 belligerent 的词源",
-    "example": "bellum civile",
-    "exampleCN": "内战"
-   }
-  ],
-  "derivatives": [
-   {
-    "word": "bellicosity",
-    "pos": "n.",
-    "zh": "由形容词加名词后缀构成，义为「好战性」"
-   },
-   {
-    "word": "bellicosely",
-    "pos": "adv.",
-    "zh": "由形容词加副词后缀构成，义为「好斗地」"
-   }
-  ]
- }
-}
+    "ipa_uk": "/ˈbelɪkəʊs/",
+    "ipa_us": "/ˈbeləkoʊs/",
+    "definition_zh": "好战的；好斗的；尚武的；咄咄逼人的",
+    "definition_en": "eager to fight or quarrel; showing an aggressive and warlike spirit",
+    "core_image": "一只攥紧拳头、浑身炸毛、随时要扑上去的斗鸡",
+    "scene": "谈判还没开始，他已经拍着桌子、卷起袖子。His bellicose tone made the negotiation harder before it began.",
+    "sceneCN": "这里 bellicose 是「好斗的、咄咄逼人的」（第 1 个义项：性情或言辞好战）；句意是他好斗的腔调让谈判一开始就变得艰难。",
+    "pos": [
+      {
+        "tag": "adj.",
+        "zh": "好战的；好斗的；气势汹汹的"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "a bellicose tone",
+        "zh": "好斗的语气"
+      },
+      {
+        "phrase": "bellicose rhetoric",
+        "zh": "挑衅性的言辞"
+      },
+      {
+        "phrase": "a bellicose nation",
+        "zh": "好战的国家"
+      },
+      {
+        "phrase": "bellicose gestures",
+        "zh": "挑衅的姿态"
+      },
+      {
+        "phrase": "in a bellicose mood",
+        "zh": "一肚子火气、想吵架的样子"
+      }
+    ],
+    "forms": [
+      {
+        "label": "比较级",
+        "form": "more bellicose"
+      },
+      {
+        "label": "最高级",
+        "form": "most bellicose"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "bellicosity",
+        "pos": "n.",
+        "zh": "由形容词加名词后缀构成，义为「好战性；挑衅态度」"
+      },
+      {
+        "word": "bellicosely",
+        "pos": "adv.",
+        "zh": "由形容词加副词后缀构成，义为「好斗地」"
+      },
+      {
+        "word": "belligerent",
+        "pos": "adj.",
+        "zh": "同根近义词，义为「交战的；好斗的」"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "Eager to fight or quarrel",
+        "titleCN": "好斗的；好战的",
+        "definition": "having or showing a strong desire to fight, argue, or threaten",
+        "definitionCN": "一心想打架、争吵或威胁的样子",
+        "example": "His bellicose tone made the negotiation harder before it began.",
+        "exampleCN": "他好斗的腔调让谈判还没开始就变得艰难。",
+        "why": "The Latin bellum means war, and the suffix -ose means full of.",
+        "whyCN": "拉丁词基 bellum 意为「战争」，后缀 -ose 表示「充满」，合起来即「充满战争气」。"
+      },
+      {
+        "no": "02",
+        "title": "Warlike in manner of speech or policy",
+        "titleCN": "（言论、政策）强硬挑衅的",
+        "definition": "describing talk, writing, or policy that threatens or invites war",
+        "definitionCN": "形容言谈、文章或政策带有威胁、挑动战争的味道",
+        "example": "The editorial criticized the government's bellicose rhetoric.",
+        "exampleCN": "社论批评了政府挑衅性的言辞。",
+        "why": "The war image transfers from fists to words and policies.",
+        "whyCN": "「战争」意象从拳脚转移到言语与政策层面。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Bellicose comes from Latin bellum, war, plus the suffix -osus.",
+        "cn": "bellicose 来自拉丁语 bellum「战争」加后缀 -osus「充满」。"
+      },
+      "items": [
+        {
+          "era": "PROTO-INDO-EUROPEAN",
+          "en": "the root delhw- meant to aim at, to urge on.",
+          "cn": "一般认为词根与「瞄准、驱使」有关（重构形式）。"
+        },
+        {
+          "era": "LATIN",
+          "en": "bellum meant war; bellicosus meant warlike, eager to fight.",
+          "cn": "拉丁语 bellum 意为「战争」，bellicosus 意为「好战的」。"
+        },
+        {
+          "era": "MIDDLE FRENCH",
+          "en": "belliqueux carried the same warlike sense into French.",
+          "cn": "中古法语 belliqueux 沿用好战之义。"
+        },
+        {
+          "era": "ENGLISH, 15TH C.",
+          "en": "bellicose was borrowed in the fifteenth century for warlike people and nations.",
+          "cn": "十五世纪英语借入 bellicose，形容好战之人、好战之国。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "today it often describes aggressive speech rather than real warfare.",
+          "cn": "如今多形容咄咄逼人的言辞，而非真实的战争。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "The look-alike group shares the bell- war root or spelling; the near-meaning group gathers aggressive words.",
+        "cn": "形近组共享 bell-「战争」词根或拼写；近义组汇集攻击性词。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "belligerent",
+              "ipa": "/bəˈlɪdʒərənt/",
+              "tag": "same root",
+              "definition": "waging war; hostile in manner",
+              "definitionCN": "交战的；态度挑衅的——同根近亲"
+            },
+            {
+              "word": "rebellious",
+              "ipa": "/rɪˈbeljəs/",
+              "tag": "same root",
+              "definition": "opposing authority",
+              "definitionCN": "反叛的——同含 bellum 词根"
+            },
+            {
+              "word": "bellicosity",
+              "ipa": "/ˌbelɪˈkɒsəti/",
+              "tag": "derived form",
+              "definition": "a warlike disposition",
+              "definitionCN": "好战性——bellicose 的名词形式"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "pugnacious",
+              "ipa": "/pʌɡˈneɪʃəs/",
+              "tag": "near synonym",
+              "definition": "quick to argue and fight",
+              "definitionCN": "爱斗嘴动手的；强调脾气"
+            },
+            {
+              "word": "belligerent",
+              "ipa": "/bəˈlɪdʒərənt/",
+              "tag": "near synonym",
+              "definition": "hostile and aggressive",
+              "definitionCN": "挑衅的；常指当下态度"
+            },
+            {
+              "word": "hawkish",
+              "ipa": "/ˈhɔːkɪʃ/",
+              "tag": "near synonym",
+              "definition": "favouring warlike policy",
+              "definitionCN": "鹰派的；专用于政策立场"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Bellicose is bellum plus -ose: full of war.",
+        "cn": "bellicose 是 bellum 加 -ose：浑身是战气。"
+      },
+      "normal": [
+        {
+          "en": "Bellum is Latin for war.",
+          "cn": "bellum 是拉丁语的「战争」。"
+        },
+        {
+          "en": "The noun is bellicosity.",
+          "cn": "名词形式是 bellicosity。"
+        },
+        {
+          "en": "Rebellion shares the bell- root.",
+          "cn": "rebellion 同含 bell- 词根。"
+        },
+        {
+          "en": "A bellicose tone invites conflict.",
+          "cn": "好斗的语气招致冲突。"
+        },
+        {
+          "en": "Compare with belligerent and pugnacious.",
+          "cn": "对比 belligerent 与 pugnacious。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "See a rooster with raised hackles.",
+          "cn": "看一只炸毛的公鸡。"
+        },
+        {
+          "en": "Feel the drumbeat before the charge.",
+          "cn": "感受冲锋前的战鼓。"
+        },
+        {
+          "en": "Picture a table slammed by a fist.",
+          "cn": "想象拳头砸在桌面上。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "His bellicose tone made the negotiation harder before it began.",
+        "cn": "他好斗的腔调让谈判还没开始就变得艰难。"
+      },
+      {
+        "en": "The editorial criticized the government's bellicose rhetoric.",
+        "cn": "社论批评了政府挑衅性的言辞。"
+      },
+      {
+        "en": "History remembers him as a bellicose emperor.",
+        "cn": "历史记住的是一位好战的皇帝。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「白力抠死」——白费力气也要抠住对方死磕，一副好斗相。",
+      "word": "bellicose"
+    },
+    "root": "拉丁语 bellum「战争」（词根一般认为可上溯至原始印欧语，表「瞄准、驱使」，属重构形式）加后缀 -osus「充满……的」，经中古法语 belliqueux，于十五世纪借入英语；同根词还有 belligerent「交战的」、rebellion「反叛」等。",
+    "sensesIntro": {
+      "en": "One adjective spreads the smell of war from tempers to words to policies.",
+      "cn": "一个形容词，让「战争气」从脾气蔓延到言辞、再到政策。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: a rooster with raised hackles, ready to strike.",
+        "cn": "核心意象：炸毛备战、随时扑上的斗鸡。"
+      },
+      "chain": [
+        "WAR",
+        "AGGRESSION",
+        "THREAT",
+        "CONFRONTATION",
+        "PROVOCATION",
+        "HOSTILITY"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "in a bellicose mood",
+          "cn": "一肚子火气"
+        },
+        {
+          "senses": "01",
+          "en": "a bellicose nation",
+          "cn": "好战的国家"
+        },
+        {
+          "senses": "02",
+          "en": "bellicose rhetoric",
+          "cn": "挑衅性言辞"
+        },
+        {
+          "senses": "02",
+          "en": "a bellicose tone",
+          "cn": "好斗的语气"
+        },
+        {
+          "senses": "01 · 02",
+          "en": "bellicose gestures",
+          "cn": "挑衅的姿态"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Bellicose shows the bell- war root wearing the -ose suffix.",
+        "cn": "bellicose 展示 bell-「战争」词根配上 -ose 后缀。"
+      },
+      "latinIntro": {
+        "en": "The Latin root bellum heads a whole family of war words.",
+        "cn": "拉丁词根 bellum 领衔一整族「战争」词。"
+      },
+      "items": [
+        {
+          "word": "bellum",
+          "structure": "Latin noun",
+          "meaning": "war",
+          "meaningCN": "战争",
+          "example": "bellum gerere",
+          "exampleCN": "进行战争"
+        },
+        {
+          "word": "bellicose",
+          "structure": "bellum + -ose",
+          "meaning": "warlike, eager to fight",
+          "meaningCN": "好战的",
+          "example": "a bellicose speech",
+          "exampleCN": "好战的演说"
+        },
+        {
+          "word": "bellicosity",
+          "structure": "bellicose + -ity",
+          "meaning": "warlike spirit",
+          "meaningCN": "好战性",
+          "example": "growing bellicosity",
+          "exampleCN": "日益高涨的好战气焰"
+        },
+        {
+          "word": "belligerent",
+          "structure": "bellum + gerere",
+          "meaning": "waging war",
+          "meaningCN": "交战的；挑衅的",
+          "example": "belligerent powers",
+          "exampleCN": "交战国"
+        },
+        {
+          "word": "rebellion",
+          "structure": "re- + bellum",
+          "meaning": "armed resistance to authority",
+          "meaningCN": "反叛",
+          "example": "crush a rebellion",
+          "exampleCN": "平定叛乱"
+        },
+        {
+          "word": "rebel",
+          "structure": "re- + bellum",
+          "meaning": "one who resists authority",
+          "meaningCN": "反叛者",
+          "example": "a rebel army",
+          "exampleCN": "叛军"
+        },
+        {
+          "word": "pugnacious",
+          "structure": "Latin pugnare",
+          "meaning": "quick to fight",
+          "meaningCN": "好斗的",
+          "example": "a pugnacious debater",
+          "exampleCN": "好斗的辩手"
+        },
+        {
+          "word": "hawkish",
+          "structure": "hawk + -ish",
+          "meaning": "favouring forceful policy",
+          "meaningCN": "鹰派的",
+          "example": "a hawkish senator",
+          "exampleCN": "鹰派参议员"
+        },
+        {
+          "word": "militant",
+          "structure": "Latin militare",
+          "meaning": "combative in support of a cause",
+          "meaningCN": "激进的；好斗的",
+          "example": "a militant group",
+          "exampleCN": "激进团体"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "bellum",
+          "structure": "Latin noun",
+          "meaning": "war; source of bellicose and belligerent",
+          "meaningCN": "战争；bellicose 与 belligerent 的词源",
+          "example": "bellum civile",
+          "exampleCN": "内战"
+        }
+      ],
+      "derivatives": [
+        {
+          "word": "bellicosity",
+          "pos": "n.",
+          "zh": "由形容词加名词后缀构成，义为「好战性」"
+        },
+        {
+          "word": "bellicosely",
+          "pos": "adv.",
+          "zh": "由形容词加副词后缀构成，义为「好斗地」"
+        }
+      ]
+    }
+  }
+]

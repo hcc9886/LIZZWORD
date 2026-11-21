@@ -1,372 +1,374 @@
-{
- "word": "bulk",
- "ipa_uk": "/bʌlk/",
- "ipa_us": "/bʌlk/",
- "definition_zh": "大部分；大量；体积；散装的",
- "definition_en": "the main or largest part of something",
- "core_image": "仓库里成堆的麻袋",
- "scene": "仓库的门一开，里面全是麻袋。The bulk of the grain is stored here.",
- "sceneCN": "这里 bulk 是「大部分」（第 1 个义项：整体中占多数的部分）；句意是大部分粮食都存在这里。",
- "pos": [
+[
   {
-   "tag": "n.",
-   "zh": "名词：大部分；体积"
-  },
-  {
-   "tag": "adj.",
-   "zh": "形容词：散装的，大批的"
-  }
- ],
- "collocations": [
-  {
-   "phrase": "the bulk of the work",
-   "zh": "大部分工作"
-  },
-  {
-   "phrase": "in bulk",
-   "zh": "大批地，散装地"
-  },
-  {
-   "phrase": "bulk buying",
-   "zh": "大批量采购"
-  },
-  {
-   "phrase": "bulk goods",
-   "zh": "散装货物"
-  },
-  {
-   "phrase": "the bulk of the grain",
-   "zh": "大部分粮食"
-  }
- ],
- "forms": [
-  {
-   "label": "不可数",
-   "form": "bulk"
-  }
- ],
- "derivatives": [
-  {
-   "word": "bulky",
-   "pos": "adj.",
-   "zh": "笨重的，体积大的"
-  },
-  {
-   "word": "bulkiness",
-   "pos": "n.",
-   "zh": "笨重，体积大"
-  }
- ],
- "senses": [
-  {
-   "no": "01",
-   "title": "The largest part",
-   "titleCN": "大部分",
-   "definition": "the main or largest part of something",
-   "definitionCN": "某事物中占主要或最大的部分",
-   "example": "The bulk of the grain is stored here.",
-   "exampleCN": "大部分粮食都存在这里。",
-   "why": "A heap seen as a whole is mostly its mass.",
-   "whyCN": "把一堆东西看作整体，其中最多的就是它的主体。"
-  },
-  {
-   "no": "02",
-   "title": "Great size or volume",
-   "titleCN": "体积；大量",
-   "definition": "the large size or mass of something",
-   "definitionCN": "某物庞大的体积或分量",
-   "example": "The bulk of the ship filled the harbour.",
-   "exampleCN": "那艘船庞大的船身占满了港口。",
-   "why": "The physical sense of a heap came before the idea of a share.",
-   "whyCN": "「堆」这个具体形象早于「份额」这一抽象概念。"
-  },
-  {
-   "no": "03",
-   "title": "Sold in large amounts",
-   "titleCN": "散装的",
-   "definition": "sold loose or in large amounts, without packing",
-   "definitionCN": "散装或大批出售，没有小包装",
-   "example": "Rice is cheaper when bought in bulk.",
-   "exampleCN": "大米大批购买时更便宜。",
-   "why": "Goods sold by the heap rather than the packet took the word.",
-   "whyCN": "按堆而不是按包出售的货物，用了这个词。"
-  }
- ],
- "etymology": {
-  "intro": {
-   "en": "Bulk first meant the cargo in a ship's hold, then any great mass.",
-   "cn": "bulk 最初指船舱里的货物，后指任何庞大的堆积。"
-  },
-  "items": [
-   {
-    "era": "MIDDLE ENGLISH",
-    "en": "bulke named the cargo piled in a ship.",
-    "cn": "bulke 指堆在船里的货物。"
-   },
-   {
-    "era": "SIXTEENTH CENTURY",
-    "en": "bulk widened to any large mass or body.",
-    "cn": "bulk 扩展到任何大的形体或堆积。"
-   },
-   {
-    "era": "SEVENTEENTH CENTURY",
-    "en": "The bulk of meant the greater part.",
-    "cn": "the bulk of 指「大部分」。"
-   },
-   {
-    "era": "NINETEENTH CENTURY",
-    "en": "Trade in bulk named goods sold loose.",
-    "cn": "trade in bulk 指散装货物交易。"
-   },
-   {
-    "era": "PRESENT DAY ENGLISH",
-    "en": "bulk covers the main part, great size and loose goods.",
-    "cn": "如今 bulk 涵盖主要部分、庞大体量与散装货物。"
-   }
-  ]
- },
- "similar": {
-  "note": {
-   "en": "The look-alike group shares the bul- opening; the near-meaning group gives amount and size words.",
-   "cn": "形近组共享 bul- 开头；近义组是数量与体积类的词。"
-  },
-  "groups": [
-   {
-    "heading": "LOOK-ALIKE",
-    "entries": [
-     {
-      "word": "bulb",
-      "ipa": "/bʌlb/",
-      "tag": "look-alike",
-      "definition": "the glass part of a lamp",
-      "definitionCN": "灯泡"
-     },
-     {
-      "word": "bull",
-      "ipa": "/bʊl/",
-      "tag": "look-alike",
-      "definition": "a male cow",
-      "definitionCN": "公牛"
-     },
-     {
-      "word": "hulk",
-      "ipa": "/hʌlk/",
-      "tag": "look-alike",
-      "definition": "a large heavy ship or person",
-      "definitionCN": "废船；大块头"
-     }
-    ]
-   },
-   {
-    "heading": "NEAR MEANING",
-    "entries": [
-     {
-      "word": "majority",
-      "ipa": "/məˈdʒɒrəti/",
-      "tag": "near synonym",
-      "definition": "more than half of a group",
-      "definitionCN": "多数"
-     },
-     {
-      "word": "mass",
-      "ipa": "/mæs/",
-      "tag": "near synonym",
-      "definition": "a large amount without a clear shape",
-      "definitionCN": "大量，团块"
-     },
-     {
-      "word": "volume",
-      "ipa": "/ˈvɒljuːm/",
-      "tag": "related",
-      "definition": "the amount of space something fills",
-      "definitionCN": "体积"
-     }
-    ]
-   }
-  ]
- },
- "mnemonics": {
-  "normalIntro": {
-   "en": "Bulk is a heap big enough to be most of the pile.",
-   "cn": "bulk 就是大到占去整堆大部分的那一垛。"
-  },
-  "normal": [
-   {
-    "en": "The bulk of the cost is the roof.",
-    "cn": "费用的大部分在屋顶上。"
-   },
-   {
-    "en": "You buy rice in bulk to save money.",
-    "cn": "大批买米能省钱。"
-   },
-   {
-    "en": "Bulky means hard to carry.",
-    "cn": "bulky 意为笨重难搬。"
-   },
-   {
-    "en": "A bulk carrier ships loose goods.",
-    "cn": "散货船运送散装货物。"
-   },
-   {
-    "en": "Bulk buying lowers the unit price.",
-    "cn": "批量采购降低单价。"
-   }
-  ],
-  "abstract": [
-   {
-    "en": "See sacks stacked to the ceiling.",
-    "cn": "想象麻袋一直堆到屋顶。"
-   },
-   {
-    "en": "See a hull filling the whole dock.",
-    "cn": "想象船身占满整个船坞。"
-   },
-   {
-    "en": "See grain poured loose into a bin.",
-    "cn": "想象粮食散着倒进仓里。"
-   }
-  ]
- },
- "examples": [
-  {
-   "en": "The bulk of the grain is stored here.",
-   "cn": "大部分粮食都存在这里。"
-  },
-  {
-   "en": "The bulk of the ship filled the harbour.",
-   "cn": "那艘船庞大的船身占满了港口。"
-  },
-  {
-   "en": "Rice is cheaper when bought in bulk.",
-   "cn": "大米大批购买时更便宜。"
-  }
- ],
- "dict_mnemonic": {
-  "note": "拆词记忆 · 非词源",
-  "text": "bulk 与 bull 只差一个字母，公牛站在那儿，占的分量就是一大块。",
-  "word": "bulk"
- },
- "root": "bulk 中古英语作 bulke，本指船舱里成堆的货物；十六世纪起指庞大体量，十七世纪有了「大部分」的说法，十九世纪起用于「散装、大批」的商业语境。",
- "sensesIntro": {
-  "en": "The biggest share, the size of a heap, and goods sold loose.",
-  "cn": "最大的份额、一堆东西的体积、以及散着卖的货物。"
- },
- "semanticMap": {
-  "core": {
-   "en": "CORE IMAGE: sacks piled high in a warehouse.",
-   "cn": "核心意象：仓库里堆得高高的麻袋。"
-  },
-  "chain": [
-   "CARGO",
-   "HEAP",
-   "MASS",
-   "MOST",
-   "VOLUME",
-   "LOOSE"
-  ],
-  "branches": [
-   {
-    "senses": "01",
-    "en": "the bulk of the work",
-    "cn": "大部分工作"
-   },
-   {
-    "senses": "01",
-    "en": "the bulk of the grain",
-    "cn": "大部分粮食"
-   },
-   {
-    "senses": "02",
-    "en": "the bulk of the ship",
-    "cn": "船的庞大体量"
-   },
-   {
-    "senses": "03",
-    "en": "buy in bulk",
-    "cn": "大批购买"
-   },
-   {
-    "senses": "03",
-    "en": "bulk goods",
-    "cn": "散装货物"
-   }
-  ]
- },
- "affixes": {
-  "intro": {
-   "en": "Bulk takes -y and -iness to describe heavy size.",
-   "cn": "bulk 加 -y 与 -iness 可描述笨重的体积。"
-  },
-  "latinIntro": {
-   "en": "The base is Middle English; the Latin items below are related only in meaning.",
-   "cn": "词基来自中古英语，下面的拉丁词只在意思上相关。"
-  },
-  "items": [
-   {
     "word": "bulk",
-    "structure": "Middle English bulke",
-    "meaning": "a large mass",
-    "meaningCN": "大量，体积",
-    "example": "buy in bulk",
-    "exampleCN": "大批购买"
-   },
-   {
-    "word": "bulky",
-    "structure": "bulk + -y",
-    "meaning": "large and hard to carry",
-    "meaningCN": "笨重的",
-    "example": "a bulky parcel",
-    "exampleCN": "笨重的包裹"
-   },
-   {
-    "word": "bulkiness",
-    "structure": "bulky + -ness",
-    "meaning": "the state of being bulky",
-    "meaningCN": "笨重",
-    "example": "the bulkiness of the case",
-    "exampleCN": "箱子的笨重"
-   },
-   {
-    "word": "mass",
-    "structure": "Latin massa",
-    "meaning": "a large body of matter",
-    "meaningCN": "团块",
-    "example": "a mass of stone",
-    "exampleCN": "一大块石头"
-   },
-   {
-    "word": "volume",
-    "structure": "Latin volumen",
-    "meaning": "the space something fills",
-    "meaningCN": "体积",
-    "example": "the volume of the tank",
-    "exampleCN": "水箱的容积"
-   },
-   {
-    "word": "majority",
-    "structure": "Latin major + -ity",
-    "meaning": "more than half",
-    "meaningCN": "多数",
-    "example": "the majority of voters",
-    "exampleCN": "多数选民"
-   },
-   {
-    "word": "cargo",
-    "structure": "Spanish cargo",
-    "meaning": "goods carried by ship",
-    "meaningCN": "货物",
-    "example": "a cargo of wheat",
-    "exampleCN": "一船小麦"
-   },
-   {
-    "word": "wholesale",
-    "structure": "whole + sale",
-    "meaning": "selling in large amounts",
-    "meaningCN": "批发",
-    "example": "wholesale price",
-    "exampleCN": "批发价"
-   }
-  ],
-  "latinEntries": []
- }
-}
+    "ipa_uk": "/bʌlk/",
+    "ipa_us": "/bʌlk/",
+    "definition_zh": "大部分；大量；体积；散装的",
+    "definition_en": "the main or largest part of something",
+    "core_image": "仓库里成堆的麻袋",
+    "scene": "仓库的门一开，里面全是麻袋。The bulk of the grain is stored here.",
+    "sceneCN": "这里 bulk 是「大部分」（第 1 个义项：整体中占多数的部分）；句意是大部分粮食都存在这里。",
+    "pos": [
+      {
+        "tag": "n.",
+        "zh": "名词：大部分；体积"
+      },
+      {
+        "tag": "adj.",
+        "zh": "形容词：散装的，大批的"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "the bulk of the work",
+        "zh": "大部分工作"
+      },
+      {
+        "phrase": "in bulk",
+        "zh": "大批地，散装地"
+      },
+      {
+        "phrase": "bulk buying",
+        "zh": "大批量采购"
+      },
+      {
+        "phrase": "bulk goods",
+        "zh": "散装货物"
+      },
+      {
+        "phrase": "the bulk of the grain",
+        "zh": "大部分粮食"
+      }
+    ],
+    "forms": [
+      {
+        "label": "不可数",
+        "form": "bulk"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "bulky",
+        "pos": "adj.",
+        "zh": "笨重的，体积大的"
+      },
+      {
+        "word": "bulkiness",
+        "pos": "n.",
+        "zh": "笨重，体积大"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "The largest part",
+        "titleCN": "大部分",
+        "definition": "the main or largest part of something",
+        "definitionCN": "某事物中占主要或最大的部分",
+        "example": "The bulk of the grain is stored here.",
+        "exampleCN": "大部分粮食都存在这里。",
+        "why": "A heap seen as a whole is mostly its mass.",
+        "whyCN": "把一堆东西看作整体，其中最多的就是它的主体。"
+      },
+      {
+        "no": "02",
+        "title": "Great size or volume",
+        "titleCN": "体积；大量",
+        "definition": "the large size or mass of something",
+        "definitionCN": "某物庞大的体积或分量",
+        "example": "The bulk of the ship filled the harbour.",
+        "exampleCN": "那艘船庞大的船身占满了港口。",
+        "why": "The physical sense of a heap came before the idea of a share.",
+        "whyCN": "「堆」这个具体形象早于「份额」这一抽象概念。"
+      },
+      {
+        "no": "03",
+        "title": "Sold in large amounts",
+        "titleCN": "散装的",
+        "definition": "sold loose or in large amounts, without packing",
+        "definitionCN": "散装或大批出售，没有小包装",
+        "example": "Rice is cheaper when bought in bulk.",
+        "exampleCN": "大米大批购买时更便宜。",
+        "why": "Goods sold by the heap rather than the packet took the word.",
+        "whyCN": "按堆而不是按包出售的货物，用了这个词。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Bulk first meant the cargo in a ship's hold, then any great mass.",
+        "cn": "bulk 最初指船舱里的货物，后指任何庞大的堆积。"
+      },
+      "items": [
+        {
+          "era": "MIDDLE ENGLISH",
+          "en": "bulke named the cargo piled in a ship.",
+          "cn": "bulke 指堆在船里的货物。"
+        },
+        {
+          "era": "SIXTEENTH CENTURY",
+          "en": "bulk widened to any large mass or body.",
+          "cn": "bulk 扩展到任何大的形体或堆积。"
+        },
+        {
+          "era": "SEVENTEENTH CENTURY",
+          "en": "The bulk of meant the greater part.",
+          "cn": "the bulk of 指「大部分」。"
+        },
+        {
+          "era": "NINETEENTH CENTURY",
+          "en": "Trade in bulk named goods sold loose.",
+          "cn": "trade in bulk 指散装货物交易。"
+        },
+        {
+          "era": "PRESENT DAY ENGLISH",
+          "en": "bulk covers the main part, great size and loose goods.",
+          "cn": "如今 bulk 涵盖主要部分、庞大体量与散装货物。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "The look-alike group shares the bul- opening; the near-meaning group gives amount and size words.",
+        "cn": "形近组共享 bul- 开头；近义组是数量与体积类的词。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "bulb",
+              "ipa": "/bʌlb/",
+              "tag": "look-alike",
+              "definition": "the glass part of a lamp",
+              "definitionCN": "灯泡"
+            },
+            {
+              "word": "bull",
+              "ipa": "/bʊl/",
+              "tag": "look-alike",
+              "definition": "a male cow",
+              "definitionCN": "公牛"
+            },
+            {
+              "word": "hulk",
+              "ipa": "/hʌlk/",
+              "tag": "look-alike",
+              "definition": "a large heavy ship or person",
+              "definitionCN": "废船；大块头"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "majority",
+              "ipa": "/məˈdʒɒrəti/",
+              "tag": "near synonym",
+              "definition": "more than half of a group",
+              "definitionCN": "多数"
+            },
+            {
+              "word": "mass",
+              "ipa": "/mæs/",
+              "tag": "near synonym",
+              "definition": "a large amount without a clear shape",
+              "definitionCN": "大量，团块"
+            },
+            {
+              "word": "volume",
+              "ipa": "/ˈvɒljuːm/",
+              "tag": "related",
+              "definition": "the amount of space something fills",
+              "definitionCN": "体积"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Bulk is a heap big enough to be most of the pile.",
+        "cn": "bulk 就是大到占去整堆大部分的那一垛。"
+      },
+      "normal": [
+        {
+          "en": "The bulk of the cost is the roof.",
+          "cn": "费用的大部分在屋顶上。"
+        },
+        {
+          "en": "You buy rice in bulk to save money.",
+          "cn": "大批买米能省钱。"
+        },
+        {
+          "en": "Bulky means hard to carry.",
+          "cn": "bulky 意为笨重难搬。"
+        },
+        {
+          "en": "A bulk carrier ships loose goods.",
+          "cn": "散货船运送散装货物。"
+        },
+        {
+          "en": "Bulk buying lowers the unit price.",
+          "cn": "批量采购降低单价。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "See sacks stacked to the ceiling.",
+          "cn": "想象麻袋一直堆到屋顶。"
+        },
+        {
+          "en": "See a hull filling the whole dock.",
+          "cn": "想象船身占满整个船坞。"
+        },
+        {
+          "en": "See grain poured loose into a bin.",
+          "cn": "想象粮食散着倒进仓里。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "The bulk of the grain is stored here.",
+        "cn": "大部分粮食都存在这里。"
+      },
+      {
+        "en": "The bulk of the ship filled the harbour.",
+        "cn": "那艘船庞大的船身占满了港口。"
+      },
+      {
+        "en": "Rice is cheaper when bought in bulk.",
+        "cn": "大米大批购买时更便宜。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "拆词记忆 · 非词源",
+      "text": "bulk 与 bull 只差一个字母，公牛站在那儿，占的分量就是一大块。",
+      "word": "bulk"
+    },
+    "root": "bulk 中古英语作 bulke，本指船舱里成堆的货物；十六世纪起指庞大体量，十七世纪有了「大部分」的说法，十九世纪起用于「散装、大批」的商业语境。",
+    "sensesIntro": {
+      "en": "The biggest share, the size of a heap, and goods sold loose.",
+      "cn": "最大的份额、一堆东西的体积、以及散着卖的货物。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: sacks piled high in a warehouse.",
+        "cn": "核心意象：仓库里堆得高高的麻袋。"
+      },
+      "chain": [
+        "CARGO",
+        "HEAP",
+        "MASS",
+        "MOST",
+        "VOLUME",
+        "LOOSE"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "the bulk of the work",
+          "cn": "大部分工作"
+        },
+        {
+          "senses": "01",
+          "en": "the bulk of the grain",
+          "cn": "大部分粮食"
+        },
+        {
+          "senses": "02",
+          "en": "the bulk of the ship",
+          "cn": "船的庞大体量"
+        },
+        {
+          "senses": "03",
+          "en": "buy in bulk",
+          "cn": "大批购买"
+        },
+        {
+          "senses": "03",
+          "en": "bulk goods",
+          "cn": "散装货物"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Bulk takes -y and -iness to describe heavy size.",
+        "cn": "bulk 加 -y 与 -iness 可描述笨重的体积。"
+      },
+      "latinIntro": {
+        "en": "The base is Middle English; the Latin items below are related only in meaning.",
+        "cn": "词基来自中古英语，下面的拉丁词只在意思上相关。"
+      },
+      "items": [
+        {
+          "word": "bulk",
+          "structure": "Middle English bulke",
+          "meaning": "a large mass",
+          "meaningCN": "大量，体积",
+          "example": "buy in bulk",
+          "exampleCN": "大批购买"
+        },
+        {
+          "word": "bulky",
+          "structure": "bulk + -y",
+          "meaning": "large and hard to carry",
+          "meaningCN": "笨重的",
+          "example": "a bulky parcel",
+          "exampleCN": "笨重的包裹"
+        },
+        {
+          "word": "bulkiness",
+          "structure": "bulky + -ness",
+          "meaning": "the state of being bulky",
+          "meaningCN": "笨重",
+          "example": "the bulkiness of the case",
+          "exampleCN": "箱子的笨重"
+        },
+        {
+          "word": "mass",
+          "structure": "Latin massa",
+          "meaning": "a large body of matter",
+          "meaningCN": "团块",
+          "example": "a mass of stone",
+          "exampleCN": "一大块石头"
+        },
+        {
+          "word": "volume",
+          "structure": "Latin volumen",
+          "meaning": "the space something fills",
+          "meaningCN": "体积",
+          "example": "the volume of the tank",
+          "exampleCN": "水箱的容积"
+        },
+        {
+          "word": "majority",
+          "structure": "Latin major + -ity",
+          "meaning": "more than half",
+          "meaningCN": "多数",
+          "example": "the majority of voters",
+          "exampleCN": "多数选民"
+        },
+        {
+          "word": "cargo",
+          "structure": "Spanish cargo",
+          "meaning": "goods carried by ship",
+          "meaningCN": "货物",
+          "example": "a cargo of wheat",
+          "exampleCN": "一船小麦"
+        },
+        {
+          "word": "wholesale",
+          "structure": "whole + sale",
+          "meaning": "selling in large amounts",
+          "meaningCN": "批发",
+          "example": "wholesale price",
+          "exampleCN": "批发价"
+        }
+      ],
+      "latinEntries": []
+    }
+  }
+]

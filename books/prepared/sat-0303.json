@@ -1,317 +1,488 @@
-{
-  "word": "atypical",
-  "ipa_uk": "/eɪˈtɪpɪkl/",
-  "ipa_us": "/eɪˈtɪpɪkl/",
-  "definition_zh": "非典型的；不寻常的；反常的",
-  "definition_en": "not typical or usual; different from what is normal for a person, group, or thing",
-  "core_image": "一面整齐的瓷砖墙上，偏偏有一块颜色不对——就是它让人停下来看",
-  "scene": "医生把胶片挂上灯箱，笔尖停在角落一小块阴影上。The doctor pointed out one atypical cell among thousands of ordinary ones.",
-  "sceneCN": "这里 atypical 指「非典型的、不像平常的」（第 1 个义项：偏离常态）；句意：医生在成千上万个普通细胞中指出了一个非典型的细胞。画面里有灯箱、胶片和一支笔。",
-  "pos": [
-    { "tag": "adj.", "zh": "非典型的；不寻常的；反常的" }
-  ],
-  "collocations": [
-    { "phrase": "atypical behavior", "zh": "反常的行为" },
-    { "phrase": "an atypical case", "zh": "非典型的病例" },
-    { "phrase": "atypical pneumonia", "zh": "非典型肺炎" },
-    { "phrase": "atypical for someone", "zh": "对某人来说反常" },
-    { "phrase": "an atypical example", "zh": "一个不合常规的例子" }
-  ],
-  "forms": [
-    { "label": "比较级", "form": "more atypical" },
-    { "label": "最高级", "form": "most atypical" }
-  ],
-  "derivatives": [
-    { "word": "atypically", "pos": "adv.", "zh": "非典型地；反常地" },
-    { "word": "typical", "pos": "adj.", "zh": "典型的（去否定前缀后的基词）" },
-    { "word": "typically", "pos": "adv.", "zh": "典型地；通常" }
-  ],
-  "senses": [
-    {
-      "no": "01",
-      "title": "Not what is usual",
-      "titleCN": "非典型的：不像平常那样",
-      "definition": "not showing what is typical or expected for a kind of thing",
-      "definitionCN": "不表现某类事物通常或预期特征的",
-      "example": "Snow in June is atypical weather for this region.",
-      "exampleCN": "六月下雪对这个地区来说是不合常理的天气。",
-      "why": "The prefix a- comes from Greek and simply negates the base; whatever typical covers, atypical pushes outside.",
-      "whyCN": "前缀 a- 来自希腊语，作用就是否定基词：typical 圈住的范围，atypical 都把它推出去。"
+[
+  {
+    "word": "atypical",
+    "ipa_uk": "/eɪˈtɪpɪkl/",
+    "ipa_us": "/eɪˈtɪpɪkl/",
+    "definition_zh": "非典型的；不寻常的；反常的",
+    "definition_en": "not typical or usual; different from what is normal for a person, group, or thing",
+    "core_image": "一面整齐的瓷砖墙上，偏偏有一块颜色不对——就是它让人停下来看",
+    "scene": "医生把胶片挂上灯箱，笔尖停在角落一小块阴影上。The doctor pointed out one atypical cell among thousands of ordinary ones.",
+    "sceneCN": "这里 atypical 指「非典型的、不像平常的」（第 1 个义项：偏离常态）；句意：医生在成千上万个普通细胞中指出了一个非典型的细胞。画面里有灯箱、胶片和一支笔。",
+    "pos": [
+      {
+        "tag": "adj.",
+        "zh": "非典型的；不寻常的；反常的"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "atypical behavior",
+        "zh": "反常的行为"
+      },
+      {
+        "phrase": "an atypical case",
+        "zh": "非典型的病例"
+      },
+      {
+        "phrase": "atypical pneumonia",
+        "zh": "非典型肺炎"
+      },
+      {
+        "phrase": "atypical for someone",
+        "zh": "对某人来说反常"
+      },
+      {
+        "phrase": "an atypical example",
+        "zh": "一个不合常规的例子"
+      }
+    ],
+    "forms": [
+      {
+        "label": "比较级",
+        "form": "more atypical"
+      },
+      {
+        "label": "最高级",
+        "form": "most atypical"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "atypically",
+        "pos": "adv.",
+        "zh": "非典型地；反常地"
+      },
+      {
+        "word": "typical",
+        "pos": "adj.",
+        "zh": "典型的（去否定前缀后的基词）"
+      },
+      {
+        "word": "typically",
+        "pos": "adv.",
+        "zh": "典型地；通常"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "Not what is usual",
+        "titleCN": "非典型的：不像平常那样",
+        "definition": "not showing what is typical or expected for a kind of thing",
+        "definitionCN": "不表现某类事物通常或预期特征的",
+        "example": "Snow in June is atypical weather for this region.",
+        "exampleCN": "六月下雪对这个地区来说是不合常理的天气。",
+        "why": "The prefix a- comes from Greek and simply negates the base; whatever typical covers, atypical pushes outside.",
+        "whyCN": "前缀 a- 来自希腊语，作用就是否定基词：typical 圈住的范围，atypical 都把它推出去。"
+      },
+      {
+        "no": "02",
+        "title": "Unusual for a person",
+        "titleCN": "对某人来说反常",
+        "definition": "different from the way a particular person usually behaves",
+        "definitionCN": "与某个人的惯常表现不同的",
+        "example": "He was quiet and polite, an atypical evening for the usually loud boy.",
+        "exampleCN": "他安静又有礼貌，对这个平时吵闹的男孩来说，这个晚上很反常。",
+        "why": "The negation first attaches to the norm of an individual: what breaks the personal pattern is atypical.",
+        "whyCN": "这个否定先落在个人的常态上：打破个人一贯模式的，就是 atypical。"
+      },
+      {
+        "no": "03",
+        "title": "Medically irregular",
+        "titleCN": "医学上不典型的",
+        "definition": "of a disease or symptom, not presenting in the usual clinical form",
+        "definitionCN": "（疾病或症状）不以通常临床形式表现的",
+        "example": "The patient had atypical symptoms, so the diagnosis was delayed.",
+        "exampleCN": "病人症状不典型，所以诊断被推迟了。",
+        "why": "Medicine is built on pattern recognition; a case that escapes the textbook pattern gets the negated adjective.",
+        "whyCN": "医学建立在模式识别上；逃出教科书模式的病例，就冠上这个带否定的形容词。"
+      },
+      {
+        "no": "04",
+        "title": "Not representative",
+        "titleCN": "不具代表性的",
+        "definition": "not serving as a fair example of a whole group",
+        "definitionCN": "不能作为整类事物的公正样本的",
+        "example": "The journalists warned that one village is an atypical sample of the country.",
+        "exampleCN": "记者们提醒说，一个村子不能作为全国的典型样本。",
+        "why": "When a sample cannot stand for the group, the negation marks the gap between part and whole.",
+        "whyCN": "当样本撑不起整类时，否定词就标出部分与整体之间的落差。"
+      },
+      {
+        "no": "05",
+        "title": "Strikingly odd",
+        "titleCN": "格外出格的",
+        "definition": "so far outside the usual that it draws attention",
+        "definitionCN": "偏离常态之远，以致引人注目的",
+        "example": "Her atypical courage surprised everyone at the meeting.",
+        "exampleCN": "她异乎寻常的勇气让会上所有人都吃了一惊。",
+        "why": "Deviation is neutral, but language leans on the visible: the further from the norm, the more the word points.",
+        "whyCN": "偏离本是中性的，但语言偏爱可见的东西：离常态越远，这个词指向性越强。"
+      },
+      {
+        "no": "06",
+        "title": "Atypical cells",
+        "titleCN": "非典型细胞（病理义）",
+        "definition": "of cells, showing abnormal structure that may signal disease",
+        "definitionCN": "（细胞）结构异常、可能提示病变的",
+        "example": "The biopsy found slightly atypical cells that needed watching.",
+        "exampleCN": "活检发现少量非典型细胞，需要观察。",
+        "why": "Pathology borrowed the everyday negation and fixed it to form: cells that no longer look like their neighbors.",
+        "whyCN": "病理学借走日常的否定词，把它固定在形态上：不再长得像邻居的细胞。"
+      },
+      {
+        "no": "07",
+        "title": "Seasonally off",
+        "titleCN": "季节反常的",
+        "definition": "not matching the usual weather or season",
+        "definitionCN": "与通常气候或季节不相符的",
+        "example": "An atypical warmth let the garden bloom in December.",
+        "exampleCN": "反常的暖和让花园在十二月就开了花。",
+        "why": "Nature supplies the most legible norms, seasons; break a season and everyone sees the negation at work.",
+        "whyCN": "自然提供了最清晰的常态——季节；季节一乱，谁都看得出这个否定词在起作用。"
+      },
+      {
+        "no": "08",
+        "title": "Statistically out of line",
+        "titleCN": "统计上偏离的",
+        "definition": "of data, falling outside the expected distribution",
+        "definitionCN": "（数据）落在预期分布之外的",
+        "example": "One atypical data point was checked twice before being kept.",
+        "exampleCN": "一个异常数据点被核对两次后才保留。",
+        "why": "Statistics turns typical into a number; the negated word names whatever the number leaves out.",
+        "whyCN": "统计学把「典型」变成一个数字；这个带否定的词命名一切被数字排除在外的东西。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Atypical is a young word built from old parts: a Greek negative prefix fastened to a root meaning mark and pattern, through Latin and late Latin.",
+        "cn": "atypical 是个用旧料拼成的新词：希腊否定前缀，经拉丁语与晚期拉丁语的「印记、模式」一词，接在希腊词根上。"
+      },
+      "items": [
+        {
+          "era": "PROTO-INDO-EUROPEAN",
+          "en": "The root *teuk- meant to beat or strike; its later descendants came to name the mark made by a stamp or image.",
+          "cn": "词根 *teuk- 意为「敲打」；其后裔后来转指印章或图像敲打出来的痕迹。"
+        },
+        {
+          "era": "GREEK",
+          "en": "typos meant blow, mark, image, and came to mean the figure one expects, the pattern of a kind.",
+          "cn": "希腊语 typos 意为「敲击、印记、图像」，继而指一类事物应有的图形，即模式。"
+        },
+        {
+          "era": "LATE LATIN",
+          "en": "typicalis, meaning symbolic, carried the Greek stem into scholarly Latin.",
+          "cn": "晚期拉丁语 typicalis「象征性的」把希腊词干带进学术拉丁语。"
+        },
+        {
+          "era": "GREEK PREFIX",
+          "en": "a- before a consonant is the Greek negative prefix, the same as in atom, originally uncuttable.",
+          "cn": "a-（辅音前）是希腊语的否定前缀，与 atom「不可切分」中的 a- 同一。"
+        },
+        {
+          "era": "ENGLISH, 19TH C.",
+          "en": "Typical settled in English in the seventeenth century; atypical appears from the mid-nineteenth century, first in scientific writing.",
+          "cn": "typical 于 17 世纪在英语中定型；atypical 自 19 世纪中叶出现，最早见于科学文献。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "Medicine and statistics made atypical a technical favorite, while everyday use keeps the plain sense of not usual.",
+          "cn": "医学与统计学让 atypical 成为技术常用词，日常用法保留了「不寻常」的朴素义。"
+        }
+      ]
     },
-    {
-      "no": "02",
-      "title": "Unusual for a person",
-      "titleCN": "对某人来说反常",
-      "definition": "different from the way a particular person usually behaves",
-      "definitionCN": "与某个人的惯常表现不同的",
-      "example": "He was quiet and polite, an atypical evening for the usually loud boy.",
-      "exampleCN": "他安静又有礼貌，对这个平时吵闹的男孩来说，这个晚上很反常。",
-      "why": "The negation first attaches to the norm of an individual: what breaks the personal pattern is atypical.",
-      "whyCN": "这个否定先落在个人的常态上：打破个人一贯模式的，就是 atypical。"
+    "similar": {
+      "note": {
+        "en": "Group one collects the typical family and the negated forms; group two gathers words about what departs from the norm.",
+        "cn": "第一组收 typical 词族与否定形式；第二组收与「偏离常态」相关的词。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "typical",
+              "ipa": "/ˈtɪpɪkl/",
+              "tag": "base word",
+              "definition": "having the usual qualities of a group; the word atypical negates it.",
+              "definitionCN": "典型的；有某类事物通常特征的，正是 atypical 所否定的基词。"
+            },
+            {
+              "word": "typically",
+              "ipa": "/ˈtɪpɪkli/",
+              "tag": "same root adverb",
+              "definition": "usually; in a way that shows the normal pattern.",
+              "definitionCN": "通常；以显示常态的方式。"
+            },
+            {
+              "word": "atypicality",
+              "ipa": "/ˌeɪtɪpɪˈkæləti/",
+              "tag": "derived noun",
+              "definition": "the quality of being not typical, used in technical writing.",
+              "definitionCN": "非典型性，用于技术文献。"
+            },
+            {
+              "word": "atypically",
+              "ipa": "/eɪˈtɪpɪkli/",
+              "tag": "same root adverb",
+              "definition": "in a way that is not usual or expected.",
+              "definitionCN": "非典型地；反常地。"
+            },
+            {
+              "word": "prototype",
+              "ipa": "/ˈprəʊtətaɪp/",
+              "tag": "same root, different prefix",
+              "definition": "the first model of something, from the same Greek typos.",
+              "definitionCN": "原型；初版模型，同出希腊语 typos。"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "unusual",
+              "ipa": "/ʌnˈjuːʒuəl/",
+              "tag": "near meaning",
+              "definition": "not happening or done often; different from the ordinary.",
+              "definitionCN": "不寻常的；少见的。"
+            },
+            {
+              "word": "anomalous",
+              "ipa": "/əˈnɒmələs/",
+              "tag": "formal, technical",
+              "definition": "deviating from the general rule, often used of data and findings.",
+              "definitionCN": "异常的；不合规则的，多用于数据与研究。"
+            },
+            {
+              "word": "abnormal",
+              "ipa": "/æbˈnɔːml/",
+              "tag": "clinical",
+              "definition": "different from what is normal, especially in a medical sense.",
+              "definitionCN": "不正常的，尤用于医学语境。"
+            },
+            {
+              "word": "irregular",
+              "ipa": "/ɪˈreɡjələr/",
+              "tag": "near meaning",
+              "definition": "not following the usual pattern of time, form, or rule.",
+              "definitionCN": "不规则的；不合常规的。"
+            },
+            {
+              "word": "exceptional",
+              "ipa": "/ɪkˈsepʃənl/",
+              "tag": "positive shade",
+              "definition": "unusual because unusually good; atypical is neutral, this word praises.",
+              "definitionCN": "例外的；因特别好而罕见的，atypical 中性，此词带褒义。"
+            }
+          ]
+        }
+      ]
     },
-    {
-      "no": "03",
-      "title": "Medically irregular",
-      "titleCN": "医学上不典型的",
-      "definition": "of a disease or symptom, not presenting in the usual clinical form",
-      "definitionCN": "（疾病或症状）不以通常临床形式表现的",
-      "example": "The patient had atypical symptoms, so the diagnosis was delayed.",
-      "exampleCN": "病人症状不典型，所以诊断被推迟了。",
-      "why": "Medicine is built on pattern recognition; a case that escapes the textbook pattern gets the negated adjective.",
-      "whyCN": "医学建立在模式识别上；逃出教科书模式的病例，就冠上这个带否定的形容词。"
+    "mnemonics": {
+      "normalIntro": {
+        "en": "a- means not, typical means of the pattern; the word is a small equation you can read aloud.",
+        "cn": "a- 意为「不」，typical 意为「典型的」；这个词本身就是一道可以读出声的小等式。"
+      },
+      "normal": [
+        {
+          "en": "atypical equals a plus typical: not typical, that is all.",
+          "cn": "atypical = a + typical：不典型，就这么直白。"
+        },
+        {
+          "en": "Compare atom: both use the Greek a- meaning not.",
+          "cn": "对比 atom：两者都用希腊语 a-，义为「不」。"
+        },
+        {
+          "en": "Atypical pneumonia is famous because the disease hides from the textbook.",
+          "cn": "atypical pneumonia 出名，正是因为这种病躲开了教科书。"
+        },
+        {
+          "en": "Un- is the Germanic negative, a- the Greek one: unusual, atypical.",
+          "cn": "un- 是日耳曼否定前缀，a- 是希腊的：unusual 对 atypical。"
+        },
+        {
+          "en": "The stress lands on the old root of the mark and the pattern.",
+          "cn": "重音落在「印记、模式」的老词根上。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "Picture a wall of identical tiles with one tile turned the wrong color.",
+          "cn": "想象一墙完全相同的瓷砖，偏偏一块颜色不对。"
+        },
+        {
+          "en": "The small a- is a tiny door out of the big room of the normal.",
+          "cn": "小小的 a- 是一扇小门，通向「常态」大房间之外。"
+        },
+        {
+          "en": "Atypical is the word you reach for when the pattern breaks and everyone stares.",
+          "cn": "模式一破、众人侧目之时，就是伸手去取 atypical 之时。"
+        }
+      ]
     },
-    {
-      "no": "04",
-      "title": "Not representative",
-      "titleCN": "不具代表性的",
-      "definition": "not serving as a fair example of a whole group",
-      "definitionCN": "不能作为整类事物的公正样本的",
-      "example": "The journalists warned that one village is an atypical sample of the country.",
-      "exampleCN": "记者们提醒说，一个村子不能作为全国的典型样本。",
-      "why": "When a sample cannot stand for the group, the negation marks the gap between part and whole.",
-      "whyCN": "当样本撑不起整类时，否定词就标出部分与整体之间的落差。"
+    "examples": [
+      {
+        "en": "It is atypical for him to lose his temper in public.",
+        "cn": "他在公共场合发脾气，这很不像他。"
+      },
+      {
+        "en": "The study excluded atypical samples from the final count.",
+        "cn": "研究把非典型样本从最终统计中剔除了。"
+      },
+      {
+        "en": "Doctors watched the atypical cells carefully over the next year.",
+        "cn": "此后一年，医生们密切观察那些非典型细胞。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「诶！太噼口？」——诶，这个病例太不符合典型，噼里啪啦都对不上口",
+      "word": "atypical"
     },
-    {
-      "no": "05",
-      "title": "Strikingly odd",
-      "titleCN": "格外出格的",
-      "definition": "so far outside the usual that it draws attention",
-      "definitionCN": "偏离常态之远，以致引人注目的",
-      "example": "Her atypical courage surprised everyone at the meeting.",
-      "exampleCN": "她异乎寻常的勇气让会上所有人都吃了一惊。",
-      "why": "Deviation is neutral, but language leans on the visible: the further from the norm, the more the word points.",
-      "whyCN": "偏离本是中性的，但语言偏爱可见的东西：离常态越远，这个词指向性越强。"
+    "root": "希腊否定前缀 a-（不）+ typical（典型的）← 希腊语 typos「敲痕、印记、模式」；字面即「不属于模式的」。",
+    "sensesIntro": {
+      "en": "Eight senses fan out from one move: take the pattern, then cross it out, in weather, in a person, in a clinic, in a dataset.",
+      "cn": "八个义项由同一个动作展开：先立常态，再把它划掉——在天气里、在人身上、在诊室里、在数据里。"
     },
-    {
-      "no": "06",
-      "title": "Atypical cells",
-      "titleCN": "非典型细胞（病理义）",
-      "definition": "of cells, showing abnormal structure that may signal disease",
-      "definitionCN": "（细胞）结构异常、可能提示病变的",
-      "example": "The biopsy found slightly atypical cells that needed watching.",
-      "exampleCN": "活检发现少量非典型细胞，需要观察。",
-      "why": "Pathology borrowed the everyday negation and fixed it to form: cells that no longer look like their neighbors.",
-      "whyCN": "病理学借走日常的否定词，把它固定在形态上：不再长得像邻居的细胞。"
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: one tile in a neat wall that has the wrong color.",
+        "cn": "核心意象：一面整齐的墙上，偏偏一块瓷砖颜色不对。"
+      },
+      "chain": [
+        "THE PATTERN",
+        "CROSS IT OUT",
+        "ODD FOR A PERSON",
+        "ESCAPES THE CLINIC",
+        "NOT REPRESENTATIVE",
+        "OFF THE DISTRIBUTION"
+      ],
+      "branches": [
+        {
+          "senses": "01 · 07",
+          "en": "OUT OF THE USUAL: anything that breaks the ordinary course, from snow in June to a warm December.",
+          "cn": "出离寻常：从六月飞雪到十二月返暖，一切打破常规的事物。"
+        },
+        {
+          "senses": "02 · 05",
+          "en": "ODD FOR SOMEONE: behavior that departs so far from one's own pattern that others notice.",
+          "cn": "对某人反常：偏离自身模式之远，以致旁人察觉。"
+        },
+        {
+          "senses": "03 · 06",
+          "en": "THE CLINIC LOOK: symptoms and cells that do not match the textbook form.",
+          "cn": "临床之相：不合教科书形态的症状与细胞。"
+        },
+        {
+          "senses": "04",
+          "en": "THE SAMPLE TRAP: a case that cannot fairly stand for its group.",
+          "cn": "样本陷阱：不能公正代表整类的个例。"
+        },
+        {
+          "senses": "08",
+          "en": "THE NUMBER LEAVES: data points outside the expected distribution.",
+          "cn": "数字之外：落在预期分布之外的数据点。"
+        }
+      ]
     },
-    {
-      "no": "07",
-      "title": "Seasonally off",
-      "titleCN": "季节反常的",
-      "definition": "not matching the usual weather or season",
-      "definitionCN": "与通常气候或季节不相符的",
-      "example": "An atypical warmth let the garden bloom in December.",
-      "exampleCN": "反常的暖和让花园在十二月就开了花。",
-      "why": "Nature supplies the most legible norms, seasons; break a season and everyone sees the negation at work.",
-      "whyCN": "自然提供了最清晰的常态——季节；季节一乱，谁都看得出这个否定词在起作用。"
-    },
-    {
-      "no": "08",
-      "title": "Statistically out of line",
-      "titleCN": "统计上偏离的",
-      "definition": "of data, falling outside the expected distribution",
-      "definitionCN": "（数据）落在预期分布之外的",
-      "example": "One atypical data point was checked twice before being kept.",
-      "exampleCN": "一个异常数据点被核对两次后才保留。",
-      "why": "Statistics turns typical into a number; the negated word names whatever the number leaves out.",
-      "whyCN": "统计学把「典型」变成一个数字；这个带否定的词命名一切被数字排除在外的东西。"
+    "affixes": {
+      "intro": {
+        "en": "atypical splits into the Greek negative a- plus typical, whose root typos means mark and pattern; the family adds adverbs, an abstract noun, and cousins like prototype.",
+        "cn": "atypical 可拆为希腊否定前缀 a- 加 typical，其词根 typos 意为印记与模式；词族还包括副词、抽象名词及 prototype 等同根词。"
+      },
+      "latinIntro": {
+        "en": "The Greek stem reached English through Late Latin typicalis; Latin kept the sense of image and figure.",
+        "cn": "希腊词干经晚期拉丁语 typicalis 进入英语；拉丁语保留了图像与图形之义。"
+      },
+      "items": [
+        {
+          "word": "a-",
+          "structure": "Greek prefix",
+          "meaning": "not, without",
+          "meaningCN": "不；无",
+          "example": "an atypical case",
+          "exampleCN": "一个非典型的病例"
+        },
+        {
+          "word": "typical",
+          "structure": "typo- + -ical (adjective)",
+          "meaning": "of the usual kind",
+          "meaningCN": "典型的",
+          "example": "a typical summer day",
+          "exampleCN": "一个典型的夏日"
+        },
+        {
+          "word": "typically",
+          "structure": "typical + -ly (adverb)",
+          "meaning": "usually",
+          "meaningCN": "通常",
+          "example": "The shop, typically, opens late.",
+          "exampleCN": "这家店照例开得很晚。"
+        },
+        {
+          "word": "atypically",
+          "structure": "a- + typical + -ly",
+          "meaning": "in an unusual way",
+          "meaningCN": "反常地",
+          "example": "The child behaved atypically well.",
+          "exampleCN": "这孩子反常地乖。"
+        },
+        {
+          "word": "atypicality",
+          "structure": "a- + typical + -ity (noun)",
+          "meaning": "the state of not being typical",
+          "meaningCN": "非典型性",
+          "example": "The atypicality of the data raised questions.",
+          "exampleCN": "数据的非典型性引起了疑问。"
+        },
+        {
+          "word": "typos",
+          "structure": "Greek noun",
+          "meaning": "blow, mark, image",
+          "meaningCN": "敲痕；印记；图像",
+          "example": "typos in Greek writing",
+          "exampleCN": "希腊语中的 typos"
+        },
+        {
+          "word": "prototype",
+          "structure": "proto- (first) + type",
+          "meaning": "the first model of a kind",
+          "meaningCN": "原型",
+          "example": "a prototype of the new car",
+          "exampleCN": "新车的原型"
+        },
+        {
+          "word": "archetype",
+          "structure": "arche- (chief) + type",
+          "meaning": "the original pattern",
+          "meaningCN": "原始模型；典型",
+          "example": "the archetype of the tragic hero",
+          "exampleCN": "悲剧英雄的原型"
+        },
+        {
+          "word": "typography",
+          "structure": "typo- + -graphy (writing)",
+          "meaning": "the art of printing letters",
+          "meaningCN": "排版；印刷术",
+          "example": "clean typography on the page",
+          "exampleCN": "页面上清爽的排版"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "typicalis",
+          "structure": "Late Latin adjective",
+          "meaning": "symbolic, of an image",
+          "meaningCN": "象征性的；图像的"
+        },
+        {
+          "word": "typus",
+          "structure": "Latin borrowing of Greek typos",
+          "meaning": "image, figure, pattern",
+          "meaningCN": "图像；图形；模式"
+        }
+      ]
     }
-  ],
-  "etymology": {
-    "intro": {
-      "en": "Atypical is a young word built from old parts: a Greek negative prefix fastened to a root meaning mark and pattern, through Latin and late Latin.",
-      "cn": "atypical 是个用旧料拼成的新词：希腊否定前缀，经拉丁语与晚期拉丁语的「印记、模式」一词，接在希腊词根上。"
-    },
-    "items": [
-      {
-        "era": "PROTO-INDO-EUROPEAN",
-        "en": "The root *teuk- meant to beat or strike; its later descendants came to name the mark made by a stamp or image.",
-        "cn": "词根 *teuk- 意为「敲打」；其后裔后来转指印章或图像敲打出来的痕迹。"
-      },
-      {
-        "era": "GREEK",
-        "en": "typos meant blow, mark, image, and came to mean the figure one expects, the pattern of a kind.",
-        "cn": "希腊语 typos 意为「敲击、印记、图像」，继而指一类事物应有的图形，即模式。"
-      },
-      {
-        "era": "LATE LATIN",
-        "en": "typicalis, meaning symbolic, carried the Greek stem into scholarly Latin.",
-        "cn": "晚期拉丁语 typicalis「象征性的」把希腊词干带进学术拉丁语。"
-      },
-      {
-        "era": "GREEK PREFIX",
-        "en": "a- before a consonant is the Greek negative prefix, the same as in atom, originally uncuttable.",
-        "cn": "a-（辅音前）是希腊语的否定前缀，与 atom「不可切分」中的 a- 同一。"
-      },
-      {
-        "era": "ENGLISH, 19TH C.",
-        "en": "Typical settled in English in the seventeenth century; atypical appears from the mid-nineteenth century, first in scientific writing.",
-        "cn": "typical 于 17 世纪在英语中定型；atypical 自 19 世纪中叶出现，最早见于科学文献。"
-      },
-      {
-        "era": "MODERN ENGLISH",
-        "en": "Medicine and statistics made atypical a technical favorite, while everyday use keeps the plain sense of not usual.",
-        "cn": "医学与统计学让 atypical 成为技术常用词，日常用法保留了「不寻常」的朴素义。"
-      }
-    ]
-  },
-  "similar": {
-    "note": {
-      "en": "Group one collects the typical family and the negated forms; group two gathers words about what departs from the norm.",
-      "cn": "第一组收 typical 词族与否定形式；第二组收与「偏离常态」相关的词。"
-    },
-    "groups": [
-      {
-        "heading": "LOOK-ALIKE",
-        "entries": [
-          {
-            "word": "typical",
-            "ipa": "/ˈtɪpɪkl/",
-            "tag": "base word",
-            "definition": "having the usual qualities of a group; the word atypical negates it.",
-            "definitionCN": "典型的；有某类事物通常特征的，正是 atypical 所否定的基词。"
-          },
-          {
-            "word": "typically",
-            "ipa": "/ˈtɪpɪkli/",
-            "tag": "same root adverb",
-            "definition": "usually; in a way that shows the normal pattern.",
-            "definitionCN": "通常；以显示常态的方式。"
-          },
-          {
-            "word": "atypicality",
-            "ipa": "/ˌeɪtɪpɪˈkæləti/",
-            "tag": "derived noun",
-            "definition": "the quality of being not typical, used in technical writing.",
-            "definitionCN": "非典型性，用于技术文献。"
-          },
-          {
-            "word": "atypically",
-            "ipa": "/eɪˈtɪpɪkli/",
-            "tag": "same root adverb",
-            "definition": "in a way that is not usual or expected.",
-            "definitionCN": "非典型地；反常地。"
-          },
-          {
-            "word": "prototype",
-            "ipa": "/ˈprəʊtətaɪp/",
-            "tag": "same root, different prefix",
-            "definition": "the first model of something, from the same Greek typos.",
-            "definitionCN": "原型；初版模型，同出希腊语 typos。"
-          }
-        ]
-      },
-      {
-        "heading": "NEAR MEANING",
-        "entries": [
-          {
-            "word": "unusual",
-            "ipa": "/ʌnˈjuːʒuəl/",
-            "tag": "near meaning",
-            "definition": "not happening or done often; different from the ordinary.",
-            "definitionCN": "不寻常的；少见的。"
-          },
-          {
-            "word": "anomalous",
-            "ipa": "/əˈnɒmələs/",
-            "tag": "formal, technical",
-            "definition": "deviating from the general rule, often used of data and findings.",
-            "definitionCN": "异常的；不合规则的，多用于数据与研究。"
-          },
-          {
-            "word": "abnormal",
-            "ipa": "/æbˈnɔːml/",
-            "tag": "clinical",
-            "definition": "different from what is normal, especially in a medical sense.",
-            "definitionCN": "不正常的，尤用于医学语境。"
-          },
-          {
-            "word": "irregular",
-            "ipa": "/ɪˈreɡjələr/",
-            "tag": "near meaning",
-            "definition": "not following the usual pattern of time, form, or rule.",
-            "definitionCN": "不规则的；不合常规的。"
-          },
-          {
-            "word": "exceptional",
-            "ipa": "/ɪkˈsepʃənl/",
-            "tag": "positive shade",
-            "definition": "unusual because unusually good; atypical is neutral, this word praises.",
-            "definitionCN": "例外的；因特别好而罕见的，atypical 中性，此词带褒义。"
-          }
-        ]
-      }
-    ]
-  },
-  "mnemonics": {
-    "normalIntro": {
-      "en": "a- means not, typical means of the pattern; the word is a small equation you can read aloud.",
-      "cn": "a- 意为「不」，typical 意为「典型的」；这个词本身就是一道可以读出声的小等式。"
-    },
-    "normal": [
-      { "en": "atypical equals a plus typical: not typical, that is all.", "cn": "atypical = a + typical：不典型，就这么直白。" },
-      { "en": "Compare atom: both use the Greek a- meaning not.", "cn": "对比 atom：两者都用希腊语 a-，义为「不」。" },
-      { "en": "Atypical pneumonia is famous because the disease hides from the textbook.", "cn": "atypical pneumonia 出名，正是因为这种病躲开了教科书。" },
-      { "en": "Un- is the Germanic negative, a- the Greek one: unusual, atypical.", "cn": "un- 是日耳曼否定前缀，a- 是希腊的：unusual 对 atypical。" },
-      { "en": "The stress lands on the old root of the mark and the pattern.", "cn": "重音落在「印记、模式」的老词根上。" }
-    ],
-    "abstract": [
-      { "en": "Picture a wall of identical tiles with one tile turned the wrong color.", "cn": "想象一墙完全相同的瓷砖，偏偏一块颜色不对。" },
-      { "en": "The small a- is a tiny door out of the big room of the normal.", "cn": "小小的 a- 是一扇小门，通向「常态」大房间之外。" },
-      { "en": "Atypical is the word you reach for when the pattern breaks and everyone stares.", "cn": "模式一破、众人侧目之时，就是伸手去取 atypical 之时。" }
-    ]
-  },
-  "examples": [
-    { "en": "It is atypical for him to lose his temper in public.", "cn": "他在公共场合发脾气，这很不像他。" },
-    { "en": "The study excluded atypical samples from the final count.", "cn": "研究把非典型样本从最终统计中剔除了。" },
-    { "en": "Doctors watched the atypical cells carefully over the next year.", "cn": "此后一年，医生们密切观察那些非典型细胞。" }
-  ],
-  "dict_mnemonic": {
-    "note": "谐音记忆 · 非词源",
-    "text": "「诶！太噼口？」——诶，这个病例太不符合典型，噼里啪啦都对不上口",
-    "word": "atypical"
-  },
-  "root": "希腊否定前缀 a-（不）+ typical（典型的）← 希腊语 typos「敲痕、印记、模式」；字面即「不属于模式的」。",
-  "sensesIntro": {
-    "en": "Eight senses fan out from one move: take the pattern, then cross it out, in weather, in a person, in a clinic, in a dataset.",
-    "cn": "八个义项由同一个动作展开：先立常态，再把它划掉——在天气里、在人身上、在诊室里、在数据里。"
-  },
-  "semanticMap": {
-    "core": {
-      "en": "CORE IMAGE: one tile in a neat wall that has the wrong color.",
-      "cn": "核心意象：一面整齐的墙上，偏偏一块瓷砖颜色不对。"
-    },
-    "chain": ["THE PATTERN", "CROSS IT OUT", "ODD FOR A PERSON", "ESCAPES THE CLINIC", "NOT REPRESENTATIVE", "OFF THE DISTRIBUTION"],
-    "branches": [
-      { "senses": "01 · 07", "en": "OUT OF THE USUAL: anything that breaks the ordinary course, from snow in June to a warm December.", "cn": "出离寻常：从六月飞雪到十二月返暖，一切打破常规的事物。" },
-      { "senses": "02 · 05", "en": "ODD FOR SOMEONE: behavior that departs so far from one's own pattern that others notice.", "cn": "对某人反常：偏离自身模式之远，以致旁人察觉。" },
-      { "senses": "03 · 06", "en": "THE CLINIC LOOK: symptoms and cells that do not match the textbook form.", "cn": "临床之相：不合教科书形态的症状与细胞。" },
-      { "senses": "04", "en": "THE SAMPLE TRAP: a case that cannot fairly stand for its group.", "cn": "样本陷阱：不能公正代表整类的个例。" },
-      { "senses": "08", "en": "THE NUMBER LEAVES: data points outside the expected distribution.", "cn": "数字之外：落在预期分布之外的数据点。" }
-    ]
-  },
-  "affixes": {
-    "intro": {
-      "en": "atypical splits into the Greek negative a- plus typical, whose root typos means mark and pattern; the family adds adverbs, an abstract noun, and cousins like prototype.",
-      "cn": "atypical 可拆为希腊否定前缀 a- 加 typical，其词根 typos 意为印记与模式；词族还包括副词、抽象名词及 prototype 等同根词。"
-    },
-    "latinIntro": {
-      "en": "The Greek stem reached English through Late Latin typicalis; Latin kept the sense of image and figure.",
-      "cn": "希腊词干经晚期拉丁语 typicalis 进入英语；拉丁语保留了图像与图形之义。"
-    },
-    "items": [
-      { "word": "a-", "structure": "Greek prefix", "meaning": "not, without", "meaningCN": "不；无", "example": "an atypical case", "exampleCN": "一个非典型的病例" },
-      { "word": "typical", "structure": "typo- + -ical (adjective)", "meaning": "of the usual kind", "meaningCN": "典型的", "example": "a typical summer day", "exampleCN": "一个典型的夏日" },
-      { "word": "typically", "structure": "typical + -ly (adverb)", "meaning": "usually", "meaningCN": "通常", "example": "The shop, typically, opens late.", "exampleCN": "这家店照例开得很晚。" },
-      { "word": "atypically", "structure": "a- + typical + -ly", "meaning": "in an unusual way", "meaningCN": "反常地", "example": "The child behaved atypically well.", "exampleCN": "这孩子反常地乖。" },
-      { "word": "atypicality", "structure": "a- + typical + -ity (noun)", "meaning": "the state of not being typical", "meaningCN": "非典型性", "example": "The atypicality of the data raised questions.", "exampleCN": "数据的非典型性引起了疑问。" },
-      { "word": "typos", "structure": "Greek noun", "meaning": "blow, mark, image", "meaningCN": "敲痕；印记；图像", "example": "typos in Greek writing", "exampleCN": "希腊语中的 typos" },
-      { "word": "prototype", "structure": "proto- (first) + type", "meaning": "the first model of a kind", "meaningCN": "原型", "example": "a prototype of the new car", "exampleCN": "新车的原型" },
-      { "word": "archetype", "structure": "arche- (chief) + type", "meaning": "the original pattern", "meaningCN": "原始模型；典型", "example": "the archetype of the tragic hero", "exampleCN": "悲剧英雄的原型" },
-      { "word": "typography", "structure": "typo- + -graphy (writing)", "meaning": "the art of printing letters", "meaningCN": "排版；印刷术", "example": "clean typography on the page", "exampleCN": "页面上清爽的排版" }
-    ],
-    "latinEntries": [
-      { "word": "typicalis", "structure": "Late Latin adjective", "meaning": "symbolic, of an image", "meaningCN": "象征性的；图像的" },
-      { "word": "typus", "structure": "Latin borrowing of Greek typos", "meaning": "image, figure, pattern", "meaningCN": "图像；图形；模式" }
-    ]
   }
-}
+]

@@ -1,388 +1,390 @@
-{
-  "word": "branch",
-  "ipa_uk": "/brɑːntʃ/",
-  "ipa_us": "/bræntʃ/",
-  "definition_zh": "树枝；分支；分支机构",
-  "definition_en": "a part of a tree that grows out from the trunk",
-  "core_image": "从树干斜伸出去的带叶枝条",
-  "scene": "春风里窗外的树枝轻轻摇动。The wind moved the branch outside the window.",
-  "sceneCN": "这里 branch 是「树枝」（第 1 个义项：从树干长出的部分）；句意是春风里窗外的树枝轻轻摇动。",
-  "pos": [
-    {
-      "tag": "n.",
-      "zh": "名词：树枝；分支；分支机构"
-    },
-    {
-      "tag": "v.",
-      "zh": "动词：分岔；分支"
-    }
-  ],
-  "collocations": [
-    {
-      "phrase": "a tree branch",
-      "zh": "树枝"
-    },
-    {
-      "phrase": "branch office",
-      "zh": "分公司"
-    },
-    {
-      "phrase": "branch out",
-      "zh": "拓展新领域"
-    },
-    {
-      "phrase": "a branch of science",
-      "zh": "一个科学分支"
-    },
-    {
-      "phrase": "the local branch",
-      "zh": "当地分部"
-    },
-    {
-      "phrase": "an olive branch",
-      "zh": "橄榄枝"
-    }
-  ],
-  "forms": [
-    {
-      "label": "复数",
-      "form": "branches"
-    },
-    {
-      "label": "第三人称单数",
-      "form": "branches"
-    },
-    {
-      "label": "过去式",
-      "form": "branched"
-    },
-    {
-      "label": "现在分词",
-      "form": "branching"
-    }
-  ],
-  "derivatives": [
-    {
-      "word": "branched",
-      "pos": "adj.",
-      "zh": "有分枝的"
-    },
-    {
-      "word": "branching",
-      "pos": "n.",
-      "zh": "分枝；分岔"
-    }
-  ],
-  "senses": [
-    {
-      "no": "01",
-      "title": "A part of a tree",
-      "titleCN": "树枝",
-      "definition": "a limb that grows out from the trunk of a tree",
-      "definitionCN": "从树干长出的枝条",
-      "example": "The wind moved the branch outside the window.",
-      "exampleCN": "春风里窗外的树枝轻轻摇动。",
-      "why": "This is the oldest sense, taken from the tree.",
-      "whyCN": "这是最古老的义项，来自树木本身。"
-    },
-    {
-      "no": "02",
-      "title": "A local office",
-      "titleCN": "分支机构",
-      "definition": "a local office of a larger organization",
-      "definitionCN": "较大机构在地方设立的分部",
-      "example": "She works at the bank's city branch.",
-      "exampleCN": "她在银行的市区分行工作。",
-      "why": "A limb splitting from a trunk pictured a unit splitting from a centre.",
-      "whyCN": "从主干分出的枝条，被用来比喻从中心分出的单位。"
-    },
-    {
-      "no": "03",
-      "title": "A division of a subject",
-      "titleCN": "学科分支",
-      "definition": "a part of a subject that has grown on its own",
-      "definitionCN": "从大学科中独立出来的一部分",
-      "example": "Genetics is a branch of biology.",
-      "exampleCN": "遗传学是生物学的一个分支。",
-      "why": "Knowledge was seen as a tree with separate limbs.",
-      "whyCN": "知识被看作一棵长出不同枝条的树。"
-    }
-  ],
-  "etymology": {
-    "intro": {
-      "en": "Branch came from Latin branca, a paw, through French.",
-      "cn": "branch 经法语来自拉丁语 branca，本指爪子。"
-    },
-    "items": [
+[
+  {
+    "word": "branch",
+    "ipa_uk": "/brɑːntʃ/",
+    "ipa_us": "/bræntʃ/",
+    "definition_zh": "树枝；分支；分支机构",
+    "definition_en": "a part of a tree that grows out from the trunk",
+    "core_image": "从树干斜伸出去的带叶枝条",
+    "scene": "春风里窗外的树枝轻轻摇动。The wind moved the branch outside the window.",
+    "sceneCN": "这里 branch 是「树枝」（第 1 个义项：从树干长出的部分）；句意是春风里窗外的树枝轻轻摇动。",
+    "pos": [
       {
-        "era": "LATE LATIN",
-        "en": "branca meant a paw or a claw.",
-        "cn": "branca 指爪子或脚掌。"
+        "tag": "n.",
+        "zh": "名词：树枝；分支；分支机构"
       },
       {
-        "era": "OLD FRENCH",
-        "en": "branche named a limb of a tree.",
-        "cn": "branche 指树木的枝条。"
-      },
-      {
-        "era": "MIDDLE ENGLISH",
-        "en": "branch kept the tree sense.",
-        "cn": "branch 保留树枝义。"
-      },
-      {
-        "era": "FOURTEENTH CENTURY",
-        "en": "branch named a division of a family.",
-        "cn": "branch 指家族的分支。"
-      },
-      {
-        "era": "PRESENT DAY ENGLISH",
-        "en": "branch covers trees, offices and subjects.",
-        "cn": "如今 branch 兼指树枝、机构与学科。"
+        "tag": "v.",
+        "zh": "动词：分岔；分支"
       }
-    ]
-  },
-  "similar": {
-    "note": {
-      "en": "The look-alike group shares the br- opening; the near-meaning group gives limbs and divisions.",
-      "cn": "形近组都以 br- 开头；近义组是枝条与分支的说法。"
-    },
-    "groups": [
+    ],
+    "collocations": [
       {
-        "heading": "LOOK-ALIKE",
-        "entries": [
-          {
-            "word": "brunch",
-            "ipa": "/brʌntʃ/",
-            "tag": "look-alike",
-            "definition": "a late morning meal",
-            "definitionCN": "早午餐"
-          },
-          {
-            "word": "bench",
-            "ipa": "/bentʃ/",
-            "tag": "look-alike",
-            "definition": "a long seat for several people",
-            "definitionCN": "长椅"
-          },
-          {
-            "word": "brand",
-            "ipa": "/brænd/",
-            "tag": "look-alike",
-            "definition": "a product name owned by a company",
-            "definitionCN": "品牌"
-          }
-        ]
+        "phrase": "a tree branch",
+        "zh": "树枝"
       },
       {
-        "heading": "NEAR MEANING",
-        "entries": [
-          {
-            "word": "bough",
-            "ipa": "/baʊ/",
-            "tag": "near synonym",
-            "definition": "a large branch of a tree",
-            "definitionCN": "大树枝"
-          },
-          {
-            "word": "limb",
-            "ipa": "/lɪm/",
-            "tag": "near synonym",
-            "definition": "a large branch or an arm or leg",
-            "definitionCN": "大枝；肢"
-          },
-          {
-            "word": "division",
-            "ipa": "/dɪˈvɪʒn/",
-            "tag": "related",
-            "definition": "a part of a larger whole",
-            "definitionCN": "分部"
-          }
-        ]
+        "phrase": "branch office",
+        "zh": "分公司"
+      },
+      {
+        "phrase": "branch out",
+        "zh": "拓展新领域"
+      },
+      {
+        "phrase": "a branch of science",
+        "zh": "一个科学分支"
+      },
+      {
+        "phrase": "the local branch",
+        "zh": "当地分部"
+      },
+      {
+        "phrase": "an olive branch",
+        "zh": "橄榄枝"
       }
-    ]
-  },
-  "mnemonics": {
-    "normalIntro": {
-      "en": "Branch starts at the trunk and grows outward.",
-      "cn": "branch 从树干开始，向外生长。"
+    ],
+    "forms": [
+      {
+        "label": "复数",
+        "form": "branches"
+      },
+      {
+        "label": "第三人称单数",
+        "form": "branches"
+      },
+      {
+        "label": "过去式",
+        "form": "branched"
+      },
+      {
+        "label": "现在分词",
+        "form": "branching"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "branched",
+        "pos": "adj.",
+        "zh": "有分枝的"
+      },
+      {
+        "word": "branching",
+        "pos": "n.",
+        "zh": "分枝；分岔"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "A part of a tree",
+        "titleCN": "树枝",
+        "definition": "a limb that grows out from the trunk of a tree",
+        "definitionCN": "从树干长出的枝条",
+        "example": "The wind moved the branch outside the window.",
+        "exampleCN": "春风里窗外的树枝轻轻摇动。",
+        "why": "This is the oldest sense, taken from the tree.",
+        "whyCN": "这是最古老的义项，来自树木本身。"
+      },
+      {
+        "no": "02",
+        "title": "A local office",
+        "titleCN": "分支机构",
+        "definition": "a local office of a larger organization",
+        "definitionCN": "较大机构在地方设立的分部",
+        "example": "She works at the bank's city branch.",
+        "exampleCN": "她在银行的市区分行工作。",
+        "why": "A limb splitting from a trunk pictured a unit splitting from a centre.",
+        "whyCN": "从主干分出的枝条，被用来比喻从中心分出的单位。"
+      },
+      {
+        "no": "03",
+        "title": "A division of a subject",
+        "titleCN": "学科分支",
+        "definition": "a part of a subject that has grown on its own",
+        "definitionCN": "从大学科中独立出来的一部分",
+        "example": "Genetics is a branch of biology.",
+        "exampleCN": "遗传学是生物学的一个分支。",
+        "why": "Knowledge was seen as a tree with separate limbs.",
+        "whyCN": "知识被看作一棵长出不同枝条的树。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Branch came from Latin branca, a paw, through French.",
+        "cn": "branch 经法语来自拉丁语 branca，本指爪子。"
+      },
+      "items": [
+        {
+          "era": "LATE LATIN",
+          "en": "branca meant a paw or a claw.",
+          "cn": "branca 指爪子或脚掌。"
+        },
+        {
+          "era": "OLD FRENCH",
+          "en": "branche named a limb of a tree.",
+          "cn": "branche 指树木的枝条。"
+        },
+        {
+          "era": "MIDDLE ENGLISH",
+          "en": "branch kept the tree sense.",
+          "cn": "branch 保留树枝义。"
+        },
+        {
+          "era": "FOURTEENTH CENTURY",
+          "en": "branch named a division of a family.",
+          "cn": "branch 指家族的分支。"
+        },
+        {
+          "era": "PRESENT DAY ENGLISH",
+          "en": "branch covers trees, offices and subjects.",
+          "cn": "如今 branch 兼指树枝、机构与学科。"
+        }
+      ]
     },
-    "normal": [
+    "similar": {
+      "note": {
+        "en": "The look-alike group shares the br- opening; the near-meaning group gives limbs and divisions.",
+        "cn": "形近组都以 br- 开头；近义组是枝条与分支的说法。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "brunch",
+              "ipa": "/brʌntʃ/",
+              "tag": "look-alike",
+              "definition": "a late morning meal",
+              "definitionCN": "早午餐"
+            },
+            {
+              "word": "bench",
+              "ipa": "/bentʃ/",
+              "tag": "look-alike",
+              "definition": "a long seat for several people",
+              "definitionCN": "长椅"
+            },
+            {
+              "word": "brand",
+              "ipa": "/brænd/",
+              "tag": "look-alike",
+              "definition": "a product name owned by a company",
+              "definitionCN": "品牌"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "bough",
+              "ipa": "/baʊ/",
+              "tag": "near synonym",
+              "definition": "a large branch of a tree",
+              "definitionCN": "大树枝"
+            },
+            {
+              "word": "limb",
+              "ipa": "/lɪm/",
+              "tag": "near synonym",
+              "definition": "a large branch or an arm or leg",
+              "definitionCN": "大枝；肢"
+            },
+            {
+              "word": "division",
+              "ipa": "/dɪˈvɪʒn/",
+              "tag": "related",
+              "definition": "a part of a larger whole",
+              "definitionCN": "分部"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Branch starts at the trunk and grows outward.",
+        "cn": "branch 从树干开始，向外生长。"
+      },
+      "normal": [
+        {
+          "en": "A branch grows from the trunk.",
+          "cn": "树枝从树干长出。"
+        },
+        {
+          "en": "The bank opened a new branch.",
+          "cn": "银行开了一家新分行。"
+        },
+        {
+          "en": "Branch out means to try something new.",
+          "cn": "branch out 指尝试新事物。"
+        },
+        {
+          "en": "The plural is branches.",
+          "cn": "复数是 branches。"
+        },
+        {
+          "en": "Genetics is a branch of biology.",
+          "cn": "遗传学是生物学的一个分支。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "See a limb splitting from a trunk.",
+          "cn": "想象一根枝条从树干分出。"
+        },
+        {
+          "en": "See a small office far from the head office.",
+          "cn": "想象一间远离总部的办公室。"
+        },
+        {
+          "en": "See a tree of subjects with many limbs.",
+          "cn": "想象一棵挂满学科的树。"
+        }
+      ]
+    },
+    "examples": [
       {
-        "en": "A branch grows from the trunk.",
-        "cn": "树枝从树干长出。"
+        "en": "The wind moved the branch outside the window.",
+        "cn": "春风里窗外的树枝轻轻摇动。"
       },
       {
-        "en": "The bank opened a new branch.",
-        "cn": "银行开了一家新分行。"
-      },
-      {
-        "en": "Branch out means to try something new.",
-        "cn": "branch out 指尝试新事物。"
-      },
-      {
-        "en": "The plural is branches.",
-        "cn": "复数是 branches。"
+        "en": "She works at the bank's city branch.",
+        "cn": "她在银行的市区分行工作。"
       },
       {
         "en": "Genetics is a branch of biology.",
         "cn": "遗传学是生物学的一个分支。"
       }
     ],
-    "abstract": [
-      {
-        "en": "See a limb splitting from a trunk.",
-        "cn": "想象一根枝条从树干分出。"
-      },
-      {
-        "en": "See a small office far from the head office.",
-        "cn": "想象一间远离总部的办公室。"
-      },
-      {
-        "en": "See a tree of subjects with many limbs.",
-        "cn": "想象一棵挂满学科的树。"
-      }
-    ]
-  },
-  "examples": [
-    {
-      "en": "The wind moved the branch outside the window.",
-      "cn": "春风里窗外的树枝轻轻摇动。"
+    "dict_mnemonic": {
+      "note": "拆词记忆 · 非词源",
+      "text": "branch 里有 bran，像树皮粗糙的树干，ch 是抽出的枝条，一长一短就记住了树的分枝。",
+      "word": "branch"
     },
-    {
-      "en": "She works at the bank's city branch.",
-      "cn": "她在银行的市区分行工作。"
+    "root": "branch 经古法语 branche 来自晚期拉丁语 branca（爪子），由树木的枝条引申为家族、机构与学科的分支，核心始终是「从主干分出去的部分」。",
+    "sensesIntro": {
+      "en": "A limb of a tree and two kinds of division that copy it.",
+      "cn": "一根树枝，以及两种模仿它的分支。"
     },
-    {
-      "en": "Genetics is a branch of biology.",
-      "cn": "遗传学是生物学的一个分支。"
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: a leafy limb leaning out from a trunk.",
+        "cn": "核心意象：从树干斜伸出去的带叶枝条。"
+      },
+      "chain": [
+        "TREE",
+        "TRUNK",
+        "LIMB",
+        "OFFICE",
+        "DIVISION",
+        "SUBJECT"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "a bare branch",
+          "cn": "光秃的树枝"
+        },
+        {
+          "senses": "01",
+          "en": "a branch of an olive tree",
+          "cn": "橄榄树的枝条"
+        },
+        {
+          "senses": "02",
+          "en": "a bank branch",
+          "cn": "银行分行"
+        },
+        {
+          "senses": "03",
+          "en": "a branch of science",
+          "cn": "一个科学分支"
+        },
+        {
+          "senses": "02",
+          "en": "branch out",
+          "cn": "拓展新领域"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Branch forms adjectives and nouns with -ed and -ing.",
+        "cn": "branch 加 -ed 与 -ing 构成形容词和名词。"
+      },
+      "latinIntro": {
+        "en": "The base is Latin; the items below show related forms.",
+        "cn": "词基来自拉丁语，下面列出相关词形。"
+      },
+      "items": [
+        {
+          "word": "branch",
+          "structure": "Late Latin branca",
+          "meaning": "a paw or claw",
+          "meaningCN": "爪子",
+          "example": "branca in Latin",
+          "exampleCN": "拉丁语中的 branca"
+        },
+        {
+          "word": "branched",
+          "structure": "branch + -ed",
+          "meaning": "having branches",
+          "meaningCN": "有分枝的",
+          "example": "a branched stem",
+          "exampleCN": "有分枝的茎"
+        },
+        {
+          "word": "branching",
+          "structure": "branch + -ing",
+          "meaning": "the act of splitting",
+          "meaningCN": "分岔",
+          "example": "a branching path",
+          "exampleCN": "分岔的小路"
+        },
+        {
+          "word": "bough",
+          "structure": "Old English bog",
+          "meaning": "a large branch",
+          "meaningCN": "大树枝",
+          "example": "a heavy bough",
+          "exampleCN": "沉重的树枝"
+        },
+        {
+          "word": "limb",
+          "structure": "Old English lim",
+          "meaning": "a large branch or an arm or leg",
+          "meaningCN": "大枝；肢",
+          "example": "a broken limb",
+          "exampleCN": "断枝"
+        },
+        {
+          "word": "twig",
+          "structure": "Old English twigge",
+          "meaning": "a small shoot",
+          "meaningCN": "细枝",
+          "example": "a thin twig",
+          "exampleCN": "细枝"
+        },
+        {
+          "word": "trunk",
+          "structure": "Old French tronc",
+          "meaning": "the main stem of a tree",
+          "meaningCN": "树干",
+          "example": "a thick trunk",
+          "exampleCN": "粗树干"
+        },
+        {
+          "word": "division",
+          "structure": "Latin divisio",
+          "meaning": "a part of a whole",
+          "meaningCN": "分部",
+          "example": "a division of labour",
+          "exampleCN": "分工"
+        }
+      ],
+      "latinEntries": []
     }
-  ],
-  "dict_mnemonic": {
-    "note": "拆词记忆 · 非词源",
-    "text": "branch 里有 bran，像树皮粗糙的树干，ch 是抽出的枝条，一长一短就记住了树的分枝。",
-    "word": "branch"
-  },
-  "root": "branch 经古法语 branche 来自晚期拉丁语 branca（爪子），由树木的枝条引申为家族、机构与学科的分支，核心始终是「从主干分出去的部分」。",
-  "sensesIntro": {
-    "en": "A limb of a tree and two kinds of division that copy it.",
-    "cn": "一根树枝，以及两种模仿它的分支。"
-  },
-  "semanticMap": {
-    "core": {
-      "en": "CORE IMAGE: a leafy limb leaning out from a trunk.",
-      "cn": "核心意象：从树干斜伸出去的带叶枝条。"
-    },
-    "chain": [
-      "TREE",
-      "TRUNK",
-      "LIMB",
-      "OFFICE",
-      "DIVISION",
-      "SUBJECT"
-    ],
-    "branches": [
-      {
-        "senses": "01",
-        "en": "a bare branch",
-        "cn": "光秃的树枝"
-      },
-      {
-        "senses": "01",
-        "en": "a branch of an olive tree",
-        "cn": "橄榄树的枝条"
-      },
-      {
-        "senses": "02",
-        "en": "a bank branch",
-        "cn": "银行分行"
-      },
-      {
-        "senses": "03",
-        "en": "a branch of science",
-        "cn": "一个科学分支"
-      },
-      {
-        "senses": "02",
-        "en": "branch out",
-        "cn": "拓展新领域"
-      }
-    ]
-  },
-  "affixes": {
-    "intro": {
-      "en": "Branch forms adjectives and nouns with -ed and -ing.",
-      "cn": "branch 加 -ed 与 -ing 构成形容词和名词。"
-    },
-    "latinIntro": {
-      "en": "The base is Latin; the items below show related forms.",
-      "cn": "词基来自拉丁语，下面列出相关词形。"
-    },
-    "items": [
-      {
-        "word": "branch",
-        "structure": "Late Latin branca",
-        "meaning": "a paw or claw",
-        "meaningCN": "爪子",
-        "example": "branca in Latin",
-        "exampleCN": "拉丁语中的 branca"
-      },
-      {
-        "word": "branched",
-        "structure": "branch + -ed",
-        "meaning": "having branches",
-        "meaningCN": "有分枝的",
-        "example": "a branched stem",
-        "exampleCN": "有分枝的茎"
-      },
-      {
-        "word": "branching",
-        "structure": "branch + -ing",
-        "meaning": "the act of splitting",
-        "meaningCN": "分岔",
-        "example": "a branching path",
-        "exampleCN": "分岔的小路"
-      },
-      {
-        "word": "bough",
-        "structure": "Old English bog",
-        "meaning": "a large branch",
-        "meaningCN": "大树枝",
-        "example": "a heavy bough",
-        "exampleCN": "沉重的树枝"
-      },
-      {
-        "word": "limb",
-        "structure": "Old English lim",
-        "meaning": "a large branch or an arm or leg",
-        "meaningCN": "大枝；肢",
-        "example": "a broken limb",
-        "exampleCN": "断枝"
-      },
-      {
-        "word": "twig",
-        "structure": "Old English twigge",
-        "meaning": "a small shoot",
-        "meaningCN": "细枝",
-        "example": "a thin twig",
-        "exampleCN": "细枝"
-      },
-      {
-        "word": "trunk",
-        "structure": "Old French tronc",
-        "meaning": "the main stem of a tree",
-        "meaningCN": "树干",
-        "example": "a thick trunk",
-        "exampleCN": "粗树干"
-      },
-      {
-        "word": "division",
-        "structure": "Latin divisio",
-        "meaning": "a part of a whole",
-        "meaningCN": "分部",
-        "example": "a division of labour",
-        "exampleCN": "分工"
-      }
-    ],
-    "latinEntries": []
   }
-}
+]

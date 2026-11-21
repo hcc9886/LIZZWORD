@@ -1,157 +1,442 @@
-{
-  "word": "burgeon",
-  "ipa_uk": "/ˈbɜːdʒən/",
-  "ipa_us": "/ˈbɜːrdʒən/",
-  "definition_zh": "迅速发展；激增；发芽，抽枝",
-  "definition_en": "to begin to grow or increase rapidly; to put forth buds",
-  "core_image": "春枝上鼓起的嫩芽，一夜之间爆开",
-  "scene": "市场开春后摊位一个接一个冒出来。Tech startups began to burgeon in the coastal city.",
-  "sceneCN": "这里 burgeon 是「迅速发展、激增」（第 2 个义项：数量、规模的快速生长）；句意是科技初创公司在海滨城市迅速兴起。",
-  "pos": [
-    { "tag": "vi.", "zh": "激增；蓬勃发展；发芽" },
-    { "tag": "vt.", "zh": "使发芽；使生长" }
-  ],
-  "collocations": [
-    { "phrase": "a burgeoning industry", "zh": "蓬勃发展的行业" },
-    { "phrase": "the burgeoning population", "zh": "迅速膨胀的人口" },
-    { "phrase": "burgeoning demand", "zh": "激增的需求" },
-    { "phrase": " burgeon into a market", "zh": "发展成一个大市场" },
-    { "phrase": "leaves burgeon in spring", "zh": "春日抽芽展叶" }
-  ],
-  "forms": [
-    { "label": "过去式", "form": "burgeoned" },
-    { "label": "过去分词", "form": "burgeoned" },
-    { "label": "现在分词", "form": "burgeoning" },
-    { "label": "三单", "form": "burgeons" }
-  ],
-  "derivatives": [
-    { "word": "burgeoning", "pos": "adj.", "zh": "由现在分词转形容词，义为「迅速发展的，激增的」" },
-    { "word": "sprout", "pos": "v.", "zh": "近义词，义为「发芽，长出」" },
-    { "word": "flourish", "pos": "vi.", "zh": "近义词，义为「茂盛，兴旺」" }
-  ],
-  "senses": [
-    {
-      "no": "01",
-      "title": "To put forth buds",
-      "titleCN": "发芽；抽枝",
-      "definition": "to sprout new growth, as buds on a branch",
-      "definitionCN": "长出新芽，如枝条上冒出蓓蕾",
-      "example": "The willows burgeoned after the first warm week.",
-      "exampleCN": "暖周刚过，柳树便抽了芽。",
-      "why": "The Old French source is itself a bud; the verb keeps the botanical picture.",
-      "whyCN": "古法语源词本身就是「芽」，动词保留了植物学的画面。"
-    },
-    {
-      "no": "02",
-      "title": "To grow or multiply rapidly",
-      "titleCN": "激增；蓬勃发展",
-      "definition": "to expand or increase swiftly in number, size or activity",
-      "definitionCN": "在数量、规模或活跃程度上快速增长",
-      "example": "Suburbs burgeoned along the new railway.",
-      "exampleCN": "郊区沿新铁路迅速扩张。",
-      "why": "Buds burst fast; their swift unfolding becomes the image of any rapid growth.",
-      "whyCN": "芽苞一夜爆开，急速舒展之象成为一切快速生长的比喻。"
-    },
-    {
-      "no": "03",
-      "title": "A bud or new shoot",
-      "titleCN": "嫩芽；新芽（名词）",
-      "definition": "a young bud or sprout of a plant",
-      "definitionCN": "植物的幼芽或新枝",
-      "example": "Every burgeon on the fig tree held a promise of fruit.",
-      "exampleCN": "无花果树上每个新芽都孕育着果实。",
-      "why": "The verb turns back into the noun it came from.",
-      "whyCN": "动词回归其源头的名词，芽即生长之始。"
-    }
-  ],
-  "etymology": {
-    "intro": { "en": "Burgeon descends from Old French burjon, a bud, ultimately from a Germanic root for a shoot.", "cn": "burgeon 源自古法语 burjon（芽），最终出自日耳曼语系表「新枝」的词根。" },
-    "items": [
-      { "era": "PROTO-GERMANIC", "en": "a reconstructed root burd- meant a shoot or young plant.", "cn": "重构词根 burd- 指幼枝、幼苗。" },
-      { "era": "OLD FRENCH", "en": "burjon, later boujon, meant a bud or scion.", "cn": "古法语 burjon（后作 boujon）指芽或接穗。" },
-      { "era": "MIDDLE ENGLISH", "en": "burjonen meant to bud, to sprout, of plants.", "cn": "中古英语 burjonen 指植物发芽、抽枝。" },
-      { "era": "ENGLISH, 16TH–19TH C.", "en": "the sense widened to any swift growth and swelling.", "cn": "十六至十九世纪词义扩展为各种迅速生长、膨胀。" },
-      { "era": "PRESENT DAY ENGLISH", "en": "burgeoning now chiefly modifies booming industries and populations.", "cn": "如今 burgeoning 主要修饰兴旺的行业与膨胀的人口。" }
-    ]
-  },
-  "similar": {
-    "note": { "en": "Burgeon keeps its bud-root cousins in sight and stands by the growth lexicon.", "cn": "burgeon 与同出「芽」词根的词相近，并置身「生长」词汇群。" },
-    "groups": [
+[
+  {
+    "word": "burgeon",
+    "ipa_uk": "/ˈbɜːdʒən/",
+    "ipa_us": "/ˈbɜːrdʒən/",
+    "definition_zh": "迅速发展；激增；发芽，抽枝",
+    "definition_en": "to begin to grow or increase rapidly; to put forth buds",
+    "core_image": "春枝上鼓起的嫩芽，一夜之间爆开",
+    "scene": "市场开春后摊位一个接一个冒出来。Tech startups began to burgeon in the coastal city.",
+    "sceneCN": "这里 burgeon 是「迅速发展、激增」（第 2 个义项：数量、规模的快速生长）；句意是科技初创公司在海滨城市迅速兴起。",
+    "pos": [
       {
-        "heading": "LOOK-ALIKE",
-        "entries": [
-          { "word": "burgeoning", "ipa": "/ˈbɜːdʒənɪŋ/", "tag": "derived form", "definition": "rapidly growing", "definitionCN": "迅速发展的，burgeon 的现在分词形容词" },
-          { "word": "budding", "ipa": "/ˈbʌdɪŋ/", "tag": "same field", "definition": "beginning to develop, as a bud", "definitionCN": "崭露头角的，与芽意象同族" },
-          { "word": "bourbon", "ipa": "/ˈbɜːbən/", "tag": "spelling", "definition": "a whiskey; a French royal house", "definitionCN": "波旁威士忌；波旁王朝，仅开头字母相仿，词源无关" },
-          { "word": "surgeon", "ipa": "/ˈsɜːdʒən/", "tag": "spelling", "definition": "a doctor who operates", "definitionCN": "外科医生，拼形相近，词源不同" }
-        ]
+        "tag": "vi.",
+        "zh": "激增；蓬勃发展；发芽"
       },
       {
-        "heading": "NEAR MEANING",
-        "entries": [
-          { "word": "flourish", "ipa": "/ˈflʌrɪʃ/", "tag": "near meaning", "definition": "to grow vigorously and prosper", "definitionCN": "茂盛，兴旺" },
-          { "word": "sprout", "ipa": "/spraʊt/", "tag": "near meaning", "definition": "to begin to grow or appear", "definitionCN": "发芽，涌现" },
-          { "word": "proliferate", "ipa": "/prəˈlɪfəreɪt/", "tag": "near meaning", "definition": "to multiply rapidly", "definitionCN": "迅速增殖，激增" },
-          { "word": "mushroom", "ipa": "/ˈmʌʃruːm/", "tag": "near meaning", "definition": "to expand suddenly", "definitionCN": "雨后春笋般涌现" },
-          { "word": "blossom", "ipa": "/ˈblɒsəm/", "tag": "near meaning", "definition": "to open into flower; to develop", "definitionCN": "开花；发展成熟" }
-        ]
+        "tag": "vt.",
+        "zh": "使发芽；使生长"
       }
-    ]
-  },
-  "mnemonics": {
-    "normalIntro": { "en": "Picture buds pushing out of every twig at once.", "cn": "想象芽苞同时从每根细枝上鼓出来。" },
-    "normal": [
-      { "en": "The root is Old French burjon, a bud.", "cn": "词根是古法语 burjon，即芽。" },
-      { "en": "Bourbon whiskey hides the same sound but a different root.", "cn": "bourbon（威士忌）音近而词源无关。" },
-      { "en": "Burgeoning is the favorite adjective of economic writing.", "cn": "burgeoning 是经济写作的高频形容词。" },
-      { "en": "It pairs with into: burgeon into a boomtown.", "cn": "常与 into 搭配：burgeon into a boomtown。" },
-      { "en": "Shakespeare used burgonet for a helmet — same family.", "cn": "莎翁的 burgonet（头盔）亦属此词族。" }
     ],
-    "abstract": [
-      { "en": "Feel sap rising on a warm April morning.", "cn": "感受四月暖晨里树液上涌。" },
-      { "en": "See green points split dark bark overnight.", "cn": "看见绿芽一夜顶破深色树皮。" },
-      { "en": "Hear a city hum louder each passing week.", "cn": "听城市的嗡鸣一周比一周响。" }
-    ]
-  },
-  "examples": [
-    { "en": "Demand for e-bikes has burgeoned since the subsidy.", "cn": "补贴政策出台后，电动自行车需求激增。" },
-    { "en": "The old port burgeoned into a financial hub.", "cn": "老港口发展成了金融中心。" },
-    { "en": "Springtime burgeons in every orchard.", "cn": "春意在每个果园里萌发。" }
-  ],
-  "dict_mnemonic": { "note": "谐音记忆 · 非词源", "text": "「不真」——花苞一夜鼓胀，看着「不真」，像假的似的一下全开了。", "word": "burgeon" },
-  "root": "burgeon 经中古英语源自古法语 burjon（芽、接穗），其根一般追溯至日耳曼语系重构词根 burd-（幼枝）；本义「发芽」，引申为「迅速生长、激增」，与 broccoli 同族词 brocco（幼枝）遥相呼应。",
-  "sensesIntro": { "en": "The bud first opens on the branch, then stands for any swift expansion, and survives as the noun of the shoot itself.", "cn": "芽苞先在枝头绽开，继而喻指一切急速扩张，最后仍以「新芽」之名留存。" },
-  "semanticMap": {
-    "core": { "en": "CORE IMAGE: buds swelling and splitting the branch overnight.", "cn": "核心意象：芽苞鼓胀，一夜顶破枝条。" },
-    "chain": ["BUD", "SWELLING", "UNFOLDING", "RAPID GROWTH", "PROSPERITY", "TRANSFORMATION"],
-    "branches": [
-      { "senses": "01", "en": "orchards burgeon in April", "cn": "四月果园抽芽" },
-      { "senses": "01 · 02", "en": "new shoots burgeon into canes", "cn": "新芽长成茎秆" },
-      { "senses": "02", "en": "a burgeoning tech sector", "cn": "蓬勃的科技行业" },
-      { "senses": "02", "en": "suburbs burgeon along the highway", "cn": "郊区沿公路扩张" },
-      { "senses": "03", "en": "pinch each burgeon in spring", "cn": "春天掐掉每个嫩芽" }
-    ]
-  },
-  "affixes": {
-    "intro": { "en": "Burgeon is a whole borrowed noun turned verb: the bud itself acts.", "cn": "burgeon 是整词借入后动词化：芽自己开始「行动」。" },
-    "latinIntro": { "en": "The trail is Germanic into French, not classical Latin.", "cn": "词迹由日耳曼语入法语，与古典拉丁无关。" },
-    "items": [
-      { "word": "burd-", "structure": "Proto-Germanic root", "meaning": "a shoot, young plant", "meaningCN": "幼枝，幼苗", "example": "Old French burjon", "exampleCN": "古法语 burjon（如词源所示）" },
-      { "word": "burjon", "structure": "Old French noun", "meaning": "bud, scion", "meaningCN": "芽，接穗", "example": "greffe sur burjon", "exampleCN": "接穗嫁接（古法语用法）" },
-      { "word": "burgeon", "structure": "Middle English verb", "meaning": "to sprout, to grow fast", "meaningCN": "发芽；迅速生长", "example": "the vines burgeon", "exampleCN": "藤蔓迅速生长" },
-      { "word": "burgeoning", "structure": "present participle adjective", "meaning": "rapidly expanding", "meaningCN": "迅速发展的", "example": "a burgeoning market", "exampleCN": "快速扩张的市场" },
-      { "word": "broccoli", "structure": "Italian, from brocco, shoot", "meaning": "the cabbage whose shoots we eat", "meaningCN": "西兰花（同族词，源自「幼枝」）", "example": "steamed broccoli", "exampleCN": "清蒸西兰花" },
-      { "word": "budding", "structure": "bud + -ing", "meaning": "beginning to develop", "meaningCN": "崭露头角的", "example": "a budding poet", "exampleCN": "初露锋芒的诗人" },
-      { "word": "flourish", "structure": "Latin florere", "meaning": "to thrive", "meaningCN": "茂盛，兴旺", "example": "flourishing trade", "exampleCN": "兴旺的贸易" },
-      { "word": "proliferate", "structure": "Latin proles + -fer + -ate", "meaning": "to multiply rapidly", "meaningCN": "迅速增殖", "example": "proliferating startups", "exampleCN": "激增的初创公司" },
-      { "word": "sprout", "structure": "Old English spryttan", "meaning": "to begin growing", "meaningCN": "发芽，长出", "example": "weeds sprout after rain", "exampleCN": "雨后杂草丛生" },
-      { "word": "burgeon into", "structure": "verb + preposition", "meaning": "to develop swiftly into", "meaningCN": "迅速成长为", "example": "burgeon into a giant", "exampleCN": "迅速成长为巨头" }
+    "collocations": [
+      {
+        "phrase": "a burgeoning industry",
+        "zh": "蓬勃发展的行业"
+      },
+      {
+        "phrase": "the burgeoning population",
+        "zh": "迅速膨胀的人口"
+      },
+      {
+        "phrase": "burgeoning demand",
+        "zh": "激增的需求"
+      },
+      {
+        "phrase": " burgeon into a market",
+        "zh": "发展成一个大市场"
+      },
+      {
+        "phrase": "leaves burgeon in spring",
+        "zh": "春日抽芽展叶"
+      }
     ],
-    "latinEntries": [
-      { "word": "germen", "structure": "Latin noun, cognate field", "meaning": "bud, sprout", "meaningCN": "芽，幼芽（germinate 之源，同义场对照）" }
+    "forms": [
+      {
+        "label": "过去式",
+        "form": "burgeoned"
+      },
+      {
+        "label": "过去分词",
+        "form": "burgeoned"
+      },
+      {
+        "label": "现在分词",
+        "form": "burgeoning"
+      },
+      {
+        "label": "三单",
+        "form": "burgeons"
+      }
     ],
     "derivatives": [
-      { "word": "burgeoning", "pos": "adj.", "zh": "迅速发展的" }
-    ]
+      {
+        "word": "burgeoning",
+        "pos": "adj.",
+        "zh": "由现在分词转形容词，义为「迅速发展的，激增的」"
+      },
+      {
+        "word": "sprout",
+        "pos": "v.",
+        "zh": "近义词，义为「发芽，长出」"
+      },
+      {
+        "word": "flourish",
+        "pos": "vi.",
+        "zh": "近义词，义为「茂盛，兴旺」"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "To put forth buds",
+        "titleCN": "发芽；抽枝",
+        "definition": "to sprout new growth, as buds on a branch",
+        "definitionCN": "长出新芽，如枝条上冒出蓓蕾",
+        "example": "The willows burgeoned after the first warm week.",
+        "exampleCN": "暖周刚过，柳树便抽了芽。",
+        "why": "The Old French source is itself a bud; the verb keeps the botanical picture.",
+        "whyCN": "古法语源词本身就是「芽」，动词保留了植物学的画面。"
+      },
+      {
+        "no": "02",
+        "title": "To grow or multiply rapidly",
+        "titleCN": "激增；蓬勃发展",
+        "definition": "to expand or increase swiftly in number, size or activity",
+        "definitionCN": "在数量、规模或活跃程度上快速增长",
+        "example": "Suburbs burgeoned along the new railway.",
+        "exampleCN": "郊区沿新铁路迅速扩张。",
+        "why": "Buds burst fast; their swift unfolding becomes the image of any rapid growth.",
+        "whyCN": "芽苞一夜爆开，急速舒展之象成为一切快速生长的比喻。"
+      },
+      {
+        "no": "03",
+        "title": "A bud or new shoot",
+        "titleCN": "嫩芽；新芽（名词）",
+        "definition": "a young bud or sprout of a plant",
+        "definitionCN": "植物的幼芽或新枝",
+        "example": "Every burgeon on the fig tree held a promise of fruit.",
+        "exampleCN": "无花果树上每个新芽都孕育着果实。",
+        "why": "The verb turns back into the noun it came from.",
+        "whyCN": "动词回归其源头的名词，芽即生长之始。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Burgeon descends from Old French burjon, a bud, ultimately from a Germanic root for a shoot.",
+        "cn": "burgeon 源自古法语 burjon（芽），最终出自日耳曼语系表「新枝」的词根。"
+      },
+      "items": [
+        {
+          "era": "PROTO-GERMANIC",
+          "en": "a reconstructed root burd- meant a shoot or young plant.",
+          "cn": "重构词根 burd- 指幼枝、幼苗。"
+        },
+        {
+          "era": "OLD FRENCH",
+          "en": "burjon, later boujon, meant a bud or scion.",
+          "cn": "古法语 burjon（后作 boujon）指芽或接穗。"
+        },
+        {
+          "era": "MIDDLE ENGLISH",
+          "en": "burjonen meant to bud, to sprout, of plants.",
+          "cn": "中古英语 burjonen 指植物发芽、抽枝。"
+        },
+        {
+          "era": "ENGLISH, 16TH–19TH C.",
+          "en": "the sense widened to any swift growth and swelling.",
+          "cn": "十六至十九世纪词义扩展为各种迅速生长、膨胀。"
+        },
+        {
+          "era": "PRESENT DAY ENGLISH",
+          "en": "burgeoning now chiefly modifies booming industries and populations.",
+          "cn": "如今 burgeoning 主要修饰兴旺的行业与膨胀的人口。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "Burgeon keeps its bud-root cousins in sight and stands by the growth lexicon.",
+        "cn": "burgeon 与同出「芽」词根的词相近，并置身「生长」词汇群。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "burgeoning",
+              "ipa": "/ˈbɜːdʒənɪŋ/",
+              "tag": "derived form",
+              "definition": "rapidly growing",
+              "definitionCN": "迅速发展的，burgeon 的现在分词形容词"
+            },
+            {
+              "word": "budding",
+              "ipa": "/ˈbʌdɪŋ/",
+              "tag": "same field",
+              "definition": "beginning to develop, as a bud",
+              "definitionCN": "崭露头角的，与芽意象同族"
+            },
+            {
+              "word": "bourbon",
+              "ipa": "/ˈbɜːbən/",
+              "tag": "spelling",
+              "definition": "a whiskey; a French royal house",
+              "definitionCN": "波旁威士忌；波旁王朝，仅开头字母相仿，词源无关"
+            },
+            {
+              "word": "surgeon",
+              "ipa": "/ˈsɜːdʒən/",
+              "tag": "spelling",
+              "definition": "a doctor who operates",
+              "definitionCN": "外科医生，拼形相近，词源不同"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "flourish",
+              "ipa": "/ˈflʌrɪʃ/",
+              "tag": "near meaning",
+              "definition": "to grow vigorously and prosper",
+              "definitionCN": "茂盛，兴旺"
+            },
+            {
+              "word": "sprout",
+              "ipa": "/spraʊt/",
+              "tag": "near meaning",
+              "definition": "to begin to grow or appear",
+              "definitionCN": "发芽，涌现"
+            },
+            {
+              "word": "proliferate",
+              "ipa": "/prəˈlɪfəreɪt/",
+              "tag": "near meaning",
+              "definition": "to multiply rapidly",
+              "definitionCN": "迅速增殖，激增"
+            },
+            {
+              "word": "mushroom",
+              "ipa": "/ˈmʌʃruːm/",
+              "tag": "near meaning",
+              "definition": "to expand suddenly",
+              "definitionCN": "雨后春笋般涌现"
+            },
+            {
+              "word": "blossom",
+              "ipa": "/ˈblɒsəm/",
+              "tag": "near meaning",
+              "definition": "to open into flower; to develop",
+              "definitionCN": "开花；发展成熟"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Picture buds pushing out of every twig at once.",
+        "cn": "想象芽苞同时从每根细枝上鼓出来。"
+      },
+      "normal": [
+        {
+          "en": "The root is Old French burjon, a bud.",
+          "cn": "词根是古法语 burjon，即芽。"
+        },
+        {
+          "en": "Bourbon whiskey hides the same sound but a different root.",
+          "cn": "bourbon（威士忌）音近而词源无关。"
+        },
+        {
+          "en": "Burgeoning is the favorite adjective of economic writing.",
+          "cn": "burgeoning 是经济写作的高频形容词。"
+        },
+        {
+          "en": "It pairs with into: burgeon into a boomtown.",
+          "cn": "常与 into 搭配：burgeon into a boomtown。"
+        },
+        {
+          "en": "Shakespeare used burgonet for a helmet — same family.",
+          "cn": "莎翁的 burgonet（头盔）亦属此词族。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "Feel sap rising on a warm April morning.",
+          "cn": "感受四月暖晨里树液上涌。"
+        },
+        {
+          "en": "See green points split dark bark overnight.",
+          "cn": "看见绿芽一夜顶破深色树皮。"
+        },
+        {
+          "en": "Hear a city hum louder each passing week.",
+          "cn": "听城市的嗡鸣一周比一周响。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "Demand for e-bikes has burgeoned since the subsidy.",
+        "cn": "补贴政策出台后，电动自行车需求激增。"
+      },
+      {
+        "en": "The old port burgeoned into a financial hub.",
+        "cn": "老港口发展成了金融中心。"
+      },
+      {
+        "en": "Springtime burgeons in every orchard.",
+        "cn": "春意在每个果园里萌发。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「不真」——花苞一夜鼓胀，看着「不真」，像假的似的一下全开了。",
+      "word": "burgeon"
+    },
+    "root": "burgeon 经中古英语源自古法语 burjon（芽、接穗），其根一般追溯至日耳曼语系重构词根 burd-（幼枝）；本义「发芽」，引申为「迅速生长、激增」，与 broccoli 同族词 brocco（幼枝）遥相呼应。",
+    "sensesIntro": {
+      "en": "The bud first opens on the branch, then stands for any swift expansion, and survives as the noun of the shoot itself.",
+      "cn": "芽苞先在枝头绽开，继而喻指一切急速扩张，最后仍以「新芽」之名留存。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: buds swelling and splitting the branch overnight.",
+        "cn": "核心意象：芽苞鼓胀，一夜顶破枝条。"
+      },
+      "chain": [
+        "BUD",
+        "SWELLING",
+        "UNFOLDING",
+        "RAPID GROWTH",
+        "PROSPERITY",
+        "TRANSFORMATION"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "orchards burgeon in April",
+          "cn": "四月果园抽芽"
+        },
+        {
+          "senses": "01 · 02",
+          "en": "new shoots burgeon into canes",
+          "cn": "新芽长成茎秆"
+        },
+        {
+          "senses": "02",
+          "en": "a burgeoning tech sector",
+          "cn": "蓬勃的科技行业"
+        },
+        {
+          "senses": "02",
+          "en": "suburbs burgeon along the highway",
+          "cn": "郊区沿公路扩张"
+        },
+        {
+          "senses": "03",
+          "en": "pinch each burgeon in spring",
+          "cn": "春天掐掉每个嫩芽"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Burgeon is a whole borrowed noun turned verb: the bud itself acts.",
+        "cn": "burgeon 是整词借入后动词化：芽自己开始「行动」。"
+      },
+      "latinIntro": {
+        "en": "The trail is Germanic into French, not classical Latin.",
+        "cn": "词迹由日耳曼语入法语，与古典拉丁无关。"
+      },
+      "items": [
+        {
+          "word": "burd-",
+          "structure": "Proto-Germanic root",
+          "meaning": "a shoot, young plant",
+          "meaningCN": "幼枝，幼苗",
+          "example": "Old French burjon",
+          "exampleCN": "古法语 burjon（如词源所示）"
+        },
+        {
+          "word": "burjon",
+          "structure": "Old French noun",
+          "meaning": "bud, scion",
+          "meaningCN": "芽，接穗",
+          "example": "greffe sur burjon",
+          "exampleCN": "接穗嫁接（古法语用法）"
+        },
+        {
+          "word": "burgeon",
+          "structure": "Middle English verb",
+          "meaning": "to sprout, to grow fast",
+          "meaningCN": "发芽；迅速生长",
+          "example": "the vines burgeon",
+          "exampleCN": "藤蔓迅速生长"
+        },
+        {
+          "word": "burgeoning",
+          "structure": "present participle adjective",
+          "meaning": "rapidly expanding",
+          "meaningCN": "迅速发展的",
+          "example": "a burgeoning market",
+          "exampleCN": "快速扩张的市场"
+        },
+        {
+          "word": "broccoli",
+          "structure": "Italian, from brocco, shoot",
+          "meaning": "the cabbage whose shoots we eat",
+          "meaningCN": "西兰花（同族词，源自「幼枝」）",
+          "example": "steamed broccoli",
+          "exampleCN": "清蒸西兰花"
+        },
+        {
+          "word": "budding",
+          "structure": "bud + -ing",
+          "meaning": "beginning to develop",
+          "meaningCN": "崭露头角的",
+          "example": "a budding poet",
+          "exampleCN": "初露锋芒的诗人"
+        },
+        {
+          "word": "flourish",
+          "structure": "Latin florere",
+          "meaning": "to thrive",
+          "meaningCN": "茂盛，兴旺",
+          "example": "flourishing trade",
+          "exampleCN": "兴旺的贸易"
+        },
+        {
+          "word": "proliferate",
+          "structure": "Latin proles + -fer + -ate",
+          "meaning": "to multiply rapidly",
+          "meaningCN": "迅速增殖",
+          "example": "proliferating startups",
+          "exampleCN": "激增的初创公司"
+        },
+        {
+          "word": "sprout",
+          "structure": "Old English spryttan",
+          "meaning": "to begin growing",
+          "meaningCN": "发芽，长出",
+          "example": "weeds sprout after rain",
+          "exampleCN": "雨后杂草丛生"
+        },
+        {
+          "word": "burgeon into",
+          "structure": "verb + preposition",
+          "meaning": "to develop swiftly into",
+          "meaningCN": "迅速成长为",
+          "example": "burgeon into a giant",
+          "exampleCN": "迅速成长为巨头"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "germen",
+          "structure": "Latin noun, cognate field",
+          "meaning": "bud, sprout",
+          "meaningCN": "芽，幼芽（germinate 之源，同义场对照）"
+        }
+      ],
+      "derivatives": [
+        {
+          "word": "burgeoning",
+          "pos": "adj.",
+          "zh": "迅速发展的"
+        }
+      ]
+    }
   }
-}
+]

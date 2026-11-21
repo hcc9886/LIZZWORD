@@ -68,11 +68,12 @@ function readCorpus() {
         pos: posName(posTag),
         meaning_zh: String(entry.definition_zh || "").split(/[；;]/)[0].trim() || "待补释义",
         level: level,
-        entry: entry
+        entry: entry,
+        file: file
       };
       const prev = index.get(word);
       if (!prev) index.set(word, item);
-      else if (level < prev.level) Object.assign(prev, { level, pos: item.pos, meaning_zh: item.meaning_zh, entry: entry });
+      else if (level < prev.level) Object.assign(prev, { level, pos: item.pos, meaning_zh: item.meaning_zh, entry: entry, file: file });
     }
   }
   return index;

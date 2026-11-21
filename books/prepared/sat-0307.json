@@ -1,312 +1,487 @@
-{
-  "word": "audible",
-  "ipa_uk": "/ˈɔːdəbl/",
-  "ipa_us": "/ˈɔːdəbl/",
-  "definition_zh": "听得见的；可闻的",
-  "definition_en": "able to be heard; loud or clear enough to reach the ear",
-  "core_image": "声音越过距离传到耳朵里：能被听见",
-  "scene": "后排的家长踮起脚，仍听不清台上的致辞。The speaker's voice was barely audible over the wind.",
-  "sceneCN": "这里 audible 指「听得见的」（第 1 个义项：声音可被听到）；句意：演讲者的声音在风里几乎听不见。",
-  "pos": [
-    { "tag": "adj.", "zh": "听得见的；可闻的" }
-  ],
-  "collocations": [
-    { "phrase": "barely audible", "zh": "几乎听不见的" },
-    { "phrase": "an audible sigh", "zh": "一声听得见的叹息" },
-    { "phrase": "an audible gasp", "zh": "一声清晰的倒吸气" },
-    { "phrase": "audible range", "zh": "可听范围；听域" },
-    { "phrase": "make oneself audible", "zh": "让人听见自己说话" }
-  ],
-  "forms": [
-    { "label": "比较级", "form": "more audible" },
-    { "label": "最高级", "form": "most audible" },
-    { "label": "名词（听域内声音）", "form": "audible" }
-  ],
-  "derivatives": [
-    { "word": "audibly", "pos": "adv.", "zh": "听得见地；出声地（audible + -ly）" },
-    { "word": "audibility", "pos": "n.", "zh": "可闻度；能听清的程度（audible + -ity）" },
-    { "word": "inaudible", "pos": "adj.", "zh": "听不见的（in- 否定前缀 + audible）" },
-    { "word": "audience", "pos": "n.", "zh": "听众；观众（同族词，出自 audire「听」）" },
-    { "word": "audio", "pos": "adj.", "zh": "音频的；声音的（同族词）" }
-  ],
-  "senses": [
-    {
-      "no": "01",
-      "title": "Loud enough to hear",
-      "titleCN": "足以听见的",
-      "definition": "loud or clear enough to be heard",
-      "definitionCN": "响亮或清晰到足以被听见的",
-      "example": "Her voice was barely audible at the back of the hall.",
-      "exampleCN": "在礼堂后排几乎听不见她的声音。",
-      "why": "The root audire means to hear; -able marks what can undergo it.",
-      "whyCN": "词根 audire 意为「听」；-able 标记「可被……的」。"
+[
+  {
+    "word": "audible",
+    "ipa_uk": "/ˈɔːdəbl/",
+    "ipa_us": "/ˈɔːdəbl/",
+    "definition_zh": "听得见的；可闻的",
+    "definition_en": "able to be heard; loud or clear enough to reach the ear",
+    "core_image": "声音越过距离传到耳朵里：能被听见",
+    "scene": "后排的家长踮起脚，仍听不清台上的致辞。The speaker's voice was barely audible over the wind.",
+    "sceneCN": "这里 audible 指「听得见的」（第 1 个义项：声音可被听到）；句意：演讲者的声音在风里几乎听不见。",
+    "pos": [
+      {
+        "tag": "adj.",
+        "zh": "听得见的；可闻的"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "barely audible",
+        "zh": "几乎听不见的"
+      },
+      {
+        "phrase": "an audible sigh",
+        "zh": "一声听得见的叹息"
+      },
+      {
+        "phrase": "an audible gasp",
+        "zh": "一声清晰的倒吸气"
+      },
+      {
+        "phrase": "audible range",
+        "zh": "可听范围；听域"
+      },
+      {
+        "phrase": "make oneself audible",
+        "zh": "让人听见自己说话"
+      }
+    ],
+    "forms": [
+      {
+        "label": "比较级",
+        "form": "more audible"
+      },
+      {
+        "label": "最高级",
+        "form": "most audible"
+      },
+      {
+        "label": "名词（听域内声音）",
+        "form": "audible"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "audibly",
+        "pos": "adv.",
+        "zh": "听得见地；出声地（audible + -ly）"
+      },
+      {
+        "word": "audibility",
+        "pos": "n.",
+        "zh": "可闻度；能听清的程度（audible + -ity）"
+      },
+      {
+        "word": "inaudible",
+        "pos": "adj.",
+        "zh": "听不见的（in- 否定前缀 + audible）"
+      },
+      {
+        "word": "audience",
+        "pos": "n.",
+        "zh": "听众；观众（同族词，出自 audire「听」）"
+      },
+      {
+        "word": "audio",
+        "pos": "adj.",
+        "zh": "音频的；声音的（同族词）"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "Loud enough to hear",
+        "titleCN": "足以听见的",
+        "definition": "loud or clear enough to be heard",
+        "definitionCN": "响亮或清晰到足以被听见的",
+        "example": "Her voice was barely audible at the back of the hall.",
+        "exampleCN": "在礼堂后排几乎听不见她的声音。",
+        "why": "The root audire means to hear; -able marks what can undergo it.",
+        "whyCN": "词根 audire 意为「听」；-able 标记「可被……的」。"
+      },
+      {
+        "no": "02",
+        "title": "Within human hearing range",
+        "titleCN": "在人耳听域之内的",
+        "definition": "of sound waves, within the range humans can perceive",
+        "definitionCN": "（声波）处于人耳可感知范围内的",
+        "example": "Dogs hear frequencies well beyond the audible range.",
+        "exampleCN": "狗能听到远超人耳听域的频率。",
+        "why": "Physics fixed the word to a measured band: too high or too low is inaudible.",
+        "whyCN": "物理学把这个词锚定在一段可测的频带：过高过低都不可闻。"
+      },
+      {
+        "no": "03",
+        "title": "Expressed out loud",
+        "titleCN": "出声表达出的",
+        "definition": "of a feeling, made audible as a sound, such as a sigh or groan",
+        "definitionCN": "（情绪）以叹息、呻吟等声音形式发出来的",
+        "example": "She gave an audible sigh of relief.",
+        "exampleCN": "她如释重负，发出一声听得见的叹息。",
+        "why": "Silent feelings become audible the moment they escape as sound.",
+        "whyCN": "无声的情绪一旦化作声音逸出，便成为「可闻」的。"
+      },
+      {
+        "no": "04",
+        "title": "Clearly heard by listeners",
+        "titleCN": "（对听众）清晰可闻的",
+        "definition": "of speech or broadcast sound, clear enough for an audience",
+        "definitionCN": "（讲话、广播声音）对听众足够清晰的",
+        "example": "Check that every speaker is audible from the last row.",
+        "exampleCN": "确认每位发言人的声音在最后一排都能听清。",
+        "why": "In public speaking the test is the farthest ear, so the word measures reach.",
+        "whyCN": "公开演讲的检验标准是最远的那只耳朵，这个词便成了「传到与否」的量尺。"
+      },
+      {
+        "no": "05",
+        "title": "Perceptible in recordings",
+        "titleCN": "录音中可辨的",
+        "definition": "of a sound in a recording, present and distinguishable on playback",
+        "definitionCN": "（录音中的声音）回放时存在且可分辨的",
+        "example": "A second voice is faintly audible in the background of the tape.",
+        "exampleCN": "磁带背景里隐约能听到第二个声音。",
+        "why": "Recordings create a second ear, and audible now marks what survives onto it.",
+        "whyCN": "录音创造了第二只耳朵，audible 如今标记能在这只耳朵上留痕的声音。"
+      },
+      {
+        "no": "06",
+        "title": "Detectable by instruments of hearing",
+        "titleCN": "（仪器可检出的）声音存在",
+        "definition": "of a signal, present in the audio channel or detectable as sound",
+        "definitionCN": "（信号）存在于音频通道或可作为声音检出的",
+        "example": "An audible warning sounds when the door is not closed.",
+        "exampleCN": "车门未关好时会响起声音警报。",
+        "why": "Engineering needs an adjective for signals the ear can catch, and this one fits.",
+        "whyCN": "工程上需要一个形容词来指耳朵能捕捉的信号，这个词正合适。"
+      },
+      {
+        "no": "07",
+        "title": "Easily heard, emphasized",
+        "titleCN": "（强调）清晰可闻的",
+        "definition": "used with negatives or adverbs to grade how well a sound carries",
+        "definitionCN": "与否定词或副词连用，为声音的传达程度分等",
+        "example": "His whisper was just audible over the rain.",
+        "exampleCN": "雨声中他的低语勉强可闻。",
+        "why": "Hearing is a gradient, so the word lives with barely, faintly, and just.",
+        "whyCN": "听觉本是个渐变量，这个词便常与 barely、faintly、just 为伴。"
+      },
+      {
+        "no": "08",
+        "title": "In sports, a called play",
+        "titleCN": "（美式橄榄球）临场喊出的战术",
+        "definition": "in American football, an audible is a play called at the line of scrimmage",
+        "definitionCN": "美式橄榄球中指在开阵线前临场改喊的战术",
+        "example": "The quarterback called an audible seconds before the snap.",
+        "exampleCN": "开球前几秒，四分卫临场改喊了战术。",
+        "why": "A play that exists only as a shouted word is literally made of hearing.",
+        "whyCN": "只存在于一声喊叫里的战术，名副其实地由「听」构成。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Audible comes from Latin audibilis, formed on audire, to hear; English borrowed it from the Latin past participle stem audit- plus -ibilis in the fifteenth century.",
+        "cn": "audible 出自拉丁语 audibilis，其基础是动词 audire「听」；15 世纪英语从拉丁语过去分词词干 audit- 加 -ibilis 将其借入。"
+      },
+      "items": [
+        {
+          "era": "PROTO-INDO-EUROPEAN",
+          "en": "The root *h₂ewis- meant to perceive, to hear, feeding the Latin hearing family.",
+          "cn": "词根 *h₂ewis- 意为「感知、听见」，孕育了拉丁语「听」的词族。"
+        },
+        {
+          "era": "LATIN",
+          "en": "audire meant to hear; its participle stem audit- and adjective audibilis meant able to be heard.",
+          "cn": "拉丁语 audire 意为「听」；其分词词干 audit- 与形容词 audibilis 意为「可被听见的」。"
+        },
+        {
+          "era": "LATE LATIN, AUDIBILIS",
+          "en": "audibilis joined the verb stem with -ibilis, the standard Latin ending for able to be.",
+          "cn": "audibilis 由动词词干加 -ibilis 构成，后者是拉丁语表示「可……的」的标准词尾。"
+        },
+        {
+          "era": "ENGLISH, 15TH C.",
+          "en": "audible entered English in the fifteenth century, first in learned and religious texts.",
+          "cn": "audible 于 15 世纪进入英语，最初见于学术与宗教文本。"
+        },
+        {
+          "era": "EARLY MODERN ENGLISH",
+          "en": "Science and music widened its use to measured ranges of sound.",
+          "cn": "科学与音乐把它扩展到可测量的声音范围。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "From radio engineering to football play-calling, audible now marks every sound that reaches an ear or channel.",
+          "cn": "从无线电工程到橄榄球战术口令，audible 如今标记一切能抵达耳朵或声道的信号。"
+        }
+      ]
     },
-    {
-      "no": "02",
-      "title": "Within human hearing range",
-      "titleCN": "在人耳听域之内的",
-      "definition": "of sound waves, within the range humans can perceive",
-      "definitionCN": "（声波）处于人耳可感知范围内的",
-      "example": "Dogs hear frequencies well beyond the audible range.",
-      "exampleCN": "狗能听到远超人耳听域的频率。",
-      "why": "Physics fixed the word to a measured band: too high or too low is inaudible.",
-      "whyCN": "物理学把这个词锚定在一段可测的频带：过高过低都不可闻。"
+    "similar": {
+      "note": {
+        "en": "Group one collects the hear-family and the aud- look-alikes from the dare root; group two collects neighboring hearing words.",
+        "cn": "第一组收「听」词族及与「敢」词根同以 aud- 开头的形近词；第二组收相邻的听觉词。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "audience",
+              "ipa": "/ˈɔːdiəns/",
+              "tag": "same root",
+              "definition": "a group of listeners, from Latin audientia, a hearing.",
+              "definitionCN": "听众；观众，出自拉丁语 audientia「听」。"
+            },
+            {
+              "word": "auditorium",
+              "ipa": "/ˌɔːdɪˈtɔːriəm/",
+              "tag": "same root",
+              "definition": "the hall where people listen, literally the hearing place.",
+              "definitionCN": "礼堂；听众席，本义即「听的地方」。"
+            },
+            {
+              "word": "audacious",
+              "ipa": "/ɔːˈdeɪʃəs/",
+              "tag": "look-alike, different root",
+              "definition": "bold, from Latin audax, to dare; shares only the aud- spelling.",
+              "definitionCN": "大胆的，出自拉丁语 audax「敢」；仅拼写同以 aud- 开头。"
+            },
+            {
+              "word": "auditory",
+              "ipa": "/ˈɔːdətɔːri/",
+              "tag": "same root",
+              "definition": "relating to the sense of hearing.",
+              "definitionCN": "听觉的；与听觉相关的。"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "distinct",
+              "ipa": "/dɪˈstɪŋkt/",
+              "tag": "near meaning",
+              "definition": "clearly heard or seen, easily told apart.",
+              "definitionCN": "清晰的；容易分辨的。"
+            },
+            {
+              "word": "perceptible",
+              "ipa": "/pəˈseptəbl/",
+              "tag": "near meaning",
+              "definition": "able to be noticed by any sense, hearing included.",
+              "definitionCN": "可感知的；不限听觉。"
+            },
+            {
+              "word": "sonorous",
+              "ipa": "/ˈsɒnərəs/",
+              "tag": "near meaning",
+              "definition": "deep, full, and resonant in sound.",
+              "definitionCN": "浑厚响亮的；低沉有回响的。"
+            },
+            {
+              "word": "inaudible",
+              "ipa": "/ɪnˈɔːdəbl/",
+              "tag": "opposite",
+              "definition": "too faint or high or low to be heard.",
+              "definitionCN": "听不见的；audible 的反义词。"
+            },
+            {
+              "word": "auditory",
+              "ipa": "/ˈɔːdətɔːri/",
+              "tag": "related field",
+              "definition": "of the ear and hearing as a sense, not of a single sound.",
+              "definitionCN": "听觉层面的；与单一声音相对。"
+            }
+          ]
+        }
+      ]
     },
-    {
-      "no": "03",
-      "title": "Expressed out loud",
-      "titleCN": "出声表达出的",
-      "definition": "of a feeling, made audible as a sound, such as a sigh or groan",
-      "definitionCN": "（情绪）以叹息、呻吟等声音形式发出来的",
-      "example": "She gave an audible sigh of relief.",
-      "exampleCN": "她如释重负，发出一声听得见的叹息。",
-      "why": "Silent feelings become audible the moment they escape as sound.",
-      "whyCN": "无声的情绪一旦化作声音逸出，便成为「可闻」的。"
+    "mnemonics": {
+      "normalIntro": {
+        "en": "audible wears its root on its sleeve: audi means hear, able means can.",
+        "cn": "audible 把词根写在脸上：audi「听」+ able「能够」。"
+      },
+      "normal": [
+        {
+          "en": "audi + able: able to be heard, exactly as visible means able to be seen.",
+          "cn": "audi + able：能被听见，正如 visible 是能被看见。"
+        },
+        {
+          "en": "The audi family: audience, auditorium, audio, audible, all about hearing.",
+          "cn": "audi 家族：audience、auditorium、audio、audible——都关于「听」。"
+        },
+        {
+          "en": "Add in- and the sound vanishes: inaudible.",
+          "cn": "加上 in- 声音便消失：inaudible。"
+        },
+        {
+          "en": "barely audible is the everyday phrase for a voice that hardly carries.",
+          "cn": "barely audible 是形容声音几乎传不到的日常说法。"
+        },
+        {
+          "en": "In football an audible is a play you can only know by hearing it.",
+          "cn": "橄榄球里的 audible 是只能靠听来领会的战术。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "Picture a sound crossing a noisy square and still arriving at one ear.",
+          "cn": "想象一个声音穿过嘈杂广场，仍抵达了一只耳朵。"
+        },
+        {
+          "en": "Audible is the moment silence breaks.",
+          "cn": "audible 是寂静被打破的那一刻。"
+        },
+        {
+          "en": "Think of a volume knob: audible is anywhere above zero.",
+          "cn": "把它想成音量旋钮：零以上皆为 audible。"
+        }
+      ]
     },
-    {
-      "no": "04",
-      "title": "Clearly heard by listeners",
-      "titleCN": "（对听众）清晰可闻的",
-      "definition": "of speech or broadcast sound, clear enough for an audience",
-      "definitionCN": "（讲话、广播声音）对听众足够清晰的",
-      "example": "Check that every speaker is audible from the last row.",
-      "exampleCN": "确认每位发言人的声音在最后一排都能听清。",
-      "why": "In public speaking the test is the farthest ear, so the word measures reach.",
-      "whyCN": "公开演讲的检验标准是最远的那只耳朵，这个词便成了「传到与否」的量尺。"
+    "examples": [
+      {
+        "en": "The teacher's voice stayed audible even at the back of the playground.",
+        "cn": "即使在操场尽头，老师的声音也清晰可闻。"
+      },
+      {
+        "en": "There was an audible gasp when the results appeared on the screen.",
+        "cn": "结果出现在屏幕上时，全场响起清晰的倒吸气声。"
+      },
+      {
+        "en": "The recording was old, but every word remained audible.",
+        "cn": "录音年代久远，但每个字仍然听得清。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「奥弟」——奥秘弟在外屋大声唱歌，隔着门也听得见",
+      "word": "audible"
     },
-    {
-      "no": "05",
-      "title": "Perceptible in recordings",
-      "titleCN": "录音中可辨的",
-      "definition": "of a sound in a recording, present and distinguishable on playback",
-      "definitionCN": "（录音中的声音）回放时存在且可分辨的",
-      "example": "A second voice is faintly audible in the background of the tape.",
-      "exampleCN": "磁带背景里隐约能听到第二个声音。",
-      "why": "Recordings create a second ear, and audible now marks what survives onto it.",
-      "whyCN": "录音创造了第二只耳朵，audible 如今标记能在这只耳朵上留痕的声音。"
+    "root": "出自拉丁语 audire「听」（过去分词词干 audit-）+ 形容词后缀 -ibilis「可……的」，即 audibilis「可被听见的」；15 世纪进入英语，与 audience、audio、auditorium 同属「听」词族，词源确凿。",
+    "sensesIntro": {
+      "en": "Eight senses follow one hearing adjective: from sheer loudness through measured ranges and escaped sighs to the football call that lives only in sound.",
+      "cn": "八个义项跟随一个「听」的形容词：从纯粹的响度，到可测的频带、逸出的叹息，再到只存在于声音里的橄榄球战术口令。"
     },
-    {
-      "no": "06",
-      "title": "Detectable by instruments of hearing",
-      "titleCN": "（仪器可检出的）声音存在",
-      "definition": "of a signal, present in the audio channel or detectable as sound",
-      "definitionCN": "（信号）存在于音频通道或可作为声音检出的",
-      "example": "An audible warning sounds when the door is not closed.",
-      "exampleCN": "车门未关好时会响起声音警报。",
-      "why": "Engineering needs an adjective for signals the ear can catch, and this one fits.",
-      "whyCN": "工程上需要一个形容词来指耳朵能捕捉的信号，这个词正合适。"
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: a sound that completes its journey to an ear.",
+        "cn": "核心意象：完成抵达耳朵之旅的声音。"
+      },
+      "chain": [
+        "TO HEAR",
+        "A SOUND IS MADE",
+        "SOUND CROSSES DISTANCE",
+        "AN EAR RECEIVES IT",
+        "MEASURED RANGES",
+        "SOUND ALONE WITHOUT WRITING"
+      ],
+      "branches": [
+        {
+          "senses": "01 · 07",
+          "en": "THE LOUDNESS SCALE: barely audible to clearly audible.",
+          "cn": "响度标尺：从勉强可闻到清晰可闻。"
+        },
+        {
+          "senses": "02 · 06",
+          "en": "THE MEASURED SIDE: hearing ranges, warnings, and signals.",
+          "cn": "可测一面：听域、警报与信号。"
+        },
+        {
+          "senses": "03 · 05",
+          "en": "ESCAPED SOUND: sighs and background voices on tape.",
+          "cn": "逸出的声音：叹息与磁带里的背景人声。"
+        },
+        {
+          "senses": "04",
+          "en": "THE AUDIENCE SIDE: speech that must reach the last row.",
+          "cn": "听众一面：必须传到最后一排的讲话。"
+        },
+        {
+          "senses": "08",
+          "en": "THE FIELD SIDE: the football play called in a shout.",
+          "cn": "赛场一面：一声喊出的橄榄球战术。"
+        }
+      ]
     },
-    {
-      "no": "07",
-      "title": "Easily heard, emphasized",
-      "titleCN": "（强调）清晰可闻的",
-      "definition": "used with negatives or adverbs to grade how well a sound carries",
-      "definitionCN": "与否定词或副词连用，为声音的传达程度分等",
-      "example": "His whisper was just audible over the rain.",
-      "exampleCN": "雨声中他的低语勉强可闻。",
-      "why": "Hearing is a gradient, so the word lives with barely, faintly, and just.",
-      "whyCN": "听觉本是个渐变量，这个词便常与 barely、faintly、just 为伴。"
-    },
-    {
-      "no": "08",
-      "title": "In sports, a called play",
-      "titleCN": "（美式橄榄球）临场喊出的战术",
-      "definition": "in American football, an audible is a play called at the line of scrimmage",
-      "definitionCN": "美式橄榄球中指在开阵线前临场改喊的战术",
-      "example": "The quarterback called an audible seconds before the snap.",
-      "exampleCN": "开球前几秒，四分卫临场改喊了战术。",
-      "why": "A play that exists only as a shouted word is literally made of hearing.",
-      "whyCN": "只存在于一声喊叫里的战术，名副其实地由「听」构成。"
+    "affixes": {
+      "intro": {
+        "en": "audible is built transparently: the verb stem audi- plus -able, exactly parallel to visible and readable.",
+        "cn": "audible 结构一目了然：动词词干 audi- 加 -able，与 visible、readable 完全平行。"
+      },
+      "latinIntro": {
+        "en": "Latin audire, to hear, anchors a wide family: audience, audio, auditory, auditorium, audition, and audible.",
+        "cn": "拉丁语 audire「听」统率一个庞大词族：audience、audio、auditory、auditorium、audition 与 audible。"
+      },
+      "items": [
+        {
+          "word": "audire",
+          "structure": "Latin verb",
+          "meaning": "to hear",
+          "meaningCN": "听",
+          "example": "audire verba regis",
+          "exampleCN": "听国王的话"
+        },
+        {
+          "word": "audibilis",
+          "structure": "audit- + -ibilis",
+          "meaning": "able to be heard",
+          "meaningCN": "可听见的",
+          "example": "vox audibilis in Latin",
+          "exampleCN": "拉丁语中的可闻之声"
+        },
+        {
+          "word": "-able",
+          "structure": "adjective suffix via French",
+          "meaning": "able to be -ed",
+          "meaningCN": "可被……的",
+          "example": "visible, readable, audible",
+          "exampleCN": "可见的、可读的、可听的"
+        },
+        {
+          "word": "audience",
+          "structure": "audire + -entia",
+          "meaning": "listeners; a formal hearing",
+          "meaningCN": "听众；正式接见",
+          "example": "a royal audience",
+          "exampleCN": "王室接见"
+        },
+        {
+          "word": "audio",
+          "structure": "audire stem",
+          "meaning": "of recorded or transmitted sound",
+          "meaningCN": "音频的",
+          "example": "an audio track",
+          "exampleCN": "一条音轨"
+        },
+        {
+          "word": "auditory",
+          "structure": "audit- + -ory",
+          "meaning": "relating to hearing",
+          "meaningCN": "听觉的",
+          "example": "the auditory nerve",
+          "exampleCN": "听神经"
+        },
+        {
+          "word": "auditorium",
+          "structure": "audit- + -orium",
+          "meaning": "a place for listening",
+          "meaningCN": "礼堂；听众席",
+          "example": "the school auditorium",
+          "exampleCN": "学校礼堂"
+        },
+        {
+          "word": "inaudible",
+          "structure": "in- + audible",
+          "meaning": "unable to be heard",
+          "meaningCN": "听不见的",
+          "example": "an inaudible whisper",
+          "exampleCN": "听不见的低语"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "audire",
+          "structure": "Latin verb",
+          "meaning": "to hear",
+          "meaningCN": "听"
+        },
+        {
+          "word": "audibilis",
+          "structure": "Latin adjective",
+          "meaning": "able to be heard",
+          "meaningCN": "可听见的"
+        }
+      ]
     }
-  ],
-  "etymology": {
-    "intro": {
-      "en": "Audible comes from Latin audibilis, formed on audire, to hear; English borrowed it from the Latin past participle stem audit- plus -ibilis in the fifteenth century.",
-      "cn": "audible 出自拉丁语 audibilis，其基础是动词 audire「听」；15 世纪英语从拉丁语过去分词词干 audit- 加 -ibilis 将其借入。"
-    },
-    "items": [
-      {
-        "era": "PROTO-INDO-EUROPEAN",
-        "en": "The root *h₂ewis- meant to perceive, to hear, feeding the Latin hearing family.",
-        "cn": "词根 *h₂ewis- 意为「感知、听见」，孕育了拉丁语「听」的词族。"
-      },
-      {
-        "era": "LATIN",
-        "en": "audire meant to hear; its participle stem audit- and adjective audibilis meant able to be heard.",
-        "cn": "拉丁语 audire 意为「听」；其分词词干 audit- 与形容词 audibilis 意为「可被听见的」。"
-      },
-      {
-        "era": "LATE LATIN, AUDIBILIS",
-        "en": "audibilis joined the verb stem with -ibilis, the standard Latin ending for able to be.",
-        "cn": "audibilis 由动词词干加 -ibilis 构成，后者是拉丁语表示「可……的」的标准词尾。"
-      },
-      {
-        "era": "ENGLISH, 15TH C.",
-        "en": "audible entered English in the fifteenth century, first in learned and religious texts.",
-        "cn": "audible 于 15 世纪进入英语，最初见于学术与宗教文本。"
-      },
-      {
-        "era": "EARLY MODERN ENGLISH",
-        "en": "Science and music widened its use to measured ranges of sound.",
-        "cn": "科学与音乐把它扩展到可测量的声音范围。"
-      },
-      {
-        "era": "MODERN ENGLISH",
-        "en": "From radio engineering to football play-calling, audible now marks every sound that reaches an ear or channel.",
-        "cn": "从无线电工程到橄榄球战术口令，audible 如今标记一切能抵达耳朵或声道的信号。"
-      }
-    ]
-  },
-  "similar": {
-    "note": {
-      "en": "Group one collects the hear-family and the aud- look-alikes from the dare root; group two collects neighboring hearing words.",
-      "cn": "第一组收「听」词族及与「敢」词根同以 aud- 开头的形近词；第二组收相邻的听觉词。"
-    },
-    "groups": [
-      {
-        "heading": "LOOK-ALIKE",
-        "entries": [
-          {
-            "word": "audience",
-            "ipa": "/ˈɔːdiəns/",
-            "tag": "same root",
-            "definition": "a group of listeners, from Latin audientia, a hearing.",
-            "definitionCN": "听众；观众，出自拉丁语 audientia「听」。"
-          },
-          {
-            "word": "auditorium",
-            "ipa": "/ˌɔːdɪˈtɔːriəm/",
-            "tag": "same root",
-            "definition": "the hall where people listen, literally the hearing place.",
-            "definitionCN": "礼堂；听众席，本义即「听的地方」。"
-          },
-          {
-            "word": "audacious",
-            "ipa": "/ɔːˈdeɪʃəs/",
-            "tag": "look-alike, different root",
-            "definition": "bold, from Latin audax, to dare; shares only the aud- spelling.",
-            "definitionCN": "大胆的，出自拉丁语 audax「敢」；仅拼写同以 aud- 开头。"
-          },
-          {
-            "word": "auditory",
-            "ipa": "/ˈɔːdətɔːri/",
-            "tag": "same root",
-            "definition": "relating to the sense of hearing.",
-            "definitionCN": "听觉的；与听觉相关的。"
-          }
-        ]
-      },
-      {
-        "heading": "NEAR MEANING",
-        "entries": [
-          {
-            "word": "distinct",
-            "ipa": "/dɪˈstɪŋkt/",
-            "tag": "near meaning",
-            "definition": "clearly heard or seen, easily told apart.",
-            "definitionCN": "清晰的；容易分辨的。"
-          },
-          {
-            "word": "perceptible",
-            "ipa": "/pəˈseptəbl/",
-            "tag": "near meaning",
-            "definition": "able to be noticed by any sense, hearing included.",
-            "definitionCN": "可感知的；不限听觉。"
-          },
-          {
-            "word": "sonorous",
-            "ipa": "/ˈsɒnərəs/",
-            "tag": "near meaning",
-            "definition": "deep, full, and resonant in sound.",
-            "definitionCN": "浑厚响亮的；低沉有回响的。"
-          },
-          {
-            "word": "inaudible",
-            "ipa": "/ɪnˈɔːdəbl/",
-            "tag": "opposite",
-            "definition": "too faint or high or low to be heard.",
-            "definitionCN": "听不见的；audible 的反义词。"
-          },
-          {
-            "word": "auditory",
-            "ipa": "/ˈɔːdətɔːri/",
-            "tag": "related field",
-            "definition": "of the ear and hearing as a sense, not of a single sound.",
-            "definitionCN": "听觉层面的；与单一声音相对。"
-          }
-        ]
-      }
-    ]
-  },
-  "mnemonics": {
-    "normalIntro": {
-      "en": "audible wears its root on its sleeve: audi means hear, able means can.",
-      "cn": "audible 把词根写在脸上：audi「听」+ able「能够」。"
-    },
-    "normal": [
-      { "en": "audi + able: able to be heard, exactly as visible means able to be seen.", "cn": "audi + able：能被听见，正如 visible 是能被看见。" },
-      { "en": "The audi family: audience, auditorium, audio, audible, all about hearing.", "cn": "audi 家族：audience、auditorium、audio、audible——都关于「听」。" },
-      { "en": "Add in- and the sound vanishes: inaudible.", "cn": "加上 in- 声音便消失：inaudible。" },
-      { "en": "barely audible is the everyday phrase for a voice that hardly carries.", "cn": "barely audible 是形容声音几乎传不到的日常说法。" },
-      { "en": "In football an audible is a play you can only know by hearing it.", "cn": "橄榄球里的 audible 是只能靠听来领会的战术。" }
-    ],
-    "abstract": [
-      { "en": "Picture a sound crossing a noisy square and still arriving at one ear.", "cn": "想象一个声音穿过嘈杂广场，仍抵达了一只耳朵。" },
-      { "en": "Audible is the moment silence breaks.", "cn": "audible 是寂静被打破的那一刻。" },
-      { "en": "Think of a volume knob: audible is anywhere above zero.", "cn": "把它想成音量旋钮：零以上皆为 audible。" }
-    ]
-  },
-  "examples": [
-    { "en": "The teacher's voice stayed audible even at the back of the playground.", "cn": "即使在操场尽头，老师的声音也清晰可闻。" },
-    { "en": "There was an audible gasp when the results appeared on the screen.", "cn": "结果出现在屏幕上时，全场响起清晰的倒吸气声。" },
-    { "en": "The recording was old, but every word remained audible.", "cn": "录音年代久远，但每个字仍然听得清。" }
-  ],
-  "dict_mnemonic": {
-    "note": "谐音记忆 · 非词源",
-    "text": "「奥弟」——奥秘弟在外屋大声唱歌，隔着门也听得见",
-    "word": "audible"
-  },
-  "root": "出自拉丁语 audire「听」（过去分词词干 audit-）+ 形容词后缀 -ibilis「可……的」，即 audibilis「可被听见的」；15 世纪进入英语，与 audience、audio、auditorium 同属「听」词族，词源确凿。",
-  "sensesIntro": {
-    "en": "Eight senses follow one hearing adjective: from sheer loudness through measured ranges and escaped sighs to the football call that lives only in sound.",
-    "cn": "八个义项跟随一个「听」的形容词：从纯粹的响度，到可测的频带、逸出的叹息，再到只存在于声音里的橄榄球战术口令。"
-  },
-  "semanticMap": {
-    "core": {
-      "en": "CORE IMAGE: a sound that completes its journey to an ear.",
-      "cn": "核心意象：完成抵达耳朵之旅的声音。"
-    },
-    "chain": ["TO HEAR", "A SOUND IS MADE", "SOUND CROSSES DISTANCE", "AN EAR RECEIVES IT", "MEASURED RANGES", "SOUND ALONE WITHOUT WRITING"],
-    "branches": [
-      { "senses": "01 · 07", "en": "THE LOUDNESS SCALE: barely audible to clearly audible.", "cn": "响度标尺：从勉强可闻到清晰可闻。" },
-      { "senses": "02 · 06", "en": "THE MEASURED SIDE: hearing ranges, warnings, and signals.", "cn": "可测一面：听域、警报与信号。" },
-      { "senses": "03 · 05", "en": "ESCAPED SOUND: sighs and background voices on tape.", "cn": "逸出的声音：叹息与磁带里的背景人声。" },
-      { "senses": "04", "en": "THE AUDIENCE SIDE: speech that must reach the last row.", "cn": "听众一面：必须传到最后一排的讲话。" },
-      { "senses": "08", "en": "THE FIELD SIDE: the football play called in a shout.", "cn": "赛场一面：一声喊出的橄榄球战术。" }
-    ]
-  },
-  "affixes": {
-    "intro": {
-      "en": "audible is built transparently: the verb stem audi- plus -able, exactly parallel to visible and readable.",
-      "cn": "audible 结构一目了然：动词词干 audi- 加 -able，与 visible、readable 完全平行。"
-    },
-    "latinIntro": {
-      "en": "Latin audire, to hear, anchors a wide family: audience, audio, auditory, auditorium, audition, and audible.",
-      "cn": "拉丁语 audire「听」统率一个庞大词族：audience、audio、auditory、auditorium、audition 与 audible。"
-    },
-    "items": [
-      { "word": "audire", "structure": "Latin verb", "meaning": "to hear", "meaningCN": "听", "example": "audire verba regis", "exampleCN": "听国王的话" },
-      { "word": "audibilis", "structure": "audit- + -ibilis", "meaning": "able to be heard", "meaningCN": "可听见的", "example": "vox audibilis in Latin", "exampleCN": "拉丁语中的可闻之声" },
-      { "word": "-able", "structure": "adjective suffix via French", "meaning": "able to be -ed", "meaningCN": "可被……的", "example": "visible, readable, audible", "exampleCN": "可见的、可读的、可听的" },
-      { "word": "audience", "structure": "audire + -entia", "meaning": "listeners; a formal hearing", "meaningCN": "听众；正式接见", "example": "a royal audience", "exampleCN": "王室接见" },
-      { "word": "audio", "structure": "audire stem", "meaning": "of recorded or transmitted sound", "meaningCN": "音频的", "example": "an audio track", "exampleCN": "一条音轨" },
-      { "word": "auditory", "structure": "audit- + -ory", "meaning": "relating to hearing", "meaningCN": "听觉的", "example": "the auditory nerve", "exampleCN": "听神经" },
-      { "word": "auditorium", "structure": "audit- + -orium", "meaning": "a place for listening", "meaningCN": "礼堂；听众席", "example": "the school auditorium", "exampleCN": "学校礼堂" },
-      { "word": "inaudible", "structure": "in- + audible", "meaning": "unable to be heard", "meaningCN": "听不见的", "example": "an inaudible whisper", "exampleCN": "听不见的低语" }
-    ],
-    "latinEntries": [
-      { "word": "audire", "structure": "Latin verb", "meaning": "to hear", "meaningCN": "听" },
-      { "word": "audibilis", "structure": "Latin adjective", "meaning": "able to be heard", "meaningCN": "可听见的" }
-    ]
   }
-}
+]

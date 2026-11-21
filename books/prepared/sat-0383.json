@@ -1,391 +1,393 @@
-{
- "word": "benefactor",
- "ipa_uk": "/ˈbenɪfæktə(r)/",
- "ipa_us": "/ˈbenɪfæktər/",
- "definition_zh": "恩人；捐助人；资助人；行善者",
- "definition_en": "a person who gives money or other help to a person, cause, or organization",
- "core_image": "在捐赠名单顶端签下名字、把钱袋递给学校的人",
- "scene": "新图书馆落成那天，人们把最大的感谢献给他。The library's marble wall lists the name of its chief benefactor.",
- "sceneCN": "这里 benefactor 是「捐助人、恩人」（第 1 个义项：出资出力的行善者）；句意是图书馆的大理石墙上刻着主要捐助人的名字。",
- "pos": [
+[
   {
-   "tag": "n.",
-   "zh": "恩人；捐助人；资助人"
-  }
- ],
- "collocations": [
-  {
-   "phrase": "a generous benefactor",
-   "zh": "慷慨的捐助人"
-  },
-  {
-   "phrase": "an anonymous benefactor",
-   "zh": "匿名捐助人"
-  },
-  {
-   "phrase": "a wealthy benefactor",
-   "zh": "富有的资助人"
-  },
-  {
-   "phrase": "benefactor of the arts",
-   "zh": "艺术赞助人"
-  },
-  {
-   "phrase": "owe everything to one's benefactor",
-   "zh": "全靠恩人相助"
-  }
- ],
- "forms": [
-  {
-   "label": "复数",
-   "form": "benefactors"
-  }
- ],
- "derivatives": [
-  {
-   "word": "benefaction",
-   "pos": "n.",
-   "zh": "由同根动词性成分加名词后缀构成，义为「善行；捐款」"
-  },
-  {
-   "word": "benefactress",
-   "pos": "n.",
-   "zh": "阴性形式，义为「女恩人；女捐助人」"
-  },
-  {
-   "word": "beneficiary",
-   "pos": "n.",
-   "zh": "同根关联词，义为「受益人」"
-  }
- ],
- "senses": [
-  {
-   "no": "01",
-   "title": "A person who gives money or help",
-   "titleCN": "捐助人；恩人",
-   "definition": "someone who supports a person, school, hospital, or cause with money or aid",
-   "definitionCN": "以钱财或帮助支持个人、学校、医院或事业的人",
-   "example": "The library's marble wall lists the name of its chief benefactor.",
-   "exampleCN": "图书馆的大理石墙上刻着主要捐助人的名字。",
-   "why": "Bene means good and factor means a doer, so the word names a doer of good.",
-   "whyCN": "bene 意为「好」，factor 意为「做事的人」，合起来即「行善之人」。"
-  },
-  {
-   "no": "02",
-   "title": "A protector or patron in a broader sense",
-   "titleCN": "保护人；扶助者",
-   "definition": "anyone who looks after or promotes another's welfare, not only with money",
-   "definitionCN": "广义上护佑、提携他人的人，不限于出资",
-   "example": "The professor was a quiet benefactor to generations of young scholars.",
-   "exampleCN": "这位教授是几代年轻学者默默的扶助者。",
-   "why": "Doing good can mean opening doors, not only opening a purse.",
-   "whyCN": "「行善」不只是掏钱，也可以是为人开门引路。"
-  }
- ],
- "etymology": {
-  "intro": {
-   "en": "Benefactor is Latin bene, well, plus factor, a doer.",
-   "cn": "benefactor 由拉丁语 bene「好」加 factor「做事者」构成。"
-  },
-  "items": [
-   {
-    "era": "PROTO-INDO-EUROPEAN",
-    "en": "the root dhe- meant to set, to do.",
-    "cn": "词根 dhe- 意为「放置、做」（重构形式）。"
-   },
-   {
-    "era": "LATIN",
-    "en": "benefactor meant a doer of good, from bene plus facere.",
-    "cn": "拉丁语 benefactor 意为「行善者」，由 bene 加 facere 构成。"
-   },
-   {
-    "era": "LATE LATIN",
-    "en": "the title was used for kings and patrons in inscriptions.",
-    "cn": "晚期拉丁语铭文中用作君王与赞助人的尊称。"
-   },
-   {
-    "era": "ENGLISH, 15TH C.",
-    "en": "English adopted benefactor in the fifteenth century.",
-    "cn": "十五世纪英语采纳 benefactor 一词。"
-   },
-   {
-    "era": "MODERN ENGLISH",
-    "en": "it now names donors to schools, museums, and charities.",
-    "cn": "如今多指向学校、博物馆、慈善机构捐资的人。"
-   }
-  ]
- },
- "similar": {
-  "note": {
-   "en": "The look-alike group shares the bene- or fact- roots; the near-meaning group gathers words for givers and supporters.",
-   "cn": "形近组共享 bene- 或 fact- 词根；近义组汇集给予者、支持者类词。"
-  },
-  "groups": [
-   {
-    "heading": "LOOK-ALIKE",
-    "entries": [
-     {
-      "word": "benefaction",
-      "ipa": "/ˌbenɪˈfækʃn/",
-      "tag": "derived form",
-      "definition": "a donation or good deed",
-      "definitionCN": "善行；捐款——benefactor 的行为名词"
-     },
-     {
-      "word": "malefactor",
-      "ipa": "/ˈmælɪfæktər/",
-      "tag": "opposite",
-      "definition": "an evildoer or criminal",
-      "definitionCN": "作恶者——前缀相反的对照词"
-     },
-     {
-      "word": "beneficial",
-      "ipa": "/ˌbenɪˈfɪʃl/",
-      "tag": "same root",
-      "definition": "producing good results",
-      "definitionCN": "有益的——同含 bene- 词根"
-     }
-    ]
-   },
-   {
-    "heading": "NEAR MEANING",
-    "entries": [
-     {
-      "word": "patron",
-      "ipa": "/ˈpeɪtrən/",
-      "tag": "near synonym",
-      "definition": "a regular supporter, especially of the arts",
-      "definitionCN": "赞助人；强调持续支持"
-     },
-     {
-      "word": "donor",
-      "ipa": "/ˈdəʊnər/",
-      "tag": "near synonym",
-      "definition": "one who gives money or blood or organs",
-      "definitionCN": "捐赠者；仅指给予行为"
-     },
-     {
-      "word": "philanthropist",
-      "ipa": "/fɪˈlænθrəpɪst/",
-      "tag": "near synonym",
-      "definition": "one who promotes human welfare by large gifts",
-      "definitionCN": "慈善家；规模与事业心更强"
-     }
-    ]
-   }
-  ]
- },
- "mnemonics": {
-  "normalIntro": {
-   "en": "Benefactor is bene plus factor: one who does good.",
-   "cn": "benefactor 是 bene 加 factor：行善之人。"
-  },
-  "normal": [
-   {
-    "en": "Malefactor is the opposite, an evildoer.",
-    "cn": "malefactor 是反义词，指作恶者。"
-   },
-   {
-    "en": "The plural is benefactors.",
-    "cn": "复数是 benefactors。"
-   },
-   {
-    "en": "The act is called benefaction.",
-    "cn": "其行为叫 benefaction。"
-   },
-   {
-    "en": "Benefit shares the bene- root.",
-    "cn": "benefit 同含 bene- 词根。"
-   },
-   {
-    "en": "Fact- roots give factory and manufacture.",
-    "cn": "fact- 词根还造出 factory、manufacture。"
-   }
-  ],
-  "abstract": [
-   {
-    "en": "See a name carved at the top of a donor wall.",
-    "cn": "看捐助墙上顶端的名字。"
-   },
-   {
-    "en": "Feel a heavy purse passed into open hands.",
-    "cn": "感受钱袋递入摊开的双手。"
-   },
-   {
-    "en": "Picture a roof raised over many students.",
-    "cn": "想象为众多学子撑起的屋顶。"
-   }
-  ]
- },
- "examples": [
-  {
-   "en": "The library's marble wall lists the name of its chief benefactor.",
-   "cn": "图书馆的大理石墙上刻着主要捐助人的名字。"
-  },
-  {
-   "en": "The professor was a quiet benefactor to generations of young scholars.",
-   "cn": "这位教授是几代年轻学者默默的扶助者。"
-  },
-  {
-   "en": "An anonymous benefactor paid the hospital's new wing.",
-   "cn": "一位匿名捐助人出资修建了医院的新楼。"
-  }
- ],
- "dict_mnemonic": {
-  "note": "谐音记忆 · 非词源",
-  "text": "「宝内·发克它」——宝在自己口袋里，却发出去给别人用，这样的人是恩人。",
-  "word": "benefactor"
- },
- "root": "拉丁语 bene「好地」加 facere「做」的施动者形式 factor「做事者」，合为「行善者」；词根 facere 上溯至原始印欧语词根 dhe-「放置、做」（重构形式），于十五世纪经拉丁语进入英语。同根词有 benefit、malefactor、factory 等。",
- "sensesIntro": {
-  "en": "One noun names doers of good, from marble-wall donors to quiet mentors.",
-  "cn": "一个名词，既指刻上大理石墙的捐资者，也指默默扶助的引路人。"
- },
- "semanticMap": {
-  "core": {
-   "en": "CORE IMAGE: a name signed at the top of a donor wall.",
-   "cn": "核心意象：捐助名单顶端签下的名字。"
-  },
-  "chain": [
-   "GOODNESS",
-   "GIVING",
-   "SUPPORT",
-   "PATRONAGE",
-   "GRATITUDE",
-   "LEGACY"
-  ],
-  "branches": [
-   {
-    "senses": "01",
-    "en": "a generous benefactor",
-    "cn": "慷慨的捐助人"
-   },
-   {
-    "senses": "01",
-    "en": "an anonymous benefactor",
-    "cn": "匿名捐助人"
-   },
-   {
-    "senses": "01",
-    "en": "benefactor of the arts",
-    "cn": "艺术赞助人"
-   },
-   {
-    "senses": "02",
-    "en": "a quiet benefactor to scholars",
-    "cn": "学者的默默扶助者"
-   },
-   {
-    "senses": "01 · 02",
-    "en": "owe everything to one's benefactor",
-    "cn": "全靠恩人相助"
-   }
-  ]
- },
- "affixes": {
-  "intro": {
-   "en": "Benefactor joins the good root bene- to the doing root fact-.",
-   "cn": "benefactor 把「好」词根 bene- 与「做」词根 fact- 相连。"
-  },
-  "latinIntro": {
-   "en": "The Latin verb facere powers this whole family.",
-   "cn": "拉丁动词 facere 驱动着整个词族。"
-  },
-  "items": [
-   {
-    "word": "facere",
-    "structure": "Latin verb",
-    "meaning": "to do, make",
-    "meaningCN": "做、制作",
-    "example": "facere bonum",
-    "exampleCN": "行善"
-   },
-   {
-    "word": "factor",
-    "structure": "facere + -tor",
-    "meaning": "a doer, maker",
-    "meaningCN": "做事者",
-    "example": "factor rerum",
-    "exampleCN": "主事者"
-   },
-   {
     "word": "benefactor",
-    "structure": "bene + factor",
-    "meaning": "a doer of good",
-    "meaningCN": "恩人；捐助人",
-    "example": "a wealthy benefactor",
-    "exampleCN": "富有的资助人"
-   },
-   {
-    "word": "malefactor",
-    "structure": "male + factor",
-    "meaning": "an evildoer",
-    "meaningCN": "作恶者",
-    "example": "catch the malefactor",
-    "exampleCN": "抓住作恶者"
-   },
-   {
-    "word": "benefaction",
-    "structure": "bene + factio",
-    "meaning": "a good deed or gift",
-    "meaningCN": "善行；捐款",
-    "example": "a princely benefaction",
-    "exampleCN": "巨额善款"
-   },
-   {
-    "word": "benefit",
-    "structure": "bene + facere via benefactum",
-    "meaning": "good result",
-    "meaningCN": "益处",
-    "example": "for the benefit of all",
-    "exampleCN": "为众人之利"
-   },
-   {
-    "word": "factory",
-    "structure": "fact- + -ory",
-    "meaning": "a place of making",
-    "meaningCN": "工厂",
-    "example": "a textile factory",
-    "exampleCN": "纺织厂"
-   },
-   {
-    "word": "manufacture",
-    "structure": "manu + facere",
-    "meaning": "to make by hand or machine",
-    "meaningCN": "制造",
-    "example": "manufacture cars",
-    "exampleCN": "制造汽车"
-   },
-   {
-    "word": "beneficiary",
-    "structure": "bene + facere + -ary",
-    "meaning": "one who receives the good",
-    "meaningCN": "受益人",
-    "example": "beneficiary of a trust",
-    "exampleCN": "信托受益人"
-   }
-  ],
-  "latinEntries": [
-   {
-    "word": "benefactor",
-    "structure": "Latin noun",
-    "meaning": "a doer of good; direct source of the English word",
-    "meaningCN": "行善者；英语词的直接来源",
-    "example": "benefactor patriae",
-    "exampleCN": "国家之恩人"
-   }
-  ],
-  "derivatives": [
-   {
-    "word": "benefaction",
-    "pos": "n.",
-    "zh": "义为「善行；捐款」"
-   },
-   {
-    "word": "benefactress",
-    "pos": "n.",
-    "zh": "阴性形式，义为「女恩人」"
-   }
-  ]
- }
-}
+    "ipa_uk": "/ˈbenɪfæktə(r)/",
+    "ipa_us": "/ˈbenɪfæktər/",
+    "definition_zh": "恩人；捐助人；资助人；行善者",
+    "definition_en": "a person who gives money or other help to a person, cause, or organization",
+    "core_image": "在捐赠名单顶端签下名字、把钱袋递给学校的人",
+    "scene": "新图书馆落成那天，人们把最大的感谢献给他。The library's marble wall lists the name of its chief benefactor.",
+    "sceneCN": "这里 benefactor 是「捐助人、恩人」（第 1 个义项：出资出力的行善者）；句意是图书馆的大理石墙上刻着主要捐助人的名字。",
+    "pos": [
+      {
+        "tag": "n.",
+        "zh": "恩人；捐助人；资助人"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "a generous benefactor",
+        "zh": "慷慨的捐助人"
+      },
+      {
+        "phrase": "an anonymous benefactor",
+        "zh": "匿名捐助人"
+      },
+      {
+        "phrase": "a wealthy benefactor",
+        "zh": "富有的资助人"
+      },
+      {
+        "phrase": "benefactor of the arts",
+        "zh": "艺术赞助人"
+      },
+      {
+        "phrase": "owe everything to one's benefactor",
+        "zh": "全靠恩人相助"
+      }
+    ],
+    "forms": [
+      {
+        "label": "复数",
+        "form": "benefactors"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "benefaction",
+        "pos": "n.",
+        "zh": "由同根动词性成分加名词后缀构成，义为「善行；捐款」"
+      },
+      {
+        "word": "benefactress",
+        "pos": "n.",
+        "zh": "阴性形式，义为「女恩人；女捐助人」"
+      },
+      {
+        "word": "beneficiary",
+        "pos": "n.",
+        "zh": "同根关联词，义为「受益人」"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "A person who gives money or help",
+        "titleCN": "捐助人；恩人",
+        "definition": "someone who supports a person, school, hospital, or cause with money or aid",
+        "definitionCN": "以钱财或帮助支持个人、学校、医院或事业的人",
+        "example": "The library's marble wall lists the name of its chief benefactor.",
+        "exampleCN": "图书馆的大理石墙上刻着主要捐助人的名字。",
+        "why": "Bene means good and factor means a doer, so the word names a doer of good.",
+        "whyCN": "bene 意为「好」，factor 意为「做事的人」，合起来即「行善之人」。"
+      },
+      {
+        "no": "02",
+        "title": "A protector or patron in a broader sense",
+        "titleCN": "保护人；扶助者",
+        "definition": "anyone who looks after or promotes another's welfare, not only with money",
+        "definitionCN": "广义上护佑、提携他人的人，不限于出资",
+        "example": "The professor was a quiet benefactor to generations of young scholars.",
+        "exampleCN": "这位教授是几代年轻学者默默的扶助者。",
+        "why": "Doing good can mean opening doors, not only opening a purse.",
+        "whyCN": "「行善」不只是掏钱，也可以是为人开门引路。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Benefactor is Latin bene, well, plus factor, a doer.",
+        "cn": "benefactor 由拉丁语 bene「好」加 factor「做事者」构成。"
+      },
+      "items": [
+        {
+          "era": "PROTO-INDO-EUROPEAN",
+          "en": "the root dhe- meant to set, to do.",
+          "cn": "词根 dhe- 意为「放置、做」（重构形式）。"
+        },
+        {
+          "era": "LATIN",
+          "en": "benefactor meant a doer of good, from bene plus facere.",
+          "cn": "拉丁语 benefactor 意为「行善者」，由 bene 加 facere 构成。"
+        },
+        {
+          "era": "LATE LATIN",
+          "en": "the title was used for kings and patrons in inscriptions.",
+          "cn": "晚期拉丁语铭文中用作君王与赞助人的尊称。"
+        },
+        {
+          "era": "ENGLISH, 15TH C.",
+          "en": "English adopted benefactor in the fifteenth century.",
+          "cn": "十五世纪英语采纳 benefactor 一词。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "it now names donors to schools, museums, and charities.",
+          "cn": "如今多指向学校、博物馆、慈善机构捐资的人。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "The look-alike group shares the bene- or fact- roots; the near-meaning group gathers words for givers and supporters.",
+        "cn": "形近组共享 bene- 或 fact- 词根；近义组汇集给予者、支持者类词。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "benefaction",
+              "ipa": "/ˌbenɪˈfækʃn/",
+              "tag": "derived form",
+              "definition": "a donation or good deed",
+              "definitionCN": "善行；捐款——benefactor 的行为名词"
+            },
+            {
+              "word": "malefactor",
+              "ipa": "/ˈmælɪfæktər/",
+              "tag": "opposite",
+              "definition": "an evildoer or criminal",
+              "definitionCN": "作恶者——前缀相反的对照词"
+            },
+            {
+              "word": "beneficial",
+              "ipa": "/ˌbenɪˈfɪʃl/",
+              "tag": "same root",
+              "definition": "producing good results",
+              "definitionCN": "有益的——同含 bene- 词根"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "patron",
+              "ipa": "/ˈpeɪtrən/",
+              "tag": "near synonym",
+              "definition": "a regular supporter, especially of the arts",
+              "definitionCN": "赞助人；强调持续支持"
+            },
+            {
+              "word": "donor",
+              "ipa": "/ˈdəʊnər/",
+              "tag": "near synonym",
+              "definition": "one who gives money or blood or organs",
+              "definitionCN": "捐赠者；仅指给予行为"
+            },
+            {
+              "word": "philanthropist",
+              "ipa": "/fɪˈlænθrəpɪst/",
+              "tag": "near synonym",
+              "definition": "one who promotes human welfare by large gifts",
+              "definitionCN": "慈善家；规模与事业心更强"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Benefactor is bene plus factor: one who does good.",
+        "cn": "benefactor 是 bene 加 factor：行善之人。"
+      },
+      "normal": [
+        {
+          "en": "Malefactor is the opposite, an evildoer.",
+          "cn": "malefactor 是反义词，指作恶者。"
+        },
+        {
+          "en": "The plural is benefactors.",
+          "cn": "复数是 benefactors。"
+        },
+        {
+          "en": "The act is called benefaction.",
+          "cn": "其行为叫 benefaction。"
+        },
+        {
+          "en": "Benefit shares the bene- root.",
+          "cn": "benefit 同含 bene- 词根。"
+        },
+        {
+          "en": "Fact- roots give factory and manufacture.",
+          "cn": "fact- 词根还造出 factory、manufacture。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "See a name carved at the top of a donor wall.",
+          "cn": "看捐助墙上顶端的名字。"
+        },
+        {
+          "en": "Feel a heavy purse passed into open hands.",
+          "cn": "感受钱袋递入摊开的双手。"
+        },
+        {
+          "en": "Picture a roof raised over many students.",
+          "cn": "想象为众多学子撑起的屋顶。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "The library's marble wall lists the name of its chief benefactor.",
+        "cn": "图书馆的大理石墙上刻着主要捐助人的名字。"
+      },
+      {
+        "en": "The professor was a quiet benefactor to generations of young scholars.",
+        "cn": "这位教授是几代年轻学者默默的扶助者。"
+      },
+      {
+        "en": "An anonymous benefactor paid the hospital's new wing.",
+        "cn": "一位匿名捐助人出资修建了医院的新楼。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「宝内·发克它」——宝在自己口袋里，却发出去给别人用，这样的人是恩人。",
+      "word": "benefactor"
+    },
+    "root": "拉丁语 bene「好地」加 facere「做」的施动者形式 factor「做事者」，合为「行善者」；词根 facere 上溯至原始印欧语词根 dhe-「放置、做」（重构形式），于十五世纪经拉丁语进入英语。同根词有 benefit、malefactor、factory 等。",
+    "sensesIntro": {
+      "en": "One noun names doers of good, from marble-wall donors to quiet mentors.",
+      "cn": "一个名词，既指刻上大理石墙的捐资者，也指默默扶助的引路人。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: a name signed at the top of a donor wall.",
+        "cn": "核心意象：捐助名单顶端签下的名字。"
+      },
+      "chain": [
+        "GOODNESS",
+        "GIVING",
+        "SUPPORT",
+        "PATRONAGE",
+        "GRATITUDE",
+        "LEGACY"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "a generous benefactor",
+          "cn": "慷慨的捐助人"
+        },
+        {
+          "senses": "01",
+          "en": "an anonymous benefactor",
+          "cn": "匿名捐助人"
+        },
+        {
+          "senses": "01",
+          "en": "benefactor of the arts",
+          "cn": "艺术赞助人"
+        },
+        {
+          "senses": "02",
+          "en": "a quiet benefactor to scholars",
+          "cn": "学者的默默扶助者"
+        },
+        {
+          "senses": "01 · 02",
+          "en": "owe everything to one's benefactor",
+          "cn": "全靠恩人相助"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Benefactor joins the good root bene- to the doing root fact-.",
+        "cn": "benefactor 把「好」词根 bene- 与「做」词根 fact- 相连。"
+      },
+      "latinIntro": {
+        "en": "The Latin verb facere powers this whole family.",
+        "cn": "拉丁动词 facere 驱动着整个词族。"
+      },
+      "items": [
+        {
+          "word": "facere",
+          "structure": "Latin verb",
+          "meaning": "to do, make",
+          "meaningCN": "做、制作",
+          "example": "facere bonum",
+          "exampleCN": "行善"
+        },
+        {
+          "word": "factor",
+          "structure": "facere + -tor",
+          "meaning": "a doer, maker",
+          "meaningCN": "做事者",
+          "example": "factor rerum",
+          "exampleCN": "主事者"
+        },
+        {
+          "word": "benefactor",
+          "structure": "bene + factor",
+          "meaning": "a doer of good",
+          "meaningCN": "恩人；捐助人",
+          "example": "a wealthy benefactor",
+          "exampleCN": "富有的资助人"
+        },
+        {
+          "word": "malefactor",
+          "structure": "male + factor",
+          "meaning": "an evildoer",
+          "meaningCN": "作恶者",
+          "example": "catch the malefactor",
+          "exampleCN": "抓住作恶者"
+        },
+        {
+          "word": "benefaction",
+          "structure": "bene + factio",
+          "meaning": "a good deed or gift",
+          "meaningCN": "善行；捐款",
+          "example": "a princely benefaction",
+          "exampleCN": "巨额善款"
+        },
+        {
+          "word": "benefit",
+          "structure": "bene + facere via benefactum",
+          "meaning": "good result",
+          "meaningCN": "益处",
+          "example": "for the benefit of all",
+          "exampleCN": "为众人之利"
+        },
+        {
+          "word": "factory",
+          "structure": "fact- + -ory",
+          "meaning": "a place of making",
+          "meaningCN": "工厂",
+          "example": "a textile factory",
+          "exampleCN": "纺织厂"
+        },
+        {
+          "word": "manufacture",
+          "structure": "manu + facere",
+          "meaning": "to make by hand or machine",
+          "meaningCN": "制造",
+          "example": "manufacture cars",
+          "exampleCN": "制造汽车"
+        },
+        {
+          "word": "beneficiary",
+          "structure": "bene + facere + -ary",
+          "meaning": "one who receives the good",
+          "meaningCN": "受益人",
+          "example": "beneficiary of a trust",
+          "exampleCN": "信托受益人"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "benefactor",
+          "structure": "Latin noun",
+          "meaning": "a doer of good; direct source of the English word",
+          "meaningCN": "行善者；英语词的直接来源",
+          "example": "benefactor patriae",
+          "exampleCN": "国家之恩人"
+        }
+      ],
+      "derivatives": [
+        {
+          "word": "benefaction",
+          "pos": "n.",
+          "zh": "义为「善行；捐款」"
+        },
+        {
+          "word": "benefactress",
+          "pos": "n.",
+          "zh": "阴性形式，义为「女恩人」"
+        }
+      ]
+    }
+  }
+]

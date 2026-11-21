@@ -1,459 +1,461 @@
-{
-  "word": "baffle",
-  "ipa_uk": "/ˈbæfl/",
-  "ipa_us": "/ˈbæfl/",
-  "definition_zh": "使困惑；难住；阻碍（声、光等）",
-  "definition_en": "to confuse completely; also, to impede or deflect something such as sound or light",
-  "core_image": "一道考题让全班集体停笔，面面相觑",
-  "scene": "钟声敲了三下，草稿纸写满三页，答案还是没影。The trick question baffled even the top students.",
-  "sceneCN": "这里 baffle 指「难住、使困惑」（第 1 个义项：令人完全不解）；句意：这道怪题把尖子生也难住了。",
-  "pos": [
-    {
-      "tag": "vt.",
-      "zh": "使困惑；难住；阻碍"
-    }
-  ],
-  "collocations": [
-    {
-      "phrase": "baffle explanation",
-      "zh": "无法解释"
-    },
-    {
-      "phrase": "completely baffled",
-      "zh": "全然不解"
-    },
-    {
-      "phrase": "baffle scientists",
-      "zh": "难倒科学家"
-    },
-    {
-      "phrase": "a baffle plate",
-      "zh": "挡板；折流板"
-    },
-    {
-      "phrase": "baffled by",
-      "zh": "被……难住"
-    }
-  ],
-  "forms": [
-    {
-      "label": "三单",
-      "form": "baffles"
-    },
-    {
-      "label": "过去式",
-      "form": "baffled"
-    },
-    {
-      "label": "过去分词",
-      "form": "baffled"
-    },
-    {
-      "label": "现在分词",
-      "form": "baffling"
-    }
-  ],
-  "derivatives": [
-    {
-      "word": "baffling",
-      "pos": "adj.",
-      "zh": "令人困惑的（baffle + -ing）"
-    },
-    {
-      "word": "bafflement",
-      "pos": "n.",
-      "zh": "困惑（baffle + -ment）"
-    },
-    {
-      "word": "baffler",
-      "pos": "n.",
-      "zh": "难题；挡板（baffle + -er）"
-    }
-  ],
-  "senses": [
-    {
-      "no": "01",
-      "title": "To confuse completely",
-      "titleCN": "使困惑；难住",
-      "definition": "to leave someone unable to understand or explain",
-      "definitionCN": "使人无法理解或解释",
-      "example": "The motive baffled the detectives.",
-      "exampleCN": "作案动机让侦探们一头雾水。",
-      "why": "The older sense was public disgrace; confusion inherited the helplessness.",
-      "whyCN": "旧义是当众受挫；「困惑」继承了那份无力感。"
-    },
-    {
-      "no": "02",
-      "title": "To defeat or frustrate efforts",
-      "titleCN": "挫败；阻挠",
-      "definition": "to prevent someone from achieving an aim",
-      "definitionCN": "使人达不到目的",
-      "example": "Mountain weather baffled every rescue attempt.",
-      "exampleCN": "山区天气让每次营救都归于失败。",
-      "why": "The earliest English meaning was to defeat openly, as in battle.",
-      "whyCN": "最早的英语义是公开挫败，尤指在战场上。"
-    },
-    {
-      "no": "03",
-      "title": "To impede sound or light",
-      "titleCN": "（物理）阻遏声、光",
-      "definition": "to check or deflect waves, as a baffle plate in an engine or studio",
-      "definitionCN": "阻遏或导偏波动，如发动机或录音棚里的挡板",
-      "example": "Foam baffles the echo in the recording booth.",
-      "exampleCN": "吸音棉消除了录音间里的回声。",
-      "why": "Technical English reused the defeating sense for waves.",
-      "whyCN": "技术英语把「挫败」义转用于波动。"
-    },
-    {
-      "no": "04",
-      "title": "To hinder movement, as terrain",
-      "titleCN": "（地形等）阻滞行进",
-      "definition": "of ground, weather, or obstacles, to slow and disorder movement",
-      "definitionCN": "指地形、天气或障碍使行进迟滞混乱",
-      "example": "Drifts baffled the sledges for two days.",
-      "exampleCN": "积雪阻滞雪橇达两天之久。",
-      "why": "Explorers' prose kept the old military sense alive.",
-      "whyCN": "探险文学让古老的军事义得以存活。"
-    },
-    {
-      "no": "05",
-      "title": "Baffling, as a mystery",
-      "titleCN": "（形容词）费解的",
-      "definition": "in participial adjective use, hard or impossible to fathom",
-      "definitionCN": "分词形容词用法，指难以捉摸",
-      "example": "The baffle disappearance filled the newspapers.",
-      "exampleCN": "这桩离奇失踪案占据了各大报纸。",
-      "why": "The participle packages the confusion as a quality.",
-      "whyCN": "分词把「困惑」打包成一种性质。"
-    },
-    {
-      "no": "06",
-      "title": "To hoodwink in older use",
-      "titleCN": "（旧义）欺骗；愚弄",
-      "definition": "in older English, to cheat or trick someone",
-      "definitionCN": "旧式英语中指欺骗、耍弄",
-      "example": "Sharpers baffled green recruits out of their pay.",
-      "exampleCN": "老骗子骗光了新兵的饷银。",
-      "why": "An obsolete sense that shows the word's rough origins.",
-      "whyCN": "这个废义显露了该词粗粝的出身。"
-    },
-    {
-      "no": "07",
-      "title": "Baffles, as equipment",
-      "titleCN": "（名词）挡板；导流片",
-      "definition": "plates or screens that check flow, in machines, tanks, or chimneys",
-      "definitionCN": "机器、水箱、烟道中阻流导偏的板片",
-      "example": "Clean the baffles before the annual inspection.",
-      "exampleCN": "年检前先把挡板清理干净。",
-      "why": "The verb became the name of the thing that does it.",
-      "whyCN": "动词转而命名行使该功能之物。"
-    },
-    {
-      "no": "08",
-      "title": "In astronomy, stray-light control",
-      "titleCN": "（天文）遮光罩",
-      "definition": "structures that block stray light inside telescopes",
-      "definitionCN": "望远镜内阻挡杂散光的结构",
-      "example": "The baffle keeps starlight from fogging the sensor.",
-      "exampleCN": "遮光罩防止星光照糊传感器。",
-      "why": "Optics borrowed the engineering word for light-control.",
-      "whyCN": "光学借工程术语命名控光结构。"
-    }
-  ],
-  "etymology": {
-    "intro": {
-      "en": "Baffle is of uncertain origin; it appears in the sixteenth century meaning to disgrace publicly, possibly from a lost Scottish or French source, and perhaps related to bawdle or a French term for mockery; the modern senses of defeat and confusion grew from that public shaming.",
-      "cn": "baffle 词源不确定；16 世纪已见，义为「当众使其蒙羞」，或出自已失传的苏格兰语或法语词，一说与表示嘲弄的词相关；「挫败」「困惑」诸义均由「公开羞辱」发展而来。"
-    },
-    "items": [
+[
+  {
+    "word": "baffle",
+    "ipa_uk": "/ˈbæfl/",
+    "ipa_us": "/ˈbæfl/",
+    "definition_zh": "使困惑；难住；阻碍（声、光等）",
+    "definition_en": "to confuse completely; also, to impede or deflect something such as sound or light",
+    "core_image": "一道考题让全班集体停笔，面面相觑",
+    "scene": "钟声敲了三下，草稿纸写满三页，答案还是没影。The trick question baffled even the top students.",
+    "sceneCN": "这里 baffle 指「难住、使困惑」（第 1 个义项：令人完全不解）；句意：这道怪题把尖子生也难住了。",
+    "pos": [
       {
-        "era": "1560S, FIRST RECORD",
-        "en": "Baffle is first recorded meaning to disgrace by sham treatment, as hanging a traitor in effigy.",
-        "cn": "baffle 最早见于记载，指以羞辱性方式使其蒙羞，如对叛国者行绞刑草人。"
-      },
-      {
-        "era": "SCOTTISH DOCUMENTS",
-        "en": "Early evidence comes from Scottish records describing punishment of nobles.",
-        "cn": "早期例证出自苏格兰文献，述及对贵族的羞辱性惩处。"
-      },
-      {
-        "era": "FRENCH THEORY",
-        "en": "One theory links it to French beffler, to mock or deceive; another to bafouer.",
-        "cn": "一说联系法语 beffler「嘲弄、欺骗」，另一说联系 bafouer「嘲弄」。"
-      },
-      {
-        "era": "ENGLISH, 17TH C.",
-        "en": "The military sense, to defeat and frustrate, hardened in Civil War prose.",
-        "cn": "17 世纪英国内战文献中「挫败」义定型。"
-      },
-      {
-        "era": "ENGLISH, 18TH–19TH C.",
-        "en": "The mental sense, to confuse, became dominant as prose polished it.",
-        "cn": "18、19 世纪「使困惑」义渐成主导。"
-      },
-      {
-        "era": "MODERN ENGINEERING",
-        "en": "Engineering coined the baffle plate, and the noun spread through technology.",
-        "cn": "工程学造出 baffle plate（挡板），名词随技术扩散。"
-      }
-    ]
-  },
-  "similar": {
-    "note": {
-      "en": "Group one gathers mock-theory cousins and sound-alikes; group two gathers confusion and hindrance words.",
-      "cn": "第一组收「嘲弄说」近亲与音近词；第二组收困惑与阻碍义场的词。"
-    },
-    "groups": [
-      {
-        "heading": "LOOK-ALIKE",
-        "entries": [
-          {
-            "word": "ruffle",
-            "ipa": "/ˈrʌfl/",
-            "tag": "look-alike, different root",
-            "definition": "to disturb smoothness or temper; rhymes with baffle but unrelated.",
-            "definitionCN": "弄皱；使恼火。与 baffle 押韵但词源无关。"
-          },
-          {
-            "word": "waffle",
-            "ipa": "/ˈwɒfl/",
-            "tag": "look-alike, different root",
-            "definition": "to talk without commitment, or a griddle cake.",
-            "definitionCN": "说话含糊其辞；或指华夫饼。"
-          },
-          {
-            "word": "bafflement",
-            "ipa": "/ˈbæflmənt/",
-            "tag": "derived form",
-            "definition": "the state of being baffled.",
-            "definitionCN": "困惑状态。"
-          }
-        ]
-      },
-      {
-        "heading": "NEAR MEANING",
-        "entries": [
-          {
-            "word": "perplex",
-            "ipa": "/pəˈpleks/",
-            "tag": "near meaning",
-            "definition": "to entangle in doubt; more intricate than baffle.",
-            "definitionCN": "使疑虑缠绕；比 baffle 更曲折。"
-          },
-          {
-            "word": "puzzle",
-            "ipa": "/ˈpʌzl/",
-            "tag": "near meaning",
-            "definition": "to challenge the mind, often playfully.",
-            "definitionCN": "使动脑，常带趣味。"
-          },
-          {
-            "word": "confound",
-            "ipa": "/kənˈfaʊnd/",
-            "tag": "near meaning",
-            "definition": "to confuse utterly, with a note of defeat.",
-            "definitionCN": "彻底搞糊涂，兼有挫败之意。"
-          },
-          {
-            "word": "stymie",
-            "ipa": "/ˈstaɪmi/",
-            "tag": "near meaning",
-            "definition": "to block progress completely.",
-            "definitionCN": "使进展完全受阻。"
-          },
-          {
-            "word": "thwart",
-            "ipa": "/θwɔːt/",
-            "tag": "near meaning",
-            "definition": "to defeat a plan by active opposition.",
-            "definitionCN": "以对抗挫败计划。"
-          }
-        ]
-      }
-    ]
-  },
-  "mnemonics": {
-    "normalIntro": {
-      "en": "Hear battle inside baffle: the mind loses the fight to understand.",
-      "cn": "在 baffle 里听出 battle：理解之战败下阵来。"
-    },
-    "normal": [
-      {
-        "en": "baffle rhymes with battle: confusion as defeat.",
-        "cn": "baffle 与 battle 押韵：困惑即败北。"
-      },
-      {
-        "en": "Original sense was public disgrace, not puzzlement.",
-        "cn": "本义是公开羞辱，而非困惑。"
-      },
-      {
-        "en": "Engineering kept the noun: a baffle plate blocks flow.",
-        "cn": "工程学保留名词：baffle plate 即挡板。"
-      },
-      {
-        "en": "baffle explanation is the idiom for the unexplainable.",
-        "cn": "baffle explanation 是「无从解释」的习语。"
-      },
-      {
-        "en": "Past tense doubles the f: baffled, not bafled.",
-        "cn": "过去式双写 f：baffled。"
+        "tag": "vt.",
+        "zh": "使困惑；难住；阻碍"
       }
     ],
-    "abstract": [
+    "collocations": [
       {
-        "en": "See the whole class stop writing at once.",
-        "cn": "看全班同时停笔。"
+        "phrase": "baffle explanation",
+        "zh": "无法解释"
       },
       {
-        "en": "Baffled is the map that folds in your hands.",
-        "cn": "baffled 是在手里折不起来的地图。"
+        "phrase": "completely baffled",
+        "zh": "全然不解"
       },
       {
-        "en": "Feel the idea slip through your fingers twice.",
-        "cn": "感觉那个念头两次从指间溜走。"
+        "phrase": "baffle scientists",
+        "zh": "难倒科学家"
+      },
+      {
+        "phrase": "a baffle plate",
+        "zh": "挡板；折流板"
+      },
+      {
+        "phrase": "baffled by",
+        "zh": "被……难住"
       }
-    ]
-  },
-  "examples": [
-    {
-      "en": "The missing ledger baffled auditors for months.",
-      "cn": "账簿失踪，审计员困惑了好几个月。"
-    },
-    {
-      "en": "Metal baffles quiet the exhaust note.",
-      "cn": "金属挡板降低了排气噪声。"
-    },
-    {
-      "en": "Her calm, baffling response to the insult disarmed the heckler.",
-      "cn": "面对羞辱她从容以对，让起哄者自讨没趣。"
-    }
-  ],
-  "dict_mnemonic": {
-    "note": "谐音记忆 · 非词源",
-    "text": "「白付了」——想了半天没解出来，报班的学费白付了",
-    "word": "baffle"
-  },
-  "root": "词源不确定。16 世纪（约 1560 年代）已见，本义「以羞辱方式使其蒙耻」，早期例证多出自苏格兰文献（如对贵族行草人刑）；或与法语 beffler「嘲弄、欺骗」、bafouer「讥讽」相关。17 世纪发展出「挫败」义，18、19 世纪「使困惑」义成为主流，近代工程学又造出挡板（baffle）一义。",
-  "sensesIntro": {
-    "en": "Eight senses trace one arc: public disgrace, open defeat, mental defeat, the checked waves of sound and light, the participial adjective, and the hardware the verb christened.",
-    "cn": "八个义项画出一条弧线：公开羞辱、公开挫败、心智受挫、声光受阻、分词形容词，以及由动词命名的硬件。"
-  },
-  "semanticMap": {
-    "core": {
-      "en": "CORE IMAGE: an opponent your mind cannot see, let alone fight.",
-      "cn": "核心意象：一个连看见都做不到的对手，遑论交手。"
-    },
-    "chain": [
-      "THE PUBLIC SHAME",
-      "THE DEFEAT",
-      "THE BLANK MIND",
-      "THE BLOCKED WAVE",
-      "THE UNEXPLAINABLE",
-      "THE HARDWARE"
     ],
-    "branches": [
+    "forms": [
       {
-        "senses": "01 · 05",
-        "en": "THE MENTAL SIDE: confusion and its adjective.",
-        "cn": "心智一面：困惑及其形容词。"
+        "label": "三单",
+        "form": "baffles"
       },
       {
-        "senses": "02 · 04",
-        "en": "THE DEFEAT SIDE: armies, rescues, and sledges stopped.",
-        "cn": "挫败一面：军队、营救、雪橇皆受阻。"
+        "label": "过去式",
+        "form": "baffled"
       },
       {
-        "senses": "03 · 07 · 08",
-        "en": "THE PHYSICAL SIDE: waves checked and the plates that check them.",
-        "cn": "物理一面：受阻的波动与挡板。"
+        "label": "过去分词",
+        "form": "baffled"
       },
       {
-        "senses": "06",
-        "en": "THE OLD SIDE: cheating, the obsolete rough sense.",
-        "cn": "旧义一面：欺骗这一废用的粗粝义。"
-      },
-      {
-        "senses": "05",
-        "en": "THE DEVICE SIDE: baffles as fixed hardware of defeat.",
-        "cn": "器械一面：作为固定硬件的挡板。"
+        "label": "现在分词",
+        "form": "baffling"
       }
-    ]
-  },
-  "affixes": {
-    "intro": {
-      "en": "Baffle takes plain English endings: -ed, -ing, -ment, -er, with no Latin affix at all.",
-      "cn": "baffle 只接平实的英语词尾：-ed、-ing、-ment、-er，全无拉丁词缀。"
-    },
-    "latinIntro": {
-      "en": "No Latin root exists; theories point to Scots usage and French mockery verbs.",
-      "cn": "不存在拉丁词根；诸说指向苏格兰语用法与法语嘲弄类动词。"
-    },
-    "items": [
-      {
-        "word": "beffler",
-        "structure": "Old French verb (theory)",
-        "meaning": "to mock, deceive",
-        "meaningCN": "嘲弄；欺骗",
-        "example": "beffler in Old French",
-        "exampleCN": "古法语中的 beffler"
-      },
-      {
-        "word": "bafouer",
-        "structure": "French verb (theory)",
-        "meaning": "to ridicule",
-        "meaningCN": "讥讽",
-        "example": "se faire bafouer",
-        "exampleCN": "被人讥笑"
-      },
+    ],
+    "derivatives": [
       {
         "word": "baffling",
-        "structure": "baffle + -ing",
-        "meaning": "hard to understand",
-        "meaningCN": "令人困惑的",
-        "example": "a baffling case",
-        "exampleCN": "离奇案件"
+        "pos": "adj.",
+        "zh": "令人困惑的（baffle + -ing）"
       },
       {
         "word": "bafflement",
-        "structure": "baffle + -ment",
-        "meaning": "the state of confusion",
-        "meaningCN": "困惑",
-        "example": "shrug in bafflement",
-        "exampleCN": "困惑地耸肩"
-      },
-      {
-        "word": "baffle plate",
-        "structure": "compound noun",
-        "meaning": "a plate that checks flow",
-        "meaningCN": "挡板",
-        "example": "engine baffle plate",
-        "exampleCN": "发动机挡板"
+        "pos": "n.",
+        "zh": "困惑（baffle + -ment）"
       },
       {
         "word": "baffler",
-        "structure": "baffle + -er",
-        "meaning": "something that baffles",
-        "meaningCN": "难题",
-        "example": "a crossword baffler",
-        "exampleCN": "纵横字谜难题"
-      },
-      {
-        "word": "ruffle",
-        "structure": "rhyme only",
-        "meaning": "to disturb smoothness",
-        "meaningCN": "弄皱；使不快",
-        "example": "ruffled feathers",
-        "exampleCN": "被搅乱的心情"
-      },
-      {
-        "word": "effigy",
-        "structure": "Latin ex + figura",
-        "meaning": "a dummy figure, burned in disgrace rituals",
-        "meaningCN": "草人像",
-        "example": "hanged in effigy",
-        "exampleCN": "被悬其草人像以示众"
+        "pos": "n.",
+        "zh": "难题；挡板（baffle + -er）"
       }
     ],
-    "latinEntries": []
+    "senses": [
+      {
+        "no": "01",
+        "title": "To confuse completely",
+        "titleCN": "使困惑；难住",
+        "definition": "to leave someone unable to understand or explain",
+        "definitionCN": "使人无法理解或解释",
+        "example": "The motive baffled the detectives.",
+        "exampleCN": "作案动机让侦探们一头雾水。",
+        "why": "The older sense was public disgrace; confusion inherited the helplessness.",
+        "whyCN": "旧义是当众受挫；「困惑」继承了那份无力感。"
+      },
+      {
+        "no": "02",
+        "title": "To defeat or frustrate efforts",
+        "titleCN": "挫败；阻挠",
+        "definition": "to prevent someone from achieving an aim",
+        "definitionCN": "使人达不到目的",
+        "example": "Mountain weather baffled every rescue attempt.",
+        "exampleCN": "山区天气让每次营救都归于失败。",
+        "why": "The earliest English meaning was to defeat openly, as in battle.",
+        "whyCN": "最早的英语义是公开挫败，尤指在战场上。"
+      },
+      {
+        "no": "03",
+        "title": "To impede sound or light",
+        "titleCN": "（物理）阻遏声、光",
+        "definition": "to check or deflect waves, as a baffle plate in an engine or studio",
+        "definitionCN": "阻遏或导偏波动，如发动机或录音棚里的挡板",
+        "example": "Foam baffles the echo in the recording booth.",
+        "exampleCN": "吸音棉消除了录音间里的回声。",
+        "why": "Technical English reused the defeating sense for waves.",
+        "whyCN": "技术英语把「挫败」义转用于波动。"
+      },
+      {
+        "no": "04",
+        "title": "To hinder movement, as terrain",
+        "titleCN": "（地形等）阻滞行进",
+        "definition": "of ground, weather, or obstacles, to slow and disorder movement",
+        "definitionCN": "指地形、天气或障碍使行进迟滞混乱",
+        "example": "Drifts baffled the sledges for two days.",
+        "exampleCN": "积雪阻滞雪橇达两天之久。",
+        "why": "Explorers' prose kept the old military sense alive.",
+        "whyCN": "探险文学让古老的军事义得以存活。"
+      },
+      {
+        "no": "05",
+        "title": "Baffling, as a mystery",
+        "titleCN": "（形容词）费解的",
+        "definition": "in participial adjective use, hard or impossible to fathom",
+        "definitionCN": "分词形容词用法，指难以捉摸",
+        "example": "The baffle disappearance filled the newspapers.",
+        "exampleCN": "这桩离奇失踪案占据了各大报纸。",
+        "why": "The participle packages the confusion as a quality.",
+        "whyCN": "分词把「困惑」打包成一种性质。"
+      },
+      {
+        "no": "06",
+        "title": "To hoodwink in older use",
+        "titleCN": "（旧义）欺骗；愚弄",
+        "definition": "in older English, to cheat or trick someone",
+        "definitionCN": "旧式英语中指欺骗、耍弄",
+        "example": "Sharpers baffled green recruits out of their pay.",
+        "exampleCN": "老骗子骗光了新兵的饷银。",
+        "why": "An obsolete sense that shows the word's rough origins.",
+        "whyCN": "这个废义显露了该词粗粝的出身。"
+      },
+      {
+        "no": "07",
+        "title": "Baffles, as equipment",
+        "titleCN": "（名词）挡板；导流片",
+        "definition": "plates or screens that check flow, in machines, tanks, or chimneys",
+        "definitionCN": "机器、水箱、烟道中阻流导偏的板片",
+        "example": "Clean the baffles before the annual inspection.",
+        "exampleCN": "年检前先把挡板清理干净。",
+        "why": "The verb became the name of the thing that does it.",
+        "whyCN": "动词转而命名行使该功能之物。"
+      },
+      {
+        "no": "08",
+        "title": "In astronomy, stray-light control",
+        "titleCN": "（天文）遮光罩",
+        "definition": "structures that block stray light inside telescopes",
+        "definitionCN": "望远镜内阻挡杂散光的结构",
+        "example": "The baffle keeps starlight from fogging the sensor.",
+        "exampleCN": "遮光罩防止星光照糊传感器。",
+        "why": "Optics borrowed the engineering word for light-control.",
+        "whyCN": "光学借工程术语命名控光结构。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Baffle is of uncertain origin; it appears in the sixteenth century meaning to disgrace publicly, possibly from a lost Scottish or French source, and perhaps related to bawdle or a French term for mockery; the modern senses of defeat and confusion grew from that public shaming.",
+        "cn": "baffle 词源不确定；16 世纪已见，义为「当众使其蒙羞」，或出自已失传的苏格兰语或法语词，一说与表示嘲弄的词相关；「挫败」「困惑」诸义均由「公开羞辱」发展而来。"
+      },
+      "items": [
+        {
+          "era": "1560S, FIRST RECORD",
+          "en": "Baffle is first recorded meaning to disgrace by sham treatment, as hanging a traitor in effigy.",
+          "cn": "baffle 最早见于记载，指以羞辱性方式使其蒙羞，如对叛国者行绞刑草人。"
+        },
+        {
+          "era": "SCOTTISH DOCUMENTS",
+          "en": "Early evidence comes from Scottish records describing punishment of nobles.",
+          "cn": "早期例证出自苏格兰文献，述及对贵族的羞辱性惩处。"
+        },
+        {
+          "era": "FRENCH THEORY",
+          "en": "One theory links it to French beffler, to mock or deceive; another to bafouer.",
+          "cn": "一说联系法语 beffler「嘲弄、欺骗」，另一说联系 bafouer「嘲弄」。"
+        },
+        {
+          "era": "ENGLISH, 17TH C.",
+          "en": "The military sense, to defeat and frustrate, hardened in Civil War prose.",
+          "cn": "17 世纪英国内战文献中「挫败」义定型。"
+        },
+        {
+          "era": "ENGLISH, 18TH–19TH C.",
+          "en": "The mental sense, to confuse, became dominant as prose polished it.",
+          "cn": "18、19 世纪「使困惑」义渐成主导。"
+        },
+        {
+          "era": "MODERN ENGINEERING",
+          "en": "Engineering coined the baffle plate, and the noun spread through technology.",
+          "cn": "工程学造出 baffle plate（挡板），名词随技术扩散。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "Group one gathers mock-theory cousins and sound-alikes; group two gathers confusion and hindrance words.",
+        "cn": "第一组收「嘲弄说」近亲与音近词；第二组收困惑与阻碍义场的词。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "ruffle",
+              "ipa": "/ˈrʌfl/",
+              "tag": "look-alike, different root",
+              "definition": "to disturb smoothness or temper; rhymes with baffle but unrelated.",
+              "definitionCN": "弄皱；使恼火。与 baffle 押韵但词源无关。"
+            },
+            {
+              "word": "waffle",
+              "ipa": "/ˈwɒfl/",
+              "tag": "look-alike, different root",
+              "definition": "to talk without commitment, or a griddle cake.",
+              "definitionCN": "说话含糊其辞；或指华夫饼。"
+            },
+            {
+              "word": "bafflement",
+              "ipa": "/ˈbæflmənt/",
+              "tag": "derived form",
+              "definition": "the state of being baffled.",
+              "definitionCN": "困惑状态。"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "perplex",
+              "ipa": "/pəˈpleks/",
+              "tag": "near meaning",
+              "definition": "to entangle in doubt; more intricate than baffle.",
+              "definitionCN": "使疑虑缠绕；比 baffle 更曲折。"
+            },
+            {
+              "word": "puzzle",
+              "ipa": "/ˈpʌzl/",
+              "tag": "near meaning",
+              "definition": "to challenge the mind, often playfully.",
+              "definitionCN": "使动脑，常带趣味。"
+            },
+            {
+              "word": "confound",
+              "ipa": "/kənˈfaʊnd/",
+              "tag": "near meaning",
+              "definition": "to confuse utterly, with a note of defeat.",
+              "definitionCN": "彻底搞糊涂，兼有挫败之意。"
+            },
+            {
+              "word": "stymie",
+              "ipa": "/ˈstaɪmi/",
+              "tag": "near meaning",
+              "definition": "to block progress completely.",
+              "definitionCN": "使进展完全受阻。"
+            },
+            {
+              "word": "thwart",
+              "ipa": "/θwɔːt/",
+              "tag": "near meaning",
+              "definition": "to defeat a plan by active opposition.",
+              "definitionCN": "以对抗挫败计划。"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Hear battle inside baffle: the mind loses the fight to understand.",
+        "cn": "在 baffle 里听出 battle：理解之战败下阵来。"
+      },
+      "normal": [
+        {
+          "en": "baffle rhymes with battle: confusion as defeat.",
+          "cn": "baffle 与 battle 押韵：困惑即败北。"
+        },
+        {
+          "en": "Original sense was public disgrace, not puzzlement.",
+          "cn": "本义是公开羞辱，而非困惑。"
+        },
+        {
+          "en": "Engineering kept the noun: a baffle plate blocks flow.",
+          "cn": "工程学保留名词：baffle plate 即挡板。"
+        },
+        {
+          "en": "baffle explanation is the idiom for the unexplainable.",
+          "cn": "baffle explanation 是「无从解释」的习语。"
+        },
+        {
+          "en": "Past tense doubles the f: baffled, not bafled.",
+          "cn": "过去式双写 f：baffled。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "See the whole class stop writing at once.",
+          "cn": "看全班同时停笔。"
+        },
+        {
+          "en": "Baffled is the map that folds in your hands.",
+          "cn": "baffled 是在手里折不起来的地图。"
+        },
+        {
+          "en": "Feel the idea slip through your fingers twice.",
+          "cn": "感觉那个念头两次从指间溜走。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "The missing ledger baffled auditors for months.",
+        "cn": "账簿失踪，审计员困惑了好几个月。"
+      },
+      {
+        "en": "Metal baffles quiet the exhaust note.",
+        "cn": "金属挡板降低了排气噪声。"
+      },
+      {
+        "en": "Her calm, baffling response to the insult disarmed the heckler.",
+        "cn": "面对羞辱她从容以对，让起哄者自讨没趣。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「白付了」——想了半天没解出来，报班的学费白付了",
+      "word": "baffle"
+    },
+    "root": "词源不确定。16 世纪（约 1560 年代）已见，本义「以羞辱方式使其蒙耻」，早期例证多出自苏格兰文献（如对贵族行草人刑）；或与法语 beffler「嘲弄、欺骗」、bafouer「讥讽」相关。17 世纪发展出「挫败」义，18、19 世纪「使困惑」义成为主流，近代工程学又造出挡板（baffle）一义。",
+    "sensesIntro": {
+      "en": "Eight senses trace one arc: public disgrace, open defeat, mental defeat, the checked waves of sound and light, the participial adjective, and the hardware the verb christened.",
+      "cn": "八个义项画出一条弧线：公开羞辱、公开挫败、心智受挫、声光受阻、分词形容词，以及由动词命名的硬件。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: an opponent your mind cannot see, let alone fight.",
+        "cn": "核心意象：一个连看见都做不到的对手，遑论交手。"
+      },
+      "chain": [
+        "THE PUBLIC SHAME",
+        "THE DEFEAT",
+        "THE BLANK MIND",
+        "THE BLOCKED WAVE",
+        "THE UNEXPLAINABLE",
+        "THE HARDWARE"
+      ],
+      "branches": [
+        {
+          "senses": "01 · 05",
+          "en": "THE MENTAL SIDE: confusion and its adjective.",
+          "cn": "心智一面：困惑及其形容词。"
+        },
+        {
+          "senses": "02 · 04",
+          "en": "THE DEFEAT SIDE: armies, rescues, and sledges stopped.",
+          "cn": "挫败一面：军队、营救、雪橇皆受阻。"
+        },
+        {
+          "senses": "03 · 07 · 08",
+          "en": "THE PHYSICAL SIDE: waves checked and the plates that check them.",
+          "cn": "物理一面：受阻的波动与挡板。"
+        },
+        {
+          "senses": "06",
+          "en": "THE OLD SIDE: cheating, the obsolete rough sense.",
+          "cn": "旧义一面：欺骗这一废用的粗粝义。"
+        },
+        {
+          "senses": "05",
+          "en": "THE DEVICE SIDE: baffles as fixed hardware of defeat.",
+          "cn": "器械一面：作为固定硬件的挡板。"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Baffle takes plain English endings: -ed, -ing, -ment, -er, with no Latin affix at all.",
+        "cn": "baffle 只接平实的英语词尾：-ed、-ing、-ment、-er，全无拉丁词缀。"
+      },
+      "latinIntro": {
+        "en": "No Latin root exists; theories point to Scots usage and French mockery verbs.",
+        "cn": "不存在拉丁词根；诸说指向苏格兰语用法与法语嘲弄类动词。"
+      },
+      "items": [
+        {
+          "word": "beffler",
+          "structure": "Old French verb (theory)",
+          "meaning": "to mock, deceive",
+          "meaningCN": "嘲弄；欺骗",
+          "example": "beffler in Old French",
+          "exampleCN": "古法语中的 beffler"
+        },
+        {
+          "word": "bafouer",
+          "structure": "French verb (theory)",
+          "meaning": "to ridicule",
+          "meaningCN": "讥讽",
+          "example": "se faire bafouer",
+          "exampleCN": "被人讥笑"
+        },
+        {
+          "word": "baffling",
+          "structure": "baffle + -ing",
+          "meaning": "hard to understand",
+          "meaningCN": "令人困惑的",
+          "example": "a baffling case",
+          "exampleCN": "离奇案件"
+        },
+        {
+          "word": "bafflement",
+          "structure": "baffle + -ment",
+          "meaning": "the state of confusion",
+          "meaningCN": "困惑",
+          "example": "shrug in bafflement",
+          "exampleCN": "困惑地耸肩"
+        },
+        {
+          "word": "baffle plate",
+          "structure": "compound noun",
+          "meaning": "a plate that checks flow",
+          "meaningCN": "挡板",
+          "example": "engine baffle plate",
+          "exampleCN": "发动机挡板"
+        },
+        {
+          "word": "baffler",
+          "structure": "baffle + -er",
+          "meaning": "something that baffles",
+          "meaningCN": "难题",
+          "example": "a crossword baffler",
+          "exampleCN": "纵横字谜难题"
+        },
+        {
+          "word": "ruffle",
+          "structure": "rhyme only",
+          "meaning": "to disturb smoothness",
+          "meaningCN": "弄皱；使不快",
+          "example": "ruffled feathers",
+          "exampleCN": "被搅乱的心情"
+        },
+        {
+          "word": "effigy",
+          "structure": "Latin ex + figura",
+          "meaning": "a dummy figure, burned in disgrace rituals",
+          "meaningCN": "草人像",
+          "example": "hanged in effigy",
+          "exampleCN": "被悬其草人像以示众"
+        }
+      ],
+      "latinEntries": []
+    }
   }
-}
+]

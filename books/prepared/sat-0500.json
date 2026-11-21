@@ -1,156 +1,436 @@
-{
-  "word": "buttress",
-  "ipa_uk": "/ˈbʌtrɪs/",
-  "ipa_us": "/ˈbʌtrəs/",
-  "definition_zh": "扶壁；支撑物；支持（论点、主张等）",
-  "definition_en": "a structure built against a wall to support it; as a verb, to support or strengthen an argument or system",
-  "core_image": "教堂外墙斜斜伸出的石臂，稳稳抵住高墙",
-  "scene": "哥特教堂外墙边，石臂一根根斜抵着高墙。Flying buttresses support the cathedral's towering wall.",
-  "sceneCN": "这里 buttress 是「扶壁、支撑结构」（第 1 个义项：抵住墙体的支撑构件）；句意为飞扶壁支撑着大教堂的高墙。",
-  "pos": [
-    { "tag": "n.", "zh": "扶壁；支撑物；支柱" },
-    { "tag": "vt.", "zh": "支撑；加固；为（论点）提供支持" }
-  ],
-  "collocations": [
-    { "phrase": "a flying buttress", "zh": "飞扶壁" },
-    { "phrase": "buttress a wall", "zh": "给墙加扶壁" },
-    { "phrase": "buttress an argument", "zh": "为论点提供支撑" },
-    { "phrase": "buttress the economy", "zh": "扶持经济" },
-    { "phrase": "a stone buttress", "zh": "石砌扶壁" }
-  ],
-  "forms": [
-    { "label": "过去式", "form": "buttressed" },
-    { "label": "过去分词", "form": "buttressed" },
-    { "label": "现在分词", "form": "buttressing" },
-    { "label": "三单", "form": "buttresses" },
-    { "label": "复数", "form": "buttresses" }
-  ],
-  "derivatives": [
-    { "word": "buttressed", "pos": "adj.", "zh": "由过去分词转形容词，义为「有扶壁支撑的；有据可依的」" },
-    { "word": "buttressing", "pos": "n.", "zh": "由动词加 -ing 转名词，义为「支撑作用；扶壁修建」" },
-    { "word": "support", "pos": "v.", "zh": "近义词，义为「支撑，支持」" }
-  ],
-  "senses": [
-    {
-      "no": "01",
-      "title": "A structure supporting a wall",
-      "titleCN": "扶壁；支撑结构",
-      "definition": "a projecting structure of stone or brick built against a wall to strengthen it",
-      "definitionCN": "砌在墙外侧、用来加固墙体的凸出结构",
-      "example": "The old church leans slightly against its massive buttresses.",
-      "exampleCN": "老教堂微微倚在粗大的扶壁上。",
-      "why": "The root means to push or strike; the buttress is the thing that pushes back against the wall.",
-      "whyCN": "词根本义「推撞」，扶壁正是反向推住墙的那股力。"
-    },
-    {
-      "no": "02",
-      "title": "Anything giving firm support",
-      "titleCN": "支撑物；靠山（比喻）",
-      "definition": "a person or thing that gives firm support to something, as traditions to a society",
-      "definitionCN": "给某物以坚实支持的人或事物，如支撑社会的传统",
-      "example": "Rural custom was a buttress of the old order.",
-      "exampleCN": "乡村习俗是旧秩序的一根支柱。",
-      "why": "The mason's prop becomes a metaphor for any load-bearing element.",
-      "whyCN": "石匠的支撑物被借作任何承重因素的比喻。"
-    },
-    {
-      "no": "03",
-      "title": "To support or strengthen (verb)",
-      "titleCN": "支撑；加固；支持（动词）",
-      "definition": "to make stronger by adding support, literally or figuratively",
-      "definitionCN": "以支撑加固，实际或比喻义均可",
-      "example": "New evidence buttressed the scientist's claim.",
-      "exampleCN": "新证据为这位科学家的主张提供了支撑。",
-      "why": "The noun turns into a verb: to act as a buttress for something.",
-      "whyCN": "名词转动词：为某物充当扶壁。"
-    }
-  ],
-  "etymology": {
-    "intro": { "en": "Buttress grew from the same Germanic pushing root as butt, through Old French bouterez.", "cn": "buttress 与 butt 同出日耳曼「推撞」词根，经古法语 bouterez 而来。" },
-    "items": [
-      { "era": "GERMANIC ROOT", "en": "a root meaning to strike or push entered Old French as boter.", "cn": "表示「击打、推撞」的日耳曼词根进入古法语 boter。" },
-      { "era": "OLD FRENCH", "en": "bouterez or ars bouterez named a pushing support, literally a thrusting stone.", "cn": "古法语 bouterez（ars bouterez，「推击之术」）指以推力支撑的构件。" },
-      { "era": "ENGLISH, 14TH C.", "en": "buttress entered English with Gothic architecture.", "cn": "十四世纪 buttress 随哥特式建筑进入英语。" },
-      { "era": "ENGLISH, 16TH C.", "en": "the verb sense of supporting arguments appeared in learned prose.", "cn": "十六世纪「支撑论点」的动词义见于书面语。" },
-      { "era": "MODERN ENGLISH", "en": "flying buttress is the famous Gothic form; the figurative use is now the more common one.", "cn": "飞扶壁是哥特建筑的名件；如今比喻用法更为常用。" }
-    ]
-  },
-  "similar": {
-    "note": { "en": "The look-alike group shares the pushing root; the near-meaning group gathers other supports.", "cn": "形近组同出「推撞」词根；近义组是其他支撑类词。" },
-    "groups": [
+[
+  {
+    "word": "buttress",
+    "ipa_uk": "/ˈbʌtrɪs/",
+    "ipa_us": "/ˈbʌtrəs/",
+    "definition_zh": "扶壁；支撑物；支持（论点、主张等）",
+    "definition_en": "a structure built against a wall to support it; as a verb, to support or strengthen an argument or system",
+    "core_image": "教堂外墙斜斜伸出的石臂，稳稳抵住高墙",
+    "scene": "哥特教堂外墙边，石臂一根根斜抵着高墙。Flying buttresses support the cathedral's towering wall.",
+    "sceneCN": "这里 buttress 是「扶壁、支撑结构」（第 1 个义项：抵住墙体的支撑构件）；句意为飞扶壁支撑着大教堂的高墙。",
+    "pos": [
       {
-        "heading": "LOOK-ALIKE",
-        "entries": [
-          { "word": "butt", "ipa": "/bʌt/", "tag": "same root", "definition": "to strike with the head; the pushing base of buttress", "definitionCN": "顶撞，buttress 词源的推撞基础" },
-          { "word": "abut", "ipa": "/əˈbʌt/", "tag": "same root", "definition": "to join or lean against at an end", "definitionCN": "毗邻；端接，同根词" },
-          { "word": "button", "ipa": "/ˈbʌtən/", "tag": "same root", "definition": "a knob or thick end", "definitionCN": "纽扣；圆头，同出日耳曼词根" },
-          { "word": "butter", "ipa": "/ˈbʌtə/", "tag": "spelling", "definition": "a food spread, unrelated in origin", "definitionCN": "黄油，仅拼写相近，词源无关" }
-        ]
+        "tag": "n.",
+        "zh": "扶壁；支撑物；支柱"
       },
       {
-        "heading": "NEAR MEANING",
-        "entries": [
-          { "word": "prop", "ipa": "/prɒp/", "tag": "near meaning", "definition": "a stick or object used as support", "definitionCN": "支柱；支撑物" },
-          { "word": "pillar", "ipa": "/ˈpɪlə/", "tag": "near meaning", "definition": "an upright column supporting a building", "definitionCN": "柱子；支柱" },
-          { "word": "brace", "ipa": "/breɪs/", "tag": "near meaning", "definition": "to strengthen with a supporting device", "definitionCN": "支撑；加固" },
-          { "word": "bolster", "ipa": "/ˈbəʊlstə/", "tag": "near meaning", "definition": "to support and strengthen", "definitionCN": "增强；扶持" },
-          { "word": "underpin", "ipa": "/ˌʌndəˈpɪn/", "tag": "near meaning", "definition": "to support from below, literally or figuratively", "definitionCN": "加固基础；从底下支撑" }
-        ]
+        "tag": "vt.",
+        "zh": "支撑；加固；为（论点）提供支持"
       }
-    ]
-  },
-  "mnemonics": {
-    "normalIntro": { "en": "Remember the push: the buttress is the wall's teammate, pushing back against the roof's weight.", "cn": "记住「推」：扶壁是墙的队友，反向抵住屋顶的重量。" },
-    "normal": [
-      { "en": "The root butt means to push or strike.", "cn": "词根 butt 意为推、撞。" },
-      { "en": "A flying buttress arches over to reach the wall.", "cn": "飞扶壁以拱券跨过到达墙体。" },
-      { "en": "Buttress an argument is the standard figurative use.", "cn": "buttress an argument 是标准比喻用法。" },
-      { "en": "Buttressed evidence is evidence with support.", "cn": "buttressed evidence 指有支撑的证据。" },
-      { "en": "Butter and buttress are not related.", "cn": "butter 与 buttress 词源无关。" }
     ],
-    "abstract": [
-      { "en": "Feel the cool stone of a buttress against your palm.", "cn": "感受扶壁石料的凉意贴在掌心。" },
-      { "en": "See an argument stand up straight as each fact is added.", "cn": "看论点随着每条事实的加入而挺立起来。" },
-      { "en": "Picture a leaning bookcase saved by one wedged plank.", "cn": "想象一块斜楔的木板救下一座倾倒的书架。" }
-    ]
-  },
-  "examples": [
-    { "en": "Engineers added steel buttresses to the cracked wall.", "cn": "工程师给开裂的墙加装了钢制撑架。" },
-    { "en": "The report was buttressed by decades of field data.", "cn": "这份报告有数十年的实地数据作支撑。" },
-    { "en": "Gothic cathedrals could not stand without their flying buttresses.", "cn": "哥特大教堂没有飞扶壁就无法矗立。" }
-  ],
-  "dict_mnemonic": { "note": "谐音记忆 · 非词源", "text": "「巴特瑞斯」——像「巴特」一样爱顶牛的「瑞斯」，天天用肩膀顶住高墙。", "word": "buttress" },
-  "root": "buttress 源自日耳曼「推撞」词根（与 butt、button 同源），经古法语 bouterez「推撑之石」进入英语；本指反向顶住墙体的构件，后兼作动词，指对论点、制度等的支撑。",
-  "sensesIntro": { "en": "A pushing stone against a wall becomes, by metaphor, every firm support and the act of supporting.", "cn": "一块抵墙的推石，经比喻化为一切坚实支撑及支撑这一行为。" },
-  "semanticMap": {
-    "core": { "en": "CORE IMAGE: a stone arm leaning against a tall wall.", "cn": "核心意象：一条抵住高墙的石臂。" },
-    "chain": ["PUSH", "COUNTERFORCE", "STABILITY", "STRUCTURE", "EVIDENCE", "SUPPORT"],
-    "branches": [
-      { "senses": "01", "en": "flying buttresses of a cathedral", "cn": "大教堂的飞扶壁" },
-      { "senses": "01", "en": "a stone buttress against the gale", "cn": "抵御狂风的石扶壁" },
-      { "senses": "02", "en": "custom as a buttress of the old order", "cn": "作为旧秩序支柱的习俗" },
-      { "senses": "03", "en": "data buttress a claim", "cn": "数据支撑主张" },
-      { "senses": "01 · 03", "en": "same push in stone and in argument", "cn": "石与论证中同样的推力" }
-    ]
-  },
-  "affixes": {
-    "intro": { "en": "Buttress ends with the French noun ending -ess added to the pushing root.", "cn": "buttress 在「推撞」词根后加了法语名词词尾 -ess。" },
-    "latinIntro": { "en": "No Latin stem; the family runs through Germanic and Old French.", "cn": "无拉丁词干；词族经日耳曼语与古法语流传。" },
-    "items": [
-      { "word": "butt", "structure": "root verb", "meaning": "to push, strike", "meaningCN": "推；撞", "example": "rams butt heads", "exampleCN": "公羊顶牛" },
-      { "word": "bouterez", "structure": "Old French noun", "meaning": "a pushing support", "meaningCN": "推撑构件", "example": "ars de bouterez", "exampleCN": "推撑之术（中世纪法语）" },
-      { "word": "buttress", "structure": "butt + -ress", "meaning": "a supporting structure", "meaningCN": "扶壁", "example": "a granite buttress", "exampleCN": "花岗岩扶壁" },
-      { "word": "flying buttress", "structure": "fixed phrase", "meaning": "an arched external support", "meaningCN": "飞扶壁", "example": "the cathedral's flying buttresses", "exampleCN": "大教堂的飞扶壁" },
-      { "word": "buttressed", "structure": "buttress + -ed", "meaning": "supported, strengthened", "meaningCN": "有支撑的；加固的", "example": "a buttressed claim", "exampleCN": "有依据的主张" },
-      { "word": "abut", "structure": "same root, different form", "meaning": "to touch at an end", "meaningCN": "毗邻；端接", "example": "walls that abut", "exampleCN": "相接的墙" },
-      { "word": "prop", "structure": "Middle Dutch", "meaning": "a supporting stick", "meaningCN": "支撑棍", "example": "a prop under the beam", "exampleCN": "梁下的支柱" },
-      { "word": "bolster", "structure": "Old English", "meaning": "to support like a long cushion", "meaningCN": "增强；扶持", "example": "bolster morale", "exampleCN": "提振士气" },
-      { "word": "underpin", "structure": "under- + pin", "meaning": "to support from below", "meaningCN": "从下方支撑", "example": "underpin the foundations", "exampleCN": "加固地基" }
+    "collocations": [
+      {
+        "phrase": "a flying buttress",
+        "zh": "飞扶壁"
+      },
+      {
+        "phrase": "buttress a wall",
+        "zh": "给墙加扶壁"
+      },
+      {
+        "phrase": "buttress an argument",
+        "zh": "为论点提供支撑"
+      },
+      {
+        "phrase": "buttress the economy",
+        "zh": "扶持经济"
+      },
+      {
+        "phrase": "a stone buttress",
+        "zh": "石砌扶壁"
+      }
     ],
-    "latinEntries": [],
+    "forms": [
+      {
+        "label": "过去式",
+        "form": "buttressed"
+      },
+      {
+        "label": "过去分词",
+        "form": "buttressed"
+      },
+      {
+        "label": "现在分词",
+        "form": "buttressing"
+      },
+      {
+        "label": "三单",
+        "form": "buttresses"
+      },
+      {
+        "label": "复数",
+        "form": "buttresses"
+      }
+    ],
     "derivatives": [
-      { "word": "buttressed", "pos": "adj.", "zh": "有支撑的；加固的" },
-      { "word": "buttressing", "pos": "n.", "zh": "支撑；扶壁构筑" }
-    ]
+      {
+        "word": "buttressed",
+        "pos": "adj.",
+        "zh": "由过去分词转形容词，义为「有扶壁支撑的；有据可依的」"
+      },
+      {
+        "word": "buttressing",
+        "pos": "n.",
+        "zh": "由动词加 -ing 转名词，义为「支撑作用；扶壁修建」"
+      },
+      {
+        "word": "support",
+        "pos": "v.",
+        "zh": "近义词，义为「支撑，支持」"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "A structure supporting a wall",
+        "titleCN": "扶壁；支撑结构",
+        "definition": "a projecting structure of stone or brick built against a wall to strengthen it",
+        "definitionCN": "砌在墙外侧、用来加固墙体的凸出结构",
+        "example": "The old church leans slightly against its massive buttresses.",
+        "exampleCN": "老教堂微微倚在粗大的扶壁上。",
+        "why": "The root means to push or strike; the buttress is the thing that pushes back against the wall.",
+        "whyCN": "词根本义「推撞」，扶壁正是反向推住墙的那股力。"
+      },
+      {
+        "no": "02",
+        "title": "Anything giving firm support",
+        "titleCN": "支撑物；靠山（比喻）",
+        "definition": "a person or thing that gives firm support to something, as traditions to a society",
+        "definitionCN": "给某物以坚实支持的人或事物，如支撑社会的传统",
+        "example": "Rural custom was a buttress of the old order.",
+        "exampleCN": "乡村习俗是旧秩序的一根支柱。",
+        "why": "The mason's prop becomes a metaphor for any load-bearing element.",
+        "whyCN": "石匠的支撑物被借作任何承重因素的比喻。"
+      },
+      {
+        "no": "03",
+        "title": "To support or strengthen (verb)",
+        "titleCN": "支撑；加固；支持（动词）",
+        "definition": "to make stronger by adding support, literally or figuratively",
+        "definitionCN": "以支撑加固，实际或比喻义均可",
+        "example": "New evidence buttressed the scientist's claim.",
+        "exampleCN": "新证据为这位科学家的主张提供了支撑。",
+        "why": "The noun turns into a verb: to act as a buttress for something.",
+        "whyCN": "名词转动词：为某物充当扶壁。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Buttress grew from the same Germanic pushing root as butt, through Old French bouterez.",
+        "cn": "buttress 与 butt 同出日耳曼「推撞」词根，经古法语 bouterez 而来。"
+      },
+      "items": [
+        {
+          "era": "GERMANIC ROOT",
+          "en": "a root meaning to strike or push entered Old French as boter.",
+          "cn": "表示「击打、推撞」的日耳曼词根进入古法语 boter。"
+        },
+        {
+          "era": "OLD FRENCH",
+          "en": "bouterez or ars bouterez named a pushing support, literally a thrusting stone.",
+          "cn": "古法语 bouterez（ars bouterez，「推击之术」）指以推力支撑的构件。"
+        },
+        {
+          "era": "ENGLISH, 14TH C.",
+          "en": "buttress entered English with Gothic architecture.",
+          "cn": "十四世纪 buttress 随哥特式建筑进入英语。"
+        },
+        {
+          "era": "ENGLISH, 16TH C.",
+          "en": "the verb sense of supporting arguments appeared in learned prose.",
+          "cn": "十六世纪「支撑论点」的动词义见于书面语。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "flying buttress is the famous Gothic form; the figurative use is now the more common one.",
+          "cn": "飞扶壁是哥特建筑的名件；如今比喻用法更为常用。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "The look-alike group shares the pushing root; the near-meaning group gathers other supports.",
+        "cn": "形近组同出「推撞」词根；近义组是其他支撑类词。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "butt",
+              "ipa": "/bʌt/",
+              "tag": "same root",
+              "definition": "to strike with the head; the pushing base of buttress",
+              "definitionCN": "顶撞，buttress 词源的推撞基础"
+            },
+            {
+              "word": "abut",
+              "ipa": "/əˈbʌt/",
+              "tag": "same root",
+              "definition": "to join or lean against at an end",
+              "definitionCN": "毗邻；端接，同根词"
+            },
+            {
+              "word": "button",
+              "ipa": "/ˈbʌtən/",
+              "tag": "same root",
+              "definition": "a knob or thick end",
+              "definitionCN": "纽扣；圆头，同出日耳曼词根"
+            },
+            {
+              "word": "butter",
+              "ipa": "/ˈbʌtə/",
+              "tag": "spelling",
+              "definition": "a food spread, unrelated in origin",
+              "definitionCN": "黄油，仅拼写相近，词源无关"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "prop",
+              "ipa": "/prɒp/",
+              "tag": "near meaning",
+              "definition": "a stick or object used as support",
+              "definitionCN": "支柱；支撑物"
+            },
+            {
+              "word": "pillar",
+              "ipa": "/ˈpɪlə/",
+              "tag": "near meaning",
+              "definition": "an upright column supporting a building",
+              "definitionCN": "柱子；支柱"
+            },
+            {
+              "word": "brace",
+              "ipa": "/breɪs/",
+              "tag": "near meaning",
+              "definition": "to strengthen with a supporting device",
+              "definitionCN": "支撑；加固"
+            },
+            {
+              "word": "bolster",
+              "ipa": "/ˈbəʊlstə/",
+              "tag": "near meaning",
+              "definition": "to support and strengthen",
+              "definitionCN": "增强；扶持"
+            },
+            {
+              "word": "underpin",
+              "ipa": "/ˌʌndəˈpɪn/",
+              "tag": "near meaning",
+              "definition": "to support from below, literally or figuratively",
+              "definitionCN": "加固基础；从底下支撑"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Remember the push: the buttress is the wall's teammate, pushing back against the roof's weight.",
+        "cn": "记住「推」：扶壁是墙的队友，反向抵住屋顶的重量。"
+      },
+      "normal": [
+        {
+          "en": "The root butt means to push or strike.",
+          "cn": "词根 butt 意为推、撞。"
+        },
+        {
+          "en": "A flying buttress arches over to reach the wall.",
+          "cn": "飞扶壁以拱券跨过到达墙体。"
+        },
+        {
+          "en": "Buttress an argument is the standard figurative use.",
+          "cn": "buttress an argument 是标准比喻用法。"
+        },
+        {
+          "en": "Buttressed evidence is evidence with support.",
+          "cn": "buttressed evidence 指有支撑的证据。"
+        },
+        {
+          "en": "Butter and buttress are not related.",
+          "cn": "butter 与 buttress 词源无关。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "Feel the cool stone of a buttress against your palm.",
+          "cn": "感受扶壁石料的凉意贴在掌心。"
+        },
+        {
+          "en": "See an argument stand up straight as each fact is added.",
+          "cn": "看论点随着每条事实的加入而挺立起来。"
+        },
+        {
+          "en": "Picture a leaning bookcase saved by one wedged plank.",
+          "cn": "想象一块斜楔的木板救下一座倾倒的书架。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "Engineers added steel buttresses to the cracked wall.",
+        "cn": "工程师给开裂的墙加装了钢制撑架。"
+      },
+      {
+        "en": "The report was buttressed by decades of field data.",
+        "cn": "这份报告有数十年的实地数据作支撑。"
+      },
+      {
+        "en": "Gothic cathedrals could not stand without their flying buttresses.",
+        "cn": "哥特大教堂没有飞扶壁就无法矗立。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「巴特瑞斯」——像「巴特」一样爱顶牛的「瑞斯」，天天用肩膀顶住高墙。",
+      "word": "buttress"
+    },
+    "root": "buttress 源自日耳曼「推撞」词根（与 butt、button 同源），经古法语 bouterez「推撑之石」进入英语；本指反向顶住墙体的构件，后兼作动词，指对论点、制度等的支撑。",
+    "sensesIntro": {
+      "en": "A pushing stone against a wall becomes, by metaphor, every firm support and the act of supporting.",
+      "cn": "一块抵墙的推石，经比喻化为一切坚实支撑及支撑这一行为。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: a stone arm leaning against a tall wall.",
+        "cn": "核心意象：一条抵住高墙的石臂。"
+      },
+      "chain": [
+        "PUSH",
+        "COUNTERFORCE",
+        "STABILITY",
+        "STRUCTURE",
+        "EVIDENCE",
+        "SUPPORT"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "flying buttresses of a cathedral",
+          "cn": "大教堂的飞扶壁"
+        },
+        {
+          "senses": "01",
+          "en": "a stone buttress against the gale",
+          "cn": "抵御狂风的石扶壁"
+        },
+        {
+          "senses": "02",
+          "en": "custom as a buttress of the old order",
+          "cn": "作为旧秩序支柱的习俗"
+        },
+        {
+          "senses": "03",
+          "en": "data buttress a claim",
+          "cn": "数据支撑主张"
+        },
+        {
+          "senses": "01 · 03",
+          "en": "same push in stone and in argument",
+          "cn": "石与论证中同样的推力"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Buttress ends with the French noun ending -ess added to the pushing root.",
+        "cn": "buttress 在「推撞」词根后加了法语名词词尾 -ess。"
+      },
+      "latinIntro": {
+        "en": "No Latin stem; the family runs through Germanic and Old French.",
+        "cn": "无拉丁词干；词族经日耳曼语与古法语流传。"
+      },
+      "items": [
+        {
+          "word": "butt",
+          "structure": "root verb",
+          "meaning": "to push, strike",
+          "meaningCN": "推；撞",
+          "example": "rams butt heads",
+          "exampleCN": "公羊顶牛"
+        },
+        {
+          "word": "bouterez",
+          "structure": "Old French noun",
+          "meaning": "a pushing support",
+          "meaningCN": "推撑构件",
+          "example": "ars de bouterez",
+          "exampleCN": "推撑之术（中世纪法语）"
+        },
+        {
+          "word": "buttress",
+          "structure": "butt + -ress",
+          "meaning": "a supporting structure",
+          "meaningCN": "扶壁",
+          "example": "a granite buttress",
+          "exampleCN": "花岗岩扶壁"
+        },
+        {
+          "word": "flying buttress",
+          "structure": "fixed phrase",
+          "meaning": "an arched external support",
+          "meaningCN": "飞扶壁",
+          "example": "the cathedral's flying buttresses",
+          "exampleCN": "大教堂的飞扶壁"
+        },
+        {
+          "word": "buttressed",
+          "structure": "buttress + -ed",
+          "meaning": "supported, strengthened",
+          "meaningCN": "有支撑的；加固的",
+          "example": "a buttressed claim",
+          "exampleCN": "有依据的主张"
+        },
+        {
+          "word": "abut",
+          "structure": "same root, different form",
+          "meaning": "to touch at an end",
+          "meaningCN": "毗邻；端接",
+          "example": "walls that abut",
+          "exampleCN": "相接的墙"
+        },
+        {
+          "word": "prop",
+          "structure": "Middle Dutch",
+          "meaning": "a supporting stick",
+          "meaningCN": "支撑棍",
+          "example": "a prop under the beam",
+          "exampleCN": "梁下的支柱"
+        },
+        {
+          "word": "bolster",
+          "structure": "Old English",
+          "meaning": "to support like a long cushion",
+          "meaningCN": "增强；扶持",
+          "example": "bolster morale",
+          "exampleCN": "提振士气"
+        },
+        {
+          "word": "underpin",
+          "structure": "under- + pin",
+          "meaning": "to support from below",
+          "meaningCN": "从下方支撑",
+          "example": "underpin the foundations",
+          "exampleCN": "加固地基"
+        }
+      ],
+      "latinEntries": [],
+      "derivatives": [
+        {
+          "word": "buttressed",
+          "pos": "adj.",
+          "zh": "有支撑的；加固的"
+        },
+        {
+          "word": "buttressing",
+          "pos": "n.",
+          "zh": "支撑；扶壁构筑"
+        }
+      ]
+    }
   }
-}
+]

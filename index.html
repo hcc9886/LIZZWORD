@@ -1494,6 +1494,7 @@
   <script src="books/lizz/quiz-pool.js"></script>
   <script src="books/lizz/quiz-options.js"></script>
   <script src="books/lizz/study-timer.js"></script>
+  <script src="books/manifest.js"></script>
   <script>
     // ============================================================
     // 1. 数据层
@@ -6659,9 +6660,9 @@
       {
         id: "ket-pet",
         name: "KET/PET 剑桥通用五级核心词汇",
-        intro: "KET（A2）与 PET（B1）核心词（自建整理）：日常话题、校园生活与基础交际表达。共 480 词，每词均为 22 键深度词条。",
+        intro: "KET（A2）与 PET（B1）核心词（自建整理）：日常话题、校园生活与基础交际表达。共 1186 词，每词均为 22 键深度词条。",
         bookFile: "./books/ket-pet.json",
-        preparedFiles: Array.from({length: 24}, (_, i) => `./books/prepared/ket-pet-${String(i+1).padStart(4,"0")}.json`),
+        preparedFiles: (window.BOOK_MANIFEST && window.BOOK_MANIFEST["ket-pet"]) || [],
         distractorsFile: "./books/distractors.json",
         dailyOptions: [5, 10, 15, 20],
         fallback: null
@@ -6669,9 +6670,9 @@
       {
         id: "new-concept",
         name: "新概念英语核心词汇",
-        intro: "新概念英语风格的基础核心词（自建整理，非教材官方词表）：按课文常见话题与难度梯度整理。共 400 词，每词均为 22 键深度词条。",
+        intro: "新概念英语风格的基础核心词（自建整理，非教材官方词表）：按课文常见话题与难度梯度整理。共 1186 词，每词均为 22 键深度词条。",
         bookFile: "./books/new-concept.json",
-        preparedFiles: Array.from({length: 20}, (_, i) => `./books/prepared/new-concept-${String(i+1).padStart(4,"0")}.json`),
+        preparedFiles: (window.BOOK_MANIFEST && window.BOOK_MANIFEST["new-concept"]) || [],
         distractorsFile: "./books/distractors.json",
         dailyOptions: [5, 10, 15, 20],
         fallback: null
@@ -6679,9 +6680,9 @@
       {
         id: "zhonggaozhi",
         name: "中高职英语核心词汇",
-        intro: "中高职英语核心词（自建整理）：以初中到四级之间的实用高频词为主。共 350 词，每词均为 22 键深度词条。",
+        intro: "中高职英语核心词（自建整理）：以初中到四级之间的实用高频词为主。共 1000 词，每词均为 22 键深度词条。",
         bookFile: "./books/zhonggaozhi.json",
-        preparedFiles: Array.from({length: 18}, (_, i) => `./books/prepared/zhonggaozhi-${String(i+1).padStart(4,"0")}.json`),
+        preparedFiles: (window.BOOK_MANIFEST && window.BOOK_MANIFEST["zhonggaozhi"]) || [],
         distractorsFile: "./books/distractors.json",
         dailyOptions: [5, 10, 15, 20],
         fallback: null
@@ -6689,9 +6690,9 @@
       {
         id: "ab",
         name: "AB 级英语应用能力核心词汇",
-        intro: "高等学校英语应用能力 AB 级核心词（自建整理）：偏重日常与职场基础表达。共 219 词，每词均为 22 键深度词条。",
+        intro: "高等学校英语应用能力 AB 级核心词（自建整理）：偏重日常与职场基础表达。共 826 词，每词均为 22 键深度词条。",
         bookFile: "./books/ab.json",
-        preparedFiles: Array.from({length: 11}, (_, i) => `./books/prepared/ab-${String(i+1).padStart(4,"0")}.json`),
+        preparedFiles: (window.BOOK_MANIFEST && window.BOOK_MANIFEST["ab"]) || [],
         distractorsFile: "./books/distractors.json",
         dailyOptions: [5, 10, 15, 20],
         fallback: null
@@ -6699,9 +6700,9 @@
       {
         id: "coca",
         name: "COCA 高频词",
-        intro: "按当代英语语料高频顺序整理的核心词（自建整理）：先覆盖最常用的日常与书面表达。共 550 词，每词均为 22 键深度词条。",
+        intro: "按当代英语语料高频顺序整理的核心词（自建整理）：先覆盖最常用的日常与书面表达。共 1302 词，每词均为 22 键深度词条。",
         bookFile: "./books/coca.json",
-        preparedFiles: Array.from({length: 28}, (_, i) => `./books/prepared/coca-${String(i+1).padStart(4,"0")}.json`),
+        preparedFiles: (window.BOOK_MANIFEST && window.BOOK_MANIFEST["coca"]) || [],
         distractorsFile: "./books/distractors.json",
         dailyOptions: [5, 10, 15, 20],
         fallback: null
@@ -6709,9 +6710,9 @@
       {
         id: "pets",
         name: "全国英语等级考试（PETS）核心词汇",
-        intro: "PETS 二至四级核心词（自建整理）：覆盖日常交流、社会话题与基础学术表达。共 400 词，每词均为 22 键深度词条。",
+        intro: "PETS 二至四级核心词（自建整理）：覆盖日常交流、社会话题与基础学术表达。共 1078 词，每词均为 22 键深度词条。",
         bookFile: "./books/pets.json",
-        preparedFiles: Array.from({length: 20}, (_, i) => `./books/prepared/pets-${String(i+1).padStart(4,"0")}.json`),
+        preparedFiles: (window.BOOK_MANIFEST && window.BOOK_MANIFEST["pets"]) || [],
         distractorsFile: "./books/distractors.json",
         dailyOptions: [5, 10, 15, 20],
         fallback: null
@@ -6719,9 +6720,9 @@
       {
         id: "self-study",
         name: "自学考试英语核心词汇",
-        intro: "自学考试英语基础词（自建整理）：与自考英语（一）难度对齐的高频词。共 280 词，每词均为 22 键深度词条。",
+        intro: "自学考试英语基础词（自建整理）：与自考英语（一）难度对齐的高频词。共 826 词，每词均为 22 键深度词条。",
         bookFile: "./books/self-study.json",
-        preparedFiles: Array.from({length: 14}, (_, i) => `./books/prepared/self-study-${String(i+1).padStart(4,"0")}.json`),
+        preparedFiles: (window.BOOK_MANIFEST && window.BOOK_MANIFEST["self-study"]) || [],
         distractorsFile: "./books/distractors.json",
         dailyOptions: [5, 10, 15, 20],
         fallback: null
@@ -6729,9 +6730,9 @@
       {
         id: "zikao",
         name: "自考英语核心词汇",
-        intro: "自考英语（二）核心词（自建整理）：覆盖课文与真题中的高频四级词汇。共 320 词，每词均为 22 键深度词条。",
+        intro: "自考英语（二）核心词（自建整理）：覆盖课文与真题中的高频四级词汇。共 705 词，每词均为 22 键深度词条。",
         bookFile: "./books/zikao.json",
-        preparedFiles: Array.from({length: 16}, (_, i) => `./books/prepared/zikao-${String(i+1).padStart(4,"0")}.json`),
+        preparedFiles: (window.BOOK_MANIFEST && window.BOOK_MANIFEST["zikao"]) || [],
         distractorsFile: "./books/distractors.json",
         dailyOptions: [5, 10, 15, 20],
         fallback: null
@@ -6739,9 +6740,9 @@
       {
         id: "zhuanshengben",
         name: "专升本英语核心词汇",
-        intro: "专升本英语高频词（自建整理）：以四级难度为主，补充阅读与写作常见表达。共 350 词，每词均为 22 键深度词条。",
+        intro: "专升本英语高频词（自建整理）：以四级难度为主，补充阅读与写作常见表达。共 705 词，每词均为 22 键深度词条。",
         bookFile: "./books/zhuanshengben.json",
-        preparedFiles: Array.from({length: 18}, (_, i) => `./books/prepared/zhuanshengben-${String(i+1).padStart(4,"0")}.json`),
+        preparedFiles: (window.BOOK_MANIFEST && window.BOOK_MANIFEST["zhuanshengben"]) || [],
         distractorsFile: "./books/distractors.json",
         dailyOptions: [5, 10, 15, 20],
         fallback: null
@@ -6749,9 +6750,9 @@
       {
         id: "bec",
         name: "BEC 商务英语核心词汇",
-        intro: "BEC 商务场景核心词（自建整理）：会议、谈判、财务、物流等高频商务表达。共 341 词，每词均为 22 键深度词条。",
+        intro: "BEC 商务场景核心词（自建整理）：会议、谈判、财务、物流等高频商务表达。共 685 词，每词均为 22 键深度词条。",
         bookFile: "./books/bec.json",
-        preparedFiles: Array.from({length: 18}, (_, i) => `./books/prepared/bec-${String(i+1).padStart(4,"0")}.json`),
+        preparedFiles: (window.BOOK_MANIFEST && window.BOOK_MANIFEST["bec"]) || [],
         distractorsFile: "./books/distractors.json",
         dailyOptions: [5, 10, 15, 20],
         fallback: null
@@ -6759,9 +6760,9 @@
       {
         id: "medical",
         name: "医护英语核心词汇",
-        intro: "医护英语核心词（自建整理）：临床、解剖、用药与公共卫生高频术语，非官方考纲。共 282 词，每词均为 22 键深度词条。",
+        intro: "医护英语核心词（自建整理）：临床、解剖、用药与公共卫生高频术语，非官方考纲。共 654 词，每词均为 22 键深度词条。",
         bookFile: "./books/medical.json",
-        preparedFiles: Array.from({length: 15}, (_, i) => `./books/prepared/medical-${String(i+1).padStart(4,"0")}.json`),
+        preparedFiles: (window.BOOK_MANIFEST && window.BOOK_MANIFEST["medical"]) || [],
         distractorsFile: "./books/distractors.json",
         dailyOptions: [5, 10, 15, 20],
         fallback: null
@@ -6769,9 +6770,9 @@
       {
         id: "business-law",
         name: "商业法律英语核心词汇",
-        intro: "商业与法律英语核心词（自建整理）：合同、诉讼、公司与贸易高频术语，非官方考纲。共 295 词，每词均为 22 键深度词条。",
+        intro: "商业与法律英语核心词（自建整理）：合同、诉讼、公司与贸易高频术语，非官方考纲。共 667 词，每词均为 22 键深度词条。",
         bookFile: "./books/business-law.json",
-        preparedFiles: Array.from({length: 15}, (_, i) => `./books/prepared/business-law-${String(i+1).padStart(4,"0")}.json`),
+        preparedFiles: (window.BOOK_MANIFEST && window.BOOK_MANIFEST["business-law"]) || [],
         distractorsFile: "./books/distractors.json",
         dailyOptions: [5, 10, 15, 20],
         fallback: null
@@ -6779,9 +6780,9 @@
       {
         id: "fce",
         name: "FCE 剑桥第一证书核心词汇",
-        intro: "FCE（B2 First）级别核心词（自建整理）：覆盖 B2 阶段的高频搭配与话题词。共 399 词，每词均为 22 键深度词条。",
+        intro: "FCE（B2 First）级别核心词（自建整理）：覆盖 B2 阶段的高频搭配与话题词。共 823 词，每词均为 22 键深度词条。",
         bookFile: "./books/fce.json",
-        preparedFiles: Array.from({length: 20}, (_, i) => `./books/prepared/fce-${String(i+1).padStart(4,"0")}.json`),
+        preparedFiles: (window.BOOK_MANIFEST && window.BOOK_MANIFEST["fce"]) || [],
         distractorsFile: "./books/distractors.json",
         dailyOptions: [5, 10, 15, 20],
         fallback: null
@@ -6789,9 +6790,9 @@
       {
         id: "pte",
         name: "PTE 学术英语核心词汇",
-        intro: "PTE 学术场景高频词（自建整理）：偏重听力与阅读中的学术表达与同义替换。共 350 词，每词均为 22 键深度词条。",
+        intro: "PTE 学术场景高频词（自建整理）：偏重听力与阅读中的学术表达与同义替换。共 600 词，每词均为 22 键深度词条。",
         bookFile: "./books/pte.json",
-        preparedFiles: Array.from({length: 18}, (_, i) => `./books/prepared/pte-${String(i+1).padStart(4,"0")}.json`),
+        preparedFiles: (window.BOOK_MANIFEST && window.BOOK_MANIFEST["pte"]) || [],
         distractorsFile: "./books/distractors.json",
         dailyOptions: [5, 10, 15, 20],
         fallback: null
@@ -6799,9 +6800,9 @@
       {
         id: "study-abroad",
         name: "留学英语核心词汇",
-        intro: "留学申请与海外课堂高频词（自建整理）：涵盖申请材料、校园生活与学术写作场景。共 347 词，每词均为 22 键深度词条。",
+        intro: "留学申请与海外课堂高频词（自建整理）：涵盖申请材料、校园生活与学术写作场景。共 584 词，每词均为 22 键深度词条。",
         bookFile: "./books/study-abroad.json",
-        preparedFiles: Array.from({length: 18}, (_, i) => `./books/prepared/study-abroad-${String(i+1).padStart(4,"0")}.json`),
+        preparedFiles: (window.BOOK_MANIFEST && window.BOOK_MANIFEST["study-abroad"]) || [],
         distractorsFile: "./books/distractors.json",
         dailyOptions: [5, 10, 15, 20],
         fallback: null
@@ -6809,9 +6810,9 @@
       {
         id: "kaoyan",
         name: "考研英语核心词汇",
-        intro: "考研英语高频学术词（自建整理）：以阅读与写作常见的高阶词为主，覆盖熟词僻义与同义替换。共 398 词，每词均为 22 键深度词条。",
+        intro: "考研英语高频学术词（自建整理）：以阅读与写作常见的高阶词为主，覆盖熟词僻义与同义替换。共 697 词，每词均为 22 键深度词条。",
         bookFile: "./books/kaoyan.json",
-        preparedFiles: Array.from({length: 20}, (_, i) => `./books/prepared/kaoyan-${String(i+1).padStart(4,"0")}.json`),
+        preparedFiles: (window.BOOK_MANIFEST && window.BOOK_MANIFEST["kaoyan"]) || [],
         distractorsFile: "./books/distractors.json",
         dailyOptions: [5, 10, 15, 20],
         fallback: null
@@ -6819,9 +6820,9 @@
       {
         id: "english-major",
         name: "英专英语核心词汇",
-        intro: "英语专业高阶词汇（自建整理）：按 C1–C2 难度精选，配词根、义项与近义辨析。共 398 词，每词均为 22 键深度词条。",
+        intro: "英语专业高阶词汇（自建整理）：按 C1–C2 难度精选，配词根、义项与近义辨析。共 697 词，每词均为 22 键深度词条。",
         bookFile: "./books/english-major.json",
-        preparedFiles: Array.from({length: 20}, (_, i) => `./books/prepared/english-major-${String(i+1).padStart(4,"0")}.json`),
+        preparedFiles: (window.BOOK_MANIFEST && window.BOOK_MANIFEST["english-major"]) || [],
         distractorsFile: "./books/distractors.json",
         dailyOptions: [5, 10, 15, 20],
         fallback: null
@@ -6831,7 +6832,7 @@
         name: "零基础启蒙 300 词",
         intro: "只取最常用、最具体的名词动词形容词，配音标、图片联想、短例句与中文记忆钩子；每天 5–10 词就能上手，先会读会认，再展开进阶内容。共 300 词，每词均为 22 键深度词条。",
         bookFile: "./books/zero-basic.json",
-        preparedFiles: Array.from({length: 15}, (_, i) => `./books/prepared/zero-basic-${String(i+1).padStart(4,"0")}.json`),
+        preparedFiles: (window.BOOK_MANIFEST && window.BOOK_MANIFEST["zero-basic"]) || [],
         distractorsFile: "./books/distractors.json",
         dailyOptions: [5, 10, 15, 20],
         fallback: null
@@ -6839,9 +6840,9 @@
       {
         id: "affix-roots",
         name: "词根词缀核心词 300",
-        intro: "优先收录词缀拆解最完整的高阶词，按「词根 → 前缀/后缀 → 同族词」的路径拆解，先懂构词再背词。共 299 词，每词均为 22 键深度词条。",
+        intro: "优先收录词缀拆解最完整的高阶词，按「词根 → 前缀/后缀 → 同族词」的路径拆解，先懂构词再背词。共 567 词，每词均为 22 键深度词条。",
         bookFile: "./books/affix-roots.json",
-        preparedFiles: Array.from({length: 15}, (_, i) => `./books/prepared/affix-roots-${String(i+1).padStart(4,"0")}.json`),
+        preparedFiles: (window.BOOK_MANIFEST && window.BOOK_MANIFEST["affix-roots"]) || [],
         distractorsFile: "./books/distractors.json",
         dailyOptions: [5, 10, 15, 20],
         fallback: null
@@ -6849,9 +6850,49 @@
       {
         id: "collocation",
         name: "高频搭配核心词 400",
-        intro: "每个词都带 6 条以上常用搭配，按「词块」而不是单词记忆，写作与口语见效最快。共 397 词，每词均为 22 键深度词条。",
+        intro: "每个词都带 6 条以上常用搭配，按「词块」而不是单词记忆，写作与口语见效最快。共 615 词，每词均为 22 键深度词条。",
         bookFile: "./books/collocation.json",
-        preparedFiles: Array.from({length: 20}, (_, i) => `./books/prepared/collocation-${String(i+1).padStart(4,"0")}.json`),
+        preparedFiles: (window.BOOK_MANIFEST && window.BOOK_MANIFEST["collocation"]) || [],
+        distractorsFile: "./books/distractors.json",
+        dailyOptions: [5, 10, 15, 20],
+        fallback: null
+      },
+      {
+        id: "gaokao",
+        name: "高考英语核心词汇",
+        intro: "高考英语核心词（自建整理）：覆盖阅读、完形与写作的高频词与搭配。共 705 词，每词均为 22 键深度词条。",
+        bookFile: "./books/gaokao.json",
+        preparedFiles: (window.BOOK_MANIFEST && window.BOOK_MANIFEST["gaokao"]) || [],
+        distractorsFile: "./books/distractors.json",
+        dailyOptions: [5, 10, 15, 20],
+        fallback: null
+      },
+      {
+        id: "cet6",
+        name: "CET6 大学英语六级词汇",
+        intro: "大学英语六级核心词（自建整理）：在四级基础上扩展学术与抽象表达。共 694 词，每词均为 22 键深度词条。",
+        bookFile: "./books/cet6.json",
+        preparedFiles: (window.BOOK_MANIFEST && window.BOOK_MANIFEST["cet6"]) || [],
+        distractorsFile: "./books/distractors.json",
+        dailyOptions: [5, 10, 15, 20],
+        fallback: null
+      },
+      {
+        id: "sat",
+        name: "SAT 核心词汇",
+        intro: "SAT 学术与阅读高频词（自建整理）：以推理、社科、科学类文章常见词为主。共 600 词，每词均为 22 键深度词条。",
+        bookFile: "./books/sat.json",
+        preparedFiles: (window.BOOK_MANIFEST && window.BOOK_MANIFEST["sat"]) || [],
+        distractorsFile: "./books/distractors.json",
+        dailyOptions: [5, 10, 15, 20],
+        fallback: null
+      },
+      {
+        id: "confusables",
+        name: "易混词辨析",
+        intro: "从近义/形近组里挑出最容易混淆的词，逐个对照义项与搭配差异，专治「认识但选不对」。共 343 词，每词均为 22 键深度词条。",
+        bookFile: "./books/confusables.json",
+        preparedFiles: (window.BOOK_MANIFEST && window.BOOK_MANIFEST["confusables"]) || [],
         distractorsFile: "./books/distractors.json",
         dailyOptions: [5, 10, 15, 20],
         fallback: null
@@ -12273,7 +12314,8 @@
         const known = new Map(words.map((item) => [item.word, item]));
         preparedEntries.forEach((deep) => {
           const item = known.get(deep.word);
-          if (!item) { words.push(deep); return; }
+          // 共享分片会带上本书不需要的词条，这里只认主表里的词，避免串书
+          if (!item) return;
           Object.keys(deep).forEach((key) => { item[key] = deep[key]; });
           item.__deep = true;
         });

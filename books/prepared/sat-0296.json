@@ -1,389 +1,391 @@
-{
-  "word": "attribute",
-  "ipa_uk": "/ˈætrɪbjuːt; əˈtrɪbjuːt/",
-  "ipa_us": "/ˈætrɪbjuːt; əˈtrɪbjuːt/",
-  "definition_zh": "属性，特质；把……归因于；认为（作品）出自……",
-  "definition_en": "a quality that belongs to a person or thing, or to say that something is caused by or made by someone",
-  "core_image": "一件物品上系着标签，写着它是什么、从哪里来",
-  "scene": "老师在评语里写下这个学生最突出的特点。Patience is the attribute every good teacher needs.",
-  "sceneCN": "这里 attribute 是「特质、属性」（第 1 个义项）；句意是耐心是每位好老师都需要的特质。",
-  "pos": [
-    {
-      "tag": "n.",
-      "zh": "名词：属性；特质"
-    },
-    {
-      "tag": "v.",
-      "zh": "动词：把……归因于；认为出自"
-    }
-  ],
-  "collocations": [
-    {
-      "phrase": "attribute to",
-      "zh": "把……归因于"
-    },
-    {
-      "phrase": "personal attributes",
-      "zh": "个人特质"
-    },
-    {
-      "phrase": "a key attribute",
-      "zh": "关键属性"
-    },
-    {
-      "phrase": "attribute success to",
-      "zh": "把成功归功于"
-    },
-    {
-      "phrase": "a rare attribute",
-      "zh": "罕见的特质"
-    }
-  ],
-  "forms": [
-    {
-      "label": "三单",
-      "form": "attributes"
-    },
-    {
-      "label": "过去式",
-      "form": "attributed"
-    },
-    {
-      "label": "过去分词",
-      "form": "attributed"
-    },
-    {
-      "label": "现在分词",
-      "form": "attributing"
-    }
-  ],
-  "derivatives": [
-    {
-      "word": "attribution",
-      "pos": "n.",
-      "zh": "名词：归因；归属"
-    },
-    {
-      "word": "attributable",
-      "pos": "adj.",
-      "zh": "形容词：可归因于的"
-    },
-    {
-      "word": "attributive",
-      "pos": "adj.",
-      "zh": "形容词：定语性的"
-    }
-  ],
-  "senses": [
-    {
-      "no": "01",
-      "title": "Mark of a thing",
-      "titleCN": "属性；特质",
-      "definition": "a quality or feature that belongs to a person or thing",
-      "definitionCN": "属于某人或某物的性质或特征",
-      "example": "Kindness was his most striking attribute.",
-      "exampleCN": "善良是他最突出的特质。",
-      "why": "The noun keeps the old sense of something allotted to a thing: an attribute is a quality assigned to whatever carries it.",
-      "whyCN": "名词保留了「分派给某物」的旧义：属性就是分配给承载者的那种性质。"
-    },
-    {
-      "no": "02",
-      "title": "Name the cause",
-      "titleCN": "把……归因于",
-      "definition": "to say that something is the result of a particular cause",
-      "definitionCN": "认为某结果是某个原因造成的",
-      "example": "She attributes her success to hard work.",
-      "exampleCN": "她把自己的成功归功于努力。",
-      "why": "The verb reverses the direction: instead of giving a quality to a thing, you give an effect back to the cause that produced it.",
-      "whyCN": "动词把方向倒过来：不是把性质给某物，而是把一个结果送回造成它的原因。"
-    },
-    {
-      "no": "03",
-      "title": "Name the maker",
-      "titleCN": "认为（作品）出自……",
-      "definition": "to believe that a work was produced by a particular person",
-      "definitionCN": "认为某件作品是由某个特定的人创作的",
-      "example": "The painting was attributed to an unknown artist.",
-      "exampleCN": "这幅画被认定出自一位不知名的画家之手。",
-      "why": "Authorship is treated as another kind of allotment: the work is assigned back to the hand that made it.",
-      "whyCN": "作者身份被视为另一种「分派」：把作品重新分配给做出它的那只手。"
-    }
-  ],
-  "etymology": {
-    "intro": {
-      "en": "Attribute began as a legal word for something allotted to a person.",
-      "cn": "attribute 最初是个法律用语，指分派给某人的东西。"
-    },
-    "items": [
+[
+  {
+    "word": "attribute",
+    "ipa_uk": "/ˈætrɪbjuːt; əˈtrɪbjuːt/",
+    "ipa_us": "/ˈætrɪbjuːt; əˈtrɪbjuːt/",
+    "definition_zh": "属性，特质；把……归因于；认为（作品）出自……",
+    "definition_en": "a quality that belongs to a person or thing, or to say that something is caused by or made by someone",
+    "core_image": "一件物品上系着标签，写着它是什么、从哪里来",
+    "scene": "老师在评语里写下这个学生最突出的特点。Patience is the attribute every good teacher needs.",
+    "sceneCN": "这里 attribute 是「特质、属性」（第 1 个义项）；句意是耐心是每位好老师都需要的特质。",
+    "pos": [
       {
-        "era": "LATIN TRIBUERE",
-        "en": "tribuere meant 'to allot or assign'.",
-        "cn": "tribuere 意为「分配、分派」。"
+        "tag": "n.",
+        "zh": "名词：属性；特质"
       },
       {
-        "era": "LATIN ATTRIBUERE",
-        "en": "ad- 'to' plus tribuere made attribuere, 'to assign to'.",
-        "cn": "ad-「向」加 tribuere 构成 attribuere，意为「分派给」。"
-      },
-      {
-        "era": "LATIN ATTRIBUTUM",
-        "en": "attributum was the thing assigned or credited.",
-        "cn": "attributum 指被分派或归到某人名下的东西。"
-      },
-      {
-        "era": "FRENCH ATTRIBUT",
-        "en": "French attribut named a quality belonging to something.",
-        "cn": "法语 attribut 指属于某物的性质。"
-      },
-      {
-        "era": "MODERN ENGLISH",
-        "en": "English split the word into a noun of quality and a verb of assigning causes.",
-        "cn": "英语把它分成表示性质的名词与表示归因的动词。"
-      }
-    ]
-  },
-  "similar": {
-    "note": {
-      "en": "The look-alike group shares the tribute root; the near-meaning group gives nouns of quality and verbs of explaining causes.",
-      "cn": "形近组共享 tribute 词根；近义组是表示性质的名词与解释原因的动词。"
-    },
-    "groups": [
-      {
-        "heading": "LOOK-ALIKE",
-        "entries": [
-          {
-            "word": "contribute",
-            "ipa": "/kənˈtrɪbjuːt/",
-            "tag": "same root",
-            "definition": "to give along with others",
-            "definitionCN": "贡献；捐助"
-          },
-          {
-            "word": "distribute",
-            "ipa": "/dɪˈstrɪbjuːt/",
-            "tag": "same root",
-            "definition": "to give out in shares",
-            "definitionCN": "分发"
-          },
-          {
-            "word": "tribute",
-            "ipa": "/ˈtrɪbjuːt/",
-            "tag": "same root",
-            "definition": "an act of honour or payment",
-            "definitionCN": "致敬；贡品"
-          }
-        ]
-      },
-      {
-        "heading": "NEAR MEANING",
-        "entries": [
-          {
-            "word": "quality",
-            "ipa": "/ˈkwɒləti/",
-            "tag": "near synonym",
-            "definition": "a feature of a person or thing",
-            "definitionCN": "品质；特性"
-          },
-          {
-            "word": "characteristic",
-            "ipa": "/ˌkærəktəˈrɪstɪk/",
-            "tag": "near synonym",
-            "definition": "a typical feature",
-            "definitionCN": "典型特征"
-          },
-          {
-            "word": "ascribe",
-            "ipa": "/əˈskraɪb/",
-            "tag": "near synonym",
-            "definition": "to name as the cause",
-            "definitionCN": "归因于"
-          }
-        ]
-      }
-    ]
-  },
-  "mnemonics": {
-    "normalIntro": {
-      "en": "As a noun it names a quality; as a verb it hands an effect back to its cause.",
-      "cn": "作名词时它指一种性质；作动词时它把结果交还给原因。"
-    },
-    "normal": [
-      {
-        "en": "The noun stresses the first syllable, the verb the second.",
-        "cn": "作名词时重音在第一音节，作动词时重音在第二音节。"
-      },
-      {
-        "en": "Attribute to is the verb pattern: attribute success to luck.",
-        "cn": "动词搭配是 attribute to，例如把成功归因于运气。"
-      },
-      {
-        "en": "An attribute is something a person or thing simply has.",
-        "cn": "attribute 作名词时，就是人或物本身具有的某种特质。"
-      },
-      {
-        "en": "To attribute a painting to an artist is to name its maker.",
-        "cn": "把画作归到某位画家名下，就是认定它的作者。"
-      },
-      {
-        "en": "The root tribute means to give or allot.",
-        "cn": "词根 tribute 意为「给予、分配」。"
+        "tag": "v.",
+        "zh": "动词：把……归因于；认为出自"
       }
     ],
-    "abstract": [
+    "collocations": [
       {
-        "en": "See a label tied to an object, naming what it is.",
-        "cn": "想象一张标签系在物品上，写明它是什么。"
+        "phrase": "attribute to",
+        "zh": "把……归因于"
       },
       {
-        "en": "See a line drawn from an effect back to its cause.",
-        "cn": "想象一条线从结果往回连到原因。"
+        "phrase": "personal attributes",
+        "zh": "个人特质"
       },
       {
-        "en": "See a signature appear under a painting that had none.",
-        "cn": "想象一幅原本无款的画作下方浮现出签名。"
+        "phrase": "a key attribute",
+        "zh": "关键属性"
+      },
+      {
+        "phrase": "attribute success to",
+        "zh": "把成功归功于"
+      },
+      {
+        "phrase": "a rare attribute",
+        "zh": "罕见的特质"
       }
-    ]
-  },
-  "examples": [
-    {
-      "en": "Kindness was his most striking attribute.",
-      "cn": "善良是他最突出的特质。"
-    },
-    {
-      "en": "She attributes her success to hard work.",
-      "cn": "她把自己的成功归功于努力。"
-    },
-    {
-      "en": "The painting was attributed to an unknown artist.",
-      "cn": "这幅画被认定出自一位不知名的画家之手。"
-    }
-  ],
-  "dict_mnemonic": {
-    "note": "拆词记忆 · 非词源",
-    "text": "at-（向）加 tribute（分配）：分给某物的性质就是属性；把结果分回给某个原因，就是归因。",
-    "word": "attribute"
-  },
-  "root": "源自拉丁语 attribuere「分派给」，由 ad-「向」与 tribuere「分配」构成，名词形式 attributum；经法语 attribut 进入英语，由「分派之物」引申为属性，又引申为把结果归到某个原因或作者名下。",
-  "sensesIntro": {
-    "en": "The same act of allotting produces both a quality and an explanation.",
-    "cn": "同一个「分配」的动作，既产生了一种性质，也产生了一种解释。"
-  },
-  "semanticMap": {
-    "core": {
-      "en": "CORE IMAGE: a label tied to a thing, naming its owner and nature.",
-      "cn": "核心意象：一张系在物品上的标签，写着它的归属与性质。"
-    },
-    "chain": [
-      "ALLOT",
-      "ASSIGN",
-      "MARK OF A THING",
-      "PERSONAL QUALITY",
-      "NAME THE CAUSE",
-      "NAME THE MAKER"
     ],
-    "branches": [
+    "forms": [
       {
-        "senses": "01",
-        "en": "a key attribute",
-        "cn": "关键特质"
+        "label": "三单",
+        "form": "attributes"
       },
       {
-        "senses": "01",
-        "en": "personal attributes",
-        "cn": "个人特质"
+        "label": "过去式",
+        "form": "attributed"
       },
       {
-        "senses": "02",
-        "en": "attribute success to luck",
-        "cn": "把成功归因于运气"
+        "label": "过去分词",
+        "form": "attributed"
       },
       {
-        "senses": "02",
-        "en": "attribute the delay to weather",
-        "cn": "把延误归因于天气"
-      },
-      {
-        "senses": "03",
-        "en": "attribute a painting to an artist",
-        "cn": "认定画作出自某画家"
+        "label": "现在分词",
+        "form": "attributing"
       }
-    ]
-  },
-  "affixes": {
-    "intro": {
-      "en": "The root tribute, 'to allot', links attribute with contribute and distribute.",
-      "cn": "词根 tribute 意为「分配」，把 attribute 与 contribute、distribute 连在一起。"
-    },
-    "latinIntro": {
-      "en": "Latin tribuere, 'to allot', also gives tribute and contribution.",
-      "cn": "拉丁语 tribuere「分配」也是 tribute 与 contribution 的来源。"
-    },
-    "items": [
-      {
-        "word": "attribute",
-        "structure": "at- (to) + tribute (allot)",
-        "meaning": "to assign or name as a cause",
-        "meaningCN": "归因于",
-        "example": "attribute success to luck",
-        "exampleCN": "把成功归因于运气"
-      },
+    ],
+    "derivatives": [
       {
         "word": "attribution",
-        "structure": "attribute + -ion",
-        "meaning": "the act of naming a cause or author",
-        "meaningCN": "归因；归属",
-        "example": "a question of attribution",
-        "exampleCN": "归属问题"
+        "pos": "n.",
+        "zh": "名词：归因；归属"
       },
       {
         "word": "attributable",
-        "structure": "attribute + -able",
-        "meaning": "able to be explained by",
-        "meaningCN": "可归因于的",
-        "example": "attributable to stress",
-        "exampleCN": "可归因于压力"
+        "pos": "adj.",
+        "zh": "形容词：可归因于的"
       },
       {
         "word": "attributive",
-        "structure": "attribute + -ive",
-        "meaning": "placed before a noun",
-        "meaningCN": "定语性的",
-        "example": "an attributive adjective",
-        "exampleCN": "定语形容词"
-      },
-      {
-        "word": "contribute",
-        "structure": "con- (together) + tribute",
-        "meaning": "to give along with others",
-        "meaningCN": "贡献；捐助",
-        "example": "contribute money",
-        "exampleCN": "捐钱"
-      },
-      {
-        "word": "distribute",
-        "structure": "dis- (apart) + tribute",
-        "meaning": "to give out in shares",
-        "meaningCN": "分发",
-        "example": "distribute leaflets",
-        "exampleCN": "分发传单"
-      },
-      {
-        "word": "tribute",
-        "structure": "tribute (allot)",
-        "meaning": "an act of honour or payment",
-        "meaningCN": "致敬；贡品",
-        "example": "pay tribute to",
-        "exampleCN": "向……致敬"
-      },
-      {
-        "word": "contribution",
-        "structure": "contribute + -ion",
-        "meaning": "something given to a shared aim",
-        "meaningCN": "贡献；捐款",
-        "example": "make a contribution",
-        "exampleCN": "作出贡献"
+        "pos": "adj.",
+        "zh": "形容词：定语性的"
       }
     ],
-    "latinEntries": []
+    "senses": [
+      {
+        "no": "01",
+        "title": "Mark of a thing",
+        "titleCN": "属性；特质",
+        "definition": "a quality or feature that belongs to a person or thing",
+        "definitionCN": "属于某人或某物的性质或特征",
+        "example": "Kindness was his most striking attribute.",
+        "exampleCN": "善良是他最突出的特质。",
+        "why": "The noun keeps the old sense of something allotted to a thing: an attribute is a quality assigned to whatever carries it.",
+        "whyCN": "名词保留了「分派给某物」的旧义：属性就是分配给承载者的那种性质。"
+      },
+      {
+        "no": "02",
+        "title": "Name the cause",
+        "titleCN": "把……归因于",
+        "definition": "to say that something is the result of a particular cause",
+        "definitionCN": "认为某结果是某个原因造成的",
+        "example": "She attributes her success to hard work.",
+        "exampleCN": "她把自己的成功归功于努力。",
+        "why": "The verb reverses the direction: instead of giving a quality to a thing, you give an effect back to the cause that produced it.",
+        "whyCN": "动词把方向倒过来：不是把性质给某物，而是把一个结果送回造成它的原因。"
+      },
+      {
+        "no": "03",
+        "title": "Name the maker",
+        "titleCN": "认为（作品）出自……",
+        "definition": "to believe that a work was produced by a particular person",
+        "definitionCN": "认为某件作品是由某个特定的人创作的",
+        "example": "The painting was attributed to an unknown artist.",
+        "exampleCN": "这幅画被认定出自一位不知名的画家之手。",
+        "why": "Authorship is treated as another kind of allotment: the work is assigned back to the hand that made it.",
+        "whyCN": "作者身份被视为另一种「分派」：把作品重新分配给做出它的那只手。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Attribute began as a legal word for something allotted to a person.",
+        "cn": "attribute 最初是个法律用语，指分派给某人的东西。"
+      },
+      "items": [
+        {
+          "era": "LATIN TRIBUERE",
+          "en": "tribuere meant 'to allot or assign'.",
+          "cn": "tribuere 意为「分配、分派」。"
+        },
+        {
+          "era": "LATIN ATTRIBUERE",
+          "en": "ad- 'to' plus tribuere made attribuere, 'to assign to'.",
+          "cn": "ad-「向」加 tribuere 构成 attribuere，意为「分派给」。"
+        },
+        {
+          "era": "LATIN ATTRIBUTUM",
+          "en": "attributum was the thing assigned or credited.",
+          "cn": "attributum 指被分派或归到某人名下的东西。"
+        },
+        {
+          "era": "FRENCH ATTRIBUT",
+          "en": "French attribut named a quality belonging to something.",
+          "cn": "法语 attribut 指属于某物的性质。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "English split the word into a noun of quality and a verb of assigning causes.",
+          "cn": "英语把它分成表示性质的名词与表示归因的动词。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "The look-alike group shares the tribute root; the near-meaning group gives nouns of quality and verbs of explaining causes.",
+        "cn": "形近组共享 tribute 词根；近义组是表示性质的名词与解释原因的动词。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "contribute",
+              "ipa": "/kənˈtrɪbjuːt/",
+              "tag": "same root",
+              "definition": "to give along with others",
+              "definitionCN": "贡献；捐助"
+            },
+            {
+              "word": "distribute",
+              "ipa": "/dɪˈstrɪbjuːt/",
+              "tag": "same root",
+              "definition": "to give out in shares",
+              "definitionCN": "分发"
+            },
+            {
+              "word": "tribute",
+              "ipa": "/ˈtrɪbjuːt/",
+              "tag": "same root",
+              "definition": "an act of honour or payment",
+              "definitionCN": "致敬；贡品"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "quality",
+              "ipa": "/ˈkwɒləti/",
+              "tag": "near synonym",
+              "definition": "a feature of a person or thing",
+              "definitionCN": "品质；特性"
+            },
+            {
+              "word": "characteristic",
+              "ipa": "/ˌkærəktəˈrɪstɪk/",
+              "tag": "near synonym",
+              "definition": "a typical feature",
+              "definitionCN": "典型特征"
+            },
+            {
+              "word": "ascribe",
+              "ipa": "/əˈskraɪb/",
+              "tag": "near synonym",
+              "definition": "to name as the cause",
+              "definitionCN": "归因于"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "As a noun it names a quality; as a verb it hands an effect back to its cause.",
+        "cn": "作名词时它指一种性质；作动词时它把结果交还给原因。"
+      },
+      "normal": [
+        {
+          "en": "The noun stresses the first syllable, the verb the second.",
+          "cn": "作名词时重音在第一音节，作动词时重音在第二音节。"
+        },
+        {
+          "en": "Attribute to is the verb pattern: attribute success to luck.",
+          "cn": "动词搭配是 attribute to，例如把成功归因于运气。"
+        },
+        {
+          "en": "An attribute is something a person or thing simply has.",
+          "cn": "attribute 作名词时，就是人或物本身具有的某种特质。"
+        },
+        {
+          "en": "To attribute a painting to an artist is to name its maker.",
+          "cn": "把画作归到某位画家名下，就是认定它的作者。"
+        },
+        {
+          "en": "The root tribute means to give or allot.",
+          "cn": "词根 tribute 意为「给予、分配」。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "See a label tied to an object, naming what it is.",
+          "cn": "想象一张标签系在物品上，写明它是什么。"
+        },
+        {
+          "en": "See a line drawn from an effect back to its cause.",
+          "cn": "想象一条线从结果往回连到原因。"
+        },
+        {
+          "en": "See a signature appear under a painting that had none.",
+          "cn": "想象一幅原本无款的画作下方浮现出签名。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "Kindness was his most striking attribute.",
+        "cn": "善良是他最突出的特质。"
+      },
+      {
+        "en": "She attributes her success to hard work.",
+        "cn": "她把自己的成功归功于努力。"
+      },
+      {
+        "en": "The painting was attributed to an unknown artist.",
+        "cn": "这幅画被认定出自一位不知名的画家之手。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "拆词记忆 · 非词源",
+      "text": "at-（向）加 tribute（分配）：分给某物的性质就是属性；把结果分回给某个原因，就是归因。",
+      "word": "attribute"
+    },
+    "root": "源自拉丁语 attribuere「分派给」，由 ad-「向」与 tribuere「分配」构成，名词形式 attributum；经法语 attribut 进入英语，由「分派之物」引申为属性，又引申为把结果归到某个原因或作者名下。",
+    "sensesIntro": {
+      "en": "The same act of allotting produces both a quality and an explanation.",
+      "cn": "同一个「分配」的动作，既产生了一种性质，也产生了一种解释。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: a label tied to a thing, naming its owner and nature.",
+        "cn": "核心意象：一张系在物品上的标签，写着它的归属与性质。"
+      },
+      "chain": [
+        "ALLOT",
+        "ASSIGN",
+        "MARK OF A THING",
+        "PERSONAL QUALITY",
+        "NAME THE CAUSE",
+        "NAME THE MAKER"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "a key attribute",
+          "cn": "关键特质"
+        },
+        {
+          "senses": "01",
+          "en": "personal attributes",
+          "cn": "个人特质"
+        },
+        {
+          "senses": "02",
+          "en": "attribute success to luck",
+          "cn": "把成功归因于运气"
+        },
+        {
+          "senses": "02",
+          "en": "attribute the delay to weather",
+          "cn": "把延误归因于天气"
+        },
+        {
+          "senses": "03",
+          "en": "attribute a painting to an artist",
+          "cn": "认定画作出自某画家"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "The root tribute, 'to allot', links attribute with contribute and distribute.",
+        "cn": "词根 tribute 意为「分配」，把 attribute 与 contribute、distribute 连在一起。"
+      },
+      "latinIntro": {
+        "en": "Latin tribuere, 'to allot', also gives tribute and contribution.",
+        "cn": "拉丁语 tribuere「分配」也是 tribute 与 contribution 的来源。"
+      },
+      "items": [
+        {
+          "word": "attribute",
+          "structure": "at- (to) + tribute (allot)",
+          "meaning": "to assign or name as a cause",
+          "meaningCN": "归因于",
+          "example": "attribute success to luck",
+          "exampleCN": "把成功归因于运气"
+        },
+        {
+          "word": "attribution",
+          "structure": "attribute + -ion",
+          "meaning": "the act of naming a cause or author",
+          "meaningCN": "归因；归属",
+          "example": "a question of attribution",
+          "exampleCN": "归属问题"
+        },
+        {
+          "word": "attributable",
+          "structure": "attribute + -able",
+          "meaning": "able to be explained by",
+          "meaningCN": "可归因于的",
+          "example": "attributable to stress",
+          "exampleCN": "可归因于压力"
+        },
+        {
+          "word": "attributive",
+          "structure": "attribute + -ive",
+          "meaning": "placed before a noun",
+          "meaningCN": "定语性的",
+          "example": "an attributive adjective",
+          "exampleCN": "定语形容词"
+        },
+        {
+          "word": "contribute",
+          "structure": "con- (together) + tribute",
+          "meaning": "to give along with others",
+          "meaningCN": "贡献；捐助",
+          "example": "contribute money",
+          "exampleCN": "捐钱"
+        },
+        {
+          "word": "distribute",
+          "structure": "dis- (apart) + tribute",
+          "meaning": "to give out in shares",
+          "meaningCN": "分发",
+          "example": "distribute leaflets",
+          "exampleCN": "分发传单"
+        },
+        {
+          "word": "tribute",
+          "structure": "tribute (allot)",
+          "meaning": "an act of honour or payment",
+          "meaningCN": "致敬；贡品",
+          "example": "pay tribute to",
+          "exampleCN": "向……致敬"
+        },
+        {
+          "word": "contribution",
+          "structure": "contribute + -ion",
+          "meaning": "something given to a shared aim",
+          "meaningCN": "贡献；捐款",
+          "example": "make a contribution",
+          "exampleCN": "作出贡献"
+        }
+      ],
+      "latinEntries": []
+    }
   }
-}
+]

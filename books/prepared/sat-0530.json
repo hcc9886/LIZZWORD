@@ -1,426 +1,428 @@
-{
- "word": "capacious",
- "ipa_uk": "/kəˈpeɪʃəs/",
- "ipa_us": "/kəˈpeɪʃəs/",
- "definition_zh": "容量大的；宽敞的；（胸怀、头脑）能容纳很多的",
- "definition_en": "able to hold much; having ample space, whether physical or mental",
- "core_image": "一只张开口的口袋深不见底：什么都装得下",
- "scene": "阁楼推开天窗，尘埃在光柱里浮动，四壁全被旧木箱占满。The capacious attic swallowed decades of family clutter.",
- "sceneCN": "这里 capacious 是「容量大的」（第 1 个义项：能装很多东西）；句意是这个宽敞的阁楼吞下了几十年的家庭杂物。",
- "pos": [
+[
   {
-   "tag": "adj.",
-   "zh": "容积大的；宽敞的"
-  },
-  {
-   "tag": "adj.",
-   "zh": "（心胸、头脑）宽宏的；接受力强的"
+    "word": "capacious",
+    "ipa_uk": "/kəˈpeɪʃəs/",
+    "ipa_us": "/kəˈpeɪʃəs/",
+    "definition_zh": "容量大的；宽敞的；（胸怀、头脑）能容纳很多的",
+    "definition_en": "able to hold much; having ample space, whether physical or mental",
+    "core_image": "一只张开口的口袋深不见底：什么都装得下",
+    "scene": "阁楼推开天窗，尘埃在光柱里浮动，四壁全被旧木箱占满。The capacious attic swallowed decades of family clutter.",
+    "sceneCN": "这里 capacious 是「容量大的」（第 1 个义项：能装很多东西）；句意是这个宽敞的阁楼吞下了几十年的家庭杂物。",
+    "pos": [
+      {
+        "tag": "adj.",
+        "zh": "容积大的；宽敞的"
+      },
+      {
+        "tag": "adj.",
+        "zh": "（心胸、头脑）宽宏的；接受力强的"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "a capacious bag",
+        "zh": "大容量的包"
+      },
+      {
+        "phrase": "capacious pockets",
+        "zh": "深深的口袋"
+      },
+      {
+        "phrase": "a capacious memory",
+        "zh": "博闻强记的头脑"
+      },
+      {
+        "phrase": "a capacious mind",
+        "zh": "开阔的头脑"
+      },
+      {
+        "phrase": "capacious halls",
+        "zh": "宽敞的大厅"
+      },
+      {
+        "phrase": "capacious enough for",
+        "zh": "大到足以容纳"
+      }
+    ],
+    "forms": [
+      {
+        "label": "比较级",
+        "form": "more capacious"
+      },
+      {
+        "label": "最高级",
+        "form": "most capacious"
+      },
+      {
+        "label": "名词",
+        "form": "capacity"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "capacity",
+        "pos": "n.",
+        "zh": "同根核心名词，义为「容量；能力；资格」"
+      },
+      {
+        "word": "capacitate",
+        "pos": "v.",
+        "zh": "由名词加动词化后缀构成，义为「使具有资格；使有能力」（罕用）"
+      },
+      {
+        "word": "incapacitate",
+        "pos": "v.",
+        "zh": "加否定前缀构成，义为「使失去能力；使无行为能力」"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "Having ample interior space",
+        "titleCN": "容积大的；宽敞的",
+        "definition": "physically large enough inside to hold a great deal",
+        "definitionCN": "内部空间足以容纳大量物品",
+        "example": "She loaded the capacious trunk with winter coats.",
+        "exampleCN": "她往容积很大的后备箱里塞满了冬衣。",
+        "why": "The Latin capax means able to hold, so the literal image is a container that never fills.",
+        "whyCN": "拉丁语 capax 意为能容纳的，字面意象就是一只总装不满的容器。"
+      },
+      {
+        "no": "02",
+        "title": "Broad in mental grasp",
+        "titleCN": "（头脑）接受力强的；博大的",
+        "definition": "able to take in and absorb a great deal of knowledge or experience",
+        "definitionCN": "能够吸收大量知识或经验",
+        "example": "His capacious memory held every birthday in the village.",
+        "exampleCN": "他记性极好，村里每个人的生日都记得。",
+        "why": "The mind is treated as a container, and a capacious one holds more before overflowing.",
+        "whyCN": "心智被当作容器，容量大者在溢出之前能装下更多。"
+      },
+      {
+        "no": "03",
+        "title": "Tolerant and embracing in outlook",
+        "titleCN": "（心胸）宽宏的；兼收并蓄的",
+        "definition": "willing to accommodate many views, people, or styles without narrowness",
+        "definitionCN": "愿意容纳多种观点、人群或风格而不显狭隘",
+        "example": "The city's capacious culture absorbed wave after wave of newcomers.",
+        "exampleCN": "这座城市兼容并包的文化吸收了一波又一波新来者。",
+        "why": "Roominess extends from shelves and bags to attitudes and institutions.",
+        "whyCN": "「空间充裕」从书架和提包延伸到态度与制度。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Capacious comes from Latin capax, able to hold much, from capere, to take or seize, one of the most productive roots in Latin.",
+        "cn": "capacious 来自拉丁语 capax（能容纳许多的），词根 capere（拿取、抓住）是拉丁语中最高产的词根之一。"
+      },
+      "items": [
+        {
+          "era": "PROTO-INDO-EUROPEAN",
+          "en": "The root *kap- means to grasp or seize, seen in have and heave.",
+          "cn": "词根 *kap- 意为抓住、握取，英语 have、heave 亦与之相关。"
+        },
+        {
+          "era": "LATIN",
+          "en": "Latin capere meant to take, seize, or hold; its adjective capax meant roomy and receptive.",
+          "cn": "拉丁语 capere 意为拿取、抓住、容纳；其形容词 capax 意为宽敞的、善于接纳的。"
+        },
+        {
+          "era": "FRENCH / ENGLISH, 17TH C.",
+          "en": "English took capacious from French forms in the seventeenth century for physical roominess first.",
+          "cn": "英语于十七世纪经法语借入 capacious，最初用于形容物理空间的宽敞。"
+        },
+        {
+          "era": "ENGLISH, 18TH C.",
+          "en": "By the eighteenth century the mental sense was common, praising capacious memories and minds.",
+          "cn": "到十八世纪，心智义已很常见，用来称赞博闻强记与开阔的头脑。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "Today it prefers grand containers: bags, halls, memories, and civic cultures.",
+          "cn": "如今它偏爱形容大容器：提包、大厅、记忆与城市文化。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "Capacious heads a family of hold-words stretching from capture to capacity.",
+        "cn": "capacious 是「容纳」词族之首，从 capture 一路延伸到 capacity。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "capacity",
+              "ipa": "/kəˈpæsəti/",
+              "tag": "same root, base noun",
+              "definition": "The amount that can be held, or the ability to do something.",
+              "definitionCN": "容量；能力；资格。"
+            },
+            {
+              "word": "captive",
+              "ipa": "/ˈkæptɪv/",
+              "tag": "same root, noun",
+              "definition": "One who has been taken and held, from the seize root.",
+              "definitionCN": "俘虏；被捉住的人，出自「抓取」词根。"
+            },
+            {
+              "word": "captious",
+              "ipa": "/ˈkæpʃəs/",
+              "tag": "sound-alike, different shade",
+              "definition": "Given to faultfinding; looks and sounds close but means critical rather than roomy.",
+              "definitionCN": "吹毛求疵的，形近音近，义为「爱挑刺」而非「容量大」。"
+            },
+            {
+              "word": "cassowary",
+              "ipa": "/ˈkæsəweri/",
+              "tag": "sound-alike only",
+              "definition": "A large flightless bird; purely coincidental sound resemblance.",
+              "definitionCN": "食火鸡，与 capacious 只是发音偶然相似。"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "spacious",
+              "ipa": "/ˈspeɪʃəs/",
+              "tag": "near meaning",
+              "definition": "Having ample space, emphasizing openness over holding power.",
+              "definitionCN": "宽敞的，侧重开阔而非装载力。"
+            },
+            {
+              "word": "roomy",
+              "ipa": "/ˈruːmi/",
+              "tag": "near meaning, informal",
+              "definition": "Having plenty of room, everyday register.",
+              "definitionCN": "空间宽裕的，日常用语。"
+            },
+            {
+              "word": "expansive",
+              "ipa": "/ɪkˈspænsɪv/",
+              "tag": "near meaning",
+              "definition": "Spreading out widely, or generous in manner.",
+              "definitionCN": "辽阔的；（人）开朗豪爽的。"
+            },
+            {
+              "word": "commodious",
+              "ipa": "/kəˈmoʊdiəs/",
+              "tag": "near meaning, formal",
+              "definition": "Conveniently and amply spacious.",
+              "definitionCN": "宽敞便利的，正式用语。"
+            },
+            {
+              "word": "cramped",
+              "ipa": "/kræmpt/",
+              "tag": "opposite",
+              "definition": "Confined and uncomfortably small.",
+              "definitionCN": "狭窄局促的，是 capacious 的反义对照。"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Five hooks on the hold root and the never-full container.",
+        "cn": "五条围绕「容纳」词根与「装不满的容器」的记忆钩子。"
+      },
+      "normal": [
+        {
+          "en": "Root core: Latin capere, to take and hold, is the same root in capture and captive.",
+          "cn": "词根核心：拉丁语 capere（拿取、容纳）也是 capture、captive 的词根。"
+        },
+        {
+          "en": "Adjective engine: capax plus -ious gives capacious, just as audax gives audacious.",
+          "cn": "形容词引擎：capax 加 -ious 得 capacious，正如 audax 加 -ious 得 audacious。"
+        },
+        {
+          "en": "Noun home: the plain noun of the family is capacity, the amount it holds.",
+          "cn": "名词归宿：词族的普通名词是 capacity，即容纳量。"
+        },
+        {
+          "en": "Trap guard: captious means faultfinding, not roomy; never confuse the pair.",
+          "cn": "陷阱防守：captious 是吹毛求疵，不是容量大，切勿混淆。"
+        },
+        {
+          "en": "Upgrade pair: capacious is spacious with ambition, saved for big bags and bigger minds.",
+          "cn": "升级搭配：capacious 是胸怀大志的 spacious，专配大包与更大的头脑。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "A carpetbag that seems bottomless, accepting coat after coat without complaint.",
+          "cn": "一只仿佛没有底的旅行袋，一件接一件地吞下大衣毫无怨言。"
+        },
+        {
+          "en": "A library whose aisles keep folding into new shelves as you walk.",
+          "cn": "一座越走越深的图书馆，书架随脚步不断折叠出新。"
+        },
+        {
+          "en": "A harbor at dusk holding ships of every flag without a ripple of complaint.",
+          "cn": "黄昏的港口，悬挂万国旗的船只静静停泊，波澜不惊。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "The stadium's capacious bowl absorbed the rain-soaked crowd.",
+        "cn": "体育场容量巨大的看台装下了浑身湿透的人群。"
+      },
+      {
+        "en": "Her capacious curiosity ranged from beetles to symphonies.",
+        "cn": "她求知欲极强，从甲虫到交响乐无所不涉。"
+      },
+      {
+        "en": "The novel needs a capacious reader willing to hold ten plots at once.",
+        "cn": "这部小说需要一位胸怀宽广、能同时容纳十条情节线的读者。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「克配顺」——什么都能克化、都能配上、都能顺进肚里，正是容量超大、来者不拒；联想一只永远装不满的大口袋。",
+      "word": "capacious"
+    },
+    "root": "源自拉丁语 capax（能容纳的），词根 capere（拿取、抓住、容纳），可上溯至印欧词根 *kap-（抓取）。同根词极多：capacity（容量）、captive（俘虏）、capture（捕获）、capture 与 accept、concept 皆含此根。十七世纪经法语进入英语，先表物理容积，后扩展至心智与胸襟。",
+    "sensesIntro": {
+      "en": "From roomy containers the word grows into capacious minds and tolerant cultures.",
+      "cn": "从宽敞的容器出发，词义生长为博大的头脑与兼容的文化。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: a container that never fills, accepting whatever arrives.",
+        "cn": "核心意象：一只永远装不满的容器，来者不拒。"
+      },
+      "chain": [
+        "GRASP",
+        "HOLD",
+        "LARGE INTERIOR",
+        "ABSORBING MIND",
+        "TOLERANT SPIRIT",
+        "SHARED SPACE"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "THE WAREHOUSE: bags, trunks, and halls that swallow cargo.",
+          "cn": "仓库：吞下货物的提包、箱柜与大厅。"
+        },
+        {
+          "senses": "02",
+          "en": "THE STUDY: memories and intellects that hold whole libraries.",
+          "cn": "书房：装下整座图书馆的记忆与才智。"
+        },
+        {
+          "senses": "03",
+          "en": "THE HARBOR: cultures making room for every arrival.",
+          "cn": "港口：为每个到来者留出位置的文化。"
+        },
+        {
+          "senses": "01 · 02",
+          "en": "THE MEASURE: capacity as the noun that quantifies the adjective.",
+          "cn": "度量：capacity 是给这个形容词定量的名词。"
+        },
+        {
+          "senses": "02 · 03",
+          "en": "THE VIRTUE: roominess of mind praised as generosity.",
+          "cn": "美德：心灵的宽敞被赞为慷慨。"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Capacious is the Latin stem cap- plus the adjective ending -acious, literally much-holding.",
+        "cn": "capacious 由拉丁词干 cap- 加形容词词尾 -acious 构成，字面即「能容纳很多的」。"
+      },
+      "latinIntro": {
+        "en": "The capere root is a Latin engine room, powering dozens of English words about taking and holding.",
+        "cn": "capere 词根是拉丁语的发动机室，驱动着英语中数十个关于拿取与容纳的词。"
+      },
+      "items": [
+        {
+          "word": "capere",
+          "structure": "Latin verb",
+          "meaning": "to take, seize, hold",
+          "meaningCN": "拿取；抓住；容纳",
+          "example": "capere in manus",
+          "exampleCN": "拿在手中（拉丁语用例示意）。"
+        },
+        {
+          "word": "capax",
+          "structure": "Latin adjective from capere",
+          "meaning": "able to hold much",
+          "meaningCN": "能容纳很多的",
+          "example": "capax rerum",
+          "exampleCN": "能容万物（拉丁语用例示意）。"
+        },
+        {
+          "word": "-acious",
+          "structure": "adjective suffix",
+          "meaning": "inclined to, full of",
+          "meaningCN": "倾向于……的；多……的",
+          "example": "audacious, voracious",
+          "exampleCN": "如 audacious、voracious。"
+        },
+        {
+          "word": "capacity",
+          "structure": "capax + -ity",
+          "meaning": "the amount held; ability",
+          "meaningCN": "容量；能力",
+          "example": "seating capacity",
+          "exampleCN": "座位容量。"
+        },
+        {
+          "word": "captive",
+          "structure": "capt- taken one",
+          "meaning": "a person seized and held",
+          "meaningCN": "俘虏；被囚者",
+          "example": "held captive",
+          "exampleCN": "被囚禁。"
+        },
+        {
+          "word": "capture",
+          "structure": "capt- + -ure",
+          "meaning": "the act of seizing",
+          "meaningCN": "捕获；夺取",
+          "example": "capture the flag",
+          "exampleCN": "夺取旗帜。"
+        },
+        {
+          "word": "incapacitate",
+          "structure": "in- + capacity + -ate",
+          "meaning": "to deprive of ability",
+          "meaningCN": "使丧失能力",
+          "example": "incapacitated by injury",
+          "exampleCN": "因伤丧失行动能力。"
+        },
+        {
+          "word": "captious",
+          "structure": "sound-alike from capere's faultfinding branch",
+          "meaning": "tending to find fault",
+          "meaningCN": "吹毛求疵的（形近义别）",
+          "example": "a captious reviewer",
+          "exampleCN": "爱挑剔的评论者。"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "capax",
+          "structure": "Latin adjective",
+          "meaning": "roomy, receptive",
+          "meaningCN": "宽敞的；善于接纳的",
+          "example": "mens capax",
+          "exampleCN": "善于接纳的心智（拉丁语用例示意）。"
+        }
+      ],
+      "derivatives": [
+        {
+          "word": "capacity",
+          "pos": "n.",
+          "zh": "容量；能力"
+        }
+      ]
+    }
   }
- ],
- "collocations": [
-  {
-   "phrase": "a capacious bag",
-   "zh": "大容量的包"
-  },
-  {
-   "phrase": "capacious pockets",
-   "zh": "深深的口袋"
-  },
-  {
-   "phrase": "a capacious memory",
-   "zh": "博闻强记的头脑"
-  },
-  {
-   "phrase": "a capacious mind",
-   "zh": "开阔的头脑"
-  },
-  {
-   "phrase": "capacious halls",
-   "zh": "宽敞的大厅"
-  },
-  {
-   "phrase": "capacious enough for",
-   "zh": "大到足以容纳"
-  }
- ],
- "forms": [
-  {
-   "label": "比较级",
-   "form": "more capacious"
-  },
-  {
-   "label": "最高级",
-   "form": "most capacious"
-  },
-  {
-   "label": "名词",
-   "form": "capacity"
-  }
- ],
- "derivatives": [
-  {
-   "word": "capacity",
-   "pos": "n.",
-   "zh": "同根核心名词，义为「容量；能力；资格」"
-  },
-  {
-   "word": "capacitate",
-   "pos": "v.",
-   "zh": "由名词加动词化后缀构成，义为「使具有资格；使有能力」（罕用）"
-  },
-  {
-   "word": "incapacitate",
-   "pos": "v.",
-   "zh": "加否定前缀构成，义为「使失去能力；使无行为能力」"
-  }
- ],
- "senses": [
-  {
-   "no": "01",
-   "title": "Having ample interior space",
-   "titleCN": "容积大的；宽敞的",
-   "definition": "physically large enough inside to hold a great deal",
-   "definitionCN": "内部空间足以容纳大量物品",
-   "example": "She loaded the capacious trunk with winter coats.",
-   "exampleCN": "她往容积很大的后备箱里塞满了冬衣。",
-   "why": "The Latin capax means able to hold, so the literal image is a container that never fills.",
-   "whyCN": "拉丁语 capax 意为能容纳的，字面意象就是一只总装不满的容器。"
-  },
-  {
-   "no": "02",
-   "title": "Broad in mental grasp",
-   "titleCN": "（头脑）接受力强的；博大的",
-   "definition": "able to take in and absorb a great deal of knowledge or experience",
-   "definitionCN": "能够吸收大量知识或经验",
-   "example": "His capacious memory held every birthday in the village.",
-   "exampleCN": "他记性极好，村里每个人的生日都记得。",
-   "why": "The mind is treated as a container, and a capacious one holds more before overflowing.",
-   "whyCN": "心智被当作容器，容量大者在溢出之前能装下更多。"
-  },
-  {
-   "no": "03",
-   "title": "Tolerant and embracing in outlook",
-   "titleCN": "（心胸）宽宏的；兼收并蓄的",
-   "definition": "willing to accommodate many views, people, or styles without narrowness",
-   "definitionCN": "愿意容纳多种观点、人群或风格而不显狭隘",
-   "example": "The city's capacious culture absorbed wave after wave of newcomers.",
-   "exampleCN": "这座城市兼容并包的文化吸收了一波又一波新来者。",
-   "why": "Roominess extends from shelves and bags to attitudes and institutions.",
-   "whyCN": "「空间充裕」从书架和提包延伸到态度与制度。"
-  }
- ],
- "etymology": {
-  "intro": {
-   "en": "Capacious comes from Latin capax, able to hold much, from capere, to take or seize, one of the most productive roots in Latin.",
-   "cn": "capacious 来自拉丁语 capax（能容纳许多的），词根 capere（拿取、抓住）是拉丁语中最高产的词根之一。"
-  },
-  "items": [
-   {
-    "era": "PROTO-INDO-EUROPEAN",
-    "en": "The root *kap- means to grasp or seize, seen in have and heave.",
-    "cn": "词根 *kap- 意为抓住、握取，英语 have、heave 亦与之相关。"
-   },
-   {
-    "era": "LATIN",
-    "en": "Latin capere meant to take, seize, or hold; its adjective capax meant roomy and receptive.",
-    "cn": "拉丁语 capere 意为拿取、抓住、容纳；其形容词 capax 意为宽敞的、善于接纳的。"
-   },
-   {
-    "era": "FRENCH / ENGLISH, 17TH C.",
-    "en": "English took capacious from French forms in the seventeenth century for physical roominess first.",
-    "cn": "英语于十七世纪经法语借入 capacious，最初用于形容物理空间的宽敞。"
-   },
-   {
-    "era": "ENGLISH, 18TH C.",
-    "en": "By the eighteenth century the mental sense was common, praising capacious memories and minds.",
-    "cn": "到十八世纪，心智义已很常见，用来称赞博闻强记与开阔的头脑。"
-   },
-   {
-    "era": "MODERN ENGLISH",
-    "en": "Today it prefers grand containers: bags, halls, memories, and civic cultures.",
-    "cn": "如今它偏爱形容大容器：提包、大厅、记忆与城市文化。"
-   }
-  ]
- },
- "similar": {
-  "note": {
-   "en": "Capacious heads a family of hold-words stretching from capture to capacity.",
-   "cn": "capacious 是「容纳」词族之首，从 capture 一路延伸到 capacity。"
-  },
-  "groups": [
-   {
-    "heading": "LOOK-ALIKE",
-    "entries": [
-     {
-      "word": "capacity",
-      "ipa": "/kəˈpæsəti/",
-      "tag": "same root, base noun",
-      "definition": "The amount that can be held, or the ability to do something.",
-      "definitionCN": "容量；能力；资格。"
-     },
-     {
-      "word": "captive",
-      "ipa": "/ˈkæptɪv/",
-      "tag": "same root, noun",
-      "definition": "One who has been taken and held, from the seize root.",
-      "definitionCN": "俘虏；被捉住的人，出自「抓取」词根。"
-     },
-     {
-      "word": "captious",
-      "ipa": "/ˈkæpʃəs/",
-      "tag": "sound-alike, different shade",
-      "definition": "Given to faultfinding; looks and sounds close but means critical rather than roomy.",
-      "definitionCN": "吹毛求疵的，形近音近，义为「爱挑刺」而非「容量大」。"
-     },
-     {
-      "word": "cassowary",
-      "ipa": "/ˈkæsəweri/",
-      "tag": "sound-alike only",
-      "definition": "A large flightless bird; purely coincidental sound resemblance.",
-      "definitionCN": "食火鸡，与 capacious 只是发音偶然相似。"
-     }
-    ]
-   },
-   {
-    "heading": "NEAR MEANING",
-    "entries": [
-     {
-      "word": "spacious",
-      "ipa": "/ˈspeɪʃəs/",
-      "tag": "near meaning",
-      "definition": "Having ample space, emphasizing openness over holding power.",
-      "definitionCN": "宽敞的，侧重开阔而非装载力。"
-     },
-     {
-      "word": "roomy",
-      "ipa": "/ˈruːmi/",
-      "tag": "near meaning, informal",
-      "definition": "Having plenty of room, everyday register.",
-      "definitionCN": "空间宽裕的，日常用语。"
-     },
-     {
-      "word": "expansive",
-      "ipa": "/ɪkˈspænsɪv/",
-      "tag": "near meaning",
-      "definition": "Spreading out widely, or generous in manner.",
-      "definitionCN": "辽阔的；（人）开朗豪爽的。"
-     },
-     {
-      "word": "commodious",
-      "ipa": "/kəˈmoʊdiəs/",
-      "tag": "near meaning, formal",
-      "definition": "Conveniently and amply spacious.",
-      "definitionCN": "宽敞便利的，正式用语。"
-     },
-     {
-      "word": "cramped",
-      "ipa": "/kræmpt/",
-      "tag": "opposite",
-      "definition": "Confined and uncomfortably small.",
-      "definitionCN": "狭窄局促的，是 capacious 的反义对照。"
-     }
-    ]
-   }
-  ]
- },
- "mnemonics": {
-  "normalIntro": {
-   "en": "Five hooks on the hold root and the never-full container.",
-   "cn": "五条围绕「容纳」词根与「装不满的容器」的记忆钩子。"
-  },
-  "normal": [
-   {
-    "en": "Root core: Latin capere, to take and hold, is the same root in capture and captive.",
-    "cn": "词根核心：拉丁语 capere（拿取、容纳）也是 capture、captive 的词根。"
-   },
-   {
-    "en": "Adjective engine: capax plus -ious gives capacious, just as audax gives audacious.",
-    "cn": "形容词引擎：capax 加 -ious 得 capacious，正如 audax 加 -ious 得 audacious。"
-   },
-   {
-    "en": "Noun home: the plain noun of the family is capacity, the amount it holds.",
-    "cn": "名词归宿：词族的普通名词是 capacity，即容纳量。"
-   },
-   {
-    "en": "Trap guard: captious means faultfinding, not roomy; never confuse the pair.",
-    "cn": "陷阱防守：captious 是吹毛求疵，不是容量大，切勿混淆。"
-   },
-   {
-    "en": "Upgrade pair: capacious is spacious with ambition, saved for big bags and bigger minds.",
-    "cn": "升级搭配：capacious 是胸怀大志的 spacious，专配大包与更大的头脑。"
-   }
-  ],
-  "abstract": [
-   {
-    "en": "A carpetbag that seems bottomless, accepting coat after coat without complaint.",
-    "cn": "一只仿佛没有底的旅行袋，一件接一件地吞下大衣毫无怨言。"
-   },
-   {
-    "en": "A library whose aisles keep folding into new shelves as you walk.",
-    "cn": "一座越走越深的图书馆，书架随脚步不断折叠出新。"
-   },
-   {
-    "en": "A harbor at dusk holding ships of every flag without a ripple of complaint.",
-    "cn": "黄昏的港口，悬挂万国旗的船只静静停泊，波澜不惊。"
-   }
-  ]
- },
- "examples": [
-  {
-   "en": "The stadium's capacious bowl absorbed the rain-soaked crowd.",
-   "cn": "体育场容量巨大的看台装下了浑身湿透的人群。"
-  },
-  {
-   "en": "Her capacious curiosity ranged from beetles to symphonies.",
-   "cn": "她求知欲极强，从甲虫到交响乐无所不涉。"
-  },
-  {
-   "en": "The novel needs a capacious reader willing to hold ten plots at once.",
-   "cn": "这部小说需要一位胸怀宽广、能同时容纳十条情节线的读者。"
-  }
- ],
- "dict_mnemonic": {
-  "note": "谐音记忆 · 非词源",
-  "text": "「克配顺」——什么都能克化、都能配上、都能顺进肚里，正是容量超大、来者不拒；联想一只永远装不满的大口袋。",
-  "word": "capacious"
- },
- "root": "源自拉丁语 capax（能容纳的），词根 capere（拿取、抓住、容纳），可上溯至印欧词根 *kap-（抓取）。同根词极多：capacity（容量）、captive（俘虏）、capture（捕获）、capture 与 accept、concept 皆含此根。十七世纪经法语进入英语，先表物理容积，后扩展至心智与胸襟。",
- "sensesIntro": {
-  "en": "From roomy containers the word grows into capacious minds and tolerant cultures.",
-  "cn": "从宽敞的容器出发，词义生长为博大的头脑与兼容的文化。"
- },
- "semanticMap": {
-  "core": {
-   "en": "CORE IMAGE: a container that never fills, accepting whatever arrives.",
-   "cn": "核心意象：一只永远装不满的容器，来者不拒。"
-  },
-  "chain": [
-   "GRASP",
-   "HOLD",
-   "LARGE INTERIOR",
-   "ABSORBING MIND",
-   "TOLERANT SPIRIT",
-   "SHARED SPACE"
-  ],
-  "branches": [
-   {
-    "senses": "01",
-    "en": "THE WAREHOUSE: bags, trunks, and halls that swallow cargo.",
-    "cn": "仓库：吞下货物的提包、箱柜与大厅。"
-   },
-   {
-    "senses": "02",
-    "en": "THE STUDY: memories and intellects that hold whole libraries.",
-    "cn": "书房：装下整座图书馆的记忆与才智。"
-   },
-   {
-    "senses": "03",
-    "en": "THE HARBOR: cultures making room for every arrival.",
-    "cn": "港口：为每个到来者留出位置的文化。"
-   },
-   {
-    "senses": "01 · 02",
-    "en": "THE MEASURE: capacity as the noun that quantifies the adjective.",
-    "cn": "度量：capacity 是给这个形容词定量的名词。"
-   },
-   {
-    "senses": "02 · 03",
-    "en": "THE VIRTUE: roominess of mind praised as generosity.",
-    "cn": "美德：心灵的宽敞被赞为慷慨。"
-   }
-  ]
- },
- "affixes": {
-  "intro": {
-   "en": "Capacious is the Latin stem cap- plus the adjective ending -acious, literally much-holding.",
-   "cn": "capacious 由拉丁词干 cap- 加形容词词尾 -acious 构成，字面即「能容纳很多的」。"
-  },
-  "latinIntro": {
-   "en": "The capere root is a Latin engine room, powering dozens of English words about taking and holding.",
-   "cn": "capere 词根是拉丁语的发动机室，驱动着英语中数十个关于拿取与容纳的词。"
-  },
-  "items": [
-   {
-    "word": "capere",
-    "structure": "Latin verb",
-    "meaning": "to take, seize, hold",
-    "meaningCN": "拿取；抓住；容纳",
-    "example": "capere in manus",
-    "exampleCN": "拿在手中（拉丁语用例示意）。"
-   },
-   {
-    "word": "capax",
-    "structure": "Latin adjective from capere",
-    "meaning": "able to hold much",
-    "meaningCN": "能容纳很多的",
-    "example": "capax rerum",
-    "exampleCN": "能容万物（拉丁语用例示意）。"
-   },
-   {
-    "word": "-acious",
-    "structure": "adjective suffix",
-    "meaning": "inclined to, full of",
-    "meaningCN": "倾向于……的；多……的",
-    "example": "audacious, voracious",
-    "exampleCN": "如 audacious、voracious。"
-   },
-   {
-    "word": "capacity",
-    "structure": "capax + -ity",
-    "meaning": "the amount held; ability",
-    "meaningCN": "容量；能力",
-    "example": "seating capacity",
-    "exampleCN": "座位容量。"
-   },
-   {
-    "word": "captive",
-    "structure": "capt- taken one",
-    "meaning": "a person seized and held",
-    "meaningCN": "俘虏；被囚者",
-    "example": "held captive",
-    "exampleCN": "被囚禁。"
-   },
-   {
-    "word": "capture",
-    "structure": "capt- + -ure",
-    "meaning": "the act of seizing",
-    "meaningCN": "捕获；夺取",
-    "example": "capture the flag",
-    "exampleCN": "夺取旗帜。"
-   },
-   {
-    "word": "incapacitate",
-    "structure": "in- + capacity + -ate",
-    "meaning": "to deprive of ability",
-    "meaningCN": "使丧失能力",
-    "example": "incapacitated by injury",
-    "exampleCN": "因伤丧失行动能力。"
-   },
-   {
-    "word": "captious",
-    "structure": "sound-alike from capere's faultfinding branch",
-    "meaning": "tending to find fault",
-    "meaningCN": "吹毛求疵的（形近义别）",
-    "example": "a captious reviewer",
-    "exampleCN": "爱挑剔的评论者。"
-   }
-  ],
-  "latinEntries": [
-   {
-    "word": "capax",
-    "structure": "Latin adjective",
-    "meaning": "roomy, receptive",
-    "meaningCN": "宽敞的；善于接纳的",
-    "example": "mens capax",
-    "exampleCN": "善于接纳的心智（拉丁语用例示意）。"
-   }
-  ],
-  "derivatives": [
-   {
-    "word": "capacity",
-    "pos": "n.",
-    "zh": "容量；能力"
-   }
-  ]
- }
-}
+]

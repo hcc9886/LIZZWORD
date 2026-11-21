@@ -1,155 +1,437 @@
-{
-  "word": "brotherhood",
-  "ipa_uk": "/ˈbrʌðəhʊd/",
-  "ipa_us": "/ˈbrʌðərhʊd/",
-  "definition_zh": "兄弟情谊；弟兄团体，兄弟会；同业组织",
-  "definition_en": "the bond between brothers; a group of men, or people generally, united by a common aim or faith",
-  "core_image": "并肩的手臂搭在一起，结成一个圈子",
-  "scene": "结社的旧厅里，新成员把手按在章程上。The union built its brotherhood on shared hardship.",
-  "sceneCN": "这里 brotherhood 是「同业组织、会社」（第 3 个义项：因共同目标而结合的团体）；句意是工会把组织建立在共患难之上。",
-  "pos": [
-    { "tag": "n.", "zh": "兄弟情谊；弟兄关系；兄弟会；同业组织" }
-  ],
-  "collocations": [
-    { "phrase": "a spirit of brotherhood", "zh": "手足之情" },
-    { "phrase": "a religious brotherhood", "zh": "宗教兄弟会" },
-    { "phrase": "the brotherhood of man", "zh": "人类大同；天下一家" },
-    { "phrase": "a brotherhood of railway workers", "zh": "铁路工人兄弟会" },
-    { "phrase": "swear brotherhood", "zh": "结拜为兄弟" }
-  ],
-  "forms": [
-    { "label": "复数", "form": "brotherhoods" }
-  ],
-  "derivatives": [
-    { "word": "brother", "pos": "n.", "zh": "brotherhood 的基础词，义为「兄弟」" },
-    { "word": "brotherly", "pos": "adj.", "zh": "由 brother 加 -ly 构成，义为「兄弟般的」" },
-    { "word": "sisterhood", "pos": "n.", "zh": "平行词，义为「姐妹情谊；妇女团体」" }
-  ],
-  "senses": [
-    {
-      "no": "01",
-      "title": "The bond between brothers",
-      "titleCN": "兄弟情谊；手足之情",
-      "definition": "the affection and loyalty felt between brothers, or between people like brothers",
-      "definitionCN": "兄弟之间或情同手足者之间的情感与忠诚",
-      "example": "Their brotherhood survived years of rivalry.",
-      "exampleCN": "多年的竞争没有伤及他们的手足之情。",
-      "why": "The suffix -hood names a state, so the base word brother becomes the state of being brothers.",
-      "whyCN": "后缀 -hood 表状态，brother 由此变成「为兄弟」这一状态。"
-    },
-    {
-      "no": "02",
-      "title": "Fellowship of all humanity",
-      "titleCN": "人类一家；博爱",
-      "definition": "the ideal that all people are brothers and should treat one another as kin",
-      "definitionCN": "人人皆兄弟、当以手足相待的理念",
-      "example": "The charter speaks of peace and the brotherhood of man.",
-      "exampleCN": "章程倡导和平与人类一家。",
-      "why": "Kinship inside a family is stretched to cover the whole human family.",
-      "whyCN": "家庭内的亲缘被放大，覆盖整个人类大家庭。"
-    },
-    {
-      "no": "03",
-      "title": "An organized group",
-      "titleCN": "兄弟会；同业组织",
-      "definition": "a society, union or order whose members see themselves as brothers",
-      "definitionCN": "成员以兄弟相待的会社、工会或修会",
-      "example": "The brotherhood of monks rose before dawn to pray.",
-      "exampleCN": "修会的弟兄们天不亮就起身祈祷。",
-      "why": "A state of fellowship easily becomes the body of people who share it.",
-      "whyCN": "情谊的状态顺势转指共享这份情谊的人群实体。"
-    }
-  ],
-  "etymology": {
-    "intro": { "en": "Brotherhood is a native English formation: brother plus the old suffix -hood.", "cn": "brotherhood 是英语本土构词：brother 加古后缀 -hood。" },
-    "items": [
-      { "era": "PROTO-INDO-EUROPEAN", "en": "a reconstructed root bhrater meant the male sibling.", "cn": "重构词根 bhrater 指男性同胞。" },
-      { "era": "OLD ENGLISH", "en": "brothor and the suffix -had formed broðorscipe and kin words.", "cn": "古英语 brothor 与后缀 -had 构成亲缘类抽象词。" },
-      { "era": "MIDDLE ENGLISH", "en": "brotherhede meant the state of being a brother and a confraternity.", "cn": "中古英语 brotherhede 兼指兄弟状态与弟兄会。" },
-      { "era": "ENGLISH, 16TH–19TH C.", "en": "spelling settled as brotherhood; trade unions took the word for their societies.", "cn": "拼法定型为 brotherhood，工会以其自称组织。" },
-      { "era": "PRESENT DAY ENGLISH", "en": "brotherhood spans family feeling, universal fellowship and organized societies.", "cn": "如今 brotherhood 兼指手足之情、人类友爱与有组织的团体。" }
-    ]
-  },
-  "similar": {
-    "note": { "en": "Brotherhood sits inside the -hood family and beside words for fellow groups.", "cn": "brotherhood 属 -hood 词族，并与表示同伴团体的词相邻。" },
-    "groups": [
+[
+  {
+    "word": "brotherhood",
+    "ipa_uk": "/ˈbrʌðəhʊd/",
+    "ipa_us": "/ˈbrʌðərhʊd/",
+    "definition_zh": "兄弟情谊；弟兄团体，兄弟会；同业组织",
+    "definition_en": "the bond between brothers; a group of men, or people generally, united by a common aim or faith",
+    "core_image": "并肩的手臂搭在一起，结成一个圈子",
+    "scene": "结社的旧厅里，新成员把手按在章程上。The union built its brotherhood on shared hardship.",
+    "sceneCN": "这里 brotherhood 是「同业组织、会社」（第 3 个义项：因共同目标而结合的团体）；句意是工会把组织建立在共患难之上。",
+    "pos": [
       {
-        "heading": "LOOK-ALIKE",
-        "entries": [
-          { "word": "brotherly", "ipa": "/ˈbrʌðəli/", "tag": "same root", "definition": "like a brother; kindly", "definitionCN": "兄弟般的，与 brotherhood 同根" },
-          { "word": "sisterhood", "ipa": "/ˈsɪstəhʊd/", "tag": "same pattern", "definition": "the bond or group of sisters", "definitionCN": "姐妹情谊；妇女团体，平行构词" },
-          { "word": "motherhood", "ipa": "/ˈmʌðəhʊd/", "tag": "same pattern", "definition": "the state of being a mother", "definitionCN": "母职；母性，同用 -hood 后缀" },
-          { "word": "brotherhoods", "ipa": "/ˈbrʌðəhʊdz/", "tag": "plural", "definition": "more than one brotherhood", "definitionCN": "brotherhood 的复数" }
-        ]
+        "tag": "n.",
+        "zh": "兄弟情谊；弟兄关系；兄弟会；同业组织"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "a spirit of brotherhood",
+        "zh": "手足之情"
       },
       {
-        "heading": "NEAR MEANING",
-        "entries": [
-          { "word": "fraternity", "ipa": "/frəˈtɜːnəti/", "tag": "near meaning", "definition": "brotherhood; a society of men with shared aims", "definitionCN": "兄弟情谊；兄弟会，拉丁同义成分" },
-          { "word": "fellowship", "ipa": "/ˈfeləʊʃɪp/", "tag": "near meaning", "definition": "friendly association with others", "definitionCN": "友伴情谊；联谊会" },
-          { "word": "confraternity", "ipa": "/ˌkɒnfrəˈtɜːnəti/", "tag": "near meaning", "definition": "a religious brotherhood or lay society", "definitionCN": "（宗教）善会；兄弟会" },
-          { "word": "union", "ipa": "/ˈjuːniən/", "tag": "near meaning", "definition": "a workers' organization", "definitionCN": "工会，与 brotherhood 的组织义重叠" },
-          { "word": "solidarity", "ipa": "/ˌsɒlɪˈdærəti/", "tag": "near meaning", "definition": "unity based on shared interests", "definitionCN": "团结；休戚与共" }
-        ]
+        "phrase": "a religious brotherhood",
+        "zh": "宗教兄弟会"
+      },
+      {
+        "phrase": "the brotherhood of man",
+        "zh": "人类大同；天下一家"
+      },
+      {
+        "phrase": "a brotherhood of railway workers",
+        "zh": "铁路工人兄弟会"
+      },
+      {
+        "phrase": "swear brotherhood",
+        "zh": "结拜为兄弟"
       }
-    ]
-  },
-  "mnemonics": {
-    "normalIntro": { "en": "Split it cleanly: brother plus hood, the state and body of brothers.", "cn": "把词干净地拆开：brother 加 hood，兄弟的状态与团体。" },
-    "normal": [
-      { "en": "-hood builds states: childhood, motherhood, brotherhood.", "cn": "-hood 构状态词：childhood、motherhood、brotherhood。" },
-      { "en": "Sisterhood mirrors brotherhood exactly.", "cn": "sisterhood 与 brotherhood 完全对仗。" },
-      { "en": "Fraternity is the Latin twin of brotherhood.", "cn": "fraternity 是 brotherhood 的拉丁孪生词。" },
-      { "en": "Trade brotherhoods were early unions.", "cn": "行业兄弟会即早期工会。" },
-      { "en": "The brotherhood of man stretches kin to all.", "cn": "the brotherhood of man 把亲缘扩展到所有人。" }
     ],
-    "abstract": [
-      { "en": "Feel arms lock shoulder to shoulder around you.", "cn": "感受众人手臂搭肩围成的一圈。" },
-      { "en": "See one oath passing down a line of men.", "cn": "看见一句誓言沿队列传递。" },
-      { "en": "Hear many footsteps keeping one rhythm.", "cn": "听许多脚步踏成同一个节拍。" }
-    ]
-  },
-  "examples": [
-    { "en": "A true brotherhood grew among the ship's crew.", "cn": "船员之间结成了真正的手足情谊。" },
-    { "en": "The lecture praised the brotherhood of all nations.", "cn": "演讲礼赞了万国一家的情谊。" },
-    { "en": "Railway brotherhoods fought for shorter hours.", "cn": "铁路工人兄弟会为缩短工时而斗争。" }
-  ],
-  "dict_mnemonic": { "note": "谐音记忆 · 非词源", "text": "「布拉德厚的」——兄弟们围坐一桌，情谊像「布拉德」一样实在，像城墙一样「厚」。", "word": "brotherhood" },
-  "root": "brotherhood 由 brother 加古英语后缀 -hood（状态、身份）构成，属本土构词；词根上溯原始印欧语 bhrater（男性同胞），与拉丁语 frater 同源，fraternity 即其拉丁对应。",
-  "sensesIntro": { "en": "The state of being brothers widens to all mankind, then hardens into an organized body.", "cn": "「为兄弟」的状态先放大到全人类，再凝结为有组织的团体。" },
-  "semanticMap": {
-    "core": { "en": "CORE IMAGE: arms linked shoulder to shoulder in one circle.", "cn": "核心意象：手臂相挽，围成一圈。" },
-    "chain": ["BROTHER", "BOND", "UNIVERSAL KIN", "OATH", "SOCIETY", "SOLIDARITY"],
-    "branches": [
-      { "senses": "01", "en": "the brotherhood of twins", "cn": "孪生兄弟之情" },
-      { "senses": "01 · 02", "en": "brotherhood among strangers", "cn": "陌生人间的手足之情" },
-      { "senses": "02", "en": "the brotherhood of man", "cn": "人类一家" },
-      { "senses": "03", "en": "a monks' brotherhood", "cn": "修士兄弟会" },
-      { "senses": "02 · 03", "en": "a brotherhood of nations", "cn": "万国兄弟之盟" }
-    ]
-  },
-  "affixes": {
-    "intro": { "en": "The -hood suffix turns a kin noun into a state and then a group.", "cn": "-hood 后缀把亲属名词变成状态，再变成群体。" },
-    "latinIntro": { "en": "The suffix is Germanic; the Latin kin word is frater.", "cn": "后缀属日耳曼语族；拉丁语亲属词为 frater。" },
-    "items": [
-      { "word": "brother", "structure": "noun base", "meaning": "male sibling", "meaningCN": "兄弟", "example": "my elder brother", "exampleCN": "我哥哥" },
-      { "word": "-hood", "structure": "Old English suffix -had", "meaning": "state, condition, collective", "meaningCN": "状态、身份或集体后缀", "example": "childhood, priesthood, brotherhood", "exampleCN": "如 childhood、priesthood、brotherhood 等词" },
-      { "word": "brotherhood", "structure": "brother + -hood", "meaning": "fraternal bond or group", "meaningCN": "兄弟情谊；兄弟会", "example": "a brotherhood of firefighters", "exampleCN": "消防员兄弟会" },
-      { "word": "childhood", "structure": "child + -hood", "meaning": "the state of being a child", "meaningCN": "童年", "example": "a happy childhood", "exampleCN": "幸福的童年" },
-      { "word": "motherhood", "structure": "mother + -hood", "meaning": "the state of being a mother", "meaningCN": "母职", "example": "the joys of motherhood", "exampleCN": "为人母之乐" },
-      { "word": "priesthood", "structure": "priest + -hood", "meaning": "the office of priest", "meaningCN": "司铎职位", "example": "enter the priesthood", "exampleCN": "担任神职" },
-      { "word": "sisterhood", "structure": "sister + -hood", "meaning": "sororal bond or group", "meaningCN": "姐妹情谊；姐妹会", "example": "a college sisterhood", "exampleCN": "大学姐妹会" },
-      { "word": "brotherly", "structure": "brother + -ly", "meaning": "like a brother", "meaningCN": "兄弟般的", "example": "brotherly concern", "exampleCN": "兄弟般的关怀" },
-      { "word": "fraternity", "structure": "Latin frater + -ity", "meaning": "brotherhood", "meaningCN": "友爱；兄弟会", "example": "liberty, equality, fraternity", "exampleCN": "自由、平等、博爱" },
-      { "word": "confraternity", "structure": "con- + fraternity", "meaning": "a lay religious society", "meaningCN": "善会；宗教兄弟会", "example": "a confraternity of printers", "exampleCN": "印刷工善会" }
-    ],
-    "latinEntries": [
-      { "word": "frater", "structure": "Latin noun, cognate", "meaning": "brother", "meaningCN": "兄弟" },
-      { "word": "fraternitas", "structure": "Latin abstract noun", "meaning": "brotherhood", "meaningCN": "兄弟情谊" }
+    "forms": [
+      {
+        "label": "复数",
+        "form": "brotherhoods"
+      }
     ],
     "derivatives": [
-      { "word": "brotherly", "pos": "adj.", "zh": "兄弟般的" },
-      { "word": "sisterhood", "pos": "n.", "zh": "姐妹情谊" }
-    ]
+      {
+        "word": "brother",
+        "pos": "n.",
+        "zh": "brotherhood 的基础词，义为「兄弟」"
+      },
+      {
+        "word": "brotherly",
+        "pos": "adj.",
+        "zh": "由 brother 加 -ly 构成，义为「兄弟般的」"
+      },
+      {
+        "word": "sisterhood",
+        "pos": "n.",
+        "zh": "平行词，义为「姐妹情谊；妇女团体」"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "The bond between brothers",
+        "titleCN": "兄弟情谊；手足之情",
+        "definition": "the affection and loyalty felt between brothers, or between people like brothers",
+        "definitionCN": "兄弟之间或情同手足者之间的情感与忠诚",
+        "example": "Their brotherhood survived years of rivalry.",
+        "exampleCN": "多年的竞争没有伤及他们的手足之情。",
+        "why": "The suffix -hood names a state, so the base word brother becomes the state of being brothers.",
+        "whyCN": "后缀 -hood 表状态，brother 由此变成「为兄弟」这一状态。"
+      },
+      {
+        "no": "02",
+        "title": "Fellowship of all humanity",
+        "titleCN": "人类一家；博爱",
+        "definition": "the ideal that all people are brothers and should treat one another as kin",
+        "definitionCN": "人人皆兄弟、当以手足相待的理念",
+        "example": "The charter speaks of peace and the brotherhood of man.",
+        "exampleCN": "章程倡导和平与人类一家。",
+        "why": "Kinship inside a family is stretched to cover the whole human family.",
+        "whyCN": "家庭内的亲缘被放大，覆盖整个人类大家庭。"
+      },
+      {
+        "no": "03",
+        "title": "An organized group",
+        "titleCN": "兄弟会；同业组织",
+        "definition": "a society, union or order whose members see themselves as brothers",
+        "definitionCN": "成员以兄弟相待的会社、工会或修会",
+        "example": "The brotherhood of monks rose before dawn to pray.",
+        "exampleCN": "修会的弟兄们天不亮就起身祈祷。",
+        "why": "A state of fellowship easily becomes the body of people who share it.",
+        "whyCN": "情谊的状态顺势转指共享这份情谊的人群实体。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Brotherhood is a native English formation: brother plus the old suffix -hood.",
+        "cn": "brotherhood 是英语本土构词：brother 加古后缀 -hood。"
+      },
+      "items": [
+        {
+          "era": "PROTO-INDO-EUROPEAN",
+          "en": "a reconstructed root bhrater meant the male sibling.",
+          "cn": "重构词根 bhrater 指男性同胞。"
+        },
+        {
+          "era": "OLD ENGLISH",
+          "en": "brothor and the suffix -had formed broðorscipe and kin words.",
+          "cn": "古英语 brothor 与后缀 -had 构成亲缘类抽象词。"
+        },
+        {
+          "era": "MIDDLE ENGLISH",
+          "en": "brotherhede meant the state of being a brother and a confraternity.",
+          "cn": "中古英语 brotherhede 兼指兄弟状态与弟兄会。"
+        },
+        {
+          "era": "ENGLISH, 16TH–19TH C.",
+          "en": "spelling settled as brotherhood; trade unions took the word for their societies.",
+          "cn": "拼法定型为 brotherhood，工会以其自称组织。"
+        },
+        {
+          "era": "PRESENT DAY ENGLISH",
+          "en": "brotherhood spans family feeling, universal fellowship and organized societies.",
+          "cn": "如今 brotherhood 兼指手足之情、人类友爱与有组织的团体。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "Brotherhood sits inside the -hood family and beside words for fellow groups.",
+        "cn": "brotherhood 属 -hood 词族，并与表示同伴团体的词相邻。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "brotherly",
+              "ipa": "/ˈbrʌðəli/",
+              "tag": "same root",
+              "definition": "like a brother; kindly",
+              "definitionCN": "兄弟般的，与 brotherhood 同根"
+            },
+            {
+              "word": "sisterhood",
+              "ipa": "/ˈsɪstəhʊd/",
+              "tag": "same pattern",
+              "definition": "the bond or group of sisters",
+              "definitionCN": "姐妹情谊；妇女团体，平行构词"
+            },
+            {
+              "word": "motherhood",
+              "ipa": "/ˈmʌðəhʊd/",
+              "tag": "same pattern",
+              "definition": "the state of being a mother",
+              "definitionCN": "母职；母性，同用 -hood 后缀"
+            },
+            {
+              "word": "brotherhoods",
+              "ipa": "/ˈbrʌðəhʊdz/",
+              "tag": "plural",
+              "definition": "more than one brotherhood",
+              "definitionCN": "brotherhood 的复数"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "fraternity",
+              "ipa": "/frəˈtɜːnəti/",
+              "tag": "near meaning",
+              "definition": "brotherhood; a society of men with shared aims",
+              "definitionCN": "兄弟情谊；兄弟会，拉丁同义成分"
+            },
+            {
+              "word": "fellowship",
+              "ipa": "/ˈfeləʊʃɪp/",
+              "tag": "near meaning",
+              "definition": "friendly association with others",
+              "definitionCN": "友伴情谊；联谊会"
+            },
+            {
+              "word": "confraternity",
+              "ipa": "/ˌkɒnfrəˈtɜːnəti/",
+              "tag": "near meaning",
+              "definition": "a religious brotherhood or lay society",
+              "definitionCN": "（宗教）善会；兄弟会"
+            },
+            {
+              "word": "union",
+              "ipa": "/ˈjuːniən/",
+              "tag": "near meaning",
+              "definition": "a workers' organization",
+              "definitionCN": "工会，与 brotherhood 的组织义重叠"
+            },
+            {
+              "word": "solidarity",
+              "ipa": "/ˌsɒlɪˈdærəti/",
+              "tag": "near meaning",
+              "definition": "unity based on shared interests",
+              "definitionCN": "团结；休戚与共"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Split it cleanly: brother plus hood, the state and body of brothers.",
+        "cn": "把词干净地拆开：brother 加 hood，兄弟的状态与团体。"
+      },
+      "normal": [
+        {
+          "en": "-hood builds states: childhood, motherhood, brotherhood.",
+          "cn": "-hood 构状态词：childhood、motherhood、brotherhood。"
+        },
+        {
+          "en": "Sisterhood mirrors brotherhood exactly.",
+          "cn": "sisterhood 与 brotherhood 完全对仗。"
+        },
+        {
+          "en": "Fraternity is the Latin twin of brotherhood.",
+          "cn": "fraternity 是 brotherhood 的拉丁孪生词。"
+        },
+        {
+          "en": "Trade brotherhoods were early unions.",
+          "cn": "行业兄弟会即早期工会。"
+        },
+        {
+          "en": "The brotherhood of man stretches kin to all.",
+          "cn": "the brotherhood of man 把亲缘扩展到所有人。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "Feel arms lock shoulder to shoulder around you.",
+          "cn": "感受众人手臂搭肩围成的一圈。"
+        },
+        {
+          "en": "See one oath passing down a line of men.",
+          "cn": "看见一句誓言沿队列传递。"
+        },
+        {
+          "en": "Hear many footsteps keeping one rhythm.",
+          "cn": "听许多脚步踏成同一个节拍。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "A true brotherhood grew among the ship's crew.",
+        "cn": "船员之间结成了真正的手足情谊。"
+      },
+      {
+        "en": "The lecture praised the brotherhood of all nations.",
+        "cn": "演讲礼赞了万国一家的情谊。"
+      },
+      {
+        "en": "Railway brotherhoods fought for shorter hours.",
+        "cn": "铁路工人兄弟会为缩短工时而斗争。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「布拉德厚的」——兄弟们围坐一桌，情谊像「布拉德」一样实在，像城墙一样「厚」。",
+      "word": "brotherhood"
+    },
+    "root": "brotherhood 由 brother 加古英语后缀 -hood（状态、身份）构成，属本土构词；词根上溯原始印欧语 bhrater（男性同胞），与拉丁语 frater 同源，fraternity 即其拉丁对应。",
+    "sensesIntro": {
+      "en": "The state of being brothers widens to all mankind, then hardens into an organized body.",
+      "cn": "「为兄弟」的状态先放大到全人类，再凝结为有组织的团体。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: arms linked shoulder to shoulder in one circle.",
+        "cn": "核心意象：手臂相挽，围成一圈。"
+      },
+      "chain": [
+        "BROTHER",
+        "BOND",
+        "UNIVERSAL KIN",
+        "OATH",
+        "SOCIETY",
+        "SOLIDARITY"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "the brotherhood of twins",
+          "cn": "孪生兄弟之情"
+        },
+        {
+          "senses": "01 · 02",
+          "en": "brotherhood among strangers",
+          "cn": "陌生人间的手足之情"
+        },
+        {
+          "senses": "02",
+          "en": "the brotherhood of man",
+          "cn": "人类一家"
+        },
+        {
+          "senses": "03",
+          "en": "a monks' brotherhood",
+          "cn": "修士兄弟会"
+        },
+        {
+          "senses": "02 · 03",
+          "en": "a brotherhood of nations",
+          "cn": "万国兄弟之盟"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "The -hood suffix turns a kin noun into a state and then a group.",
+        "cn": "-hood 后缀把亲属名词变成状态，再变成群体。"
+      },
+      "latinIntro": {
+        "en": "The suffix is Germanic; the Latin kin word is frater.",
+        "cn": "后缀属日耳曼语族；拉丁语亲属词为 frater。"
+      },
+      "items": [
+        {
+          "word": "brother",
+          "structure": "noun base",
+          "meaning": "male sibling",
+          "meaningCN": "兄弟",
+          "example": "my elder brother",
+          "exampleCN": "我哥哥"
+        },
+        {
+          "word": "-hood",
+          "structure": "Old English suffix -had",
+          "meaning": "state, condition, collective",
+          "meaningCN": "状态、身份或集体后缀",
+          "example": "childhood, priesthood, brotherhood",
+          "exampleCN": "如 childhood、priesthood、brotherhood 等词"
+        },
+        {
+          "word": "brotherhood",
+          "structure": "brother + -hood",
+          "meaning": "fraternal bond or group",
+          "meaningCN": "兄弟情谊；兄弟会",
+          "example": "a brotherhood of firefighters",
+          "exampleCN": "消防员兄弟会"
+        },
+        {
+          "word": "childhood",
+          "structure": "child + -hood",
+          "meaning": "the state of being a child",
+          "meaningCN": "童年",
+          "example": "a happy childhood",
+          "exampleCN": "幸福的童年"
+        },
+        {
+          "word": "motherhood",
+          "structure": "mother + -hood",
+          "meaning": "the state of being a mother",
+          "meaningCN": "母职",
+          "example": "the joys of motherhood",
+          "exampleCN": "为人母之乐"
+        },
+        {
+          "word": "priesthood",
+          "structure": "priest + -hood",
+          "meaning": "the office of priest",
+          "meaningCN": "司铎职位",
+          "example": "enter the priesthood",
+          "exampleCN": "担任神职"
+        },
+        {
+          "word": "sisterhood",
+          "structure": "sister + -hood",
+          "meaning": "sororal bond or group",
+          "meaningCN": "姐妹情谊；姐妹会",
+          "example": "a college sisterhood",
+          "exampleCN": "大学姐妹会"
+        },
+        {
+          "word": "brotherly",
+          "structure": "brother + -ly",
+          "meaning": "like a brother",
+          "meaningCN": "兄弟般的",
+          "example": "brotherly concern",
+          "exampleCN": "兄弟般的关怀"
+        },
+        {
+          "word": "fraternity",
+          "structure": "Latin frater + -ity",
+          "meaning": "brotherhood",
+          "meaningCN": "友爱；兄弟会",
+          "example": "liberty, equality, fraternity",
+          "exampleCN": "自由、平等、博爱"
+        },
+        {
+          "word": "confraternity",
+          "structure": "con- + fraternity",
+          "meaning": "a lay religious society",
+          "meaningCN": "善会；宗教兄弟会",
+          "example": "a confraternity of printers",
+          "exampleCN": "印刷工善会"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "frater",
+          "structure": "Latin noun, cognate",
+          "meaning": "brother",
+          "meaningCN": "兄弟"
+        },
+        {
+          "word": "fraternitas",
+          "structure": "Latin abstract noun",
+          "meaning": "brotherhood",
+          "meaningCN": "兄弟情谊"
+        }
+      ],
+      "derivatives": [
+        {
+          "word": "brotherly",
+          "pos": "adj.",
+          "zh": "兄弟般的"
+        },
+        {
+          "word": "sisterhood",
+          "pos": "n.",
+          "zh": "姐妹情谊"
+        }
+      ]
+    }
   }
-}
+]

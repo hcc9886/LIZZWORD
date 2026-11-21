@@ -1,156 +1,441 @@
-{
-  "word": "brethren",
-  "ipa_uk": "/ˈbreðrən/",
-  "ipa_us": "/ˈbreðrən/",
-  "definition_zh": "弟兄们；同道；教友（brother 的古旧复数）",
-  "definition_en": "the members of a group, especially a religious brotherhood; an old plural of brother",
-  "core_image": "一圈穿同色长袍的人围着长桌，互称弟兄",
-  "scene": "礼拜堂里，长老环视围坐的长桌，声音低沉而庄重。The preacher addressed his brethren in the small wooden chapel.",
-  "sceneCN": "这里 brethren 是「弟兄们、教友们」（第 1 个义项：同一信仰或团体的成员互称）；句意是传道人向小礼拜堂里的教友讲话。",
-  "pos": [
-    { "tag": "n.", "zh": "弟兄们；教友；同道（复数，正式或古旧用法）" }
-  ],
-  "collocations": [
-    { "phrase": "my dear brethren", "zh": "我亲爱的弟兄们" },
-    { "phrase": "the brethren of the order", "zh": "修会里的会士弟兄" },
-    { "phrase": "address the brethren", "zh": "向教友们讲话" },
-    { "phrase": "brothers and brethren", "zh": "兄弟与同道" }
-  ],
-  "forms": [
-    { "label": "单数原形", "form": "brother" },
-    { "label": "复数（常用）", "form": "brothers" },
-    { "label": "复数（旧式／教会用语）", "form": "brethren" }
-  ],
-  "derivatives": [
-    { "word": "brotherhood", "pos": "n.", "zh": "由 brother 加 -hood 构成，义为「兄弟情谊；团体」" },
-    { "word": "brotherly", "pos": "adj.", "zh": "由 brother 加 -ly 构成，义为「兄弟般的」" },
-    { "word": "brethren court", "pos": "n.", "zh": "教友法庭，义为「教会内部审议机构」" }
-  ],
-  "senses": [
-    {
-      "no": "01",
-      "title": "Members of a religious group",
-      "titleCN": "教友；会中弟兄",
-      "definition": "the male members of a religious community or church, addressed as brothers",
-      "definitionCN": "宗教团体或教会的男性成员，彼此以弟兄相称",
-      "example": "The brethren gathered for evening prayer.",
-      "exampleCN": "弟兄们聚在一起做晚祷。",
-      "why": "The old plural of brother survived inside churches, where members call one another brothers.",
-      "whyCN": "brother 的旧式复数在教会里保留下来，因为教友互称弟兄。"
-    },
-    {
-      "no": "02",
-      "title": "Fellow members of a profession or group",
-      "titleCN": "同道；同行；会众",
-      "definition": "people who share the same work, belief or society, treated like brothers",
-      "definitionCN": "同一行业、信仰或社团中亲如手足的成员",
-      "example": "He wrote an open letter to his brethren at the bar.",
-      "exampleCN": "他给律师界的同道写了一封公开信。",
-      "why": "The church usage spread to any group whose members feel like brothers.",
-      "whyCN": "教会的用法扩散到一切「亲如弟兄」的群体。"
-    },
-    {
-      "no": "03",
-      "title": "An archaic plural of brother",
-      "titleCN": "brother 的旧式复数",
-      "definition": "the older plural form of brother, kept by double plural marking -er plus -en",
-      "definitionCN": "brother 的古复数形式，由 brethre（brother 的古复数）再加复数后缀 -en 叠加而成",
-      "example": "Old texts wrote brethren where modern English writes brothers.",
-      "exampleCN": "古文本写 brethren，现代英语写 brothers。",
-      "why": "English already had brethre as a plural, then added the -en plural again, doubling the mark.",
-      "whyCN": "英语本有复数 brethre，又叠加了复数后缀 -en，形成双重复数标记。"
-    }
-  ],
-  "etymology": {
-    "intro": { "en": "Brethren is a double plural built on the old form of brother.", "cn": "brethren 是叠在 brother 古旧词形上的双重复数。" },
-    "items": [
-      { "era": "PROTO-INDO-EUROPEAN", "en": "a reconstructed root bhrater meant the male sibling.", "cn": "重构词根 bhrater 指男性同胞。" },
-      { "era": "OLD ENGLISH", "en": "brothor named a brother; its plural was brothor or brethre.", "cn": "古英语 brothor 指兄弟，复数为 brothor 或 brethre。" },
-      { "era": "MIDDLE ENGLISH", "en": "bretheren took the old plural brethre and added the -en plural ending.", "cn": "中古英语 bretheren 在旧复数 brethre 上又加了 -en 复数词尾。" },
-      { "era": "ENGLISH, 16TH C.", "en": "brothers rose as the regular plural; brethren narrowed to religious and formal use.", "cn": "brothers 成为规则复数，brethren 收窄为宗教与正式用语。" },
-      { "era": "PRESENT DAY ENGLISH", "en": "brethren now names church members and fellow members of a craft.", "cn": "如今 brethren 指教友及某行当的同道。" }
-    ]
-  },
-  "similar": {
-    "note": { "en": "Brethren sits next to its singular brother and to words for close male groups.", "cn": "brethren 与其单数 brother 及一组表示男性团体的词相邻。" },
-    "groups": [
+[
+  {
+    "word": "brethren",
+    "ipa_uk": "/ˈbreðrən/",
+    "ipa_us": "/ˈbreðrən/",
+    "definition_zh": "弟兄们；同道；教友（brother 的古旧复数）",
+    "definition_en": "the members of a group, especially a religious brotherhood; an old plural of brother",
+    "core_image": "一圈穿同色长袍的人围着长桌，互称弟兄",
+    "scene": "礼拜堂里，长老环视围坐的长桌，声音低沉而庄重。The preacher addressed his brethren in the small wooden chapel.",
+    "sceneCN": "这里 brethren 是「弟兄们、教友们」（第 1 个义项：同一信仰或团体的成员互称）；句意是传道人向小礼拜堂里的教友讲话。",
+    "pos": [
       {
-        "heading": "LOOK-ALIKE",
-        "entries": [
-          { "word": "brother", "ipa": "/ˈbrʌðə(r)/", "tag": "singular", "definition": "a male sibling; the singular of brethren", "definitionCN": "兄弟；brethren 的单数原形" },
-          { "word": "brethrenly", "ipa": "/ˈbreðrənli/", "tag": "derived form", "definition": "like brethren; fraternal", "definitionCN": "如弟兄般的；由 brethren 派生的形容词" },
-          { "word": "breather", "ipa": "/ˈbriːðə(r)/", "tag": "spelling", "definition": "a short rest; a person who breathes", "definitionCN": "小憩；呼吸者——只是拼写相近，词源不同" },
-          { "word": "children", "ipa": "/ˈtʃɪldrən/", "tag": "same pattern", "definition": "plural of child with the same old -en plural ending", "definitionCN": "child 的复数，与 brethren 同用古英语 -en 复数后缀" }
-        ]
+        "tag": "n.",
+        "zh": "弟兄们；教友；同道（复数，正式或古旧用法）"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "my dear brethren",
+        "zh": "我亲爱的弟兄们"
       },
       {
-        "heading": "NEAR MEANING",
-        "entries": [
-          { "word": "brothers", "ipa": "/ˈbrʌðəz/", "tag": "plural", "definition": "the regular modern plural of brother", "definitionCN": "brother 的现代规则复数" },
-          { "word": "brotherhood", "ipa": "/ˈbrʌðəhʊd/", "tag": "near meaning", "definition": "the bond or organization of brothers", "definitionCN": "兄弟情谊或弟兄团体" },
-          { "word": "brethren assembly", "ipa": "/ˈbreðrən əˈsembli/", "tag": "phrase", "definition": "a meeting of church brethren", "definitionCN": "教友集会" },
-          { "word": "fraternity", "ipa": "/frəˈtɜːnəti/", "tag": "near meaning", "definition": "a group of men with shared aims; brotherhood", "definitionCN": "兄弟会；同业团体" },
-          { "word": "comrades", "ipa": "/ˈkɒmreɪdz/", "tag": "near meaning", "definition": "fellow members of a movement", "definitionCN": "同志们；同伴" }
-        ]
+        "phrase": "the brethren of the order",
+        "zh": "修会里的会士弟兄"
+      },
+      {
+        "phrase": "address the brethren",
+        "zh": "向教友们讲话"
+      },
+      {
+        "phrase": "brothers and brethren",
+        "zh": "兄弟与同道"
       }
-    ]
-  },
-  "mnemonics": {
-    "normalIntro": { "en": "Link brethren to brother and to the -en plural of children.", "cn": "把 brethren 与 brother 以及 children 的 -en 复数联系起来记。" },
-    "normal": [
-      { "en": "Brethren hides brethre plus -en, a doubled plural.", "cn": "brethren 内含 brethre 加 -en，是双重复数。" },
-      { "en": "Children and brethren share the same old -en plural.", "cn": "children 与 brethren 共用古英语 -en 复数词尾。" },
-      { "en": "Breth- echoes breath of brothers praying together.", "cn": "breth- 呼应弟兄们一同祷告时的呼吸声。" },
-      { "en": "Churches kept the old plural long after brothers won.", "cn": "brothers 胜出之后，教会仍保留这个旧复数。" },
-      { "en": "Brethren of the bar means fellow lawyers.", "cn": "the brethren of the bar 指律师同行。" }
     ],
-    "abstract": [
-      { "en": "See a circle of robed men calling each other brother.", "cn": "想象一圈穿长袍的人互称弟兄。" },
-      { "en": "Hear one low voice say, my dear brethren.", "cn": "听一个低沉的声音说：我亲爱的弟兄们。" },
-      { "en": "Feel two old plural endings stacked like rings.", "cn": "感觉两个古老的复数词尾像两枚戒指叠在一起。" }
-    ]
-  },
-  "examples": [
-    { "en": "The brethren met every Sunday in the plain brick hall.", "cn": "教友们每周日在朴素的砖厅里聚会。" },
-    { "en": "He urged his brethren in the craft to defend the old standards.", "cn": "他敦促同行的同道们捍卫旧有标准。" },
-    { "en": "Old sermons opened with, dearly beloved brethren.", "cn": "旧式布道以「亲爱的教友们」开头。" }
-  ],
-  "dict_mnemonic": { "note": "谐音记忆 · 非词源", "text": "「布瑞镇」——弟兄们从同一个镇（镇＝brethren）里出来，彼此都是「布」衣兄弟。", "word": "brethren" },
-  "root": "brethren 由古英语 brother 的古复数 brethre 加复数后缀 -en 叠加而成，属「双重复数」；词根上溯至原始印欧语 bhrater（男性同胞），与拉丁语 frater、梵语 bhrātr̄ 同源。",
-  "sensesIntro": { "en": "From the archaic plural of brother, the word settled into church address and then into fellow-membership.", "cn": "从 brother 的古复数出发，这个词固定为教会称呼，再扩展到一切同道群体。" },
-  "semanticMap": {
-    "core": { "en": "CORE IMAGE: robed men at one table calling each other brother.", "cn": "核心意象：一群穿长袍的人围着一张桌子互称弟兄。" },
-    "chain": ["BROTHER", "OLD PLURAL", "CHURCH", "FRATERNITY", "FELLOWSHIP", "SPEECH"],
-    "branches": [
-      { "senses": "01", "en": "the brethren at prayer", "cn": "祷告中的教友" },
-      { "senses": "01 · 02", "en": "address the brethren", "cn": "向弟兄们讲话" },
-      { "senses": "02", "en": "brethren of the craft", "cn": "同业同道" },
-      { "senses": "03", "en": "an archaic plural", "cn": "古式复数" },
-      { "senses": "02 · 03", "en": "brethren in old texts", "cn": "古文本中的 brethren" }
-    ]
-  },
-  "affixes": {
-    "intro": { "en": "Brethren is itself a suffixed form; its family adds further suffixes to brother.", "cn": "brethren 本身就是加缀形式；其词族以 brother 为基再加后缀。" },
-    "latinIntro": { "en": "The root is Germanic, cognate with Latin frater rather than borrowed from it.", "cn": "词根属日耳曼语系，与拉丁语 frater 同源而非借自拉丁语。" },
-    "items": [
-      { "word": "brother", "structure": "noun base", "meaning": "male sibling", "meaningCN": "兄弟", "example": "my younger brother", "exampleCN": "我弟弟" },
-      { "word": "brethre", "structure": "Old English plural", "meaning": "old plural of brother", "meaningCN": "brother 的古复数", "example": "old texts write brethre", "exampleCN": "古文本写 brethre" },
-      { "word": "-en", "structure": "Old English plural suffix", "meaning": "marks plurals like children, oxen", "meaningCN": "古英语复数后缀，如 children、oxen", "example": "children, oxen, brethren", "exampleCN": "如 children、oxen、brethren 等词" },
-      { "word": "brethren", "structure": "brethre + -en", "meaning": "double plural, now religious", "meaningCN": "双重复数，今用于教友", "example": "the brethren gathered", "exampleCN": "教友们聚会" },
-      { "word": "brotherhood", "structure": "brother + -hood", "meaning": "the state of being brothers", "meaningCN": "兄弟情谊；团体", "example": "a brotherhood of monks", "exampleCN": "僧侣兄弟会" },
-      { "word": "brotherly", "structure": "brother + -ly", "meaning": "like a brother", "meaningCN": "兄弟般的", "example": "brotherly advice", "exampleCN": "兄弟般的忠告" },
-      { "word": "brotherly love", "structure": "compound", "meaning": "affection between brothers or fellows", "meaningCN": "手足之情", "example": "preach brotherly love", "exampleCN": "宣讲手足之情" },
-      { "word": "fraternity", "structure": "Latin cognate frater + -ity", "meaning": "brotherhood, brotherly group", "meaningCN": "兄弟会；友爱", "example": "a college fraternity", "exampleCN": "大学兄弟会" },
-      { "word": "fraternal", "structure": "Latin cognate frater + -al", "meaning": "brotherly", "meaningCN": "兄弟般的", "example": "fraternal feelings", "exampleCN": "兄弟般的情谊" },
-      { "word": "friar", "structure": "same root via Old French frere", "meaning": "a member of a mendicant order", "meaningCN": "修士（与 brother 同源）", "example": "a friar in a grey robe", "exampleCN": "灰袍修士" }
-    ],
-    "latinEntries": [
-      { "word": "frater", "structure": "Latin noun, cognate", "meaning": "brother", "meaningCN": "兄弟" },
-      { "word": "fraternitas", "structure": "Latin noun", "meaning": "brotherhood", "meaningCN": "兄弟情谊" }
+    "forms": [
+      {
+        "label": "单数原形",
+        "form": "brother"
+      },
+      {
+        "label": "复数（常用）",
+        "form": "brothers"
+      },
+      {
+        "label": "复数（旧式／教会用语）",
+        "form": "brethren"
+      }
     ],
     "derivatives": [
-      { "word": "brotherhood", "pos": "n.", "zh": "兄弟情谊；团体" },
-      { "word": "brotherly", "pos": "adj.", "zh": "兄弟般的" }
-    ]
+      {
+        "word": "brotherhood",
+        "pos": "n.",
+        "zh": "由 brother 加 -hood 构成，义为「兄弟情谊；团体」"
+      },
+      {
+        "word": "brotherly",
+        "pos": "adj.",
+        "zh": "由 brother 加 -ly 构成，义为「兄弟般的」"
+      },
+      {
+        "word": "brethren court",
+        "pos": "n.",
+        "zh": "教友法庭，义为「教会内部审议机构」"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "Members of a religious group",
+        "titleCN": "教友；会中弟兄",
+        "definition": "the male members of a religious community or church, addressed as brothers",
+        "definitionCN": "宗教团体或教会的男性成员，彼此以弟兄相称",
+        "example": "The brethren gathered for evening prayer.",
+        "exampleCN": "弟兄们聚在一起做晚祷。",
+        "why": "The old plural of brother survived inside churches, where members call one another brothers.",
+        "whyCN": "brother 的旧式复数在教会里保留下来，因为教友互称弟兄。"
+      },
+      {
+        "no": "02",
+        "title": "Fellow members of a profession or group",
+        "titleCN": "同道；同行；会众",
+        "definition": "people who share the same work, belief or society, treated like brothers",
+        "definitionCN": "同一行业、信仰或社团中亲如手足的成员",
+        "example": "He wrote an open letter to his brethren at the bar.",
+        "exampleCN": "他给律师界的同道写了一封公开信。",
+        "why": "The church usage spread to any group whose members feel like brothers.",
+        "whyCN": "教会的用法扩散到一切「亲如弟兄」的群体。"
+      },
+      {
+        "no": "03",
+        "title": "An archaic plural of brother",
+        "titleCN": "brother 的旧式复数",
+        "definition": "the older plural form of brother, kept by double plural marking -er plus -en",
+        "definitionCN": "brother 的古复数形式，由 brethre（brother 的古复数）再加复数后缀 -en 叠加而成",
+        "example": "Old texts wrote brethren where modern English writes brothers.",
+        "exampleCN": "古文本写 brethren，现代英语写 brothers。",
+        "why": "English already had brethre as a plural, then added the -en plural again, doubling the mark.",
+        "whyCN": "英语本有复数 brethre，又叠加了复数后缀 -en，形成双重复数标记。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Brethren is a double plural built on the old form of brother.",
+        "cn": "brethren 是叠在 brother 古旧词形上的双重复数。"
+      },
+      "items": [
+        {
+          "era": "PROTO-INDO-EUROPEAN",
+          "en": "a reconstructed root bhrater meant the male sibling.",
+          "cn": "重构词根 bhrater 指男性同胞。"
+        },
+        {
+          "era": "OLD ENGLISH",
+          "en": "brothor named a brother; its plural was brothor or brethre.",
+          "cn": "古英语 brothor 指兄弟，复数为 brothor 或 brethre。"
+        },
+        {
+          "era": "MIDDLE ENGLISH",
+          "en": "bretheren took the old plural brethre and added the -en plural ending.",
+          "cn": "中古英语 bretheren 在旧复数 brethre 上又加了 -en 复数词尾。"
+        },
+        {
+          "era": "ENGLISH, 16TH C.",
+          "en": "brothers rose as the regular plural; brethren narrowed to religious and formal use.",
+          "cn": "brothers 成为规则复数，brethren 收窄为宗教与正式用语。"
+        },
+        {
+          "era": "PRESENT DAY ENGLISH",
+          "en": "brethren now names church members and fellow members of a craft.",
+          "cn": "如今 brethren 指教友及某行当的同道。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "Brethren sits next to its singular brother and to words for close male groups.",
+        "cn": "brethren 与其单数 brother 及一组表示男性团体的词相邻。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "brother",
+              "ipa": "/ˈbrʌðə(r)/",
+              "tag": "singular",
+              "definition": "a male sibling; the singular of brethren",
+              "definitionCN": "兄弟；brethren 的单数原形"
+            },
+            {
+              "word": "brethrenly",
+              "ipa": "/ˈbreðrənli/",
+              "tag": "derived form",
+              "definition": "like brethren; fraternal",
+              "definitionCN": "如弟兄般的；由 brethren 派生的形容词"
+            },
+            {
+              "word": "breather",
+              "ipa": "/ˈbriːðə(r)/",
+              "tag": "spelling",
+              "definition": "a short rest; a person who breathes",
+              "definitionCN": "小憩；呼吸者——只是拼写相近，词源不同"
+            },
+            {
+              "word": "children",
+              "ipa": "/ˈtʃɪldrən/",
+              "tag": "same pattern",
+              "definition": "plural of child with the same old -en plural ending",
+              "definitionCN": "child 的复数，与 brethren 同用古英语 -en 复数后缀"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "brothers",
+              "ipa": "/ˈbrʌðəz/",
+              "tag": "plural",
+              "definition": "the regular modern plural of brother",
+              "definitionCN": "brother 的现代规则复数"
+            },
+            {
+              "word": "brotherhood",
+              "ipa": "/ˈbrʌðəhʊd/",
+              "tag": "near meaning",
+              "definition": "the bond or organization of brothers",
+              "definitionCN": "兄弟情谊或弟兄团体"
+            },
+            {
+              "word": "brethren assembly",
+              "ipa": "/ˈbreðrən əˈsembli/",
+              "tag": "phrase",
+              "definition": "a meeting of church brethren",
+              "definitionCN": "教友集会"
+            },
+            {
+              "word": "fraternity",
+              "ipa": "/frəˈtɜːnəti/",
+              "tag": "near meaning",
+              "definition": "a group of men with shared aims; brotherhood",
+              "definitionCN": "兄弟会；同业团体"
+            },
+            {
+              "word": "comrades",
+              "ipa": "/ˈkɒmreɪdz/",
+              "tag": "near meaning",
+              "definition": "fellow members of a movement",
+              "definitionCN": "同志们；同伴"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Link brethren to brother and to the -en plural of children.",
+        "cn": "把 brethren 与 brother 以及 children 的 -en 复数联系起来记。"
+      },
+      "normal": [
+        {
+          "en": "Brethren hides brethre plus -en, a doubled plural.",
+          "cn": "brethren 内含 brethre 加 -en，是双重复数。"
+        },
+        {
+          "en": "Children and brethren share the same old -en plural.",
+          "cn": "children 与 brethren 共用古英语 -en 复数词尾。"
+        },
+        {
+          "en": "Breth- echoes breath of brothers praying together.",
+          "cn": "breth- 呼应弟兄们一同祷告时的呼吸声。"
+        },
+        {
+          "en": "Churches kept the old plural long after brothers won.",
+          "cn": "brothers 胜出之后，教会仍保留这个旧复数。"
+        },
+        {
+          "en": "Brethren of the bar means fellow lawyers.",
+          "cn": "the brethren of the bar 指律师同行。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "See a circle of robed men calling each other brother.",
+          "cn": "想象一圈穿长袍的人互称弟兄。"
+        },
+        {
+          "en": "Hear one low voice say, my dear brethren.",
+          "cn": "听一个低沉的声音说：我亲爱的弟兄们。"
+        },
+        {
+          "en": "Feel two old plural endings stacked like rings.",
+          "cn": "感觉两个古老的复数词尾像两枚戒指叠在一起。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "The brethren met every Sunday in the plain brick hall.",
+        "cn": "教友们每周日在朴素的砖厅里聚会。"
+      },
+      {
+        "en": "He urged his brethren in the craft to defend the old standards.",
+        "cn": "他敦促同行的同道们捍卫旧有标准。"
+      },
+      {
+        "en": "Old sermons opened with, dearly beloved brethren.",
+        "cn": "旧式布道以「亲爱的教友们」开头。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「布瑞镇」——弟兄们从同一个镇（镇＝brethren）里出来，彼此都是「布」衣兄弟。",
+      "word": "brethren"
+    },
+    "root": "brethren 由古英语 brother 的古复数 brethre 加复数后缀 -en 叠加而成，属「双重复数」；词根上溯至原始印欧语 bhrater（男性同胞），与拉丁语 frater、梵语 bhrātr̄ 同源。",
+    "sensesIntro": {
+      "en": "From the archaic plural of brother, the word settled into church address and then into fellow-membership.",
+      "cn": "从 brother 的古复数出发，这个词固定为教会称呼，再扩展到一切同道群体。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: robed men at one table calling each other brother.",
+        "cn": "核心意象：一群穿长袍的人围着一张桌子互称弟兄。"
+      },
+      "chain": [
+        "BROTHER",
+        "OLD PLURAL",
+        "CHURCH",
+        "FRATERNITY",
+        "FELLOWSHIP",
+        "SPEECH"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "the brethren at prayer",
+          "cn": "祷告中的教友"
+        },
+        {
+          "senses": "01 · 02",
+          "en": "address the brethren",
+          "cn": "向弟兄们讲话"
+        },
+        {
+          "senses": "02",
+          "en": "brethren of the craft",
+          "cn": "同业同道"
+        },
+        {
+          "senses": "03",
+          "en": "an archaic plural",
+          "cn": "古式复数"
+        },
+        {
+          "senses": "02 · 03",
+          "en": "brethren in old texts",
+          "cn": "古文本中的 brethren"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Brethren is itself a suffixed form; its family adds further suffixes to brother.",
+        "cn": "brethren 本身就是加缀形式；其词族以 brother 为基再加后缀。"
+      },
+      "latinIntro": {
+        "en": "The root is Germanic, cognate with Latin frater rather than borrowed from it.",
+        "cn": "词根属日耳曼语系，与拉丁语 frater 同源而非借自拉丁语。"
+      },
+      "items": [
+        {
+          "word": "brother",
+          "structure": "noun base",
+          "meaning": "male sibling",
+          "meaningCN": "兄弟",
+          "example": "my younger brother",
+          "exampleCN": "我弟弟"
+        },
+        {
+          "word": "brethre",
+          "structure": "Old English plural",
+          "meaning": "old plural of brother",
+          "meaningCN": "brother 的古复数",
+          "example": "old texts write brethre",
+          "exampleCN": "古文本写 brethre"
+        },
+        {
+          "word": "-en",
+          "structure": "Old English plural suffix",
+          "meaning": "marks plurals like children, oxen",
+          "meaningCN": "古英语复数后缀，如 children、oxen",
+          "example": "children, oxen, brethren",
+          "exampleCN": "如 children、oxen、brethren 等词"
+        },
+        {
+          "word": "brethren",
+          "structure": "brethre + -en",
+          "meaning": "double plural, now religious",
+          "meaningCN": "双重复数，今用于教友",
+          "example": "the brethren gathered",
+          "exampleCN": "教友们聚会"
+        },
+        {
+          "word": "brotherhood",
+          "structure": "brother + -hood",
+          "meaning": "the state of being brothers",
+          "meaningCN": "兄弟情谊；团体",
+          "example": "a brotherhood of monks",
+          "exampleCN": "僧侣兄弟会"
+        },
+        {
+          "word": "brotherly",
+          "structure": "brother + -ly",
+          "meaning": "like a brother",
+          "meaningCN": "兄弟般的",
+          "example": "brotherly advice",
+          "exampleCN": "兄弟般的忠告"
+        },
+        {
+          "word": "brotherly love",
+          "structure": "compound",
+          "meaning": "affection between brothers or fellows",
+          "meaningCN": "手足之情",
+          "example": "preach brotherly love",
+          "exampleCN": "宣讲手足之情"
+        },
+        {
+          "word": "fraternity",
+          "structure": "Latin cognate frater + -ity",
+          "meaning": "brotherhood, brotherly group",
+          "meaningCN": "兄弟会；友爱",
+          "example": "a college fraternity",
+          "exampleCN": "大学兄弟会"
+        },
+        {
+          "word": "fraternal",
+          "structure": "Latin cognate frater + -al",
+          "meaning": "brotherly",
+          "meaningCN": "兄弟般的",
+          "example": "fraternal feelings",
+          "exampleCN": "兄弟般的情谊"
+        },
+        {
+          "word": "friar",
+          "structure": "same root via Old French frere",
+          "meaning": "a member of a mendicant order",
+          "meaningCN": "修士（与 brother 同源）",
+          "example": "a friar in a grey robe",
+          "exampleCN": "灰袍修士"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "frater",
+          "structure": "Latin noun, cognate",
+          "meaning": "brother",
+          "meaningCN": "兄弟"
+        },
+        {
+          "word": "fraternitas",
+          "structure": "Latin noun",
+          "meaning": "brotherhood",
+          "meaningCN": "兄弟情谊"
+        }
+      ],
+      "derivatives": [
+        {
+          "word": "brotherhood",
+          "pos": "n.",
+          "zh": "兄弟情谊；团体"
+        },
+        {
+          "word": "brotherly",
+          "pos": "adj.",
+          "zh": "兄弟般的"
+        }
+      ]
+    }
   }
-}
+]

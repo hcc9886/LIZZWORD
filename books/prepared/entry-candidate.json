@@ -1,0 +1,384 @@
+{
+  "word": "candidate",
+  "ipa_uk": "/ˈkændɪdət/",
+  "ipa_us": "/ˈkændɪdət/",
+  "definition_zh": "候选人；申请人；考生",
+  "definition_en": "a person who is trying to be elected or chosen for something",
+  "core_image": "站在台上等待点名的人",
+  "scene": "面试室外排着长队。Each candidate waited for the door to open.",
+  "sceneCN": "这里 candidate 是「候选人」（第 1 个义项：争取职位或被选中的人）；句意是每位候选人都等着门打开。",
+  "pos": [
+    {
+      "tag": "n.",
+      "zh": "名词：候选人；申请人"
+    },
+    {
+      "tag": "n.",
+      "zh": "名词：考生，应试者"
+    }
+  ],
+  "collocations": [
+    {
+      "phrase": "a presidential candidate",
+      "zh": "总统候选人"
+    },
+    {
+      "phrase": "a job candidate",
+      "zh": "求职候选人"
+    },
+    {
+      "phrase": "a strong candidate",
+      "zh": "有力的竞争者"
+    },
+    {
+      "phrase": "interview a candidate",
+      "zh": "面试候选人"
+    },
+    {
+      "phrase": "a candidate for the post",
+      "zh": "该职位的候选人"
+    }
+  ],
+  "forms": [
+    {
+      "label": "复数",
+      "form": "candidates"
+    }
+  ],
+  "derivatives": [
+    {
+      "word": "candidacy",
+      "pos": "n.",
+      "zh": "候选人资格，竞选身份"
+    },
+    {
+      "word": "candidature",
+      "pos": "n.",
+      "zh": "候选资格，英式说法"
+    },
+    {
+      "word": "candid",
+      "pos": "adj.",
+      "zh": "坦率的，与 candidate 同源，本义为洁白的"
+    }
+  ],
+  "senses": [
+    {
+      "no": "01",
+      "title": "A person seeking election",
+      "titleCN": "候选人",
+      "definition": "a person competing for a post or office in an election",
+      "definitionCN": "在选举中竞争职位的人",
+      "example": "Three candidates stood for mayor.",
+      "exampleCN": "三位候选人竞选市长。",
+      "why": "The core image is a person standing forward to be named.",
+      "whyCN": "核心意象是一个人站到前面等待被点名。"
+    },
+    {
+      "no": "02",
+      "title": "A person applying for a job",
+      "titleCN": "申请人",
+      "definition": "a person being considered for a job or place",
+      "definitionCN": "被考虑录用或录取的人",
+      "example": "Each candidate waited for the door to open.",
+      "exampleCN": "每位申请人都等着门打开。",
+      "why": "Being chosen for a job repeats the old idea of standing for selection.",
+      "whyCN": "被挑选录用，沿用了站到前面等候挑选的旧意象。"
+    },
+    {
+      "no": "03",
+      "title": "A person taking an exam",
+      "titleCN": "考生",
+      "definition": "a person who sits an examination",
+      "definitionCN": "参加考试的人",
+      "example": "Candidates must bring a pencil.",
+      "exampleCN": "考生必须自带铅笔。",
+      "why": "An exam is another selection, so the person examined is a candidate.",
+      "whyCN": "考试也是一种挑选，所以应试者同样叫 candidate。"
+    }
+  ],
+  "etymology": {
+    "intro": {
+      "en": "Candidate comes from the white robe worn by Roman office seekers.",
+      "cn": "candidate 来自罗马竞选者所穿的白色长袍。"
+    },
+    "items": [
+      {
+        "era": "LATIN",
+        "en": "candidus meant bright white.",
+        "cn": "拉丁语 candidus 意为明亮的白色。"
+      },
+      {
+        "era": "LATIN",
+        "en": "candidatus named a man dressed in white.",
+        "cn": "candidatus 指穿白衣的人。"
+      },
+      {
+        "era": "LATIN",
+        "en": "Roman seekers of office wore a white toga.",
+        "cn": "罗马求官者穿白色托加袍以示清白。"
+      },
+      {
+        "era": "ENGLISH, 17TH C.",
+        "en": "candidate named a person standing for office.",
+        "cn": "十七世纪英语 candidate 指竞选职位的人。"
+      },
+      {
+        "era": "MODERN ENGLISH",
+        "en": "Candidate covers elections, job applications and exams.",
+        "cn": "现代英语中 candidate 兼指竞选者、求职者与考生。"
+      }
+    ]
+  },
+  "similar": {
+    "note": {
+      "en": "The look-alike group shares the candid- base; the near-meaning group gives other contenders.",
+      "cn": "形近组共用 candid- 词基；近义组是其他竞争者。"
+    },
+    "groups": [
+      {
+        "heading": "LOOK-ALIKE",
+        "entries": [
+          {
+            "word": "candidacy",
+            "ipa": "/ˈkændɪdəsi/",
+            "tag": "derived form",
+            "definition": "the position of being a candidate",
+            "definitionCN": "候选人资格"
+          },
+          {
+            "word": "candidature",
+            "ipa": "/ˈkændɪdətʃə/",
+            "tag": "derived form",
+            "definition": "the state of standing as a candidate",
+            "definitionCN": "候选身份"
+          },
+          {
+            "word": "candid",
+            "ipa": "/ˈkændɪd/",
+            "tag": "same root",
+            "definition": "honest and direct",
+            "definitionCN": "坦率的，本义与洁白有关"
+          }
+        ]
+      },
+      {
+        "heading": "NEAR MEANING",
+        "entries": [
+          {
+            "word": "applicant",
+            "ipa": "/ˈæplɪkənt/",
+            "tag": "near meaning",
+            "definition": "a person who applies for something",
+            "definitionCN": "申请人"
+          },
+          {
+            "word": "nominee",
+            "ipa": "/ˌnɒmɪˈniː/",
+            "tag": "near meaning",
+            "definition": "a person formally proposed for a post",
+            "definitionCN": "被提名的人"
+          },
+          {
+            "word": "contender",
+            "ipa": "/kənˈtendə/",
+            "tag": "related",
+            "definition": "a person competing for a prize",
+            "definitionCN": "角逐者"
+          }
+        ]
+      }
+    ]
+  },
+  "mnemonics": {
+    "normalIntro": {
+      "en": "Candidate began as a white-robed office seeker.",
+      "cn": "candidate 最初指身穿白衣求官的人。"
+    },
+    "normal": [
+      {
+        "en": "The plural is candidates.",
+        "cn": "复数是 candidates。"
+      },
+      {
+        "en": "A strong candidate has good chances.",
+        "cn": "strong candidate 指有力的竞争者。"
+      },
+      {
+        "en": "Interview a candidate is a common phrase.",
+        "cn": "interview a candidate 是常见说法。"
+      },
+      {
+        "en": "Candidacy means the candidate's status.",
+        "cn": "candidacy 指候选人身份。"
+      },
+      {
+        "en": "Candid shares the same Latin root.",
+        "cn": "candid 与它同源于拉丁语。"
+      }
+    ],
+    "abstract": [
+      {
+        "en": "See a figure in white step onto a platform.",
+        "cn": "想象一个穿白衣的人走上台。"
+      },
+      {
+        "en": "See a row of chairs outside a closed door.",
+        "cn": "想象关着的门外一排椅子。"
+      },
+      {
+        "en": "See names listed on a board waiting to be chosen.",
+        "cn": "想象名单写在板上等人挑选。"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "en": "Each candidate waited for the door to open.",
+      "cn": "每位申请人都等着门打开。"
+    },
+    {
+      "en": "Three candidates stood for mayor.",
+      "cn": "三位候选人竞选市长。"
+    },
+    {
+      "en": "Candidates must bring a pencil.",
+      "cn": "考生必须自带铅笔。"
+    }
+  ],
+  "dict_mnemonic": {
+    "note": "拆词记忆 · 非词源",
+    "text": "candidate 里有 cand，像 candle 烛光，候选人举着烛火站在台上，等大家看清他再投票。",
+    "word": "candidate"
+  },
+  "root": "candidate 直接借自拉丁语 candidatus（穿白衣的人），词根 candidus 意为洁白；罗马求官者以白袍示清白，因此这个词转指候选人。",
+  "sensesIntro": {
+    "en": "A person seeking office, a person applying for work, and a person sitting an exam.",
+    "cn": "竞选职位的人、求职的人，以及参加考试的人。"
+  },
+  "semanticMap": {
+    "core": {
+      "en": "CORE IMAGE: a person in white standing forward to be chosen.",
+      "cn": "核心意象：一个穿白衣的人站到前面等待挑选。"
+    },
+    "chain": [
+      "WHITE",
+      "TOGA",
+      "SEEK",
+      "VOTE",
+      "INTERVIEW",
+      "CHOICE"
+    ],
+    "branches": [
+      {
+        "senses": "01",
+        "en": "a presidential candidate",
+        "cn": "总统候选人"
+      },
+      {
+        "senses": "01",
+        "en": "a strong candidate",
+        "cn": "有力的竞争者"
+      },
+      {
+        "senses": "02",
+        "en": "a job candidate",
+        "cn": "求职候选人"
+      },
+      {
+        "senses": "02",
+        "en": "interview a candidate",
+        "cn": "面试候选人"
+      },
+      {
+        "senses": "03",
+        "en": "exam candidates",
+        "cn": "考生"
+      }
+    ]
+  },
+  "affixes": {
+    "intro": {
+      "en": "Candidate forms status nouns with -cy and -ure.",
+      "cn": "candidate 能加 -cy 与 -ure 构成表示身份的名词。"
+    },
+    "latinIntro": {
+      "en": "The base is Latin candidatus, dressed in white.",
+      "cn": "词基是拉丁语 candidatus，意为穿白衣的。"
+    },
+    "items": [
+      {
+        "word": "candidate",
+        "structure": "Latin candidatus",
+        "meaning": "a person standing for office",
+        "meaningCN": "候选人",
+        "example": "a job candidate",
+        "exampleCN": "求职候选人"
+      },
+      {
+        "word": "candidacy",
+        "structure": "candidate + -cy",
+        "meaning": "the state of being a candidate",
+        "meaningCN": "候选人身份",
+        "example": "announce a candidacy",
+        "exampleCN": "宣布参选"
+      },
+      {
+        "word": "candidature",
+        "structure": "candidate + -ure",
+        "meaning": "the position of a candidate",
+        "meaningCN": "候选资格",
+        "example": "withdraw a candidature",
+        "exampleCN": "退出竞选"
+      },
+      {
+        "word": "candid",
+        "structure": "Latin candidus",
+        "meaning": "honest, open",
+        "meaningCN": "坦率的",
+        "example": "a candid answer",
+        "exampleCN": "坦率的回答"
+      },
+      {
+        "word": "applicant",
+        "structure": "apply + -ant",
+        "meaning": "a person who applies",
+        "meaningCN": "申请人",
+        "example": "a job applicant",
+        "exampleCN": "求职申请人"
+      },
+      {
+        "word": "nominee",
+        "structure": "nominate + -ee",
+        "meaning": "a person proposed for a post",
+        "meaningCN": "被提名者",
+        "example": "the party nominee",
+        "exampleCN": "政党提名人"
+      },
+      {
+        "word": "contender",
+        "structure": "contend + -er",
+        "meaning": "a person who competes",
+        "meaningCN": "角逐者",
+        "example": "a serious contender",
+        "exampleCN": "认真的角逐者"
+      },
+      {
+        "word": "election",
+        "structure": "elect + -ion",
+        "meaning": "a vote to choose someone",
+        "meaningCN": "选举",
+        "example": "a general election",
+        "exampleCN": "大选"
+      }
+    ],
+    "latinEntries": [
+      {
+        "word": "candidatus",
+        "structure": "Latin noun",
+        "meaning": "one dressed in white",
+        "meaningCN": "穿白衣的人"
+      }
+    ]
+  }
+}

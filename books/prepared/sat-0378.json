@@ -1,382 +1,384 @@
-{
- "word": "belle",
- "ipa_uk": "/bel/",
- "ipa_us": "/bɛl/",
- "definition_zh": "美女；美人；选美皇后；最亮丽的女子",
- "definition_en": "a beautiful girl or woman, especially the most beautiful one at a party or in a place",
- "core_image": "舞会中央被众人环绕、捧着花束的美丽女孩",
- "scene": "舞厅里所有人都停下目光，看向中间那位捧着玫瑰的姑娘。Everyone at the ball agreed she was the belle of the evening.",
- "sceneCN": "这里 belle 是「舞会美人」（第 1 个义项：聚会中最美的女子）；句意是全场的目光都聚在她身上，公认她是当晚的焦点美人。",
- "pos": [
+[
   {
-   "tag": "n.",
-   "zh": "美女；舞会或某地的第一美人"
-  }
- ],
- "collocations": [
-  {
-   "phrase": "the belle of the ball",
-   "zh": "舞会皇后；全场最美的女子"
-  },
-  {
-   "phrase": "the belle of the village",
-   "zh": "村里的第一美人"
-  },
-  {
-   "phrase": "a Southern belle",
-   "zh": "美国南方淑女美人"
-  },
-  {
-   "phrase": "belle of the season",
-   "zh": "社交季的名媛花魁"
-  }
- ],
- "forms": [
-  {
-   "label": "复数",
-   "form": "belles"
-  }
- ],
- "derivatives": [
-  {
-   "word": "bell",
-   "pos": "n.",
-   "zh": "拼写相近的英语本族词，义为「铃铛」，与 belle 词源无关"
-  },
-  {
-   "word": "beauty",
-   "pos": "n.",
-   "zh": "同义英语词，义为「美人；美丽」"
-  }
- ],
- "senses": [
-  {
-   "no": "01",
-   "title": "The most beautiful woman at a gathering",
-   "titleCN": "聚会中最美的女子",
-   "definition": "the girl or woman judged the most beautiful at a party, ball, or social event",
-   "definitionCN": "舞会、聚会或社交场合中公认最美的女子",
-   "example": "Everyone at the ball agreed she was the belle of the evening.",
-   "exampleCN": "全舞会的人都公认她是当晚最美的女子。",
-   "why": "The French word belle simply means beautiful, so the noun names the beautiful one.",
-   "whyCN": "法语 belle 本义就是「美丽的」，作名词即「美人」。"
-  },
-  {
-   "no": "02",
-   "title": "The most admired woman of a place",
-   "titleCN": "某地公认的美人",
-   "definition": "the woman famous in a town or region for her beauty",
-   "definitionCN": "在村镇或地区以美貌闻名的女子",
-   "example": "She was the belle of the whole county in her youth.",
-   "exampleCN": "她年轻时是全县闻名的美人。",
-   "why": "The gathering sense widens to the whole place that admires her.",
-   "whyCN": "「聚会最美」的范围扩大为「整个地方都仰慕」。"
-  }
- ],
- "etymology": {
-  "intro": {
-   "en": "Belle is the French feminine of beau, from Latin bella, beautiful.",
-   "cn": "belle 是法语 beau 的阴性形式，源自拉丁语 bella「美丽的」。"
-  },
-  "items": [
-   {
-    "era": "PROTO-INDO-EUROPEAN",
-    "en": "the root deu- or dua- meant to be fond of, to desire.",
-    "cn": "一般认为词根表示「喜爱、渴望」（重构形式）。"
-   },
-   {
-    "era": "LATIN",
-    "en": "bellus meant pretty, charming; bella was its feminine form.",
-    "cn": "拉丁语 bellus 意为「漂亮的、可爱的」，阴性为 bella。"
-   },
-   {
-    "era": "OLD FRENCH",
-    "en": "bel and belle carried the meanings beautiful and fair.",
-    "cn": "古法语 bel、belle 表示「美丽的」。"
-   },
-   {
-    "era": "ENGLISH, 17TH C.",
-    "en": "English borrowed belle for the reigning beauty of fashionable society.",
-    "cn": "十七世纪英语借入 belle，指上流社会的当红美人。"
-   },
-   {
-    "era": "AMERICAN ENGLISH, 19TH C.",
-    "en": "Southern belle named the idealized plantation beauty of the American South.",
-    "cn": "十九世纪美国英语中 Southern belle 指南方种植园文化中的理想淑女。"
-   }
-  ]
- },
- "similar": {
-  "note": {
-   "en": "The look-alike group gathers spelling neighbours; the near-meaning group gathers words for admired beauty.",
-   "cn": "形近组汇集拼写相近词；近义组汇集受仰慕的美人类词。"
-  },
-  "groups": [
-   {
-    "heading": "LOOK-ALIKE",
-    "entries": [
-     {
-      "word": "bell",
-      "ipa": "/bel/",
-      "tag": "spelling",
-      "definition": "a hollow metal instrument that rings",
-      "definitionCN": "铃铛——只差一个 l，英语本族词，词源无关"
-     },
-     {
-      "word": "bella",
-      "ipa": "/ˈbɛlə/",
-      "tag": "spelling, loan",
-      "definition": "Italian word for beautiful",
-      "definitionCN": "意大利语「美丽」，同源同义，非英语词条"
-     },
-     {
-      "word": "bellow",
-      "ipa": "/ˈbɛloʊ/",
-      "tag": "spelling",
-      "definition": "to make a deep loud cry like a bull",
-      "definitionCN": "吼叫——拼写相近，词源不同"
-     }
-    ]
-   },
-   {
-    "heading": "NEAR MEANING",
-    "entries": [
-     {
-      "word": "beauty",
-      "ipa": "/ˈbjuːti/",
-      "tag": "near synonym",
-      "definition": "a very beautiful woman",
-      "definitionCN": "美人；泛指而 belle 强调社交场合之首"
-     },
-     {
-      "word": "queen",
-      "ipa": "/kwiːn/",
-      "tag": "figurative",
-      "definition": "a woman regarded as the finest of her kind",
-      "definitionCN": "（比喻）出类拔萃的女子"
-     },
-     {
-      "word": "siren",
-      "ipa": "/ˈsaɪrən/",
-      "tag": "literary",
-      "definition": "a woman who is alluring but dangerous",
-      "definitionCN": "妖冶迷人的女子；多一分危险意味"
-     }
-    ]
-   }
-  ]
- },
- "mnemonics": {
-  "normalIntro": {
-   "en": "Belle is French for beautiful, as in La Belle Epoque.",
-   "cn": "belle 即法语「美丽」，如「美好年代」一词。"
-  },
-  "normal": [
-   {
-    "en": "The plural is belles.",
-    "cn": "复数是 belles。"
-   },
-   {
-    "en": "The belle of the ball is the loveliest guest.",
-    "cn": "舞会之花是全场最美的来客。"
-   },
-   {
-    "en": "Bell with one l is the ringing instrument.",
-    "cn": "单写 bell 是响铃。"
-   },
-   {
-    "en": "Beau is the male partner form of belle.",
-    "cn": "beau 是 belle 的阳性对应形式。"
-   },
-   {
-    "en": "Southern belle names a Southern beauty.",
-    "cn": "Southern belle 指南方美人。"
-   }
-  ],
-  "abstract": [
-   {
-    "en": "See roses and every eye turning to one girl.",
-    "cn": "看玫瑰丛中众目所归的女孩。"
-   },
-   {
-    "en": "Feel candlelight crowning her image.",
-    "cn": "感受烛光为她加冕。"
-   },
-   {
-    "en": "Picture the room parting to let her pass.",
-    "cn": "想象人群为她分开一条路。"
-   }
-  ]
- },
- "examples": [
-  {
-   "en": "Everyone at the ball agreed she was the belle of the evening.",
-   "cn": "全舞会的人都公认她是当晚最美的女子。"
-  },
-  {
-   "en": "She was the belle of the whole county in her youth.",
-   "cn": "她年轻时是全县闻名的美人。"
-  },
-  {
-   "en": "The novel tells of a Southern belle and her lost world.",
-   "cn": "小说讲述一位南方美人和她失落的旧世界。"
-  }
- ],
- "dict_mnemonic": {
-  "note": "谐音记忆 · 非词源",
-  "text": "「宝·乐」——众星捧月般的宝，走到哪儿都让人快乐。",
-  "word": "belle"
- },
- "root": "源自拉丁语 bellus「漂亮的、可爱的」（一般认为来自原始印欧词根，表「喜爱」，属重构形式），经古法语 bel、belle 进入英语；belle 为阴性形式，阳性对应词为 beau。与英语本族词 bell「铃铛」无词源关系。",
- "sensesIntro": {
-  "en": "One noun moves from the loveliest guest at a party to the famous beauty of a whole town.",
-  "cn": "一个名词，从舞会上最美的来客，扩展为一镇一县闻名的美人。"
- },
- "semanticMap": {
-  "core": {
-   "en": "CORE IMAGE: a girl with roses at the centre of every gaze.",
-   "cn": "核心意象：众目所归、捧着玫瑰的女孩。"
-  },
-  "chain": [
-   "BEAUTY",
-   "ADMIRATION",
-   "CENTRE",
-   "SOCIAL CROWN",
-   "PLACE FAME",
-   "IDEAL WOMANHOOD"
-  ],
-  "branches": [
-   {
-    "senses": "01",
-    "en": "the belle of the ball",
-    "cn": "舞会皇后"
-   },
-   {
-    "senses": "01",
-    "en": "the belle of the evening",
-    "cn": "当晚最美的女子"
-   },
-   {
-    "senses": "01",
-    "en": "belle of the season",
-    "cn": "社交季花魁"
-   },
-   {
-    "senses": "02",
-    "en": "the belle of the village",
-    "cn": "村里的第一美人"
-   },
-   {
-    "senses": "02",
-    "en": "a Southern belle",
-    "cn": "南方淑女美人"
-   }
-  ]
- },
- "affixes": {
-  "intro": {
-   "en": "Belle is a loanword, not a compound of English parts.",
-   "cn": "belle 是整体借词，并非英语部件的复合。"
-  },
-  "latinIntro": {
-   "en": "The Latin root bellus links belle to a family of beauty words.",
-   "cn": "拉丁词基 bellus 把 belle 与一批「美丽」词联系在一起。"
-  },
-  "items": [
-   {
-    "word": "bellus",
-    "structure": "Latin adjective",
-    "meaning": "pretty, charming",
-    "meaningCN": "漂亮的、可爱的",
-    "example": "puella bella",
-    "exampleCN": "美丽的姑娘"
-   },
-   {
     "word": "belle",
-    "structure": "French feminine of beau",
-    "meaning": "a beautiful woman",
-    "meaningCN": "美人",
-    "example": "the belle of the ball",
-    "exampleCN": "舞会皇后"
-   },
-   {
-    "word": "beau",
-    "structure": "French masculine",
-    "meaning": "a boyfriend or dandy",
-    "meaningCN": "男友；花花公子",
-    "example": "her devoted beau",
-    "exampleCN": "她的忠实男友"
-   },
-   {
-    "word": "belle epoque",
-    "structure": "French phrase",
-    "meaning": "the beautiful era before 1914",
-    "meaningCN": "美好年代",
-    "example": "posters of the belle epoque",
-    "exampleCN": "美好年代的海报"
-   },
-   {
-    "word": "beauteous",
-    "structure": "beauty + -ous",
-    "meaning": "beautiful, literary",
-    "meaningCN": "美丽的（文学用语）",
-    "example": "a beauteous evening",
-    "exampleCN": "美丽的夜晚"
-   },
-   {
-    "word": "embellish",
-    "structure": "Latin ad- + bellus",
-    "meaning": "to decorate, adorn",
-    "meaningCN": "装饰；润色",
-    "example": "embellish a story",
-    "exampleCN": "给故事添枝加叶"
-   },
-   {
-    "word": "belletristic",
-    "structure": "belles-lettres + -ic",
-    "meaning": "of fine literature",
-    "meaningCN": "纯文学的",
-    "example": "belletristic essays",
-    "exampleCN": "美文随笔"
-   },
-   {
-    "word": "beautiful",
-    "structure": "beauty + -ful",
-    "meaning": "very pleasing to see",
-    "meaningCN": "美丽的",
-    "example": "a beautiful garden",
-    "exampleCN": "美丽的花园"
-   },
-   {
-    "word": "belle",
-    "structure": "English noun",
-    "meaning": "the most beautiful woman of a place",
-    "meaningCN": "某地公认的美人",
-    "example": "belle of the village",
-    "exampleCN": "村里的第一美人"
-   }
-  ],
-  "latinEntries": [
-   {
-    "word": "bellus",
-    "structure": "Latin adjective",
-    "meaning": "pretty, charming; root of belle and embellish",
-    "meaningCN": "漂亮的；belle 与 embellish 的共同词源",
-    "example": "vox bella",
-    "exampleCN": "悦耳的声音"
-   }
-  ],
-  "derivatives": [
-   {
-    "word": "beau",
-    "pos": "n.",
-    "zh": "阳性对应词，义为「男友；纨绔子弟」"
-   },
-   {
-    "word": "belletristic",
-    "pos": "adj.",
-    "zh": "由法语 belles-lettres 加后缀构成，义为「纯文学的」"
-   }
-  ]
- }
-}
+    "ipa_uk": "/bel/",
+    "ipa_us": "/bɛl/",
+    "definition_zh": "美女；美人；选美皇后；最亮丽的女子",
+    "definition_en": "a beautiful girl or woman, especially the most beautiful one at a party or in a place",
+    "core_image": "舞会中央被众人环绕、捧着花束的美丽女孩",
+    "scene": "舞厅里所有人都停下目光，看向中间那位捧着玫瑰的姑娘。Everyone at the ball agreed she was the belle of the evening.",
+    "sceneCN": "这里 belle 是「舞会美人」（第 1 个义项：聚会中最美的女子）；句意是全场的目光都聚在她身上，公认她是当晚的焦点美人。",
+    "pos": [
+      {
+        "tag": "n.",
+        "zh": "美女；舞会或某地的第一美人"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "the belle of the ball",
+        "zh": "舞会皇后；全场最美的女子"
+      },
+      {
+        "phrase": "the belle of the village",
+        "zh": "村里的第一美人"
+      },
+      {
+        "phrase": "a Southern belle",
+        "zh": "美国南方淑女美人"
+      },
+      {
+        "phrase": "belle of the season",
+        "zh": "社交季的名媛花魁"
+      }
+    ],
+    "forms": [
+      {
+        "label": "复数",
+        "form": "belles"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "bell",
+        "pos": "n.",
+        "zh": "拼写相近的英语本族词，义为「铃铛」，与 belle 词源无关"
+      },
+      {
+        "word": "beauty",
+        "pos": "n.",
+        "zh": "同义英语词，义为「美人；美丽」"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "The most beautiful woman at a gathering",
+        "titleCN": "聚会中最美的女子",
+        "definition": "the girl or woman judged the most beautiful at a party, ball, or social event",
+        "definitionCN": "舞会、聚会或社交场合中公认最美的女子",
+        "example": "Everyone at the ball agreed she was the belle of the evening.",
+        "exampleCN": "全舞会的人都公认她是当晚最美的女子。",
+        "why": "The French word belle simply means beautiful, so the noun names the beautiful one.",
+        "whyCN": "法语 belle 本义就是「美丽的」，作名词即「美人」。"
+      },
+      {
+        "no": "02",
+        "title": "The most admired woman of a place",
+        "titleCN": "某地公认的美人",
+        "definition": "the woman famous in a town or region for her beauty",
+        "definitionCN": "在村镇或地区以美貌闻名的女子",
+        "example": "She was the belle of the whole county in her youth.",
+        "exampleCN": "她年轻时是全县闻名的美人。",
+        "why": "The gathering sense widens to the whole place that admires her.",
+        "whyCN": "「聚会最美」的范围扩大为「整个地方都仰慕」。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Belle is the French feminine of beau, from Latin bella, beautiful.",
+        "cn": "belle 是法语 beau 的阴性形式，源自拉丁语 bella「美丽的」。"
+      },
+      "items": [
+        {
+          "era": "PROTO-INDO-EUROPEAN",
+          "en": "the root deu- or dua- meant to be fond of, to desire.",
+          "cn": "一般认为词根表示「喜爱、渴望」（重构形式）。"
+        },
+        {
+          "era": "LATIN",
+          "en": "bellus meant pretty, charming; bella was its feminine form.",
+          "cn": "拉丁语 bellus 意为「漂亮的、可爱的」，阴性为 bella。"
+        },
+        {
+          "era": "OLD FRENCH",
+          "en": "bel and belle carried the meanings beautiful and fair.",
+          "cn": "古法语 bel、belle 表示「美丽的」。"
+        },
+        {
+          "era": "ENGLISH, 17TH C.",
+          "en": "English borrowed belle for the reigning beauty of fashionable society.",
+          "cn": "十七世纪英语借入 belle，指上流社会的当红美人。"
+        },
+        {
+          "era": "AMERICAN ENGLISH, 19TH C.",
+          "en": "Southern belle named the idealized plantation beauty of the American South.",
+          "cn": "十九世纪美国英语中 Southern belle 指南方种植园文化中的理想淑女。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "The look-alike group gathers spelling neighbours; the near-meaning group gathers words for admired beauty.",
+        "cn": "形近组汇集拼写相近词；近义组汇集受仰慕的美人类词。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "bell",
+              "ipa": "/bel/",
+              "tag": "spelling",
+              "definition": "a hollow metal instrument that rings",
+              "definitionCN": "铃铛——只差一个 l，英语本族词，词源无关"
+            },
+            {
+              "word": "bella",
+              "ipa": "/ˈbɛlə/",
+              "tag": "spelling, loan",
+              "definition": "Italian word for beautiful",
+              "definitionCN": "意大利语「美丽」，同源同义，非英语词条"
+            },
+            {
+              "word": "bellow",
+              "ipa": "/ˈbɛloʊ/",
+              "tag": "spelling",
+              "definition": "to make a deep loud cry like a bull",
+              "definitionCN": "吼叫——拼写相近，词源不同"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "beauty",
+              "ipa": "/ˈbjuːti/",
+              "tag": "near synonym",
+              "definition": "a very beautiful woman",
+              "definitionCN": "美人；泛指而 belle 强调社交场合之首"
+            },
+            {
+              "word": "queen",
+              "ipa": "/kwiːn/",
+              "tag": "figurative",
+              "definition": "a woman regarded as the finest of her kind",
+              "definitionCN": "（比喻）出类拔萃的女子"
+            },
+            {
+              "word": "siren",
+              "ipa": "/ˈsaɪrən/",
+              "tag": "literary",
+              "definition": "a woman who is alluring but dangerous",
+              "definitionCN": "妖冶迷人的女子；多一分危险意味"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Belle is French for beautiful, as in La Belle Epoque.",
+        "cn": "belle 即法语「美丽」，如「美好年代」一词。"
+      },
+      "normal": [
+        {
+          "en": "The plural is belles.",
+          "cn": "复数是 belles。"
+        },
+        {
+          "en": "The belle of the ball is the loveliest guest.",
+          "cn": "舞会之花是全场最美的来客。"
+        },
+        {
+          "en": "Bell with one l is the ringing instrument.",
+          "cn": "单写 bell 是响铃。"
+        },
+        {
+          "en": "Beau is the male partner form of belle.",
+          "cn": "beau 是 belle 的阳性对应形式。"
+        },
+        {
+          "en": "Southern belle names a Southern beauty.",
+          "cn": "Southern belle 指南方美人。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "See roses and every eye turning to one girl.",
+          "cn": "看玫瑰丛中众目所归的女孩。"
+        },
+        {
+          "en": "Feel candlelight crowning her image.",
+          "cn": "感受烛光为她加冕。"
+        },
+        {
+          "en": "Picture the room parting to let her pass.",
+          "cn": "想象人群为她分开一条路。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "Everyone at the ball agreed she was the belle of the evening.",
+        "cn": "全舞会的人都公认她是当晚最美的女子。"
+      },
+      {
+        "en": "She was the belle of the whole county in her youth.",
+        "cn": "她年轻时是全县闻名的美人。"
+      },
+      {
+        "en": "The novel tells of a Southern belle and her lost world.",
+        "cn": "小说讲述一位南方美人和她失落的旧世界。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「宝·乐」——众星捧月般的宝，走到哪儿都让人快乐。",
+      "word": "belle"
+    },
+    "root": "源自拉丁语 bellus「漂亮的、可爱的」（一般认为来自原始印欧词根，表「喜爱」，属重构形式），经古法语 bel、belle 进入英语；belle 为阴性形式，阳性对应词为 beau。与英语本族词 bell「铃铛」无词源关系。",
+    "sensesIntro": {
+      "en": "One noun moves from the loveliest guest at a party to the famous beauty of a whole town.",
+      "cn": "一个名词，从舞会上最美的来客，扩展为一镇一县闻名的美人。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: a girl with roses at the centre of every gaze.",
+        "cn": "核心意象：众目所归、捧着玫瑰的女孩。"
+      },
+      "chain": [
+        "BEAUTY",
+        "ADMIRATION",
+        "CENTRE",
+        "SOCIAL CROWN",
+        "PLACE FAME",
+        "IDEAL WOMANHOOD"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "the belle of the ball",
+          "cn": "舞会皇后"
+        },
+        {
+          "senses": "01",
+          "en": "the belle of the evening",
+          "cn": "当晚最美的女子"
+        },
+        {
+          "senses": "01",
+          "en": "belle of the season",
+          "cn": "社交季花魁"
+        },
+        {
+          "senses": "02",
+          "en": "the belle of the village",
+          "cn": "村里的第一美人"
+        },
+        {
+          "senses": "02",
+          "en": "a Southern belle",
+          "cn": "南方淑女美人"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Belle is a loanword, not a compound of English parts.",
+        "cn": "belle 是整体借词，并非英语部件的复合。"
+      },
+      "latinIntro": {
+        "en": "The Latin root bellus links belle to a family of beauty words.",
+        "cn": "拉丁词基 bellus 把 belle 与一批「美丽」词联系在一起。"
+      },
+      "items": [
+        {
+          "word": "bellus",
+          "structure": "Latin adjective",
+          "meaning": "pretty, charming",
+          "meaningCN": "漂亮的、可爱的",
+          "example": "puella bella",
+          "exampleCN": "美丽的姑娘"
+        },
+        {
+          "word": "belle",
+          "structure": "French feminine of beau",
+          "meaning": "a beautiful woman",
+          "meaningCN": "美人",
+          "example": "the belle of the ball",
+          "exampleCN": "舞会皇后"
+        },
+        {
+          "word": "beau",
+          "structure": "French masculine",
+          "meaning": "a boyfriend or dandy",
+          "meaningCN": "男友；花花公子",
+          "example": "her devoted beau",
+          "exampleCN": "她的忠实男友"
+        },
+        {
+          "word": "belle epoque",
+          "structure": "French phrase",
+          "meaning": "the beautiful era before 1914",
+          "meaningCN": "美好年代",
+          "example": "posters of the belle epoque",
+          "exampleCN": "美好年代的海报"
+        },
+        {
+          "word": "beauteous",
+          "structure": "beauty + -ous",
+          "meaning": "beautiful, literary",
+          "meaningCN": "美丽的（文学用语）",
+          "example": "a beauteous evening",
+          "exampleCN": "美丽的夜晚"
+        },
+        {
+          "word": "embellish",
+          "structure": "Latin ad- + bellus",
+          "meaning": "to decorate, adorn",
+          "meaningCN": "装饰；润色",
+          "example": "embellish a story",
+          "exampleCN": "给故事添枝加叶"
+        },
+        {
+          "word": "belletristic",
+          "structure": "belles-lettres + -ic",
+          "meaning": "of fine literature",
+          "meaningCN": "纯文学的",
+          "example": "belletristic essays",
+          "exampleCN": "美文随笔"
+        },
+        {
+          "word": "beautiful",
+          "structure": "beauty + -ful",
+          "meaning": "very pleasing to see",
+          "meaningCN": "美丽的",
+          "example": "a beautiful garden",
+          "exampleCN": "美丽的花园"
+        },
+        {
+          "word": "belle",
+          "structure": "English noun",
+          "meaning": "the most beautiful woman of a place",
+          "meaningCN": "某地公认的美人",
+          "example": "belle of the village",
+          "exampleCN": "村里的第一美人"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "bellus",
+          "structure": "Latin adjective",
+          "meaning": "pretty, charming; root of belle and embellish",
+          "meaningCN": "漂亮的；belle 与 embellish 的共同词源",
+          "example": "vox bella",
+          "exampleCN": "悦耳的声音"
+        }
+      ],
+      "derivatives": [
+        {
+          "word": "beau",
+          "pos": "n.",
+          "zh": "阳性对应词，义为「男友；纨绔子弟」"
+        },
+        {
+          "word": "belletristic",
+          "pos": "adj.",
+          "zh": "由法语 belles-lettres 加后缀构成，义为「纯文学的」"
+        }
+      ]
+    }
+  }
+]

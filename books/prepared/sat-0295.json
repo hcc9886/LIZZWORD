@@ -1,373 +1,375 @@
-{
-  "word": "attraction",
-  "ipa_uk": "/əˈtrækʃn/",
-  "ipa_us": "/əˈtrækʃn/",
-  "definition_zh": "吸引力；吸引人的事物（景点）；引力",
-  "definition_en": "the power of something to interest or please people, a place or thing that draws visitors, or a force that pulls objects together",
-  "core_image": "游乐园里最高的那座塔，人群都朝它走过去",
-  "scene": "导游在车上指着窗外一片灯火，告诉大家下一个看点。The old castle is the town's main attraction.",
-  "sceneCN": "这里 attraction 是「吸引人的地方、景点」（第 2 个义项）；句意是这座古堡是镇上最主要的景点。",
-  "pos": [
-    {
-      "tag": "n.",
-      "zh": "名词：吸引力；景点；引力"
-    }
-  ],
-  "collocations": [
-    {
-      "phrase": "tourist attraction",
-      "zh": "旅游景点"
-    },
-    {
-      "phrase": "main attraction",
-      "zh": "主要看点"
-    },
-    {
-      "phrase": "magnetic attraction",
-      "zh": "磁力吸引"
-    },
-    {
-      "phrase": "attraction to",
-      "zh": "对……的吸引"
-    },
-    {
-      "phrase": "hold an attraction",
-      "zh": "具有吸引力"
-    }
-  ],
-  "forms": [
-    {
-      "label": "复数",
-      "form": "attractions"
-    }
-  ],
-  "derivatives": [
-    {
-      "word": "attract",
-      "pos": "v.",
-      "zh": "动词：吸引"
-    },
-    {
-      "word": "attractive",
-      "pos": "adj.",
-      "zh": "形容词：有吸引力的"
-    },
-    {
-      "word": "attractively",
-      "pos": "adv.",
-      "zh": "副词：迷人地"
-    }
-  ],
-  "senses": [
-    {
-      "no": "01",
-      "title": "Pulling power",
-      "titleCN": "吸引力",
-      "definition": "the quality that makes people feel interested or drawn to something",
-      "definitionCN": "使人产生兴趣、被牵过去的那种性质",
-      "example": "The attraction of country life is its peace.",
-      "exampleCN": "乡村生活的吸引力在于它的宁静。",
-      "why": "The noun names the force itself rather than the thing exerting it, so it can describe an abstract quality like peace or freedom.",
-      "whyCN": "这个名词指的是「力」本身，而不是发出这股力的东西，所以可以形容宁静、自由这类抽象特质。"
-    },
-    {
-      "no": "02",
-      "title": "Place worth visiting",
-      "titleCN": "吸引人的事物；景点",
-      "definition": "a place or thing that people visit because it is interesting",
-      "definitionCN": "因为有趣而吸引人去参观的地方或事物",
-      "example": "The castle is the town's main attraction.",
-      "exampleCN": "这座古堡是镇上最主要的景点。",
-      "why": "The abstract pull is turned into a countable object: whatever does the pulling can be counted as one attraction among many.",
-      "whyCN": "抽象的「拉力」被具体化成可数的东西：凡是发出吸引力的，都能算作众多景点中的一个。"
-    },
-    {
-      "no": "03",
-      "title": "Force between objects",
-      "titleCN": "（物理上的）引力",
-      "definition": "a force that makes objects move toward each other",
-      "definitionCN": "使物体相互靠近的力",
-      "example": "Gravity is the force of attraction between masses.",
-      "exampleCN": "重力是物体之间相互吸引的力。",
-      "why": "Physics kept the oldest and most literal part of the word: bodies really do pull one another, with no interest or feeling involved.",
-      "whyCN": "物理学保留了这个词最古老、最字面的部分：物体确实在互相拉，其中没有兴趣或情感。"
-    }
-  ],
-  "etymology": {
-    "intro": {
-      "en": "Attraction turns the act of drawing into a thing: the pull itself.",
-      "cn": "attraction 把「拉」这个动作变成一样东西：那股拉力本身。"
-    },
-    "items": [
+[
+  {
+    "word": "attraction",
+    "ipa_uk": "/əˈtrækʃn/",
+    "ipa_us": "/əˈtrækʃn/",
+    "definition_zh": "吸引力；吸引人的事物（景点）；引力",
+    "definition_en": "the power of something to interest or please people, a place or thing that draws visitors, or a force that pulls objects together",
+    "core_image": "游乐园里最高的那座塔，人群都朝它走过去",
+    "scene": "导游在车上指着窗外一片灯火，告诉大家下一个看点。The old castle is the town's main attraction.",
+    "sceneCN": "这里 attraction 是「吸引人的地方、景点」（第 2 个义项）；句意是这座古堡是镇上最主要的景点。",
+    "pos": [
       {
-        "era": "LATIN TRAHERE",
-        "en": "trahere meant 'to draw or pull'.",
-        "cn": "trahere 意为「拉、牵引」。"
-      },
-      {
-        "era": "LATIN ATTRAHERE",
-        "en": "attrahere meant 'to draw toward'.",
-        "cn": "attrahere 意为「拉向」。"
-      },
-      {
-        "era": "LATIN ATTRACTIO",
-        "en": "attractio named the action of drawing something near.",
-        "cn": "attractio 指「把东西拉近」这一动作。"
-      },
-      {
-        "era": "FRENCH ATTRACTION",
-        "en": "French attraction carried the noun into English.",
-        "cn": "法语 attraction 把这个名词带进英语。"
-      },
-      {
-        "era": "MODERN ENGLISH",
-        "en": "English added tourist sights and the force studied in physics.",
-        "cn": "英语又加上了旅游景点与物理学研究的作用力两层意思。"
-      }
-    ]
-  },
-  "similar": {
-    "note": {
-      "en": "The look-alike group shares the tract root; the near-meaning group gives words for charm and appeal.",
-      "cn": "形近组共享 tract 词根；近义组是表示魅力与吸引的说法。"
-    },
-    "groups": [
-      {
-        "heading": "LOOK-ALIKE",
-        "entries": [
-          {
-            "word": "distraction",
-            "ipa": "/dɪˈstrækʃn/",
-            "tag": "same root",
-            "definition": "something that draws attention away",
-            "definitionCN": "使人分心的事物"
-          },
-          {
-            "word": "extraction",
-            "ipa": "/ɪkˈstrækʃn/",
-            "tag": "same root",
-            "definition": "the act of drawing something out",
-            "definitionCN": "提取；拔出"
-          },
-          {
-            "word": "traction",
-            "ipa": "/ˈtrækʃn/",
-            "tag": "same root",
-            "definition": "grip or pulling power",
-            "definitionCN": "牵引力；抓地力"
-          }
-        ]
-      },
-      {
-        "heading": "NEAR MEANING",
-        "entries": [
-          {
-            "word": "appeal",
-            "ipa": "/əˈpiːl/",
-            "tag": "near synonym",
-            "definition": "the quality of being interesting",
-            "definitionCN": "吸引力"
-          },
-          {
-            "word": "charm",
-            "ipa": "/tʃɑːm/",
-            "tag": "near synonym",
-            "definition": "a pleasing quality that attracts",
-            "definitionCN": "魅力"
-          },
-          {
-            "word": "draw",
-            "ipa": "/drɔː/",
-            "tag": "related",
-            "definition": "a person or thing that attracts",
-            "definitionCN": "有吸引力的人或物"
-          }
-        ]
-      }
-    ]
-  },
-  "mnemonics": {
-    "normalIntro": {
-      "en": "Attraction is either the pull or the thing that pulls.",
-      "cn": "attraction 要么指那股拉力，要么指发出拉力的东西。"
-    },
-    "normal": [
-      {
-        "en": "The ending -tion marks a noun built on the verb attract.",
-        "cn": "词尾 -tion 表明这是由动词 attract 构成的名词。"
-      },
-      {
-        "en": "Tourist attraction is the phrase you will meet most often in travel texts.",
-        "cn": "旅游文本里最常见的是 tourist attraction 这个搭配。"
-      },
-      {
-        "en": "Attraction to someone names a feeling of being drawn.",
-        "cn": "attraction to someone 表示被某人吸引的那种感觉。"
-      },
-      {
-        "en": "In physics, attraction is the opposite of repulsion.",
-        "cn": "在物理学里，attraction 与 repulsion 相对。"
-      },
-      {
-        "en": "The verb is attract and the adjective is attractive.",
-        "cn": "动词是 attract，形容词是 attractive。"
+        "tag": "n.",
+        "zh": "名词：吸引力；景点；引力"
       }
     ],
-    "abstract": [
+    "collocations": [
       {
-        "en": "See a lit fairground tower visible from every street.",
-        "cn": "想象一座亮着的游乐塔，从每条街都看得见。"
+        "phrase": "tourist attraction",
+        "zh": "旅游景点"
       },
       {
-        "en": "See a crowd flowing like water toward one gate.",
-        "cn": "想象人群像水一样朝同一个门口流去。"
+        "phrase": "main attraction",
+        "zh": "主要看点"
       },
       {
-        "en": "See two magnets click together across a table.",
-        "cn": "想象两块磁石隔着桌子啪地吸到一起。"
+        "phrase": "magnetic attraction",
+        "zh": "磁力吸引"
+      },
+      {
+        "phrase": "attraction to",
+        "zh": "对……的吸引"
+      },
+      {
+        "phrase": "hold an attraction",
+        "zh": "具有吸引力"
       }
-    ]
-  },
-  "examples": [
-    {
-      "en": "The attraction of country life is its peace.",
-      "cn": "乡村生活的吸引力在于它的宁静。"
-    },
-    {
-      "en": "The castle is the town's main attraction.",
-      "cn": "这座古堡是镇上最主要的景点。"
-    },
-    {
-      "en": "Gravity is the force of attraction between masses.",
-      "cn": "重力是物体之间相互吸引的力。"
-    }
-  ],
-  "dict_mnemonic": {
-    "note": "拆词记忆 · 非词源",
-    "text": "attract 加 -ion 变成名词：那股把人拉过去的力量是吸引力，被拉过去看的地方就是景点。",
-    "word": "attraction"
-  },
-  "root": "源自拉丁语 attractio，来自 attrahere「拉向」，词基 trahere 意为「拉」；经法语 attraction 进入英语，由「拉近的动作」引申为吸引力，再具体化为景点，并在物理学中指物体间的引力。",
-  "sensesIntro": {
-    "en": "One word covers the pull, the place that pulls, and the force between two bodies.",
-    "cn": "同一个词既指拉力，也指发出拉力的地方，还指两个物体之间的作用力。"
-  },
-  "semanticMap": {
-    "core": {
-      "en": "CORE IMAGE: a crowd streaming toward one lit tower.",
-      "cn": "核心意象：人群朝一座亮着的塔涌过去。"
-    },
-    "chain": [
-      "DRAW NEAR",
-      "PULLING POWER",
-      "HOLD INTEREST",
-      "PLACE PEOPLE VISIT",
-      "MAGNETIC FORCE",
-      "MUTUAL PULL"
     ],
-    "branches": [
+    "forms": [
       {
-        "senses": "01",
-        "en": "the attraction of city life",
-        "cn": "城市生活的吸引力"
-      },
-      {
-        "senses": "01",
-        "en": "feel an attraction to",
-        "cn": "对……产生好感"
-      },
-      {
-        "senses": "02",
-        "en": "tourist attraction",
-        "cn": "旅游景点"
-      },
-      {
-        "senses": "02",
-        "en": "main attraction",
-        "cn": "主要看点"
-      },
-      {
-        "senses": "03",
-        "en": "magnetic attraction",
-        "cn": "磁力吸引"
+        "label": "复数",
+        "form": "attractions"
       }
-    ]
-  },
-  "affixes": {
-    "intro": {
-      "en": "The root tract, 'to draw', runs through the whole attraction family.",
-      "cn": "词根 tract 意为「拉」，贯穿 attraction 整个词族。"
-    },
-    "latinIntro": {
-      "en": "Latin trahere also produced traction and tractor.",
-      "cn": "拉丁语 trahere 还产生了 traction 与 tractor。"
-    },
-    "items": [
+    ],
+    "derivatives": [
       {
         "word": "attract",
-        "structure": "at- (to) + tract (draw)",
-        "meaning": "to draw toward",
-        "meaningCN": "吸引",
-        "example": "attract visitors",
-        "exampleCN": "吸引游客"
-      },
-      {
-        "word": "attraction",
-        "structure": "attract + -ion",
-        "meaning": "the pull or the thing that pulls",
-        "meaningCN": "吸引力；景点",
-        "example": "a tourist attraction",
-        "exampleCN": "旅游景点"
+        "pos": "v.",
+        "zh": "动词：吸引"
       },
       {
         "word": "attractive",
-        "structure": "attract + -ive",
-        "meaning": "able to draw interest",
-        "meaningCN": "有吸引力的",
-        "example": "an attractive price",
-        "exampleCN": "诱人的价格"
+        "pos": "adj.",
+        "zh": "形容词：有吸引力的"
       },
       {
         "word": "attractively",
-        "structure": "attractive + -ly",
-        "meaning": "in a charming way",
-        "meaningCN": "迷人地",
-        "example": "attractively arranged",
-        "exampleCN": "摆放得很悦目"
-      },
-      {
-        "word": "unattractive",
-        "structure": "un- (not) + attractive",
-        "meaning": "not appealing",
-        "meaningCN": "不吸引人的",
-        "example": "an unattractive salary",
-        "exampleCN": "不诱人的薪水"
-      },
-      {
-        "word": "distract",
-        "structure": "dis- (away) + tract",
-        "meaning": "to draw attention away",
-        "meaningCN": "分散注意力",
-        "example": "distract the class",
-        "exampleCN": "让全班分心"
-      },
-      {
-        "word": "extract",
-        "structure": "ex- (out) + tract",
-        "meaning": "to draw out",
-        "meaningCN": "提取",
-        "example": "extract oil",
-        "exampleCN": "提炼油"
-      },
-      {
-        "word": "traction",
-        "structure": "tract + -ion",
-        "meaning": "pulling grip",
-        "meaningCN": "牵引力；抓地力",
-        "example": "lost traction",
-        "exampleCN": "失去抓地力"
+        "pos": "adv.",
+        "zh": "副词：迷人地"
       }
     ],
-    "latinEntries": []
+    "senses": [
+      {
+        "no": "01",
+        "title": "Pulling power",
+        "titleCN": "吸引力",
+        "definition": "the quality that makes people feel interested or drawn to something",
+        "definitionCN": "使人产生兴趣、被牵过去的那种性质",
+        "example": "The attraction of country life is its peace.",
+        "exampleCN": "乡村生活的吸引力在于它的宁静。",
+        "why": "The noun names the force itself rather than the thing exerting it, so it can describe an abstract quality like peace or freedom.",
+        "whyCN": "这个名词指的是「力」本身，而不是发出这股力的东西，所以可以形容宁静、自由这类抽象特质。"
+      },
+      {
+        "no": "02",
+        "title": "Place worth visiting",
+        "titleCN": "吸引人的事物；景点",
+        "definition": "a place or thing that people visit because it is interesting",
+        "definitionCN": "因为有趣而吸引人去参观的地方或事物",
+        "example": "The castle is the town's main attraction.",
+        "exampleCN": "这座古堡是镇上最主要的景点。",
+        "why": "The abstract pull is turned into a countable object: whatever does the pulling can be counted as one attraction among many.",
+        "whyCN": "抽象的「拉力」被具体化成可数的东西：凡是发出吸引力的，都能算作众多景点中的一个。"
+      },
+      {
+        "no": "03",
+        "title": "Force between objects",
+        "titleCN": "（物理上的）引力",
+        "definition": "a force that makes objects move toward each other",
+        "definitionCN": "使物体相互靠近的力",
+        "example": "Gravity is the force of attraction between masses.",
+        "exampleCN": "重力是物体之间相互吸引的力。",
+        "why": "Physics kept the oldest and most literal part of the word: bodies really do pull one another, with no interest or feeling involved.",
+        "whyCN": "物理学保留了这个词最古老、最字面的部分：物体确实在互相拉，其中没有兴趣或情感。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Attraction turns the act of drawing into a thing: the pull itself.",
+        "cn": "attraction 把「拉」这个动作变成一样东西：那股拉力本身。"
+      },
+      "items": [
+        {
+          "era": "LATIN TRAHERE",
+          "en": "trahere meant 'to draw or pull'.",
+          "cn": "trahere 意为「拉、牵引」。"
+        },
+        {
+          "era": "LATIN ATTRAHERE",
+          "en": "attrahere meant 'to draw toward'.",
+          "cn": "attrahere 意为「拉向」。"
+        },
+        {
+          "era": "LATIN ATTRACTIO",
+          "en": "attractio named the action of drawing something near.",
+          "cn": "attractio 指「把东西拉近」这一动作。"
+        },
+        {
+          "era": "FRENCH ATTRACTION",
+          "en": "French attraction carried the noun into English.",
+          "cn": "法语 attraction 把这个名词带进英语。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "English added tourist sights and the force studied in physics.",
+          "cn": "英语又加上了旅游景点与物理学研究的作用力两层意思。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "The look-alike group shares the tract root; the near-meaning group gives words for charm and appeal.",
+        "cn": "形近组共享 tract 词根；近义组是表示魅力与吸引的说法。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "distraction",
+              "ipa": "/dɪˈstrækʃn/",
+              "tag": "same root",
+              "definition": "something that draws attention away",
+              "definitionCN": "使人分心的事物"
+            },
+            {
+              "word": "extraction",
+              "ipa": "/ɪkˈstrækʃn/",
+              "tag": "same root",
+              "definition": "the act of drawing something out",
+              "definitionCN": "提取；拔出"
+            },
+            {
+              "word": "traction",
+              "ipa": "/ˈtrækʃn/",
+              "tag": "same root",
+              "definition": "grip or pulling power",
+              "definitionCN": "牵引力；抓地力"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "appeal",
+              "ipa": "/əˈpiːl/",
+              "tag": "near synonym",
+              "definition": "the quality of being interesting",
+              "definitionCN": "吸引力"
+            },
+            {
+              "word": "charm",
+              "ipa": "/tʃɑːm/",
+              "tag": "near synonym",
+              "definition": "a pleasing quality that attracts",
+              "definitionCN": "魅力"
+            },
+            {
+              "word": "draw",
+              "ipa": "/drɔː/",
+              "tag": "related",
+              "definition": "a person or thing that attracts",
+              "definitionCN": "有吸引力的人或物"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Attraction is either the pull or the thing that pulls.",
+        "cn": "attraction 要么指那股拉力，要么指发出拉力的东西。"
+      },
+      "normal": [
+        {
+          "en": "The ending -tion marks a noun built on the verb attract.",
+          "cn": "词尾 -tion 表明这是由动词 attract 构成的名词。"
+        },
+        {
+          "en": "Tourist attraction is the phrase you will meet most often in travel texts.",
+          "cn": "旅游文本里最常见的是 tourist attraction 这个搭配。"
+        },
+        {
+          "en": "Attraction to someone names a feeling of being drawn.",
+          "cn": "attraction to someone 表示被某人吸引的那种感觉。"
+        },
+        {
+          "en": "In physics, attraction is the opposite of repulsion.",
+          "cn": "在物理学里，attraction 与 repulsion 相对。"
+        },
+        {
+          "en": "The verb is attract and the adjective is attractive.",
+          "cn": "动词是 attract，形容词是 attractive。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "See a lit fairground tower visible from every street.",
+          "cn": "想象一座亮着的游乐塔，从每条街都看得见。"
+        },
+        {
+          "en": "See a crowd flowing like water toward one gate.",
+          "cn": "想象人群像水一样朝同一个门口流去。"
+        },
+        {
+          "en": "See two magnets click together across a table.",
+          "cn": "想象两块磁石隔着桌子啪地吸到一起。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "The attraction of country life is its peace.",
+        "cn": "乡村生活的吸引力在于它的宁静。"
+      },
+      {
+        "en": "The castle is the town's main attraction.",
+        "cn": "这座古堡是镇上最主要的景点。"
+      },
+      {
+        "en": "Gravity is the force of attraction between masses.",
+        "cn": "重力是物体之间相互吸引的力。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "拆词记忆 · 非词源",
+      "text": "attract 加 -ion 变成名词：那股把人拉过去的力量是吸引力，被拉过去看的地方就是景点。",
+      "word": "attraction"
+    },
+    "root": "源自拉丁语 attractio，来自 attrahere「拉向」，词基 trahere 意为「拉」；经法语 attraction 进入英语，由「拉近的动作」引申为吸引力，再具体化为景点，并在物理学中指物体间的引力。",
+    "sensesIntro": {
+      "en": "One word covers the pull, the place that pulls, and the force between two bodies.",
+      "cn": "同一个词既指拉力，也指发出拉力的地方，还指两个物体之间的作用力。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: a crowd streaming toward one lit tower.",
+        "cn": "核心意象：人群朝一座亮着的塔涌过去。"
+      },
+      "chain": [
+        "DRAW NEAR",
+        "PULLING POWER",
+        "HOLD INTEREST",
+        "PLACE PEOPLE VISIT",
+        "MAGNETIC FORCE",
+        "MUTUAL PULL"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "the attraction of city life",
+          "cn": "城市生活的吸引力"
+        },
+        {
+          "senses": "01",
+          "en": "feel an attraction to",
+          "cn": "对……产生好感"
+        },
+        {
+          "senses": "02",
+          "en": "tourist attraction",
+          "cn": "旅游景点"
+        },
+        {
+          "senses": "02",
+          "en": "main attraction",
+          "cn": "主要看点"
+        },
+        {
+          "senses": "03",
+          "en": "magnetic attraction",
+          "cn": "磁力吸引"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "The root tract, 'to draw', runs through the whole attraction family.",
+        "cn": "词根 tract 意为「拉」，贯穿 attraction 整个词族。"
+      },
+      "latinIntro": {
+        "en": "Latin trahere also produced traction and tractor.",
+        "cn": "拉丁语 trahere 还产生了 traction 与 tractor。"
+      },
+      "items": [
+        {
+          "word": "attract",
+          "structure": "at- (to) + tract (draw)",
+          "meaning": "to draw toward",
+          "meaningCN": "吸引",
+          "example": "attract visitors",
+          "exampleCN": "吸引游客"
+        },
+        {
+          "word": "attraction",
+          "structure": "attract + -ion",
+          "meaning": "the pull or the thing that pulls",
+          "meaningCN": "吸引力；景点",
+          "example": "a tourist attraction",
+          "exampleCN": "旅游景点"
+        },
+        {
+          "word": "attractive",
+          "structure": "attract + -ive",
+          "meaning": "able to draw interest",
+          "meaningCN": "有吸引力的",
+          "example": "an attractive price",
+          "exampleCN": "诱人的价格"
+        },
+        {
+          "word": "attractively",
+          "structure": "attractive + -ly",
+          "meaning": "in a charming way",
+          "meaningCN": "迷人地",
+          "example": "attractively arranged",
+          "exampleCN": "摆放得很悦目"
+        },
+        {
+          "word": "unattractive",
+          "structure": "un- (not) + attractive",
+          "meaning": "not appealing",
+          "meaningCN": "不吸引人的",
+          "example": "an unattractive salary",
+          "exampleCN": "不诱人的薪水"
+        },
+        {
+          "word": "distract",
+          "structure": "dis- (away) + tract",
+          "meaning": "to draw attention away",
+          "meaningCN": "分散注意力",
+          "example": "distract the class",
+          "exampleCN": "让全班分心"
+        },
+        {
+          "word": "extract",
+          "structure": "ex- (out) + tract",
+          "meaning": "to draw out",
+          "meaningCN": "提取",
+          "example": "extract oil",
+          "exampleCN": "提炼油"
+        },
+        {
+          "word": "traction",
+          "structure": "tract + -ion",
+          "meaning": "pulling grip",
+          "meaningCN": "牵引力；抓地力",
+          "example": "lost traction",
+          "exampleCN": "失去抓地力"
+        }
+      ],
+      "latinEntries": []
+    }
   }
-}
+]

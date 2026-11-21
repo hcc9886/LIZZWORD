@@ -1,541 +1,543 @@
-{
-  "word": "autonomy",
-  "ipa_uk": "/ɔːˈtɒnəmi/",
-  "ipa_us": "/ɑːˈtɑːnəmi/",
-  "definition_zh": "自治；自主；自主权；自主性",
-  "definition_en": "the power or right to govern oneself or to act independently",
-  "core_image": "手术室里主刀医生按判断改动切口，没有等行政人员签字",
-  "scene": "手术室里，主刀医生按自己的判断改动了切口位置，没有等行政人员批准。The hospital defends the autonomy of its surgical teams.",
-  "sceneCN": "这里指专业人员在自己的领域内自主决定（第 4 个义项：专业自主权）；句意为医院维护外科团队的自主权。图中可辨识物件：手术灯、器械台、病历夹、签字笔。",
-  "pos": [
-    {
-      "tag": "n.",
-      "zh": "名词：自治；自主；自主权（不可数，指具体自治体时偶作可数）"
-    }
-  ],
-  "collocations": [
-    {
-      "phrase": "regional autonomy",
-      "zh": "区域自治"
-    },
-    {
-      "phrase": "personal autonomy",
-      "zh": "个人自主"
-    },
-    {
-      "phrase": "professional autonomy",
-      "zh": "专业自主权"
-    },
-    {
-      "phrase": "learner autonomy",
-      "zh": "学习者自主"
-    },
-    {
-      "phrase": "autonomy of universities",
-      "zh": "大学自治"
-    },
-    {
-      "phrase": "grant autonomy to",
-      "zh": "给予……自主权"
-    }
-  ],
-  "forms": [
-    {
-      "label": "单数",
-      "form": "autonomy"
-    },
-    {
-      "label": "复数（少见）",
-      "form": "autonomies"
-    }
-  ],
-  "derivatives": [
-    {
-      "word": "autonomous",
-      "pos": "adj.",
-      "zh": "由希腊词根加形容词词尾构成，义为「自治的；自主的」"
-    },
-    {
-      "word": "autonomously",
-      "pos": "adv.",
-      "zh": "由该形容词加副词词尾构成，义为「自主地」"
-    },
-    {
-      "word": "autonomist",
-      "pos": "n.",
-      "zh": "由词根加表示人的词尾构成，义为「自治主张者」"
-    },
-    {
-      "word": "heteronomy",
-      "pos": "n.",
-      "zh": "由表示「他者」的前缀加同一词根构成，义为「他律」"
-    }
-  ],
-  "senses": [
-    {
-      "no": "01",
-      "title": "Self-government of a region",
-      "titleCN": "地区的自治",
-      "definition": "the right of a region or people to govern its own affairs within a larger state",
-      "definitionCN": "地区或民族在大国之内管理自身事务的权利",
-      "example": "The province gained autonomy over its schools and hospitals.",
-      "exampleCN": "该省获得了管理本省学校与医院的自治权。",
-      "why": "The Greek word joins self and law, so autonomy is literally the power to give oneself law.",
-      "whyCN": "这个希腊词由「自我」与「法律」合成，因此自治字面上就是给自己立法的权力。"
-    },
-    {
-      "no": "02",
-      "title": "Personal autonomy",
-      "titleCN": "个人自主",
-      "definition": "the capacity of a person to make decisions without being controlled by others",
-      "definitionCN": "个人不受他人控制而自行决定的能力",
-      "example": "Patients value autonomy in decisions about their own care.",
-      "exampleCN": "病人珍视在自身照护上的自主决定权。",
-      "why": "Political self-rule became a model for the individual ruling himself.",
-      "whyCN": "政治上的自治成了个人自我治理的模型。"
-    },
-    {
-      "no": "03",
-      "title": "Institutional autonomy",
-      "titleCN": "机构自治",
-      "definition": "the freedom of an institution such as a university to set its own rules",
-      "definitionCN": "大学等机构自行制定规则的自由",
-      "example": "The reform protected the autonomy of universities in hiring.",
-      "exampleCN": "这项改革保护了大学在招聘上的自治。",
-      "why": "An institution with its own law is one that can choose its members and methods.",
-      "whyCN": "拥有自身规则的机构，才能选择自己的成员与方法。"
-    },
-    {
-      "no": "04",
-      "title": "Professional autonomy",
-      "titleCN": "专业自主权",
-      "definition": "the freedom of trained professionals to make expert judgments without outside direction",
-      "definitionCN": "受过训练的专业人员在不受外部指挥下作出专业判断的自由",
-      "example": "The college defended the autonomy of surgeons in the operating room.",
-      "exampleCN": "该院维护外科医生在手术室里的自主权。",
-      "why": "Expertise is useless if the judgment can be overridden by administrators.",
-      "whyCN": "如果专业判断能被行政人员推翻，专业知识就失去作用。"
-    },
-    {
-      "no": "05",
-      "title": "Learner autonomy",
-      "titleCN": "学习者自主",
-      "definition": "the capacity of a student to plan and monitor his or her own learning",
-      "definitionCN": "学生自行规划与监控学习的能力",
-      "example": "The course builds autonomy by letting students choose their reading.",
-      "exampleCN": "这门课通过让学生自选读物来培养自主性。",
-      "why": "Education borrowed the political word for the student who sets his own targets.",
-      "whyCN": "教育学借来这个政治词，指为自己设定目标的学生。"
-    },
-    {
-      "no": "06",
-      "title": "Job autonomy",
-      "titleCN": "工作自主",
-      "definition": "the degree of freedom an employee has in deciding how to do the work",
-      "definitionCN": "雇员在决定如何完成工作上拥有的自由程度",
-      "example": "Higher autonomy at work predicted lower staff turnover.",
-      "exampleCN": "工作中的自主权越高，员工流失率越低。",
-      "why": "Management research measures autonomy as control over method and schedule.",
-      "whyCN": "管理学把自主权测量为对方法与进度的控制。"
-    },
-    {
-      "no": "07",
-      "title": "Machine autonomy",
-      "titleCN": "机器的自主",
-      "definition": "the ability of a system to operate and decide without a human operator",
-      "definitionCN": "系统无需人操作即可运行与决策的能力",
-      "example": "Engineers tested the autonomy of the vehicle in heavy rain.",
-      "exampleCN": "工程师在暴雨中测试了这辆车的自主能力。",
-      "why": "Self-rule was extended to machines that set their own course of action.",
-      "whyCN": "「自治」被扩展到能自行决定行动路线的机器。"
-    },
-    {
-      "no": "08",
-      "title": "Moral autonomy",
-      "titleCN": "道德自主",
-      "definition": "the capacity to act according to a law one gives oneself, rather than external pressure",
-      "definitionCN": "按自己给自己立的法则而非外部压力行动的能力",
-      "example": "Moral autonomy requires judging for oneself rather than obeying blindly.",
-      "exampleCN": "道德自主要求自己判断，而不是盲目服从。",
-      "why": "Moral philosophy turned the image of self-legislation into a standard of dignity.",
-      "whyCN": "道德哲学把「自我立法」的形象变成尊严的标准。"
-    },
-    {
-      "no": "09",
-      "title": "Patient autonomy in medical ethics",
-      "titleCN": "医疗伦理中的病人自主",
-      "definition": "the principle that a patient's informed choice governs treatment",
-      "definitionCN": "病人的知情选择主导治疗方案的原则",
-      "example": "Consent forms put patient autonomy before clinical convenience.",
-      "exampleCN": "知情同意书把病人自主放在临床便利之前。",
-      "why": "Medical ethics needed a principle that could overrule a clinician's recommendation.",
-      "whyCN": "医疗伦理需要一个能推翻临床建议的原则。"
-    }
-  ],
-  "etymology": {
-    "intro": {
-      "en": "Autonomy came into English from Greek autonomia, the state of having one's own law, built from autos, self, and nomos, law or custom. It reached English through French in the seventeenth century, first as a word about states and later about persons.",
-      "cn": "这个词经法语进入英语，源头是希腊语 autonomia「拥有自己的法律的状态」，由表示「自我」的词与表示「法律、习俗」的词构成。它在十七世纪进入英语，最先用于国家，后来才用于个人。"
-    },
-    "items": [
+[
+  {
+    "word": "autonomy",
+    "ipa_uk": "/ɔːˈtɒnəmi/",
+    "ipa_us": "/ɑːˈtɑːnəmi/",
+    "definition_zh": "自治；自主；自主权；自主性",
+    "definition_en": "the power or right to govern oneself or to act independently",
+    "core_image": "手术室里主刀医生按判断改动切口，没有等行政人员签字",
+    "scene": "手术室里，主刀医生按自己的判断改动了切口位置，没有等行政人员批准。The hospital defends the autonomy of its surgical teams.",
+    "sceneCN": "这里指专业人员在自己的领域内自主决定（第 4 个义项：专业自主权）；句意为医院维护外科团队的自主权。图中可辨识物件：手术灯、器械台、病历夹、签字笔。",
+    "pos": [
       {
-        "era": "GREEK AUTOS",
-        "en": "The pronoun meant self, and it supplies the first element in autonomy, automatic and autograph.",
-        "cn": "这个词意为「自我」，是「自治」「自动」「亲笔」等词的第一个成分。"
-      },
-      {
-        "era": "GREEK NOMOS",
-        "en": "The noun meant law, custom or rule, and it also stands behind economy and astronomy.",
-        "cn": "这个名词意为法律、习俗、规则，也是「经济」与「天文」等词的成分。"
-      },
-      {
-        "era": "GREEK AUTONOMIA",
-        "en": "The noun described a community that lived under its own laws rather than those of a ruler.",
-        "cn": "这个名词描述按自己的法律而非统治者法律生活的共同体。"
-      },
-      {
-        "era": "FRENCH AUTONOMIE",
-        "en": "French carried the political word into wider European use in the early modern period.",
-        "cn": "法语在近代早期把这个政治词带进更广的欧洲使用。"
-      },
-      {
-        "era": "ENGLISH AUTONOMY, 17TH CENTURY",
-        "en": "English first applied it to states and churches, and the exact first date is uncertain.",
-        "cn": "英语最初把它用于国家与教会，确切首见年代不确定。"
-      },
-      {
-        "era": "MODERN EXTENSIONS",
-        "en": "Later centuries applied it to individuals, professions, learners, patients and machines.",
-        "cn": "后来的几个世纪把它扩展到个人、专业、学习者、病人与机器。"
-      }
-    ]
-  },
-  "similar": {
-    "note": {
-      "en": "The first group shares the Greek elements; the second group names neighbouring kinds of independence.",
-      "cn": "第一组共享希腊语成分；第二组是相邻的独立概念。"
-    },
-    "groups": [
-      {
-        "heading": "LOOK-ALIKE",
-        "entries": [
-          {
-            "word": "autonomous",
-            "ipa": "/ɔːˈtɒnəməs/",
-            "tag": "same root",
-            "definition": "The adjective for self-governing or self-directing.",
-            "definitionCN": "形容词，意为自治的、自主的。"
-          },
-          {
-            "word": "autonomously",
-            "ipa": "/ɔːˈtɒnəməsli/",
-            "tag": "same root",
-            "definition": "In a self-directed manner.",
-            "definitionCN": "指以自主方式。"
-          },
-          {
-            "word": "autonomist",
-            "ipa": "/ɔːˈtɒnəmɪst/",
-            "tag": "same root",
-            "definition": "A supporter of autonomy for a region or group.",
-            "definitionCN": "指主张地区或群体自治的人。"
-          },
-          {
-            "word": "automatic",
-            "ipa": "/ɔːˈtɒmætɪk/",
-            "tag": "shared first element",
-            "definition": "Self-acting, from the same first element but a different second one.",
-            "definitionCN": "指自动的；共享第一个成分，但第二个成分不同。"
-          },
-          {
-            "word": "heteronomy",
-            "ipa": "/ˌhetəˈrɒnəmi/",
-            "tag": "same root, opposite prefix",
-            "definition": "Rule by another, the opposite of self-rule.",
-            "definitionCN": "指由他者支配，与自治相反。"
-          }
-        ]
-      },
-      {
-        "heading": "NEAR MEANING",
-        "entries": [
-          {
-            "word": "independence",
-            "ipa": "/ˌɪndɪˈpendəns/",
-            "tag": "near meaning",
-            "definition": "Freedom from control by another, often political.",
-            "definitionCN": "指不受他人控制，多用于政治。"
-          },
-          {
-            "word": "self-government",
-            "ipa": "/ˌself ˈɡʌvənmənt/",
-            "tag": "near meaning",
-            "definition": "The act of governing oneself, used mostly of territories.",
-            "definitionCN": "指自我治理，多用于地区。"
-          },
-          {
-            "word": "sovereignty",
-            "ipa": "/ˌsəʊvəˈreɪnti/",
-            "tag": "near meaning",
-            "definition": "Supreme authority over a territory, stronger than autonomy.",
-            "definitionCN": "指对领土的最高权力，比自治更强。"
-          },
-          {
-            "word": "freedom",
-            "ipa": "/ˈfriːdəm/",
-            "tag": "near meaning",
-            "definition": "The general condition of not being constrained.",
-            "definitionCN": "指不受约束的一般状态。"
-          },
-          {
-            "word": "self-determination",
-            "ipa": "/ˌself dɪˌtɜːmɪˈneɪʃn/",
-            "tag": "near meaning",
-            "definition": "The right of a people to choose its own status.",
-            "definitionCN": "指民族自行决定自身地位的权利。"
-          }
-        ]
-      }
-    ]
-  },
-  "mnemonics": {
-    "normalIntro": {
-      "en": "Normal associations use the two Greek parts, self and law, and the domains that borrowed them.",
-      "cn": "正常联想使用两个希腊成分「自我」与「法律」，以及借用它们的各个领域。"
-    },
-    "normal": [
-      {
-        "en": "Autonomy is self plus law: the power to give yourself the rule you live by.",
-        "cn": "自治就是「自我」加「法律」：给自己立下所循规则的权力。"
-      },
-      {
-        "en": "A province with autonomy writes its own school rules, which is the political sense.",
-        "cn": "拥有自治的省份自己写学校规则，这是政治义。"
-      },
-      {
-        "en": "A surgeon with autonomy decides the incision without waiting for an administrator.",
-        "cn": "有自主权的外科医生自行决定切口，不必等行政人员。"
-      },
-      {
-        "en": "A learner with autonomy chooses the reading list, and a worker with autonomy chooses the method.",
-        "cn": "自主的学习者自选书单，自主的工人自选方法。"
-      },
-      {
-        "en": "A vehicle with autonomy chooses its own route, extending self-rule to machines.",
-        "cn": "自主的车辆自选路线，把自治扩展到机器。"
+        "tag": "n.",
+        "zh": "名词：自治；自主；自主权（不可数，指具体自治体时偶作可数）"
       }
     ],
-    "abstract": [
+    "collocations": [
       {
-        "en": "Every autonomy is a border drawn twice: once around the self, once around the law.",
-        "cn": "每一种自主都是画了两次的边界：一次围住自我，一次围住法律。"
+        "phrase": "regional autonomy",
+        "zh": "区域自治"
       },
       {
-        "en": "To be autonomous is to be the author of the rule one obeys, and also its prisoner.",
-        "cn": "自主意味着既是所循规则的作者，也是它的囚徒。"
+        "phrase": "personal autonomy",
+        "zh": "个人自主"
       },
       {
-        "en": "Institutions ask for autonomy in the same words that peoples once used for independence.",
-        "cn": "机构索要自主时用的词，与民族当年索要独立时用的是同一套。"
-      }
-    ]
-  },
-  "examples": [
-    {
-      "en": "The treaty granted autonomy to the coastal region.",
-      "cn": "条约给予沿海地区自治权。"
-    },
-    {
-      "en": "Clinical staff resisted limits on their autonomy in treatment decisions.",
-      "cn": "临床人员抵制对治疗决策自主权的限制。"
-    },
-    {
-      "en": "The software was designed to operate with greater autonomy in remote areas.",
-      "cn": "这款软件被设计成能在偏远地区以更高自主性运行。"
-    }
-  ],
-  "dict_mnemonic": {
-    "note": "谐音记忆 · 非词源",
-    "text": "读作「奥托诺米」——自己给自己定规矩，不用别人管，就是「自治、自主」：自治、自主权",
-    "word": "autonomy"
-  },
-  "root": "经法语来自希腊语 autonomia「拥有自己的法律的状态」，由 autos「自我」与 nomos「法律、习俗」构成；十七世纪进入英语，最初用于国家与教会，后扩展到个人、专业、学习者、病人与机器，确切首见年代不确定。",
-  "sensesIntro": {
-    "en": "Nine senses apply self-rule to a region, a person, an institution, a profession, a learner, a job, a machine, a moral agent and a patient.",
-    "cn": "九个义项把「自我立法」用在地区、个人、机构、专业、学习者、工作、机器、道德主体与病人身上。"
-  },
-  "semanticMap": {
-    "core": {
-      "en": "CORE IMAGE: an operating lamp above a table, and a surgeon changing the incision line without waiting for a signature.",
-      "cn": "核心意象：手术台上方的灯，以及不等签字就改动切口的医生。"
-    },
-    "chain": [
-      "SELF",
-      "OWN LAW",
-      "SELF-GOVERNMENT",
-      "INSTITUTIONAL RULE",
-      "PROFESSIONAL JUDGMENT",
-      "SELF-DIRECTING SYSTEM"
-    ],
-    "branches": [
-      {
-        "senses": "01",
-        "en": "THE POLITICAL SELF-RULE: a region lives under laws it makes.",
-        "cn": "政治自治：地区按自己制定的法律生活。"
+        "phrase": "professional autonomy",
+        "zh": "专业自主权"
       },
       {
-        "senses": "02 · 08 · 09",
-        "en": "THE PERSONAL AND MORAL SELF-RULE: a person decides, judges and consents.",
-        "cn": "个人与道德的自治：个人自行决定、判断与同意。"
+        "phrase": "learner autonomy",
+        "zh": "学习者自主"
       },
       {
-        "senses": "03 · 05",
-        "en": "THE INSTITUTION AND THE LEARNER: a body or a student sets its own course.",
-        "cn": "机构与学习者：机构或学生自定方向。"
+        "phrase": "autonomy of universities",
+        "zh": "大学自治"
       },
       {
-        "senses": "04 · 06",
-        "en": "THE PROFESSIONAL AND THE WORKER: expert judgment and control over method.",
-        "cn": "专业与工作者：专业判断，以及对方法的控制。"
-      },
-      {
-        "senses": "07",
-        "en": "THE MACHINE: a system that selects its own course of action.",
-        "cn": "机器：自行选择行动路线的系统。"
-      }
-    ]
-  },
-  "affixes": {
-    "intro": {
-      "en": "The word is Greek in both halves, self and law, with only a noun ending added in English.",
-      "cn": "这个词的两半都出自希腊语：自我与法律，英语只加了一个名词词尾。"
-    },
-    "latinIntro": {
-      "en": "There is no native Latin root for this word; the Latin forms listed are later borrowings from Greek.",
-      "cn": "这个词没有本土拉丁词根；列出的拉丁形式是后来从希腊语借入的。"
-    },
-    "items": [
-      {
-        "word": "autos",
-        "structure": "Greek pronoun",
-        "meaning": "self",
-        "meaningCN": "自我",
-        "example": "It is the first element of autonomy and automatic.",
-        "exampleCN": "它是「自治」与「自动」的第一个成分。"
-      },
-      {
-        "word": "nomos",
-        "structure": "Greek noun",
-        "meaning": "law, custom",
-        "meaningCN": "法律；习俗",
-        "example": "It is the second element of autonomy.",
-        "exampleCN": "它是「自治」的第二个成分。"
-      },
-      {
-        "word": "autonomia",
-        "structure": "Greek noun",
-        "meaning": "the state of having one's own law",
-        "meaningCN": "拥有自己的法律的状态",
-        "example": "The noun described self-governing communities.",
-        "exampleCN": "这个名词描述自治的共同体。"
-      },
-      {
-        "word": "autonomie",
-        "structure": "French noun",
-        "meaning": "autonomy",
-        "meaningCN": "自治",
-        "example": "French carried the word into wider European use.",
-        "exampleCN": "法语把这个词带进更广的欧洲使用。"
-      },
-      {
-        "word": "autonomy",
-        "structure": "English noun",
-        "meaning": "self-government; independence",
-        "meaningCN": "自治；自主",
-        "example": "English uses it for states, people and machines.",
-        "exampleCN": "英语用它指国家、人与机器。"
-      },
-      {
-        "word": "autonomous",
-        "structure": "English adjective",
-        "meaning": "self-governing",
-        "meaningCN": "自治的；自主的",
-        "example": "The adjective adds a Latin adjective ending.",
-        "exampleCN": "这个形容词加了拉丁形容词词尾。"
-      },
-      {
-        "word": "-ous",
-        "structure": "Latin adjective ending",
-        "meaning": "having the quality of",
-        "meaningCN": "具有……性质",
-        "example": "It forms the adjective from the Greek noun stem.",
-        "exampleCN": "它由希腊名词词干构成形容词。"
-      },
-      {
-        "word": "-ly",
-        "structure": "English adverb ending",
-        "meaning": "in the stated manner",
-        "meaningCN": "以所述方式",
-        "example": "It forms the adverb of manner.",
-        "exampleCN": "它构成方式副词。"
-      },
-      {
-        "word": "auto-",
-        "structure": "English prefix from Greek",
-        "meaning": "self, by oneself",
-        "meaningCN": "自我；自行",
-        "example": "It appears in automatic and autobiography.",
-        "exampleCN": "它出现在「自动」与「自传」等词里。"
-      },
-      {
-        "word": "-ist",
-        "structure": "Greek noun ending through Latin",
-        "meaning": "a supporter of",
-        "meaningCN": "主张……的人",
-        "example": "It forms the word for an advocate of autonomy.",
-        "exampleCN": "它构成指自治主张者的名词。"
+        "phrase": "grant autonomy to",
+        "zh": "给予……自主权"
       }
     ],
-    "latinEntries": [
+    "forms": [
       {
-        "word": "autonomia",
-        "structure": "Medieval Latin from Greek",
-        "meaning": "self-government",
-        "meaningCN": "自治"
+        "label": "单数",
+        "form": "autonomy"
       },
       {
-        "word": "autonomus",
-        "structure": "Medieval Latin from Greek",
-        "meaning": "self-governing",
-        "meaningCN": "自治的"
+        "label": "复数（少见）",
+        "form": "autonomies"
       }
     ],
     "derivatives": [
       {
         "word": "autonomous",
         "pos": "adj.",
-        "zh": "由希腊词干加形容词词尾构成，义为「自治的；自主的」"
+        "zh": "由希腊词根加形容词词尾构成，义为「自治的；自主的」"
       },
       {
         "word": "autonomously",
         "pos": "adv.",
-        "zh": "加副词词尾构成，义为「自主地」"
+        "zh": "由该形容词加副词词尾构成，义为「自主地」"
       },
       {
         "word": "autonomist",
         "pos": "n.",
-        "zh": "加表示人的词尾构成，义为「自治主张者」"
+        "zh": "由词根加表示人的词尾构成，义为「自治主张者」"
       },
       {
         "word": "heteronomy",
         "pos": "n.",
-        "zh": "加表示「他者」的前缀构成，义为「他律」"
+        "zh": "由表示「他者」的前缀加同一词根构成，义为「他律」"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "Self-government of a region",
+        "titleCN": "地区的自治",
+        "definition": "the right of a region or people to govern its own affairs within a larger state",
+        "definitionCN": "地区或民族在大国之内管理自身事务的权利",
+        "example": "The province gained autonomy over its schools and hospitals.",
+        "exampleCN": "该省获得了管理本省学校与医院的自治权。",
+        "why": "The Greek word joins self and law, so autonomy is literally the power to give oneself law.",
+        "whyCN": "这个希腊词由「自我」与「法律」合成，因此自治字面上就是给自己立法的权力。"
       },
       {
-        "word": "autonomy",
-        "pos": "n.",
-        "zh": "由希腊名词经法语进入英语，义为「自治；自主」"
+        "no": "02",
+        "title": "Personal autonomy",
+        "titleCN": "个人自主",
+        "definition": "the capacity of a person to make decisions without being controlled by others",
+        "definitionCN": "个人不受他人控制而自行决定的能力",
+        "example": "Patients value autonomy in decisions about their own care.",
+        "exampleCN": "病人珍视在自身照护上的自主决定权。",
+        "why": "Political self-rule became a model for the individual ruling himself.",
+        "whyCN": "政治上的自治成了个人自我治理的模型。"
+      },
+      {
+        "no": "03",
+        "title": "Institutional autonomy",
+        "titleCN": "机构自治",
+        "definition": "the freedom of an institution such as a university to set its own rules",
+        "definitionCN": "大学等机构自行制定规则的自由",
+        "example": "The reform protected the autonomy of universities in hiring.",
+        "exampleCN": "这项改革保护了大学在招聘上的自治。",
+        "why": "An institution with its own law is one that can choose its members and methods.",
+        "whyCN": "拥有自身规则的机构，才能选择自己的成员与方法。"
+      },
+      {
+        "no": "04",
+        "title": "Professional autonomy",
+        "titleCN": "专业自主权",
+        "definition": "the freedom of trained professionals to make expert judgments without outside direction",
+        "definitionCN": "受过训练的专业人员在不受外部指挥下作出专业判断的自由",
+        "example": "The college defended the autonomy of surgeons in the operating room.",
+        "exampleCN": "该院维护外科医生在手术室里的自主权。",
+        "why": "Expertise is useless if the judgment can be overridden by administrators.",
+        "whyCN": "如果专业判断能被行政人员推翻，专业知识就失去作用。"
+      },
+      {
+        "no": "05",
+        "title": "Learner autonomy",
+        "titleCN": "学习者自主",
+        "definition": "the capacity of a student to plan and monitor his or her own learning",
+        "definitionCN": "学生自行规划与监控学习的能力",
+        "example": "The course builds autonomy by letting students choose their reading.",
+        "exampleCN": "这门课通过让学生自选读物来培养自主性。",
+        "why": "Education borrowed the political word for the student who sets his own targets.",
+        "whyCN": "教育学借来这个政治词，指为自己设定目标的学生。"
+      },
+      {
+        "no": "06",
+        "title": "Job autonomy",
+        "titleCN": "工作自主",
+        "definition": "the degree of freedom an employee has in deciding how to do the work",
+        "definitionCN": "雇员在决定如何完成工作上拥有的自由程度",
+        "example": "Higher autonomy at work predicted lower staff turnover.",
+        "exampleCN": "工作中的自主权越高，员工流失率越低。",
+        "why": "Management research measures autonomy as control over method and schedule.",
+        "whyCN": "管理学把自主权测量为对方法与进度的控制。"
+      },
+      {
+        "no": "07",
+        "title": "Machine autonomy",
+        "titleCN": "机器的自主",
+        "definition": "the ability of a system to operate and decide without a human operator",
+        "definitionCN": "系统无需人操作即可运行与决策的能力",
+        "example": "Engineers tested the autonomy of the vehicle in heavy rain.",
+        "exampleCN": "工程师在暴雨中测试了这辆车的自主能力。",
+        "why": "Self-rule was extended to machines that set their own course of action.",
+        "whyCN": "「自治」被扩展到能自行决定行动路线的机器。"
+      },
+      {
+        "no": "08",
+        "title": "Moral autonomy",
+        "titleCN": "道德自主",
+        "definition": "the capacity to act according to a law one gives oneself, rather than external pressure",
+        "definitionCN": "按自己给自己立的法则而非外部压力行动的能力",
+        "example": "Moral autonomy requires judging for oneself rather than obeying blindly.",
+        "exampleCN": "道德自主要求自己判断，而不是盲目服从。",
+        "why": "Moral philosophy turned the image of self-legislation into a standard of dignity.",
+        "whyCN": "道德哲学把「自我立法」的形象变成尊严的标准。"
+      },
+      {
+        "no": "09",
+        "title": "Patient autonomy in medical ethics",
+        "titleCN": "医疗伦理中的病人自主",
+        "definition": "the principle that a patient's informed choice governs treatment",
+        "definitionCN": "病人的知情选择主导治疗方案的原则",
+        "example": "Consent forms put patient autonomy before clinical convenience.",
+        "exampleCN": "知情同意书把病人自主放在临床便利之前。",
+        "why": "Medical ethics needed a principle that could overrule a clinician's recommendation.",
+        "whyCN": "医疗伦理需要一个能推翻临床建议的原则。"
       }
-    ]
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Autonomy came into English from Greek autonomia, the state of having one's own law, built from autos, self, and nomos, law or custom. It reached English through French in the seventeenth century, first as a word about states and later about persons.",
+        "cn": "这个词经法语进入英语，源头是希腊语 autonomia「拥有自己的法律的状态」，由表示「自我」的词与表示「法律、习俗」的词构成。它在十七世纪进入英语，最先用于国家，后来才用于个人。"
+      },
+      "items": [
+        {
+          "era": "GREEK AUTOS",
+          "en": "The pronoun meant self, and it supplies the first element in autonomy, automatic and autograph.",
+          "cn": "这个词意为「自我」，是「自治」「自动」「亲笔」等词的第一个成分。"
+        },
+        {
+          "era": "GREEK NOMOS",
+          "en": "The noun meant law, custom or rule, and it also stands behind economy and astronomy.",
+          "cn": "这个名词意为法律、习俗、规则，也是「经济」与「天文」等词的成分。"
+        },
+        {
+          "era": "GREEK AUTONOMIA",
+          "en": "The noun described a community that lived under its own laws rather than those of a ruler.",
+          "cn": "这个名词描述按自己的法律而非统治者法律生活的共同体。"
+        },
+        {
+          "era": "FRENCH AUTONOMIE",
+          "en": "French carried the political word into wider European use in the early modern period.",
+          "cn": "法语在近代早期把这个政治词带进更广的欧洲使用。"
+        },
+        {
+          "era": "ENGLISH AUTONOMY, 17TH CENTURY",
+          "en": "English first applied it to states and churches, and the exact first date is uncertain.",
+          "cn": "英语最初把它用于国家与教会，确切首见年代不确定。"
+        },
+        {
+          "era": "MODERN EXTENSIONS",
+          "en": "Later centuries applied it to individuals, professions, learners, patients and machines.",
+          "cn": "后来的几个世纪把它扩展到个人、专业、学习者、病人与机器。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "The first group shares the Greek elements; the second group names neighbouring kinds of independence.",
+        "cn": "第一组共享希腊语成分；第二组是相邻的独立概念。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "autonomous",
+              "ipa": "/ɔːˈtɒnəməs/",
+              "tag": "same root",
+              "definition": "The adjective for self-governing or self-directing.",
+              "definitionCN": "形容词，意为自治的、自主的。"
+            },
+            {
+              "word": "autonomously",
+              "ipa": "/ɔːˈtɒnəməsli/",
+              "tag": "same root",
+              "definition": "In a self-directed manner.",
+              "definitionCN": "指以自主方式。"
+            },
+            {
+              "word": "autonomist",
+              "ipa": "/ɔːˈtɒnəmɪst/",
+              "tag": "same root",
+              "definition": "A supporter of autonomy for a region or group.",
+              "definitionCN": "指主张地区或群体自治的人。"
+            },
+            {
+              "word": "automatic",
+              "ipa": "/ɔːˈtɒmætɪk/",
+              "tag": "shared first element",
+              "definition": "Self-acting, from the same first element but a different second one.",
+              "definitionCN": "指自动的；共享第一个成分，但第二个成分不同。"
+            },
+            {
+              "word": "heteronomy",
+              "ipa": "/ˌhetəˈrɒnəmi/",
+              "tag": "same root, opposite prefix",
+              "definition": "Rule by another, the opposite of self-rule.",
+              "definitionCN": "指由他者支配，与自治相反。"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "independence",
+              "ipa": "/ˌɪndɪˈpendəns/",
+              "tag": "near meaning",
+              "definition": "Freedom from control by another, often political.",
+              "definitionCN": "指不受他人控制，多用于政治。"
+            },
+            {
+              "word": "self-government",
+              "ipa": "/ˌself ˈɡʌvənmənt/",
+              "tag": "near meaning",
+              "definition": "The act of governing oneself, used mostly of territories.",
+              "definitionCN": "指自我治理，多用于地区。"
+            },
+            {
+              "word": "sovereignty",
+              "ipa": "/ˌsəʊvəˈreɪnti/",
+              "tag": "near meaning",
+              "definition": "Supreme authority over a territory, stronger than autonomy.",
+              "definitionCN": "指对领土的最高权力，比自治更强。"
+            },
+            {
+              "word": "freedom",
+              "ipa": "/ˈfriːdəm/",
+              "tag": "near meaning",
+              "definition": "The general condition of not being constrained.",
+              "definitionCN": "指不受约束的一般状态。"
+            },
+            {
+              "word": "self-determination",
+              "ipa": "/ˌself dɪˌtɜːmɪˈneɪʃn/",
+              "tag": "near meaning",
+              "definition": "The right of a people to choose its own status.",
+              "definitionCN": "指民族自行决定自身地位的权利。"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Normal associations use the two Greek parts, self and law, and the domains that borrowed them.",
+        "cn": "正常联想使用两个希腊成分「自我」与「法律」，以及借用它们的各个领域。"
+      },
+      "normal": [
+        {
+          "en": "Autonomy is self plus law: the power to give yourself the rule you live by.",
+          "cn": "自治就是「自我」加「法律」：给自己立下所循规则的权力。"
+        },
+        {
+          "en": "A province with autonomy writes its own school rules, which is the political sense.",
+          "cn": "拥有自治的省份自己写学校规则，这是政治义。"
+        },
+        {
+          "en": "A surgeon with autonomy decides the incision without waiting for an administrator.",
+          "cn": "有自主权的外科医生自行决定切口，不必等行政人员。"
+        },
+        {
+          "en": "A learner with autonomy chooses the reading list, and a worker with autonomy chooses the method.",
+          "cn": "自主的学习者自选书单，自主的工人自选方法。"
+        },
+        {
+          "en": "A vehicle with autonomy chooses its own route, extending self-rule to machines.",
+          "cn": "自主的车辆自选路线，把自治扩展到机器。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "Every autonomy is a border drawn twice: once around the self, once around the law.",
+          "cn": "每一种自主都是画了两次的边界：一次围住自我，一次围住法律。"
+        },
+        {
+          "en": "To be autonomous is to be the author of the rule one obeys, and also its prisoner.",
+          "cn": "自主意味着既是所循规则的作者，也是它的囚徒。"
+        },
+        {
+          "en": "Institutions ask for autonomy in the same words that peoples once used for independence.",
+          "cn": "机构索要自主时用的词，与民族当年索要独立时用的是同一套。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "The treaty granted autonomy to the coastal region.",
+        "cn": "条约给予沿海地区自治权。"
+      },
+      {
+        "en": "Clinical staff resisted limits on their autonomy in treatment decisions.",
+        "cn": "临床人员抵制对治疗决策自主权的限制。"
+      },
+      {
+        "en": "The software was designed to operate with greater autonomy in remote areas.",
+        "cn": "这款软件被设计成能在偏远地区以更高自主性运行。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "读作「奥托诺米」——自己给自己定规矩，不用别人管，就是「自治、自主」：自治、自主权",
+      "word": "autonomy"
+    },
+    "root": "经法语来自希腊语 autonomia「拥有自己的法律的状态」，由 autos「自我」与 nomos「法律、习俗」构成；十七世纪进入英语，最初用于国家与教会，后扩展到个人、专业、学习者、病人与机器，确切首见年代不确定。",
+    "sensesIntro": {
+      "en": "Nine senses apply self-rule to a region, a person, an institution, a profession, a learner, a job, a machine, a moral agent and a patient.",
+      "cn": "九个义项把「自我立法」用在地区、个人、机构、专业、学习者、工作、机器、道德主体与病人身上。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: an operating lamp above a table, and a surgeon changing the incision line without waiting for a signature.",
+        "cn": "核心意象：手术台上方的灯，以及不等签字就改动切口的医生。"
+      },
+      "chain": [
+        "SELF",
+        "OWN LAW",
+        "SELF-GOVERNMENT",
+        "INSTITUTIONAL RULE",
+        "PROFESSIONAL JUDGMENT",
+        "SELF-DIRECTING SYSTEM"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "THE POLITICAL SELF-RULE: a region lives under laws it makes.",
+          "cn": "政治自治：地区按自己制定的法律生活。"
+        },
+        {
+          "senses": "02 · 08 · 09",
+          "en": "THE PERSONAL AND MORAL SELF-RULE: a person decides, judges and consents.",
+          "cn": "个人与道德的自治：个人自行决定、判断与同意。"
+        },
+        {
+          "senses": "03 · 05",
+          "en": "THE INSTITUTION AND THE LEARNER: a body or a student sets its own course.",
+          "cn": "机构与学习者：机构或学生自定方向。"
+        },
+        {
+          "senses": "04 · 06",
+          "en": "THE PROFESSIONAL AND THE WORKER: expert judgment and control over method.",
+          "cn": "专业与工作者：专业判断，以及对方法的控制。"
+        },
+        {
+          "senses": "07",
+          "en": "THE MACHINE: a system that selects its own course of action.",
+          "cn": "机器：自行选择行动路线的系统。"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "The word is Greek in both halves, self and law, with only a noun ending added in English.",
+        "cn": "这个词的两半都出自希腊语：自我与法律，英语只加了一个名词词尾。"
+      },
+      "latinIntro": {
+        "en": "There is no native Latin root for this word; the Latin forms listed are later borrowings from Greek.",
+        "cn": "这个词没有本土拉丁词根；列出的拉丁形式是后来从希腊语借入的。"
+      },
+      "items": [
+        {
+          "word": "autos",
+          "structure": "Greek pronoun",
+          "meaning": "self",
+          "meaningCN": "自我",
+          "example": "It is the first element of autonomy and automatic.",
+          "exampleCN": "它是「自治」与「自动」的第一个成分。"
+        },
+        {
+          "word": "nomos",
+          "structure": "Greek noun",
+          "meaning": "law, custom",
+          "meaningCN": "法律；习俗",
+          "example": "It is the second element of autonomy.",
+          "exampleCN": "它是「自治」的第二个成分。"
+        },
+        {
+          "word": "autonomia",
+          "structure": "Greek noun",
+          "meaning": "the state of having one's own law",
+          "meaningCN": "拥有自己的法律的状态",
+          "example": "The noun described self-governing communities.",
+          "exampleCN": "这个名词描述自治的共同体。"
+        },
+        {
+          "word": "autonomie",
+          "structure": "French noun",
+          "meaning": "autonomy",
+          "meaningCN": "自治",
+          "example": "French carried the word into wider European use.",
+          "exampleCN": "法语把这个词带进更广的欧洲使用。"
+        },
+        {
+          "word": "autonomy",
+          "structure": "English noun",
+          "meaning": "self-government; independence",
+          "meaningCN": "自治；自主",
+          "example": "English uses it for states, people and machines.",
+          "exampleCN": "英语用它指国家、人与机器。"
+        },
+        {
+          "word": "autonomous",
+          "structure": "English adjective",
+          "meaning": "self-governing",
+          "meaningCN": "自治的；自主的",
+          "example": "The adjective adds a Latin adjective ending.",
+          "exampleCN": "这个形容词加了拉丁形容词词尾。"
+        },
+        {
+          "word": "-ous",
+          "structure": "Latin adjective ending",
+          "meaning": "having the quality of",
+          "meaningCN": "具有……性质",
+          "example": "It forms the adjective from the Greek noun stem.",
+          "exampleCN": "它由希腊名词词干构成形容词。"
+        },
+        {
+          "word": "-ly",
+          "structure": "English adverb ending",
+          "meaning": "in the stated manner",
+          "meaningCN": "以所述方式",
+          "example": "It forms the adverb of manner.",
+          "exampleCN": "它构成方式副词。"
+        },
+        {
+          "word": "auto-",
+          "structure": "English prefix from Greek",
+          "meaning": "self, by oneself",
+          "meaningCN": "自我；自行",
+          "example": "It appears in automatic and autobiography.",
+          "exampleCN": "它出现在「自动」与「自传」等词里。"
+        },
+        {
+          "word": "-ist",
+          "structure": "Greek noun ending through Latin",
+          "meaning": "a supporter of",
+          "meaningCN": "主张……的人",
+          "example": "It forms the word for an advocate of autonomy.",
+          "exampleCN": "它构成指自治主张者的名词。"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "autonomia",
+          "structure": "Medieval Latin from Greek",
+          "meaning": "self-government",
+          "meaningCN": "自治"
+        },
+        {
+          "word": "autonomus",
+          "structure": "Medieval Latin from Greek",
+          "meaning": "self-governing",
+          "meaningCN": "自治的"
+        }
+      ],
+      "derivatives": [
+        {
+          "word": "autonomous",
+          "pos": "adj.",
+          "zh": "由希腊词干加形容词词尾构成，义为「自治的；自主的」"
+        },
+        {
+          "word": "autonomously",
+          "pos": "adv.",
+          "zh": "加副词词尾构成，义为「自主地」"
+        },
+        {
+          "word": "autonomist",
+          "pos": "n.",
+          "zh": "加表示人的词尾构成，义为「自治主张者」"
+        },
+        {
+          "word": "heteronomy",
+          "pos": "n.",
+          "zh": "加表示「他者」的前缀构成，义为「他律」"
+        },
+        {
+          "word": "autonomy",
+          "pos": "n.",
+          "zh": "由希腊名词经法语进入英语，义为「自治；自主」"
+        }
+      ]
+    }
   }
-}
+]

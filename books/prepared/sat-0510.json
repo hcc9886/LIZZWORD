@@ -1,158 +1,441 @@
-{
-  "word": "cajole",
-  "ipa_uk": "/kəˈdʒəʊl/",
-  "ipa_us": "/kəˈdʒoʊl/",
-  "definition_zh": "哄骗；用好话劝诱",
-  "definition_en": "to persuade by flattery, sweet talk or gentle urging",
-  "core_image": "摊主把一颗糖塞进孩子手里，孩子乖乖就范",
-  "scene": "集市上，摊主笑着把糖果塞给孩子。The vendor cajoled the child into tasting the cheese.",
-  "sceneCN": "这里 cajole 是「哄劝、甜言诱使」（第 1 个义项：以好话劝诱）；句意是摊主哄着孩子尝了那块奶酪。",
-  "pos": [
-    { "tag": "vt.", "zh": "哄骗；甜言蜜语地劝诱" },
-    { "tag": "vi.", "zh": "哄劝；讨好劝说" }
-  ],
-  "collocations": [
-    { "phrase": "cajole someone into doing", "zh": "哄某人做某事" },
-    { "phrase": "cajole someone out of", "zh": "哄得某人的某物" },
-    { "phrase": "cajole and flatter", "zh": "连哄带捧" },
-    { "phrase": "try to cajole", "zh": "设法哄劝" },
-    { "phrase": "cajole gently", "zh": "温言哄劝" }
-  ],
-  "forms": [
-    { "label": "过去式", "form": "cajoled" },
-    { "label": "过去分词", "form": "cajoled" },
-    { "label": "现在分词", "form": "cajoling" },
-    { "label": "三单", "form": "cajoles" },
-    { "label": "名词（同根）", "form": "cajolery" }
-  ],
-  "derivatives": [
-    { "word": "cajolery", "pos": "n.", "zh": "由 cajole 加 -ery 构成，义为「哄骗；甜言蜜语」" },
-    { "word": "cajoling", "pos": "n.", "zh": "由动词加 -ing 转名词，义为「哄劝的行为」" },
-    { "word": "cajolement", "pos": "n.", "zh": "由动词加 -ment 构成，义为「哄诱」" }
-  ],
-  "senses": [
-    {
-      "no": "01",
-      "title": "To persuade by sweet talk",
-      "titleCN": "哄骗；甜言劝诱",
-      "definition": "to persuade someone to do something by flattery or gentle deception",
-      "definitionCN": "以奉承或温和的欺骗劝使某人做某事",
-      "example": "She cajoled her father into lending the car.",
-      "exampleCN": "她哄得父亲把车借给了她。",
-      "why": "The French source literally meant to chatter like a jay.",
-      "whyCN": "法语源词本义是「像松鸦一样喋喋不休」。"
-    },
-    {
-      "no": "02",
-      "title": "To coax with persistence",
-      "titleCN": "反复哄劝；软磨硬泡",
-      "definition": "to urge gently and persistently until agreement is won",
-      "definitionCN": "以温和而持续的方式劝说得对方同意",
-      "example": "He cajoled and pleaded until the guard gave in.",
-      "exampleCN": "他又哄又求，直到卫兵让步。",
-      "why": "Sweet talk repeated long enough wears down resistance.",
-      "whyCN": "好话说得够久，抵抗便被磨平。"
-    },
-    {
-      "no": "03",
-      "title": "To obtain by coaxing",
-      "titleCN": "哄得；诱取",
-      "definition": "to get something from someone by coaxing",
-      "definitionCN": "用哄劝的方式从某人处取得",
-      "example": "The reporter cajoled a quote from the shy poet.",
-      "exampleCN": "记者哄得那位腼腆诗人说了句引语。",
-      "why": "The act extends to the prize it wins.",
-      "whyCN": "哄劝的行为延伸到它赢得的战利品。"
-    }
-  ],
-  "etymology": {
-    "intro": { "en": "Cajole descends from French cajoler, to chatter like a jay in a cage, a bird of sweet nonsense.", "cn": "cajole 源自法语 cajoler（如笼中松鸦般喋喋），像那只会说甜话的鸟。" },
-    "items": [
-      { "era": "PROTO-INDO-EUROPEAN", "en": "behind Latin gaius, a jay, stands a reconstructed root for brightness or colour, uncertain in detail.", "cn": "拉丁语 gaius（松鸦）背后是表「鲜亮、色彩」的重构词根，细节不确定。" },
-      { "era": "LATIN GAIUS", "en": "gaius named the jay, the chattering bird.", "cn": "拉丁语 gaius 指松鸦，那种爱聒噪的鸟。" },
-      { "era": "OLD FRENCH", "en": "gaiole, a cage, and jaiole tied the bird to its cage.", "cn": "古法语 gaiole（笼子）与松鸦结缘。" },
-      { "era": "FRENCH CAJOLER", "en": "cajoler came to mean to chatter, then to coax with sweet chatter.", "cn": "法语 cajoler 由「喋喋」转指「以甜言哄劝」。" },
-      { "era": "ENGLISH, 17TH C.", "en": "English borrowed cajole for insinuating persuasion.", "cn": "十七世纪英语借入 cajole，指花言巧语的劝诱。" }
-    ]
-  },
-  "similar": {
-    "note": { "en": "The look-alike group shares the cajoler family; the near-meaning group gathers persuasion words.", "cn": "形近组是 cajoler 同族；近义组是劝说类词。" },
-    "groups": [
+[
+  {
+    "word": "cajole",
+    "ipa_uk": "/kəˈdʒəʊl/",
+    "ipa_us": "/kəˈdʒoʊl/",
+    "definition_zh": "哄骗；用好话劝诱",
+    "definition_en": "to persuade by flattery, sweet talk or gentle urging",
+    "core_image": "摊主把一颗糖塞进孩子手里，孩子乖乖就范",
+    "scene": "集市上，摊主笑着把糖果塞给孩子。The vendor cajoled the child into tasting the cheese.",
+    "sceneCN": "这里 cajole 是「哄劝、甜言诱使」（第 1 个义项：以好话劝诱）；句意是摊主哄着孩子尝了那块奶酪。",
+    "pos": [
       {
-        "heading": "LOOK-ALIKE",
-        "entries": [
-          { "word": "cajolery", "ipa": "/kəˈdʒəʊləri/", "tag": "derived form", "definition": "flattering persuasion", "definitionCN": "哄骗；甜言蜜语" },
-          { "word": "cajolingly", "ipa": "/kəˈdʒəʊlɪŋli/", "tag": "derived form", "definition": "in a coaxing manner", "definitionCN": "哄劝地" },
-          { "word": "cajolement", "ipa": "/kəˈdʒəʊlmənt/", "tag": "derived form", "definition": "the act of coaxing", "definitionCN": "哄诱行为" }
-        ]
+        "tag": "vt.",
+        "zh": "哄骗；甜言蜜语地劝诱"
       },
       {
-        "heading": "NEAR MEANING",
-        "entries": [
-          { "word": "coax", "ipa": "/kəʊks/", "tag": "near meaning", "definition": "to persuade gently and persistently", "definitionCN": "哄劝；耐心劝诱" },
-          { "word": "wheedle", "ipa": "/ˈwiːdl/", "tag": "near meaning", "definition": "to persuade by flattery", "definitionCN": "以奉承骗取" },
-          { "word": "blandish", "ipa": "/ˈblændɪʃ/", "tag": "near meaning", "definition": "to flatter in order to persuade", "definitionCN": "奉承讨好以劝服" },
-          { "word": "sweet-talk", "ipa": "/ˈswiːttɔːk/", "tag": "near meaning", "definition": "to persuade with flattering speech", "definitionCN": "甜言蜜语地劝" },
-          { "word": "persuade", "ipa": "/pəˈsweɪd/", "tag": "near meaning", "definition": "to win over by reasoning or urging", "definitionCN": "劝说（中性词）" }
-        ]
+        "tag": "vi.",
+        "zh": "哄劝；讨好劝说"
       }
-    ]
-  },
-  "mnemonics": {
-    "normalIntro": { "en": "A jay in a cage chatters sweet nonsense until you give in.", "cn": "笼中松鸦甜言聒噪，直到你缴械。" },
-    "normal": [
-      { "en": "French cajoler means to chatter like a jay.", "cn": "法语 cajoler 意为像松鸦般喋喋。" },
-      { "en": "Cajole into is the key structure.", "cn": "cajole into 是关键搭配。" },
-      { "en": "Cajolery is the noun of sweet talk.", "cn": "cajolery 是「甜言蜜语」的名词。" },
-      { "en": "Coax is the gentler cousin.", "cn": "coax 是更温和的近义词。" },
-      { "en": "Wheedle adds a sly tone.", "cn": "wheedle 更带狡黠意味。" }
     ],
-    "abstract": [
-      { "en": "Hear a parrot repeat your name until you smile.", "cn": "听鹦鹉一遍遍叫你的名字，直到你笑出声。" },
-      { "en": "See an aunt press a second helping of cake on you.", "cn": "看姑姑非再给你添一块蛋糕不可。" },
-      { "en": "Feel resistance soften under a stream of compliments.", "cn": "感受抵抗力在一连串恭维下慢慢软化。" }
-    ]
-  },
-  "examples": [
-    { "en": "The negotiator cajoled both sides back to the table.", "cn": "谈判者连哄带劝把双方劝回谈判桌。" },
-    { "en": "Grandmother cajoled the secret out of him at last.", "cn": "祖母最终哄出了他的秘密。" },
-    { "en": "No amount of cajoling could change the verdict.", "cn": "再怎么哄劝也改变不了裁决。" }
-  ],
-  "dict_mnemonic": { "note": "谐音记忆 · 非词源", "text": "「卡·粥」——小孩不肯喝粥，妈妈好话说尽才把粥「喂」下去，一勺一勺哄。", "word": "cajole" },
-  "root": "cajole 源自法语 cajoler「像笼中松鸦般喋喋」，鸟笼 gaiole 与松鸦 gaia 相伴而生；甜言聒噪转指哄诱；同族词 cajolery（甜言蜜语）、cajolement（哄诱）皆由此展开。",
-  "sensesIntro": { "en": "A caged bird's chatter becomes the human art of talking others round.", "cn": "笼中鸟的聒噪，化为人类「把人哄转」的技艺。" },
-  "semanticMap": {
-    "core": { "en": "CORE IMAGE: sweet chatter wearing a stubborn listener down.", "cn": "核心意象：甜言软语磨平对方的固执。" },
-    "chain": ["CHATTER", "SWEET TONE", "PERSISTENCE", "RESISTANCE SOFTENS", "CONSENT", "GAIN"],
-    "branches": [
-      { "senses": "01", "en": "cajoled into lending the car", "cn": "被哄得把车借出" },
-      { "senses": "01", "en": "cajoled into tasting the cheese", "cn": "被哄着尝了奶酪" },
-      { "senses": "02", "en": "cajoled and pleaded till the guard gave in", "cn": "又哄又求到卫兵让步" },
-      { "senses": "03", "en": "cajoled a quote from the poet", "cn": "哄得诗人开口" },
-      { "senses": "01 · 03", "en": "the coaxing and its prize", "cn": "哄劝与其所得" }
-    ]
-  },
-  "affixes": {
-    "intro": { "en": "Cajole keeps the French verb whole; its English offspring simply add noun endings.", "cn": "cajole 保留了完整的法语动词形；其英语派生词只添名词词尾。" },
-    "latinIntro": { "en": "The root is the Latin jay gaius, via Old French cage words gaiole and jaiole.", "cn": "词根是拉丁语松鸦 gaius，经古法语笼词 gaiole、jaiole 而来。" },
-    "items": [
-      { "word": "gaius", "structure": "Latin noun", "meaning": "a jay", "meaningCN": "松鸦", "example": "garrulus glandarius", "exampleCN": "松鸦的学名" },
-      { "word": "gaiole", "structure": "Old French noun", "meaning": "a cage", "meaningCN": "笼子", "example": "en la gaiole", "exampleCN": "在笼中（古法语）" },
-      { "word": "cajoler", "structure": "French verb", "meaning": "to chatter like a caged jay; to coax", "meaningCN": "如笼中松鸦般喋喋；哄劝", "example": "cajoler un enfant", "exampleCN": "哄孩子（法语）" },
-      { "word": "cajole", "structure": "English adoption", "meaning": "to persuade by flattery", "meaningCN": "哄骗；劝诱", "example": "cajole a favour", "exampleCN": "哄得好处" },
-      { "word": "cajolery", "structure": "cajole + -ery", "meaning": "flattering persuasion", "meaningCN": "甜言蜜语；哄骗", "example": "resist his cajolery", "exampleCN": "抵制他的哄骗" },
-      { "word": "cajolement", "structure": "cajole + -ment", "meaning": "the act of coaxing", "meaningCN": "哄诱", "example": "endless cajolement", "exampleCN": "没完没了的哄诱" },
-      { "word": "coax", "structure": "English verb of obscure origin", "meaning": "to persuade gently", "meaningCN": "哄劝", "example": "coax the engine to start", "exampleCN": "哄得引擎发动" },
-      { "word": "wheedle", "structure": "Germanic verb", "meaning": "to flatter for gain", "meaningCN": "以奉承骗取", "example": "wheedle money out of", "exampleCN": "骗得某人钱财" },
-      { "word": "blandish", "structure": "Latin blandiri", "meaning": "to flatter", "meaningCN": "奉承", "example": "blandishing words", "exampleCN": "奉承的话" }
+    "collocations": [
+      {
+        "phrase": "cajole someone into doing",
+        "zh": "哄某人做某事"
+      },
+      {
+        "phrase": "cajole someone out of",
+        "zh": "哄得某人的某物"
+      },
+      {
+        "phrase": "cajole and flatter",
+        "zh": "连哄带捧"
+      },
+      {
+        "phrase": "try to cajole",
+        "zh": "设法哄劝"
+      },
+      {
+        "phrase": "cajole gently",
+        "zh": "温言哄劝"
+      }
     ],
-    "latinEntries": [
-      { "word": "gaius", "structure": "Late Latin noun (m.)", "meaning": "a jay, a chattering bird", "meaningCN": "松鸦，聒噪之鸟" }
+    "forms": [
+      {
+        "label": "过去式",
+        "form": "cajoled"
+      },
+      {
+        "label": "过去分词",
+        "form": "cajoled"
+      },
+      {
+        "label": "现在分词",
+        "form": "cajoling"
+      },
+      {
+        "label": "三单",
+        "form": "cajoles"
+      },
+      {
+        "label": "名词（同根）",
+        "form": "cajolery"
+      }
     ],
     "derivatives": [
-      { "word": "cajolery", "pos": "n.", "zh": "哄骗；甜言蜜语" },
-      { "word": "cajolement", "pos": "n.", "zh": "哄诱" },
-      { "word": "cajolingly", "pos": "adv.", "zh": "哄劝地" }
-    ]
+      {
+        "word": "cajolery",
+        "pos": "n.",
+        "zh": "由 cajole 加 -ery 构成，义为「哄骗；甜言蜜语」"
+      },
+      {
+        "word": "cajoling",
+        "pos": "n.",
+        "zh": "由动词加 -ing 转名词，义为「哄劝的行为」"
+      },
+      {
+        "word": "cajolement",
+        "pos": "n.",
+        "zh": "由动词加 -ment 构成，义为「哄诱」"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "To persuade by sweet talk",
+        "titleCN": "哄骗；甜言劝诱",
+        "definition": "to persuade someone to do something by flattery or gentle deception",
+        "definitionCN": "以奉承或温和的欺骗劝使某人做某事",
+        "example": "She cajoled her father into lending the car.",
+        "exampleCN": "她哄得父亲把车借给了她。",
+        "why": "The French source literally meant to chatter like a jay.",
+        "whyCN": "法语源词本义是「像松鸦一样喋喋不休」。"
+      },
+      {
+        "no": "02",
+        "title": "To coax with persistence",
+        "titleCN": "反复哄劝；软磨硬泡",
+        "definition": "to urge gently and persistently until agreement is won",
+        "definitionCN": "以温和而持续的方式劝说得对方同意",
+        "example": "He cajoled and pleaded until the guard gave in.",
+        "exampleCN": "他又哄又求，直到卫兵让步。",
+        "why": "Sweet talk repeated long enough wears down resistance.",
+        "whyCN": "好话说得够久，抵抗便被磨平。"
+      },
+      {
+        "no": "03",
+        "title": "To obtain by coaxing",
+        "titleCN": "哄得；诱取",
+        "definition": "to get something from someone by coaxing",
+        "definitionCN": "用哄劝的方式从某人处取得",
+        "example": "The reporter cajoled a quote from the shy poet.",
+        "exampleCN": "记者哄得那位腼腆诗人说了句引语。",
+        "why": "The act extends to the prize it wins.",
+        "whyCN": "哄劝的行为延伸到它赢得的战利品。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Cajole descends from French cajoler, to chatter like a jay in a cage, a bird of sweet nonsense.",
+        "cn": "cajole 源自法语 cajoler（如笼中松鸦般喋喋），像那只会说甜话的鸟。"
+      },
+      "items": [
+        {
+          "era": "PROTO-INDO-EUROPEAN",
+          "en": "behind Latin gaius, a jay, stands a reconstructed root for brightness or colour, uncertain in detail.",
+          "cn": "拉丁语 gaius（松鸦）背后是表「鲜亮、色彩」的重构词根，细节不确定。"
+        },
+        {
+          "era": "LATIN GAIUS",
+          "en": "gaius named the jay, the chattering bird.",
+          "cn": "拉丁语 gaius 指松鸦，那种爱聒噪的鸟。"
+        },
+        {
+          "era": "OLD FRENCH",
+          "en": "gaiole, a cage, and jaiole tied the bird to its cage.",
+          "cn": "古法语 gaiole（笼子）与松鸦结缘。"
+        },
+        {
+          "era": "FRENCH CAJOLER",
+          "en": "cajoler came to mean to chatter, then to coax with sweet chatter.",
+          "cn": "法语 cajoler 由「喋喋」转指「以甜言哄劝」。"
+        },
+        {
+          "era": "ENGLISH, 17TH C.",
+          "en": "English borrowed cajole for insinuating persuasion.",
+          "cn": "十七世纪英语借入 cajole，指花言巧语的劝诱。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "The look-alike group shares the cajoler family; the near-meaning group gathers persuasion words.",
+        "cn": "形近组是 cajoler 同族；近义组是劝说类词。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "cajolery",
+              "ipa": "/kəˈdʒəʊləri/",
+              "tag": "derived form",
+              "definition": "flattering persuasion",
+              "definitionCN": "哄骗；甜言蜜语"
+            },
+            {
+              "word": "cajolingly",
+              "ipa": "/kəˈdʒəʊlɪŋli/",
+              "tag": "derived form",
+              "definition": "in a coaxing manner",
+              "definitionCN": "哄劝地"
+            },
+            {
+              "word": "cajolement",
+              "ipa": "/kəˈdʒəʊlmənt/",
+              "tag": "derived form",
+              "definition": "the act of coaxing",
+              "definitionCN": "哄诱行为"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "coax",
+              "ipa": "/kəʊks/",
+              "tag": "near meaning",
+              "definition": "to persuade gently and persistently",
+              "definitionCN": "哄劝；耐心劝诱"
+            },
+            {
+              "word": "wheedle",
+              "ipa": "/ˈwiːdl/",
+              "tag": "near meaning",
+              "definition": "to persuade by flattery",
+              "definitionCN": "以奉承骗取"
+            },
+            {
+              "word": "blandish",
+              "ipa": "/ˈblændɪʃ/",
+              "tag": "near meaning",
+              "definition": "to flatter in order to persuade",
+              "definitionCN": "奉承讨好以劝服"
+            },
+            {
+              "word": "sweet-talk",
+              "ipa": "/ˈswiːttɔːk/",
+              "tag": "near meaning",
+              "definition": "to persuade with flattering speech",
+              "definitionCN": "甜言蜜语地劝"
+            },
+            {
+              "word": "persuade",
+              "ipa": "/pəˈsweɪd/",
+              "tag": "near meaning",
+              "definition": "to win over by reasoning or urging",
+              "definitionCN": "劝说（中性词）"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "A jay in a cage chatters sweet nonsense until you give in.",
+        "cn": "笼中松鸦甜言聒噪，直到你缴械。"
+      },
+      "normal": [
+        {
+          "en": "French cajoler means to chatter like a jay.",
+          "cn": "法语 cajoler 意为像松鸦般喋喋。"
+        },
+        {
+          "en": "Cajole into is the key structure.",
+          "cn": "cajole into 是关键搭配。"
+        },
+        {
+          "en": "Cajolery is the noun of sweet talk.",
+          "cn": "cajolery 是「甜言蜜语」的名词。"
+        },
+        {
+          "en": "Coax is the gentler cousin.",
+          "cn": "coax 是更温和的近义词。"
+        },
+        {
+          "en": "Wheedle adds a sly tone.",
+          "cn": "wheedle 更带狡黠意味。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "Hear a parrot repeat your name until you smile.",
+          "cn": "听鹦鹉一遍遍叫你的名字，直到你笑出声。"
+        },
+        {
+          "en": "See an aunt press a second helping of cake on you.",
+          "cn": "看姑姑非再给你添一块蛋糕不可。"
+        },
+        {
+          "en": "Feel resistance soften under a stream of compliments.",
+          "cn": "感受抵抗力在一连串恭维下慢慢软化。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "The negotiator cajoled both sides back to the table.",
+        "cn": "谈判者连哄带劝把双方劝回谈判桌。"
+      },
+      {
+        "en": "Grandmother cajoled the secret out of him at last.",
+        "cn": "祖母最终哄出了他的秘密。"
+      },
+      {
+        "en": "No amount of cajoling could change the verdict.",
+        "cn": "再怎么哄劝也改变不了裁决。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「卡·粥」——小孩不肯喝粥，妈妈好话说尽才把粥「喂」下去，一勺一勺哄。",
+      "word": "cajole"
+    },
+    "root": "cajole 源自法语 cajoler「像笼中松鸦般喋喋」，鸟笼 gaiole 与松鸦 gaia 相伴而生；甜言聒噪转指哄诱；同族词 cajolery（甜言蜜语）、cajolement（哄诱）皆由此展开。",
+    "sensesIntro": {
+      "en": "A caged bird's chatter becomes the human art of talking others round.",
+      "cn": "笼中鸟的聒噪，化为人类「把人哄转」的技艺。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: sweet chatter wearing a stubborn listener down.",
+        "cn": "核心意象：甜言软语磨平对方的固执。"
+      },
+      "chain": [
+        "CHATTER",
+        "SWEET TONE",
+        "PERSISTENCE",
+        "RESISTANCE SOFTENS",
+        "CONSENT",
+        "GAIN"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "cajoled into lending the car",
+          "cn": "被哄得把车借出"
+        },
+        {
+          "senses": "01",
+          "en": "cajoled into tasting the cheese",
+          "cn": "被哄着尝了奶酪"
+        },
+        {
+          "senses": "02",
+          "en": "cajoled and pleaded till the guard gave in",
+          "cn": "又哄又求到卫兵让步"
+        },
+        {
+          "senses": "03",
+          "en": "cajoled a quote from the poet",
+          "cn": "哄得诗人开口"
+        },
+        {
+          "senses": "01 · 03",
+          "en": "the coaxing and its prize",
+          "cn": "哄劝与其所得"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Cajole keeps the French verb whole; its English offspring simply add noun endings.",
+        "cn": "cajole 保留了完整的法语动词形；其英语派生词只添名词词尾。"
+      },
+      "latinIntro": {
+        "en": "The root is the Latin jay gaius, via Old French cage words gaiole and jaiole.",
+        "cn": "词根是拉丁语松鸦 gaius，经古法语笼词 gaiole、jaiole 而来。"
+      },
+      "items": [
+        {
+          "word": "gaius",
+          "structure": "Latin noun",
+          "meaning": "a jay",
+          "meaningCN": "松鸦",
+          "example": "garrulus glandarius",
+          "exampleCN": "松鸦的学名"
+        },
+        {
+          "word": "gaiole",
+          "structure": "Old French noun",
+          "meaning": "a cage",
+          "meaningCN": "笼子",
+          "example": "en la gaiole",
+          "exampleCN": "在笼中（古法语）"
+        },
+        {
+          "word": "cajoler",
+          "structure": "French verb",
+          "meaning": "to chatter like a caged jay; to coax",
+          "meaningCN": "如笼中松鸦般喋喋；哄劝",
+          "example": "cajoler un enfant",
+          "exampleCN": "哄孩子（法语）"
+        },
+        {
+          "word": "cajole",
+          "structure": "English adoption",
+          "meaning": "to persuade by flattery",
+          "meaningCN": "哄骗；劝诱",
+          "example": "cajole a favour",
+          "exampleCN": "哄得好处"
+        },
+        {
+          "word": "cajolery",
+          "structure": "cajole + -ery",
+          "meaning": "flattering persuasion",
+          "meaningCN": "甜言蜜语；哄骗",
+          "example": "resist his cajolery",
+          "exampleCN": "抵制他的哄骗"
+        },
+        {
+          "word": "cajolement",
+          "structure": "cajole + -ment",
+          "meaning": "the act of coaxing",
+          "meaningCN": "哄诱",
+          "example": "endless cajolement",
+          "exampleCN": "没完没了的哄诱"
+        },
+        {
+          "word": "coax",
+          "structure": "English verb of obscure origin",
+          "meaning": "to persuade gently",
+          "meaningCN": "哄劝",
+          "example": "coax the engine to start",
+          "exampleCN": "哄得引擎发动"
+        },
+        {
+          "word": "wheedle",
+          "structure": "Germanic verb",
+          "meaning": "to flatter for gain",
+          "meaningCN": "以奉承骗取",
+          "example": "wheedle money out of",
+          "exampleCN": "骗得某人钱财"
+        },
+        {
+          "word": "blandish",
+          "structure": "Latin blandiri",
+          "meaning": "to flatter",
+          "meaningCN": "奉承",
+          "example": "blandishing words",
+          "exampleCN": "奉承的话"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "gaius",
+          "structure": "Late Latin noun (m.)",
+          "meaning": "a jay, a chattering bird",
+          "meaningCN": "松鸦，聒噪之鸟"
+        }
+      ],
+      "derivatives": [
+        {
+          "word": "cajolery",
+          "pos": "n.",
+          "zh": "哄骗；甜言蜜语"
+        },
+        {
+          "word": "cajolement",
+          "pos": "n.",
+          "zh": "哄诱"
+        },
+        {
+          "word": "cajolingly",
+          "pos": "adv.",
+          "zh": "哄劝地"
+        }
+      ]
+    }
   }
-}
+]

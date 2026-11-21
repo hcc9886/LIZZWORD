@@ -1,396 +1,398 @@
-{
-  "word": "campaign",
-  "ipa_uk": "/kæmˈpeɪn/",
-  "ipa_us": "/kæmˈpeɪn/",
-  "definition_zh": "运动；战役；参加竞选",
-  "definition_en": "a planned series of actions to achieve a goal",
-  "core_image": "一群人举着标语走街串巷",
-  "scene": "选举前最后一周，志愿者挨家敲门。They ran a campaign to save the library.",
-  "sceneCN": "这里 campaign 是「运动」（第 1 个义项：为某目标开展的一系列行动）；句意是他们发起了一场拯救图书馆的运动。",
-  "pos": [
-    {
-      "tag": "n.",
-      "zh": "名词：运动；战役"
-    },
-    {
-      "tag": "v.",
-      "zh": "动词：参加竞选；开展运动"
-    }
-  ],
-  "collocations": [
-    {
-      "phrase": "an election campaign",
-      "zh": "竞选活动"
-    },
-    {
-      "phrase": "launch a campaign",
-      "zh": "发起运动"
-    },
-    {
-      "phrase": "a campaign against waste",
-      "zh": "反对浪费的运动"
-    },
-    {
-      "phrase": "campaign for change",
-      "zh": "为变革奔走"
-    },
-    {
-      "phrase": "a military campaign",
-      "zh": "军事战役"
-    }
-  ],
-  "forms": [
-    {
-      "label": "复数",
-      "form": "campaigns"
-    },
-    {
-      "label": "过去式",
-      "form": "campaigned"
-    },
-    {
-      "label": "过去分词",
-      "form": "campaigned"
-    },
-    {
-      "label": "现在分词",
-      "form": "campaigning"
-    }
-  ],
-  "derivatives": [
-    {
-      "word": "campaigner",
-      "pos": "n.",
-      "zh": "运动参与者，奔走呼吁的人"
-    },
-    {
-      "word": "campaigning",
-      "pos": "n.",
-      "zh": "竞选活动，运动开展"
-    },
-    {
-      "word": "camp",
-      "pos": "n.",
-      "zh": "营地，与 campaign 同源"
-    }
-  ],
-  "senses": [
-    {
-      "no": "01",
-      "title": "An organized drive for a goal",
-      "titleCN": "运动",
-      "definition": "a planned set of actions aimed at changing something",
-      "definitionCN": "为改变某事而策划的一系列行动",
-      "example": "They ran a campaign to save the library.",
-      "exampleCN": "他们发起了一场拯救图书馆的运动。",
-      "why": "The core image is a group marching with banners through streets.",
-      "whyCN": "核心意象是一群人举着标语在街上游行。"
-    },
-    {
-      "no": "02",
-      "title": "A series of military operations",
-      "titleCN": "战役",
-      "definition": "a connected series of battles fought for one aim",
-      "definitionCN": "为同一目标进行的一系列战斗",
-      "example": "The winter campaign ended in the mountains.",
-      "exampleCN": "冬季战役在群山中结束。",
-      "why": "The word first named armies taking the field for a season.",
-      "whyCN": "这个词最早指军队开赴野外作战的一个季节。"
-    },
-    {
-      "no": "03",
-      "title": "To work for a cause or office",
-      "titleCN": "参加竞选",
-      "definition": "to take part in a planned effort to win support or votes",
-      "definitionCN": "参与争取支持或选票的有计划行动",
-      "example": "She campaigned for a seat on the council.",
-      "exampleCN": "她为争取议会席位参加竞选。",
-      "why": "The noun became a verb for taking part in such an effort.",
-      "whyCN": "名词转为动词，指参与这类行动。"
-    }
-  ],
-  "etymology": {
-    "intro": {
-      "en": "Campaign came from the Italian word for open country.",
-      "cn": "campaign 来自意大利语里表示开阔乡野的词。"
-    },
-    "items": [
+[
+  {
+    "word": "campaign",
+    "ipa_uk": "/kæmˈpeɪn/",
+    "ipa_us": "/kæmˈpeɪn/",
+    "definition_zh": "运动；战役；参加竞选",
+    "definition_en": "a planned series of actions to achieve a goal",
+    "core_image": "一群人举着标语走街串巷",
+    "scene": "选举前最后一周，志愿者挨家敲门。They ran a campaign to save the library.",
+    "sceneCN": "这里 campaign 是「运动」（第 1 个义项：为某目标开展的一系列行动）；句意是他们发起了一场拯救图书馆的运动。",
+    "pos": [
       {
-        "era": "LATIN",
-        "en": "campus meant a field.",
-        "cn": "拉丁语 campus 意为田野。"
+        "tag": "n.",
+        "zh": "名词：运动；战役"
       },
       {
-        "era": "ITALIAN",
-        "en": "campagna named the open countryside.",
-        "cn": "意大利语 campagna 指开阔乡野。"
-      },
-      {
-        "era": "FRENCH",
-        "en": "campagne named a season of military operations.",
-        "cn": "法语 campagne 指一个作战季节。"
-      },
-      {
-        "era": "SEVENTEENTH CENTURY",
-        "en": "English campaign first meant a military campaign.",
-        "cn": "英语 campaign 最初指军事战役。"
-      },
-      {
-        "era": "MODERN ENGLISH",
-        "en": "Campaign covers elections, publicity and the verb to campaign.",
-        "cn": "现代英语中 campaign 兼指竞选、宣传与开展运动。"
-      }
-    ]
-  },
-  "similar": {
-    "note": {
-      "en": "The look-alike group shares the camp base; the near-meaning group gives other organized efforts.",
-      "cn": "形近组共用 camp 词基；近义组是其他有组织的行动。"
-    },
-    "groups": [
-      {
-        "heading": "LOOK-ALIKE",
-        "entries": [
-          {
-            "word": "campaigner",
-            "ipa": "/kæmˈpeɪnə/",
-            "tag": "derived form",
-            "definition": "a person who works for a cause",
-            "definitionCN": "运动参与者"
-          },
-          {
-            "word": "campaigning",
-            "ipa": "/kæmˈpeɪnɪŋ/",
-            "tag": "derived form",
-            "definition": "the activity of running a campaign",
-            "definitionCN": "竞选活动"
-          },
-          {
-            "word": "camp",
-            "ipa": "/kæmp/",
-            "tag": "same root",
-            "definition": "a place of tents",
-            "definitionCN": "营地"
-          }
-        ]
-      },
-      {
-        "heading": "NEAR MEANING",
-        "entries": [
-          {
-            "word": "drive",
-            "ipa": "/draɪv/",
-            "tag": "near meaning",
-            "definition": "an organized effort to reach a goal",
-            "definitionCN": "有组织的努力"
-          },
-          {
-            "word": "crusade",
-            "ipa": "/kruːˈseɪd/",
-            "tag": "near meaning",
-            "definition": "a long energetic campaign for a cause",
-            "definitionCN": "长期而热烈的运动"
-          },
-          {
-            "word": "battle",
-            "ipa": "/ˈbætl/",
-            "tag": "related",
-            "definition": "a fight between armed forces",
-            "definitionCN": "武装力量之间的战斗"
-          }
-        ]
-      }
-    ]
-  },
-  "mnemonics": {
-    "normalIntro": {
-      "en": "Campaign moved from a field of battle to a drive for votes.",
-      "cn": "campaign 从战场走到了争取选票的运动。"
-    },
-    "normal": [
-      {
-        "en": "The plural is campaigns.",
-        "cn": "复数是 campaigns。"
-      },
-      {
-        "en": "Launch a campaign means start one.",
-        "cn": "launch a campaign 义为发起运动。"
-      },
-      {
-        "en": "An election campaign seeks votes.",
-        "cn": "竞选活动争取选票。"
-      },
-      {
-        "en": "A campaigner works for a cause.",
-        "cn": "campaigner 为某项事业奔走。"
-      },
-      {
-        "en": "The word is related to camp.",
-        "cn": "这个词与 camp 同源。"
+        "tag": "v.",
+        "zh": "动词：参加竞选；开展运动"
       }
     ],
-    "abstract": [
+    "collocations": [
       {
-        "en": "See banners moving down a narrow street.",
-        "cn": "想象横幅在窄街上前移。"
+        "phrase": "an election campaign",
+        "zh": "竞选活动"
       },
       {
-        "en": "See a hand knock on door after door.",
-        "cn": "想象一只手一户接一户敲门。"
+        "phrase": "launch a campaign",
+        "zh": "发起运动"
       },
       {
-        "en": "See a map marked with arrows across a valley.",
-        "cn": "想象地图上山谷间画满箭头。"
+        "phrase": "a campaign against waste",
+        "zh": "反对浪费的运动"
+      },
+      {
+        "phrase": "campaign for change",
+        "zh": "为变革奔走"
+      },
+      {
+        "phrase": "a military campaign",
+        "zh": "军事战役"
       }
-    ]
-  },
-  "examples": [
-    {
-      "en": "They ran a campaign to save the library.",
-      "cn": "他们发起了一场拯救图书馆的运动。"
-    },
-    {
-      "en": "The winter campaign ended in the mountains.",
-      "cn": "冬季战役在群山中结束。"
-    },
-    {
-      "en": "She campaigned for a seat on the council.",
-      "cn": "她为争取议会席位参加竞选。"
-    }
-  ],
-  "dict_mnemonic": {
-    "note": "拆词记忆 · 非词源",
-    "text": "camp 是营地，aign 像一串脚步，一群人从营地出发一路宣传，就成了一场运动。",
-    "word": "campaign"
-  },
-  "root": "campaign 经法语 campagne 上溯到意大利语 campagna、拉丁语 campus（田野），本指军队在野外作战的一个季节，后指社会运动与竞选。",
-  "sensesIntro": {
-    "en": "An organized drive, a season of battles, and the act of seeking support.",
-    "cn": "有组织的运动、一个作战季节，以及争取支持的行动。"
-  },
-  "semanticMap": {
-    "core": {
-      "en": "CORE IMAGE: banners moving through a street.",
-      "cn": "核心意象：横幅在街道上前移。"
-    },
-    "chain": [
-      "GOAL",
-      "PLAN",
-      "PEOPLE",
-      "STREET",
-      "VOTE",
-      "RESULT"
     ],
-    "branches": [
+    "forms": [
       {
-        "senses": "01",
-        "en": "launch a campaign",
-        "cn": "发起运动"
+        "label": "复数",
+        "form": "campaigns"
       },
       {
-        "senses": "01",
-        "en": "a campaign against waste",
-        "cn": "反对浪费的运动"
+        "label": "过去式",
+        "form": "campaigned"
       },
       {
-        "senses": "01",
-        "en": "an election campaign",
-        "cn": "竞选活动"
+        "label": "过去分词",
+        "form": "campaigned"
       },
       {
-        "senses": "02",
-        "en": "a military campaign",
-        "cn": "军事战役"
-      },
-      {
-        "senses": "03",
-        "en": "campaign for change",
-        "cn": "为变革奔走"
+        "label": "现在分词",
+        "form": "campaigning"
       }
-    ]
-  },
-  "affixes": {
-    "intro": {
-      "en": "Campaign takes -er and -ing to name people and activity.",
-      "cn": "campaign 能加 -er 与 -ing，指人与活动。"
-    },
-    "latinIntro": {
-      "en": "The base is Latin campus, a field.",
-      "cn": "词基是拉丁语 campus，意为田野。"
-    },
-    "items": [
-      {
-        "word": "campaign",
-        "structure": "French campagne",
-        "meaning": "an organized drive",
-        "meaningCN": "运动",
-        "example": "an election campaign",
-        "exampleCN": "竞选活动"
-      },
+    ],
+    "derivatives": [
       {
         "word": "campaigner",
-        "structure": "campaign + -er",
-        "meaning": "a person who campaigns",
-        "meaningCN": "运动参与者",
-        "example": "a rights campaigner",
-        "exampleCN": "维权人士"
+        "pos": "n.",
+        "zh": "运动参与者，奔走呼吁的人"
       },
       {
         "word": "campaigning",
-        "structure": "campaign + -ing",
-        "meaning": "the activity of campaigning",
-        "meaningCN": "竞选活动",
-        "example": "months of campaigning",
-        "exampleCN": "数月的竞选活动"
+        "pos": "n.",
+        "zh": "竞选活动，运动开展"
       },
       {
         "word": "camp",
-        "structure": "Latin campus",
-        "meaning": "a place of tents",
-        "meaningCN": "营地",
-        "example": "set up camp",
-        "exampleCN": "扎营"
-      },
-      {
-        "word": "drive",
-        "structure": "Old English drīfan",
-        "meaning": "an organized effort",
-        "meaningCN": "有组织的努力",
-        "example": "a fund drive",
-        "exampleCN": "募捐活动"
-      },
-      {
-        "word": "crusade",
-        "structure": "Latin crux",
-        "meaning": "a cause taken up with zeal",
-        "meaningCN": "热切的运动",
-        "example": "a crusade for clean water",
-        "exampleCN": "争取清洁水源的运动"
-      },
-      {
-        "word": "battle",
-        "structure": "Old French bataille",
-        "meaning": "a fight between armies",
-        "meaningCN": "战斗",
-        "example": "a long battle",
-        "exampleCN": "漫长的战斗"
-      },
-      {
-        "word": "vote",
-        "structure": "Latin votum",
-        "meaning": "a formal choice in an election",
-        "meaningCN": "投票",
-        "example": "cast a vote",
-        "exampleCN": "投票"
+        "pos": "n.",
+        "zh": "营地，与 campaign 同源"
       }
     ],
-    "latinEntries": [
+    "senses": [
       {
-        "word": "campus",
-        "structure": "Latin noun",
-        "meaning": "field",
-        "meaningCN": "田野"
+        "no": "01",
+        "title": "An organized drive for a goal",
+        "titleCN": "运动",
+        "definition": "a planned set of actions aimed at changing something",
+        "definitionCN": "为改变某事而策划的一系列行动",
+        "example": "They ran a campaign to save the library.",
+        "exampleCN": "他们发起了一场拯救图书馆的运动。",
+        "why": "The core image is a group marching with banners through streets.",
+        "whyCN": "核心意象是一群人举着标语在街上游行。"
+      },
+      {
+        "no": "02",
+        "title": "A series of military operations",
+        "titleCN": "战役",
+        "definition": "a connected series of battles fought for one aim",
+        "definitionCN": "为同一目标进行的一系列战斗",
+        "example": "The winter campaign ended in the mountains.",
+        "exampleCN": "冬季战役在群山中结束。",
+        "why": "The word first named armies taking the field for a season.",
+        "whyCN": "这个词最早指军队开赴野外作战的一个季节。"
+      },
+      {
+        "no": "03",
+        "title": "To work for a cause or office",
+        "titleCN": "参加竞选",
+        "definition": "to take part in a planned effort to win support or votes",
+        "definitionCN": "参与争取支持或选票的有计划行动",
+        "example": "She campaigned for a seat on the council.",
+        "exampleCN": "她为争取议会席位参加竞选。",
+        "why": "The noun became a verb for taking part in such an effort.",
+        "whyCN": "名词转为动词，指参与这类行动。"
       }
-    ]
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Campaign came from the Italian word for open country.",
+        "cn": "campaign 来自意大利语里表示开阔乡野的词。"
+      },
+      "items": [
+        {
+          "era": "LATIN",
+          "en": "campus meant a field.",
+          "cn": "拉丁语 campus 意为田野。"
+        },
+        {
+          "era": "ITALIAN",
+          "en": "campagna named the open countryside.",
+          "cn": "意大利语 campagna 指开阔乡野。"
+        },
+        {
+          "era": "FRENCH",
+          "en": "campagne named a season of military operations.",
+          "cn": "法语 campagne 指一个作战季节。"
+        },
+        {
+          "era": "SEVENTEENTH CENTURY",
+          "en": "English campaign first meant a military campaign.",
+          "cn": "英语 campaign 最初指军事战役。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "Campaign covers elections, publicity and the verb to campaign.",
+          "cn": "现代英语中 campaign 兼指竞选、宣传与开展运动。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "The look-alike group shares the camp base; the near-meaning group gives other organized efforts.",
+        "cn": "形近组共用 camp 词基；近义组是其他有组织的行动。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "campaigner",
+              "ipa": "/kæmˈpeɪnə/",
+              "tag": "derived form",
+              "definition": "a person who works for a cause",
+              "definitionCN": "运动参与者"
+            },
+            {
+              "word": "campaigning",
+              "ipa": "/kæmˈpeɪnɪŋ/",
+              "tag": "derived form",
+              "definition": "the activity of running a campaign",
+              "definitionCN": "竞选活动"
+            },
+            {
+              "word": "camp",
+              "ipa": "/kæmp/",
+              "tag": "same root",
+              "definition": "a place of tents",
+              "definitionCN": "营地"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "drive",
+              "ipa": "/draɪv/",
+              "tag": "near meaning",
+              "definition": "an organized effort to reach a goal",
+              "definitionCN": "有组织的努力"
+            },
+            {
+              "word": "crusade",
+              "ipa": "/kruːˈseɪd/",
+              "tag": "near meaning",
+              "definition": "a long energetic campaign for a cause",
+              "definitionCN": "长期而热烈的运动"
+            },
+            {
+              "word": "battle",
+              "ipa": "/ˈbætl/",
+              "tag": "related",
+              "definition": "a fight between armed forces",
+              "definitionCN": "武装力量之间的战斗"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Campaign moved from a field of battle to a drive for votes.",
+        "cn": "campaign 从战场走到了争取选票的运动。"
+      },
+      "normal": [
+        {
+          "en": "The plural is campaigns.",
+          "cn": "复数是 campaigns。"
+        },
+        {
+          "en": "Launch a campaign means start one.",
+          "cn": "launch a campaign 义为发起运动。"
+        },
+        {
+          "en": "An election campaign seeks votes.",
+          "cn": "竞选活动争取选票。"
+        },
+        {
+          "en": "A campaigner works for a cause.",
+          "cn": "campaigner 为某项事业奔走。"
+        },
+        {
+          "en": "The word is related to camp.",
+          "cn": "这个词与 camp 同源。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "See banners moving down a narrow street.",
+          "cn": "想象横幅在窄街上前移。"
+        },
+        {
+          "en": "See a hand knock on door after door.",
+          "cn": "想象一只手一户接一户敲门。"
+        },
+        {
+          "en": "See a map marked with arrows across a valley.",
+          "cn": "想象地图上山谷间画满箭头。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "They ran a campaign to save the library.",
+        "cn": "他们发起了一场拯救图书馆的运动。"
+      },
+      {
+        "en": "The winter campaign ended in the mountains.",
+        "cn": "冬季战役在群山中结束。"
+      },
+      {
+        "en": "She campaigned for a seat on the council.",
+        "cn": "她为争取议会席位参加竞选。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "拆词记忆 · 非词源",
+      "text": "camp 是营地，aign 像一串脚步，一群人从营地出发一路宣传，就成了一场运动。",
+      "word": "campaign"
+    },
+    "root": "campaign 经法语 campagne 上溯到意大利语 campagna、拉丁语 campus（田野），本指军队在野外作战的一个季节，后指社会运动与竞选。",
+    "sensesIntro": {
+      "en": "An organized drive, a season of battles, and the act of seeking support.",
+      "cn": "有组织的运动、一个作战季节，以及争取支持的行动。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: banners moving through a street.",
+        "cn": "核心意象：横幅在街道上前移。"
+      },
+      "chain": [
+        "GOAL",
+        "PLAN",
+        "PEOPLE",
+        "STREET",
+        "VOTE",
+        "RESULT"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "launch a campaign",
+          "cn": "发起运动"
+        },
+        {
+          "senses": "01",
+          "en": "a campaign against waste",
+          "cn": "反对浪费的运动"
+        },
+        {
+          "senses": "01",
+          "en": "an election campaign",
+          "cn": "竞选活动"
+        },
+        {
+          "senses": "02",
+          "en": "a military campaign",
+          "cn": "军事战役"
+        },
+        {
+          "senses": "03",
+          "en": "campaign for change",
+          "cn": "为变革奔走"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Campaign takes -er and -ing to name people and activity.",
+        "cn": "campaign 能加 -er 与 -ing，指人与活动。"
+      },
+      "latinIntro": {
+        "en": "The base is Latin campus, a field.",
+        "cn": "词基是拉丁语 campus，意为田野。"
+      },
+      "items": [
+        {
+          "word": "campaign",
+          "structure": "French campagne",
+          "meaning": "an organized drive",
+          "meaningCN": "运动",
+          "example": "an election campaign",
+          "exampleCN": "竞选活动"
+        },
+        {
+          "word": "campaigner",
+          "structure": "campaign + -er",
+          "meaning": "a person who campaigns",
+          "meaningCN": "运动参与者",
+          "example": "a rights campaigner",
+          "exampleCN": "维权人士"
+        },
+        {
+          "word": "campaigning",
+          "structure": "campaign + -ing",
+          "meaning": "the activity of campaigning",
+          "meaningCN": "竞选活动",
+          "example": "months of campaigning",
+          "exampleCN": "数月的竞选活动"
+        },
+        {
+          "word": "camp",
+          "structure": "Latin campus",
+          "meaning": "a place of tents",
+          "meaningCN": "营地",
+          "example": "set up camp",
+          "exampleCN": "扎营"
+        },
+        {
+          "word": "drive",
+          "structure": "Old English drīfan",
+          "meaning": "an organized effort",
+          "meaningCN": "有组织的努力",
+          "example": "a fund drive",
+          "exampleCN": "募捐活动"
+        },
+        {
+          "word": "crusade",
+          "structure": "Latin crux",
+          "meaning": "a cause taken up with zeal",
+          "meaningCN": "热切的运动",
+          "example": "a crusade for clean water",
+          "exampleCN": "争取清洁水源的运动"
+        },
+        {
+          "word": "battle",
+          "structure": "Old French bataille",
+          "meaning": "a fight between armies",
+          "meaningCN": "战斗",
+          "example": "a long battle",
+          "exampleCN": "漫长的战斗"
+        },
+        {
+          "word": "vote",
+          "structure": "Latin votum",
+          "meaning": "a formal choice in an election",
+          "meaningCN": "投票",
+          "example": "cast a vote",
+          "exampleCN": "投票"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "campus",
+          "structure": "Latin noun",
+          "meaning": "field",
+          "meaningCN": "田野"
+        }
+      ]
+    }
   }
-}
+]

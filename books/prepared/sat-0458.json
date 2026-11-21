@@ -1,361 +1,363 @@
-{
-  "word": "billion",
-  "ipa_uk": "/ˈbɪljən/",
-  "ipa_us": "/ˈbɪljən/",
-  "definition_zh": "十亿；大量",
-  "definition_en": "a thousand million, or a very large number",
-  "core_image": "屏幕上滚过一长串数字",
-  "scene": "屏幕上滚过一长串数字。The company is worth two billion dollars.",
-  "sceneCN": "这里 billion 是「十亿」（第 1 个义项：一千个百万）；句意是这家公司值二十亿美元。",
-  "pos": [
-    {
-      "tag": "n.",
-      "zh": "名词：十亿；大量"
-    },
-    {
-      "tag": "num.",
-      "zh": "数词：十亿"
-    }
-  ],
-  "collocations": [
-    {
-      "phrase": "two billion",
-      "zh": "二十亿"
-    },
-    {
-      "phrase": "billions of",
-      "zh": "数十亿的"
-    },
-    {
-      "phrase": "a billion dollars",
-      "zh": "十亿美元"
-    },
-    {
-      "phrase": "billion-dollar",
-      "zh": "价值十亿美元的"
-    },
-    {
-      "phrase": "several billion",
-      "zh": "好几十亿"
-    }
-  ],
-  "forms": [
-    {
-      "label": "复数",
-      "form": "billions"
-    }
-  ],
-  "derivatives": [
-    {
-      "word": "billionaire",
-      "pos": "n.",
-      "zh": "由 billion 加 -aire 构成，义为「亿万富翁」"
-    },
-    {
-      "word": "billionth",
-      "pos": "adj.",
-      "zh": "由 billion 加 -th 构成，义为「第十亿的」"
-    }
-  ],
-  "senses": [
-    {
-      "no": "01",
-      "title": "A thousand million",
-      "titleCN": "十亿",
-      "definition": "the number 1,000,000,000",
-      "definitionCN": "一千个百万",
-      "example": "The company is worth two billion dollars.",
-      "exampleCN": "这家公司值二十亿美元。",
-      "why": "Modern English uses the short scale, where a billion is a thousand million.",
-      "whyCN": "现代英语采用短级差制，十亿等于一千个百万。"
-    },
-    {
-      "no": "02",
-      "title": "A very large number",
-      "titleCN": "大量",
-      "definition": "a very large number of things",
-      "definitionCN": "数量极大的事物",
-      "example": "Billions of stars fill the sky.",
-      "exampleCN": "天上有数十亿颗星星。",
-      "why": "The number became a word for anything countless.",
-      "whyCN": "这个数字转而指任何数不清的东西。"
-    }
-  ],
-  "etymology": {
-    "intro": {
-      "en": "Billion was formed in French from bi- and million.",
-      "cn": "billion 在法语中由 bi- 与 million 组合而成。"
-    },
-    "items": [
+[
+  {
+    "word": "billion",
+    "ipa_uk": "/ˈbɪljən/",
+    "ipa_us": "/ˈbɪljən/",
+    "definition_zh": "十亿；大量",
+    "definition_en": "a thousand million, or a very large number",
+    "core_image": "屏幕上滚过一长串数字",
+    "scene": "屏幕上滚过一长串数字。The company is worth two billion dollars.",
+    "sceneCN": "这里 billion 是「十亿」（第 1 个义项：一千个百万）；句意是这家公司值二十亿美元。",
+    "pos": [
       {
-        "era": "SIXTEENTH CENTURY",
-        "en": "French coined billion for a huge number.",
-        "cn": "法语造出 billion 表示巨大的数。"
+        "tag": "n.",
+        "zh": "名词：十亿；大量"
       },
       {
-        "era": "SEVENTEENTH CENTURY",
-        "en": "English borrowed the word.",
-        "cn": "英语借入这个词。"
-      },
-      {
-        "era": "NINETEENTH CENTURY",
-        "en": "Britain and America differed on its value.",
-        "cn": "英美对它的数值曾有不同的理解。"
-      },
-      {
-        "era": "TWENTIETH CENTURY",
-        "en": "the short scale spread worldwide.",
-        "cn": "短级差制在全世界推广。"
-      },
-      {
-        "era": "PRESENT DAY ENGLISH",
-        "en": "billion usually means a thousand million.",
-        "cn": "如今 billion 通常指十亿。"
-      }
-    ]
-  },
-  "similar": {
-    "note": {
-      "en": "The look-alike group shares the -illion pattern; the near-meaning group gives other huge numbers.",
-      "cn": "形近组共享 -illion 结构；近义组是其他巨大数值。"
-    },
-    "groups": [
-      {
-        "heading": "LOOK-ALIKE",
-        "entries": [
-          {
-            "word": "million",
-            "ipa": "/ˈmɪljən/",
-            "tag": "look-alike",
-            "definition": "a thousand thousand",
-            "definitionCN": "百万"
-          },
-          {
-            "word": "trillion",
-            "ipa": "/ˈtrɪljən/",
-            "tag": "look-alike",
-            "definition": "a thousand billion",
-            "definitionCN": "万亿"
-          },
-          {
-            "word": "bullion",
-            "ipa": "/ˈbʊliən/",
-            "tag": "look-alike",
-            "definition": "gold or silver in bars",
-            "definitionCN": "金条"
-          }
-        ]
-      },
-      {
-        "heading": "NEAR MEANING",
-        "entries": [
-          {
-            "word": "million",
-            "ipa": "/ˈmɪljən/",
-            "tag": "near synonym",
-            "definition": "the number 1,000,000",
-            "definitionCN": "百万"
-          },
-          {
-            "word": "trillion",
-            "ipa": "/ˈtrɪljən/",
-            "tag": "related",
-            "definition": "a thousand billion",
-            "definitionCN": "万亿"
-          },
-          {
-            "word": "zillion",
-            "ipa": "/ˈzɪljən/",
-            "tag": "related",
-            "definition": "an informal word for a huge number",
-            "definitionCN": "极大数目"
-          }
-        ]
-      }
-    ]
-  },
-  "mnemonics": {
-    "normalIntro": {
-      "en": "Billion is a thousand million, with bi- hinting at the second big step.",
-      "cn": "billion 是一千个百万，bi- 提示它比百万又进一大步。"
-    },
-    "normal": [
-      {
-        "en": "Billion has two l letters in the middle.",
-        "cn": "billion 中间有两个 l。"
-      },
-      {
-        "en": "The plural is billions.",
-        "cn": "复数是 billions。"
-      },
-      {
-        "en": "Billions of means a countless number.",
-        "cn": "billions of 指数不清的量。"
-      },
-      {
-        "en": "A billionaire has a billion or more.",
-        "cn": "billionaire 指拥有十亿以上财富的人。"
-      },
-      {
-        "en": "Billion follows million and precedes trillion.",
-        "cn": "billion 排在 million 之后、trillion 之前。"
+        "tag": "num.",
+        "zh": "数词：十亿"
       }
     ],
-    "abstract": [
+    "collocations": [
       {
-        "en": "See a long row of digits on a screen.",
-        "cn": "想象屏幕上长长一串数字。"
+        "phrase": "two billion",
+        "zh": "二十亿"
       },
       {
-        "en": "See a night sky packed with stars.",
-        "cn": "想象挤满星星的夜空。"
+        "phrase": "billions of",
+        "zh": "数十亿的"
       },
       {
-        "en": "See a city of endless lit windows.",
-        "cn": "想象灯火无尽的城市。"
+        "phrase": "a billion dollars",
+        "zh": "十亿美元"
+      },
+      {
+        "phrase": "billion-dollar",
+        "zh": "价值十亿美元的"
+      },
+      {
+        "phrase": "several billion",
+        "zh": "好几十亿"
       }
-    ]
-  },
-  "examples": [
-    {
-      "en": "The company is worth two billion dollars.",
-      "cn": "这家公司值二十亿美元。"
-    },
-    {
-      "en": "Billions of stars fill the sky.",
-      "cn": "天上有数十亿颗星星。"
-    },
-    {
-      "en": "The project cost several billion yuan.",
-      "cn": "这个项目花了数十亿元。"
-    }
-  ],
-  "dict_mnemonic": {
-    "note": "拆词记忆 · 非词源",
-    "text": "bi 是「二」，million 是「百万」，第二个百万级台阶就是十亿。",
-    "word": "billion"
-  },
-  "root": "十六世纪法语用 bi- 与 million 造出 billion，英语于十七世纪借入；十九世纪英美对数值理解不同，二十世纪短级差制通行，十亿即一千个百万。",
-  "sensesIntro": {
-    "en": "The exact number and the idea of countless both live in billion.",
-    "cn": "精确的十亿与「数不清」的意味都活在 billion 里。"
-  },
-  "semanticMap": {
-    "core": {
-      "en": "CORE IMAGE: a long row of digits on a screen.",
-      "cn": "核心意象：屏幕上长长一串数字。"
-    },
-    "chain": [
-      "ONE",
-      "THOUSAND",
-      "MILLION",
-      "ZERO",
-      "SCALE",
-      "WEALTH"
     ],
-    "branches": [
+    "forms": [
       {
-        "senses": "01",
-        "en": "two billion",
-        "cn": "二十亿"
-      },
-      {
-        "senses": "01",
-        "en": "a billion dollars",
-        "cn": "十亿美元"
-      },
-      {
-        "senses": "01",
-        "en": "billion-dollar deal",
-        "cn": "十亿美元级交易"
-      },
-      {
-        "senses": "02",
-        "en": "billions of stars",
-        "cn": "数十亿颗星"
-      },
-      {
-        "senses": "02",
-        "en": "billions of people",
-        "cn": "数十亿人"
+        "label": "复数",
+        "form": "billions"
       }
-    ]
-  },
-  "affixes": {
-    "intro": {
-      "en": "Billion takes -s and -th, and joins -aire for a rich person.",
-      "cn": "billion 可加 -s、-th，并与 -aire 组合指巨富。"
-    },
-    "latinIntro": {
-      "en": "The base is Latin bi-, two, attached to million.",
-      "cn": "词基是拉丁语 bi-（二），接在 million 之前。"
-    },
-    "items": [
-      {
-        "word": "billion",
-        "structure": "bi- + million",
-        "meaning": "a thousand million",
-        "meaningCN": "十亿",
-        "example": "one billion",
-        "exampleCN": "十亿"
-      },
-      {
-        "word": "billions",
-        "structure": "billion + -s",
-        "meaning": "many billions",
-        "meaningCN": "数十亿",
-        "example": "billions of cells",
-        "exampleCN": "数十亿个细胞"
-      },
+    ],
+    "derivatives": [
       {
         "word": "billionaire",
-        "structure": "billion + -aire",
-        "meaning": "a very rich person",
-        "meaningCN": "亿万富翁",
-        "example": "a young billionaire",
-        "exampleCN": "年轻的亿万富翁"
+        "pos": "n.",
+        "zh": "由 billion 加 -aire 构成，义为「亿万富翁」"
       },
       {
         "word": "billionth",
-        "structure": "billion + -th",
-        "meaning": "the ordinal of a billion",
-        "meaningCN": "第十亿的",
-        "example": "the billionth visitor",
-        "exampleCN": "第十亿位访客"
-      },
-      {
-        "word": "million",
-        "structure": "Italian milione",
-        "meaning": "a thousand thousand",
-        "meaningCN": "百万",
-        "example": "two million",
-        "exampleCN": "两百万"
-      },
-      {
-        "word": "trillion",
-        "structure": "tri- + million",
-        "meaning": "a thousand billion",
-        "meaningCN": "万亿",
-        "example": "one trillion",
-        "exampleCN": "一万亿"
-      },
-      {
-        "word": "zero",
-        "structure": "Arabic sifr",
-        "meaning": "the number nought",
-        "meaningCN": "零",
-        "example": "add three zeros",
-        "exampleCN": "加三个零"
-      },
-      {
-        "word": "wealth",
-        "structure": "Middle English welthe",
-        "meaning": "a large amount of money",
-        "meaningCN": "财富",
-        "example": "great wealth",
-        "exampleCN": "巨额财富"
+        "pos": "adj.",
+        "zh": "由 billion 加 -th 构成，义为「第十亿的」"
       }
     ],
-    "latinEntries": []
+    "senses": [
+      {
+        "no": "01",
+        "title": "A thousand million",
+        "titleCN": "十亿",
+        "definition": "the number 1,000,000,000",
+        "definitionCN": "一千个百万",
+        "example": "The company is worth two billion dollars.",
+        "exampleCN": "这家公司值二十亿美元。",
+        "why": "Modern English uses the short scale, where a billion is a thousand million.",
+        "whyCN": "现代英语采用短级差制，十亿等于一千个百万。"
+      },
+      {
+        "no": "02",
+        "title": "A very large number",
+        "titleCN": "大量",
+        "definition": "a very large number of things",
+        "definitionCN": "数量极大的事物",
+        "example": "Billions of stars fill the sky.",
+        "exampleCN": "天上有数十亿颗星星。",
+        "why": "The number became a word for anything countless.",
+        "whyCN": "这个数字转而指任何数不清的东西。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Billion was formed in French from bi- and million.",
+        "cn": "billion 在法语中由 bi- 与 million 组合而成。"
+      },
+      "items": [
+        {
+          "era": "SIXTEENTH CENTURY",
+          "en": "French coined billion for a huge number.",
+          "cn": "法语造出 billion 表示巨大的数。"
+        },
+        {
+          "era": "SEVENTEENTH CENTURY",
+          "en": "English borrowed the word.",
+          "cn": "英语借入这个词。"
+        },
+        {
+          "era": "NINETEENTH CENTURY",
+          "en": "Britain and America differed on its value.",
+          "cn": "英美对它的数值曾有不同的理解。"
+        },
+        {
+          "era": "TWENTIETH CENTURY",
+          "en": "the short scale spread worldwide.",
+          "cn": "短级差制在全世界推广。"
+        },
+        {
+          "era": "PRESENT DAY ENGLISH",
+          "en": "billion usually means a thousand million.",
+          "cn": "如今 billion 通常指十亿。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "The look-alike group shares the -illion pattern; the near-meaning group gives other huge numbers.",
+        "cn": "形近组共享 -illion 结构；近义组是其他巨大数值。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "million",
+              "ipa": "/ˈmɪljən/",
+              "tag": "look-alike",
+              "definition": "a thousand thousand",
+              "definitionCN": "百万"
+            },
+            {
+              "word": "trillion",
+              "ipa": "/ˈtrɪljən/",
+              "tag": "look-alike",
+              "definition": "a thousand billion",
+              "definitionCN": "万亿"
+            },
+            {
+              "word": "bullion",
+              "ipa": "/ˈbʊliən/",
+              "tag": "look-alike",
+              "definition": "gold or silver in bars",
+              "definitionCN": "金条"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "million",
+              "ipa": "/ˈmɪljən/",
+              "tag": "near synonym",
+              "definition": "the number 1,000,000",
+              "definitionCN": "百万"
+            },
+            {
+              "word": "trillion",
+              "ipa": "/ˈtrɪljən/",
+              "tag": "related",
+              "definition": "a thousand billion",
+              "definitionCN": "万亿"
+            },
+            {
+              "word": "zillion",
+              "ipa": "/ˈzɪljən/",
+              "tag": "related",
+              "definition": "an informal word for a huge number",
+              "definitionCN": "极大数目"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Billion is a thousand million, with bi- hinting at the second big step.",
+        "cn": "billion 是一千个百万，bi- 提示它比百万又进一大步。"
+      },
+      "normal": [
+        {
+          "en": "Billion has two l letters in the middle.",
+          "cn": "billion 中间有两个 l。"
+        },
+        {
+          "en": "The plural is billions.",
+          "cn": "复数是 billions。"
+        },
+        {
+          "en": "Billions of means a countless number.",
+          "cn": "billions of 指数不清的量。"
+        },
+        {
+          "en": "A billionaire has a billion or more.",
+          "cn": "billionaire 指拥有十亿以上财富的人。"
+        },
+        {
+          "en": "Billion follows million and precedes trillion.",
+          "cn": "billion 排在 million 之后、trillion 之前。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "See a long row of digits on a screen.",
+          "cn": "想象屏幕上长长一串数字。"
+        },
+        {
+          "en": "See a night sky packed with stars.",
+          "cn": "想象挤满星星的夜空。"
+        },
+        {
+          "en": "See a city of endless lit windows.",
+          "cn": "想象灯火无尽的城市。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "The company is worth two billion dollars.",
+        "cn": "这家公司值二十亿美元。"
+      },
+      {
+        "en": "Billions of stars fill the sky.",
+        "cn": "天上有数十亿颗星星。"
+      },
+      {
+        "en": "The project cost several billion yuan.",
+        "cn": "这个项目花了数十亿元。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "拆词记忆 · 非词源",
+      "text": "bi 是「二」，million 是「百万」，第二个百万级台阶就是十亿。",
+      "word": "billion"
+    },
+    "root": "十六世纪法语用 bi- 与 million 造出 billion，英语于十七世纪借入；十九世纪英美对数值理解不同，二十世纪短级差制通行，十亿即一千个百万。",
+    "sensesIntro": {
+      "en": "The exact number and the idea of countless both live in billion.",
+      "cn": "精确的十亿与「数不清」的意味都活在 billion 里。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: a long row of digits on a screen.",
+        "cn": "核心意象：屏幕上长长一串数字。"
+      },
+      "chain": [
+        "ONE",
+        "THOUSAND",
+        "MILLION",
+        "ZERO",
+        "SCALE",
+        "WEALTH"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "two billion",
+          "cn": "二十亿"
+        },
+        {
+          "senses": "01",
+          "en": "a billion dollars",
+          "cn": "十亿美元"
+        },
+        {
+          "senses": "01",
+          "en": "billion-dollar deal",
+          "cn": "十亿美元级交易"
+        },
+        {
+          "senses": "02",
+          "en": "billions of stars",
+          "cn": "数十亿颗星"
+        },
+        {
+          "senses": "02",
+          "en": "billions of people",
+          "cn": "数十亿人"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Billion takes -s and -th, and joins -aire for a rich person.",
+        "cn": "billion 可加 -s、-th，并与 -aire 组合指巨富。"
+      },
+      "latinIntro": {
+        "en": "The base is Latin bi-, two, attached to million.",
+        "cn": "词基是拉丁语 bi-（二），接在 million 之前。"
+      },
+      "items": [
+        {
+          "word": "billion",
+          "structure": "bi- + million",
+          "meaning": "a thousand million",
+          "meaningCN": "十亿",
+          "example": "one billion",
+          "exampleCN": "十亿"
+        },
+        {
+          "word": "billions",
+          "structure": "billion + -s",
+          "meaning": "many billions",
+          "meaningCN": "数十亿",
+          "example": "billions of cells",
+          "exampleCN": "数十亿个细胞"
+        },
+        {
+          "word": "billionaire",
+          "structure": "billion + -aire",
+          "meaning": "a very rich person",
+          "meaningCN": "亿万富翁",
+          "example": "a young billionaire",
+          "exampleCN": "年轻的亿万富翁"
+        },
+        {
+          "word": "billionth",
+          "structure": "billion + -th",
+          "meaning": "the ordinal of a billion",
+          "meaningCN": "第十亿的",
+          "example": "the billionth visitor",
+          "exampleCN": "第十亿位访客"
+        },
+        {
+          "word": "million",
+          "structure": "Italian milione",
+          "meaning": "a thousand thousand",
+          "meaningCN": "百万",
+          "example": "two million",
+          "exampleCN": "两百万"
+        },
+        {
+          "word": "trillion",
+          "structure": "tri- + million",
+          "meaning": "a thousand billion",
+          "meaningCN": "万亿",
+          "example": "one trillion",
+          "exampleCN": "一万亿"
+        },
+        {
+          "word": "zero",
+          "structure": "Arabic sifr",
+          "meaning": "the number nought",
+          "meaningCN": "零",
+          "example": "add three zeros",
+          "exampleCN": "加三个零"
+        },
+        {
+          "word": "wealth",
+          "structure": "Middle English welthe",
+          "meaning": "a large amount of money",
+          "meaningCN": "财富",
+          "example": "great wealth",
+          "exampleCN": "巨额财富"
+        }
+      ],
+      "latinEntries": []
+    }
   }
-}
+]

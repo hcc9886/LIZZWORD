@@ -1,384 +1,386 @@
-{
- "word": "cabinet",
- "ipa_uk": "/ˈkæbɪnət/",
- "ipa_us": "/ˈkæbɪnət/",
- "definition_zh": "橱柜；内阁；陈列室",
- "definition_en": "a piece of furniture with shelves or drawers for storing things",
- "core_image": "靠墙立着的带门储物柜",
- "scene": "厨房里碗碟都收在柜中。She put the plates back in the cabinet.",
- "sceneCN": "这里 cabinet 是「橱柜」（第 1 个义项：带门和隔板的储物家具）；句意是她把盘子放回橱柜。",
- "pos": [
+[
   {
-   "tag": "n.",
-   "zh": "名词：橱柜；储物柜"
-  },
-  {
-   "tag": "n.",
-   "zh": "名词：内阁；陈列室"
-  }
- ],
- "collocations": [
-  {
-   "phrase": "a kitchen cabinet",
-   "zh": "厨房橱柜"
-  },
-  {
-   "phrase": "a filing cabinet",
-   "zh": "文件柜"
-  },
-  {
-   "phrase": "a cabinet meeting",
-   "zh": "内阁会议"
-  },
-  {
-   "phrase": "a medicine cabinet",
-   "zh": "药柜"
-  },
-  {
-   "phrase": "a cabinet minister",
-   "zh": "内阁部长"
-  }
- ],
- "forms": [
-  {
-   "label": "复数",
-   "form": "cabinets"
-  }
- ],
- "derivatives": [
-  {
-   "word": "cabinetry",
-   "pos": "n.",
-   "zh": "橱柜制作工艺，也指整套橱柜"
-  },
-  {
-   "word": "cabinetmaker",
-   "pos": "n.",
-   "zh": "细木匠，专门制作橱柜的人"
-  },
-  {
-   "word": "cabin",
-   "pos": "n.",
-   "zh": "小屋，cabinet 的同源词"
-  }
- ],
- "senses": [
-  {
-   "no": "01",
-   "title": "A storage cupboard",
-   "titleCN": "橱柜",
-   "definition": "a piece of furniture with doors and shelves for keeping things",
-   "definitionCN": "带门和隔板、用来存放物品的家具",
-   "example": "She put the plates back in the cabinet.",
-   "exampleCN": "她把盘子放回橱柜。",
-   "why": "The core image is a closed wooden box standing against a wall.",
-   "whyCN": "核心意象是一只靠墙立着的封闭木柜。"
-  },
-  {
-   "no": "02",
-   "title": "The senior ministers of a government",
-   "titleCN": "内阁",
-   "definition": "the group of senior ministers who advise a head of government",
-   "definitionCN": "为政府首脑提供建议的高级部长群体",
-   "example": "The cabinet met to discuss the budget.",
-   "exampleCN": "内阁开会讨论预算。",
-   "why": "Ministers once met in a small private room, and the room's name passed to the group.",
-   "whyCN": "部长们曾在一间小密室里议事，房间的名字就转指这群人。"
-  },
-  {
-   "no": "03",
-   "title": "A small room for display",
-   "titleCN": "陈列室",
-   "definition": "a small room used to display objects or keep a collection",
-   "definitionCN": "用来陈列物品或收藏品的小房间",
-   "example": "The coin cabinet is upstairs.",
-   "exampleCN": "钱币陈列室在楼上。",
-   "why": "The older sense was a small private room, later used for showing collections.",
-   "whyCN": "较早的意思是私密小房间，后来用于展出收藏品。"
-  }
- ],
- "etymology": {
-  "intro": {
-   "en": "Cabinet began as a small room and later named the furniture in it.",
-   "cn": "cabinet 最初指小房间，后来指房间里的家具。"
-  },
-  "items": [
-   {
-    "era": "OLD FRENCH",
-    "en": "cabinet was a diminutive of cabine, a small room.",
-    "cn": "古法语 cabinet 是 cabine 的指小形式，意为小房间。"
-   },
-   {
-    "era": "SIXTEENTH CENTURY",
-    "en": "English cabinet named a private room for valuables.",
-    "cn": "十六世纪英语 cabinet 指存放贵重物品的私室。"
-   },
-   {
-    "era": "SEVENTEENTH CENTURY",
-    "en": "The word shifted to the chest of drawers kept there.",
-    "cn": "十七世纪词义转向放在那里的抽屉柜。"
-   },
-   {
-    "era": "EIGHTEENTH CENTURY",
-    "en": "Cabinet named the advisers meeting in a private room.",
-    "cn": "十八世纪 cabinet 指在私室议事的顾问团。"
-   },
-   {
-    "era": "MODERN ENGLISH",
-    "en": "Cabinet covers cupboards, government advisers and display rooms.",
-    "cn": "现代英语中 cabinet 兼指橱柜、政府内阁与陈列室。"
-   }
-  ]
- },
- "similar": {
-  "note": {
-   "en": "The look-alike group shares the cabin base; the near-meaning group gives other storage furniture.",
-   "cn": "形近组共用 cabin 词基；近义组是其他储物家具。"
-  },
-  "groups": [
-   {
-    "heading": "LOOK-ALIKE",
-    "entries": [
-     {
-      "word": "cabinetry",
-      "ipa": "/ˈkæbɪnətri/",
-      "tag": "derived form",
-      "definition": "the craft of making cabinets",
-      "definitionCN": "橱柜制作工艺"
-     },
-     {
-      "word": "cabinetmaker",
-      "ipa": "/ˈkæbɪnətmeɪkə/",
-      "tag": "compound",
-      "definition": "a skilled maker of furniture",
-      "definitionCN": "细木匠"
-     },
-     {
-      "word": "cabin",
-      "ipa": "/ˈkæbɪn/",
-      "tag": "same root",
-      "definition": "a small wooden house or room",
-      "definitionCN": "小木屋或舱室"
-     }
-    ]
-   },
-   {
-    "heading": "NEAR MEANING",
-    "entries": [
-     {
-      "word": "cupboard",
-      "ipa": "/ˈkʌbəd/",
-      "tag": "near meaning",
-      "definition": "a piece of furniture with shelves and doors",
-      "definitionCN": "带门和隔板的储物柜"
-     },
-     {
-      "word": "locker",
-      "ipa": "/ˈlɒkə/",
-      "tag": "near meaning",
-      "definition": "a small locked cupboard for personal things",
-      "definitionCN": "带锁的小储物柜"
-     },
-     {
-      "word": "wardrobe",
-      "ipa": "/ˈwɔːdrəʊb/",
-      "tag": "related",
-      "definition": "a tall cupboard for clothes",
-      "definitionCN": "挂衣服的高柜"
-     }
-    ]
-   }
-  ]
- },
- "mnemonics": {
-  "normalIntro": {
-   "en": "Cabinet moved from a room to the furniture and then to a government group.",
-   "cn": "cabinet 从小房间转到家具，再转到政府班子。"
-  },
-  "normal": [
-   {
-    "en": "The plural is cabinets.",
-    "cn": "复数是 cabinets。"
-   },
-   {
-    "en": "A filing cabinet holds documents.",
-    "cn": "filing cabinet 存放文件。"
-   },
-   {
-    "en": "A cabinet meeting is held by ministers.",
-    "cn": "cabinet meeting 由部长们召开。"
-   },
-   {
-    "en": "Cabinetry is the craft of making cabinets.",
-    "cn": "cabinetry 指橱柜制作工艺。"
-   },
-   {
-    "en": "The word is related to cabin.",
-    "cn": "这个词与 cabin 同源。"
-   }
-  ],
-  "abstract": [
-   {
-    "en": "See a wall of doors opening onto neat shelves.",
-    "cn": "想象一整墙柜门打开，露出整齐的隔板。"
-   },
-   {
-    "en": "See a small room with a heavy table and closed doors.",
-    "cn": "想象一间小室，里面一张厚桌，门关着。"
-   },
-   {
-    "en": "See coins laid out under glass in a quiet room.",
-    "cn": "想象安静房间里玻璃下的钱币展品。"
-   }
-  ]
- },
- "examples": [
-  {
-   "en": "She put the plates back in the cabinet.",
-   "cn": "她把盘子放回橱柜。"
-  },
-  {
-   "en": "The cabinet met to discuss the budget.",
-   "cn": "内阁开会讨论预算。"
-  },
-  {
-   "en": "The coin cabinet is upstairs.",
-   "cn": "钱币陈列室在楼上。"
-  }
- ],
- "dict_mnemonic": {
-  "note": "拆词记忆 · 非词源",
-  "text": "cabinet 和 cabin 同源，都是小空间；先记住小木屋，再想屋里靠墙立着带门的柜子，最后想到关起门议事的内阁。",
-  "word": "cabinet"
- },
- "root": "cabinet 是古法语 cabine（小房间）的指小形式，本指私密小室，后来指室内的储物柜，又指在小室议事的政府顾问团。",
- "sensesIntro": {
-  "en": "A storage cupboard, a group of senior ministers, and a display room.",
-  "cn": "储物橱柜、高级部长组成的班子，以及陈列室。"
- },
- "semanticMap": {
-  "core": {
-   "en": "CORE IMAGE: a closed wooden cupboard against a wall.",
-   "cn": "核心意象：靠墙立着的封闭木柜。"
-  },
-  "chain": [
-   "FURNITURE",
-   "DOORS",
-   "STORAGE",
-   "ROOM",
-   "GOVERNMENT",
-   "ADVISERS"
-  ],
-  "branches": [
-   {
-    "senses": "01",
-    "en": "a kitchen cabinet",
-    "cn": "厨房橱柜"
-   },
-   {
-    "senses": "01",
-    "en": "a filing cabinet",
-    "cn": "文件柜"
-   },
-   {
-    "senses": "01",
-    "en": "a medicine cabinet",
-    "cn": "药柜"
-   },
-   {
-    "senses": "02",
-    "en": "a cabinet meeting",
-    "cn": "内阁会议"
-   },
-   {
-    "senses": "03",
-    "en": "the coin cabinet",
-    "cn": "钱币陈列室"
-   }
-  ]
- },
- "affixes": {
-  "intro": {
-   "en": "Cabinet forms compounds with maker and takes the ending -ry.",
-   "cn": "cabinet 能与 maker 组成复合词，也能加 -ry 构成名词。"
-  },
-  "latinIntro": {
-   "en": "The base is a French diminutive; the Latin relative is capanna, a hut.",
-   "cn": "词基是法语的指小形式，拉丁语中的相关词是 capanna（小屋）。"
-  },
-  "items": [
-   {
     "word": "cabinet",
-    "structure": "Old French cabinet",
-    "meaning": "a small room, then a cupboard",
-    "meaningCN": "小房间，后指橱柜",
-    "example": "a kitchen cabinet",
-    "exampleCN": "厨房橱柜"
-   },
-   {
-    "word": "cabinetry",
-    "structure": "cabinet + -ry",
-    "meaning": "the craft of cabinet making",
-    "meaningCN": "橱柜工艺",
-    "example": "fine cabinetry",
-    "exampleCN": "精细橱柜工艺"
-   },
-   {
-    "word": "cabinetmaker",
-    "structure": "cabinet + maker",
-    "meaning": "a maker of fine furniture",
-    "meaningCN": "细木匠",
-    "example": "a skilled cabinetmaker",
-    "exampleCN": "熟练细木匠"
-   },
-   {
-    "word": "cabin",
-    "structure": "Old French cabane",
-    "meaning": "a small shelter",
-    "meaningCN": "小屋",
-    "example": "a log cabin",
-    "exampleCN": "原木小屋"
-   },
-   {
-    "word": "cupboard",
-    "structure": "cup + board",
-    "meaning": "a shelved storage furniture",
-    "meaningCN": "储物柜",
-    "example": "a kitchen cupboard",
-    "exampleCN": "厨房储物柜"
-   },
-   {
-    "word": "locker",
-    "structure": "lock + -er",
-    "meaning": "a small locked cupboard",
-    "meaningCN": "带锁小柜",
-    "example": "a school locker",
-    "exampleCN": "学校储物柜"
-   },
-   {
-    "word": "wardrobe",
-    "structure": "ward + robe",
-    "meaning": "a tall clothes cupboard",
-    "meaningCN": "衣柜",
-    "example": "a wooden wardrobe",
-    "exampleCN": "木衣柜"
-   },
-   {
-    "word": "shelf",
-    "structure": "Middle English shelfe",
-    "meaning": "a flat board for storing things",
-    "meaningCN": "隔板",
-    "example": "a top shelf",
-    "exampleCN": "最上层隔板"
-   }
-  ],
-  "latinEntries": [
-   {
-    "word": "capanna",
-    "structure": "Latin noun",
-    "meaning": "hut",
-    "meaningCN": "小屋"
-   }
-  ]
- }
-}
+    "ipa_uk": "/ˈkæbɪnət/",
+    "ipa_us": "/ˈkæbɪnət/",
+    "definition_zh": "橱柜；内阁；陈列室",
+    "definition_en": "a piece of furniture with shelves or drawers for storing things",
+    "core_image": "靠墙立着的带门储物柜",
+    "scene": "厨房里碗碟都收在柜中。She put the plates back in the cabinet.",
+    "sceneCN": "这里 cabinet 是「橱柜」（第 1 个义项：带门和隔板的储物家具）；句意是她把盘子放回橱柜。",
+    "pos": [
+      {
+        "tag": "n.",
+        "zh": "名词：橱柜；储物柜"
+      },
+      {
+        "tag": "n.",
+        "zh": "名词：内阁；陈列室"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "a kitchen cabinet",
+        "zh": "厨房橱柜"
+      },
+      {
+        "phrase": "a filing cabinet",
+        "zh": "文件柜"
+      },
+      {
+        "phrase": "a cabinet meeting",
+        "zh": "内阁会议"
+      },
+      {
+        "phrase": "a medicine cabinet",
+        "zh": "药柜"
+      },
+      {
+        "phrase": "a cabinet minister",
+        "zh": "内阁部长"
+      }
+    ],
+    "forms": [
+      {
+        "label": "复数",
+        "form": "cabinets"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "cabinetry",
+        "pos": "n.",
+        "zh": "橱柜制作工艺，也指整套橱柜"
+      },
+      {
+        "word": "cabinetmaker",
+        "pos": "n.",
+        "zh": "细木匠，专门制作橱柜的人"
+      },
+      {
+        "word": "cabin",
+        "pos": "n.",
+        "zh": "小屋，cabinet 的同源词"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "A storage cupboard",
+        "titleCN": "橱柜",
+        "definition": "a piece of furniture with doors and shelves for keeping things",
+        "definitionCN": "带门和隔板、用来存放物品的家具",
+        "example": "She put the plates back in the cabinet.",
+        "exampleCN": "她把盘子放回橱柜。",
+        "why": "The core image is a closed wooden box standing against a wall.",
+        "whyCN": "核心意象是一只靠墙立着的封闭木柜。"
+      },
+      {
+        "no": "02",
+        "title": "The senior ministers of a government",
+        "titleCN": "内阁",
+        "definition": "the group of senior ministers who advise a head of government",
+        "definitionCN": "为政府首脑提供建议的高级部长群体",
+        "example": "The cabinet met to discuss the budget.",
+        "exampleCN": "内阁开会讨论预算。",
+        "why": "Ministers once met in a small private room, and the room's name passed to the group.",
+        "whyCN": "部长们曾在一间小密室里议事，房间的名字就转指这群人。"
+      },
+      {
+        "no": "03",
+        "title": "A small room for display",
+        "titleCN": "陈列室",
+        "definition": "a small room used to display objects or keep a collection",
+        "definitionCN": "用来陈列物品或收藏品的小房间",
+        "example": "The coin cabinet is upstairs.",
+        "exampleCN": "钱币陈列室在楼上。",
+        "why": "The older sense was a small private room, later used for showing collections.",
+        "whyCN": "较早的意思是私密小房间，后来用于展出收藏品。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Cabinet began as a small room and later named the furniture in it.",
+        "cn": "cabinet 最初指小房间，后来指房间里的家具。"
+      },
+      "items": [
+        {
+          "era": "OLD FRENCH",
+          "en": "cabinet was a diminutive of cabine, a small room.",
+          "cn": "古法语 cabinet 是 cabine 的指小形式，意为小房间。"
+        },
+        {
+          "era": "SIXTEENTH CENTURY",
+          "en": "English cabinet named a private room for valuables.",
+          "cn": "十六世纪英语 cabinet 指存放贵重物品的私室。"
+        },
+        {
+          "era": "SEVENTEENTH CENTURY",
+          "en": "The word shifted to the chest of drawers kept there.",
+          "cn": "十七世纪词义转向放在那里的抽屉柜。"
+        },
+        {
+          "era": "EIGHTEENTH CENTURY",
+          "en": "Cabinet named the advisers meeting in a private room.",
+          "cn": "十八世纪 cabinet 指在私室议事的顾问团。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "Cabinet covers cupboards, government advisers and display rooms.",
+          "cn": "现代英语中 cabinet 兼指橱柜、政府内阁与陈列室。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "The look-alike group shares the cabin base; the near-meaning group gives other storage furniture.",
+        "cn": "形近组共用 cabin 词基；近义组是其他储物家具。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "cabinetry",
+              "ipa": "/ˈkæbɪnətri/",
+              "tag": "derived form",
+              "definition": "the craft of making cabinets",
+              "definitionCN": "橱柜制作工艺"
+            },
+            {
+              "word": "cabinetmaker",
+              "ipa": "/ˈkæbɪnətmeɪkə/",
+              "tag": "compound",
+              "definition": "a skilled maker of furniture",
+              "definitionCN": "细木匠"
+            },
+            {
+              "word": "cabin",
+              "ipa": "/ˈkæbɪn/",
+              "tag": "same root",
+              "definition": "a small wooden house or room",
+              "definitionCN": "小木屋或舱室"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "cupboard",
+              "ipa": "/ˈkʌbəd/",
+              "tag": "near meaning",
+              "definition": "a piece of furniture with shelves and doors",
+              "definitionCN": "带门和隔板的储物柜"
+            },
+            {
+              "word": "locker",
+              "ipa": "/ˈlɒkə/",
+              "tag": "near meaning",
+              "definition": "a small locked cupboard for personal things",
+              "definitionCN": "带锁的小储物柜"
+            },
+            {
+              "word": "wardrobe",
+              "ipa": "/ˈwɔːdrəʊb/",
+              "tag": "related",
+              "definition": "a tall cupboard for clothes",
+              "definitionCN": "挂衣服的高柜"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Cabinet moved from a room to the furniture and then to a government group.",
+        "cn": "cabinet 从小房间转到家具，再转到政府班子。"
+      },
+      "normal": [
+        {
+          "en": "The plural is cabinets.",
+          "cn": "复数是 cabinets。"
+        },
+        {
+          "en": "A filing cabinet holds documents.",
+          "cn": "filing cabinet 存放文件。"
+        },
+        {
+          "en": "A cabinet meeting is held by ministers.",
+          "cn": "cabinet meeting 由部长们召开。"
+        },
+        {
+          "en": "Cabinetry is the craft of making cabinets.",
+          "cn": "cabinetry 指橱柜制作工艺。"
+        },
+        {
+          "en": "The word is related to cabin.",
+          "cn": "这个词与 cabin 同源。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "See a wall of doors opening onto neat shelves.",
+          "cn": "想象一整墙柜门打开，露出整齐的隔板。"
+        },
+        {
+          "en": "See a small room with a heavy table and closed doors.",
+          "cn": "想象一间小室，里面一张厚桌，门关着。"
+        },
+        {
+          "en": "See coins laid out under glass in a quiet room.",
+          "cn": "想象安静房间里玻璃下的钱币展品。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "She put the plates back in the cabinet.",
+        "cn": "她把盘子放回橱柜。"
+      },
+      {
+        "en": "The cabinet met to discuss the budget.",
+        "cn": "内阁开会讨论预算。"
+      },
+      {
+        "en": "The coin cabinet is upstairs.",
+        "cn": "钱币陈列室在楼上。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "拆词记忆 · 非词源",
+      "text": "cabinet 和 cabin 同源，都是小空间；先记住小木屋，再想屋里靠墙立着带门的柜子，最后想到关起门议事的内阁。",
+      "word": "cabinet"
+    },
+    "root": "cabinet 是古法语 cabine（小房间）的指小形式，本指私密小室，后来指室内的储物柜，又指在小室议事的政府顾问团。",
+    "sensesIntro": {
+      "en": "A storage cupboard, a group of senior ministers, and a display room.",
+      "cn": "储物橱柜、高级部长组成的班子，以及陈列室。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: a closed wooden cupboard against a wall.",
+        "cn": "核心意象：靠墙立着的封闭木柜。"
+      },
+      "chain": [
+        "FURNITURE",
+        "DOORS",
+        "STORAGE",
+        "ROOM",
+        "GOVERNMENT",
+        "ADVISERS"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "a kitchen cabinet",
+          "cn": "厨房橱柜"
+        },
+        {
+          "senses": "01",
+          "en": "a filing cabinet",
+          "cn": "文件柜"
+        },
+        {
+          "senses": "01",
+          "en": "a medicine cabinet",
+          "cn": "药柜"
+        },
+        {
+          "senses": "02",
+          "en": "a cabinet meeting",
+          "cn": "内阁会议"
+        },
+        {
+          "senses": "03",
+          "en": "the coin cabinet",
+          "cn": "钱币陈列室"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Cabinet forms compounds with maker and takes the ending -ry.",
+        "cn": "cabinet 能与 maker 组成复合词，也能加 -ry 构成名词。"
+      },
+      "latinIntro": {
+        "en": "The base is a French diminutive; the Latin relative is capanna, a hut.",
+        "cn": "词基是法语的指小形式，拉丁语中的相关词是 capanna（小屋）。"
+      },
+      "items": [
+        {
+          "word": "cabinet",
+          "structure": "Old French cabinet",
+          "meaning": "a small room, then a cupboard",
+          "meaningCN": "小房间，后指橱柜",
+          "example": "a kitchen cabinet",
+          "exampleCN": "厨房橱柜"
+        },
+        {
+          "word": "cabinetry",
+          "structure": "cabinet + -ry",
+          "meaning": "the craft of cabinet making",
+          "meaningCN": "橱柜工艺",
+          "example": "fine cabinetry",
+          "exampleCN": "精细橱柜工艺"
+        },
+        {
+          "word": "cabinetmaker",
+          "structure": "cabinet + maker",
+          "meaning": "a maker of fine furniture",
+          "meaningCN": "细木匠",
+          "example": "a skilled cabinetmaker",
+          "exampleCN": "熟练细木匠"
+        },
+        {
+          "word": "cabin",
+          "structure": "Old French cabane",
+          "meaning": "a small shelter",
+          "meaningCN": "小屋",
+          "example": "a log cabin",
+          "exampleCN": "原木小屋"
+        },
+        {
+          "word": "cupboard",
+          "structure": "cup + board",
+          "meaning": "a shelved storage furniture",
+          "meaningCN": "储物柜",
+          "example": "a kitchen cupboard",
+          "exampleCN": "厨房储物柜"
+        },
+        {
+          "word": "locker",
+          "structure": "lock + -er",
+          "meaning": "a small locked cupboard",
+          "meaningCN": "带锁小柜",
+          "example": "a school locker",
+          "exampleCN": "学校储物柜"
+        },
+        {
+          "word": "wardrobe",
+          "structure": "ward + robe",
+          "meaning": "a tall clothes cupboard",
+          "meaningCN": "衣柜",
+          "example": "a wooden wardrobe",
+          "exampleCN": "木衣柜"
+        },
+        {
+          "word": "shelf",
+          "structure": "Middle English shelfe",
+          "meaning": "a flat board for storing things",
+          "meaningCN": "隔板",
+          "example": "a top shelf",
+          "exampleCN": "最上层隔板"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "capanna",
+          "structure": "Latin noun",
+          "meaning": "hut",
+          "meaningCN": "小屋"
+        }
+      ]
+    }
+  }
+]

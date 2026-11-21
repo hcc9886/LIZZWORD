@@ -1,438 +1,440 @@
-{
- "word": "canary",
- "ipa_uk": "/kəˈneəri/",
- "ipa_us": "/kəˈneri/",
- "definition_zh": "金丝雀；淡黄色；告密者（俚语）",
- "definition_en": "a small yellow songbird kept as a pet; also a light yellow color, or in slang, an informer",
- "core_image": "笼中一只淡黄小鸟引颈高歌：歌声既是报晓的美妙声音，也是报警的信号",
- "scene": "矿井口，矿工拎起鸟笼又看了看天色，才带队下井。The canary stopped singing, and the miners scrambled back up.",
- "sceneCN": "这里 canary 是「金丝雀」（第 1 个义项：作报警用的笼养小鸟）；句意是金丝雀停止鸣叫后，矿工们急忙爬回井上。",
- "pos": [
+[
   {
-   "tag": "n.",
-   "zh": "金丝雀（雀科鸣禽）"
-  },
-  {
-   "tag": "n.",
-   "zh": "淡黄色（颜色名）"
-  },
-  {
-   "tag": "n.",
-   "zh": "告密者（俚语）"
+    "word": "canary",
+    "ipa_uk": "/kəˈneəri/",
+    "ipa_us": "/kəˈneri/",
+    "definition_zh": "金丝雀；淡黄色；告密者（俚语）",
+    "definition_en": "a small yellow songbird kept as a pet; also a light yellow color, or in slang, an informer",
+    "core_image": "笼中一只淡黄小鸟引颈高歌：歌声既是报晓的美妙声音，也是报警的信号",
+    "scene": "矿井口，矿工拎起鸟笼又看了看天色，才带队下井。The canary stopped singing, and the miners scrambled back up.",
+    "sceneCN": "这里 canary 是「金丝雀」（第 1 个义项：作报警用的笼养小鸟）；句意是金丝雀停止鸣叫后，矿工们急忙爬回井上。",
+    "pos": [
+      {
+        "tag": "n.",
+        "zh": "金丝雀（雀科鸣禽）"
+      },
+      {
+        "tag": "n.",
+        "zh": "淡黄色（颜色名）"
+      },
+      {
+        "tag": "n.",
+        "zh": "告密者（俚语）"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "a canary in a coal mine",
+        "zh": "矿井里的金丝雀（预警信号）"
+      },
+      {
+        "phrase": "canary yellow",
+        "zh": "金丝雀黄"
+      },
+      {
+        "phrase": "a caged canary",
+        "zh": "笼中的金丝雀"
+      },
+      {
+        "phrase": "canary in the data",
+        "zh": "数据中的预警信号"
+      },
+      {
+        "phrase": "sing like a canary",
+        "zh": "像金丝雀一样招供（俚语）"
+      },
+      {
+        "phrase": "a canary-colored dress",
+        "zh": "淡黄色的连衣裙"
+      }
+    ],
+    "forms": [
+      {
+        "label": "复数",
+        "form": "canaries"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "Canary Islands",
+        "pos": "n.",
+        "zh": "专有名词，义为「加那利群岛」，金丝雀原产地的地名来源"
+      },
+      {
+        "word": "canary grass",
+        "pos": "n.",
+        "zh": "复合名词，义为「草芦」，一种原产该地区的草"
+      },
+      {
+        "word": "canary yellow",
+        "pos": "n.",
+        "zh": "复合名词，义为「金丝雀黄；淡黄色」"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "A small yellow songbird",
+        "titleCN": "金丝雀；小鸣禽",
+        "definition": "a small finch native to the Canary Islands, bred in cages for its bright color and song",
+        "definitionCN": "原产加那利群岛的小型雀鸟，因羽色明黄、鸣声婉转而被笼养繁育",
+        "example": "The canary trilled from its brass cage by the window.",
+        "exampleCN": "金丝雀在窗边的黄铜鸟笼里婉转啼鸣。",
+        "why": "The word began as the place name: the bird is named after its island home.",
+        "whyCN": "这个词最初是地名：这种鸟以它的原产岛屿命名。"
+      },
+      {
+        "no": "02",
+        "title": "A warning signal sensitive to danger",
+        "titleCN": "（对危险敏感的）预警信号",
+        "definition": "a person, animal, or indicator whose visible reaction gives early warning of hidden danger",
+        "definitionCN": "以明显反应率先暴露隐性危险的人、动物或指标",
+        "example": "Coral reefs are the canary in the coal mine for ocean health.",
+        "exampleCN": "珊瑚礁是海洋健康状况的预警金丝雀。",
+        "why": "Miners literally carried canaries into coal mines because the birds collapsed before humans did.",
+        "whyCN": "矿工真的曾把金丝雀带进煤矿，因为鸟比人先倒下，可作预警。"
+      },
+      {
+        "no": "03",
+        "title": "A light yellow color",
+        "titleCN": "淡黄色；金丝雀黄",
+        "definition": "a bright, light yellow like the bird's feathers",
+        "definitionCN": "像这种鸟羽毛一样的明亮浅黄色",
+        "example": "She painted the kitchen canary yellow.",
+        "exampleCN": "她把厨房刷成了金丝雀黄。",
+        "why": "The bird's name colors everything that shares its yellow.",
+        "whyCN": "鸟名把这种黄色辐射给了所有同色的东西。"
+      },
+      {
+        "no": "04",
+        "title": "An informer",
+        "titleCN": "告密者；线人（俚语）",
+        "definition": "slang for someone who betrays secrets to the authorities, from the bird's constant singing",
+        "definitionCN": "俚语，指向当局出卖秘密的人，取自这种鸟不停歌唱的特性",
+        "example": "The gang discovered a canary in their ranks.",
+        "exampleCN": "团伙发现自己内部出了告密者。",
+        "why": "A bird that never stops singing is a perfect image for someone who cannot keep quiet.",
+        "whyCN": "一只叫个不停的鸟，正是「守不住嘴的人」的完美意象。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Canary is the bird named after the Canary Islands, whose Latin name refers not to songbirds but to dogs.",
+        "cn": "canary 是以加那利群岛命名的鸟，而群岛的拉丁名指的并不是鸣禽，而是狗。"
+      },
+      "items": [
+        {
+          "era": "PROTO-INDO-EUROPEAN",
+          "en": "The root *ḱwṓn, dog, runs through the whole Indo-European dog-word family.",
+          "cn": "词根 *ḱwṓn（狗）贯穿整个印欧语系的「狗」词族。"
+        },
+        {
+          "era": "LATIN",
+          "en": "Latin canarius meant of dogs, and Insulae Canariae, the Islands of the Dogs, was the Roman name for the archipelago.",
+          "cn": "拉丁语 canarius 意为「与狗有关的」，罗马人称该群岛为 Insulae Canariae（狗之群岛）。"
+        },
+        {
+          "era": "SPANISH / PORTUGUESE, 14TH–15TH C.",
+          "en": "Iberian sailors rendered the island name as Canaria and applied canario to the islands' small birds.",
+          "cn": "伊比利亚水手把岛名转写为 Canaria，并把 canario 用到群岛上的小型鸟类。"
+        },
+        {
+          "era": "ENGLISH, 16TH C.",
+          "en": "English canary bird first named the bird in the sixteenth century, later shortened to canary.",
+          "cn": "十六世纪英语先以 canary bird 称呼此鸟，后简化为 canary。"
+        },
+        {
+          "era": "ENGLISH, 17TH C.",
+          "en": "The yellow color sense appeared in the seventeenth century, applied to wine and cloth from the islands.",
+          "cn": "十七世纪出现黄色义，先用于群岛产的葡萄酒和布料。"
+        },
+        {
+          "era": "ENGLISH, 19TH–20TH C.",
+          "en": "The coal-mine warning practice gave the figurative sense, and American slang added the informer sense.",
+          "cn": "矿井预警的实践催生比喻义，美国俚语又添了告密者义。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "Canary shares its dog root with a small word family and is easy to tangle with similarly spelled bird names.",
+        "cn": "canary 的「狗」词根衍生出一小组词族，且容易与拼写相近的鸟类名混淆。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "canine",
+              "ipa": "/ˈkeɪnaɪn/",
+              "tag": "same root",
+              "definition": "Of or like a dog, from the same Latin canis root.",
+              "definitionCN": "犬的；犬齿，同出拉丁语 canis 词根。"
+            },
+            {
+              "word": "kennel",
+              "ipa": "/ˈkenəl/",
+              "tag": "same root, doublet",
+              "definition": "A doghouse, from French chenil, ultimately the same dog root.",
+              "definitionCN": "狗窝，经法语 chenil 上溯到同一「狗」词根。"
+            },
+            {
+              "word": "cannery",
+              "ipa": "/ˈkænəri/",
+              "tag": "sound-alike, different root",
+              "definition": "A factory for canning food; only one letter from canary but from can.",
+              "definitionCN": "罐头厂，与 canary 仅差一个字母，但源自 can（罐）。"
+            },
+            {
+              "word": "canapé",
+              "ipa": "/ˈkænəpeɪ/",
+              "tag": "sound-alike, different root",
+              "definition": "A small open sandwich; spelled close but from a couch root.",
+              "definitionCN": "小开胃点心，拼写相近但源自「沙发」一词根。"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "finch",
+              "ipa": "/fɪntʃ/",
+              "tag": "near meaning",
+              "definition": "The bird family the canary belongs to.",
+              "definitionCN": "雀科，canary 所属的鸟类家族。"
+            },
+            {
+              "word": "sentinel",
+              "ipa": "/ˈsentɪnl/",
+              "tag": "near meaning",
+              "definition": "A guard or watcher that gives warning, the human figure of the canary role.",
+              "definitionCN": "哨兵、守望者，是 canary 预警角色的人格化版本。"
+            },
+            {
+              "word": "bellwether",
+              "ipa": "/ˈbelweðər/",
+              "tag": "near meaning",
+              "definition": "A leading indicator of trends, figurative like the mine canary.",
+              "definitionCN": "领头羊、风向标，与矿井金丝雀同为比喻性指标。"
+            },
+            {
+              "word": "informer",
+              "ipa": "/ɪnˈfɔːrmər/",
+              "tag": "near meaning",
+              "definition": "One who betrays secrets, the plain word behind the slang sense.",
+              "definitionCN": "告密者，是俚语义项背后的平实用词。"
+            },
+            {
+              "word": "hawk",
+              "ipa": "/hɔːk/",
+              "tag": "opposite, symbolic",
+              "definition": "In political metaphor, the aggressive opposite of the small, warning songbird.",
+              "definitionCN": "政治隐喻中的鹰派，与示警的小鸣禽形成象征性对照。"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Five hooks on the island-of-dogs origin and the mine-shaft image.",
+        "cn": "五条围绕「狗之群岛」词源与矿井画面的记忆钩子。"
+      },
+      "normal": [
+        {
+          "en": "Place first: Canary Islands, from Latin Insulae Canariae, the Islands of the Dogs.",
+          "cn": "地名在先：加那利群岛源自拉丁语 Insulae Canariae（狗之群岛）。"
+        },
+        {
+          "en": "Same root: canary, canine, and kennel all descend from the dog word canis.",
+          "cn": "同根记忆：canary、canine、kennel 都出自「狗」词 canis。"
+        },
+        {
+          "en": "Metaphor: a canary in a coal mine is the fixed phrase for an early-warning indicator.",
+          "cn": "比喻义：固定说法「a canary in a coal mine」即「早期预警指标」。"
+        },
+        {
+          "en": "Color: canary yellow is the standard name for bright light yellow in fashion and design.",
+          "cn": "颜色：canary yellow 是时尚与设计中明亮浅黄的标准色名。"
+        },
+        {
+          "en": "Slang hook: sing like a canary, to confess everything, links the bird's song to betrayal.",
+          "cn": "俚语钩子：sing like a canary（全盘招供）把鸟鸣与告密连在一起。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "A tiny yellow bird going quiet in the dark: everyone's alarm bell with feathers.",
+          "cn": "黑暗中一只突然噤声的小黄鸟：长着羽毛的警报器。"
+        },
+        {
+          "en": "A swell of yellow paint across a gray wall, the room suddenly singing.",
+          "cn": "一抹淡黄刷过灰墙，整个房间顿时唱起歌来。"
+        },
+        {
+          "en": "Dogs on a wild beach, named forever into an island, then into a bird.",
+          "cn": "野滩上的狗群：名字永远留给了岛，又从岛转给了鸟。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "Rising insurance claims were the canary that warned of the building's structural trouble.",
+        "cn": "保险索赔的上升是预警这栋楼结构隐患的金丝雀。"
+      },
+      {
+        "en": "He kept a canary that sang every morning outside his studio.",
+        "cn": "他养了一只金丝雀，每天清晨在画室外鸣唱。"
+      },
+      {
+        "en": "Under pressure, the suspect sang like a canary.",
+        "cn": "在压力之下，嫌疑人对一切都招供了。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「克内瑞」——笼子可（克）内部（内）日日（瑞）有歌声，说的就是笼养的金丝雀；联想煤井里的小黄鸟一停叫大家就撤，淡黄色的小身躯格外醒目。",
+      "word": "canary"
+    },
+    "root": "以地名 Canary Islands（加那利群岛）命名；岛名出自拉丁语 Insulae Canariae（狗之群岛，因岛上多大型野狗），词根为拉丁语 canis（狗），可上溯至印欧词根 *ḱwṓn。因此「金丝雀」其实是「狗之鸟」，与 canine（犬的）同根。俚语「告密者」由其不停鸣唱的特征引申而来。",
+    "sensesIntro": {
+      "en": "From the island-named songbird the word grows into an early-warning metaphor, a color name, and slang for an informer.",
+      "cn": "从以岛命名的鸣禽出发，词义生长为预警的比喻、颜色名称以及指告密者的俚语。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: a small yellow bird whose song and silence both carry messages.",
+        "cn": "核心意象：一只淡黄小鸟，它的歌声与沉默都传递着讯息。"
+      },
+      "chain": [
+        "ISLAND BIRD",
+        "CAGED SONG",
+        "SENSITIVE ALARM",
+        "EARLY WARNING",
+        "BRIGHT YELLOW",
+        "BETRAYING VOICE"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "THE CAGE: the literal finch bred for color and song.",
+          "cn": "鸟笼：字面义的雀鸟，为羽色与歌声而繁育。"
+        },
+        {
+          "senses": "02",
+          "en": "THE MINE: the bird that collapses first and saves the miners.",
+          "cn": "矿井：先倒下却救了矿工的鸟。"
+        },
+        {
+          "senses": "03",
+          "en": "THE PAINTBOX: the yellow that borrowed the bird's name.",
+          "cn": "颜料盒：借走鸟名的黄色。"
+        },
+        {
+          "senses": "04",
+          "en": "THE INTERROGATION: the singer who cannot keep quiet.",
+          "cn": "审讯室：守不住嘴的歌唱者。"
+        },
+        {
+          "senses": "02 · 04",
+          "en": "THE MESSAGE: both senses turn the bird's voice into information others must heed.",
+          "cn": "讯息：两个义项都把鸟鸣转译成他人必须重视的信息。"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Canary is a place-name turned common noun; its derivational life sits in compounds and the dog-root family.",
+        "cn": "canary 是由地名转成的普通名词；其派生活动体现在复合词与「狗」词根家族中。"
+      },
+      "latinIntro": {
+        "en": "The Latin root canis, dog, extends far beyond the bird into anatomy and everyday dog words.",
+        "cn": "拉丁词根 canis（狗）的延伸远不止这只鸟，还进入解剖学和日常犬类词汇。"
+      },
+      "items": [
+        {
+          "word": "canis",
+          "structure": "Latin root noun",
+          "meaning": "dog",
+          "meaningCN": "狗",
+          "example": "Canis familiaris, the species name of the dog",
+          "exampleCN": "Canis familiaris，狗的物种学名。"
+        },
+        {
+          "word": "canarius",
+          "structure": "Latin adjective",
+          "meaning": "of dogs",
+          "meaningCN": "与狗有关的",
+          "example": "Insulae Canariae",
+          "exampleCN": "狗之群岛（加那利群岛的拉丁名）。"
+        },
+        {
+          "word": "-y",
+          "structure": "English noun ending",
+          "meaning": "noun-forming ending in the borrowed bird name",
+          "meaningCN": "借入鸟名中的名词性词尾",
+          "example": "canary from canario",
+          "exampleCN": "canary 由西班牙语 canario 转来。"
+        },
+        {
+          "word": "canary yellow",
+          "structure": "noun compound",
+          "meaning": "bright light yellow",
+          "meaningCN": "金丝雀黄；淡黄色",
+          "example": "a canary yellow raincoat",
+          "exampleCN": "一件金丝雀黄的雨衣。"
+        },
+        {
+          "word": "canary grass",
+          "structure": "noun compound",
+          "meaning": "a grass native to the Canary region",
+          "meaningCN": "草芦（原产加那利地区的草）",
+          "example": "canary grass seed for birds",
+          "exampleCN": "喂鸟用的草芦籽。"
+        },
+        {
+          "word": "canine",
+          "structure": "can- + -ine",
+          "meaning": "of or like a dog",
+          "meaningCN": "犬的；犬齿",
+          "example": "canine teeth",
+          "exampleCN": "犬齿。"
+        },
+        {
+          "word": "kennel",
+          "structure": "French doublet of the same root",
+          "meaning": "a doghouse",
+          "meaningCN": "狗窝",
+          "example": "the dog sleeps in its kennel",
+          "exampleCN": "狗睡在窝里。"
+        },
+        {
+          "word": "sing like a canary",
+          "structure": "simile idiom",
+          "meaning": "to confess everything",
+          "meaningCN": "全盘招供（习语）",
+          "example": "He sang like a canary at the trial.",
+          "exampleCN": "他在庭上竹筒倒豆子般招了供。"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "canis",
+          "structure": "Latin noun",
+          "meaning": "dog",
+          "meaningCN": "狗",
+          "example": "cave canem",
+          "exampleCN": "当心恶犬（庞贝马赛克铭文）。"
+        }
+      ],
+      "derivatives": [
+        {
+          "word": "canary yellow",
+          "pos": "n.",
+          "zh": "金丝雀黄；淡黄色"
+        }
+      ]
+    }
   }
- ],
- "collocations": [
-  {
-   "phrase": "a canary in a coal mine",
-   "zh": "矿井里的金丝雀（预警信号）"
-  },
-  {
-   "phrase": "canary yellow",
-   "zh": "金丝雀黄"
-  },
-  {
-   "phrase": "a caged canary",
-   "zh": "笼中的金丝雀"
-  },
-  {
-   "phrase": "canary in the data",
-   "zh": "数据中的预警信号"
-  },
-  {
-   "phrase": "sing like a canary",
-   "zh": "像金丝雀一样招供（俚语）"
-  },
-  {
-   "phrase": "a canary-colored dress",
-   "zh": "淡黄色的连衣裙"
-  }
- ],
- "forms": [
-  {
-   "label": "复数",
-   "form": "canaries"
-  }
- ],
- "derivatives": [
-  {
-   "word": "Canary Islands",
-   "pos": "n.",
-   "zh": "专有名词，义为「加那利群岛」，金丝雀原产地的地名来源"
-  },
-  {
-   "word": "canary grass",
-   "pos": "n.",
-   "zh": "复合名词，义为「草芦」，一种原产该地区的草"
-  },
-  {
-   "word": "canary yellow",
-   "pos": "n.",
-   "zh": "复合名词，义为「金丝雀黄；淡黄色」"
-  }
- ],
- "senses": [
-  {
-   "no": "01",
-   "title": "A small yellow songbird",
-   "titleCN": "金丝雀；小鸣禽",
-   "definition": "a small finch native to the Canary Islands, bred in cages for its bright color and song",
-   "definitionCN": "原产加那利群岛的小型雀鸟，因羽色明黄、鸣声婉转而被笼养繁育",
-   "example": "The canary trilled from its brass cage by the window.",
-   "exampleCN": "金丝雀在窗边的黄铜鸟笼里婉转啼鸣。",
-   "why": "The word began as the place name: the bird is named after its island home.",
-   "whyCN": "这个词最初是地名：这种鸟以它的原产岛屿命名。"
-  },
-  {
-   "no": "02",
-   "title": "A warning signal sensitive to danger",
-   "titleCN": "（对危险敏感的）预警信号",
-   "definition": "a person, animal, or indicator whose visible reaction gives early warning of hidden danger",
-   "definitionCN": "以明显反应率先暴露隐性危险的人、动物或指标",
-   "example": "Coral reefs are the canary in the coal mine for ocean health.",
-   "exampleCN": "珊瑚礁是海洋健康状况的预警金丝雀。",
-   "why": "Miners literally carried canaries into coal mines because the birds collapsed before humans did.",
-   "whyCN": "矿工真的曾把金丝雀带进煤矿，因为鸟比人先倒下，可作预警。"
-  },
-  {
-   "no": "03",
-   "title": "A light yellow color",
-   "titleCN": "淡黄色；金丝雀黄",
-   "definition": "a bright, light yellow like the bird's feathers",
-   "definitionCN": "像这种鸟羽毛一样的明亮浅黄色",
-   "example": "She painted the kitchen canary yellow.",
-   "exampleCN": "她把厨房刷成了金丝雀黄。",
-   "why": "The bird's name colors everything that shares its yellow.",
-   "whyCN": "鸟名把这种黄色辐射给了所有同色的东西。"
-  },
-  {
-   "no": "04",
-   "title": "An informer",
-   "titleCN": "告密者；线人（俚语）",
-   "definition": "slang for someone who betrays secrets to the authorities, from the bird's constant singing",
-   "definitionCN": "俚语，指向当局出卖秘密的人，取自这种鸟不停歌唱的特性",
-   "example": "The gang discovered a canary in their ranks.",
-   "exampleCN": "团伙发现自己内部出了告密者。",
-   "why": "A bird that never stops singing is a perfect image for someone who cannot keep quiet.",
-   "whyCN": "一只叫个不停的鸟，正是「守不住嘴的人」的完美意象。"
-  }
- ],
- "etymology": {
-  "intro": {
-   "en": "Canary is the bird named after the Canary Islands, whose Latin name refers not to songbirds but to dogs.",
-   "cn": "canary 是以加那利群岛命名的鸟，而群岛的拉丁名指的并不是鸣禽，而是狗。"
-  },
-  "items": [
-   {
-    "era": "PROTO-INDO-EUROPEAN",
-    "en": "The root *ḱwṓn, dog, runs through the whole Indo-European dog-word family.",
-    "cn": "词根 *ḱwṓn（狗）贯穿整个印欧语系的「狗」词族。"
-   },
-   {
-    "era": "LATIN",
-    "en": "Latin canarius meant of dogs, and Insulae Canariae, the Islands of the Dogs, was the Roman name for the archipelago.",
-    "cn": "拉丁语 canarius 意为「与狗有关的」，罗马人称该群岛为 Insulae Canariae（狗之群岛）。"
-   },
-   {
-    "era": "SPANISH / PORTUGUESE, 14TH–15TH C.",
-    "en": "Iberian sailors rendered the island name as Canaria and applied canario to the islands' small birds.",
-    "cn": "伊比利亚水手把岛名转写为 Canaria，并把 canario 用到群岛上的小型鸟类。"
-   },
-   {
-    "era": "ENGLISH, 16TH C.",
-    "en": "English canary bird first named the bird in the sixteenth century, later shortened to canary.",
-    "cn": "十六世纪英语先以 canary bird 称呼此鸟，后简化为 canary。"
-   },
-   {
-    "era": "ENGLISH, 17TH C.",
-    "en": "The yellow color sense appeared in the seventeenth century, applied to wine and cloth from the islands.",
-    "cn": "十七世纪出现黄色义，先用于群岛产的葡萄酒和布料。"
-   },
-   {
-    "era": "ENGLISH, 19TH–20TH C.",
-    "en": "The coal-mine warning practice gave the figurative sense, and American slang added the informer sense.",
-    "cn": "矿井预警的实践催生比喻义，美国俚语又添了告密者义。"
-   }
-  ]
- },
- "similar": {
-  "note": {
-   "en": "Canary shares its dog root with a small word family and is easy to tangle with similarly spelled bird names.",
-   "cn": "canary 的「狗」词根衍生出一小组词族，且容易与拼写相近的鸟类名混淆。"
-  },
-  "groups": [
-   {
-    "heading": "LOOK-ALIKE",
-    "entries": [
-     {
-      "word": "canine",
-      "ipa": "/ˈkeɪnaɪn/",
-      "tag": "same root",
-      "definition": "Of or like a dog, from the same Latin canis root.",
-      "definitionCN": "犬的；犬齿，同出拉丁语 canis 词根。"
-     },
-     {
-      "word": "kennel",
-      "ipa": "/ˈkenəl/",
-      "tag": "same root, doublet",
-      "definition": "A doghouse, from French chenil, ultimately the same dog root.",
-      "definitionCN": "狗窝，经法语 chenil 上溯到同一「狗」词根。"
-     },
-     {
-      "word": "cannery",
-      "ipa": "/ˈkænəri/",
-      "tag": "sound-alike, different root",
-      "definition": "A factory for canning food; only one letter from canary but from can.",
-      "definitionCN": "罐头厂，与 canary 仅差一个字母，但源自 can（罐）。"
-     },
-     {
-      "word": "canapé",
-      "ipa": "/ˈkænəpeɪ/",
-      "tag": "sound-alike, different root",
-      "definition": "A small open sandwich; spelled close but from a couch root.",
-      "definitionCN": "小开胃点心，拼写相近但源自「沙发」一词根。"
-     }
-    ]
-   },
-   {
-    "heading": "NEAR MEANING",
-    "entries": [
-     {
-      "word": "finch",
-      "ipa": "/fɪntʃ/",
-      "tag": "near meaning",
-      "definition": "The bird family the canary belongs to.",
-      "definitionCN": "雀科，canary 所属的鸟类家族。"
-     },
-     {
-      "word": "sentinel",
-      "ipa": "/ˈsentɪnl/",
-      "tag": "near meaning",
-      "definition": "A guard or watcher that gives warning, the human figure of the canary role.",
-      "definitionCN": "哨兵、守望者，是 canary 预警角色的人格化版本。"
-     },
-     {
-      "word": "bellwether",
-      "ipa": "/ˈbelweðər/",
-      "tag": "near meaning",
-      "definition": "A leading indicator of trends, figurative like the mine canary.",
-      "definitionCN": "领头羊、风向标，与矿井金丝雀同为比喻性指标。"
-     },
-     {
-      "word": "informer",
-      "ipa": "/ɪnˈfɔːrmər/",
-      "tag": "near meaning",
-      "definition": "One who betrays secrets, the plain word behind the slang sense.",
-      "definitionCN": "告密者，是俚语义项背后的平实用词。"
-     },
-     {
-      "word": "hawk",
-      "ipa": "/hɔːk/",
-      "tag": "opposite, symbolic",
-      "definition": "In political metaphor, the aggressive opposite of the small, warning songbird.",
-      "definitionCN": "政治隐喻中的鹰派，与示警的小鸣禽形成象征性对照。"
-     }
-    ]
-   }
-  ]
- },
- "mnemonics": {
-  "normalIntro": {
-   "en": "Five hooks on the island-of-dogs origin and the mine-shaft image.",
-   "cn": "五条围绕「狗之群岛」词源与矿井画面的记忆钩子。"
-  },
-  "normal": [
-   {
-    "en": "Place first: Canary Islands, from Latin Insulae Canariae, the Islands of the Dogs.",
-    "cn": "地名在先：加那利群岛源自拉丁语 Insulae Canariae（狗之群岛）。"
-   },
-   {
-    "en": "Same root: canary, canine, and kennel all descend from the dog word canis.",
-    "cn": "同根记忆：canary、canine、kennel 都出自「狗」词 canis。"
-   },
-   {
-    "en": "Metaphor: a canary in a coal mine is the fixed phrase for an early-warning indicator.",
-    "cn": "比喻义：固定说法「a canary in a coal mine」即「早期预警指标」。"
-   },
-   {
-    "en": "Color: canary yellow is the standard name for bright light yellow in fashion and design.",
-    "cn": "颜色：canary yellow 是时尚与设计中明亮浅黄的标准色名。"
-   },
-   {
-    "en": "Slang hook: sing like a canary, to confess everything, links the bird's song to betrayal.",
-    "cn": "俚语钩子：sing like a canary（全盘招供）把鸟鸣与告密连在一起。"
-   }
-  ],
-  "abstract": [
-   {
-    "en": "A tiny yellow bird going quiet in the dark: everyone's alarm bell with feathers.",
-    "cn": "黑暗中一只突然噤声的小黄鸟：长着羽毛的警报器。"
-   },
-   {
-    "en": "A swell of yellow paint across a gray wall, the room suddenly singing.",
-    "cn": "一抹淡黄刷过灰墙，整个房间顿时唱起歌来。"
-   },
-   {
-    "en": "Dogs on a wild beach, named forever into an island, then into a bird.",
-    "cn": "野滩上的狗群：名字永远留给了岛，又从岛转给了鸟。"
-   }
-  ]
- },
- "examples": [
-  {
-   "en": "Rising insurance claims were the canary that warned of the building's structural trouble.",
-   "cn": "保险索赔的上升是预警这栋楼结构隐患的金丝雀。"
-  },
-  {
-   "en": "He kept a canary that sang every morning outside his studio.",
-   "cn": "他养了一只金丝雀，每天清晨在画室外鸣唱。"
-  },
-  {
-   "en": "Under pressure, the suspect sang like a canary.",
-   "cn": "在压力之下，嫌疑人对一切都招供了。"
-  }
- ],
- "dict_mnemonic": {
-  "note": "谐音记忆 · 非词源",
-  "text": "「克内瑞」——笼子可（克）内部（内）日日（瑞）有歌声，说的就是笼养的金丝雀；联想煤井里的小黄鸟一停叫大家就撤，淡黄色的小身躯格外醒目。",
-  "word": "canary"
- },
- "root": "以地名 Canary Islands（加那利群岛）命名；岛名出自拉丁语 Insulae Canariae（狗之群岛，因岛上多大型野狗），词根为拉丁语 canis（狗），可上溯至印欧词根 *ḱwṓn。因此「金丝雀」其实是「狗之鸟」，与 canine（犬的）同根。俚语「告密者」由其不停鸣唱的特征引申而来。",
- "sensesIntro": {
-  "en": "From the island-named songbird the word grows into an early-warning metaphor, a color name, and slang for an informer.",
-  "cn": "从以岛命名的鸣禽出发，词义生长为预警的比喻、颜色名称以及指告密者的俚语。"
- },
- "semanticMap": {
-  "core": {
-   "en": "CORE IMAGE: a small yellow bird whose song and silence both carry messages.",
-   "cn": "核心意象：一只淡黄小鸟，它的歌声与沉默都传递着讯息。"
-  },
-  "chain": [
-   "ISLAND BIRD",
-   "CAGED SONG",
-   "SENSITIVE ALARM",
-   "EARLY WARNING",
-   "BRIGHT YELLOW",
-   "BETRAYING VOICE"
-  ],
-  "branches": [
-   {
-    "senses": "01",
-    "en": "THE CAGE: the literal finch bred for color and song.",
-    "cn": "鸟笼：字面义的雀鸟，为羽色与歌声而繁育。"
-   },
-   {
-    "senses": "02",
-    "en": "THE MINE: the bird that collapses first and saves the miners.",
-    "cn": "矿井：先倒下却救了矿工的鸟。"
-   },
-   {
-    "senses": "03",
-    "en": "THE PAINTBOX: the yellow that borrowed the bird's name.",
-    "cn": "颜料盒：借走鸟名的黄色。"
-   },
-   {
-    "senses": "04",
-    "en": "THE INTERROGATION: the singer who cannot keep quiet.",
-    "cn": "审讯室：守不住嘴的歌唱者。"
-   },
-   {
-    "senses": "02 · 04",
-    "en": "THE MESSAGE: both senses turn the bird's voice into information others must heed.",
-    "cn": "讯息：两个义项都把鸟鸣转译成他人必须重视的信息。"
-   }
-  ]
- },
- "affixes": {
-  "intro": {
-   "en": "Canary is a place-name turned common noun; its derivational life sits in compounds and the dog-root family.",
-   "cn": "canary 是由地名转成的普通名词；其派生活动体现在复合词与「狗」词根家族中。"
-  },
-  "latinIntro": {
-   "en": "The Latin root canis, dog, extends far beyond the bird into anatomy and everyday dog words.",
-   "cn": "拉丁词根 canis（狗）的延伸远不止这只鸟，还进入解剖学和日常犬类词汇。"
-  },
-  "items": [
-   {
-    "word": "canis",
-    "structure": "Latin root noun",
-    "meaning": "dog",
-    "meaningCN": "狗",
-    "example": "Canis familiaris, the species name of the dog",
-    "exampleCN": "Canis familiaris，狗的物种学名。"
-   },
-   {
-    "word": "canarius",
-    "structure": "Latin adjective",
-    "meaning": "of dogs",
-    "meaningCN": "与狗有关的",
-    "example": "Insulae Canariae",
-    "exampleCN": "狗之群岛（加那利群岛的拉丁名）。"
-   },
-   {
-    "word": "-y",
-    "structure": "English noun ending",
-    "meaning": "noun-forming ending in the borrowed bird name",
-    "meaningCN": "借入鸟名中的名词性词尾",
-    "example": "canary from canario",
-    "exampleCN": "canary 由西班牙语 canario 转来。"
-   },
-   {
-    "word": "canary yellow",
-    "structure": "noun compound",
-    "meaning": "bright light yellow",
-    "meaningCN": "金丝雀黄；淡黄色",
-    "example": "a canary yellow raincoat",
-    "exampleCN": "一件金丝雀黄的雨衣。"
-   },
-   {
-    "word": "canary grass",
-    "structure": "noun compound",
-    "meaning": "a grass native to the Canary region",
-    "meaningCN": "草芦（原产加那利地区的草）",
-    "example": "canary grass seed for birds",
-    "exampleCN": "喂鸟用的草芦籽。"
-   },
-   {
-    "word": "canine",
-    "structure": "can- + -ine",
-    "meaning": "of or like a dog",
-    "meaningCN": "犬的；犬齿",
-    "example": "canine teeth",
-    "exampleCN": "犬齿。"
-   },
-   {
-    "word": "kennel",
-    "structure": "French doublet of the same root",
-    "meaning": "a doghouse",
-    "meaningCN": "狗窝",
-    "example": "the dog sleeps in its kennel",
-    "exampleCN": "狗睡在窝里。"
-   },
-   {
-    "word": "sing like a canary",
-    "structure": "simile idiom",
-    "meaning": "to confess everything",
-    "meaningCN": "全盘招供（习语）",
-    "example": "He sang like a canary at the trial.",
-    "exampleCN": "他在庭上竹筒倒豆子般招了供。"
-   }
-  ],
-  "latinEntries": [
-   {
-    "word": "canis",
-    "structure": "Latin noun",
-    "meaning": "dog",
-    "meaningCN": "狗",
-    "example": "cave canem",
-    "exampleCN": "当心恶犬（庞贝马赛克铭文）。"
-   }
-  ],
-  "derivatives": [
-   {
-    "word": "canary yellow",
-    "pos": "n.",
-    "zh": "金丝雀黄；淡黄色"
-   }
-  ]
- }
-}
+]

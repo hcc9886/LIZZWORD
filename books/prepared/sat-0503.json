@@ -1,159 +1,447 @@
-{
-  "word": "cache",
-  "ipa_uk": "/kæʃ/",
-  "ipa_us": "/kæʃ/",
-  "definition_zh": "隐秘贮藏处；贮藏物；（计算机）高速缓存；隐藏贮存",
-  "definition_en": "a hidden store of goods or data; as a verb, to store or hide away",
-  "core_image": "树根下埋着的一只铁皮箱，装着猎人的补给",
-  "scene": "猎人在老松树的根下挖出一只锈迹斑斑的铁箱。The trapper kept a cache of supplies by the river.",
-  "sceneCN": "这里 cache 是「隐秘贮藏物」（第 1 个义项：暗中存放的补给）；句意是猎人在河边藏了一批补给品。",
-  "pos": [
-    { "tag": "n.", "zh": "隐藏的贮藏物；秘密贮藏处；（计算机）高速缓存" },
-    { "tag": "vt.", "zh": "隐藏；贮藏；（计算机）缓存" }
-  ],
-  "collocations": [
-    { "phrase": "a cache of weapons", "zh": "一批私藏武器" },
-    { "phrase": "a hidden cache", "zh": "暗藏的贮藏处" },
-    { "phrase": "cache memory", "zh": "高速缓存" },
-    { "phrase": "clear the cache", "zh": "清除缓存" },
-    { "phrase": "cache data", "zh": "缓存数据" },
-    { "phrase": "a cache of food", "zh": "一批储藏的食物" }
-  ],
-  "forms": [
-    { "label": "过去式", "form": "cached" },
-    { "label": "过去分词", "form": "cached" },
-    { "label": "现在分词", "form": "caching" },
-    { "label": "三单", "form": "caches" },
-    { "label": "复数", "form": "caches" }
-  ],
-  "derivatives": [
-    { "word": "cachette", "pos": "n.", "zh": "由法语 diminutive 而来，义为「小型藏匿处」" },
-    { "word": "geocache", "pos": "n.", "zh": "由 geo- 加 cache 构成的复合词，义为「地理藏宝点」" },
-    { "word": "cash", "pos": "n.", "zh": "同源近形词，义为「现金」，与 cache 发音相同" }
-  ],
-  "senses": [
-    {
-      "no": "01",
-      "title": "A hidden store of goods",
-      "titleCN": "隐藏的贮藏物；密藏处",
-      "definition": "a secret store of supplies or valuables hidden away for later use",
-      "definitionCN": "为日后取用而秘密藏起的物资或财物",
-      "example": "Soldiers found a cache of rifles in the barn.",
-      "exampleCN": "士兵在谷仓里发现一批私藏的步枪。",
-      "why": "The French word for a hiding place named the things hidden there.",
-      "whyCN": "法语的「藏匿处」一词转指藏起来的东西。"
-    },
-    {
-      "no": "02",
-      "title": "A fast computer memory",
-      "titleCN": "（计算机）高速缓存",
-      "definition": "a small, fast memory that keeps copies of frequently used data",
-      "definitionCN": "保存常用数据副本的小型高速存储器",
-      "example": "Clearing the browser cache fixed the slow loading.",
-      "exampleCN": "清掉浏览器缓存后，加载变快了。",
-      "why": "Computing borrowed the image of a small store kept close at hand.",
-      "whyCN": "计算机术语借用了「近旁小库」这一意象。"
-    },
-    {
-      "no": "03",
-      "title": "To store or hide away",
-      "titleCN": "隐藏；贮藏（动词）",
-      "definition": "to put something in a hidden store, literally or in computing",
-      "definitionCN": "把某物藏入密藏处，计算领域指存入缓存",
-      "example": "The rebels cached their ammunition in caves.",
-      "exampleCN": "叛军把弹药藏进山洞。",
-      "why": "The noun of the store becomes the verb of storing.",
-      "whyCN": "贮藏物的名词转为贮藏的动词。"
-    }
-  ],
-  "etymology": {
-    "intro": { "en": "Cache comes from French cacher, to hide, whose deeper root is the Latin coacticare, to press together.", "cn": "cache 源自法语 cacher（隐藏），更深的词根是拉丁语 coacticare（压紧收拢）。" },
-    "items": [
-      { "era": "LATIN COACTICARE", "en": "coacticare meant to press or force together, from coactus, compelled.", "cn": "拉丁语 coacticare 意为「压紧、收拢」，出自 coactus（被迫的）。" },
-      { "era": "OLD FRENCH", "en": "cachier and cacher meant to press, then to hide away.", "cn": "古法语 cachier、cacher 由「压紧」转指「藏匿」。" },
-      { "era": "FRENCH NOUN", "en": "cache named a hiding place, especially for furs and supplies.", "cn": "法语名词 cache 指藏匿处，尤指皮货与补给的存放点。" },
-      { "era": "ENGLISH, 18TH–19TH C.", "en": "fur traders and explorers brought cache into English for hidden stores.", "cn": "十八至十九世纪皮货商与探险家把 cache 带入英语，指密藏的物资。" },
-      { "era": "COMPUTING, 20TH C.", "en": "computer engineers adopted cache for a small fast store of data.", "cn": "二十世纪计算机工程师借 cache 指小型高速数据存储。" }
-    ]
-  },
-  "similar": {
-    "note": { "en": "The look-alike group separates the homophone cash; the near-meaning group gives storing and hiding words.", "cn": "形近组区分同音词 cash；近义组是贮藏与隐藏类词。" },
-    "groups": [
+[
+  {
+    "word": "cache",
+    "ipa_uk": "/kæʃ/",
+    "ipa_us": "/kæʃ/",
+    "definition_zh": "隐秘贮藏处；贮藏物；（计算机）高速缓存；隐藏贮存",
+    "definition_en": "a hidden store of goods or data; as a verb, to store or hide away",
+    "core_image": "树根下埋着的一只铁皮箱，装着猎人的补给",
+    "scene": "猎人在老松树的根下挖出一只锈迹斑斑的铁箱。The trapper kept a cache of supplies by the river.",
+    "sceneCN": "这里 cache 是「隐秘贮藏物」（第 1 个义项：暗中存放的补给）；句意是猎人在河边藏了一批补给品。",
+    "pos": [
       {
-        "heading": "LOOK-ALIKE",
-        "entries": [
-          { "word": "cash", "ipa": "/kæʃ/", "tag": "same root", "definition": "money in coins or notes, from the same French cacher via a case for money", "definitionCN": "现金，同出法语 cacher（原指钱匣）" },
-          { "word": "cachet", "ipa": "/ˈkæʃeɪ/", "tag": "same root", "definition": "prestige, from a seal on a document", "definitionCN": "威望，同根词，源自印章义" },
-          { "word": "catch", "ipa": "/kætʃ/", "tag": "spelling", "definition": "to seize, unrelated", "definitionCN": "抓住，仅拼写相近，词源无关" },
-          { "word": "geocache", "ipa": "/ˈdʒiːəʊkæʃ/", "tag": "compound", "definition": "a hidden container found by GPS", "definitionCN": "地理藏宝点，cache 的现代复合词" }
-        ]
+        "tag": "n.",
+        "zh": "隐藏的贮藏物；秘密贮藏处；（计算机）高速缓存"
       },
       {
-        "heading": "NEAR MEANING",
-        "entries": [
-          { "word": "hoard", "ipa": "/hɔːd/", "tag": "near meaning", "definition": "a carefully saved and hidden store", "definitionCN": "窖藏；积存的财物" },
-          { "word": "stockpile", "ipa": "/ˈstɒkpaɪl/", "tag": "near meaning", "definition": "a large accumulated store", "definitionCN": "大量储备" },
-          { "word": "stash", "ipa": "/stæʃ/", "tag": "near meaning", "definition": "an informal hidden store", "definitionCN": "私藏的物品（口语）" },
-          { "word": "storehouse", "ipa": "/ˈstɔːhaʊs/", "tag": "near meaning", "definition": "a building for storing goods", "definitionCN": "仓库" },
-          { "word": "buffer", "ipa": "/ˈbʌfə/", "tag": "related", "definition": "a temporary data store in computing", "definitionCN": "缓冲区，计算术语" }
-        ]
+        "tag": "vt.",
+        "zh": "隐藏；贮藏；（计算机）缓存"
       }
-    ]
-  },
-  "mnemonics": {
-    "normalIntro": { "en": "Same sound as cash: a cache is a hidden pile of value.", "cn": "与 cash 同音：cache 就是藏起来的那份「财」。" },
-    "normal": [
-      { "en": "French cacher means to hide.", "cn": "法语 cacher 意为隐藏。" },
-      { "en": "A cache of weapons is a hidden pile of guns.", "cn": "a cache of weapons 指一批私藏的枪支。" },
-      { "en": "Clear the cache is the common computing phrase.", "cn": "clear the cache 是常见的计算机用语。" },
-      { "en": "Cache and cash sound identical.", "cn": "cache 与 cash 同音。" },
-      { "en": "Cachet shares the root but means prestige.", "cn": "cachet 同根但指威望。" }
     ],
-    "abstract": [
-      { "en": "See dirt brushing off a tin box under roots.", "cn": "看树根下铁皮箱上的泥土被拂去。" },
-      { "en": "Feel the weight of coins hidden in a floor cavity.", "cn": "感受地板暗格中钱币的分量。" },
-      { "en": "Picture files sliding into a small drawer the CPU keeps open.", "cn": "想象文件滑入处理器身旁常开的小抽屉。" }
-    ]
-  },
-  "examples": [
-    { "en": "Police uncovered a cache of stolen paintings.", "cn": "警方起获一批窝藏的失窃名画。" },
-    { "en": "The app caches images so pages load faster.", "cn": "这款应用会缓存图片，使页面加载更快。" },
-    { "en": "Hikers kept a cache of dried food along the trail.", "cn": "徒步者在沿途藏了些干粮。" }
-  ],
-  "dict_mnemonic": { "note": "谐音记忆 · 非词源", "text": "读作 cash「现金」——藏起来的现金，正是「密藏之物」；电脑里的小金库就是缓存。", "word": "cache" },
-  "root": "cache 源自拉丁语 coacticare「压紧、收拢」，经古法语 cacher「藏匿」进入英语；名词指密藏之物与藏匿处，二十世纪又进入计算机术语，指贴近处理器的高速小存储。",
-  "sensesIntro": { "en": "One idea of the hidden store serves hunters, soldiers, and computer chips alike.", "cn": "「暗藏的一库」这一个意象，同时服务于猎人、士兵与计算机芯片。" },
-  "semanticMap": {
-    "core": { "en": "CORE IMAGE: a tin box buried under tree roots.", "cn": "核心意象：埋在树根下的铁皮箱。" },
-    "chain": ["HIDE", "PRESS TOGETHER", "STORE", "KEEP CLOSE", "QUICK RETRIEVAL", "CONCEALMENT"],
-    "branches": [
-      { "senses": "01", "en": "a cache of rifles in the barn", "cn": "谷仓里私藏的步枪" },
-      { "senses": "01", "en": "a trapper's food cache by the river", "cn": "猎人藏于河边的食物" },
-      { "senses": "02", "en": "clear the browser cache", "cn": "清除浏览器缓存" },
-      { "senses": "03", "en": "cached data for quick loading", "cn": "为快速加载而缓存的数据" },
-      { "senses": "01 · 03", "en": "to cache is to bury the cache", "cn": "动词「藏」与名词「藏物」一体" }
-    ]
-  },
-  "affixes": {
-    "intro": { "en": "Cache is a bare French noun; its family all circle the idea of pressing or hiding.", "cn": "cache 是光杆法语名词；其同族词都围绕「压紧、隐藏」之意。" },
-    "latinIntro": { "en": "Latin coacticare, to press together, is the deep root, from coactus, compelled.", "cn": "深层词根是拉丁语 coacticare「压紧」，出自 coactus「被迫的」。" },
-    "items": [
-      { "word": "coacticare", "structure": "Latin verb", "meaning": "to press together", "meaningCN": "压紧；收拢", "example": "coacticare frumentum", "exampleCN": "把谷物收拢（拉丁语）" },
-      { "word": "cacher", "structure": "Old French verb", "meaning": "to hide", "meaningCN": "隐藏", "example": "cacher un trésor", "exampleCN": "藏起财宝（法语）" },
-      { "word": "cache", "structure": "French noun", "meaning": "a hiding place; hidden store", "meaningCN": "藏匿处；密藏物", "example": "a cache of ammunition", "exampleCN": "一批密藏弹药" },
-      { "word": "cached", "structure": "cache + -ed", "meaning": "stored away", "meaningCN": "已缓存的；已藏的", "example": "cached pages", "exampleCN": "缓存的网页" },
-      { "word": "cash", "structure": "same root via money case", "meaning": "money", "meaningCN": "现金", "example": "ready cash", "exampleCN": "现款" },
-      { "word": "cachet", "structure": "same root via seal", "meaning": "prestige", "meaningCN": "威望", "example": "a cachet of quality", "exampleCN": "品质的声望标记" },
-      { "word": "geocache", "structure": "geo- + cache", "meaning": "a GPS treasure site", "meaningCN": "地理藏宝点", "example": "find a geocache", "exampleCN": "寻找地理藏宝点" },
-      { "word": "stash", "structure": "slang verb", "meaning": "to hide informally", "meaningCN": "私藏", "example": "stash the keys", "exampleCN": "把钥匙藏起来" },
-      { "word": "hoard", "structure": "Germanic noun", "meaning": "a saved store", "meaningCN": "窖藏", "example": "a hoard of coins", "exampleCN": "一窖钱币" }
+    "collocations": [
+      {
+        "phrase": "a cache of weapons",
+        "zh": "一批私藏武器"
+      },
+      {
+        "phrase": "a hidden cache",
+        "zh": "暗藏的贮藏处"
+      },
+      {
+        "phrase": "cache memory",
+        "zh": "高速缓存"
+      },
+      {
+        "phrase": "clear the cache",
+        "zh": "清除缓存"
+      },
+      {
+        "phrase": "cache data",
+        "zh": "缓存数据"
+      },
+      {
+        "phrase": "a cache of food",
+        "zh": "一批储藏的食物"
+      }
     ],
-    "latinEntries": [
-      { "word": "coacticare", "structure": "Latin verb", "meaning": "to press or pack together", "meaningCN": "压紧；收拢" }
+    "forms": [
+      {
+        "label": "过去式",
+        "form": "cached"
+      },
+      {
+        "label": "过去分词",
+        "form": "cached"
+      },
+      {
+        "label": "现在分词",
+        "form": "caching"
+      },
+      {
+        "label": "三单",
+        "form": "caches"
+      },
+      {
+        "label": "复数",
+        "form": "caches"
+      }
     ],
     "derivatives": [
-      { "word": "geocache", "pos": "n.", "zh": "地理藏宝点" },
-      { "word": "cached", "pos": "adj.", "zh": "已缓存的" }
-    ]
+      {
+        "word": "cachette",
+        "pos": "n.",
+        "zh": "由法语 diminutive 而来，义为「小型藏匿处」"
+      },
+      {
+        "word": "geocache",
+        "pos": "n.",
+        "zh": "由 geo- 加 cache 构成的复合词，义为「地理藏宝点」"
+      },
+      {
+        "word": "cash",
+        "pos": "n.",
+        "zh": "同源近形词，义为「现金」，与 cache 发音相同"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "A hidden store of goods",
+        "titleCN": "隐藏的贮藏物；密藏处",
+        "definition": "a secret store of supplies or valuables hidden away for later use",
+        "definitionCN": "为日后取用而秘密藏起的物资或财物",
+        "example": "Soldiers found a cache of rifles in the barn.",
+        "exampleCN": "士兵在谷仓里发现一批私藏的步枪。",
+        "why": "The French word for a hiding place named the things hidden there.",
+        "whyCN": "法语的「藏匿处」一词转指藏起来的东西。"
+      },
+      {
+        "no": "02",
+        "title": "A fast computer memory",
+        "titleCN": "（计算机）高速缓存",
+        "definition": "a small, fast memory that keeps copies of frequently used data",
+        "definitionCN": "保存常用数据副本的小型高速存储器",
+        "example": "Clearing the browser cache fixed the slow loading.",
+        "exampleCN": "清掉浏览器缓存后，加载变快了。",
+        "why": "Computing borrowed the image of a small store kept close at hand.",
+        "whyCN": "计算机术语借用了「近旁小库」这一意象。"
+      },
+      {
+        "no": "03",
+        "title": "To store or hide away",
+        "titleCN": "隐藏；贮藏（动词）",
+        "definition": "to put something in a hidden store, literally or in computing",
+        "definitionCN": "把某物藏入密藏处，计算领域指存入缓存",
+        "example": "The rebels cached their ammunition in caves.",
+        "exampleCN": "叛军把弹药藏进山洞。",
+        "why": "The noun of the store becomes the verb of storing.",
+        "whyCN": "贮藏物的名词转为贮藏的动词。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Cache comes from French cacher, to hide, whose deeper root is the Latin coacticare, to press together.",
+        "cn": "cache 源自法语 cacher（隐藏），更深的词根是拉丁语 coacticare（压紧收拢）。"
+      },
+      "items": [
+        {
+          "era": "LATIN COACTICARE",
+          "en": "coacticare meant to press or force together, from coactus, compelled.",
+          "cn": "拉丁语 coacticare 意为「压紧、收拢」，出自 coactus（被迫的）。"
+        },
+        {
+          "era": "OLD FRENCH",
+          "en": "cachier and cacher meant to press, then to hide away.",
+          "cn": "古法语 cachier、cacher 由「压紧」转指「藏匿」。"
+        },
+        {
+          "era": "FRENCH NOUN",
+          "en": "cache named a hiding place, especially for furs and supplies.",
+          "cn": "法语名词 cache 指藏匿处，尤指皮货与补给的存放点。"
+        },
+        {
+          "era": "ENGLISH, 18TH–19TH C.",
+          "en": "fur traders and explorers brought cache into English for hidden stores.",
+          "cn": "十八至十九世纪皮货商与探险家把 cache 带入英语，指密藏的物资。"
+        },
+        {
+          "era": "COMPUTING, 20TH C.",
+          "en": "computer engineers adopted cache for a small fast store of data.",
+          "cn": "二十世纪计算机工程师借 cache 指小型高速数据存储。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "The look-alike group separates the homophone cash; the near-meaning group gives storing and hiding words.",
+        "cn": "形近组区分同音词 cash；近义组是贮藏与隐藏类词。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "cash",
+              "ipa": "/kæʃ/",
+              "tag": "same root",
+              "definition": "money in coins or notes, from the same French cacher via a case for money",
+              "definitionCN": "现金，同出法语 cacher（原指钱匣）"
+            },
+            {
+              "word": "cachet",
+              "ipa": "/ˈkæʃeɪ/",
+              "tag": "same root",
+              "definition": "prestige, from a seal on a document",
+              "definitionCN": "威望，同根词，源自印章义"
+            },
+            {
+              "word": "catch",
+              "ipa": "/kætʃ/",
+              "tag": "spelling",
+              "definition": "to seize, unrelated",
+              "definitionCN": "抓住，仅拼写相近，词源无关"
+            },
+            {
+              "word": "geocache",
+              "ipa": "/ˈdʒiːəʊkæʃ/",
+              "tag": "compound",
+              "definition": "a hidden container found by GPS",
+              "definitionCN": "地理藏宝点，cache 的现代复合词"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "hoard",
+              "ipa": "/hɔːd/",
+              "tag": "near meaning",
+              "definition": "a carefully saved and hidden store",
+              "definitionCN": "窖藏；积存的财物"
+            },
+            {
+              "word": "stockpile",
+              "ipa": "/ˈstɒkpaɪl/",
+              "tag": "near meaning",
+              "definition": "a large accumulated store",
+              "definitionCN": "大量储备"
+            },
+            {
+              "word": "stash",
+              "ipa": "/stæʃ/",
+              "tag": "near meaning",
+              "definition": "an informal hidden store",
+              "definitionCN": "私藏的物品（口语）"
+            },
+            {
+              "word": "storehouse",
+              "ipa": "/ˈstɔːhaʊs/",
+              "tag": "near meaning",
+              "definition": "a building for storing goods",
+              "definitionCN": "仓库"
+            },
+            {
+              "word": "buffer",
+              "ipa": "/ˈbʌfə/",
+              "tag": "related",
+              "definition": "a temporary data store in computing",
+              "definitionCN": "缓冲区，计算术语"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Same sound as cash: a cache is a hidden pile of value.",
+        "cn": "与 cash 同音：cache 就是藏起来的那份「财」。"
+      },
+      "normal": [
+        {
+          "en": "French cacher means to hide.",
+          "cn": "法语 cacher 意为隐藏。"
+        },
+        {
+          "en": "A cache of weapons is a hidden pile of guns.",
+          "cn": "a cache of weapons 指一批私藏的枪支。"
+        },
+        {
+          "en": "Clear the cache is the common computing phrase.",
+          "cn": "clear the cache 是常见的计算机用语。"
+        },
+        {
+          "en": "Cache and cash sound identical.",
+          "cn": "cache 与 cash 同音。"
+        },
+        {
+          "en": "Cachet shares the root but means prestige.",
+          "cn": "cachet 同根但指威望。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "See dirt brushing off a tin box under roots.",
+          "cn": "看树根下铁皮箱上的泥土被拂去。"
+        },
+        {
+          "en": "Feel the weight of coins hidden in a floor cavity.",
+          "cn": "感受地板暗格中钱币的分量。"
+        },
+        {
+          "en": "Picture files sliding into a small drawer the CPU keeps open.",
+          "cn": "想象文件滑入处理器身旁常开的小抽屉。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "Police uncovered a cache of stolen paintings.",
+        "cn": "警方起获一批窝藏的失窃名画。"
+      },
+      {
+        "en": "The app caches images so pages load faster.",
+        "cn": "这款应用会缓存图片，使页面加载更快。"
+      },
+      {
+        "en": "Hikers kept a cache of dried food along the trail.",
+        "cn": "徒步者在沿途藏了些干粮。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "读作 cash「现金」——藏起来的现金，正是「密藏之物」；电脑里的小金库就是缓存。",
+      "word": "cache"
+    },
+    "root": "cache 源自拉丁语 coacticare「压紧、收拢」，经古法语 cacher「藏匿」进入英语；名词指密藏之物与藏匿处，二十世纪又进入计算机术语，指贴近处理器的高速小存储。",
+    "sensesIntro": {
+      "en": "One idea of the hidden store serves hunters, soldiers, and computer chips alike.",
+      "cn": "「暗藏的一库」这一个意象，同时服务于猎人、士兵与计算机芯片。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: a tin box buried under tree roots.",
+        "cn": "核心意象：埋在树根下的铁皮箱。"
+      },
+      "chain": [
+        "HIDE",
+        "PRESS TOGETHER",
+        "STORE",
+        "KEEP CLOSE",
+        "QUICK RETRIEVAL",
+        "CONCEALMENT"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "a cache of rifles in the barn",
+          "cn": "谷仓里私藏的步枪"
+        },
+        {
+          "senses": "01",
+          "en": "a trapper's food cache by the river",
+          "cn": "猎人藏于河边的食物"
+        },
+        {
+          "senses": "02",
+          "en": "clear the browser cache",
+          "cn": "清除浏览器缓存"
+        },
+        {
+          "senses": "03",
+          "en": "cached data for quick loading",
+          "cn": "为快速加载而缓存的数据"
+        },
+        {
+          "senses": "01 · 03",
+          "en": "to cache is to bury the cache",
+          "cn": "动词「藏」与名词「藏物」一体"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Cache is a bare French noun; its family all circle the idea of pressing or hiding.",
+        "cn": "cache 是光杆法语名词；其同族词都围绕「压紧、隐藏」之意。"
+      },
+      "latinIntro": {
+        "en": "Latin coacticare, to press together, is the deep root, from coactus, compelled.",
+        "cn": "深层词根是拉丁语 coacticare「压紧」，出自 coactus「被迫的」。"
+      },
+      "items": [
+        {
+          "word": "coacticare",
+          "structure": "Latin verb",
+          "meaning": "to press together",
+          "meaningCN": "压紧；收拢",
+          "example": "coacticare frumentum",
+          "exampleCN": "把谷物收拢（拉丁语）"
+        },
+        {
+          "word": "cacher",
+          "structure": "Old French verb",
+          "meaning": "to hide",
+          "meaningCN": "隐藏",
+          "example": "cacher un trésor",
+          "exampleCN": "藏起财宝（法语）"
+        },
+        {
+          "word": "cache",
+          "structure": "French noun",
+          "meaning": "a hiding place; hidden store",
+          "meaningCN": "藏匿处；密藏物",
+          "example": "a cache of ammunition",
+          "exampleCN": "一批密藏弹药"
+        },
+        {
+          "word": "cached",
+          "structure": "cache + -ed",
+          "meaning": "stored away",
+          "meaningCN": "已缓存的；已藏的",
+          "example": "cached pages",
+          "exampleCN": "缓存的网页"
+        },
+        {
+          "word": "cash",
+          "structure": "same root via money case",
+          "meaning": "money",
+          "meaningCN": "现金",
+          "example": "ready cash",
+          "exampleCN": "现款"
+        },
+        {
+          "word": "cachet",
+          "structure": "same root via seal",
+          "meaning": "prestige",
+          "meaningCN": "威望",
+          "example": "a cachet of quality",
+          "exampleCN": "品质的声望标记"
+        },
+        {
+          "word": "geocache",
+          "structure": "geo- + cache",
+          "meaning": "a GPS treasure site",
+          "meaningCN": "地理藏宝点",
+          "example": "find a geocache",
+          "exampleCN": "寻找地理藏宝点"
+        },
+        {
+          "word": "stash",
+          "structure": "slang verb",
+          "meaning": "to hide informally",
+          "meaningCN": "私藏",
+          "example": "stash the keys",
+          "exampleCN": "把钥匙藏起来"
+        },
+        {
+          "word": "hoard",
+          "structure": "Germanic noun",
+          "meaning": "a saved store",
+          "meaningCN": "窖藏",
+          "example": "a hoard of coins",
+          "exampleCN": "一窖钱币"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "coacticare",
+          "structure": "Latin verb",
+          "meaning": "to press or pack together",
+          "meaningCN": "压紧；收拢"
+        }
+      ],
+      "derivatives": [
+        {
+          "word": "geocache",
+          "pos": "n.",
+          "zh": "地理藏宝点"
+        },
+        {
+          "word": "cached",
+          "pos": "adj.",
+          "zh": "已缓存的"
+        }
+      ]
+    }
   }
-}
+]

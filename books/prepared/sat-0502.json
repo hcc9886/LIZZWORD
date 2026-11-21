@@ -1,159 +1,448 @@
-{
-  "word": "cabal",
-  "ipa_uk": "/kəˈbæl/",
-  "ipa_us": "/kəˈbɑːl/",
-  "definition_zh": "（阴谋）小集团；密谋策划",
-  "definition_en": "a small secret group plotting against a government or person; as a verb, to conspire secretly",
-  "core_image": "烛光下围桌密谋的几张低语的脸",
-  "scene": "深夜的书房里，几个身影围着一盏烛灯低声商议。A cabal of ministers plotted to remove the king's favourite.",
-  "sceneCN": "这里 cabal 是「阴谋小集团」（第 1 个义项：暗中策划的小圈子）；句意是一伙大臣密谋铲除国王的宠臣。",
-  "pos": [
-    { "tag": "n.", "zh": "阴谋小集团；秘密党羽" },
-    { "tag": "v.", "zh": "密谋；结党策划" }
-  ],
-  "collocations": [
-    { "phrase": "a cabal of ministers", "zh": "大臣密党" },
-    { "phrase": "a military cabal", "zh": "军人小集团" },
-    { "phrase": "form a cabal", "zh": "结成密党" },
-    { "phrase": "a cabal against the president", "zh": "反对总统的密谋集团" },
-    { "phrase": "smash the cabal", "zh": "粉碎密谋集团" }
-  ],
-  "forms": [
-    { "label": "过去式", "form": "caballed" },
-    { "label": "过去分词", "form": "caballed" },
-    { "label": "现在分词", "form": "caballing" },
-    { "label": "三单", "form": "cabals" },
-    { "label": "复数", "form": "cabals" }
-  ],
-  "derivatives": [
-    { "word": "cabalistic", "pos": "adj.", "zh": "由 cabala 加 -istic 构成，义为「神秘教的；隐晦难解的」" },
-    { "word": "cabala", "pos": "n.", "zh": "同源名词，义为「犹太神秘哲学；秘传学说」" },
-    { "word": "conspiracy", "pos": "n.", "zh": "近义词，义为「阴谋，密谋」" }
-  ],
-  "senses": [
-    {
-      "no": "01",
-      "title": "A secret plotting group",
-      "titleCN": "阴谋小集团",
-      "definition": "a small group of persons united in secret plotting, especially against a government",
-      "definitionCN": "为密谋而结成的小团体，尤指反对政府者",
-      "example": "A cabal within the army planned the coup.",
-      "exampleCN": "军内一个小集团策划了政变。",
-      "why": "The word first named esoteric lore, then any secret society, then plotters.",
-      "whyCN": "这个词先指秘传学问，再指秘密结社，后专指密谋者。"
-    },
-    {
-      "no": "02",
-      "title": "The schemes of such a group",
-      "titleCN": "密谋；阴谋勾当",
-      "definition": "the secret plots or intrigues engaged in by such a group",
-      "definitionCN": "这类集团从事的秘密策划与阴谋活动",
-      "example": "Court life was a web of cabal.",
-      "exampleCN": "宫廷生活是一张阴谋之网。",
-      "why": "The group's name is transferred to its activity.",
-      "whyCN": "集团的名称转指其活动。"
-    },
-    {
-      "no": "03",
-      "title": "To conspire secretly",
-      "titleCN": "密谋策划（动词）",
-      "definition": "to form a secret plot or unite in intrigue",
-      "definitionCN": "结成秘密同盟进行策划",
-      "example": "The officers caballed against their commander.",
-      "exampleCN": "军官们密谋反对他们的指挥官。",
-      "why": "The noun of the plotters becomes the verb of plotting.",
-      "whyCN": "密谋者的名词转为密谋的动词。"
-    }
-  ],
-  "etymology": {
-    "intro": { "en": "Cabal came from Hebrew qabbalah, received lore, through French cabale, moving from mysticism to secret plotting.", "cn": "cabal 源自希伯来语 qabbalah（秘传之学），经法语 cabale，由神秘学义转指秘密密谋。" },
-    "items": [
-      { "era": "HEBREW QABBALAH", "en": "qabbalah meant tradition or received lore, the name of Jewish mysticism.", "cn": "希伯来语 qabbalah 意为「传承之学」，是犹太神秘哲学之名。" },
-      { "era": "MEDIEVAL LATIN AND FRENCH", "en": "cabala and cabale carried the mystical sense into Europe.", "cn": "中世纪拉丁语 cabala 与法语 cabale 把神秘学义传入欧洲。" },
-      { "era": "ENGLISH, 17TH C.", "en": "cabal widened to any small secret group, then especially plotters.", "cn": "十七世纪英语 cabal 泛指秘密小团体，后专指密谋集团。" },
-      { "era": "ENGLISH, 1667–1673", "en": "five ministers called the CABAL (Clifford, Ashley, Buckingham, Arlington, Lauderdale) fixed the political sense.", "cn": "查理二世五位大臣姓氏首字母恰成 CABAL，使政治义定型。" },
-      { "era": "MODERN ENGLISH", "en": "cabal now implies sinister secrecy, and the verb cabal is rarer.", "cn": "如今 cabal 带有阴险密谋的意味，动词义较少使用。" }
-    ]
-  },
-  "similar": {
-    "note": { "en": "The look-alike group shares the mystical root; the near-meaning group lists fellow plotting words.", "cn": "形近组同出神秘学词根；近义组是其他密谋词汇。" },
-    "groups": [
+[
+  {
+    "word": "cabal",
+    "ipa_uk": "/kəˈbæl/",
+    "ipa_us": "/kəˈbɑːl/",
+    "definition_zh": "（阴谋）小集团；密谋策划",
+    "definition_en": "a small secret group plotting against a government or person; as a verb, to conspire secretly",
+    "core_image": "烛光下围桌密谋的几张低语的脸",
+    "scene": "深夜的书房里，几个身影围着一盏烛灯低声商议。A cabal of ministers plotted to remove the king's favourite.",
+    "sceneCN": "这里 cabal 是「阴谋小集团」（第 1 个义项：暗中策划的小圈子）；句意是一伙大臣密谋铲除国王的宠臣。",
+    "pos": [
       {
-        "heading": "LOOK-ALIKE",
-        "entries": [
-          { "word": "cabala", "ipa": "/ˈkæbələ/", "tag": "same root", "definition": "the Jewish mystical tradition", "definitionCN": "犹太神秘哲学，cabal 的直接来源" },
-          { "word": "cabalistic", "ipa": "/ˌkæbəˈlɪstɪk/", "tag": "derived form", "definition": "mystical or obscure", "definitionCN": "神秘晦涩的" },
-          { "word": "cabalism", "ipa": "/ˈkæbəlɪzəm/", "tag": "derived form", "definition": "mystical interpretation or secret intrigue", "definitionCN": "神秘主义；密谋行径" },
-          { "word": "cable", "ipa": "/ˈkeɪbl/", "tag": "spelling", "definition": "a thick rope, unrelated", "definitionCN": "缆绳，仅拼写相近，词源无关" }
-        ]
+        "tag": "n.",
+        "zh": "阴谋小集团；秘密党羽"
       },
       {
-        "heading": "NEAR MEANING",
-        "entries": [
-          { "word": "conspiracy", "ipa": "/kənˈspɪrəsi/", "tag": "near meaning", "definition": "a secret plan by a group to do something unlawful", "definitionCN": "阴谋，集团性密谋" },
-          { "word": "faction", "ipa": "/ˈfækʃn/", "tag": "near meaning", "definition": "a small dissenting group within a larger one", "definitionCN": "派别，内部小集团" },
-          { "word": "junta", "ipa": "/ˈdʒʌntə/", "tag": "near meaning", "definition": "a military or political group ruling by force", "definitionCN": "军政小集团" },
-          { "word": "clique", "ipa": "/kliːk/", "tag": "near meaning", "definition": "a small exclusive circle", "definitionCN": "小圈子，排他的小集团" },
-          { "word": "intrigue", "ipa": "/ɪnˈtriːɡ/", "tag": "near meaning", "definition": "secret scheming", "definitionCN": "密谋；阴谋诡计" }
-        ]
+        "tag": "v.",
+        "zh": "密谋；结党策划"
       }
-    ]
-  },
-  "mnemonics": {
-    "normalIntro": { "en": "Trace the path: received lore, secret brotherhood, dark plot.", "cn": "顺着词义轨迹记：秘传之学 → 秘密结社 → 阴谋密党。" },
-    "normal": [
-      { "en": "Hebrew qabbalah means received tradition.", "cn": "希伯来语 qabbalah 意为「秘传之学」。" },
-      { "en": "The CABAL ministers gave the word its political fame.", "cn": "CABAL 五大臣使这个词染上政治色彩。" },
-      { "en": "A cabal is smaller and darker than a faction.", "cn": "cabal 比 faction 更小更阴。" },
-      { "en": "The verb caballed means plotted secretly.", "cn": "动词 caballed 指秘密策划。" },
-      { "en": "Cabalistic writing is deliberately obscure.", "cn": "cabalistic 的文字故意晦涩难解。" }
     ],
-    "abstract": [
-      { "en": "See candle shadows lean together over a map.", "cn": "看烛光下的人影凑在一张地图上。" },
-      { "en": "Hear whispers stop the moment the door opens.", "cn": "门一开，耳语声戛然而止。" },
-      { "en": "Feel the cold of a dagger under a cloak.", "cn": "感受斗篷下匕首的寒意。" }
-    ]
-  },
-  "examples": [
-    { "en": "The reform was undone by a cabal of senior officials.", "cn": "改革被一伙高官密党推翻了。" },
-    { "en": "Historians trace the plot to a small cabal within the palace.", "cn": "历史学家追溯这场阴谋到宫内一个小集团。" },
-    { "en": "They caballed for months before the uprising.", "cn": "起义前他们密谋了好几个月。" }
-  ],
-  "dict_mnemonic": { "note": "谐音记忆 · 非词源", "text": "「咳·包」——密党开会不敢出声，咳嗽都用袖子「包」住嘴。", "word": "cabal" },
-  "root": "cabal 源自希伯来语 qabbalah「秘传之学」（犹太神秘哲学之名），经中世纪拉丁语 cabala、法语 cabale 进入英语；因 1667 年前后查理二世五位大臣首字母恰成 CABAL，词义由神秘转向阴谋密党。",
-  "sensesIntro": { "en": "From hidden lore to hidden plots: the secret group, its schemes, and the act of plotting.", "cn": "由隐秘之学到隐秘勾当：密党小集团、其阴谋勾当，以及密谋这一行为。" },
-  "semanticMap": {
-    "core": { "en": "CORE IMAGE: whispered faces around one candle.", "cn": "核心意象：一盏烛灯下低语密谋的脸。" },
-    "chain": ["HIDDEN LORE", "SECRET SOCIETY", "PLOTTING", "CONSPIRACY", "USURPATION", "DARKNESS"],
-    "branches": [
-      { "senses": "01", "en": "a cabal within the army", "cn": "军内密党" },
-      { "senses": "01", "en": "a cabal of ministers", "cn": "大臣密党" },
-      { "senses": "02", "en": "a web of court cabal", "cn": "宫廷阴谋之网" },
-      { "senses": "03", "en": "officers caballed against the command", "cn": "军官密谋反对指挥部" },
-      { "senses": "01 · 02", "en": "the group and its works", "cn": "密党与其勾当" }
-    ]
-  },
-  "affixes": {
-    "intro": { "en": "The word family keeps the sense of hidden knowledge turned to hidden action.", "cn": "这个同族词始终保有「隐秘之知转为隐秘之行」的意味。" },
-    "latinIntro": { "en": "The root is Hebrew, not Latin; it reached English through medieval Latin cabala and French cabale.", "cn": "词根是希伯来语而非拉丁语，经中世纪拉丁语 cabala 与法语 cabale 进入英语。" },
-    "items": [
-      { "word": "qabbalah", "structure": "Hebrew noun", "meaning": "received lore, tradition", "meaningCN": "秘传之学；传承", "example": "the study of qabbalah", "exampleCN": "犹太神秘哲学研究" },
-      { "word": "cabala", "structure": "medieval Latin form", "meaning": "Jewish mysticism", "meaningCN": "犹太神秘哲学", "example": "students of cabala", "exampleCN": "卡巴拉研习者" },
-      { "word": "cabale", "structure": "French noun", "meaning": "secret league; intrigue", "meaningCN": "秘密同盟；密谋", "example": "une cabale de cour", "exampleCN": "宫廷密谋（法语）" },
-      { "word": "cabal", "structure": "English adoption", "meaning": "a plotting clique", "meaningCN": "阴谋小集团", "example": "a royal cabal", "exampleCN": "王室密党" },
-      { "word": "caballed", "structure": "cabal + -ed", "meaning": "plotted secretly", "meaningCN": "密谋了", "example": "they caballed for months", "exampleCN": "他们密谋数月" },
-      { "word": "cabalistic", "structure": "cabala + -istic", "meaning": "mystical, obscure", "meaningCN": "神秘晦涩的", "example": "cabalistic symbols", "exampleCN": "神秘符号" },
-      { "word": "conspiracy", "structure": "Latin con- + spirare", "meaning": "breathing together in secret", "meaningCN": "阴谋", "example": "a conspiracy to seize power", "exampleCN": "夺权阴谋" },
-      { "word": "junta", "structure": "Spanish noun", "meaning": "a ruling clique", "meaningCN": "军政小集团", "example": "a military junta", "exampleCN": "军人执政团" },
-      { "word": "clique", "structure": "French noun", "meaning": "an exclusive circle", "meaningCN": "小圈子", "example": "a school clique", "exampleCN": "学校里的小团体" }
+    "collocations": [
+      {
+        "phrase": "a cabal of ministers",
+        "zh": "大臣密党"
+      },
+      {
+        "phrase": "a military cabal",
+        "zh": "军人小集团"
+      },
+      {
+        "phrase": "form a cabal",
+        "zh": "结成密党"
+      },
+      {
+        "phrase": "a cabal against the president",
+        "zh": "反对总统的密谋集团"
+      },
+      {
+        "phrase": "smash the cabal",
+        "zh": "粉碎密谋集团"
+      }
     ],
-    "latinEntries": [
-      { "word": "cabala", "structure": "medieval Latin noun (f.)", "meaning": "the received mystical lore", "meaningCN": "秘传神秘之学" }
+    "forms": [
+      {
+        "label": "过去式",
+        "form": "caballed"
+      },
+      {
+        "label": "过去分词",
+        "form": "caballed"
+      },
+      {
+        "label": "现在分词",
+        "form": "caballing"
+      },
+      {
+        "label": "三单",
+        "form": "cabals"
+      },
+      {
+        "label": "复数",
+        "form": "cabals"
+      }
     ],
     "derivatives": [
-      { "word": "cabala", "pos": "n.", "zh": "犹太神秘哲学" },
-      { "word": "cabalistic", "pos": "adj.", "zh": "神秘晦涩的" },
-      { "word": "cabalism", "pos": "n.", "zh": "神秘主义；密谋" }
-    ]
+      {
+        "word": "cabalistic",
+        "pos": "adj.",
+        "zh": "由 cabala 加 -istic 构成，义为「神秘教的；隐晦难解的」"
+      },
+      {
+        "word": "cabala",
+        "pos": "n.",
+        "zh": "同源名词，义为「犹太神秘哲学；秘传学说」"
+      },
+      {
+        "word": "conspiracy",
+        "pos": "n.",
+        "zh": "近义词，义为「阴谋，密谋」"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "A secret plotting group",
+        "titleCN": "阴谋小集团",
+        "definition": "a small group of persons united in secret plotting, especially against a government",
+        "definitionCN": "为密谋而结成的小团体，尤指反对政府者",
+        "example": "A cabal within the army planned the coup.",
+        "exampleCN": "军内一个小集团策划了政变。",
+        "why": "The word first named esoteric lore, then any secret society, then plotters.",
+        "whyCN": "这个词先指秘传学问，再指秘密结社，后专指密谋者。"
+      },
+      {
+        "no": "02",
+        "title": "The schemes of such a group",
+        "titleCN": "密谋；阴谋勾当",
+        "definition": "the secret plots or intrigues engaged in by such a group",
+        "definitionCN": "这类集团从事的秘密策划与阴谋活动",
+        "example": "Court life was a web of cabal.",
+        "exampleCN": "宫廷生活是一张阴谋之网。",
+        "why": "The group's name is transferred to its activity.",
+        "whyCN": "集团的名称转指其活动。"
+      },
+      {
+        "no": "03",
+        "title": "To conspire secretly",
+        "titleCN": "密谋策划（动词）",
+        "definition": "to form a secret plot or unite in intrigue",
+        "definitionCN": "结成秘密同盟进行策划",
+        "example": "The officers caballed against their commander.",
+        "exampleCN": "军官们密谋反对他们的指挥官。",
+        "why": "The noun of the plotters becomes the verb of plotting.",
+        "whyCN": "密谋者的名词转为密谋的动词。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Cabal came from Hebrew qabbalah, received lore, through French cabale, moving from mysticism to secret plotting.",
+        "cn": "cabal 源自希伯来语 qabbalah（秘传之学），经法语 cabale，由神秘学义转指秘密密谋。"
+      },
+      "items": [
+        {
+          "era": "HEBREW QABBALAH",
+          "en": "qabbalah meant tradition or received lore, the name of Jewish mysticism.",
+          "cn": "希伯来语 qabbalah 意为「传承之学」，是犹太神秘哲学之名。"
+        },
+        {
+          "era": "MEDIEVAL LATIN AND FRENCH",
+          "en": "cabala and cabale carried the mystical sense into Europe.",
+          "cn": "中世纪拉丁语 cabala 与法语 cabale 把神秘学义传入欧洲。"
+        },
+        {
+          "era": "ENGLISH, 17TH C.",
+          "en": "cabal widened to any small secret group, then especially plotters.",
+          "cn": "十七世纪英语 cabal 泛指秘密小团体，后专指密谋集团。"
+        },
+        {
+          "era": "ENGLISH, 1667–1673",
+          "en": "five ministers called the CABAL (Clifford, Ashley, Buckingham, Arlington, Lauderdale) fixed the political sense.",
+          "cn": "查理二世五位大臣姓氏首字母恰成 CABAL，使政治义定型。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "cabal now implies sinister secrecy, and the verb cabal is rarer.",
+          "cn": "如今 cabal 带有阴险密谋的意味，动词义较少使用。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "The look-alike group shares the mystical root; the near-meaning group lists fellow plotting words.",
+        "cn": "形近组同出神秘学词根；近义组是其他密谋词汇。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "cabala",
+              "ipa": "/ˈkæbələ/",
+              "tag": "same root",
+              "definition": "the Jewish mystical tradition",
+              "definitionCN": "犹太神秘哲学，cabal 的直接来源"
+            },
+            {
+              "word": "cabalistic",
+              "ipa": "/ˌkæbəˈlɪstɪk/",
+              "tag": "derived form",
+              "definition": "mystical or obscure",
+              "definitionCN": "神秘晦涩的"
+            },
+            {
+              "word": "cabalism",
+              "ipa": "/ˈkæbəlɪzəm/",
+              "tag": "derived form",
+              "definition": "mystical interpretation or secret intrigue",
+              "definitionCN": "神秘主义；密谋行径"
+            },
+            {
+              "word": "cable",
+              "ipa": "/ˈkeɪbl/",
+              "tag": "spelling",
+              "definition": "a thick rope, unrelated",
+              "definitionCN": "缆绳，仅拼写相近，词源无关"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "conspiracy",
+              "ipa": "/kənˈspɪrəsi/",
+              "tag": "near meaning",
+              "definition": "a secret plan by a group to do something unlawful",
+              "definitionCN": "阴谋，集团性密谋"
+            },
+            {
+              "word": "faction",
+              "ipa": "/ˈfækʃn/",
+              "tag": "near meaning",
+              "definition": "a small dissenting group within a larger one",
+              "definitionCN": "派别，内部小集团"
+            },
+            {
+              "word": "junta",
+              "ipa": "/ˈdʒʌntə/",
+              "tag": "near meaning",
+              "definition": "a military or political group ruling by force",
+              "definitionCN": "军政小集团"
+            },
+            {
+              "word": "clique",
+              "ipa": "/kliːk/",
+              "tag": "near meaning",
+              "definition": "a small exclusive circle",
+              "definitionCN": "小圈子，排他的小集团"
+            },
+            {
+              "word": "intrigue",
+              "ipa": "/ɪnˈtriːɡ/",
+              "tag": "near meaning",
+              "definition": "secret scheming",
+              "definitionCN": "密谋；阴谋诡计"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Trace the path: received lore, secret brotherhood, dark plot.",
+        "cn": "顺着词义轨迹记：秘传之学 → 秘密结社 → 阴谋密党。"
+      },
+      "normal": [
+        {
+          "en": "Hebrew qabbalah means received tradition.",
+          "cn": "希伯来语 qabbalah 意为「秘传之学」。"
+        },
+        {
+          "en": "The CABAL ministers gave the word its political fame.",
+          "cn": "CABAL 五大臣使这个词染上政治色彩。"
+        },
+        {
+          "en": "A cabal is smaller and darker than a faction.",
+          "cn": "cabal 比 faction 更小更阴。"
+        },
+        {
+          "en": "The verb caballed means plotted secretly.",
+          "cn": "动词 caballed 指秘密策划。"
+        },
+        {
+          "en": "Cabalistic writing is deliberately obscure.",
+          "cn": "cabalistic 的文字故意晦涩难解。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "See candle shadows lean together over a map.",
+          "cn": "看烛光下的人影凑在一张地图上。"
+        },
+        {
+          "en": "Hear whispers stop the moment the door opens.",
+          "cn": "门一开，耳语声戛然而止。"
+        },
+        {
+          "en": "Feel the cold of a dagger under a cloak.",
+          "cn": "感受斗篷下匕首的寒意。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "The reform was undone by a cabal of senior officials.",
+        "cn": "改革被一伙高官密党推翻了。"
+      },
+      {
+        "en": "Historians trace the plot to a small cabal within the palace.",
+        "cn": "历史学家追溯这场阴谋到宫内一个小集团。"
+      },
+      {
+        "en": "They caballed for months before the uprising.",
+        "cn": "起义前他们密谋了好几个月。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「咳·包」——密党开会不敢出声，咳嗽都用袖子「包」住嘴。",
+      "word": "cabal"
+    },
+    "root": "cabal 源自希伯来语 qabbalah「秘传之学」（犹太神秘哲学之名），经中世纪拉丁语 cabala、法语 cabale 进入英语；因 1667 年前后查理二世五位大臣首字母恰成 CABAL，词义由神秘转向阴谋密党。",
+    "sensesIntro": {
+      "en": "From hidden lore to hidden plots: the secret group, its schemes, and the act of plotting.",
+      "cn": "由隐秘之学到隐秘勾当：密党小集团、其阴谋勾当，以及密谋这一行为。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: whispered faces around one candle.",
+        "cn": "核心意象：一盏烛灯下低语密谋的脸。"
+      },
+      "chain": [
+        "HIDDEN LORE",
+        "SECRET SOCIETY",
+        "PLOTTING",
+        "CONSPIRACY",
+        "USURPATION",
+        "DARKNESS"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "a cabal within the army",
+          "cn": "军内密党"
+        },
+        {
+          "senses": "01",
+          "en": "a cabal of ministers",
+          "cn": "大臣密党"
+        },
+        {
+          "senses": "02",
+          "en": "a web of court cabal",
+          "cn": "宫廷阴谋之网"
+        },
+        {
+          "senses": "03",
+          "en": "officers caballed against the command",
+          "cn": "军官密谋反对指挥部"
+        },
+        {
+          "senses": "01 · 02",
+          "en": "the group and its works",
+          "cn": "密党与其勾当"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "The word family keeps the sense of hidden knowledge turned to hidden action.",
+        "cn": "这个同族词始终保有「隐秘之知转为隐秘之行」的意味。"
+      },
+      "latinIntro": {
+        "en": "The root is Hebrew, not Latin; it reached English through medieval Latin cabala and French cabale.",
+        "cn": "词根是希伯来语而非拉丁语，经中世纪拉丁语 cabala 与法语 cabale 进入英语。"
+      },
+      "items": [
+        {
+          "word": "qabbalah",
+          "structure": "Hebrew noun",
+          "meaning": "received lore, tradition",
+          "meaningCN": "秘传之学；传承",
+          "example": "the study of qabbalah",
+          "exampleCN": "犹太神秘哲学研究"
+        },
+        {
+          "word": "cabala",
+          "structure": "medieval Latin form",
+          "meaning": "Jewish mysticism",
+          "meaningCN": "犹太神秘哲学",
+          "example": "students of cabala",
+          "exampleCN": "卡巴拉研习者"
+        },
+        {
+          "word": "cabale",
+          "structure": "French noun",
+          "meaning": "secret league; intrigue",
+          "meaningCN": "秘密同盟；密谋",
+          "example": "une cabale de cour",
+          "exampleCN": "宫廷密谋（法语）"
+        },
+        {
+          "word": "cabal",
+          "structure": "English adoption",
+          "meaning": "a plotting clique",
+          "meaningCN": "阴谋小集团",
+          "example": "a royal cabal",
+          "exampleCN": "王室密党"
+        },
+        {
+          "word": "caballed",
+          "structure": "cabal + -ed",
+          "meaning": "plotted secretly",
+          "meaningCN": "密谋了",
+          "example": "they caballed for months",
+          "exampleCN": "他们密谋数月"
+        },
+        {
+          "word": "cabalistic",
+          "structure": "cabala + -istic",
+          "meaning": "mystical, obscure",
+          "meaningCN": "神秘晦涩的",
+          "example": "cabalistic symbols",
+          "exampleCN": "神秘符号"
+        },
+        {
+          "word": "conspiracy",
+          "structure": "Latin con- + spirare",
+          "meaning": "breathing together in secret",
+          "meaningCN": "阴谋",
+          "example": "a conspiracy to seize power",
+          "exampleCN": "夺权阴谋"
+        },
+        {
+          "word": "junta",
+          "structure": "Spanish noun",
+          "meaning": "a ruling clique",
+          "meaningCN": "军政小集团",
+          "example": "a military junta",
+          "exampleCN": "军人执政团"
+        },
+        {
+          "word": "clique",
+          "structure": "French noun",
+          "meaning": "an exclusive circle",
+          "meaningCN": "小圈子",
+          "example": "a school clique",
+          "exampleCN": "学校里的小团体"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "cabala",
+          "structure": "medieval Latin noun (f.)",
+          "meaning": "the received mystical lore",
+          "meaningCN": "秘传神秘之学"
+        }
+      ],
+      "derivatives": [
+        {
+          "word": "cabala",
+          "pos": "n.",
+          "zh": "犹太神秘哲学"
+        },
+        {
+          "word": "cabalistic",
+          "pos": "adj.",
+          "zh": "神秘晦涩的"
+        },
+        {
+          "word": "cabalism",
+          "pos": "n.",
+          "zh": "神秘主义；密谋"
+        }
+      ]
+    }
   }
-}
+]

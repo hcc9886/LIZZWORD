@@ -1,151 +1,419 @@
-{
-  "word": "buffoonery",
-  "ipa_uk": "/bəˈfuːnəri/",
-  "ipa_us": "/bəˈfuːnəri/",
-  "definition_zh": "丑态；滑稽可笑的行为；低俗的插科打诨",
-  "definition_en": "foolish or ridiculous behavior meant to amuse, often coarse or undignified",
-  "core_image": "小丑在台上摔跤吐舌，看客哄笑",
-  "scene": "庆功宴上他学猪叫、抢话筒，丑态百出。Everyone laughed at his drunken buffoonery.",
-  "sceneCN": "这里 buffoonery 是「丑态、滑稽行径」（第 1 个义项：逗乐而失体的可笑行为）；句意是众人被他醉酒的丑态逗笑。",
-  "pos": [
-    { "tag": "n.", "zh": "丑态；滑稽行为；低俗逗乐" }
-  ],
-  "collocations": [
-    { "phrase": "political buffoonery", "zh": "政坛丑态" },
-    { "phrase": "sheer buffoonery", "zh": "十足的滑稽把戏" },
-    { "phrase": "indulge in buffoonery", "zh": "一味插科打诨" },
-    { "phrase": "vulgar buffoonery", "zh": "粗俗的滑稽行径" },
-    { "phrase": "a performance free of buffoonery", "zh": "毫无丑态的表演" }
-  ],
-  "forms": [
-    { "label": "复数", "form": "buffooneries" }
-  ],
-  "derivatives": [
-    { "word": "buffoon", "pos": "n.", "zh": "buffoonery 的基础词，义为「丑角，滑稽可笑的人」" },
-    { "word": "buffoonish", "pos": "adj.", "zh": "由 buffoon 加 -ish 构成，义为「小丑般的」" },
-    { "word": "tomfoolery", "pos": "n.", "zh": "同族词，义为「蠢行，胡闹」" }
-  ],
-  "senses": [
-    {
-      "no": "01",
-      "title": "Ridiculous clowning behavior",
-      "titleCN": "丑态；滑稽逗乐的行为",
-      "definition": "absurd or exaggerated behavior performed to make people laugh",
-      "definitionCN": "为引人发笑而做出的荒唐夸张举动",
-      "example": "His pratfalls and pranks were pure buffoonery.",
-      "exampleCN": "他摔跤恶搞的桥段全是丑角把戏。",
-      "why": "The -ery suffix turns the buffoon himself into his way of acting.",
-      "whyCN": "后缀 -ery 把「丑角这个人」转成「丑角的做派」。"
-    },
-    {
-      "no": "02",
-      "title": "Coarse low comedy",
-      "titleCN": "低俗滑稽（表演风格）",
-      "definition": "a theatrical style based on crude jokes and slapstick",
-      "definitionCN": "以粗鄙笑料和肢体闹剧为主的表演风格",
-      "example": "The play mixes tender romance with broad buffoonery.",
-      "exampleCN": "这出戏把柔情戏与闹剧揉在一起。",
-      "why": "A habit of clowning becomes a recognized comic genre.",
-      "whyCN": "插科打诨积久成习，便凝定为一种低俗喜剧类型。"
-    },
-    {
-      "no": "03",
-      "title": "Contemptible foolishness",
-      "titleCN": "可笑的蠢行（贬义）",
-      "definition": "behavior so absurd that it invites scorn rather than laughter",
-      "definitionCN": "荒唐到招人鄙夷而非发笑的言行",
-      "example": "Voters grew tired of the campaign's buffoonery.",
-      "exampleCN": "选民厌倦了这场竞选的丑态。",
-      "why": "When laughter turns cold, clowning is read as disgrace.",
-      "whyCN": "笑声变冷之后，插科打诨就被读作丢人现眼，义项滑向贬责。"
-    }
-  ],
-  "etymology": {
-    "intro": { "en": "Buffoonery is buffoon plus the behavior suffix -ery, following the Italian jester into English.", "cn": "buffoonery 由 buffoon 加表行为之后缀 -ery 构成，随意大利弄臣一词一道进入英语。" },
-    "items": [
-      { "era": "MEDIEVAL ITALIAN", "en": "buffone, the prancing jester, carried the core image of blown-up gestures.", "cn": "意大利语 buffone（蹦跳弄臣）承载了夸张架势的核心意象。" },
-      { "era": "FRENCH", "en": "bouffonnerie named jesting talk and clownish conduct.", "cn": "法语 bouffonnerie 指戏谑之谈与小丑行径。" },
-      { "era": "ENGLISH, 16TH–17TH C.", "en": "buffoonery entered English for the jests of stage fools.", "cn": "十六至十七世纪 buffoonery 进入英语，指舞台丑角的滑稽。" },
-      { "era": "ENGLISH, 18TH–19TH C.", "en": "critics used it to condemn vulgar low comedy.", "cn": "十八至十九世纪批评家以此贬斥低俗滑稽。" },
-      { "era": "PRESENT DAY ENGLISH", "en": "buffoonery now mocks public clowning from politics to media.", "cn": "如今 buffoonery 讥讽从政坛到媒体的种种作秀丑态。" }
-    ]
-  },
-  "similar": {
-    "note": { "en": "Buffoonery belongs to the -ery family of behaviors and to the low-comedy lexicon.", "cn": "buffoonery 属 -ery 行为词族，同属低俗滑稽语汇。" },
-    "groups": [
+[
+  {
+    "word": "buffoonery",
+    "ipa_uk": "/bəˈfuːnəri/",
+    "ipa_us": "/bəˈfuːnəri/",
+    "definition_zh": "丑态；滑稽可笑的行为；低俗的插科打诨",
+    "definition_en": "foolish or ridiculous behavior meant to amuse, often coarse or undignified",
+    "core_image": "小丑在台上摔跤吐舌，看客哄笑",
+    "scene": "庆功宴上他学猪叫、抢话筒，丑态百出。Everyone laughed at his drunken buffoonery.",
+    "sceneCN": "这里 buffoonery 是「丑态、滑稽行径」（第 1 个义项：逗乐而失体的可笑行为）；句意是众人被他醉酒的丑态逗笑。",
+    "pos": [
       {
-        "heading": "LOOK-ALIKE",
-        "entries": [
-          { "word": "buffoon", "ipa": "/bəˈfuːn/", "tag": "same root", "definition": "a ridiculous clowning person", "definitionCN": "丑角，buffoonery 的基础词" },
-          { "word": "buffoonish", "ipa": "/bəˈfuːnɪʃ/", "tag": "derived form", "definition": "like a buffoon", "definitionCN": "小丑般的，同根形容词" },
-          { "word": "buffooneries", "ipa": "/bəˈfuːnəriz/", "tag": "plural", "definition": "instances of buffoonery", "definitionCN": "buffoonery 的复数" },
-          { "word": "drollery", "ipa": "/ˈdrəʊləri/", "tag": "same pattern", "definition": "whimsical comicality", "definitionCN": "滑稽诙谐，同用 -ery 后缀的平行词" }
-        ]
+        "tag": "n.",
+        "zh": "丑态；滑稽行为；低俗逗乐"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "political buffoonery",
+        "zh": "政坛丑态"
       },
       {
-        "heading": "NEAR MEANING",
-        "entries": [
-          { "word": "tomfoolery", "ipa": "/ˌtɒmˈfuːləri/", "tag": "near meaning", "definition": "silly playful behavior", "definitionCN": "胡闹，蠢行" },
-          { "word": "clowning", "ipa": "/ˈklaʊnɪŋ/", "tag": "near meaning", "definition": "playing the clown", "definitionCN": "扮丑逗乐" },
-          { "word": "antics", "ipa": "/ˈæntɪks/", "tag": "near meaning", "definition": "funny or outrageous behavior", "definitionCN": "滑稽古怪之举" },
-          { "word": "slapstick", "ipa": "/ˈslæpstɪk/", "tag": "near meaning", "definition": "comedy of physical horseplay", "definitionCN": "肢体闹剧" },
-          { "word": "shenanigans", "ipa": "/ʃɪˈnænɪɡənz/", "tag": "near meaning", "definition": "mischief or high jinks", "definitionCN": "恶作剧，胡闹行径" }
-        ]
+        "phrase": "sheer buffoonery",
+        "zh": "十足的滑稽把戏"
+      },
+      {
+        "phrase": "indulge in buffoonery",
+        "zh": "一味插科打诨"
+      },
+      {
+        "phrase": "vulgar buffoonery",
+        "zh": "粗俗的滑稽行径"
+      },
+      {
+        "phrase": "a performance free of buffoonery",
+        "zh": "毫无丑态的表演"
       }
-    ]
-  },
-  "mnemonics": {
-    "normalIntro": { "en": "Take the buffoon and bottle his act: that liquid is buffoonery.", "cn": "把丑角的表演装进瓶里，那瓶东西就叫 buffoonery。" },
-    "normal": [
-      { "en": "-ery makes behavior nouns: trickery, roguery, buffoonery.", "cn": "-ery 构行为名词：trickery、roguery、buffoonery。" },
-      { "en": "The core is still the puffing jester of Italian comedy.", "cn": "词核仍是意大利喜剧里鼓腮的弄臣。" },
-      { "en": "Drollery and roguery rhyme with it in structure.", "cn": "drollery、roguery 与它结构押韵。" },
-      { "en": "Political buffoonery is the common modern collocation.", "cn": "political buffoonery 是现代常见搭配。" },
-      { "en": "Tomfoolery is gentler; buffoonery is coarser.", "cn": "tomfoolery 偏童趣胡闹，buffoonery 更粗俗。" }
     ],
-    "abstract": [
-      { "en": "Hear canned laughter roll over a pratfall.", "cn": "听罐头笑声盖过一次摔跤。" },
-      { "en": "See a grown man wear a lampshade as a hat.", "cn": "看见一个大人把灯罩扣在头上当帽子。" },
-      { "en": "Feel the audience's laugh cool into a sneer.", "cn": "感受观众的笑声冷却成冷笑。" }
-    ]
-  },
-  "examples": [
-    { "en": "The debate descended into pure buffoonery.", "cn": "辩论彻底沦为一场丑态表演。" },
-    { "en": "Critics praised the film's warmth and condemned its buffoonery.", "cn": "评论家肯定了影片的温情，批评了它的低俗滑稽。" },
-    { "en": "Years of court buffoonery had worn out the king's patience.", "cn": "多年的宫廷滑稽戏磨光了国王的耐心。" }
-  ],
-  "dict_mnemonic": { "note": "谐音记忆 · 非词源", "text": "「不疯你」——台上丑角喊「不疯你我不下台」，满场丑态只为逗乐。", "word": "buffoonery" },
-  "root": "buffoonery 由借词 buffoon（意大利语 buffone，源自 buffare「喷气」）加英语行为后缀 -ery 构成，指「丑角之行」，词形或经法语 bouffonnerie 强化，属罗曼语借词与本土后缀的合成。",
-  "sensesIntro": { "en": "The buffoon's way of acting becomes a comic genre, and finally a term of contempt for absurd conduct.", "cn": "丑角的做派先凝为滑稽类型，最终成为对荒唐行径的贬语。" },
-  "semanticMap": {
-    "core": { "en": "CORE IMAGE: a jester's exaggerated act bottled as a style.", "cn": "核心意象：弄臣的夸张表演被装瓶成一种做派。" },
-    "chain": ["PANTOMIME", "EXAGGERATION", "LAUGHTER", "VULGARITY", "SCORN", "DISGRACE"],
-    "branches": [
-      { "senses": "01", "en": "birthday-party buffoonery", "cn": "生日会上的插科打诨" },
-      { "senses": "01 · 02", "en": "stage buffoonery", "cn": "舞台上的滑稽戏" },
-      { "senses": "02", "en": "slapstick buffoonery", "cn": "肢体闹剧式滑稽" },
-      { "senses": "03", "en": "government buffoonery", "cn": "官场丑态" },
-      { "senses": "01 · 03", "en": "late-night buffoonery on air", "cn": "深夜节目里的作秀丑态" }
-    ]
-  },
-  "affixes": {
-    "intro": { "en": "The suffix -ery turns a person into that person's characteristic behavior.", "cn": "后缀 -ery 把「某种人」转成「这种人的典型行为」。" },
-    "latinIntro": { "en": "The base word is Italian by way of French; the suffix is Old French -erie.", "cn": "词基经法语出自意大利语，后缀为古法语 -erie。" },
-    "items": [
-      { "word": "-ery", "structure": "Old French -erie suffix", "meaning": "behavior, practice, place of", "meaningCN": "行为、做法或场所后缀", "example": "trickery, bakery, buffoonery", "exampleCN": "如 trickery、bakery、buffoonery 等词" },
-      { "word": "buffoon", "structure": "Italian buffone, borrowed", "meaning": "a ridiculous clown", "meaningCN": "丑角", "example": "a court buffoon", "exampleCN": "宫廷弄臣" },
-      { "word": "buffoonery", "structure": "buffoon + -ery", "meaning": "clownish conduct", "meaningCN": "丑态，滑稽行为", "example": "political buffoonery", "exampleCN": "政坛丑态" },
-      { "word": "drollery", "structure": "droll + -ery", "meaning": "whimsical humor", "meaningCN": "诙谐滑稽", "example": "quiet drollery", "exampleCN": "冷幽默" },
-      { "word": "roguery", "structure": "rogue + -ery", "meaning": "dishonest rascally behavior", "meaningCN": "流氓行径", "example": "petty roguery", "exampleCN": "小奸小坏" },
-      { "word": "trickery", "structure": "trick + -ery", "meaning": "deception", "meaningCN": "诡计，欺骗", "example": "advertising trickery", "exampleCN": "广告花招" },
-      { "word": "tomfoolery", "structure": "Tom fool + -ery", "meaning": "playful silliness", "meaningCN": "胡闹", "example": "stop the tomfoolery", "exampleCN": "别胡闹了" },
-      { "word": "foolery", "structure": "fool + -ery", "meaning": "foolish behavior", "meaningCN": "蠢行", "example": "pure foolery", "exampleCN": "十足的蠢事" },
-      { "word": "clownish", "structure": "clown + -ish", "meaning": "like a clown", "meaningCN": "小丑般的", "example": "clownish antics", "exampleCN": "滑稽古怪的举动" },
-      { "word": "grotesquerie", "structure": "grotesque + -erie", "meaning": "grotesque quality or work", "meaningCN": "怪诞之作", "example": "carnival grotesquerie", "exampleCN": "嘉年华怪诞景象" }
+    "forms": [
+      {
+        "label": "复数",
+        "form": "buffooneries"
+      }
     ],
-    "latinEntries": [],
     "derivatives": [
-      { "word": "buffoonish", "pos": "adj.", "zh": "小丑般的" }
-    ]
+      {
+        "word": "buffoon",
+        "pos": "n.",
+        "zh": "buffoonery 的基础词，义为「丑角，滑稽可笑的人」"
+      },
+      {
+        "word": "buffoonish",
+        "pos": "adj.",
+        "zh": "由 buffoon 加 -ish 构成，义为「小丑般的」"
+      },
+      {
+        "word": "tomfoolery",
+        "pos": "n.",
+        "zh": "同族词，义为「蠢行，胡闹」"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "Ridiculous clowning behavior",
+        "titleCN": "丑态；滑稽逗乐的行为",
+        "definition": "absurd or exaggerated behavior performed to make people laugh",
+        "definitionCN": "为引人发笑而做出的荒唐夸张举动",
+        "example": "His pratfalls and pranks were pure buffoonery.",
+        "exampleCN": "他摔跤恶搞的桥段全是丑角把戏。",
+        "why": "The -ery suffix turns the buffoon himself into his way of acting.",
+        "whyCN": "后缀 -ery 把「丑角这个人」转成「丑角的做派」。"
+      },
+      {
+        "no": "02",
+        "title": "Coarse low comedy",
+        "titleCN": "低俗滑稽（表演风格）",
+        "definition": "a theatrical style based on crude jokes and slapstick",
+        "definitionCN": "以粗鄙笑料和肢体闹剧为主的表演风格",
+        "example": "The play mixes tender romance with broad buffoonery.",
+        "exampleCN": "这出戏把柔情戏与闹剧揉在一起。",
+        "why": "A habit of clowning becomes a recognized comic genre.",
+        "whyCN": "插科打诨积久成习，便凝定为一种低俗喜剧类型。"
+      },
+      {
+        "no": "03",
+        "title": "Contemptible foolishness",
+        "titleCN": "可笑的蠢行（贬义）",
+        "definition": "behavior so absurd that it invites scorn rather than laughter",
+        "definitionCN": "荒唐到招人鄙夷而非发笑的言行",
+        "example": "Voters grew tired of the campaign's buffoonery.",
+        "exampleCN": "选民厌倦了这场竞选的丑态。",
+        "why": "When laughter turns cold, clowning is read as disgrace.",
+        "whyCN": "笑声变冷之后，插科打诨就被读作丢人现眼，义项滑向贬责。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Buffoonery is buffoon plus the behavior suffix -ery, following the Italian jester into English.",
+        "cn": "buffoonery 由 buffoon 加表行为之后缀 -ery 构成，随意大利弄臣一词一道进入英语。"
+      },
+      "items": [
+        {
+          "era": "MEDIEVAL ITALIAN",
+          "en": "buffone, the prancing jester, carried the core image of blown-up gestures.",
+          "cn": "意大利语 buffone（蹦跳弄臣）承载了夸张架势的核心意象。"
+        },
+        {
+          "era": "FRENCH",
+          "en": "bouffonnerie named jesting talk and clownish conduct.",
+          "cn": "法语 bouffonnerie 指戏谑之谈与小丑行径。"
+        },
+        {
+          "era": "ENGLISH, 16TH–17TH C.",
+          "en": "buffoonery entered English for the jests of stage fools.",
+          "cn": "十六至十七世纪 buffoonery 进入英语，指舞台丑角的滑稽。"
+        },
+        {
+          "era": "ENGLISH, 18TH–19TH C.",
+          "en": "critics used it to condemn vulgar low comedy.",
+          "cn": "十八至十九世纪批评家以此贬斥低俗滑稽。"
+        },
+        {
+          "era": "PRESENT DAY ENGLISH",
+          "en": "buffoonery now mocks public clowning from politics to media.",
+          "cn": "如今 buffoonery 讥讽从政坛到媒体的种种作秀丑态。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "Buffoonery belongs to the -ery family of behaviors and to the low-comedy lexicon.",
+        "cn": "buffoonery 属 -ery 行为词族，同属低俗滑稽语汇。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "buffoon",
+              "ipa": "/bəˈfuːn/",
+              "tag": "same root",
+              "definition": "a ridiculous clowning person",
+              "definitionCN": "丑角，buffoonery 的基础词"
+            },
+            {
+              "word": "buffoonish",
+              "ipa": "/bəˈfuːnɪʃ/",
+              "tag": "derived form",
+              "definition": "like a buffoon",
+              "definitionCN": "小丑般的，同根形容词"
+            },
+            {
+              "word": "buffooneries",
+              "ipa": "/bəˈfuːnəriz/",
+              "tag": "plural",
+              "definition": "instances of buffoonery",
+              "definitionCN": "buffoonery 的复数"
+            },
+            {
+              "word": "drollery",
+              "ipa": "/ˈdrəʊləri/",
+              "tag": "same pattern",
+              "definition": "whimsical comicality",
+              "definitionCN": "滑稽诙谐，同用 -ery 后缀的平行词"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "tomfoolery",
+              "ipa": "/ˌtɒmˈfuːləri/",
+              "tag": "near meaning",
+              "definition": "silly playful behavior",
+              "definitionCN": "胡闹，蠢行"
+            },
+            {
+              "word": "clowning",
+              "ipa": "/ˈklaʊnɪŋ/",
+              "tag": "near meaning",
+              "definition": "playing the clown",
+              "definitionCN": "扮丑逗乐"
+            },
+            {
+              "word": "antics",
+              "ipa": "/ˈæntɪks/",
+              "tag": "near meaning",
+              "definition": "funny or outrageous behavior",
+              "definitionCN": "滑稽古怪之举"
+            },
+            {
+              "word": "slapstick",
+              "ipa": "/ˈslæpstɪk/",
+              "tag": "near meaning",
+              "definition": "comedy of physical horseplay",
+              "definitionCN": "肢体闹剧"
+            },
+            {
+              "word": "shenanigans",
+              "ipa": "/ʃɪˈnænɪɡənz/",
+              "tag": "near meaning",
+              "definition": "mischief or high jinks",
+              "definitionCN": "恶作剧，胡闹行径"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Take the buffoon and bottle his act: that liquid is buffoonery.",
+        "cn": "把丑角的表演装进瓶里，那瓶东西就叫 buffoonery。"
+      },
+      "normal": [
+        {
+          "en": "-ery makes behavior nouns: trickery, roguery, buffoonery.",
+          "cn": "-ery 构行为名词：trickery、roguery、buffoonery。"
+        },
+        {
+          "en": "The core is still the puffing jester of Italian comedy.",
+          "cn": "词核仍是意大利喜剧里鼓腮的弄臣。"
+        },
+        {
+          "en": "Drollery and roguery rhyme with it in structure.",
+          "cn": "drollery、roguery 与它结构押韵。"
+        },
+        {
+          "en": "Political buffoonery is the common modern collocation.",
+          "cn": "political buffoonery 是现代常见搭配。"
+        },
+        {
+          "en": "Tomfoolery is gentler; buffoonery is coarser.",
+          "cn": "tomfoolery 偏童趣胡闹，buffoonery 更粗俗。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "Hear canned laughter roll over a pratfall.",
+          "cn": "听罐头笑声盖过一次摔跤。"
+        },
+        {
+          "en": "See a grown man wear a lampshade as a hat.",
+          "cn": "看见一个大人把灯罩扣在头上当帽子。"
+        },
+        {
+          "en": "Feel the audience's laugh cool into a sneer.",
+          "cn": "感受观众的笑声冷却成冷笑。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "The debate descended into pure buffoonery.",
+        "cn": "辩论彻底沦为一场丑态表演。"
+      },
+      {
+        "en": "Critics praised the film's warmth and condemned its buffoonery.",
+        "cn": "评论家肯定了影片的温情，批评了它的低俗滑稽。"
+      },
+      {
+        "en": "Years of court buffoonery had worn out the king's patience.",
+        "cn": "多年的宫廷滑稽戏磨光了国王的耐心。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「不疯你」——台上丑角喊「不疯你我不下台」，满场丑态只为逗乐。",
+      "word": "buffoonery"
+    },
+    "root": "buffoonery 由借词 buffoon（意大利语 buffone，源自 buffare「喷气」）加英语行为后缀 -ery 构成，指「丑角之行」，词形或经法语 bouffonnerie 强化，属罗曼语借词与本土后缀的合成。",
+    "sensesIntro": {
+      "en": "The buffoon's way of acting becomes a comic genre, and finally a term of contempt for absurd conduct.",
+      "cn": "丑角的做派先凝为滑稽类型，最终成为对荒唐行径的贬语。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: a jester's exaggerated act bottled as a style.",
+        "cn": "核心意象：弄臣的夸张表演被装瓶成一种做派。"
+      },
+      "chain": [
+        "PANTOMIME",
+        "EXAGGERATION",
+        "LAUGHTER",
+        "VULGARITY",
+        "SCORN",
+        "DISGRACE"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "birthday-party buffoonery",
+          "cn": "生日会上的插科打诨"
+        },
+        {
+          "senses": "01 · 02",
+          "en": "stage buffoonery",
+          "cn": "舞台上的滑稽戏"
+        },
+        {
+          "senses": "02",
+          "en": "slapstick buffoonery",
+          "cn": "肢体闹剧式滑稽"
+        },
+        {
+          "senses": "03",
+          "en": "government buffoonery",
+          "cn": "官场丑态"
+        },
+        {
+          "senses": "01 · 03",
+          "en": "late-night buffoonery on air",
+          "cn": "深夜节目里的作秀丑态"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "The suffix -ery turns a person into that person's characteristic behavior.",
+        "cn": "后缀 -ery 把「某种人」转成「这种人的典型行为」。"
+      },
+      "latinIntro": {
+        "en": "The base word is Italian by way of French; the suffix is Old French -erie.",
+        "cn": "词基经法语出自意大利语，后缀为古法语 -erie。"
+      },
+      "items": [
+        {
+          "word": "-ery",
+          "structure": "Old French -erie suffix",
+          "meaning": "behavior, practice, place of",
+          "meaningCN": "行为、做法或场所后缀",
+          "example": "trickery, bakery, buffoonery",
+          "exampleCN": "如 trickery、bakery、buffoonery 等词"
+        },
+        {
+          "word": "buffoon",
+          "structure": "Italian buffone, borrowed",
+          "meaning": "a ridiculous clown",
+          "meaningCN": "丑角",
+          "example": "a court buffoon",
+          "exampleCN": "宫廷弄臣"
+        },
+        {
+          "word": "buffoonery",
+          "structure": "buffoon + -ery",
+          "meaning": "clownish conduct",
+          "meaningCN": "丑态，滑稽行为",
+          "example": "political buffoonery",
+          "exampleCN": "政坛丑态"
+        },
+        {
+          "word": "drollery",
+          "structure": "droll + -ery",
+          "meaning": "whimsical humor",
+          "meaningCN": "诙谐滑稽",
+          "example": "quiet drollery",
+          "exampleCN": "冷幽默"
+        },
+        {
+          "word": "roguery",
+          "structure": "rogue + -ery",
+          "meaning": "dishonest rascally behavior",
+          "meaningCN": "流氓行径",
+          "example": "petty roguery",
+          "exampleCN": "小奸小坏"
+        },
+        {
+          "word": "trickery",
+          "structure": "trick + -ery",
+          "meaning": "deception",
+          "meaningCN": "诡计，欺骗",
+          "example": "advertising trickery",
+          "exampleCN": "广告花招"
+        },
+        {
+          "word": "tomfoolery",
+          "structure": "Tom fool + -ery",
+          "meaning": "playful silliness",
+          "meaningCN": "胡闹",
+          "example": "stop the tomfoolery",
+          "exampleCN": "别胡闹了"
+        },
+        {
+          "word": "foolery",
+          "structure": "fool + -ery",
+          "meaning": "foolish behavior",
+          "meaningCN": "蠢行",
+          "example": "pure foolery",
+          "exampleCN": "十足的蠢事"
+        },
+        {
+          "word": "clownish",
+          "structure": "clown + -ish",
+          "meaning": "like a clown",
+          "meaningCN": "小丑般的",
+          "example": "clownish antics",
+          "exampleCN": "滑稽古怪的举动"
+        },
+        {
+          "word": "grotesquerie",
+          "structure": "grotesque + -erie",
+          "meaning": "grotesque quality or work",
+          "meaningCN": "怪诞之作",
+          "example": "carnival grotesquerie",
+          "exampleCN": "嘉年华怪诞景象"
+        }
+      ],
+      "latinEntries": [],
+      "derivatives": [
+        {
+          "word": "buffoonish",
+          "pos": "adj.",
+          "zh": "小丑般的"
+        }
+      ]
+    }
   }
-}
+]

@@ -1,5 +1,2205 @@
 [
   {
+    "word": "campus",
+    "pos": "noun",
+    "meaning_zh": "校园"
+  },
+  {
+    "word": "dormitory",
+    "pos": "noun",
+    "meaning_zh": "宿舍"
+  },
+  {
+    "word": "lecture",
+    "pos": "noun",
+    "meaning_zh": "讲座"
+  },
+  {
+    "word": "seminar",
+    "pos": "noun",
+    "meaning_zh": "研讨课"
+  },
+  {
+    "word": "tutorial",
+    "pos": "noun",
+    "meaning_zh": "辅导课"
+  },
+  {
+    "word": "syllabus",
+    "pos": "noun",
+    "meaning_zh": "教学大纲"
+  },
+  {
+    "word": "semester",
+    "pos": "noun",
+    "meaning_zh": "学期"
+  },
+  {
+    "word": "transcript",
+    "pos": "noun",
+    "meaning_zh": "成绩单"
+  },
+  {
+    "word": "scholarship",
+    "pos": "noun",
+    "meaning_zh": "奖学金"
+  },
+  {
+    "word": "tuition",
+    "pos": "noun",
+    "meaning_zh": "学费"
+  },
+  {
+    "word": "enrollment",
+    "pos": "noun",
+    "meaning_zh": "注册入学"
+  },
+  {
+    "word": "admission",
+    "pos": "noun",
+    "meaning_zh": "录取"
+  },
+  {
+    "word": "orientation",
+    "pos": "noun",
+    "meaning_zh": "新生说明会"
+  },
+  {
+    "word": "faculty",
+    "pos": "noun",
+    "meaning_zh": "院系；全体教员"
+  },
+  {
+    "word": "dissertation",
+    "pos": "noun",
+    "meaning_zh": "学位论文"
+  },
+  {
+    "word": "thesis",
+    "pos": "noun",
+    "meaning_zh": "论文"
+  },
+  {
+    "word": "citation",
+    "pos": "noun",
+    "meaning_zh": "引用"
+  },
+  {
+    "word": "plagiarism",
+    "pos": "noun",
+    "meaning_zh": "剽窃"
+  },
+  {
+    "word": "bibliography",
+    "pos": "noun",
+    "meaning_zh": "参考书目"
+  },
+  {
+    "word": "abstract",
+    "pos": "noun",
+    "meaning_zh": "摘要"
+  },
+  {
+    "word": "hypothesis",
+    "pos": "noun",
+    "meaning_zh": "假设"
+  },
+  {
+    "word": "methodology",
+    "pos": "noun",
+    "meaning_zh": "方法论"
+  },
+  {
+    "word": "questionnaire",
+    "pos": "noun",
+    "meaning_zh": "问卷"
+  },
+  {
+    "word": "statistics",
+    "pos": "noun",
+    "meaning_zh": "统计数据"
+  },
+  {
+    "word": "assessment",
+    "pos": "noun",
+    "meaning_zh": "评估"
+  },
+  {
+    "word": "supervisor",
+    "pos": "noun",
+    "meaning_zh": "导师"
+  },
+  {
+    "word": "graduation",
+    "pos": "noun",
+    "meaning_zh": "毕业"
+  },
+  {
+    "word": "alumni",
+    "pos": "noun",
+    "meaning_zh": "校友"
+  },
+  {
+    "word": "credential",
+    "pos": "noun",
+    "meaning_zh": "资历证明"
+  },
+  {
+    "word": "prerequisite",
+    "pos": "noun",
+    "meaning_zh": "先修课程"
+  },
+  {
+    "word": "curriculum",
+    "pos": "noun",
+    "meaning_zh": "课程体系"
+  },
+  {
+    "word": "ideological",
+    "pos": "adjective",
+    "meaning_zh": "意识形态的"
+  },
+  {
+    "word": "paternalism",
+    "pos": "noun",
+    "meaning_zh": "家长式统治"
+  },
+  {
+    "word": "folklore",
+    "pos": "noun",
+    "meaning_zh": "民间世代口耳相传的故事、歌谣、信仰与习俗的总称"
+  },
+  {
+    "word": "abolition",
+    "pos": "noun",
+    "meaning_zh": "废除"
+  },
+  {
+    "word": "coercive",
+    "pos": "adjective",
+    "meaning_zh": "强制的"
+  },
+  {
+    "word": "crystallize",
+    "pos": "vi",
+    "meaning_zh": "结晶"
+  },
+  {
+    "word": "stratigraphy",
+    "pos": "noun",
+    "meaning_zh": "地层学"
+  },
+  {
+    "word": "saline",
+    "pos": "adjective",
+    "meaning_zh": "含盐的"
+  },
+  {
+    "word": "deduct",
+    "pos": "verb",
+    "meaning_zh": "v. 减去"
+  },
+  {
+    "word": "ejection",
+    "pos": "noun",
+    "meaning_zh": "n. 喷出"
+  },
+  {
+    "word": "mural",
+    "pos": "noun",
+    "meaning_zh": "壁画"
+  },
+  {
+    "word": "erode",
+    "pos": "vt",
+    "meaning_zh": "侵蚀"
+  },
+  {
+    "word": "adjudicate",
+    "pos": "vt",
+    "meaning_zh": "审理"
+  },
+  {
+    "word": "concave",
+    "pos": "adjective",
+    "meaning_zh": "adj. 凹的，凹面的"
+  },
+  {
+    "word": "mutate",
+    "pos": "vi",
+    "meaning_zh": "突变"
+  },
+  {
+    "word": "dissentious",
+    "pos": "adjective",
+    "meaning_zh": "adj. 好争的"
+  },
+  {
+    "word": "bank account",
+    "pos": "noun",
+    "meaning_zh": "银行账户"
+  },
+  {
+    "word": "courtship",
+    "pos": "noun",
+    "meaning_zh": "求爱"
+  },
+  {
+    "word": "archaeological",
+    "pos": "adjective",
+    "meaning_zh": "考古学的"
+  },
+  {
+    "word": "simulation",
+    "pos": "noun",
+    "meaning_zh": "模拟"
+  },
+  {
+    "word": "megalith",
+    "pos": "noun",
+    "meaning_zh": "巨石"
+  },
+  {
+    "word": "obligatory",
+    "pos": "adjective",
+    "meaning_zh": "强制的"
+  },
+  {
+    "word": "antagonistic",
+    "pos": "adjective",
+    "meaning_zh": "敌对的"
+  },
+  {
+    "word": "organismal",
+    "pos": "adjective",
+    "meaning_zh": "生物个体的"
+  },
+  {
+    "word": "aloof",
+    "pos": "adjective",
+    "meaning_zh": "冷淡的"
+  },
+  {
+    "word": "pollinator",
+    "pos": "noun",
+    "meaning_zh": "传粉者"
+  },
+  {
+    "word": "freezing",
+    "pos": "noun",
+    "meaning_zh": "结冰"
+  },
+  {
+    "word": "crustacean",
+    "pos": "noun",
+    "meaning_zh": "甲壳动物（虾、蟹、藤壶等有硬壳的节肢动物）"
+  },
+  {
+    "word": "bulky",
+    "pos": "adjective",
+    "meaning_zh": "adj. 笨重的，体积大的"
+  },
+  {
+    "word": "mechanical engineering",
+    "pos": "noun",
+    "meaning_zh": "机械工程"
+  },
+  {
+    "word": "indicator",
+    "pos": "noun",
+    "meaning_zh": "指标"
+  },
+  {
+    "word": "gravitational",
+    "pos": "adjective",
+    "meaning_zh": "引力的"
+  },
+  {
+    "word": "interpretation bias",
+    "pos": "noun",
+    "meaning_zh": "解释偏差"
+  },
+  {
+    "word": "chronic",
+    "pos": "adjective",
+    "meaning_zh": "adj. 慢性的"
+  },
+  {
+    "word": "ceramics",
+    "pos": "noun",
+    "meaning_zh": "陶瓷工艺"
+  },
+  {
+    "word": "formulation",
+    "pos": "noun",
+    "meaning_zh": "表述"
+  },
+  {
+    "word": "backache",
+    "pos": "noun",
+    "meaning_zh": "n. 背痛"
+  },
+  {
+    "word": "be indicative of",
+    "pos": "phr",
+    "meaning_zh": "表明"
+  },
+  {
+    "word": "mineralization",
+    "pos": "noun",
+    "meaning_zh": "矿化"
+  },
+  {
+    "word": "reactionary",
+    "pos": "adjective",
+    "meaning_zh": "反动的"
+  },
+  {
+    "word": "cartilage",
+    "pos": "n. (uncountable)",
+    "meaning_zh": "软骨"
+  },
+  {
+    "word": "angina",
+    "pos": "noun",
+    "meaning_zh": "n. 心绞痛（心肌缺血引起的胸痛）"
+  },
+  {
+    "word": "acclimate",
+    "pos": "verb",
+    "meaning_zh": "使适应（新环境）"
+  },
+  {
+    "word": "buckle",
+    "pos": "noun",
+    "meaning_zh": "n. 带扣"
+  },
+  {
+    "word": "additive",
+    "pos": "noun",
+    "meaning_zh": "添加剂"
+  },
+  {
+    "word": "beware",
+    "pos": "verb",
+    "meaning_zh": "v. 当心，谨防（常用于警示）"
+  },
+  {
+    "word": "antecedent",
+    "pos": "noun",
+    "meaning_zh": "前情"
+  },
+  {
+    "word": "be relevant to",
+    "pos": "phr",
+    "meaning_zh": "与……相关"
+  },
+  {
+    "word": "evapotranspiration",
+    "pos": "noun",
+    "meaning_zh": "蒸散"
+  },
+  {
+    "word": "encryption",
+    "pos": "noun",
+    "meaning_zh": "加密"
+  },
+  {
+    "word": "armistice",
+    "pos": "noun",
+    "meaning_zh": "停战"
+  },
+  {
+    "word": "virtual reality",
+    "pos": "noun",
+    "meaning_zh": "虚拟现实"
+  },
+  {
+    "word": "aerospace",
+    "pos": "noun",
+    "meaning_zh": "航空航天（地球大气层与外层空间的合称）"
+  },
+  {
+    "word": "monitoring",
+    "pos": "noun",
+    "meaning_zh": "监测"
+  },
+  {
+    "word": "spectroscopy",
+    "pos": "noun",
+    "meaning_zh": "光谱学"
+  },
+  {
+    "word": "observation method",
+    "pos": "noun",
+    "meaning_zh": "观察法"
+  },
+  {
+    "word": "bliss",
+    "pos": "noun",
+    "meaning_zh": "n. 极乐，狂喜"
+  },
+  {
+    "word": "adobe",
+    "pos": "noun",
+    "meaning_zh": "土坯"
+  },
+  {
+    "word": "financier",
+    "pos": "noun",
+    "meaning_zh": "金融家"
+  },
+  {
+    "word": "ranch",
+    "pos": "noun",
+    "meaning_zh": "牧场"
+  },
+  {
+    "word": "exacerbate",
+    "pos": "vt",
+    "meaning_zh": "加剧"
+  },
+  {
+    "word": "cameral",
+    "pos": "adjective",
+    "meaning_zh": "adj. 与国库财政有关的，官房学的"
+  },
+  {
+    "word": "persecution",
+    "pos": "noun",
+    "meaning_zh": "迫害"
+  },
+  {
+    "word": "chromosome",
+    "pos": "noun",
+    "meaning_zh": "染色体"
+  },
+  {
+    "word": "disrupt",
+    "pos": "verb",
+    "meaning_zh": "v. 扰乱"
+  },
+  {
+    "word": "methodological",
+    "pos": "adjective",
+    "meaning_zh": "方法论的"
+  },
+  {
+    "word": "shoreline",
+    "pos": "noun",
+    "meaning_zh": "海岸线"
+  },
+  {
+    "word": "entree",
+    "pos": "noun",
+    "meaning_zh": "（美式）主菜"
+  },
+  {
+    "word": "respiration rate",
+    "pos": "noun",
+    "meaning_zh": "呼吸频率"
+  },
+  {
+    "word": "database management",
+    "pos": "noun",
+    "meaning_zh": "数据库管理"
+  },
+  {
+    "word": "assertive",
+    "pos": "adjective",
+    "meaning_zh": "adj. 自信而坚定表达自我的"
+  },
+  {
+    "word": "natural habitat",
+    "pos": "noun",
+    "meaning_zh": "天然生境"
+  },
+  {
+    "word": "resonant",
+    "pos": "adjective",
+    "meaning_zh": "洪亮的"
+  },
+  {
+    "word": "continental drift",
+    "pos": "noun",
+    "meaning_zh": "大陆漂移"
+  },
+  {
+    "word": "water scarcity",
+    "pos": "noun",
+    "meaning_zh": "水资源短缺"
+  },
+  {
+    "word": "river basin",
+    "pos": "noun",
+    "meaning_zh": "流域"
+  },
+  {
+    "word": "monarchy",
+    "pos": "noun",
+    "meaning_zh": "君主制"
+  },
+  {
+    "word": "consequent",
+    "pos": "adjective",
+    "meaning_zh": "adj. 随之发生的，作为结果的"
+  },
+  {
+    "word": "mutation",
+    "pos": "noun",
+    "meaning_zh": "突变"
+  },
+  {
+    "word": "refinement",
+    "pos": "noun",
+    "meaning_zh": "精炼"
+  },
+  {
+    "word": "water reservoir",
+    "pos": "noun",
+    "meaning_zh": "水库"
+  },
+  {
+    "word": "water cycle",
+    "pos": "noun",
+    "meaning_zh": "水循环"
+  },
+  {
+    "word": "disruptive",
+    "pos": "adjective",
+    "meaning_zh": "adj. 制造混乱的"
+  },
+  {
+    "word": "cascade",
+    "pos": "noun",
+    "meaning_zh": "n. 小瀑布，瀑布群"
+  },
+  {
+    "word": "marriage customs",
+    "pos": "noun",
+    "meaning_zh": "围绕订婚、婚礼与婚后生活形成的传统做法与规矩"
+  },
+  {
+    "word": "authoritarian",
+    "pos": "adjective",
+    "meaning_zh": "威权的"
+  },
+  {
+    "word": "warm front",
+    "pos": "noun",
+    "meaning_zh": "暖锋"
+  },
+  {
+    "word": "reproduction",
+    "pos": "noun",
+    "meaning_zh": "繁殖"
+  },
+  {
+    "word": "isthmus",
+    "pos": "noun",
+    "meaning_zh": "地峡"
+  },
+  {
+    "word": "decryption",
+    "pos": "noun",
+    "meaning_zh": "解密"
+  },
+  {
+    "word": "encapsulate",
+    "pos": "vt",
+    "meaning_zh": "vt. 把…装入胶囊"
+  },
+  {
+    "word": "sculptor",
+    "pos": "noun",
+    "meaning_zh": "雕塑家"
+  },
+  {
+    "word": "in comparison with",
+    "pos": "prep. phr",
+    "meaning_zh": "与……相比"
+  },
+  {
+    "word": "antonym",
+    "pos": "noun",
+    "meaning_zh": "反义词"
+  },
+  {
+    "word": "result in",
+    "pos": "v. phr",
+    "meaning_zh": "导致"
+  },
+  {
+    "word": "structural",
+    "pos": "adjective",
+    "meaning_zh": "结构的"
+  },
+  {
+    "word": "disposition",
+    "pos": "noun",
+    "meaning_zh": "n. 性情"
+  },
+  {
+    "word": "performance evaluation",
+    "pos": "noun",
+    "meaning_zh": "绩效评估"
+  },
+  {
+    "word": "dispel",
+    "pos": "vt",
+    "meaning_zh": "驱散"
+  },
+  {
+    "word": "descriptive",
+    "pos": "adjective",
+    "meaning_zh": "描写的"
+  },
+  {
+    "word": "survival of the fittest",
+    "pos": "n. phr",
+    "meaning_zh": "适者生存"
+  },
+  {
+    "word": "readable",
+    "pos": "adjective",
+    "meaning_zh": "可读的"
+  },
+  {
+    "word": "swamp",
+    "pos": "noun",
+    "meaning_zh": "沼泽"
+  },
+  {
+    "word": "canoe",
+    "pos": "noun",
+    "meaning_zh": "n. 独木舟，皮划艇"
+  },
+  {
+    "word": "orbital",
+    "pos": "adjective",
+    "meaning_zh": "轨道的"
+  },
+  {
+    "word": "obsolete",
+    "pos": "adjective",
+    "meaning_zh": "过时的"
+  },
+  {
+    "word": "courageous",
+    "pos": "adjective",
+    "meaning_zh": "adj. 勇敢的，有胆量的"
+  },
+  {
+    "word": "recipient",
+    "pos": "noun",
+    "meaning_zh": "接受者"
+  },
+  {
+    "word": "bulletin",
+    "pos": "noun",
+    "meaning_zh": "n. 公告，布告"
+  },
+  {
+    "word": "magma",
+    "pos": "noun",
+    "meaning_zh": "岩浆"
+  },
+  {
+    "word": "diversion",
+    "pos": "noun",
+    "meaning_zh": "n. 转移"
+  },
+  {
+    "word": "entrepreneur",
+    "pos": "noun",
+    "meaning_zh": "创业者"
+  },
+  {
+    "word": "circumscribe",
+    "pos": "verb",
+    "meaning_zh": "v. 限制，约束"
+  },
+  {
+    "word": "trade deficit",
+    "pos": "noun",
+    "meaning_zh": "贸易逆差"
+  },
+  {
+    "word": "consecutive",
+    "pos": "adjective",
+    "meaning_zh": "连续的"
+  },
+  {
+    "word": "emeritus",
+    "pos": "adjective",
+    "meaning_zh": "adj. （教授等）荣誉退休的"
+  },
+  {
+    "word": "limestone",
+    "pos": "noun",
+    "meaning_zh": "石灰岩"
+  },
+  {
+    "word": "bloodstream",
+    "pos": "noun",
+    "meaning_zh": "血流"
+  },
+  {
+    "word": "dolphin",
+    "pos": "noun",
+    "meaning_zh": "n. 海豚"
+  },
+  {
+    "word": "disregard",
+    "pos": "verb",
+    "meaning_zh": "v. 不理会"
+  },
+  {
+    "word": "compost",
+    "pos": "noun",
+    "meaning_zh": "n. 堆肥 v. 制作堆肥"
+  },
+  {
+    "word": "validity",
+    "pos": "noun",
+    "meaning_zh": "效度"
+  },
+  {
+    "word": "drawback",
+    "pos": "noun",
+    "meaning_zh": "n. 缺点"
+  },
+  {
+    "word": "fluctuation",
+    "pos": "noun",
+    "meaning_zh": "波动"
+  },
+  {
+    "word": "disillusionment",
+    "pos": "noun",
+    "meaning_zh": "n. 幻灭"
+  },
+  {
+    "word": "have an impact on",
+    "pos": "v. phr",
+    "meaning_zh": "对……有影响"
+  },
+  {
+    "word": "barren",
+    "pos": "adjective",
+    "meaning_zh": "贫瘠的"
+  },
+  {
+    "word": "reproductive",
+    "pos": "adjective",
+    "meaning_zh": "生殖的"
+  },
+  {
+    "word": "geometrical",
+    "pos": "adjective",
+    "meaning_zh": "几何的"
+  },
+  {
+    "word": "cosmic radiation",
+    "pos": "noun",
+    "meaning_zh": "宇宙辐射"
+  },
+  {
+    "word": "connive",
+    "pos": "verb",
+    "meaning_zh": "v. 默许，纵容"
+  },
+  {
+    "word": "in principle",
+    "pos": "adv. phr",
+    "meaning_zh": "原则上、理论上"
+  },
+  {
+    "word": "cohesion",
+    "pos": "noun",
+    "meaning_zh": "黏合力"
+  },
+  {
+    "word": "algorithmic",
+    "pos": "adjective",
+    "meaning_zh": "算法的"
+  },
+  {
+    "word": "cell membrane",
+    "pos": "noun",
+    "meaning_zh": "细胞膜"
+  },
+  {
+    "word": "inheritance",
+    "pos": "noun",
+    "meaning_zh": "继承（物）"
+  },
+  {
+    "word": "barbaric",
+    "pos": "adjective",
+    "meaning_zh": "adj. 野蛮的"
+  },
+  {
+    "word": "to a certain extent",
+    "pos": "prep. phr",
+    "meaning_zh": "在一定程度上"
+  },
+  {
+    "word": "decorum",
+    "pos": "noun",
+    "meaning_zh": "礼仪"
+  },
+  {
+    "word": "circus",
+    "pos": "noun",
+    "meaning_zh": "n. 马戏团"
+  },
+  {
+    "word": "ethnology",
+    "pos": "noun",
+    "meaning_zh": "民族学"
+  },
+  {
+    "word": "deduce",
+    "pos": "vt",
+    "meaning_zh": "推断"
+  },
+  {
+    "word": "dragonfly",
+    "pos": "noun",
+    "meaning_zh": "n. 蜻蜓"
+  },
+  {
+    "word": "circumvent",
+    "pos": "verb",
+    "meaning_zh": "绕过"
+  },
+  {
+    "word": "bacteriological",
+    "pos": "adjective",
+    "meaning_zh": "adj. 细菌学的"
+  },
+  {
+    "word": "riverine",
+    "pos": "adjective",
+    "meaning_zh": "河流的"
+  },
+  {
+    "word": "cosmic",
+    "pos": "adjective",
+    "meaning_zh": "宇宙的"
+  },
+  {
+    "word": "burrow",
+    "pos": "verb",
+    "meaning_zh": "v. 挖洞，掘穴"
+  },
+  {
+    "word": "abolitionist",
+    "pos": "noun",
+    "meaning_zh": "废奴主义者"
+  },
+  {
+    "word": "respiratory",
+    "pos": "adjective",
+    "meaning_zh": "呼吸的"
+  },
+  {
+    "word": "creditor",
+    "pos": "noun",
+    "meaning_zh": "债权人"
+  },
+  {
+    "word": "decimate",
+    "pos": "vt",
+    "meaning_zh": "大批毁灭"
+  },
+  {
+    "word": "coordinator",
+    "pos": "noun",
+    "meaning_zh": "n. 协调者，协调员"
+  },
+  {
+    "word": "variability",
+    "pos": "noun",
+    "meaning_zh": "可变性"
+  },
+  {
+    "word": "infiltration",
+    "pos": "noun",
+    "meaning_zh": "下渗"
+  },
+  {
+    "word": "intellectual property",
+    "pos": "noun",
+    "meaning_zh": "知识产权"
+  },
+  {
+    "word": "sample size",
+    "pos": "noun",
+    "meaning_zh": "样本量"
+  },
+  {
+    "word": "offset",
+    "pos": "verb",
+    "meaning_zh": "抵消"
+  },
+  {
+    "word": "bewilder",
+    "pos": "vt",
+    "meaning_zh": "使迷惑"
+  },
+  {
+    "word": "be restricted to",
+    "pos": "phr",
+    "meaning_zh": "限于"
+  },
+  {
+    "word": "counselor",
+    "pos": "noun",
+    "meaning_zh": "顾问"
+  },
+  {
+    "word": "barley",
+    "pos": "noun",
+    "meaning_zh": "名词：大麦（一种禾谷作物及其麦粒）"
+  },
+  {
+    "word": "anatomical",
+    "pos": "adjective",
+    "meaning_zh": "解剖学的"
+  },
+  {
+    "word": "adventurous",
+    "pos": "adjective",
+    "meaning_zh": "爱冒险的"
+  },
+  {
+    "word": "instructor",
+    "pos": "noun",
+    "meaning_zh": "教师"
+  },
+  {
+    "word": "questionable",
+    "pos": "adjective",
+    "meaning_zh": "可疑的"
+  },
+  {
+    "word": "cinnamon",
+    "pos": "noun",
+    "meaning_zh": "n. 肉桂，桂皮"
+  },
+  {
+    "word": "embody",
+    "pos": "vt",
+    "meaning_zh": "v. 体现"
+  },
+  {
+    "word": "solar energy",
+    "pos": "noun",
+    "meaning_zh": "太阳能"
+  },
+  {
+    "word": "proton",
+    "pos": "noun",
+    "meaning_zh": "质子"
+  },
+  {
+    "word": "food web",
+    "pos": "noun",
+    "meaning_zh": "食物网"
+  },
+  {
+    "word": "terrestrial",
+    "pos": "adjective",
+    "meaning_zh": "陆地的"
+  },
+  {
+    "word": "competitiveness",
+    "pos": "noun",
+    "meaning_zh": "竞争力"
+  },
+  {
+    "word": "interdisciplinary",
+    "pos": "adjective",
+    "meaning_zh": "跨学科的"
+  },
+  {
+    "word": "redirect",
+    "pos": "verb",
+    "meaning_zh": "使改变方向"
+  },
+  {
+    "word": "historically",
+    "pos": "adverb",
+    "meaning_zh": "历史上"
+  },
+  {
+    "word": "in conjunction with",
+    "pos": "prep. phr",
+    "meaning_zh": "与……共同"
+  },
+  {
+    "word": "muscular",
+    "pos": "adjective",
+    "meaning_zh": "肌肉的"
+  },
+  {
+    "word": "emboss",
+    "pos": "vt",
+    "meaning_zh": "v. 使凸出"
+  },
+  {
+    "word": "seismology",
+    "pos": "noun",
+    "meaning_zh": "地震学"
+  },
+  {
+    "word": "brunt",
+    "pos": "noun",
+    "meaning_zh": "n. （攻击、冲击的）主要部分"
+  },
+  {
+    "word": "philosophical",
+    "pos": "adjective",
+    "meaning_zh": "哲学的"
+  },
+  {
+    "word": "dynasty",
+    "pos": "noun",
+    "meaning_zh": "王朝"
+  },
+  {
+    "word": "qualitative analysis",
+    "pos": "noun",
+    "meaning_zh": "定性分析"
+  },
+  {
+    "word": "implicitly",
+    "pos": "adverb",
+    "meaning_zh": "含蓄地"
+  },
+  {
+    "word": "toxic",
+    "pos": "adjective",
+    "meaning_zh": "有毒的"
+  },
+  {
+    "word": "food chain",
+    "pos": "noun",
+    "meaning_zh": "食物链"
+  },
+  {
+    "word": "archaeology site",
+    "pos": "noun",
+    "meaning_zh": "考古遗址"
+  },
+  {
+    "word": "periodic",
+    "pos": "adjective",
+    "meaning_zh": "周期性的"
+  },
+  {
+    "word": "phosphorus",
+    "pos": "noun",
+    "meaning_zh": "磷"
+  },
+  {
+    "word": "volcanism",
+    "pos": "noun",
+    "meaning_zh": "火山作用"
+  },
+  {
+    "word": "abbess",
+    "pos": "noun",
+    "meaning_zh": "女修道院院长"
+  },
+  {
+    "word": "trophic level",
+    "pos": "noun",
+    "meaning_zh": "营养级"
+  },
+  {
+    "word": "dwelling",
+    "pos": "noun",
+    "meaning_zh": "住所"
+  },
+  {
+    "word": "reconcile",
+    "pos": "verb",
+    "meaning_zh": "和解"
+  },
+  {
+    "word": "encroach",
+    "pos": "vi",
+    "meaning_zh": "vi. 侵占"
+  },
+  {
+    "word": "deflation",
+    "pos": "noun",
+    "meaning_zh": "通货紧缩"
+  },
+  {
+    "word": "data analysis",
+    "pos": "noun",
+    "meaning_zh": "数据分析"
+  },
+  {
+    "word": "doom",
+    "pos": "noun",
+    "meaning_zh": "n. 厄运"
+  },
+  {
+    "word": "thermohaline",
+    "pos": "adjective",
+    "meaning_zh": "温盐的"
+  },
+  {
+    "word": "surface runoff",
+    "pos": "noun",
+    "meaning_zh": "地表径流"
+  },
+  {
+    "word": "fracture",
+    "pos": "verb",
+    "meaning_zh": "（使）断裂"
+  },
+  {
+    "word": "calibre",
+    "pos": "noun",
+    "meaning_zh": "n. 才干，水准"
+  },
+  {
+    "word": "cloakroom",
+    "pos": "noun",
+    "meaning_zh": "n. 衣帽间"
+  },
+  {
+    "word": "geologist",
+    "pos": "noun",
+    "meaning_zh": "地质学家"
+  },
+  {
+    "word": "algorithm",
+    "pos": "noun",
+    "meaning_zh": "算法"
+  },
+  {
+    "word": "investigative",
+    "pos": "adjective",
+    "meaning_zh": "调查的"
+  },
+  {
+    "word": "canary",
+    "pos": "noun",
+    "meaning_zh": "金丝雀"
+  },
+  {
+    "word": "arboreal",
+    "pos": "adjective",
+    "meaning_zh": "树的"
+  },
+  {
+    "word": "craven",
+    "pos": "adjective",
+    "meaning_zh": "adj. 怯懦的，懦弱的"
+  },
+  {
+    "word": "quicksand",
+    "pos": "noun",
+    "meaning_zh": "流沙"
+  },
+  {
+    "word": "bedrock",
+    "pos": "noun",
+    "meaning_zh": "基岩"
+  },
+  {
+    "word": "radioactive decay",
+    "pos": "noun",
+    "meaning_zh": "放射性衰变"
+  },
+  {
+    "word": "hydrothermal vent",
+    "pos": "noun",
+    "meaning_zh": "热液喷口"
+  },
+  {
+    "word": "diversify",
+    "pos": "verb",
+    "meaning_zh": "使多样化"
+  },
+  {
+    "word": "ecosystem diversity",
+    "pos": "noun",
+    "meaning_zh": "生态系统多样性"
+  },
+  {
+    "word": "deflate",
+    "pos": "verb",
+    "meaning_zh": "v. 放掉…的气"
+  },
+  {
+    "word": "rna",
+    "pos": "noun",
+    "meaning_zh": "核糖核酸"
+  },
+  {
+    "word": "anthropogenic",
+    "pos": "adjective",
+    "meaning_zh": "adj. 人为的"
+  },
+  {
+    "word": "geomorphology",
+    "pos": "noun",
+    "meaning_zh": "地貌学"
+  },
+  {
+    "word": "ornamentation",
+    "pos": "noun",
+    "meaning_zh": "装饰"
+  },
+  {
+    "word": "with regard to",
+    "pos": "prep. phr",
+    "meaning_zh": "关于、就……而言"
+  },
+  {
+    "word": "allotment",
+    "pos": "noun",
+    "meaning_zh": "分配"
+  },
+  {
+    "word": "spore",
+    "pos": "noun",
+    "meaning_zh": "孢子"
+  },
+  {
+    "word": "quadrennial",
+    "pos": "adjective",
+    "meaning_zh": "每四年一次的"
+  },
+  {
+    "word": "rectitude",
+    "pos": "noun",
+    "meaning_zh": "正直"
+  },
+  {
+    "word": "antiseptic",
+    "pos": "adjective",
+    "meaning_zh": "防腐的"
+  },
+  {
+    "word": "cinematography",
+    "pos": "noun",
+    "meaning_zh": "n. 电影摄影（艺术与技术）"
+  },
+  {
+    "word": "learning process",
+    "pos": "noun",
+    "meaning_zh": "学习过程"
+  },
+  {
+    "word": "app",
+    "pos": "noun",
+    "meaning_zh": "n. 应用程序"
+  },
+  {
+    "word": "assassin",
+    "pos": "noun",
+    "meaning_zh": "刺客"
+  },
+  {
+    "word": "assassination",
+    "pos": "noun",
+    "meaning_zh": "n. 暗杀"
+  },
+  {
+    "word": "encase",
+    "pos": "vt",
+    "meaning_zh": "vt. 把…装入箱中"
+  },
+  {
+    "word": "endangered species",
+    "pos": "noun",
+    "meaning_zh": "濒危物种"
+  },
+  {
+    "word": "blueshift",
+    "pos": "noun",
+    "meaning_zh": "蓝移"
+  },
+  {
+    "word": "sustainability",
+    "pos": "noun",
+    "meaning_zh": "可持续性"
+  },
+  {
+    "word": "elusive",
+    "pos": "adjective",
+    "meaning_zh": "adj. 难捉摸的"
+  },
+  {
+    "word": "coelenterate",
+    "pos": "noun",
+    "meaning_zh": "n. 腔肠动物（刺胞动物的旧称）"
+  },
+  {
+    "word": "standardized",
+    "pos": "adjective",
+    "meaning_zh": "标准化的"
+  },
+  {
+    "word": "browse",
+    "pos": "verb",
+    "meaning_zh": "v. 随便翻看，浏览"
+  },
+  {
+    "word": "peninsula",
+    "pos": "noun",
+    "meaning_zh": "半岛"
+  },
+  {
+    "word": "natural satellite",
+    "pos": "noun",
+    "meaning_zh": "天然卫星"
+  },
+  {
+    "word": "functionality",
+    "pos": "noun",
+    "meaning_zh": "功能"
+  },
+  {
+    "word": "abase",
+    "pos": "vt",
+    "meaning_zh": "使卑下"
+  },
+  {
+    "word": "rotation",
+    "pos": "noun",
+    "meaning_zh": "旋转"
+  },
+  {
+    "word": "drainage",
+    "pos": "noun",
+    "meaning_zh": "排水"
+  },
+  {
+    "word": "ornament",
+    "pos": "noun",
+    "meaning_zh": "装饰品"
+  },
+  {
+    "word": "cowboy",
+    "pos": "noun",
+    "meaning_zh": "n. 牛仔"
+  },
+  {
+    "word": "artware",
+    "pos": "noun",
+    "meaning_zh": "n. 工艺品"
+  },
+  {
+    "word": "standard of living",
+    "pos": "noun",
+    "meaning_zh": "生活水平"
+  },
+  {
+    "word": "bimonthly",
+    "pos": "adjective",
+    "meaning_zh": "adj./adv. 两月一次的（地）"
+  },
+  {
+    "word": "abeyance",
+    "pos": "noun",
+    "meaning_zh": "暂时无效"
+  },
+  {
+    "word": "bureaucracy",
+    "pos": "noun",
+    "meaning_zh": "官僚机构"
+  },
+  {
+    "word": "aristocrat",
+    "pos": "noun",
+    "meaning_zh": "贵族"
+  },
+  {
+    "word": "ocean current",
+    "pos": "n. (compound noun)",
+    "meaning_zh": "洋流"
+  },
+  {
+    "word": "fertilized",
+    "pos": "adjective",
+    "meaning_zh": "已受精的"
+  },
+  {
+    "word": "raptly",
+    "pos": "adverb",
+    "meaning_zh": "全神贯注地"
+  },
+  {
+    "word": "bleak",
+    "pos": "adjective",
+    "meaning_zh": "adj. 荒凉的，光秃秃的"
+  },
+  {
+    "word": "monarchic",
+    "pos": "adjective",
+    "meaning_zh": "君主的"
+  },
+  {
+    "word": "cosset",
+    "pos": "verb",
+    "meaning_zh": "v. 宠爱，娇养"
+  },
+  {
+    "word": "ritual",
+    "pos": "noun",
+    "meaning_zh": "按固定程序进行的一套仪式"
+  },
+  {
+    "word": "flooding",
+    "pos": "noun",
+    "meaning_zh": "洪涝"
+  },
+  {
+    "word": "fossilized",
+    "pos": "adjective",
+    "meaning_zh": "化成化石的"
+  },
+  {
+    "word": "anticyclone",
+    "pos": "noun",
+    "meaning_zh": "反气旋"
+  },
+  {
+    "word": "habitation",
+    "pos": "noun",
+    "meaning_zh": "居住"
+  },
+  {
+    "word": "topographic",
+    "pos": "adjective",
+    "meaning_zh": "地形的"
+  },
+  {
+    "word": "demonstrative",
+    "pos": "adjective",
+    "meaning_zh": "演示的"
+  },
+  {
+    "word": "anopheles",
+    "pos": "noun",
+    "meaning_zh": "n. 按蚊"
+  },
+  {
+    "word": "implementation",
+    "pos": "noun",
+    "meaning_zh": "实施"
+  },
+  {
+    "word": "caldera",
+    "pos": "noun",
+    "meaning_zh": "n. 破火山口，火山塌陷形成的巨大凹地"
+  },
+  {
+    "word": "archaeological record",
+    "pos": "noun",
+    "meaning_zh": "考古记录"
+  },
+  {
+    "word": "lender",
+    "pos": "noun",
+    "meaning_zh": "出借人"
+  },
+  {
+    "word": "aviation",
+    "pos": "noun",
+    "meaning_zh": "n. 航空"
+  },
+  {
+    "word": "disjunction",
+    "pos": "noun",
+    "meaning_zh": "n. 分离"
+  },
+  {
+    "word": "tentative",
+    "pos": "adjective",
+    "meaning_zh": "暂定的"
+  },
+  {
+    "word": "deployment",
+    "pos": "noun",
+    "meaning_zh": "部署"
+  },
+  {
+    "word": "abysmal",
+    "pos": "adjective",
+    "meaning_zh": "极坏的"
+  },
+  {
+    "word": "lithosphere",
+    "pos": "noun",
+    "meaning_zh": "岩石圈"
+  },
+  {
+    "word": "osmosis",
+    "pos": "noun",
+    "meaning_zh": "渗透"
+  },
+  {
+    "word": "crass",
+    "pos": "adjective",
+    "meaning_zh": "粗鲁无礼的"
+  },
+  {
+    "word": "crank",
+    "pos": "noun",
+    "meaning_zh": "n. 曲柄"
+  },
+  {
+    "word": "deductible",
+    "pos": "adjective",
+    "meaning_zh": "adj. 可扣除的"
+  },
+  {
+    "word": "retention",
+    "pos": "noun",
+    "meaning_zh": "保留"
+  },
+  {
+    "word": "culminate",
+    "pos": "verb",
+    "meaning_zh": "v. 达到顶点"
+  },
+  {
+    "word": "racket",
+    "pos": "noun",
+    "meaning_zh": "球拍"
+  },
+  {
+    "word": "endorse",
+    "pos": "vt",
+    "meaning_zh": "vt. 赞同"
+  },
+  {
+    "word": "take into account",
+    "pos": "v. phr",
+    "meaning_zh": "考虑到"
+  },
+  {
+    "word": "macroeconomics",
+    "pos": "noun",
+    "meaning_zh": "宏观经济学"
+  },
+  {
+    "word": "architectural",
+    "pos": "adjective",
+    "meaning_zh": "建筑的"
+  },
+  {
+    "word": "microeconomic",
+    "pos": "adjective",
+    "meaning_zh": "微观经济的"
+  },
+  {
+    "word": "in the course of",
+    "pos": "prep. phr",
+    "meaning_zh": "在……期间"
+  },
+  {
+    "word": "constitutional right",
+    "pos": "noun",
+    "meaning_zh": "宪法权利"
+  },
+  {
+    "word": "counterproductive",
+    "pos": "adjective",
+    "meaning_zh": "adj. 适得其反的，产生相反效果的"
+  },
+  {
+    "word": "cannon",
+    "pos": "noun",
+    "meaning_zh": "n. 大炮，火炮"
+  },
+  {
+    "word": "infrared",
+    "pos": "adjective",
+    "meaning_zh": "红外线的"
+  },
+  {
+    "word": "cyclone",
+    "pos": "noun",
+    "meaning_zh": "气旋"
+  },
+  {
+    "word": "encompass",
+    "pos": "vt",
+    "meaning_zh": "包含"
+  },
+  {
+    "word": "paleontologist",
+    "pos": "noun",
+    "meaning_zh": "古生物学家"
+  },
+  {
+    "word": "embed",
+    "pos": "vt",
+    "meaning_zh": "v. 把…嵌入"
+  },
+  {
+    "word": "ambivalence",
+    "pos": "noun",
+    "meaning_zh": "矛盾情绪"
+  },
+  {
+    "word": "doppler effect",
+    "pos": "noun",
+    "meaning_zh": "多普勒效应"
+  },
+  {
+    "word": "rock formation",
+    "pos": "noun",
+    "meaning_zh": "岩体"
+  },
+  {
+    "word": "senescence",
+    "pos": "noun",
+    "meaning_zh": "衰老"
+  },
+  {
+    "word": "protract",
+    "pos": "verb",
+    "meaning_zh": "延长"
+  },
+  {
+    "word": "megalithic",
+    "pos": "adjective",
+    "meaning_zh": "巨石的"
+  },
+  {
+    "word": "confidence interval",
+    "pos": "noun",
+    "meaning_zh": "置信区间"
+  },
+  {
+    "word": "cybersecurity",
+    "pos": "noun",
+    "meaning_zh": "网络安全"
+  },
+  {
+    "word": "on the other hand",
+    "pos": "adv. phr",
+    "meaning_zh": "另一方面"
+  },
+  {
+    "word": "extinct",
+    "pos": "adjective",
+    "meaning_zh": "灭绝的"
+  },
+  {
+    "word": "in comparison",
+    "pos": "adv. phr",
+    "meaning_zh": "比较起来"
+  },
+  {
+    "word": "brood",
+    "pos": "verb",
+    "meaning_zh": "v. 长时间闷闷地想"
+  },
+  {
+    "word": "altimeter",
+    "pos": "noun",
+    "meaning_zh": "测高仪"
+  },
+  {
+    "word": "fortitude",
+    "pos": "noun",
+    "meaning_zh": "坚毅"
+  },
+  {
+    "word": "organismic",
+    "pos": "adjective",
+    "meaning_zh": "有机整体的"
+  },
+  {
+    "word": "genetic",
+    "pos": "adjective",
+    "meaning_zh": "遗传的"
+  },
+  {
+    "word": "plankton",
+    "pos": "noun",
+    "meaning_zh": "浮游生物（随水漂流、不能自主逆流的微小动植物的总称）"
+  },
+  {
+    "word": "nonchalance",
+    "pos": "noun",
+    "meaning_zh": "满不在乎"
+  },
+  {
+    "word": "migration",
+    "pos": "noun",
+    "meaning_zh": "迁移"
+  },
+  {
+    "word": "be consistent with",
+    "pos": "v. phr",
+    "meaning_zh": "与……一致"
+  },
+  {
+    "word": "thunderstorm",
+    "pos": "noun",
+    "meaning_zh": "雷暴"
+  },
+  {
+    "word": "ascend",
+    "pos": "verb",
+    "meaning_zh": "v. 攀登"
+  },
+  {
+    "word": "sustainable development",
+    "pos": "noun",
+    "meaning_zh": "可持续发展"
+  },
+  {
+    "word": "circa",
+    "pos": "preposition",
+    "meaning_zh": "prep./adv. 大约（用于年代或数量，尤见于学术与展签）"
+  },
+  {
+    "word": "brittle",
+    "pos": "adjective",
+    "meaning_zh": "脆的，易碎的"
+  },
+  {
+    "word": "ape",
+    "pos": "noun",
+    "meaning_zh": "n. 猿"
+  },
+  {
+    "word": "equivocate",
+    "pos": "verb",
+    "meaning_zh": "含糊其辞"
+  },
+  {
+    "word": "bald",
+    "pos": "adjective",
+    "meaning_zh": "adj. 秃头的"
+  },
+  {
+    "word": "abash",
+    "pos": "vt",
+    "meaning_zh": "使困窘"
+  },
+  {
+    "word": "selective",
+    "pos": "adjective",
+    "meaning_zh": "有选择性的"
+  },
+  {
+    "word": "geological age",
+    "pos": "noun",
+    "meaning_zh": "地质年代"
+  },
+  {
+    "word": "breakthrough",
+    "pos": "noun",
+    "meaning_zh": "突破"
+  },
+  {
+    "word": "oligopolistic",
+    "pos": "adjective",
+    "meaning_zh": "寡头垄断的"
+  },
+  {
+    "word": "national income",
+    "pos": "noun",
+    "meaning_zh": "国民收入"
+  },
+  {
+    "word": "population growth",
+    "pos": "noun",
+    "meaning_zh": "人口增长"
+  },
+  {
+    "word": "blood vessel",
+    "pos": "noun",
+    "meaning_zh": "血管"
+  },
+  {
+    "word": "logistics",
+    "pos": "noun",
+    "meaning_zh": "物流"
+  },
+  {
+    "word": "counterpart",
+    "pos": "noun",
+    "meaning_zh": "n. 对应的人或物"
+  },
+  {
+    "word": "adaption",
+    "pos": "noun",
+    "meaning_zh": "适应"
+  },
+  {
+    "word": "antibiotic",
+    "pos": "noun",
+    "meaning_zh": "抗生素"
+  },
+  {
+    "word": "pricing",
+    "pos": "noun",
+    "meaning_zh": "定价"
+  },
+  {
+    "word": "reading",
+    "pos": "noun",
+    "meaning_zh": "阅读"
+  },
+  {
+    "word": "baroque",
+    "pos": "adjective",
+    "meaning_zh": "形容词：巴洛克风格的（十七世纪繁复华丽）"
+  },
+  {
+    "word": "courtesy",
+    "pos": "noun",
+    "meaning_zh": "n. 礼貌，谦恭"
+  },
+  {
+    "word": "countless",
+    "pos": "adjective",
+    "meaning_zh": "adj. 无数的，数不清的"
+  },
+  {
+    "word": "vibration",
+    "pos": "noun",
+    "meaning_zh": "振动"
+  },
+  {
+    "word": "committed",
+    "pos": "adjective",
+    "meaning_zh": "尽心投入的"
+  },
+  {
+    "word": "knowledgeable",
+    "pos": "adjective",
+    "meaning_zh": "知识渊博的"
+  },
+  {
+    "word": "domesticate",
+    "pos": "verb",
+    "meaning_zh": "驯化"
+  },
+  {
+    "word": "liberation",
+    "pos": "noun",
+    "meaning_zh": "解放"
+  },
+  {
+    "word": "acceleration",
+    "pos": "noun",
+    "meaning_zh": "加速"
+  },
+  {
+    "word": "bleach",
+    "pos": "verb",
+    "meaning_zh": "v. 漂白，使变白"
+  },
+  {
+    "word": "puncture",
+    "pos": "verb",
+    "meaning_zh": "刺破"
+  },
+  {
+    "word": "composite",
+    "pos": "adjective",
+    "meaning_zh": "adj. 合成的，复合的 n. 合成物"
+  },
+  {
+    "word": "pomposity",
+    "pos": "noun",
+    "meaning_zh": "浮夸"
+  },
+  {
+    "word": "accouter",
+    "pos": "vt",
+    "meaning_zh": "装备"
+  },
+  {
+    "word": "accompanist",
+    "pos": "noun",
+    "meaning_zh": "伴奏者"
+  },
+  {
+    "word": "clarinet",
+    "pos": "noun",
+    "meaning_zh": "n. 单簧管，黑管"
+  },
+  {
+    "word": "avenge",
+    "pos": "verb",
+    "meaning_zh": "v. 为（他人或自己所受的伤害）报仇"
+  },
+  {
+    "word": "air mass",
+    "pos": "noun",
+    "meaning_zh": "气团"
+  },
+  {
+    "word": "abject",
+    "pos": "adjective",
+    "meaning_zh": "卑贱的"
+  },
+  {
+    "word": "download",
+    "pos": "verb",
+    "meaning_zh": "v. 下载"
+  },
+  {
+    "word": "aesthetician",
+    "pos": "noun",
+    "meaning_zh": "美容师"
+  },
+  {
+    "word": "elucidate",
+    "pos": "vt",
+    "meaning_zh": "v. 阐明"
+  },
+  {
+    "word": "downfall",
+    "pos": "noun",
+    "meaning_zh": "n. 垮台"
+  },
+  {
+    "word": "composition",
+    "pos": "noun",
+    "meaning_zh": "组成"
+  },
+  {
+    "word": "r&d",
+    "pos": "noun",
+    "meaning_zh": "研发（研究与开发的缩写）"
+  },
+  {
+    "word": "donate",
+    "pos": "verb",
+    "meaning_zh": "v. 捐赠"
+  },
+  {
+    "word": "anthropoid",
+    "pos": "noun",
+    "meaning_zh": "类人猿"
+  },
+  {
+    "word": "alkaloid",
+    "pos": "noun",
+    "meaning_zh": "生物碱"
+  },
+  {
+    "word": "raincoat",
+    "pos": "noun",
+    "meaning_zh": "雨衣"
+  },
+  {
+    "word": "be subject to",
+    "pos": "adj. phr",
+    "meaning_zh": "受制于"
+  },
+  {
+    "word": "interdependence",
+    "pos": "noun",
+    "meaning_zh": "相互依赖"
+  },
+  {
+    "word": "competitive advantage",
+    "pos": "noun",
+    "meaning_zh": "竞争优势"
+  },
+  {
+    "word": "bravery",
+    "pos": "noun",
+    "meaning_zh": "n. 勇敢，勇气"
+  },
+  {
+    "word": "advisor",
+    "pos": "noun",
+    "meaning_zh": "顾问"
+  },
+  {
+    "word": "regulatory",
+    "pos": "adjective",
+    "meaning_zh": "监管的"
+  },
+  {
+    "word": "citizenship",
+    "pos": "noun",
+    "meaning_zh": "公民身份"
+  },
+  {
+    "word": "lagoon",
+    "pos": "noun",
+    "meaning_zh": "潟湖"
+  },
+  {
+    "word": "rattlesnake",
+    "pos": "noun",
+    "meaning_zh": "响尾蛇"
+  },
+  {
+    "word": "rainfall pattern",
+    "pos": "noun",
+    "meaning_zh": "降雨格局"
+  },
+  {
+    "word": "iconoclast",
+    "pos": "noun",
+    "meaning_zh": "反传统者"
+  },
+  {
+    "word": "global market",
+    "pos": "noun",
+    "meaning_zh": "全球市场"
+  },
+  {
+    "word": "antiquarian",
+    "pos": "noun",
+    "meaning_zh": "古物收藏家"
+  },
+  {
+    "word": "in turn",
+    "pos": "adv. phr",
+    "meaning_zh": "依次、轮流"
+  },
+  {
+    "word": "badge",
+    "pos": "noun",
+    "meaning_zh": "n. 徽章"
+  },
+  {
+    "word": "water conservation",
+    "pos": "noun",
+    "meaning_zh": "水资源保护"
+  },
+  {
+    "word": "adherent",
+    "pos": "noun",
+    "meaning_zh": "拥护者"
+  },
+  {
+    "word": "periodically",
+    "pos": "adverb",
+    "meaning_zh": "定期地"
+  },
+  {
+    "word": "supply chain",
+    "pos": "noun",
+    "meaning_zh": "供应链"
+  },
+  {
+    "word": "cookery",
+    "pos": "noun",
+    "meaning_zh": "n. 烹调术，烹饪"
+  },
+  {
+    "word": "paltry",
+    "pos": "adjective",
+    "meaning_zh": "微不足道的"
+  },
+  {
+    "word": "scarcity",
+    "pos": "noun",
+    "meaning_zh": "短缺"
+  },
+  {
+    "word": "layering",
+    "pos": "noun",
+    "meaning_zh": "分层"
+  },
+  {
+    "word": "elapse",
+    "pos": "verb",
+    "meaning_zh": "v. （时间）消逝"
+  },
+  {
+    "word": "cramp",
+    "pos": "noun",
+    "meaning_zh": "n. 抽筋，痉挛"
+  },
+  {
+    "word": "apathy",
+    "pos": "noun",
+    "meaning_zh": "n. 冷漠"
+  },
+  {
+    "word": "derivation",
+    "pos": "noun",
+    "meaning_zh": "起源"
+  },
+  {
+    "word": "clad",
+    "pos": "adjective",
+    "meaning_zh": "adj. 穿着…衣服的"
+  },
+  {
+    "word": "expected",
+    "pos": "adjective",
+    "meaning_zh": "预料之中的"
+  },
+  {
+    "word": "tomb",
+    "pos": "noun",
+    "meaning_zh": "坟墓"
+  },
+  {
+    "word": "afforestation",
+    "pos": "noun",
+    "meaning_zh": "造林"
+  },
+  {
+    "word": "marine sediment",
+    "pos": "noun",
+    "meaning_zh": "海洋沉积物"
+  },
+  {
+    "word": "barbecue",
+    "pos": "noun",
+    "meaning_zh": "名词：烤架"
+  },
+  {
+    "word": "avail",
+    "pos": "verb",
+    "meaning_zh": "v. 有益于"
+  },
+  {
+    "word": "enthusiast",
+    "pos": "noun",
+    "meaning_zh": "热衷者"
+  },
+  {
+    "word": "anthology",
+    "pos": "noun",
+    "meaning_zh": "选集"
+  },
+  {
+    "word": "as a result",
+    "pos": "adv. phr",
+    "meaning_zh": "结果、因此"
+  },
+  {
+    "word": "genomic",
+    "pos": "adjective",
+    "meaning_zh": "基因组的"
+  },
+  {
+    "word": "episodic",
+    "pos": "adjective",
+    "meaning_zh": "分集的"
+  },
+  {
     "word": "recur",
     "pos": "verb",
     "meaning_zh": "再次发生"
@@ -8,16 +2208,6 @@
     "word": "connivance",
     "pos": "noun",
     "meaning_zh": "n. 默许，纵容"
-  },
-  {
-    "word": "categorize",
-    "pos": "vt",
-    "meaning_zh": "把……归类"
-  },
-  {
-    "word": "antenna",
-    "pos": "noun",
-    "meaning_zh": "触角"
   },
   {
     "word": "equilibrium",
@@ -30,11 +2220,6 @@
     "meaning_zh": "共振"
   },
   {
-    "word": "exacerbation",
-    "pos": "noun",
-    "meaning_zh": "恶化"
-  },
-  {
     "word": "trivial",
     "pos": "adjective",
     "meaning_zh": "微不足道的"
@@ -45,19 +2230,9 @@
     "meaning_zh": "持不同政见者"
   },
   {
-    "word": "socialize",
-    "pos": "verb",
-    "meaning_zh": "交往"
-  },
-  {
     "word": "dizzy",
     "pos": "adjective",
     "meaning_zh": "adj. 眩晕的"
-  },
-  {
-    "word": "crook",
-    "pos": "noun",
-    "meaning_zh": "n. 骗子，罪犯"
   },
   {
     "word": "temporal",
@@ -70,39 +2245,14 @@
     "meaning_zh": "灾难性的"
   },
   {
-    "word": "forgetting",
-    "pos": "noun",
-    "meaning_zh": "遗忘"
-  },
-  {
-    "word": "alacrity",
-    "pos": "noun",
-    "meaning_zh": "敏捷"
-  },
-  {
     "word": "arc",
     "pos": "noun",
     "meaning_zh": "n. 弧，弧线"
   },
   {
-    "word": "undermine",
-    "pos": "verb",
-    "meaning_zh": "削弱"
-  },
-  {
     "word": "civil society",
     "pos": "noun",
     "meaning_zh": "公民社会"
-  },
-  {
-    "word": "continental shelf",
-    "pos": "noun",
-    "meaning_zh": "大陆架"
-  },
-  {
-    "word": "distinctive",
-    "pos": "adjective",
-    "meaning_zh": "独特的"
   },
   {
     "word": "mitigate",
@@ -120,16 +2270,6 @@
     "meaning_zh": "系统地"
   },
   {
-    "word": "compression",
-    "pos": "noun",
-    "meaning_zh": "压缩"
-  },
-  {
-    "word": "baleful",
-    "pos": "adjective",
-    "meaning_zh": "有害的"
-  },
-  {
     "word": "bumblebee",
     "pos": "noun",
     "meaning_zh": "n. 大黄蜂，熊蜂"
@@ -140,34 +2280,9 @@
     "meaning_zh": "停火"
   },
   {
-    "word": "foliage",
-    "pos": "noun",
-    "meaning_zh": "叶子（总称）"
-  },
-  {
     "word": "air current",
     "pos": "noun",
     "meaning_zh": "气流"
-  },
-  {
-    "word": "stressful",
-    "pos": "adjective",
-    "meaning_zh": "压力大的"
-  },
-  {
-    "word": "departmental",
-    "pos": "adjective",
-    "meaning_zh": "adj. 部门的"
-  },
-  {
-    "word": "mating",
-    "pos": "noun",
-    "meaning_zh": "交配"
-  },
-  {
-    "word": "ascent",
-    "pos": "noun",
-    "meaning_zh": "上升"
   },
   {
     "word": "electromagnetic spectrum",
@@ -175,29 +2290,9 @@
     "meaning_zh": "电磁波谱"
   },
   {
-    "word": "adapt to",
-    "pos": "phr",
-    "meaning_zh": "适应"
-  },
-  {
     "word": "el niño",
     "pos": "noun",
     "meaning_zh": "厄尔尼诺"
-  },
-  {
-    "word": "enhancer",
-    "pos": "noun",
-    "meaning_zh": "n. 增强剂"
-  },
-  {
-    "word": "compile",
-    "pos": "verb",
-    "meaning_zh": "编纂"
-  },
-  {
-    "word": "auditor",
-    "pos": "noun",
-    "meaning_zh": "审计师"
   },
   {
     "word": "conducive",
@@ -205,64 +2300,9 @@
     "meaning_zh": "有助于……的"
   },
   {
-    "word": "hydrology",
-    "pos": "noun",
-    "meaning_zh": "水文学"
-  },
-  {
-    "word": "bask",
-    "pos": "vi",
-    "meaning_zh": "晒太阳取暖"
-  },
-  {
-    "word": "determined",
-    "pos": "adjective",
-    "meaning_zh": "下定决心的"
-  },
-  {
-    "word": "bygone",
-    "pos": "adjective",
-    "meaning_zh": "过去的"
-  },
-  {
-    "word": "adjunct",
-    "pos": "noun",
-    "meaning_zh": "附属物"
-  },
-  {
     "word": "trade agreement",
     "pos": "noun",
     "meaning_zh": "贸易协定"
-  },
-  {
-    "word": "prediction",
-    "pos": "noun",
-    "meaning_zh": "预测"
-  },
-  {
-    "word": "academic achievement",
-    "pos": "noun",
-    "meaning_zh": "学业成就"
-  },
-  {
-    "word": "confederacy",
-    "pos": "noun",
-    "meaning_zh": "n. 联盟，邦联"
-  },
-  {
-    "word": "speciation",
-    "pos": "noun",
-    "meaning_zh": "物种形成"
-  },
-  {
-    "word": "elemental",
-    "pos": "adjective",
-    "meaning_zh": "元素的"
-  },
-  {
-    "word": "marginal",
-    "pos": "adjective",
-    "meaning_zh": "页边的"
   },
   {
     "word": "texture",
@@ -290,44 +2330,14 @@
     "meaning_zh": "五重奏"
   },
   {
-    "word": "soil horizon",
-    "pos": "noun",
-    "meaning_zh": "土壤发生层"
-  },
-  {
-    "word": "amorous",
-    "pos": "adjective",
-    "meaning_zh": "含情脉脉的"
-  },
-  {
-    "word": "industrialization",
-    "pos": "noun",
-    "meaning_zh": "工业化"
-  },
-  {
     "word": "bacillus",
     "pos": "noun",
     "meaning_zh": "n. 杆菌"
   },
   {
-    "word": "self-control",
-    "pos": "noun",
-    "meaning_zh": "自我控制"
-  },
-  {
-    "word": "foreign exchange",
-    "pos": "noun",
-    "meaning_zh": "外汇"
-  },
-  {
     "word": "efficacy",
     "pos": "noun",
     "meaning_zh": "n. 功效"
-  },
-  {
-    "word": "literacy",
-    "pos": "noun",
-    "meaning_zh": "读写能力"
   },
   {
     "word": "in accordance with",
@@ -348,41 +2358,6 @@
     "word": "seedling",
     "pos": "noun",
     "meaning_zh": "幼苗"
-  },
-  {
-    "word": "nation-state",
-    "pos": "noun",
-    "meaning_zh": "民族国家"
-  },
-  {
-    "word": "correspondingly",
-    "pos": "adverb",
-    "meaning_zh": "相应地"
-  },
-  {
-    "word": "compassionate",
-    "pos": "adjective",
-    "meaning_zh": "有同情心的"
-  },
-  {
-    "word": "pedagogy",
-    "pos": "noun",
-    "meaning_zh": "教育学"
-  },
-  {
-    "word": "biographer",
-    "pos": "noun",
-    "meaning_zh": "n. 传记作者，传记作家"
-  },
-  {
-    "word": "painting",
-    "pos": "noun",
-    "meaning_zh": "绘画"
-  },
-  {
-    "word": "aquatic",
-    "pos": "adjective",
-    "meaning_zh": "水生的"
   },
   {
     "word": "elation",
@@ -415,16 +2390,6 @@
     "meaning_zh": "情感的"
   },
   {
-    "word": "naturalistic",
-    "pos": "adjective",
-    "meaning_zh": "自然主义的"
-  },
-  {
-    "word": "bucolic",
-    "pos": "adjective",
-    "meaning_zh": "田园风情的"
-  },
-  {
     "word": "precipitation",
     "pos": "noun",
     "meaning_zh": "降水"
@@ -440,29 +2405,14 @@
     "meaning_zh": "技术的"
   },
   {
-    "word": "transpiration",
-    "pos": "noun",
-    "meaning_zh": "蒸腾作用"
-  },
-  {
     "word": "cricket",
     "pos": "noun",
     "meaning_zh": "n. 蟋蟀"
   },
   {
-    "word": "associative",
-    "pos": "adjective",
-    "meaning_zh": "联想的"
-  },
-  {
     "word": "aerolite",
     "pos": "noun",
     "meaning_zh": "石陨石"
-  },
-  {
-    "word": "assurance",
-    "pos": "noun",
-    "meaning_zh": "保证"
   },
   {
     "word": "galactic",
@@ -475,6 +2425,11 @@
     "meaning_zh": "遗传"
   },
   {
+    "word": "defendant",
+    "pos": "noun",
+    "meaning_zh": "被告"
+  },
+  {
     "word": "enrich",
     "pos": "verb",
     "meaning_zh": "充实"
@@ -485,21 +2440,6 @@
     "meaning_zh": "牵涉"
   },
   {
-    "word": "crossword",
-    "pos": "noun",
-    "meaning_zh": "n. 填字游戏"
-  },
-  {
-    "word": "inclined",
-    "pos": "adjective",
-    "meaning_zh": "倾向于……的"
-  },
-  {
-    "word": "conqueror",
-    "pos": "noun",
-    "meaning_zh": "征服者"
-  },
-  {
     "word": "research and development",
     "pos": "noun",
     "meaning_zh": "研究与开发"
@@ -508,11 +2448,6 @@
     "word": "dock",
     "pos": "noun",
     "meaning_zh": "n. 码头"
-  },
-  {
-    "word": "legislate",
-    "pos": "verb",
-    "meaning_zh": "立法"
   },
   {
     "word": "carry out",
@@ -545,11 +2480,6 @@
     "meaning_zh": "渗透性"
   },
   {
-    "word": "to some extent",
-    "pos": "adv. phr",
-    "meaning_zh": "在一定程度上"
-  },
-  {
     "word": "cafeteria",
     "pos": "noun",
     "meaning_zh": "n. 自助餐厅，食堂（学校、公司等内部）"
@@ -575,11 +2505,6 @@
     "meaning_zh": "v. 核对，校勘"
   },
   {
-    "word": "marketplace",
-    "pos": "noun",
-    "meaning_zh": "集市"
-  },
-  {
     "word": "disseminate",
     "pos": "verb",
     "meaning_zh": "v. 传播"
@@ -600,29 +2525,9 @@
     "meaning_zh": "线粒体的"
   },
   {
-    "word": "meridian",
-    "pos": "noun",
-    "meaning_zh": "子午线"
-  },
-  {
-    "word": "birch",
-    "pos": "noun",
-    "meaning_zh": "桦树"
-  },
-  {
-    "word": "insurer",
-    "pos": "noun",
-    "meaning_zh": "保险人"
-  },
-  {
     "word": "erroneously",
     "pos": "adverb",
     "meaning_zh": "错误地"
-  },
-  {
-    "word": "conserve",
-    "pos": "vt",
-    "meaning_zh": "保存"
   },
   {
     "word": "freshwater",
@@ -630,19 +2535,9 @@
     "meaning_zh": "淡水"
   },
   {
-    "word": "computational",
-    "pos": "adjective",
-    "meaning_zh": "计算的"
-  },
-  {
-    "word": "angelic",
-    "pos": "adjective",
-    "meaning_zh": "天使般的"
-  },
-  {
-    "word": "profitability",
+    "word": "monopoly",
     "pos": "noun",
-    "meaning_zh": "盈利能力"
+    "meaning_zh": "垄断"
   },
   {
     "word": "pathological",
@@ -650,24 +2545,9 @@
     "meaning_zh": "病理的"
   },
   {
-    "word": "larva",
-    "pos": "noun",
-    "meaning_zh": "幼虫"
-  },
-  {
-    "word": "alternate",
-    "pos": "verb",
-    "meaning_zh": "交替"
-  },
-  {
     "word": "pyrite",
     "pos": "noun",
     "meaning_zh": "黄铁矿"
-  },
-  {
-    "word": "controvert",
-    "pos": "verb",
-    "meaning_zh": "v. 驳斥，反驳"
   },
   {
     "word": "sensation",
@@ -680,11 +2560,6 @@
     "meaning_zh": "迁移模式"
   },
   {
-    "word": "aggrandize",
-    "pos": "vt",
-    "meaning_zh": "扩大"
-  },
-  {
     "word": "dizziness",
     "pos": "noun",
     "meaning_zh": "n. 眩晕"
@@ -693,11 +2568,6 @@
     "word": "fault line",
     "pos": "noun",
     "meaning_zh": "断层线"
-  },
-  {
-    "word": "botany",
-    "pos": "noun",
-    "meaning_zh": "植物学"
   },
   {
     "word": "mitochondrion",
@@ -710,11 +2580,6 @@
     "meaning_zh": "磨损"
   },
   {
-    "word": "vault",
-    "pos": "noun",
-    "meaning_zh": "拱顶"
-  },
-  {
     "word": "coherent",
     "pos": "adjective",
     "meaning_zh": "连贯的"
@@ -725,69 +2590,14 @@
     "meaning_zh": "adj. 神的"
   },
   {
-    "word": "fabricate",
-    "pos": "verb",
-    "meaning_zh": "制造"
-  },
-  {
-    "word": "dexterous",
-    "pos": "adjective",
-    "meaning_zh": "adj. 灵巧的"
-  },
-  {
     "word": "carpool",
     "pos": "noun",
     "meaning_zh": "n. 拼车，合用汽车"
   },
   {
-    "word": "enormously",
-    "pos": "adverb",
-    "meaning_zh": "adv. 极其"
-  },
-  {
     "word": "macroeconomic",
     "pos": "adjective",
     "meaning_zh": "宏观经济的"
-  },
-  {
-    "word": "cuttlefish",
-    "pos": "noun",
-    "meaning_zh": "n. 乌贼"
-  },
-  {
-    "word": "earphone",
-    "pos": "noun",
-    "meaning_zh": "n. 耳机"
-  },
-  {
-    "word": "legislature",
-    "pos": "noun",
-    "meaning_zh": "立法机关"
-  },
-  {
-    "word": "canyon",
-    "pos": "noun",
-    "meaning_zh": "峡谷"
-  },
-  {
-    "word": "numerical",
-    "pos": "adjective",
-    "meaning_zh": "数字的"
-  },
-  {
-    "word": "preservative",
-    "pos": "noun",
-    "meaning_zh": "防腐剂"
-  },
-  {
-    "word": "fabrication",
-    "pos": "noun",
-    "meaning_zh": "把材料切割、成形并装配成构件的过程"
-  },
-  {
-    "word": "astrology",
-    "pos": "noun",
-    "meaning_zh": "n. 占星术（以天体位置推断人事的信仰体系）"
   },
   {
     "word": "subjectivity",
@@ -815,11 +2625,6 @@
     "meaning_zh": "穹顶"
   },
   {
-    "word": "abound",
-    "pos": "vi",
-    "meaning_zh": "大量存在"
-  },
-  {
     "word": "rigorous",
     "pos": "adjective",
     "meaning_zh": "严格的"
@@ -828,16 +2633,6 @@
     "word": "magnitude",
     "pos": "noun",
     "meaning_zh": "巨大"
-  },
-  {
-    "word": "binomial nomenclature",
-    "pos": "n. phr",
-    "meaning_zh": "双名命名法"
-  },
-  {
-    "word": "temperature regulation",
-    "pos": "noun",
-    "meaning_zh": "体温调节"
   },
   {
     "word": "aeration",
@@ -855,24 +2650,14 @@
     "meaning_zh": "磨难"
   },
   {
-    "word": "corroborate",
-    "pos": "vt",
-    "meaning_zh": "证实"
-  },
-  {
-    "word": "electrical engineering",
-    "pos": "noun",
-    "meaning_zh": "研究电与电磁现象，并设计发电、输电、配电及各类电气设备的工程学科"
-  },
-  {
-    "word": "disarmament",
-    "pos": "noun",
-    "meaning_zh": "n. 裁军"
-  },
-  {
     "word": "dataset",
     "pos": "noun",
     "meaning_zh": "数据集"
+  },
+  {
+    "word": "embargo",
+    "pos": "noun",
+    "meaning_zh": "n. 禁运"
   },
   {
     "word": "averse",
@@ -880,49 +2665,9 @@
     "meaning_zh": "反对的"
   },
   {
-    "word": "amenity",
-    "pos": "noun",
-    "meaning_zh": "便利设施"
-  },
-  {
-    "word": "deduction",
-    "pos": "noun",
-    "meaning_zh": "推论"
-  },
-  {
-    "word": "climate reconstruction",
-    "pos": "noun",
-    "meaning_zh": "气候重建"
-  },
-  {
-    "word": "geothermal",
-    "pos": "adjective",
-    "meaning_zh": "地热的（与地球内部热量有关的，尤指可用来发电或供暖的地下热能）"
-  },
-  {
     "word": "comprehend",
     "pos": "vt",
     "meaning_zh": "理解"
-  },
-  {
-    "word": "statistician",
-    "pos": "noun",
-    "meaning_zh": "统计学家"
-  },
-  {
-    "word": "conditioning",
-    "pos": "noun",
-    "meaning_zh": "条件作用"
-  },
-  {
-    "word": "detach",
-    "pos": "verb",
-    "meaning_zh": "v. 分离"
-  },
-  {
-    "word": "immunology",
-    "pos": "noun",
-    "meaning_zh": "免疫学"
   },
   {
     "word": "everlasting",
@@ -940,54 +2685,14 @@
     "meaning_zh": "光度"
   },
   {
-    "word": "contention",
-    "pos": "noun",
-    "meaning_zh": "n. 争论，争执"
-  },
-  {
-    "word": "synthesis",
-    "pos": "noun",
-    "meaning_zh": "综合"
-  },
-  {
-    "word": "anterior",
-    "pos": "adjective",
-    "meaning_zh": "前面的"
-  },
-  {
     "word": "control group",
     "pos": "noun",
     "meaning_zh": "对照组"
   },
   {
-    "word": "abortive",
-    "pos": "adjective",
-    "meaning_zh": "不成功的"
-  },
-  {
-    "word": "verbal",
-    "pos": "adjective",
-    "meaning_zh": "口头的"
-  },
-  {
-    "word": "uprising",
-    "pos": "noun",
-    "meaning_zh": "起义"
-  },
-  {
-    "word": "ph",
-    "pos": "noun",
-    "meaning_zh": "酸碱度"
-  },
-  {
     "word": "virtualization",
     "pos": "noun",
     "meaning_zh": "虚拟化"
-  },
-  {
-    "word": "scientific law",
-    "pos": "noun",
-    "meaning_zh": "科学定律"
   },
   {
     "word": "dispenser",
@@ -1000,24 +2705,9 @@
     "meaning_zh": "创造力"
   },
   {
-    "word": "acrobat",
-    "pos": "noun",
-    "meaning_zh": "杂技演员"
-  },
-  {
-    "word": "social value",
-    "pos": "noun",
-    "meaning_zh": "社会价值"
-  },
-  {
     "word": "geographical",
     "pos": "adjective",
     "meaning_zh": "地理的"
-  },
-  {
-    "word": "anathema",
-    "pos": "noun",
-    "meaning_zh": "令人憎恶的事物"
   },
   {
     "word": "metabolize",
@@ -1030,34 +2720,14 @@
     "meaning_zh": "贪得的"
   },
   {
-    "word": "gravitation",
+    "word": "bankruptcy",
     "pos": "noun",
-    "meaning_zh": "引力"
-  },
-  {
-    "word": "assignee",
-    "pos": "noun",
-    "meaning_zh": "受让人"
-  },
-  {
-    "word": "demise",
-    "pos": "noun",
-    "meaning_zh": "n. 死亡"
+    "meaning_zh": "破产（无力清偿债务的法律状态或司法程序）"
   },
   {
     "word": "restoration",
     "pos": "noun",
     "meaning_zh": "修复"
-  },
-  {
-    "word": "gdp",
-    "pos": "noun",
-    "meaning_zh": "国内生产总值（缩写）"
-  },
-  {
-    "word": "overfishing",
-    "pos": "noun",
-    "meaning_zh": "过度捕捞"
   },
   {
     "word": "germination",
@@ -1080,24 +2750,14 @@
     "meaning_zh": "通奸"
   },
   {
-    "word": "subspecies",
-    "pos": "noun",
-    "meaning_zh": "亚种"
-  },
-  {
-    "word": "anesthetic",
-    "pos": "noun",
-    "meaning_zh": "麻醉剂"
-  },
-  {
     "word": "reconstruction",
     "pos": "noun",
     "meaning_zh": "重建"
   },
   {
-    "word": "complementary",
-    "pos": "adjective",
-    "meaning_zh": "adj. 互补的"
+    "word": "nutrition",
+    "pos": "noun",
+    "meaning_zh": "营养"
   },
   {
     "word": "apace",
@@ -1113,11 +2773,6 @@
     "word": "clod",
     "pos": "noun",
     "meaning_zh": "n. 土块，泥块"
-  },
-  {
-    "word": "component design",
-    "pos": "noun",
-    "meaning_zh": "对整机或系统中的单个零件、元件进行形状、尺寸、材料与公差设计的工作"
   },
   {
     "word": "crave",
@@ -1140,84 +2795,14 @@
     "meaning_zh": "恐高症"
   },
   {
-    "word": "empathetic",
-    "pos": "adjective",
-    "meaning_zh": "有共情力的"
-  },
-  {
-    "word": "accomplice",
-    "pos": "noun",
-    "meaning_zh": "共犯"
-  },
-  {
-    "word": "aggravation",
-    "pos": "noun",
-    "meaning_zh": "恶化"
-  },
-  {
-    "word": "conduction",
-    "pos": "noun",
-    "meaning_zh": "传导"
-  },
-  {
-    "word": "self-awareness",
-    "pos": "noun",
-    "meaning_zh": "自我意识"
-  },
-  {
     "word": "remediation",
     "pos": "noun",
     "meaning_zh": "修复"
   },
   {
-    "word": "conceptual framework",
-    "pos": "noun",
-    "meaning_zh": "概念框架"
-  },
-  {
-    "word": "individualistic",
-    "pos": "adjective",
-    "meaning_zh": "个人主义的"
-  },
-  {
-    "word": "cater",
-    "pos": "verb",
-    "meaning_zh": "v. 为活动提供饮食"
-  },
-  {
-    "word": "impulse",
-    "pos": "noun",
-    "meaning_zh": "冲动"
-  },
-  {
     "word": "reciprocity",
     "pos": "noun",
     "meaning_zh": "互惠"
-  },
-  {
-    "word": "callosity",
-    "pos": "noun",
-    "meaning_zh": "（皮肤的）老茧"
-  },
-  {
-    "word": "civilized",
-    "pos": "adjective",
-    "meaning_zh": "文明的"
-  },
-  {
-    "word": "formulate",
-    "pos": "vt",
-    "meaning_zh": "制定"
-  },
-  {
-    "word": "claustrophobia",
-    "pos": "noun",
-    "meaning_zh": "n. 幽闭恐惧症"
-  },
-  {
-    "word": "legislator",
-    "pos": "noun",
-    "meaning_zh": "立法者"
   },
   {
     "word": "arcade",
@@ -1228,11 +2813,6 @@
     "word": "salinity",
     "pos": "noun",
     "meaning_zh": "盐度"
-  },
-  {
-    "word": "bookrest",
-    "pos": "noun",
-    "meaning_zh": "n. 阅书架，读书架"
   },
   {
     "word": "cold front",
@@ -1248,6 +2828,11 @@
     "word": "plate tectonics",
     "pos": "noun",
     "meaning_zh": "板块构造学说"
+  },
+  {
+    "word": "metabolism",
+    "pos": "noun",
+    "meaning_zh": "新陈代谢"
   },
   {
     "word": "advocator",
@@ -1278,31 +2863,6 @@
     "word": "with respect to",
     "pos": "prep. phr",
     "meaning_zh": "关于"
-  },
-  {
-    "word": "reptilian",
-    "pos": "adjective",
-    "meaning_zh": "爬行动物的"
-  },
-  {
-    "word": "anarchy",
-    "pos": "noun",
-    "meaning_zh": "无政府状态"
-  },
-  {
-    "word": "parasitism",
-    "pos": "noun",
-    "meaning_zh": "寄生"
-  },
-  {
-    "word": "stabilize",
-    "pos": "verb",
-    "meaning_zh": "使稳定"
-  },
-  {
-    "word": "normal distribution",
-    "pos": "noun",
-    "meaning_zh": "正态分布"
   },
   {
     "word": "stability",
@@ -1340,44 +2900,14 @@
     "meaning_zh": "n. 旋转木马"
   },
   {
-    "word": "environmental policy",
-    "pos": "noun",
-    "meaning_zh": "环境政策"
-  },
-  {
     "word": "effusive",
     "pos": "adjective",
     "meaning_zh": "adj. 热情洋溢的"
   },
   {
-    "word": "wholesaler",
-    "pos": "noun",
-    "meaning_zh": "批发商"
-  },
-  {
     "word": "cinematographer",
     "pos": "noun",
     "meaning_zh": "n. 电影摄影师，摄影指导"
-  },
-  {
-    "word": "dedicate",
-    "pos": "verb",
-    "meaning_zh": "v. 把…献给"
-  },
-  {
-    "word": "astound",
-    "pos": "vt",
-    "meaning_zh": "使震惊"
-  },
-  {
-    "word": "outsource",
-    "pos": "verb",
-    "meaning_zh": "把（工作、工序、职能）外包"
-  },
-  {
-    "word": "descent",
-    "pos": "noun",
-    "meaning_zh": "n. 下降"
   },
   {
     "word": "heating",
@@ -1390,44 +2920,9 @@
     "meaning_zh": "市场结构"
   },
   {
-    "word": "didactic",
-    "pos": "adjective",
-    "meaning_zh": "adj. 说教的"
-  },
-  {
-    "word": "decompression",
-    "pos": "noun",
-    "meaning_zh": "n. 减压"
-  },
-  {
     "word": "harbor",
     "pos": "noun",
     "meaning_zh": "港口"
-  },
-  {
-    "word": "aggrieve",
-    "pos": "vt",
-    "meaning_zh": "使委屈"
-  },
-  {
-    "word": "enigma",
-    "pos": "noun",
-    "meaning_zh": "谜"
-  },
-  {
-    "word": "greenhouse effect",
-    "pos": "noun",
-    "meaning_zh": "温室效应"
-  },
-  {
-    "word": "comedian",
-    "pos": "noun",
-    "meaning_zh": "n. 喜剧演员"
-  },
-  {
-    "word": "auditorium",
-    "pos": "noun",
-    "meaning_zh": "礼堂"
   },
   {
     "word": "endangered",
@@ -1438,11 +2933,6 @@
     "word": "briefcase",
     "pos": "noun",
     "meaning_zh": "n. 公文包"
-  },
-  {
-    "word": "conductive",
-    "pos": "adjective",
-    "meaning_zh": "导电的"
   },
   {
     "word": "excavation trench",
@@ -1465,54 +2955,9 @@
     "meaning_zh": "n. 防波堤"
   },
   {
-    "word": "body language",
-    "pos": "noun",
-    "meaning_zh": "身体语言"
-  },
-  {
-    "word": "aboriginal",
-    "pos": "adjective",
-    "meaning_zh": "土著的"
-  },
-  {
     "word": "camouflage",
     "pos": "noun",
     "meaning_zh": "伪装"
-  },
-  {
-    "word": "artisan",
-    "pos": "noun",
-    "meaning_zh": "工匠"
-  },
-  {
-    "word": "bossy",
-    "pos": "adjective",
-    "meaning_zh": "adj. 爱发号施令的，专横的"
-  },
-  {
-    "word": "electoral",
-    "pos": "adjective",
-    "meaning_zh": "选举的"
-  },
-  {
-    "word": "waterfall",
-    "pos": "noun",
-    "meaning_zh": "瀑布"
-  },
-  {
-    "word": "promotional",
-    "pos": "adjective",
-    "meaning_zh": "促销的"
-  },
-  {
-    "word": "literacy rate",
-    "pos": "noun",
-    "meaning_zh": "识字率"
-  },
-  {
-    "word": "abate",
-    "pos": "vi",
-    "meaning_zh": "减弱"
   },
   {
     "word": "functional",
@@ -1530,16 +2975,6 @@
     "meaning_zh": "n. 可可粉"
   },
   {
-    "word": "constrain",
-    "pos": "vt",
-    "meaning_zh": "强迫"
-  },
-  {
-    "word": "primate",
-    "pos": "noun",
-    "meaning_zh": "灵长类动物"
-  },
-  {
     "word": "resource depletion",
     "pos": "noun",
     "meaning_zh": "资源枯竭"
@@ -1550,44 +2985,14 @@
     "meaning_zh": "n. 双筒望远镜（常用复数形式）"
   },
   {
-    "word": "mathematician",
-    "pos": "noun",
-    "meaning_zh": "数学家"
-  },
-  {
-    "word": "crystallization",
-    "pos": "noun",
-    "meaning_zh": "结晶"
-  },
-  {
-    "word": "complement",
-    "pos": "noun",
-    "meaning_zh": "补充物"
-  },
-  {
     "word": "paleontology",
     "pos": "noun",
     "meaning_zh": "古生物学"
   },
   {
-    "word": "textile art",
-    "pos": "noun",
-    "meaning_zh": "纺织艺术"
-  },
-  {
-    "word": "exoskeleton",
-    "pos": "noun",
-    "meaning_zh": "外骨骼"
-  },
-  {
     "word": "bait",
     "pos": "noun",
     "meaning_zh": "n. 饵"
-  },
-  {
-    "word": "imprisonment",
-    "pos": "noun",
-    "meaning_zh": "监禁"
   },
   {
     "word": "cucumber",
@@ -1610,16 +3015,6 @@
     "meaning_zh": "波长"
   },
   {
-    "word": "discontinue",
-    "pos": "verb",
-    "meaning_zh": "v. 停止"
-  },
-  {
-    "word": "bauxite",
-    "pos": "noun",
-    "meaning_zh": "铝土矿"
-  },
-  {
     "word": "watercolor",
     "pos": "noun",
     "meaning_zh": "水彩"
@@ -1628,21 +3023,6 @@
     "word": "annuity",
     "pos": "noun",
     "meaning_zh": "年金"
-  },
-  {
-    "word": "language acquisition",
-    "pos": "noun",
-    "meaning_zh": "语言习得"
-  },
-  {
-    "word": "accomplishment",
-    "pos": "noun",
-    "meaning_zh": "成就"
-  },
-  {
-    "word": "evidential",
-    "pos": "adjective",
-    "meaning_zh": "证据的"
   },
   {
     "word": "fossil",
@@ -1660,19 +3040,9 @@
     "meaning_zh": "向后靠"
   },
   {
-    "word": "personality trait",
-    "pos": "n. phrase",
-    "meaning_zh": "人格特质"
-  },
-  {
     "word": "bass",
     "pos": "noun",
     "meaning_zh": "低音"
-  },
-  {
-    "word": "bestial",
-    "pos": "adjective",
-    "meaning_zh": "兽性的"
   },
   {
     "word": "apparatus",
@@ -1680,39 +3050,19 @@
     "meaning_zh": "为特定用途配置的一整套器械或装置"
   },
   {
-    "word": "tuition",
-    "pos": "noun",
-    "meaning_zh": "学费（美式常用）"
-  },
-  {
-    "word": "physiology",
-    "pos": "noun",
-    "meaning_zh": "生理学"
-  },
-  {
     "word": "bilingualism",
     "pos": "noun",
     "meaning_zh": "n. 双语能力"
   },
   {
-    "word": "microorganism",
+    "word": "donor",
     "pos": "noun",
-    "meaning_zh": "微生物"
+    "meaning_zh": "n. 捐赠者"
   },
   {
     "word": "hydrosphere",
     "pos": "noun",
     "meaning_zh": "水圈"
-  },
-  {
-    "word": "metallurgical",
-    "pos": "adjective",
-    "meaning_zh": "冶金的"
-  },
-  {
-    "word": "diffuse",
-    "pos": "verb",
-    "meaning_zh": "v. 扩散"
   },
   {
     "word": "enteritis",
@@ -1723,30 +3073,5 @@
     "word": "cosmopolitan",
     "pos": "adjective",
     "meaning_zh": "adj. 世界性的，国际化的"
-  },
-  {
-    "word": "exploration",
-    "pos": "noun",
-    "meaning_zh": "探索"
-  },
-  {
-    "word": "marine biodiversity",
-    "pos": "noun",
-    "meaning_zh": "海洋生物多样性"
-  },
-  {
-    "word": "urban development",
-    "pos": "noun",
-    "meaning_zh": "城市开发"
-  },
-  {
-    "word": "persistence",
-    "pos": "noun",
-    "meaning_zh": "坚持不懈"
-  },
-  {
-    "word": "demographic change",
-    "pos": "noun",
-    "meaning_zh": "人口结构变化"
   }
 ]

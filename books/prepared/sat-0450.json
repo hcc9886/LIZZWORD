@@ -1,262 +1,499 @@
-{
-  "word": "bray",
-  "ipa_uk": "/breɪ/",
-  "ipa_us": "/breɪ/",
-  "definition_zh": "驴叫；粗厉地叫；刺耳地说或吹奏",
-  "definition_en": "to make the loud harsh cry of a donkey; to utter or play harshly",
-  "core_image": "驴昂起头，喉咙一收一放，发出拖长而刺耳的「昂——昂——」",
-  "scene": "清晨的农场还睡着眼。A donkey's bray tore through the quiet of the farmyard.",
-  "sceneCN": "这里 bray 是「驴叫」（第 1 个义项：驴的粗厉叫声，此处作名词）；句意是一声驴叫划破了农院的清晨。",
-  "pos": [
-    { "tag": "v.", "zh": "（驴）叫；粗声粗气地说" },
-    { "tag": "n.", "zh": "驴叫声；粗厉声响" }
-  ],
-  "collocations": [
-    { "phrase": "bray with laughter", "zh": "粗声大笑" },
-    { "phrase": "bray out an order", "zh": "粗声吼出命令" },
-    { "phrase": "the bray of a donkey", "zh": "驴叫声" },
-    { "phrase": "bray into a megaphone", "zh": "对着扩音器粗声喊" },
-    { "phrase": "braying laughter", "zh": "粗厉的笑声" }
-  ],
-  "forms": [
-    { "label": "三单", "form": "brays" },
-    { "label": "过去式", "form": "brayed" },
-    { "label": "过去分词", "form": "brayed" },
-    { "label": "现在分词", "form": "braying" },
-    { "label": "复数（名词）", "form": "brays" }
-  ],
-  "derivatives": [
-    { "word": "braying", "pos": "n.", "zh": "由动词加名词后缀构成，义为「驴叫；粗厉声」" },
-    { "word": "brayer", "pos": "n.", "zh": "由动词加表人后缀构成，义为「发粗厉声者」" }
-  ],
-  "senses": [
-    {
-      "no": "01",
-      "title": "The donkey's loud harsh cry",
-      "titleCN": "驴的粗厉叫声",
-      "definition": "the loud, broken cry characteristic of a donkey, as verb or noun",
-      "definitionCN": "驴特有的响亮断续叫声，作动词或名词",
-      "example": "The donkey brayed at the rising sun.",
-      "exampleCN": "驴对着朝阳叫了起来。",
-      "why": "The word began as pure sound imitation of the animal's two-tone hee-haw.",
-      "whyCN": "这个词起初就是对驴「两声部」叫声的纯粹拟声。"
-    },
-    {
-      "no": "02",
-      "title": "To laugh loudly and harshly",
-      "titleCN": "粗声大笑",
-      "definition": "to laugh in a loud, unpleasant, donkey-like way",
-      "definitionCN": "以响亮难听、似驴的方式大笑",
-      "example": "He brayed with laughter at his own joke.",
-      "exampleCN": "他对自己讲的笑话粗声大笑。",
-      "why": "A human sound resembling the donkey's cry borrows the animal's name for it.",
-      "whyCN": "人声若酷似驴叫，便借用驴叫之名。"
-    },
-    {
-      "no": "03",
-      "title": "To speak in a loud harsh voice",
-      "titleCN": "粗声粗气地说话",
-      "definition": "to talk loudly and unpleasantly, as if through a cracked horn",
-      "definitionCN": "大声而难听地说话，仿佛隔着破喇叭",
-      "example": "The sergeant brayed out the orders.",
-      "exampleCN": "中士粗声吼出命令。",
-      "why": "The harshness of the cry transfers to any harsh human voice.",
-      "whyCN": "叫声的粗厉转移到一切粗厉的人声上。"
-    },
-    {
-      "no": "04",
-      "title": "To play an instrument harshly",
-      "titleCN": "刺耳地吹奏",
-      "definition": "to produce a loud harsh sound on a horn or trumpet",
-      "definitionCN": "在号或小号上发出响而刺耳的声音",
-      "example": "The old gramophone brayed out a march.",
-      "exampleCN": "老式留声机刺耳地放出一支进行曲。",
-      "why": "Instruments crack and buzz exactly as a donkey's throat does.",
-      "whyCN": "乐器劈裂嗡鸣的音色恰似驴的喉音。"
-    },
-    {
-      "no": "05",
-      "title": "To trumpet foolishly, of a person",
-      "titleCN": "（贬）咋咋呼呼地嚷嚷",
-      "definition": "to talk in a self-important but foolish way",
-      "definitionCN": "以自以为重要实则愚蠢的方式高声谈论",
-      "example": "Politicians brayed about reforms they never made.",
-      "exampleCN": "政客们咋咋呼呼地谈着从未实行的改革。",
-      "why": "Since the ass stands for foolishness, its voice marks foolish speech.",
-      "whyCN": "驴既象征愚笨，其叫声便标记愚蠢的言谈。"
-    },
-    {
-      "no": "06",
-      "title": "A harsh crushing sound, as of machinery",
-      "titleCN": "机械的粗厉声响",
-      "definition": "a loud grating noise of engines or brakes",
-      "definitionCN": "发动机或刹车发出的刺耳摩擦声",
-      "example": "The train brayed to a stop.",
-      "exampleCN": "火车一路刺耳地刹停。",
-      "why": "Metal grinding resembles the broken, grinding donkey cry.",
-      "whyCN": "金属摩擦声与断续刺耳的驴叫如出一辙。"
-    },
-    {
-      "no": "07",
-      "title": "To pound and crush, as in mortar",
-      "titleCN": "捣碎；研磨",
-      "definition": "in older use, to pound or grind substances in a mortar",
-      "definitionCN": "旧义指在研钵中捣碎或研磨物料",
-      "example": "Apothecaries brayed roots into powder.",
-      "exampleCN": "药剂师把草根捣成粉末。",
-      "why": "A different Middle English word of the same shape meant to pound; the two mingled in spelling.",
-      "whyCN": "中古英语另有一个同形词意为捣碎，两词在拼写上混流。"
-    },
-    {
-      "no": "08",
-      "title": "To beat with a rod, in old law",
-      "titleCN": "（古法）杖笞",
-      "definition": "in medieval law, to punish by beating or flogging",
-      "definitionCN": "中世纪法律用语：以鞭笞为惩罚",
-      "example": "Old statutes ordered offenders to be brayed at the post.",
-      "exampleCN": "旧法令规定罪人在刑柱前受笞。",
-      "why": "The pounding sense extended to pounding a person in punishment.",
-      "whyCN": "「捣碎」义延伸到把人「捣打」以示惩罚。"
-    }
-  ],
-  "etymology": {
-    "intro": {
-      "en": "Bray is an imitative Middle English word for the donkey's cry, with a separate Middle Dutch homophone meaning to pound.",
-      "cn": "bray 是中古英语对驴叫的拟声词；另有一个同形的中古荷兰语词，意为捣碎。"
-    },
-    "items": [
+[
+  {
+    "word": "bray",
+    "ipa_uk": "/breɪ/",
+    "ipa_us": "/breɪ/",
+    "definition_zh": "驴叫；粗厉地叫；刺耳地说或吹奏",
+    "definition_en": "to make the loud harsh cry of a donkey; to utter or play harshly",
+    "core_image": "驴昂起头，喉咙一收一放，发出拖长而刺耳的「昂——昂——」",
+    "scene": "清晨的农场还睡着眼。A donkey's bray tore through the quiet of the farmyard.",
+    "sceneCN": "这里 bray 是「驴叫」（第 1 个义项：驴的粗厉叫声，此处作名词）；句意是一声驴叫划破了农院的清晨。",
+    "pos": [
       {
-        "era": "ONOMATOPOEIC ORIGIN",
-        "en": "The donkey cry word arose by imitation of the animal's two-tone call; no deeper root is traceable.",
-        "cn": "驴叫义源于对动物双音叫声的模仿，无法追溯更深的词根。"
+        "tag": "v.",
+        "zh": "（驴）叫；粗声粗气地说"
       },
       {
-        "era": "MIDDLE ENGLISH, 13TH–14TH C.",
-        "en": "Breien and brayen appear in early texts for the braying of asses.",
-        "cn": "早期文献以 breien、brayen 记录驴叫。"
-      },
-      {
-        "era": "MIDDLE DUTCH",
-        "en": "A separate Middle Dutch brayen meant to pound or crush, borrowed into English trades.",
-        "cn": "中古荷兰语另有 brayen，意为捣碎，随行话进入英语。"
-      },
-      {
-        "era": "MEDIEVAL LAW",
-        "en": "The pounding word passed into legal use for flogging as a punishment.",
-        "cn": "捣碎义进入法律用语，指杖笞之刑。"
-      },
-      {
-        "era": "ENGLISH, 16TH–19TH C.",
-        "en": "Shakespeare's Midsummer Night's Dream fixed the ass's bray in the literary canon.",
-        "cn": "莎剧《仲夏夜之梦》把驴叫定格于文学正典。"
-      },
-      {
-        "era": "MODERN ENGLISH",
-        "en": "Modern use favors the animal cry and its figurative harsh voices and laughs.",
-        "cn": "现代用法以驴叫及其比喻性的粗厉人声、笑声为主。"
+        "tag": "n.",
+        "zh": "驴叫声；粗厉声响"
       }
-    ]
-  },
-  "similar": {
-    "note": {
-      "en": "Bray's sound twins are many, and only one is related; its near group is the family of animal cries.",
-      "cn": "bray 的同音词不少，但仅一词同源；近义组是各类动物叫声。"
-    },
-    "groups": [
+    ],
+    "collocations": [
       {
-        "heading": "LOOK-ALIKE",
-        "entries": [
-          { "word": "brae", "ipa": "/breɪ/", "tag": "spelling", "definition": "a Scottish word for hillside", "definitionCN": "苏格兰语「山坡」；与 bray 同音，词源不同" },
-          { "word": "braid", "ipa": "/breɪd/", "tag": "spelling", "definition": "to weave; a woven band", "definitionCN": "编织；辫带；拼写相近，词源不同" },
-          { "word": "brayed", "ipa": "/breɪd/", "tag": "derived form", "definition": "past form of the verb", "definitionCN": "动词过去式形式" },
-          { "word": "pray", "ipa": "/preɪ/", "tag": "spelling", "definition": "to address a deity", "definitionCN": "祈祷；仅差一字母，词源不同" },
-          { "word": "betray", "ipa": "/bɪˈtreɪ/", "tag": "spelling", "definition": "to be disloyal to", "definitionCN": "背叛；词尾相同，词源无关" }
-        ]
+        "phrase": "bray with laughter",
+        "zh": "粗声大笑"
       },
       {
-        "heading": "NEAR MEANING",
-        "entries": [
-          { "word": "neigh", "ipa": "/neɪ/", "tag": "near meaning", "definition": "the cry of a horse", "definitionCN": "马嘶；同为牲口叫声拟声词" },
-          { "word": "bellow", "ipa": "/ˈbeləʊ/", "tag": "near meaning", "definition": "the deep roar of a bull", "definitionCN": "牛吼；低沉浑厚，与 bray 的尖厉相对" },
-          { "word": "bleat", "ipa": "/bliːt/", "tag": "near meaning", "definition": "the cry of a sheep or goat", "definitionCN": "羊咩；断续颤音" },
-          { "word": "cackle", "ipa": "/ˈkækl/", "tag": "near meaning", "definition": "the sharp cry of a hen; also harsh laughter", "definitionCN": "母鸡咯咯声；亦指尖利笑声" },
-          { "word": "trumpet", "ipa": "/ˈtrʌmpɪt/", "tag": "near meaning", "definition": "the blare of an elephant", "definitionCN": "象鸣；与号声共用一词" }
-        ]
+        "phrase": "bray out an order",
+        "zh": "粗声吼出命令"
+      },
+      {
+        "phrase": "the bray of a donkey",
+        "zh": "驴叫声"
+      },
+      {
+        "phrase": "bray into a megaphone",
+        "zh": "对着扩音器粗声喊"
+      },
+      {
+        "phrase": "braying laughter",
+        "zh": "粗厉的笑声"
       }
-    ]
-  },
-  "mnemonics": {
-    "normalIntro": {
-      "en": "Hear the word itself: bray sounds like the start of the donkey's hee-HAW.",
-      "cn": "听这个词本身：bray 的发音就像驴叫「昂」的起头。"
-    },
-    "normal": [
-      { "en": "bray is onomatopoeia: the word imitates the cry.", "cn": "bray 是拟声词，模拟驴叫声。" },
-      { "en": "Shakespeare's Bottom wears an ass's head and brays.", "cn": "莎剧里波顿戴着驴头学驴叫。" },
-      { "en": "braying laughter is loud and donkey-like.", "cn": "braying laughter 指粗厉似驴的大笑。" },
-      { "en": "an old homonym bray meant to pound in a mortar.", "cn": "古同形词 bray 意为在钵中捣碎。" },
-      { "en": "medieval law used bray for flogging.", "cn": "中世纪法律用 bray 指杖笞。" }
     ],
-    "abstract": [
-      { "en": "A cracked horn that happens to have legs.", "cn": "一只碰巧长了腿的破喇叭。" },
-      { "en": "The sound of something honest but unlovely.", "cn": "一种坦白却不好听的声音。" },
-      { "en": "Morning air split by two stubborn notes.", "cn": "清晨的空气被两个固执的音劈开。" }
-    ]
-  },
-  "examples": [
-    { "en": "Somewhere in the dark, a donkey brayed twice.", "cn": "黑暗中某处，驴叫了两声。" },
-    { "en": "The candidate brayed promises through a faulty loudspeaker.", "cn": "候选人隔着失灵的扩音器大声嚷着种种许诺。" },
-    { "en": "Her bray of laughter turned every head in the café.", "cn": "她那声粗厉的大笑让咖啡馆里所有人都回过头来。" }
-  ],
-  "dict_mnemonic": {
-    "note": "谐音记忆 · 非词源",
-    "text": "「不～累」——驴叫拖长音「昂～」，一问一答像喊「不～累～」：拖着长音的粗嗓门就是 bray。",
-    "word": "bray"
-  },
-  "root": "拟声词：中古英语 brayen 直接摹拟驴的断续叫声，无更深的词根；另有一个借自中古荷兰语的同形词，意为捣碎、研磨，两词在中古英语中并存。",
-  "sensesIntro": {
-    "en": "The donkey's cry is the seed; from it grow harsh laughter, harsh speech, harsh instruments, and even the old trades of pounding and flogging.",
-    "cn": "驴叫是种子；由此长出粗厉的笑、粗厉的话、刺耳的乐器声，乃至捣碎与杖笞的旧业。"
-  },
-  "semanticMap": {
-    "core": {
-      "en": "CORE IMAGE: a donkey's throat releasing two long broken notes",
-      "cn": "核心意象：驴的喉咙放出两个拖长而断续的音"
-    },
-    "chain": ["SOUND", "HARSHNESS", "IMITATION", "FOOLISHNESS", "GRINDING", "PUNISHMENT"],
-    "branches": [
-      { "senses": "01", "en": "the animal at source: the cry itself", "cn": "动物本源：叫声本身" },
-      { "senses": "02 · 03 · 05", "en": "the human throat: harsh laughs, harsh talk, foolish noise", "cn": "人的喉咙：粗笑、粗话、蠢吵" },
-      { "senses": "04 · 06", "en": "the world of machines: horns and brakes that bray", "cn": "机械世界：会「驴叫」的号与刹车" },
-      { "senses": "07", "en": "the mortar: a homophone's world of pounding", "cn": "研钵：同形词的捣碎世界" },
-      { "senses": "08", "en": "the post: pounding a person as law", "cn": "刑柱：把人「捣打」的法律" }
-    ]
-  },
-  "affixes": {
-    "intro": {
-      "en": "Two unrelated words of identical shape met in English; neither has Latin kinship.",
-      "cn": "两个同形而无关的词在英语中相遇；二者均与拉丁语无亲缘。"
-    },
-    "latinIntro": {
-      "en": "Latin has no cognates here; Latin rudere covers the ass's cry instead.",
-      "cn": "拉丁语在此无同源词；拉丁语以 rudere 表示驴叫。"
-    },
-    "items": [
-      { "word": "brayen", "structure": "Middle English verb", "meaning": "to bray as an ass", "meaningCN": "作驴叫", "example": "recorded from the thirteenth century", "exampleCN": "十三世纪已有记录" },
-      { "word": "brayen", "structure": "Middle Dutch verb", "meaning": "to pound, crush", "meaningCN": "捣碎", "example": "source of the mortar sense", "exampleCN": "捣碎义之来源" },
-      { "word": "-ing", "structure": "English suffix", "meaning": "the act or sound of", "meaningCN": "行为或声响", "example": "braying laughter", "exampleCN": "粗厉的笑声" },
-      { "word": "-er", "structure": "English suffix", "meaning": "one that does", "meaningCN": "发出……者", "example": "a brayer of orders", "exampleCN": "吼命令的人" },
-      { "word": "rudere", "structure": "Latin near word", "meaning": "to bray, to roar", "meaningCN": "驴叫；吼叫", "example": "Latin used rudere for asses", "exampleCN": "拉丁语以 rudere 表驴叫" },
-      { "word": "neigh", "structure": "native near word", "meaning": "horse's cry", "meaningCN": "马嘶", "example": "neigh for horses, bray for asses", "exampleCN": "马嘶曰 neigh，驴叫曰 bray" },
-      { "word": "braid", "structure": "unrelated near word", "meaning": "to weave", "meaningCN": "编织", "example": "braid differs by one letter", "exampleCN": "braid 与 bray 仅差一字母" },
-      { "word": "brae", "structure": "unrelated near word", "meaning": "hillside", "meaningCN": "山坡", "example": "brae and bray are homophones", "exampleCN": "brae 与 bray 同音异源" }
-    ],
-    "latinEntries": [
-      { "word": "rudere", "structure": "Latin verb", "meaning": "to roar, to bray", "meaningCN": "吼叫；作驴叫", "example": "asini ruderent", "exampleCN": "驴在叫" }
+    "forms": [
+      {
+        "label": "三单",
+        "form": "brays"
+      },
+      {
+        "label": "过去式",
+        "form": "brayed"
+      },
+      {
+        "label": "过去分词",
+        "form": "brayed"
+      },
+      {
+        "label": "现在分词",
+        "form": "braying"
+      },
+      {
+        "label": "复数（名词）",
+        "form": "brays"
+      }
     ],
     "derivatives": [
-      { "word": "braying", "pos": "n.", "zh": "驴叫；粗厉声" },
-      { "word": "brayer", "pos": "n.", "zh": "发粗厉声者" }
-    ]
+      {
+        "word": "braying",
+        "pos": "n.",
+        "zh": "由动词加名词后缀构成，义为「驴叫；粗厉声」"
+      },
+      {
+        "word": "brayer",
+        "pos": "n.",
+        "zh": "由动词加表人后缀构成，义为「发粗厉声者」"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "The donkey's loud harsh cry",
+        "titleCN": "驴的粗厉叫声",
+        "definition": "the loud, broken cry characteristic of a donkey, as verb or noun",
+        "definitionCN": "驴特有的响亮断续叫声，作动词或名词",
+        "example": "The donkey brayed at the rising sun.",
+        "exampleCN": "驴对着朝阳叫了起来。",
+        "why": "The word began as pure sound imitation of the animal's two-tone hee-haw.",
+        "whyCN": "这个词起初就是对驴「两声部」叫声的纯粹拟声。"
+      },
+      {
+        "no": "02",
+        "title": "To laugh loudly and harshly",
+        "titleCN": "粗声大笑",
+        "definition": "to laugh in a loud, unpleasant, donkey-like way",
+        "definitionCN": "以响亮难听、似驴的方式大笑",
+        "example": "He brayed with laughter at his own joke.",
+        "exampleCN": "他对自己讲的笑话粗声大笑。",
+        "why": "A human sound resembling the donkey's cry borrows the animal's name for it.",
+        "whyCN": "人声若酷似驴叫，便借用驴叫之名。"
+      },
+      {
+        "no": "03",
+        "title": "To speak in a loud harsh voice",
+        "titleCN": "粗声粗气地说话",
+        "definition": "to talk loudly and unpleasantly, as if through a cracked horn",
+        "definitionCN": "大声而难听地说话，仿佛隔着破喇叭",
+        "example": "The sergeant brayed out the orders.",
+        "exampleCN": "中士粗声吼出命令。",
+        "why": "The harshness of the cry transfers to any harsh human voice.",
+        "whyCN": "叫声的粗厉转移到一切粗厉的人声上。"
+      },
+      {
+        "no": "04",
+        "title": "To play an instrument harshly",
+        "titleCN": "刺耳地吹奏",
+        "definition": "to produce a loud harsh sound on a horn or trumpet",
+        "definitionCN": "在号或小号上发出响而刺耳的声音",
+        "example": "The old gramophone brayed out a march.",
+        "exampleCN": "老式留声机刺耳地放出一支进行曲。",
+        "why": "Instruments crack and buzz exactly as a donkey's throat does.",
+        "whyCN": "乐器劈裂嗡鸣的音色恰似驴的喉音。"
+      },
+      {
+        "no": "05",
+        "title": "To trumpet foolishly, of a person",
+        "titleCN": "（贬）咋咋呼呼地嚷嚷",
+        "definition": "to talk in a self-important but foolish way",
+        "definitionCN": "以自以为重要实则愚蠢的方式高声谈论",
+        "example": "Politicians brayed about reforms they never made.",
+        "exampleCN": "政客们咋咋呼呼地谈着从未实行的改革。",
+        "why": "Since the ass stands for foolishness, its voice marks foolish speech.",
+        "whyCN": "驴既象征愚笨，其叫声便标记愚蠢的言谈。"
+      },
+      {
+        "no": "06",
+        "title": "A harsh crushing sound, as of machinery",
+        "titleCN": "机械的粗厉声响",
+        "definition": "a loud grating noise of engines or brakes",
+        "definitionCN": "发动机或刹车发出的刺耳摩擦声",
+        "example": "The train brayed to a stop.",
+        "exampleCN": "火车一路刺耳地刹停。",
+        "why": "Metal grinding resembles the broken, grinding donkey cry.",
+        "whyCN": "金属摩擦声与断续刺耳的驴叫如出一辙。"
+      },
+      {
+        "no": "07",
+        "title": "To pound and crush, as in mortar",
+        "titleCN": "捣碎；研磨",
+        "definition": "in older use, to pound or grind substances in a mortar",
+        "definitionCN": "旧义指在研钵中捣碎或研磨物料",
+        "example": "Apothecaries brayed roots into powder.",
+        "exampleCN": "药剂师把草根捣成粉末。",
+        "why": "A different Middle English word of the same shape meant to pound; the two mingled in spelling.",
+        "whyCN": "中古英语另有一个同形词意为捣碎，两词在拼写上混流。"
+      },
+      {
+        "no": "08",
+        "title": "To beat with a rod, in old law",
+        "titleCN": "（古法）杖笞",
+        "definition": "in medieval law, to punish by beating or flogging",
+        "definitionCN": "中世纪法律用语：以鞭笞为惩罚",
+        "example": "Old statutes ordered offenders to be brayed at the post.",
+        "exampleCN": "旧法令规定罪人在刑柱前受笞。",
+        "why": "The pounding sense extended to pounding a person in punishment.",
+        "whyCN": "「捣碎」义延伸到把人「捣打」以示惩罚。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Bray is an imitative Middle English word for the donkey's cry, with a separate Middle Dutch homophone meaning to pound.",
+        "cn": "bray 是中古英语对驴叫的拟声词；另有一个同形的中古荷兰语词，意为捣碎。"
+      },
+      "items": [
+        {
+          "era": "ONOMATOPOEIC ORIGIN",
+          "en": "The donkey cry word arose by imitation of the animal's two-tone call; no deeper root is traceable.",
+          "cn": "驴叫义源于对动物双音叫声的模仿，无法追溯更深的词根。"
+        },
+        {
+          "era": "MIDDLE ENGLISH, 13TH–14TH C.",
+          "en": "Breien and brayen appear in early texts for the braying of asses.",
+          "cn": "早期文献以 breien、brayen 记录驴叫。"
+        },
+        {
+          "era": "MIDDLE DUTCH",
+          "en": "A separate Middle Dutch brayen meant to pound or crush, borrowed into English trades.",
+          "cn": "中古荷兰语另有 brayen，意为捣碎，随行话进入英语。"
+        },
+        {
+          "era": "MEDIEVAL LAW",
+          "en": "The pounding word passed into legal use for flogging as a punishment.",
+          "cn": "捣碎义进入法律用语，指杖笞之刑。"
+        },
+        {
+          "era": "ENGLISH, 16TH–19TH C.",
+          "en": "Shakespeare's Midsummer Night's Dream fixed the ass's bray in the literary canon.",
+          "cn": "莎剧《仲夏夜之梦》把驴叫定格于文学正典。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "Modern use favors the animal cry and its figurative harsh voices and laughs.",
+          "cn": "现代用法以驴叫及其比喻性的粗厉人声、笑声为主。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "Bray's sound twins are many, and only one is related; its near group is the family of animal cries.",
+        "cn": "bray 的同音词不少，但仅一词同源；近义组是各类动物叫声。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "brae",
+              "ipa": "/breɪ/",
+              "tag": "spelling",
+              "definition": "a Scottish word for hillside",
+              "definitionCN": "苏格兰语「山坡」；与 bray 同音，词源不同"
+            },
+            {
+              "word": "braid",
+              "ipa": "/breɪd/",
+              "tag": "spelling",
+              "definition": "to weave; a woven band",
+              "definitionCN": "编织；辫带；拼写相近，词源不同"
+            },
+            {
+              "word": "brayed",
+              "ipa": "/breɪd/",
+              "tag": "derived form",
+              "definition": "past form of the verb",
+              "definitionCN": "动词过去式形式"
+            },
+            {
+              "word": "pray",
+              "ipa": "/preɪ/",
+              "tag": "spelling",
+              "definition": "to address a deity",
+              "definitionCN": "祈祷；仅差一字母，词源不同"
+            },
+            {
+              "word": "betray",
+              "ipa": "/bɪˈtreɪ/",
+              "tag": "spelling",
+              "definition": "to be disloyal to",
+              "definitionCN": "背叛；词尾相同，词源无关"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "neigh",
+              "ipa": "/neɪ/",
+              "tag": "near meaning",
+              "definition": "the cry of a horse",
+              "definitionCN": "马嘶；同为牲口叫声拟声词"
+            },
+            {
+              "word": "bellow",
+              "ipa": "/ˈbeləʊ/",
+              "tag": "near meaning",
+              "definition": "the deep roar of a bull",
+              "definitionCN": "牛吼；低沉浑厚，与 bray 的尖厉相对"
+            },
+            {
+              "word": "bleat",
+              "ipa": "/bliːt/",
+              "tag": "near meaning",
+              "definition": "the cry of a sheep or goat",
+              "definitionCN": "羊咩；断续颤音"
+            },
+            {
+              "word": "cackle",
+              "ipa": "/ˈkækl/",
+              "tag": "near meaning",
+              "definition": "the sharp cry of a hen; also harsh laughter",
+              "definitionCN": "母鸡咯咯声；亦指尖利笑声"
+            },
+            {
+              "word": "trumpet",
+              "ipa": "/ˈtrʌmpɪt/",
+              "tag": "near meaning",
+              "definition": "the blare of an elephant",
+              "definitionCN": "象鸣；与号声共用一词"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Hear the word itself: bray sounds like the start of the donkey's hee-HAW.",
+        "cn": "听这个词本身：bray 的发音就像驴叫「昂」的起头。"
+      },
+      "normal": [
+        {
+          "en": "bray is onomatopoeia: the word imitates the cry.",
+          "cn": "bray 是拟声词，模拟驴叫声。"
+        },
+        {
+          "en": "Shakespeare's Bottom wears an ass's head and brays.",
+          "cn": "莎剧里波顿戴着驴头学驴叫。"
+        },
+        {
+          "en": "braying laughter is loud and donkey-like.",
+          "cn": "braying laughter 指粗厉似驴的大笑。"
+        },
+        {
+          "en": "an old homonym bray meant to pound in a mortar.",
+          "cn": "古同形词 bray 意为在钵中捣碎。"
+        },
+        {
+          "en": "medieval law used bray for flogging.",
+          "cn": "中世纪法律用 bray 指杖笞。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "A cracked horn that happens to have legs.",
+          "cn": "一只碰巧长了腿的破喇叭。"
+        },
+        {
+          "en": "The sound of something honest but unlovely.",
+          "cn": "一种坦白却不好听的声音。"
+        },
+        {
+          "en": "Morning air split by two stubborn notes.",
+          "cn": "清晨的空气被两个固执的音劈开。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "Somewhere in the dark, a donkey brayed twice.",
+        "cn": "黑暗中某处，驴叫了两声。"
+      },
+      {
+        "en": "The candidate brayed promises through a faulty loudspeaker.",
+        "cn": "候选人隔着失灵的扩音器大声嚷着种种许诺。"
+      },
+      {
+        "en": "Her bray of laughter turned every head in the café.",
+        "cn": "她那声粗厉的大笑让咖啡馆里所有人都回过头来。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「不～累」——驴叫拖长音「昂～」，一问一答像喊「不～累～」：拖着长音的粗嗓门就是 bray。",
+      "word": "bray"
+    },
+    "root": "拟声词：中古英语 brayen 直接摹拟驴的断续叫声，无更深的词根；另有一个借自中古荷兰语的同形词，意为捣碎、研磨，两词在中古英语中并存。",
+    "sensesIntro": {
+      "en": "The donkey's cry is the seed; from it grow harsh laughter, harsh speech, harsh instruments, and even the old trades of pounding and flogging.",
+      "cn": "驴叫是种子；由此长出粗厉的笑、粗厉的话、刺耳的乐器声，乃至捣碎与杖笞的旧业。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: a donkey's throat releasing two long broken notes",
+        "cn": "核心意象：驴的喉咙放出两个拖长而断续的音"
+      },
+      "chain": [
+        "SOUND",
+        "HARSHNESS",
+        "IMITATION",
+        "FOOLISHNESS",
+        "GRINDING",
+        "PUNISHMENT"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "the animal at source: the cry itself",
+          "cn": "动物本源：叫声本身"
+        },
+        {
+          "senses": "02 · 03 · 05",
+          "en": "the human throat: harsh laughs, harsh talk, foolish noise",
+          "cn": "人的喉咙：粗笑、粗话、蠢吵"
+        },
+        {
+          "senses": "04 · 06",
+          "en": "the world of machines: horns and brakes that bray",
+          "cn": "机械世界：会「驴叫」的号与刹车"
+        },
+        {
+          "senses": "07",
+          "en": "the mortar: a homophone's world of pounding",
+          "cn": "研钵：同形词的捣碎世界"
+        },
+        {
+          "senses": "08",
+          "en": "the post: pounding a person as law",
+          "cn": "刑柱：把人「捣打」的法律"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Two unrelated words of identical shape met in English; neither has Latin kinship.",
+        "cn": "两个同形而无关的词在英语中相遇；二者均与拉丁语无亲缘。"
+      },
+      "latinIntro": {
+        "en": "Latin has no cognates here; Latin rudere covers the ass's cry instead.",
+        "cn": "拉丁语在此无同源词；拉丁语以 rudere 表示驴叫。"
+      },
+      "items": [
+        {
+          "word": "brayen",
+          "structure": "Middle English verb",
+          "meaning": "to bray as an ass",
+          "meaningCN": "作驴叫",
+          "example": "recorded from the thirteenth century",
+          "exampleCN": "十三世纪已有记录"
+        },
+        {
+          "word": "brayen",
+          "structure": "Middle Dutch verb",
+          "meaning": "to pound, crush",
+          "meaningCN": "捣碎",
+          "example": "source of the mortar sense",
+          "exampleCN": "捣碎义之来源"
+        },
+        {
+          "word": "-ing",
+          "structure": "English suffix",
+          "meaning": "the act or sound of",
+          "meaningCN": "行为或声响",
+          "example": "braying laughter",
+          "exampleCN": "粗厉的笑声"
+        },
+        {
+          "word": "-er",
+          "structure": "English suffix",
+          "meaning": "one that does",
+          "meaningCN": "发出……者",
+          "example": "a brayer of orders",
+          "exampleCN": "吼命令的人"
+        },
+        {
+          "word": "rudere",
+          "structure": "Latin near word",
+          "meaning": "to bray, to roar",
+          "meaningCN": "驴叫；吼叫",
+          "example": "Latin used rudere for asses",
+          "exampleCN": "拉丁语以 rudere 表驴叫"
+        },
+        {
+          "word": "neigh",
+          "structure": "native near word",
+          "meaning": "horse's cry",
+          "meaningCN": "马嘶",
+          "example": "neigh for horses, bray for asses",
+          "exampleCN": "马嘶曰 neigh，驴叫曰 bray"
+        },
+        {
+          "word": "braid",
+          "structure": "unrelated near word",
+          "meaning": "to weave",
+          "meaningCN": "编织",
+          "example": "braid differs by one letter",
+          "exampleCN": "braid 与 bray 仅差一字母"
+        },
+        {
+          "word": "brae",
+          "structure": "unrelated near word",
+          "meaning": "hillside",
+          "meaningCN": "山坡",
+          "example": "brae and bray are homophones",
+          "exampleCN": "brae 与 bray 同音异源"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "rudere",
+          "structure": "Latin verb",
+          "meaning": "to roar, to bray",
+          "meaningCN": "吼叫；作驴叫",
+          "example": "asini ruderent",
+          "exampleCN": "驴在叫"
+        }
+      ],
+      "derivatives": [
+        {
+          "word": "braying",
+          "pos": "n.",
+          "zh": "驴叫；粗厉声"
+        },
+        {
+          "word": "brayer",
+          "pos": "n.",
+          "zh": "发粗厉声者"
+        }
+      ]
+    }
   }
-}
+]

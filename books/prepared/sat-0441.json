@@ -1,269 +1,543 @@
-{
-  "word": "bountiful",
-  "ipa_uk": "/ˈbaʊntɪfl/",
-  "ipa_us": "/ˈbaʊntɪfl/",
-  "definition_zh": "丰富的；充裕的；慷慨的",
-  "definition_en": "large in amount; generous in giving",
-  "core_image": "秋日谷仓前堆成小山的麦袋与果篮，主人抓起果子大把大把往客人怀里塞",
-  "scene": "丰收季农庄开门迎客。The farmer gave every visitor a bountiful basket of apples and honey.",
-  "sceneCN": "这里 bountiful 是「丰富的、慷慨的」（第 2 个义项：慷慨给予）；句意是农夫给每位访客都送上满满一篮苹果和蜂蜜。",
-  "pos": [
-    { "tag": "adj.", "zh": "丰富的；充裕的" },
-    { "tag": "adj.", "zh": "慷慨的；大方的" }
-  ],
-  "collocations": [
-    { "phrase": "a bountiful harvest", "zh": "丰收；大丰收" },
-    { "phrase": "a bountiful supply", "zh": "充足的供应" },
-    { "phrase": "bountiful nature", "zh": "丰饶的大自然" },
-    { "phrase": "a bountiful land", "zh": "富饶的土地" },
-    { "phrase": "a bountiful giver", "zh": "慷慨的给予者" },
-    { "phrase": "bountiful in resources", "zh": "资源丰富的" }
-  ],
-  "forms": [
-    { "label": "比较级", "form": "more bountiful" },
-    { "label": "最高级", "form": "most bountiful" },
-    { "label": "副词", "form": "bountifully" },
-    { "label": "名词", "form": "bountifulness" }
-  ],
-  "derivatives": [
-    { "word": "bounty", "pos": "n.", "zh": "由同根名词构成，义为「慷慨赠予；赏金」" },
-    { "word": "bounteous", "pos": "adj.", "zh": "同根形容词变体，义为「丰饶的；慷慨的」" },
-    { "word": "bountifully", "pos": "adv.", "zh": "由形容词加副词后缀构成，义为「丰盛地；慷慨地」" },
-    { "word": "bountifulness", "pos": "n.", "zh": "由形容词加名词后缀构成，义为「丰盛；慷慨」" }
-  ],
-  "senses": [
-    {
-      "no": "01",
-      "title": "Existing in large quantity",
-      "titleCN": "数量巨大的；丰饶的",
-      "definition": "present in great amounts, more than enough",
-      "definitionCN": "数量极大，绰绰有余",
-      "example": "The valley enjoys a bountiful rainfall every year.",
-      "exampleCN": "这个山谷每年降水丰沛。",
-      "why": "The root bounty once meant goodness, and goodness in supply shows up first as sheer abundance.",
-      "whyCN": "词根 bounty 本义为「善」，供应上的「善」首先表现为单纯的数量充裕。"
-    },
-    {
-      "no": "02",
-      "title": "Giving freely and generously",
-      "titleCN": "慷慨给予的；大方的",
-      "definition": "willing to give more than is expected or required",
-      "definitionCN": "乐于付出超出预期或所需的给予",
-      "example": "The charity was bountiful to the flooded village.",
-      "exampleCN": "慈善组织对被淹的村庄慷慨解囊。",
-      "why": "Abundance in supply turns naturally into abundance in giving, since only the rich in goods can give richly.",
-      "whyCN": "供应的充裕自然转化为给予的慷慨，因为只有财物富足者才能慷慨相赠。"
-    },
-    {
-      "no": "03",
-      "title": "Producing abundantly",
-      "titleCN": "多产的；出产丰厚的",
-      "definition": "yielding large crops or plentiful output",
-      "definitionCN": "产出大量作物或丰富的成果",
-      "example": "The bountiful orchard fed three villages.",
-      "exampleCN": "这片丰产的果园养活了三个村庄。",
-      "why": "What is abundant in a producer is its yield, so the adjective attaches to fields, orchards, and lands.",
-      "whyCN": "对生产者而言，「充裕」体现为产量，于是该形容词常用于田地、果园、土地。"
-    },
-    {
-      "no": "04",
-      "title": "Rich in variety as well as amount",
-      "titleCN": "种类繁多的；丰盛的",
-      "definition": "abundant across many kinds, not just one",
-      "definitionCN": "不仅量大，而且种类多样",
-      "example": "The bountiful menu offered forty dishes.",
-      "exampleCN": "丰盛的菜单上有四十道菜。",
-      "why": "Plenty of one thing invites plenty of many things, extending the image from bulk to spread.",
-      "whyCN": "一物之丰引来众物之丰，意象由「成堆」扩展为「满席」。"
-    },
-    {
-      "no": "05",
-      "title": "Overflowing emotionally",
-      "titleCN": "（情感）满溢的",
-      "definition": "full to overflowing, as of feelings expressed freely",
-      "definitionCN": "情感充沛、尽兴流露的",
-      "example": "Her bountiful laughter filled the hall.",
-      "exampleCN": "她爽朗的笑声充满了大厅。",
-      "why": "The picture of a vessel running over transfers from goods to emotions.",
-      "whyCN": "容器满溢的画面由财物转移到情感上。"
-    },
-    {
-      "no": "06",
-      "title": "Freely bestowed, as of rewards",
-      "titleCN": "（奖赏）丰厚的",
-      "definition": "granted in generous amounts, as rewards or payments",
-      "definitionCN": "以大方数额发放的，如奖励或报酬",
-      "example": "The informer received a bountiful reward.",
-      "exampleCN": "告密者获得了一笔丰厚的赏金。",
-      "why": "The old noun bounty survives in prize money, and the adjective keeps this concrete use.",
-      "whyCN": "古名词 bounty 仍存于赏金义，形容词保留了这一具体用法。"
-    },
-    {
-      "no": "07",
-      "title": "Splendid in appearance",
-      "titleCN": "华美丰盛的",
-      "definition": "rich and impressive to the eye, as of displays or feasts",
-      "definitionCN": "看上去富丽可观，如陈列或盛宴",
-      "example": "The bountiful table gleamed with silver and fruit.",
-      "exampleCN": "丰盛的餐桌在银器和水果的映照下熠熠生辉。",
-      "why": "Abundance made visible becomes splendor, the sense completing from quantity to impression.",
-      "whyCN": "充裕一旦可见即成华彩，词义由数量完成到观感的过渡。"
-    },
-    {
-      "no": "08",
-      "title": "Readily available in nature",
-      "titleCN": "自然界随处可得的",
-      "definition": "supplied freely by nature without human effort",
-      "definitionCN": "无需人力而由自然大量供应的",
-      "example": "The coast is bountiful with fish and kelp.",
-      "exampleCN": "这片海岸盛产鱼类和海藻。",
-      "why": "Nature gives without being asked, the oldest picture behind the word's sense of unearned plenty.",
-      "whyCN": "自然无偿给予，这正是该词「不劳而获的丰饶」这层古义背后的最初画面。"
-    }
-  ],
-  "etymology": {
-    "intro": {
-      "en": "Bountiful descends, through Old French, from Latin bonus, good, by way of the noun bounty.",
-      "cn": "bountiful 经由古法语，溯源自拉丁语 bonus（好），其名词中介为 bounty。"
-    },
-    "items": [
+[
+  {
+    "word": "bountiful",
+    "ipa_uk": "/ˈbaʊntɪfl/",
+    "ipa_us": "/ˈbaʊntɪfl/",
+    "definition_zh": "丰富的；充裕的；慷慨的",
+    "definition_en": "large in amount; generous in giving",
+    "core_image": "秋日谷仓前堆成小山的麦袋与果篮，主人抓起果子大把大把往客人怀里塞",
+    "scene": "丰收季农庄开门迎客。The farmer gave every visitor a bountiful basket of apples and honey.",
+    "sceneCN": "这里 bountiful 是「丰富的、慷慨的」（第 2 个义项：慷慨给予）；句意是农夫给每位访客都送上满满一篮苹果和蜂蜜。",
+    "pos": [
       {
-        "era": "PROTO-INDO-EUROPEAN",
-        "en": "The reconstructed root deu- meant to show favor or worship, the deep source of Latin bonus.",
-        "cn": "重构词根 deu- 意为「施恩、敬奉」，是拉丁语 bonus 的深层来源。"
+        "tag": "adj.",
+        "zh": "丰富的；充裕的"
       },
       {
-        "era": "LATIN",
-        "en": "Latin bonus meant good, and bonitas meant goodness, both common in classical writing.",
-        "cn": "拉丁语 bonus 意为「好的」，bonitas 意为「善」，均见于古典文献。"
-      },
-      {
-        "era": "OLD FRENCH",
-        "en": "Old French bonte meant goodness and later liberality, borrowed from Latin bonitas.",
-        "cn": "古法语 bonte 意为「善」，后转指「慷慨」，借自拉丁语 bonitas。"
-      },
-      {
-        "era": "MIDDLE ENGLISH",
-        "en": "Middle English took bounty from Old French, first meaning goodness, then generous giving and reward.",
-        "cn": "中古英语自古法语借入 bounty，先表「善」，后表「慷慨赠予与赏金」。"
-      },
-      {
-        "era": "ENGLISH, 15TH C.",
-        "en": "The adjective bountiful formed in the fifteenth century from bounty plus -ful.",
-        "cn": "十五世纪由 bounty 加后缀 -ful 构成形容词 bountiful。"
-      },
-      {
-        "era": "MODERN ENGLISH",
-        "en": "Modern English keeps both the abundance sense and the generosity sense, with bounteous as a literary twin.",
-        "cn": "现代英语兼存「丰饶」与「慷慨」二义，另有书面色彩的同义词 bounteous。"
+        "tag": "adj.",
+        "zh": "慷慨的；大方的"
       }
-    ]
-  },
-  "similar": {
-    "note": {
-      "en": "Bountiful sits between plenty and generosity; watch the spelling beside bounty and boundary.",
-      "cn": "bountiful 介于「充足」与「慷慨」之间；注意与 bounty、boundary 的拼写区分。"
-    },
-    "groups": [
+    ],
+    "collocations": [
       {
-        "heading": "LOOK-ALIKE",
-        "entries": [
-          { "word": "bounty", "ipa": "/ˈbaʊnti/", "tag": "same root", "definition": "generosity or a reward paid by authorities", "definitionCN": "慷慨；赏金；同根名词" },
-          { "word": "bounteous", "ipa": "/ˈbaʊntiəs/", "tag": "same root", "definition": "a literary equivalent of bountiful", "definitionCN": "丰饶的；慷慨的；同根书面变体" },
-          { "word": "boundary", "ipa": "/ˈbaʊndri/", "tag": "spelling", "definition": "a line marking a limit", "definitionCN": "边界；与 bountiful 只是拼写相近，词源不同" },
-          { "word": "beautiful", "ipa": "/ˈbjuːtɪfl/", "tag": "spelling", "definition": "pleasing to the eye", "definitionCN": "美丽的；仅 -tiful 部分拼写相仿，词源无关" },
-          { "word": "plentiful", "ipa": "/ˈplentɪfl/", "tag": "different root", "definition": "existing in large amounts", "definitionCN": "丰富的；拼写结构相仿但词源不同" }
-        ]
+        "phrase": "a bountiful harvest",
+        "zh": "丰收；大丰收"
       },
       {
-        "heading": "NEAR MEANING",
-        "entries": [
-          { "word": "abundant", "ipa": "/əˈbʌndənt/", "tag": "near meaning", "definition": "existing in very large quantities", "definitionCN": "大量的；侧重数量，bountiful 兼含慷慨之意" },
-          { "word": "generous", "ipa": "/ˈdʒenərəs/", "tag": "near meaning", "definition": "willing to give freely", "definitionCN": "慷慨的；侧重给予态度" },
-          { "word": "lavish", "ipa": "/ˈlævɪʃ/", "tag": "near meaning", "definition": "giving or spending generously, sometimes too much", "definitionCN": "奢华大方的；程度比 bountiful 更强" },
-          { "word": "profuse", "ipa": "/prəˈfjuːs/", "tag": "near meaning", "definition": "given or produced in great amounts", "definitionCN": "大量的；常指喷涌而出之物" },
-          { "word": "copious", "ipa": "/ˈkəʊpiəs/", "tag": "near meaning", "definition": "large in number or volume", "definitionCN": "丰富的；多用于文字或流质" }
-        ]
+        "phrase": "a bountiful supply",
+        "zh": "充足的供应"
+      },
+      {
+        "phrase": "bountiful nature",
+        "zh": "丰饶的大自然"
+      },
+      {
+        "phrase": "a bountiful land",
+        "zh": "富饶的土地"
+      },
+      {
+        "phrase": "a bountiful giver",
+        "zh": "慷慨的给予者"
+      },
+      {
+        "phrase": "bountiful in resources",
+        "zh": "资源丰富的"
       }
-    ]
-  },
-  "mnemonics": {
-    "normalIntro": {
-      "en": "Build on the family: bounty gives bountiful and its literary twin bounteous.",
-      "cn": "从词族入手：bounty 派生出 bountiful 及其书面孪生词 bounteous。"
-    },
-    "normal": [
-      { "en": "bounty comes from Old French bonte, goodness.", "cn": "bounty 源自古法语 bonte，意为善。" },
-      { "en": "-ful turns nouns into adjectives, as in hopeful.", "cn": "-ful 把名词变成形容词，如 hopeful。" },
-      { "en": "a bountiful harvest is literally a harvest full of bounty.", "cn": "bountiful harvest 字面即「满是善赐的收成」。" },
-      { "en": "prize money called a bounty keeps the reward sense alive.", "cn": "赏金仍叫 bounty，保留了「奖赏」义。" },
-      { "en": "bounteous is the longer, more literary spelling-cousin.", "cn": "bounteous 是更书面化的近亲拼写。" }
     ],
-    "abstract": [
-      { "en": "Picture an urn of plenty that never tips empty.", "cn": "想象一只永远倒不满的丰饶之角。" },
-      { "en": "A generous hand tips the basket toward you without being asked.", "cn": "一只慷慨的手不待你开口就把篮子倾过来。" },
-      { "en": "Goodness that runs over becomes plenty; plenty that runs over becomes generosity.", "cn": "满溢的善成为充足，满溢的充足成为慷慨。" }
-    ]
-  },
-  "examples": [
-    { "en": "A bountiful harvest meant the village could trade grain for salt and cloth.", "cn": "丰收使村子可以用谷物换取盐和布匹。" },
-    { "en": "The host was bountiful with food, wine, and stories alike.", "cn": "主人对食物、美酒和故事都毫不吝惜。" },
-    { "en": "Bountiful rains followed the long drought, and the river ran full again.", "cn": "久旱之后甘霖丰沛，河水再次涨满。" }
-  ],
-  "dict_mnemonic": {
-    "note": "谐音记忆 · 非词源",
-    "text": "「抱疼副」——抱着满篮果子，抱得胳膊疼还嫌不（副）够多，这就是 bountiful 的丰足画面。",
-    "word": "bountiful"
-  },
-  "root": "拉丁词根 bon-（好，出自 bonus「好的」）经古法语 bonte（善、慷慨）进入英语作 bounty，再加形容词后缀 -ful 构成。",
-  "sensesIntro": {
-    "en": "From sheer abundance the senses move through generous giving and rich yield to fullness of feeling and natural plenty.",
-    "cn": "义项由单纯的数量丰足出发，经慷慨给予与丰饶出产，延伸至情感充盈与自然馈赠。"
-  },
-  "semanticMap": {
-    "core": {
-      "en": "CORE IMAGE: a basket of goods running over and a hand tipping it toward others",
-      "cn": "核心意象：满得外溢的篮子，与一只把它倾向他人的手"
-    },
-    "chain": ["PLENTY", "YIELD", "GIVING", "REWARD", "SPLENDOR", "GOODNESS"],
-    "branches": [
-      { "senses": "01 · 04", "en": "sheer quantity: more than enough, and of many kinds", "cn": "纯粹数量：绰绰有余且种类繁多" },
-      { "senses": "03", "en": "the producer side: fields and orchards that yield richly", "cn": "生产者一侧：出产丰厚的田地果园" },
-      { "senses": "02 · 06", "en": "the giver side: free gifts and generous rewards", "cn": "给予者一侧：无偿赠予与丰厚奖赏" },
-      { "senses": "05 · 07", "en": "fullness made visible: laughter and laden tables", "cn": "可见的充盈：爽朗笑声与满桌盛宴" },
-      { "senses": "08", "en": "nature's share: plenty no one planted", "cn": "自然的一份：无人耕种而成的丰饶" }
-    ]
-  },
-  "affixes": {
-    "intro": {
-      "en": "The family rests on one Latin root, bon-, with French and English suffixes added step by step.",
-      "cn": "该词族建立在拉丁词根 bon- 之上，法语与英语后缀层层叠加。"
-    },
-    "latinIntro": {
-      "en": "Latin supplies the root and several living cognates that English knows well.",
-      "cn": "拉丁语提供了词根，也留下若干英语所熟知的同源词。"
-    },
-    "items": [
-      { "word": "bon-", "structure": "Latin root", "meaning": "good", "meaningCN": "好的", "example": "bonus is literally a good thing", "exampleCN": "bonus（奖金）字面即「好物」" },
-      { "word": "-ity", "structure": "Latin noun suffix", "meaning": "state or quality", "meaningCN": "性质；状态", "example": "bonitas meant goodness in Latin", "exampleCN": "拉丁语 bonitas 意为善" },
-      { "word": "-te / -ty", "structure": "Old French ending", "meaning": "quality of", "meaningCN": "……之性", "example": "bonte passed into bounty", "exampleCN": "bonte 演变为英语 bounty" },
-      { "word": "-ful", "structure": "English adjective suffix", "meaning": "full of", "meaningCN": "充满……的", "example": "bountiful is full of bounty", "exampleCN": "bountiful 即「满是慷慨」" },
-      { "word": "-ous", "structure": "Latin adjective suffix", "meaning": "having the quality of", "meaningCN": "具有……性质的", "example": "bounteous is the literary twin", "exampleCN": "bounteous 是书面化的孪生词" },
-      { "word": "bene-", "structure": "Latin combining form", "meaning": "well, good", "meaningCN": "好；善", "example": "benefit is a good done or received", "exampleCN": "benefit（益处）即所做或所受之善" },
-      { "word": "-ly", "structure": "English adverb suffix", "meaning": "in the manner of", "meaningCN": "以……方式", "example": "bountifully means in a bountiful manner", "exampleCN": "bountifully 表示「丰盛地」" },
-      { "word": "bound-", "structure": "unrelated root", "meaning": "limit", "meaningCN": "界限", "example": "boundary only looks like bounty", "exampleCN": "boundary 与 bounty 只是形近" }
-    ],
-    "latinEntries": [
-      { "word": "bonus", "structure": "Latin adjective", "meaning": "good", "meaningCN": "好的", "example": "dies bonus, a good day", "exampleCN": "dies bonus，好日子" },
-      { "word": "bonitas", "structure": "Latin noun", "meaning": "goodness", "meaningCN": "善； goodness", "example": "bonitas et gratia", "exampleCN": "善与恩典" },
-      { "word": "beneficium", "structure": "Latin noun", "meaning": "kindness, favor", "meaningCN": "恩惠；恩泽", "example": "beneficium dare, to grant a favor", "exampleCN": "施予恩惠" },
-      { "word": "bonum", "structure": "Latin noun", "meaning": "a good thing", "meaningCN": "善物；好处", "example": "summum bonum, the highest good", "exampleCN": "至善" }
+    "forms": [
+      {
+        "label": "比较级",
+        "form": "more bountiful"
+      },
+      {
+        "label": "最高级",
+        "form": "most bountiful"
+      },
+      {
+        "label": "副词",
+        "form": "bountifully"
+      },
+      {
+        "label": "名词",
+        "form": "bountifulness"
+      }
     ],
     "derivatives": [
-      { "word": "bounty", "pos": "n.", "zh": "慷慨；赏金" },
-      { "word": "bounteous", "pos": "adj.", "zh": "丰饶的；慷慨的" },
-      { "word": "bountifully", "pos": "adv.", "zh": "丰盛地；慷慨地" },
-      { "word": "bountifulness", "pos": "n.", "zh": "丰盛；慷慨" }
-    ]
+      {
+        "word": "bounty",
+        "pos": "n.",
+        "zh": "由同根名词构成，义为「慷慨赠予；赏金」"
+      },
+      {
+        "word": "bounteous",
+        "pos": "adj.",
+        "zh": "同根形容词变体，义为「丰饶的；慷慨的」"
+      },
+      {
+        "word": "bountifully",
+        "pos": "adv.",
+        "zh": "由形容词加副词后缀构成，义为「丰盛地；慷慨地」"
+      },
+      {
+        "word": "bountifulness",
+        "pos": "n.",
+        "zh": "由形容词加名词后缀构成，义为「丰盛；慷慨」"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "Existing in large quantity",
+        "titleCN": "数量巨大的；丰饶的",
+        "definition": "present in great amounts, more than enough",
+        "definitionCN": "数量极大，绰绰有余",
+        "example": "The valley enjoys a bountiful rainfall every year.",
+        "exampleCN": "这个山谷每年降水丰沛。",
+        "why": "The root bounty once meant goodness, and goodness in supply shows up first as sheer abundance.",
+        "whyCN": "词根 bounty 本义为「善」，供应上的「善」首先表现为单纯的数量充裕。"
+      },
+      {
+        "no": "02",
+        "title": "Giving freely and generously",
+        "titleCN": "慷慨给予的；大方的",
+        "definition": "willing to give more than is expected or required",
+        "definitionCN": "乐于付出超出预期或所需的给予",
+        "example": "The charity was bountiful to the flooded village.",
+        "exampleCN": "慈善组织对被淹的村庄慷慨解囊。",
+        "why": "Abundance in supply turns naturally into abundance in giving, since only the rich in goods can give richly.",
+        "whyCN": "供应的充裕自然转化为给予的慷慨，因为只有财物富足者才能慷慨相赠。"
+      },
+      {
+        "no": "03",
+        "title": "Producing abundantly",
+        "titleCN": "多产的；出产丰厚的",
+        "definition": "yielding large crops or plentiful output",
+        "definitionCN": "产出大量作物或丰富的成果",
+        "example": "The bountiful orchard fed three villages.",
+        "exampleCN": "这片丰产的果园养活了三个村庄。",
+        "why": "What is abundant in a producer is its yield, so the adjective attaches to fields, orchards, and lands.",
+        "whyCN": "对生产者而言，「充裕」体现为产量，于是该形容词常用于田地、果园、土地。"
+      },
+      {
+        "no": "04",
+        "title": "Rich in variety as well as amount",
+        "titleCN": "种类繁多的；丰盛的",
+        "definition": "abundant across many kinds, not just one",
+        "definitionCN": "不仅量大，而且种类多样",
+        "example": "The bountiful menu offered forty dishes.",
+        "exampleCN": "丰盛的菜单上有四十道菜。",
+        "why": "Plenty of one thing invites plenty of many things, extending the image from bulk to spread.",
+        "whyCN": "一物之丰引来众物之丰，意象由「成堆」扩展为「满席」。"
+      },
+      {
+        "no": "05",
+        "title": "Overflowing emotionally",
+        "titleCN": "（情感）满溢的",
+        "definition": "full to overflowing, as of feelings expressed freely",
+        "definitionCN": "情感充沛、尽兴流露的",
+        "example": "Her bountiful laughter filled the hall.",
+        "exampleCN": "她爽朗的笑声充满了大厅。",
+        "why": "The picture of a vessel running over transfers from goods to emotions.",
+        "whyCN": "容器满溢的画面由财物转移到情感上。"
+      },
+      {
+        "no": "06",
+        "title": "Freely bestowed, as of rewards",
+        "titleCN": "（奖赏）丰厚的",
+        "definition": "granted in generous amounts, as rewards or payments",
+        "definitionCN": "以大方数额发放的，如奖励或报酬",
+        "example": "The informer received a bountiful reward.",
+        "exampleCN": "告密者获得了一笔丰厚的赏金。",
+        "why": "The old noun bounty survives in prize money, and the adjective keeps this concrete use.",
+        "whyCN": "古名词 bounty 仍存于赏金义，形容词保留了这一具体用法。"
+      },
+      {
+        "no": "07",
+        "title": "Splendid in appearance",
+        "titleCN": "华美丰盛的",
+        "definition": "rich and impressive to the eye, as of displays or feasts",
+        "definitionCN": "看上去富丽可观，如陈列或盛宴",
+        "example": "The bountiful table gleamed with silver and fruit.",
+        "exampleCN": "丰盛的餐桌在银器和水果的映照下熠熠生辉。",
+        "why": "Abundance made visible becomes splendor, the sense completing from quantity to impression.",
+        "whyCN": "充裕一旦可见即成华彩，词义由数量完成到观感的过渡。"
+      },
+      {
+        "no": "08",
+        "title": "Readily available in nature",
+        "titleCN": "自然界随处可得的",
+        "definition": "supplied freely by nature without human effort",
+        "definitionCN": "无需人力而由自然大量供应的",
+        "example": "The coast is bountiful with fish and kelp.",
+        "exampleCN": "这片海岸盛产鱼类和海藻。",
+        "why": "Nature gives without being asked, the oldest picture behind the word's sense of unearned plenty.",
+        "whyCN": "自然无偿给予，这正是该词「不劳而获的丰饶」这层古义背后的最初画面。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Bountiful descends, through Old French, from Latin bonus, good, by way of the noun bounty.",
+        "cn": "bountiful 经由古法语，溯源自拉丁语 bonus（好），其名词中介为 bounty。"
+      },
+      "items": [
+        {
+          "era": "PROTO-INDO-EUROPEAN",
+          "en": "The reconstructed root deu- meant to show favor or worship, the deep source of Latin bonus.",
+          "cn": "重构词根 deu- 意为「施恩、敬奉」，是拉丁语 bonus 的深层来源。"
+        },
+        {
+          "era": "LATIN",
+          "en": "Latin bonus meant good, and bonitas meant goodness, both common in classical writing.",
+          "cn": "拉丁语 bonus 意为「好的」，bonitas 意为「善」，均见于古典文献。"
+        },
+        {
+          "era": "OLD FRENCH",
+          "en": "Old French bonte meant goodness and later liberality, borrowed from Latin bonitas.",
+          "cn": "古法语 bonte 意为「善」，后转指「慷慨」，借自拉丁语 bonitas。"
+        },
+        {
+          "era": "MIDDLE ENGLISH",
+          "en": "Middle English took bounty from Old French, first meaning goodness, then generous giving and reward.",
+          "cn": "中古英语自古法语借入 bounty，先表「善」，后表「慷慨赠予与赏金」。"
+        },
+        {
+          "era": "ENGLISH, 15TH C.",
+          "en": "The adjective bountiful formed in the fifteenth century from bounty plus -ful.",
+          "cn": "十五世纪由 bounty 加后缀 -ful 构成形容词 bountiful。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "Modern English keeps both the abundance sense and the generosity sense, with bounteous as a literary twin.",
+          "cn": "现代英语兼存「丰饶」与「慷慨」二义，另有书面色彩的同义词 bounteous。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "Bountiful sits between plenty and generosity; watch the spelling beside bounty and boundary.",
+        "cn": "bountiful 介于「充足」与「慷慨」之间；注意与 bounty、boundary 的拼写区分。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "bounty",
+              "ipa": "/ˈbaʊnti/",
+              "tag": "same root",
+              "definition": "generosity or a reward paid by authorities",
+              "definitionCN": "慷慨；赏金；同根名词"
+            },
+            {
+              "word": "bounteous",
+              "ipa": "/ˈbaʊntiəs/",
+              "tag": "same root",
+              "definition": "a literary equivalent of bountiful",
+              "definitionCN": "丰饶的；慷慨的；同根书面变体"
+            },
+            {
+              "word": "boundary",
+              "ipa": "/ˈbaʊndri/",
+              "tag": "spelling",
+              "definition": "a line marking a limit",
+              "definitionCN": "边界；与 bountiful 只是拼写相近，词源不同"
+            },
+            {
+              "word": "beautiful",
+              "ipa": "/ˈbjuːtɪfl/",
+              "tag": "spelling",
+              "definition": "pleasing to the eye",
+              "definitionCN": "美丽的；仅 -tiful 部分拼写相仿，词源无关"
+            },
+            {
+              "word": "plentiful",
+              "ipa": "/ˈplentɪfl/",
+              "tag": "different root",
+              "definition": "existing in large amounts",
+              "definitionCN": "丰富的；拼写结构相仿但词源不同"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "abundant",
+              "ipa": "/əˈbʌndənt/",
+              "tag": "near meaning",
+              "definition": "existing in very large quantities",
+              "definitionCN": "大量的；侧重数量，bountiful 兼含慷慨之意"
+            },
+            {
+              "word": "generous",
+              "ipa": "/ˈdʒenərəs/",
+              "tag": "near meaning",
+              "definition": "willing to give freely",
+              "definitionCN": "慷慨的；侧重给予态度"
+            },
+            {
+              "word": "lavish",
+              "ipa": "/ˈlævɪʃ/",
+              "tag": "near meaning",
+              "definition": "giving or spending generously, sometimes too much",
+              "definitionCN": "奢华大方的；程度比 bountiful 更强"
+            },
+            {
+              "word": "profuse",
+              "ipa": "/prəˈfjuːs/",
+              "tag": "near meaning",
+              "definition": "given or produced in great amounts",
+              "definitionCN": "大量的；常指喷涌而出之物"
+            },
+            {
+              "word": "copious",
+              "ipa": "/ˈkəʊpiəs/",
+              "tag": "near meaning",
+              "definition": "large in number or volume",
+              "definitionCN": "丰富的；多用于文字或流质"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Build on the family: bounty gives bountiful and its literary twin bounteous.",
+        "cn": "从词族入手：bounty 派生出 bountiful 及其书面孪生词 bounteous。"
+      },
+      "normal": [
+        {
+          "en": "bounty comes from Old French bonte, goodness.",
+          "cn": "bounty 源自古法语 bonte，意为善。"
+        },
+        {
+          "en": "-ful turns nouns into adjectives, as in hopeful.",
+          "cn": "-ful 把名词变成形容词，如 hopeful。"
+        },
+        {
+          "en": "a bountiful harvest is literally a harvest full of bounty.",
+          "cn": "bountiful harvest 字面即「满是善赐的收成」。"
+        },
+        {
+          "en": "prize money called a bounty keeps the reward sense alive.",
+          "cn": "赏金仍叫 bounty，保留了「奖赏」义。"
+        },
+        {
+          "en": "bounteous is the longer, more literary spelling-cousin.",
+          "cn": "bounteous 是更书面化的近亲拼写。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "Picture an urn of plenty that never tips empty.",
+          "cn": "想象一只永远倒不满的丰饶之角。"
+        },
+        {
+          "en": "A generous hand tips the basket toward you without being asked.",
+          "cn": "一只慷慨的手不待你开口就把篮子倾过来。"
+        },
+        {
+          "en": "Goodness that runs over becomes plenty; plenty that runs over becomes generosity.",
+          "cn": "满溢的善成为充足，满溢的充足成为慷慨。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "A bountiful harvest meant the village could trade grain for salt and cloth.",
+        "cn": "丰收使村子可以用谷物换取盐和布匹。"
+      },
+      {
+        "en": "The host was bountiful with food, wine, and stories alike.",
+        "cn": "主人对食物、美酒和故事都毫不吝惜。"
+      },
+      {
+        "en": "Bountiful rains followed the long drought, and the river ran full again.",
+        "cn": "久旱之后甘霖丰沛，河水再次涨满。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「抱疼副」——抱着满篮果子，抱得胳膊疼还嫌不（副）够多，这就是 bountiful 的丰足画面。",
+      "word": "bountiful"
+    },
+    "root": "拉丁词根 bon-（好，出自 bonus「好的」）经古法语 bonte（善、慷慨）进入英语作 bounty，再加形容词后缀 -ful 构成。",
+    "sensesIntro": {
+      "en": "From sheer abundance the senses move through generous giving and rich yield to fullness of feeling and natural plenty.",
+      "cn": "义项由单纯的数量丰足出发，经慷慨给予与丰饶出产，延伸至情感充盈与自然馈赠。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: a basket of goods running over and a hand tipping it toward others",
+        "cn": "核心意象：满得外溢的篮子，与一只把它倾向他人的手"
+      },
+      "chain": [
+        "PLENTY",
+        "YIELD",
+        "GIVING",
+        "REWARD",
+        "SPLENDOR",
+        "GOODNESS"
+      ],
+      "branches": [
+        {
+          "senses": "01 · 04",
+          "en": "sheer quantity: more than enough, and of many kinds",
+          "cn": "纯粹数量：绰绰有余且种类繁多"
+        },
+        {
+          "senses": "03",
+          "en": "the producer side: fields and orchards that yield richly",
+          "cn": "生产者一侧：出产丰厚的田地果园"
+        },
+        {
+          "senses": "02 · 06",
+          "en": "the giver side: free gifts and generous rewards",
+          "cn": "给予者一侧：无偿赠予与丰厚奖赏"
+        },
+        {
+          "senses": "05 · 07",
+          "en": "fullness made visible: laughter and laden tables",
+          "cn": "可见的充盈：爽朗笑声与满桌盛宴"
+        },
+        {
+          "senses": "08",
+          "en": "nature's share: plenty no one planted",
+          "cn": "自然的一份：无人耕种而成的丰饶"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "The family rests on one Latin root, bon-, with French and English suffixes added step by step.",
+        "cn": "该词族建立在拉丁词根 bon- 之上，法语与英语后缀层层叠加。"
+      },
+      "latinIntro": {
+        "en": "Latin supplies the root and several living cognates that English knows well.",
+        "cn": "拉丁语提供了词根，也留下若干英语所熟知的同源词。"
+      },
+      "items": [
+        {
+          "word": "bon-",
+          "structure": "Latin root",
+          "meaning": "good",
+          "meaningCN": "好的",
+          "example": "bonus is literally a good thing",
+          "exampleCN": "bonus（奖金）字面即「好物」"
+        },
+        {
+          "word": "-ity",
+          "structure": "Latin noun suffix",
+          "meaning": "state or quality",
+          "meaningCN": "性质；状态",
+          "example": "bonitas meant goodness in Latin",
+          "exampleCN": "拉丁语 bonitas 意为善"
+        },
+        {
+          "word": "-te / -ty",
+          "structure": "Old French ending",
+          "meaning": "quality of",
+          "meaningCN": "……之性",
+          "example": "bonte passed into bounty",
+          "exampleCN": "bonte 演变为英语 bounty"
+        },
+        {
+          "word": "-ful",
+          "structure": "English adjective suffix",
+          "meaning": "full of",
+          "meaningCN": "充满……的",
+          "example": "bountiful is full of bounty",
+          "exampleCN": "bountiful 即「满是慷慨」"
+        },
+        {
+          "word": "-ous",
+          "structure": "Latin adjective suffix",
+          "meaning": "having the quality of",
+          "meaningCN": "具有……性质的",
+          "example": "bounteous is the literary twin",
+          "exampleCN": "bounteous 是书面化的孪生词"
+        },
+        {
+          "word": "bene-",
+          "structure": "Latin combining form",
+          "meaning": "well, good",
+          "meaningCN": "好；善",
+          "example": "benefit is a good done or received",
+          "exampleCN": "benefit（益处）即所做或所受之善"
+        },
+        {
+          "word": "-ly",
+          "structure": "English adverb suffix",
+          "meaning": "in the manner of",
+          "meaningCN": "以……方式",
+          "example": "bountifully means in a bountiful manner",
+          "exampleCN": "bountifully 表示「丰盛地」"
+        },
+        {
+          "word": "bound-",
+          "structure": "unrelated root",
+          "meaning": "limit",
+          "meaningCN": "界限",
+          "example": "boundary only looks like bounty",
+          "exampleCN": "boundary 与 bounty 只是形近"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "bonus",
+          "structure": "Latin adjective",
+          "meaning": "good",
+          "meaningCN": "好的",
+          "example": "dies bonus, a good day",
+          "exampleCN": "dies bonus，好日子"
+        },
+        {
+          "word": "bonitas",
+          "structure": "Latin noun",
+          "meaning": "goodness",
+          "meaningCN": "善； goodness",
+          "example": "bonitas et gratia",
+          "exampleCN": "善与恩典"
+        },
+        {
+          "word": "beneficium",
+          "structure": "Latin noun",
+          "meaning": "kindness, favor",
+          "meaningCN": "恩惠；恩泽",
+          "example": "beneficium dare, to grant a favor",
+          "exampleCN": "施予恩惠"
+        },
+        {
+          "word": "bonum",
+          "structure": "Latin noun",
+          "meaning": "a good thing",
+          "meaningCN": "善物；好处",
+          "example": "summum bonum, the highest good",
+          "exampleCN": "至善"
+        }
+      ],
+      "derivatives": [
+        {
+          "word": "bounty",
+          "pos": "n.",
+          "zh": "慷慨；赏金"
+        },
+        {
+          "word": "bounteous",
+          "pos": "adj.",
+          "zh": "丰饶的；慷慨的"
+        },
+        {
+          "word": "bountifully",
+          "pos": "adv.",
+          "zh": "丰盛地；慷慨地"
+        },
+        {
+          "word": "bountifulness",
+          "pos": "n.",
+          "zh": "丰盛；慷慨"
+        }
+      ]
+    }
   }
-}
+]

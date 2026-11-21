@@ -1,318 +1,488 @@
-{
-  "word": "automaton",
-  "ipa_uk": "/ɔːˈtɒmətən/",
-  "ipa_us": "/ɔːˈtɑːmətɑːn/",
-  "definition_zh": "自动机；机器人；动作机械、毫无主见的人",
-  "definition_en": "a machine that moves by itself; also, a person who acts mechanically, without thinking or feeling",
-  "core_image": "上紧发条就自己动起来的机关人偶",
-  "scene": "工位上敲了一整天相同按键，他觉得自己快成了机器。After years on the line he worked like an automaton.",
-  "sceneCN": "这里 automaton 指「动作机械、不动脑的人」（第 2 个义项：比喻机械的人）；句意：在流水线干了多年，他干活已像机器人一般。",
-  "pos": [
-    { "tag": "n.", "zh": "自动机；机器人；机械行事的人" }
-  ],
-  "collocations": [
-    { "phrase": "work like an automaton", "zh": "像机器一样工作" },
-    { "phrase": "an eighteenth-century automaton", "zh": "18 世纪的机关人偶" },
-    { "phrase": "a mechanical automaton", "zh": "机械自动装置" },
-    { "phrase": "a chess-playing automaton", "zh": "会下棋的自动机（如土耳其行弈傀儡）" },
-    { "phrase": "a political automaton", "zh": "没有主见的政坛机器人" }
-  ],
-  "forms": [
-    { "label": "复数", "form": "automatons" },
-    { "label": "复数（希腊式）", "form": "automata" },
-    { "label": "形容词形式", "form": "automatonic" }
-  ],
-  "derivatives": [
-    { "word": "automatic", "pos": "adj.", "zh": "自动的；无意识的（同族词）" },
-    { "word": "automation", "pos": "n.", "zh": "自动化（automatic + -ion 系）" },
-    { "word": "automate", "pos": "v.", "zh": "使自动化（automatic 回构动词）" },
-    { "word": "automatically", "pos": "adv.", "zh": "自动地；下意识地（automatic + -ally）" },
-    { "word": "automata theory", "pos": "n.", "zh": "自动机理论（计算机科学术语，复数形式保留）" }
-  ],
-  "senses": [
-    {
-      "no": "01",
-      "title": "A self-moving machine",
-      "titleCN": "自动机械；机关人偶",
-      "definition": "a mechanical figure or device that appears to move by its own power",
-      "definitionCN": "仿佛凭自身动力运动的机械人偶或装置",
-      "example": "The museum's eighteenth-century automaton writes poems with a quill.",
-      "exampleCN": "博物馆那台 18 世纪的机关人偶能用羽毛笔写诗。",
-      "why": "The Greek automatos means self-moving; the word names any machine that seems to act alone.",
-      "whyCN": "希腊语 automatos 意为「自行运动」；这个词命名一切看似自主运作的机械。"
+[
+  {
+    "word": "automaton",
+    "ipa_uk": "/ɔːˈtɒmətən/",
+    "ipa_us": "/ɔːˈtɑːmətɑːn/",
+    "definition_zh": "自动机；机器人；动作机械、毫无主见的人",
+    "definition_en": "a machine that moves by itself; also, a person who acts mechanically, without thinking or feeling",
+    "core_image": "上紧发条就自己动起来的机关人偶",
+    "scene": "工位上敲了一整天相同按键，他觉得自己快成了机器。After years on the line he worked like an automaton.",
+    "sceneCN": "这里 automaton 指「动作机械、不动脑的人」（第 2 个义项：比喻机械的人）；句意：在流水线干了多年，他干活已像机器人一般。",
+    "pos": [
+      {
+        "tag": "n.",
+        "zh": "自动机；机器人；机械行事的人"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "work like an automaton",
+        "zh": "像机器一样工作"
+      },
+      {
+        "phrase": "an eighteenth-century automaton",
+        "zh": "18 世纪的机关人偶"
+      },
+      {
+        "phrase": "a mechanical automaton",
+        "zh": "机械自动装置"
+      },
+      {
+        "phrase": "a chess-playing automaton",
+        "zh": "会下棋的自动机（如土耳其行弈傀儡）"
+      },
+      {
+        "phrase": "a political automaton",
+        "zh": "没有主见的政坛机器人"
+      }
+    ],
+    "forms": [
+      {
+        "label": "复数",
+        "form": "automatons"
+      },
+      {
+        "label": "复数（希腊式）",
+        "form": "automata"
+      },
+      {
+        "label": "形容词形式",
+        "form": "automatonic"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "automatic",
+        "pos": "adj.",
+        "zh": "自动的；无意识的（同族词）"
+      },
+      {
+        "word": "automation",
+        "pos": "n.",
+        "zh": "自动化（automatic + -ion 系）"
+      },
+      {
+        "word": "automate",
+        "pos": "v.",
+        "zh": "使自动化（automatic 回构动词）"
+      },
+      {
+        "word": "automatically",
+        "pos": "adv.",
+        "zh": "自动地；下意识地（automatic + -ally）"
+      },
+      {
+        "word": "automata theory",
+        "pos": "n.",
+        "zh": "自动机理论（计算机科学术语，复数形式保留）"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "A self-moving machine",
+        "titleCN": "自动机械；机关人偶",
+        "definition": "a mechanical figure or device that appears to move by its own power",
+        "definitionCN": "仿佛凭自身动力运动的机械人偶或装置",
+        "example": "The museum's eighteenth-century automaton writes poems with a quill.",
+        "exampleCN": "博物馆那台 18 世纪的机关人偶能用羽毛笔写诗。",
+        "why": "The Greek automatos means self-moving; the word names any machine that seems to act alone.",
+        "whyCN": "希腊语 automatos 意为「自行运动」；这个词命名一切看似自主运作的机械。"
+      },
+      {
+        "no": "02",
+        "title": "A person acting mechanically",
+        "titleCN": "机械行事的人",
+        "definition": "a person who acts without thinking, will, or feeling, as if wound up like a machine",
+        "definitionCN": "不假思索、没有意志或情感，如上发条般行事的人",
+        "example": "Slogging through the same routine, he felt like an automaton.",
+        "exampleCN": "日复一日重复同样的例行公事，他觉得自己像台机器。",
+        "why": "Once machines imitated people, people who stopped thinking could be called machines back.",
+        "whyCN": "机器一旦模仿了人，不再思考的人便被反称为机器。"
+      },
+      {
+        "no": "03",
+        "title": "Automatic devices in engineering",
+        "titleCN": "工程学中的自动装置",
+        "definition": "any self-regulating mechanism, from clockwork to feedback systems",
+        "definitionCN": "从钟表机械到反馈系统的各种自调节机构",
+        "example": "The temple doors of Heron of Alexandria were famous automatons.",
+        "exampleCN": "亚历山大城的希伦所造神庙自动门是著名的自动装置。",
+        "why": "Ancient engineers already built self-acting machines, and the old word still fits them.",
+        "whyCN": "古代工程师早已造出自动机械，这个古老的词至今仍然适用。"
+      },
+      {
+        "no": "04",
+        "title": "In mathematics and computing",
+        "titleCN": "数学与计算机中的自动机",
+        "definition": "an abstract model of computation, such as a finite automaton",
+        "definitionCN": "计算的抽象模型，如有限自动机",
+        "example": "A finite automaton accepts or rejects strings of symbols.",
+        "exampleCN": "有限自动机接受或拒绝符号串。",
+        "why": "Computer science needed a precise name for abstract machines that act by rule alone.",
+        "whyCN": "计算机科学需要一个精确的名字来指称纯粹按规则运行的抽象机器。"
+      },
+      {
+        "no": "05",
+        "title": "Robots and androids",
+        "titleCN": "机器人；人形机械",
+        "definition": "a robot, especially one built in human form, in older or literary use",
+        "definitionCN": "机器人，尤指人形机械，见于较旧或文学用法",
+        "example": "The novel imagined automatons serving breakfast in every home.",
+        "exampleCN": "这部小说想象家家都有机器人备好早餐。",
+        "why": "Before robot was coined in 1920, automaton carried the whole fantasy.",
+        "whyCN": "1920 年 robot 一词诞生之前，automaton 独自承载着全部想象。"
+      },
+      {
+        "no": "06",
+        "title": "Blind obedience",
+        "titleCN": "盲从者",
+        "definition": "someone who obeys orders without question",
+        "definitionCN": "不加质疑、唯命是从的人",
+        "example": "The dictatorship preferred citizens who behaved like automatons.",
+        "exampleCN": "独裁政权更喜欢像机器一样顺从的公民。",
+        "why": "A person who never chooses has surrendered the self-moving power the word names.",
+        "whyCN": "从不选择的人，恰恰交出了这个词所说的「自行运动」的能力。"
+      },
+      {
+        "no": "07",
+        "title": "In philosophy of mind",
+        "titleCN": "心灵哲学中的自动机",
+        "definition": "a hypothetical being that behaves outwardly human but has no inner experience",
+        "definitionCN": "外在行为与人类无异却无内在体验的假想存在",
+        "example": "Philosophers ask whether we could ever prove another person is not an automaton.",
+        "exampleCN": "哲学家追问：我们能否证明他人不是没有内心的自动机？",
+        "why": "The machine-with-a-face raises the hardest question: where does the mind hide?",
+        "whyCN": "顶着人脸的机器提出最艰难的问题：心灵藏在何处？"
+      },
+      {
+        "no": "08",
+        "title": "In biology and ethology",
+        "titleCN": "生物学中的自动行为",
+        "definition": "an animal or organ acting by fixed mechanisms rather than intelligence",
+        "definitionCN": "凭固定机制而非智能行动的动物或器官",
+        "example": "Descartes treated animal bodies as automatons.",
+        "exampleCN": "笛卡尔把动物的身体视为自动机。",
+        "why": "Descartes split mind from body, leaving animal bodies as self-running machinery.",
+        "whyCN": "笛卡尔将心灵与身体分离，动物的身体遂成了自行运转的机械。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Automaton comes from Greek automatos, self-moving or acting of one's own will, from autos, self, plus a verb root meaning to think or intend; English borrowed it via Latin in the early seventeenth century.",
+        "cn": "automaton 出自希腊语 automatos「自行运动、出于己意的」，由 autos「自身」加表「思虑、意图」的动词词根构成；17 世纪初经拉丁语进入英语。"
+      },
+      "items": [
+        {
+          "era": "PROTO-INDO-EUROPEAN",
+          "en": "The root *men- meant to think or intend, the same root seen in mind and memory.",
+          "cn": "词根 *men- 意为「思考、意图」，与 mind、memory 同根。"
+        },
+        {
+          "era": "GREEK",
+          "en": "autos meant self and a root -matos pointed to intent; automatos meant moving of oneself, unbidden.",
+          "cn": "希腊语 autos 意为「自身」，-matos 指向意图；automatos 意为自行运动、不召自来。"
+        },
+        {
+          "era": "GREEK, AUTOMATA",
+          "en": "Homer used automata of Hephaestus' self-moving golden handmaidens; engineers like Heron built real ones.",
+          "cn": "荷马用 automata 描写赫菲斯托斯自行运动的黄金侍女；希伦等工程师造出了真实的自动机械。"
+        },
+        {
+          "era": "LATIN, AUTOMATUM",
+          "en": "Latin adopted automatum for self-moving devices in learned texts.",
+          "cn": "拉丁语以 automatum 指称学术文本中的自动装置。"
+        },
+        {
+          "era": "ENGLISH, 1610S",
+          "en": "English took automaton in the 1610s, first for self-moving machines and clockwork figures.",
+          "cn": "17 世纪 10 年代英语收入 automaton，最初指自动机械与发条人偶。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "The 18th-century automaton craze, then computing, gave us both the mocking human sense and the finite automaton.",
+          "cn": "18 世纪的机关人偶热潮与后来的计算科学，既给了我们讥人的用法，也给了我们有限自动机。"
+        }
+      ]
     },
-    {
-      "no": "02",
-      "title": "A person acting mechanically",
-      "titleCN": "机械行事的人",
-      "definition": "a person who acts without thinking, will, or feeling, as if wound up like a machine",
-      "definitionCN": "不假思索、没有意志或情感，如上发条般行事的人",
-      "example": "Slogging through the same routine, he felt like an automaton.",
-      "exampleCN": "日复一日重复同样的例行公事，他觉得自己像台机器。",
-      "why": "Once machines imitated people, people who stopped thinking could be called machines back.",
-      "whyCN": "机器一旦模仿了人，不再思考的人便被反称为机器。"
+    "similar": {
+      "note": {
+        "en": "Group one collects the auto- family and look-alikes; group two collects neighboring machine and obedience words.",
+        "cn": "第一组收 auto- 词族及形近词；第二组收相邻的机械与盲从词。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "automatic",
+              "ipa": "/ˌɔːtəˈmætɪk/",
+              "tag": "same root",
+              "definition": "self-acting; the adjective of the same Greek automatos.",
+              "definitionCN": "自动的；同一希腊词 automatos 的形容词。"
+            },
+            {
+              "word": "automation",
+              "ipa": "/ˌɔːtəˈmeɪʃn/",
+              "tag": "same root",
+              "definition": "the use of self-acting machinery in industry.",
+              "definitionCN": "自动化；工业中自动机械的运用。"
+            },
+            {
+              "word": "automobile",
+              "ipa": "/ˈɔːtəməbiːl/",
+              "tag": "same prefix, different root",
+              "definition": "a self-moving vehicle, from mobile, movable; shares auto- only.",
+              "definitionCN": "汽车，出自 mobile「可动的」；仅共享 auto-。"
+            },
+            {
+              "word": "autocrat",
+              "ipa": "/ˈɔːtəkræt/",
+              "tag": "look-alike, different root",
+              "definition": "an absolute ruler, from kratos, power; shares auto- but rules people, not gears.",
+              "definitionCN": "独裁者，出自 kratos「权力」；共享 auto- 而统辖的是人不是齿轮。"
+            },
+            {
+              "word": "automorphic",
+              "ipa": "/ˌɔːtəˈmɔːfɪk/",
+              "tag": "same prefix, different root",
+              "definition": "self-shaped, from morphe, form; a mathematics word sharing only the prefix.",
+              "definitionCN": "自同构的，出自 morphe「形」；数学词，仅共享前缀。"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "robot",
+              "ipa": "/ˈrəʊbɒt/",
+              "tag": "near meaning",
+              "definition": "a mechanical agent, from Czech robota, forced labor; coined in 1920.",
+              "definitionCN": "机器人，出自捷克语 robota「苦役」，1920 年创造。"
+            },
+            {
+              "word": "android",
+              "ipa": "/ˈændrɔɪd/",
+              "tag": "near meaning",
+              "definition": "a robot in human form, from Greek andros, man.",
+              "definitionCN": "人形机器人，出自希腊语 andros「人」。"
+            },
+            {
+              "word": "machine",
+              "ipa": "/məˈʃiːn/",
+              "tag": "near meaning",
+              "definition": "any mechanical device; the plain general term.",
+              "definitionCN": "机器；最通用的说法。"
+            },
+            {
+              "word": "puppet",
+              "ipa": "/ˈpʌpɪt/",
+              "tag": "near meaning",
+              "definition": "a figure moved by strings or hands, often of a controlled person.",
+              "definitionCN": "木偶；常喻受人摆布之人。"
+            },
+            {
+              "word": "drone",
+              "ipa": "/drəʊn/",
+              "tag": "near meaning",
+              "definition": "a dull, unfeeling worker; also an unmanned craft.",
+              "definitionCN": "乏味麻木的劳工；亦指无人机。"
+            }
+          ]
+        }
+      ]
     },
-    {
-      "no": "03",
-      "title": "Automatic devices in engineering",
-      "titleCN": "工程学中的自动装置",
-      "definition": "any self-regulating mechanism, from clockwork to feedback systems",
-      "definitionCN": "从钟表机械到反馈系统的各种自调节机构",
-      "example": "The temple doors of Heron of Alexandria were famous automatons.",
-      "exampleCN": "亚历山大城的希伦所造神庙自动门是著名的自动装置。",
-      "why": "Ancient engineers already built self-acting machines, and the old word still fits them.",
-      "whyCN": "古代工程师早已造出自动机械，这个古老的词至今仍然适用。"
+    "mnemonics": {
+      "normalIntro": {
+        "en": "automaton hides three Greek parts: auto for self, mat for intent, on for being.",
+        "cn": "automaton 藏着三个希腊成分：auto「自身」、mat「意图」、on「存在」。"
+      },
+      "normal": [
+        {
+          "en": "auto (self) + matos (moving of intent): a thing that moves by itself.",
+          "cn": "auto（自身）+ matos（出于意图的运动）：自己会动的东西。"
+        },
+        {
+          "en": "The family: automatic, automation, automate, automaton.",
+          "cn": "同族词：automatic、automation、automate、automaton。"
+        },
+        {
+          "en": "Plural check: automatons or the Greek automata.",
+          "cn": "复数两选一：automatons 或希腊式的 automata。"
+        },
+        {
+          "en": "Before robot (1920), automaton was the only word for a mechanical person.",
+          "cn": "在 robot（1920）出现前，automaton 是机械人的唯一称呼。"
+        },
+        {
+          "en": "Figurative use: an automaton works without thinking, wound up like clockwork.",
+          "cn": "比喻用法：automaton 干活不假思索，如上了发条。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "Picture a lacquered doll writing a poem as its gears tick.",
+          "cn": "想象一座漆偶在齿轮滴答声中写诗。"
+        },
+        {
+          "en": "The word is a person with the mind taken out, just the motion left.",
+          "cn": "这个词是被抽走心灵、只剩动作的人。"
+        },
+        {
+          "en": "An automaton never asks why; that is the horror and the point.",
+          "cn": "automaton 从不问为什么——这正是它的可怖之处，也是此词的要害。"
+        }
+      ]
     },
-    {
-      "no": "04",
-      "title": "In mathematics and computing",
-      "titleCN": "数学与计算机中的自动机",
-      "definition": "an abstract model of computation, such as a finite automaton",
-      "definitionCN": "计算的抽象模型，如有限自动机",
-      "example": "A finite automaton accepts or rejects strings of symbols.",
-      "exampleCN": "有限自动机接受或拒绝符号串。",
-      "why": "Computer science needed a precise name for abstract machines that act by rule alone.",
-      "whyCN": "计算机科学需要一个精确的名字来指称纯粹按规则运行的抽象机器。"
+    "examples": [
+      {
+        "en": "The clockmaker's automaton bows to the audience every hour.",
+        "cn": "钟表匠造的机关人偶每逢整点向观众鞠躬。"
+      },
+      {
+        "en": "He answered the interview questions like an automaton.",
+        "cn": "他回答面试问题时像机器人一样刻板。"
+      },
+      {
+        "en": "Every finite automaton has states, inputs, and rules.",
+        "cn": "每个有限自动机都有状态、输入与规则。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「奥透美瞳」——戴上美瞳的奥透像人偶一样，表情僵硬、动作机械",
+      "word": "automaton"
     },
-    {
-      "no": "05",
-      "title": "Robots and androids",
-      "titleCN": "机器人；人形机械",
-      "definition": "a robot, especially one built in human form, in older or literary use",
-      "definitionCN": "机器人，尤指人形机械，见于较旧或文学用法",
-      "example": "The novel imagined automatons serving breakfast in every home.",
-      "exampleCN": "这部小说想象家家都有机器人备好早餐。",
-      "why": "Before robot was coined in 1920, automaton carried the whole fantasy.",
-      "whyCN": "1920 年 robot 一词诞生之前，automaton 独自承载着全部想象。"
+    "root": "出自希腊语 automatos「自行运动的」（autos「自身」+ 词根 *men-「思虑」的 -matos 形式），荷马已用以描写神匠的自动侍女；经拉丁语 automatum 于 17 世纪初进入英语；与 automatic、automation 同根，与 autocrat（kratos「权力」）仅共享 auto-，词源确凿。",
+    "sensesIntro": {
+      "en": "Eight senses trace one word from Homer's golden handmaidens to finite-state machines: self-moving devices, mechanical people, blind obedience, and the philosophical puppet that looks human.",
+      "cn": "八义词追溯一个词从荷马的黄金侍女到有限状态机的全程：自行的机械、机械化的人、盲从者，以及形似人类的哲学傀儡。"
     },
-    {
-      "no": "06",
-      "title": "Blind obedience",
-      "titleCN": "盲从者",
-      "definition": "someone who obeys orders without question",
-      "definitionCN": "不加质疑、唯命是从的人",
-      "example": "The dictatorship preferred citizens who behaved like automatons.",
-      "exampleCN": "独裁政权更喜欢像机器一样顺从的公民。",
-      "why": "A person who never chooses has surrendered the self-moving power the word names.",
-      "whyCN": "从不选择的人，恰恰交出了这个词所说的「自行运动」的能力。"
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: motion without a mind, a figure that moves as if it chose to.",
+        "cn": "核心意象：没有心灵的运动，仿佛出于自身选择而动的人偶。"
+      },
+      "chain": [
+        "THE SELF",
+        "SELF-MOTION",
+        "THE CLOCKWORK FIGURE",
+        "THE MECHANICAL WORKER",
+        "THE BLIND FOLLOWER",
+        "THE ABSTRACT MACHINE"
+      ],
+      "branches": [
+        {
+          "senses": "01 · 03",
+          "en": "THE MACHINE SIDE: clockwork figures, temple doors, and feedback devices.",
+          "cn": "机械一面：发条人偶、神庙自动门与反馈装置。"
+        },
+        {
+          "senses": "02 · 06",
+          "en": "THE HUMAN SIDE: workers and citizens who stop choosing.",
+          "cn": "人身一面：不再做选择的工人与公民。"
+        },
+        {
+          "senses": "04",
+          "en": "THE THEORY SIDE: finite automata in mathematics and computing.",
+          "cn": "理论一面：数学与计算机中的有限自动机。"
+        },
+        {
+          "senses": "05",
+          "en": "THE ROBOT SIDE: the older name for what we now call robots.",
+          "cn": "机器人一面：如今所谓 robot 的旧称。"
+        },
+        {
+          "senses": "07 · 08",
+          "en": "THE PHILOSOPHY SIDE: minds questioned in faces and animal bodies.",
+          "cn": "哲学一面：被追问心灵的人脸与兽身。"
+        }
+      ]
     },
-    {
-      "no": "07",
-      "title": "In philosophy of mind",
-      "titleCN": "心灵哲学中的自动机",
-      "definition": "a hypothetical being that behaves outwardly human but has no inner experience",
-      "definitionCN": "外在行为与人类无异却无内在体验的假想存在",
-      "example": "Philosophers ask whether we could ever prove another person is not an automaton.",
-      "exampleCN": "哲学家追问：我们能否证明他人不是没有内心的自动机？",
-      "why": "The machine-with-a-face raises the hardest question: where does the mind hide?",
-      "whyCN": "顶着人脸的机器提出最艰难的问题：心灵藏在何处？"
-    },
-    {
-      "no": "08",
-      "title": "In biology and ethology",
-      "titleCN": "生物学中的自动行为",
-      "definition": "an animal or organ acting by fixed mechanisms rather than intelligence",
-      "definitionCN": "凭固定机制而非智能行动的动物或器官",
-      "example": "Descartes treated animal bodies as automatons.",
-      "exampleCN": "笛卡尔把动物的身体视为自动机。",
-      "why": "Descartes split mind from body, leaving animal bodies as self-running machinery.",
-      "whyCN": "笛卡尔将心灵与身体分离，动物的身体遂成了自行运转的机械。"
+    "affixes": {
+      "intro": {
+        "en": "automaton is autos plus a verb stem for intent plus the Greek noun ending; the auto- prefix carries the self-moving idea.",
+        "cn": "automaton 由 autos 加表意图的动词词干再加希腊名词词尾构成；auto- 前缀承载「自行运动」之意。"
+      },
+      "latinIntro": {
+        "en": "Greek automatos seeded a large family through Latin: automatic, automation, automate, and automaton itself.",
+        "cn": "希腊语 automatos 经拉丁语播下庞大家族：automatic、automation、automate，以及 automaton 本身。"
+      },
+      "items": [
+        {
+          "word": "autos",
+          "structure": "Greek pronoun",
+          "meaning": "self",
+          "meaningCN": "自身",
+          "example": "automatos, self-moving",
+          "exampleCN": "automatos，自行运动的"
+        },
+        {
+          "word": "-matos",
+          "structure": "verbal stem from *men-",
+          "meaning": "thinking, intending",
+          "meaningCN": "思虑；意图",
+          "example": "automatos in Homer",
+          "exampleCN": "荷马笔下的 automatos"
+        },
+        {
+          "word": "-on",
+          "structure": "Greek noun ending",
+          "meaning": "a being or thing",
+          "meaningCN": "表事物或存在",
+          "example": "automaton, electron",
+          "exampleCN": "automaton、electron 等希腊式名词"
+        },
+        {
+          "word": "automatum",
+          "structure": "Latin borrowing",
+          "meaning": "a self-moving device",
+          "meaningCN": "自动装置",
+          "example": "automatum in learned Latin",
+          "exampleCN": "学术拉丁语中的 automatum"
+        },
+        {
+          "word": "automatic",
+          "structure": "automatos + -ic",
+          "meaning": "self-acting",
+          "meaningCN": "自动的",
+          "example": "an automatic door",
+          "exampleCN": "自动门"
+        },
+        {
+          "word": "automation",
+          "structure": "automatic + -ion",
+          "meaning": "industrial self-acting systems",
+          "meaningCN": "自动化",
+          "example": "factory automation",
+          "exampleCN": "工厂自动化"
+        },
+        {
+          "word": "automata",
+          "structure": "Greek plural",
+          "meaning": "plural of automaton",
+          "meaningCN": "automaton 的希腊式复数",
+          "example": "finite automata",
+          "exampleCN": "有限自动机"
+        },
+        {
+          "word": "autonomy",
+          "structure": "autos + nomos",
+          "meaning": "self-law; shares only the prefix",
+          "meaningCN": "自治；仅共享前缀",
+          "example": "personal autonomy",
+          "exampleCN": "个人自主"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "automatum",
+          "structure": "Latin noun from Greek",
+          "meaning": "a self-moving device",
+          "meaningCN": "自动装置"
+        }
+      ]
     }
-  ],
-  "etymology": {
-    "intro": {
-      "en": "Automaton comes from Greek automatos, self-moving or acting of one's own will, from autos, self, plus a verb root meaning to think or intend; English borrowed it via Latin in the early seventeenth century.",
-      "cn": "automaton 出自希腊语 automatos「自行运动、出于己意的」，由 autos「自身」加表「思虑、意图」的动词词根构成；17 世纪初经拉丁语进入英语。"
-    },
-    "items": [
-      {
-        "era": "PROTO-INDO-EUROPEAN",
-        "en": "The root *men- meant to think or intend, the same root seen in mind and memory.",
-        "cn": "词根 *men- 意为「思考、意图」，与 mind、memory 同根。"
-      },
-      {
-        "era": "GREEK",
-        "en": "autos meant self and a root -matos pointed to intent; automatos meant moving of oneself, unbidden.",
-        "cn": "希腊语 autos 意为「自身」，-matos 指向意图；automatos 意为自行运动、不召自来。"
-      },
-      {
-        "era": "GREEK, AUTOMATA",
-        "en": "Homer used automata of Hephaestus' self-moving golden handmaidens; engineers like Heron built real ones.",
-        "cn": "荷马用 automata 描写赫菲斯托斯自行运动的黄金侍女；希伦等工程师造出了真实的自动机械。"
-      },
-      {
-        "era": "LATIN, AUTOMATUM",
-        "en": "Latin adopted automatum for self-moving devices in learned texts.",
-        "cn": "拉丁语以 automatum 指称学术文本中的自动装置。"
-      },
-      {
-        "era": "ENGLISH, 1610S",
-        "en": "English took automaton in the 1610s, first for self-moving machines and clockwork figures.",
-        "cn": "17 世纪 10 年代英语收入 automaton，最初指自动机械与发条人偶。"
-      },
-      {
-        "era": "MODERN ENGLISH",
-        "en": "The 18th-century automaton craze, then computing, gave us both the mocking human sense and the finite automaton.",
-        "cn": "18 世纪的机关人偶热潮与后来的计算科学，既给了我们讥人的用法，也给了我们有限自动机。"
-      }
-    ]
-  },
-  "similar": {
-    "note": {
-      "en": "Group one collects the auto- family and look-alikes; group two collects neighboring machine and obedience words.",
-      "cn": "第一组收 auto- 词族及形近词；第二组收相邻的机械与盲从词。"
-    },
-    "groups": [
-      {
-        "heading": "LOOK-ALIKE",
-        "entries": [
-          {
-            "word": "automatic",
-            "ipa": "/ˌɔːtəˈmætɪk/",
-            "tag": "same root",
-            "definition": "self-acting; the adjective of the same Greek automatos.",
-            "definitionCN": "自动的；同一希腊词 automatos 的形容词。"
-          },
-          {
-            "word": "automation",
-            "ipa": "/ˌɔːtəˈmeɪʃn/",
-            "tag": "same root",
-            "definition": "the use of self-acting machinery in industry.",
-            "definitionCN": "自动化；工业中自动机械的运用。"
-          },
-          {
-            "word": "automobile",
-            "ipa": "/ˈɔːtəməbiːl/",
-            "tag": "same prefix, different root",
-            "definition": "a self-moving vehicle, from mobile, movable; shares auto- only.",
-            "definitionCN": "汽车，出自 mobile「可动的」；仅共享 auto-。"
-          },
-          {
-            "word": "autocrat",
-            "ipa": "/ˈɔːtəkræt/",
-            "tag": "look-alike, different root",
-            "definition": "an absolute ruler, from kratos, power; shares auto- but rules people, not gears.",
-            "definitionCN": "独裁者，出自 kratos「权力」；共享 auto- 而统辖的是人不是齿轮。"
-          },
-          {
-            "word": "automorphic",
-            "ipa": "/ˌɔːtəˈmɔːfɪk/",
-            "tag": "same prefix, different root",
-            "definition": "self-shaped, from morphe, form; a mathematics word sharing only the prefix.",
-            "definitionCN": "自同构的，出自 morphe「形」；数学词，仅共享前缀。"
-          }
-        ]
-      },
-      {
-        "heading": "NEAR MEANING",
-        "entries": [
-          {
-            "word": "robot",
-            "ipa": "/ˈrəʊbɒt/",
-            "tag": "near meaning",
-            "definition": "a mechanical agent, from Czech robota, forced labor; coined in 1920.",
-            "definitionCN": "机器人，出自捷克语 robota「苦役」，1920 年创造。"
-          },
-          {
-            "word": "android",
-            "ipa": "/ˈændrɔɪd/",
-            "tag": "near meaning",
-            "definition": "a robot in human form, from Greek andros, man.",
-            "definitionCN": "人形机器人，出自希腊语 andros「人」。"
-          },
-          {
-            "word": "machine",
-            "ipa": "/məˈʃiːn/",
-            "tag": "near meaning",
-            "definition": "any mechanical device; the plain general term.",
-            "definitionCN": "机器；最通用的说法。"
-          },
-          {
-            "word": "puppet",
-            "ipa": "/ˈpʌpɪt/",
-            "tag": "near meaning",
-            "definition": "a figure moved by strings or hands, often of a controlled person.",
-            "definitionCN": "木偶；常喻受人摆布之人。"
-          },
-          {
-            "word": "drone",
-            "ipa": "/drəʊn/",
-            "tag": "near meaning",
-            "definition": "a dull, unfeeling worker; also an unmanned craft.",
-            "definitionCN": "乏味麻木的劳工；亦指无人机。"
-          }
-        ]
-      }
-    ]
-  },
-  "mnemonics": {
-    "normalIntro": {
-      "en": "automaton hides three Greek parts: auto for self, mat for intent, on for being.",
-      "cn": "automaton 藏着三个希腊成分：auto「自身」、mat「意图」、on「存在」。"
-    },
-    "normal": [
-      { "en": "auto (self) + matos (moving of intent): a thing that moves by itself.", "cn": "auto（自身）+ matos（出于意图的运动）：自己会动的东西。" },
-      { "en": "The family: automatic, automation, automate, automaton.", "cn": "同族词：automatic、automation、automate、automaton。" },
-      { "en": "Plural check: automatons or the Greek automata.", "cn": "复数两选一：automatons 或希腊式的 automata。" },
-      { "en": "Before robot (1920), automaton was the only word for a mechanical person.", "cn": "在 robot（1920）出现前，automaton 是机械人的唯一称呼。" },
-      { "en": "Figurative use: an automaton works without thinking, wound up like clockwork.", "cn": "比喻用法：automaton 干活不假思索，如上了发条。" }
-    ],
-    "abstract": [
-      { "en": "Picture a lacquered doll writing a poem as its gears tick.", "cn": "想象一座漆偶在齿轮滴答声中写诗。" },
-      { "en": "The word is a person with the mind taken out, just the motion left.", "cn": "这个词是被抽走心灵、只剩动作的人。" },
-      { "en": "An automaton never asks why; that is the horror and the point.", "cn": "automaton 从不问为什么——这正是它的可怖之处，也是此词的要害。" }
-    ]
-  },
-  "examples": [
-    { "en": "The clockmaker's automaton bows to the audience every hour.", "cn": "钟表匠造的机关人偶每逢整点向观众鞠躬。" },
-    { "en": "He answered the interview questions like an automaton.", "cn": "他回答面试问题时像机器人一样刻板。" },
-    { "en": "Every finite automaton has states, inputs, and rules.", "cn": "每个有限自动机都有状态、输入与规则。" }
-  ],
-  "dict_mnemonic": {
-    "note": "谐音记忆 · 非词源",
-    "text": "「奥透美瞳」——戴上美瞳的奥透像人偶一样，表情僵硬、动作机械",
-    "word": "automaton"
-  },
-  "root": "出自希腊语 automatos「自行运动的」（autos「自身」+ 词根 *men-「思虑」的 -matos 形式），荷马已用以描写神匠的自动侍女；经拉丁语 automatum 于 17 世纪初进入英语；与 automatic、automation 同根，与 autocrat（kratos「权力」）仅共享 auto-，词源确凿。",
-  "sensesIntro": {
-    "en": "Eight senses trace one word from Homer's golden handmaidens to finite-state machines: self-moving devices, mechanical people, blind obedience, and the philosophical puppet that looks human.",
-    "cn": "八义词追溯一个词从荷马的黄金侍女到有限状态机的全程：自行的机械、机械化的人、盲从者，以及形似人类的哲学傀儡。"
-  },
-  "semanticMap": {
-    "core": {
-      "en": "CORE IMAGE: motion without a mind, a figure that moves as if it chose to.",
-      "cn": "核心意象：没有心灵的运动，仿佛出于自身选择而动的人偶。"
-    },
-    "chain": ["THE SELF", "SELF-MOTION", "THE CLOCKWORK FIGURE", "THE MECHANICAL WORKER", "THE BLIND FOLLOWER", "THE ABSTRACT MACHINE"],
-    "branches": [
-      { "senses": "01 · 03", "en": "THE MACHINE SIDE: clockwork figures, temple doors, and feedback devices.", "cn": "机械一面：发条人偶、神庙自动门与反馈装置。" },
-      { "senses": "02 · 06", "en": "THE HUMAN SIDE: workers and citizens who stop choosing.", "cn": "人身一面：不再做选择的工人与公民。" },
-      { "senses": "04", "en": "THE THEORY SIDE: finite automata in mathematics and computing.", "cn": "理论一面：数学与计算机中的有限自动机。" },
-      { "senses": "05", "en": "THE ROBOT SIDE: the older name for what we now call robots.", "cn": "机器人一面：如今所谓 robot 的旧称。" },
-      { "senses": "07 · 08", "en": "THE PHILOSOPHY SIDE: minds questioned in faces and animal bodies.", "cn": "哲学一面：被追问心灵的人脸与兽身。" }
-    ]
-  },
-  "affixes": {
-    "intro": {
-      "en": "automaton is autos plus a verb stem for intent plus the Greek noun ending; the auto- prefix carries the self-moving idea.",
-      "cn": "automaton 由 autos 加表意图的动词词干再加希腊名词词尾构成；auto- 前缀承载「自行运动」之意。"
-    },
-    "latinIntro": {
-      "en": "Greek automatos seeded a large family through Latin: automatic, automation, automate, and automaton itself.",
-      "cn": "希腊语 automatos 经拉丁语播下庞大家族：automatic、automation、automate，以及 automaton 本身。"
-    },
-    "items": [
-      { "word": "autos", "structure": "Greek pronoun", "meaning": "self", "meaningCN": "自身", "example": "automatos, self-moving", "exampleCN": "automatos，自行运动的" },
-      { "word": "-matos", "structure": "verbal stem from *men-", "meaning": "thinking, intending", "meaningCN": "思虑；意图", "example": "automatos in Homer", "exampleCN": "荷马笔下的 automatos" },
-      { "word": "-on", "structure": "Greek noun ending", "meaning": "a being or thing", "meaningCN": "表事物或存在", "example": "automaton, electron", "exampleCN": "automaton、electron 等希腊式名词" },
-      { "word": "automatum", "structure": "Latin borrowing", "meaning": "a self-moving device", "meaningCN": "自动装置", "example": "automatum in learned Latin", "exampleCN": "学术拉丁语中的 automatum" },
-      { "word": "automatic", "structure": "automatos + -ic", "meaning": "self-acting", "meaningCN": "自动的", "example": "an automatic door", "exampleCN": "自动门" },
-      { "word": "automation", "structure": "automatic + -ion", "meaning": "industrial self-acting systems", "meaningCN": "自动化", "example": "factory automation", "exampleCN": "工厂自动化" },
-      { "word": "automata", "structure": "Greek plural", "meaning": "plural of automaton", "meaningCN": "automaton 的希腊式复数", "example": "finite automata", "exampleCN": "有限自动机" },
-      { "word": "autonomy", "structure": "autos + nomos", "meaning": "self-law; shares only the prefix", "meaningCN": "自治；仅共享前缀", "example": "personal autonomy", "exampleCN": "个人自主" }
-    ],
-    "latinEntries": [
-      { "word": "automatum", "structure": "Latin noun from Greek", "meaning": "a self-moving device", "meaningCN": "自动装置" }
-    ]
   }
-}
+]

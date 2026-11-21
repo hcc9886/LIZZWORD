@@ -1,158 +1,446 @@
-{
-  "word": "bulwark",
-  "ipa_uk": "/ˈbʊlwək/",
-  "ipa_us": "/ˈbʊlwɜːrk/",
-  "definition_zh": "壁垒；堡垒；保障；支柱",
-  "definition_en": "a defensive wall or rampart; a strong protection or supporter of something",
-  "core_image": "厚实的城垛挡在城门之外",
-  "scene": "敌军压境，市民连夜加固城垣。A free press is a bulwark of democracy.",
-  "sceneCN": "这里 bulwark 是「保障、屏障」（第 3 个义项：抽象的守护力量）；句意是新闻自由是民主的堡垒。",
-  "pos": [
-    { "tag": "n.", "zh": "壁垒；堡垒；防波堤；保障" },
-    { "tag": "vt.", "zh": "筑垒防护；保卫" }
-  ],
-  "collocations": [
-    { "phrase": "a bulwark against", "zh": "抵御……的屏障" },
-    { "phrase": "a bulwark of democracy", "zh": "民主的堡垒" },
-    { "phrase": "stone bulwarks", "zh": "石砌壁垒" },
-    { "phrase": "the ship's bulwarks", "zh": "船舷护栏" },
-    { "phrase": "a bulwark of the community", "zh": "社区的支柱" }
-  ],
-  "forms": [
-    { "label": "复数", "form": "bulwarks" },
-    { "label": "过去式", "form": "bulwarked" },
-    { "label": "过去分词", "form": "bulwarked" },
-    { "label": "现在分词", "form": "bulwarking" },
-    { "label": "三单", "form": "bulwarks" }
-  ],
-  "derivatives": [
-    { "word": "rampart", "pos": "n.", "zh": "近义词，义为「壁垒，防御土墙」（法语同源成分）" },
-    { "word": "boulevard", "pos": "n.", "zh": "同族词，由荷兰语同源词入法语，义为「林荫大道」" },
-    { "word": "bulwarked", "pos": "adj.", "zh": "由过去分词转形容词，义为「筑有壁垒的」" }
-  ],
-  "senses": [
-    {
-      "no": "01",
-      "title": "A defensive wall or rampart",
-      "titleCN": "壁垒；防御工事",
-      "definition": "a solid wall or earthwork built to defend a place",
-      "definitionCN": "为守御而修筑的坚实墙体或土垒",
-      "example": "Stone bulwarks ringed the medieval town.",
-      "exampleCN": "石砌壁垒环绕着中世纪城镇。",
-      "why": "The Dutch source means timber stockade: planks stood up as walls.",
-      "whyCN": "荷兰语源词本指木栅，木板竖立即为墙。"
-    },
-    {
-      "no": "02",
-      "title": "The raised side of a ship",
-      "titleCN": "船舷护栏；舷墙",
-      "definition": "the raised planking along the sides of a ship above deck",
-      "definitionCN": "甲板两侧加高的船板",
-      "example": "Sailors leaned against the bulwarks watching the storm.",
-      "exampleCN": "水手倚着舷墙观望风暴。",
-      "why": "Any raised defensive edge extends from city wall to ship's rail.",
-      "whyCN": "一切加高的护边都由城墙延伸到船舷。"
-    },
-    {
-      "no": "03",
-      "title": "A strong protection or supporter",
-      "titleCN": "保障；支柱（比喻义）",
-      "definition": "a person, institution or principle that defends something valuable",
-      "definitionCN": "捍卫某项珍贵事物的力量或机构",
-      "example": "Independent courts are a bulwark against tyranny.",
-      "exampleCN": "独立的法院是抵御暴政的堡垒。",
-      "why": "The physical wall is lifted into the moral one: protection without masonry.",
-      "whyCN": "石墙升华为道义之墙，无砖无瓦同样御敌，义项转入比喻。"
-    }
-  ],
-  "etymology": {
-    "intro": { "en": "Bulwark came through German from Dutch boornwork, a timber rampart.", "cn": "bulwark 经由德语源自荷兰语，本指木制壁垒。" },
-    "items": [
-      { "era": "PROTO-GERMANIC", "en": "a reconstructed root bol- meant tree trunk or plank.", "cn": "重构词根 bol- 指树干或木板。" },
-      { "era": "DUTCH", "en": "bolwerk meant a rampart of piled timber.", "cn": "荷兰语 bolwerk 指以木材垒成的壁垒。" },
-      { "era": "GERMAN", "en": "Bollwerk carried the same sense into continental usage.", "cn": "德语 Bollwerk 沿用此义并传播开来。" },
-      { "era": "ENGLISH, 15TH–16TH C.", "en": "bulwark entered English for fortifications, then ship railings.", "cn": "十五至十六世纪 bulwark 进入英语，先指工事，后指舷墙。" },
-      { "era": "PRESENT DAY ENGLISH", "en": "bulwark now names any strong defender, chiefly in political and moral writing.", "cn": "如今 bulwark 泛指坚强的守护者，多见于政治与道德论述。" }
-    ]
-  },
-  "similar": {
-    "note": { "en": "Bulwark keeps its plank-root cousins close and stands by the fortress lexicon.", "cn": "bulwark 与同出「木板」词根的词相邻，同属堡垒语汇。" },
-    "groups": [
+[
+  {
+    "word": "bulwark",
+    "ipa_uk": "/ˈbʊlwək/",
+    "ipa_us": "/ˈbʊlwɜːrk/",
+    "definition_zh": "壁垒；堡垒；保障；支柱",
+    "definition_en": "a defensive wall or rampart; a strong protection or supporter of something",
+    "core_image": "厚实的城垛挡在城门之外",
+    "scene": "敌军压境，市民连夜加固城垣。A free press is a bulwark of democracy.",
+    "sceneCN": "这里 bulwark 是「保障、屏障」（第 3 个义项：抽象的守护力量）；句意是新闻自由是民主的堡垒。",
+    "pos": [
       {
-        "heading": "LOOK-ALIKE",
-        "entries": [
-          { "word": "boulevard", "ipa": "/ˈbuːləvɑːd/", "tag": "same root", "definition": "a wide street, from the same Dutch rampart word", "definitionCN": "林荫大道，与 bulwark 同出荷兰语壁垒一词" },
-          { "word": "bulwarks", "ipa": "/ˈbʊlwəks/", "tag": "plural", "definition": "more than one bulwark", "definitionCN": "bulwark 的复数" },
-          { "word": "blockhouse", "ipa": "/ˈblɒkhaʊs/", "tag": "same root", "definition": "a timber fortress", "definitionCN": "木堡，同含「木块」词根" },
-          { "word": "bulkhead", "ipa": "/ˈbʌlkhed/", "tag": "spelling", "definition": "a partition on a ship", "definitionCN": "舱壁，拼形相近且同属航海词，词源稍异" }
-        ]
+        "tag": "n.",
+        "zh": "壁垒；堡垒；防波堤；保障"
       },
       {
-        "heading": "NEAR MEANING",
-        "entries": [
-          { "word": "rampart", "ipa": "/ˈræmpɑːt/", "tag": "near meaning", "definition": "a broad defensive wall", "definitionCN": "壁垒，防御土墙" },
-          { "word": "bastion", "ipa": "/ˈbæstiən/", "tag": "near meaning", "definition": "a projecting fortification; a stronghold", "definitionCN": "棱堡；堡垒，据点" },
-          { "word": "fortress", "ipa": "/ˈfɔːtrəs/", "tag": "near meaning", "definition": "a fortified place", "definitionCN": "要塞，堡垒" },
-          { "word": "citadel", "ipa": "/ˈsɪtədəl/", "tag": "near meaning", "definition": "a fortress protecting a city", "definitionCN": "城寨，护卫城市的城堡" },
-          { "word": "stronghold", "ipa": "/ˈstrɒŋhəʊld/", "tag": "near meaning", "definition": "a well-defended place or base", "definitionCN": "据点，大本营" }
-        ]
+        "tag": "vt.",
+        "zh": "筑垒防护；保卫"
       }
-    ]
-  },
-  "mnemonics": {
-    "normalIntro": { "en": "Board upon board, a Dutch rampart stands as your shield.", "cn": "木板层层相叠，荷兰式的壁垒就是盾。" },
-    "normal": [
-      { "en": "The root bol- means plank; werk means work, so a plankwork.", "cn": "词根 bol- 即木板，werk 即工事，合为「木板工事」。" },
-      { "en": "Boulevard is its soft modern descendant: a rampart turned promenade.", "cn": "boulevard 是它的后代：壁垒变成了林荫道。" },
-      { "en": "Ship bulwarks stop waves, not armies.", "cn": "船的舷墙挡的是浪，不是敌军。" },
-      { "en": "A bulwark against something is the set phrase.", "cn": "a bulwark against something 是固定搭配。" },
-      { "en": "German Bollwerk is the twin spelling.", "cn": "德语 Bollwerk 是它的孪生拼法。" }
     ],
-    "abstract": [
-      { "en": "Feel a stone shoulder take the siege ram's blow.", "cn": "感受石墙肩头替你扛下攻城锤。" },
-      { "en": "See a sea wall break the gray wave.", "cn": "看见防波堤截断灰色的巨浪。" },
-      { "en": "Hear a judge's gavel guard the courtroom door.", "cn": "听法官法槌守护法庭之门。" }
-    ]
-  },
-  "examples": [
-    { "en": "The treaty was a bulwark against further invasions.", "cn": "这项条约是抵御进一步入侵的屏障。" },
-    { "en": "Grandmother was the bulwark of the whole family.", "cn": "祖母是全家人的靠山。" },
-    { "en": "Sailors repaired the storm-damaged bulwarks.", "cn": "水手们修补了被风暴损坏的舷墙。" }
-  ],
-  "dict_mnemonic": { "note": "谐音记忆 · 非词源", "text": "「布尔沃克」——布尔人「沃克」（walk）巡逻的壁垒，一步不漏地守着城墙。", "word": "bulwark" },
-  "root": "bulwark 源自荷兰语 bolwerk（木板垒成的壁垒），词根一般追溯至原始日耳曼语 bol-（树干、木板）加 werk（工事），经德语 Bollwerk 进入英语；同源词 boulevard（林荫大道）由「壁垒」转指「壁上漫步之道」。词源学家或注：bol- 另有「圆木」说，来源略存争议。",
-  "sensesIntro": { "en": "Timber walls defend a town, rise along a ship's side, and finally stand as moral protection.", "cn": "木板墙守卫城镇，延至船舷，最终化作道义上的屏障。" },
-  "semanticMap": {
-    "core": { "en": "CORE IMAGE: piled timbers standing firm against the enemy.", "cn": "核心意象：层层木料垒成的壁垒，岿然御敌。" },
-    "chain": ["TIMBER", "RAMPART", "DEFENSE", "SHELTER", "RESISTANCE", "GUARDIANSHIP"],
-    "branches": [
-      { "senses": "01", "en": "the bulwarks of an old city", "cn": "古城的壁垒" },
-      { "senses": "01 · 03", "en": "a bulwark against invasion", "cn": "抵御入侵的屏障" },
-      { "senses": "02", "en": "leaning on the bulwarks", "cn": "倚着船舷护栏" },
-      { "senses": "03", "en": "a bulwark of free speech", "cn": "言论自由的堡垒" },
-      { "senses": "01 · 03", "en": "bulwark institutions of a republic", "cn": "共和国的柱石机构" }
-    ]
-  },
-  "affixes": {
-    "intro": { "en": "Bulwark is a compound of material plus work: what the planks make.", "cn": "bulwark 是「材料＋工事」的复合词：木板筑成之物。" },
-    "latinIntro": { "en": "The root is Germanic; Latin offers only the later synonym rampart.", "cn": "词根属日耳曼语源，拉丁语只提供了后起的同义词 rampart。" },
-    "items": [
-      { "word": "bol-", "structure": "Proto-Germanic root", "meaning": "plank, tree trunk", "meaningCN": "木板，圆木", "example": "bolwerk", "exampleCN": "木板壁垒（如该词所示）" },
-      { "word": "werk", "structure": "Germanic noun", "meaning": "work, fortification", "meaningCN": "工事", "example": "fortress werk words", "exampleCN": "各类工事名称（如 bulwark）" },
-      { "word": "bulwark", "structure": "bol- + werk", "meaning": "a defensive rampart", "meaningCN": "壁垒", "example": "a bulwark against tyranny", "exampleCN": "抵御暴政的堡垒" },
-      { "word": "boulevard", "structure": "Dutch bolwerk via French", "meaning": "a broad street", "meaningCN": "林荫大道", "example": "walk down the boulevard", "exampleCN": "沿林荫道漫步" },
-      { "word": "blockhouse", "structure": "block + house", "meaning": "a timber fort", "meaningCN": "木堡", "example": "a frontier blockhouse", "exampleCN": "边塞木堡" },
-      { "word": "bulkhead", "structure": "bulk + head", "meaning": "a ship's partition", "meaningCN": "舱壁", "example": "watertight bulkheads", "exampleCN": "水密舱壁" },
-      { "word": "rampart", "structure": "French remparer", "meaning": "a broad defensive bank", "meaningCN": "壁垒", "example": "walk the ramparts", "exampleCN": "沿城墙漫步" },
-      { "word": "bastion", "structure": "French bastir", "meaning": "a projecting fort; a stronghold", "meaningCN": "棱堡；堡垒", "example": "a bastion of tradition", "exampleCN": "传统的堡垒" },
-      { "word": "fortify", "structure": "Latin fortis + -fy", "meaning": "to strengthen defenses", "meaningCN": "设防，加固", "example": "fortify the border", "exampleCN": "加强边境防务" },
-      { "word": "citadel", "structure": "Italian citadella", "meaning": "a city fortress", "meaningCN": "城寨", "example": "the citadel of Aleppo", "exampleCN": "阿勒颇城堡" }
+    "collocations": [
+      {
+        "phrase": "a bulwark against",
+        "zh": "抵御……的屏障"
+      },
+      {
+        "phrase": "a bulwark of democracy",
+        "zh": "民主的堡垒"
+      },
+      {
+        "phrase": "stone bulwarks",
+        "zh": "石砌壁垒"
+      },
+      {
+        "phrase": "the ship's bulwarks",
+        "zh": "船舷护栏"
+      },
+      {
+        "phrase": "a bulwark of the community",
+        "zh": "社区的支柱"
+      }
     ],
-    "latinEntries": [
-      { "word": "moenia", "structure": "Latin noun, cognate field", "meaning": "city walls", "meaningCN": "城墙（拉丁语壁垒词，近义对照）" }
+    "forms": [
+      {
+        "label": "复数",
+        "form": "bulwarks"
+      },
+      {
+        "label": "过去式",
+        "form": "bulwarked"
+      },
+      {
+        "label": "过去分词",
+        "form": "bulwarked"
+      },
+      {
+        "label": "现在分词",
+        "form": "bulwarking"
+      },
+      {
+        "label": "三单",
+        "form": "bulwarks"
+      }
     ],
     "derivatives": [
-      { "word": "bulwarked", "pos": "adj.", "zh": "筑有壁垒的" }
-    ]
+      {
+        "word": "rampart",
+        "pos": "n.",
+        "zh": "近义词，义为「壁垒，防御土墙」（法语同源成分）"
+      },
+      {
+        "word": "boulevard",
+        "pos": "n.",
+        "zh": "同族词，由荷兰语同源词入法语，义为「林荫大道」"
+      },
+      {
+        "word": "bulwarked",
+        "pos": "adj.",
+        "zh": "由过去分词转形容词，义为「筑有壁垒的」"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "A defensive wall or rampart",
+        "titleCN": "壁垒；防御工事",
+        "definition": "a solid wall or earthwork built to defend a place",
+        "definitionCN": "为守御而修筑的坚实墙体或土垒",
+        "example": "Stone bulwarks ringed the medieval town.",
+        "exampleCN": "石砌壁垒环绕着中世纪城镇。",
+        "why": "The Dutch source means timber stockade: planks stood up as walls.",
+        "whyCN": "荷兰语源词本指木栅，木板竖立即为墙。"
+      },
+      {
+        "no": "02",
+        "title": "The raised side of a ship",
+        "titleCN": "船舷护栏；舷墙",
+        "definition": "the raised planking along the sides of a ship above deck",
+        "definitionCN": "甲板两侧加高的船板",
+        "example": "Sailors leaned against the bulwarks watching the storm.",
+        "exampleCN": "水手倚着舷墙观望风暴。",
+        "why": "Any raised defensive edge extends from city wall to ship's rail.",
+        "whyCN": "一切加高的护边都由城墙延伸到船舷。"
+      },
+      {
+        "no": "03",
+        "title": "A strong protection or supporter",
+        "titleCN": "保障；支柱（比喻义）",
+        "definition": "a person, institution or principle that defends something valuable",
+        "definitionCN": "捍卫某项珍贵事物的力量或机构",
+        "example": "Independent courts are a bulwark against tyranny.",
+        "exampleCN": "独立的法院是抵御暴政的堡垒。",
+        "why": "The physical wall is lifted into the moral one: protection without masonry.",
+        "whyCN": "石墙升华为道义之墙，无砖无瓦同样御敌，义项转入比喻。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Bulwark came through German from Dutch boornwork, a timber rampart.",
+        "cn": "bulwark 经由德语源自荷兰语，本指木制壁垒。"
+      },
+      "items": [
+        {
+          "era": "PROTO-GERMANIC",
+          "en": "a reconstructed root bol- meant tree trunk or plank.",
+          "cn": "重构词根 bol- 指树干或木板。"
+        },
+        {
+          "era": "DUTCH",
+          "en": "bolwerk meant a rampart of piled timber.",
+          "cn": "荷兰语 bolwerk 指以木材垒成的壁垒。"
+        },
+        {
+          "era": "GERMAN",
+          "en": "Bollwerk carried the same sense into continental usage.",
+          "cn": "德语 Bollwerk 沿用此义并传播开来。"
+        },
+        {
+          "era": "ENGLISH, 15TH–16TH C.",
+          "en": "bulwark entered English for fortifications, then ship railings.",
+          "cn": "十五至十六世纪 bulwark 进入英语，先指工事，后指舷墙。"
+        },
+        {
+          "era": "PRESENT DAY ENGLISH",
+          "en": "bulwark now names any strong defender, chiefly in political and moral writing.",
+          "cn": "如今 bulwark 泛指坚强的守护者，多见于政治与道德论述。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "Bulwark keeps its plank-root cousins close and stands by the fortress lexicon.",
+        "cn": "bulwark 与同出「木板」词根的词相邻，同属堡垒语汇。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "boulevard",
+              "ipa": "/ˈbuːləvɑːd/",
+              "tag": "same root",
+              "definition": "a wide street, from the same Dutch rampart word",
+              "definitionCN": "林荫大道，与 bulwark 同出荷兰语壁垒一词"
+            },
+            {
+              "word": "bulwarks",
+              "ipa": "/ˈbʊlwəks/",
+              "tag": "plural",
+              "definition": "more than one bulwark",
+              "definitionCN": "bulwark 的复数"
+            },
+            {
+              "word": "blockhouse",
+              "ipa": "/ˈblɒkhaʊs/",
+              "tag": "same root",
+              "definition": "a timber fortress",
+              "definitionCN": "木堡，同含「木块」词根"
+            },
+            {
+              "word": "bulkhead",
+              "ipa": "/ˈbʌlkhed/",
+              "tag": "spelling",
+              "definition": "a partition on a ship",
+              "definitionCN": "舱壁，拼形相近且同属航海词，词源稍异"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "rampart",
+              "ipa": "/ˈræmpɑːt/",
+              "tag": "near meaning",
+              "definition": "a broad defensive wall",
+              "definitionCN": "壁垒，防御土墙"
+            },
+            {
+              "word": "bastion",
+              "ipa": "/ˈbæstiən/",
+              "tag": "near meaning",
+              "definition": "a projecting fortification; a stronghold",
+              "definitionCN": "棱堡；堡垒，据点"
+            },
+            {
+              "word": "fortress",
+              "ipa": "/ˈfɔːtrəs/",
+              "tag": "near meaning",
+              "definition": "a fortified place",
+              "definitionCN": "要塞，堡垒"
+            },
+            {
+              "word": "citadel",
+              "ipa": "/ˈsɪtədəl/",
+              "tag": "near meaning",
+              "definition": "a fortress protecting a city",
+              "definitionCN": "城寨，护卫城市的城堡"
+            },
+            {
+              "word": "stronghold",
+              "ipa": "/ˈstrɒŋhəʊld/",
+              "tag": "near meaning",
+              "definition": "a well-defended place or base",
+              "definitionCN": "据点，大本营"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Board upon board, a Dutch rampart stands as your shield.",
+        "cn": "木板层层相叠，荷兰式的壁垒就是盾。"
+      },
+      "normal": [
+        {
+          "en": "The root bol- means plank; werk means work, so a plankwork.",
+          "cn": "词根 bol- 即木板，werk 即工事，合为「木板工事」。"
+        },
+        {
+          "en": "Boulevard is its soft modern descendant: a rampart turned promenade.",
+          "cn": "boulevard 是它的后代：壁垒变成了林荫道。"
+        },
+        {
+          "en": "Ship bulwarks stop waves, not armies.",
+          "cn": "船的舷墙挡的是浪，不是敌军。"
+        },
+        {
+          "en": "A bulwark against something is the set phrase.",
+          "cn": "a bulwark against something 是固定搭配。"
+        },
+        {
+          "en": "German Bollwerk is the twin spelling.",
+          "cn": "德语 Bollwerk 是它的孪生拼法。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "Feel a stone shoulder take the siege ram's blow.",
+          "cn": "感受石墙肩头替你扛下攻城锤。"
+        },
+        {
+          "en": "See a sea wall break the gray wave.",
+          "cn": "看见防波堤截断灰色的巨浪。"
+        },
+        {
+          "en": "Hear a judge's gavel guard the courtroom door.",
+          "cn": "听法官法槌守护法庭之门。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "The treaty was a bulwark against further invasions.",
+        "cn": "这项条约是抵御进一步入侵的屏障。"
+      },
+      {
+        "en": "Grandmother was the bulwark of the whole family.",
+        "cn": "祖母是全家人的靠山。"
+      },
+      {
+        "en": "Sailors repaired the storm-damaged bulwarks.",
+        "cn": "水手们修补了被风暴损坏的舷墙。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「布尔沃克」——布尔人「沃克」（walk）巡逻的壁垒，一步不漏地守着城墙。",
+      "word": "bulwark"
+    },
+    "root": "bulwark 源自荷兰语 bolwerk（木板垒成的壁垒），词根一般追溯至原始日耳曼语 bol-（树干、木板）加 werk（工事），经德语 Bollwerk 进入英语；同源词 boulevard（林荫大道）由「壁垒」转指「壁上漫步之道」。词源学家或注：bol- 另有「圆木」说，来源略存争议。",
+    "sensesIntro": {
+      "en": "Timber walls defend a town, rise along a ship's side, and finally stand as moral protection.",
+      "cn": "木板墙守卫城镇，延至船舷，最终化作道义上的屏障。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: piled timbers standing firm against the enemy.",
+        "cn": "核心意象：层层木料垒成的壁垒，岿然御敌。"
+      },
+      "chain": [
+        "TIMBER",
+        "RAMPART",
+        "DEFENSE",
+        "SHELTER",
+        "RESISTANCE",
+        "GUARDIANSHIP"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "the bulwarks of an old city",
+          "cn": "古城的壁垒"
+        },
+        {
+          "senses": "01 · 03",
+          "en": "a bulwark against invasion",
+          "cn": "抵御入侵的屏障"
+        },
+        {
+          "senses": "02",
+          "en": "leaning on the bulwarks",
+          "cn": "倚着船舷护栏"
+        },
+        {
+          "senses": "03",
+          "en": "a bulwark of free speech",
+          "cn": "言论自由的堡垒"
+        },
+        {
+          "senses": "01 · 03",
+          "en": "bulwark institutions of a republic",
+          "cn": "共和国的柱石机构"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Bulwark is a compound of material plus work: what the planks make.",
+        "cn": "bulwark 是「材料＋工事」的复合词：木板筑成之物。"
+      },
+      "latinIntro": {
+        "en": "The root is Germanic; Latin offers only the later synonym rampart.",
+        "cn": "词根属日耳曼语源，拉丁语只提供了后起的同义词 rampart。"
+      },
+      "items": [
+        {
+          "word": "bol-",
+          "structure": "Proto-Germanic root",
+          "meaning": "plank, tree trunk",
+          "meaningCN": "木板，圆木",
+          "example": "bolwerk",
+          "exampleCN": "木板壁垒（如该词所示）"
+        },
+        {
+          "word": "werk",
+          "structure": "Germanic noun",
+          "meaning": "work, fortification",
+          "meaningCN": "工事",
+          "example": "fortress werk words",
+          "exampleCN": "各类工事名称（如 bulwark）"
+        },
+        {
+          "word": "bulwark",
+          "structure": "bol- + werk",
+          "meaning": "a defensive rampart",
+          "meaningCN": "壁垒",
+          "example": "a bulwark against tyranny",
+          "exampleCN": "抵御暴政的堡垒"
+        },
+        {
+          "word": "boulevard",
+          "structure": "Dutch bolwerk via French",
+          "meaning": "a broad street",
+          "meaningCN": "林荫大道",
+          "example": "walk down the boulevard",
+          "exampleCN": "沿林荫道漫步"
+        },
+        {
+          "word": "blockhouse",
+          "structure": "block + house",
+          "meaning": "a timber fort",
+          "meaningCN": "木堡",
+          "example": "a frontier blockhouse",
+          "exampleCN": "边塞木堡"
+        },
+        {
+          "word": "bulkhead",
+          "structure": "bulk + head",
+          "meaning": "a ship's partition",
+          "meaningCN": "舱壁",
+          "example": "watertight bulkheads",
+          "exampleCN": "水密舱壁"
+        },
+        {
+          "word": "rampart",
+          "structure": "French remparer",
+          "meaning": "a broad defensive bank",
+          "meaningCN": "壁垒",
+          "example": "walk the ramparts",
+          "exampleCN": "沿城墙漫步"
+        },
+        {
+          "word": "bastion",
+          "structure": "French bastir",
+          "meaning": "a projecting fort; a stronghold",
+          "meaningCN": "棱堡；堡垒",
+          "example": "a bastion of tradition",
+          "exampleCN": "传统的堡垒"
+        },
+        {
+          "word": "fortify",
+          "structure": "Latin fortis + -fy",
+          "meaning": "to strengthen defenses",
+          "meaningCN": "设防，加固",
+          "example": "fortify the border",
+          "exampleCN": "加强边境防务"
+        },
+        {
+          "word": "citadel",
+          "structure": "Italian citadella",
+          "meaning": "a city fortress",
+          "meaningCN": "城寨",
+          "example": "the citadel of Aleppo",
+          "exampleCN": "阿勒颇城堡"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "moenia",
+          "structure": "Latin noun, cognate field",
+          "meaning": "city walls",
+          "meaningCN": "城墙（拉丁语壁垒词，近义对照）"
+        }
+      ],
+      "derivatives": [
+        {
+          "word": "bulwarked",
+          "pos": "adj.",
+          "zh": "筑有壁垒的"
+        }
+      ]
+    }
   }
-}
+]

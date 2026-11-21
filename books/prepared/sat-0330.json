@@ -1,303 +1,469 @@
-{
-  "word": "bale",
-  "ipa_uk": "/beɪl/",
-  "ipa_us": "/beɪl/",
-  "definition_zh": "大包；大捆；（古义）灾祸；悲痛",
-  "definition_en": "a large bound bundle of goods such as hay or cotton; also, an archaic word for evil or sorrow",
-  "core_image": "田野尽头码得整整齐齐的方形草捆",
-  "scene": "拖拉机把最后一捆干草推上垛顶。The crew loaded bales of cotton onto the flatbed.",
-  "sceneCN": "这里 bale 指「大包、大捆」（第 1 个义项：打包成捆的货物）；句意：工人们把一捆捆棉花装上平板车。",
-  "pos": [
-    { "tag": "n.", "zh": "大包；大捆；（废义）灾祸；悲伤" },
-    { "tag": "vt.", "zh": "打包；捆扎" }
-  ],
-  "collocations": [
-    { "phrase": "a bale of hay", "zh": "一捆干草" },
-    { "phrase": "bale of cotton", "zh": "棉包" },
-    { "phrase": "baling wire", "zh": "捆扎铁丝" },
-    { "phrase": "bale up", "zh": "打包" },
-    { "phrase": "bale out", "zh": "（英）跳出（飞机）" }
-  ],
-  "forms": [
-    { "label": "复数（名词）", "form": "bales" },
-    { "label": "三单", "form": "bales" },
-    { "label": "过去式", "form": "baled" },
-    { "label": "过去分词", "form": "baled" },
-    { "label": "现在分词", "form": "baling" }
-  ],
-  "derivatives": [
-    { "word": "baler", "pos": "n.", "zh": "打包机；打捆机（bale + -er）" },
-    { "word": "baling", "pos": "n.", "zh": "打包；打捆（bale + -ing）" },
-    { "word": "baleful", "pos": "adj.", "zh": "有害的；凶恶的（出自古义 bale「灾祸」+ -ful）" }
-  ],
-  "senses": [
-    {
-      "no": "01",
-      "title": "A large bound bundle",
-      "titleCN": "大包；大捆",
-      "definition": "a large quantity of a compressible good pressed and tied into a block",
-      "definitionCN": "可压缩货物被压实捆扎成的大块",
-      "example": "Hay bales dotted the field after harvest.",
-      "exampleCN": "收割后，干草捆星星点点布满田野。",
-      "why": "The commercial root is Middle Dutch bale, a pack of goods.",
-      "whyCN": "商业词根是中古荷兰语 bale「货包」。"
+[
+  {
+    "word": "bale",
+    "ipa_uk": "/beɪl/",
+    "ipa_us": "/beɪl/",
+    "definition_zh": "大包；大捆；（古义）灾祸；悲痛",
+    "definition_en": "a large bound bundle of goods such as hay or cotton; also, an archaic word for evil or sorrow",
+    "core_image": "田野尽头码得整整齐齐的方形草捆",
+    "scene": "拖拉机把最后一捆干草推上垛顶。The crew loaded bales of cotton onto the flatbed.",
+    "sceneCN": "这里 bale 指「大包、大捆」（第 1 个义项：打包成捆的货物）；句意：工人们把一捆捆棉花装上平板车。",
+    "pos": [
+      {
+        "tag": "n.",
+        "zh": "大包；大捆；（废义）灾祸；悲伤"
+      },
+      {
+        "tag": "vt.",
+        "zh": "打包；捆扎"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "a bale of hay",
+        "zh": "一捆干草"
+      },
+      {
+        "phrase": "bale of cotton",
+        "zh": "棉包"
+      },
+      {
+        "phrase": "baling wire",
+        "zh": "捆扎铁丝"
+      },
+      {
+        "phrase": "bale up",
+        "zh": "打包"
+      },
+      {
+        "phrase": "bale out",
+        "zh": "（英）跳出（飞机）"
+      }
+    ],
+    "forms": [
+      {
+        "label": "复数（名词）",
+        "form": "bales"
+      },
+      {
+        "label": "三单",
+        "form": "bales"
+      },
+      {
+        "label": "过去式",
+        "form": "baled"
+      },
+      {
+        "label": "过去分词",
+        "form": "baled"
+      },
+      {
+        "label": "现在分词",
+        "form": "baling"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "baler",
+        "pos": "n.",
+        "zh": "打包机；打捆机（bale + -er）"
+      },
+      {
+        "word": "baling",
+        "pos": "n.",
+        "zh": "打包；打捆（bale + -ing）"
+      },
+      {
+        "word": "baleful",
+        "pos": "adj.",
+        "zh": "有害的；凶恶的（出自古义 bale「灾祸」+ -ful）"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "A large bound bundle",
+        "titleCN": "大包；大捆",
+        "definition": "a large quantity of a compressible good pressed and tied into a block",
+        "definitionCN": "可压缩货物被压实捆扎成的大块",
+        "example": "Hay bales dotted the field after harvest.",
+        "exampleCN": "收割后，干草捆星星点点布满田野。",
+        "why": "The commercial root is Middle Dutch bale, a pack of goods.",
+        "whyCN": "商业词根是中古荷兰语 bale「货包」。"
+      },
+      {
+        "no": "02",
+        "title": "A standard trade unit",
+        "titleCN": "（贸易）标准包",
+        "definition": "a fixed weight or measure of cotton, wool, or paper used in trade",
+        "definitionCN": "棉花、羊毛、纸张等在贸易中固定的重量单位",
+        "example": "Cotton is quoted per bale on the exchange.",
+        "exampleCN": "交易所以每包为单位报棉花价格。",
+        "why": "Trade standardized the bundle into a unit of account.",
+        "whyCN": "贸易把草捆标准化为记账单位。"
+      },
+      {
+        "no": "03",
+        "title": "To press and tie into bundles",
+        "titleCN": "打包；捆扎",
+        "definition": "to compress and bind a material into bales",
+        "definitionCN": "把材料压实并捆成大包",
+        "example": "Volunteers baled cardboard for recycling.",
+        "exampleCN": "志愿者把纸板打包回收。",
+        "why": "The noun made a verb of itself, as goods nouns do.",
+        "whyCN": "货物名词自我动词化，一如常态。"
+      },
+      {
+        "no": "04",
+        "title": "Bale out, to jump from a plane",
+        "titleCN": "（英）跳伞逃生",
+        "definition": "in British use, to parachute from a disabled aircraft",
+        "definitionCN": "英式用法，从失控飞机跳伞",
+        "example": "The pilot baled out at eight hundred feet.",
+        "exampleCN": "飞行员在八百英尺高空跳伞。",
+        "why": "Distinct from bail out; British spelling keeps the e.",
+        "whyCN": "与 bail out 有别；英式拼写保留 e。"
+      },
+      {
+        "no": "05",
+        "title": "Archaic: evil or harm",
+        "titleCN": "（废义）灾祸；邪恶",
+        "definition": "in archaic English, mischief, sorrow, or destruction",
+        "definitionCN": "古英语中指祸患、悲恸或毁灭",
+        "example": "The poet sang of woe and bale.",
+        "exampleCN": "诗人吟咏哀恸与灾殃。",
+        "why": "A native Germanic word, unrelated to the bundle.",
+        "whyCN": "这是本族日耳曼词，与「货包」毫无关系。"
+      },
+      {
+        "no": "06",
+        "title": "Archaic: burning, as hell-fire",
+        "titleCN": "（废义）烈火；地狱之火",
+        "definition": "in old poetry, fire, especially the flames of hell",
+        "definitionCN": "古诗中指火焰，尤指地狱之火",
+        "example": "Sermons painted the bale of the damned.",
+        "exampleCN": "布道描绘受诅者的地狱之火。",
+        "why": "A second native homograph, from a word to burn.",
+        "whyCN": "第二个同形本族词，源自「燃烧」一词。"
+      },
+      {
+        "no": "07",
+        "title": "Baleful, the survival of old bale",
+        "titleCN": "（baleful 中存续的旧义）",
+        "definition": "the adjective baleful preserves the archaic sorrow-and-harm sense",
+        "definitionCN": "形容词 baleful 保存了古义的「灾殃、伤害」",
+        "example": "A baleful stare stopped the argument.",
+        "exampleCN": "一道凶狠的目光让争论戛然而止。",
+        "why": "The noun died, but its adjective lives on in daily use.",
+        "whyCN": "名词已死，其形容词却活跃至今。"
+      },
+      {
+        "no": "08",
+        "title": "Baled waste, the modern industry",
+        "titleCN": "（回收业）压块废料",
+        "definition": "compressed recyclables, from cardboard to scrap metal",
+        "definitionCN": "从纸板到废金属的压块回收物",
+        "example": "The yard stacked baled aluminum by the ton.",
+        "exampleCN": "回收场按吨堆放压块的铝料。",
+        "why": "The oldest commercial sense found a green second life.",
+        "whyCN": "最古老的商业义在回收业获得新生。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "English has two bales: the bundle, from Middle Dutch bale or Old French bale, a pack for transport; and the sorrow, from Old English bealu, evil or destruction, cognate with the first element of the names Böðvarr and Baldwin in their Germanic forms.",
+        "cn": "英语有两个 bale：「货包」出自中古荷兰语 bale 或古法语 bale，指运输货包；「灾殃」出自古英语 bealu「邪恶、毁灭」，与日耳曼人名中的 Baldwin 等词的首成分同源。"
+      },
+      "items": [
+        {
+          "era": "PROTO-GERMANIC",
+          "en": "The sorrow-root is reconstructed as balu-, harm or destruction.",
+          "cn": "「灾殃」词根被重构为 balu-「伤害、毁灭」。"
+        },
+        {
+          "era": "OLD ENGLISH, BEALU",
+          "en": "bealu meant evil, wickedness, or destruction, a strong poetic word.",
+          "cn": "古英语 bealu 指邪恶、残暴或毁灭，是强的诗歌用词。"
+        },
+        {
+          "era": "MIDDLE DUTCH, BALE",
+          "en": "The bundle-word crossed from Middle Dutch bale, a pack of merchandise.",
+          "cn": "「货包」一词由中古荷兰语 bale「商货包」传入。"
+        },
+        {
+          "era": "MIDDLE ENGLISH, 14TH C.",
+          "en": "The trading bale entered English by the fourteenth century with the wool trade.",
+          "cn": "14 世纪随羊毛贸易，商业 bale 进入英语。"
+        },
+        {
+          "era": "ENGLISH, VERB, 16TH C.",
+          "en": "The verb to bale is recorded from the sixteenth century.",
+          "cn": "动词 to bale 见于 16 世纪记载。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "The sorrow-bale survives only in baleful; the bundle-bale thrives in farm and scrapyard.",
+          "cn": "「灾殃」义仅存于 baleful；「货包」义活跃于农场与回收场。"
+        }
+      ]
     },
-    {
-      "no": "02",
-      "title": "A standard trade unit",
-      "titleCN": "（贸易）标准包",
-      "definition": "a fixed weight or measure of cotton, wool, or paper used in trade",
-      "definitionCN": "棉花、羊毛、纸张等在贸易中固定的重量单位",
-      "example": "Cotton is quoted per bale on the exchange.",
-      "exampleCN": "交易所以每包为单位报棉花价格。",
-      "why": "Trade standardized the bundle into a unit of account.",
-      "whyCN": "贸易把草捆标准化为记账单位。"
+    "similar": {
+      "note": {
+        "en": "Group one gathers the homograph pair and the bail family; group two gathers bundle and doom words.",
+        "cn": "第一组收同形词对与 bail 词族；第二组收货包与厄运义场的词。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "bail",
+              "ipa": "/beɪl/",
+              "tag": "homophone, different root",
+              "definition": "to scoop water, post bond, or (US) jump from a plane; the eternal spelling trap.",
+              "definitionCN": "舀水、保释或（美）跳伞；与 bale 同音，永恒的拼写陷阱。"
+            },
+            {
+              "word": "baleful",
+              "ipa": "/ˈbeɪlfl/",
+              "tag": "same root, sorrow-bale",
+              "definition": "sinister and harmful; the living descendant of bealu.",
+              "definitionCN": "凶恶有害的；bealu 的存世后裔。"
+            },
+            {
+              "word": "ballast",
+              "ipa": "/ˈbæləst/",
+              "tag": "look-alike, related trade word",
+              "definition": "ship's weighting cargo, from the same Low-German trading world.",
+              "definitionCN": "船舶压舱物；出自同一低地德语商贸圈。"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "bundle",
+              "ipa": "/ˈbʌndl/",
+              "tag": "near meaning",
+              "definition": "a loosely tied group of things.",
+              "definitionCN": "松散捆扎的一包东西。"
+            },
+            {
+              "word": "sheaf",
+              "ipa": "/ʃiːf/",
+              "tag": "near meaning",
+              "definition": "a bound bundle of grain stalks.",
+              "definitionCN": "捆扎的谷物秆束。"
+            },
+            {
+              "word": "pack",
+              "ipa": "/pæk/",
+              "tag": "near meaning",
+              "definition": "a wrapped or boxed quantity for carrying.",
+              "definitionCN": "便于携带的包装量。"
+            },
+            {
+              "word": "woe",
+              "ipa": "/wəʊ/",
+              "tag": "near meaning, archaic bale",
+              "definition": "deep sorrow; the modern cousin of old bale.",
+              "definitionCN": "深重的悲哀；古义 bale 的现代近亲。"
+            },
+            {
+              "word": "perdition",
+              "ipa": "/pɜːˈdɪʃn/",
+              "tag": "near meaning, archaic bale",
+              "definition": "utter ruin, especially damnation.",
+              "definitionCN": "彻底毁灭，尤指永罚；古义 bale 的近亲。"
+            }
+          ]
+        }
+      ]
     },
-    {
-      "no": "03",
-      "title": "To press and tie into bundles",
-      "titleCN": "打包；捆扎",
-      "definition": "to compress and bind a material into bales",
-      "definitionCN": "把材料压实并捆成大包",
-      "example": "Volunteers baled cardboard for recycling.",
-      "exampleCN": "志愿者把纸板打包回收。",
-      "why": "The noun made a verb of itself, as goods nouns do.",
-      "whyCN": "货物名词自我动词化，一如常态。"
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Two bales share one sound: the farmer's bundle and the poet's sorrow.",
+        "cn": "两个 bale 同音：农人的货包与诗人的哀愁。"
+      },
+      "normal": [
+        {
+          "en": "a bale of hay: the everyday phrase.",
+          "cn": "a bale of hay 是日常搭配。"
+        },
+        {
+          "en": "British bale out, American bail out, for parachutes.",
+          "cn": "跳伞英式用 bale out，美式用 bail out。"
+        },
+        {
+          "en": "baleful comes from the other bale: evil, sorrow.",
+          "cn": "baleful 出自另一个 bale：邪恶、悲恸。"
+        },
+        {
+          "en": "Baler, the machine, doubles as an Australian town name.",
+          "cn": "打捆机 baler 恰与澳大利亚地名 Baler 同拼。"
+        },
+        {
+          "en": "Spelling check: the bundle has the e, bale.",
+          "cn": "拼写检查：货包义带 e，作 bale。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "See twine bite into a golden cube.",
+          "cn": "看麻绳咬进金色的方块。"
+        },
+        {
+          "en": "Old bale is the ash-word from the fire sermons.",
+          "cn": "古义 bale 是火刑布道里烧剩的灰词。"
+        },
+        {
+          "en": "Hear the baling machine sigh at the end of the field.",
+          "cn": "听打捆机在田头的长叹。"
+        }
+      ]
     },
-    {
-      "no": "04",
-      "title": "Bale out, to jump from a plane",
-      "titleCN": "（英）跳伞逃生",
-      "definition": "in British use, to parachute from a disabled aircraft",
-      "definitionCN": "英式用法，从失控飞机跳伞",
-      "example": "The pilot baled out at eight hundred feet.",
-      "exampleCN": "飞行员在八百英尺高空跳伞。",
-      "why": "Distinct from bail out; British spelling keeps the e.",
-      "whyCN": "与 bail out 有别；英式拼写保留 e。"
+    "examples": [
+      {
+        "en": "The loft held forty bales of straw.",
+        "cn": "草棚里堆着四十捆麦秸。"
+      },
+      {
+        "en": "Mill workers baled the rags for shipment north.",
+        "cn": "磨坊工人把破布打包北运。"
+      },
+      {
+        "en": "The chronicle speaks of fire and bale upon the town.",
+        "cn": "编年史记载大火与灾殃降临城池。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「贝耦」——两捆贝壳用绳子耦在一起，就成了大包",
+      "word": "bale"
     },
-    {
-      "no": "05",
-      "title": "Archaic: evil or harm",
-      "titleCN": "（废义）灾祸；邪恶",
-      "definition": "in archaic English, mischief, sorrow, or destruction",
-      "definitionCN": "古英语中指祸患、悲恸或毁灭",
-      "example": "The poet sang of woe and bale.",
-      "exampleCN": "诗人吟咏哀恸与灾殃。",
-      "why": "A native Germanic word, unrelated to the bundle.",
-      "whyCN": "这是本族日耳曼词，与「货包」毫无关系。"
+    "root": "英语中有两个同形 bale：一为「货包」，14 世纪经中古荷兰语 bale 或古法语 bale 进入英语，与羊毛贸易相关；一为「灾殃、悲恸」，出自古英语 bealu「邪恶、毁灭」，词根可追溯至原始日耳曼语 balu-，另有一个表「火」的同源古词。今前者通行，后者仅存于形容词 baleful。",
+    "sensesIntro": {
+      "en": "Eight senses split along the homograph seam: the farming and trading bundle on one side, and the archaic sorrow and fire on the other, with baleful as the living bridge.",
+      "cn": "八义项沿同形词的裂缝分开：一边是农牧贸易的货包，另一边是古义的悲恸与烈火，baleful 则是存活的桥梁。"
     },
-    {
-      "no": "06",
-      "title": "Archaic: burning, as hell-fire",
-      "titleCN": "（废义）烈火；地狱之火",
-      "definition": "in old poetry, fire, especially the flames of hell",
-      "definitionCN": "古诗中指火焰，尤指地狱之火",
-      "example": "Sermons painted the bale of the damned.",
-      "exampleCN": "布道描绘受诅者的地狱之火。",
-      "why": "A second native homograph, from a word to burn.",
-      "whyCN": "第二个同形本族词，源自「燃烧」一词。"
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: a compressed cube tied tight, and, underneath the word, an older flame.",
+        "cn": "核心意象：捆得紧紧的方块；而在词的底层，埋着一团更古老的火。"
+      },
+      "chain": [
+        "THE LOOSE CROP",
+        "THE TIGHT BUNDLE",
+        "THE TRADE UNIT",
+        "THE BALING MACHINE",
+        "THE OLD FLAME",
+        "THE OLD SORROW"
+      ],
+      "branches": [
+        {
+          "senses": "01 · 03 · 08",
+          "en": "THE FARM SIDE: hay, straw, and baled recyclables.",
+          "cn": "农牧一面：干草、麦秸与压块回收物。"
+        },
+        {
+          "senses": "02",
+          "en": "THE TRADE SIDE: the bale as a unit of price.",
+          "cn": "贸易一面：作为计价单位的包。"
+        },
+        {
+          "senses": "04",
+          "en": "THE AVIATION SIDE: bale out in British skies.",
+          "cn": "航空一面：英国空军说的 bale out。"
+        },
+        {
+          "senses": "05 · 07",
+          "en": "THE ARCHAIC SIDE: sorrow surviving in baleful.",
+          "cn": "古义一面：存于 baleful 中的悲恸。"
+        },
+        {
+          "senses": "06",
+          "en": "THE FIRE SIDE: hell-fire of the lost homograph.",
+          "cn": "烈火一面：另一同形词的地狱之火。"
+        }
+      ]
     },
-    {
-      "no": "07",
-      "title": "Baleful, the survival of old bale",
-      "titleCN": "（baleful 中存续的旧义）",
-      "definition": "the adjective baleful preserves the archaic sorrow-and-harm sense",
-      "definitionCN": "形容词 baleful 保存了古义的「灾殃、伤害」",
-      "example": "A baleful stare stopped the argument.",
-      "exampleCN": "一道凶狠的目光让争论戛然而止。",
-      "why": "The noun died, but its adjective lives on in daily use.",
-      "whyCN": "名词已死，其形容词却活跃至今。"
-    },
-    {
-      "no": "08",
-      "title": "Baled waste, the modern industry",
-      "titleCN": "（回收业）压块废料",
-      "definition": "compressed recyclables, from cardboard to scrap metal",
-      "definitionCN": "从纸板到废金属的压块回收物",
-      "example": "The yard stacked baled aluminum by the ton.",
-      "exampleCN": "回收场按吨堆放压块的铝料。",
-      "why": "The oldest commercial sense found a green second life.",
-      "whyCN": "最古老的商业义在回收业获得新生。"
+    "affixes": {
+      "intro": {
+        "en": "Neither bale takes affixes of its own; both are bare roots that borrowed English endings.",
+        "cn": "两个 bale 本身都不带词缀，皆为裸词根，只借英语词尾。"
+      },
+      "latinIntro": {
+        "en": "No Latin here: one bale is Low-German trade speech, the other native Old English poetry.",
+        "cn": "与拉丁语无关：一个 bale 是低地德语的商贸语，另一个是古英语诗歌本族词。"
+      },
+      "items": [
+        {
+          "word": "bale",
+          "structure": "Middle Dutch loan",
+          "meaning": "a pack of goods",
+          "meaningCN": "货包",
+          "example": "bales on the dock",
+          "exampleCN": "码头上的货包"
+        },
+        {
+          "word": "bealu",
+          "structure": "Old English noun",
+          "meaning": "evil, destruction",
+          "meaningCN": "邪恶；毁灭",
+          "example": "bealu in Beowulf",
+          "exampleCN": "《贝奥武甫》中的 bealu"
+        },
+        {
+          "word": "baler",
+          "structure": "bale + -er",
+          "meaning": "a baling machine",
+          "meaningCN": "打捆机",
+          "example": "a round baler",
+          "exampleCN": "圆捆打捆机"
+        },
+        {
+          "word": "baling wire",
+          "structure": "compound",
+          "meaning": "wire for tying bales",
+          "meaningCN": "捆包铁丝",
+          "example": "patched with baling wire",
+          "exampleCN": "用铁丝草草修补"
+        },
+        {
+          "word": "baleful",
+          "structure": "bale (sorrow) + -ful",
+          "meaning": "harmful, sinister",
+          "meaningCN": "凶恶的",
+          "example": "a baleful eye",
+          "exampleCN": "凶狠的目光"
+        },
+        {
+          "word": "bail",
+          "structure": "Old French loan",
+          "meaning": "bond; to scoop; to rescue",
+          "meaningCN": "保释；舀水；救助",
+          "example": "bail out a company",
+          "exampleCN": "救助一家公司"
+        },
+        {
+          "word": "ballast",
+          "structure": "Low German trade word",
+          "meaning": "ship's weight cargo",
+          "meaningCN": "压舱物",
+          "example": "ship's ballast",
+          "exampleCN": "船的压舱物"
+        },
+        {
+          "word": "woe",
+          "structure": "Old English wa",
+          "meaning": "deep sorrow",
+          "meaningCN": "悲哀",
+          "example": "woe is me",
+          "exampleCN": "我何其不幸"
+        }
+      ],
+      "latinEntries": []
     }
-  ],
-  "etymology": {
-    "intro": {
-      "en": "English has two bales: the bundle, from Middle Dutch bale or Old French bale, a pack for transport; and the sorrow, from Old English bealu, evil or destruction, cognate with the first element of the names Böðvarr and Baldwin in their Germanic forms.",
-      "cn": "英语有两个 bale：「货包」出自中古荷兰语 bale 或古法语 bale，指运输货包；「灾殃」出自古英语 bealu「邪恶、毁灭」，与日耳曼人名中的 Baldwin 等词的首成分同源。"
-    },
-    "items": [
-      {
-        "era": "PROTO-GERMANIC",
-        "en": "The sorrow-root is reconstructed as balu-, harm or destruction.",
-        "cn": "「灾殃」词根被重构为 balu-「伤害、毁灭」。"
-      },
-      {
-        "era": "OLD ENGLISH, BEALU",
-        "en": "bealu meant evil, wickedness, or destruction, a strong poetic word.",
-        "cn": "古英语 bealu 指邪恶、残暴或毁灭，是强的诗歌用词。"
-      },
-      {
-        "era": "MIDDLE DUTCH, BALE",
-        "en": "The bundle-word crossed from Middle Dutch bale, a pack of merchandise.",
-        "cn": "「货包」一词由中古荷兰语 bale「商货包」传入。"
-      },
-      {
-        "era": "MIDDLE ENGLISH, 14TH C.",
-        "en": "The trading bale entered English by the fourteenth century with the wool trade.",
-        "cn": "14 世纪随羊毛贸易，商业 bale 进入英语。"
-      },
-      {
-        "era": "ENGLISH, VERB, 16TH C.",
-        "en": "The verb to bale is recorded from the sixteenth century.",
-        "cn": "动词 to bale 见于 16 世纪记载。"
-      },
-      {
-        "era": "MODERN ENGLISH",
-        "en": "The sorrow-bale survives only in baleful; the bundle-bale thrives in farm and scrapyard.",
-        "cn": "「灾殃」义仅存于 baleful；「货包」义活跃于农场与回收场。"
-      }
-    ]
-  },
-  "similar": {
-    "note": {
-      "en": "Group one gathers the homograph pair and the bail family; group two gathers bundle and doom words.",
-      "cn": "第一组收同形词对与 bail 词族；第二组收货包与厄运义场的词。"
-    },
-    "groups": [
-      {
-        "heading": "LOOK-ALIKE",
-        "entries": [
-          {
-            "word": "bail",
-            "ipa": "/beɪl/",
-            "tag": "homophone, different root",
-            "definition": "to scoop water, post bond, or (US) jump from a plane; the eternal spelling trap.",
-            "definitionCN": "舀水、保释或（美）跳伞；与 bale 同音，永恒的拼写陷阱。"
-          },
-          {
-            "word": "baleful",
-            "ipa": "/ˈbeɪlfl/",
-            "tag": "same root, sorrow-bale",
-            "definition": "sinister and harmful; the living descendant of bealu.",
-            "definitionCN": "凶恶有害的；bealu 的存世后裔。"
-          },
-          {
-            "word": "ballast",
-            "ipa": "/ˈbæləst/",
-            "tag": "look-alike, related trade word",
-            "definition": "ship's weighting cargo, from the same Low-German trading world.",
-            "definitionCN": "船舶压舱物；出自同一低地德语商贸圈。"
-          }
-        ]
-      },
-      {
-        "heading": "NEAR MEANING",
-        "entries": [
-          {
-            "word": "bundle",
-            "ipa": "/ˈbʌndl/",
-            "tag": "near meaning",
-            "definition": "a loosely tied group of things.",
-            "definitionCN": "松散捆扎的一包东西。"
-          },
-          {
-            "word": "sheaf",
-            "ipa": "/ʃiːf/",
-            "tag": "near meaning",
-            "definition": "a bound bundle of grain stalks.",
-            "definitionCN": "捆扎的谷物秆束。"
-          },
-          {
-            "word": "pack",
-            "ipa": "/pæk/",
-            "tag": "near meaning",
-            "definition": "a wrapped or boxed quantity for carrying.",
-            "definitionCN": "便于携带的包装量。"
-          },
-          {
-            "word": "woe",
-            "ipa": "/wəʊ/",
-            "tag": "near meaning, archaic bale",
-            "definition": "deep sorrow; the modern cousin of old bale.",
-            "definitionCN": "深重的悲哀；古义 bale 的现代近亲。"
-          },
-          {
-            "word": "perdition",
-            "ipa": "/pɜːˈdɪʃn/",
-            "tag": "near meaning, archaic bale",
-            "definition": "utter ruin, especially damnation.",
-            "definitionCN": "彻底毁灭，尤指永罚；古义 bale 的近亲。"
-          }
-        ]
-      }
-    ]
-  },
-  "mnemonics": {
-    "normalIntro": {
-      "en": "Two bales share one sound: the farmer's bundle and the poet's sorrow.",
-      "cn": "两个 bale 同音：农人的货包与诗人的哀愁。"
-    },
-    "normal": [
-      { "en": "a bale of hay: the everyday phrase.", "cn": "a bale of hay 是日常搭配。" },
-      { "en": "British bale out, American bail out, for parachutes.", "cn": "跳伞英式用 bale out，美式用 bail out。" },
-      { "en": "baleful comes from the other bale: evil, sorrow.", "cn": "baleful 出自另一个 bale：邪恶、悲恸。" },
-      { "en": "Baler, the machine, doubles as an Australian town name.", "cn": "打捆机 baler 恰与澳大利亚地名 Baler 同拼。" },
-      { "en": "Spelling check: the bundle has the e, bale.", "cn": "拼写检查：货包义带 e，作 bale。" }
-    ],
-    "abstract": [
-      { "en": "See twine bite into a golden cube.", "cn": "看麻绳咬进金色的方块。" },
-      { "en": "Old bale is the ash-word from the fire sermons.", "cn": "古义 bale 是火刑布道里烧剩的灰词。" },
-      { "en": "Hear the baling machine sigh at the end of the field.", "cn": "听打捆机在田头的长叹。" }
-    ]
-  },
-  "examples": [
-    { "en": "The loft held forty bales of straw.", "cn": "草棚里堆着四十捆麦秸。" },
-    { "en": "Mill workers baled the rags for shipment north.", "cn": "磨坊工人把破布打包北运。" },
-    { "en": "The chronicle speaks of fire and bale upon the town.", "cn": "编年史记载大火与灾殃降临城池。" }
-  ],
-  "dict_mnemonic": {
-    "note": "谐音记忆 · 非词源",
-    "text": "「贝耦」——两捆贝壳用绳子耦在一起，就成了大包",
-    "word": "bale"
-  },
-  "root": "英语中有两个同形 bale：一为「货包」，14 世纪经中古荷兰语 bale 或古法语 bale 进入英语，与羊毛贸易相关；一为「灾殃、悲恸」，出自古英语 bealu「邪恶、毁灭」，词根可追溯至原始日耳曼语 balu-，另有一个表「火」的同源古词。今前者通行，后者仅存于形容词 baleful。",
-  "sensesIntro": {
-    "en": "Eight senses split along the homograph seam: the farming and trading bundle on one side, and the archaic sorrow and fire on the other, with baleful as the living bridge.",
-    "cn": "八义项沿同形词的裂缝分开：一边是农牧贸易的货包，另一边是古义的悲恸与烈火，baleful 则是存活的桥梁。"
-  },
-  "semanticMap": {
-    "core": {
-      "en": "CORE IMAGE: a compressed cube tied tight, and, underneath the word, an older flame.",
-      "cn": "核心意象：捆得紧紧的方块；而在词的底层，埋着一团更古老的火。"
-    },
-    "chain": ["THE LOOSE CROP", "THE TIGHT BUNDLE", "THE TRADE UNIT", "THE BALING MACHINE", "THE OLD FLAME", "THE OLD SORROW"],
-    "branches": [
-      { "senses": "01 · 03 · 08", "en": "THE FARM SIDE: hay, straw, and baled recyclables.", "cn": "农牧一面：干草、麦秸与压块回收物。" },
-      { "senses": "02", "en": "THE TRADE SIDE: the bale as a unit of price.", "cn": "贸易一面：作为计价单位的包。" },
-      { "senses": "04", "en": "THE AVIATION SIDE: bale out in British skies.", "cn": "航空一面：英国空军说的 bale out。" },
-      { "senses": "05 · 07", "en": "THE ARCHAIC SIDE: sorrow surviving in baleful.", "cn": "古义一面：存于 baleful 中的悲恸。" },
-      { "senses": "06", "en": "THE FIRE SIDE: hell-fire of the lost homograph.", "cn": "烈火一面：另一同形词的地狱之火。" }
-    ]
-  },
-  "affixes": {
-    "intro": {
-      "en": "Neither bale takes affixes of its own; both are bare roots that borrowed English endings.",
-      "cn": "两个 bale 本身都不带词缀，皆为裸词根，只借英语词尾。"
-    },
-    "latinIntro": {
-      "en": "No Latin here: one bale is Low-German trade speech, the other native Old English poetry.",
-      "cn": "与拉丁语无关：一个 bale 是低地德语的商贸语，另一个是古英语诗歌本族词。"
-    },
-    "items": [
-      { "word": "bale", "structure": "Middle Dutch loan", "meaning": "a pack of goods", "meaningCN": "货包", "example": "bales on the dock", "exampleCN": "码头上的货包" },
-      { "word": "bealu", "structure": "Old English noun", "meaning": "evil, destruction", "meaningCN": "邪恶；毁灭", "example": "bealu in Beowulf", "exampleCN": "《贝奥武甫》中的 bealu" },
-      { "word": "baler", "structure": "bale + -er", "meaning": "a baling machine", "meaningCN": "打捆机", "example": "a round baler", "exampleCN": "圆捆打捆机" },
-      { "word": "baling wire", "structure": "compound", "meaning": "wire for tying bales", "meaningCN": "捆包铁丝", "example": "patched with baling wire", "exampleCN": "用铁丝草草修补" },
-      { "word": "baleful", "structure": "bale (sorrow) + -ful", "meaning": "harmful, sinister", "meaningCN": "凶恶的", "example": "a baleful eye", "exampleCN": "凶狠的目光" },
-      { "word": "bail", "structure": "Old French loan", "meaning": "bond; to scoop; to rescue", "meaningCN": "保释；舀水；救助", "example": "bail out a company", "exampleCN": "救助一家公司" },
-      { "word": "ballast", "structure": "Low German trade word", "meaning": "ship's weight cargo", "meaningCN": "压舱物", "example": "ship's ballast", "exampleCN": "船的压舱物" },
-      { "word": "woe", "structure": "Old English wa", "meaning": "deep sorrow", "meaningCN": "悲哀", "example": "woe is me", "exampleCN": "我何其不幸" }
-    ],
-    "latinEntries": []
   }
-}
+]

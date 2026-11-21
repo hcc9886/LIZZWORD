@@ -1,303 +1,470 @@
-{
-  "word": "averse",
-  "ipa_uk": "/əˈvɜːs/",
-  "ipa_us": "/əˈvɜːrs/",
-  "definition_zh": "反对的；厌恶的；不愿的",
-  "definition_en": "having a strong dislike of or opposition to something",
-  "core_image": "身体往后一转，把脸从某物上挪开",
-  "scene": "父亲把菜推向桌子另一头。He was averse to any dish with cilantro.",
-  "sceneCN": "这里 averse 指「厌恶的、不愿的」（第 1 个义项：强烈反感）；句意：他讨厌任何加香菜的菜。",
-  "pos": [
-    { "tag": "adj.", "zh": "厌恶的；反对的；不愿的（常作表语）" }
-  ],
-  "collocations": [
-    { "phrase": "be averse to", "zh": "厌恶；反对" },
-    { "phrase": "risk-averse", "zh": "规避风险的" },
-    { "phrase": "not averse to", "zh": "并不反对；也乐于" },
-    { "phrase": "strongly averse", "zh": "强烈反感的" },
-    { "phrase": "averse to change", "zh": "抵触变革" }
-  ],
-  "forms": [
-    { "label": "形容词（基本式）", "form": "averse" },
-    { "label": "比较级", "form": "more averse" },
-    { "label": "最高级", "form": "most averse" }
-  ],
-  "derivatives": [
-    { "word": "aversion", "pos": "n.", "zh": "厌恶；反感（averse + -ion 的名词化）" },
-    { "word": "aversely", "pos": "adv.", "zh": "反感地；不利地（averse + -ly）" },
-    { "word": "aversive", "pos": "adj.", "zh": "令人反感的（心理学用语，averse + -ive）" }
-  ],
-  "senses": [
-    {
-      "no": "01",
-      "title": "Feeling strong dislike",
-      "titleCN": "厌恶的；反感的",
-      "definition": "feeling firm dislike or repugnance toward something",
-      "definitionCN": "对某事物怀有坚定反感或厌恶",
-      "example": "She was averse to discussing salaries at dinner.",
-      "exampleCN": "她反感在饭桌上谈工资。",
-      "why": "The Latin root means turned away: dislike as the body turning from a thing.",
-      "whyCN": "拉丁词根义为「转开」：厌恶即身体从某物上转过去。"
+[
+  {
+    "word": "averse",
+    "ipa_uk": "/əˈvɜːs/",
+    "ipa_us": "/əˈvɜːrs/",
+    "definition_zh": "反对的；厌恶的；不愿的",
+    "definition_en": "having a strong dislike of or opposition to something",
+    "core_image": "身体往后一转，把脸从某物上挪开",
+    "scene": "父亲把菜推向桌子另一头。He was averse to any dish with cilantro.",
+    "sceneCN": "这里 averse 指「厌恶的、不愿的」（第 1 个义项：强烈反感）；句意：他讨厌任何加香菜的菜。",
+    "pos": [
+      {
+        "tag": "adj.",
+        "zh": "厌恶的；反对的；不愿的（常作表语）"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "be averse to",
+        "zh": "厌恶；反对"
+      },
+      {
+        "phrase": "risk-averse",
+        "zh": "规避风险的"
+      },
+      {
+        "phrase": "not averse to",
+        "zh": "并不反对；也乐于"
+      },
+      {
+        "phrase": "strongly averse",
+        "zh": "强烈反感的"
+      },
+      {
+        "phrase": "averse to change",
+        "zh": "抵触变革"
+      }
+    ],
+    "forms": [
+      {
+        "label": "形容词（基本式）",
+        "form": "averse"
+      },
+      {
+        "label": "比较级",
+        "form": "more averse"
+      },
+      {
+        "label": "最高级",
+        "form": "most averse"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "aversion",
+        "pos": "n.",
+        "zh": "厌恶；反感（averse + -ion 的名词化）"
+      },
+      {
+        "word": "aversely",
+        "pos": "adv.",
+        "zh": "反感地；不利地（averse + -ly）"
+      },
+      {
+        "word": "aversive",
+        "pos": "adj.",
+        "zh": "令人反感的（心理学用语，averse + -ive）"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "Feeling strong dislike",
+        "titleCN": "厌恶的；反感的",
+        "definition": "feeling firm dislike or repugnance toward something",
+        "definitionCN": "对某事物怀有坚定反感或厌恶",
+        "example": "She was averse to discussing salaries at dinner.",
+        "exampleCN": "她反感在饭桌上谈工资。",
+        "why": "The Latin root means turned away: dislike as the body turning from a thing.",
+        "whyCN": "拉丁词根义为「转开」：厌恶即身体从某物上转过去。"
+      },
+      {
+        "no": "02",
+        "title": "Opposed in attitude",
+        "titleCN": "反对的；持异议的",
+        "definition": "opposed to a proposal, practice, or course of action",
+        "definitionCN": "对提案、做法或行动路线持反对态度",
+        "example": "The board was averse to the merger from the start.",
+        "exampleCN": "董事会从一开始就反对这桩并购。",
+        "why": "Turning away extends from feelings to positions taken.",
+        "whyCN": "「转开」从情绪延伸到所持立场。"
+      },
+      {
+        "no": "03",
+        "title": "Unwilling to do something",
+        "titleCN": "不愿做的",
+        "definition": "reluctant or unwilling, as in not averse to helping",
+        "definitionCN": "不情愿、不肯做，如 not averse to helping",
+        "example": "He is not averse to an extra shift when the pay doubles.",
+        "exampleCN": "工资翻倍的话，他并不介意多加一个班。",
+        "why": "In the litotes not averse, the turning away is only mild.",
+        "whyCN": "在低调说法 not averse 中，「转开」的程度很轻。"
+      },
+      {
+        "no": "04",
+        "title": "Avoiding risk in economics",
+        "titleCN": "（经济学）规避风险的",
+        "definition": "preferring certainty over gambles, as in risk-averse investors",
+        "definitionCN": "宁取确定而回避赌博，如 risk-averse 投资者",
+        "example": "Risk-averse buyers chose the fixed-rate loan.",
+        "exampleCN": "规避风险的买家选择了固定利率贷款。",
+        "why": "The turning-away image fits decision theory: turning from variance.",
+        "whyCN": "「转开」意象契合决策论：从波动前转开身去。"
+      },
+      {
+        "no": "05",
+        "title": "In psychology, producing avoidance",
+        "titleCN": "（心理学）引发回避的",
+        "definition": "describing stimuli that organisms work to avoid, via the adjective aversive",
+        "definitionCN": "指生物体极力回避的刺激，经由 aversive 一词",
+        "example": "Aversive shocks shaped the rats' learned avoidance.",
+        "exampleCN": "厌恶电击塑造了大鼠习得的回避行为。",
+        "why": "The turning-away became a technical term for what drives it.",
+        "whyCN": "「转开」变成了驱动回避行为的术语。"
+      },
+      {
+        "no": "06",
+        "title": "Turned away in older English",
+        "titleCN": "（旧义）背向的",
+        "definition": "in older or technical use, physically turned in a direction away from something",
+        "definitionCN": "旧式或技术用法中，身体或器官背向某物",
+        "example": "Older botany texts described leaves averse to the stem.",
+        "exampleCN": "旧植物学文献描述叶片背向茎干。",
+        "why": "This is the literal root sense that the moral senses grew away from.",
+        "whyCN": "这是词根的字面本义，道德义项正是从它长出去的。"
+      },
+      {
+        "no": "07",
+        "title": "Averse to novelty",
+        "titleCN": "守旧；抵触新事物的",
+        "definition": "disinclined toward new ideas, methods, or technology",
+        "definitionCN": "对新观念、新方法或新技术不感兴趣甚至抵触",
+        "example": "The workshop proved averse to digital record-keeping.",
+        "exampleCN": "那间作坊始终不愿改用数字记账。",
+        "why": "Attachment to the familiar is aversion pointed at the new.",
+        "whyCN": "恋旧即厌恶指向了新事物。"
+      },
+      {
+        "no": "08",
+        "title": "Aversely, in an unfavorable direction",
+        "titleCN": "（副词义）不利地",
+        "definition": "in the adverb aversely, affecting something negatively or disadvantageously",
+        "definitionCN": "副词 aversely 中，以负面或不利的方式影响某事",
+        "example": "The ruling bore aversely on small lenders.",
+        "exampleCN": "这项裁决对小贷机构不利。",
+        "why": "Turned against a thing can mean acting against its interest.",
+        "whyCN": "「转而背对」也可意味着对其利益不利。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Averse comes from Latin aversus, turned away, the past participle of avertere, from ab, away, plus vertere, to turn.",
+        "cn": "averse 出自拉丁语 aversus「转开的」，是动词 avertere 的过去分词，由 ab（离开）+ vertere（转）构成。"
+      },
+      "items": [
+        {
+          "era": "PROTO-INDO-EUROPEAN",
+          "en": "The turn-root goes back to a reconstructed stem wer- meaning to bend or turn.",
+          "cn": "「转」的词根可追溯至重构词干 wer-「弯、转」。"
+        },
+        {
+          "era": "LATIN",
+          "en": "averted, from ab, away, plus vertere, to turn, meant to turn something away.",
+          "cn": "拉丁语 avertere 由 ab「离开」+ vertere「转」构成，意为使转开。"
+        },
+        {
+          "era": "LATIN, AVERSUS",
+          "en": "aversus described a thing or face turned away; morally, turned against.",
+          "cn": "aversus 描述背转的脸或物；道德层面即「反对」。"
+        },
+        {
+          "era": "ENGLISH, 16TH–17TH C.",
+          "en": "English took averse in the late sixteenth century, first literal, soon figurative.",
+          "cn": "英语在 16 世纪末借入 averse，先取字面义，很快转为比喻义。"
+        },
+        {
+          "era": "ENGLISH, 18TH–19TH C.",
+          "en": "The pattern averse to fixed in place, and risk aversion later entered economics.",
+          "cn": "averse to 搭配固定下来，「风险规避」后来进入经济学。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "Today averse is almost only predicative: people are averse to things.",
+          "cn": "如今 averse 几乎只作表语：人对事物 averse。"
+        }
+      ]
     },
-    {
-      "no": "02",
-      "title": "Opposed in attitude",
-      "titleCN": "反对的；持异议的",
-      "definition": "opposed to a proposal, practice, or course of action",
-      "definitionCN": "对提案、做法或行动路线持反对态度",
-      "example": "The board was averse to the merger from the start.",
-      "exampleCN": "董事会从一开始就反对这桩并购。",
-      "why": "Turning away extends from feelings to positions taken.",
-      "whyCN": "「转开」从情绪延伸到所持立场。"
+    "similar": {
+      "note": {
+        "en": "Group one gathers the vertere family and its spelling traps; group two gathers words of dislike.",
+        "cn": "第一组收 vertere 词族及拼写陷阱；第二组收厌恶义场的词。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "adverse",
+              "ipa": "/ˈædvɜːs/",
+              "tag": "look-alike, different prefix",
+              "definition": "unfavorable or harmful, acting against; describes conditions, not feelings.",
+              "definitionCN": "不利的、有害的（起反作用）；形容条件而非心情，勿与 averse 混用。"
+            },
+            {
+              "word": "aversion",
+              "ipa": "/əˈvɜːʃn/",
+              "tag": "derived form",
+              "definition": "the noun: a strong dislike.",
+              "definitionCN": "名词形式：强烈的厌恶。"
+            },
+            {
+              "word": "invert",
+              "ipa": "/ɪnˈvɜːt/",
+              "tag": "same root",
+              "definition": "to turn upside down; shares vertere with averse.",
+              "definitionCN": "使倒转；与 averse 同享 vertere 词根。"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "reluctant",
+              "ipa": "/rɪˈlʌktənt/",
+              "tag": "near meaning",
+              "definition": "unwilling and hesitating; milder than averse.",
+              "definitionCN": "不情愿、犹豫；语气比 averse 温和。"
+            },
+            {
+              "word": "loath",
+              "ipa": "/ləʊθ/",
+              "tag": "near meaning",
+              "definition": "unwilling out of dislike; also predicative, as loath to admit.",
+              "definitionCN": "因厌恶而不愿；同样常作表语，如 loath to admit。"
+            },
+            {
+              "word": "disinclined",
+              "ipa": "/ˌdɪsɪnˈklaɪnd/",
+              "tag": "near meaning",
+              "definition": "not minded to do something; formal and mild.",
+              "definitionCN": "无意于做某事；正式而温和。"
+            },
+            {
+              "word": "antipathetic",
+              "ipa": "/ænˌtɪpəˈθetɪk/",
+              "tag": "near meaning",
+              "definition": "naturally opposed in feeling; stronger and more settled than averse.",
+              "definitionCN": "天性相斥的；比 averse 更强、更持久。"
+            },
+            {
+              "word": "hostile",
+              "ipa": "/ˈhɒstaɪl/",
+              "tag": "near meaning",
+              "definition": "actively unfriendly; aversion turned into aggression.",
+              "definitionCN": "怀敌意的；厌恶转为攻击性的状态。"
+            }
+          ]
+        }
+      ]
     },
-    {
-      "no": "03",
-      "title": "Unwilling to do something",
-      "titleCN": "不愿做的",
-      "definition": "reluctant or unwilling, as in not averse to helping",
-      "definitionCN": "不情愿、不肯做，如 not averse to helping",
-      "example": "He is not averse to an extra shift when the pay doubles.",
-      "exampleCN": "工资翻倍的话，他并不介意多加一个班。",
-      "why": "In the litotes not averse, the turning away is only mild.",
-      "whyCN": "在低调说法 not averse 中，「转开」的程度很轻。"
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Break it as a-verse: your body turns a verse away, the opposite direction from the thing.",
+        "cn": "拆成 a-verse 记：身体像翻页一样把某物翻到背面去。"
+      },
+      "normal": [
+        {
+          "en": "av- from ab- means away: averse turns away, adverse turns against.",
+          "cn": "av- 出自 ab-「离开」：averse 是转身躲开，adverse 是迎面作对。"
+        },
+        {
+          "en": "Risk-averse is the fixed economic collocation.",
+          "cn": "risk-averse 是经济学固定搭配：规避风险的。"
+        },
+        {
+          "en": "not averse to is the polite way of saying quite willing.",
+          "cn": "not averse to 是「还挺乐意」的礼貌说法。"
+        },
+        {
+          "en": "The family holds together: avert, aversion, aversive all carry the same turning.",
+          "cn": "词族提示：avert、aversion、aversive 都带同一个「转」。"
+        },
+        {
+          "en": "Averse needs a person; adverse needs weather, effects, conditions.",
+          "cn": "averse 用于人，adverse 用于天气、效果、条件。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "Feel your shoulders angle away from the offer.",
+          "cn": "感觉肩膀朝提议的反方向偏过去。"
+        },
+        {
+          "en": "Averse is a no spoken with the whole spine.",
+          "cn": "averse 是用整条脊柱说出的「不」。"
+        },
+        {
+          "en": "Picture a compass needle swinging off north and holding there.",
+          "cn": "想象罗盘针偏开正北并停在那里。"
+        }
+      ]
     },
-    {
-      "no": "04",
-      "title": "Avoiding risk in economics",
-      "titleCN": "（经济学）规避风险的",
-      "definition": "preferring certainty over gambles, as in risk-averse investors",
-      "definitionCN": "宁取确定而回避赌博，如 risk-averse 投资者",
-      "example": "Risk-averse buyers chose the fixed-rate loan.",
-      "exampleCN": "规避风险的买家选择了固定利率贷款。",
-      "why": "The turning-away image fits decision theory: turning from variance.",
-      "whyCN": "「转开」意象契合决策论：从波动前转开身去。"
+    "examples": [
+      {
+        "en": "Conservative savers are averse to putting money in equities.",
+        "cn": "保守的储户不愿把钱投入股市。"
+      },
+      {
+        "en": "He was not averse to a little flattery now and then.",
+        "cn": "他偶尔也不排斥听两句恭维。"
+      },
+      {
+        "en": "The committee remained averse to any delay in the schedule.",
+        "cn": "委员会反对日程出现任何延误。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「恶我死」——那东西一靠近他就喊「恶我死」，赶紧把脸转开",
+      "word": "averse"
     },
-    {
-      "no": "05",
-      "title": "In psychology, producing avoidance",
-      "titleCN": "（心理学）引发回避的",
-      "definition": "describing stimuli that organisms work to avoid, via the adjective aversive",
-      "definitionCN": "指生物体极力回避的刺激，经由 aversive 一词",
-      "example": "Aversive shocks shaped the rats' learned avoidance.",
-      "exampleCN": "厌恶电击塑造了大鼠习得的回避行为。",
-      "why": "The turning-away became a technical term for what drives it.",
-      "whyCN": "「转开」变成了驱动回避行为的术语。"
+    "root": "出自拉丁语 aversus「转开的」，为 avertere 的过去分词，由 ab-（离开）+ vertere（转）构成，与 reverse、convert、divert 同属 vertere 词族。16 世纪末进入英语，先表「背向」后转指心理上的「厌恶、反对」，如今几乎只作表语形容词。",
+    "sensesIntro": {
+      "en": "Eight senses fan out from the one root image of turning away: dislike, opposition, unwillingness, risk avoidance, and the technical senses in psychology and older prose.",
+      "cn": "八个义项从「转开」这一根意象展开：厌恶、反对、不情愿、规避风险，以及心理学与旧文体中的技术义项。"
     },
-    {
-      "no": "06",
-      "title": "Turned away in older English",
-      "titleCN": "（旧义）背向的",
-      "definition": "in older or technical use, physically turned in a direction away from something",
-      "definitionCN": "旧式或技术用法中，身体或器官背向某物",
-      "example": "Older botany texts described leaves averse to the stem.",
-      "exampleCN": "旧植物学文献描述叶片背向茎干。",
-      "why": "This is the literal root sense that the moral senses grew away from.",
-      "whyCN": "这是词根的字面本义，道德义项正是从它长出去的。"
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: a body pivoting so its face no longer meets the thing.",
+        "cn": "核心意象：身体转过去，脸不再迎向那事物。"
+      },
+      "chain": [
+        "THE TURNING AWAY",
+        "THE DISLIKE",
+        "THE REFUSAL",
+        "THE STAND",
+        "THE CALCULATED AVOIDANCE",
+        "THE HABITUAL NO"
+      ],
+      "branches": [
+        {
+          "senses": "01 · 02",
+          "en": "THE FEELING SIDE: dislike and the opposition it becomes.",
+          "cn": "情感一面：反感及其化成的反对。"
+        },
+        {
+          "senses": "03",
+          "en": "THE WILLINGNESS SIDE: mild turning in not averse to.",
+          "cn": "意愿一面：not averse to 中的轻度转开。"
+        },
+        {
+          "senses": "04 · 05",
+          "en": "THE TECHNICAL SIDE: risk economics and avoidance learning.",
+          "cn": "技术一面：风险经济学与回避学习。"
+        },
+        {
+          "senses": "06",
+          "en": "THE LITERAL SIDE: turned away in old botany and anatomy.",
+          "cn": "字面一面：旧植物学、解剖学中的背向。"
+        },
+        {
+          "senses": "07 · 08",
+          "en": "THE SET SIDE: habit turned from novelty, effect turned against interest.",
+          "cn": "定型一面：习惯背对新事物，作用背离利益。"
+        }
+      ]
     },
-    {
-      "no": "07",
-      "title": "Averse to novelty",
-      "titleCN": "守旧；抵触新事物的",
-      "definition": "disinclined toward new ideas, methods, or technology",
-      "definitionCN": "对新观念、新方法或新技术不感兴趣甚至抵触",
-      "example": "The workshop proved averse to digital record-keeping.",
-      "exampleCN": "那间作坊始终不愿改用数字记账。",
-      "why": "Attachment to the familiar is aversion pointed at the new.",
-      "whyCN": "恋旧即厌恶指向了新事物。"
-    },
-    {
-      "no": "08",
-      "title": "Aversely, in an unfavorable direction",
-      "titleCN": "（副词义）不利地",
-      "definition": "in the adverb aversely, affecting something negatively or disadvantageously",
-      "definitionCN": "副词 aversely 中，以负面或不利的方式影响某事",
-      "example": "The ruling bore aversely on small lenders.",
-      "exampleCN": "这项裁决对小贷机构不利。",
-      "why": "Turned against a thing can mean acting against its interest.",
-      "whyCN": "「转而背对」也可意味着对其利益不利。"
+    "affixes": {
+      "intro": {
+        "en": "Averse is ab- plus versus: the prefix says away, the participle says turned.",
+        "cn": "averse 的结构是 ab-（离开）加 versus（转开的）。"
+      },
+      "latinIntro": {
+        "en": "The vertere family is one of Latin's most productive: every turn in English often hides it.",
+        "cn": "vertere 词族是拉丁语最高产的词族之一：英语里许多「转」都藏着它。"
+      },
+      "items": [
+        {
+          "word": "ab-",
+          "structure": "Latin prefix",
+          "meaning": "away, from",
+          "meaningCN": "离开；自",
+          "example": "absent, abstain, avert",
+          "exampleCN": "缺席、戒除、转移"
+        },
+        {
+          "word": "vertere",
+          "structure": "Latin verb",
+          "meaning": "to turn",
+          "meaningCN": "转动",
+          "example": "vertere in Latin prose",
+          "exampleCN": "拉丁散文中的 vertere"
+        },
+        {
+          "word": "aversus",
+          "structure": "ab- + versus",
+          "meaning": "turned away",
+          "meaningCN": "转开的",
+          "example": "aversus in classical texts",
+          "exampleCN": "古典文献中的 aversus"
+        },
+        {
+          "word": "avert",
+          "structure": "ab- + vert",
+          "meaning": "to turn away, prevent",
+          "meaningCN": "转移；防止",
+          "example": "avert one's eyes",
+          "exampleCN": "移开目光"
+        },
+        {
+          "word": "adverse",
+          "structure": "ad- + verse",
+          "meaning": "turned against, unfavorable",
+          "meaningCN": "不利的",
+          "example": "adverse weather",
+          "exampleCN": "恶劣天气"
+        },
+        {
+          "word": "reverse",
+          "structure": "re- + verse",
+          "meaning": "turned back",
+          "meaningCN": "反转的",
+          "example": "reverse a decision",
+          "exampleCN": "撤销决定"
+        },
+        {
+          "word": "convert",
+          "structure": "con- + vert",
+          "meaning": "to turn together, change",
+          "meaningCN": "转变",
+          "example": "convert currency",
+          "exampleCN": "兑换货币"
+        },
+        {
+          "word": "aversive",
+          "structure": "averse + -ive",
+          "meaning": "causing avoidance",
+          "meaningCN": "引发回避的",
+          "example": "aversive stimulus",
+          "exampleCN": "厌恶刺激"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "averto",
+          "structure": "Latin verb (avert, avertere)",
+          "meaning": "to turn away",
+          "meaningCN": "使转开"
+        },
+        {
+          "word": "aversus",
+          "structure": "Latin participle",
+          "meaning": "turned away",
+          "meaningCN": "转开的"
+        }
+      ]
     }
-  ],
-  "etymology": {
-    "intro": {
-      "en": "Averse comes from Latin aversus, turned away, the past participle of avertere, from ab, away, plus vertere, to turn.",
-      "cn": "averse 出自拉丁语 aversus「转开的」，是动词 avertere 的过去分词，由 ab（离开）+ vertere（转）构成。"
-    },
-    "items": [
-      {
-        "era": "PROTO-INDO-EUROPEAN",
-        "en": "The turn-root goes back to a reconstructed stem wer- meaning to bend or turn.",
-        "cn": "「转」的词根可追溯至重构词干 wer-「弯、转」。"
-      },
-      {
-        "era": "LATIN",
-        "en": "averted, from ab, away, plus vertere, to turn, meant to turn something away.",
-        "cn": "拉丁语 avertere 由 ab「离开」+ vertere「转」构成，意为使转开。"
-      },
-      {
-        "era": "LATIN, AVERSUS",
-        "en": "aversus described a thing or face turned away; morally, turned against.",
-        "cn": "aversus 描述背转的脸或物；道德层面即「反对」。"
-      },
-      {
-        "era": "ENGLISH, 16TH–17TH C.",
-        "en": "English took averse in the late sixteenth century, first literal, soon figurative.",
-        "cn": "英语在 16 世纪末借入 averse，先取字面义，很快转为比喻义。"
-      },
-      {
-        "era": "ENGLISH, 18TH–19TH C.",
-        "en": "The pattern averse to fixed in place, and risk aversion later entered economics.",
-        "cn": "averse to 搭配固定下来，「风险规避」后来进入经济学。"
-      },
-      {
-        "era": "MODERN ENGLISH",
-        "en": "Today averse is almost only predicative: people are averse to things.",
-        "cn": "如今 averse 几乎只作表语：人对事物 averse。"
-      }
-    ]
-  },
-  "similar": {
-    "note": {
-      "en": "Group one gathers the vertere family and its spelling traps; group two gathers words of dislike.",
-      "cn": "第一组收 vertere 词族及拼写陷阱；第二组收厌恶义场的词。"
-    },
-    "groups": [
-      {
-        "heading": "LOOK-ALIKE",
-        "entries": [
-          {
-            "word": "adverse",
-            "ipa": "/ˈædvɜːs/",
-            "tag": "look-alike, different prefix",
-            "definition": "unfavorable or harmful, acting against; describes conditions, not feelings.",
-            "definitionCN": "不利的、有害的（起反作用）；形容条件而非心情，勿与 averse 混用。"
-          },
-          {
-            "word": "aversion",
-            "ipa": "/əˈvɜːʃn/",
-            "tag": "derived form",
-            "definition": "the noun: a strong dislike.",
-            "definitionCN": "名词形式：强烈的厌恶。"
-          },
-          {
-            "word": "invert",
-            "ipa": "/ɪnˈvɜːt/",
-            "tag": "same root",
-            "definition": "to turn upside down; shares vertere with averse.",
-            "definitionCN": "使倒转；与 averse 同享 vertere 词根。"
-          }
-        ]
-      },
-      {
-        "heading": "NEAR MEANING",
-        "entries": [
-          {
-            "word": "reluctant",
-            "ipa": "/rɪˈlʌktənt/",
-            "tag": "near meaning",
-            "definition": "unwilling and hesitating; milder than averse.",
-            "definitionCN": "不情愿、犹豫；语气比 averse 温和。"
-          },
-          {
-            "word": "loath",
-            "ipa": "/ləʊθ/",
-            "tag": "near meaning",
-            "definition": "unwilling out of dislike; also predicative, as loath to admit.",
-            "definitionCN": "因厌恶而不愿；同样常作表语，如 loath to admit。"
-          },
-          {
-            "word": "disinclined",
-            "ipa": "/ˌdɪsɪnˈklaɪnd/",
-            "tag": "near meaning",
-            "definition": "not minded to do something; formal and mild.",
-            "definitionCN": "无意于做某事；正式而温和。"
-          },
-          {
-            "word": "antipathetic",
-            "ipa": "/ænˌtɪpəˈθetɪk/",
-            "tag": "near meaning",
-            "definition": "naturally opposed in feeling; stronger and more settled than averse.",
-            "definitionCN": "天性相斥的；比 averse 更强、更持久。"
-          },
-          {
-            "word": "hostile",
-            "ipa": "/ˈhɒstaɪl/",
-            "tag": "near meaning",
-            "definition": "actively unfriendly; aversion turned into aggression.",
-            "definitionCN": "怀敌意的；厌恶转为攻击性的状态。"
-          }
-        ]
-      }
-    ]
-  },
-  "mnemonics": {
-    "normalIntro": {
-      "en": "Break it as a-verse: your body turns a verse away, the opposite direction from the thing.",
-      "cn": "拆成 a-verse 记：身体像翻页一样把某物翻到背面去。"
-    },
-    "normal": [
-      { "en": "av- from ab- means away: averse turns away, adverse turns against.", "cn": "av- 出自 ab-「离开」：averse 是转身躲开，adverse 是迎面作对。" },
-      { "en": "Risk-averse is the fixed economic collocation.", "cn": "risk-averse 是经济学固定搭配：规避风险的。" },
-      { "en": "not averse to is the polite way of saying quite willing.", "cn": "not averse to 是「还挺乐意」的礼貌说法。" },
-      { "en": "The family holds together: avert, aversion, aversive all carry the same turning.", "cn": "词族提示：avert、aversion、aversive 都带同一个「转」。" },
-      { "en": "Averse needs a person; adverse needs weather, effects, conditions.", "cn": "averse 用于人，adverse 用于天气、效果、条件。" }
-    ],
-    "abstract": [
-      { "en": "Feel your shoulders angle away from the offer.", "cn": "感觉肩膀朝提议的反方向偏过去。" },
-      { "en": "Averse is a no spoken with the whole spine.", "cn": "averse 是用整条脊柱说出的「不」。" },
-      { "en": "Picture a compass needle swinging off north and holding there.", "cn": "想象罗盘针偏开正北并停在那里。" }
-    ]
-  },
-  "examples": [
-    { "en": "Conservative savers are averse to putting money in equities.", "cn": "保守的储户不愿把钱投入股市。" },
-    { "en": "He was not averse to a little flattery now and then.", "cn": "他偶尔也不排斥听两句恭维。" },
-    { "en": "The committee remained averse to any delay in the schedule.", "cn": "委员会反对日程出现任何延误。" }
-  ],
-  "dict_mnemonic": {
-    "note": "谐音记忆 · 非词源",
-    "text": "「恶我死」——那东西一靠近他就喊「恶我死」，赶紧把脸转开",
-    "word": "averse"
-  },
-  "root": "出自拉丁语 aversus「转开的」，为 avertere 的过去分词，由 ab-（离开）+ vertere（转）构成，与 reverse、convert、divert 同属 vertere 词族。16 世纪末进入英语，先表「背向」后转指心理上的「厌恶、反对」，如今几乎只作表语形容词。",
-  "sensesIntro": {
-    "en": "Eight senses fan out from the one root image of turning away: dislike, opposition, unwillingness, risk avoidance, and the technical senses in psychology and older prose.",
-    "cn": "八个义项从「转开」这一根意象展开：厌恶、反对、不情愿、规避风险，以及心理学与旧文体中的技术义项。"
-  },
-  "semanticMap": {
-    "core": {
-      "en": "CORE IMAGE: a body pivoting so its face no longer meets the thing.",
-      "cn": "核心意象：身体转过去，脸不再迎向那事物。"
-    },
-    "chain": ["THE TURNING AWAY", "THE DISLIKE", "THE REFUSAL", "THE STAND", "THE CALCULATED AVOIDANCE", "THE HABITUAL NO"],
-    "branches": [
-      { "senses": "01 · 02", "en": "THE FEELING SIDE: dislike and the opposition it becomes.", "cn": "情感一面：反感及其化成的反对。" },
-      { "senses": "03", "en": "THE WILLINGNESS SIDE: mild turning in not averse to.", "cn": "意愿一面：not averse to 中的轻度转开。" },
-      { "senses": "04 · 05", "en": "THE TECHNICAL SIDE: risk economics and avoidance learning.", "cn": "技术一面：风险经济学与回避学习。" },
-      { "senses": "06", "en": "THE LITERAL SIDE: turned away in old botany and anatomy.", "cn": "字面一面：旧植物学、解剖学中的背向。" },
-      { "senses": "07 · 08", "en": "THE SET SIDE: habit turned from novelty, effect turned against interest.", "cn": "定型一面：习惯背对新事物，作用背离利益。" }
-    ]
-  },
-  "affixes": {
-    "intro": {
-      "en": "Averse is ab- plus versus: the prefix says away, the participle says turned.",
-      "cn": "averse 的结构是 ab-（离开）加 versus（转开的）。"
-    },
-    "latinIntro": {
-      "en": "The vertere family is one of Latin's most productive: every turn in English often hides it.",
-      "cn": "vertere 词族是拉丁语最高产的词族之一：英语里许多「转」都藏着它。"
-    },
-    "items": [
-      { "word": "ab-", "structure": "Latin prefix", "meaning": "away, from", "meaningCN": "离开；自", "example": "absent, abstain, avert", "exampleCN": "缺席、戒除、转移" },
-      { "word": "vertere", "structure": "Latin verb", "meaning": "to turn", "meaningCN": "转动", "example": "vertere in Latin prose", "exampleCN": "拉丁散文中的 vertere" },
-      { "word": "aversus", "structure": "ab- + versus", "meaning": "turned away", "meaningCN": "转开的", "example": "aversus in classical texts", "exampleCN": "古典文献中的 aversus" },
-      { "word": "avert", "structure": "ab- + vert", "meaning": "to turn away, prevent", "meaningCN": "转移；防止", "example": "avert one's eyes", "exampleCN": "移开目光" },
-      { "word": "adverse", "structure": "ad- + verse", "meaning": "turned against, unfavorable", "meaningCN": "不利的", "example": "adverse weather", "exampleCN": "恶劣天气" },
-      { "word": "reverse", "structure": "re- + verse", "meaning": "turned back", "meaningCN": "反转的", "example": "reverse a decision", "exampleCN": "撤销决定" },
-      { "word": "convert", "structure": "con- + vert", "meaning": "to turn together, change", "meaningCN": "转变", "example": "convert currency", "exampleCN": "兑换货币" },
-      { "word": "aversive", "structure": "averse + -ive", "meaning": "causing avoidance", "meaningCN": "引发回避的", "example": "aversive stimulus", "exampleCN": "厌恶刺激" }
-    ],
-    "latinEntries": [
-      { "word": "averto", "structure": "Latin verb (avert, avertere)", "meaning": "to turn away", "meaningCN": "使转开" },
-      { "word": "aversus", "structure": "Latin participle", "meaning": "turned away", "meaningCN": "转开的" }
-    ]
   }
-}
+]

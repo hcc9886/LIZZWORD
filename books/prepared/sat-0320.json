@@ -1,301 +1,462 @@
-{
-  "word": "aviary",
-  "ipa_uk": "/ˈeɪviəri/",
-  "ipa_us": "/ˈeɪvieri/",
-  "definition_zh": "鸟舍；大型鸟笼；鸟类饲养场",
-  "definition_en": "a large enclosure or building for keeping birds",
-  "core_image": "罩着网顶的大笼子，鸟在里面飞而不出",
-  "scene": "鹦鹉扑翅掠过网顶的影子。The zoo opened a walk-through aviary last spring.",
-  "sceneCN": "这里 aviary 指「鸟舍」（第 1 个义项：养鸟的大型圈舍）；句意：动物园去年春天开放了一座可步入式鸟舍。",
-  "pos": [
-    { "tag": "n.", "zh": "鸟舍；大型鸟笼" }
-  ],
-  "collocations": [
-    { "phrase": "a walk-through aviary", "zh": "可步入式鸟舍" },
-    { "phrase": "an outdoor aviary", "zh": "露天鸟舍" },
-    { "phrase": "stock an aviary", "zh": "为鸟舍引进鸟" },
-    { "phrase": "an aviary of finches", "zh": "养雀的鸟舍" },
-    { "phrase": "escape from the aviary", "zh": "从鸟舍逃出" }
-  ],
-  "forms": [
-    { "label": "复数", "form": "aviaries" }
-  ],
-  "derivatives": [
-    { "word": "aviator", "pos": "n.", "zh": "飞行员（同根 avis「鸟」+ -ator）" },
-    { "word": "aviation", "pos": "n.", "zh": "航空（同根 avis + -ation）" },
-    { "word": "avian", "pos": "adj.", "zh": "鸟类的（avis + -an）" }
-  ],
-  "senses": [
-    {
-      "no": "01",
-      "title": "A large enclosure for birds",
-      "titleCN": "大型鸟舍；鸟笼",
-      "definition": "a big cage, enclosure, or building in which birds are kept",
-      "definitionCN": "圈养鸟类的大型笼舍或建筑",
-      "example": "The flamingos moved to a new aviary by the lake.",
-      "exampleCN": "火烈鸟迁入了湖边的新鸟舍。",
-      "why": "The Latin root is avis, bird: the place named for its dwellers.",
-      "whyCN": "拉丁词根是 avis「鸟」：以住户为场所命名。"
+[
+  {
+    "word": "aviary",
+    "ipa_uk": "/ˈeɪviəri/",
+    "ipa_us": "/ˈeɪvieri/",
+    "definition_zh": "鸟舍；大型鸟笼；鸟类饲养场",
+    "definition_en": "a large enclosure or building for keeping birds",
+    "core_image": "罩着网顶的大笼子，鸟在里面飞而不出",
+    "scene": "鹦鹉扑翅掠过网顶的影子。The zoo opened a walk-through aviary last spring.",
+    "sceneCN": "这里 aviary 指「鸟舍」（第 1 个义项：养鸟的大型圈舍）；句意：动物园去年春天开放了一座可步入式鸟舍。",
+    "pos": [
+      {
+        "tag": "n.",
+        "zh": "鸟舍；大型鸟笼"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "a walk-through aviary",
+        "zh": "可步入式鸟舍"
+      },
+      {
+        "phrase": "an outdoor aviary",
+        "zh": "露天鸟舍"
+      },
+      {
+        "phrase": "stock an aviary",
+        "zh": "为鸟舍引进鸟"
+      },
+      {
+        "phrase": "an aviary of finches",
+        "zh": "养雀的鸟舍"
+      },
+      {
+        "phrase": "escape from the aviary",
+        "zh": "从鸟舍逃出"
+      }
+    ],
+    "forms": [
+      {
+        "label": "复数",
+        "form": "aviaries"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "aviator",
+        "pos": "n.",
+        "zh": "飞行员（同根 avis「鸟」+ -ator）"
+      },
+      {
+        "word": "aviation",
+        "pos": "n.",
+        "zh": "航空（同根 avis + -ation）"
+      },
+      {
+        "word": "avian",
+        "pos": "adj.",
+        "zh": "鸟类的（avis + -an）"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "A large enclosure for birds",
+        "titleCN": "大型鸟舍；鸟笼",
+        "definition": "a big cage, enclosure, or building in which birds are kept",
+        "definitionCN": "圈养鸟类的大型笼舍或建筑",
+        "example": "The flamingos moved to a new aviary by the lake.",
+        "exampleCN": "火烈鸟迁入了湖边的新鸟舍。",
+        "why": "The Latin root is avis, bird: the place named for its dwellers.",
+        "whyCN": "拉丁词根是 avis「鸟」：以住户为场所命名。"
+      },
+      {
+        "no": "02",
+        "title": "A domestic bird house",
+        "titleCN": "家庭鸟舍",
+        "definition": "a smaller outdoor cage kept by hobbyists for pet birds",
+        "definitionCN": "爱好者在庭院饲养宠物鸟的较小笼舍",
+        "example": "He built a backyard aviary for his budgies.",
+        "exampleCN": "他为虎皮鹦鹉搭了座后院鸟舍。",
+        "why": "Scale alone separates the hobby shed from the zoo hall.",
+        "whyCN": "业余小棚与动物园大馆只是规模之别。"
+      },
+      {
+        "no": "03",
+        "title": "A zoo exhibit for flying birds",
+        "titleCN": "（动物园）飞行展区",
+        "definition": "a zoo building designed so birds can fly free inside",
+        "definitionCN": "园内供鸟类自由飞翔的展区建筑",
+        "example": "The walk-through aviary lets visitors share the airspace.",
+        "exampleCN": "可步入式鸟舍让游客与鸟共享同一片空气。",
+        "why": "Designers inverted the cage: the humans enter the birds' room.",
+        "whyCN": "设计者把笼子倒了过来：人走进鸟的房间。"
+      },
+      {
+        "no": "04",
+        "title": "A breeding establishment",
+        "titleCN": "繁育鸟场",
+        "definition": "a facility where birds are bred for conservation or sale",
+        "definitionCN": "为保育或出售而繁育鸟类的场所",
+        "example": "The sanctuary's aviary raises endangered parrots.",
+        "exampleCN": "保护区的鸟舍繁育濒危鹦鹉。",
+        "why": "Keeping became breeding as conservation grew.",
+        "whyCN": "随着保育兴起，「养鸟」变成了「繁育鸟」。"
+      },
+      {
+        "no": "05",
+        "title": "A quarantine aviary",
+        "titleCN": "检疫鸟舍",
+        "definition": "an enclosure where imported birds are held for inspection",
+        "definitionCN": "隔离检疫进口鸟类用的圈舍",
+        "example": "Imported finches spent a month in the quarantine aviary.",
+        "exampleCN": "进口雀鸟在检疫鸟舍待了一个月。",
+        "why": "Enclosure plus oversight is the aviary idea turned official.",
+        "whyCN": "圈舍加监管，正是鸟舍概念的正装版本。"
+      },
+      {
+        "no": "06",
+        "title": "Figurative: a noisy gathering",
+        "titleCN": "（比喻）喧闹的鸟群似的人群",
+        "definition": "a place or group compared to a cage of chattering birds",
+        "definitionCN": "被比作满笼啁啾之鸟的场所或人群",
+        "example": "The press room was an aviary before the verdict.",
+        "exampleCN": "宣判前，记者室像座嘈杂的鸟舍。",
+        "why": "The bird image carries noise and restless movement.",
+        "whyCN": "鸟的意象自带聒噪与躁动。"
+      },
+      {
+        "no": "07",
+        "title": "In hawking history, the mews house",
+        "titleCN": "（历史）鹰房；养鹰舍",
+        "definition": "in older usage, housing for hawks and other hunting birds",
+        "definitionCN": "旧义指饲养鹰隼等猎禽的房舍",
+        "example": "The manor kept an aviary for the falconer's birds.",
+        "exampleCN": "庄园为驯鹰师的猎禽专设鹰舍。",
+        "why": "Before zoos, keeping birds meant keeping hunting partners.",
+        "whyCN": "动物园之前，养鸟即是养狩猎伙伴。"
+      },
+      {
+        "no": "08",
+        "title": "In architecture, the bird-room of a house",
+        "titleCN": "（建筑）宅内鸟室",
+        "definition": "a glazed room of a country house set aside for birds",
+        "definitionCN": "乡间宅邸中专辟给鸟类的玻璃花房式房间",
+        "example": "The conservatory doubled as the family aviary.",
+        "exampleCN": "那间暖房兼作全家的鸟室。",
+        "why": "Estate architecture folded the aviary into the house itself.",
+        "whyCN": "庄园建筑把鸟舍折进了住宅本体。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Aviary comes from Latin aviarium, a place for birds, from avis, bird, plus the place-ending -arium; English adopted the word in the sixteenth century.",
+        "cn": "aviary 出自拉丁语 aviarium「养鸟之所」，由 avis（鸟）+ 表场所的后缀 -arium 构成；英语于 16 世纪采纳该词。"
+      },
+      "items": [
+        {
+          "era": "PROTO-INDO-EUROPEAN",
+          "en": "The bird-root is reconstructed as awi- or h₂ewis, the old word for bird.",
+          "cn": "「鸟」词根被重构为 awi-/h₂ewis，即古老的「鸟」词。"
+        },
+        {
+          "era": "LATIN",
+          "en": "avis meant bird and seeded a whole family: avian, aviation, aviator.",
+          "cn": "avis 意为鸟，衍生出一整个词族：avian、aviation、aviator。"
+        },
+        {
+          "era": "LATIN, AVIARIUM",
+          "en": "Romans kept aviaria for songbirds and doves in villas and temples.",
+          "cn": "罗马人在别墅与神庙设 aviaria 饲养鸣禽与鸽。"
+        },
+        {
+          "era": "LATE LATIN, AVIARIUM",
+          "en": "The neuter aviarium passed into Romance forms of the bird-place.",
+          "cn": "中性名词 aviarium 进入罗曼语族的「鸟舍」一词。"
+        },
+        {
+          "era": "ENGLISH, 16TH C.",
+          "en": "English borrowed aviary in the 1570s-80s for cages and bird-rooms.",
+          "cn": "英语在 1570 至 1580 年代借入 aviary，指鸟笼与鸟室。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "The great walk-through aviaries of zoos redefined the word in the nineteenth and twentieth centuries.",
+          "cn": "19、20 世纪动物园的大型步入式鸟舍重新定义了这个词。"
+        }
+      ]
     },
-    {
-      "no": "02",
-      "title": "A domestic bird house",
-      "titleCN": "家庭鸟舍",
-      "definition": "a smaller outdoor cage kept by hobbyists for pet birds",
-      "definitionCN": "爱好者在庭院饲养宠物鸟的较小笼舍",
-      "example": "He built a backyard aviary for his budgies.",
-      "exampleCN": "他为虎皮鹦鹉搭了座后院鸟舍。",
-      "why": "Scale alone separates the hobby shed from the zoo hall.",
-      "whyCN": "业余小棚与动物园大馆只是规模之别。"
+    "similar": {
+      "note": {
+        "en": "Group one gathers the avis family and a spelling trap; group two gathers homes of animals.",
+        "cn": "第一组收 avis 词族及拼写陷阱；第二组收动物居所的词。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "apiary",
+              "ipa": "/ˈeɪpiəri/",
+              "tag": "look-alike, different root",
+              "definition": "a place for bees, from apis; one letter turns birds into insects.",
+              "definitionCN": "养蜂场，出自 apis「蜂」；一字之差，鸟变虫。"
+            },
+            {
+              "word": "aviation",
+              "ipa": "/ˌeɪviˈeɪʃn/",
+              "tag": "same root",
+              "definition": "flight and the aircraft industry, from the same avis.",
+              "definitionCN": "航空；同出 avis 词根。"
+            },
+            {
+              "word": "avian",
+              "ipa": "/ˈeɪviən/",
+              "tag": "same root",
+              "definition": "adjective, of or relating to birds.",
+              "definitionCN": "形容词：鸟类的。"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "cage",
+              "ipa": "/keɪdʒ/",
+              "tag": "near meaning",
+              "definition": "a small barred container for one or a few birds.",
+              "definitionCN": "小笼，装一只或少数几只鸟。"
+            },
+            {
+              "word": "coop",
+              "ipa": "/kuːp/",
+              "tag": "near meaning",
+              "definition": "a small pen for poultry.",
+              "definitionCN": "家禽的小围棚。"
+            },
+            {
+              "word": "apiary",
+              "ipa": "/ˈeɪpiəri/",
+              "tag": "near meaning",
+              "definition": "the same -ary place-word, for bees.",
+              "definitionCN": "同款 -ary 场所词，住户换成蜂。"
+            },
+            {
+              "word": "menagerie",
+              "ipa": "/məˈnædʒəri/",
+              "tag": "near meaning",
+              "definition": "a collection of wild animals kept for exhibition.",
+              "definitionCN": "展出用的异兽 collection；鸟舍可为其一角。"
+            },
+            {
+              "word": "mews",
+              "ipa": "/mjuːz/",
+              "tag": "near meaning",
+              "definition": "historically, buildings where hawks were kept while molting.",
+              "definitionCN": "历史上换羽期圈养鹰隼的房舍。"
+            }
+          ]
+        }
+      ]
     },
-    {
-      "no": "03",
-      "title": "A zoo exhibit for flying birds",
-      "titleCN": "（动物园）飞行展区",
-      "definition": "a zoo building designed so birds can fly free inside",
-      "definitionCN": "园内供鸟类自由飞翔的展区建筑",
-      "example": "The walk-through aviary lets visitors share the airspace.",
-      "exampleCN": "可步入式鸟舍让游客与鸟共享同一片空气。",
-      "why": "Designers inverted the cage: the humans enter the birds' room.",
-      "whyCN": "设计者把笼子倒了过来：人走进鸟的房间。"
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Hang the word on avis, the Latin bird: an aviary is where avis lives.",
+        "cn": "把词挂在拉丁语 avis「鸟」上：aviary 就是 avis 住的地方。"
+      },
+      "normal": [
+        {
+          "en": "avis bird plus -ary place: like library from liber, book.",
+          "cn": "avis 鸟 + -ary 场所：正如 liber 书造出 library。"
+        },
+        {
+          "en": "Distinguish apiary, bees, from aviary, birds.",
+          "cn": "区分 apiary（养蜂场）与 aviary（鸟舍）。"
+        },
+        {
+          "en": "Same family: aviation, aviator, avian all fly on avis.",
+          "cn": "同族词 aviation、aviator、avian 都乘 avis 起飞。"
+        },
+        {
+          "en": "Plural spelling note: aviary becomes aviaries, y to ies.",
+          "cn": "复数拼写：aviary 变 aviaries，y 变 ies。"
+        },
+        {
+          "en": "walk-through aviary is the modern zoo phrase.",
+          "cn": "walk-through aviary 是现代动物园的固定说法。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "Look up: net instead of sky, yet still sky-colored light.",
+          "cn": "抬头看：网代替了天空，光线却仍是天光。"
+        },
+        {
+          "en": "An aviary is a sky folded down to human size.",
+          "cn": "鸟舍是折叠到人间的天空。"
+        },
+        {
+          "en": "Hear the whole room ticking with small claws and calls.",
+          "cn": "听整间屋子里小爪与鸣叫的窸窣。"
+        }
+      ]
     },
-    {
-      "no": "04",
-      "title": "A breeding establishment",
-      "titleCN": "繁育鸟场",
-      "definition": "a facility where birds are bred for conservation or sale",
-      "definitionCN": "为保育或出售而繁育鸟类的场所",
-      "example": "The sanctuary's aviary raises endangered parrots.",
-      "exampleCN": "保护区的鸟舍繁育濒危鹦鹉。",
-      "why": "Keeping became breeding as conservation grew.",
-      "whyCN": "随着保育兴起，「养鸟」变成了「繁育鸟」。"
+    "examples": [
+      {
+        "en": "Volunteers repaired the storm-torn aviary before dawn.",
+        "cn": "志愿者赶在天亮前修好了被风暴撕坏的鸟舍。"
+      },
+      {
+        "en": "The parrot slipped out of the aviary and colonized the park.",
+        "cn": "那只鹦鹉溜出鸟舍，在公园里安了家。"
+      },
+      {
+        "en": "Her garden aviary held a dozen shimmering finches.",
+        "cn": "她的花园鸟舍里养着十来只羽色闪亮的雀鸟。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「爱喂鹅里」——爱喂鸟的鹅住的大笼子，就叫鸟舍",
+      "word": "aviary"
     },
-    {
-      "no": "05",
-      "title": "A quarantine aviary",
-      "titleCN": "检疫鸟舍",
-      "definition": "an enclosure where imported birds are held for inspection",
-      "definitionCN": "隔离检疫进口鸟类用的圈舍",
-      "example": "Imported finches spent a month in the quarantine aviary.",
-      "exampleCN": "进口雀鸟在检疫鸟舍待了一个月。",
-      "why": "Enclosure plus oversight is the aviary idea turned official.",
-      "whyCN": "圈舍加监管，正是鸟舍概念的正装版本。"
+    "root": "出自拉丁语 aviarium「养鸟之所」，由 avis（鸟）+ 表场所后缀 -arium 构成；avis 词根可追溯至印欧语 awi-「鸟」。英语于 16 世纪后期借入，与 aviation、aviator、avian 同族；19 世纪起随动物园大型鸟舍扩展词义。",
+    "sensesIntro": {
+      "en": "Eight senses scale the bird-house up and out: the home cage, the zoo hall, the breeding and quarantine sheds, the falconer's mews, and the figurative noisy room.",
+      "cn": "八个义项把「鸟屋」逐级放大：家用笼、动物园大馆、繁育与检疫棚、驯鹰房，以及比喻中喧闹的房间。"
     },
-    {
-      "no": "06",
-      "title": "Figurative: a noisy gathering",
-      "titleCN": "（比喻）喧闹的鸟群似的人群",
-      "definition": "a place or group compared to a cage of chattering birds",
-      "definitionCN": "被比作满笼啁啾之鸟的场所或人群",
-      "example": "The press room was an aviary before the verdict.",
-      "exampleCN": "宣判前，记者室像座嘈杂的鸟舍。",
-      "why": "The bird image carries noise and restless movement.",
-      "whyCN": "鸟的意象自带聒噪与躁动。"
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: netting stretched where sky should be, birds flying inside it.",
+        "cn": "核心意象：在天空该在的地方绷起网，鸟在网内飞翔。"
+      },
+      "chain": [
+        "THE BIRD",
+        "THE ENCLOSURE",
+        "THE SHARED AIRSPACE",
+        "THE BREEDING GROUND",
+        "THE CONTROLLED BORDER",
+        "THE CHATTER"
+      ],
+      "branches": [
+        {
+          "senses": "01 · 02",
+          "en": "THE KEEPING SIDE: from home shed to collection.",
+          "cn": "饲养一面：从家庭小棚到收藏大笼。"
+        },
+        {
+          "senses": "03",
+          "en": "THE EXHIBIT SIDE: humans stepping into the birds' air.",
+          "cn": "展出一面：人步入鸟的天空。"
+        },
+        {
+          "senses": "04 · 05",
+          "en": "THE OFFICIAL SIDE: breeding programs and quarantine lines.",
+          "cn": "公务一面：繁育计划与检疫线。"
+        },
+        {
+          "senses": "07",
+          "en": "THE OLD SIDE: hawks housed for the hunt.",
+          "cn": "古义一面：为狩猎而养的鹰房。"
+        },
+        {
+          "senses": "06 · 08",
+          "en": "THE FIGURATIVE SIDE: chatter and glassed-in rooms.",
+          "cn": "比喻一面：聒噪人群与宅内鸟室。"
+        }
+      ]
     },
-    {
-      "no": "07",
-      "title": "In hawking history, the mews house",
-      "titleCN": "（历史）鹰房；养鹰舍",
-      "definition": "in older usage, housing for hawks and other hunting birds",
-      "definitionCN": "旧义指饲养鹰隼等猎禽的房舍",
-      "example": "The manor kept an aviary for the falconer's birds.",
-      "exampleCN": "庄园为驯鹰师的猎禽专设鹰舍。",
-      "why": "Before zoos, keeping birds meant keeping hunting partners.",
-      "whyCN": "动物园之前，养鸟即是养狩猎伙伴。"
-    },
-    {
-      "no": "08",
-      "title": "In architecture, the bird-room of a house",
-      "titleCN": "（建筑）宅内鸟室",
-      "definition": "a glazed room of a country house set aside for birds",
-      "definitionCN": "乡间宅邸中专辟给鸟类的玻璃花房式房间",
-      "example": "The conservatory doubled as the family aviary.",
-      "exampleCN": "那间暖房兼作全家的鸟室。",
-      "why": "Estate architecture folded the aviary into the house itself.",
-      "whyCN": "庄园建筑把鸟舍折进了住宅本体。"
+    "affixes": {
+      "intro": {
+        "en": "Aviary is avis plus -arium, one of Latin's most regular place-endings.",
+        "cn": "aviary 即 avis 加 -arium，后者是拉丁语最规整的场所后缀之一。"
+      },
+      "latinIntro": {
+        "en": "Latin -arium built names for where things live or are kept, from aquarium to armamentarium.",
+        "cn": "拉丁语 -arium 为「存放、栖居之所」命名，从 aquarium 到 armamentarium 皆是。"
+      },
+      "items": [
+        {
+          "word": "avis",
+          "structure": "Latin noun",
+          "meaning": "bird",
+          "meaningCN": "鸟",
+          "example": "avis in classical Latin",
+          "exampleCN": "古典拉丁语中的 avis"
+        },
+        {
+          "word": "-arium",
+          "structure": "place suffix",
+          "meaning": "a container or place for",
+          "meaningCN": "存放之所",
+          "example": "aquarium, terrarium",
+          "exampleCN": "水族馆、玻璃缸"
+        },
+        {
+          "word": "aviarium",
+          "structure": "avis + -arium",
+          "meaning": "place for birds",
+          "meaningCN": "鸟舍",
+          "example": "aviarium in villa plans",
+          "exampleCN": "别墅图纸上的鸟舍"
+        },
+        {
+          "word": "avian",
+          "structure": "avis + -an",
+          "meaning": "of birds",
+          "meaningCN": "鸟类的",
+          "example": "avian flu",
+          "exampleCN": "禽流感"
+        },
+        {
+          "word": "aviation",
+          "structure": "avis + -ation",
+          "meaning": "the art of flying",
+          "meaningCN": "航空",
+          "example": "civil aviation",
+          "exampleCN": "民用航空"
+        },
+        {
+          "word": "aviator",
+          "structure": "avis + -ator",
+          "meaning": "a pilot",
+          "meaningCN": "飞行员",
+          "example": "early aviators",
+          "exampleCN": "早期飞行员"
+        },
+        {
+          "word": "apiary",
+          "structure": "apis + -ary",
+          "meaning": "place for bees",
+          "meaningCN": "养蜂场",
+          "example": "a hillside apiary",
+          "exampleCN": "山坡上的养蜂场"
+        },
+        {
+          "word": "aviaries",
+          "structure": "aviary + -es",
+          "meaning": "plural form",
+          "meaningCN": "复数形式",
+          "example": "three walk-through aviaries",
+          "exampleCN": "三座可步入式鸟舍"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "aviarium",
+          "structure": "Latin noun",
+          "meaning": "a place for birds",
+          "meaningCN": "养鸟之所"
+        },
+        {
+          "word": "avis",
+          "structure": "Latin noun",
+          "meaning": "bird",
+          "meaningCN": "鸟"
+        }
+      ]
     }
-  ],
-  "etymology": {
-    "intro": {
-      "en": "Aviary comes from Latin aviarium, a place for birds, from avis, bird, plus the place-ending -arium; English adopted the word in the sixteenth century.",
-      "cn": "aviary 出自拉丁语 aviarium「养鸟之所」，由 avis（鸟）+ 表场所的后缀 -arium 构成；英语于 16 世纪采纳该词。"
-    },
-    "items": [
-      {
-        "era": "PROTO-INDO-EUROPEAN",
-        "en": "The bird-root is reconstructed as awi- or h₂ewis, the old word for bird.",
-        "cn": "「鸟」词根被重构为 awi-/h₂ewis，即古老的「鸟」词。"
-      },
-      {
-        "era": "LATIN",
-        "en": "avis meant bird and seeded a whole family: avian, aviation, aviator.",
-        "cn": "avis 意为鸟，衍生出一整个词族：avian、aviation、aviator。"
-      },
-      {
-        "era": "LATIN, AVIARIUM",
-        "en": "Romans kept aviaria for songbirds and doves in villas and temples.",
-        "cn": "罗马人在别墅与神庙设 aviaria 饲养鸣禽与鸽。"
-      },
-      {
-        "era": "LATE LATIN, AVIARIUM",
-        "en": "The neuter aviarium passed into Romance forms of the bird-place.",
-        "cn": "中性名词 aviarium 进入罗曼语族的「鸟舍」一词。"
-      },
-      {
-        "era": "ENGLISH, 16TH C.",
-        "en": "English borrowed aviary in the 1570s-80s for cages and bird-rooms.",
-        "cn": "英语在 1570 至 1580 年代借入 aviary，指鸟笼与鸟室。"
-      },
-      {
-        "era": "MODERN ENGLISH",
-        "en": "The great walk-through aviaries of zoos redefined the word in the nineteenth and twentieth centuries.",
-        "cn": "19、20 世纪动物园的大型步入式鸟舍重新定义了这个词。"
-      }
-    ]
-  },
-  "similar": {
-    "note": {
-      "en": "Group one gathers the avis family and a spelling trap; group two gathers homes of animals.",
-      "cn": "第一组收 avis 词族及拼写陷阱；第二组收动物居所的词。"
-    },
-    "groups": [
-      {
-        "heading": "LOOK-ALIKE",
-        "entries": [
-          {
-            "word": "apiary",
-            "ipa": "/ˈeɪpiəri/",
-            "tag": "look-alike, different root",
-            "definition": "a place for bees, from apis; one letter turns birds into insects.",
-            "definitionCN": "养蜂场，出自 apis「蜂」；一字之差，鸟变虫。"
-          },
-          {
-            "word": "aviation",
-            "ipa": "/ˌeɪviˈeɪʃn/",
-            "tag": "same root",
-            "definition": "flight and the aircraft industry, from the same avis.",
-            "definitionCN": "航空；同出 avis 词根。"
-          },
-          {
-            "word": "avian",
-            "ipa": "/ˈeɪviən/",
-            "tag": "same root",
-            "definition": "adjective, of or relating to birds.",
-            "definitionCN": "形容词：鸟类的。"
-          }
-        ]
-      },
-      {
-        "heading": "NEAR MEANING",
-        "entries": [
-          {
-            "word": "cage",
-            "ipa": "/keɪdʒ/",
-            "tag": "near meaning",
-            "definition": "a small barred container for one or a few birds.",
-            "definitionCN": "小笼，装一只或少数几只鸟。"
-          },
-          {
-            "word": "coop",
-            "ipa": "/kuːp/",
-            "tag": "near meaning",
-            "definition": "a small pen for poultry.",
-            "definitionCN": "家禽的小围棚。"
-          },
-          {
-            "word": "apiary",
-            "ipa": "/ˈeɪpiəri/",
-            "tag": "near meaning",
-            "definition": "the same -ary place-word, for bees.",
-            "definitionCN": "同款 -ary 场所词，住户换成蜂。"
-          },
-          {
-            "word": "menagerie",
-            "ipa": "/məˈnædʒəri/",
-            "tag": "near meaning",
-            "definition": "a collection of wild animals kept for exhibition.",
-            "definitionCN": "展出用的异兽 collection；鸟舍可为其一角。"
-          },
-          {
-            "word": "mews",
-            "ipa": "/mjuːz/",
-            "tag": "near meaning",
-            "definition": "historically, buildings where hawks were kept while molting.",
-            "definitionCN": "历史上换羽期圈养鹰隼的房舍。"
-          }
-        ]
-      }
-    ]
-  },
-  "mnemonics": {
-    "normalIntro": {
-      "en": "Hang the word on avis, the Latin bird: an aviary is where avis lives.",
-      "cn": "把词挂在拉丁语 avis「鸟」上：aviary 就是 avis 住的地方。"
-    },
-    "normal": [
-      { "en": "avis bird plus -ary place: like library from liber, book.", "cn": "avis 鸟 + -ary 场所：正如 liber 书造出 library。" },
-      { "en": "Distinguish apiary, bees, from aviary, birds.", "cn": "区分 apiary（养蜂场）与 aviary（鸟舍）。" },
-      { "en": "Same family: aviation, aviator, avian all fly on avis.", "cn": "同族词 aviation、aviator、avian 都乘 avis 起飞。" },
-      { "en": "Plural spelling note: aviary becomes aviaries, y to ies.", "cn": "复数拼写：aviary 变 aviaries，y 变 ies。" },
-      { "en": "walk-through aviary is the modern zoo phrase.", "cn": "walk-through aviary 是现代动物园的固定说法。" }
-    ],
-    "abstract": [
-      { "en": "Look up: net instead of sky, yet still sky-colored light.", "cn": "抬头看：网代替了天空，光线却仍是天光。" },
-      { "en": "An aviary is a sky folded down to human size.", "cn": "鸟舍是折叠到人间的天空。" },
-      { "en": "Hear the whole room ticking with small claws and calls.", "cn": "听整间屋子里小爪与鸣叫的窸窣。" }
-    ]
-  },
-  "examples": [
-    { "en": "Volunteers repaired the storm-torn aviary before dawn.", "cn": "志愿者赶在天亮前修好了被风暴撕坏的鸟舍。" },
-    { "en": "The parrot slipped out of the aviary and colonized the park.", "cn": "那只鹦鹉溜出鸟舍，在公园里安了家。" },
-    { "en": "Her garden aviary held a dozen shimmering finches.", "cn": "她的花园鸟舍里养着十来只羽色闪亮的雀鸟。" }
-  ],
-  "dict_mnemonic": {
-    "note": "谐音记忆 · 非词源",
-    "text": "「爱喂鹅里」——爱喂鸟的鹅住的大笼子，就叫鸟舍",
-    "word": "aviary"
-  },
-  "root": "出自拉丁语 aviarium「养鸟之所」，由 avis（鸟）+ 表场所后缀 -arium 构成；avis 词根可追溯至印欧语 awi-「鸟」。英语于 16 世纪后期借入，与 aviation、aviator、avian 同族；19 世纪起随动物园大型鸟舍扩展词义。",
-  "sensesIntro": {
-    "en": "Eight senses scale the bird-house up and out: the home cage, the zoo hall, the breeding and quarantine sheds, the falconer's mews, and the figurative noisy room.",
-    "cn": "八个义项把「鸟屋」逐级放大：家用笼、动物园大馆、繁育与检疫棚、驯鹰房，以及比喻中喧闹的房间。"
-  },
-  "semanticMap": {
-    "core": {
-      "en": "CORE IMAGE: netting stretched where sky should be, birds flying inside it.",
-      "cn": "核心意象：在天空该在的地方绷起网，鸟在网内飞翔。"
-    },
-    "chain": ["THE BIRD", "THE ENCLOSURE", "THE SHARED AIRSPACE", "THE BREEDING GROUND", "THE CONTROLLED BORDER", "THE CHATTER"],
-    "branches": [
-      { "senses": "01 · 02", "en": "THE KEEPING SIDE: from home shed to collection.", "cn": "饲养一面：从家庭小棚到收藏大笼。" },
-      { "senses": "03", "en": "THE EXHIBIT SIDE: humans stepping into the birds' air.", "cn": "展出一面：人步入鸟的天空。" },
-      { "senses": "04 · 05", "en": "THE OFFICIAL SIDE: breeding programs and quarantine lines.", "cn": "公务一面：繁育计划与检疫线。" },
-      { "senses": "07", "en": "THE OLD SIDE: hawks housed for the hunt.", "cn": "古义一面：为狩猎而养的鹰房。" },
-      { "senses": "06 · 08", "en": "THE FIGURATIVE SIDE: chatter and glassed-in rooms.", "cn": "比喻一面：聒噪人群与宅内鸟室。" }
-    ]
-  },
-  "affixes": {
-    "intro": {
-      "en": "Aviary is avis plus -arium, one of Latin's most regular place-endings.",
-      "cn": "aviary 即 avis 加 -arium，后者是拉丁语最规整的场所后缀之一。"
-    },
-    "latinIntro": {
-      "en": "Latin -arium built names for where things live or are kept, from aquarium to armamentarium.",
-      "cn": "拉丁语 -arium 为「存放、栖居之所」命名，从 aquarium 到 armamentarium 皆是。"
-    },
-    "items": [
-      { "word": "avis", "structure": "Latin noun", "meaning": "bird", "meaningCN": "鸟", "example": "avis in classical Latin", "exampleCN": "古典拉丁语中的 avis" },
-      { "word": "-arium", "structure": "place suffix", "meaning": "a container or place for", "meaningCN": "存放之所", "example": "aquarium, terrarium", "exampleCN": "水族馆、玻璃缸" },
-      { "word": "aviarium", "structure": "avis + -arium", "meaning": "place for birds", "meaningCN": "鸟舍", "example": "aviarium in villa plans", "exampleCN": "别墅图纸上的鸟舍" },
-      { "word": "avian", "structure": "avis + -an", "meaning": "of birds", "meaningCN": "鸟类的", "example": "avian flu", "exampleCN": "禽流感" },
-      { "word": "aviation", "structure": "avis + -ation", "meaning": "the art of flying", "meaningCN": "航空", "example": "civil aviation", "exampleCN": "民用航空" },
-      { "word": "aviator", "structure": "avis + -ator", "meaning": "a pilot", "meaningCN": "飞行员", "example": "early aviators", "exampleCN": "早期飞行员" },
-      { "word": "apiary", "structure": "apis + -ary", "meaning": "place for bees", "meaningCN": "养蜂场", "example": "a hillside apiary", "exampleCN": "山坡上的养蜂场" },
-      { "word": "aviaries", "structure": "aviary + -es", "meaning": "plural form", "meaningCN": "复数形式", "example": "three walk-through aviaries", "exampleCN": "三座可步入式鸟舍" }
-    ],
-    "latinEntries": [
-      { "word": "aviarium", "structure": "Latin noun", "meaning": "a place for birds", "meaningCN": "养鸟之所" },
-      { "word": "avis", "structure": "Latin noun", "meaning": "bird", "meaningCN": "鸟" }
-    ]
   }
-}
+]

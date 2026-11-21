@@ -1,266 +1,522 @@
-{
-  "word": "bravo",
-  "ipa_uk": "/ˈbrɑːvəʊ/",
-  "ipa_us": "/ˈbrɑːvoʊ/",
-  "definition_zh": "喝彩声「好！」；亡命徒；勇敢的（旧义）",
-  "definition_en": "a shout of approval; also a daring hired fighter, or brave in Italian use",
-  "core_image": "剧院里灯光明亮，观众起立高喊「Bravo!」；同一词也可指旧时街头佩剑的打手",
-  "scene": "独唱结束，全场起立鼓掌。When the aria ended, someone cried bravo from the balcony.",
-  "sceneCN": "这里 bravo 是「喝彩声」（第 1 个义项：对演出的赞美呼喊）；句意是咏叹调结束时，楼座有人高喊「好！」。",
-  "pos": [
-    { "tag": "int.", "zh": "好！妙！（喝彩语）" },
-    { "tag": "n.", "zh": "喝彩声" },
-    { "tag": "n.", "zh": "亡命徒；雇佣打手（旧义）" },
-    { "tag": "n.", "zh": "字母B的代称（北约音标字母）" }
-  ],
-  "collocations": [
-    { "phrase": "cry bravo", "zh": "高呼「好！」" },
-    { "phrase": "a chorus of bravos", "zh": "一片喝彩声" },
-    { "phrase": "shout bravo", "zh": "大喊「好！」" },
-    { "phrase": "a hired bravo", "zh": "雇佣打手" },
-    { "phrase": "Bravo, well done", "zh": "好！干得漂亮" },
-    { "phrase": "Bravo-Zulu", "zh": "（军语）干得好" }
-  ],
-  "forms": [
-    { "label": "复数", "form": "bravos" },
-    { "label": "复数（意式）", "form": "bravi" }
-  ],
-  "derivatives": [
-    { "word": "bravado", "pos": "n.", "zh": "由同根构成，义为「虚张声势」" },
-    { "word": "brave", "pos": "adj.", "zh": "同根形容词，义为「勇敢的」" },
-    { "word": "bravura", "pos": "n.", "zh": "由同根构成，义为「炫技演出」" },
-    { "word": "bravissimo", "pos": "int.", "zh": "由同根加意大利最高级后缀构成，义为「太棒了！」" }
-  ],
-  "senses": [
-    {
-      "no": "01",
-      "title": "A shout of approval",
-      "titleCN": "喝彩声；「好！」",
-      "definition": "an exclamation of praise, especially after a performance",
-      "definitionCN": "表示赞美的呼喊，尤用于演出之后",
-      "example": "The violinist bowed to the bravos.",
-      "exampleCN": "小提琴家在一片喝彩声中鞠躬。",
-      "why": "The Italian word for brave became the word for calling someone brave, then for applauding anyone.",
-      "whyCN": "意大利语「勇敢」一词先变成「称人勇敢」的呼喊，再泛化为对任何人的喝彩。"
-    },
-    {
-      "no": "02",
-      "title": "Praise for a woman performer",
-      "titleCN": "对女性演出者的喝彩（brava）",
-      "definition": "in Italian grammar, brava is the feminine form of the exclamation",
-      "definitionCN": "按意大利语语法，brava 为阴性形式，用于女性演出者",
-      "example": "The crowd shouted brava to the soprano.",
-      "exampleCN": "观众向女高音高喊 brava。",
-      "why": "Italian grammar follows the person praised, so the shout bends to the performer's gender.",
-      "whyCN": "意大利语语法随被赞者的性别变化，呼喊随之变格。"
-    },
-    {
-      "no": "03",
-      "title": "A daring hired fighter",
-      "titleCN": "亡命徒；雇佣打手",
-      "definition": "a bold sword-for-hire in old Italy, ready for violence",
-      "definitionCN": "旧时意大利为钱动剑的亡命打手",
-      "example": "The duke kept a dozen bravos at his gate.",
-      "exampleCN": "公爵门下养着一打亡命徒。",
-      "why": "The same boldness that earns applause in the theater draws blood in the street.",
-      "whyCN": "同样的「胆大」，在剧场赢得喝彩，在街头则见血。"
-    },
-    {
-      "no": "04",
-      "title": "Brave, in Italian use",
-      "titleCN": "勇敢的（意大利语用法）",
-      "definition": "the Italian adjective meaning brave or skillful, kept in English phrases",
-      "definitionCN": "意大利语形容词「勇敢的、能干的」，保存在英语固定说法中",
-      "example": "Bravo! is literally well done! in Italian.",
-      "exampleCN": "Bravo! 在意大利语中字面即「干得好！」。",
-      "why": "The exclamation is simply the adjective used as a verdict.",
-      "whyCN": "这个感叹不过是把形容词当作评语来用。"
-    },
-    {
-      "no": "05",
-      "title": "The letter B in radio codes",
-      "titleCN": "北约音标字母中的B",
-      "definition": "the code word for the letter B in the NATO phonetic alphabet",
-      "definitionCN": "北约音标字母表中代表字母B的代词",
-      "example": "The pilot reported Bravo-Two at the bridge.",
-      "exampleCN": "飞行员报告「B-2」位于桥头。",
-      "why": "Radio speech needs unmistakable syllables, and bravo was chosen for the letter B.",
-      "whyCN": "无线电通话需要绝不混淆的音节，B 的代号选用了 bravo。"
-    },
-    {
-      "no": "06",
-      "title": "Bravissimo, praise at its highest",
-      "titleCN": "最高级的喝彩",
-      "definition": "the Italian superlative bravissimo used for outstanding performance",
-      "definitionCN": "意大利语最高级 bravissimo，用于特别出色的演出",
-      "example": "The ovation climaxed in bravissimo!",
-      "exampleCN": "欢呼在「太棒了！」中达到顶点。",
-      "why": "The same root grades upward: bravo, brava, bravissimo.",
-      "whyCN": "同一词根有级别阶梯：bravo、brava、bravissimo。"
-    },
-    {
-      "no": "07",
-      "title": "Approval extended beyond the stage",
-      "titleCN": "剧场之外的赞许",
-      "definition": "the shout used for any bold success, in sport, debate, or life",
-      "definitionCN": "用于体育、辩论或生活中任何大胆成功之举的喝彩",
-      "example": "Bravo, he said, and shut the argument down.",
-      "exampleCN": "「漂亮，」他说，就此终结了那场争论。",
-      "why": "Once a word salutes the stage, the whole world becomes a stage.",
-      "whyCN": "一个词一旦为舞台喝彩，整个世界便都成了舞台。"
-    },
-    {
-      "no": "08",
-      "title": "A stamp of danger in fiction",
-      "titleCN": "文学中的危险印记",
-      "definition": "the word as a stock name for thugs in old novels and opera",
-      "definitionCN": "旧小说与歌剧中打手角色的固定称名",
-      "example": "Operatic villains send their bravos to do the dirty work.",
-      "exampleCN": "歌剧反派派自己的 bravo 去干脏活。",
-      "why": "Stock roles keep words alive longer than the profession itself.",
-      "whyCN": "固定角色让词语比职业本身活得更久。"
-    }
-  ],
-  "etymology": {
-    "intro": {
-      "en": "Bravo is Italian bravo, brave or bold, taken into English both as a cheer and as a name for hired swords.",
-      "cn": "bravo 是意大利语 bravo（勇敢的、大胆的），进入英语后兼作喝彩语与打手之名。"
-    },
-    "items": [
+[
+  {
+    "word": "bravo",
+    "ipa_uk": "/ˈbrɑːvəʊ/",
+    "ipa_us": "/ˈbrɑːvoʊ/",
+    "definition_zh": "喝彩声「好！」；亡命徒；勇敢的（旧义）",
+    "definition_en": "a shout of approval; also a daring hired fighter, or brave in Italian use",
+    "core_image": "剧院里灯光明亮，观众起立高喊「Bravo!」；同一词也可指旧时街头佩剑的打手",
+    "scene": "独唱结束，全场起立鼓掌。When the aria ended, someone cried bravo from the balcony.",
+    "sceneCN": "这里 bravo 是「喝彩声」（第 1 个义项：对演出的赞美呼喊）；句意是咏叹调结束时，楼座有人高喊「好！」。",
+    "pos": [
       {
-        "era": "LATIN",
-        "en": "The deeper source is disputed: Latin barbarus, foreign and wild, or pravus, crooked, with no settled answer.",
-        "cn": "更深的来源有争议：或谓拉丁语 barbarus（外邦的、狂野的），或谓 pravus（弯曲的），尚无定论。"
+        "tag": "int.",
+        "zh": "好！妙！（喝彩语）"
       },
       {
-        "era": "SPANISH AND ITALIAN",
-        "en": "Spanish and Italian both formed bravo meaning bold, wild, or defiant.",
-        "cn": "西班牙语与意大利语均形成 bravo，意为大胆、狂野、挑衅。"
+        "tag": "n.",
+        "zh": "喝彩声"
       },
       {
-        "era": "ITALIAN, 16TH C.",
-        "en": "In Italian, bravo also named the sword-for-hire, the bravo of street violence.",
-        "cn": "十六世纪意大利语中，bravo 亦指受雇行凶的剑客。"
+        "tag": "n.",
+        "zh": "亡命徒；雇佣打手（旧义）"
       },
       {
-        "era": "ENGLISH, 16TH C.",
-        "en": "English borrowed the fighter sense first, through tales of Italian duels.",
-        "cn": "英语先借入「打手」义，多经意大利决斗故事传入。"
-      },
-      {
-        "era": "ENGLISH, 18TH C.",
-        "en": "The theatrical cheer entered English with Italian opera, later than the fighter.",
-        "cn": "剧场喝彩义随意大利歌剧进入英语，晚于「打手」义。"
-      },
-      {
-        "era": "MODERN ENGLISH",
-        "en": "Modern English keeps the cheer dominant, with the radio code adding a new niche.",
-        "cn": "现代英语以喝彩义为主，无线电代号又开辟了新场景。"
+        "tag": "n.",
+        "zh": "字母B的代称（北约音标字母）"
       }
-    ]
-  },
-  "similar": {
-    "note": {
-      "en": "The brave family is rich in Romance borrowings; sound twins bravo and brava differ by grammar, not spelling chance.",
-      "cn": "brave 词族充满罗曼语借词；bravo 与 brava 之别是语法性的，非拼写偶然。"
-    },
-    "groups": [
+    ],
+    "collocations": [
       {
-        "heading": "LOOK-ALIKE",
-        "entries": [
-          { "word": "brava", "ipa": "/ˈbrɑːvə/", "tag": "same root", "definition": "feminine form of the cheer", "definitionCN": "喝彩语的阴性形式" },
-          { "word": "bravissimo", "ipa": "/brɑːˈviːsɪməʊ/", "tag": "same root", "definition": "superlative cheer, excellent!", "definitionCN": "最高级喝彩「太棒了」" },
-          { "word": "bravado", "ipa": "/brəˈvɑːdəʊ/", "tag": "same root", "definition": "pretended boldness", "definitionCN": "虚张声势；同根" },
-          { "word": "bravura", "ipa": "/brəˈvjʊərə/", "tag": "same root", "definition": "display of brilliant skill", "definitionCN": "炫技演出；同根" },
-          { "word": "beau", "ipa": "/bəʊ/", "tag": "spelling", "definition": "a boyfriend or dandy", "definitionCN": "情郎；纨绔子；拼写相近，词源不同" }
-        ]
+        "phrase": "cry bravo",
+        "zh": "高呼「好！」"
       },
       {
-        "heading": "NEAR MEANING",
-        "entries": [
-          { "word": "applause", "ipa": "/əˈplɔːz/", "tag": "near meaning", "definition": "approval shown by clapping", "definitionCN": "掌声；泛指赞许，bravo 是其有声呼喊版" },
-          { "word": "ovation", "ipa": "/əʊˈveɪʃn/", "tag": "near meaning", "definition": "enthusiastic prolonged applause", "definitionCN": "热烈欢呼" },
-          { "word": "encore", "ipa": "/ˈɒŋkɔː(r)/", "tag": "near meaning", "definition": "a call for a repeat performance", "definitionCN": "返场呼喊；同为剧场呼语" },
-          { "word": "thug", "ipa": "/θʌɡ/", "tag": "near meaning", "definition": "a violent criminal", "definitionCN": "暴徒；与 bravo 的打手义相近" },
-          { "word": "brave", "ipa": "/breɪv/", "tag": "near meaning", "definition": "courageous", "definitionCN": "勇敢的；词义基础" }
-        ]
+        "phrase": "a chorus of bravos",
+        "zh": "一片喝彩声"
+      },
+      {
+        "phrase": "shout bravo",
+        "zh": "大喊「好！」"
+      },
+      {
+        "phrase": "a hired bravo",
+        "zh": "雇佣打手"
+      },
+      {
+        "phrase": "Bravo, well done",
+        "zh": "好！干得漂亮"
+      },
+      {
+        "phrase": "Bravo-Zulu",
+        "zh": "（军语）干得好"
       }
-    ]
-  },
-  "mnemonics": {
-    "normalIntro": {
-      "en": "One Italian adjective wears three hats: the cheer, the fighter, and the radio letter.",
-      "cn": "一个意大利语形容词戴三顶帽子：喝彩语、打手、无线电字母。"
-    },
-    "normal": [
-      { "en": "bravo is Italian for brave, bold.", "cn": "bravo 在意大利语中意为勇敢、大胆。" },
-      { "en": "shouting bravo literally calls the performer brave.", "cn": "高喊 bravo 字面上是称演出者「勇敢」。" },
-      { "en": "brava is for a woman, bravissimo for the best.", "cn": "brava 用于女性，bravissimo 为最高级。" },
-      { "en": "in old Italy a bravo was a hired sword.", "cn": "旧时意大利 bravo 指雇佣剑客。" },
-      { "en": "NATO radio uses Bravo for the letter B.", "cn": "北约无线电以 Bravo 代字母 B。" }
     ],
-    "abstract": [
-      { "en": "A theater's warm roar versus a dark alley's cold blade: one word, two rooms.", "cn": "剧场的暖声浪与暗巷的冷剑锋：一词两室。" },
-      { "en": "Calling someone brave is the shortest review ever written.", "cn": "称人「勇敢」是史上最短的剧评。" },
-      { "en": "B in the sky: pilots spell with this word daily.", "cn": "天上的 B：飞行员每天都在拼这个词。" }
-    ]
-  },
-  "examples": [
-    { "en": "A lone bravo rang out before the hall erupted.", "cn": "一声孤零零的「好！」响起，随后全场沸腾。" },
-    { "en": "The pamphlet warned citizens about bravos lurking near the palace.", "cn": "小册子提醒市民提防在宫殿附近出没的亡命徒。" },
-    { "en": "Mission control radioed Bravo-Seven to begin descent.", "cn": "任务控制中心呼叫「B-7」开始下降。" }
-  ],
-  "dict_mnemonic": {
-    "note": "谐音记忆 · 非词源",
-    "text": "「不漏」——掌声雷动也「不漏」掉一声「好！」：Bravo 就是那声绝不肯漏的喝彩。",
-    "word": "bravo"
-  },
-  "root": "意大利语（与西班牙语）bravo（勇敢的、狂野的）+ 表人/呼语用法；更深拉丁来源有 barbarus 与 pravus 二说，均未成定论。",
-  "sensesIntro": {
-    "en": "From the Italian adjective, the word splits into the theater shout, the street fighter, and the radio syllable for B.",
-    "cn": "由意大利语形容词出发，一词分作剧场喝彩、街头打手与代表 B 的无线电音节。"
-  },
-  "semanticMap": {
-    "core": {
-      "en": "CORE IMAGE: calling a person brave, whether in applause or in menace",
-      "cn": "核心意象：称人「勇敢」——或在掌声中，或在威胁里"
-    },
-    "chain": ["BOLDNESS", "PRAISE", "PERFORMANCE", "VIOLENCE", "RADIO", "GRAMMAR"],
-    "branches": [
-      { "senses": "01 · 06", "en": "the warm hall: bravo and its superlative", "cn": "温热的剧场：bravo 与其最高级" },
-      { "senses": "02", "en": "grammar follows the performer: brava", "cn": "语法随人：阴性的 brava" },
-      { "senses": "03 · 08", "en": "the cold street: the hired sword in fact and in fiction", "cn": "冰冷的街头：现实与文学中的雇佣剑客" },
-      { "senses": "04 · 07", "en": "the verdict everywhere: brave said of any bold success", "cn": "处处皆评语：对一切大胆成功的赞词" },
-      { "senses": "05", "en": "B on the airwaves", "cn": "电波中的 B" }
-    ]
-  },
-  "affixes": {
-    "intro": {
-      "en": "A single Romance root with Italian suffixes stacked around it for grades and genders.",
-      "cn": "单一罗曼语词根，周围叠加意大利语词缀以表级与性。"
-    },
-    "latinIntro": {
-      "en": "The Latin ancestors are disputed; the family is firmly Romance regardless.",
-      "cn": "拉丁祖先有争议；但词族归属罗曼语无疑。"
-    },
-    "items": [
-      { "word": "brav-", "structure": "Italian root", "meaning": "bold, wild", "meaningCN": "大胆的；狂野的", "example": "bravo, brava, bravissimo", "exampleCN": "bravo、brava、bravissimo 同根" },
-      { "word": "-o", "structure": "Italian masculine ending", "meaning": "masculine form", "meaningCN": "阳性形式", "example": "bravo for a man", "exampleCN": "bravo 用于男性" },
-      { "word": "-a", "structure": "Italian feminine ending", "meaning": "feminine form", "meaningCN": "阴性形式", "example": "brava for a woman", "exampleCN": "brava 用于女性" },
-      { "word": "-issimo", "structure": "Italian superlative suffix", "meaning": "most", "meaningCN": "最……", "example": "bravissimo, most excellent", "exampleCN": "bravissimo，棒极了" },
-      { "word": "-ada", "structure": "Spanish display suffix", "meaning": "act of being", "meaningCN": "……之举", "example": "bravada became bravado", "exampleCN": "bravada 演变为 bravado" },
-      { "word": "-ura", "structure": "Italian noun suffix", "meaning": "quality or result", "meaningCN": "性质；结果", "example": "bravura, a display of skill", "exampleCN": "bravura，炫技" },
-      { "word": "barbarus", "structure": "disputed Latin source", "meaning": "wild, foreign", "meaningCN": "狂野的；外邦的（一说）", "example": "one proposed ancestor", "exampleCN": "所提祖先之一" },
-      { "word": "pravus", "structure": "disputed Latin source", "meaning": "crooked", "meaningCN": "弯曲的（另一说）", "example": "the rival proposal", "exampleCN": "另一竞争假说" }
-    ],
-    "latinEntries": [
-      { "word": "barbarus", "structure": "Latin adjective", "meaning": "foreign, uncivilized", "meaningCN": "外邦的；未开化的", "example": "barbarus homo", "exampleCN": "未开化之人" },
-      { "word": "pravus", "structure": "Latin adjective", "meaning": "crooked, wicked", "meaningCN": "弯曲的；邪恶的", "example": "prava consilia", "exampleCN": "歪念" }
+    "forms": [
+      {
+        "label": "复数",
+        "form": "bravos"
+      },
+      {
+        "label": "复数（意式）",
+        "form": "bravi"
+      }
     ],
     "derivatives": [
-      { "word": "bravado", "pos": "n.", "zh": "虚张声势" },
-      { "word": "bravura", "pos": "n.", "zh": "炫技演出" },
-      { "word": "bravissimo", "pos": "int.", "zh": "太棒了！" }
-    ]
+      {
+        "word": "bravado",
+        "pos": "n.",
+        "zh": "由同根构成，义为「虚张声势」"
+      },
+      {
+        "word": "brave",
+        "pos": "adj.",
+        "zh": "同根形容词，义为「勇敢的」"
+      },
+      {
+        "word": "bravura",
+        "pos": "n.",
+        "zh": "由同根构成，义为「炫技演出」"
+      },
+      {
+        "word": "bravissimo",
+        "pos": "int.",
+        "zh": "由同根加意大利最高级后缀构成，义为「太棒了！」"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "A shout of approval",
+        "titleCN": "喝彩声；「好！」",
+        "definition": "an exclamation of praise, especially after a performance",
+        "definitionCN": "表示赞美的呼喊，尤用于演出之后",
+        "example": "The violinist bowed to the bravos.",
+        "exampleCN": "小提琴家在一片喝彩声中鞠躬。",
+        "why": "The Italian word for brave became the word for calling someone brave, then for applauding anyone.",
+        "whyCN": "意大利语「勇敢」一词先变成「称人勇敢」的呼喊，再泛化为对任何人的喝彩。"
+      },
+      {
+        "no": "02",
+        "title": "Praise for a woman performer",
+        "titleCN": "对女性演出者的喝彩（brava）",
+        "definition": "in Italian grammar, brava is the feminine form of the exclamation",
+        "definitionCN": "按意大利语语法，brava 为阴性形式，用于女性演出者",
+        "example": "The crowd shouted brava to the soprano.",
+        "exampleCN": "观众向女高音高喊 brava。",
+        "why": "Italian grammar follows the person praised, so the shout bends to the performer's gender.",
+        "whyCN": "意大利语语法随被赞者的性别变化，呼喊随之变格。"
+      },
+      {
+        "no": "03",
+        "title": "A daring hired fighter",
+        "titleCN": "亡命徒；雇佣打手",
+        "definition": "a bold sword-for-hire in old Italy, ready for violence",
+        "definitionCN": "旧时意大利为钱动剑的亡命打手",
+        "example": "The duke kept a dozen bravos at his gate.",
+        "exampleCN": "公爵门下养着一打亡命徒。",
+        "why": "The same boldness that earns applause in the theater draws blood in the street.",
+        "whyCN": "同样的「胆大」，在剧场赢得喝彩，在街头则见血。"
+      },
+      {
+        "no": "04",
+        "title": "Brave, in Italian use",
+        "titleCN": "勇敢的（意大利语用法）",
+        "definition": "the Italian adjective meaning brave or skillful, kept in English phrases",
+        "definitionCN": "意大利语形容词「勇敢的、能干的」，保存在英语固定说法中",
+        "example": "Bravo! is literally well done! in Italian.",
+        "exampleCN": "Bravo! 在意大利语中字面即「干得好！」。",
+        "why": "The exclamation is simply the adjective used as a verdict.",
+        "whyCN": "这个感叹不过是把形容词当作评语来用。"
+      },
+      {
+        "no": "05",
+        "title": "The letter B in radio codes",
+        "titleCN": "北约音标字母中的B",
+        "definition": "the code word for the letter B in the NATO phonetic alphabet",
+        "definitionCN": "北约音标字母表中代表字母B的代词",
+        "example": "The pilot reported Bravo-Two at the bridge.",
+        "exampleCN": "飞行员报告「B-2」位于桥头。",
+        "why": "Radio speech needs unmistakable syllables, and bravo was chosen for the letter B.",
+        "whyCN": "无线电通话需要绝不混淆的音节，B 的代号选用了 bravo。"
+      },
+      {
+        "no": "06",
+        "title": "Bravissimo, praise at its highest",
+        "titleCN": "最高级的喝彩",
+        "definition": "the Italian superlative bravissimo used for outstanding performance",
+        "definitionCN": "意大利语最高级 bravissimo，用于特别出色的演出",
+        "example": "The ovation climaxed in bravissimo!",
+        "exampleCN": "欢呼在「太棒了！」中达到顶点。",
+        "why": "The same root grades upward: bravo, brava, bravissimo.",
+        "whyCN": "同一词根有级别阶梯：bravo、brava、bravissimo。"
+      },
+      {
+        "no": "07",
+        "title": "Approval extended beyond the stage",
+        "titleCN": "剧场之外的赞许",
+        "definition": "the shout used for any bold success, in sport, debate, or life",
+        "definitionCN": "用于体育、辩论或生活中任何大胆成功之举的喝彩",
+        "example": "Bravo, he said, and shut the argument down.",
+        "exampleCN": "「漂亮，」他说，就此终结了那场争论。",
+        "why": "Once a word salutes the stage, the whole world becomes a stage.",
+        "whyCN": "一个词一旦为舞台喝彩，整个世界便都成了舞台。"
+      },
+      {
+        "no": "08",
+        "title": "A stamp of danger in fiction",
+        "titleCN": "文学中的危险印记",
+        "definition": "the word as a stock name for thugs in old novels and opera",
+        "definitionCN": "旧小说与歌剧中打手角色的固定称名",
+        "example": "Operatic villains send their bravos to do the dirty work.",
+        "exampleCN": "歌剧反派派自己的 bravo 去干脏活。",
+        "why": "Stock roles keep words alive longer than the profession itself.",
+        "whyCN": "固定角色让词语比职业本身活得更久。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Bravo is Italian bravo, brave or bold, taken into English both as a cheer and as a name for hired swords.",
+        "cn": "bravo 是意大利语 bravo（勇敢的、大胆的），进入英语后兼作喝彩语与打手之名。"
+      },
+      "items": [
+        {
+          "era": "LATIN",
+          "en": "The deeper source is disputed: Latin barbarus, foreign and wild, or pravus, crooked, with no settled answer.",
+          "cn": "更深的来源有争议：或谓拉丁语 barbarus（外邦的、狂野的），或谓 pravus（弯曲的），尚无定论。"
+        },
+        {
+          "era": "SPANISH AND ITALIAN",
+          "en": "Spanish and Italian both formed bravo meaning bold, wild, or defiant.",
+          "cn": "西班牙语与意大利语均形成 bravo，意为大胆、狂野、挑衅。"
+        },
+        {
+          "era": "ITALIAN, 16TH C.",
+          "en": "In Italian, bravo also named the sword-for-hire, the bravo of street violence.",
+          "cn": "十六世纪意大利语中，bravo 亦指受雇行凶的剑客。"
+        },
+        {
+          "era": "ENGLISH, 16TH C.",
+          "en": "English borrowed the fighter sense first, through tales of Italian duels.",
+          "cn": "英语先借入「打手」义，多经意大利决斗故事传入。"
+        },
+        {
+          "era": "ENGLISH, 18TH C.",
+          "en": "The theatrical cheer entered English with Italian opera, later than the fighter.",
+          "cn": "剧场喝彩义随意大利歌剧进入英语，晚于「打手」义。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "Modern English keeps the cheer dominant, with the radio code adding a new niche.",
+          "cn": "现代英语以喝彩义为主，无线电代号又开辟了新场景。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "The brave family is rich in Romance borrowings; sound twins bravo and brava differ by grammar, not spelling chance.",
+        "cn": "brave 词族充满罗曼语借词；bravo 与 brava 之别是语法性的，非拼写偶然。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "brava",
+              "ipa": "/ˈbrɑːvə/",
+              "tag": "same root",
+              "definition": "feminine form of the cheer",
+              "definitionCN": "喝彩语的阴性形式"
+            },
+            {
+              "word": "bravissimo",
+              "ipa": "/brɑːˈviːsɪməʊ/",
+              "tag": "same root",
+              "definition": "superlative cheer, excellent!",
+              "definitionCN": "最高级喝彩「太棒了」"
+            },
+            {
+              "word": "bravado",
+              "ipa": "/brəˈvɑːdəʊ/",
+              "tag": "same root",
+              "definition": "pretended boldness",
+              "definitionCN": "虚张声势；同根"
+            },
+            {
+              "word": "bravura",
+              "ipa": "/brəˈvjʊərə/",
+              "tag": "same root",
+              "definition": "display of brilliant skill",
+              "definitionCN": "炫技演出；同根"
+            },
+            {
+              "word": "beau",
+              "ipa": "/bəʊ/",
+              "tag": "spelling",
+              "definition": "a boyfriend or dandy",
+              "definitionCN": "情郎；纨绔子；拼写相近，词源不同"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "applause",
+              "ipa": "/əˈplɔːz/",
+              "tag": "near meaning",
+              "definition": "approval shown by clapping",
+              "definitionCN": "掌声；泛指赞许，bravo 是其有声呼喊版"
+            },
+            {
+              "word": "ovation",
+              "ipa": "/əʊˈveɪʃn/",
+              "tag": "near meaning",
+              "definition": "enthusiastic prolonged applause",
+              "definitionCN": "热烈欢呼"
+            },
+            {
+              "word": "encore",
+              "ipa": "/ˈɒŋkɔː(r)/",
+              "tag": "near meaning",
+              "definition": "a call for a repeat performance",
+              "definitionCN": "返场呼喊；同为剧场呼语"
+            },
+            {
+              "word": "thug",
+              "ipa": "/θʌɡ/",
+              "tag": "near meaning",
+              "definition": "a violent criminal",
+              "definitionCN": "暴徒；与 bravo 的打手义相近"
+            },
+            {
+              "word": "brave",
+              "ipa": "/breɪv/",
+              "tag": "near meaning",
+              "definition": "courageous",
+              "definitionCN": "勇敢的；词义基础"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "One Italian adjective wears three hats: the cheer, the fighter, and the radio letter.",
+        "cn": "一个意大利语形容词戴三顶帽子：喝彩语、打手、无线电字母。"
+      },
+      "normal": [
+        {
+          "en": "bravo is Italian for brave, bold.",
+          "cn": "bravo 在意大利语中意为勇敢、大胆。"
+        },
+        {
+          "en": "shouting bravo literally calls the performer brave.",
+          "cn": "高喊 bravo 字面上是称演出者「勇敢」。"
+        },
+        {
+          "en": "brava is for a woman, bravissimo for the best.",
+          "cn": "brava 用于女性，bravissimo 为最高级。"
+        },
+        {
+          "en": "in old Italy a bravo was a hired sword.",
+          "cn": "旧时意大利 bravo 指雇佣剑客。"
+        },
+        {
+          "en": "NATO radio uses Bravo for the letter B.",
+          "cn": "北约无线电以 Bravo 代字母 B。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "A theater's warm roar versus a dark alley's cold blade: one word, two rooms.",
+          "cn": "剧场的暖声浪与暗巷的冷剑锋：一词两室。"
+        },
+        {
+          "en": "Calling someone brave is the shortest review ever written.",
+          "cn": "称人「勇敢」是史上最短的剧评。"
+        },
+        {
+          "en": "B in the sky: pilots spell with this word daily.",
+          "cn": "天上的 B：飞行员每天都在拼这个词。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "A lone bravo rang out before the hall erupted.",
+        "cn": "一声孤零零的「好！」响起，随后全场沸腾。"
+      },
+      {
+        "en": "The pamphlet warned citizens about bravos lurking near the palace.",
+        "cn": "小册子提醒市民提防在宫殿附近出没的亡命徒。"
+      },
+      {
+        "en": "Mission control radioed Bravo-Seven to begin descent.",
+        "cn": "任务控制中心呼叫「B-7」开始下降。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「不漏」——掌声雷动也「不漏」掉一声「好！」：Bravo 就是那声绝不肯漏的喝彩。",
+      "word": "bravo"
+    },
+    "root": "意大利语（与西班牙语）bravo（勇敢的、狂野的）+ 表人/呼语用法；更深拉丁来源有 barbarus 与 pravus 二说，均未成定论。",
+    "sensesIntro": {
+      "en": "From the Italian adjective, the word splits into the theater shout, the street fighter, and the radio syllable for B.",
+      "cn": "由意大利语形容词出发，一词分作剧场喝彩、街头打手与代表 B 的无线电音节。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: calling a person brave, whether in applause or in menace",
+        "cn": "核心意象：称人「勇敢」——或在掌声中，或在威胁里"
+      },
+      "chain": [
+        "BOLDNESS",
+        "PRAISE",
+        "PERFORMANCE",
+        "VIOLENCE",
+        "RADIO",
+        "GRAMMAR"
+      ],
+      "branches": [
+        {
+          "senses": "01 · 06",
+          "en": "the warm hall: bravo and its superlative",
+          "cn": "温热的剧场：bravo 与其最高级"
+        },
+        {
+          "senses": "02",
+          "en": "grammar follows the performer: brava",
+          "cn": "语法随人：阴性的 brava"
+        },
+        {
+          "senses": "03 · 08",
+          "en": "the cold street: the hired sword in fact and in fiction",
+          "cn": "冰冷的街头：现实与文学中的雇佣剑客"
+        },
+        {
+          "senses": "04 · 07",
+          "en": "the verdict everywhere: brave said of any bold success",
+          "cn": "处处皆评语：对一切大胆成功的赞词"
+        },
+        {
+          "senses": "05",
+          "en": "B on the airwaves",
+          "cn": "电波中的 B"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "A single Romance root with Italian suffixes stacked around it for grades and genders.",
+        "cn": "单一罗曼语词根，周围叠加意大利语词缀以表级与性。"
+      },
+      "latinIntro": {
+        "en": "The Latin ancestors are disputed; the family is firmly Romance regardless.",
+        "cn": "拉丁祖先有争议；但词族归属罗曼语无疑。"
+      },
+      "items": [
+        {
+          "word": "brav-",
+          "structure": "Italian root",
+          "meaning": "bold, wild",
+          "meaningCN": "大胆的；狂野的",
+          "example": "bravo, brava, bravissimo",
+          "exampleCN": "bravo、brava、bravissimo 同根"
+        },
+        {
+          "word": "-o",
+          "structure": "Italian masculine ending",
+          "meaning": "masculine form",
+          "meaningCN": "阳性形式",
+          "example": "bravo for a man",
+          "exampleCN": "bravo 用于男性"
+        },
+        {
+          "word": "-a",
+          "structure": "Italian feminine ending",
+          "meaning": "feminine form",
+          "meaningCN": "阴性形式",
+          "example": "brava for a woman",
+          "exampleCN": "brava 用于女性"
+        },
+        {
+          "word": "-issimo",
+          "structure": "Italian superlative suffix",
+          "meaning": "most",
+          "meaningCN": "最……",
+          "example": "bravissimo, most excellent",
+          "exampleCN": "bravissimo，棒极了"
+        },
+        {
+          "word": "-ada",
+          "structure": "Spanish display suffix",
+          "meaning": "act of being",
+          "meaningCN": "……之举",
+          "example": "bravada became bravado",
+          "exampleCN": "bravada 演变为 bravado"
+        },
+        {
+          "word": "-ura",
+          "structure": "Italian noun suffix",
+          "meaning": "quality or result",
+          "meaningCN": "性质；结果",
+          "example": "bravura, a display of skill",
+          "exampleCN": "bravura，炫技"
+        },
+        {
+          "word": "barbarus",
+          "structure": "disputed Latin source",
+          "meaning": "wild, foreign",
+          "meaningCN": "狂野的；外邦的（一说）",
+          "example": "one proposed ancestor",
+          "exampleCN": "所提祖先之一"
+        },
+        {
+          "word": "pravus",
+          "structure": "disputed Latin source",
+          "meaning": "crooked",
+          "meaningCN": "弯曲的（另一说）",
+          "example": "the rival proposal",
+          "exampleCN": "另一竞争假说"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "barbarus",
+          "structure": "Latin adjective",
+          "meaning": "foreign, uncivilized",
+          "meaningCN": "外邦的；未开化的",
+          "example": "barbarus homo",
+          "exampleCN": "未开化之人"
+        },
+        {
+          "word": "pravus",
+          "structure": "Latin adjective",
+          "meaning": "crooked, wicked",
+          "meaningCN": "弯曲的；邪恶的",
+          "example": "prava consilia",
+          "exampleCN": "歪念"
+        }
+      ],
+      "derivatives": [
+        {
+          "word": "bravado",
+          "pos": "n.",
+          "zh": "虚张声势"
+        },
+        {
+          "word": "bravura",
+          "pos": "n.",
+          "zh": "炫技演出"
+        },
+        {
+          "word": "bravissimo",
+          "pos": "int.",
+          "zh": "太棒了！"
+        }
+      ]
+    }
   }
-}
+]

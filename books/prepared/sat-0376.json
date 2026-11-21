@@ -1,367 +1,369 @@
-{
- "word": "belief",
- "ipa_uk": "/bɪˈliːf/",
- "ipa_us": "/bɪˈliːf/",
- "definition_zh": "信念；相信；信仰",
- "definition_en": "a feeling that something is true or real",
- "core_image": "一个人在困境里仍攥紧拳头相信自己",
- "scene": "落榜后她仍没丢掉对自己的信心。Her belief in herself never faded.",
- "sceneCN": "这里 belief 是「信念」（第 1 个义项：相信某事为真的心理状态）；句意是她对自己的信心从未消退。",
- "pos": [
+[
   {
-   "tag": "n.",
-   "zh": "名词：信念；相信；信仰"
-  }
- ],
- "collocations": [
-  {
-   "phrase": "belief in",
-   "zh": "对……的信任"
-  },
-  {
-   "phrase": "strong belief",
-   "zh": "坚定的信念"
-  },
-  {
-   "phrase": "religious belief",
-   "zh": "宗教信仰"
-  },
-  {
-   "phrase": "beyond belief",
-   "zh": "难以置信"
-  },
-  {
-   "phrase": "hold a belief",
-   "zh": "持有某种信念"
-  }
- ],
- "forms": [
-  {
-   "label": "复数",
-   "form": "beliefs"
-  }
- ],
- "derivatives": [
-  {
-   "word": "believe",
-   "pos": "v.",
-   "zh": "belief 的动词形式，义为「相信」"
-  },
-  {
-   "word": "believable",
-   "pos": "adj.",
-   "zh": "由 believe 加 -able 构成，义为「可信的」"
-  },
-  {
-   "word": "unbelievable",
-   "pos": "adj.",
-   "zh": "由 un- 加 believable 构成，义为「难以置信的」"
-  },
-  {
-   "word": "believer",
-   "pos": "n.",
-   "zh": "由 believe 加 -er 构成，义为「信徒、相信的人」"
-  }
- ],
- "senses": [
-  {
-   "no": "01",
-   "title": "The feeling that something is true",
-   "titleCN": "信念",
-   "definition": "a feeling that something is true",
-   "definitionCN": "相信某事为真的心理状态",
-   "example": "Her belief in herself never faded.",
-   "exampleCN": "她对自己的信心从未消退。",
-   "why": "This is the broad sense covering trust in facts and in people.",
-   "whyCN": "这是最宽的义项，涵盖对事实和对人的信任。"
-  },
-  {
-   "no": "02",
-   "title": "A religious faith",
-   "titleCN": "信仰",
-   "definition": "a set of ideas held about a religion",
-   "definitionCN": "关于宗教的一套信念",
-   "example": "People of many beliefs live in this city.",
-   "exampleCN": "许多不同信仰的人住在这座城市。",
-   "why": "The same trust in unseen things became a word for religion.",
-   "whyCN": "对不可见之物的同一种信任，转而指宗教。"
-  }
- ],
- "etymology": {
-  "intro": {
-   "en": "Belief comes from an Old English word for holding something dear.",
-   "cn": "belief 来自一个表示「珍视」的古英语词。"
-  },
-  "items": [
-   {
-    "era": "OLD ENGLISH",
-    "en": "gelēafa meant a held conviction.",
-    "cn": "gelēafa 意为「所持的信念」。"
-   },
-   {
-    "era": "MIDDLE ENGLISH",
-    "en": "the word lost its first syllable.",
-    "cn": "这个词丢掉了开头的音节。"
-   },
-   {
-    "era": "SIXTEENTH CENTURY",
-    "en": "belief named both trust and religion.",
-    "cn": "belief 同时指信任与宗教信仰。"
-   },
-   {
-    "era": "NINETEENTH CENTURY",
-    "en": "the plural beliefs became common.",
-    "cn": "复数 beliefs 变得常见。"
-   },
-   {
-    "era": "PRESENT DAY ENGLISH",
-    "en": "belief usually pairs with in.",
-    "cn": "如今 belief 常与 in 搭配。"
-   }
-  ]
- },
- "similar": {
-  "note": {
-   "en": "The look-alike group differs by a syllable or ending; the near-meaning group gives trust words.",
-   "cn": "形近组差别在一个音节或词尾；近义组是表示信任的词。"
-  },
-  "groups": [
-   {
-    "heading": "LOOK-ALIKE",
-    "entries": [
-     {
-      "word": "believe",
-      "ipa": "/bɪˈliːv/",
-      "tag": "look-alike",
-      "definition": "to think something is true",
-      "definitionCN": "相信"
-     },
-     {
-      "word": "relief",
-      "ipa": "/rɪˈliːf/",
-      "tag": "look-alike",
-      "definition": "the easing of pain or worry",
-      "definitionCN": "宽慰"
-     },
-     {
-      "word": "beloved",
-      "ipa": "/bɪˈlʌvɪd/",
-      "tag": "look-alike",
-      "definition": "much loved",
-      "definitionCN": "心爱的"
-     }
-    ]
-   },
-   {
-    "heading": "NEAR MEANING",
-    "entries": [
-     {
-      "word": "faith",
-      "ipa": "/feɪθ/",
-      "tag": "near synonym",
-      "definition": "strong trust in something",
-      "definitionCN": "信念"
-     },
-     {
-      "word": "trust",
-      "ipa": "/trʌst/",
-      "tag": "near synonym",
-      "definition": "reliance on someone",
-      "definitionCN": "信任"
-     },
-     {
-      "word": "conviction",
-      "ipa": "/kənˈvɪkʃn/",
-      "tag": "related",
-      "definition": "a firmly held belief",
-      "definitionCN": "坚定的信念"
-     }
-    ]
-   }
-  ]
- },
- "mnemonics": {
-  "normalIntro": {
-   "en": "Belief is what you hold true in your mind.",
-   "cn": "belief 就是你心里认定为真的东西。"
-  },
-  "normal": [
-   {
-    "en": "The plural is beliefs, not believes.",
-    "cn": "复数是 beliefs，不是 believes。"
-   },
-   {
-    "en": "Belief in yourself means self-trust.",
-    "cn": "belief in yourself 指自信。"
-   },
-   {
-    "en": "The verb is believe with a v.",
-    "cn": "动词是带 v 的 believe。"
-   },
-   {
-    "en": "Beyond belief means too strange to accept.",
-    "cn": "beyond belief 指难以置信。"
-   },
-   {
-    "en": "A belief can be religious or personal.",
-    "cn": "信念可以是宗教的，也可以是私人的。"
-   }
-  ],
-  "abstract": [
-   {
-    "en": "See a fist held tight in hard times.",
-    "cn": "想象困境中紧握的拳头。"
-   },
-   {
-    "en": "See a light kept on through the night.",
-    "cn": "想象一盏整夜不灭的灯。"
-   },
-   {
-    "en": "See hands folded in quiet prayer.",
-    "cn": "想象静静合起的双手。"
-   }
-  ]
- },
- "examples": [
-  {
-   "en": "Her belief in herself never faded.",
-   "cn": "她对自己的信心从未消退。"
-  },
-  {
-   "en": "People of many beliefs live in this city.",
-   "cn": "许多不同信仰的人住在这座城市。"
-  },
-  {
-   "en": "It is my belief that hard work pays off.",
-   "cn": "我相信努力终有回报。"
-  }
- ],
- "dict_mnemonic": {
-  "note": "拆词记忆 · 非词源",
-  "text": "be 加 lief（珍爱的），心里珍爱的东西就是信念。",
-  "word": "belief"
- },
- "root": "古英语 gelēafa 本义「珍视、认定」，与 lief（亲爱的）同源；中古英语简化为 belief，十六世纪起兼指信任与宗教信仰。",
- "sensesIntro": {
-  "en": "Trust in a fact and trust in a religion both grow from the same root.",
-  "cn": "对事实的信任与对宗教的信仰同出一源。"
- },
- "semanticMap": {
-  "core": {
-   "en": "CORE IMAGE: a fist held tight in hard times.",
-   "cn": "核心意象：困境中紧握的拳头。"
-  },
-  "chain": [
-   "MIND",
-   "TRUST",
-   "IDEA",
-   "FAITH",
-   "HOPE",
-   "LIFE"
-  ],
-  "branches": [
-   {
-    "senses": "01",
-    "en": "belief in yourself",
-    "cn": "自信"
-   },
-   {
-    "senses": "01",
-    "en": "a strong belief",
-    "cn": "坚定的信念"
-   },
-   {
-    "senses": "01",
-    "en": "beyond belief",
-    "cn": "难以置信"
-   },
-   {
-    "senses": "02",
-    "en": "religious belief",
-    "cn": "宗教信仰"
-   },
-   {
-    "senses": "02",
-    "en": "people of many beliefs",
-    "cn": "持多种信仰的人"
-   }
-  ]
- },
- "affixes": {
-  "intro": {
-   "en": "Belief takes -s, and its verb family grows with -able, un- and -er.",
-   "cn": "belief 可加 -s，其动词家族还能加 -able、un-、-er。"
-  },
-  "latinIntro": {
-   "en": "There is no Latin base; the word is Old English.",
-   "cn": "这里没有拉丁词基，这个词来自古英语。"
-  },
-  "items": [
-   {
     "word": "belief",
-    "structure": "Old English gelēafa",
-    "meaning": "a held conviction",
-    "meaningCN": "信念",
-    "example": "a strong belief",
-    "exampleCN": "坚定的信念"
-   },
-   {
-    "word": "beliefs",
-    "structure": "belief + -s",
-    "meaning": "several convictions",
-    "meaningCN": "多种信念",
-    "example": "shared beliefs",
-    "exampleCN": "共同的信念"
-   },
-   {
-    "word": "believe",
-    "structure": "be- + lief",
-    "meaning": "to hold as true",
-    "meaningCN": "相信",
-    "example": "believe the news",
-    "exampleCN": "相信这条消息"
-   },
-   {
-    "word": "believer",
-    "structure": "believe + -er",
-    "meaning": "one who believes",
-    "meaningCN": "信徒",
-    "example": "a firm believer",
-    "exampleCN": "坚定的信徒"
-   },
-   {
-    "word": "believable",
-    "structure": "believe + -able",
-    "meaning": "able to be believed",
-    "meaningCN": "可信的",
-    "example": "a believable story",
-    "exampleCN": "可信的故事"
-   },
-   {
-    "word": "unbelievable",
-    "structure": "un- + believable",
-    "meaning": "hard to believe",
-    "meaningCN": "难以置信的",
-    "example": "unbelievable news",
-    "exampleCN": "难以置信的消息"
-   },
-   {
-    "word": "faith",
-    "structure": "Latin fides",
-    "meaning": "strong trust",
-    "meaningCN": "信念",
-    "example": "faith in people",
-    "exampleCN": "对人的信任"
-   },
-   {
-    "word": "trust",
-    "structure": "Old Norse traust",
-    "meaning": "reliance on someone",
-    "meaningCN": "信任",
-    "example": "earn trust",
-    "exampleCN": "赢得信任"
-   }
-  ],
-  "latinEntries": []
- }
-}
+    "ipa_uk": "/bɪˈliːf/",
+    "ipa_us": "/bɪˈliːf/",
+    "definition_zh": "信念；相信；信仰",
+    "definition_en": "a feeling that something is true or real",
+    "core_image": "一个人在困境里仍攥紧拳头相信自己",
+    "scene": "落榜后她仍没丢掉对自己的信心。Her belief in herself never faded.",
+    "sceneCN": "这里 belief 是「信念」（第 1 个义项：相信某事为真的心理状态）；句意是她对自己的信心从未消退。",
+    "pos": [
+      {
+        "tag": "n.",
+        "zh": "名词：信念；相信；信仰"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "belief in",
+        "zh": "对……的信任"
+      },
+      {
+        "phrase": "strong belief",
+        "zh": "坚定的信念"
+      },
+      {
+        "phrase": "religious belief",
+        "zh": "宗教信仰"
+      },
+      {
+        "phrase": "beyond belief",
+        "zh": "难以置信"
+      },
+      {
+        "phrase": "hold a belief",
+        "zh": "持有某种信念"
+      }
+    ],
+    "forms": [
+      {
+        "label": "复数",
+        "form": "beliefs"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "believe",
+        "pos": "v.",
+        "zh": "belief 的动词形式，义为「相信」"
+      },
+      {
+        "word": "believable",
+        "pos": "adj.",
+        "zh": "由 believe 加 -able 构成，义为「可信的」"
+      },
+      {
+        "word": "unbelievable",
+        "pos": "adj.",
+        "zh": "由 un- 加 believable 构成，义为「难以置信的」"
+      },
+      {
+        "word": "believer",
+        "pos": "n.",
+        "zh": "由 believe 加 -er 构成，义为「信徒、相信的人」"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "The feeling that something is true",
+        "titleCN": "信念",
+        "definition": "a feeling that something is true",
+        "definitionCN": "相信某事为真的心理状态",
+        "example": "Her belief in herself never faded.",
+        "exampleCN": "她对自己的信心从未消退。",
+        "why": "This is the broad sense covering trust in facts and in people.",
+        "whyCN": "这是最宽的义项，涵盖对事实和对人的信任。"
+      },
+      {
+        "no": "02",
+        "title": "A religious faith",
+        "titleCN": "信仰",
+        "definition": "a set of ideas held about a religion",
+        "definitionCN": "关于宗教的一套信念",
+        "example": "People of many beliefs live in this city.",
+        "exampleCN": "许多不同信仰的人住在这座城市。",
+        "why": "The same trust in unseen things became a word for religion.",
+        "whyCN": "对不可见之物的同一种信任，转而指宗教。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Belief comes from an Old English word for holding something dear.",
+        "cn": "belief 来自一个表示「珍视」的古英语词。"
+      },
+      "items": [
+        {
+          "era": "OLD ENGLISH",
+          "en": "gelēafa meant a held conviction.",
+          "cn": "gelēafa 意为「所持的信念」。"
+        },
+        {
+          "era": "MIDDLE ENGLISH",
+          "en": "the word lost its first syllable.",
+          "cn": "这个词丢掉了开头的音节。"
+        },
+        {
+          "era": "SIXTEENTH CENTURY",
+          "en": "belief named both trust and religion.",
+          "cn": "belief 同时指信任与宗教信仰。"
+        },
+        {
+          "era": "NINETEENTH CENTURY",
+          "en": "the plural beliefs became common.",
+          "cn": "复数 beliefs 变得常见。"
+        },
+        {
+          "era": "PRESENT DAY ENGLISH",
+          "en": "belief usually pairs with in.",
+          "cn": "如今 belief 常与 in 搭配。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "The look-alike group differs by a syllable or ending; the near-meaning group gives trust words.",
+        "cn": "形近组差别在一个音节或词尾；近义组是表示信任的词。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "believe",
+              "ipa": "/bɪˈliːv/",
+              "tag": "look-alike",
+              "definition": "to think something is true",
+              "definitionCN": "相信"
+            },
+            {
+              "word": "relief",
+              "ipa": "/rɪˈliːf/",
+              "tag": "look-alike",
+              "definition": "the easing of pain or worry",
+              "definitionCN": "宽慰"
+            },
+            {
+              "word": "beloved",
+              "ipa": "/bɪˈlʌvɪd/",
+              "tag": "look-alike",
+              "definition": "much loved",
+              "definitionCN": "心爱的"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "faith",
+              "ipa": "/feɪθ/",
+              "tag": "near synonym",
+              "definition": "strong trust in something",
+              "definitionCN": "信念"
+            },
+            {
+              "word": "trust",
+              "ipa": "/trʌst/",
+              "tag": "near synonym",
+              "definition": "reliance on someone",
+              "definitionCN": "信任"
+            },
+            {
+              "word": "conviction",
+              "ipa": "/kənˈvɪkʃn/",
+              "tag": "related",
+              "definition": "a firmly held belief",
+              "definitionCN": "坚定的信念"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Belief is what you hold true in your mind.",
+        "cn": "belief 就是你心里认定为真的东西。"
+      },
+      "normal": [
+        {
+          "en": "The plural is beliefs, not believes.",
+          "cn": "复数是 beliefs，不是 believes。"
+        },
+        {
+          "en": "Belief in yourself means self-trust.",
+          "cn": "belief in yourself 指自信。"
+        },
+        {
+          "en": "The verb is believe with a v.",
+          "cn": "动词是带 v 的 believe。"
+        },
+        {
+          "en": "Beyond belief means too strange to accept.",
+          "cn": "beyond belief 指难以置信。"
+        },
+        {
+          "en": "A belief can be religious or personal.",
+          "cn": "信念可以是宗教的，也可以是私人的。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "See a fist held tight in hard times.",
+          "cn": "想象困境中紧握的拳头。"
+        },
+        {
+          "en": "See a light kept on through the night.",
+          "cn": "想象一盏整夜不灭的灯。"
+        },
+        {
+          "en": "See hands folded in quiet prayer.",
+          "cn": "想象静静合起的双手。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "Her belief in herself never faded.",
+        "cn": "她对自己的信心从未消退。"
+      },
+      {
+        "en": "People of many beliefs live in this city.",
+        "cn": "许多不同信仰的人住在这座城市。"
+      },
+      {
+        "en": "It is my belief that hard work pays off.",
+        "cn": "我相信努力终有回报。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "拆词记忆 · 非词源",
+      "text": "be 加 lief（珍爱的），心里珍爱的东西就是信念。",
+      "word": "belief"
+    },
+    "root": "古英语 gelēafa 本义「珍视、认定」，与 lief（亲爱的）同源；中古英语简化为 belief，十六世纪起兼指信任与宗教信仰。",
+    "sensesIntro": {
+      "en": "Trust in a fact and trust in a religion both grow from the same root.",
+      "cn": "对事实的信任与对宗教的信仰同出一源。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: a fist held tight in hard times.",
+        "cn": "核心意象：困境中紧握的拳头。"
+      },
+      "chain": [
+        "MIND",
+        "TRUST",
+        "IDEA",
+        "FAITH",
+        "HOPE",
+        "LIFE"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "belief in yourself",
+          "cn": "自信"
+        },
+        {
+          "senses": "01",
+          "en": "a strong belief",
+          "cn": "坚定的信念"
+        },
+        {
+          "senses": "01",
+          "en": "beyond belief",
+          "cn": "难以置信"
+        },
+        {
+          "senses": "02",
+          "en": "religious belief",
+          "cn": "宗教信仰"
+        },
+        {
+          "senses": "02",
+          "en": "people of many beliefs",
+          "cn": "持多种信仰的人"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Belief takes -s, and its verb family grows with -able, un- and -er.",
+        "cn": "belief 可加 -s，其动词家族还能加 -able、un-、-er。"
+      },
+      "latinIntro": {
+        "en": "There is no Latin base; the word is Old English.",
+        "cn": "这里没有拉丁词基，这个词来自古英语。"
+      },
+      "items": [
+        {
+          "word": "belief",
+          "structure": "Old English gelēafa",
+          "meaning": "a held conviction",
+          "meaningCN": "信念",
+          "example": "a strong belief",
+          "exampleCN": "坚定的信念"
+        },
+        {
+          "word": "beliefs",
+          "structure": "belief + -s",
+          "meaning": "several convictions",
+          "meaningCN": "多种信念",
+          "example": "shared beliefs",
+          "exampleCN": "共同的信念"
+        },
+        {
+          "word": "believe",
+          "structure": "be- + lief",
+          "meaning": "to hold as true",
+          "meaningCN": "相信",
+          "example": "believe the news",
+          "exampleCN": "相信这条消息"
+        },
+        {
+          "word": "believer",
+          "structure": "believe + -er",
+          "meaning": "one who believes",
+          "meaningCN": "信徒",
+          "example": "a firm believer",
+          "exampleCN": "坚定的信徒"
+        },
+        {
+          "word": "believable",
+          "structure": "believe + -able",
+          "meaning": "able to be believed",
+          "meaningCN": "可信的",
+          "example": "a believable story",
+          "exampleCN": "可信的故事"
+        },
+        {
+          "word": "unbelievable",
+          "structure": "un- + believable",
+          "meaning": "hard to believe",
+          "meaningCN": "难以置信的",
+          "example": "unbelievable news",
+          "exampleCN": "难以置信的消息"
+        },
+        {
+          "word": "faith",
+          "structure": "Latin fides",
+          "meaning": "strong trust",
+          "meaningCN": "信念",
+          "example": "faith in people",
+          "exampleCN": "对人的信任"
+        },
+        {
+          "word": "trust",
+          "structure": "Old Norse traust",
+          "meaning": "reliance on someone",
+          "meaningCN": "信任",
+          "example": "earn trust",
+          "exampleCN": "赢得信任"
+        }
+      ],
+      "latinEntries": []
+    }
+  }
+]

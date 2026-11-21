@@ -1,391 +1,393 @@
-{
- "word": "benediction",
- "ipa_uk": "/ˌbenɪˈdɪkʃn/",
- "ipa_us": "/ˌbenɪˈdɪkʃn/",
- "definition_zh": "祝福；祝祷；（礼拜结束时的）祝福祈祷",
- "definition_en": "a spoken blessing, especially one asking for God's favour and protection",
- "core_image": "礼拜结束时牧师张开双手、向着人群说出的祝祷词",
- "scene": "礼拜结束，众人低头，牧师张开双手诵出祝词。The priest raised his hands and gave the crowd his benediction.",
- "sceneCN": "这里 benediction 是「祝福、祝祷」（第 1 个义项：正式说出的祝福语）；句意是牧师举手为人群祝福。",
- "pos": [
+[
   {
-   "tag": "n.",
-   "zh": "祝福；祝祷；祝福祈祷"
-  }
- ],
- "collocations": [
-  {
-   "phrase": "give a benediction",
-   "zh": "致祝祷"
-  },
-  {
-   "phrase": "a parting benediction",
-   "zh": "临别祝福"
-  },
-  {
-   "phrase": "the final benediction",
-   "zh": "结尾的祝福祷文"
-  },
-  {
-   "phrase": "receive the benediction",
-   "zh": "领受祝福"
-  },
-  {
-   "phrase": "a papal benediction",
-   "zh": "教皇的祝福"
-  }
- ],
- "forms": [
-  {
-   "label": "复数",
-   "form": "benedictions"
-  }
- ],
- "derivatives": [
-  {
-   "word": "benedictory",
-   "pos": "adj.",
-   "zh": "由名词加后缀构成，义为「祝福的」"
-  },
-  {
-   "word": "benedicite",
-   "pos": "n.",
-   "zh": "同根宗教用语，义为「祝文；赞美诗」"
-  },
-  {
-   "word": "blessing",
-   "pos": "n.",
-   "zh": "同义英语本族词，义为「祝福」"
-  }
- ],
- "senses": [
-  {
-   "no": "01",
-   "title": "A spoken blessing asking for divine favour",
-   "titleCN": "祝祷；祝福",
-   "definition": "words asking for God's help and protection, said especially at the end of a service",
-   "definitionCN": "祈求上帝护佑的话语，常见于礼拜结束时",
-   "example": "The priest raised his hands and gave the crowd his benediction.",
-   "exampleCN": "牧师举起双手，为人群致祝祷。",
-   "why": "Bene means well and dicere means to speak, so it is good speech over people.",
-   "whyCN": "bene 意为「好」，dicere 意为「说」，合起来即「说吉利话于人身」。"
-  },
-  {
-   "no": "02",
-   "title": "A happy event felt as a blessing",
-   "titleCN": "恩赐；天赐之福",
-   "definition": "something that brings happiness or relief, as if sent from above",
-   "definitionCN": "带来幸福或解脱的事，仿佛上天的恩赐",
-   "example": "The cool rain after the drought was a benediction on the fields.",
-   "exampleCN": "旱后的凉雨落在田里，如同天赐之福。",
-   "why": "The good-speaking image widens to any goodness that seems heaven-sent.",
-   "whyCN": "「说好话赐福」的意象扩大为一切像上天所赐的好处。"
-  }
- ],
- "etymology": {
-  "intro": {
-   "en": "Benediction is Latin bene, well, plus dicere, to speak.",
-   "cn": "benediction 由拉丁语 bene「好」加 dicere「说」构成。"
-  },
-  "items": [
-   {
-    "era": "PROTO-INDO-EUROPEAN",
-    "en": "the root deik- meant to point out, to pronounce.",
-    "cn": "词根 deik- 意为「指出、宣示」（重构形式）。"
-   },
-   {
-    "era": "LATIN",
-    "en": "benedictio meant a speaking well of, a blessing.",
-    "cn": "拉丁语 benedictio 意为「说好话、祝福」。"
-   },
-   {
-    "era": "OLD FRENCH",
-    "en": "benedicoun passed the word into medieval French usage.",
-    "cn": "古法语 benedicoun 使该词进入中世纪法语。"
-   },
-   {
-    "era": "ENGLISH, 15TH C.",
-    "en": "English borrowed benediction for church blessings.",
-    "cn": "十五世纪英语借入 benediction，用于教会祝福礼。"
-   },
-   {
-    "era": "MODERN ENGLISH",
-    "en": "it also names figurative blessings in daily life.",
-    "cn": "如今也用于比喻日常生活中的福气。"
-   }
-  ]
- },
- "similar": {
-  "note": {
-   "en": "The look-alike group shares the bene- root or dict- root; the near-meaning group gathers blessing words.",
-   "cn": "形近组共享 bene- 词根或 dict- 词根；近义组汇集祝福类词。"
-  },
-  "groups": [
-   {
-    "heading": "LOOK-ALIKE",
-    "entries": [
-     {
-      "word": "malediction",
-      "ipa": "/ˌmælɪˈdɪkʃn/",
-      "tag": "opposite",
-      "definition": "a curse; evil speech",
-      "definitionCN": "诅咒——前缀相反的对照词"
-     },
-     {
-      "word": "benefactor",
-      "ipa": "/ˈbenɪfæktər/",
-      "tag": "same root",
-      "definition": "one who gives help or money",
-      "definitionCN": "恩人——同含 bene- 词根"
-     },
-     {
-      "word": "dictate",
-      "ipa": "/dɪkˈteɪt/",
-      "tag": "same root",
-      "definition": "to say words aloud for writing",
-      "definitionCN": "口述——同含 dicere 词根"
-     }
-    ]
-   },
-   {
-    "heading": "NEAR MEANING",
-    "entries": [
-     {
-      "word": "blessing",
-      "ipa": "/ˈblesɪŋ/",
-      "tag": "near synonym",
-      "definition": "a prayer asking for favour, or a favour received",
-      "definitionCN": "祝福；福分——本族对应词"
-     },
-     {
-      "word": "grace",
-      "ipa": "/ɡreɪs/",
-      "tag": "near synonym",
-      "definition": "a short prayer of thanks before or after a meal",
-      "definitionCN": "谢恩祷告；侧重感恩"
-     },
-     {
-      "word": "invocation",
-      "ipa": "/ˌɪnvəˈkeɪʃn/",
-      "tag": "near synonym",
-      "definition": "a prayer calling on God at the start of a service",
-      "definitionCN": "祈求祷告——常在礼拜开始时，与结尾祝福相对"
-     }
-    ]
-   }
-  ]
- },
- "mnemonics": {
-  "normalIntro": {
-   "en": "Benediction is bene plus dictio: good speech.",
-   "cn": "benediction 是 bene 加 dictio：好话、祝福语。"
-  },
-  "normal": [
-   {
-    "en": "Malediction is its opposite, a curse.",
-    "cn": "malediction 是反义词，指诅咒。"
-   },
-   {
-    "en": "The plural is benedictions.",
-    "cn": "复数是 benedictions。"
-   },
-   {
-    "en": "Benefactor shares the bene- root.",
-    "cn": "benefactor 同含 bene- 词根。"
-   },
-   {
-    "en": "A benediction ends many church services.",
-    "cn": "许多礼拜以祝祷收尾。"
-   },
-   {
-    "en": "Dicere also gives dictate and predict.",
-    "cn": "dicere 也派生出 dictate 与 predict。"
-   }
-  ],
-  "abstract": [
-   {
-    "en": "See open palms lowered over bowed heads.",
-    "cn": "看张开的双手覆向低垂的头。"
-   },
-   {
-    "en": "Feel warm light following the words.",
-    "cn": "感受话语之后的暖光。"
-   },
-   {
-    "en": "Picture rain falling like kindness on dry fields.",
-    "cn": "想象善意如雨落在旱田。"
-   }
-  ]
- },
- "examples": [
-  {
-   "en": "The priest raised his hands and gave the crowd his benediction.",
-   "cn": "牧师举起双手，为人群致祝祷。"
-  },
-  {
-   "en": "The cool rain after the drought was a benediction on the fields.",
-   "cn": "旱后的凉雨落在田里，如同天赐之福。"
-  },
-  {
-   "en": "Her last words to us were a quiet benediction.",
-   "cn": "她留给我们的最后几句话是一声轻柔的祝福。"
-  }
- ],
- "dict_mnemonic": {
-  "note": "谐音记忆 · 非词源",
-  "text": "「杯你的神」——举杯为你、为你的神祝祷，满是祝福。",
-  "word": "benediction"
- },
- "root": "拉丁语 bene「好地」加 dicere「说」，派生名词 benedictio「祝福、说好话」；词根 dicere 上溯至原始印欧语词根 deik-「指出、宣示」（重构形式），经古法语于十五世纪进入英语。同根词有 predict、dictate、malediction 等。",
- "sensesIntro": {
-  "en": "One word moves from the priest's closing blessing to any gift that feels heaven-sent.",
-  "cn": "一个词，从牧师收尾的祝祷，移向一切像上天所赐的好事。"
- },
- "semanticMap": {
-  "core": {
-   "en": "CORE IMAGE: open palms lowered over bowed heads.",
-   "cn": "核心意象：张开的手掌覆向低垂的头。"
-  },
-  "chain": [
-   "GOODNESS",
-   "SPEECH",
-   "BLESSING",
-   "PROTECTION",
-   "GRATITUDE",
-   "GRACE"
-  ],
-  "branches": [
-   {
-    "senses": "01",
-    "en": "give a benediction",
-    "cn": "致祝祷"
-   },
-   {
-    "senses": "01",
-    "en": "a parting benediction",
-    "cn": "临别祝福"
-   },
-   {
-    "senses": "01",
-    "en": "receive the benediction",
-    "cn": "领受祝福"
-   },
-   {
-    "senses": "02",
-    "en": "a benediction on the fields",
-    "cn": "田间的天赐之福"
-   },
-   {
-    "senses": "01 · 02",
-    "en": "her quiet benediction",
-    "cn": "她轻柔的祝福"
-   }
-  ]
- },
- "affixes": {
-  "intro": {
-   "en": "Benediction shows bene- doing good through the speech root dict-.",
-   "cn": "benediction 展示 bene- 借「说」词根 dict- 行善。"
-  },
-  "latinIntro": {
-   "en": "The Latin pair bene and dicere heads a wide family.",
-   "cn": "拉丁语 bene 与 dicere 的组合统领一个庞大家族。"
-  },
-  "items": [
-   {
-    "word": "bene",
-    "structure": "Latin adverb",
-    "meaning": "well, rightly",
-    "meaningCN": "好地",
-    "example": "bene dictum",
-    "exampleCN": "说得好"
-   },
-   {
-    "word": "dicere",
-    "structure": "Latin verb",
-    "meaning": "to say, speak",
-    "meaningCN": "说",
-    "example": "verba dicere",
-    "exampleCN": "说话"
-   },
-   {
     "word": "benediction",
-    "structure": "bene + dictio",
-    "meaning": "a spoken blessing",
-    "meaningCN": "祝祷",
-    "example": "the final benediction",
-    "exampleCN": "结尾的祝福祷文"
-   },
-   {
-    "word": "malediction",
-    "structure": "male + dictio",
-    "meaning": "a curse",
-    "meaningCN": "诅咒",
-    "example": "shout maledictions",
-    "exampleCN": "高声咒骂"
-   },
-   {
-    "word": "benefactor",
-    "structure": "bene + factor",
-    "meaning": "one who does good",
-    "meaningCN": "恩人；捐助人",
-    "example": "a generous benefactor",
-    "exampleCN": "慷慨的捐助人"
-   },
-   {
-    "word": "benefit",
-    "structure": "bene + facere",
-    "meaning": "a good result or advantage",
-    "meaningCN": "益处",
-    "example": "health benefits",
-    "exampleCN": "健康益处"
-   },
-   {
-    "word": "predict",
-    "structure": "prae- + dicere",
-    "meaning": "to say beforehand",
-    "meaningCN": "预言",
-    "example": "predict the result",
-    "exampleCN": "预测结果"
-   },
-   {
-    "word": "dictate",
-    "structure": "dictare, frequentative of dicere",
-    "meaning": "to read aloud for writing; to command",
-    "meaningCN": "口述；命令",
-    "example": "dictate a letter",
-    "exampleCN": "口述信件"
-   },
-   {
-    "word": "dedicate",
-    "structure": "de- + dicare",
-    "meaning": "to set apart for a purpose",
-    "meaningCN": "奉献",
-    "example": "dedicate a book",
-    "exampleCN": "题献一本书"
-   }
-  ],
-  "latinEntries": [
-   {
-    "word": "benedictio",
-    "structure": "Latin noun",
-    "meaning": "a blessing, good speaking; direct source of benediction",
-    "meaningCN": "祝福；benediction 的直接来源",
-    "example": "benedictionem petere",
-    "exampleCN": "求取祝福"
-   }
-  ],
-  "derivatives": [
-   {
-    "word": "benedictory",
-    "pos": "adj.",
-    "zh": "由名词加后缀构成，义为「祝福的」"
-   },
-   {
-    "word": "benedictive",
-    "pos": "adj.",
-    "zh": "同义变体，义为「祝福性的」"
-   }
-  ]
- }
-}
+    "ipa_uk": "/ˌbenɪˈdɪkʃn/",
+    "ipa_us": "/ˌbenɪˈdɪkʃn/",
+    "definition_zh": "祝福；祝祷；（礼拜结束时的）祝福祈祷",
+    "definition_en": "a spoken blessing, especially one asking for God's favour and protection",
+    "core_image": "礼拜结束时牧师张开双手、向着人群说出的祝祷词",
+    "scene": "礼拜结束，众人低头，牧师张开双手诵出祝词。The priest raised his hands and gave the crowd his benediction.",
+    "sceneCN": "这里 benediction 是「祝福、祝祷」（第 1 个义项：正式说出的祝福语）；句意是牧师举手为人群祝福。",
+    "pos": [
+      {
+        "tag": "n.",
+        "zh": "祝福；祝祷；祝福祈祷"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "give a benediction",
+        "zh": "致祝祷"
+      },
+      {
+        "phrase": "a parting benediction",
+        "zh": "临别祝福"
+      },
+      {
+        "phrase": "the final benediction",
+        "zh": "结尾的祝福祷文"
+      },
+      {
+        "phrase": "receive the benediction",
+        "zh": "领受祝福"
+      },
+      {
+        "phrase": "a papal benediction",
+        "zh": "教皇的祝福"
+      }
+    ],
+    "forms": [
+      {
+        "label": "复数",
+        "form": "benedictions"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "benedictory",
+        "pos": "adj.",
+        "zh": "由名词加后缀构成，义为「祝福的」"
+      },
+      {
+        "word": "benedicite",
+        "pos": "n.",
+        "zh": "同根宗教用语，义为「祝文；赞美诗」"
+      },
+      {
+        "word": "blessing",
+        "pos": "n.",
+        "zh": "同义英语本族词，义为「祝福」"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "A spoken blessing asking for divine favour",
+        "titleCN": "祝祷；祝福",
+        "definition": "words asking for God's help and protection, said especially at the end of a service",
+        "definitionCN": "祈求上帝护佑的话语，常见于礼拜结束时",
+        "example": "The priest raised his hands and gave the crowd his benediction.",
+        "exampleCN": "牧师举起双手，为人群致祝祷。",
+        "why": "Bene means well and dicere means to speak, so it is good speech over people.",
+        "whyCN": "bene 意为「好」，dicere 意为「说」，合起来即「说吉利话于人身」。"
+      },
+      {
+        "no": "02",
+        "title": "A happy event felt as a blessing",
+        "titleCN": "恩赐；天赐之福",
+        "definition": "something that brings happiness or relief, as if sent from above",
+        "definitionCN": "带来幸福或解脱的事，仿佛上天的恩赐",
+        "example": "The cool rain after the drought was a benediction on the fields.",
+        "exampleCN": "旱后的凉雨落在田里，如同天赐之福。",
+        "why": "The good-speaking image widens to any goodness that seems heaven-sent.",
+        "whyCN": "「说好话赐福」的意象扩大为一切像上天所赐的好处。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Benediction is Latin bene, well, plus dicere, to speak.",
+        "cn": "benediction 由拉丁语 bene「好」加 dicere「说」构成。"
+      },
+      "items": [
+        {
+          "era": "PROTO-INDO-EUROPEAN",
+          "en": "the root deik- meant to point out, to pronounce.",
+          "cn": "词根 deik- 意为「指出、宣示」（重构形式）。"
+        },
+        {
+          "era": "LATIN",
+          "en": "benedictio meant a speaking well of, a blessing.",
+          "cn": "拉丁语 benedictio 意为「说好话、祝福」。"
+        },
+        {
+          "era": "OLD FRENCH",
+          "en": "benedicoun passed the word into medieval French usage.",
+          "cn": "古法语 benedicoun 使该词进入中世纪法语。"
+        },
+        {
+          "era": "ENGLISH, 15TH C.",
+          "en": "English borrowed benediction for church blessings.",
+          "cn": "十五世纪英语借入 benediction，用于教会祝福礼。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "it also names figurative blessings in daily life.",
+          "cn": "如今也用于比喻日常生活中的福气。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "The look-alike group shares the bene- root or dict- root; the near-meaning group gathers blessing words.",
+        "cn": "形近组共享 bene- 词根或 dict- 词根；近义组汇集祝福类词。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "malediction",
+              "ipa": "/ˌmælɪˈdɪkʃn/",
+              "tag": "opposite",
+              "definition": "a curse; evil speech",
+              "definitionCN": "诅咒——前缀相反的对照词"
+            },
+            {
+              "word": "benefactor",
+              "ipa": "/ˈbenɪfæktər/",
+              "tag": "same root",
+              "definition": "one who gives help or money",
+              "definitionCN": "恩人——同含 bene- 词根"
+            },
+            {
+              "word": "dictate",
+              "ipa": "/dɪkˈteɪt/",
+              "tag": "same root",
+              "definition": "to say words aloud for writing",
+              "definitionCN": "口述——同含 dicere 词根"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "blessing",
+              "ipa": "/ˈblesɪŋ/",
+              "tag": "near synonym",
+              "definition": "a prayer asking for favour, or a favour received",
+              "definitionCN": "祝福；福分——本族对应词"
+            },
+            {
+              "word": "grace",
+              "ipa": "/ɡreɪs/",
+              "tag": "near synonym",
+              "definition": "a short prayer of thanks before or after a meal",
+              "definitionCN": "谢恩祷告；侧重感恩"
+            },
+            {
+              "word": "invocation",
+              "ipa": "/ˌɪnvəˈkeɪʃn/",
+              "tag": "near synonym",
+              "definition": "a prayer calling on God at the start of a service",
+              "definitionCN": "祈求祷告——常在礼拜开始时，与结尾祝福相对"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Benediction is bene plus dictio: good speech.",
+        "cn": "benediction 是 bene 加 dictio：好话、祝福语。"
+      },
+      "normal": [
+        {
+          "en": "Malediction is its opposite, a curse.",
+          "cn": "malediction 是反义词，指诅咒。"
+        },
+        {
+          "en": "The plural is benedictions.",
+          "cn": "复数是 benedictions。"
+        },
+        {
+          "en": "Benefactor shares the bene- root.",
+          "cn": "benefactor 同含 bene- 词根。"
+        },
+        {
+          "en": "A benediction ends many church services.",
+          "cn": "许多礼拜以祝祷收尾。"
+        },
+        {
+          "en": "Dicere also gives dictate and predict.",
+          "cn": "dicere 也派生出 dictate 与 predict。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "See open palms lowered over bowed heads.",
+          "cn": "看张开的双手覆向低垂的头。"
+        },
+        {
+          "en": "Feel warm light following the words.",
+          "cn": "感受话语之后的暖光。"
+        },
+        {
+          "en": "Picture rain falling like kindness on dry fields.",
+          "cn": "想象善意如雨落在旱田。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "The priest raised his hands and gave the crowd his benediction.",
+        "cn": "牧师举起双手，为人群致祝祷。"
+      },
+      {
+        "en": "The cool rain after the drought was a benediction on the fields.",
+        "cn": "旱后的凉雨落在田里，如同天赐之福。"
+      },
+      {
+        "en": "Her last words to us were a quiet benediction.",
+        "cn": "她留给我们的最后几句话是一声轻柔的祝福。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「杯你的神」——举杯为你、为你的神祝祷，满是祝福。",
+      "word": "benediction"
+    },
+    "root": "拉丁语 bene「好地」加 dicere「说」，派生名词 benedictio「祝福、说好话」；词根 dicere 上溯至原始印欧语词根 deik-「指出、宣示」（重构形式），经古法语于十五世纪进入英语。同根词有 predict、dictate、malediction 等。",
+    "sensesIntro": {
+      "en": "One word moves from the priest's closing blessing to any gift that feels heaven-sent.",
+      "cn": "一个词，从牧师收尾的祝祷，移向一切像上天所赐的好事。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: open palms lowered over bowed heads.",
+        "cn": "核心意象：张开的手掌覆向低垂的头。"
+      },
+      "chain": [
+        "GOODNESS",
+        "SPEECH",
+        "BLESSING",
+        "PROTECTION",
+        "GRATITUDE",
+        "GRACE"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "give a benediction",
+          "cn": "致祝祷"
+        },
+        {
+          "senses": "01",
+          "en": "a parting benediction",
+          "cn": "临别祝福"
+        },
+        {
+          "senses": "01",
+          "en": "receive the benediction",
+          "cn": "领受祝福"
+        },
+        {
+          "senses": "02",
+          "en": "a benediction on the fields",
+          "cn": "田间的天赐之福"
+        },
+        {
+          "senses": "01 · 02",
+          "en": "her quiet benediction",
+          "cn": "她轻柔的祝福"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Benediction shows bene- doing good through the speech root dict-.",
+        "cn": "benediction 展示 bene- 借「说」词根 dict- 行善。"
+      },
+      "latinIntro": {
+        "en": "The Latin pair bene and dicere heads a wide family.",
+        "cn": "拉丁语 bene 与 dicere 的组合统领一个庞大家族。"
+      },
+      "items": [
+        {
+          "word": "bene",
+          "structure": "Latin adverb",
+          "meaning": "well, rightly",
+          "meaningCN": "好地",
+          "example": "bene dictum",
+          "exampleCN": "说得好"
+        },
+        {
+          "word": "dicere",
+          "structure": "Latin verb",
+          "meaning": "to say, speak",
+          "meaningCN": "说",
+          "example": "verba dicere",
+          "exampleCN": "说话"
+        },
+        {
+          "word": "benediction",
+          "structure": "bene + dictio",
+          "meaning": "a spoken blessing",
+          "meaningCN": "祝祷",
+          "example": "the final benediction",
+          "exampleCN": "结尾的祝福祷文"
+        },
+        {
+          "word": "malediction",
+          "structure": "male + dictio",
+          "meaning": "a curse",
+          "meaningCN": "诅咒",
+          "example": "shout maledictions",
+          "exampleCN": "高声咒骂"
+        },
+        {
+          "word": "benefactor",
+          "structure": "bene + factor",
+          "meaning": "one who does good",
+          "meaningCN": "恩人；捐助人",
+          "example": "a generous benefactor",
+          "exampleCN": "慷慨的捐助人"
+        },
+        {
+          "word": "benefit",
+          "structure": "bene + facere",
+          "meaning": "a good result or advantage",
+          "meaningCN": "益处",
+          "example": "health benefits",
+          "exampleCN": "健康益处"
+        },
+        {
+          "word": "predict",
+          "structure": "prae- + dicere",
+          "meaning": "to say beforehand",
+          "meaningCN": "预言",
+          "example": "predict the result",
+          "exampleCN": "预测结果"
+        },
+        {
+          "word": "dictate",
+          "structure": "dictare, frequentative of dicere",
+          "meaning": "to read aloud for writing; to command",
+          "meaningCN": "口述；命令",
+          "example": "dictate a letter",
+          "exampleCN": "口述信件"
+        },
+        {
+          "word": "dedicate",
+          "structure": "de- + dicare",
+          "meaning": "to set apart for a purpose",
+          "meaningCN": "奉献",
+          "example": "dedicate a book",
+          "exampleCN": "题献一本书"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "benedictio",
+          "structure": "Latin noun",
+          "meaning": "a blessing, good speaking; direct source of benediction",
+          "meaningCN": "祝福；benediction 的直接来源",
+          "example": "benedictionem petere",
+          "exampleCN": "求取祝福"
+        }
+      ],
+      "derivatives": [
+        {
+          "word": "benedictory",
+          "pos": "adj.",
+          "zh": "由名词加后缀构成，义为「祝福的」"
+        },
+        {
+          "word": "benedictive",
+          "pos": "adj.",
+          "zh": "同义变体，义为「祝福性的」"
+        }
+      ]
+    }
+  }
+]

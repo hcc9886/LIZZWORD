@@ -1,255 +1,470 @@
-{
-  "word": "brae",
-  "ipa_uk": "/breɪ/",
-  "ipa_us": "/breɪ/",
-  "definition_zh": "山坡；斜坡（苏格兰用语）",
-  "definition_en": "a slope or hillside, a Scottish word",
-  "core_image": "苏格兰高地上一条斜斜的草坡，羊群散落在坡腰，小路蜿蜒而上",
-  "scene": "老牧人指着村子后头说家就在那儿。Their cottage stood halfway up the brae, with a view of the whole glen.",
-  "sceneCN": "这里 brae 是「山坡」（第 1 个义项：斜坡地形）；句意是他们的农舍坐落在半山腰，可以俯瞰整个峡谷。",
-  "pos": [
-    { "tag": "n.", "zh": "山坡；斜坡" }
-  ],
-  "collocations": [
-    { "phrase": "up the brae", "zh": "上坡" },
-    { "phrase": "down the brae", "zh": "下坡" },
-    { "phrase": "a steep brae", "zh": "陡坡" },
-    { "phrase": "the brae side", "zh": "坡边；坡畔" },
-    { "phrase": "halfway up the brae", "zh": "半坡之上" }
-  ],
-  "forms": [
-    { "label": "复数", "form": "braes" }
-  ],
-  "derivatives": [
-    { "word": "brae-side", "pos": "n.", "zh": "由复合词构成，义为「坡边地带」" },
-    { "word": "braeland", "pos": "n.", "zh": "由复合词构成，义为「坡地」" }
-  ],
-  "senses": [
-    {
-      "no": "01",
-      "title": "A slope or hillside",
-      "titleCN": "山坡；斜坡",
-      "definition": "a stretch of rising ground, especially a grassy hillside",
-      "definitionCN": "一段地势升高的地面，尤指长草的山坡",
-      "example": "Sheep grazed all over the brae.",
-      "exampleCN": "羊群在山坡上四处吃草。",
-      "why": "The Old Norse word for eyelid or brow gave the picture of land's brow rising like a lid.",
-      "whyCN": "古诺斯语中指「眉、睑」的词给出画面：大地如眼睑般隆起的边沿即坡。"
-    },
-    {
-      "no": "02",
-      "title": "A road or path going uphill",
-      "titleCN": "上坡路",
-      "definition": "a sloping street or track, especially in Scottish towns",
-      "definitionCN": "倾斜的街道或小径，常见于苏格兰城镇",
-      "example": "The cart labored up the brae toward the market.",
-      "exampleCN": "马车吃力地爬坡驶向市场。",
-      "why": "The land form names the way built upon it, as hill gave hill road.",
-      "whyCN": "地形名转指建于其上的道路，如 hill 之有 hill road。"
-    },
-    {
-      "no": "03",
-      "title": "A slope as boundary of a settlement",
-      "titleCN": "村落所倚的坡",
-      "definition": "the hillside at the edge of a village or field",
-      "definitionCN": "村庄或田地边缘的山坡",
-      "example": "The cottages lined the foot of the brae.",
-      "exampleCN": "农舍沿坡脚一字排开。",
-      "why": "Human settlement clings to slopes; the word marks where the flat land ends.",
-      "whyCN": "人类聚落依坡而建，这个词标记平地的尽头。"
-    },
-    {
-      "no": "04",
-      "title": "Steady effort, as in climbing",
-      "titleCN": "爬坡般的费力",
-      "definition": "in phrases, the strain of going uphill, literal or figurative",
-      "definitionCN": "在短语中指上坡的吃力，实指或比喻",
-      "example": "Getting the budget approved was a long pull up the brae.",
-      "exampleCN": "预算获批如爬长坡，一步一吃力。",
-      "why": "Climbing a slope is the plainest image of hard gradual progress.",
-      "whyCN": "爬坡是「渐进的艰辛」最直白的意象。"
-    },
-    {
-      "no": "05",
-      "title": "A viewpoint on rising ground",
-      "titleCN": "坡上的观景处",
-      "definition": "a spot on the slope from which the land below is seen",
-      "definitionCN": "坡上可俯瞰下方的位置",
-      "example": "From the brae we watched the ships come in.",
-      "exampleCN": "我们从坡上望着船只进港。",
-      "why": "Height is for seeing; the slope becomes a stand for the eye.",
-      "whyCN": "高处的功能是看，坡便成了眼睛的看台。"
-    },
-    {
-      "no": "06",
-      "title": "Home ground in rural speech",
-      "titleCN": "乡音里的「家山」",
-      "definition": "the local hillside as the beloved home landscape in Scots writing",
-      "definitionCN": "苏格兰文学中作为故乡风物的本地山坡",
-      "example": "The poet sang of the braes of his boyhood.",
-      "exampleCN": "诗人歌咏自己少年时代的家山。",
-      "why": "Everyday landscape words turn tender in rural poetry.",
-      "whyCN": "日常地貌词在乡土诗歌中染上温情。"
-    },
-    {
-      "no": "07",
-      "title": "An incline measured by work",
-      "titleCN": "以劳作丈量的坡度",
-      "definition": "the degree of slope judged by how hard it is to climb or haul",
-      "definitionCN": "以攀爬或拉运之难易判断的坡度",
-      "example": "That brae is too steep for a loaded cart.",
-      "exampleCN": "那道坡太陡，满载的马车过不去。",
-      "why": "Farmers grade land not by degrees but by the sweat it costs.",
-      "whyCN": "农人不用度数而用汗水丈量坡度。"
-    },
-    {
-      "no": "08",
-      "title": "A place-name element",
-      "titleCN": "地名成分",
-      "definition": "brae as a common element in Scottish place names",
-      "definitionCN": "brae 作为苏格兰地名的常见成分",
-      "example": "Many villages carry the word brae in their names.",
-      "exampleCN": "许多村庄的名字里都带着 brae 一词。",
-      "why": "Long use fixes the land word into the map itself.",
-      "whyCN": "长年使用使地貌词固化进了地图。"
-    }
-  ],
-  "etymology": {
-    "intro": {
-      "en": "Brae is a Northern English and Scots word borrowed from Old Norse, where it meant brow or eyelid.",
-      "cn": "brae 是北部英语与苏格兰语用词，借自古诺斯语，原义为「眉、睑」。"
-    },
-    "items": [
+[
+  {
+    "word": "brae",
+    "ipa_uk": "/breɪ/",
+    "ipa_us": "/breɪ/",
+    "definition_zh": "山坡；斜坡（苏格兰用语）",
+    "definition_en": "a slope or hillside, a Scottish word",
+    "core_image": "苏格兰高地上一条斜斜的草坡，羊群散落在坡腰，小路蜿蜒而上",
+    "scene": "老牧人指着村子后头说家就在那儿。Their cottage stood halfway up the brae, with a view of the whole glen.",
+    "sceneCN": "这里 brae 是「山坡」（第 1 个义项：斜坡地形）；句意是他们的农舍坐落在半山腰，可以俯瞰整个峡谷。",
+    "pos": [
       {
-        "era": "PROTO-GERMANIC",
-        "en": "A reconstructed root *brāwō meant brow or edge, shared across Germanic languages.",
-        "cn": "重构词根 *brāwō 意为「眉、边沿」，见于各日耳曼语言。"
-      },
-      {
-        "era": "OLD NORSE",
-        "en": "Old Norse brá meant eyelid or brow, the image of the land's rising edge.",
-        "cn": "古诺斯语 brá 意为「睑、眉」，引申出大地隆起的边沿之象。"
-      },
-      {
-        "era": "NORTHERN MIDDLE ENGLISH",
-        "en": "Settlers of Norse descent carried brá into northern England and Scotland as brae, meaning slope.",
-        "cn": "诺斯裔移民把 brá 带进英格兰北部和苏格兰，作 brae，意为山坡。"
-      },
-      {
-        "era": "SCOTS, 15TH–16TH C.",
-        "en": "Scots writing shows brae freely for hillside and sloping road.",
-        "cn": "十五至十六世纪苏格兰文献中，brae 已通用于山坡与坡路。"
-      },
-      {
-        "era": "ENGLISH, 18TH C.",
-        "en": "Robert Burns's dialect poems fixed the word in the literary imagination.",
-        "cn": "彭斯的方言诗使这个词定格于文学想象之中。"
-      },
-      {
-        "era": "MODERN ENGLISH",
-        "en": "Modern use is regional and literary; standard English keeps slope or hillside.",
-        "cn": "现代用法具地域与文学色彩；标准英语通用 slope 或 hillside。"
+        "tag": "n.",
+        "zh": "山坡；斜坡"
       }
-    ]
-  },
-  "similar": {
-    "note": {
-      "en": "Brae is short and regional; its look-alikes are common words that merely share sounds.",
-      "cn": "brae 短小且具地域性；形近词只是同音的常见词。"
-    },
-    "groups": [
+    ],
+    "collocations": [
       {
-        "heading": "LOOK-ALIKE",
-        "entries": [
-          { "word": "bray", "ipa": "/breɪ/", "tag": "spelling", "definition": "the loud cry of a donkey", "definitionCN": "驴叫声；与 brae 同音，词源不同" },
-          { "word": "brow", "ipa": "/braʊ/", "tag": "same root", "definition": "the forehead, or the top edge of a hill", "definitionCN": "额头；坡顶；同源英语形式" },
-          { "word": "brake", "ipa": "/breɪk/", "tag": "spelling", "definition": "a device for stopping; a fern", "definitionCN": "刹车；蕨草；拼写相近，词源不同" },
-          { "word": "brace", "ipa": "/breɪs/", "tag": "spelling", "definition": "a pair, or to support", "definitionCN": "一对；支撑；拼写相近，词源不同" },
-          { "word": "braise", "ipa": "/breɪz/", "tag": "spelling", "definition": "to cook slowly in a covered pot", "definitionCN": "炖；焖；拼写相近，词源不同" }
-        ]
+        "phrase": "up the brae",
+        "zh": "上坡"
       },
       {
-        "heading": "NEAR MEANING",
-        "entries": [
-          { "word": "slope", "ipa": "/sləʊp/", "tag": "near meaning", "definition": "a surface rising or falling at an angle", "definitionCN": "斜面；坡；通用词" },
-          { "word": "hillside", "ipa": "/ˈhɪlsaɪd/", "tag": "near meaning", "definition": "the sloping side of a hill", "definitionCN": "山坡；与 brae 最接近的标准英语对应" },
-          { "word": "incline", "ipa": "/ˈɪnklaɪn/", "tag": "near meaning", "definition": "a slope, often a road or rail gradient", "definitionCN": "斜坡；常指道路坡度" },
-          { "word": "bank", "ipa": "/bæŋk/", "tag": "near meaning", "definition": "a slope of earth beside a river or road", "definitionCN": "土坡；河岸坡" },
-          { "word": "grade", "ipa": "/ɡreɪd/", "tag": "near meaning", "definition": "the degree of slope of a road", "definitionCN": "坡度；（美）斜坡路段" }
-        ]
+        "phrase": "down the brae",
+        "zh": "下坡"
+      },
+      {
+        "phrase": "a steep brae",
+        "zh": "陡坡"
+      },
+      {
+        "phrase": "the brae side",
+        "zh": "坡边；坡畔"
+      },
+      {
+        "phrase": "halfway up the brae",
+        "zh": "半坡之上"
       }
-    ]
-  },
-  "mnemonics": {
-    "normalIntro": {
-      "en": "Tie brae to brow: the hill's brow is the brae.",
-      "cn": "把 brae 与 brow 联系起来：山的「眉额」就是坡。"
-    },
-    "normal": [
-      { "en": "brae comes from Old Norse brá, eyelid or brow.", "cn": "brae 源自古诺斯语 brá，意为睑、眉。" },
-      { "en": "brow is the native English cousin, same root.", "cn": "brow 是英语本土同源词。" },
-      { "en": "it survives in Scottish place names like Auchendinny Brae.", "cn": "它保存在诸如 Auchendinny Brae 这样的苏格兰地名里。" },
-      { "en": "Burns wrote of the braes of youth.", "cn": "彭斯写过少年时代的 braes。" },
-      { "en": "the plural braes is common in poetry.", "cn": "复数 braes 在诗歌中常见。" }
     ],
-    "abstract": [
-      { "en": "See the land tilt like a raised eyelid.", "cn": "把大地想象成掀起的眼睑。" },
-      { "en": "Sheep dots on green are the word's fixed picture.", "cn": "绿坡上的羊点是这个词的固定画面。" },
-      { "en": "Every uphill street in an old Scottish town is a brae.", "cn": "苏格兰老城里每条上坡街都是一条 brae。" }
-    ]
-  },
-  "examples": [
-    { "en": "They built their cottage on the sunny side of the brae.", "cn": "他们把农舍建在山坡向阳的一侧。" },
-    { "en": "The old cart track wound up the brae behind the kirk.", "cn": "老旧的车辙小路蜿蜒爬上教堂后的山坡。" },
-    { "en": "From the top of the brae, the whole valley lay below like a map.", "cn": "从坡顶望下去，整个山谷如地图般铺展。" }
-  ],
-  "dict_mnemonic": {
-    "note": "谐音记忆 · 非词源",
-    "text": "「不累」——走平地不累，一上「不累」就想歇：brae 就是那道让人半途歇脚的坡。",
-    "word": "brae"
-  },
-  "root": "日耳曼语系重构词根 *brāwō（眉、边沿）→ 古诺斯语 brá（睑、眉）→ 苏格兰语 brae（山坡）；与英语本土词 brow 同源。",
-  "sensesIntro": {
-    "en": "From the landform itself, the word spreads to the road on it, the home ground beside it, and the effort and view it affords.",
-    "cn": "义项由坡体本身出发，延伸至坡上之路、坡畔人家，以及坡带来的费力与视野。"
-  },
-  "semanticMap": {
-    "core": {
-      "en": "CORE IMAGE: the land's brow, a green slope tilting up from the flat",
-      "cn": "核心意象：大地的眉额——一块从平地翘起的绿坡"
-    },
-    "chain": ["EDGE", "RISE", "PATH", "HOME", "EFFORT", "VIEW"],
-    "branches": [
-      { "senses": "01", "en": "the form: grass rising at an angle", "cn": "形体：斜斜升起的草坡" },
-      { "senses": "02 · 07", "en": "the way: roads graded by the pull of the climb", "cn": "道路：以攀拉之力度量坡度" },
-      { "senses": "03 · 06", "en": "the home: cottages and poems at the slope's edge", "cn": "家园：坡畔的农舍与诗篇" },
-      { "senses": "04", "en": "the strain: progress measured in uphill pulls", "cn": "吃力：以爬坡计量的进展" },
-      { "senses": "05 · 08", "en": "the eye and the map: a viewpoint, a name on the land", "cn": "眼与地图：观景处与地名" }
-    ]
-  },
-  "affixes": {
-    "intro": {
-      "en": "Brae is a single morpheme from Norse; compounds are made by simple juxtaposition.",
-      "cn": "brae 是来自诺斯语的单语素词；复合词由简单并置构成。"
-    },
-    "latinIntro": {
-      "en": "The Germanic family of *brāwō has no Latin relatives; Latin supercilium covers the same brow idea.",
-      "cn": "*brāwō 的日耳曼词族在拉丁语中无亲属；拉丁语 supercilium 表达同样的「眉额」概念。"
-    },
-    "items": [
-      { "word": "brāwō", "structure": "Proto-Germanic root", "meaning": "brow, edge", "meaningCN": "眉；边沿", "example": "the root underlies both brow and brae", "exampleCN": "该词根是 brow 与 brae 的共同基础" },
-      { "word": "brá", "structure": "Old Norse noun", "meaning": "eyelid, brow", "meaningCN": "睑；眉", "example": "Norse brá became Scots brae", "exampleCN": "诺斯语 brá 演变为苏格兰语 brae" },
-      { "word": "brow", "structure": "native English cognate", "meaning": "forehead, hilltop edge", "meaningCN": "额；坡顶", "example": "the brow of the hill", "exampleCN": "山之额顶" },
-      { "word": "eyebrow", "structure": "English compound", "meaning": "the hair above the eye", "meaningCN": "眉毛", "example": "eyebrow keeps the old sense alive", "exampleCN": "eyebrow 保留了古义" },
-      { "word": "-side", "structure": "English suffix", "meaning": "the area along", "meaningCN": "沿……的地带", "example": "brae-side is the land along the slope", "exampleCN": "brae-side 即坡畔之地" },
-      { "word": "-land", "structure": "English suffix", "meaning": "tract of land", "meaningCN": "土地；地域", "example": "braeland means sloping ground", "exampleCN": "braeland 指坡地" },
-      { "word": "hill", "structure": "native near word", "meaning": "a rounded elevation", "meaningCN": "山丘", "example": "hill is the standard word brae narrows", "exampleCN": "hill 是 brae 所限定的通用词" },
-      { "word": "glenn-", "structure": "Scots near word", "meaning": "narrow valley", "meaningCN": "狭谷", "example": "glen lies below the brae", "exampleCN": "glen 位于 brae 之下" }
+    "forms": [
+      {
+        "label": "复数",
+        "form": "braes"
+      }
     ],
-    "latinEntries": [],
     "derivatives": [
-      { "word": "brae-side", "pos": "n.", "zh": "坡畔；坡边地带" },
-      { "word": "braeland", "pos": "n.", "zh": "坡地" }
-    ]
+      {
+        "word": "brae-side",
+        "pos": "n.",
+        "zh": "由复合词构成，义为「坡边地带」"
+      },
+      {
+        "word": "braeland",
+        "pos": "n.",
+        "zh": "由复合词构成，义为「坡地」"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "A slope or hillside",
+        "titleCN": "山坡；斜坡",
+        "definition": "a stretch of rising ground, especially a grassy hillside",
+        "definitionCN": "一段地势升高的地面，尤指长草的山坡",
+        "example": "Sheep grazed all over the brae.",
+        "exampleCN": "羊群在山坡上四处吃草。",
+        "why": "The Old Norse word for eyelid or brow gave the picture of land's brow rising like a lid.",
+        "whyCN": "古诺斯语中指「眉、睑」的词给出画面：大地如眼睑般隆起的边沿即坡。"
+      },
+      {
+        "no": "02",
+        "title": "A road or path going uphill",
+        "titleCN": "上坡路",
+        "definition": "a sloping street or track, especially in Scottish towns",
+        "definitionCN": "倾斜的街道或小径，常见于苏格兰城镇",
+        "example": "The cart labored up the brae toward the market.",
+        "exampleCN": "马车吃力地爬坡驶向市场。",
+        "why": "The land form names the way built upon it, as hill gave hill road.",
+        "whyCN": "地形名转指建于其上的道路，如 hill 之有 hill road。"
+      },
+      {
+        "no": "03",
+        "title": "A slope as boundary of a settlement",
+        "titleCN": "村落所倚的坡",
+        "definition": "the hillside at the edge of a village or field",
+        "definitionCN": "村庄或田地边缘的山坡",
+        "example": "The cottages lined the foot of the brae.",
+        "exampleCN": "农舍沿坡脚一字排开。",
+        "why": "Human settlement clings to slopes; the word marks where the flat land ends.",
+        "whyCN": "人类聚落依坡而建，这个词标记平地的尽头。"
+      },
+      {
+        "no": "04",
+        "title": "Steady effort, as in climbing",
+        "titleCN": "爬坡般的费力",
+        "definition": "in phrases, the strain of going uphill, literal or figurative",
+        "definitionCN": "在短语中指上坡的吃力，实指或比喻",
+        "example": "Getting the budget approved was a long pull up the brae.",
+        "exampleCN": "预算获批如爬长坡，一步一吃力。",
+        "why": "Climbing a slope is the plainest image of hard gradual progress.",
+        "whyCN": "爬坡是「渐进的艰辛」最直白的意象。"
+      },
+      {
+        "no": "05",
+        "title": "A viewpoint on rising ground",
+        "titleCN": "坡上的观景处",
+        "definition": "a spot on the slope from which the land below is seen",
+        "definitionCN": "坡上可俯瞰下方的位置",
+        "example": "From the brae we watched the ships come in.",
+        "exampleCN": "我们从坡上望着船只进港。",
+        "why": "Height is for seeing; the slope becomes a stand for the eye.",
+        "whyCN": "高处的功能是看，坡便成了眼睛的看台。"
+      },
+      {
+        "no": "06",
+        "title": "Home ground in rural speech",
+        "titleCN": "乡音里的「家山」",
+        "definition": "the local hillside as the beloved home landscape in Scots writing",
+        "definitionCN": "苏格兰文学中作为故乡风物的本地山坡",
+        "example": "The poet sang of the braes of his boyhood.",
+        "exampleCN": "诗人歌咏自己少年时代的家山。",
+        "why": "Everyday landscape words turn tender in rural poetry.",
+        "whyCN": "日常地貌词在乡土诗歌中染上温情。"
+      },
+      {
+        "no": "07",
+        "title": "An incline measured by work",
+        "titleCN": "以劳作丈量的坡度",
+        "definition": "the degree of slope judged by how hard it is to climb or haul",
+        "definitionCN": "以攀爬或拉运之难易判断的坡度",
+        "example": "That brae is too steep for a loaded cart.",
+        "exampleCN": "那道坡太陡，满载的马车过不去。",
+        "why": "Farmers grade land not by degrees but by the sweat it costs.",
+        "whyCN": "农人不用度数而用汗水丈量坡度。"
+      },
+      {
+        "no": "08",
+        "title": "A place-name element",
+        "titleCN": "地名成分",
+        "definition": "brae as a common element in Scottish place names",
+        "definitionCN": "brae 作为苏格兰地名的常见成分",
+        "example": "Many villages carry the word brae in their names.",
+        "exampleCN": "许多村庄的名字里都带着 brae 一词。",
+        "why": "Long use fixes the land word into the map itself.",
+        "whyCN": "长年使用使地貌词固化进了地图。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Brae is a Northern English and Scots word borrowed from Old Norse, where it meant brow or eyelid.",
+        "cn": "brae 是北部英语与苏格兰语用词，借自古诺斯语，原义为「眉、睑」。"
+      },
+      "items": [
+        {
+          "era": "PROTO-GERMANIC",
+          "en": "A reconstructed root *brāwō meant brow or edge, shared across Germanic languages.",
+          "cn": "重构词根 *brāwō 意为「眉、边沿」，见于各日耳曼语言。"
+        },
+        {
+          "era": "OLD NORSE",
+          "en": "Old Norse brá meant eyelid or brow, the image of the land's rising edge.",
+          "cn": "古诺斯语 brá 意为「睑、眉」，引申出大地隆起的边沿之象。"
+        },
+        {
+          "era": "NORTHERN MIDDLE ENGLISH",
+          "en": "Settlers of Norse descent carried brá into northern England and Scotland as brae, meaning slope.",
+          "cn": "诺斯裔移民把 brá 带进英格兰北部和苏格兰，作 brae，意为山坡。"
+        },
+        {
+          "era": "SCOTS, 15TH–16TH C.",
+          "en": "Scots writing shows brae freely for hillside and sloping road.",
+          "cn": "十五至十六世纪苏格兰文献中，brae 已通用于山坡与坡路。"
+        },
+        {
+          "era": "ENGLISH, 18TH C.",
+          "en": "Robert Burns's dialect poems fixed the word in the literary imagination.",
+          "cn": "彭斯的方言诗使这个词定格于文学想象之中。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "Modern use is regional and literary; standard English keeps slope or hillside.",
+          "cn": "现代用法具地域与文学色彩；标准英语通用 slope 或 hillside。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "Brae is short and regional; its look-alikes are common words that merely share sounds.",
+        "cn": "brae 短小且具地域性；形近词只是同音的常见词。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "bray",
+              "ipa": "/breɪ/",
+              "tag": "spelling",
+              "definition": "the loud cry of a donkey",
+              "definitionCN": "驴叫声；与 brae 同音，词源不同"
+            },
+            {
+              "word": "brow",
+              "ipa": "/braʊ/",
+              "tag": "same root",
+              "definition": "the forehead, or the top edge of a hill",
+              "definitionCN": "额头；坡顶；同源英语形式"
+            },
+            {
+              "word": "brake",
+              "ipa": "/breɪk/",
+              "tag": "spelling",
+              "definition": "a device for stopping; a fern",
+              "definitionCN": "刹车；蕨草；拼写相近，词源不同"
+            },
+            {
+              "word": "brace",
+              "ipa": "/breɪs/",
+              "tag": "spelling",
+              "definition": "a pair, or to support",
+              "definitionCN": "一对；支撑；拼写相近，词源不同"
+            },
+            {
+              "word": "braise",
+              "ipa": "/breɪz/",
+              "tag": "spelling",
+              "definition": "to cook slowly in a covered pot",
+              "definitionCN": "炖；焖；拼写相近，词源不同"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "slope",
+              "ipa": "/sləʊp/",
+              "tag": "near meaning",
+              "definition": "a surface rising or falling at an angle",
+              "definitionCN": "斜面；坡；通用词"
+            },
+            {
+              "word": "hillside",
+              "ipa": "/ˈhɪlsaɪd/",
+              "tag": "near meaning",
+              "definition": "the sloping side of a hill",
+              "definitionCN": "山坡；与 brae 最接近的标准英语对应"
+            },
+            {
+              "word": "incline",
+              "ipa": "/ˈɪnklaɪn/",
+              "tag": "near meaning",
+              "definition": "a slope, often a road or rail gradient",
+              "definitionCN": "斜坡；常指道路坡度"
+            },
+            {
+              "word": "bank",
+              "ipa": "/bæŋk/",
+              "tag": "near meaning",
+              "definition": "a slope of earth beside a river or road",
+              "definitionCN": "土坡；河岸坡"
+            },
+            {
+              "word": "grade",
+              "ipa": "/ɡreɪd/",
+              "tag": "near meaning",
+              "definition": "the degree of slope of a road",
+              "definitionCN": "坡度；（美）斜坡路段"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Tie brae to brow: the hill's brow is the brae.",
+        "cn": "把 brae 与 brow 联系起来：山的「眉额」就是坡。"
+      },
+      "normal": [
+        {
+          "en": "brae comes from Old Norse brá, eyelid or brow.",
+          "cn": "brae 源自古诺斯语 brá，意为睑、眉。"
+        },
+        {
+          "en": "brow is the native English cousin, same root.",
+          "cn": "brow 是英语本土同源词。"
+        },
+        {
+          "en": "it survives in Scottish place names like Auchendinny Brae.",
+          "cn": "它保存在诸如 Auchendinny Brae 这样的苏格兰地名里。"
+        },
+        {
+          "en": "Burns wrote of the braes of youth.",
+          "cn": "彭斯写过少年时代的 braes。"
+        },
+        {
+          "en": "the plural braes is common in poetry.",
+          "cn": "复数 braes 在诗歌中常见。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "See the land tilt like a raised eyelid.",
+          "cn": "把大地想象成掀起的眼睑。"
+        },
+        {
+          "en": "Sheep dots on green are the word's fixed picture.",
+          "cn": "绿坡上的羊点是这个词的固定画面。"
+        },
+        {
+          "en": "Every uphill street in an old Scottish town is a brae.",
+          "cn": "苏格兰老城里每条上坡街都是一条 brae。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "They built their cottage on the sunny side of the brae.",
+        "cn": "他们把农舍建在山坡向阳的一侧。"
+      },
+      {
+        "en": "The old cart track wound up the brae behind the kirk.",
+        "cn": "老旧的车辙小路蜿蜒爬上教堂后的山坡。"
+      },
+      {
+        "en": "From the top of the brae, the whole valley lay below like a map.",
+        "cn": "从坡顶望下去，整个山谷如地图般铺展。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「不累」——走平地不累，一上「不累」就想歇：brae 就是那道让人半途歇脚的坡。",
+      "word": "brae"
+    },
+    "root": "日耳曼语系重构词根 *brāwō（眉、边沿）→ 古诺斯语 brá（睑、眉）→ 苏格兰语 brae（山坡）；与英语本土词 brow 同源。",
+    "sensesIntro": {
+      "en": "From the landform itself, the word spreads to the road on it, the home ground beside it, and the effort and view it affords.",
+      "cn": "义项由坡体本身出发，延伸至坡上之路、坡畔人家，以及坡带来的费力与视野。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: the land's brow, a green slope tilting up from the flat",
+        "cn": "核心意象：大地的眉额——一块从平地翘起的绿坡"
+      },
+      "chain": [
+        "EDGE",
+        "RISE",
+        "PATH",
+        "HOME",
+        "EFFORT",
+        "VIEW"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "the form: grass rising at an angle",
+          "cn": "形体：斜斜升起的草坡"
+        },
+        {
+          "senses": "02 · 07",
+          "en": "the way: roads graded by the pull of the climb",
+          "cn": "道路：以攀拉之力度量坡度"
+        },
+        {
+          "senses": "03 · 06",
+          "en": "the home: cottages and poems at the slope's edge",
+          "cn": "家园：坡畔的农舍与诗篇"
+        },
+        {
+          "senses": "04",
+          "en": "the strain: progress measured in uphill pulls",
+          "cn": "吃力：以爬坡计量的进展"
+        },
+        {
+          "senses": "05 · 08",
+          "en": "the eye and the map: a viewpoint, a name on the land",
+          "cn": "眼与地图：观景处与地名"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Brae is a single morpheme from Norse; compounds are made by simple juxtaposition.",
+        "cn": "brae 是来自诺斯语的单语素词；复合词由简单并置构成。"
+      },
+      "latinIntro": {
+        "en": "The Germanic family of *brāwō has no Latin relatives; Latin supercilium covers the same brow idea.",
+        "cn": "*brāwō 的日耳曼词族在拉丁语中无亲属；拉丁语 supercilium 表达同样的「眉额」概念。"
+      },
+      "items": [
+        {
+          "word": "brāwō",
+          "structure": "Proto-Germanic root",
+          "meaning": "brow, edge",
+          "meaningCN": "眉；边沿",
+          "example": "the root underlies both brow and brae",
+          "exampleCN": "该词根是 brow 与 brae 的共同基础"
+        },
+        {
+          "word": "brá",
+          "structure": "Old Norse noun",
+          "meaning": "eyelid, brow",
+          "meaningCN": "睑；眉",
+          "example": "Norse brá became Scots brae",
+          "exampleCN": "诺斯语 brá 演变为苏格兰语 brae"
+        },
+        {
+          "word": "brow",
+          "structure": "native English cognate",
+          "meaning": "forehead, hilltop edge",
+          "meaningCN": "额；坡顶",
+          "example": "the brow of the hill",
+          "exampleCN": "山之额顶"
+        },
+        {
+          "word": "eyebrow",
+          "structure": "English compound",
+          "meaning": "the hair above the eye",
+          "meaningCN": "眉毛",
+          "example": "eyebrow keeps the old sense alive",
+          "exampleCN": "eyebrow 保留了古义"
+        },
+        {
+          "word": "-side",
+          "structure": "English suffix",
+          "meaning": "the area along",
+          "meaningCN": "沿……的地带",
+          "example": "brae-side is the land along the slope",
+          "exampleCN": "brae-side 即坡畔之地"
+        },
+        {
+          "word": "-land",
+          "structure": "English suffix",
+          "meaning": "tract of land",
+          "meaningCN": "土地；地域",
+          "example": "braeland means sloping ground",
+          "exampleCN": "braeland 指坡地"
+        },
+        {
+          "word": "hill",
+          "structure": "native near word",
+          "meaning": "a rounded elevation",
+          "meaningCN": "山丘",
+          "example": "hill is the standard word brae narrows",
+          "exampleCN": "hill 是 brae 所限定的通用词"
+        },
+        {
+          "word": "glenn-",
+          "structure": "Scots near word",
+          "meaning": "narrow valley",
+          "meaningCN": "狭谷",
+          "example": "glen lies below the brae",
+          "exampleCN": "glen 位于 brae 之下"
+        }
+      ],
+      "latinEntries": [],
+      "derivatives": [
+        {
+          "word": "brae-side",
+          "pos": "n.",
+          "zh": "坡畔；坡边地带"
+        },
+        {
+          "word": "braeland",
+          "pos": "n.",
+          "zh": "坡地"
+        }
+      ]
+    }
   }
-}
+]

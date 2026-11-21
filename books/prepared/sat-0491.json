@@ -1,479 +1,481 @@
-{
- "word": "bureaucracy",
- "ipa_uk": "/bjʊəˈrɒkrəsi/",
- "ipa_us": "/bjʊˈrɑːkrəsi/",
- "definition_zh": "官僚机构；官僚体制；繁文缛节；（任何大型组织的）层级管理层",
- "definition_en": "the system of officials and offices that runs public business through ranks, files and fixed rules",
- "core_image": "一排挂着编号的窗口，表格在窗口之间来回传递，每个窗口只负责盖一个章",
- "scene": "办事的人被从一个窗口送到下一个窗口，手里那叠表格始终少一个章。The bureaucracy moved her file through six windows before anyone read it.",
- "sceneCN": "这里 bureaucracy 指按层级与规章运转的行政机构（第 1 个义项：作为机构整体）；句意为这套官僚机构把她的档案过了六个窗口，才有人真正读它。",
- "pos": [
+[
   {
-   "tag": "n.",
-   "zh": "官僚机构；官僚体制（可数，指一套机构；不可数，指这种运作方式）"
-  },
-  {
-   "tag": "n.",
-   "zh": "繁文缛节；官僚作风（口语中带贬义）"
+    "word": "bureaucracy",
+    "ipa_uk": "/bjʊəˈrɒkrəsi/",
+    "ipa_us": "/bjʊˈrɑːkrəsi/",
+    "definition_zh": "官僚机构；官僚体制；繁文缛节；（任何大型组织的）层级管理层",
+    "definition_en": "the system of officials and offices that runs public business through ranks, files and fixed rules",
+    "core_image": "一排挂着编号的窗口，表格在窗口之间来回传递，每个窗口只负责盖一个章",
+    "scene": "办事的人被从一个窗口送到下一个窗口，手里那叠表格始终少一个章。The bureaucracy moved her file through six windows before anyone read it.",
+    "sceneCN": "这里 bureaucracy 指按层级与规章运转的行政机构（第 1 个义项：作为机构整体）；句意为这套官僚机构把她的档案过了六个窗口，才有人真正读它。",
+    "pos": [
+      {
+        "tag": "n.",
+        "zh": "官僚机构；官僚体制（可数，指一套机构；不可数，指这种运作方式）"
+      },
+      {
+        "tag": "n.",
+        "zh": "繁文缛节；官僚作风（口语中带贬义）"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "a government bureaucracy",
+        "zh": "政府官僚机构"
+      },
+      {
+        "phrase": "cut bureaucracy",
+        "zh": "精简官僚程序"
+      },
+      {
+        "phrase": "layers of bureaucracy",
+        "zh": "层层官僚机构"
+      },
+      {
+        "phrase": "bureaucracy and red tape",
+        "zh": "官僚作风与繁文缛节"
+      },
+      {
+        "phrase": "the federal bureaucracy",
+        "zh": "联邦行政机构"
+      },
+      {
+        "phrase": "a sprawling bureaucracy",
+        "zh": "臃肿的官僚体系"
+      }
+    ],
+    "forms": [
+      {
+        "label": "复数",
+        "form": "bureaucracies"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "bureaucrat",
+        "pos": "n.",
+        "zh": "官僚（bureau + -crat「掌权者」，由机构转指机构中的人）"
+      },
+      {
+        "word": "bureaucratic",
+        "pos": "adj.",
+        "zh": "官僚的；程序繁琐的（bureaucrat + -ic，由人转指其作风）"
+      },
+      {
+        "word": "bureaucratize",
+        "pos": "v.",
+        "zh": "使官僚化（bureaucrat + -ize，由名词转指使之变成那样的过程）"
+      },
+      {
+        "word": "bureaucratization",
+        "pos": "n.",
+        "zh": "官僚化（bureaucratize + -ation，由动作转指该过程及其结果）"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "The administrative apparatus",
+        "titleCN": "行政机构整体",
+        "definition": "the whole body of offices and officials that carries out public business",
+        "definitionCN": "执行公共事务的整套机关与人员",
+        "example": "The bureaucracy grew faster than the services it delivered.",
+        "exampleCN": "这套行政机构的扩张快于它所提供的服务。",
+        "why": "the -cracy ending names a form of rule, so the word first denotes a governing apparatus rather than one clerk.",
+        "whyCN": "-cracy 这一后缀指某种统治形式，因此这个词首先指治理机关，而非某一位办事员。"
+      },
+      {
+        "no": "02",
+        "title": "Officials as a body",
+        "titleCN": "官僚群体",
+        "definition": "the class or corps of career officials, seen as sharing interests and habits",
+        "definitionCN": "职业官员构成的群体，被视为共享利益与习惯",
+        "example": "The reform was resisted by the bureaucracy itself.",
+        "exampleCN": "改革遭到官僚群体本身的抵制。",
+        "why": "once offices became careers, the people in them could be spoken of as a single body with its own outlook.",
+        "whyCN": "一旦职位成为职业，任职者便可被当作一个有自身心态的整体来谈论。"
+      },
+      {
+        "no": "03",
+        "title": "Red tape",
+        "titleCN": "繁文缛节",
+        "definition": "the forms, stamps and waiting that a procedure imposes before anything can be done",
+        "definitionCN": "办事之前必须经历的表格、盖章与等待",
+        "example": "Bureaucracy delayed the permit by eleven weeks.",
+        "exampleCN": "繁文缛节让许可证晚了十一周。",
+        "why": "the everyday sense is a metonymy: the apparatus is named by the annoyance it produces.",
+        "whyCN": "日常义是转喻：用机构造成的麻烦来指称机构本身。"
+      },
+      {
+        "no": "04",
+        "title": "Hierarchy in any large body",
+        "titleCN": "任何大型组织的层级管理",
+        "definition": "the managerial layer of a university, hospital or company, with ranks, files and approval chains",
+        "definitionCN": "大学、医院或公司中的管理层，带等级、档案与审批链",
+        "example": "Every large hospital has a bureaucracy of its own.",
+        "exampleCN": "每一所大医院都有自己的官僚层。",
+        "why": "Weber's analysis showed the pattern is not peculiar to states, so the word spread to any large organization.",
+        "whyCN": "韦伯的分析表明这种模式并非国家独有，于是这个词扩展到一切大型组织。"
+      },
+      {
+        "no": "05",
+        "title": "Rule by files, not by persons",
+        "titleCN": "按规章而非人情办事",
+        "definition": "administration in which written rules and records, not personal ties, decide outcomes",
+        "definitionCN": "由成文规则与档案、而非私人关系来决定结果的行政方式",
+        "example": "Rule by files, not by persons, was the point of the reform.",
+        "exampleCN": "按规章而非人情办事，正是这场改革的要点。",
+        "why": "the defining feature is impersonality: the same rule must bind the clerk and the petitioner alike.",
+        "whyCN": "其要点是非人格化：同一条规则对办事员与申请者一视同仁。"
+      },
+      {
+        "no": "06",
+        "title": "Weber's ideal type",
+        "titleCN": "韦伯意义上的理想型",
+        "definition": "a neutral analytic model of administration by hierarchy, written records, trained staff and fixed jurisdiction",
+        "definitionCN": "一种中性的分析模型：层级、文书、受训人员与固定职权范围",
+        "example": "Weber's ideal type describes bureaucracy without praising it.",
+        "exampleCN": "韦伯的理想型只是描述官僚制，并不赞美它。",
+        "why": "the sociological sense strips the word of insult and turns it into a set of testable features.",
+        "whyCN": "社会学义剥去贬义，把它变成一组可检验的特征。"
+      },
+      {
+        "no": "07",
+        "title": "Sluggishness blamed on rules",
+        "titleCN": "僵化低效（贬义）",
+        "definition": "the pejorative reading: delay, evasion and rigidity produced by too many rules",
+        "definitionCN": "贬义读法：规则过多造成的拖延、推诿与僵化",
+        "example": "The licence stalled for months in what officials called bureaucratic inertia.",
+        "exampleCN": "官僚惰性这一说法正好描述了这个贬义读法。",
+        "why": "the same features that make administration predictable also make it slow, so the word carries both judgements.",
+        "whyCN": "使行政可预期的那套特征同时也让它迟缓，因此这个词兼带两种评价。"
+      },
+      {
+        "no": "08",
+        "title": "Size and cost of the apparatus",
+        "titleCN": "机构膨胀带来的规模与成本",
+        "definition": "the sheer scale of an administrative machine and what it costs to keep running",
+        "definitionCN": "行政机器本身的庞大规模，以及维持它运转的开销",
+        "example": "Auditors measured the bureaucracy by headcount and floor space.",
+        "exampleCN": "审计人员用人数与办公面积来衡量这套机构。",
+        "why": "budgets make the apparatus visible as a quantity, and that quantity is what the word names here.",
+        "whyCN": "预算把机关显形为一个数量，这里命名的正是那个数量。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Bureaucracy is a French coinage of the early nineteenth century: bureau 'desk, office' plus -cratie 'rule', from Greek kratos 'power'. It began as a satirical label. Dates are approximate.",
+        "cn": "bureaucracy 是 19 世纪初的法语新造词：bureau「书桌、办公室」加 -cratie「统治」，后者来自希腊 kratos「力量」。它最初是讽刺性标签。年代均为约数。"
+      },
+      "items": [
+        {
+          "era": "FRENCH BUREAU",
+          "en": "Bureau first meant a coarse woollen cloth used to cover writing desks, then the desk itself, then the room and the office.",
+          "cn": "bureau 最初指铺在写字桌上的粗毛布，继而指桌子本身，再指房间与机关。"
+        },
+        {
+          "era": "GREEK KRATOS",
+          "en": "Kratos meant 'strength, might', and the -kratia suffix named a form of rule, as in democracy and aristocracy.",
+          "cn": "kratos 意为「力量、强权」，-kratia 后缀表示某种统治形式，如 democracy 与 aristocracy。"
+        },
+        {
+          "era": "FRENCH COINAGE",
+          "en": "Bureaucratie was coined in French around the 1810s as a mocking term for government carried on by officials rather than by citizens.",
+          "cn": "bureaucratie 于 1810 年代前后在法语中造出，用来讥讽由官员而非公民运转的政府。"
+        },
+        {
+          "era": "ENGLISH BORROWING",
+          "en": "English adopted bureaucracy in the nineteenth century; Mill used it for the corps of officials, a usage that made the word descriptive rather than merely hostile.",
+          "cn": "英语在 19 世纪借用该词；密尔用它指官员群体，这一用法使词从纯敌意转为描述性。"
+        },
+        {
+          "era": "WEBER",
+          "en": "Weber turned bureaucracy into a technical term for administration by hierarchy, written records, trained staff and fixed jurisdiction.",
+          "cn": "韦伯把官僚制转为术语，指以层级、文书、受训人员与固定职权范围进行的行政。"
+        },
+        {
+          "era": "UNCERTAIN DETAILS",
+          "en": "Source uncertain (deeper origin): the origin of burel, the cloth behind bureau, is not established, and the pre-Greek origin of kratos is unsettled, so any older form proposed for it is a reconstruction.",
+          "cn": "来源不确定（更深来源）：bureau 背后的 burel 那种布料的来源未得到证明；kratos 在希腊语之前的来源亦无定论，凡为其提出的更早形式均属重构形式。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "Group one shares the -cracy or bureau stock; group two holds words for administration and its annoyances.",
+        "cn": "第一组共享 -cracy 或 bureau 词干；第二组是行政及其麻烦的同近义词。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "bureaucrat",
+              "ipa": "/ˈbjʊərəkræt/",
+              "tag": "one person",
+              "definition": "A single official, formed with -crat 'one who holds power'; the longer word names the system, not the person.",
+              "definitionCN": "指单个官员，由 -crat「掌权者」构成；较长的词指整套制度，而非个人。"
+            },
+            {
+              "word": "bureaucratic",
+              "ipa": "/ˌbjʊərəˈkrætɪk/",
+              "tag": "the adjective",
+              "definition": "The adjective describing procedure-heavy behaviour; it modifies a noun instead of naming the apparatus.",
+              "definitionCN": "形容词，描述程序繁多的作风；它修饰名词，而不指称机关。"
+            },
+            {
+              "word": "aristocracy",
+              "ipa": "/ˌærɪˈstɒkrəsi/",
+              "tag": "same suffix, other root",
+              "definition": "Aristos 'best' plus kratos: rule by a supposed elite. It shares the suffix but not the desk.",
+              "definitionCN": "aristos「最优者」加 kratos：由所谓精英统治。后缀相同，词根无关。"
+            },
+            {
+              "word": "autocracy",
+              "ipa": "/ɔːˈtɒkrəsi/",
+              "tag": "one ruler",
+              "definition": "Autos 'self' plus kratos: rule by one person with unrestricted power, a contrast to rule by offices.",
+              "definitionCN": "autos「自身」加 kratos：一人不受限制地统治，与由机关统治相对。"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "administration",
+              "ipa": "/ədˌmɪnɪˈstreɪʃn/",
+              "tag": "the work, not the critique",
+              "definition": "The activity of managing an organization, neutral in tone; bureaucracy adds the sense of ranks and procedure.",
+              "definitionCN": "管理组织的活动，语气中性；bureaucracy 另带层级与程序之意。"
+            },
+            {
+              "word": "civil service",
+              "ipa": "/ˌsɪvl ˈsɜːvɪs/",
+              "tag": "state employees",
+              "definition": "The permanent employees of the state, named by their employment rather than by their procedures.",
+              "definitionCN": "国家的常任雇员，按雇佣关系命名，而非按程序命名。"
+            },
+            {
+              "word": "red tape",
+              "ipa": "/ˌred ˈteɪp/",
+              "tag": "the annoyance alone",
+              "definition": "The delays and forms only, with no reference to the offices that produce them.",
+              "definitionCN": "只指拖延与表格，不涉及产生它们的机关。"
+            },
+            {
+              "word": "officialdom",
+              "ipa": "/əˈfɪʃldəm/",
+              "tag": "the officials as a class",
+              "definition": "Officials thought of as a class with shared habits, close to the second sense of bureaucracy.",
+              "definitionCN": "被视为共享习气的官员阶层，接近 bureaucracy 的第二义。"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Normal associations: real morphemes, real collocations and real relatives, not invented rhymes.",
+        "cn": "正常联想：真实的构词成分、真实搭配与真实同族词，而非编造的顺口溜。"
+      },
+      "normal": [
+        {
+          "en": "bureau 'desk' + -cracy 'rule': rule carried out from desks.",
+          "cn": "bureau「书桌」+ -cracy「统治」：从书桌后面实施的统治。"
+        },
+        {
+          "en": "The family runs bureaucrat, bureaucratic, bureaucratize, bureaucratization.",
+          "cn": "同族词包括 bureaucrat、bureaucratic、bureaucratize、bureaucratization。"
+        },
+        {
+          "en": "Fixed phrases mark the complaint: cut bureaucracy, layers of bureaucracy, red tape.",
+          "cn": "固定搭配标出抱怨的语气：精简官僚程序、层层官僚机构、繁文缛节。"
+        },
+        {
+          "en": "The same suffix appears in democracy, aristocracy and autocracy, all through Greek kratos.",
+          "cn": "同一后缀出现在 democracy、aristocracy、autocracy，都经希腊 kratos。"
+        },
+        {
+          "en": "Weber's four marks: hierarchy, written files, trained staff, fixed jurisdiction.",
+          "cn": "韦伯的四项标志：层级、文书档案、受训人员、固定职权。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "Picture a staircase where every step requires a signature before the next step opens.",
+          "cn": "想象一道楼梯，每上一级都要先签一个字，下一级才打开。"
+        },
+        {
+          "en": "Picture a machine that works perfectly and produces only paper.",
+          "cn": "想象一台运转完美的机器，产出只有纸。"
+        },
+        {
+          "en": "Picture a queue in which nobody knows who is first, but everyone holds a numbered slip.",
+          "cn": "想象一条队列，没人知道谁在前，但人人手里都有一张编号纸条。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "The new agency added a layer of bureaucracy without adding a service.",
+        "cn": "新机构加了一层官僚机构，却没增加一项服务。"
+      },
+      {
+        "en": "Small firms complain that bureaucracy eats their first month.",
+        "cn": "小公司抱怨官僚程序吃掉了它们头一个月。"
+      },
+      {
+        "en": "Weber saw bureaucracy as the most efficient form of large-scale administration.",
+        "cn": "韦伯认为官僚制是大规模行政中最有效率的形式。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "拆词记忆 · 非词源",
+      "text": "bureau（办公桌）+ cracy（统治）＝ 靠一张张办公桌和一个个章运转的统治；记「章多、层多、纸多」。",
+      "word": "bureaucracy"
+    },
+    "root": "法语 bureaucratie = bureau「书桌、办公室」（源自 burel 粗毛布，其来源不确定）+ -cratie「统治」（希腊 kratos「力量」，希腊语之前的来源属重构形式）。",
+    "sensesIntro": {
+      "en": "Eight senses follow one object seen from different distances: the whole apparatus, the people inside it, the paper it produces, the same pattern in any large body, its impersonality, its analytic model, its slowness, and its cost.",
+      "cn": "八个义项是对同一对象的远近不同取景：整套机关、其中的群体、它产出的纸、任何大型组织里的同一模式、它的非人格化、它的分析模型、它的迟缓、它的成本。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: a corridor of numbered windows where a file gains one stamp per window and never quite finishes.",
+        "cn": "核心意象：一条挂编号窗口的走廊，档案每过一个窗口多一个章，却始终办不完。"
+      },
+      "chain": [
+        "APPARATUS",
+        "PEOPLE IN OFFICES",
+        "PAPER AND WAITING",
+        "THE SAME SHAPE ANYWHERE",
+        "RULE WITHOUT PERSONS",
+        "MEASURED AS COST"
+      ],
+      "branches": [
+        {
+          "senses": "01 · 02",
+          "en": "MACHINE AND MEN: first the offices, then the career officials who staff them.",
+          "cn": "机器与人：先看机关，再看在其中任职的官员。"
+        },
+        {
+          "senses": "03 · 07",
+          "en": "THE SAME FEATURE READ TWICE: forms make work predictable and also make it slow.",
+          "cn": "同一特征的两读：表格让工作可预期，也让工作变慢。"
+        },
+        {
+          "senses": "04",
+          "en": "THE SHAPE TRAVELS: hospitals and firms reproduce the state's pattern.",
+          "cn": "形状在迁移：医院与公司复制了国家的模式。"
+        },
+        {
+          "senses": "05 · 06",
+          "en": "NEUTRAL CORE: rule by files, then the model that states it without blame.",
+          "cn": "中性内核：先是按档案办事，再是把它不带褒贬地陈述出来的模型。"
+        },
+        {
+          "senses": "08",
+          "en": "COUNTED: budgets turn the apparatus into headcount and floor space.",
+          "cn": "被计数：预算把机关变成人数与面积。"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Bureaucracy is a French compound whose two parts still work separately in English: bureau for the office, -cracy for a form of rule.",
+        "cn": "bureaucracy 是法语复合词，两部分在英语中仍各自运作：bureau 指机关，-cracy 指某种统治形式。"
+      },
+      "latinIntro": {
+        "en": "The second element goes back to Greek kratos through the suffix -kratia; the first element is French and has no Latin source.",
+        "cn": "第二部分经后缀 -kratia 上溯希腊 kratos；第一部分属法语，没有拉丁来源。"
+      },
+      "items": [
+        {
+          "word": "bureau",
+          "structure": "French bureau (n., 'desk, office')",
+          "meaning": "desk; office; department",
+          "meaningCN": "书桌；办公室；部门",
+          "example": "The bureau keeps the land records.",
+          "exampleCN": "该局保管土地档案。"
+        },
+        {
+          "word": "-cracy",
+          "structure": "Greek -kratia 'rule, power'",
+          "meaning": "a form of rule or dominance",
+          "meaningCN": "某种统治或支配形式",
+          "example": "Democracy and autocracy share this suffix.",
+          "exampleCN": "民主制与专制共享这一后缀。"
+        },
+        {
+          "word": "-crat",
+          "structure": "-cracy + -crat (one who takes part)",
+          "meaning": "a member or supporter of a ruling group",
+          "meaningCN": "某一统治群体的成员或支持者",
+          "example": "A technocrat governs by expertise.",
+          "exampleCN": "技术官僚凭专业知识治理。"
+        },
+        {
+          "word": "bureaucrat",
+          "structure": "bureau + -crat",
+          "meaning": "an official of a bureau",
+          "meaningCN": "机关的官员",
+          "example": "The bureaucrat stamped the form without reading it.",
+          "exampleCN": "那位官员没看就盖了章。"
+        },
+        {
+          "word": "bureaucratic",
+          "structure": "bureaucrat + -ic (of or like)",
+          "meaning": "of officials or their procedure",
+          "meaningCN": "官僚的；程序繁琐的",
+          "example": "Bureaucratic delays cost the project a season.",
+          "exampleCN": "官僚拖延让项目耽误了一季。"
+        },
+        {
+          "word": "bureaucratize",
+          "structure": "bureaucrat + -ize (make)",
+          "meaning": "to make an organization official-run",
+          "meaningCN": "使机构官僚化",
+          "example": "They bureaucratized the volunteer network.",
+          "exampleCN": "他们把志愿网络官僚化了。"
+        },
+        {
+          "word": "bureaucratization",
+          "structure": "bureaucratize + -ation (process)",
+          "meaning": "the process of becoming official-run",
+          "meaningCN": "官僚化的过程",
+          "example": "Bureaucratization followed the merger.",
+          "exampleCN": "合并之后便出现了官僚化。"
+        },
+        {
+          "word": "bureaucratese",
+          "structure": "bureaucrat + -ese (language of)",
+          "meaning": "the inflated style of official writing",
+          "meaningCN": "公文腔；官样文章",
+          "example": "The notice was written in bureaucratese.",
+          "exampleCN": "这则通知是用公文腔写的。"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "kratos",
+          "structure": "kratos (n., Greek, third declension)",
+          "meaning": "strength, might, power",
+          "meaningCN": "力量；强权"
+        },
+        {
+          "word": "-kratia",
+          "structure": "-kratia (Greek suffix, from kratos)",
+          "meaning": "rule by a named group",
+          "meaningCN": "由某类人统治"
+        },
+        {
+          "word": "burellum",
+          "structure": "burellum (n., Medieval Latin, 'coarse cloth')",
+          "meaning": "coarse woollen cloth",
+          "meaningCN": "粗毛布"
+        }
+      ]
+    }
   }
- ],
- "collocations": [
-  {
-   "phrase": "a government bureaucracy",
-   "zh": "政府官僚机构"
-  },
-  {
-   "phrase": "cut bureaucracy",
-   "zh": "精简官僚程序"
-  },
-  {
-   "phrase": "layers of bureaucracy",
-   "zh": "层层官僚机构"
-  },
-  {
-   "phrase": "bureaucracy and red tape",
-   "zh": "官僚作风与繁文缛节"
-  },
-  {
-   "phrase": "the federal bureaucracy",
-   "zh": "联邦行政机构"
-  },
-  {
-   "phrase": "a sprawling bureaucracy",
-   "zh": "臃肿的官僚体系"
-  }
- ],
- "forms": [
-  {
-   "label": "复数",
-   "form": "bureaucracies"
-  }
- ],
- "derivatives": [
-  {
-   "word": "bureaucrat",
-   "pos": "n.",
-   "zh": "官僚（bureau + -crat「掌权者」，由机构转指机构中的人）"
-  },
-  {
-   "word": "bureaucratic",
-   "pos": "adj.",
-   "zh": "官僚的；程序繁琐的（bureaucrat + -ic，由人转指其作风）"
-  },
-  {
-   "word": "bureaucratize",
-   "pos": "v.",
-   "zh": "使官僚化（bureaucrat + -ize，由名词转指使之变成那样的过程）"
-  },
-  {
-   "word": "bureaucratization",
-   "pos": "n.",
-   "zh": "官僚化（bureaucratize + -ation，由动作转指该过程及其结果）"
-  }
- ],
- "senses": [
-  {
-   "no": "01",
-   "title": "The administrative apparatus",
-   "titleCN": "行政机构整体",
-   "definition": "the whole body of offices and officials that carries out public business",
-   "definitionCN": "执行公共事务的整套机关与人员",
-   "example": "The bureaucracy grew faster than the services it delivered.",
-   "exampleCN": "这套行政机构的扩张快于它所提供的服务。",
-   "why": "the -cracy ending names a form of rule, so the word first denotes a governing apparatus rather than one clerk.",
-   "whyCN": "-cracy 这一后缀指某种统治形式，因此这个词首先指治理机关，而非某一位办事员。"
-  },
-  {
-   "no": "02",
-   "title": "Officials as a body",
-   "titleCN": "官僚群体",
-   "definition": "the class or corps of career officials, seen as sharing interests and habits",
-   "definitionCN": "职业官员构成的群体，被视为共享利益与习惯",
-   "example": "The reform was resisted by the bureaucracy itself.",
-   "exampleCN": "改革遭到官僚群体本身的抵制。",
-   "why": "once offices became careers, the people in them could be spoken of as a single body with its own outlook.",
-   "whyCN": "一旦职位成为职业，任职者便可被当作一个有自身心态的整体来谈论。"
-  },
-  {
-   "no": "03",
-   "title": "Red tape",
-   "titleCN": "繁文缛节",
-   "definition": "the forms, stamps and waiting that a procedure imposes before anything can be done",
-   "definitionCN": "办事之前必须经历的表格、盖章与等待",
-   "example": "Bureaucracy delayed the permit by eleven weeks.",
-   "exampleCN": "繁文缛节让许可证晚了十一周。",
-   "why": "the everyday sense is a metonymy: the apparatus is named by the annoyance it produces.",
-   "whyCN": "日常义是转喻：用机构造成的麻烦来指称机构本身。"
-  },
-  {
-   "no": "04",
-   "title": "Hierarchy in any large body",
-   "titleCN": "任何大型组织的层级管理",
-   "definition": "the managerial layer of a university, hospital or company, with ranks, files and approval chains",
-   "definitionCN": "大学、医院或公司中的管理层，带等级、档案与审批链",
-   "example": "Every large hospital has a bureaucracy of its own.",
-   "exampleCN": "每一所大医院都有自己的官僚层。",
-   "why": "Weber's analysis showed the pattern is not peculiar to states, so the word spread to any large organization.",
-   "whyCN": "韦伯的分析表明这种模式并非国家独有，于是这个词扩展到一切大型组织。"
-  },
-  {
-   "no": "05",
-   "title": "Rule by files, not by persons",
-   "titleCN": "按规章而非人情办事",
-   "definition": "administration in which written rules and records, not personal ties, decide outcomes",
-   "definitionCN": "由成文规则与档案、而非私人关系来决定结果的行政方式",
-   "example": "Rule by files, not by persons, was the point of the reform.",
-   "exampleCN": "按规章而非人情办事，正是这场改革的要点。",
-   "why": "the defining feature is impersonality: the same rule must bind the clerk and the petitioner alike.",
-   "whyCN": "其要点是非人格化：同一条规则对办事员与申请者一视同仁。"
-  },
-  {
-   "no": "06",
-   "title": "Weber's ideal type",
-   "titleCN": "韦伯意义上的理想型",
-   "definition": "a neutral analytic model of administration by hierarchy, written records, trained staff and fixed jurisdiction",
-   "definitionCN": "一种中性的分析模型：层级、文书、受训人员与固定职权范围",
-   "example": "Weber's ideal type describes bureaucracy without praising it.",
-   "exampleCN": "韦伯的理想型只是描述官僚制，并不赞美它。",
-   "why": "the sociological sense strips the word of insult and turns it into a set of testable features.",
-   "whyCN": "社会学义剥去贬义，把它变成一组可检验的特征。"
-  },
-  {
-   "no": "07",
-   "title": "Sluggishness blamed on rules",
-   "titleCN": "僵化低效（贬义）",
-   "definition": "the pejorative reading: delay, evasion and rigidity produced by too many rules",
-   "definitionCN": "贬义读法：规则过多造成的拖延、推诿与僵化",
-   "example": "The licence stalled for months in what officials called bureaucratic inertia.",
-   "exampleCN": "官僚惰性这一说法正好描述了这个贬义读法。",
-   "why": "the same features that make administration predictable also make it slow, so the word carries both judgements.",
-   "whyCN": "使行政可预期的那套特征同时也让它迟缓，因此这个词兼带两种评价。"
-  },
-  {
-   "no": "08",
-   "title": "Size and cost of the apparatus",
-   "titleCN": "机构膨胀带来的规模与成本",
-   "definition": "the sheer scale of an administrative machine and what it costs to keep running",
-   "definitionCN": "行政机器本身的庞大规模，以及维持它运转的开销",
-   "example": "Auditors measured the bureaucracy by headcount and floor space.",
-   "exampleCN": "审计人员用人数与办公面积来衡量这套机构。",
-   "why": "budgets make the apparatus visible as a quantity, and that quantity is what the word names here.",
-   "whyCN": "预算把机关显形为一个数量，这里命名的正是那个数量。"
-  }
- ],
- "etymology": {
-  "intro": {
-   "en": "Bureaucracy is a French coinage of the early nineteenth century: bureau 'desk, office' plus -cratie 'rule', from Greek kratos 'power'. It began as a satirical label. Dates are approximate.",
-   "cn": "bureaucracy 是 19 世纪初的法语新造词：bureau「书桌、办公室」加 -cratie「统治」，后者来自希腊 kratos「力量」。它最初是讽刺性标签。年代均为约数。"
-  },
-  "items": [
-   {
-    "era": "FRENCH BUREAU",
-    "en": "Bureau first meant a coarse woollen cloth used to cover writing desks, then the desk itself, then the room and the office.",
-    "cn": "bureau 最初指铺在写字桌上的粗毛布，继而指桌子本身，再指房间与机关。"
-   },
-   {
-    "era": "GREEK KRATOS",
-    "en": "Kratos meant 'strength, might', and the -kratia suffix named a form of rule, as in democracy and aristocracy.",
-    "cn": "kratos 意为「力量、强权」，-kratia 后缀表示某种统治形式，如 democracy 与 aristocracy。"
-   },
-   {
-    "era": "FRENCH COINAGE",
-    "en": "Bureaucratie was coined in French around the 1810s as a mocking term for government carried on by officials rather than by citizens.",
-    "cn": "bureaucratie 于 1810 年代前后在法语中造出，用来讥讽由官员而非公民运转的政府。"
-   },
-   {
-    "era": "ENGLISH BORROWING",
-    "en": "English adopted bureaucracy in the nineteenth century; Mill used it for the corps of officials, a usage that made the word descriptive rather than merely hostile.",
-    "cn": "英语在 19 世纪借用该词；密尔用它指官员群体，这一用法使词从纯敌意转为描述性。"
-   },
-   {
-    "era": "WEBER",
-    "en": "Weber turned bureaucracy into a technical term for administration by hierarchy, written records, trained staff and fixed jurisdiction.",
-    "cn": "韦伯把官僚制转为术语，指以层级、文书、受训人员与固定职权范围进行的行政。"
-   },
-   {
-    "era": "UNCERTAIN DETAILS",
-    "en": "Source uncertain (deeper origin): the origin of burel, the cloth behind bureau, is not established, and the pre-Greek origin of kratos is unsettled, so any older form proposed for it is a reconstruction.",
-    "cn": "来源不确定（更深来源）：bureau 背后的 burel 那种布料的来源未得到证明；kratos 在希腊语之前的来源亦无定论，凡为其提出的更早形式均属重构形式。"
-   }
-  ]
- },
- "similar": {
-  "note": {
-   "en": "Group one shares the -cracy or bureau stock; group two holds words for administration and its annoyances.",
-   "cn": "第一组共享 -cracy 或 bureau 词干；第二组是行政及其麻烦的同近义词。"
-  },
-  "groups": [
-   {
-    "heading": "LOOK-ALIKE",
-    "entries": [
-     {
-      "word": "bureaucrat",
-      "ipa": "/ˈbjʊərəkræt/",
-      "tag": "one person",
-      "definition": "A single official, formed with -crat 'one who holds power'; the longer word names the system, not the person.",
-      "definitionCN": "指单个官员，由 -crat「掌权者」构成；较长的词指整套制度，而非个人。"
-     },
-     {
-      "word": "bureaucratic",
-      "ipa": "/ˌbjʊərəˈkrætɪk/",
-      "tag": "the adjective",
-      "definition": "The adjective describing procedure-heavy behaviour; it modifies a noun instead of naming the apparatus.",
-      "definitionCN": "形容词，描述程序繁多的作风；它修饰名词，而不指称机关。"
-     },
-     {
-      "word": "aristocracy",
-      "ipa": "/ˌærɪˈstɒkrəsi/",
-      "tag": "same suffix, other root",
-      "definition": "Aristos 'best' plus kratos: rule by a supposed elite. It shares the suffix but not the desk.",
-      "definitionCN": "aristos「最优者」加 kratos：由所谓精英统治。后缀相同，词根无关。"
-     },
-     {
-      "word": "autocracy",
-      "ipa": "/ɔːˈtɒkrəsi/",
-      "tag": "one ruler",
-      "definition": "Autos 'self' plus kratos: rule by one person with unrestricted power, a contrast to rule by offices.",
-      "definitionCN": "autos「自身」加 kratos：一人不受限制地统治，与由机关统治相对。"
-     }
-    ]
-   },
-   {
-    "heading": "NEAR MEANING",
-    "entries": [
-     {
-      "word": "administration",
-      "ipa": "/ədˌmɪnɪˈstreɪʃn/",
-      "tag": "the work, not the critique",
-      "definition": "The activity of managing an organization, neutral in tone; bureaucracy adds the sense of ranks and procedure.",
-      "definitionCN": "管理组织的活动，语气中性；bureaucracy 另带层级与程序之意。"
-     },
-     {
-      "word": "civil service",
-      "ipa": "/ˌsɪvl ˈsɜːvɪs/",
-      "tag": "state employees",
-      "definition": "The permanent employees of the state, named by their employment rather than by their procedures.",
-      "definitionCN": "国家的常任雇员，按雇佣关系命名，而非按程序命名。"
-     },
-     {
-      "word": "red tape",
-      "ipa": "/ˌred ˈteɪp/",
-      "tag": "the annoyance alone",
-      "definition": "The delays and forms only, with no reference to the offices that produce them.",
-      "definitionCN": "只指拖延与表格，不涉及产生它们的机关。"
-     },
-     {
-      "word": "officialdom",
-      "ipa": "/əˈfɪʃldəm/",
-      "tag": "the officials as a class",
-      "definition": "Officials thought of as a class with shared habits, close to the second sense of bureaucracy.",
-      "definitionCN": "被视为共享习气的官员阶层，接近 bureaucracy 的第二义。"
-     }
-    ]
-   }
-  ]
- },
- "mnemonics": {
-  "normalIntro": {
-   "en": "Normal associations: real morphemes, real collocations and real relatives, not invented rhymes.",
-   "cn": "正常联想：真实的构词成分、真实搭配与真实同族词，而非编造的顺口溜。"
-  },
-  "normal": [
-   {
-    "en": "bureau 'desk' + -cracy 'rule': rule carried out from desks.",
-    "cn": "bureau「书桌」+ -cracy「统治」：从书桌后面实施的统治。"
-   },
-   {
-    "en": "The family runs bureaucrat, bureaucratic, bureaucratize, bureaucratization.",
-    "cn": "同族词包括 bureaucrat、bureaucratic、bureaucratize、bureaucratization。"
-   },
-   {
-    "en": "Fixed phrases mark the complaint: cut bureaucracy, layers of bureaucracy, red tape.",
-    "cn": "固定搭配标出抱怨的语气：精简官僚程序、层层官僚机构、繁文缛节。"
-   },
-   {
-    "en": "The same suffix appears in democracy, aristocracy and autocracy, all through Greek kratos.",
-    "cn": "同一后缀出现在 democracy、aristocracy、autocracy，都经希腊 kratos。"
-   },
-   {
-    "en": "Weber's four marks: hierarchy, written files, trained staff, fixed jurisdiction.",
-    "cn": "韦伯的四项标志：层级、文书档案、受训人员、固定职权。"
-   }
-  ],
-  "abstract": [
-   {
-    "en": "Picture a staircase where every step requires a signature before the next step opens.",
-    "cn": "想象一道楼梯，每上一级都要先签一个字，下一级才打开。"
-   },
-   {
-    "en": "Picture a machine that works perfectly and produces only paper.",
-    "cn": "想象一台运转完美的机器，产出只有纸。"
-   },
-   {
-    "en": "Picture a queue in which nobody knows who is first, but everyone holds a numbered slip.",
-    "cn": "想象一条队列，没人知道谁在前，但人人手里都有一张编号纸条。"
-   }
-  ]
- },
- "examples": [
-  {
-   "en": "The new agency added a layer of bureaucracy without adding a service.",
-   "cn": "新机构加了一层官僚机构，却没增加一项服务。"
-  },
-  {
-   "en": "Small firms complain that bureaucracy eats their first month.",
-   "cn": "小公司抱怨官僚程序吃掉了它们头一个月。"
-  },
-  {
-   "en": "Weber saw bureaucracy as the most efficient form of large-scale administration.",
-   "cn": "韦伯认为官僚制是大规模行政中最有效率的形式。"
-  }
- ],
- "dict_mnemonic": {
-  "note": "拆词记忆 · 非词源",
-  "text": "bureau（办公桌）+ cracy（统治）＝ 靠一张张办公桌和一个个章运转的统治；记「章多、层多、纸多」。",
-  "word": "bureaucracy"
- },
- "root": "法语 bureaucratie = bureau「书桌、办公室」（源自 burel 粗毛布，其来源不确定）+ -cratie「统治」（希腊 kratos「力量」，希腊语之前的来源属重构形式）。",
- "sensesIntro": {
-  "en": "Eight senses follow one object seen from different distances: the whole apparatus, the people inside it, the paper it produces, the same pattern in any large body, its impersonality, its analytic model, its slowness, and its cost.",
-  "cn": "八个义项是对同一对象的远近不同取景：整套机关、其中的群体、它产出的纸、任何大型组织里的同一模式、它的非人格化、它的分析模型、它的迟缓、它的成本。"
- },
- "semanticMap": {
-  "core": {
-   "en": "CORE IMAGE: a corridor of numbered windows where a file gains one stamp per window and never quite finishes.",
-   "cn": "核心意象：一条挂编号窗口的走廊，档案每过一个窗口多一个章，却始终办不完。"
-  },
-  "chain": [
-   "APPARATUS",
-   "PEOPLE IN OFFICES",
-   "PAPER AND WAITING",
-   "THE SAME SHAPE ANYWHERE",
-   "RULE WITHOUT PERSONS",
-   "MEASURED AS COST"
-  ],
-  "branches": [
-   {
-    "senses": "01 · 02",
-    "en": "MACHINE AND MEN: first the offices, then the career officials who staff them.",
-    "cn": "机器与人：先看机关，再看在其中任职的官员。"
-   },
-   {
-    "senses": "03 · 07",
-    "en": "THE SAME FEATURE READ TWICE: forms make work predictable and also make it slow.",
-    "cn": "同一特征的两读：表格让工作可预期，也让工作变慢。"
-   },
-   {
-    "senses": "04",
-    "en": "THE SHAPE TRAVELS: hospitals and firms reproduce the state's pattern.",
-    "cn": "形状在迁移：医院与公司复制了国家的模式。"
-   },
-   {
-    "senses": "05 · 06",
-    "en": "NEUTRAL CORE: rule by files, then the model that states it without blame.",
-    "cn": "中性内核：先是按档案办事，再是把它不带褒贬地陈述出来的模型。"
-   },
-   {
-    "senses": "08",
-    "en": "COUNTED: budgets turn the apparatus into headcount and floor space.",
-    "cn": "被计数：预算把机关变成人数与面积。"
-   }
-  ]
- },
- "affixes": {
-  "intro": {
-   "en": "Bureaucracy is a French compound whose two parts still work separately in English: bureau for the office, -cracy for a form of rule.",
-   "cn": "bureaucracy 是法语复合词，两部分在英语中仍各自运作：bureau 指机关，-cracy 指某种统治形式。"
-  },
-  "latinIntro": {
-   "en": "The second element goes back to Greek kratos through the suffix -kratia; the first element is French and has no Latin source.",
-   "cn": "第二部分经后缀 -kratia 上溯希腊 kratos；第一部分属法语，没有拉丁来源。"
-  },
-  "items": [
-   {
-    "word": "bureau",
-    "structure": "French bureau (n., 'desk, office')",
-    "meaning": "desk; office; department",
-    "meaningCN": "书桌；办公室；部门",
-    "example": "The bureau keeps the land records.",
-    "exampleCN": "该局保管土地档案。"
-   },
-   {
-    "word": "-cracy",
-    "structure": "Greek -kratia 'rule, power'",
-    "meaning": "a form of rule or dominance",
-    "meaningCN": "某种统治或支配形式",
-    "example": "Democracy and autocracy share this suffix.",
-    "exampleCN": "民主制与专制共享这一后缀。"
-   },
-   {
-    "word": "-crat",
-    "structure": "-cracy + -crat (one who takes part)",
-    "meaning": "a member or supporter of a ruling group",
-    "meaningCN": "某一统治群体的成员或支持者",
-    "example": "A technocrat governs by expertise.",
-    "exampleCN": "技术官僚凭专业知识治理。"
-   },
-   {
-    "word": "bureaucrat",
-    "structure": "bureau + -crat",
-    "meaning": "an official of a bureau",
-    "meaningCN": "机关的官员",
-    "example": "The bureaucrat stamped the form without reading it.",
-    "exampleCN": "那位官员没看就盖了章。"
-   },
-   {
-    "word": "bureaucratic",
-    "structure": "bureaucrat + -ic (of or like)",
-    "meaning": "of officials or their procedure",
-    "meaningCN": "官僚的；程序繁琐的",
-    "example": "Bureaucratic delays cost the project a season.",
-    "exampleCN": "官僚拖延让项目耽误了一季。"
-   },
-   {
-    "word": "bureaucratize",
-    "structure": "bureaucrat + -ize (make)",
-    "meaning": "to make an organization official-run",
-    "meaningCN": "使机构官僚化",
-    "example": "They bureaucratized the volunteer network.",
-    "exampleCN": "他们把志愿网络官僚化了。"
-   },
-   {
-    "word": "bureaucratization",
-    "structure": "bureaucratize + -ation (process)",
-    "meaning": "the process of becoming official-run",
-    "meaningCN": "官僚化的过程",
-    "example": "Bureaucratization followed the merger.",
-    "exampleCN": "合并之后便出现了官僚化。"
-   },
-   {
-    "word": "bureaucratese",
-    "structure": "bureaucrat + -ese (language of)",
-    "meaning": "the inflated style of official writing",
-    "meaningCN": "公文腔；官样文章",
-    "example": "The notice was written in bureaucratese.",
-    "exampleCN": "这则通知是用公文腔写的。"
-   }
-  ],
-  "latinEntries": [
-   {
-    "word": "kratos",
-    "structure": "kratos (n., Greek, third declension)",
-    "meaning": "strength, might, power",
-    "meaningCN": "力量；强权"
-   },
-   {
-    "word": "-kratia",
-    "structure": "-kratia (Greek suffix, from kratos)",
-    "meaning": "rule by a named group",
-    "meaningCN": "由某类人统治"
-   },
-   {
-    "word": "burellum",
-    "structure": "burellum (n., Medieval Latin, 'coarse cloth')",
-    "meaning": "coarse woollen cloth",
-    "meaningCN": "粗毛布"
-   }
-  ]
- }
-}
+]

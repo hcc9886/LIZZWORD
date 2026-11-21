@@ -1,404 +1,406 @@
-{
- "word": "berth",
- "ipa_uk": "/bɜːθ/",
- "ipa_us": "/bɜːrθ/",
- "definition_zh": "泊位；停泊地；（车、船上的）卧铺；安全距离；（v.）停泊",
- "definition_en": "a place where a ship moors, a sleeping place on a ship or train, or a safe distance; as a verb, to moor",
- "core_image": "港口里那条系着缆绳、正好容纳一条船的水位",
- "scene": "缆绳抛上岸，船长把船稳稳靠进标好的空位。The harbourmaster guided the ferry into its berth.",
- "sceneCN": "这里 berth 是「泊位、停泊位」（第 1 个义项：船在港内的固定位置）；句意是港务长引导渡轮驶入指定泊位。",
- "pos": [
+[
   {
-   "tag": "n.",
-   "zh": "泊位；卧铺；安全距离"
-  },
-  {
-   "tag": "v.",
-   "zh": "停泊；为……安排泊位"
-  }
- ],
- "collocations": [
-  {
-   "phrase": "give a wide berth to",
-   "zh": "对……敬而远之"
-  },
-  {
-   "phrase": "a sleeping berth",
-   "zh": "卧铺"
-  },
-  {
-   "phrase": "moor at a berth",
-   "zh": "在泊位停靠"
-  },
-  {
-   "phrase": "berth a ship",
-   "zh": "安排船只停泊"
-  },
-  {
-   "phrase": "an upper berth",
-   "zh": "上铺"
-  }
- ],
- "forms": [
-  {
-   "label": "第三人称单数",
-   "form": "berths"
-  },
-  {
-   "label": "过去式",
-   "form": "berthed"
-  },
-  {
-   "label": "过去分词",
-   "form": "berthed"
-  },
-  {
-   "label": "现在分词",
-   "form": "berthing"
-  }
- ],
- "derivatives": [
-  {
-   "word": "birth",
-   "pos": "n.",
-   "zh": "拼写相近的英语本族词，义为「出生」，与 berth 词源无直接关系"
-  },
-  {
-   "word": "berthing",
-   "pos": "n.",
-   "zh": "由动词加名词后缀构成，义为「停泊；泊位安排」"
-  }
- ],
- "senses": [
-  {
-   "no": "01",
-   "title": "A place for a ship to moor",
-   "titleCN": "泊位；停泊地",
-   "definition": "a space in a harbour where a ship can be tied up",
-   "definitionCN": "港内供船只系缆停靠的位置",
-   "example": "The harbourmaster guided the ferry into its berth.",
-   "exampleCN": "港务长引导渡轮驶入指定泊位。",
-   "why": "The word grew from bearing, the room a ship needs to lie at ease.",
-   "whyCN": "该词由「容纳的空间」义发展而来，指船安放所需的余地。"
-  },
-  {
-   "no": "02",
-   "title": "A sleeping place on a ship or train",
-   "titleCN": "卧铺",
-   "definition": "a built-in bed in a ship's cabin or a railway carriage",
-   "definitionCN": "船舱或火车车厢内的固定床铺",
-   "example": "He climbed into the upper berth as the train rolled out.",
-   "exampleCN": "火车启动时他爬上了上铺。",
-   "why": "A ship's resting place became a traveller's resting place.",
-   "whyCN": "「船的安放之处」转为「旅人的安睡之处」。"
-  },
-  {
-   "no": "03",
-   "title": "A safe distance",
-   "titleCN": "安全距离",
-   "definition": "enough space to keep clear of danger, as in give a wide berth",
-   "definitionCN": "与危险保持的充分间距，如 give a wide berth",
-   "example": "Sailors give a wide berth to the reef's sharp edge.",
-   "exampleCN": "水手们对礁石锋利的边缘敬而远之。",
-   "why": "The mooring room widens metaphorically to any safe margin.",
-   "whyCN": "「泊位余地」在比喻中扩大为任何安全余量。"
-  }
- ],
- "etymology": {
-  "intro": {
-   "en": "Berth probably comes from bear, meaning the space in which a ship can lie.",
-   "cn": "berth 一般认为源自 bear，指船能安然容纳的空间（来源不确定）。"
-  },
-  "items": [
-   {
-    "era": "OLD ENGLISH",
-    "en": "beran meant to carry, to bear.",
-    "cn": "古英语 beran 意为「承载」。"
-   },
-   {
-    "era": "ENGLISH, 17TH C.",
-    "en": "sea use of berth is first recorded in the seventeenth century.",
-    "cn": "berth 的海上用法最早见于十七世纪记录。"
-   },
-   {
-    "era": "ENGLISH, 17TH-18TH C.",
-    "en": "it meant sea room, then an allocated mooring place.",
-    "cn": "它先指可供回旋的海面空间，后指分配的泊位。"
-   },
-   {
-    "era": "ENGLISH, 18TH C.",
-    "en": "give a wide berth arose from keeping a ship at a safe distance.",
-    "cn": "十八世纪 give a wide berth 由船只保持安全距离而来。"
-   },
-   {
-    "era": "MODERN ENGLISH",
-    "en": "railway sleepers borrowed the word for their built-in beds.",
-    "cn": "铁路卧铺借用了这个词指车厢内的床铺。"
-   }
-  ]
- },
- "similar": {
-  "note": {
-   "en": "The look-alike group shares spelling or the bear root; the near-meaning group gathers mooring and rest places.",
-   "cn": "形近组共享拼写或 bear 词根；近义组汇集停泊与歇息之处。"
-  },
-  "groups": [
-   {
-    "heading": "LOOK-ALIKE",
-    "entries": [
-     {
-      "word": "birth",
-      "ipa": "/bɜːrθ/",
-      "tag": "spelling",
-      "definition": "the act of being born",
-      "definitionCN": "出生——同音异义词，词源无关"
-     },
-     {
-      "word": "bear",
-      "ipa": "/beər/",
-      "tag": "same root",
-      "definition": "to carry or endure",
-      "definitionCN": "承载——一般认为 berth 的词源动词"
-     },
-     {
-      "word": "bearing",
-      "ipa": "/ˈbeərɪŋ/",
-      "tag": "same root",
-      "definition": "a direction, or the way one carries oneself",
-      "definitionCN": "方位；仪态——一般认为与 berth 同出 bear"
-     }
-    ]
-   },
-   {
-    "heading": "NEAR MEANING",
-    "entries": [
-     {
-      "word": "mooring",
-      "ipa": "/ˈmʊərɪŋ/",
-      "tag": "near synonym",
-      "definition": "a place or ropes for fastening a ship",
-      "definitionCN": "系泊处；强调缆绳设施"
-     },
-     {
-      "word": "dock",
-      "ipa": "/dɒk/",
-      "tag": "near synonym",
-      "definition": "a place where ships load and unload",
-      "definitionCN": "码头；侧重装卸功能"
-     },
-     {
-      "word": "sleeper",
-      "ipa": "/ˈsliːpər/",
-      "tag": "near synonym",
-      "definition": "a railway car with beds",
-      "definitionCN": "卧铺车厢；berth 指其中的铺位"
-     }
-    ]
-   }
-  ]
- },
- "mnemonics": {
-  "normalIntro": {
-   "en": "Berth is sea room: the space where a ship rests.",
-   "cn": "berth 是海上的「安放余地」：船歇脚的位置。"
-  },
-  "normal": [
-   {
-    "en": "Give a wide berth means keep far away.",
-    "cn": "give a wide berth 指敬而远之。"
-   },
-   {
-    "en": "An upper berth is the higher bed.",
-    "cn": "upper berth 指上铺。"
-   },
-   {
-    "en": "The verb berthed means moored.",
-    "cn": "动词 berthed 指已停泊。"
-   },
-   {
-    "en": "Berth and birth sound the same.",
-    "cn": "berth 与 birth 同音。"
-   },
-   {
-    "en": "A harbour is full of berths.",
-    "cn": "港口满是泊位。"
-   }
-  ],
-  "abstract": [
-   {
-    "en": "See ropes pulled tight as a ship settles.",
-    "cn": "看缆绳绷紧、船身安稳落定。"
-   },
-   {
-    "en": "Feel the train rocking you in a narrow bed.",
-    "cn": "感受窄床上火车的轻晃。"
-   },
-   {
-    "en": "Picture stepping aside from a growling dog.",
-    "cn": "想象避开龇牙的狗绕道而行。"
-   }
-  ]
- },
- "examples": [
-  {
-   "en": "The harbourmaster guided the ferry into its berth.",
-   "cn": "港务长引导渡轮驶入指定泊位。"
-  },
-  {
-   "en": "He climbed into the upper berth as the train rolled out.",
-   "cn": "火车启动时他爬上了上铺。"
-  },
-  {
-   "en": "Sailors give a wide berth to the reef's sharp edge.",
-   "cn": "水手们对礁石锋利的边缘敬而远之。"
-  }
- ],
- "dict_mnemonic": {
-  "note": "谐音记忆 · 非词源",
-  "text": "「泊·斯」——泊位就是船停泊的那个位置。",
-  "word": "berth"
- },
- "root": "一般认为源自古英语 beran「承载」，指船安然容身的空间；海上用法首见于十七世纪记录（确切来源不确定），由「回旋余地」发展为「泊位」，再引申「卧铺」与「安全距离」，与 birth「出生」同音但词源无关。",
- "sensesIntro": {
-  "en": "One sea word slides from a mooring place to a train bed to a safe margin.",
-  "cn": "一个海词，从泊位滑到卧铺，再到比喻中的安全距离。"
- },
- "semanticMap": {
-  "core": {
-   "en": "CORE IMAGE: a roped space in harbour sized for one ship.",
-   "cn": "核心意象：港内系着缆绳、恰好容纳一船的水位。"
-  },
-  "chain": [
-   "HARBOUR",
-   "REST",
-   "SAFETY",
-   "DISTANCE",
-   "ACCOMMODATION",
-   "ORDER"
-  ],
-  "branches": [
-   {
-    "senses": "01",
-    "en": "moor at a berth",
-    "cn": "在泊位停靠"
-   },
-   {
-    "senses": "01",
-    "en": "berth a ship",
-    "cn": "安排船只停泊"
-   },
-   {
-    "senses": "02",
-    "en": "a sleeping berth",
-    "cn": "卧铺"
-   },
-   {
-    "senses": "03",
-    "en": "give a wide berth to",
-    "cn": "敬而远之"
-   },
-   {
-    "senses": "02 · 03",
-    "en": "an upper berth",
-    "cn": "上铺"
-   }
-  ]
- },
- "affixes": {
-  "intro": {
-   "en": "Berth is a single sea word grown from the verb bear.",
-   "cn": "berth 是由动词 bear 生长出的单个海词。"
-  },
-  "latinIntro": {
-   "en": "There is no Latin base; the likely root is Old English beran.",
-   "cn": "这里没有拉丁词基，词源一般认为在古英语 beran。"
-  },
-  "items": [
-   {
-    "word": "beran",
-    "structure": "Old English verb",
-    "meaning": "to carry, bear",
-    "meaningCN": "承载",
-    "example": "beran byrþene",
-    "exampleCN": "负重"
-   },
-   {
     "word": "berth",
-    "structure": "sea use, 17th c.",
-    "meaning": "sea room, mooring place",
-    "meaningCN": "海面余地；泊位",
-    "example": "a comfortable berth",
-    "exampleCN": "宽敞的泊位"
-   },
-   {
-    "word": "berthed",
-    "structure": "berth + -ed",
-    "meaning": "moored in place",
-    "meaningCN": "已停泊的",
-    "example": "the berthed liners",
-    "exampleCN": "停泊的邮轮"
-   },
-   {
-    "word": "berthing",
-    "structure": "berth + -ing",
-    "meaning": "the act of mooring",
-    "meaningCN": "停泊；泊位安排",
-    "example": "berthing fees",
-    "exampleCN": "停泊费"
-   },
-   {
-    "word": "bearing",
-    "structure": "bear + -ing",
-    "meaning": "a direction or manner",
-    "meaningCN": "方位；仪态",
-    "example": "lose one's bearings",
-    "exampleCN": "迷失方位"
-   },
-   {
-    "word": "birth",
-    "structure": "Old English gebyrd",
-    "meaning": "the act of being born",
-    "meaningCN": "出生",
-    "example": "birth certificate",
-    "exampleCN": "出生证明"
-   },
-   {
-    "word": "mooring",
-    "structure": "moor + -ing",
-    "meaning": "a fastening place for ships",
-    "meaningCN": "系泊处",
-    "example": "take up a mooring",
-    "exampleCN": "占用系泊位"
-   },
-   {
-    "word": "dock",
-    "structure": "Middle Dutch docke",
-    "meaning": "a ship's loading place",
-    "meaningCN": "码头",
-    "example": "the dock gates",
-    "exampleCN": "船坞闸门"
-   },
-   {
-    "word": "harbour",
-    "structure": "Old English herebeorg",
-    "meaning": "a sheltered port",
-    "meaningCN": "港口",
-    "example": "a natural harbour",
-    "exampleCN": "天然良港"
-   }
-  ],
-  "latinEntries": [],
-  "derivatives": [
-   {
-    "word": "berthing",
-    "pos": "n.",
-    "zh": "由动词加名词后缀构成，义为「停泊」"
-   },
-   {
-    "word": "berthage",
-    "pos": "n.",
-    "zh": "同根名词，义为「泊位费；泊位设备」"
-   }
-  ]
- }
-}
+    "ipa_uk": "/bɜːθ/",
+    "ipa_us": "/bɜːrθ/",
+    "definition_zh": "泊位；停泊地；（车、船上的）卧铺；安全距离；（v.）停泊",
+    "definition_en": "a place where a ship moors, a sleeping place on a ship or train, or a safe distance; as a verb, to moor",
+    "core_image": "港口里那条系着缆绳、正好容纳一条船的水位",
+    "scene": "缆绳抛上岸，船长把船稳稳靠进标好的空位。The harbourmaster guided the ferry into its berth.",
+    "sceneCN": "这里 berth 是「泊位、停泊位」（第 1 个义项：船在港内的固定位置）；句意是港务长引导渡轮驶入指定泊位。",
+    "pos": [
+      {
+        "tag": "n.",
+        "zh": "泊位；卧铺；安全距离"
+      },
+      {
+        "tag": "v.",
+        "zh": "停泊；为……安排泊位"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "give a wide berth to",
+        "zh": "对……敬而远之"
+      },
+      {
+        "phrase": "a sleeping berth",
+        "zh": "卧铺"
+      },
+      {
+        "phrase": "moor at a berth",
+        "zh": "在泊位停靠"
+      },
+      {
+        "phrase": "berth a ship",
+        "zh": "安排船只停泊"
+      },
+      {
+        "phrase": "an upper berth",
+        "zh": "上铺"
+      }
+    ],
+    "forms": [
+      {
+        "label": "第三人称单数",
+        "form": "berths"
+      },
+      {
+        "label": "过去式",
+        "form": "berthed"
+      },
+      {
+        "label": "过去分词",
+        "form": "berthed"
+      },
+      {
+        "label": "现在分词",
+        "form": "berthing"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "birth",
+        "pos": "n.",
+        "zh": "拼写相近的英语本族词，义为「出生」，与 berth 词源无直接关系"
+      },
+      {
+        "word": "berthing",
+        "pos": "n.",
+        "zh": "由动词加名词后缀构成，义为「停泊；泊位安排」"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "A place for a ship to moor",
+        "titleCN": "泊位；停泊地",
+        "definition": "a space in a harbour where a ship can be tied up",
+        "definitionCN": "港内供船只系缆停靠的位置",
+        "example": "The harbourmaster guided the ferry into its berth.",
+        "exampleCN": "港务长引导渡轮驶入指定泊位。",
+        "why": "The word grew from bearing, the room a ship needs to lie at ease.",
+        "whyCN": "该词由「容纳的空间」义发展而来，指船安放所需的余地。"
+      },
+      {
+        "no": "02",
+        "title": "A sleeping place on a ship or train",
+        "titleCN": "卧铺",
+        "definition": "a built-in bed in a ship's cabin or a railway carriage",
+        "definitionCN": "船舱或火车车厢内的固定床铺",
+        "example": "He climbed into the upper berth as the train rolled out.",
+        "exampleCN": "火车启动时他爬上了上铺。",
+        "why": "A ship's resting place became a traveller's resting place.",
+        "whyCN": "「船的安放之处」转为「旅人的安睡之处」。"
+      },
+      {
+        "no": "03",
+        "title": "A safe distance",
+        "titleCN": "安全距离",
+        "definition": "enough space to keep clear of danger, as in give a wide berth",
+        "definitionCN": "与危险保持的充分间距，如 give a wide berth",
+        "example": "Sailors give a wide berth to the reef's sharp edge.",
+        "exampleCN": "水手们对礁石锋利的边缘敬而远之。",
+        "why": "The mooring room widens metaphorically to any safe margin.",
+        "whyCN": "「泊位余地」在比喻中扩大为任何安全余量。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Berth probably comes from bear, meaning the space in which a ship can lie.",
+        "cn": "berth 一般认为源自 bear，指船能安然容纳的空间（来源不确定）。"
+      },
+      "items": [
+        {
+          "era": "OLD ENGLISH",
+          "en": "beran meant to carry, to bear.",
+          "cn": "古英语 beran 意为「承载」。"
+        },
+        {
+          "era": "ENGLISH, 17TH C.",
+          "en": "sea use of berth is first recorded in the seventeenth century.",
+          "cn": "berth 的海上用法最早见于十七世纪记录。"
+        },
+        {
+          "era": "ENGLISH, 17TH-18TH C.",
+          "en": "it meant sea room, then an allocated mooring place.",
+          "cn": "它先指可供回旋的海面空间，后指分配的泊位。"
+        },
+        {
+          "era": "ENGLISH, 18TH C.",
+          "en": "give a wide berth arose from keeping a ship at a safe distance.",
+          "cn": "十八世纪 give a wide berth 由船只保持安全距离而来。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "railway sleepers borrowed the word for their built-in beds.",
+          "cn": "铁路卧铺借用了这个词指车厢内的床铺。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "The look-alike group shares spelling or the bear root; the near-meaning group gathers mooring and rest places.",
+        "cn": "形近组共享拼写或 bear 词根；近义组汇集停泊与歇息之处。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "birth",
+              "ipa": "/bɜːrθ/",
+              "tag": "spelling",
+              "definition": "the act of being born",
+              "definitionCN": "出生——同音异义词，词源无关"
+            },
+            {
+              "word": "bear",
+              "ipa": "/beər/",
+              "tag": "same root",
+              "definition": "to carry or endure",
+              "definitionCN": "承载——一般认为 berth 的词源动词"
+            },
+            {
+              "word": "bearing",
+              "ipa": "/ˈbeərɪŋ/",
+              "tag": "same root",
+              "definition": "a direction, or the way one carries oneself",
+              "definitionCN": "方位；仪态——一般认为与 berth 同出 bear"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "mooring",
+              "ipa": "/ˈmʊərɪŋ/",
+              "tag": "near synonym",
+              "definition": "a place or ropes for fastening a ship",
+              "definitionCN": "系泊处；强调缆绳设施"
+            },
+            {
+              "word": "dock",
+              "ipa": "/dɒk/",
+              "tag": "near synonym",
+              "definition": "a place where ships load and unload",
+              "definitionCN": "码头；侧重装卸功能"
+            },
+            {
+              "word": "sleeper",
+              "ipa": "/ˈsliːpər/",
+              "tag": "near synonym",
+              "definition": "a railway car with beds",
+              "definitionCN": "卧铺车厢；berth 指其中的铺位"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Berth is sea room: the space where a ship rests.",
+        "cn": "berth 是海上的「安放余地」：船歇脚的位置。"
+      },
+      "normal": [
+        {
+          "en": "Give a wide berth means keep far away.",
+          "cn": "give a wide berth 指敬而远之。"
+        },
+        {
+          "en": "An upper berth is the higher bed.",
+          "cn": "upper berth 指上铺。"
+        },
+        {
+          "en": "The verb berthed means moored.",
+          "cn": "动词 berthed 指已停泊。"
+        },
+        {
+          "en": "Berth and birth sound the same.",
+          "cn": "berth 与 birth 同音。"
+        },
+        {
+          "en": "A harbour is full of berths.",
+          "cn": "港口满是泊位。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "See ropes pulled tight as a ship settles.",
+          "cn": "看缆绳绷紧、船身安稳落定。"
+        },
+        {
+          "en": "Feel the train rocking you in a narrow bed.",
+          "cn": "感受窄床上火车的轻晃。"
+        },
+        {
+          "en": "Picture stepping aside from a growling dog.",
+          "cn": "想象避开龇牙的狗绕道而行。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "The harbourmaster guided the ferry into its berth.",
+        "cn": "港务长引导渡轮驶入指定泊位。"
+      },
+      {
+        "en": "He climbed into the upper berth as the train rolled out.",
+        "cn": "火车启动时他爬上了上铺。"
+      },
+      {
+        "en": "Sailors give a wide berth to the reef's sharp edge.",
+        "cn": "水手们对礁石锋利的边缘敬而远之。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「泊·斯」——泊位就是船停泊的那个位置。",
+      "word": "berth"
+    },
+    "root": "一般认为源自古英语 beran「承载」，指船安然容身的空间；海上用法首见于十七世纪记录（确切来源不确定），由「回旋余地」发展为「泊位」，再引申「卧铺」与「安全距离」，与 birth「出生」同音但词源无关。",
+    "sensesIntro": {
+      "en": "One sea word slides from a mooring place to a train bed to a safe margin.",
+      "cn": "一个海词，从泊位滑到卧铺，再到比喻中的安全距离。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: a roped space in harbour sized for one ship.",
+        "cn": "核心意象：港内系着缆绳、恰好容纳一船的水位。"
+      },
+      "chain": [
+        "HARBOUR",
+        "REST",
+        "SAFETY",
+        "DISTANCE",
+        "ACCOMMODATION",
+        "ORDER"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "moor at a berth",
+          "cn": "在泊位停靠"
+        },
+        {
+          "senses": "01",
+          "en": "berth a ship",
+          "cn": "安排船只停泊"
+        },
+        {
+          "senses": "02",
+          "en": "a sleeping berth",
+          "cn": "卧铺"
+        },
+        {
+          "senses": "03",
+          "en": "give a wide berth to",
+          "cn": "敬而远之"
+        },
+        {
+          "senses": "02 · 03",
+          "en": "an upper berth",
+          "cn": "上铺"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Berth is a single sea word grown from the verb bear.",
+        "cn": "berth 是由动词 bear 生长出的单个海词。"
+      },
+      "latinIntro": {
+        "en": "There is no Latin base; the likely root is Old English beran.",
+        "cn": "这里没有拉丁词基，词源一般认为在古英语 beran。"
+      },
+      "items": [
+        {
+          "word": "beran",
+          "structure": "Old English verb",
+          "meaning": "to carry, bear",
+          "meaningCN": "承载",
+          "example": "beran byrþene",
+          "exampleCN": "负重"
+        },
+        {
+          "word": "berth",
+          "structure": "sea use, 17th c.",
+          "meaning": "sea room, mooring place",
+          "meaningCN": "海面余地；泊位",
+          "example": "a comfortable berth",
+          "exampleCN": "宽敞的泊位"
+        },
+        {
+          "word": "berthed",
+          "structure": "berth + -ed",
+          "meaning": "moored in place",
+          "meaningCN": "已停泊的",
+          "example": "the berthed liners",
+          "exampleCN": "停泊的邮轮"
+        },
+        {
+          "word": "berthing",
+          "structure": "berth + -ing",
+          "meaning": "the act of mooring",
+          "meaningCN": "停泊；泊位安排",
+          "example": "berthing fees",
+          "exampleCN": "停泊费"
+        },
+        {
+          "word": "bearing",
+          "structure": "bear + -ing",
+          "meaning": "a direction or manner",
+          "meaningCN": "方位；仪态",
+          "example": "lose one's bearings",
+          "exampleCN": "迷失方位"
+        },
+        {
+          "word": "birth",
+          "structure": "Old English gebyrd",
+          "meaning": "the act of being born",
+          "meaningCN": "出生",
+          "example": "birth certificate",
+          "exampleCN": "出生证明"
+        },
+        {
+          "word": "mooring",
+          "structure": "moor + -ing",
+          "meaning": "a fastening place for ships",
+          "meaningCN": "系泊处",
+          "example": "take up a mooring",
+          "exampleCN": "占用系泊位"
+        },
+        {
+          "word": "dock",
+          "structure": "Middle Dutch docke",
+          "meaning": "a ship's loading place",
+          "meaningCN": "码头",
+          "example": "the dock gates",
+          "exampleCN": "船坞闸门"
+        },
+        {
+          "word": "harbour",
+          "structure": "Old English herebeorg",
+          "meaning": "a sheltered port",
+          "meaningCN": "港口",
+          "example": "a natural harbour",
+          "exampleCN": "天然良港"
+        }
+      ],
+      "latinEntries": [],
+      "derivatives": [
+        {
+          "word": "berthing",
+          "pos": "n.",
+          "zh": "由动词加名词后缀构成，义为「停泊」"
+        },
+        {
+          "word": "berthage",
+          "pos": "n.",
+          "zh": "同根名词，义为「泊位费；泊位设备」"
+        }
+      ]
+    }
+  }
+]

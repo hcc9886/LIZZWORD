@@ -1,382 +1,384 @@
-{
- "word": "benison",
- "ipa_uk": "/ˈbenɪsn/",
- "ipa_us": "/ˈbenɪsn/",
- "definition_zh": "祝福；祝祷（文学用语、古雅）",
- "definition_en": "a blessing, especially one spoken; a literary or archaic word",
- "core_image": "婚礼上长者向新人抬手说出的古老祝词",
- "scene": "婚礼礼成，长者抬手向新人低声诵出祝词。The village priest gave the young couple his warm benison.",
- "sceneCN": "这里 benison 是「祝福、祝祷」（第 1 个义项：口头说出的祝词）；句意是村中神父向年轻夫妇致以温暖的祝福。",
- "pos": [
+[
   {
-   "tag": "n.",
-   "zh": "祝福；祝祷"
-  }
- ],
- "collocations": [
-  {
-   "phrase": "give a benison",
-   "zh": "致祝福"
-  },
-  {
-   "phrase": "a parting benison",
-   "zh": "临别祝福"
-  },
-  {
-   "phrase": "with every benison",
-   "zh": "带着满满的祝福"
-  },
-  {
-   "phrase": "a father's benison",
-   "zh": "父亲的祝祷"
-  }
- ],
- "forms": [
-  {
-   "label": "复数",
-   "form": "benisons"
-  }
- ],
- "derivatives": [
-  {
-   "word": "benediction",
-   "pos": "n.",
-   "zh": "同根常用词，义为「祝福；祝祷」"
-  },
-  {
-   "word": "malison",
-   "pos": "n.",
-   "zh": "反义对照词，义为「诅咒」"
-  }
- ],
- "senses": [
-  {
-   "no": "01",
-   "title": "A spoken blessing",
-   "titleCN": "祝福；祝祷",
-   "definition": "words that call down good and favour on someone",
-   "definitionCN": "祈求福泽降临于人的话语",
-   "example": "The village priest gave the young couple his warm benison.",
-   "exampleCN": "村中神父向年轻夫妇致以温暖的祝福。",
-   "why": "Bene means well and the root is dicere, to speak, so it is good speech.",
-   "whyCN": "bene 意为「好」，词根为 dicere「说」，合起来即「说好话赐福」。"
-  },
-  {
-   "no": "02",
-   "title": "A felt blessing or godsend",
-   "titleCN": "福分；恩赐",
-   "definition": "anything felt as a blessing, especially relief after hardship",
-   "definitionCN": "被当作福气的事，尤指苦后的恩惠",
-   "example": "The cool evening wind was a benison to the tired walkers.",
-   "exampleCN": "傍晚的凉风对疲惫的旅人是一份恩赐。",
-   "why": "Good-speaking widens to any goodness that seems wished upon us.",
-   "whyCN": "「说好话赐福」扩大为一切像被祝福降临的好处。"
-  }
- ],
- "etymology": {
-  "intro": {
-   "en": "Benison is Old French benedicun, from Latin benedictio, a blessing.",
-   "cn": "benison 来自古法语 benedicun，源自拉丁语 benedictio「祝福」。"
-  },
-  "items": [
-   {
-    "era": "PROTO-INDO-EUROPEAN",
-    "en": "the root deik- meant to point out, to pronounce.",
-    "cn": "词根 deik- 意为「指出、宣示」（重构形式）。"
-   },
-   {
-    "era": "LATIN",
-    "en": "benedictio meant a speaking well, a blessing.",
-    "cn": "拉丁语 benedictio 意为「说好话、祝福」。"
-   },
-   {
-    "era": "OLD FRENCH",
-    "en": "beneiçun or benedicun shortened the Latin phrase.",
-    "cn": "古法语 beneiçun、benedicun 缩略了拉丁语词形。"
-   },
-   {
-    "era": "ENGLISH, 14TH C.",
-    "en": "Middle English took benison from the French form.",
-    "cn": "中古英语十四世纪从法语形式借入 benison。"
-   },
-   {
-    "era": "MODERN ENGLISH",
-    "en": "it survives as a literary and archaic twin of benediction.",
-    "cn": "如今作为 benediction 的文学化、古雅孪生词存留。"
-   }
-  ]
- },
- "similar": {
-  "note": {
-   "en": "The look-alike group shares the bene- or dict- roots; the near-meaning group gathers blessing words.",
-   "cn": "形近组共享 bene- 或 dict- 词根；近义组汇集祝福类词。"
-  },
-  "groups": [
-   {
-    "heading": "LOOK-ALIKE",
-    "entries": [
-     {
-      "word": "benediction",
-      "ipa": "/ˌbenɪˈdɪkʃn/",
-      "tag": "same root",
-      "definition": "a formal spoken blessing",
-      "definitionCN": "祝祷——同根常用词"
-     },
-     {
-      "word": "malison",
-      "ipa": "/ˈmælɪsn/",
-      "tag": "opposite",
-      "definition": "a curse; an archaic word",
-      "definitionCN": "诅咒——前缀相反的古雅对照词"
-     },
-     {
-      "word": "prison",
-      "ipa": "/ˈprɪzn/",
-      "tag": "spelling",
-      "definition": "a place of confinement",
-      "definitionCN": "监狱——拼写相近，词源无关"
-     }
-    ]
-   },
-   {
-    "heading": "NEAR MEANING",
-    "entries": [
-     {
-      "word": "blessing",
-      "ipa": "/ˈblesɪŋ/",
-      "tag": "near synonym",
-      "definition": "a prayer or gift of favour",
-      "definitionCN": "祝福；本族日常说法"
-     },
-     {
-      "word": "benediction",
-      "ipa": "/ˌbenɪˈdɪkʃn/",
-      "tag": "near synonym",
-      "definition": "a formal blessing at a service",
-      "definitionCN": "祝祷；更正式、更常用"
-     },
-     {
-      "word": "godsend",
-      "ipa": "/ˈɡɒdsend/",
-      "tag": "near synonym",
-      "definition": "a very helpful unexpected thing",
-      "definitionCN": "天赐之物；强调意外之喜"
-     }
-    ]
-   }
-  ]
- },
- "mnemonics": {
-  "normalIntro": {
-   "en": "Benison is an old shortened form of benediction.",
-   "cn": "benison 是 benediction 的古体缩略。"
-  },
-  "normal": [
-   {
-    "en": "Malison is its opposite, a curse.",
-    "cn": "malison 是反义词，诅咒。"
-   },
-   {
-    "en": "The plural is benisons.",
-    "cn": "复数是 benisons。"
-   },
-   {
-    "en": "It sounds literary and old-fashioned.",
-    "cn": "这个词有文学和古雅色彩。"
-   },
-   {
-    "en": "Bene- means good.",
-    "cn": "bene- 表示「好」。"
-   },
-   {
-    "en": "Use benediction in daily modern prose.",
-    "cn": "现代日常行文多用 benediction。"
-   }
-  ],
-  "abstract": [
-   {
-    "en": "See old hands raised over young heads.",
-    "cn": "看苍老的手覆向年轻的头顶。"
-   },
-   {
-    "en": "Feel candle warmth on a wedding aisle.",
-    "cn": "感受婚礼通道上的烛光暖意。"
-   },
-   {
-    "en": "Picture evening wind as a soft gift.",
-    "cn": "想象晚风如温柔的赠礼。"
-   }
-  ]
- },
- "examples": [
-  {
-   "en": "The village priest gave the young couple his warm benison.",
-   "cn": "村中神父向年轻夫妇致以温暖的祝福。"
-  },
-  {
-   "en": "The cool evening wind was a benison to the tired walkers.",
-   "cn": "傍晚的凉风对疲惫的旅人是一份恩赐。"
-  },
-  {
-   "en": "She left with her mother's benison and little else.",
-   "cn": "她带着母亲的祝福离开，别无长物。"
-  }
- ],
- "dict_mnemonic": {
-  "note": "谐音记忆 · 非词源",
-  "text": "「杯你神」——举杯敬你、敬神，满口都是祝福之词。",
-  "word": "benison"
- },
- "root": "拉丁语 bene「好地」加 dicere「说」，派生 benedictio「祝福」；古法语缩略为 beneiçun、benedicun，中古英语十四世纪借入作 benison，与 benediction 同源异流；反义词 malison「诅咒」以 male「坏」替换 bene「好」。",
- "sensesIntro": {
-  "en": "One archaic noun covers both spoken blessings and the quiet gifts that feel like blessings.",
-  "cn": "一个古雅名词，既指出口成章的祝词，也指像被祝福过的恩惠。"
- },
- "semanticMap": {
-  "core": {
-   "en": "CORE IMAGE: old hands raised over young heads at a wedding.",
-   "cn": "核心意象：婚礼上长者之手覆向新人头顶。"
-  },
-  "chain": [
-   "GOODNESS",
-   "SPEECH",
-   "BLESSING",
-   "FAVOUR",
-   "RELIEF",
-   "HERITAGE"
-  ],
-  "branches": [
-   {
-    "senses": "01",
-    "en": "give a benison",
-    "cn": "致祝福"
-   },
-   {
-    "senses": "01",
-    "en": "a father's benison",
-    "cn": "父亲的祝祷"
-   },
-   {
-    "senses": "01",
-    "en": "a parting benison",
-    "cn": "临别祝福"
-   },
-   {
-    "senses": "02",
-    "en": "a benison to the tired walkers",
-    "cn": "旅人的恩赐"
-   },
-   {
-    "senses": "01 · 02",
-    "en": "with every benison",
-    "cn": "带着满满的祝福"
-   }
-  ]
- },
- "affixes": {
-  "intro": {
-   "en": "Benison keeps the bene- good root in a shortened old shape.",
-   "cn": "benison 以古老的缩略形保留 bene-「好」词根。"
-  },
-  "latinIntro": {
-   "en": "It descends from Latin benedictio like benediction.",
-   "cn": "它与 benediction 同出拉丁语 benedictio。"
-  },
-  "items": [
-   {
-    "word": "benedictio",
-    "structure": "Latin noun",
-    "meaning": "a blessing",
-    "meaningCN": "祝福",
-    "example": "benedictionem dicere",
-    "exampleCN": "致祝祷"
-   },
-   {
     "word": "benison",
-    "structure": "Old French benedicun",
-    "meaning": "a blessing, literary",
-    "meaningCN": "祝福（文学用语）",
-    "example": "a father's benison",
-    "exampleCN": "父亲的祝祷"
-   },
-   {
-    "word": "benediction",
-    "structure": "Latin full form",
-    "meaning": "a formal blessing",
-    "meaningCN": "正式祝祷",
-    "example": "the final benediction",
-    "exampleCN": "结尾祝福"
-   },
-   {
-    "word": "malison",
-    "structure": "male + dictio",
-    "meaning": "a curse",
-    "meaningCN": "诅咒",
-    "example": "shriek malisons",
-    "exampleCN": "尖声咒骂"
-   },
-   {
-    "word": "dictate",
-    "structure": "dictare, from dicere",
-    "meaning": "to say aloud for writing",
-    "meaningCN": "口述",
-    "example": "dictate a memo",
-    "exampleCN": "口述备忘录"
-   },
-   {
-    "word": "predict",
-    "structure": "prae- + dicere",
-    "meaning": "to say beforehand",
-    "meaningCN": "预言",
-    "example": "predict a storm",
-    "exampleCN": "预测风暴"
-   },
-   {
-    "word": "beneficial",
-    "structure": "bene + facere",
-    "meaning": "producing good",
-    "meaningCN": "有益的",
-    "example": "beneficial results",
-    "exampleCN": "有益的结果"
-   },
-   {
-    "word": "godsend",
-    "structure": "god + send",
-    "meaning": "an unexpected blessing",
-    "meaningCN": "天赐之物",
-    "example": "a real godsend",
-    "exampleCN": "真正的及时雨"
-   },
-   {
-    "word": "benedictory",
-    "structure": "benediction + -ory",
-    "meaning": "of a blessing",
-    "meaningCN": "祝福的",
-    "example": "benedictory words",
-    "exampleCN": "祝福之词"
-   }
-  ],
-  "latinEntries": [
-   {
-    "word": "benedictio",
-    "structure": "Latin noun",
-    "meaning": "a blessing; common root of benison and benediction",
-    "meaningCN": "祝福；benison 与 benediction 的共同词源",
-    "example": "benedictione plena",
-    "exampleCN": "满是祝福"
-   }
-  ],
-  "derivatives": [
-   {
-    "word": "benediction",
-    "pos": "n.",
-    "zh": "同根常用词，义为「祝祷」"
-   },
-   {
-    "word": "malison",
-    "pos": "n.",
-    "zh": "反义对照词，义为「诅咒」"
-   }
-  ]
- }
-}
+    "ipa_uk": "/ˈbenɪsn/",
+    "ipa_us": "/ˈbenɪsn/",
+    "definition_zh": "祝福；祝祷（文学用语、古雅）",
+    "definition_en": "a blessing, especially one spoken; a literary or archaic word",
+    "core_image": "婚礼上长者向新人抬手说出的古老祝词",
+    "scene": "婚礼礼成，长者抬手向新人低声诵出祝词。The village priest gave the young couple his warm benison.",
+    "sceneCN": "这里 benison 是「祝福、祝祷」（第 1 个义项：口头说出的祝词）；句意是村中神父向年轻夫妇致以温暖的祝福。",
+    "pos": [
+      {
+        "tag": "n.",
+        "zh": "祝福；祝祷"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "give a benison",
+        "zh": "致祝福"
+      },
+      {
+        "phrase": "a parting benison",
+        "zh": "临别祝福"
+      },
+      {
+        "phrase": "with every benison",
+        "zh": "带着满满的祝福"
+      },
+      {
+        "phrase": "a father's benison",
+        "zh": "父亲的祝祷"
+      }
+    ],
+    "forms": [
+      {
+        "label": "复数",
+        "form": "benisons"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "benediction",
+        "pos": "n.",
+        "zh": "同根常用词，义为「祝福；祝祷」"
+      },
+      {
+        "word": "malison",
+        "pos": "n.",
+        "zh": "反义对照词，义为「诅咒」"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "A spoken blessing",
+        "titleCN": "祝福；祝祷",
+        "definition": "words that call down good and favour on someone",
+        "definitionCN": "祈求福泽降临于人的话语",
+        "example": "The village priest gave the young couple his warm benison.",
+        "exampleCN": "村中神父向年轻夫妇致以温暖的祝福。",
+        "why": "Bene means well and the root is dicere, to speak, so it is good speech.",
+        "whyCN": "bene 意为「好」，词根为 dicere「说」，合起来即「说好话赐福」。"
+      },
+      {
+        "no": "02",
+        "title": "A felt blessing or godsend",
+        "titleCN": "福分；恩赐",
+        "definition": "anything felt as a blessing, especially relief after hardship",
+        "definitionCN": "被当作福气的事，尤指苦后的恩惠",
+        "example": "The cool evening wind was a benison to the tired walkers.",
+        "exampleCN": "傍晚的凉风对疲惫的旅人是一份恩赐。",
+        "why": "Good-speaking widens to any goodness that seems wished upon us.",
+        "whyCN": "「说好话赐福」扩大为一切像被祝福降临的好处。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Benison is Old French benedicun, from Latin benedictio, a blessing.",
+        "cn": "benison 来自古法语 benedicun，源自拉丁语 benedictio「祝福」。"
+      },
+      "items": [
+        {
+          "era": "PROTO-INDO-EUROPEAN",
+          "en": "the root deik- meant to point out, to pronounce.",
+          "cn": "词根 deik- 意为「指出、宣示」（重构形式）。"
+        },
+        {
+          "era": "LATIN",
+          "en": "benedictio meant a speaking well, a blessing.",
+          "cn": "拉丁语 benedictio 意为「说好话、祝福」。"
+        },
+        {
+          "era": "OLD FRENCH",
+          "en": "beneiçun or benedicun shortened the Latin phrase.",
+          "cn": "古法语 beneiçun、benedicun 缩略了拉丁语词形。"
+        },
+        {
+          "era": "ENGLISH, 14TH C.",
+          "en": "Middle English took benison from the French form.",
+          "cn": "中古英语十四世纪从法语形式借入 benison。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "it survives as a literary and archaic twin of benediction.",
+          "cn": "如今作为 benediction 的文学化、古雅孪生词存留。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "The look-alike group shares the bene- or dict- roots; the near-meaning group gathers blessing words.",
+        "cn": "形近组共享 bene- 或 dict- 词根；近义组汇集祝福类词。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "benediction",
+              "ipa": "/ˌbenɪˈdɪkʃn/",
+              "tag": "same root",
+              "definition": "a formal spoken blessing",
+              "definitionCN": "祝祷——同根常用词"
+            },
+            {
+              "word": "malison",
+              "ipa": "/ˈmælɪsn/",
+              "tag": "opposite",
+              "definition": "a curse; an archaic word",
+              "definitionCN": "诅咒——前缀相反的古雅对照词"
+            },
+            {
+              "word": "prison",
+              "ipa": "/ˈprɪzn/",
+              "tag": "spelling",
+              "definition": "a place of confinement",
+              "definitionCN": "监狱——拼写相近，词源无关"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "blessing",
+              "ipa": "/ˈblesɪŋ/",
+              "tag": "near synonym",
+              "definition": "a prayer or gift of favour",
+              "definitionCN": "祝福；本族日常说法"
+            },
+            {
+              "word": "benediction",
+              "ipa": "/ˌbenɪˈdɪkʃn/",
+              "tag": "near synonym",
+              "definition": "a formal blessing at a service",
+              "definitionCN": "祝祷；更正式、更常用"
+            },
+            {
+              "word": "godsend",
+              "ipa": "/ˈɡɒdsend/",
+              "tag": "near synonym",
+              "definition": "a very helpful unexpected thing",
+              "definitionCN": "天赐之物；强调意外之喜"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Benison is an old shortened form of benediction.",
+        "cn": "benison 是 benediction 的古体缩略。"
+      },
+      "normal": [
+        {
+          "en": "Malison is its opposite, a curse.",
+          "cn": "malison 是反义词，诅咒。"
+        },
+        {
+          "en": "The plural is benisons.",
+          "cn": "复数是 benisons。"
+        },
+        {
+          "en": "It sounds literary and old-fashioned.",
+          "cn": "这个词有文学和古雅色彩。"
+        },
+        {
+          "en": "Bene- means good.",
+          "cn": "bene- 表示「好」。"
+        },
+        {
+          "en": "Use benediction in daily modern prose.",
+          "cn": "现代日常行文多用 benediction。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "See old hands raised over young heads.",
+          "cn": "看苍老的手覆向年轻的头顶。"
+        },
+        {
+          "en": "Feel candle warmth on a wedding aisle.",
+          "cn": "感受婚礼通道上的烛光暖意。"
+        },
+        {
+          "en": "Picture evening wind as a soft gift.",
+          "cn": "想象晚风如温柔的赠礼。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "The village priest gave the young couple his warm benison.",
+        "cn": "村中神父向年轻夫妇致以温暖的祝福。"
+      },
+      {
+        "en": "The cool evening wind was a benison to the tired walkers.",
+        "cn": "傍晚的凉风对疲惫的旅人是一份恩赐。"
+      },
+      {
+        "en": "She left with her mother's benison and little else.",
+        "cn": "她带着母亲的祝福离开，别无长物。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「杯你神」——举杯敬你、敬神，满口都是祝福之词。",
+      "word": "benison"
+    },
+    "root": "拉丁语 bene「好地」加 dicere「说」，派生 benedictio「祝福」；古法语缩略为 beneiçun、benedicun，中古英语十四世纪借入作 benison，与 benediction 同源异流；反义词 malison「诅咒」以 male「坏」替换 bene「好」。",
+    "sensesIntro": {
+      "en": "One archaic noun covers both spoken blessings and the quiet gifts that feel like blessings.",
+      "cn": "一个古雅名词，既指出口成章的祝词，也指像被祝福过的恩惠。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: old hands raised over young heads at a wedding.",
+        "cn": "核心意象：婚礼上长者之手覆向新人头顶。"
+      },
+      "chain": [
+        "GOODNESS",
+        "SPEECH",
+        "BLESSING",
+        "FAVOUR",
+        "RELIEF",
+        "HERITAGE"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "give a benison",
+          "cn": "致祝福"
+        },
+        {
+          "senses": "01",
+          "en": "a father's benison",
+          "cn": "父亲的祝祷"
+        },
+        {
+          "senses": "01",
+          "en": "a parting benison",
+          "cn": "临别祝福"
+        },
+        {
+          "senses": "02",
+          "en": "a benison to the tired walkers",
+          "cn": "旅人的恩赐"
+        },
+        {
+          "senses": "01 · 02",
+          "en": "with every benison",
+          "cn": "带着满满的祝福"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Benison keeps the bene- good root in a shortened old shape.",
+        "cn": "benison 以古老的缩略形保留 bene-「好」词根。"
+      },
+      "latinIntro": {
+        "en": "It descends from Latin benedictio like benediction.",
+        "cn": "它与 benediction 同出拉丁语 benedictio。"
+      },
+      "items": [
+        {
+          "word": "benedictio",
+          "structure": "Latin noun",
+          "meaning": "a blessing",
+          "meaningCN": "祝福",
+          "example": "benedictionem dicere",
+          "exampleCN": "致祝祷"
+        },
+        {
+          "word": "benison",
+          "structure": "Old French benedicun",
+          "meaning": "a blessing, literary",
+          "meaningCN": "祝福（文学用语）",
+          "example": "a father's benison",
+          "exampleCN": "父亲的祝祷"
+        },
+        {
+          "word": "benediction",
+          "structure": "Latin full form",
+          "meaning": "a formal blessing",
+          "meaningCN": "正式祝祷",
+          "example": "the final benediction",
+          "exampleCN": "结尾祝福"
+        },
+        {
+          "word": "malison",
+          "structure": "male + dictio",
+          "meaning": "a curse",
+          "meaningCN": "诅咒",
+          "example": "shriek malisons",
+          "exampleCN": "尖声咒骂"
+        },
+        {
+          "word": "dictate",
+          "structure": "dictare, from dicere",
+          "meaning": "to say aloud for writing",
+          "meaningCN": "口述",
+          "example": "dictate a memo",
+          "exampleCN": "口述备忘录"
+        },
+        {
+          "word": "predict",
+          "structure": "prae- + dicere",
+          "meaning": "to say beforehand",
+          "meaningCN": "预言",
+          "example": "predict a storm",
+          "exampleCN": "预测风暴"
+        },
+        {
+          "word": "beneficial",
+          "structure": "bene + facere",
+          "meaning": "producing good",
+          "meaningCN": "有益的",
+          "example": "beneficial results",
+          "exampleCN": "有益的结果"
+        },
+        {
+          "word": "godsend",
+          "structure": "god + send",
+          "meaning": "an unexpected blessing",
+          "meaningCN": "天赐之物",
+          "example": "a real godsend",
+          "exampleCN": "真正的及时雨"
+        },
+        {
+          "word": "benedictory",
+          "structure": "benediction + -ory",
+          "meaning": "of a blessing",
+          "meaningCN": "祝福的",
+          "example": "benedictory words",
+          "exampleCN": "祝福之词"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "benedictio",
+          "structure": "Latin noun",
+          "meaning": "a blessing; common root of benison and benediction",
+          "meaningCN": "祝福；benison 与 benediction 的共同词源",
+          "example": "benedictione plena",
+          "exampleCN": "满是祝福"
+        }
+      ],
+      "derivatives": [
+        {
+          "word": "benediction",
+          "pos": "n.",
+          "zh": "同根常用词，义为「祝祷」"
+        },
+        {
+          "word": "malison",
+          "pos": "n.",
+          "zh": "反义对照词，义为「诅咒」"
+        }
+      ]
+    }
+  }
+]

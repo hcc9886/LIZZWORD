@@ -1,142 +1,412 @@
-{
-  "word": "cadenza",
-  "ipa_uk": "/kəˈdenzə/",
-  "ipa_us": "/kəˈdenzə/",
-  "definition_zh": "（协奏曲中的）华彩乐段",
-  "definition_en": "a virtuoso solo passage in a concerto, played near the end of a movement",
-  "core_image": "乐队静默，钢琴独奏者即兴飞驰的一瞬",
-  "scene": "音乐厅里乐队忽然收声，钢琴独自飞旋。The pianist launched into a dazzling cadenza.",
-  "sceneCN": "这里 cadenza 是「华彩乐段」（第 1 个义项：协奏曲中独奏炫技段落）；句意是钢琴家奏出炫目的华彩段。",
-  "pos": [
-    { "tag": "n.", "zh": "华彩乐段；（口语）精彩的高潮表演" }
-  ],
-  "collocations": [
-    { "phrase": "play a cadenza", "zh": "演奏华彩乐段" },
-    { "phrase": "an improvised cadenza", "zh": "即兴华彩段" },
-    { "phrase": "the first-movement cadenza", "zh": "第一乐章华彩段" },
-    { "phrase": "a written-out cadenza", "zh": "谱写的华彩段" },
-    { "phrase": "a dazzling cadenza", "zh": "炫目的华彩段" }
-  ],
-  "forms": [
-    { "label": "复数", "form": "cadenzas or cadenze" }
-  ],
-  "derivatives": [
-    { "word": "cadence", "pos": "n.", "zh": "同根名词，义为「节奏；终止式」" },
-    { "word": "cadential", "pos": "adj.", "zh": "由 cadence 加 -al 构成，义为「终止式的；收束性的」" },
-    { "word": "cadenza-like", "pos": "adj.", "zh": "复合形容词，义为「似华彩段的」" }
-  ],
-  "senses": [
-    {
-      "no": "01",
-      "title": "A solo showpiece in a concerto",
-      "titleCN": "华彩乐段",
-      "definition": "an extended solo passage for the soloist, usually just before the end of a movement, often virtuosic",
-      "definitionCN": "协奏曲中独奏者的大段独奏，常在乐章结尾前，以炫技著称",
-      "example": "Traditionally the soloist improvised the cadenza.",
-      "exampleCN": "传统上独奏家即兴演奏华彩段。",
-      "why": "The Italian diminutive of cadence marks the passage that leads into the final cadence.",
-      "whyCN": "意大利语 cadence 的指小词，标记引向最终终止的段落。"
-    },
-    {
-      "no": "02",
-      "title": "A showstopping passage by extension",
-      "titleCN": "（借喻）炫技性高潮",
-      "definition": "any brilliant solo or flourish likened to a concerto cadenza",
-      "definitionCN": "借指任何如华彩段般精彩的独奏或炫技段落",
-      "example": "The dancer ended the routine with a leaps-and-turns cadenza.",
-      "exampleCN": "舞者以一段连跳带转的炫技收尾。",
-      "why": "The musical term becomes a metaphor for a climactic display.",
-      "whyCN": "音乐术语转喻高潮式的表演。"
-    }
-  ],
-  "etymology": {
-    "intro": { "en": "Cadenza is Italian, a little cadence, the run that leads the music to its close.", "cn": "cadenza 是意大利语「小终止」之意，指把乐曲引向收束的乐句。" },
-    "items": [
-      { "era": "PROTO-INDO-EUROPEAN", "en": "behind Latin cadere lies a reconstructed root for falling, uncertain in detail.", "cn": "拉丁语 cadere 背后是表「落下」的重构词根，细节不确定。" },
-      { "era": "LATIN CADERE", "en": "cadere meant to fall; in music a cadence is the falling close of a phrase.", "cn": "拉丁语 cadere 意为「落下」；音乐中的终止式即乐句的「落定」。" },
-      { "era": "ITALIAN CADENZA", "en": "cadenza, a small cadence, named the ornamental run before the final close.", "cn": "意大利语 cadenza（小终止）指结尾终止前的装饰性乐句。" },
-      { "era": "ENGLISH, 18TH C.", "en": "English took cadenza as concert culture flourished.", "cn": "十八世纪随音乐会文化兴盛，英语借入 cadenza。" },
-      { "era": "MODERN ENGLISH", "en": "the word now also extends to non-musical showpieces.", "cn": "如今该词也借指音乐之外的炫技性段落。" }
-    ]
-  },
-  "similar": {
-    "note": { "en": "The look-alike group shares the cadence root; the near-meaning group lists musical display terms.", "cn": "形近组同出 cadence 词根；近义组是音乐炫技类术语。" },
-    "groups": [
+[
+  {
+    "word": "cadenza",
+    "ipa_uk": "/kəˈdenzə/",
+    "ipa_us": "/kəˈdenzə/",
+    "definition_zh": "（协奏曲中的）华彩乐段",
+    "definition_en": "a virtuoso solo passage in a concerto, played near the end of a movement",
+    "core_image": "乐队静默，钢琴独奏者即兴飞驰的一瞬",
+    "scene": "音乐厅里乐队忽然收声，钢琴独自飞旋。The pianist launched into a dazzling cadenza.",
+    "sceneCN": "这里 cadenza 是「华彩乐段」（第 1 个义项：协奏曲中独奏炫技段落）；句意是钢琴家奏出炫目的华彩段。",
+    "pos": [
       {
-        "heading": "LOOK-ALIKE",
-        "entries": [
-          { "word": "cadence", "ipa": "/ˈkeɪdəns/", "tag": "same root", "definition": "rhythmic flow; a musical close", "definitionCN": "节奏；终止式，cadenza 的母词" },
-          { "word": "cadential", "ipa": "/kəˈdenʃl/", "tag": "same root", "definition": "relating to a cadence", "definitionCN": "终止式的" },
-          { "word": "incident", "ipa": "/ˈɪnsɪdənt/", "tag": "same root", "definition": "an event that befalls", "definitionCN": "事件，同出 cadere 词根" },
-          { "word": "cadent", "ipa": "/ˈkeɪdnt/", "tag": "same root", "definition": "rhythmic; falling", "definitionCN": "有节奏的；落陷的" }
-        ]
+        "tag": "n.",
+        "zh": "华彩乐段；（口语）精彩的高潮表演"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "play a cadenza",
+        "zh": "演奏华彩乐段"
       },
       {
-        "heading": "NEAR MEANING",
-        "entries": [
-          { "word": "arpeggio", "ipa": "/ɑːˈpedʒiəʊ/", "tag": "near meaning", "definition": "notes of a chord played in succession", "definitionCN": "琶音" },
-          { "word": "virtuosity", "ipa": "/ˌvɜːtʃuˈɒsəti/", "tag": "near meaning", "definition": "great technical skill in performance", "definitionCN": "精湛演技；炫技" },
-          { "word": "solo", "ipa": "/ˈsəʊləʊ/", "tag": "near meaning", "definition": "a passage performed alone", "definitionCN": "独奏" },
-          { "word": "flourish", "ipa": "/ˈflʌrɪʃ/", "tag": "near meaning", "definition": "an ornamental musical passage or gesture", "definitionCN": "装饰性乐句；花腔" },
-          { "word": "toccata", "ipa": "/təˈkɑːtə/", "tag": "related", "definition": "a showy keyboard piece", "definitionCN": "触技曲，炫技性键盘作品" }
-        ]
+        "phrase": "an improvised cadenza",
+        "zh": "即兴华彩段"
+      },
+      {
+        "phrase": "the first-movement cadenza",
+        "zh": "第一乐章华彩段"
+      },
+      {
+        "phrase": "a written-out cadenza",
+        "zh": "谱写的华彩段"
+      },
+      {
+        "phrase": "a dazzling cadenza",
+        "zh": "炫目的华彩段"
       }
-    ]
-  },
-  "mnemonics": {
-    "normalIntro": { "en": "The cadenza is the little cadence: one last chance to shine before the music lands.", "cn": "cadenza 是「小终止」：乐曲落定前最后一次发光。" },
-    "normal": [
-      { "en": "Cadenza is Italian for a little cadence.", "cn": "cadenza 在意大利语中是「小终止」。" },
-      { "en": "A cadenza ends near the close of a movement.", "cn": "华彩段常在乐章临近结尾处。" },
-      { "en": "Beethoven wrote his own cadenzas.", "cn": "贝多芬亲自谱写了自己的华彩段。" },
-      { "en": "Cadence is the falling close of a phrase.", "cn": "cadence 指乐句落定的收束。" },
-      { "en": "The plural can be cadenzas or cadenze.", "cn": "复数可作 cadenzas 或 cadenze。" }
     ],
-    "abstract": [
-      { "en": "Feel the hall hold its breath as the piano soars alone.", "cn": "感受钢琴独飞时全场屏息。" },
-      { "en": "See fingers blur across the keys.", "cn": "看手指在琴键上化成残影。" },
-      { "en": "Hear the orchestra burst back in at the last chord.", "cn": "听乐队在最后一个和弦轰然回归。" }
-    ]
-  },
-  "examples": [
-    { "en": "She composed her own cadenza for the Mozart concerto.", "cn": "她为莫扎特的协奏曲自创了华彩段。" },
-    { "en": "The violinist's cadenza drew a gasp from the audience.", "cn": "小提琴家的华彩段引来观众一片惊叹。" },
-    { "en": "His freestyle rap was a verbal cadenza.", "cn": "他的即兴说唱堪称一场语言华彩。" }
-  ],
-  "dict_mnemonic": { "note": "谐音记忆 · 非词源", "text": "「卡·登扎」——音乐即将收束（卡在终止前），独奏者一把「登」上巅峰、扎进高潮。", "word": "cadenza" },
-  "root": "cadenza 出自意大利语，是 cadence（终止式，源自拉丁语 cadere「落下」）的指小形式；华彩乐段正是引向最终「落定」前的炫技乐句；同族词 cadence、cadent、decadent 共享「落下」词根。",
-  "sensesIntro": { "en": "A small closing flourish grew into the soloist's grand moment, then into any brilliant display.", "cn": "一个小小的收束花腔，长成独奏家的高光时刻，再借喻一切炫技性演出。" },
-  "semanticMap": {
-    "core": { "en": "CORE IMAGE: the orchestra falls silent, one instrument streaks upward.", "cn": "核心意象：乐队骤静，一件乐器一飞冲天。" },
-    "chain": ["FALLING CLOSE", "RUN BEFORE THE END", "SOLO VOICE", "VIRTUOSITY", "SUSPENSE", "RESOLUTION"],
-    "branches": [
-      { "senses": "01", "en": "an improvised cadenza in Mozart", "cn": "莫扎特作品中的即兴华彩" },
-      { "senses": "01", "en": "Beethoven's written-out cadenzas", "cn": "贝多芬谱写的华彩段" },
-      { "senses": "01", "en": "the cadenza before the final tutti", "cn": "末段合奏前的华彩" },
-      { "senses": "02", "en": "a dancer's leaps-and-turns cadenza", "cn": "舞者的炫技收尾" },
-      { "senses": "01 · 02", "en": "music and metaphor, same flourish", "cn": "音乐与比喻，同一份炫技" }
-    ]
-  },
-  "affixes": {
-    "intro": { "en": "Cadenza wears the Italian diminutive ending -enza on the cadence stem.", "cn": "cadenza 在 cadence 词干上戴着意大利指小词尾 -enza。" },
-    "latinIntro": { "en": "Latin cadere, to fall, is the deep source; Italian shaped the musical term.", "cn": "深层源头是拉丁语 cadere「落下」；音乐术语由意大利语定型。" },
-    "items": [
-      { "word": "cadere", "structure": "Latin verb", "meaning": "to fall", "meaningCN": "落下", "example": "arborem cadere", "exampleCN": "树倒下（拉丁语）" },
-      { "word": "cadentia", "structure": "Vulgar Latin noun", "meaning": "a falling into rhythm", "meaningCN": "落入节奏", "example": "source of cadence", "exampleCN": "cadence 之源" },
-      { "word": "cadenza", "structure": "Italian diminutive", "meaning": "a little cadence; solo flourish", "meaningCN": "华彩乐段", "example": "suonare una cadenza", "exampleCN": "奏华彩段（意大利语）" },
-      { "word": "cadence", "structure": "English noun", "meaning": "rhythmic close", "meaningCN": "节奏；终止式", "example": "a perfect cadence", "exampleCN": "完全终止" },
-      { "word": "cadential", "structure": "cadence + -al", "meaning": "of a cadence", "meaningCN": "终止式的", "example": "a cadential trill", "exampleCN": "终止式颤音" },
-      { "word": "arpeggio", "structure": "Italian noun", "meaning": "chord notes in succession", "meaningCN": "琶音", "example": "a sweeping arpeggio", "exampleCN": "一串流畅的琶音" },
-      { "word": "toccata", "structure": "Italian noun", "meaning": "a touch-piece for keyboard", "meaningCN": "触技曲", "example": "Bach's toccata", "exampleCN": "巴赫的触技曲" },
-      { "word": "virtuoso", "structure": "Italian noun", "meaning": "a master performer", "meaningCN": "演奏名家", "example": "a violin virtuoso", "exampleCN": "小提琴大师" },
-      { "word": "tutti", "structure": "Italian noun", "meaning": "all players together", "meaningCN": "全体合奏", "example": "the final tutti", "exampleCN": "终曲合奏" }
-    ],
-    "latinEntries": [
-      { "word": "cadentia", "structure": "Vulgar Latin noun", "meaning": "a falling into rhyme or rhythm", "meaningCN": "落入韵律；节奏性收落" }
+    "forms": [
+      {
+        "label": "复数",
+        "form": "cadenzas or cadenze"
+      }
     ],
     "derivatives": [
-      { "word": "cadence", "pos": "n.", "zh": "节奏；终止式" },
-      { "word": "cadential", "pos": "adj.", "zh": "终止式的" }
-    ]
+      {
+        "word": "cadence",
+        "pos": "n.",
+        "zh": "同根名词，义为「节奏；终止式」"
+      },
+      {
+        "word": "cadential",
+        "pos": "adj.",
+        "zh": "由 cadence 加 -al 构成，义为「终止式的；收束性的」"
+      },
+      {
+        "word": "cadenza-like",
+        "pos": "adj.",
+        "zh": "复合形容词，义为「似华彩段的」"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "A solo showpiece in a concerto",
+        "titleCN": "华彩乐段",
+        "definition": "an extended solo passage for the soloist, usually just before the end of a movement, often virtuosic",
+        "definitionCN": "协奏曲中独奏者的大段独奏，常在乐章结尾前，以炫技著称",
+        "example": "Traditionally the soloist improvised the cadenza.",
+        "exampleCN": "传统上独奏家即兴演奏华彩段。",
+        "why": "The Italian diminutive of cadence marks the passage that leads into the final cadence.",
+        "whyCN": "意大利语 cadence 的指小词，标记引向最终终止的段落。"
+      },
+      {
+        "no": "02",
+        "title": "A showstopping passage by extension",
+        "titleCN": "（借喻）炫技性高潮",
+        "definition": "any brilliant solo or flourish likened to a concerto cadenza",
+        "definitionCN": "借指任何如华彩段般精彩的独奏或炫技段落",
+        "example": "The dancer ended the routine with a leaps-and-turns cadenza.",
+        "exampleCN": "舞者以一段连跳带转的炫技收尾。",
+        "why": "The musical term becomes a metaphor for a climactic display.",
+        "whyCN": "音乐术语转喻高潮式的表演。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Cadenza is Italian, a little cadence, the run that leads the music to its close.",
+        "cn": "cadenza 是意大利语「小终止」之意，指把乐曲引向收束的乐句。"
+      },
+      "items": [
+        {
+          "era": "PROTO-INDO-EUROPEAN",
+          "en": "behind Latin cadere lies a reconstructed root for falling, uncertain in detail.",
+          "cn": "拉丁语 cadere 背后是表「落下」的重构词根，细节不确定。"
+        },
+        {
+          "era": "LATIN CADERE",
+          "en": "cadere meant to fall; in music a cadence is the falling close of a phrase.",
+          "cn": "拉丁语 cadere 意为「落下」；音乐中的终止式即乐句的「落定」。"
+        },
+        {
+          "era": "ITALIAN CADENZA",
+          "en": "cadenza, a small cadence, named the ornamental run before the final close.",
+          "cn": "意大利语 cadenza（小终止）指结尾终止前的装饰性乐句。"
+        },
+        {
+          "era": "ENGLISH, 18TH C.",
+          "en": "English took cadenza as concert culture flourished.",
+          "cn": "十八世纪随音乐会文化兴盛，英语借入 cadenza。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "the word now also extends to non-musical showpieces.",
+          "cn": "如今该词也借指音乐之外的炫技性段落。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "The look-alike group shares the cadence root; the near-meaning group lists musical display terms.",
+        "cn": "形近组同出 cadence 词根；近义组是音乐炫技类术语。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "cadence",
+              "ipa": "/ˈkeɪdəns/",
+              "tag": "same root",
+              "definition": "rhythmic flow; a musical close",
+              "definitionCN": "节奏；终止式，cadenza 的母词"
+            },
+            {
+              "word": "cadential",
+              "ipa": "/kəˈdenʃl/",
+              "tag": "same root",
+              "definition": "relating to a cadence",
+              "definitionCN": "终止式的"
+            },
+            {
+              "word": "incident",
+              "ipa": "/ˈɪnsɪdənt/",
+              "tag": "same root",
+              "definition": "an event that befalls",
+              "definitionCN": "事件，同出 cadere 词根"
+            },
+            {
+              "word": "cadent",
+              "ipa": "/ˈkeɪdnt/",
+              "tag": "same root",
+              "definition": "rhythmic; falling",
+              "definitionCN": "有节奏的；落陷的"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "arpeggio",
+              "ipa": "/ɑːˈpedʒiəʊ/",
+              "tag": "near meaning",
+              "definition": "notes of a chord played in succession",
+              "definitionCN": "琶音"
+            },
+            {
+              "word": "virtuosity",
+              "ipa": "/ˌvɜːtʃuˈɒsəti/",
+              "tag": "near meaning",
+              "definition": "great technical skill in performance",
+              "definitionCN": "精湛演技；炫技"
+            },
+            {
+              "word": "solo",
+              "ipa": "/ˈsəʊləʊ/",
+              "tag": "near meaning",
+              "definition": "a passage performed alone",
+              "definitionCN": "独奏"
+            },
+            {
+              "word": "flourish",
+              "ipa": "/ˈflʌrɪʃ/",
+              "tag": "near meaning",
+              "definition": "an ornamental musical passage or gesture",
+              "definitionCN": "装饰性乐句；花腔"
+            },
+            {
+              "word": "toccata",
+              "ipa": "/təˈkɑːtə/",
+              "tag": "related",
+              "definition": "a showy keyboard piece",
+              "definitionCN": "触技曲，炫技性键盘作品"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "The cadenza is the little cadence: one last chance to shine before the music lands.",
+        "cn": "cadenza 是「小终止」：乐曲落定前最后一次发光。"
+      },
+      "normal": [
+        {
+          "en": "Cadenza is Italian for a little cadence.",
+          "cn": "cadenza 在意大利语中是「小终止」。"
+        },
+        {
+          "en": "A cadenza ends near the close of a movement.",
+          "cn": "华彩段常在乐章临近结尾处。"
+        },
+        {
+          "en": "Beethoven wrote his own cadenzas.",
+          "cn": "贝多芬亲自谱写了自己的华彩段。"
+        },
+        {
+          "en": "Cadence is the falling close of a phrase.",
+          "cn": "cadence 指乐句落定的收束。"
+        },
+        {
+          "en": "The plural can be cadenzas or cadenze.",
+          "cn": "复数可作 cadenzas 或 cadenze。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "Feel the hall hold its breath as the piano soars alone.",
+          "cn": "感受钢琴独飞时全场屏息。"
+        },
+        {
+          "en": "See fingers blur across the keys.",
+          "cn": "看手指在琴键上化成残影。"
+        },
+        {
+          "en": "Hear the orchestra burst back in at the last chord.",
+          "cn": "听乐队在最后一个和弦轰然回归。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "She composed her own cadenza for the Mozart concerto.",
+        "cn": "她为莫扎特的协奏曲自创了华彩段。"
+      },
+      {
+        "en": "The violinist's cadenza drew a gasp from the audience.",
+        "cn": "小提琴家的华彩段引来观众一片惊叹。"
+      },
+      {
+        "en": "His freestyle rap was a verbal cadenza.",
+        "cn": "他的即兴说唱堪称一场语言华彩。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「卡·登扎」——音乐即将收束（卡在终止前），独奏者一把「登」上巅峰、扎进高潮。",
+      "word": "cadenza"
+    },
+    "root": "cadenza 出自意大利语，是 cadence（终止式，源自拉丁语 cadere「落下」）的指小形式；华彩乐段正是引向最终「落定」前的炫技乐句；同族词 cadence、cadent、decadent 共享「落下」词根。",
+    "sensesIntro": {
+      "en": "A small closing flourish grew into the soloist's grand moment, then into any brilliant display.",
+      "cn": "一个小小的收束花腔，长成独奏家的高光时刻，再借喻一切炫技性演出。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: the orchestra falls silent, one instrument streaks upward.",
+        "cn": "核心意象：乐队骤静，一件乐器一飞冲天。"
+      },
+      "chain": [
+        "FALLING CLOSE",
+        "RUN BEFORE THE END",
+        "SOLO VOICE",
+        "VIRTUOSITY",
+        "SUSPENSE",
+        "RESOLUTION"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "an improvised cadenza in Mozart",
+          "cn": "莫扎特作品中的即兴华彩"
+        },
+        {
+          "senses": "01",
+          "en": "Beethoven's written-out cadenzas",
+          "cn": "贝多芬谱写的华彩段"
+        },
+        {
+          "senses": "01",
+          "en": "the cadenza before the final tutti",
+          "cn": "末段合奏前的华彩"
+        },
+        {
+          "senses": "02",
+          "en": "a dancer's leaps-and-turns cadenza",
+          "cn": "舞者的炫技收尾"
+        },
+        {
+          "senses": "01 · 02",
+          "en": "music and metaphor, same flourish",
+          "cn": "音乐与比喻，同一份炫技"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Cadenza wears the Italian diminutive ending -enza on the cadence stem.",
+        "cn": "cadenza 在 cadence 词干上戴着意大利指小词尾 -enza。"
+      },
+      "latinIntro": {
+        "en": "Latin cadere, to fall, is the deep source; Italian shaped the musical term.",
+        "cn": "深层源头是拉丁语 cadere「落下」；音乐术语由意大利语定型。"
+      },
+      "items": [
+        {
+          "word": "cadere",
+          "structure": "Latin verb",
+          "meaning": "to fall",
+          "meaningCN": "落下",
+          "example": "arborem cadere",
+          "exampleCN": "树倒下（拉丁语）"
+        },
+        {
+          "word": "cadentia",
+          "structure": "Vulgar Latin noun",
+          "meaning": "a falling into rhythm",
+          "meaningCN": "落入节奏",
+          "example": "source of cadence",
+          "exampleCN": "cadence 之源"
+        },
+        {
+          "word": "cadenza",
+          "structure": "Italian diminutive",
+          "meaning": "a little cadence; solo flourish",
+          "meaningCN": "华彩乐段",
+          "example": "suonare una cadenza",
+          "exampleCN": "奏华彩段（意大利语）"
+        },
+        {
+          "word": "cadence",
+          "structure": "English noun",
+          "meaning": "rhythmic close",
+          "meaningCN": "节奏；终止式",
+          "example": "a perfect cadence",
+          "exampleCN": "完全终止"
+        },
+        {
+          "word": "cadential",
+          "structure": "cadence + -al",
+          "meaning": "of a cadence",
+          "meaningCN": "终止式的",
+          "example": "a cadential trill",
+          "exampleCN": "终止式颤音"
+        },
+        {
+          "word": "arpeggio",
+          "structure": "Italian noun",
+          "meaning": "chord notes in succession",
+          "meaningCN": "琶音",
+          "example": "a sweeping arpeggio",
+          "exampleCN": "一串流畅的琶音"
+        },
+        {
+          "word": "toccata",
+          "structure": "Italian noun",
+          "meaning": "a touch-piece for keyboard",
+          "meaningCN": "触技曲",
+          "example": "Bach's toccata",
+          "exampleCN": "巴赫的触技曲"
+        },
+        {
+          "word": "virtuoso",
+          "structure": "Italian noun",
+          "meaning": "a master performer",
+          "meaningCN": "演奏名家",
+          "example": "a violin virtuoso",
+          "exampleCN": "小提琴大师"
+        },
+        {
+          "word": "tutti",
+          "structure": "Italian noun",
+          "meaning": "all players together",
+          "meaningCN": "全体合奏",
+          "example": "the final tutti",
+          "exampleCN": "终曲合奏"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "cadentia",
+          "structure": "Vulgar Latin noun",
+          "meaning": "a falling into rhyme or rhythm",
+          "meaningCN": "落入韵律；节奏性收落"
+        }
+      ],
+      "derivatives": [
+        {
+          "word": "cadence",
+          "pos": "n.",
+          "zh": "节奏；终止式"
+        },
+        {
+          "word": "cadential",
+          "pos": "adj.",
+          "zh": "终止式的"
+        }
+      ]
+    }
   }
-}
+]

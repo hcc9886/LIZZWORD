@@ -1,154 +1,432 @@
-{
-  "word": "burgher",
-  "ipa_uk": "/ˈbɜːɡə/",
-  "ipa_us": "/ˈbɜːrɡər/",
-  "definition_zh": "市民；（欧洲中世纪的）城镇自由民；殷实市民",
-  "definition_en": "a citizen of a town or borough, especially a prosperous town dweller of medieval Europe",
-  "core_image": "戴毡帽的镇上商人，在公会厅前踱步",
-  "scene": "镇公会厅里，殷实市民们表决新桥的税款。The burghers of the town agreed to fund the new bridge.",
-  "sceneCN": "这里 burgher 是「市民、镇上有产者」（第 1 个义项：拥有市民权的城镇居民）；句意是镇上的市民们同意出资修新桥。",
-  "pos": [
-    { "tag": "n.", "zh": "市民；城镇自由民；有产市民" }
-  ],
-  "collocations": [
-    { "phrase": "the burghers of a town", "zh": "一镇的市民" },
-    { "phrase": "a respectable burgher", "zh": "体面的市民" },
-    { "phrase": "burgher rights", "zh": "市民权" },
-    { "phrase": "medieval burghers", "zh": "中世纪城镇自由民" },
-    { "phrase": "the burgher class", "zh": "市民阶层" }
-  ],
-  "forms": [
-    { "label": "复数", "form": "burghers" }
-  ],
-  "derivatives": [
-    { "word": "borough", "pos": "n.", "zh": "同族词，义为「自治市镇」（英语本土形式）" },
-    { "word": "burgess", "pos": "n.", "zh": "同族词，义为「市民；（英史）自治市议员」" },
-    { "word": "bourgeois", "pos": "n.", "zh": "法语同源词，义为「中产阶级者；市民阶层的一分子」" }
-  ],
-  "senses": [
-    {
-      "no": "01",
-      "title": "A town citizen",
-      "titleCN": "市民；城镇自由民",
-      "definition": "an inhabitant of a borough who holds full civic rights",
-      "definitionCN": "享有完整市民权的镇区居民",
-      "example": "Only burghers could vote in the town assembly.",
-      "exampleCN": "只有市民才能在镇民大会上投票。",
-      "why": "The Germanic root names the fortified place; its qualified residents take the name.",
-      "whyCN": "日耳曼词根指设防之地，其合格居民遂以此为称。"
-    },
-    {
-      "no": "02",
-      "title": "A prosperous town dweller",
-      "titleCN": "殷实市民；体面的镇上人家",
-      "definition": "a comfortably off, stolid member of the town middle class",
-      "definitionCN": "镇上小康而持重的中产人士",
-      "example": "The painter scorned the tastes of the wealthy burghers.",
-      "exampleCN": "画家看不惯富商市民的品味。",
-      "why": "Civic standing implied property, so the word drifted toward class meaning.",
-      "whyCN": "市民身份意味着有产，词义遂滑向阶层含义。"
-    },
-    {
-      "no": "03",
-      "title": "A Boer settler in South Africa",
-      "titleCN": "（南非史）布尔公民",
-      "definition": "in South African history, a full citizen of a Boer republic",
-      "definitionCN": "南非历史上布尔共和国的正式公民",
-      "example": "The burghers mustered at the river crossing.",
-      "exampleCN": "布尔公民在渡口集结。",
-      "why": "Dutch settlers kept the civic term for citizens of their own republics.",
-      "whyCN": "荷兰裔移民沿用这一市民称呼指本国公民。"
-    }
-  ],
-  "etymology": {
-    "intro": { "en": "Burgher is borough dressed in Dutch-German clothes: the fortified town and its citizen.", "cn": "burgher 是 borough 的荷德语装束：设防城镇及其市民。" },
-    "items": [
-      { "era": "PROTO-INDO-EUROPEAN", "en": "a reconstructed root bhergh meant high, then a fortified height.", "cn": "重构词根 bhergh 意为高，引申为筑于高处的堡垒。" },
-      { "era": "GERMANIC", "en": "burg meant a hill fort, then a walled town.", "cn": "日耳曼语 burg 先指山寨，后指城墙城镇。" },
-      { "era": "MIDDLE DUTCH / GERMAN", "en": "borghere and Bürger named the full citizen of such a town.", "cn": "中古荷兰语 borghere、德语 Bürger 指城镇正式公民。" },
-      { "era": "ENGLISH, 16TH–18TH C.", "en": "burgher entered English for citizens of continental and Boer towns.", "cn": "十六至十八世纪 burgher 进入英语，指欧陆及布尔城镇的市民。" },
-      { "era": "PRESENT DAY ENGLISH", "en": "burgher survives in historical and South African contexts.", "cn": "如今 burgher 存留于历史语境与南非英语。" }
-    ]
-  },
-  "similar": {
-    "note": { "en": "Burgher heads the whole burg family of towns and citizens.", "cn": "burgher 是整个 burg 城镇词族的带头者。" },
-    "groups": [
+[
+  {
+    "word": "burgher",
+    "ipa_uk": "/ˈbɜːɡə/",
+    "ipa_us": "/ˈbɜːrɡər/",
+    "definition_zh": "市民；（欧洲中世纪的）城镇自由民；殷实市民",
+    "definition_en": "a citizen of a town or borough, especially a prosperous town dweller of medieval Europe",
+    "core_image": "戴毡帽的镇上商人，在公会厅前踱步",
+    "scene": "镇公会厅里，殷实市民们表决新桥的税款。The burghers of the town agreed to fund the new bridge.",
+    "sceneCN": "这里 burgher 是「市民、镇上有产者」（第 1 个义项：拥有市民权的城镇居民）；句意是镇上的市民们同意出资修新桥。",
+    "pos": [
       {
-        "heading": "LOOK-ALIKE",
-        "entries": [
-          { "word": "borough", "ipa": "/ˈbʌrə/", "tag": "same root", "definition": "a town or district with local government", "definitionCN": "自治市镇，同根英语本土形式" },
-          { "word": "burgess", "ipa": "/ˈbɜːdʒɪs/", "tag": "same root", "definition": "a borough citizen or representative", "definitionCN": "市民；自治市代表，同根词" },
-          { "word": "burg", "ipa": "/bɜːɡ/", "tag": "same root", "definition": "a town, informal American", "definitionCN": "（美口）小城，同根俚语形式" },
-          { "word": "burger", "ipa": "/ˈbɜːɡə/", "tag": "spelling", "definition": "a hamburger sandwich", "definitionCN": "汉堡包，发音相同但词源完全无关" }
-        ]
+        "tag": "n.",
+        "zh": "市民；城镇自由民；有产市民"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "the burghers of a town",
+        "zh": "一镇的市民"
       },
       {
-        "heading": "NEAR MEANING",
-        "entries": [
-          { "word": "bourgeois", "ipa": "/ˈbʊəʒwɑː/", "tag": "near meaning", "definition": "a member of the town middle class", "definitionCN": "中产市民，法语同源词" },
-          { "word": "citizen", "ipa": "/ˈsɪtɪzən/", "tag": "near meaning", "definition": "a legal member of a city or state", "definitionCN": "公民，市民" },
-          { "word": "freeman", "ipa": "/ˈfriːmən/", "tag": "near meaning", "definition": "one holding civic freedom of a town", "definitionCN": "自由民，享有市民权者" },
-          { "word": "burgherdom", "ipa": "/ˈbɜːɡədəm/", "tag": "near meaning", "definition": "the burgher class collectively", "definitionCN": "市民阶层整体" },
-          { "word": "townsman", "ipa": "/ˈtaʊnzmən/", "tag": "near meaning", "definition": "a male resident of a town", "definitionCN": "镇民，城里人" }
-        ]
+        "phrase": "a respectable burgher",
+        "zh": "体面的市民"
+      },
+      {
+        "phrase": "burgher rights",
+        "zh": "市民权"
+      },
+      {
+        "phrase": "medieval burghers",
+        "zh": "中世纪城镇自由民"
+      },
+      {
+        "phrase": "the burgher class",
+        "zh": "市民阶层"
       }
-    ]
-  },
-  "mnemonics": {
-    "normalIntro": { "en": "The burgh is the walled town; its qualifying dwellers are burghers.", "cn": "burgh 是设防城镇，够格的居民便是 burghers。" },
-    "normal": [
-      { "en": "Borough, burg, burger, burgher — one family, four costumes.", "cn": "borough、burg、burger、burgher——一族四装。" },
-      { "en": "Burger the sandwich is a false cousin.", "cn": "汉堡包那个 burger 是冒牌亲戚。" },
-      { "en": "German Bürger still means citizen today.", "cn": "德语 Bürger 至今仍指公民。" },
-      { "en": "Edinburgh keeps the old burgh spelling.", "cn": "爱丁堡 Edinburgh 保留着古体 burgh。" },
-      { "en": "Boer burghers were citizens of their republics.", "cn": "布尔 burghers 是其共和国的公民。" }
     ],
-    "abstract": [
-      { "en": "See guild banners hang over a cobbled square.", "cn": "看见行会旗帜挂在鹅卵石广场上空。" },
-      { "en": "Hear the town bell call the assembly.", "cn": "听镇钟召集居民大会。" },
-      { "en": "Feel heavy keys of a burgher's shop door.", "cn": "感受市民店铺大门上沉甸甸的钥匙。" }
-    ]
-  },
-  "examples": [
-    { "en": "The burghers protested the new wall tax.", "cn": "市民们抗议新征的城墙税。" },
-    { "en": "Rembrandt painted Amsterdam's proud burghers.", "cn": "伦勃朗画下了阿姆斯特丹自豪的市民。" },
-    { "en": "Boer burghers served in the commando system.", "cn": "布尔公民在民团体系中服役。" }
-  ],
-  "dict_mnemonic": { "note": "谐音记忆 · 非词源", "text": "「泊阁」——市民的宅子在镇上「泊」着如「阁」楼，安稳殷实。", "word": "burgher" },
-  "root": "burgher 经由中古荷兰语 borghere、德语 Bürger，源自日耳曼语 burg（设防之地，上溯原始印欧语重构词根 bhergh「高、堡垒」），与英语 borough、burg 同根异形，指「拥有城镇市民权者」。",
-  "sensesIntro": { "en": "The citizen of a walled town first means full civic rights, then comfortable property, and in South Africa a republican citizen.", "cn": "设防城镇的市民，先指完整市民权，继而指殷实有产，在南非则指共和国公民。" },
-  "semanticMap": {
-    "core": { "en": "CORE IMAGE: a walled town and its key-holding citizens.", "cn": "核心意象：城墙环绕的城镇与握有钥匙的市民。" },
-    "chain": ["WALLED TOWN", "CITIZENSHIP", "PROPERTY", "RESPECTABILITY", "GUILD", "REPUBLIC"],
-    "branches": [
-      { "senses": "01", "en": "burghers at the town gate", "cn": "镇门前的市民" },
-      { "senses": "01", "en": "burgher rights and duties", "cn": "市民的权利与义务" },
-      { "senses": "02", "en": "a portrait of rich burghers", "cn": "富商市民的肖像画" },
-      { "senses": "02", "en": "the stolid burgher class", "cn": "持重的市民阶层" },
-      { "senses": "01 · 03", "en": "burghers mustered for the commando", "cn": "集结为民团的布尔公民" }
-    ]
-  },
-  "affixes": {
-    "intro": { "en": "Burgher adds the person suffix to the town root: the town made human.", "cn": "burgher 在城镇词根上加指人后缀：把城镇变成人。" },
-    "latinIntro": { "en": "The root is Germanic; Latin offered no rival except civis.", "cn": "词根属日耳曼语源，拉丁语只有 civis 可作对照。" },
-    "items": [
-      { "word": "bhergh-", "structure": "Proto-Indo-European root", "meaning": "high; fortified hill", "meaningCN": "高；设防高地", "example": "Gothic bairgs", "exampleCN": "哥特语 bairgs（如词源所示）" },
-      { "word": "burg", "structure": "Germanic noun", "meaning": "fort, walled town", "meaningCN": "堡垒，城墙城镇", "example": "Hamburg", "exampleCN": "汉堡（Ham- 城堡）" },
-      { "word": "burgher", "structure": "Dutch borghere, borrowed", "meaning": "a town citizen", "meaningCN": "市民", "example": "the burghers of Ghent", "exampleCN": "根特的市民" },
-      { "word": "borough", "structure": "Old English burh", "meaning": "a self-governing town", "meaningCN": "自治市镇", "example": "a parliamentary borough", "exampleCN": "议会选区市镇" },
-      { "word": "burg", "structure": "American informal", "meaning": "a small town", "meaningCN": "小城镇", "example": "a sleepy burg", "exampleCN": "沉睡的小城" },
-      { "word": "Bürger", "structure": "German form", "meaning": "citizen", "meaningCN": "公民（德语同源词）", "example": "Bürgermeister", "exampleCN": "市长（Bürger 的衍生官职）" },
-      { "word": "bourgeois", "structure": "French, from burg", "meaning": "middle-class person", "meaningCN": "中产者", "example": "petit bourgeois", "exampleCN": "小资产阶级" },
-      { "word": "burgess", "structure": "burge + -ess", "meaning": "a borough citizen", "meaningCN": "自治市市民", "example": "burgesses in Parliament", "exampleCN": "议会中的市民代表" },
-      { "word": "burgh", "structure": "Scots form", "meaning": "a Scottish town", "meaningCN": "（苏格兰）自治市", "example": "the royal burgh of Stirling", "exampleCN": "斯特灵皇家自治市" },
-      { "word": "citizen", "structure": "Latin civis + -en", "meaning": "a member of a state", "meaningCN": "公民", "example": "citizens' rights", "exampleCN": "公民权利" }
-    ],
-    "latinEntries": [
-      { "word": "civis", "structure": "Latin noun, cognate field", "meaning": "citizen", "meaningCN": "公民（citizen 与 civic 之源，同义场对照）" },
-      { "word": "civitas", "structure": "Latin noun", "meaning": "citizenship, city-state", "meaningCN": "公民权；城邦" }
+    "forms": [
+      {
+        "label": "复数",
+        "form": "burghers"
+      }
     ],
     "derivatives": [
-      { "word": "burgherdom", "pos": "n.", "zh": "市民阶层" }
-    ]
+      {
+        "word": "borough",
+        "pos": "n.",
+        "zh": "同族词，义为「自治市镇」（英语本土形式）"
+      },
+      {
+        "word": "burgess",
+        "pos": "n.",
+        "zh": "同族词，义为「市民；（英史）自治市议员」"
+      },
+      {
+        "word": "bourgeois",
+        "pos": "n.",
+        "zh": "法语同源词，义为「中产阶级者；市民阶层的一分子」"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "A town citizen",
+        "titleCN": "市民；城镇自由民",
+        "definition": "an inhabitant of a borough who holds full civic rights",
+        "definitionCN": "享有完整市民权的镇区居民",
+        "example": "Only burghers could vote in the town assembly.",
+        "exampleCN": "只有市民才能在镇民大会上投票。",
+        "why": "The Germanic root names the fortified place; its qualified residents take the name.",
+        "whyCN": "日耳曼词根指设防之地，其合格居民遂以此为称。"
+      },
+      {
+        "no": "02",
+        "title": "A prosperous town dweller",
+        "titleCN": "殷实市民；体面的镇上人家",
+        "definition": "a comfortably off, stolid member of the town middle class",
+        "definitionCN": "镇上小康而持重的中产人士",
+        "example": "The painter scorned the tastes of the wealthy burghers.",
+        "exampleCN": "画家看不惯富商市民的品味。",
+        "why": "Civic standing implied property, so the word drifted toward class meaning.",
+        "whyCN": "市民身份意味着有产，词义遂滑向阶层含义。"
+      },
+      {
+        "no": "03",
+        "title": "A Boer settler in South Africa",
+        "titleCN": "（南非史）布尔公民",
+        "definition": "in South African history, a full citizen of a Boer republic",
+        "definitionCN": "南非历史上布尔共和国的正式公民",
+        "example": "The burghers mustered at the river crossing.",
+        "exampleCN": "布尔公民在渡口集结。",
+        "why": "Dutch settlers kept the civic term for citizens of their own republics.",
+        "whyCN": "荷兰裔移民沿用这一市民称呼指本国公民。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Burgher is borough dressed in Dutch-German clothes: the fortified town and its citizen.",
+        "cn": "burgher 是 borough 的荷德语装束：设防城镇及其市民。"
+      },
+      "items": [
+        {
+          "era": "PROTO-INDO-EUROPEAN",
+          "en": "a reconstructed root bhergh meant high, then a fortified height.",
+          "cn": "重构词根 bhergh 意为高，引申为筑于高处的堡垒。"
+        },
+        {
+          "era": "GERMANIC",
+          "en": "burg meant a hill fort, then a walled town.",
+          "cn": "日耳曼语 burg 先指山寨，后指城墙城镇。"
+        },
+        {
+          "era": "MIDDLE DUTCH / GERMAN",
+          "en": "borghere and Bürger named the full citizen of such a town.",
+          "cn": "中古荷兰语 borghere、德语 Bürger 指城镇正式公民。"
+        },
+        {
+          "era": "ENGLISH, 16TH–18TH C.",
+          "en": "burgher entered English for citizens of continental and Boer towns.",
+          "cn": "十六至十八世纪 burgher 进入英语，指欧陆及布尔城镇的市民。"
+        },
+        {
+          "era": "PRESENT DAY ENGLISH",
+          "en": "burgher survives in historical and South African contexts.",
+          "cn": "如今 burgher 存留于历史语境与南非英语。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "Burgher heads the whole burg family of towns and citizens.",
+        "cn": "burgher 是整个 burg 城镇词族的带头者。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "borough",
+              "ipa": "/ˈbʌrə/",
+              "tag": "same root",
+              "definition": "a town or district with local government",
+              "definitionCN": "自治市镇，同根英语本土形式"
+            },
+            {
+              "word": "burgess",
+              "ipa": "/ˈbɜːdʒɪs/",
+              "tag": "same root",
+              "definition": "a borough citizen or representative",
+              "definitionCN": "市民；自治市代表，同根词"
+            },
+            {
+              "word": "burg",
+              "ipa": "/bɜːɡ/",
+              "tag": "same root",
+              "definition": "a town, informal American",
+              "definitionCN": "（美口）小城，同根俚语形式"
+            },
+            {
+              "word": "burger",
+              "ipa": "/ˈbɜːɡə/",
+              "tag": "spelling",
+              "definition": "a hamburger sandwich",
+              "definitionCN": "汉堡包，发音相同但词源完全无关"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "bourgeois",
+              "ipa": "/ˈbʊəʒwɑː/",
+              "tag": "near meaning",
+              "definition": "a member of the town middle class",
+              "definitionCN": "中产市民，法语同源词"
+            },
+            {
+              "word": "citizen",
+              "ipa": "/ˈsɪtɪzən/",
+              "tag": "near meaning",
+              "definition": "a legal member of a city or state",
+              "definitionCN": "公民，市民"
+            },
+            {
+              "word": "freeman",
+              "ipa": "/ˈfriːmən/",
+              "tag": "near meaning",
+              "definition": "one holding civic freedom of a town",
+              "definitionCN": "自由民，享有市民权者"
+            },
+            {
+              "word": "burgherdom",
+              "ipa": "/ˈbɜːɡədəm/",
+              "tag": "near meaning",
+              "definition": "the burgher class collectively",
+              "definitionCN": "市民阶层整体"
+            },
+            {
+              "word": "townsman",
+              "ipa": "/ˈtaʊnzmən/",
+              "tag": "near meaning",
+              "definition": "a male resident of a town",
+              "definitionCN": "镇民，城里人"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "The burgh is the walled town; its qualifying dwellers are burghers.",
+        "cn": "burgh 是设防城镇，够格的居民便是 burghers。"
+      },
+      "normal": [
+        {
+          "en": "Borough, burg, burger, burgher — one family, four costumes.",
+          "cn": "borough、burg、burger、burgher——一族四装。"
+        },
+        {
+          "en": "Burger the sandwich is a false cousin.",
+          "cn": "汉堡包那个 burger 是冒牌亲戚。"
+        },
+        {
+          "en": "German Bürger still means citizen today.",
+          "cn": "德语 Bürger 至今仍指公民。"
+        },
+        {
+          "en": "Edinburgh keeps the old burgh spelling.",
+          "cn": "爱丁堡 Edinburgh 保留着古体 burgh。"
+        },
+        {
+          "en": "Boer burghers were citizens of their republics.",
+          "cn": "布尔 burghers 是其共和国的公民。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "See guild banners hang over a cobbled square.",
+          "cn": "看见行会旗帜挂在鹅卵石广场上空。"
+        },
+        {
+          "en": "Hear the town bell call the assembly.",
+          "cn": "听镇钟召集居民大会。"
+        },
+        {
+          "en": "Feel heavy keys of a burgher's shop door.",
+          "cn": "感受市民店铺大门上沉甸甸的钥匙。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "The burghers protested the new wall tax.",
+        "cn": "市民们抗议新征的城墙税。"
+      },
+      {
+        "en": "Rembrandt painted Amsterdam's proud burghers.",
+        "cn": "伦勃朗画下了阿姆斯特丹自豪的市民。"
+      },
+      {
+        "en": "Boer burghers served in the commando system.",
+        "cn": "布尔公民在民团体系中服役。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「泊阁」——市民的宅子在镇上「泊」着如「阁」楼，安稳殷实。",
+      "word": "burgher"
+    },
+    "root": "burgher 经由中古荷兰语 borghere、德语 Bürger，源自日耳曼语 burg（设防之地，上溯原始印欧语重构词根 bhergh「高、堡垒」），与英语 borough、burg 同根异形，指「拥有城镇市民权者」。",
+    "sensesIntro": {
+      "en": "The citizen of a walled town first means full civic rights, then comfortable property, and in South Africa a republican citizen.",
+      "cn": "设防城镇的市民，先指完整市民权，继而指殷实有产，在南非则指共和国公民。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: a walled town and its key-holding citizens.",
+        "cn": "核心意象：城墙环绕的城镇与握有钥匙的市民。"
+      },
+      "chain": [
+        "WALLED TOWN",
+        "CITIZENSHIP",
+        "PROPERTY",
+        "RESPECTABILITY",
+        "GUILD",
+        "REPUBLIC"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "burghers at the town gate",
+          "cn": "镇门前的市民"
+        },
+        {
+          "senses": "01",
+          "en": "burgher rights and duties",
+          "cn": "市民的权利与义务"
+        },
+        {
+          "senses": "02",
+          "en": "a portrait of rich burghers",
+          "cn": "富商市民的肖像画"
+        },
+        {
+          "senses": "02",
+          "en": "the stolid burgher class",
+          "cn": "持重的市民阶层"
+        },
+        {
+          "senses": "01 · 03",
+          "en": "burghers mustered for the commando",
+          "cn": "集结为民团的布尔公民"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Burgher adds the person suffix to the town root: the town made human.",
+        "cn": "burgher 在城镇词根上加指人后缀：把城镇变成人。"
+      },
+      "latinIntro": {
+        "en": "The root is Germanic; Latin offered no rival except civis.",
+        "cn": "词根属日耳曼语源，拉丁语只有 civis 可作对照。"
+      },
+      "items": [
+        {
+          "word": "bhergh-",
+          "structure": "Proto-Indo-European root",
+          "meaning": "high; fortified hill",
+          "meaningCN": "高；设防高地",
+          "example": "Gothic bairgs",
+          "exampleCN": "哥特语 bairgs（如词源所示）"
+        },
+        {
+          "word": "burg",
+          "structure": "Germanic noun",
+          "meaning": "fort, walled town",
+          "meaningCN": "堡垒，城墙城镇",
+          "example": "Hamburg",
+          "exampleCN": "汉堡（Ham- 城堡）"
+        },
+        {
+          "word": "burgher",
+          "structure": "Dutch borghere, borrowed",
+          "meaning": "a town citizen",
+          "meaningCN": "市民",
+          "example": "the burghers of Ghent",
+          "exampleCN": "根特的市民"
+        },
+        {
+          "word": "borough",
+          "structure": "Old English burh",
+          "meaning": "a self-governing town",
+          "meaningCN": "自治市镇",
+          "example": "a parliamentary borough",
+          "exampleCN": "议会选区市镇"
+        },
+        {
+          "word": "burg",
+          "structure": "American informal",
+          "meaning": "a small town",
+          "meaningCN": "小城镇",
+          "example": "a sleepy burg",
+          "exampleCN": "沉睡的小城"
+        },
+        {
+          "word": "Bürger",
+          "structure": "German form",
+          "meaning": "citizen",
+          "meaningCN": "公民（德语同源词）",
+          "example": "Bürgermeister",
+          "exampleCN": "市长（Bürger 的衍生官职）"
+        },
+        {
+          "word": "bourgeois",
+          "structure": "French, from burg",
+          "meaning": "middle-class person",
+          "meaningCN": "中产者",
+          "example": "petit bourgeois",
+          "exampleCN": "小资产阶级"
+        },
+        {
+          "word": "burgess",
+          "structure": "burge + -ess",
+          "meaning": "a borough citizen",
+          "meaningCN": "自治市市民",
+          "example": "burgesses in Parliament",
+          "exampleCN": "议会中的市民代表"
+        },
+        {
+          "word": "burgh",
+          "structure": "Scots form",
+          "meaning": "a Scottish town",
+          "meaningCN": "（苏格兰）自治市",
+          "example": "the royal burgh of Stirling",
+          "exampleCN": "斯特灵皇家自治市"
+        },
+        {
+          "word": "citizen",
+          "structure": "Latin civis + -en",
+          "meaning": "a member of a state",
+          "meaningCN": "公民",
+          "example": "citizens' rights",
+          "exampleCN": "公民权利"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "civis",
+          "structure": "Latin noun, cognate field",
+          "meaning": "citizen",
+          "meaningCN": "公民（citizen 与 civic 之源，同义场对照）"
+        },
+        {
+          "word": "civitas",
+          "structure": "Latin noun",
+          "meaning": "citizenship, city-state",
+          "meaningCN": "公民权；城邦"
+        }
+      ],
+      "derivatives": [
+        {
+          "word": "burgherdom",
+          "pos": "n.",
+          "zh": "市民阶层"
+        }
+      ]
+    }
   }
-}
+]

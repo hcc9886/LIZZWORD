@@ -1,141 +1,401 @@
-{
-  "word": "butane",
-  "ipa_uk": "/ˈbjuːteɪn/",
-  "ipa_us": "/ˈbjuːteɪn/",
-  "definition_zh": "丁烷（一种可燃气体，用作燃料）",
-  "definition_en": "a flammable gaseous hydrocarbon of the alkane series, used as fuel",
-  "core_image": "打火机里那罐被压成液体的无色气体",
-  "scene": "便利店货架上摆着一排给打火机充气的小罐。The lighter was refilled with butane at the shop.",
-  "sceneCN": "这里 butane 是「丁烷」（第 1 个义项：四碳烷烃燃料气体）；句意是这只打火机在店里充了丁烷气。",
-  "pos": [
-    { "tag": "n.", "zh": "丁烷；一种可燃气体燃料" }
-  ],
-  "collocations": [
-    { "phrase": "butane gas", "zh": "丁烷气体" },
-    { "phrase": "a butane lighter", "zh": "丁烷打火机" },
-    { "phrase": "liquid butane", "zh": "液化丁烷" },
-    { "phrase": "a butane cylinder", "zh": "丁烷气罐" },
-    { "phrase": "burn butane", "zh": "燃烧丁烷" },
-    { "phrase": "butane canister", "zh": "丁烷气瓶" }
-  ],
-  "forms": [
-    { "label": "不可数（物质名词）", "form": "butane" }
-  ],
-  "derivatives": [
-    { "word": "butyl", "pos": "n.", "zh": "同词族名词，义为「丁基」（丁烷失去一个氢原子后的基团）" },
-    { "word": "butylene", "pos": "n.", "zh": "同词族名词，义为「丁烯」（含双键的同类烃）" },
-    { "word": "propane", "pos": "n.", "zh": "同系列词，义为「丙烷」（三碳烷烃气体）" }
-  ],
-  "senses": [
-    {
-      "no": "01",
-      "title": "The fuel gas",
-      "titleCN": "丁烷燃料气",
-      "definition": "a colourless, easily liquefied gas of the alkane series, burned as fuel in lighters, stoves and heaters",
-      "definitionCN": "烷烃系列中一种无色易液化的气体，用作打火机、炉具和取暖器的燃料",
-      "example": "The camp stove runs on butane.",
-      "exampleCN": "这座野营炉用丁烷作燃料。",
-      "why": "The chemical name was built systematically for a four-carbon alkane, and the use as fuel followed the discovery of the gas in petroleum.",
-      "whyCN": "这个化学名称按系统命名法为四碳烷烃而造，石油中发现的这种气体随即被用作燃料。"
-    },
-    {
-      "no": "02",
-      "title": "The liquefied fuel in cylinders",
-      "titleCN": "罐装液化丁烷",
-      "definition": "butane compressed into liquid form and sold in canisters for portable cooking and heating",
-      "definitionCN": "被压成液体装罐出售、用于便携炊具和取暖的丁烷",
-      "example": "We packed two butane cylinders for the trip.",
-      "exampleCN": "我们为这次旅行带了两罐液化丁烷。",
-      "why": "The same substance under pressure becomes a liquid, and everyday speech names the canister content by the gas.",
-      "whyCN": "同一种物质加压后成为液体，日常语言仍以气体之名指称罐中物。"
-    }
-  ],
-  "etymology": {
-    "intro": { "en": "Butane is a systematic chemical name built from butyric acid plus the alkane ending -ane.", "cn": "butane 是系统性化学名称，由丁酸词根加烷烃后缀 -ane 构成。" },
-    "items": [
-      { "era": "LATIN BUTYRUM", "en": "butyrum meant butter, a word borrowed from Greek boutyron.", "cn": "拉丁语 butyrum 意为黄油，借自希腊语 boutyron。" },
-      { "era": "CHEMISTRY, 19TH C.", "en": "butyric acid, the acid of rancid butter, was named from the Latin word.", "cn": "十九世纪化学家从腐臭黄油中分离出的酸被命名为丁酸（butyric acid）。" },
-      { "era": "COINED ABOUT 1860S", "en": "chemists replaced the -ic acid ending with -ane to name the four-carbon hydrocarbon.", "cn": "化学家把 -ic acid 词尾换成 -ane，为四碳烃命名。" },
-      { "era": "ENGLISH ADOPTION", "en": "butane entered English as the accepted name of the gas in petroleum.", "cn": "butane 作为石油中该气体的通用名进入英语。" },
-      { "era": "MODERN ENGLISH", "en": "the word now belongs to fuel vocabulary, alongside propane.", "cn": "如今这个词归入燃料词汇，与 propane 并列。" }
-    ]
-  },
-  "similar": {
-    "note": { "en": "The look-alike group shares the butter-derived chemical stem; the near-meaning group lists fellow fuel gases.", "cn": "形近组共用「黄油」衍生的化学词干；近义组是同类燃料气体。" },
-    "groups": [
+[
+  {
+    "word": "butane",
+    "ipa_uk": "/ˈbjuːteɪn/",
+    "ipa_us": "/ˈbjuːteɪn/",
+    "definition_zh": "丁烷（一种可燃气体，用作燃料）",
+    "definition_en": "a flammable gaseous hydrocarbon of the alkane series, used as fuel",
+    "core_image": "打火机里那罐被压成液体的无色气体",
+    "scene": "便利店货架上摆着一排给打火机充气的小罐。The lighter was refilled with butane at the shop.",
+    "sceneCN": "这里 butane 是「丁烷」（第 1 个义项：四碳烷烃燃料气体）；句意是这只打火机在店里充了丁烷气。",
+    "pos": [
       {
-        "heading": "LOOK-ALIKE",
-        "entries": [
-          { "word": "butyl", "ipa": "/ˈbjuːtɪl/", "tag": "same root", "definition": "the four-carbon group derived from butane", "definitionCN": "丁基，由 butane 衍生的四碳基团" },
-          { "word": "butylene", "ipa": "/ˈbjuːtɪliːn/", "tag": "same root", "definition": "a four-carbon alkene with a double bond", "definitionCN": "丁烯，含双键的四碳烃" },
-          { "word": "butyric", "ipa": "/bjuːˈtɪrɪk/", "tag": "same root", "definition": "of or from butyric acid, as in rancid butter", "definitionCN": "丁酸的，气味似腐臭黄油的" },
-          { "word": "isobutane", "ipa": "/ˌaɪsəˈbjuːteɪn/", "tag": "same root", "definition": "the branched isomer of butane", "definitionCN": "异丁烷，butane 的支链同分异构体" }
-        ]
+        "tag": "n.",
+        "zh": "丁烷；一种可燃气体燃料"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "butane gas",
+        "zh": "丁烷气体"
       },
       {
-        "heading": "NEAR MEANING",
-        "entries": [
-          { "word": "propane", "ipa": "/ˈprəʊpeɪn/", "tag": "near meaning", "definition": "a three-carbon fuel gas of the same series", "definitionCN": "丙烷，同系列三碳燃料气体" },
-          { "word": "methane", "ipa": "/ˈmiːθeɪn/", "tag": "near meaning", "definition": "the simplest alkane fuel gas", "definitionCN": "甲烷，最简单的烷烃气体" },
-          { "word": "kerosene", "ipa": "/ˈkerəsiːn/", "tag": "related", "definition": "a liquid fuel distilled from petroleum", "definitionCN": "煤油，石油分馏出的液体燃料" },
-          { "word": "naphtha", "ipa": "/ˈnæfθə/", "tag": "related", "definition": "a volatile liquid hydrocarbon mixture", "definitionCN": "石脑油，易挥发的液态烃混合物" }
-        ]
+        "phrase": "a butane lighter",
+        "zh": "丁烷打火机"
+      },
+      {
+        "phrase": "liquid butane",
+        "zh": "液化丁烷"
+      },
+      {
+        "phrase": "a butane cylinder",
+        "zh": "丁烷气罐"
+      },
+      {
+        "phrase": "burn butane",
+        "zh": "燃烧丁烷"
+      },
+      {
+        "phrase": "butane canister",
+        "zh": "丁烷气瓶"
       }
-    ]
-  },
-  "mnemonics": {
-    "normalIntro": { "en": "Trace the name from butter to acid to gas.", "cn": "顺着名字走：黄油 → 丁酸 → 丁烷。" },
-    "normal": [
-      { "en": "Latin butyrum means butter.", "cn": "拉丁语 butyrum 意为黄油。" },
-      { "en": "Butyric acid smells of rancid butter.", "cn": "丁酸的气味正是腐臭的黄油味。" },
-      { "en": "The -ane ending marks a saturated hydrocarbon.", "cn": "-ane 词尾标志饱和烃。" },
-      { "en": "Butane and propane are neighbours in the alkane series.", "cn": "丁烷与丙烷是烷烃系列的邻居。" },
-      { "en": "Lighter refills are sold as butane gas.", "cn": "打火机充气液就以 butane gas 出售。" }
     ],
-    "abstract": [
-      { "en": "See a click of the lighter wheel and a blue flame spring up.", "cn": "看打火机砂轮一擦，蓝色火苗蹿起。" },
-      { "en": "Picture rancid butter on a chemist's bench.", "cn": "想象化学家台面上放着一块腐臭黄油。" },
-      { "en": "Feel the cold of the gas canister as it boils inside.", "cn": "感受气罐在手心里发凉，罐内气体正在沸腾。" }
-    ]
-  },
-  "examples": [
-    { "en": "Butane burns cleanly and leaves little residue.", "cn": "丁烷燃烧清洁，几乎不留残渣。" },
-    { "en": "The lighter ran dry of butane in mid-winter.", "cn": "隆冬时节，打火机的丁烷气用完了。" },
-    { "en": "Propane and butane are stored as liquids under pressure.", "cn": "丙烷和丁烷加压后以液态储存。" }
-  ],
-  "dict_mnemonic": { "note": "谐音记忆 · 非词源", "text": "「不吞」——丁烷是有毒气体，千万「不」能「吞」下去；点火做饭倒是很在行。", "word": "butane" },
-  "root": "butane 由拉丁语 butyrum「黄油」（借自希腊语 boutyron）派生的 butyric acid「丁酸」的词干，加系统化学后缀 -ane（饱和烃）构成；丁酸因气味与黄油相关得名，丁烷之名承其词干。",
-  "sensesIntro": { "en": "One chemical name covers two everyday forms: the gas that burns and the liquid packed in cylinders.", "cn": "一个化学名称对应两种日常形态：燃烧的气体，以及罐装的液体。" },
-  "semanticMap": {
-    "core": { "en": "CORE IMAGE: a blue flame leaping from a lighter's nozzle.", "cn": "核心意象：打火机喷嘴上蹿起的蓝色火苗。" },
-    "chain": ["BUTTER NAME", "FOUR CARBONS", "PRESSURE", "LIQUEFACTION", "COMBUSTION", "FUEL"],
-    "branches": [
-      { "senses": "01", "en": "a camp stove running on butane", "cn": "用丁烷的野营炉" },
-      { "senses": "01", "en": "butane gas in a lighter", "cn": "打火机里的丁烷气" },
-      { "senses": "02", "en": "two butane cylinders for the trip", "cn": "旅行带的丁烷气罐" },
-      { "senses": "01 · 02", "en": "same gas, two states: flame and canister", "cn": "同一气体，两种形态：火苗与罐" },
-      { "senses": "01", "en": "butane beside propane on the shelf", "cn": "货架上与丙烷并列的丁烷" }
-    ]
-  },
-  "affixes": {
-    "intro": { "en": "The name is a textbook compound of a butter stem and the alkane suffix -ane.", "cn": "这个名字是「黄油」词干加烷烃后缀 -ane 的教科书式组合。" },
-    "latinIntro": { "en": "Latin butyrum, butter, borrowed from Greek, supplies the stem.", "cn": "拉丁语 butyrum（黄油，借自希腊语）提供词干。" },
-    "items": [
-      { "word": "butyrum", "structure": "Latin noun", "meaning": "butter", "meaningCN": "黄油", "example": "butyrum e lacte", "exampleCN": "乳制黄油（拉丁语）" },
-      { "word": "butyric", "structure": "butyrum + -ic", "meaning": "relating to butter", "meaningCN": "黄油的；丁酸的", "example": "butyric acid", "exampleCN": "丁酸" },
-      { "word": "-ane", "structure": "systematic alkane suffix", "meaning": "saturated hydrocarbon", "meaningCN": "饱和烃后缀", "example": "methane, propane, butane", "exampleCN": "如甲烷、丙烷、丁烷" },
-      { "word": "butane", "structure": "butyr- + -ane", "meaning": "the four-carbon alkane", "meaningCN": "四碳烷烃（丁烷）", "example": "liquid butane", "exampleCN": "液化丁烷" },
-      { "word": "butyl", "structure": "butane + -yl", "meaning": "the four-carbon radical", "meaningCN": "丁基", "example": "butyl rubber", "exampleCN": "丁基橡胶" },
-      { "word": "butylene", "structure": "butyl + -ene", "meaning": "a four-carbon alkene", "meaningCN": "丁烯", "example": "polybutylene pipe", "exampleCN": "聚丁烯管材" },
-      { "word": "methane", "structure": "systematic name, one carbon", "meaning": "the simplest alkane", "meaningCN": "甲烷", "example": "methane emissions", "exampleCN": "甲烷排放" },
-      { "word": "propane", "structure": "systematic name, three carbons", "meaning": "the three-carbon alkane", "meaningCN": "丙烷", "example": "a propane grill", "exampleCN": "丙烷烤炉" }
-    ],
-    "latinEntries": [
-      { "word": "butyrum", "structure": "Latin noun (n.)", "meaning": "butter, from Greek boutyron", "meaningCN": "黄油，源自希腊语" }
+    "forms": [
+      {
+        "label": "不可数（物质名词）",
+        "form": "butane"
+      }
     ],
     "derivatives": [
-      { "word": "butyl", "pos": "n.", "zh": "丁基" },
-      { "word": "butylene", "pos": "n.", "zh": "丁烯" }
-    ]
+      {
+        "word": "butyl",
+        "pos": "n.",
+        "zh": "同词族名词，义为「丁基」（丁烷失去一个氢原子后的基团）"
+      },
+      {
+        "word": "butylene",
+        "pos": "n.",
+        "zh": "同词族名词，义为「丁烯」（含双键的同类烃）"
+      },
+      {
+        "word": "propane",
+        "pos": "n.",
+        "zh": "同系列词，义为「丙烷」（三碳烷烃气体）"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "The fuel gas",
+        "titleCN": "丁烷燃料气",
+        "definition": "a colourless, easily liquefied gas of the alkane series, burned as fuel in lighters, stoves and heaters",
+        "definitionCN": "烷烃系列中一种无色易液化的气体，用作打火机、炉具和取暖器的燃料",
+        "example": "The camp stove runs on butane.",
+        "exampleCN": "这座野营炉用丁烷作燃料。",
+        "why": "The chemical name was built systematically for a four-carbon alkane, and the use as fuel followed the discovery of the gas in petroleum.",
+        "whyCN": "这个化学名称按系统命名法为四碳烷烃而造，石油中发现的这种气体随即被用作燃料。"
+      },
+      {
+        "no": "02",
+        "title": "The liquefied fuel in cylinders",
+        "titleCN": "罐装液化丁烷",
+        "definition": "butane compressed into liquid form and sold in canisters for portable cooking and heating",
+        "definitionCN": "被压成液体装罐出售、用于便携炊具和取暖的丁烷",
+        "example": "We packed two butane cylinders for the trip.",
+        "exampleCN": "我们为这次旅行带了两罐液化丁烷。",
+        "why": "The same substance under pressure becomes a liquid, and everyday speech names the canister content by the gas.",
+        "whyCN": "同一种物质加压后成为液体，日常语言仍以气体之名指称罐中物。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Butane is a systematic chemical name built from butyric acid plus the alkane ending -ane.",
+        "cn": "butane 是系统性化学名称，由丁酸词根加烷烃后缀 -ane 构成。"
+      },
+      "items": [
+        {
+          "era": "LATIN BUTYRUM",
+          "en": "butyrum meant butter, a word borrowed from Greek boutyron.",
+          "cn": "拉丁语 butyrum 意为黄油，借自希腊语 boutyron。"
+        },
+        {
+          "era": "CHEMISTRY, 19TH C.",
+          "en": "butyric acid, the acid of rancid butter, was named from the Latin word.",
+          "cn": "十九世纪化学家从腐臭黄油中分离出的酸被命名为丁酸（butyric acid）。"
+        },
+        {
+          "era": "COINED ABOUT 1860S",
+          "en": "chemists replaced the -ic acid ending with -ane to name the four-carbon hydrocarbon.",
+          "cn": "化学家把 -ic acid 词尾换成 -ane，为四碳烃命名。"
+        },
+        {
+          "era": "ENGLISH ADOPTION",
+          "en": "butane entered English as the accepted name of the gas in petroleum.",
+          "cn": "butane 作为石油中该气体的通用名进入英语。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "the word now belongs to fuel vocabulary, alongside propane.",
+          "cn": "如今这个词归入燃料词汇，与 propane 并列。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "The look-alike group shares the butter-derived chemical stem; the near-meaning group lists fellow fuel gases.",
+        "cn": "形近组共用「黄油」衍生的化学词干；近义组是同类燃料气体。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "butyl",
+              "ipa": "/ˈbjuːtɪl/",
+              "tag": "same root",
+              "definition": "the four-carbon group derived from butane",
+              "definitionCN": "丁基，由 butane 衍生的四碳基团"
+            },
+            {
+              "word": "butylene",
+              "ipa": "/ˈbjuːtɪliːn/",
+              "tag": "same root",
+              "definition": "a four-carbon alkene with a double bond",
+              "definitionCN": "丁烯，含双键的四碳烃"
+            },
+            {
+              "word": "butyric",
+              "ipa": "/bjuːˈtɪrɪk/",
+              "tag": "same root",
+              "definition": "of or from butyric acid, as in rancid butter",
+              "definitionCN": "丁酸的，气味似腐臭黄油的"
+            },
+            {
+              "word": "isobutane",
+              "ipa": "/ˌaɪsəˈbjuːteɪn/",
+              "tag": "same root",
+              "definition": "the branched isomer of butane",
+              "definitionCN": "异丁烷，butane 的支链同分异构体"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "propane",
+              "ipa": "/ˈprəʊpeɪn/",
+              "tag": "near meaning",
+              "definition": "a three-carbon fuel gas of the same series",
+              "definitionCN": "丙烷，同系列三碳燃料气体"
+            },
+            {
+              "word": "methane",
+              "ipa": "/ˈmiːθeɪn/",
+              "tag": "near meaning",
+              "definition": "the simplest alkane fuel gas",
+              "definitionCN": "甲烷，最简单的烷烃气体"
+            },
+            {
+              "word": "kerosene",
+              "ipa": "/ˈkerəsiːn/",
+              "tag": "related",
+              "definition": "a liquid fuel distilled from petroleum",
+              "definitionCN": "煤油，石油分馏出的液体燃料"
+            },
+            {
+              "word": "naphtha",
+              "ipa": "/ˈnæfθə/",
+              "tag": "related",
+              "definition": "a volatile liquid hydrocarbon mixture",
+              "definitionCN": "石脑油，易挥发的液态烃混合物"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Trace the name from butter to acid to gas.",
+        "cn": "顺着名字走：黄油 → 丁酸 → 丁烷。"
+      },
+      "normal": [
+        {
+          "en": "Latin butyrum means butter.",
+          "cn": "拉丁语 butyrum 意为黄油。"
+        },
+        {
+          "en": "Butyric acid smells of rancid butter.",
+          "cn": "丁酸的气味正是腐臭的黄油味。"
+        },
+        {
+          "en": "The -ane ending marks a saturated hydrocarbon.",
+          "cn": "-ane 词尾标志饱和烃。"
+        },
+        {
+          "en": "Butane and propane are neighbours in the alkane series.",
+          "cn": "丁烷与丙烷是烷烃系列的邻居。"
+        },
+        {
+          "en": "Lighter refills are sold as butane gas.",
+          "cn": "打火机充气液就以 butane gas 出售。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "See a click of the lighter wheel and a blue flame spring up.",
+          "cn": "看打火机砂轮一擦，蓝色火苗蹿起。"
+        },
+        {
+          "en": "Picture rancid butter on a chemist's bench.",
+          "cn": "想象化学家台面上放着一块腐臭黄油。"
+        },
+        {
+          "en": "Feel the cold of the gas canister as it boils inside.",
+          "cn": "感受气罐在手心里发凉，罐内气体正在沸腾。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "Butane burns cleanly and leaves little residue.",
+        "cn": "丁烷燃烧清洁，几乎不留残渣。"
+      },
+      {
+        "en": "The lighter ran dry of butane in mid-winter.",
+        "cn": "隆冬时节，打火机的丁烷气用完了。"
+      },
+      {
+        "en": "Propane and butane are stored as liquids under pressure.",
+        "cn": "丙烷和丁烷加压后以液态储存。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「不吞」——丁烷是有毒气体，千万「不」能「吞」下去；点火做饭倒是很在行。",
+      "word": "butane"
+    },
+    "root": "butane 由拉丁语 butyrum「黄油」（借自希腊语 boutyron）派生的 butyric acid「丁酸」的词干，加系统化学后缀 -ane（饱和烃）构成；丁酸因气味与黄油相关得名，丁烷之名承其词干。",
+    "sensesIntro": {
+      "en": "One chemical name covers two everyday forms: the gas that burns and the liquid packed in cylinders.",
+      "cn": "一个化学名称对应两种日常形态：燃烧的气体，以及罐装的液体。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: a blue flame leaping from a lighter's nozzle.",
+        "cn": "核心意象：打火机喷嘴上蹿起的蓝色火苗。"
+      },
+      "chain": [
+        "BUTTER NAME",
+        "FOUR CARBONS",
+        "PRESSURE",
+        "LIQUEFACTION",
+        "COMBUSTION",
+        "FUEL"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "a camp stove running on butane",
+          "cn": "用丁烷的野营炉"
+        },
+        {
+          "senses": "01",
+          "en": "butane gas in a lighter",
+          "cn": "打火机里的丁烷气"
+        },
+        {
+          "senses": "02",
+          "en": "two butane cylinders for the trip",
+          "cn": "旅行带的丁烷气罐"
+        },
+        {
+          "senses": "01 · 02",
+          "en": "same gas, two states: flame and canister",
+          "cn": "同一气体，两种形态：火苗与罐"
+        },
+        {
+          "senses": "01",
+          "en": "butane beside propane on the shelf",
+          "cn": "货架上与丙烷并列的丁烷"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "The name is a textbook compound of a butter stem and the alkane suffix -ane.",
+        "cn": "这个名字是「黄油」词干加烷烃后缀 -ane 的教科书式组合。"
+      },
+      "latinIntro": {
+        "en": "Latin butyrum, butter, borrowed from Greek, supplies the stem.",
+        "cn": "拉丁语 butyrum（黄油，借自希腊语）提供词干。"
+      },
+      "items": [
+        {
+          "word": "butyrum",
+          "structure": "Latin noun",
+          "meaning": "butter",
+          "meaningCN": "黄油",
+          "example": "butyrum e lacte",
+          "exampleCN": "乳制黄油（拉丁语）"
+        },
+        {
+          "word": "butyric",
+          "structure": "butyrum + -ic",
+          "meaning": "relating to butter",
+          "meaningCN": "黄油的；丁酸的",
+          "example": "butyric acid",
+          "exampleCN": "丁酸"
+        },
+        {
+          "word": "-ane",
+          "structure": "systematic alkane suffix",
+          "meaning": "saturated hydrocarbon",
+          "meaningCN": "饱和烃后缀",
+          "example": "methane, propane, butane",
+          "exampleCN": "如甲烷、丙烷、丁烷"
+        },
+        {
+          "word": "butane",
+          "structure": "butyr- + -ane",
+          "meaning": "the four-carbon alkane",
+          "meaningCN": "四碳烷烃（丁烷）",
+          "example": "liquid butane",
+          "exampleCN": "液化丁烷"
+        },
+        {
+          "word": "butyl",
+          "structure": "butane + -yl",
+          "meaning": "the four-carbon radical",
+          "meaningCN": "丁基",
+          "example": "butyl rubber",
+          "exampleCN": "丁基橡胶"
+        },
+        {
+          "word": "butylene",
+          "structure": "butyl + -ene",
+          "meaning": "a four-carbon alkene",
+          "meaningCN": "丁烯",
+          "example": "polybutylene pipe",
+          "exampleCN": "聚丁烯管材"
+        },
+        {
+          "word": "methane",
+          "structure": "systematic name, one carbon",
+          "meaning": "the simplest alkane",
+          "meaningCN": "甲烷",
+          "example": "methane emissions",
+          "exampleCN": "甲烷排放"
+        },
+        {
+          "word": "propane",
+          "structure": "systematic name, three carbons",
+          "meaning": "the three-carbon alkane",
+          "meaningCN": "丙烷",
+          "example": "a propane grill",
+          "exampleCN": "丙烷烤炉"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "butyrum",
+          "structure": "Latin noun (n.)",
+          "meaning": "butter, from Greek boutyron",
+          "meaningCN": "黄油，源自希腊语"
+        }
+      ],
+      "derivatives": [
+        {
+          "word": "butyl",
+          "pos": "n.",
+          "zh": "丁基"
+        },
+        {
+          "word": "butylene",
+          "pos": "n.",
+          "zh": "丁烯"
+        }
+      ]
+    }
   }
-}
+]

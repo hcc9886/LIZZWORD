@@ -1,143 +1,414 @@
-{
-  "word": "cajolery",
-  "ipa_uk": "/kəˈdʒəʊləri/",
-  "ipa_us": "/kəˈdʒoʊləri/",
-  "definition_zh": "哄骗；甜言蜜语的劝诱",
-  "definition_en": "flattering or coaxing talk used to persuade",
-  "core_image": "一串抹了蜜的恭维话从嘴边流出来",
-  "scene": "旧货摊前，摊主的夸赞一句接一句。No amount of cajolery could lower the old collector's price.",
-  "sceneCN": "这里 cajolery 是「哄骗、甜言蜜语」（第 1 个义项：以恭维劝诱的言语）；句意是任凭摊主百般恭维，老藏家仍不降价。",
-  "pos": [
-    { "tag": "n.", "zh": "哄诱；甜言蜜语；奉承劝诱之词" }
-  ],
-  "collocations": [
-    { "phrase": "resist cajolery", "zh": "顶住哄诱" },
-    { "phrase": "soft cajolery", "zh": "温柔的哄劝" },
-    { "phrase": "gifts and cajolery", "zh": "礼物加甜言" },
-    { "phrase": "with gentle cajolery", "zh": "以温言相哄" },
-    { "phrase": "immune to cajolery", "zh": "不为甜言所动" }
-  ],
-  "forms": [
-    { "label": "复数", "form": "cajoleries" },
-    { "label": "动词（同根）", "form": "cajole" }
-  ],
-  "derivatives": [
-    { "word": "cajole", "pos": "v.", "zh": "同根动词，义为「哄骗；甜言劝诱」" },
-    { "word": "cajolingly", "pos": "adv.", "zh": "由形容词加 -ly 构成，义为「哄劝地」" },
-    { "word": "cajolement", "pos": "n.", "zh": "同根名词，义为「哄诱（行为）」" }
-  ],
-  "senses": [
-    {
-      "no": "01",
-      "title": "Flattering persuasion",
-      "titleCN": "甜言蜜语的劝诱",
-      "definition": "speech that flatters or coaxes in order to win someone over",
-      "definitionCN": "以奉承或哄劝赢取他人的言语",
-      "example": "The salesman's cajolery softened the old customer.",
-      "exampleCN": "推销员的甜言蜜语打动了老主顾。",
-      "why": "The -ery ending names the practice of the verb cajole.",
-      "whyCN": "-ery 词尾把动词 cajole 的行为总其名。"
-    },
-    {
-      "no": "02",
-      "title": "Tactics of gentle deceit",
-      "titleCN": "哄骗的伎俩",
-      "definition": "the strategy or art of getting one's way through soft words",
-      "definitionCN": "以软语达到目的的手段或心术",
-      "example": "Threats failed, so he turned to cajolery.",
-      "exampleCN": "威吓无效，他便改用哄骗。",
-      "why": "What began as talk becomes a recognised tactic.",
-      "whyCN": "言语之术一旦惯用，便成一种策略。"
-    }
-  ],
-  "etymology": {
-    "intro": { "en": "Cajolery is cajole plus the noun suffix -ery, built on the French jay-cage word.", "cn": "cajolery 由 cajole 加名词后缀 -ery 构成，根在法语的「松鸦与笼」。" },
-    "items": [
-      { "era": "PROTO-INDO-EUROPEAN", "en": "behind Latin gaius, a jay, stands a reconstructed root for brightness or colour, uncertain in detail.", "cn": "拉丁语 gaius（松鸦）背后是表「鲜亮、色彩」的重构词根，细节不确定。" },
-      { "era": "LATIN GAIUS", "en": "gaius named the chattering jay.", "cn": "拉丁语 gaius 指聒噪的松鸦。" },
-      { "era": "FRENCH CAJOLER", "en": "cajoler meant to chatter coaxingly, from cage and jay words.", "cn": "法语 cajoler 由「笼」与「松鸦」诸词演变，指甜言哄劝。" },
-      { "era": "ENGLISH, 17TH C.", "en": "English borrowed cajole, then formed cajolery with -ery.", "cn": "十七世纪英语借入 cajole，再以 -ery 构成 cajolery。" },
-      { "era": "MODERN ENGLISH", "en": "cajolery now belongs to the rhetoric of persuasion, often with a sly tone.", "cn": "如今 cajolery 属劝说修辞，常带几分狡黠。" }
-    ]
-  },
-  "similar": {
-    "note": { "en": "The look-alike group is the cajole family; the near-meaning group gathers flattery words.", "cn": "形近组为 cajole 同族；近义组是奉承类词。" },
-    "groups": [
+[
+  {
+    "word": "cajolery",
+    "ipa_uk": "/kəˈdʒəʊləri/",
+    "ipa_us": "/kəˈdʒoʊləri/",
+    "definition_zh": "哄骗；甜言蜜语的劝诱",
+    "definition_en": "flattering or coaxing talk used to persuade",
+    "core_image": "一串抹了蜜的恭维话从嘴边流出来",
+    "scene": "旧货摊前，摊主的夸赞一句接一句。No amount of cajolery could lower the old collector's price.",
+    "sceneCN": "这里 cajolery 是「哄骗、甜言蜜语」（第 1 个义项：以恭维劝诱的言语）；句意是任凭摊主百般恭维，老藏家仍不降价。",
+    "pos": [
       {
-        "heading": "LOOK-ALIKE",
-        "entries": [
-          { "word": "cajole", "ipa": "/kəˈdʒəʊl/", "tag": "derived form", "definition": "to coax with flattery", "definitionCN": "哄骗；劝诱，cajolery 的动词" },
-          { "word": "cajolement", "ipa": "/kəˈdʒəʊlmənt/", "tag": "derived form", "definition": "the act of coaxing", "definitionCN": "哄诱行为" },
-          { "word": "celery", "ipa": "/ˈseləri/", "tag": "spelling", "definition": "a vegetable, unrelated", "definitionCN": "芹菜，仅拼写相近，词源无关" }
-        ]
+        "tag": "n.",
+        "zh": "哄诱；甜言蜜语；奉承劝诱之词"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "resist cajolery",
+        "zh": "顶住哄诱"
       },
       {
-        "heading": "NEAR MEANING",
-        "entries": [
-          { "word": "flattery", "ipa": "/ˈflætəri/", "tag": "near meaning", "definition": "excessive praise to win favour", "definitionCN": "恭维；奉承" },
-          { "word": "wheedling", "ipa": "/ˈwiːdlɪŋ/", "tag": "near meaning", "definition": "sly, flattering persuasion", "definitionCN": "狡黠的哄骗" },
-          { "word": "coaxing", "ipa": "/ˈkəʊksɪŋ/", "tag": "near meaning", "definition": "gentle, persistent persuasion", "definitionCN": "温言哄劝" },
-          { "word": "blandishment", "ipa": "/ˈblændɪʃmənt/", "tag": "near meaning", "definition": "flattering speech to persuade", "definitionCN": "甜言蜜语" },
-          { "word": "ingratiation", "ipa": "/ɪnˌɡreɪʃiˈeɪʃn/", "tag": "near meaning", "definition": "trying to win favour", "definitionCN": "讨好；巴结" }
-        ]
+        "phrase": "soft cajolery",
+        "zh": "温柔的哄劝"
+      },
+      {
+        "phrase": "gifts and cajolery",
+        "zh": "礼物加甜言"
+      },
+      {
+        "phrase": "with gentle cajolery",
+        "zh": "以温言相哄"
+      },
+      {
+        "phrase": "immune to cajolery",
+        "zh": "不为甜言所动"
       }
-    ]
-  },
-  "mnemonics": {
-    "normalIntro": { "en": "Cajolery is cajole with a warehouse of sweet talk attached.", "cn": "cajolery 就是 cajole 加上一座「甜话仓库」。" },
-    "normal": [
-      { "en": "The -ery suffix names a practice, as in trickery.", "cn": "-ery 词尾指某种行径，如 trickery。" },
-      { "en": "Cajolery is the noun; cajole is the verb.", "cn": "cajolery 是名词，cajole 是动词。" },
-      { "en": "Immune to cajolery means flattery does not work.", "cn": "immune to cajolery 指不为甜言所动。" },
-      { "en": "Threats and cajolery are opposite tactics.", "cn": "威吓与哄骗是相反的手段。" },
-      { "en": "Blandishment is its bookish cousin.", "cn": "blandishment 是它的书面近亲。" }
     ],
-    "abstract": [
-      { "en": "Hear a syrup voice pour on the praise.", "cn": "听糖浆般的嗓音把恭维一勺勺浇下来。" },
-      { "en": "See the old man shake his head, unmoved.", "cn": "看老人摇头，不为所动。" },
-      { "en": "Feel a gift being pressed into your hands.", "cn": "感受有人硬把礼物塞进你手里。" }
-    ]
-  },
-  "examples": [
-    { "en": "All her cajolery could not reopen the sealed door.", "cn": "她说尽好话，那扇封死的门仍未打开。" },
-    { "en": "The courtier mixed gifts with cajolery.", "cn": "朝臣礼物与甜言并用。" },
-    { "en": "Bribery and cajolery were the regime's twin tools.", "cn": "贿赂与哄骗是这个政权的双刃。" }
-  ],
-  "dict_mnemonic": { "note": "谐音记忆 · 非词源", "text": "「卡·粥·哩」——哄劝到极致：粥都端到嘴边了，好话一路说到「哩」。", "word": "cajolery" },
-  "root": "cajolery = cajole（法语「如笼中松鸦般甜言聒噪」）加 -ery（表行径的名词后缀）；其根是拉丁语松鸦 gaius；同族词 cajole、cajolement、cajolingly 同出一源。",
-  "sensesIntro": { "en": "The verb's chatter is gathered into a noun: the whole stock of sweet talk, and the trick of using it.", "cn": "动词的聒噪被收进名词：整库甜言蜜语，及其使用的心术。" },
-  "semanticMap": {
-    "core": { "en": "CORE IMAGE: syrup-toned praise poured on a stubborn listener.", "cn": "核心意象：糖浆般的恭维浇向固执的听者。" },
-    "chain": ["CHATTER", "FLATTERY", "SOFT TACTIC", "RESISTANCE TESTED", "FAVOUR WON", "SWEETNESS"],
-    "branches": [
-      { "senses": "01", "en": "the salesman's endless cajolery", "cn": "推销员没完没了的恭维" },
-      { "senses": "01", "en": "gentle cajolery from an aunt", "cn": "姑姑温言相哄" },
-      { "senses": "02", "en": "threats failed, so came cajolery", "cn": "威吓不成就改哄" },
-      { "senses": "02", "en": "immune to gifts and cajolery", "cn": "不为利诱甜言所动" },
-      { "senses": "01 · 02", "en": "the words and the art of using them", "cn": "言语及其运用之术" }
-    ]
-  },
-  "affixes": {
-    "intro": { "en": "The -ery suffix turns verbs into named practices, from trickery to cajolery.", "cn": "-ery 词尾把动词变成「行径」之名，从 trickery 到 cajolery。" },
-    "latinIntro": { "en": "The deep root is the Latin jay gaius, reshaped in French.", "cn": "深层词根是拉丁语松鸦 gaius，在法语中变形。" },
-    "items": [
-      { "word": "gaius", "structure": "Latin noun", "meaning": "a jay", "meaningCN": "松鸦", "example": "gaius picae similis", "exampleCN": "似鹊之鸟（拉丁语）" },
-      { "word": "cajoler", "structure": "French verb", "meaning": "to coax with chatter", "meaningCN": "甜言哄劝", "example": "cajoler une vieille dame", "exampleCN": "哄老太太（法语）" },
-      { "word": "cajole", "structure": "English verb", "meaning": "to flatter into compliance", "meaningCN": "哄骗；劝诱", "example": "cajole a smile", "exampleCN": "哄出笑容" },
-      { "word": "cajolery", "structure": "cajole + -ery", "meaning": "flattering persuasion", "meaningCN": "甜言蜜语", "example": "with soft cajolery", "exampleCN": "以温言相哄" },
-      { "word": "trickery", "structure": "trick + -ery", "meaning": "the practice of tricks", "meaningCN": "诡计", "example": "sheer trickery", "exampleCN": "十足的骗局" },
-      { "word": "flattery", "structure": "flatter + -y", "meaning": "insincere praise", "meaningCN": "奉承", "example": "immune to flattery", "exampleCN": "不为奉承所动" },
-      { "word": "blandishment", "structure": "Latin blandiri", "meaning": "winning speech", "meaningCN": "甜言蜜语", "example": "the blandishments of the court", "exampleCN": "宫廷的甜言蜜语" },
-      { "word": "coaxing", "structure": "coax + -ing", "meaning": "gentle persuasion", "meaningCN": "哄劝", "example": "after much coaxing", "exampleCN": "哄了好久之后" },
-      { "word": "ingratiation", "structure": "Latin gratia", "meaning": "favour-seeking", "meaningCN": "讨好", "example": "shameless ingratiation", "exampleCN": "无耻的巴结" }
-    ],
-    "latinEntries": [
-      { "word": "gaius", "structure": "Late Latin noun (m.)", "meaning": "a jay, a chattering bird", "meaningCN": "松鸦，聒噪之鸟" }
+    "forms": [
+      {
+        "label": "复数",
+        "form": "cajoleries"
+      },
+      {
+        "label": "动词（同根）",
+        "form": "cajole"
+      }
     ],
     "derivatives": [
-      { "word": "cajole", "pos": "v.", "zh": "哄骗；劝诱" },
-      { "word": "cajolement", "pos": "n.", "zh": "哄诱" },
-      { "word": "cajolingly", "pos": "adv.", "zh": "哄劝地" }
-    ]
+      {
+        "word": "cajole",
+        "pos": "v.",
+        "zh": "同根动词，义为「哄骗；甜言劝诱」"
+      },
+      {
+        "word": "cajolingly",
+        "pos": "adv.",
+        "zh": "由形容词加 -ly 构成，义为「哄劝地」"
+      },
+      {
+        "word": "cajolement",
+        "pos": "n.",
+        "zh": "同根名词，义为「哄诱（行为）」"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "Flattering persuasion",
+        "titleCN": "甜言蜜语的劝诱",
+        "definition": "speech that flatters or coaxes in order to win someone over",
+        "definitionCN": "以奉承或哄劝赢取他人的言语",
+        "example": "The salesman's cajolery softened the old customer.",
+        "exampleCN": "推销员的甜言蜜语打动了老主顾。",
+        "why": "The -ery ending names the practice of the verb cajole.",
+        "whyCN": "-ery 词尾把动词 cajole 的行为总其名。"
+      },
+      {
+        "no": "02",
+        "title": "Tactics of gentle deceit",
+        "titleCN": "哄骗的伎俩",
+        "definition": "the strategy or art of getting one's way through soft words",
+        "definitionCN": "以软语达到目的的手段或心术",
+        "example": "Threats failed, so he turned to cajolery.",
+        "exampleCN": "威吓无效，他便改用哄骗。",
+        "why": "What began as talk becomes a recognised tactic.",
+        "whyCN": "言语之术一旦惯用，便成一种策略。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Cajolery is cajole plus the noun suffix -ery, built on the French jay-cage word.",
+        "cn": "cajolery 由 cajole 加名词后缀 -ery 构成，根在法语的「松鸦与笼」。"
+      },
+      "items": [
+        {
+          "era": "PROTO-INDO-EUROPEAN",
+          "en": "behind Latin gaius, a jay, stands a reconstructed root for brightness or colour, uncertain in detail.",
+          "cn": "拉丁语 gaius（松鸦）背后是表「鲜亮、色彩」的重构词根，细节不确定。"
+        },
+        {
+          "era": "LATIN GAIUS",
+          "en": "gaius named the chattering jay.",
+          "cn": "拉丁语 gaius 指聒噪的松鸦。"
+        },
+        {
+          "era": "FRENCH CAJOLER",
+          "en": "cajoler meant to chatter coaxingly, from cage and jay words.",
+          "cn": "法语 cajoler 由「笼」与「松鸦」诸词演变，指甜言哄劝。"
+        },
+        {
+          "era": "ENGLISH, 17TH C.",
+          "en": "English borrowed cajole, then formed cajolery with -ery.",
+          "cn": "十七世纪英语借入 cajole，再以 -ery 构成 cajolery。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "cajolery now belongs to the rhetoric of persuasion, often with a sly tone.",
+          "cn": "如今 cajolery 属劝说修辞，常带几分狡黠。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "The look-alike group is the cajole family; the near-meaning group gathers flattery words.",
+        "cn": "形近组为 cajole 同族；近义组是奉承类词。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "cajole",
+              "ipa": "/kəˈdʒəʊl/",
+              "tag": "derived form",
+              "definition": "to coax with flattery",
+              "definitionCN": "哄骗；劝诱，cajolery 的动词"
+            },
+            {
+              "word": "cajolement",
+              "ipa": "/kəˈdʒəʊlmənt/",
+              "tag": "derived form",
+              "definition": "the act of coaxing",
+              "definitionCN": "哄诱行为"
+            },
+            {
+              "word": "celery",
+              "ipa": "/ˈseləri/",
+              "tag": "spelling",
+              "definition": "a vegetable, unrelated",
+              "definitionCN": "芹菜，仅拼写相近，词源无关"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "flattery",
+              "ipa": "/ˈflætəri/",
+              "tag": "near meaning",
+              "definition": "excessive praise to win favour",
+              "definitionCN": "恭维；奉承"
+            },
+            {
+              "word": "wheedling",
+              "ipa": "/ˈwiːdlɪŋ/",
+              "tag": "near meaning",
+              "definition": "sly, flattering persuasion",
+              "definitionCN": "狡黠的哄骗"
+            },
+            {
+              "word": "coaxing",
+              "ipa": "/ˈkəʊksɪŋ/",
+              "tag": "near meaning",
+              "definition": "gentle, persistent persuasion",
+              "definitionCN": "温言哄劝"
+            },
+            {
+              "word": "blandishment",
+              "ipa": "/ˈblændɪʃmənt/",
+              "tag": "near meaning",
+              "definition": "flattering speech to persuade",
+              "definitionCN": "甜言蜜语"
+            },
+            {
+              "word": "ingratiation",
+              "ipa": "/ɪnˌɡreɪʃiˈeɪʃn/",
+              "tag": "near meaning",
+              "definition": "trying to win favour",
+              "definitionCN": "讨好；巴结"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Cajolery is cajole with a warehouse of sweet talk attached.",
+        "cn": "cajolery 就是 cajole 加上一座「甜话仓库」。"
+      },
+      "normal": [
+        {
+          "en": "The -ery suffix names a practice, as in trickery.",
+          "cn": "-ery 词尾指某种行径，如 trickery。"
+        },
+        {
+          "en": "Cajolery is the noun; cajole is the verb.",
+          "cn": "cajolery 是名词，cajole 是动词。"
+        },
+        {
+          "en": "Immune to cajolery means flattery does not work.",
+          "cn": "immune to cajolery 指不为甜言所动。"
+        },
+        {
+          "en": "Threats and cajolery are opposite tactics.",
+          "cn": "威吓与哄骗是相反的手段。"
+        },
+        {
+          "en": "Blandishment is its bookish cousin.",
+          "cn": "blandishment 是它的书面近亲。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "Hear a syrup voice pour on the praise.",
+          "cn": "听糖浆般的嗓音把恭维一勺勺浇下来。"
+        },
+        {
+          "en": "See the old man shake his head, unmoved.",
+          "cn": "看老人摇头，不为所动。"
+        },
+        {
+          "en": "Feel a gift being pressed into your hands.",
+          "cn": "感受有人硬把礼物塞进你手里。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "All her cajolery could not reopen the sealed door.",
+        "cn": "她说尽好话，那扇封死的门仍未打开。"
+      },
+      {
+        "en": "The courtier mixed gifts with cajolery.",
+        "cn": "朝臣礼物与甜言并用。"
+      },
+      {
+        "en": "Bribery and cajolery were the regime's twin tools.",
+        "cn": "贿赂与哄骗是这个政权的双刃。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「卡·粥·哩」——哄劝到极致：粥都端到嘴边了，好话一路说到「哩」。",
+      "word": "cajolery"
+    },
+    "root": "cajolery = cajole（法语「如笼中松鸦般甜言聒噪」）加 -ery（表行径的名词后缀）；其根是拉丁语松鸦 gaius；同族词 cajole、cajolement、cajolingly 同出一源。",
+    "sensesIntro": {
+      "en": "The verb's chatter is gathered into a noun: the whole stock of sweet talk, and the trick of using it.",
+      "cn": "动词的聒噪被收进名词：整库甜言蜜语，及其使用的心术。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: syrup-toned praise poured on a stubborn listener.",
+        "cn": "核心意象：糖浆般的恭维浇向固执的听者。"
+      },
+      "chain": [
+        "CHATTER",
+        "FLATTERY",
+        "SOFT TACTIC",
+        "RESISTANCE TESTED",
+        "FAVOUR WON",
+        "SWEETNESS"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "the salesman's endless cajolery",
+          "cn": "推销员没完没了的恭维"
+        },
+        {
+          "senses": "01",
+          "en": "gentle cajolery from an aunt",
+          "cn": "姑姑温言相哄"
+        },
+        {
+          "senses": "02",
+          "en": "threats failed, so came cajolery",
+          "cn": "威吓不成就改哄"
+        },
+        {
+          "senses": "02",
+          "en": "immune to gifts and cajolery",
+          "cn": "不为利诱甜言所动"
+        },
+        {
+          "senses": "01 · 02",
+          "en": "the words and the art of using them",
+          "cn": "言语及其运用之术"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "The -ery suffix turns verbs into named practices, from trickery to cajolery.",
+        "cn": "-ery 词尾把动词变成「行径」之名，从 trickery 到 cajolery。"
+      },
+      "latinIntro": {
+        "en": "The deep root is the Latin jay gaius, reshaped in French.",
+        "cn": "深层词根是拉丁语松鸦 gaius，在法语中变形。"
+      },
+      "items": [
+        {
+          "word": "gaius",
+          "structure": "Latin noun",
+          "meaning": "a jay",
+          "meaningCN": "松鸦",
+          "example": "gaius picae similis",
+          "exampleCN": "似鹊之鸟（拉丁语）"
+        },
+        {
+          "word": "cajoler",
+          "structure": "French verb",
+          "meaning": "to coax with chatter",
+          "meaningCN": "甜言哄劝",
+          "example": "cajoler une vieille dame",
+          "exampleCN": "哄老太太（法语）"
+        },
+        {
+          "word": "cajole",
+          "structure": "English verb",
+          "meaning": "to flatter into compliance",
+          "meaningCN": "哄骗；劝诱",
+          "example": "cajole a smile",
+          "exampleCN": "哄出笑容"
+        },
+        {
+          "word": "cajolery",
+          "structure": "cajole + -ery",
+          "meaning": "flattering persuasion",
+          "meaningCN": "甜言蜜语",
+          "example": "with soft cajolery",
+          "exampleCN": "以温言相哄"
+        },
+        {
+          "word": "trickery",
+          "structure": "trick + -ery",
+          "meaning": "the practice of tricks",
+          "meaningCN": "诡计",
+          "example": "sheer trickery",
+          "exampleCN": "十足的骗局"
+        },
+        {
+          "word": "flattery",
+          "structure": "flatter + -y",
+          "meaning": "insincere praise",
+          "meaningCN": "奉承",
+          "example": "immune to flattery",
+          "exampleCN": "不为奉承所动"
+        },
+        {
+          "word": "blandishment",
+          "structure": "Latin blandiri",
+          "meaning": "winning speech",
+          "meaningCN": "甜言蜜语",
+          "example": "the blandishments of the court",
+          "exampleCN": "宫廷的甜言蜜语"
+        },
+        {
+          "word": "coaxing",
+          "structure": "coax + -ing",
+          "meaning": "gentle persuasion",
+          "meaningCN": "哄劝",
+          "example": "after much coaxing",
+          "exampleCN": "哄了好久之后"
+        },
+        {
+          "word": "ingratiation",
+          "structure": "Latin gratia",
+          "meaning": "favour-seeking",
+          "meaningCN": "讨好",
+          "example": "shameless ingratiation",
+          "exampleCN": "无耻的巴结"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "gaius",
+          "structure": "Late Latin noun (m.)",
+          "meaning": "a jay, a chattering bird",
+          "meaningCN": "松鸦，聒噪之鸟"
+        }
+      ],
+      "derivatives": [
+        {
+          "word": "cajole",
+          "pos": "v.",
+          "zh": "哄骗；劝诱"
+        },
+        {
+          "word": "cajolement",
+          "pos": "n.",
+          "zh": "哄诱"
+        },
+        {
+          "word": "cajolingly",
+          "pos": "adv.",
+          "zh": "哄劝地"
+        }
+      ]
+    }
   }
-}
+]

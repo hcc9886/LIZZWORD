@@ -1,407 +1,409 @@
-{
- "word": "cantata",
- "ipa_uk": "/kænˈtɑːtə/",
- "ipa_us": "/kænˈtɑːtə/",
- "definition_zh": "康塔塔；大合唱（声乐套曲）",
- "definition_en": "a musical composition for voices and instruments in several movements, usually on a sacred or dramatic text",
- "core_image": "唱出来的 Sonata：歌手站成一排，管风琴托底，一乐章接一乐章地唱完一个故事",
- "scene": "教堂晨光斜照进彩窗，唱诗班在管风琴前整队。The choir rehearsed Bach's Easter cantata for the holiday service.",
- "sceneCN": "这里 cantata 是「康塔塔」（第 1 个义项：多乐章声乐套曲）；句意是唱诗班为节日礼拜排练巴赫的复活节康塔塔。",
- "pos": [
+[
   {
-   "tag": "n.",
-   "zh": "康塔塔（多乐章声乐套曲）"
-  },
-  {
-   "tag": "n.",
-   "zh": "（泛指）大型合唱作品"
+    "word": "cantata",
+    "ipa_uk": "/kænˈtɑːtə/",
+    "ipa_us": "/kænˈtɑːtə/",
+    "definition_zh": "康塔塔；大合唱（声乐套曲）",
+    "definition_en": "a musical composition for voices and instruments in several movements, usually on a sacred or dramatic text",
+    "core_image": "唱出来的 Sonata：歌手站成一排，管风琴托底，一乐章接一乐章地唱完一个故事",
+    "scene": "教堂晨光斜照进彩窗，唱诗班在管风琴前整队。The choir rehearsed Bach's Easter cantata for the holiday service.",
+    "sceneCN": "这里 cantata 是「康塔塔」（第 1 个义项：多乐章声乐套曲）；句意是唱诗班为节日礼拜排练巴赫的复活节康塔塔。",
+    "pos": [
+      {
+        "tag": "n.",
+        "zh": "康塔塔（多乐章声乐套曲）"
+      },
+      {
+        "tag": "n.",
+        "zh": "（泛指）大型合唱作品"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "a sacred cantata",
+        "zh": "宗教康塔塔"
+      },
+      {
+        "phrase": "a secular cantata",
+        "zh": "世俗康塔塔"
+      },
+      {
+        "phrase": "perform a cantata",
+        "zh": "演出康塔塔"
+      },
+      {
+        "phrase": "Bach's church cantatas",
+        "zh": "巴赫的教堂康塔塔"
+      },
+      {
+        "phrase": "a cantata for soloists and chorus",
+        "zh": "为独唱与合唱而作的康塔塔"
+      },
+      {
+        "phrase": "an Easter cantata",
+        "zh": "复活节康塔塔"
+      }
+    ],
+    "forms": [
+      {
+        "label": "复数",
+        "form": "cantatas"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "cantata-style",
+        "pos": "adj.",
+        "zh": "复合形容词，义为「康塔塔风格的」"
+      },
+      {
+        "word": "cantabile",
+        "pos": "adj.",
+        "zh": "同根音乐术语，义为「如歌的」（意大利语 cantare 同根）"
+      },
+      {
+        "word": "sonata",
+        "pos": "n.",
+        "zh": "对偶借词，义为「奏鸣曲」（同一构词模式，乐器版）"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "A multi-movement vocal work with instruments",
+        "titleCN": "康塔塔；声乐套曲",
+        "definition": "a composition for one or more voices with instrumental accompaniment, in several movements, often on a religious text",
+        "definitionCN": "为独唱或合唱配器乐伴奏、分多个乐章的作品，常取宗教题材",
+        "example": "The church cantata alternates arias with choruses.",
+        "exampleCN": "这首教堂康塔塔在咏叹调与合唱之间交替。",
+        "why": "The Italian name means sung piece, the voice-side twin of the played sonata.",
+        "whyCN": "意大利语原名意为「唱的作品」，是「奏的」奏鸣曲在声乐一侧的孪生词。"
+      },
+      {
+        "no": "02",
+        "title": "A large-scale choral composition generally",
+        "titleCN": "（泛指）大型合唱作品",
+        "definition": "in loose modern use, any substantial work for chorus, soloists, and orchestra",
+        "definitionCN": "现代宽泛用法中，泛指为合唱、独唱与乐队而作的大型作品",
+        "example": "The festival commissioned a cantata honoring the city's founders.",
+        "exampleCN": "音乐节委约了一部致敬城市奠基者的康塔塔。",
+        "why": "Once a genre name, it broadens to cover the family of sung multi-part works.",
+        "whyCN": "它本是体裁名，随后扩展覆盖「多乐章声乐作品」这一整个家族。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Cantata is the Italian feminine past participle of cantare, to sing, coined in the seventeenth century as the sung counterpart of the sonata, the played piece.",
+        "cn": "cantata 是意大利语 cantare（歌唱）的阴性过去分词，十七世纪被造出，作为「演奏的」sonata 在声乐一方的对应词。"
+      },
+      "items": [
+        {
+          "era": "PROTO-INDO-EUROPEAN",
+          "en": "The root *kan- means to sing or chant, ancient and widespread across Indo-European.",
+          "cn": "词根 *kan- 意为歌唱、吟诵，古老且遍布印欧诸语。"
+        },
+        {
+          "era": "LATIN",
+          "en": "Latin cantare is the frequentative of canere, to sing, giving chant, cantor, and incantation.",
+          "cn": "拉丁语 cantare 是 canere（歌唱）的反复动词形式，衍生出 chant、cantor、incantation。"
+        },
+        {
+          "era": "ITALIAN, 17TH C.",
+          "en": "Italian composers coined cantata da cantarsi, a piece to be sung, against sonata, a piece to be sounded.",
+          "cn": "意大利作曲家造出 cantata da cantarsi（供演唱之作），与 sonata（供演奏之作）相对。"
+        },
+        {
+          "era": "ENGLISH, 18TH C.",
+          "en": "English borrowed the term in the early eighteenth century as Italian church music spread north.",
+          "cn": "十八世纪初，随着意大利宗教音乐北传，英语借入了这一术语。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "Today it names both the Baroque church genre and modern festival choral commissions.",
+          "cn": "如今它既指巴洛克教堂体裁，也指现代音乐节的委约合唱作品。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "Cantata belongs to the singing family of cant- words and to the sonata pairing.",
+        "cn": "cantata 属于 cant-「歌唱」词族，并与 sonata 构成一对。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "sonata",
+              "ipa": "/səˈnɑːtə/",
+              "tag": "paired term",
+              "definition": "A multi-movement work for instruments, the played twin of the sung cantata.",
+              "definitionCN": "多乐章器乐作品，是「唱的」康塔塔的「奏的」孪生词。"
+            },
+            {
+              "word": "cantabile",
+              "ipa": "/kænˈtɑːbɪleɪ/",
+              "tag": "same root, music term",
+              "definition": "In a singing style, a direction for instrumental players.",
+              "definitionCN": "如歌地，给器乐演奏者的表情术语，同根。"
+            },
+            {
+              "word": "cantor",
+              "ipa": "/ˈkæntɔːr/",
+              "tag": "same root, person",
+              "definition": "The leader of congregational singing, especially in synagogues and churches.",
+              "definitionCN": "领唱者，尤指犹太会堂或教堂中的领唱。"
+            },
+            {
+              "word": "incantation",
+              "ipa": "/ˌɪnkænˈteɪʃən/",
+              "tag": "same root, ritual word",
+              "definition": "Chanted words believed to have magical power.",
+              "definitionCN": "咒语；念诵的祷文，同根。"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "oratorio",
+              "ipa": "/ˌɒrəˈtɔːrioʊ/",
+              "tag": "near meaning, larger",
+              "definition": "A large sacred choral drama, longer and more theatrical than a cantata.",
+              "definitionCN": "大型宗教合唱剧，篇幅与戏剧性超过康塔塔。"
+            },
+            {
+              "word": "chorale",
+              "ipa": "/kəˈræl/",
+              "tag": "near meaning",
+              "definition": "A Lutheran hymn tune, the building block of many cantatas.",
+              "definitionCN": "路德宗众赞歌，许多康塔塔的素材来源。"
+            },
+            {
+              "word": "motet",
+              "ipa": "/moʊˈtet/",
+              "tag": "near meaning",
+              "definition": "A polyphonic choral work, usually unaccompanied.",
+              "definitionCN": "复调合唱作品，通常无伴奏。"
+            },
+            {
+              "word": "aria",
+              "ipa": "/ˈɑːriə/",
+              "tag": "near meaning, component",
+              "definition": "A solo song within an opera or cantata.",
+              "definitionCN": "咏叹调，歌剧或康塔塔中的独唱段落。"
+            },
+            {
+              "word": "symphony",
+              "ipa": "/ˈsɪmfəni/",
+              "tag": "contrast",
+              "definition": "The purely instrumental large form, no singing required.",
+              "definitionCN": "纯器乐的大型体裁，无需人声，与 cantata 形成对照。"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Five hooks on the sing root and the sonata pairing.",
+        "cn": "五条围绕「歌唱」词根与 sonata 配对关系的记忆钩子。"
+      },
+      "normal": [
+        {
+          "en": "Root core: Italian cantata means a piece that is sung, from cantare.",
+          "cn": "词根核心：意大利语 cantata 意为「唱出来的作品」，出自 cantare。"
+        },
+        {
+          "en": "Twin pair: sonata sounds, cantata sings; one letter separates the pair.",
+          "cn": "孪生配对：sonata 奏、cantata 唱，两个词只差一个字母。"
+        },
+        {
+          "en": "Genre ladder: aria inside cantata inside oratorio, pieces nesting by size.",
+          "cn": "体裁阶梯：aria 在 cantata 之内，cantata 在 oratorio 之内，按规模层层嵌套。"
+        },
+        {
+          "en": "Composer hook: Bach wrote over two hundred church cantatas for the Leipzig calendar.",
+          "cn": "作曲家钩子：巴赫为莱比锡的礼拜年历写了二百多首教堂康塔塔。"
+        },
+        {
+          "en": "Family chorus: chant, cantor, cantabile, incantation all live on cant-.",
+          "cn": "家族合唱：chant、cantor、cantabile、incantation 都住在 cant- 词根上。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "Voices and organ braided together, one movement handing the story to the next.",
+          "cn": "人声与管风琴交织，一个乐章把故事递给下一个乐章。"
+        },
+        {
+          "en": "A hall where the score itself seems to breathe, inhaling at the arias and exhaling in chorus.",
+          "cn": "一座乐谱仿佛在呼吸的音乐厅：咏叹调吸气，合唱吐气。"
+        },
+        {
+          "en": "Two doors in one corridor: this side sings, that side plays.",
+          "cn": "同一条走廊上的两扇门：这边唱，那边奏。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "The high school choir performed a spring cantata for the town.",
+        "cn": "高中合唱团为全镇演出了一部春季康塔塔。"
+      },
+      {
+        "en": "Scholars catalogued the cantatas by liturgical calendar.",
+        "cn": "学者们按礼拜年历为这些康塔塔编目。"
+      },
+      {
+        "en": "Her aria floated above the orchestra in the cantata's second movement.",
+        "cn": "康塔塔第二乐章里，她的咏叹调在乐队之上飘浮。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「坎塔塔」——站在坎（坎）台上又唱「塔塔」两声，台上人声一波接一波，正是多乐章的大合唱康塔塔；联想 sonata 是奏鸣曲，cantata 就是「唱鸣曲」。",
+      "word": "cantata"
+    },
+    "root": "源自意大利语 cantata（cantare「歌唱」的阴性过去分词），可上溯至拉丁语 cantare（canere 的反复体），一般认为出自印欧词根 *kan-（歌唱）。十七世纪意大利作曲家以 cantata（唱的作品）与 sonata（奏的作品）相对；英语于十八世纪初借入。同根词有 chant、cantor、cantabile、incantation。",
+    "sensesIntro": {
+      "en": "From the Baroque sung piece the name widens to any substantial multi-part choral work.",
+      "cn": "从巴洛克的声乐套曲出发，这一名称扩展为泛指一切大型多声部合唱作品。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: voices in movements, a story sung from first aria to final chorus.",
+        "cn": "核心意象：分乐章的人声，一个从首段咏叹调唱到终曲合唱的故事。"
+      },
+      "chain": [
+        "SINGING",
+        "SET PIECE",
+        "MULTI-MOVEMENT FORM",
+        "SACRED TEXT",
+        "CHORUS AND ARIA",
+        "FESTIVAL COMMISSION"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "THE LOFT: the Baroque church cantata over the congregation.",
+          "cn": "唱诗楼：高悬于会众之上的巴洛克教堂康塔塔。"
+        },
+        {
+          "senses": "02",
+          "en": "THE PODIUM: modern choral commissions on secular themes.",
+          "cn": "指挥台：世俗题材的现代委约合唱作品。"
+        },
+        {
+          "senses": "01 · 02",
+          "en": "THE ARCHITECTURE: arias, recitatives, and choruses stacked like floors.",
+          "cn": "建筑结构：咏叹调、宣叙调与合唱如楼层般堆叠。"
+        },
+        {
+          "senses": "01",
+          "en": "THE PAIRING: sonata plays what cantata sings.",
+          "cn": "配对关系：sonata 所奏即 cantata 所唱。"
+        },
+        {
+          "senses": "02",
+          "en": "THE OCCASION: civic and seasonal ceremonies borrowing the sacred form.",
+          "cn": "场合：市民与节庆仪式借用这一宗教形式。"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Cantata is the Italian past participle of cantare, sung, one half of the sing-play naming pair.",
+        "cn": "cantata 是意大利语 cantare 的过去分词「被唱的」，是「唱-奏」命名配对的一半。"
+      },
+      "latinIntro": {
+        "en": "The cantare root of repeated singing feeds a wide sacred and musical family.",
+        "cn": "cantare（反复歌唱）词根滋养出一个庞大的宗教与音乐词族。"
+      },
+      "items": [
+        {
+          "word": "canere",
+          "structure": "Latin verb",
+          "meaning": "to sing",
+          "meaningCN": "歌唱",
+          "example": "canere in Roman ritual",
+          "exampleCN": "罗马仪式中的歌唱（拉丁语用例示意）。"
+        },
+        {
+          "word": "cantare",
+          "structure": "frequentative of canere",
+          "meaning": "to sing repeatedly",
+          "meaningCN": "反复歌唱",
+          "example": "cantare coram populo",
+          "exampleCN": "在民众面前歌唱（拉丁语用例示意）。"
+        },
+        {
+          "word": "-ata",
+          "structure": "Italian past-participle ending",
+          "meaning": "thing done, performed",
+          "meaningCN": "被完成的（意大利语分词词尾）",
+          "example": "cantata, sonata",
+          "exampleCN": "如 cantata（被唱的）、sonata（被奏的）。"
+        },
+        {
+          "word": "cantabile",
+          "structure": "cantare + -abile",
+          "meaning": "singable, in a singing style",
+          "meaningCN": "如歌的",
+          "example": "play the melody cantabile",
+          "exampleCN": "以如歌的方式奏出旋律。"
+        },
+        {
+          "word": "cantor",
+          "structure": "cantare agent noun",
+          "meaning": "leader of singing",
+          "meaningCN": "领唱者",
+          "example": "the cantor intoned the psalm",
+          "exampleCN": "领唱者吟诵圣咏。"
+        },
+        {
+          "word": "chant",
+          "structure": "French doublet of cantare",
+          "meaning": "repeated monotonous singing",
+          "meaningCN": "吟唱；圣咏",
+          "example": "Gregorian chant",
+          "exampleCN": "格里高利圣咏。"
+        },
+        {
+          "word": "incantation",
+          "structure": "in- + cantare + -ation",
+          "meaning": "ritual chanting; spell",
+          "meaningCN": "咒语；念咒",
+          "example": "mutter an incantation",
+          "exampleCN": "低声念咒。"
+        },
+        {
+          "word": "sonata",
+          "structure": "paired Italian participle",
+          "meaning": "a piece sounded on instruments",
+          "meaningCN": "奏鸣曲（配对词）",
+          "example": "a violin sonata",
+          "exampleCN": "一首小提琴奏鸣曲。"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "cantare",
+          "structure": "Latin frequentative verb",
+          "meaning": "to sing, sing repeatedly",
+          "meaningCN": "歌唱；反复歌唱",
+          "example": "cantare amabat",
+          "exampleCN": "她爱歌唱（拉丁语用例示意）。"
+        }
+      ],
+      "derivatives": [
+        {
+          "word": "cantabile",
+          "pos": "adj.",
+          "zh": "如歌的（音乐术语）"
+        }
+      ]
+    }
   }
- ],
- "collocations": [
-  {
-   "phrase": "a sacred cantata",
-   "zh": "宗教康塔塔"
-  },
-  {
-   "phrase": "a secular cantata",
-   "zh": "世俗康塔塔"
-  },
-  {
-   "phrase": "perform a cantata",
-   "zh": "演出康塔塔"
-  },
-  {
-   "phrase": "Bach's church cantatas",
-   "zh": "巴赫的教堂康塔塔"
-  },
-  {
-   "phrase": "a cantata for soloists and chorus",
-   "zh": "为独唱与合唱而作的康塔塔"
-  },
-  {
-   "phrase": "an Easter cantata",
-   "zh": "复活节康塔塔"
-  }
- ],
- "forms": [
-  {
-   "label": "复数",
-   "form": "cantatas"
-  }
- ],
- "derivatives": [
-  {
-   "word": "cantata-style",
-   "pos": "adj.",
-   "zh": "复合形容词，义为「康塔塔风格的」"
-  },
-  {
-   "word": "cantabile",
-   "pos": "adj.",
-   "zh": "同根音乐术语，义为「如歌的」（意大利语 cantare 同根）"
-  },
-  {
-   "word": "sonata",
-   "pos": "n.",
-   "zh": "对偶借词，义为「奏鸣曲」（同一构词模式，乐器版）"
-  }
- ],
- "senses": [
-  {
-   "no": "01",
-   "title": "A multi-movement vocal work with instruments",
-   "titleCN": "康塔塔；声乐套曲",
-   "definition": "a composition for one or more voices with instrumental accompaniment, in several movements, often on a religious text",
-   "definitionCN": "为独唱或合唱配器乐伴奏、分多个乐章的作品，常取宗教题材",
-   "example": "The church cantata alternates arias with choruses.",
-   "exampleCN": "这首教堂康塔塔在咏叹调与合唱之间交替。",
-   "why": "The Italian name means sung piece, the voice-side twin of the played sonata.",
-   "whyCN": "意大利语原名意为「唱的作品」，是「奏的」奏鸣曲在声乐一侧的孪生词。"
-  },
-  {
-   "no": "02",
-   "title": "A large-scale choral composition generally",
-   "titleCN": "（泛指）大型合唱作品",
-   "definition": "in loose modern use, any substantial work for chorus, soloists, and orchestra",
-   "definitionCN": "现代宽泛用法中，泛指为合唱、独唱与乐队而作的大型作品",
-   "example": "The festival commissioned a cantata honoring the city's founders.",
-   "exampleCN": "音乐节委约了一部致敬城市奠基者的康塔塔。",
-   "why": "Once a genre name, it broadens to cover the family of sung multi-part works.",
-   "whyCN": "它本是体裁名，随后扩展覆盖「多乐章声乐作品」这一整个家族。"
-  }
- ],
- "etymology": {
-  "intro": {
-   "en": "Cantata is the Italian feminine past participle of cantare, to sing, coined in the seventeenth century as the sung counterpart of the sonata, the played piece.",
-   "cn": "cantata 是意大利语 cantare（歌唱）的阴性过去分词，十七世纪被造出，作为「演奏的」sonata 在声乐一方的对应词。"
-  },
-  "items": [
-   {
-    "era": "PROTO-INDO-EUROPEAN",
-    "en": "The root *kan- means to sing or chant, ancient and widespread across Indo-European.",
-    "cn": "词根 *kan- 意为歌唱、吟诵，古老且遍布印欧诸语。"
-   },
-   {
-    "era": "LATIN",
-    "en": "Latin cantare is the frequentative of canere, to sing, giving chant, cantor, and incantation.",
-    "cn": "拉丁语 cantare 是 canere（歌唱）的反复动词形式，衍生出 chant、cantor、incantation。"
-   },
-   {
-    "era": "ITALIAN, 17TH C.",
-    "en": "Italian composers coined cantata da cantarsi, a piece to be sung, against sonata, a piece to be sounded.",
-    "cn": "意大利作曲家造出 cantata da cantarsi（供演唱之作），与 sonata（供演奏之作）相对。"
-   },
-   {
-    "era": "ENGLISH, 18TH C.",
-    "en": "English borrowed the term in the early eighteenth century as Italian church music spread north.",
-    "cn": "十八世纪初，随着意大利宗教音乐北传，英语借入了这一术语。"
-   },
-   {
-    "era": "MODERN ENGLISH",
-    "en": "Today it names both the Baroque church genre and modern festival choral commissions.",
-    "cn": "如今它既指巴洛克教堂体裁，也指现代音乐节的委约合唱作品。"
-   }
-  ]
- },
- "similar": {
-  "note": {
-   "en": "Cantata belongs to the singing family of cant- words and to the sonata pairing.",
-   "cn": "cantata 属于 cant-「歌唱」词族，并与 sonata 构成一对。"
-  },
-  "groups": [
-   {
-    "heading": "LOOK-ALIKE",
-    "entries": [
-     {
-      "word": "sonata",
-      "ipa": "/səˈnɑːtə/",
-      "tag": "paired term",
-      "definition": "A multi-movement work for instruments, the played twin of the sung cantata.",
-      "definitionCN": "多乐章器乐作品，是「唱的」康塔塔的「奏的」孪生词。"
-     },
-     {
-      "word": "cantabile",
-      "ipa": "/kænˈtɑːbɪleɪ/",
-      "tag": "same root, music term",
-      "definition": "In a singing style, a direction for instrumental players.",
-      "definitionCN": "如歌地，给器乐演奏者的表情术语，同根。"
-     },
-     {
-      "word": "cantor",
-      "ipa": "/ˈkæntɔːr/",
-      "tag": "same root, person",
-      "definition": "The leader of congregational singing, especially in synagogues and churches.",
-      "definitionCN": "领唱者，尤指犹太会堂或教堂中的领唱。"
-     },
-     {
-      "word": "incantation",
-      "ipa": "/ˌɪnkænˈteɪʃən/",
-      "tag": "same root, ritual word",
-      "definition": "Chanted words believed to have magical power.",
-      "definitionCN": "咒语；念诵的祷文，同根。"
-     }
-    ]
-   },
-   {
-    "heading": "NEAR MEANING",
-    "entries": [
-     {
-      "word": "oratorio",
-      "ipa": "/ˌɒrəˈtɔːrioʊ/",
-      "tag": "near meaning, larger",
-      "definition": "A large sacred choral drama, longer and more theatrical than a cantata.",
-      "definitionCN": "大型宗教合唱剧，篇幅与戏剧性超过康塔塔。"
-     },
-     {
-      "word": "chorale",
-      "ipa": "/kəˈræl/",
-      "tag": "near meaning",
-      "definition": "A Lutheran hymn tune, the building block of many cantatas.",
-      "definitionCN": "路德宗众赞歌，许多康塔塔的素材来源。"
-     },
-     {
-      "word": "motet",
-      "ipa": "/moʊˈtet/",
-      "tag": "near meaning",
-      "definition": "A polyphonic choral work, usually unaccompanied.",
-      "definitionCN": "复调合唱作品，通常无伴奏。"
-     },
-     {
-      "word": "aria",
-      "ipa": "/ˈɑːriə/",
-      "tag": "near meaning, component",
-      "definition": "A solo song within an opera or cantata.",
-      "definitionCN": "咏叹调，歌剧或康塔塔中的独唱段落。"
-     },
-     {
-      "word": "symphony",
-      "ipa": "/ˈsɪmfəni/",
-      "tag": "contrast",
-      "definition": "The purely instrumental large form, no singing required.",
-      "definitionCN": "纯器乐的大型体裁，无需人声，与 cantata 形成对照。"
-     }
-    ]
-   }
-  ]
- },
- "mnemonics": {
-  "normalIntro": {
-   "en": "Five hooks on the sing root and the sonata pairing.",
-   "cn": "五条围绕「歌唱」词根与 sonata 配对关系的记忆钩子。"
-  },
-  "normal": [
-   {
-    "en": "Root core: Italian cantata means a piece that is sung, from cantare.",
-    "cn": "词根核心：意大利语 cantata 意为「唱出来的作品」，出自 cantare。"
-   },
-   {
-    "en": "Twin pair: sonata sounds, cantata sings; one letter separates the pair.",
-    "cn": "孪生配对：sonata 奏、cantata 唱，两个词只差一个字母。"
-   },
-   {
-    "en": "Genre ladder: aria inside cantata inside oratorio, pieces nesting by size.",
-    "cn": "体裁阶梯：aria 在 cantata 之内，cantata 在 oratorio 之内，按规模层层嵌套。"
-   },
-   {
-    "en": "Composer hook: Bach wrote over two hundred church cantatas for the Leipzig calendar.",
-    "cn": "作曲家钩子：巴赫为莱比锡的礼拜年历写了二百多首教堂康塔塔。"
-   },
-   {
-    "en": "Family chorus: chant, cantor, cantabile, incantation all live on cant-.",
-    "cn": "家族合唱：chant、cantor、cantabile、incantation 都住在 cant- 词根上。"
-   }
-  ],
-  "abstract": [
-   {
-    "en": "Voices and organ braided together, one movement handing the story to the next.",
-    "cn": "人声与管风琴交织，一个乐章把故事递给下一个乐章。"
-   },
-   {
-    "en": "A hall where the score itself seems to breathe, inhaling at the arias and exhaling in chorus.",
-    "cn": "一座乐谱仿佛在呼吸的音乐厅：咏叹调吸气，合唱吐气。"
-   },
-   {
-    "en": "Two doors in one corridor: this side sings, that side plays.",
-    "cn": "同一条走廊上的两扇门：这边唱，那边奏。"
-   }
-  ]
- },
- "examples": [
-  {
-   "en": "The high school choir performed a spring cantata for the town.",
-   "cn": "高中合唱团为全镇演出了一部春季康塔塔。"
-  },
-  {
-   "en": "Scholars catalogued the cantatas by liturgical calendar.",
-   "cn": "学者们按礼拜年历为这些康塔塔编目。"
-  },
-  {
-   "en": "Her aria floated above the orchestra in the cantata's second movement.",
-   "cn": "康塔塔第二乐章里，她的咏叹调在乐队之上飘浮。"
-  }
- ],
- "dict_mnemonic": {
-  "note": "谐音记忆 · 非词源",
-  "text": "「坎塔塔」——站在坎（坎）台上又唱「塔塔」两声，台上人声一波接一波，正是多乐章的大合唱康塔塔；联想 sonata 是奏鸣曲，cantata 就是「唱鸣曲」。",
-  "word": "cantata"
- },
- "root": "源自意大利语 cantata（cantare「歌唱」的阴性过去分词），可上溯至拉丁语 cantare（canere 的反复体），一般认为出自印欧词根 *kan-（歌唱）。十七世纪意大利作曲家以 cantata（唱的作品）与 sonata（奏的作品）相对；英语于十八世纪初借入。同根词有 chant、cantor、cantabile、incantation。",
- "sensesIntro": {
-  "en": "From the Baroque sung piece the name widens to any substantial multi-part choral work.",
-  "cn": "从巴洛克的声乐套曲出发，这一名称扩展为泛指一切大型多声部合唱作品。"
- },
- "semanticMap": {
-  "core": {
-   "en": "CORE IMAGE: voices in movements, a story sung from first aria to final chorus.",
-   "cn": "核心意象：分乐章的人声，一个从首段咏叹调唱到终曲合唱的故事。"
-  },
-  "chain": [
-   "SINGING",
-   "SET PIECE",
-   "MULTI-MOVEMENT FORM",
-   "SACRED TEXT",
-   "CHORUS AND ARIA",
-   "FESTIVAL COMMISSION"
-  ],
-  "branches": [
-   {
-    "senses": "01",
-    "en": "THE LOFT: the Baroque church cantata over the congregation.",
-    "cn": "唱诗楼：高悬于会众之上的巴洛克教堂康塔塔。"
-   },
-   {
-    "senses": "02",
-    "en": "THE PODIUM: modern choral commissions on secular themes.",
-    "cn": "指挥台：世俗题材的现代委约合唱作品。"
-   },
-   {
-    "senses": "01 · 02",
-    "en": "THE ARCHITECTURE: arias, recitatives, and choruses stacked like floors.",
-    "cn": "建筑结构：咏叹调、宣叙调与合唱如楼层般堆叠。"
-   },
-   {
-    "senses": "01",
-    "en": "THE PAIRING: sonata plays what cantata sings.",
-    "cn": "配对关系：sonata 所奏即 cantata 所唱。"
-   },
-   {
-    "senses": "02",
-    "en": "THE OCCASION: civic and seasonal ceremonies borrowing the sacred form.",
-    "cn": "场合：市民与节庆仪式借用这一宗教形式。"
-   }
-  ]
- },
- "affixes": {
-  "intro": {
-   "en": "Cantata is the Italian past participle of cantare, sung, one half of the sing-play naming pair.",
-   "cn": "cantata 是意大利语 cantare 的过去分词「被唱的」，是「唱-奏」命名配对的一半。"
-  },
-  "latinIntro": {
-   "en": "The cantare root of repeated singing feeds a wide sacred and musical family.",
-   "cn": "cantare（反复歌唱）词根滋养出一个庞大的宗教与音乐词族。"
-  },
-  "items": [
-   {
-    "word": "canere",
-    "structure": "Latin verb",
-    "meaning": "to sing",
-    "meaningCN": "歌唱",
-    "example": "canere in Roman ritual",
-    "exampleCN": "罗马仪式中的歌唱（拉丁语用例示意）。"
-   },
-   {
-    "word": "cantare",
-    "structure": "frequentative of canere",
-    "meaning": "to sing repeatedly",
-    "meaningCN": "反复歌唱",
-    "example": "cantare coram populo",
-    "exampleCN": "在民众面前歌唱（拉丁语用例示意）。"
-   },
-   {
-    "word": "-ata",
-    "structure": "Italian past-participle ending",
-    "meaning": "thing done, performed",
-    "meaningCN": "被完成的（意大利语分词词尾）",
-    "example": "cantata, sonata",
-    "exampleCN": "如 cantata（被唱的）、sonata（被奏的）。"
-   },
-   {
-    "word": "cantabile",
-    "structure": "cantare + -abile",
-    "meaning": "singable, in a singing style",
-    "meaningCN": "如歌的",
-    "example": "play the melody cantabile",
-    "exampleCN": "以如歌的方式奏出旋律。"
-   },
-   {
-    "word": "cantor",
-    "structure": "cantare agent noun",
-    "meaning": "leader of singing",
-    "meaningCN": "领唱者",
-    "example": "the cantor intoned the psalm",
-    "exampleCN": "领唱者吟诵圣咏。"
-   },
-   {
-    "word": "chant",
-    "structure": "French doublet of cantare",
-    "meaning": "repeated monotonous singing",
-    "meaningCN": "吟唱；圣咏",
-    "example": "Gregorian chant",
-    "exampleCN": "格里高利圣咏。"
-   },
-   {
-    "word": "incantation",
-    "structure": "in- + cantare + -ation",
-    "meaning": "ritual chanting; spell",
-    "meaningCN": "咒语；念咒",
-    "example": "mutter an incantation",
-    "exampleCN": "低声念咒。"
-   },
-   {
-    "word": "sonata",
-    "structure": "paired Italian participle",
-    "meaning": "a piece sounded on instruments",
-    "meaningCN": "奏鸣曲（配对词）",
-    "example": "a violin sonata",
-    "exampleCN": "一首小提琴奏鸣曲。"
-   }
-  ],
-  "latinEntries": [
-   {
-    "word": "cantare",
-    "structure": "Latin frequentative verb",
-    "meaning": "to sing, sing repeatedly",
-    "meaningCN": "歌唱；反复歌唱",
-    "example": "cantare amabat",
-    "exampleCN": "她爱歌唱（拉丁语用例示意）。"
-   }
-  ],
-  "derivatives": [
-   {
-    "word": "cantabile",
-    "pos": "adj.",
-    "zh": "如歌的（音乐术语）"
-   }
-  ]
- }
-}
+]

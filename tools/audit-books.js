@@ -33,8 +33,17 @@ function readBooks() {
   const end = html.indexOf("\n    ];", start);
   if (end < 0) throw new Error("index.html 里找不到 BOOKS 数组结尾");
   const source = html.slice(start + "BOOKS = ".length, end + 6);
+  // 生成书的 preparedFiles 走 books/manifest.js，这里补一个 window 兜底
+  const manifestFile = path.join(ROOT, "books", "manifest.js");
+  let manifest = {};
+  if (fs.existsSync(manifestFile)) {
+    const text = fs.readFileSync(manifestFile, "utf8");
+    const json = text.slice(text.indexOf("=") + 1).replace(/;\s*$/, "");
+    try { manifest = JSON.parse(json); } catch (e) { manifest = {}; }
+  }
   return Function(
-    "var BOOK_FALLBACK=null;var WORDS_FALLBACK={groups:[]};return " + source + ";"
+    "var BOOK_FALLBACK=null;var WORDS_FALLBACK={groups:[]};var window={BOOK_MANIFEST:" +
+      JSON.stringify(manifest) + "};return " + source + ";"
   )();
 }
 
@@ -62,6 +71,7 @@ function auditBook(book) {
   const files = (book.preparedFiles || []).map((f) => path.basename(f));
   report.shards = files.length;
   const seen = new Map();
+  let masterWords = null;
 
   for (const file of files) {
     const full = path.join(PREPARED_DIR, file);
@@ -81,10 +91,16 @@ function auditBook(book) {
     for (const entry of entries) {
       if (!entry || !entry.word) continue;
       const word = String(entry.word).toLowerCase();
+      if (masterWords && !masterWords.has(word)) continue;
+      const fingerprint = JSON.stringify(entry);
       if (seen.has(word)) {
-        report.duplicate.push(word + " (" + seen.get(word) + " / " + file + ")");
+        const prev = seen.get(word);
+        // 共享分片会重复收录同一个词：内容一致视为正常，内容不同才报
+        if (prev.fingerprint !== fingerprint) {
+          report.duplicate.push(word + " (" + prev.file + " / " + file + ")");
+        }
       } else {
-        seen.set(word, file);
+        seen.set(word, { file: file, fingerprint: fingerprint });
       }
       if (!entry.definition_zh || !String(entry.definition_zh).trim()) {
         report.emptyDefinition.push(word + " (" + file + ")");
@@ -97,7 +113,7 @@ function auditBook(book) {
     const master = readMaster(book);
     const entries = master.entries || [];
     report.master = entries.length;
-    const masterWords = new Set(entries.map((e) => String(e.word).toLowerCase()));
+    masterWords = new Set(entries.map((e) => String(e.word).toLowerCase()));
     report.missingInShards = [...masterWords].filter((w) => !seen.has(w));
     report.extraInShards = [...seen.keys()].filter((w) => !masterWords.has(w));
   }

@@ -1,142 +1,409 @@
-{
-  "word": "calamity",
-  "ipa_uk": "/kəˈlæməti/",
-  "ipa_us": "/kəˈlæməti/",
-  "definition_zh": "灾祸；灾难；不幸事件",
-  "definition_en": "a serious event causing great damage or distress; a disaster",
-  "core_image": "洪水漫过村庄屋顶，人们挤上屋脊",
-  "scene": "洪水漫过堤坝，村人挤上屋顶呼救。The flood was the worst calamity in the valley's memory.",
-  "sceneCN": "这里 calamity 是「灾难、大祸」（第 1 个义项：造成重大损害的不幸事件）；句意是这场洪水是山谷记忆中最严重的灾难。",
-  "pos": [
-    { "tag": "n.", "zh": "灾难；灾祸；不幸" }
-  ],
-  "collocations": [
-    { "phrase": "a natural calamity", "zh": "自然灾害" },
-    { "phrase": "avert a calamity", "zh": "避免灾祸" },
-    { "phrase": "calamity strikes", "zh": "灾难降临" },
-    { "phrase": "in times of calamity", "zh": "灾难时期" },
-    { "phrase": "a national calamity", "zh": "国难" }
-  ],
-  "forms": [
-    { "label": "复数", "form": "calamities" },
-    { "label": "形容词（同根）", "form": "calamitous" }
-  ],
-  "derivatives": [
-    { "word": "calamitous", "pos": "adj.", "zh": "由 calamity 加 -ous 构成，义为「灾难性的」" },
-    { "word": "calamitously", "pos": "adv.", "zh": "由形容词加 -ly 构成，义为「灾难性地」" },
-    { "word": "disaster", "pos": "n.", "zh": "近义词，义为「灾难；灾害」" }
-  ],
-  "senses": [
-    {
-      "no": "01",
-      "title": "A great misfortune",
-      "titleCN": "灾难；大祸",
-      "definition": "an event bringing serious damage, loss or suffering",
-      "definitionCN": "带来严重损害、损失或苦难的事件",
-      "example": "The earthquake was a calamity for the whole province.",
-      "exampleCN": "这场地震是全省的灾难。",
-      "why": "Latin calamitas named harm and loss, first of crops, then of fortunes.",
-      "whyCN": "拉丁语 calamitas 本指损失损害，先指庄稼，后指命运。"
-    },
-    {
-      "no": "02",
-      "title": "Deep personal distress",
-      "titleCN": "个人的不幸；厄运",
-      "definition": "a grave personal misfortune, as ruin or bereavement",
-      "definitionCN": "重大的个人不幸，如破产或丧亲",
-      "example": "Losing the harvest meant calamity for the tenant farmers.",
-      "exampleCN": "颗粒无收对佃农而言是灭顶之灾。",
-      "why": "The public disaster narrows to the household.",
-      "whyCN": "公众灾难收窄到一家一户。"
-    }
-  ],
-  "etymology": {
-    "intro": { "en": "Calamity comes from Latin calamitas, harm or loss, whose deeper origin is debated.", "cn": "calamity 出自拉丁语 calamitas（损害、损失），其更深的来源尚有争论。" },
-    "items": [
-      { "era": "LATIN CALAMITAS", "en": "calamitas meant damage or loss, often to crops.", "cn": "拉丁语 calamitas 意为损害、损失，常指庄稼受损。" },
-      { "era": "POSSIBLE ROOT", "en": "some link it to calamus, a stalk, as if the stalk beaten down; this is a disputed guess.", "cn": "有说法将其与 calamus（秸秆）相联，如被打倒的秸秆；此为有争议的猜想。" },
-      { "era": "OLD FRENCH CALAMITE", "en": "calamite carried the sense of misfortune into French.", "cn": "古法语 calamite 把「厄运」之义带入法语。" },
-      { "era": "ENGLISH, 15TH C.", "en": "calamity entered English for grievous misfortune.", "cn": "十五世纪 calamity 进入英语，指深重的不幸。" },
-      { "era": "MODERN ENGLISH", "en": "calamity spans storms, wars and personal ruin, stronger than mere trouble.", "cn": "如今 calamity 可指风暴、战争与个人破产，比一般的麻烦严重得多。" }
-    ]
-  },
-  "similar": {
-    "note": { "en": "The look-alike group watches for the false friend calamari; the near-meaning group lists disaster words.", "cn": "形近组警惕伪友 calamari；近义组是灾难类词。" },
-    "groups": [
+[
+  {
+    "word": "calamity",
+    "ipa_uk": "/kəˈlæməti/",
+    "ipa_us": "/kəˈlæməti/",
+    "definition_zh": "灾祸；灾难；不幸事件",
+    "definition_en": "a serious event causing great damage or distress; a disaster",
+    "core_image": "洪水漫过村庄屋顶，人们挤上屋脊",
+    "scene": "洪水漫过堤坝，村人挤上屋顶呼救。The flood was the worst calamity in the valley's memory.",
+    "sceneCN": "这里 calamity 是「灾难、大祸」（第 1 个义项：造成重大损害的不幸事件）；句意是这场洪水是山谷记忆中最严重的灾难。",
+    "pos": [
       {
-        "heading": "LOOK-ALIKE",
-        "entries": [
-          { "word": "calamitous", "ipa": "/kəˈlæmɪtəs/", "tag": "derived form", "definition": "bringing disaster", "definitionCN": "灾难性的" },
-          { "word": "calamari", "ipa": "/ˌkæləˈmɑːri/", "tag": "spelling", "definition": "fried squid, unrelated", "definitionCN": "炸鱿鱼，仅拼写相近，词源无关" },
-          { "word": "calamitously", "ipa": "/kəˈlæmɪtəsli/", "tag": "derived form", "definition": "in a disastrous way", "definitionCN": "灾难性地" }
-        ]
+        "tag": "n.",
+        "zh": "灾难；灾祸；不幸"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "a natural calamity",
+        "zh": "自然灾害"
       },
       {
-        "heading": "NEAR MEANING",
-        "entries": [
-          { "word": "disaster", "ipa": "/dɪˈzɑːstə/", "tag": "near meaning", "definition": "a sudden great misfortune", "definitionCN": "灾难；灾祸" },
-          { "word": "catastrophe", "ipa": "/kəˈtæstrəfi/", "tag": "near meaning", "definition": "an event causing great suffering or ruin", "definitionCN": "大灾难；惨败" },
-          { "word": "cataclysm", "ipa": "/ˈkætəklɪzəm/", "tag": "near meaning", "definition": "a violent natural upheaval", "definitionCN": "剧变；大洪水" },
-          { "word": "misfortune", "ipa": "/ˌmɪsˈfɔːtʃən/", "tag": "near meaning", "definition": "bad luck or an unlucky event", "definitionCN": "不幸；厄运" },
-          { "word": "tragedy", "ipa": "/ˈtrædʒədi/", "tag": "near meaning", "definition": "a disastrous or sad event", "definitionCN": "悲剧；惨事" }
-        ]
+        "phrase": "avert a calamity",
+        "zh": "避免灾祸"
+      },
+      {
+        "phrase": "calamity strikes",
+        "zh": "灾难降临"
+      },
+      {
+        "phrase": "in times of calamity",
+        "zh": "灾难时期"
+      },
+      {
+        "phrase": "a national calamity",
+        "zh": "国难"
       }
-    ]
-  },
-  "mnemonics": {
-    "normalIntro": { "en": "Picture the harvest beaten flat, and the family with it.", "cn": "想象庄稼被压平，一家人随之遭殃。" },
-    "normal": [
-      { "en": "Latin calamitas means damage or loss.", "cn": "拉丁语 calamitas 意为损害、损失。" },
-      { "en": "The adjective is calamitous.", "cn": "其形容词为 calamitous。" },
-      { "en": "Avert a calamity is a common phrase.", "cn": "avert a calamity 是常用搭配。" },
-      { "en": "Calamari has nothing to do with it.", "cn": "calamari 与 calamity 毫无关系。" },
-      { "en": "Catastrophe is the heavier cousin.", "cn": "catastrophe 是语义更重的近亲。" }
     ],
-    "abstract": [
-      { "en": "See the river swallow the fields in one grey sweep.", "cn": "看河水一个灰浪吞掉所有田地。" },
-      { "en": "Hear the silence after a collapsing roof.", "cn": "听屋顶坍塌后的死寂。" },
-      { "en": "Feel neighbours pull each other onto a rooftop.", "cn": "感受邻里把彼此拉上屋顶。" }
-    ]
-  },
-  "examples": [
-    { "en": "The drought brought calamity to the wheat belt.", "cn": "旱灾给小麦产区带来灾难。" },
-    { "en": "Quick warning averted a greater calamity.", "cn": "及时的预警避免了更大的灾祸。" },
-    { "en": "His sudden death was a calamity for the whole team.", "cn": "他的骤然离世是全队的巨大不幸。" }
-  ],
-  "dict_mnemonic": { "note": "谐音记忆 · 非词源", "text": "「克·拉·没·堤」——洪灾一来，「克」得堤坝「拉」开，庄稼「没」了，只剩残「堤」。", "word": "calamity" },
-  "root": "calamity 源自拉丁语 calamitas「损害、损失」（一说与 calamus「秸秆」相关，指被打倒的秸秆，属存疑猜想），经古法语 calamite 进入英语；同族词 calamitous「灾难性的」同根。",
-  "sensesIntro": { "en": "One Latin word for loss covers public disaster and private ruin alike.", "cn": "拉丁语一个「损失」，既指公众的巨灾，也指一家的破产。" },
-  "semanticMap": {
-    "core": { "en": "CORE IMAGE: floodwater closing over a village.", "cn": "核心意象：洪水漫过村庄。" },
-    "chain": ["DAMAGE", "LOSS", "STRIKE", "RUIN", "DISTRESS", "RECOVERY"],
-    "branches": [
-      { "senses": "01", "en": "an earthquake, a national calamity", "cn": "地震，一国之难" },
-      { "senses": "01", "en": "the flood that broke the valley", "cn": "毁掉山谷的洪水" },
-      { "senses": "01", "en": "avert calamity by warning", "cn": "预警避免灾祸" },
-      { "senses": "02", "en": "a ruined harvest, a household calamity", "cn": "绝收，一家之祸" },
-      { "senses": "01 · 02", "en": "the public strike, the private ruin", "cn": "公家之击与私家之毁" }
-    ]
-  },
-  "affixes": {
-    "intro": { "en": "Calamity carries the Latin noun into English endings: -ity, -ous, -ly.", "cn": "calamity 把拉丁名词带入英语词尾体系：-ity、-ous、-ly。" },
-    "latinIntro": { "en": "Latin calamitas, damage or loss, is the stem; its deeper root is debated.", "cn": "词干是拉丁语 calamitas（损害、损失）；更深的词根存疑。" },
-    "items": [
-      { "word": "calamitas", "structure": "Latin noun (f.)", "meaning": "damage, loss, misfortune", "meaningCN": "损害；损失；厄运", "example": "calamitas frugum", "exampleCN": "庄稼之灾（拉丁语）" },
-      { "word": "calamite", "structure": "Old French noun", "meaning": "misfortune", "meaningCN": "厄运", "example": "grande calamite", "exampleCN": "大不幸（古法语）" },
-      { "word": "calamity", "structure": "English adoption", "meaning": "a disaster", "meaningCN": "灾难", "example": "natural calamity", "exampleCN": "自然灾害" },
-      { "word": "calamitous", "structure": "calamity + -ous", "meaning": "disastrous", "meaningCN": "灾难性的", "example": "a calamitous defeat", "exampleCN": "惨败" },
-      { "word": "calamitously", "structure": "calamitous + -ly", "meaning": "in a disastrous way", "meaningCN": "灾难性地", "example": "calamitously wrong", "exampleCN": "错得离谱" },
-      { "word": "disaster", "structure": "dis- + astro", "meaning": "an ill-starred event", "meaningCN": "灾难", "example": "natural disaster", "exampleCN": "自然灾害" },
-      { "word": "catastrophe", "structure": "Greek kata- + strophe", "meaning": "an overturning", "meaningCN": "大灾难", "example": "an ecological catastrophe", "exampleCN": "生态浩劫" },
-      { "word": "cataclysm", "structure": "Greek kata- + klysmos", "meaning": "a deluge, upheaval", "meaningCN": "剧变；洪灾", "example": "a political cataclysm", "exampleCN": "政治剧变" },
-      { "word": "misfortune", "structure": "mis- + fortune", "meaning": "bad luck", "meaningCN": "不幸", "example": "a stroke of misfortune", "exampleCN": "一次厄运" }
-    ],
-    "latinEntries": [
-      { "word": "calamitas", "structure": "Latin noun (f., calamitatis)", "meaning": "damage, loss, disaster", "meaningCN": "损害；损失；灾难" }
+    "forms": [
+      {
+        "label": "复数",
+        "form": "calamities"
+      },
+      {
+        "label": "形容词（同根）",
+        "form": "calamitous"
+      }
     ],
     "derivatives": [
-      { "word": "calamitous", "pos": "adj.", "zh": "灾难性的" },
-      { "word": "calamitously", "pos": "adv.", "zh": "灾难性地" }
-    ]
+      {
+        "word": "calamitous",
+        "pos": "adj.",
+        "zh": "由 calamity 加 -ous 构成，义为「灾难性的」"
+      },
+      {
+        "word": "calamitously",
+        "pos": "adv.",
+        "zh": "由形容词加 -ly 构成，义为「灾难性地」"
+      },
+      {
+        "word": "disaster",
+        "pos": "n.",
+        "zh": "近义词，义为「灾难；灾害」"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "A great misfortune",
+        "titleCN": "灾难；大祸",
+        "definition": "an event bringing serious damage, loss or suffering",
+        "definitionCN": "带来严重损害、损失或苦难的事件",
+        "example": "The earthquake was a calamity for the whole province.",
+        "exampleCN": "这场地震是全省的灾难。",
+        "why": "Latin calamitas named harm and loss, first of crops, then of fortunes.",
+        "whyCN": "拉丁语 calamitas 本指损失损害，先指庄稼，后指命运。"
+      },
+      {
+        "no": "02",
+        "title": "Deep personal distress",
+        "titleCN": "个人的不幸；厄运",
+        "definition": "a grave personal misfortune, as ruin or bereavement",
+        "definitionCN": "重大的个人不幸，如破产或丧亲",
+        "example": "Losing the harvest meant calamity for the tenant farmers.",
+        "exampleCN": "颗粒无收对佃农而言是灭顶之灾。",
+        "why": "The public disaster narrows to the household.",
+        "whyCN": "公众灾难收窄到一家一户。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Calamity comes from Latin calamitas, harm or loss, whose deeper origin is debated.",
+        "cn": "calamity 出自拉丁语 calamitas（损害、损失），其更深的来源尚有争论。"
+      },
+      "items": [
+        {
+          "era": "LATIN CALAMITAS",
+          "en": "calamitas meant damage or loss, often to crops.",
+          "cn": "拉丁语 calamitas 意为损害、损失，常指庄稼受损。"
+        },
+        {
+          "era": "POSSIBLE ROOT",
+          "en": "some link it to calamus, a stalk, as if the stalk beaten down; this is a disputed guess.",
+          "cn": "有说法将其与 calamus（秸秆）相联，如被打倒的秸秆；此为有争议的猜想。"
+        },
+        {
+          "era": "OLD FRENCH CALAMITE",
+          "en": "calamite carried the sense of misfortune into French.",
+          "cn": "古法语 calamite 把「厄运」之义带入法语。"
+        },
+        {
+          "era": "ENGLISH, 15TH C.",
+          "en": "calamity entered English for grievous misfortune.",
+          "cn": "十五世纪 calamity 进入英语，指深重的不幸。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "calamity spans storms, wars and personal ruin, stronger than mere trouble.",
+          "cn": "如今 calamity 可指风暴、战争与个人破产，比一般的麻烦严重得多。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "The look-alike group watches for the false friend calamari; the near-meaning group lists disaster words.",
+        "cn": "形近组警惕伪友 calamari；近义组是灾难类词。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "calamitous",
+              "ipa": "/kəˈlæmɪtəs/",
+              "tag": "derived form",
+              "definition": "bringing disaster",
+              "definitionCN": "灾难性的"
+            },
+            {
+              "word": "calamari",
+              "ipa": "/ˌkæləˈmɑːri/",
+              "tag": "spelling",
+              "definition": "fried squid, unrelated",
+              "definitionCN": "炸鱿鱼，仅拼写相近，词源无关"
+            },
+            {
+              "word": "calamitously",
+              "ipa": "/kəˈlæmɪtəsli/",
+              "tag": "derived form",
+              "definition": "in a disastrous way",
+              "definitionCN": "灾难性地"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "disaster",
+              "ipa": "/dɪˈzɑːstə/",
+              "tag": "near meaning",
+              "definition": "a sudden great misfortune",
+              "definitionCN": "灾难；灾祸"
+            },
+            {
+              "word": "catastrophe",
+              "ipa": "/kəˈtæstrəfi/",
+              "tag": "near meaning",
+              "definition": "an event causing great suffering or ruin",
+              "definitionCN": "大灾难；惨败"
+            },
+            {
+              "word": "cataclysm",
+              "ipa": "/ˈkætəklɪzəm/",
+              "tag": "near meaning",
+              "definition": "a violent natural upheaval",
+              "definitionCN": "剧变；大洪水"
+            },
+            {
+              "word": "misfortune",
+              "ipa": "/ˌmɪsˈfɔːtʃən/",
+              "tag": "near meaning",
+              "definition": "bad luck or an unlucky event",
+              "definitionCN": "不幸；厄运"
+            },
+            {
+              "word": "tragedy",
+              "ipa": "/ˈtrædʒədi/",
+              "tag": "near meaning",
+              "definition": "a disastrous or sad event",
+              "definitionCN": "悲剧；惨事"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Picture the harvest beaten flat, and the family with it.",
+        "cn": "想象庄稼被压平，一家人随之遭殃。"
+      },
+      "normal": [
+        {
+          "en": "Latin calamitas means damage or loss.",
+          "cn": "拉丁语 calamitas 意为损害、损失。"
+        },
+        {
+          "en": "The adjective is calamitous.",
+          "cn": "其形容词为 calamitous。"
+        },
+        {
+          "en": "Avert a calamity is a common phrase.",
+          "cn": "avert a calamity 是常用搭配。"
+        },
+        {
+          "en": "Calamari has nothing to do with it.",
+          "cn": "calamari 与 calamity 毫无关系。"
+        },
+        {
+          "en": "Catastrophe is the heavier cousin.",
+          "cn": "catastrophe 是语义更重的近亲。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "See the river swallow the fields in one grey sweep.",
+          "cn": "看河水一个灰浪吞掉所有田地。"
+        },
+        {
+          "en": "Hear the silence after a collapsing roof.",
+          "cn": "听屋顶坍塌后的死寂。"
+        },
+        {
+          "en": "Feel neighbours pull each other onto a rooftop.",
+          "cn": "感受邻里把彼此拉上屋顶。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "The drought brought calamity to the wheat belt.",
+        "cn": "旱灾给小麦产区带来灾难。"
+      },
+      {
+        "en": "Quick warning averted a greater calamity.",
+        "cn": "及时的预警避免了更大的灾祸。"
+      },
+      {
+        "en": "His sudden death was a calamity for the whole team.",
+        "cn": "他的骤然离世是全队的巨大不幸。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「克·拉·没·堤」——洪灾一来，「克」得堤坝「拉」开，庄稼「没」了，只剩残「堤」。",
+      "word": "calamity"
+    },
+    "root": "calamity 源自拉丁语 calamitas「损害、损失」（一说与 calamus「秸秆」相关，指被打倒的秸秆，属存疑猜想），经古法语 calamite 进入英语；同族词 calamitous「灾难性的」同根。",
+    "sensesIntro": {
+      "en": "One Latin word for loss covers public disaster and private ruin alike.",
+      "cn": "拉丁语一个「损失」，既指公众的巨灾，也指一家的破产。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: floodwater closing over a village.",
+        "cn": "核心意象：洪水漫过村庄。"
+      },
+      "chain": [
+        "DAMAGE",
+        "LOSS",
+        "STRIKE",
+        "RUIN",
+        "DISTRESS",
+        "RECOVERY"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "an earthquake, a national calamity",
+          "cn": "地震，一国之难"
+        },
+        {
+          "senses": "01",
+          "en": "the flood that broke the valley",
+          "cn": "毁掉山谷的洪水"
+        },
+        {
+          "senses": "01",
+          "en": "avert calamity by warning",
+          "cn": "预警避免灾祸"
+        },
+        {
+          "senses": "02",
+          "en": "a ruined harvest, a household calamity",
+          "cn": "绝收，一家之祸"
+        },
+        {
+          "senses": "01 · 02",
+          "en": "the public strike, the private ruin",
+          "cn": "公家之击与私家之毁"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Calamity carries the Latin noun into English endings: -ity, -ous, -ly.",
+        "cn": "calamity 把拉丁名词带入英语词尾体系：-ity、-ous、-ly。"
+      },
+      "latinIntro": {
+        "en": "Latin calamitas, damage or loss, is the stem; its deeper root is debated.",
+        "cn": "词干是拉丁语 calamitas（损害、损失）；更深的词根存疑。"
+      },
+      "items": [
+        {
+          "word": "calamitas",
+          "structure": "Latin noun (f.)",
+          "meaning": "damage, loss, misfortune",
+          "meaningCN": "损害；损失；厄运",
+          "example": "calamitas frugum",
+          "exampleCN": "庄稼之灾（拉丁语）"
+        },
+        {
+          "word": "calamite",
+          "structure": "Old French noun",
+          "meaning": "misfortune",
+          "meaningCN": "厄运",
+          "example": "grande calamite",
+          "exampleCN": "大不幸（古法语）"
+        },
+        {
+          "word": "calamity",
+          "structure": "English adoption",
+          "meaning": "a disaster",
+          "meaningCN": "灾难",
+          "example": "natural calamity",
+          "exampleCN": "自然灾害"
+        },
+        {
+          "word": "calamitous",
+          "structure": "calamity + -ous",
+          "meaning": "disastrous",
+          "meaningCN": "灾难性的",
+          "example": "a calamitous defeat",
+          "exampleCN": "惨败"
+        },
+        {
+          "word": "calamitously",
+          "structure": "calamitous + -ly",
+          "meaning": "in a disastrous way",
+          "meaningCN": "灾难性地",
+          "example": "calamitously wrong",
+          "exampleCN": "错得离谱"
+        },
+        {
+          "word": "disaster",
+          "structure": "dis- + astro",
+          "meaning": "an ill-starred event",
+          "meaningCN": "灾难",
+          "example": "natural disaster",
+          "exampleCN": "自然灾害"
+        },
+        {
+          "word": "catastrophe",
+          "structure": "Greek kata- + strophe",
+          "meaning": "an overturning",
+          "meaningCN": "大灾难",
+          "example": "an ecological catastrophe",
+          "exampleCN": "生态浩劫"
+        },
+        {
+          "word": "cataclysm",
+          "structure": "Greek kata- + klysmos",
+          "meaning": "a deluge, upheaval",
+          "meaningCN": "剧变；洪灾",
+          "example": "a political cataclysm",
+          "exampleCN": "政治剧变"
+        },
+        {
+          "word": "misfortune",
+          "structure": "mis- + fortune",
+          "meaning": "bad luck",
+          "meaningCN": "不幸",
+          "example": "a stroke of misfortune",
+          "exampleCN": "一次厄运"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "calamitas",
+          "structure": "Latin noun (f., calamitatis)",
+          "meaning": "damage, loss, disaster",
+          "meaningCN": "损害；损失；灾难"
+        }
+      ],
+      "derivatives": [
+        {
+          "word": "calamitous",
+          "pos": "adj.",
+          "zh": "灾难性的"
+        },
+        {
+          "word": "calamitously",
+          "pos": "adv.",
+          "zh": "灾难性地"
+        }
+      ]
+    }
   }
-}
+]

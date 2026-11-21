@@ -1,149 +1,399 @@
-{
-  "word": "butte",
-  "ipa_uk": "/bjuːt/",
-  "ipa_us": "/bjuːt/",
-  "definition_zh": "孤峰；平顶山（四周陡峭、顶部平坦的小山）",
-  "definition_en": "an isolated hill with steep sides and a flat top, common in the western United States",
-  "core_image": "荒原上一座拔地而起的方桌形小山",
-  "scene": "美国西部的荒原上，一座方桌似的小山立在红土之中。The highway bent around the flat-topped butte.",
-  "sceneCN": "这里 butte 是「孤峰、平顶山」（第 1 个义项：顶平壁陡的孤立小山）；句意是公路绕着这座平顶山拐了个弯。",
-  "pos": [
-    { "tag": "n.", "zh": "孤峰；平顶山；陡壁平顶小山" }
-  ],
-  "collocations": [
-    { "phrase": "a flat-topped butte", "zh": "平顶孤峰" },
-    { "phrase": "a sandstone butte", "zh": "砂岩孤峰" },
-    { "phrase": "climb the butte", "zh": "攀登孤峰" },
-    { "phrase": "a butte on the prairie", "zh": "草原上的孤峰" },
-    { "phrase": "the base of the butte", "zh": "孤峰的底部" }
-  ],
-  "forms": [
-    { "label": "复数", "form": "buttes" }
-  ],
-  "derivatives": [
-    { "word": "mesa", "pos": "n.", "zh": "近义词，源自西班牙语，义为「台地，方山」" },
-    { "word": "plateau", "pos": "n.", "zh": "近义词，源自法语，义为「高原」" },
-    { "word": "escarpment", "pos": "n.", "zh": "相关地貌词，义为「陡崖，断崖」" }
-  ],
-  "senses": [
-    {
-      "no": "01",
-      "title": "An isolated flat-topped hill",
-      "titleCN": "孤峰；平顶山",
-      "definition": "a small, steep-sided hill with a flat top, standing alone in flat country",
-      "definitionCN": "孤立于平地、四壁陡峭、顶部平坦的小山",
-      "example": "Erosion left the butte standing alone on the plain.",
-      "exampleCN": "侵蚀作用使孤峰独自矗立在平原上。",
-      "why": "The word is a French geographical term adopted for the landforms of the American West.",
-      "whyCN": "这个词本是法语地理术语，被借来命名美国西部的地貌。"
-    },
-    {
-      "no": "02",
-      "title": "A landmark or place name built on the landform",
-      "titleCN": "地名中的孤峰（专名成分）",
-      "definition": "used in the names of towns and natural features, as in Butte, Montana, or Elephant Butte",
-      "definitionCN": "用于城镇和自然地名中，如蒙大拿州的比尤特、象峰（Elephant Butte）",
-      "example": "The mining city of Butte grew rich on copper dug beneath the hill.",
-      "exampleCN": "矿业城市比尤特靠山下挖出的铜矿致富。",
-      "why": "A striking landform naturally becomes a place name.",
-      "whyCN": "醒目的地貌自然转为地名。"
-    },
-    {
-      "no": "03",
-      "title": "A prominent isolated feature by analogy",
-      "titleCN": "比喻：孤立醒目之物",
-      "definition": "anything that stands isolated and conspicuous like such a hill, used figuratively or in other sciences",
-      "definitionCN": "借指如孤峰般孤立而醒目之物，用于比喻或其他学科",
-      "example": "On the ocean floor, geologists mapped a volcanic butte rising from the abyssal plain.",
-      "exampleCN": "在洋底，地质学家测绘出深海平原上耸立的一座火山孤丘。",
-      "why": "The image of an isolated rising transfers to any lonely, prominent form.",
-      "whyCN": "「孤立隆起」的意象可转用于任何孤绝醒目的形态。"
-    }
-  ],
-  "etymology": {
-    "intro": { "en": "Butte is the French word for a small hill or mound, borrowed unchanged into English.", "cn": "butte 是法语中指小丘、土墩的词，原样借入英语。" },
-    "items": [
-      { "era": "UNCERTAIN ORIGIN", "en": "the deeper root of Old French butte is not established; some connect it to words for a mark or target.", "cn": "古法语 butte 更深的词根未获确证；有说法把它与表示「标记、靶」的词相联系，属假说。" },
-      { "era": "OLD FRENCH", "en": "butte meant a mound or hillock, of uncertain further origin.", "cn": "古法语 butte 意为土墩、小丘。" },
-      { "era": "FRENCH GEOGRAPHY", "en": "French surveyors used butte for any isolated rising of the ground.", "cn": "法国测绘者用 butte 指任何孤立的地面隆起。" },
-      { "era": "AMERICAN WEST, 19TH C.", "en": "explorers of the American West adopted the word for the flat-topped hills of the plains.", "cn": "十九世纪美国西部探险者借这个词指平原上的平顶山。" },
-      { "era": "MODERN ENGLISH", "en": "butte now names a specific landform, smaller than a mesa.", "cn": "如今 butte 指特定地貌，比 mesa（方山）略小。" }
-    ]
-  },
-  "similar": {
-    "note": { "en": "The look-alike group warns against the shorter word butt; the near-meaning group lists related landforms.", "cn": "形近组提醒与更短的 butt 区分；近义组是相关地貌词。" },
-    "groups": [
+[
+  {
+    "word": "butte",
+    "ipa_uk": "/bjuːt/",
+    "ipa_us": "/bjuːt/",
+    "definition_zh": "孤峰；平顶山（四周陡峭、顶部平坦的小山）",
+    "definition_en": "an isolated hill with steep sides and a flat top, common in the western United States",
+    "core_image": "荒原上一座拔地而起的方桌形小山",
+    "scene": "美国西部的荒原上，一座方桌似的小山立在红土之中。The highway bent around the flat-topped butte.",
+    "sceneCN": "这里 butte 是「孤峰、平顶山」（第 1 个义项：顶平壁陡的孤立小山）；句意是公路绕着这座平顶山拐了个弯。",
+    "pos": [
       {
-        "heading": "LOOK-ALIKE",
-        "entries": [
-          { "word": "butt", "ipa": "/bʌt/", "tag": "spelling", "definition": "to strike with the head; a cigarette end", "definitionCN": "顶撞；烟蒂，只是拼写相近，词源无关" },
-          { "word": "beaut", "ipa": "/ˈbjuːt/", "tag": "spelling", "definition": "informal shortening of beauty", "definitionCN": "美人、好东西（beauty 的口语缩略），发音相同，词源无关" }
-        ]
+        "tag": "n.",
+        "zh": "孤峰；平顶山；陡壁平顶小山"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "a flat-topped butte",
+        "zh": "平顶孤峰"
       },
       {
-        "heading": "NEAR MEANING",
-        "entries": [
-          { "word": "mesa", "ipa": "/ˈmeɪsə/", "tag": "near meaning", "definition": "a larger flat-topped elevation", "definitionCN": "方山，更大的平顶高地" },
-          { "word": "plateau", "ipa": "/ˈplætəʊ/", "tag": "near meaning", "definition": "an extensive area of flat highland", "definitionCN": "高原，广阔的平坦高地" },
-          { "word": "monolith", "ipa": "/ˈmɒnəlɪθ/", "tag": "near meaning", "definition": "a single massive stone or hill", "definitionCN": "独石；整体巨岩" },
-          { "word": "escarpment", "ipa": "/ɪˈskɑːpmənt/", "tag": "related", "definition": "a long steep slope at a plateau edge", "definitionCN": "陡崖，高原边缘的长陡坡" },
-          { "word": "outcrop", "ipa": "/ˈaʊtkrɒp/", "tag": "related", "definition": "rock exposed at the surface", "definitionCN": "露头，裸露于地表的岩石" }
-        ]
+        "phrase": "a sandstone butte",
+        "zh": "砂岩孤峰"
+      },
+      {
+        "phrase": "climb the butte",
+        "zh": "攀登孤峰"
+      },
+      {
+        "phrase": "a butte on the prairie",
+        "zh": "草原上的孤峰"
+      },
+      {
+        "phrase": "the base of the butte",
+        "zh": "孤峰的底部"
       }
-    ]
-  },
-  "mnemonics": {
-    "normalIntro": { "en": "The French hill word ends in a silent e, unlike its verb cousin butt.", "cn": "这个法语山丘词末尾有不发音的 e，区别于动词 butt。" },
-    "normal": [
-      { "en": "Butte comes straight from French.", "cn": "butte 直接来自法语。" },
-      { "en": "A butte is smaller than a mesa.", "cn": "butte（孤峰）比 mesa（方山）小。" },
-      { "en": "Buttes are typical of the American West.", "cn": "孤峰是美国西部的典型地貌。" },
-      { "en": "The silent e lengthens the vowel: boot.", "cn": "不发音的 e 拉长元音，读如 boot。" },
-      { "en": "Butte and butt are unrelated despite the look.", "cn": "butte 与 butt 虽形近，词源无关。" }
     ],
-    "abstract": [
-      { "en": "See a giant table of red stone rising from the prairie grass.", "cn": "看草原上耸起一张红石巨桌。" },
-      { "en": "Feel the wind swirl around the butte's steep sides.", "cn": "感受风绕着孤峰陡壁打旋。" },
-      { "en": "Picture a hawk circling the flat top at dawn.", "cn": "想象黎明时一只鹰在平顶上空盘旋。" }
-    ]
-  },
-  "examples": [
-    { "en": "The climbers camped at the foot of the butte.", "cn": "登山者在孤峰脚下扎营。" },
-    { "en": "Sunset turned the sandstone butte deep orange.", "cn": "落日把砂岩孤峰染成深橙色。" },
-    { "en": "From the top of the butte the prairie stretched to the horizon.", "cn": "从孤峰顶上望去，草原一直延伸到天边。" }
-  ],
-  "dict_mnemonic": { "note": "谐音记忆 · 非词源", "text": "「标特」——荒原上孤峰像一座「标」志性的「特」色山。", "word": "butte" },
-  "root": "butte 为法语借词，古法语 butte 意为土墩、小丘，更早来源不确定；十九世纪美国西部探险者用它命名平原上的平顶孤山，从此成为固定地貌术语。",
-  "sensesIntro": { "en": "A single geographic sense: the lone flat-topped hill of dry western plains.", "cn": "单一地理义项：干旱西部平原上孤立的平顶小山。" },
-  "semanticMap": {
-    "core": { "en": "CORE IMAGE: a stone table rising alone from flat ground.", "cn": "核心意象：平地上孤然耸立的一张石桌。" },
-    "chain": ["FLAT LAND", "EROSION", "STEEP SIDES", "FLAT TOP", "ISOLATION", "LANDMARK"],
-    "branches": [
-      { "senses": "01", "en": "a highway bending around the butte", "cn": "绕孤峰而行的公路" },
-      { "senses": "01", "en": "climbers at the foot of the butte", "cn": "孤峰脚下的登山者" },
-      { "senses": "01", "en": "a hawk over the flat top", "cn": "平顶上空盘旋的鹰" },
-      { "senses": "01", "en": "butte against mesa, small against large", "cn": "孤峰对方山，小对大" },
-      { "senses": "01", "en": "sandstone buttes at sunset", "cn": "落日下的砂岩孤峰" }
-    ]
-  },
-  "affixes": {
-    "intro": { "en": "Butte is a borrowed noun with no English affixes; its family is a set of French landform words.", "cn": "butte 是无英语词缀的借入名词；其词族是一组法语地貌词。" },
-    "latinIntro": { "en": "No Latin root is established; the word's deeper origin is uncertain.", "cn": "无确证的拉丁词根；更早词源不确定。" },
-    "items": [
-      { "word": "butte", "structure": "Old French noun", "meaning": "a mound, hillock", "meaningCN": "土墩；小丘", "example": "une butte de terre", "exampleCN": "一座土丘（法语）" },
-      { "word": "mesa", "structure": "Spanish borrowing", "meaning": "a table-like hill", "meaningCN": "方山", "example": "a desert mesa", "exampleCN": "荒漠方山" },
-      { "word": "plateau", "structure": "French borrowing", "meaning": "flat highland", "meaningCN": "高原", "example": "the Tibetan plateau", "exampleCN": "青藏高原" },
-      { "word": "monolith", "structure": "mono- + -lith", "meaning": "single great stone", "meaningCN": "独石", "example": "a volcanic monolith", "exampleCN": "火山独石" },
-      { "word": "escarpment", "structure": "escape-related root", "meaning": "steep slope", "meaningCN": "陡崖", "example": "a chalk escarpment", "exampleCN": "白垩陡崖" },
-      { "word": "outcrop", "structure": "out- + crop", "meaning": "visible rock formation", "meaningCN": "露头", "example": "a rocky outcrop", "exampleCN": "岩石露头" },
-      { "word": "pinnacle", "structure": "Latin pinna", "meaning": "a high pointed peak", "meaningCN": "尖顶；高峰", "example": "rock pinnacles", "exampleCN": "岩峰" },
-      { "word": "knoll", "structure": "Germanic noun", "meaning": "a small rounded hill", "meaningCN": "圆顶小丘", "example": "grassy knoll", "exampleCN": "草丘" }
+    "forms": [
+      {
+        "label": "复数",
+        "form": "buttes"
+      }
     ],
-    "latinEntries": [],
     "derivatives": [
-      { "word": "mesa", "pos": "n.", "zh": "方山，较大的平顶高地" },
-      { "word": "plateau", "pos": "n.", "zh": "高原" },
-      { "word": "knoll", "pos": "n.", "zh": "圆顶小丘" }
-    ]
+      {
+        "word": "mesa",
+        "pos": "n.",
+        "zh": "近义词，源自西班牙语，义为「台地，方山」"
+      },
+      {
+        "word": "plateau",
+        "pos": "n.",
+        "zh": "近义词，源自法语，义为「高原」"
+      },
+      {
+        "word": "escarpment",
+        "pos": "n.",
+        "zh": "相关地貌词，义为「陡崖，断崖」"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "An isolated flat-topped hill",
+        "titleCN": "孤峰；平顶山",
+        "definition": "a small, steep-sided hill with a flat top, standing alone in flat country",
+        "definitionCN": "孤立于平地、四壁陡峭、顶部平坦的小山",
+        "example": "Erosion left the butte standing alone on the plain.",
+        "exampleCN": "侵蚀作用使孤峰独自矗立在平原上。",
+        "why": "The word is a French geographical term adopted for the landforms of the American West.",
+        "whyCN": "这个词本是法语地理术语，被借来命名美国西部的地貌。"
+      },
+      {
+        "no": "02",
+        "title": "A landmark or place name built on the landform",
+        "titleCN": "地名中的孤峰（专名成分）",
+        "definition": "used in the names of towns and natural features, as in Butte, Montana, or Elephant Butte",
+        "definitionCN": "用于城镇和自然地名中，如蒙大拿州的比尤特、象峰（Elephant Butte）",
+        "example": "The mining city of Butte grew rich on copper dug beneath the hill.",
+        "exampleCN": "矿业城市比尤特靠山下挖出的铜矿致富。",
+        "why": "A striking landform naturally becomes a place name.",
+        "whyCN": "醒目的地貌自然转为地名。"
+      },
+      {
+        "no": "03",
+        "title": "A prominent isolated feature by analogy",
+        "titleCN": "比喻：孤立醒目之物",
+        "definition": "anything that stands isolated and conspicuous like such a hill, used figuratively or in other sciences",
+        "definitionCN": "借指如孤峰般孤立而醒目之物，用于比喻或其他学科",
+        "example": "On the ocean floor, geologists mapped a volcanic butte rising from the abyssal plain.",
+        "exampleCN": "在洋底，地质学家测绘出深海平原上耸立的一座火山孤丘。",
+        "why": "The image of an isolated rising transfers to any lonely, prominent form.",
+        "whyCN": "「孤立隆起」的意象可转用于任何孤绝醒目的形态。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Butte is the French word for a small hill or mound, borrowed unchanged into English.",
+        "cn": "butte 是法语中指小丘、土墩的词，原样借入英语。"
+      },
+      "items": [
+        {
+          "era": "UNCERTAIN ORIGIN",
+          "en": "the deeper root of Old French butte is not established; some connect it to words for a mark or target.",
+          "cn": "古法语 butte 更深的词根未获确证；有说法把它与表示「标记、靶」的词相联系，属假说。"
+        },
+        {
+          "era": "OLD FRENCH",
+          "en": "butte meant a mound or hillock, of uncertain further origin.",
+          "cn": "古法语 butte 意为土墩、小丘。"
+        },
+        {
+          "era": "FRENCH GEOGRAPHY",
+          "en": "French surveyors used butte for any isolated rising of the ground.",
+          "cn": "法国测绘者用 butte 指任何孤立的地面隆起。"
+        },
+        {
+          "era": "AMERICAN WEST, 19TH C.",
+          "en": "explorers of the American West adopted the word for the flat-topped hills of the plains.",
+          "cn": "十九世纪美国西部探险者借这个词指平原上的平顶山。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "butte now names a specific landform, smaller than a mesa.",
+          "cn": "如今 butte 指特定地貌，比 mesa（方山）略小。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "The look-alike group warns against the shorter word butt; the near-meaning group lists related landforms.",
+        "cn": "形近组提醒与更短的 butt 区分；近义组是相关地貌词。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "butt",
+              "ipa": "/bʌt/",
+              "tag": "spelling",
+              "definition": "to strike with the head; a cigarette end",
+              "definitionCN": "顶撞；烟蒂，只是拼写相近，词源无关"
+            },
+            {
+              "word": "beaut",
+              "ipa": "/ˈbjuːt/",
+              "tag": "spelling",
+              "definition": "informal shortening of beauty",
+              "definitionCN": "美人、好东西（beauty 的口语缩略），发音相同，词源无关"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "mesa",
+              "ipa": "/ˈmeɪsə/",
+              "tag": "near meaning",
+              "definition": "a larger flat-topped elevation",
+              "definitionCN": "方山，更大的平顶高地"
+            },
+            {
+              "word": "plateau",
+              "ipa": "/ˈplætəʊ/",
+              "tag": "near meaning",
+              "definition": "an extensive area of flat highland",
+              "definitionCN": "高原，广阔的平坦高地"
+            },
+            {
+              "word": "monolith",
+              "ipa": "/ˈmɒnəlɪθ/",
+              "tag": "near meaning",
+              "definition": "a single massive stone or hill",
+              "definitionCN": "独石；整体巨岩"
+            },
+            {
+              "word": "escarpment",
+              "ipa": "/ɪˈskɑːpmənt/",
+              "tag": "related",
+              "definition": "a long steep slope at a plateau edge",
+              "definitionCN": "陡崖，高原边缘的长陡坡"
+            },
+            {
+              "word": "outcrop",
+              "ipa": "/ˈaʊtkrɒp/",
+              "tag": "related",
+              "definition": "rock exposed at the surface",
+              "definitionCN": "露头，裸露于地表的岩石"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "The French hill word ends in a silent e, unlike its verb cousin butt.",
+        "cn": "这个法语山丘词末尾有不发音的 e，区别于动词 butt。"
+      },
+      "normal": [
+        {
+          "en": "Butte comes straight from French.",
+          "cn": "butte 直接来自法语。"
+        },
+        {
+          "en": "A butte is smaller than a mesa.",
+          "cn": "butte（孤峰）比 mesa（方山）小。"
+        },
+        {
+          "en": "Buttes are typical of the American West.",
+          "cn": "孤峰是美国西部的典型地貌。"
+        },
+        {
+          "en": "The silent e lengthens the vowel: boot.",
+          "cn": "不发音的 e 拉长元音，读如 boot。"
+        },
+        {
+          "en": "Butte and butt are unrelated despite the look.",
+          "cn": "butte 与 butt 虽形近，词源无关。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "See a giant table of red stone rising from the prairie grass.",
+          "cn": "看草原上耸起一张红石巨桌。"
+        },
+        {
+          "en": "Feel the wind swirl around the butte's steep sides.",
+          "cn": "感受风绕着孤峰陡壁打旋。"
+        },
+        {
+          "en": "Picture a hawk circling the flat top at dawn.",
+          "cn": "想象黎明时一只鹰在平顶上空盘旋。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "The climbers camped at the foot of the butte.",
+        "cn": "登山者在孤峰脚下扎营。"
+      },
+      {
+        "en": "Sunset turned the sandstone butte deep orange.",
+        "cn": "落日把砂岩孤峰染成深橙色。"
+      },
+      {
+        "en": "From the top of the butte the prairie stretched to the horizon.",
+        "cn": "从孤峰顶上望去，草原一直延伸到天边。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「标特」——荒原上孤峰像一座「标」志性的「特」色山。",
+      "word": "butte"
+    },
+    "root": "butte 为法语借词，古法语 butte 意为土墩、小丘，更早来源不确定；十九世纪美国西部探险者用它命名平原上的平顶孤山，从此成为固定地貌术语。",
+    "sensesIntro": {
+      "en": "A single geographic sense: the lone flat-topped hill of dry western plains.",
+      "cn": "单一地理义项：干旱西部平原上孤立的平顶小山。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: a stone table rising alone from flat ground.",
+        "cn": "核心意象：平地上孤然耸立的一张石桌。"
+      },
+      "chain": [
+        "FLAT LAND",
+        "EROSION",
+        "STEEP SIDES",
+        "FLAT TOP",
+        "ISOLATION",
+        "LANDMARK"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "a highway bending around the butte",
+          "cn": "绕孤峰而行的公路"
+        },
+        {
+          "senses": "01",
+          "en": "climbers at the foot of the butte",
+          "cn": "孤峰脚下的登山者"
+        },
+        {
+          "senses": "01",
+          "en": "a hawk over the flat top",
+          "cn": "平顶上空盘旋的鹰"
+        },
+        {
+          "senses": "01",
+          "en": "butte against mesa, small against large",
+          "cn": "孤峰对方山，小对大"
+        },
+        {
+          "senses": "01",
+          "en": "sandstone buttes at sunset",
+          "cn": "落日下的砂岩孤峰"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Butte is a borrowed noun with no English affixes; its family is a set of French landform words.",
+        "cn": "butte 是无英语词缀的借入名词；其词族是一组法语地貌词。"
+      },
+      "latinIntro": {
+        "en": "No Latin root is established; the word's deeper origin is uncertain.",
+        "cn": "无确证的拉丁词根；更早词源不确定。"
+      },
+      "items": [
+        {
+          "word": "butte",
+          "structure": "Old French noun",
+          "meaning": "a mound, hillock",
+          "meaningCN": "土墩；小丘",
+          "example": "une butte de terre",
+          "exampleCN": "一座土丘（法语）"
+        },
+        {
+          "word": "mesa",
+          "structure": "Spanish borrowing",
+          "meaning": "a table-like hill",
+          "meaningCN": "方山",
+          "example": "a desert mesa",
+          "exampleCN": "荒漠方山"
+        },
+        {
+          "word": "plateau",
+          "structure": "French borrowing",
+          "meaning": "flat highland",
+          "meaningCN": "高原",
+          "example": "the Tibetan plateau",
+          "exampleCN": "青藏高原"
+        },
+        {
+          "word": "monolith",
+          "structure": "mono- + -lith",
+          "meaning": "single great stone",
+          "meaningCN": "独石",
+          "example": "a volcanic monolith",
+          "exampleCN": "火山独石"
+        },
+        {
+          "word": "escarpment",
+          "structure": "escape-related root",
+          "meaning": "steep slope",
+          "meaningCN": "陡崖",
+          "example": "a chalk escarpment",
+          "exampleCN": "白垩陡崖"
+        },
+        {
+          "word": "outcrop",
+          "structure": "out- + crop",
+          "meaning": "visible rock formation",
+          "meaningCN": "露头",
+          "example": "a rocky outcrop",
+          "exampleCN": "岩石露头"
+        },
+        {
+          "word": "pinnacle",
+          "structure": "Latin pinna",
+          "meaning": "a high pointed peak",
+          "meaningCN": "尖顶；高峰",
+          "example": "rock pinnacles",
+          "exampleCN": "岩峰"
+        },
+        {
+          "word": "knoll",
+          "structure": "Germanic noun",
+          "meaning": "a small rounded hill",
+          "meaningCN": "圆顶小丘",
+          "example": "grassy knoll",
+          "exampleCN": "草丘"
+        }
+      ],
+      "latinEntries": [],
+      "derivatives": [
+        {
+          "word": "mesa",
+          "pos": "n.",
+          "zh": "方山，较大的平顶高地"
+        },
+        {
+          "word": "plateau",
+          "pos": "n.",
+          "zh": "高原"
+        },
+        {
+          "word": "knoll",
+          "pos": "n.",
+          "zh": "圆顶小丘"
+        }
+      ]
+    }
   }
-}
+]

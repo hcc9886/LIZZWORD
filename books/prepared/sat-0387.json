@@ -1,406 +1,408 @@
-{
- "word": "benign",
- "ipa_uk": "/bɪˈnaɪn/",
- "ipa_us": "/bɪˈnaɪn/",
- "definition_zh": "良性的；和蔼的；仁慈的；无害的；（气候）温和宜人的",
- "definition_en": "gentle and kindly, or not harmful, especially of a tumour or climate",
- "core_image": "一株安静无害的小圆影，像晒着太阳的云",
- "scene": "体检报告摊开在桌上，医生微笑着指向那行字。The doctor smiled and said the tumour was benign.",
- "sceneCN": "这里 benign 是「良性的、无害的」（第 2 个义项：医学上不会扩散恶化的肿瘤）；句意是医生笑着说肿瘤是良性的。",
- "pos": [
+[
   {
-   "tag": "adj.",
-   "zh": "良性的；和蔼的；无害的"
-  }
- ],
- "collocations": [
-  {
-   "phrase": "a benign tumour",
-   "zh": "良性肿瘤"
-  },
-  {
-   "phrase": "a benign smile",
-   "zh": "和蔼的微笑"
-  },
-  {
-   "phrase": "a benign climate",
-   "zh": "温和的气候"
-  },
-  {
-   "phrase": "a benign influence",
-   "zh": "好的影响"
-  },
-  {
-   "phrase": "benign neglect",
-   "zh": "善意的放任"
-  }
- ],
- "forms": [
-  {
-   "label": "比较级",
-   "form": "more benign"
-  },
-  {
-   "label": "最高级",
-   "form": "most benign"
-  }
- ],
- "derivatives": [
-  {
-   "word": "benignity",
-   "pos": "n.",
-   "zh": "由形容词加名词后缀构成，义为「仁慈；温和」"
-  },
-  {
-   "word": "benignly",
-   "pos": "adv.",
-   "zh": "由形容词加副词后缀构成，义为「和蔼地；无害地」"
-  },
-  {
-   "word": "benignant",
-   "pos": "adj.",
-   "zh": "同根变体，义为「仁慈的（较少用）」"
-  }
- ],
- "senses": [
-  {
-   "no": "01",
-   "title": "Gentle and kindly in manner",
-   "titleCN": "和蔼的；慈祥的",
-   "definition": "showing kindness and a gentle nature",
-   "definitionCN": "性情温和、待人慈祥",
-   "example": "The professor gave the nervous student a benign smile.",
-   "exampleCN": "教授朝紧张的学生投去和蔼的一笑。",
-   "why": "Bene means well and gen- relates to birth or nature, so the nature itself is good.",
-   "whyCN": "bene 意为「好」，gen- 与「天生」相关，合起来即「天性良善」。"
-  },
-  {
-   "no": "02",
-   "title": "Not harmful, especially of a tumour",
-   "titleCN": "良性的；无害的",
-   "definition": "not dangerous to health, especially not spreading or cancerous",
-   "definitionCN": "不危及健康，尤指不扩散、非癌性的",
-   "example": "The doctor smiled and said the tumour was benign.",
-   "exampleCN": "医生笑着说肿瘤是良性的。",
-   "why": "A good-natured growth stays mild and does no harm.",
-   "whyCN": "「天性良善」的东西安分温和，不会作恶。"
-  },
-  {
-   "no": "03",
-   "title": "Mild and favourable, as of climate or conditions",
-   "titleCN": "温和宜人的",
-   "definition": "pleasantly mild, as weather or an environment that favours growth",
-   "definitionCN": "气候、环境温和，宜于生长",
-   "example": "The island enjoys a benign climate all year round.",
-   "exampleCN": "这座小岛全年气候温和宜人。",
-   "why": "Goodness spreads to surroundings that nurture life.",
-   "whyCN": "「良善」扩展到滋养生命的周遭环境。"
-  }
- ],
- "etymology": {
-  "intro": {
-   "en": "Benign is Latin benignus, from bene, well, and genus or gignere, birth and begetting.",
-   "cn": "benign 来自拉丁语 benignus，由 bene「好」与 genus、gignere「出生、生育」构成。"
-  },
-  "items": [
-   {
-    "era": "PROTO-INDO-EUROPEAN",
-    "en": "the root gene- meant to give birth, to beget.",
-    "cn": "词根 gene- 意为「生育、产生」（重构形式）。"
-   },
-   {
-    "era": "LATIN",
-    "en": "benignus meant kind, good by nature.",
-    "cn": "拉丁语 benignus 意为「天性良善的、仁慈的」。"
-   },
-   {
-    "era": "OLD FRENCH",
-    "en": "benigne carried the word into French.",
-    "cn": "古法语 benigne 使该词传入法语。"
-   },
-   {
-    "era": "ENGLISH, 14TH C.",
-    "en": "English borrowed benign in the fourteenth century for kind rulers and mild weather.",
-    "cn": "十四世纪英语借入 benign，形容仁君与温和天气。"
-   },
-   {
-    "era": "MODERN ENGLISH",
-    "en": "medical use for harmless tumours became its best-known sense.",
-    "cn": "「良性肿瘤」的医学用法成为如今最广为人知的义项。"
-   }
-  ]
- },
- "similar": {
-  "note": {
-   "en": "The look-alike group shares the bene- root or spelling; the near-meaning group gathers gentle and harmless words.",
-   "cn": "形近组共享 bene- 词根或拼写；近义组汇集温和无害类词。"
-  },
-  "groups": [
-   {
-    "heading": "LOOK-ALIKE",
-    "entries": [
-     {
-      "word": "malign",
-      "ipa": "/məˈlaɪn/",
-      "tag": "opposite",
-      "definition": "harmful or evil; to speak ill of",
-      "definitionCN": "恶性的；诽谤——前缀相反的对照词"
-     },
-     {
-      "word": "benignant",
-      "ipa": "/bɪˈnɪɡnənt/",
-      "tag": "same root",
-      "definition": "kind and gentle, rare variant",
-      "definitionCN": "仁慈的——benign 的同根变体"
-     },
-     {
-      "word": "benignity",
-      "ipa": "/bɪˈnɪɡnəti/",
-      "tag": "derived form",
-      "definition": "kindness and gentleness",
-      "definitionCN": "仁慈——benign 的名词形式"
-     }
-    ]
-   },
-   {
-    "heading": "NEAR MEANING",
-    "entries": [
-     {
-      "word": "harmless",
-      "ipa": "/ˈhɑːmləs/",
-      "tag": "near synonym",
-      "definition": "not able or likely to cause harm",
-      "definitionCN": "无害的；日常说法"
-     },
-     {
-      "word": "gentle",
-      "ipa": "/ˈdʒentl/",
-      "tag": "near synonym",
-      "definition": "mild and kind in manner",
-      "definitionCN": "温和的；侧重态度"
-     },
-     {
-      "word": "malignant",
-      "ipa": "/məˈlɪɡnənt/",
-      "tag": "opposite",
-      "definition": "dangerous, cancerous, or ill-willed",
-      "definitionCN": "恶性的——医学与性格上的反义"
-     }
-    ]
-   }
-  ]
- },
- "mnemonics": {
-  "normalIntro": {
-   "en": "Benign is bene plus genus: good by nature.",
-   "cn": "benign 是 bene 加 genus：天性良善。"
-  },
-  "normal": [
-   {
-    "en": "Malign is its dark opposite.",
-    "cn": "malign 是它的反面，恶性。"
-   },
-   {
-    "en": "A benign tumour does not spread.",
-    "cn": "良性肿瘤不会扩散。"
-   },
-   {
-    "en": "Benign can describe weather too.",
-    "cn": "benign 也可形容天气温和。"
-   },
-   {
-    "en": "The adverb is benignly.",
-    "cn": "副词是 benignly。"
-   },
-   {
-    "en": "Gen- roots also give generate and genetic.",
-    "cn": "gen- 词根还造出 generate、genetic。"
-   }
-  ],
-  "abstract": [
-   {
-    "en": "See a cloud shading walkers, never raining.",
-    "cn": "看一朵只遮阳不降雨的云。"
-   },
-   {
-    "en": "Feel a palm resting lightly on your head.",
-    "cn": "感受轻放在头顶的手掌。"
-   },
-   {
-    "en": "Picture a still pond with no hidden stone.",
-    "cn": "想象一泓无暗石静水。"
-   }
-  ]
- },
- "examples": [
-  {
-   "en": "The doctor smiled and said the tumour was benign.",
-   "cn": "医生笑着说肿瘤是良性的。"
-  },
-  {
-   "en": "The professor gave the nervous student a benign smile.",
-   "cn": "教授朝紧张的学生投去和蔼的一笑。"
-  },
-  {
-   "en": "The island enjoys a benign climate all year round.",
-   "cn": "这座小岛全年气候温和宜人。"
-  }
- ],
- "dict_mnemonic": {
-  "note": "谐音记忆 · 非词源",
-  "text": "「白奶」——像温热的白牛奶，温和滋养、绝无伤害。",
-  "word": "benign"
- },
- "root": "拉丁语 bene「好地」加 genus「出身」或 gignere「生育」（词根上溯至原始印欧语 gene-「产生」，重构形式），派生 benignus「天性仁慈」，经古法语 benigne 于十四世纪进入英语；反义词 malign 同根而前缀相反。",
- "sensesIntro": {
-  "en": "One adjective runs from a kindly face to a harmless growth to a mild climate.",
-  "cn": "一个形容词，从慈祥的面容，到无害的瘤体，再到温和的气候。"
- },
- "semanticMap": {
-  "core": {
-   "en": "CORE IMAGE: a quiet cloud that only shades, never storms.",
-   "cn": "核心意象：只遮阳不起风暴的安静云朵。"
-  },
-  "chain": [
-   "GOODNESS",
-   "NATURE",
-   "MILDNESS",
-   "SAFETY",
-   "FAVOUR",
-   "GROWTH"
-  ],
-  "branches": [
-   {
-    "senses": "01",
-    "en": "a benign smile",
-    "cn": "和蔼的微笑"
-   },
-   {
-    "senses": "01",
-    "en": "a benign influence",
-    "cn": "好的影响"
-   },
-   {
-    "senses": "02",
-    "en": "a benign tumour",
-    "cn": "良性肿瘤"
-   },
-   {
-    "senses": "02",
-    "en": "benign neglect",
-    "cn": "善意的放任"
-   },
-   {
-    "senses": "03",
-    "en": "a benign climate",
-    "cn": "温和的气候"
-   }
-  ]
- },
- "affixes": {
-  "intro": {
-   "en": "Benign joins the good root bene- to the birth root gen-.",
-   "cn": "benign 把「好」词根 bene- 与「生」词根 gen- 相连。"
-  },
-  "latinIntro": {
-   "en": "The Latin pair bene and gignere heads this family.",
-   "cn": "拉丁语 bene 与 gignere 的组合统领这个词族。"
-  },
-  "items": [
-   {
-    "word": "gignere",
-    "structure": "Latin verb",
-    "meaning": "to beget, produce",
-    "meaningCN": "生育、产生",
-    "example": "gignere prolem",
-    "exampleCN": "生养后代"
-   },
-   {
-    "word": "benignus",
-    "structure": "Latin adjective",
-    "meaning": "kind by nature",
-    "meaningCN": "天性仁慈的",
-    "example": "rex benignus",
-    "exampleCN": "仁君"
-   },
-   {
     "word": "benign",
-    "structure": "bene + gen- + -ign",
-    "meaning": "kindly, harmless",
-    "meaningCN": "和蔼的；良性的",
-    "example": "a benign smile",
-    "exampleCN": "和蔼的微笑"
-   },
-   {
-    "word": "benignity",
-    "structure": "benign + -ity",
-    "meaning": "kindness, mildness",
-    "meaningCN": "仁慈",
-    "example": "eyes full of benignity",
-    "exampleCN": "满眼慈爱"
-   },
-   {
-    "word": "malign",
-    "structure": "male + gen- via malignus",
-    "meaning": "evil, or to defame",
-    "meaningCN": "恶性的；诽谤",
-    "example": "a malign influence",
-    "exampleCN": "恶劣影响"
-   },
-   {
-    "word": "malignant",
-    "structure": "malign + -ant",
-    "meaning": "cancerous, ill-willed",
-    "meaningCN": "恶性的",
-    "example": "malignant cells",
-    "exampleCN": "恶性细胞"
-   },
-   {
-    "word": "generate",
-    "structure": "gen- + -ate",
-    "meaning": "to produce",
-    "meaningCN": "产生",
-    "example": "generate power",
-    "exampleCN": "发电"
-   },
-   {
-    "word": "genetic",
-    "structure": "genesis + -ic",
-    "meaning": "of genes and heredity",
-    "meaningCN": "遗传的",
-    "example": "genetic code",
-    "exampleCN": "遗传密码"
-   },
-   {
-    "word": "genial",
-    "structure": "gen- + -ial",
-    "meaning": "warm and cheerful",
-    "meaningCN": "亲切宜人的",
-    "example": "a genial host",
-    "exampleCN": "亲切的主人"
-   }
-  ],
-  "latinEntries": [
-   {
-    "word": "benignus",
-    "structure": "Latin adjective",
-    "meaning": "kind, good-natured; source of benign",
-    "meaningCN": "仁慈的；benign 的来源",
-    "example": "natura benigna",
-    "exampleCN": "温良的天性"
-   }
-  ],
-  "derivatives": [
-   {
-    "word": "benignity",
-    "pos": "n.",
-    "zh": "由形容词加名词后缀构成，义为「仁慈」"
-   },
-   {
-    "word": "benignly",
-    "pos": "adv.",
-    "zh": "由形容词加副词后缀构成，义为「和蔼地」"
-   }
-  ]
- }
-}
+    "ipa_uk": "/bɪˈnaɪn/",
+    "ipa_us": "/bɪˈnaɪn/",
+    "definition_zh": "良性的；和蔼的；仁慈的；无害的；（气候）温和宜人的",
+    "definition_en": "gentle and kindly, or not harmful, especially of a tumour or climate",
+    "core_image": "一株安静无害的小圆影，像晒着太阳的云",
+    "scene": "体检报告摊开在桌上，医生微笑着指向那行字。The doctor smiled and said the tumour was benign.",
+    "sceneCN": "这里 benign 是「良性的、无害的」（第 2 个义项：医学上不会扩散恶化的肿瘤）；句意是医生笑着说肿瘤是良性的。",
+    "pos": [
+      {
+        "tag": "adj.",
+        "zh": "良性的；和蔼的；无害的"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "a benign tumour",
+        "zh": "良性肿瘤"
+      },
+      {
+        "phrase": "a benign smile",
+        "zh": "和蔼的微笑"
+      },
+      {
+        "phrase": "a benign climate",
+        "zh": "温和的气候"
+      },
+      {
+        "phrase": "a benign influence",
+        "zh": "好的影响"
+      },
+      {
+        "phrase": "benign neglect",
+        "zh": "善意的放任"
+      }
+    ],
+    "forms": [
+      {
+        "label": "比较级",
+        "form": "more benign"
+      },
+      {
+        "label": "最高级",
+        "form": "most benign"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "benignity",
+        "pos": "n.",
+        "zh": "由形容词加名词后缀构成，义为「仁慈；温和」"
+      },
+      {
+        "word": "benignly",
+        "pos": "adv.",
+        "zh": "由形容词加副词后缀构成，义为「和蔼地；无害地」"
+      },
+      {
+        "word": "benignant",
+        "pos": "adj.",
+        "zh": "同根变体，义为「仁慈的（较少用）」"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "Gentle and kindly in manner",
+        "titleCN": "和蔼的；慈祥的",
+        "definition": "showing kindness and a gentle nature",
+        "definitionCN": "性情温和、待人慈祥",
+        "example": "The professor gave the nervous student a benign smile.",
+        "exampleCN": "教授朝紧张的学生投去和蔼的一笑。",
+        "why": "Bene means well and gen- relates to birth or nature, so the nature itself is good.",
+        "whyCN": "bene 意为「好」，gen- 与「天生」相关，合起来即「天性良善」。"
+      },
+      {
+        "no": "02",
+        "title": "Not harmful, especially of a tumour",
+        "titleCN": "良性的；无害的",
+        "definition": "not dangerous to health, especially not spreading or cancerous",
+        "definitionCN": "不危及健康，尤指不扩散、非癌性的",
+        "example": "The doctor smiled and said the tumour was benign.",
+        "exampleCN": "医生笑着说肿瘤是良性的。",
+        "why": "A good-natured growth stays mild and does no harm.",
+        "whyCN": "「天性良善」的东西安分温和，不会作恶。"
+      },
+      {
+        "no": "03",
+        "title": "Mild and favourable, as of climate or conditions",
+        "titleCN": "温和宜人的",
+        "definition": "pleasantly mild, as weather or an environment that favours growth",
+        "definitionCN": "气候、环境温和，宜于生长",
+        "example": "The island enjoys a benign climate all year round.",
+        "exampleCN": "这座小岛全年气候温和宜人。",
+        "why": "Goodness spreads to surroundings that nurture life.",
+        "whyCN": "「良善」扩展到滋养生命的周遭环境。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Benign is Latin benignus, from bene, well, and genus or gignere, birth and begetting.",
+        "cn": "benign 来自拉丁语 benignus，由 bene「好」与 genus、gignere「出生、生育」构成。"
+      },
+      "items": [
+        {
+          "era": "PROTO-INDO-EUROPEAN",
+          "en": "the root gene- meant to give birth, to beget.",
+          "cn": "词根 gene- 意为「生育、产生」（重构形式）。"
+        },
+        {
+          "era": "LATIN",
+          "en": "benignus meant kind, good by nature.",
+          "cn": "拉丁语 benignus 意为「天性良善的、仁慈的」。"
+        },
+        {
+          "era": "OLD FRENCH",
+          "en": "benigne carried the word into French.",
+          "cn": "古法语 benigne 使该词传入法语。"
+        },
+        {
+          "era": "ENGLISH, 14TH C.",
+          "en": "English borrowed benign in the fourteenth century for kind rulers and mild weather.",
+          "cn": "十四世纪英语借入 benign，形容仁君与温和天气。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "medical use for harmless tumours became its best-known sense.",
+          "cn": "「良性肿瘤」的医学用法成为如今最广为人知的义项。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "The look-alike group shares the bene- root or spelling; the near-meaning group gathers gentle and harmless words.",
+        "cn": "形近组共享 bene- 词根或拼写；近义组汇集温和无害类词。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "malign",
+              "ipa": "/məˈlaɪn/",
+              "tag": "opposite",
+              "definition": "harmful or evil; to speak ill of",
+              "definitionCN": "恶性的；诽谤——前缀相反的对照词"
+            },
+            {
+              "word": "benignant",
+              "ipa": "/bɪˈnɪɡnənt/",
+              "tag": "same root",
+              "definition": "kind and gentle, rare variant",
+              "definitionCN": "仁慈的——benign 的同根变体"
+            },
+            {
+              "word": "benignity",
+              "ipa": "/bɪˈnɪɡnəti/",
+              "tag": "derived form",
+              "definition": "kindness and gentleness",
+              "definitionCN": "仁慈——benign 的名词形式"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "harmless",
+              "ipa": "/ˈhɑːmləs/",
+              "tag": "near synonym",
+              "definition": "not able or likely to cause harm",
+              "definitionCN": "无害的；日常说法"
+            },
+            {
+              "word": "gentle",
+              "ipa": "/ˈdʒentl/",
+              "tag": "near synonym",
+              "definition": "mild and kind in manner",
+              "definitionCN": "温和的；侧重态度"
+            },
+            {
+              "word": "malignant",
+              "ipa": "/məˈlɪɡnənt/",
+              "tag": "opposite",
+              "definition": "dangerous, cancerous, or ill-willed",
+              "definitionCN": "恶性的——医学与性格上的反义"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Benign is bene plus genus: good by nature.",
+        "cn": "benign 是 bene 加 genus：天性良善。"
+      },
+      "normal": [
+        {
+          "en": "Malign is its dark opposite.",
+          "cn": "malign 是它的反面，恶性。"
+        },
+        {
+          "en": "A benign tumour does not spread.",
+          "cn": "良性肿瘤不会扩散。"
+        },
+        {
+          "en": "Benign can describe weather too.",
+          "cn": "benign 也可形容天气温和。"
+        },
+        {
+          "en": "The adverb is benignly.",
+          "cn": "副词是 benignly。"
+        },
+        {
+          "en": "Gen- roots also give generate and genetic.",
+          "cn": "gen- 词根还造出 generate、genetic。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "See a cloud shading walkers, never raining.",
+          "cn": "看一朵只遮阳不降雨的云。"
+        },
+        {
+          "en": "Feel a palm resting lightly on your head.",
+          "cn": "感受轻放在头顶的手掌。"
+        },
+        {
+          "en": "Picture a still pond with no hidden stone.",
+          "cn": "想象一泓无暗石静水。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "The doctor smiled and said the tumour was benign.",
+        "cn": "医生笑着说肿瘤是良性的。"
+      },
+      {
+        "en": "The professor gave the nervous student a benign smile.",
+        "cn": "教授朝紧张的学生投去和蔼的一笑。"
+      },
+      {
+        "en": "The island enjoys a benign climate all year round.",
+        "cn": "这座小岛全年气候温和宜人。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「白奶」——像温热的白牛奶，温和滋养、绝无伤害。",
+      "word": "benign"
+    },
+    "root": "拉丁语 bene「好地」加 genus「出身」或 gignere「生育」（词根上溯至原始印欧语 gene-「产生」，重构形式），派生 benignus「天性仁慈」，经古法语 benigne 于十四世纪进入英语；反义词 malign 同根而前缀相反。",
+    "sensesIntro": {
+      "en": "One adjective runs from a kindly face to a harmless growth to a mild climate.",
+      "cn": "一个形容词，从慈祥的面容，到无害的瘤体，再到温和的气候。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: a quiet cloud that only shades, never storms.",
+        "cn": "核心意象：只遮阳不起风暴的安静云朵。"
+      },
+      "chain": [
+        "GOODNESS",
+        "NATURE",
+        "MILDNESS",
+        "SAFETY",
+        "FAVOUR",
+        "GROWTH"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "a benign smile",
+          "cn": "和蔼的微笑"
+        },
+        {
+          "senses": "01",
+          "en": "a benign influence",
+          "cn": "好的影响"
+        },
+        {
+          "senses": "02",
+          "en": "a benign tumour",
+          "cn": "良性肿瘤"
+        },
+        {
+          "senses": "02",
+          "en": "benign neglect",
+          "cn": "善意的放任"
+        },
+        {
+          "senses": "03",
+          "en": "a benign climate",
+          "cn": "温和的气候"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Benign joins the good root bene- to the birth root gen-.",
+        "cn": "benign 把「好」词根 bene- 与「生」词根 gen- 相连。"
+      },
+      "latinIntro": {
+        "en": "The Latin pair bene and gignere heads this family.",
+        "cn": "拉丁语 bene 与 gignere 的组合统领这个词族。"
+      },
+      "items": [
+        {
+          "word": "gignere",
+          "structure": "Latin verb",
+          "meaning": "to beget, produce",
+          "meaningCN": "生育、产生",
+          "example": "gignere prolem",
+          "exampleCN": "生养后代"
+        },
+        {
+          "word": "benignus",
+          "structure": "Latin adjective",
+          "meaning": "kind by nature",
+          "meaningCN": "天性仁慈的",
+          "example": "rex benignus",
+          "exampleCN": "仁君"
+        },
+        {
+          "word": "benign",
+          "structure": "bene + gen- + -ign",
+          "meaning": "kindly, harmless",
+          "meaningCN": "和蔼的；良性的",
+          "example": "a benign smile",
+          "exampleCN": "和蔼的微笑"
+        },
+        {
+          "word": "benignity",
+          "structure": "benign + -ity",
+          "meaning": "kindness, mildness",
+          "meaningCN": "仁慈",
+          "example": "eyes full of benignity",
+          "exampleCN": "满眼慈爱"
+        },
+        {
+          "word": "malign",
+          "structure": "male + gen- via malignus",
+          "meaning": "evil, or to defame",
+          "meaningCN": "恶性的；诽谤",
+          "example": "a malign influence",
+          "exampleCN": "恶劣影响"
+        },
+        {
+          "word": "malignant",
+          "structure": "malign + -ant",
+          "meaning": "cancerous, ill-willed",
+          "meaningCN": "恶性的",
+          "example": "malignant cells",
+          "exampleCN": "恶性细胞"
+        },
+        {
+          "word": "generate",
+          "structure": "gen- + -ate",
+          "meaning": "to produce",
+          "meaningCN": "产生",
+          "example": "generate power",
+          "exampleCN": "发电"
+        },
+        {
+          "word": "genetic",
+          "structure": "genesis + -ic",
+          "meaning": "of genes and heredity",
+          "meaningCN": "遗传的",
+          "example": "genetic code",
+          "exampleCN": "遗传密码"
+        },
+        {
+          "word": "genial",
+          "structure": "gen- + -ial",
+          "meaning": "warm and cheerful",
+          "meaningCN": "亲切宜人的",
+          "example": "a genial host",
+          "exampleCN": "亲切的主人"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "benignus",
+          "structure": "Latin adjective",
+          "meaning": "kind, good-natured; source of benign",
+          "meaningCN": "仁慈的；benign 的来源",
+          "example": "natura benigna",
+          "exampleCN": "温良的天性"
+        }
+      ],
+      "derivatives": [
+        {
+          "word": "benignity",
+          "pos": "n.",
+          "zh": "由形容词加名词后缀构成，义为「仁慈」"
+        },
+        {
+          "word": "benignly",
+          "pos": "adv.",
+          "zh": "由形容词加副词后缀构成，义为「和蔼地」"
+        }
+      ]
+    }
+  }
+]

@@ -1,321 +1,501 @@
-{
-  "word": "augur",
-  "ipa_uk": "/ˈɔːɡə(r)/",
-  "ipa_us": "/ˈɔːɡər/",
-  "definition_zh": "占卜官；预言者；预示；预兆",
-  "definition_en": "in ancient Rome, an official who interpreted omens; as a verb, to be a sign that something is likely to happen",
-  "core_image": "看鸟的飞行方向读出未来的祭司之眼",
-  "scene": "罗马城头，占卜官凝视群鸟划过天际的轨迹。The priests augured that the new colony would prosper.",
-  "sceneCN": "这里 augur 指「预言、预示」（第 2 个义项：作为动词预断吉凶）；句意：祭司们预卜新殖民地将会兴旺。",
-  "pos": [
-    { "tag": "n.", "zh": "（古罗马）占卜官；预言者" },
-    { "tag": "v.", "zh": "预示；预兆；占卜" }
-  ],
-  "collocations": [
-    { "phrase": "augur well for", "zh": "对……是好兆头" },
-    { "phrase": "augur ill for", "zh": "对……是凶兆" },
-    { "phrase": "a Roman augur", "zh": "古罗马占卜官" },
-    { "phrase": "developments that augur change", "zh": "预示变革的动向" },
-    { "phrase": "the augurs of Rome", "zh": "罗马众占卜官" }
-  ],
-  "forms": [
-    { "label": "第三人称单数", "form": "augurs" },
-    { "label": "过去式", "form": "augured" },
-    { "label": "过去分词", "form": "augured" },
-    { "label": "现在分词", "form": "auguring" },
-    { "label": "复数", "form": "augurs" }
-  ],
-  "derivatives": [
-    { "word": "augury", "pos": "n.", "zh": "占卜；预兆（augur + -y 名词后缀）" },
-    { "word": "augural", "pos": "adj.", "zh": "占卜的；预兆的（augur + -al）" },
-    { "word": "inaugurate", "pos": "v.", "zh": "开创；举行就职典礼（同族词，出自占卜官主持开国之礼）" },
-    { "word": "inauguration", "pos": "n.", "zh": "就职典礼；开创（inaugurate 的名词）" }
-  ],
-  "senses": [
-    {
-      "no": "01",
-      "title": "A Roman diviner",
-      "titleCN": "（古罗马）占卜官",
-      "definition": "in ancient Rome, a religious official who read omens, especially the flight of birds",
-      "definitionCN": "古罗马解读征兆（尤其鸟飞之象）的宗教官员",
-      "example": "No Roman army marched before the augurs approved.",
-      "exampleCN": "未经占卜官首肯，罗马军队一兵不发。",
-      "why": "The noun is the word's original office: a man whose job was to read the sky.",
-      "whyCN": "名词是这个词的原初职位：以观天读象为业的人。"
+[
+  {
+    "word": "augur",
+    "ipa_uk": "/ˈɔːɡə(r)/",
+    "ipa_us": "/ˈɔːɡər/",
+    "definition_zh": "占卜官；预言者；预示；预兆",
+    "definition_en": "in ancient Rome, an official who interpreted omens; as a verb, to be a sign that something is likely to happen",
+    "core_image": "看鸟的飞行方向读出未来的祭司之眼",
+    "scene": "罗马城头，占卜官凝视群鸟划过天际的轨迹。The priests augured that the new colony would prosper.",
+    "sceneCN": "这里 augur 指「预言、预示」（第 2 个义项：作为动词预断吉凶）；句意：祭司们预卜新殖民地将会兴旺。",
+    "pos": [
+      {
+        "tag": "n.",
+        "zh": "（古罗马）占卜官；预言者"
+      },
+      {
+        "tag": "v.",
+        "zh": "预示；预兆；占卜"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "augur well for",
+        "zh": "对……是好兆头"
+      },
+      {
+        "phrase": "augur ill for",
+        "zh": "对……是凶兆"
+      },
+      {
+        "phrase": "a Roman augur",
+        "zh": "古罗马占卜官"
+      },
+      {
+        "phrase": "developments that augur change",
+        "zh": "预示变革的动向"
+      },
+      {
+        "phrase": "the augurs of Rome",
+        "zh": "罗马众占卜官"
+      }
+    ],
+    "forms": [
+      {
+        "label": "第三人称单数",
+        "form": "augurs"
+      },
+      {
+        "label": "过去式",
+        "form": "augured"
+      },
+      {
+        "label": "过去分词",
+        "form": "augured"
+      },
+      {
+        "label": "现在分词",
+        "form": "auguring"
+      },
+      {
+        "label": "复数",
+        "form": "augurs"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "augury",
+        "pos": "n.",
+        "zh": "占卜；预兆（augur + -y 名词后缀）"
+      },
+      {
+        "word": "augural",
+        "pos": "adj.",
+        "zh": "占卜的；预兆的（augur + -al）"
+      },
+      {
+        "word": "inaugurate",
+        "pos": "v.",
+        "zh": "开创；举行就职典礼（同族词，出自占卜官主持开国之礼）"
+      },
+      {
+        "word": "inauguration",
+        "pos": "n.",
+        "zh": "就职典礼；开创（inaugurate 的名词）"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "A Roman diviner",
+        "titleCN": "（古罗马）占卜官",
+        "definition": "in ancient Rome, a religious official who read omens, especially the flight of birds",
+        "definitionCN": "古罗马解读征兆（尤其鸟飞之象）的宗教官员",
+        "example": "No Roman army marched before the augurs approved.",
+        "exampleCN": "未经占卜官首肯，罗马军队一兵不发。",
+        "why": "The noun is the word's original office: a man whose job was to read the sky.",
+        "whyCN": "名词是这个词的原初职位：以观天读象为业的人。"
+      },
+      {
+        "no": "02",
+        "title": "To predict by omens",
+        "titleCN": "占卜；预断",
+        "definition": "to predict or divine something by reading signs",
+        "definitionCN": "通过征兆预断某事",
+        "example": "They augured the harvest from the autumn winds.",
+        "exampleCN": "他们凭秋风预断了收成。",
+        "why": "The official's act became a verb: what the augur did, anyone can augur.",
+        "whyCN": "官职的行为化为动词：占卜官所做的事，人人皆可 augur。"
+      },
+      {
+        "no": "03",
+        "title": "To be a sign of something coming",
+        "titleCN": "预示；预兆",
+        "definition": "to be a sign that something is likely to happen in the future",
+        "definitionCN": "成为某事将来可能发生的迹象",
+        "example": "Rising orders augur a strong year for the factory.",
+        "exampleCN": "订单攀升预示着工厂一年的好光景。",
+        "why": "Modern English keeps only the sign, not the ritual: events now play the birds.",
+        "whyCN": "现代英语只保留了「征兆」而舍弃了仪式：如今扮演飞鸟的是事件本身。"
+      },
+      {
+        "no": "04",
+        "title": "To augur well or ill",
+        "titleCN": "兆吉；兆凶",
+        "definition": "to promise good or bad outcomes, in the fixed phrases augur well and augur ill",
+        "definitionCN": "在固定搭配 augur well / augur ill 中预示吉凶",
+        "example": "The calm sea augured well for the crossing.",
+        "exampleCN": "平静的海面是渡航的好兆头。",
+        "why": "The auspicious side of divination survived in two idioms of good and bad signs.",
+        "whyCN": "占卜的吉凶两面留存在「吉兆」「凶兆」两个习语之中。"
+      },
+      {
+        "no": "05",
+        "title": "A prophet or soothsayer generally",
+        "titleCN": "（泛指）预言者；占卜者",
+        "definition": "any person who claims to foretell events, not only the Roman official",
+        "definitionCN": "任何自称能预知未来的人，不限于罗马官员",
+        "example": "Street-corner augurs promised the crowds a golden age.",
+        "exampleCN": "街角的预言者们向人群许诺黄金时代。",
+        "why": "Once the office was named, impostors borrowed its title.",
+        "whyCN": "官职一旦得名，招摇撞骗者便借用其头衔。"
+      },
+      {
+        "no": "06",
+        "title": "Omens and augury as practice",
+        "titleCN": "占卜之术；征兆体系",
+        "definition": "the practice or reading of omens, when the word appears in its noun-family forms",
+        "definitionCN": "解读征兆的行为体系，见于其名词家族词形",
+        "example": "Bird flight was central to Roman augury.",
+        "exampleCN": "鸟飞之象是罗马占卜术的核心。",
+        "why": "The practice needed a name, so augury grew beside augur.",
+        "whyCN": "这门术数需要名字，augury 便在 augur 旁边生长出来。"
+      },
+      {
+        "no": "07",
+        "title": "Authority founded on signs",
+        "titleCN": "以征兆为据的权威",
+        "definition": "power exercised by declaring what the signs permit, as the Roman augurs did over state acts",
+        "definitionCN": "如罗马占卜官那样，借宣告征兆准许与否而行使的权力",
+        "example": "The augurs could block an election with a single negative sign.",
+        "exampleCN": "占卜官一纸凶兆便可叫停一场选举。",
+        "why": "Reading signs was also ruling: the sky's verdicts stopped assemblies and wars.",
+        "whyCN": "读象亦是执政：上天的裁决能叫停集会与战争。"
+      },
+      {
+        "no": "08",
+        "title": "Inauguration, the bright descendant",
+        "titleCN": "开国之礼；就职典礼（同族引申）",
+        "definition": "the founding rite that Roman augurs blessed, preserved in inaugurate and inauguration",
+        "definitionCN": "罗马占卜官主持祝福的开创仪式，今存于 inaugurate、inauguration",
+        "example": "The president's inauguration echoes an ancient augural rite.",
+        "exampleCN": "总统就职典礼可回溯到古老的占卜官仪式。",
+        "why": "Founding a city needed the birds' approval, so the rite took the augur's name.",
+        "whyCN": "建城须得飞鸟认可，这项仪式便取了占卜官之名。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Augur is a direct borrowing from Latin augur, the official diviner of Rome; the further root is debated, perhaps from avis, bird, plus gar- or agere, or from an old root meaning increase, the same family as augment.",
+        "cn": "augur 直接借自拉丁语 augur（罗马占卜官）；更早的词源有争议，或出自 avis「鸟」加 gar-/agere，或出自意为「增长」的老词根，与 augment 同族。"
+      },
+      "items": [
+        {
+          "era": "PROTO-INDO-EUROPEAN",
+          "en": "One proposed root *h₂eg- meant to drive or increase; another line links *awi-, bird. Both hypotheses remain open.",
+          "cn": "一说词根 *h₂eg- 意为「驱动、增长」；另一说联系 *awi-「鸟」。两种假说并存。"
+        },
+        {
+          "era": "LATIN",
+          "en": "augur named the member of the priestly college who read omens from birds, sky, and sacred meals.",
+          "cn": "拉丁语 augur 指祭司团中凭飞鸟、天象与圣餐解读征兆的成员。"
+        },
+        {
+          "era": "LATIN, AUGURIUM",
+          "en": "augurium meant divination or an omen, and augurare, to augur, the act of predicting.",
+          "cn": "augurium 意为占卜或征兆，动词 augurare 意为预断。"
+        },
+        {
+          "era": "LATIN, INAUGURARE",
+          "en": "inaugurare meant to consecrate with omens, the rite of founding cities and installing officials.",
+          "cn": "inaugurare 意为「以征兆祝圣」，即建城与就任的仪式。"
+        },
+        {
+          "era": "ENGLISH, 1540S",
+          "en": "English took augur as noun and verb in the mid-sixteenth century, when classical learning was fashionable.",
+          "cn": "16 世纪中叶，正值古典学风盛行，英语同时借入 augur 的名、动两种用法。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "Today the ritual is gone; augur survives mainly in augur well or ill, and inauguration keeps the festive descendant.",
+          "cn": "如今仪式已逝；augur 主要存于 augur well / ill，而就职典礼保留了其节庆后代。"
+        }
+      ]
     },
-    {
-      "no": "02",
-      "title": "To predict by omens",
-      "titleCN": "占卜；预断",
-      "definition": "to predict or divine something by reading signs",
-      "definitionCN": "通过征兆预断某事",
-      "example": "They augured the harvest from the autumn winds.",
-      "exampleCN": "他们凭秋风预断了收成。",
-      "why": "The official's act became a verb: what the augur did, anyone can augur.",
-      "whyCN": "官职的行为化为动词：占卜官所做的事，人人皆可 augur。"
+    "similar": {
+      "note": {
+        "en": "Group one collects the aug- family and common look-alikes; group two collects neighboring omen and prediction words.",
+        "cn": "第一组收 aug- 词族及常见形近词；第二组收相邻的征兆与预言词。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "augury",
+              "ipa": "/ˈɔːɡjəri/",
+              "tag": "same root",
+              "definition": "divination or an omen; the noun family of augur.",
+              "definitionCN": "占卜；预兆；augur 的名词家族。"
+            },
+            {
+              "word": "august",
+              "ipa": "/ɔːˈɡʌst/",
+              "tag": "possibly same root",
+              "definition": "majestic, from Latin augustus, on the same debated increase root; the link is plausible but not proven.",
+              "definitionCN": "威严的，出自拉丁语 augustus，与 augur 或同属「增长」词根——关联可信但未成定论。"
+            },
+            {
+              "word": "augment",
+              "ipa": "/ɔːɡˈment/",
+              "tag": "possibly same root",
+              "definition": "to increase, from augere; shares the proposed increase root.",
+              "definitionCN": "增加，出自 augere「增长」；同属拟议中的「增长」词根。"
+            },
+            {
+              "word": "author",
+              "ipa": "/ˈɔːθər/",
+              "tag": "look-alike, different root",
+              "definition": "a writer, from Latin auctor; similar sound, different family.",
+              "definitionCN": "作者，出自拉丁语 auctor；读音相近，词族不同。"
+            },
+            {
+              "word": "auger",
+              "ipa": "/ˈɔːɡər/",
+              "tag": "look-alike, different root",
+              "definition": "a drilling tool; pronounced the same, spelled one letter apart, unrelated.",
+              "definitionCN": "钻头；发音完全相同，仅一字母之差，词源无关。"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "omen",
+              "ipa": "/ˈəʊmən/",
+              "tag": "near meaning",
+              "definition": "an event believed to signal the future.",
+              "definitionCN": "被认为预示未来的征兆。"
+            },
+            {
+              "word": "portend",
+              "ipa": "/pɔːˈtend/",
+              "tag": "near meaning",
+              "definition": "to signal, often ominously, what is to come.",
+              "definitionCN": "预示（常指不祥）。"
+            },
+            {
+              "word": "presage",
+              "ipa": "/ˈpresɪdʒ/",
+              "tag": "near meaning",
+              "definition": "to foreshadow; a sign of what follows.",
+              "definitionCN": "预示；先兆。"
+            },
+            {
+              "word": "soothsayer",
+              "ipa": "/ˈsuːθseɪər/",
+              "tag": "near meaning",
+              "definition": "a person who claims to foretell the future.",
+              "definitionCN": "占卜者；预言者。"
+            },
+            {
+              "word": "harbinger",
+              "ipa": "/ˈhɑːbɪndʒər/",
+              "tag": "near meaning",
+              "definition": "one that announces the approach of something.",
+              "definitionCN": "先驱；预示……来临之物。"
+            }
+          ]
+        }
+      ]
     },
-    {
-      "no": "03",
-      "title": "To be a sign of something coming",
-      "titleCN": "预示；预兆",
-      "definition": "to be a sign that something is likely to happen in the future",
-      "definitionCN": "成为某事将来可能发生的迹象",
-      "example": "Rising orders augur a strong year for the factory.",
-      "exampleCN": "订单攀升预示着工厂一年的好光景。",
-      "why": "Modern English keeps only the sign, not the ritual: events now play the birds.",
-      "whyCN": "现代英语只保留了「征兆」而舍弃了仪式：如今扮演飞鸟的是事件本身。"
+    "mnemonics": {
+      "normalIntro": {
+        "en": "augur keeps its Roman office intact: the bird-reader whose verbs still forecast our futures.",
+        "cn": "augur 完整保留了罗马官职：那位读鸟占卜的官员，其动词至今仍在为我们的未来占卦。"
+      },
+      "normal": [
+        {
+          "en": "augur well / augur ill: the two fixed phrases cover most modern uses.",
+          "cn": "augur well / augur ill 两个固定搭配涵盖了现代用法的大半。"
+        },
+        {
+          "en": "inaugurate is augur's brightest child: to found with the omens' blessing.",
+          "cn": "inaugurate 是 augur 最耀眼的孩子：在征兆祝福下开创。"
+        },
+        {
+          "en": "augury is the practice; the augur is the practitioner.",
+          "cn": "augury 是术，augur 是其人。"
+        },
+        {
+          "en": "Spelling watch: auger drills holes, augur reads birds.",
+          "cn": "拼写警戒：auger 钻孔，augur 观鸟。"
+        },
+        {
+          "en": "augment may share the increase root: growth and good omens once belonged together.",
+          "cn": "augment 或与 augur 同根：增长与吉兆古时同属一家。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "Picture a man in a white cloak watching birds cross a square of sky.",
+          "cn": "想象一位白袍人注视飞鸟掠过一方天空。"
+        },
+        {
+          "en": "The word is a raised hand halting an army until the sky approves.",
+          "cn": "这个词是一只抬起的手：天意未准，大军不发。"
+        },
+        {
+          "en": "Every forecast is a tame descendant of augur.",
+          "cn": "每一次预测都是 augur 驯化后的后代。"
+        }
+      ]
     },
-    {
-      "no": "04",
-      "title": "To augur well or ill",
-      "titleCN": "兆吉；兆凶",
-      "definition": "to promise good or bad outcomes, in the fixed phrases augur well and augur ill",
-      "definitionCN": "在固定搭配 augur well / augur ill 中预示吉凶",
-      "example": "The calm sea augured well for the crossing.",
-      "exampleCN": "平静的海面是渡航的好兆头。",
-      "why": "The auspicious side of divination survived in two idioms of good and bad signs.",
-      "whyCN": "占卜的吉凶两面留存在「吉兆」「凶兆」两个习语之中。"
+    "examples": [
+      {
+        "en": "Empty shelves and long queues augur a hard winter.",
+        "cn": "空荡的货架与排起的长队预示着艰难的冬天。"
+      },
+      {
+        "en": "The treaty's early troubles augured ill for the alliance.",
+        "cn": "条约初期的种种波折对同盟而言是凶兆。"
+      },
+      {
+        "en": "In Rome the augurs read the sky before every election.",
+        "cn": "在罗马，每次选举前占卜官都要观测天象。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「奥格」——叫奥格的老祭司，每天格外观鸟占卜未来",
+      "word": "augur"
     },
-    {
-      "no": "05",
-      "title": "A prophet or soothsayer generally",
-      "titleCN": "（泛指）预言者；占卜者",
-      "definition": "any person who claims to foretell events, not only the Roman official",
-      "definitionCN": "任何自称能预知未来的人，不限于罗马官员",
-      "example": "Street-corner augurs promised the crowds a golden age.",
-      "exampleCN": "街角的预言者们向人群许诺黄金时代。",
-      "why": "Once the office was named, impostors borrowed its title.",
-      "whyCN": "官职一旦得名，招摇撞骗者便借用其头衔。"
+    "root": "直接借自拉丁语 augur「占卜官」（相关词 augurium「征兆」、inaugurare「以兆祝圣」）；更早词根有争议：或为 avis「鸟」+ gar-/agere，或为意为「增长」的老词根（与 augere、augustus 相关），两说并存、不可强行选定，故须谨慎表述。",
+    "sensesIntro": {
+      "en": "Eight senses follow one word from the Roman sky to the modern headline: the official, his art, his verdicts, and the signs that survived the religion.",
+      "cn": "八个义项跟随一个词从罗马天空走到现代新闻标题：那官职、那术数、那裁决，以及宗教消亡后仍存留的征兆。"
     },
-    {
-      "no": "06",
-      "title": "Omens and augury as practice",
-      "titleCN": "占卜之术；征兆体系",
-      "definition": "the practice or reading of omens, when the word appears in its noun-family forms",
-      "definitionCN": "解读征兆的行为体系，见于其名词家族词形",
-      "example": "Bird flight was central to Roman augury.",
-      "exampleCN": "鸟飞之象是罗马占卜术的核心。",
-      "why": "The practice needed a name, so augury grew beside augur.",
-      "whyCN": "这门术数需要名字，augury 便在 augur 旁边生长出来。"
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: birds crossing a marked square of sky, read as the future.",
+        "cn": "核心意象：飞鸟掠过划定的一方天区，被读出未来。"
+      },
+      "chain": [
+        "WATCH THE SKY",
+        "READ THE OMEN",
+        "DECLARE THE VERDICT",
+        "PREDICT",
+        "BE A SIGN",
+        "CONSECRATE A BEGINNING"
+      ],
+      "branches": [
+        {
+          "senses": "01 · 05",
+          "en": "THE OFFICE SIDE: the Roman augur and every later claimant of foresight.",
+          "cn": "官职一面：罗马占卜官与后世一切先知式人物。"
+        },
+        {
+          "senses": "02 · 06",
+          "en": "THE ART SIDE: predicting and the whole practice of augury.",
+          "cn": "术数一面：预断行为与占卜体系。"
+        },
+        {
+          "senses": "03 · 04",
+          "en": "THE MODERN SIDE: events that augur well or ill.",
+          "cn": "现代一面：兆吉兆凶的事件本身。"
+        },
+        {
+          "senses": "07",
+          "en": "THE POWER SIDE: verdicts that stopped wars and elections.",
+          "cn": "权力一面：能叫停战争与选举的裁决。"
+        },
+        {
+          "senses": "08",
+          "en": "THE RITE SIDE: inauguration as the augur's festive heir.",
+          "cn": "仪式一面：作为占卜官节庆继承者的就职典礼。"
+        }
+      ]
     },
-    {
-      "no": "07",
-      "title": "Authority founded on signs",
-      "titleCN": "以征兆为据的权威",
-      "definition": "power exercised by declaring what the signs permit, as the Roman augurs did over state acts",
-      "definitionCN": "如罗马占卜官那样，借宣告征兆准许与否而行使的权力",
-      "example": "The augurs could block an election with a single negative sign.",
-      "exampleCN": "占卜官一纸凶兆便可叫停一场选举。",
-      "why": "Reading signs was also ruling: the sky's verdicts stopped assemblies and wars.",
-      "whyCN": "读象亦是执政：上天的裁决能叫停集会与战争。"
-    },
-    {
-      "no": "08",
-      "title": "Inauguration, the bright descendant",
-      "titleCN": "开国之礼；就职典礼（同族引申）",
-      "definition": "the founding rite that Roman augurs blessed, preserved in inaugurate and inauguration",
-      "definitionCN": "罗马占卜官主持祝福的开创仪式，今存于 inaugurate、inauguration",
-      "example": "The president's inauguration echoes an ancient augural rite.",
-      "exampleCN": "总统就职典礼可回溯到古老的占卜官仪式。",
-      "why": "Founding a city needed the birds' approval, so the rite took the augur's name.",
-      "whyCN": "建城须得飞鸟认可，这项仪式便取了占卜官之名。"
+    "affixes": {
+      "intro": {
+        "en": "augur is a bare Latin borrowing with no prefix or suffix; its family lives in augury, augural, and inaugurate.",
+        "cn": "augur 是不带前后缀的拉丁语直接借词；其词族存于 augury、augural 与 inaugurate。"
+      },
+      "latinIntro": {
+        "en": "The Latin divination family centers on augur: augurium, augurare, and inaugurare all branch from it.",
+        "cn": "拉丁占卜词族以 augur 为中心：augurium、augurare、inaugurare 皆由此分出。"
+      },
+      "items": [
+        {
+          "word": "augur",
+          "structure": "Latin noun",
+          "meaning": "a Roman diviner",
+          "meaningCN": "罗马占卜官",
+          "example": "collegium augurum",
+          "exampleCN": "占卜官团"
+        },
+        {
+          "word": "augurium",
+          "structure": "augur + -ium",
+          "meaning": "an omen, divination",
+          "meaningCN": "征兆；占卜",
+          "example": "augurium avium",
+          "exampleCN": "鸟占之兆"
+        },
+        {
+          "word": "augurare",
+          "structure": "augur verb",
+          "meaning": "to predict by omens",
+          "meaningCN": "凭征兆预断",
+          "example": "augurari in old texts",
+          "exampleCN": "古文献中的预断"
+        },
+        {
+          "word": "inaugurare",
+          "structure": "in- + augur + -are",
+          "meaning": "to consecrate by omens",
+          "meaningCN": "以征兆祝圣",
+          "example": "inaugurare un urbem",
+          "exampleCN": "祝圣一座新城"
+        },
+        {
+          "word": "inaugurate",
+          "structure": "Latin inaugurare into English",
+          "meaning": "to begin formally; to install",
+          "meaningCN": "开创；使就职",
+          "example": "inaugurate a president",
+          "exampleCN": "为总统举行就职典礼"
+        },
+        {
+          "word": "augury",
+          "structure": "augur + -y",
+          "meaning": "divination; an omen",
+          "meaningCN": "占卜；预兆",
+          "example": "an augury of spring",
+          "exampleCN": "春天的预兆"
+        },
+        {
+          "word": "augural",
+          "structure": "augur + -al",
+          "meaning": "of divination",
+          "meaningCN": "占卜的",
+          "example": "augural rites",
+          "exampleCN": "占卜仪式"
+        },
+        {
+          "word": "august",
+          "structure": "Latin augustus",
+          "meaning": "venerable, majestic",
+          "meaningCN": "威严的",
+          "example": "her august presence",
+          "exampleCN": "她威严的仪态"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "augur",
+          "structure": "Latin noun",
+          "meaning": "diviner",
+          "meaningCN": "占卜官"
+        },
+        {
+          "word": "inaugurare",
+          "structure": "Latin verb",
+          "meaning": "to consecrate with omens",
+          "meaningCN": "以征兆祝圣"
+        }
+      ]
     }
-  ],
-  "etymology": {
-    "intro": {
-      "en": "Augur is a direct borrowing from Latin augur, the official diviner of Rome; the further root is debated, perhaps from avis, bird, plus gar- or agere, or from an old root meaning increase, the same family as augment.",
-      "cn": "augur 直接借自拉丁语 augur（罗马占卜官）；更早的词源有争议，或出自 avis「鸟」加 gar-/agere，或出自意为「增长」的老词根，与 augment 同族。"
-    },
-    "items": [
-      {
-        "era": "PROTO-INDO-EUROPEAN",
-        "en": "One proposed root *h₂eg- meant to drive or increase; another line links *awi-, bird. Both hypotheses remain open.",
-        "cn": "一说词根 *h₂eg- 意为「驱动、增长」；另一说联系 *awi-「鸟」。两种假说并存。"
-      },
-      {
-        "era": "LATIN",
-        "en": "augur named the member of the priestly college who read omens from birds, sky, and sacred meals.",
-        "cn": "拉丁语 augur 指祭司团中凭飞鸟、天象与圣餐解读征兆的成员。"
-      },
-      {
-        "era": "LATIN, AUGURIUM",
-        "en": "augurium meant divination or an omen, and augurare, to augur, the act of predicting.",
-        "cn": "augurium 意为占卜或征兆，动词 augurare 意为预断。"
-      },
-      {
-        "era": "LATIN, INAUGURARE",
-        "en": "inaugurare meant to consecrate with omens, the rite of founding cities and installing officials.",
-        "cn": "inaugurare 意为「以征兆祝圣」，即建城与就任的仪式。"
-      },
-      {
-        "era": "ENGLISH, 1540S",
-        "en": "English took augur as noun and verb in the mid-sixteenth century, when classical learning was fashionable.",
-        "cn": "16 世纪中叶，正值古典学风盛行，英语同时借入 augur 的名、动两种用法。"
-      },
-      {
-        "era": "MODERN ENGLISH",
-        "en": "Today the ritual is gone; augur survives mainly in augur well or ill, and inauguration keeps the festive descendant.",
-        "cn": "如今仪式已逝；augur 主要存于 augur well / ill，而就职典礼保留了其节庆后代。"
-      }
-    ]
-  },
-  "similar": {
-    "note": {
-      "en": "Group one collects the aug- family and common look-alikes; group two collects neighboring omen and prediction words.",
-      "cn": "第一组收 aug- 词族及常见形近词；第二组收相邻的征兆与预言词。"
-    },
-    "groups": [
-      {
-        "heading": "LOOK-ALIKE",
-        "entries": [
-          {
-            "word": "augury",
-            "ipa": "/ˈɔːɡjəri/",
-            "tag": "same root",
-            "definition": "divination or an omen; the noun family of augur.",
-            "definitionCN": "占卜；预兆；augur 的名词家族。"
-          },
-          {
-            "word": "august",
-            "ipa": "/ɔːˈɡʌst/",
-            "tag": "possibly same root",
-            "definition": "majestic, from Latin augustus, on the same debated increase root; the link is plausible but not proven.",
-            "definitionCN": "威严的，出自拉丁语 augustus，与 augur 或同属「增长」词根——关联可信但未成定论。"
-          },
-          {
-            "word": "augment",
-            "ipa": "/ɔːɡˈment/",
-            "tag": "possibly same root",
-            "definition": "to increase, from augere; shares the proposed increase root.",
-            "definitionCN": "增加，出自 augere「增长」；同属拟议中的「增长」词根。"
-          },
-          {
-            "word": "author",
-            "ipa": "/ˈɔːθər/",
-            "tag": "look-alike, different root",
-            "definition": "a writer, from Latin auctor; similar sound, different family.",
-            "definitionCN": "作者，出自拉丁语 auctor；读音相近，词族不同。"
-          },
-          {
-            "word": "auger",
-            "ipa": "/ˈɔːɡər/",
-            "tag": "look-alike, different root",
-            "definition": "a drilling tool; pronounced the same, spelled one letter apart, unrelated.",
-            "definitionCN": "钻头；发音完全相同，仅一字母之差，词源无关。"
-          }
-        ]
-      },
-      {
-        "heading": "NEAR MEANING",
-        "entries": [
-          {
-            "word": "omen",
-            "ipa": "/ˈəʊmən/",
-            "tag": "near meaning",
-            "definition": "an event believed to signal the future.",
-            "definitionCN": "被认为预示未来的征兆。"
-          },
-          {
-            "word": "portend",
-            "ipa": "/pɔːˈtend/",
-            "tag": "near meaning",
-            "definition": "to signal, often ominously, what is to come.",
-            "definitionCN": "预示（常指不祥）。"
-          },
-          {
-            "word": "presage",
-            "ipa": "/ˈpresɪdʒ/",
-            "tag": "near meaning",
-            "definition": "to foreshadow; a sign of what follows.",
-            "definitionCN": "预示；先兆。"
-          },
-          {
-            "word": "soothsayer",
-            "ipa": "/ˈsuːθseɪər/",
-            "tag": "near meaning",
-            "definition": "a person who claims to foretell the future.",
-            "definitionCN": "占卜者；预言者。"
-          },
-          {
-            "word": "harbinger",
-            "ipa": "/ˈhɑːbɪndʒər/",
-            "tag": "near meaning",
-            "definition": "one that announces the approach of something.",
-            "definitionCN": "先驱；预示……来临之物。"
-          }
-        ]
-      }
-    ]
-  },
-  "mnemonics": {
-    "normalIntro": {
-      "en": "augur keeps its Roman office intact: the bird-reader whose verbs still forecast our futures.",
-      "cn": "augur 完整保留了罗马官职：那位读鸟占卜的官员，其动词至今仍在为我们的未来占卦。"
-    },
-    "normal": [
-      { "en": "augur well / augur ill: the two fixed phrases cover most modern uses.", "cn": "augur well / augur ill 两个固定搭配涵盖了现代用法的大半。" },
-      { "en": "inaugurate is augur's brightest child: to found with the omens' blessing.", "cn": "inaugurate 是 augur 最耀眼的孩子：在征兆祝福下开创。" },
-      { "en": "augury is the practice; the augur is the practitioner.", "cn": "augury 是术，augur 是其人。" },
-      { "en": "Spelling watch: auger drills holes, augur reads birds.", "cn": "拼写警戒：auger 钻孔，augur 观鸟。" },
-      { "en": "augment may share the increase root: growth and good omens once belonged together.", "cn": "augment 或与 augur 同根：增长与吉兆古时同属一家。" }
-    ],
-    "abstract": [
-      { "en": "Picture a man in a white cloak watching birds cross a square of sky.", "cn": "想象一位白袍人注视飞鸟掠过一方天空。" },
-      { "en": "The word is a raised hand halting an army until the sky approves.", "cn": "这个词是一只抬起的手：天意未准，大军不发。" },
-      { "en": "Every forecast is a tame descendant of augur.", "cn": "每一次预测都是 augur 驯化后的后代。" }
-    ]
-  },
-  "examples": [
-    { "en": "Empty shelves and long queues augur a hard winter.", "cn": "空荡的货架与排起的长队预示着艰难的冬天。" },
-    { "en": "The treaty's early troubles augured ill for the alliance.", "cn": "条约初期的种种波折对同盟而言是凶兆。" },
-    { "en": "In Rome the augurs read the sky before every election.", "cn": "在罗马，每次选举前占卜官都要观测天象。" }
-  ],
-  "dict_mnemonic": {
-    "note": "谐音记忆 · 非词源",
-    "text": "「奥格」——叫奥格的老祭司，每天格外观鸟占卜未来",
-    "word": "augur"
-  },
-  "root": "直接借自拉丁语 augur「占卜官」（相关词 augurium「征兆」、inaugurare「以兆祝圣」）；更早词根有争议：或为 avis「鸟」+ gar-/agere，或为意为「增长」的老词根（与 augere、augustus 相关），两说并存、不可强行选定，故须谨慎表述。",
-  "sensesIntro": {
-    "en": "Eight senses follow one word from the Roman sky to the modern headline: the official, his art, his verdicts, and the signs that survived the religion.",
-    "cn": "八个义项跟随一个词从罗马天空走到现代新闻标题：那官职、那术数、那裁决，以及宗教消亡后仍存留的征兆。"
-  },
-  "semanticMap": {
-    "core": {
-      "en": "CORE IMAGE: birds crossing a marked square of sky, read as the future.",
-      "cn": "核心意象：飞鸟掠过划定的一方天区，被读出未来。"
-    },
-    "chain": ["WATCH THE SKY", "READ THE OMEN", "DECLARE THE VERDICT", "PREDICT", "BE A SIGN", "CONSECRATE A BEGINNING"],
-    "branches": [
-      { "senses": "01 · 05", "en": "THE OFFICE SIDE: the Roman augur and every later claimant of foresight.", "cn": "官职一面：罗马占卜官与后世一切先知式人物。" },
-      { "senses": "02 · 06", "en": "THE ART SIDE: predicting and the whole practice of augury.", "cn": "术数一面：预断行为与占卜体系。" },
-      { "senses": "03 · 04", "en": "THE MODERN SIDE: events that augur well or ill.", "cn": "现代一面：兆吉兆凶的事件本身。" },
-      { "senses": "07", "en": "THE POWER SIDE: verdicts that stopped wars and elections.", "cn": "权力一面：能叫停战争与选举的裁决。" },
-      { "senses": "08", "en": "THE RITE SIDE: inauguration as the augur's festive heir.", "cn": "仪式一面：作为占卜官节庆继承者的就职典礼。" }
-    ]
-  },
-  "affixes": {
-    "intro": {
-      "en": "augur is a bare Latin borrowing with no prefix or suffix; its family lives in augury, augural, and inaugurate.",
-      "cn": "augur 是不带前后缀的拉丁语直接借词；其词族存于 augury、augural 与 inaugurate。"
-    },
-    "latinIntro": {
-      "en": "The Latin divination family centers on augur: augurium, augurare, and inaugurare all branch from it.",
-      "cn": "拉丁占卜词族以 augur 为中心：augurium、augurare、inaugurare 皆由此分出。"
-    },
-    "items": [
-      { "word": "augur", "structure": "Latin noun", "meaning": "a Roman diviner", "meaningCN": "罗马占卜官", "example": "collegium augurum", "exampleCN": "占卜官团" },
-      { "word": "augurium", "structure": "augur + -ium", "meaning": "an omen, divination", "meaningCN": "征兆；占卜", "example": "augurium avium", "exampleCN": "鸟占之兆" },
-      { "word": "augurare", "structure": "augur verb", "meaning": "to predict by omens", "meaningCN": "凭征兆预断", "example": "augurari in old texts", "exampleCN": "古文献中的预断" },
-      { "word": "inaugurare", "structure": "in- + augur + -are", "meaning": "to consecrate by omens", "meaningCN": "以征兆祝圣", "example": "inaugurare un urbem", "exampleCN": "祝圣一座新城" },
-      { "word": "inaugurate", "structure": "Latin inaugurare into English", "meaning": "to begin formally; to install", "meaningCN": "开创；使就职", "example": "inaugurate a president", "exampleCN": "为总统举行就职典礼" },
-      { "word": "augury", "structure": "augur + -y", "meaning": "divination; an omen", "meaningCN": "占卜；预兆", "example": "an augury of spring", "exampleCN": "春天的预兆" },
-      { "word": "augural", "structure": "augur + -al", "meaning": "of divination", "meaningCN": "占卜的", "example": "augural rites", "exampleCN": "占卜仪式" },
-      { "word": "august", "structure": "Latin augustus", "meaning": "venerable, majestic", "meaningCN": "威严的", "example": "her august presence", "exampleCN": "她威严的仪态" }
-    ],
-    "latinEntries": [
-      { "word": "augur", "structure": "Latin noun", "meaning": "diviner", "meaningCN": "占卜官" },
-      { "word": "inaugurare", "structure": "Latin verb", "meaning": "to consecrate with omens", "meaningCN": "以征兆祝圣" }
-    ]
   }
-}
+]

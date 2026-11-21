@@ -1,400 +1,402 @@
-{
-  "word": "brief",
-  "ipa_uk": "/briːf/",
-  "ipa_us": "/briːf/",
-  "definition_zh": "简短的；短暂的；简要介绍",
-  "definition_en": "lasting only a short time, or using few words",
-  "core_image": "只写了几行的便条",
-  "scene": "桌上放着一张只写了几行的便条。A brief note lay on the desk.",
-  "sceneCN": "这里 brief 是「简短的」（第 1 个义项：用很少的话表达）；句意是桌上有一张简短的便条。",
-  "pos": [
-    {
-      "tag": "adj.",
-      "zh": "形容词：简短的；短暂的"
-    },
-    {
-      "tag": "n.",
-      "zh": "名词：摘要；任务说明"
-    },
-    {
-      "tag": "v.",
-      "zh": "动词：向…简要介绍"
-    }
-  ],
-  "collocations": [
-    {
-      "phrase": "a brief note",
-      "zh": "简短的便条"
-    },
-    {
-      "phrase": "a brief visit",
-      "zh": "短暂的拜访"
-    },
-    {
-      "phrase": "in brief",
-      "zh": "简言之"
-    },
-    {
-      "phrase": "a brief pause",
-      "zh": "短暂的停顿"
-    },
-    {
-      "phrase": "brief the team",
-      "zh": "向团队介绍情况"
-    },
-    {
-      "phrase": "keep it brief",
-      "zh": "说得简短些"
-    }
-  ],
-  "forms": [
-    {
-      "label": "比较级",
-      "form": "briefer"
-    },
-    {
-      "label": "最高级",
-      "form": "briefest"
-    },
-    {
-      "label": "复数",
-      "form": "briefs"
-    },
-    {
-      "label": "第三人称单数",
-      "form": "briefs"
-    },
-    {
-      "label": "过去式",
-      "form": "briefed"
-    },
-    {
-      "label": "现在分词",
-      "form": "briefing"
-    }
-  ],
-  "derivatives": [
-    {
-      "word": "briefly",
-      "pos": "adv.",
-      "zh": "简短地；短暂地"
-    },
-    {
-      "word": "briefing",
-      "pos": "n.",
-      "zh": "情况介绍"
-    }
-  ],
-  "senses": [
-    {
-      "no": "01",
-      "title": "Short in words",
-      "titleCN": "简短的",
-      "definition": "using only a few words",
-      "definitionCN": "只用很少的话",
-      "example": "A brief note lay on the desk.",
-      "exampleCN": "桌上放着一张简短的便条。",
-      "why": "This is the oldest sense, from short writing.",
-      "whyCN": "这是最古老的义项，来自简短的文字。"
-    },
-    {
-      "no": "02",
-      "title": "Short in time",
-      "titleCN": "短暂的",
-      "definition": "lasting only a short time",
-      "definitionCN": "只持续很短的时间",
-      "example": "They made a brief visit.",
-      "exampleCN": "他们做了短暂的拜访。",
-      "why": "Short words pictured short time.",
-      "whyCN": "简短的话语被用来比喻短暂的时间。"
-    },
-    {
-      "no": "03",
-      "title": "To give the main facts",
-      "titleCN": "向…简要介绍",
-      "definition": "to give someone the main facts about something",
-      "definitionCN": "把主要情况告诉某人",
-      "example": "The officer briefed the team.",
-      "exampleCN": "警官向队员简要介绍了情况。",
-      "why": "A short written note became a short spoken account.",
-      "whyCN": "简短的书面说明变成了简短的口头交代。"
-    }
-  ],
-  "etymology": {
-    "intro": {
-      "en": "Brief comes from Latin brevis, meaning short.",
-      "cn": "brief 来自拉丁语 brevis，意思是短的。"
-    },
-    "items": [
+[
+  {
+    "word": "brief",
+    "ipa_uk": "/briːf/",
+    "ipa_us": "/briːf/",
+    "definition_zh": "简短的；短暂的；简要介绍",
+    "definition_en": "lasting only a short time, or using few words",
+    "core_image": "只写了几行的便条",
+    "scene": "桌上放着一张只写了几行的便条。A brief note lay on the desk.",
+    "sceneCN": "这里 brief 是「简短的」（第 1 个义项：用很少的话表达）；句意是桌上有一张简短的便条。",
+    "pos": [
       {
-        "era": "LATIN",
-        "en": "brevis meant short in space or time.",
-        "cn": "brevis 指空间或时间上的短。"
+        "tag": "adj.",
+        "zh": "形容词：简短的；短暂的"
       },
       {
-        "era": "OLD FRENCH",
-        "en": "bref meant short and quick.",
-        "cn": "bref 意为简短而迅速。"
+        "tag": "n.",
+        "zh": "名词：摘要；任务说明"
       },
       {
-        "era": "MIDDLE ENGLISH",
-        "en": "brief meant short in speech.",
-        "cn": "brief 指言语简短。"
-      },
-      {
-        "era": "NINETEENTH CENTURY",
-        "en": "brief named a short written statement.",
-        "cn": "brief 指简短的书面说明。"
-      },
-      {
-        "era": "PRESENT DAY ENGLISH",
-        "en": "brief covers short words, short time and a summary.",
-        "cn": "如今 brief 兼指简短的话、短暂的时间与摘要。"
-      }
-    ]
-  },
-  "similar": {
-    "note": {
-      "en": "The look-alike group shares the br- or -ief shape; the near-meaning group gives other short words.",
-      "cn": "形近组共用 br- 或 -ief 的外形；近义组是其他表示短的词。"
-    },
-    "groups": [
-      {
-        "heading": "LOOK-ALIKE",
-        "entries": [
-          {
-            "word": "belief",
-            "ipa": "/bɪˈliːf/",
-            "tag": "look-alike",
-            "definition": "a feeling that something is true",
-            "definitionCN": "信念"
-          },
-          {
-            "word": "chief",
-            "ipa": "/tʃiːf/",
-            "tag": "look-alike",
-            "definition": "the leader of a group",
-            "definitionCN": "首领"
-          },
-          {
-            "word": "grief",
-            "ipa": "/ɡriːf/",
-            "tag": "look-alike",
-            "definition": "deep sadness",
-            "definitionCN": "悲伤"
-          }
-        ]
-      },
-      {
-        "heading": "NEAR MEANING",
-        "entries": [
-          {
-            "word": "short",
-            "ipa": "/ʃɔːt/",
-            "tag": "near synonym",
-            "definition": "lasting little time or having little length",
-            "definitionCN": "短的"
-          },
-          {
-            "word": "concise",
-            "ipa": "/kənˈsaɪs/",
-            "tag": "near synonym",
-            "definition": "giving much in few words",
-            "definitionCN": "简洁的"
-          },
-          {
-            "word": "fleeting",
-            "ipa": "/ˈfliːtɪŋ/",
-            "tag": "related",
-            "definition": "lasting only a moment",
-            "definitionCN": "转瞬即逝的"
-          }
-        ]
-      }
-    ]
-  },
-  "mnemonics": {
-    "normalIntro": {
-      "en": "Brief means few words or little time, and as a verb it means telling the facts shortly.",
-      "cn": "brief 指话少或时间短，作动词则是把情况简短地告诉别人。"
-    },
-    "normal": [
-      {
-        "en": "He left a brief note.",
-        "cn": "他留了一张简短的便条。"
-      },
-      {
-        "en": "The visit was brief.",
-        "cn": "这次拜访很短暂。"
-      },
-      {
-        "en": "In brief, the plan failed.",
-        "cn": "简言之，计划失败了。"
-      },
-      {
-        "en": "The officer briefed the team.",
-        "cn": "警官向队员介绍了情况。"
-      },
-      {
-        "en": "The comparative is briefer.",
-        "cn": "比较级是 briefer。"
+        "tag": "v.",
+        "zh": "动词：向…简要介绍"
       }
     ],
-    "abstract": [
+    "collocations": [
       {
-        "en": "See a note with only three lines.",
-        "cn": "想象只写了三行的便条。"
+        "phrase": "a brief note",
+        "zh": "简短的便条"
       },
       {
-        "en": "See a visit that ends at the door.",
-        "cn": "想象一次到门口就结束的拜访。"
+        "phrase": "a brief visit",
+        "zh": "短暂的拜访"
       },
       {
-        "en": "See a map explained in one sentence.",
-        "cn": "想象用一句话讲完一张地图。"
+        "phrase": "in brief",
+        "zh": "简言之"
+      },
+      {
+        "phrase": "a brief pause",
+        "zh": "短暂的停顿"
+      },
+      {
+        "phrase": "brief the team",
+        "zh": "向团队介绍情况"
+      },
+      {
+        "phrase": "keep it brief",
+        "zh": "说得简短些"
       }
-    ]
-  },
-  "examples": [
-    {
-      "en": "A brief note lay on the desk.",
-      "cn": "桌上放着一张简短的便条。"
-    },
-    {
-      "en": "They made a brief visit.",
-      "cn": "他们做了短暂的拜访。"
-    },
-    {
-      "en": "The officer briefed the team.",
-      "cn": "警官向队员简要介绍了情况。"
-    }
-  ],
-  "dict_mnemonic": {
-    "note": "拆词记忆 · 非词源",
-    "text": "brief 里有 ief，读起来短促，像一句话说完就停，记住它是简短。",
-    "word": "brief"
-  },
-  "root": "brief 来自拉丁语 brevis（短的），经古法语 bref 进入英语，最初指言语简短，后来兼指时间短暂，并引申出摘要与「向人简要交代」的动词义。",
-  "sensesIntro": {
-    "en": "Few words, little time and the act of telling the main facts.",
-    "cn": "很少的话、很短的时间、以及把主要情况说清楚的动作。"
-  },
-  "semanticMap": {
-    "core": {
-      "en": "CORE IMAGE: a note of only a few lines.",
-      "cn": "核心意象：只写了几行的便条。"
-    },
-    "chain": [
-      "FEW",
-      "WORDS",
-      "SHORT",
-      "TIME",
-      "NOTE",
-      "FACT"
     ],
-    "branches": [
+    "forms": [
       {
-        "senses": "01",
-        "en": "a brief note",
-        "cn": "简短的便条"
+        "label": "比较级",
+        "form": "briefer"
       },
       {
-        "senses": "01",
-        "en": "in brief",
-        "cn": "简言之"
+        "label": "最高级",
+        "form": "briefest"
       },
       {
-        "senses": "02",
-        "en": "a brief visit",
-        "cn": "短暂的拜访"
+        "label": "复数",
+        "form": "briefs"
       },
       {
-        "senses": "03",
-        "en": "brief the team",
-        "cn": "向团队介绍情况"
+        "label": "第三人称单数",
+        "form": "briefs"
       },
       {
-        "senses": "02",
-        "en": "a brief pause",
-        "cn": "短暂的停顿"
+        "label": "过去式",
+        "form": "briefed"
+      },
+      {
+        "label": "现在分词",
+        "form": "briefing"
       }
-    ]
-  },
-  "affixes": {
-    "intro": {
-      "en": "Brief forms adverbs and nouns with -ly and -ing.",
-      "cn": "brief 加 -ly 与 -ing 构成副词和名词。"
-    },
-    "latinIntro": {
-      "en": "The base is Latin brevis; the items below show related forms.",
-      "cn": "词基来自拉丁语 brevis，下面列出相关词形。"
-    },
-    "items": [
-      {
-        "word": "brief",
-        "structure": "Latin brevis",
-        "meaning": "short",
-        "meaningCN": "短的",
-        "example": "a brief note",
-        "exampleCN": "简短的便条"
-      },
+    ],
+    "derivatives": [
       {
         "word": "briefly",
-        "structure": "brief + -ly",
-        "meaning": "in few words",
-        "meaningCN": "简短地",
-        "example": "speak briefly",
-        "exampleCN": "简短地说"
+        "pos": "adv.",
+        "zh": "简短地；短暂地"
       },
       {
         "word": "briefing",
-        "structure": "brief + -ing",
-        "meaning": "a short account of facts",
-        "meaningCN": "情况介绍",
-        "example": "a morning briefing",
-        "exampleCN": "早晨的情况介绍"
-      },
-      {
-        "word": "brevity",
-        "structure": "Latin brevitas",
-        "meaning": "shortness of speech",
-        "meaningCN": "简洁",
-        "example": "the brevity of the note",
-        "exampleCN": "便条的简洁"
-      },
-      {
-        "word": "short",
-        "structure": "Old English sceort",
-        "meaning": "not long",
-        "meaningCN": "短的",
-        "example": "a short walk",
-        "exampleCN": "短距离散步"
-      },
-      {
-        "word": "concise",
-        "structure": "Latin concisus",
-        "meaning": "brief and clear",
-        "meaningCN": "简洁的",
-        "example": "a concise answer",
-        "exampleCN": "简洁的回答"
-      },
-      {
-        "word": "summary",
-        "structure": "Latin summarium",
-        "meaning": "a short account",
-        "meaningCN": "摘要",
-        "example": "a short summary",
-        "exampleCN": "简短的摘要"
-      },
-      {
-        "word": "note",
-        "structure": "Latin nota",
-        "meaning": "a short written message",
-        "meaningCN": "便条",
-        "example": "a quick note",
-        "exampleCN": "一张便条"
+        "pos": "n.",
+        "zh": "情况介绍"
       }
     ],
-    "latinEntries": []
+    "senses": [
+      {
+        "no": "01",
+        "title": "Short in words",
+        "titleCN": "简短的",
+        "definition": "using only a few words",
+        "definitionCN": "只用很少的话",
+        "example": "A brief note lay on the desk.",
+        "exampleCN": "桌上放着一张简短的便条。",
+        "why": "This is the oldest sense, from short writing.",
+        "whyCN": "这是最古老的义项，来自简短的文字。"
+      },
+      {
+        "no": "02",
+        "title": "Short in time",
+        "titleCN": "短暂的",
+        "definition": "lasting only a short time",
+        "definitionCN": "只持续很短的时间",
+        "example": "They made a brief visit.",
+        "exampleCN": "他们做了短暂的拜访。",
+        "why": "Short words pictured short time.",
+        "whyCN": "简短的话语被用来比喻短暂的时间。"
+      },
+      {
+        "no": "03",
+        "title": "To give the main facts",
+        "titleCN": "向…简要介绍",
+        "definition": "to give someone the main facts about something",
+        "definitionCN": "把主要情况告诉某人",
+        "example": "The officer briefed the team.",
+        "exampleCN": "警官向队员简要介绍了情况。",
+        "why": "A short written note became a short spoken account.",
+        "whyCN": "简短的书面说明变成了简短的口头交代。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Brief comes from Latin brevis, meaning short.",
+        "cn": "brief 来自拉丁语 brevis，意思是短的。"
+      },
+      "items": [
+        {
+          "era": "LATIN",
+          "en": "brevis meant short in space or time.",
+          "cn": "brevis 指空间或时间上的短。"
+        },
+        {
+          "era": "OLD FRENCH",
+          "en": "bref meant short and quick.",
+          "cn": "bref 意为简短而迅速。"
+        },
+        {
+          "era": "MIDDLE ENGLISH",
+          "en": "brief meant short in speech.",
+          "cn": "brief 指言语简短。"
+        },
+        {
+          "era": "NINETEENTH CENTURY",
+          "en": "brief named a short written statement.",
+          "cn": "brief 指简短的书面说明。"
+        },
+        {
+          "era": "PRESENT DAY ENGLISH",
+          "en": "brief covers short words, short time and a summary.",
+          "cn": "如今 brief 兼指简短的话、短暂的时间与摘要。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "The look-alike group shares the br- or -ief shape; the near-meaning group gives other short words.",
+        "cn": "形近组共用 br- 或 -ief 的外形；近义组是其他表示短的词。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "belief",
+              "ipa": "/bɪˈliːf/",
+              "tag": "look-alike",
+              "definition": "a feeling that something is true",
+              "definitionCN": "信念"
+            },
+            {
+              "word": "chief",
+              "ipa": "/tʃiːf/",
+              "tag": "look-alike",
+              "definition": "the leader of a group",
+              "definitionCN": "首领"
+            },
+            {
+              "word": "grief",
+              "ipa": "/ɡriːf/",
+              "tag": "look-alike",
+              "definition": "deep sadness",
+              "definitionCN": "悲伤"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "short",
+              "ipa": "/ʃɔːt/",
+              "tag": "near synonym",
+              "definition": "lasting little time or having little length",
+              "definitionCN": "短的"
+            },
+            {
+              "word": "concise",
+              "ipa": "/kənˈsaɪs/",
+              "tag": "near synonym",
+              "definition": "giving much in few words",
+              "definitionCN": "简洁的"
+            },
+            {
+              "word": "fleeting",
+              "ipa": "/ˈfliːtɪŋ/",
+              "tag": "related",
+              "definition": "lasting only a moment",
+              "definitionCN": "转瞬即逝的"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Brief means few words or little time, and as a verb it means telling the facts shortly.",
+        "cn": "brief 指话少或时间短，作动词则是把情况简短地告诉别人。"
+      },
+      "normal": [
+        {
+          "en": "He left a brief note.",
+          "cn": "他留了一张简短的便条。"
+        },
+        {
+          "en": "The visit was brief.",
+          "cn": "这次拜访很短暂。"
+        },
+        {
+          "en": "In brief, the plan failed.",
+          "cn": "简言之，计划失败了。"
+        },
+        {
+          "en": "The officer briefed the team.",
+          "cn": "警官向队员介绍了情况。"
+        },
+        {
+          "en": "The comparative is briefer.",
+          "cn": "比较级是 briefer。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "See a note with only three lines.",
+          "cn": "想象只写了三行的便条。"
+        },
+        {
+          "en": "See a visit that ends at the door.",
+          "cn": "想象一次到门口就结束的拜访。"
+        },
+        {
+          "en": "See a map explained in one sentence.",
+          "cn": "想象用一句话讲完一张地图。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "A brief note lay on the desk.",
+        "cn": "桌上放着一张简短的便条。"
+      },
+      {
+        "en": "They made a brief visit.",
+        "cn": "他们做了短暂的拜访。"
+      },
+      {
+        "en": "The officer briefed the team.",
+        "cn": "警官向队员简要介绍了情况。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "拆词记忆 · 非词源",
+      "text": "brief 里有 ief，读起来短促，像一句话说完就停，记住它是简短。",
+      "word": "brief"
+    },
+    "root": "brief 来自拉丁语 brevis（短的），经古法语 bref 进入英语，最初指言语简短，后来兼指时间短暂，并引申出摘要与「向人简要交代」的动词义。",
+    "sensesIntro": {
+      "en": "Few words, little time and the act of telling the main facts.",
+      "cn": "很少的话、很短的时间、以及把主要情况说清楚的动作。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: a note of only a few lines.",
+        "cn": "核心意象：只写了几行的便条。"
+      },
+      "chain": [
+        "FEW",
+        "WORDS",
+        "SHORT",
+        "TIME",
+        "NOTE",
+        "FACT"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "a brief note",
+          "cn": "简短的便条"
+        },
+        {
+          "senses": "01",
+          "en": "in brief",
+          "cn": "简言之"
+        },
+        {
+          "senses": "02",
+          "en": "a brief visit",
+          "cn": "短暂的拜访"
+        },
+        {
+          "senses": "03",
+          "en": "brief the team",
+          "cn": "向团队介绍情况"
+        },
+        {
+          "senses": "02",
+          "en": "a brief pause",
+          "cn": "短暂的停顿"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Brief forms adverbs and nouns with -ly and -ing.",
+        "cn": "brief 加 -ly 与 -ing 构成副词和名词。"
+      },
+      "latinIntro": {
+        "en": "The base is Latin brevis; the items below show related forms.",
+        "cn": "词基来自拉丁语 brevis，下面列出相关词形。"
+      },
+      "items": [
+        {
+          "word": "brief",
+          "structure": "Latin brevis",
+          "meaning": "short",
+          "meaningCN": "短的",
+          "example": "a brief note",
+          "exampleCN": "简短的便条"
+        },
+        {
+          "word": "briefly",
+          "structure": "brief + -ly",
+          "meaning": "in few words",
+          "meaningCN": "简短地",
+          "example": "speak briefly",
+          "exampleCN": "简短地说"
+        },
+        {
+          "word": "briefing",
+          "structure": "brief + -ing",
+          "meaning": "a short account of facts",
+          "meaningCN": "情况介绍",
+          "example": "a morning briefing",
+          "exampleCN": "早晨的情况介绍"
+        },
+        {
+          "word": "brevity",
+          "structure": "Latin brevitas",
+          "meaning": "shortness of speech",
+          "meaningCN": "简洁",
+          "example": "the brevity of the note",
+          "exampleCN": "便条的简洁"
+        },
+        {
+          "word": "short",
+          "structure": "Old English sceort",
+          "meaning": "not long",
+          "meaningCN": "短的",
+          "example": "a short walk",
+          "exampleCN": "短距离散步"
+        },
+        {
+          "word": "concise",
+          "structure": "Latin concisus",
+          "meaning": "brief and clear",
+          "meaningCN": "简洁的",
+          "example": "a concise answer",
+          "exampleCN": "简洁的回答"
+        },
+        {
+          "word": "summary",
+          "structure": "Latin summarium",
+          "meaning": "a short account",
+          "meaningCN": "摘要",
+          "example": "a short summary",
+          "exampleCN": "简短的摘要"
+        },
+        {
+          "word": "note",
+          "structure": "Latin nota",
+          "meaning": "a short written message",
+          "meaningCN": "便条",
+          "example": "a quick note",
+          "exampleCN": "一张便条"
+        }
+      ],
+      "latinEntries": []
+    }
   }
-}
+]

@@ -1,172 +1,467 @@
-{
-  "word": "buffer",
-  "ipa_uk": "/ˈbʌfə/",
-  "ipa_us": "/ˈbʌfər/",
-  "definition_zh": "缓冲物；缓冲区；缓冲者；减震垫",
-  "definition_en": "something or someone that lessens the shock of impact between two forces or systems",
-  "core_image": "两个硬物之间的软垫，把撞击吸掉",
-  "scene": "邻里纠纷越闹越大，居委会大叔夹在中间两边劝。The community worker acted as a buffer between the angry neighbors.",
-  "sceneCN": "这里 buffer 是「缓冲者、调和人」（第 3 个义项：在人或群体间缓解冲突）；句意是社区工作者在怒气冲冲的邻居之间充当缓冲。",
-  "pos": [
-    { "tag": "n.", "zh": "缓冲物；缓冲区；缓冲者；减震垫" },
-    { "tag": "vt.", "zh": "缓冲；减轻冲击；保护" }
-  ],
-  "collocations": [
-    { "phrase": "a buffer zone", "zh": "缓冲区" },
-    { "phrase": "act as a buffer", "zh": "充当缓冲" },
-    { "phrase": "a buffer between two sides", "zh": "两方之间的缓冲" },
-    { "phrase": "buffer the shock", "zh": "缓冲冲击" },
-    { "phrase": "a buffer state", "zh": "缓冲国" },
-    { "phrase": "buffer stock", "zh": "缓冲库存" }
-  ],
-  "forms": [
-    { "label": "复数", "form": "buffers" },
-    { "label": "过去式", "form": "buffered" },
-    { "label": "过去分词", "form": "buffered" },
-    { "label": "现在分词", "form": "buffering" },
-    { "label": "三单", "form": "buffers" }
-  ],
-  "derivatives": [
-    { "word": "buffering", "pos": "n.", "zh": "由动词加 -ing 构成，义为「缓冲过程」（如视频加载）" },
-    { "word": "buff", "pos": "n.", "zh": "buffer 的同族词，义为「软皮；柔光革」，由此引申「爱好者」" },
-    { "word": "buffet", "pos": "n.", "zh": "形近词，义为「打击；自助餐」，词源不同" }
-  ],
-  "senses": [
-    {
-      "no": "01",
-      "title": "A shock-absorbing pad or device",
-      "titleCN": "减震垫；缓冲器",
-      "definition": "a device or material that absorbs shock between colliding objects",
-      "definitionCN": "吸收碰撞冲击的装置或材料",
-      "example": "Rubber buffers protect the docked boats.",
-      "exampleCN": "橡胶缓冲垫保护着停靠的船只。",
-      "why": "The root sense is to buff, to polish or soften; a soft thing takes the blow.",
-      "whyCN": "词根义为打磨、使柔软；柔软之物承担了撞击。"
-    },
-    {
-      "no": "02",
-      "title": "A neutral zone or reserve",
-      "titleCN": "缓冲区；缓冲库存",
-      "definition": "a neutral area or spare reserve that separates or protects against interference",
-      "definitionCN": "隔开势力或抵御波动的中立地带或备用储备",
-      "example": "The treaty created a buffer zone along the border.",
-      "exampleCN": "条约沿边界设立了缓冲区。",
-      "why": "A physical cushion generalizes into any spacing that keeps two systems from clashing.",
-      "whyCN": "实物软垫推广为一切「隔开以免相撞」的空间或储备。"
-    },
-    {
-      "no": "03",
-      "title": "A person or thing that shields",
-      "titleCN": "缓冲者；调解人",
-      "definition": "a person or thing that protects someone from harm, criticism or unpleasantness",
-      "definitionCN": "使人免受伤害、批评或不快的保护者",
-      "example": "An assistant can buffer the director from daily complaints.",
-      "exampleCN": "助理可以为主任挡下日常抱怨。",
-      "why": "Anything that stands between pressure and its target becomes a cushion.",
-      "whyCN": "凡挡在压力与承受者之间的东西都在起软垫作用，义项由物及人。"
-    },
-    {
-      "no": "04",
-      "title": "To lessen an impact",
-      "titleCN": "缓冲；减轻（动词）",
-      "definition": "to reduce the harmful effect of something by acting as a cushion",
-      "definitionCN": "像软垫一样减轻冲击或不良影响",
-      "example": "Savings buffered the family against the income drop.",
-      "exampleCN": "积蓄缓冲了这个家庭的收入骤降。",
-      "why": "The noun turns into a verb: to provide buffering is to buffer.",
-      "whyCN": "名词转为动词，「起缓冲作用」即「缓冲」。"
-    }
-  ],
-  "etymology": {
-    "intro": { "en": "Buffer grew from the verb buff, whose origin is imitative of soft blows.", "cn": "buffer 由动词 buff 滋生而来，buff 的来源一般认为是对软性击打声的拟声。" },
-    "items": [
-      { "era": "IMITATIVE ORIGIN", "en": "buff arose in late Middle English, probably echoing the sound of soft puffs and blows.", "cn": "buff 出现于中古英语晚期，一般认为是拟声词，摹仿噗噗的软击声。" },
-      { "era": "ENGLISH, 15TH–16TH C.", "en": "to buff meant to strike, then to polish with soft leather.", "cn": "buff 先指击打，后指用软皮抛光。" },
-      { "era": "ENGLISH, 16TH–18TH C.", "en": "buffer named the polishing wheel, then the padded bumper on carriages.", "cn": "buffer 先指抛光轮，后指车厢上的软垫挡块。" },
-      { "era": "ENGLISH, 19TH C.", "en": "railways and diplomacy adopted buffer for shock-absorbing zones and states.", "cn": "铁路与外交领域借用 buffer 指减震装置与缓冲地带。" },
-      { "era": "PRESENT DAY ENGLISH", "en": "computing added the data buffer; the word now spans machines, people and memory.", "cn": "计算机领域又添「数据缓冲区」，该词现遍及机械、人际与存储。"
-      }
-    ]
-  },
-  "similar": {
-    "note": { "en": "Buffer sits among buff- spellings of soft striking and beside words for protective spacing.", "cn": "buffer 处于表软击的 buff- 词形群中，并与表防护间隔的词为邻。" },
-    "groups": [
+[
+  {
+    "word": "buffer",
+    "ipa_uk": "/ˈbʌfə/",
+    "ipa_us": "/ˈbʌfər/",
+    "definition_zh": "缓冲物；缓冲区；缓冲者；减震垫",
+    "definition_en": "something or someone that lessens the shock of impact between two forces or systems",
+    "core_image": "两个硬物之间的软垫，把撞击吸掉",
+    "scene": "邻里纠纷越闹越大，居委会大叔夹在中间两边劝。The community worker acted as a buffer between the angry neighbors.",
+    "sceneCN": "这里 buffer 是「缓冲者、调和人」（第 3 个义项：在人或群体间缓解冲突）；句意是社区工作者在怒气冲冲的邻居之间充当缓冲。",
+    "pos": [
       {
-        "heading": "LOOK-ALIKE",
-        "entries": [
-          { "word": "buff", "ipa": "/bʌf/", "tag": "same root", "definition": "to polish; bare skin; an enthusiast", "definitionCN": "抛光；裸露的；爱好者，buffer 的词根" },
-          { "word": "buffet", "ipa": "/ˈbʌfeɪ/", "tag": "spelling", "definition": "a meal laid out; repeated blows", "definitionCN": "自助餐；（复数）打击，拼形相近但词源不同" },
-          { "word": "buffalo", "ipa": "/ˈbʌfələʊ/", "tag": "different root", "definition": "a wild ox; to bewilder", "definitionCN": "水牛；使困惑，仅开头字母相同" },
-          { "word": "buffered", "ipa": "/ˈbʌfəd/", "tag": "derived form", "definition": "protected by a buffer", "definitionCN": "buffer 的过去分词，受缓冲保护的" }
-        ]
+        "tag": "n.",
+        "zh": "缓冲物；缓冲区；缓冲者；减震垫"
       },
       {
-        "heading": "NEAR MEANING",
-        "entries": [
-          { "word": "cushion", "ipa": "/ˈkʊʃən/", "tag": "near meaning", "definition": "a soft pad; to soften impact", "definitionCN": "软垫；缓和冲击" },
-          { "word": "shock absorber", "ipa": "/ʃɒk əbˈzɔːbə/", "tag": "near meaning", "definition": "a device that damps jolts", "definitionCN": "减震器" },
-          { "word": "intermediary", "ipa": "/ˌɪntəˈmiːdiəri/", "tag": "near meaning", "definition": "one who stands between parties", "definitionCN": "中间人，调解者" },
-          { "word": "barrier", "ipa": "/ˈbæriə/", "tag": "opposite", "definition": "a thing that blocks passage", "definitionCN": "屏障，阻断而非缓冲的对照" },
-          { "word": "safeguard", "ipa": "/ˈseɪfɡɑːd/", "tag": "near meaning", "definition": "a measure giving protection", "definitionCN": "保障措施，防护手段" }
-        ]
+        "tag": "vt.",
+        "zh": "缓冲；减轻冲击；保护"
       }
-    ]
-  },
-  "mnemonics": {
-    "normalIntro": { "en": "Buff the surface soft, and the blow lands nowhere hard.", "cn": "把表面打磨柔软，冲击便无处着力。" },
-    "normal": [
-      { "en": "The root buff means to soften by polishing.", "cn": "词根 buff 意为抛光使之柔。" },
-      { "en": "Film buffs know buffering from slow video.", "cn": "影迷从卡顿的视频里熟知 buffering。" },
-      { "en": "A buffer zone keeps armies apart.", "cn": "缓冲区把军队隔开。" },
-      { "en": "Buffer state is the classic diplomatic term.", "cn": "缓冲国是经典外交术语。" },
-      { "en": "The verb buffer takes the blow itself.", "cn": "动词 buffer 表示自己承受冲击。" }
     ],
-    "abstract": [
-      { "en": "Feel a pillow swallow the blow meant for you.", "cn": "感受一只枕头替你吞下本该落在你身上的重击。" },
-      { "en": "See a green belt of park separating two roads.", "cn": "看见一条绿带隔开两条大路。" },
-      { "en": "Hear a video pause as the buffer fills.", "cn": "听视频在缓冲加载时停顿。" }
-    ]
-  },
-  "examples": [
-    { "en": "The diplomat served as a buffer during the tense talks.", "cn": "谈判剑拔弩张之际，这位外交官起了缓冲作用。" },
-    { "en": "Trees buffer the house from highway noise.", "cn": "树木为房子挡住了公路噪音。" },
-    { "en": "Emergency funds buffer schools against budget cuts.", "cn": "应急基金缓冲了预算削减对学校的冲击。" }
-  ],
-  "dict_mnemonic": { "note": "谐音记忆 · 非词源", "text": "「巴佛」——像佛一样温和的「巴」掌垫，打过来也不疼，缓冲减震全靠它。", "word": "buffer" },
-  "root": "buffer 由动词 buff（拟声词，摹仿软性击打声，后义为用软皮抛光）加名词后缀 -er 构成，指「起打磨、软化作用之物」，再由抛光轮引申到减震垫、缓冲区，词源无拉丁词根。",
-  "sensesIntro": { "en": "A soft pad that takes blows widens into protective zones, human intermediaries, and finally the verb of cushioning.", "cn": "承受撞击的软垫，先扩展为防护地带与居间之人，最终凝为「缓冲」这一动词。" },
-  "semanticMap": {
-    "core": { "en": "CORE IMAGE: a soft pad swallowing the blow between two hard things.", "cn": "核心意象：一块软垫在两个硬物之间吞下撞击。" },
-    "chain": ["SOFTNESS", "ABSORPTION", "SEPARATION", "PROTECTION", "MEDIATION", "STABILITY"],
-    "branches": [
-      { "senses": "01", "en": "buffers on a train carriage", "cn": "火车车厢的缓冲器" },
-      { "senses": "01 · 04", "en": "trees that buffer the wind", "cn": "为风起缓冲作用的树木" },
-      { "senses": "02", "en": "a demilitarized buffer zone", "cn": "非军事缓冲区" },
-      { "senses": "03", "en": "a secretary as buffer", "cn": "充当缓冲的秘书" },
-      { "senses": "02 · 04", "en": "buffer stocks against famine", "cn": "抵御饥荒的缓冲储备" }
-    ]
-  },
-  "affixes": {
-    "intro": { "en": "Buffer is an agent noun: the verb buff plus -er, the doer or tool.", "cn": "buffer 是施动名词：动词 buff 加后缀 -er，表「起作用者或工具」。" },
-    "latinIntro": { "en": "The root is imitative English; Latin offers no ancestor here.", "cn": "词根是英语拟声词，拉丁语中并无其祖先。" },
-    "items": [
-      { "word": "buff", "structure": "imitative verb", "meaning": "to strike softly, to polish", "meaningCN": "软击，抛光", "example": "buff the brass", "exampleCN": "把铜器擦亮" },
-      { "word": "-er", "structure": "agent suffix", "meaning": "one that does or a tool that does", "meaningCN": "施动后缀", "example": "worker, printer, buffer", "exampleCN": "如 worker、printer、buffer 等词" },
-      { "word": "buffer", "structure": "buff + -er", "meaning": "shock absorber; neutral zone", "meaningCN": "缓冲器；缓冲区", "example": "a buffer between rivals", "exampleCN": "对手之间的缓冲" },
-      { "word": "buff", "structure": "noun by conversion", "meaning": "an enthusiast", "meaningCN": "爱好者", "example": "a film buff", "exampleCN": "电影迷" },
-      { "word": "in the buff", "structure": "idiom", "meaning": "naked", "meaningCN": "赤身裸体", "example": "swim in the buff", "exampleCN": "裸泳" },
-      { "word": "buffalo", "structure": "different root", "meaning": "wild ox; to confuse", "meaningCN": "水牛；使迷惑", "example": "buffalo herds", "exampleCN": "水牛群" },
-      { "word": "cushion", "structure": "Latin culcita", "meaning": "to soften an impact", "meaningCN": "缓和冲击", "example": "cushion the fall", "exampleCN": "缓冲坠落" },
-      { "word": "absorb", "structure": "Latin ab- + sorbere", "meaning": "to take in", "meaningCN": "吸收", "example": "absorb the shock", "exampleCN": "吸收震动" },
-      { "word": "dampen", "structure": "damp + -en", "meaning": "to reduce vibration", "meaningCN": "减振，抑制", "example": "dampen oscillations", "exampleCN": "抑制震荡" },
-      { "word": "mediator", "structure": "Latin mediare + -tor", "meaning": "one who reconciles parties", "meaningCN": "调解人", "example": "act as mediator", "exampleCN": "担任调解人" }
+    "collocations": [
+      {
+        "phrase": "a buffer zone",
+        "zh": "缓冲区"
+      },
+      {
+        "phrase": "act as a buffer",
+        "zh": "充当缓冲"
+      },
+      {
+        "phrase": "a buffer between two sides",
+        "zh": "两方之间的缓冲"
+      },
+      {
+        "phrase": "buffer the shock",
+        "zh": "缓冲冲击"
+      },
+      {
+        "phrase": "a buffer state",
+        "zh": "缓冲国"
+      },
+      {
+        "phrase": "buffer stock",
+        "zh": "缓冲库存"
+      }
     ],
-    "latinEntries": [
-      { "word": "culcita", "structure": "Latin noun, cognate field", "meaning": "mattress, cushion", "meaningCN": "褥垫（cushion 之源）" },
-      { "word": "intermedius", "structure": "Latin adjective", "meaning": "lying between", "meaningCN": "居间的（intermediary 之源）" }
+    "forms": [
+      {
+        "label": "复数",
+        "form": "buffers"
+      },
+      {
+        "label": "过去式",
+        "form": "buffered"
+      },
+      {
+        "label": "过去分词",
+        "form": "buffered"
+      },
+      {
+        "label": "现在分词",
+        "form": "buffering"
+      },
+      {
+        "label": "三单",
+        "form": "buffers"
+      }
     ],
     "derivatives": [
-      { "word": "buffering", "pos": "n.", "zh": "缓冲过程" }
-    ]
+      {
+        "word": "buffering",
+        "pos": "n.",
+        "zh": "由动词加 -ing 构成，义为「缓冲过程」（如视频加载）"
+      },
+      {
+        "word": "buff",
+        "pos": "n.",
+        "zh": "buffer 的同族词，义为「软皮；柔光革」，由此引申「爱好者」"
+      },
+      {
+        "word": "buffet",
+        "pos": "n.",
+        "zh": "形近词，义为「打击；自助餐」，词源不同"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "A shock-absorbing pad or device",
+        "titleCN": "减震垫；缓冲器",
+        "definition": "a device or material that absorbs shock between colliding objects",
+        "definitionCN": "吸收碰撞冲击的装置或材料",
+        "example": "Rubber buffers protect the docked boats.",
+        "exampleCN": "橡胶缓冲垫保护着停靠的船只。",
+        "why": "The root sense is to buff, to polish or soften; a soft thing takes the blow.",
+        "whyCN": "词根义为打磨、使柔软；柔软之物承担了撞击。"
+      },
+      {
+        "no": "02",
+        "title": "A neutral zone or reserve",
+        "titleCN": "缓冲区；缓冲库存",
+        "definition": "a neutral area or spare reserve that separates or protects against interference",
+        "definitionCN": "隔开势力或抵御波动的中立地带或备用储备",
+        "example": "The treaty created a buffer zone along the border.",
+        "exampleCN": "条约沿边界设立了缓冲区。",
+        "why": "A physical cushion generalizes into any spacing that keeps two systems from clashing.",
+        "whyCN": "实物软垫推广为一切「隔开以免相撞」的空间或储备。"
+      },
+      {
+        "no": "03",
+        "title": "A person or thing that shields",
+        "titleCN": "缓冲者；调解人",
+        "definition": "a person or thing that protects someone from harm, criticism or unpleasantness",
+        "definitionCN": "使人免受伤害、批评或不快的保护者",
+        "example": "An assistant can buffer the director from daily complaints.",
+        "exampleCN": "助理可以为主任挡下日常抱怨。",
+        "why": "Anything that stands between pressure and its target becomes a cushion.",
+        "whyCN": "凡挡在压力与承受者之间的东西都在起软垫作用，义项由物及人。"
+      },
+      {
+        "no": "04",
+        "title": "To lessen an impact",
+        "titleCN": "缓冲；减轻（动词）",
+        "definition": "to reduce the harmful effect of something by acting as a cushion",
+        "definitionCN": "像软垫一样减轻冲击或不良影响",
+        "example": "Savings buffered the family against the income drop.",
+        "exampleCN": "积蓄缓冲了这个家庭的收入骤降。",
+        "why": "The noun turns into a verb: to provide buffering is to buffer.",
+        "whyCN": "名词转为动词，「起缓冲作用」即「缓冲」。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Buffer grew from the verb buff, whose origin is imitative of soft blows.",
+        "cn": "buffer 由动词 buff 滋生而来，buff 的来源一般认为是对软性击打声的拟声。"
+      },
+      "items": [
+        {
+          "era": "IMITATIVE ORIGIN",
+          "en": "buff arose in late Middle English, probably echoing the sound of soft puffs and blows.",
+          "cn": "buff 出现于中古英语晚期，一般认为是拟声词，摹仿噗噗的软击声。"
+        },
+        {
+          "era": "ENGLISH, 15TH–16TH C.",
+          "en": "to buff meant to strike, then to polish with soft leather.",
+          "cn": "buff 先指击打，后指用软皮抛光。"
+        },
+        {
+          "era": "ENGLISH, 16TH–18TH C.",
+          "en": "buffer named the polishing wheel, then the padded bumper on carriages.",
+          "cn": "buffer 先指抛光轮，后指车厢上的软垫挡块。"
+        },
+        {
+          "era": "ENGLISH, 19TH C.",
+          "en": "railways and diplomacy adopted buffer for shock-absorbing zones and states.",
+          "cn": "铁路与外交领域借用 buffer 指减震装置与缓冲地带。"
+        },
+        {
+          "era": "PRESENT DAY ENGLISH",
+          "en": "computing added the data buffer; the word now spans machines, people and memory.",
+          "cn": "计算机领域又添「数据缓冲区」，该词现遍及机械、人际与存储。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "Buffer sits among buff- spellings of soft striking and beside words for protective spacing.",
+        "cn": "buffer 处于表软击的 buff- 词形群中，并与表防护间隔的词为邻。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "buff",
+              "ipa": "/bʌf/",
+              "tag": "same root",
+              "definition": "to polish; bare skin; an enthusiast",
+              "definitionCN": "抛光；裸露的；爱好者，buffer 的词根"
+            },
+            {
+              "word": "buffet",
+              "ipa": "/ˈbʌfeɪ/",
+              "tag": "spelling",
+              "definition": "a meal laid out; repeated blows",
+              "definitionCN": "自助餐；（复数）打击，拼形相近但词源不同"
+            },
+            {
+              "word": "buffalo",
+              "ipa": "/ˈbʌfələʊ/",
+              "tag": "different root",
+              "definition": "a wild ox; to bewilder",
+              "definitionCN": "水牛；使困惑，仅开头字母相同"
+            },
+            {
+              "word": "buffered",
+              "ipa": "/ˈbʌfəd/",
+              "tag": "derived form",
+              "definition": "protected by a buffer",
+              "definitionCN": "buffer 的过去分词，受缓冲保护的"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "cushion",
+              "ipa": "/ˈkʊʃən/",
+              "tag": "near meaning",
+              "definition": "a soft pad; to soften impact",
+              "definitionCN": "软垫；缓和冲击"
+            },
+            {
+              "word": "shock absorber",
+              "ipa": "/ʃɒk əbˈzɔːbə/",
+              "tag": "near meaning",
+              "definition": "a device that damps jolts",
+              "definitionCN": "减震器"
+            },
+            {
+              "word": "intermediary",
+              "ipa": "/ˌɪntəˈmiːdiəri/",
+              "tag": "near meaning",
+              "definition": "one who stands between parties",
+              "definitionCN": "中间人，调解者"
+            },
+            {
+              "word": "barrier",
+              "ipa": "/ˈbæriə/",
+              "tag": "opposite",
+              "definition": "a thing that blocks passage",
+              "definitionCN": "屏障，阻断而非缓冲的对照"
+            },
+            {
+              "word": "safeguard",
+              "ipa": "/ˈseɪfɡɑːd/",
+              "tag": "near meaning",
+              "definition": "a measure giving protection",
+              "definitionCN": "保障措施，防护手段"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Buff the surface soft, and the blow lands nowhere hard.",
+        "cn": "把表面打磨柔软，冲击便无处着力。"
+      },
+      "normal": [
+        {
+          "en": "The root buff means to soften by polishing.",
+          "cn": "词根 buff 意为抛光使之柔。"
+        },
+        {
+          "en": "Film buffs know buffering from slow video.",
+          "cn": "影迷从卡顿的视频里熟知 buffering。"
+        },
+        {
+          "en": "A buffer zone keeps armies apart.",
+          "cn": "缓冲区把军队隔开。"
+        },
+        {
+          "en": "Buffer state is the classic diplomatic term.",
+          "cn": "缓冲国是经典外交术语。"
+        },
+        {
+          "en": "The verb buffer takes the blow itself.",
+          "cn": "动词 buffer 表示自己承受冲击。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "Feel a pillow swallow the blow meant for you.",
+          "cn": "感受一只枕头替你吞下本该落在你身上的重击。"
+        },
+        {
+          "en": "See a green belt of park separating two roads.",
+          "cn": "看见一条绿带隔开两条大路。"
+        },
+        {
+          "en": "Hear a video pause as the buffer fills.",
+          "cn": "听视频在缓冲加载时停顿。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "The diplomat served as a buffer during the tense talks.",
+        "cn": "谈判剑拔弩张之际，这位外交官起了缓冲作用。"
+      },
+      {
+        "en": "Trees buffer the house from highway noise.",
+        "cn": "树木为房子挡住了公路噪音。"
+      },
+      {
+        "en": "Emergency funds buffer schools against budget cuts.",
+        "cn": "应急基金缓冲了预算削减对学校的冲击。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「巴佛」——像佛一样温和的「巴」掌垫，打过来也不疼，缓冲减震全靠它。",
+      "word": "buffer"
+    },
+    "root": "buffer 由动词 buff（拟声词，摹仿软性击打声，后义为用软皮抛光）加名词后缀 -er 构成，指「起打磨、软化作用之物」，再由抛光轮引申到减震垫、缓冲区，词源无拉丁词根。",
+    "sensesIntro": {
+      "en": "A soft pad that takes blows widens into protective zones, human intermediaries, and finally the verb of cushioning.",
+      "cn": "承受撞击的软垫，先扩展为防护地带与居间之人，最终凝为「缓冲」这一动词。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: a soft pad swallowing the blow between two hard things.",
+        "cn": "核心意象：一块软垫在两个硬物之间吞下撞击。"
+      },
+      "chain": [
+        "SOFTNESS",
+        "ABSORPTION",
+        "SEPARATION",
+        "PROTECTION",
+        "MEDIATION",
+        "STABILITY"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "buffers on a train carriage",
+          "cn": "火车车厢的缓冲器"
+        },
+        {
+          "senses": "01 · 04",
+          "en": "trees that buffer the wind",
+          "cn": "为风起缓冲作用的树木"
+        },
+        {
+          "senses": "02",
+          "en": "a demilitarized buffer zone",
+          "cn": "非军事缓冲区"
+        },
+        {
+          "senses": "03",
+          "en": "a secretary as buffer",
+          "cn": "充当缓冲的秘书"
+        },
+        {
+          "senses": "02 · 04",
+          "en": "buffer stocks against famine",
+          "cn": "抵御饥荒的缓冲储备"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Buffer is an agent noun: the verb buff plus -er, the doer or tool.",
+        "cn": "buffer 是施动名词：动词 buff 加后缀 -er，表「起作用者或工具」。"
+      },
+      "latinIntro": {
+        "en": "The root is imitative English; Latin offers no ancestor here.",
+        "cn": "词根是英语拟声词，拉丁语中并无其祖先。"
+      },
+      "items": [
+        {
+          "word": "buff",
+          "structure": "imitative verb",
+          "meaning": "to strike softly, to polish",
+          "meaningCN": "软击，抛光",
+          "example": "buff the brass",
+          "exampleCN": "把铜器擦亮"
+        },
+        {
+          "word": "-er",
+          "structure": "agent suffix",
+          "meaning": "one that does or a tool that does",
+          "meaningCN": "施动后缀",
+          "example": "worker, printer, buffer",
+          "exampleCN": "如 worker、printer、buffer 等词"
+        },
+        {
+          "word": "buffer",
+          "structure": "buff + -er",
+          "meaning": "shock absorber; neutral zone",
+          "meaningCN": "缓冲器；缓冲区",
+          "example": "a buffer between rivals",
+          "exampleCN": "对手之间的缓冲"
+        },
+        {
+          "word": "buff",
+          "structure": "noun by conversion",
+          "meaning": "an enthusiast",
+          "meaningCN": "爱好者",
+          "example": "a film buff",
+          "exampleCN": "电影迷"
+        },
+        {
+          "word": "in the buff",
+          "structure": "idiom",
+          "meaning": "naked",
+          "meaningCN": "赤身裸体",
+          "example": "swim in the buff",
+          "exampleCN": "裸泳"
+        },
+        {
+          "word": "buffalo",
+          "structure": "different root",
+          "meaning": "wild ox; to confuse",
+          "meaningCN": "水牛；使迷惑",
+          "example": "buffalo herds",
+          "exampleCN": "水牛群"
+        },
+        {
+          "word": "cushion",
+          "structure": "Latin culcita",
+          "meaning": "to soften an impact",
+          "meaningCN": "缓和冲击",
+          "example": "cushion the fall",
+          "exampleCN": "缓冲坠落"
+        },
+        {
+          "word": "absorb",
+          "structure": "Latin ab- + sorbere",
+          "meaning": "to take in",
+          "meaningCN": "吸收",
+          "example": "absorb the shock",
+          "exampleCN": "吸收震动"
+        },
+        {
+          "word": "dampen",
+          "structure": "damp + -en",
+          "meaning": "to reduce vibration",
+          "meaningCN": "减振，抑制",
+          "example": "dampen oscillations",
+          "exampleCN": "抑制震荡"
+        },
+        {
+          "word": "mediator",
+          "structure": "Latin mediare + -tor",
+          "meaning": "one who reconciles parties",
+          "meaningCN": "调解人",
+          "example": "act as mediator",
+          "exampleCN": "担任调解人"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "culcita",
+          "structure": "Latin noun, cognate field",
+          "meaning": "mattress, cushion",
+          "meaningCN": "褥垫（cushion 之源）"
+        },
+        {
+          "word": "intermedius",
+          "structure": "Latin adjective",
+          "meaning": "lying between",
+          "meaningCN": "居间的（intermediary 之源）"
+        }
+      ],
+      "derivatives": [
+        {
+          "word": "buffering",
+          "pos": "n.",
+          "zh": "缓冲过程"
+        }
+      ]
+    }
   }
-}
+]

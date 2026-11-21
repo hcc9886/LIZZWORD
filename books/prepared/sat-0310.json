@@ -1,317 +1,486 @@
-{
-  "word": "aural",
-  "ipa_uk": "/ˈɔːrəl/",
-  "ipa_us": "/ˈɔːrəl/",
-  "definition_zh": "听觉的；耳的；听力的",
-  "definition_en": "relating to the ear or to the sense of hearing",
-  "core_image": "世界经由耳朵进入 mind：听觉的一切",
-  "scene": "教室里，学生闭起眼睛，只凭录音辨出六种鸟鸣。The listening test measured the students' aural skills.",
-  "sceneCN": "这里 aural 指「听觉的」（第 1 个义项：与耳和听有关）；句意：这份听力测试考查学生的听觉技能。",
-  "pos": [
-    { "tag": "adj.", "zh": "听觉的；耳的" }
-  ],
-  "collocations": [
-    { "phrase": "aural skills", "zh": "听力技能" },
-    { "phrase": "an aural test", "zh": "听力测验" },
-    { "phrase": "aural comprehension", "zh": "听力理解" },
-    { "phrase": "aural stimuli", "zh": "听觉刺激" },
-    { "phrase": "aural tradition", "zh": "口耳相传的传统" }
-  ],
-  "forms": [
-    { "label": "副词形式", "form": "aurally" }
-  ],
-  "derivatives": [
-    { "word": "aurally", "pos": "adv.", "zh": "以听觉方式；凭听（aural + -ly）" },
-    { "word": "aural-oral", "pos": "adj.", "zh": "听说结合的（语言教学法术语，复合词）" },
-    { "word": "audio", "pos": "adj.", "zh": "音频的（同族词，出自 audire「听」）" },
-    { "word": "auditory", "pos": "adj.", "zh": "听觉的（同族词，更常用于生理与神经层面）" },
-    { "word": "auricle", "pos": "n.", "zh": "耳廓；心耳（同形异源，出自 auricula「小耳」）" }
-  ],
-  "senses": [
-    {
-      "no": "01",
-      "title": "Of the ear or hearing",
-      "titleCN": "听觉的；与耳有关的",
-      "definition": "relating to the ear or the sense of hearing",
-      "definitionCN": "与耳朵或听觉相关的",
-      "example": "The clinic tests aural acuity in newborns.",
-      "exampleCN": "诊所为新生儿检测听觉敏锐度。",
-      "why": "The Latin root is auris, ear; everything in the word points at that organ.",
-      "whyCN": "拉丁词根是 auris「耳」；全词一切都指向这个器官。"
+[
+  {
+    "word": "aural",
+    "ipa_uk": "/ˈɔːrəl/",
+    "ipa_us": "/ˈɔːrəl/",
+    "definition_zh": "听觉的；耳的；听力的",
+    "definition_en": "relating to the ear or to the sense of hearing",
+    "core_image": "世界经由耳朵进入 mind：听觉的一切",
+    "scene": "教室里，学生闭起眼睛，只凭录音辨出六种鸟鸣。The listening test measured the students' aural skills.",
+    "sceneCN": "这里 aural 指「听觉的」（第 1 个义项：与耳和听有关）；句意：这份听力测试考查学生的听觉技能。",
+    "pos": [
+      {
+        "tag": "adj.",
+        "zh": "听觉的；耳的"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "aural skills",
+        "zh": "听力技能"
+      },
+      {
+        "phrase": "an aural test",
+        "zh": "听力测验"
+      },
+      {
+        "phrase": "aural comprehension",
+        "zh": "听力理解"
+      },
+      {
+        "phrase": "aural stimuli",
+        "zh": "听觉刺激"
+      },
+      {
+        "phrase": "aural tradition",
+        "zh": "口耳相传的传统"
+      }
+    ],
+    "forms": [
+      {
+        "label": "副词形式",
+        "form": "aurally"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "aurally",
+        "pos": "adv.",
+        "zh": "以听觉方式；凭听（aural + -ly）"
+      },
+      {
+        "word": "aural-oral",
+        "pos": "adj.",
+        "zh": "听说结合的（语言教学法术语，复合词）"
+      },
+      {
+        "word": "audio",
+        "pos": "adj.",
+        "zh": "音频的（同族词，出自 audire「听」）"
+      },
+      {
+        "word": "auditory",
+        "pos": "adj.",
+        "zh": "听觉的（同族词，更常用于生理与神经层面）"
+      },
+      {
+        "word": "auricle",
+        "pos": "n.",
+        "zh": "耳廓；心耳（同形异源，出自 auricula「小耳」）"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "Of the ear or hearing",
+        "titleCN": "听觉的；与耳有关的",
+        "definition": "relating to the ear or the sense of hearing",
+        "definitionCN": "与耳朵或听觉相关的",
+        "example": "The clinic tests aural acuity in newborns.",
+        "exampleCN": "诊所为新生儿检测听觉敏锐度。",
+        "why": "The Latin root is auris, ear; everything in the word points at that organ.",
+        "whyCN": "拉丁词根是 auris「耳」；全词一切都指向这个器官。"
+      },
+      {
+        "no": "02",
+        "title": "Of received sound",
+        "titleCN": "所闻声音的",
+        "definition": "of sounds as perceived by listening, as opposed to sight or touch",
+        "definitionCN": "指通过聆听感知的声音，与视觉、触觉相对",
+        "example": "The film's aural landscape is as rich as its visuals.",
+        "exampleCN": "这部电影的听觉景观与视觉画面同样丰富。",
+        "why": "Critics needed a companion for visual, and aural answered.",
+        "whyCN": "评论界需要一个与 visual 相对的词，aural 应运而生。"
+      },
+      {
+        "no": "03",
+        "title": "In language teaching",
+        "titleCN": "（语言教学）听力方面的",
+        "definition": "of skills or tests involving listening comprehension",
+        "definitionCN": "指涉及听力理解的技能或测验",
+        "example": "The exam has written, spoken, and aural components.",
+        "exampleCN": "考试包括笔试、口试与听力三部分。",
+        "why": "Classrooms split language into channels, and aural named the listening channel.",
+        "whyCN": "课堂把语言拆成不同通道，aural 命名了「听」的那条通道。"
+      },
+      {
+        "no": "04",
+        "title": "In music training",
+        "titleCN": "（音乐）视唱练耳的",
+        "definition": "of the ear-training side of musical skill, such as recognizing intervals by ear",
+        "definitionCN": "指音乐技能中的练耳部分，如凭听辨音程",
+        "example": "Her aural training lets her write down melodies she only hears once.",
+        "exampleCN": "练耳训练让她能把只听一遍的旋律记下来。",
+        "why": "Musicians sharpen the ear directly, so aural became their workshop word.",
+        "whyCN": "音乐家直接锤炼耳朵，aural 便成了他们的行话。"
+      },
+      {
+        "no": "05",
+        "title": "Of oral transmission",
+        "titleCN": "口耳相传的",
+        "definition": "of knowledge or tradition passed on by listening rather than writing",
+        "definitionCN": "指凭聆听而非文字传承的知识或传统",
+        "example": "The epic survived in an aural tradition for centuries.",
+        "exampleCN": "这部史诗在口耳相传的传统中存续了数百年。",
+        "why": "Before print, ears were the archive; aural tradition names that archive.",
+        "whyCN": "印刷术之前，耳朵就是档案库；aural tradition 指的正是这座库。"
+      },
+      {
+        "no": "06",
+        "title": "In psychology and perception",
+        "titleCN": "（心理学）听觉通道的",
+        "definition": "of perception through hearing, as one channel among several",
+        "definitionCN": "指多通道感知中经由听觉的通道",
+        "example": "Subjects recalled aural cues better than visual ones.",
+        "exampleCN": "受试者对听觉线索的记忆优于视觉线索。",
+        "why": "Psychology sorts stimuli by channel, and aural labels the ear's lane.",
+        "whyCN": "心理学按通道给刺激分类，aural 标出耳朵那条道。"
+      },
+      {
+        "no": "07",
+        "title": "Of recordings and media",
+        "titleCN": "（媒体）声音层面的",
+        "definition": "of the sound dimension of recordings, film, or media",
+        "definitionCN": "指录音、电影或媒介的声音维度",
+        "example": "The remaster improved the aural detail of the old concert tapes.",
+        "exampleCN": "重新母带处理提升了老演唱会录音的听觉细节。",
+        "why": "Engineers speak of visual and aural quality, pairing the two senses again.",
+        "whyCN": "工程师并称视觉与听觉质量，两种感官再次配对。"
+      },
+      {
+        "no": "08",
+        "title": "Aural versus oral: the famous confusion",
+        "titleCN": "aural 与 oral 之辨",
+        "definition": "distinguished from oral, of the mouth, which sounds nearly identical",
+        "definitionCN": "与读音几乎相同的 oral「口的」相区别",
+        "example": "An aural test uses your ears; an oral test uses your mouth.",
+        "exampleCN": "听力测试用耳朵，口试用嘴巴。",
+        "why": "Two Latin roots, ear and mouth, landed on the same sound and left English a standing riddle.",
+        "whyCN": "「耳」与「口」两个拉丁词根落在同一读音上，给英语留下了一道长久的谜题。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Aural comes from Latin auris, ear, via the adjective auralis; English formed or borrowed it in the mid-nineteenth century, when science wanted a precise adjective for hearing.",
+        "cn": "aural 出自拉丁语 auris「耳」及其派生形容词 auralis；19 世纪中叶英语在科学需要精确的听觉形容词时形成或借入该词。"
+      },
+      "items": [
+        {
+          "era": "PROTO-INDO-EUROPEAN",
+          "en": "The root *h₂ewis- meant to perceive, and *h₂euc- gave the ear word found across many Indo-European languages.",
+          "cn": "词根 *h₂ewis- 意为「感知」，*h₂euc- 派生出众多印欧语言中的「耳」一词。"
+        },
+        {
+          "era": "LATIN",
+          "en": "auris meant the ear; it also lies behind auricula, the little ear, and audio, I hear.",
+          "cn": "拉丁语 auris 意为「耳」；auricula「小耳」与 audio「我听」亦与之相关。"
+        },
+        {
+          "era": "LATE LATIN, AURALIS",
+          "en": "auralis meant of or belonging to the ear, a technical adjective in learned use.",
+          "cn": "auralis 意为「属于耳的」，是学术用语中的技术性形容词。"
+        },
+        {
+          "era": "ENGLISH, 1840S",
+          "en": "English recorded aural in the mid-nineteenth century, first in physiological and psychological texts.",
+          "cn": "19 世纪中叶英语记录下 aural，最初见于生理学与心理学文献。"
+        },
+        {
+          "era": "LATE 19TH C.",
+          "en": "Music teaching and language testing adopted it as listening became an examinable skill.",
+          "cn": "随着「听」成为可考核的技能，音乐教学与语言测试也采用了这个词。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "Today aural pairs with visual everywhere from film reviews to hearing clinics, still shadowed by its twin oral.",
+          "cn": "如今从影评到听力门诊，aural 与 visual 成对出现，却始终被孪生词 oral 误导着读音。"
+        }
+      ]
     },
-    {
-      "no": "02",
-      "title": "Of received sound",
-      "titleCN": "所闻声音的",
-      "definition": "of sounds as perceived by listening, as opposed to sight or touch",
-      "definitionCN": "指通过聆听感知的声音，与视觉、触觉相对",
-      "example": "The film's aural landscape is as rich as its visuals.",
-      "exampleCN": "这部电影的听觉景观与视觉画面同样丰富。",
-      "why": "Critics needed a companion for visual, and aural answered.",
-      "whyCN": "评论界需要一个与 visual 相对的词，aural 应运而生。"
+    "similar": {
+      "note": {
+        "en": "Group one collects the ear family and the notorious sound-alikes; group two collects neighboring perception words.",
+        "cn": "第一组收「耳」词族及 notorious 的同音词；第二组收相邻的感知词。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "oral",
+              "ipa": "/ˈɔːrəl/",
+              "tag": "sound-alike, different root",
+              "definition": "of the mouth, from Latin os, oris; nearly identical in sound, unrelated in root.",
+              "definitionCN": "口的；出自拉丁语 os, oris，与 aural 读音几乎相同，词根无关。"
+            },
+            {
+              "word": "auditory",
+              "ipa": "/ˈɔːdətɔːri/",
+              "tag": "related but different root",
+              "definition": "of hearing, from audire, to hear; overlaps in meaning, different root from auris.",
+              "definitionCN": "听觉的，出自 audire「听」；义有重叠，词根与 auris 不同。"
+            },
+            {
+              "word": "auricle",
+              "ipa": "/ˈɔːrɪkl/",
+              "tag": "same root",
+              "definition": "the visible outer ear; literally the little ear, from auricula.",
+              "definitionCN": "耳廓；本义「小耳」，出自 auricula。"
+            },
+            {
+              "word": "audio",
+              "ipa": "/ˈɔːdiəʊ/",
+              "tag": "related family",
+              "definition": "of sound reproduction; from the hearing verb rather than the ear noun.",
+              "definitionCN": "音频的；出自「听」的动词，而非「耳」的名词。"
+            },
+            {
+              "word": "aura",
+              "ipa": "/ˈɔːrə/",
+              "tag": "look-alike, different root",
+              "definition": "an atmosphere or glow around a person; from Greek aura, breeze; one letter apart.",
+              "definitionCN": "气场；氛围，出自希腊语 aura「微风」；仅一字母之差。"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "auditory",
+              "ipa": "/ˈɔːdətɔːri/",
+              "tag": "near meaning",
+              "definition": "of the sense of hearing, especially its physiology.",
+              "definitionCN": "听觉的；尤指其生理层面。"
+            },
+            {
+              "word": "acoustic",
+              "ipa": "/əˈkuːstɪk/",
+              "tag": "near meaning",
+              "definition": "of sound itself or its physical properties.",
+              "definitionCN": "声学的；声音本身及其物理属性的。"
+            },
+            {
+              "word": "listening",
+              "ipa": "/ˈlɪsnɪŋ/",
+              "tag": "near meaning",
+              "definition": "the everyday participle for the act aural describes.",
+              "definitionCN": "聆听的；aural 所指行为的日常说法。"
+            },
+            {
+              "word": "visual",
+              "ipa": "/ˈvɪʒuəl/",
+              "tag": "counterpart",
+              "definition": "of sight; the standard counterpart to aural.",
+              "definitionCN": "视觉的；aural 的标准对应词。"
+            },
+            {
+              "word": "verbal",
+              "ipa": "/ˈvɜːbl/",
+              "tag": "near meaning",
+              "definition": "of words, spoken or written; a broader channel term.",
+              "definitionCN": "言语的；涵盖口头与书面的更宽通道。"
+            }
+          ]
+        }
+      ]
     },
-    {
-      "no": "03",
-      "title": "In language teaching",
-      "titleCN": "（语言教学）听力方面的",
-      "definition": "of skills or tests involving listening comprehension",
-      "definitionCN": "指涉及听力理解的技能或测验",
-      "example": "The exam has written, spoken, and aural components.",
-      "exampleCN": "考试包括笔试、口试与听力三部分。",
-      "why": "Classrooms split language into channels, and aural named the listening channel.",
-      "whyCN": "课堂把语言拆成不同通道，aural 命名了「听」的那条通道。"
+    "mnemonics": {
+      "normalIntro": {
+        "en": "aural starts like the Greek-latin ear-word auris: keep the ear in the first syllable.",
+        "cn": "aural 开头即「耳」的古典词 auris：把耳朵记住在第一个音节里。"
+      },
+      "normal": [
+        {
+          "en": "aural = auris (ear) + al: an adjective pointing at the ear.",
+          "cn": "aural = auris（耳）+ al：指向耳朵的形容词。"
+        },
+        {
+          "en": "aural tests your ears; oral tests your mouth. Same sound, different doors.",
+          "cn": "aural 考耳朵，oral 考嘴巴。同音不同门。"
+        },
+        {
+          "en": "auricle, the little ear, is the same root you can see in the mirror.",
+          "cn": "auricle「耳廓」是同根词——你在镜子里就能看到的耳朵。"
+        },
+        {
+          "en": "Pair it consciously: visual and aural, sight and hearing.",
+          "cn": "有意识地配对：visual 与 aural，视与听。"
+        },
+        {
+          "en": "In exams, aural comprehension means listening comprehension.",
+          "cn": "考试里，aural comprehension 就是听力理解。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "Picture the world arriving as sound alone: doors, rain, footsteps, voices.",
+          "cn": "想象世界只以声音抵达：门、雨、脚步、人声。"
+        },
+        {
+          "en": "Aural is the ear's adjective, standing quietly beside loud visual.",
+          "cn": "aural 是耳朵的形容词，安静地站在喧闹的 visual 旁边。"
+        },
+        {
+          "en": "Close your eyes and read a room by ear: that is aural skill.",
+          "cn": "闭眼凭听辨读一个房间：这就是 aural skill。"
+        }
+      ]
     },
-    {
-      "no": "04",
-      "title": "In music training",
-      "titleCN": "（音乐）视唱练耳的",
-      "definition": "of the ear-training side of musical skill, such as recognizing intervals by ear",
-      "definitionCN": "指音乐技能中的练耳部分，如凭听辨音程",
-      "example": "Her aural training lets her write down melodies she only hears once.",
-      "exampleCN": "练耳训练让她能把只听一遍的旋律记下来。",
-      "why": "Musicians sharpen the ear directly, so aural became their workshop word.",
-      "whyCN": "音乐家直接锤炼耳朵，aural 便成了他们的行话。"
+    "examples": [
+      {
+        "en": "Strong aural memory helps musicians learn songs by ear.",
+        "cn": "出色的听觉记忆帮助乐手凭听学会歌曲。"
+      },
+      {
+        "en": "The aural version of the guide is popular with commuters.",
+        "cn": "语音版指南深受通勤者欢迎。"
+      },
+      {
+        "en": "The child's aural perception developed earlier than her reading.",
+        "cn": "孩子的听觉感知比阅读能力发展得更早。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「奥柔」——奥数老师声音温柔，全靠耳朵听讲",
+      "word": "aural"
     },
-    {
-      "no": "05",
-      "title": "Of oral transmission",
-      "titleCN": "口耳相传的",
-      "definition": "of knowledge or tradition passed on by listening rather than writing",
-      "definitionCN": "指凭聆听而非文字传承的知识或传统",
-      "example": "The epic survived in an aural tradition for centuries.",
-      "exampleCN": "这部史诗在口耳相传的传统中存续了数百年。",
-      "why": "Before print, ears were the archive; aural tradition names that archive.",
-      "whyCN": "印刷术之前，耳朵就是档案库；aural tradition 指的正是这座库。"
+    "root": "出自拉丁语 auris「耳」+ 形容词后缀 -alis（auralis「属于耳的」），19 世纪中叶进入英语作为听觉的技术性形容词；与 auricle 同根，与 audio、auditory（出自 audire「听」）义近而根不同；与 oral（出自 os「口」）同音异源，词源确凿。",
+    "sensesIntro": {
+      "en": "Eight senses extend one ear-adjective from anatomy outward: received sound, classroom listening, music training, oral tradition, and the famous aural-oral mix-up.",
+      "cn": "八个义项把一个「耳」的形容词从解剖学向外延伸：所闻之声、课堂听力、音乐练耳、口耳相传，以及著名的 aural-oral 之辨。"
     },
-    {
-      "no": "06",
-      "title": "In psychology and perception",
-      "titleCN": "（心理学）听觉通道的",
-      "definition": "of perception through hearing, as one channel among several",
-      "definitionCN": "指多通道感知中经由听觉的通道",
-      "example": "Subjects recalled aural cues better than visual ones.",
-      "exampleCN": "受试者对听觉线索的记忆优于视觉线索。",
-      "why": "Psychology sorts stimuli by channel, and aural labels the ear's lane.",
-      "whyCN": "心理学按通道给刺激分类，aural 标出耳朵那条道。"
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: the world arriving through the ear alone.",
+        "cn": "核心意象：世界只经由耳朵抵达。"
+      },
+      "chain": [
+        "THE EAR",
+        "SOUND RECEIVED",
+        "LISTENING AS SKILL",
+        "HEARD TRADITION",
+        "A CHANNEL AMONG SENSES",
+        "EAR VERSUS MOUTH"
+      ],
+      "branches": [
+        {
+          "senses": "01 · 06",
+          "en": "THE ORGAN SIDE: the ear in anatomy, clinics, and perception studies.",
+          "cn": "器官一面：解剖、门诊与感知研究中的耳朵。"
+        },
+        {
+          "senses": "03 · 04",
+          "en": "THE CLASSROOM SIDE: listening tests and musical ear-training.",
+          "cn": "课堂一面：听力测验与音乐练耳。"
+        },
+        {
+          "senses": "02 · 07",
+          "en": "THE MEDIA SIDE: aural landscapes and sound quality.",
+          "cn": "媒介一面：听觉景观与音质。"
+        },
+        {
+          "senses": "05",
+          "en": "THE ARCHIVE SIDE: traditions carried by listening alone.",
+          "cn": "档案一面：单凭聆听传承的传统。"
+        },
+        {
+          "senses": "08",
+          "en": "THE PUZZLE SIDE: aural against oral, ear against mouth.",
+          "cn": "谜题一面：aural 对 oral，耳对口。"
+        }
+      ]
     },
-    {
-      "no": "07",
-      "title": "Of recordings and media",
-      "titleCN": "（媒体）声音层面的",
-      "definition": "of the sound dimension of recordings, film, or media",
-      "definitionCN": "指录音、电影或媒介的声音维度",
-      "example": "The remaster improved the aural detail of the old concert tapes.",
-      "exampleCN": "重新母带处理提升了老演唱会录音的听觉细节。",
-      "why": "Engineers speak of visual and aural quality, pairing the two senses again.",
-      "whyCN": "工程师并称视觉与听觉质量，两种感官再次配对。"
-    },
-    {
-      "no": "08",
-      "title": "Aural versus oral: the famous confusion",
-      "titleCN": "aural 与 oral 之辨",
-      "definition": "distinguished from oral, of the mouth, which sounds nearly identical",
-      "definitionCN": "与读音几乎相同的 oral「口的」相区别",
-      "example": "An aural test uses your ears; an oral test uses your mouth.",
-      "exampleCN": "听力测试用耳朵，口试用嘴巴。",
-      "why": "Two Latin roots, ear and mouth, landed on the same sound and left English a standing riddle.",
-      "whyCN": "「耳」与「口」两个拉丁词根落在同一读音上，给英语留下了一道长久的谜题。"
+    "affixes": {
+      "intro": {
+        "en": "aural is auris plus -al, a plain adjective ending; the ear root stays visible in auricle and auricular.",
+        "cn": "aural 由 auris 加 -al 构成，是朴素的形容词词尾；「耳」的词根在 auricle、auricular 中清晰可见。"
+      },
+      "latinIntro": {
+        "en": "Latin auris, ear, anchors this branch: aural, auricle, auricular, while the audire branch holds audio and auditory.",
+        "cn": "拉丁语 auris「耳」锚定这一支：aural、auricle、auricular；而 audire「听」一支则拥有 audio 与 auditory。"
+      },
+      "items": [
+        {
+          "word": "auris",
+          "structure": "Latin noun",
+          "meaning": "the ear",
+          "meaningCN": "耳",
+          "example": "auribus in Latin texts",
+          "exampleCN": "拉丁文献中的双耳"
+        },
+        {
+          "word": "auralis",
+          "structure": "auris + -alis",
+          "meaning": "of the ear",
+          "meaningCN": "属于耳的",
+          "example": "auralis in learned Latin",
+          "exampleCN": "学术拉丁语中的 auralis"
+        },
+        {
+          "word": "-al",
+          "structure": "adjective suffix",
+          "meaning": "relating to",
+          "meaningCN": "与……有关的形容词词尾",
+          "example": "natural, cultural, aural",
+          "exampleCN": "自然的、文化的、听觉的"
+        },
+        {
+          "word": "auricle",
+          "structure": "auricula into English",
+          "meaning": "the outer ear; an atrium of the heart",
+          "meaningCN": "耳廓；心耳",
+          "example": "the auricle of the ear",
+          "exampleCN": "耳廓"
+        },
+        {
+          "word": "auricular",
+          "structure": "auricle + -ar",
+          "meaning": "of the ear; told in confidence",
+          "meaningCN": "耳的；私下告知的",
+          "example": "auricular confession",
+          "exampleCN": "私下告解"
+        },
+        {
+          "word": "auditory",
+          "structure": "audire + -tory",
+          "meaning": "of hearing, different root",
+          "meaningCN": "听觉的（不同词根）",
+          "example": "auditory cortex",
+          "exampleCN": "听觉皮层"
+        },
+        {
+          "word": "oral",
+          "structure": "os, oris + -al",
+          "meaning": "of the mouth, sound-alike",
+          "meaningCN": "口的（同音词）",
+          "example": "oral exam",
+          "exampleCN": "口试"
+        },
+        {
+          "word": "aurally",
+          "structure": "aural + -ly",
+          "meaning": "by hearing",
+          "meaningCN": "凭听；以听觉方式",
+          "example": "learn aurally",
+          "exampleCN": "凭听学习"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "auris",
+          "structure": "Latin noun",
+          "meaning": "ear",
+          "meaningCN": "耳"
+        },
+        {
+          "word": "auralis",
+          "structure": "Latin adjective",
+          "meaning": "of the ear",
+          "meaningCN": "属于耳的"
+        }
+      ]
     }
-  ],
-  "etymology": {
-    "intro": {
-      "en": "Aural comes from Latin auris, ear, via the adjective auralis; English formed or borrowed it in the mid-nineteenth century, when science wanted a precise adjective for hearing.",
-      "cn": "aural 出自拉丁语 auris「耳」及其派生形容词 auralis；19 世纪中叶英语在科学需要精确的听觉形容词时形成或借入该词。"
-    },
-    "items": [
-      {
-        "era": "PROTO-INDO-EUROPEAN",
-        "en": "The root *h₂ewis- meant to perceive, and *h₂euc- gave the ear word found across many Indo-European languages.",
-        "cn": "词根 *h₂ewis- 意为「感知」，*h₂euc- 派生出众多印欧语言中的「耳」一词。"
-      },
-      {
-        "era": "LATIN",
-        "en": "auris meant the ear; it also lies behind auricula, the little ear, and audio, I hear.",
-        "cn": "拉丁语 auris 意为「耳」；auricula「小耳」与 audio「我听」亦与之相关。"
-      },
-      {
-        "era": "LATE LATIN, AURALIS",
-        "en": "auralis meant of or belonging to the ear, a technical adjective in learned use.",
-        "cn": "auralis 意为「属于耳的」，是学术用语中的技术性形容词。"
-      },
-      {
-        "era": "ENGLISH, 1840S",
-        "en": "English recorded aural in the mid-nineteenth century, first in physiological and psychological texts.",
-        "cn": "19 世纪中叶英语记录下 aural，最初见于生理学与心理学文献。"
-      },
-      {
-        "era": "LATE 19TH C.",
-        "en": "Music teaching and language testing adopted it as listening became an examinable skill.",
-        "cn": "随着「听」成为可考核的技能，音乐教学与语言测试也采用了这个词。"
-      },
-      {
-        "era": "MODERN ENGLISH",
-        "en": "Today aural pairs with visual everywhere from film reviews to hearing clinics, still shadowed by its twin oral.",
-        "cn": "如今从影评到听力门诊，aural 与 visual 成对出现，却始终被孪生词 oral 误导着读音。"
-      }
-    ]
-  },
-  "similar": {
-    "note": {
-      "en": "Group one collects the ear family and the notorious sound-alikes; group two collects neighboring perception words.",
-      "cn": "第一组收「耳」词族及 notorious 的同音词；第二组收相邻的感知词。"
-    },
-    "groups": [
-      {
-        "heading": "LOOK-ALIKE",
-        "entries": [
-          {
-            "word": "oral",
-            "ipa": "/ˈɔːrəl/",
-            "tag": "sound-alike, different root",
-            "definition": "of the mouth, from Latin os, oris; nearly identical in sound, unrelated in root.",
-            "definitionCN": "口的；出自拉丁语 os, oris，与 aural 读音几乎相同，词根无关。"
-          },
-          {
-            "word": "auditory",
-            "ipa": "/ˈɔːdətɔːri/",
-            "tag": "related but different root",
-            "definition": "of hearing, from audire, to hear; overlaps in meaning, different root from auris.",
-            "definitionCN": "听觉的，出自 audire「听」；义有重叠，词根与 auris 不同。"
-          },
-          {
-            "word": "auricle",
-            "ipa": "/ˈɔːrɪkl/",
-            "tag": "same root",
-            "definition": "the visible outer ear; literally the little ear, from auricula.",
-            "definitionCN": "耳廓；本义「小耳」，出自 auricula。"
-          },
-          {
-            "word": "audio",
-            "ipa": "/ˈɔːdiəʊ/",
-            "tag": "related family",
-            "definition": "of sound reproduction; from the hearing verb rather than the ear noun.",
-            "definitionCN": "音频的；出自「听」的动词，而非「耳」的名词。"
-          },
-          {
-            "word": "aura",
-            "ipa": "/ˈɔːrə/",
-            "tag": "look-alike, different root",
-            "definition": "an atmosphere or glow around a person; from Greek aura, breeze; one letter apart.",
-            "definitionCN": "气场；氛围，出自希腊语 aura「微风」；仅一字母之差。"
-          }
-        ]
-      },
-      {
-        "heading": "NEAR MEANING",
-        "entries": [
-          {
-            "word": "auditory",
-            "ipa": "/ˈɔːdətɔːri/",
-            "tag": "near meaning",
-            "definition": "of the sense of hearing, especially its physiology.",
-            "definitionCN": "听觉的；尤指其生理层面。"
-          },
-          {
-            "word": "acoustic",
-            "ipa": "/əˈkuːstɪk/",
-            "tag": "near meaning",
-            "definition": "of sound itself or its physical properties.",
-            "definitionCN": "声学的；声音本身及其物理属性的。"
-          },
-          {
-            "word": "listening",
-            "ipa": "/ˈlɪsnɪŋ/",
-            "tag": "near meaning",
-            "definition": "the everyday participle for the act aural describes.",
-            "definitionCN": "聆听的；aural 所指行为的日常说法。"
-          },
-          {
-            "word": "visual",
-            "ipa": "/ˈvɪʒuəl/",
-            "tag": "counterpart",
-            "definition": "of sight; the standard counterpart to aural.",
-            "definitionCN": "视觉的；aural 的标准对应词。"
-          },
-          {
-            "word": "verbal",
-            "ipa": "/ˈvɜːbl/",
-            "tag": "near meaning",
-            "definition": "of words, spoken or written; a broader channel term.",
-            "definitionCN": "言语的；涵盖口头与书面的更宽通道。"
-          }
-        ]
-      }
-    ]
-  },
-  "mnemonics": {
-    "normalIntro": {
-      "en": "aural starts like the Greek-latin ear-word auris: keep the ear in the first syllable.",
-      "cn": "aural 开头即「耳」的古典词 auris：把耳朵记住在第一个音节里。"
-    },
-    "normal": [
-      { "en": "aural = auris (ear) + al: an adjective pointing at the ear.", "cn": "aural = auris（耳）+ al：指向耳朵的形容词。" },
-      { "en": "aural tests your ears; oral tests your mouth. Same sound, different doors.", "cn": "aural 考耳朵，oral 考嘴巴。同音不同门。" },
-      { "en": "auricle, the little ear, is the same root you can see in the mirror.", "cn": "auricle「耳廓」是同根词——你在镜子里就能看到的耳朵。" },
-      { "en": "Pair it consciously: visual and aural, sight and hearing.", "cn": "有意识地配对：visual 与 aural，视与听。" },
-      { "en": "In exams, aural comprehension means listening comprehension.", "cn": "考试里，aural comprehension 就是听力理解。" }
-    ],
-    "abstract": [
-      { "en": "Picture the world arriving as sound alone: doors, rain, footsteps, voices.", "cn": "想象世界只以声音抵达：门、雨、脚步、人声。" },
-      { "en": "Aural is the ear's adjective, standing quietly beside loud visual.", "cn": "aural 是耳朵的形容词，安静地站在喧闹的 visual 旁边。" },
-      { "en": "Close your eyes and read a room by ear: that is aural skill.", "cn": "闭眼凭听辨读一个房间：这就是 aural skill。" }
-    ]
-  },
-  "examples": [
-    { "en": "Strong aural memory helps musicians learn songs by ear.", "cn": "出色的听觉记忆帮助乐手凭听学会歌曲。" },
-    { "en": "The aural version of the guide is popular with commuters.", "cn": "语音版指南深受通勤者欢迎。" },
-    { "en": "The child's aural perception developed earlier than her reading.", "cn": "孩子的听觉感知比阅读能力发展得更早。" }
-  ],
-  "dict_mnemonic": {
-    "note": "谐音记忆 · 非词源",
-    "text": "「奥柔」——奥数老师声音温柔，全靠耳朵听讲",
-    "word": "aural"
-  },
-  "root": "出自拉丁语 auris「耳」+ 形容词后缀 -alis（auralis「属于耳的」），19 世纪中叶进入英语作为听觉的技术性形容词；与 auricle 同根，与 audio、auditory（出自 audire「听」）义近而根不同；与 oral（出自 os「口」）同音异源，词源确凿。",
-  "sensesIntro": {
-    "en": "Eight senses extend one ear-adjective from anatomy outward: received sound, classroom listening, music training, oral tradition, and the famous aural-oral mix-up.",
-    "cn": "八个义项把一个「耳」的形容词从解剖学向外延伸：所闻之声、课堂听力、音乐练耳、口耳相传，以及著名的 aural-oral 之辨。"
-  },
-  "semanticMap": {
-    "core": {
-      "en": "CORE IMAGE: the world arriving through the ear alone.",
-      "cn": "核心意象：世界只经由耳朵抵达。"
-    },
-    "chain": ["THE EAR", "SOUND RECEIVED", "LISTENING AS SKILL", "HEARD TRADITION", "A CHANNEL AMONG SENSES", "EAR VERSUS MOUTH"],
-    "branches": [
-      { "senses": "01 · 06", "en": "THE ORGAN SIDE: the ear in anatomy, clinics, and perception studies.", "cn": "器官一面：解剖、门诊与感知研究中的耳朵。" },
-      { "senses": "03 · 04", "en": "THE CLASSROOM SIDE: listening tests and musical ear-training.", "cn": "课堂一面：听力测验与音乐练耳。" },
-      { "senses": "02 · 07", "en": "THE MEDIA SIDE: aural landscapes and sound quality.", "cn": "媒介一面：听觉景观与音质。" },
-      { "senses": "05", "en": "THE ARCHIVE SIDE: traditions carried by listening alone.", "cn": "档案一面：单凭聆听传承的传统。" },
-      { "senses": "08", "en": "THE PUZZLE SIDE: aural against oral, ear against mouth.", "cn": "谜题一面：aural 对 oral，耳对口。" }
-    ]
-  },
-  "affixes": {
-    "intro": {
-      "en": "aural is auris plus -al, a plain adjective ending; the ear root stays visible in auricle and auricular.",
-      "cn": "aural 由 auris 加 -al 构成，是朴素的形容词词尾；「耳」的词根在 auricle、auricular 中清晰可见。"
-    },
-    "latinIntro": {
-      "en": "Latin auris, ear, anchors this branch: aural, auricle, auricular, while the audire branch holds audio and auditory.",
-      "cn": "拉丁语 auris「耳」锚定这一支：aural、auricle、auricular；而 audire「听」一支则拥有 audio 与 auditory。"
-    },
-    "items": [
-      { "word": "auris", "structure": "Latin noun", "meaning": "the ear", "meaningCN": "耳", "example": "auribus in Latin texts", "exampleCN": "拉丁文献中的双耳" },
-      { "word": "auralis", "structure": "auris + -alis", "meaning": "of the ear", "meaningCN": "属于耳的", "example": "auralis in learned Latin", "exampleCN": "学术拉丁语中的 auralis" },
-      { "word": "-al", "structure": "adjective suffix", "meaning": "relating to", "meaningCN": "与……有关的形容词词尾", "example": "natural, cultural, aural", "exampleCN": "自然的、文化的、听觉的" },
-      { "word": "auricle", "structure": "auricula into English", "meaning": "the outer ear; an atrium of the heart", "meaningCN": "耳廓；心耳", "example": "the auricle of the ear", "exampleCN": "耳廓" },
-      { "word": "auricular", "structure": "auricle + -ar", "meaning": "of the ear; told in confidence", "meaningCN": "耳的；私下告知的", "example": "auricular confession", "exampleCN": "私下告解" },
-      { "word": "auditory", "structure": "audire + -tory", "meaning": "of hearing, different root", "meaningCN": "听觉的（不同词根）", "example": "auditory cortex", "exampleCN": "听觉皮层" },
-      { "word": "oral", "structure": "os, oris + -al", "meaning": "of the mouth, sound-alike", "meaningCN": "口的（同音词）", "example": "oral exam", "exampleCN": "口试" },
-      { "word": "aurally", "structure": "aural + -ly", "meaning": "by hearing", "meaningCN": "凭听；以听觉方式", "example": "learn aurally", "exampleCN": "凭听学习" }
-    ],
-    "latinEntries": [
-      { "word": "auris", "structure": "Latin noun", "meaning": "ear", "meaningCN": "耳" },
-      { "word": "auralis", "structure": "Latin adjective", "meaning": "of the ear", "meaningCN": "属于耳的" }
-    ]
   }
-}
+]

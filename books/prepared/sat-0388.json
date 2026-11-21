@@ -1,395 +1,397 @@
-{
- "word": "benignant",
- "ipa_uk": "/bɪˈnɪɡnənt/",
- "ipa_us": "/bɪˈnɪɡnənt/",
- "definition_zh": "仁慈的；慈祥的；宽厚的（较正式、少用）",
- "definition_en": "kind and gentle, especially in a kindly, protective way",
- "core_image": "长者之手轻覆在孩童头顶的温柔一按",
- "scene": "老人扶起摔倒的孩子，替他拍去膝上的尘土。The benignant teacher stayed after class to help the struggling pupil.",
- "sceneCN": "这里 benignant 是「仁慈的、宽厚的」（第 1 个义项：待人温厚有保护欲的）；句意是慈爱的老师课后留下来帮助跟不上的学生。",
- "pos": [
+[
   {
-   "tag": "adj.",
-   "zh": "仁慈的；慈祥的；宽厚的"
-  }
- ],
- "collocations": [
-  {
-   "phrase": "a benignant ruler",
-   "zh": "仁慈的君主"
-  },
-  {
-   "phrase": "a benignant smile",
-   "zh": "慈祥的微笑"
-  },
-  {
-   "phrase": "benignant authority",
-   "zh": "宽厚的权威"
-  },
-  {
-   "phrase": "a benignant power",
-   "zh": "护佑的力量"
-  },
-  {
-   "phrase": "benignant Providence",
-   "zh": "仁慈的上天"
-  }
- ],
- "forms": [
-  {
-   "label": "比较级",
-   "form": "more benignant"
-  },
-  {
-   "label": "最高级",
-   "form": "most benignant"
-  }
- ],
- "derivatives": [
-  {
-   "word": "benignantly",
-   "pos": "adv.",
-   "zh": "由形容词加副词后缀构成，义为「仁慈地」"
-  },
-  {
-   "word": "benign",
-   "pos": "adj.",
-   "zh": "同根常用词，义为「和蔼的；良性的」"
-  },
-  {
-   "word": "benignity",
-   "pos": "n.",
-   "zh": "同根名词，义为「仁慈；温和」"
-  }
- ],
- "senses": [
-  {
-   "no": "01",
-   "title": "Kind and protective toward others",
-   "titleCN": "仁慈的；宽厚的",
-   "definition": "showing warm, protective kindness, especially of persons in authority",
-   "definitionCN": "待人温和而有庇护之感，多形容长者、上位者",
-   "example": "The benignant teacher stayed after class to help the struggling pupil.",
-   "exampleCN": "慈爱的老师课后留下来帮助跟不上的学生。",
-   "why": "Bene means well and gen- relates to birth, so the nature itself is kind.",
-   "whyCN": "bene 意为「好」，gen- 与「天生」相关，合起来即「天性良善」。"
-  },
-  {
-   "no": "02",
-   "title": "Favourable and life-giving, as of powers",
-   "titleCN": "护佑的；有益的（力量）",
-   "definition": "describing forces or powers that favour and sustain life",
-   "definitionCN": "形容庇护、滋养生命的力量，如上天、自然",
-   "example": "Farmers thanked the benignant rains of that spring.",
-   "exampleCN": "农夫们感谢那年春天温润的雨水。",
-   "why": "Kind nature widens from people to the powers that feed them.",
-   "whyCN": "「天性强善」由人扩展到滋养人的力量。"
-  }
- ],
- "etymology": {
-  "intro": {
-   "en": "Benignant is benign plus the adjective suffix -ant, from Latin benignus.",
-   "cn": "benignant 由 benign 加形容词后缀 -ant 构成，源自拉丁语 benignus。"
-  },
-  "items": [
-   {
-    "era": "PROTO-INDO-EUROPEAN",
-    "en": "the root gene- meant to give birth, to beget.",
-    "cn": "词根 gene- 意为「生育、产生」（重构形式）。"
-   },
-   {
-    "era": "LATIN",
-    "en": "benignus meant kind, good by nature.",
-    "cn": "拉丁语 benignus 意为「天性良善的」。"
-   },
-   {
-    "era": "LATIN",
-    "en": "benignantis was the genitive of benignans, kindly, from benignari.",
-    "cn": "拉丁语 benignans（属格 benignantis）意为「仁慈的」，派生自动词 benignari。"
-   },
-   {
-    "era": "ENGLISH, 17TH C.",
-    "en": "English formed benignant in the seventeenth century as a fuller variant of benign.",
-    "cn": "十七世纪英语在 benign 基础上构成 benignant 这一更正式的变体。"
-   },
-   {
-    "era": "MODERN ENGLISH",
-    "en": "it survives mainly in literary and older religious prose.",
-    "cn": "如今主要存留于文学与旧式宗教文体中。"
-   }
-  ]
- },
- "similar": {
-  "note": {
-   "en": "The look-alike group shares the bene- or gen- roots; the near-meaning group gathers kindly protectors.",
-   "cn": "形近组共享 bene- 或 gen- 词根；近义组汇集仁慈护佑类词。"
-  },
-  "groups": [
-   {
-    "heading": "LOOK-ALIKE",
-    "entries": [
-     {
-      "word": "benign",
-      "ipa": "/bɪˈnaɪn/",
-      "tag": "same root",
-      "definition": "kindly or harmless",
-      "definitionCN": "和蔼的；良性的——同根常用形式"
-     },
-     {
-      "word": "benignity",
-      "ipa": "/bɪˈnɪɡnəti/",
-      "tag": "derived form",
-      "definition": "kindness and gentleness",
-      "definitionCN": "仁慈——同根名词"
-     },
-     {
-      "word": "malignant",
-      "ipa": "/məˈlɪɡnənt/",
-      "tag": "opposite",
-      "definition": "harmful, evil, or cancerous",
-      "definitionCN": "恶性的——前缀相反的对照词"
-     }
-    ]
-   },
-   {
-    "heading": "NEAR MEANING",
-    "entries": [
-     {
-      "word": "benevolent",
-      "ipa": "/bəˈnevələnt/",
-      "tag": "near synonym",
-      "definition": "wishing and doing good",
-      "definitionCN": "仁慈的；侧重善意"
-     },
-     {
-      "word": "gracious",
-      "ipa": "/ˈɡreɪʃəs/",
-      "tag": "near synonym",
-      "definition": "kindly and courteous, as of superiors",
-      "definitionCN": "仁厚的；多形容上位者"
-     },
-     {
-      "word": "beneficent",
-      "ipa": "/bəˈnefɪsnt/",
-      "tag": "near synonym",
-      "definition": "doing good actively",
-      "definitionCN": "行善的；侧重行动"
-     }
-    ]
-   }
-  ]
- },
- "mnemonics": {
-  "normalIntro": {
-   "en": "Benignant is benign plus -ant: the fuller kindly form.",
-   "cn": "benignant 是 benign 加 -ant：更正式的仁慈形。"
-  },
-  "normal": [
-   {
-    "en": "It is rarer than benign.",
-    "cn": "它比 benign 少用。"
-   },
-   {
-    "en": "Malignant is its opposite.",
-    "cn": "它的反义词是 malignant。"
-   },
-   {
-    "en": "A benignant ruler protects his people.",
-    "cn": "benignant ruler 指护民的仁君。"
-   },
-   {
-    "en": "The adverb is benignantly.",
-    "cn": "副词是 benignantly。"
-   },
-   {
-    "en": "Gen- roots also give gentle and genial.",
-    "cn": "gen- 词根还与 gentle、genial 相关。"
-   }
-  ],
-  "abstract": [
-   {
-    "en": "See an umbrella tilted over a stranger.",
-    "cn": "看一把偏向陌生人的伞。"
-   },
-   {
-    "en": "Feel a warm wall against the wind.",
-    "cn": "感受挡风的一面暖墙。"
-   },
-   {
-    "en": "Picture spring rains waking the seeds.",
-    "cn": "想象春雨唤醒种子。"
-   }
-  ]
- },
- "examples": [
-  {
-   "en": "The benignant teacher stayed after class to help the struggling pupil.",
-   "cn": "慈爱的老师课后留下来帮助跟不上的学生。"
-  },
-  {
-   "en": "Farmers thanked the benignant rains of that spring.",
-   "cn": "农夫们感谢那年春天温润的雨水。"
-  },
-  {
-   "en": "The novel's king is benignant but weak.",
-   "cn": "小说里的国王仁慈却软弱。"
-  }
- ],
- "dict_mnemonic": {
-  "note": "谐音记忆 · 非词源",
-  "text": "「白奶奶的」——像白奶奶一样慈眉善目、护着孙辈。",
-  "word": "benignant"
- },
- "root": "拉丁语 bene「好地」加 gignere「生育」（词根上溯至原始印欧语 gene-「产生」，重构形式），其分词性形容词 benignans、属格 benignantis「仁慈的」为直接来源；英语于十七世纪在 benign 基础上加后缀 -ant 构成 benignant，如今多见于书面语。",
- "sensesIntro": {
-  "en": "One literary adjective extends natural kindness from guardians to the powers that shelter life.",
-  "cn": "一个书面形容词，把天性的仁慈从守护者延伸到庇护生命的大力量。"
- },
- "semanticMap": {
-  "core": {
-   "en": "CORE IMAGE: an elder's palm gently pressed on a child's head.",
-   "cn": "核心意象：长者之手轻覆在孩童头顶。"
-  },
-  "chain": [
-   "GOODNESS",
-   "NATURE",
-   "PROTECTION",
-   "MILDNESS",
-   "AUTHORITY",
-   "PROVIDENCE"
-  ],
-  "branches": [
-   {
-    "senses": "01",
-    "en": "a benignant ruler",
-    "cn": "仁慈的君主"
-   },
-   {
-    "senses": "01",
-    "en": "a benignant smile",
-    "cn": "慈祥的微笑"
-   },
-   {
-    "senses": "01",
-    "en": "benignant authority",
-    "cn": "宽厚的权威"
-   },
-   {
-    "senses": "02",
-    "en": "benignant rains",
-    "cn": "温润的雨水"
-   },
-   {
-    "senses": "01 · 02",
-    "en": "benignant Providence",
-    "cn": "仁慈的上天"
-   }
-  ]
- },
- "affixes": {
-  "intro": {
-   "en": "Benignant adds the -ant suffix to the benign core.",
-   "cn": "benignant 在 benign 词基上加后缀 -ant。"
-  },
-  "latinIntro": {
-   "en": "The Latin participle benignantis underlies this fuller form.",
-   "cn": "拉丁分词性形容词 benignantis 是这个完整形式的底层。"
-  },
-  "items": [
-   {
-    "word": "benignantis",
-    "structure": "Latin genitive of benignans",
-    "meaning": "of one being kind",
-    "meaningCN": "仁慈者的",
-    "example": "manus benignantis",
-    "exampleCN": "仁者之手"
-   },
-   {
     "word": "benignant",
-    "structure": "benign + -ant",
-    "meaning": "kind and protective",
-    "meaningCN": "仁慈宽厚的",
-    "example": "a benignant ruler",
-    "exampleCN": "仁君"
-   },
-   {
-    "word": "benignantly",
-    "structure": "benignant + -ly",
-    "meaning": "in a kindly way",
-    "meaningCN": "仁慈地",
-    "example": "smile benignantly",
-    "exampleCN": "慈祥地微笑"
-   },
-   {
-    "word": "benign",
-    "structure": "bene + gen-",
-    "meaning": "kindly, harmless",
-    "meaningCN": "和蔼的；良性的",
-    "example": "a benign climate",
-    "exampleCN": "温和的气候"
-   },
-   {
-    "word": "benignity",
-    "structure": "benign + -ity",
-    "meaning": "kindness",
-    "meaningCN": "仁慈",
-    "example": "his quiet benignity",
-    "exampleCN": "他温和的慈爱"
-   },
-   {
-    "word": "malignant",
-    "structure": "male + gen- + -ant",
-    "meaning": "harmful, cancerous",
-    "meaningCN": "恶性的",
-    "example": "a malignant growth",
-    "exampleCN": "恶性肿物"
-   },
-   {
-    "word": "benevolent",
-    "structure": "bene + velle",
-    "meaning": "wishing well",
-    "meaningCN": "仁慈的",
-    "example": "a benevolent uncle",
-    "exampleCN": "慈爱的叔叔"
-   },
-   {
-    "word": "gracious",
-    "structure": "Latin gratia",
-    "meaning": "kindly courteous",
-    "meaningCN": "仁厚的",
-    "example": "a gracious hostess",
-    "exampleCN": "殷勤好客的女主人"
-   },
-   {
-    "word": "gentle",
-    "structure": "Latin gentilis",
-    "meaning": "mild, tender",
-    "meaningCN": "温和的",
-    "example": "a gentle breeze",
-    "exampleCN": "和风"
-   }
-  ],
-  "latinEntries": [
-   {
-    "word": "benignari",
-    "structure": "Latin verb",
-    "meaning": "to act kindly toward; ancestor of benignant",
-    "meaningCN": "施仁慈；benignant 的祖先词",
-    "example": "benignari plebem",
-    "exampleCN": "施恩于民众"
-   }
-  ],
-  "derivatives": [
-   {
-    "word": "benignantly",
-    "pos": "adv.",
-    "zh": "由形容词加副词后缀构成，义为「仁慈地」"
-   },
-   {
-    "word": "benignity",
-    "pos": "n.",
-    "zh": "同根名词，义为「仁慈；温和」"
-   }
-  ]
- }
-}
+    "ipa_uk": "/bɪˈnɪɡnənt/",
+    "ipa_us": "/bɪˈnɪɡnənt/",
+    "definition_zh": "仁慈的；慈祥的；宽厚的（较正式、少用）",
+    "definition_en": "kind and gentle, especially in a kindly, protective way",
+    "core_image": "长者之手轻覆在孩童头顶的温柔一按",
+    "scene": "老人扶起摔倒的孩子，替他拍去膝上的尘土。The benignant teacher stayed after class to help the struggling pupil.",
+    "sceneCN": "这里 benignant 是「仁慈的、宽厚的」（第 1 个义项：待人温厚有保护欲的）；句意是慈爱的老师课后留下来帮助跟不上的学生。",
+    "pos": [
+      {
+        "tag": "adj.",
+        "zh": "仁慈的；慈祥的；宽厚的"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "a benignant ruler",
+        "zh": "仁慈的君主"
+      },
+      {
+        "phrase": "a benignant smile",
+        "zh": "慈祥的微笑"
+      },
+      {
+        "phrase": "benignant authority",
+        "zh": "宽厚的权威"
+      },
+      {
+        "phrase": "a benignant power",
+        "zh": "护佑的力量"
+      },
+      {
+        "phrase": "benignant Providence",
+        "zh": "仁慈的上天"
+      }
+    ],
+    "forms": [
+      {
+        "label": "比较级",
+        "form": "more benignant"
+      },
+      {
+        "label": "最高级",
+        "form": "most benignant"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "benignantly",
+        "pos": "adv.",
+        "zh": "由形容词加副词后缀构成，义为「仁慈地」"
+      },
+      {
+        "word": "benign",
+        "pos": "adj.",
+        "zh": "同根常用词，义为「和蔼的；良性的」"
+      },
+      {
+        "word": "benignity",
+        "pos": "n.",
+        "zh": "同根名词，义为「仁慈；温和」"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "Kind and protective toward others",
+        "titleCN": "仁慈的；宽厚的",
+        "definition": "showing warm, protective kindness, especially of persons in authority",
+        "definitionCN": "待人温和而有庇护之感，多形容长者、上位者",
+        "example": "The benignant teacher stayed after class to help the struggling pupil.",
+        "exampleCN": "慈爱的老师课后留下来帮助跟不上的学生。",
+        "why": "Bene means well and gen- relates to birth, so the nature itself is kind.",
+        "whyCN": "bene 意为「好」，gen- 与「天生」相关，合起来即「天性良善」。"
+      },
+      {
+        "no": "02",
+        "title": "Favourable and life-giving, as of powers",
+        "titleCN": "护佑的；有益的（力量）",
+        "definition": "describing forces or powers that favour and sustain life",
+        "definitionCN": "形容庇护、滋养生命的力量，如上天、自然",
+        "example": "Farmers thanked the benignant rains of that spring.",
+        "exampleCN": "农夫们感谢那年春天温润的雨水。",
+        "why": "Kind nature widens from people to the powers that feed them.",
+        "whyCN": "「天性强善」由人扩展到滋养人的力量。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Benignant is benign plus the adjective suffix -ant, from Latin benignus.",
+        "cn": "benignant 由 benign 加形容词后缀 -ant 构成，源自拉丁语 benignus。"
+      },
+      "items": [
+        {
+          "era": "PROTO-INDO-EUROPEAN",
+          "en": "the root gene- meant to give birth, to beget.",
+          "cn": "词根 gene- 意为「生育、产生」（重构形式）。"
+        },
+        {
+          "era": "LATIN",
+          "en": "benignus meant kind, good by nature.",
+          "cn": "拉丁语 benignus 意为「天性良善的」。"
+        },
+        {
+          "era": "LATIN",
+          "en": "benignantis was the genitive of benignans, kindly, from benignari.",
+          "cn": "拉丁语 benignans（属格 benignantis）意为「仁慈的」，派生自动词 benignari。"
+        },
+        {
+          "era": "ENGLISH, 17TH C.",
+          "en": "English formed benignant in the seventeenth century as a fuller variant of benign.",
+          "cn": "十七世纪英语在 benign 基础上构成 benignant 这一更正式的变体。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "it survives mainly in literary and older religious prose.",
+          "cn": "如今主要存留于文学与旧式宗教文体中。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "The look-alike group shares the bene- or gen- roots; the near-meaning group gathers kindly protectors.",
+        "cn": "形近组共享 bene- 或 gen- 词根；近义组汇集仁慈护佑类词。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "benign",
+              "ipa": "/bɪˈnaɪn/",
+              "tag": "same root",
+              "definition": "kindly or harmless",
+              "definitionCN": "和蔼的；良性的——同根常用形式"
+            },
+            {
+              "word": "benignity",
+              "ipa": "/bɪˈnɪɡnəti/",
+              "tag": "derived form",
+              "definition": "kindness and gentleness",
+              "definitionCN": "仁慈——同根名词"
+            },
+            {
+              "word": "malignant",
+              "ipa": "/məˈlɪɡnənt/",
+              "tag": "opposite",
+              "definition": "harmful, evil, or cancerous",
+              "definitionCN": "恶性的——前缀相反的对照词"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "benevolent",
+              "ipa": "/bəˈnevələnt/",
+              "tag": "near synonym",
+              "definition": "wishing and doing good",
+              "definitionCN": "仁慈的；侧重善意"
+            },
+            {
+              "word": "gracious",
+              "ipa": "/ˈɡreɪʃəs/",
+              "tag": "near synonym",
+              "definition": "kindly and courteous, as of superiors",
+              "definitionCN": "仁厚的；多形容上位者"
+            },
+            {
+              "word": "beneficent",
+              "ipa": "/bəˈnefɪsnt/",
+              "tag": "near synonym",
+              "definition": "doing good actively",
+              "definitionCN": "行善的；侧重行动"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Benignant is benign plus -ant: the fuller kindly form.",
+        "cn": "benignant 是 benign 加 -ant：更正式的仁慈形。"
+      },
+      "normal": [
+        {
+          "en": "It is rarer than benign.",
+          "cn": "它比 benign 少用。"
+        },
+        {
+          "en": "Malignant is its opposite.",
+          "cn": "它的反义词是 malignant。"
+        },
+        {
+          "en": "A benignant ruler protects his people.",
+          "cn": "benignant ruler 指护民的仁君。"
+        },
+        {
+          "en": "The adverb is benignantly.",
+          "cn": "副词是 benignantly。"
+        },
+        {
+          "en": "Gen- roots also give gentle and genial.",
+          "cn": "gen- 词根还与 gentle、genial 相关。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "See an umbrella tilted over a stranger.",
+          "cn": "看一把偏向陌生人的伞。"
+        },
+        {
+          "en": "Feel a warm wall against the wind.",
+          "cn": "感受挡风的一面暖墙。"
+        },
+        {
+          "en": "Picture spring rains waking the seeds.",
+          "cn": "想象春雨唤醒种子。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "The benignant teacher stayed after class to help the struggling pupil.",
+        "cn": "慈爱的老师课后留下来帮助跟不上的学生。"
+      },
+      {
+        "en": "Farmers thanked the benignant rains of that spring.",
+        "cn": "农夫们感谢那年春天温润的雨水。"
+      },
+      {
+        "en": "The novel's king is benignant but weak.",
+        "cn": "小说里的国王仁慈却软弱。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「白奶奶的」——像白奶奶一样慈眉善目、护着孙辈。",
+      "word": "benignant"
+    },
+    "root": "拉丁语 bene「好地」加 gignere「生育」（词根上溯至原始印欧语 gene-「产生」，重构形式），其分词性形容词 benignans、属格 benignantis「仁慈的」为直接来源；英语于十七世纪在 benign 基础上加后缀 -ant 构成 benignant，如今多见于书面语。",
+    "sensesIntro": {
+      "en": "One literary adjective extends natural kindness from guardians to the powers that shelter life.",
+      "cn": "一个书面形容词，把天性的仁慈从守护者延伸到庇护生命的大力量。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: an elder's palm gently pressed on a child's head.",
+        "cn": "核心意象：长者之手轻覆在孩童头顶。"
+      },
+      "chain": [
+        "GOODNESS",
+        "NATURE",
+        "PROTECTION",
+        "MILDNESS",
+        "AUTHORITY",
+        "PROVIDENCE"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "a benignant ruler",
+          "cn": "仁慈的君主"
+        },
+        {
+          "senses": "01",
+          "en": "a benignant smile",
+          "cn": "慈祥的微笑"
+        },
+        {
+          "senses": "01",
+          "en": "benignant authority",
+          "cn": "宽厚的权威"
+        },
+        {
+          "senses": "02",
+          "en": "benignant rains",
+          "cn": "温润的雨水"
+        },
+        {
+          "senses": "01 · 02",
+          "en": "benignant Providence",
+          "cn": "仁慈的上天"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Benignant adds the -ant suffix to the benign core.",
+        "cn": "benignant 在 benign 词基上加后缀 -ant。"
+      },
+      "latinIntro": {
+        "en": "The Latin participle benignantis underlies this fuller form.",
+        "cn": "拉丁分词性形容词 benignantis 是这个完整形式的底层。"
+      },
+      "items": [
+        {
+          "word": "benignantis",
+          "structure": "Latin genitive of benignans",
+          "meaning": "of one being kind",
+          "meaningCN": "仁慈者的",
+          "example": "manus benignantis",
+          "exampleCN": "仁者之手"
+        },
+        {
+          "word": "benignant",
+          "structure": "benign + -ant",
+          "meaning": "kind and protective",
+          "meaningCN": "仁慈宽厚的",
+          "example": "a benignant ruler",
+          "exampleCN": "仁君"
+        },
+        {
+          "word": "benignantly",
+          "structure": "benignant + -ly",
+          "meaning": "in a kindly way",
+          "meaningCN": "仁慈地",
+          "example": "smile benignantly",
+          "exampleCN": "慈祥地微笑"
+        },
+        {
+          "word": "benign",
+          "structure": "bene + gen-",
+          "meaning": "kindly, harmless",
+          "meaningCN": "和蔼的；良性的",
+          "example": "a benign climate",
+          "exampleCN": "温和的气候"
+        },
+        {
+          "word": "benignity",
+          "structure": "benign + -ity",
+          "meaning": "kindness",
+          "meaningCN": "仁慈",
+          "example": "his quiet benignity",
+          "exampleCN": "他温和的慈爱"
+        },
+        {
+          "word": "malignant",
+          "structure": "male + gen- + -ant",
+          "meaning": "harmful, cancerous",
+          "meaningCN": "恶性的",
+          "example": "a malignant growth",
+          "exampleCN": "恶性肿物"
+        },
+        {
+          "word": "benevolent",
+          "structure": "bene + velle",
+          "meaning": "wishing well",
+          "meaningCN": "仁慈的",
+          "example": "a benevolent uncle",
+          "exampleCN": "慈爱的叔叔"
+        },
+        {
+          "word": "gracious",
+          "structure": "Latin gratia",
+          "meaning": "kindly courteous",
+          "meaningCN": "仁厚的",
+          "example": "a gracious hostess",
+          "exampleCN": "殷勤好客的女主人"
+        },
+        {
+          "word": "gentle",
+          "structure": "Latin gentilis",
+          "meaning": "mild, tender",
+          "meaningCN": "温和的",
+          "example": "a gentle breeze",
+          "exampleCN": "和风"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "benignari",
+          "structure": "Latin verb",
+          "meaning": "to act kindly toward; ancestor of benignant",
+          "meaningCN": "施仁慈；benignant 的祖先词",
+          "example": "benignari plebem",
+          "exampleCN": "施恩于民众"
+        }
+      ],
+      "derivatives": [
+        {
+          "word": "benignantly",
+          "pos": "adv.",
+          "zh": "由形容词加副词后缀构成，义为「仁慈地」"
+        },
+        {
+          "word": "benignity",
+          "pos": "n.",
+          "zh": "同根名词，义为「仁慈；温和」"
+        }
+      ]
+    }
+  }
+]

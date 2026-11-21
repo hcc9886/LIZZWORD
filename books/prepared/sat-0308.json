@@ -1,322 +1,506 @@
-{
-  "word": "audition",
-  "ipa_uk": "/ɔːˈdɪʃn/",
-  "ipa_us": "/ɔːˈdɪʃn/",
-  "definition_zh": "试音；试演；面试（表演类）；（列）听觉",
-  "definition_en": "a short performance given to test whether a performer is suitable for a role; also, the sense of hearing",
-  "core_image": "把一段表演摆在考官耳朵前接受检验",
-  "scene": "后台走廊里，女孩反复默念台词，心跳如鼓。She waited outside the room for her first audition.",
-  "sceneCN": "这里 audition 指「试演、试镜」（第 1 个义项：求职性质的表演测试）；句意：她在门外等待自己人生第一次试镜。",
-  "pos": [
-    { "tag": "n.", "zh": "试音；试演；试镜" },
-    { "tag": "v.", "zh": "试音；试演；对……进行试演测试" }
-  ],
-  "collocations": [
-    { "phrase": "go to an audition", "zh": "去参加试演" },
-    { "phrase": "an open audition", "zh": "公开试镜；海选" },
-    { "phrase": "audition for a role", "zh": "为角色试演" },
-    { "phrase": "audition tape", "zh": "试镜录像" },
-    { "phrase": "sense of audition", "zh": "听觉" }
-  ],
-  "forms": [
-    { "label": "第三人称单数", "form": "auditions" },
-    { "label": "过去式", "form": "auditioned" },
-    { "label": "过去分词", "form": "auditioned" },
-    { "label": "现在分词", "form": "auditioning" },
-    { "label": "复数", "form": "auditions" }
-  ],
-  "derivatives": [
-    { "word": "auditionee", "pos": "n.", "zh": "参加试演的人（audition + -ee 受动者后缀）" },
-    { "word": "auditioner", "pos": "n.", "zh": "参加试演者（audition + -er）" },
-    { "word": "auditory", "pos": "adj.", "zh": "听觉的（同族词，出自 audit-）" },
-    { "word": "audience", "pos": "n.", "zh": "听众；观众（同族词）" },
-    { "word": "audition call", "pos": "n.", "zh": "试镜通知；选角公告（复合词）" }
-  ],
-  "senses": [
-    {
-      "no": "01",
-      "title": "A test performance for a role",
-      "titleCN": "试演；试镜；试音",
-      "definition": "a short trial performance to judge a performer's suitability for a part",
-      "definitionCN": "为判断表演者是否胜任某角色而进行的简短测试表演",
-      "example": "She got the lead role after a single audition.",
-      "exampleCN": "仅一次试演后她就拿到了主角。",
-      "why": "The root is hearing: the judges decide with their ears, so the trial is named after listening.",
-      "whyCN": "词根是「听」：考官用耳朵裁决，这场测试便以「听」命名。"
+[
+  {
+    "word": "audition",
+    "ipa_uk": "/ɔːˈdɪʃn/",
+    "ipa_us": "/ɔːˈdɪʃn/",
+    "definition_zh": "试音；试演；面试（表演类）；（列）听觉",
+    "definition_en": "a short performance given to test whether a performer is suitable for a role; also, the sense of hearing",
+    "core_image": "把一段表演摆在考官耳朵前接受检验",
+    "scene": "后台走廊里，女孩反复默念台词，心跳如鼓。She waited outside the room for her first audition.",
+    "sceneCN": "这里 audition 指「试演、试镜」（第 1 个义项：求职性质的表演测试）；句意：她在门外等待自己人生第一次试镜。",
+    "pos": [
+      {
+        "tag": "n.",
+        "zh": "试音；试演；试镜"
+      },
+      {
+        "tag": "v.",
+        "zh": "试音；试演；对……进行试演测试"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "go to an audition",
+        "zh": "去参加试演"
+      },
+      {
+        "phrase": "an open audition",
+        "zh": "公开试镜；海选"
+      },
+      {
+        "phrase": "audition for a role",
+        "zh": "为角色试演"
+      },
+      {
+        "phrase": "audition tape",
+        "zh": "试镜录像"
+      },
+      {
+        "phrase": "sense of audition",
+        "zh": "听觉"
+      }
+    ],
+    "forms": [
+      {
+        "label": "第三人称单数",
+        "form": "auditions"
+      },
+      {
+        "label": "过去式",
+        "form": "auditioned"
+      },
+      {
+        "label": "过去分词",
+        "form": "auditioned"
+      },
+      {
+        "label": "现在分词",
+        "form": "auditioning"
+      },
+      {
+        "label": "复数",
+        "form": "auditions"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "auditionee",
+        "pos": "n.",
+        "zh": "参加试演的人（audition + -ee 受动者后缀）"
+      },
+      {
+        "word": "auditioner",
+        "pos": "n.",
+        "zh": "参加试演者（audition + -er）"
+      },
+      {
+        "word": "auditory",
+        "pos": "adj.",
+        "zh": "听觉的（同族词，出自 audit-）"
+      },
+      {
+        "word": "audience",
+        "pos": "n.",
+        "zh": "听众；观众（同族词）"
+      },
+      {
+        "word": "audition call",
+        "pos": "n.",
+        "zh": "试镜通知；选角公告（复合词）"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "A test performance for a role",
+        "titleCN": "试演；试镜；试音",
+        "definition": "a short trial performance to judge a performer's suitability for a part",
+        "definitionCN": "为判断表演者是否胜任某角色而进行的简短测试表演",
+        "example": "She got the lead role after a single audition.",
+        "exampleCN": "仅一次试演后她就拿到了主角。",
+        "why": "The root is hearing: the judges decide with their ears, so the trial is named after listening.",
+        "whyCN": "词根是「听」：考官用耳朵裁决，这场测试便以「听」命名。"
+      },
+      {
+        "no": "02",
+        "title": "To take part in such a test",
+        "titleCN": "参加试演（动词）",
+        "definition": "to perform at an audition in the hope of being chosen",
+        "definitionCN": "参加试演，以求被选中",
+        "example": "Three hundred dancers auditioned for the show.",
+        "exampleCN": "三百名舞者为这档节目参加了试演。",
+        "why": "The noun slid into a verb without effort, as English names do.",
+        "whyCN": "名词毫不费力地转为动词，这是英语命名的一贯做法。"
+      },
+      {
+        "no": "03",
+        "title": "To test someone by a trial performance",
+        "titleCN": "对某人进行试演测试",
+        "definition": "to ask a performer to give a trial performance in order to judge them",
+        "definitionCN": "请表演者进行测试表演以便评估",
+        "example": "The director auditioned over a hundred children for the film.",
+        "exampleCN": "导演为这部电影试演了一百多名孩子。",
+        "why": "The verb faces both ways: the performer auditions, and the director auditions them.",
+        "whyCN": "这个动词可双向使用：表演者参加试演，导演也「试演」表演者。"
+      },
+      {
+        "no": "04",
+        "title": "The sense of hearing",
+        "titleCN": "听觉；听力",
+        "definition": "the sense or power of hearing, especially in scientific use",
+        "definitionCN": "听觉能力，多用于科学语境",
+        "example": "Bats rely on audition to navigate in the dark.",
+        "exampleCN": "蝙蝠依靠听觉在黑暗中导航。",
+        "why": "The Latin audire gives hearing a formal noun; science revived this older sense.",
+        "whyCN": "拉丁语 audire 为听觉提供了正式名词；科学界重新启用了这一旧义。"
+      },
+      {
+        "no": "05",
+        "title": "A trial of anything by listening",
+        "titleCN": "试听；试奏",
+        "definition": "a trial of a musician, instrument, or recording by listening to it",
+        "definitionCN": "通过试听来检验乐手、乐器或录音",
+        "example": "The orchestra held auditions for a new first violin.",
+        "exampleCN": "乐团为新任首席小提琴举办试奏。",
+        "why": "Musicians audition with sound alone, so the listening root fits them most literally.",
+        "whyCN": "乐手单凭声音应试，「听」的词根在他们身上最为贴切。"
+      },
+      {
+        "no": "06",
+        "title": "A formal hearing or interview",
+        "titleCN": "正式接见；面试（旧义）",
+        "definition": "in older use, a formal interview or opportunity to be heard by someone important",
+        "definitionCN": "旧义：正式接见，或在要人面前陈情的机会",
+        "example": "The ambassador was granted an audition with the queen.",
+        "exampleCN": "大使获女王正式接见。",
+        "why": "Before casting calls, an audition meant simply a hearing before power.",
+        "whyCN": "在试镜出现之前，audition 就是「在权贵面前得闻」之意。"
+      },
+      {
+        "no": "07",
+        "title": "A tryout in extended use",
+        "titleCN": "（引申）对任何能力的检验",
+        "definition": "any test that decides whether someone or something qualifies",
+        "definitionCN": "决定某人或某物是否合格的任何考验",
+        "example": "Every crisis is an audition for leadership.",
+        "exampleCN": "每场危机都是对领导力的检验。",
+        "why": "The judged-performance idea spread from stage to life, where leaders too perform for judges.",
+        "whyCN": "「被审视的表演」这一概念从舞台延伸到人生——领导者同样要在评审面前表演。"
+      },
+      {
+        "no": "08",
+        "title": "In audiology and animal studies",
+        "titleCN": "（科学）听觉研究语境",
+        "definition": "hearing as studied in audiology and animal behavior",
+        "definitionCN": "听力科学与动物行为学所研究的听觉",
+        "example": "The study measured audition in older adults.",
+        "exampleCN": "该研究测量了老年人的听觉。",
+        "why": "Technical writing prefers audition when it wants a precise, neutral noun for hearing.",
+        "whyCN": "当技术文献需要一个精确中立的听觉名词时，便会选用 audition。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Audition comes from Latin auditio, a hearing, formed on audire, to hear; English first used it for the sense of hearing and for a formal hearing, and only in the late nineteenth century for a test performance.",
+        "cn": "audition 出自拉丁语 auditio「听」，基础为动词 audire「听」；英语最初用它指听觉与正式接见，19 世纪末才转指测试表演。"
+      },
+      "items": [
+        {
+          "era": "PROTO-INDO-EUROPEAN",
+          "en": "The root *h₂ewis- meant to perceive, to hear, the shared source of the Latin hearing family.",
+          "cn": "词根 *h₂ewis- 意为「感知、听见」，是拉丁语「听」词族的共同源头。"
+        },
+        {
+          "era": "LATIN",
+          "en": "audire meant to hear; its participle stem audit- supplied auditio, a hearing or listening.",
+          "cn": "拉丁语 audire 意为「听」；其分词词干 audit- 构成 auditio，意为「听；倾听」。"
+        },
+        {
+          "era": "LATIN, AUDITIO",
+          "en": "auditio named both the act of hearing and, in rhetoric, a case argued before a judge.",
+          "cn": "auditio 既指「听」这一行为，在修辞学中也指在裁判前申辩的案件。"
+        },
+        {
+          "era": "ENGLISH, 16TH C.",
+          "en": "audition entered English meaning the sense of hearing and, by extension, a formal hearing before a great person.",
+          "cn": "audition 进入英语时指听觉，引申为在显贵面前的正式接见。"
+        },
+        {
+          "era": "ENGLISH, 1880S",
+          "en": "The theatrical sense arose in the late nineteenth century: a trial performance is a hearing for the ears of the judges.",
+          "cn": "戏剧义产生于 19 世纪末：测试表演就是一场呈于考官耳中的「听审」。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "Today the theatrical verb and noun dominate, while science keeps the older hearing sense in audition and audiology.",
+          "cn": "如今戏剧义的动名词占主导，而科学界仍在 audition 与 audiology 中保留古老的听觉义。"
+        }
+      ]
     },
-    {
-      "no": "02",
-      "title": "To take part in such a test",
-      "titleCN": "参加试演（动词）",
-      "definition": "to perform at an audition in the hope of being chosen",
-      "definitionCN": "参加试演，以求被选中",
-      "example": "Three hundred dancers auditioned for the show.",
-      "exampleCN": "三百名舞者为这档节目参加了试演。",
-      "why": "The noun slid into a verb without effort, as English names do.",
-      "whyCN": "名词毫不费力地转为动词，这是英语命名的一贯做法。"
+    "similar": {
+      "note": {
+        "en": "Group one collects the hearing family and aud- look-alikes; group two collects neighboring tryout and hearing words.",
+        "cn": "第一组收「听」词族及 aud- 形近词；第二组收相邻的「测试」与「听觉」词。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "audience",
+              "ipa": "/ˈɔːdiəns/",
+              "tag": "same root",
+              "definition": "the listeners themselves, from Latin audientia.",
+              "definitionCN": "听众；观众，出自拉丁语 audientia。"
+            },
+            {
+              "word": "auditory",
+              "ipa": "/ˈɔːdətɔːri/",
+              "tag": "same root",
+              "definition": "relating to hearing; the adjective sibling of audition's hearing sense.",
+              "definitionCN": "听觉的；audition 听觉义的形容词同胞词。"
+            },
+            {
+              "word": "auditor",
+              "ipa": "/ˈɔːdɪtər/",
+              "tag": "same root, shifted meaning",
+              "definition": "one who audits accounts; historically, a listener. Related root, different line.",
+              "definitionCN": "审计员；历史上指「听者」。同根异流。"
+            },
+            {
+              "word": "audacious",
+              "ipa": "/ɔːˈdeɪʃəs/",
+              "tag": "look-alike, different root",
+              "definition": "bold, from audare, to dare; shares only the aud- spelling.",
+              "definitionCN": "大胆的，出自「敢」的词根；仅拼写同以 aud- 开头。"
+            },
+            {
+              "word": "edition",
+              "ipa": "/ɪˈdɪʃn/",
+              "tag": "look-alike, different root",
+              "definition": "a printed version, from Latin editio, a giving out; one letter apart, unrelated root.",
+              "definitionCN": "版本，出自拉丁语 editio「刊行」；仅差一个字母，词根无关。"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "tryout",
+              "ipa": "/ˈtraɪaʊt/",
+              "tag": "near meaning",
+              "definition": "an informal audition or trial, common in sports.",
+              "definitionCN": "非正式的试演或选拔，体育中常用。"
+            },
+            {
+              "word": "interview",
+              "ipa": "/ˈɪntəvjuː/",
+              "tag": "near meaning",
+              "definition": "a formal meeting to judge suitability, for jobs rather than roles.",
+              "definitionCN": "面试；用于求职而非选角。"
+            },
+            {
+              "word": "casting call",
+              "ipa": "/ˈkɑːstɪŋ kɔːl/",
+              "tag": "industry term",
+              "definition": "a public announcement inviting people to audition.",
+              "definitionCN": "选角公告；邀请人们来试镜。"
+            },
+            {
+              "word": "hearing",
+              "ipa": "/ˈhɪərɪŋ/",
+              "tag": "near meaning",
+              "definition": "the everyday word for the sense that audition names formally.",
+              "definitionCN": "听觉的日常说法；audition 是其正式对应。"
+            },
+            {
+              "word": "screen test",
+              "ipa": "/ˈskriːn test/",
+              "tag": "near meaning",
+              "definition": "a filmed audition for film or television.",
+              "definitionCN": "为影视拍摄的试镜录像。"
+            }
+          ]
+        }
+      ]
     },
-    {
-      "no": "03",
-      "title": "To test someone by a trial performance",
-      "titleCN": "对某人进行试演测试",
-      "definition": "to ask a performer to give a trial performance in order to judge them",
-      "definitionCN": "请表演者进行测试表演以便评估",
-      "example": "The director auditioned over a hundred children for the film.",
-      "exampleCN": "导演为这部电影试演了一百多名孩子。",
-      "why": "The verb faces both ways: the performer auditions, and the director auditions them.",
-      "whyCN": "这个动词可双向使用：表演者参加试演，导演也「试演」表演者。"
+    "mnemonics": {
+      "normalIntro": {
+        "en": "audition is a hearing: audi for listen, -tion for the act, first of ears, then of judges.",
+        "cn": "audition 就是一场「听审」：audi 表「听」，-tion 表行为——先属于耳朵，后属于考官。"
+      },
+      "normal": [
+        {
+          "en": "audi + tion: the act of hearing, exactly like edition is the act of giving out.",
+          "cn": "audi + tion：听的行为，正如 edition 是刊行的行为。"
+        },
+        {
+          "en": "An audition is literally a hearing before the people who decide.",
+          "cn": "试演的字面义就是在裁决者面前「受审听」。"
+        },
+        {
+          "en": "The family: audible, audience, auditorium, audition, auditory.",
+          "cn": "同族词：audible、audience、auditorium、audition、auditory。"
+        },
+        {
+          "en": "audition for a role is the set verb pattern to memorize.",
+          "cn": "audition for a role 是值得记牢的动词搭配。"
+        },
+        {
+          "en": "In science, audition just means hearing, no stage required.",
+          "cn": "在科学语境里，audition 就指听觉，与舞台无关。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "Picture one chair, one spotlight, and three silent ears behind a table.",
+          "cn": "想象一把椅子、一束追光，和桌后三只沉默的耳朵。"
+        },
+        {
+          "en": "The word holds its breath before the first note.",
+          "cn": "这个词在第一个音符前屏住呼吸。"
+        },
+        {
+          "en": "Audition is a door that opens only for a performed minute.",
+          "cn": "audition 是一扇只为一段表演敞开一分钟的门。"
+        }
+      ]
     },
-    {
-      "no": "04",
-      "title": "The sense of hearing",
-      "titleCN": "听觉；听力",
-      "definition": "the sense or power of hearing, especially in scientific use",
-      "definitionCN": "听觉能力，多用于科学语境",
-      "example": "Bats rely on audition to navigate in the dark.",
-      "exampleCN": "蝙蝠依靠听觉在黑暗中导航。",
-      "why": "The Latin audire gives hearing a formal noun; science revived this older sense.",
-      "whyCN": "拉丁语 audire 为听觉提供了正式名词；科学界重新启用了这一旧义。"
+    "examples": [
+      {
+        "en": "He practiced the monologue for weeks before the audition.",
+        "cn": "试演前他花了数周练习那段独白。"
+      },
+      {
+        "en": "Over a thousand singers auditioned for the talent show.",
+        "cn": "上千名歌手报名参加了选秀节目的试音。"
+      },
+      {
+        "en": "Age slowly dulls the sense of audition.",
+        "cn": "听觉会随年龄增长而逐渐迟钝。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「奥迪逊」——开着奥迪去参加比赛，第一个上场试音",
+      "word": "audition"
     },
-    {
-      "no": "05",
-      "title": "A trial of anything by listening",
-      "titleCN": "试听；试奏",
-      "definition": "a trial of a musician, instrument, or recording by listening to it",
-      "definitionCN": "通过试听来检验乐手、乐器或录音",
-      "example": "The orchestra held auditions for a new first violin.",
-      "exampleCN": "乐团为新任首席小提琴举办试奏。",
-      "why": "Musicians audition with sound alone, so the listening root fits them most literally.",
-      "whyCN": "乐手单凭声音应试，「听」的词根在他们身上最为贴切。"
+    "root": "出自拉丁语 auditio「听；倾听」（动词 audire「听」的分词词干 audit- + 抽象名词后缀 -io），16 世纪进入英语时指听觉与正式接见，19 世纪末引申为「测试表演」；与 audience、audio、audible 同属「听」词族，词源确凿。",
+    "sensesIntro": {
+      "en": "Eight senses trace one noun from ears to stage: hearing itself, a formal hearing, and the judged performance the theater made of it.",
+      "cn": "八个义项追溯一个名词从耳朵走向舞台的轨迹：听觉本身、正式接见，以及戏剧界由此造出的测试表演。"
     },
-    {
-      "no": "06",
-      "title": "A formal hearing or interview",
-      "titleCN": "正式接见；面试（旧义）",
-      "definition": "in older use, a formal interview or opportunity to be heard by someone important",
-      "definitionCN": "旧义：正式接见，或在要人面前陈情的机会",
-      "example": "The ambassador was granted an audition with the queen.",
-      "exampleCN": "大使获女王正式接见。",
-      "why": "Before casting calls, an audition meant simply a hearing before power.",
-      "whyCN": "在试镜出现之前，audition 就是「在权贵面前得闻」之意。"
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: a performed minute laid before judging ears.",
+        "cn": "核心意象：一段表演被呈递到裁决的耳朵面前。"
+      },
+      "chain": [
+        "TO HEAR",
+        "AN ACT OF HEARING",
+        "A FORMAL HEARING",
+        "A JUDGED PERFORMANCE",
+        "A TWO-WAY VERB",
+        "A TEST FOR ANYTHING"
+      ],
+      "branches": [
+        {
+          "senses": "01 · 05",
+          "en": "THE STAGE SIDE: trial performances for actors and musicians.",
+          "cn": "舞台一面：演员与乐手的测试表演。"
+        },
+        {
+          "senses": "02 · 03",
+          "en": "THE VERB SIDE: to audition and to audition someone.",
+          "cn": "动词一面：参加试演与试演某人。"
+        },
+        {
+          "senses": "04 · 08",
+          "en": "THE SCIENCE SIDE: hearing as a measured sense.",
+          "cn": "科学一面：作为可测官能的听觉。"
+        },
+        {
+          "senses": "06",
+          "en": "THE OLD SIDE: a formal hearing before power.",
+          "cn": "旧义一面：在权势面前的正式接见。"
+        },
+        {
+          "senses": "07",
+          "en": "THE EXTENDED SIDE: life's crises as auditions for character.",
+          "cn": "引申一面：人生的危机成为品格的试演。"
+        }
+      ]
     },
-    {
-      "no": "07",
-      "title": "A tryout in extended use",
-      "titleCN": "（引申）对任何能力的检验",
-      "definition": "any test that decides whether someone or something qualifies",
-      "definitionCN": "决定某人或某物是否合格的任何考验",
-      "example": "Every crisis is an audition for leadership.",
-      "exampleCN": "每场危机都是对领导力的检验。",
-      "why": "The judged-performance idea spread from stage to life, where leaders too perform for judges.",
-      "whyCN": "「被审视的表演」这一概念从舞台延伸到人生——领导者同样要在评审面前表演。"
-    },
-    {
-      "no": "08",
-      "title": "In audiology and animal studies",
-      "titleCN": "（科学）听觉研究语境",
-      "definition": "hearing as studied in audiology and animal behavior",
-      "definitionCN": "听力科学与动物行为学所研究的听觉",
-      "example": "The study measured audition in older adults.",
-      "exampleCN": "该研究测量了老年人的听觉。",
-      "why": "Technical writing prefers audition when it wants a precise, neutral noun for hearing.",
-      "whyCN": "当技术文献需要一个精确中立的听觉名词时，便会选用 audition。"
+    "affixes": {
+      "intro": {
+        "en": "audition is the stem audit- plus -ion, the Latin way to name an act; the same stem powers auditory and auditor.",
+        "cn": "audition 由词干 audit- 加 -ion 构成，这是拉丁语为「行为」命名的方式；同一词干也支撑着 auditory 与 auditor。"
+      },
+      "latinIntro": {
+        "en": "Latin audire, to hear, anchors the family: audible, audience, audio, auditory, auditorium, audition.",
+        "cn": "拉丁语 audire「听」统率词族：audible、audience、audio、auditory、auditorium、audition。"
+      },
+      "items": [
+        {
+          "word": "audire",
+          "structure": "Latin verb",
+          "meaning": "to hear",
+          "meaningCN": "听",
+          "example": "audire eum",
+          "exampleCN": "听他说"
+        },
+        {
+          "word": "auditio",
+          "structure": "audit- + -io",
+          "meaning": "a hearing, a listening",
+          "meaningCN": "听；倾听",
+          "example": "auditio in classical Latin",
+          "exampleCN": "古典拉丁语中的 auditio"
+        },
+        {
+          "word": "-tion",
+          "structure": "noun suffix via French",
+          "meaning": "act or result of",
+          "meaningCN": "表行为或结果的名词词尾",
+          "example": "action, edition, audition",
+          "exampleCN": "行动、刊行、听审"
+        },
+        {
+          "word": "auditory",
+          "structure": "audit- + -ory",
+          "meaning": "relating to hearing",
+          "meaningCN": "听觉的",
+          "example": "auditory memory",
+          "exampleCN": "听觉记忆"
+        },
+        {
+          "word": "audience",
+          "structure": "audient- + -ia",
+          "meaning": "listeners; a hearing",
+          "meaningCN": "听众；接见",
+          "example": "a live audience",
+          "exampleCN": "现场观众"
+        },
+        {
+          "word": "audiology",
+          "structure": "audio + -logy",
+          "meaning": "the science of hearing",
+          "meaningCN": "听力学",
+          "example": "a clinic of audiology",
+          "exampleCN": "听力门诊"
+        },
+        {
+          "word": "auditor",
+          "structure": "audit- + -or",
+          "meaning": "a listener; later, one who examines accounts",
+          "meaningCN": "听者；后指审计员",
+          "example": "the state auditor",
+          "exampleCN": "州审计员"
+        },
+        {
+          "word": "audible",
+          "structure": "audit- + -able",
+          "meaning": "able to be heard",
+          "meaningCN": "听得见的",
+          "example": "an audible warning",
+          "exampleCN": "听得见的警报"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "auditio",
+          "structure": "Latin noun",
+          "meaning": "a hearing",
+          "meaningCN": "听；倾听"
+        },
+        {
+          "word": "audire",
+          "structure": "Latin verb",
+          "meaning": "to hear",
+          "meaningCN": "听"
+        }
+      ]
     }
-  ],
-  "etymology": {
-    "intro": {
-      "en": "Audition comes from Latin auditio, a hearing, formed on audire, to hear; English first used it for the sense of hearing and for a formal hearing, and only in the late nineteenth century for a test performance.",
-      "cn": "audition 出自拉丁语 auditio「听」，基础为动词 audire「听」；英语最初用它指听觉与正式接见，19 世纪末才转指测试表演。"
-    },
-    "items": [
-      {
-        "era": "PROTO-INDO-EUROPEAN",
-        "en": "The root *h₂ewis- meant to perceive, to hear, the shared source of the Latin hearing family.",
-        "cn": "词根 *h₂ewis- 意为「感知、听见」，是拉丁语「听」词族的共同源头。"
-      },
-      {
-        "era": "LATIN",
-        "en": "audire meant to hear; its participle stem audit- supplied auditio, a hearing or listening.",
-        "cn": "拉丁语 audire 意为「听」；其分词词干 audit- 构成 auditio，意为「听；倾听」。"
-      },
-      {
-        "era": "LATIN, AUDITIO",
-        "en": "auditio named both the act of hearing and, in rhetoric, a case argued before a judge.",
-        "cn": "auditio 既指「听」这一行为，在修辞学中也指在裁判前申辩的案件。"
-      },
-      {
-        "era": "ENGLISH, 16TH C.",
-        "en": "audition entered English meaning the sense of hearing and, by extension, a formal hearing before a great person.",
-        "cn": "audition 进入英语时指听觉，引申为在显贵面前的正式接见。"
-      },
-      {
-        "era": "ENGLISH, 1880S",
-        "en": "The theatrical sense arose in the late nineteenth century: a trial performance is a hearing for the ears of the judges.",
-        "cn": "戏剧义产生于 19 世纪末：测试表演就是一场呈于考官耳中的「听审」。"
-      },
-      {
-        "era": "MODERN ENGLISH",
-        "en": "Today the theatrical verb and noun dominate, while science keeps the older hearing sense in audition and audiology.",
-        "cn": "如今戏剧义的动名词占主导，而科学界仍在 audition 与 audiology 中保留古老的听觉义。"
-      }
-    ]
-  },
-  "similar": {
-    "note": {
-      "en": "Group one collects the hearing family and aud- look-alikes; group two collects neighboring tryout and hearing words.",
-      "cn": "第一组收「听」词族及 aud- 形近词；第二组收相邻的「测试」与「听觉」词。"
-    },
-    "groups": [
-      {
-        "heading": "LOOK-ALIKE",
-        "entries": [
-          {
-            "word": "audience",
-            "ipa": "/ˈɔːdiəns/",
-            "tag": "same root",
-            "definition": "the listeners themselves, from Latin audientia.",
-            "definitionCN": "听众；观众，出自拉丁语 audientia。"
-          },
-          {
-            "word": "auditory",
-            "ipa": "/ˈɔːdətɔːri/",
-            "tag": "same root",
-            "definition": "relating to hearing; the adjective sibling of audition's hearing sense.",
-            "definitionCN": "听觉的；audition 听觉义的形容词同胞词。"
-          },
-          {
-            "word": "auditor",
-            "ipa": "/ˈɔːdɪtər/",
-            "tag": "same root, shifted meaning",
-            "definition": "one who audits accounts; historically, a listener. Related root, different line.",
-            "definitionCN": "审计员；历史上指「听者」。同根异流。"
-          },
-          {
-            "word": "audacious",
-            "ipa": "/ɔːˈdeɪʃəs/",
-            "tag": "look-alike, different root",
-            "definition": "bold, from audare, to dare; shares only the aud- spelling.",
-            "definitionCN": "大胆的，出自「敢」的词根；仅拼写同以 aud- 开头。"
-          },
-          {
-            "word": "edition",
-            "ipa": "/ɪˈdɪʃn/",
-            "tag": "look-alike, different root",
-            "definition": "a printed version, from Latin editio, a giving out; one letter apart, unrelated root.",
-            "definitionCN": "版本，出自拉丁语 editio「刊行」；仅差一个字母，词根无关。"
-          }
-        ]
-      },
-      {
-        "heading": "NEAR MEANING",
-        "entries": [
-          {
-            "word": "tryout",
-            "ipa": "/ˈtraɪaʊt/",
-            "tag": "near meaning",
-            "definition": "an informal audition or trial, common in sports.",
-            "definitionCN": "非正式的试演或选拔，体育中常用。"
-          },
-          {
-            "word": "interview",
-            "ipa": "/ˈɪntəvjuː/",
-            "tag": "near meaning",
-            "definition": "a formal meeting to judge suitability, for jobs rather than roles.",
-            "definitionCN": "面试；用于求职而非选角。"
-          },
-          {
-            "word": "casting call",
-            "ipa": "/ˈkɑːstɪŋ kɔːl/",
-            "tag": "industry term",
-            "definition": "a public announcement inviting people to audition.",
-            "definitionCN": "选角公告；邀请人们来试镜。"
-          },
-          {
-            "word": "hearing",
-            "ipa": "/ˈhɪərɪŋ/",
-            "tag": "near meaning",
-            "definition": "the everyday word for the sense that audition names formally.",
-            "definitionCN": "听觉的日常说法；audition 是其正式对应。"
-          },
-          {
-            "word": "screen test",
-            "ipa": "/ˈskriːn test/",
-            "tag": "near meaning",
-            "definition": "a filmed audition for film or television.",
-            "definitionCN": "为影视拍摄的试镜录像。"
-          }
-        ]
-      }
-    ]
-  },
-  "mnemonics": {
-    "normalIntro": {
-      "en": "audition is a hearing: audi for listen, -tion for the act, first of ears, then of judges.",
-      "cn": "audition 就是一场「听审」：audi 表「听」，-tion 表行为——先属于耳朵，后属于考官。"
-    },
-    "normal": [
-      { "en": "audi + tion: the act of hearing, exactly like edition is the act of giving out.", "cn": "audi + tion：听的行为，正如 edition 是刊行的行为。" },
-      { "en": "An audition is literally a hearing before the people who decide.", "cn": "试演的字面义就是在裁决者面前「受审听」。" },
-      { "en": "The family: audible, audience, auditorium, audition, auditory.", "cn": "同族词：audible、audience、auditorium、audition、auditory。" },
-      { "en": "audition for a role is the set verb pattern to memorize.", "cn": "audition for a role 是值得记牢的动词搭配。" },
-      { "en": "In science, audition just means hearing, no stage required.", "cn": "在科学语境里，audition 就指听觉，与舞台无关。" }
-    ],
-    "abstract": [
-      { "en": "Picture one chair, one spotlight, and three silent ears behind a table.", "cn": "想象一把椅子、一束追光，和桌后三只沉默的耳朵。" },
-      { "en": "The word holds its breath before the first note.", "cn": "这个词在第一个音符前屏住呼吸。" },
-      { "en": "Audition is a door that opens only for a performed minute.", "cn": "audition 是一扇只为一段表演敞开一分钟的门。" }
-    ]
-  },
-  "examples": [
-    { "en": "He practiced the monologue for weeks before the audition.", "cn": "试演前他花了数周练习那段独白。" },
-    { "en": "Over a thousand singers auditioned for the talent show.", "cn": "上千名歌手报名参加了选秀节目的试音。" },
-    { "en": "Age slowly dulls the sense of audition.", "cn": "听觉会随年龄增长而逐渐迟钝。" }
-  ],
-  "dict_mnemonic": {
-    "note": "谐音记忆 · 非词源",
-    "text": "「奥迪逊」——开着奥迪去参加比赛，第一个上场试音",
-    "word": "audition"
-  },
-  "root": "出自拉丁语 auditio「听；倾听」（动词 audire「听」的分词词干 audit- + 抽象名词后缀 -io），16 世纪进入英语时指听觉与正式接见，19 世纪末引申为「测试表演」；与 audience、audio、audible 同属「听」词族，词源确凿。",
-  "sensesIntro": {
-    "en": "Eight senses trace one noun from ears to stage: hearing itself, a formal hearing, and the judged performance the theater made of it.",
-    "cn": "八个义项追溯一个名词从耳朵走向舞台的轨迹：听觉本身、正式接见，以及戏剧界由此造出的测试表演。"
-  },
-  "semanticMap": {
-    "core": {
-      "en": "CORE IMAGE: a performed minute laid before judging ears.",
-      "cn": "核心意象：一段表演被呈递到裁决的耳朵面前。"
-    },
-    "chain": ["TO HEAR", "AN ACT OF HEARING", "A FORMAL HEARING", "A JUDGED PERFORMANCE", "A TWO-WAY VERB", "A TEST FOR ANYTHING"],
-    "branches": [
-      { "senses": "01 · 05", "en": "THE STAGE SIDE: trial performances for actors and musicians.", "cn": "舞台一面：演员与乐手的测试表演。" },
-      { "senses": "02 · 03", "en": "THE VERB SIDE: to audition and to audition someone.", "cn": "动词一面：参加试演与试演某人。" },
-      { "senses": "04 · 08", "en": "THE SCIENCE SIDE: hearing as a measured sense.", "cn": "科学一面：作为可测官能的听觉。" },
-      { "senses": "06", "en": "THE OLD SIDE: a formal hearing before power.", "cn": "旧义一面：在权势面前的正式接见。" },
-      { "senses": "07", "en": "THE EXTENDED SIDE: life's crises as auditions for character.", "cn": "引申一面：人生的危机成为品格的试演。" }
-    ]
-  },
-  "affixes": {
-    "intro": {
-      "en": "audition is the stem audit- plus -ion, the Latin way to name an act; the same stem powers auditory and auditor.",
-      "cn": "audition 由词干 audit- 加 -ion 构成，这是拉丁语为「行为」命名的方式；同一词干也支撑着 auditory 与 auditor。"
-    },
-    "latinIntro": {
-      "en": "Latin audire, to hear, anchors the family: audible, audience, audio, auditory, auditorium, audition.",
-      "cn": "拉丁语 audire「听」统率词族：audible、audience、audio、auditory、auditorium、audition。"
-    },
-    "items": [
-      { "word": "audire", "structure": "Latin verb", "meaning": "to hear", "meaningCN": "听", "example": "audire eum", "exampleCN": "听他说" },
-      { "word": "auditio", "structure": "audit- + -io", "meaning": "a hearing, a listening", "meaningCN": "听；倾听", "example": "auditio in classical Latin", "exampleCN": "古典拉丁语中的 auditio" },
-      { "word": "-tion", "structure": "noun suffix via French", "meaning": "act or result of", "meaningCN": "表行为或结果的名词词尾", "example": "action, edition, audition", "exampleCN": "行动、刊行、听审" },
-      { "word": "auditory", "structure": "audit- + -ory", "meaning": "relating to hearing", "meaningCN": "听觉的", "example": "auditory memory", "exampleCN": "听觉记忆" },
-      { "word": "audience", "structure": "audient- + -ia", "meaning": "listeners; a hearing", "meaningCN": "听众；接见", "example": "a live audience", "exampleCN": "现场观众" },
-      { "word": "audiology", "structure": "audio + -logy", "meaning": "the science of hearing", "meaningCN": "听力学", "example": "a clinic of audiology", "exampleCN": "听力门诊" },
-      { "word": "auditor", "structure": "audit- + -or", "meaning": "a listener; later, one who examines accounts", "meaningCN": "听者；后指审计员", "example": "the state auditor", "exampleCN": "州审计员" },
-      { "word": "audible", "structure": "audit- + -able", "meaning": "able to be heard", "meaningCN": "听得见的", "example": "an audible warning", "exampleCN": "听得见的警报" }
-    ],
-    "latinEntries": [
-      { "word": "auditio", "structure": "Latin noun", "meaning": "a hearing", "meaningCN": "听；倾听" },
-      { "word": "audire", "structure": "Latin verb", "meaning": "to hear", "meaningCN": "听" }
-    ]
   }
-}
+]

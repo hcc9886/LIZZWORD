@@ -1,1097 +1,4132 @@
 [
   {
-    "word": "current",
-    "pos": "adjective",
-    "meaning_zh": "当前的"
-  },
-  {
-    "word": "academic",
-    "pos": "adjective",
-    "meaning_zh": "学术的"
-  },
-  {
-    "word": "manufacture",
+    "word": "detect",
     "pos": "verb",
-    "meaning_zh": "制造"
+    "meaning_zh": "察觉"
   },
   {
-    "word": "nicely",
-    "pos": "adverb",
-    "meaning_zh": "很好地"
-  },
-  {
-    "word": "origin",
+    "word": "production",
     "pos": "noun",
-    "meaning_zh": "起源"
+    "meaning_zh": "生产"
   },
   {
-    "word": "phase",
+    "word": "weakness",
     "pos": "noun",
-    "meaning_zh": "阶段"
+    "meaning_zh": "虚弱"
   },
   {
-    "word": "slight",
+    "word": "suggestion",
+    "pos": "noun",
+    "meaning_zh": "建议"
+  },
+  {
+    "word": "latter",
     "pos": "adjective",
-    "meaning_zh": "轻微的"
+    "meaning_zh": "后者的"
   },
   {
-    "word": "award",
-    "pos": "noun",
-    "meaning_zh": "奖"
-  },
-  {
-    "word": "allowance",
-    "pos": "noun",
-    "meaning_zh": "津贴"
-  },
-  {
-    "word": "dump",
-    "pos": "verb",
-    "meaning_zh": "倾倒"
-  },
-  {
-    "word": "unlikely",
-    "pos": "adjective",
-    "meaning_zh": "不太可能的"
-  },
-  {
-    "word": "cupboard",
-    "pos": "noun",
-    "meaning_zh": "碗柜"
-  },
-  {
-    "word": "aware",
-    "pos": "adjective",
-    "meaning_zh": "意识到的"
-  },
-  {
-    "word": "climate",
-    "pos": "noun",
-    "meaning_zh": "气候"
-  },
-  {
-    "word": "imply",
-    "pos": "verb",
-    "meaning_zh": "暗示"
-  },
-  {
-    "word": "garlic",
-    "pos": "noun",
-    "meaning_zh": "大蒜"
-  },
-  {
-    "word": "preparation",
-    "pos": "noun",
-    "meaning_zh": "准备"
-  },
-  {
-    "word": "bone",
-    "pos": "noun",
-    "meaning_zh": "骨头"
-  },
-  {
-    "word": "remove",
-    "pos": "vt",
-    "meaning_zh": "移开"
-  },
-  {
-    "word": "aside",
-    "pos": "adverb",
-    "meaning_zh": "在旁边"
-  },
-  {
-    "word": "union",
-    "pos": "noun",
-    "meaning_zh": "联合"
-  },
-  {
-    "word": "enhance",
-    "pos": "verb",
-    "meaning_zh": "提高"
-  },
-  {
-    "word": "surprisingly",
-    "pos": "adverb",
-    "meaning_zh": "出奇地"
-  },
-  {
-    "word": "organic",
-    "pos": "noun",
-    "meaning_zh": "有机的"
-  },
-  {
-    "word": "arrest",
-    "pos": "verb",
-    "meaning_zh": "逮捕"
-  },
-  {
-    "word": "precisely",
-    "pos": "adverb",
-    "meaning_zh": "精确地"
-  },
-  {
-    "word": "keen",
-    "pos": "adjective",
-    "meaning_zh": "热切的"
-  },
-  {
-    "word": "series",
-    "pos": "noun",
-    "meaning_zh": "系列"
-  },
-  {
-    "word": "restore",
-    "pos": "verb",
-    "meaning_zh": "恢复"
-  },
-  {
-    "word": "unfortunately",
-    "pos": "adverb",
-    "meaning_zh": "不幸地"
-  },
-  {
-    "word": "elect",
-    "pos": "verb",
-    "meaning_zh": "选举"
-  },
-  {
-    "word": "sum",
-    "pos": "noun",
-    "meaning_zh": "金额"
-  },
-  {
-    "word": "core",
-    "pos": "noun",
-    "meaning_zh": "核心"
-  },
-  {
-    "word": "gather",
-    "pos": "verb",
-    "meaning_zh": "聚集"
-  },
-  {
-    "word": "electric",
-    "pos": "adjective",
-    "meaning_zh": "电的"
-  },
-  {
-    "word": "recommend",
-    "pos": "verb",
-    "meaning_zh": "推荐"
-  },
-  {
-    "word": "currency",
-    "pos": "noun",
-    "meaning_zh": "货币"
-  },
-  {
-    "word": "stiff",
-    "pos": "adjective",
-    "meaning_zh": "硬的"
-  },
-  {
-    "word": "carpet",
-    "pos": "noun",
-    "meaning_zh": "地毯"
-  },
-  {
-    "word": "uniform",
-    "pos": "noun",
-    "meaning_zh": "制服"
-  },
-  {
-    "word": "intervention",
-    "pos": "noun",
-    "meaning_zh": "干预"
-  },
-  {
-    "word": "sole",
-    "pos": "adjective",
-    "meaning_zh": "唯一的"
-  },
-  {
-    "word": "mass",
-    "pos": "noun",
-    "meaning_zh": "团块"
-  },
-  {
-    "word": "manufacturer",
-    "pos": "noun",
-    "meaning_zh": "制造商"
-  },
-  {
-    "word": "daft",
-    "pos": "adjective",
-    "meaning_zh": "愚蠢的"
-  },
-  {
-    "word": "cereal",
-    "pos": "noun",
-    "meaning_zh": "谷类作物"
-  },
-  {
-    "word": "tourist",
-    "pos": "noun",
-    "meaning_zh": "游客"
-  },
-  {
-    "word": "prompt",
-    "pos": "adjective",
-    "meaning_zh": "迅速的"
-  },
-  {
-    "word": "rescue",
-    "pos": "verb",
-    "meaning_zh": "营救"
-  },
-  {
-    "word": "sin",
-    "pos": "noun",
-    "meaning_zh": "罪孽"
-  },
-  {
-    "word": "dull",
-    "pos": "adjective",
-    "meaning_zh": "乏味的"
-  },
-  {
-    "word": "strength",
-    "pos": "noun",
-    "meaning_zh": "力量"
-  },
-  {
-    "word": "jam",
-    "pos": "noun",
-    "meaning_zh": "果酱"
-  },
-  {
-    "word": "entirely",
+    "word": "totally",
     "pos": "adverb",
     "meaning_zh": "完全地"
   },
   {
-    "word": "nasty",
-    "pos": "adjective",
-    "meaning_zh": "令人厌恶的"
+    "word": "storage",
+    "pos": "noun",
+    "meaning_zh": "贮藏"
   },
   {
-    "word": "male",
-    "pos": "adjective",
-    "meaning_zh": "男性的"
+    "word": "leadership",
+    "pos": "noun",
+    "meaning_zh": "领导"
   },
   {
-    "word": "transform",
+    "word": "ministry",
+    "pos": "noun",
+    "meaning_zh": "部"
+  },
+  {
+    "word": "patience",
+    "pos": "noun",
+    "meaning_zh": "耐心"
+  },
+  {
+    "word": "urge",
     "pos": "verb",
-    "meaning_zh": "使变形"
+    "meaning_zh": "催促"
   },
   {
-    "word": "fortunate",
+    "word": "foundation",
+    "pos": "noun",
+    "meaning_zh": "基础"
+  },
+  {
+    "word": "pursue",
+    "pos": "verb",
+    "meaning_zh": "追求"
+  },
+  {
+    "word": "fundamental",
     "pos": "adjective",
-    "meaning_zh": "幸运的"
+    "meaning_zh": "基本的"
   },
   {
-    "word": "brief",
-    "pos": "adjective",
-    "meaning_zh": "简短的"
+    "word": "minister",
+    "pos": "noun",
+    "meaning_zh": "部长"
   },
   {
-    "word": "thus",
+    "word": "region",
+    "pos": "noun",
+    "meaning_zh": "地区"
+  },
+  {
+    "word": "pint",
+    "pos": "noun",
+    "meaning_zh": "品脱（容量单位）"
+  },
+  {
+    "word": "strongly",
     "pos": "adverb",
-    "meaning_zh": "因此"
+    "meaning_zh": "强烈地"
   },
   {
-    "word": "combination",
-    "pos": "noun",
-    "meaning_zh": "结合"
-  },
-  {
-    "word": "unbelievable",
+    "word": "massive",
     "pos": "adjective",
-    "meaning_zh": "难以置信的"
+    "meaning_zh": "巨大的"
   },
   {
-    "word": "transfer",
+    "word": "military",
+    "pos": "adjective",
+    "meaning_zh": "军事的"
+  },
+  {
+    "word": "investigation",
+    "pos": "noun",
+    "meaning_zh": "调查"
+  },
+  {
+    "word": "sheet",
+    "pos": "noun",
+    "meaning_zh": "床单"
+  },
+  {
+    "word": "sort",
+    "pos": "noun",
+    "meaning_zh": "种类"
+  },
+  {
+    "word": "employer",
+    "pos": "noun",
+    "meaning_zh": "雇主"
+  },
+  {
+    "word": "struggle",
     "pos": "verb",
-    "meaning_zh": "转移"
+    "meaning_zh": "挣扎"
   },
   {
-    "word": "relevant",
-    "pos": "adjective",
-    "meaning_zh": "相关的"
-  },
-  {
-    "word": "visual",
-    "pos": "adjective",
-    "meaning_zh": "视觉的、看得见的"
-  },
-  {
-    "word": "injury",
+    "word": "breast",
     "pos": "noun",
-    "meaning_zh": "伤害"
+    "meaning_zh": "乳房"
   },
   {
-    "word": "mud",
+    "word": "fuel",
     "pos": "noun",
-    "meaning_zh": "泥"
+    "meaning_zh": "燃料"
   },
   {
-    "word": "strengthen",
+    "word": "midnight",
+    "pos": "noun",
+    "meaning_zh": "午夜"
+  },
+  {
+    "word": "jumper",
+    "pos": "noun",
+    "meaning_zh": "套头毛衣"
+  },
+  {
+    "word": "arrange",
     "pos": "verb",
-    "meaning_zh": "加强"
+    "meaning_zh": "安排"
   },
   {
-    "word": "terror",
+    "word": "entertainment",
     "pos": "noun",
-    "meaning_zh": "恐怖"
+    "meaning_zh": "娱乐"
   },
   {
-    "word": "impression",
-    "pos": "noun",
-    "meaning_zh": "印象"
+    "word": "constant",
+    "pos": "adjective",
+    "meaning_zh": "不断的"
   },
   {
-    "word": "builder",
-    "pos": "noun",
-    "meaning_zh": "建造者"
+    "word": "naked",
+    "pos": "adjective",
+    "meaning_zh": "裸体的"
   },
   {
-    "word": "assure",
+    "word": "ruin",
     "pos": "verb",
-    "meaning_zh": "向……保证"
+    "meaning_zh": "毁灭"
   },
   {
-    "word": "feature",
+    "word": "layer",
     "pos": "noun",
-    "meaning_zh": "特征"
+    "meaning_zh": "层"
   },
   {
-    "word": "suspicious",
-    "pos": "adjective",
-    "meaning_zh": "可疑的"
-  },
-  {
-    "word": "misery",
+    "word": "conclusion",
     "pos": "noun",
-    "meaning_zh": "痛苦"
+    "meaning_zh": "结论"
   },
   {
-    "word": "overall",
+    "word": "democratic",
     "pos": "adjective",
-    "meaning_zh": "全面的"
+    "meaning_zh": "民主的"
   },
   {
-    "word": "rely",
-    "pos": "vi",
-    "meaning_zh": "依赖"
+    "word": "evil",
+    "pos": "adjective",
+    "meaning_zh": "邪恶的"
   },
   {
-    "word": "otherwise",
+    "word": "index",
+    "pos": "noun",
+    "meaning_zh": "索引"
+  },
+  {
+    "word": "spin",
+    "pos": "verb",
+    "meaning_zh": "旋转"
+  },
+  {
+    "word": "respond",
+    "pos": "verb",
+    "meaning_zh": "回答"
+  },
+  {
+    "word": "improvement",
+    "pos": "noun",
+    "meaning_zh": "改进"
+  },
+  {
+    "word": "architect",
+    "pos": "noun",
+    "meaning_zh": "建筑师"
+  },
+  {
+    "word": "tunnel",
+    "pos": "noun",
+    "meaning_zh": "隧道"
+  },
+  {
+    "word": "soil",
+    "pos": "noun",
+    "meaning_zh": "土壤"
+  },
+  {
+    "word": "upper",
+    "pos": "adjective",
+    "meaning_zh": "上面的"
+  },
+  {
+    "word": "assignment",
+    "pos": "noun",
+    "meaning_zh": "作业"
+  },
+  {
+    "word": "false",
+    "pos": "adjective",
+    "meaning_zh": "错误的"
+  },
+  {
+    "word": "ultimately",
     "pos": "adverb",
-    "meaning_zh": "否则"
+    "meaning_zh": "最终"
   },
   {
-    "word": "load",
+    "word": "fund",
     "pos": "noun",
-    "meaning_zh": "负荷"
+    "meaning_zh": "基金"
   },
   {
-    "word": "lump",
-    "pos": "noun",
-    "meaning_zh": "块"
-  },
-  {
-    "word": "imagination",
-    "pos": "noun",
-    "meaning_zh": "想象力"
-  },
-  {
-    "word": "psychological",
+    "word": "unfortunate",
     "pos": "adjective",
-    "meaning_zh": "心理的"
+    "meaning_zh": "不幸的"
   },
   {
-    "word": "sector",
+    "word": "tank",
     "pos": "noun",
-    "meaning_zh": "部门"
+    "meaning_zh": "水箱"
   },
   {
-    "word": "fortune",
-    "pos": "noun",
-    "meaning_zh": "运气"
-  },
-  {
-    "word": "narrow",
-    "pos": "adjective",
-    "meaning_zh": "狭窄的"
-  },
-  {
-    "word": "loss",
-    "pos": "noun",
-    "meaning_zh": "丧失"
-  },
-  {
-    "word": "physically",
-    "pos": "adverb",
-    "meaning_zh": "身体上"
-  },
-  {
-    "word": "obvious",
-    "pos": "adjective",
-    "meaning_zh": "明显的"
-  },
-  {
-    "word": "truly",
-    "pos": "adverb",
-    "meaning_zh": "真正地"
-  },
-  {
-    "word": "crucial",
-    "pos": "adjective",
-    "meaning_zh": "至关重要的"
-  },
-  {
-    "word": "option",
-    "pos": "noun",
-    "meaning_zh": "选择"
-  },
-  {
-    "word": "numerous",
-    "pos": "adjective",
-    "meaning_zh": "许多的"
-  },
-  {
-    "word": "contemporary",
-    "pos": "adjective",
-    "meaning_zh": "当代的"
-  },
-  {
-    "word": "due",
-    "pos": "adjective",
-    "meaning_zh": "预定的"
-  },
-  {
-    "word": "permit",
-    "pos": "verb",
-    "meaning_zh": "允许"
-  },
-  {
-    "word": "stick",
-    "pos": "noun",
-    "meaning_zh": "棍"
-  },
-  {
-    "word": "darkness",
-    "pos": "noun",
-    "meaning_zh": "黑暗"
-  },
-  {
-    "word": "medieval",
-    "pos": "adjective",
-    "meaning_zh": "中世纪的"
-  },
-  {
-    "word": "stuff",
-    "pos": "noun",
-    "meaning_zh": "东西"
-  },
-  {
-    "word": "visitor",
-    "pos": "noun",
-    "meaning_zh": "访客、来访者"
-  },
-  {
-    "word": "credit",
-    "pos": "noun",
-    "meaning_zh": "赊账"
-  },
-  {
-    "word": "cope",
-    "pos": "verb",
-    "meaning_zh": "应对"
-  },
-  {
-    "word": "sausage",
-    "pos": "noun",
-    "meaning_zh": "香肠"
-  },
-  {
-    "word": "argument",
-    "pos": "noun",
-    "meaning_zh": "争论"
-  },
-  {
-    "word": "odds",
-    "pos": "noun",
-    "meaning_zh": "可能性"
-  },
-  {
-    "word": "somewhere",
-    "pos": "adverb",
-    "meaning_zh": "在某处"
-  },
-  {
-    "word": "lorry",
-    "pos": "noun",
-    "meaning_zh": "卡车"
-  },
-  {
-    "word": "soul",
-    "pos": "noun",
-    "meaning_zh": "灵魂"
-  },
-  {
-    "word": "bunch",
-    "pos": "noun",
-    "meaning_zh": "束，串"
-  },
-  {
-    "word": "tape",
-    "pos": "noun",
-    "meaning_zh": "胶带"
-  },
-  {
-    "word": "suffer",
-    "pos": "verb",
-    "meaning_zh": "遭受"
-  },
-  {
-    "word": "mall",
-    "pos": "noun",
-    "meaning_zh": "购物中心"
-  },
-  {
-    "word": "chemist",
-    "pos": "noun",
-    "meaning_zh": "化学家"
-  },
-  {
-    "word": "assessment",
-    "pos": "noun",
-    "meaning_zh": "评估"
-  },
-  {
-    "word": "ultimate",
-    "pos": "adjective",
-    "meaning_zh": "最终的"
-  },
-  {
-    "word": "seriously",
-    "pos": "adverb",
-    "meaning_zh": "认真地"
-  },
-  {
-    "word": "fancy",
-    "pos": "adjective",
-    "meaning_zh": "幻想"
-  },
-  {
-    "word": "substance",
-    "pos": "noun",
-    "meaning_zh": "物质"
-  },
-  {
-    "word": "loan",
-    "pos": "noun",
-    "meaning_zh": "贷款"
-  },
-  {
-    "word": "territory",
-    "pos": "noun",
-    "meaning_zh": "领土"
-  },
-  {
-    "word": "preserve",
-    "pos": "vt",
-    "meaning_zh": "保存"
-  },
-  {
-    "word": "mode",
-    "pos": "noun",
-    "meaning_zh": "方式"
-  },
-  {
-    "word": "conviction",
-    "pos": "noun",
-    "meaning_zh": "定罪"
-  },
-  {
-    "word": "maintenance",
-    "pos": "noun",
-    "meaning_zh": "维护"
-  },
-  {
-    "word": "vague",
-    "pos": "adjective",
-    "meaning_zh": "含糊的"
-  },
-  {
-    "word": "harm",
-    "pos": "noun",
-    "meaning_zh": "伤害"
-  },
-  {
-    "word": "expose",
-    "pos": "verb",
-    "meaning_zh": "使暴露"
-  },
-  {
-    "word": "engine",
-    "pos": "noun",
-    "meaning_zh": "发动机"
-  },
-  {
-    "word": "straw",
-    "pos": "noun",
-    "meaning_zh": "稻草"
-  },
-  {
-    "word": "appearance",
-    "pos": "noun",
-    "meaning_zh": "出现"
-  },
-  {
-    "word": "soap",
-    "pos": "noun",
-    "meaning_zh": "肥皂"
-  },
-  {
-    "word": "gosh",
-    "pos": "interj",
-    "meaning_zh": "天哪"
-  },
-  {
-    "word": "fuss",
-    "pos": "noun",
-    "meaning_zh": "大惊小怪"
-  },
-  {
-    "word": "disgust",
-    "pos": "noun",
-    "meaning_zh": "厌恶"
-  },
-  {
-    "word": "vulnerable",
-    "pos": "adjective",
-    "meaning_zh": "易受伤害的"
-  },
-  {
-    "word": "buyer",
-    "pos": "noun",
-    "meaning_zh": "买家"
-  },
-  {
-    "word": "cellphone",
-    "pos": "noun",
-    "meaning_zh": "手机"
-  },
-  {
-    "word": "straightforward",
-    "pos": "adjective",
-    "meaning_zh": "简单的"
-  },
-  {
-    "word": "politician",
-    "pos": "noun",
-    "meaning_zh": "政治家"
-  },
-  {
-    "word": "prosecution",
-    "pos": "noun",
-    "meaning_zh": "起诉"
-  },
-  {
-    "word": "governor",
-    "pos": "noun",
-    "meaning_zh": "州长"
-  },
-  {
-    "word": "sight",
-    "pos": "noun",
-    "meaning_zh": "视力"
-  },
-  {
-    "word": "directly",
-    "pos": "adverb",
-    "meaning_zh": "直接地"
-  },
-  {
-    "word": "formally",
-    "pos": "adverb",
-    "meaning_zh": "正式地"
-  },
-  {
-    "word": "ease",
-    "pos": "noun",
-    "meaning_zh": "容易"
-  },
-  {
-    "word": "mate",
-    "pos": "noun",
-    "meaning_zh": "配偶"
-  },
-  {
-    "word": "airline",
-    "pos": "noun",
-    "meaning_zh": "航空公司"
-  },
-  {
-    "word": "launch",
-    "pos": "verb",
-    "meaning_zh": "发射"
-  },
-  {
-    "word": "immediate",
-    "pos": "adjective",
-    "meaning_zh": "立即的"
-  },
-  {
-    "word": "wander",
-    "pos": "verb",
-    "meaning_zh": "漫游"
-  },
-  {
-    "word": "survival",
-    "pos": "noun",
-    "meaning_zh": "幸存"
-  },
-  {
-    "word": "bucket",
-    "pos": "noun",
-    "meaning_zh": "桶"
-  },
-  {
-    "word": "symbol",
-    "pos": "noun",
-    "meaning_zh": "象征"
-  },
-  {
-    "word": "lord",
-    "pos": "noun",
-    "meaning_zh": "领主"
-  },
-  {
-    "word": "remark",
-    "pos": "vt",
-    "meaning_zh": "评论说"
-  },
-  {
-    "word": "previous",
-    "pos": "adjective",
-    "meaning_zh": "以前的"
-  },
-  {
-    "word": "cancer",
-    "pos": "noun",
-    "meaning_zh": "癌症"
-  },
-  {
-    "word": "permanent",
-    "pos": "adjective",
-    "meaning_zh": "永久的"
-  },
-  {
-    "word": "enterprise",
-    "pos": "noun",
-    "meaning_zh": "企业"
-  },
-  {
-    "word": "theatre",
-    "pos": "noun",
-    "meaning_zh": "戏院"
-  },
-  {
-    "word": "accommodation",
-    "pos": "noun",
-    "meaning_zh": "住处"
-  },
-  {
-    "word": "panic",
-    "pos": "noun",
-    "meaning_zh": "恐慌"
-  },
-  {
-    "word": "column",
-    "pos": "noun",
-    "meaning_zh": "柱"
-  },
-  {
-    "word": "announcement",
-    "pos": "noun",
-    "meaning_zh": "公告"
-  },
-  {
-    "word": "tight",
-    "pos": "adjective",
-    "meaning_zh": "紧的"
-  },
-  {
-    "word": "aircraft",
-    "pos": "noun",
-    "meaning_zh": "航空器"
-  },
-  {
-    "word": "beard",
-    "pos": "noun",
-    "meaning_zh": "胡须"
-  },
-  {
-    "word": "label",
-    "pos": "noun",
-    "meaning_zh": "标签"
-  },
-  {
-    "word": "prayer",
-    "pos": "noun",
-    "meaning_zh": "祷告"
-  },
-  {
-    "word": "amount",
-    "pos": "noun",
-    "meaning_zh": "数量"
-  },
-  {
-    "word": "unemployed",
-    "pos": "adjective",
-    "meaning_zh": "失业的"
-  },
-  {
-    "word": "submit",
-    "pos": "verb",
-    "meaning_zh": "提交"
-  },
-  {
-    "word": "expand",
-    "pos": "verb",
-    "meaning_zh": "扩大"
-  },
-  {
-    "word": "pipe",
-    "pos": "noun",
-    "meaning_zh": "管子"
-  },
-  {
-    "word": "charity",
-    "pos": "noun",
-    "meaning_zh": "慈善"
-  },
-  {
-    "word": "resignation",
-    "pos": "noun",
-    "meaning_zh": "辞职"
-  },
-  {
-    "word": "giant",
-    "pos": "noun",
-    "meaning_zh": "巨人"
-  },
-  {
-    "word": "code",
-    "pos": "noun",
-    "meaning_zh": "代码"
-  },
-  {
-    "word": "innocent",
-    "pos": "adjective",
-    "meaning_zh": "无辜的"
-  },
-  {
-    "word": "delivery",
-    "pos": "noun",
-    "meaning_zh": "投递"
-  },
-  {
-    "word": "input",
-    "pos": "noun",
-    "meaning_zh": "输入"
-  },
-  {
-    "word": "throughout",
-    "pos": "preposition",
-    "meaning_zh": "遍及"
-  },
-  {
-    "word": "envelope",
-    "pos": "noun",
-    "meaning_zh": "信封"
-  },
-  {
-    "word": "ashamed",
-    "pos": "adjective",
-    "meaning_zh": "羞愧的"
-  },
-  {
-    "word": "insurance",
-    "pos": "noun",
-    "meaning_zh": "保险"
-  },
-  {
-    "word": "enquiry",
+    "word": "inquiry",
     "pos": "noun",
     "meaning_zh": "询问"
   },
   {
-    "word": "inflation",
-    "pos": "noun",
-    "meaning_zh": "通货膨胀"
+    "word": "adopt",
+    "pos": "vt",
+    "meaning_zh": "收养"
   },
   {
-    "word": "specifically",
+    "word": "underneath",
+    "pos": "preposition",
+    "meaning_zh": "在……底下"
+  },
+  {
+    "word": "heaven",
+    "pos": "noun",
+    "meaning_zh": "天堂"
+  },
+  {
+    "word": "deserve",
+    "pos": "verb",
+    "meaning_zh": "值得"
+  },
+  {
+    "word": "generally",
     "pos": "adverb",
-    "meaning_zh": "明确地"
+    "meaning_zh": "通常"
   },
   {
-    "word": "range",
+    "word": "demonstration",
     "pos": "noun",
-    "meaning_zh": "范围"
+    "meaning_zh": "示威游行"
   },
   {
-    "word": "export",
-    "pos": "verb",
-    "meaning_zh": "出口"
+    "word": "brick",
+    "pos": "noun",
+    "meaning_zh": "砖"
   },
   {
-    "word": "design",
-    "pos": "verb",
-    "meaning_zh": "设计"
+    "word": "steel",
+    "pos": "noun",
+    "meaning_zh": "钢"
   },
   {
-    "word": "impressive",
+    "word": "absolute",
     "pos": "adjective",
-    "meaning_zh": "令人印象深刻的"
+    "meaning_zh": "绝对的"
   },
   {
-    "word": "weekly",
+    "word": "link",
+    "pos": "noun",
+    "meaning_zh": "链环"
+  },
+  {
+    "word": "steam",
+    "pos": "noun",
+    "meaning_zh": "蒸汽"
+  },
+  {
+    "word": "artificial",
     "pos": "adjective",
-    "meaning_zh": "每周的"
+    "meaning_zh": "人造的"
   },
   {
-    "word": "mood",
+    "word": "promotion",
     "pos": "noun",
-    "meaning_zh": "心情"
+    "meaning_zh": "晋升"
   },
   {
-    "word": "statement",
+    "word": "taxi",
     "pos": "noun",
-    "meaning_zh": "陈述"
+    "meaning_zh": "出租汽车"
   },
   {
-    "word": "photograph",
+    "word": "meanwhile",
+    "pos": "adverb",
+    "meaning_zh": "与此同时"
+  },
+  {
+    "word": "presume",
+    "pos": "vt",
+    "meaning_zh": "假定"
+  },
+  {
+    "word": "slightly",
+    "pos": "adverb",
+    "meaning_zh": "稍微"
+  },
+  {
+    "word": "somebody",
+    "pos": "pronoun",
+    "meaning_zh": "某人"
+  },
+  {
+    "word": "attraction",
     "pos": "noun",
-    "meaning_zh": "照片"
+    "meaning_zh": "吸引力"
   },
   {
-    "word": "operator",
+    "word": "publish",
+    "pos": "verb",
+    "meaning_zh": "出版"
+  },
+  {
+    "word": "web",
     "pos": "noun",
-    "meaning_zh": "操作员"
+    "meaning_zh": "网"
   },
   {
-    "word": "closet",
+    "word": "stranger",
     "pos": "noun",
-    "meaning_zh": "壁橱"
+    "meaning_zh": "陌生人"
   },
   {
-    "word": "employ",
+    "word": "variation",
+    "pos": "noun",
+    "meaning_zh": "变化"
+  },
+  {
+    "word": "remains",
+    "pos": "noun",
+    "meaning_zh": "残余"
+  },
+  {
+    "word": "release",
+    "pos": "verb",
+    "meaning_zh": "释放"
+  },
+  {
+    "word": "readily",
+    "pos": "adverb",
+    "meaning_zh": "乐意地"
+  },
+  {
+    "word": "measure",
+    "pos": "verb",
+    "meaning_zh": "测量"
+  },
+  {
+    "word": "intend",
+    "pos": "verb",
+    "meaning_zh": "打算"
+  },
+  {
+    "word": "steep",
+    "pos": "adjective",
+    "meaning_zh": "陡峭的"
+  },
+  {
+    "word": "solution",
+    "pos": "noun",
+    "meaning_zh": "解决办法"
+  },
+  {
+    "word": "access",
+    "pos": "noun",
+    "meaning_zh": "通道"
+  },
+  {
+    "word": "import",
+    "pos": "verb",
+    "meaning_zh": "进口"
+  },
+  {
+    "word": "directory",
+    "pos": "noun",
+    "meaning_zh": "名录"
+  },
+  {
+    "word": "dismiss",
+    "pos": "verb",
+    "meaning_zh": "解雇"
+  },
+  {
+    "word": "select",
+    "pos": "verb",
+    "meaning_zh": "挑选"
+  },
+  {
+    "word": "towards",
+    "pos": "preposition",
+    "meaning_zh": "朝向"
+  },
+  {
+    "word": "sink",
+    "pos": "noun",
+    "meaning_zh": "洗涤槽"
+  },
+  {
+    "word": "wed",
+    "pos": "verb",
+    "meaning_zh": "娶"
+  },
+  {
+    "word": "institution",
+    "pos": "noun",
+    "meaning_zh": "机构"
+  },
+  {
+    "word": "discount",
+    "pos": "noun",
+    "meaning_zh": "折扣"
+  },
+  {
+    "word": "enthusiastic",
+    "pos": "adjective",
+    "meaning_zh": "热情的"
+  },
+  {
+    "word": "psychology",
+    "pos": "noun",
+    "meaning_zh": "心理学"
+  },
+  {
+    "word": "reality",
+    "pos": "noun",
+    "meaning_zh": "现实"
+  },
+  {
+    "word": "sore",
+    "pos": "adjective",
+    "meaning_zh": "疼痛的"
+  },
+  {
+    "word": "presentation",
+    "pos": "noun",
+    "meaning_zh": "演示"
+  },
+  {
+    "word": "darling",
+    "pos": "noun",
+    "meaning_zh": "亲爱的"
+  },
+  {
+    "word": "democracy",
+    "pos": "noun",
+    "meaning_zh": "民主"
+  },
+  {
+    "word": "parcel",
+    "pos": "noun",
+    "meaning_zh": "包裹"
+  },
+  {
+    "word": "employee",
+    "pos": "noun",
+    "meaning_zh": "雇员"
+  },
+  {
+    "word": "shortly",
+    "pos": "adverb",
+    "meaning_zh": "不久"
+  },
+  {
+    "word": "industrial",
+    "pos": "adjective",
+    "meaning_zh": "工业的"
+  },
+  {
+    "word": "steak",
+    "pos": "noun",
+    "meaning_zh": "牛排"
+  },
+  {
+    "word": "focus",
+    "pos": "noun",
+    "meaning_zh": "焦点"
+  },
+  {
+    "word": "basis",
+    "pos": "noun",
+    "meaning_zh": "基础"
+  },
+  {
+    "word": "resistance",
+    "pos": "noun",
+    "meaning_zh": "抵抗"
+  },
+  {
+    "word": "elevator",
+    "pos": "noun",
+    "meaning_zh": "电梯"
+  },
+  {
+    "word": "propose",
+    "pos": "verb",
+    "meaning_zh": "提议"
+  },
+  {
+    "word": "involve",
+    "pos": "verb",
+    "meaning_zh": "涉及"
+  },
+  {
+    "word": "similarly",
+    "pos": "adverb",
+    "meaning_zh": "同样地"
+  },
+  {
+    "word": "decent",
+    "pos": "adjective",
+    "meaning_zh": "像样的"
+  },
+  {
+    "word": "involvement",
+    "pos": "noun",
+    "meaning_zh": "参与"
+  },
+  {
+    "word": "heater",
+    "pos": "noun",
+    "meaning_zh": "加热器"
+  },
+  {
+    "word": "average",
+    "pos": "noun",
+    "meaning_zh": "平均数"
+  },
+  {
+    "word": "anyhow",
+    "pos": "adverb",
+    "meaning_zh": "无论如何"
+  },
+  {
+    "word": "string",
+    "pos": "noun",
+    "meaning_zh": "细绳"
+  },
+  {
+    "word": "vision",
+    "pos": "noun",
+    "meaning_zh": "视力"
+  },
+  {
+    "word": "recognize",
+    "pos": "verb",
+    "meaning_zh": "认出"
+  },
+  {
+    "word": "elsewhere",
+    "pos": "adverb",
+    "meaning_zh": "在别处"
+  },
+  {
+    "word": "league",
+    "pos": "noun",
+    "meaning_zh": "联赛"
+  },
+  {
+    "word": "tricky",
+    "pos": "adjective",
+    "meaning_zh": "棘手的"
+  },
+  {
+    "word": "depression",
+    "pos": "noun",
+    "meaning_zh": "抑郁"
+  },
+  {
+    "word": "definite",
+    "pos": "adjective",
+    "meaning_zh": "明确的"
+  },
+  {
+    "word": "proposal",
+    "pos": "noun",
+    "meaning_zh": "提议"
+  },
+  {
+    "word": "curtain",
+    "pos": "noun",
+    "meaning_zh": "窗帘"
+  },
+  {
+    "word": "sympathy",
+    "pos": "noun",
+    "meaning_zh": "同情"
+  },
+  {
+    "word": "surface",
+    "pos": "noun",
+    "meaning_zh": "表面"
+  },
+  {
+    "word": "incorporate",
+    "pos": "verb",
+    "meaning_zh": "包含"
+  },
+  {
+    "word": "variety",
+    "pos": "noun",
+    "meaning_zh": "多样性、变化"
+  },
+  {
+    "word": "financial",
+    "pos": "adjective",
+    "meaning_zh": "金融的"
+  },
+  {
+    "word": "crash",
+    "pos": "verb",
+    "meaning_zh": "碰撞"
+  },
+  {
+    "word": "obviously",
+    "pos": "adverb",
+    "meaning_zh": "明显地"
+  },
+  {
+    "word": "attract",
+    "pos": "verb",
+    "meaning_zh": "吸引"
+  },
+  {
+    "word": "bless",
+    "pos": "verb",
+    "meaning_zh": "祝福"
+  },
+  {
+    "word": "gasoline",
+    "pos": "noun",
+    "meaning_zh": "汽油"
+  },
+  {
+    "word": "presumably",
+    "pos": "adverb",
+    "meaning_zh": "据推测"
+  },
+  {
+    "word": "exist",
+    "pos": "verb",
+    "meaning_zh": "存在"
+  },
+  {
+    "word": "practically",
+    "pos": "adverb",
+    "meaning_zh": "几乎"
+  },
+  {
+    "word": "gain",
+    "pos": "verb",
+    "meaning_zh": "获得"
+  },
+  {
+    "word": "apology",
+    "pos": "noun",
+    "meaning_zh": "道歉"
+  },
+  {
+    "word": "source",
+    "pos": "noun",
+    "meaning_zh": "来源"
+  },
+  {
+    "word": "valuable",
+    "pos": "adjective",
+    "meaning_zh": "有价值的"
+  },
+  {
+    "word": "hell",
+    "pos": "noun",
+    "meaning_zh": "地狱"
+  },
+  {
+    "word": "highlight",
+    "pos": "noun",
+    "meaning_zh": "最精彩的部分"
+  },
+  {
+    "word": "indication",
+    "pos": "noun",
+    "meaning_zh": "迹象"
+  },
+  {
+    "word": "retire",
+    "pos": "verb",
+    "meaning_zh": "退休"
+  },
+  {
+    "word": "contribute",
+    "pos": "verb",
+    "meaning_zh": "贡献"
+  },
+  {
+    "word": "economic",
+    "pos": "adjective",
+    "meaning_zh": "经济的"
+  },
+  {
+    "word": "pregnant",
+    "pos": "adjective",
+    "meaning_zh": "怀孕的"
+  },
+  {
+    "word": "reform",
+    "pos": "vt",
+    "meaning_zh": "改革"
+  },
+  {
+    "word": "funeral",
+    "pos": "noun",
+    "meaning_zh": "葬礼"
+  },
+  {
+    "word": "prior",
+    "pos": "adjective",
+    "meaning_zh": "先前的"
+  },
+  {
+    "word": "folk",
+    "pos": "noun",
+    "meaning_zh": "人们"
+  },
+  {
+    "word": "initially",
+    "pos": "adverb",
+    "meaning_zh": "最初"
+  },
+  {
+    "word": "impact",
+    "pos": "noun",
+    "meaning_zh": "影响"
+  },
+  {
+    "word": "reception",
+    "pos": "noun",
+    "meaning_zh": "接待"
+  },
+  {
+    "word": "admit",
+    "pos": "vt",
+    "meaning_zh": "承认"
+  },
+  {
+    "word": "rub",
+    "pos": "verb",
+    "meaning_zh": "擦"
+  },
+  {
+    "word": "considerable",
+    "pos": "adjective",
+    "meaning_zh": "相当大的"
+  },
+  {
+    "word": "application",
+    "pos": "noun",
+    "meaning_zh": "申请"
+  },
+  {
+    "word": "pill",
+    "pos": "noun",
+    "meaning_zh": "药丸"
+  },
+  {
+    "word": "tablet",
+    "pos": "noun",
+    "meaning_zh": "药片"
+  },
+  {
+    "word": "interpret",
+    "pos": "verb",
+    "meaning_zh": "解释"
+  },
+  {
+    "word": "script",
+    "pos": "noun",
+    "meaning_zh": "剧本"
+  },
+  {
+    "word": "scene",
+    "pos": "noun",
+    "meaning_zh": "场面"
+  },
+  {
+    "word": "landscape",
+    "pos": "noun",
+    "meaning_zh": "风景"
+  },
+  {
+    "word": "root",
+    "pos": "noun",
+    "meaning_zh": "根"
+  },
+  {
+    "word": "trend",
+    "pos": "noun",
+    "meaning_zh": "趋势"
+  },
+  {
+    "word": "reverse",
+    "pos": "verb",
+    "meaning_zh": "反向"
+  },
+  {
+    "word": "error",
+    "pos": "noun",
+    "meaning_zh": "错误"
+  },
+  {
+    "word": "consistent",
+    "pos": "adjective",
+    "meaning_zh": "一贯的"
+  },
+  {
+    "word": "employment",
+    "pos": "noun",
+    "meaning_zh": "就业"
+  },
+  {
+    "word": "creature",
+    "pos": "noun",
+    "meaning_zh": "生物"
+  },
+  {
+    "word": "alter",
+    "pos": "vt",
+    "meaning_zh": "改变"
+  },
+  {
+    "word": "tendency",
+    "pos": "noun",
+    "meaning_zh": "倾向"
+  },
+  {
+    "word": "largely",
+    "pos": "adverb",
+    "meaning_zh": "主要地"
+  },
+  {
+    "word": "spot",
+    "pos": "noun",
+    "meaning_zh": "地点"
+  },
+  {
+    "word": "considerably",
+    "pos": "adverb",
+    "meaning_zh": "相当大地"
+  },
+  {
+    "word": "corridor",
+    "pos": "noun",
+    "meaning_zh": "走廊"
+  },
+  {
+    "word": "native",
+    "pos": "adjective",
+    "meaning_zh": "出生的"
+  },
+  {
+    "word": "nuisance",
+    "pos": "noun",
+    "meaning_zh": "麻烦事"
+  },
+  {
+    "word": "persuade",
+    "pos": "vt",
+    "meaning_zh": "说服"
+  },
+  {
+    "word": "apply",
+    "pos": "verb",
+    "meaning_zh": "申请"
+  },
+  {
+    "word": "indeed",
+    "pos": "adverb",
+    "meaning_zh": "确实"
+  },
+  {
+    "word": "official",
+    "pos": "adjective",
+    "meaning_zh": "官方的"
+  },
+  {
+    "word": "suck",
+    "pos": "verb",
+    "meaning_zh": "吸"
+  },
+  {
+    "word": "exception",
+    "pos": "noun",
+    "meaning_zh": "例外"
+  },
+  {
+    "word": "nut",
+    "pos": "noun",
+    "meaning_zh": "坚果"
+  },
+  {
+    "word": "net",
+    "pos": "noun",
+    "meaning_zh": "网"
+  },
+  {
+    "word": "tongue",
+    "pos": "noun",
+    "meaning_zh": "舌头"
+  },
+  {
+    "word": "strike",
+    "pos": "verb",
+    "meaning_zh": "打"
+  },
+  {
+    "word": "advertisement",
+    "pos": "noun",
+    "meaning_zh": "广告"
+  },
+  {
+    "word": "trousers",
+    "pos": "noun",
+    "meaning_zh": "裤子"
+  },
+  {
+    "word": "impose",
+    "pos": "verb",
+    "meaning_zh": "强加"
+  },
+  {
+    "word": "particular",
+    "pos": "adjective",
+    "meaning_zh": "特定的"
+  },
+  {
+    "word": "nevertheless",
+    "pos": "adverb",
+    "meaning_zh": "然而"
+  },
+  {
+    "word": "ethnic",
+    "pos": "adjective",
+    "meaning_zh": "民族的"
+  },
+  {
+    "word": "significant",
+    "pos": "adjective",
+    "meaning_zh": "重要的"
+  },
+  {
+    "word": "reserve",
+    "pos": "verb",
+    "meaning_zh": "预订"
+  },
+  {
+    "word": "advance",
+    "pos": "verb",
+    "meaning_zh": "前进"
+  },
+  {
+    "word": "licence",
+    "pos": "noun",
+    "meaning_zh": "执照"
+  },
+  {
+    "word": "roughly",
+    "pos": "adverb",
+    "meaning_zh": "大约"
+  },
+  {
+    "word": "pile",
+    "pos": "noun",
+    "meaning_zh": "堆"
+  },
+  {
+    "word": "deposit",
+    "pos": "verb",
+    "meaning_zh": "存入"
+  },
+  {
+    "word": "poverty",
+    "pos": "noun",
+    "meaning_zh": "贫穷"
+  },
+  {
+    "word": "conventional",
+    "pos": "adjective",
+    "meaning_zh": "传统的"
+  },
+  {
+    "word": "negotiation",
+    "pos": "noun",
+    "meaning_zh": "谈判"
+  },
+  {
+    "word": "straight",
+    "pos": "adjective",
+    "meaning_zh": "直的"
+  },
+  {
+    "word": "reaction",
+    "pos": "noun",
+    "meaning_zh": "反应"
+  },
+  {
+    "word": "account",
+    "pos": "noun",
+    "meaning_zh": "账户"
+  },
+  {
+    "word": "inspector",
+    "pos": "noun",
+    "meaning_zh": "检查员"
+  },
+  {
+    "word": "resource",
+    "pos": "noun",
+    "meaning_zh": "资源"
+  },
+  {
+    "word": "chapter",
+    "pos": "noun",
+    "meaning_zh": "章"
+  },
+  {
+    "word": "platform",
+    "pos": "noun",
+    "meaning_zh": "平台"
+  },
+  {
+    "word": "contract",
+    "pos": "noun",
+    "meaning_zh": "合同"
+  },
+  {
+    "word": "contrast",
+    "pos": "noun",
+    "meaning_zh": "对比"
+  },
+  {
+    "word": "primarily",
+    "pos": "adverb",
+    "meaning_zh": "主要地"
+  },
+  {
+    "word": "distinct",
+    "pos": "adjective",
+    "meaning_zh": "清楚的"
+  },
+  {
+    "word": "consumption",
+    "pos": "noun",
+    "meaning_zh": "消耗"
+  },
+  {
+    "word": "initial",
+    "pos": "adjective",
+    "meaning_zh": "最初的"
+  },
+  {
+    "word": "invest",
+    "pos": "verb",
+    "meaning_zh": "投资"
+  },
+  {
+    "word": "determination",
+    "pos": "noun",
+    "meaning_zh": "决心"
+  },
+  {
+    "word": "regime",
+    "pos": "noun",
+    "meaning_zh": "政权"
+  },
+  {
+    "word": "empire",
+    "pos": "noun",
+    "meaning_zh": "帝国"
+  },
+  {
+    "word": "resident",
+    "pos": "noun",
+    "meaning_zh": "居民"
+  },
+  {
+    "word": "intellectual",
+    "pos": "adjective",
+    "meaning_zh": "智力的"
+  },
+  {
+    "word": "offence",
+    "pos": "noun",
+    "meaning_zh": "罪行"
+  },
+  {
+    "word": "audience",
+    "pos": "noun",
+    "meaning_zh": "观众，听众"
+  },
+  {
+    "word": "register",
+    "pos": "noun",
+    "meaning_zh": "登记册"
+  },
+  {
+    "word": "circuit",
+    "pos": "noun",
+    "meaning_zh": "电路"
+  },
+  {
+    "word": "addition",
+    "pos": "noun",
+    "meaning_zh": "添加物"
+  },
+  {
+    "word": "bake",
+    "pos": "verb",
+    "meaning_zh": "烘烤"
+  },
+  {
+    "word": "committee",
+    "pos": "noun",
+    "meaning_zh": "委员会"
+  },
+  {
+    "word": "lean",
+    "pos": "verb",
+    "meaning_zh": "倾斜"
+  },
+  {
+    "word": "disturb",
+    "pos": "verb",
+    "meaning_zh": "打扰"
+  },
+  {
+    "word": "responsibility",
+    "pos": "noun",
+    "meaning_zh": "责任"
+  },
+  {
+    "word": "recovery",
+    "pos": "noun",
+    "meaning_zh": "康复"
+  },
+  {
+    "word": "merely",
+    "pos": "adverb",
+    "meaning_zh": "仅仅"
+  },
+  {
+    "word": "volume",
+    "pos": "noun",
+    "meaning_zh": "音量"
+  },
+  {
+    "word": "discipline",
+    "pos": "noun",
+    "meaning_zh": "纪律"
+  },
+  {
+    "word": "acceptable",
+    "pos": "adjective",
+    "meaning_zh": "可接受的"
+  },
+  {
+    "word": "equal",
+    "pos": "adjective",
+    "meaning_zh": "相等的"
+  },
+  {
+    "word": "bang",
+    "pos": "noun",
+    "meaning_zh": "砰的一声"
+  },
+  {
+    "word": "prospect",
+    "pos": "noun",
+    "meaning_zh": "前景"
+  },
+  {
+    "word": "lid",
+    "pos": "noun",
+    "meaning_zh": "盖子"
+  },
+  {
+    "word": "creation",
+    "pos": "noun",
+    "meaning_zh": "创造"
+  },
+  {
+    "word": "rival",
+    "pos": "noun",
+    "meaning_zh": "对手"
+  },
+  {
+    "word": "valley",
+    "pos": "noun",
+    "meaning_zh": "山谷"
+  },
+  {
+    "word": "indicate",
+    "pos": "verb",
+    "meaning_zh": "表明"
+  },
+  {
+    "word": "bath",
+    "pos": "noun",
+    "meaning_zh": "洗澡"
+  },
+  {
+    "word": "convince",
+    "pos": "verb",
+    "meaning_zh": "使确信"
+  },
+  {
+    "word": "emerge",
+    "pos": "vi",
+    "meaning_zh": "出现"
+  },
+  {
+    "word": "vast",
+    "pos": "adjective",
+    "meaning_zh": "巨大的"
+  },
+  {
+    "word": "conscious",
+    "pos": "adjective",
+    "meaning_zh": "有意识的"
+  },
+  {
+    "word": "route",
+    "pos": "noun",
+    "meaning_zh": "路线"
+  },
+  {
+    "word": "target",
+    "pos": "noun",
+    "meaning_zh": "目标"
+  },
+  {
+    "word": "arise",
+    "pos": "verb",
+    "meaning_zh": "出现"
+  },
+  {
+    "word": "limit",
+    "pos": "noun",
+    "meaning_zh": "限度"
+  },
+  {
+    "word": "external",
+    "pos": "adjective",
+    "meaning_zh": "外部的"
+  },
+  {
+    "word": "commit",
+    "pos": "verb",
+    "meaning_zh": "承诺"
+  },
+  {
+    "word": "bounce",
+    "pos": "verb",
+    "meaning_zh": "弹跳"
+  },
+  {
+    "word": "informal",
+    "pos": "adjective",
+    "meaning_zh": "非正式的"
+  },
+  {
+    "word": "adviser",
+    "pos": "noun",
+    "meaning_zh": "顾问"
+  },
+  {
+    "word": "cabinet",
+    "pos": "noun",
+    "meaning_zh": "橱柜"
+  },
+  {
+    "word": "gang",
+    "pos": "noun",
+    "meaning_zh": "一帮"
+  },
+  {
+    "word": "description",
+    "pos": "noun",
+    "meaning_zh": "描述"
+  },
+  {
+    "word": "distribution",
+    "pos": "noun",
+    "meaning_zh": "分发"
+  },
+  {
+    "word": "crown",
+    "pos": "noun",
+    "meaning_zh": "王冠"
+  },
+  {
+    "word": "rip",
+    "pos": "verb",
+    "meaning_zh": "撕"
+  },
+  {
+    "word": "spoil",
+    "pos": "verb",
+    "meaning_zh": "破坏"
+  },
+  {
+    "word": "consideration",
+    "pos": "noun",
+    "meaning_zh": "考虑"
+  },
+  {
+    "word": "competitive",
+    "pos": "adjective",
+    "meaning_zh": "竞争的"
+  },
+  {
+    "word": "extreme",
+    "pos": "adjective",
+    "meaning_zh": "极端的"
+  },
+  {
+    "word": "residential",
+    "pos": "adjective",
+    "meaning_zh": "住宅的"
+  },
+  {
+    "word": "attractive",
+    "pos": "adjective",
+    "meaning_zh": "好看的"
+  },
+  {
+    "word": "feedback",
+    "pos": "noun",
+    "meaning_zh": "反馈"
+  },
+  {
+    "word": "broad",
+    "pos": "adjective",
+    "meaning_zh": "宽的"
+  },
+  {
+    "word": "anticipate",
+    "pos": "vt",
+    "meaning_zh": "预料"
+  },
+  {
+    "word": "rob",
+    "pos": "verb",
+    "meaning_zh": "抢劫"
+  },
+  {
+    "word": "quid",
+    "pos": "noun",
+    "meaning_zh": "一英镑（英国俚语）"
+  },
+  {
+    "word": "site",
+    "pos": "noun",
+    "meaning_zh": "地点"
+  },
+  {
+    "word": "crisis",
+    "pos": "noun",
+    "meaning_zh": "危机"
+  },
+  {
+    "word": "aim",
+    "pos": "noun",
+    "meaning_zh": "目标"
+  },
+  {
+    "word": "entitle",
+    "pos": "verb",
+    "meaning_zh": "使有权"
+  },
+  {
+    "word": "combine",
+    "pos": "verb",
+    "meaning_zh": "结合"
+  },
+  {
+    "word": "legal",
+    "pos": "adjective",
+    "meaning_zh": "法律的"
+  },
+  {
+    "word": "connection",
+    "pos": "noun",
+    "meaning_zh": "连接"
+  },
+  {
+    "word": "victory",
+    "pos": "noun",
+    "meaning_zh": "胜利"
+  },
+  {
+    "word": "messy",
+    "pos": "adjective",
+    "meaning_zh": "凌乱的"
+  },
+  {
+    "word": "declare",
+    "pos": "verb",
+    "meaning_zh": "宣布"
+  },
+  {
+    "word": "intelligence",
+    "pos": "noun",
+    "meaning_zh": "智力"
+  },
+  {
+    "word": "treatment",
+    "pos": "noun",
+    "meaning_zh": "治疗"
+  },
+  {
+    "word": "nation",
+    "pos": "noun",
+    "meaning_zh": "民族"
+  },
+  {
+    "word": "court",
+    "pos": "noun",
+    "meaning_zh": "法院"
+  },
+  {
+    "word": "commission",
+    "pos": "noun",
+    "meaning_zh": "佣金"
+  },
+  {
+    "word": "accuse",
+    "pos": "verb",
+    "meaning_zh": "指责"
+  },
+  {
+    "word": "budget",
+    "pos": "noun",
+    "meaning_zh": "预算"
+  },
+  {
+    "word": "revolution",
+    "pos": "noun",
+    "meaning_zh": "革命"
+  },
+  {
+    "word": "profession",
+    "pos": "noun",
+    "meaning_zh": "职业"
+  },
+  {
+    "word": "critic",
+    "pos": "noun",
+    "meaning_zh": "批评家"
+  },
+  {
+    "word": "resort",
+    "pos": "noun",
+    "meaning_zh": "度假胜地"
+  },
+  {
+    "word": "success",
+    "pos": "noun",
+    "meaning_zh": "成功"
+  },
+  {
+    "word": "temporary",
+    "pos": "adjective",
+    "meaning_zh": "临时的"
+  },
+  {
+    "word": "spray",
+    "pos": "noun",
+    "meaning_zh": "喷雾"
+  },
+  {
+    "word": "absolutely",
+    "pos": "adverb",
+    "meaning_zh": "完全地"
+  },
+  {
+    "word": "characteristic",
+    "pos": "noun",
+    "meaning_zh": "特征"
+  },
+  {
+    "word": "basically",
+    "pos": "adverb",
+    "meaning_zh": "基本上"
+  },
+  {
+    "word": "sequence",
+    "pos": "noun",
+    "meaning_zh": "顺序"
+  },
+  {
+    "word": "appreciate",
+    "pos": "verb",
+    "meaning_zh": "感激"
+  },
+  {
+    "word": "craft",
+    "pos": "noun",
+    "meaning_zh": "手艺"
+  },
+  {
+    "word": "automatically",
+    "pos": "adverb",
+    "meaning_zh": "自动地"
+  },
+  {
+    "word": "familiar",
+    "pos": "adjective",
+    "meaning_zh": "熟悉的"
+  },
+  {
+    "word": "automatic",
+    "pos": "adjective",
+    "meaning_zh": "自动的"
+  },
+  {
+    "word": "curious",
+    "pos": "adjective",
+    "meaning_zh": "好奇的"
+  },
+  {
+    "word": "tyre",
+    "pos": "noun",
+    "meaning_zh": "轮胎"
+  },
+  {
+    "word": "partly",
+    "pos": "adverb",
+    "meaning_zh": "部分地"
+  },
+  {
+    "word": "disc",
+    "pos": "noun",
+    "meaning_zh": "光盘"
+  },
+  {
+    "word": "barrier",
+    "pos": "noun",
+    "meaning_zh": "障碍物"
+  },
+  {
+    "word": "crack",
+    "pos": "verb",
+    "meaning_zh": "裂缝"
+  },
+  {
+    "word": "unique",
+    "pos": "adjective",
+    "meaning_zh": "独一无二的"
+  },
+  {
+    "word": "base",
+    "pos": "noun",
+    "meaning_zh": "基础"
+  },
+  {
+    "word": "defeat",
+    "pos": "verb",
+    "meaning_zh": "击败"
+  },
+  {
+    "word": "welfare",
+    "pos": "noun",
+    "meaning_zh": "福利"
+  },
+  {
+    "word": "purely",
+    "pos": "adverb",
+    "meaning_zh": "仅仅"
+  },
+  {
+    "word": "efficiency",
+    "pos": "noun",
+    "meaning_zh": "效率"
+  },
+  {
+    "word": "enthusiasm",
+    "pos": "noun",
+    "meaning_zh": "热情"
+  },
+  {
+    "word": "log",
+    "pos": "noun",
+    "meaning_zh": "原木"
+  },
+  {
+    "word": "vary",
+    "pos": "verb",
+    "meaning_zh": "变化"
+  },
+  {
+    "word": "construct",
+    "pos": "verb",
+    "meaning_zh": "建造"
+  },
+  {
+    "word": "rid",
+    "pos": "verb",
+    "meaning_zh": "摆脱"
+  },
+  {
+    "word": "aid",
+    "pos": "noun",
+    "meaning_zh": "帮助"
+  },
+  {
+    "word": "apparently",
+    "pos": "adverb",
+    "meaning_zh": "看来"
+  },
+  {
+    "word": "continuous",
+    "pos": "adjective",
+    "meaning_zh": "连续的"
+  },
+  {
+    "word": "behalf",
+    "pos": "noun",
+    "meaning_zh": "代表"
+  },
+  {
+    "word": "equivalent",
+    "pos": "adjective",
+    "meaning_zh": "相等的"
+  },
+  {
+    "word": "tackle",
+    "pos": "verb",
+    "meaning_zh": "处理"
+  },
+  {
+    "word": "software",
+    "pos": "noun",
+    "meaning_zh": "软件"
+  },
+  {
+    "word": "failure",
+    "pos": "noun",
+    "meaning_zh": "失败"
+  },
+  {
+    "word": "attach",
+    "pos": "verb",
+    "meaning_zh": "系上"
+  },
+  {
+    "word": "contact",
+    "pos": "noun",
+    "meaning_zh": "接触"
+  },
+  {
+    "word": "selection",
+    "pos": "noun",
+    "meaning_zh": "选择"
+  },
+  {
+    "word": "button",
+    "pos": "noun",
+    "meaning_zh": "纽扣"
+  },
+  {
+    "word": "opponent",
+    "pos": "noun",
+    "meaning_zh": "对手"
+  },
+  {
+    "word": "lecture",
+    "pos": "noun",
+    "meaning_zh": "讲座"
+  },
+  {
+    "word": "raw",
+    "pos": "adjective",
+    "meaning_zh": "生的"
+  },
+  {
+    "word": "screw",
+    "pos": "noun",
+    "meaning_zh": "螺丝"
+  },
+  {
+    "word": "outcome",
+    "pos": "noun",
+    "meaning_zh": "结果"
+  },
+  {
+    "word": "lip",
+    "pos": "noun",
+    "meaning_zh": "嘴唇"
+  },
+  {
+    "word": "shelter",
+    "pos": "noun",
+    "meaning_zh": "避难所"
+  },
+  {
+    "word": "ordinary",
+    "pos": "adjective",
+    "meaning_zh": "普通的"
+  },
+  {
+    "word": "rough",
+    "pos": "adjective",
+    "meaning_zh": "粗糙的"
+  },
+  {
+    "word": "disk",
+    "pos": "noun",
+    "meaning_zh": "圆盘"
+  },
+  {
+    "word": "arrival",
+    "pos": "noun",
+    "meaning_zh": "到达"
+  },
+  {
+    "word": "attack",
+    "pos": "verb",
+    "meaning_zh": "攻击"
+  },
+  {
+    "word": "affect",
+    "pos": "verb",
+    "meaning_zh": "影响"
+  },
+  {
+    "word": "rural",
+    "pos": "adjective",
+    "meaning_zh": "乡村的"
+  },
+  {
+    "word": "possess",
+    "pos": "verb",
+    "meaning_zh": "拥有"
+  },
+  {
+    "word": "sharply",
+    "pos": "adverb",
+    "meaning_zh": "急剧地"
+  },
+  {
+    "word": "concentration",
+    "pos": "noun",
+    "meaning_zh": "专注"
+  },
+  {
+    "word": "dirt",
+    "pos": "noun",
+    "meaning_zh": "污垢"
+  },
+  {
+    "word": "version",
+    "pos": "noun",
+    "meaning_zh": "版本"
+  },
+  {
+    "word": "profile",
+    "pos": "noun",
+    "meaning_zh": "侧面轮廓"
+  },
+  {
+    "word": "possession",
+    "pos": "noun",
+    "meaning_zh": "拥有"
+  },
+  {
+    "word": "quit",
+    "pos": "verb",
+    "meaning_zh": "停止"
+  },
+  {
+    "word": "fortnight",
+    "pos": "noun",
+    "meaning_zh": "两星期"
+  },
+  {
+    "word": "distinguish",
+    "pos": "verb",
+    "meaning_zh": "区分"
+  },
+  {
+    "word": "gap",
+    "pos": "noun",
+    "meaning_zh": "缺口"
+  },
+  {
+    "word": "diet",
+    "pos": "noun",
+    "meaning_zh": "饮食"
+  },
+  {
+    "word": "bacon",
+    "pos": "noun",
+    "meaning_zh": "培根"
+  },
+  {
+    "word": "pretend",
+    "pos": "verb",
+    "meaning_zh": "假装"
+  },
+  {
+    "word": "protest",
+    "pos": "noun",
+    "meaning_zh": "抗议"
+  },
+  {
+    "word": "capable",
+    "pos": "adjective",
+    "meaning_zh": "有能力的"
+  },
+  {
+    "word": "gas",
+    "pos": "noun",
+    "meaning_zh": "气体"
+  },
+  {
+    "word": "system",
+    "pos": "noun",
+    "meaning_zh": "系统"
+  },
+  {
+    "word": "cherry",
+    "pos": "noun",
+    "meaning_zh": "樱桃"
+  },
+  {
+    "word": "literary",
+    "pos": "adjective",
+    "meaning_zh": "文学的"
+  },
+  {
+    "word": "suitable",
+    "pos": "adjective",
+    "meaning_zh": "合适的"
+  },
+  {
+    "word": "briefly",
+    "pos": "adverb",
+    "meaning_zh": "简短地"
+  },
+  {
+    "word": "surely",
+    "pos": "adverb",
+    "meaning_zh": "确实"
+  },
+  {
+    "word": "moral",
+    "pos": "adjective",
+    "meaning_zh": "道德的"
+  },
+  {
+    "word": "moreover",
+    "pos": "adverb",
+    "meaning_zh": "而且"
+  },
+  {
+    "word": "electronic",
+    "pos": "adjective",
+    "meaning_zh": "电子的"
+  },
+  {
+    "word": "benefit",
+    "pos": "noun",
+    "meaning_zh": "好处"
+  },
+  {
+    "word": "reinforce",
+    "pos": "vt",
+    "meaning_zh": "加固"
+  },
+  {
+    "word": "provision",
+    "pos": "noun",
+    "meaning_zh": "条款"
+  },
+  {
+    "word": "precise",
+    "pos": "adjective",
+    "meaning_zh": "精确的"
+  },
+  {
+    "word": "quantity",
+    "pos": "noun",
+    "meaning_zh": "数量"
+  },
+  {
+    "word": "secondary",
+    "pos": "adjective",
+    "meaning_zh": "次要的"
+  },
+  {
+    "word": "chase",
+    "pos": "verb",
+    "meaning_zh": "追赶"
+  },
+  {
+    "word": "absence",
+    "pos": "noun",
+    "meaning_zh": "缺席"
+  },
+  {
+    "word": "various",
+    "pos": "adjective",
+    "meaning_zh": "各种各样的"
+  },
+  {
+    "word": "possibility",
+    "pos": "noun",
+    "meaning_zh": "可能性"
+  },
+  {
+    "word": "spokesman",
+    "pos": "noun",
+    "meaning_zh": "发言人"
+  },
+  {
+    "word": "definitely",
+    "pos": "adverb",
+    "meaning_zh": "肯定地"
+  },
+  {
+    "word": "apparent",
+    "pos": "adjective",
+    "meaning_zh": "明显的"
+  },
+  {
+    "word": "violence",
+    "pos": "noun",
+    "meaning_zh": "暴力"
+  },
+  {
+    "word": "logical",
+    "pos": "adjective",
+    "meaning_zh": "合乎逻辑的"
+  },
+  {
+    "word": "true",
+    "pos": "adjective",
+    "meaning_zh": "真实的"
+  },
+  {
+    "word": "ownership",
+    "pos": "noun",
+    "meaning_zh": "所有权"
+  },
+  {
+    "word": "incredible",
+    "pos": "adjective",
+    "meaning_zh": "难以置信的"
+  },
+  {
+    "word": "petrol",
+    "pos": "noun",
+    "meaning_zh": "汽油"
+  },
+  {
+    "word": "delay",
+    "pos": "verb",
+    "meaning_zh": "推迟"
+  },
+  {
+    "word": "enormous",
+    "pos": "adjective",
+    "meaning_zh": "巨大的"
+  },
+  {
+    "word": "gay",
+    "pos": "adjective",
+    "meaning_zh": "快乐的"
+  },
+  {
+    "word": "mechanism",
+    "pos": "noun",
+    "meaning_zh": "机械装置"
+  },
+  {
+    "word": "buck",
+    "pos": "noun",
+    "meaning_zh": "雄鹿"
+  },
+  {
+    "word": "efficient",
+    "pos": "adjective",
+    "meaning_zh": "高效的"
+  },
+  {
+    "word": "element",
+    "pos": "noun",
+    "meaning_zh": "元素"
+  },
+  {
+    "word": "author",
+    "pos": "noun",
+    "meaning_zh": "作者，作家"
+  },
+  {
+    "word": "wardrobe",
+    "pos": "noun",
+    "meaning_zh": "衣柜"
+  },
+  {
+    "word": "emotion",
+    "pos": "noun",
+    "meaning_zh": "情感"
+  },
+  {
+    "word": "deliberately",
+    "pos": "adverb",
+    "meaning_zh": "故意地"
+  },
+  {
+    "word": "defend",
+    "pos": "verb",
+    "meaning_zh": "保卫"
+  },
+  {
+    "word": "facility",
+    "pos": "noun",
+    "meaning_zh": "设施"
+  },
+  {
+    "word": "seed",
+    "pos": "noun",
+    "meaning_zh": "种子"
+  },
+  {
+    "word": "previously",
+    "pos": "adverb",
+    "meaning_zh": "以前"
+  },
+  {
+    "word": "weight",
+    "pos": "noun",
+    "meaning_zh": "重量"
+  },
+  {
+    "word": "bid",
+    "pos": "verb",
+    "meaning_zh": "出价"
+  },
+  {
+    "word": "producer",
+    "pos": "noun",
+    "meaning_zh": "生产者"
+  },
+  {
+    "word": "realistic",
+    "pos": "adjective",
+    "meaning_zh": "现实的"
+  },
+  {
+    "word": "critical",
+    "pos": "adjective",
+    "meaning_zh": "关键的"
+  },
+  {
+    "word": "distinction",
+    "pos": "noun",
+    "meaning_zh": "区别"
+  },
+  {
+    "word": "sweep",
+    "pos": "verb",
+    "meaning_zh": "打扫"
+  },
+  {
+    "word": "network",
+    "pos": "noun",
+    "meaning_zh": "网络"
+  },
+  {
+    "word": "somewhat",
+    "pos": "adverb",
+    "meaning_zh": "有点"
+  },
+  {
+    "word": "remarkable",
+    "pos": "adjective",
+    "meaning_zh": "非凡的"
+  },
+  {
+    "word": "incredibly",
+    "pos": "adverb",
+    "meaning_zh": "难以置信地"
+  },
+  {
+    "word": "limitation",
+    "pos": "noun",
+    "meaning_zh": "限制"
+  },
+  {
+    "word": "neat",
+    "pos": "adjective",
+    "meaning_zh": "整洁的"
+  },
+  {
+    "word": "obtain",
+    "pos": "vt",
+    "meaning_zh": "获得"
+  },
+  {
+    "word": "implement",
+    "pos": "verb",
+    "meaning_zh": "实施"
+  },
+  {
+    "word": "edition",
+    "pos": "noun",
+    "meaning_zh": "版本"
+  },
+  {
+    "word": "forgive",
+    "pos": "verb",
+    "meaning_zh": "原谅"
+  },
+  {
+    "word": "constitute",
+    "pos": "verb",
+    "meaning_zh": "构成"
+  },
+  {
+    "word": "shift",
+    "pos": "verb",
+    "meaning_zh": "转移"
+  },
+  {
+    "word": "accurate",
+    "pos": "adjective",
+    "meaning_zh": "准确的"
+  },
+  {
+    "word": "useful",
+    "pos": "adjective",
+    "meaning_zh": "有用的"
+  },
+  {
+    "word": "visible",
+    "pos": "adjective",
+    "meaning_zh": "看得见的"
+  },
+  {
+    "word": "sufficient",
+    "pos": "adjective",
+    "meaning_zh": "足够的"
+  },
+  {
+    "word": "acid",
+    "pos": "noun",
+    "meaning_zh": "酸"
+  },
+  {
+    "word": "disaster",
+    "pos": "noun",
+    "meaning_zh": "灾难"
+  },
+  {
+    "word": "squad",
+    "pos": "noun",
+    "meaning_zh": "小队"
+  },
+  {
+    "word": "captain",
+    "pos": "noun",
+    "meaning_zh": "船长"
+  },
+  {
+    "word": "executive",
+    "pos": "noun",
+    "meaning_zh": "主管"
+  },
+  {
+    "word": "transportation",
+    "pos": "noun",
+    "meaning_zh": "运输"
+  },
+  {
+    "word": "scheme",
+    "pos": "noun",
+    "meaning_zh": "计划"
+  },
+  {
+    "word": "edge",
+    "pos": "noun",
+    "meaning_zh": "边缘"
+  },
+  {
+    "word": "seek",
+    "pos": "verb",
+    "meaning_zh": "寻找"
+  },
+  {
+    "word": "slide",
+    "pos": "verb",
+    "meaning_zh": "滑动"
+  },
+  {
+    "word": "election",
+    "pos": "noun",
+    "meaning_zh": "选举"
+  },
+  {
+    "word": "blame",
+    "pos": "verb",
+    "meaning_zh": "责怪"
+  },
+  {
+    "word": "princess",
+    "pos": "noun",
+    "meaning_zh": "公主"
+  },
+  {
+    "word": "react",
+    "pos": "verb",
+    "meaning_zh": "反应"
+  },
+  {
+    "word": "encounter",
+    "pos": "verb",
+    "meaning_zh": "遇到"
+  },
+  {
+    "word": "pad",
+    "pos": "noun",
+    "meaning_zh": "衬垫"
+  },
+  {
+    "word": "response",
+    "pos": "noun",
+    "meaning_zh": "回答"
+  },
+  {
+    "word": "measurement",
+    "pos": "noun",
+    "meaning_zh": "测量"
+  },
+  {
+    "word": "damage",
+    "pos": "noun",
+    "meaning_zh": "损坏"
+  },
+  {
+    "word": "implication",
+    "pos": "noun",
+    "meaning_zh": "含义"
+  },
+  {
+    "word": "relieve",
+    "pos": "vt",
+    "meaning_zh": "缓解"
+  },
+  {
+    "word": "ensure",
+    "pos": "verb",
+    "meaning_zh": "确保"
+  },
+  {
+    "word": "reference",
+    "pos": "noun",
+    "meaning_zh": "提及"
+  },
+  {
+    "word": "toast",
+    "pos": "noun",
+    "meaning_zh": "烤面包片"
+  },
+  {
+    "word": "council",
+    "pos": "noun",
+    "meaning_zh": "委员会"
+  },
+  {
+    "word": "ban",
+    "pos": "verb",
+    "meaning_zh": "禁止"
+  },
+  {
+    "word": "freeway",
+    "pos": "noun",
+    "meaning_zh": "高速公路"
+  },
+  {
+    "word": "locate",
+    "pos": "vt",
+    "meaning_zh": "找出……的位置"
+  },
+  {
+    "word": "restriction",
+    "pos": "noun",
+    "meaning_zh": "限制"
+  },
+  {
+    "word": "anxious",
+    "pos": "adjective",
+    "meaning_zh": "焦虑的"
+  },
+  {
+    "word": "religious",
+    "pos": "adjective",
+    "meaning_zh": "宗教的"
+  },
+  {
+    "word": "pub",
+    "pos": "noun",
+    "meaning_zh": "酒馆"
+  },
+  {
+    "word": "religion",
+    "pos": "noun",
+    "meaning_zh": "宗教"
+  },
+  {
+    "word": "potential",
+    "pos": "adjective",
+    "meaning_zh": "潜在的"
+  },
+  {
+    "word": "secure",
+    "pos": "adjective",
+    "meaning_zh": "牢靠的"
+  },
+  {
+    "word": "maximum",
+    "pos": "noun",
+    "meaning_zh": "最大值"
+  },
+  {
+    "word": "editor",
+    "pos": "noun",
+    "meaning_zh": "编辑"
+  },
+  {
+    "word": "consumer",
+    "pos": "noun",
+    "meaning_zh": "消费者"
+  },
+  {
+    "word": "confusion",
+    "pos": "noun",
+    "meaning_zh": "困惑"
+  },
+  {
+    "word": "tone",
+    "pos": "noun",
+    "meaning_zh": "音调"
+  },
+  {
+    "word": "blade",
+    "pos": "noun",
+    "meaning_zh": "刀刃"
+  },
+  {
+    "word": "factor",
+    "pos": "noun",
+    "meaning_zh": "因素"
+  },
+  {
+    "word": "hire",
     "pos": "verb",
     "meaning_zh": "雇用"
   },
   {
-    "word": "expectation",
-    "pos": "noun",
-    "meaning_zh": "预期"
-  },
-  {
-    "word": "therefore",
+    "word": "nowhere",
     "pos": "adverb",
-    "meaning_zh": "因此"
+    "meaning_zh": "无处"
   },
   {
-    "word": "capture",
-    "pos": "vt",
-    "meaning_zh": "俘获"
-  },
-  {
-    "word": "section",
+    "word": "punishment",
     "pos": "noun",
-    "meaning_zh": "部分"
+    "meaning_zh": "惩罚"
   },
   {
-    "word": "website",
-    "pos": "noun",
-    "meaning_zh": "网站"
-  },
-  {
-    "word": "ambition",
-    "pos": "noun",
-    "meaning_zh": "雄心"
-  },
-  {
-    "word": "strip",
+    "word": "contain",
     "pos": "verb",
-    "meaning_zh": "剥去"
+    "meaning_zh": "包含"
   },
   {
-    "word": "burst",
-    "pos": "verb",
-    "meaning_zh": "爆裂"
-  },
-  {
-    "word": "battery",
-    "pos": "noun",
-    "meaning_zh": "电池"
-  },
-  {
-    "word": "restrict",
-    "pos": "verb",
-    "meaning_zh": "限制"
-  },
-  {
-    "word": "innovation",
-    "pos": "noun",
-    "meaning_zh": "创新"
-  },
-  {
-    "word": "horrible",
+    "word": "unable",
     "pos": "adjective",
-    "meaning_zh": "可怕的"
+    "meaning_zh": "不能的"
   },
   {
-    "word": "event",
+    "word": "salary",
+    "pos": "noun",
+    "meaning_zh": "薪水"
+  },
+  {
+    "word": "liquid",
+    "pos": "adjective",
+    "meaning_zh": "液体的"
+  },
+  {
+    "word": "strategic",
+    "pos": "adjective",
+    "meaning_zh": "战略的"
+  },
+  {
+    "word": "rarely",
+    "pos": "adverb",
+    "meaning_zh": "很少"
+  },
+  {
+    "word": "component",
+    "pos": "noun",
+    "meaning_zh": "组成部分"
+  },
+  {
+    "word": "slope",
+    "pos": "noun",
+    "meaning_zh": "斜坡"
+  },
+  {
+    "word": "apologize",
+    "pos": "vi",
+    "meaning_zh": "道歉"
+  },
+  {
+    "word": "stream",
+    "pos": "noun",
+    "meaning_zh": "溪流"
+  },
+  {
+    "word": "signature",
+    "pos": "noun",
+    "meaning_zh": "签名"
+  },
+  {
+    "word": "emphasis",
+    "pos": "noun",
+    "meaning_zh": "强调"
+  },
+  {
+    "word": "county",
+    "pos": "noun",
+    "meaning_zh": "县"
+  },
+  {
+    "word": "solicitor",
+    "pos": "noun",
+    "meaning_zh": "事务律师"
+  },
+  {
+    "word": "detail",
+    "pos": "noun",
+    "meaning_zh": "细节"
+  },
+  {
+    "word": "user",
+    "pos": "noun",
+    "meaning_zh": "用户"
+  },
+  {
+    "word": "chuck",
+    "pos": "vt",
+    "meaning_zh": "扔"
+  },
+  {
+    "word": "bet",
+    "pos": "verb",
+    "meaning_zh": "打赌"
+  },
+  {
+    "word": "essential",
+    "pos": "adjective",
+    "meaning_zh": "必不可少的"
+  },
+  {
+    "word": "unlike",
+    "pos": "preposition",
+    "meaning_zh": "不像"
+  },
+  {
+    "word": "commitment",
+    "pos": "noun",
+    "meaning_zh": "承诺"
+  },
+  {
+    "word": "relate",
+    "pos": "verb",
+    "meaning_zh": "联系"
+  },
+  {
+    "word": "stair",
+    "pos": "noun",
+    "meaning_zh": "楼梯的一级"
+  },
+  {
+    "word": "stall",
+    "pos": "noun",
+    "meaning_zh": "摊位"
+  },
+  {
+    "word": "calculation",
+    "pos": "noun",
+    "meaning_zh": "计算"
+  },
+  {
+    "word": "greatly",
+    "pos": "adverb",
+    "meaning_zh": "大大地"
+  },
+  {
+    "word": "politics",
+    "pos": "noun",
+    "meaning_zh": "政治"
+  },
+  {
+    "word": "convert",
+    "pos": "verb",
+    "meaning_zh": "转变"
+  },
+  {
+    "word": "bump",
+    "pos": "verb",
+    "meaning_zh": "碰撞"
+  },
+  {
+    "word": "career",
+    "pos": "noun",
+    "meaning_zh": "职业"
+  },
+  {
+    "word": "bench",
+    "pos": "noun",
+    "meaning_zh": "长椅"
+  },
+  {
+    "word": "trainer",
+    "pos": "noun",
+    "meaning_zh": "教练"
+  },
+  {
+    "word": "significance",
+    "pos": "noun",
+    "meaning_zh": "重要性"
+  },
+  {
+    "word": "necessarily",
+    "pos": "adverb",
+    "meaning_zh": "必然地"
+  },
+  {
+    "word": "journalist",
+    "pos": "noun",
+    "meaning_zh": "记者"
+  },
+  {
+    "word": "individual",
+    "pos": "adjective",
+    "meaning_zh": "个人的"
+  },
+  {
+    "word": "incident",
     "pos": "noun",
     "meaning_zh": "事件"
   },
   {
-    "word": "depth",
+    "word": "self",
     "pos": "noun",
-    "meaning_zh": "深度"
+    "meaning_zh": "自己"
   },
   {
-    "word": "perspective",
-    "pos": "noun",
-    "meaning_zh": "观点"
+    "word": "marvellous",
+    "pos": "adjective",
+    "meaning_zh": "奇妙的"
   },
   {
-    "word": "deeply",
+    "word": "mineral",
+    "pos": "noun",
+    "meaning_zh": "矿物"
+  },
+  {
+    "word": "swap",
+    "pos": "verb",
+    "meaning_zh": "交换"
+  },
+  {
+    "word": "album",
+    "pos": "noun",
+    "meaning_zh": "音乐专辑"
+  },
+  {
+    "word": "consciousness",
+    "pos": "noun",
+    "meaning_zh": "意识"
+  },
+  {
+    "word": "interpretation",
+    "pos": "noun",
+    "meaning_zh": "解释"
+  },
+  {
+    "word": "urgent",
+    "pos": "adjective",
+    "meaning_zh": "紧急的"
+  },
+  {
+    "word": "exclude",
+    "pos": "verb",
+    "meaning_zh": "排除"
+  },
+  {
+    "word": "whereas",
+    "pos": "conjunction",
+    "meaning_zh": "然而"
+  },
+  {
+    "word": "seize",
+    "pos": "verb",
+    "meaning_zh": "抓住"
+  },
+  {
+    "word": "sensible",
+    "pos": "adjective",
+    "meaning_zh": "明智的"
+  },
+  {
+    "word": "comprise",
+    "pos": "verb",
+    "meaning_zh": "包括"
+  },
+  {
+    "word": "awareness",
+    "pos": "noun",
+    "meaning_zh": "意识"
+  },
+  {
+    "word": "derive",
+    "pos": "verb",
+    "meaning_zh": "得到"
+  },
+  {
+    "word": "successful",
+    "pos": "adjective",
+    "meaning_zh": "成功的"
+  },
+  {
+    "word": "dimension",
+    "pos": "noun",
+    "meaning_zh": "尺寸"
+  },
+  {
+    "word": "comment",
+    "pos": "noun",
+    "meaning_zh": "评论"
+  },
+  {
+    "word": "complaint",
+    "pos": "noun",
+    "meaning_zh": "抱怨"
+  },
+  {
+    "word": "appoint",
+    "pos": "verb",
+    "meaning_zh": "任命"
+  },
+  {
+    "word": "grocery",
+    "pos": "noun",
+    "meaning_zh": "食品杂货店"
+  },
+  {
+    "word": "architecture",
+    "pos": "noun",
+    "meaning_zh": "建筑学"
+  },
+  {
+    "word": "tube",
+    "pos": "noun",
+    "meaning_zh": "管"
+  },
+  {
+    "word": "advert",
+    "pos": "noun",
+    "meaning_zh": "广告（英式口语）"
+  },
+  {
+    "word": "tune",
+    "pos": "noun",
+    "meaning_zh": "曲调"
+  },
+  {
+    "word": "speaker",
+    "pos": "noun",
+    "meaning_zh": "演讲者"
+  },
+  {
+    "word": "attorney",
+    "pos": "noun",
+    "meaning_zh": "律师"
+  },
+  {
+    "word": "slip",
+    "pos": "verb",
+    "meaning_zh": "滑倒"
+  },
+  {
+    "word": "dependent",
+    "pos": "adjective",
+    "meaning_zh": "依赖的"
+  },
+  {
+    "word": "appropriate",
+    "pos": "adjective",
+    "meaning_zh": "合适的"
+  },
+  {
+    "word": "bury",
+    "pos": "verb",
+    "meaning_zh": "埋葬"
+  },
+  {
+    "word": "via",
+    "pos": "preposition",
+    "meaning_zh": "经由"
+  },
+  {
+    "word": "association",
+    "pos": "noun",
+    "meaning_zh": "协会"
+  },
+  {
+    "word": "tray",
+    "pos": "noun",
+    "meaning_zh": "托盘"
+  },
+  {
+    "word": "growth",
+    "pos": "noun",
+    "meaning_zh": "生长"
+  },
+  {
+    "word": "mobile",
+    "pos": "adjective",
+    "meaning_zh": "可移动的"
+  },
+  {
+    "word": "capacity",
+    "pos": "noun",
+    "meaning_zh": "容量"
+  },
+  {
+    "word": "singer",
+    "pos": "noun",
+    "meaning_zh": "歌手"
+  },
+  {
+    "word": "pie",
+    "pos": "noun",
+    "meaning_zh": "馅饼"
+  },
+  {
+    "word": "particularly",
     "pos": "adverb",
-    "meaning_zh": "深深地"
+    "meaning_zh": "尤其"
   },
   {
-    "word": "negative",
-    "pos": "adjective",
-    "meaning_zh": "否定的"
-  },
-  {
-    "word": "criterion",
+    "word": "daddy",
     "pos": "noun",
-    "meaning_zh": "标准"
+    "meaning_zh": "爸爸"
   },
   {
-    "word": "ideal",
-    "pos": "adjective",
-    "meaning_zh": "理想的"
+    "word": "define",
+    "pos": "verb",
+    "meaning_zh": "定义"
   },
   {
-    "word": "minor",
+    "word": "relatively",
+    "pos": "adverb",
+    "meaning_zh": "相对地"
+  },
+  {
+    "word": "traditional",
     "pos": "adjective",
-    "meaning_zh": "较小的"
+    "meaning_zh": "传统的"
+  },
+  {
+    "word": "respect",
+    "pos": "noun",
+    "meaning_zh": "尊重"
+  },
+  {
+    "word": "vote",
+    "pos": "noun",
+    "meaning_zh": "投票"
+  },
+  {
+    "word": "swear",
+    "pos": "verb",
+    "meaning_zh": "发誓"
+  },
+  {
+    "word": "kettle",
+    "pos": "noun",
+    "meaning_zh": "水壶"
+  },
+  {
+    "word": "desperate",
+    "pos": "adjective",
+    "meaning_zh": "拼命的"
+  },
+  {
+    "word": "illustrate",
+    "pos": "verb",
+    "meaning_zh": "阐明"
+  },
+  {
+    "word": "dealer",
+    "pos": "noun",
+    "meaning_zh": "经销商"
+  },
+  {
+    "word": "tidy",
+    "pos": "adjective",
+    "meaning_zh": "整洁的"
+  },
+  {
+    "word": "occasion",
+    "pos": "noun",
+    "meaning_zh": "时刻"
+  },
+  {
+    "word": "packet",
+    "pos": "noun",
+    "meaning_zh": "小包"
+  },
+  {
+    "word": "bound",
+    "pos": "adjective",
+    "meaning_zh": "一定的"
+  },
+  {
+    "word": "rhythm",
+    "pos": "noun",
+    "meaning_zh": "节奏"
+  },
+  {
+    "word": "effect",
+    "pos": "noun",
+    "meaning_zh": "结果"
+  },
+  {
+    "word": "blank",
+    "pos": "adjective",
+    "meaning_zh": "空白的"
+  },
+  {
+    "word": "demonstrate",
+    "pos": "verb",
+    "meaning_zh": "演示"
+  },
+  {
+    "word": "backwards",
+    "pos": "adverb",
+    "meaning_zh": "向后地"
+  },
+  {
+    "word": "lane",
+    "pos": "noun",
+    "meaning_zh": "小路"
+  },
+  {
+    "word": "destruction",
+    "pos": "noun",
+    "meaning_zh": "破坏"
+  },
+  {
+    "word": "occasionally",
+    "pos": "adverb",
+    "meaning_zh": "偶尔"
+  },
+  {
+    "word": "weapon",
+    "pos": "noun",
+    "meaning_zh": "武器"
+  },
+  {
+    "word": "pin",
+    "pos": "noun",
+    "meaning_zh": "大头针"
+  },
+  {
+    "word": "parliament",
+    "pos": "noun",
+    "meaning_zh": "议会"
+  },
+  {
+    "word": "structure",
+    "pos": "noun",
+    "meaning_zh": "结构"
+  },
+  {
+    "word": "reduction",
+    "pos": "noun",
+    "meaning_zh": "减少"
+  },
+  {
+    "word": "poll",
+    "pos": "noun",
+    "meaning_zh": "民意调查"
+  },
+  {
+    "word": "generation",
+    "pos": "noun",
+    "meaning_zh": "一代人"
+  },
+  {
+    "word": "pause",
+    "pos": "verb",
+    "meaning_zh": "暂停"
+  },
+  {
+    "word": "confirm",
+    "pos": "verb",
+    "meaning_zh": "确认"
+  },
+  {
+    "word": "voluntary",
+    "pos": "adjective",
+    "meaning_zh": "自愿的"
+  },
+  {
+    "word": "tile",
+    "pos": "noun",
+    "meaning_zh": "瓦片"
+  },
+  {
+    "word": "pace",
+    "pos": "noun",
+    "meaning_zh": "步速"
+  },
+  {
+    "word": "tough",
+    "pos": "adjective",
+    "meaning_zh": "坚韧的"
+  },
+  {
+    "word": "fully",
+    "pos": "adverb",
+    "meaning_zh": "完全地"
+  },
+  {
+    "word": "debate",
+    "pos": "noun",
+    "meaning_zh": "辩论"
+  },
+  {
+    "word": "premise",
+    "pos": "noun",
+    "meaning_zh": "前提"
+  },
+  {
+    "word": "nuclear",
+    "pos": "adjective",
+    "meaning_zh": "核的"
+  },
+  {
+    "word": "legislation",
+    "pos": "noun",
+    "meaning_zh": "立法"
+  },
+  {
+    "word": "alongside",
+    "pos": "preposition",
+    "meaning_zh": "在……旁边"
+  },
+  {
+    "word": "gross",
+    "pos": "adjective",
+    "meaning_zh": "总的"
+  },
+  {
+    "word": "scream",
+    "pos": "verb",
+    "meaning_zh": "尖叫"
+  },
+  {
+    "word": "economics",
+    "pos": "noun",
+    "meaning_zh": "经济学"
+  },
+  {
+    "word": "slim",
+    "pos": "adjective",
+    "meaning_zh": "苗条的"
+  },
+  {
+    "word": "reward",
+    "pos": "noun",
+    "meaning_zh": "奖励"
+  },
+  {
+    "word": "bug",
+    "pos": "noun",
+    "meaning_zh": "小虫"
+  },
+  {
+    "word": "confuse",
+    "pos": "verb",
+    "meaning_zh": "使困惑"
+  },
+  {
+    "word": "stare",
+    "pos": "verb",
+    "meaning_zh": "凝视"
+  },
+  {
+    "word": "philosophy",
+    "pos": "noun",
+    "meaning_zh": "哲学"
+  },
+  {
+    "word": "forth",
+    "pos": "adverb",
+    "meaning_zh": "向前"
+  },
+  {
+    "word": "transaction",
+    "pos": "noun",
+    "meaning_zh": "交易"
+  },
+  {
+    "word": "emergency",
+    "pos": "noun",
+    "meaning_zh": "紧急情况"
+  },
+  {
+    "word": "accompany",
+    "pos": "verb",
+    "meaning_zh": "陪伴"
+  },
+  {
+    "word": "reveal",
+    "pos": "verb",
+    "meaning_zh": "揭示"
+  },
+  {
+    "word": "acknowledge",
+    "pos": "vt",
+    "meaning_zh": "承认"
+  },
+  {
+    "word": "investment",
+    "pos": "noun",
+    "meaning_zh": "投资"
+  },
+  {
+    "word": "approval",
+    "pos": "noun",
+    "meaning_zh": "批准"
+  },
+  {
+    "word": "alcohol",
+    "pos": "noun",
+    "meaning_zh": "乙醇"
+  },
+  {
+    "word": "bar",
+    "pos": "noun",
+    "meaning_zh": "酒吧"
+  },
+  {
+    "word": "stamp",
+    "pos": "noun",
+    "meaning_zh": "邮票"
+  },
+  {
+    "word": "reduce",
+    "pos": "vt",
+    "meaning_zh": "减少"
+  },
+  {
+    "word": "surgery",
+    "pos": "noun",
+    "meaning_zh": "外科"
+  },
+  {
+    "word": "decade",
+    "pos": "noun",
+    "meaning_zh": "十年"
+  },
+  {
+    "word": "guidance",
+    "pos": "noun",
+    "meaning_zh": "指导"
+  },
+  {
+    "word": "candidate",
+    "pos": "noun",
+    "meaning_zh": "候选人"
+  },
+  {
+    "word": "stake",
+    "pos": "noun",
+    "meaning_zh": "桩"
+  },
+  {
+    "word": "income",
+    "pos": "noun",
+    "meaning_zh": "收入"
+  },
+  {
+    "word": "administrative",
+    "pos": "adjective",
+    "meaning_zh": "行政的"
+  },
+  {
+    "word": "pose",
+    "pos": "vt",
+    "meaning_zh": "造成（问题、威胁）"
+  },
+  {
+    "word": "universe",
+    "pos": "noun",
+    "meaning_zh": "宇宙"
+  },
+  {
+    "word": "confine",
+    "pos": "verb",
+    "meaning_zh": "限制"
+  },
+  {
+    "word": "initiative",
+    "pos": "noun",
+    "meaning_zh": "主动性"
+  },
+  {
+    "word": "formula",
+    "pos": "noun",
+    "meaning_zh": "公式"
+  },
+  {
+    "word": "output",
+    "pos": "noun",
+    "meaning_zh": "产量"
+  },
+  {
+    "word": "headquarters",
+    "pos": "noun",
+    "meaning_zh": "总部"
+  },
+  {
+    "word": "interaction",
+    "pos": "noun",
+    "meaning_zh": "相互作用"
+  },
+  {
+    "word": "occasional",
+    "pos": "adjective",
+    "meaning_zh": "偶尔的"
+  },
+  {
+    "word": "brilliant",
+    "pos": "adjective",
+    "meaning_zh": "杰出的"
+  },
+  {
+    "word": "ward",
+    "pos": "noun",
+    "meaning_zh": "病房"
+  },
+  {
+    "word": "gear",
+    "pos": "noun",
+    "meaning_zh": "齿轮"
+  },
+  {
+    "word": "track",
+    "pos": "noun",
+    "meaning_zh": "轨道"
+  },
+  {
+    "word": "assumption",
+    "pos": "noun",
+    "meaning_zh": "假定"
+  },
+  {
+    "word": "extraordinary",
+    "pos": "adjective",
+    "meaning_zh": "非凡的"
+  },
+  {
+    "word": "port",
+    "pos": "noun",
+    "meaning_zh": "港口"
+  },
+  {
+    "word": "vet",
+    "pos": "noun",
+    "meaning_zh": "兽医"
+  },
+  {
+    "word": "hesitate",
+    "pos": "verb",
+    "meaning_zh": "犹豫"
+  },
+  {
+    "word": "circumstance",
+    "pos": "noun",
+    "meaning_zh": "情况"
+  },
+  {
+    "word": "statistic",
+    "pos": "noun",
+    "meaning_zh": "统计数值"
+  },
+  {
+    "word": "electrical",
+    "pos": "adjective",
+    "meaning_zh": "电的"
+  },
+  {
+    "word": "gene",
+    "pos": "noun",
+    "meaning_zh": "基因"
+  },
+  {
+    "word": "ignore",
+    "pos": "verb",
+    "meaning_zh": "忽视"
+  },
+  {
+    "word": "something",
+    "pos": "pronoun",
+    "meaning_zh": "某事"
+  },
+  {
+    "word": "likely",
+    "pos": "adjective",
+    "meaning_zh": "很可能的"
+  },
+  {
+    "word": "comfort",
+    "pos": "noun",
+    "meaning_zh": "舒适"
+  },
+  {
+    "word": "subsequent",
+    "pos": "adjective",
+    "meaning_zh": "随后的"
+  },
+  {
+    "word": "single",
+    "pos": "adjective",
+    "meaning_zh": "单一的"
+  },
+  {
+    "word": "authority",
+    "pos": "noun",
+    "meaning_zh": "权力，职权"
+  },
+  {
+    "word": "divorce",
+    "pos": "noun",
+    "meaning_zh": "离婚"
+  },
+  {
+    "word": "era",
+    "pos": "noun",
+    "meaning_zh": "时代"
+  },
+  {
+    "word": "publication",
+    "pos": "noun",
+    "meaning_zh": "出版"
+  },
+  {
+    "word": "contribution",
+    "pos": "noun",
+    "meaning_zh": "贡献"
+  },
+  {
+    "word": "judgment",
+    "pos": "noun",
+    "meaning_zh": "判断力"
+  },
+  {
+    "word": "effectively",
+    "pos": "adverb",
+    "meaning_zh": "有效地"
+  },
+  {
+    "word": "despite",
+    "pos": "preposition",
+    "meaning_zh": "尽管"
+  },
+  {
+    "word": "trailer",
+    "pos": "noun",
+    "meaning_zh": "预告片"
+  },
+  {
+    "word": "treaty",
+    "pos": "noun",
+    "meaning_zh": "条约"
+  },
+  {
+    "word": "essay",
+    "pos": "noun",
+    "meaning_zh": "文章"
+  },
+  {
+    "word": "respectively",
+    "pos": "adverb",
+    "meaning_zh": "分别地"
+  },
+  {
+    "word": "refer",
+    "pos": "vt",
+    "meaning_zh": "提及"
+  },
+  {
+    "word": "observation",
+    "pos": "noun",
+    "meaning_zh": "观察"
+  },
+  {
+    "word": "scale",
+    "pos": "noun",
+    "meaning_zh": "规模"
+  },
+  {
+    "word": "appointment",
+    "pos": "noun",
+    "meaning_zh": "约会"
+  },
+  {
+    "word": "length",
+    "pos": "noun",
+    "meaning_zh": "长度"
+  },
+  {
+    "word": "definition",
+    "pos": "noun",
+    "meaning_zh": "定义"
+  },
+  {
+    "word": "install",
+    "pos": "verb",
+    "meaning_zh": "安装"
+  },
+  {
+    "word": "datum",
+    "pos": "noun",
+    "meaning_zh": "数据"
+  },
+  {
+    "word": "substantial",
+    "pos": "adjective",
+    "meaning_zh": "大量的"
+  },
+  {
+    "word": "somehow",
+    "pos": "adverb",
+    "meaning_zh": "以某种方式"
+  },
+  {
+    "word": "reject",
+    "pos": "verb",
+    "meaning_zh": "拒绝"
+  },
+  {
+    "word": "shrug",
+    "pos": "verb",
+    "meaning_zh": "耸肩"
+  },
+  {
+    "word": "complain",
+    "pos": "verb",
+    "meaning_zh": "抱怨"
+  },
+  {
+    "word": "consult",
+    "pos": "verb",
+    "meaning_zh": "咨询"
+  },
+  {
+    "word": "leisure",
+    "pos": "noun",
+    "meaning_zh": "闲暇"
+  },
+  {
+    "word": "observe",
+    "pos": "verb",
+    "meaning_zh": "观察"
+  },
+  {
+    "word": "talent",
+    "pos": "noun",
+    "meaning_zh": "天赋"
+  },
+  {
+    "word": "grateful",
+    "pos": "adjective",
+    "meaning_zh": "感激的"
+  },
+  {
+    "word": "comprehensive",
+    "pos": "adjective",
+    "meaning_zh": "全面的"
+  },
+  {
+    "word": "split",
+    "pos": "verb",
+    "meaning_zh": "劈开"
+  },
+  {
+    "word": "cushion",
+    "pos": "noun",
+    "meaning_zh": "靠垫"
+  },
+  {
+    "word": "retain",
+    "pos": "verb",
+    "meaning_zh": "保留"
+  },
+  {
+    "word": "affair",
+    "pos": "noun",
+    "meaning_zh": "事情"
+  },
+  {
+    "word": "formation",
+    "pos": "noun",
+    "meaning_zh": "形成"
+  },
+  {
+    "word": "upstairs",
+    "pos": "adverb",
+    "meaning_zh": "在楼上"
+  },
+  {
+    "word": "mere",
+    "pos": "adjective",
+    "meaning_zh": "仅仅的"
+  },
+  {
+    "word": "complex",
+    "pos": "adjective",
+    "meaning_zh": "复杂的"
+  },
+  {
+    "word": "belt",
+    "pos": "noun",
+    "meaning_zh": "腰带"
+  },
+  {
+    "word": "emphasize",
+    "pos": "vt",
+    "meaning_zh": "强调"
+  },
+  {
+    "word": "overtime",
+    "pos": "noun",
+    "meaning_zh": "加班"
+  },
+  {
+    "word": "phrase",
+    "pos": "noun",
+    "meaning_zh": "短语"
+  },
+  {
+    "word": "newly",
+    "pos": "adverb",
+    "meaning_zh": "新近"
+  },
+  {
+    "word": "engage",
+    "pos": "verb",
+    "meaning_zh": "吸引"
+  },
+  {
+    "word": "frankly",
+    "pos": "adverb",
+    "meaning_zh": "坦率地说"
+  },
+  {
+    "word": "onto",
+    "pos": "preposition",
+    "meaning_zh": "到…上面"
+  },
+  {
+    "word": "rail",
+    "pos": "noun",
+    "meaning_zh": "铁轨"
+  },
+  {
+    "word": "proceed",
+    "pos": "vi",
+    "meaning_zh": "继续进行"
+  },
+  {
+    "word": "assist",
+    "pos": "verb",
+    "meaning_zh": "帮助"
+  },
+  {
+    "word": "guarantee",
+    "pos": "verb",
+    "meaning_zh": "保证"
+  },
+  {
+    "word": "context",
+    "pos": "noun",
+    "meaning_zh": "背景"
+  },
+  {
+    "word": "hence",
+    "pos": "adverb",
+    "meaning_zh": "因此"
+  },
+  {
+    "word": "attitude",
+    "pos": "noun",
+    "meaning_zh": "态度"
+  },
+  {
+    "word": "punch",
+    "pos": "verb",
+    "meaning_zh": "用拳猛击"
+  },
+  {
+    "word": "cooker",
+    "pos": "noun",
+    "meaning_zh": "炊具"
+  },
+  {
+    "word": "presence",
+    "pos": "noun",
+    "meaning_zh": "出席"
+  },
+  {
+    "word": "proof",
+    "pos": "noun",
+    "meaning_zh": "证据"
+  },
+  {
+    "word": "constantly",
+    "pos": "adverb",
+    "meaning_zh": "不断地"
+  },
+  {
+    "word": "sauce",
+    "pos": "noun",
+    "meaning_zh": "调味汁"
+  },
+  {
+    "word": "successfully",
+    "pos": "adverb",
+    "meaning_zh": "成功地"
+  },
+  {
+    "word": "dominate",
+    "pos": "verb",
+    "meaning_zh": "支配"
+  },
+  {
+    "word": "notion",
+    "pos": "noun",
+    "meaning_zh": "概念"
+  },
+  {
+    "word": "loose",
+    "pos": "adjective",
+    "meaning_zh": "松的"
+  },
+  {
+    "word": "recommendation",
+    "pos": "noun",
+    "meaning_zh": "推荐"
+  },
+  {
+    "word": "bend",
+    "pos": "verb",
+    "meaning_zh": "弯曲"
+  },
+  {
+    "word": "extremely",
+    "pos": "adverb",
+    "meaning_zh": "极其"
+  },
+  {
+    "word": "obligation",
+    "pos": "noun",
+    "meaning_zh": "义务（良心或道德上必须履行的事）"
+  },
+  {
+    "word": "adjust",
+    "pos": "vt",
+    "meaning_zh": "调整"
+  },
+  {
+    "word": "distribute",
+    "pos": "verb",
+    "meaning_zh": "分发"
+  },
+  {
+    "word": "retirement",
+    "pos": "noun",
+    "meaning_zh": "退休"
+  },
+  {
+    "word": "suspicion",
+    "pos": "noun",
+    "meaning_zh": "怀疑"
+  },
+  {
+    "word": "mission",
+    "pos": "noun",
+    "meaning_zh": "使命"
+  },
+  {
+    "word": "naturally",
+    "pos": "adverb",
+    "meaning_zh": "自然地"
+  },
+  {
+    "word": "cottage",
+    "pos": "noun",
+    "meaning_zh": "村舍"
+  },
+  {
+    "word": "instant",
+    "pos": "noun",
+    "meaning_zh": "瞬间"
+  },
+  {
+    "word": "ridiculous",
+    "pos": "adjective",
+    "meaning_zh": "荒谬的"
+  },
+  {
+    "word": "royal",
+    "pos": "adjective",
+    "meaning_zh": "王室的"
+  },
+  {
+    "word": "content",
+    "pos": "noun",
+    "meaning_zh": "内容"
+  },
+  {
+    "word": "illegal",
+    "pos": "adjective",
+    "meaning_zh": "非法的"
+  },
+  {
+    "word": "supporter",
+    "pos": "noun",
+    "meaning_zh": "支持者"
+  },
+  {
+    "word": "virtually",
+    "pos": "adverb",
+    "meaning_zh": "几乎"
+  },
+  {
+    "word": "chop",
+    "pos": "verb",
+    "meaning_zh": "砍"
+  },
+  {
+    "word": "conclude",
+    "pos": "verb",
+    "meaning_zh": "断定"
+  },
+  {
+    "word": "female",
+    "pos": "adjective",
+    "meaning_zh": "女性的"
+  },
+  {
+    "word": "rare",
+    "pos": "adjective",
+    "meaning_zh": "稀有的"
+  },
+  {
+    "word": "intense",
+    "pos": "adjective",
+    "meaning_zh": "强烈的"
+  },
+  {
+    "word": "leather",
+    "pos": "noun",
+    "meaning_zh": "皮革"
+  },
+  {
+    "word": "cable",
+    "pos": "noun",
+    "meaning_zh": "电缆"
+  },
+  {
+    "word": "crew",
+    "pos": "noun",
+    "meaning_zh": "全体船员"
+  },
+  {
+    "word": "command",
+    "pos": "noun",
+    "meaning_zh": "命令"
+  },
+  {
+    "word": "minimum",
+    "pos": "noun",
+    "meaning_zh": "最小值"
+  },
+  {
+    "word": "demand",
+    "pos": "verb",
+    "meaning_zh": "要求"
+  },
+  {
+    "word": "debt",
+    "pos": "noun",
+    "meaning_zh": "债务"
+  },
+  {
+    "word": "switch",
+    "pos": "noun",
+    "meaning_zh": "开关"
+  },
+  {
+    "word": "highway",
+    "pos": "noun",
+    "meaning_zh": "公路"
+  },
+  {
+    "word": "toe",
+    "pos": "noun",
+    "meaning_zh": "脚趾"
+  },
+  {
+    "word": "afterwards",
+    "pos": "adverb",
+    "meaning_zh": "之后"
+  },
+  {
+    "word": "exact",
+    "pos": "adjective",
+    "meaning_zh": "精确的"
+  },
+  {
+    "word": "priority",
+    "pos": "noun",
+    "meaning_zh": "优先"
+  },
+  {
+    "word": "negotiate",
+    "pos": "vi",
+    "meaning_zh": "谈判"
+  },
+  {
+    "word": "essentially",
+    "pos": "adverb",
+    "meaning_zh": "本质上"
+  },
+  {
+    "word": "finance",
+    "pos": "noun",
+    "meaning_zh": "金融"
+  },
+  {
+    "word": "unhappy",
+    "pos": "adjective",
+    "meaning_zh": "不快乐的"
+  },
+  {
+    "word": "buddy",
+    "pos": "noun",
+    "meaning_zh": "伙伴"
+  },
+  {
+    "word": "attempt",
+    "pos": "verb",
+    "meaning_zh": "试图"
+  },
+  {
+    "word": "purchase",
+    "pos": "verb",
+    "meaning_zh": "购买"
+  },
+  {
+    "word": "van",
+    "pos": "noun",
+    "meaning_zh": "货车"
+  },
+  {
+    "word": "defence",
+    "pos": "noun",
+    "meaning_zh": "防御"
+  },
+  {
+    "word": "crop",
+    "pos": "noun",
+    "meaning_zh": "农作物"
+  },
+  {
+    "word": "pure",
+    "pos": "adjective",
+    "meaning_zh": "纯的"
+  },
+  {
+    "word": "qualify",
+    "pos": "verb",
+    "meaning_zh": "使有资格"
+  },
+  {
+    "word": "sample",
+    "pos": "noun",
+    "meaning_zh": "样本"
+  },
+  {
+    "word": "partnership",
+    "pos": "noun",
+    "meaning_zh": "合伙"
+  },
+  {
+    "word": "butcher",
+    "pos": "noun",
+    "meaning_zh": "屠夫"
+  },
+  {
+    "word": "weird",
+    "pos": "adjective",
+    "meaning_zh": "怪异的"
+  },
+  {
+    "word": "conflict",
+    "pos": "noun",
+    "meaning_zh": "冲突"
+  },
+  {
+    "word": "subsequently",
+    "pos": "adverb",
+    "meaning_zh": "其后"
+  },
+  {
+    "word": "pizza",
+    "pos": "noun",
+    "meaning_zh": "比萨饼"
+  },
+  {
+    "word": "agriculture",
+    "pos": "noun",
+    "meaning_zh": "农业"
+  },
+  {
+    "word": "shed",
+    "pos": "noun",
+    "meaning_zh": "棚屋"
+  },
+  {
+    "word": "title",
+    "pos": "noun",
+    "meaning_zh": "标题"
+  },
+  {
+    "word": "curve",
+    "pos": "noun",
+    "meaning_zh": "曲线"
+  },
+  {
+    "word": "freezer",
+    "pos": "noun",
+    "meaning_zh": "冰柜"
+  },
+  {
+    "word": "admission",
+    "pos": "noun",
+    "meaning_zh": "承认"
+  },
+  {
+    "word": "shave",
+    "pos": "verb",
+    "meaning_zh": "剃"
+  },
+  {
+    "word": "estimate",
+    "pos": "verb",
+    "meaning_zh": "估计"
+  },
+  {
+    "word": "internal",
+    "pos": "adjective",
+    "meaning_zh": "内部的"
+  },
+  {
+    "word": "extent",
+    "pos": "noun",
+    "meaning_zh": "程度"
+  },
+  {
+    "word": "currently",
+    "pos": "adverb",
+    "meaning_zh": "目前"
+  },
+  {
+    "word": "supper",
+    "pos": "noun",
+    "meaning_zh": "晚餐"
+  },
+  {
+    "word": "quality",
+    "pos": "noun",
+    "meaning_zh": "质量"
+  },
+  {
+    "word": "marriage",
+    "pos": "noun",
+    "meaning_zh": "两个人依法律或习俗结成的夫妻关系，也指确立这种关系的婚礼"
+  },
+  {
+    "word": "undertake",
+    "pos": "vt",
+    "meaning_zh": "承担"
+  },
+  {
+    "word": "organ",
+    "pos": "noun",
+    "meaning_zh": "器官"
+  },
+  {
+    "word": "radical",
+    "pos": "adjective",
+    "meaning_zh": "根本的"
+  },
+  {
+    "word": "calculate",
+    "pos": "verb",
+    "meaning_zh": "计算"
+  },
+  {
+    "word": "snap",
+    "pos": "verb",
+    "meaning_zh": "啪地折断"
+  },
+  {
+    "word": "unknown",
+    "pos": "adjective",
+    "meaning_zh": "未知的"
+  },
+  {
+    "word": "routine",
+    "pos": "noun",
+    "meaning_zh": "例行公事"
+  },
+  {
+    "word": "consist",
+    "pos": "verb",
+    "meaning_zh": "由…组成"
+  },
+  {
+    "word": "beneath",
+    "pos": "preposition",
+    "meaning_zh": "在……下面"
+  },
+  {
+    "word": "objective",
+    "pos": "adjective",
+    "meaning_zh": "客观的"
+  },
+  {
+    "word": "passion",
+    "pos": "noun",
+    "meaning_zh": "激情"
+  },
+  {
+    "word": "technique",
+    "pos": "noun",
+    "meaning_zh": "技巧"
+  },
+  {
+    "word": "troop",
+    "pos": "noun",
+    "meaning_zh": "部队"
+  },
+  {
+    "word": "counter",
+    "pos": "noun",
+    "meaning_zh": "柜台"
+  },
+  {
+    "word": "occupation",
+    "pos": "noun",
+    "meaning_zh": "职业"
+  },
+  {
+    "word": "soldier",
+    "pos": "noun",
+    "meaning_zh": "士兵"
+  },
+  {
+    "word": "ton",
+    "pos": "noun",
+    "meaning_zh": "吨"
+  },
+  {
+    "word": "regulation",
+    "pos": "noun",
+    "meaning_zh": "规章"
+  },
+  {
+    "word": "concern",
+    "pos": "noun",
+    "meaning_zh": "担忧"
+  },
+  {
+    "word": "tremendous",
+    "pos": "adjective",
+    "meaning_zh": "巨大的"
+  },
+  {
+    "word": "opposition",
+    "pos": "noun",
+    "meaning_zh": "反对"
+  },
+  {
+    "word": "wage",
+    "pos": "noun",
+    "meaning_zh": "工资"
+  },
+  {
+    "word": "jury",
+    "pos": "noun",
+    "meaning_zh": "陪审团"
+  },
+  {
+    "word": "establishment",
+    "pos": "noun",
+    "meaning_zh": "建立"
+  },
+  {
+    "word": "disease",
+    "pos": "noun",
+    "meaning_zh": "疾病"
+  },
+  {
+    "word": "function",
+    "pos": "noun",
+    "meaning_zh": "功能"
+  },
+  {
+    "word": "spiritual",
+    "pos": "adjective",
+    "meaning_zh": "精神的"
+  },
+  {
+    "word": "item",
+    "pos": "noun",
+    "meaning_zh": "项目"
+  },
+  {
+    "word": "significantly",
+    "pos": "adverb",
+    "meaning_zh": "显著地"
+  },
+  {
+    "word": "mommy",
+    "pos": "noun",
+    "meaning_zh": "妈妈"
+  },
+  {
+    "word": "vital",
+    "pos": "adjective",
+    "meaning_zh": "极其重要的、必不可少的"
+  },
+  {
+    "word": "ounce",
+    "pos": "noun",
+    "meaning_zh": "盎司"
   }
 ]

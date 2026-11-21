@@ -1,157 +1,443 @@
-{
-  "word": "brusque",
-  "ipa_uk": "/bruːsk/",
-  "ipa_us": "/brʌsk/",
-  "definition_zh": "粗鲁的；唐突的；生硬无礼的",
-  "definition_en": "abrupt and offhand in speech or manner, to the point of being rude",
-  "core_image": "一句话没说完就把门关上",
-  "scene": "柜台后的老店员头也不抬，答话只有两个字。His brusque reply made the customer feel unwelcome.",
-  "sceneCN": "这里 brusque 是「生硬无礼的、唐突的」（第 1 个义项：言谈举止 abrupt 且近乎无礼）；句意是他生硬的回话让顾客觉得不受欢迎。",
-  "pos": [
-    { "tag": "adj.", "zh": "粗鲁的；唐突的；生硬无礼的" }
-  ],
-  "collocations": [
-    { "phrase": "a brusque manner", "zh": "粗鲁的举止" },
-    { "phrase": "a brusque reply", "zh": "生硬的回话" },
-    { "phrase": "brusque to the point of rudeness", "zh": "唐突到近乎无礼" },
-    { "phrase": "be brusque with customers", "zh": "对顾客态度生硬" },
-    { "phrase": "a brusque dismissal", "zh": "毫不客气地打发" }
-  ],
-  "forms": [
-    { "label": "比较级", "form": "brusquer" },
-    { "label": "最高级", "form": "brusquest" },
-    { "label": "副词", "form": "brusquely" },
-    { "label": "名词", "form": "brusqueness" }
-  ],
-  "derivatives": [
-    { "word": "brusquely", "pos": "adv.", "zh": "由形容词加 -ly 构成，义为「粗鲁地，唐突地」" },
-    { "word": "brusqueness", "pos": "n.", "zh": "由形容词加 -ness 构成，义为「粗鲁，生硬」" },
-    { "word": "brusquerie", "pos": "n.", "zh": "借自法语，义为「粗鲁的举止」" }
-  ],
-  "senses": [
-    {
-      "no": "01",
-      "title": "Abrupt and rude in manner",
-      "titleCN": "举止粗鲁唐突",
-      "definition": "speaking or behaving in a curt, blunt way that seems rude",
-      "definitionCN": "言谈举止简短生硬，显得粗鲁无礼",
-      "example": "The doctor was brusque but thorough.",
-      "exampleCN": "医生态度生硬，检查却很仔细。",
-      "why": "The French source means brushwood-like, rough; rough manner reads as curtness.",
-      "whyCN": "法语原义近于「如灌木丛般毛糙」，毛糙的做派读起来就是简慢无礼。"
-    },
-    {
-      "no": "02",
-      "title": "Offhand in speech",
-      "titleCN": "答话简慢，不加修饰",
-      "definition": "giving short, ungracious answers without warmth or explanation",
-      "definitionCN": "回答简短冷淡，不带温度也不作解释",
-      "example": "Her brusque \"no comment\" ended the interview.",
-      "exampleCN": "她生硬的一句「无可奉告」结束了采访。",
-      "why": "When words are trimmed to the bone, the missing courtesies themselves offend.",
-      "whyCN": "话语被削到只剩骨头，缺失的客套本身就成了冒犯，义项由举止落到言语。"
-    },
-    {
-      "no": "03",
-      "title": "Bluntly dismissive",
-      "titleCN": "断然打发的，不容分说的",
-      "definition": "curtly rejecting a request or person without ceremony",
-      "definitionCN": "干脆利落地回绝请求或冷落来人，不讲情面",
-      "example": "He gave the proposal a brusque brush-off.",
-      "exampleCN": "他把提案一口回绝，毫不客气。",
-      "why": "Curtness pushed further becomes dismissal: the door closes before the sentence ends.",
-      "whyCN": "简慢再进一步便是不容分说的打发，话没说完门已关上，义项继续加深。"
-    }
-  ],
-  "etymology": {
-    "intro": { "en": "Brusque came into English from French brusque, which probably traces to an Italian word for brushwood.", "cn": "brusque 经由法语 brusque 进入英语，一般追溯到意大利语中表示「柴薪、毛糙」的词。" },
-    "items": [
-      { "era": "ITALIAN", "en": "brusco meant rough, sharp-tasting; older forms pointed to brussa, brushwood prepared for dyeing.", "cn": "意大利语 brusco 义为粗砺、涩口；更早形式 brussa 指用于染色的荆柴。" },
-      { "era": "FRENCH", "en": "brusque took the meaning brisk and rough in manner, said of wine, then of people.", "cn": "法语 brusque 先形容气味冲、性子急，继而形容人粗鲁唐突。" },
-      { "era": "ENGLISH, 17TH C.", "en": "brusque entered English with the sense of blunt, forbidding manner.", "cn": "十七世纪 brusque 进入英语，表示生硬冷峻的态度。" },
-      { "era": "ENGLISH, 18TH–19TH C.", "en": "derivatives brusquely and brusqueness settled beside the adjective.", "cn": "派生词 brusquely、brusqueness 随形容词定型。" },
-      { "era": "PRESENT DAY ENGLISH", "en": "brusque now labels any curtness that shades into rudeness.", "cn": "如今 brusque 泛指一切近乎无礼的简慢生硬。" }
-    ]
-  },
-  "similar": {
-    "note": { "en": "Brusque resembles French borrowings of roughness and sits beside a row of curtness words.", "cn": "brusque 与一批源自法语的「粗砺」词形近，并置身一排表简慢的近义词之间。" },
-    "groups": [
+[
+  {
+    "word": "brusque",
+    "ipa_uk": "/bruːsk/",
+    "ipa_us": "/brʌsk/",
+    "definition_zh": "粗鲁的；唐突的；生硬无礼的",
+    "definition_en": "abrupt and offhand in speech or manner, to the point of being rude",
+    "core_image": "一句话没说完就把门关上",
+    "scene": "柜台后的老店员头也不抬，答话只有两个字。His brusque reply made the customer feel unwelcome.",
+    "sceneCN": "这里 brusque 是「生硬无礼的、唐突的」（第 1 个义项：言谈举止 abrupt 且近乎无礼）；句意是他生硬的回话让顾客觉得不受欢迎。",
+    "pos": [
       {
-        "heading": "LOOK-ALIKE",
-        "entries": [
-          { "word": "brusk", "ipa": "/brʌsk/", "tag": "variant spelling", "definition": "an alternative spelling of brusque", "definitionCN": "brusque 的异体拼法" },
-          { "word": "brusco", "ipa": "/ˈbruːskoʊ/", "tag": "same root", "definition": "Italian source word meaning rough", "definitionCN": "意大利语源词，义为粗砺，brusque 的前身" },
-          { "word": "brusqueness", "ipa": "/ˈbruːsknəs/", "tag": "derived form", "definition": "the quality of being brusque", "definitionCN": "brusque 的名词形式，粗鲁生硬" },
-          { "word": "brush", "ipa": "/brʌʃ/", "tag": "different root", "definition": "an implement with bristles; a skirmish", "definitionCN": "刷子；小冲突，只是拼形相近，词源不同" }
-        ]
+        "tag": "adj.",
+        "zh": "粗鲁的；唐突的；生硬无礼的"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "a brusque manner",
+        "zh": "粗鲁的举止"
       },
       {
-        "heading": "NEAR MEANING",
-        "entries": [
-          { "word": "curt", "ipa": "/kɜːt/", "tag": "near meaning", "definition": "rudely brief in speech", "definitionCN": "（言辞）简短失礼的" },
-          { "word": "blunt", "ipa": "/blʌnt/", "tag": "near meaning", "definition": "plain and direct to the point of rudeness", "definitionCN": "直截了当到近乎冒犯的" },
-          { "word": "abrupt", "ipa": "/əˈbrʌpt/", "tag": "near meaning", "definition": "sudden and unpleasantly terse", "definitionCN": "突兀而生硬的" },
-          { "word": "gruff", "ipa": "/ɡrʌf/", "tag": "near meaning", "definition": "rough and surly in voice or manner", "definitionCN": "（嗓音、态度）粗鲁冷淡的" },
-          { "word": "offhand", "ipa": "/ˌɒfˈhænd/", "tag": "near meaning", "definition": "casual without thought or courtesy", "definitionCN": "随口敷衍的，漫不经心的" }
-        ]
+        "phrase": "a brusque reply",
+        "zh": "生硬的回话"
+      },
+      {
+        "phrase": "brusque to the point of rudeness",
+        "zh": "唐突到近乎无礼"
+      },
+      {
+        "phrase": "be brusque with customers",
+        "zh": "对顾客态度生硬"
+      },
+      {
+        "phrase": "a brusque dismissal",
+        "zh": "毫不客气地打发"
       }
-    ]
-  },
-  "mnemonics": {
-    "normalIntro": { "en": "Hear the French flavor: a brusque man speaks in one brusk syllable.", "cn": "听出法语腔：粗鲁人说话只有一个生硬音节。" },
-    "normal": [
-      { "en": "Brusque ends like the French words casque and masque.", "cn": "brusque 的结尾同法语词 casque、masque 一个路数。" },
-      { "en": "The silent -que hides the sound /k/.", "cn": "不发音的 -que 藏着 /k/ 音。" },
-      { "en": "The variant spelling brusk says the sound out loud.", "cn": "异体拼法 brusk 把音直接写出来。" },
-      { "en": "Root image: brushwood, prickly and rough to touch.", "cn": "词根意象：荆柴，扎手而毛糙。" },
-      { "en": "Pair it with curt: both cut words short.", "cn": "与 curt 对记：两者都把话剪短。" }
     ],
-    "abstract": [
-      { "en": "Feel a door shut on your half-finished sentence.", "cn": "感受半句话被一扇门硬生生截断。" },
-      { "en": "See a hand wave you away without a glance.", "cn": "看见一只手头也不抬地把你挥开。" },
-      { "en": "Hear three clipped words where a paragraph should be.", "cn": "本该一段话的地方只落下三个硬邦邦的词。" }
-    ]
-  },
-  "examples": [
-    { "en": "His brusque phone manner scared off new clients.", "cn": "他接电话时生硬的态度吓跑了不少新客户。" },
-    { "en": "Behind the brusque exterior, she was kind to interns.", "cn": "生硬的外表之下，她对实习生其实很和善。" },
-    { "en": "The waiter apologized for the brusque service.", "cn": "侍者为粗鲁的服务道了歉。" }
-  ],
-  "dict_mnemonic": { "note": "谐音记忆 · 非词源", "text": "「不汝客」——他说话「不」把「汝」当「客」待，三言两语就把人打发，粗鲁唐突。", "word": "brusque" },
-  "root": "brusque 一般认为借自法语 brusque（毛糙、唐突），更早上溯意大利语 brusco（粗砺、涩口），其源或为 brussa（染料用荆柴），与「刷子」一族的日耳曼借词相关；词形属法语系统，非拉丁古典词。",
-  "sensesIntro": { "en": "A rough, brushwood manner reads first as curtness, then as graceless speech, and finally as outright dismissal.", "cn": "如荆柴般毛糙的做派，先读作简慢，再落到生硬的言语，最终成为毫不客气的打发。" },
-  "semanticMap": {
-    "core": { "en": "CORE IMAGE: a door closing on a half-spoken sentence.", "cn": "核心意象：一扇门在半句话上砰然关上。" },
-    "chain": ["ROUGH", "CURT", "COLD", "RUDENESS", "DISMISSAL", "BARRIER"],
-    "branches": [
-      { "senses": "01", "en": "a brusque headmaster", "cn": "态度生硬的校长" },
-      { "senses": "01 · 02", "en": "a brusque phone manner", "cn": "接电话时的简慢语气" },
-      { "senses": "02", "en": "a brusque written reply", "cn": "措辞生硬的书面答复" },
-      { "senses": "03", "en": "a brusque brush-off", "cn": "毫不客气的回绝" },
-      { "senses": "01 · 03", "en": "brusque treatment of visitors", "cn": "对来访者的冷遇" }
-    ]
-  },
-  "affixes": {
-    "intro": { "en": "Brusque is a whole-word borrowing; its shape is French, its core Italian.", "cn": "brusque 是整词借入：词形属法语，词核出自意大利语。" },
-    "latinIntro": { "en": "No classical Latin root exists; the trail runs through medieval trade Italian.", "cn": "并无古典拉丁词根可循，词迹经由中世纪意大利商贸语汇。" },
-    "items": [
-      { "word": "brusque", "structure": "French adjective, borrowed", "meaning": "abrupt and rude", "meaningCN": "粗鲁唐突的", "example": "a brusque refusal", "exampleCN": "生硬的拒绝" },
-      { "word": "brusk", "structure": "phonetic variant", "meaning": "same meaning, plainer spelling", "meaningCN": "同义异拼", "example": "a brusk answer", "exampleCN": "生硬的回答" },
-      { "word": "brusco", "structure": "Italian adjective", "meaning": "rough, sharp", "meaningCN": "粗砺的，冲的", "example": "vino brusco", "exampleCN": "涩口的酒" },
-      { "word": "brutta figura", "structure": "Italian phrase", "meaning": "a bad impression", "meaningCN": "失礼的形象", "example": "avoid brutta figura", "exampleCN": "避免失态" },
-      { "word": "curt", "structure": "Latin curtus", "meaning": "short, terse", "meaningCN": "简短失礼的", "example": "a curt nod", "exampleCN": "生硬地点头" },
-      { "word": "curtail", "structure": "curt + -ail", "meaning": "to cut short", "meaningCN": "削减，缩短", "example": "curtail spending", "exampleCN": "削减开支" },
-      { "word": "terse", "structure": "Latin tersus", "meaning": "compact and neat in speech", "meaningCN": "简练的", "example": "a terse memo", "exampleCN": "简练的备忘录" },
-      { "word": "blunt", "structure": "Old Norse blunt", "meaning": "plain to the point of rudeness", "meaningCN": "直率的，生硬的", "example": "blunt criticism", "exampleCN": "直白的批评" },
-      { "word": "brusquely", "structure": "brusque + -ly", "meaning": "in a brusque way", "meaningCN": "粗鲁唐突地", "example": "answer brusquely", "exampleCN": "生硬作答" },
-      { "word": "brusqueness", "structure": "brusque + -ness", "meaning": "the quality of being brusque", "meaningCN": "粗鲁生硬", "example": "his habitual brusqueness", "exampleCN": "他惯有的生硬" }
-    ],
-    "latinEntries": [
-      { "word": "curtus", "structure": "Latin adjective, cognate field", "meaning": "shortened, mutilated", "meaningCN": "缩短的，残缺的（curt 之源）" }
+    "forms": [
+      {
+        "label": "比较级",
+        "form": "brusquer"
+      },
+      {
+        "label": "最高级",
+        "form": "brusquest"
+      },
+      {
+        "label": "副词",
+        "form": "brusquely"
+      },
+      {
+        "label": "名词",
+        "form": "brusqueness"
+      }
     ],
     "derivatives": [
-      { "word": "brusquely", "pos": "adv.", "zh": "粗鲁唐突地" },
-      { "word": "brusqueness", "pos": "n.", "zh": "粗鲁生硬" }
-    ]
+      {
+        "word": "brusquely",
+        "pos": "adv.",
+        "zh": "由形容词加 -ly 构成，义为「粗鲁地，唐突地」"
+      },
+      {
+        "word": "brusqueness",
+        "pos": "n.",
+        "zh": "由形容词加 -ness 构成，义为「粗鲁，生硬」"
+      },
+      {
+        "word": "brusquerie",
+        "pos": "n.",
+        "zh": "借自法语，义为「粗鲁的举止」"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "Abrupt and rude in manner",
+        "titleCN": "举止粗鲁唐突",
+        "definition": "speaking or behaving in a curt, blunt way that seems rude",
+        "definitionCN": "言谈举止简短生硬，显得粗鲁无礼",
+        "example": "The doctor was brusque but thorough.",
+        "exampleCN": "医生态度生硬，检查却很仔细。",
+        "why": "The French source means brushwood-like, rough; rough manner reads as curtness.",
+        "whyCN": "法语原义近于「如灌木丛般毛糙」，毛糙的做派读起来就是简慢无礼。"
+      },
+      {
+        "no": "02",
+        "title": "Offhand in speech",
+        "titleCN": "答话简慢，不加修饰",
+        "definition": "giving short, ungracious answers without warmth or explanation",
+        "definitionCN": "回答简短冷淡，不带温度也不作解释",
+        "example": "Her brusque \"no comment\" ended the interview.",
+        "exampleCN": "她生硬的一句「无可奉告」结束了采访。",
+        "why": "When words are trimmed to the bone, the missing courtesies themselves offend.",
+        "whyCN": "话语被削到只剩骨头，缺失的客套本身就成了冒犯，义项由举止落到言语。"
+      },
+      {
+        "no": "03",
+        "title": "Bluntly dismissive",
+        "titleCN": "断然打发的，不容分说的",
+        "definition": "curtly rejecting a request or person without ceremony",
+        "definitionCN": "干脆利落地回绝请求或冷落来人，不讲情面",
+        "example": "He gave the proposal a brusque brush-off.",
+        "exampleCN": "他把提案一口回绝，毫不客气。",
+        "why": "Curtness pushed further becomes dismissal: the door closes before the sentence ends.",
+        "whyCN": "简慢再进一步便是不容分说的打发，话没说完门已关上，义项继续加深。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Brusque came into English from French brusque, which probably traces to an Italian word for brushwood.",
+        "cn": "brusque 经由法语 brusque 进入英语，一般追溯到意大利语中表示「柴薪、毛糙」的词。"
+      },
+      "items": [
+        {
+          "era": "ITALIAN",
+          "en": "brusco meant rough, sharp-tasting; older forms pointed to brussa, brushwood prepared for dyeing.",
+          "cn": "意大利语 brusco 义为粗砺、涩口；更早形式 brussa 指用于染色的荆柴。"
+        },
+        {
+          "era": "FRENCH",
+          "en": "brusque took the meaning brisk and rough in manner, said of wine, then of people.",
+          "cn": "法语 brusque 先形容气味冲、性子急，继而形容人粗鲁唐突。"
+        },
+        {
+          "era": "ENGLISH, 17TH C.",
+          "en": "brusque entered English with the sense of blunt, forbidding manner.",
+          "cn": "十七世纪 brusque 进入英语，表示生硬冷峻的态度。"
+        },
+        {
+          "era": "ENGLISH, 18TH–19TH C.",
+          "en": "derivatives brusquely and brusqueness settled beside the adjective.",
+          "cn": "派生词 brusquely、brusqueness 随形容词定型。"
+        },
+        {
+          "era": "PRESENT DAY ENGLISH",
+          "en": "brusque now labels any curtness that shades into rudeness.",
+          "cn": "如今 brusque 泛指一切近乎无礼的简慢生硬。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "Brusque resembles French borrowings of roughness and sits beside a row of curtness words.",
+        "cn": "brusque 与一批源自法语的「粗砺」词形近，并置身一排表简慢的近义词之间。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "brusk",
+              "ipa": "/brʌsk/",
+              "tag": "variant spelling",
+              "definition": "an alternative spelling of brusque",
+              "definitionCN": "brusque 的异体拼法"
+            },
+            {
+              "word": "brusco",
+              "ipa": "/ˈbruːskoʊ/",
+              "tag": "same root",
+              "definition": "Italian source word meaning rough",
+              "definitionCN": "意大利语源词，义为粗砺，brusque 的前身"
+            },
+            {
+              "word": "brusqueness",
+              "ipa": "/ˈbruːsknəs/",
+              "tag": "derived form",
+              "definition": "the quality of being brusque",
+              "definitionCN": "brusque 的名词形式，粗鲁生硬"
+            },
+            {
+              "word": "brush",
+              "ipa": "/brʌʃ/",
+              "tag": "different root",
+              "definition": "an implement with bristles; a skirmish",
+              "definitionCN": "刷子；小冲突，只是拼形相近，词源不同"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "curt",
+              "ipa": "/kɜːt/",
+              "tag": "near meaning",
+              "definition": "rudely brief in speech",
+              "definitionCN": "（言辞）简短失礼的"
+            },
+            {
+              "word": "blunt",
+              "ipa": "/blʌnt/",
+              "tag": "near meaning",
+              "definition": "plain and direct to the point of rudeness",
+              "definitionCN": "直截了当到近乎冒犯的"
+            },
+            {
+              "word": "abrupt",
+              "ipa": "/əˈbrʌpt/",
+              "tag": "near meaning",
+              "definition": "sudden and unpleasantly terse",
+              "definitionCN": "突兀而生硬的"
+            },
+            {
+              "word": "gruff",
+              "ipa": "/ɡrʌf/",
+              "tag": "near meaning",
+              "definition": "rough and surly in voice or manner",
+              "definitionCN": "（嗓音、态度）粗鲁冷淡的"
+            },
+            {
+              "word": "offhand",
+              "ipa": "/ˌɒfˈhænd/",
+              "tag": "near meaning",
+              "definition": "casual without thought or courtesy",
+              "definitionCN": "随口敷衍的，漫不经心的"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Hear the French flavor: a brusque man speaks in one brusk syllable.",
+        "cn": "听出法语腔：粗鲁人说话只有一个生硬音节。"
+      },
+      "normal": [
+        {
+          "en": "Brusque ends like the French words casque and masque.",
+          "cn": "brusque 的结尾同法语词 casque、masque 一个路数。"
+        },
+        {
+          "en": "The silent -que hides the sound /k/.",
+          "cn": "不发音的 -que 藏着 /k/ 音。"
+        },
+        {
+          "en": "The variant spelling brusk says the sound out loud.",
+          "cn": "异体拼法 brusk 把音直接写出来。"
+        },
+        {
+          "en": "Root image: brushwood, prickly and rough to touch.",
+          "cn": "词根意象：荆柴，扎手而毛糙。"
+        },
+        {
+          "en": "Pair it with curt: both cut words short.",
+          "cn": "与 curt 对记：两者都把话剪短。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "Feel a door shut on your half-finished sentence.",
+          "cn": "感受半句话被一扇门硬生生截断。"
+        },
+        {
+          "en": "See a hand wave you away without a glance.",
+          "cn": "看见一只手头也不抬地把你挥开。"
+        },
+        {
+          "en": "Hear three clipped words where a paragraph should be.",
+          "cn": "本该一段话的地方只落下三个硬邦邦的词。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "His brusque phone manner scared off new clients.",
+        "cn": "他接电话时生硬的态度吓跑了不少新客户。"
+      },
+      {
+        "en": "Behind the brusque exterior, she was kind to interns.",
+        "cn": "生硬的外表之下，她对实习生其实很和善。"
+      },
+      {
+        "en": "The waiter apologized for the brusque service.",
+        "cn": "侍者为粗鲁的服务道了歉。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「不汝客」——他说话「不」把「汝」当「客」待，三言两语就把人打发，粗鲁唐突。",
+      "word": "brusque"
+    },
+    "root": "brusque 一般认为借自法语 brusque（毛糙、唐突），更早上溯意大利语 brusco（粗砺、涩口），其源或为 brussa（染料用荆柴），与「刷子」一族的日耳曼借词相关；词形属法语系统，非拉丁古典词。",
+    "sensesIntro": {
+      "en": "A rough, brushwood manner reads first as curtness, then as graceless speech, and finally as outright dismissal.",
+      "cn": "如荆柴般毛糙的做派，先读作简慢，再落到生硬的言语，最终成为毫不客气的打发。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: a door closing on a half-spoken sentence.",
+        "cn": "核心意象：一扇门在半句话上砰然关上。"
+      },
+      "chain": [
+        "ROUGH",
+        "CURT",
+        "COLD",
+        "RUDENESS",
+        "DISMISSAL",
+        "BARRIER"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "a brusque headmaster",
+          "cn": "态度生硬的校长"
+        },
+        {
+          "senses": "01 · 02",
+          "en": "a brusque phone manner",
+          "cn": "接电话时的简慢语气"
+        },
+        {
+          "senses": "02",
+          "en": "a brusque written reply",
+          "cn": "措辞生硬的书面答复"
+        },
+        {
+          "senses": "03",
+          "en": "a brusque brush-off",
+          "cn": "毫不客气的回绝"
+        },
+        {
+          "senses": "01 · 03",
+          "en": "brusque treatment of visitors",
+          "cn": "对来访者的冷遇"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Brusque is a whole-word borrowing; its shape is French, its core Italian.",
+        "cn": "brusque 是整词借入：词形属法语，词核出自意大利语。"
+      },
+      "latinIntro": {
+        "en": "No classical Latin root exists; the trail runs through medieval trade Italian.",
+        "cn": "并无古典拉丁词根可循，词迹经由中世纪意大利商贸语汇。"
+      },
+      "items": [
+        {
+          "word": "brusque",
+          "structure": "French adjective, borrowed",
+          "meaning": "abrupt and rude",
+          "meaningCN": "粗鲁唐突的",
+          "example": "a brusque refusal",
+          "exampleCN": "生硬的拒绝"
+        },
+        {
+          "word": "brusk",
+          "structure": "phonetic variant",
+          "meaning": "same meaning, plainer spelling",
+          "meaningCN": "同义异拼",
+          "example": "a brusk answer",
+          "exampleCN": "生硬的回答"
+        },
+        {
+          "word": "brusco",
+          "structure": "Italian adjective",
+          "meaning": "rough, sharp",
+          "meaningCN": "粗砺的，冲的",
+          "example": "vino brusco",
+          "exampleCN": "涩口的酒"
+        },
+        {
+          "word": "brutta figura",
+          "structure": "Italian phrase",
+          "meaning": "a bad impression",
+          "meaningCN": "失礼的形象",
+          "example": "avoid brutta figura",
+          "exampleCN": "避免失态"
+        },
+        {
+          "word": "curt",
+          "structure": "Latin curtus",
+          "meaning": "short, terse",
+          "meaningCN": "简短失礼的",
+          "example": "a curt nod",
+          "exampleCN": "生硬地点头"
+        },
+        {
+          "word": "curtail",
+          "structure": "curt + -ail",
+          "meaning": "to cut short",
+          "meaningCN": "削减，缩短",
+          "example": "curtail spending",
+          "exampleCN": "削减开支"
+        },
+        {
+          "word": "terse",
+          "structure": "Latin tersus",
+          "meaning": "compact and neat in speech",
+          "meaningCN": "简练的",
+          "example": "a terse memo",
+          "exampleCN": "简练的备忘录"
+        },
+        {
+          "word": "blunt",
+          "structure": "Old Norse blunt",
+          "meaning": "plain to the point of rudeness",
+          "meaningCN": "直率的，生硬的",
+          "example": "blunt criticism",
+          "exampleCN": "直白的批评"
+        },
+        {
+          "word": "brusquely",
+          "structure": "brusque + -ly",
+          "meaning": "in a brusque way",
+          "meaningCN": "粗鲁唐突地",
+          "example": "answer brusquely",
+          "exampleCN": "生硬作答"
+        },
+        {
+          "word": "brusqueness",
+          "structure": "brusque + -ness",
+          "meaning": "the quality of being brusque",
+          "meaningCN": "粗鲁生硬",
+          "example": "his habitual brusqueness",
+          "exampleCN": "他惯有的生硬"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "curtus",
+          "structure": "Latin adjective, cognate field",
+          "meaning": "shortened, mutilated",
+          "meaningCN": "缩短的，残缺的（curt 之源）"
+        }
+      ],
+      "derivatives": [
+        {
+          "word": "brusquely",
+          "pos": "adv.",
+          "zh": "粗鲁唐突地"
+        },
+        {
+          "word": "brusqueness",
+          "pos": "n.",
+          "zh": "粗鲁生硬"
+        }
+      ]
+    }
   }
-}
+]

@@ -1,380 +1,382 @@
-{
-  "word": "boil",
-  "ipa_uk": "/bɔɪl/",
-  "ipa_us": "/bɔɪl/",
-  "definition_zh": "沸腾；煮沸；煮（食物）；非常愤怒",
-  "definition_en": "to heat a liquid until it bubbles",
-  "core_image": "锅底不断冒起的水泡",
-  "scene": "锅里的水过了几分钟开始翻滚。The water began to boil after a few minutes.",
-  "sceneCN": "这里 boil 是「沸腾」（第 1 个义项：液体受热冒出气泡）；句意是几分钟后水开始沸腾。",
-  "pos": [
-    {
-      "tag": "v.",
-      "zh": "动词：沸腾；煮沸；煮"
-    },
-    {
-      "tag": "n.",
-      "zh": "名词：沸点，沸腾状态"
-    }
-  ],
-  "collocations": [
-    {
-      "phrase": "boil water",
-      "zh": "烧水"
-    },
-    {
-      "phrase": "boiling point",
-      "zh": "沸点"
-    },
-    {
-      "phrase": "boil an egg",
-      "zh": "煮一个鸡蛋"
-    },
-    {
-      "phrase": "come to the boil",
-      "zh": "开始沸腾"
-    },
-    {
-      "phrase": "boil over",
-      "zh": "煮沸溢出"
-    }
-  ],
-  "forms": [
-    {
-      "label": "第三人称单数",
-      "form": "boils"
-    },
-    {
-      "label": "过去式",
-      "form": "boiled"
-    },
-    {
-      "label": "现在分词",
-      "form": "boiling"
-    }
-  ],
-  "derivatives": [
-    {
-      "word": "boiler",
-      "pos": "n.",
-      "zh": "锅炉；热水器"
-    },
-    {
-      "word": "parboil",
-      "pos": "v.",
-      "zh": "把…煮至半熟"
-    }
-  ],
-  "senses": [
-    {
-      "no": "01",
-      "title": "To bubble with heat",
-      "titleCN": "沸腾",
-      "definition": "to heat a liquid until it bubbles and gives off steam",
-      "definitionCN": "把液体加热到冒泡并冒出蒸汽",
-      "example": "The water began to boil after a few minutes.",
-      "exampleCN": "几分钟后水开始沸腾。",
-      "why": "This is the core sense, taken from the Latin word for a bubble.",
-      "whyCN": "这是核心义项，来自拉丁语中表示气泡的词。"
-    },
-    {
-      "no": "02",
-      "title": "To cook in hot water",
-      "titleCN": "煮",
-      "definition": "to cook food in water that is boiling",
-      "definitionCN": "在沸腾的水中烹煮食物",
-      "example": "She boiled two eggs for breakfast.",
-      "exampleCN": "她早饭煮了两个鸡蛋。",
-      "why": "Cooking in bubbling water is the everyday use of the same action.",
-      "whyCN": "在冒泡的水里烹煮，是这一动作最常见的用法。"
-    },
-    {
-      "no": "03",
-      "title": "To be very angry",
-      "titleCN": "非常愤怒",
-      "definition": "to feel extremely angry, as if heat were rising",
-      "definitionCN": "极度愤怒，像热气往上冲",
-      "example": "He was boiling with anger after the meeting.",
-      "exampleCN": "会后他怒火中烧。",
-      "why": "Anger is pictured as heat, so the bubbling of water became a feeling.",
-      "whyCN": "愤怒被比作高温，水的翻滚便引申为情绪。"
-    }
-  ],
-  "etymology": {
-    "intro": {
-      "en": "Boil goes back through French to Latin bulla, a bubble.",
-      "cn": "boil 经法语上溯到拉丁语 bulla，意思是气泡。"
-    },
-    "items": [
+[
+  {
+    "word": "boil",
+    "ipa_uk": "/bɔɪl/",
+    "ipa_us": "/bɔɪl/",
+    "definition_zh": "沸腾；煮沸；煮（食物）；非常愤怒",
+    "definition_en": "to heat a liquid until it bubbles",
+    "core_image": "锅底不断冒起的水泡",
+    "scene": "锅里的水过了几分钟开始翻滚。The water began to boil after a few minutes.",
+    "sceneCN": "这里 boil 是「沸腾」（第 1 个义项：液体受热冒出气泡）；句意是几分钟后水开始沸腾。",
+    "pos": [
       {
-        "era": "LATIN",
-        "en": "bulla meant a bubble or a round object.",
-        "cn": "bulla 指气泡或圆形之物。"
+        "tag": "v.",
+        "zh": "动词：沸腾；煮沸；煮"
       },
       {
-        "era": "OLD FRENCH",
-        "en": "boillir meant to bubble and to cook in water.",
-        "cn": "boillir 指冒泡，也指用水煮。"
-      },
-      {
-        "era": "MIDDLE ENGLISH",
-        "en": "boilen covered both water and cooking.",
-        "cn": "boilen 同时指水的沸腾与烹煮。"
-      },
-      {
-        "era": "SIXTEENTH CENTURY",
-        "en": "boil over described liquid running over the pot.",
-        "cn": "boil over 指液体沸出锅外。"
-      },
-      {
-        "era": "PRESENT DAY ENGLISH",
-        "en": "boil also describes violent anger.",
-        "cn": "如今 boil 也可形容暴怒。"
-      }
-    ]
-  },
-  "similar": {
-    "note": {
-      "en": "The look-alike group rhymes with boil; the near-meaning group names other ways of heating food.",
-      "cn": "形近组与 boil 押韵；近义组是其他加热食物的方式。"
-    },
-    "groups": [
-      {
-        "heading": "LOOK-ALIKE",
-        "entries": [
-          {
-            "word": "coil",
-            "ipa": "/kɔɪl/",
-            "tag": "look-alike",
-            "definition": "a length of rope wound in rings",
-            "definitionCN": "盘绕的一圈"
-          },
-          {
-            "word": "soil",
-            "ipa": "/sɔɪl/",
-            "tag": "look-alike",
-            "definition": "the earth in which plants grow",
-            "definitionCN": "土壤"
-          },
-          {
-            "word": "foil",
-            "ipa": "/fɔɪl/",
-            "tag": "look-alike",
-            "definition": "thin metal sheet",
-            "definitionCN": "金属薄片"
-          }
-        ]
-      },
-      {
-        "heading": "NEAR MEANING",
-        "entries": [
-          {
-            "word": "simmer",
-            "ipa": "/ˈsɪmə(r)/",
-            "tag": "near synonym",
-            "definition": "to cook just below boiling point",
-            "definitionCN": "微沸，文火慢煮"
-          },
-          {
-            "word": "stew",
-            "ipa": "/stjuː/",
-            "tag": "near synonym",
-            "definition": "to cook food slowly in liquid",
-            "definitionCN": "炖"
-          },
-          {
-            "word": "bubble",
-            "ipa": "/ˈbʌbl/",
-            "tag": "related",
-            "definition": "to form balls of air in liquid",
-            "definitionCN": "冒泡"
-          }
-        ]
-      }
-    ]
-  },
-  "mnemonics": {
-    "normalIntro": {
-      "en": "Boil is the moment a liquid turns into steam at the bottom of a pot.",
-      "cn": "boil 是液体在锅底化成蒸汽的那一刻。"
-    },
-    "normal": [
-      {
-        "en": "Boil water before making tea.",
-        "cn": "泡茶前先把水烧开。"
-      },
-      {
-        "en": "Water reaches the boiling point at one hundred degrees.",
-        "cn": "水在一百度达到沸点。"
-      },
-      {
-        "en": "Boil an egg for five minutes.",
-        "cn": "鸡蛋煮五分钟。"
-      },
-      {
-        "en": "Milk may boil over if the heat is too high.",
-        "cn": "火太大时牛奶会沸出来。"
-      },
-      {
-        "en": "Boiler and parboil both grow from boil.",
-        "cn": "boiler 与 parboil 都由 boil 构成。"
+        "tag": "n.",
+        "zh": "名词：沸点，沸腾状态"
       }
     ],
-    "abstract": [
+    "collocations": [
       {
-        "en": "See small bubbles rising in a pot.",
-        "cn": "想象锅里的小气泡不断升起。"
+        "phrase": "boil water",
+        "zh": "烧水"
       },
       {
-        "en": "See steam clouding a kitchen window.",
-        "cn": "想象蒸汽模糊了厨房的窗。"
+        "phrase": "boiling point",
+        "zh": "沸点"
       },
       {
-        "en": "See a face turning red with anger.",
-        "cn": "想象一张因愤怒而涨红的脸。"
+        "phrase": "boil an egg",
+        "zh": "煮一个鸡蛋"
+      },
+      {
+        "phrase": "come to the boil",
+        "zh": "开始沸腾"
+      },
+      {
+        "phrase": "boil over",
+        "zh": "煮沸溢出"
       }
-    ]
-  },
-  "examples": [
-    {
-      "en": "The water began to boil after a few minutes.",
-      "cn": "几分钟后水开始沸腾。"
-    },
-    {
-      "en": "She boiled two eggs for breakfast.",
-      "cn": "她早饭煮了两个鸡蛋。"
-    },
-    {
-      "en": "He was boiling with anger after the meeting.",
-      "cn": "会后他怒火中烧。"
-    }
-  ],
-  "dict_mnemonic": {
-    "note": "拆词记忆 · 非词源",
-    "text": "boil 读起来像水沸时的「啵啵」声，看到水泡翻滚就想到煮与沸腾。",
-    "word": "boil"
-  },
-  "root": "boil 源自拉丁语 bulla（气泡），经古法语 boillir 进入英语，由「冒泡」引申为沸腾、烹煮，再引申为怒气上涌。",
-  "sensesIntro": {
-    "en": "A liquid bubbling, food cooking in it, and anger that feels like heat.",
-    "cn": "液体的翻滚、在沸水里烹煮，以及像热气一样的愤怒。"
-  },
-  "semanticMap": {
-    "core": {
-      "en": "CORE IMAGE: bubbles climbing up a pot of water.",
-      "cn": "核心意象：一锅水里不断上升的气泡。"
-    },
-    "chain": [
-      "BUBBLE",
-      "HEAT",
-      "WATER",
-      "COOK",
-      "STEAM",
-      "ANGER"
     ],
-    "branches": [
+    "forms": [
       {
-        "senses": "01",
-        "en": "the water boils",
-        "cn": "水沸腾"
+        "label": "第三人称单数",
+        "form": "boils"
       },
       {
-        "senses": "01",
-        "en": "boiling point",
-        "cn": "沸点"
+        "label": "过去式",
+        "form": "boiled"
       },
       {
-        "senses": "02",
-        "en": "boil an egg",
-        "cn": "煮鸡蛋"
-      },
-      {
-        "senses": "02",
-        "en": "boiled rice",
-        "cn": "米饭"
-      },
-      {
-        "senses": "03",
-        "en": "boil with anger",
-        "cn": "怒火中烧"
+        "label": "现在分词",
+        "form": "boiling"
       }
-    ]
-  },
-  "affixes": {
-    "intro": {
-      "en": "Boil takes -er for a machine and the prefix par- for half-cooking.",
-      "cn": "boil 加 -er 表示机器，加前缀 par- 表示煮至半熟。"
-    },
-    "latinIntro": {
-      "en": "The base is Latin; the items below trace the same bubbling idea.",
-      "cn": "词基来自拉丁语，下面的词都围绕冒泡这一意象。"
-    },
-    "items": [
-      {
-        "word": "boil",
-        "structure": "Latin bulla",
-        "meaning": "to bubble with heat",
-        "meaningCN": "沸腾",
-        "example": "boil the water",
-        "exampleCN": "把水烧开"
-      },
+    ],
+    "derivatives": [
       {
         "word": "boiler",
-        "structure": "boil + -er",
-        "meaning": "a machine that heats water",
-        "meaningCN": "锅炉",
-        "example": "a gas boiler",
-        "exampleCN": "燃气锅炉"
+        "pos": "n.",
+        "zh": "锅炉；热水器"
       },
       {
         "word": "parboil",
-        "structure": "par- + boil",
-        "meaning": "to boil partly",
-        "meaningCN": "煮至半熟",
-        "example": "parboil the potatoes",
-        "exampleCN": "把土豆煮至半熟"
-      },
-      {
-        "word": "bubble",
-        "structure": "Middle English bobel",
-        "meaning": "a ball of air in liquid",
-        "meaningCN": "气泡",
-        "example": "a soap bubble",
-        "exampleCN": "肥皂泡"
-      },
-      {
-        "word": "simmer",
-        "structure": "Middle English symperen",
-        "meaning": "to cook gently",
-        "meaningCN": "微沸",
-        "example": "simmer the soup",
-        "exampleCN": "用文火煮汤"
-      },
-      {
-        "word": "stew",
-        "structure": "Old French estuver",
-        "meaning": "to cook slowly in liquid",
-        "meaningCN": "炖",
-        "example": "stew the meat",
-        "exampleCN": "炖肉"
-      },
-      {
-        "word": "steam",
-        "structure": "Old English steam",
-        "meaning": "the gas from boiling water",
-        "meaningCN": "蒸汽",
-        "example": "hot steam",
-        "exampleCN": "滚烫的蒸汽"
-      },
-      {
-        "word": "scald",
-        "structure": "Latin excaldare",
-        "meaning": "to burn with hot liquid",
-        "meaningCN": "烫伤",
-        "example": "scald your hand",
-        "exampleCN": "烫伤你的手"
+        "pos": "v.",
+        "zh": "把…煮至半熟"
       }
     ],
-    "latinEntries": []
+    "senses": [
+      {
+        "no": "01",
+        "title": "To bubble with heat",
+        "titleCN": "沸腾",
+        "definition": "to heat a liquid until it bubbles and gives off steam",
+        "definitionCN": "把液体加热到冒泡并冒出蒸汽",
+        "example": "The water began to boil after a few minutes.",
+        "exampleCN": "几分钟后水开始沸腾。",
+        "why": "This is the core sense, taken from the Latin word for a bubble.",
+        "whyCN": "这是核心义项，来自拉丁语中表示气泡的词。"
+      },
+      {
+        "no": "02",
+        "title": "To cook in hot water",
+        "titleCN": "煮",
+        "definition": "to cook food in water that is boiling",
+        "definitionCN": "在沸腾的水中烹煮食物",
+        "example": "She boiled two eggs for breakfast.",
+        "exampleCN": "她早饭煮了两个鸡蛋。",
+        "why": "Cooking in bubbling water is the everyday use of the same action.",
+        "whyCN": "在冒泡的水里烹煮，是这一动作最常见的用法。"
+      },
+      {
+        "no": "03",
+        "title": "To be very angry",
+        "titleCN": "非常愤怒",
+        "definition": "to feel extremely angry, as if heat were rising",
+        "definitionCN": "极度愤怒，像热气往上冲",
+        "example": "He was boiling with anger after the meeting.",
+        "exampleCN": "会后他怒火中烧。",
+        "why": "Anger is pictured as heat, so the bubbling of water became a feeling.",
+        "whyCN": "愤怒被比作高温，水的翻滚便引申为情绪。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Boil goes back through French to Latin bulla, a bubble.",
+        "cn": "boil 经法语上溯到拉丁语 bulla，意思是气泡。"
+      },
+      "items": [
+        {
+          "era": "LATIN",
+          "en": "bulla meant a bubble or a round object.",
+          "cn": "bulla 指气泡或圆形之物。"
+        },
+        {
+          "era": "OLD FRENCH",
+          "en": "boillir meant to bubble and to cook in water.",
+          "cn": "boillir 指冒泡，也指用水煮。"
+        },
+        {
+          "era": "MIDDLE ENGLISH",
+          "en": "boilen covered both water and cooking.",
+          "cn": "boilen 同时指水的沸腾与烹煮。"
+        },
+        {
+          "era": "SIXTEENTH CENTURY",
+          "en": "boil over described liquid running over the pot.",
+          "cn": "boil over 指液体沸出锅外。"
+        },
+        {
+          "era": "PRESENT DAY ENGLISH",
+          "en": "boil also describes violent anger.",
+          "cn": "如今 boil 也可形容暴怒。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "The look-alike group rhymes with boil; the near-meaning group names other ways of heating food.",
+        "cn": "形近组与 boil 押韵；近义组是其他加热食物的方式。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "coil",
+              "ipa": "/kɔɪl/",
+              "tag": "look-alike",
+              "definition": "a length of rope wound in rings",
+              "definitionCN": "盘绕的一圈"
+            },
+            {
+              "word": "soil",
+              "ipa": "/sɔɪl/",
+              "tag": "look-alike",
+              "definition": "the earth in which plants grow",
+              "definitionCN": "土壤"
+            },
+            {
+              "word": "foil",
+              "ipa": "/fɔɪl/",
+              "tag": "look-alike",
+              "definition": "thin metal sheet",
+              "definitionCN": "金属薄片"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "simmer",
+              "ipa": "/ˈsɪmə(r)/",
+              "tag": "near synonym",
+              "definition": "to cook just below boiling point",
+              "definitionCN": "微沸，文火慢煮"
+            },
+            {
+              "word": "stew",
+              "ipa": "/stjuː/",
+              "tag": "near synonym",
+              "definition": "to cook food slowly in liquid",
+              "definitionCN": "炖"
+            },
+            {
+              "word": "bubble",
+              "ipa": "/ˈbʌbl/",
+              "tag": "related",
+              "definition": "to form balls of air in liquid",
+              "definitionCN": "冒泡"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Boil is the moment a liquid turns into steam at the bottom of a pot.",
+        "cn": "boil 是液体在锅底化成蒸汽的那一刻。"
+      },
+      "normal": [
+        {
+          "en": "Boil water before making tea.",
+          "cn": "泡茶前先把水烧开。"
+        },
+        {
+          "en": "Water reaches the boiling point at one hundred degrees.",
+          "cn": "水在一百度达到沸点。"
+        },
+        {
+          "en": "Boil an egg for five minutes.",
+          "cn": "鸡蛋煮五分钟。"
+        },
+        {
+          "en": "Milk may boil over if the heat is too high.",
+          "cn": "火太大时牛奶会沸出来。"
+        },
+        {
+          "en": "Boiler and parboil both grow from boil.",
+          "cn": "boiler 与 parboil 都由 boil 构成。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "See small bubbles rising in a pot.",
+          "cn": "想象锅里的小气泡不断升起。"
+        },
+        {
+          "en": "See steam clouding a kitchen window.",
+          "cn": "想象蒸汽模糊了厨房的窗。"
+        },
+        {
+          "en": "See a face turning red with anger.",
+          "cn": "想象一张因愤怒而涨红的脸。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "The water began to boil after a few minutes.",
+        "cn": "几分钟后水开始沸腾。"
+      },
+      {
+        "en": "She boiled two eggs for breakfast.",
+        "cn": "她早饭煮了两个鸡蛋。"
+      },
+      {
+        "en": "He was boiling with anger after the meeting.",
+        "cn": "会后他怒火中烧。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "拆词记忆 · 非词源",
+      "text": "boil 读起来像水沸时的「啵啵」声，看到水泡翻滚就想到煮与沸腾。",
+      "word": "boil"
+    },
+    "root": "boil 源自拉丁语 bulla（气泡），经古法语 boillir 进入英语，由「冒泡」引申为沸腾、烹煮，再引申为怒气上涌。",
+    "sensesIntro": {
+      "en": "A liquid bubbling, food cooking in it, and anger that feels like heat.",
+      "cn": "液体的翻滚、在沸水里烹煮，以及像热气一样的愤怒。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: bubbles climbing up a pot of water.",
+        "cn": "核心意象：一锅水里不断上升的气泡。"
+      },
+      "chain": [
+        "BUBBLE",
+        "HEAT",
+        "WATER",
+        "COOK",
+        "STEAM",
+        "ANGER"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "the water boils",
+          "cn": "水沸腾"
+        },
+        {
+          "senses": "01",
+          "en": "boiling point",
+          "cn": "沸点"
+        },
+        {
+          "senses": "02",
+          "en": "boil an egg",
+          "cn": "煮鸡蛋"
+        },
+        {
+          "senses": "02",
+          "en": "boiled rice",
+          "cn": "米饭"
+        },
+        {
+          "senses": "03",
+          "en": "boil with anger",
+          "cn": "怒火中烧"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Boil takes -er for a machine and the prefix par- for half-cooking.",
+        "cn": "boil 加 -er 表示机器，加前缀 par- 表示煮至半熟。"
+      },
+      "latinIntro": {
+        "en": "The base is Latin; the items below trace the same bubbling idea.",
+        "cn": "词基来自拉丁语，下面的词都围绕冒泡这一意象。"
+      },
+      "items": [
+        {
+          "word": "boil",
+          "structure": "Latin bulla",
+          "meaning": "to bubble with heat",
+          "meaningCN": "沸腾",
+          "example": "boil the water",
+          "exampleCN": "把水烧开"
+        },
+        {
+          "word": "boiler",
+          "structure": "boil + -er",
+          "meaning": "a machine that heats water",
+          "meaningCN": "锅炉",
+          "example": "a gas boiler",
+          "exampleCN": "燃气锅炉"
+        },
+        {
+          "word": "parboil",
+          "structure": "par- + boil",
+          "meaning": "to boil partly",
+          "meaningCN": "煮至半熟",
+          "example": "parboil the potatoes",
+          "exampleCN": "把土豆煮至半熟"
+        },
+        {
+          "word": "bubble",
+          "structure": "Middle English bobel",
+          "meaning": "a ball of air in liquid",
+          "meaningCN": "气泡",
+          "example": "a soap bubble",
+          "exampleCN": "肥皂泡"
+        },
+        {
+          "word": "simmer",
+          "structure": "Middle English symperen",
+          "meaning": "to cook gently",
+          "meaningCN": "微沸",
+          "example": "simmer the soup",
+          "exampleCN": "用文火煮汤"
+        },
+        {
+          "word": "stew",
+          "structure": "Old French estuver",
+          "meaning": "to cook slowly in liquid",
+          "meaningCN": "炖",
+          "example": "stew the meat",
+          "exampleCN": "炖肉"
+        },
+        {
+          "word": "steam",
+          "structure": "Old English steam",
+          "meaning": "the gas from boiling water",
+          "meaningCN": "蒸汽",
+          "example": "hot steam",
+          "exampleCN": "滚烫的蒸汽"
+        },
+        {
+          "word": "scald",
+          "structure": "Latin excaldare",
+          "meaning": "to burn with hot liquid",
+          "meaningCN": "烫伤",
+          "example": "scald your hand",
+          "exampleCN": "烫伤你的手"
+        }
+      ],
+      "latinEntries": []
+    }
   }
-}
+]

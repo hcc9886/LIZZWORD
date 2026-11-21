@@ -1,395 +1,397 @@
-{
- "word": "beneficent",
- "ipa_uk": "/bəˈnefɪsnt/",
- "ipa_us": "/bəˈnefɪsnt/",
- "definition_zh": "仁慈的；行善的；有益的；造福的",
- "definition_en": "doing good or producing good results; kind and generous",
- "core_image": "慈眉善目的长者张开手，庇荫着树下的人们",
- "scene": "老榕树下，老人把伞举向淋雨的学生。The beneficent old doctor treated poor patients without any fee.",
- "sceneCN": "这里 beneficent 是「仁慈的、行善的」（第 1 个义项：乐于助人施惠的）；句意是仁慈的老医生免费为穷苦病人看病。",
- "pos": [
+[
   {
-   "tag": "adj.",
-   "zh": "仁慈的；行善的；有益的"
-  }
- ],
- "collocations": [
-  {
-   "phrase": "a beneficent ruler",
-   "zh": "仁君；仁慈的统治者"
-  },
-  {
-   "phrase": "beneficent influence",
-   "zh": "良好的影响"
-  },
-  {
-   "phrase": "beneficent effects",
-   "zh": "有益的效果"
-  },
-  {
-   "phrase": "a beneficent smile",
-   "zh": "慈祥的微笑"
-  },
-  {
-   "phrase": "beneficent forces of nature",
-   "zh": "大自然造福的力量"
-  }
- ],
- "forms": [
-  {
-   "label": "比较级",
-   "form": "more beneficent"
-  },
-  {
-   "label": "最高级",
-   "form": "most beneficent"
-  }
- ],
- "derivatives": [
-  {
-   "word": "beneficence",
-   "pos": "n.",
-   "zh": "由形容词加名词后缀构成，义为「仁慈；善行」"
-  },
-  {
-   "word": "beneficently",
-   "pos": "adv.",
-   "zh": "由形容词加副词后缀构成，义为「仁慈地」"
-  },
-  {
-   "word": "maleficent",
-   "pos": "adj.",
-   "zh": "反义同根词，义为「有害的；作恶的」"
-  }
- ],
- "senses": [
-  {
-   "no": "01",
-   "title": "Kind and doing good to others",
-   "titleCN": "仁慈的；行善的",
-   "definition": "describing a person or power that kindly helps or protects others",
-   "definitionCN": "形容人或力量仁慈地帮助、庇护他人",
-   "example": "The beneficent old doctor treated poor patients without any fee.",
-   "exampleCN": "仁慈的老医生免费为穷苦病人看病。",
-   "why": "Bene means well and facere means to do, so the person is a well-doer.",
-   "whyCN": "bene 意为「好」，facere 意为「做」，合起来形容「行善之人」。"
-  },
-  {
-   "no": "02",
-   "title": "Producing good effects",
-   "titleCN": "有益的；造福的",
-   "definition": "bringing helpful or favourable results, as of forces or influences",
-   "definitionCN": "带来好结果，常形容力量、影响或效果",
-   "example": "The volcano's ash later proved beneficent to the vineyards.",
-   "exampleCN": "火山灰后来反而滋养了葡萄园，效果有益。",
-   "why": "Well-doing applies to things and forces, not only to people.",
-   "whyCN": "「行善」的对象不限于人，也可以是自然力量与影响。"
-  }
- ],
- "etymology": {
-  "intro": {
-   "en": "Beneficent comes from Latin benefacere, to do well, plus the adjective suffix -ent.",
-   "cn": "beneficent 来自拉丁语 benefacere「行善」加形容词后缀 -ent。"
-  },
-  "items": [
-   {
-    "era": "PROTO-INDO-EUROPEAN",
-    "en": "the root dhe- meant to set, to do.",
-    "cn": "词根 dhe- 意为「放置、做」（重构形式）。"
-   },
-   {
-    "era": "LATIN",
-    "en": "benefacere meant to do good; beneficus meant generous, kind.",
-    "cn": "拉丁语 benefacere 意为「行善」，beneficus 意为「慷慨仁慈」。"
-   },
-   {
-    "era": "MIDDLE FRENCH",
-    "en": "benefique and related forms carried the sense into French.",
-    "cn": "法语相关形式延续了「仁慈」之义。"
-   },
-   {
-    "era": "ENGLISH, 15TH-16TH C.",
-    "en": "beneficent appeared in English for kindly rulers and forces.",
-    "cn": "十五至十六世纪英语用 beneficent 形容仁君与善的力量。"
-   },
-   {
-    "era": "MODERN ENGLISH",
-    "en": "it now contrasts with maleficent in everyday and literary use.",
-    "cn": "如今与 maleficent 形成日常与文学中的对照。"
-   }
-  ]
- },
- "similar": {
-  "note": {
-   "en": "The look-alike group shares the bene- or fic- roots; the near-meaning group gathers kindly words.",
-   "cn": "形近组共享 bene- 或 fic- 词根；近义组汇集仁慈类词。"
-  },
-  "groups": [
-   {
-    "heading": "LOOK-ALIKE",
-    "entries": [
-     {
-      "word": "beneficence",
-      "ipa": "/bəˈnefɪsns/",
-      "tag": "derived form",
-      "definition": "the quality of doing good",
-      "definitionCN": "仁慈——beneficent 的名词形式"
-     },
-     {
-      "word": "beneficial",
-      "ipa": "/ˌbenɪˈfɪʃl/",
-      "tag": "same root",
-      "definition": "producing good results",
-      "definitionCN": "有益的——拼写相近，侧重效果"
-     },
-     {
-      "word": "maleficent",
-      "ipa": "/məˈlefɪsnt/",
-      "tag": "opposite",
-      "definition": "causing harm or evil",
-      "definitionCN": "作恶的——前缀相反的对照词"
-     }
-    ]
-   },
-   {
-    "heading": "NEAR MEANING",
-    "entries": [
-     {
-      "word": "benevolent",
-      "ipa": "/bəˈnevələnt/",
-      "tag": "near synonym",
-      "definition": "kind and wishing others well",
-      "definitionCN": "仁慈的；侧重心意的善良"
-     },
-     {
-      "word": "charitable",
-      "ipa": "/ˈtʃærətəbl/",
-      "tag": "near synonym",
-      "definition": "generous in giving to the needy",
-      "definitionCN": "慈善的；侧重施舍"
-     },
-     {
-      "word": "altruistic",
-      "ipa": "/ˌæltruˈɪstɪk/",
-      "tag": "near synonym",
-      "definition": "selflessly concerned for others",
-      "definitionCN": "利他的；强调无私"
-     }
-    ]
-   }
-  ]
- },
- "mnemonics": {
-  "normalIntro": {
-   "en": "Beneficent is bene plus facere plus -ent: doing good.",
-   "cn": "beneficent 是 bene 加 facere 加 -ent：行善的。"
-  },
-  "normal": [
-   {
-    "en": "The noun is beneficence.",
-    "cn": "名词是 beneficence。"
-   },
-   {
-    "en": "Maleficent is its evil opposite.",
-    "cn": "maleficent 是它的反面，作恶的。"
-   },
-   {
-    "en": "Beneficial focuses on results.",
-    "cn": "beneficial 侧重效果。"
-   },
-   {
-    "en": "A beneficent ruler is a kindly one.",
-    "cn": "beneficent ruler 指仁君。"
-   },
-   {
-    "en": "Compare with benevolent.",
-    "cn": "与 benevolent 对比记忆。"
-   }
-  ],
-  "abstract": [
-   {
-    "en": "See shade spreading from one great tree.",
-    "cn": "看大树把绿荫铺开。"
-   },
-   {
-    "en": "Feel sun after long rain.",
-    "cn": "感受久雨后的阳光。"
-   },
-   {
-    "en": "Picture a hand steadying a falling cup.",
-    "cn": "想象一只手稳稳接住将落的杯子。"
-   }
-  ]
- },
- "examples": [
-  {
-   "en": "The beneficent old doctor treated poor patients without any fee.",
-   "cn": "仁慈的老医生免费为穷苦病人看病。"
-  },
-  {
-   "en": "The volcano's ash later proved beneficent to the vineyards.",
-   "cn": "火山灰后来反而滋养了葡萄园，效果有益。"
-  },
-  {
-   "en": "Her beneficent influence shaped the whole school.",
-   "cn": "她良好的影响塑造了整所学校。"
-  }
- ],
- "dict_mnemonic": {
-  "note": "谐音记忆 · 非词源",
-  "text": "「杯你的身特」——总有一杯暖到你的身上，特别仁慈。",
-  "word": "beneficent"
- },
- "root": "拉丁语 bene「好地」加 facere「做」（词根上溯至原始印欧语 dhe-「放置、做」，重构形式），派生形容词 beneficus「慷慨仁慈的」，十五至十六世纪经拉丁语与法语进入英语。同根词有 beneficence、benefit、maleficent 等。",
- "sensesIntro": {
-  "en": "One adjective describes both kindly people and powers that quietly do good.",
-  "cn": "一个形容词，既写仁慈之人，也写默默造福的力量。"
- },
- "semanticMap": {
-  "core": {
-   "en": "CORE IMAGE: a kind elder spreading shade like a great tree.",
-   "cn": "核心意象：如大树般张开手庇荫他人的长者。"
-  },
-  "chain": [
-   "GOODNESS",
-   "DOING",
-   "KINDNESS",
-   "PROTECTION",
-   "FLOURISHING",
-   "HARMONY"
-  ],
-  "branches": [
-   {
-    "senses": "01",
-    "en": "a beneficent ruler",
-    "cn": "仁君"
-   },
-   {
-    "senses": "01",
-    "en": "a beneficent smile",
-    "cn": "慈祥的微笑"
-   },
-   {
-    "senses": "02",
-    "en": "beneficent effects",
-    "cn": "有益的效果"
-   },
-   {
-    "senses": "02",
-    "en": "beneficent forces of nature",
-    "cn": "自然造福之力"
-   },
-   {
-    "senses": "01 · 02",
-    "en": "beneficent influence",
-    "cn": "良好的影响"
-   }
-  ]
- },
- "affixes": {
-  "intro": {
-   "en": "Beneficent wears the doing root fac- as an adjective of quality.",
-   "cn": "beneficent 以品质形容词的形式披着「做」词根 fac-。"
-  },
-  "latinIntro": {
-   "en": "The Latin pair bene and facere heads this family.",
-   "cn": "拉丁语 bene 与 facere 的组合统领这个词族。"
-  },
-  "items": [
-   {
-    "word": "facere",
-    "structure": "Latin verb",
-    "meaning": "to do, make",
-    "meaningCN": "做",
-    "example": "bene facere",
-    "exampleCN": "行善"
-   },
-   {
-    "word": "beneficus",
-    "structure": "Latin adjective",
-    "meaning": "generous, kindly",
-    "meaningCN": "慷慨仁慈的",
-    "example": "homo beneficus",
-    "exampleCN": "仁慈之人"
-   },
-   {
     "word": "beneficent",
-    "structure": "bene + fic + -ent",
-    "meaning": "doing good",
-    "meaningCN": "行善的",
-    "example": "a beneficent ruler",
-    "exampleCN": "仁君"
-   },
-   {
-    "word": "beneficence",
-    "structure": "bene + fic + -ence",
-    "meaning": "kind generosity",
-    "meaningCN": "仁慈",
-    "example": "acts of beneficence",
-    "exampleCN": "善举"
-   },
-   {
-    "word": "beneficial",
-    "structure": "bene + fic + -ial",
-    "meaning": "producing good",
-    "meaningCN": "有益的",
-    "example": "beneficial effects",
-    "exampleCN": "有益的效果"
-   },
-   {
-    "word": "maleficent",
-    "structure": "male + fic + -ent",
-    "meaning": "doing harm",
-    "meaningCN": "作恶的",
-    "example": "a maleficent power",
-    "exampleCN": "邪恶的力量"
-   },
-   {
-    "word": "magnificent",
-    "structure": "magnus + facere",
-    "meaning": "great and splendid",
-    "meaningCN": "壮丽的",
-    "example": "a magnificent view",
-    "exampleCN": "壮丽的景色"
-   },
-   {
-    "word": "benevolent",
-    "structure": "bene + velle",
-    "meaning": "wishing well",
-    "meaningCN": "仁慈的",
-    "example": "a benevolent donor",
-    "exampleCN": "仁慈的捐助人"
-   },
-   {
-    "word": "altruistic",
-    "structure": "French autrui + -istic",
-    "meaning": "selflessly helping others",
-    "meaningCN": "利他的",
-    "example": "altruistic motives",
-    "exampleCN": "利他动机"
-   }
-  ],
-  "latinEntries": [
-   {
-    "word": "beneficus",
-    "structure": "Latin adjective",
-    "meaning": "kind, generous; ancestor of beneficent",
-    "meaningCN": "仁慈慷慨的；beneficent 的祖先词",
-    "example": "deus beneficus",
-    "exampleCN": "仁慈之神"
-   }
-  ],
-  "derivatives": [
-   {
-    "word": "beneficence",
-    "pos": "n.",
-    "zh": "由形容词加名词后缀构成，义为「仁慈」"
-   },
-   {
-    "word": "beneficently",
-    "pos": "adv.",
-    "zh": "由形容词加副词后缀构成，义为「仁慈地」"
-   }
-  ]
- }
-}
+    "ipa_uk": "/bəˈnefɪsnt/",
+    "ipa_us": "/bəˈnefɪsnt/",
+    "definition_zh": "仁慈的；行善的；有益的；造福的",
+    "definition_en": "doing good or producing good results; kind and generous",
+    "core_image": "慈眉善目的长者张开手，庇荫着树下的人们",
+    "scene": "老榕树下，老人把伞举向淋雨的学生。The beneficent old doctor treated poor patients without any fee.",
+    "sceneCN": "这里 beneficent 是「仁慈的、行善的」（第 1 个义项：乐于助人施惠的）；句意是仁慈的老医生免费为穷苦病人看病。",
+    "pos": [
+      {
+        "tag": "adj.",
+        "zh": "仁慈的；行善的；有益的"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "a beneficent ruler",
+        "zh": "仁君；仁慈的统治者"
+      },
+      {
+        "phrase": "beneficent influence",
+        "zh": "良好的影响"
+      },
+      {
+        "phrase": "beneficent effects",
+        "zh": "有益的效果"
+      },
+      {
+        "phrase": "a beneficent smile",
+        "zh": "慈祥的微笑"
+      },
+      {
+        "phrase": "beneficent forces of nature",
+        "zh": "大自然造福的力量"
+      }
+    ],
+    "forms": [
+      {
+        "label": "比较级",
+        "form": "more beneficent"
+      },
+      {
+        "label": "最高级",
+        "form": "most beneficent"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "beneficence",
+        "pos": "n.",
+        "zh": "由形容词加名词后缀构成，义为「仁慈；善行」"
+      },
+      {
+        "word": "beneficently",
+        "pos": "adv.",
+        "zh": "由形容词加副词后缀构成，义为「仁慈地」"
+      },
+      {
+        "word": "maleficent",
+        "pos": "adj.",
+        "zh": "反义同根词，义为「有害的；作恶的」"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "Kind and doing good to others",
+        "titleCN": "仁慈的；行善的",
+        "definition": "describing a person or power that kindly helps or protects others",
+        "definitionCN": "形容人或力量仁慈地帮助、庇护他人",
+        "example": "The beneficent old doctor treated poor patients without any fee.",
+        "exampleCN": "仁慈的老医生免费为穷苦病人看病。",
+        "why": "Bene means well and facere means to do, so the person is a well-doer.",
+        "whyCN": "bene 意为「好」，facere 意为「做」，合起来形容「行善之人」。"
+      },
+      {
+        "no": "02",
+        "title": "Producing good effects",
+        "titleCN": "有益的；造福的",
+        "definition": "bringing helpful or favourable results, as of forces or influences",
+        "definitionCN": "带来好结果，常形容力量、影响或效果",
+        "example": "The volcano's ash later proved beneficent to the vineyards.",
+        "exampleCN": "火山灰后来反而滋养了葡萄园，效果有益。",
+        "why": "Well-doing applies to things and forces, not only to people.",
+        "whyCN": "「行善」的对象不限于人，也可以是自然力量与影响。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Beneficent comes from Latin benefacere, to do well, plus the adjective suffix -ent.",
+        "cn": "beneficent 来自拉丁语 benefacere「行善」加形容词后缀 -ent。"
+      },
+      "items": [
+        {
+          "era": "PROTO-INDO-EUROPEAN",
+          "en": "the root dhe- meant to set, to do.",
+          "cn": "词根 dhe- 意为「放置、做」（重构形式）。"
+        },
+        {
+          "era": "LATIN",
+          "en": "benefacere meant to do good; beneficus meant generous, kind.",
+          "cn": "拉丁语 benefacere 意为「行善」，beneficus 意为「慷慨仁慈」。"
+        },
+        {
+          "era": "MIDDLE FRENCH",
+          "en": "benefique and related forms carried the sense into French.",
+          "cn": "法语相关形式延续了「仁慈」之义。"
+        },
+        {
+          "era": "ENGLISH, 15TH-16TH C.",
+          "en": "beneficent appeared in English for kindly rulers and forces.",
+          "cn": "十五至十六世纪英语用 beneficent 形容仁君与善的力量。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "it now contrasts with maleficent in everyday and literary use.",
+          "cn": "如今与 maleficent 形成日常与文学中的对照。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "The look-alike group shares the bene- or fic- roots; the near-meaning group gathers kindly words.",
+        "cn": "形近组共享 bene- 或 fic- 词根；近义组汇集仁慈类词。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "beneficence",
+              "ipa": "/bəˈnefɪsns/",
+              "tag": "derived form",
+              "definition": "the quality of doing good",
+              "definitionCN": "仁慈——beneficent 的名词形式"
+            },
+            {
+              "word": "beneficial",
+              "ipa": "/ˌbenɪˈfɪʃl/",
+              "tag": "same root",
+              "definition": "producing good results",
+              "definitionCN": "有益的——拼写相近，侧重效果"
+            },
+            {
+              "word": "maleficent",
+              "ipa": "/məˈlefɪsnt/",
+              "tag": "opposite",
+              "definition": "causing harm or evil",
+              "definitionCN": "作恶的——前缀相反的对照词"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "benevolent",
+              "ipa": "/bəˈnevələnt/",
+              "tag": "near synonym",
+              "definition": "kind and wishing others well",
+              "definitionCN": "仁慈的；侧重心意的善良"
+            },
+            {
+              "word": "charitable",
+              "ipa": "/ˈtʃærətəbl/",
+              "tag": "near synonym",
+              "definition": "generous in giving to the needy",
+              "definitionCN": "慈善的；侧重施舍"
+            },
+            {
+              "word": "altruistic",
+              "ipa": "/ˌæltruˈɪstɪk/",
+              "tag": "near synonym",
+              "definition": "selflessly concerned for others",
+              "definitionCN": "利他的；强调无私"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Beneficent is bene plus facere plus -ent: doing good.",
+        "cn": "beneficent 是 bene 加 facere 加 -ent：行善的。"
+      },
+      "normal": [
+        {
+          "en": "The noun is beneficence.",
+          "cn": "名词是 beneficence。"
+        },
+        {
+          "en": "Maleficent is its evil opposite.",
+          "cn": "maleficent 是它的反面，作恶的。"
+        },
+        {
+          "en": "Beneficial focuses on results.",
+          "cn": "beneficial 侧重效果。"
+        },
+        {
+          "en": "A beneficent ruler is a kindly one.",
+          "cn": "beneficent ruler 指仁君。"
+        },
+        {
+          "en": "Compare with benevolent.",
+          "cn": "与 benevolent 对比记忆。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "See shade spreading from one great tree.",
+          "cn": "看大树把绿荫铺开。"
+        },
+        {
+          "en": "Feel sun after long rain.",
+          "cn": "感受久雨后的阳光。"
+        },
+        {
+          "en": "Picture a hand steadying a falling cup.",
+          "cn": "想象一只手稳稳接住将落的杯子。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "The beneficent old doctor treated poor patients without any fee.",
+        "cn": "仁慈的老医生免费为穷苦病人看病。"
+      },
+      {
+        "en": "The volcano's ash later proved beneficent to the vineyards.",
+        "cn": "火山灰后来反而滋养了葡萄园，效果有益。"
+      },
+      {
+        "en": "Her beneficent influence shaped the whole school.",
+        "cn": "她良好的影响塑造了整所学校。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「杯你的身特」——总有一杯暖到你的身上，特别仁慈。",
+      "word": "beneficent"
+    },
+    "root": "拉丁语 bene「好地」加 facere「做」（词根上溯至原始印欧语 dhe-「放置、做」，重构形式），派生形容词 beneficus「慷慨仁慈的」，十五至十六世纪经拉丁语与法语进入英语。同根词有 beneficence、benefit、maleficent 等。",
+    "sensesIntro": {
+      "en": "One adjective describes both kindly people and powers that quietly do good.",
+      "cn": "一个形容词，既写仁慈之人，也写默默造福的力量。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: a kind elder spreading shade like a great tree.",
+        "cn": "核心意象：如大树般张开手庇荫他人的长者。"
+      },
+      "chain": [
+        "GOODNESS",
+        "DOING",
+        "KINDNESS",
+        "PROTECTION",
+        "FLOURISHING",
+        "HARMONY"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "a beneficent ruler",
+          "cn": "仁君"
+        },
+        {
+          "senses": "01",
+          "en": "a beneficent smile",
+          "cn": "慈祥的微笑"
+        },
+        {
+          "senses": "02",
+          "en": "beneficent effects",
+          "cn": "有益的效果"
+        },
+        {
+          "senses": "02",
+          "en": "beneficent forces of nature",
+          "cn": "自然造福之力"
+        },
+        {
+          "senses": "01 · 02",
+          "en": "beneficent influence",
+          "cn": "良好的影响"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Beneficent wears the doing root fac- as an adjective of quality.",
+        "cn": "beneficent 以品质形容词的形式披着「做」词根 fac-。"
+      },
+      "latinIntro": {
+        "en": "The Latin pair bene and facere heads this family.",
+        "cn": "拉丁语 bene 与 facere 的组合统领这个词族。"
+      },
+      "items": [
+        {
+          "word": "facere",
+          "structure": "Latin verb",
+          "meaning": "to do, make",
+          "meaningCN": "做",
+          "example": "bene facere",
+          "exampleCN": "行善"
+        },
+        {
+          "word": "beneficus",
+          "structure": "Latin adjective",
+          "meaning": "generous, kindly",
+          "meaningCN": "慷慨仁慈的",
+          "example": "homo beneficus",
+          "exampleCN": "仁慈之人"
+        },
+        {
+          "word": "beneficent",
+          "structure": "bene + fic + -ent",
+          "meaning": "doing good",
+          "meaningCN": "行善的",
+          "example": "a beneficent ruler",
+          "exampleCN": "仁君"
+        },
+        {
+          "word": "beneficence",
+          "structure": "bene + fic + -ence",
+          "meaning": "kind generosity",
+          "meaningCN": "仁慈",
+          "example": "acts of beneficence",
+          "exampleCN": "善举"
+        },
+        {
+          "word": "beneficial",
+          "structure": "bene + fic + -ial",
+          "meaning": "producing good",
+          "meaningCN": "有益的",
+          "example": "beneficial effects",
+          "exampleCN": "有益的效果"
+        },
+        {
+          "word": "maleficent",
+          "structure": "male + fic + -ent",
+          "meaning": "doing harm",
+          "meaningCN": "作恶的",
+          "example": "a maleficent power",
+          "exampleCN": "邪恶的力量"
+        },
+        {
+          "word": "magnificent",
+          "structure": "magnus + facere",
+          "meaning": "great and splendid",
+          "meaningCN": "壮丽的",
+          "example": "a magnificent view",
+          "exampleCN": "壮丽的景色"
+        },
+        {
+          "word": "benevolent",
+          "structure": "bene + velle",
+          "meaning": "wishing well",
+          "meaningCN": "仁慈的",
+          "example": "a benevolent donor",
+          "exampleCN": "仁慈的捐助人"
+        },
+        {
+          "word": "altruistic",
+          "structure": "French autrui + -istic",
+          "meaning": "selflessly helping others",
+          "meaningCN": "利他的",
+          "example": "altruistic motives",
+          "exampleCN": "利他动机"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "beneficus",
+          "structure": "Latin adjective",
+          "meaning": "kind, generous; ancestor of beneficent",
+          "meaningCN": "仁慈慷慨的；beneficent 的祖先词",
+          "example": "deus beneficus",
+          "exampleCN": "仁慈之神"
+        }
+      ],
+      "derivatives": [
+        {
+          "word": "beneficence",
+          "pos": "n.",
+          "zh": "由形容词加名词后缀构成，义为「仁慈」"
+        },
+        {
+          "word": "beneficently",
+          "pos": "adv.",
+          "zh": "由形容词加副词后缀构成，义为「仁慈地」"
+        }
+      ]
+    }
+  }
+]

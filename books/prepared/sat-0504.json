@@ -1,155 +1,432 @@
-{
-  "word": "cacophonous",
-  "ipa_uk": "/kæˈkɒfənəs/",
-  "ipa_us": "/kæˈkɑːfənəs/",
-  "definition_zh": "刺耳的；音调不和谐的；嘈杂难听的",
-  "definition_en": "having a harsh, discordant mixture of sounds",
-  "core_image": "早高峰街口喇叭、钻孔与尖叫声搅成一团",
-  "scene": "清晨的工地边，钻机与汽车喇叭响成一片。The street was cacophonous with drills and honking horns.",
-  "sceneCN": "这里 cacophonous 是「刺耳的、嘈杂的」（第 1 个义项：声音混杂难听）；句意是街上钻机与喇叭声搅作一团。",
-  "pos": [
-    { "tag": "adj.", "zh": "刺耳的；不和谐的；嘈杂的" }
-  ],
-  "collocations": [
-    { "phrase": "a cacophonous roar", "zh": "刺耳的轰鸣" },
-    { "phrase": "cacophonous noise", "zh": "嘈杂的噪音" },
-    { "phrase": "a cacophonous chorus", "zh": "不和谐的合唱" },
-    { "phrase": "cacophonous cries", "zh": "刺耳的叫喊" },
-    { "phrase": "cacophonous traffic", "zh": "喧闹的车流" }
-  ],
-  "forms": [
-    { "label": "副词", "form": "cacophonously" },
-    { "label": "名词（同根）", "form": "cacophony" }
-  ],
-  "derivatives": [
-    { "word": "cacophony", "pos": "n.", "zh": "同根名词，义为「刺耳的声音；不和谐音」" },
-    { "word": "cacophonously", "pos": "adv.", "zh": "由形容词加 -ly 构成，义为「刺耳地；嘈杂地」" },
-    { "word": "euphonious", "pos": "adj.", "zh": "同根反义词，eu- 换 caco-，义为「悦耳的」" }
-  ],
-  "senses": [
-    {
-      "no": "01",
-      "title": "Harsh in sound",
-      "titleCN": "刺耳的；难听的",
-      "definition": "unpleasant and harsh to the ear",
-      "definitionCN": "听感不快、粗粝刺耳的",
-      "example": "The gulls made a cacophonous racket over the fish market.",
-      "exampleCN": "海鸥在鱼市上空发出刺耳的喧闹。",
-      "why": "The prefix caco- means bad and phone means sound.",
-      "whyCN": "前缀 caco- 意为「坏」，phone 意为「声音」，合即「坏声音」。"
-    },
-    {
-      "no": "02",
-      "title": "Discordant when mixed",
-      "titleCN": "不和谐的；混杂失调的",
-      "definition": "made up of sounds that clash and do not blend",
-      "definitionCN": "由相互冲突、无法融合的声音构成",
-      "example": "An orchestra tuning up is deliberately cacophonous.",
-      "exampleCN": "乐队调音时的声音故意不和谐。",
-      "why": "Many bad sounds at once create discord rather than music.",
-      "whyCN": "多种杂音并作便成失调，而非乐音。"
-    },
-    {
-      "no": "03",
-      "title": "Jarring in language or style",
-      "titleCN": "（文字）拗口的；音感突兀的",
-      "definition": "of words or writing, harsh and awkward in sound",
-      "definitionCN": "指词句发音粗硬拗口",
-      "example": "The poet chose cacophonous consonants to imitate the storm.",
-      "exampleCN": "诗人故意选用刺耳的辅音来模拟风暴。",
-      "why": "Sound aesthetics extends from music to speech.",
-      "whyCN": "声音美学由音乐延伸至语言。"
-    }
-  ],
-  "etymology": {
-    "intro": { "en": "Cacophonous is built on Greek roots: kakos, bad, and phone, sound.", "cn": "cacophonous 由希腊语词根构成：kakos（坏）加 phone（声音）。" },
-    "items": [
-      { "era": "PROTO-INDO-EUROPEAN", "en": "a root meaning bad or evil lies behind Greek kakos; the reconstruction is uncertain in detail.", "cn": "希腊语 kakos 背后是表示「坏、恶」的原始印欧词根，细节属重构。" },
-      { "era": "GREEK", "en": "kakos meant bad, and phone meant sound or voice.", "cn": "希腊语 kakos 意为「坏」，phone 意为「声音、嗓音」。" },
-      { "era": "GREEK KAKOPHONIA", "en": "kakophonia named a harsh or ill-sounding phrase.", "cn": "希腊语 kakophonia 指粗粝刺耳的言语。" },
-      { "era": "FRENCH CACOPHONIE", "en": "French cacophonie brought the term into modern European usage.", "cn": "法语 cacophonie 把这个词带入近代欧洲语用。" },
-      { "era": "ENGLISH, 18TH–19TH C.", "en": "English formed the noun cacophony and the adjective cacophonous.", "cn": "英语在十八至十九世纪由名词 cacophony 派生形容词 cacophonous。" }
-    ]
-  },
-  "similar": {
-    "note": { "en": "The look-alike group shares the sound root; the near-meaning group gathers noise words.", "cn": "形近组同出「声音」词根；近义组是噪声类词。" },
-    "groups": [
+[
+  {
+    "word": "cacophonous",
+    "ipa_uk": "/kæˈkɒfənəs/",
+    "ipa_us": "/kæˈkɑːfənəs/",
+    "definition_zh": "刺耳的；音调不和谐的；嘈杂难听的",
+    "definition_en": "having a harsh, discordant mixture of sounds",
+    "core_image": "早高峰街口喇叭、钻孔与尖叫声搅成一团",
+    "scene": "清晨的工地边，钻机与汽车喇叭响成一片。The street was cacophonous with drills and honking horns.",
+    "sceneCN": "这里 cacophonous 是「刺耳的、嘈杂的」（第 1 个义项：声音混杂难听）；句意是街上钻机与喇叭声搅作一团。",
+    "pos": [
       {
-        "heading": "LOOK-ALIKE",
-        "entries": [
-          { "word": "cacophony", "ipa": "/kæˈkɒfəni/", "tag": "derived form", "definition": "a harsh discordant mixture of sound", "definitionCN": "刺耳的混杂声，cacophonous 的名词" },
-          { "word": "euphonious", "ipa": "/juːˈfəʊniəs/", "tag": "same root, opposite", "definition": "pleasing to the ear", "definitionCN": "悦耳的，同根反义" },
-          { "word": "symphony", "ipa": "/ˈsɪmfəni/", "tag": "same root", "definition": "a sounding together, a musical form", "definitionCN": "交响乐，同出 phone 词根" },
-          { "word": "telephone", "ipa": "/ˈtelɪfəʊn/", "tag": "same root", "definition": "a far-sounding device", "definitionCN": "电话，同出 phone 词根" }
-        ]
+        "tag": "adj.",
+        "zh": "刺耳的；不和谐的；嘈杂的"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "a cacophonous roar",
+        "zh": "刺耳的轰鸣"
       },
       {
-        "heading": "NEAR MEANING",
-        "entries": [
-          { "word": "discordant", "ipa": "/dɪˈskɔːdənt/", "tag": "near meaning", "definition": "not in agreement, as sounds", "definitionCN": "不和谐的；相冲突的" },
-          { "word": "grating", "ipa": "/ˈɡreɪtɪŋ/", "tag": "near meaning", "definition": "harsh and irritating in sound", "definitionCN": "粗粝刺耳的" },
-          { "word": "raucous", "ipa": "/ˈrɔːkəs/", "tag": "near meaning", "definition": "loud and rough in voice", "definitionCN": "沙哑喧闹的" },
-          { "word": "jarring", "ipa": "/ˈdʒɑːrɪŋ/", "tag": "near meaning", "definition": "shockingly out of harmony", "definitionCN": "刺耳突兀的" },
-          { "word": "strident", "ipa": "/ˈstraɪdnt/", "tag": "near meaning", "definition": "loud, harsh and forceful", "definitionCN": "尖锐刺耳的" }
-        ]
+        "phrase": "cacophonous noise",
+        "zh": "嘈杂的噪音"
+      },
+      {
+        "phrase": "a cacophonous chorus",
+        "zh": "不和谐的合唱"
+      },
+      {
+        "phrase": "cacophonous cries",
+        "zh": "刺耳的叫喊"
+      },
+      {
+        "phrase": "cacophonous traffic",
+        "zh": "喧闹的车流"
       }
-    ]
-  },
-  "mnemonics": {
-    "normalIntro": { "en": "Break it once: caco, bad; phon, sound; ous, adjective.", "cn": "拆一次就记住：caco 坏，phon 声，ous 形容词尾。" },
-    "normal": [
-      { "en": "Caco- means bad, as in cacophony.", "cn": "caco- 意为「坏」，如 cacophony。" },
-      { "en": "-phon- means sound, as in telephone.", "cn": "-phon- 意为「声音」，如 telephone。" },
-      { "en": "Euphonious is its opposite, good-sounding.", "cn": "euphonious 是它的反义词，意为悦耳。" },
-      { "en": "A cacophony is the noun for the noise itself.", "cn": "cacophony 是噪声的名词形式。" },
-      { "en": "Cacophony and cacophonous differ only in ending.", "cn": "cacophony 与 cacophonous 仅词尾不同。" }
     ],
-    "abstract": [
-      { "en": "Hear all the car horns of a jam hit at once.", "cn": "听堵车时所有喇叭同时按响。" },
-      { "en": "Feel your teeth ache at the scrape of chalk.", "cn": "感受粉笔刮擦声让牙根发酸。" },
-      { "en": "Picture an orchestra tuning all at once.", "cn": "想象乐队同时调音的一片杂响。" }
-    ]
-  },
-  "examples": [
-    { "en": "The morning market opened in a cacophonous babble of vendors.", "cn": "清晨的集市在摊贩刺耳的喧声中开场。" },
-    { "en": "The score turns deliberately cacophonous to portray the battle.", "cn": "乐谱故意变得不和谐以描绘战斗。" },
-    { "en": "Cacophonous feedback howled from the broken speaker.", "cn": "坏掉的音箱发出刺耳的啸叫。" }
-  ],
-  "dict_mnemonic": { "note": "谐音记忆 · 非词源", "text": "「卡壳疯呢」——音响卡壳，疯了一样刺耳；一屋子人都被吵得抓狂。", "word": "cacophonous" },
-  "root": "cacophonous 出自希腊语 kakos「坏的」加 phone「声音」，经 kakophonia、法语 cacophonie 进入英语；同根词 euphonious（悦耳）、symphony（交响）、telephone（电话）都围着「声音」词根生长。",
-  "sensesIntro": { "en": "Bad sound first, then the clash of many sounds, finally the harshness of words themselves.", "cn": "先是「坏声音」，再是众多声音的冲突，最后落到语言本身的粗粝。" },
-  "semanticMap": {
-    "core": { "en": "CORE IMAGE: a rush-hour street where every horn shrieks at once.", "cn": "核心意象：早高峰街口所有喇叭同时尖鸣。" },
-    "chain": ["BAD SOUND", "MANY SOURCES", "DISCORD", "DISCOMFORT", "LANGUAGE", "DELIBERATE ART"],
-    "branches": [
-      { "senses": "01", "en": "cacophonous gulls over the market", "cn": "鱼市上空喧闹的海鸥" },
-      { "senses": "01", "en": "a cacophonous roar of engines", "cn": "引擎刺耳的轰鸣" },
-      { "senses": "02", "en": "an orchestra tuning up", "cn": "调音中的乐队" },
-      { "senses": "03", "en": "cacophonous consonants in a poem", "cn": "诗中拗口的辅音" },
-      { "senses": "02 · 03", "en": "deliberate discord in music and verse", "cn": "音乐与诗中有意为之的失调" }
-    ]
-  },
-  "affixes": {
-    "intro": { "en": "The word is a transparent Greek compound: bad plus sound plus adjective ending.", "cn": "这个词是透明的希腊语复合：坏加声音加形容词尾。" },
-    "latinIntro": { "en": "The roots are Greek, though English formed the adjective through Latin-looking endings.", "cn": "词根为希腊语，英语形容词形式经拉丁化的词尾构成。" },
-    "items": [
-      { "word": "caco-", "structure": "Greek prefix", "meaning": "bad, ill", "meaningCN": "坏的；恶的", "example": "cacophony, cacography", "exampleCN": "如 cacophony（刺耳）、cacography（拼写恶劣）" },
-      { "word": "-phon-", "structure": "Greek root", "meaning": "sound, voice", "meaningCN": "声音；嗓音", "example": "telephone, symphony", "exampleCN": "如 telephone、symphony" },
-      { "word": "-ous", "structure": "adjective suffix", "meaning": "full of, having", "meaningCN": "形容词后缀", "example": "dangerous, famous", "exampleCN": "如 dangerous、famous" },
-      { "word": "cacophony", "structure": "caco- + -phony", "meaning": "harsh mixed sound", "meaningCN": "刺耳混杂声", "example": "a cacophony of horns", "exampleCN": "喇叭的嘈杂轰鸣" },
-      { "word": "cacophonously", "structure": "cacophonous + -ly", "meaning": "in a harsh-sounding way", "meaningCN": "刺耳地", "example": "the gulls cried cacophonously", "exampleCN": "海鸥叫得刺耳" },
-      { "word": "euphonious", "structure": "eu- + -phon- + -ous", "meaning": "pleasing in sound", "meaningCN": "悦耳的", "example": "a euphonious name", "exampleCN": "悦耳的名字" },
-      { "word": "symphony", "structure": "syn- + -phon- + -y", "meaning": "sounding together", "meaningCN": "交响；谐音", "example": "a symphony orchestra", "exampleCN": "交响乐团" },
-      { "word": "discordant", "structure": "dis- + cordant", "meaning": "not in accord", "meaningCN": "不和谐的", "example": "discordant notes", "exampleCN": "不谐和的音符" },
-      { "word": "raucous", "structure": "Latin raucus", "meaning": "hoarse, rough", "meaningCN": "沙哑粗粝的", "example": "raucous laughter", "exampleCN": "沙哑的大笑" }
-    ],
-    "latinEntries": [
-      { "word": "kakophonia", "structure": "Greek noun (kakos + phone)", "meaning": "ill-sounding speech", "meaningCN": "粗粝刺耳之音" }
+    "forms": [
+      {
+        "label": "副词",
+        "form": "cacophonously"
+      },
+      {
+        "label": "名词（同根）",
+        "form": "cacophony"
+      }
     ],
     "derivatives": [
-      { "word": "cacophony", "pos": "n.", "zh": "刺耳的混杂声" },
-      { "word": "cacophonously", "pos": "adv.", "zh": "刺耳地；嘈杂地" },
-      { "word": "euphonious", "pos": "adj.", "zh": "悦耳的（反义）" }
-    ]
+      {
+        "word": "cacophony",
+        "pos": "n.",
+        "zh": "同根名词，义为「刺耳的声音；不和谐音」"
+      },
+      {
+        "word": "cacophonously",
+        "pos": "adv.",
+        "zh": "由形容词加 -ly 构成，义为「刺耳地；嘈杂地」"
+      },
+      {
+        "word": "euphonious",
+        "pos": "adj.",
+        "zh": "同根反义词，eu- 换 caco-，义为「悦耳的」"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "Harsh in sound",
+        "titleCN": "刺耳的；难听的",
+        "definition": "unpleasant and harsh to the ear",
+        "definitionCN": "听感不快、粗粝刺耳的",
+        "example": "The gulls made a cacophonous racket over the fish market.",
+        "exampleCN": "海鸥在鱼市上空发出刺耳的喧闹。",
+        "why": "The prefix caco- means bad and phone means sound.",
+        "whyCN": "前缀 caco- 意为「坏」，phone 意为「声音」，合即「坏声音」。"
+      },
+      {
+        "no": "02",
+        "title": "Discordant when mixed",
+        "titleCN": "不和谐的；混杂失调的",
+        "definition": "made up of sounds that clash and do not blend",
+        "definitionCN": "由相互冲突、无法融合的声音构成",
+        "example": "An orchestra tuning up is deliberately cacophonous.",
+        "exampleCN": "乐队调音时的声音故意不和谐。",
+        "why": "Many bad sounds at once create discord rather than music.",
+        "whyCN": "多种杂音并作便成失调，而非乐音。"
+      },
+      {
+        "no": "03",
+        "title": "Jarring in language or style",
+        "titleCN": "（文字）拗口的；音感突兀的",
+        "definition": "of words or writing, harsh and awkward in sound",
+        "definitionCN": "指词句发音粗硬拗口",
+        "example": "The poet chose cacophonous consonants to imitate the storm.",
+        "exampleCN": "诗人故意选用刺耳的辅音来模拟风暴。",
+        "why": "Sound aesthetics extends from music to speech.",
+        "whyCN": "声音美学由音乐延伸至语言。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Cacophonous is built on Greek roots: kakos, bad, and phone, sound.",
+        "cn": "cacophonous 由希腊语词根构成：kakos（坏）加 phone（声音）。"
+      },
+      "items": [
+        {
+          "era": "PROTO-INDO-EUROPEAN",
+          "en": "a root meaning bad or evil lies behind Greek kakos; the reconstruction is uncertain in detail.",
+          "cn": "希腊语 kakos 背后是表示「坏、恶」的原始印欧词根，细节属重构。"
+        },
+        {
+          "era": "GREEK",
+          "en": "kakos meant bad, and phone meant sound or voice.",
+          "cn": "希腊语 kakos 意为「坏」，phone 意为「声音、嗓音」。"
+        },
+        {
+          "era": "GREEK KAKOPHONIA",
+          "en": "kakophonia named a harsh or ill-sounding phrase.",
+          "cn": "希腊语 kakophonia 指粗粝刺耳的言语。"
+        },
+        {
+          "era": "FRENCH CACOPHONIE",
+          "en": "French cacophonie brought the term into modern European usage.",
+          "cn": "法语 cacophonie 把这个词带入近代欧洲语用。"
+        },
+        {
+          "era": "ENGLISH, 18TH–19TH C.",
+          "en": "English formed the noun cacophony and the adjective cacophonous.",
+          "cn": "英语在十八至十九世纪由名词 cacophony 派生形容词 cacophonous。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "The look-alike group shares the sound root; the near-meaning group gathers noise words.",
+        "cn": "形近组同出「声音」词根；近义组是噪声类词。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "cacophony",
+              "ipa": "/kæˈkɒfəni/",
+              "tag": "derived form",
+              "definition": "a harsh discordant mixture of sound",
+              "definitionCN": "刺耳的混杂声，cacophonous 的名词"
+            },
+            {
+              "word": "euphonious",
+              "ipa": "/juːˈfəʊniəs/",
+              "tag": "same root, opposite",
+              "definition": "pleasing to the ear",
+              "definitionCN": "悦耳的，同根反义"
+            },
+            {
+              "word": "symphony",
+              "ipa": "/ˈsɪmfəni/",
+              "tag": "same root",
+              "definition": "a sounding together, a musical form",
+              "definitionCN": "交响乐，同出 phone 词根"
+            },
+            {
+              "word": "telephone",
+              "ipa": "/ˈtelɪfəʊn/",
+              "tag": "same root",
+              "definition": "a far-sounding device",
+              "definitionCN": "电话，同出 phone 词根"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "discordant",
+              "ipa": "/dɪˈskɔːdənt/",
+              "tag": "near meaning",
+              "definition": "not in agreement, as sounds",
+              "definitionCN": "不和谐的；相冲突的"
+            },
+            {
+              "word": "grating",
+              "ipa": "/ˈɡreɪtɪŋ/",
+              "tag": "near meaning",
+              "definition": "harsh and irritating in sound",
+              "definitionCN": "粗粝刺耳的"
+            },
+            {
+              "word": "raucous",
+              "ipa": "/ˈrɔːkəs/",
+              "tag": "near meaning",
+              "definition": "loud and rough in voice",
+              "definitionCN": "沙哑喧闹的"
+            },
+            {
+              "word": "jarring",
+              "ipa": "/ˈdʒɑːrɪŋ/",
+              "tag": "near meaning",
+              "definition": "shockingly out of harmony",
+              "definitionCN": "刺耳突兀的"
+            },
+            {
+              "word": "strident",
+              "ipa": "/ˈstraɪdnt/",
+              "tag": "near meaning",
+              "definition": "loud, harsh and forceful",
+              "definitionCN": "尖锐刺耳的"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Break it once: caco, bad; phon, sound; ous, adjective.",
+        "cn": "拆一次就记住：caco 坏，phon 声，ous 形容词尾。"
+      },
+      "normal": [
+        {
+          "en": "Caco- means bad, as in cacophony.",
+          "cn": "caco- 意为「坏」，如 cacophony。"
+        },
+        {
+          "en": "-phon- means sound, as in telephone.",
+          "cn": "-phon- 意为「声音」，如 telephone。"
+        },
+        {
+          "en": "Euphonious is its opposite, good-sounding.",
+          "cn": "euphonious 是它的反义词，意为悦耳。"
+        },
+        {
+          "en": "A cacophony is the noun for the noise itself.",
+          "cn": "cacophony 是噪声的名词形式。"
+        },
+        {
+          "en": "Cacophony and cacophonous differ only in ending.",
+          "cn": "cacophony 与 cacophonous 仅词尾不同。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "Hear all the car horns of a jam hit at once.",
+          "cn": "听堵车时所有喇叭同时按响。"
+        },
+        {
+          "en": "Feel your teeth ache at the scrape of chalk.",
+          "cn": "感受粉笔刮擦声让牙根发酸。"
+        },
+        {
+          "en": "Picture an orchestra tuning all at once.",
+          "cn": "想象乐队同时调音的一片杂响。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "The morning market opened in a cacophonous babble of vendors.",
+        "cn": "清晨的集市在摊贩刺耳的喧声中开场。"
+      },
+      {
+        "en": "The score turns deliberately cacophonous to portray the battle.",
+        "cn": "乐谱故意变得不和谐以描绘战斗。"
+      },
+      {
+        "en": "Cacophonous feedback howled from the broken speaker.",
+        "cn": "坏掉的音箱发出刺耳的啸叫。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「卡壳疯呢」——音响卡壳，疯了一样刺耳；一屋子人都被吵得抓狂。",
+      "word": "cacophonous"
+    },
+    "root": "cacophonous 出自希腊语 kakos「坏的」加 phone「声音」，经 kakophonia、法语 cacophonie 进入英语；同根词 euphonious（悦耳）、symphony（交响）、telephone（电话）都围着「声音」词根生长。",
+    "sensesIntro": {
+      "en": "Bad sound first, then the clash of many sounds, finally the harshness of words themselves.",
+      "cn": "先是「坏声音」，再是众多声音的冲突，最后落到语言本身的粗粝。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: a rush-hour street where every horn shrieks at once.",
+        "cn": "核心意象：早高峰街口所有喇叭同时尖鸣。"
+      },
+      "chain": [
+        "BAD SOUND",
+        "MANY SOURCES",
+        "DISCORD",
+        "DISCOMFORT",
+        "LANGUAGE",
+        "DELIBERATE ART"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "cacophonous gulls over the market",
+          "cn": "鱼市上空喧闹的海鸥"
+        },
+        {
+          "senses": "01",
+          "en": "a cacophonous roar of engines",
+          "cn": "引擎刺耳的轰鸣"
+        },
+        {
+          "senses": "02",
+          "en": "an orchestra tuning up",
+          "cn": "调音中的乐队"
+        },
+        {
+          "senses": "03",
+          "en": "cacophonous consonants in a poem",
+          "cn": "诗中拗口的辅音"
+        },
+        {
+          "senses": "02 · 03",
+          "en": "deliberate discord in music and verse",
+          "cn": "音乐与诗中有意为之的失调"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "The word is a transparent Greek compound: bad plus sound plus adjective ending.",
+        "cn": "这个词是透明的希腊语复合：坏加声音加形容词尾。"
+      },
+      "latinIntro": {
+        "en": "The roots are Greek, though English formed the adjective through Latin-looking endings.",
+        "cn": "词根为希腊语，英语形容词形式经拉丁化的词尾构成。"
+      },
+      "items": [
+        {
+          "word": "caco-",
+          "structure": "Greek prefix",
+          "meaning": "bad, ill",
+          "meaningCN": "坏的；恶的",
+          "example": "cacophony, cacography",
+          "exampleCN": "如 cacophony（刺耳）、cacography（拼写恶劣）"
+        },
+        {
+          "word": "-phon-",
+          "structure": "Greek root",
+          "meaning": "sound, voice",
+          "meaningCN": "声音；嗓音",
+          "example": "telephone, symphony",
+          "exampleCN": "如 telephone、symphony"
+        },
+        {
+          "word": "-ous",
+          "structure": "adjective suffix",
+          "meaning": "full of, having",
+          "meaningCN": "形容词后缀",
+          "example": "dangerous, famous",
+          "exampleCN": "如 dangerous、famous"
+        },
+        {
+          "word": "cacophony",
+          "structure": "caco- + -phony",
+          "meaning": "harsh mixed sound",
+          "meaningCN": "刺耳混杂声",
+          "example": "a cacophony of horns",
+          "exampleCN": "喇叭的嘈杂轰鸣"
+        },
+        {
+          "word": "cacophonously",
+          "structure": "cacophonous + -ly",
+          "meaning": "in a harsh-sounding way",
+          "meaningCN": "刺耳地",
+          "example": "the gulls cried cacophonously",
+          "exampleCN": "海鸥叫得刺耳"
+        },
+        {
+          "word": "euphonious",
+          "structure": "eu- + -phon- + -ous",
+          "meaning": "pleasing in sound",
+          "meaningCN": "悦耳的",
+          "example": "a euphonious name",
+          "exampleCN": "悦耳的名字"
+        },
+        {
+          "word": "symphony",
+          "structure": "syn- + -phon- + -y",
+          "meaning": "sounding together",
+          "meaningCN": "交响；谐音",
+          "example": "a symphony orchestra",
+          "exampleCN": "交响乐团"
+        },
+        {
+          "word": "discordant",
+          "structure": "dis- + cordant",
+          "meaning": "not in accord",
+          "meaningCN": "不和谐的",
+          "example": "discordant notes",
+          "exampleCN": "不谐和的音符"
+        },
+        {
+          "word": "raucous",
+          "structure": "Latin raucus",
+          "meaning": "hoarse, rough",
+          "meaningCN": "沙哑粗粝的",
+          "example": "raucous laughter",
+          "exampleCN": "沙哑的大笑"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "kakophonia",
+          "structure": "Greek noun (kakos + phone)",
+          "meaning": "ill-sounding speech",
+          "meaningCN": "粗粝刺耳之音"
+        }
+      ],
+      "derivatives": [
+        {
+          "word": "cacophony",
+          "pos": "n.",
+          "zh": "刺耳的混杂声"
+        },
+        {
+          "word": "cacophonously",
+          "pos": "adv.",
+          "zh": "刺耳地；嘈杂地"
+        },
+        {
+          "word": "euphonious",
+          "pos": "adj.",
+          "zh": "悦耳的（反义）"
+        }
+      ]
+    }
   }
-}
+]

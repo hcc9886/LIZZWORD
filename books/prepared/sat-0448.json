@@ -1,262 +1,506 @@
-{
-  "word": "bravado",
-  "ipa_uk": "/brəˈvɑːdəʊ/",
-  "ipa_us": "/brəˈvɑːdoʊ/",
-  "definition_zh": "虚张声势；逞强；故作勇敢",
-  "definition_en": "a bold, confident manner pretended to impress or hide fear",
-  "core_image": "站在悬崖边上的年轻人故意笑得很大声，双腿却在发抖",
-  "scene": "夜里排队走独木桥时没人肯先认怯。His bravado vanished the moment the plank began to sway.",
-  "sceneCN": "这里 bravado 是「逞强、虚张声势」（第 1 个义项：假装出的大胆）；句意是独木桥一晃，他的逞强立刻消失了。",
-  "pos": [
-    { "tag": "n.", "zh": "虚张声势；逞强" }
-  ],
-  "collocations": [
-    { "phrase": "sheer bravado", "zh": "纯粹的逞强" },
-    { "phrase": "out of bravado", "zh": "出于逞强" },
-    { "phrase": "a show of bravado", "zh": "逞强的姿态" },
-    { "phrase": "false bravado", "zh": "假装的勇敢" },
-    { "phrase": "mask of bravado", "zh": "逞强的面具" },
-    { "phrase": "youthful bravado", "zh": "年轻气盛的逞强" }
-  ],
-  "forms": [
-    { "label": "复数", "form": "bravados" }
-  ],
-  "derivatives": [
-    { "word": "brave", "pos": "adj.", "zh": "同根形容词，义为「勇敢的」" },
-    { "word": "bravery", "pos": "n.", "zh": "由同根加名词后缀构成，义为「勇敢（真实品质）」" },
-    { "word": "bravo", "pos": "n.", "zh": "由同根构成，义为「亡命徒；（喝彩）好」" },
-    { "word": "bravura", "pos": "n.", "zh": "由同根构成，义为「高超技艺的炫示」" }
-  ],
-  "senses": [
-    {
-      "no": "01",
-      "title": "Pretended boldness",
-      "titleCN": "假装的大胆；逞强",
-      "definition": "bold behavior assumed to hide fear or impress others",
-      "definitionCN": "为掩饰恐惧或打动他人而装出的大胆言行",
-      "example": "His bravado hid a fear of heights.",
-      "exampleCN": "他的逞强掩盖着恐高。",
-      "why": "The root means brave; adding the Spanish-style ending makes the bravery a performance.",
-      "whyCN": "词根义为「勇敢」，加上西班牙风词尾后，勇敢便成了一场表演。"
-    },
-    {
-      "no": "02",
-      "title": "A show of defiance",
-      "titleCN": "挑衅式的示威",
-      "definition": "an outward display of defiance toward an opponent or danger",
-      "definitionCN": "面向对手或危险的外在挑衅姿态",
-      "example": "The rebels answered the decree with bravado.",
-      "exampleCN": "叛军以示威姿态回应那道法令。",
-      "why": "Fear once masked turns outward as challenge.",
-      "whyCN": "被掩盖的恐惧向外翻转为挑战。"
-    },
-    {
-      "no": "03",
-      "title": "Rash courage in action",
-      "titleCN": "莽撞的胆气",
-      "definition": "boldness that leads to needless risk-taking",
-      "definitionCN": "导致不必要冒险的胆量",
-      "example": "He climbed the fence out of pure bravado.",
-      "exampleCN": "他纯粹为了逞强翻过了围栏。",
-      "why": "A performance must be witnessed, so the risk is taken where eyes can see.",
-      "whyCN": "表演必须有人看，于是冒险专挑有目光的地方。"
-    },
-    {
-      "no": "04",
-      "title": "Loud swagger of speech",
-      "titleCN": "叫嚣式的大话",
-      "definition": "boastful, challenging talk without real intent",
-      "definitionCN": "夸口叫阵、并无实际行动意图的言语",
-      "example": "Threats made in bravado are soon forgotten.",
-      "exampleCN": "逞强时的狠话很快就被遗忘。",
-      "why": "The mouth is the easiest stage for a pretended self.",
-      "whyCN": "嘴巴是表演假自我最便宜的舞台。"
-    },
-    {
-      "no": "05",
-      "title": "Group spirit of defiance",
-      "titleCN": "集体的逞强气氛",
-      "definition": "a shared mood of boldness in a group facing danger",
-      "definitionCN": "一群人面对危险时共同的逞强气氛",
-      "example": "The squad crossed the ridge in high bravado.",
-      "exampleCN": "小队在一片逞强的亢奋中翻过山脊。",
-      "why": "When a whole group wears the same mask, the mask becomes the mood.",
-      "whyCN": "当一群人戴同一种面具，面具就成了气氛。"
-    },
-    {
-      "no": "06",
-      "title": "Spirit rewarded in stories",
-      "titleCN": "故事里被赞美的胆气",
-      "definition": "boldness celebrated as admirable daring in narrative",
-      "definitionCN": "叙事中被当作可敬大胆来歌颂的胆气",
-      "example": "Old ballads turn bravado into glory.",
-      "exampleCN": "古歌谣把逞强唱成荣耀。",
-      "why": "The line between acting brave and being brave blurs in legend.",
-      "whyCN": "在传说里，「装勇敢」与「真勇敢」的界线本来就模糊。"
-    },
-    {
-      "no": "07",
-      "title": "Confidence discovered in the act",
-      "titleCN": "做出来才有的胆气",
-      "definition": "courage that begins as pretense but carries the actor through",
-      "definitionCN": "始于做作、却真正支撑人完成行动的胆量",
-      "example": "Half her bravado turned to real nerve halfway across.",
-      "exampleCN": "走到一半，她的逞强有一半变成了真胆量。",
-      "why": "A mask worn long enough grows into the face.",
-      "whyCN": "面具戴得够久，就长成了脸。"
-    },
-    {
-      "no": "08",
-      "title": "Gallant flair, as of dress or style",
-      "titleCN": "（旧义）潇洒做派",
-      "definition": "in older use, showy gallantry in dress or manner",
-      "definitionCN": "旧义指衣着举止上的华丽逞风流",
-      "example": "Earlier writers used bravado for a dashing style.",
-      "exampleCN": "早期作家用 bravado 指潇洒张扬的做派。",
-      "why": "The Spanish brave gave both courage and finery, so the word once covered display of dress too.",
-      "whyCN": "西班牙语的 brave 兼有「勇」与「俏」二义，故此词一度也指衣着上的张扬。"
-    }
-  ],
-  "etymology": {
-    "intro": {
-      "en": "Bravado came into English via French from Spanish bravada, built on bravo, brave.",
-      "cn": "bravado 经法语进入英语，源自西班牙语 bravada，词基为 bravo（勇敢的）。"
-    },
-    "items": [
+[
+  {
+    "word": "bravado",
+    "ipa_uk": "/brəˈvɑːdəʊ/",
+    "ipa_us": "/brəˈvɑːdoʊ/",
+    "definition_zh": "虚张声势；逞强；故作勇敢",
+    "definition_en": "a bold, confident manner pretended to impress or hide fear",
+    "core_image": "站在悬崖边上的年轻人故意笑得很大声，双腿却在发抖",
+    "scene": "夜里排队走独木桥时没人肯先认怯。His bravado vanished the moment the plank began to sway.",
+    "sceneCN": "这里 bravado 是「逞强、虚张声势」（第 1 个义项：假装出的大胆）；句意是独木桥一晃，他的逞强立刻消失了。",
+    "pos": [
       {
-        "era": "LATIN",
-        "en": "The base is Latin barbarus or pravus by competing accounts; the Spanish word bravo meant brave, wild, or savage, with an uncertain deeper source.",
-        "cn": "词基的更早来源诸说不一（或谓拉丁语 barbarus，或谓 pravus）；西班牙语 bravo 意为勇敢的、狂野的，深层来源不确定。"
-      },
-      {
-        "era": "SPANISH",
-        "en": "Spanish bravo meant bold or defiant, and bravada meant a boastful, defiant act.",
-        "cn": "西班牙语 bravo 意为大胆、挑衅，bravada 意为逞强挑衅之举。"
-      },
-      {
-        "era": "FRENCH",
-        "en": "French borrowed the word as bravade, keeping the sense of defiant display.",
-        "cn": "法语借入该词作 bravade，保留挑衅性炫耀之义。"
-      },
-      {
-        "era": "ENGLISH, 16TH C.",
-        "en": "English took bravado from French bravade, reshaping the ending on the model of Portuguese and Spanish -ado words.",
-        "cn": "十六世纪英语借入 bravado，词尾按葡西语 -ado 类词的模式改造。"
-      },
-      {
-        "era": "ENGLISH, 17TH C.",
-        "en": "It flourished in tales of duels and soldiers, where pretended courage was a stock theme.",
-        "cn": "十七世纪盛行于决斗与军旅故事，假勇敢是那里的常见母题。"
-      },
-      {
-        "era": "MODERN ENGLISH",
-        "en": "Modern use stresses the pretended quality; the older dress sense has fallen away.",
-        "cn": "现代用法强调「假装」性质；旧有的衣着义已消失。"
+        "tag": "n.",
+        "zh": "虚张声势；逞强"
       }
-    ]
-  },
-  "similar": {
-    "note": {
-      "en": "Bravado belongs to the brave family; its Spanish-styled cousins describe displays of boldness of different kinds.",
-      "cn": "bravado 属 brave 词族；其西语风格近亲们描写各色「大胆的展示」。"
-    },
-    "groups": [
+    ],
+    "collocations": [
       {
-        "heading": "LOOK-ALIKE",
-        "entries": [
-          { "word": "brave", "ipa": "/breɪv/", "tag": "same root", "definition": "courageous", "definitionCN": "勇敢的；同根形容词" },
-          { "word": "bravery", "ipa": "/ˈbreɪvəri/", "tag": "same root", "definition": "real courage as a quality", "definitionCN": "真正的勇气；与 bravado 的「假装」相对" },
-          { "word": "bravura", "ipa": "/brəˈvjʊərə/", "tag": "same root", "definition": "a display of brilliant technique", "definitionCN": "精湛技艺的炫示；同根意语借词" },
-          { "word": "bravo", "ipa": "/ˈbrɑːvəʊ/", "tag": "same root", "definition": "a cry of approval, or a hired fighter", "definitionCN": "喝彩声；亡命徒；同根" },
-          { "word": "tornado", "ipa": "/tɔːˈneɪdəʊ/", "tag": "spelling", "definition": "a violent whirlwind", "definitionCN": "龙卷风；仅共用 -ado 词尾，词源不同" }
-        ]
+        "phrase": "sheer bravado",
+        "zh": "纯粹的逞强"
       },
       {
-        "heading": "NEAR MEANING",
-        "entries": [
-          { "word": "bluster", "ipa": "/ˈblʌstə(r)/", "tag": "near meaning", "definition": "loud, empty threatening talk", "definitionCN": "咆哮式空话；bravado 侧重姿态，bluster 侧重音量" },
-          { "word": "swagger", "ipa": "/ˈswæɡə(r)/", "tag": "near meaning", "definition": "arrogant self-assured manner", "definitionCN": "昂首张扬的做派" },
-          { "word": "daring", "ipa": "/ˈdeərɪŋ/", "tag": "near meaning", "definition": "adventurous courage, often real", "definitionCN": "大胆（常为真实）" },
-          { "word": "pretense", "ipa": "/prɪˈtens/", "tag": "near meaning", "definition": "a false show or claim", "definitionCN": "伪装；bravado 是其勇敢版本" },
-          { "word": "guts", "ipa": "/ɡʌts/", "tag": "informal", "definition": "real courage, informally", "definitionCN": "真胆量（口语），与 bravado 相对" }
-        ]
+        "phrase": "out of bravado",
+        "zh": "出于逞强"
+      },
+      {
+        "phrase": "a show of bravado",
+        "zh": "逞强的姿态"
+      },
+      {
+        "phrase": "false bravado",
+        "zh": "假装的勇敢"
+      },
+      {
+        "phrase": "mask of bravado",
+        "zh": "逞强的面具"
+      },
+      {
+        "phrase": "youthful bravado",
+        "zh": "年轻气盛的逞强"
       }
-    ]
-  },
-  "mnemonics": {
-    "normalIntro": {
-      "en": "See brave inside the word, wearing a Spanish costume: bravery in costume is bravado.",
-      "cn": "看见词里的 brave（勇敢）穿着西班牙戏服：穿上戏服的勇敢就是 bravado。"
-    },
-    "normal": [
-      { "en": "brave is the root; -ado is the Spanish-style ending.", "cn": "词根是 brave；-ado 是西班牙风词尾。" },
-      { "en": "Spanish bravada means a defiant show.", "cn": "西班牙语 bravada 意为挑衅性的炫耀。" },
-      { "en": "armada and bravado share the -ado pattern of borrowing.", "cn": "armada 与 bravado 共享 -ado 借词模式。" },
-      { "en": "bravery is the real thing; bravado the display.", "cn": "bravery 是真品质，bravado 是表演。" },
-      { "en": "the stress is on the second syllable: bra-VA-do.", "cn": "重音在第二音节：bra-VA-do。" }
     ],
-    "abstract": [
-      { "en": "A loud laugh at the cliff edge, knees shaking below it.", "cn": "崖边的大笑，膝下却在打颤。" },
-      { "en": "Courage as a costume, worn for the audience.", "cn": "勇敢如戏服，为观众而穿。" },
-      { "en": "The mask is loudest where the fear is deepest.", "cn": "恐惧最深处，面具最响。" }
-    ]
-  },
-  "examples": [
-    { "en": "What looked like calm was really bravado.", "cn": "看似镇定，实为逞强。" },
-    { "en": "Teenage bravado made him take the dare without a helmet.", "cn": "少年逞强使他没戴头盔就应了那个挑战。" },
-    { "en": "Her bravado melted when the referee actually blew the whistle.", "cn": "裁判真的鸣哨时，她的逞强顿时化了。" }
-  ],
-  "dict_mnemonic": {
-    "note": "谐音记忆 · 非词源",
-    "text": "「不惹我兜」——嘴上喊「不惹我？我兜着走！」，其实兜里空空：喊得越响越是 bravado。",
-    "word": "bravado"
-  },
-  "root": "西班牙语词根 brav-（勇敢的、狂野的；更早来源不确定）+ 逞强名词后缀 -ada 构成 bravada，经法语 bravade 进入英语作 bravado。",
-  "sensesIntro": {
-    "en": "From pretended boldness the word spreads to defiant shows, rash risks, loud talk, group moods, and the courage pretense can grow into.",
-    "cn": "义项由假装的胆量出发，扩展至挑衅姿态、莽撞冒险、叫嚣之词、集体气氛，及伪装能长成的真勇气。"
-  },
-  "semanticMap": {
-    "core": {
-      "en": "CORE IMAGE: a mask of courage worn over a shaking face",
-      "cn": "核心意象：扣在发抖的脸上的勇气面具"
-    },
-    "chain": ["FEAR", "MASK", "SHOW", "DEFIANCE", "RISK", "GROWTH"],
-    "branches": [
-      { "senses": "01 · 04", "en": "the pretended self: bold face and louder mouth", "cn": "假自我：Bold 脸与更响的嘴" },
-      { "senses": "02 · 05", "en": "defiance outward: one challenger or a whole squad", "cn": "向外的挑衅：一人叫阵或全员逞强" },
-      { "senses": "03", "en": "the price: risks taken where eyes can see", "cn": "代价：专挑有目光处的冒险" },
-      { "senses": "06", "en": "the song's version: bravado sung as glory", "cn": "歌谣版：逞强被唱成荣耀" },
-      { "senses": "07 · 08", "en": "the endings: mask grows into face; courage into finery", "cn": "两种结局：面具长成脸，胆气化作风流" }
-    ]
-  },
-  "affixes": {
-    "intro": {
-      "en": "A Romance formation: brave root plus the Spanish -ada display suffix, anglicized in form.",
-      "cn": "罗曼语式构词：brave 词根加西班牙语表「炫耀之举」的后缀 -ada，再英语化成形。"
-    },
-    "latinIntro": {
-      "en": "The deeper Latin source of bravo is disputed; scholarship offers barbarus and pravus without a settled answer.",
-      "cn": "bravo 的更深拉丁来源有争议；学界提出 barbarus 与 pravus 两种说法，尚无定论。"
-    },
-    "items": [
-      { "word": "brav-", "structure": "Spanish root", "meaning": "bold, wild", "meaningCN": "大胆的；狂野的", "example": "bravo, bravo!", "exampleCN": "喝彩之词 bravo" },
-      { "word": "-ada", "structure": "Spanish suffix", "meaning": "act or display of", "meaningCN": "……之举；……之姿", "example": "bravada, a defiant act", "exampleCN": "bravada，逞强之举" },
-      { "word": "-ado", "structure": "anglicized ending", "meaning": "Spanish-style noun ending", "meaningCN": "西语风名词词尾", "example": "armada, tornado, bravado", "exampleCN": "armada、tornado、bravado 同型" },
-      { "word": "bravade", "structure": "French form", "meaning": "defiant display", "meaningCN": "挑衅性炫耀", "example": "French bravade is the direct source", "exampleCN": "法语 bravade 是直接来源" },
-      { "word": "bravery", "structure": "English derivative", "meaning": "real courage", "meaningCN": "真勇气", "example": "bravery contrasts with bravado", "exampleCN": "bravery 与 bravado 相对" },
-      { "word": "bravura", "structure": "Italian derivative", "meaning": "display of brilliant skill", "meaningCN": "技艺炫示", "example": "a bravura performance", "exampleCN": "一场炫技演出" },
-      { "word": "barbarus", "structure": "disputed Latin source", "meaning": "foreign, wild", "meaningCN": "外邦的；狂野的（一说）", "example": "one account of bravo's origin", "exampleCN": "bravo 来源一说" },
-      { "word": "pravus", "structure": "disputed Latin source", "meaning": "crooked", "meaningCN": "弯曲的（另一说）", "example": "the rival account", "exampleCN": "另一 competing 说法" }
-    ],
-    "latinEntries": [
-      { "word": "barbarus", "structure": "Latin adjective", "meaning": "foreign, uncivilized", "meaningCN": "外邦的；未开化的", "example": "barbara nomina, foreign names", "exampleCN": "外邦之名" },
-      { "word": "pravus", "structure": "Latin adjective", "meaning": "crooked, perverse", "meaningCN": "弯曲的；乖戾的", "example": "pravus usus, corrupt usage", "exampleCN": "讹误的用法" }
+    "forms": [
+      {
+        "label": "复数",
+        "form": "bravados"
+      }
     ],
     "derivatives": [
-      { "word": "brave", "pos": "adj.", "zh": "勇敢的" },
-      { "word": "bravery", "pos": "n.", "zh": "勇气" },
-      { "word": "bravura", "pos": "n.", "zh": "炫技演出" }
-    ]
+      {
+        "word": "brave",
+        "pos": "adj.",
+        "zh": "同根形容词，义为「勇敢的」"
+      },
+      {
+        "word": "bravery",
+        "pos": "n.",
+        "zh": "由同根加名词后缀构成，义为「勇敢（真实品质）」"
+      },
+      {
+        "word": "bravo",
+        "pos": "n.",
+        "zh": "由同根构成，义为「亡命徒；（喝彩）好」"
+      },
+      {
+        "word": "bravura",
+        "pos": "n.",
+        "zh": "由同根构成，义为「高超技艺的炫示」"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "Pretended boldness",
+        "titleCN": "假装的大胆；逞强",
+        "definition": "bold behavior assumed to hide fear or impress others",
+        "definitionCN": "为掩饰恐惧或打动他人而装出的大胆言行",
+        "example": "His bravado hid a fear of heights.",
+        "exampleCN": "他的逞强掩盖着恐高。",
+        "why": "The root means brave; adding the Spanish-style ending makes the bravery a performance.",
+        "whyCN": "词根义为「勇敢」，加上西班牙风词尾后，勇敢便成了一场表演。"
+      },
+      {
+        "no": "02",
+        "title": "A show of defiance",
+        "titleCN": "挑衅式的示威",
+        "definition": "an outward display of defiance toward an opponent or danger",
+        "definitionCN": "面向对手或危险的外在挑衅姿态",
+        "example": "The rebels answered the decree with bravado.",
+        "exampleCN": "叛军以示威姿态回应那道法令。",
+        "why": "Fear once masked turns outward as challenge.",
+        "whyCN": "被掩盖的恐惧向外翻转为挑战。"
+      },
+      {
+        "no": "03",
+        "title": "Rash courage in action",
+        "titleCN": "莽撞的胆气",
+        "definition": "boldness that leads to needless risk-taking",
+        "definitionCN": "导致不必要冒险的胆量",
+        "example": "He climbed the fence out of pure bravado.",
+        "exampleCN": "他纯粹为了逞强翻过了围栏。",
+        "why": "A performance must be witnessed, so the risk is taken where eyes can see.",
+        "whyCN": "表演必须有人看，于是冒险专挑有目光的地方。"
+      },
+      {
+        "no": "04",
+        "title": "Loud swagger of speech",
+        "titleCN": "叫嚣式的大话",
+        "definition": "boastful, challenging talk without real intent",
+        "definitionCN": "夸口叫阵、并无实际行动意图的言语",
+        "example": "Threats made in bravado are soon forgotten.",
+        "exampleCN": "逞强时的狠话很快就被遗忘。",
+        "why": "The mouth is the easiest stage for a pretended self.",
+        "whyCN": "嘴巴是表演假自我最便宜的舞台。"
+      },
+      {
+        "no": "05",
+        "title": "Group spirit of defiance",
+        "titleCN": "集体的逞强气氛",
+        "definition": "a shared mood of boldness in a group facing danger",
+        "definitionCN": "一群人面对危险时共同的逞强气氛",
+        "example": "The squad crossed the ridge in high bravado.",
+        "exampleCN": "小队在一片逞强的亢奋中翻过山脊。",
+        "why": "When a whole group wears the same mask, the mask becomes the mood.",
+        "whyCN": "当一群人戴同一种面具，面具就成了气氛。"
+      },
+      {
+        "no": "06",
+        "title": "Spirit rewarded in stories",
+        "titleCN": "故事里被赞美的胆气",
+        "definition": "boldness celebrated as admirable daring in narrative",
+        "definitionCN": "叙事中被当作可敬大胆来歌颂的胆气",
+        "example": "Old ballads turn bravado into glory.",
+        "exampleCN": "古歌谣把逞强唱成荣耀。",
+        "why": "The line between acting brave and being brave blurs in legend.",
+        "whyCN": "在传说里，「装勇敢」与「真勇敢」的界线本来就模糊。"
+      },
+      {
+        "no": "07",
+        "title": "Confidence discovered in the act",
+        "titleCN": "做出来才有的胆气",
+        "definition": "courage that begins as pretense but carries the actor through",
+        "definitionCN": "始于做作、却真正支撑人完成行动的胆量",
+        "example": "Half her bravado turned to real nerve halfway across.",
+        "exampleCN": "走到一半，她的逞强有一半变成了真胆量。",
+        "why": "A mask worn long enough grows into the face.",
+        "whyCN": "面具戴得够久，就长成了脸。"
+      },
+      {
+        "no": "08",
+        "title": "Gallant flair, as of dress or style",
+        "titleCN": "（旧义）潇洒做派",
+        "definition": "in older use, showy gallantry in dress or manner",
+        "definitionCN": "旧义指衣着举止上的华丽逞风流",
+        "example": "Earlier writers used bravado for a dashing style.",
+        "exampleCN": "早期作家用 bravado 指潇洒张扬的做派。",
+        "why": "The Spanish brave gave both courage and finery, so the word once covered display of dress too.",
+        "whyCN": "西班牙语的 brave 兼有「勇」与「俏」二义，故此词一度也指衣着上的张扬。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Bravado came into English via French from Spanish bravada, built on bravo, brave.",
+        "cn": "bravado 经法语进入英语，源自西班牙语 bravada，词基为 bravo（勇敢的）。"
+      },
+      "items": [
+        {
+          "era": "LATIN",
+          "en": "The base is Latin barbarus or pravus by competing accounts; the Spanish word bravo meant brave, wild, or savage, with an uncertain deeper source.",
+          "cn": "词基的更早来源诸说不一（或谓拉丁语 barbarus，或谓 pravus）；西班牙语 bravo 意为勇敢的、狂野的，深层来源不确定。"
+        },
+        {
+          "era": "SPANISH",
+          "en": "Spanish bravo meant bold or defiant, and bravada meant a boastful, defiant act.",
+          "cn": "西班牙语 bravo 意为大胆、挑衅，bravada 意为逞强挑衅之举。"
+        },
+        {
+          "era": "FRENCH",
+          "en": "French borrowed the word as bravade, keeping the sense of defiant display.",
+          "cn": "法语借入该词作 bravade，保留挑衅性炫耀之义。"
+        },
+        {
+          "era": "ENGLISH, 16TH C.",
+          "en": "English took bravado from French bravade, reshaping the ending on the model of Portuguese and Spanish -ado words.",
+          "cn": "十六世纪英语借入 bravado，词尾按葡西语 -ado 类词的模式改造。"
+        },
+        {
+          "era": "ENGLISH, 17TH C.",
+          "en": "It flourished in tales of duels and soldiers, where pretended courage was a stock theme.",
+          "cn": "十七世纪盛行于决斗与军旅故事，假勇敢是那里的常见母题。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "Modern use stresses the pretended quality; the older dress sense has fallen away.",
+          "cn": "现代用法强调「假装」性质；旧有的衣着义已消失。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "Bravado belongs to the brave family; its Spanish-styled cousins describe displays of boldness of different kinds.",
+        "cn": "bravado 属 brave 词族；其西语风格近亲们描写各色「大胆的展示」。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "brave",
+              "ipa": "/breɪv/",
+              "tag": "same root",
+              "definition": "courageous",
+              "definitionCN": "勇敢的；同根形容词"
+            },
+            {
+              "word": "bravery",
+              "ipa": "/ˈbreɪvəri/",
+              "tag": "same root",
+              "definition": "real courage as a quality",
+              "definitionCN": "真正的勇气；与 bravado 的「假装」相对"
+            },
+            {
+              "word": "bravura",
+              "ipa": "/brəˈvjʊərə/",
+              "tag": "same root",
+              "definition": "a display of brilliant technique",
+              "definitionCN": "精湛技艺的炫示；同根意语借词"
+            },
+            {
+              "word": "bravo",
+              "ipa": "/ˈbrɑːvəʊ/",
+              "tag": "same root",
+              "definition": "a cry of approval, or a hired fighter",
+              "definitionCN": "喝彩声；亡命徒；同根"
+            },
+            {
+              "word": "tornado",
+              "ipa": "/tɔːˈneɪdəʊ/",
+              "tag": "spelling",
+              "definition": "a violent whirlwind",
+              "definitionCN": "龙卷风；仅共用 -ado 词尾，词源不同"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "bluster",
+              "ipa": "/ˈblʌstə(r)/",
+              "tag": "near meaning",
+              "definition": "loud, empty threatening talk",
+              "definitionCN": "咆哮式空话；bravado 侧重姿态，bluster 侧重音量"
+            },
+            {
+              "word": "swagger",
+              "ipa": "/ˈswæɡə(r)/",
+              "tag": "near meaning",
+              "definition": "arrogant self-assured manner",
+              "definitionCN": "昂首张扬的做派"
+            },
+            {
+              "word": "daring",
+              "ipa": "/ˈdeərɪŋ/",
+              "tag": "near meaning",
+              "definition": "adventurous courage, often real",
+              "definitionCN": "大胆（常为真实）"
+            },
+            {
+              "word": "pretense",
+              "ipa": "/prɪˈtens/",
+              "tag": "near meaning",
+              "definition": "a false show or claim",
+              "definitionCN": "伪装；bravado 是其勇敢版本"
+            },
+            {
+              "word": "guts",
+              "ipa": "/ɡʌts/",
+              "tag": "informal",
+              "definition": "real courage, informally",
+              "definitionCN": "真胆量（口语），与 bravado 相对"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "See brave inside the word, wearing a Spanish costume: bravery in costume is bravado.",
+        "cn": "看见词里的 brave（勇敢）穿着西班牙戏服：穿上戏服的勇敢就是 bravado。"
+      },
+      "normal": [
+        {
+          "en": "brave is the root; -ado is the Spanish-style ending.",
+          "cn": "词根是 brave；-ado 是西班牙风词尾。"
+        },
+        {
+          "en": "Spanish bravada means a defiant show.",
+          "cn": "西班牙语 bravada 意为挑衅性的炫耀。"
+        },
+        {
+          "en": "armada and bravado share the -ado pattern of borrowing.",
+          "cn": "armada 与 bravado 共享 -ado 借词模式。"
+        },
+        {
+          "en": "bravery is the real thing; bravado the display.",
+          "cn": "bravery 是真品质，bravado 是表演。"
+        },
+        {
+          "en": "the stress is on the second syllable: bra-VA-do.",
+          "cn": "重音在第二音节：bra-VA-do。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "A loud laugh at the cliff edge, knees shaking below it.",
+          "cn": "崖边的大笑，膝下却在打颤。"
+        },
+        {
+          "en": "Courage as a costume, worn for the audience.",
+          "cn": "勇敢如戏服，为观众而穿。"
+        },
+        {
+          "en": "The mask is loudest where the fear is deepest.",
+          "cn": "恐惧最深处，面具最响。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "What looked like calm was really bravado.",
+        "cn": "看似镇定，实为逞强。"
+      },
+      {
+        "en": "Teenage bravado made him take the dare without a helmet.",
+        "cn": "少年逞强使他没戴头盔就应了那个挑战。"
+      },
+      {
+        "en": "Her bravado melted when the referee actually blew the whistle.",
+        "cn": "裁判真的鸣哨时，她的逞强顿时化了。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「不惹我兜」——嘴上喊「不惹我？我兜着走！」，其实兜里空空：喊得越响越是 bravado。",
+      "word": "bravado"
+    },
+    "root": "西班牙语词根 brav-（勇敢的、狂野的；更早来源不确定）+ 逞强名词后缀 -ada 构成 bravada，经法语 bravade 进入英语作 bravado。",
+    "sensesIntro": {
+      "en": "From pretended boldness the word spreads to defiant shows, rash risks, loud talk, group moods, and the courage pretense can grow into.",
+      "cn": "义项由假装的胆量出发，扩展至挑衅姿态、莽撞冒险、叫嚣之词、集体气氛，及伪装能长成的真勇气。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: a mask of courage worn over a shaking face",
+        "cn": "核心意象：扣在发抖的脸上的勇气面具"
+      },
+      "chain": [
+        "FEAR",
+        "MASK",
+        "SHOW",
+        "DEFIANCE",
+        "RISK",
+        "GROWTH"
+      ],
+      "branches": [
+        {
+          "senses": "01 · 04",
+          "en": "the pretended self: bold face and louder mouth",
+          "cn": "假自我：Bold 脸与更响的嘴"
+        },
+        {
+          "senses": "02 · 05",
+          "en": "defiance outward: one challenger or a whole squad",
+          "cn": "向外的挑衅：一人叫阵或全员逞强"
+        },
+        {
+          "senses": "03",
+          "en": "the price: risks taken where eyes can see",
+          "cn": "代价：专挑有目光处的冒险"
+        },
+        {
+          "senses": "06",
+          "en": "the song's version: bravado sung as glory",
+          "cn": "歌谣版：逞强被唱成荣耀"
+        },
+        {
+          "senses": "07 · 08",
+          "en": "the endings: mask grows into face; courage into finery",
+          "cn": "两种结局：面具长成脸，胆气化作风流"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "A Romance formation: brave root plus the Spanish -ada display suffix, anglicized in form.",
+        "cn": "罗曼语式构词：brave 词根加西班牙语表「炫耀之举」的后缀 -ada，再英语化成形。"
+      },
+      "latinIntro": {
+        "en": "The deeper Latin source of bravo is disputed; scholarship offers barbarus and pravus without a settled answer.",
+        "cn": "bravo 的更深拉丁来源有争议；学界提出 barbarus 与 pravus 两种说法，尚无定论。"
+      },
+      "items": [
+        {
+          "word": "brav-",
+          "structure": "Spanish root",
+          "meaning": "bold, wild",
+          "meaningCN": "大胆的；狂野的",
+          "example": "bravo, bravo!",
+          "exampleCN": "喝彩之词 bravo"
+        },
+        {
+          "word": "-ada",
+          "structure": "Spanish suffix",
+          "meaning": "act or display of",
+          "meaningCN": "……之举；……之姿",
+          "example": "bravada, a defiant act",
+          "exampleCN": "bravada，逞强之举"
+        },
+        {
+          "word": "-ado",
+          "structure": "anglicized ending",
+          "meaning": "Spanish-style noun ending",
+          "meaningCN": "西语风名词词尾",
+          "example": "armada, tornado, bravado",
+          "exampleCN": "armada、tornado、bravado 同型"
+        },
+        {
+          "word": "bravade",
+          "structure": "French form",
+          "meaning": "defiant display",
+          "meaningCN": "挑衅性炫耀",
+          "example": "French bravade is the direct source",
+          "exampleCN": "法语 bravade 是直接来源"
+        },
+        {
+          "word": "bravery",
+          "structure": "English derivative",
+          "meaning": "real courage",
+          "meaningCN": "真勇气",
+          "example": "bravery contrasts with bravado",
+          "exampleCN": "bravery 与 bravado 相对"
+        },
+        {
+          "word": "bravura",
+          "structure": "Italian derivative",
+          "meaning": "display of brilliant skill",
+          "meaningCN": "技艺炫示",
+          "example": "a bravura performance",
+          "exampleCN": "一场炫技演出"
+        },
+        {
+          "word": "barbarus",
+          "structure": "disputed Latin source",
+          "meaning": "foreign, wild",
+          "meaningCN": "外邦的；狂野的（一说）",
+          "example": "one account of bravo's origin",
+          "exampleCN": "bravo 来源一说"
+        },
+        {
+          "word": "pravus",
+          "structure": "disputed Latin source",
+          "meaning": "crooked",
+          "meaningCN": "弯曲的（另一说）",
+          "example": "the rival account",
+          "exampleCN": "另一 competing 说法"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "barbarus",
+          "structure": "Latin adjective",
+          "meaning": "foreign, uncivilized",
+          "meaningCN": "外邦的；未开化的",
+          "example": "barbara nomina, foreign names",
+          "exampleCN": "外邦之名"
+        },
+        {
+          "word": "pravus",
+          "structure": "Latin adjective",
+          "meaning": "crooked, perverse",
+          "meaningCN": "弯曲的；乖戾的",
+          "example": "pravus usus, corrupt usage",
+          "exampleCN": "讹误的用法"
+        }
+      ],
+      "derivatives": [
+        {
+          "word": "brave",
+          "pos": "adj.",
+          "zh": "勇敢的"
+        },
+        {
+          "word": "bravery",
+          "pos": "n.",
+          "zh": "勇气"
+        },
+        {
+          "word": "bravura",
+          "pos": "n.",
+          "zh": "炫技演出"
+        }
+      ]
+    }
   }
-}
+]

@@ -1,266 +1,517 @@
-{
-  "word": "breach",
-  "ipa_uk": "/briːtʃ/",
-  "ipa_us": "/briːtʃ/",
-  "definition_zh": "违反；破裂；缺口；（鲸）跃出水面",
-  "definition_en": "a break in a law, wall, or relationship; also a whale's leap from water",
-  "core_image": "城墙被撞开一个大缺口，士兵从裂口中涌入；也有鲸鱼破水腾空的画面",
-  "scene": "律师把文件推到桌上。The company's failure to deliver was a clear breach of contract.",
-  "sceneCN": "这里 breach 是「违反」（第 1 个义项：违背契约、法律）；句意是公司未能交货，明显违反了合同。",
-  "pos": [
-    { "tag": "n.", "zh": "违反；破裂；缺口" },
-    { "tag": "vt.", "zh": "违反；攻破；冲破" },
-    { "tag": "vi.", "zh": "（鲸）跃出水面" }
-  ],
-  "collocations": [
-    { "phrase": "a breach of contract", "zh": "违约" },
-    { "phrase": "a breach of trust", "zh": "背信" },
-    { "phrase": "breach the wall", "zh": "在墙上破口" },
-    { "phrase": "a breach of security", "zh": "安全漏洞" },
-    { "phrase": "mend a breach", "zh": "弥合裂痕" },
-    { "phrase": "step into the breach", "zh": "补位；挺身救急" }
-  ],
-  "forms": [
-    { "label": "三单", "form": "breaches" },
-    { "label": "过去式", "form": "breached" },
-    { "label": "过去分词", "form": "breached" },
-    { "label": "现在分词", "form": "breaching" },
-    { "label": "复数（名词）", "form": "breaches" }
-  ],
-  "derivatives": [
-    { "word": "break", "pos": "v.", "zh": "同源词，义为「打破」" },
-    { "word": "breach of promise", "pos": "n.", "zh": "由复合构成，义为「（旧法）毁弃婚约」" },
-    { "word": "unbreached", "pos": "adj.", "zh": "由否定前缀加过去分词构成，义为「未被攻破的」" }
-  ],
-  "senses": [
-    {
-      "no": "01",
-      "title": "A breaking of a law or agreement",
-      "titleCN": "违反；违背（法律、契约）",
-      "definition": "an act of failing to obey a law or carry out an agreement",
-      "definitionCN": "不遵守法律或不履行协议的行为",
-      "example": "Late payment counts as a breach of the lease.",
-      "exampleCN": "迟付租金即构成违反租约。",
-      "why": "The word means break, and a broken promise is the legal form of a broken thing.",
-      "whyCN": "这个词本义就是「破」，而被打破的诺言正是「破物」在法律上的形态。"
-    },
-    {
-      "no": "02",
-      "title": "A gap made in a wall or defense",
-      "titleCN": "缺口；破口",
-      "definition": "a hole or opening forced in a wall, barrier, or defense",
-      "definitionCN": "在墙、屏障或防御中强行打开的洞口",
-      "example": "The siege guns opened a breach in the rampart.",
-      "exampleCN": "攻城炮在壁垒上轰开一个缺口。",
-      "why": "The physical breaking of stone is the word's oldest workplace.",
-      "whyCN": "石头的物理破裂是这个词最古老的用武之地。"
-    },
-    {
-      "no": "03",
-      "title": "A rupture in a relationship",
-      "titleCN": "（关系）破裂；裂痕",
-      "definition": "a serious break in friendship, relations, or unity",
-      "definitionCN": "友谊、邦交或团结上的严重破裂",
-      "example": "The remark caused a breach between the two families.",
-      "exampleCN": "那句话造成两家关系破裂。",
-      "why": "What holds between people is pictured as a wall, so a quarrel breaches it.",
-      "whyCN": "人与人之间的维系被想象为一堵墙，争吵便在其上破出裂口。"
-    },
-    {
-      "no": "04",
-      "title": "A violation of a duty or confidence",
-      "titleCN": "渎职；背信",
-      "definition": "a failure to fulfill a duty or keep confidence",
-      "definitionCN": "未能尽责或保守信赖",
-      "example": "Leaking the file was a breach of trust.",
-      "exampleCN": "泄露档案是背信行为。",
-      "why": "Trust is an invisible wall; letting it crack is the moral twin of opening a rampart.",
-      "whyCN": "信赖是无形的墙，让它裂开与轰开壁垒在道德上互为镜像。"
-    },
-    {
-      "no": "05",
-      "title": "A whale's leap from the water",
-      "titleCN": "（鲸）跃身击浪",
-      "definition": "an instance of a whale rising clear out of the water and falling back",
-      "definitionCN": "鲸整身跃出水面再落回的动作",
-      "example": "A humpback breached right beside the boat.",
-      "exampleCN": "一头座头鲸就在小船旁跃出水面。",
-      "why": "The whale is pictured as breaking through the sea's surface, a wall of water.",
-      "whyCN": "鲸被想象为冲破海面这堵「水墙」，故借得此名。"
-    },
-    {
-      "no": "06",
-      "title": "A gap in a line of duty to be filled",
-      "titleCN": "（人员上的）空缺；救急补位",
-      "definition": "a gap in defense or service that someone must fill, as in stepping into the breach",
-      "definitionCN": "防御或事务中的空缺，需要有人填补，如 step into the breach",
-      "example": "When the manager resigned, she stepped into the breach.",
-      "exampleCN": "经理辞职后，她挺身补位。",
-      "why": "A broken wall demands defenders; a broken roster does too.",
-      "whyCN": "破墙需要人守，人事的破口同样需要人补。"
-    },
-    {
-      "no": "07",
-      "title": "An infringement of privacy or security",
-      "titleCN": "（隐私、安全的）失守",
-      "definition": "unauthorized access to data, premises, or personal space",
-      "definitionCN": "对数据、场所或私人空间的未授权进入",
-      "example": "The database breach exposed millions of records.",
-      "exampleCN": "数据库失守暴露了数百万条记录。",
-      "why": "Modern walls are made of code, and breaking them keeps the old name.",
-      "whyCN": "现代的墙由代码筑成，攻破它们仍沿用旧名。"
-    },
-    {
-      "no": "08",
-      "title": "A breach of the peace",
-      "titleCN": "扰乱治安",
-      "definition": "conduct that disturbs public order, a legal term",
-      "definitionCN": "扰乱公共秩序的行为，法律术语",
-      "example": "The argument on the steps amounted to a breach of the peace.",
-      "exampleCN": "台阶上的争吵已构成扰乱治安。",
-      "why": "Public order is the city's wall; disorder breaches it by definition.",
-      "whyCN": "公共秩序是城市之墙，失序按定义即在其上破口。"
-    }
-  ],
-  "etymology": {
-    "intro": {
-      "en": "Breach is the Anglo-Norman form of break, taken from Old French breche, itself Germanic in origin.",
-      "cn": "breach 是 break 的盎格鲁-诺曼形式，取自古法语 breche，而 breche 本身源自日耳曼语。"
-    },
-    "items": [
+[
+  {
+    "word": "breach",
+    "ipa_uk": "/briːtʃ/",
+    "ipa_us": "/briːtʃ/",
+    "definition_zh": "违反；破裂；缺口；（鲸）跃出水面",
+    "definition_en": "a break in a law, wall, or relationship; also a whale's leap from water",
+    "core_image": "城墙被撞开一个大缺口，士兵从裂口中涌入；也有鲸鱼破水腾空的画面",
+    "scene": "律师把文件推到桌上。The company's failure to deliver was a clear breach of contract.",
+    "sceneCN": "这里 breach 是「违反」（第 1 个义项：违背契约、法律）；句意是公司未能交货，明显违反了合同。",
+    "pos": [
       {
-        "era": "PROTO-GERMANIC",
-        "en": "A reconstructed root *brekan meant to break, common across Germanic languages.",
-        "cn": "重构词根 *brekan 意为打碎，通行于各日耳曼语言。"
+        "tag": "n.",
+        "zh": "违反；破裂；缺口"
       },
       {
-        "era": "OLD ENGLISH",
-        "en": "Old English brecan meant to break, giving modern break.",
-        "cn": "古英语 brecan 意为打破，演变为现代 break。"
+        "tag": "vt.",
+        "zh": "违反；攻破；冲破"
       },
       {
-        "era": "OLD FRENCH",
-        "en": "Frankish speech gave Old French breche, a breaking or gap.",
-        "cn": "法兰克语使古法语产生 breche，意为破裂、缺口。"
-      },
-      {
-        "era": "MIDDLE ENGLISH, 13TH C.",
-        "en": "Middle English took breach from Anglo-Norman and Old French, at first of broken walls.",
-        "cn": "中古英语经盎格鲁-诺曼语与古法语借入 breach，最初指被攻破的城墙。"
-      },
-      {
-        "era": "ENGLISH, 15TH–17TH C.",
-        "en": "Legal use flourished: breach of contract, breach of the peace, breach of promise.",
-        "cn": "法律用法大兴：违约、扰乱治安、毁约诸语成型。"
-      },
-      {
-        "era": "MODERN ENGLISH",
-        "en": "Modern English adds data breaches and the whale's acrobatic breach.",
-        "cn": "现代英语又添数据泄露与鲸鱼跃身之义。"
+        "tag": "vi.",
+        "zh": "（鲸）跃出水面"
       }
-    ]
-  },
-  "similar": {
-    "note": {
-      "en": "Breach is break's Norman twin; beware the spelling pair breach and breech.",
-      "cn": "breach 是 break 的诺曼孪生词；注意 breach 与 breech 这对拼写近亲。"
-    },
-    "groups": [
+    ],
+    "collocations": [
       {
-        "heading": "LOOK-ALIKE",
-        "entries": [
-          { "word": "break", "ipa": "/breɪk/", "tag": "same root", "definition": "to separate into pieces", "definitionCN": "打破；同源本土形式" },
-          { "word": "breech", "ipa": "/briːtʃ/", "tag": "spelling", "definition": "the rear of a gun or a breech birth", "definitionCN": "炮闩；臀位分娩；同音异源" },
-          { "word": "beach", "ipa": "/biːtʃ/", "tag": "spelling", "definition": "the sandy shore", "definitionCN": "海滩；仅差一个字母" },
-          { "word": "breachy", "ipa": "/ˈbriːtʃi/", "tag": "derived form", "definition": "dialect, given to breaking fences", "definitionCN": "方言：爱越栏的（牲畜）" },
-          { "word": "broach", "ipa": "/brəʊtʃ/", "tag": "spelling", "definition": "to raise a subject; to pierce a cask", "definitionCN": "提出（话题）；凿穿；拼写相近，词源不同" }
-        ]
+        "phrase": "a breach of contract",
+        "zh": "违约"
       },
       {
-        "heading": "NEAR MEANING",
-        "entries": [
-          { "word": "violation", "ipa": "/ˌvaɪəˈleɪʃn/", "tag": "near meaning", "definition": "an act of breaking a rule or right", "definitionCN": "违犯；侧重规则与权利" },
-          { "word": "rupture", "ipa": "/ˈrʌptʃə(r)/", "tag": "near meaning", "definition": "a sudden breaking apart", "definitionCN": "破裂；侧重物理或组织断裂" },
-          { "word": "rift", "ipa": "/rɪft/", "tag": "near meaning", "definition": "a crack or split in a relationship", "definitionCN": "裂隙；与 breach 的关系义相近但程度较缓" },
-          { "word": "infringement", "ipa": "/ɪnˈfrɪndʒmənt/", "tag": "near meaning", "definition": "an encroachment on rights", "definitionCN": "侵权；多用于知识产权与权利" },
-          { "word": "transgression", "ipa": "/ˌtrænsˈɡreʃn/", "tag": "near meaning", "definition": "a stepping over a moral limit", "definitionCN": "越界；道德或宗教色彩更浓" }
-        ]
+        "phrase": "a breach of trust",
+        "zh": "背信"
+      },
+      {
+        "phrase": "breach the wall",
+        "zh": "在墙上破口"
+      },
+      {
+        "phrase": "a breach of security",
+        "zh": "安全漏洞"
+      },
+      {
+        "phrase": "mend a breach",
+        "zh": "弥合裂痕"
+      },
+      {
+        "phrase": "step into the breach",
+        "zh": "补位；挺身救急"
       }
-    ]
-  },
-  "mnemonics": {
-    "normalIntro": {
-      "en": "Breach is simply break in Norman dress; a breach is where something has broken.",
-      "cn": "breach 就是穿着诺曼外衣的 break：breach 即「破」之所在。"
-    },
-    "normal": [
-      { "en": "breach and break share one Germanic root.", "cn": "breach 与 break 同出一个日耳曼词根。" },
-      { "en": "the route was Old French breche, a gap.", "cn": "途经古法语 breche，意为缺口。" },
-      { "en": "breach of contract is the legal star use.", "cn": "breach of contract 是法律上的明星用法。" },
-      { "en": "breech with two e's belongs to guns and births.", "cn": "双 e 的 breech 属于炮闩与臀位。" },
-      { "en": "whales breach by breaking the surface.", "cn": "鲸的 breach 是破水而出。" }
     ],
-    "abstract": [
-      { "en": "Stone broken by cannon; trust broken by a leak: same shape, different matter.", "cn": "炮弹碎石头，泄密碎信任：形同而质异。" },
-      { "en": "Every breach is an invitation written in a broken edge.", "cn": "每一道缺口都是写在破碎边缘的请柬。" },
-      { "en": "What is breached must be manned or mended.", "cn": "破口必须有人把守，或者被修补。" }
-    ]
-  },
-  "examples": [
-    { "en": "Publishing the memo would breach her confidentiality agreement.", "cn": "发表那份备忘录将违反她的保密协议。" },
-    { "en": "Water poured through the breach in the flood wall.", "cn": "洪水从防洪墙的缺口涌入。" },
-    { "en": "Neither side wanted a permanent breach in the alliance.", "cn": "双方都不希望同盟出现永久性裂痕。" }
-  ],
-  "dict_mnemonic": {
-    "note": "谐音记忆 · 非词源",
-    "text": "「不理契」——对契约「不理不睬」就是违约：breach of contract。",
-    "word": "breach"
-  },
-  "root": "日耳曼语系重构词根 *brekan（打碎）→ 古英语 brecan（打破，演变为 break）；法兰克语借入罗曼语作古法语 breche（缺口）→ 中古英语经盎格鲁-诺曼语借入 breach，与 break 同源异途。",
-  "sensesIntro": {
-    "en": "From broken walls to broken laws, broken trust, broken relations, and even the whale breaking the sea's skin.",
-    "cn": "义项由破墙到破法、破信、破情，乃至鲸鱼破开海面之皮。"
-  },
-  "semanticMap": {
-    "core": {
-      "en": "CORE IMAGE: a wall with a fresh hole where something has broken through",
-      "cn": "核心意象：一堵墙上新开的洞——有什么东西破了进来或出去"
-    },
-    "chain": ["BREAK", "GAP", "ENTRY", "VIOLATION", "RUPTURE", "REPAIR"],
-    "branches": [
-      { "senses": "02 · 05 · 07", "en": "the physical break: ramparts, sea surface, firewalls of code", "cn": "物理之破：壁垒、海面、代码防火墙" },
-      { "senses": "01 · 04 · 08", "en": "the legal break: contracts, trust, public peace", "cn": "法律之破：契约、信赖、公共安宁" },
-      { "senses": "03", "en": "the human break: friendships torn open", "cn": "人心之破：友谊被撕开" },
-      { "senses": "06", "en": "the answer to a break: someone must fill the gap", "cn": "破口的应对：必须有人补位" },
-      { "senses": "07", "en": "the new wall: firewalls of code breached by data thieves", "cn": "新的墙：被数据窃贼攻破的代码防火墙" }
-    ]
-  },
-  "affixes": {
-    "intro": {
-      "en": "A bare Germanic root that traveled through French and returned in a borrowed dress.",
-      "cn": "一个裸日耳曼词根途经法语，又穿着借来的外衣回归。"
-    },
-    "latinIntro": {
-      "en": "No Latin cognates; Latin rumpere covers the same ground in rupture.",
-      "cn": "没有拉丁同源词；拉丁语以 rumpere 覆盖同类语义，成 rupture。"
-    },
-    "items": [
-      { "word": "*brekan", "structure": "Proto-Germanic root", "meaning": "to break", "meaningCN": "打碎", "example": "the root of break and breach", "exampleCN": "break 与 breach 的共同词根" },
-      { "word": "brecan", "structure": "Old English verb", "meaning": "to break", "meaningCN": "打破", "example": "brecan became break", "exampleCN": "brecan 演变为 break" },
-      { "word": "breche", "structure": "Old French noun", "meaning": "gap, breaking", "meaningCN": "缺口；破裂", "example": "breche passed into Middle English", "exampleCN": "breche 进入中古英语" },
-      { "word": "-ch", "structure": "French final sound", "meaning": "noun ending", "meaningCN": "法语名词结尾", "example": "breach retains the French shape", "exampleCN": "breach 保留法语形态" },
-      { "word": "breech", "structure": "unrelated near word", "meaning": "rear part, breeches", "meaningCN": "后部；马裤", "example": "breech is a different Old English word", "exampleCN": "breech 源自另一古英语词" },
-      { "word": "rumpere", "structure": "Latin parallel root", "meaning": "to burst", "meaningCN": "爆裂", "example": "rupture is the Latin twin idea", "exampleCN": "rupture 是拉丁语的镜像概念" },
-      { "word": "rift", "structure": "Norse near word", "meaning": "a crack", "meaningCN": "裂隙", "example": "rift from Old Norse rifa", "exampleCN": "rift 源自古诺斯语 rifa" },
-      { "word": "un-", "structure": "English prefix", "meaning": "not", "meaningCN": "非；未", "example": "unbreached walls still stand", "exampleCN": "unbreached 即未被攻破的" }
-    ],
-    "latinEntries": [
-      { "word": "rumpere", "structure": "Latin verb", "meaning": "to break, burst", "meaningCN": "打破；爆裂", "example": "ruptura, a breaking", "exampleCN": "ruptura，破裂" }
+    "forms": [
+      {
+        "label": "三单",
+        "form": "breaches"
+      },
+      {
+        "label": "过去式",
+        "form": "breached"
+      },
+      {
+        "label": "过去分词",
+        "form": "breached"
+      },
+      {
+        "label": "现在分词",
+        "form": "breaching"
+      },
+      {
+        "label": "复数（名词）",
+        "form": "breaches"
+      }
     ],
     "derivatives": [
-      { "word": "break", "pos": "v.", "zh": "打破" },
-      { "word": "unbreached", "pos": "adj.", "zh": "未被攻破的" },
-      { "word": "breach of promise", "pos": "n.", "zh": "毁弃婚约（旧法）" }
-    ]
+      {
+        "word": "break",
+        "pos": "v.",
+        "zh": "同源词，义为「打破」"
+      },
+      {
+        "word": "breach of promise",
+        "pos": "n.",
+        "zh": "由复合构成，义为「（旧法）毁弃婚约」"
+      },
+      {
+        "word": "unbreached",
+        "pos": "adj.",
+        "zh": "由否定前缀加过去分词构成，义为「未被攻破的」"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "A breaking of a law or agreement",
+        "titleCN": "违反；违背（法律、契约）",
+        "definition": "an act of failing to obey a law or carry out an agreement",
+        "definitionCN": "不遵守法律或不履行协议的行为",
+        "example": "Late payment counts as a breach of the lease.",
+        "exampleCN": "迟付租金即构成违反租约。",
+        "why": "The word means break, and a broken promise is the legal form of a broken thing.",
+        "whyCN": "这个词本义就是「破」，而被打破的诺言正是「破物」在法律上的形态。"
+      },
+      {
+        "no": "02",
+        "title": "A gap made in a wall or defense",
+        "titleCN": "缺口；破口",
+        "definition": "a hole or opening forced in a wall, barrier, or defense",
+        "definitionCN": "在墙、屏障或防御中强行打开的洞口",
+        "example": "The siege guns opened a breach in the rampart.",
+        "exampleCN": "攻城炮在壁垒上轰开一个缺口。",
+        "why": "The physical breaking of stone is the word's oldest workplace.",
+        "whyCN": "石头的物理破裂是这个词最古老的用武之地。"
+      },
+      {
+        "no": "03",
+        "title": "A rupture in a relationship",
+        "titleCN": "（关系）破裂；裂痕",
+        "definition": "a serious break in friendship, relations, or unity",
+        "definitionCN": "友谊、邦交或团结上的严重破裂",
+        "example": "The remark caused a breach between the two families.",
+        "exampleCN": "那句话造成两家关系破裂。",
+        "why": "What holds between people is pictured as a wall, so a quarrel breaches it.",
+        "whyCN": "人与人之间的维系被想象为一堵墙，争吵便在其上破出裂口。"
+      },
+      {
+        "no": "04",
+        "title": "A violation of a duty or confidence",
+        "titleCN": "渎职；背信",
+        "definition": "a failure to fulfill a duty or keep confidence",
+        "definitionCN": "未能尽责或保守信赖",
+        "example": "Leaking the file was a breach of trust.",
+        "exampleCN": "泄露档案是背信行为。",
+        "why": "Trust is an invisible wall; letting it crack is the moral twin of opening a rampart.",
+        "whyCN": "信赖是无形的墙，让它裂开与轰开壁垒在道德上互为镜像。"
+      },
+      {
+        "no": "05",
+        "title": "A whale's leap from the water",
+        "titleCN": "（鲸）跃身击浪",
+        "definition": "an instance of a whale rising clear out of the water and falling back",
+        "definitionCN": "鲸整身跃出水面再落回的动作",
+        "example": "A humpback breached right beside the boat.",
+        "exampleCN": "一头座头鲸就在小船旁跃出水面。",
+        "why": "The whale is pictured as breaking through the sea's surface, a wall of water.",
+        "whyCN": "鲸被想象为冲破海面这堵「水墙」，故借得此名。"
+      },
+      {
+        "no": "06",
+        "title": "A gap in a line of duty to be filled",
+        "titleCN": "（人员上的）空缺；救急补位",
+        "definition": "a gap in defense or service that someone must fill, as in stepping into the breach",
+        "definitionCN": "防御或事务中的空缺，需要有人填补，如 step into the breach",
+        "example": "When the manager resigned, she stepped into the breach.",
+        "exampleCN": "经理辞职后，她挺身补位。",
+        "why": "A broken wall demands defenders; a broken roster does too.",
+        "whyCN": "破墙需要人守，人事的破口同样需要人补。"
+      },
+      {
+        "no": "07",
+        "title": "An infringement of privacy or security",
+        "titleCN": "（隐私、安全的）失守",
+        "definition": "unauthorized access to data, premises, or personal space",
+        "definitionCN": "对数据、场所或私人空间的未授权进入",
+        "example": "The database breach exposed millions of records.",
+        "exampleCN": "数据库失守暴露了数百万条记录。",
+        "why": "Modern walls are made of code, and breaking them keeps the old name.",
+        "whyCN": "现代的墙由代码筑成，攻破它们仍沿用旧名。"
+      },
+      {
+        "no": "08",
+        "title": "A breach of the peace",
+        "titleCN": "扰乱治安",
+        "definition": "conduct that disturbs public order, a legal term",
+        "definitionCN": "扰乱公共秩序的行为，法律术语",
+        "example": "The argument on the steps amounted to a breach of the peace.",
+        "exampleCN": "台阶上的争吵已构成扰乱治安。",
+        "why": "Public order is the city's wall; disorder breaches it by definition.",
+        "whyCN": "公共秩序是城市之墙，失序按定义即在其上破口。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Breach is the Anglo-Norman form of break, taken from Old French breche, itself Germanic in origin.",
+        "cn": "breach 是 break 的盎格鲁-诺曼形式，取自古法语 breche，而 breche 本身源自日耳曼语。"
+      },
+      "items": [
+        {
+          "era": "PROTO-GERMANIC",
+          "en": "A reconstructed root *brekan meant to break, common across Germanic languages.",
+          "cn": "重构词根 *brekan 意为打碎，通行于各日耳曼语言。"
+        },
+        {
+          "era": "OLD ENGLISH",
+          "en": "Old English brecan meant to break, giving modern break.",
+          "cn": "古英语 brecan 意为打破，演变为现代 break。"
+        },
+        {
+          "era": "OLD FRENCH",
+          "en": "Frankish speech gave Old French breche, a breaking or gap.",
+          "cn": "法兰克语使古法语产生 breche，意为破裂、缺口。"
+        },
+        {
+          "era": "MIDDLE ENGLISH, 13TH C.",
+          "en": "Middle English took breach from Anglo-Norman and Old French, at first of broken walls.",
+          "cn": "中古英语经盎格鲁-诺曼语与古法语借入 breach，最初指被攻破的城墙。"
+        },
+        {
+          "era": "ENGLISH, 15TH–17TH C.",
+          "en": "Legal use flourished: breach of contract, breach of the peace, breach of promise.",
+          "cn": "法律用法大兴：违约、扰乱治安、毁约诸语成型。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "Modern English adds data breaches and the whale's acrobatic breach.",
+          "cn": "现代英语又添数据泄露与鲸鱼跃身之义。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "Breach is break's Norman twin; beware the spelling pair breach and breech.",
+        "cn": "breach 是 break 的诺曼孪生词；注意 breach 与 breech 这对拼写近亲。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "break",
+              "ipa": "/breɪk/",
+              "tag": "same root",
+              "definition": "to separate into pieces",
+              "definitionCN": "打破；同源本土形式"
+            },
+            {
+              "word": "breech",
+              "ipa": "/briːtʃ/",
+              "tag": "spelling",
+              "definition": "the rear of a gun or a breech birth",
+              "definitionCN": "炮闩；臀位分娩；同音异源"
+            },
+            {
+              "word": "beach",
+              "ipa": "/biːtʃ/",
+              "tag": "spelling",
+              "definition": "the sandy shore",
+              "definitionCN": "海滩；仅差一个字母"
+            },
+            {
+              "word": "breachy",
+              "ipa": "/ˈbriːtʃi/",
+              "tag": "derived form",
+              "definition": "dialect, given to breaking fences",
+              "definitionCN": "方言：爱越栏的（牲畜）"
+            },
+            {
+              "word": "broach",
+              "ipa": "/brəʊtʃ/",
+              "tag": "spelling",
+              "definition": "to raise a subject; to pierce a cask",
+              "definitionCN": "提出（话题）；凿穿；拼写相近，词源不同"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "violation",
+              "ipa": "/ˌvaɪəˈleɪʃn/",
+              "tag": "near meaning",
+              "definition": "an act of breaking a rule or right",
+              "definitionCN": "违犯；侧重规则与权利"
+            },
+            {
+              "word": "rupture",
+              "ipa": "/ˈrʌptʃə(r)/",
+              "tag": "near meaning",
+              "definition": "a sudden breaking apart",
+              "definitionCN": "破裂；侧重物理或组织断裂"
+            },
+            {
+              "word": "rift",
+              "ipa": "/rɪft/",
+              "tag": "near meaning",
+              "definition": "a crack or split in a relationship",
+              "definitionCN": "裂隙；与 breach 的关系义相近但程度较缓"
+            },
+            {
+              "word": "infringement",
+              "ipa": "/ɪnˈfrɪndʒmənt/",
+              "tag": "near meaning",
+              "definition": "an encroachment on rights",
+              "definitionCN": "侵权；多用于知识产权与权利"
+            },
+            {
+              "word": "transgression",
+              "ipa": "/ˌtrænsˈɡreʃn/",
+              "tag": "near meaning",
+              "definition": "a stepping over a moral limit",
+              "definitionCN": "越界；道德或宗教色彩更浓"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Breach is simply break in Norman dress; a breach is where something has broken.",
+        "cn": "breach 就是穿着诺曼外衣的 break：breach 即「破」之所在。"
+      },
+      "normal": [
+        {
+          "en": "breach and break share one Germanic root.",
+          "cn": "breach 与 break 同出一个日耳曼词根。"
+        },
+        {
+          "en": "the route was Old French breche, a gap.",
+          "cn": "途经古法语 breche，意为缺口。"
+        },
+        {
+          "en": "breach of contract is the legal star use.",
+          "cn": "breach of contract 是法律上的明星用法。"
+        },
+        {
+          "en": "breech with two e's belongs to guns and births.",
+          "cn": "双 e 的 breech 属于炮闩与臀位。"
+        },
+        {
+          "en": "whales breach by breaking the surface.",
+          "cn": "鲸的 breach 是破水而出。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "Stone broken by cannon; trust broken by a leak: same shape, different matter.",
+          "cn": "炮弹碎石头，泄密碎信任：形同而质异。"
+        },
+        {
+          "en": "Every breach is an invitation written in a broken edge.",
+          "cn": "每一道缺口都是写在破碎边缘的请柬。"
+        },
+        {
+          "en": "What is breached must be manned or mended.",
+          "cn": "破口必须有人把守，或者被修补。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "Publishing the memo would breach her confidentiality agreement.",
+        "cn": "发表那份备忘录将违反她的保密协议。"
+      },
+      {
+        "en": "Water poured through the breach in the flood wall.",
+        "cn": "洪水从防洪墙的缺口涌入。"
+      },
+      {
+        "en": "Neither side wanted a permanent breach in the alliance.",
+        "cn": "双方都不希望同盟出现永久性裂痕。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「不理契」——对契约「不理不睬」就是违约：breach of contract。",
+      "word": "breach"
+    },
+    "root": "日耳曼语系重构词根 *brekan（打碎）→ 古英语 brecan（打破，演变为 break）；法兰克语借入罗曼语作古法语 breche（缺口）→ 中古英语经盎格鲁-诺曼语借入 breach，与 break 同源异途。",
+    "sensesIntro": {
+      "en": "From broken walls to broken laws, broken trust, broken relations, and even the whale breaking the sea's skin.",
+      "cn": "义项由破墙到破法、破信、破情，乃至鲸鱼破开海面之皮。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: a wall with a fresh hole where something has broken through",
+        "cn": "核心意象：一堵墙上新开的洞——有什么东西破了进来或出去"
+      },
+      "chain": [
+        "BREAK",
+        "GAP",
+        "ENTRY",
+        "VIOLATION",
+        "RUPTURE",
+        "REPAIR"
+      ],
+      "branches": [
+        {
+          "senses": "02 · 05 · 07",
+          "en": "the physical break: ramparts, sea surface, firewalls of code",
+          "cn": "物理之破：壁垒、海面、代码防火墙"
+        },
+        {
+          "senses": "01 · 04 · 08",
+          "en": "the legal break: contracts, trust, public peace",
+          "cn": "法律之破：契约、信赖、公共安宁"
+        },
+        {
+          "senses": "03",
+          "en": "the human break: friendships torn open",
+          "cn": "人心之破：友谊被撕开"
+        },
+        {
+          "senses": "06",
+          "en": "the answer to a break: someone must fill the gap",
+          "cn": "破口的应对：必须有人补位"
+        },
+        {
+          "senses": "07",
+          "en": "the new wall: firewalls of code breached by data thieves",
+          "cn": "新的墙：被数据窃贼攻破的代码防火墙"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "A bare Germanic root that traveled through French and returned in a borrowed dress.",
+        "cn": "一个裸日耳曼词根途经法语，又穿着借来的外衣回归。"
+      },
+      "latinIntro": {
+        "en": "No Latin cognates; Latin rumpere covers the same ground in rupture.",
+        "cn": "没有拉丁同源词；拉丁语以 rumpere 覆盖同类语义，成 rupture。"
+      },
+      "items": [
+        {
+          "word": "*brekan",
+          "structure": "Proto-Germanic root",
+          "meaning": "to break",
+          "meaningCN": "打碎",
+          "example": "the root of break and breach",
+          "exampleCN": "break 与 breach 的共同词根"
+        },
+        {
+          "word": "brecan",
+          "structure": "Old English verb",
+          "meaning": "to break",
+          "meaningCN": "打破",
+          "example": "brecan became break",
+          "exampleCN": "brecan 演变为 break"
+        },
+        {
+          "word": "breche",
+          "structure": "Old French noun",
+          "meaning": "gap, breaking",
+          "meaningCN": "缺口；破裂",
+          "example": "breche passed into Middle English",
+          "exampleCN": "breche 进入中古英语"
+        },
+        {
+          "word": "-ch",
+          "structure": "French final sound",
+          "meaning": "noun ending",
+          "meaningCN": "法语名词结尾",
+          "example": "breach retains the French shape",
+          "exampleCN": "breach 保留法语形态"
+        },
+        {
+          "word": "breech",
+          "structure": "unrelated near word",
+          "meaning": "rear part, breeches",
+          "meaningCN": "后部；马裤",
+          "example": "breech is a different Old English word",
+          "exampleCN": "breech 源自另一古英语词"
+        },
+        {
+          "word": "rumpere",
+          "structure": "Latin parallel root",
+          "meaning": "to burst",
+          "meaningCN": "爆裂",
+          "example": "rupture is the Latin twin idea",
+          "exampleCN": "rupture 是拉丁语的镜像概念"
+        },
+        {
+          "word": "rift",
+          "structure": "Norse near word",
+          "meaning": "a crack",
+          "meaningCN": "裂隙",
+          "example": "rift from Old Norse rifa",
+          "exampleCN": "rift 源自古诺斯语 rifa"
+        },
+        {
+          "word": "un-",
+          "structure": "English prefix",
+          "meaning": "not",
+          "meaningCN": "非；未",
+          "example": "unbreached walls still stand",
+          "exampleCN": "unbreached 即未被攻破的"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "rumpere",
+          "structure": "Latin verb",
+          "meaning": "to break, burst",
+          "meaningCN": "打破；爆裂",
+          "example": "ruptura, a breaking",
+          "exampleCN": "ruptura，破裂"
+        }
+      ],
+      "derivatives": [
+        {
+          "word": "break",
+          "pos": "v.",
+          "zh": "打破"
+        },
+        {
+          "word": "unbreached",
+          "pos": "adj.",
+          "zh": "未被攻破的"
+        },
+        {
+          "word": "breach of promise",
+          "pos": "n.",
+          "zh": "毁弃婚约（旧法）"
+        }
+      ]
+    }
   }
-}
+]

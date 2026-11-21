@@ -1,316 +1,479 @@
-{
-  "word": "autocrat",
-  "ipa_uk": "/ˈɔːtəkræt/",
-  "ipa_us": "/ˈɔːtəkræt/",
-  "definition_zh": "独裁者；专制君主；独断专行的人",
-  "definition_en": "a ruler with absolute power; also, any person who insists on complete control over others",
-  "core_image": "一个人攥着所有权力，别人只能照办",
-  "scene": "会议室里没人敢抬头，一切等他拍板。The editor-in-chief ran the paper like an autocrat.",
-  "sceneCN": "这里 autocrat 指「独断专行的人」（第 2 个义项：非政治场合的独裁式人物）；句意：这位总编像个独裁者一样经营报社。",
-  "pos": [
-    { "tag": "n.", "zh": "独裁者；专制君主；独断专行者" }
-  ],
-  "collocations": [
-    { "phrase": "an absolute autocrat", "zh": "绝对的独裁者" },
-    { "phrase": "rule like an autocrat", "zh": "像独裁者一样统治" },
-    { "phrase": "a domestic autocrat", "zh": "家中的独裁者" },
-    { "phrase": "the Kremlin autocrat", "zh": "克里姆林宫的独裁者（旧指沙皇）" },
-    { "phrase": "an autocrat in the kitchen", "zh": "厨房里说一不二的人" }
-  ],
-  "forms": [
-    { "label": "形容词形式", "form": "autocratic" },
-    { "label": "副词形式", "form": "autocratically" }
-  ],
-  "derivatives": [
-    { "word": "autocracy", "pos": "n.", "zh": "独裁统治；专制政体（autocrat + -y）" },
-    { "word": "autocratic", "pos": "adj.", "zh": "独裁的；专横的（autocrat + -ic）" },
-    { "word": "autocratically", "pos": "adv.", "zh": "独裁地；专横地（autocratic + -ally）" },
-    { "word": "autocratrix", "pos": "n.", "zh": "女独裁者（罕用，拉丁化女性形式）" }
-  ],
-  "senses": [
-    {
-      "no": "01",
-      "title": "A ruler with absolute power",
-      "titleCN": "独裁者；专制君主",
-      "definition": "a ruler, such as a tsar or emperor, holding unlimited political power",
-      "definitionCN": "握有无限政治权力的统治者，如沙皇、皇帝",
-      "example": "The Russian tsar styled himself an autocrat of all the Russias.",
-      "exampleCN": "俄国沙皇自称「全俄罗斯的专制君主」。",
-      "why": "The Greek parts mean self and power: one person is the whole government.",
-      "whyCN": "希腊语成分意为「自身」与「权力」：一人即整个政府。"
+[
+  {
+    "word": "autocrat",
+    "ipa_uk": "/ˈɔːtəkræt/",
+    "ipa_us": "/ˈɔːtəkræt/",
+    "definition_zh": "独裁者；专制君主；独断专行的人",
+    "definition_en": "a ruler with absolute power; also, any person who insists on complete control over others",
+    "core_image": "一个人攥着所有权力，别人只能照办",
+    "scene": "会议室里没人敢抬头，一切等他拍板。The editor-in-chief ran the paper like an autocrat.",
+    "sceneCN": "这里 autocrat 指「独断专行的人」（第 2 个义项：非政治场合的独裁式人物）；句意：这位总编像个独裁者一样经营报社。",
+    "pos": [
+      {
+        "tag": "n.",
+        "zh": "独裁者；专制君主；独断专行者"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "an absolute autocrat",
+        "zh": "绝对的独裁者"
+      },
+      {
+        "phrase": "rule like an autocrat",
+        "zh": "像独裁者一样统治"
+      },
+      {
+        "phrase": "a domestic autocrat",
+        "zh": "家中的独裁者"
+      },
+      {
+        "phrase": "the Kremlin autocrat",
+        "zh": "克里姆林宫的独裁者（旧指沙皇）"
+      },
+      {
+        "phrase": "an autocrat in the kitchen",
+        "zh": "厨房里说一不二的人"
+      }
+    ],
+    "forms": [
+      {
+        "label": "形容词形式",
+        "form": "autocratic"
+      },
+      {
+        "label": "副词形式",
+        "form": "autocratically"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "autocracy",
+        "pos": "n.",
+        "zh": "独裁统治；专制政体（autocrat + -y）"
+      },
+      {
+        "word": "autocratic",
+        "pos": "adj.",
+        "zh": "独裁的；专横的（autocrat + -ic）"
+      },
+      {
+        "word": "autocratically",
+        "pos": "adv.",
+        "zh": "独裁地；专横地（autocratic + -ally）"
+      },
+      {
+        "word": "autocratrix",
+        "pos": "n.",
+        "zh": "女独裁者（罕用，拉丁化女性形式）"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "A ruler with absolute power",
+        "titleCN": "独裁者；专制君主",
+        "definition": "a ruler, such as a tsar or emperor, holding unlimited political power",
+        "definitionCN": "握有无限政治权力的统治者，如沙皇、皇帝",
+        "example": "The Russian tsar styled himself an autocrat of all the Russias.",
+        "exampleCN": "俄国沙皇自称「全俄罗斯的专制君主」。",
+        "why": "The Greek parts mean self and power: one person is the whole government.",
+        "whyCN": "希腊语成分意为「自身」与「权力」：一人即整个政府。"
+      },
+      {
+        "no": "02",
+        "title": "A domineering person",
+        "titleCN": "独断专行的人",
+        "definition": "anyone who insists on deciding everything and tolerates no dissent",
+        "definitionCN": "坚持独断一切、不容异议的人",
+        "example": "Grandfather was a benevolent autocrat at the dinner table.",
+        "exampleCN": "祖父在餐桌上是个仁慈的独裁者。",
+        "why": "The political type was so vivid that homes and kitchens inherited the word.",
+        "whyCN": "政治形象过于鲜明，家庭与厨房便继承了这个词。"
+      },
+      {
+        "no": "03",
+        "title": "Of regimes and systems",
+        "titleCN": "（政体）专制体制的代称",
+        "definition": "a ruler who embodies autocracy as a system of government",
+        "definitionCN": "体现独裁政体的统治者",
+        "example": "Nineteenth-century Europe was a family of autocrats.",
+        "exampleCN": "十九世纪的欧洲是一个独裁君主家族。",
+        "why": "Where autocracy is the constitution, its occupant is the autocrat.",
+        "whyCN": "专制既是国体，其占据者便是 autocrat。"
+      },
+      {
+        "no": "04",
+        "title": "The benevolent autocrat",
+        "titleCN": "开明专制者",
+        "definition": "an absolute ruler or boss who claims to dictate for the good of all",
+        "definitionCN": "自称一切独断皆为众人福祉的绝对统治者或上司",
+        "example": "He ran the school as a benevolent autocrat and modernized it completely.",
+        "exampleCN": "他以开明专制者的方式治校，将其彻底现代化。",
+        "why": "Power without consent excuses itself as wisdom; the phrase records the excuse.",
+        "whyCN": "不经同意的权力常以智慧自辩；这个短语记录的正是这种辩解。"
+      },
+      {
+        "no": "05",
+        "title": "In the workplace",
+        "titleCN": "职场中的独断上司",
+        "definition": "a manager who decides without consulting the team",
+        "definitionCN": "不经团队商议便自行决断的管理者",
+        "example": "Staff turnover revealed the new director was an autocrat.",
+        "exampleCN": "员工流失率暴露出新主管是个独断专行者。",
+        "why": "Management language borrowed the political type to grade its bosses.",
+        "whyCN": "管理学借来这个政治形象为自己的上司分等。"
+      },
+      {
+        "no": "06",
+        "title": "In history writing",
+        "titleCN": "史学中的专制者形象",
+        "definition": "a historical figure characterized as concentrating power personally",
+        "definitionCN": "被描述为个人集权的历史人物",
+        "example": "Historians debate whether the first emperor was an autocrat or a reformer.",
+        "exampleCN": "史家争论开国皇帝究竟是独裁者还是改革者。",
+        "why": "History sorts rulers by how much they shared, and autocrat marks the bottom of the scale.",
+        "whyCN": "史学按「分权多少」为君主排序，autocrat 标在这条标尺的底端。"
+      },
+      {
+        "no": "07",
+        "title": "In family life",
+        "titleCN": "家中的专制者",
+        "definition": "a family member who dominates household decisions",
+        "definitionCN": "支配家庭决策的家庭成员",
+        "example": "Aunt Agatha was the acknowledged autocrat of the household.",
+        "exampleCN": "阿加莎姨妈是公认的一家之主（独断者）。",
+        "why": "The word's bite makes it a favorite of novelists sketching tyrannical aunts and fathers.",
+        "whyCN": "这个词的讥刺劲儿使它成了小说家刻画暴君式姑妈与父亲的偏爱。"
+      },
+      {
+        "no": "08",
+        "title": "Autocrat versus related rulers",
+        "titleCN": "autocrat 与近义统治者之辨",
+        "definition": "distinguished from tyrant, despot, and dictator by its systemic, Greek-derived tone",
+        "definitionCN": "与 tyrant、despot、dictator 相区别：语气更具政体性与希腊色彩",
+        "example": "A dictator seizes power; an autocrat inherits or claims it as a system.",
+        "exampleCN": "dictator 靠夺取上台；autocrat 则以体制继承或自封集权。",
+        "why": "Each word for absolute rule carries its own biography: seizure, household, or system.",
+        "whyCN": "每个「绝对统治者」的称呼都自带出身：或夺取、或家宅、或体制。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Autocrat comes from Greek autokrates, ruling by oneself, from autos, self, plus kratos, power; Russian tsars popularized the title in the eighteenth century, and English adopted both the title and the mocking domestic use.",
+        "cn": "autocrat 出自希腊语 autokrates「独自统治」，由 autos「自身」加 kratos「权力」构成；18 世纪俄国沙皇的帝号使其广为人知，英语随之收入该称号及其戏谑的家用义。"
+      },
+      "items": [
+        {
+          "era": "PROTO-INDO-EUROPEAN",
+          "en": "The root *kreH- meant strength or power, giving Greek kratos and such English words as democracy.",
+          "cn": "词根 *kreH- 意为「力量、权势」，衍生出希腊语 kratos，以及英语 democracy 等词。"
+        },
+        {
+          "era": "GREEK",
+          "en": "autos meant self and kratos meant power; autokrates meant ruling alone, autokrator the ruler who does.",
+          "cn": "希腊语 autos 意为「自身」，kratos 意为「权力」；autokrates 意为独自统治，autokrator 即如此行事之人。"
+        },
+        {
+          "era": "GREEK, AUTOKRATOR",
+          "en": "autokrator was a Greek title for commanders and emperors with full authority.",
+          "cn": "autokrator 是授予全权统帅与皇帝的希腊称号。"
+        },
+        {
+          "era": "RUSSIAN, SAMODERZHETS",
+          "en": "By the eighteenth century the tsars' title, translated as autocrat, made the word famous across Europe.",
+          "cn": "18 世纪，沙皇的头衔被译作 autocrat，使这个词风行欧洲。"
+        },
+        {
+          "era": "ENGLISH, 1760S",
+          "en": "English recorded autocrat in the 1760s, at first referring to the tsar and other absolute monarchs.",
+          "cn": "英语在 18 世纪 60 年代记录下 autocrat，最初指沙皇等绝对君主。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "Nineteenth-century essayists extended it to any bossy person, from railway directors to aunts.",
+          "cn": "19 世纪随笔作家将其扩展到一切专横之人，从铁路公司董事到姑妈。"
+        }
+      ]
     },
-    {
-      "no": "02",
-      "title": "A domineering person",
-      "titleCN": "独断专行的人",
-      "definition": "anyone who insists on deciding everything and tolerates no dissent",
-      "definitionCN": "坚持独断一切、不容异议的人",
-      "example": "Grandfather was a benevolent autocrat at the dinner table.",
-      "exampleCN": "祖父在餐桌上是个仁慈的独裁者。",
-      "why": "The political type was so vivid that homes and kitchens inherited the word.",
-      "whyCN": "政治形象过于鲜明，家庭与厨房便继承了这个词。"
+    "similar": {
+      "note": {
+        "en": "Group one collects the kratos family and auto- look-alikes; group two collects neighboring words for absolute rulers.",
+        "cn": "第一组收 kratos 词族及 auto- 形近词；第二组收相邻的绝对统治者称呼。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "autocracy",
+              "ipa": "/ɔːˈtɒkrəsi/",
+              "tag": "same root",
+              "definition": "the system an autocrat runs; government by one absolute ruler.",
+              "definitionCN": "autocrat 所运行的体制；一人绝对统治。"
+            },
+            {
+              "word": "aristocrat",
+              "ipa": "/ˈærɪstəkræt/",
+              "tag": "shared -crat ending",
+              "definition": "a noble, from aristos, best, plus kratos; same ending, different claim to power.",
+              "definitionCN": "贵族，出自 aristos「最优秀者」+ kratos；共享词尾而掌权依据不同。"
+            },
+            {
+              "word": "bureaucrat",
+              "ipa": "/ˈbjʊərəkræt/",
+              "tag": "shared -crat ending",
+              "definition": "an official in a bureau; the paper-shuffling cousin of the -crat family.",
+              "definitionCN": "官僚；-crat 家族中管文牍的近亲。"
+            },
+            {
+              "word": "autonomy",
+              "ipa": "/ɔːˈtɒnəmi/",
+              "tag": "same prefix, different root",
+              "definition": "self-law, from nomos; shares auto- but names freedom, not domination.",
+              "definitionCN": "自治，出自 nomos「法」；共享 auto- 而指自由而非支配。"
+            },
+            {
+              "word": "automaton",
+              "ipa": "/ɔːˈtɒmətən/",
+              "tag": "look-alike, different root",
+              "definition": "a self-moving machine, from automatos; shares auto- only.",
+              "definitionCN": "自动机械，出自 automatos；仅共享 auto-。"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "dictator",
+              "ipa": "/dɪkˈteɪtər/",
+              "tag": "near meaning",
+              "definition": "an absolute ruler, originally a Roman emergency magistrate.",
+              "definitionCN": "独裁者；原指罗马临时专政官。"
+            },
+            {
+              "word": "despot",
+              "ipa": "/ˈdespɒt/",
+              "tag": "near meaning",
+              "definition": "a ruler with absolute power, often cruel; Greek household master.",
+              "definitionCN": "暴君；源自希腊语家主一词。"
+            },
+            {
+              "word": "tyrant",
+              "ipa": "/ˈtaɪrənt/",
+              "tag": "near meaning",
+              "definition": "a cruel and oppressive ruler, originally a Greek usurper.",
+              "definitionCN": "暴君；原指希腊僭主。"
+            },
+            {
+              "word": "monarch",
+              "ipa": "/ˈmɒnək/",
+              "tag": "near meaning",
+              "definition": "a single hereditary ruler, constitutional or absolute.",
+              "definitionCN": "君主；可为立宪，可为专制。"
+            },
+            {
+              "word": "authoritarian",
+              "ipa": "/ɔːˌθɒrɪˈteəriən/",
+              "tag": "near meaning",
+              "definition": "demanding obedience; the adjective flavor of autocratic rule.",
+              "definitionCN": "威权主义的；要求绝对服从。"
+            }
+          ]
+        }
+      ]
     },
-    {
-      "no": "03",
-      "title": "Of regimes and systems",
-      "titleCN": "（政体）专制体制的代称",
-      "definition": "a ruler who embodies autocracy as a system of government",
-      "definitionCN": "体现独裁政体的统治者",
-      "example": "Nineteenth-century Europe was a family of autocrats.",
-      "exampleCN": "十九世纪的欧洲是一个独裁君主家族。",
-      "why": "Where autocracy is the constitution, its occupant is the autocrat.",
-      "whyCN": "专制既是国体，其占据者便是 autocrat。"
+    "mnemonics": {
+      "normalIntro": {
+        "en": "autocrat is auto plus crat: self plus power, the one-person government.",
+        "cn": "autocrat = auto + crat：自身 + 权力——一个人的政府。"
+      },
+      "normal": [
+        {
+          "en": "auto (self) + kratos (power): power that answers to itself alone.",
+          "cn": "auto（自身）+ kratos（权力）：只对自身负责的权力。"
+        },
+        {
+          "en": "The -crat family: autocrat, aristocrat, bureaucrat, democrat.",
+          "cn": "-crat 家族：autocrat、aristocrat、bureaucrat、democrat。"
+        },
+        {
+          "en": "The Russian tsar's official title made autocrat a household word.",
+          "cn": "俄国沙皇的正式帝号使 autocrat 成了家喻户晓的词。"
+        },
+        {
+          "en": "autocracy is the system; the autocrat is the person.",
+          "cn": "autocracy 是体制，autocrat 是其人。"
+        },
+        {
+          "en": "Modern use: any boss who decides everything is a kitchen-table autocrat.",
+          "cn": "现代用法：凡独断一切者，皆是餐桌上的 autocrat。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "Picture a single chair at the head of a very long table, and everyone else standing.",
+          "cn": "想象长桌尽头只有一把椅子，其余人全部站立。"
+        },
+        {
+          "en": "The word walks like a ruler: no one voted for it.",
+          "cn": "这个词走起路来像君王：没人投过它的票。"
+        },
+        {
+          "en": "Autocrat is the uncle who decides the weather.",
+          "cn": "autocrat 是那位连天气都要拍板的舅舅。"
+        }
+      ]
     },
-    {
-      "no": "04",
-      "title": "The benevolent autocrat",
-      "titleCN": "开明专制者",
-      "definition": "an absolute ruler or boss who claims to dictate for the good of all",
-      "definitionCN": "自称一切独断皆为众人福祉的绝对统治者或上司",
-      "example": "He ran the school as a benevolent autocrat and modernized it completely.",
-      "exampleCN": "他以开明专制者的方式治校，将其彻底现代化。",
-      "why": "Power without consent excuses itself as wisdom; the phrase records the excuse.",
-      "whyCN": "不经同意的权力常以智慧自辩；这个短语记录的正是这种辩解。"
+    "examples": [
+      {
+        "en": "The new CEO was an autocrat who tolerated no debate.",
+        "cn": "新任总裁是个不容辩论的独断者。"
+      },
+      {
+        "en": "For centuries the tsar was Europe's most famous autocrat.",
+        "cn": "数百年来，沙皇一直是欧洲最著名的独裁君主。"
+      },
+      {
+        "en": "She ruled the committee like a benevolent autocrat.",
+        "cn": "她以开明专制者的姿态执掌委员会。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「奥特克拉」——奥特之父奥克大拉，家里大事小事全由他一人拍板",
+      "word": "autocrat"
     },
-    {
-      "no": "05",
-      "title": "In the workplace",
-      "titleCN": "职场中的独断上司",
-      "definition": "a manager who decides without consulting the team",
-      "definitionCN": "不经团队商议便自行决断的管理者",
-      "example": "Staff turnover revealed the new director was an autocrat.",
-      "exampleCN": "员工流失率暴露出新主管是个独断专行者。",
-      "why": "Management language borrowed the political type to grade its bosses.",
-      "whyCN": "管理学借来这个政治形象为自己的上司分等。"
+    "root": "出自希腊语 autokrates「独自统治的」（autos「自身」+ kratos「权力」），其名词 autokrator 为全权统帅称号；经 18 世纪沙皇帝号（autocrat of all the Russias）流行，18 世纪 60 年代进入英语；与 aristocrat、bureaucrat 共享 -crat 词尾，词源确凿。",
+    "sensesIntro": {
+      "en": "Eight senses move one word from throne to kitchen: the absolute monarch, the bossy boss, the dominating aunt, and the fine differences among tyrants, despots, and dictators.",
+      "cn": "八义词让一个词从王座走进厨房：绝对君主、专断上司、支配欲极强的姑妈，以及 tyrant、despot、dictator 之间的细微差别。"
     },
-    {
-      "no": "06",
-      "title": "In history writing",
-      "titleCN": "史学中的专制者形象",
-      "definition": "a historical figure characterized as concentrating power personally",
-      "definitionCN": "被描述为个人集权的历史人物",
-      "example": "Historians debate whether the first emperor was an autocrat or a reformer.",
-      "exampleCN": "史家争论开国皇帝究竟是独裁者还是改革者。",
-      "why": "History sorts rulers by how much they shared, and autocrat marks the bottom of the scale.",
-      "whyCN": "史学按「分权多少」为君主排序，autocrat 标在这条标尺的底端。"
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: one hand holding every decision, everyone else waiting.",
+        "cn": "核心意象：一只手攥着所有决定，其余人只能等待。"
+      },
+      "chain": [
+        "THE SELF",
+        "CONCENTRATED POWER",
+        "THE THRONE",
+        "THE BOARDROOM",
+        "THE KITCHEN",
+        "THE WORD FAMILY"
+      ],
+      "branches": [
+        {
+          "senses": "01 · 03",
+          "en": "THE THRONE SIDE: tsars and emperors as system incarnate.",
+          "cn": "王座一面：作为体制化身的沙皇与皇帝。"
+        },
+        {
+          "senses": "02 · 05 · 07",
+          "en": "THE DOMESTIC SIDE: bosses, directors, and aunts who rule alone.",
+          "cn": "家常一面：独断的上司、主管与姑妈。"
+        },
+        {
+          "senses": "04",
+          "en": "THE EXCUSE SIDE: the benevolent autocrat's claim to wisdom.",
+          "cn": "自辩一面：开明专制者自诩的智慧。"
+        },
+        {
+          "senses": "06",
+          "en": "THE HISTORY SIDE: rulers graded by the power they shared.",
+          "cn": "史学一面：以分权多少为尺度的君主。"
+        },
+        {
+          "senses": "08",
+          "en": "THE FAMILY SIDE: autocrat beside tyrant, despot, dictator.",
+          "cn": "词族一面：与 tyrant、despot、dictator 并列的 autocrat。"
+        }
+      ]
     },
-    {
-      "no": "07",
-      "title": "In family life",
-      "titleCN": "家中的专制者",
-      "definition": "a family member who dominates household decisions",
-      "definitionCN": "支配家庭决策的家庭成员",
-      "example": "Aunt Agatha was the acknowledged autocrat of the household.",
-      "exampleCN": "阿加莎姨妈是公认的一家之主（独断者）。",
-      "why": "The word's bite makes it a favorite of novelists sketching tyrannical aunts and fathers.",
-      "whyCN": "这个词的讥刺劲儿使它成了小说家刻画暴君式姑妈与父亲的偏爱。"
-    },
-    {
-      "no": "08",
-      "title": "Autocrat versus related rulers",
-      "titleCN": "autocrat 与近义统治者之辨",
-      "definition": "distinguished from tyrant, despot, and dictator by its systemic, Greek-derived tone",
-      "definitionCN": "与 tyrant、despot、dictator 相区别：语气更具政体性与希腊色彩",
-      "example": "A dictator seizes power; an autocrat inherits or claims it as a system.",
-      "exampleCN": "dictator 靠夺取上台；autocrat 则以体制继承或自封集权。",
-      "why": "Each word for absolute rule carries its own biography: seizure, household, or system.",
-      "whyCN": "每个「绝对统治者」的称呼都自带出身：或夺取、或家宅、或体制。"
+    "affixes": {
+      "intro": {
+        "en": "autocrat is autos plus krates: the self-powered ruler; the -crat suffix names whoever holds a kind of power.",
+        "cn": "autocrat 由 autos 加 krates 构成：自我赋能的统治者；-crat 词尾为各类掌权者命名。"
+      },
+      "latinIntro": {
+        "en": "Greek kratos, power, built a wide family in English: autocrat, aristocrat, bureaucrat, democrat, technocrat.",
+        "cn": "希腊语 kratos「权力」在英语中构建了庞大家族：autocrat、aristocrat、bureaucrat、democrat、technocrat。"
+      },
+      "items": [
+        {
+          "word": "autos",
+          "structure": "Greek pronoun",
+          "meaning": "self",
+          "meaningCN": "自身",
+          "example": "autokrates, ruling by oneself",
+          "exampleCN": "autokrates，独自统治"
+        },
+        {
+          "word": "kratos",
+          "structure": "Greek noun",
+          "meaning": "power, strength",
+          "meaningCN": "权力；力量",
+          "example": "kratos in Greek texts",
+          "exampleCN": "希腊文献中的 kratos"
+        },
+        {
+          "word": "autokrator",
+          "structure": "autos + krator",
+          "meaning": "an absolute ruler",
+          "meaningCN": "绝对统治者",
+          "example": "imperator et autokrator",
+          "exampleCN": "皇帝与全权者"
+        },
+        {
+          "word": "-crat",
+          "structure": "agent suffix",
+          "meaning": "one who holds a kind of power",
+          "meaningCN": "掌某种权力者",
+          "example": "bureaucrat, technocrat",
+          "exampleCN": "官僚、技术官僚"
+        },
+        {
+          "word": "-cracy",
+          "structure": "noun suffix",
+          "meaning": "rule by a kind of power",
+          "meaningCN": "某种权力主导的统治",
+          "example": "democracy, bureaucracy",
+          "exampleCN": "民主制、官僚制"
+        },
+        {
+          "word": "autocracy",
+          "structure": "autocrat + -y",
+          "meaning": "government by one absolute ruler",
+          "meaningCN": "独裁政体",
+          "example": "the fall of autocracy",
+          "exampleCN": "独裁政体的倾覆"
+        },
+        {
+          "word": "aristocrat",
+          "structure": "aristos + krates",
+          "meaning": "a noble, one of the best-born rulers",
+          "meaningCN": "贵族",
+          "example": "an old aristocrat",
+          "exampleCN": "旧贵族"
+        },
+        {
+          "word": "democrat",
+          "structure": "demos + krates",
+          "meaning": "one who supports rule by the people",
+          "meaningCN": "民主主义者",
+          "example": "a lifelong democrat",
+          "exampleCN": "毕生的民主派"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "autokrator",
+          "structure": "Greek title",
+          "meaning": "an absolute ruler",
+          "meaningCN": "绝对统治者"
+        }
+      ]
     }
-  ],
-  "etymology": {
-    "intro": {
-      "en": "Autocrat comes from Greek autokrates, ruling by oneself, from autos, self, plus kratos, power; Russian tsars popularized the title in the eighteenth century, and English adopted both the title and the mocking domestic use.",
-      "cn": "autocrat 出自希腊语 autokrates「独自统治」，由 autos「自身」加 kratos「权力」构成；18 世纪俄国沙皇的帝号使其广为人知，英语随之收入该称号及其戏谑的家用义。"
-    },
-    "items": [
-      {
-        "era": "PROTO-INDO-EUROPEAN",
-        "en": "The root *kreH- meant strength or power, giving Greek kratos and such English words as democracy.",
-        "cn": "词根 *kreH- 意为「力量、权势」，衍生出希腊语 kratos，以及英语 democracy 等词。"
-      },
-      {
-        "era": "GREEK",
-        "en": "autos meant self and kratos meant power; autokrates meant ruling alone, autokrator the ruler who does.",
-        "cn": "希腊语 autos 意为「自身」，kratos 意为「权力」；autokrates 意为独自统治，autokrator 即如此行事之人。"
-      },
-      {
-        "era": "GREEK, AUTOKRATOR",
-        "en": "autokrator was a Greek title for commanders and emperors with full authority.",
-        "cn": "autokrator 是授予全权统帅与皇帝的希腊称号。"
-      },
-      {
-        "era": "RUSSIAN, SAMODERZHETS",
-        "en": "By the eighteenth century the tsars' title, translated as autocrat, made the word famous across Europe.",
-        "cn": "18 世纪，沙皇的头衔被译作 autocrat，使这个词风行欧洲。"
-      },
-      {
-        "era": "ENGLISH, 1760S",
-        "en": "English recorded autocrat in the 1760s, at first referring to the tsar and other absolute monarchs.",
-        "cn": "英语在 18 世纪 60 年代记录下 autocrat，最初指沙皇等绝对君主。"
-      },
-      {
-        "era": "MODERN ENGLISH",
-        "en": "Nineteenth-century essayists extended it to any bossy person, from railway directors to aunts.",
-        "cn": "19 世纪随笔作家将其扩展到一切专横之人，从铁路公司董事到姑妈。"
-      }
-    ]
-  },
-  "similar": {
-    "note": {
-      "en": "Group one collects the kratos family and auto- look-alikes; group two collects neighboring words for absolute rulers.",
-      "cn": "第一组收 kratos 词族及 auto- 形近词；第二组收相邻的绝对统治者称呼。"
-    },
-    "groups": [
-      {
-        "heading": "LOOK-ALIKE",
-        "entries": [
-          {
-            "word": "autocracy",
-            "ipa": "/ɔːˈtɒkrəsi/",
-            "tag": "same root",
-            "definition": "the system an autocrat runs; government by one absolute ruler.",
-            "definitionCN": "autocrat 所运行的体制；一人绝对统治。"
-          },
-          {
-            "word": "aristocrat",
-            "ipa": "/ˈærɪstəkræt/",
-            "tag": "shared -crat ending",
-            "definition": "a noble, from aristos, best, plus kratos; same ending, different claim to power.",
-            "definitionCN": "贵族，出自 aristos「最优秀者」+ kratos；共享词尾而掌权依据不同。"
-          },
-          {
-            "word": "bureaucrat",
-            "ipa": "/ˈbjʊərəkræt/",
-            "tag": "shared -crat ending",
-            "definition": "an official in a bureau; the paper-shuffling cousin of the -crat family.",
-            "definitionCN": "官僚；-crat 家族中管文牍的近亲。"
-          },
-          {
-            "word": "autonomy",
-            "ipa": "/ɔːˈtɒnəmi/",
-            "tag": "same prefix, different root",
-            "definition": "self-law, from nomos; shares auto- but names freedom, not domination.",
-            "definitionCN": "自治，出自 nomos「法」；共享 auto- 而指自由而非支配。"
-          },
-          {
-            "word": "automaton",
-            "ipa": "/ɔːˈtɒmətən/",
-            "tag": "look-alike, different root",
-            "definition": "a self-moving machine, from automatos; shares auto- only.",
-            "definitionCN": "自动机械，出自 automatos；仅共享 auto-。"
-          }
-        ]
-      },
-      {
-        "heading": "NEAR MEANING",
-        "entries": [
-          {
-            "word": "dictator",
-            "ipa": "/dɪkˈteɪtər/",
-            "tag": "near meaning",
-            "definition": "an absolute ruler, originally a Roman emergency magistrate.",
-            "definitionCN": "独裁者；原指罗马临时专政官。"
-          },
-          {
-            "word": "despot",
-            "ipa": "/ˈdespɒt/",
-            "tag": "near meaning",
-            "definition": "a ruler with absolute power, often cruel; Greek household master.",
-            "definitionCN": "暴君；源自希腊语家主一词。"
-          },
-          {
-            "word": "tyrant",
-            "ipa": "/ˈtaɪrənt/",
-            "tag": "near meaning",
-            "definition": "a cruel and oppressive ruler, originally a Greek usurper.",
-            "definitionCN": "暴君；原指希腊僭主。"
-          },
-          {
-            "word": "monarch",
-            "ipa": "/ˈmɒnək/",
-            "tag": "near meaning",
-            "definition": "a single hereditary ruler, constitutional or absolute.",
-            "definitionCN": "君主；可为立宪，可为专制。"
-          },
-          {
-            "word": "authoritarian",
-            "ipa": "/ɔːˌθɒrɪˈteəriən/",
-            "tag": "near meaning",
-            "definition": "demanding obedience; the adjective flavor of autocratic rule.",
-            "definitionCN": "威权主义的；要求绝对服从。"
-          }
-        ]
-      }
-    ]
-  },
-  "mnemonics": {
-    "normalIntro": {
-      "en": "autocrat is auto plus crat: self plus power, the one-person government.",
-      "cn": "autocrat = auto + crat：自身 + 权力——一个人的政府。"
-    },
-    "normal": [
-      { "en": "auto (self) + kratos (power): power that answers to itself alone.", "cn": "auto（自身）+ kratos（权力）：只对自身负责的权力。" },
-      { "en": "The -crat family: autocrat, aristocrat, bureaucrat, democrat.", "cn": "-crat 家族：autocrat、aristocrat、bureaucrat、democrat。" },
-      { "en": "The Russian tsar's official title made autocrat a household word.", "cn": "俄国沙皇的正式帝号使 autocrat 成了家喻户晓的词。" },
-      { "en": "autocracy is the system; the autocrat is the person.", "cn": "autocracy 是体制，autocrat 是其人。" },
-      { "en": "Modern use: any boss who decides everything is a kitchen-table autocrat.", "cn": "现代用法：凡独断一切者，皆是餐桌上的 autocrat。" }
-    ],
-    "abstract": [
-      { "en": "Picture a single chair at the head of a very long table, and everyone else standing.", "cn": "想象长桌尽头只有一把椅子，其余人全部站立。" },
-      { "en": "The word walks like a ruler: no one voted for it.", "cn": "这个词走起路来像君王：没人投过它的票。" },
-      { "en": "Autocrat is the uncle who decides the weather.", "cn": "autocrat 是那位连天气都要拍板的舅舅。" }
-    ]
-  },
-  "examples": [
-    { "en": "The new CEO was an autocrat who tolerated no debate.", "cn": "新任总裁是个不容辩论的独断者。" },
-    { "en": "For centuries the tsar was Europe's most famous autocrat.", "cn": "数百年来，沙皇一直是欧洲最著名的独裁君主。" },
-    { "en": "She ruled the committee like a benevolent autocrat.", "cn": "她以开明专制者的姿态执掌委员会。" }
-  ],
-  "dict_mnemonic": {
-    "note": "谐音记忆 · 非词源",
-    "text": "「奥特克拉」——奥特之父奥克大拉，家里大事小事全由他一人拍板",
-    "word": "autocrat"
-  },
-  "root": "出自希腊语 autokrates「独自统治的」（autos「自身」+ kratos「权力」），其名词 autokrator 为全权统帅称号；经 18 世纪沙皇帝号（autocrat of all the Russias）流行，18 世纪 60 年代进入英语；与 aristocrat、bureaucrat 共享 -crat 词尾，词源确凿。",
-  "sensesIntro": {
-    "en": "Eight senses move one word from throne to kitchen: the absolute monarch, the bossy boss, the dominating aunt, and the fine differences among tyrants, despots, and dictators.",
-    "cn": "八义词让一个词从王座走进厨房：绝对君主、专断上司、支配欲极强的姑妈，以及 tyrant、despot、dictator 之间的细微差别。"
-  },
-  "semanticMap": {
-    "core": {
-      "en": "CORE IMAGE: one hand holding every decision, everyone else waiting.",
-      "cn": "核心意象：一只手攥着所有决定，其余人只能等待。"
-    },
-    "chain": ["THE SELF", "CONCENTRATED POWER", "THE THRONE", "THE BOARDROOM", "THE KITCHEN", "THE WORD FAMILY"],
-    "branches": [
-      { "senses": "01 · 03", "en": "THE THRONE SIDE: tsars and emperors as system incarnate.", "cn": "王座一面：作为体制化身的沙皇与皇帝。" },
-      { "senses": "02 · 05 · 07", "en": "THE DOMESTIC SIDE: bosses, directors, and aunts who rule alone.", "cn": "家常一面：独断的上司、主管与姑妈。" },
-      { "senses": "04", "en": "THE EXCUSE SIDE: the benevolent autocrat's claim to wisdom.", "cn": "自辩一面：开明专制者自诩的智慧。" },
-      { "senses": "06", "en": "THE HISTORY SIDE: rulers graded by the power they shared.", "cn": "史学一面：以分权多少为尺度的君主。" },
-      { "senses": "08", "en": "THE FAMILY SIDE: autocrat beside tyrant, despot, dictator.", "cn": "词族一面：与 tyrant、despot、dictator 并列的 autocrat。" }
-    ]
-  },
-  "affixes": {
-    "intro": {
-      "en": "autocrat is autos plus krates: the self-powered ruler; the -crat suffix names whoever holds a kind of power.",
-      "cn": "autocrat 由 autos 加 krates 构成：自我赋能的统治者；-crat 词尾为各类掌权者命名。"
-    },
-    "latinIntro": {
-      "en": "Greek kratos, power, built a wide family in English: autocrat, aristocrat, bureaucrat, democrat, technocrat.",
-      "cn": "希腊语 kratos「权力」在英语中构建了庞大家族：autocrat、aristocrat、bureaucrat、democrat、technocrat。"
-    },
-    "items": [
-      { "word": "autos", "structure": "Greek pronoun", "meaning": "self", "meaningCN": "自身", "example": "autokrates, ruling by oneself", "exampleCN": "autokrates，独自统治" },
-      { "word": "kratos", "structure": "Greek noun", "meaning": "power, strength", "meaningCN": "权力；力量", "example": "kratos in Greek texts", "exampleCN": "希腊文献中的 kratos" },
-      { "word": "autokrator", "structure": "autos + krator", "meaning": "an absolute ruler", "meaningCN": "绝对统治者", "example": "imperator et autokrator", "exampleCN": "皇帝与全权者" },
-      { "word": "-crat", "structure": "agent suffix", "meaning": "one who holds a kind of power", "meaningCN": "掌某种权力者", "example": "bureaucrat, technocrat", "exampleCN": "官僚、技术官僚" },
-      { "word": "-cracy", "structure": "noun suffix", "meaning": "rule by a kind of power", "meaningCN": "某种权力主导的统治", "example": "democracy, bureaucracy", "exampleCN": "民主制、官僚制" },
-      { "word": "autocracy", "structure": "autocrat + -y", "meaning": "government by one absolute ruler", "meaningCN": "独裁政体", "example": "the fall of autocracy", "exampleCN": "独裁政体的倾覆" },
-      { "word": "aristocrat", "structure": "aristos + krates", "meaning": "a noble, one of the best-born rulers", "meaningCN": "贵族", "example": "an old aristocrat", "exampleCN": "旧贵族" },
-      { "word": "democrat", "structure": "demos + krates", "meaning": "one who supports rule by the people", "meaningCN": "民主主义者", "example": "a lifelong democrat", "exampleCN": "毕生的民主派" }
-    ],
-    "latinEntries": [
-      { "word": "autokrator", "structure": "Greek title", "meaning": "an absolute ruler", "meaningCN": "绝对统治者" }
-    ]
   }
-}
+]

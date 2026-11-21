@@ -1,587 +1,589 @@
-{
-  "word": "autonomous",
-  "ipa_uk": "/ɔːˈtɒnəməs/",
-  "ipa_us": "/ɔːˈtɑːnəməs/",
-  "definition_zh": "自治的；自主的；有自主权的；自行运转的；（车辆、机器）无人驾驶的、自主运行的",
-  "definition_en": "governing itself or acting on its own, without control from outside, including machines that operate without a driver",
-  "core_image": "一辆没有驾驶座的车在田垄间自己转弯，方向盘转得比人手还稳",
-  "scene": "拖拉机沿着垄沟自己走，遇到地头的石堆就减速绕开，驾驶室里空着。An autonomous tractor steers itself across the field and slows for the stones at the edge.",
-  "sceneCN": "这里指机器无人驾驶、自行作业（第 4 个义项：无人驾驶的、自主运行的）；句意为这台无人驾驶的拖拉机自己穿过田地，遇到地边的石堆就减速。场景图取象：一辆没有驾驶座的车在田垄间自己转弯。",
-  "pos": [
-    {
-      "tag": "adj.",
-      "zh": "自治的；自主的（地区、机构）"
-    },
-    {
-      "tag": "adj.",
-      "zh": "自主行动的；不受外部支配的（人、决定）"
-    },
-    {
-      "tag": "adj.",
-      "zh": "（车辆、机器）无人驾驶的；自主运行的"
-    },
-    {
-      "tag": "adj.",
-      "zh": "（哲学、伦理）自律的；自我立法的"
-    }
-  ],
-  "collocations": [
-    {
-      "phrase": "autonomous region",
-      "zh": "自治区"
-    },
-    {
-      "phrase": "autonomous vehicle",
-      "zh": "无人驾驶车辆"
-    },
-    {
-      "phrase": "autonomous system",
-      "zh": "自主系统"
-    },
-    {
-      "phrase": "autonomous learning",
-      "zh": "自主学习"
-    },
-    {
-      "phrase": "autonomous decision-making",
-      "zh": "自主决策"
-    },
-    {
-      "phrase": "autonomous weapons",
-      "zh": "自主武器"
-    },
-    {
-      "phrase": "remain autonomous",
-      "zh": "保持自治"
-    }
-  ],
-  "forms": [
-    {
-      "label": "原形",
-      "form": "autonomous"
-    },
-    {
-      "label": "名词",
-      "form": "autonomy"
-    },
-    {
-      "label": "副词",
-      "form": "autonomously"
-    },
-    {
-      "label": "形容词（相关）",
-      "form": "autonomic"
-    },
-    {
-      "label": "名词（自治论）",
-      "form": "autonomism"
-    },
-    {
-      "label": "动词（使自治）",
-      "form": "autonomize"
-    }
-  ],
-  "derivatives": [
-    {
-      "word": "autonomy",
-      "pos": "n.",
-      "zh": "自治；自主权（把希腊语「自己的」与「法、规矩」合在一起，字面即「自己的法」）"
-    },
-    {
-      "word": "autonomously",
-      "pos": "adv.",
-      "zh": "自主地；自行地（加副词词尾，指不受外部操控地运行）"
-    },
-    {
-      "word": "autonomic",
-      "pos": "adj.",
-      "zh": "自主神经的；自动调节的（同源形容词，现代医学多用来指不受意识支配的神经系统）"
-    },
-    {
-      "word": "autonomism",
-      "pos": "n.",
-      "zh": "自治主义（加表示「学说、倾向」的后缀）"
-    },
-    {
-      "word": "autonomize",
-      "pos": "v.",
-      "zh": "使自治；使自主（加表示「使成为」的动词词尾）"
-    },
-    {
-      "word": "autonomist",
-      "pos": "n.",
-      "zh": "自治主义者；主张自主者（加表示「从事者、主张者」的名词后缀）"
-    }
-  ],
-  "senses": [
-    {
-      "no": "01",
-      "title": "Self-governing in law",
-      "titleCN": "法律上的自治",
-      "definition": "of a region, institution or community, having the right to govern its own affairs",
-      "definitionCN": "指地区、机构或群体有权管理自身事务",
-      "example": "The autonomous region sets its own school curriculum.",
-      "exampleCN": "这个自治区自行制定学校课程。",
-      "why": "The Greek word literally means living under one's own law, so self-rule is its oldest sense.",
-      "whyCN": "这个希腊词字面就是按自己的法生活，因此自治是最古老的义项。"
-    },
-    {
-      "no": "02",
-      "title": "Acting independently",
-      "titleCN": "独立自主地行动",
-      "definition": "able to act or decide without direction from another person or body",
-      "definitionCN": "无需他人或他机构指示即可行动或决定",
-      "example": "The research unit is autonomous in how it spends its grant.",
-      "exampleCN": "这个研究单位在如何使用经费上自主。",
-      "why": "From self-rule in law the word moved to self-direction in ordinary institutions.",
-      "whyCN": "这个词从法律上的自治，转到一般机构里的自行其是。"
-    },
-    {
-      "no": "03",
-      "title": "Self-directed as a person",
-      "titleCN": "个人的自主",
-      "definition": "of a person, able to think and choose for oneself rather than being led",
-      "definitionCN": "指人能独立思考和选择，而非被人牵着走",
-      "example": "An autonomous learner asks the next question without being told.",
-      "exampleCN": "自主的学习者不用别人吩咐就会问下一个问题。",
-      "why": "Education and ethics both prize the person who can set a rule for himself.",
-      "whyCN": "教育与伦理都看重那个能替自己立规矩的人。"
-    },
-    {
-      "no": "04",
-      "title": "Driverless in the physical world",
-      "titleCN": "无人驾驶",
-      "definition": "of a vehicle or machine, able to move and operate without a human driver",
-      "definitionCN": "指车辆或机器无需人驾驶即可移动与作业",
-      "example": "An autonomous tractor steers itself across the field and slows for the stones at the edge.",
-      "exampleCN": "这台无人驾驶的拖拉机自己穿过田地，遇到地边的石堆就减速。",
-      "why": "A machine that needs no hand on the wheel is self-governing in the most literal way.",
-      "whyCN": "不需要手扶方向盘的机器，是最字面意义上的自治者。"
-    },
-    {
-      "no": "05",
-      "title": "A self-running system",
-      "titleCN": "自行运转的系统",
-      "definition": "of software or a system, able to monitor its own state and act without a human in the loop",
-      "definitionCN": "指软件或系统能监测自身状态并在无人介入时行动",
-      "example": "The autonomous system rerouted traffic when the sensor failed.",
-      "exampleCN": "传感器失效时，这套自主系统重新规划了车流。",
-      "why": "Computing took the word for loops that close on themselves, a small republic of code.",
-      "whyCN": "计算机领域用这个词指自我闭合的循环，是一小块代码的自治体。"
-    },
-    {
-      "no": "06",
-      "title": "Moral self-legislation",
-      "titleCN": "道德上的自我立法",
-      "definition": "in philosophy, the capacity of a rational being to give itself its own moral law",
-      "definitionCN": "在哲学中，指理性存在者替自己立下道德法则的能力",
-      "example": "Kant placed autonomy at the centre of moral worth.",
-      "exampleCN": "康德把自律置于道德价值的中心。",
-      "why": "The Greek image of giving oneself a law became, in ethics, the ground of dignity.",
-      "whyCN": "为自己立法的希腊意象，在伦理学里成了尊严的根据。"
-    },
-    {
-      "no": "07",
-      "title": "A self-governing agent",
-      "titleCN": "自主的智能体",
-      "definition": "in artificial intelligence, an agent that pursues goals without continuous instruction",
-      "definitionCN": "在人工智能中，指无需持续指令即可追求目标的智能体",
-      "example": "The autonomous agent books the tickets and confirms them itself.",
-      "exampleCN": "这个自主代理自己订票并自己确认。",
-      "why": "Software agents were named after political self-rule, a joke that became a technical term.",
-      "whyCN": "软件代理借用了政治上的自治，这个玩笑后来成了技术术语。"
-    },
-    {
-      "no": "08",
-      "title": "Weapons that choose",
-      "titleCN": "会自行选择的武器",
-      "definition": "of a weapon system, able to select and engage targets without human decision",
-      "definitionCN": "指武器系统能不经人决定就选择并攻击目标",
-      "example": "Talks on autonomous weapons stalled over the question of accountability.",
-      "exampleCN": "关于自主武器的谈判卡在责任归属问题上。",
-      "why": "When the machine picks the target, the word stops being neutral and becomes a warning.",
-      "whyCN": "当机器自己挑目标，这个词就不再中性，而成了警告。"
-    },
-    {
-      "no": "09",
-      "title": "Not the same as automatic",
-      "titleCN": "与「自动」不同",
-      "definition": "governed by its own rules rather than merely following a fixed mechanical sequence",
-      "definitionCN": "按自身规则行事，而不只是执行固定的机械序列",
-      "example": "A thermostat is automatic; a system that rewrites its own rules is autonomous.",
-      "exampleCN": "恒温器是自动的；能改写自身规则的系统才是自主的。",
-      "why": "Automatic comes from a Greek word for acting of itself, but only autonomy implies law of one's own.",
-      "whyCN": "「自动」出自希腊语「自行动作」，但只有「自主」才含有自己的法之意。"
-    }
-  ],
-  "etymology": {
-    "intro": {
-      "en": "Autonomous comes from Greek autonomos, 'living under one's own laws', from autos 'self' and nomos 'law or custom'. The formation is clear; the exact date of its English entry is uncertain.",
-      "cn": "autonomous 出自希腊语 autonomos「按自己的法生活」，由 autos「自己」与 nomos「法、习俗」构成。构词清楚，进入英语的确切年代不确定。"
-    },
-    "items": [
+[
+  {
+    "word": "autonomous",
+    "ipa_uk": "/ɔːˈtɒnəməs/",
+    "ipa_us": "/ɔːˈtɑːnəməs/",
+    "definition_zh": "自治的；自主的；有自主权的；自行运转的；（车辆、机器）无人驾驶的、自主运行的",
+    "definition_en": "governing itself or acting on its own, without control from outside, including machines that operate without a driver",
+    "core_image": "一辆没有驾驶座的车在田垄间自己转弯，方向盘转得比人手还稳",
+    "scene": "拖拉机沿着垄沟自己走，遇到地头的石堆就减速绕开，驾驶室里空着。An autonomous tractor steers itself across the field and slows for the stones at the edge.",
+    "sceneCN": "这里指机器无人驾驶、自行作业（第 4 个义项：无人驾驶的、自主运行的）；句意为这台无人驾驶的拖拉机自己穿过田地，遇到地边的石堆就减速。场景图取象：一辆没有驾驶座的车在田垄间自己转弯。",
+    "pos": [
       {
-        "era": "GREEK AUTOS",
-        "en": "Autos meant self or the same, and it is the source of auto- in automatic, autobiography and automobile.",
-        "cn": "autos 意为自身、同一，是 automatic、autobiography 与 automobile 中 auto- 的来源。"
+        "tag": "adj.",
+        "zh": "自治的；自主的（地区、机构）"
       },
       {
-        "era": "GREEK NOMOS",
-        "en": "Nomos meant law, custom or usage, and it also stands behind economy, astronomy and taxonomy.",
-        "cn": "nomos 意为法、习俗、惯例，economy、astronomy 与 taxonomy 也由它而来。"
+        "tag": "adj.",
+        "zh": "自主行动的；不受外部支配的（人、决定）"
       },
       {
-        "era": "AUTONOMOS",
-        "en": "The compound described a city or people living under its own laws rather than under an outside ruler.",
-        "cn": "这个复合词描述按自己的法而非按外来统治者之法治生活的城邦或民族。"
+        "tag": "adj.",
+        "zh": "（车辆、机器）无人驾驶的；自主运行的"
       },
       {
-        "era": "CITY-STATES",
-        "en": "Greek politics made autonomy a claim of cities, and the word entered political argument before philosophy used it.",
-        "cn": "希腊政治使自治成为城邦的主张，这个词先进入政治论辩，后被哲学使用。"
-      },
-      {
-        "era": "KANT",
-        "en": "Kant gave autonomy a moral sense, the rational will legislating for itself, which is still the philosophical anchor.",
-        "cn": "康德赋予自律道德含义，即理性意志替自己立法，这仍是哲学上的锚点。"
-      },
-      {
-        "era": "MACHINES",
-        "en": "In the twentieth century the word was applied to vehicles and software, extending self-rule from cities to machines.",
-        "cn": "二十世纪，这个词被用于车辆与软件，把自治从城邦扩展到机器。"
-      }
-    ]
-  },
-  "similar": {
-    "note": {
-      "en": "The first group shares the self or law root or looks close; the second group holds the related words that are routinely confused with autonomous.",
-      "cn": "第一组或共享「自己」或「法」的词根，或字形相近；第二组是常与 autonomous 混淆的相关词。"
-    },
-    "groups": [
-      {
-        "heading": "LOOK-ALIKE",
-        "entries": [
-          {
-            "word": "autonomy",
-            "ipa": "/ɔːˈtɒnəmi/",
-            "tag": "same root",
-            "definition": "The noun: the right or condition of self-government.",
-            "definitionCN": "名词：自治的权利或状态。"
-          },
-          {
-            "word": "autonomously",
-            "ipa": "/ɔːˈtɒnəməsli/",
-            "tag": "same root",
-            "definition": "The adverb for acting without outside control.",
-            "definitionCN": "副词：不受外部控制地行动。"
-          },
-          {
-            "word": "autonomic",
-            "ipa": "/ˌɔːtəˈnɒmɪk/",
-            "tag": "same root",
-            "definition": "Of the nervous system that regulates the body without conscious control.",
-            "definitionCN": "指不受意识支配、自行调节身体的神经系统。"
-          },
-          {
-            "word": "automatic",
-            "ipa": "/ˌɔːtəˈmætɪk/",
-            "tag": "different root",
-            "definition": "Working by itself mechanically; it shares autos but its second half means acting of itself, not law.",
-            "definitionCN": "机械地自行工作；共享「自己」，后半却意为自行动作而非法。"
-          },
-          {
-            "word": "anonymous",
-            "ipa": "/əˈnɒnɪməs/",
-            "tag": "different root",
-            "definition": "Nameless; it looks close but comes from a word meaning name.",
-            "definitionCN": "无名的；字形相近，却出自意为「名字」的词。"
-          }
-        ]
-      },
-      {
-        "heading": "NEAR MEANING",
-        "entries": [
-          {
-            "word": "independent",
-            "ipa": "/ˌɪndɪˈpendənt/",
-            "tag": "near meaning",
-            "definition": "Not controlled by another, the everyday word for the same idea.",
-            "definitionCN": "不受他人控制，是同一意思的日常说法。"
-          },
-          {
-            "word": "self-governing",
-            "ipa": "/ˌself ˈɡʌvənɪŋ/",
-            "tag": "near meaning",
-            "definition": "Ruling itself, the plain English equivalent of the political sense.",
-            "definitionCN": "自我治理，是政治义项最朴素的英语对应。"
-          },
-          {
-            "word": "driverless",
-            "ipa": "/ˈdraɪvələs/",
-            "tag": "near meaning",
-            "definition": "Without a human driver, the narrow transport sense.",
-            "definitionCN": "无人类驾驶，是交通领域的窄义。"
-          },
-          {
-            "word": "sovereign",
-            "ipa": "/səˈvərɪn/",
-            "tag": "near meaning",
-            "definition": "Holding supreme authority, stronger and more legal than autonomous.",
-            "definitionCN": "握有最高权力，比 autonomous 更强、更法律化。"
-          },
-          {
-            "word": "self-directed",
-            "ipa": "/ˌself dəˈrektɪd/",
-            "tag": "near meaning",
-            "definition": "Setting one's own course, the personal sense without the legal weight.",
-            "definitionCN": "自己定方向，是个人层面的意思，没有法律分量。"
-          }
-        ]
-      }
-    ]
-  },
-  "mnemonics": {
-    "normalIntro": {
-      "en": "Normal associations use the real self and law roots, the real family and real fixed phrases.",
-      "cn": "正常联想使用真实的「自己」与「法」词根、真实词族与真实固定搭配。"
-    },
-    "normal": [
-      {
-        "en": "Autos is self and nomos is law, so autonomous means living under one's own law.",
-        "cn": "前者是自己，后者是法，合起来就是按自己的法生活。"
-      },
-      {
-        "en": "The family runs autonomy, autonomous, autonomously, autonomic and autonomism.",
-        "cn": "同族词有 autonomy、autonomous、autonomously、autonomic 与 autonomism。"
-      },
-      {
-        "en": "Fixed phrases mark the uses: autonomous region, autonomous vehicle, autonomous system, autonomous learning.",
-        "cn": "固定说法标出用法：自治区、无人驾驶车辆、自主系统、自主学习。"
-      },
-      {
-        "en": "The word has three lines: a region governs itself, a person directs himself, a machine drives itself.",
-        "cn": "这个词有三条线：地区自治、个人自主、机器自驾。"
-      },
-      {
-        "en": "Keep it apart from automatic, which only means working by itself.",
-        "cn": "要与「自动」分开，后者只是自行工作。"
+        "tag": "adj.",
+        "zh": "（哲学、伦理）自律的；自我立法的"
       }
     ],
-    "abstract": [
+    "collocations": [
       {
-        "en": "Autonomy is not the absence of rules but the presence of one's own.",
-        "cn": "自主不是没有规则，而是有一套自己的规则。"
+        "phrase": "autonomous region",
+        "zh": "自治区"
       },
       {
-        "en": "A machine that governs itself raises the oldest political question in a new body.",
-        "cn": "自行治理的机器，把最古老的政治问题装进了一具新的身体。"
+        "phrase": "autonomous vehicle",
+        "zh": "无人驾驶车辆"
       },
       {
-        "en": "Self-rule is a burden before it is a freedom.",
-        "cn": "自治先是负担，然后才是自由。"
-      }
-    ]
-  },
-  "examples": [
-    {
-      "en": "The province became autonomous after the treaty.",
-      "cn": "条约签订后，这个省取得自治。"
-    },
-    {
-      "en": "Autonomous vehicles still struggle with unmapped roads.",
-      "cn": "无人驾驶车辆在未测绘的道路上仍吃力。"
-    },
-    {
-      "en": "She encouraged autonomous work rather than close supervision.",
-      "cn": "她鼓励自主工作，而不是紧盯着管。"
-    }
-  ],
-  "dict_mnemonic": {
-    "note": "谐音记忆 · 非词源",
-    "text": "读作「奥托诺默斯」——自己给自己定规矩，自己走自己的路：自治的、自主的",
-    "word": "autonomous"
-  },
-  "root": "希腊语 autonomos「按自己的法生活」← autos「自己」＋ nomos「法、习俗」；nomos 另见于 economy、astronomy、taxonomy。政治义先出，康德赋予道德自律义，二十世纪扩展到无人驾驶车辆与自主软件系统。进入英语确切年代不确定。",
-  "sensesIntro": {
-    "en": "Nine senses follow one self-made law: a self-governing region, an independent institution, a self-directed person, a driverless machine, a self-running system, moral self-legislation, a software agent, a weapon that chooses, and the contrast with merely automatic.",
-    "cn": "九个义项沿着同一部自订的法：自治地区、独立机构、自主的个人、无人驾驶的机器、自行运转的系统、道德的自我立法、软件智能体、自行选择的武器，以及与「自动」的区别。"
-  },
-  "semanticMap": {
-    "core": {
-      "en": "CORE IMAGE: a tractor with an empty cab turning a corner by itself, steadier than a human hand.",
-      "cn": "核心意象：空着驾驶室的拖拉机自己转过弯来，比人手还稳。"
-    },
-    "chain": [
-      "SELF",
-      "LAW",
-      "OWN LAW",
-      "SELF-GOVERNMENT",
-      "SELF-DIRECTION",
-      "SELF-DRIVING"
-    ],
-    "branches": [
-      {
-        "senses": "01 · 02",
-        "en": "THE GOVERNING BODY: a region or institution that sets its own rules and spends its own budget.",
-        "cn": "治理的主体：自订规则、自支预算的地区或机构。"
+        "phrase": "autonomous system",
+        "zh": "自主系统"
       },
       {
-        "senses": "03 · 06",
-        "en": "THE SELF-LEGISLATING PERSON: a learner who asks the next question, and a will that gives itself a moral law.",
-        "cn": "自我立法的个人：自己问出下一个问题的学习者，以及替自己立道德法的意志。"
+        "phrase": "autonomous learning",
+        "zh": "自主学习"
       },
       {
-        "senses": "04 · 05",
-        "en": "THE MACHINE THAT RUNS ITSELF: a driverless tractor, and software that acts with no hand in the loop.",
-        "cn": "自行运转的机器：无人驾驶的拖拉机，以及无人介入即行动的软件。"
+        "phrase": "autonomous decision-making",
+        "zh": "自主决策"
       },
       {
-        "senses": "07 · 08",
-        "en": "THE AGENT AND THE WEAPON: a program pursuing a goal, and a system that picks its own target.",
-        "cn": "智能体与武器：追求目标的程序，以及自己挑选目标的系统。"
+        "phrase": "autonomous weapons",
+        "zh": "自主武器"
       },
       {
-        "senses": "09",
-        "en": "THE DISTINCTION: automatic follows a fixed sequence; autonomous follows a law of its own.",
-        "cn": "那条区别：自动执行固定序列，自主遵循自己的法。"
-      }
-    ]
-  },
-  "affixes": {
-    "intro": {
-      "en": "Autonomous is a Greek compound of self and law, with a family that runs from politics through philosophy into robotics.",
-      "cn": "autonomous 是「自己」与「法」的希腊复合词，其词族从政治经哲学一直延伸到机器人技术。"
-    },
-    "latinIntro": {
-      "en": "The source is Greek rather than Latin: autos and nomos, with the adjective ending -os becoming -ous in English.",
-      "cn": "来源是希腊语而非拉丁语：autos 与 nomos，形容词词尾 -os 在英语中变成 -ous。"
-    },
-    "items": [
-      {
-        "word": "autonomous",
-        "structure": "Greek autonomos",
-        "meaning": "living under one's own law",
-        "meaningCN": "按自己的法生活",
-        "example": "The adjective covers regions, persons and machines.",
-        "exampleCN": "这个形容词覆盖地区、个人与机器。"
-      },
-      {
-        "word": "autos",
-        "structure": "Greek pronoun",
-        "meaning": "self, the same",
-        "meaningCN": "自己；同一",
-        "example": "It supplies the auto- in many English words.",
-        "exampleCN": "它提供许多英语词里的 auto-。"
-      },
-      {
-        "word": "nomos",
-        "structure": "Greek noun",
-        "meaning": "law, custom",
-        "meaningCN": "法；习俗",
-        "example": "It also stands behind economy and astronomy.",
-        "exampleCN": "economy 与 astronomy 也由它而来。"
-      },
-      {
-        "word": "autonomy",
-        "structure": "Greek autonomia",
-        "meaning": "self-government",
-        "meaningCN": "自治",
-        "example": "The noun names the condition rather than the holder.",
-        "exampleCN": "这个名词指状态而非持有者。"
-      },
-      {
-        "word": "-ous",
-        "structure": "Latin -osus, matching Greek -os",
-        "meaning": "full of, having the quality",
-        "meaningCN": "具有……性质的",
-        "example": "It builds autonomous, famous and dangerous.",
-        "exampleCN": "它构成自治的、著名的与危险的等词。"
-      },
-      {
-        "word": "-ly",
-        "structure": "English suffix",
-        "meaning": "in the manner of",
-        "meaningCN": "以……方式",
-        "example": "It builds autonomously, meaning without outside control.",
-        "exampleCN": "它构成 autonomously，意为不受外部控制。"
-      },
-      {
-        "word": "-ic",
-        "structure": "Greek -ikos",
-        "meaning": "relating to",
-        "meaningCN": "与……有关的",
-        "example": "It builds autonomic, the medical adjective.",
-        "exampleCN": "它构成 autonomic，即医学形容词。"
-      },
-      {
-        "word": "-ism",
-        "structure": "Greek -ismos",
-        "meaning": "doctrine or tendency",
-        "meaningCN": "学说；倾向",
-        "example": "It builds autonomism, a political stance.",
-        "exampleCN": "它构成 autonomism，一种政治立场。"
-      },
-      {
-        "word": "-ize",
-        "structure": "Greek -izein",
-        "meaning": "to make",
-        "meaningCN": "使成为",
-        "example": "It builds autonomize, to make self-governing.",
-        "exampleCN": "它构成 autonomize，意为使自治。"
+        "phrase": "remain autonomous",
+        "zh": "保持自治"
       }
     ],
-    "latinEntries": [
+    "forms": [
       {
-        "word": "autonomos",
-        "structure": "autos (self) + nomos (law); Greek autonomos",
-        "meaning": "living under one's own law",
-        "meaningCN": "按自己的法生活",
-        "example": "Greek autonomos means living under one's own law.",
-        "exampleCN": "希腊语 autonomos 意为按自己的法生活。"
+        "label": "原形",
+        "form": "autonomous"
       },
       {
-        "word": "autos",
-        "structure": "Greek pronoun autos (self)",
-        "meaning": "self",
-        "meaningCN": "自己",
-        "example": "Greek autos means self, and gives the auto- of English.",
-        "exampleCN": "希腊语 autos 意为自己，并给出英语的 auto-。"
+        "label": "名词",
+        "form": "autonomy"
       },
       {
-        "word": "nomos",
-        "structure": "Greek noun nomos (law, custom)",
-        "meaning": "law, custom",
-        "meaningCN": "法；习俗",
-        "example": "Greek nomos means law or custom, and gives -nomy in English.",
-        "exampleCN": "希腊语 nomos 意为法、习俗，并给出英语的 -nomy。"
+        "label": "副词",
+        "form": "autonomously"
+      },
+      {
+        "label": "形容词（相关）",
+        "form": "autonomic"
+      },
+      {
+        "label": "名词（自治论）",
+        "form": "autonomism"
+      },
+      {
+        "label": "动词（使自治）",
+        "form": "autonomize"
       }
     ],
     "derivatives": [
       {
         "word": "autonomy",
         "pos": "n.",
-        "zh": "自治；自主权"
+        "zh": "自治；自主权（把希腊语「自己的」与「法、规矩」合在一起，字面即「自己的法」）"
       },
       {
         "word": "autonomously",
         "pos": "adv.",
-        "zh": "自主地；自行地"
+        "zh": "自主地；自行地（加副词词尾，指不受外部操控地运行）"
       },
       {
         "word": "autonomic",
         "pos": "adj.",
-        "zh": "自主神经的"
+        "zh": "自主神经的；自动调节的（同源形容词，现代医学多用来指不受意识支配的神经系统）"
       },
       {
         "word": "autonomism",
         "pos": "n.",
-        "zh": "自治主义"
+        "zh": "自治主义（加表示「学说、倾向」的后缀）"
       },
       {
         "word": "autonomize",
         "pos": "v.",
-        "zh": "使自治；使自主"
+        "zh": "使自治；使自主（加表示「使成为」的动词词尾）"
+      },
+      {
+        "word": "autonomist",
+        "pos": "n.",
+        "zh": "自治主义者；主张自主者（加表示「从事者、主张者」的名词后缀）"
       }
-    ]
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "Self-governing in law",
+        "titleCN": "法律上的自治",
+        "definition": "of a region, institution or community, having the right to govern its own affairs",
+        "definitionCN": "指地区、机构或群体有权管理自身事务",
+        "example": "The autonomous region sets its own school curriculum.",
+        "exampleCN": "这个自治区自行制定学校课程。",
+        "why": "The Greek word literally means living under one's own law, so self-rule is its oldest sense.",
+        "whyCN": "这个希腊词字面就是按自己的法生活，因此自治是最古老的义项。"
+      },
+      {
+        "no": "02",
+        "title": "Acting independently",
+        "titleCN": "独立自主地行动",
+        "definition": "able to act or decide without direction from another person or body",
+        "definitionCN": "无需他人或他机构指示即可行动或决定",
+        "example": "The research unit is autonomous in how it spends its grant.",
+        "exampleCN": "这个研究单位在如何使用经费上自主。",
+        "why": "From self-rule in law the word moved to self-direction in ordinary institutions.",
+        "whyCN": "这个词从法律上的自治，转到一般机构里的自行其是。"
+      },
+      {
+        "no": "03",
+        "title": "Self-directed as a person",
+        "titleCN": "个人的自主",
+        "definition": "of a person, able to think and choose for oneself rather than being led",
+        "definitionCN": "指人能独立思考和选择，而非被人牵着走",
+        "example": "An autonomous learner asks the next question without being told.",
+        "exampleCN": "自主的学习者不用别人吩咐就会问下一个问题。",
+        "why": "Education and ethics both prize the person who can set a rule for himself.",
+        "whyCN": "教育与伦理都看重那个能替自己立规矩的人。"
+      },
+      {
+        "no": "04",
+        "title": "Driverless in the physical world",
+        "titleCN": "无人驾驶",
+        "definition": "of a vehicle or machine, able to move and operate without a human driver",
+        "definitionCN": "指车辆或机器无需人驾驶即可移动与作业",
+        "example": "An autonomous tractor steers itself across the field and slows for the stones at the edge.",
+        "exampleCN": "这台无人驾驶的拖拉机自己穿过田地，遇到地边的石堆就减速。",
+        "why": "A machine that needs no hand on the wheel is self-governing in the most literal way.",
+        "whyCN": "不需要手扶方向盘的机器，是最字面意义上的自治者。"
+      },
+      {
+        "no": "05",
+        "title": "A self-running system",
+        "titleCN": "自行运转的系统",
+        "definition": "of software or a system, able to monitor its own state and act without a human in the loop",
+        "definitionCN": "指软件或系统能监测自身状态并在无人介入时行动",
+        "example": "The autonomous system rerouted traffic when the sensor failed.",
+        "exampleCN": "传感器失效时，这套自主系统重新规划了车流。",
+        "why": "Computing took the word for loops that close on themselves, a small republic of code.",
+        "whyCN": "计算机领域用这个词指自我闭合的循环，是一小块代码的自治体。"
+      },
+      {
+        "no": "06",
+        "title": "Moral self-legislation",
+        "titleCN": "道德上的自我立法",
+        "definition": "in philosophy, the capacity of a rational being to give itself its own moral law",
+        "definitionCN": "在哲学中，指理性存在者替自己立下道德法则的能力",
+        "example": "Kant placed autonomy at the centre of moral worth.",
+        "exampleCN": "康德把自律置于道德价值的中心。",
+        "why": "The Greek image of giving oneself a law became, in ethics, the ground of dignity.",
+        "whyCN": "为自己立法的希腊意象，在伦理学里成了尊严的根据。"
+      },
+      {
+        "no": "07",
+        "title": "A self-governing agent",
+        "titleCN": "自主的智能体",
+        "definition": "in artificial intelligence, an agent that pursues goals without continuous instruction",
+        "definitionCN": "在人工智能中，指无需持续指令即可追求目标的智能体",
+        "example": "The autonomous agent books the tickets and confirms them itself.",
+        "exampleCN": "这个自主代理自己订票并自己确认。",
+        "why": "Software agents were named after political self-rule, a joke that became a technical term.",
+        "whyCN": "软件代理借用了政治上的自治，这个玩笑后来成了技术术语。"
+      },
+      {
+        "no": "08",
+        "title": "Weapons that choose",
+        "titleCN": "会自行选择的武器",
+        "definition": "of a weapon system, able to select and engage targets without human decision",
+        "definitionCN": "指武器系统能不经人决定就选择并攻击目标",
+        "example": "Talks on autonomous weapons stalled over the question of accountability.",
+        "exampleCN": "关于自主武器的谈判卡在责任归属问题上。",
+        "why": "When the machine picks the target, the word stops being neutral and becomes a warning.",
+        "whyCN": "当机器自己挑目标，这个词就不再中性，而成了警告。"
+      },
+      {
+        "no": "09",
+        "title": "Not the same as automatic",
+        "titleCN": "与「自动」不同",
+        "definition": "governed by its own rules rather than merely following a fixed mechanical sequence",
+        "definitionCN": "按自身规则行事，而不只是执行固定的机械序列",
+        "example": "A thermostat is automatic; a system that rewrites its own rules is autonomous.",
+        "exampleCN": "恒温器是自动的；能改写自身规则的系统才是自主的。",
+        "why": "Automatic comes from a Greek word for acting of itself, but only autonomy implies law of one's own.",
+        "whyCN": "「自动」出自希腊语「自行动作」，但只有「自主」才含有自己的法之意。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Autonomous comes from Greek autonomos, 'living under one's own laws', from autos 'self' and nomos 'law or custom'. The formation is clear; the exact date of its English entry is uncertain.",
+        "cn": "autonomous 出自希腊语 autonomos「按自己的法生活」，由 autos「自己」与 nomos「法、习俗」构成。构词清楚，进入英语的确切年代不确定。"
+      },
+      "items": [
+        {
+          "era": "GREEK AUTOS",
+          "en": "Autos meant self or the same, and it is the source of auto- in automatic, autobiography and automobile.",
+          "cn": "autos 意为自身、同一，是 automatic、autobiography 与 automobile 中 auto- 的来源。"
+        },
+        {
+          "era": "GREEK NOMOS",
+          "en": "Nomos meant law, custom or usage, and it also stands behind economy, astronomy and taxonomy.",
+          "cn": "nomos 意为法、习俗、惯例，economy、astronomy 与 taxonomy 也由它而来。"
+        },
+        {
+          "era": "AUTONOMOS",
+          "en": "The compound described a city or people living under its own laws rather than under an outside ruler.",
+          "cn": "这个复合词描述按自己的法而非按外来统治者之法治生活的城邦或民族。"
+        },
+        {
+          "era": "CITY-STATES",
+          "en": "Greek politics made autonomy a claim of cities, and the word entered political argument before philosophy used it.",
+          "cn": "希腊政治使自治成为城邦的主张，这个词先进入政治论辩，后被哲学使用。"
+        },
+        {
+          "era": "KANT",
+          "en": "Kant gave autonomy a moral sense, the rational will legislating for itself, which is still the philosophical anchor.",
+          "cn": "康德赋予自律道德含义，即理性意志替自己立法，这仍是哲学上的锚点。"
+        },
+        {
+          "era": "MACHINES",
+          "en": "In the twentieth century the word was applied to vehicles and software, extending self-rule from cities to machines.",
+          "cn": "二十世纪，这个词被用于车辆与软件，把自治从城邦扩展到机器。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "The first group shares the self or law root or looks close; the second group holds the related words that are routinely confused with autonomous.",
+        "cn": "第一组或共享「自己」或「法」的词根，或字形相近；第二组是常与 autonomous 混淆的相关词。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "autonomy",
+              "ipa": "/ɔːˈtɒnəmi/",
+              "tag": "same root",
+              "definition": "The noun: the right or condition of self-government.",
+              "definitionCN": "名词：自治的权利或状态。"
+            },
+            {
+              "word": "autonomously",
+              "ipa": "/ɔːˈtɒnəməsli/",
+              "tag": "same root",
+              "definition": "The adverb for acting without outside control.",
+              "definitionCN": "副词：不受外部控制地行动。"
+            },
+            {
+              "word": "autonomic",
+              "ipa": "/ˌɔːtəˈnɒmɪk/",
+              "tag": "same root",
+              "definition": "Of the nervous system that regulates the body without conscious control.",
+              "definitionCN": "指不受意识支配、自行调节身体的神经系统。"
+            },
+            {
+              "word": "automatic",
+              "ipa": "/ˌɔːtəˈmætɪk/",
+              "tag": "different root",
+              "definition": "Working by itself mechanically; it shares autos but its second half means acting of itself, not law.",
+              "definitionCN": "机械地自行工作；共享「自己」，后半却意为自行动作而非法。"
+            },
+            {
+              "word": "anonymous",
+              "ipa": "/əˈnɒnɪməs/",
+              "tag": "different root",
+              "definition": "Nameless; it looks close but comes from a word meaning name.",
+              "definitionCN": "无名的；字形相近，却出自意为「名字」的词。"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "independent",
+              "ipa": "/ˌɪndɪˈpendənt/",
+              "tag": "near meaning",
+              "definition": "Not controlled by another, the everyday word for the same idea.",
+              "definitionCN": "不受他人控制，是同一意思的日常说法。"
+            },
+            {
+              "word": "self-governing",
+              "ipa": "/ˌself ˈɡʌvənɪŋ/",
+              "tag": "near meaning",
+              "definition": "Ruling itself, the plain English equivalent of the political sense.",
+              "definitionCN": "自我治理，是政治义项最朴素的英语对应。"
+            },
+            {
+              "word": "driverless",
+              "ipa": "/ˈdraɪvələs/",
+              "tag": "near meaning",
+              "definition": "Without a human driver, the narrow transport sense.",
+              "definitionCN": "无人类驾驶，是交通领域的窄义。"
+            },
+            {
+              "word": "sovereign",
+              "ipa": "/səˈvərɪn/",
+              "tag": "near meaning",
+              "definition": "Holding supreme authority, stronger and more legal than autonomous.",
+              "definitionCN": "握有最高权力，比 autonomous 更强、更法律化。"
+            },
+            {
+              "word": "self-directed",
+              "ipa": "/ˌself dəˈrektɪd/",
+              "tag": "near meaning",
+              "definition": "Setting one's own course, the personal sense without the legal weight.",
+              "definitionCN": "自己定方向，是个人层面的意思，没有法律分量。"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Normal associations use the real self and law roots, the real family and real fixed phrases.",
+        "cn": "正常联想使用真实的「自己」与「法」词根、真实词族与真实固定搭配。"
+      },
+      "normal": [
+        {
+          "en": "Autos is self and nomos is law, so autonomous means living under one's own law.",
+          "cn": "前者是自己，后者是法，合起来就是按自己的法生活。"
+        },
+        {
+          "en": "The family runs autonomy, autonomous, autonomously, autonomic and autonomism.",
+          "cn": "同族词有 autonomy、autonomous、autonomously、autonomic 与 autonomism。"
+        },
+        {
+          "en": "Fixed phrases mark the uses: autonomous region, autonomous vehicle, autonomous system, autonomous learning.",
+          "cn": "固定说法标出用法：自治区、无人驾驶车辆、自主系统、自主学习。"
+        },
+        {
+          "en": "The word has three lines: a region governs itself, a person directs himself, a machine drives itself.",
+          "cn": "这个词有三条线：地区自治、个人自主、机器自驾。"
+        },
+        {
+          "en": "Keep it apart from automatic, which only means working by itself.",
+          "cn": "要与「自动」分开，后者只是自行工作。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "Autonomy is not the absence of rules but the presence of one's own.",
+          "cn": "自主不是没有规则，而是有一套自己的规则。"
+        },
+        {
+          "en": "A machine that governs itself raises the oldest political question in a new body.",
+          "cn": "自行治理的机器，把最古老的政治问题装进了一具新的身体。"
+        },
+        {
+          "en": "Self-rule is a burden before it is a freedom.",
+          "cn": "自治先是负担，然后才是自由。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "The province became autonomous after the treaty.",
+        "cn": "条约签订后，这个省取得自治。"
+      },
+      {
+        "en": "Autonomous vehicles still struggle with unmapped roads.",
+        "cn": "无人驾驶车辆在未测绘的道路上仍吃力。"
+      },
+      {
+        "en": "She encouraged autonomous work rather than close supervision.",
+        "cn": "她鼓励自主工作，而不是紧盯着管。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "读作「奥托诺默斯」——自己给自己定规矩，自己走自己的路：自治的、自主的",
+      "word": "autonomous"
+    },
+    "root": "希腊语 autonomos「按自己的法生活」← autos「自己」＋ nomos「法、习俗」；nomos 另见于 economy、astronomy、taxonomy。政治义先出，康德赋予道德自律义，二十世纪扩展到无人驾驶车辆与自主软件系统。进入英语确切年代不确定。",
+    "sensesIntro": {
+      "en": "Nine senses follow one self-made law: a self-governing region, an independent institution, a self-directed person, a driverless machine, a self-running system, moral self-legislation, a software agent, a weapon that chooses, and the contrast with merely automatic.",
+      "cn": "九个义项沿着同一部自订的法：自治地区、独立机构、自主的个人、无人驾驶的机器、自行运转的系统、道德的自我立法、软件智能体、自行选择的武器，以及与「自动」的区别。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: a tractor with an empty cab turning a corner by itself, steadier than a human hand.",
+        "cn": "核心意象：空着驾驶室的拖拉机自己转过弯来，比人手还稳。"
+      },
+      "chain": [
+        "SELF",
+        "LAW",
+        "OWN LAW",
+        "SELF-GOVERNMENT",
+        "SELF-DIRECTION",
+        "SELF-DRIVING"
+      ],
+      "branches": [
+        {
+          "senses": "01 · 02",
+          "en": "THE GOVERNING BODY: a region or institution that sets its own rules and spends its own budget.",
+          "cn": "治理的主体：自订规则、自支预算的地区或机构。"
+        },
+        {
+          "senses": "03 · 06",
+          "en": "THE SELF-LEGISLATING PERSON: a learner who asks the next question, and a will that gives itself a moral law.",
+          "cn": "自我立法的个人：自己问出下一个问题的学习者，以及替自己立道德法的意志。"
+        },
+        {
+          "senses": "04 · 05",
+          "en": "THE MACHINE THAT RUNS ITSELF: a driverless tractor, and software that acts with no hand in the loop.",
+          "cn": "自行运转的机器：无人驾驶的拖拉机，以及无人介入即行动的软件。"
+        },
+        {
+          "senses": "07 · 08",
+          "en": "THE AGENT AND THE WEAPON: a program pursuing a goal, and a system that picks its own target.",
+          "cn": "智能体与武器：追求目标的程序，以及自己挑选目标的系统。"
+        },
+        {
+          "senses": "09",
+          "en": "THE DISTINCTION: automatic follows a fixed sequence; autonomous follows a law of its own.",
+          "cn": "那条区别：自动执行固定序列，自主遵循自己的法。"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Autonomous is a Greek compound of self and law, with a family that runs from politics through philosophy into robotics.",
+        "cn": "autonomous 是「自己」与「法」的希腊复合词，其词族从政治经哲学一直延伸到机器人技术。"
+      },
+      "latinIntro": {
+        "en": "The source is Greek rather than Latin: autos and nomos, with the adjective ending -os becoming -ous in English.",
+        "cn": "来源是希腊语而非拉丁语：autos 与 nomos，形容词词尾 -os 在英语中变成 -ous。"
+      },
+      "items": [
+        {
+          "word": "autonomous",
+          "structure": "Greek autonomos",
+          "meaning": "living under one's own law",
+          "meaningCN": "按自己的法生活",
+          "example": "The adjective covers regions, persons and machines.",
+          "exampleCN": "这个形容词覆盖地区、个人与机器。"
+        },
+        {
+          "word": "autos",
+          "structure": "Greek pronoun",
+          "meaning": "self, the same",
+          "meaningCN": "自己；同一",
+          "example": "It supplies the auto- in many English words.",
+          "exampleCN": "它提供许多英语词里的 auto-。"
+        },
+        {
+          "word": "nomos",
+          "structure": "Greek noun",
+          "meaning": "law, custom",
+          "meaningCN": "法；习俗",
+          "example": "It also stands behind economy and astronomy.",
+          "exampleCN": "economy 与 astronomy 也由它而来。"
+        },
+        {
+          "word": "autonomy",
+          "structure": "Greek autonomia",
+          "meaning": "self-government",
+          "meaningCN": "自治",
+          "example": "The noun names the condition rather than the holder.",
+          "exampleCN": "这个名词指状态而非持有者。"
+        },
+        {
+          "word": "-ous",
+          "structure": "Latin -osus, matching Greek -os",
+          "meaning": "full of, having the quality",
+          "meaningCN": "具有……性质的",
+          "example": "It builds autonomous, famous and dangerous.",
+          "exampleCN": "它构成自治的、著名的与危险的等词。"
+        },
+        {
+          "word": "-ly",
+          "structure": "English suffix",
+          "meaning": "in the manner of",
+          "meaningCN": "以……方式",
+          "example": "It builds autonomously, meaning without outside control.",
+          "exampleCN": "它构成 autonomously，意为不受外部控制。"
+        },
+        {
+          "word": "-ic",
+          "structure": "Greek -ikos",
+          "meaning": "relating to",
+          "meaningCN": "与……有关的",
+          "example": "It builds autonomic, the medical adjective.",
+          "exampleCN": "它构成 autonomic，即医学形容词。"
+        },
+        {
+          "word": "-ism",
+          "structure": "Greek -ismos",
+          "meaning": "doctrine or tendency",
+          "meaningCN": "学说；倾向",
+          "example": "It builds autonomism, a political stance.",
+          "exampleCN": "它构成 autonomism，一种政治立场。"
+        },
+        {
+          "word": "-ize",
+          "structure": "Greek -izein",
+          "meaning": "to make",
+          "meaningCN": "使成为",
+          "example": "It builds autonomize, to make self-governing.",
+          "exampleCN": "它构成 autonomize，意为使自治。"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "autonomos",
+          "structure": "autos (self) + nomos (law); Greek autonomos",
+          "meaning": "living under one's own law",
+          "meaningCN": "按自己的法生活",
+          "example": "Greek autonomos means living under one's own law.",
+          "exampleCN": "希腊语 autonomos 意为按自己的法生活。"
+        },
+        {
+          "word": "autos",
+          "structure": "Greek pronoun autos (self)",
+          "meaning": "self",
+          "meaningCN": "自己",
+          "example": "Greek autos means self, and gives the auto- of English.",
+          "exampleCN": "希腊语 autos 意为自己，并给出英语的 auto-。"
+        },
+        {
+          "word": "nomos",
+          "structure": "Greek noun nomos (law, custom)",
+          "meaning": "law, custom",
+          "meaningCN": "法；习俗",
+          "example": "Greek nomos means law or custom, and gives -nomy in English.",
+          "exampleCN": "希腊语 nomos 意为法、习俗，并给出英语的 -nomy。"
+        }
+      ],
+      "derivatives": [
+        {
+          "word": "autonomy",
+          "pos": "n.",
+          "zh": "自治；自主权"
+        },
+        {
+          "word": "autonomously",
+          "pos": "adv.",
+          "zh": "自主地；自行地"
+        },
+        {
+          "word": "autonomic",
+          "pos": "adj.",
+          "zh": "自主神经的"
+        },
+        {
+          "word": "autonomism",
+          "pos": "n.",
+          "zh": "自治主义"
+        },
+        {
+          "word": "autonomize",
+          "pos": "v.",
+          "zh": "使自治；使自主"
+        }
+      ]
+    }
   }
-}
+]

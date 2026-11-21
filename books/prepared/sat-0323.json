@@ -1,304 +1,474 @@
-{
-  "word": "avow",
-  "ipa_uk": "/əˈvaʊ/",
-  "ipa_us": "/əˈvaʊ/",
-  "definition_zh": "公开承认；坦率声明；宣称",
-  "definition_en": "to state openly and firmly that something is true or that one holds a view",
-  "core_image": "站到众人面前，把心里的话大声说出口",
-  "scene": "烛光下，他向全家说出决定。She avowed her loyalty to the old republic.",
-  "sceneCN": "这里 avow 指「公开声明」（第 1 个义项：坦然宣告立场）；句意：她公开表达了对旧共和国的忠诚。",
-  "pos": [
-    { "tag": "vt.", "zh": "公开承认；声明；宣称" }
-  ],
-  "collocations": [
-    { "phrase": "avow one's faith", "zh": "公开表明信仰" },
-    { "phrase": "avow openly", "zh": "公然承认" },
-    { "phrase": "avowed intent", "zh": "公开宣称的意图" },
-    { "phrase": "avow responsibility", "zh": "承认责任" },
-    { "phrase": "an avowed opponent", "zh": "公开的反对者" }
-  ],
-  "forms": [
-    { "label": "三单", "form": "avows" },
-    { "label": "过去式", "form": "avowed" },
-    { "label": "过去分词", "form": "avowed" },
-    { "label": "现在分词", "form": "avowing" }
-  ],
-  "derivatives": [
-    { "word": "avowal", "pos": "n.", "zh": "公开声明；承认（avow + -al）" },
-    { "word": "avowed", "pos": "adj.", "zh": "公开宣称的；自认的（avow + -ed）" },
-    { "word": "avowedly", "pos": "adv.", "zh": "公然地；自称地（avowed + -ly）" }
-  ],
-  "senses": [
-    {
-      "no": "01",
-      "title": "To declare openly",
-      "titleCN": "公开声明；坦率宣告",
-      "definition": "to state a belief, loyalty, or intention openly and firmly",
-      "definitionCN": "公开而坚定地陈述信念、忠诚或意图",
-      "example": "He avowed his intention to run for mayor.",
-      "exampleCN": "他公开宣布参选市长的打算。",
-      "why": "The Latin root vocare, to call, gives the word its speaking-out loudness.",
-      "whyCN": "拉丁词根 vocare「呼唤」赋予这个词大声说出的性质。"
+[
+  {
+    "word": "avow",
+    "ipa_uk": "/əˈvaʊ/",
+    "ipa_us": "/əˈvaʊ/",
+    "definition_zh": "公开承认；坦率声明；宣称",
+    "definition_en": "to state openly and firmly that something is true or that one holds a view",
+    "core_image": "站到众人面前，把心里的话大声说出口",
+    "scene": "烛光下，他向全家说出决定。She avowed her loyalty to the old republic.",
+    "sceneCN": "这里 avow 指「公开声明」（第 1 个义项：坦然宣告立场）；句意：她公开表达了对旧共和国的忠诚。",
+    "pos": [
+      {
+        "tag": "vt.",
+        "zh": "公开承认；声明；宣称"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "avow one's faith",
+        "zh": "公开表明信仰"
+      },
+      {
+        "phrase": "avow openly",
+        "zh": "公然承认"
+      },
+      {
+        "phrase": "avowed intent",
+        "zh": "公开宣称的意图"
+      },
+      {
+        "phrase": "avow responsibility",
+        "zh": "承认责任"
+      },
+      {
+        "phrase": "an avowed opponent",
+        "zh": "公开的反对者"
+      }
+    ],
+    "forms": [
+      {
+        "label": "三单",
+        "form": "avows"
+      },
+      {
+        "label": "过去式",
+        "form": "avowed"
+      },
+      {
+        "label": "过去分词",
+        "form": "avowed"
+      },
+      {
+        "label": "现在分词",
+        "form": "avowing"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "avowal",
+        "pos": "n.",
+        "zh": "公开声明；承认（avow + -al）"
+      },
+      {
+        "word": "avowed",
+        "pos": "adj.",
+        "zh": "公开宣称的；自认的（avow + -ed）"
+      },
+      {
+        "word": "avowedly",
+        "pos": "adv.",
+        "zh": "公然地；自称地（avowed + -ly）"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "To declare openly",
+        "titleCN": "公开声明；坦率宣告",
+        "definition": "to state a belief, loyalty, or intention openly and firmly",
+        "definitionCN": "公开而坚定地陈述信念、忠诚或意图",
+        "example": "He avowed his intention to run for mayor.",
+        "exampleCN": "他公开宣布参选市长的打算。",
+        "why": "The Latin root vocare, to call, gives the word its speaking-out loudness.",
+        "whyCN": "拉丁词根 vocare「呼唤」赋予这个词大声说出的性质。"
+      },
+      {
+        "no": "02",
+        "title": "To admit or acknowledge",
+        "titleCN": "承认；供认",
+        "definition": "to accept responsibility or authorship of something done",
+        "definitionCN": "承认对已做之事负有责任或为其作者",
+        "example": "No group avowed the attack.",
+        "exampleCN": "没有任何组织宣称对袭击负责。",
+        "why": "Owning a deed publicly is calling it one's own.",
+        "whyCN": "公开认领一个行为，就是把它唤作自己的。"
+      },
+      {
+        "no": "03",
+        "title": "To affirm under oath or vow",
+        "titleCN": "立誓确认",
+        "definition": "in legal and older use, to affirm solemnly, as a vow or deposition",
+        "definitionCN": "法律及旧式用法中庄重确认，如立誓、作证",
+        "example": "The witness avowed the statement before the court.",
+        "exampleCN": "证人在法庭上郑重确认了陈述。",
+        "why": "Avow grew beside the noun vow: speech fortified by oath.",
+        "whyCN": "avow 与名词 vow 并肩生长：以誓言加固的言语。"
+      },
+      {
+        "no": "04",
+        "title": "Avowed, as a belief or enemy",
+        "titleCN": "（形容词）公开的；自认的",
+        "definition": "in participial adjective use, openly declared or professed",
+        "definitionCN": "分词形容词用法，指公开宣称的",
+        "example": "She was an avowed vegetarian by fourteen.",
+        "exampleCN": "她十四岁就公开吃素了。",
+        "why": "The participle pins the open declaration onto the person.",
+        "whyCN": "分词把公开声明钉在了人身上。"
+      },
+      {
+        "no": "05",
+        "title": "To justify or defend a course",
+        "titleCN": "为（做法）辩护背书",
+        "definition": "to stand behind a policy or act, endorsing it before others",
+        "definitionCN": "为他人的政策或行为公开背书",
+        "example": "The party avowed the minister's hard line.",
+        "exampleCN": "该党为部长的强硬路线背书。",
+        "why": "Speaking for another act keeps the loud-voice root.",
+        "whyCN": "为他人的行为发声，仍是那个「大声呼唤」的词根。"
+      },
+      {
+        "no": "06",
+        "title": "To profess art, faith, or craft",
+        "titleCN": "自认身份；自诩",
+        "definition": "to present oneself openly as a member of a profession or faith",
+        "definitionCN": "公开以某职业或信仰者身份自处",
+        "example": "He avows himself a student of the old masters.",
+        "exampleCN": "他自认是古典大师的学徒。",
+        "why": "Naming yourself aloud completes the act of calling.",
+        "whyCN": "大声说出自己的名字，完成了「呼唤」这个动作。"
+      },
+      {
+        "no": "07",
+        "title": "Avowal, the noun of the act",
+        "titleCN": "（名词）声明；自白",
+        "definition": "in the noun avowal, the declaration itself",
+        "definitionCN": "名词 avowal 中，指声明这一行为或文本",
+        "example": "Her avowal surprised the quiet committee.",
+        "exampleCN": "她的公开表态让安静的委员会吃了一惊。",
+        "why": "The speech-act freezes into a document or moment.",
+        "whyCN": "言语行为凝固成文件或时刻。"
+      },
+      {
+        "no": "08",
+        "title": "Avowedly, in open manner",
+        "titleCN": "（副词）公然地",
+        "definition": "in the adverb avowedly, admittedly and openly",
+        "definitionCN": "副词 avowedly 中，指公开地、无可否认地",
+        "example": "The book is avowedly polemical.",
+        "exampleCN": "这本书公然是一部论战之作。",
+        "why": "The adverb carries the openness into the manner of the act.",
+        "whyCN": "副词把「公开」带进了行为的方式。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Avow comes from Old French avouer, from Latin advocare, to call to one's aid, from ad, to, plus vocare, to call; the sense passed from advocating to owning and declaring.",
+        "cn": "avow 经古法语 avouer 出自拉丁语 advocare「召来相助」，由 ad（向）+ vocare（呼唤）构成；词义从「拥护」演变为「认领、声明」。"
+      },
+      "items": [
+        {
+          "era": "PROTO-INDO-EUROPEAN",
+          "en": "The call-root is the reconstructed wek-, to speak or call.",
+          "cn": "「呼唤」词根出自重构词干 wek-「说、喊」。"
+        },
+        {
+          "era": "LATIN",
+          "en": "advocare meant to summon to one's side, hence to support.",
+          "cn": "advocare 意为召至身边，引申为拥护。"
+        },
+        {
+          "era": "OLD FRENCH, AVOUER",
+          "en": "avouer meant to acknowledge or claim as one's own, as a lord his act or a patron his cause.",
+          "cn": "古法语 avouer 意为认领：领主认领行为，庇护人认领事业。"
+        },
+        {
+          "era": "ENGLISH, 13TH–14TH C.",
+          "en": "Middle English avowed first carried the sense of defending or upholding a cause.",
+          "cn": "中古英语的 avowed 先表拥护、捍卫某事业。"
+        },
+        {
+          "era": "ENGLISH, 16TH C.",
+          "en": "The modern sense of open declaration consolidated, alongside the participle avowed.",
+          "cn": "16 世纪「公开声明」义定型，分词 avowed 同步确立。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "Today avow lives mostly in avowed, avowal, and avowedly.",
+          "cn": "如今 avow 多以 avowed、avowal、avowedly 的形态活跃。"
+        }
+      ]
     },
-    {
-      "no": "02",
-      "title": "To admit or acknowledge",
-      "titleCN": "承认；供认",
-      "definition": "to accept responsibility or authorship of something done",
-      "definitionCN": "承认对已做之事负有责任或为其作者",
-      "example": "No group avowed the attack.",
-      "exampleCN": "没有任何组织宣称对袭击负责。",
-      "why": "Owning a deed publicly is calling it one's own.",
-      "whyCN": "公开认领一个行为，就是把它唤作自己的。"
+    "similar": {
+      "note": {
+        "en": "Group one gathers the vocare family and a vow trap; group two gathers words of declaring.",
+        "cn": "第一组收 vocare 词族及 vow 陷阱；第二组收声明义场的词。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "vow",
+              "ipa": "/vaʊ/",
+              "tag": "look-alike, different root",
+              "definition": "a solemn promise, from Latin votum; shorter but historically distinct from avow.",
+              "definitionCN": "庄严誓约，出自拉丁语 votum；与 avow 形近，词源各有脉络。"
+            },
+            {
+              "word": "advocate",
+              "ipa": "/ˈædvəkeɪt/",
+              "tag": "same root",
+              "definition": "to speak for a cause; the Latin ancestor's direct heir.",
+              "definitionCN": "拥护、倡导；拉丁祖先的直接后裔。"
+            },
+            {
+              "word": "avowal",
+              "ipa": "/əˈvaʊəl/",
+              "tag": "derived form",
+              "definition": "the noun: an open declaration.",
+              "definitionCN": "名词形式：公开声明。"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "declare",
+              "ipa": "/dɪˈkleə/",
+              "tag": "near meaning",
+              "definition": "to state plainly and formally.",
+              "definitionCN": "明白而正式地说出。"
+            },
+            {
+              "word": "profess",
+              "ipa": "/prəˈfes/",
+              "tag": "near meaning",
+              "definition": "to declare one's faith or skill openly.",
+              "definitionCN": "公开表明信仰或技艺。"
+            },
+            {
+              "word": "acknowledge",
+              "ipa": "/əkˈnɒlɪdʒ/",
+              "tag": "near meaning",
+              "definition": "to admit the truth or existence of something.",
+              "definitionCN": "承认某事属实或存在。"
+            },
+            {
+              "word": "disavow",
+              "ipa": "/ˌdɪsəˈvaʊ/",
+              "tag": "opposite",
+              "definition": "to deny any connection with or responsibility for.",
+              "definitionCN": "否认关联或责任；avow 的反义词。"
+            },
+            {
+              "word": "attest",
+              "ipa": "/əˈtest/",
+              "tag": "near meaning",
+              "definition": "to bear formal witness to something.",
+              "definitionCN": "正式作证证实某事。"
+            }
+          ]
+        }
+      ]
     },
-    {
-      "no": "03",
-      "title": "To affirm under oath or vow",
-      "titleCN": "立誓确认",
-      "definition": "in legal and older use, to affirm solemnly, as a vow or deposition",
-      "definitionCN": "法律及旧式用法中庄重确认，如立誓、作证",
-      "example": "The witness avowed the statement before the court.",
-      "exampleCN": "证人在法庭上郑重确认了陈述。",
-      "why": "Avow grew beside the noun vow: speech fortified by oath.",
-      "whyCN": "avow 与名词 vow 并肩生长：以誓言加固的言语。"
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Hear a-vow inside the word: a vow spoken out loud, in front of everyone.",
+        "cn": "词中听见 a-vow：当众说出的誓言。"
+      },
+      "normal": [
+        {
+          "en": "avow and vow differ in spelling history but rhyme in function: both are speech with weight.",
+          "cn": "avow 与 vow 拼写史不同而功能押韵：都是有分量的言语。"
+        },
+        {
+          "en": "The opposite is disavow: add dis- to deny.",
+          "cn": "反义词是 disavow：加 dis- 即否认。"
+        },
+        {
+          "en": "an avowed enemy is the classic collocation.",
+          "cn": "an avowed enemy 是经典搭配：公开的敌人。"
+        },
+        {
+          "en": "avowal is the noun; keep the -al ending like refusal.",
+          "cn": "名词是 avowal，词尾 -al 同 refusal。"
+        },
+        {
+          "en": "avowedly means admittedly, as in avowedly biased.",
+          "cn": "avowedly 意为自认地，如 avowedly biased。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "Feel the throat open before the crowd does.",
+          "cn": "感觉喉咙在人群之前先张开了。"
+        },
+        {
+          "en": "Avow is a flag run up the pole in daylight.",
+          "cn": "avow 是大白日里升起的旗帜。"
+        },
+        {
+          "en": "Picture ink drying on a signed confession.",
+          "cn": "想象签了字的自白书上墨迹渐干。"
+        }
+      ]
     },
-    {
-      "no": "04",
-      "title": "Avowed, as a belief or enemy",
-      "titleCN": "（形容词）公开的；自认的",
-      "definition": "in participial adjective use, openly declared or professed",
-      "definitionCN": "分词形容词用法，指公开宣称的",
-      "example": "She was an avowed vegetarian by fourteen.",
-      "exampleCN": "她十四岁就公开吃素了。",
-      "why": "The participle pins the open declaration onto the person.",
-      "whyCN": "分词把公开声明钉在了人身上。"
+    "examples": [
+      {
+        "en": "The committee avowed its support for the reforms.",
+        "cn": "委员会公开表态支持改革。"
+      },
+      {
+        "en": "An avowed pacifist, he refused the officer's commission.",
+        "cn": "作为公开的和平主义者，他拒绝了军官委任。"
+      },
+      {
+        "en": "His avowal of guilt ended the long trial.",
+        "cn": "他认罪的自白终结了漫长的审判。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「我傲」——他站上椅子「我傲！」，当众承认全是我干的",
+      "word": "avow"
     },
-    {
-      "no": "05",
-      "title": "To justify or defend a course",
-      "titleCN": "为（做法）辩护背书",
-      "definition": "to stand behind a policy or act, endorsing it before others",
-      "definitionCN": "为他人的政策或行为公开背书",
-      "example": "The party avowed the minister's hard line.",
-      "exampleCN": "该党为部长的强硬路线背书。",
-      "why": "Speaking for another act keeps the loud-voice root.",
-      "whyCN": "为他人的行为发声，仍是那个「大声呼唤」的词根。"
+    "root": "经古法语 avouer 出自拉丁语 advocare「召来相助」（ad 向 + vocare 呼唤），词义从「拥护」演为「认领、公开声明」；13 世纪进入中古英语，16 世纪「公开声明」义定型。与 vow（出自 votum）拼写相近但词源脉络不同。",
+    "sensesIntro": {
+      "en": "Eight senses keep one gesture, speech made public: declaring belief, owning deeds, sworn affirmations, and the derived forms avowed, avowal, avowedly.",
+      "cn": "八个义项保持同一个手势——把话说到明处：宣示信念、认领行为、立誓确认，以及派生形式 avowed、avowal、avowedly。"
     },
-    {
-      "no": "06",
-      "title": "To profess art, faith, or craft",
-      "titleCN": "自认身份；自诩",
-      "definition": "to present oneself openly as a member of a profession or faith",
-      "definitionCN": "公开以某职业或信仰者身份自处",
-      "example": "He avows himself a student of the old masters.",
-      "exampleCN": "他自认是古典大师的学徒。",
-      "why": "Naming yourself aloud completes the act of calling.",
-      "whyCN": "大声说出自己的名字，完成了「呼唤」这个动作。"
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: a voice lifted in public, claiming a thing as one's own.",
+        "cn": "核心意象：当众扬声，把某事认作己出。"
+      },
+      "chain": [
+        "THE PUBLIC VOICE",
+        "THE CLAIM",
+        "THE OWNERSHIP",
+        "THE OATH",
+        "THE ENDORSEMENT",
+        "THE OPEN RECORD"
+      ],
+      "branches": [
+        {
+          "senses": "01 · 06",
+          "en": "THE SELF SIDE: declaring one's beliefs and one's identity.",
+          "cn": "自我一面：宣示信念与身份。"
+        },
+        {
+          "senses": "02",
+          "en": "THE OWNERSHIP SIDE: claiming one's deeds, for good or ill.",
+          "cn": "认领一面：认下自己的行为，无论好坏。"
+        },
+        {
+          "senses": "03",
+          "en": "THE SOLEMN SIDE: speech fortified by vow and court.",
+          "cn": "庄严一面：以誓言与法庭加固的言语。"
+        },
+        {
+          "senses": "04 · 08",
+          "en": "THE GRAMMAR SIDE: the participle and adverb of openness.",
+          "cn": "语法一面：表示公开的分词与副词。"
+        },
+        {
+          "senses": "05 · 07",
+          "en": "THE PUBLIC ACT SIDE: endorsements and the frozen declaration.",
+          "cn": "公开行为一面：背书与定格的声明。"
+        }
+      ]
     },
-    {
-      "no": "07",
-      "title": "Avowal, the noun of the act",
-      "titleCN": "（名词）声明；自白",
-      "definition": "in the noun avowal, the declaration itself",
-      "definitionCN": "名词 avowal 中，指声明这一行为或文本",
-      "example": "Her avowal surprised the quiet committee.",
-      "exampleCN": "她的公开表态让安静的委员会吃了一惊。",
-      "why": "The speech-act freezes into a document or moment.",
-      "whyCN": "言语行为凝固成文件或时刻。"
-    },
-    {
-      "no": "08",
-      "title": "Avowedly, in open manner",
-      "titleCN": "（副词）公然地",
-      "definition": "in the adverb avowedly, admittedly and openly",
-      "definitionCN": "副词 avowedly 中，指公开地、无可否认地",
-      "example": "The book is avowedly polemical.",
-      "exampleCN": "这本书公然是一部论战之作。",
-      "why": "The adverb carries the openness into the manner of the act.",
-      "whyCN": "副词把「公开」带进了行为的方式。"
+    "affixes": {
+      "intro": {
+        "en": "Avow descends from advocare, ad plus vocare; the d dropped out in Old French.",
+        "cn": "avow 承自 advocare（ad + vocare），那个 d 在古法语中脱落了。"
+      },
+      "latinIntro": {
+        "en": "Vocare generated the great calling family of English: voice, vocal, vocation, invoke, advocate.",
+        "cn": "vocare 衍生出英语庞大的「呼唤」家族：voice、vocal、vocation、invoke、advocate。"
+      },
+      "items": [
+        {
+          "word": "advocare",
+          "structure": "ad- + vocare",
+          "meaning": "to summon to aid",
+          "meaningCN": "召来相助",
+          "example": "advocare in classical Latin",
+          "exampleCN": "古典拉丁语中的 advocare"
+        },
+        {
+          "word": "vocare",
+          "structure": "Latin verb",
+          "meaning": "to call",
+          "meaningCN": "呼唤",
+          "example": "vocare as family root",
+          "exampleCN": "词族核心动词"
+        },
+        {
+          "word": "avouer",
+          "structure": "Old French verb",
+          "meaning": "to acknowledge, uphold",
+          "meaningCN": "认领；拥护",
+          "example": "avouer ses actes",
+          "exampleCN": "认领自己的行为"
+        },
+        {
+          "word": "avowal",
+          "structure": "avow + -al",
+          "meaning": "an open declaration",
+          "meaningCN": "公开声明",
+          "example": "a public avowal",
+          "exampleCN": "公开表态"
+        },
+        {
+          "word": "avowed",
+          "structure": "avow + -ed",
+          "meaning": "openly declared",
+          "meaningCN": "公开宣称的",
+          "example": "an avowed admirer",
+          "exampleCN": "自认的爱慕者"
+        },
+        {
+          "word": "avowedly",
+          "structure": "avowed + -ly",
+          "meaning": "admittedly",
+          "meaningCN": "公然地",
+          "example": "avowedly fictional",
+          "exampleCN": "自认虚构"
+        },
+        {
+          "word": "disavow",
+          "structure": "dis- + avow",
+          "meaning": "to deny, repudiate",
+          "meaningCN": "否认；撇清",
+          "example": "disavow an agent",
+          "exampleCN": "否认与特工的关系"
+        },
+        {
+          "word": "vocation",
+          "structure": "voca- + -tion",
+          "meaning": "a calling",
+          "meaningCN": "天职",
+          "example": "a religious vocation",
+          "exampleCN": "宗教圣召"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "advoco",
+          "structure": "Latin verb",
+          "meaning": "to summon to one's aid",
+          "meaningCN": "召来相助"
+        },
+        {
+          "word": "advocatus",
+          "structure": "Latin participle noun",
+          "meaning": "one called to aid, advocate",
+          "meaningCN": "被召来者；辩护人"
+        }
+      ]
     }
-  ],
-  "etymology": {
-    "intro": {
-      "en": "Avow comes from Old French avouer, from Latin advocare, to call to one's aid, from ad, to, plus vocare, to call; the sense passed from advocating to owning and declaring.",
-      "cn": "avow 经古法语 avouer 出自拉丁语 advocare「召来相助」，由 ad（向）+ vocare（呼唤）构成；词义从「拥护」演变为「认领、声明」。"
-    },
-    "items": [
-      {
-        "era": "PROTO-INDO-EUROPEAN",
-        "en": "The call-root is the reconstructed wek-, to speak or call.",
-        "cn": "「呼唤」词根出自重构词干 wek-「说、喊」。"
-      },
-      {
-        "era": "LATIN",
-        "en": "advocare meant to summon to one's side, hence to support.",
-        "cn": "advocare 意为召至身边，引申为拥护。"
-      },
-      {
-        "era": "OLD FRENCH, AVOUER",
-        "en": "avouer meant to acknowledge or claim as one's own, as a lord his act or a patron his cause.",
-        "cn": "古法语 avouer 意为认领：领主认领行为，庇护人认领事业。"
-      },
-      {
-        "era": "ENGLISH, 13TH–14TH C.",
-        "en": "Middle English avowed first carried the sense of defending or upholding a cause.",
-        "cn": "中古英语的 avowed 先表拥护、捍卫某事业。"
-      },
-      {
-        "era": "ENGLISH, 16TH C.",
-        "en": "The modern sense of open declaration consolidated, alongside the participle avowed.",
-        "cn": "16 世纪「公开声明」义定型，分词 avowed 同步确立。"
-      },
-      {
-        "era": "MODERN ENGLISH",
-        "en": "Today avow lives mostly in avowed, avowal, and avowedly.",
-        "cn": "如今 avow 多以 avowed、avowal、avowedly 的形态活跃。"
-      }
-    ]
-  },
-  "similar": {
-    "note": {
-      "en": "Group one gathers the vocare family and a vow trap; group two gathers words of declaring.",
-      "cn": "第一组收 vocare 词族及 vow 陷阱；第二组收声明义场的词。"
-    },
-    "groups": [
-      {
-        "heading": "LOOK-ALIKE",
-        "entries": [
-          {
-            "word": "vow",
-            "ipa": "/vaʊ/",
-            "tag": "look-alike, different root",
-            "definition": "a solemn promise, from Latin votum; shorter but historically distinct from avow.",
-            "definitionCN": "庄严誓约，出自拉丁语 votum；与 avow 形近，词源各有脉络。"
-          },
-          {
-            "word": "advocate",
-            "ipa": "/ˈædvəkeɪt/",
-            "tag": "same root",
-            "definition": "to speak for a cause; the Latin ancestor's direct heir.",
-            "definitionCN": "拥护、倡导；拉丁祖先的直接后裔。"
-          },
-          {
-            "word": "avowal",
-            "ipa": "/əˈvaʊəl/",
-            "tag": "derived form",
-            "definition": "the noun: an open declaration.",
-            "definitionCN": "名词形式：公开声明。"
-          }
-        ]
-      },
-      {
-        "heading": "NEAR MEANING",
-        "entries": [
-          {
-            "word": "declare",
-            "ipa": "/dɪˈkleə/",
-            "tag": "near meaning",
-            "definition": "to state plainly and formally.",
-            "definitionCN": "明白而正式地说出。"
-          },
-          {
-            "word": "profess",
-            "ipa": "/prəˈfes/",
-            "tag": "near meaning",
-            "definition": "to declare one's faith or skill openly.",
-            "definitionCN": "公开表明信仰或技艺。"
-          },
-          {
-            "word": "acknowledge",
-            "ipa": "/əkˈnɒlɪdʒ/",
-            "tag": "near meaning",
-            "definition": "to admit the truth or existence of something.",
-            "definitionCN": "承认某事属实或存在。"
-          },
-          {
-            "word": "disavow",
-            "ipa": "/ˌdɪsəˈvaʊ/",
-            "tag": "opposite",
-            "definition": "to deny any connection with or responsibility for.",
-            "definitionCN": "否认关联或责任；avow 的反义词。"
-          },
-          {
-            "word": "attest",
-            "ipa": "/əˈtest/",
-            "tag": "near meaning",
-            "definition": "to bear formal witness to something.",
-            "definitionCN": "正式作证证实某事。"
-          }
-        ]
-      }
-    ]
-  },
-  "mnemonics": {
-    "normalIntro": {
-      "en": "Hear a-vow inside the word: a vow spoken out loud, in front of everyone.",
-      "cn": "词中听见 a-vow：当众说出的誓言。"
-    },
-    "normal": [
-      { "en": "avow and vow differ in spelling history but rhyme in function: both are speech with weight.", "cn": "avow 与 vow 拼写史不同而功能押韵：都是有分量的言语。" },
-      { "en": "The opposite is disavow: add dis- to deny.", "cn": "反义词是 disavow：加 dis- 即否认。" },
-      { "en": "an avowed enemy is the classic collocation.", "cn": "an avowed enemy 是经典搭配：公开的敌人。" },
-      { "en": "avowal is the noun; keep the -al ending like refusal.", "cn": "名词是 avowal，词尾 -al 同 refusal。" },
-      { "en": "avowedly means admittedly, as in avowedly biased.", "cn": "avowedly 意为自认地，如 avowedly biased。" }
-    ],
-    "abstract": [
-      { "en": "Feel the throat open before the crowd does.", "cn": "感觉喉咙在人群之前先张开了。" },
-      { "en": "Avow is a flag run up the pole in daylight.", "cn": "avow 是大白日里升起的旗帜。" },
-      { "en": "Picture ink drying on a signed confession.", "cn": "想象签了字的自白书上墨迹渐干。" }
-    ]
-  },
-  "examples": [
-    { "en": "The committee avowed its support for the reforms.", "cn": "委员会公开表态支持改革。" },
-    { "en": "An avowed pacifist, he refused the officer's commission.", "cn": "作为公开的和平主义者，他拒绝了军官委任。" },
-    { "en": "His avowal of guilt ended the long trial.", "cn": "他认罪的自白终结了漫长的审判。" }
-  ],
-  "dict_mnemonic": {
-    "note": "谐音记忆 · 非词源",
-    "text": "「我傲」——他站上椅子「我傲！」，当众承认全是我干的",
-    "word": "avow"
-  },
-  "root": "经古法语 avouer 出自拉丁语 advocare「召来相助」（ad 向 + vocare 呼唤），词义从「拥护」演为「认领、公开声明」；13 世纪进入中古英语，16 世纪「公开声明」义定型。与 vow（出自 votum）拼写相近但词源脉络不同。",
-  "sensesIntro": {
-    "en": "Eight senses keep one gesture, speech made public: declaring belief, owning deeds, sworn affirmations, and the derived forms avowed, avowal, avowedly.",
-    "cn": "八个义项保持同一个手势——把话说到明处：宣示信念、认领行为、立誓确认，以及派生形式 avowed、avowal、avowedly。"
-  },
-  "semanticMap": {
-    "core": {
-      "en": "CORE IMAGE: a voice lifted in public, claiming a thing as one's own.",
-      "cn": "核心意象：当众扬声，把某事认作己出。"
-    },
-    "chain": ["THE PUBLIC VOICE", "THE CLAIM", "THE OWNERSHIP", "THE OATH", "THE ENDORSEMENT", "THE OPEN RECORD"],
-    "branches": [
-      { "senses": "01 · 06", "en": "THE SELF SIDE: declaring one's beliefs and one's identity.", "cn": "自我一面：宣示信念与身份。" },
-      { "senses": "02", "en": "THE OWNERSHIP SIDE: claiming one's deeds, for good or ill.", "cn": "认领一面：认下自己的行为，无论好坏。" },
-      { "senses": "03", "en": "THE SOLEMN SIDE: speech fortified by vow and court.", "cn": "庄严一面：以誓言与法庭加固的言语。" },
-      { "senses": "04 · 08", "en": "THE GRAMMAR SIDE: the participle and adverb of openness.", "cn": "语法一面：表示公开的分词与副词。" },
-      { "senses": "05 · 07", "en": "THE PUBLIC ACT SIDE: endorsements and the frozen declaration.", "cn": "公开行为一面：背书与定格的声明。" }
-    ]
-  },
-  "affixes": {
-    "intro": {
-      "en": "Avow descends from advocare, ad plus vocare; the d dropped out in Old French.",
-      "cn": "avow 承自 advocare（ad + vocare），那个 d 在古法语中脱落了。"
-    },
-    "latinIntro": {
-      "en": "Vocare generated the great calling family of English: voice, vocal, vocation, invoke, advocate.",
-      "cn": "vocare 衍生出英语庞大的「呼唤」家族：voice、vocal、vocation、invoke、advocate。"
-    },
-    "items": [
-      { "word": "advocare", "structure": "ad- + vocare", "meaning": "to summon to aid", "meaningCN": "召来相助", "example": "advocare in classical Latin", "exampleCN": "古典拉丁语中的 advocare" },
-      { "word": "vocare", "structure": "Latin verb", "meaning": "to call", "meaningCN": "呼唤", "example": "vocare as family root", "exampleCN": "词族核心动词" },
-      { "word": "avouer", "structure": "Old French verb", "meaning": "to acknowledge, uphold", "meaningCN": "认领；拥护", "example": "avouer ses actes", "exampleCN": "认领自己的行为" },
-      { "word": "avowal", "structure": "avow + -al", "meaning": "an open declaration", "meaningCN": "公开声明", "example": "a public avowal", "exampleCN": "公开表态" },
-      { "word": "avowed", "structure": "avow + -ed", "meaning": "openly declared", "meaningCN": "公开宣称的", "example": "an avowed admirer", "exampleCN": "自认的爱慕者" },
-      { "word": "avowedly", "structure": "avowed + -ly", "meaning": "admittedly", "meaningCN": "公然地", "example": "avowedly fictional", "exampleCN": "自认虚构" },
-      { "word": "disavow", "structure": "dis- + avow", "meaning": "to deny, repudiate", "meaningCN": "否认；撇清", "example": "disavow an agent", "exampleCN": "否认与特工的关系" },
-      { "word": "vocation", "structure": "voca- + -tion", "meaning": "a calling", "meaningCN": "天职", "example": "a religious vocation", "exampleCN": "宗教圣召" }
-    ],
-    "latinEntries": [
-      { "word": "advoco", "structure": "Latin verb", "meaning": "to summon to one's aid", "meaningCN": "召来相助" },
-      { "word": "advocatus", "structure": "Latin participle noun", "meaning": "one called to aid, advocate", "meaningCN": "被召来者；辩护人" }
-    ]
   }
-}
+]

@@ -1,417 +1,419 @@
-{
- "word": "burn",
- "ipa_uk": "/bɜːn/",
- "ipa_us": "/bɜːrn/",
- "definition_zh": "燃烧；烧毁；烧伤、烫伤；发烫、灼热",
- "definition_en": "to be on fire, to destroy or damage something with fire or heat, to injure the skin with heat, or to feel very hot",
- "core_image": "橙色火苗舔着一块木头，木头发红发黑",
- "scene": "炉火太旺，锅底的一层油忽然烧了起来。The oil in the pan began to burn.",
- "sceneCN": "这里 burn 是「燃烧」（第 1 个义项：着火、烧起来）；句意为炉火太旺，锅底的那层油忽然烧了起来。",
- "pos": [
+[
   {
-   "tag": "v.",
-   "zh": "动词：燃烧；烧毁；灼伤；发烫"
-  },
-  {
-   "tag": "n.",
-   "zh": "名词：烧伤；灼伤"
-  }
- ],
- "collocations": [
-  {
-   "phrase": "burn down",
-   "zh": "烧毁；烧成平地"
-  },
-  {
-   "phrase": "burn your hand",
-   "zh": "烫伤手"
-  },
-  {
-   "phrase": "burn brightly",
-   "zh": "烧得旺"
-  },
-  {
-   "phrase": "a burn on the arm",
-   "zh": "手臂上的一处烧伤"
-  },
-  {
-   "phrase": "burn the candle",
-   "zh": "点蜡烛；熬夜苦干"
-  }
- ],
- "forms": [
-  {
-   "label": "三单（动词）",
-   "form": "burns"
-  },
-  {
-   "label": "过去式（动词）",
-   "form": "burned"
-  },
-  {
-   "label": "过去分词（动词）",
-   "form": "burned"
-  },
-  {
-   "label": "过去分词（英式）",
-   "form": "burnt"
-  },
-  {
-   "label": "现在分词（动词）",
-   "form": "burning"
-  }
- ],
- "derivatives": [
-  {
-   "word": "burner",
-   "pos": "n.",
-   "zh": "由 burn 加 -er 构成，义为「燃烧器；炉头」"
-  },
-  {
-   "word": "burning",
-   "pos": "adj.",
-   "zh": "由 burn 加 -ing 构成，义为「燃烧的；火热的」"
-  },
-  {
-   "word": "sunburn",
-   "pos": "n.",
-   "zh": "由 sun 与 burn 组合而成，义为「晒伤」"
-  }
- ],
- "senses": [
-  {
-   "no": "01",
-   "title": "To be on fire",
-   "titleCN": "燃烧",
-   "definition": "to be on fire, or to produce flames and heat",
-   "definitionCN": "着火，或产生火焰与热量",
-   "example": "The oil in the pan began to burn.",
-   "exampleCN": "锅底的那层油开始烧了起来。",
-   "why": "Old English had two verbs, beornan for something already on fire and bærnan for setting it alight.",
-   "whyCN": "古英语有两个动词：beornan 指某物自己在烧，bærnan 指点火把它烧起来。"
-  },
-  {
-   "no": "02",
-   "title": "To destroy with fire",
-   "titleCN": "烧毁；烧坏",
-   "definition": "to destroy or damage something by fire or great heat",
-   "definitionCN": "用火或高温毁坏、损坏某物",
-   "example": "The fire burned down the old barn.",
-   "exampleCN": "大火把旧谷仓烧毁了。",
-   "why": "When fire takes a whole object, the burning ends in nothing, so the verb came to mean destroying as well.",
-   "whyCN": "当火吞掉整件东西，燃烧的结局就是化为乌有，于是这个动词也指毁掉。"
-  },
-  {
-   "no": "03",
-   "title": "To injure the skin with heat",
-   "titleCN": "烧伤；烫伤",
-   "definition": "to hurt or damage the skin with fire, heat or a hot liquid",
-   "definitionCN": "用火、高温或热液伤害皮肤",
-   "example": "She burned her hand on the hot pan.",
-   "exampleCN": "她的手被热锅烫伤了。",
-   "why": "The same heat that feeds a flame also injures flesh, so the verb covers the harm done to a body.",
-   "whyCN": "供养火焰的那份热也会伤到皮肉，所以这个动词也指身体受到的伤害。"
-  },
-  {
-   "no": "04",
-   "title": "To feel very hot",
-   "titleCN": "发烫；灼热",
-   "definition": "to feel very hot, or to give out a strong heat, often used of skin or the sun",
-   "definitionCN": "感到极热，或散发出强烈的热，常用于皮肤或太阳",
-   "example": "His forehead was burning with fever.",
-   "exampleCN": "他发着烧，额头滚烫。",
-   "why": "A body on fire and a body with fever feel the same, so the word also describes heat inside a person.",
-   "whyCN": "着火的物体和发烧的身体感觉相同，所以这个词也用来形容人体内的热度。"
-  }
- ],
- "etymology": {
-  "intro": {
-   "en": "Burn comes from two old verbs, one for being on fire and one for setting fire, which merged into a single word.",
-   "cn": "burn 来自两个古动词，一个指自己着火，一个指点火，二者后来合成一个词。"
-  },
-  "items": [
-   {
-    "era": "OLD ENGLISH BEORNAN",
-    "en": "Beornan meant to be on fire, used of the thing that burns.",
-    "cn": "beornan 意为正在着火，用于燃烧的那件东西。"
-   },
-   {
-    "era": "OLD ENGLISH BAERNAN",
-    "en": "Baernan meant to set something on fire, used of the person who lights it.",
-    "cn": "baernan 意为点燃某物，用于点火的人。"
-   },
-   {
-    "era": "GERMANIC KIN",
-    "en": "German brennen and Dutch branden keep both senses in one verb.",
-    "cn": "德语 brennen 与荷兰语 branden 把一个动词的两种用法都保留下来。"
-   },
-   {
-    "era": "MIDDLE ENGLISH",
-    "en": "The two verbs merged into burn, and burnt or burned served as the past form.",
-    "cn": "两个动词合并为 burn，过去式用 burnt 或 burned。"
-   },
-   {
-    "era": "MODERN ENGLISH",
-    "en": "Today burn covers fire, destruction, injury and the heat of fever.",
-    "cn": "今天 burn 覆盖着火、烧毁、灼伤与发烧的热度。"
-   }
-  ]
- },
- "similar": {
-  "note": {
-   "en": "The first group collects words close in shape or sound; the second group collects words about fire and heat.",
-   "cn": "第一组收拼写或读音接近的词，第二组收与火、热有关的词。"
-  },
-  "groups": [
-   {
-    "heading": "LOOK-ALIKE",
-    "entries": [
-     {
-      "word": "barn",
-      "ipa": "/bɑːn/",
-      "tag": "similar shape",
-      "definition": "A large farm building for storing grain.",
-      "definitionCN": "名词，义为「谷仓」，拼写与 burn 相近。"
-     },
-     {
-      "word": "burst",
-      "ipa": "/bɜːst/",
-      "tag": "similar sound",
-      "definition": "To break open suddenly.",
-      "definitionCN": "动词，义为「爆裂」，读音与 burn 接近。"
-     },
-     {
-      "word": "bury",
-      "ipa": "/ˈberi/",
-      "tag": "similar shape",
-      "definition": "To put something under the ground.",
-      "definitionCN": "动词，义为「埋葬；埋藏」，拼写与 burn 相近。"
-     }
-    ]
-   },
-   {
-    "heading": "NEAR MEANING",
-    "entries": [
-     {
-      "word": "flame",
-      "ipa": "/fleɪm/",
-      "tag": "near meaning",
-      "definition": "To burn with bright tongues of fire.",
-      "definitionCN": "动词，义为「燃起火焰」。"
-     },
-     {
-      "word": "blaze",
-      "ipa": "/bleɪz/",
-      "tag": "near meaning",
-      "definition": "To burn very strongly and brightly.",
-      "definitionCN": "动词，义为「熊熊燃烧」。"
-     },
-     {
-      "word": "scorch",
-      "ipa": "/skɔːtʃ/",
-      "tag": "near meaning",
-      "definition": "To burn the surface of something slightly.",
-      "definitionCN": "动词，义为「烤焦表面」。"
-     }
-    ]
-   }
-  ]
- },
- "mnemonics": {
-  "normalIntro": {
-   "en": "These hooks use the recorded history, the real family and the phrases the word actually appears in.",
-   "cn": "这些记忆钩子使用有记录的历史、真实词族和这个词实际出现的搭配。"
-  },
-  "normal": [
-   {
-    "en": "Old English had beornan for burning and baernan for setting alight.",
-    "cn": "古英语用 beornan 表示在烧，用 baernan 表示点火。"
-   },
-   {
-    "en": "German brennen and Dutch branden are close cousins of the same verb.",
-    "cn": "德语 brennen 与荷兰语 branden 是同一个动词的近亲。"
-   },
-   {
-    "en": "The heat that feeds a flame also hurts skin, so burn means both.",
-    "cn": "供养火焰的热也会伤皮肤，所以 burn 兼指两者。"
-   },
-   {
-    "en": "It often pairs with down, brightly, hand and candle.",
-    "cn": "它常与 down、brightly、hand、candle 搭配。"
-   },
-   {
-    "en": "Spell b-u-r-n; the past form is burned or burnt.",
-    "cn": "拼写是 b-u-r-n；过去式可写 burned 或 burnt。"
-   }
-  ],
-  "abstract": [
-   {
-    "en": "See one orange flame licking a log until the wood turns black: that flame is burn.",
-    "cn": "想象一簇橙色火苗舔着一块木头，直到木头变黑：这簇火就是 burn。"
-   },
-   {
-    "en": "Move that heat onto a hand and the same picture becomes a painful injury.",
-    "cn": "把这股热移到手背上，同一幅画面就变成疼痛的伤。"
-   },
-   {
-    "en": "Say the word aloud, then let the orange flame bring the meaning back.",
-    "cn": "先把这个词读出声，再让那簇橙色火苗把意思带回来。"
-   }
-  ]
- },
- "examples": [
-  {
-   "en": "The oil in the pan began to burn.",
-   "cn": "锅底的那层油开始烧了起来。"
-  },
-  {
-   "en": "The fire burned down the old barn.",
-   "cn": "大火把旧谷仓烧毁了。"
-  },
-  {
-   "en": "She burned her hand on the hot pan.",
-   "cn": "她的手被热锅烫伤了。"
-  }
- ],
- "dict_mnemonic": {
-  "note": "谐音记忆 · 非词源",
-  "text": "「本」——火苗舔着木头，木头又红又黑：燃烧",
-  "word": "burn"
- },
- "root": "burn 来自两个古英语动词：beornan 指某物自己在烧，bærnan 指点火把它烧起来，二者在中古英语合并为 burn，与德语 brennen、荷兰语 branden 同源。这个词从着火扩展到烧毁与灼伤；因为发烧的身体和着火的物体感觉相似，它又用来形容体内的高热。",
- "sensesIntro": {
-  "en": "All four senses of burn rest on one picture: an orange flame feeding on something until it changes.",
-  "cn": "burn 的四个义项都立在同一个画面上：一簇橙色火苗正在吞噬某物，直到它改变模样。"
- },
- "semanticMap": {
-  "core": {
-   "en": "CORE IMAGE: an orange flame licking a log until the wood blackens",
-   "cn": "核心意象：橙色火苗舔着木头，直到木头变黑"
-  },
-  "chain": [
-   "FLAME",
-   "HEAT",
-   "FUEL",
-   "DAMAGE",
-   "SKIN",
-   "FEVER"
-  ],
-  "branches": [
-   {
-    "senses": "01",
-    "en": "THE FIRE: being on fire is the first and literal sense.",
-    "cn": "火焰线：正在着火是最字面的第一个义项。"
-   },
-   {
-    "senses": "02",
-    "en": "THE RUIN: fire that takes a whole object destroys it.",
-    "cn": "毁坏线：火吞掉整件东西，就把它毁掉。"
-   },
-   {
-    "senses": "03",
-    "en": "THE WOUND: the same heat injures flesh.",
-    "cn": "伤口线：同样的热会伤到皮肉。"
-   },
-   {
-    "senses": "04",
-    "en": "THE FEVER: heat inside a body feels like a flame.",
-    "cn": "高热线：体内的热感觉像火焰。"
-   },
-   {
-    "senses": "02 · 03",
-    "en": "THE LOSS: destruction and injury both leave something gone.",
-    "cn": "损失线：毁坏与灼伤都会留下缺损。"
-   }
-  ]
- },
- "affixes": {
-  "intro": {
-   "en": "Burn is a base verb and noun, so the items below are its endings and the words it joins.",
-   "cn": "burn 是基础动词兼名词，下面列出的是它的词尾以及与之组合的词。"
-  },
-  "latinIntro": {
-   "en": "Latin urere means to burn and cremare means to burn up; they are parallels, not the source of burn.",
-   "cn": "拉丁语 urere 意为「燃烧」，cremare 意为「焚毁」，它们是平行词，不是 burn 的来源。"
-  },
-  "items": [
-   {
     "word": "burn",
-    "structure": "Old English base verb",
-    "meaning": "to be on fire",
-    "meaningCN": "着火；燃烧",
-    "example": "Beornan is the recorded Old English source.",
-    "exampleCN": "beornan 是有记录的古英语来源。"
-   },
-   {
-    "word": "-er",
-    "structure": "noun-forming suffix",
-    "meaning": "one that does",
-    "meaningCN": "做某事的人或物",
-    "example": "It forms burner.",
-    "exampleCN": "它构成 burner。"
-   },
-   {
-    "word": "-ing",
-    "structure": "adjective-forming suffix",
-    "meaning": "doing or feeling",
-    "meaningCN": "正在……的",
-    "example": "It forms burning.",
-    "exampleCN": "它构成 burning。"
-   },
-   {
-    "word": "sun",
-    "structure": "noun in a compound",
-    "meaning": "the star that gives light",
-    "meaningCN": "发光的恒星",
-    "example": "It forms sunburn.",
-    "exampleCN": "它构成 sunburn。"
-   },
-   {
-    "word": "down",
-    "structure": "adverb in a phrasal verb",
-    "meaning": "completely to the ground",
-    "meaningCN": "彻底倒下",
-    "example": "It forms burn down.",
-    "exampleCN": "它构成 burn down。"
-   },
-   {
-    "word": "brightly",
-    "structure": "adverb in a phrase",
-    "meaning": "with a strong light",
-    "meaningCN": "光亮强烈地",
-    "example": "It forms burn brightly.",
-    "exampleCN": "它构成 burn brightly。"
-   },
-   {
-    "word": "hand",
-    "structure": "noun in a phrase",
-    "meaning": "the part at the end of the arm",
-    "meaningCN": "手臂末端的部位",
-    "example": "It forms burn your hand.",
-    "exampleCN": "它构成 burn your hand。"
-   },
-   {
-    "word": "candle",
-    "structure": "noun in a phrase",
-    "meaning": "a wax stick with a flame",
-    "meaningCN": "带火焰的蜡条",
-    "example": "It forms burn the candle.",
-    "exampleCN": "它构成 burn the candle。"
-   }
-  ],
-  "latinEntries": [
-   {
-    "word": "urere",
-    "structure": "Latin verb",
-    "meaning": "to burn",
-    "meaningCN": "燃烧"
-   },
-   {
-    "word": "cremare",
-    "structure": "Latin verb",
-    "meaning": "to burn up, to cremate",
-    "meaningCN": "焚毁；火化"
-   }
-  ]
- }
-}
+    "ipa_uk": "/bɜːn/",
+    "ipa_us": "/bɜːrn/",
+    "definition_zh": "燃烧；烧毁；烧伤、烫伤；发烫、灼热",
+    "definition_en": "to be on fire, to destroy or damage something with fire or heat, to injure the skin with heat, or to feel very hot",
+    "core_image": "橙色火苗舔着一块木头，木头发红发黑",
+    "scene": "炉火太旺，锅底的一层油忽然烧了起来。The oil in the pan began to burn.",
+    "sceneCN": "这里 burn 是「燃烧」（第 1 个义项：着火、烧起来）；句意为炉火太旺，锅底的那层油忽然烧了起来。",
+    "pos": [
+      {
+        "tag": "v.",
+        "zh": "动词：燃烧；烧毁；灼伤；发烫"
+      },
+      {
+        "tag": "n.",
+        "zh": "名词：烧伤；灼伤"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "burn down",
+        "zh": "烧毁；烧成平地"
+      },
+      {
+        "phrase": "burn your hand",
+        "zh": "烫伤手"
+      },
+      {
+        "phrase": "burn brightly",
+        "zh": "烧得旺"
+      },
+      {
+        "phrase": "a burn on the arm",
+        "zh": "手臂上的一处烧伤"
+      },
+      {
+        "phrase": "burn the candle",
+        "zh": "点蜡烛；熬夜苦干"
+      }
+    ],
+    "forms": [
+      {
+        "label": "三单（动词）",
+        "form": "burns"
+      },
+      {
+        "label": "过去式（动词）",
+        "form": "burned"
+      },
+      {
+        "label": "过去分词（动词）",
+        "form": "burned"
+      },
+      {
+        "label": "过去分词（英式）",
+        "form": "burnt"
+      },
+      {
+        "label": "现在分词（动词）",
+        "form": "burning"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "burner",
+        "pos": "n.",
+        "zh": "由 burn 加 -er 构成，义为「燃烧器；炉头」"
+      },
+      {
+        "word": "burning",
+        "pos": "adj.",
+        "zh": "由 burn 加 -ing 构成，义为「燃烧的；火热的」"
+      },
+      {
+        "word": "sunburn",
+        "pos": "n.",
+        "zh": "由 sun 与 burn 组合而成，义为「晒伤」"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "To be on fire",
+        "titleCN": "燃烧",
+        "definition": "to be on fire, or to produce flames and heat",
+        "definitionCN": "着火，或产生火焰与热量",
+        "example": "The oil in the pan began to burn.",
+        "exampleCN": "锅底的那层油开始烧了起来。",
+        "why": "Old English had two verbs, beornan for something already on fire and bærnan for setting it alight.",
+        "whyCN": "古英语有两个动词：beornan 指某物自己在烧，bærnan 指点火把它烧起来。"
+      },
+      {
+        "no": "02",
+        "title": "To destroy with fire",
+        "titleCN": "烧毁；烧坏",
+        "definition": "to destroy or damage something by fire or great heat",
+        "definitionCN": "用火或高温毁坏、损坏某物",
+        "example": "The fire burned down the old barn.",
+        "exampleCN": "大火把旧谷仓烧毁了。",
+        "why": "When fire takes a whole object, the burning ends in nothing, so the verb came to mean destroying as well.",
+        "whyCN": "当火吞掉整件东西，燃烧的结局就是化为乌有，于是这个动词也指毁掉。"
+      },
+      {
+        "no": "03",
+        "title": "To injure the skin with heat",
+        "titleCN": "烧伤；烫伤",
+        "definition": "to hurt or damage the skin with fire, heat or a hot liquid",
+        "definitionCN": "用火、高温或热液伤害皮肤",
+        "example": "She burned her hand on the hot pan.",
+        "exampleCN": "她的手被热锅烫伤了。",
+        "why": "The same heat that feeds a flame also injures flesh, so the verb covers the harm done to a body.",
+        "whyCN": "供养火焰的那份热也会伤到皮肉，所以这个动词也指身体受到的伤害。"
+      },
+      {
+        "no": "04",
+        "title": "To feel very hot",
+        "titleCN": "发烫；灼热",
+        "definition": "to feel very hot, or to give out a strong heat, often used of skin or the sun",
+        "definitionCN": "感到极热，或散发出强烈的热，常用于皮肤或太阳",
+        "example": "His forehead was burning with fever.",
+        "exampleCN": "他发着烧，额头滚烫。",
+        "why": "A body on fire and a body with fever feel the same, so the word also describes heat inside a person.",
+        "whyCN": "着火的物体和发烧的身体感觉相同，所以这个词也用来形容人体内的热度。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Burn comes from two old verbs, one for being on fire and one for setting fire, which merged into a single word.",
+        "cn": "burn 来自两个古动词，一个指自己着火，一个指点火，二者后来合成一个词。"
+      },
+      "items": [
+        {
+          "era": "OLD ENGLISH BEORNAN",
+          "en": "Beornan meant to be on fire, used of the thing that burns.",
+          "cn": "beornan 意为正在着火，用于燃烧的那件东西。"
+        },
+        {
+          "era": "OLD ENGLISH BAERNAN",
+          "en": "Baernan meant to set something on fire, used of the person who lights it.",
+          "cn": "baernan 意为点燃某物，用于点火的人。"
+        },
+        {
+          "era": "GERMANIC KIN",
+          "en": "German brennen and Dutch branden keep both senses in one verb.",
+          "cn": "德语 brennen 与荷兰语 branden 把一个动词的两种用法都保留下来。"
+        },
+        {
+          "era": "MIDDLE ENGLISH",
+          "en": "The two verbs merged into burn, and burnt or burned served as the past form.",
+          "cn": "两个动词合并为 burn，过去式用 burnt 或 burned。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "Today burn covers fire, destruction, injury and the heat of fever.",
+          "cn": "今天 burn 覆盖着火、烧毁、灼伤与发烧的热度。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "The first group collects words close in shape or sound; the second group collects words about fire and heat.",
+        "cn": "第一组收拼写或读音接近的词，第二组收与火、热有关的词。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "barn",
+              "ipa": "/bɑːn/",
+              "tag": "similar shape",
+              "definition": "A large farm building for storing grain.",
+              "definitionCN": "名词，义为「谷仓」，拼写与 burn 相近。"
+            },
+            {
+              "word": "burst",
+              "ipa": "/bɜːst/",
+              "tag": "similar sound",
+              "definition": "To break open suddenly.",
+              "definitionCN": "动词，义为「爆裂」，读音与 burn 接近。"
+            },
+            {
+              "word": "bury",
+              "ipa": "/ˈberi/",
+              "tag": "similar shape",
+              "definition": "To put something under the ground.",
+              "definitionCN": "动词，义为「埋葬；埋藏」，拼写与 burn 相近。"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "flame",
+              "ipa": "/fleɪm/",
+              "tag": "near meaning",
+              "definition": "To burn with bright tongues of fire.",
+              "definitionCN": "动词，义为「燃起火焰」。"
+            },
+            {
+              "word": "blaze",
+              "ipa": "/bleɪz/",
+              "tag": "near meaning",
+              "definition": "To burn very strongly and brightly.",
+              "definitionCN": "动词，义为「熊熊燃烧」。"
+            },
+            {
+              "word": "scorch",
+              "ipa": "/skɔːtʃ/",
+              "tag": "near meaning",
+              "definition": "To burn the surface of something slightly.",
+              "definitionCN": "动词，义为「烤焦表面」。"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "These hooks use the recorded history, the real family and the phrases the word actually appears in.",
+        "cn": "这些记忆钩子使用有记录的历史、真实词族和这个词实际出现的搭配。"
+      },
+      "normal": [
+        {
+          "en": "Old English had beornan for burning and baernan for setting alight.",
+          "cn": "古英语用 beornan 表示在烧，用 baernan 表示点火。"
+        },
+        {
+          "en": "German brennen and Dutch branden are close cousins of the same verb.",
+          "cn": "德语 brennen 与荷兰语 branden 是同一个动词的近亲。"
+        },
+        {
+          "en": "The heat that feeds a flame also hurts skin, so burn means both.",
+          "cn": "供养火焰的热也会伤皮肤，所以 burn 兼指两者。"
+        },
+        {
+          "en": "It often pairs with down, brightly, hand and candle.",
+          "cn": "它常与 down、brightly、hand、candle 搭配。"
+        },
+        {
+          "en": "Spell b-u-r-n; the past form is burned or burnt.",
+          "cn": "拼写是 b-u-r-n；过去式可写 burned 或 burnt。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "See one orange flame licking a log until the wood turns black: that flame is burn.",
+          "cn": "想象一簇橙色火苗舔着一块木头，直到木头变黑：这簇火就是 burn。"
+        },
+        {
+          "en": "Move that heat onto a hand and the same picture becomes a painful injury.",
+          "cn": "把这股热移到手背上，同一幅画面就变成疼痛的伤。"
+        },
+        {
+          "en": "Say the word aloud, then let the orange flame bring the meaning back.",
+          "cn": "先把这个词读出声，再让那簇橙色火苗把意思带回来。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "The oil in the pan began to burn.",
+        "cn": "锅底的那层油开始烧了起来。"
+      },
+      {
+        "en": "The fire burned down the old barn.",
+        "cn": "大火把旧谷仓烧毁了。"
+      },
+      {
+        "en": "She burned her hand on the hot pan.",
+        "cn": "她的手被热锅烫伤了。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「本」——火苗舔着木头，木头又红又黑：燃烧",
+      "word": "burn"
+    },
+    "root": "burn 来自两个古英语动词：beornan 指某物自己在烧，bærnan 指点火把它烧起来，二者在中古英语合并为 burn，与德语 brennen、荷兰语 branden 同源。这个词从着火扩展到烧毁与灼伤；因为发烧的身体和着火的物体感觉相似，它又用来形容体内的高热。",
+    "sensesIntro": {
+      "en": "All four senses of burn rest on one picture: an orange flame feeding on something until it changes.",
+      "cn": "burn 的四个义项都立在同一个画面上：一簇橙色火苗正在吞噬某物，直到它改变模样。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: an orange flame licking a log until the wood blackens",
+        "cn": "核心意象：橙色火苗舔着木头，直到木头变黑"
+      },
+      "chain": [
+        "FLAME",
+        "HEAT",
+        "FUEL",
+        "DAMAGE",
+        "SKIN",
+        "FEVER"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "THE FIRE: being on fire is the first and literal sense.",
+          "cn": "火焰线：正在着火是最字面的第一个义项。"
+        },
+        {
+          "senses": "02",
+          "en": "THE RUIN: fire that takes a whole object destroys it.",
+          "cn": "毁坏线：火吞掉整件东西，就把它毁掉。"
+        },
+        {
+          "senses": "03",
+          "en": "THE WOUND: the same heat injures flesh.",
+          "cn": "伤口线：同样的热会伤到皮肉。"
+        },
+        {
+          "senses": "04",
+          "en": "THE FEVER: heat inside a body feels like a flame.",
+          "cn": "高热线：体内的热感觉像火焰。"
+        },
+        {
+          "senses": "02 · 03",
+          "en": "THE LOSS: destruction and injury both leave something gone.",
+          "cn": "损失线：毁坏与灼伤都会留下缺损。"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Burn is a base verb and noun, so the items below are its endings and the words it joins.",
+        "cn": "burn 是基础动词兼名词，下面列出的是它的词尾以及与之组合的词。"
+      },
+      "latinIntro": {
+        "en": "Latin urere means to burn and cremare means to burn up; they are parallels, not the source of burn.",
+        "cn": "拉丁语 urere 意为「燃烧」，cremare 意为「焚毁」，它们是平行词，不是 burn 的来源。"
+      },
+      "items": [
+        {
+          "word": "burn",
+          "structure": "Old English base verb",
+          "meaning": "to be on fire",
+          "meaningCN": "着火；燃烧",
+          "example": "Beornan is the recorded Old English source.",
+          "exampleCN": "beornan 是有记录的古英语来源。"
+        },
+        {
+          "word": "-er",
+          "structure": "noun-forming suffix",
+          "meaning": "one that does",
+          "meaningCN": "做某事的人或物",
+          "example": "It forms burner.",
+          "exampleCN": "它构成 burner。"
+        },
+        {
+          "word": "-ing",
+          "structure": "adjective-forming suffix",
+          "meaning": "doing or feeling",
+          "meaningCN": "正在……的",
+          "example": "It forms burning.",
+          "exampleCN": "它构成 burning。"
+        },
+        {
+          "word": "sun",
+          "structure": "noun in a compound",
+          "meaning": "the star that gives light",
+          "meaningCN": "发光的恒星",
+          "example": "It forms sunburn.",
+          "exampleCN": "它构成 sunburn。"
+        },
+        {
+          "word": "down",
+          "structure": "adverb in a phrasal verb",
+          "meaning": "completely to the ground",
+          "meaningCN": "彻底倒下",
+          "example": "It forms burn down.",
+          "exampleCN": "它构成 burn down。"
+        },
+        {
+          "word": "brightly",
+          "structure": "adverb in a phrase",
+          "meaning": "with a strong light",
+          "meaningCN": "光亮强烈地",
+          "example": "It forms burn brightly.",
+          "exampleCN": "它构成 burn brightly。"
+        },
+        {
+          "word": "hand",
+          "structure": "noun in a phrase",
+          "meaning": "the part at the end of the arm",
+          "meaningCN": "手臂末端的部位",
+          "example": "It forms burn your hand.",
+          "exampleCN": "它构成 burn your hand。"
+        },
+        {
+          "word": "candle",
+          "structure": "noun in a phrase",
+          "meaning": "a wax stick with a flame",
+          "meaningCN": "带火焰的蜡条",
+          "example": "It forms burn the candle.",
+          "exampleCN": "它构成 burn the candle。"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "urere",
+          "structure": "Latin verb",
+          "meaning": "to burn",
+          "meaningCN": "燃烧"
+        },
+        {
+          "word": "cremare",
+          "structure": "Latin verb",
+          "meaning": "to burn up, to cremate",
+          "meaningCN": "焚毁；火化"
+        }
+      ]
+    }
+  }
+]

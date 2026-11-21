@@ -1,157 +1,442 @@
-{
-  "word": "callosity",
-  "ipa_uk": "/kəˈlɒsəti/",
-  "ipa_us": "/kəˈlɑːsəti/",
-  "definition_zh": "（皮肤的）老茧；硬结；（比喻）麻木不仁",
-  "definition_en": "a hardened, thickened patch of skin; figuratively, unfeeling hardness of heart",
-  "core_image": "纤夫掌心一层磨不破的黄茧",
-  "scene": "老船夫摊开双手，掌心的茧硬如树皮。Years of oars left a callosity across his palms.",
-  "sceneCN": "这里 callosity 是「老茧」（第 1 个义项：皮肤因摩擦而增厚变硬之处）；句意是多年摇桨在他掌上磨出厚茧。",
-  "pos": [
-    { "tag": "n.", "zh": "老茧；胼胝；硬结" },
-    { "tag": "n.", "zh": "（比喻）冷酷；麻木不仁" }
-  ],
-  "collocations": [
-    { "phrase": "callous callosity", "zh": "厚厚的老茧" },
-    { "phrase": "a callosity of the hands", "zh": "手上的茧" },
-    { "phrase": "moral callosity", "zh": "道德的麻木" },
-    { "phrase": "the callosity of conscience", "zh": "良知的麻木" },
-    { "phrase": "smooth away callosity", "zh": "磨去老茧" }
-  ],
-  "forms": [
-    { "label": "复数", "form": "callosities" },
-    { "label": "形容词（同根）", "form": "callous" }
-  ],
-  "derivatives": [
-    { "word": "callous", "pos": "adj.", "zh": "同根形容词，义为「长老茧的；（心）冷酷的」" },
-    { "word": "callus", "pos": "n.", "zh": "同根名词，义为「（皮肤或骨头的）胼胝、骨痂」" },
-    { "word": "callously", "pos": "adv.", "zh": "由形容词加 -ly 构成，义为「冷酷地」" }
-  ],
-  "senses": [
-    {
-      "no": "01",
-      "title": "A hardened patch of skin",
-      "titleCN": "老茧；胼胝",
-      "definition": "a thickened, hardened area of skin formed by pressure or friction",
-      "definitionCN": "因长期受压或摩擦而增厚变硬的皮肤区域",
-      "example": "The gardener's callosities told of forty seasons of labour.",
-      "exampleCN": "园丁手上的老茧诉说着四十个耕作季节。",
-      "why": "Latin callum meant hard skin, and the suffix -ity names the condition.",
-      "whyCN": "拉丁语 callum 意为硬皮，-ity 词尾标示这种状态。"
-    },
-    {
-      "no": "02",
-      "title": "Any hardened swelling",
-      "titleCN": "硬结；（骨的）骨痂",
-      "definition": "a hard thickened spot or mass, as on a bone or plant",
-      "definitionCN": "硬化的增厚处或硬块，如骨痂或植物愈伤组织",
-      "example": "The X-ray showed a callosity where the bone had knit.",
-      "exampleCN": "X 光片显示骨折处已结出骨痂。",
-      "why": "The hard-skin idea extends to bone and tissue healing.",
-      "whyCN": "「硬皮」之意延伸到骨骼与组织的愈合。"
-    },
-    {
-      "no": "03",
-      "title": "Unfeeling hardness of heart",
-      "titleCN": "（比喻）冷酷；麻木不仁",
-      "definition": "insensibility to the feelings of others",
-      "definitionCN": "对他人的痛苦无动于衷",
-      "example": "His reply showed the callosity of a man long past shame.",
-      "exampleCN": "他的回答显出一个久不知耻者的冷酷。",
-      "why": "Skin that feels nothing becomes a soul that feels nothing.",
-      "whyCN": "无知觉的皮肤化为无知觉的心。"
-    }
-  ],
-  "etymology": {
-    "intro": { "en": "Callosity comes from Latin callum, hard skin, plus the abstract suffix -itas.", "cn": "callosity 由拉丁语 callum（硬皮）加抽象后缀 -itas 构成。" },
-    "items": [
-      { "era": "PROTO-INDO-EUROPEAN", "en": "behind Latin callum lies a reconstructed root for hard or stony ground, uncertain in detail.", "cn": "拉丁语 callum 背后是表示「硬、石质」的重构词根，细节不确定。" },
-      { "era": "LATIN CALLUM", "en": "callum meant the hard skin of feet worn by walking.", "cn": "拉丁语 callum 指因行走而磨硬的脚皮。" },
-      { "era": "LATIN CALLOSITAS", "en": "callositas named the state of being hardened.", "cn": "拉丁语 callositas 指「硬化状态」。" },
-      { "era": "ENGLISH, 15TH–16TH C.", "en": "callosity entered English for physical and then moral hardness.", "cn": "十五至十六世纪 callosity 进入英语，先指身体硬化，后指心灵冷酷。" },
-      { "era": "MODERN ENGLISH", "en": "medical use prefers callus; callosity survives in literary and figurative writing.", "cn": "医学上更常用 callus；callosity 留存于文学与比喻用法。" }
-    ]
-  },
-  "similar": {
-    "note": { "en": "The look-alike group shares the hard-skin root; the near-meaning group lists insensitivity words.", "cn": "形近组同出「硬皮」词根；近义组是麻木类词。" },
-    "groups": [
+[
+  {
+    "word": "callosity",
+    "ipa_uk": "/kəˈlɒsəti/",
+    "ipa_us": "/kəˈlɑːsəti/",
+    "definition_zh": "（皮肤的）老茧；硬结；（比喻）麻木不仁",
+    "definition_en": "a hardened, thickened patch of skin; figuratively, unfeeling hardness of heart",
+    "core_image": "纤夫掌心一层磨不破的黄茧",
+    "scene": "老船夫摊开双手，掌心的茧硬如树皮。Years of oars left a callosity across his palms.",
+    "sceneCN": "这里 callosity 是「老茧」（第 1 个义项：皮肤因摩擦而增厚变硬之处）；句意是多年摇桨在他掌上磨出厚茧。",
+    "pos": [
       {
-        "heading": "LOOK-ALIKE",
-        "entries": [
-          { "word": "callous", "ipa": "/ˈkæləs/", "tag": "same root", "definition": "hardened; unfeeling", "definitionCN": "长老茧的；冷酷的" },
-          { "word": "callus", "ipa": "/ˈkæləs/", "tag": "same root", "definition": "hardened skin or bone repair", "definitionCN": "胼胝；骨痂" },
-          { "word": "callously", "ipa": "/ˈkæləsli/", "tag": "derived form", "definition": "in an unfeeling manner", "definitionCN": "冷酷地" },
-          { "word": "calcium", "ipa": "/ˈkælsiəm/", "tag": "spelling", "definition": "a metal element, unrelated", "definitionCN": "钙，仅拼写相近，词源无关" }
-        ]
+        "tag": "n.",
+        "zh": "老茧；胼胝；硬结"
       },
       {
-        "heading": "NEAR MEANING",
-        "entries": [
-          { "word": "insensitivity", "ipa": "/ɪnˌsensəˈtɪvəti/", "tag": "near meaning", "definition": "lack of feeling or awareness", "definitionCN": "麻木；无感" },
-          { "word": "apathy", "ipa": "/ˈæpəθi/", "tag": "near meaning", "definition": "lack of interest or emotion", "definitionCN": "冷漠；无动于衷" },
-          { "word": "callousness", "ipa": "/ˈkæləsnəs/", "tag": "near meaning", "definition": "cruel disregard for others", "definitionCN": "冷酷无情" },
-          { "word": "obduracy", "ipa": "/ˈɒbdjərəsi/", "tag": "near meaning", "definition": "stubborn hardness of heart", "definitionCN": "顽固；冷酷" },
-          { "word": "induration", "ipa": "/ˌɪndjʊˈreɪʃn/", "tag": "related", "definition": "medical hardening of tissue", "definitionCN": "（医学）组织硬化" }
-        ]
+        "tag": "n.",
+        "zh": "（比喻）冷酷；麻木不仁"
       }
-    ]
-  },
-  "mnemonics": {
-    "normalIntro": { "en": "Hands that grip forever grow the callosity that never feels.", "cn": "永远紧握的手，会长出永不喊痛的茧。" },
-    "normal": [
-      { "en": "Latin callum means hard skin.", "cn": "拉丁语 callum 意为硬皮。" },
-      { "en": "Callus is the medical word; callosity the literary one.", "cn": "callus 是医学术语，callosity 偏文学。" },
-      { "en": "Callous the adjective means unfeeling.", "cn": "形容词 callous 意为冷酷的。" },
-      { "en": "Moral callosity is the figurative use.", "cn": "moral callosity 是比喻用法。" },
-      { "en": "Calcium is unrelated despite the look.", "cn": "calcium 与其拼写相近但词源无关。" }
     ],
-    "abstract": [
-      { "en": "Feel the smooth yellow ridge of a rower's palm.", "cn": "感受船夫掌心那道光滑的黄茧。" },
-      { "en": "See a refusal delivered with no flicker of feeling.", "cn": "看一句拒绝说得毫无波澜。" },
-      { "en": "Picture bark growing over a scarred trunk.", "cn": "想象树皮盖住伤痕累累的树干。" }
-    ]
-  },
-  "examples": [
-    { "en": "Blacksmith's callosities deepened with every forge year.", "cn": "铁匠的茧随每一年打铁而愈发厚实。" },
-    { "en": "The warden's moral callosity shocked the inspectors.", "cn": "典狱长的冷酷麻木令检查员震惊。" },
-    { "en": "A callosity formed along the healed fracture.", "cn": "愈合的骨折处长出了骨痂。" }
-  ],
-  "dict_mnemonic": { "note": "谐音记忆 · 非词源", "text": "「磕·老·茧」——手总「磕」在硬物上，时间久了就「老」出「茧」，与 callosity 的老茧义扣合。", "word": "callosity" },
-  "root": "callosity 源自拉丁语 callum「硬皮」加抽象后缀 -itas（callositas「硬化状态」）；本指磨出的老茧，延伸到骨痂，再借喻心灵的冷酷；同族词 callous、callus、callously 共享「硬」根。",
-  "sensesIntro": { "en": "Skin hardened by labour, bone hardened in healing, and a heart hardened by habit.", "cn": "劳作磨硬的皮肤、愈合中变硬的骨骼，以及被习惯磨硬的心。" },
-  "semanticMap": {
-    "core": { "en": "CORE IMAGE: a palm whose skin has grown like bark.", "cn": "核心意象：掌心皮肤硬得像树皮。" },
-    "chain": ["FRICTION", "HARDENING", "INSENSIBILITY", "HEALING", "HABIT", "CALLOUSNESS"],
-    "branches": [
-      { "senses": "01", "en": "callosities from forty seasons of labour", "cn": "四十年劳作磨出的老茧" },
-      { "senses": "01", "en": "the oarsman's hard palms", "cn": "桨手粗硬的手掌" },
-      { "senses": "02", "en": "a callosity knitting the bone", "cn": "愈合处的骨痂" },
-      { "senses": "03", "en": "moral callosity past shame", "cn": "不知羞耻的道德麻木" },
-      { "senses": "01 · 03", "en": "the skin that feels nothing, the heart that feels nothing", "cn": "无知觉的皮肤与无知觉的心" }
-    ]
-  },
-  "affixes": {
-    "intro": { "en": "The Latin hard-skin stem call- carries into callus, callous, and callosity.", "cn": "拉丁「硬皮」词干 call- 贯穿 callus、callous 与 callosity。" },
-    "latinIntro": { "en": "Latin callum, hard skin, plus -itas gives callositas.", "cn": "拉丁语 callum（硬皮）加 -itas 构成 callositas。" },
-    "items": [
-      { "word": "callum", "structure": "Latin noun (n.)", "meaning": "hard skin", "meaningCN": "硬皮；老茧", "example": "callum pedum", "exampleCN": "脚上的茧（拉丁语）" },
-      { "word": "callositas", "structure": "callum + -itas", "meaning": "hardness, the hardened state", "meaningCN": "硬化状态", "example": "callositas manuum", "exampleCN": "双手的胼胝（拉丁语）" },
-      { "word": "callosity", "structure": "English adoption", "meaning": "a callus; moral hardness", "meaningCN": "老茧；冷酷", "example": "a callosity of the palms", "exampleCN": "掌上的老茧" },
-      { "word": "callus", "structure": "Latin diminutive", "meaning": "hardened skin or bone", "meaningCN": "胼胝；骨痂", "example": "a callus on the knuckle", "exampleCN": "指节上的茧" },
-      { "word": "callous", "structure": "callus + -ous", "meaning": "hardened; unfeeling", "meaningCN": "长老茧的；冷酷的", "example": "callous indifference", "exampleCN": "冷漠无情" },
-      { "word": "callously", "structure": "callous + -ly", "meaning": "unfeelingly", "meaningCN": "冷酷地", "example": "callously dismissed", "exampleCN": "冷酷地打发掉" },
-      { "word": "apathy", "structure": "Greek a- + pathos", "meaning": "lack of feeling", "meaningCN": "冷漠", "example": "public apathy", "exampleCN": "公众的冷漠" },
-      { "word": "obduracy", "structure": "Latin obdurare", "meaning": "hardness of heart", "meaningCN": "顽固冷酷", "example": "his obduracy in debate", "exampleCN": "他辩论中的顽固" },
-      { "word": "induration", "structure": "Latin indurare", "meaning": "medical hardening", "meaningCN": "（医学）硬化", "example": "induration of tissue", "exampleCN": "组织硬化" }
+    "collocations": [
+      {
+        "phrase": "callous callosity",
+        "zh": "厚厚的老茧"
+      },
+      {
+        "phrase": "a callosity of the hands",
+        "zh": "手上的茧"
+      },
+      {
+        "phrase": "moral callosity",
+        "zh": "道德的麻木"
+      },
+      {
+        "phrase": "the callosity of conscience",
+        "zh": "良知的麻木"
+      },
+      {
+        "phrase": "smooth away callosity",
+        "zh": "磨去老茧"
+      }
     ],
-    "latinEntries": [
-      { "word": "callositas", "structure": "Latin noun (f.)", "meaning": "hardness of skin", "meaningCN": "皮肤硬化；胼胝" },
-      { "word": "callum", "structure": "Latin noun (n.)", "meaning": "hard skin", "meaningCN": "硬皮" }
+    "forms": [
+      {
+        "label": "复数",
+        "form": "callosities"
+      },
+      {
+        "label": "形容词（同根）",
+        "form": "callous"
+      }
     ],
     "derivatives": [
-      { "word": "callous", "pos": "adj.", "zh": "冷酷的；长老茧的" },
-      { "word": "callus", "pos": "n.", "zh": "胼胝；骨痂" },
-      { "word": "callously", "pos": "adv.", "zh": "冷酷地" }
-    ]
+      {
+        "word": "callous",
+        "pos": "adj.",
+        "zh": "同根形容词，义为「长老茧的；（心）冷酷的」"
+      },
+      {
+        "word": "callus",
+        "pos": "n.",
+        "zh": "同根名词，义为「（皮肤或骨头的）胼胝、骨痂」"
+      },
+      {
+        "word": "callously",
+        "pos": "adv.",
+        "zh": "由形容词加 -ly 构成，义为「冷酷地」"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "A hardened patch of skin",
+        "titleCN": "老茧；胼胝",
+        "definition": "a thickened, hardened area of skin formed by pressure or friction",
+        "definitionCN": "因长期受压或摩擦而增厚变硬的皮肤区域",
+        "example": "The gardener's callosities told of forty seasons of labour.",
+        "exampleCN": "园丁手上的老茧诉说着四十个耕作季节。",
+        "why": "Latin callum meant hard skin, and the suffix -ity names the condition.",
+        "whyCN": "拉丁语 callum 意为硬皮，-ity 词尾标示这种状态。"
+      },
+      {
+        "no": "02",
+        "title": "Any hardened swelling",
+        "titleCN": "硬结；（骨的）骨痂",
+        "definition": "a hard thickened spot or mass, as on a bone or plant",
+        "definitionCN": "硬化的增厚处或硬块，如骨痂或植物愈伤组织",
+        "example": "The X-ray showed a callosity where the bone had knit.",
+        "exampleCN": "X 光片显示骨折处已结出骨痂。",
+        "why": "The hard-skin idea extends to bone and tissue healing.",
+        "whyCN": "「硬皮」之意延伸到骨骼与组织的愈合。"
+      },
+      {
+        "no": "03",
+        "title": "Unfeeling hardness of heart",
+        "titleCN": "（比喻）冷酷；麻木不仁",
+        "definition": "insensibility to the feelings of others",
+        "definitionCN": "对他人的痛苦无动于衷",
+        "example": "His reply showed the callosity of a man long past shame.",
+        "exampleCN": "他的回答显出一个久不知耻者的冷酷。",
+        "why": "Skin that feels nothing becomes a soul that feels nothing.",
+        "whyCN": "无知觉的皮肤化为无知觉的心。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Callosity comes from Latin callum, hard skin, plus the abstract suffix -itas.",
+        "cn": "callosity 由拉丁语 callum（硬皮）加抽象后缀 -itas 构成。"
+      },
+      "items": [
+        {
+          "era": "PROTO-INDO-EUROPEAN",
+          "en": "behind Latin callum lies a reconstructed root for hard or stony ground, uncertain in detail.",
+          "cn": "拉丁语 callum 背后是表示「硬、石质」的重构词根，细节不确定。"
+        },
+        {
+          "era": "LATIN CALLUM",
+          "en": "callum meant the hard skin of feet worn by walking.",
+          "cn": "拉丁语 callum 指因行走而磨硬的脚皮。"
+        },
+        {
+          "era": "LATIN CALLOSITAS",
+          "en": "callositas named the state of being hardened.",
+          "cn": "拉丁语 callositas 指「硬化状态」。"
+        },
+        {
+          "era": "ENGLISH, 15TH–16TH C.",
+          "en": "callosity entered English for physical and then moral hardness.",
+          "cn": "十五至十六世纪 callosity 进入英语，先指身体硬化，后指心灵冷酷。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "medical use prefers callus; callosity survives in literary and figurative writing.",
+          "cn": "医学上更常用 callus；callosity 留存于文学与比喻用法。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "The look-alike group shares the hard-skin root; the near-meaning group lists insensitivity words.",
+        "cn": "形近组同出「硬皮」词根；近义组是麻木类词。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "callous",
+              "ipa": "/ˈkæləs/",
+              "tag": "same root",
+              "definition": "hardened; unfeeling",
+              "definitionCN": "长老茧的；冷酷的"
+            },
+            {
+              "word": "callus",
+              "ipa": "/ˈkæləs/",
+              "tag": "same root",
+              "definition": "hardened skin or bone repair",
+              "definitionCN": "胼胝；骨痂"
+            },
+            {
+              "word": "callously",
+              "ipa": "/ˈkæləsli/",
+              "tag": "derived form",
+              "definition": "in an unfeeling manner",
+              "definitionCN": "冷酷地"
+            },
+            {
+              "word": "calcium",
+              "ipa": "/ˈkælsiəm/",
+              "tag": "spelling",
+              "definition": "a metal element, unrelated",
+              "definitionCN": "钙，仅拼写相近，词源无关"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "insensitivity",
+              "ipa": "/ɪnˌsensəˈtɪvəti/",
+              "tag": "near meaning",
+              "definition": "lack of feeling or awareness",
+              "definitionCN": "麻木；无感"
+            },
+            {
+              "word": "apathy",
+              "ipa": "/ˈæpəθi/",
+              "tag": "near meaning",
+              "definition": "lack of interest or emotion",
+              "definitionCN": "冷漠；无动于衷"
+            },
+            {
+              "word": "callousness",
+              "ipa": "/ˈkæləsnəs/",
+              "tag": "near meaning",
+              "definition": "cruel disregard for others",
+              "definitionCN": "冷酷无情"
+            },
+            {
+              "word": "obduracy",
+              "ipa": "/ˈɒbdjərəsi/",
+              "tag": "near meaning",
+              "definition": "stubborn hardness of heart",
+              "definitionCN": "顽固；冷酷"
+            },
+            {
+              "word": "induration",
+              "ipa": "/ˌɪndjʊˈreɪʃn/",
+              "tag": "related",
+              "definition": "medical hardening of tissue",
+              "definitionCN": "（医学）组织硬化"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Hands that grip forever grow the callosity that never feels.",
+        "cn": "永远紧握的手，会长出永不喊痛的茧。"
+      },
+      "normal": [
+        {
+          "en": "Latin callum means hard skin.",
+          "cn": "拉丁语 callum 意为硬皮。"
+        },
+        {
+          "en": "Callus is the medical word; callosity the literary one.",
+          "cn": "callus 是医学术语，callosity 偏文学。"
+        },
+        {
+          "en": "Callous the adjective means unfeeling.",
+          "cn": "形容词 callous 意为冷酷的。"
+        },
+        {
+          "en": "Moral callosity is the figurative use.",
+          "cn": "moral callosity 是比喻用法。"
+        },
+        {
+          "en": "Calcium is unrelated despite the look.",
+          "cn": "calcium 与其拼写相近但词源无关。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "Feel the smooth yellow ridge of a rower's palm.",
+          "cn": "感受船夫掌心那道光滑的黄茧。"
+        },
+        {
+          "en": "See a refusal delivered with no flicker of feeling.",
+          "cn": "看一句拒绝说得毫无波澜。"
+        },
+        {
+          "en": "Picture bark growing over a scarred trunk.",
+          "cn": "想象树皮盖住伤痕累累的树干。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "Blacksmith's callosities deepened with every forge year.",
+        "cn": "铁匠的茧随每一年打铁而愈发厚实。"
+      },
+      {
+        "en": "The warden's moral callosity shocked the inspectors.",
+        "cn": "典狱长的冷酷麻木令检查员震惊。"
+      },
+      {
+        "en": "A callosity formed along the healed fracture.",
+        "cn": "愈合的骨折处长出了骨痂。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「磕·老·茧」——手总「磕」在硬物上，时间久了就「老」出「茧」，与 callosity 的老茧义扣合。",
+      "word": "callosity"
+    },
+    "root": "callosity 源自拉丁语 callum「硬皮」加抽象后缀 -itas（callositas「硬化状态」）；本指磨出的老茧，延伸到骨痂，再借喻心灵的冷酷；同族词 callous、callus、callously 共享「硬」根。",
+    "sensesIntro": {
+      "en": "Skin hardened by labour, bone hardened in healing, and a heart hardened by habit.",
+      "cn": "劳作磨硬的皮肤、愈合中变硬的骨骼，以及被习惯磨硬的心。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: a palm whose skin has grown like bark.",
+        "cn": "核心意象：掌心皮肤硬得像树皮。"
+      },
+      "chain": [
+        "FRICTION",
+        "HARDENING",
+        "INSENSIBILITY",
+        "HEALING",
+        "HABIT",
+        "CALLOUSNESS"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "callosities from forty seasons of labour",
+          "cn": "四十年劳作磨出的老茧"
+        },
+        {
+          "senses": "01",
+          "en": "the oarsman's hard palms",
+          "cn": "桨手粗硬的手掌"
+        },
+        {
+          "senses": "02",
+          "en": "a callosity knitting the bone",
+          "cn": "愈合处的骨痂"
+        },
+        {
+          "senses": "03",
+          "en": "moral callosity past shame",
+          "cn": "不知羞耻的道德麻木"
+        },
+        {
+          "senses": "01 · 03",
+          "en": "the skin that feels nothing, the heart that feels nothing",
+          "cn": "无知觉的皮肤与无知觉的心"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "The Latin hard-skin stem call- carries into callus, callous, and callosity.",
+        "cn": "拉丁「硬皮」词干 call- 贯穿 callus、callous 与 callosity。"
+      },
+      "latinIntro": {
+        "en": "Latin callum, hard skin, plus -itas gives callositas.",
+        "cn": "拉丁语 callum（硬皮）加 -itas 构成 callositas。"
+      },
+      "items": [
+        {
+          "word": "callum",
+          "structure": "Latin noun (n.)",
+          "meaning": "hard skin",
+          "meaningCN": "硬皮；老茧",
+          "example": "callum pedum",
+          "exampleCN": "脚上的茧（拉丁语）"
+        },
+        {
+          "word": "callositas",
+          "structure": "callum + -itas",
+          "meaning": "hardness, the hardened state",
+          "meaningCN": "硬化状态",
+          "example": "callositas manuum",
+          "exampleCN": "双手的胼胝（拉丁语）"
+        },
+        {
+          "word": "callosity",
+          "structure": "English adoption",
+          "meaning": "a callus; moral hardness",
+          "meaningCN": "老茧；冷酷",
+          "example": "a callosity of the palms",
+          "exampleCN": "掌上的老茧"
+        },
+        {
+          "word": "callus",
+          "structure": "Latin diminutive",
+          "meaning": "hardened skin or bone",
+          "meaningCN": "胼胝；骨痂",
+          "example": "a callus on the knuckle",
+          "exampleCN": "指节上的茧"
+        },
+        {
+          "word": "callous",
+          "structure": "callus + -ous",
+          "meaning": "hardened; unfeeling",
+          "meaningCN": "长老茧的；冷酷的",
+          "example": "callous indifference",
+          "exampleCN": "冷漠无情"
+        },
+        {
+          "word": "callously",
+          "structure": "callous + -ly",
+          "meaning": "unfeelingly",
+          "meaningCN": "冷酷地",
+          "example": "callously dismissed",
+          "exampleCN": "冷酷地打发掉"
+        },
+        {
+          "word": "apathy",
+          "structure": "Greek a- + pathos",
+          "meaning": "lack of feeling",
+          "meaningCN": "冷漠",
+          "example": "public apathy",
+          "exampleCN": "公众的冷漠"
+        },
+        {
+          "word": "obduracy",
+          "structure": "Latin obdurare",
+          "meaning": "hardness of heart",
+          "meaningCN": "顽固冷酷",
+          "example": "his obduracy in debate",
+          "exampleCN": "他辩论中的顽固"
+        },
+        {
+          "word": "induration",
+          "structure": "Latin indurare",
+          "meaning": "medical hardening",
+          "meaningCN": "（医学）硬化",
+          "example": "induration of tissue",
+          "exampleCN": "组织硬化"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "callositas",
+          "structure": "Latin noun (f.)",
+          "meaning": "hardness of skin",
+          "meaningCN": "皮肤硬化；胼胝"
+        },
+        {
+          "word": "callum",
+          "structure": "Latin noun (n.)",
+          "meaning": "hard skin",
+          "meaningCN": "硬皮"
+        }
+      ],
+      "derivatives": [
+        {
+          "word": "callous",
+          "pos": "adj.",
+          "zh": "冷酷的；长老茧的"
+        },
+        {
+          "word": "callus",
+          "pos": "n.",
+          "zh": "胼胝；骨痂"
+        },
+        {
+          "word": "callously",
+          "pos": "adv.",
+          "zh": "冷酷地"
+        }
+      ]
+    }
   }
-}
+]

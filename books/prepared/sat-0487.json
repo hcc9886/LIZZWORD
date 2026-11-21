@@ -1,155 +1,435 @@
-{
-  "word": "bumptious",
-  "ipa_uk": "/ˈbʌmpʃəs/",
-  "ipa_us": "/ˈbʌmpʃəs/",
-  "definition_zh": "自大的；傲慢鲁莽的；自负冒失的",
-  "definition_en": "offensively self-assertive and conceited",
-  "core_image": "拍着胸脯夸海口的小人物",
-  "scene": "新来的助理对老员工指手画脚，人人皱眉。His bumptious manner annoyed the whole office.",
-  "sceneCN": "这里 bumptious 是「自大傲慢的、冒失的」（第 1 个义项：自以为是且爱逞能）；句意是他傲慢的做派惹恼了全办公室。",
-  "pos": [
-    { "tag": "adj.", "zh": "自大的；傲慢冒失的" }
-  ],
-  "collocations": [
-    { "phrase": "a bumptious young man", "zh": "自大的年轻人" },
-    { "phrase": "bumptious manner", "zh": "傲慢的做派" },
-    { "phrase": "bumptious remarks", "zh": "自负的言论" },
-    { "phrase": "a bumptious official", "zh": "飞扬跋扈的官员" },
-    { "phrase": "grow bumptious", "zh": "变得自大起来" }
-  ],
-  "forms": [
-    { "label": "副词", "form": "bumptiously" },
-    { "label": "名词", "form": "bumptiousness" }
-  ],
-  "derivatives": [
-    { "word": "bumptiously", "pos": "adv.", "zh": "由形容词加 -ly 构成，义为「傲慢自大地」" },
-    { "word": "bumptiousness", "pos": "n.", "zh": "由形容词加 -ness 构成，义为「自大，傲慢」" },
-    { "word": "presumptuous", "pos": "adj.", "zh": "近义词，义为「放肆的，自以为是的」" }
-  ],
-  "senses": [
-    {
-      "no": "01",
-      "title": "Conceited and pushy",
-      "titleCN": "自大而咄咄逼人",
-      "definition": "obnoxiously self-confident and forward in dealing with others",
-      "definitionCN": "过分自信，待人接物咄咄逼人",
-      "example": "The bumptious intern corrected the director twice.",
-      "exampleCN": "这个不知天高地厚的实习生两次纠正主管。",
-      "why": "The root bump suggests one who butts in and bumps others aside.",
-      "whyCN": "词根 bump 暗示那种横冲直撞、把旁人挤开的做派。"
-    },
-    {
-      "no": "02",
-      "title": "Loudly self-assertive in manner",
-      "titleCN": "张扬炫耀的",
-      "definition": "making one's importance loudly and plainly felt",
-      "definitionCN": "大张旗鼓地显摆自身的重要",
-      "example": "His bumptious speech earned only embarrassed silence.",
-      "exampleCN": "他趾高气扬的演讲只换来尴尬的沉默。",
-      "why": "Pushiness that fails reads as noisy vanity.",
-      "whyCN": "逞能而不奏效，便只剩下聒噪的虚荣。"
-    },
-    {
-      "no": "03",
-      "title": "Cheeky toward superiors",
-      "titleCN": "冒犯尊长，不知分寸",
-      "definition": "disrespectfully forward toward those of higher rank or age",
-      "definitionCN": "对长辈或上位者轻慢放肆、不知进退",
-      "example": "The sergeant rebuked the bumptious recruit.",
-      "exampleCN": "中士训斥了那个放肆的新兵。",
-      "why": "Self-assertion aimed upward crosses into insolence.",
-      "whyCN": "自我张扬一旦指向尊者，便逾越为冒犯。"
-    }
-  ],
-  "etymology": {
-    "intro": { "en": "Bumptious is a nineteenth-century English coinage, probably blending bump with a -tious ending.", "cn": "bumptious 是十九世纪的英语造词，一般认为是 bump 与 -tious 词尾的混合。" },
-    "items": [
-      { "era": "IMITATIVE ORIGIN", "en": "bump echoes a blunt knock or shove.", "cn": "bump 摹仿莽撞的推挤之声。" },
-      { "era": "ENGLISH, 17TH–18TH C.", "en": "the older phrase bumptious for bounteous may have fed the blend.", "cn": "旧义 bumptious（= bounteous，慷慨）或为该混成词提供了词尾。" },
-      { "era": "ENGLISH, 19TH C.", "en": "writers coined the modern sense of pushy self-conceit.", "cn": "十九世纪作家赋予其「逞强自负」的新义。" },
-      { "era": "ENGLISH, 19TH–20TH C.", "en": "novelists used it for officious minor characters.", "cn": "小说家常以之刻画好管闲事的小人物。" },
-      { "era": "PRESENT DAY ENGLISH", "en": "bumptious remains a literary word for pompous pushiness.", "cn": "如今 bumptious 仍是书面语，形容倨傲逞强。" }
-    ]
-  },
-  "similar": {
-    "note": { "en": "Bumptious rhymes with -tious adjectives and stands among the arrogance words.", "cn": "bumptious 与 -tious 结尾的形容词押韵，置身「傲慢」词群之中。" },
-    "groups": [
+[
+  {
+    "word": "bumptious",
+    "ipa_uk": "/ˈbʌmpʃəs/",
+    "ipa_us": "/ˈbʌmpʃəs/",
+    "definition_zh": "自大的；傲慢鲁莽的；自负冒失的",
+    "definition_en": "offensively self-assertive and conceited",
+    "core_image": "拍着胸脯夸海口的小人物",
+    "scene": "新来的助理对老员工指手画脚，人人皱眉。His bumptious manner annoyed the whole office.",
+    "sceneCN": "这里 bumptious 是「自大傲慢的、冒失的」（第 1 个义项：自以为是且爱逞能）；句意是他傲慢的做派惹恼了全办公室。",
+    "pos": [
       {
-        "heading": "LOOK-ALIKE",
-        "entries": [
-          { "word": "bumptiously", "ipa": "/ˈbʌmpʃəsli/", "tag": "derived form", "definition": "in a bumptious way", "definitionCN": "bumptious 的副词形式" },
-          { "word": "bumptiousness", "ipa": "/ˈbʌmpʃəsnəs/", "tag": "derived form", "definition": "the quality of being bumptious", "definitionCN": "自大，bumptious 的名词形式" },
-          { "word": "presumptuous", "ipa": "/prɪˈzʌmptʃuəs/", "tag": "spelling", "definition": "going beyond proper limits", "definitionCN": "放肆的，拼写相近且意义相邻，但词根不同" },
-          { "word": "bounteous", "ipa": "/ˈbaʊntiəs/", "tag": "same root", "definition": "generous; the older sense of bumptious", "definitionCN": "慷慨的，bumptious 的旧义同源说法" }
-        ]
+        "tag": "adj.",
+        "zh": "自大的；傲慢冒失的"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "a bumptious young man",
+        "zh": "自大的年轻人"
       },
       {
-        "heading": "NEAR MEANING",
-        "entries": [
-          { "word": "arrogant", "ipa": "/ˈærəɡənt/", "tag": "near meaning", "definition": "overly proud and self-important", "definitionCN": "傲慢的，自大的" },
-          { "word": "pushy", "ipa": "/ˈpʊʃi/", "tag": "near meaning", "definition": "aggressively self-assertive", "definitionCN": "咄咄逼人的，爱出风头的" },
-          { "word": "pompous", "ipa": "/ˈpɒmpəs/", "tag": "near meaning", "definition": "self-important in a solemn way", "definitionCN": "自命不凡的，浮夸的" },
-          { "word": "obtrusive", "ipa": "/əbˈtruːsɪv/", "tag": "near meaning", "definition": "annoyingly noticeable or forward", "definitionCN": "冒失扎眼的" },
-          { "word": "insolent", "ipa": "/ˈɪnsələnt/", "tag": "near meaning", "definition": "rudely disrespectful", "definitionCN": "无礼放肆的" }
-        ]
+        "phrase": "bumptious manner",
+        "zh": "傲慢的做派"
+      },
+      {
+        "phrase": "bumptious remarks",
+        "zh": "自负的言论"
+      },
+      {
+        "phrase": "a bumptious official",
+        "zh": "飞扬跋扈的官员"
+      },
+      {
+        "phrase": "grow bumptious",
+        "zh": "变得自大起来"
       }
-    ]
-  },
-  "mnemonics": {
-    "normalIntro": { "en": "He bumps into every conversation, certain he belongs at the front.", "cn": "他横冲直撞地插进每个话题，认定自己理当前排。" },
-    "normal": [
-      { "en": "Feel the bump inside the word: a pusher, a shover.", "cn": "感受词中的 bump：一个爱挤爱撞的人。" },
-      { "en": "-tious makes adjectives like loquacious and audacious.", "cn": "-tious 构形容词，如 loquacious、audacious。" },
-      { "en": "Older dictionaries once listed bumptious as bounteous.", "cn": "旧词典曾把 bumptious 当作 bounteous 的变体。" },
-      { "en": "The word is literary, common in nineteenth-century novels.", "cn": "该词偏书面，多见于十九世纪小说。" },
-      { "en": "Pushy is the everyday cousin of bumptious.", "cn": "pushy 是 bumptious 的口语近亲。" }
     ],
-    "abstract": [
-      { "en": "See a small man swell like a frog to look taller.", "cn": "看见小个子鼓成青蛙，只求显得高大。" },
-      { "en": "Hear his voice two levels louder than the room.", "cn": "听他的嗓门高出全场两个档次。" },
-      { "en": "Feel elbows nudging you aside at the front desk.", "cn": "感受前台的胳膊肘把你往外挤。" }
-    ]
-  },
-  "examples": [
-    { "en": "The critic dismissed the memoir as bumptious self-praise.", "cn": "评论家讥这本回忆录尽是自大的自夸。" },
-    { "en": "Even as a boy he was bumptious, correcting his teachers.", "cn": "他打小便不知分寸，动辄纠正老师。" },
-    { "en": "Her bumptious confidence masked deep insecurity.", "cn": "她张扬的自信底下藏着深深的不安。" }
-  ],
-  "dict_mnemonic": { "note": "谐音记忆 · 非词源", "text": "「蹦身死」——自大的人爱蹦跶显摆，蹦到人前「身」败名裂才肯罢休。", "word": "bumptious" },
-  "root": "bumptious 一般认为是十九世纪的英语混成词：取 bump（撞、挤）配 -tious 形容词词尾而成，或受旧义 bumptious（= bounteous，慷慨）影响；词源结构说法不一，无古典拉丁词根。",
-  "sensesIntro": { "en": "A pusher who bumps others aside reads first as conceited, then as showy, and finally as insolent toward rank.", "cn": "把旁人挤开的莽撞者，先被读作自负，继而张扬，最终对尊长放肆无礼。" },
-  "semanticMap": {
-    "core": { "en": "CORE IMAGE: a self-important man shoving to the front of the line.", "cn": "核心意象：自命不凡者硬挤到队伍最前。" },
-    "chain": ["PUSHING", "BOASTING", "CONCEIT", "SHOWINESS", "INSOLENCE", "FAILURE"],
-    "branches": [
-      { "senses": "01", "en": "a bumptious new manager", "cn": "自大的新经理" },
-      { "senses": "01 · 02", "en": "bumptious boasting at the party", "cn": "宴会上的炫耀吹嘘" },
-      { "senses": "02", "en": "a bumptious public speech", "cn": "张扬浮夸的公开演讲" },
-      { "senses": "03", "en": "a bumptious reply to the colonel", "cn": "对上校的冒失顶撞" },
-      { "senses": "01 · 03", "en": "bumptious interns above their station", "cn": "不知分寸、僭越本分的实习生" }
-    ]
-  },
-  "affixes": {
-    "intro": { "en": "Bumptious wears the adjective suffix -tious over an imitative stem.", "cn": "bumptious 在拟声词干上套了形容词后缀 -tious。" },
-    "latinIntro": { "en": "No Latin stem exists here; the suffix only looks classical.", "cn": "此词并无拉丁词干，词尾只是貌似古典。" },
-    "items": [
-      { "word": "bump", "structure": "imitative verb", "meaning": "to knock or shove", "meaningCN": "碰撞，推挤", "example": "bump into someone", "exampleCN": "撞上某人" },
-      { "word": "-tious", "structure": "adjective suffix, from Latin -tiosus", "meaning": "having the quality of", "meaningCN": "表性质的形容词后缀", "example": "loquacious, audacious, bumptious", "exampleCN": "如 loquacious、audacious、bumptious 等词" },
-      { "word": "bumptious", "structure": "bump + -tious", "meaning": "pushily conceited", "meaningCN": "自大冒失的", "example": "a bumptious clerk", "exampleCN": "傲慢的职员" },
-      { "word": "bumptiousness", "structure": "bumptious + -ness", "meaning": "pushy conceit", "meaningCN": "自大", "example": "his native bumptiousness", "exampleCN": "他天生的自负" },
-      { "word": "audacious", "structure": "Latin audax + -ious", "meaning": "boldly daring", "meaningCN": "大胆的", "example": "an audacious plan", "exampleCN": "大胆的计划" },
-      { "word": "loquacious", "structure": "Latin loqui + -acious", "meaning": "very talkative", "meaningCN": "健谈的", "example": "a loquacious guest", "exampleCN": "话多的客人" },
-      { "word": "presumptuous", "structure": "Latin praesumere + -uous", "meaning": "overstepping proper limits", "meaningCN": "放肆的", "example": "a presumptuous question", "exampleCN": "冒昧的问题" },
-      { "word": "pompous", "structure": "Latin pompa + -ous", "meaning": "self-important", "meaningCN": "自命不凡的", "example": "a pompous speech", "exampleCN": "浮夸的演讲" },
-      { "word": "obtrusive", "structure": "Latin obtrudere + -ive", "meaning": "unduly noticeable", "meaningCN": "扎眼冒失的", "example": "an obtrusive waiter", "exampleCN": "过分殷勤的侍者" },
-      { "word": "arrogant", "structure": "Latin arrogare + -ant", "meaning": "overbearingly proud", "meaningCN": "傲慢的", "example": "an arrogant reply", "exampleCN": "傲慢的答复" }
-    ],
-    "latinEntries": [
-      { "word": "-tiosus", "structure": "Latin suffix", "meaning": "full of, given to", "meaningCN": "后缀：充满……的（-tious 之源）" }
+    "forms": [
+      {
+        "label": "副词",
+        "form": "bumptiously"
+      },
+      {
+        "label": "名词",
+        "form": "bumptiousness"
+      }
     ],
     "derivatives": [
-      { "word": "bumptiously", "pos": "adv.", "zh": "傲慢自大地" },
-      { "word": "bumptiousness", "pos": "n.", "zh": "自大，傲慢" }
-    ]
+      {
+        "word": "bumptiously",
+        "pos": "adv.",
+        "zh": "由形容词加 -ly 构成，义为「傲慢自大地」"
+      },
+      {
+        "word": "bumptiousness",
+        "pos": "n.",
+        "zh": "由形容词加 -ness 构成，义为「自大，傲慢」"
+      },
+      {
+        "word": "presumptuous",
+        "pos": "adj.",
+        "zh": "近义词，义为「放肆的，自以为是的」"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "Conceited and pushy",
+        "titleCN": "自大而咄咄逼人",
+        "definition": "obnoxiously self-confident and forward in dealing with others",
+        "definitionCN": "过分自信，待人接物咄咄逼人",
+        "example": "The bumptious intern corrected the director twice.",
+        "exampleCN": "这个不知天高地厚的实习生两次纠正主管。",
+        "why": "The root bump suggests one who butts in and bumps others aside.",
+        "whyCN": "词根 bump 暗示那种横冲直撞、把旁人挤开的做派。"
+      },
+      {
+        "no": "02",
+        "title": "Loudly self-assertive in manner",
+        "titleCN": "张扬炫耀的",
+        "definition": "making one's importance loudly and plainly felt",
+        "definitionCN": "大张旗鼓地显摆自身的重要",
+        "example": "His bumptious speech earned only embarrassed silence.",
+        "exampleCN": "他趾高气扬的演讲只换来尴尬的沉默。",
+        "why": "Pushiness that fails reads as noisy vanity.",
+        "whyCN": "逞能而不奏效，便只剩下聒噪的虚荣。"
+      },
+      {
+        "no": "03",
+        "title": "Cheeky toward superiors",
+        "titleCN": "冒犯尊长，不知分寸",
+        "definition": "disrespectfully forward toward those of higher rank or age",
+        "definitionCN": "对长辈或上位者轻慢放肆、不知进退",
+        "example": "The sergeant rebuked the bumptious recruit.",
+        "exampleCN": "中士训斥了那个放肆的新兵。",
+        "why": "Self-assertion aimed upward crosses into insolence.",
+        "whyCN": "自我张扬一旦指向尊者，便逾越为冒犯。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Bumptious is a nineteenth-century English coinage, probably blending bump with a -tious ending.",
+        "cn": "bumptious 是十九世纪的英语造词，一般认为是 bump 与 -tious 词尾的混合。"
+      },
+      "items": [
+        {
+          "era": "IMITATIVE ORIGIN",
+          "en": "bump echoes a blunt knock or shove.",
+          "cn": "bump 摹仿莽撞的推挤之声。"
+        },
+        {
+          "era": "ENGLISH, 17TH–18TH C.",
+          "en": "the older phrase bumptious for bounteous may have fed the blend.",
+          "cn": "旧义 bumptious（= bounteous，慷慨）或为该混成词提供了词尾。"
+        },
+        {
+          "era": "ENGLISH, 19TH C.",
+          "en": "writers coined the modern sense of pushy self-conceit.",
+          "cn": "十九世纪作家赋予其「逞强自负」的新义。"
+        },
+        {
+          "era": "ENGLISH, 19TH–20TH C.",
+          "en": "novelists used it for officious minor characters.",
+          "cn": "小说家常以之刻画好管闲事的小人物。"
+        },
+        {
+          "era": "PRESENT DAY ENGLISH",
+          "en": "bumptious remains a literary word for pompous pushiness.",
+          "cn": "如今 bumptious 仍是书面语，形容倨傲逞强。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "Bumptious rhymes with -tious adjectives and stands among the arrogance words.",
+        "cn": "bumptious 与 -tious 结尾的形容词押韵，置身「傲慢」词群之中。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "bumptiously",
+              "ipa": "/ˈbʌmpʃəsli/",
+              "tag": "derived form",
+              "definition": "in a bumptious way",
+              "definitionCN": "bumptious 的副词形式"
+            },
+            {
+              "word": "bumptiousness",
+              "ipa": "/ˈbʌmpʃəsnəs/",
+              "tag": "derived form",
+              "definition": "the quality of being bumptious",
+              "definitionCN": "自大，bumptious 的名词形式"
+            },
+            {
+              "word": "presumptuous",
+              "ipa": "/prɪˈzʌmptʃuəs/",
+              "tag": "spelling",
+              "definition": "going beyond proper limits",
+              "definitionCN": "放肆的，拼写相近且意义相邻，但词根不同"
+            },
+            {
+              "word": "bounteous",
+              "ipa": "/ˈbaʊntiəs/",
+              "tag": "same root",
+              "definition": "generous; the older sense of bumptious",
+              "definitionCN": "慷慨的，bumptious 的旧义同源说法"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "arrogant",
+              "ipa": "/ˈærəɡənt/",
+              "tag": "near meaning",
+              "definition": "overly proud and self-important",
+              "definitionCN": "傲慢的，自大的"
+            },
+            {
+              "word": "pushy",
+              "ipa": "/ˈpʊʃi/",
+              "tag": "near meaning",
+              "definition": "aggressively self-assertive",
+              "definitionCN": "咄咄逼人的，爱出风头的"
+            },
+            {
+              "word": "pompous",
+              "ipa": "/ˈpɒmpəs/",
+              "tag": "near meaning",
+              "definition": "self-important in a solemn way",
+              "definitionCN": "自命不凡的，浮夸的"
+            },
+            {
+              "word": "obtrusive",
+              "ipa": "/əbˈtruːsɪv/",
+              "tag": "near meaning",
+              "definition": "annoyingly noticeable or forward",
+              "definitionCN": "冒失扎眼的"
+            },
+            {
+              "word": "insolent",
+              "ipa": "/ˈɪnsələnt/",
+              "tag": "near meaning",
+              "definition": "rudely disrespectful",
+              "definitionCN": "无礼放肆的"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "He bumps into every conversation, certain he belongs at the front.",
+        "cn": "他横冲直撞地插进每个话题，认定自己理当前排。"
+      },
+      "normal": [
+        {
+          "en": "Feel the bump inside the word: a pusher, a shover.",
+          "cn": "感受词中的 bump：一个爱挤爱撞的人。"
+        },
+        {
+          "en": "-tious makes adjectives like loquacious and audacious.",
+          "cn": "-tious 构形容词，如 loquacious、audacious。"
+        },
+        {
+          "en": "Older dictionaries once listed bumptious as bounteous.",
+          "cn": "旧词典曾把 bumptious 当作 bounteous 的变体。"
+        },
+        {
+          "en": "The word is literary, common in nineteenth-century novels.",
+          "cn": "该词偏书面，多见于十九世纪小说。"
+        },
+        {
+          "en": "Pushy is the everyday cousin of bumptious.",
+          "cn": "pushy 是 bumptious 的口语近亲。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "See a small man swell like a frog to look taller.",
+          "cn": "看见小个子鼓成青蛙，只求显得高大。"
+        },
+        {
+          "en": "Hear his voice two levels louder than the room.",
+          "cn": "听他的嗓门高出全场两个档次。"
+        },
+        {
+          "en": "Feel elbows nudging you aside at the front desk.",
+          "cn": "感受前台的胳膊肘把你往外挤。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "The critic dismissed the memoir as bumptious self-praise.",
+        "cn": "评论家讥这本回忆录尽是自大的自夸。"
+      },
+      {
+        "en": "Even as a boy he was bumptious, correcting his teachers.",
+        "cn": "他打小便不知分寸，动辄纠正老师。"
+      },
+      {
+        "en": "Her bumptious confidence masked deep insecurity.",
+        "cn": "她张扬的自信底下藏着深深的不安。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「蹦身死」——自大的人爱蹦跶显摆，蹦到人前「身」败名裂才肯罢休。",
+      "word": "bumptious"
+    },
+    "root": "bumptious 一般认为是十九世纪的英语混成词：取 bump（撞、挤）配 -tious 形容词词尾而成，或受旧义 bumptious（= bounteous，慷慨）影响；词源结构说法不一，无古典拉丁词根。",
+    "sensesIntro": {
+      "en": "A pusher who bumps others aside reads first as conceited, then as showy, and finally as insolent toward rank.",
+      "cn": "把旁人挤开的莽撞者，先被读作自负，继而张扬，最终对尊长放肆无礼。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: a self-important man shoving to the front of the line.",
+        "cn": "核心意象：自命不凡者硬挤到队伍最前。"
+      },
+      "chain": [
+        "PUSHING",
+        "BOASTING",
+        "CONCEIT",
+        "SHOWINESS",
+        "INSOLENCE",
+        "FAILURE"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "a bumptious new manager",
+          "cn": "自大的新经理"
+        },
+        {
+          "senses": "01 · 02",
+          "en": "bumptious boasting at the party",
+          "cn": "宴会上的炫耀吹嘘"
+        },
+        {
+          "senses": "02",
+          "en": "a bumptious public speech",
+          "cn": "张扬浮夸的公开演讲"
+        },
+        {
+          "senses": "03",
+          "en": "a bumptious reply to the colonel",
+          "cn": "对上校的冒失顶撞"
+        },
+        {
+          "senses": "01 · 03",
+          "en": "bumptious interns above their station",
+          "cn": "不知分寸、僭越本分的实习生"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Bumptious wears the adjective suffix -tious over an imitative stem.",
+        "cn": "bumptious 在拟声词干上套了形容词后缀 -tious。"
+      },
+      "latinIntro": {
+        "en": "No Latin stem exists here; the suffix only looks classical.",
+        "cn": "此词并无拉丁词干，词尾只是貌似古典。"
+      },
+      "items": [
+        {
+          "word": "bump",
+          "structure": "imitative verb",
+          "meaning": "to knock or shove",
+          "meaningCN": "碰撞，推挤",
+          "example": "bump into someone",
+          "exampleCN": "撞上某人"
+        },
+        {
+          "word": "-tious",
+          "structure": "adjective suffix, from Latin -tiosus",
+          "meaning": "having the quality of",
+          "meaningCN": "表性质的形容词后缀",
+          "example": "loquacious, audacious, bumptious",
+          "exampleCN": "如 loquacious、audacious、bumptious 等词"
+        },
+        {
+          "word": "bumptious",
+          "structure": "bump + -tious",
+          "meaning": "pushily conceited",
+          "meaningCN": "自大冒失的",
+          "example": "a bumptious clerk",
+          "exampleCN": "傲慢的职员"
+        },
+        {
+          "word": "bumptiousness",
+          "structure": "bumptious + -ness",
+          "meaning": "pushy conceit",
+          "meaningCN": "自大",
+          "example": "his native bumptiousness",
+          "exampleCN": "他天生的自负"
+        },
+        {
+          "word": "audacious",
+          "structure": "Latin audax + -ious",
+          "meaning": "boldly daring",
+          "meaningCN": "大胆的",
+          "example": "an audacious plan",
+          "exampleCN": "大胆的计划"
+        },
+        {
+          "word": "loquacious",
+          "structure": "Latin loqui + -acious",
+          "meaning": "very talkative",
+          "meaningCN": "健谈的",
+          "example": "a loquacious guest",
+          "exampleCN": "话多的客人"
+        },
+        {
+          "word": "presumptuous",
+          "structure": "Latin praesumere + -uous",
+          "meaning": "overstepping proper limits",
+          "meaningCN": "放肆的",
+          "example": "a presumptuous question",
+          "exampleCN": "冒昧的问题"
+        },
+        {
+          "word": "pompous",
+          "structure": "Latin pompa + -ous",
+          "meaning": "self-important",
+          "meaningCN": "自命不凡的",
+          "example": "a pompous speech",
+          "exampleCN": "浮夸的演讲"
+        },
+        {
+          "word": "obtrusive",
+          "structure": "Latin obtrudere + -ive",
+          "meaning": "unduly noticeable",
+          "meaningCN": "扎眼冒失的",
+          "example": "an obtrusive waiter",
+          "exampleCN": "过分殷勤的侍者"
+        },
+        {
+          "word": "arrogant",
+          "structure": "Latin arrogare + -ant",
+          "meaning": "overbearingly proud",
+          "meaningCN": "傲慢的",
+          "example": "an arrogant reply",
+          "exampleCN": "傲慢的答复"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "-tiosus",
+          "structure": "Latin suffix",
+          "meaning": "full of, given to",
+          "meaningCN": "后缀：充满……的（-tious 之源）"
+        }
+      ],
+      "derivatives": [
+        {
+          "word": "bumptiously",
+          "pos": "adv.",
+          "zh": "傲慢自大地"
+        },
+        {
+          "word": "bumptiousness",
+          "pos": "n.",
+          "zh": "自大，傲慢"
+        }
+      ]
+    }
   }
-}
+]

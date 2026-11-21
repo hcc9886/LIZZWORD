@@ -1,141 +1,408 @@
-{
-  "word": "bronchitis",
-  "ipa_uk": "/brɒŋˈkaɪtɪs/",
-  "ipa_us": "/brɑːŋˈkaɪtɪs/",
-  "definition_zh": "支气管炎",
-  "definition_en": "inflammation of the bronchial tubes, causing coughing and tight breathing",
-  "core_image": "气管内壁红肿发炎，咳声连连不断",
-  "scene": "诊室里老人咳得直不起腰，医生凑近听诊。The smoker's chronic bronchitis worsened every winter.",
-  "sceneCN": "这里 bronchitis 是「支气管炎」（第 1 个义项：支气管黏膜的炎症）；句意是这位老烟民的慢性支气管炎每年冬天都加重。",
-  "pos": [
-    { "tag": "n.", "zh": "支气管炎（疾病名）" }
-  ],
-  "collocations": [
-    { "phrase": "acute bronchitis", "zh": "急性支气管炎" },
-    { "phrase": "chronic bronchitis", "zh": "慢性支气管炎" },
-    { "phrase": "a bout of bronchitis", "zh": "一场支气管炎发作" },
-    { "phrase": "recover from bronchitis", "zh": "支气管炎痊愈" },
-    { "phrase": "smoker's bronchitis", "zh": "吸烟者支气管炎" }
-  ],
-  "forms": [
-    { "label": "复数（罕用）", "form": "bronchitises" }
-  ],
-  "derivatives": [
-    { "word": "bronchial", "pos": "adj.", "zh": "由 bronchia 加 -al 构成，义为「支气管的」" },
-    { "word": "bronchitis ward", "pos": "n.", "zh": "复合词，义为「支气管炎病区」" }
-  ],
-  "senses": [
-    {
-      "no": "01",
-      "title": "Inflammation of the bronchial tubes",
-      "titleCN": "支气管炎",
-      "definition": "a disease in which the bronchial tubes are inflamed, causing cough and phlegm",
-      "definitionCN": "支气管黏膜发炎的疾病，引起咳嗽与多痰",
-      "example": "The damp winter brought on another attack of bronchitis.",
-      "exampleCN": "阴湿的冬天又诱发了支气管炎。",
-      "why": "The word is built of bronchia plus -itis, the Greek ending for inflammation.",
-      "whyCN": "词由 bronchia（支气管）加 -itis（希腊语「炎症」后缀）直接构成。"
-    },
-    {
-      "no": "02",
-      "title": "Acute or chronic form",
-      "titleCN": "急性或慢性支气管炎",
-      "definition": "either a short sharp attack or a long-lasting form of the disease",
-      "definitionCN": "该病的急骤短发型或迁延慢性型",
-      "example": "Chronic bronchitis is counted among the lung diseases.",
-      "exampleCN": "慢性支气管炎被归入慢性肺病之列。",
-      "why": "One disease splits into types by how long it lasts.",
-      "whyCN": "同一种病按病程长短分为急、慢两型。"
-    }
-  ],
-  "etymology": {
-    "intro": { "en": "Bronchitis is a modern coinage from Greek parts: bronchia plus -itis.", "cn": "bronchitis 是用希腊语部件新造的医学词：bronchia 加 -itis。" },
-    "items": [
-      { "era": "GREEK", "en": "bronchos meant the windpipe; bronchia named its branches.", "cn": "希腊语 bronchos 指气管，bronchia 指其分支。" },
-      { "era": "NEW LATIN", "en": "anatomists kept bronchia as a learned term for the air tubes.", "cn": "近代解剖学家沿用 bronchia 指支气管。" },
-      { "era": "COINAGE, EARLY 19TH C.", "en": "physicians formed bronchitis with the Greek -itis ending for inflammation.", "cn": "十九世纪初医生用希腊语 -itis（炎症）构成 bronchitis。" },
-      { "era": "ENGLISH, 19TH C.", "en": "the word entered general medical use as the disease grew common in cities.", "cn": "随着城市发病增多，该词进入通用医学用语。" },
-      { "era": "PRESENT DAY ENGLISH", "en": "bronchitis names both the household illness and a chronic smoker's disease.", "cn": "如今 bronchitis 既指家常病，也指烟民慢性病。" }
-    ]
-  },
-  "similar": {
-    "note": { "en": "Bronchitis sits inside the -itis family of inflammations, next to airway words.", "cn": "bronchitis 属于 -itis 炎症词族，并与一组气道词相邻。" },
-    "groups": [
+[
+  {
+    "word": "bronchitis",
+    "ipa_uk": "/brɒŋˈkaɪtɪs/",
+    "ipa_us": "/brɑːŋˈkaɪtɪs/",
+    "definition_zh": "支气管炎",
+    "definition_en": "inflammation of the bronchial tubes, causing coughing and tight breathing",
+    "core_image": "气管内壁红肿发炎，咳声连连不断",
+    "scene": "诊室里老人咳得直不起腰，医生凑近听诊。The smoker's chronic bronchitis worsened every winter.",
+    "sceneCN": "这里 bronchitis 是「支气管炎」（第 1 个义项：支气管黏膜的炎症）；句意是这位老烟民的慢性支气管炎每年冬天都加重。",
+    "pos": [
       {
-        "heading": "LOOK-ALIKE",
-        "entries": [
-          { "word": "bronchial", "ipa": "/ˈbrɒŋkiəl/", "tag": "same root", "definition": "relating to the bronchi", "definitionCN": "支气管的，与 bronchitis 同根" },
-          { "word": "bronchitis cough", "ipa": "/brɒŋˈkaɪtɪs kɒf/", "tag": "phrase", "definition": "the cough typical of bronchitis", "definitionCN": "支气管炎的典型咳嗽" },
-          { "word": "bronchoscopy", "ipa": "/brɒŋˈkɒskəpi/", "tag": "same root", "definition": "examination of the bronchi with a scope", "definitionCN": "支气管镜检查，同出 bronchia 词根" }
-        ]
+        "tag": "n.",
+        "zh": "支气管炎（疾病名）"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "acute bronchitis",
+        "zh": "急性支气管炎"
       },
       {
-        "heading": "NEAR MEANING",
-        "entries": [
-          { "word": "arthritis", "ipa": "/ɑːˈθraɪtɪs/", "tag": "same suffix", "definition": "inflammation of the joints", "definitionCN": "关节炎——同用 -itis 后缀，部位不同" },
-          { "word": "pneumonia", "ipa": "/njuːˈməʊniə/", "tag": "near meaning", "definition": "infection filling the lungs with fluid", "definitionCN": "肺炎，病位更深，常由支气管炎转重" },
-          { "word": "asthma", "ipa": "/ˈæsmə/", "tag": "near meaning", "definition": "a condition narrowing the airways", "definitionCN": "哮喘，气道狭窄而非感染发炎" },
-          { "word": "laryngitis", "ipa": "/ˌlærɪnˈdʒaɪtɪs/", "tag": "same suffix", "definition": "inflammation of the voice box", "definitionCN": "喉炎，同用 -itis 后缀" },
-          { "word": "tracheitis", "ipa": "/ˌtreɪkiˈaɪtɪs/", "tag": "same suffix", "definition": "inflammation of the windpipe", "definitionCN": "气管炎，病位在支气管之上" }
-        ]
+        "phrase": "chronic bronchitis",
+        "zh": "慢性支气管炎"
+      },
+      {
+        "phrase": "a bout of bronchitis",
+        "zh": "一场支气管炎发作"
+      },
+      {
+        "phrase": "recover from bronchitis",
+        "zh": "支气管炎痊愈"
+      },
+      {
+        "phrase": "smoker's bronchitis",
+        "zh": "吸烟者支气管炎"
       }
-    ]
-  },
-  "mnemonics": {
-    "normalIntro": { "en": "Take bronchia, add the Greek inflammation ending, and the disease names itself.", "cn": "取 bronchia，加上希腊语炎症后缀，病名自现。" },
-    "normal": [
-      { "en": "Bronchia + itis: the tubes plus inflammation.", "cn": "bronchia 加 -itis：支气管加炎症。" },
-      { "en": "Arthritis is joints; bronchitis is air tubes.", "cn": "arthritis 在关节，bronchitis 在气管。" },
-      { "en": "Acute strikes fast; chronic stays long.", "cn": "acute 来得急，chronic 拖得久。" },
-      { "en": "Smoker's cough is often chronic bronchitis.", "cn": "烟民久咳常是慢性支气管炎。" },
-      { "en": "Pneumonia sits deeper than bronchitis.", "cn": "pneumonia 病位比 bronchitis 更深。" }
     ],
-    "abstract": [
-      { "en": "Hear a chest rattle like wet paper being rubbed.", "cn": "听胸腔里像湿纸摩擦般的罗音。" },
-      { "en": "See red, swollen tube walls under the scope.", "cn": "想象镜下红肿的管壁。" },
-      { "en": "Feel the tight band around the chest in cold air.", "cn": "感受冷空气里胸口束紧的感觉。" }
-    ]
-  },
-  "examples": [
-    { "en": "The child's bronchitis cleared up after a week of rest.", "cn": "孩子的支气管炎休息一周后痊愈。" },
-    { "en": "Damp housing made bronchitis common in the old slums.", "cn": "潮湿的住房使支气管炎在旧贫民区很常见。" },
-    { "en": "A bad cold can slide into bronchitis if ignored.", "cn": "重感冒若不加理会可能转为支气管炎。" }
-  ],
-  "dict_mnemonic": { "note": "谐音记忆 · 非词源", "text": "「不『蓉』咳太甚」——支气管炎一犯，咳声「蓉蓉」不断，可「不」能咳「太甚」。", "word": "bronchitis" },
-  "root": "bronchitis 由希腊语 bronchia（支气管）加 -itis（炎症）构成，是十九世纪初医生新造的医学词；bronchos 更早词源不确定，一般认为与「气管」的拟声或方言词有关，属存疑假说。",
-  "sensesIntro": { "en": "One word covers the inflammation itself and its two main courses, acute and chronic.", "cn": "一个词既指炎症本身，也涵盖急性与慢性两种病程。" },
-  "semanticMap": {
-    "core": { "en": "CORE IMAGE: red, swollen air tubes forcing out cough after cough.", "cn": "核心意象：红肿的支气管逼出一阵阵咳嗽。" },
-    "chain": ["BRONCHIA", "INFLAMMATION", "COUGH", "PHLEGM", "WINTER", "CHRONIC"],
-    "branches": [
-      { "senses": "01", "en": "a bout of bronchitis", "cn": "支气管炎发作" },
-      { "senses": "01 · 02", "en": "acute bronchitis", "cn": "急性支气管炎" },
-      { "senses": "02", "en": "chronic bronchitis", "cn": "慢性支气管炎" },
-      { "senses": "01", "en": "recover from bronchitis", "cn": "支气管炎痊愈" },
-      { "senses": "02", "en": "smoker's chronic cough", "cn": "烟民的慢性咳嗽" }
-    ]
-  },
-  "affixes": {
-    "intro": { "en": "The -itis ending builds a whole shelf of inflammation names.", "cn": "-itis 后缀构筑了整整一排炎症病名。" },
-    "latinIntro": { "en": "The parts are Greek, kept unchanged in New Latin medical Latin.", "cn": "构件源自希腊语，经近代拉丁语医学用语原样保留。" },
-    "items": [
-      { "word": "bronchia", "structure": "Greek plural noun", "meaning": "branches of the windpipe", "meaningCN": "支气管", "example": "the bronchia branch like a tree", "exampleCN": "支气管像树一样分叉" },
-      { "word": "-itis", "structure": "Greek suffix", "meaning": "inflammation", "meaningCN": "炎症后缀", "example": "arthritis, laryngitis, bronchitis", "exampleCN": "如 arthritis、laryngitis、bronchitis 等词" },
-      { "word": "bronchitis", "structure": "bronchia + -itis", "meaning": "inflammation of the bronchi", "meaningCN": "支气管炎", "example": "a winter of bronchitis", "exampleCN": "支气管炎缠身的一冬" },
-      { "word": "bronchial", "structure": "bronchia + -al", "meaning": "of the bronchi", "meaningCN": "支气管的", "example": "bronchial tubes", "exampleCN": "支气管" },
-      { "word": "bronchoscopy", "structure": "bronchia + -scopy", "meaning": "looking into the bronchi", "meaningCN": "支气管镜检查", "example": "undergo bronchoscopy", "exampleCN": "接受支气管镜检查" },
-      { "word": "arthritis", "structure": "arthron + -itis", "meaning": "inflammation of joints", "meaningCN": "关节炎", "example": "rheumatoid arthritis", "exampleCN": "类风湿关节炎" },
-      { "word": "laryngitis", "structure": "larynx + -itis", "meaning": "inflammation of the larynx", "meaningCN": "喉炎", "example": "lose the voice to laryngitis", "exampleCN": "因喉炎失声" },
-      { "word": "tracheitis", "structure": "trachea + -itis", "meaning": "inflammation of the windpipe", "meaningCN": "气管炎", "example": "bacterial tracheitis", "exampleCN": "细菌性气管炎" },
-      { "word": "pneumonia", "structure": "Greek pneumon", "meaning": "lung infection", "meaningCN": "肺炎", "example": "double pneumonia", "exampleCN": "双肺肺炎" },
-      { "word": "asthma", "structure": "Greek asthma", "meaning": "laboured breathing", "meaningCN": "哮喘", "example": "an asthma attack", "exampleCN": "哮喘发作" }
-    ],
-    "latinEntries": [
-      { "word": "bronchiae", "structure": "New Latin plural", "meaning": "the bronchial tubes", "meaningCN": "支气管（医学拉丁语）" }
+    "forms": [
+      {
+        "label": "复数（罕用）",
+        "form": "bronchitises"
+      }
     ],
     "derivatives": [
-      { "word": "bronchial", "pos": "adj.", "zh": "支气管的" },
-      { "word": "bronchoscopy", "pos": "n.", "zh": "支气管镜检查" }
-    ]
+      {
+        "word": "bronchial",
+        "pos": "adj.",
+        "zh": "由 bronchia 加 -al 构成，义为「支气管的」"
+      },
+      {
+        "word": "bronchitis ward",
+        "pos": "n.",
+        "zh": "复合词，义为「支气管炎病区」"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "Inflammation of the bronchial tubes",
+        "titleCN": "支气管炎",
+        "definition": "a disease in which the bronchial tubes are inflamed, causing cough and phlegm",
+        "definitionCN": "支气管黏膜发炎的疾病，引起咳嗽与多痰",
+        "example": "The damp winter brought on another attack of bronchitis.",
+        "exampleCN": "阴湿的冬天又诱发了支气管炎。",
+        "why": "The word is built of bronchia plus -itis, the Greek ending for inflammation.",
+        "whyCN": "词由 bronchia（支气管）加 -itis（希腊语「炎症」后缀）直接构成。"
+      },
+      {
+        "no": "02",
+        "title": "Acute or chronic form",
+        "titleCN": "急性或慢性支气管炎",
+        "definition": "either a short sharp attack or a long-lasting form of the disease",
+        "definitionCN": "该病的急骤短发型或迁延慢性型",
+        "example": "Chronic bronchitis is counted among the lung diseases.",
+        "exampleCN": "慢性支气管炎被归入慢性肺病之列。",
+        "why": "One disease splits into types by how long it lasts.",
+        "whyCN": "同一种病按病程长短分为急、慢两型。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Bronchitis is a modern coinage from Greek parts: bronchia plus -itis.",
+        "cn": "bronchitis 是用希腊语部件新造的医学词：bronchia 加 -itis。"
+      },
+      "items": [
+        {
+          "era": "GREEK",
+          "en": "bronchos meant the windpipe; bronchia named its branches.",
+          "cn": "希腊语 bronchos 指气管，bronchia 指其分支。"
+        },
+        {
+          "era": "NEW LATIN",
+          "en": "anatomists kept bronchia as a learned term for the air tubes.",
+          "cn": "近代解剖学家沿用 bronchia 指支气管。"
+        },
+        {
+          "era": "COINAGE, EARLY 19TH C.",
+          "en": "physicians formed bronchitis with the Greek -itis ending for inflammation.",
+          "cn": "十九世纪初医生用希腊语 -itis（炎症）构成 bronchitis。"
+        },
+        {
+          "era": "ENGLISH, 19TH C.",
+          "en": "the word entered general medical use as the disease grew common in cities.",
+          "cn": "随着城市发病增多，该词进入通用医学用语。"
+        },
+        {
+          "era": "PRESENT DAY ENGLISH",
+          "en": "bronchitis names both the household illness and a chronic smoker's disease.",
+          "cn": "如今 bronchitis 既指家常病，也指烟民慢性病。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "Bronchitis sits inside the -itis family of inflammations, next to airway words.",
+        "cn": "bronchitis 属于 -itis 炎症词族，并与一组气道词相邻。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "bronchial",
+              "ipa": "/ˈbrɒŋkiəl/",
+              "tag": "same root",
+              "definition": "relating to the bronchi",
+              "definitionCN": "支气管的，与 bronchitis 同根"
+            },
+            {
+              "word": "bronchitis cough",
+              "ipa": "/brɒŋˈkaɪtɪs kɒf/",
+              "tag": "phrase",
+              "definition": "the cough typical of bronchitis",
+              "definitionCN": "支气管炎的典型咳嗽"
+            },
+            {
+              "word": "bronchoscopy",
+              "ipa": "/brɒŋˈkɒskəpi/",
+              "tag": "same root",
+              "definition": "examination of the bronchi with a scope",
+              "definitionCN": "支气管镜检查，同出 bronchia 词根"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "arthritis",
+              "ipa": "/ɑːˈθraɪtɪs/",
+              "tag": "same suffix",
+              "definition": "inflammation of the joints",
+              "definitionCN": "关节炎——同用 -itis 后缀，部位不同"
+            },
+            {
+              "word": "pneumonia",
+              "ipa": "/njuːˈməʊniə/",
+              "tag": "near meaning",
+              "definition": "infection filling the lungs with fluid",
+              "definitionCN": "肺炎，病位更深，常由支气管炎转重"
+            },
+            {
+              "word": "asthma",
+              "ipa": "/ˈæsmə/",
+              "tag": "near meaning",
+              "definition": "a condition narrowing the airways",
+              "definitionCN": "哮喘，气道狭窄而非感染发炎"
+            },
+            {
+              "word": "laryngitis",
+              "ipa": "/ˌlærɪnˈdʒaɪtɪs/",
+              "tag": "same suffix",
+              "definition": "inflammation of the voice box",
+              "definitionCN": "喉炎，同用 -itis 后缀"
+            },
+            {
+              "word": "tracheitis",
+              "ipa": "/ˌtreɪkiˈaɪtɪs/",
+              "tag": "same suffix",
+              "definition": "inflammation of the windpipe",
+              "definitionCN": "气管炎，病位在支气管之上"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Take bronchia, add the Greek inflammation ending, and the disease names itself.",
+        "cn": "取 bronchia，加上希腊语炎症后缀，病名自现。"
+      },
+      "normal": [
+        {
+          "en": "Bronchia + itis: the tubes plus inflammation.",
+          "cn": "bronchia 加 -itis：支气管加炎症。"
+        },
+        {
+          "en": "Arthritis is joints; bronchitis is air tubes.",
+          "cn": "arthritis 在关节，bronchitis 在气管。"
+        },
+        {
+          "en": "Acute strikes fast; chronic stays long.",
+          "cn": "acute 来得急，chronic 拖得久。"
+        },
+        {
+          "en": "Smoker's cough is often chronic bronchitis.",
+          "cn": "烟民久咳常是慢性支气管炎。"
+        },
+        {
+          "en": "Pneumonia sits deeper than bronchitis.",
+          "cn": "pneumonia 病位比 bronchitis 更深。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "Hear a chest rattle like wet paper being rubbed.",
+          "cn": "听胸腔里像湿纸摩擦般的罗音。"
+        },
+        {
+          "en": "See red, swollen tube walls under the scope.",
+          "cn": "想象镜下红肿的管壁。"
+        },
+        {
+          "en": "Feel the tight band around the chest in cold air.",
+          "cn": "感受冷空气里胸口束紧的感觉。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "The child's bronchitis cleared up after a week of rest.",
+        "cn": "孩子的支气管炎休息一周后痊愈。"
+      },
+      {
+        "en": "Damp housing made bronchitis common in the old slums.",
+        "cn": "潮湿的住房使支气管炎在旧贫民区很常见。"
+      },
+      {
+        "en": "A bad cold can slide into bronchitis if ignored.",
+        "cn": "重感冒若不加理会可能转为支气管炎。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「不『蓉』咳太甚」——支气管炎一犯，咳声「蓉蓉」不断，可「不」能咳「太甚」。",
+      "word": "bronchitis"
+    },
+    "root": "bronchitis 由希腊语 bronchia（支气管）加 -itis（炎症）构成，是十九世纪初医生新造的医学词；bronchos 更早词源不确定，一般认为与「气管」的拟声或方言词有关，属存疑假说。",
+    "sensesIntro": {
+      "en": "One word covers the inflammation itself and its two main courses, acute and chronic.",
+      "cn": "一个词既指炎症本身，也涵盖急性与慢性两种病程。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: red, swollen air tubes forcing out cough after cough.",
+        "cn": "核心意象：红肿的支气管逼出一阵阵咳嗽。"
+      },
+      "chain": [
+        "BRONCHIA",
+        "INFLAMMATION",
+        "COUGH",
+        "PHLEGM",
+        "WINTER",
+        "CHRONIC"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "a bout of bronchitis",
+          "cn": "支气管炎发作"
+        },
+        {
+          "senses": "01 · 02",
+          "en": "acute bronchitis",
+          "cn": "急性支气管炎"
+        },
+        {
+          "senses": "02",
+          "en": "chronic bronchitis",
+          "cn": "慢性支气管炎"
+        },
+        {
+          "senses": "01",
+          "en": "recover from bronchitis",
+          "cn": "支气管炎痊愈"
+        },
+        {
+          "senses": "02",
+          "en": "smoker's chronic cough",
+          "cn": "烟民的慢性咳嗽"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "The -itis ending builds a whole shelf of inflammation names.",
+        "cn": "-itis 后缀构筑了整整一排炎症病名。"
+      },
+      "latinIntro": {
+        "en": "The parts are Greek, kept unchanged in New Latin medical Latin.",
+        "cn": "构件源自希腊语，经近代拉丁语医学用语原样保留。"
+      },
+      "items": [
+        {
+          "word": "bronchia",
+          "structure": "Greek plural noun",
+          "meaning": "branches of the windpipe",
+          "meaningCN": "支气管",
+          "example": "the bronchia branch like a tree",
+          "exampleCN": "支气管像树一样分叉"
+        },
+        {
+          "word": "-itis",
+          "structure": "Greek suffix",
+          "meaning": "inflammation",
+          "meaningCN": "炎症后缀",
+          "example": "arthritis, laryngitis, bronchitis",
+          "exampleCN": "如 arthritis、laryngitis、bronchitis 等词"
+        },
+        {
+          "word": "bronchitis",
+          "structure": "bronchia + -itis",
+          "meaning": "inflammation of the bronchi",
+          "meaningCN": "支气管炎",
+          "example": "a winter of bronchitis",
+          "exampleCN": "支气管炎缠身的一冬"
+        },
+        {
+          "word": "bronchial",
+          "structure": "bronchia + -al",
+          "meaning": "of the bronchi",
+          "meaningCN": "支气管的",
+          "example": "bronchial tubes",
+          "exampleCN": "支气管"
+        },
+        {
+          "word": "bronchoscopy",
+          "structure": "bronchia + -scopy",
+          "meaning": "looking into the bronchi",
+          "meaningCN": "支气管镜检查",
+          "example": "undergo bronchoscopy",
+          "exampleCN": "接受支气管镜检查"
+        },
+        {
+          "word": "arthritis",
+          "structure": "arthron + -itis",
+          "meaning": "inflammation of joints",
+          "meaningCN": "关节炎",
+          "example": "rheumatoid arthritis",
+          "exampleCN": "类风湿关节炎"
+        },
+        {
+          "word": "laryngitis",
+          "structure": "larynx + -itis",
+          "meaning": "inflammation of the larynx",
+          "meaningCN": "喉炎",
+          "example": "lose the voice to laryngitis",
+          "exampleCN": "因喉炎失声"
+        },
+        {
+          "word": "tracheitis",
+          "structure": "trachea + -itis",
+          "meaning": "inflammation of the windpipe",
+          "meaningCN": "气管炎",
+          "example": "bacterial tracheitis",
+          "exampleCN": "细菌性气管炎"
+        },
+        {
+          "word": "pneumonia",
+          "structure": "Greek pneumon",
+          "meaning": "lung infection",
+          "meaningCN": "肺炎",
+          "example": "double pneumonia",
+          "exampleCN": "双肺肺炎"
+        },
+        {
+          "word": "asthma",
+          "structure": "Greek asthma",
+          "meaning": "laboured breathing",
+          "meaningCN": "哮喘",
+          "example": "an asthma attack",
+          "exampleCN": "哮喘发作"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "bronchiae",
+          "structure": "New Latin plural",
+          "meaning": "the bronchial tubes",
+          "meaningCN": "支气管（医学拉丁语）"
+        }
+      ],
+      "derivatives": [
+        {
+          "word": "bronchial",
+          "pos": "adj.",
+          "zh": "支气管的"
+        },
+        {
+          "word": "bronchoscopy",
+          "pos": "n.",
+          "zh": "支气管镜检查"
+        }
+      ]
+    }
   }
-}
+]

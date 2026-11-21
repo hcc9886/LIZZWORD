@@ -1,380 +1,382 @@
-{
- "word": "bug",
- "ipa_uk": "/bʌɡ/",
- "ipa_us": "/bʌɡ/",
- "definition_zh": "小虫；故障；窃听器；烦扰",
- "definition_en": "a small insect",
- "core_image": "台灯下一只小虫在纸页上爬",
- "scene": "台灯照着摊开的书。A small bug crawled across the page.",
- "sceneCN": "这里 bug 是「小虫」（第 1 个义项：体型很小的昆虫）；句意是一只小虫爬过书页。",
- "pos": [
+[
   {
-   "tag": "n.",
-   "zh": "名词：小虫；故障"
-  },
-  {
-   "tag": "v.",
-   "zh": "动词：装窃听器；烦扰"
-  }
- ],
- "collocations": [
-  {
-   "phrase": "a tiny bug",
-   "zh": "一只小虫"
-  },
-  {
-   "phrase": "a software bug",
-   "zh": "软件故障"
-  },
-  {
-   "phrase": "a stomach bug",
-   "zh": "肠胃病"
-  },
-  {
-   "phrase": "fix a bug",
-   "zh": "修复故障"
-  },
-  {
-   "phrase": "bug the room",
-   "zh": "在房间里装窃听器"
-  }
- ],
- "forms": [
-  {
-   "label": "复数",
-   "form": "bugs"
-  },
-  {
-   "label": "过去式",
-   "form": "bugged"
-  },
-  {
-   "label": "现在分词",
-   "form": "bugging"
-  }
- ],
- "derivatives": [
-  {
-   "word": "buggy",
-   "pos": "adj.",
-   "zh": "多虫的；（软件）毛病多的"
-  },
-  {
-   "word": "debug",
-   "pos": "v.",
-   "zh": "排除故障，调试"
-  }
- ],
- "senses": [
-  {
-   "no": "01",
-   "title": "A small insect",
-   "titleCN": "小虫",
-   "definition": "a small insect or similar crawling creature",
-   "definitionCN": "体型很小的昆虫或类似的爬行小生物",
-   "example": "A small bug crawled across the page.",
-   "exampleCN": "一只小虫爬过书页。",
-   "why": "This is the oldest sense, and the source of the others.",
-   "whyCN": "这是最古老的义项，也是其他义项的来源。"
-  },
-  {
-   "no": "02",
-   "title": "A fault in a machine or program",
-   "titleCN": "故障",
-   "definition": "a small fault that stops something working properly",
-   "definitionCN": "使某物无法正常运转的小毛病",
-   "example": "The program has a bug that hides the last line.",
-   "exampleCN": "这个程序有个故障，会隐藏最后一行。",
-   "why": "Early engineers found real insects stuck inside machines.",
-   "whyCN": "早期工程师真的在机器里发现过卡住的虫子。"
-  },
-  {
-   "no": "03",
-   "title": "To hide a listening device",
-   "titleCN": "窃听；烦扰",
-   "definition": "to place a small hidden microphone, or to annoy",
-   "definitionCN": "安装隐蔽的麦克风，或使人烦恼",
-   "example": "They bugged the office for a month.",
-   "exampleCN": "他们在办公室装了一个月窃听器。",
-   "why": "A hidden bug listens like an insect on the wall.",
-   "whyCN": "藏起来的窃听器就像墙上的小虫在偷听。"
-  }
- ],
- "etymology": {
-  "intro": {
-   "en": "Bug first meant a crawling insect, then a hidden fault or listener.",
-   "cn": "bug 先指爬行的小虫，后指隐藏的故障或窃听器。"
-  },
-  "items": [
-   {
-    "era": "MIDDLE ENGLISH",
-    "en": "bugge named a scarecrow or a frightening thing.",
-    "cn": "bugge 指稻草人或吓人的东西。"
-   },
-   {
-    "era": "SEVENTEENTH CENTURY",
-    "en": "bug came to mean a small crawling insect.",
-    "cn": "bug 转指爬行的小昆虫。"
-   },
-   {
-    "era": "NINETEENTH CENTURY",
-    "en": "American speech used bug for a fault or obsession.",
-    "cn": "美国口语用 bug 指毛病或着迷。"
-   },
-   {
-    "era": "TWENTIETH CENTURY",
-    "en": "Engineers called machine faults bugs.",
-    "cn": "工程师把机器故障叫作 bug。"
-   },
-   {
-    "era": "PRESENT DAY ENGLISH",
-    "en": "bug covers insects, software faults and hidden microphones.",
-    "cn": "如今 bug 涵盖小虫、软件故障与隐藏麦克风。"
-   }
-  ]
- },
- "similar": {
-  "note": {
-   "en": "The look-alike group differs by one vowel; the near-meaning group gives insects and faults.",
-   "cn": "形近组只差一个元音；近义组分别是昆虫与故障。"
-  },
-  "groups": [
-   {
-    "heading": "LOOK-ALIKE",
-    "entries": [
-     {
-      "word": "bag",
-      "ipa": "/bæɡ/",
-      "tag": "look-alike",
-      "definition": "a container of soft material",
-      "definitionCN": "袋子"
-     },
-     {
-      "word": "beg",
-      "ipa": "/beɡ/",
-      "tag": "look-alike",
-      "definition": "to ask for something urgently",
-      "definitionCN": "乞求"
-     },
-     {
-      "word": "big",
-      "ipa": "/bɪɡ/",
-      "tag": "look-alike",
-      "definition": "large in size",
-      "definitionCN": "大的"
-     }
-    ]
-   },
-   {
-    "heading": "NEAR MEANING",
-    "entries": [
-     {
-      "word": "insect",
-      "ipa": "/ˈɪnsekt/",
-      "tag": "near synonym",
-      "definition": "a small animal with six legs",
-      "definitionCN": "昆虫"
-     },
-     {
-      "word": "beetle",
-      "ipa": "/ˈbiːtl/",
-      "tag": "near synonym",
-      "definition": "an insect with hard wing cases",
-      "definitionCN": "甲虫"
-     },
-     {
-      "word": "fault",
-      "ipa": "/fɔːlt/",
-      "tag": "related",
-      "definition": "a mistake that causes a problem",
-      "definitionCN": "故障，错误"
-     }
-    ]
-   }
-  ]
- },
- "mnemonics": {
-  "normalIntro": {
-   "en": "Bug is a small crawler that became a small problem.",
-   "cn": "bug 本是小爬虫，后来也成了小毛病。"
-  },
-  "normal": [
-   {
-    "en": "A bug on the wall is easy to miss.",
-    "cn": "墙上的小虫很容易被忽略。"
-   },
-   {
-    "en": "The plural is bugs.",
-    "cn": "复数是 bugs。"
-   },
-   {
-    "en": "Programmers debug code by removing bugs.",
-    "cn": "程序员通过去掉 bug 来调试代码。"
-   },
-   {
-    "en": "Buggy software crashes often.",
-    "cn": "buggy 的软件经常崩溃。"
-   },
-   {
-    "en": "A stomach bug makes you ill for a day.",
-    "cn": "肠胃病会让你难受一天。"
-   }
-  ],
-  "abstract": [
-   {
-    "en": "See six thin legs crossing a white page.",
-    "cn": "想象六条细腿爬过白纸。"
-   },
-   {
-    "en": "See a screen frozen on one line.",
-    "cn": "想象屏幕卡在一行上不动。"
-   },
-   {
-    "en": "See a tiny microphone behind a lamp.",
-    "cn": "想象灯后藏着的小麦克风。"
-   }
-  ]
- },
- "examples": [
-  {
-   "en": "A small bug crawled across the page.",
-   "cn": "一只小虫爬过书页。"
-  },
-  {
-   "en": "The program has a bug that hides the last line.",
-   "cn": "这个程序有个故障，会隐藏最后一行。"
-  },
-  {
-   "en": "They bugged the office for a month.",
-   "cn": "他们在办公室装了一个月窃听器。"
-  }
- ],
- "dict_mnemonic": {
-  "note": "拆词记忆 · 非词源",
-  "text": "bug 与 bag 只差一个字母，把虫子装进袋子，是小时候最常见的捉虫方式。",
-  "word": "bug"
- },
- "root": "bug 中古英语作 bugge，本指稻草人或令人害怕的东西，十七世纪起指小虫；美国口语用它表示「毛病、着迷」，二十世纪工程师把机器与程序故障称作 bug，沿用至今。",
- "sensesIntro": {
-  "en": "A crawling insect, a small fault, and a hidden listener.",
-  "cn": "一只爬行的虫子、一个小故障、一个藏起来的窃听器。"
- },
- "semanticMap": {
-  "core": {
-   "en": "CORE IMAGE: a tiny insect crossing a page under a lamp.",
-   "cn": "核心意象：灯下爬过纸页的小虫。"
-  },
-  "chain": [
-   "CRAWL",
-   "SMALL",
-   "INSECT",
-   "FAULT",
-   "CODE",
-   "LISTEN"
-  ],
-  "branches": [
-   {
-    "senses": "01",
-    "en": "a tiny bug",
-    "cn": "一只小虫"
-   },
-   {
-    "senses": "01",
-    "en": "a stomach bug",
-    "cn": "肠胃病"
-   },
-   {
-    "senses": "02",
-    "en": "a software bug",
-    "cn": "软件故障"
-   },
-   {
-    "senses": "02",
-    "en": "fix a bug",
-    "cn": "修复故障"
-   },
-   {
-    "senses": "03",
-    "en": "bug the room",
-    "cn": "在房间装窃听器"
-   }
-  ]
- },
- "affixes": {
-  "intro": {
-   "en": "Bug takes -gy and the prefix de- to build useful words.",
-   "cn": "bug 加 -gy 与前缀 de- 可构成常用词。"
-  },
-  "latinIntro": {
-   "en": "The base is Middle English; the Latin items below are related only in meaning.",
-   "cn": "词基来自中古英语，下面的拉丁词只在意思上相关。"
-  },
-  "items": [
-   {
     "word": "bug",
-    "structure": "Middle English bugge",
-    "meaning": "a small insect",
-    "meaningCN": "小虫",
-    "example": "a tiny bug",
-    "exampleCN": "一只小虫"
-   },
-   {
-    "word": "buggy",
-    "structure": "bug + -gy",
-    "meaning": "full of faults or insects",
-    "meaningCN": "毛病多的",
-    "example": "buggy software",
-    "exampleCN": "毛病多的软件"
-   },
-   {
-    "word": "debug",
-    "structure": "de- + bug",
-    "meaning": "to remove faults",
-    "meaningCN": "排除故障",
-    "example": "debug the code",
-    "exampleCN": "调试代码"
-   },
-   {
-    "word": "insect",
-    "structure": "Latin in + secare",
-    "meaning": "a small six-legged animal",
-    "meaningCN": "昆虫",
-    "example": "a flying insect",
-    "exampleCN": "飞虫"
-   },
-   {
-    "word": "beetle",
-    "structure": "Old English bitela",
-    "meaning": "a hard-winged insect",
-    "meaningCN": "甲虫",
-    "example": "a black beetle",
-    "exampleCN": "黑甲虫"
-   },
-   {
-    "word": "germ",
-    "structure": "Latin germen",
-    "meaning": "a tiny living thing that causes illness",
-    "meaningCN": "细菌",
-    "example": "wash off germs",
-    "exampleCN": "洗掉细菌"
-   },
-   {
-    "word": "fault",
-    "structure": "Old French faute",
-    "meaning": "a mistake or weakness",
-    "meaningCN": "故障",
-    "example": "an electrical fault",
-    "exampleCN": "电路故障"
-   },
-   {
-    "word": "wiretap",
-    "structure": "wire + tap",
-    "meaning": "a hidden listening device",
-    "meaningCN": "窃听器",
-    "example": "a phone wiretap",
-    "exampleCN": "电话窃听"
-   }
-  ],
-  "latinEntries": []
- }
-}
+    "ipa_uk": "/bʌɡ/",
+    "ipa_us": "/bʌɡ/",
+    "definition_zh": "小虫；故障；窃听器；烦扰",
+    "definition_en": "a small insect",
+    "core_image": "台灯下一只小虫在纸页上爬",
+    "scene": "台灯照着摊开的书。A small bug crawled across the page.",
+    "sceneCN": "这里 bug 是「小虫」（第 1 个义项：体型很小的昆虫）；句意是一只小虫爬过书页。",
+    "pos": [
+      {
+        "tag": "n.",
+        "zh": "名词：小虫；故障"
+      },
+      {
+        "tag": "v.",
+        "zh": "动词：装窃听器；烦扰"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "a tiny bug",
+        "zh": "一只小虫"
+      },
+      {
+        "phrase": "a software bug",
+        "zh": "软件故障"
+      },
+      {
+        "phrase": "a stomach bug",
+        "zh": "肠胃病"
+      },
+      {
+        "phrase": "fix a bug",
+        "zh": "修复故障"
+      },
+      {
+        "phrase": "bug the room",
+        "zh": "在房间里装窃听器"
+      }
+    ],
+    "forms": [
+      {
+        "label": "复数",
+        "form": "bugs"
+      },
+      {
+        "label": "过去式",
+        "form": "bugged"
+      },
+      {
+        "label": "现在分词",
+        "form": "bugging"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "buggy",
+        "pos": "adj.",
+        "zh": "多虫的；（软件）毛病多的"
+      },
+      {
+        "word": "debug",
+        "pos": "v.",
+        "zh": "排除故障，调试"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "A small insect",
+        "titleCN": "小虫",
+        "definition": "a small insect or similar crawling creature",
+        "definitionCN": "体型很小的昆虫或类似的爬行小生物",
+        "example": "A small bug crawled across the page.",
+        "exampleCN": "一只小虫爬过书页。",
+        "why": "This is the oldest sense, and the source of the others.",
+        "whyCN": "这是最古老的义项，也是其他义项的来源。"
+      },
+      {
+        "no": "02",
+        "title": "A fault in a machine or program",
+        "titleCN": "故障",
+        "definition": "a small fault that stops something working properly",
+        "definitionCN": "使某物无法正常运转的小毛病",
+        "example": "The program has a bug that hides the last line.",
+        "exampleCN": "这个程序有个故障，会隐藏最后一行。",
+        "why": "Early engineers found real insects stuck inside machines.",
+        "whyCN": "早期工程师真的在机器里发现过卡住的虫子。"
+      },
+      {
+        "no": "03",
+        "title": "To hide a listening device",
+        "titleCN": "窃听；烦扰",
+        "definition": "to place a small hidden microphone, or to annoy",
+        "definitionCN": "安装隐蔽的麦克风，或使人烦恼",
+        "example": "They bugged the office for a month.",
+        "exampleCN": "他们在办公室装了一个月窃听器。",
+        "why": "A hidden bug listens like an insect on the wall.",
+        "whyCN": "藏起来的窃听器就像墙上的小虫在偷听。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Bug first meant a crawling insect, then a hidden fault or listener.",
+        "cn": "bug 先指爬行的小虫，后指隐藏的故障或窃听器。"
+      },
+      "items": [
+        {
+          "era": "MIDDLE ENGLISH",
+          "en": "bugge named a scarecrow or a frightening thing.",
+          "cn": "bugge 指稻草人或吓人的东西。"
+        },
+        {
+          "era": "SEVENTEENTH CENTURY",
+          "en": "bug came to mean a small crawling insect.",
+          "cn": "bug 转指爬行的小昆虫。"
+        },
+        {
+          "era": "NINETEENTH CENTURY",
+          "en": "American speech used bug for a fault or obsession.",
+          "cn": "美国口语用 bug 指毛病或着迷。"
+        },
+        {
+          "era": "TWENTIETH CENTURY",
+          "en": "Engineers called machine faults bugs.",
+          "cn": "工程师把机器故障叫作 bug。"
+        },
+        {
+          "era": "PRESENT DAY ENGLISH",
+          "en": "bug covers insects, software faults and hidden microphones.",
+          "cn": "如今 bug 涵盖小虫、软件故障与隐藏麦克风。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "The look-alike group differs by one vowel; the near-meaning group gives insects and faults.",
+        "cn": "形近组只差一个元音；近义组分别是昆虫与故障。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "bag",
+              "ipa": "/bæɡ/",
+              "tag": "look-alike",
+              "definition": "a container of soft material",
+              "definitionCN": "袋子"
+            },
+            {
+              "word": "beg",
+              "ipa": "/beɡ/",
+              "tag": "look-alike",
+              "definition": "to ask for something urgently",
+              "definitionCN": "乞求"
+            },
+            {
+              "word": "big",
+              "ipa": "/bɪɡ/",
+              "tag": "look-alike",
+              "definition": "large in size",
+              "definitionCN": "大的"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "insect",
+              "ipa": "/ˈɪnsekt/",
+              "tag": "near synonym",
+              "definition": "a small animal with six legs",
+              "definitionCN": "昆虫"
+            },
+            {
+              "word": "beetle",
+              "ipa": "/ˈbiːtl/",
+              "tag": "near synonym",
+              "definition": "an insect with hard wing cases",
+              "definitionCN": "甲虫"
+            },
+            {
+              "word": "fault",
+              "ipa": "/fɔːlt/",
+              "tag": "related",
+              "definition": "a mistake that causes a problem",
+              "definitionCN": "故障，错误"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Bug is a small crawler that became a small problem.",
+        "cn": "bug 本是小爬虫，后来也成了小毛病。"
+      },
+      "normal": [
+        {
+          "en": "A bug on the wall is easy to miss.",
+          "cn": "墙上的小虫很容易被忽略。"
+        },
+        {
+          "en": "The plural is bugs.",
+          "cn": "复数是 bugs。"
+        },
+        {
+          "en": "Programmers debug code by removing bugs.",
+          "cn": "程序员通过去掉 bug 来调试代码。"
+        },
+        {
+          "en": "Buggy software crashes often.",
+          "cn": "buggy 的软件经常崩溃。"
+        },
+        {
+          "en": "A stomach bug makes you ill for a day.",
+          "cn": "肠胃病会让你难受一天。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "See six thin legs crossing a white page.",
+          "cn": "想象六条细腿爬过白纸。"
+        },
+        {
+          "en": "See a screen frozen on one line.",
+          "cn": "想象屏幕卡在一行上不动。"
+        },
+        {
+          "en": "See a tiny microphone behind a lamp.",
+          "cn": "想象灯后藏着的小麦克风。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "A small bug crawled across the page.",
+        "cn": "一只小虫爬过书页。"
+      },
+      {
+        "en": "The program has a bug that hides the last line.",
+        "cn": "这个程序有个故障，会隐藏最后一行。"
+      },
+      {
+        "en": "They bugged the office for a month.",
+        "cn": "他们在办公室装了一个月窃听器。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "拆词记忆 · 非词源",
+      "text": "bug 与 bag 只差一个字母，把虫子装进袋子，是小时候最常见的捉虫方式。",
+      "word": "bug"
+    },
+    "root": "bug 中古英语作 bugge，本指稻草人或令人害怕的东西，十七世纪起指小虫；美国口语用它表示「毛病、着迷」，二十世纪工程师把机器与程序故障称作 bug，沿用至今。",
+    "sensesIntro": {
+      "en": "A crawling insect, a small fault, and a hidden listener.",
+      "cn": "一只爬行的虫子、一个小故障、一个藏起来的窃听器。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: a tiny insect crossing a page under a lamp.",
+        "cn": "核心意象：灯下爬过纸页的小虫。"
+      },
+      "chain": [
+        "CRAWL",
+        "SMALL",
+        "INSECT",
+        "FAULT",
+        "CODE",
+        "LISTEN"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "a tiny bug",
+          "cn": "一只小虫"
+        },
+        {
+          "senses": "01",
+          "en": "a stomach bug",
+          "cn": "肠胃病"
+        },
+        {
+          "senses": "02",
+          "en": "a software bug",
+          "cn": "软件故障"
+        },
+        {
+          "senses": "02",
+          "en": "fix a bug",
+          "cn": "修复故障"
+        },
+        {
+          "senses": "03",
+          "en": "bug the room",
+          "cn": "在房间装窃听器"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Bug takes -gy and the prefix de- to build useful words.",
+        "cn": "bug 加 -gy 与前缀 de- 可构成常用词。"
+      },
+      "latinIntro": {
+        "en": "The base is Middle English; the Latin items below are related only in meaning.",
+        "cn": "词基来自中古英语，下面的拉丁词只在意思上相关。"
+      },
+      "items": [
+        {
+          "word": "bug",
+          "structure": "Middle English bugge",
+          "meaning": "a small insect",
+          "meaningCN": "小虫",
+          "example": "a tiny bug",
+          "exampleCN": "一只小虫"
+        },
+        {
+          "word": "buggy",
+          "structure": "bug + -gy",
+          "meaning": "full of faults or insects",
+          "meaningCN": "毛病多的",
+          "example": "buggy software",
+          "exampleCN": "毛病多的软件"
+        },
+        {
+          "word": "debug",
+          "structure": "de- + bug",
+          "meaning": "to remove faults",
+          "meaningCN": "排除故障",
+          "example": "debug the code",
+          "exampleCN": "调试代码"
+        },
+        {
+          "word": "insect",
+          "structure": "Latin in + secare",
+          "meaning": "a small six-legged animal",
+          "meaningCN": "昆虫",
+          "example": "a flying insect",
+          "exampleCN": "飞虫"
+        },
+        {
+          "word": "beetle",
+          "structure": "Old English bitela",
+          "meaning": "a hard-winged insect",
+          "meaningCN": "甲虫",
+          "example": "a black beetle",
+          "exampleCN": "黑甲虫"
+        },
+        {
+          "word": "germ",
+          "structure": "Latin germen",
+          "meaning": "a tiny living thing that causes illness",
+          "meaningCN": "细菌",
+          "example": "wash off germs",
+          "exampleCN": "洗掉细菌"
+        },
+        {
+          "word": "fault",
+          "structure": "Old French faute",
+          "meaning": "a mistake or weakness",
+          "meaningCN": "故障",
+          "example": "an electrical fault",
+          "exampleCN": "电路故障"
+        },
+        {
+          "word": "wiretap",
+          "structure": "wire + tap",
+          "meaning": "a hidden listening device",
+          "meaningCN": "窃听器",
+          "example": "a phone wiretap",
+          "exampleCN": "电话窃听"
+        }
+      ],
+      "latinEntries": []
+    }
+  }
+]

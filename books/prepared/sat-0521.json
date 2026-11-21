@@ -1,447 +1,449 @@
-{
- "word": "cancellation",
- "ipa_uk": "/ˌkænsəˈleɪʃən/",
- "ipa_us": "/ˌkænsəˈleɪʃən/",
- "definition_zh": "取消；撤销；注销；（印刷）删除线",
- "definition_en": "the act of calling off or annulling something planned or agreed; also the marking of a stamp or ticket as used",
- "core_image": "一枚盖章作废的机票：明明印好了行程，一条红线就把它划成了废纸",
- "scene": "台风登陆前夜，机场大厅的航班信息牌上一片红字。Passengers were told of the cancellation by text message at midnight.",
- "sceneCN": "这里 cancellation 是「航班取消」（第 1 个义项：使既定安排作废的行为或事实）；句意是乘客们在午夜收到短信，得知航班已取消。",
- "pos": [
+[
   {
-   "tag": "n.",
-   "zh": "取消；撤销；废止"
-  },
-  {
-   "tag": "n.",
-   "zh": "（票据、邮票的）盖销；注销"
-  },
-  {
-   "tag": "n.",
-   "zh": "（数学、会计）抵销；约去"
+    "word": "cancellation",
+    "ipa_uk": "/ˌkænsəˈleɪʃən/",
+    "ipa_us": "/ˌkænsəˈleɪʃən/",
+    "definition_zh": "取消；撤销；注销；（印刷）删除线",
+    "definition_en": "the act of calling off or annulling something planned or agreed; also the marking of a stamp or ticket as used",
+    "core_image": "一枚盖章作废的机票：明明印好了行程，一条红线就把它划成了废纸",
+    "scene": "台风登陆前夜，机场大厅的航班信息牌上一片红字。Passengers were told of the cancellation by text message at midnight.",
+    "sceneCN": "这里 cancellation 是「航班取消」（第 1 个义项：使既定安排作废的行为或事实）；句意是乘客们在午夜收到短信，得知航班已取消。",
+    "pos": [
+      {
+        "tag": "n.",
+        "zh": "取消；撤销；废止"
+      },
+      {
+        "tag": "n.",
+        "zh": "（票据、邮票的）盖销；注销"
+      },
+      {
+        "tag": "n.",
+        "zh": "（数学、会计）抵销；约去"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "flight cancellation",
+        "zh": "航班取消"
+      },
+      {
+        "phrase": "cancellation fee",
+        "zh": "取消费／违约金"
+      },
+      {
+        "phrase": "last-minute cancellation",
+        "zh": "最后一刻的取消"
+      },
+      {
+        "phrase": "notice of cancellation",
+        "zh": "取消通知"
+      },
+      {
+        "phrase": "cancellation of the contract",
+        "zh": "合同解除"
+      },
+      {
+        "phrase": "weather-related cancellations",
+        "zh": "因天气导致的取消"
+      }
+    ],
+    "forms": [
+      {
+        "label": "复数",
+        "form": "cancellations"
+      },
+      {
+        "label": "动词原形",
+        "form": "cancel"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "cancel",
+        "pos": "v.",
+        "zh": "基础动词，义为「取消；撤销；盖销」"
+      },
+      {
+        "word": "canceled",
+        "pos": "adj.",
+        "zh": "动词过去分词形容词化，义为「被取消的」（美式单写 l）"
+      },
+      {
+        "word": "cancelled",
+        "pos": "adj.",
+        "zh": "同上，英式双写 l 拼法"
+      },
+      {
+        "word": "canceler",
+        "pos": "n.",
+        "zh": "动词加施动后缀，义为「取消者；盖销装置」"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "Calling off a planned event or arrangement",
+        "titleCN": "（活动、安排的）取消",
+        "definition": "the act or fact of deciding that a planned event, service, or trip will not happen",
+        "definitionCN": "决定使原定的活动、服务或行程不再发生的行为或事实",
+        "example": "The cancellation of the summit disappointed reporters.",
+        "exampleCN": "峰会的取消让记者们大失所望。",
+        "why": "The Latin cancello meant to make lattice-like crosses, the marks that void a document.",
+        "whyCN": "拉丁语 cancello 本义是打出交叉格纹，正是使文件作废的划线记号。"
+      },
+      {
+        "no": "02",
+        "title": "Ending a contract or agreement",
+        "titleCN": "（合同、协议的）解除；废止",
+        "definition": "the legal termination of a contract, subscription, or standing agreement",
+        "definitionCN": "对合同、订阅或长期协议的法律意义上的终止",
+        "example": "The cancellation clause allows either party to exit within thirty days.",
+        "exampleCN": "合同中的解除条款允许任一方在三十天内退出。",
+        "why": "What was once crossed out by hand became, in law, a formal act of ending obligations.",
+        "whyCN": "昔日手写划掉的动作，在法律中演变为正式解除义务的行为。"
+      },
+      {
+        "no": "03",
+        "title": "Stamping or marking as used",
+        "titleCN": "（邮票、票据的）盖销；作废标记",
+        "definition": "the mark or process showing that a stamp or ticket has been used and cannot be used again",
+        "definitionCN": "表明邮票或票据已使用、不得再次使用的记号或过程",
+        "example": "A crisp cancellation marked the hundred-year-old stamp.",
+        "exampleCN": "一枚清晰的盖销戳标记着这枚百年邮票。",
+        "why": "This is the lattice mark in its original office: ink stamped across the stamp to void it.",
+        "whyCN": "这正是交叉记号的原初岗位：以墨戳横盖邮票使其作废。"
+      },
+      {
+        "no": "04",
+        "title": "Offsetting equal values",
+        "titleCN": "（数学、会计）抵销；约去",
+        "definition": "the elimination of equal but opposite amounts, as in accounting or algebra",
+        "definitionCN": "数学或会计中相等而方向相反的量相互抵销、约去",
+        "example": "The cancellation of gains and losses left the ledger nearly flat.",
+        "exampleCN": "盈亏相抵后，账目几乎持平。",
+        "why": "Two opposite strokes crossing each other leave nothing standing, so equal sums erase each other.",
+        "whyCN": "两笔相交叉的笔画彼此抹去，等量的数目也就相互抵销。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Cancellation descends from Latin cancelli, lattice bars or cross-hatching, the marks made to void a written line.",
+        "cn": "cancellation 源自拉丁语 cancelli（格栏、交叉线），即在文字上划出使其作废的记号。"
+      },
+      "items": [
+        {
+          "era": "PROTO-INDO-EUROPEAN",
+          "en": "The root *kan- relates to bending, the shape of woven lattice work.",
+          "cn": "词根 *kan- 与弯曲有关，正是编织格栏的形状。"
+        },
+        {
+          "era": "LATIN",
+          "en": "Latin cancelli meant lattice, grating, or bars; the diminutive cancellus meant a small crossed line.",
+          "cn": "拉丁语 cancelli 指格栏、栅格；指小词 cancellus 意为一道小的交叉线。"
+        },
+        {
+          "era": "LATIN, LEGAL USE",
+          "en": "In Roman scribal practice, to cancello a text was to cross it out with lattice strokes.",
+          "cn": "在罗马抄写实践中，对文本 cancello 即用交叉线将其划掉。"
+        },
+        {
+          "era": "ENGLISH, 14TH–16TH C.",
+          "en": "The verb cancel entered Middle English with the crossing-out sense, and cancellation followed for the act or the mark.",
+          "cn": "动词 cancel 于中古英语时期带着「划掉」义进入英语，cancellation 随之表示该行为或记号。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "Modern usage centers on voided plans and agreements, with the stamp and accounting senses preserved in specialist contexts.",
+          "cn": "现代用法集中于被取消的计划与协议，盖销义和会计义保留在专门语境中。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "Cancellation sits inside the cancel family and next to other -cel- words that confuse spelling.",
+        "cn": "cancellation 属 cancel 词族内部，且与几个 -cel- 拼写相近的词容易混淆。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "cancel",
+              "ipa": "/ˈkænsəl/",
+              "tag": "same root, verb",
+              "definition": "The base verb, to call off or cross out.",
+              "definitionCN": "基础动词，取消或划掉。"
+            },
+            {
+              "word": "chancellery",
+              "ipa": "/ˈtʃænsələri/",
+              "tag": "same root, different meaning",
+              "definition": "An office of a chancellor, from the lattice screens around such offices.",
+              "definitionCN": "总理府、大臣官署，源自官署周围隔出格栏。"
+            },
+            {
+              "word": "cancellous",
+              "ipa": "/ˈkænsələs/",
+              "tag": "same root, anatomy",
+              "definition": "Spongy, lattice-like bone tissue, named for its grid structure.",
+              "definitionCN": "海绵状、网格样的骨组织，因格状结构得名，同根专业词。"
+            },
+            {
+              "word": "council",
+              "ipa": "/ˈkaʊnsəl/",
+              "tag": "sound-alike, different root",
+              "definition": "An assembly that advises; sounds partly alike but from a different root.",
+              "definitionCN": "议事会，发音部分相似，词根不同。"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "annulment",
+              "ipa": "/əˈnʌlmənt/",
+              "tag": "near meaning, legal",
+              "definition": "A formal declaration that a marriage or contract never validly existed.",
+              "definitionCN": "宣告婚姻或合同自始无效的法律程序。"
+            },
+            {
+              "word": "rescission",
+              "ipa": "/rɪˈsɪʒən/",
+              "tag": "near meaning, formal",
+              "definition": "The unwinding of a contract, restoring both parties to prior positions.",
+              "definitionCN": "合同的解除回转，使双方回到订约前的状态。"
+            },
+            {
+              "word": "postponement",
+              "ipa": "/poʊstˈpoʊnmənt/",
+              "tag": "contrast",
+              "definition": "A delay rather than an ending; the event still happens later.",
+              "definitionCN": "延期而非终止，活动稍后仍会举行。"
+            },
+            {
+              "word": "abolition",
+              "ipa": "/ˌæbəˈlɪʃən/",
+              "tag": "near meaning",
+              "definition": "The formal ending of a system, law, or practice.",
+              "definitionCN": "对制度、法律或惯例的正式废除。"
+            },
+            {
+              "word": "reinstatement",
+              "ipa": "/ˌriːɪnˈsteɪtmənt/",
+              "tag": "opposite",
+              "definition": "The restoration of something canceled to its former standing.",
+              "definitionCN": "使被取消者恢复原状，是 cancellation 的反义对照。"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Five hooks on the lattice root and the everyday cancel family.",
+        "cn": "五条围绕「格栏」词根与日常 cancel 词族的记忆钩子。"
+      },
+      "normal": [
+        {
+          "en": "Root picture: Latin cancelli are lattice bars, and the cross-stroke voids a line of writing.",
+          "cn": "词根画面：拉丁语 cancelli 是格栏，交叉一笔就把一行字作废。"
+        },
+        {
+          "en": "Spelling rule: British cancellation doubles the l after the stressed -el-; American cancels with one l.",
+          "cn": "拼写规则：英式 cancellation 双写 l；美式在 canceled 中单写 l。"
+        },
+        {
+          "en": "Family words: cancel, cancellation, and canceler all live on the same Latin stem.",
+          "cn": "词族成员：cancel、cancellation、canceler 都长在同一拉丁词干上。"
+        },
+        {
+          "en": "Money angle: a cancellation fee is the standard phrase for the penalty charged after backing out.",
+          "cn": "金钱角度：cancellation fee 是违约取消费的标准说法。"
+        },
+        {
+          "en": "Same-root cousin: chancellery, a chancellor's office, keeps the lattice screen in its history.",
+          "cn": "同根表亲：chancellery（总理府）在历史里保留着格栏屏风的身影。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "A red diagonal slashed across a printed itinerary: the trip now lives only in memory.",
+          "cn": "一道红色斜线划过打印好的行程单：旅程从此只存在于记忆里。"
+        },
+        {
+          "en": "Two equal opposing arrows colliding and vanishing into nothing.",
+          "cn": "两支大小相等方向相反的箭相撞后凭空消失。"
+        },
+        {
+          "en": "An ink stamp blooming across a postage stamp, declaring it spent.",
+          "cn": "一方墨戳在邮票上绽开，宣告它已被使用。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "The airline offered vouchers as compensation for the cancellation.",
+        "cn": "航空公司提供了代金券作为航班取消的补偿。"
+      },
+      {
+        "en": "Repeated cancellations of the committee meetings stalled the reform.",
+        "cn": "委员会会议一再取消，改革因此停滞。"
+      },
+      {
+        "en": "The accountant checked the ledger for the cancellation of the duplicate entries.",
+        "cn": "会计核对了账簿中重复条目的冲销情况。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「堪守雷申」——航班一取消，只能堪堪守在机场，雷霆大雨里申诉赔偿；联想机票被红笔划出一道道格子线，行程作废，即为取消。",
+      "word": "cancellation"
+    },
+    "root": "源自拉丁语 cancelli（格栏、栅格），指小形式 cancellus 意为小交叉线；罗马书吏以交叉线划掉文字，故 cancellare 意为「划掉、使作废」。动词经中古英语 cancel 进入英语，cancellation 由其加 -ation 构成，指取消的行为、事实或盖销记号。同根词 chancellery（官署）亦出自格栏意象。",
+    "sensesIntro": {
+      "en": "From the crossed-out line the word covers voided plans, terminated contracts, stamped-out tickets, and offsetting sums.",
+      "cn": "从「被划掉的一行字」出发，词义涵盖被取消的计划、被解除的合同、被盖销的票证以及相互抵销的数目。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: cross-hatched strokes drawn over writing to void it.",
+        "cn": "核心意象：在文字上画出的交叉格纹，使其一笔作废。"
+      },
+      "chain": [
+        "LATTICE MARK",
+        "CROSSED-OUT LINE",
+        "VOIDED PLAN",
+        "TERMINATED CONTRACT",
+        "STAMPED TICKET",
+        "OFFSET SUMS"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "THE BOARD: announced events that will no longer happen.",
+          "cn": "公告牌：不再举行的活动安排。"
+        },
+        {
+          "senses": "02",
+          "en": "THE CLAUSE: legal endings written into agreements.",
+          "cn": "条款：写进协议的法律终止机制。"
+        },
+        {
+          "senses": "03",
+          "en": "THE POST OFFICE: ink marks that spend a stamp forever.",
+          "cn": "邮局：让邮票永久作废的墨戳。"
+        },
+        {
+          "senses": "04",
+          "en": "THE LEDGER: equal opposites canceling to zero.",
+          "cn": "账簿：等量反向、相抵归零。"
+        },
+        {
+          "senses": "01 · 02",
+          "en": "THE PAPER TRAIL: notices, fees, and clauses that follow every canceled plan.",
+          "cn": "文书轨迹：每次取消计划后随之而来的通知、费用与条款。"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Cancellation is the Latin stem cancell- plus the noun suffix -ation, the act or result of canceling.",
+        "cn": "cancellation 由拉丁词干 cancell- 加名词后缀 -ation 构成，指取消的行为或结果。"
+      },
+      "latinIntro": {
+        "en": "The cancell- root names lattice work and crossed lines, feeding both legal and everyday English.",
+        "cn": "cancell- 词根既指格栏也指交叉线，同时滋养了法律与日常英语。"
+      },
+      "items": [
+        {
+          "word": "cancelli",
+          "structure": "Latin noun",
+          "meaning": "lattice, grating, bars",
+          "meaningCN": "格栏；栅格",
+          "example": "cancelli templi",
+          "exampleCN": "神庙的栅栏（拉丁语用例示意）。"
+        },
+        {
+          "word": "cancellare",
+          "structure": "Latin verb from cancelli",
+          "meaning": "to cross out",
+          "meaningCN": "划掉；使作废",
+          "example": "litteras cancellare",
+          "exampleCN": "把文字划掉（拉丁语用例示意）。"
+        },
+        {
+          "word": "-ation",
+          "structure": "noun suffix",
+          "meaning": "act or result of",
+          "meaningCN": "表示行为或结果的名词后缀",
+          "example": "cancellation, termination",
+          "exampleCN": "如 cancellation（取消）、termination（终止）。"
+        },
+        {
+          "word": "cancel",
+          "structure": "base verb in English",
+          "meaning": "to call off, cross out",
+          "meaningCN": "取消；划掉",
+          "example": "cancel an order",
+          "exampleCN": "取消订单。"
+        },
+        {
+          "word": "canceled",
+          "structure": "cancel + -ed",
+          "meaning": "called off",
+          "meaningCN": "被取消的（美式拼写）",
+          "example": "a canceled flight",
+          "exampleCN": "被取消的航班。"
+        },
+        {
+          "word": "cancelled",
+          "structure": "cancel + -led, British doubling",
+          "meaning": "called off",
+          "meaningCN": "被取消的（英式拼写）",
+          "example": "a cancelled match",
+          "exampleCN": "被取消的比赛。"
+        },
+        {
+          "word": "canceler",
+          "structure": "cancel + -er",
+          "meaning": "one who or that which cancels",
+          "meaningCN": "取消者；盖销装置",
+          "example": "an automatic canceler on the press",
+          "exampleCN": "印刷机上的自动盖销装置。"
+        },
+        {
+          "word": "chancellery",
+          "structure": "same root via chancel",
+          "meaning": "the office of a chancellor",
+          "meaningCN": "总理府；大臣官署",
+          "example": "the foreign ministry chancellery",
+          "exampleCN": "外交部门的事务官署。"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "cancelli",
+          "structure": "Latin noun, plural form used",
+          "meaning": "lattice bars, grate",
+          "meaningCN": "格栏；栅栏",
+          "example": "cancelli altaris",
+          "exampleCN": "祭坛前的栏杆（拉丁语用例示意）。"
+        }
+      ],
+      "derivatives": [
+        {
+          "word": "cancel",
+          "pos": "v.",
+          "zh": "取消；撤销；盖销"
+        },
+        {
+          "word": "cancelled",
+          "pos": "adj.",
+          "zh": "被取消的（英式拼写）"
+        }
+      ]
+    }
   }
- ],
- "collocations": [
-  {
-   "phrase": "flight cancellation",
-   "zh": "航班取消"
-  },
-  {
-   "phrase": "cancellation fee",
-   "zh": "取消费／违约金"
-  },
-  {
-   "phrase": "last-minute cancellation",
-   "zh": "最后一刻的取消"
-  },
-  {
-   "phrase": "notice of cancellation",
-   "zh": "取消通知"
-  },
-  {
-   "phrase": "cancellation of the contract",
-   "zh": "合同解除"
-  },
-  {
-   "phrase": "weather-related cancellations",
-   "zh": "因天气导致的取消"
-  }
- ],
- "forms": [
-  {
-   "label": "复数",
-   "form": "cancellations"
-  },
-  {
-   "label": "动词原形",
-   "form": "cancel"
-  }
- ],
- "derivatives": [
-  {
-   "word": "cancel",
-   "pos": "v.",
-   "zh": "基础动词，义为「取消；撤销；盖销」"
-  },
-  {
-   "word": "canceled",
-   "pos": "adj.",
-   "zh": "动词过去分词形容词化，义为「被取消的」（美式单写 l）"
-  },
-  {
-   "word": "cancelled",
-   "pos": "adj.",
-   "zh": "同上，英式双写 l 拼法"
-  },
-  {
-   "word": "canceler",
-   "pos": "n.",
-   "zh": "动词加施动后缀，义为「取消者；盖销装置」"
-  }
- ],
- "senses": [
-  {
-   "no": "01",
-   "title": "Calling off a planned event or arrangement",
-   "titleCN": "（活动、安排的）取消",
-   "definition": "the act or fact of deciding that a planned event, service, or trip will not happen",
-   "definitionCN": "决定使原定的活动、服务或行程不再发生的行为或事实",
-   "example": "The cancellation of the summit disappointed reporters.",
-   "exampleCN": "峰会的取消让记者们大失所望。",
-   "why": "The Latin cancello meant to make lattice-like crosses, the marks that void a document.",
-   "whyCN": "拉丁语 cancello 本义是打出交叉格纹，正是使文件作废的划线记号。"
-  },
-  {
-   "no": "02",
-   "title": "Ending a contract or agreement",
-   "titleCN": "（合同、协议的）解除；废止",
-   "definition": "the legal termination of a contract, subscription, or standing agreement",
-   "definitionCN": "对合同、订阅或长期协议的法律意义上的终止",
-   "example": "The cancellation clause allows either party to exit within thirty days.",
-   "exampleCN": "合同中的解除条款允许任一方在三十天内退出。",
-   "why": "What was once crossed out by hand became, in law, a formal act of ending obligations.",
-   "whyCN": "昔日手写划掉的动作，在法律中演变为正式解除义务的行为。"
-  },
-  {
-   "no": "03",
-   "title": "Stamping or marking as used",
-   "titleCN": "（邮票、票据的）盖销；作废标记",
-   "definition": "the mark or process showing that a stamp or ticket has been used and cannot be used again",
-   "definitionCN": "表明邮票或票据已使用、不得再次使用的记号或过程",
-   "example": "A crisp cancellation marked the hundred-year-old stamp.",
-   "exampleCN": "一枚清晰的盖销戳标记着这枚百年邮票。",
-   "why": "This is the lattice mark in its original office: ink stamped across the stamp to void it.",
-   "whyCN": "这正是交叉记号的原初岗位：以墨戳横盖邮票使其作废。"
-  },
-  {
-   "no": "04",
-   "title": "Offsetting equal values",
-   "titleCN": "（数学、会计）抵销；约去",
-   "definition": "the elimination of equal but opposite amounts, as in accounting or algebra",
-   "definitionCN": "数学或会计中相等而方向相反的量相互抵销、约去",
-   "example": "The cancellation of gains and losses left the ledger nearly flat.",
-   "exampleCN": "盈亏相抵后，账目几乎持平。",
-   "why": "Two opposite strokes crossing each other leave nothing standing, so equal sums erase each other.",
-   "whyCN": "两笔相交叉的笔画彼此抹去，等量的数目也就相互抵销。"
-  }
- ],
- "etymology": {
-  "intro": {
-   "en": "Cancellation descends from Latin cancelli, lattice bars or cross-hatching, the marks made to void a written line.",
-   "cn": "cancellation 源自拉丁语 cancelli（格栏、交叉线），即在文字上划出使其作废的记号。"
-  },
-  "items": [
-   {
-    "era": "PROTO-INDO-EUROPEAN",
-    "en": "The root *kan- relates to bending, the shape of woven lattice work.",
-    "cn": "词根 *kan- 与弯曲有关，正是编织格栏的形状。"
-   },
-   {
-    "era": "LATIN",
-    "en": "Latin cancelli meant lattice, grating, or bars; the diminutive cancellus meant a small crossed line.",
-    "cn": "拉丁语 cancelli 指格栏、栅格；指小词 cancellus 意为一道小的交叉线。"
-   },
-   {
-    "era": "LATIN, LEGAL USE",
-    "en": "In Roman scribal practice, to cancello a text was to cross it out with lattice strokes.",
-    "cn": "在罗马抄写实践中，对文本 cancello 即用交叉线将其划掉。"
-   },
-   {
-    "era": "ENGLISH, 14TH–16TH C.",
-    "en": "The verb cancel entered Middle English with the crossing-out sense, and cancellation followed for the act or the mark.",
-    "cn": "动词 cancel 于中古英语时期带着「划掉」义进入英语，cancellation 随之表示该行为或记号。"
-   },
-   {
-    "era": "MODERN ENGLISH",
-    "en": "Modern usage centers on voided plans and agreements, with the stamp and accounting senses preserved in specialist contexts.",
-    "cn": "现代用法集中于被取消的计划与协议，盖销义和会计义保留在专门语境中。"
-   }
-  ]
- },
- "similar": {
-  "note": {
-   "en": "Cancellation sits inside the cancel family and next to other -cel- words that confuse spelling.",
-   "cn": "cancellation 属 cancel 词族内部，且与几个 -cel- 拼写相近的词容易混淆。"
-  },
-  "groups": [
-   {
-    "heading": "LOOK-ALIKE",
-    "entries": [
-     {
-      "word": "cancel",
-      "ipa": "/ˈkænsəl/",
-      "tag": "same root, verb",
-      "definition": "The base verb, to call off or cross out.",
-      "definitionCN": "基础动词，取消或划掉。"
-     },
-     {
-      "word": "chancellery",
-      "ipa": "/ˈtʃænsələri/",
-      "tag": "same root, different meaning",
-      "definition": "An office of a chancellor, from the lattice screens around such offices.",
-      "definitionCN": "总理府、大臣官署，源自官署周围隔出格栏。"
-     },
-     {
-      "word": "cancellous",
-      "ipa": "/ˈkænsələs/",
-      "tag": "same root, anatomy",
-      "definition": "Spongy, lattice-like bone tissue, named for its grid structure.",
-      "definitionCN": "海绵状、网格样的骨组织，因格状结构得名，同根专业词。"
-     },
-     {
-      "word": "council",
-      "ipa": "/ˈkaʊnsəl/",
-      "tag": "sound-alike, different root",
-      "definition": "An assembly that advises; sounds partly alike but from a different root.",
-      "definitionCN": "议事会，发音部分相似，词根不同。"
-     }
-    ]
-   },
-   {
-    "heading": "NEAR MEANING",
-    "entries": [
-     {
-      "word": "annulment",
-      "ipa": "/əˈnʌlmənt/",
-      "tag": "near meaning, legal",
-      "definition": "A formal declaration that a marriage or contract never validly existed.",
-      "definitionCN": "宣告婚姻或合同自始无效的法律程序。"
-     },
-     {
-      "word": "rescission",
-      "ipa": "/rɪˈsɪʒən/",
-      "tag": "near meaning, formal",
-      "definition": "The unwinding of a contract, restoring both parties to prior positions.",
-      "definitionCN": "合同的解除回转，使双方回到订约前的状态。"
-     },
-     {
-      "word": "postponement",
-      "ipa": "/poʊstˈpoʊnmənt/",
-      "tag": "contrast",
-      "definition": "A delay rather than an ending; the event still happens later.",
-      "definitionCN": "延期而非终止，活动稍后仍会举行。"
-     },
-     {
-      "word": "abolition",
-      "ipa": "/ˌæbəˈlɪʃən/",
-      "tag": "near meaning",
-      "definition": "The formal ending of a system, law, or practice.",
-      "definitionCN": "对制度、法律或惯例的正式废除。"
-     },
-     {
-      "word": "reinstatement",
-      "ipa": "/ˌriːɪnˈsteɪtmənt/",
-      "tag": "opposite",
-      "definition": "The restoration of something canceled to its former standing.",
-      "definitionCN": "使被取消者恢复原状，是 cancellation 的反义对照。"
-     }
-    ]
-   }
-  ]
- },
- "mnemonics": {
-  "normalIntro": {
-   "en": "Five hooks on the lattice root and the everyday cancel family.",
-   "cn": "五条围绕「格栏」词根与日常 cancel 词族的记忆钩子。"
-  },
-  "normal": [
-   {
-    "en": "Root picture: Latin cancelli are lattice bars, and the cross-stroke voids a line of writing.",
-    "cn": "词根画面：拉丁语 cancelli 是格栏，交叉一笔就把一行字作废。"
-   },
-   {
-    "en": "Spelling rule: British cancellation doubles the l after the stressed -el-; American cancels with one l.",
-    "cn": "拼写规则：英式 cancellation 双写 l；美式在 canceled 中单写 l。"
-   },
-   {
-    "en": "Family words: cancel, cancellation, and canceler all live on the same Latin stem.",
-    "cn": "词族成员：cancel、cancellation、canceler 都长在同一拉丁词干上。"
-   },
-   {
-    "en": "Money angle: a cancellation fee is the standard phrase for the penalty charged after backing out.",
-    "cn": "金钱角度：cancellation fee 是违约取消费的标准说法。"
-   },
-   {
-    "en": "Same-root cousin: chancellery, a chancellor's office, keeps the lattice screen in its history.",
-    "cn": "同根表亲：chancellery（总理府）在历史里保留着格栏屏风的身影。"
-   }
-  ],
-  "abstract": [
-   {
-    "en": "A red diagonal slashed across a printed itinerary: the trip now lives only in memory.",
-    "cn": "一道红色斜线划过打印好的行程单：旅程从此只存在于记忆里。"
-   },
-   {
-    "en": "Two equal opposing arrows colliding and vanishing into nothing.",
-    "cn": "两支大小相等方向相反的箭相撞后凭空消失。"
-   },
-   {
-    "en": "An ink stamp blooming across a postage stamp, declaring it spent.",
-    "cn": "一方墨戳在邮票上绽开，宣告它已被使用。"
-   }
-  ]
- },
- "examples": [
-  {
-   "en": "The airline offered vouchers as compensation for the cancellation.",
-   "cn": "航空公司提供了代金券作为航班取消的补偿。"
-  },
-  {
-   "en": "Repeated cancellations of the committee meetings stalled the reform.",
-   "cn": "委员会会议一再取消，改革因此停滞。"
-  },
-  {
-   "en": "The accountant checked the ledger for the cancellation of the duplicate entries.",
-   "cn": "会计核对了账簿中重复条目的冲销情况。"
-  }
- ],
- "dict_mnemonic": {
-  "note": "谐音记忆 · 非词源",
-  "text": "「堪守雷申」——航班一取消，只能堪堪守在机场，雷霆大雨里申诉赔偿；联想机票被红笔划出一道道格子线，行程作废，即为取消。",
-  "word": "cancellation"
- },
- "root": "源自拉丁语 cancelli（格栏、栅格），指小形式 cancellus 意为小交叉线；罗马书吏以交叉线划掉文字，故 cancellare 意为「划掉、使作废」。动词经中古英语 cancel 进入英语，cancellation 由其加 -ation 构成，指取消的行为、事实或盖销记号。同根词 chancellery（官署）亦出自格栏意象。",
- "sensesIntro": {
-  "en": "From the crossed-out line the word covers voided plans, terminated contracts, stamped-out tickets, and offsetting sums.",
-  "cn": "从「被划掉的一行字」出发，词义涵盖被取消的计划、被解除的合同、被盖销的票证以及相互抵销的数目。"
- },
- "semanticMap": {
-  "core": {
-   "en": "CORE IMAGE: cross-hatched strokes drawn over writing to void it.",
-   "cn": "核心意象：在文字上画出的交叉格纹，使其一笔作废。"
-  },
-  "chain": [
-   "LATTICE MARK",
-   "CROSSED-OUT LINE",
-   "VOIDED PLAN",
-   "TERMINATED CONTRACT",
-   "STAMPED TICKET",
-   "OFFSET SUMS"
-  ],
-  "branches": [
-   {
-    "senses": "01",
-    "en": "THE BOARD: announced events that will no longer happen.",
-    "cn": "公告牌：不再举行的活动安排。"
-   },
-   {
-    "senses": "02",
-    "en": "THE CLAUSE: legal endings written into agreements.",
-    "cn": "条款：写进协议的法律终止机制。"
-   },
-   {
-    "senses": "03",
-    "en": "THE POST OFFICE: ink marks that spend a stamp forever.",
-    "cn": "邮局：让邮票永久作废的墨戳。"
-   },
-   {
-    "senses": "04",
-    "en": "THE LEDGER: equal opposites canceling to zero.",
-    "cn": "账簿：等量反向、相抵归零。"
-   },
-   {
-    "senses": "01 · 02",
-    "en": "THE PAPER TRAIL: notices, fees, and clauses that follow every canceled plan.",
-    "cn": "文书轨迹：每次取消计划后随之而来的通知、费用与条款。"
-   }
-  ]
- },
- "affixes": {
-  "intro": {
-   "en": "Cancellation is the Latin stem cancell- plus the noun suffix -ation, the act or result of canceling.",
-   "cn": "cancellation 由拉丁词干 cancell- 加名词后缀 -ation 构成，指取消的行为或结果。"
-  },
-  "latinIntro": {
-   "en": "The cancell- root names lattice work and crossed lines, feeding both legal and everyday English.",
-   "cn": "cancell- 词根既指格栏也指交叉线，同时滋养了法律与日常英语。"
-  },
-  "items": [
-   {
-    "word": "cancelli",
-    "structure": "Latin noun",
-    "meaning": "lattice, grating, bars",
-    "meaningCN": "格栏；栅格",
-    "example": "cancelli templi",
-    "exampleCN": "神庙的栅栏（拉丁语用例示意）。"
-   },
-   {
-    "word": "cancellare",
-    "structure": "Latin verb from cancelli",
-    "meaning": "to cross out",
-    "meaningCN": "划掉；使作废",
-    "example": "litteras cancellare",
-    "exampleCN": "把文字划掉（拉丁语用例示意）。"
-   },
-   {
-    "word": "-ation",
-    "structure": "noun suffix",
-    "meaning": "act or result of",
-    "meaningCN": "表示行为或结果的名词后缀",
-    "example": "cancellation, termination",
-    "exampleCN": "如 cancellation（取消）、termination（终止）。"
-   },
-   {
-    "word": "cancel",
-    "structure": "base verb in English",
-    "meaning": "to call off, cross out",
-    "meaningCN": "取消；划掉",
-    "example": "cancel an order",
-    "exampleCN": "取消订单。"
-   },
-   {
-    "word": "canceled",
-    "structure": "cancel + -ed",
-    "meaning": "called off",
-    "meaningCN": "被取消的（美式拼写）",
-    "example": "a canceled flight",
-    "exampleCN": "被取消的航班。"
-   },
-   {
-    "word": "cancelled",
-    "structure": "cancel + -led, British doubling",
-    "meaning": "called off",
-    "meaningCN": "被取消的（英式拼写）",
-    "example": "a cancelled match",
-    "exampleCN": "被取消的比赛。"
-   },
-   {
-    "word": "canceler",
-    "structure": "cancel + -er",
-    "meaning": "one who or that which cancels",
-    "meaningCN": "取消者；盖销装置",
-    "example": "an automatic canceler on the press",
-    "exampleCN": "印刷机上的自动盖销装置。"
-   },
-   {
-    "word": "chancellery",
-    "structure": "same root via chancel",
-    "meaning": "the office of a chancellor",
-    "meaningCN": "总理府；大臣官署",
-    "example": "the foreign ministry chancellery",
-    "exampleCN": "外交部门的事务官署。"
-   }
-  ],
-  "latinEntries": [
-   {
-    "word": "cancelli",
-    "structure": "Latin noun, plural form used",
-    "meaning": "lattice bars, grate",
-    "meaningCN": "格栏；栅栏",
-    "example": "cancelli altaris",
-    "exampleCN": "祭坛前的栏杆（拉丁语用例示意）。"
-   }
-  ],
-  "derivatives": [
-   {
-    "word": "cancel",
-    "pos": "v.",
-    "zh": "取消；撤销；盖销"
-   },
-   {
-    "word": "cancelled",
-    "pos": "adj.",
-    "zh": "被取消的（英式拼写）"
-   }
-  ]
- }
-}
+]

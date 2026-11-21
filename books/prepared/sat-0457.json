@@ -1,514 +1,84 @@
-{
-  "word": "bilingual",
-  "ipa_uk": "/ˌbaɪˈlɪŋɡwəl/",
-  "ipa_us": "/ˌbaɪˈlɪŋɡwəl/",
-  "definition_zh": "双语的；使用两种语言的；双语并用的（也可作名词：双语者）",
-  "definition_en": "using or written in two languages, or able to speak two languages",
-  "core_image": "一张对开的告示纸，左半边与右半边写着同样内容却用两种文字，中间用一条细线分开",
-  "scene": "社区公告栏上贴着一张对开的告示，左右两半内容相同，文字却不同。Every bilingual form in the office carried the same sentence twice.",
-  "sceneCN": "这里指「同时使用两种语言的」（第 1 个义项：涉及两种语言并用）；句意为办公室里的每份双语表格都把同一句话写了两遍。可辨识物件：告示、对开纸、两种文字、公告栏。",
-  "pos": [
-    {
-      "tag": "adj.",
-      "zh": "双语的；使用两种语言的"
-    },
-    {
-      "tag": "n.",
-      "zh": "双语者（可数）"
-    }
-  ],
-  "collocations": [
-    {
-      "phrase": "a bilingual person",
-      "zh": "双语者"
-    },
-    {
-      "phrase": "bilingual education",
-      "zh": "双语教育"
-    },
-    {
-      "phrase": "a bilingual dictionary",
-      "zh": "双语词典"
-    },
-    {
-      "phrase": "bilingual signs",
-      "zh": "双语标识"
-    },
-    {
-      "phrase": "a bilingual community",
-      "zh": "双语社群"
-    },
-    {
-      "phrase": "bilingual policy",
-      "zh": "双语政策"
-    },
-    {
-      "phrase": "bilingual brain",
-      "zh": "双语大脑"
-    }
-  ],
-  "forms": [
-    {
-      "label": "原级",
-      "form": "bilingual"
-    },
-    {
-      "label": "比较级（罕用）",
-      "form": "more bilingual"
-    },
-    {
-      "label": "最高级（罕用）",
-      "form": "most bilingual"
-    },
-    {
-      "label": "名词（双语现象）",
-      "form": "bilingualism"
-    },
-    {
-      "label": "副词",
-      "form": "bilingually"
-    },
-    {
-      "label": "名词（双语者）",
-      "form": "bilinguals"
-    }
-  ],
-  "derivatives": [
-    {
-      "word": "bilingualism",
-      "pos": "n.",
-      "zh": "双语现象；双语能力"
-    },
-    {
-      "word": "bilingually",
-      "pos": "adv.",
-      "zh": "以双语方式"
-    },
-    {
-      "word": "multilingual",
-      "pos": "adj.",
-      "zh": "多语的"
-    },
-    {
-      "word": "monolingual",
-      "pos": "adj.",
-      "zh": "单语的"
-    },
-    {
-      "word": "language",
-      "pos": "n.",
-      "zh": "语言"
-    }
-  ],
-  "senses": [
-    {
-      "no": "01",
-      "title": "Using two languages",
-      "titleCN": "同时使用两种语言",
-      "definition": "describing a thing, service or activity that works in two languages",
-      "definitionCN": "描述以两种语言运作的事物、服务或活动",
-      "example": "The bilingual help desk answers in Mandarin and English.",
-      "exampleCN": "双语服务台用普通话与英语应答。",
-      "why": "the word pairs a prefix for 'two' with the Latin word for tongue, so it counts two languages exactly.",
-      "whyCN": "这个词把表「二」的前缀与拉丁语表「舌头」的词相连，精确地数两种语言。"
-    },
-    {
-      "no": "02",
-      "title": "A person who speaks two languages",
-      "titleCN": "会说两种语言的人",
-      "definition": "describing someone who can use two languages in daily life",
-      "definitionCN": "描述能在日常生活中使用两种语言的人",
-      "example": "She grew up bilingual and still dreams in both.",
-      "exampleCN": "她从小双语成长，至今仍用两种语言做梦。",
-      "why": "a person who carries the pair through a whole life is the human face of the count.",
-      "whyCN": "把这一对语言带过一生的人，是这个数目的「人面」。"
-    },
-    {
-      "no": "03",
-      "title": "A text or sign in two languages",
-      "titleCN": "用两种语言写成的文本或标牌",
-      "definition": "printed or displayed in two languages at once",
-      "definitionCN": "同时以两种语言印刷或展示",
-      "example": "The bilingual label lists every ingredient twice.",
-      "exampleCN": "双语标签把每种成分列出两遍。",
-      "why": "two languages printed side by side make the pair visible.",
-      "whyCN": "两种语言并排印出，就让这一对变得可见。"
-    },
-    {
-      "no": "04",
-      "title": "Bilingual education",
-      "titleCN": "双语教育",
-      "definition": "schooling in which two languages serve as media of instruction",
-      "definitionCN": "以两种语言作为教学语言的教育",
-      "example": "Bilingual education delayed the shift to the majority language.",
-      "exampleCN": "双语教育推迟了向多数语言的转换。",
-      "why": "a school that teaches in two languages turns the count into a curriculum.",
-      "whyCN": "用两种语言教学的学校，把这个数目变成课程。"
-    },
-    {
-      "no": "05",
-      "title": "A bilingual community or region",
-      "titleCN": "双语社群或地区",
-      "definition": "describing a place where two languages are in everyday use",
-      "definitionCN": "描述两种语言在日常中并用的地方",
-      "example": "The valley has been bilingual since the railway arrived.",
-      "exampleCN": "铁路开通以来，这条山谷一直双语并存。",
-      "why": "a whole place can hold the pair for generations, so the adjective describes geography as well as people.",
-      "whyCN": "整个地方能把这一对保留几代，因此这个形容词既描述人也描述地理。"
-    },
-    {
-      "no": "06",
-      "title": "Bilingual processing in the mind",
-      "titleCN": "心智中的双语加工",
-      "definition": "describing research on how one mind stores and switches between two languages",
-      "definitionCN": "描述对同一心智如何储存并切换两种语言的研究",
-      "example": "Bilingual speakers separate their languages by context, not by effort.",
-      "exampleCN": "双语说话者按场合区分语言，而不是靠费力控制。",
-      "why": "a mind that holds two systems is the pair studied from inside.",
-      "whyCN": "容纳两套系统的心智，是从内部研究的「这一对」。"
-    },
-    {
-      "no": "07",
-      "title": "A bilingual dictionary or resource",
-      "titleCN": "双语词典或资源",
-      "definition": "a reference that gives equivalents in two languages",
-      "definitionCN": "给出两种语言对应说法的工具书",
-      "example": "The bilingual dictionary marks which word fits which register.",
-      "exampleCN": "这本双语词典标出哪个词属哪种语域。",
-      "why": "a dictionary exists to place one language beside the other.",
-      "whyCN": "词典的存在，就是把一种语言放在另一种旁边。"
-    },
-    {
-      "no": "08",
-      "title": "Bilingual policy or rights",
-      "titleCN": "双语政策或语言权利",
-      "definition": "describing official arrangements that guarantee services in two languages",
-      "definitionCN": "描述保障以两种语言提供服务的官方安排",
-      "example": "Bilingual policy made every statute readable in both tongues.",
-      "exampleCN": "双语政策使每项法规都能以两种语言阅读。",
-      "why": "a promise made in law must appear in both tongues, which turns the count into an obligation.",
-      "whyCN": "法律作出的承诺必须以两种语言出现，这就把数目变成义务。"
-    }
-  ],
-  "etymology": {
-    "intro": {
-      "en": "Bilingual comes from Latin bilinguis 'two-tongued', built on bis 'twice' and lingua 'tongue, language'. Dates are approximate.",
-      "cn": "这个词来自拉丁 bilinguis「双舌的」，由表「两次」的成分与 lingua「舌头、语言」构成。年代均为约数。"
-    },
-    "items": [
+[
+  {
+    "word": "bilingual",
+    "ipa_uk": "/ˌbaɪˈlɪŋɡwəl/",
+    "ipa_us": "/ˌbaɪˈlɪŋɡwəl/",
+    "definition_zh": "双语的；使用两种语言的；双语并用的（也可作名词：双语者）",
+    "definition_en": "using or written in two languages, or able to speak two languages",
+    "core_image": "一张对开的告示纸，左半边与右半边写着同样内容却用两种文字，中间用一条细线分开",
+    "scene": "社区公告栏上贴着一张对开的告示，左右两半内容相同，文字却不同。Every bilingual form in the office carried the same sentence twice.",
+    "sceneCN": "这里指「同时使用两种语言的」（第 1 个义项：涉及两种语言并用）；句意为办公室里的每份双语表格都把同一句话写了两遍。可辨识物件：告示、对开纸、两种文字、公告栏。",
+    "pos": [
       {
-        "era": "LATIN LINGUA",
-        "en": "Lingua meant 'tongue' and, by extension, 'language'. Its deeper origin is unsettled and no older attested form is agreed.",
-        "cn": "lingua 指「舌头」，引申为「语言」。其更深来源无定论，也没有公认的更早书证形式。"
+        "tag": "adj.",
+        "zh": "双语的；使用两种语言的"
       },
       {
-        "era": "LATIN BILINGUIS",
-        "en": "Bilinguis meant 'two-tongued'. In Roman usage it could also mean 'double-tongued', that is, deceitful, a sense that English did not keep.",
-        "cn": "bilinguis 意为「双舌的」。在罗马用法中它也可指「两面三刀的」，即欺骗性的，这一含义英语没有保留。"
-      },
-      {
-        "era": "ENGLISH ADJECTIVE",
-        "en": "English formed the modern adjective in the nineteenth century, when schooling and censuses made two-language populations visible.",
-        "cn": "英语在十九世纪形成这个现代形容词，当时学校教育与人口普查使双语人群变得可见。"
-      },
-      {
-        "era": "EDUCATION SENSE",
-        "en": "The twentieth century gave the word a policy life, naming programs that teach in two languages.",
-        "cn": "二十世纪赋予这个词政策生命，用来指以两种语言教学的项目。"
-      },
-      {
-        "era": "RESEARCH SENSE",
-        "en": "Psychology and neuroscience later used it for the mental organisation of two language systems.",
-        "cn": "心理学与神经科学后来用它指两套语言系统在心智中的组织方式。"
-      },
-      {
-        "era": "UNCERTAIN DETAILS",
-        "en": "Source uncertain: the pre-Latin root is unknown, and the first English use of the modern sense is dated only approximately.",
-        "cn": "来源不确定：拉丁语之前的词根不明，这个现代义在英语中最早使用的年代只能约略推定。"
-      }
-    ]
-  },
-  "similar": {
-    "note": {
-      "en": "Group one holds the counting words that are constantly confused; group two holds terms about two-language arrangements.",
-      "cn": "第一组是常被混淆的计数词；第二组是关于两种语言安排的术语。"
-    },
-    "groups": [
-      {
-        "heading": "LOOK-ALIKE",
-        "entries": [
-          {
-            "word": "multilingual",
-            "ipa": "/ˌmʌltiˈlɪŋɡwəl/",
-            "tag": "more than two",
-            "definition": "Using several languages, often without a fixed count; bilingual is the exact two.",
-            "definitionCN": "指使用多种语言，常不限定数目；双语则精确指两种。"
-          },
-          {
-            "word": "monolingual",
-            "ipa": "/ˌmɒnəʊˈlɪŋɡwəl/",
-            "tag": "one only",
-            "definition": "Using a single language; it is the opposite pole of the same counting series.",
-            "definitionCN": "指只使用一种语言，是同一计数序列的另一端。"
-          },
-          {
-            "word": "bilingualism",
-            "ipa": "/ˌbaɪˈlɪŋɡwəlɪzəm/",
-            "tag": "the phenomenon",
-            "definition": "The state or practice of having two languages; the adjective describes what the noun names.",
-            "definitionCN": "指拥有两种语言的状态或实践；形容词则描述名词所指的情形。"
-          },
-          {
-            "word": "bilinguist",
-            "ipa": "/ˌbaɪˈlɪŋɡwɪst/",
-            "tag": "rare person noun",
-            "definition": "A rare word for a person who speaks two languages; bilingual is far commoner as the noun.",
-            "definitionCN": "指会说两种语言者的罕用名词；双语一词作名词更常见。"
-          }
-        ]
-      },
-      {
-        "heading": "NEAR MEANING",
-        "entries": [
-          {
-            "word": "dual-language",
-            "ipa": "/ˈdjuːəl ˈlæŋɡwɪdʒ/",
-            "tag": "program label",
-            "definition": "A common label for two-language school programs; it is a compound rather than a Latin borrowing.",
-            "definitionCN": "指双语学校项目的常见标签，属复合词而非拉丁借词。"
-          },
-          {
-            "word": "two-tongued",
-            "ipa": "/ˈtuː tʌŋd/",
-            "tag": "literal and archaic",
-            "definition": "A literal English rendering of the Latin word; in older use it could also mean deceitful.",
-            "definitionCN": "是那个拉丁词的直译英语说法；旧用法中也可指欺骗性的。"
-          },
-          {
-            "word": "bidialectal",
-            "ipa": "/ˌbaɪdaɪəˈlektəl/",
-            "tag": "two dialects",
-            "definition": "Using two dialects of one language, a narrower case than two separate languages.",
-            "definitionCN": "指使用同一种语言的两种方言，范围比两种独立语言更窄。"
-          },
-          {
-            "word": "code-switching",
-            "ipa": "/ˈkəʊd swɪtʃɪŋ/",
-            "tag": "behaviour, not label",
-            "definition": "The act of moving between languages in conversation; bilingual describes the capacity behind it.",
-            "definitionCN": "指会话中在语言间切换的行为；双语描述其背后的能力。"
-          }
-        ]
-      }
-    ]
-  },
-  "mnemonics": {
-    "normalIntro": {
-      "en": "Normal associations: real morphemes, real fixed phrases and real related words, not invented rhymes.",
-      "cn": "正常联想：真实的构词成分、真实固定搭配与真实相关词，而非编造的顺口溜。"
-    },
-    "normal": [
-      {
-        "en": "The prefix means two and the root means tongue, so the word literally has two tongues.",
-        "cn": "前缀意为「二」，词根意为「舌头」，因此这个词字面上就是「有两条舌头」。"
-      },
-      {
-        "en": "Fixed phrases attach it to services: bilingual signs, forms, help desk.",
-        "cn": "固定搭配把它挂到服务上：双语标识、双语表格、双语服务台。"
-      },
-      {
-        "en": "It sits exactly in the middle of the counting ladder: one, two, many.",
-        "cn": "它正好在计数阶梯的中间：单语、双语、多语。"
-      },
-      {
-        "en": "The family runs bilingualism, bilingually, bilinguals, multilingual, monolingual.",
-        "cn": "同族包括「双语现象」「以双语方式」「双语者」「多语的」「单语的」。"
-      },
-      {
-        "en": "A split notice with the same sentence twice is the picture to hold.",
-        "cn": "一张左右分栏、同一句话写两遍的告示，是要留住的画面。"
+        "tag": "n.",
+        "zh": "双语者（可数）"
       }
     ],
-    "abstract": [
+    "collocations": [
       {
-        "en": "Picture two doors side by side, both opening into the same room.",
-        "cn": "想象并排的两道门，都通向同一个房间。"
+        "phrase": "a bilingual person",
+        "zh": "双语者"
       },
       {
-        "en": "Picture a mind with two indexes to the same world.",
-        "cn": "想象一个头脑，为同一个世界备有两套索引。"
+        "phrase": "bilingual education",
+        "zh": "双语教育"
       },
       {
-        "en": "Picture a single sentence walking across a thin line and changing its clothes.",
-        "cn": "想象同一句话跨过一条细线，换了一身衣服。"
-      }
-    ]
-  },
-  "examples": [
-    {
-      "en": "Bilingual ballots were introduced after the court ruling.",
-      "cn": "法院裁决之后，双语选票开始启用。"
-    },
-    {
-      "en": "Children in bilingual programs read in both languages by nine.",
-      "cn": "参加双语项目的孩子到九岁已能用两种语言阅读。"
-    },
-    {
-      "en": "The bilingual dictionary distinguishes formal from everyday words.",
-      "cn": "这本双语词典区分正式词与日常词。"
-    }
-  ],
-  "dict_mnemonic": {
-    "note": "谐音记忆 · 非词源",
-    "text": "「拜林圭尔」——拜两条舌头所赐，两种话都能说，这就是双语的。",
-    "word": "bilingual"
-  },
-  "root": "拉丁 bilinguis「双舌的」由表「两次」的成分与 lingua「舌头、语言」构成；罗马用法中亦可指「两面三刀的」，该贬义未被英语保留。",
-  "sensesIntro": {
-    "en": "Eight senses pair two languages across a person, a sign, a school, a valley, a mind, a dictionary and a law.",
-    "cn": "八个义项把两种语言配到人、标牌、学校、山谷、心智、词典与法律之上。"
-  },
-  "semanticMap": {
-    "core": {
-      "en": "CORE IMAGE: one sheet folded down the middle, the same sentence on both halves.",
-      "cn": "核心意象：一张从中间对折的纸，两半写着同一句话。"
-    },
-    "chain": [
-      "TWO TONGUES",
-      "A PERSON",
-      "A SURFACE",
-      "A SCHOOL",
-      "A VALLEY",
-      "A POLICY"
-    ],
-    "branches": [
-      {
-        "senses": "01",
-        "en": "THE COUNT: exactly two languages is the word's whole definition.",
-        "cn": "数目：正好两种语言，就是这个词的全部定义。"
+        "phrase": "a bilingual dictionary",
+        "zh": "双语词典"
       },
       {
-        "senses": "02",
-        "en": "THE SPEAKER: a person can carry both languages through a whole life.",
-        "cn": "说话者：一个人可以把两种语言带过一生。"
+        "phrase": "bilingual signs",
+        "zh": "双语标识"
       },
       {
-        "senses": "03 · 07",
-        "en": "WORDS ON PAPER: labels and dictionaries put the two side by side.",
-        "cn": "纸上的词：标签与词典把两者并排放置。"
+        "phrase": "a bilingual community",
+        "zh": "双语社群"
       },
       {
-        "senses": "04 · 05",
-        "en": "PLACES THAT TEACH: schools and whole valleys keep two languages alive together.",
-        "cn": "教学之地：学校与整条山谷让两种语言一同存活。"
+        "phrase": "bilingual policy",
+        "zh": "双语政策"
       },
       {
-        "senses": "06 · 08",
-        "en": "MIND AND LAW: one brain holds both, and one statute can promise both.",
-        "cn": "心智与法律：一个头脑容纳两者，一项法规也能承诺两者。"
-      }
-    ]
-  },
-  "affixes": {
-    "intro": {
-      "en": "The word is two Latin pieces and an English adjective ending, and each piece also builds a family.",
-      "cn": "这个词由两个拉丁成分与一个英语形容词词尾构成，每个成分也都构成一族词。"
-    },
-    "latinIntro": {
-      "en": "Latin bis 'twice' supplies the counting prefix, Latin lingua the root, and the adjective ending makes the description; the same pieces build multilingual and monolingual.",
-      "cn": "拉丁 bis「两次」提供计数前缀，拉丁 lingua 提供词根，形容词词尾完成描述；同样的成分也构成「多语的」与「单语的」。"
-    },
-    "items": [
-      {
-        "word": "bi-",
-        "structure": "Latin bis, 'twice, two'",
-        "meaning": "two",
-        "meaningCN": "二；两次",
-        "example": "The prefix fixes the count at exactly two.",
-        "exampleCN": "这个前缀把数目固定为二。"
-      },
-      {
-        "word": "lingua",
-        "structure": "Latin noun, 'tongue, language'",
-        "meaning": "a language",
-        "meaningCN": "语言",
-        "example": "The root names what is counted.",
-        "exampleCN": "这个词根指被计数的东西。"
-      },
-      {
-        "word": "-al",
-        "structure": "Latin -alis, adjective ending",
-        "meaning": "relating to",
-        "meaningCN": "与……有关的",
-        "example": "The ending turns the count into a description.",
-        "exampleCN": "这个词尾把数目变成描述。"
-      },
-      {
-        "word": "bilingual",
-        "structure": "bi- + lingua + -al",
-        "meaning": "using two languages",
-        "meaningCN": "使用两种语言的",
-        "example": "The bilingual form served both communities.",
-        "exampleCN": "这份双语表格服务两个社群。"
-      },
-      {
-        "word": "bilingualism",
-        "structure": "bilingual + -ism (state or practice)",
-        "meaning": "the practice of two languages",
-        "meaningCN": "双语现象",
-        "example": "Bilingualism began at home, not at school.",
-        "exampleCN": "双语现象始于家庭，而非学校。"
-      },
-      {
-        "word": "bilingually",
-        "structure": "bilingual + -ly (manner)",
-        "meaning": "in a two-language way",
-        "meaningCN": "以双语方式",
-        "example": "The ceremony was conducted bilingually.",
-        "exampleCN": "仪式以双语进行。"
-      },
-      {
-        "word": "multilingual",
-        "structure": "multi- 'many' + lingua + -al",
-        "meaning": "using many languages",
-        "meaningCN": "使用多种语言的",
-        "example": "A multilingual city outgrows the pair.",
-        "exampleCN": "一座多语城市超出了「两种」的范围。"
-      },
-      {
-        "word": "monolingual",
-        "structure": "mono- 'one' + lingua + -al",
-        "meaning": "using one language",
-        "meaningCN": "单语的",
-        "example": "Monolingual readers needed a translation.",
-        "exampleCN": "单语读者需要译本。"
+        "phrase": "bilingual brain",
+        "zh": "双语大脑"
       }
     ],
-    "latinEntries": [
+    "forms": [
       {
-        "word": "lingua",
-        "structure": "lingua, linguae (f., first declension)",
-        "meaning": "tongue; language",
-        "meaningCN": "舌头；语言"
+        "label": "原级",
+        "form": "bilingual"
       },
       {
-        "word": "bilinguis",
-        "structure": "bi- + lingua (adjective)",
-        "meaning": "two-tongued; double-tongued",
-        "meaningCN": "双舌的；两面三刀的"
+        "label": "比较级（罕用）",
+        "form": "more bilingual"
       },
       {
-        "word": "bis",
-        "structure": "Latin adverb, 'twice'",
-        "meaning": "twice, in two ways",
-        "meaningCN": "两次；两倍"
+        "label": "最高级（罕用）",
+        "form": "most bilingual"
+      },
+      {
+        "label": "名词（双语现象）",
+        "form": "bilingualism"
+      },
+      {
+        "label": "副词",
+        "form": "bilingually"
+      },
+      {
+        "label": "名词（双语者）",
+        "form": "bilinguals"
       }
     ],
     "derivatives": [
       {
         "word": "bilingualism",
         "pos": "n.",
-        "zh": "双语现象"
+        "zh": "双语现象；双语能力"
       },
       {
         "word": "bilingually",
@@ -530,6 +100,438 @@
         "pos": "n.",
         "zh": "语言"
       }
-    ]
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "Using two languages",
+        "titleCN": "同时使用两种语言",
+        "definition": "describing a thing, service or activity that works in two languages",
+        "definitionCN": "描述以两种语言运作的事物、服务或活动",
+        "example": "The bilingual help desk answers in Mandarin and English.",
+        "exampleCN": "双语服务台用普通话与英语应答。",
+        "why": "the word pairs a prefix for 'two' with the Latin word for tongue, so it counts two languages exactly.",
+        "whyCN": "这个词把表「二」的前缀与拉丁语表「舌头」的词相连，精确地数两种语言。"
+      },
+      {
+        "no": "02",
+        "title": "A person who speaks two languages",
+        "titleCN": "会说两种语言的人",
+        "definition": "describing someone who can use two languages in daily life",
+        "definitionCN": "描述能在日常生活中使用两种语言的人",
+        "example": "She grew up bilingual and still dreams in both.",
+        "exampleCN": "她从小双语成长，至今仍用两种语言做梦。",
+        "why": "a person who carries the pair through a whole life is the human face of the count.",
+        "whyCN": "把这一对语言带过一生的人，是这个数目的「人面」。"
+      },
+      {
+        "no": "03",
+        "title": "A text or sign in two languages",
+        "titleCN": "用两种语言写成的文本或标牌",
+        "definition": "printed or displayed in two languages at once",
+        "definitionCN": "同时以两种语言印刷或展示",
+        "example": "The bilingual label lists every ingredient twice.",
+        "exampleCN": "双语标签把每种成分列出两遍。",
+        "why": "two languages printed side by side make the pair visible.",
+        "whyCN": "两种语言并排印出，就让这一对变得可见。"
+      },
+      {
+        "no": "04",
+        "title": "Bilingual education",
+        "titleCN": "双语教育",
+        "definition": "schooling in which two languages serve as media of instruction",
+        "definitionCN": "以两种语言作为教学语言的教育",
+        "example": "Bilingual education delayed the shift to the majority language.",
+        "exampleCN": "双语教育推迟了向多数语言的转换。",
+        "why": "a school that teaches in two languages turns the count into a curriculum.",
+        "whyCN": "用两种语言教学的学校，把这个数目变成课程。"
+      },
+      {
+        "no": "05",
+        "title": "A bilingual community or region",
+        "titleCN": "双语社群或地区",
+        "definition": "describing a place where two languages are in everyday use",
+        "definitionCN": "描述两种语言在日常中并用的地方",
+        "example": "The valley has been bilingual since the railway arrived.",
+        "exampleCN": "铁路开通以来，这条山谷一直双语并存。",
+        "why": "a whole place can hold the pair for generations, so the adjective describes geography as well as people.",
+        "whyCN": "整个地方能把这一对保留几代，因此这个形容词既描述人也描述地理。"
+      },
+      {
+        "no": "06",
+        "title": "Bilingual processing in the mind",
+        "titleCN": "心智中的双语加工",
+        "definition": "describing research on how one mind stores and switches between two languages",
+        "definitionCN": "描述对同一心智如何储存并切换两种语言的研究",
+        "example": "Bilingual speakers separate their languages by context, not by effort.",
+        "exampleCN": "双语说话者按场合区分语言，而不是靠费力控制。",
+        "why": "a mind that holds two systems is the pair studied from inside.",
+        "whyCN": "容纳两套系统的心智，是从内部研究的「这一对」。"
+      },
+      {
+        "no": "07",
+        "title": "A bilingual dictionary or resource",
+        "titleCN": "双语词典或资源",
+        "definition": "a reference that gives equivalents in two languages",
+        "definitionCN": "给出两种语言对应说法的工具书",
+        "example": "The bilingual dictionary marks which word fits which register.",
+        "exampleCN": "这本双语词典标出哪个词属哪种语域。",
+        "why": "a dictionary exists to place one language beside the other.",
+        "whyCN": "词典的存在，就是把一种语言放在另一种旁边。"
+      },
+      {
+        "no": "08",
+        "title": "Bilingual policy or rights",
+        "titleCN": "双语政策或语言权利",
+        "definition": "describing official arrangements that guarantee services in two languages",
+        "definitionCN": "描述保障以两种语言提供服务的官方安排",
+        "example": "Bilingual policy made every statute readable in both tongues.",
+        "exampleCN": "双语政策使每项法规都能以两种语言阅读。",
+        "why": "a promise made in law must appear in both tongues, which turns the count into an obligation.",
+        "whyCN": "法律作出的承诺必须以两种语言出现，这就把数目变成义务。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Bilingual comes from Latin bilinguis 'two-tongued', built on bis 'twice' and lingua 'tongue, language'. Dates are approximate.",
+        "cn": "这个词来自拉丁 bilinguis「双舌的」，由表「两次」的成分与 lingua「舌头、语言」构成。年代均为约数。"
+      },
+      "items": [
+        {
+          "era": "LATIN LINGUA",
+          "en": "Lingua meant 'tongue' and, by extension, 'language'. Its deeper origin is unsettled and no older attested form is agreed.",
+          "cn": "lingua 指「舌头」，引申为「语言」。其更深来源无定论，也没有公认的更早书证形式。"
+        },
+        {
+          "era": "LATIN BILINGUIS",
+          "en": "Bilinguis meant 'two-tongued'. In Roman usage it could also mean 'double-tongued', that is, deceitful, a sense that English did not keep.",
+          "cn": "bilinguis 意为「双舌的」。在罗马用法中它也可指「两面三刀的」，即欺骗性的，这一含义英语没有保留。"
+        },
+        {
+          "era": "ENGLISH ADJECTIVE",
+          "en": "English formed the modern adjective in the nineteenth century, when schooling and censuses made two-language populations visible.",
+          "cn": "英语在十九世纪形成这个现代形容词，当时学校教育与人口普查使双语人群变得可见。"
+        },
+        {
+          "era": "EDUCATION SENSE",
+          "en": "The twentieth century gave the word a policy life, naming programs that teach in two languages.",
+          "cn": "二十世纪赋予这个词政策生命，用来指以两种语言教学的项目。"
+        },
+        {
+          "era": "RESEARCH SENSE",
+          "en": "Psychology and neuroscience later used it for the mental organisation of two language systems.",
+          "cn": "心理学与神经科学后来用它指两套语言系统在心智中的组织方式。"
+        },
+        {
+          "era": "UNCERTAIN DETAILS",
+          "en": "Source uncertain: the pre-Latin root is unknown, and the first English use of the modern sense is dated only approximately.",
+          "cn": "来源不确定：拉丁语之前的词根不明，这个现代义在英语中最早使用的年代只能约略推定。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "Group one holds the counting words that are constantly confused; group two holds terms about two-language arrangements.",
+        "cn": "第一组是常被混淆的计数词；第二组是关于两种语言安排的术语。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "multilingual",
+              "ipa": "/ˌmʌltiˈlɪŋɡwəl/",
+              "tag": "more than two",
+              "definition": "Using several languages, often without a fixed count; bilingual is the exact two.",
+              "definitionCN": "指使用多种语言，常不限定数目；双语则精确指两种。"
+            },
+            {
+              "word": "monolingual",
+              "ipa": "/ˌmɒnəʊˈlɪŋɡwəl/",
+              "tag": "one only",
+              "definition": "Using a single language; it is the opposite pole of the same counting series.",
+              "definitionCN": "指只使用一种语言，是同一计数序列的另一端。"
+            },
+            {
+              "word": "bilingualism",
+              "ipa": "/ˌbaɪˈlɪŋɡwəlɪzəm/",
+              "tag": "the phenomenon",
+              "definition": "The state or practice of having two languages; the adjective describes what the noun names.",
+              "definitionCN": "指拥有两种语言的状态或实践；形容词则描述名词所指的情形。"
+            },
+            {
+              "word": "bilinguist",
+              "ipa": "/ˌbaɪˈlɪŋɡwɪst/",
+              "tag": "rare person noun",
+              "definition": "A rare word for a person who speaks two languages; bilingual is far commoner as the noun.",
+              "definitionCN": "指会说两种语言者的罕用名词；双语一词作名词更常见。"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "dual-language",
+              "ipa": "/ˈdjuːəl ˈlæŋɡwɪdʒ/",
+              "tag": "program label",
+              "definition": "A common label for two-language school programs; it is a compound rather than a Latin borrowing.",
+              "definitionCN": "指双语学校项目的常见标签，属复合词而非拉丁借词。"
+            },
+            {
+              "word": "two-tongued",
+              "ipa": "/ˈtuː tʌŋd/",
+              "tag": "literal and archaic",
+              "definition": "A literal English rendering of the Latin word; in older use it could also mean deceitful.",
+              "definitionCN": "是那个拉丁词的直译英语说法；旧用法中也可指欺骗性的。"
+            },
+            {
+              "word": "bidialectal",
+              "ipa": "/ˌbaɪdaɪəˈlektəl/",
+              "tag": "two dialects",
+              "definition": "Using two dialects of one language, a narrower case than two separate languages.",
+              "definitionCN": "指使用同一种语言的两种方言，范围比两种独立语言更窄。"
+            },
+            {
+              "word": "code-switching",
+              "ipa": "/ˈkəʊd swɪtʃɪŋ/",
+              "tag": "behaviour, not label",
+              "definition": "The act of moving between languages in conversation; bilingual describes the capacity behind it.",
+              "definitionCN": "指会话中在语言间切换的行为；双语描述其背后的能力。"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Normal associations: real morphemes, real fixed phrases and real related words, not invented rhymes.",
+        "cn": "正常联想：真实的构词成分、真实固定搭配与真实相关词，而非编造的顺口溜。"
+      },
+      "normal": [
+        {
+          "en": "The prefix means two and the root means tongue, so the word literally has two tongues.",
+          "cn": "前缀意为「二」，词根意为「舌头」，因此这个词字面上就是「有两条舌头」。"
+        },
+        {
+          "en": "Fixed phrases attach it to services: bilingual signs, forms, help desk.",
+          "cn": "固定搭配把它挂到服务上：双语标识、双语表格、双语服务台。"
+        },
+        {
+          "en": "It sits exactly in the middle of the counting ladder: one, two, many.",
+          "cn": "它正好在计数阶梯的中间：单语、双语、多语。"
+        },
+        {
+          "en": "The family runs bilingualism, bilingually, bilinguals, multilingual, monolingual.",
+          "cn": "同族包括「双语现象」「以双语方式」「双语者」「多语的」「单语的」。"
+        },
+        {
+          "en": "A split notice with the same sentence twice is the picture to hold.",
+          "cn": "一张左右分栏、同一句话写两遍的告示，是要留住的画面。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "Picture two doors side by side, both opening into the same room.",
+          "cn": "想象并排的两道门，都通向同一个房间。"
+        },
+        {
+          "en": "Picture a mind with two indexes to the same world.",
+          "cn": "想象一个头脑，为同一个世界备有两套索引。"
+        },
+        {
+          "en": "Picture a single sentence walking across a thin line and changing its clothes.",
+          "cn": "想象同一句话跨过一条细线，换了一身衣服。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "Bilingual ballots were introduced after the court ruling.",
+        "cn": "法院裁决之后，双语选票开始启用。"
+      },
+      {
+        "en": "Children in bilingual programs read in both languages by nine.",
+        "cn": "参加双语项目的孩子到九岁已能用两种语言阅读。"
+      },
+      {
+        "en": "The bilingual dictionary distinguishes formal from everyday words.",
+        "cn": "这本双语词典区分正式词与日常词。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「拜林圭尔」——拜两条舌头所赐，两种话都能说，这就是双语的。",
+      "word": "bilingual"
+    },
+    "root": "拉丁 bilinguis「双舌的」由表「两次」的成分与 lingua「舌头、语言」构成；罗马用法中亦可指「两面三刀的」，该贬义未被英语保留。",
+    "sensesIntro": {
+      "en": "Eight senses pair two languages across a person, a sign, a school, a valley, a mind, a dictionary and a law.",
+      "cn": "八个义项把两种语言配到人、标牌、学校、山谷、心智、词典与法律之上。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: one sheet folded down the middle, the same sentence on both halves.",
+        "cn": "核心意象：一张从中间对折的纸，两半写着同一句话。"
+      },
+      "chain": [
+        "TWO TONGUES",
+        "A PERSON",
+        "A SURFACE",
+        "A SCHOOL",
+        "A VALLEY",
+        "A POLICY"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "THE COUNT: exactly two languages is the word's whole definition.",
+          "cn": "数目：正好两种语言，就是这个词的全部定义。"
+        },
+        {
+          "senses": "02",
+          "en": "THE SPEAKER: a person can carry both languages through a whole life.",
+          "cn": "说话者：一个人可以把两种语言带过一生。"
+        },
+        {
+          "senses": "03 · 07",
+          "en": "WORDS ON PAPER: labels and dictionaries put the two side by side.",
+          "cn": "纸上的词：标签与词典把两者并排放置。"
+        },
+        {
+          "senses": "04 · 05",
+          "en": "PLACES THAT TEACH: schools and whole valleys keep two languages alive together.",
+          "cn": "教学之地：学校与整条山谷让两种语言一同存活。"
+        },
+        {
+          "senses": "06 · 08",
+          "en": "MIND AND LAW: one brain holds both, and one statute can promise both.",
+          "cn": "心智与法律：一个头脑容纳两者，一项法规也能承诺两者。"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "The word is two Latin pieces and an English adjective ending, and each piece also builds a family.",
+        "cn": "这个词由两个拉丁成分与一个英语形容词词尾构成，每个成分也都构成一族词。"
+      },
+      "latinIntro": {
+        "en": "Latin bis 'twice' supplies the counting prefix, Latin lingua the root, and the adjective ending makes the description; the same pieces build multilingual and monolingual.",
+        "cn": "拉丁 bis「两次」提供计数前缀，拉丁 lingua 提供词根，形容词词尾完成描述；同样的成分也构成「多语的」与「单语的」。"
+      },
+      "items": [
+        {
+          "word": "bi-",
+          "structure": "Latin bis, 'twice, two'",
+          "meaning": "two",
+          "meaningCN": "二；两次",
+          "example": "The prefix fixes the count at exactly two.",
+          "exampleCN": "这个前缀把数目固定为二。"
+        },
+        {
+          "word": "lingua",
+          "structure": "Latin noun, 'tongue, language'",
+          "meaning": "a language",
+          "meaningCN": "语言",
+          "example": "The root names what is counted.",
+          "exampleCN": "这个词根指被计数的东西。"
+        },
+        {
+          "word": "-al",
+          "structure": "Latin -alis, adjective ending",
+          "meaning": "relating to",
+          "meaningCN": "与……有关的",
+          "example": "The ending turns the count into a description.",
+          "exampleCN": "这个词尾把数目变成描述。"
+        },
+        {
+          "word": "bilingual",
+          "structure": "bi- + lingua + -al",
+          "meaning": "using two languages",
+          "meaningCN": "使用两种语言的",
+          "example": "The bilingual form served both communities.",
+          "exampleCN": "这份双语表格服务两个社群。"
+        },
+        {
+          "word": "bilingualism",
+          "structure": "bilingual + -ism (state or practice)",
+          "meaning": "the practice of two languages",
+          "meaningCN": "双语现象",
+          "example": "Bilingualism began at home, not at school.",
+          "exampleCN": "双语现象始于家庭，而非学校。"
+        },
+        {
+          "word": "bilingually",
+          "structure": "bilingual + -ly (manner)",
+          "meaning": "in a two-language way",
+          "meaningCN": "以双语方式",
+          "example": "The ceremony was conducted bilingually.",
+          "exampleCN": "仪式以双语进行。"
+        },
+        {
+          "word": "multilingual",
+          "structure": "multi- 'many' + lingua + -al",
+          "meaning": "using many languages",
+          "meaningCN": "使用多种语言的",
+          "example": "A multilingual city outgrows the pair.",
+          "exampleCN": "一座多语城市超出了「两种」的范围。"
+        },
+        {
+          "word": "monolingual",
+          "structure": "mono- 'one' + lingua + -al",
+          "meaning": "using one language",
+          "meaningCN": "单语的",
+          "example": "Monolingual readers needed a translation.",
+          "exampleCN": "单语读者需要译本。"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "lingua",
+          "structure": "lingua, linguae (f., first declension)",
+          "meaning": "tongue; language",
+          "meaningCN": "舌头；语言"
+        },
+        {
+          "word": "bilinguis",
+          "structure": "bi- + lingua (adjective)",
+          "meaning": "two-tongued; double-tongued",
+          "meaningCN": "双舌的；两面三刀的"
+        },
+        {
+          "word": "bis",
+          "structure": "Latin adverb, 'twice'",
+          "meaning": "twice, in two ways",
+          "meaningCN": "两次；两倍"
+        }
+      ],
+      "derivatives": [
+        {
+          "word": "bilingualism",
+          "pos": "n.",
+          "zh": "双语现象"
+        },
+        {
+          "word": "bilingually",
+          "pos": "adv.",
+          "zh": "以双语方式"
+        },
+        {
+          "word": "multilingual",
+          "pos": "adj.",
+          "zh": "多语的"
+        },
+        {
+          "word": "monolingual",
+          "pos": "adj.",
+          "zh": "单语的"
+        },
+        {
+          "word": "language",
+          "pos": "n.",
+          "zh": "语言"
+        }
+      ]
+    }
   }
-}
+]

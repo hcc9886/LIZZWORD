@@ -1,373 +1,375 @@
-{
-  "word": "bounce",
-  "ipa_uk": "/baʊns/",
-  "ipa_us": "/baʊns/",
-  "definition_zh": "弹跳；上下晃动；（支票）被退回",
-  "definition_en": "to hit a surface and spring back up",
-  "core_image": "球撞墙后弹回",
-  "scene": "球从墙上弹了回来。The ball bounced off the wall.",
-  "sceneCN": "这里 bounce 是「弹跳」（第 1 个义项：撞到表面后反弹回来）；句意是球从墙上弹了回来。",
-  "pos": [
-    {
-      "tag": "v.",
-      "zh": "动词：弹跳；晃动；退回"
-    },
-    {
-      "tag": "n.",
-      "zh": "名词：弹跳，反弹力"
-    }
-  ],
-  "collocations": [
-    {
-      "phrase": "bounce a ball",
-      "zh": "拍球"
-    },
-    {
-      "phrase": "bounce back",
-      "zh": "恢复过来，反弹"
-    },
-    {
-      "phrase": "bounce off",
-      "zh": "从…弹开"
-    },
-    {
-      "phrase": "bounce up and down",
-      "zh": "上下弹跳"
-    },
-    {
-      "phrase": "bounce a cheque",
-      "zh": "支票因余额不足被退回"
-    }
-  ],
-  "forms": [
-    {
-      "label": "第三人称单数",
-      "form": "bounces"
-    },
-    {
-      "label": "过去式",
-      "form": "bounced"
-    },
-    {
-      "label": "现在分词",
-      "form": "bouncing"
-    }
-  ],
-  "derivatives": [
-    {
-      "word": "bouncer",
-      "pos": "n.",
-      "zh": "夜店保安；弹跳力强的人"
-    },
-    {
-      "word": "bouncy",
-      "pos": "adj.",
-      "zh": "有弹性的，蹦跳的"
-    }
-  ],
-  "senses": [
-    {
-      "no": "01",
-      "title": "To spring back from a surface",
-      "titleCN": "弹跳",
-      "definition": "to hit something and move away from it quickly",
-      "definitionCN": "撞到某物后迅速离开",
-      "example": "The ball bounced off the wall.",
-      "exampleCN": "球从墙上弹了回来。",
-      "why": "This is the core sense, from an old word for a heavy blow.",
-      "whyCN": "这是核心义项，来自古时表示重击的词。"
-    },
-    {
-      "no": "02",
-      "title": "To move up and down",
-      "titleCN": "上下晃动",
-      "definition": "to move up and down again and again",
-      "definitionCN": "反复地上下移动",
-      "example": "The children bounced on the bed.",
-      "exampleCN": "孩子们在床上蹦来蹦去。",
-      "why": "Anything springing on a soft surface repeats the same movement.",
-      "whyCN": "柔软表面上的弹起会不断重复同一个动作。"
-    },
-    {
-      "no": "03",
-      "title": "To be sent back unpaid",
-      "titleCN": "被退回",
-      "definition": "to be returned by a bank because there is no money",
-      "definitionCN": "因账户无钱被银行退回",
-      "example": "His cheque bounced at the bank.",
-      "exampleCN": "他的支票被银行退回了。",
-      "why": "A cheque that springs back to the payer is said to bounce.",
-      "whyCN": "支票弹回付款人手里，就说它 bounce 了。"
-    }
-  ],
-  "etymology": {
-    "intro": {
-      "en": "Bounce first meant to beat or thump, and the springing sense came later.",
-      "cn": "bounce 最初意为击打，反弹义出现得较晚。"
-    },
-    "items": [
+[
+  {
+    "word": "bounce",
+    "ipa_uk": "/baʊns/",
+    "ipa_us": "/baʊns/",
+    "definition_zh": "弹跳；上下晃动；（支票）被退回",
+    "definition_en": "to hit a surface and spring back up",
+    "core_image": "球撞墙后弹回",
+    "scene": "球从墙上弹了回来。The ball bounced off the wall.",
+    "sceneCN": "这里 bounce 是「弹跳」（第 1 个义项：撞到表面后反弹回来）；句意是球从墙上弹了回来。",
+    "pos": [
       {
-        "era": "MIDDLE ENGLISH",
-        "en": "bunsen meant to beat or thump.",
-        "cn": "bunsen 意为击打或重捶。"
+        "tag": "v.",
+        "zh": "动词：弹跳；晃动；退回"
       },
       {
-        "era": "SIXTEENTH CENTURY",
-        "en": "bounce named a heavy blow.",
-        "cn": "bounce 指重重的一击。"
-      },
-      {
-        "era": "NINETEENTH CENTURY",
-        "en": "bounce meant to spring back from a surface.",
-        "cn": "bounce 指从表面弹回。"
-      },
-      {
-        "era": "TWENTIETH CENTURY",
-        "en": "a bounced cheque was returned unpaid.",
-        "cn": "bounced cheque 指被退回的支票。"
-      },
-      {
-        "era": "PRESENT DAY ENGLISH",
-        "en": "bounce covers springing, jumping and returns.",
-        "cn": "如今 bounce 兼指反弹、蹦跳与退回。"
-      }
-    ]
-  },
-  "similar": {
-    "note": {
-      "en": "The look-alike group rhymes with bounce; the near-meaning group names springing movements.",
-      "cn": "形近组与 bounce 押韵；近义组是弹起的动作。"
-    },
-    "groups": [
-      {
-        "heading": "LOOK-ALIKE",
-        "entries": [
-          {
-            "word": "ounce",
-            "ipa": "/aʊns/",
-            "tag": "look-alike",
-            "definition": "a unit of weight",
-            "definitionCN": "盎司"
-          },
-          {
-            "word": "pounce",
-            "ipa": "/paʊns/",
-            "tag": "look-alike",
-            "definition": "to jump on something suddenly",
-            "definitionCN": "猛扑"
-          }
-        ]
-      },
-      {
-        "heading": "NEAR MEANING",
-        "entries": [
-          {
-            "word": "rebound",
-            "ipa": "/rɪˈbaʊnd/",
-            "tag": "near synonym",
-            "definition": "to bounce back after hitting something",
-            "definitionCN": "反弹"
-          },
-          {
-            "word": "spring",
-            "ipa": "/sprɪŋ/",
-            "tag": "near synonym",
-            "definition": "to jump suddenly",
-            "definitionCN": "弹起，跳跃"
-          },
-          {
-            "word": "leap",
-            "ipa": "/liːp/",
-            "tag": "related",
-            "definition": "to jump a long way",
-            "definitionCN": "跳跃"
-          }
-        ]
-      }
-    ]
-  },
-  "mnemonics": {
-    "normalIntro": {
-      "en": "Bounce is a ball that refuses to stay down.",
-      "cn": "bounce 就是不肯停在地上的球。"
-    },
-    "normal": [
-      {
-        "en": "Bounce and bounced are the base and past forms.",
-        "cn": "原形是 bounce，过去式是 bounced。"
-      },
-      {
-        "en": "A ball bounces off a wall.",
-        "cn": "球会从墙上弹开。"
-      },
-      {
-        "en": "Bounce back means to recover.",
-        "cn": "bounce back 意为恢复过来。"
-      },
-      {
-        "en": "Bouncy means full of spring.",
-        "cn": "bouncy 意为有弹性的。"
-      },
-      {
-        "en": "A bounced cheque has no money behind it.",
-        "cn": "退票的支票背后没有钱。"
+        "tag": "n.",
+        "zh": "名词：弹跳，反弹力"
       }
     ],
-    "abstract": [
+    "collocations": [
       {
-        "en": "See a tennis ball striking a wall.",
-        "cn": "想象网球撞上墙壁。"
+        "phrase": "bounce a ball",
+        "zh": "拍球"
       },
       {
-        "en": "See children jumping on a soft bed.",
-        "cn": "想象孩子们在软床上蹦跳。"
+        "phrase": "bounce back",
+        "zh": "恢复过来，反弹"
       },
       {
-        "en": "See a cheque sliding back across a counter.",
-        "cn": "想象一张支票从柜台被推回来。"
+        "phrase": "bounce off",
+        "zh": "从…弹开"
+      },
+      {
+        "phrase": "bounce up and down",
+        "zh": "上下弹跳"
+      },
+      {
+        "phrase": "bounce a cheque",
+        "zh": "支票因余额不足被退回"
       }
-    ]
-  },
-  "examples": [
-    {
-      "en": "The ball bounced off the wall.",
-      "cn": "球从墙上弹了回来。"
-    },
-    {
-      "en": "The children bounced on the bed.",
-      "cn": "孩子们在床上蹦来蹦去。"
-    },
-    {
-      "en": "His cheque bounced at the bank.",
-      "cn": "他的支票被银行退回了。"
-    }
-  ],
-  "dict_mnemonic": {
-    "note": "拆词记忆 · 非词源",
-    "text": "bounce 读起来像球落地的「蹦」声，声音一响，球就弹起来了。",
-    "word": "bounce"
-  },
-  "root": "bounce 源自中古英语 bunsen（击打），十六世纪指重击，十九世纪转为撞后弹回，二十世纪又指支票被退回。",
-  "sensesIntro": {
-    "en": "Springing off a surface, jumping up and down, and a cheque sent back.",
-    "cn": "从表面弹开、上下蹦跳，以及支票被退回。"
-  },
-  "semanticMap": {
-    "core": {
-      "en": "CORE IMAGE: a ball leaving a wall.",
-      "cn": "核心意象：撞墙后飞离的球。"
-    },
-    "chain": [
-      "HIT",
-      "SPRING",
-      "BALL",
-      "AIR",
-      "RETURN",
-      "EJECT"
     ],
-    "branches": [
+    "forms": [
       {
-        "senses": "01",
-        "en": "bounce off the wall",
-        "cn": "从墙上弹开"
+        "label": "第三人称单数",
+        "form": "bounces"
       },
       {
-        "senses": "01",
-        "en": "bounce a ball",
-        "cn": "拍球"
+        "label": "过去式",
+        "form": "bounced"
       },
       {
-        "senses": "02",
-        "en": "bounce on the bed",
-        "cn": "在床上蹦"
-      },
-      {
-        "senses": "02",
-        "en": "bouncing steps",
-        "cn": "蹦跳的脚步"
-      },
-      {
-        "senses": "03",
-        "en": "a bounced cheque",
-        "cn": "退票的支票"
+        "label": "现在分词",
+        "form": "bouncing"
       }
-    ]
-  },
-  "affixes": {
-    "intro": {
-      "en": "Bounce takes -er and -y to name a person and a quality.",
-      "cn": "bounce 加 -er 与 -y 可表示人与性质。"
-    },
-    "latinIntro": {
-      "en": "The base is Middle English; the items below share the idea of springing.",
-      "cn": "词基来自中古英语，下面的词都围绕弹起。"
-    },
-    "items": [
-      {
-        "word": "bounce",
-        "structure": "Middle English bunsen",
-        "meaning": "to spring back",
-        "meaningCN": "弹回",
-        "example": "bounce off the wall",
-        "exampleCN": "从墙上弹开"
-      },
+    ],
+    "derivatives": [
       {
         "word": "bouncer",
-        "structure": "bounce + -er",
-        "meaning": "a person who guards a club door",
-        "meaningCN": "夜店保安",
-        "example": "a club bouncer",
-        "exampleCN": "夜店保安"
+        "pos": "n.",
+        "zh": "夜店保安；弹跳力强的人"
       },
       {
         "word": "bouncy",
-        "structure": "bounce + -y",
-        "meaning": "full of spring",
-        "meaningCN": "有弹性的",
-        "example": "a bouncy ball",
-        "exampleCN": "弹力球"
-      },
-      {
-        "word": "rebound",
-        "structure": "re- + bound",
-        "meaning": "to bounce back",
-        "meaningCN": "反弹",
-        "example": "rebound off the board",
-        "exampleCN": "从板上弹回"
-      },
-      {
-        "word": "spring",
-        "structure": "Old English springan",
-        "meaning": "to jump suddenly",
-        "meaningCN": "弹起",
-        "example": "spring into the air",
-        "exampleCN": "弹向空中"
-      },
-      {
-        "word": "leap",
-        "structure": "Old English hleapan",
-        "meaning": "to jump a long way",
-        "meaningCN": "跳跃",
-        "example": "leap over a fence",
-        "exampleCN": "跃过篱笆"
-      },
-      {
-        "word": "jump",
-        "structure": "origin uncertain",
-        "meaning": "to push off the ground",
-        "meaningCN": "跳",
-        "example": "jump high",
-        "exampleCN": "跳得高"
-      },
-      {
-        "word": "vault",
-        "structure": "Old French volter",
-        "meaning": "to jump over something",
-        "meaningCN": "跳过",
-        "example": "vault a gate",
-        "exampleCN": "跃过大门"
+        "pos": "adj.",
+        "zh": "有弹性的，蹦跳的"
       }
     ],
-    "latinEntries": []
+    "senses": [
+      {
+        "no": "01",
+        "title": "To spring back from a surface",
+        "titleCN": "弹跳",
+        "definition": "to hit something and move away from it quickly",
+        "definitionCN": "撞到某物后迅速离开",
+        "example": "The ball bounced off the wall.",
+        "exampleCN": "球从墙上弹了回来。",
+        "why": "This is the core sense, from an old word for a heavy blow.",
+        "whyCN": "这是核心义项，来自古时表示重击的词。"
+      },
+      {
+        "no": "02",
+        "title": "To move up and down",
+        "titleCN": "上下晃动",
+        "definition": "to move up and down again and again",
+        "definitionCN": "反复地上下移动",
+        "example": "The children bounced on the bed.",
+        "exampleCN": "孩子们在床上蹦来蹦去。",
+        "why": "Anything springing on a soft surface repeats the same movement.",
+        "whyCN": "柔软表面上的弹起会不断重复同一个动作。"
+      },
+      {
+        "no": "03",
+        "title": "To be sent back unpaid",
+        "titleCN": "被退回",
+        "definition": "to be returned by a bank because there is no money",
+        "definitionCN": "因账户无钱被银行退回",
+        "example": "His cheque bounced at the bank.",
+        "exampleCN": "他的支票被银行退回了。",
+        "why": "A cheque that springs back to the payer is said to bounce.",
+        "whyCN": "支票弹回付款人手里，就说它 bounce 了。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Bounce first meant to beat or thump, and the springing sense came later.",
+        "cn": "bounce 最初意为击打，反弹义出现得较晚。"
+      },
+      "items": [
+        {
+          "era": "MIDDLE ENGLISH",
+          "en": "bunsen meant to beat or thump.",
+          "cn": "bunsen 意为击打或重捶。"
+        },
+        {
+          "era": "SIXTEENTH CENTURY",
+          "en": "bounce named a heavy blow.",
+          "cn": "bounce 指重重的一击。"
+        },
+        {
+          "era": "NINETEENTH CENTURY",
+          "en": "bounce meant to spring back from a surface.",
+          "cn": "bounce 指从表面弹回。"
+        },
+        {
+          "era": "TWENTIETH CENTURY",
+          "en": "a bounced cheque was returned unpaid.",
+          "cn": "bounced cheque 指被退回的支票。"
+        },
+        {
+          "era": "PRESENT DAY ENGLISH",
+          "en": "bounce covers springing, jumping and returns.",
+          "cn": "如今 bounce 兼指反弹、蹦跳与退回。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "The look-alike group rhymes with bounce; the near-meaning group names springing movements.",
+        "cn": "形近组与 bounce 押韵；近义组是弹起的动作。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "ounce",
+              "ipa": "/aʊns/",
+              "tag": "look-alike",
+              "definition": "a unit of weight",
+              "definitionCN": "盎司"
+            },
+            {
+              "word": "pounce",
+              "ipa": "/paʊns/",
+              "tag": "look-alike",
+              "definition": "to jump on something suddenly",
+              "definitionCN": "猛扑"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "rebound",
+              "ipa": "/rɪˈbaʊnd/",
+              "tag": "near synonym",
+              "definition": "to bounce back after hitting something",
+              "definitionCN": "反弹"
+            },
+            {
+              "word": "spring",
+              "ipa": "/sprɪŋ/",
+              "tag": "near synonym",
+              "definition": "to jump suddenly",
+              "definitionCN": "弹起，跳跃"
+            },
+            {
+              "word": "leap",
+              "ipa": "/liːp/",
+              "tag": "related",
+              "definition": "to jump a long way",
+              "definitionCN": "跳跃"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Bounce is a ball that refuses to stay down.",
+        "cn": "bounce 就是不肯停在地上的球。"
+      },
+      "normal": [
+        {
+          "en": "Bounce and bounced are the base and past forms.",
+          "cn": "原形是 bounce，过去式是 bounced。"
+        },
+        {
+          "en": "A ball bounces off a wall.",
+          "cn": "球会从墙上弹开。"
+        },
+        {
+          "en": "Bounce back means to recover.",
+          "cn": "bounce back 意为恢复过来。"
+        },
+        {
+          "en": "Bouncy means full of spring.",
+          "cn": "bouncy 意为有弹性的。"
+        },
+        {
+          "en": "A bounced cheque has no money behind it.",
+          "cn": "退票的支票背后没有钱。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "See a tennis ball striking a wall.",
+          "cn": "想象网球撞上墙壁。"
+        },
+        {
+          "en": "See children jumping on a soft bed.",
+          "cn": "想象孩子们在软床上蹦跳。"
+        },
+        {
+          "en": "See a cheque sliding back across a counter.",
+          "cn": "想象一张支票从柜台被推回来。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "The ball bounced off the wall.",
+        "cn": "球从墙上弹了回来。"
+      },
+      {
+        "en": "The children bounced on the bed.",
+        "cn": "孩子们在床上蹦来蹦去。"
+      },
+      {
+        "en": "His cheque bounced at the bank.",
+        "cn": "他的支票被银行退回了。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "拆词记忆 · 非词源",
+      "text": "bounce 读起来像球落地的「蹦」声，声音一响，球就弹起来了。",
+      "word": "bounce"
+    },
+    "root": "bounce 源自中古英语 bunsen（击打），十六世纪指重击，十九世纪转为撞后弹回，二十世纪又指支票被退回。",
+    "sensesIntro": {
+      "en": "Springing off a surface, jumping up and down, and a cheque sent back.",
+      "cn": "从表面弹开、上下蹦跳，以及支票被退回。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: a ball leaving a wall.",
+        "cn": "核心意象：撞墙后飞离的球。"
+      },
+      "chain": [
+        "HIT",
+        "SPRING",
+        "BALL",
+        "AIR",
+        "RETURN",
+        "EJECT"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "bounce off the wall",
+          "cn": "从墙上弹开"
+        },
+        {
+          "senses": "01",
+          "en": "bounce a ball",
+          "cn": "拍球"
+        },
+        {
+          "senses": "02",
+          "en": "bounce on the bed",
+          "cn": "在床上蹦"
+        },
+        {
+          "senses": "02",
+          "en": "bouncing steps",
+          "cn": "蹦跳的脚步"
+        },
+        {
+          "senses": "03",
+          "en": "a bounced cheque",
+          "cn": "退票的支票"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Bounce takes -er and -y to name a person and a quality.",
+        "cn": "bounce 加 -er 与 -y 可表示人与性质。"
+      },
+      "latinIntro": {
+        "en": "The base is Middle English; the items below share the idea of springing.",
+        "cn": "词基来自中古英语，下面的词都围绕弹起。"
+      },
+      "items": [
+        {
+          "word": "bounce",
+          "structure": "Middle English bunsen",
+          "meaning": "to spring back",
+          "meaningCN": "弹回",
+          "example": "bounce off the wall",
+          "exampleCN": "从墙上弹开"
+        },
+        {
+          "word": "bouncer",
+          "structure": "bounce + -er",
+          "meaning": "a person who guards a club door",
+          "meaningCN": "夜店保安",
+          "example": "a club bouncer",
+          "exampleCN": "夜店保安"
+        },
+        {
+          "word": "bouncy",
+          "structure": "bounce + -y",
+          "meaning": "full of spring",
+          "meaningCN": "有弹性的",
+          "example": "a bouncy ball",
+          "exampleCN": "弹力球"
+        },
+        {
+          "word": "rebound",
+          "structure": "re- + bound",
+          "meaning": "to bounce back",
+          "meaningCN": "反弹",
+          "example": "rebound off the board",
+          "exampleCN": "从板上弹回"
+        },
+        {
+          "word": "spring",
+          "structure": "Old English springan",
+          "meaning": "to jump suddenly",
+          "meaningCN": "弹起",
+          "example": "spring into the air",
+          "exampleCN": "弹向空中"
+        },
+        {
+          "word": "leap",
+          "structure": "Old English hleapan",
+          "meaning": "to jump a long way",
+          "meaningCN": "跳跃",
+          "example": "leap over a fence",
+          "exampleCN": "跃过篱笆"
+        },
+        {
+          "word": "jump",
+          "structure": "origin uncertain",
+          "meaning": "to push off the ground",
+          "meaningCN": "跳",
+          "example": "jump high",
+          "exampleCN": "跳得高"
+        },
+        {
+          "word": "vault",
+          "structure": "Old French volter",
+          "meaning": "to jump over something",
+          "meaningCN": "跳过",
+          "example": "vault a gate",
+          "exampleCN": "跃过大门"
+        }
+      ],
+      "latinEntries": []
+    }
   }
-}
+]

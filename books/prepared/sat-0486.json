@@ -1,153 +1,427 @@
-{
-  "word": "bumper",
-  "ipa_uk": "/ˈbʌmpə/",
-  "ipa_us": "/ˈbʌmpər/",
-  "definition_zh": "保险杠；缓冲器； bumper 亦指“异常丰硕的”（形容词）",
-  "definition_en": "a device that absorbs shock at the front or rear of a vehicle; a bumper crop is an unusually large one",
-  "core_image": "车头的横杠，替车身先挨撞",
-  "scene": "停车场里两车轻轻一碰，横杠上留下道白痕。The old car's bumper was dented in the collision.",
-  "sceneCN": "这里 bumper 是「保险杠」（第 1 个义项：吸收撞击的部件）；句意是旧车的保险杠在碰撞中凹了。",
-  "pos": [
-    { "tag": "n.", "zh": "保险杠；缓冲器；减震垫" },
-    { "tag": "adj.", "zh": "丰盛的，异常大的（如 bumper crop 丰收）" }
-  ],
-  "collocations": [
-    { "phrase": "bumper to bumper", "zh": "（车流）一辆接一辆，堵得水泄不通" },
-    { "phrase": "a bumper crop", "zh": "大丰收" },
-    { "phrase": "a bumper harvest", "zh": "丰收" },
-    { "phrase": "a bumper year", "zh": "丰盛之年" },
-    { "phrase": "front and rear bumpers", "zh": "前后保险杠" },
-    { "phrase": "a bumper season", "zh": "（生意、演出）极旺的季期" }
-  ],
-  "forms": [
-    { "label": "复数", "form": "bumpers" }
-  ],
-  "derivatives": [
-    { "word": "bump", "pos": "v.", "zh": "bumper 的基础词，义为「碰撞，撞上」" },
-    { "word": "bumpy", "pos": "adj.", "zh": "由 bump 加 -y 构成，义为「颠簸的」" },
-    { "word": "bumper sticker", "pos": "n.", "zh": "复合词，义为「（贴在）保险杠上的标语贴纸」" }
-  ],
-  "senses": [
-    {
-      "no": "01",
-      "title": "A shock-absorbing bar on a vehicle",
-      "titleCN": "保险杠；缓冲杠",
-      "definition": "a horizontal bar at the front or rear of a vehicle that absorbs minor impacts",
-      "definitionCN": "车辆前后吸收轻微撞击的横杠",
-      "example": "The parking bump cracked the rear bumper.",
-      "exampleCN": "停车时的轻碰弄裂了后保险杠。",
-      "why": "The agent suffix -er names the thing that takes the bump.",
-      "whyCN": "施动后缀 -er 把「承受碰撞之物」命名为 bumper。"
-    },
-    {
-      "no": "02",
-      "title": "Any cushioning device",
-      "titleCN": "缓冲器；减震垫",
-      "definition": "any padded or springy device that softens a blow",
-      "definitionCN": "缓和撞击的任何软垫或弹性装置",
-      "example": "Pool tables have rubber bumpers on the rails.",
-      "exampleCN": "台球桌边装有橡胶缓冲垫。",
-      "why": "The vehicle part generalizes to wherever impact must be absorbed.",
-      "whyCN": "车辆部件推广到一切需要吸震之处。"
-    },
-    {
-      "no": "03",
-      "title": "Unusually large or abundant",
-      "titleCN": "丰盛的，异常大的（形容词）",
-      "definition": "exceptionally large or plentiful, as of crops, crowds or seasons",
-      "definitionCN": "（收成、客流、季期等）异常丰硕、旺盛的",
-      "example": "Rains brought a bumper wheat crop.",
-      "exampleCN": "降雨带来了小麦大丰收。",
-      "why": "A full bump — a swollen, rounded abundance — stretched into the adjective.",
-      "whyCN": "「鼓胀饱满」之象延伸出丰硕之义，名词义转为形容词。"
-    }
-  ],
-  "etymology": {
-    "intro": { "en": "Bumper is bump plus the agent suffix -er, from an imitative root.", "cn": "bumper 由拟声动词 bump 加施动后缀 -er 构成。" },
-    "items": [
-      { "era": "IMITATIVE ORIGIN", "en": "bump arose in the sixteenth century, echoing the sound of a dull blow.", "cn": "bump 十六世纪出现，摹仿沉闷的撞击声。" },
-      { "era": "ENGLISH, 17TH C.", "en": "bumper first named a full cup of ale, drunk at a gulp.", "cn": "十七世纪 bumper 初指一满杯麦酒，须一饮而尽。" },
-      { "era": "ENGLISH, 18TH–19TH C.", "en": "the sense of swollen fullness gave the adjective bumper crop.", "cn": "「满胀」之义衍生出形容词 bumper crop（大丰收）。" },
-      { "era": "ENGLISH, 19TH–20TH C.", "en": "motorcars adopted bumper for the impact bar.", "cn": "十九至二十世纪汽车以 bumper 称撞击横杠。" },
-      { "era": "PRESENT DAY ENGLISH", "en": "bumper now spans car parts, cushions and abundant yields.", "cn": "如今 bumper 兼指车用部件、缓冲装置与丰硕产出。" }
-    ]
-  },
-  "similar": {
-    "note": { "en": "Bumper sits in the bump family and by its fellow impact-absorbers.", "cn": "bumper 属 bump 词族，与同类吸震词为邻。" },
-    "groups": [
+[
+  {
+    "word": "bumper",
+    "ipa_uk": "/ˈbʌmpə/",
+    "ipa_us": "/ˈbʌmpər/",
+    "definition_zh": "保险杠；缓冲器； bumper 亦指“异常丰硕的”（形容词）",
+    "definition_en": "a device that absorbs shock at the front or rear of a vehicle; a bumper crop is an unusually large one",
+    "core_image": "车头的横杠，替车身先挨撞",
+    "scene": "停车场里两车轻轻一碰，横杠上留下道白痕。The old car's bumper was dented in the collision.",
+    "sceneCN": "这里 bumper 是「保险杠」（第 1 个义项：吸收撞击的部件）；句意是旧车的保险杠在碰撞中凹了。",
+    "pos": [
       {
-        "heading": "LOOK-ALIKE",
-        "entries": [
-          { "word": "bump", "ipa": "/bʌmp/", "tag": "same root", "definition": "a light blow; a raised area", "definitionCN": "碰撞；隆起处，bumper 的基础词" },
-          { "word": "bumpy", "ipa": "/ˈbʌmpi/", "tag": "derived form", "definition": "full of bumps", "definitionCN": "颠簸的，同族形容词" },
-          { "word": "bumper to bumper", "ipa": "/ˈbʌmpə tə ˈbʌmpə/", "tag": "phrase", "definition": "cars packed so close they nearly touch", "definitionCN": "车贴车的拥堵状态" },
-          { "word": "bumper sticker", "ipa": "/ˈbʌmpə ˈstɪkə/", "tag": "compound", "definition": "a slogan stuck on a car bumper", "definitionCN": "车尾标语贴纸，复合词" }
-        ]
+        "tag": "n.",
+        "zh": "保险杠；缓冲器；减震垫"
       },
       {
-        "heading": "NEAR MEANING",
-        "entries": [
-          { "word": "fender", "ipa": "/ˈfendə/", "tag": "near meaning", "definition": "a guard over a wheel or at the front of a car", "definitionCN": "挡泥板；护杠，美式常与 bumper 混称" },
-          { "word": "buffer", "ipa": "/ˈbʌfə/", "tag": "near meaning", "definition": "a shock-absorbing device or zone", "definitionCN": "缓冲器，缓冲区" },
-          { "word": "cushion", "ipa": "/ˈkʊʃən/", "tag": "near meaning", "definition": "a soft pad absorbing impact", "definitionCN": "软垫，缓冲物" },
-          { "word": "record", "ipa": "/ˈrekɔːd/", "tag": "near meaning", "definition": "the highest yet, as a record harvest", "definitionCN": "创纪录的，与 bumper crop 义近的修饰语" },
-          { "word": "banner", "ipa": "/ˈbænə/", "tag": "near meaning", "definition": "outstanding, as a banner year", "definitionCN": "（年份、季期）极好的，banner year 与 bumper year 对应" }
-        ]
+        "tag": "adj.",
+        "zh": "丰盛的，异常大的（如 bumper crop 丰收）"
       }
-    ]
-  },
-  "mnemonics": {
-    "normalIntro": { "en": "It is the thing that takes the bump so the car does not.", "cn": "它就是替车身挨撞的那道杠。" },
-    "normal": [
-      { "en": "Bump is the sound of a dull blow; add -er.", "cn": "bump 是闷响，加上 -er 即可。" },
-      { "en": "The oldest bumper was a full mug of ale.", "cn": "最早的 bumper 是一大满杯麦酒。" },
-      { "en": "Fullness gives the adjective: a bumper crop.", "cn": "满胀引出形容词：bumper crop。" },
-      { "en": "Bumper to bumper paints the traffic jam.", "cn": "bumper to bumper 描出堵车画面。" },
-      { "en": "Banner year and bumper year mean the same.", "cn": "banner year 与 bumper year 同义。" }
     ],
-    "abstract": [
-      { "en": "Feel a soft thud travel through a rubber bar.", "cn": "感受闷响穿过橡胶横杠。" },
-      { "en": "See a grain truck overflow with golden wheat.", "cn": "看见运粮车满得溢出金黄麦粒。" },
-      { "en": "Hear pool balls click against the rubber rails.", "cn": "听台球撞上橡胶库边的一声脆响。" }
-    ]
-  },
-  "examples": [
-    { "en": "Traffic was bumper to bumper for two hours.", "cn": "堵车堵得一辆贴着一辆，持续了两个小时。" },
-    { "en": "A bumper crowd filled the stadium.", "cn": "观众爆满，座无虚席。" },
-    { "en": "He backed into a pole and bent the bumper.", "cn": "他倒车撞上立柱，保险杠撞弯了。" }
-  ],
-  "dict_mnemonic": { "note": "谐音记忆 · 非词源", "text": "「碰」——bumper 就是替车「碰」的那道杠，先撞它，别撞车。", "word": "bumper" },
-  "root": "bumper 由拟声动词 bump（撞、碰，十六世纪见于英语）加施动后缀 -er 构成，指「承受碰撞之物」；早期义「满杯酒」由「鼓胀」之象引申出形容词「丰盛的」，词源无拉丁成分。",
-  "sensesIntro": { "en": "The thing that takes the bump widens into any shock absorber, and its sense of fullness yields the adjective of abundance.", "cn": "「承受撞击之物」推广为一切缓冲器，其「满胀」之义又衍出「丰盛」的形容词。" },
-  "semanticMap": {
-    "core": { "en": "CORE IMAGE: a horizontal bar meeting the blow first.", "cn": "核心意象：一道横杠先迎上撞击。" },
-    "chain": ["IMPACT", "ABSORPTION", "PROTECTION", "FULLNESS", "ABUNDANCE", "TRAFFIC"],
-    "branches": [
-      { "senses": "01", "en": "a dented rear bumper", "cn": "撞凹的后保险杠" },
-      { "senses": "01", "en": "bumper to bumper traffic", "cn": "车贴车的拥堵" },
-      { "senses": "02", "en": "rubber bumpers on a pool table", "cn": "台球桌的橡胶缓冲垫" },
-      { "senses": "03", "en": "a bumper harvest", "cn": "大丰收" },
-      { "senses": "02 · 03", "en": "a bumper season at the box office", "cn": "票房极旺的季期" }
-    ]
-  },
-  "affixes": {
-    "intro": { "en": "Bumper is an agent noun of an imitative verb: bump plus -er.", "cn": "bumper 是拟声动词的施动名词：bump 加 -er。" },
-    "latinIntro": { "en": "The root is imitative English; no Latin stem exists.", "cn": "词根为英语拟声词，并无拉丁词干。" },
-    "items": [
-      { "word": "bump", "structure": "imitative verb", "meaning": "to knock lightly", "meaningCN": "碰，撞", "example": "bump into an old friend", "exampleCN": "偶遇老友" },
-      { "word": "-er", "structure": "agent suffix", "meaning": "one or something that acts", "meaningCN": "施动后缀", "example": "printer, buffer, bumper", "exampleCN": "如 printer、buffer、bumper 等词" },
-      { "word": "bumper", "structure": "bump + -er", "meaning": "impact bar; unusually large", "meaningCN": "保险杠；丰盛的", "example": "a bumper crop", "exampleCN": "大丰收" },
-      { "word": "bumpy", "structure": "bump + -y", "meaning": "rough, jolting", "meaningCN": "颠簸的", "example": "a bumpy road", "exampleCN": "颠簸的路" },
-      { "word": "thump", "structure": "related imitative verb", "meaning": "to hit with a heavy blow", "meaningCN": "重击", "example": "thump the table", "exampleCN": "捶桌子" },
-      { "word": "plump", "structure": "related imitative verb", "meaning": "to drop heavily; rounded", "meaningCN": "沉重落下；丰满的", "example": "a plump cushion", "exampleCN": "鼓鼓的垫子" },
-      { "word": "fender", "structure": "defend + -er", "meaning": "a wheel or front guard", "meaningCN": "挡泥板，护杠", "example": "a dented fender", "exampleCN": "撞瘪的挡泥板" },
-      { "word": "sticker", "structure": "stick + -er", "meaning": "an adhesive label", "meaningCN": "贴纸", "example": "a bumper sticker", "exampleCN": "车尾贴纸" },
-      { "word": "bumper sticker", "structure": "compound noun", "meaning": "a car slogan label", "meaningCN": "车尾标语贴", "example": "a witty bumper sticker", "exampleCN": "俏皮的车尾标语" },
-      { "word": "shock absorber", "structure": "compound noun", "meaning": "a device damping jolts", "meaningCN": "减震器", "example": "worn shock absorbers", "exampleCN": "磨损的减震器" }
+    "collocations": [
+      {
+        "phrase": "bumper to bumper",
+        "zh": "（车流）一辆接一辆，堵得水泄不通"
+      },
+      {
+        "phrase": "a bumper crop",
+        "zh": "大丰收"
+      },
+      {
+        "phrase": "a bumper harvest",
+        "zh": "丰收"
+      },
+      {
+        "phrase": "a bumper year",
+        "zh": "丰盛之年"
+      },
+      {
+        "phrase": "front and rear bumpers",
+        "zh": "前后保险杠"
+      },
+      {
+        "phrase": "a bumper season",
+        "zh": "（生意、演出）极旺的季期"
+      }
     ],
-    "latinEntries": [],
+    "forms": [
+      {
+        "label": "复数",
+        "form": "bumpers"
+      }
+    ],
     "derivatives": [
-      { "word": "bumpy", "pos": "adj.", "zh": "颠簸的" }
-    ]
+      {
+        "word": "bump",
+        "pos": "v.",
+        "zh": "bumper 的基础词，义为「碰撞，撞上」"
+      },
+      {
+        "word": "bumpy",
+        "pos": "adj.",
+        "zh": "由 bump 加 -y 构成，义为「颠簸的」"
+      },
+      {
+        "word": "bumper sticker",
+        "pos": "n.",
+        "zh": "复合词，义为「（贴在）保险杠上的标语贴纸」"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "A shock-absorbing bar on a vehicle",
+        "titleCN": "保险杠；缓冲杠",
+        "definition": "a horizontal bar at the front or rear of a vehicle that absorbs minor impacts",
+        "definitionCN": "车辆前后吸收轻微撞击的横杠",
+        "example": "The parking bump cracked the rear bumper.",
+        "exampleCN": "停车时的轻碰弄裂了后保险杠。",
+        "why": "The agent suffix -er names the thing that takes the bump.",
+        "whyCN": "施动后缀 -er 把「承受碰撞之物」命名为 bumper。"
+      },
+      {
+        "no": "02",
+        "title": "Any cushioning device",
+        "titleCN": "缓冲器；减震垫",
+        "definition": "any padded or springy device that softens a blow",
+        "definitionCN": "缓和撞击的任何软垫或弹性装置",
+        "example": "Pool tables have rubber bumpers on the rails.",
+        "exampleCN": "台球桌边装有橡胶缓冲垫。",
+        "why": "The vehicle part generalizes to wherever impact must be absorbed.",
+        "whyCN": "车辆部件推广到一切需要吸震之处。"
+      },
+      {
+        "no": "03",
+        "title": "Unusually large or abundant",
+        "titleCN": "丰盛的，异常大的（形容词）",
+        "definition": "exceptionally large or plentiful, as of crops, crowds or seasons",
+        "definitionCN": "（收成、客流、季期等）异常丰硕、旺盛的",
+        "example": "Rains brought a bumper wheat crop.",
+        "exampleCN": "降雨带来了小麦大丰收。",
+        "why": "A full bump — a swollen, rounded abundance — stretched into the adjective.",
+        "whyCN": "「鼓胀饱满」之象延伸出丰硕之义，名词义转为形容词。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Bumper is bump plus the agent suffix -er, from an imitative root.",
+        "cn": "bumper 由拟声动词 bump 加施动后缀 -er 构成。"
+      },
+      "items": [
+        {
+          "era": "IMITATIVE ORIGIN",
+          "en": "bump arose in the sixteenth century, echoing the sound of a dull blow.",
+          "cn": "bump 十六世纪出现，摹仿沉闷的撞击声。"
+        },
+        {
+          "era": "ENGLISH, 17TH C.",
+          "en": "bumper first named a full cup of ale, drunk at a gulp.",
+          "cn": "十七世纪 bumper 初指一满杯麦酒，须一饮而尽。"
+        },
+        {
+          "era": "ENGLISH, 18TH–19TH C.",
+          "en": "the sense of swollen fullness gave the adjective bumper crop.",
+          "cn": "「满胀」之义衍生出形容词 bumper crop（大丰收）。"
+        },
+        {
+          "era": "ENGLISH, 19TH–20TH C.",
+          "en": "motorcars adopted bumper for the impact bar.",
+          "cn": "十九至二十世纪汽车以 bumper 称撞击横杠。"
+        },
+        {
+          "era": "PRESENT DAY ENGLISH",
+          "en": "bumper now spans car parts, cushions and abundant yields.",
+          "cn": "如今 bumper 兼指车用部件、缓冲装置与丰硕产出。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "Bumper sits in the bump family and by its fellow impact-absorbers.",
+        "cn": "bumper 属 bump 词族，与同类吸震词为邻。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "bump",
+              "ipa": "/bʌmp/",
+              "tag": "same root",
+              "definition": "a light blow; a raised area",
+              "definitionCN": "碰撞；隆起处，bumper 的基础词"
+            },
+            {
+              "word": "bumpy",
+              "ipa": "/ˈbʌmpi/",
+              "tag": "derived form",
+              "definition": "full of bumps",
+              "definitionCN": "颠簸的，同族形容词"
+            },
+            {
+              "word": "bumper to bumper",
+              "ipa": "/ˈbʌmpə tə ˈbʌmpə/",
+              "tag": "phrase",
+              "definition": "cars packed so close they nearly touch",
+              "definitionCN": "车贴车的拥堵状态"
+            },
+            {
+              "word": "bumper sticker",
+              "ipa": "/ˈbʌmpə ˈstɪkə/",
+              "tag": "compound",
+              "definition": "a slogan stuck on a car bumper",
+              "definitionCN": "车尾标语贴纸，复合词"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "fender",
+              "ipa": "/ˈfendə/",
+              "tag": "near meaning",
+              "definition": "a guard over a wheel or at the front of a car",
+              "definitionCN": "挡泥板；护杠，美式常与 bumper 混称"
+            },
+            {
+              "word": "buffer",
+              "ipa": "/ˈbʌfə/",
+              "tag": "near meaning",
+              "definition": "a shock-absorbing device or zone",
+              "definitionCN": "缓冲器，缓冲区"
+            },
+            {
+              "word": "cushion",
+              "ipa": "/ˈkʊʃən/",
+              "tag": "near meaning",
+              "definition": "a soft pad absorbing impact",
+              "definitionCN": "软垫，缓冲物"
+            },
+            {
+              "word": "record",
+              "ipa": "/ˈrekɔːd/",
+              "tag": "near meaning",
+              "definition": "the highest yet, as a record harvest",
+              "definitionCN": "创纪录的，与 bumper crop 义近的修饰语"
+            },
+            {
+              "word": "banner",
+              "ipa": "/ˈbænə/",
+              "tag": "near meaning",
+              "definition": "outstanding, as a banner year",
+              "definitionCN": "（年份、季期）极好的，banner year 与 bumper year 对应"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "It is the thing that takes the bump so the car does not.",
+        "cn": "它就是替车身挨撞的那道杠。"
+      },
+      "normal": [
+        {
+          "en": "Bump is the sound of a dull blow; add -er.",
+          "cn": "bump 是闷响，加上 -er 即可。"
+        },
+        {
+          "en": "The oldest bumper was a full mug of ale.",
+          "cn": "最早的 bumper 是一大满杯麦酒。"
+        },
+        {
+          "en": "Fullness gives the adjective: a bumper crop.",
+          "cn": "满胀引出形容词：bumper crop。"
+        },
+        {
+          "en": "Bumper to bumper paints the traffic jam.",
+          "cn": "bumper to bumper 描出堵车画面。"
+        },
+        {
+          "en": "Banner year and bumper year mean the same.",
+          "cn": "banner year 与 bumper year 同义。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "Feel a soft thud travel through a rubber bar.",
+          "cn": "感受闷响穿过橡胶横杠。"
+        },
+        {
+          "en": "See a grain truck overflow with golden wheat.",
+          "cn": "看见运粮车满得溢出金黄麦粒。"
+        },
+        {
+          "en": "Hear pool balls click against the rubber rails.",
+          "cn": "听台球撞上橡胶库边的一声脆响。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "Traffic was bumper to bumper for two hours.",
+        "cn": "堵车堵得一辆贴着一辆，持续了两个小时。"
+      },
+      {
+        "en": "A bumper crowd filled the stadium.",
+        "cn": "观众爆满，座无虚席。"
+      },
+      {
+        "en": "He backed into a pole and bent the bumper.",
+        "cn": "他倒车撞上立柱，保险杠撞弯了。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「碰」——bumper 就是替车「碰」的那道杠，先撞它，别撞车。",
+      "word": "bumper"
+    },
+    "root": "bumper 由拟声动词 bump（撞、碰，十六世纪见于英语）加施动后缀 -er 构成，指「承受碰撞之物」；早期义「满杯酒」由「鼓胀」之象引申出形容词「丰盛的」，词源无拉丁成分。",
+    "sensesIntro": {
+      "en": "The thing that takes the bump widens into any shock absorber, and its sense of fullness yields the adjective of abundance.",
+      "cn": "「承受撞击之物」推广为一切缓冲器，其「满胀」之义又衍出「丰盛」的形容词。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: a horizontal bar meeting the blow first.",
+        "cn": "核心意象：一道横杠先迎上撞击。"
+      },
+      "chain": [
+        "IMPACT",
+        "ABSORPTION",
+        "PROTECTION",
+        "FULLNESS",
+        "ABUNDANCE",
+        "TRAFFIC"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "a dented rear bumper",
+          "cn": "撞凹的后保险杠"
+        },
+        {
+          "senses": "01",
+          "en": "bumper to bumper traffic",
+          "cn": "车贴车的拥堵"
+        },
+        {
+          "senses": "02",
+          "en": "rubber bumpers on a pool table",
+          "cn": "台球桌的橡胶缓冲垫"
+        },
+        {
+          "senses": "03",
+          "en": "a bumper harvest",
+          "cn": "大丰收"
+        },
+        {
+          "senses": "02 · 03",
+          "en": "a bumper season at the box office",
+          "cn": "票房极旺的季期"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Bumper is an agent noun of an imitative verb: bump plus -er.",
+        "cn": "bumper 是拟声动词的施动名词：bump 加 -er。"
+      },
+      "latinIntro": {
+        "en": "The root is imitative English; no Latin stem exists.",
+        "cn": "词根为英语拟声词，并无拉丁词干。"
+      },
+      "items": [
+        {
+          "word": "bump",
+          "structure": "imitative verb",
+          "meaning": "to knock lightly",
+          "meaningCN": "碰，撞",
+          "example": "bump into an old friend",
+          "exampleCN": "偶遇老友"
+        },
+        {
+          "word": "-er",
+          "structure": "agent suffix",
+          "meaning": "one or something that acts",
+          "meaningCN": "施动后缀",
+          "example": "printer, buffer, bumper",
+          "exampleCN": "如 printer、buffer、bumper 等词"
+        },
+        {
+          "word": "bumper",
+          "structure": "bump + -er",
+          "meaning": "impact bar; unusually large",
+          "meaningCN": "保险杠；丰盛的",
+          "example": "a bumper crop",
+          "exampleCN": "大丰收"
+        },
+        {
+          "word": "bumpy",
+          "structure": "bump + -y",
+          "meaning": "rough, jolting",
+          "meaningCN": "颠簸的",
+          "example": "a bumpy road",
+          "exampleCN": "颠簸的路"
+        },
+        {
+          "word": "thump",
+          "structure": "related imitative verb",
+          "meaning": "to hit with a heavy blow",
+          "meaningCN": "重击",
+          "example": "thump the table",
+          "exampleCN": "捶桌子"
+        },
+        {
+          "word": "plump",
+          "structure": "related imitative verb",
+          "meaning": "to drop heavily; rounded",
+          "meaningCN": "沉重落下；丰满的",
+          "example": "a plump cushion",
+          "exampleCN": "鼓鼓的垫子"
+        },
+        {
+          "word": "fender",
+          "structure": "defend + -er",
+          "meaning": "a wheel or front guard",
+          "meaningCN": "挡泥板，护杠",
+          "example": "a dented fender",
+          "exampleCN": "撞瘪的挡泥板"
+        },
+        {
+          "word": "sticker",
+          "structure": "stick + -er",
+          "meaning": "an adhesive label",
+          "meaningCN": "贴纸",
+          "example": "a bumper sticker",
+          "exampleCN": "车尾贴纸"
+        },
+        {
+          "word": "bumper sticker",
+          "structure": "compound noun",
+          "meaning": "a car slogan label",
+          "meaningCN": "车尾标语贴",
+          "example": "a witty bumper sticker",
+          "exampleCN": "俏皮的车尾标语"
+        },
+        {
+          "word": "shock absorber",
+          "structure": "compound noun",
+          "meaning": "a device damping jolts",
+          "meaningCN": "减震器",
+          "example": "worn shock absorbers",
+          "exampleCN": "磨损的减震器"
+        }
+      ],
+      "latinEntries": [],
+      "derivatives": [
+        {
+          "word": "bumpy",
+          "pos": "adj.",
+          "zh": "颠簸的"
+        }
+      ]
+    }
   }
-}
+]

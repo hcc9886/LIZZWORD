@@ -1,489 +1,491 @@
-{
-  "word": "brightness",
-  "ipa_uk": "/ˈbraɪtnəs/",
-  "ipa_us": "/ˈbraɪtnəs/",
-  "definition_zh": "明亮；亮度；鲜艳程度；（声音的）明亮度；聪慧",
-  "definition_en": "the quality of giving out or reflecting much light, or of being vivid, clear or quick to understand",
-  "core_image": "暗室里一盏灯被调亮，光越过桌沿，照亮整个角落",
-  "scene": "灯塔守望者在深夜调大灯芯，让一束光扫过礁石。The lantern's brightness guided the fishing boats past the reef.",
-  "sceneCN": "这里指「光源发出的光的强弱」（第 1 个义项：发光体向四周送出光线的强度）；句意为灯塔灯的亮度引导渔船绕过暗礁。图中可辨识物件：灯芯、玻璃灯罩、扫过海面的光束、礁石。",
-  "pos": [
-    {
-      "tag": "n.",
-      "zh": "明亮；亮度；鲜明；（声音的）明亮度；聪慧"
-    }
-  ],
-  "collocations": [
-    {
-      "phrase": "screen brightness",
-      "zh": "屏幕亮度"
-    },
-    {
-      "phrase": "adjust the brightness",
-      "zh": "调节亮度"
-    },
-    {
-      "phrase": "brightness level",
-      "zh": "亮度等级"
-    },
-    {
-      "phrase": "the brightness of a star",
-      "zh": "恒星的亮度"
-    },
-    {
-      "phrase": "colour brightness",
-      "zh": "色彩明度"
-    },
-    {
-      "phrase": "brightness of tone",
-      "zh": "音色的明亮度"
-    }
-  ],
-  "forms": [
-    {
-      "label": "复数",
-      "form": "brightnesses"
-    },
-    {
-      "label": "形容词（原级）",
-      "form": "bright"
-    },
-    {
-      "label": "形容词比较级",
-      "form": "brighter"
-    },
-    {
-      "label": "形容词最高级",
-      "form": "brightest"
-    },
-    {
-      "label": "副词",
-      "form": "brightly"
-    },
-    {
-      "label": "动词（使变亮）",
-      "form": "brighten"
-    }
-  ],
-  "derivatives": [
-    {
-      "word": "bright",
-      "pos": "adj.",
-      "zh": "明亮的；鲜艳的；聪明的"
-    },
-    {
-      "word": "brighten",
-      "pos": "v.",
-      "zh": "使变亮；变得明朗"
-    },
-    {
-      "word": "brightly",
-      "pos": "adv.",
-      "zh": "明亮地；鲜明地"
-    },
-    {
-      "word": "brightening",
-      "pos": "n./adj.",
-      "zh": "变亮；变亮的"
-    },
-    {
-      "word": "bright-eyed",
-      "pos": "adj.",
-      "zh": "眼睛明亮的；机灵的"
-    }
-  ],
-  "senses": [
-    {
-      "no": "01",
-      "title": "Light given out by a source",
-      "titleCN": "光源发出的光的强弱",
-      "definition": "the amount of light that a lamp, star or other source sends out",
-      "definitionCN": "灯、恒星或其他光源发出的光的量",
-      "example": "The brightness of the lamp was too much for the small room.",
-      "exampleCN": "这盏灯对这个小房间来说太亮了。",
-      "why": "brightness is the abstract noun of bright, so it names the quality itself rather than the thing that has it.",
-      "whyCN": "brightness 是 bright 的抽象名词，命名的正是「亮」这一性质，而不是发亮的物体。"
-    },
-    {
-      "no": "02",
-      "title": "Reflected light from a surface",
-      "titleCN": "表面反射光的亮度",
-      "definition": "the degree to which a surface reflects light and looks light rather than dark",
-      "definitionCN": "表面反射光线的程度，从而显得浅而不是深",
-      "example": "Fresh snow raised the brightness of the whole valley.",
-      "exampleCN": "新雪提高了整个山谷的亮度。",
-      "why": "once brightness is treated as a measurable quality, it can be read off any surface, not only off lamps.",
-      "whyCN": "一旦亮度被当作可测量的性质，它就能读在任何表面上，而不只属于灯。"
-    },
-    {
-      "no": "03",
-      "title": "Vividness of a colour",
-      "titleCN": "颜色的鲜艳与明度",
-      "definition": "the strength or lightness of a colour",
-      "definitionCN": "颜色的强度或明度",
-      "example": "The restorer cleaned the canvas and the brightness of the blues returned.",
-      "exampleCN": "修复师清洁了画布，蓝色的鲜艳又回来了。",
-      "why": "colour has its own light-like scale, so the same word moved from lamps to pigments.",
-      "whyCN": "颜色本身有一套类似明暗的尺度，于是同一个词从灯移到了颜料上。"
-    },
-    {
-      "no": "04",
-      "title": "Clearness of sound",
-      "titleCN": "声音的明亮清晰",
-      "definition": "the quality of a sound that is clear and high rather than dull or muffled",
-      "definitionCN": "声音清晰、偏高而不沉闷含混的性质",
-      "example": "The new microphone added brightness to the violin's tone.",
-      "exampleCN": "新麦克风让小提琴的音色更明亮。",
-      "why": "acoustics borrowed the visual scale: high, clean sound is called bright, and its quality is brightness.",
-      "whyCN": "声学借用了视觉的尺度：高而干净的声音被称为「亮」，其性质就是 brightness。"
-    },
-    {
-      "no": "05",
-      "title": "Apparent brightness of a star",
-      "titleCN": "天体的视亮度",
-      "definition": "the light received from a celestial body as seen from Earth",
-      "definitionCN": "在地球上接收到的天体发出的光",
-      "example": "Astronomers recorded the brightness of the supernova every night.",
-      "exampleCN": "天文学家每晚记录这颗超新星的亮度。",
-      "why": "observers needed a word for measured light as distinct from the formal magnitude scale, and brightness filled that place.",
-      "whyCN": "观测者需要一个词来指实测的光量，以区别于正式的星等标尺，brightness 正好补上这个位置。"
-    },
-    {
-      "no": "06",
-      "title": "Screen luminance",
-      "titleCN": "屏幕的亮度设置",
-      "definition": "the level of light set on a display or screen",
-      "definitionCN": "显示器或屏幕设定的发光水平",
-      "example": "She lowered the brightness of her phone at night.",
-      "exampleCN": "她在夜里把手机亮度调低。",
-      "why": "the technical sense narrowed brightness to a controllable setting on a device.",
-      "whyCN": "技术义把亮度收窄为设备上一个可调节的设定值。"
-    },
-    {
-      "no": "07",
-      "title": "Cheerful hopefulness",
-      "titleCN": "心情的明朗与乐观",
-      "definition": "a cheerful, hopeful quality in a person or an occasion",
-      "definitionCN": "人或场合中明快、充满希望的性质",
-      "example": "Her brightness made the long meeting feel short.",
-      "exampleCN": "她的明朗让漫长的会议显得很短。",
-      "why": "light has long stood for happiness, so brightness carried that metaphor into mood.",
-      "whyCN": "光很早就象征快乐，于是 brightness 把这层比喻带进了心情。"
-    },
-    {
-      "no": "08",
-      "title": "Quickness of mind",
-      "titleCN": "聪慧机敏",
-      "definition": "the quality of being intelligent and quick to understand",
-      "definitionCN": "聪明、理解迅速的性质",
-      "example": "Teachers noticed the brightness of the child in every lesson.",
-      "exampleCN": "老师们在每节课上都注意到这个孩子的聪慧。",
-      "why": "a bright mind is one that lights up quickly, and the noun keeps that older metaphor.",
-      "whyCN": "「明亮的头脑」指很快亮起来的头脑，这个名词保留了这一较早的比喻。"
-    }
-  ],
-  "etymology": {
-    "intro": {
-      "en": "Brightness is a native English formation, built from the adjective bright and the abstract suffix -ness; its root is Germanic, so it has no Latin ancestor. Dates are approximate.",
-      "cn": "brightness 是英语本族构成，由形容词 bright 加抽象后缀 -ness 组成；其词根属日耳曼语族，没有拉丁语祖先。年代均为约数。"
-    },
-    "items": [
+[
+  {
+    "word": "brightness",
+    "ipa_uk": "/ˈbraɪtnəs/",
+    "ipa_us": "/ˈbraɪtnəs/",
+    "definition_zh": "明亮；亮度；鲜艳程度；（声音的）明亮度；聪慧",
+    "definition_en": "the quality of giving out or reflecting much light, or of being vivid, clear or quick to understand",
+    "core_image": "暗室里一盏灯被调亮，光越过桌沿，照亮整个角落",
+    "scene": "灯塔守望者在深夜调大灯芯，让一束光扫过礁石。The lantern's brightness guided the fishing boats past the reef.",
+    "sceneCN": "这里指「光源发出的光的强弱」（第 1 个义项：发光体向四周送出光线的强度）；句意为灯塔灯的亮度引导渔船绕过暗礁。图中可辨识物件：灯芯、玻璃灯罩、扫过海面的光束、礁石。",
+    "pos": [
       {
-        "era": "OLD ENGLISH",
-        "en": "Old English had beorhtnes, from beorht 'shining, clear' plus the abstract suffix -nes.",
-        "cn": "古英语已有 beorhtnes，由 beorht「发光的、清晰的」加抽象后缀 -nes 构成。"
-      },
-      {
-        "era": "GERMANIC ROOT",
-        "en": "Beorht belongs to a Germanic family represented by reconstructed *berhtaz 'bright'; the reconstruction is secure as a family label but its deeper origin is not settled.",
-        "cn": "beorht 属于以重构形式 *berhtaz「明亮的」为代表的日耳曼语族；这一重构作为语族标签较为可靠，但其更深来源没有定论。"
-      },
-      {
-        "era": "MIDDLE ENGLISH",
-        "en": "After the Norman period the native -nes was replaced by the borrowed -ness, giving the modern shape brightness.",
-        "cn": "诺曼时期之后，本族的 -nes 被借入的 -ness 取代，形成现代形式 brightness。"
-      },
-      {
-        "era": "SENSE WIDENING",
-        "en": "From the sixteenth century brightness was applied to colours, to sound and to the mind, each time keeping the idea of light.",
-        "cn": "从十六世纪起，brightness 被用于颜色、声音与头脑，每次都保留「光」的观念。"
-      },
-      {
-        "era": "TECHNICAL USE",
-        "en": "In the twentieth century the word became a setting on screens and a measured quantity in astronomy and acoustics.",
-        "cn": "到二十世纪，这个词成为屏幕上的一个设定值，也成为天文学与声学中的可测量。"
-      },
-      {
-        "era": "UNCERTAIN DETAILS",
-        "en": "Source uncertain (deeper origin only): the pre-Germanic source of *berhtaz is unknown, and any Indo-European root proposed for it is a reconstruction, not a demonstrated derivation.",
-        "cn": "来源不确定（仅更深词源）：*berhtaz 在日耳曼语之前的来源不明，凡为其提出的印欧词根都是重构形式，并非已证实的派生。"
-      }
-    ]
-  },
-  "similar": {
-    "note": {
-      "en": "Group one holds the same-root forms that are often confused with the noun; group two holds technical and near-meaning light words.",
-      "cn": "第一组是同根、易与这个名词混淆的形式；第二组是技术性或语义相近的光亮词。"
-    },
-    "groups": [
-      {
-        "heading": "LOOK-ALIKE",
-        "entries": [
-          {
-            "word": "bright",
-            "ipa": "/braɪt/",
-            "tag": "the adjective",
-            "definition": "The adjective that names the object which shines; brightness names the quality, so the two cannot replace each other.",
-            "definitionCN": "指发亮的物体本身的形容词；brightness 命名的是性质，两者不能互换。"
-          },
-          {
-            "word": "brighten",
-            "ipa": "/ˈbraɪtn/",
-            "tag": "a verb of change",
-            "definition": "To make or become bright; it marks a change of state, while brightness is the state itself.",
-            "definitionCN": "使变亮或变亮；它标记状态的变化，而 brightness 是状态本身。"
-          },
-          {
-            "word": "brilliance",
-            "ipa": "/ˈbrɪliəns/",
-            "tag": "different suffix",
-            "definition": "The noun of brilliant; it adds sparkle or outstanding talent, whereas brightness is the plainer measurable quality.",
-            "definitionCN": "brilliant 的名词；多了闪耀或出众才华的意味，而 brightness 是更朴素、可测量的性质。"
-          },
-          {
-            "word": "brightly",
-            "ipa": "/ˈbraɪtli/",
-            "tag": "adverb",
-            "definition": "An adverb modifying how something shines; it answers how, not what quality is present.",
-            "definitionCN": "修饰发光方式的副词；回答「怎样」，而不回答「具有什么性质」。"
-          }
-        ]
-      },
-      {
-        "heading": "NEAR MEANING",
-        "entries": [
-          {
-            "word": "luminance",
-            "ipa": "/ˈluːmɪnəns/",
-            "tag": "measured surface light",
-            "definition": "A photometric term for light emitted per unit area of a surface; it is a strict measurement, while brightness is everyday and broader.",
-            "definitionCN": "光度学术语，指表面单位面积发出的光；是严格的测量量，而 brightness 日常且范围更宽。"
-          },
-          {
-            "word": "luminosity",
-            "ipa": "/ˌluːmɪˈnɒsəti/",
-            "tag": "intrinsic star power",
-            "definition": "The total light a star emits; brightness usually means the light actually received, so the two differ in astronomy.",
-            "definitionCN": "恒星发出的总光量；brightness 通常指实际接收到的光，因此在天文学中两者有别。"
-          },
-          {
-            "word": "radiance",
-            "ipa": "/ˈreɪdiəns/",
-            "tag": "glowing spread",
-            "definition": "Light as it spreads outward with warmth; it is warmer and more literary than brightness.",
-            "definitionCN": "光向外扩散并带暖意；比 brightness 更温暖、更文学化。"
-          },
-          {
-            "word": "illumination",
-            "ipa": "/ɪˌluːmɪˈneɪʃn/",
-            "tag": "light falling on a place",
-            "definition": "The act of lighting a place or the amount of light that falls on it, rather than the light a body sends out.",
-            "definitionCN": "照亮某处这一动作，或落在那里的光量，而不是某物体发出的光。"
-          }
-        ]
-      }
-    ]
-  },
-  "mnemonics": {
-    "normalIntro": {
-      "en": "Normal associations: real suffixes, real relatives and real collocations, not invented rhymes.",
-      "cn": "正常联想：真实的构词后缀、真实同族词与真实搭配，而非编造的顺口溜。"
-    },
-    "normal": [
-      {
-        "en": "The suffix -ness turns the adjective bright into the abstract noun brightness.",
-        "cn": "后缀 -ness 把形容词 bright 变成抽象名词 brightness。"
-      },
-      {
-        "en": "The family runs bright, brighten, brightly, brightening and brightness.",
-        "cn": "同族形式包括 bright、brighten、brightly、brightening 与 brightness。"
-      },
-      {
-        "en": "Devices use brightness as a setting; astronomers use it as a measured quantity.",
-        "cn": "设备把亮度当作一个设定值；天文学家把它当作可测量的量。"
-      },
-      {
-        "en": "Brightness is what you measure; brilliance is what you admire.",
-        "cn": "亮度是量出来的；光彩是赞出来的。"
-      },
-      {
-        "en": "The word is Germanic, so its Latin neighbours are loanwords such as luminance and luminosity.",
-        "cn": "这个词属日耳曼语族，因此它的拉丁近邻是 luminance、luminosity 一类的借词。"
+        "tag": "n.",
+        "zh": "明亮；亮度；鲜明；（声音的）明亮度；聪慧"
       }
     ],
-    "abstract": [
+    "collocations": [
       {
-        "en": "Picture a dimmer switch that slowly lifts a room out of darkness.",
-        "cn": "想象一个调光旋钮，把房间一点点从黑暗里提起来。"
+        "phrase": "screen brightness",
+        "zh": "屏幕亮度"
       },
       {
-        "en": "Picture light that left a star long ago still arriving at your eye.",
-        "cn": "想象一颗星很久以前发出的光，此刻才到达你的眼睛。"
+        "phrase": "adjust the brightness",
+        "zh": "调节亮度"
       },
       {
-        "en": "Picture a person who enters a dull room and makes it feel lighter.",
-        "cn": "想象一个人走进沉闷的房间，让整个房间轻快起来。"
+        "phrase": "brightness level",
+        "zh": "亮度等级"
+      },
+      {
+        "phrase": "the brightness of a star",
+        "zh": "恒星的亮度"
+      },
+      {
+        "phrase": "colour brightness",
+        "zh": "色彩明度"
+      },
+      {
+        "phrase": "brightness of tone",
+        "zh": "音色的明亮度"
       }
-    ]
-  },
-  "examples": [
-    {
-      "en": "The brightness of the screen was painful in the dark.",
-      "cn": "屏幕的亮度在黑暗里刺眼。"
-    },
-    {
-      "en": "Astronomers compare the brightness of stars at known distances.",
-      "cn": "天文学家比较已知距离上的恒星亮度。"
-    },
-    {
-      "en": "The brightness of her reply lifted the whole team.",
-      "cn": "她回答时的明快让整个团队振作起来。"
-    }
-  ],
-  "dict_mnemonic": {
-    "note": "拆词记忆 · 非词源",
-    "text": "「bright（明亮）+ -ness（性质后缀）」——亮这一性质本身 → 明亮、亮度",
-    "word": "brightness"
-  },
-  "root": "古英语 beorht「发光的、清晰的」加抽象后缀 -nes 构成 beorhtnes；bright 属日耳曼语族，与重构形式 *berhtaz 同族，更深来源不确定。",
-  "sensesIntro": {
-    "en": "Eight senses follow one quality of light: it leaves a lamp, leaves a surface, colours a pigment, clears a sound, reaches us from a star, becomes a screen setting, and finally lights a mood and a mind.",
-    "cn": "八个义项沿同一种「光」的性质展开：它从灯发出、从表面反射、染上颜料、使声音清晰、从恒星抵达我们、变成屏幕设定，最后照亮心情与头脑。"
-  },
-  "semanticMap": {
-    "core": {
-      "en": "CORE IMAGE: one lamp turned up in a dark room, its light reaching every corner and every surface.",
-      "cn": "核心意象：暗室里一盏灯被调亮，光到达每个角落与每个表面。"
-    },
-    "chain": [
-      "LIGHT FROM A SOURCE",
-      "REFLECTED LIGHT",
-      "COLOUR VIVIDNESS",
-      "CLEAR SOUND",
-      "MEASURED STARLIGHT",
-      "SCREEN SETTING"
     ],
-    "branches": [
+    "forms": [
       {
-        "senses": "01 · 05",
-        "en": "MEASURED LIGHT: what a lamp or a star sends out can be compared on one scale.",
-        "cn": "可量的光：灯或恒星送出的光可以放在同一把尺上比较。"
+        "label": "复数",
+        "form": "brightnesses"
       },
       {
-        "senses": "02 · 03",
-        "en": "SURFACE AND PIGMENT: the quality is read off what reflects it, not only off what emits it.",
-        "cn": "表面与颜料：这一性质可以从反射它的东西上读出，而不只从发光体上读出。"
+        "label": "形容词（原级）",
+        "form": "bright"
       },
       {
-        "senses": "04",
-        "en": "CLEAR SOUND: acoustics borrows the visual scale and calls clean, high sound bright.",
-        "cn": "清亮的声音：声学借用视觉尺度，把干净偏高的声音称作「亮」。"
+        "label": "形容词比较级",
+        "form": "brighter"
       },
       {
-        "senses": "06",
-        "en": "DEVICE SETTING: a physical quantity becomes a knob the user can turn.",
-        "cn": "设备设定：一个物理量变成了用户可以拧动的旋钮。"
+        "label": "形容词最高级",
+        "form": "brightest"
       },
       {
-        "senses": "07 · 08",
-        "en": "MOOD AND MIND: light stands for cheerfulness and for quick understanding.",
-        "cn": "心情与头脑：光象征明朗快乐，也象征理解迅速。"
+        "label": "副词",
+        "form": "brightly"
+      },
+      {
+        "label": "动词（使变亮）",
+        "form": "brighten"
       }
-    ]
-  },
-  "affixes": {
-    "intro": {
-      "en": "Brightness is transparently built from an adjective plus a productive noun suffix, so its morphology can be read without guesswork.",
-      "cn": "brightness 由一个形容词加一个能产的名词后缀透明地构成，因此其形态可以不经猜测直接读出。"
-    },
-    "latinIntro": {
-      "en": "The word is Germanic, so it has no Latin entries; the Latin layer of English supplies the technical neighbours luminance and luminosity instead.",
-      "cn": "这个词属日耳曼语族，因此没有拉丁条目；英语的拉丁层改为提供 luminance 与 luminosity 这类技术近邻。"
-    },
-    "items": [
+    ],
+    "derivatives": [
       {
         "word": "bright",
-        "structure": "Old English beorht (adjective)",
-        "meaning": "shining; clear; vivid",
-        "meaningCN": "明亮的；清晰的；鲜明的",
-        "example": "A bright star stood over the bay.",
-        "exampleCN": "一颗明亮的星悬在海湾上方。"
-      },
-      {
-        "word": "-ness",
-        "structure": "Old English -nes (abstract noun suffix)",
-        "meaning": "the state or quality of being",
-        "meaningCN": "……的状态或性质",
-        "example": "The suffix turns an adjective into a name for its quality.",
-        "exampleCN": "这个后缀把形容词变成其性质的名词。"
-      },
-      {
-        "word": "brightness",
-        "structure": "bright + -ness",
-        "meaning": "the quality of being bright",
-        "meaningCN": "明亮这一性质",
-        "example": "The brightness of the lamp filled the room.",
-        "exampleCN": "灯的亮度充满了房间。"
+        "pos": "adj.",
+        "zh": "明亮的；鲜艳的；聪明的"
       },
       {
         "word": "brighten",
-        "structure": "bright + -en (verb-forming suffix)",
-        "meaning": "to make or become bright",
-        "meaningCN": "使变亮；变亮",
-        "example": "Dawn brightened the eastern wall.",
-        "exampleCN": "黎明照亮了东墙。"
+        "pos": "v.",
+        "zh": "使变亮；变得明朗"
       },
       {
         "word": "brightly",
-        "structure": "bright + -ly (adverb suffix)",
-        "meaning": "in a bright manner",
-        "meaningCN": "明亮地",
-        "example": "The hall was brightly lit.",
-        "exampleCN": "大厅被照得很亮。"
+        "pos": "adv.",
+        "zh": "明亮地；鲜明地"
       },
       {
         "word": "brightening",
-        "structure": "brighten + -ing (action or ongoing state)",
-        "meaning": "the act or process of becoming bright",
-        "meaningCN": "变亮的过程",
-        "example": "The sky showed a slow brightening.",
-        "exampleCN": "天空显出缓慢的变亮。"
-      },
-      {
-        "word": "overbright",
-        "structure": "over- (too much) + bright",
-        "meaning": "too bright",
-        "meaningCN": "过亮的",
-        "example": "The overbright sign washed out the street.",
-        "exampleCN": "过亮的招牌把街景照得发白。"
+        "pos": "n./adj.",
+        "zh": "变亮；变亮的"
       },
       {
         "word": "bright-eyed",
-        "structure": "bright + eyed (compound adjective)",
-        "meaning": "with bright, lively eyes",
-        "meaningCN": "眼睛明亮有神的",
-        "example": "The bright-eyed child ran to the door.",
-        "exampleCN": "那个眼睛明亮的孩子跑向门口。"
-      },
-      {
-        "word": "brightness scale",
-        "structure": "brightness + scale (compound noun)",
-        "meaning": "a graded set of brightness levels",
-        "meaningCN": "亮度等级标尺",
-        "example": "The chart shows a brightness scale from one to ten.",
-        "exampleCN": "图表给出从一到十的亮度等级。"
+        "pos": "adj.",
+        "zh": "眼睛明亮的；机灵的"
       }
     ],
-    "latinEntries": []
+    "senses": [
+      {
+        "no": "01",
+        "title": "Light given out by a source",
+        "titleCN": "光源发出的光的强弱",
+        "definition": "the amount of light that a lamp, star or other source sends out",
+        "definitionCN": "灯、恒星或其他光源发出的光的量",
+        "example": "The brightness of the lamp was too much for the small room.",
+        "exampleCN": "这盏灯对这个小房间来说太亮了。",
+        "why": "brightness is the abstract noun of bright, so it names the quality itself rather than the thing that has it.",
+        "whyCN": "brightness 是 bright 的抽象名词，命名的正是「亮」这一性质，而不是发亮的物体。"
+      },
+      {
+        "no": "02",
+        "title": "Reflected light from a surface",
+        "titleCN": "表面反射光的亮度",
+        "definition": "the degree to which a surface reflects light and looks light rather than dark",
+        "definitionCN": "表面反射光线的程度，从而显得浅而不是深",
+        "example": "Fresh snow raised the brightness of the whole valley.",
+        "exampleCN": "新雪提高了整个山谷的亮度。",
+        "why": "once brightness is treated as a measurable quality, it can be read off any surface, not only off lamps.",
+        "whyCN": "一旦亮度被当作可测量的性质，它就能读在任何表面上，而不只属于灯。"
+      },
+      {
+        "no": "03",
+        "title": "Vividness of a colour",
+        "titleCN": "颜色的鲜艳与明度",
+        "definition": "the strength or lightness of a colour",
+        "definitionCN": "颜色的强度或明度",
+        "example": "The restorer cleaned the canvas and the brightness of the blues returned.",
+        "exampleCN": "修复师清洁了画布，蓝色的鲜艳又回来了。",
+        "why": "colour has its own light-like scale, so the same word moved from lamps to pigments.",
+        "whyCN": "颜色本身有一套类似明暗的尺度，于是同一个词从灯移到了颜料上。"
+      },
+      {
+        "no": "04",
+        "title": "Clearness of sound",
+        "titleCN": "声音的明亮清晰",
+        "definition": "the quality of a sound that is clear and high rather than dull or muffled",
+        "definitionCN": "声音清晰、偏高而不沉闷含混的性质",
+        "example": "The new microphone added brightness to the violin's tone.",
+        "exampleCN": "新麦克风让小提琴的音色更明亮。",
+        "why": "acoustics borrowed the visual scale: high, clean sound is called bright, and its quality is brightness.",
+        "whyCN": "声学借用了视觉的尺度：高而干净的声音被称为「亮」，其性质就是 brightness。"
+      },
+      {
+        "no": "05",
+        "title": "Apparent brightness of a star",
+        "titleCN": "天体的视亮度",
+        "definition": "the light received from a celestial body as seen from Earth",
+        "definitionCN": "在地球上接收到的天体发出的光",
+        "example": "Astronomers recorded the brightness of the supernova every night.",
+        "exampleCN": "天文学家每晚记录这颗超新星的亮度。",
+        "why": "observers needed a word for measured light as distinct from the formal magnitude scale, and brightness filled that place.",
+        "whyCN": "观测者需要一个词来指实测的光量，以区别于正式的星等标尺，brightness 正好补上这个位置。"
+      },
+      {
+        "no": "06",
+        "title": "Screen luminance",
+        "titleCN": "屏幕的亮度设置",
+        "definition": "the level of light set on a display or screen",
+        "definitionCN": "显示器或屏幕设定的发光水平",
+        "example": "She lowered the brightness of her phone at night.",
+        "exampleCN": "她在夜里把手机亮度调低。",
+        "why": "the technical sense narrowed brightness to a controllable setting on a device.",
+        "whyCN": "技术义把亮度收窄为设备上一个可调节的设定值。"
+      },
+      {
+        "no": "07",
+        "title": "Cheerful hopefulness",
+        "titleCN": "心情的明朗与乐观",
+        "definition": "a cheerful, hopeful quality in a person or an occasion",
+        "definitionCN": "人或场合中明快、充满希望的性质",
+        "example": "Her brightness made the long meeting feel short.",
+        "exampleCN": "她的明朗让漫长的会议显得很短。",
+        "why": "light has long stood for happiness, so brightness carried that metaphor into mood.",
+        "whyCN": "光很早就象征快乐，于是 brightness 把这层比喻带进了心情。"
+      },
+      {
+        "no": "08",
+        "title": "Quickness of mind",
+        "titleCN": "聪慧机敏",
+        "definition": "the quality of being intelligent and quick to understand",
+        "definitionCN": "聪明、理解迅速的性质",
+        "example": "Teachers noticed the brightness of the child in every lesson.",
+        "exampleCN": "老师们在每节课上都注意到这个孩子的聪慧。",
+        "why": "a bright mind is one that lights up quickly, and the noun keeps that older metaphor.",
+        "whyCN": "「明亮的头脑」指很快亮起来的头脑，这个名词保留了这一较早的比喻。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Brightness is a native English formation, built from the adjective bright and the abstract suffix -ness; its root is Germanic, so it has no Latin ancestor. Dates are approximate.",
+        "cn": "brightness 是英语本族构成，由形容词 bright 加抽象后缀 -ness 组成；其词根属日耳曼语族，没有拉丁语祖先。年代均为约数。"
+      },
+      "items": [
+        {
+          "era": "OLD ENGLISH",
+          "en": "Old English had beorhtnes, from beorht 'shining, clear' plus the abstract suffix -nes.",
+          "cn": "古英语已有 beorhtnes，由 beorht「发光的、清晰的」加抽象后缀 -nes 构成。"
+        },
+        {
+          "era": "GERMANIC ROOT",
+          "en": "Beorht belongs to a Germanic family represented by reconstructed *berhtaz 'bright'; the reconstruction is secure as a family label but its deeper origin is not settled.",
+          "cn": "beorht 属于以重构形式 *berhtaz「明亮的」为代表的日耳曼语族；这一重构作为语族标签较为可靠，但其更深来源没有定论。"
+        },
+        {
+          "era": "MIDDLE ENGLISH",
+          "en": "After the Norman period the native -nes was replaced by the borrowed -ness, giving the modern shape brightness.",
+          "cn": "诺曼时期之后，本族的 -nes 被借入的 -ness 取代，形成现代形式 brightness。"
+        },
+        {
+          "era": "SENSE WIDENING",
+          "en": "From the sixteenth century brightness was applied to colours, to sound and to the mind, each time keeping the idea of light.",
+          "cn": "从十六世纪起，brightness 被用于颜色、声音与头脑，每次都保留「光」的观念。"
+        },
+        {
+          "era": "TECHNICAL USE",
+          "en": "In the twentieth century the word became a setting on screens and a measured quantity in astronomy and acoustics.",
+          "cn": "到二十世纪，这个词成为屏幕上的一个设定值，也成为天文学与声学中的可测量。"
+        },
+        {
+          "era": "UNCERTAIN DETAILS",
+          "en": "Source uncertain (deeper origin only): the pre-Germanic source of *berhtaz is unknown, and any Indo-European root proposed for it is a reconstruction, not a demonstrated derivation.",
+          "cn": "来源不确定（仅更深词源）：*berhtaz 在日耳曼语之前的来源不明，凡为其提出的印欧词根都是重构形式，并非已证实的派生。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "Group one holds the same-root forms that are often confused with the noun; group two holds technical and near-meaning light words.",
+        "cn": "第一组是同根、易与这个名词混淆的形式；第二组是技术性或语义相近的光亮词。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "bright",
+              "ipa": "/braɪt/",
+              "tag": "the adjective",
+              "definition": "The adjective that names the object which shines; brightness names the quality, so the two cannot replace each other.",
+              "definitionCN": "指发亮的物体本身的形容词；brightness 命名的是性质，两者不能互换。"
+            },
+            {
+              "word": "brighten",
+              "ipa": "/ˈbraɪtn/",
+              "tag": "a verb of change",
+              "definition": "To make or become bright; it marks a change of state, while brightness is the state itself.",
+              "definitionCN": "使变亮或变亮；它标记状态的变化，而 brightness 是状态本身。"
+            },
+            {
+              "word": "brilliance",
+              "ipa": "/ˈbrɪliəns/",
+              "tag": "different suffix",
+              "definition": "The noun of brilliant; it adds sparkle or outstanding talent, whereas brightness is the plainer measurable quality.",
+              "definitionCN": "brilliant 的名词；多了闪耀或出众才华的意味，而 brightness 是更朴素、可测量的性质。"
+            },
+            {
+              "word": "brightly",
+              "ipa": "/ˈbraɪtli/",
+              "tag": "adverb",
+              "definition": "An adverb modifying how something shines; it answers how, not what quality is present.",
+              "definitionCN": "修饰发光方式的副词；回答「怎样」，而不回答「具有什么性质」。"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "luminance",
+              "ipa": "/ˈluːmɪnəns/",
+              "tag": "measured surface light",
+              "definition": "A photometric term for light emitted per unit area of a surface; it is a strict measurement, while brightness is everyday and broader.",
+              "definitionCN": "光度学术语，指表面单位面积发出的光；是严格的测量量，而 brightness 日常且范围更宽。"
+            },
+            {
+              "word": "luminosity",
+              "ipa": "/ˌluːmɪˈnɒsəti/",
+              "tag": "intrinsic star power",
+              "definition": "The total light a star emits; brightness usually means the light actually received, so the two differ in astronomy.",
+              "definitionCN": "恒星发出的总光量；brightness 通常指实际接收到的光，因此在天文学中两者有别。"
+            },
+            {
+              "word": "radiance",
+              "ipa": "/ˈreɪdiəns/",
+              "tag": "glowing spread",
+              "definition": "Light as it spreads outward with warmth; it is warmer and more literary than brightness.",
+              "definitionCN": "光向外扩散并带暖意；比 brightness 更温暖、更文学化。"
+            },
+            {
+              "word": "illumination",
+              "ipa": "/ɪˌluːmɪˈneɪʃn/",
+              "tag": "light falling on a place",
+              "definition": "The act of lighting a place or the amount of light that falls on it, rather than the light a body sends out.",
+              "definitionCN": "照亮某处这一动作，或落在那里的光量，而不是某物体发出的光。"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Normal associations: real suffixes, real relatives and real collocations, not invented rhymes.",
+        "cn": "正常联想：真实的构词后缀、真实同族词与真实搭配，而非编造的顺口溜。"
+      },
+      "normal": [
+        {
+          "en": "The suffix -ness turns the adjective bright into the abstract noun brightness.",
+          "cn": "后缀 -ness 把形容词 bright 变成抽象名词 brightness。"
+        },
+        {
+          "en": "The family runs bright, brighten, brightly, brightening and brightness.",
+          "cn": "同族形式包括 bright、brighten、brightly、brightening 与 brightness。"
+        },
+        {
+          "en": "Devices use brightness as a setting; astronomers use it as a measured quantity.",
+          "cn": "设备把亮度当作一个设定值；天文学家把它当作可测量的量。"
+        },
+        {
+          "en": "Brightness is what you measure; brilliance is what you admire.",
+          "cn": "亮度是量出来的；光彩是赞出来的。"
+        },
+        {
+          "en": "The word is Germanic, so its Latin neighbours are loanwords such as luminance and luminosity.",
+          "cn": "这个词属日耳曼语族，因此它的拉丁近邻是 luminance、luminosity 一类的借词。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "Picture a dimmer switch that slowly lifts a room out of darkness.",
+          "cn": "想象一个调光旋钮，把房间一点点从黑暗里提起来。"
+        },
+        {
+          "en": "Picture light that left a star long ago still arriving at your eye.",
+          "cn": "想象一颗星很久以前发出的光，此刻才到达你的眼睛。"
+        },
+        {
+          "en": "Picture a person who enters a dull room and makes it feel lighter.",
+          "cn": "想象一个人走进沉闷的房间，让整个房间轻快起来。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "The brightness of the screen was painful in the dark.",
+        "cn": "屏幕的亮度在黑暗里刺眼。"
+      },
+      {
+        "en": "Astronomers compare the brightness of stars at known distances.",
+        "cn": "天文学家比较已知距离上的恒星亮度。"
+      },
+      {
+        "en": "The brightness of her reply lifted the whole team.",
+        "cn": "她回答时的明快让整个团队振作起来。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "拆词记忆 · 非词源",
+      "text": "「bright（明亮）+ -ness（性质后缀）」——亮这一性质本身 → 明亮、亮度",
+      "word": "brightness"
+    },
+    "root": "古英语 beorht「发光的、清晰的」加抽象后缀 -nes 构成 beorhtnes；bright 属日耳曼语族，与重构形式 *berhtaz 同族，更深来源不确定。",
+    "sensesIntro": {
+      "en": "Eight senses follow one quality of light: it leaves a lamp, leaves a surface, colours a pigment, clears a sound, reaches us from a star, becomes a screen setting, and finally lights a mood and a mind.",
+      "cn": "八个义项沿同一种「光」的性质展开：它从灯发出、从表面反射、染上颜料、使声音清晰、从恒星抵达我们、变成屏幕设定，最后照亮心情与头脑。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: one lamp turned up in a dark room, its light reaching every corner and every surface.",
+        "cn": "核心意象：暗室里一盏灯被调亮，光到达每个角落与每个表面。"
+      },
+      "chain": [
+        "LIGHT FROM A SOURCE",
+        "REFLECTED LIGHT",
+        "COLOUR VIVIDNESS",
+        "CLEAR SOUND",
+        "MEASURED STARLIGHT",
+        "SCREEN SETTING"
+      ],
+      "branches": [
+        {
+          "senses": "01 · 05",
+          "en": "MEASURED LIGHT: what a lamp or a star sends out can be compared on one scale.",
+          "cn": "可量的光：灯或恒星送出的光可以放在同一把尺上比较。"
+        },
+        {
+          "senses": "02 · 03",
+          "en": "SURFACE AND PIGMENT: the quality is read off what reflects it, not only off what emits it.",
+          "cn": "表面与颜料：这一性质可以从反射它的东西上读出，而不只从发光体上读出。"
+        },
+        {
+          "senses": "04",
+          "en": "CLEAR SOUND: acoustics borrows the visual scale and calls clean, high sound bright.",
+          "cn": "清亮的声音：声学借用视觉尺度，把干净偏高的声音称作「亮」。"
+        },
+        {
+          "senses": "06",
+          "en": "DEVICE SETTING: a physical quantity becomes a knob the user can turn.",
+          "cn": "设备设定：一个物理量变成了用户可以拧动的旋钮。"
+        },
+        {
+          "senses": "07 · 08",
+          "en": "MOOD AND MIND: light stands for cheerfulness and for quick understanding.",
+          "cn": "心情与头脑：光象征明朗快乐，也象征理解迅速。"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Brightness is transparently built from an adjective plus a productive noun suffix, so its morphology can be read without guesswork.",
+        "cn": "brightness 由一个形容词加一个能产的名词后缀透明地构成，因此其形态可以不经猜测直接读出。"
+      },
+      "latinIntro": {
+        "en": "The word is Germanic, so it has no Latin entries; the Latin layer of English supplies the technical neighbours luminance and luminosity instead.",
+        "cn": "这个词属日耳曼语族，因此没有拉丁条目；英语的拉丁层改为提供 luminance 与 luminosity 这类技术近邻。"
+      },
+      "items": [
+        {
+          "word": "bright",
+          "structure": "Old English beorht (adjective)",
+          "meaning": "shining; clear; vivid",
+          "meaningCN": "明亮的；清晰的；鲜明的",
+          "example": "A bright star stood over the bay.",
+          "exampleCN": "一颗明亮的星悬在海湾上方。"
+        },
+        {
+          "word": "-ness",
+          "structure": "Old English -nes (abstract noun suffix)",
+          "meaning": "the state or quality of being",
+          "meaningCN": "……的状态或性质",
+          "example": "The suffix turns an adjective into a name for its quality.",
+          "exampleCN": "这个后缀把形容词变成其性质的名词。"
+        },
+        {
+          "word": "brightness",
+          "structure": "bright + -ness",
+          "meaning": "the quality of being bright",
+          "meaningCN": "明亮这一性质",
+          "example": "The brightness of the lamp filled the room.",
+          "exampleCN": "灯的亮度充满了房间。"
+        },
+        {
+          "word": "brighten",
+          "structure": "bright + -en (verb-forming suffix)",
+          "meaning": "to make or become bright",
+          "meaningCN": "使变亮；变亮",
+          "example": "Dawn brightened the eastern wall.",
+          "exampleCN": "黎明照亮了东墙。"
+        },
+        {
+          "word": "brightly",
+          "structure": "bright + -ly (adverb suffix)",
+          "meaning": "in a bright manner",
+          "meaningCN": "明亮地",
+          "example": "The hall was brightly lit.",
+          "exampleCN": "大厅被照得很亮。"
+        },
+        {
+          "word": "brightening",
+          "structure": "brighten + -ing (action or ongoing state)",
+          "meaning": "the act or process of becoming bright",
+          "meaningCN": "变亮的过程",
+          "example": "The sky showed a slow brightening.",
+          "exampleCN": "天空显出缓慢的变亮。"
+        },
+        {
+          "word": "overbright",
+          "structure": "over- (too much) + bright",
+          "meaning": "too bright",
+          "meaningCN": "过亮的",
+          "example": "The overbright sign washed out the street.",
+          "exampleCN": "过亮的招牌把街景照得发白。"
+        },
+        {
+          "word": "bright-eyed",
+          "structure": "bright + eyed (compound adjective)",
+          "meaning": "with bright, lively eyes",
+          "meaningCN": "眼睛明亮有神的",
+          "example": "The bright-eyed child ran to the door.",
+          "exampleCN": "那个眼睛明亮的孩子跑向门口。"
+        },
+        {
+          "word": "brightness scale",
+          "structure": "brightness + scale (compound noun)",
+          "meaning": "a graded set of brightness levels",
+          "meaningCN": "亮度等级标尺",
+          "example": "The chart shows a brightness scale from one to ten.",
+          "exampleCN": "图表给出从一到十的亮度等级。"
+        }
+      ],
+      "latinEntries": []
+    }
   }
-}
+]

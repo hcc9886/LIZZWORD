@@ -1,153 +1,424 @@
-{
-  "word": "brittle",
-  "ipa_uk": "/ˈbrɪtl/",
-  "ipa_us": "/ˈbrɪtl/",
-  "definition_zh": "脆的，易碎的；脆弱的，靠不住的；（声音）尖利的",
-  "definition_en": "hard but liable to break easily; fragile in temper or health; sharp and crackling in sound",
-  "core_image": "玻璃般的硬壳，一敲就裂出细纹",
-  "scene": "深秋的凉台上，老人捏着一片枯叶轻轻一折。The dry leaf turned brittle and snapped in her fingers.",
-  "sceneCN": "这里 brittle 是「脆的、易碎的」（第 1 个义项：硬而无韧，一折即断）；句意是干枯的叶子发脆，在她指间啪地断了。",
-  "pos": [
-    { "tag": "adj.", "zh": "脆的；易碎的；脆弱的；（声音）尖利刺耳的" }
-  ],
-  "collocations": [
-    { "phrase": "brittle bones", "zh": "脆弱的骨骼" },
-    { "phrase": "a brittle substance", "zh": "脆性材料" },
-    { "phrase": "brittle relations", "zh": "脆弱的关系" },
-    { "phrase": "a brittle laugh", "zh": "尖利的笑声" },
-    { "phrase": "brittle with age", "zh": "年久发脆" }
-  ],
-  "forms": [
-    { "label": "比较级", "form": "more brittle / brittler" },
-    { "label": "最高级", "form": "most brittle / brittlest" }
-  ],
-  "derivatives": [
-    { "word": "brittleness", "pos": "n.", "zh": "由 brittle 加 -ness 构成，义为「脆性；脆弱」" },
-    { "word": "brittlely", "pos": "adv.", "zh": "由 brittle 加 -ly 构成，义为「发脆地；尖利地（罕用）」" }
-  ],
-  "senses": [
-    {
-      "no": "01",
-      "title": "Hard but easily broken",
-      "titleCN": "脆的；易碎的",
-      "definition": "hard and stiff, but breaking easily under a blow or bend",
-      "definitionCN": "硬而僵，但受击或弯折即碎",
-      "example": "The old paper was so brittle that it cracked at the fold.",
-      "exampleCN": "旧纸发脆，一折就裂。",
-      "why": "The core image is a hard shell with no give inside.",
-      "whyCN": "核心意象是硬壳内里没有韧劲，一折即断。"
-    },
-    {
-      "no": "02",
-      "title": "Easily damaged in health or temper",
-      "titleCN": "脆弱的；（体质、情绪）易伤的",
-      "definition": "fragile, as a person's health, nerves or relationships that break under little pressure",
-      "definitionCN": "健康、神经或关系稍受压力便崩溃的脆弱状态",
-      "example": "After the shock, his nerves grew brittle.",
-      "exampleCN": "受惊之后，他的神经变得脆弱。",
-      "why": "What breaks at a touch in objects extends to what collapses at a touch in people.",
-      "whyCN": "物一触即碎的属性，转喻为人一触即溃的状态。"
-    },
-    {
-      "no": "03",
-      "title": "Sharp and harsh in sound or manner",
-      "titleCN": "（声音、态度）尖利的；冷硬的",
-      "definition": "having a sharp, crackling or coldly hard quality of sound or manner",
-      "definitionCN": "声音干裂刺耳，或态度冷硬生涩",
-      "example": "She gave a brittle laugh and changed the subject.",
-      "exampleCN": "她尖利地笑了一声，随即岔开话题。",
-      "why": "A brittle surface both snaps and rings; the sound sense copies that snap.",
-      "whyCN": "脆物既折断又作响，声音义项模仿的就是这声脆响。"
-    }
-  ],
-  "etymology": {
-    "intro": { "en": "Brittle probably grew out of an old word for breaking, related to bretan.", "cn": "brittle 一般认为由古英语表「碎裂」的词派生而来。" },
-    "items": [
-      { "era": "OLD ENGLISH", "en": "brytan meant to shatter or crush to pieces.", "cn": "古英语 brytan 意为击碎、碾碎。" },
-      { "era": "MIDDLE ENGLISH", "en": "britel meant liable to break, a diminutive of the breaking verb.", "cn": "中古英语 britel 意为易碎的，由碎裂动词加指小后缀构成。" },
-      { "era": "ENGLISH, 14TH–16TH C.", "en": "spelling settled as brittle; the word spread to temper and sound.", "cn": "拼写定型为 brittle，词义扩展到性情与声音。" },
-      { "era": "SCIENCE, 19TH–20TH C.", "en": "materials science fixed brittle as the technical opposite of ductile.", "cn": "材料科学把 brittle 定为 ductile（延展性）的技术反义词。" },
-      { "era": "PRESENT DAY ENGLISH", "en": "brittle covers glass, bones, nerves and laughs.", "cn": "如今 brittle 可形容玻璃、骨骼、神经与笑声。" }
-    ]
-  },
-  "similar": {
-    "note": { "en": "Brittle sits among breaking words and stands against bendable ones.", "cn": "brittle 处于一组碎裂词之间，并与可弯折词相对。" },
-    "groups": [
+[
+  {
+    "word": "brittle",
+    "ipa_uk": "/ˈbrɪtl/",
+    "ipa_us": "/ˈbrɪtl/",
+    "definition_zh": "脆的，易碎的；脆弱的，靠不住的；（声音）尖利的",
+    "definition_en": "hard but liable to break easily; fragile in temper or health; sharp and crackling in sound",
+    "core_image": "玻璃般的硬壳，一敲就裂出细纹",
+    "scene": "深秋的凉台上，老人捏着一片枯叶轻轻一折。The dry leaf turned brittle and snapped in her fingers.",
+    "sceneCN": "这里 brittle 是「脆的、易碎的」（第 1 个义项：硬而无韧，一折即断）；句意是干枯的叶子发脆，在她指间啪地断了。",
+    "pos": [
       {
-        "heading": "LOOK-ALIKE",
-        "entries": [
-          { "word": "bristle", "ipa": "/ˈbrɪsl/", "tag": "spelling", "definition": "short stiff hairs; to stand up in anger", "definitionCN": "刚毛；（毛发）竖起——只是拼写相近，词源不同" },
-          { "word": "brittleness", "ipa": "/ˈbrɪtlnəs/", "tag": "derived form", "definition": "the quality of being brittle", "definitionCN": "脆性，由 brittle 派生的名词" },
-          { "word": "brickle", "ipa": "/ˈbrɪkl/", "tag": "dialect", "definition": "a northern dialect form of brittle", "definitionCN": "brittle 的北方方言变体" }
-        ]
+        "tag": "adj.",
+        "zh": "脆的；易碎的；脆弱的；（声音）尖利刺耳的"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "brittle bones",
+        "zh": "脆弱的骨骼"
       },
       {
-        "heading": "NEAR MEANING",
-        "entries": [
-          { "word": "fragile", "ipa": "/ˈfrædʒaɪl/", "tag": "near meaning", "definition": "easily broken or damaged", "definitionCN": "易碎的；脆弱的，侧重需轻拿轻放" },
-          { "word": "frail", "ipa": "/freɪl/", "tag": "near meaning", "definition": "weak and delicate", "definitionCN": "虚弱纤弱的，多形容人或身体" },
-          { "word": "crisp", "ipa": "/krɪsp/", "tag": "near meaning", "definition": "firm and breaking with a clean snap", "definitionCN": "酥脆的，常含悦耳爽口之意" },
-          { "word": "ductile", "ipa": "/ˈdʌktaɪl/", "tag": "opposite", "definition": "able to be stretched without breaking", "definitionCN": "有延展性的，brittle 的技术反义词" },
-          { "word": "shatter", "ipa": "/ˈʃætə(r)/", "tag": "near meaning", "definition": "to break suddenly into pieces", "definitionCN": "粉碎；碎裂，brittle 之物的下场" }
-        ]
+        "phrase": "a brittle substance",
+        "zh": "脆性材料"
+      },
+      {
+        "phrase": "brittle relations",
+        "zh": "脆弱的关系"
+      },
+      {
+        "phrase": "a brittle laugh",
+        "zh": "尖利的笑声"
+      },
+      {
+        "phrase": "brittle with age",
+        "zh": "年久发脆"
       }
-    ]
-  },
-  "mnemonics": {
-    "normalIntro": { "en": "Hold brittle against bristle to keep the two straight.", "cn": "把 brittle 与 bristle 对照着记，避免混淆。" },
-    "normal": [
-      { "en": "Brittle has TT like a crack splitting the word.", "cn": "brittle 的双写 tt 像一道裂纹把词劈开。" },
-      { "en": "Bristle is hair; brittle is glass.", "cn": "bristle 是硬毛，brittle 是玻璃。" },
-      { "en": "Brittle bones break: the old fear of age.", "cn": "brittle bones（脆骨）是年老的旧忧。" },
-      { "en": "Crisp snaps sweetly; brittle snaps badly.", "cn": "crisp 脆得悦耳，brittle 脆得糟心。" },
-      { "en": "Ductile bends, brittle breaks.", "cn": "ductile 能弯，brittle 会断。" }
     ],
-    "abstract": [
-      { "en": "Hear one dry leaf crack between two fingers.", "cn": "听一片枯叶在指间断裂。" },
-      { "en": "See the hairline zigzag run across old varnish.", "cn": "看见旧漆面上细裂纹蜿蜒而过。" },
-      { "en": "Feel a laugh with nothing warm under it.", "cn": "体会笑声底下毫无暖意的感觉。" }
-    ]
-  },
-  "examples": [
-    { "en": "Handle the brittle old manuscript with cotton gloves.", "cn": "戴棉手套翻动发脆的旧手稿。" },
-    { "en": "Their truce proved brittle and collapsed within weeks.", "cn": "休战证明是脆弱的，几周内便告破裂。" },
-    { "en": "He answered in a brittle voice that hid his nerves.", "cn": "他以尖硬的声音作答，掩饰着内心的紧张。" }
-  ],
-  "dict_mnemonic": { "note": "谐音记忆 · 非词源", "text": "「玻璃透」——brittle 像「玻璃」一样硬而「透」脆，一磕就裂。", "word": "brittle" },
-  "root": "brittle 一般认为源自古英语 brytan（击碎），中古英语 britel 由该动词加指小后缀 -el 构成，义为「易碎的」；更早词根来源不确定。",
-  "sensesIntro": { "en": "From breaking under the hand, the word moves to breaking under stress, then to a snap in voice and manner.", "cn": "从手感之下的断裂，到压力之下的崩溃，再到声音态度里的干硬脆响。" },
-  "semanticMap": {
-    "core": { "en": "CORE IMAGE: a hard shell cracking at the first blow.", "cn": "核心意象：硬壳一敲即裂。" },
-    "chain": ["HARDNESS", "CRACK", "FRAGILITY", "NERVES", "SNAP", "OPPOSITE DUCTILE"],
-    "branches": [
-      { "senses": "01", "en": "brittle plastic", "cn": "脆性塑料" },
-      { "senses": "01 · 02", "en": "brittle old bones", "cn": "脆弱的老年骨骼" },
-      { "senses": "02", "en": "brittle relations", "cn": "脆弱的关系" },
-      { "senses": "03", "en": "a brittle laugh", "cn": "尖利的笑声" },
-      { "senses": "02 · 03", "en": "brittle and near tears", "cn": "强撑着几乎落泪" }
-    ]
-  },
-  "affixes": {
-    "intro": { "en": "Brittle is a small family: an abstract noun and a rare adverb.", "cn": "brittle 词族很小：一个抽象名词，一个罕用副词。" },
-    "latinIntro": { "en": "The root is Germanic; its technical opposite is Latin-born ductile.", "cn": "词根属日耳曼语族；其技术反义词 ductile 则出自拉丁语。" },
-    "items": [
-      { "word": "brittle", "structure": "adjective base", "meaning": "hard but easily broken", "meaningCN": "脆的；易碎的", "example": "brittle candy", "exampleCN": "脆糖" },
-      { "word": "-ness", "structure": "noun suffix", "meaning": "state or quality", "meaningCN": "抽象名词后缀", "example": "kindness, weakness", "exampleCN": "如 kindness、weakness 等词" },
-      { "word": "brittleness", "structure": "brittle + -ness", "meaning": "the quality of being brittle", "meaningCN": "脆性；脆弱", "example": "the brittleness of glass", "exampleCN": "玻璃的脆性" },
-      { "word": "-ly", "structure": "adverb suffix", "meaning": "in the manner of", "meaningCN": "副词后缀", "example": "brittlely spoken", "exampleCN": "尖硬地说（罕用）" },
-      { "word": "brickle", "structure": "dialect variant", "meaning": "brittle (northern English)", "meaningCN": "脆的（方言）", "example": "brickle frost", "exampleCN": "发脆的霜" },
-      { "word": "bristle", "structure": "unrelated look-alike", "meaning": "stiff hair; to bristle with", "meaningCN": "刚毛；充满——词源不同", "example": "a face bristling with stubble", "exampleCN": "满是胡茬的脸" },
-      { "word": "fragile", "structure": "Latin synonym frag- + -ile", "meaning": "easily broken", "meaningCN": "易碎的", "example": "fragile porcelain", "exampleCN": "易碎的瓷器" },
-      { "word": "fragility", "structure": "fragile + -ity", "meaning": "the state of being fragile", "meaningCN": "脆弱性", "example": "the fragility of peace", "exampleCN": "和平的脆弱" },
-      { "word": "ductile", "structure": "Latin ducere + -ile", "meaning": "able to be drawn out", "meaningCN": "有延展性的", "example": "ductile copper", "exampleCN": "延展性好的铜" },
-      { "word": "crisp", "structure": "near synonym", "meaning": "firm and snappy", "meaningCN": "酥脆的", "example": "crisp pastry", "exampleCN": "酥脆的点心" }
-    ],
-    "latinEntries": [
-      { "word": "fragilis", "structure": "Latin adjective", "meaning": "easily broken", "meaningCN": "易碎的（fragile 之源）" },
-      { "word": "ducere", "structure": "Latin verb", "meaning": "to lead, draw", "meaningCN": "牵引（ductile 之源）" }
+    "forms": [
+      {
+        "label": "比较级",
+        "form": "more brittle / brittler"
+      },
+      {
+        "label": "最高级",
+        "form": "most brittle / brittlest"
+      }
     ],
     "derivatives": [
-      { "word": "brittleness", "pos": "n.", "zh": "脆性；脆弱" }
-    ]
+      {
+        "word": "brittleness",
+        "pos": "n.",
+        "zh": "由 brittle 加 -ness 构成，义为「脆性；脆弱」"
+      },
+      {
+        "word": "brittlely",
+        "pos": "adv.",
+        "zh": "由 brittle 加 -ly 构成，义为「发脆地；尖利地（罕用）」"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "Hard but easily broken",
+        "titleCN": "脆的；易碎的",
+        "definition": "hard and stiff, but breaking easily under a blow or bend",
+        "definitionCN": "硬而僵，但受击或弯折即碎",
+        "example": "The old paper was so brittle that it cracked at the fold.",
+        "exampleCN": "旧纸发脆，一折就裂。",
+        "why": "The core image is a hard shell with no give inside.",
+        "whyCN": "核心意象是硬壳内里没有韧劲，一折即断。"
+      },
+      {
+        "no": "02",
+        "title": "Easily damaged in health or temper",
+        "titleCN": "脆弱的；（体质、情绪）易伤的",
+        "definition": "fragile, as a person's health, nerves or relationships that break under little pressure",
+        "definitionCN": "健康、神经或关系稍受压力便崩溃的脆弱状态",
+        "example": "After the shock, his nerves grew brittle.",
+        "exampleCN": "受惊之后，他的神经变得脆弱。",
+        "why": "What breaks at a touch in objects extends to what collapses at a touch in people.",
+        "whyCN": "物一触即碎的属性，转喻为人一触即溃的状态。"
+      },
+      {
+        "no": "03",
+        "title": "Sharp and harsh in sound or manner",
+        "titleCN": "（声音、态度）尖利的；冷硬的",
+        "definition": "having a sharp, crackling or coldly hard quality of sound or manner",
+        "definitionCN": "声音干裂刺耳，或态度冷硬生涩",
+        "example": "She gave a brittle laugh and changed the subject.",
+        "exampleCN": "她尖利地笑了一声，随即岔开话题。",
+        "why": "A brittle surface both snaps and rings; the sound sense copies that snap.",
+        "whyCN": "脆物既折断又作响，声音义项模仿的就是这声脆响。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Brittle probably grew out of an old word for breaking, related to bretan.",
+        "cn": "brittle 一般认为由古英语表「碎裂」的词派生而来。"
+      },
+      "items": [
+        {
+          "era": "OLD ENGLISH",
+          "en": "brytan meant to shatter or crush to pieces.",
+          "cn": "古英语 brytan 意为击碎、碾碎。"
+        },
+        {
+          "era": "MIDDLE ENGLISH",
+          "en": "britel meant liable to break, a diminutive of the breaking verb.",
+          "cn": "中古英语 britel 意为易碎的，由碎裂动词加指小后缀构成。"
+        },
+        {
+          "era": "ENGLISH, 14TH–16TH C.",
+          "en": "spelling settled as brittle; the word spread to temper and sound.",
+          "cn": "拼写定型为 brittle，词义扩展到性情与声音。"
+        },
+        {
+          "era": "SCIENCE, 19TH–20TH C.",
+          "en": "materials science fixed brittle as the technical opposite of ductile.",
+          "cn": "材料科学把 brittle 定为 ductile（延展性）的技术反义词。"
+        },
+        {
+          "era": "PRESENT DAY ENGLISH",
+          "en": "brittle covers glass, bones, nerves and laughs.",
+          "cn": "如今 brittle 可形容玻璃、骨骼、神经与笑声。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "Brittle sits among breaking words and stands against bendable ones.",
+        "cn": "brittle 处于一组碎裂词之间，并与可弯折词相对。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "bristle",
+              "ipa": "/ˈbrɪsl/",
+              "tag": "spelling",
+              "definition": "short stiff hairs; to stand up in anger",
+              "definitionCN": "刚毛；（毛发）竖起——只是拼写相近，词源不同"
+            },
+            {
+              "word": "brittleness",
+              "ipa": "/ˈbrɪtlnəs/",
+              "tag": "derived form",
+              "definition": "the quality of being brittle",
+              "definitionCN": "脆性，由 brittle 派生的名词"
+            },
+            {
+              "word": "brickle",
+              "ipa": "/ˈbrɪkl/",
+              "tag": "dialect",
+              "definition": "a northern dialect form of brittle",
+              "definitionCN": "brittle 的北方方言变体"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "fragile",
+              "ipa": "/ˈfrædʒaɪl/",
+              "tag": "near meaning",
+              "definition": "easily broken or damaged",
+              "definitionCN": "易碎的；脆弱的，侧重需轻拿轻放"
+            },
+            {
+              "word": "frail",
+              "ipa": "/freɪl/",
+              "tag": "near meaning",
+              "definition": "weak and delicate",
+              "definitionCN": "虚弱纤弱的，多形容人或身体"
+            },
+            {
+              "word": "crisp",
+              "ipa": "/krɪsp/",
+              "tag": "near meaning",
+              "definition": "firm and breaking with a clean snap",
+              "definitionCN": "酥脆的，常含悦耳爽口之意"
+            },
+            {
+              "word": "ductile",
+              "ipa": "/ˈdʌktaɪl/",
+              "tag": "opposite",
+              "definition": "able to be stretched without breaking",
+              "definitionCN": "有延展性的，brittle 的技术反义词"
+            },
+            {
+              "word": "shatter",
+              "ipa": "/ˈʃætə(r)/",
+              "tag": "near meaning",
+              "definition": "to break suddenly into pieces",
+              "definitionCN": "粉碎；碎裂，brittle 之物的下场"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Hold brittle against bristle to keep the two straight.",
+        "cn": "把 brittle 与 bristle 对照着记，避免混淆。"
+      },
+      "normal": [
+        {
+          "en": "Brittle has TT like a crack splitting the word.",
+          "cn": "brittle 的双写 tt 像一道裂纹把词劈开。"
+        },
+        {
+          "en": "Bristle is hair; brittle is glass.",
+          "cn": "bristle 是硬毛，brittle 是玻璃。"
+        },
+        {
+          "en": "Brittle bones break: the old fear of age.",
+          "cn": "brittle bones（脆骨）是年老的旧忧。"
+        },
+        {
+          "en": "Crisp snaps sweetly; brittle snaps badly.",
+          "cn": "crisp 脆得悦耳，brittle 脆得糟心。"
+        },
+        {
+          "en": "Ductile bends, brittle breaks.",
+          "cn": "ductile 能弯，brittle 会断。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "Hear one dry leaf crack between two fingers.",
+          "cn": "听一片枯叶在指间断裂。"
+        },
+        {
+          "en": "See the hairline zigzag run across old varnish.",
+          "cn": "看见旧漆面上细裂纹蜿蜒而过。"
+        },
+        {
+          "en": "Feel a laugh with nothing warm under it.",
+          "cn": "体会笑声底下毫无暖意的感觉。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "Handle the brittle old manuscript with cotton gloves.",
+        "cn": "戴棉手套翻动发脆的旧手稿。"
+      },
+      {
+        "en": "Their truce proved brittle and collapsed within weeks.",
+        "cn": "休战证明是脆弱的，几周内便告破裂。"
+      },
+      {
+        "en": "He answered in a brittle voice that hid his nerves.",
+        "cn": "他以尖硬的声音作答，掩饰着内心的紧张。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「玻璃透」——brittle 像「玻璃」一样硬而「透」脆，一磕就裂。",
+      "word": "brittle"
+    },
+    "root": "brittle 一般认为源自古英语 brytan（击碎），中古英语 britel 由该动词加指小后缀 -el 构成，义为「易碎的」；更早词根来源不确定。",
+    "sensesIntro": {
+      "en": "From breaking under the hand, the word moves to breaking under stress, then to a snap in voice and manner.",
+      "cn": "从手感之下的断裂，到压力之下的崩溃，再到声音态度里的干硬脆响。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: a hard shell cracking at the first blow.",
+        "cn": "核心意象：硬壳一敲即裂。"
+      },
+      "chain": [
+        "HARDNESS",
+        "CRACK",
+        "FRAGILITY",
+        "NERVES",
+        "SNAP",
+        "OPPOSITE DUCTILE"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "brittle plastic",
+          "cn": "脆性塑料"
+        },
+        {
+          "senses": "01 · 02",
+          "en": "brittle old bones",
+          "cn": "脆弱的老年骨骼"
+        },
+        {
+          "senses": "02",
+          "en": "brittle relations",
+          "cn": "脆弱的关系"
+        },
+        {
+          "senses": "03",
+          "en": "a brittle laugh",
+          "cn": "尖利的笑声"
+        },
+        {
+          "senses": "02 · 03",
+          "en": "brittle and near tears",
+          "cn": "强撑着几乎落泪"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Brittle is a small family: an abstract noun and a rare adverb.",
+        "cn": "brittle 词族很小：一个抽象名词，一个罕用副词。"
+      },
+      "latinIntro": {
+        "en": "The root is Germanic; its technical opposite is Latin-born ductile.",
+        "cn": "词根属日耳曼语族；其技术反义词 ductile 则出自拉丁语。"
+      },
+      "items": [
+        {
+          "word": "brittle",
+          "structure": "adjective base",
+          "meaning": "hard but easily broken",
+          "meaningCN": "脆的；易碎的",
+          "example": "brittle candy",
+          "exampleCN": "脆糖"
+        },
+        {
+          "word": "-ness",
+          "structure": "noun suffix",
+          "meaning": "state or quality",
+          "meaningCN": "抽象名词后缀",
+          "example": "kindness, weakness",
+          "exampleCN": "如 kindness、weakness 等词"
+        },
+        {
+          "word": "brittleness",
+          "structure": "brittle + -ness",
+          "meaning": "the quality of being brittle",
+          "meaningCN": "脆性；脆弱",
+          "example": "the brittleness of glass",
+          "exampleCN": "玻璃的脆性"
+        },
+        {
+          "word": "-ly",
+          "structure": "adverb suffix",
+          "meaning": "in the manner of",
+          "meaningCN": "副词后缀",
+          "example": "brittlely spoken",
+          "exampleCN": "尖硬地说（罕用）"
+        },
+        {
+          "word": "brickle",
+          "structure": "dialect variant",
+          "meaning": "brittle (northern English)",
+          "meaningCN": "脆的（方言）",
+          "example": "brickle frost",
+          "exampleCN": "发脆的霜"
+        },
+        {
+          "word": "bristle",
+          "structure": "unrelated look-alike",
+          "meaning": "stiff hair; to bristle with",
+          "meaningCN": "刚毛；充满——词源不同",
+          "example": "a face bristling with stubble",
+          "exampleCN": "满是胡茬的脸"
+        },
+        {
+          "word": "fragile",
+          "structure": "Latin synonym frag- + -ile",
+          "meaning": "easily broken",
+          "meaningCN": "易碎的",
+          "example": "fragile porcelain",
+          "exampleCN": "易碎的瓷器"
+        },
+        {
+          "word": "fragility",
+          "structure": "fragile + -ity",
+          "meaning": "the state of being fragile",
+          "meaningCN": "脆弱性",
+          "example": "the fragility of peace",
+          "exampleCN": "和平的脆弱"
+        },
+        {
+          "word": "ductile",
+          "structure": "Latin ducere + -ile",
+          "meaning": "able to be drawn out",
+          "meaningCN": "有延展性的",
+          "example": "ductile copper",
+          "exampleCN": "延展性好的铜"
+        },
+        {
+          "word": "crisp",
+          "structure": "near synonym",
+          "meaning": "firm and snappy",
+          "meaningCN": "酥脆的",
+          "example": "crisp pastry",
+          "exampleCN": "酥脆的点心"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "fragilis",
+          "structure": "Latin adjective",
+          "meaning": "easily broken",
+          "meaningCN": "易碎的（fragile 之源）"
+        },
+        {
+          "word": "ducere",
+          "structure": "Latin verb",
+          "meaning": "to lead, draw",
+          "meaningCN": "牵引（ductile 之源）"
+        }
+      ],
+      "derivatives": [
+        {
+          "word": "brittleness",
+          "pos": "n.",
+          "zh": "脆性；脆弱"
+        }
+      ]
+    }
   }
-}
+]
