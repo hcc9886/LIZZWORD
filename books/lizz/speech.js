@@ -158,7 +158,10 @@
         startTimer = 0;
       }
       // 有些浏览器会触发 onstart 却始终没有 onend，让按钮不能一直卡在“朗读中”
-      endTimer = window.setTimeout(deliverEnd, opts.endTimeout || estimateMs(value, opts.rate));
+      // 调用方给的固定上限只作下限，长文本按长度估算，否则句子读一半就被判定结束
+      const estimate = estimateMs(value, opts.rate);
+      const floorMs = Number(opts.endTimeout) || 0;
+      endTimer = window.setTimeout(deliverEnd, Math.max(floorMs, estimate));
       startKeepAlive();
       if (opts.onStart) opts.onStart();
     }
