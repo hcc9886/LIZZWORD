@@ -239,6 +239,15 @@
     }
     .plan-pill[data-plan="plus"], .plan-pill[data-plan="pro"] { background: #eef4ff; color: #3157d5; border-color: #d6e2ff; }
 
+
+    /* ===== 每周复盘 ===== */
+    .weekly-card { padding: 8px 2px; }
+    .weekly-bars { display: flex; align-items: flex-end; gap: 8px; height: 120px; margin: 14px 0 10px; }
+    .weekly-bar { flex: 1; display: flex; flex-direction: column; justify-content: flex-end; align-items: center; height: 100%; }
+    .weekly-bar-fill { width: 70%; min-height: 3px; border-radius: 6px 6px 2px 2px; background: linear-gradient(180deg,#7aa2ff,#3157d5); }
+    .weekly-bar-label { margin-top: 6px; font-size: 0.7rem; color: #9ca3af; }
+    .weekly-hint { margin: 6px 0; font-size: 0.84rem; color: #4b5563; }
+
     /* ===== 专项练习 ===== */
     .drill-home, .drill-card, .wrong-card { padding: 8px 2px; }
     .drill-sub { margin: 6px 0 14px; font-size: 0.86rem; color: #6b7280; }
@@ -1583,6 +1592,9 @@
     <!-- 错词本：反复错的词集中复习 -->
     <main id="view-wrong" hidden></main>
 
+    <!-- 每周复盘 -->
+    <main id="view-weekly" hidden></main>
+
     <!-- 词库浏览：保留原来的七个分区 -->
     <main id="view-browse" hidden>
       <section class="browse-bar">
@@ -1604,6 +1616,7 @@
   <script src="books/lizz/plan-engine.js"></script>
   <script src="books/lizz/onboarding.js"></script>
   <script src="books/lizz/entitlements.js"></script>
+  <script src="books/lizz/events.js"></script>
   <script src="books/manifest.js"></script>
   <script>
     // ============================================================
@@ -10065,6 +10078,11 @@
             <span class="home-sub">${vocabTestHomeText()}</span>
           </button>
 
+          <button type="button" class="home-btn" data-enter="weekly">
+            <span class="home-title">每周复盘</span>
+            <span class="home-sub">${weeklySummaryText()}</span>
+          </button>
+
           <button type="button" class="home-btn" data-enter="drill">
             <span class="home-title">专项练习</span>
             <span class="home-sub">例句填空 · 形近辨析 · 词根拆解，十题一组</span>
@@ -11216,6 +11234,7 @@
       if (viewMode === "vocab-test") return "词汇量测试";
       if (viewMode === "drill") return "专项练习";
       if (viewMode === "wrong") return "错词本";
+      if (viewMode === "weekly") return "每周复盘";
       return "";
     }
 
@@ -11230,7 +11249,8 @@
         az: "view-az",
         "vocab-test": "view-vocab-test",
         drill: "view-drill",
-        wrong: "view-wrong"
+        wrong: "view-wrong",
+        weekly: "view-weekly"
       };
       Object.keys(views).forEach((key) => {
         document.getElementById(views[key]).hidden = key !== viewMode;
@@ -11247,6 +11267,7 @@
       else if (viewMode === "vocab-test") renderVocabTest();
       else if (viewMode === "drill") renderDrill();
       else if (viewMode === "wrong") renderWrongBook();
+      else if (viewMode === "weekly") renderWeekly();
       else renderBrowse();
     }
 
@@ -11480,6 +11501,57 @@
     }
 
 
+
+    // ============================================================
+    // 19. 每周复盘 + 事件埋点
+    // ============================================================
+    function trackEvent(type, payload) {
+      try {
+        if (window.LZEvents) window.LZEvents.track(type, payload);
+      } catch (e) { /* ignore */ }
+    }
+
+    function weeklySummaryText() {
+      const events = window.LZEvents;
+      if (!events) return "看看这周学了多少";
+      const info = events.summary(7);
+      if (!info.total) return "这周还没开始，先学一组";
+      return `这周 ${info.answers || info.total} 次练习 · 正确率 ${info.accuracy}%`;
+    }
+
+    function renderWeekly() {
+      const mount = document.getElementById("view-weekly");
+      const events = window.LZEvents;
+      const info = events ? events.summary(7) : { total: 0, byDay: {}, answers: 0, accuracy: 0 };
+      const days = [];
+      for (let i = 6; i >= 0; i -= 1) {
+        const date = new Date(Date.now() - i * 86400000);
+        const key = date.toISOString().slice(0, 10);
+        days.push({ key, count: info.byDay[key] || 0, label: (date.getMonth() + 1) + "/" + date.getDate() });
+      }
+      const maxCount = Math.max(1, ...days.map((day) => day.count));
+      const wrong = wrongBookList().slice(0, 5);
+      const plan = currentPlan();
+      mount.innerHTML = `
+        <section class="weekly-card">
+          <h2 class="done-title">每周复盘</h2>
+          <p class="drill-sub">最近 7 天：${info.total} 次学习事件 · 答题 ${info.answers} 次 · 正确率 ${info.accuracy}%</p>
+          <div class="weekly-bars">
+            ${days.map((day) => `
+              <div class="weekly-bar">
+                <span class="weekly-bar-fill" style="height:${Math.round((day.count / maxCount) * 100)}%"></span>
+                <span class="weekly-bar-label">${day.label}</span>
+              </div>`).join("")}
+          </div>
+          ${plan ? `<p class="weekly-hint">当前计划：${esc(plan.goalLabel)} · 每天 ${plan.newWords} 个新词 · 推荐 ${esc(plan.mix[0])}</p>` : ""}
+          ${wrong.length ? `<p class="weekly-hint">最需要补的：${wrong.map((row) => esc(row.word)).join("、")}</p>` : ""}
+          <div class="drill-actions">
+            <button type="button" class="btn-primary" data-enter="drill">去练一组</button>
+            <button type="button" class="btn-ghost" data-enter="wrong">打开错词本</button>
+          </div>
+        </section>`;
+    }
+
     // ============================================================
     // 18. 专项练习（例句填空 / 形近辨析 / 词根拆解）+ 错词本
     // ============================================================
@@ -11590,6 +11662,7 @@
     const DRILL_LABELS = { example: "例句填空", confusable: "形近辨析", affix: "词根拆解" };
 
     function startDrill(mode) {
+      trackEvent("drill_start", { mode, bookId: activeBookConfig && activeBookConfig.id });
       const questions = buildDrillQuestions(mode, 10);
       drill = { mode, questions, index: 0, picked: "", score: 0, done: false };
       if (!questions.length) {
@@ -11920,6 +11993,9 @@
       if (event.target.closest("[data-drill-next]") && drill) {
         drill.index += 1;
         drill.picked = "";
+        if (drill.index >= drill.questions.length) {
+          trackEvent("drill_finish", { mode: drill.mode, score: drill.score, total: drill.questions.length });
+        }
         renderDrill();
         return;
       }
@@ -13052,6 +13128,7 @@
       }
       activeBookConfig = config;
       state.bookId = config.id;
+      trackEvent("book_switch", { bookId: config.id });
       const dailyOptions = config.dailyOptions || [10, 15, 20];
       if (!dailyOptions.includes(state.dailyTarget)) state.dailyTarget = dailyOptions[0];
       resetLearnSession();

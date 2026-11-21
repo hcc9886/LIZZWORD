@@ -60,6 +60,7 @@ const SHELL_FILES = [
   "./books/lizz/plan-engine.js",
   "./books/lizz/onboarding.js",
   "./books/lizz/entitlements.js",
+  "./books/lizz/events.js",
   "./books/lizz/theme.css",
   "./books/lizz/theme.js",
   "./books/lizz/lizz.css",

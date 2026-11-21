@@ -8,7 +8,16 @@
 (function (global) {
   "use strict";
 
-  const FREE_BOOKS = ["toefl-core-5000", "shanghai-primary", "cet4", "ielts", "middle", "daily"];
+  // 免费：零基础整本 + 任选一本基础书整本（默认来自用户选择，未选时给 zero-basic）
+  const FREE_COMPLETE_BOOKS = ["zero-basic"];
+  // 可试学（受每日 20 新词限制）的书：除这些之外的书需要 Plus
+  const FREE_TRIAL_BOOKS = [
+    "shanghai-primary", "middle", "daily", "cet4", "ielts", "toefl-core-5000",
+    "ket-pet", "new-concept", "zhonggaozhi", "ab", "coca", "pets",
+    "zhuanshengben", "zikao", "self-study", "gaokao", "cet6", "sat",
+    "fce", "bec", "pte", "study-abroad", "kaoyan", "english-major",
+    "medical", "business-law", "affix-roots", "collocation", "confusables"
+  ];
   const TRIAL_DAYS = 7;
   const FREE_DAILY_NEW = 20;
   const PLAN_KEY = "lizzword_plan_v1";
@@ -48,7 +57,24 @@
 
   function canOpenBook(bookId) {
     if (isPlus()) return true;
-    return FREE_BOOKS.indexOf(bookId) >= 0;
+    if (FREE_COMPLETE_BOOKS.indexOf(bookId) >= 0) return true;
+    return FREE_TRIAL_BOOKS.indexOf(bookId) >= 0;
+  }
+
+  // 免费用户的书是否「完整解锁」（不受每日 20 词限制）
+  function isBookComplete(bookId) {
+    if (isPlus()) return true;
+    const chosen = readChosenBook();
+    return FREE_COMPLETE_BOOKS.indexOf(bookId) >= 0 || chosen === bookId;
+  }
+
+  function readChosenBook() {
+    try { return global.localStorage.getItem("lizzword_free_book_v1") || ""; } catch (e) { return ""; }
+  }
+
+  function chooseFreeBook(bookId) {
+    try { global.localStorage.setItem("lizzword_free_book_v1", String(bookId)); } catch (e) { /* ignore */ }
+    return bookId;
   }
 
   function dailyNewLimit() {
@@ -76,7 +102,7 @@
       <div class="paywall-card" role="dialog" aria-modal="true" aria-label="升级 Plus">
         <p class="paywall-badge">LIZZWORD Plus</p>
         <h2 class="paywall-title">这本《${escapeHtml(bookName || "词书")}》属于 Plus</h2>
-        <p class="paywall-sub">免费版可以完整学完 6 本基础书，每天 20 个新词；Plus 解锁全部 30 本、不限新词、计划与跨端同步。</p>
+        <p class="paywall-sub">免费版可以完整学完 1 本（零基础整本免费），其他书每天 20 个新词试学；Plus 解锁全部 30 本、完整词条深度、不限新词与跨端同步。</p>
         <ul class="paywall-list">
           <li>全部 30 本词书：雅思 / 考研 / 专四专八 / 医护 / 商务法律 …</li>
           <li>每日新词不限量，考试倒计时自动排计划</li>
@@ -125,7 +151,11 @@
   }
 
   global.LZEntitlements = {
-    FREE_BOOKS,
+    FREE_COMPLETE_BOOKS,
+    FREE_TRIAL_BOOKS,
+    isBookComplete,
+    chooseFreeBook,
+    readChosenBook,
     FREE_DAILY_NEW,
     TRIAL_DAYS,
     state,
