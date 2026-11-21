@@ -18,6 +18,43 @@
   let voices = [];
   let hooked = false;
 
+  // ------------------------------------------------------------
+  // 语速 / 口音偏好（localStorage 持久化，主页面与游戏页共用）
+  // ------------------------------------------------------------
+  const PREFS_KEY = "lizzword_speech_v1";
+  const DEFAULT_PREFS = { rate: 0.9, accent: "us" };
+
+  function getPrefs() {
+    const out = { rate: DEFAULT_PREFS.rate, accent: DEFAULT_PREFS.accent };
+    try {
+      const raw = window.localStorage && window.localStorage.getItem(PREFS_KEY);
+      if (raw) {
+        const saved = JSON.parse(raw) || {};
+        if (typeof saved.rate === "number" && saved.rate >= 0.5 && saved.rate <= 1.5) out.rate = saved.rate;
+        if (saved.accent === "uk" || saved.accent === "us") out.accent = saved.accent;
+      }
+    } catch (e) { /* localStorage 不可用时退回默认值 */ }
+    return out;
+  }
+
+  function setPrefs(patch) {
+    const next = getPrefs();
+    if (patch) {
+      if (typeof patch.rate === "number") {
+        next.rate = Math.min(1.5, Math.max(0.5, patch.rate));
+      }
+      if (patch.accent === "uk" || patch.accent === "us") next.accent = patch.accent;
+    }
+    try {
+      if (window.localStorage) window.localStorage.setItem(PREFS_KEY, JSON.stringify(next));
+    } catch (e) { /* ignore */ }
+    return next;
+  }
+
+  function accentLang(accent) {
+    return accent === "uk" ? "en-GB" : "en-US";
+  }
+
   function supported() {
     return Boolean(synth && typeof Utterance === "function");
   }
@@ -82,13 +119,99 @@
     return Math.min(90000, Math.max(3000, Math.round(spoken / (rate || 0.9)) + 1200));
   }
 
-  function cancel() {
+  function cancelSynth() {
     if (!synth) return;
     try { synth.cancel(); } catch (e) { /* ignore */ }
   }
 
+  // 朗读队列：speakSequence 一次只跑一条，单条失败继续下一条，只有用户主动取消才整体停
+  let seqToken = 0;
+  let seqStop = null;
+
+  function stopActiveSeq() {
+    seqToken += 1;
+    if (seqStop) {
+      const stop = seqStop;
+      seqStop = null;
+      try { stop(); } catch (e) { /* ignore */ }
+    }
+  }
+
+  function cancel() {
+    stopActiveSeq();
+    cancelSynth();
+  }
+
+  function speakSequence(items, opts) {
+    opts = opts || {};
+    const list = (Array.isArray(items) ? items : [])
+      .map(function (it) { return typeof it === "string" ? { text: it } : it; })
+      .filter(function (it) { return it && String(it.text == null ? "" : it.text).trim(); });
+
+    cancel();
+    if (!supported()) {
+      if (opts.onFail) opts.onFail("unsupported");
+      return false;
+    }
+    if (!list.length) {
+      if (opts.onFail) opts.onFail("empty");
+      return false;
+    }
+
+    const token = seqToken;
+    const prefs = getPrefs();
+    let index = 0;
+    let stopped = false;
+    seqStop = function () { stopped = true; };
+
+    function finish() {
+      seqStop = null;
+      if (opts.onAllEnd) opts.onAllEnd();
+    }
+
+    function step() {
+      if (stopped || token !== seqToken) return;
+      if (index >= list.length) { finish(); return; }
+      const item = list[index];
+      const at = index;
+      index += 1;
+      if (opts.onItemStart) opts.onItemStart(item, at);
+
+      const rate = typeof item.rate === "number"
+        ? item.rate
+        : (typeof opts.rate === "number" ? opts.rate : prefs.rate);
+
+      speak(item.text, {
+        _seq: true,
+        lang: item.lang || opts.lang || "en-US",
+        rate: rate,
+        pitch: typeof item.pitch === "number" ? item.pitch : opts.pitch,
+        timeout: item.timeout || opts.timeout,
+        endTimeout: item.endTimeout || opts.endTimeout,
+        onStart: function () { if (opts.onStart) opts.onStart(item, at); },
+        onEnd: function () {
+          if (stopped || token !== seqToken) return;
+          if (opts.onItemEnd) opts.onItemEnd(item, at);
+          step();
+        },
+        onFail: function (reason) {
+          if (stopped || token !== seqToken) return;
+          if (opts.onItemFail) opts.onItemFail(reason, item, at);
+          if (reason === "empty") { step(); return; }
+          if (opts.onFail) opts.onFail(reason, item, at);
+          step();
+        }
+      });
+    }
+
+    step();
+    return true;
+  }
+
   function speak(text, opts) {
     opts = opts || {};
+    // 直接点单个朗读时打断整条队列；队列内部调用带 _seq 标记，不会打断自己
+    if (!opts._seq) stopActiveSeq();
     if (!supported()) {
       if (opts.onFail) opts.onFail("unsupported");
       return false;
@@ -101,7 +224,7 @@
 
     let busy = false;
     try { busy = Boolean(synth.speaking || synth.pending); } catch (e) { /* ignore */ }
-    cancel();
+    cancelSynth();
     resume();
     refresh();
 
@@ -222,8 +345,12 @@
   window.LZSpeech = {
     supported: supported,
     speak: speak,
+    speakSequence: speakSequence,
     cancel: cancel,
     refresh: refresh,
+    getPrefs: getPrefs,
+    setPrefs: setPrefs,
+    accentLang: accentLang,
     voices: function () { return (voices.length ? voices : refresh()).slice(); },
     voiceFor: pickVoice,
     estimateMs: estimateMs,

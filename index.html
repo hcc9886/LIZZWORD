@@ -238,8 +238,15 @@
       color: var(--t94a3b8, #94a3b8);
       font-weight: 600;
     }
-    .pron-row { display: flex; flex-wrap: wrap; gap: 8px; }
+    .pron-row { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
     .pron-row .speak { margin-left: 0; padding: 6px 12px; font-size: 0.82rem; }
+    .speech-tools { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-top: 10px; }
+    .speech-tools .speak-seq { padding: 6px 12px; font-size: 0.82rem; }
+    .speech-pref { display: inline-flex; align-items: center; gap: 4px; font-size: 0.78rem; color: var(--t6b7280, #6b7280); }
+    .speech-pref select {
+      font-size: 0.78rem; padding: 4px 6px; border-radius: 8px;
+      border: 1px solid var(--re1e5f0, #e1e5f0); background: var(--tffffff, #fff); color: inherit;
+    }
     .meaning-line {
       margin: 4px 0;
       font-size: 0.95rem;
@@ -6677,11 +6684,26 @@
     const SpeechRecognitionCtor = window.SpeechRecognition || window.webkitSpeechRecognition || null;
 
     // 发音按钮：朗读内容放 data-say，语言放 data-lang，语速可放在 data-rate
-    function speakBtn(text, lang = "en-US", label = "🔊 AI 朗读", rate = 0.9) {
+    // 默认跟随用户在「语音偏好」里选的语速/口音；英/美对照按钮传 respectPref=false 固定口音
+    function speechPrefs() {
+      try {
+        const speech = window.LZSpeech;
+        return speech && speech.getPrefs ? speech.getPrefs() : { rate: 0.9, accent: "us" };
+      } catch (e) {
+        return { rate: 0.9, accent: "us" };
+      }
+    }
+
+    function speakBtn(text, lang = "en-US", label = "🔊 AI 朗读", rate = 0.9, respectPref = true) {
       if (!canSpeak) {
         return `<button type="button" class="speak" disabled title="当前浏览器不支持语音朗读">🔊 不支持</button>`;
       }
-      return `<button type="button" class="speak" data-say="${esc(text)}" data-lang="${esc(lang)}" data-label="${esc(label)}" data-rate="${rate}">${esc(label)}</button>`;
+      const prefs = speechPrefs();
+      const finalLang = respectPref && /^en/i.test(lang)
+        ? (prefs.accent === "uk" ? "en-GB" : "en-US")
+        : lang;
+      const finalRate = respectPref && rate === 0.9 ? (Number(prefs.rate) || 0.9) : rate;
+      return `<button type="button" class="speak" data-say="${esc(text)}" data-lang="${esc(finalLang)}" data-label="${esc(label)}" data-rate="${finalRate}">${esc(label)}</button>`;
     }
 
     // 英文 + 中文（默认隐藏）组件；每个组件自带 cn-scope，按钮只控制自己这一段
@@ -10232,10 +10254,27 @@
     // 13. 词库浏览：保留原来的七个分区
     // ============================================================
     function renderDict(wordItem) {
+      const prefs = speechPrefs();
       const pronHTML = `
         <div class="pron-row">
-          ${speakBtn(wordItem.word, "en-GB", `🔊 英 ${wordItem.ipa_uk}`, 0.9)}
-          ${speakBtn(wordItem.word, "en-US", `🔊 美 ${wordItem.ipa_us}`, 0.9)}
+          ${speakBtn(wordItem.word, "en-GB", `🔊 英 ${wordItem.ipa_uk}`, 0.9, false)}
+          ${speakBtn(wordItem.word, "en-US", `🔊 美 ${wordItem.ipa_us}`, 0.9, false)}
+          <button type="button" class="speak-seq" data-seq-word="${esc(wordItem.word)}">▶ 连读（词 → 例句 → 释义）</button>
+        </div>
+        <div class="speech-tools">
+          <label class="speech-pref">语速
+            <select data-speech-rate>
+              <option value="0.7"${prefs.rate === 0.7 ? " selected" : ""}>0.7 慢</option>
+              <option value="0.9"${prefs.rate === 0.9 ? " selected" : ""}>0.9 标准</option>
+              <option value="1.1"${prefs.rate === 1.1 ? " selected" : ""}>1.1 快</option>
+            </select>
+          </label>
+          <label class="speech-pref">口音
+            <select data-speech-accent>
+              <option value="us"${prefs.accent === "us" ? " selected" : ""}>美音</option>
+              <option value="uk"${prefs.accent === "uk" ? " selected" : ""}>英音</option>
+            </select>
+          </label>
         </div>`;
 
       const meaningsHTML = wordItem.pos.length
@@ -10798,8 +10837,58 @@
         onEnd: reset,
         onFail: (reason) => {
           reset();
-          if (reason === "empty") return;
-          showToast("没有听到声音：请确认设备未静音，并在系统语音设置中安装英文语音包。");
+          if (reason === "empty" || reason === "interrupted" || reason === "canceled") return;
+          if (reason === "unsupported") {
+            showToast("当前浏览器不支持语音朗读，请换 Chrome、Edge 或 Safari 最新版。");
+            return;
+          }
+          if (reason === "timeout") {
+            showToast("没有听到声音：请确认设备未静音，并在系统语音设置里安装英文语音包。");
+            return;
+          }
+          showToast("语音朗读失败：请检查系统语音包，或换一个浏览器再试。");
+        }
+      });
+      if (!started) reset();
+    }
+
+    // 单词 → 例句 → 中文释义 连读（LZSpeech.speakSequence 负责排队，不会互相打断）
+    function playWordSequence(button) {
+      const speech = window.LZSpeech;
+      const wordItem = getWord(button.dataset.seqWord);
+      if (!speech || !speech.speakSequence || !wordItem) {
+        showToast("语音组件没有加载成功，可以先看音标自己读。");
+        return;
+      }
+      const prefs = speechPrefs();
+      const items = [
+        { text: wordItem.word, lang: speech.accentLang ? speech.accentLang(prefs.accent) : "en-US", rate: prefs.rate }
+      ];
+      if (wordItem.examples && wordItem.examples[0] && wordItem.examples[0].en) {
+        items.push({ text: wordItem.examples[0].en, lang: "en-US", rate: prefs.rate });
+      }
+      if (wordItem.definition_zh) {
+        items.push({ text: wordItem.definition_zh, lang: "zh-CN", rate: prefs.rate });
+      }
+
+      const label = button.textContent;
+      button.disabled = true;
+      button.textContent = "▶ 连读中…";
+      let finished = false;
+      const reset = () => {
+        if (finished) return;
+        finished = true;
+        button.disabled = false;
+        button.textContent = label;
+      };
+      const started = speech.speakSequence(items, {
+        onAllEnd: reset,
+        onFail: (reason) => {
+          if (reason === "unsupported") {
+            showToast("当前浏览器不支持语音朗读，请换 Chrome、Edge 或 Safari 最新版。");
+            reset();
+          }
+          // 单条失败（如缺中文语音包）继续读下一条，不弹整句失败
         }
       });
       if (!started) reset();
@@ -10994,7 +11083,28 @@
       moveHighlight(event.key === "ArrowDown" || event.key === "ArrowRight" ? 1 : -1);
     });
 
+    // 语音偏好：语速 / 口音（写入 localStorage，由 LZSpeech.getPrefs 读取）
+    document.addEventListener("change", (event) => {
+      const rateSelect = event.target.closest("[data-speech-rate]");
+      const accentSelect = event.target.closest("[data-speech-accent]");
+      if (!rateSelect && !accentSelect) return;
+      const speech = window.LZSpeech;
+      if (!speech || !speech.setPrefs) return;
+      const patch = {};
+      if (rateSelect) patch.rate = Number(rateSelect.value);
+      if (accentSelect) patch.accent = accentSelect.value;
+      speech.setPrefs(patch);
+      showToast("语音偏好已保存，之后的朗读都会按这个设置。");
+    });
+
     document.addEventListener("click", (event) => {
+      // 连读：单词 → 例句 → 中文释义
+      const seqButton = event.target.closest("[data-seq-word]");
+      if (seqButton) {
+        if (!seqButton.disabled) playWordSequence(seqButton);
+        return;
+      }
+
       // 发音按钮（含慢速示范）
       const speakButton = event.target.closest(".speak");
       if (speakButton) {
