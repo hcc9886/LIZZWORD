@@ -12,12 +12,12 @@
 
 本节比正文新；与正文冲突时以本节为准。
 
-- IELTS 批次 **0103 / 0104 已完成并提交**：`books/prepared/ielts-0103.json`（error 起）、`ielts-0104.json`（ethical 起），各自 20/20、0 错 0 警。
-- 主表 `books/ielts.json` 重建到 **2120 词 / 104 片**；`index.html` 注册长度已改 104；`node tools/audit-books.js` 6 本全绿。
-- 下一批 **0105**，首词 `exacerbation`（`node tools/next-words.js ielts 20` 实测）。
+- IELTS 批次 **0103–0106 已完成并提交**（0106 首词 exclusive）：`ielts-0103` error 起、`0104` ethical 起、`0105` exacerbation 起、`0106` exclusive 起，各 20/20。
+- 主表 `books/ielts.json` 已到 **2160 词 / 106 片**；注册表 **26 本书、21,571 词**；`node tools/audit-books.js` 全绿。
+- 下一批 **0107**，首词 `exile`（`node tools/next-words.js ielts 20` 实测）。
 - 新增 `tools/audit-books.js`（词书加载自检，可 `--all` 扫未注册分片），新增 `docs/TRAE-BRIEF.md`（交给 Trae 的产品意见条款：学习模式、入门问卷、付费/免费、词书可行性、零基础书）。
 - 语音已加：`LZSpeech.speakSequence` 连读队列、语速/口音偏好持久化（`lizzword_speech_v1`）、失败分级提示、中文语音缺失降级；词卡「连读（词 → 例句 → 释义）」按钮。
-- **17 本自建词书已生成并上架（2026-11-21 晚）**：english-major / kaoyan / study-abroad / pte / fce / bec / medical / business-law / coca / pets / zhuanshengben / zikao / self-study / new-concept / zhonggaozhi / ab / ket-pet，合计 6,159 条深度词条；17 本之间严格不重复；生成工具 `tools/build-exam-books.js`（--write 重跑）。`index.html` 现注册 **23 本书、21,511 词**；`sw.js` SHELL 已补 17 个主表；CEFR 推荐位已接入新书。
+- **20 本自建词书已生成并上架（2026-11-21 晚）**：17 本考试书 + `zero-basic` / `affix-roots` / `collocation` 三本配套书：english-major / kaoyan / study-abroad / pte / fce / bec / medical / business-law / coca / pets / zhuanshengben / zikao / self-study / new-concept / zhonggaozhi / ab / ket-pet，合计 7,155 条深度词条（17 本 6,159 + 配套 996）；17 本之间严格不重复；生成工具 `tools/build-exam-books.js`（--write 重跑）。`index.html` 现注册 **26 本书、21,571 词**；`sw.js` SHELL 已补 20 个主表；CEFR 推荐位已接入新书。
 - 新书分片由「已有深度词条整条复用 + 机械修整」生成（S1→01、词形去中文、场景补中文铺垫、近义标签小写、语义链大写），修不好的一律不进分片；`check-entry.js` 对 6,159 条实测 **0 错**（280 条历史风格警告继承自老批次，按既定政策不返工）。
 - 本地 main 领先 origin/main 的提交数继续增加（以 `git rev-list --count origin/main..HEAD` 实测为准），**push 仍被 Agent 侧权限拦住，必须用户在真实终端执行**。
 - 批次 0103 / 0104 的 `/tmp` 在制品已消化完毕，第 10 节不再适用；后续批次按第 4 节流程正常生产即可。
