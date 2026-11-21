@@ -1,9 +1,10 @@
-# LIZZWORD 交接文档（2026-11-21 重写）
+# LIZZWORD 交接文档（2026-11-21 会话收尾版）
 
 > 面向对象：接手继续完善词书的 AI（workbuddy / deepseek）。
 > 读完本文即可独立运行：生产词条 → 校验 → 装片 → 更新主表与注册 → 提交。
-> 本文数字均为 2026-11-21 用 node 实扫的结果；**接手后请重新实扫确认，不要照抄数字**。
-> 旧版交接文档（2026-11-15）里的 IELTS / CET4 进度已经过期，以本文为准。
+> 本文数字均为 2026-11-21 **本会话最后一次实扫**的结果；**接手后请重新实扫确认，不要照抄数字**。
+> 旧版（2026-11-15 / 2026-11-21 早间）里的 IELTS 进度已过期，以本文为准。
+> 本次交接时用户已明确要求：**暂停继续推词条**，先交接。所以下面第 10 节「交接清单」是首要阅读对象。
 
 ---
 
@@ -12,9 +13,9 @@
 ```bash
 cd /Users/hcc/Desktop/LIZZWORD          # 仓库根目录必须用这个（不是 /Users/hcc/LIZZWORD）
 node tools/next-words.js ielts 20       # 雅思下一批要写哪些词
-node tools/check-entry.js books/prepared/ielts-0099.json --existing   # 校验（唯一验收标准）
+node tools/check-entry.js books/prepared/ielts-0102.json --existing   # 校验（唯一验收标准）
 git log --oneline -5
-git rev-list --count origin/main..HEAD  # 本地积压未推送提交数（今天为 10）
+git rev-list --count origin/main..HEAD  # 本地积压未推送提交数（本次交接时为 14，全部需要用户手动 push）
 ```
 
 铁律：
@@ -24,6 +25,39 @@ git rev-list --count origin/main..HEAD  # 本地积压未推送提交数（今�
 4. `tools/check-entry.js` 禁止修改。
 5. 每批流程：写片 → 校验 → 装片 → 重建主表 → 更新 `index.html` 注册 → commit。
 6. 不许 force push、不许 `--no-verify`、不许改历史、不许 `git add -A`（只按名字 add 本次产物）。push 见第 7 节。
+
+---
+
+## 0.5 交接快照：本会话做完了什么、什么没做
+
+用户在本会话末尾明确要求「不要再推词条，先出一份交接」，所以以下内容按「已完成 / 未完成」分列。接手前请先跑 `git log --oneline -8` 和 `node tools/next-words.js ielts 20` 复核。
+
+### 已完成（已 commit，在工作树里可直接用）
+
+1. IELTS 批次 **0100 / 0101 / 0102** 三批共 60 词全部产出并入库：
+   - `books/prepared/ielts-0100.json`（enrich 起）、`ielts-0101.json`（entomologist 起）、`ielts-0102.json`（episodic 起）
+   - 三批各自 `check-entry.js --existing` **0 错 0 警**
+   - `books/ielts.json` 重建到 **2080 词**，主表与分片双向一致
+   - `index.html` 注册数已推到 `Array.from({length: 102})`
+2. 上架验收脚本（第 3.1 节）当前全绿：6 本已注册词书 **404 风险 0、空白释义 0**。
+3. 「漏词条 / 加载不出释义」根因修复（注册漏项）已在 `db3c850` 落地，本次未再引入新问题。
+4. 语音基础层修复（同前缀语音兜底、按文本估算时长、长句续读 `resume()`、导出 `voiceFor/estimateMs`）已在 `speech.js` 里。
+
+### 未完成（按优先级）
+
+1. **IELTS 还差 3920 词（196 批）**——这是最大的未做完的事。下一批是 **0103，首词 `error`**。
+2. **批次 0103 已有半成品，但只存在于 `/tmp`，不在 git 里**（详见第 9 节）。接手方要么接着做完，要么直接丢弃重做，**不要以为仓库里有它**。
+3. **积压 14 个提交没推送**——线上 GitHub Pages 目前仍是旧版，用户报的「加载不出释义」在线上看不到修复。必须由用户在真实终端 `git push origin main`（Agent 侧 push 被主机权限拦下，重试无意义）。
+4. **sat / cet6 / gaokao 三本书仍未上架**（第 2.2 节）：无主表、未注册，sat 还有 159 个单对象分片的坑。
+5. **AI 语音 5 项待办一项没动**（第 3.2 节）：朗读队列、语速/口音持久化、失败分级提示、iOS 真机回归、中文语音缺失降级。已核实 `speech.js` 与 `index.html` 里均无 `speakSequence`，`data-rate` 仍是写死的。
+
+### 接手方的第一步（按这个顺序做）
+
+1. 让用户在真实终端执行 `git push origin main`（14 个积压提交），线上修好才算交付。
+2. 跑第 3.1 节验收脚本确认 6 本书仍是「0 缺失 / 0 空白释义」。
+3. 跑 `node tools/next-words.js ielts 20`，从批次 **0103（首词 error）** 继续，每批走第 4 节完整流程；批次内先 `find-word.js` 判复用，能搬就搬，搬来的词条必修第 4.2 节列的历史缺陷。
+4. IELTS 补完前不要动 sat / cet6 / gaokao；补完后再按第 4.5 节上架这三本。
+5. 语音待办（3.2）独立于词书进度，可以在任何批次之间穿插做，但改 `index.html` 后必须跑内联语法检查。
 
 ---
 
@@ -66,9 +100,10 @@ git rev-list --count origin/main..HEAD  # 本地积压未推送提交数（今�
 | `middle` | 初中核心词汇 | 1600 | 1600 | 1600 | 80 | 完成 |
 | `daily` | 日常核心词汇 | 3000 | 3000 | 3000 | 150 | 完成 |
 | `shanghai-primary` | 上海小学一年级 | 500 | 569 | 569 | 33 | 完成 |
-| `ielts` | IELTS 雅思核心词汇 | 6000 | 2020 | 2020 | 99 | **进行中：剩 3980 词 ≈ 199 批** |
+| `ielts` | IELTS 雅思核心词汇 | 6000 | 2080 | 2080 | 102 | **进行中：剩 3920 词 ≈ 196 批，下一批 0103 首词 `error`** |
 
 主表列出的每个词都能在本书分片里取到深度词条（已核：主表与分片双向一致，空白释义 0）。
+IELTS 主表首词 `abandon`、末词 `erroneously`，索引 1..2080 连续无重复。
 
 ### 2.2 有分片但尚未上架的书
 
@@ -78,12 +113,14 @@ git rev-list --count origin/main..HEAD  # 本地积压未推送提交数（今�
 | `cet6` | 7 | 140 | 5500 | 5360 | 无主表 `books/cet6.json` |
 | `gaokao` | 12 | 259 | 3500 | 3245 | 无主表 `books/gaokao.json` |
 
-复用潜力（缺口词里别的书已有深度词条、可整条搬过来改写的数量）：ielts 1846、sat 1727、cet6 1194、gaokao 392。
-全库带义项深度词共 8377 个。
+复用潜力（缺口词里别的书已有深度词条、可整条搬过来改写的数量，本会话实测）：ielts **2103**（缺口 3920）、cet6 **4176**（缺口 5360）、gaokao **2853**（缺口 3245）、sat **1112**（缺口 2836）。
+全库去重后有深度词条的词共 **8406** 个。
+
+>IELTS 缺口里一半以上能直接从别的书搬，所以后面 196 批的主要工作量在「修历史缺陷 + 改结构」，不是从零撰写。每批先跑 `find-word.js`，能搬就搬。
 
 ### 2.3 建议的任务顺序
 
-1. IELTS 从批次 0100 继续生产（下一批首词 `enrich`），每批 20 词，直到 6000 词补完。
+1. IELTS 从批次 **0103** 继续生产（下一批首词 `error`），每批 20 词，直到 6000 词补完。
 2. IELTS 补完后：SAT 分片数组化 + 生成主表 + 上架，再补 2836 词；然后 CET6、高考。
 3. 语音待办见 3.2（朗读队列、语速口音持久化、失败分级提示、真机回归）。
 4. 历史存量词条的风格清洗不做要求（校验器已接受，别为了清零去改老批次）。
@@ -96,7 +133,7 @@ git rev-list --count origin/main..HEAD  # 本地积压未推送提交数（今�
 
 根因不是内容缺失，而是**注册漏了**：前端只加载 `BOOKS[].preparedFiles` 里逐个列出的分片文件。
 - TOEFL 主表 3534 词，但 `preparedFiles` 只写了 1 片 → 3519 词点不出释义。现已补齐 238 片。
-- IELTS 已产出 99 片 / 2020 条深度词条，但整本书没注册、也没有主表 → 主页看不到这本书。现已新增 `books/ielts.json`、BOOKS 条目、B2/C1 推荐、`sw.js` 预缓存。
+- IELTS 当时已产出 99 片 / 2020 条深度词条，但整本书没注册、也没有主表 → 主页看不到这本书。现已新增 `books/ielts.json`、BOOKS 条目、B2/C1 推荐、`sw.js` 预缓存。（本会话结束时为 102 片 / 2080 词。）
 
 改完注册后必须跑的验收脚本：
 
@@ -127,7 +164,7 @@ for(const b of BOOKS){
 ```bash
 nohup python3 -m http.server 8123 --bind 127.0.0.1 >/tmp/http.log 2>&1 &
 # 打开 http://127.0.0.1:8123/index.html?bust=<随机数>
-# 控制台：LIZZWORD_DEBUG.switchBook("ielts") 之后看 LIZZWORD_DEBUG.words.length 是否为 2020
+# 控制台：LIZZWORD_DEBUG.switchBook("ielts") 之后看 LIZZWORD_DEBUG.words.length 是否为 2080
 ```
 
 三类残留风险要记住：
@@ -164,9 +201,10 @@ nohup python3 -m http.server 8123 --bind 127.0.0.1 >/tmp/http.log 2>&1 &
 
 ```bash
 node tools/next-words.js ielts 20
-# 今天输出：enrich, enroll, enrolment, enslave, ensue, ensure, entail, enteritis,
-# enterprise, entertain, entertainment, enthusiasm, enthusiast, enthusiastic,
-# entice, entire, entirely, entitle, entitlement, entity
+# 本次交接时的输出（批次 0103）：
+# error, erupt, eruption, escalate, escalator, especially, essay, essence,
+# essential, essentially, establish, establishment, estate, esteem, estimate,
+# estivation, estrange, estuary, eternal, ethereal
 ```
 
 ### 4.2 判定复用还是新撰
@@ -187,7 +225,7 @@ node tools/find-word.js enrich enroll entity
 
 ### 4.3 撰写
 
-结构照最近上线的成片抄，例如 `books/prepared/ielts-0099.json`。硬约束（详见 `books/BOOK-SCHEMA.md`）：
+结构照最近上线的成片抄，例如 `books/prepared/ielts-0102.json`。硬约束（详见 `books/BOOK-SCHEMA.md`）：
 - 顶层 **22 键、顺序固定**：`word, ipa_uk, ipa_us, definition_zh, definition_en, core_image, scene, sceneCN, pos, collocations, forms, derivatives, senses, etymology, similar, mnemonics, examples, dict_mnemonic, root, sensesIntro, semanticMap, affixes`
 - 中文字段：必须含中文、只用简体、不能出现连续 6 个及以上英文单词（校验器直接判错）
 - 英文字段：不能出现中文
@@ -201,15 +239,21 @@ node tools/find-word.js enrich enroll entity
 ### 4.4 校验 → 装片 → 更新主表与注册
 
 ```bash
-node tools/check-entry.js books/prepared/ielts-0100.json --existing   # 必须 0 错 0 警
+node tools/check-entry.js books/prepared/ielts-0103.json --existing   # 必须 0 错 0 警
 node tools/make-book-master.js ielts                                  # 重建 books/ielts.json
-# 再手工改 index.html：IELTS 那条的 Array.from({length: 99}) 改成 100
-git add books/prepared/ielts-0100.json books/ielts.json index.html
-git commit -m "ielts: add entries (batch 0100) enrich 起 20 词"
+# 再手工改 index.html:6615，IELTS 那条的 Array.from({length: 102}) 改成 103
+git add books/prepared/ielts-0103.json books/ielts.json index.html
+git commit -m "ielts: add entries (batch 0103) error 起 20 词"
 ```
 
 提交信息沿用现有风格：`ielts: add entries (batch 00NN) <首词> 起 20 词`。
 `tools/make-book-master.js` 会保留主表原有的 name / intro；要改文案用 `--name/--intro`。
+
+**每次改完注册都要跑内联语法检查**（`index.html` 是一整块内联 JS，改坏就整站白屏）：
+
+```bash
+node -e 'const h=require("fs").readFileSync("index.html","utf8");(h.match(/<script>[\s\S]*?<\/script>/g)||[]).forEach((b,i)=>{try{new Function(b.replace(/<\/?script>/g,""))}catch(e){console.log("script",i,"FAIL",e.message)}});console.log("inline scripts OK")'
+```
 
 ### 4.5 上架一本新书（sat / cet6 / gaokao 待做）
 
@@ -247,14 +291,15 @@ node tools/check-entry.js <文件或目录> [更多文件/目录] [--existing] [
 2. 词条必须是**详细拓展词条**（22 键深度词条），不接受简版卡：「记住要详细的拓展单词」。
 3. 不同书之间可以有重叠词，**同一本书内不允许重复**：「不同的书重叠的词汇没事，同一本不可以」。
 4. CET4 四级、小学一年级优先补全 → 已完成。
-5. 当前优先级：**IELTS 继续推完**（剩 3980 词）；之后再补 sat / cet6 / gaokao 并上架。
+5. 当前优先级：**IELTS 继续推完**（剩 3920 词）；之后再补 sat / cet6 / gaokao 并上架。
 6. 每批都要存到 GitHub：「还有记得放到 github」「然后都存到 github」。
 
 ---
 
 ## 7. 推送与线上验证
 
-- 本地 main 领先 origin/main **10 个提交**，其中今天新增 3 个：`db3c850`（词条注册 + 语音兜底）、`bbce0aa`（朗读时长）、`889f4c9`（流水线工具 + 雅思主表）。
+- 本地 main 领先 origin/main **14 个提交**（`git rev-list --count origin/main..HEAD` 实测）。最近的三个雅思批次是 `3106b74`（0100 enrich）、`a22c3e0`（0101 entomologist）、`94722c5`（0102 episodic）；更早还有 `db3c850`（词条注册 + 语音兜底）、`bbce0aa`（朗读时长）、`889f4c9`（流水线工具 + 雅思主表）。
+- **线上 GitHub Pages 目前完全没有这些内容**：用户看到的仍是「加载不出释义」的旧版。这一步不完成，前面所有修复都等于没发生。
 - Agent 侧 push 被主机权限分类拦下，**不要反复重试、不要换姿势绕开**。做法：明确告诉用户在真实终端执行
   ```bash
   cd /Users/hcc/Desktop/LIZZWORD && git push origin main
@@ -263,6 +308,7 @@ node tools/check-entry.js <文件或目录> [更多文件/目录] [--existing] [
   ```bash
   curl -sI https://hcc9886.github.io/LIZZWORD/books/ielts.json | head -1
   curl -s  https://hcc9886.github.io/LIZZWORD/books/ielts.json | node -e 'let s="";process.stdin.on("data",d=>s+=d).on("end",()=>console.log(JSON.parse(s).entries.length))'
+  # 期望 2080
   ```
 
 ---
@@ -276,6 +322,7 @@ node tools/check-entry.js <文件或目录> [更多文件/目录] [--existing] [
 - [ ] `index.html` 的 `preparedFiles` 数量已更新；3.1 验收脚本无 404 风险、无空白释义
 - [ ] `git status --porcelain` 只有本次产物
 - [ ] 已 commit（信息含批次号与首词）；需要上线时提醒用户 push
+- [ ] `git rev-list --count origin/main..HEAD` 报出的积压数已同步告知用户（积压越多，线上与本地差得越远）
 
 ---
 
@@ -291,3 +338,57 @@ node tools/check-entry.js <文件或目录> [更多文件/目录] [--existing] [
 8. `books/lizz/account-config.js` 里只有公开的 Supabase url / publishable key；**任何前端文件都不能出现 service_role key**。
 9. 不要改：`books/toefl-core-5000.json`、`books/deep/*.js`、`books/import/filtered/*.json`（冻结源表）、已上线的旧批次分片、`tools/check-entry.js`。
 10. `git fsck` 报 dangling object 是沙箱移动临时对象造成的，属正常，不要去「修复」。
+11. 分片编号**不一定纯数字**：`books/prepared/gaokao-0000a.json` 就带字母后缀。用 `^<书>-\d{4}\.json$` 过滤会漏词，应该用 `^<书>-\d{4}[a-z]?\.json$`。
+12. 验收脚本里的 `bookFile` 带 `./books/` 前缀，取路径时用 `path.basename`，别用 `replace(/^\.\//,"books/")`（会变成 `books/books/...`）。
+
+---
+
+## 10. 批次 0103 的在制品（只存在于 /tmp，不在 git 里）
+
+上一个会话在写 IELTS 批次 0103 时被用户打断，产物全在 `/tmp` 下，**没有 commit、没有装片**。重启机器或清理 /tmp 就全没了。接手方要么接着做完，要么删掉从头做——先跑 `node tools/next-words.js ielts 20` 确认仓库仍是 2080 / 102 片。
+
+`node tools/find-word.js` 对这一批的判定：**共 20 词，可复用 12、需新撰 8**。下表是本次交接前逐条跑 `check-entry.js` 实测出来的状态。
+
+| 状态 | 词 | 说明 |
+|---|---|---|
+| 复用、**已合格**（9） | error, especially, essay, essential, essentially, establish, establishment, estate, estimate | `/tmp/r-<词>.json`，可直接进片 |
+| 复用、**仍不合格**（3） | erupt, eruption, estuary | 三个都是 `semanticMap.branches[*].senses` 用了 `S1` 式写法（各 5 条 ERROR），要改成零分义务项号（`"01"`、`"01 · 03"`）；estuary 另有 4 条 WARN：`similar[].tag` 含大写或超 35 字符 |
+| 新撰、**JSON 解析失败** | escalate | `/tmp/n-escalate.json` 第 104 行缺 `]`（`similar.groups` 闭合写成了 `}`），先修语法再校验 |
+| **完全未撰写**（7） | escalator, essence, esteem, estivation, estrange, eternal, ethereal | 需从零写 |
+
+接手时建议的复现步骤：
+
+```bash
+ls /tmp/r-*.json /tmp/n-*.json          # 看还在不在
+node tools/next-words.js ielts 20       # 必须还是 error 起那 20 个词
+node tools/find-word.js --file <本批词表>   # 重新判定复用/新撰，不要相信本表
+node tools/check-entry.js /tmp/r-erupt.json /tmp/r-eruption.json /tmp/r-estuary.json --existing
+```
+
+装片脚本按源词表顺序拼接（顺序为 `error, erupt, eruption, escalate, escalator, especially, essay, essence, essential, essentially, establish, establishment, estate, esteem, estimate, estivation, estrange, estuary, eternal, ethereal`）：
+
+```python
+import io,json
+order=["error","erupt","eruption","escalate","escalator","especially","essay","essence",
+       "essential","essentially","establish","establishment","estate","esteem","estimate",
+       "estivation","estrange","estuary","eternal","ethereal"]
+out=[]
+for w in order:
+    for pat in ("/tmp/r-%s.json","/tmp/n-%s.json"):
+        p=pat%w
+        try: d=json.load(io.open(p,encoding="utf-8"))
+        except FileNotFoundError: continue
+        assert d["word"]==w,(p,d["word"]); out.append(d); break
+    else: raise SystemExit("missing "+w)
+with io.open("books/prepared/ielts-0103.json","w",encoding="utf-8") as f:
+    json.dump(out,f,ensure_ascii=False,indent=2); f.write("\n")
+```
+
+### 本批次反复踩到的撰写 bug（务必避开）
+
+1. **`similar.groups` 数组少一个 `]`**——手写时每批几乎必犯，报错形如「Expected ',' or ']' after array element」。写完 `similar` 先单独 `node -e 'JSON.parse(...)'` 一次。
+2. `similar` 条目里误写 `"isa": ""` 代替 `"ipa"`，校验器会连报 4 条（缺 ipa、空字段、多余字段、子键顺序）。
+3. `meaningCN` / `definitionCN` 里混进英文碎片（如「向内； onto 之上」），直接判中英混杂。
+4. `derivatives` 把目标词自身写成派生词（epoch→epoch、equate→equation of）——必须换成真实派生词。
+5. 场景句里目标词出现两次会计数重复（`countOccurrences` 按 `forms` 逐个统计，屈折形式互为子串会双计）。**场景句只用裸原形**。
+6. 中文引用英文短语要用「」包起来，否则连续 ≥6 个英文单词判错。
