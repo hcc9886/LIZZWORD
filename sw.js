@@ -59,6 +59,7 @@ const SHELL_FILES = [
   "./books/deep/index.js",
   "./books/lizz/plan-engine.js",
   "./books/lizz/onboarding.js",
+  "./books/lizz/entitlements.js",
   "./books/lizz/theme.css",
   "./books/lizz/theme.js",
   "./books/lizz/lizz.css",

@@ -232,6 +232,13 @@
 
 
 
+
+    .plan-pill {
+      display: inline-block; margin-top: 8px; padding: 3px 10px; border-radius: 999px;
+      font-size: 0.74rem; background: #fff7e6; color: #8a5b1f; border: 1px solid #f0e1b4;
+    }
+    .plan-pill[data-plan="plus"], .plan-pill[data-plan="pro"] { background: #eef4ff; color: #3157d5; border-color: #d6e2ff; }
+
     /* ===== 专项练习 ===== */
     .drill-home, .drill-card, .wrong-card { padding: 8px 2px; }
     .drill-sub { margin: 6px 0 14px; font-size: 0.86rem; color: #6b7280; }
@@ -1542,6 +1549,7 @@
       </div>
       <div class="top-stats" id="topStats" aria-live="polite"></div>
       <div class="theme-row" data-theme-mount></div>
+      <div class="plan-pill" id="planPill" hidden></div>
       <div class="view-nav" id="viewNav" hidden>
         <button type="button" class="back-btn" id="backHome">← 返回主界面</button>
         <span class="view-title" id="viewTitle"></span>
@@ -1595,6 +1603,7 @@
   <script src="books/lizz/study-timer.js"></script>
   <script src="books/lizz/plan-engine.js"></script>
   <script src="books/lizz/onboarding.js"></script>
+  <script src="books/lizz/entitlements.js"></script>
   <script src="books/manifest.js"></script>
   <script>
     // ============================================================
@@ -11326,7 +11335,8 @@
         onSave: (profile) => {
           const plan = currentPlan();
           if (plan) {
-            state.dailyTarget = plan.newWords;
+            const limit = window.LZEntitlements ? window.LZEntitlements.dailyNewLimit() : Infinity;
+            state.dailyTarget = Math.min(plan.newWords, limit === Infinity ? plan.newWords : limit);
             saveState();
           }
           showToast("计划已生成：" + (plan ? `每天新词 ${plan.newWords} 个` : "已保存"));
@@ -11334,6 +11344,21 @@
         },
         onClose: () => renderAll()
       });
+    }
+
+    function refreshPlanPill() {
+      const pill = document.getElementById("planPill");
+      const ent = window.LZEntitlements;
+      if (!pill || !ent) return;
+      const info = ent.state();
+      const label = info.plan === "trial"
+        ? `试用 Plus · 还剩 ${info.trialDaysLeft} 天`
+        : info.plan === "plus" || info.plan === "pro"
+          ? "Plus 已开通"
+          : "免费版 · 每日 20 新词";
+      pill.textContent = label;
+      pill.dataset.plan = info.plan;
+      pill.hidden = false;
     }
 
     function maybeOnboard() {
@@ -13020,6 +13045,11 @@
       const config = getBookConfig(bookId);
       if (!config || !BOOKS.some((item) => item.id === config.id)) return;
       if (config.id === state.bookId) return;
+      const entitlements = window.LZEntitlements;
+      if (entitlements && !entitlements.canOpenBook(config.id)) {
+        entitlements.openPaywall(config.name);
+        return;
+      }
       activeBookConfig = config;
       state.bookId = config.id;
       const dailyOptions = config.dailyOptions || [10, 15, 20];
@@ -13087,6 +13117,7 @@
       loadDeepIndex();
       loadBookBundle(activeBookConfig, boot);
     maybeOnboard();
+    refreshPlanPill();
     }
 
     // 调试 / 自动化测试可直接调用这些纯函数
