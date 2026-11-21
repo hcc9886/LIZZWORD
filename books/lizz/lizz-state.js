@@ -153,6 +153,14 @@
       "今天吃够了…剩下的明天再吃。",
       "（摸摸肚子）12 块是极限了…明天再吃。",
       "吃、吃饱了…剩下的先存着，坏不了。"
+    ],
+    // 每小时偷偷吃一块时被撞见的反应
+    sneak: [
+      "（嘴里还鼓着）…我、我什么都没吃。",
+      "这块自己掉进我嘴里的，真的。",
+      "你、你别这样看着我…我就咬了一小口。",
+      "碗里少的那块…不是我的错，它太香了。",
+      "我帮你试吃一下…嗯，没坏。"
     ]
   };
 
@@ -231,6 +239,9 @@
   // 兼容旧字段名：food 现在是“库存”，不再有 5 份上限
   const FOOD_CAP = Infinity;
 
+  // 每小时偷吃一块：距上一次偷吃满这么久，且碗里还有饼干，就悄悄吃掉 1 块
+  const SNEAK_EAT_MS = 60 * 60 * 1000;
+
   // 今天已吃掉的饼干数：保留字段兼容旧存档，不再设上限
   function clampEat(value) {
     return Math.max(0, Math.floor(Number(value) || 0));
@@ -303,6 +314,9 @@
       eatenDate: "",           // Lizz 今天吃掉饼干的日期（跨天重置）
       eatenToday: 0,           // 今天已吃掉的饼干数（保留字段，兼容旧存档）
       foodDate: "",            // 饼干库存归属的日期（跨天清零）
+      sneakAt: 0,              // 上一次“每小时偷吃”的时刻（epoch 毫秒）
+      sneakTotal: 0,           // 累计偷吃块数
+      lastSneak: -1,           // 上一条偷吃台词，避免连续重复
       shop: null,              // 商店状态（points/owned/equipped...），由 lizz-shop.js 维护
       updatedAt: ""
     };
@@ -443,9 +457,19 @@
     state.lastPraise = Number.isInteger(state.lastPraise) ? state.lastPraise : -1;
     state.lastThanks = Number.isInteger(state.lastThanks) ? state.lastThanks : -1;
     state.lastTsundere = Number.isInteger(state.lastTsundere) ? state.lastTsundere : -1;
+    state.sneakTotal = Math.max(0, Math.floor(Number(state.sneakTotal) || 0));
+    state.lastSneak = Number.isInteger(state.lastSneak) ? state.lastSneak : -1;
+
+    // 每日重置的饼干不会因为她昨天没吃完而作废；这里只兜底首次运行的计时起点
+    let changed = false;
+    const stampNow = Date.now();
+    state.sneakAt = Number(state.sneakAt) || 0;
+    if (!state.sneakAt || state.sneakAt > stampNow) {
+      state.sneakAt = stampNow;
+      changed = true;
+    }
 
     // 每日吃掉数：跨天自动归零；同日不超过 COOKIE_EAT_CAP
-    let changed = false;
     if (state.eatenDate !== dateKeyOf()) {
       state.eatenDate = dateKeyOf();
       state.eatenToday = 0;
@@ -454,11 +478,12 @@
       state.eatenToday = clampEat(state.eatenToday);
     }
 
-    // 饼干库存每天清零：跨天后碗里回到 0 块重新攒
+    // 饼干库存每天清零：跨天后碗里回到 0 块重新攒，偷吃的钟也从此刻重新起算
     if (state.foodDate !== dateKeyOf()) {
       state.foodDate = dateKeyOf();
       state.food = 0;
       state.foodReacted = 0;
+      state.sneakAt = Date.now();
       changed = true;
     }
 
@@ -533,6 +558,7 @@
     FOOD_CAP,
     COOKIE_GROUP_SIZE,
     COOKIE_VISIBLE_MAX,
+    SNEAK_EAT_MS,
     moodFor,
     clampEat,
     dateKeyOf,

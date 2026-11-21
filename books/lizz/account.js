@@ -795,6 +795,9 @@
       out.cookieSeen = clone(pick);
     }
     out.softHideCount = Math.max(Number(newer.softHideCount) || 0, Number(older.softHideCount) || 0);
+    // 偷吃的钟取较晚的一次：否则旧快照会把刚吃过的那一小时倒回去，让她再吃一块
+    out.sneakAt = Math.max(Number(newer.sneakAt) || 0, Number(older.sneakAt) || 0);
+    out.sneakTotal = Math.max(Number(newer.sneakTotal) || 0, Number(older.sneakTotal) || 0);
     out.hiddenAt = laterDate(newer.hiddenAt, older.hiddenAt);
     out.praiseAt = laterDate(newer.praiseAt, older.praiseAt);
     out.shop = mergeShop(newer.shop, older.shop, newer.shop);

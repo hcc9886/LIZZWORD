@@ -32,6 +32,17 @@
     return FEED_LINES[Math.floor(Math.random() * FEED_LINES.length)];
   }
 
+  /* 她每小时会偷吃一块：把下一次偷吃的倒计时写成「58 分 12 秒」 */
+  function sneakCountdown() {
+    const state = S.load();
+    const interval = Number(S.SNEAK_EAT_MS) || 3600000;
+    const left = Math.max(0, interval - (Date.now() - (Number(state.sneakAt) || Date.now())));
+    const total = Math.ceil(left / 1000);
+    const min = Math.floor(total / 60);
+    const sec = total % 60;
+    return { left: left, text: `${min} 分 ${String(sec).padStart(2, "0")} 秒`, snacks: Number(state.sneakTotal) || 0 };
+  }
+
   function attach(target) {
     const host = target || document.getElementById("lzLizz");
     if (!host || host.dataset.feedBound === "1") {
@@ -111,18 +122,21 @@
     const status = SHOP.getFeedStatus();
     const size = SHOP.FEED_WORDS || 5;
     const toNext = size - (status.counted % size);
+    const sneak = sneakCountdown();
     let body = "";
     let actionLabel = "喂给它";
     let disabled = false;
 
     if (status.food <= 0) {
       body = `<p class="lz-feed-text">碗里还是空的。当天每背满 <b>${size}</b> 个新词才掉一块饼干（${size}／${size * 2}／${size * 3}／${size * 4}…），攒一攒再来喂吧。</p>
-        <p class="lz-feed-sub">今天已背 <b>${status.counted}</b> 个新词 · 再背 <b>${toNext}</b> 个掉下一块 · 饼干到第二天会清零</p>`;
+        <p class="lz-feed-sub">今天已背 <b>${status.counted}</b> 个新词 · 再背 <b>${toNext}</b> 个掉下一块 · 饼干到第二天会清零</p>
+        <p class="lz-feed-sub">她每小时会偷吃一块，碗里存着也会被吃掉 · 已累计偷吃 <b>${sneak.snacks}</b> 块</p>`;
       actionLabel = "碗里空空的";
       disabled = true;
     } else {
       body = `<p class="lz-feed-text">从碗里拿一块饼干喂给 Lizz？碗里现在有 <b>${status.food}</b> 块。</p>
-        <p class="lz-feed-sub">每背满 ${size} 个新词 +1 块 · 再背 <b>${toNext}</b> 个掉下一块 · 饼干到第二天会清零</p>`;
+        <p class="lz-feed-sub">每背满 ${size} 个新词 +1 块 · 再背 <b>${toNext}</b> 个掉下一块 · 饼干到第二天会清零</p>
+        <p class="lz-feed-sub">距她下次偷吃还有 <b>${sneak.text}</b> · 已累计偷吃 <b>${sneak.snacks}</b> 块</p>`;
     }
 
     card = document.createElement("div");

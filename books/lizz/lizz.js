@@ -47,6 +47,7 @@
   let tsundereTimer = null;
   let secretReactTimer = null;
   let secretUntil = 0;
+  let sneakMs = S.SNEAK_EAT_MS || 3600000;
 
   function esc(value) {
     return String(value == null ? "" : value)
@@ -314,6 +315,30 @@
       // 还没攒满一组，或进度被重置：只校准游标，不回收已入碗的饼干
       state.cookieSeen.wordsToday = words;
       S.save(state);
+    }
+  }
+
+  /* 每小时偷吃：距上一次满 1 小时、且碗里还有饼干，就悄悄吃掉 1 块。
+     不补吃缺席的整点——页面关掉几小时再回来，也只吃掉当前这一小时的那块，
+     免得重开页面时碗被瞬间清空。她在场时冒一句被撞见的台词，不在场就静默。 */
+  function checkSneakEat(now) {
+    if (!state || !state.tutorialDone) return;
+    if (Number(state.food) <= 0) return;
+    const shop = window.LIZZWORD_LIZZ_SHOP;
+    if (!shop || typeof shop.feed !== "function") return;
+    const stamp = now == null ? Date.now() : Number(now);
+    if (stamp - (Number(state.sneakAt) || 0) < sneakMs) return;
+
+    state.sneakAt = stamp;
+    state.sneakTotal = (Number(state.sneakTotal) || 0) + 1;
+    state.eatenDate = S.dateKeyOf();
+    state.eatenToday = (Number(state.eatenToday) || 0) + 1;
+    S.save(state);
+    const result = shop.feed();
+    state = S.load();
+    syncFromStorage({ animate: false });
+    if (result && result.ok && widget && !widget.hidden) {
+      celebrate(pickLine(S.LINES.sneak, "lastSneak"));
     }
   }
 
@@ -684,6 +709,7 @@
     }
     checkGroupProgress();
     checkCookieProgress();
+    checkSneakEat();
     syncVisibility();
   }
 
@@ -761,6 +787,15 @@
       resolveBurst,
       tick,
       syncVisibility,
+      sneakEat: checkSneakEat,
+      setSneakMs(value) {
+        sneakMs = Math.max(0, Number(value) || 0);
+        return sneakMs;
+      },
+      sneakRemaining() {
+        const stamp = Number(state && state.sneakAt) || 0;
+        return Math.max(0, sneakMs - (Date.now() - stamp));
+      },
       getBurst: () => burst,
       isLocked: () => locked,
       isHiding: () => hiding,
