@@ -8,6 +8,20 @@
 
 ---
 
+## 2026-11-21 晚 · 最新进度（覆盖下文旧数字）
+
+本节比正文新；与正文冲突时以本节为准。
+
+- IELTS 批次 **0103（error 起 20 词）已完成并提交**：`books/prepared/ielts-0103.json`，`check-entry.js --existing` 20/20、0 错 0 警。
+- 主表 `books/ielts.json` 重建到 **2100 词 / 103 片**；`index.html` 注册长度已改 103；`node tools/audit-books.js` 6 本全绿。
+- 下一批 **0104**，首词 `ethical`（`node tools/next-words.js ielts 20` 实测）。
+- 新增 `tools/audit-books.js`（词书加载自检，可 `--all` 扫未注册分片），新增 `docs/TRAE-BRIEF.md`（交给 Trae 的产品意见条款：学习模式、入门问卷、付费/免费、词书可行性、零基础书）。
+- 语音已加：`LZSpeech.speakSequence` 连读队列、语速/口音偏好持久化（`lizzword_speech_v1`）、失败分级提示；词卡「连读（词 → 例句 → 释义）」按钮。
+- 本地 main 领先 origin/main 的提交数继续增加（交接时 15，随后 +4），**push 仍被 Agent 侧权限拦住，必须用户在真实终端执行**。
+- 批次 0103 的 `/tmp` 在制品已消化完毕，第 10 节不再适用；后续批次按第 4 节流程正常生产即可。
+
+---
+
 ## 0. 一分钟上手
 
 ```bash
