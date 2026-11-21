@@ -29,6 +29,7 @@ const SHELL_FILES = [
   "./books/cet4.json",
   "./books/daily.json",
   "./books/distractors.json",
+  "./books/ielts.json",
   "./books/middle.json",
   "./books/quotes.json",
   "./books/shanghai.json",

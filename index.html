@@ -6565,7 +6565,15 @@
         name: "TOEFL 核心词汇 3534",
         intro: "3,534 Words 托福英语核心词汇计划：500 基础高频词、1,326 学术阅读词汇、1,371 进阶学术词汇、337 高阶拓展词汇。",
         bookFile: "./books/toefl-core-5000.json",
-        preparedFiles: ["./books/prepared/toefl-core-5000-0001.json"],
+        preparedFiles: (() => {
+          const missing = new Set(["0076", "0106"]);
+          const files = [];
+          for (let i = 1; i <= 240; i++) {
+            const id = String(i).padStart(4, "0");
+            if (!missing.has(id)) files.push(`./books/prepared/toefl-core-5000-${id}.json`);
+          }
+          return files;
+        })(),
         distractorsFile: "./books/distractors.json",
         dailyOptions: [10, 15, 20],
         fallback: BOOK_FALLBACK
@@ -6595,6 +6603,16 @@
           for (let i = 1; i <= 111; i++) files.push(`./books/prepared/cet4b-${String(i).padStart(4, "0")}.json`);
           return files;
         })(),
+        distractorsFile: "./books/distractors.json",
+        dailyOptions: [5, 10, 15, 20],
+        fallback: null
+      },
+      {
+        id: "ielts",
+        name: "IELTS 雅思核心词汇",
+        intro: "雅思核心词汇 6,000 词，已上线 2,020 条 22 键深度词条，按字母顺序持续补齐。",
+        bookFile: "./books/ielts.json",
+        preparedFiles: Array.from({length: 99}, (_, i) => `./books/prepared/ielts-${String(i+1).padStart(4,"0")}.json`),
         distractorsFile: "./books/distractors.json",
         dailyOptions: [5, 10, 15, 20],
         fallback: null
@@ -9766,10 +9784,12 @@
           { id: "cet4", reason: "四级词汇难度适中，可以挑战起来" }
         ],
         B2: [
+          { id: "ielts", reason: "雅思学术场景词，配深度词条与词根串讲" },
           { id: "cet4", reason: "四级词表能补齐你的常用词缺口" },
           { id: "toefl-core-5000", reason: "托福核心学术词，向更高级别进阶" }
         ],
         C1: [
+          { id: "ielts", reason: "雅思高阶词与同义辨析，适合冲 7 分以上" },
           { id: "toefl-core-5000", reason: "托福核心学术词，巩固高端词汇量" }
         ],
         C2: [

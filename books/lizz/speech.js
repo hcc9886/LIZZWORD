@@ -49,10 +49,16 @@
     if (!list.length) return null;
     const want = String(lang || "en-US").toLowerCase();
     const base = want.split("-")[0];
-    return list.find(function (v) { return String(v.lang || "").toLowerCase() === want; })
-      || list.find(function (v) { return /^en[-_]us/i.test(v.lang || ""); })
-      || list.find(function (v) { return /^en[-_]gb/i.test(v.lang || ""); })
-      || list.find(function (v) { return String(v.lang || "").toLowerCase().indexOf(base) === 0; })
+    const exact = list.find(function (v) { return String(v.lang || "").toLowerCase() === want; });
+    if (exact) return exact;
+    // 英文才有英音/美音兜底；其他语言只能用同前缀的语音，否则会拿美音读中文
+    if (base === "en") {
+      const us = list.find(function (v) { return /^en[-_]us/i.test(v.lang || ""); });
+      if (us) return us;
+      const gb = list.find(function (v) { return /^en[-_]gb/i.test(v.lang || ""); });
+      if (gb) return gb;
+    }
+    return list.find(function (v) { return String(v.lang || "").toLowerCase().indexOf(base) === 0; })
       || null;
   }
 
@@ -66,6 +72,14 @@
   // 第一次点按/触摸时解锁：Safari 只有在用户手势里 resume 后才会出声
   if (typeof document !== "undefined" && document.addEventListener) {
     document.addEventListener("pointerdown", resume, { passive: true });
+  }
+
+  // 兜底结束时间按文本长度估算，避免长句才读了一半就被判定结束
+  function estimateMs(text, rate) {
+    const words = String(text).trim().split(/\s+/).filter(Boolean).length;
+    const chars = String(text).length;
+    const spoken = Math.max(words * 420, chars * 55);
+    return Math.min(90000, Math.max(3000, Math.round(spoken / (rate || 0.9)) + 1200));
   }
 
   function cancel() {
@@ -96,6 +110,25 @@
     let ended = false;
     let startTimer = 0;
     let endTimer = 0;
+    let keepAlive = 0;
+
+    // Chrome 会在约 15 秒后静默停掉长句朗读，靠周期性 resume 续命
+    function startKeepAlive() {
+      if (keepAlive || !synth) return;
+      keepAlive = window.setInterval(function () {
+        let speaking = false;
+        try { speaking = Boolean(synth.speaking); } catch (e) { /* ignore */ }
+        if (!speaking) { stopKeepAlive(); return; }
+        resume();
+      }, 10000);
+    }
+
+    function stopKeepAlive() {
+      if (keepAlive) {
+        window.clearInterval(keepAlive);
+        keepAlive = 0;
+      }
+    }
 
     function clearTimers() {
       if (startTimer) {
@@ -106,6 +139,7 @@
         window.clearTimeout(endTimer);
         endTimer = 0;
       }
+      stopKeepAlive();
     }
 
     function deliverEnd() {
@@ -124,7 +158,8 @@
         startTimer = 0;
       }
       // 有些浏览器会触发 onstart 却始终没有 onend，让按钮不能一直卡在“朗读中”
-      endTimer = window.setTimeout(deliverEnd, opts.endTimeout || 3000);
+      endTimer = window.setTimeout(deliverEnd, opts.endTimeout || estimateMs(value, opts.rate));
+      startKeepAlive();
       if (opts.onStart) opts.onStart();
     }
 
@@ -186,6 +221,9 @@
     speak: speak,
     cancel: cancel,
     refresh: refresh,
+    voices: function () { return (voices.length ? voices : refresh()).slice(); },
+    voiceFor: pickVoice,
+    estimateMs: estimateMs,
     hasEnglishVoice: function () { return Boolean(pickVoice("en-US")); }
   };
 
