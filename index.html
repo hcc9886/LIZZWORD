@@ -369,6 +369,29 @@
 
     /* ===== 计划卡 ===== */
     .plan-actions { display: flex; gap: 8px; flex: 0 0 auto; }
+
+    /* ===== 首页：主操作 + 快捷格 ===== */
+    .primary-row { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; margin: 0 0 12px; }
+    .primary-btn {
+      display: flex; flex-direction: column; align-items: flex-start; gap: 4px;
+      padding: 14px 14px; border-radius: 16px; border: 1px solid #e1e5f0; background: #fff;
+      cursor: pointer; text-align: left;
+    }
+    .primary-btn:disabled { opacity: .45; cursor: default; }
+    .primary-title { font-size: 1.02rem; font-weight: 700; }
+    .primary-sub { font-size: 0.76rem; color: #6b7280; }
+    .primary-study { background: linear-gradient(135deg, #eef4ff, #fff); border-color: #c9d9ff; }
+    .primary-review { background: linear-gradient(135deg, #fff7e6, #fff); border-color: #f0e1b4; }
+    .primary-preview { background: linear-gradient(135deg, #f4fbf6, #fff); border-color: #cbe8d6; }
+    .quick-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px; margin: 0 0 14px; }
+    .quick-tile {
+      display: flex; flex-direction: column; align-items: center; gap: 4px;
+      padding: 10px 6px; border-radius: 12px; border: 1px solid #eef1f6; background: #fff;
+      cursor: pointer;
+    }
+    .quick-icon { font-size: 1.1rem; line-height: 1; }
+    .quick-label { font-size: 0.72rem; color: #4b5563; }
+    .redeem-btn { padding: 4px 12px; border-radius: 999px; border: 1px solid #f0e1b4; background: #fff7e6; font-size: 0.76rem; cursor: pointer; }
     .plan-row { display: flex; align-items: center; gap: 8px; margin-top: 8px; flex-wrap: wrap; }
     .settings-btn { padding: 4px 12px; border-radius: 999px; border: 1px solid #e1e5f0; background: #fff; font-size: 0.76rem; cursor: pointer; }
     .settings-card { max-height: 86vh; overflow: auto; }
@@ -1657,6 +1680,7 @@
       <div class="theme-row" data-theme-mount></div>
       <div class="plan-row">
         <div class="plan-pill" id="planPill" hidden></div>
+        <button type="button" class="redeem-btn" data-invite-open title="输入内测兑换码">🎟 兑换码</button>
         <button type="button" class="settings-btn" data-settings-open title="设置与更多">⚙ 设置</button>
       </div>
       <div class="view-nav" id="viewNav" hidden>
@@ -10347,88 +10371,31 @@
       document.getElementById("view-home").innerHTML = `
         ${homeBookBarHTML()}
         ${planCardHTML()}
-        <section class="mode-strip">
-          <p class="mode-strip-title">学习模式</p>
-          <div class="mode-chips">
-            <button type="button" class="mode-chip" data-enter="study">认词</button>
-            <button type="button" class="mode-chip" data-mode-drill="example">例句填空</button>
-            <button type="button" class="mode-chip" data-mode-drill="confusable">形近辨析</button>
-            <button type="button" class="mode-chip" data-mode-drill="affix">词根拆解</button>
-            <button type="button" class="mode-chip" data-mode-games="1">听音 / 拼写</button>
-            <button type="button" class="mode-chip" data-enter="review">复习</button>
-            <button type="button" class="mode-chip" data-enter="preview">预习</button>
-          </div>
+
+        <section class="primary-row">
+          <button type="button" class="primary-btn primary-study" data-enter="study" ${canLearn ? "" : "disabled"}>
+            <span class="primary-title">新学</span>
+            <span class="primary-sub">${noPrepared ? "内容未备" : stage === "done" ? `已完成 ${state.wordsToday} 词` : `${state.learnWords.length ? todayRemaining() + "/" + sessionWordCount() : state.dailyTarget + " 词"}`}</span>
+          </button>
+          <button type="button" class="primary-btn primary-review" data-enter="review" ${reviewEnabled ? "" : "disabled"}>
+            <span class="primary-title">复习</span>
+            <span class="primary-sub">${reviewActive ? "继续" : due ? due + " 个到期" : "无到期"}</span>
+          </button>
+          <button type="button" class="primary-btn primary-preview" data-enter="preview">
+            <span class="primary-title">预习</span>
+            <span class="primary-sub">${previewBatch.length ? previewBatch.length + " 个词" : "暂无"}</span>
+          </button>
         </section>
-        <section class="home-grid">
-          <button type="button" class="home-btn" data-enter="review" ${reviewEnabled ? "" : "disabled"}>
-            <span class="home-title">复习</span>
-            <span class="home-sub">${reviewActive
-              ? "继续今天的复习（回想关 → 两轮认词 → 写 → 说）"
-              : (due === 0 ? "今天没有要复习的" : `有 ${due} 个词到期，先过回想关，再四轮复习`)}</span>
-          </button>
 
-          <button type="button" class="home-btn" data-enter="study" ${canLearn ? "" : "disabled"}>
-            <span class="home-title">新学</span>
-            <span class="home-sub">${noPrepared
-              ? "该词深度内容尚未准备"
-              : shortage
-                ? `已备内容不足，需要补充词条（剩余 ${availableLearn} 个）`
-                : (stage === "done"
-                  ? `今天已完成 ${state.groupsToday} 组 · ${state.wordsToday} 个词，点此再学一组`
-                  : `当前阶段：${STAGE_LABELS[stage]} · ${state.learnWords.length ? `待学 ${todayRemaining()} / ${sessionWordCount()}` : `今日目标 ${state.dailyTarget} 个`}`)}</span>
-          </button>
-
-          <button type="button" class="home-btn" data-enter="preview">
-            <span class="home-title">预习</span>
-            <span class="home-sub">${previewBatch.length
-              ? `${state.learnWords.length ? "当日批次" : "下一批"} ${previewBatch.length} 个词 · 左右滑动切换`
-              : (noPrepared ? "该词深度内容尚未准备" : "已备内容不足，需要补充词条")}</span>
-          </button>
-
-          <button type="button" class="home-btn" data-enter="lizz-shop">
-            <span class="home-title">lizz</span>
-            <span class="home-sub" id="homeLizzSummary">${lizzShopSubtitle()}</span>
-          </button>
-
-          <button type="button" class="home-btn" data-enter="vocab-test">
-            <span class="home-title">词汇量测试</span>
-            <span class="home-sub">${vocabTestHomeText()}</span>
-          </button>
-
-          <button type="button" class="home-btn" data-enter="weekly">
-            <span class="home-title">每周复盘</span>
-            <span class="home-sub">${weeklySummaryText()}</span>
-          </button>
-
-          <button type="button" class="home-btn" data-enter="drill">
-            <span class="home-title">专项练习</span>
-            <span class="home-sub">例句填空 · 形近辨析 · 词根拆解，十题一组</span>
-          </button>
-
-          <button type="button" class="home-btn" data-enter="wrong">
-            <span class="home-title">错词本</span>
-            <span class="home-sub">${wrongBookSummary()}</span>
-          </button>
-
-          <button type="button" class="home-btn" data-custom-book>
-            <span class="home-title">我的词书</span>
-            <span class="home-sub">${customBookSummary()}</span>
-          </button>
-
-          <button type="button" class="home-btn" data-asm-review-entry>
-            <span class="home-title">句子复习</span>
-            <span class="home-sub">拼装队列 · 写阶段拼错的句子单独练</span>
-          </button>
-
-          <button type="button" class="home-btn" data-enter="class">
-            <span class="home-title">教师端</span>
-            <span class="home-sub">${classRoomSummary()}</span>
-          </button>
-
-          <button type="button" class="home-btn" data-enter="games">
-            <span class="home-title">小游戏</span>
-            <span class="home-sub">翻牌配对 · 快闪辨义 · 字母重组 · 听音选词</span>
-          </button>
+        <section class="quick-grid">
+          <button type="button" class="quick-tile" data-enter="drill"><span class="quick-icon">✏️</span><span class="quick-label">专项练习</span></button>
+          <button type="button" class="quick-tile" data-enter="wrong"><span class="quick-icon">📕</span><span class="quick-label">错词本</span></button>
+          <button type="button" class="quick-tile" data-asm-review-entry><span class="quick-icon">🧩</span><span class="quick-label">句子复习</span></button>
+          <button type="button" class="quick-tile" data-custom-book><span class="quick-icon">📚</span><span class="quick-label">我的词书</span></button>
+          <button type="button" class="quick-tile" data-enter="weekly"><span class="quick-icon">📈</span><span class="quick-label">每周复盘</span></button>
+          <button type="button" class="quick-tile" data-enter="vocab-test"><span class="quick-icon">🎯</span><span class="quick-label">词汇量</span></button>
+          <button type="button" class="quick-tile" data-enter="lizz-shop"><span class="quick-icon">🦊</span><span class="quick-label">Lizz</span></button>
+          <button type="button" class="quick-tile" data-enter="games"><span class="quick-icon">🎮</span><span class="quick-label">小游戏</span></button>
         </section>
 
         <p class="home-progress">当前组已学 <b>${finishedToday ? target : learned}</b> / ${target} · 今日累计 <b>${state.groupsToday}</b> 组 · <b>${state.wordsToday}</b> 个词${finishedToday ? " · 已完成" : ""}</p>
@@ -11646,7 +11613,7 @@
     // ============================================================
     const HOME_LAYOUT_KEY = "lizzword_layout_v1";
     const HOME_SECTION_KEYS = ["plan", "modes", "grid", "progress", "quote"];
-    const HOME_SECTION_NAMES = { plan: "今日计划", modes: "学习模式", grid: "功能入口", progress: "今日进度", quote: "每日一句" };
+    const HOME_SECTION_NAMES = { plan: "今日计划", modes: "主操作", grid: "快捷入口", progress: "今日进度", quote: "每日一句" };
     const HOME_GRID_COLUMNS = [2, 3, 4];
     const HOME_FONT_SIZES = ["normal", "large", "xlarge"];
 
@@ -11686,8 +11653,8 @@
       }
       const map = {
         plan: [".plan-card", ".plan-hint"],
-        modes: [".mode-strip"],
-        grid: [".home-grid"],
+        modes: [".primary-row"],
+        grid: [".quick-grid"],
         progress: [".home-progress"],
         quote: [".quote-card"]
       };
