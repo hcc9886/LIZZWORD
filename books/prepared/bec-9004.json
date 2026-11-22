@@ -3,11 +3,11 @@
     "word": "shipment",
     "ipa_uk": "/ˈʃɪpmənt/",
     "ipa_us": "/ˈʃɪpmənt/",
-    "definition_zh": "装运；一批货物；货运",
-    "definition_en": "the act of sending goods, or a batch of goods sent together",
-    "core_image": "吊机把一排货箱稳稳放上货轮甲板",
-    "scene": "港口仓库里，工人正在清点即将出口的纸箱。The shipment of coffee leaves the port on Friday.",
-    "sceneCN": "这里 shipment 是「装运」（第 1 个义项：把货物交给承运方运出的行为）；句意：这批咖啡的装运将在周五离港。",
+    "definition_zh": "装运；运输；货物；一批货",
+    "definition_en": "the act of sending goods, or the goods that are sent together",
+    "core_image": "码头吊机把一只只货箱吊上船",
+    "scene": "港口堆场里，工人把打好的托盘装上卡车，准备发往海外客户。The forwarder confirmed that the shipment would leave the warehouse on Friday.",
+    "sceneCN": "这里 shipment 是「一批货物」（第 2 个义项：一次发运出去的那批货）；句意：货运代理确认这批货会在周五离开仓库。",
     "pos": [
       {
         "tag": "n.",
@@ -16,28 +16,28 @@
     ],
     "collocations": [
       {
+        "phrase": "partial shipment",
+        "zh": "分批装运"
+      },
+      {
         "phrase": "shipment date",
         "zh": "装运日期"
+      },
+      {
+        "phrase": "shipment advice",
+        "zh": "装运通知"
       },
       {
         "phrase": "port of shipment",
         "zh": "装运港"
       },
       {
-        "phrase": "partial shipment",
-        "zh": "分批装运"
+        "phrase": "a shipment of goods",
+        "zh": "一批货物"
       },
       {
-        "phrase": "receive a shipment",
-        "zh": "收到一批货"
-      },
-      {
-        "phrase": "delay a shipment",
-        "zh": "延误装运"
-      },
-      {
-        "phrase": "shipment costs",
-        "zh": "运输费用"
+        "phrase": "delay in shipment",
+        "zh": "装运延误"
       }
     ],
     "forms": [
@@ -48,24 +48,19 @@
     ],
     "derivatives": [
       {
-        "word": "ship",
-        "pos": "v.",
-        "zh": "用船运送；运送；shipment 的动词基础"
-      },
-      {
         "word": "shipper",
         "pos": "n.",
-        "zh": "发货人；托运人；ship 加 -er"
+        "zh": "ship 加施事后缀 -er，指「托运人；发货人」"
       },
       {
         "word": "shipping",
         "pos": "n.",
-        "zh": "运输；航运；ship 加 -ing"
+        "zh": "ship 加 -ing 构成的名词，义为「运输；航运」"
       },
       {
         "word": "reshipment",
         "pos": "n.",
-        "zh": "重新装运；转运；re- 加 shipment"
+        "zh": "前缀 re- 加 shipment，义为「转运；再装运」"
       }
     ],
     "senses": [
@@ -73,78 +68,95 @@
         "no": "01",
         "title": "The act of sending goods",
         "titleCN": "装运",
-        "definition": "the process of sending goods from one place to another, especially by sea",
-        "definitionCN": "把货物从一地运往另一地的过程，尤指海运",
-        "example": "The contract fixes the shipment date at the end of May.",
-        "exampleCN": "合同把装运日期定在五月底。",
-        "why": "Ship plus -ment names the action, so the act of sending goods comes first.",
-        "whyCN": "ship 加 -ment 先把动作变成名词，所以「装运」这一行为排在首位。"
+        "definition": "the act of sending goods to a buyer, usually by ship, truck, train, or plane",
+        "definitionCN": "把货物交给承运方运送给买方的动作",
+        "example": "The export team handles the shipment of every order.",
+        "exampleCN": "出口团队负责每一张订单的装运。",
+        "why": "The suffix -ment names an action, so shipment first means the act of shipping.",
+        "whyCN": "后缀 -ment 把动作名词化，所以 shipment 首先指装运这个动作。"
       },
       {
         "no": "02",
         "title": "A batch of goods sent",
-        "titleCN": "一批货物",
-        "definition": "a quantity of goods sent together to one buyer",
-        "definitionCN": "一起发给同一买家的若干货物",
-        "example": "The warehouse received a shipment of spare parts this morning.",
-        "exampleCN": "仓库今早收到一批备件。",
-        "why": "-ment also names the result of the action, so the goods themselves become a shipment.",
-        "whyCN": "-ment 也能指动作的结果，所以被运走的货物本身也叫 shipment。"
+        "titleCN": "货物；一批货",
+        "definition": "the goods that are sent together in one load",
+        "definitionCN": "作为一批一起发运出去的货物",
+        "example": "The shipment arrived at the port two days late.",
+        "exampleCN": "这批货晚了两天才到港口。",
+        "why": "From the action the word slides to its result: what is shipped is also called a shipment.",
+        "whyCN": "从动作滑向结果：被装运出去的那批东西也叫 shipment。"
       },
       {
         "no": "03",
-        "title": "A unit in trade documents",
-        "titleCN": "一票货",
-        "definition": "each separate consignment recorded as one unit in shipping and customs papers",
-        "definitionCN": "在运输与海关单据上单独记录的一票货物",
-        "example": "The invoice lists three shipments to the same client.",
-        "exampleCN": "发票列出了发给同一客户的三票货。",
-        "why": "Trade paperwork counts each dispatched lot as one shipment, a narrower counting sense.",
-        "whyCN": "贸易单据把每一次发出的货记作一票，这是更窄的计数义项。"
+        "title": "The loading of a vessel",
+        "titleCN": "装船；装货",
+        "definition": "the old sense of putting cargo onto a ship",
+        "definitionCN": "把货物装上船这一较早的具体含义",
+        "example": "The old records list the shipment of coal at the harbour.",
+        "exampleCN": "旧档案里记载着在港口装运煤炭的事。",
+        "why": "The word began with ships, so loading a vessel is the oldest concrete sense.",
+        "whyCN": "这个词从船开始，所以把货装上船是最早的具体义项。"
+      },
+      {
+        "no": "04",
+        "title": "A dispatch under a contract",
+        "titleCN": "发货批次；分批装运",
+        "definition": "one consignment among several that a contract allows to be sent separately",
+        "definitionCN": "合同允许分开装运的若干批货中的一批",
+        "example": "The contract permits partial shipment in three lots.",
+        "exampleCN": "合同允许分三批装运。",
+        "why": "Trade contracts split a single order into shipments, so the word comes to mean one agreed dispatch.",
+        "whyCN": "贸易合同把一张订单拆成若干次装运，于是 shipment 也指约定好的一次发货。"
+      },
+      {
+        "no": "05",
+        "title": "Freight transport as a whole",
+        "titleCN": "运输；货运",
+        "definition": "the business or volume of carrying goods, especially by sea",
+        "definitionCN": "承运货物的行业或运量，尤指海运",
+        "example": "The town economy depends on shipment and storage.",
+        "exampleCN": "这个城镇的经济依靠货运与仓储。",
+        "why": "The action sense broadens from one dispatch to the whole traffic of goods.",
+        "whyCN": "动作义再从一次发货扩大到整个货运行业与运量。"
       }
     ],
     "etymology": {
       "intro": {
-        "en": "Shipment is ship plus the noun suffix -ment; ship goes back to Old English scip, a sea-going vessel.",
-        "cn": "shipment 是 ship 加名词后缀 -ment；ship 可上溯到古英语 scip，意为航海船只。"
+        "en": "Shipment is ship plus the noun suffix -ment, which English received through French from Latin -mentum; it first names the loading of a ship and then the goods sent and the act of sending them.",
+        "cn": "shipment 由 ship 加名词后缀 -ment 构成，而 -ment 是英语经法语从拉丁语 -mentum 借来的；它最初指装船，后来兼指发出的货物与发运这个动作。"
       },
       "items": [
         {
-          "era": "OLD ENGLISH",
-          "en": "Scip means a sea-going vessel.",
-          "cn": "scip 意为航海船只。"
-        },
-        {
-          "era": "ENGLISH, 15TH C.",
-          "en": "The verb ship appears, meaning to load goods onto a vessel.",
-          "cn": "动词 ship 出现，意为把货物装上船。"
-        },
-        {
           "era": "LATIN",
-          "en": "-mentum is a Latin suffix that forms nouns of action or result.",
-          "cn": "-mentum 是拉丁语后缀，构成表示动作或结果的名词。"
+          "en": "-mentum is a Latin noun suffix that forms nouns of action or result.",
+          "cn": "拉丁语后缀 -mentum 由动词构成表示动作或结果的名词。"
         },
         {
           "era": "OLD FRENCH",
-          "en": "-ment passes from Latin through French into English.",
-          "cn": "-ment 经法语从拉丁语进入英语。"
+          "en": "-ment reaches English through Old French, where it marks nouns of action.",
+          "cn": "-ment 经古法语进入英语，在法语里就用来标记动作名词。"
         },
         {
-          "era": "ENGLISH, 19TH C.",
-          "en": "Shipment appears as a noun for the act of shipping goods.",
-          "cn": "shipment 作为表示装运行为的名词出现。"
+          "era": "MIDDLE ENGLISH",
+          "en": "Ship, from Old English scip, joins -ment to name the loading of a vessel.",
+          "cn": "来自古英语 scip 的 ship 与 -ment 结合，指把货装上船。"
         },
         {
           "era": "MODERN ENGLISH",
-          "en": "Modern trade English extends the noun to the goods sent.",
-          "cn": "现代贸易英语把这个名词扩展到被运走的货物。"
+          "en": "Shipment widens from loading a ship to sending goods by any carrier.",
+          "cn": "shipment 从装船扩大到用任何承运方式发货。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "Trade papers later speak of the goods themselves as a shipment, and of partial shipment.",
+          "cn": "后来的贸易文书把发出的货物本身也叫 shipment，并有了分批装运的说法。"
         }
       ]
     },
     "similar": {
       "note": {
-        "en": "Shipment belongs to the ship family and sits close to words for goods in transit.",
-        "cn": "shipment 属于 ship 词族，与表示「在运货物」的词相邻。"
+        "en": "Shipment is ship plus -ment, so it stands beside ship, shipper, and shipping, and near consignment, cargo, and delivery.",
+        "cn": "shipment 由 ship 加 -ment 构成，因此与 ship、shipper、shipping 相邻，并与 consignment、cargo、delivery 意义相近。"
       },
       "groups": [
         {
@@ -153,23 +165,23 @@
             {
               "word": "ship",
               "ipa": "/ʃɪp/",
-              "tag": "base verb",
-              "definition": "to send goods by sea or another carrier",
-              "definitionCN": "运送；装运"
+              "tag": "base word",
+              "definition": "to send goods, or a large boat",
+              "definitionCN": "运送货物，或指大船，是 shipment 的基础词"
             },
             {
               "word": "shipper",
               "ipa": "/ˈʃɪpə/",
               "tag": "derived form",
-              "definition": "a person or firm that sends goods",
-              "definitionCN": "发货人；托运人"
+              "definition": "the person or firm that sends goods",
+              "definitionCN": "托运人；发货人，由 ship 加 -er 构成"
             },
             {
               "word": "shipping",
               "ipa": "/ˈʃɪpɪŋ/",
               "tag": "derived form",
-              "definition": "the movement of goods by sea",
-              "definitionCN": "航运；运输"
+              "definition": "the transport of goods, especially by sea",
+              "definitionCN": "运输；航运，由 ship 加 -ing 构成"
             }
           ]
         },
@@ -177,25 +189,25 @@
           "heading": "NEAR MEANING",
           "entries": [
             {
-              "word": "cargo",
-              "ipa": "/ˈkɑːɡəʊ/",
-              "tag": "near meaning",
-              "definition": "the goods carried by a ship or aircraft",
-              "definitionCN": "货物；船货"
-            },
-            {
               "word": "consignment",
               "ipa": "/kənˈsaɪnmənt/",
               "tag": "near meaning",
-              "definition": "a batch of goods sent to a buyer",
-              "definitionCN": "一批托运货物"
+              "definition": "a batch of goods sent to a buyer or an agent",
+              "definitionCN": "托运的一批货，强调按委托发出"
             },
             {
-              "word": "freight",
-              "ipa": "/freɪt/",
+              "word": "cargo",
+              "ipa": "/ˈkɑːɡəʊ/",
               "tag": "near meaning",
-              "definition": "goods carried by transport, or the charge for carrying them",
-              "definitionCN": "货运；运费"
+              "definition": "the goods carried by a ship, plane, or truck",
+              "definitionCN": "货物，强调运输工具上装载的东西"
+            },
+            {
+              "word": "delivery",
+              "ipa": "/dɪˈlɪvəri/",
+              "tag": "near meaning",
+              "definition": "the act of bringing goods to the buyer",
+              "definitionCN": "交付；送货，强调送到买方手上"
             }
           ]
         }
@@ -203,200 +215,208 @@
     },
     "mnemonics": {
       "normalIntro": {
-        "en": "Shipment is ship plus -ment, so the word names both the sending and the goods that are sent.",
-        "cn": "shipment 是 ship 加 -ment，因此既指「运送」这一动作，也指被运走的货物。"
+        "en": "Shipment is ship plus -ment, and the suffix turns the act of shipping into a noun that also names the goods shipped.",
+        "cn": "shipment 是 ship 加 -ment，后缀把装运这个动作变成名词，同时也指被运走的货物。"
       },
       "normal": [
         {
-          "en": "Shipment is ship plus -ment, the suffix that turns an action into a noun.",
-          "cn": "shipment 是 ship 加 -ment，这个后缀把动作变成名词。"
+          "en": "Shipment is ship plus -ment: the suffix turns the act of shipping into a noun.",
+          "cn": "shipment 由 ship 加 -ment 构成，后缀把装运动作变成名词。"
         },
         {
-          "en": "The shipment date is the day the goods must leave.",
-          "cn": "shipment date 是货物必须发出的日子。"
+          "en": "Old English scip is the word for ship, so shipment began with cargo on water.",
+          "cn": "古英语 scip 就是船，所以 shipment 最早指水上的货运。"
         },
         {
-          "en": "Port of shipment names where the goods are loaded.",
-          "cn": "port of shipment 指明货物装船的地点。"
+          "en": "A shipment date is the day the goods must leave, not the day they arrive.",
+          "cn": "shipment date 是货物必须发出的日子，不是到达的日子。"
         },
         {
-          "en": "A partial shipment sends only part of the order at one time.",
-          "cn": "partial shipment 一次只发出订单的一部分。"
+          "en": "Partial shipment means the order goes out in several separate loads.",
+          "cn": "partial shipment 指订单分成几次装运发出。"
         },
         {
-          "en": "Compare shipment with cargo: shipment stresses the sending, cargo stresses what is carried.",
-          "cn": "对比 cargo：shipment 强调发送，cargo 强调被运的东西。"
+          "en": "Compare cargo: cargo is what a vehicle carries, while a shipment is a batch sent under one order.",
+          "cn": "对比 cargo：cargo 是运输工具上装的东西，shipment 是按一张订单发出的一批货。"
         }
       ],
       "abstract": [
         {
-          "en": "Picture a crane lifting containers onto a ship.",
-          "cn": "想象吊机把集装箱吊上货轮。"
+          "en": "Picture a crane lifting a steel container onto a deck.",
+          "cn": "想象吊机把一只钢制集装箱吊上甲板。"
         },
         {
-          "en": "Picture a clerk counting boxes against a packing list.",
-          "cn": "想象职员照着装箱单清点纸箱。"
+          "en": "Picture a sealed pallet with a shipping label on the corner.",
+          "cn": "想象一只封好的托盘，角上贴着货运标签。"
         },
         {
-          "en": "Picture a bill of lading stamped at the port office.",
-          "cn": "想象港务办公室里给提单盖章。"
+          "en": "Picture a ship whose decks are stacked with boxes.",
+          "cn": "想象一艘船，甲板上堆满货箱。"
         }
       ]
     },
     "examples": [
       {
-        "en": "The supplier confirmed that the shipment would arrive on Monday.",
-        "cn": "供应商确认这批货将在周一到达。"
+        "en": "The first shipment left the factory on Monday.",
+        "cn": "第一批货在周一离开了工厂。"
       },
       {
-        "en": "Customs held the shipment for two days at the border.",
-        "cn": "海关在边境扣留这批货两天。"
+        "en": "A shipment of spare parts is waiting at customs.",
+        "cn": "一批备件正在海关等待放行。"
       },
       {
-        "en": "We split the order into two shipments to meet the deadline.",
-        "cn": "为赶上截止日期，我们把订单拆成两批货。"
+        "en": "The contract allows two shipments in partial lots.",
+        "cn": "合同允许分两批装运。"
       }
     ],
     "dict_mnemonic": {
       "note": "谐音记忆 · 非词源",
-      "text": "「希普门特」——货物从「门」口装上船，特快发出；只是谐音联想，与词源无关。",
+      "text": "「喜普门」——货箱进了这扇门，就被装运走了；谐音联想，不是词源。",
       "word": "shipment"
     },
-    "root": "古英语 scip（船）→ 动词 ship（装船运送）→ ship + -ment（动作与结果名词后缀）→ shipment，核心义「把货物装上运输工具发出」。",
+    "root": "古英语 scip（船）→ 中古英语 ship（用船运）→ 加经古法语来自拉丁语 -mentum 的名词后缀 -ment → shipment，核心义「把货装运出去」，由装船扩展到任何运输方式与所运的那批货。",
     "sensesIntro": {
-      "en": "Shipment begins as the act of sending goods, then names the goods sent, and finally counts each dispatched lot in trade papers.",
-      "cn": "shipment 先指发送货物的行为，再指被发送的货物，最后在贸易单据里指每一票发出的货。"
+      "en": "Shipment starts from the act of loading and sending goods, then names the goods sent, the older loading of a vessel, one contracted dispatch, and freight traffic as a whole.",
+      "cn": "shipment 从装货发运这个动作出发，进而指发出的货物、较早的装船义、合同下的一次发货，以及整体的货运。"
     },
     "semanticMap": {
       "core": {
-        "en": "CORE IMAGE: a crane lifting boxes onto a waiting ship.",
-        "cn": "核心意象：吊机把货箱吊上等在那里的货轮。"
+        "en": "CORE IMAGE: a crane lifting boxes onto a ship at the quay.",
+        "cn": "核心意象：码头上的吊机把货箱吊上船。"
       },
       "chain": [
         "SHIP",
-        "LOAD",
+        "LOAD CARGO",
         "SEND GOODS",
-        "ACT OF SHIPPING",
-        "GOODS SENT",
-        "TRADE CONSIGNMENT"
+        "CONSIGNMENT",
+        "CONTRACT LOT",
+        "FREIGHT TRAFFIC"
       ],
       "branches": [
         {
           "senses": "01",
-          "en": "The act of sending goods is the first sense.",
-          "cn": "发送货物的行为是第一义项。"
+          "en": "The act of sending goods is the everyday action sense.",
+          "cn": "把货发出去这个动作是最日常的动作义项。"
         },
         {
           "senses": "02",
-          "en": "The goods themselves are the result sense.",
-          "cn": "货物本身是结果义项。"
+          "en": "The goods themselves are the concrete result sense.",
+          "cn": "货物本身是由动作结果转成的具体义项。"
         },
         {
           "senses": "03",
-          "en": "The trade unit is the counting sense in documents.",
-          "cn": "贸易单据里的计数单位是第三义项。"
+          "en": "Loading a vessel is the oldest sea sense.",
+          "cn": "装船是最早的海运义项。"
         },
         {
-          "senses": "01 · 02",
-          "en": "The act and the goods are two sides of one dispatch.",
-          "cn": "动作与货物是同一次发送的两面。"
+          "senses": "04",
+          "en": "One contracted dispatch is the trade sense.",
+          "cn": "合同下的一次发货是贸易义项。"
         },
         {
-          "senses": "02 · 03",
-          "en": "A batch of goods and a documented consignment overlap.",
-          "cn": "一批货物与一票单据货物相互重叠。"
+          "senses": "05",
+          "en": "Freight traffic as a whole is the industry sense.",
+          "cn": "整体货运是行业义项。"
         }
       ]
     },
     "affixes": {
       "intro": {
-        "en": "Shipment is ship, an Old English word for a vessel, plus the noun suffix -ment.",
-        "cn": "shipment 由 ship（古英语中表示船只的词）加名词后缀 -ment 构成。"
+        "en": "Shipment is the Old English noun ship plus the noun suffix -ment, which English took from Latin -mentum through French.",
+        "cn": "shipment 是古英语名词 ship 加名词后缀 -ment 构成的，而 -ment 是英语经法语从拉丁语 -mentum 借来的。"
       },
       "latinIntro": {
-        "en": "The suffix -ment comes from Latin -mentum through French; ship itself is Germanic, not Latin.",
-        "cn": "后缀 -ment 经法语来自拉丁语 -mentum；ship 本身是日耳曼语词，并非拉丁语。"
+        "en": "Latin -mentum turns verbs into nouns of action or result, and French -ment carried that job into English.",
+        "cn": "拉丁语 -mentum 把动词变成表示动作或结果的名词，法语的 -ment 把这个职能带进了英语。"
       },
       "items": [
         {
-          "word": "ship",
+          "word": "scip",
           "structure": "Old English noun",
-          "meaning": "a sea-going vessel",
-          "meaningCN": "船；航海船只",
-          "example": "Ship is the Germanic base of the word.",
-          "exampleCN": "ship 是这个词的日耳曼语基础。"
+          "meaning": "ship",
+          "meaningCN": "船",
+          "example": "Old English scip is the ancestor of ship.",
+          "exampleCN": "古英语 scip 是 ship 的前身。"
+        },
+        {
+          "word": "ship",
+          "structure": "English noun",
+          "meaning": "a large boat",
+          "meaningCN": "船；大船",
+          "example": "Ship is the base noun of the whole family.",
+          "exampleCN": "ship 是整个词族的基础名词。"
         },
         {
           "word": "ship",
           "structure": "English verb",
-          "meaning": "to send goods by sea or another carrier",
+          "meaning": "to send goods",
           "meaningCN": "运送；装运",
-          "example": "The verb ship adds the action.",
-          "exampleCN": "动词 ship 加上动作义。"
+          "example": "To ship goods is to send them to a buyer.",
+          "exampleCN": "ship 货物就是把货发给买方。"
         },
         {
           "word": "-ment",
           "structure": "English suffix",
-          "meaning": "forming nouns of action or result",
-          "meaningCN": "构成动作或结果名词的后缀",
-          "example": "The suffix -ment forms shipment.",
-          "exampleCN": "后缀 -ment 构成 shipment。"
+          "meaning": "forming action nouns",
+          "meaningCN": "构成动作名词的后缀",
+          "example": "The suffix -ment forms nouns such as shipment.",
+          "exampleCN": "后缀 -ment 构成 shipment 这类名词。"
+        },
+        {
+          "word": "-mentum",
+          "structure": "Latin suffix",
+          "meaning": "noun-forming suffix",
+          "meaningCN": "构成名词的后缀",
+          "example": "Latin -mentum is the source of -ment.",
+          "exampleCN": "拉丁语 -mentum 是 -ment 的来源。"
         },
         {
           "word": "shipment",
           "structure": "English noun",
           "meaning": "the act of sending goods",
-          "meaningCN": "装运",
-          "example": "Shipment is the derived noun.",
-          "exampleCN": "shipment 是派生名词。"
+          "meaningCN": "装运；发运",
+          "example": "Shipment names the act of sending goods.",
+          "exampleCN": "shipment 指发送货物的动作。"
+        },
+        {
+          "word": "shipment",
+          "structure": "English noun",
+          "meaning": "a batch of goods sent",
+          "meaningCN": "一批货物",
+          "example": "A shipment can also be the goods themselves.",
+          "exampleCN": "shipment 也可以指货物本身。"
         },
         {
           "word": "shipper",
           "structure": "English noun",
-          "meaning": "a person or firm that sends goods",
-          "meaningCN": "发货人；托运人",
-          "example": "Shipper adds -er to the verb.",
-          "exampleCN": "shipper 在动词后加 -er。"
-        },
-        {
-          "word": "-er",
-          "structure": "English suffix",
-          "meaning": "one who does something",
-          "meaningCN": "表示做事者的后缀",
-          "example": "The suffix -er marks the sender.",
-          "exampleCN": "后缀 -er 标记发货的人。"
+          "meaning": "the person or firm that sends goods",
+          "meaningCN": "托运人；发货人",
+          "example": "The shipper books space on the vessel.",
+          "exampleCN": "托运人向船上订舱。"
         },
         {
           "word": "shipping",
           "structure": "English noun",
-          "meaning": "the movement of goods",
-          "meaningCN": "航运；运输",
-          "example": "Shipping adds -ing to the verb.",
-          "exampleCN": "shipping 在动词后加 -ing。"
-        },
-        {
-          "word": "-ing",
-          "structure": "English suffix",
-          "meaning": "forming nouns from verbs",
-          "meaningCN": "把动词变名词的后缀",
-          "example": "The suffix -ing forms shipping.",
-          "exampleCN": "后缀 -ing 构成 shipping。"
+          "meaning": "the transport of goods",
+          "meaningCN": "运输；航运",
+          "example": "Shipping costs are added to the invoice.",
+          "exampleCN": "运费会加到发票上。"
         },
         {
           "word": "reshipment",
           "structure": "English noun",
-          "meaning": "a second or renewed shipment",
-          "meaningCN": "重新装运；转运",
+          "meaning": "a further shipment",
+          "meaningCN": "转运；再装运",
           "example": "Reshipment adds re- to shipment.",
-          "exampleCN": "reshipment 在 shipment 前加 re-。"
+          "exampleCN": "reshipment 是在 shipment 前加 re-。"
         }
       ],
       "latinEntries": [
         {
           "word": "-mentum",
           "structure": "Latin suffix",
-          "meaning": "forming nouns of action or result",
-          "meaningCN": "构成动作或结果名词的后缀"
+          "meaning": "noun-forming suffix",
+          "meaningCN": "构成名词的后缀"
         }
       ]
     }

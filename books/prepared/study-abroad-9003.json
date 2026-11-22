@@ -3,19 +3,15 @@
     "word": "tutorial",
     "ipa_uk": "/tjuːˈtɔːriəl/",
     "ipa_us": "/tuːˈtɔːriəl/",
-    "definition_zh": "辅导课；教程；导师个别辅导",
-    "definition_en": "a small class taught by a tutor, or a self-study lesson that teaches a skill",
-    "core_image": "小教室里，导师和学生围坐一圈，逐段讨论作业",
-    "scene": "导师制下，学生每周写一篇短文，然后在课上当面讨论。At Oxford the student writes an essay and defends it in a tutorial.",
-    "sceneCN": "这里 tutorial 是「辅导课」（第 1 个义项：导师带少量学生上的讨论课）；句意：在牛津，学生写一篇短文，并在辅导课上答辩。",
+    "definition_zh": "辅导课；教程；个别指导",
+    "definition_en": "a small class in which a tutor teaches one student or a few students, or a short lesson that teaches a skill",
+    "core_image": "导师和学生围着一个小桌，逐句讨论",
+    "scene": "周三下午，导师把三名学生叫到办公室，让他们轮流讲解上周读过的文章。On Wednesday the tutor meets three students for a tutorial in her office.",
+    "sceneCN": "这里 tutorial 是「辅导课」（第 1 个义项：导师带少量学生讨论的课）；句意：周三导师在她的办公室给三名学生上一堂辅导课。",
     "pos": [
       {
         "tag": "n.",
-        "zh": "辅导课；教程"
-      },
-      {
-        "tag": "adj.",
-        "zh": "导师的；辅导的"
+        "zh": "辅导课；教程；个别指导"
       }
     ],
     "collocations": [
@@ -24,24 +20,24 @@
         "zh": "辅导小组"
       },
       {
+        "phrase": "tutorial system",
+        "zh": "导师制"
+      },
+      {
         "phrase": "tutorial session",
-        "zh": "辅导课"
+        "zh": "辅导课时段"
+      },
+      {
+        "phrase": "attend a tutorial",
+        "zh": "上辅导课"
       },
       {
         "phrase": "online tutorial",
         "zh": "在线教程"
       },
       {
-        "phrase": "tutorial system",
-        "zh": "导师制"
-      },
-      {
-        "phrase": "attend a tutorial",
-        "zh": "参加辅导课"
-      },
-      {
-        "phrase": "tutorial class",
-        "zh": "辅导班"
+        "phrase": "software tutorial",
+        "zh": "软件教程"
       }
     ],
     "forms": [
@@ -54,107 +50,113 @@
       {
         "word": "tutor",
         "pos": "n.",
-        "zh": "导师；家庭教师"
+        "zh": "tutorial 的基础词，义为「导师；家教」"
       },
       {
         "word": "tutoring",
         "pos": "n.",
-        "zh": "辅导；家教工作"
+        "zh": "tutor 加 -ing 构成的名词，义为「个别辅导」"
       },
       {
-        "word": "tutorship",
+        "word": "tutelage",
         "pos": "n.",
-        "zh": "导师职位；辅导职责"
+        "zh": "由拉丁语 tutela 进入英语，义为「指导；监护」"
       }
     ],
     "senses": [
       {
         "no": "01",
-        "title": "A small teaching group",
-        "titleCN": "小班辅导课",
-        "definition": "a class in which a tutor teaches a small number of students, often by discussion",
-        "definitionCN": "由导师给少量学生上课、常以讨论方式进行的课",
-        "example": "We meet for a tutorial every Tuesday.",
-        "exampleCN": "我们每周二上一节辅导课。",
-        "why": "Latin tueri means to watch over, so a tutor is a guardian who looks after learners, and the class that tutor leads is a tutorial.",
-        "whyCN": "拉丁语 tueri 意为看守，导师就是「照看学习者」的人；他带的这门小课因此叫 tutorial。"
+        "title": "A small university class",
+        "titleCN": "大学辅导课",
+        "definition": "a small class at a university in which a tutor discusses work with a few students",
+        "definitionCN": "大学里由导师带几名学生的讨论式小课",
+        "example": "Every student must attend one tutorial each week.",
+        "exampleCN": "每个学生每周都必须上一堂辅导课。",
+        "why": "The Latin tutor watches over a learner, so the first sense is the small class where that watching happens.",
+        "whyCN": "拉丁语 tutor 本义是照看学习者的人，所以第一个义项就是这种照看发生的那个小班课。"
       },
       {
         "no": "02",
-        "title": "A one-to-one session",
-        "titleCN": "导师个别辅导",
-        "definition": "a lesson given to one student or a very small group by a tutor",
-        "definitionCN": "导师给一名学生或极少数学生单独上的课",
-        "example": "She booked a tutorial to go over her draft.",
-        "exampleCN": "她预约了一次个别辅导，用来讨论自己的草稿。",
-        "why": "The same word covers the private session in which one learner is watched over closely.",
-        "whyCN": "同一个词也指「被照看得很紧」的一对一辅导时段。"
+        "title": "A lesson for one or a few",
+        "titleCN": "个别辅导课；家教课",
+        "definition": "a lesson given to one student or a very small group, often outside a normal class",
+        "definitionCN": "给一个学生或很小的几个人上的课，常在正常课堂之外",
+        "example": "She booked a tutorial to prepare for the speaking test.",
+        "exampleCN": "她约了一节辅导课来准备口语考试。",
+        "why": "The watching-over can be done for a single learner, so tutorial also names one-to-one teaching.",
+        "whyCN": "照看可以只针对一个学习者进行，于是 tutorial 也指一对一的个别教学。"
       },
       {
         "no": "03",
-        "title": "A self-study guide",
-        "titleCN": "自学教程；操作指南",
-        "definition": "a lesson or set of instructions that teaches a skill, often on a computer",
-        "definitionCN": "教人掌握某项技能的一课或一套说明，常用于电脑软件",
-        "example": "The software comes with a short tutorial.",
-        "exampleCN": "这款软件附带一份简短的教程。",
-        "why": "Modern use borrows the teaching image for a guide that walks a learner through a task.",
-        "whyCN": "现代用法借「教学」的意象，指一步步带学习者完成任务的指南。"
+        "title": "A lesson inside a program",
+        "titleCN": "软件教程",
+        "definition": "an interactive lesson inside a program that teaches a user how to use it",
+        "definitionCN": "程序内部引导用户学会使用它的互动课程",
+        "example": "The app opens with a short tutorial on setting up a profile.",
+        "exampleCN": "这个应用一打开就有一节简短教程，讲怎么建立个人资料。",
+        "why": "Modern software borrowed the teaching word for a guided lesson built into a product.",
+        "whyCN": "现代软件借用了这个教学词，用来指产品里内置的引导式课程。"
       },
       {
         "no": "04",
-        "title": "Relating to a tutor",
-        "titleCN": "辅导的；导师的",
-        "definition": "connected with a tutor or with teaching done by tutors",
-        "definitionCN": "与导师有关、或与导师授课方式有关的",
-        "example": "The college runs a tutorial system for first-year students.",
-        "exampleCN": "学院为一年级学生实行导师制。",
-        "why": "The adjective keeps the plain link to the tutor and to the act of looking after a learner.",
-        "whyCN": "形容词用法保留着与导师、与「照看学习者」这一动作的直接联系。"
+        "title": "A step-by-step guide",
+        "titleCN": "入门指南；操作教程",
+        "definition": "a written or filmed guide that teaches a skill step by step",
+        "definitionCN": "用文字或影像一步一步教人某项技能的指南",
+        "example": "Her blog has a free tutorial on making a simple budget.",
+        "exampleCN": "她的博客上有一篇免费教程，讲怎么做简单的预算。",
+        "why": "Once a lesson can be written down, any guide that teaches a skill becomes a tutorial.",
+        "whyCN": "课既然可以写下来，任何一步一步教人技能的指南也就成了 tutorial。"
+      },
+      {
+        "no": "05",
+        "title": "A single unit of an online course",
+        "titleCN": "单节网课；教学单元",
+        "definition": "one short unit of an online course that teaches a particular skill",
+        "definitionCN": "在线课程中教某一项技能的一个短单元",
+        "example": "The course is split into ten short tutorials.",
+        "exampleCN": "这门课被分成十节短课。",
+        "why": "Online courses keep the tutorial as the unit of teaching, a small watched-over step in a larger course.",
+        "whyCN": "在线课程仍把 tutorial 当作教学单元，也就是大课程里被照看着走完的一小步。"
       }
     ],
     "etymology": {
       "intro": {
-        "en": "Tutorial is built on Latin tueri, to watch over, through tutor and the suffix -ial.",
-        "cn": "tutorial 建立在拉丁语 tueri（看守、照看）之上，经 tutor 加后缀 -ial 构成。"
+        "en": "Tutorial comes from Latin tutor, a guardian, from tueri, to watch over or protect; the suffix -ial gives the sense of what belongs to a tutor.",
+        "cn": "tutorial 来自拉丁语 tutor（守护者、导师），而 tutor 出自动词 tueri（照看、守护）；后缀 -ial 表示「与导师有关的」。"
       },
       "items": [
         {
           "era": "LATIN",
-          "en": "Tueri means to watch over, guard or protect.",
-          "cn": "tueri 意为看守、保护。"
+          "en": "Tueri means to watch over, guard, or protect.",
+          "cn": "tueri 意为照看、守护、保护。"
         },
         {
           "era": "LATIN",
-          "en": "Tutor names the guardian who protects a person or property.",
-          "cn": "tutor 指保护某人或其财产的监护人。"
+          "en": "Tutor is the guardian, the person who watches over someone.",
+          "cn": "tutor 是守护者，也就是照看某人的人。"
         },
         {
-          "era": "ENGLISH, 14TH C.",
-          "en": "Tutor enters English as a guardian and later as a teacher.",
-          "cn": "十四世纪起，tutor 进入英语，先指监护人，后指教师。"
-        },
-        {
-          "era": "ENGLISH, 16TH C.",
-          "en": "Tutorial appears as an adjective meaning of a tutor.",
-          "cn": "十六世纪出现形容词 tutorial，意为「导师的」。"
-        },
-        {
-          "era": "ENGLISH, 19TH C.",
-          "en": "Tutorial becomes a noun for a small teaching group at a university.",
-          "cn": "十九世纪起，tutorial 成为名词，指大学里的小班辅导课。"
+          "era": "LATIN",
+          "en": "Tutela names the protection itself, and the family keeps the watching-over image.",
+          "cn": "tutela 指保护本身，这个词族一直保留着照看的意象。"
         },
         {
           "era": "MODERN ENGLISH",
-          "en": "The word now also names self-study guides and software lessons.",
-          "cn": "现代英语中，这个词也指自学教程与软件课程。"
+          "en": "English first uses tutorial as an adjective meaning of or belonging to a tutor.",
+          "cn": "英语最初把 tutorial 用作形容词，意为属于导师的。"
+        },
+        {
+          "era": "ENGLISH, 19TH C.",
+          "en": "At Oxford and Cambridge the noun tutorial comes to name the small class in which a tutor questions students.",
+          "cn": "在牛津与剑桥，名词 tutorial 逐渐指导师提问学生的那种小班课。"
         }
       ]
     },
     "similar": {
       "note": {
-        "en": "Tutorial is tutor plus the suffix -ial, next to tutoring and tuition, and it sits near the class words of a university.",
-        "cn": "tutorial 是 tutor 加后缀 -ial，与 tutoring、tuition 形近，也与大学里的课程类词相邻。"
+        "en": "Tutorial grows from Latin tueri, to watch over, through tutor, and stands beside tutor, tutelage, and tutee; it sits near seminar, workshop, and lecture.",
+        "cn": "tutorial 从拉丁语 tueri（照看）经 tutor 长出来，与 tutor、tutelage、tutee 相邻，并与 seminar、workshop、lecture 意义相近。"
       },
       "groups": [
         {
@@ -163,23 +165,23 @@
             {
               "word": "tutor",
               "ipa": "/ˈtjuːtə/",
-              "tag": "base noun",
-              "definition": "a teacher of one or a few students",
-              "definitionCN": "导师；家庭教师"
+              "tag": "base word",
+              "definition": "a teacher who guides one student or a small group",
+              "definitionCN": "导师；家教，是 tutorial 的基础词"
             },
             {
-              "word": "tutoring",
-              "ipa": "/ˈtjuːtərɪŋ/",
-              "tag": "derived noun",
-              "definition": "the work of teaching students",
-              "definitionCN": "辅导；家教工作"
-            },
-            {
-              "word": "tuition",
-              "ipa": "/tjuˈɪʃən/",
+              "word": "tutelage",
+              "ipa": "/ˈtjuːtəlɪdʒ/",
               "tag": "same root",
-              "definition": "teaching, or the fee paid for it",
-              "definitionCN": "教学；学费"
+              "definition": "guidance or protection given by a tutor",
+              "definitionCN": "指导；监护，同出拉丁语 tueri（照看）"
+            },
+            {
+              "word": "tutee",
+              "ipa": "/tjuːˈtiː/",
+              "tag": "derived form",
+              "definition": "a student who is taught by a tutor",
+              "definitionCN": "受辅导的学生，由 tutor 加 -ee 构成"
             }
           ]
         },
@@ -190,22 +192,22 @@
               "word": "seminar",
               "ipa": "/ˈsemɪnɑː/",
               "tag": "near meaning",
-              "definition": "a class for discussion in small groups",
-              "definitionCN": "研讨课；讨论课"
-            },
-            {
-              "word": "lecture",
-              "ipa": "/ˈlektʃə/",
-              "tag": "near meaning",
-              "definition": "a formal talk given to a large class",
-              "definitionCN": "讲座；大课"
+              "definition": "a class in which a small group discusses a topic",
+              "definitionCN": "研讨课，以小组讨论为主，规模常大于 tutorial"
             },
             {
               "word": "workshop",
               "ipa": "/ˈwɜːkʃɒp/",
               "tag": "near meaning",
-              "definition": "a practical class for a skill",
-              "definitionCN": "工作坊；实践课"
+              "definition": "a practical session in which people learn by doing",
+              "definitionCN": "工作坊，强调动手练习"
+            },
+            {
+              "word": "lecture",
+              "ipa": "/ˈlektʃə/",
+              "tag": "near meaning",
+              "definition": "a formal talk given to a large group of students",
+              "definitionCN": "讲座，面向大班讲授，与小组辅导相对"
             }
           ]
         }
@@ -213,200 +215,200 @@
     },
     "mnemonics": {
       "normalIntro": {
-        "en": "Tutorial carries the tutor inside it: a tutor watches over a few learners, and the class is the tutorial.",
-        "cn": "tutorial 里面藏着 tutor：导师照看几个学生，这样的课就是辅导课。"
+        "en": "Tutorial grows from the Latin verb tueri, to watch over, by way of tutor, the one who guards a learner.",
+        "cn": "tutorial 从拉丁语动词 tueri（照看）经 tutor（守护学习者的人）长出来。"
       },
       "normal": [
         {
-          "en": "Tutor plus -ial gives tutorial, the class of a tutor.",
-          "cn": "tutor 加 -ial 就是 tutorial，即导师上的课。"
+          "en": "Tutor is the person and tutorial is the class: tutor plus -ial.",
+          "cn": "tutor 是人，tutorial 是课，即 tutor 加 -ial 构成。"
         },
         {
-          "en": "A tutorial group is small, so every student gets a turn to speak.",
-          "cn": "tutorial group 人数少，每个学生都有发言机会。"
+          "en": "Tueri, to watch over, is the Latin verb behind both words.",
+          "cn": "tueri 意为照看，是这两个词共同的拉丁语动词。"
         },
         {
-          "en": "An online tutorial walks a learner through a task.",
-          "cn": "online tutorial 一步步带学习者完成一项任务。"
+          "en": "At university a tutorial is much smaller than a lecture.",
+          "cn": "在大学里，tutorial 比 lecture 小得多。"
         },
         {
-          "en": "Tuition is the teaching or the fee, tutorial is the class.",
-          "cn": "tuition 指教学或学费，tutorial 指那堂课。"
+          "en": "An online tutorial teaches one skill in a short guided lesson.",
+          "cn": "online tutorial 用一节简短的引导课教一项技能。"
         },
         {
-          "en": "Compare lecture: a lecture is one voice to many, a tutorial is many voices to one.",
-          "cn": "对比 lecture：讲座是一个声音对许多人，辅导课是许多声音对一个导师。"
+          "en": "Compare seminar: a seminar is a discussion group, while a tutorial is guided teaching in a very small group.",
+          "cn": "对比 seminar：seminar 是讨论小组，tutorial 是极小班里的引导式教学。"
         }
       ],
       "abstract": [
         {
-          "en": "Picture a tutor and three students around one table.",
-          "cn": "想象导师和三名学生围着一张桌子。"
+          "en": "Picture a tutor leaning over a table to point at a line in a book.",
+          "cn": "想象导师俯身指着书上一行字。"
         },
         {
-          "en": "Picture a tutor reading one essay with its writer.",
-          "cn": "想象导师和作者一起读一篇短文。"
+          "en": "Picture one student and one teacher at a corner desk.",
+          "cn": "想象一张角落的书桌，一个学生和一个老师。"
         },
         {
-          "en": "Picture a screen showing steps one, two and three.",
-          "cn": "想象屏幕上依次显示第一步、第二步、第三步。"
+          "en": "Picture a screen with a small arrow showing the next step.",
+          "cn": "想象屏幕上有一个小箭头，指向下一步。"
         }
       ]
     },
     "examples": [
       {
-        "en": "I have a tutorial with my supervisor on Thursday.",
-        "cn": "我周四有一次和导师的辅导课。"
+        "en": "The tutorial lasts fifty minutes and covers the reading for the week.",
+        "cn": "这堂辅导课持续五十分钟，讲这一周的阅读材料。"
       },
       {
-        "en": "The online tutorial explains how to use the database.",
-        "cn": "这份在线教程讲解如何使用该数据库。"
+        "en": "New students are assigned to a tutorial group in their first term.",
+        "cn": "新生在第一学期会被分到一个辅导小组。"
       },
       {
-        "en": "Tutorials at Oxford are built around the student essay.",
-        "cn": "牛津的辅导课围绕学生写的短文展开。"
+        "en": "He watched a short tutorial before using the design tool.",
+        "cn": "他用这个设计工具之前先看了一段短教程。"
       }
     ],
     "dict_mnemonic": {
       "note": "谐音记忆 · 非词源",
-      "text": "「tutorial」读近「秋托瑞尔」——秋天把学业「托」给导师，上的就是辅导课；这只是谐音联想，与词源无关。",
+      "text": "「图特瑞尔」——导师带着你图个明白，就是辅导课；谐音联想，不是词源。",
       "word": "tutorial"
     },
-    "root": "拉丁语 tueri（看守、照看）→ 拉丁语 tutor（保护人、监护人）→ 英语 tutor（导师）→ tutorial（导师带的课）；核心义「照看」：导师照看学生的学习。",
+    "root": "拉丁语 tueri（照看、守护）→ 拉丁语 tutor（守护者、导师）→ 英语 tutor → 加形容词后缀 -ial 得 tutorial，先作形容词「导师的」，十九世纪起指导师带的小班辅导课，核心义「有人照看着学」。",
     "sensesIntro": {
-      "en": "Tutorial starts as the small class led by a tutor, then covers the private session, the self-study guide, and the adjective that points back to the tutor.",
-      "cn": "tutorial 从小班辅导课开始，再指一对一的个别辅导、自学教程，最后是回指导师的形容词用法。"
+      "en": "Tutorial starts from the tutor who watches over a learner and comes to name the small class, the one-to-one lesson, the software lesson, the written guide, and the unit of an online course.",
+      "cn": "tutorial 从照看学习者的导师出发，进而指小班辅导课、一对一辅导、软件内置课程、书面指南以及在线课程的一个单元。"
     },
     "semanticMap": {
       "core": {
-        "en": "CORE IMAGE: a tutor sitting with a few students around one table.",
-        "cn": "核心意象：导师和几名学生围着一张桌子坐下。"
+        "en": "CORE IMAGE: a tutor and two students around a small table with books open.",
+        "cn": "核心意象：导师和两名学生围着一张小桌，书摊开着。"
       },
       "chain": [
         "WATCH OVER",
-        "GUARDIAN",
-        "TEACHER",
+        "TUTOR",
         "SMALL CLASS",
-        "DISCUSSION",
-        "SELF STUDY"
+        "ONE TO ONE",
+        "GUIDED LESSON",
+        "ONLINE UNIT"
       ],
       "branches": [
         {
           "senses": "01",
-          "en": "The small class is the university core.",
-          "cn": "小班课是大学语境的核心义。"
+          "en": "The small university class is the original noun sense.",
+          "cn": "大学小班课是最早的名词义项。"
         },
         {
           "senses": "02",
-          "en": "The one-to-one session narrows the same scene.",
-          "cn": "一对一时段把同一画面缩小。"
+          "en": "Teaching one learner is the individual sense.",
+          "cn": "只教一个学习者是个别辅导义项。"
         },
         {
           "senses": "03",
-          "en": "The self-study guide moves the scene onto a screen.",
-          "cn": "自学教程把这一画面移到屏幕上。"
+          "en": "A lesson inside software is the digital sense.",
+          "cn": "软件内置的课程是数字化义项。"
         },
         {
           "senses": "04",
-          "en": "The adjective simply points back to the tutor.",
-          "cn": "形容词用法只是回指导师。"
+          "en": "A written guide is the self-study sense.",
+          "cn": "书面指南是自学义项。"
         },
         {
-          "senses": "01 · 02",
-          "en": "Both a group class and a private session are led by a tutor.",
-          "cn": "小组课与个别辅导都由导师带领。"
+          "senses": "05",
+          "en": "One unit of an online course is the course-structure sense.",
+          "cn": "在线课程的一个单元是课程结构义项。"
         }
       ]
     },
     "affixes": {
       "intro": {
-        "en": "Tutorial is built on Latin tueri, to watch over, through tutor and the suffix -ial.",
-        "cn": "tutorial 建立在拉丁语 tueri（照看）之上，经 tutor 与后缀 -ial 构成。"
+        "en": "Tutorial is built on the Latin verb tueri, to watch over, through the noun tutor, a guardian, plus the adjective suffix -ial.",
+        "cn": "tutorial 建在拉丁语动词 tueri（照看、守护）之上，经名词 tutor（守护者）再加形容词后缀 -ial 构成。"
       },
       "latinIntro": {
-        "en": "Latin tueri means to watch over; tutor is the guardian, and tutela is protection.",
-        "cn": "拉丁语 tueri 意为看守；tutor 是监护人，tutela 是保护。"
+        "en": "Latin tueri means to watch over or protect; tutor is the one who does it, and tutela is the protection itself.",
+        "cn": "拉丁语 tueri 意为照看、保护；tutor 是执行照看的人，tutela 则是保护本身。"
       },
       "items": [
         {
           "word": "tueri",
           "structure": "Latin verb",
-          "meaning": "to watch over, guard",
-          "meaningCN": "看守；保护",
-          "example": "Tueri gives the image of watching over.",
-          "exampleCN": "tueri 提供「看守」的意象。"
+          "meaning": "to watch over, to protect",
+          "meaningCN": "照看；守护",
+          "example": "Tueri gives the watching-over image.",
+          "exampleCN": "tueri 提供照看这一意象。"
         },
         {
           "word": "tutor",
           "structure": "Latin noun",
-          "meaning": "a guardian",
-          "meaningCN": "监护人；保护者",
-          "example": "Tutor is the Latin guardian.",
-          "exampleCN": "tutor 是拉丁语里的监护人。"
+          "meaning": "guardian, protector",
+          "meaningCN": "守护者；导师",
+          "example": "Tutor is the person who watches over a learner.",
+          "exampleCN": "tutor 是照看学习者的人。"
         },
         {
           "word": "tutela",
           "structure": "Latin noun",
           "meaning": "protection, guardianship",
           "meaningCN": "保护；监护",
-          "example": "Tutela names the act of protecting.",
-          "exampleCN": "tutela 指保护这一动作。"
+          "example": "Tutela names the protection itself.",
+          "exampleCN": "tutela 指保护本身。"
+        },
+        {
+          "word": "-ial",
+          "structure": "English suffix",
+          "meaning": "relating to",
+          "meaningCN": "与……有关的",
+          "example": "The suffix -ial forms tutorial from tutor.",
+          "exampleCN": "后缀 -ial 由 tutor 构成 tutorial。"
         },
         {
           "word": "tutor",
           "structure": "English noun",
-          "meaning": "a teacher of one or a few students",
-          "meaningCN": "导师；家庭教师",
-          "example": "Tutor shifts from guardian to teacher.",
-          "exampleCN": "tutor 从监护人转为教师。"
-        },
-        {
-          "word": "tutorial",
-          "structure": "English noun",
-          "meaning": "a small class",
-          "meaningCN": "辅导课",
-          "example": "Tutorial is the class a tutor leads.",
-          "exampleCN": "tutorial 是导师带的课。"
+          "meaning": "a teacher who guides a small group",
+          "meaningCN": "导师；家教",
+          "example": "A tutor meets a few students at a time.",
+          "exampleCN": "导师一次见几名学生。"
         },
         {
           "word": "tutorial",
           "structure": "English adjective",
           "meaning": "relating to a tutor",
           "meaningCN": "导师的；辅导的",
-          "example": "Tutorial also works as an adjective.",
-          "exampleCN": "tutorial 也可作形容词。"
+          "example": "Tutorial first describes what belongs to a tutor.",
+          "exampleCN": "tutorial 最初描述属于导师的事物。"
         },
         {
-          "word": "tuition",
+          "word": "tutorial",
           "structure": "English noun",
-          "meaning": "teaching, or the fee for it",
-          "meaningCN": "教学；学费",
-          "example": "Tuition shares the watching root.",
-          "exampleCN": "tuition 共享「照看」词根。"
+          "meaning": "a small guided class",
+          "meaningCN": "辅导课",
+          "example": "The noun tutorial names the small class.",
+          "exampleCN": "名词 tutorial 指那堂小班课。"
+        },
+        {
+          "word": "tutoring",
+          "structure": "English noun",
+          "meaning": "the work of teaching one student",
+          "meaningCN": "个别辅导",
+          "example": "Tutoring is often paid by the hour.",
+          "exampleCN": "个别辅导常按小时收费。"
+        },
+        {
+          "word": "tutee",
+          "structure": "English noun",
+          "meaning": "a student taught by a tutor",
+          "meaningCN": "受辅导的学生",
+          "example": "The tutee brings questions to each session.",
+          "exampleCN": "受辅导的学生每次上课都带着问题来。"
         },
         {
           "word": "tutelage",
           "structure": "English noun",
-          "meaning": "instruction or protection",
+          "meaning": "guidance or protection",
           "meaningCN": "指导；监护",
-          "example": "Tutelage keeps the guarding sense.",
-          "exampleCN": "tutelage 保留监护之义。"
-        },
-        {
-          "word": "tutorship",
-          "structure": "English noun",
-          "meaning": "the office of a tutor",
-          "meaningCN": "导师职位",
-          "example": "Tutorship names the post itself.",
-          "exampleCN": "tutorship 指导师这一职位。"
-        },
-        {
-          "word": "tutelary",
-          "structure": "English adjective",
-          "meaning": "serving as a guardian",
-          "meaningCN": "守护的",
-          "example": "Tutelary describes a guarding force.",
-          "exampleCN": "tutelary 形容起守护作用的力量。"
+          "example": "Under his tutelage the students learned to argue clearly.",
+          "exampleCN": "在他的指导下，学生们学会了清晰地论证。"
         }
       ],
       "latinEntries": [
@@ -414,25 +416,19 @@
           "word": "tueri",
           "structure": "Latin verb",
           "meaning": "to watch over",
-          "meaningCN": "看守；保护"
+          "meaningCN": "照看；守护"
         },
         {
           "word": "tutor",
           "structure": "Latin noun",
-          "meaning": "a guardian",
-          "meaningCN": "监护人"
+          "meaning": "guardian",
+          "meaningCN": "守护者；导师"
         },
         {
           "word": "tutela",
           "structure": "Latin noun",
           "meaning": "protection",
-          "meaningCN": "保护"
-        },
-        {
-          "word": "tutelarius",
-          "structure": "Late Latin adjective",
-          "meaning": "serving as a guardian",
-          "meaningCN": "守护的"
+          "meaningCN": "保护；监护"
         }
       ]
     }
