@@ -295,6 +295,21 @@
     .class-table th, .class-table td { padding: 6px 8px; border-bottom: 1px solid #eef1f6; text-align: left; }
     .class-table th { color: #9ca3af; font-weight: 600; }
     .class-note { font-size: 0.76rem; color: #9ca3af; margin: 0 0 8px; }
+
+    .learned-card { padding: 8px 2px; }
+    .learned-stats { display: flex; flex-wrap: wrap; gap: 12px; font-size: 0.84rem; color: #4b5563; margin-bottom: 10px; }
+    .learned-chips { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 10px; }
+    .learned-chip { padding: 6px 12px; border-radius: 999px; border: 1px solid #e1e5f0; background: #fff; font-size: 0.8rem; cursor: pointer; }
+    .learned-chip.is-active { border-color: #3157d5; color: #3157d5; background: #eef4ff; }
+    .learned-chip-count { margin-left: 6px; color: #9ca3af; }
+    .learned-toolbar { display: flex; gap: 8px; margin-bottom: 10px; }
+    .learned-toolbar .write-input { flex: 1 1 auto; min-width: 0; }
+    .learned-list { list-style: none; padding: 0; margin: 0 0 12px; display: grid; gap: 6px; }
+    .learned-main { width: 100%; display: grid; grid-template-columns: auto 1fr; gap: 2px 10px;
+      padding: 10px 12px; border: 1px solid #eef1f6; border-radius: 12px; background: #fff; text-align: left; cursor: pointer; }
+    .learned-word { font-weight: 700; font-size: 0.92rem; }
+    .learned-def { font-size: 0.78rem; color: #6b7280; grid-column: 2; }
+    .learned-meta { font-size: 0.72rem; color: #9ca3af; grid-column: 1 / -1; }
     .class-card { padding: 8px 2px; }
     .class-row { display: flex; gap: 10px; margin-bottom: 12px; }
     .class-row .write-input { flex: 1 1 auto; min-width: 0; }
@@ -1737,6 +1752,9 @@
 
     <!-- 教师端 / 团队版 -->
     <main id="view-class" hidden></main>
+
+    <!-- 已学词：学过什么、掌握到哪一步 -->
+    <main id="view-learned" hidden></main>
 
     <!-- 词库浏览：保留原来的七个分区 -->
     <main id="view-browse" hidden>
@@ -10410,6 +10428,7 @@
           <button type="button" class="quick-tile" data-enter="wrong"><span class="quick-icon">📕</span><span class="quick-label">错词本</span></button>
           <button type="button" class="quick-tile" data-asm-review-entry><span class="quick-icon">🧩</span><span class="quick-label">句子复习</span></button>
           <button type="button" class="quick-tile" data-custom-book><span class="quick-icon">📚</span><span class="quick-label">我的词书</span></button>
+          <button type="button" class="quick-tile" data-enter="learned"><span class="quick-icon">✅</span><span class="quick-label">已学</span></button>
           <button type="button" class="quick-tile" data-enter="weekly"><span class="quick-icon">📈</span><span class="quick-label">每周复盘</span></button>
           <button type="button" class="quick-tile" data-enter="vocab-test"><span class="quick-icon">🎯</span><span class="quick-label">词汇量</span></button>
           <button type="button" class="quick-tile" data-enter="lizz-shop"><span class="quick-icon">🦊</span><span class="quick-label">Lizz</span></button>
@@ -11554,6 +11573,7 @@
       if (viewMode === "wrong") return "错词本";
       if (viewMode === "weekly") return "每周复盘";
       if (viewMode === "class") return "教师端 · 班级";
+      if (viewMode === "learned") return "已学过的词";
       return "";
     }
 
@@ -11570,7 +11590,8 @@
         drill: "view-drill",
         wrong: "view-wrong",
         weekly: "view-weekly",
-        class: "view-class"
+        class: "view-class",
+        learned: "view-learned"
       };
       Object.keys(views).forEach((key) => {
         document.getElementById(views[key]).hidden = key !== viewMode;
@@ -11589,6 +11610,7 @@
       else if (viewMode === "wrong") renderWrongBook();
       else if (viewMode === "weekly") renderWeekly();
       else if (viewMode === "class") renderClassRoom();
+      else if (viewMode === "learned") renderLearned();
       else renderBrowse();
     }
 
@@ -12396,6 +12418,131 @@
       trackEvent("weekly_share", {});
     }
 
+
+
+    // ============================================================
+    // 已学过的词：按掌握状态 / 时间筛选
+    // ============================================================
+    let learnedFilter = { status: "all", query: "", sort: "recent" };
+
+    function learnedRows() {
+      const pool = state.reviewPool || {};
+      const learnedIds = Array.isArray(state.stage1Done) ? state.stage1Done : [];
+      const rows = [];
+      const seen = new Set();
+      for (const id of learnedIds) {
+        if (seen.has(id)) continue;
+        seen.add(id);
+        const item = getWord(id);
+        if (!item) continue;
+        const entry = pool[id] || {};
+        rows.push({
+          word: id,
+          item,
+          mastered: Boolean(entry.mastered),
+          due: entry.due || "",
+          node: Number(entry.node) || 0,
+          lastReviewed: entry.lastReviewed || ""
+        });
+      }
+      // 复习池里的词也算「学过」
+      for (const [id, entry] of Object.entries(pool)) {
+        if (seen.has(id)) continue;
+        const item = getWord(id);
+        if (!item) continue;
+        seen.add(id);
+        rows.push({
+          word: id,
+          item,
+          mastered: Boolean(entry.mastered),
+          due: entry.due || "",
+          node: Number(entry.node) || 0,
+          lastReviewed: entry.lastReviewed || ""
+        });
+      }
+      return rows;
+    }
+
+    function learnedStat() {
+      const rows = learnedRows();
+      const today = dateKey(getToday());
+      const mastered = rows.filter((r) => r.mastered).length;
+      const due = rows.filter((r) => !r.mastered && r.due && r.due <= today).length;
+      const longAgo = rows.filter((r) => !r.mastered && r.lastReviewed && r.lastReviewed < addDaysKey(today, -30)).length;
+      return { total: rows.length, mastered, due, longAgo };
+    }
+
+    function renderLearned() {
+      const mount = document.getElementById("view-learned");
+      const rows = learnedRows();
+      const stat = learnedStat();
+      const today = dateKey(getToday());
+      let list = rows.slice();
+
+      if (learnedFilter.status === "mastered") list = list.filter((r) => r.mastered);
+      else if (learnedFilter.status === "due") list = list.filter((r) => !r.mastered && r.due && r.due <= today);
+      else if (learnedFilter.status === "learning") list = list.filter((r) => !r.mastered);
+      else if (learnedFilter.status === "stale") list = list.filter((r) => !r.mastered && (!r.lastReviewed || r.lastReviewed < addDaysKey(today, -30)));
+
+      const q = learnedFilter.query.trim().toLowerCase();
+      if (q) list = list.filter((r) => r.word.toLowerCase().includes(q) || String(r.item.definition_zh || "").toLowerCase().includes(q));
+
+      if (learnedFilter.sort === "alpha") list.sort((a, b) => a.word.localeCompare(b.word));
+      else if (learnedFilter.sort === "weak") list.sort((a, b) => (a.node || 0) - (b.node || 0));
+      else list.sort((a, b) => (b.lastReviewed || "").localeCompare(a.lastReviewed || "") || a.word.localeCompare(b.word));
+
+      const chip = (key, label, count) => `
+        <button type="button" class="learned-chip${learnedFilter.status === key ? " is-active" : ""}" data-learned-status="${key}">
+          ${esc(label)}<span class="learned-chip-count">${count}</span>
+        </button>`;
+
+      mount.innerHTML = `
+        <section class="learned-card">
+          <h2 class="done-title">已学过的词</h2>
+          <div class="learned-stats">
+            <span>累计 <b>${stat.total}</b></span>
+            <span>已掌握 <b>${stat.mastered}</b></span>
+            <span>待复习 <b>${stat.due}</b></span>
+            <span>久未复习 <b>${stat.longAgo}</b></span>
+          </div>
+
+          <div class="learned-chips">
+            ${chip("all", "全部", rows.length)}
+            ${chip("learning", "在学", rows.filter((r) => !r.mastered).length)}
+            ${chip("due", "待复习", stat.due)}
+            ${chip("mastered", "已掌握", stat.mastered)}
+            ${chip("stale", "久未复习", stat.longAgo)}
+          </div>
+
+          <div class="learned-toolbar">
+            <input class="write-input" type="text" data-learned-search placeholder="搜索单词或释义" value="${esc(learnedFilter.query)}">
+            <select class="class-select" data-learned-sort>
+              <option value="recent"${learnedFilter.sort === "recent" ? " selected" : ""}>最近复习</option>
+              <option value="alpha"${learnedFilter.sort === "alpha" ? " selected" : ""}>按字母</option>
+              <option value="weak"${learnedFilter.sort === "weak" ? " selected" : ""}>最不熟的</option>
+            </select>
+          </div>
+
+          ${list.length ? `<ul class="learned-list">
+            ${list.slice(0, 200).map((row) => `
+              <li class="learned-item">
+                <button type="button" class="learned-main" data-wrong-word="${esc(row.word)}">
+                  <span class="learned-word">${esc(row.word)}</span>
+                  <span class="learned-def">${esc(String(row.item.definition_zh || "").slice(0, 24))}</span>
+                <span class="learned-meta">
+                  ${row.mastered ? "已掌握" : "第 " + (row.node + 1) + " 阶 · 下次 " + (row.due || "未定")}
+                </span>
+                </button>
+              </li>`).join("")}
+          </ul>` : `<p class="drill-sub">这个筛选下还没有词。先去学一组吧。</p>`}
+
+          ${list.length > 200 ? `<p class="drill-sub">只显示前 200 个，用搜索缩小范围。</p>` : ""}
+          <div class="drill-actions">
+            <button type="button" class="btn-primary" data-enter="study">继续新学</button>
+            <button type="button" class="btn-ghost" data-enter="review" ${stat.due ? "" : "disabled"}>去复习 ${stat.due}</button>
+          </div>
+        </section>`;
+    }
 
     // ============================================================
     // 教师端 / 团队版：建班 → 布置词书 → 看完成率 → 导出 CSV
@@ -13433,7 +13580,26 @@
     });
 
     // 语音偏好：语速 / 口音（写入 localStorage，由 LZSpeech.getPrefs 读取）
+    document.addEventListener("input", (event) => {
+      const search = event.target.closest("[data-learned-search]");
+      if (!search) return;
+      learnedFilter.query = search.value;
+      const pos = search.selectionStart;
+      renderLearned();
+      const again = document.querySelector("[data-learned-search]");
+      if (again) {
+        again.focus();
+        try { again.setSelectionRange(pos, pos); } catch (e) { /* ignore */ }
+      }
+    });
+
     document.addEventListener("change", (event) => {
+      const sort = event.target.closest("[data-learned-sort]");
+      if (sort) {
+        learnedFilter.sort = sort.value;
+        renderLearned();
+        return;
+      }
       const rateSelect = event.target.closest("[data-speech-rate]");
       const accentSelect = event.target.closest("[data-speech-accent]");
       const voiceSelect = event.target.closest("[data-speech-voice]");
@@ -13641,6 +13807,12 @@
       }
 
       if (event.target.closest("[data-settings-open]")) { openSettings(); return; }
+      const learnedStatus = event.target.closest("[data-learned-status]");
+      if (learnedStatus) {
+        learnedFilter.status = learnedStatus.dataset.learnedStatus;
+        renderLearned();
+        return;
+      }
       if (event.target.closest("[data-invite-open]")) {
         openInviteDialog();
         return;
