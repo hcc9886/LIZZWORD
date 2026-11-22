@@ -318,6 +318,27 @@
     return { ok: true, item };
   }
 
+  // 一键套装：把多个部位同时换上（未拥有的自动跳过，缺的保持原样）
+  function equipSet(slots) {
+    if (!slots || typeof slots !== "object") return false;
+    const shop = readShop();
+    let changed = false;
+    for (const [category, id] of Object.entries(slots)) {
+      const item = ACC.byId.get(String(id || ""));
+      if (!item || item.category !== category) continue;
+      if (!shop.owned.includes(item.id)) continue;
+      if (shop.slots[category] === item.id) continue;
+      shop.slots[category] = item.id;
+      changed = true;
+    }
+    if (!changed) return false;
+    shop.equipped = mirrorEquipped(shop.slots);
+    writeShop(shop);
+    applyAccessory();
+    notifyChanged();
+    return true;
+  }
+
   function equipItem(id) {
     const item = ACC.byId.get(String(id || ""));
     if (!item) return false;
@@ -906,6 +927,7 @@
     isOpen,
     buy: buyItem,
     equip: equipItem,
+    equipSet,
     unequip: unequipItem,
     getState: readShop,
     normalizeShop,

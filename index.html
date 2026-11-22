@@ -11850,6 +11850,14 @@
             <span class="settings-row-title">内测邀请码</span>
             <span class="settings-row-sub">输入邀请码开通 Plus</span>
           </button>
+          <button type="button" class="settings-row" data-settings-lizz>
+            <span class="settings-row-title">Lizz 装扮</span>
+            <span class="settings-row-sub">一键穿搭、学习明信片、图鉴进度</span>
+          </button>
+          <button type="button" class="settings-row" data-settings-postcard>
+            <span class="settings-row-title">生成学习明信片</span>
+            <span class="settings-row-sub">把这个词和 Lizz 做成一张图</span>
+          </button>
           <button type="button" class="settings-row" data-settings-about>
             <span class="settings-row-title">关于</span>
             <span class="settings-row-sub">31 本书 · 22 字段深度词条</span>
@@ -11863,6 +11871,8 @@
         if (event.target.closest("[data-settings-layout]")) { close(); openLayoutEditor(); return; }
         if (event.target.closest("[data-settings-speech]")) { close(); openSpeechSettings(); return; }
         if (event.target.closest("[data-settings-invite]")) { close(); openInviteDialog(); return; }
+        if (event.target.closest("[data-settings-lizz]")) { close(); openLizzThemes(); return; }
+        if (event.target.closest("[data-settings-postcard]")) { close(); makeStudyPostcard(); return; }
         if (event.target.closest("[data-settings-about]")) {
           modal.querySelector(".onboard-card").innerHTML = `
             <div class="settings-head"><h2 class="onboard-title">关于</h2>
@@ -11902,6 +11912,175 @@
       modal.addEventListener("click", (event) => {
         if (event.target === modal || event.target.closest("[data-settings-close]")) modal.remove();
       });
+    }
+
+
+    // ============================================================
+    // Lizz 趣味玩法：一键穿搭 / 心情联动 / 学习明信片 / 收集成就
+    // ============================================================
+    const LIZZ_FIT_KEY = "lizzword_lizz_theme_v1";
+
+    const LIZZ_SETS = [
+      { id: "study", name: "学霸套装", desc: "学士帽 + 毕业袍 + 卷轴 + 书页之翼",
+        items: ["acc-grad-cap", "out-grad-robe", "hand-scroll", "wing-pages"] },
+      { id: "night", name: "夜读套装", desc: "睡帽 + 针织外套 + 马克杯 + 星星发夹",
+        items: ["acc-night-cap", "out-coffee-jacket", "hand-mug", "acc-star-clip"] },
+      { id: "rain", name: "雨天套装", desc: "斗篷 + 小伞 + 雨滴之翼",
+        items: ["out-rain-coat", "hand-umbrella", "wing-rain"] },
+      { id: "space", name: "太空套装", desc: "面罩 + 宇航服 + 星云之翼 + 沙漏",
+        items: ["acc-visor", "out-space-suit", "wing-nebula", "hand-hourglass"] },
+      { id: "scholar", name: "书生套装", desc: "汉服 + 卷轴 + 字母之翼 + 奖章",
+        items: ["out-hanfu", "hand-scroll", "wing-letters", "acc-ribbon-medal"] }
+    ];
+
+    function lizzAccessoryCatalog() {
+      const A = window.LIZZWORD_LIZZ_ACCESSORIES;
+      return A && Array.isArray(A.items) ? A.items : [];
+    }
+
+    function lizzSetSnapshot(name) {
+      const catalog = lizzAccessoryCatalog();
+      const set = LIZZ_SETS.find((item) => item.name === name || item.id === name);
+      if (!set) return null;
+      const wanted = {};
+      for (const id of set.items) {
+        const item = catalog.find((entry) => entry.id === id);
+        if (item) wanted[item.category] = id;
+      }
+      return { set, wanted };
+    }
+
+    function openLizzThemes() {
+      const catalog = lizzAccessoryCatalog();
+      if (!catalog.length) { showToast("装扮库还没加载完成。"); return; }
+      const current = (() => { try { return JSON.parse(localStorage.getItem(LIZZ_FIT_KEY) || "{}"); } catch (e) { return {}; } })();
+      const modal = document.createElement("div");
+      modal.className = "onboard-overlay";
+      modal.innerHTML = `
+        <div class="onboard-card settings-card" role="dialog" aria-modal="true" aria-label="Lizz 套装">
+          <div class="settings-head"><h2 class="onboard-title">Lizz 一键穿搭</h2>
+            <button type="button" class="settings-close" data-settings-close>×</button></div>
+          <p class="drill-sub">挑一个主题，Lizz 自己换好整套。</p>
+          ${LIZZ_SETS.map((set) => `
+            <button type="button" class="settings-row" data-lizz-set="${esc(set.name)}">
+              <span class="settings-row-title">${esc(set.name)} ${current.set === set.name ? "· 当前" : ""}</span>
+              <span class="settings-row-sub">${esc(set.desc)}</span>
+            </button>`).join("")}
+          <button type="button" class="settings-row" data-lizz-set="">
+            <span class="settings-row-title">恢复默认</span>
+            <span class="settings-row-sub">只留小狐狸本体</span>
+          </button>
+        </div>`;
+      document.body.appendChild(modal);
+      modal.addEventListener("click", (event) => {
+        if (event.target === modal || event.target.closest("[data-settings-close]")) { modal.remove(); return; }
+        const btn = event.target.closest("[data-lizz-set]");
+        if (!btn) return;
+        const name = btn.dataset.lizzSet;
+        const snap = name ? lizzSetSnapshot(name) : { set: null, wanted: {} };
+        try { localStorage.setItem(LIZZ_FIT_KEY, JSON.stringify({ set: name, equipped: snap ? snap.wanted : {} })); } catch (e) { /* ignore */ }
+        modal.remove();
+        applyLizzTheme();
+        showToast(name ? `已换上「${name}」` : "已恢复默认装扮");
+      });
+    }
+
+    function applyLizzTheme() {
+      let saved = null;
+      try { saved = JSON.parse(localStorage.getItem(LIZZ_FIT_KEY) || "null"); } catch (e) { saved = null; }
+      if (!saved || !saved.set) return;
+      const snap = lizzSetSnapshot(saved.set);
+      if (!snap) return;
+      if (window.LIZZWORD_LIZZ_SHOP && typeof window.LIZZWORD_LIZZ_SHOP.equipSet === "function") {
+        window.LIZZWORD_LIZZ_SHOP.equipSet(snap.wanted);
+      }
+    }
+
+    // 心情联动：按最近正确率与连击自动挑表情
+    function lizzMoodFor(...args) {
+      const accuracy = Number(args[0]) || 0;
+      const streak = Number(args[1]) || 0;
+      if (streak >= 5) return "face-excited";
+      if (accuracy >= 85) return "face-proud";
+      if (accuracy >= 65) return "face-smile";
+      if (accuracy >= 45) return "face-thinking";
+      return "face-cry";
+    }
+
+    function lizzMoodCurrent() {
+      let accuracy = 0;
+      let streak = 0;
+      try { accuracy = window.LZEvents ? window.LZEvents.summary(7).accuracy : 0; } catch (e) { accuracy = 0; }
+      streak = Number(state.streakDays) || 0;
+      const id = lizzMoodFor(accuracy, streak);
+      const catalog = lizzAccessoryCatalog();
+      return catalog.find((item) => item.id === id) || null;
+    }
+
+    // 学习明信片：把当前词 + 释义 + Lizz 合成一张图
+    function makeStudyPostcard() {
+      const item = current || words[browseIndex] || null;
+      const word = item && item.word ? item.word : "LIZZWORD";
+      const def = item && item.definition_zh ? item.definition_zh : "今天也学了一点";
+      const canvas = document.createElement("canvas");
+      canvas.width = 720;
+      canvas.height = 1000;
+      const ctx = canvas.getContext("2d");
+      if (!ctx) { showToast("当前浏览器不支持生成图片。"); return; }
+      const g = ctx.createLinearGradient(0, 0, 720, 1000);
+      g.addColorStop(0, "#fff6e9");
+      g.addColorStop(1, "#eef4ff");
+      ctx.fillStyle = g;
+      ctx.fillRect(0, 0, 720, 1000);
+
+      ctx.fillStyle = "#1f2937";
+      ctx.font = "bold 30px system-ui, sans-serif";
+      ctx.fillText("LIZZWORD 学习明信片", 48, 76);
+
+      ctx.fillStyle = "#f4b26f";
+      ctx.beginPath();
+      ctx.arc(360, 300, 120, 0, Math.PI * 2);
+      ctx.fill();
+      ctx.fillStyle = "#4a3b32";
+      ctx.beginPath(); ctx.arc(322, 280, 9, 0, Math.PI * 2); ctx.arc(398, 280, 9, 0, Math.PI * 2); ctx.fill();
+      ctx.beginPath(); ctx.arc(360, 318, 16, 0.15, Math.PI - 0.15); ctx.stroke();
+
+      ctx.fillStyle = "#1f2937";
+      ctx.font = "bold 56px Georgia, serif";
+      ctx.fillText(word, 48, 520);
+      ctx.fillStyle = "#4b5563";
+      ctx.font = "24px system-ui, sans-serif";
+      const line = String(def).slice(0, 30);
+      ctx.fillText(line, 48, 570);
+
+      ctx.fillStyle = "#9a3412";
+      ctx.font = "22px system-ui, sans-serif";
+      ctx.fillText("邀请码：" + inviteCode() + " · 双方各得 7 天 Plus", 48, 830);
+      ctx.fillStyle = "#6b7280";
+      ctx.font = "20px system-ui, sans-serif";
+      ctx.fillText(new Date().toLocaleDateString(), 48, 880);
+
+      const url = canvas.toDataURL("image/png");
+      const link = document.createElement("a");
+      link.href = url;
+      link.download = "lizzword-" + word + ".png";
+      document.body.appendChild(link);
+      link.click();
+      link.remove();
+      trackEvent("postcard_make", { word });
+      showToast("明信片已生成。");
+    }
+
+    function lizzCollectionProgress() {
+      const catalog = lizzAccessoryCatalog();
+      if (!catalog.length) return { owned: 0, total: 0, pct: 0 };
+      let owned = 0;
+      try {
+        const shop = JSON.parse(localStorage.getItem("lizzword_lizz_v1") || "{}");
+        owned = Array.isArray(shop && shop.shop && shop.shop.owned) ? shop.shop.owned.length : 0;
+      } catch (e) { owned = 0; }
+      const total = catalog.length;
+      return { owned, total, pct: total ? Math.round((owned / total) * 100) : 0 };
     }
 
     // ============================================================
