@@ -1,0 +1,394 @@
+[
+  {
+    "word": "placebo",
+    "ipa_uk": "/pləˈsiːbəʊ/",
+    "ipa_us": "/pləˈsiːboʊ/",
+    "definition_zh": "安慰剂；安慰作用",
+    "definition_en": "a harmless substance given as if it were medicine, or something that comforts without real effect",
+    "core_image": "临床试验里，对照组拿到的是没有药效的糖片，却报告症状减轻",
+    "scene": "对照组吃的是糖做的安慰剂，却也有不少人说疼痛缓解了。The control group took a sugar placebo, and many still reported less pain.",
+    "sceneCN": "这里指「安慰剂」（第 1 个义项：没有药效、却当作药物给出的东西）；句意：对照组吃的是糖做的安慰剂，仍有很多人说疼痛减轻了。",
+    "pos": [
+      {
+        "tag": "n.",
+        "zh": "安慰剂；安慰物"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "placebo effect",
+        "zh": "安慰剂效应"
+      },
+      {
+        "phrase": "placebo group",
+        "zh": "安慰剂对照组"
+      },
+      {
+        "phrase": "give a placebo",
+        "zh": "给安慰剂"
+      },
+      {
+        "phrase": "placebo-controlled trial",
+        "zh": "安慰剂对照试验"
+      },
+      {
+        "phrase": "mere placebo",
+        "zh": "只是安慰"
+      }
+    ],
+    "forms": [
+      {
+        "label": "复数",
+        "form": "placebos"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "placebo-controlled",
+        "pos": "adj.",
+        "zh": "安慰剂对照的"
+      },
+      {
+        "word": "nocebo",
+        "pos": "n.",
+        "zh": "反安慰剂"
+      },
+      {
+        "word": "control",
+        "pos": "n.",
+        "zh": "对照组"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "Inert treatment",
+        "titleCN": "安慰剂（无药效的制剂）",
+        "definition": "a substance with no active ingredient given to a patient",
+        "definitionCN": "给病人的、不含有效成分的制剂",
+        "example": "Half the volunteers received a placebo instead of the drug.",
+        "exampleCN": "一半志愿者服用的是安慰剂而非药物。",
+        "why": "The Latin word means I shall please; the name was given to treatments that satisfy the patient rather than cure.",
+        "whyCN": "拉丁语原意是「我将使人满意」；这个名字给了那些只让病人安心、并不治病的处理方式。"
+      },
+      {
+        "no": "02",
+        "title": "The effect itself",
+        "titleCN": "安慰剂效应",
+        "definition": "the improvement that comes from believing one is treated",
+        "definitionCN": "因为相信自己被治疗而产生的改善",
+        "example": "The placebo effect explains part of the recovery in both groups.",
+        "exampleCN": "安慰剂效应解释了对照组与用药组都有的一部分好转。",
+        "why": "Belief changes symptoms, so the inert substance produces a measurable response.",
+        "whyCN": "信念会改变症状，于是这种无活性物质也产生了可测的反应。"
+      },
+      {
+        "no": "03",
+        "title": "Comforting substitute",
+        "titleCN": "安慰物；空头安慰",
+        "definition": "anything that comforts without solving the problem",
+        "definitionCN": "任何起安抚作用却没有解决问题的东西",
+        "example": "Promises without funding are a placebo for the neighbourhood.",
+        "exampleCN": "没有拨款配套的承诺，对社区只是空头安慰。",
+        "why": "The medical sense spreads to everyday language as a label for hollow comfort.",
+        "whyCN": "医学义扩散到日常语言，成为「空洞安慰」的标签。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Placebo is Latin for I shall please, from placere, to please.",
+        "cn": "placebo 是拉丁语「我将使人满意」，来自 placere（使满意）。"
+      },
+      "items": [
+        {
+          "era": "LATIN",
+          "en": "Placebo is the future form of placere, to please.",
+          "cn": "placebo 是 placere（使满意）的将来时形式。"
+        },
+        {
+          "era": "LATIN (13TH C.)",
+          "en": "It appears in the Latin psalter as a pleasing line.",
+          "cn": "它出现在拉丁语诗篇里，指一句讨喜的话。"
+        },
+        {
+          "era": "ENGLISH (18TH C.)",
+          "en": "Medicine borrows the word for treatments given to gratify patients.",
+          "cn": "医学借这个词指只为让病人满意的处理。"
+        },
+        {
+          "era": "ENGLISH (20TH C.)",
+          "en": "Controlled trials turn it into a standard comparison arm.",
+          "cn": "对照试验把它变成标准对照臂。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "Everyday speech uses it for hollow comfort.",
+          "cn": "日常语言用它指空头安慰。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "Placebo sits beside nocebo, control, and sham treatment.",
+        "cn": "placebo 与 nocebo、control、sham treatment 相邻。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "placid",
+              "ipa": "/ˈplæsɪd/",
+              "tag": "different root",
+              "definition": "calm and peaceful",
+              "definitionCN": "平静的"
+            },
+            {
+              "word": "please",
+              "ipa": "/pliːz/",
+              "tag": "same root",
+              "definition": "to give pleasure",
+              "definitionCN": "使高兴"
+            },
+            {
+              "word": "placebo-controlled",
+              "ipa": "/pləˈsiːbəʊ kənˈtrəʊld/",
+              "tag": "derived form",
+              "definition": "compared against a placebo",
+              "definitionCN": "与安慰剂对照的"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "nocebo",
+              "ipa": "/nəʊˈsiːbəʊ/",
+              "tag": "opposite term",
+              "definition": "a harmless substance that causes harm through belief",
+              "definitionCN": "因信念而产生不适的无害物质"
+            },
+            {
+              "word": "control",
+              "ipa": "/kənˈtrəʊl/",
+              "tag": "trial term",
+              "definition": "the comparison group in an experiment",
+              "definitionCN": "实验中的对照组"
+            },
+            {
+              "word": "sham",
+              "ipa": "/ʃæm/",
+              "tag": "near meaning",
+              "definition": "something fake presented as real",
+              "definitionCN": "冒充真物的假东西"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Placebo is Latin for I shall please: it pleases rather than cures.",
+        "cn": "placebo 是拉丁语「我将使人满意」：它让人安心，而非治好病。"
+      },
+      "normal": [
+        {
+          "en": "Trials compare the drug against a placebo.",
+          "cn": "试验把药物与安慰剂作对照。"
+        },
+        {
+          "en": "The placebo group improved almost as much as the treated group.",
+          "cn": "安慰剂组的好转几乎与用药组相当。"
+        },
+        {
+          "en": "Some trials are double blind and placebo controlled.",
+          "cn": "有些试验是双盲、安慰剂对照的。"
+        },
+        {
+          "en": "Researchers study the placebo effect carefully.",
+          "cn": "研究者仔细研究安慰剂效应。"
+        },
+        {
+          "en": "Compare nocebo: belief can also make people feel worse.",
+          "cn": "对比 nocebo：信念也能让人更难受。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "Picture a sugar pill in a medicine bottle.",
+          "cn": "想象药瓶里装的是糖片。"
+        },
+        {
+          "en": "Imagine a patient feeling better after a tablet with no active ingredient.",
+          "cn": "想象病人吃了没有有效成分的药片却好转。"
+        },
+        {
+          "en": "Think of a promise with no budget behind it.",
+          "cn": "想象一个背后没有预算的承诺。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "The trial gave one group the drug and the other a placebo.",
+        "cn": "试验给一组用药、另一组用安慰剂。"
+      },
+      {
+        "en": "Her improvement was put down to the placebo effect.",
+        "cn": "她的好转被归因于安慰剂效应。"
+      },
+      {
+        "en": "Funding cuts left the programme as a placebo for real reform.",
+        "cn": "经费削减让这个项目成了真正改革的安慰剂。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「place + bo」——给你一个「放得下」的东西，让你心里安稳；只是拆词联想，与词源无关。",
+      "word": "placebo"
+    },
+    "root": "拉丁语 placere（使满意）→ 将来式 placebo（我将使人满意）→ 医学 placebo（安慰剂），核心义「让人安心而非治病」。",
+    "sensesIntro": {
+      "en": "Placebo first means the inert treatment, then the effect it produces, then hollow comfort in general.",
+      "cn": "placebo 先指无药效的制剂，再指它带来的效应，最后泛指空头安慰。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: a pill with no medicine that still makes someone feel better.",
+        "cn": "核心意象：没有药效的药片，却仍让人感觉好转。"
+      },
+      "chain": [
+        "PLEASE",
+        "SATISFY",
+        "INERT TREATMENT",
+        "BELIEF",
+        "MEASURED EFFECT",
+        "HOLLOW COMFORT"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "The inert treatment is the medical sense.",
+          "cn": "无药效制剂是医学义项。"
+        },
+        {
+          "senses": "02",
+          "en": "The effect is what belief produces.",
+          "cn": "效应是信念带来的结果。"
+        },
+        {
+          "senses": "03",
+          "en": "Hollow comfort is the everyday extension.",
+          "cn": "空头安慰是日常引申。"
+        },
+        {
+          "senses": "01 · 02",
+          "en": "A treatment and its effect are studied together.",
+          "cn": "制剂与效应总是一起研究。"
+        },
+        {
+          "senses": "02 · 03",
+          "en": "Both rest on belief rather than substance.",
+          "cn": "两者都靠信念而非实质。"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Placebo comes from the Latin pleasing verb placere.",
+        "cn": "placebo 来自拉丁语「使满意」动词 placere。"
+      },
+      "latinIntro": {
+        "en": "Latin placere gives placebo, please, pleasant, and complacent.",
+        "cn": "拉丁语 placere 给出 placebo、please、pleasant、complacent。"
+      },
+      "items": [
+        {
+          "word": "placere",
+          "structure": "Latin verb",
+          "meaning": "to please",
+          "meaningCN": "使满意",
+          "example": "Placere is the source verb.",
+          "exampleCN": "placere 是源动词。"
+        },
+        {
+          "word": "placebo",
+          "structure": "Latin future form",
+          "meaning": "I shall please",
+          "meaningCN": "我将使人满意",
+          "example": "Placebo is a verb form turned noun.",
+          "exampleCN": "placebo 是动词形式转成的名词。"
+        },
+        {
+          "word": "please",
+          "structure": "English verb",
+          "meaning": "to give pleasure",
+          "meaningCN": "使高兴",
+          "example": "Please descends from the same verb.",
+          "exampleCN": "please 同出这个词。"
+        },
+        {
+          "word": "pleasant",
+          "structure": "English adjective",
+          "meaning": "agreeable",
+          "meaningCN": "愉快的",
+          "example": "Pleasant shares the pleasing idea.",
+          "exampleCN": "pleasant 共享「使人满意」的意思。"
+        },
+        {
+          "word": "nocebo",
+          "structure": "Latin-derived noun",
+          "meaning": "I shall harm",
+          "meaningCN": "我将伤害",
+          "example": "Nocebo is the mirror term.",
+          "exampleCN": "nocebo 是对应的反义词。"
+        },
+        {
+          "word": "placebo effect",
+          "structure": "English compound",
+          "meaning": "improvement from belief",
+          "meaningCN": "安慰剂效应",
+          "example": "The compound names the phenomenon.",
+          "exampleCN": "这个复合词为现象命名。"
+        },
+        {
+          "word": "complacent",
+          "structure": "Latin-derived adjective",
+          "meaning": "too pleased with oneself",
+          "meaningCN": "自满的",
+          "example": "Complacent shares placere.",
+          "exampleCN": "complacent 共享 placere。"
+        },
+        {
+          "word": "placebo-controlled",
+          "structure": "English compound",
+          "meaning": "compared against a placebo",
+          "meaningCN": "安慰剂对照的",
+          "example": "Trials use this label.",
+          "exampleCN": "试验使用这个标签。"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "placere",
+          "structure": "Latin verb",
+          "meaning": "to please",
+          "meaningCN": "使满意"
+        },
+        {
+          "word": "placebo",
+          "structure": "Latin verb form",
+          "meaning": "I shall please",
+          "meaningCN": "我将使人满意"
+        },
+        {
+          "word": "nocebo",
+          "structure": "Latin verb form",
+          "meaning": "I shall harm",
+          "meaningCN": "我将伤害"
+        }
+      ]
+    }
+  }
+]
