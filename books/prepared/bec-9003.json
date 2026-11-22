@@ -1,0 +1,889 @@
+[
+  {
+    "word": "appraisal",
+    "ipa_uk": "/əˈpreɪzl/",
+    "ipa_us": "/əˈpreɪzəl/",
+    "definition_zh": "评估；估价；考核；鉴定",
+    "definition_en": "a judgement of the value, quality, or performance of a person or thing",
+    "core_image": "把东西托在手心掂一掂，再在价签上写下一个数目",
+    "scene": "年底述职的时候，主管对照年初定下的目标，逐项给每位员工的工作表现打分。At the end of the year, the manager rates each team member in a formal appraisal.",
+    "sceneCN": "这里 appraisal 是「绩效评估」（第 1 个义项：对员工工作表现的正式考核）；句意：年底述职时，主管在一场正式评估中给团队每位成员打分。",
+    "pos": [
+      {
+        "tag": "n.",
+        "zh": "评估；估价；考核；鉴定"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "performance appraisal",
+        "zh": "绩效评估"
+      },
+      {
+        "phrase": "annual appraisal",
+        "zh": "年度考核"
+      },
+      {
+        "phrase": "appraisal system",
+        "zh": "评估体系"
+      },
+      {
+        "phrase": "appraisal interview",
+        "zh": "评估面谈"
+      },
+      {
+        "phrase": "property appraisal",
+        "zh": "房产估价"
+      },
+      {
+        "phrase": "critical appraisal",
+        "zh": "严格评析；批判性评价"
+      }
+    ],
+    "forms": [
+      {
+        "label": "复数",
+        "form": "appraisals"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "appraise",
+        "pos": "v.",
+        "zh": "由名词 appraisal 去掉后缀 -al 得到的动词，义为「估价；评估」"
+      },
+      {
+        "word": "appraiser",
+        "pos": "n.",
+        "zh": "appraise 加表示施事者的后缀 -er，指「估价师；考核人」"
+      },
+      {
+        "word": "appraisingly",
+        "pos": "adv.",
+        "zh": "appraising 加 -ly 构成的副词，义为「以审视的目光」"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "A formal review of an employee",
+        "titleCN": "绩效评估",
+        "definition": "a regular, formal judgement of how well an employee has done the job",
+        "definitionCN": "对员工工作表现作出的定期正式评判",
+        "example": "Her appraisal is scheduled for next Tuesday.",
+        "exampleCN": "她的绩效评估安排在下周二。",
+        "why": "An appraisal sets a value on work, so the word naturally names the formal review that rates an employee.",
+        "whyCN": "appraisal 的本义是给某物定出价值，把它用在人的工作上，就成了给员工表现打分的正式考核。"
+      },
+      {
+        "no": "02",
+        "title": "A valuation of property",
+        "titleCN": "估价；估值",
+        "definition": "an estimate of how much a building, a company, or an asset is worth",
+        "definitionCN": "对房产、公司或资产价值的估算",
+        "example": "The bank ordered an appraisal before approving the loan.",
+        "exampleCN": "银行在批准贷款之前要求做一次估价。",
+        "why": "The Latin root pretium means price, so the noun keeps the plain act of putting a price on a thing.",
+        "whyCN": "词根 pretium 就是价格，所以这个词保留了给东西定出价钱这一最朴素的动作。"
+      },
+      {
+        "no": "03",
+        "title": "A judgement of worth",
+        "titleCN": "评价；判断",
+        "definition": "an opinion about the value or quality of something, formed after looking at it carefully",
+        "definitionCN": "仔细审视之后对某事物的价值或品质形成的看法",
+        "example": "The committee gave a fair appraisal of the proposal.",
+        "exampleCN": "委员会对这项提案给出了公允的评价。",
+        "why": "Once a price can be set, any careful judgement of worth can be called an appraisal.",
+        "whyCN": "既然能给东西定价，那么任何对价值的审慎判断都可以叫 appraisal，这是从定价扩大到评断。"
+      },
+      {
+        "no": "04",
+        "title": "An expert valuation",
+        "titleCN": "专业鉴定；估价",
+        "definition": "a professional report that states the value of an item for sale, insurance, or tax",
+        "definitionCN": "为出售、保险或税务而出具的专业价值报告",
+        "example": "The insurer asked for an independent appraisal of the painting.",
+        "exampleCN": "保险公司要求对这幅画做一次独立鉴定。",
+        "why": "Trade and insurance turned the general estimate into a signed expert report.",
+        "whyCN": "交易与保险把一般性的估价固定成一份由专家签署的报告，于是 appraisal 有了专业鉴定这一文书义。"
+      },
+      {
+        "no": "05",
+        "title": "A review of a plan or situation",
+        "titleCN": "审议；评估",
+        "definition": "a careful assessment of a plan, a policy, or a situation before a decision is made",
+        "definitionCN": "在作决定之前对计划、政策或形势的仔细评估",
+        "example": "A calm appraisal of the risks came before the investment.",
+        "exampleCN": "在投资之前，先对风险做了一次冷静的评估。",
+        "why": "The habit of weighing worth extends from objects to plans and situations that must be judged.",
+        "whyCN": "给事物称量价值的习惯先从物品延伸到计划与形势，凡是需要判断的都可以来一次 appraisal。"
+      },
+      {
+        "no": "06",
+        "title": "A critical reading of evidence",
+        "titleCN": "严格评析",
+        "definition": "a careful, critical examination of research or evidence to judge how far it can be trusted",
+        "definitionCN": "对研究或证据的仔细批判性审查，用以判断其可信程度",
+        "example": "The paper begins with a critical appraisal of earlier studies.",
+        "exampleCN": "这篇论文开头对先前的研究做了一次严格评析。",
+        "why": "Academic method adds the note of criticism, so an appraisal can mean a disciplined reading that tests the worth of evidence.",
+        "whyCN": "学术方法加上批判这一层，于是 appraisal 也能指那种检验证据价值的严格评读。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Appraisal is the noun from appraise, which comes from Old French aprisier and Late Latin appretiare, to set a price on, from ad-, to, and pretium, price or value.",
+        "cn": "appraisal 是动词 appraise 加名词后缀 -al 构成的；appraise 经古法语 aprisier 上溯晚期拉丁语 appretiare（定价），由 ad-（向）加 pretium（价格、价值）构成。"
+      },
+      "items": [
+        {
+          "era": "LATIN",
+          "en": "Pretium means price or value, the noun that carries the whole family.",
+          "cn": "pretium 意为价格或价值，是整个词族的核心名词。"
+        },
+        {
+          "era": "LATIN",
+          "en": "Late Latin appretiare puts ad-, to, before pretium and means to set a price on something.",
+          "cn": "晚期拉丁语 appretiare 在 pretium 前加上 ad-（向），表示给某物定出价钱。"
+        },
+        {
+          "era": "OLD FRENCH",
+          "en": "Old French aprisier keeps the verb with the sense of valuing or esteeming.",
+          "cn": "古法语 aprisier 保留了这个动词，义为估价、看重。"
+        },
+        {
+          "era": "MIDDLE ENGLISH",
+          "en": "English borrows the verb as appraise, first naming the act of setting a price.",
+          "cn": "英语借入动词 appraise，最初指定价这一动作。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "The noun appraisal is appraise plus -al; modern personnel work then gives it the sense of a formal staff review.",
+          "cn": "名词 appraisal 由 appraise 加 -al 构成；现代人事管理又给了它正式员工考核的含义。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "Appraisal belongs to the Latin family of pretium, price, with appraise, appraiser, praise, and precious around it, and it sits near evaluation and assessment.",
+        "cn": "appraisal 属于拉丁语「价格」词族，周围有 appraise、appraiser、praise、precious，并与 evaluation、assessment 意义相邻。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "appraise",
+              "ipa": "/əˈpreɪz/",
+              "tag": "same root",
+              "definition": "to set a value on something",
+              "definitionCN": "给某物估价，是 appraisal 去掉名词后缀后得到的动词"
+            },
+            {
+              "word": "appraiser",
+              "ipa": "/əˈpreɪzə/",
+              "tag": "derived form",
+              "definition": "a person who values property or goods",
+              "definitionCN": "估价师；鉴定人，由 appraise 加施事后缀构成"
+            },
+            {
+              "word": "praise",
+              "ipa": "/preɪz/",
+              "tag": "same root",
+              "definition": "to express approval or admiration",
+              "definitionCN": "赞扬；称赞，与 appraisal 同出拉丁语 pretium（价值），由「看重」引申为「称许」"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "evaluation",
+              "ipa": "/ɪˌvæljuˈeɪʃn/",
+              "tag": "near meaning",
+              "definition": "a judgement of the value or quality of something",
+              "definitionCN": "评估；评价，比 appraisal 更宽泛，不一定涉及价钱"
+            },
+            {
+              "word": "assessment",
+              "ipa": "/əˈsesmənt/",
+              "tag": "near meaning",
+              "definition": "a judgement about the quality or amount of something",
+              "definitionCN": "评定；评估，常用于能力、税额与风险"
+            },
+            {
+              "word": "valuation",
+              "ipa": "/ˌvæljuˈeɪʃn/",
+              "tag": "near meaning",
+              "definition": "an estimate of how much something is worth",
+              "definitionCN": "估值；定价，多用于房产与公司资产"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Appraisal is the act of putting a value on something, built on the Latin noun pretium, price.",
+        "cn": "appraisal 是给某物定出价值的动作，建在拉丁语名词 pretium（价格）之上。"
+      },
+      "normal": [
+        {
+          "en": "The verb is appraise and the noun is appraisal: appraise plus -al.",
+          "cn": "动词是 appraise，名词是 appraisal，即 appraise 加 -al 构成。"
+        },
+        {
+          "en": "Pretium, the Latin word for price, hides inside appraisal and precious.",
+          "cn": "表示价格的拉丁词 pretium，就藏在 appraisal 与 precious 里面。"
+        },
+        {
+          "en": "A performance appraisal is the yearly review of an employee.",
+          "cn": "performance appraisal 就是对员工一年工作的考核。"
+        },
+        {
+          "en": "An appraisal interview is the meeting where the review is discussed.",
+          "cn": "appraisal interview 是讨论考核结果的面谈。"
+        },
+        {
+          "en": "Compare evaluation: evaluation is broader, while appraisal often adds the idea of a price or a formal rating.",
+          "cn": "对比 evaluation：evaluation 更宽泛，appraisal 常带有定价或正式评分的意味。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "Picture a supervisor ticking boxes on a score sheet.",
+          "cn": "想象主管在评分表上一格一格打勾。"
+        },
+        {
+          "en": "Picture a small card with a price written on a house.",
+          "cn": "想象一张小卡片，上面写着一栋房子的价钱。"
+        },
+        {
+          "en": "Picture a hand weighing an object before naming its worth.",
+          "cn": "想象一只手掂量物品，然后说出它值多少。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "Each new member of staff receives a written appraisal after three months.",
+        "cn": "每位新员工在三个月后都会收到一份书面评估。"
+      },
+      {
+        "en": "The property appraisal came in below the asking price.",
+        "cn": "房产估价低于要价。"
+      },
+      {
+        "en": "Regular appraisals help a team see where it can improve.",
+        "cn": "定期的评估能帮助团队看到可以改进的地方。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「阿普瑞奏」——阿普把价钱报上一遍，瑞兹在旁边记下来，就是在做估价；谐音联想，不是词源。",
+      "word": "appraisal"
+    },
+    "root": "拉丁语 ad-（向）+ pretium（价格、价值）→ 晚期拉丁语 appretiare（给……定价）→ 古法语 aprisier（估价）→ 英语 appraise（评估）→ 加 -al 得 appraisal，核心义「给某物定出价值」。",
+    "sensesIntro": {
+      "en": "Appraisal keeps the Latin act of setting a price and extends it from property to the worth of work, plans, and evidence.",
+      "cn": "appraisal 保留拉丁语定价这一动作，并从房产扩展到工作表现、计划与证据的价值判断。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: an object held in one hand while a price is written on its tag.",
+        "cn": "核心意象：一只手托着物品，另一只手在价签上写下价钱。"
+      },
+      "chain": [
+        "PRICE",
+        "SET A PRICE",
+        "ESTIMATE",
+        "VALUATION",
+        "JUDGEMENT",
+        "REVIEW"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "Rating an employee is the workplace sense of setting a value on work.",
+          "cn": "给员工打分是把定价用在劳动上的职场义项。"
+        },
+        {
+          "senses": "02",
+          "en": "Valuing a building or a company is the plain property sense.",
+          "cn": "给房产或公司估值是最朴素的财产义项。"
+        },
+        {
+          "senses": "03",
+          "en": "Any careful opinion of worth is the broad judgement sense.",
+          "cn": "任何对价值的审慎看法都属于宽泛的判断义项。"
+        },
+        {
+          "senses": "04",
+          "en": "A signed expert report is the professional and insurance sense.",
+          "cn": "由专家签署的报告构成专业鉴定与保险义项。"
+        },
+        {
+          "senses": "05 · 06",
+          "en": "Plans and research evidence are weighed in the review senses.",
+          "cn": "计划与研究证据则在审议与评析这两个义项里被衡量。"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Appraisal is built from the Latin noun pretium, price or value: the prefix ad-, worn down to ap-, plus pretium gives appretiare, and English adds the noun suffix -al.",
+        "cn": "appraisal 建在拉丁语名词 pretium（价格、价值）之上：前缀 ad- 在 p 前同化为 ap-，与 pretium 合成 appretiare，英语再加名词后缀 -al。"
+      },
+      "latinIntro": {
+        "en": "Latin ad- means to or toward, and pretium means price; appretiare therefore means to set a price on something.",
+        "cn": "拉丁语 ad- 意为向、朝向，pretium 意为价格；两者合成的 appretiare 就是给某物定价。"
+      },
+      "items": [
+        {
+          "word": "ad-",
+          "structure": "Latin prefix",
+          "meaning": "to, toward",
+          "meaningCN": "向；朝向",
+          "example": "The prefix ad- assimilates to ap- before a p.",
+          "exampleCN": "前缀 ad- 在 p 前同化为 ap-。"
+        },
+        {
+          "word": "pretium",
+          "structure": "Latin noun",
+          "meaning": "price, value",
+          "meaningCN": "价格；价值",
+          "example": "Pretium is the value at the heart of the word.",
+          "exampleCN": "pretium 是这个词核心处的价值。"
+        },
+        {
+          "word": "appretiare",
+          "structure": "Late Latin verb",
+          "meaning": "to set a price on",
+          "meaningCN": "给……定价",
+          "example": "Late Latin appretiare joins ad- and pretium.",
+          "exampleCN": "晚期拉丁语 appretiare 由 ad- 与 pretium 合成。"
+        },
+        {
+          "word": "aprisier",
+          "structure": "Old French verb",
+          "meaning": "to value, to esteem",
+          "meaningCN": "估价；看重",
+          "example": "Old French aprisier carries the verb onward.",
+          "exampleCN": "古法语 aprisier 把这个动词继续传下去。"
+        },
+        {
+          "word": "appraise",
+          "structure": "English verb",
+          "meaning": "to set a value on",
+          "meaningCN": "估价；评估",
+          "example": "English appraise keeps the act of valuing.",
+          "exampleCN": "英语 appraise 保留了估价这一动作。"
+        },
+        {
+          "word": "-al",
+          "structure": "English suffix",
+          "meaning": "forming nouns from verbs",
+          "meaningCN": "由动词构成名词的后缀",
+          "example": "The suffix -al turns appraise into appraisal.",
+          "exampleCN": "后缀 -al 把 appraise 变成 appraisal。"
+        },
+        {
+          "word": "appraisal",
+          "structure": "English noun",
+          "meaning": "a valuation or a formal review",
+          "meaningCN": "估价；正式评估",
+          "example": "Appraisal names both the price and the review.",
+          "exampleCN": "appraisal 既指定出的价钱，也指正式的评估。"
+        },
+        {
+          "word": "appraiser",
+          "structure": "English noun",
+          "meaning": "a person who values property",
+          "meaningCN": "估价师",
+          "example": "An appraiser signs the valuation report.",
+          "exampleCN": "估价师在估价报告上签字。"
+        },
+        {
+          "word": "appraisingly",
+          "structure": "English adverb",
+          "meaning": "with a judging look",
+          "meaningCN": "以审视的目光",
+          "example": "She looked appraisingly at the offer.",
+          "exampleCN": "她用审视的目光看了看这份报价。"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "pretium",
+          "structure": "Latin noun",
+          "meaning": "price, value",
+          "meaningCN": "价格；价值"
+        },
+        {
+          "word": "appretiare",
+          "structure": "Late Latin verb",
+          "meaning": "to set a price on",
+          "meaningCN": "给……定价"
+        },
+        {
+          "word": "ad-",
+          "structure": "Latin prefix",
+          "meaning": "to, toward",
+          "meaningCN": "向；朝向"
+        }
+      ]
+    }
+  },
+  {
+    "word": "refund",
+    "ipa_uk": "/ˈriːfʌnd/ (noun); /rɪˈfʌnd/ (verb)",
+    "ipa_us": "/ˈriːfʌnd/ (noun); /rɪˈfʌnd/ (verb)",
+    "definition_zh": "退款；退还；退税款",
+    "definition_en": "money paid back to someone, or to pay money back to someone",
+    "core_image": "一叠钞票沿着来时的路，退回付款人手里",
+    "scene": "顾客发现外套袖口有破洞，回到店里出示小票，店员把货款原样退回他的卡里。When the customer brought back the torn coat, the shop gave him a full refund.",
+    "sceneCN": "这里 refund 是「退款」（第 1 个义项：退回给付款人的那笔钱）；句意：顾客把破了的外套拿回店里时，店家给了他全额退款。",
+    "pos": [
+      {
+        "tag": "n.",
+        "zh": "退款；退还的款项"
+      },
+      {
+        "tag": "v.",
+        "zh": "退还（钱款）"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "full refund",
+        "zh": "全额退款"
+      },
+      {
+        "phrase": "tax refund",
+        "zh": "退税款"
+      },
+      {
+        "phrase": "refund policy",
+        "zh": "退款政策"
+      },
+      {
+        "phrase": "request a refund",
+        "zh": "申请退款"
+      },
+      {
+        "phrase": "refund the money",
+        "zh": "退还钱款"
+      },
+      {
+        "phrase": "refund a deposit",
+        "zh": "退还押金"
+      }
+    ],
+    "forms": [
+      {
+        "label": "复数",
+        "form": "refunds"
+      },
+      {
+        "label": "三单",
+        "form": "refunds"
+      },
+      {
+        "label": "过去式",
+        "form": "refunded"
+      },
+      {
+        "label": "现在分词",
+        "form": "refunding"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "refundable",
+        "pos": "adj.",
+        "zh": "refund 加后缀 -able，义为「可退还的」"
+      },
+      {
+        "word": "non-refundable",
+        "pos": "adj.",
+        "zh": "否定前缀 non- 加 refundable，义为「不可退还的」"
+      },
+      {
+        "word": "refunding",
+        "pos": "n.",
+        "zh": "refund 加 -ing 构成的名词，义为「退款」；在金融里也指债务的再融资"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "Money paid back",
+        "titleCN": "退款",
+        "definition": "money that is given back to a customer who has paid for goods or a service",
+        "definitionCN": "退还给已付款顾客的那笔钱",
+        "example": "She kept the receipt in case she needed a refund.",
+        "exampleCN": "她留着收据，以备需要退款。",
+        "why": "Refund begins as a pouring back: the Latin verb means to pour back, and the first English sense is the money that flows back to the payer.",
+        "whyCN": "refund 最初是「倒回去」：拉丁语动词意为把东西倒回原处，所以最早的英语义项就是流回付款人手里的那笔钱。"
+      },
+      {
+        "no": "02",
+        "title": "To give money back",
+        "titleCN": "退还（钱款）",
+        "definition": "to return money to someone who has paid for something",
+        "definitionCN": "把钱退还给为某物付过款的人",
+        "example": "The airline refunded the ticket price after the flight was cancelled.",
+        "exampleCN": "航班取消后，航空公司退还了机票款。",
+        "why": "The verb keeps the physical image of pouring the money back along the path it came by.",
+        "whyCN": "动词保留了把钱沿原路倒回这一具体意象。"
+      },
+      {
+        "no": "03",
+        "title": "A tax refund",
+        "titleCN": "退税款",
+        "definition": "money that a tax office returns when someone has paid more tax than is owed",
+        "definitionCN": "税务机关在纳税人多缴税款后退回的钱",
+        "example": "He used his tax refund to pay off the credit card.",
+        "exampleCN": "他用退税款还清了信用卡。",
+        "why": "Modern tax systems reuse the pouring-back image for money the state returns.",
+        "whyCN": "现代税制沿用了倒回这一意象，用来指国家退回的钱。"
+      },
+      {
+        "no": "04",
+        "title": "A deposit returned",
+        "titleCN": "押金或费用的退还",
+        "definition": "money given back when a deposit is released or a service has not been used",
+        "definitionCN": "押金退还或服务未使用时退回的钱",
+        "example": "The landlord agreed to a refund of the cleaning deposit.",
+        "exampleCN": "房东同意退还清洁押金。",
+        "why": "Any sum held in advance can flow back, so deposits and unused fees join the refund family.",
+        "whyCN": "任何预先收下的款项都可能倒流回来，于是押金与未使用的费用也进入了 refund 的义场。"
+      },
+      {
+        "no": "05",
+        "title": "To reimburse an expense",
+        "titleCN": "报销；垫付费用的退还",
+        "definition": "to pay back money that someone has already spent on behalf of another party",
+        "definitionCN": "把某人替他人垫付的钱还给他",
+        "example": "The company will refund your travel costs within ten days.",
+        "exampleCN": "公司会在十天内退还你的差旅费用。",
+        "why": "Business expense claims extend the verb from a purchase to any cost paid out for another party.",
+        "whyCN": "商务报销把动词从一笔购物扩展到任何替他人垫付的费用。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Refund comes from Latin refundere, to pour back or give back, from re-, back, and fundere, to pour; the noun refund, the sum returned, grew out of the verb in English.",
+        "cn": "refund 来自拉丁语 refundere（倒回、归还），由 re-（回）加 fundere（倒、倾注）构成；表示退款的名词义则是在英语里从动词长出来的。"
+      },
+      "items": [
+        {
+          "era": "LATIN",
+          "en": "Fundere means to pour, and English fusion comes from the same verb.",
+          "cn": "fundere 意为倒、倾注，英语 fusion 也出自同一个动词。"
+        },
+        {
+          "era": "LATIN",
+          "en": "Re- means back, so refundere is to pour back, hence to give back what was received.",
+          "cn": "re- 表示回，所以 refundere 就是倒回去，引申为把收下的东西归还。"
+        },
+        {
+          "era": "OLD FRENCH",
+          "en": "Old French refunder carries the giving-back verb into French.",
+          "cn": "古法语 refunder 把这个表示归还的动词带进法语。"
+        },
+        {
+          "era": "ENGLISH, 15TH C.",
+          "en": "English refund first appears as a verb meaning to give back money or restore something taken.",
+          "cn": "英语 refund 最初是动词，意为退还钱款或归还原物。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "The noun refund settles into shop, ticket, and tax use, naming the sum that comes back.",
+          "cn": "名词 refund 在商店、票务与税务场景里固定下来，专指退回的那笔钱。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "Refund belongs to the Latin pouring family of fundere and refundere, with refundable and refunding beside it, and it sits near rebate, reimbursement, and repayment.",
+        "cn": "refund 属于拉丁语「倒、倾注」词族，旁边有 refundable 与 refunding，并与 rebate、reimbursement、repayment 意义相邻。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "refundable",
+              "ipa": "/rɪˈfʌndəbl/",
+              "tag": "derived form",
+              "definition": "able to be paid back",
+              "definitionCN": "可退还的，由 refund 加 -able 构成"
+            },
+            {
+              "word": "refunding",
+              "ipa": "/rɪˈfʌndɪŋ/",
+              "tag": "derived form",
+              "definition": "the act of paying money back",
+              "definitionCN": "退款行为，也可指债务再融资"
+            },
+            {
+              "word": "fund",
+              "ipa": "/fʌnd/",
+              "tag": "spelling",
+              "definition": "a sum of money set aside for a purpose",
+              "definitionCN": "基金；资金，只是拼写相近，词源不同：fund 出自拉丁语 fundus（底部、地产）"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "rebate",
+              "ipa": "/ˈriːbeɪt/",
+              "tag": "near meaning",
+              "definition": "a partial return of money paid, often as a discount",
+              "definitionCN": "回扣；部分退款，通常是价格优惠的一部分"
+            },
+            {
+              "word": "reimbursement",
+              "ipa": "/ˌriːɪmˈbɜːsmənt/",
+              "tag": "near meaning",
+              "definition": "money paid back for costs someone has already met",
+              "definitionCN": "报销款，指补偿他人已垫付的费用"
+            },
+            {
+              "word": "repayment",
+              "ipa": "/rɪˈpeɪmənt/",
+              "tag": "near meaning",
+              "definition": "money paid back against a loan or a debt",
+              "definitionCN": "还款，多指偿还借款或债务"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Refund joins re-, back, to the Latin verb fundere, to pour, so the word pictures money poured back to its owner.",
+        "cn": "refund 由 re-（回）加拉丁语动词 fundere（倒、倾注）构成，画面就是把钱倒回主人手里。"
+      },
+      "normal": [
+        {
+          "en": "Re- means back and fundere means to pour: refund is to pour back.",
+          "cn": "re- 表示回，fundere 表示倒，refund 就是把东西倒回去。"
+        },
+        {
+          "en": "The verb refund is stressed on the second syllable, the noun on the first.",
+          "cn": "动词 refund 重音在后，名词 refund 重音在前。"
+        },
+        {
+          "en": "A full refund returns every penny the customer paid.",
+          "cn": "full refund 是把顾客付的每一分钱都退回去。"
+        },
+        {
+          "en": "A tax refund comes from the tax office, not from a shop.",
+          "cn": "tax refund 来自税务部门，而不是商店。"
+        },
+        {
+          "en": "Refundable means the money can be returned; non-refundable means it cannot.",
+          "cn": "refundable 表示钱可以退，non-refundable 表示不能退。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "Picture a shop assistant counting notes back into the hand of the customer.",
+          "cn": "想象店员把钞票数回顾客手里。"
+        },
+        {
+          "en": "Picture money sliding back along the same path it came by.",
+          "cn": "想象钱沿着来时的路滑回去。"
+        },
+        {
+          "en": "Picture a tax form with a small sum circled for return.",
+          "cn": "想象一张税表，上面圈出一小笔要退回的钱。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "The shop offered a refund without asking for a reason.",
+        "cn": "商店没问原因就给了退款。"
+      },
+      {
+        "en": "He refunded the deposit two days after the inspection.",
+        "cn": "他在检查后两天退还了押金。"
+      },
+      {
+        "en": "Only part of the fee was refunded to the students.",
+        "cn": "只把一部分费用退还给了学生。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「瑞返」——钱从柜台那头返回到你手上，就是退款；谐音联想，不是词源。",
+      "word": "refund"
+    },
+    "root": "拉丁语 re-（回、向后）+ fundere（倒、倾注）→ 拉丁语 refundere（倒回；归还）→ 古法语 refunder → 英语 refund，核心义「把钱倒回付款人手里」。另有同形词由 re- 加 fund（资金）构成，义为「重新融资」，与本词无关。",
+    "sensesIntro": {
+      "en": "Refund keeps the Latin image of pouring money back: it names the sum returned, the act of returning it, and the tax, deposit, and expense sums that flow back.",
+      "cn": "refund 保留拉丁语把钱倒回去的意象：既指退回的那笔钱，也指退钱这个动作，还延伸到退税款、押金退款与报销款。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: a stack of notes handed back to the person who paid.",
+        "cn": "核心意象：一叠钞票被交回给当初付款的人。"
+      },
+      "chain": [
+        "POUR BACK",
+        "RETURN",
+        "REPAY",
+        "MONEY BACK",
+        "TAX REFUND",
+        "DEPOSIT REFUND"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "The sum that comes back is the everyday noun sense.",
+          "cn": "退回来的那笔钱是最日常的名词义项。"
+        },
+        {
+          "senses": "02",
+          "en": "The act of handing the money back is the verb sense.",
+          "cn": "把钱交回去这个动作是动词义项。"
+        },
+        {
+          "senses": "03",
+          "en": "Tax offices return overpaid tax with the same image.",
+          "cn": "税务机关用同一意象退回多缴的税。"
+        },
+        {
+          "senses": "04",
+          "en": "Deposits and unused fees flow back as well.",
+          "cn": "押金与未使用的费用同样会倒流回来。"
+        },
+        {
+          "senses": "05",
+          "en": "Reimbursing a cost extends the verb to money spent for another party.",
+          "cn": "报销把动词扩展到替他人垫付的费用。"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Refund is built on the Latin verb fundere, to pour, with the prefix re-, back: refundere means to pour back, and English later makes the noun refund from it.",
+        "cn": "refund 建在拉丁语动词 fundere（倒、倾注）之上，加上前缀 re-（回），refundere 即倒回去；英语后来又由它造出名词 refund。"
+      },
+      "latinIntro": {
+        "en": "Latin re- means back and fundere means to pour, so refundere means to pour back and, in use, to give back.",
+        "cn": "拉丁语 re- 意为回，fundere 意为倒，所以 refundere 意为倒回去，实际使用时就是归还。"
+      },
+      "items": [
+        {
+          "word": "re-",
+          "structure": "Latin prefix",
+          "meaning": "back, again",
+          "meaningCN": "回；向后",
+          "example": "The prefix re- turns pouring into pouring back.",
+          "exampleCN": "前缀 re- 把倒变成了倒回去。"
+        },
+        {
+          "word": "fundere",
+          "structure": "Latin verb",
+          "meaning": "to pour",
+          "meaningCN": "倒；倾注",
+          "example": "Fundere supplies the pouring image.",
+          "exampleCN": "fundere 提供倒这个意象。"
+        },
+        {
+          "word": "refundere",
+          "structure": "Latin verb",
+          "meaning": "to pour back, to restore",
+          "meaningCN": "倒回；归还",
+          "example": "Refundere joins re- and fundere.",
+          "exampleCN": "refundere 由 re- 与 fundere 合成。"
+        },
+        {
+          "word": "refunder",
+          "structure": "Old French verb",
+          "meaning": "to give back",
+          "meaningCN": "归还；退还",
+          "example": "Old French refunder passes the verb to English.",
+          "exampleCN": "古法语 refunder 把这个动词传给英语。"
+        },
+        {
+          "word": "refund",
+          "structure": "English verb",
+          "meaning": "to pay money back",
+          "meaningCN": "退还钱款",
+          "example": "English refund keeps the act of giving back.",
+          "exampleCN": "英语 refund 保留了归还这一动作。"
+        },
+        {
+          "word": "refund",
+          "structure": "English noun",
+          "meaning": "money paid back",
+          "meaningCN": "退款",
+          "example": "The noun refund names the sum returned.",
+          "exampleCN": "名词 refund 指退回的那笔钱。"
+        },
+        {
+          "word": "-able",
+          "structure": "English suffix",
+          "meaning": "able to be",
+          "meaningCN": "能够被……的",
+          "example": "The suffix -able forms refundable.",
+          "exampleCN": "后缀 -able 构成 refundable。"
+        },
+        {
+          "word": "refundable",
+          "structure": "English adjective",
+          "meaning": "able to be refunded",
+          "meaningCN": "可退还的",
+          "example": "Refundable describes a fare that can be returned.",
+          "exampleCN": "refundable 描述可以退的票款。"
+        },
+        {
+          "word": "non-",
+          "structure": "English prefix",
+          "meaning": "not",
+          "meaningCN": "不；非",
+          "example": "The prefix non- forms non-refundable.",
+          "exampleCN": "前缀 non- 构成 non-refundable。"
+        },
+        {
+          "word": "refunding",
+          "structure": "English noun",
+          "meaning": "the act of paying back",
+          "meaningCN": "退款；再融资",
+          "example": "Refunding appears in finance as well as in shops.",
+          "exampleCN": "refunding 既见于商店，也见于金融。"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "fundere",
+          "structure": "Latin verb",
+          "meaning": "to pour",
+          "meaningCN": "倒；倾注"
+        },
+        {
+          "word": "refundere",
+          "structure": "Latin verb",
+          "meaning": "to pour back",
+          "meaningCN": "倒回；归还"
+        },
+        {
+          "word": "re-",
+          "structure": "Latin prefix",
+          "meaning": "back",
+          "meaningCN": "回；向后"
+        }
+      ]
+    }
+  }
+]

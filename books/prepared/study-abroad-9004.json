@@ -1,0 +1,436 @@
+[
+  {
+    "word": "transcript",
+    "ipa_uk": "/ˈtrænskrɪpt/",
+    "ipa_us": "/ˈtrænskrɪpt/",
+    "definition_zh": "成绩单；文字稿；抄本",
+    "definition_en": "an official record of the grades of a student, or a written copy of spoken words or of a document",
+    "core_image": "一张盖章的纸，把课堂上的话和分数一字不差地搬下来",
+    "scene": "申请研究生时，学校要求随材料提交盖章的学业记录。The university asked for an official transcript with the application.",
+    "sceneCN": "这里 transcript 是「成绩单」（第 1 个义项：学校出具的官方学业记录）；句意：申请时，学校要求随材料提交一份官方成绩单。",
+    "pos": [
+      {
+        "tag": "n.",
+        "zh": "成绩单；文字稿；抄本"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "academic transcript",
+        "zh": "学业成绩单"
+      },
+      {
+        "phrase": "official transcript",
+        "zh": "官方成绩单"
+      },
+      {
+        "phrase": "transcript of records",
+        "zh": "成绩记录单"
+      },
+      {
+        "phrase": "request a transcript",
+        "zh": "申请成绩单"
+      },
+      {
+        "phrase": "transcript copy",
+        "zh": "成绩单副本"
+      },
+      {
+        "phrase": "interview transcript",
+        "zh": "访谈文字稿"
+      }
+    ],
+    "forms": [
+      {
+        "label": "复数",
+        "form": "transcripts"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "transcription",
+        "pos": "n.",
+        "zh": "转录；抄写；转写文本"
+      },
+      {
+        "word": "transcribe",
+        "pos": "v.",
+        "zh": "把口头内容写成文字；抄录"
+      },
+      {
+        "word": "transcriptase",
+        "pos": "n.",
+        "zh": "转录酶（生物化学术语）"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "An official academic record",
+        "titleCN": "成绩单",
+        "definition": "an official document listing the courses and grades of a student",
+        "definitionCN": "列出学生所学课程与成绩的官方文件",
+        "example": "The graduate sent her transcript to the admissions office.",
+        "exampleCN": "这位毕业生把成绩单寄给了招生办公室。",
+        "why": "Latin transcriptum is a thing written across, a copy; the school copy of a student record became the transcript.",
+        "whyCN": "拉丁语 transcriptum 指「抄写过来的文本」，即副本；学校抄存的学生记录就成了成绩单。"
+      },
+      {
+        "no": "02",
+        "title": "A written version of speech",
+        "titleCN": "文字稿；逐字记录",
+        "definition": "a written copy of words that were spoken, such as an interview or a court hearing",
+        "definitionCN": "把说出口的话写下来的文本，如访谈或庭审记录",
+        "example": "The lawyer read the transcript of the witness.",
+        "exampleCN": "律师读了证人的证词记录。",
+        "why": "The copy sense narrows to speech written down word for word.",
+        "whyCN": "「副本」的意思收窄到「把话一字不差写下来」，于是有了文字稿。"
+      },
+      {
+        "no": "03",
+        "title": "A written copy of a document",
+        "titleCN": "抄本；副本",
+        "definition": "a copy of a document written out from an original",
+        "definitionCN": "依原件抄写而成的文件副本",
+        "example": "The archive keeps a transcript of the old charter.",
+        "exampleCN": "档案馆保存着那份旧宪章的抄本。",
+        "why": "This is the oldest sense: a document written across from another.",
+        "whyCN": "这是最古老的义项：从另一份文件「抄写过来」的文本。"
+      },
+      {
+        "no": "04",
+        "title": "An RNA copy in biology",
+        "titleCN": "转录本",
+        "definition": "a piece of RNA made from a gene, which carries its message",
+        "definitionCN": "由基因生成、携带其信息的一段核糖核酸",
+        "example": "The cell makes a transcript of the gene.",
+        "exampleCN": "细胞为该基因生成一份转录本。",
+        "why": "Molecular biology borrows the copy image for the RNA copied from DNA.",
+        "whyCN": "分子生物学借用「副本」的意象，指从脱氧核糖核酸抄录出的核糖核酸。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Transcript joins Latin trans-, across, with scribere, to write; a transcript is writing carried across from a source.",
+        "cn": "transcript 由拉丁语 trans-（穿过、越过）与 scribere（写）组合；它的本义是「从某个来源抄写过来的文字」。"
+      },
+      "items": [
+        {
+          "era": "LATIN",
+          "en": "Trans means across, and scribere means to write.",
+          "cn": "trans 意为穿过、越过，scribere 意为书写。"
+        },
+        {
+          "era": "LATIN",
+          "en": "Scriptum names a thing that has been written.",
+          "cn": "scriptum 指写下来的东西。"
+        },
+        {
+          "era": "MEDIEVAL LATIN",
+          "en": "Transcriptum names a copy written out from an original.",
+          "cn": "中世纪拉丁语 transcriptum 指依原件抄出的副本。"
+        },
+        {
+          "era": "ENGLISH, 13TH C.",
+          "en": "Transcript names a written copy of a document.",
+          "cn": "十三世纪起，transcript 指文件的书面副本。"
+        },
+        {
+          "era": "ENGLISH, 19TH C.",
+          "en": "American colleges give the word its sense of an academic record.",
+          "cn": "十九世纪美国高校赋予该词「学业记录」的意思。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "The word also names speech written down and an RNA copy.",
+          "cn": "现代英语中，这个词也指写下来的讲话与核糖核酸副本。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "Transcript pairs trans- with scribere, next to transcribe and transcription, and it sits near the record words of school and court.",
+        "cn": "transcript 把 trans- 与 scribere 配在一起，与 transcribe、transcription 同根，也与学校、法庭的记录类词相邻。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "transcribe",
+              "ipa": "/trænˈskraɪb/",
+              "tag": "same root",
+              "definition": "to write down words or copy a record",
+              "definitionCN": "把话写下来；抄录"
+            },
+            {
+              "word": "transcription",
+              "ipa": "/trænˈskrɪpʃən/",
+              "tag": "derived noun",
+              "definition": "the act or product of transcribing",
+              "definitionCN": "转录；抄写；转写文本"
+            },
+            {
+              "word": "script",
+              "ipa": "/skrɪpt/",
+              "tag": "same root",
+              "definition": "written text",
+              "definitionCN": "文字；脚本"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "record",
+              "ipa": "/ˈrekɔːd/",
+              "tag": "near meaning",
+              "definition": "a written account of facts",
+              "definitionCN": "记录；记载"
+            },
+            {
+              "word": "certificate",
+              "ipa": "/səˈtɪfɪkət/",
+              "tag": "near meaning",
+              "definition": "an official document that proves something",
+              "definitionCN": "证明书"
+            },
+            {
+              "word": "diploma",
+              "ipa": "/dɪˈpləʊmə/",
+              "tag": "near meaning",
+              "definition": "a document proving a qualification",
+              "definitionCN": "文凭；毕业证书"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Trans- means across and script means writing, so a transcript is writing carried across from one form to another.",
+        "cn": "trans- 意为「越过」，script 意为「写」，所以 transcript 就是「从一种形式抄写到另一种形式」的文本。"
+      },
+      "normal": [
+        {
+          "en": "A transcript of a course lists the grades you earned.",
+          "cn": "课程的成绩单列出你获得的分数。"
+        },
+        {
+          "en": "An interview transcript writes down every word that was said.",
+          "cn": "访谈文字稿把说过的每句话都写下来。"
+        },
+        {
+          "en": "Transcribe is the verb, transcription is the act or the text.",
+          "cn": "transcribe 是动词，transcription 是动作或成品。"
+        },
+        {
+          "en": "The same root gives script, describe and manuscript.",
+          "cn": "同一个词根还给出 script、describe 与 manuscript。"
+        },
+        {
+          "en": "Compare certificate: a certificate proves a fact, a transcript lists grades.",
+          "cn": "对比 certificate：证明书证明某个事实，成绩单列出各科分数。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "Picture a clerk copying a page from one book into another.",
+          "cn": "想象书记员把一页内容从一本书抄到另一本书。"
+        },
+        {
+          "en": "Picture a sealed sheet of grades sliding into an envelope.",
+          "cn": "想象一张盖章的成绩单滑进信封。"
+        },
+        {
+          "en": "Picture a recorder turning sound into lines on paper.",
+          "cn": "想象录音机把声音变成纸上的一行行字。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "You must order an official transcript for each application.",
+        "cn": "每份申请你都要单独申请一份官方成绩单。"
+      },
+      {
+        "en": "The transcript of the hearing runs to forty pages.",
+        "cn": "这场听证会的记录长达四十页。"
+      },
+      {
+        "en": "Reporters checked the interview transcript before printing it.",
+        "cn": "记者在刊印前核对了访谈文字稿。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「transcript」读近「穿斯克瑞普特」——把课堂表现「穿」成文字，再盖章成成绩单；这只是谐音联想，与词源无关。",
+      "word": "transcript"
+    },
+    "root": "拉丁语 trans-（穿过、越过）+ scribere（写）→ 中世纪拉丁语 transcriptum（抄写出的文本）→ 英语 transcript；核心义「抄写下来的文本」，故有成绩单、文字稿、抄本。",
+    "sensesIntro": {
+      "en": "Transcript begins as a copy written out from a document, then narrows to speech written down, widens to the school grade record, and is borrowed for an RNA copy.",
+      "cn": "transcript 先指依文件抄出的副本，再收窄为写下来的讲话，又扩大为学校成绩记录，最后被借作核糖核酸的转录本。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: a page copied across, word for word, and sealed.",
+        "cn": "核心意象：把内容一字不差抄到另一张纸上并盖章。"
+      },
+      "chain": [
+        "WRITE",
+        "ACROSS",
+        "COPY OUT",
+        "WRITTEN RECORD",
+        "GRADE SHEET",
+        "SPOKEN TEXT"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "The school record is the everyday sense for applicants.",
+          "cn": "学校记录是申请人最常遇到的义项。"
+        },
+        {
+          "senses": "02",
+          "en": "Speech written down extends the copy to talk.",
+          "cn": "把讲话写下来，把「副本」扩展到口语。"
+        },
+        {
+          "senses": "03",
+          "en": "The document copy is the oldest sense.",
+          "cn": "文件副本是最古老的义项。"
+        },
+        {
+          "senses": "04",
+          "en": "The RNA copy borrows the image for biology.",
+          "cn": "核糖核酸副本把这一意象借给了生物学。"
+        },
+        {
+          "senses": "01 · 02",
+          "en": "Both a grade sheet and a speech record are copied text.",
+          "cn": "成绩单与讲话记录都是抄写而成的文本。"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Transcript joins Latin trans-, across, with scribere, to write; the same parts build transcribe and transcription.",
+        "cn": "transcript 由拉丁语 trans-（穿过）与 scribere（写）构成；同样的部件还构成 transcribe 与 transcription。"
+      },
+      "latinIntro": {
+        "en": "Latin trans means across and scribere means to write; transcriptum is a copy written out.",
+        "cn": "拉丁语 trans 意为穿过，scribere 意为书写；transcriptum 指抄写出来的副本。"
+      },
+      "items": [
+        {
+          "word": "trans-",
+          "structure": "Latin prefix",
+          "meaning": "across, through",
+          "meaningCN": "穿过；越过",
+          "example": "Trans- marks movement across.",
+          "exampleCN": "trans- 标记「横越」的动作。"
+        },
+        {
+          "word": "scribere",
+          "structure": "Latin verb",
+          "meaning": "to write",
+          "meaningCN": "书写",
+          "example": "Scribere is the writing root.",
+          "exampleCN": "scribere 是「写」的词根。"
+        },
+        {
+          "word": "scriptum",
+          "structure": "Latin noun",
+          "meaning": "a thing written",
+          "meaningCN": "写下来的东西",
+          "example": "Scriptum is the written product.",
+          "exampleCN": "scriptum 是写出来的成品。"
+        },
+        {
+          "word": "transcript",
+          "structure": "English noun",
+          "meaning": "an official written record",
+          "meaningCN": "成绩单；文字稿",
+          "example": "Transcript keeps the copy sense.",
+          "exampleCN": "transcript 保留「副本」之义。"
+        },
+        {
+          "word": "transcription",
+          "structure": "English noun",
+          "meaning": "the act of transcribing",
+          "meaningCN": "转录；抄写",
+          "example": "Transcription adds the action suffix.",
+          "exampleCN": "transcription 加上表示动作的后缀。"
+        },
+        {
+          "word": "transcribe",
+          "structure": "English verb",
+          "meaning": "to write down spoken words",
+          "meaningCN": "把话写下来；抄录",
+          "example": "Transcribe is the verb of the family.",
+          "exampleCN": "transcribe 是这一词族的动词。"
+        },
+        {
+          "word": "scribe",
+          "structure": "English noun",
+          "meaning": "a person who writes",
+          "meaningCN": "抄写员",
+          "example": "Scribe names the person who writes.",
+          "exampleCN": "scribe 指书写的人。"
+        },
+        {
+          "word": "script",
+          "structure": "English noun",
+          "meaning": "written text",
+          "meaningCN": "文字；脚本",
+          "example": "Script is the bare writing root.",
+          "exampleCN": "script 是「写」这一词根最直接的形式。"
+        },
+        {
+          "word": "describe",
+          "structure": "English verb",
+          "meaning": "to write or tell about something",
+          "meaningCN": "描述",
+          "example": "Describe joins de- with scribere.",
+          "exampleCN": "describe 由 de- 与 scribere 组合。"
+        },
+        {
+          "word": "manuscript",
+          "structure": "English noun",
+          "meaning": "a handwritten document",
+          "meaningCN": "手稿",
+          "example": "Manuscript joins hand and writing.",
+          "exampleCN": "manuscript 把「手」与「写」合起来。"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "trans",
+          "structure": "Latin preposition",
+          "meaning": "across",
+          "meaningCN": "穿过；越过"
+        },
+        {
+          "word": "scribere",
+          "structure": "Latin verb",
+          "meaning": "to write",
+          "meaningCN": "书写"
+        },
+        {
+          "word": "scriptum",
+          "structure": "Latin noun",
+          "meaning": "a thing written",
+          "meaningCN": "写下来的东西"
+        },
+        {
+          "word": "transcriptum",
+          "structure": "Medieval Latin noun",
+          "meaning": "a copy",
+          "meaningCN": "抄本；副本"
+        }
+      ]
+    }
+  }
+]
