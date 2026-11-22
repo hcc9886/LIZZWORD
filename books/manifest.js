@@ -2299,6 +2299,7 @@ window.BOOK_MANIFEST = {
   ],
   "business-law": [
     "./books/prepared/business-law-9001.json",
+    "./books/prepared/business-law-9002.json",
     "./books/prepared/cet4-0001.json",
     "./books/prepared/cet4-0002.json",
     "./books/prepared/cet4-0003.json",

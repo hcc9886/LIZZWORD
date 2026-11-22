@@ -12306,6 +12306,7 @@
           <div class="drill-actions">
             <button type="button" class="btn-primary" data-enter="drill">专项练习</button>
             <button type="button" class="btn-ghost" data-wrong-study>用错词学一组</button>
+            <button type="button" class="btn-ghost" data-wrong-book>生成我的词书</button>
             <button type="button" class="btn-ghost" data-wrong-clear>清空错词本</button>
           </div>
         </section>
@@ -12315,6 +12316,71 @@
         </section>`}`;
     }
 
+
+
+    // ---------- 自定义词书（Plus）：把错词/收藏做成一本书 ----------
+    const CUSTOM_BOOK_KEY = "lizzword_mybook_v1";
+
+    function customBookLoad() {
+      try {
+        const raw = localStorage.getItem(CUSTOM_BOOK_KEY);
+        const data = raw ? JSON.parse(raw) : null;
+        return data && Array.isArray(data.entries) ? data : null;
+      } catch (e) { return null; }
+    }
+
+    function customBookSave(entries, name) {
+      const data = { name: name || "我的词书", updatedAt: new Date().toISOString(), entries };
+      try { localStorage.setItem(CUSTOM_BOOK_KEY, JSON.stringify(data)); } catch (e) { /* ignore */ }
+      ensureCustomBookConfig();
+      return data;
+    }
+
+    function ensureCustomBookConfig() {
+      const saved = customBookLoad();
+      if (!saved || !saved.entries.length) return null;
+      let config = BOOKS.find((book) => book.id === "my-words");
+      if (!config) {
+        config = {
+          id: "my-words",
+          name: saved.name || "我的词书",
+          intro: "自己攒的词书：错词、收藏和生词都在这里。",
+          bookFile: "localStorage",
+          preparedFiles: [],
+          distractorsFile: "./books/distractors.json",
+          dailyOptions: [5, 10, 15, 20],
+          fallback: null,
+          custom: true
+        };
+        BOOKS.push(config);
+      } else {
+        config.name = saved.name || config.name;
+      }
+      return config;
+    }
+
+    function buildCustomBookFromWrong() {
+      const ent = window.LZEntitlements;
+      if (ent && !ent.isPlus()) {
+        ent.openPaywall("我的词书");
+        return;
+      }
+      const rows = wrongBookList();
+      const entries = rows.map((row) => row.item).filter((item) => item && item.word);
+      if (!entries.length) { showToast("错词本还是空的，先去学一组。"); return; }
+      const dedup = [];
+      const seen = new Set();
+      for (const entry of entries) {
+        const key = String(entry.word).toLowerCase();
+        if (seen.has(key)) continue;
+        seen.add(key);
+        dedup.push(entry);
+      }
+      const name = "我的词书·错词版";
+      customBookSave(dedup, name);
+      renderView();
+      showToast(`已生成「${name}」，共 ${dedup.length} 词，可在词书列表里选择。`);
+    }
 
     // ---------- 句子复习（独立于单词卡的拼装队列） ----------
     function asmReviewHTML() {
@@ -12656,6 +12722,10 @@
         saveState();
         showView("study");
         showToast(`已用 ${ids.length} 个错词开一组。`);
+        return;
+      }
+      if (event.target.closest("[data-wrong-book]")) {
+        buildCustomBookFromWrong();
         return;
       }
       if (event.target.closest("[data-wrong-clear]")) {
@@ -13716,6 +13786,24 @@
     // 按词书配置加载书信息、已备词条与干扰项：
     // 缓存命中先 boot；主数据一到就 boot，不等其它文件；各资源独立重试与报错。
     function loadBookBundle(config, done) {
+      // 自定义词书：数据在 localStorage 里，不走网络
+      if (config && config.custom) {
+        const saved = customBookLoad();
+        const entries = saved && Array.isArray(saved.entries) ? saved.entries : [];
+        const master = {
+          id: config.id,
+          name: config.name,
+          intro: config.intro,
+          tiers: [{ id: 1, name: "我的词书", count: entries.length }],
+          declaredTotal: entries.length,
+          importedCount: entries.length,
+          entries: entries.map((entry, i) => ({ word: entry.word, index: i + 1, tier: 1 }))
+        };
+        applyBookData(master, entries, null);
+        publishGamesBridgeSoon();
+        if (typeof done === "function") done();
+        return;
+      }
       const bookKey = `book-${config.id}-0`;
       const distractorKey = `book-${config.id}-2`;
       const bookLabel = config.bookFile.replace(/^\.\//, "");
@@ -13915,7 +14003,8 @@
       // 网络环境：词书数据与深度索引同时发起，词书就绪即可首屏可交互，
       // 索引只影响“完整词条”，不再阻塞首屏
       loadDeepIndex();
-      loadBookBundle(activeBookConfig, boot);
+      ensureCustomBookConfig();
+    loadBookBundle(activeBookConfig, boot);
     maybeOnboard();
     refreshPlanPill();
     }
