@@ -7019,6 +7019,16 @@
         distractorsFile: "./books/distractors.json",
         dailyOptions: [5, 10, 15, 20],
         fallback: null
+      },
+      {
+        id: "word-family",
+        name: "同根词族 500",
+        intro: "同根词族 500（自建整理）：把派生词与词缀最丰富的词挑出来，按「一个词根带动一串词」的方式成组记忆。共 500 词，每词均为 22 键深度词条。",
+        bookFile: "./books/word-family.json",
+        preparedFiles: (window.BOOK_MANIFEST && window.BOOK_MANIFEST["word-family"]) || [],
+        distractorsFile: "./books/distractors.json",
+        dailyOptions: [5, 10, 15, 20],
+        fallback: null
       }
     ];
     const DEFAULT_BOOK_ID = BOOKS[0].id;
@@ -8642,7 +8652,7 @@
       // 干扰项优先走独立模块：同词性、长度拉平、全义项去重；池子用全量 3534 词
       if (window.LZQuizOptions) {
         try {
-          const built = window.LZQuizOptions.buildOptions(wordItem, window.LZ_QUIZ_POOL || preparedEntries, "meaning");
+          const built = window.LZQuizOptions.buildOptions(wordItem, window.LZ_QUIZ_POOL || preparedEntries, "meaning", { preferSimilar: true });
           return {
             type: "meaning",
             answer: built.answer,
@@ -11310,8 +11320,13 @@
     function planStats() {
       let due = 0;
       try { due = getDueWords().length; } catch (e) { due = 0; }
+      let accuracy = 0;
+      try {
+        if (window.LZEvents) accuracy = window.LZEvents.summary(7).accuracy;
+      } catch (e) { accuracy = 0; }
       return {
         due,
+        accuracy,
         learned: Array.isArray(state.stage1Done) ? state.stage1Done.length : 0,
         total: (bookInfo.entries || []).length
       };
@@ -11502,6 +11517,87 @@
 
 
 
+
+    // 邀请码：本地生成，分享图里带上
+    function inviteCode() {
+      try {
+        const saved = localStorage.getItem("lizzword_invite_v1");
+        if (saved) return saved;
+        const code = "LZ" + Math.random().toString(36).slice(2, 6).toUpperCase();
+        localStorage.setItem("lizzword_invite_v1", code);
+        return code;
+      } catch (e) {
+        return "LIZZ";
+      }
+    }
+
+    function shareWeeklyImage() {
+      const events = window.LZEvents;
+      const info = events ? events.summary(7) : { total: 0, answers: 0, accuracy: 0 };
+      const canvas = document.createElement("canvas");
+      canvas.width = 720;
+      canvas.height = 1000;
+      const ctx = canvas.getContext("2d");
+      if (!ctx) {
+        showToast("当前浏览器不支持生成图片。");
+        return;
+      }
+      const gradient = ctx.createLinearGradient(0, 0, 720, 1000);
+      gradient.addColorStop(0, "#fff8ec");
+      gradient.addColorStop(1, "#eef4ff");
+      ctx.fillStyle = gradient;
+      ctx.fillRect(0, 0, 720, 1000);
+
+      ctx.fillStyle = "#1f2937";
+      ctx.font = "bold 46px system-ui, -apple-system, sans-serif";
+      ctx.fillText("我的 LIZZWORD 周报", 60, 110);
+
+      ctx.fillStyle = "#6b7280";
+      ctx.font = "24px system-ui, sans-serif";
+      ctx.fillText("最近 7 天", 60, 160);
+
+      const stats = [
+        ["学习事件", String(info.total)],
+        ["答题次数", String(info.answers)],
+        ["正确率", info.accuracy + "%"],
+        ["连续天数", String(state.streakDays || 0)]
+      ];
+      stats.forEach((row, index) => {
+        const y = 230 + index * 120;
+        ctx.fillStyle = "#ffffff";
+        ctx.fillRect(60, y, 600, 96);
+        ctx.strokeStyle = "#e1e5f0";
+        ctx.strokeRect(60, y, 600, 96);
+        ctx.fillStyle = "#4b5563";
+        ctx.font = "26px system-ui, sans-serif";
+        ctx.fillText(row[0], 92, y + 58);
+        ctx.fillStyle = "#3157d5";
+        ctx.font = "bold 34px system-ui, sans-serif";
+        ctx.fillText(row[1], 420, y + 60);
+      });
+
+      ctx.fillStyle = "#9a3412";
+      ctx.font = "22px system-ui, sans-serif";
+      ctx.fillText("邀请码：" + inviteCode() + " · 用我的码注册，双方各得 7 天 Plus", 60, 790);
+
+      ctx.fillStyle = "#1f2937";
+      ctx.font = "bold 30px system-ui, sans-serif";
+      ctx.fillText("LIZZWORD", 60, 900);
+      ctx.fillStyle = "#6b7280";
+      ctx.font = "22px system-ui, sans-serif";
+      ctx.fillText("22 字段深度词条 · 30 本书 · 每天一点点", 60, 940);
+
+      const dataUrl = canvas.toDataURL("image/png");
+      const link = document.createElement("a");
+      link.href = dataUrl;
+      link.download = "lizzword-weekly-" + new Date().toISOString().slice(0, 10) + ".png";
+      document.body.appendChild(link);
+      link.click();
+      link.remove();
+      showToast("分享图已生成，邀请码 " + inviteCode() + "。");
+      trackEvent("weekly_share", {});
+    }
+
     // ============================================================
     // 19. 每周复盘 + 事件埋点
     // ============================================================
@@ -11548,6 +11644,7 @@
           <div class="drill-actions">
             <button type="button" class="btn-primary" data-enter="drill">去练一组</button>
             <button type="button" class="btn-ghost" data-enter="wrong">打开错词本</button>
+            <button type="button" class="btn-ghost" data-weekly-share>生成分享图</button>
           </div>
         </section>`;
     }
@@ -12007,6 +12104,10 @@
       const wrongWord = event.target.closest("[data-wrong-word]");
       if (wrongWord) {
         openWordInBrowse(wrongWord.dataset.wrongWord);
+        return;
+      }
+      if (event.target.closest("[data-weekly-share]")) {
+        shareWeeklyImage();
         return;
       }
       if (event.target.closest("[data-wrong-clear]")) {

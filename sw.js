@@ -56,6 +56,7 @@ const SHELL_FILES = [
   "./books/toefl-core-5000.json",
   "./books/BOOK-SCHEMA.md",
   "./books/manifest.js",
+  "./books/word-family.json",
   "./books/deep/index.js",
   "./books/lizz/plan-engine.js",
   "./books/lizz/onboarding.js",

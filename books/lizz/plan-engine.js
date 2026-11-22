@@ -58,9 +58,14 @@
     const s = stats || {};
     const now = today ? new Date(today) : new Date();
 
-    // 每日新词：零基础减半，考试临近不变，复习积压多时略减
+    // 每日新词：零基础减半；再按最近正确率自适应（低于 60% 减量，高于 85% 加量）
     let newWords = base.words;
     if (profile.level === "zero") newWords = Math.max(3, Math.round(base.words * 0.6));
+    const accuracy = Number(s.accuracy);
+    if (Number.isFinite(accuracy) && accuracy > 0) {
+      if (accuracy < 60) newWords = Math.max(3, Math.round(newWords * 0.8));
+      else if (accuracy > 85) newWords = Math.min(40, Math.round(newWords * 1.2));
+    }
     const due = Number(s.due) || 0;
     if (due > base.review * 1.5) newWords = Math.max(3, Math.round(newWords * 0.7));
 
@@ -125,3 +130,7 @@
     describe
   };
 })(typeof window !== "undefined" ? window : globalThis);
+
+if (typeof module !== "undefined" && module.exports) {
+  module.exports = (typeof window !== "undefined" ? window : globalThis).LZPlan;
+}

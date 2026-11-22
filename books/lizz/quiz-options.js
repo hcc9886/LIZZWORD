@@ -295,13 +295,44 @@
     return FUNCTION_TAGS.has(tag);
   }
 
-  function meaningCandidates(entry, pool, answer, rand) {
+  // 近义/形近干扰项：优先用词条自己的 similar 组，比随机同词性词更“像答案”
+  function similarCandidates(entry, pool, answer) {
+    const groups = entry && entry.similar && Array.isArray(entry.similar.groups) ? entry.similar.groups : [];
+    const words = new Set();
+    for (const group of groups) {
+      for (const item of (group.entries || [])) {
+        if (item && isText(item.word)) words.add(String(item.word).trim().toLowerCase());
+      }
+    }
+    if (!words.size) return [];
+    const targetUnits = glossUnits(entry);
+    const unitSet = new Set(targetUnits);
+    const answerLen = charLen(answer);
+    const found = [];
+    for (const cand of pool) {
+      if (!cand || !isText(cand.word)) continue;
+      if (!words.has(String(cand.word).trim().toLowerCase())) continue;
+      const gloss = glossForTags(cand, null);
+      if (!gloss || gloss === answer) continue;
+      if (charLen(gloss) > 14) continue;
+      if (Math.abs(charLen(gloss) - answerLen) > 6) continue;
+      if (ambiguous(gloss, targetUnits, unitSet, false)) continue;
+      found.push({ entry: cand, value: gloss });
+    }
+    return found;
+  }
+
+  function meaningCandidates(entry, pool, answer, rand, preferred) {
     const targetUnits = glossUnits(entry);
     const unitSet = new Set(targetUnits);
     const targetTags = primaryPosSet(entry);
     let functionalTarget = false;
     targetTags.forEach((tag) => { if (isFunctionalTag(tag)) functionalTarget = true; });
     const answerLen = charLen(answer);
+    if (Array.isArray(preferred) && preferred.length >= 3) {
+      const ordered = shuffle(preferred, rand).slice(0, 3);
+      return { items: ordered, layer: -1 };
+    }
     for (let layer = 0; layer < MEANING_LAYERS.length; layer += 1) {
       const rule = MEANING_LAYERS[layer];
       if (rule.functionOnly && !functionalTarget) continue;
@@ -501,6 +532,7 @@
     if (!answer) throw new TypeError("buildOptions: 无法得到正确答案文本");
 
     const key = modeName + "|" + String(entry.word).trim().toLowerCase();
+    const preferred = modeName === MODE_MEANING && opts.preferSimilar ? similarCandidates(entry, pool, answer) : null;
     const poolSize = pool.filter((item) => item && isText(item.word)).length;
     let lastResult = null;
     let attemptsUsed = 0;
