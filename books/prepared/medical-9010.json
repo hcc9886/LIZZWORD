@@ -1,0 +1,1256 @@
+[
+  {
+    "word": "obesity",
+    "ipa_uk": "/əʊˈbiːsəti/",
+    "ipa_us": "/oʊˈbiːsəti/",
+    "definition_zh": "肥胖症；肥胖；体脂过多",
+    "definition_en": "a medical condition in which excess body fat has accumulated to the point that it may harm health",
+    "core_image": "体重秤的指针压过红色刻度，腰腹堆起一圈厚厚的脂肪",
+    "scene": "社区体检的早晨，护士把软尺绕在一位中年男子的腰上，读数明显偏大。The nurse explained that obesity increases the risk of diabetes and heart disease.",
+    "sceneCN": "这里 obesity 是「肥胖症」（第 1 个义项：体脂过量并可能损害健康的疾病）；句意：护士解释说，肥胖症会增加糖尿病和心脏病的风险。",
+    "pos": [
+      {
+        "tag": "n.",
+        "zh": "肥胖症；肥胖（体脂过多的状态）"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "childhood obesity",
+        "zh": "儿童肥胖"
+      },
+      {
+        "phrase": "obesity epidemic",
+        "zh": "肥胖流行"
+      },
+      {
+        "phrase": "morbid obesity",
+        "zh": "重度肥胖"
+      },
+      {
+        "phrase": "central obesity",
+        "zh": "中心性肥胖；腹型肥胖"
+      },
+      {
+        "phrase": "obesity rate",
+        "zh": "肥胖率"
+      },
+      {
+        "phrase": "anti-obesity drug",
+        "zh": "抗肥胖药物"
+      }
+    ],
+    "forms": [
+      {
+        "label": "复数（医学文献中少见）",
+        "form": "obesities"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "obese",
+        "pos": "adj.",
+        "zh": "形容词，义为「肥胖的」，是 obesity 的词干来源，指体脂多到影响健康"
+      },
+      {
+        "word": "obesogenic",
+        "pos": "adj.",
+        "zh": "由本词 obesity 加后缀 -genic 构成，义为「致肥胖的」，形容促使人发胖的环境或食物"
+      },
+      {
+        "word": "obesogen",
+        "pos": "n.",
+        "zh": "由本词 obesity 加后缀 -gen 构成，义为「致肥胖物质」，指被认为会促进肥胖的化学因素"
+      },
+      {
+        "word": "anti-obesity",
+        "pos": "adj.",
+        "zh": "由前缀 anti- 加本词构成，义为「抗肥胖的」，多用于药物与政策名称"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "A clinical condition of excess body fat",
+        "titleCN": "肥胖症：体脂过量的临床疾病",
+        "definition": "a medical condition in which excess body fat has accumulated enough to impair health, usually assessed by body mass index",
+        "definitionCN": "体脂堆积到足以损害健康的疾病状态，通常用体重指数评估",
+        "example": "Obesity is diagnosed when the body mass index reaches thirty.",
+        "exampleCN": "体重指数达到三十时即可诊断为肥胖症。",
+        "why": "The Latin noun obesitas named fatness; medicine turned that descriptive word into a diagnosable condition with measured thresholds.",
+        "whyCN": "拉丁语名词 obesitas 本指「肥胖」，医学把这个描述性词变成可用指标界定的可诊断疾病。"
+      },
+      {
+        "no": "02",
+        "title": "The visible state of being very overweight",
+        "titleCN": "肥胖：体态上的体脂过多",
+        "definition": "the state of carrying much more body fat than is typical for a person of the same height and build",
+        "definitionCN": "与同身高体型的人相比体脂明显过多的状态",
+        "example": "Her obesity made walking uphill difficult.",
+        "exampleCN": "她的肥胖让上坡行走变得吃力。",
+        "why": "Before it was a diagnosis, the word simply described a body that had eaten itself fat, so the state sense stays closest to the original image.",
+        "whyCN": "在成为诊断之前，这个词只是描述一个「吃得把自己养肥」的身体，所以状态义最贴近原初意象。"
+      },
+      {
+        "no": "03",
+        "title": "A public health burden",
+        "titleCN": "肥胖问题；肥胖流行",
+        "definition": "the widespread rise of excess body fat in a population, treated as a collective public health problem",
+        "definitionCN": "人群中体脂过量现象普遍上升，被视为集体性的公共卫生问题",
+        "example": "Childhood obesity has become a public health burden in many cities.",
+        "exampleCN": "儿童肥胖在许多城市已成为公共卫生负担。",
+        "why": "When millions of bodies gain fat at once, the personal state becomes a collective trend that health systems must measure and manage.",
+        "whyCN": "当千百万人同时发胖，个人的状态就变成卫生系统必须测量和管理的集体趋势。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Obesity comes from Latin obesitas, meaning fatness, built on obedere, to eat away or overeat, from ob- over and edere to eat.",
+        "cn": "obesity 来自拉丁语 obesitas「肥胖」，由 obedere「吃掉、吃得过多」构成，其中 ob- 表「过度」，edere 表「吃」。"
+      },
+      "items": [
+        {
+          "era": "LATIN EDERE",
+          "en": "Edere means to eat, and it is the root behind edible and the participle obesus.",
+          "cn": "edere 意为「吃」，是 edible 与分词 obesus 背后的词根。"
+        },
+        {
+          "era": "LATIN OBESUS",
+          "en": "Ob plus edere yields obesus, literally eaten fat, used of a person or body that is corpulent. The force of ob- here is usually taken as over or intensive.",
+          "cn": "ob 与 edere 合成 obesus，字面是「被吃肥的」，用来形容肥胖的人或身体。这里的 ob- 一般认为表「过度」或起加强作用。"
+        },
+        {
+          "era": "LATIN OBESITAS",
+          "en": "The abstract noun obesitas names fatness or corpulence, and it is the direct source of the English word.",
+          "cn": "抽象名词 obesitas 指肥胖或肥满，是英语这个词的直接来源。"
+        },
+        {
+          "era": "FRENCH OBESITE",
+          "en": "French obésité is usually cited as a parallel route into educated English, alongside direct borrowing from Latin.",
+          "cn": "一般认为法语 obésité 是进入英语的另一条路径，与直接借自拉丁语的情况并存。"
+        },
+        {
+          "era": "ENGLISH, 17TH C.",
+          "en": "The noun is recorded in English from the early seventeenth century, at first as a general word for fatness.",
+          "cn": "这个名词自十七世纪初见于英语记录，最初只是泛指肥胖。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "Twentieth-century medicine gave it a measured definition through body mass index, and public health made it a global epidemic.",
+          "cn": "二十世纪的医学用体重指数给它一个可测量的定义，公共卫生则把它变成全球性的流行问题。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "The look-alike group holds the adjective and the technical compounds built on the same Latin root; the near-meaning group holds words for excess weight that come from other roots.",
+        "cn": "形近组收同一拉丁词根构成的形容词与技术复合词；近义组收来自其他词根的「体重过多」说法。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "obese",
+              "ipa": "/əʊˈbiːs/",
+              "tag": "derived adjective",
+              "definition": "very fat in a way that harms health; the adjective behind obesity",
+              "definitionCN": "形容词，义为「肥胖的」，指体脂多到影响健康，是 obesity 的词干来源"
+            },
+            {
+              "word": "obesogenic",
+              "ipa": "/əʊˌbiːsəˈdʒenɪk/",
+              "tag": "same root",
+              "definition": "describing an environment or food that promotes weight gain",
+              "definitionCN": "形容词，义为「致肥胖的」，形容促使人发胖的环境或食物"
+            },
+            {
+              "word": "obesogen",
+              "ipa": "/əʊˈbiːsədʒən/",
+              "tag": "technical noun",
+              "definition": "a chemical or other factor thought to promote obesity",
+              "definitionCN": "名词，义为「致肥胖物质」，指被认为会促进肥胖的化学物质或其他因素"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "overweight",
+              "ipa": "/ˌəʊvəˈweɪt/",
+              "tag": "near meaning",
+              "definition": "weighing more than is healthy; a broader and less clinical term than obesity",
+              "definitionCN": "形容词或名词，义为「超重」，比 obesity 更宽泛，临床色彩更弱"
+            },
+            {
+              "word": "adiposity",
+              "ipa": "/ˌædɪˈpɒsəti/",
+              "tag": "technical",
+              "definition": "the amount or degree of body fat, especially as measured in medicine",
+              "definitionCN": "名词，义为「脂肪蓄积度」，尤指医学测量中的体脂量"
+            },
+            {
+              "word": "corpulence",
+              "ipa": "/ˈkɔːpjələns/",
+              "tag": "formal",
+              "definition": "the state of being fat; an older and more formal word",
+              "definitionCN": "名词，义为「肥胖」，是较古老、较正式的说法"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "These hooks use the real Latin root, the adjective family and the phrases the word actually appears in.",
+        "cn": "这些记忆钩子使用真实的拉丁词根、形容词词族，以及这个词实际出现的搭配。"
+      },
+      "normal": [
+        {
+          "en": "Ob- means over and edere means to eat: to become obese is to eat past what the body needs.",
+          "cn": "ob- 表「过度」，edere 表「吃」：变胖就是吃得超过了身体所需。"
+        },
+        {
+          "en": "The adjective is obese, and the suffix -ity turns it into obesity, just as active becomes activity.",
+          "cn": "形容词是 obese，后缀 -ity 把它变成 obesity，正如 active 变成 activity。"
+        },
+        {
+          "en": "Childhood obesity is the phrase used when the weight problem begins early in life.",
+          "cn": "childhood obesity 指体重问题在生命早期就开始出现。"
+        },
+        {
+          "en": "Morbid obesity is the medical label for the most severe class, where the risk is highest.",
+          "cn": "morbid obesity 是对最严重等级的医学称呼，此时风险最高。"
+        },
+        {
+          "en": "An obesogenic environment makes the healthy choice the harder one.",
+          "cn": "obesogenic environment 指让健康选择变得更难的环境。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "Picture a clinic scale whose needle passes the red mark while the nurse writes a diagnosis.",
+          "cn": "想象诊所的体重秤指针越过红色刻度，护士在一旁写下诊断。"
+        },
+        {
+          "en": "Picture a belt that has to be let out one notch after another.",
+          "cn": "想象腰带一格一格地往外放。"
+        },
+        {
+          "en": "Picture a city map on which fast-food signs outnumber playgrounds.",
+          "cn": "想象一张城市地图，快餐招牌比操场还多。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "Obesity raises the risk of diabetes and heart disease.",
+        "cn": "肥胖症会增加糖尿病和心脏病的风险。"
+      },
+      {
+        "en": "The clinic runs a twelve-week programme for patients with obesity.",
+        "cn": "这家诊所为肥胖症患者开设了一个十二周的项目。"
+      },
+      {
+        "en": "Childhood obesity has risen sharply in many countries.",
+        "cn": "儿童肥胖在许多国家急剧上升。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「欧比西提」——听上去像「哦，必死体」，只是谐音玩笑。真正的线索是 ob-（过度）+ edere（吃）：吃得过多，身体把脂肪存成了病。谐音不是词源。",
+      "word": "obesity"
+    },
+    "root": "拉丁语 ob-（过度、越过）+ edere（吃）→ obesus（被吃肥的）→ obesitas（肥胖）→ 英语 obesity；核心义是「吃得过多，身体把多余能量存成脂肪」。ob- 在此一般认为表「过度」或起加强作用。",
+    "sensesIntro": {
+      "en": "Obesity begins as a measured clinical condition, extends to the visible state of a fat body, and finally names a collective public health trend.",
+      "cn": "obesity 从可测量的临床疾病出发，扩展到身体脂肪过多的可见状态，最后指集体的公共卫生趋势。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: a scale needle passing the red mark while fat gathers at the waist.",
+        "cn": "核心意象：体重秤指针越过红色刻度，脂肪堆在腰腹。"
+      },
+      "chain": [
+        "OVER EAT",
+        "FAT STORAGE",
+        "EXCESS WEIGHT",
+        "BODY FAT STATE",
+        "CLINICAL OBESITY",
+        "PUBLIC HEALTH BURDEN"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "THE CLINIC: body mass index turns fatness into a diagnosis with fixed thresholds.",
+          "cn": "诊室线：体重指数把肥胖变成有固定界值的诊断。"
+        },
+        {
+          "senses": "02",
+          "en": "THE BODY: the visible state of carrying far more fat than the frame expects.",
+          "cn": "身体线：身体承载的脂肪远超骨架所需，这是可见的状态。"
+        },
+        {
+          "senses": "03",
+          "en": "THE POPULATION: millions of such bodies make obesity a public health burden.",
+          "cn": "人群线：千百万个这样的身体让肥胖成为公共卫生负担。"
+        },
+        {
+          "senses": "01 · 02",
+          "en": "The diagnosis measures what the body already shows.",
+          "cn": "诊断测量的正是身体早已呈现的状态。"
+        },
+        {
+          "senses": "02 · 03",
+          "en": "A personal state becomes a collective trend when it spreads across a population.",
+          "cn": "个人状态在人群中蔓延时，就变成集体趋势。"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Obesity is a Latin noun built from a prefix of excess and the verb for eating; English adds the adjective obese and technical compounds.",
+        "cn": "obesity 是由表「过度」的前缀与表示「吃」的动词构成的拉丁名词；英语再加 obese 及技术复合词加以扩展。"
+      },
+      "latinIntro": {
+        "en": "Latin edere means to eat; ob- adds the idea of over or across, and obesus is its participle, eaten fat.",
+        "cn": "拉丁语 edere 意为「吃」；ob- 加上「过度、越过」之意，obesus 是其分词，意为「被吃肥的」。"
+      },
+      "items": [
+        {
+          "word": "ob-",
+          "structure": "Latin prefix",
+          "meaning": "over, beyond",
+          "meaningCN": "过度；越过",
+          "example": "The prefix adds the idea of excess to the verb.",
+          "exampleCN": "这个前缀给动词加上「过度」的意思。"
+        },
+        {
+          "word": "edere",
+          "structure": "Latin verb",
+          "meaning": "to eat",
+          "meaningCN": "吃",
+          "example": "Edere is the eating root shared by edible.",
+          "exampleCN": "edere 是与 edible 共有的「吃」词根。"
+        },
+        {
+          "word": "obesus",
+          "structure": "Latin participle",
+          "meaning": "eaten fat, corpulent",
+          "meaningCN": "被吃肥的；肥胖的",
+          "example": "Obesus describes a body that has eaten itself fat.",
+          "exampleCN": "obesus 形容一个被吃得肥起来的身体。"
+        },
+        {
+          "word": "obesitas",
+          "structure": "Latin noun",
+          "meaning": "fatness, corpulence",
+          "meaningCN": "肥胖；肥满",
+          "example": "Obesitas is the direct source of the English noun.",
+          "exampleCN": "obesitas 是英语名词的直接来源。"
+        },
+        {
+          "word": "-ity",
+          "structure": "English suffix",
+          "meaning": "state or quality",
+          "meaningCN": "表状态或性质",
+          "example": "The suffix turns obese into obesity.",
+          "exampleCN": "这个后缀把 obese 变成 obesity。"
+        },
+        {
+          "word": "obese",
+          "structure": "English adjective",
+          "meaning": "very fat",
+          "meaningCN": "肥胖的",
+          "example": "Obese is the adjective that names the condition.",
+          "exampleCN": "obese 是描述这种状态的形容词。"
+        },
+        {
+          "word": "-genic",
+          "structure": "English suffix",
+          "meaning": "producing, causing",
+          "meaningCN": "产生……的；致……的",
+          "example": "The suffix forms obesogenic.",
+          "exampleCN": "这个后缀构成 obesogenic。"
+        },
+        {
+          "word": "obesogenic",
+          "structure": "English adjective",
+          "meaning": "promoting weight gain",
+          "meaningCN": "致肥胖的",
+          "example": "An obesogenic environment favours cheap, dense food.",
+          "exampleCN": "致肥胖环境偏爱廉价而热量密集的食物。"
+        },
+        {
+          "word": "obesogen",
+          "structure": "English noun",
+          "meaning": "a factor that promotes obesity",
+          "meaningCN": "致肥胖物质",
+          "example": "Obesogens are studied as possible chemical triggers.",
+          "exampleCN": "obesogens 被研究为可能的化学诱因。"
+        },
+        {
+          "word": "anti-",
+          "structure": "English prefix",
+          "meaning": "against",
+          "meaningCN": "反对；抗",
+          "example": "It forms anti-obesity drugs.",
+          "exampleCN": "它构成 anti-obesity 这类药物名称。"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "obesus",
+          "structure": "Latin participle of obedere",
+          "meaning": "eaten fat, corpulent",
+          "meaningCN": "被吃肥的；肥胖的"
+        },
+        {
+          "word": "obesitas",
+          "structure": "Latin noun",
+          "meaning": "fatness, corpulence",
+          "meaningCN": "肥胖；肥满"
+        },
+        {
+          "word": "obedere",
+          "structure": "Latin verb",
+          "meaning": "to eat away, eat up",
+          "meaningCN": "吃掉；吃光"
+        },
+        {
+          "word": "edere",
+          "structure": "Latin verb",
+          "meaning": "to eat",
+          "meaningCN": "吃"
+        }
+      ]
+    }
+  },
+  {
+    "word": "malnutrition",
+    "ipa_uk": "/ˌmælnjuːˈtrɪʃən/",
+    "ipa_us": "/ˌmælnuːˈtrɪʃən/",
+    "definition_zh": "营养不良；营养不足；营养失衡",
+    "definition_en": "a condition that results from a diet in which nutrients are too few, too many or badly balanced, so that health is harmed",
+    "core_image": "一只空碗、一副瘦削的肋骨，旁边堆着只提供热量的廉价食物",
+    "scene": "病房里，一位老人因为长期只喝粥，手臂细得能看清骨头。The dietitian noted severe malnutrition and started a high-protein feeding plan.",
+    "sceneCN": "这里 malnutrition 是「营养不良」（第 1 个义项：营养摄入不足或不均衡而损害健康）；句意：营养师注意到严重营养不良，并启动了高蛋白喂养方案。",
+    "pos": [
+      {
+        "tag": "n.",
+        "zh": "营养不良；营养不足；营养失衡"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "severe acute malnutrition",
+        "zh": "严重急性营养不良"
+      },
+      {
+        "phrase": "protein-energy malnutrition",
+        "zh": "蛋白质能量营养不良"
+      },
+      {
+        "phrase": "chronic malnutrition",
+        "zh": "慢性营养不良"
+      },
+      {
+        "phrase": "malnutrition screening",
+        "zh": "营养不良筛查"
+      },
+      {
+        "phrase": "risk of malnutrition",
+        "zh": "营养不良风险"
+      },
+      {
+        "phrase": "childhood malnutrition",
+        "zh": "儿童营养不良"
+      }
+    ],
+    "forms": [
+      {
+        "label": "不可数名词（无复数）",
+        "form": "malnutrition"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "malnourished",
+        "pos": "adj.",
+        "zh": "由 mal- 加 nourish 再加 -ed 构成，义为「营养不良的」，形容长期得不到足够养分的身体"
+      },
+      {
+        "word": "malnourishment",
+        "pos": "n.",
+        "zh": "由 mal- 加名词 nourishment 构成，义为「营养不良的状态」，比 malnutrition 更强调过程与结果"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "Poor nutrition in general",
+        "titleCN": "营养不良：总称",
+        "definition": "a state of poor health caused by a diet that does not supply the right amount or balance of nutrients",
+        "definitionCN": "饮食提供的营养素数量或比例不当而造成的健康不良状态",
+        "example": "Malnutrition can result from too little food or from food of poor quality.",
+        "exampleCN": "营养不良可能源于食物太少，也可能源于食物质量太差。",
+        "why": "The prefix mal- means bad, and nutrition is the process of nourishing the body; when that process goes wrong, the whole state is malnutrition.",
+        "whyCN": "前缀 mal- 意为「坏」，nutrition 是滋养身体的过程；这个过程出了错，整个状态就是 malnutrition。"
+      },
+      {
+        "no": "02",
+        "title": "Undernutrition: too little energy and protein",
+        "titleCN": "营养不足：能量与蛋白质缺乏",
+        "definition": "the form of malnutrition caused by eating too little food, or too little protein and energy, over a period of time",
+        "definitionCN": "长期食物过少，或蛋白质与能量摄入不足所造成的一类营养不良",
+        "example": "Severe malnutrition leaves children too weak to fight infection.",
+        "exampleCN": "严重的营养不足使孩子虚弱得难以抵抗感染。",
+        "why": "The most visible branch of the word is simple scarcity: the body receives less fuel and building material than it burns and repairs.",
+        "whyCN": "这个词最可见的分支就是单纯的匮乏：身体得到的燃料与建筑材料少于它消耗和修补所需。"
+      },
+      {
+        "no": "03",
+        "title": "Micronutrient deficiency",
+        "titleCN": "微量营养素缺乏",
+        "definition": "malnutrition caused by a lack of specific vitamins or minerals, even when enough calories are eaten",
+        "definitionCN": "即使热量足够，因特定维生素或矿物质缺乏而造成的营养不良",
+        "example": "Iron-deficiency anaemia is a common form of malnutrition in young women.",
+        "exampleCN": "缺铁性贫血是年轻女性中常见的营养不良形式。",
+        "why": "Mal- does not only mean too little food; it means wrong nourishment, so a diet full of calories but empty of iron still counts.",
+        "whyCN": "mal- 不只表示食物太少，还表示「滋养得不对」，所以热量充足却缺铁的饮食仍算营养不良。"
+      },
+      {
+        "no": "04",
+        "title": "Imbalance, including excess",
+        "titleCN": "营养失衡：含营养过剩",
+        "definition": "the broad public health sense in which malnutrition includes both undernutrition and overweight caused by energy-dense diets",
+        "definitionCN": "公共卫生的广义用法，营养不良同时包括营养不足与高能量饮食引起的超重",
+        "example": "Health workers now speak of malnutrition in countries where obesity is also common.",
+        "exampleCN": "如今卫生工作者在肥胖同样常见的国家也会谈到营养不良。",
+        "why": "Modern public health defines the word by outcome rather than by scarcity: any diet that damages health through its nutrients is malnutrition.",
+        "whyCN": "现代公共卫生按结果而非匮乏来定义这个词：任何因营养素而损害健康的饮食都算营养不良。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Malnutrition joins the Latin prefix mal-, meaning bad, to nutrition, from Latin nutrire, to nourish.",
+        "cn": "malnutrition 由拉丁语前缀 mal-「坏」与 nutrition 组合而成，后者来自拉丁语 nutrire「滋养」。"
+      },
+      "items": [
+        {
+          "era": "LATIN MALUS",
+          "en": "Malus means bad or evil, and its prefix form mal- marks a thing or process as wrong or defective.",
+          "cn": "malus 意为「坏的、恶的」，其前缀形式 mal- 给事物或过程打上「错误、有缺陷」的标记。"
+        },
+        {
+          "era": "LATIN NUTRIRE",
+          "en": "Nutrire means to nourish or feed; it also gives nutrient, nutritious and nutrition.",
+          "cn": "nutrire 意为「滋养、喂养」，还生出 nutrient、nutritious 与 nutrition。"
+        },
+        {
+          "era": "LATIN NUTRITIO",
+          "en": "The noun nutritio names the act of nourishing, and English nutrition descends from it through French.",
+          "cn": "名词 nutritio 指滋养的行为，英语 nutrition 经由法语承自它。"
+        },
+        {
+          "era": "FRENCH MALNUTRITION",
+          "en": "French is generally credited with joining mal- to nutrition in the nineteenth century, though the exact first use is not fully settled.",
+          "cn": "一般认为法语在十九世纪把 mal- 与 nutrition 组合起来，但确切的首次使用尚无定论。"
+        },
+        {
+          "era": "ENGLISH, 19TH C.",
+          "en": "English adopted the word in the nineteenth century, as doctors began to describe deficiencies caused by poor diet.",
+          "cn": "英语在十九世纪引入该词，当时医生开始描述劣质饮食造成的缺乏症。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "Twentieth-century nutrition science split it into undernutrition and micronutrient deficiency, and later added the double burden of excess weight.",
+          "cn": "二十世纪的营养科学把它分为营养不足与微量营养素缺乏，后来又加上超重与不足并存的双重负担。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "The look-alike group gathers words built on the nourishing root or on mal-; the near-meaning group gathers terms for shortages of food and specific nutrients.",
+        "cn": "形近组收围绕「滋养」词根或 mal- 构成的词；近义组收食物与特定营养素短缺的说法。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "malnourished",
+              "ipa": "/ˌmælˈnʊərɪʃt/",
+              "tag": "derived adjective",
+              "definition": "badly nourished over time, so that health and growth suffer",
+              "definitionCN": "形容词，义为「营养不良的」，指长期得不到足够养分而健康与生长受损"
+            },
+            {
+              "word": "malnourishment",
+              "ipa": "/ˌmælˈnʊərɪʃmənt/",
+              "tag": "derived noun",
+              "definition": "the state or result of being badly nourished",
+              "definitionCN": "名词，义为「营养不良的状态或结果」，比 malnutrition 更强调过程"
+            },
+            {
+              "word": "nutrition",
+              "ipa": "/ˈnjuːtrɪʃən/",
+              "tag": "same root",
+              "definition": "the process of getting and using the food needed for health; the base noun inside malnutrition",
+              "definitionCN": "名词，义为「营养、滋养过程」，是「malnutrition」内部的基础名词"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "undernutrition",
+              "ipa": "/ˌʌndənjuːˈtrɪʃən/",
+              "tag": "near meaning",
+              "definition": "the form of poor nutrition caused by too little food or too few nutrients",
+              "definitionCN": "名词，义为「营养不足」，专指食物或营养素过少造成的营养不良"
+            },
+            {
+              "word": "deficiency",
+              "ipa": "/dɪˈfɪʃənsi/",
+              "tag": "near meaning",
+              "definition": "a shortage of a substance the body needs, such as a vitamin or mineral",
+              "definitionCN": "名词，义为「缺乏、不足」，指身体所需物质（如维生素或矿物质）的短缺"
+            },
+            {
+              "word": "starvation",
+              "ipa": "/stɑːˈveɪʃən/",
+              "tag": "near meaning",
+              "definition": "extreme suffering or death from lack of food; the most severe end of the scale",
+              "definitionCN": "名词，义为「饥饿、饿死」，指因缺乏食物而极度受苦甚至死亡，是程度最重的一端"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "The prefix mal- and the nourishing root nutrire are the two handles this word gives you.",
+        "cn": "前缀 mal- 与表示「滋养」的词根 nutrire，是这个词给你的两个把手。"
+      },
+      "normal": [
+        {
+          "en": "Mal- means bad: malnutrition is bad nourishment, not simply little food.",
+          "cn": "mal- 意为「坏」：malnutrition 是「糟糕的滋养」，不只是食物少。"
+        },
+        {
+          "en": "Nutrire means to nourish, and the same root gives nutrient, nutrition and nutritious.",
+          "cn": "nutrire 意为「滋养」，同一词根还给出 nutrient、nutrition 与 nutritious。"
+        },
+        {
+          "en": "Severe acute malnutrition is the emergency form that needs therapeutic feeding.",
+          "cn": "severe acute malnutrition 是需要治疗性喂养的急症形式。"
+        },
+        {
+          "en": "Protein-energy malnutrition names the shortage of both fuel and building material.",
+          "cn": "protein-energy malnutrition 指燃料与建筑材料同时短缺。"
+        },
+        {
+          "en": "A malnutrition screening tool is used on admission to find patients at risk.",
+          "cn": "malnutrition screening 工具在入院时用来找出高风险病人。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "Picture a body as a house whose supply of bricks, fuel and workers has all gone wrong at once.",
+          "cn": "想象身体像一座房子，砖块、燃料和工人的供应同时出了错。"
+        },
+        {
+          "en": "Picture the arm of a child that is thinner than the wrist of an adult.",
+          "cn": "想象一个孩子的手臂比成年人的手腕还细。"
+        },
+        {
+          "en": "Picture a plate piled with rice but without a single green leaf or piece of meat.",
+          "cn": "想象一盘堆满白饭、却没有一片绿叶或一块肉的饭菜。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "Malnutrition slows growth and weakens immunity in young children.",
+        "cn": "营养不良会延缓幼儿生长并削弱免疫力。"
+      },
+      {
+        "en": "The hospital screens every patient for malnutrition on admission.",
+        "cn": "这家医院在每位病人入院时都做营养不良筛查。"
+      },
+      {
+        "en": "Iron deficiency is a hidden form of malnutrition in many rich countries.",
+        "cn": "缺铁在许多富裕国家是一种隐蔽的营养不良形式。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「玛纽吹申」——听成「马牛吹神」只是谐音玩笑。真正的线索是 mal-（坏）+ nutrire（滋养）：滋养的方式出了错，就是营养不良。谐音不是词源。",
+      "word": "malnutrition"
+    },
+    "root": "拉丁语 mal-（坏、错误）+ nutrire（滋养）→ nutrition（滋养）→ 法语 malnutrition → 英语 malnutrition；核心义是「滋养的方式出了错」，既包括不足，也包括比例失衡。",
+    "sensesIntro": {
+      "en": "Malnutrition runs from the general state of bad nourishment, through shortage of energy and protein, through lack of specific micronutrients, to the broad public health sense that also includes excess.",
+      "cn": "malnutrition 从「滋养不当」的总称，经能量与蛋白质不足、特定微量营养素缺乏，一直到也包含营养过剩的公共卫生广义。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: a bowl that holds calories but lacks what a body needs to build and repair itself.",
+        "cn": "核心意象：一只盛着热量、却缺少身体修补材料的碗。"
+      },
+      "chain": [
+        "BAD NOURISHMENT",
+        "NUTRIENT GAP",
+        "ENERGY SHORTAGE",
+        "GROWTH FAILURE",
+        "DEFICIENCY DISEASE",
+        "DOUBLE BURDEN"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "THE GENERAL STATE: any diet that nourishes the body badly produces malnutrition.",
+          "cn": "总称线：任何滋养不当的饮食都会造成营养不良。"
+        },
+        {
+          "senses": "02",
+          "en": "THE SHORTAGE: too little energy and protein is the classic and most visible form.",
+          "cn": "匮乏线：能量与蛋白质过少是最典型、最可见的形式。"
+        },
+        {
+          "senses": "03",
+          "en": "THE MICRONUTRIENT: enough calories with missing vitamins or minerals is still malnutrition.",
+          "cn": "微量线：热量足够但维生素或矿物质缺失，仍属营养不良。"
+        },
+        {
+          "senses": "04",
+          "en": "THE DOUBLE BURDEN: public health now counts overweight and undernutrition under one word.",
+          "cn": "双重线：公共卫生如今把超重与营养不足都归入同一个词。"
+        },
+        {
+          "senses": "01 · 04",
+          "en": "The outcome, not the amount of food, decides whether a diet counts as malnutrition.",
+          "cn": "决定一种饮食是否算营养不良的，是结果，而不是食物总量。"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Malnutrition is a French-built word: the prefix mal- and the Latin nourishing root nutrire, with English keeping the noun unchanged.",
+        "cn": "malnutrition 是法语构成的词：前缀 mal- 与拉丁语「滋养」词根 nutrire，英语原样保留了这一名词。"
+      },
+      "latinIntro": {
+        "en": "Latin malus means bad, nutrire means to nourish, and nutritio is the noun for the act of nourishing.",
+        "cn": "拉丁语 malus 意为「坏」，nutrire 意为「滋养」，nutritio 则是表示滋养行为的名词。"
+      },
+      "items": [
+        {
+          "word": "mal-",
+          "structure": "Latin prefix",
+          "meaning": "bad, wrong",
+          "meaningCN": "坏；错误",
+          "example": "The prefix marks a process that has gone wrong.",
+          "exampleCN": "这个前缀标记一个出了错的过程。"
+        },
+        {
+          "word": "malus",
+          "structure": "Latin adjective",
+          "meaning": "bad, evil",
+          "meaningCN": "坏的；恶的",
+          "example": "Malus is the source of the prefix mal-.",
+          "exampleCN": "malus 是前缀 mal- 的来源。"
+        },
+        {
+          "word": "nutrire",
+          "structure": "Latin verb",
+          "meaning": "to nourish, feed",
+          "meaningCN": "滋养；喂养",
+          "example": "Nutrire is the root of nutrition and nutrient.",
+          "exampleCN": "nutrire 是 nutrition 与 nutrient 的词根。"
+        },
+        {
+          "word": "nutritio",
+          "structure": "Latin noun",
+          "meaning": "a nourishing",
+          "meaningCN": "滋养；营养",
+          "example": "Nutritio became nutrition in English.",
+          "exampleCN": "nutritio 在英语中变成 nutrition。"
+        },
+        {
+          "word": "nutrition",
+          "structure": "English noun",
+          "meaning": "the process of nourishing",
+          "meaningCN": "营养；滋养过程",
+          "example": "Nutrition is the base noun inside malnutrition.",
+          "exampleCN": "nutrition 是 malnutrition 内部的基础名词。"
+        },
+        {
+          "word": "nutrient",
+          "structure": "English noun",
+          "meaning": "a substance that nourishes",
+          "meaningCN": "营养素",
+          "example": "Nutrients are what a poor diet fails to supply.",
+          "exampleCN": "营养素正是劣质饮食供应不足的东西。"
+        },
+        {
+          "word": "nutritious",
+          "structure": "English adjective",
+          "meaning": "nourishing",
+          "meaningCN": "有营养的",
+          "example": "A nutritious diet prevents malnutrition.",
+          "exampleCN": "有营养的饮食能预防营养不良。"
+        },
+        {
+          "word": "malnourished",
+          "structure": "English adjective",
+          "meaning": "badly nourished",
+          "meaningCN": "营养不良的",
+          "example": "Malnourished children need therapeutic food.",
+          "exampleCN": "营养不良的儿童需要治疗性食品。"
+        },
+        {
+          "word": "-ition",
+          "structure": "English suffix",
+          "meaning": "action, process, result",
+          "meaningCN": "动作；过程；结果",
+          "example": "The suffix builds nouns such as nutrition.",
+          "exampleCN": "这个后缀构成 nutrition 这类名词。"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "malus",
+          "structure": "Latin adjective",
+          "meaning": "bad, evil",
+          "meaningCN": "坏的；恶的"
+        },
+        {
+          "word": "nutrire",
+          "structure": "Latin verb",
+          "meaning": "to nourish, feed",
+          "meaningCN": "滋养；喂养"
+        },
+        {
+          "word": "nutritio",
+          "structure": "Latin noun",
+          "meaning": "a nourishing",
+          "meaningCN": "滋养；营养"
+        }
+      ]
+    }
+  },
+  {
+    "word": "dehydration",
+    "ipa_uk": "/ˌdiːhaɪˈdreɪʃən/",
+    "ipa_us": "/ˌdiːhaɪˈdreɪʃən/",
+    "definition_zh": "脱水；失水；干燥；脱水反应",
+    "definition_en": "the loss or removal of water from the body, a material or a chemical compound",
+    "core_image": "一片干裂的土地，最后一道水痕在裂缝边缘消失",
+    "scene": "夏夜的急诊室里，一位长跑者被扶进来，嘴唇干裂，皮肤捏起后迟迟不回弹。The doctor diagnosed dehydration after two hours of running in the heat.",
+    "sceneCN": "这里 dehydration 是「脱水」（第 1 个义项：身体失水达到影响功能的程度）；句意：医生诊断他在高温中跑了两小时后出现了脱水。",
+    "pos": [
+      {
+        "tag": "n.",
+        "zh": "脱水；失水；干燥；（化学）脱水反应"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "severe dehydration",
+        "zh": "严重脱水"
+      },
+      {
+        "phrase": "signs of dehydration",
+        "zh": "脱水征象"
+      },
+      {
+        "phrase": "prevent dehydration",
+        "zh": "预防脱水"
+      },
+      {
+        "phrase": "dehydration reaction",
+        "zh": "脱水反应"
+      },
+      {
+        "phrase": "dehydration synthesis",
+        "zh": "脱水合成"
+      },
+      {
+        "phrase": "food dehydration",
+        "zh": "食品脱水"
+      }
+    ],
+    "forms": [
+      {
+        "label": "复数（指多次脱水过程）",
+        "form": "dehydrations"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "dehydrate",
+        "pos": "v.",
+        "zh": "由本词逆构而成的动词，义为「脱水；使干燥」，也可指身体失去水分"
+      },
+      {
+        "word": "dehydrated",
+        "pos": "adj.",
+        "zh": "由 dehydrate 加 -ed 构成，义为「脱水的；干燥的」，常形容病人或食品"
+      },
+      {
+        "word": "dehydrator",
+        "pos": "n.",
+        "zh": "由 dehydrate 加 -or 构成，义为「脱水器；干燥机」，指去除水分的设备"
+      },
+      {
+        "word": "rehydration",
+        "pos": "n.",
+        "zh": "由前缀 re- 加本词构成，义为「补液；复水」，指把失去的水补回去"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "Water loss from the body",
+        "titleCN": "身体脱水；失水",
+        "definition": "a condition in which the body loses more water than it takes in, so that normal functions are disturbed",
+        "definitionCN": "身体失去的水多于摄入的水，正常功能因此受到干扰的状态",
+        "example": "Dehydration can cause dizziness, thirst and dark urine.",
+        "exampleCN": "脱水可能引起头晕、口渴和尿色加深。",
+        "why": "The prefix de- means removal, and the Greek root for water is hydor; medicine names the state by what has been taken out of the body.",
+        "whyCN": "前缀 de- 表示「去除」，希腊语中「水」的词根是 hydor；医学用「被从身体里拿走了什么」来命名这种状态。"
+      },
+      {
+        "no": "02",
+        "title": "The process of removing water",
+        "titleCN": "脱水；干燥：去除水分的过程",
+        "definition": "the process of removing water from food, soil or another material in order to preserve or dry it",
+        "definitionCN": "为保存或干燥而从食物、土壤等材料中去除水分的过程",
+        "example": "Food dehydration preserves vitamins that heat would destroy.",
+        "exampleCN": "食品脱水能保留住受热会被破坏的维生素。",
+        "why": "The same removal image leaves the body: drying fruit or soil is dehydration in its plainest mechanical sense.",
+        "whyCN": "同一个「去除」意象离开身体：把水果或土壤弄干，就是 dehydration 最朴素的机械义。"
+      },
+      {
+        "no": "03",
+        "title": "A chemical reaction that removes water",
+        "titleCN": "化学脱水反应",
+        "definition": "a chemical reaction in which a molecule loses water, or in which two molecules join while a water molecule is released",
+        "definitionCN": "分子失去水，或两个分子结合时释放出一个水分子的化学反应",
+        "example": "Dehydration of ethanol at high temperature produces ethene.",
+        "exampleCN": "乙醇在高温下脱水生成乙烯。",
+        "why": "Chemistry generalised the removal: water is not only dried away but taken out of the structure of a molecule, and the word follows the same logic.",
+        "whyCN": "化学把「去除」一般化：水不只是被晾干，而是从分子结构中被取走，词义沿用同一逻辑。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Dehydration combines Latin de-, away from, with the Greek word for water, hydor, and the noun suffix -ation.",
+        "cn": "dehydration 由拉丁语前缀 de-「离开」、希腊语表示「水」的 hydor，以及名词后缀 -ation 组合而成。"
+      },
+      "items": [
+        {
+          "era": "GREEK HYDOR",
+          "en": "Hydor is the Greek word for water; it also gives hydrology, hydrogen and hydrate.",
+          "cn": "hydor 是希腊语「水」，它还生出 hydrology、hydrogen 与 hydrate。"
+        },
+        {
+          "era": "LATIN DE-",
+          "en": "The Latin prefix de- means away from or down, and here it marks removal.",
+          "cn": "拉丁语前缀 de- 意为「离开、向下」，在这里表示「去除」。"
+        },
+        {
+          "era": "SCIENTIFIC LATIN",
+          "en": "Nineteenth-century chemistry built the noun from de- and hydor to name the loss of water from a compound; the exact first use is not fully settled.",
+          "cn": "十九世纪化学用 de- 与 hydor 造出这个名词，指化合物失去水；确切的首次使用尚无定论。"
+        },
+        {
+          "era": "ENGLISH, 19TH C.",
+          "en": "English adopted it first in chemistry and then extended it to physiology and clinical medicine.",
+          "cn": "英语先在化学中采用，随后扩展到生理学与临床医学。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "Today the medical sense dominates: dehydration means the water deficit of the body, and rehydration is its treatment.",
+          "cn": "如今医学义占主导：dehydration 指身体的水亏欠，rehydration 则是它的处理办法。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "The look-alike group holds the verb, the adjective and the prefixed partner of dehydration; the near-meaning group holds thirst, fluid loss and technical drying words.",
+        "cn": "形近组收 dehydration 的动词、形容词与加前缀的对应词；近义组收口渴、体液丢失与技术性的干燥说法。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "dehydrate",
+              "ipa": "/diːˈhaɪdreɪt/",
+              "tag": "base verb",
+              "definition": "to remove water from something, or to lose water from the body",
+              "definitionCN": "动词，义为「脱水、使干燥」，也可指身体失去水分"
+            },
+            {
+              "word": "dehydrated",
+              "ipa": "/diːˈhaɪdreɪtɪd/",
+              "tag": "derived adjective",
+              "definition": "having lost water; used of patients, food and other materials",
+              "definitionCN": "形容词，义为「脱水的、干燥的」，常用于病人、食品与材料"
+            },
+            {
+              "word": "rehydration",
+              "ipa": "/ˌriːhaɪˈdreɪʃən/",
+              "tag": "prefixed form",
+              "definition": "the act of restoring water that has been lost",
+              "definitionCN": "名词，义为「补液、复水」，指把失去的水补回去"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "thirst",
+              "ipa": "/θɜːst/",
+              "tag": "near meaning",
+              "definition": "the feeling of needing water; a signal of dehydration rather than the state itself",
+              "definitionCN": "名词，义为「口渴」，是脱水的信号，而不是脱水状态本身"
+            },
+            {
+              "word": "fluid loss",
+              "ipa": "/ˈfluːɪd lɒs/",
+              "tag": "clinical term",
+              "definition": "loss of body fluid, a broader term because it includes water and salts",
+              "definitionCN": "名词，义为「体液丢失」，范围更宽，因为同时包括水分与盐分"
+            },
+            {
+              "word": "desiccation",
+              "ipa": "/ˌdesɪˈkeɪʃən/",
+              "tag": "technical",
+              "definition": "thorough drying, especially in scientific or geological use",
+              "definitionCN": "名词，义为「彻底干燥」，多用于科学或地质语境"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "The prefix de-, the Greek water root hydor and the clinical partner rehydration are the handles for this word.",
+        "cn": "前缀 de-、希腊语「水」词根 hydor，以及临床上的对应词 rehydration，是这个词的把手。"
+      },
+      "normal": [
+        {
+          "en": "De- means away: dehydration is water taken away from something.",
+          "cn": "de- 意为「离开」：dehydration 就是水被从某物中拿走。"
+        },
+        {
+          "en": "Hydor is Greek for water, and the same root appears in hydrate and hydrogen.",
+          "cn": "hydor 是希腊语「水」，同一词根还出现在 hydrate 与 hydrogen 中。"
+        },
+        {
+          "en": "Severe dehydration is the emergency phrase; it calls for fluids by mouth or by vein.",
+          "cn": "severe dehydration 是急症说法，需要口服或静脉补液。"
+        },
+        {
+          "en": "Signs of dehydration include thirst, dark urine and skin that stays pinched.",
+          "cn": "signs of dehydration 包括口渴、尿色深和捏起后不回弹的皮肤。"
+        },
+        {
+          "en": "Rehydration is the treatment: the same water put back.",
+          "cn": "rehydration 是治疗办法：把同样的水补回去。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "Picture cracked lips and a tongue stuck to the roof of the mouth.",
+          "cn": "想象干裂的嘴唇和贴在口腔上颚的舌头。"
+        },
+        {
+          "en": "Picture a slice of apple left in the sun until it turns to leather.",
+          "cn": "想象一片苹果留在太阳下，直到变得像皮革一样。"
+        },
+        {
+          "en": "Picture a molecule letting go of a tiny water bead as two parts join.",
+          "cn": "想象一个分子在两个部分结合时放出一颗小水珠。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "Athletes lose water quickly, and dehydration can impair performance within an hour.",
+        "cn": "运动员失水很快，脱水能在一小时内削弱运动表现。"
+      },
+      {
+        "en": "The nurse watched for signs of dehydration in the feverish child.",
+        "cn": "护士留意那个发烧孩子身上的脱水征象。"
+      },
+      {
+        "en": "Dehydration of the sample left a fine white powder.",
+        "cn": "样品脱水后留下了一种细白的粉末。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「滴嗨追申」——听成「滴、嗨、追」只是谐音联想。真正的线索是 de-（去除）+ hydor（水）：把水拿走，就是脱水。谐音不是词源。",
+      "word": "dehydration"
+    },
+    "root": "拉丁语 de-（离开、去除）+ 希腊语 hydor（水）→ 近代科学拉丁语 dehydration（失水）→ 英语 dehydration；核心义是「把水从某物中拿走」，医学上指身体失水，化学上指分子失去水。",
+    "sensesIntro": {
+      "en": "Dehydration starts as a medical state of water deficit, becomes the general process of drying, and ends as a chemical reaction that removes water from a molecule.",
+      "cn": "dehydration 从身体缺水这一医学状态出发，扩展为一般的干燥过程，最后指从分子中取走水的化学反应。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: water leaving a surface until only cracks and dry edges remain.",
+        "cn": "核心意象：水从表面离去，只剩裂缝与干边。"
+      },
+      "chain": [
+        "WATER",
+        "REMOVAL",
+        "DRYING",
+        "WATER LOSS",
+        "FLUID DEFICIT",
+        "MOLECULAR LOSS"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "THE CLINIC: water lost faster than it is replaced becomes a measurable fluid deficit.",
+          "cn": "临床线：失水快于补水，就形成可测量的液体亏欠。"
+        },
+        {
+          "senses": "02",
+          "en": "THE PROCESS: drying food or soil is the same removal without a body.",
+          "cn": "过程线：干燥食物或土壤，是同样的去除，只是没有身体参与。"
+        },
+        {
+          "senses": "03",
+          "en": "THE MOLECULE: chemistry takes water out of a compound and keeps the name.",
+          "cn": "分子线：化学从化合物中取走水，仍沿用这个名字。"
+        },
+        {
+          "senses": "01 · 02",
+          "en": "Both the clinical state and the drying process are defined by water that is no longer there.",
+          "cn": "临床状态与干燥过程都由「已经不在那里的水」来定义。"
+        },
+        {
+          "senses": "02 · 03",
+          "en": "From a drying room to a reaction flask, the word follows the same act of removal.",
+          "cn": "从干燥间到反应瓶，这个词追随着同一个「去除」动作。"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Dehydration joins a Latin prefix of removal to a Greek water root, a mixed origin that English kept intact.",
+        "cn": "dehydration 把表「去除」的拉丁前缀与希腊语「水」词根结合在一起，英语原样保留了这种混合来源。"
+      },
+      "latinIntro": {
+        "en": "De- is Latin for away or down; hydor is Greek for water, and the noun suffix -ation is Latin.",
+        "cn": "de- 是拉丁语「离开、向下」；hydor 是希腊语「水」，名词后缀 -ation 则来自拉丁语。"
+      },
+      "items": [
+        {
+          "word": "de-",
+          "structure": "Latin prefix",
+          "meaning": "away from, removal",
+          "meaningCN": "离开；去除",
+          "example": "The prefix signals that water is being taken away.",
+          "exampleCN": "这个前缀表示水正被取走。"
+        },
+        {
+          "word": "hydor",
+          "structure": "Greek noun",
+          "meaning": "water",
+          "meaningCN": "水",
+          "example": "Hydor is the water root of the word.",
+          "exampleCN": "hydor 是这个词的「水」词根。"
+        },
+        {
+          "word": "hydr-",
+          "structure": "Greek combining form",
+          "meaning": "water",
+          "meaningCN": "水（构词形式）",
+          "example": "The combining form hydr- appears in hydrate.",
+          "exampleCN": "构词形式 hydr- 出现在 hydrate 中。"
+        },
+        {
+          "word": "-ation",
+          "structure": "Latin suffix",
+          "meaning": "action, process",
+          "meaningCN": "动作；过程",
+          "example": "The suffix turns the verb into a noun of process.",
+          "exampleCN": "这个后缀把动词变成表示过程的名词。"
+        },
+        {
+          "word": "dehydrate",
+          "structure": "English verb",
+          "meaning": "to remove water",
+          "meaningCN": "脱水；使干燥",
+          "example": "Dehydrate is the verb behind the noun.",
+          "exampleCN": "dehydrate 是这个词名词形式背后的动词。"
+        },
+        {
+          "word": "dehydrated",
+          "structure": "English adjective",
+          "meaning": "having lost water",
+          "meaningCN": "脱水的；干燥的",
+          "example": "Dehydrated patients need fluids.",
+          "exampleCN": "脱水的病人需要补液。"
+        },
+        {
+          "word": "dehydrator",
+          "structure": "English noun",
+          "meaning": "a device that removes water",
+          "meaningCN": "脱水器；干燥机",
+          "example": "A dehydrator dries fruit at low heat.",
+          "exampleCN": "干燥机用低温把水果烘干。"
+        },
+        {
+          "word": "dehydrating",
+          "structure": "English participle",
+          "meaning": "removing water",
+          "meaningCN": "使脱水的；脱水中的",
+          "example": "Dehydrating food is a way to store it longer.",
+          "exampleCN": "把食物脱水是一种延长保存时间的办法。"
+        },
+        {
+          "word": "re-",
+          "structure": "Latin prefix",
+          "meaning": "again, back",
+          "meaningCN": "再；回",
+          "example": "Re- plus hydration gives rehydration.",
+          "exampleCN": "re- 加上 hydration 构成 rehydration。"
+        },
+        {
+          "word": "rehydration",
+          "structure": "English noun",
+          "meaning": "the act of restoring water",
+          "meaningCN": "补液；复水",
+          "example": "Oral rehydration saves lives in severe cases.",
+          "exampleCN": "口服补液在重症病例中能挽救生命。"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "hydor",
+          "structure": "Greek noun",
+          "meaning": "water",
+          "meaningCN": "水"
+        },
+        {
+          "word": "de-",
+          "structure": "Latin prefix",
+          "meaning": "away from, down",
+          "meaningCN": "离开；向下"
+        }
+      ]
+    }
+  }
+]
