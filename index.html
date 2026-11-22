@@ -6925,7 +6925,7 @@
         name: "IELTS 雅思核心词汇",
         intro: "雅思核心词汇 6,000 词，按字母顺序持续补齐，每词均为 22 键深度词条。",
         bookFile: "./books/ielts.json",
-        preparedFiles: Array.from({length: 123}, (_, i) => `./books/prepared/ielts-${String(i+1).padStart(4,"0")}.json`).concat(
+        preparedFiles: Array.from({length: 127}, (_, i) => `./books/prepared/ielts-${String(i+1).padStart(4,"0")}.json`).concat(
           (window.BOOK_MANIFEST && window.BOOK_MANIFEST["ielts-reuse"]) || []
         ),
         distractorsFile: "./books/distractors.json",
