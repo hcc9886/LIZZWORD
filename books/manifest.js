@@ -787,6 +787,7 @@ window.BOOK_MANIFEST = {
     "./books/prepared/sat-0019.json",
     "./books/prepared/study-abroad-9001.json",
     "./books/prepared/study-abroad-9002.json",
+    "./books/prepared/study-abroad-9003.json",
     "./books/prepared/toefl-core-5000-0017.json",
     "./books/prepared/toefl-core-5000-0023.json",
     "./books/prepared/toefl-core-5000-0024.json",
@@ -1628,6 +1629,7 @@ window.BOOK_MANIFEST = {
   ],
   "bec": [
     "./books/prepared/bec-9001.json",
+    "./books/prepared/bec-9002.json",
     "./books/prepared/cet4-0001.json",
     "./books/prepared/cet4-0002.json",
     "./books/prepared/cet4-0003.json",
