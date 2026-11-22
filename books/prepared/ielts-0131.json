@@ -1,0 +1,5422 @@
+[
+  {
+    "word": "ignite",
+    "ipa_uk": "/ɪɡˈnaɪt/",
+    "ipa_us": "/ɪɡˈnaɪt/",
+    "definition_zh": "点燃；着火；激起（情感、兴趣）；引发（冲突、争论）",
+    "definition_en": "to start something burning, or to set off a sudden strong reaction such as anger, interest, or conflict",
+    "core_image": "火柴头在砂纸上擦出一簇火星，纸角先卷起、再整个烧起来",
+    "scene": "实验室里氢气泄漏，一点火星就足以让整间屋子燃起大火。Even a single spark can ignite the gas in the whole room.",
+    "sceneCN": "这里 ignite 是「使着火、点燃」（第 1 个义项：使可燃物开始燃烧）；句意：哪怕只有一颗火星，也能让整间屋子的气体燃起来。这个义项最贴近「擦出一簇火星」的核心画面。",
+    "pos": [
+      {
+        "tag": "vt.",
+        "zh": "点燃；使着火；激起；引发"
+      },
+      {
+        "tag": "vi.",
+        "zh": "着火；燃烧"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "ignite a fire",
+        "zh": "点火；燃起火焰"
+      },
+      {
+        "phrase": "ignite the debate",
+        "zh": "引发争论"
+      },
+      {
+        "phrase": "ignite interest",
+        "zh": "激起兴趣"
+      },
+      {
+        "phrase": "ignite anger",
+        "zh": "点燃怒火"
+      },
+      {
+        "phrase": "ignite a conflict",
+        "zh": "挑起冲突"
+      },
+      {
+        "phrase": "fail to ignite",
+        "zh": "未能点着火"
+      }
+    ],
+    "forms": [
+      {
+        "label": "三单",
+        "form": "ignites"
+      },
+      {
+        "label": "过去式",
+        "form": "ignited"
+      },
+      {
+        "label": "过去分词",
+        "form": "ignited"
+      },
+      {
+        "label": "现在分词",
+        "form": "igniting"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "ignition",
+        "pos": "n.",
+        "zh": "由基础词加拉丁名词后缀 -io（-ion）构成，义为「点火；点火装置」"
+      },
+      {
+        "word": "ignitable",
+        "pos": "adj.",
+        "zh": "由基础词加后缀 -able 构成，义为「可燃的；能点着的」"
+      },
+      {
+        "word": "igniter",
+        "pos": "n.",
+        "zh": "由基础词加施动后缀 -er 构成，义为「点火器；点火零件」"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "To set something burning",
+        "titleCN": "点燃；使着火",
+        "definition": "to make something start to burn",
+        "definitionCN": "使某物开始燃烧",
+        "example": "She struck a match to ignite the stove.",
+        "exampleCN": "她划了一根火柴点燃炉子。",
+        "why": "Ignite goes back to Latin ignis, fire, so the verb names the exact moment when fire begins.",
+        "whyCN": "ignite 来自拉丁语 ignis（火），因此这个词直接命名「火开始的瞬间」，最贴近核心画面。"
+      },
+      {
+        "no": "02",
+        "title": "To catch fire and burn",
+        "titleCN": "着火；燃起",
+        "definition": "to start burning by itself, without being lit by a person",
+        "definitionCN": "自身开始燃烧，而不是被人点着",
+        "example": "The dry grass ignited where the spark landed.",
+        "exampleCN": "干草在火星落下的地方着了起来。",
+        "why": "If the verb means to start a fire, the same word can describe the fuel side of the event, the thing that starts burning.",
+        "whyCN": "既然这个词表示「使火开始」，同一个词也能从燃料的角度说话，即「开始烧起来」，所以成了不及物用法。"
+      },
+      {
+        "no": "03",
+        "title": "To excite a strong feeling",
+        "titleCN": "激起；点燃（情感）",
+        "definition": "to cause a strong feeling such as interest, hope, or anger to begin suddenly",
+        "definitionCN": "使兴趣、希望或愤怒等强烈情感突然产生",
+        "example": "The lecture ignited her interest in astronomy.",
+        "exampleCN": "那场讲座点燃了她对天文学的兴趣。",
+        "why": "A feeling that is sparked in the mind follows the same picture as a flame, a single flash that grows into a blaze.",
+        "whyCN": "在心里被擦出的情绪和火焰遵循同一幅画面：一点火星迅速长成大火，所以 ignite 被用来指情感的突然萌发。"
+      },
+      {
+        "no": "04",
+        "title": "To set off a conflict or debate",
+        "titleCN": "引发；挑起（冲突、争论）",
+        "definition": "to cause a protest, argument, or violent conflict to start",
+        "definitionCN": "使抗议、争执或暴力冲突开始发生",
+        "example": "The new tax ignited protests across the country.",
+        "exampleCN": "新税引发了全国范围的抗议。",
+        "why": "Conflicts spread from a first spark the way fires do, so reporters say a remark ignited a riot.",
+        "whyCN": "冲突像火一样由第一颗火星蔓延开来，所以新闻里说某句话「点燃」了骚乱，引出「引发」的义项。"
+      },
+      {
+        "no": "05",
+        "title": "In an engine or burner",
+        "titleCN": "（发动机、燃烧器）点燃混合气",
+        "definition": "of a fuel and air mixture in an engine, to burn at the right moment",
+        "definitionCN": "发动机内的燃油与空气混合物在正确时刻燃烧",
+        "example": "The spark plug must ignite the mixture at exactly the right moment.",
+        "exampleCN": "火花塞必须在准确的时刻点燃混合气。",
+        "why": "Mechanics reuse the fire-starting sense for the controlled little explosion inside a cylinder.",
+        "whyCN": "机械师把「点火」的本义借用到气缸内受控的小型燃烧上，于是有了发动机领域的专门用法。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Ignite is a learned word built on Latin ignis, fire, and it entered English in the late sixteenth century beside the noun ignition.",
+        "cn": "ignite 是以拉丁语 ignis（火）为基础的书面词，大约在十六世纪末进入英语，与名词 ignition 几乎同时出现。"
+      },
+      "items": [
+        {
+          "era": "LATIN",
+          "en": "Ignis means fire, and the adjective igneus means fiery.",
+          "cn": "ignis 意为「火」，形容词 igneus 意为「火一样的」。"
+        },
+        {
+          "era": "LATIN, LATE",
+          "en": "The verb ignire means to set on fire, and ignitum is its past participle.",
+          "cn": "拉丁语动词 ignire 意为「点火、使燃烧」，其过去分词形式为 ignitum。"
+        },
+        {
+          "era": "MODERN ENGLISH, 1580S",
+          "en": "English speakers borrowed the participle as ignite, to set on fire.",
+          "cn": "英语在十六世纪八十年代借入这个过去分词，形成 ignite，表示「点燃」。"
+        },
+        {
+          "era": "ENGLISH, 17TH–18TH C.",
+          "en": "Chemistry writers use ignite for the moment when matter begins to burn.",
+          "cn": "十七至十八世纪的化学作者用 ignite 描述物质开始燃烧的时刻。"
+        },
+        {
+          "era": "ENGLISH, 19TH C.",
+          "en": "The engineering sense of igniting fuel in an engine grows with the internal combustion engine.",
+          "cn": "随着内燃机的出现，十九世纪发展出「在发动机里点燃燃料」的工程义。"
+        },
+        {
+          "era": "MODERN ENGLISH, 20TH–21ST C.",
+          "en": "Figurative use spreads widely: remarks ignite debate and songs ignite passion.",
+          "cn": "现代英语中比喻用法广泛流行：言论「点燃」讨论，歌声「点燃」热情。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "Ignite is the formal word built on the Latin noun for fire; it sits beside the everyday kindle and light, and beside look-alike words such as ignore and ignite-related ignition.",
+        "cn": "ignite 是以拉丁语「火」为基础构成的正式用词，与日常的 kindle、light 相邻；形近词则有 ignore、ignition 等。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "ignition",
+              "ipa": "/ɪɡˈnɪʃən/",
+              "tag": "same root",
+              "definition": "the act of starting a fire, or the device that starts an engine",
+              "definitionCN": "点火；点火装置（同根名词）"
+            },
+            {
+              "word": "igneus",
+              "ipa": "/ˈɪɡniəs/",
+              "tag": "latin root",
+              "definition": "fiery, made of fire",
+              "definitionCN": "火一样的（拉丁语形容词，与 ignite 同源）"
+            },
+            {
+              "word": "ignore",
+              "ipa": "/ɪɡˈnɔː/",
+              "tag": "spelling",
+              "definition": "to pay no attention to someone or something",
+              "definitionCN": "忽视；不理会（只是拼写相近，词源不同，来自「不知道」的词根）"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "kindle",
+              "ipa": "/ˈkɪndl/",
+              "tag": "near meaning",
+              "definition": "to start a fire, or to make a feeling begin",
+              "definitionCN": "点燃（柴火）；激起（情绪）"
+            },
+            {
+              "word": "light",
+              "ipa": "/laɪt/",
+              "tag": "near meaning",
+              "definition": "to make something start to burn",
+              "definitionCN": "点着；点火"
+            },
+            {
+              "word": "spark",
+              "ipa": "/spɑːk/",
+              "tag": "near meaning",
+              "definition": "to cause something to start suddenly",
+              "definitionCN": "引发；引起"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Remember ignite through Latin ignis, fire, and through the English family ignition, ignitable, and igniter.",
+        "cn": "通过拉丁语 ignis（火）和英语词族 ignition、ignitable、igniter 记住 ignite。"
+      },
+      "normal": [
+        {
+          "en": "Latin ignis, fire, hides inside ignite: the t ending shows a verb was built from it.",
+          "cn": "拉丁语 ignis（火）藏在 ignite 里面，词尾变化说明它被做成了动词。"
+        },
+        {
+          "en": "The noun ignition names the act of firing and the car part that fires the fuel.",
+          "cn": "名词 ignition 既指「点火」这个动作，也指汽车里给燃料点火的那个部件。"
+        },
+        {
+          "en": "Ignite takes an object for the thing set burning: ignite a candle, ignite the fuel.",
+          "cn": "ignite 后面接被点着的东西：ignite a candle、ignite the fuel。"
+        },
+        {
+          "en": "With feelings and events the verb means to start them: ignite interest, ignite debate.",
+          "cn": "当宾语是情绪或事件时，这个词表示让它们开始：ignite interest、ignite debate。"
+        },
+        {
+          "en": "Compare kindle and light: ignite is the formal, often technical choice in writing about fire and engines.",
+          "cn": "对比 kindle 与 light：ignite 更正式，写火与发动机时常用它，技术色彩更强。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "See a match head scratching across rough paper and a small orange star jumping off.",
+          "cn": "想象火柴头在粗糙的纸上一划，一颗小小的橙色火星跳出来。"
+        },
+        {
+          "en": "See the flame taking hold on its own, spreading from one dry leaf to the next.",
+          "cn": "想象火焰自己站稳脚跟，从一片枯叶烧到另一片枯叶。"
+        },
+        {
+          "en": "See a single sentence in a classroom lighting up every listener at once.",
+          "cn": "想象课堂上的一句话，让所有听众的眼睛同时亮起来。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "The engineer explained how the spark plug ignites the fuel.",
+        "cn": "工程师解释了火花塞如何点燃燃料。"
+      },
+      {
+        "en": "Her first trip abroad ignited a love of foreign languages.",
+        "cn": "她的第一次出国旅行点燃了她对语言的热情。"
+      },
+      {
+        "en": "The leaked gas could ignite at any moment.",
+        "cn": "泄漏的燃气随时可能着火。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「一哥奈特」——一哥擦亮火柴，点亮了奈特的夜；这只是谐音联想，与词源无关。",
+      "word": "ignite"
+    },
+    "root": "拉丁语 ignis（火）+ 动词词尾 → 晚期拉丁语 ignire（点火）/ 过去分词 ignitum → 英语 ignite，核心义「让火开始」。",
+    "sensesIntro": {
+      "en": "Ignite begins with the physical kindling of fire, extends to a fuel catching fire on its own, then to feelings and conflicts that flare up, and finally to the controlled burning inside an engine.",
+      "cn": "ignite 从物理上的「点火」出发，延伸到燃料自行着火，再扩展到突然燃起的情感与冲突，最后落到发动机内受控的燃烧。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: a match head scratching a spark that starts a fire.",
+        "cn": "核心意象：火柴头擦出一颗火星，火就烧起来了。"
+      },
+      "chain": [
+        "IGNIS FIRE",
+        "SET ON FIRE",
+        "CATCH FIRE",
+        "FLARE OF FEELING",
+        "OUTBREAK OF CONFLICT",
+        "FUEL BURNS IN ENGINE"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "The literal sense of lighting a fire is the everyday core.",
+          "cn": "字面上的「点火」是日常使用的核心义。"
+        },
+        {
+          "senses": "02",
+          "en": "The same event seen from the fuel side becomes catching fire.",
+          "cn": "同一件事从燃料角度看，就成了「着火」。"
+        },
+        {
+          "senses": "03 · 04",
+          "en": "Feelings and conflicts share the flare-up image of a flame spreading.",
+          "cn": "情感与冲突共享「火苗窜起」的画面。"
+        },
+        {
+          "senses": "05",
+          "en": "Engines copy the fire-starting sense on a small controlled scale.",
+          "cn": "发动机把点火义缩小到受控的尺度上使用。"
+        },
+        {
+          "senses": "01 · 02 · 05",
+          "en": "All three describe the precise moment when burning begins.",
+          "cn": "三个义项都在描述燃烧开始的那一瞬间。"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Ignite keeps the Latin fire root ign- at its centre, with the English family ignition, igniter, and ignitable around it.",
+        "cn": "ignite 以拉丁语的火根 ign- 为核心，周围是英语词族 ignition、igniter 与 ignitable。"
+      },
+      "latinIntro": {
+        "en": "In Latin, ignis is fire, igneus is fiery, and ignire is the verb to set on fire. Its participle ignitum shaped the English verb.",
+        "cn": "拉丁语中 ignis 是火，igneus 是「火一样的」，ignire 是动词「点火」，其分词 ignitum 影响了英语动词的形式。"
+      },
+      "items": [
+        {
+          "word": "ign-",
+          "structure": "Latin root",
+          "meaning": "fire",
+          "meaningCN": "火",
+          "example": "The root ign- carries the idea of fire.",
+          "exampleCN": "词根 ign- 承载「火」的意思。"
+        },
+        {
+          "word": "ignis",
+          "structure": "Latin noun",
+          "meaning": "fire",
+          "meaningCN": "火",
+          "example": "Ignis is the noun behind the whole family.",
+          "exampleCN": "ignis 是整组词背后的名词。"
+        },
+        {
+          "word": "ignire",
+          "structure": "Late Latin verb",
+          "meaning": "to set on fire",
+          "meaningCN": "点火；使燃烧",
+          "example": "Ignire gives the verb meaning.",
+          "exampleCN": "ignire 提供了动词义。"
+        },
+        {
+          "word": "ignitum",
+          "structure": "Latin participle",
+          "meaning": "set on fire",
+          "meaningCN": "被点着的",
+          "example": "Ignitum is the participle that English borrowed.",
+          "exampleCN": "ignitum 是英语借入的分词形式。"
+        },
+        {
+          "word": "ignition",
+          "structure": "English noun -ion",
+          "meaning": "the act of igniting",
+          "meaningCN": "点火；点火装置",
+          "example": "The suffix -ion turns the verb into ignition.",
+          "exampleCN": "后缀 -ion 把动词变成名词 ignition。"
+        },
+        {
+          "word": "-able",
+          "structure": "English suffix",
+          "meaning": "able to be",
+          "meaningCN": "能被……的",
+          "example": "The suffix -able forms ignitable.",
+          "exampleCN": "后缀 -able 构成 ignitable。"
+        },
+        {
+          "word": "-er",
+          "structure": "English suffix",
+          "meaning": "a person or thing that does",
+          "meaningCN": "做某事的工具或人",
+          "example": "The suffix -er forms igniter.",
+          "exampleCN": "后缀 -er 构成 igniter。"
+        },
+        {
+          "word": "reignite",
+          "structure": "re- + ignite",
+          "meaning": "to ignite again",
+          "meaningCN": "重新点燃；重新激起",
+          "example": "The prefix re- gives reignite.",
+          "exampleCN": "前缀 re- 构成 reignite。"
+        },
+        {
+          "word": "igneous",
+          "structure": "Latin igneus + -ous",
+          "meaning": "formed by fire, as of rock",
+          "meaningCN": "火成的（指岩石）",
+          "example": "Igneous rock cooled from molten material.",
+          "exampleCN": "火成岩由熔融物质冷却而成。"
+        },
+        {
+          "word": "ignite",
+          "structure": "English verb",
+          "meaning": "to set on fire",
+          "meaningCN": "点燃；激起",
+          "example": "Ignite keeps the burning sense at its centre.",
+          "exampleCN": "ignite 把「燃烧」的意味留在核心。"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "ignis",
+          "structure": "Latin noun",
+          "meaning": "fire",
+          "meaningCN": "火"
+        },
+        {
+          "word": "igneus",
+          "structure": "Latin adjective",
+          "meaning": "fiery",
+          "meaningCN": "火一样的；火热的"
+        },
+        {
+          "word": "ignire",
+          "structure": "Late Latin verb",
+          "meaning": "to set on fire",
+          "meaningCN": "点火"
+        }
+      ]
+    }
+  },
+  {
+    "word": "ignominy",
+    "ipa_uk": "/ˈɪɡnəmɪni/",
+    "ipa_us": "/ˈɪɡnəmɪni/",
+    "definition_zh": "耻辱；不名誉；公开的羞辱；可耻的行为",
+    "definition_en": "deep public shame that comes from wrongdoing or defeat, or something that brings such shame",
+    "core_image": "人被剥去姓名，当众站在那里，所有人都不认识他、也不愿认他",
+    "scene": "将军丢了城池，又被逐出军籍，余生都在耻辱中度过。Stripped of his rank and name, the general lived the rest of his life in ignominy.",
+    "sceneCN": "这里 ignominy 是「耻辱、不名誉」（第 1 个义项：由过错或失败带来的深切公开羞辱）；句意：被剥夺军衔和姓名之后，这位将军余生都活在耻辱之中。",
+    "pos": [
+      {
+        "tag": "n.",
+        "zh": "耻辱；不名誉；公开羞辱；可耻行为"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "live in ignominy",
+        "zh": "在耻辱中生活"
+      },
+      {
+        "phrase": "die in ignominy",
+        "zh": "在耻辱中死去"
+      },
+      {
+        "phrase": "end in ignominy",
+        "zh": "以耻辱收场"
+      },
+      {
+        "phrase": "public ignominy",
+        "zh": "公开的耻辱"
+      },
+      {
+        "phrase": "suffer ignominy",
+        "zh": "蒙羞；遭受羞辱"
+      },
+      {
+        "phrase": "consign someone to ignominy",
+        "zh": "使某人蒙受耻辱"
+      }
+    ],
+    "forms": [
+      {
+        "label": "复数",
+        "form": "ignominies"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "ignominious",
+        "pos": "adj.",
+        "zh": "由名词 ignominy 加后缀 -ious 构成，义为「可耻的；不光彩的」"
+      },
+      {
+        "word": "ignominiously",
+        "pos": "adv.",
+        "zh": "由形容词 ignominious 加后缀 -ly 构成，义为「可耻地；丢脸地」"
+      },
+      {
+        "word": "ignoble",
+        "pos": "adj.",
+        "zh": "由否定前缀 in-（不）+ nobilis（显赫的）构成，义为「卑劣的；不光彩的」，与 ignominy 共享否定前缀"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "Deep public shame",
+        "titleCN": "耻辱；不名誉",
+        "definition": "a state of deep shame caused by wrongdoing or great failure and felt before other people",
+        "definitionCN": "因过错或重大失败而在众人面前感到的深切羞耻",
+        "example": "The minister resigned in disgrace and lived the rest of his life in ignominy.",
+        "exampleCN": "那位部长耻辱地辞职，余生都在不名誉中度过。",
+        "why": "Latin in- means not and nomen means name, so ignominy is literally a loss of good name, and a damaged name is what shame feels like.",
+        "whyCN": "拉丁语中 in- 表「不」、nomen 表「名字」，ignominy 字面就是「失去好名声」，而名声受损正是耻辱的切身感受。"
+      },
+      {
+        "no": "02",
+        "title": "A shameful act or outcome",
+        "titleCN": "可耻的行为；丢脸的事",
+        "definition": "an action or result that deserves contempt and brings shame to those involved",
+        "definitionCN": "值得鄙视、给当事人带来羞耻的行为或结果",
+        "example": "Destroying the letters was the greatest ignominy of that winter.",
+        "exampleCN": "烧掉那些信件是那个冬天最丢脸的一件事。",
+        "why": "If a lost name is the image, the thing that costs a person their name can itself be called an ignominy.",
+        "whyCN": "既然画面是「丢掉名声」，那么让人丢掉名声的那件事本身也可以叫 ignominy，由状态义转成事件义。"
+      },
+      {
+        "no": "03",
+        "title": "Defeat that strips honour",
+        "titleCN": "屈辱的失败",
+        "definition": "a defeat so total that the losers are treated with contempt",
+        "definitionCN": "彻底到使败者被人轻视的失败",
+        "example": "The army retreated in ignominy after the siege collapsed.",
+        "exampleCN": "围城瓦解之后，军队屈辱地撤退了。",
+        "why": "A defeat removes the honour that a good name stands for, so losing badly is experienced as a loss of name.",
+        "whyCN": "战败会剥夺好名声所代表的荣誉，所以惨败被体验成「丢了名字」，这就是屈辱的失败这一义项。"
+      },
+      {
+        "no": "04",
+        "title": "Rebuke or punishment that shames",
+        "titleCN": "使当众蒙羞的责罚",
+        "definition": "a rebuke or penalty whose main point is to make the person appear contemptible",
+        "definitionCN": "以使人显得可鄙为主要目的的斥责或处罚",
+        "example": "He was dismissed before the whole staff, an ignominy he never forgot.",
+        "exampleCN": "他当着一整班员工的面被解职，这种当众羞辱他一辈子都忘不了。",
+        "why": "The name is removed in front of witnesses, so the word also names the public act that performs the removal.",
+        "whyCN": "名字是在众人面前被摘掉的，所以这个词也指「当众摘掉名字」的那个动作，即羞辱性的责罚。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Ignominy comes through Old French and Latin from in-, not, plus nomen, name: literally a loss of name, hence dishonour.",
+        "cn": "ignominy 经由古法语与拉丁语而来，由 in-（不）+ nomen（名字）构成，字面意思是「失去名字」，引申为「不名誉」。"
+      },
+      "items": [
+        {
+          "era": "LATIN",
+          "en": "Nomen means name, and the privative prefix in- means not.",
+          "cn": "nomen 意为「名字」，否定的前缀 in- 表示「不」。"
+        },
+        {
+          "era": "LATIN",
+          "en": "Ignominia means loss of name, disgrace, or dishonour.",
+          "cn": "ignominia 意为「失去名字、蒙羞、不名誉」。"
+        },
+        {
+          "era": "OLD FRENCH",
+          "en": "Ignominie keeps the Latin form in medieval French and passes it to English.",
+          "cn": "中世纪法语保留 ignominie 这一形式，并把它传给英语。"
+        },
+        {
+          "era": "MIDDLE ENGLISH, 16TH C.",
+          "en": "The noun enters English as ignominy, naming public disgrace.",
+          "cn": "十六世纪前后 ignominy 进入英语，表示公开的耻辱。"
+        },
+        {
+          "era": "ENGLISH, 17TH C.",
+          "en": "The adjective ignominious grows out of the noun and is now the commoner form.",
+          "cn": "十七世纪由名词派生出形容词 ignominious，如今它的使用频率更高。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "Today ignominy is a literary and journalistic word, often used for political or military downfall.",
+          "cn": "现代英语中 ignominy 是文学与新闻用词，常用于政治或军事上的垮台。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "Ignominy is a formal noun for lost name and public shame; its look-alikes share the Latin name root, while its near meanings range from everyday shame to dishonour.",
+        "cn": "ignominy 是表示「失去名声、公开蒙羞」的正式名词；形近词共享拉丁语「名字」词根，近义词则从日常的羞耻到名誉上的失格都有。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "ignominious",
+              "ipa": "/ˌɪɡnəˈmɪniəs/",
+              "tag": "same root",
+              "definition": "deserving shame and contempt",
+              "definitionCN": "可耻的；不光彩的（同根形容词）"
+            },
+            {
+              "word": "ignoble",
+              "ipa": "/ɪɡˈnəʊbl/",
+              "tag": "shared prefix",
+              "definition": "not honourable, of low character",
+              "definitionCN": "卑劣的；不光彩的（与 ignominy 共享否定前缀 in-）"
+            },
+            {
+              "word": "nominal",
+              "ipa": "/ˈnɒmɪnl/",
+              "tag": "name root",
+              "definition": "existing in name only",
+              "definitionCN": "名义上的（同含拉丁语「名字」词根 nomen，但与 ignominy 只是同根）"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "disgrace",
+              "ipa": "/dɪsˈɡreɪs/",
+              "tag": "near meaning",
+              "definition": "the loss of respect from other people",
+              "definitionCN": "丢脸；失宠"
+            },
+            {
+              "word": "shame",
+              "ipa": "/ʃeɪm/",
+              "tag": "near meaning",
+              "definition": "a painful feeling of having done wrong",
+              "definitionCN": "羞耻；惭愧"
+            },
+            {
+              "word": "dishonour",
+              "ipa": "/dɪsˈɒnə/",
+              "tag": "near meaning",
+              "definition": "a loss of honour or good reputation",
+              "definitionCN": "名誉扫地；侮辱"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Build ignominy from its two Latin parts: in-, not, and nomen, name, plus the English family ignominious, ignominiously, and ignoble.",
+        "cn": "用两个拉丁语部件记住 ignominy：in-（不）+ nomen（名字），再加上英语词族 ignominious、ignominiously、ignoble。"
+      },
+      "normal": [
+        {
+          "en": "Latin nomen, name, hides in the middle of ignominy.",
+          "cn": "拉丁语 nomen（名字）藏在 ignominy 中间。"
+        },
+        {
+          "en": "The prefix in- denies it: no name, no good reputation.",
+          "cn": "前缀 in- 表示否定：没有名字，就没有好名声。"
+        },
+        {
+          "en": "The adjective is ignominious and the adverb ignominiously, both commoner than the noun today.",
+          "cn": "形容词是 ignominious，副词是 ignominiously，如今都比名词更常用。"
+        },
+        {
+          "en": "The noun takes prepositions of state and journey: in ignominy, end in ignominy, retreat in ignominy.",
+          "cn": "这个名词常跟状态与走向的搭配：in ignominy、end in ignominy、retreat in ignominy。"
+        },
+        {
+          "en": "Compare disgrace: disgrace is everyday, ignominy is formal and marked as literary.",
+          "cn": "对比 disgrace：disgrace 更日常，ignominy 正式，带有文学色彩。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "See a name being rubbed off a brass plate until only a blank mark is left.",
+          "cn": "想象一个名字从铜牌上被磨掉，最后只剩一块空白。"
+        },
+        {
+          "en": "See a crowd turning its back on one person standing alone in the square.",
+          "cn": "想象广场上只剩一个人站着，人群纷纷转过身去。"
+        },
+        {
+          "en": "See a defeated flag folded without ceremony and thrown into a box.",
+          "cn": "想象一面战败的旗子没有仪式地被叠起，扔进箱子里。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "The scandal brought years of ignominy to the family.",
+        "cn": "那桩丑闻让这个家族多年蒙受耻辱。"
+      },
+      {
+        "en": "He preferred exile to the ignominy of a public trial.",
+        "cn": "他宁愿流亡，也不愿承受公开审判带来的羞辱。"
+      },
+      {
+        "en": "The company ended its most ambitious project in ignominy.",
+        "cn": "这家公司最宏大的项目以耻辱收场。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「一个糯米泥」——被人一个糯米团子似的揉捏、糊在脸上，当众丢尽脸面；这只是谐音联想，与词源无关。",
+      "word": "ignominy"
+    },
+    "root": "拉丁语 in-（不）+ nomen（名字）→ ignominia（失去名字；耻辱）→ 古法语 ignominie → 英语 ignominy，核心义「失去好名声」。",
+    "sensesIntro": {
+      "en": "Ignominy starts as the state of having lost a good name, widens to the act or result that costs someone that name, and then to humiliating defeat and to punishment that shames in public.",
+      "cn": "ignominy 起初指「失去好名声」的状态，扩展到使人失去名声的行为或结果，再进一步指屈辱的失败和让人当众蒙羞的责罚。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: a person standing before everyone with the name removed.",
+        "cn": "核心意象：一个人当着众人的面被抹去了名字。"
+      },
+      "chain": [
+        "NOMEN NAME",
+        "NOT A NAME",
+        "LOST GOOD NAME",
+        "PUBLIC SHAME",
+        "HUMILIATING DEFEAT",
+        "PUBLIC REBUKE"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "The state of deep public shame is the central sense.",
+          "cn": "深切的公开羞耻是核心义项。"
+        },
+        {
+          "senses": "02",
+          "en": "The shameful act or result is the event sense.",
+          "cn": "可耻的行为或结果是事件义项。"
+        },
+        {
+          "senses": "03",
+          "en": "A defeat that strips honour extends the lost-name image to battle and sport.",
+          "cn": "剥夺荣誉的失败把「丢了名字」的画面扩展到战场与赛场。"
+        },
+        {
+          "senses": "04",
+          "en": "A shaming rebuke is the active, performed sense.",
+          "cn": "羞辱性的斥责是「主动施加」的义项。"
+        },
+        {
+          "senses": "01 · 02 · 03",
+          "en": "All three present a person losing the good name others used to know.",
+          "cn": "三个义项都呈现一个人失去别人熟悉的好名声。"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Ignominy is built from the Latin negating prefix in- plus the noun nomen, with English ignominious and ignoble keeping the same shape.",
+        "cn": "ignominy 由拉丁语否定前缀 in- 加名词 nomen 构成，英语的 ignominious、ignoble 保留了同样的结构。"
+      },
+      "latinIntro": {
+        "en": "In Latin, nomen is name and in- or ig- before n negates it, giving ignominia, a name taken away and so dishonour.",
+        "cn": "拉丁语中 nomen 是「名字」，in- 在 n 前写作 ig- 表示否定，合成 ignominia，即「名字被拿走」，也就是不名誉。"
+      },
+      "items": [
+        {
+          "word": "in-",
+          "structure": "Latin prefix",
+          "meaning": "not",
+          "meaningCN": "不；非",
+          "example": "The prefix in- negates the noun after it.",
+          "exampleCN": "前缀 in- 否定后面的名词。"
+        },
+        {
+          "word": "ign-",
+          "structure": "Latin prefix form",
+          "meaning": "not, before n",
+          "meaningCN": "在 n 前的否定前缀形式",
+          "example": "The prefix takes the form ign- before nomen.",
+          "exampleCN": "这个前缀在 nomen 前写作 ign-。"
+        },
+        {
+          "word": "nomen",
+          "structure": "Latin noun",
+          "meaning": "name",
+          "meaningCN": "名字；名称",
+          "example": "Nomen supplies the meaning of name.",
+          "exampleCN": "nomen 提供「名字」的词义。"
+        },
+        {
+          "word": "ignominia",
+          "structure": "Latin noun",
+          "meaning": "loss of name, disgrace",
+          "meaningCN": "失去名字；耻辱",
+          "example": "Ignominia is the direct source.",
+          "exampleCN": "ignominia 是直接来源。"
+        },
+        {
+          "word": "-y",
+          "structure": "English suffix",
+          "meaning": "forms abstract nouns",
+          "meaningCN": "构成抽象名词的词尾",
+          "example": "The suffix -y forms the English noun ignominy.",
+          "exampleCN": "词尾 -y 构成英语名词 ignominy。"
+        },
+        {
+          "word": "-ious",
+          "structure": "English suffix",
+          "meaning": "full of, having the quality of",
+          "meaningCN": "充满……性质的",
+          "example": "The suffix -ious forms ignominious.",
+          "exampleCN": "后缀 -ious 构成 ignominious。"
+        },
+        {
+          "word": "-ly",
+          "structure": "English suffix",
+          "meaning": "in the manner of",
+          "meaningCN": "以……方式",
+          "example": "The suffix -ly forms ignominiously.",
+          "exampleCN": "后缀 -ly 构成 ignominiously。"
+        },
+        {
+          "word": "-ies",
+          "structure": "English plural ending",
+          "meaning": "plural in -y words",
+          "meaningCN": "以 y 结尾名词的复数词尾",
+          "example": "The plural ending gives ignominies.",
+          "exampleCN": "复数词尾给出 ignominies。"
+        },
+        {
+          "word": "ignoble",
+          "structure": "in- + Late Latin nobilis",
+          "meaning": "not noble, base",
+          "meaningCN": "不光彩的；卑劣的",
+          "example": "Ignoble uses the same negating prefix.",
+          "exampleCN": "ignoble 使用了同一个否定前缀。"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "nomen",
+          "structure": "Latin noun",
+          "meaning": "name",
+          "meaningCN": "名字"
+        },
+        {
+          "word": "ignominia",
+          "structure": "Latin noun",
+          "meaning": "disgrace",
+          "meaningCN": "耻辱；不名誉"
+        },
+        {
+          "word": "ignominiosus",
+          "structure": "Latin adjective",
+          "meaning": "disgraceful",
+          "meaningCN": "可耻的"
+        }
+      ]
+    }
+  },
+  {
+    "word": "illegible",
+    "ipa_uk": "/ɪˈledʒəbl/",
+    "ipa_us": "/ɪˈledʒəbl/",
+    "definition_zh": "难以辨认的；字迹潦草的；印刷模糊的",
+    "definition_en": "too unclear to be read, because the handwriting is messy or the letters are faint or damaged",
+    "core_image": "纸上密密麻麻的笔画挤成一团，眼睛知道那是字，却怎么也读不出来",
+    "scene": "老医生开的处方字迹潦草，药剂师盯着看了半天也读不出来。The pharmacists stared at the prescription, but the handwriting was illegible.",
+    "sceneCN": "这里 illegible 是「难以辨认的」（第 1 个义项：字迹太乱或字母太淡，读不出来）；句意：药剂师盯着处方看，可那字迹根本认不出。",
+    "pos": [
+      {
+        "tag": "adj.",
+        "zh": "难以辨认的；字迹潦草的；模糊不清的"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "illegible handwriting",
+        "zh": "难以辨认的字迹"
+      },
+      {
+        "phrase": "an illegible signature",
+        "zh": "难以辨认的签名"
+      },
+      {
+        "phrase": "almost illegible",
+        "zh": "几乎认不出的"
+      },
+      {
+        "phrase": "illegible in places",
+        "zh": "有些地方认不出来"
+      },
+      {
+        "phrase": "the print is illegible",
+        "zh": "印刷模糊难认"
+      }
+    ],
+    "forms": [
+      {
+        "label": "比较级",
+        "form": "more illegible"
+      },
+      {
+        "label": "最高级",
+        "form": "most illegible"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "illegibly",
+        "pos": "adv.",
+        "zh": "由形容词 illegible 加副词后缀 -ly 构成，义为「难以辨认地；潦草地」"
+      },
+      {
+        "word": "illegibility",
+        "pos": "n.",
+        "zh": "由形容词加名词后缀 -ity 构成，义为「难以辨认；字迹不清」"
+      },
+      {
+        "word": "legible",
+        "pos": "adj.",
+        "zh": "去掉否定前缀 il- 后的肯定形式，义为「清晰易读的」"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "Handwriting that cannot be read",
+        "titleCN": "字迹难辨；写得潦草",
+        "definition": "of handwriting, too untidy or unclear for the letters to be recognised",
+        "definitionCN": "手写字太乱或太模糊，辨认不出字母",
+        "example": "His notes were so illegible that nobody could copy them.",
+        "exampleCN": "他的笔记太难认，没人能抄。",
+        "why": "Latin legere means to read, and the negative prefix makes the word say not readable, with the core image of strokes clotted together.",
+        "whyCN": "拉丁语 legere 意为「读」，否定前缀使这个词意为「读不出来」，正对应笔画挤成一团的核心画面。"
+      },
+      {
+        "no": "02",
+        "title": "Print too faint or damaged to read",
+        "titleCN": "印刷或书写模糊难认",
+        "definition": "of printed or written text, faded, smudged, or damaged so that the words cannot be made out",
+        "definitionCN": "印刷或写下的文字褪色、污损或残缺，无法辨认",
+        "example": "The labels on the old jars had faded until they were illegible.",
+        "exampleCN": "旧罐子上的标签褪色得几乎认不出来了。",
+        "why": "The same unreadable state can come from outside the hand, through fading ink, water damage, or a faint photocopy.",
+        "whyCN": "同样的「读不出」状态也可能来自字迹之外，比如墨色褪去、受潮或被复印得太淡，于是这个词也用于印刷与物品标识。"
+      },
+      {
+        "no": "03",
+        "title": "A signature or written mark no one can identify",
+        "titleCN": "无法辨认的签名",
+        "definition": "of a signature or set of letters, written so loosely that the name or word cannot be identified at all",
+        "definitionCN": "签名或字串写得过于随意，根本认不出是谁的名字或哪个词",
+        "example": "An illegible signature ran along the bottom of the contract.",
+        "exampleCN": "合同底部的一个签名龙飞凤舞，认不出是谁。",
+        "why": "A signature loses its purpose when it cannot be read as a name, which is why the word is so often applied to them.",
+        "whyCN": "签名一旦读不出名字就失去了作用，所以这个词经常被用在签名上，成为常见义项。"
+      },
+      {
+        "no": "04",
+        "title": "In law, not clear enough to be official",
+        "titleCN": "（法律文件）字迹不清",
+        "definition": "in legal and formal writing, described of a document or clause that cannot be read clearly enough to be relied on",
+        "definitionCN": "在法律与正式文书中，文件或条款字迹不清，无法据此执行",
+        "example": "The court set aside the will because one crucial page was illegible.",
+        "exampleCN": "因为关键的一页看不清，法院撤销了这份遗嘱。",
+        "why": "When a document controls money or rights, a text that cannot be read becomes a formal defect, so the word takes on a legal use.",
+        "whyCN": "当文件决定财产与权利时，「读不出」就变成了形式上的瑕疵，于是这个词有了法律上的专门用法。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Illegible is built from Latin legere, to read, with the negative prefix in-, which changes to il- before l.",
+        "cn": "illegible 由拉丁语 legere（读）加否定前缀 in- 构成，in- 在 l 前写作 il-。"
+      },
+      "items": [
+        {
+          "era": "LATIN",
+          "en": "Legere means to read or gather, and legibilis means that can be read.",
+          "cn": "legere 意为「读、采集」，legibilis 意为「可读的」。"
+        },
+        {
+          "era": "LATIN, LATE",
+          "en": "The negated form illegibilis marks a text that cannot be read.",
+          "cn": "否定形式 illegibilis 表示「读不出来的文字」。"
+        },
+        {
+          "era": "MIDDLE ENGLISH",
+          "en": "The positive legible arrives first, from Old French and Latin, as a word for what can be read.",
+          "cn": "先进入英语的是肯定形式 legible，来自古法语与拉丁语，表示「能读的」。"
+        },
+        {
+          "era": "ENGLISH, 17TH C.",
+          "en": "The negated illegible appears and spreads as printing expands.",
+          "cn": "随着印刷业的发展，否定形式 illegible 在十七世纪出现并流行。"
+        },
+        {
+          "era": "ENGLISH, 19TH C.",
+          "en": "Illegible is applied to handwriting, stamps, and legal documents.",
+          "cn": "十九世纪把 illegible 用于手写、印章和法律文书。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "Digital use adds illegible scans and illegible screenshots.",
+          "cn": "现代英语中又出现 illegible scans、illegible screenshots 等数字语境用法。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "Illegible sits beside its positive pair legible and the suffix -ible, and near meaning words such as unreadable and scribbled.",
+        "cn": "illegible 与肯定形式 legible 及后缀 -ible 成对，近义一侧则有 unreadable、scribbled 等词。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "legible",
+              "ipa": "/ˈledʒəbl/",
+              "tag": "opposite",
+              "definition": "clear enough to read easily",
+              "definitionCN": "清晰易读的（illegible 的肯定形式）"
+            },
+            {
+              "word": "illegal",
+              "ipa": "/ɪˈliːɡl/",
+              "tag": "shared prefix",
+              "definition": "not allowed by law",
+              "definitionCN": "非法的（同用 il- 否定前缀，但词根是「法律」lex，与「读」无关）"
+            },
+            {
+              "word": "eligible",
+              "ipa": "/ˈelɪdʒəbl/",
+              "tag": "spelling",
+              "definition": "allowed or suitable to be chosen",
+              "definitionCN": "有资格的；合适的（只是拼写相近，词源来自「挑选」，与 illegible 不同）"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "unreadable",
+              "ipa": "/ʌnˈriːdəbl/",
+              "tag": "near meaning",
+              "definition": "impossible or unpleasant to read",
+              "definitionCN": "读不出的；读起来无趣的"
+            },
+            {
+              "word": "indecipherable",
+              "ipa": "/ˌɪndɪˈsaɪfərəbl/",
+              "tag": "near meaning",
+              "definition": "impossible to understand or decode",
+              "definitionCN": "无法解读的；破译不了的"
+            },
+            {
+              "word": "scrawled",
+              "ipa": "/skrɔːld/",
+              "tag": "near meaning",
+              "definition": "written quickly and untidily",
+              "definitionCN": "潦草写下的"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Build illegible from Latin legere, to read, with the negative prefix il- and the suffix -ible, and remember it against legible.",
+        "cn": "用拉丁语 legere（读）加否定前缀 il- 与后缀 -ible 构成 illegible，并与 legible 对照记忆。"
+      },
+      "normal": [
+        {
+          "en": "Latin legere, to read, is the same root as legend and lecture.",
+          "cn": "拉丁语 legere（读）也是 legend 与 lecture 的词根。"
+        },
+        {
+          "en": "The prefix in- becomes il- before l to avoid awkward doubling.",
+          "cn": "前缀 in- 在 l 前变成 il-，以免两个 l 连在一起拗口。"
+        },
+        {
+          "en": "Drop the prefix and the word flips: legible is clear, illegible is hopeless.",
+          "cn": "去掉前缀意思就翻转：legible 清晰可读，illegible 根本读不出。"
+        },
+        {
+          "en": "The suffix -ible marks a possibility, so illegible means it cannot be read.",
+          "cn": "后缀 -ible 表示「能够」，因此 illegible 意为「读不出来」。"
+        },
+        {
+          "en": "The noun is illegibility and the adverb is illegibly when describing notes and labels.",
+          "cn": "名词是 illegibility，副词是 illegibly，用来描述笔记和标签。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "See a doctor scribbling a prescription while a pharmacist squints at it.",
+          "cn": "想象医生潦草地开着处方，药剂师眯着眼使劲看。"
+        },
+        {
+          "en": "See old labels under a dusty jar, the letters eaten away by sun.",
+          "cn": "想象落满灰尘的罐子下压着旧标签，字母被日晒吃掉了。"
+        },
+        {
+          "en": "See a signature that looks like a single long loop.",
+          "cn": "想象一个签名长得像一条长长的圈套，看不出是谁。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "The letter was so illegible that we had to guess half the words.",
+        "cn": "那封信太潦草，有一半的词只能靠猜。"
+      },
+      {
+        "en": "Please write clearly, as the scan is often illegible.",
+        "cn": "请写清楚些，因为扫描件常常看不清。"
+      },
+      {
+        "en": "Time had made the ink faint and the names almost illegible.",
+        "cn": "时间让墨迹变淡，那些名字几乎认不出来了。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「饿了识不出」——饿得眼花，字都认不出来了；这只是谐音联想，与词源无关。",
+      "word": "illegible"
+    },
+    "root": "拉丁语 legere（读）→ legibilis（可读的）→ 否定形式 in- + legibilis，in- 在 l 前写作 il- → 英语 illegible，核心义「读不出来」。",
+    "sensesIntro": {
+      "en": "Illegible begins with messy handwriting, extends to any faint or damaged print, then to signatures that hide a name, and finally to documents whose unclear text has legal consequences.",
+      "cn": "illegible 从潦草的手写出发，扩展到一切模糊或破损的印刷文字，再指认不出名字的签名，最后落到文字不清会产生法律后果的文书。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: strokes clotted into a mass that the eye cannot turn into words.",
+        "cn": "核心意象：笔画挤成一团，眼睛无法把它们读成文字。"
+      },
+      "chain": [
+        "LEGERE TO READ",
+        "ABLE TO BE READ",
+        "NOT READABLE",
+        "SCRAWLED HAND",
+        "FADED PRINT",
+        "UNTRUSTWORTHY TEXT"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "Messy handwriting is the everyday sense.",
+          "cn": "潦草的手写是日常义项。"
+        },
+        {
+          "senses": "02",
+          "en": "Faint or damaged print broadens the cause of being unreadable.",
+          "cn": "模糊或破损的印刷让「读不出」的原因更广。"
+        },
+        {
+          "senses": "03",
+          "en": "An unreadable signature is a name that cannot be recovered.",
+          "cn": "认不出的签名就是找不回来的名字。"
+        },
+        {
+          "senses": "04",
+          "en": "In law, unclear text turns into a formal problem.",
+          "cn": "在法律里，文字不清会变成形式上的问题。"
+        },
+        {
+          "senses": "01 · 02 · 03",
+          "en": "All three describe letters the eye cannot decode.",
+          "cn": "三个义项都描述眼睛无法辨认的字母。"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Illegible joins the negative prefix il- to the Latin reading root leg- and the suffix -ible, with legible, illegibly, and illegibility around it.",
+        "cn": "illegible 由否定前缀 il-、拉丁语「读」词根 leg- 与后缀 -ible 组成，周围有 legible、illegibly、illegibility。"
+      },
+      "latinIntro": {
+        "en": "Latin legere means to read, legibilis means readable, and the negated illegibilis means that cannot be read.",
+        "cn": "拉丁语 legere 意为「读」，legibilis 意为「可读的」，否定形式 illegibilis 意为「读不出来的」。"
+      },
+      "items": [
+        {
+          "word": "il-",
+          "structure": "Latin prefix (in- before l)",
+          "meaning": "not",
+          "meaningCN": "不；非",
+          "example": "The prefix il- negates the word that follows.",
+          "exampleCN": "前缀 il- 否定后面的词。"
+        },
+        {
+          "word": "leg-",
+          "structure": "Latin root",
+          "meaning": "to read, to gather",
+          "meaningCN": "读；采集",
+          "example": "The root leg- carries the act of reading.",
+          "exampleCN": "词根 leg- 承载「读」的动作。"
+        },
+        {
+          "word": "legere",
+          "structure": "Latin verb",
+          "meaning": "to read",
+          "meaningCN": "读",
+          "example": "Legere is the verb behind the family.",
+          "exampleCN": "legere 是整组词背后的动词。"
+        },
+        {
+          "word": "-ible",
+          "structure": "Latin-derived suffix",
+          "meaning": "able to be",
+          "meaningCN": "能被……的",
+          "example": "The suffix -ible forms legible and illegible.",
+          "exampleCN": "后缀 -ible 构成 legible 与 illegible。"
+        },
+        {
+          "word": "legible",
+          "structure": "English adjective",
+          "meaning": "clear enough to read",
+          "meaningCN": "清晰可读的",
+          "example": "Legible is the positive partner of illegible.",
+          "exampleCN": "legible 是 illegible 的肯定对应词。"
+        },
+        {
+          "word": "illegibly",
+          "structure": "English adverb -ly",
+          "meaning": "in an unreadable way",
+          "meaningCN": "难以辨认地",
+          "example": "The suffix -ly forms illegibly.",
+          "exampleCN": "后缀 -ly 构成 illegibly。"
+        },
+        {
+          "word": "-ity",
+          "structure": "English suffix",
+          "meaning": "state or quality",
+          "meaningCN": "状态或性质",
+          "example": "The suffix -ity forms illegibility.",
+          "exampleCN": "后缀 -ity 构成 illegibility。"
+        },
+        {
+          "word": "legend",
+          "structure": "Latin legenda",
+          "meaning": "what is to be read",
+          "meaningCN": "本应被读的东西；传说",
+          "example": "Legend shares the same reading root.",
+          "exampleCN": "legend 共享同一个「读」词根。"
+        },
+        {
+          "word": "illegality",
+          "structure": "il- + legal + -ity",
+          "meaning": "the state of being against the law",
+          "meaningCN": "违法状态",
+          "example": "Illegality builds on the law root lex instead.",
+          "exampleCN": "illegality 用的是「法律」词根 lex，与「读」无关。"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "legere",
+          "structure": "Latin verb",
+          "meaning": "to read",
+          "meaningCN": "读"
+        },
+        {
+          "word": "legibilis",
+          "structure": "Latin adjective",
+          "meaning": "readable",
+          "meaningCN": "可读的"
+        },
+        {
+          "word": "illegibilis",
+          "structure": "Late Latin adjective",
+          "meaning": "unreadable",
+          "meaningCN": "不可读的"
+        }
+      ]
+    }
+  },
+  {
+    "word": "illuminate",
+    "ipa_uk": "/ɪˈluːmɪneɪt/",
+    "ipa_us": "/ɪˈluːmɪneɪt/",
+    "definition_zh": "照亮；照明；阐明；启发；(用彩灯)装饰",
+    "definition_en": "to light up a place, to make something clear, or to decorate something with lights",
+    "core_image": "昏黑的房间里有人擦亮一根火柴，墙上的形状忽然显现出来",
+    "scene": "夜里停电，走廊一片漆黑，父亲举着一盏油灯慢慢走过。The oil lamp on the sill illuminates the narrow hallway until morning.",
+    "sceneCN": "这里 illuminate 是「照亮」（第 1 个义项：给地方提供光亮）；句意：窗台上那盏油灯一直照着狭窄的走廊，直到天亮。这正是核心画面中「光一出现，黑暗里的东西便显形」的那一步。",
+    "pos": [
+      {
+        "tag": "vt.",
+        "zh": "照亮；照明"
+      },
+      {
+        "tag": "vt.",
+        "zh": "阐明；使清楚"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "illuminate a room",
+        "zh": "照亮房间"
+      },
+      {
+        "phrase": "illuminate the sky",
+        "zh": "照亮天空"
+      },
+      {
+        "phrase": "be well illuminated",
+        "zh": "照明充足"
+      },
+      {
+        "phrase": "illuminate the issue",
+        "zh": "阐明问题"
+      },
+      {
+        "phrase": "illuminate the text",
+        "zh": "讲解文本"
+      },
+      {
+        "phrase": "illuminate a building",
+        "zh": "用彩灯装饰建筑"
+      }
+    ],
+    "forms": [
+      {
+        "label": "三单",
+        "form": "illuminates"
+      },
+      {
+        "label": "过去式",
+        "form": "illuminated"
+      },
+      {
+        "label": "过去分词",
+        "form": "illuminated"
+      },
+      {
+        "label": "现在分词",
+        "form": "illuminating"
+      },
+      {
+        "label": "名词",
+        "form": "illumination"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "illumination",
+        "pos": "n.",
+        "zh": "由动词加后缀 -tion 构成，义为「照明；照明设备；启发」"
+      },
+      {
+        "word": "illuminating",
+        "pos": "adj.",
+        "zh": "由动词加后缀 -ing 构成，义为「富有启发的；照亮用的」"
+      },
+      {
+        "word": "illuminant",
+        "pos": "n.",
+        "zh": "由动词加后缀 -ant 构成，义为「光源；发光体」"
+      },
+      {
+        "word": "illuminated",
+        "pos": "adj.",
+        "zh": "由过去分词转化而来，义为「被照亮的；带彩饰插图的」"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "To give light to a place",
+        "titleCN": "照亮；照明",
+        "definition": "to supply light to a place or object so that it becomes bright",
+        "definitionCN": "向某地或某物提供光线，使其明亮",
+        "example": "Floodlights illuminate the stadium during the evening match.",
+        "exampleCN": "晚场比赛时，泛光灯照亮了整座体育场。",
+        "why": "Latin lumen means light, and the in- prefix here intensifies it, so the verb is literally to put light into something.",
+        "whyCN": "拉丁语 lumen 意为「光」，前缀 in- 在这里起加强作用，所以这个动词字面上就是「把光放进去」，照亮一个地方。"
+      },
+      {
+        "no": "02",
+        "title": "To make a subject clear",
+        "titleCN": "阐明；使明白",
+        "definition": "to explain something so that it becomes easier to understand",
+        "definitionCN": "解释某事，使其更容易被理解",
+        "example": "The new evidence illuminates why the plan failed.",
+        "exampleCN": "新证据清楚说明了计划失败的原因。",
+        "why": "Light making dark shapes visible is the same process as explanation making a problem visible to the mind.",
+        "whyCN": "光让黑暗中的形状显现，解释则让问题在头脑中显现，两者是同一个过程，所以「照亮」延伸为「阐明」。"
+      },
+      {
+        "no": "03",
+        "title": "To help someone understand",
+        "titleCN": "启发；启迪",
+        "definition": "to give someone insight, especially through a teacher, a book, or an idea",
+        "definitionCN": "尤指通过师长、书籍或某个想法给人以洞察和领悟",
+        "example": "Her lectures illuminated a whole generation of students.",
+        "exampleCN": "她的讲座启发了一整代学生。",
+        "why": "If light makes the eye able to see, the same word can describe whatever opens the mind to see clearly.",
+        "whyCN": "既然光让眼睛看得见，同一个词也可以描述让头脑看清的东西，因此「照亮」长出「启发」义。"
+      },
+      {
+        "no": "04",
+        "title": "To decorate with lights",
+        "titleCN": "用彩灯装饰",
+        "definition": "to decorate a building, street, or object with bright lights",
+        "definitionCN": "用明亮灯饰装饰建筑物、街道或物件",
+        "example": "Every winter the council illuminates the old bridge.",
+        "exampleCN": "每到冬天，市政会把那座老桥装点得灯火通明。",
+        "why": "Festival practise put many lights into one place, so the verb moved from lighting a spot to decorating with lights.",
+        "whyCN": "节庆习俗把许多灯集中到同一处，动词于是从「照亮一处」滑向「用灯装饰」。"
+      },
+      {
+        "no": "05",
+        "title": "To brighten the face or mood",
+        "titleCN": "使容光焕发；使喜悦",
+        "definition": "to make a person or feeling brighter, as if lit from within",
+        "definitionCN": "使人或情绪焕发光彩，仿佛被从内点亮",
+        "example": "Good news illuminated her tired face.",
+        "exampleCN": "好消息让她疲惫的脸上焕发光彩。",
+        "why": "A lit object looks brighter, and people use the same image for faces and moods that suddenly brighten.",
+        "whyCN": "被照亮的东西看起来更亮，人们便用同一意象形容突然变亮的脸和心情。"
+      },
+      {
+        "no": "06",
+        "title": "To produce light itself",
+        "titleCN": "发光；自身发光",
+        "definition": "to shine with light of its own, as a lamp or a screen does",
+        "definitionCN": "像灯或屏幕那样自身发出光亮",
+        "example": "The dial illuminates in the dark.",
+        "exampleCN": "表盘在黑暗中会自己发光。",
+        "why": "When the source rather than the target of light is the subject, the verb shifts from lighting up a place to shine by itself.",
+        "whyCN": "当句子的主体由「被照的地方」换成「光源」时，这个动词就从「照亮某处」变成「自身发光」。"
+      },
+      {
+        "no": "07",
+        "title": "To decorate a manuscript",
+        "titleCN": "为手抄本加彩饰",
+        "definition": "to decorate a handwritten book with gold, colours, or pictures called illuminations",
+        "definitionCN": "用手抄本彩画为手写书籍作装饰，这种彩饰称为 illumination",
+        "example": "Monks illuminated the pages with gold leaf.",
+        "exampleCN": "修士们用金箔为书页作彩饰。",
+        "why": "In historical use, bright colours and gold were laid onto the page like light, so to light up meant to add painted decoration.",
+        "whyCN": "在历史用法中，亮色与金色被点染在书页上，好像给纸面加了光，于是「加光」就是给手抄本加彩画。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Illuminate comes from Latin illuminare, to light up, built on lumen, light, and passed through Middle English as a bookish word.",
+        "cn": "illuminate 来自拉丁语 illuminare（照亮），词根是 lumen（光），经中古英语进入英语，最初是文人用词。"
+      },
+      "items": [
+        {
+          "era": "LATIN",
+          "en": "Lumen means light, and illuminare means to light up or brighten.",
+          "cn": "拉丁语 lumen 意为「光」，illuminare 意为「照亮、使明亮」。"
+        },
+        {
+          "era": "LATE LATIN",
+          "en": "Church Latin uses illuminare for divine enlightenment and for decorated manuscripts.",
+          "cn": "晚期拉丁语中，illuminare 既指神圣的「启示」，也指给手抄本加彩饰。"
+        },
+        {
+          "era": "OLD FRENCH",
+          "en": "The verb past participle illumine passes into French as a literary word.",
+          "cn": "该动词的法语形式 illumine 以文学用语的身份进入古法语。"
+        },
+        {
+          "era": "MIDDLE ENGLISH",
+          "en": "The word enters English as a learned term for lighting and for understanding.",
+          "cn": "这个词以书面语身份进入中古英语，既指照明，也指理解。"
+        },
+        {
+          "era": "ENGLISH, 16TH C.",
+          "en": "Writers borrow the full Latin verb illuminate and give it the modern spelling.",
+          "cn": "十六世纪作家借入拉丁语原形 illuminate，并定下了现代拼写。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "Illumination now covers lighting, decoration, insight, and even ancient manuscripts.",
+          "cn": "现代英语中，illumination 涵盖照明、装饰、启发，甚至古代手抄本的彩饰。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "Illuminate sits next to the Latin lumen family and to the everyday words for light and for explaining.",
+        "cn": "illuminate 与拉丁语 lumen「光」词族相邻，也与日常表示「照亮」和「解释」的词义场相通。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "illumination",
+              "ipa": "/ɪˌluːmɪˈneɪʃn/",
+              "tag": "derived noun",
+              "definition": "light, or the act of lighting something up",
+              "definitionCN": "照明；照亮；启发"
+            },
+            {
+              "word": "illuminating",
+              "ipa": "/ɪˈluːmɪneɪtɪŋ/",
+              "tag": "derived adjective",
+              "definition": "giving useful insight",
+              "definitionCN": "富有启发的"
+            },
+            {
+              "word": "luminous",
+              "ipa": "/ˈluːmɪnəs/",
+              "tag": "same root",
+              "definition": "giving off light, especially in the dark",
+              "definitionCN": "发光的；夜光的"
+            },
+            {
+              "word": "luminary",
+              "ipa": "/ˈluːmɪnəri/",
+              "tag": "same root",
+              "definition": "an expert or famous person who inspires others",
+              "definitionCN": "杰出人物；启迪他人的名人"
+            },
+            {
+              "word": "illuminant",
+              "ipa": "/ɪˈluːmɪnənt/",
+              "tag": "derived noun",
+              "definition": "the source of light that makes a scene bright",
+              "definitionCN": "光源；发光体"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "light up",
+              "ipa": "/laɪt ʌp/",
+              "tag": "phrase",
+              "definition": "to become bright or to make bright",
+              "definitionCN": "照亮；变亮"
+            },
+            {
+              "word": "brighten",
+              "ipa": "/ˈbraɪtn/",
+              "tag": "near meaning",
+              "definition": "to make lighter or happier",
+              "definitionCN": "使明亮；使快乐"
+            },
+            {
+              "word": "clarify",
+              "ipa": "/ˈklærəfaɪ/",
+              "tag": "near meaning",
+              "definition": "to make something easier to understand",
+              "definitionCN": "澄清；阐明"
+            },
+            {
+              "word": "elucidate",
+              "ipa": "/ɪˈluːsɪdeɪt/",
+              "tag": "formal",
+              "definition": "to explain an idea clearly",
+              "definitionCN": "解释；阐明"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Break illuminate into in- plus lumen, light, and you get to put light into: a room, a problem, or a face.",
+        "cn": "把 illuminate 拆成 in- 加 lumen「光」，就是「把光放进去」：放进房间、放进问题、放上脸。"
+      },
+      "normal": [
+        {
+          "en": "Latin lumen means light, so illuminate literally means to put light in.",
+          "cn": "拉丁语 lumen 意为「光」，所以 illuminate 字面就是「把光放进去」。"
+        },
+        {
+          "en": "Illuminate is not a word, and illumination is the noun.",
+          "cn": "注意拼写：正确形式是 illuminate，名词是 illumination。"
+        },
+        {
+          "en": "The adjective illuminating describes explanations that make matters clear.",
+          "cn": "形容词 illuminating 形容能把事情讲清楚的解释。"
+        },
+        {
+          "en": "Luminous and luminary share the same light root.",
+          "cn": "luminous 与 luminary 共享同一个「光」词根。"
+        },
+        {
+          "en": "The in- prefix tells you the light goes into something, and the ending -ate makes it a verb.",
+          "cn": "前缀 in- 告诉你光进入某物之中，词尾 -ate 让它成为动词。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "Picture a match being struck in a dark room and the shapes on the wall appearing.",
+          "cn": "想象在漆黑的房间里划亮一根火柴，墙上的形状随即显现。"
+        },
+        {
+          "en": "Think of a torch beam moving down a dark corridor until the door plate can be read.",
+          "cn": "想象手电光束沿暗走廊移动，直到看得清门牌。"
+        },
+        {
+          "en": "Imagine a teacher switching on a projector, and the whole lesson suddenly makes sense.",
+          "cn": "想象老师打开投影仪，整堂课忽然都说得通了。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "Candles illuminated the old chapel on the evening of the wedding.",
+        "cn": "婚礼当晚，烛光照亮了古老的礼拜堂。"
+      },
+      {
+        "en": "The report illuminates the reasons behind the falling birth rate.",
+        "cn": "这份报告阐明了出生率下降的原因。"
+      },
+      {
+        "en": "A powerful lamp illuminates the whole shelter during the night.",
+        "cn": "夜里，一盏强光灯照亮了整个庇护所。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「一路明内特」——一路明晃晃地走进去，黑暗里顿时亮堂起来；这只是读音联想，与词源无关。",
+      "word": "illuminate"
+    },
+    "root": "拉丁语 lumen「光」→ illuminare（使有光、照亮）→ 英语 illuminate，核心义「把光放进去」。同根的 luminous、luminary 如今表示「发光的」「杰出人物」。",
+    "sensesIntro": {
+      "en": "Illuminate begins with physical light in a place, then light as understanding in the mind, then light as decoration and as a brightness of face or mood.",
+      "cn": "illuminate 先指给地方带来物理的光，再指给头脑带来理解的光，最后指用灯装饰以及脸上或心情忽然变亮。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: a lamp is brought into a dark room and everything in it becomes visible.",
+        "cn": "核心意象：有人把灯拿进漆黑的房间，房间里的一切随之显形。"
+      },
+      "chain": [
+        "LIGHT",
+        "PUT LIGHT IN",
+        "BRIGHT SPACE",
+        "SEE CLEARLY",
+        "UNDERSTAND",
+        "DECORATE"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "Physical lighting is the original and most common sense.",
+          "cn": "物理意义上的照明是最原始、最常用的义项。"
+        },
+        {
+          "senses": "02 · 03",
+          "en": "Light for the mind gives explanation and inspiration.",
+          "cn": "照进头脑的光，长出阐明与启发两个义项。"
+        },
+        {
+          "senses": "04 · 07",
+          "en": "Festive and manuscript decoration is light turned into ornament.",
+          "cn": "节庆彩灯与手抄本彩饰都是把光变成装饰。"
+        },
+        {
+          "senses": "05",
+          "en": "A lit face is the physical brightness carried over to feeling.",
+          "cn": "发亮的脸是把物理的亮迁移到情绪上。"
+        },
+        {
+          "senses": "06",
+          "en": "When the lamp itself is the subject, lighting becomes shining.",
+          "cn": "句子主语变成灯本身时，「照亮」就变成了「发光」。"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Illuminate is built on Latin lumen, light, with the in- prefix and the Latin verb ending; English adds illumination, illuminating, and illuminant.",
+        "cn": "illuminate 由拉丁语 lumen「光」带着 in- 前缀和动词词尾构成；英语又在它周围造出 illumination、illuminating 与 illuminant。"
+      },
+      "latinIntro": {
+        "en": "Latin lumen is the light root, and illuminare is the verb that puts light into something.",
+        "cn": "拉丁语 lumen 是表示「光」的词根，illuminare 是「给某物加上光」的动词。"
+      },
+      "items": [
+        {
+          "word": "in-",
+          "structure": "Latin prefix",
+          "meaning": "into, or used to strengthen",
+          "meaningCN": "进入；加强语气",
+          "example": "The prefix adds the idea of light going into a place.",
+          "exampleCN": "这个前缀加上「光进入某处」的意思。"
+        },
+        {
+          "word": "lumen",
+          "structure": "Latin noun",
+          "meaning": "light",
+          "meaningCN": "光",
+          "example": "Lumen is the light root of the word family.",
+          "exampleCN": "lumen 是这个词族的「光」词根。"
+        },
+        {
+          "word": "illuminare",
+          "structure": "Latin verb",
+          "meaning": "to light up",
+          "meaningCN": "照亮；使明亮",
+          "example": "Illuminare is the direct source of the verb.",
+          "exampleCN": "illuminare 是这个词的直接来源。"
+        },
+        {
+          "word": "-ate",
+          "structure": "Latin verb ending",
+          "meaning": "to make or cause",
+          "meaningCN": "使……的动词词尾",
+          "example": "The ending -ate marks the word as a verb.",
+          "exampleCN": "词尾 -ate 表明它是一个动词。"
+        },
+        {
+          "word": "-tion",
+          "structure": "English suffix",
+          "meaning": "the act or result of",
+          "meaningCN": "表动作或结果的词尾",
+          "example": "The suffix -tion forms illumination.",
+          "exampleCN": "词尾 -tion 构成 illumination。"
+        },
+        {
+          "word": "illumination",
+          "structure": "English noun",
+          "meaning": "lighting, or insight",
+          "meaningCN": "照明；启发",
+          "example": "Illumination names both the light and the insight.",
+          "exampleCN": "illumination 既指光，也指启发。"
+        },
+        {
+          "word": "-ing",
+          "structure": "English suffix",
+          "meaning": "having a quality",
+          "meaningCN": "表性质的形容词词尾",
+          "example": "The suffix -ing forms illuminating.",
+          "exampleCN": "词尾 -ing 构成 illuminating。"
+        },
+        {
+          "word": "illuminating",
+          "structure": "English adjective",
+          "meaning": "giving useful insight",
+          "meaningCN": "富有启发的",
+          "example": "Illuminating describes a clear explanation.",
+          "exampleCN": "illuminating 形容清楚的解释。"
+        },
+        {
+          "word": "-ant",
+          "structure": "English suffix",
+          "meaning": "a person or thing that does",
+          "meaningCN": "表执行者或事物的词尾",
+          "example": "The suffix -ant forms illuminant.",
+          "exampleCN": "词尾 -ant 构成 illuminant。"
+        },
+        {
+          "word": "illuminant",
+          "structure": "English noun",
+          "meaning": "a source of light",
+          "meaningCN": "光源",
+          "example": "Illuminant names the light source itself.",
+          "exampleCN": "illuminant 指光源本身。"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "lumen",
+          "structure": "Latin noun",
+          "meaning": "light",
+          "meaningCN": "光"
+        },
+        {
+          "word": "illuminare",
+          "structure": "Latin verb",
+          "meaning": "to light up",
+          "meaningCN": "照亮"
+        },
+        {
+          "word": "illuminatio",
+          "structure": "Latin noun",
+          "meaning": "a lighting up, enlightenment",
+          "meaningCN": "照亮；启示"
+        },
+        {
+          "word": "luminare",
+          "structure": "Latin noun",
+          "meaning": "a light, a lamp",
+          "meaningCN": "灯；光源"
+        },
+        {
+          "word": "luminosus",
+          "structure": "Latin adjective",
+          "meaning": "full of light",
+          "meaningCN": "充满光的；明亮的"
+        }
+      ]
+    }
+  },
+  {
+    "word": "illusion",
+    "ipa_uk": "/ɪˈluːʒn/",
+    "ipa_us": "/ɪˈluːʒn/",
+    "definition_zh": "错觉；幻觉；假象；幻想；错误的观念",
+    "definition_en": "a false idea, or something that looks real to the eye but is not",
+    "core_image": "沙漠尽头浮动着一片湖面，走近却只剩滚烫的沙",
+    "scene": "舞台上灯光很暗，观众看见魔术师把一枚硬币悬在半空。From the back row it looked like pure illusion.",
+    "sceneCN": "这里 illusion 是「错觉、假象」（第 1 个义项：眼睛看到的东西其实并不真实）；句意：坐在后排看去，那纯粹是错觉。它和核心画面一样：眼睛笃定看到了，东西却并不在那里。",
+    "pos": [
+      {
+        "tag": "n.",
+        "zh": "错觉；幻觉；假象"
+      },
+      {
+        "tag": "n.",
+        "zh": "幻想；错误的观念"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "optical illusion",
+        "zh": "视觉错觉"
+      },
+      {
+        "phrase": "be under the illusion that",
+        "zh": "误以为"
+      },
+      {
+        "phrase": "cherish an illusion",
+        "zh": "抱有幻想"
+      },
+      {
+        "phrase": "dispel an illusion",
+        "zh": "消除幻想"
+      },
+      {
+        "phrase": "an illusion of safety",
+        "zh": "虚假的安全感"
+      },
+      {
+        "phrase": "create the illusion of space",
+        "zh": "营造出空间的错觉"
+      }
+    ],
+    "forms": [
+      {
+        "label": "复数",
+        "form": "illusions"
+      },
+      {
+        "label": "形容词",
+        "form": "illusory"
+      },
+      {
+        "label": "形容词",
+        "form": "illusive"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "illusory",
+        "pos": "adj.",
+        "zh": "源自拉丁 illusorius，义为「虚幻的；不实的」"
+      },
+      {
+        "word": "illusive",
+        "pos": "adj.",
+        "zh": "由词干加后缀 -ive 构成，义为「迷惑人的；虚幻的」"
+      },
+      {
+        "word": "illusionist",
+        "pos": "n.",
+        "zh": "由名词加后缀 -ist 构成，义为「魔术师；幻想者」"
+      },
+      {
+        "word": "disillusion",
+        "pos": "v.",
+        "zh": "由前缀 dis- 加 illusion 构成，义为「使醒悟；使不再抱幻想」"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "Something that looks real but is not",
+        "titleCN": "错觉；假象",
+        "definition": "a false impression given by the way things look or sound",
+        "definitionCN": "由事物的外观或声音造成的错误印象",
+        "example": "The mirage is a familiar illusion on hot desert roads.",
+        "exampleCN": "在炎热的沙漠公路上，海市蜃楼是一种常见的错觉。",
+        "why": "Latin ludere means to play, and in- means against, so an illusion is something the eye is played with, a picture that is not the thing.",
+        "whyCN": "拉丁语 ludere 意为「玩弄」，in- 表示「朝向」，所以 illusion 就是被「戏弄」出的画面：眼睛看到的并不是实物。"
+      },
+      {
+        "no": "02",
+        "title": "A false belief about reality",
+        "titleCN": "幻想；错误的观念",
+        "definition": "a belief that is not true, often one that a person wants to keep",
+        "definitionCN": "一种不真实的看法，往往是人们愿意继续相信的看法",
+        "example": "He was under the illusion that the money would last forever.",
+        "exampleCN": "他一直误以为这笔钱永远花不完。",
+        "why": "The same word moves from the eye to the mind: what the eye is tricked into seeing, the mind can be tricked into believing.",
+        "whyCN": "这个词从眼睛挪到头脑：眼睛会被骗着看见，头脑也会被骗着相信。"
+      },
+      {
+        "no": "03",
+        "title": "A false impression of ease or control",
+        "titleCN": "虚假的从容；假安稳",
+        "definition": "a feeling that something is easier or safer than it really is",
+        "definitionCN": "觉得某事比实际更容易或更安全的错误感觉",
+        "example": "The calm sea gave an illusion of safety.",
+        "exampleCN": "平静的海面给人安全的假象。",
+        "why": "When an outer appearance is too smooth, it hides the danger behind it, and the word names that smooth surface.",
+        "whyCN": "当外在表象过于平稳时，它会掩盖背后的危险，这个词命名的就是那层平稳的表皮。"
+      },
+      {
+        "no": "04",
+        "title": "A trick performed by a magician",
+        "titleCN": "魔术戏法",
+        "definition": "a performance in which objects seem to appear, vanish, or float",
+        "definitionCN": "让物体看起来出现、消失或漂浮的表演",
+        "example": "The magician finished with an illusion involving three glass boxes.",
+        "exampleCN": "魔术师最后表演了一个涉及三个玻璃箱的戏法。",
+        "why": "The stage artist deliberately plays with the eye, which is exactly what ludere suggests, so the trick itself takes the name.",
+        "whyCN": "舞台艺人有意「玩弄」观众的眼睛，正合 ludere 的本义，于是戏法本身也用了这个名字。"
+      },
+      {
+        "no": "05",
+        "title": "A deceptive visual pattern",
+        "titleCN": "视错觉图样",
+        "definition": "a picture designed so that the eye reports something the brain knows is wrong",
+        "definitionCN": "一种刻意设计的图样，让眼睛报出头脑明知不对的信息",
+        "example": "In the illusion two lines of equal length look unequal.",
+        "exampleCN": "在这张视错觉图里，两条一样长的线看起来却不一样长。",
+        "why": "Optical patterns make the play of the eye visible and measurable, so the trick becomes a study object.",
+        "whyCN": "光学图样让眼睛受到的戏弄变得可见、可测量，戏法因此变成了研究对象。"
+      },
+      {
+        "no": "06",
+        "title": "Something nonexistent treated as real",
+        "titleCN": "虚幻之物",
+        "definition": "a thing that only seems to exist and has no real substance",
+        "definitionCN": "只是看起来存在、没有真实实体的事物",
+        "example": "Wealth built on nothing may prove to be an illusion.",
+        "exampleCN": "建立在虚空之上的财富，到头来也许只是虚幻。",
+        "why": "If the eye can be played with, then what it reports can be dismissed as unreal, and a whole object becomes illusory.",
+        "whyCN": "既然眼睛能被戏弄，它报告的东西就可以被判定为不真实，于是整整一个事物都可能只是虚幻。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Illusion comes from Latin illusionem, a mocking or a deception, from illudere, to play with or mock, and enters English through Old French.",
+        "cn": "illusion 来自拉丁语 illusionem（嘲弄、欺骗），源于动词 illudere（玩弄、戏弄），经古法语进入英语。"
+      },
+      "items": [
+        {
+          "era": "LATIN",
+          "en": "Ludere means to play, and inludere or illudere means to play upon or mock.",
+          "cn": "拉丁语 ludere 意为「玩」，inludere 或 illudere 意为「玩弄、戏弄」。"
+        },
+        {
+          "era": "LATE LATIN",
+          "en": "The noun illusio means a mocking or a deceiving of the senses or the mind.",
+          "cn": "晚期拉丁语名词 illusio 意为嘲弄，或对感官与头脑的欺骗。"
+        },
+        {
+          "era": "OLD FRENCH",
+          "en": "The French form illusion carries the sense of a deceptive appearance.",
+          "cn": "古法语形式 illusion 带有「骗人的外表」之意。"
+        },
+        {
+          "era": "ENGLISH, 14TH C.",
+          "en": "The word enters English first as a term for deception and mocking.",
+          "cn": "十四世纪该词进入英语，最初指欺骗与嘲弄。"
+        },
+        {
+          "era": "ENGLISH, 17TH C.",
+          "en": "Scientists begin to use it for optical and physical tricks of the eye.",
+          "cn": "十七世纪起，科学家用它指光学与物理上的视觉把戏。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "Literature and psychology extend illusion to wishful and false beliefs.",
+          "cn": "现代英语中，文学与心理学把这个词扩展到一厢情愿的错误信念。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "Illusion belongs to the Latin ludere, play, family and sits beside everyday words for wrong beliefs and deceptive looks.",
+        "cn": "illusion 属于拉丁语 ludere「玩」词族，并与日常表示「错误信念」和「骗人外表」的词义场相邻。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "illusory",
+              "ipa": "/ɪˈluːsəri/",
+              "tag": "derived adjective",
+              "definition": "not real, even though it seems to be",
+              "definitionCN": "虚幻的；不实的"
+            },
+            {
+              "word": "illusive",
+              "ipa": "/ɪˈluːsɪv/",
+              "tag": "derived adjective",
+              "definition": "deceptive, likely to mislead",
+              "definitionCN": "迷惑人的；虚幻的"
+            },
+            {
+              "word": "illusionist",
+              "ipa": "/ɪˈluːʒənɪst/",
+              "tag": "derived noun",
+              "definition": "a person who performs magic tricks",
+              "definitionCN": "魔术师；幻术师"
+            },
+            {
+              "word": "disillusion",
+              "ipa": "/ˌdɪsɪˈluːʒn/",
+              "tag": "same root",
+              "definition": "to free someone from a pleasant but false belief",
+              "definitionCN": "使醒悟；使不再抱幻想"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "delusion",
+              "ipa": "/dɪˈluːʒn/",
+              "tag": "spelling",
+              "definition": "a firm belief that is false; the letters are easy to confuse with illusion",
+              "definitionCN": "妄想；错误信念，只是拼写与 illusion 相近，词源不同"
+            },
+            {
+              "word": "mirage",
+              "ipa": "/ˈmɪrɑːʒ/",
+              "tag": "near meaning",
+              "definition": "an image of water in the desert that is not really there",
+              "definitionCN": "海市蜃楼"
+            },
+            {
+              "word": "fantasy",
+              "ipa": "/ˈfæntəsi/",
+              "tag": "near meaning",
+              "definition": "a pleasing picture in the imagination",
+              "definitionCN": "幻想；想象"
+            },
+            {
+              "word": "misconception",
+              "ipa": "/ˌmɪskənˈsepʃn/",
+              "tag": "near meaning",
+              "definition": "a wrong idea that people believe",
+              "definitionCN": "误解；错误的观念"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Illusion is i plus ludere, play, played against your eye: the picture is a trick, and the trick, not the thing, is what you get.",
+        "cn": "illusion 就是 in- 加 ludere「玩」作用于你的眼睛：画面是一场把戏，你拿到的只有把戏，没有实物。"
+      },
+      "normal": [
+        {
+          "en": "Latin ludere means to play, the same root that appears in ludicrous.",
+          "cn": "拉丁语 ludere 意为「玩」，ludicrous 里也藏着这个词根。"
+        },
+        {
+          "en": "An optical illusion plays with the eye, while an optical lens corrects it.",
+          "cn": "optical illusion 是在玩弄眼睛，而镜片是在修正眼睛。"
+        },
+        {
+          "en": "Be under the illusion that means to believe something untrue.",
+          "cn": "be under the illusion that 表示「误以为某事是真的」。"
+        },
+        {
+          "en": "To dispel an illusion is to clear it away the way fog is cleared from a window.",
+          "cn": "dispel an illusion 就是把幻想像窗上的雾一样抹掉。"
+        },
+        {
+          "en": "Illusory is the adjective for what illusion produces.",
+          "cn": "illusory 是形容 illusion 所产生之物「虚幻」的形容词。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "Picture water shining at the end of a hot road, which turns into dry sand as you walk closer.",
+          "cn": "想象炎热公路尽头的一片水光，走近才发现只是干沙。"
+        },
+        {
+          "en": "Think of two parallel lines that seem to bend the moment arrows are added to their ends.",
+          "cn": "想象两条平行线，两端添上箭头后看起来竟弯曲了。"
+        },
+        {
+          "en": "Imagine a map with a beautiful smooth border that conceals a deep drop inside.",
+          "cn": "想象一张地图边界平滑漂亮，里面却藏着深坑。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "The mirror creates the illusion of a larger room.",
+        "cn": "这面镜子营造出房间更大的错觉。"
+      },
+      {
+        "en": "Do not labour under the illusion that tax will stay the same.",
+        "cn": "别误以为税率会保持不变。"
+      },
+      {
+        "en": "Children often cherish the illusion that adults never fear anything.",
+        "cn": "孩子们常常幻想着大人从不会害怕。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「一路寻」——一路上追寻的东西，到头来只是虚影；这只是读音联想，与词源无关。",
+      "word": "illusion"
+    },
+    "root": "拉丁语 ludere「玩、戏耍」→ illudere（戏弄）→ illusionem（嘲弄、欺骗）→ 古法语 illusion → 英语 illusion，核心义「被眼睛或头脑玩弄出的画面」。同族的 illusory、disillusion 都带「假」与「戳破假」的意思。",
+    "sensesIntro": {
+      "en": "Illusion starts as a trick played on the eye, spreads to a false belief in the mind, and ends up naming pure unreality.",
+      "cn": "illusion 从眼睛受骗的画面出发，扩展到头脑相信的假观念，最后指纯粹不真实之物。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: a lake glitters at the far end of a desert, but walking there finds only hot sand.",
+        "cn": "核心意象：沙漠尽头波光粼粼的一片湖，走到眼前却只剩滚烫的沙。"
+      },
+      "chain": [
+        "PLAY",
+        "MOCK THE EYE",
+        "FALSE PICTURE",
+        "FALSE BELIEF",
+        "FALSE HOPE",
+        "UNREALITY"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "The false picture shown to the eye is the first sense.",
+          "cn": "眼睛收到的假画面是第一个义项。"
+        },
+        {
+          "senses": "02",
+          "en": "The same deception moves from sight to belief.",
+          "cn": "同一种欺骗从视觉转移到信念上。"
+        },
+        {
+          "senses": "03 · 05",
+          "en": "A smooth appearance of safety and a designed visual pattern are both staged deceptions.",
+          "cn": "平稳的表面安全感与精心设计的视错觉图，都是刻意安排的欺骗。"
+        },
+        {
+          "senses": "04",
+          "en": "A stage trick is the deliberate version of the everyday illusion.",
+          "cn": "魔术戏法是日常错觉的刻意版本。"
+        },
+        {
+          "senses": "01 · 06",
+          "en": "What the eye is played with can be declared to have no substance at all.",
+          "cn": "被眼睛戏弄出来的东西，可以被判定为根本没有实体。"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Illusion is built on Latin ludere, to play, with the in- prefix and the Latin noun ending -io; English adds illusory, illusive, and disillusion.",
+        "cn": "illusion 由拉丁语 ludere「玩」加 in- 前缀和名词词尾 -io 构成；英语又衍生出 illusory、illusive 与 disillusion。"
+      },
+      "latinIntro": {
+        "en": "Latin ludere means to play, and illudere means to play upon, which is to deceive.",
+        "cn": "拉丁语 ludere 意为「玩」，illudere 意为「玩弄某人」，也就是欺骗。"
+      },
+      "items": [
+        {
+          "word": "in-",
+          "structure": "Latin prefix",
+          "meaning": "against, towards",
+          "meaningCN": "朝向；对着",
+          "example": "The prefix marks the play as directed at someone.",
+          "exampleCN": "这个前缀表示把戏是冲着某人去的。"
+        },
+        {
+          "word": "ludere",
+          "structure": "Latin verb",
+          "meaning": "to play, to mock",
+          "meaningCN": "玩；戏弄",
+          "example": "Ludere is the play root of the word family.",
+          "exampleCN": "ludere 是这个词族的「玩」词根。"
+        },
+        {
+          "word": "illudere",
+          "structure": "Latin verb",
+          "meaning": "to play with, to deceive",
+          "meaningCN": "玩弄；欺骗",
+          "example": "Illudere gives the verb of deceiving.",
+          "exampleCN": "illudere 提供「欺骗」的动词义。"
+        },
+        {
+          "word": "-io",
+          "structure": "Latin noun suffix",
+          "meaning": "the act of",
+          "meaningCN": "表动作的名词词尾",
+          "example": "The suffix -io turns the verb into a noun.",
+          "exampleCN": "词尾 -io 把动词变成名词。"
+        },
+        {
+          "word": "illusion",
+          "structure": "English noun",
+          "meaning": "a false appearance",
+          "meaningCN": "错觉；假象",
+          "example": "Illusion keeps the Latin noun meaning.",
+          "exampleCN": "illusion 保留了拉丁语名词的含义。"
+        },
+        {
+          "word": "-ory",
+          "structure": "English suffix",
+          "meaning": "having the nature of",
+          "meaningCN": "具有……性质的词尾",
+          "example": "The suffix -ory forms illusory.",
+          "exampleCN": "词尾 -ory 构成 illusory。"
+        },
+        {
+          "word": "dis-",
+          "structure": "English prefix",
+          "meaning": "reversing, removing",
+          "meaningCN": "否定；除去",
+          "example": "The prefix dis- forms disillusion.",
+          "exampleCN": "前缀 dis- 构成 disillusion。"
+        },
+        {
+          "word": "disillusion",
+          "structure": "English verb",
+          "meaning": "to remove a false belief",
+          "meaningCN": "使醒悟",
+          "example": "Disillusion means to take the illusion away.",
+          "exampleCN": "disillusion 就是把 illusion 拿走。"
+        },
+        {
+          "word": "-ist",
+          "structure": "English suffix",
+          "meaning": "a person who does",
+          "meaningCN": "表从事者的词尾",
+          "example": "The suffix -ist forms illusionist.",
+          "exampleCN": "词尾 -ist 构成 illusionist。"
+        },
+        {
+          "word": "illusionist",
+          "structure": "English noun",
+          "meaning": "a magician",
+          "meaningCN": "魔术师",
+          "example": "Illusionist names the stage performer.",
+          "exampleCN": "illusionist 指舞台上的表演者。"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "ludere",
+          "structure": "Latin verb",
+          "meaning": "to play",
+          "meaningCN": "玩；游戏"
+        },
+        {
+          "word": "illudere",
+          "structure": "Latin verb",
+          "meaning": "to play with, to mock",
+          "meaningCN": "玩弄；嘲弄"
+        },
+        {
+          "word": "illusio",
+          "structure": "Latin noun",
+          "meaning": "a mocking, a deception",
+          "meaningCN": "嘲弄；欺骗"
+        },
+        {
+          "word": "illusorius",
+          "structure": "Latin adjective",
+          "meaning": "mocking, deceptive",
+          "meaningCN": "嘲弄的；虚幻的"
+        },
+        {
+          "word": "ludus",
+          "structure": "Latin noun",
+          "meaning": "game, play",
+          "meaningCN": "游戏；玩耍"
+        }
+      ]
+    }
+  },
+  {
+    "word": "imaginable",
+    "ipa_uk": "/ɪˈmædʒɪnəbl/",
+    "ipa_us": "/ɪˈmædʒɪnəbl/",
+    "definition_zh": "可想象的；想象得到的；能想见的",
+    "definition_en": "able to be imagined, or as great or bad as it is possible to think of",
+    "core_image": "一个人闭着眼在空气里描画轮廓，指尖划过之处竟真的浮现出图形",
+    "scene": "设计师对着空荡荡的展馆，闭眼在空中比划了好一会儿。The empty hall was full of imaginable layouts, but none felt right.",
+    "sceneCN": "这里 imaginable 是「可想象的」（第 1 个义项：能够在头脑中构想出来的）；句意：空荡的展厅里满是想象得到的布置方案，却都不称心。它描摹的正是核心画面：在空处用想象勾出轮廓。",
+    "pos": [
+      {
+        "tag": "adj.",
+        "zh": "可想象的；想象得到的"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "the best imaginable",
+        "zh": "想象中最好的"
+      },
+      {
+        "phrase": "every imaginable",
+        "zh": "每一种能想到的"
+      },
+      {
+        "phrase": "the worst imaginable",
+        "zh": "想象得到的最糟情况"
+      },
+      {
+        "phrase": "all imaginable",
+        "zh": "一切能想到的"
+      },
+      {
+        "phrase": "hardly imaginable",
+        "zh": "难以想象"
+      },
+      {
+        "phrase": "scarcely imaginable",
+        "zh": "几乎无法想象"
+      }
+    ],
+    "forms": [
+      {
+        "label": "比较级",
+        "form": "more imaginable"
+      },
+      {
+        "label": "最高级",
+        "form": "most imaginable"
+      },
+      {
+        "label": "副词",
+        "form": "imaginably"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "imagination",
+        "pos": "n.",
+        "zh": "由 imagine 加后缀 -ation 构成，义为「想象力；想象」"
+      },
+      {
+        "word": "imaginative",
+        "pos": "adj.",
+        "zh": "由 imagine 加后缀 -ive 构成，义为「富有想象力的」"
+      },
+      {
+        "word": "imaginary",
+        "pos": "adj.",
+        "zh": "由 imagine 加后缀 -ary 构成，义为「想象中的；虚构的」"
+      },
+      {
+        "word": "imaginably",
+        "pos": "adv.",
+        "zh": "由 imaginable 加后缀 -ly 构成，义为「可想象地」"
+      },
+      {
+        "word": "imagine",
+        "pos": "v.",
+        "zh": "动词词根，义为「想象；设想」"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "Possible to picture in the mind",
+        "titleCN": "可想象的",
+        "definition": "possible for a person to picture or conceive in the mind",
+        "definitionCN": "能够在心里构想或描绘出来的",
+        "example": "Every imaginable shade of blue filled the sky at sunset.",
+        "exampleCN": "日落时，天空中染满了可以想象到的每一种蓝色。",
+        "why": "The Latin root imago is a picture, and the suffix -able marks what can be done, so imaginable is what can be made into a picture in the mind.",
+        "whyCN": "拉丁语词根 imago 意为「像、画面」，后缀 -able 表示「可以……的」，所以 imaginable 就是「能在心里构成画面」的。"
+      },
+      {
+        "no": "02",
+        "title": "As great or bad as one can think of",
+        "titleCN": "能想到的最……的",
+        "definition": "used after a noun or with the best or worst to mean the greatest or worst one can think of",
+        "definitionCN": "用在名词后，或与 the best、the worst 连用，表示能想到的最大或最坏的程度",
+        "example": "Prices rose faster than in any imaginable scenario.",
+        "exampleCN": "价格上涨的速度超过任何可以想象的局面。",
+        "why": "If you can picture it, it belongs among the possibilities, so imaginable becomes a way of saying the extreme end of what could exist.",
+        "whyCN": "只要能在心里画出画面，它就属于可能范围，imaginable 于是成了「可能存在的极限」的说法。"
+      },
+      {
+        "no": "03",
+        "title": "Conceivable but unlikely to happen",
+        "titleCN": "设想得到但未必真实的",
+        "definition": "possible in thought, even if there is no good reason to expect it",
+        "definitionCN": "在思维上说得通，即便没有理由认为它真会发生",
+        "example": "It is barely imaginable that the wall could fall by itself.",
+        "exampleCN": "那堵墙自己倒塌几乎是不可想象的。",
+        "why": "The suffix says only that the mind can form the picture, not that reality will match it, which is why the word so often appears in negatives.",
+        "whyCN": "这个后缀只说明头脑能构成画面，并不说明现实会照此发生，所以这个词常出现在否定句中。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Imaginable joins imagine, from Latin imaginari, to picture, with the Latin and French suffix -able, meaning that can be.",
+        "cn": "imaginable 由 imagine（源自拉丁语 imaginari「在心里成像」）加拉丁语与法语后缀 -able（「可以……的」）构成。"
+      },
+      "items": [
+        {
+          "era": "LATIN",
+          "en": "Imago means an image or likeness, and imaginari means to picture something in the mind.",
+          "cn": "拉丁语 imago 意为「像、图像」，动词 imaginari 意为「在心里想象」。"
+        },
+        {
+          "era": "LATIN",
+          "en": "The suffix -abilis marks what is possible to do, the model for English -able.",
+          "cn": "拉丁语后缀 -abilis 表示「可……的」，是英语 -able 的来源模型。"
+        },
+        {
+          "era": "OLD FRENCH",
+          "en": "French develops imagine and the ending -able on the same pattern.",
+          "cn": "古法语按同样的模式发展出 imagine 与词尾 -able。"
+        },
+        {
+          "era": "ENGLISH, 14TH C.",
+          "en": "Imaginable appears in English as a learned word beside imagination.",
+          "cn": "十四世纪 imaginable 作为学术用词与 imagination 一同出现在英语中。"
+        },
+        {
+          "era": "ENGLISH, 18TH C.",
+          "en": "The pattern the best imaginable and the worst imaginable becomes common in newspapers.",
+          "cn": "「the best imaginable」与「the worst imaginable」这类结构在十八世纪报刊中流行起来。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "The adjective keeps both its neutral sense of possible to picture and its extreme sense at once.",
+          "cn": "现代英语中，这个形容词同时保留「可以想象」的中性义与「程度到极限」的加强义。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "Imaginable shares the Latin imago, picture, root with imagination and imaginative, and is easily confused with imaginary and imaginative.",
+        "cn": "imaginable 与 imagination、imaginative 共享拉丁语 imago「图像」词根，又容易与一批拼写相近的词混淆。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "imaginary",
+              "ipa": "/ɪˈmædʒɪnəri/",
+              "tag": "same root",
+              "definition": "existing only in the imagination",
+              "definitionCN": "想象的；虚构的（并非「可想象的」）"
+            },
+            {
+              "word": "imaginative",
+              "ipa": "/ɪˈmædʒɪnətɪv/",
+              "tag": "same root",
+              "definition": "good at creating new ideas",
+              "definitionCN": "富有想象力的"
+            },
+            {
+              "word": "imagination",
+              "ipa": "/ɪˌmædʒɪˈneɪʃn/",
+              "tag": "same root",
+              "definition": "the ability to form pictures in the mind",
+              "definitionCN": "想象力"
+            },
+            {
+              "word": "imaginably",
+              "ipa": "/ɪˈmædʒɪnəbli/",
+              "tag": "derived adverb",
+              "definition": "in a way that can be pictured",
+              "definitionCN": "可想象地"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "conceivable",
+              "ipa": "/kənˈsiːvəbl/",
+              "tag": "near meaning",
+              "definition": "possible to think about",
+              "definitionCN": "可想象的；可设想的"
+            },
+            {
+              "word": "thinkable",
+              "ipa": "/ˈθɪŋkəbl/",
+              "tag": "near meaning",
+              "definition": "able to be considered possible",
+              "definitionCN": "想象得出的；可能的"
+            },
+            {
+              "word": "possible",
+              "ipa": "/ˈpɒsəbl/",
+              "tag": "near meaning",
+              "definition": "able to happen or to be done",
+              "definitionCN": "可能的"
+            },
+            {
+              "word": "unimaginable",
+              "ipa": "/ˌʌnɪˈmædʒɪnəbl/",
+              "tag": "opposite",
+              "definition": "too great or too strange to picture",
+              "definitionCN": "难以想象的"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Imaginable is imagine plus -able: anything the mind can render as a picture becomes imaginable.",
+        "cn": "imaginable 就是 imagine 加 -able：凡是头脑能画成图的东西，都是 imaginable。"
+      },
+      "normal": [
+        {
+          "en": "Imaginable ends in -able, so it means can be imagined, not made up.",
+          "cn": "imaginable 以 -able 结尾，意思是「能够被想象」，而不是「虚构出来的」。"
+        },
+        {
+          "en": "Imaginary means made up, imaginative means good at new ideas, and imaginable means possible to picture.",
+          "cn": "imaginary 是「虚构的」，imaginative 是「有想象力的」，imaginable 是「可以想象的」。"
+        },
+        {
+          "en": "The best imaginable is a set phrase for the finest thing one could picture.",
+          "cn": "the best imaginable 是固定搭配，指想象中得到的最好程度。"
+        },
+        {
+          "en": "Latin imago, a picture, is the root that imagination also keeps.",
+          "cn": "拉丁语 imago「图像」是 imagination 同样保留的词根。"
+        },
+        {
+          "en": "Imaginable is rarely used in comparisons, and more imaginable is the usual form.",
+          "cn": "imaginable 很少直接加 -er，比较时通常说 more imaginable。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "Picture a hand tracing an outline in empty air, and the shape appears wherever the finger passes.",
+          "cn": "想象一只手在空气里描画轮廓，指尖划过之处真的浮现出图形。"
+        },
+        {
+          "en": "Think of a large blank card with a single frame drawn on it, waiting for the picture to be filled in.",
+          "cn": "想象一张大白卡片只画了一个相框，等着把画面填进去。"
+        },
+        {
+          "en": "Imagine a dark room being scanned by torchlight, showing only what the beam can reach.",
+          "cn": "想象一束手电光扫过暗室，只照见光能抵达的地方。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "The hotel offered every imaginable comfort.",
+        "cn": "那家旅馆提供了一切能够想到的舒适设施。"
+      },
+      {
+        "en": "Conditions in the camp were the worst imaginable.",
+        "cn": "营地的条件糟糕到了无法想象的地步。"
+      },
+      {
+        "en": "It is hardly imaginable that the two sides will ever agree.",
+        "cn": "双方最终达成一致几乎是不可想象的。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「想象麻吉能报」——脑子里能不能报出这个画面，就是它值不值得想；这只是读音联想，与词源无关。",
+      "word": "imaginable"
+    },
+    "root": "拉丁语 imago「图像」→ imaginari（在心里成像）→ 古法语 imaginer → 英语 imagine；再加拉丁语 -abilis（可……的）后的 -able，构成 imaginable，核心义「能被画进心里」。",
+    "sensesIntro": {
+      "en": "Imaginable starts with what the mind can picture, then turns into a measure of the utmost, and finally into a cautious word about what thought allows but reality may not.",
+      "cn": "imaginable 先指头脑能画出画面的东西，再引申为用来衡量极限的说法，最后成为表示「想得到但未必真会如此」的谨慎用词。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: a hand draws in the air and the outline appears wherever the finger passes.",
+        "cn": "核心意象：手在空中描画，指尖经过的地方就浮现出轮廓。"
+      },
+      "chain": [
+        "MAKE PICTURES",
+        "PICTURE IN MIND",
+        "ABLE TO BE PICTURED",
+        "ANY PICTURABLE AMOUNT",
+        "UTMOST",
+        "CAUTIOUS POSSIBILITY"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "Whatever the mind can turn into a picture is imaginable.",
+          "cn": "头脑能转成画面的东西，都是可想象的。"
+        },
+        {
+          "senses": "02",
+          "en": "The same reach of mind measures the biggest or worst extreme.",
+          "cn": "同一个思维范围也用来衡量最大或最坏的极限。"
+        },
+        {
+          "senses": "03",
+          "en": "Being picturable does not mean it will happen, hence the hesitant tone.",
+          "cn": "「能画得出」不等于「会发生」，因此带有迟疑语气。"
+        },
+        {
+          "senses": "01 · 02",
+          "en": "Every imaginable choice and the best imaginable comfort draw on the same picture-making power.",
+          "cn": "每种能想到的选项与能想到的最舒适，都来自同一种造画面的能力。"
+        },
+        {
+          "senses": "02 · 03",
+          "en": "The worst imaginable and it is hardly imaginable both push the able ending to its limit.",
+          "cn": "最糟的能想到的情况与「几乎不可想象」，都把「能」字推到了边界。"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Imaginable is the imago, picture, root plus the Latin and French suffix -able; the family adds imagination, imaginative, imaginary, and imaginably.",
+        "cn": "imaginable 是词根 imago「图像」加拉丁语与法语后缀 -able 的产物；同一词族还有 imagination、imaginative、imaginary 与 imaginably。"
+      },
+      "latinIntro": {
+        "en": "Latin imago means a picture or a likeness, and imaginari means to form such a picture in the mind.",
+        "cn": "拉丁语 imago 意为「图像、相似之物」，imaginari 意为「在心里构成这样的图像」。"
+      },
+      "items": [
+        {
+          "word": "imagin-",
+          "structure": "Latin root",
+          "meaning": "picture, image",
+          "meaningCN": "图像",
+          "example": "The root imagin- comes from the Latin word for a picture.",
+          "exampleCN": "词根 imagin- 来自拉丁语中表示图像的那个词。"
+        },
+        {
+          "word": "imago",
+          "structure": "Latin noun",
+          "meaning": "an image, a likeness",
+          "meaningCN": "图像；相似之物",
+          "example": "Imago is the direct root of the family.",
+          "exampleCN": "imago 是这个词族的直接词根。"
+        },
+        {
+          "word": "imaginari",
+          "structure": "Latin verb",
+          "meaning": "to picture in the mind",
+          "meaningCN": "想象；在心里成像",
+          "example": "Imaginari supplies both the verb and the ability.",
+          "exampleCN": "imaginari 同时提供动作与能力两个含义。"
+        },
+        {
+          "word": "imagine",
+          "structure": "English verb",
+          "meaning": "to form a picture in the mind",
+          "meaningCN": "想象；设想",
+          "example": "Imagine is the base of the whole family.",
+          "exampleCN": "imagine 是整个词族的基础词。"
+        },
+        {
+          "word": "-able",
+          "structure": "English suffix",
+          "meaning": "that can be",
+          "meaningCN": "能……的；可……的",
+          "example": "The suffix -able forms imaginable.",
+          "exampleCN": "词尾 -able 构成 imaginable。"
+        },
+        {
+          "word": "-ation",
+          "structure": "English suffix",
+          "meaning": "the act or ability of",
+          "meaningCN": "表动作或能力的词尾",
+          "example": "The suffix -ation forms imagination.",
+          "exampleCN": "词尾 -ation 构成 imagination。"
+        },
+        {
+          "word": "-ive",
+          "structure": "English suffix",
+          "meaning": "having the quality of",
+          "meaningCN": "具有……性质的词尾",
+          "example": "The suffix -ive forms imaginative.",
+          "exampleCN": "词尾 -ive 构成 imaginative。"
+        },
+        {
+          "word": "-ary",
+          "structure": "English suffix",
+          "meaning": "connected with",
+          "meaningCN": "与……有关的词尾",
+          "example": "The suffix -ary forms imaginary.",
+          "exampleCN": "词尾 -ary 构成 imaginary。"
+        },
+        {
+          "word": "un-",
+          "structure": "English prefix",
+          "meaning": "not",
+          "meaningCN": "否定，不",
+          "example": "The prefix un- forms unimaginable.",
+          "exampleCN": "前缀 un- 构成 unimaginable。"
+        },
+        {
+          "word": "-ly",
+          "structure": "English suffix",
+          "meaning": "in the way of",
+          "meaningCN": "表方式的副词词尾",
+          "example": "The suffix -ly forms imaginably.",
+          "exampleCN": "词尾 -ly 构成 imaginably。"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "imago",
+          "structure": "Latin noun",
+          "meaning": "image, likeness",
+          "meaningCN": "图像；相似之物"
+        },
+        {
+          "word": "imaginari",
+          "structure": "Latin verb",
+          "meaning": "to picture in the mind",
+          "meaningCN": "想象"
+        },
+        {
+          "word": "imaginatio",
+          "structure": "Latin noun",
+          "meaning": "the forming of an image",
+          "meaningCN": "成像；想象"
+        },
+        {
+          "word": "imaginativus",
+          "structure": "Late Latin adjective",
+          "meaning": "related to imagining",
+          "meaningCN": "与想象有关的"
+        },
+        {
+          "word": "inimaginabilis",
+          "structure": "Late Latin adjective",
+          "meaning": "not able to be pictured",
+          "meaningCN": "不可想象的"
+        }
+      ]
+    }
+  },
+  {
+    "word": "immature",
+    "ipa_uk": "/ˌɪməˈtjʊə/",
+    "ipa_us": "/ˌɪməˈtʊr/",
+    "definition_zh": "不成熟的；幼稚的；未长成的；未发育完全的",
+    "definition_en": "not yet fully grown, developed, or behaving in a sensible adult way",
+    "core_image": "一棵枝干还很柔弱的小树，果子又小又青，还挂在枝头",
+    "scene": "果园里，一筐果子按成熟程度分开摆放。The picking crew left the immature fruit on the tree for another month.",
+    "sceneCN": "这里 immature 指「未长成的」（第 3 个义项：动植物或果实尚未发育完全）；句意：采摘队把未成熟的果子留在树上，再多等一个月。",
+    "pos": [
+      {
+        "tag": "adj.",
+        "zh": "不成熟的；幼稚的；未长成的"
+      },
+      {
+        "tag": "adj.",
+        "zh": "未发育完全的"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "immature fruit",
+        "zh": "未成熟的果实"
+      },
+      {
+        "phrase": "emotionally immature",
+        "zh": "情感上不成熟的"
+      },
+      {
+        "phrase": "immature and irresponsible",
+        "zh": "幼稚且不负责任的"
+      },
+      {
+        "phrase": "an immature response",
+        "zh": "幼稚的反应"
+      },
+      {
+        "phrase": "still immature",
+        "zh": "仍然不成熟"
+      },
+      {
+        "phrase": "immature bird",
+        "zh": "未成年的鸟"
+      }
+    ],
+    "forms": [
+      {
+        "label": "比较级",
+        "form": "more immature"
+      },
+      {
+        "label": "最高级",
+        "form": "most immature"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "immaturity",
+        "pos": "n.",
+        "zh": "由 immature 加名词后缀 -ity 构成，义为不成熟、幼稚"
+      },
+      {
+        "word": "maturity",
+        "pos": "n.",
+        "zh": "去掉否定前缀 im-，义为成熟、到期"
+      },
+      {
+        "word": "maturely",
+        "pos": "adv.",
+        "zh": "由 mature 加副词后缀 -ly 构成，义为成熟地"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "Fruit That Is Not Ready",
+        "titleCN": "（果实）不熟的",
+        "definition": "not yet ready to eat, as fruit or crops that are still developing",
+        "definitionCN": "果实或庄稼尚未发育到可以食用或收获的程度",
+        "example": "These pears are still immature and far too hard to eat.",
+        "exampleCN": "这些梨还没成熟，硬得根本吃不了。",
+        "why": "The prefix im- means not, and mature comes from Latin maturus, meaning ripe in due time, so immature is the state of not being ripe yet.",
+        "whyCN": "前缀 im- 表示「不」，而 mature 出自拉丁语 maturus，意为按时成熟，所以 immature 就是还没到成熟的时节。"
+      },
+      {
+        "no": "02",
+        "title": "Not Fully Grown",
+        "titleCN": "年幼的；未成年的",
+        "definition": "not yet fully developed in body or mind, used of young people or animals",
+        "definitionCN": "身体或心智尚未完全发育，用于人或动物",
+        "example": "The bird is immature and still has a dull brown coat.",
+        "exampleCN": "这只鸟还没长大，羽毛还是暗淡的棕色。",
+        "why": "The botanical idea of the unripe fruit stretches to living things that have not yet reached their full size.",
+        "whyCN": "果实未熟这一植物学意象延伸到尚未长到十足身量的生物，就得到「年幼的」这一义项。"
+      },
+      {
+        "no": "03",
+        "title": "Not Fully Formed",
+        "titleCN": "未完全成形的",
+        "definition": "not yet fully formed or at the right stage for its purpose",
+        "definitionCN": "尚未完全成形，或还没有达到应有的阶段",
+        "example": "Immature seeds are lighter and float in water.",
+        "exampleCN": "未发育完全的种子更轻，会浮在水面上。",
+        "why": "This sense keeps the original image of a fruit that is not ready and applies it to any half-formed product.",
+        "whyCN": "这一义项保留果子尚未长好的原初意象，并把它用到任何只成形一半的东西上。"
+      },
+      {
+        "no": "04",
+        "title": "Emotionally Childish",
+        "titleCN": "行为幼稚的；不成熟的",
+        "definition": "behaving in a way that is less sensible than is expected of an adult",
+        "definitionCN": "行为表现得不够理智，不像一个成年人应有的样子",
+        "example": "It was immature of him to walk out in the middle of the meeting.",
+        "exampleCN": "他会议开到一半就甩门走人，太幼稚了。",
+        "why": "The image of the unripe fruit moves to behaviour that has not yet ripened into adult judgement.",
+        "whyCN": "未熟果子的意象被移到人的行为上，指那种还没成熟到成年人判断力的表现。"
+      },
+      {
+        "no": "05",
+        "title": "Not Ripe Yet",
+        "titleCN": "尚未成熟的",
+        "definition": "not fully ripe, describing plans, ideas, or works in progress",
+        "definitionCN": "计划、想法或作品尚未完全成形、还处在发展之中",
+        "example": "The plan is still immature and needs a lot more work.",
+        "exampleCN": "这个计划还不成熟，需要做大量补充。",
+        "why": "Anything still ripening on the tree can be described as immature, so the sense covers plans that are not ready to be put into action.",
+        "whyCN": "还在树上成熟的果实都可以说 immature，于是这一义项也覆盖尚未准备好付诸实施的计划。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Immature combines the negative prefix im-, a form of in-, with mature, which came from Latin maturus, meaning ripe or in due time.",
+        "cn": "immature 由否定前缀 im-（in- 的变体）与 mature 组成，后者出自拉丁语 maturus，意为「成熟、合时」。"
+      },
+      "items": [
+        {
+          "era": "LATIN",
+          "en": "Maturus describes fruit that is ripe in season and ready to be gathered.",
+          "cn": "maturus 形容果子应时成熟、可以收获了。"
+        },
+        {
+          "era": "LATIN",
+          "en": "Maturescere is the verb for growing ripe, and maturitas is ripeness itself.",
+          "cn": "maturescere 是表示「成熟」的动词，maturitas 则是表示「成熟」的名词。"
+        },
+        {
+          "era": "OLD FRENCH",
+          "en": "Matur is used for things that are ripe or ready, and enters Middle English in this form.",
+          "cn": "matur 用来形容成熟或就绪的事物，并以此形式进入中古英语。"
+        },
+        {
+          "era": "ENGLISH, 15TH-16TH C.",
+          "en": "Mature becomes the English adjective for ripe, complete, and adult.",
+          "cn": "mature 成为英语中表示成熟、完备、成年的形容词。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "immature is built with im- in place of in- and extends from unripe fruit to childish behaviour.",
+          "cn": "immature 把 in- 换成 im- 来构词，并从未熟的果子延伸到幼稚的行为。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "Immature is the negative partner of mature, close to the mature family and to adjectives that describe a lack of grown-up judgement.",
+        "cn": "immature 是 mature 的否定伙伴，与 mature 词族相邻，也与表示「不够成熟」的形容词相近。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "immaturity",
+              "ipa": "/ˌɪməˈtjʊərəti/",
+              "tag": "derived noun",
+              "definition": "the state of not being fully grown or developed",
+              "definitionCN": "不成熟状态；幼稚"
+            },
+            {
+              "word": "mature",
+              "ipa": "/məˈtʃʊə/",
+              "tag": "opposite",
+              "definition": "fully developed or behaving like an adult",
+              "definitionCN": "成熟的；成年的"
+            },
+            {
+              "word": "premature",
+              "ipa": "/ˌpreməˈtʃʊə/",
+              "tag": "same root",
+              "definition": "happening too early, before the usual time",
+              "definitionCN": "过早的；早产的"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "childish",
+              "ipa": "/ˈtʃaɪldɪʃ/",
+              "tag": "near meaning, negative",
+              "definition": "silly in a way that suits a child rather than an adult",
+              "definitionCN": "幼稚的；孩子气的（含贬义）"
+            },
+            {
+              "word": "naive",
+              "ipa": "/naɪˈiːv/",
+              "tag": "near meaning",
+              "definition": "lacking experience of the world and too trusting",
+              "definitionCN": "天真的；缺少经验的"
+            },
+            {
+              "word": "juvenile",
+              "ipa": "/ˈdʒuːvənaɪl/",
+              "tag": "near meaning, formal",
+              "definition": "young, or suited to young people",
+              "definitionCN": "少年的；稚气的"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Immature is mature with the negative prefix im-, so every phrase reminds you that something has not ripened yet.",
+        "cn": "immature 就是 mature 加否定前缀 im-，所以见到它就应该想到「还没长熟」。"
+      },
+      "normal": [
+        {
+          "en": "Immature is mature plus im-, the negative prefix, so immature is plainly not yet mature.",
+          "cn": "immature 等于 mature 加否定前缀 im-，意思就是「还不成熟」。"
+        },
+        {
+          "en": "Latin maturus meant ripe in due time, so an immature fruit is one that has missed its season so far.",
+          "cn": "拉丁语 maturus 意为按时成熟，所以未熟的果子就是还没赶上时令的果子。"
+        },
+        {
+          "en": "The noun immaturity drops the final e of mature and adds -ity.",
+          "cn": "名词 immaturity 去掉 mature 末尾的 e 再加 -ity。"
+        },
+        {
+          "en": "Emotionally immature describes someone who sulks or gives up when things go wrong.",
+          "cn": "emotionally immature 描述那种一遇挫折就闹脾气或甩手不干的人。"
+        },
+        {
+          "en": "In biology, an immature bird or insect has not yet reached its fully grown form.",
+          "cn": "在生物学里，immature bird 或 immature insect 指的是还没长成成体的鸟或昆虫。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "Picture a green peach still hard on the branch while the ripe ones fill the basket.",
+          "cn": "想象一只又青又硬的桃还挂在枝头，成熟的果子已经装满篮子。"
+        },
+        {
+          "en": "Think of a chick with fluffy feathers that cannot use its wings yet.",
+          "cn": "想象一只长着绒毛、翅膀还飞不起来的小鸟。"
+        },
+        {
+          "en": "Imagine a small green seed that has not filled out into a kernel.",
+          "cn": "想象一粒还干瘪发绿、尚未饱满的种子。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "The shop does not sell immature fruit because it is too sour.",
+        "cn": "这家店不卖没熟透的水果，因为太酸了。"
+      },
+      {
+        "en": "Her immature jokes annoyed everyone at the dinner table.",
+        "cn": "她那些幼稚的笑话让满桌人都很扫兴。"
+      },
+      {
+        "en": "The plan was still immature and needed a great deal of revision.",
+        "cn": "这个计划还不成熟，需要大幅修改。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「一妈球」——像一只又青又硬的小球，还没长熟；这只是读音联想，并非词源。",
+      "word": "immature"
+    },
+    "root": "拉丁语 maturus（成熟、合时）→ 英语 mature（成熟的）+ 否定前缀 im-（= in-，不）→ immature（不成熟的；未长成的），核心义「还没长熟」。",
+    "sensesIntro": {
+      "en": "Immature starts with fruit that is not ripe, moves to living things that are not fully grown, and then to behaviour and plans that have not ripened into adult judgement.",
+      "cn": "immature 从未熟的果子出发，先指尚未长成的生物，再移到还没有成熟到成年人判断力的行为和计划上。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: a small green fruit still hanging on the branch, hard and not yet ready.",
+        "cn": "核心意象：一颗又小又青的果子还挂在枝头，硬邦邦的，还不到采摘的时候。"
+      },
+      "chain": [
+        "NOT",
+        "RIPE",
+        "GREEN FRUIT",
+        "NOT FULLY GROWN",
+        "CHILDISH",
+        "HALF-FORMED"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "Unripe fruit is the most concrete sense and the source of the image.",
+          "cn": "未熟的果子是最具体的义项，也是整个意象的源头。"
+        },
+        {
+          "senses": "02",
+          "en": "Living things not yet full-grown sit one step away from the unripe fruit.",
+          "cn": "尚未长大的生物离未熟的果子只有一步之遥。"
+        },
+        {
+          "senses": "03",
+          "en": "Anything still forming keeps the botanical idea of something not ready.",
+          "cn": "任何还在成形中的事物都保留了「尚未长好」的植物学意念。"
+        },
+        {
+          "senses": "04",
+          "en": "Childish behaviour is the human sense, where judgement has not ripened.",
+          "cn": "幼稚的行为是人的层面，指判断力还没长熟。"
+        },
+        {
+          "senses": "01 · 05",
+          "en": "A plan and a piece of fruit are both described as immature when they are not ready to be used.",
+          "cn": "当计划和果实都不能派上用场时，都可以用 immature 来形容。"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "immature is built from the Latin adjective maturus with the negative prefix im-, and its family includes the nouns immaturity and maturity.",
+        "cn": "immature 由拉丁语形容词 maturus 加否定前缀 im- 构成，同族词有名词 immaturity 与 maturity。"
+      },
+      "latinIntro": {
+        "en": "Latin maturus means ripe in season, and the verb maturescere means to grow ripe.",
+        "cn": "拉丁语 maturus 意为应时成熟的，动词 maturescere 意为成熟。"
+      },
+      "items": [
+        {
+          "word": "im-",
+          "structure": "English prefix, from Latin in-",
+          "meaning": "not",
+          "meaningCN": "不；非",
+          "example": "The prefix im- turns mature into its negative.",
+          "exampleCN": "前缀 im- 把 mature 变成否定词。"
+        },
+        {
+          "word": "mature",
+          "structure": "English adjective",
+          "meaning": "fully grown or ripe",
+          "meaningCN": "成熟的；长成的",
+          "example": "Mature is the base adjective.",
+          "exampleCN": "mature 是基础形容词。"
+        },
+        {
+          "word": "immature",
+          "structure": "English adjective",
+          "meaning": "not yet fully grown",
+          "meaningCN": "不成熟的；未长成的",
+          "example": "Immature adds the negative prefix.",
+          "exampleCN": "immature 加了否定前缀。"
+        },
+        {
+          "word": "-ity",
+          "structure": "English suffix",
+          "meaning": "state or quality",
+          "meaningCN": "表示状态、性质的名词后缀",
+          "example": "The suffix -ity forms immaturity.",
+          "exampleCN": "后缀 -ity 构成 immaturity。"
+        },
+        {
+          "word": "immaturity",
+          "structure": "English noun",
+          "meaning": "the state of being immature",
+          "meaningCN": "不成熟；幼稚",
+          "example": "Immaturity names the state of not being ripe.",
+          "exampleCN": "immaturity 指未成熟的状态。"
+        },
+        {
+          "word": "-ure",
+          "structure": "Latin suffix",
+          "meaning": "result or state",
+          "meaningCN": "表示结果或状态的词尾",
+          "example": "Latin maturitas and English mature trace back through this ending.",
+          "exampleCN": "mature 的形态经由拉丁词尾演变而来。"
+        },
+        {
+          "word": "maturely",
+          "structure": "English adverb",
+          "meaning": "in a mature way",
+          "meaningCN": "成熟地",
+          "example": "The suffix -ly forms maturely.",
+          "exampleCN": "后缀 -ly 构成 maturely。"
+        },
+        {
+          "word": "premature",
+          "structure": "English adjective",
+          "meaning": "too early",
+          "meaningCN": "过早的；早产的",
+          "example": "The prefix pre- adds the idea of early.",
+          "exampleCN": "前缀 pre- 加上「早」的意思。"
+        },
+        {
+          "word": "-ness",
+          "structure": "English suffix",
+          "meaning": "state of being",
+          "meaningCN": "表示性质的名词后缀",
+          "example": "Mature forms matureness in rare use.",
+          "exampleCN": "mature 偶与 -ness 构成 matureness。"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "maturus",
+          "structure": "Latin adjective",
+          "meaning": "ripe, in due time",
+          "meaningCN": "成熟的；合时的"
+        },
+        {
+          "word": "maturescere",
+          "structure": "Latin verb",
+          "meaning": "to grow ripe",
+          "meaningCN": "成熟"
+        },
+        {
+          "word": "maturitas",
+          "structure": "Latin noun",
+          "meaning": "ripeness",
+          "meaningCN": "成熟（名词）"
+        },
+        {
+          "word": "mature",
+          "structure": "English adjective",
+          "meaning": "ripe, adult",
+          "meaningCN": "成熟的；成年的"
+        }
+      ]
+    }
+  },
+  {
+    "word": "immeasurable",
+    "ipa_uk": "/ɪˈmeʒərəbl/",
+    "ipa_us": "/ɪˈmeʒərəbl/",
+    "definition_zh": "无法衡量的；无穷无尽的；浩瀚的；不可估量的",
+    "definition_en": "too large or too great to be measured, counted, or fully judged",
+    "core_image": "一片望不到边的星空，没有任何尺子能量到它的尽头",
+    "scene": "孩子站在山顶上，抬头看整片星空。The night sky over the desert felt immeasurable.",
+    "sceneCN": "这里 immeasurable 指「浩瀚无边的」（第 2 个义项：空间大到无法丈量）；句意：沙漠上方的夜空让人觉得浩瀚无边。",
+    "pos": [
+      {
+        "tag": "adj.",
+        "zh": "无法衡量的；无穷无尽的"
+      },
+      {
+        "tag": "adj.",
+        "zh": "浩瀚的；无边无际的"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "immeasurable value",
+        "zh": "不可估量的价值"
+      },
+      {
+        "phrase": "immeasurable benefits",
+        "zh": "无法衡量的益处"
+      },
+      {
+        "phrase": "immeasurable distance",
+        "zh": "无法丈量的距离"
+      },
+      {
+        "phrase": "immeasurable joy",
+        "zh": "无穷的喜悦"
+      },
+      {
+        "phrase": "immeasurable harm",
+        "zh": "不可估量的伤害"
+      },
+      {
+        "phrase": "of immeasurable importance",
+        "zh": "至关重要"
+      }
+    ],
+    "forms": [
+      {
+        "label": "比较级",
+        "form": "more immeasurable"
+      },
+      {
+        "label": "最高级",
+        "form": "most immeasurable"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "immeasurably",
+        "pos": "adv.",
+        "zh": "由 immeasurable 加副词后缀 -ably 构成，义为无法衡量地、极其"
+      },
+      {
+        "word": "measurable",
+        "pos": "adj.",
+        "zh": "去掉否定前缀 im-，义为可测量的"
+      },
+      {
+        "word": "measure",
+        "pos": "v. / n.",
+        "zh": "词根词，义为测量；量度"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "Too Large to Measure",
+        "titleCN": "无法衡量的；不可估量的",
+        "definition": "far too great in amount or degree to be measured",
+        "definitionCN": "在数量或程度上太大，无法测量",
+        "example": "The project brought immeasurable benefits to the whole village.",
+        "exampleCN": "这个项目给整个村子带来了无法估量的好处。",
+        "why": "The prefix im- means not and measurable means able to be measured, so the word literally names what the ruler cannot reach.",
+        "whyCN": "前缀 im- 表示「不」，measurable 意为「可测量的」，所以这个词字面上就是尺子够不到的东西。"
+      },
+      {
+        "no": "02",
+        "title": "Without Limits",
+        "titleCN": "无边无际的；浩瀚的",
+        "definition": "having no visible limit in space or extent",
+        "definitionCN": "在空间或范围上看不到边界",
+        "example": "The immeasurable wastes of ice stretched to the horizon.",
+        "exampleCN": "无边无际的冰原一直延伸到地平线。",
+        "why": "Once something cannot be measured, it is easy to picture it as stretching beyond any edge, which gives the sense of vast space.",
+        "whyCN": "一样东西一旦无法丈量，就很容易被想象成超出任何边界，于是产生「浩瀚无边」的义项。"
+      },
+      {
+        "no": "03",
+        "title": "Beyond Words",
+        "titleCN": "难以言尽的；无穷的",
+        "definition": "greater than words can express, as of feelings or qualities",
+        "definitionCN": "比语言所能表达的还要大，用于情感或品质",
+        "example": "She feels immeasurable gratitude to the nurse who saved her son.",
+        "exampleCN": "她对救了自己儿子的护士心怀难以言尽的感激。",
+        "why": "Feelings cannot be put on a scale, so the idea of the unmeasurable naturally turns into the idea of what words cannot contain.",
+        "whyCN": "情感无法放在秤上量，所以「无法衡量」的意念自然转成了「言语装不下」的义项。"
+      },
+      {
+        "no": "04",
+        "title": "A Vast Period",
+        "titleCN": "漫长的；遥远的",
+        "definition": "extending over a period of time too long to be counted",
+        "definitionCN": "在时间上延续得太久，长得数不清",
+        "example": "After an immeasurable pause, he finally spoke.",
+        "exampleCN": "在漫长得难以计量的停顿之后，他终于开口了。",
+        "why": "Time too is something we measure with clocks, so a span that clocks cannot count becomes immeasurable.",
+        "whyCN": "时间也是我们用钟表来测的东西，所以连钟表都数不完的时段就成了 immeasurable。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Immeasurable is im- plus measurable, and measurable comes from measure, which entered English from Old French mesure and Latin mensura.",
+        "cn": "immeasurable 是 im- 加 measurable，而 measurable 出自 measure；measure 经古法语 mesure 来自拉丁语 mensura。"
+      },
+      "items": [
+        {
+          "era": "LATIN",
+          "en": "Mensura means a measuring or a measure, from the verb metiri, to measure.",
+          "cn": "mensura 意为量度、尺度，出自动词 metiri（测量）。"
+        },
+        {
+          "era": "LATIN",
+          "en": "Im- is the form that the negative prefix in- takes before m, as in immensus, meaning unmeasured.",
+          "cn": "im- 是否定前缀 in- 在 m 前的变体，拉丁语 immensus 即「未测量的」。"
+        },
+        {
+          "era": "OLD FRENCH",
+          "en": "Mesure passes the measuring word into French and then into English.",
+          "cn": "mesure 把表示测量的词带进法语，再进入英语。"
+        },
+        {
+          "era": "MIDDLE ENGLISH",
+          "en": "Measure appears in English with the senses of size, amount, and the act of measuring.",
+          "cn": "measure 在英语中出现，义为尺寸、数量与测量的行为。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "Measurable adds -able, and immeasurable adds the negative prefix to name what no scale can hold.",
+          "cn": "measurable 加后缀 -able，immeasurable 再加否定前缀，用来指秤和尺都装不下的东西。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "Immeasurable belongs to the measure family and sits close to adjectives for things too big to be counted.",
+        "cn": "immeasurable 属于 measure 词族，与那些表示「大到数不清」的形容词相邻。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "measure",
+              "ipa": "/ˈmeʒə/",
+              "tag": "base verb",
+              "definition": "to find the size or amount of something",
+              "definitionCN": "测量；量"
+            },
+            {
+              "word": "measurable",
+              "ipa": "/ˈmeʒərəbl/",
+              "tag": "same root",
+              "definition": "able to be measured",
+              "definitionCN": "可测量的"
+            },
+            {
+              "word": "immeasurably",
+              "ipa": "/ɪˈmeʒərəbli/",
+              "tag": "derived adverb",
+              "definition": "to a degree that cannot be measured",
+              "definitionCN": "无法衡量地；极其"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "infinite",
+              "ipa": "/ˈɪnfɪnət/",
+              "tag": "near meaning",
+              "definition": "without any limit or end",
+              "definitionCN": "无限的；无穷的"
+            },
+            {
+              "word": "boundless",
+              "ipa": "/ˈbaʊndləs/",
+              "tag": "near meaning",
+              "definition": "having no limits at all",
+              "definitionCN": "无边无际的"
+            },
+            {
+              "word": "incalculable",
+              "ipa": "/ɪnˈkælkjələbl/",
+              "tag": "near meaning, formal",
+              "definition": "too great to be calculated",
+              "definitionCN": "不可估量的；难以计算的"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Immeasurable is measurable with a negative prefix, so the whole family turns around the idea of measuring.",
+        "cn": "immeasurable 就是 measurable 加否定前缀，整个词族都围绕「测量」这个动作。"
+      },
+      "normal": [
+        {
+          "en": "Immeasurable is measurable plus im-, so the word announces that no measuring is possible.",
+          "cn": "immeasurable 是 measurable 加否定前缀 im-，直接说明「量不出来」。"
+        },
+        {
+          "en": "The stem is measure, which also gives measurement, measurable, and measurably.",
+          "cn": "词干是 measure，由此还派生 measurement、measurable、measurably。"
+        },
+        {
+          "en": "Immeasurable is always an adjective before a noun, as in immeasurable value or immeasurable joy.",
+          "cn": "immeasurable 总是形容词，放在名词前，如 immeasurable value 或 immeasurable joy。"
+        },
+        {
+          "en": "The adverb immeasurably often means very much, as in immeasurably better.",
+          "cn": "副词 immeasurably 常表示「无比地」，如 immeasurably better。"
+        },
+        {
+          "en": "Latin immensus, unmeasured, is the same idea built in Latin with the same negative prefix.",
+          "cn": "拉丁语 immensus 意为「未测量的」，用同样的否定前缀表达了同一意念。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "Picture a ruler stretching out and never reaching the far edge of the sky.",
+          "cn": "想象一把尺子一路伸出去，却永远够不到天空的边缘。"
+        },
+        {
+          "en": "Think of a sea so wide that no boat can cross it in a lifetime.",
+          "cn": "想象一片海宽得没有任何船能在一生中横渡。"
+        },
+        {
+          "en": "Imagine thanking a nurse so much that no number of words is enough.",
+          "cn": "想象想向护士道谢，却发现多少话都说不完。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "Clean water has immeasurable value for public health.",
+        "cn": "清洁的水对公共卫生有不可估量的价值。"
+      },
+      {
+        "en": "Her patience made an immeasurable difference to the team.",
+        "cn": "她的耐心给团队带来了难以衡量的改变。"
+      },
+      {
+        "en": "Beyond the last houses lay immeasurable fields of wheat.",
+        "cn": "最后几户人家的房屋之外，是一望无际的麦田。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「一没辙拉」——拿尺子去量，实在没辙，拉都拉不到头；这只是谐音联想，不是词源。",
+      "word": "immeasurable"
+    },
+    "root": "拉丁语 metiri（测量）→ mensura（量度）→ 古法语 mesure → 英语 measure → measurable（可测量的）+ 否定前缀 im-（不）→ immeasurable（无法衡量的），核心义「量不出来」。",
+    "sensesIntro": {
+      "en": "Immeasurable begins with amounts too great for any scale, then spreads to vast space, to feelings beyond words, and to time too long to count.",
+      "cn": "immeasurable 先指大到任何秤都称不了的量，再扩到浩瀚的空间、言说不尽的情感，以及长得数不过来的时间。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: a ruler reaching out into the night sky and finding no edge to stop at.",
+        "cn": "核心意象：一把尺子伸向夜空，怎么也找不到可以停下的边界。"
+      },
+      "chain": [
+        "NOT",
+        "MEASURE",
+        "NO SCALE",
+        "TOO GREAT",
+        "VAST SPACE",
+        "BEYOND WORDS"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "The most direct sense names an amount that no scale can hold.",
+          "cn": "最直接的义项指任何一种秤都称不出的量。"
+        },
+        {
+          "senses": "02",
+          "en": "Unmeasurable size turns into the feeling of endless space.",
+          "cn": "无法丈量的尺寸变成了空间无边的感受。"
+        },
+        {
+          "senses": "03",
+          "en": "Feelings cannot be weighed, so they become the things words cannot carry.",
+          "cn": "情感称不出重量，于是成为言语装不下的东西。"
+        },
+        {
+          "senses": "04",
+          "en": "Clock time is unmeasurable when the span is too long to count.",
+          "cn": "当时段长得数不过来时，钟表就失去了丈量的意义。"
+        },
+        {
+          "senses": "01 · 03",
+          "en": "Both an immeasurable benefit and immeasurable gratitude are things we can feel but never put a number to.",
+          "cn": "无法估量的益处与无穷的感激都是能感受到却给不出数字的东西。"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "immeasurable is formed inside English from measure with the suffix -able and the negative prefix im-, and its Latin twin is immensus.",
+        "cn": "immeasurable 是英语内部用 measure 加后缀 -able 与否定前缀 im- 构成的，它在拉丁语中的对应形式是 immensus。"
+      },
+      "latinIntro": {
+        "en": "Latin metiri means to measure, mensura means a measure, and immensus means unmeasured.",
+        "cn": "拉丁语 metiri 意为测量，mensura 意为量度，immensus 意为未测量的。"
+      },
+      "items": [
+        {
+          "word": "im-",
+          "structure": "English prefix, from Latin in-",
+          "meaning": "not",
+          "meaningCN": "不；非",
+          "example": "The prefix im- sits before the letter m in immeasurable.",
+          "exampleCN": "前缀 im- 在 immeasurable 里位于字母 m 之前。"
+        },
+        {
+          "word": "measure",
+          "structure": "English verb and noun",
+          "meaning": "to find the size or amount",
+          "meaningCN": "测量；量度",
+          "example": "Measure is the living stem of the family.",
+          "exampleCN": "measure 是整个词族的活词干。"
+        },
+        {
+          "word": "-able",
+          "structure": "English suffix",
+          "meaning": "able to be",
+          "meaningCN": "能够被……的",
+          "example": "The suffix -able forms measurable.",
+          "exampleCN": "后缀 -able 构成 measurable。"
+        },
+        {
+          "word": "measurable",
+          "structure": "English adjective",
+          "meaning": "able to be measured",
+          "meaningCN": "可测量的",
+          "example": "Measurable is the positive form.",
+          "exampleCN": "measurable 是肯定形式。"
+        },
+        {
+          "word": "immeasurable",
+          "structure": "English adjective",
+          "meaning": "not able to be measured",
+          "meaningCN": "无法衡量的",
+          "example": "Immeasurable is the negative form.",
+          "exampleCN": "immeasurable 是否定形式。"
+        },
+        {
+          "word": "measurably",
+          "structure": "English adverb",
+          "meaning": "to a measurable degree",
+          "meaningCN": "明显地；可测量地",
+          "example": "The suffix -ly forms measurably.",
+          "exampleCN": "后缀 -ly 构成 measurably。"
+        },
+        {
+          "word": "immeasurably",
+          "structure": "English adverb",
+          "meaning": "to a degree that cannot be measured",
+          "meaningCN": "无法衡量地；极其",
+          "example": "Immeasurably adds both the prefix and the adverb ending.",
+          "exampleCN": "immeasurably 同时加了前缀与副词词尾。"
+        },
+        {
+          "word": "measurement",
+          "structure": "English noun",
+          "meaning": "the act or result of measuring",
+          "meaningCN": "测量；尺寸",
+          "example": "The suffix -ment forms measurement.",
+          "exampleCN": "后缀 -ment 构成 measurement。"
+        },
+        {
+          "word": "-less",
+          "structure": "English suffix",
+          "meaning": "without",
+          "meaningCN": "没有……的词尾",
+          "example": "The suffix -less gives the related word measureless.",
+          "exampleCN": "词尾 -less 构成同族词 measureless。"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "metiri",
+          "structure": "Latin verb",
+          "meaning": "to measure",
+          "meaningCN": "测量"
+        },
+        {
+          "word": "mensura",
+          "structure": "Latin noun",
+          "meaning": "a measure, a measuring",
+          "meaningCN": "量度；测量"
+        },
+        {
+          "word": "immensus",
+          "structure": "Latin adjective",
+          "meaning": "unmeasured, vast",
+          "meaningCN": "未测量的；广大的"
+        }
+      ]
+    }
+  },
+  {
+    "word": "immerse",
+    "ipa_uk": "/ɪˈmɜːs/",
+    "ipa_us": "/ɪˈmɜːrs/",
+    "definition_zh": "沉浸；使沉浸于；浸没；使专心于",
+    "definition_en": "to put something completely under a liquid, or to keep yourself fully involved in an activity",
+    "core_image": "整个人沉进水里，四周全是同一片蓝",
+    "scene": "厨房的洗菜池里，妈妈把一把青菜按进水里。She immersed the vegetables in cold water to wash off the soil.",
+    "sceneCN": "这里 immerse 指「浸没」（第 2 个义项：把东西完全放进液体里）；句意：她把蔬菜浸在冷水里，冲掉泥土。",
+    "pos": [
+      {
+        "tag": "vt.",
+        "zh": "使沉浸；使陷入"
+      },
+      {
+        "tag": "vt.",
+        "zh": "浸没；浸泡"
+      },
+      {
+        "tag": "vi.",
+        "zh": "沉浸于；专心于"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "immerse oneself in",
+        "zh": "沉浸于；潜心于"
+      },
+      {
+        "phrase": "immerse in water",
+        "zh": "浸入水中"
+      },
+      {
+        "phrase": "be immersed in",
+        "zh": "沉浸于；专心于"
+      },
+      {
+        "phrase": "deeply immersed",
+        "zh": "深深沉浸的"
+      },
+      {
+        "phrase": "immerse students in",
+        "zh": "让学生沉浸于"
+      },
+      {
+        "phrase": "immersed in a book",
+        "zh": "埋头看书"
+      }
+    ],
+    "forms": [
+      {
+        "label": "三单",
+        "form": "immerses"
+      },
+      {
+        "label": "过去式",
+        "form": "immersed"
+      },
+      {
+        "label": "过去分词",
+        "form": "immersed"
+      },
+      {
+        "label": "现在分词",
+        "form": "immersing"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "immersion",
+        "pos": "n.",
+        "zh": "由 immerse 加名词后缀 -ion 构成，义为沉浸；浸没；语言学上的沉浸式教学"
+      },
+      {
+        "word": "immersive",
+        "pos": "adj.",
+        "zh": "加形容词后缀 -ive 构成，义为沉浸式的"
+      },
+      {
+        "word": "immersible",
+        "pos": "adj.",
+        "zh": "加后缀 -ible 构成，义为可浸入水中的"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "To Put Under Liquid",
+        "titleCN": "浸没；浸泡",
+        "definition": "to put something or someone completely under a liquid",
+        "definitionCN": "把某物或某人完全放入液体之中",
+        "example": "Immerse the cloth in warm water for a few minutes.",
+        "exampleCN": "把布浸在温水里几分钟。",
+        "why": "The Latin mers- means to dip or sink, so the core picture is a thing sinking right under the surface.",
+        "whyCN": "拉丁语 mers- 意为「浸入、下沉」，所以核心画面是物体整个沉到液面之下。"
+      },
+      {
+        "no": "02",
+        "title": "To Sink into a Medium",
+        "titleCN": "使沉入；使淹没",
+        "definition": "to let something become completely surrounded by a substance, light, or sound",
+        "definitionCN": "让某物被某种物质、光线或声音完全包围",
+        "example": "The room was immersed in a soft golden light.",
+        "exampleCN": "房间沐浴在柔和的金色光线里。",
+        "why": "Anything that surrounds a body like liquid can be the medium it sinks into, so light and sound take the place of water.",
+        "whyCN": "任何像液体一样包住身体的介质，都可以成为下沉的所在，于是水换成了光和声音。"
+      },
+      {
+        "no": "03",
+        "title": "To Absorb Someone Deeply",
+        "titleCN": "使沉浸；使陷入",
+        "definition": "to involve someone so completely that nothing else is noticed",
+        "definitionCN": "使人完全投入其中，以至于注意不到其他事情",
+        "example": "The story immersed him so deeply that he missed his stop.",
+        "exampleCN": "故事让他太投入了，连该下车的站都错过了。",
+        "why": "Being under water means the outside world goes quiet and muffled, which is exactly how full involvement feels.",
+        "whyCN": "沉在水下意味着外面的世界变得安静而模糊，这正是全身心投入的感受。"
+      },
+      {
+        "no": "04",
+        "title": "To Absorb Oneself in Study",
+        "titleCN": "专注于；潜心于",
+        "definition": "to spend all your attention on a subject or activity",
+        "definitionCN": "把全部注意力放在某个主题或活动上",
+        "example": "She immersed herself in local history for the whole summer.",
+        "exampleCN": "她整个夏天都潜心研究当地历史。",
+        "why": "The pattern immerse oneself in keeps the image of sinking and applies it to study: the learner goes all the way in.",
+        "whyCN": "immerse oneself in 这一结构保留了「下沉」的意象，并用到学习上：学习者一直沉到底。"
+      },
+      {
+        "no": "05",
+        "title": "To Reach Every Part",
+        "titleCN": "渗入；浸润",
+        "definition": "to fill or soak something completely through",
+        "definitionCN": "把某物里里外外都浸透、充满",
+        "example": "The old document was immersed in glue before it was pressed flat.",
+        "exampleCN": "这份旧文件在被压平之前先浸透了胶水。",
+        "why": "If something stays long enough under a liquid, the liquid reaches every part, which adds the sense of soaking all the way through.",
+        "whyCN": "东西在液体里泡得够久，液体就会到达每一处，这就增添了「浸透到底」的义项。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Immerse comes from Latin immersus, the past participle of immergere, which joins in-, meaning into, with mergere, meaning to dip or sink.",
+        "cn": "immerse 出自拉丁语 immergere 的过去分词 immersus，其中 in- 表示「进入」，mergere 表示「浸入、下沉」。"
+      },
+      "items": [
+        {
+          "era": "LATIN",
+          "en": "Mergere means to dip, plunge, or sink something into liquid.",
+          "cn": "mergere 意为把东西浸入、投入液体中。"
+        },
+        {
+          "era": "LATIN",
+          "en": "Immergere adds in- into that verb to mean plunge into.",
+          "cn": "immergere 在前者上加 in-（进入），意为「使沉入」。"
+        },
+        {
+          "era": "LATIN",
+          "en": "Immersus is the past participle, and the adjective immersus describes something sunk.",
+          "cn": "immersus 是过去分词，形容词 immersus 描述已经沉入水中的东西。"
+        },
+        {
+          "era": "ENGLISH, 16TH-17TH C.",
+          "en": "English borrows immerse mainly through Latin and French forms meaning to plunge into water.",
+          "cn": "英语主要通过拉丁语和法语形式借入 immerse，义为「投入水中」。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "Immersion and immersive extend the word to language teaching and computer games.",
+          "cn": "immersion 与 immersive 把这个词延伸到语言教学与电子游戏。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "Immerse belongs to the merge family and sits close to verbs about sinking into water or into an activity.",
+        "cn": "immerse 属于 merg 词族，与「沉入水中」或「投入活动」的动词相邻。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "immersion",
+              "ipa": "/ɪˈmɜːʃn/",
+              "tag": "derived noun",
+              "definition": "the act of putting something fully into liquid, or deep involvement",
+              "definitionCN": "浸没；沉浸"
+            },
+            {
+              "word": "immersive",
+              "ipa": "/ɪˈmɜːsɪv/",
+              "tag": "derived adjective",
+              "definition": "absorbing all your attention",
+              "definitionCN": "沉浸式的"
+            },
+            {
+              "word": "submerge",
+              "ipa": "/səbˈmɜːdʒ/",
+              "tag": "same root, different prefix",
+              "definition": "to go completely under water",
+              "definitionCN": "淹没；潜入水中"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "soak",
+              "ipa": "/səʊk/",
+              "tag": "near meaning",
+              "definition": "to make something completely wet by leaving it in liquid",
+              "definitionCN": "浸泡；使湿透"
+            },
+            {
+              "word": "absorb",
+              "ipa": "/əbˈzɔːb/",
+              "tag": "near meaning",
+              "definition": "to take in and hold attention or liquid",
+              "definitionCN": "吸收；使全神贯注"
+            },
+            {
+              "word": "engross",
+              "ipa": "/ɪnˈɡrəʊs/",
+              "tag": "near meaning, formal",
+              "definition": "to hold all of someones attention",
+              "definitionCN": "使全神贯注"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Immerse turns around the Latin verb mergere, to sink, paired with the prefix in- into, so every form keeps the picture of going down into something.",
+        "cn": "immerse 围绕拉丁语动词 mergere（下沉）与前缀 in-（进入）展开，各种形式都保留「沉下去」的画面。"
+      },
+      "normal": [
+        {
+          "en": "Immerse joins the prefix im- with the root merg-, which you also see in submerge and emerge.",
+          "cn": "immerse 用前缀 im- 加词根 merg-，submerge 与 emerge 里也能看到这个词根。"
+        },
+        {
+          "en": "The noun is immersion, and the adjective is immersive, as in an immersive game.",
+          "cn": "名词是 immersion，形容词是 immersive，如 an immersive game。"
+        },
+        {
+          "en": "The main pattern is immerse something in something, or immerse oneself in an activity.",
+          "cn": "主要结构是 immerse something in something，或 immerse oneself in 某种活动。"
+        },
+        {
+          "en": "Be immersed in means to be deeply involved, as in she was immersed in her work.",
+          "cn": "be immersed in 表示深陷其中，如「她埋头工作」就可以用它来表达。"
+        },
+        {
+          "en": "Family words built on the same root include submerge and emerge.",
+          "cn": "同一词根构成的同族词有 submerge 与 emerge。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "Picture yourself stepping down into a warm bath until the water covers your shoulders.",
+          "cn": "想象自己走进一池温水，一直沉到水没过肩膀。"
+        },
+        {
+          "en": "Think of the noise of the city fading away as you go under the surface.",
+          "cn": "想象沉到水面之下时，城市的噪声一点点消失。"
+        },
+        {
+          "en": "Imagine reading a novel so deeply that you do not hear your own name.",
+          "cn": "想象读一本小说读得入神，连别人叫你名字都没听见。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "Immerse the tea leaves in hot water for three minutes.",
+        "cn": "把茶叶浸泡在热水里三分钟。"
+      },
+      {
+        "en": "She was so immersed in the game that she forgot lunch.",
+        "cn": "她太投入游戏，把午饭都忘了。"
+      },
+      {
+        "en": "The museum immerses visitors in the daily life of ancient merchants.",
+        "cn": "博物馆让参观者沉浸在古代商人的日常生活里。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「一莫失」——人一沉进水里，就「莫失」了自己；这只是谐音联想，并非词源。",
+      "word": "immerse"
+    },
+    "root": "拉丁语 mergere（浸入、下沉）→ immergere（使沉入）→ 过去分词 immersus → 英语 immerse，核心义「整个沉进去」。",
+    "sensesIntro": {
+      "en": "Immerse starts with a body going under liquid, then stretches to light and sound that surround you, and finally to attention that sinks so deep that everything else disappears.",
+      "cn": "immerse 从身体沉入液体开始，扩展到包围你的光与声音，最后指注意力沉得深到让其他一切都消失。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: a whole body going down under the surface until the water closes over it.",
+        "cn": "核心意象：整个人沉到水面之下，水在头顶合拢。"
+      },
+      "chain": [
+        "INTO",
+        "DIP",
+        "SINK UNDER",
+        "SURROUNDED",
+        "ABSORBED",
+        "ENTRANCED"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "The physical sense of putting a thing into liquid is the root of everything else.",
+          "cn": "把东西放进液体里的物理义项是其他一切义项的根。"
+        },
+        {
+          "senses": "02",
+          "en": "Anything that surrounds like liquid can be the medium: light, sound, or weather.",
+          "cn": "任何像液体一样包围事物的介质都可以充当它：光线、声音或天气。"
+        },
+        {
+          "senses": "03",
+          "en": "A muffled underwater world becomes the image of complete attention.",
+          "cn": "水下沉闷安静的世界变成了完全专注的意象。"
+        },
+        {
+          "senses": "04",
+          "en": "Studying with no distraction is the everyday sense of immerging oneself in a subject.",
+          "cn": "心无旁骛地学习就是 immerse oneself in 某门学问的日常义项。"
+        },
+        {
+          "senses": "01 · 05",
+          "en": "Long soaking and total involvement share the idea of liquid reaching every part.",
+          "cn": "长时间浸泡与全身心投入共有「液体遍及每一处」的意念。"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "immerse is built from the Latin prefix in- and the root merg-, which also gives submerge, emerge, and the noun immersion.",
+        "cn": "immerse 由拉丁语前缀 in- 与词根 merg- 构成，同一词根还派生 submerge、emerge 以及名词 immersion。"
+      },
+      "latinIntro": {
+        "en": "Latin mergere means to dip or sink, immergere means to plunge into, and immersio means a dipping in.",
+        "cn": "拉丁语 mergere 意为浸入、下沉，immergere 意为使沉入，immersio 意为浸入。"
+      },
+      "items": [
+        {
+          "word": "im-",
+          "structure": "English prefix, from Latin in-",
+          "meaning": "into, in",
+          "meaningCN": "进入；里",
+          "example": "The prefix im- comes from Latin in- in immerse.",
+          "exampleCN": "immerse 中的前缀 im- 来自拉丁语 in-。"
+        },
+        {
+          "word": "merg-",
+          "structure": "Latin root",
+          "meaning": "to dip, to sink",
+          "meaningCN": "浸入；下沉",
+          "example": "The root merg- carries the image of sinking.",
+          "exampleCN": "词根 merg- 承载「下沉」的意象。"
+        },
+        {
+          "word": "immerse",
+          "structure": "English verb",
+          "meaning": "to put under liquid or involve deeply",
+          "meaningCN": "浸没；使沉浸",
+          "example": "Immerse is the borrowed verb.",
+          "exampleCN": "immerse 是借入的动词。"
+        },
+        {
+          "word": "-ion",
+          "structure": "English suffix",
+          "meaning": "action or process",
+          "meaningCN": "表示行为、过程的名词后缀",
+          "example": "The suffix -ion forms immersion.",
+          "exampleCN": "后缀 -ion 构成 immersion。"
+        },
+        {
+          "word": "immersion",
+          "structure": "English noun",
+          "meaning": "the act of immersing or deep involvement",
+          "meaningCN": "浸没；沉浸；沉浸式",
+          "example": "Immersion covers both the bath and the language class.",
+          "exampleCN": "immersion 既指浸在浴缸里，也指沉浸式课堂。"
+        },
+        {
+          "word": "-ive",
+          "structure": "English suffix",
+          "meaning": "having the quality of",
+          "meaningCN": "具有……性质的形容词后缀",
+          "example": "The suffix -ive forms immersive.",
+          "exampleCN": "后缀 -ive 构成 immersive。"
+        },
+        {
+          "word": "immersive",
+          "structure": "English adjective",
+          "meaning": "fully absorbing attention",
+          "meaningCN": "沉浸式的",
+          "example": "An immersive game pulls the player inside its world.",
+          "exampleCN": "沉浸式游戏把玩家拉进它的世界里。"
+        },
+        {
+          "word": "-ible",
+          "structure": "English suffix",
+          "meaning": "able to be",
+          "meaningCN": "能够被……的形容词后缀",
+          "example": "The suffix -ible forms immersible.",
+          "exampleCN": "后缀 -ible 构成 immersible。"
+        },
+        {
+          "word": "emerge",
+          "structure": "English verb",
+          "meaning": "to come out of water or appear",
+          "meaningCN": "浮现；出现",
+          "example": "The prefix e- removes the idea of sinking and means come out.",
+          "exampleCN": "前缀 e- 去掉「下沉」的意念，表示「出来」。"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "mergere",
+          "structure": "Latin verb",
+          "meaning": "to dip, to sink",
+          "meaningCN": "浸入；下沉"
+        },
+        {
+          "word": "immergere",
+          "structure": "Latin verb",
+          "meaning": "to plunge into",
+          "meaningCN": "使沉入"
+        },
+        {
+          "word": "immersus",
+          "structure": "Latin participle",
+          "meaning": "dipped or sunk into",
+          "meaningCN": "已浸入的；沉没的"
+        },
+        {
+          "word": "immersio",
+          "structure": "Latin noun",
+          "meaning": "a dipping in",
+          "meaningCN": "浸入"
+        }
+      ]
+    }
+  },
+  {
+    "word": "immersion",
+    "ipa_uk": "/ɪˈmɜːʃn/",
+    "ipa_us": "/ɪˈmɜːrʒn/",
+    "definition_zh": "浸没；专注投入；沉浸式学习；洗礼",
+    "definition_en": "the act of putting something completely into a liquid, or the state of being deeply involved in an activity or environment",
+    "core_image": "整个人连头带肩沉进水里，只剩头顶露出水面",
+    "scene": "学语言的学生被安排在说外语的家庭里同吃同住。Students in the programme learn French through total immersion, living and eating with French-speaking host families.",
+    "sceneCN": "这里 immersion 是「沉浸式学习」（第 2 个义项：把学习者完全放进目标语言的真实环境里），也就是常说的全浸入式教学；句意：项目中学生在法语家庭中同吃同住，通过完全沉浸来学法语。",
+    "pos": [
+      {
+        "tag": "n.",
+        "zh": "浸没；专心投入；沉浸式语言学习；洗礼"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "total immersion",
+        "zh": "完全浸没；全浸入式教学"
+      },
+      {
+        "phrase": "language immersion",
+        "zh": "语言沉浸式学习"
+      },
+      {
+        "phrase": "immersion in",
+        "zh": "对……的专注投入；沉浸在……中"
+      },
+      {
+        "phrase": "immersion course",
+        "zh": "沉浸式课程"
+      },
+      {
+        "phrase": "complete immersion",
+        "zh": "完全沉浸；彻底浸没"
+      },
+      {
+        "phrase": "deep immersion",
+        "zh": "深度参与；深度沉浸"
+      }
+    ],
+    "forms": [
+      {
+        "label": "复数",
+        "form": "immersions"
+      },
+      {
+        "label": "形容词",
+        "form": "immersive"
+      },
+      {
+        "label": "相关动词",
+        "form": "immerse"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "immerse",
+        "pos": "v.",
+        "zh": "由「放入水中」引申为「使沉浸、使专心」"
+      },
+      {
+        "word": "immersive",
+        "pos": "adj.",
+        "zh": "由 immerse 加 -ive 构成，义为「沉浸式的」"
+      },
+      {
+        "word": "immersed",
+        "pos": "adj.",
+        "zh": "由 immerse 的过去分词转化而来，义为「浸在水中；全神贯注的」"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "The act of plunging something into liquid",
+        "titleCN": "浸没；浸入水中",
+        "definition": "the action of putting something completely into a liquid so that it is covered",
+        "definitionCN": "把某物完全放入液体中，使其被液体盖住的动作",
+        "example": "Full immersion in cold water cools the metal quickly.",
+        "exampleCN": "完全浸入冷水中能让金属迅速冷却。",
+        "why": "The Latin base mersus means dipped, and the prefix in- means into, so immersion is literally a dipping into water.",
+        "whyCN": "拉丁语词干 mersus 意为「被浸入的」，前缀 in- 表示「进入」，所以 immersion 字面就是「浸入水中」，核心意象是一只整个没入水中的手或物。"
+      },
+      {
+        "no": "02",
+        "title": "Deep involvement in an activity or environment",
+        "titleCN": "沉浸；专注投入",
+        "definition": "a state of being so involved in something that you lose awareness of everything else",
+        "definitionCN": "对某事投入之深，以致忘掉周围一切的状态",
+        "example": "Her daily immersion in baroque music shaped her taste.",
+        "exampleCN": "她每天沉浸在巴洛克音乐中，塑造了自己的品味。",
+        "why": "The watery image turns mental, as being surrounded by a task or a world is like being covered by water.",
+        "whyCN": "当一个人被一项任务或一个世界整个包住时，就像被水包住一样，「浸在水里」的意象于是转为「沉浸其中」，注意力被包得没有缝隙。"
+      },
+      {
+        "no": "03",
+        "title": "A school programme in a second language",
+        "titleCN": "沉浸式语言教学",
+        "definition": "a teaching method in which lessons are given almost entirely in the target language",
+        "definitionCN": "几乎完全使用目标语言授课的教学方式",
+        "example": "Immersion in a second language helps children speak it naturally.",
+        "exampleCN": "第二语言的沉浸式学习能让孩子自然地开口说话。",
+        "why": "Learners are placed inside the language, so the older watery metaphor becomes the name of the method itself.",
+        "whyCN": "把学习者整个放进目标语言里，就像把人放进水中，这个旧比喻后来干脆成了这种教学法本身的名字。"
+      },
+      {
+        "no": "04",
+        "title": "Immersion in virtual or digital worlds",
+        "titleCN": "虚拟沉浸；身临其境",
+        "definition": "the effect of a game, film, or device that makes the user feel present inside the scene",
+        "definitionCN": "游戏、影片或设备令使用者仿佛身在现场的效果",
+        "example": "A headset adds a sense of immersion to the game.",
+        "exampleCN": "头戴设备让游戏多了一份身临其境的感觉。",
+        "why": "The user is placed inside the virtual scene and surrounded by it, exactly what water does to a body.",
+        "whyCN": "使用者被放进了虚拟场景之中并被其包围，和身体被水包围的感觉完全相同，于是技术界借用了这个词。"
+      },
+      {
+        "no": "05",
+        "title": "Immersion as a rite in baptism",
+        "titleCN": "浸礼；浸水式洗礼",
+        "definition": "the Christian rite of dipping a person completely in water",
+        "definitionCN": "基督教把人完全浸入水中的洗礼仪式",
+        "example": "That church performs a full immersion of each new member.",
+        "exampleCN": "那座教堂为每位新成员施行全身浸水礼。",
+        "why": "The earliest Christian baptism was a full dipping into a river, so the physical sense entered religious use first.",
+        "whyCN": "早期基督教洗礼是在河里整个人下水，因此「浸没」这个物理义项最先进入宗教用法，并一直保留到今天。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Immersion comes from Latin immersio, a dipping in, built on mergere, to dip.",
+        "cn": "immersion 来自拉丁语 immersio（浸入），词根为 mergere（浸没、下沉）。"
+      },
+      "items": [
+        {
+          "era": "PROTO-INDO-EUROPEAN",
+          "en": "The root meant to sink, traced in Latin mergere.",
+          "cn": "词根义为「下沉」，保存在拉丁语 mergere 中。"
+        },
+        {
+          "era": "LATIN",
+          "en": "Mergere means to dip or sink, and its participle gives mersus.",
+          "cn": "mergere 意为浸没、下沉，其分词形式为 mersus。"
+        },
+        {
+          "era": "LATIN",
+          "en": "Immersion is the noun for a dipping in.",
+          "cn": "immersion 是表示「浸入」的拉丁语名词。"
+        },
+        {
+          "era": "OLD FRENCH",
+          "en": "The noun travels through church Latin into French writers.",
+          "cn": "这个名词经由教会拉丁语进入法语写作。"
+        },
+        {
+          "era": "ENGLISH, 15TH C.",
+          "en": "English uses it first for baptism and for dipping objects in liquid.",
+          "cn": "英语先用于洗礼与把物体浸入液体。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "Later it extends to study, games, and virtual scenes.",
+          "cn": "其后又扩展到学习、游戏与虚拟场景。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "Immersion is a Latin noun of dipping, close to immerse, emersion, and immersion in a task or language.",
+        "cn": "immersion 是表示「浸入」的拉丁语名词，与 immerse、emersion 形近，与强调「专注」的说法意义相近。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "immerse",
+              "ipa": "/ɪˈmɜːs/",
+              "tag": "base verb",
+              "definition": "to put something completely into liquid",
+              "definitionCN": "浸没；使沉浸"
+            },
+            {
+              "word": "emerge",
+              "ipa": "/ɪˈmɜːdʒ/",
+              "tag": "same root",
+              "definition": "to come up out of water or into view",
+              "definitionCN": "浮现；露出水面"
+            },
+            {
+              "word": "submerge",
+              "ipa": "/səbˈmɜːdʒ/",
+              "tag": "same root",
+              "definition": "to cover something completely with water",
+              "definitionCN": "使沉没；淹没"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "absorption",
+              "ipa": "/əbˈzɔːpʃn/",
+              "tag": "near meaning",
+              "definition": "the state of being so interested that nothing else is noticed",
+              "definitionCN": "全神贯注；专心致志"
+            },
+            {
+              "word": "concentration",
+              "ipa": "/ˌkɒnsnˈtreɪʃn/",
+              "tag": "near meaning",
+              "definition": "the ability to give full attention to one thing",
+              "definitionCN": "专注；专心"
+            },
+            {
+              "word": "exposure",
+              "ipa": "/ɪkˈspəʊʒə/",
+              "tag": "language learning",
+              "definition": "the chance to hear and use a language regularly",
+              "definitionCN": "接触；语言环境"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Immersion is being inside water, and by extension inside a language, a task, or a virtual world.",
+        "cn": "immersion 是整个人在水里，进而引申为身在一种语言、一项任务或一个虚拟世界里。"
+      },
+      "normal": [
+        {
+          "en": "Immerse is the verb, and immersion is the noun that follows it.",
+          "cn": "immerse 是动词，immersion 是由它而来的名词。"
+        },
+        {
+          "en": "In a total immersion course, the teacher refuses the first language.",
+          "cn": "在 total immersion 课程里，老师拒绝使用母语。"
+        },
+        {
+          "en": "Immersion in a subject means thinking about it all day.",
+          "cn": "immersion in a subject 就是指一整天都在想这件事。"
+        },
+        {
+          "en": "The -sion ending marks a noun of action, as in immersion and submersion.",
+          "cn": "词尾 -sion 标记动作名词，immersion 与 submersion 都是如此。"
+        },
+        {
+          "en": "Compare absorption: both describe being completely taken in, but immersion keeps the water image.",
+          "cn": "对比 absorption：两者都表示被完全吸进去，但 immersion 保留了「水」的画面。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "Picture a diver going under with no part of the body left dry.",
+          "cn": "想象一名潜水者整个没入水下，身上没有一处是干的。"
+        },
+        {
+          "en": "Imagine an hour passing while you read without hearing anyone call you.",
+          "cn": "想象你读书读了一小时，却完全没听见有人喊你。"
+        },
+        {
+          "en": "See a classroom where every child speaks only the new language.",
+          "cn": "想象一间教室里，每个孩子都只用新语言说话。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "Immersion in cold water can be dangerous for young children.",
+        "cn": "对幼童来说，整个浸入冷水可能很危险。"
+      },
+      {
+        "en": "Some parents choose language immersion schools for their children.",
+        "cn": "一些家长为孩子选择语言沉浸式学校。"
+      },
+      {
+        "en": "The film creates a strong sense of immersion with its sound design.",
+        "cn": "这部电影凭借声音设计营造出很强的沉浸感。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「一莫身」——一头莫（没）进身子里，水把整个人都没过了，就是浸没；这只是谐音联想，与词源无关。",
+      "word": "immersion"
+    },
+    "root": "拉丁语 in-（进入）＋ mergere / mersus（浸没、下沉）＋ 名词词尾 -io → immersio（浸入）→ 古法语 → 英语 immersion，核心义「整个没入液体」。",
+    "sensesIntro": {
+      "en": "Immersion begins with the physical act of dipping, moves to being absorbed in an activity, then names a language programme, a virtual effect, and finally a baptism.",
+      "cn": "immersion 先指把东西整个浸入液体，再指整个人投入到某事或某种环境中，然后指语言教学法、虚拟体验，最后由宗教仪式保留古老的物理义项。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: a whole body going under water until nothing is left dry.",
+        "cn": "核心意象：整个人没入水中，身上没有一处是干的。"
+      },
+      "chain": [
+        "DIP",
+        "SINK",
+        "COVER COMPLETELY",
+        "SURROUND",
+        "ABSORB MIND",
+        "LIVE INSIDE LANGUAGE"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "The physical dipping is the oldest sense.",
+          "cn": "物理上的浸入是最古老的义项。"
+        },
+        {
+          "senses": "02",
+          "en": "Being surrounded by a task replaces water with attention.",
+          "cn": "被一项任务包围，水被注意力取代。"
+        },
+        {
+          "senses": "03",
+          "en": "A language programme puts the learner inside the language.",
+          "cn": "语言教学法把学习者整个放进目标语言里。"
+        },
+        {
+          "senses": "04",
+          "en": "A virtual world surrounds the senses in the same way water does.",
+          "cn": "虚拟世界像水一样包围人的感官。"
+        },
+        {
+          "senses": "05 · 01",
+          "en": "Baptism keeps the literal image of a full dipping.",
+          "cn": "洗礼保留了「整个人下水」的字面画面。"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Immersion is built from in-, the Latin verb mergere, and the noun ending -sion, with immerse and immersive in the family.",
+        "cn": "immersion 由前缀 in-、拉丁语动词 mergere 与名词词尾 -sion 构成，同一词族有 immerse 与 immersive。"
+      },
+      "latinIntro": {
+        "en": "Latin mergere means to dip, and its noun immersio means a dipping in.",
+        "cn": "拉丁语 mergere 意为浸没，其名词 immersio 意为浸入。"
+      },
+      "items": [
+        {
+          "word": "in-",
+          "structure": "Latin prefix",
+          "meaning": "into",
+          "meaningCN": "进入",
+          "example": "The prefix in- shows movement into water.",
+          "exampleCN": "前缀 in- 表示「进入」水中。"
+        },
+        {
+          "word": "mergere",
+          "structure": "Latin verb",
+          "meaning": "to dip or sink",
+          "meaningCN": "浸没；下沉",
+          "example": "Mergere gives the sinking image.",
+          "exampleCN": "mergere 提供「下沉」的意象。"
+        },
+        {
+          "word": "immersio",
+          "structure": "Latin noun",
+          "meaning": "a dipping in",
+          "meaningCN": "浸入",
+          "example": "Immersio is the direct source.",
+          "exampleCN": "immersio 是直接来源。"
+        },
+        {
+          "word": "-sion",
+          "structure": "English noun ending",
+          "meaning": "the act or process of",
+          "meaningCN": "动作或过程的名词词尾",
+          "example": "The ending -sion forms immersion.",
+          "exampleCN": "词尾 -sion 构成 immersion。"
+        },
+        {
+          "word": "immerse",
+          "structure": "English verb",
+          "meaning": "to put completely into liquid",
+          "meaningCN": "浸没；使沉浸",
+          "example": "Immerse is the verb behind the noun.",
+          "exampleCN": "immerse 是这个名词背后的动词。"
+        },
+        {
+          "word": "-ive",
+          "structure": "English suffix",
+          "meaning": "having the quality of",
+          "meaningCN": "具有……性质的词尾",
+          "example": "The suffix -ive forms immersive.",
+          "exampleCN": "词尾 -ive 构成 immersive。"
+        },
+        {
+          "word": "immersive",
+          "structure": "English adjective",
+          "meaning": "surrounding the user completely",
+          "meaningCN": "沉浸式的",
+          "example": "Immersive describes a game or show.",
+          "exampleCN": "immersive 形容游戏或演出。"
+        },
+        {
+          "word": "emerge",
+          "structure": "English verb",
+          "meaning": "to come up out of water",
+          "meaningCN": "浮现；露出水面",
+          "example": "Emerge is the opposite movement.",
+          "exampleCN": "emerge 表示相反的方向。"
+        },
+        {
+          "word": "submerge",
+          "structure": "English verb",
+          "meaning": "to cover with water",
+          "meaningCN": "淹没；使沉没",
+          "example": "Submerge adds sub-, meaning under.",
+          "exampleCN": "submerge 加上 sub-，表示「在下面」。"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "mergere",
+          "structure": "Latin verb",
+          "meaning": "to dip or sink",
+          "meaningCN": "浸没；下沉"
+        },
+        {
+          "word": "mersus",
+          "structure": "Latin participle",
+          "meaning": "dipped, sunk",
+          "meaningCN": "被浸入的；下沉的"
+        },
+        {
+          "word": "immersio",
+          "structure": "Latin noun",
+          "meaning": "a dipping in",
+          "meaningCN": "浸入"
+        },
+        {
+          "word": "emersus",
+          "structure": "Latin participle",
+          "meaning": "come up out of water",
+          "meaningCN": "浮出水面的"
+        }
+      ]
+    }
+  },
+  {
+    "word": "imminent",
+    "ipa_uk": "/ˈɪmɪnənt/",
+    "ipa_us": "/ˈɪmɪnənt/",
+    "definition_zh": "即将发生的；逼近的；迫在眉睫的",
+    "definition_en": "likely to happen very soon, especially something unpleasant or serious",
+    "core_image": "乌云压到头顶，雨点马上就要落下来",
+    "scene": "台风还在海上，但沿海的小镇已经关店停课。The fishing boats came back early because a typhoon was imminent.",
+    "sceneCN": "这里 imminent 是「即将发生的」（第 1 个义项：某件事再过一会儿就要发生），句意：台风即将到来，渔船早早回港。",
+    "pos": [
+      {
+        "tag": "adj.",
+        "zh": "即将发生的；逼近的；迫在眉睫的"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "imminent danger",
+        "zh": "迫近的危险"
+      },
+      {
+        "phrase": "imminent threat",
+        "zh": "迫在眉睫的威胁"
+      },
+      {
+        "phrase": "imminent collapse",
+        "zh": "即将发生的崩溃"
+      },
+      {
+        "phrase": "imminent arrival",
+        "zh": "即将到来"
+      },
+      {
+        "phrase": "imminent danger to life",
+        "zh": "对生命迫近的危险"
+      },
+      {
+        "phrase": "seem imminent",
+        "zh": "似乎迫在眉睫"
+      }
+    ],
+    "forms": [
+      {
+        "label": "比较级",
+        "form": "more imminent"
+      },
+      {
+        "label": "最高级",
+        "form": "most imminent"
+      },
+      {
+        "label": "副词",
+        "form": "imminently"
+      },
+      {
+        "label": "名词",
+        "form": "imminence"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "imminently",
+        "pos": "adv.",
+        "zh": "加副词词尾 -ly，义为「即将地；迫近地」"
+      },
+      {
+        "word": "imminence",
+        "pos": "n.",
+        "zh": "加名词词尾 -ence，义为「迫近；即将发生」"
+      },
+      {
+        "word": "impending",
+        "pos": "adj.",
+        "zh": "由 pendere（悬挂）构成的同义说法，义为「即将降临的」"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "About to happen very soon",
+        "titleCN": "即将发生的；为期不远的",
+        "definition": "certain or very likely to happen in a very short time",
+        "definitionCN": "在极短的时间内确定或很可能发生",
+        "example": "The two sides agreed that war was imminent.",
+        "exampleCN": "双方都同意战争迫在眉睫。",
+        "why": "The Latin verb minere means to overhang, so what is imminent hangs over our heads and is about to fall.",
+        "whyCN": "拉丁语动词 minere 意为「悬在上方」，所以 imminent 描述的事就悬在我们头顶、随时落下。"
+      },
+      {
+        "no": "02",
+        "title": "Danger that may strike without delay",
+        "titleCN": "（危险）迫近的",
+        "definition": "threatening danger that calls for immediate action",
+        "definitionCN": "威胁临近，需要立即采取行动的危险",
+        "example": "The sign warns of imminent rock fall on the cliff.",
+        "exampleCN": "标牌警告崖壁有落石危险。",
+        "why": "The overhanging image suits threats better than anything else, so danger words dominate its use.",
+        "whyCN": "「悬在头顶」的画面最适合形容威胁，所以这个词常与危险类词语搭配。"
+      },
+      {
+        "no": "03",
+        "title": "An event or arrival that is close in time",
+        "titleCN": "临近的；即将到来的（中性）",
+        "definition": "an event that is approaching, used without a negative tone",
+        "definitionCN": "正在靠近的事件，不带负面语气",
+        "example": "The imminent arrival of spring changed the mood of the town.",
+        "exampleCN": "春天即将到来，小镇的气氛也变了。",
+        "why": "Once the word means simply close at hand, it can describe neutral events as well as threats.",
+        "whyCN": "当这个词只表示「马上就要到」，它也能形容中性的事件，「悬在头顶」的紧张感就淡了。"
+      },
+      {
+        "no": "04",
+        "title": "Legal and formal use for an urgent risk",
+        "titleCN": "（法律、公文）紧迫的；事态紧急的",
+        "definition": "used in official texts for a risk that requires action before it becomes serious",
+        "definitionCN": "公文术语中用于指事态在恶化前须立即处理的紧急风险",
+        "example": "Officials declared an imminent risk to public health.",
+        "exampleCN": "官员宣布公共卫生面临事态紧急的风险。",
+        "why": "Law and diplomacy need a precise word for a present threat, and they found it in the classical sense.",
+        "whyCN": "法律与外交需要精确表达「眼前的威胁」，于是沿用了这个词的古典含义。"
+      },
+      {
+        "no": "05",
+        "title": "Signs that something is about to happen",
+        "titleCN": "（迹象）预示即将发生的",
+        "definition": "said of signs or warnings that show an event is close",
+        "definitionCN": "指迹象或预警显示某事即将发生",
+        "example": "Heavy traffic was an imminent sign of the holiday rush.",
+        "exampleCN": "车流拥堵是个明确的信号，说明假日出行高峰即将到来。",
+        "why": "The sight of something hanging overhead is itself the sign of an approaching fall.",
+        "whyCN": "头顶悬挂之物的样子，本身就是一个「将要落下」的征兆。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Imminent comes from Latin imminere, to overhang or threaten, built on minere, to project.",
+        "cn": "imminent 来自拉丁语 imminere（悬在上方、威胁），词根为 minere（突出、伸出）。"
+      },
+      "items": [
+        {
+          "era": "PROTO-INDO-EUROPEAN",
+          "en": "The base is generally traced to a root meaning to project or stand out.",
+          "cn": "词基一般认为来自表示「突出、伸出」的远古词根。"
+        },
+        {
+          "era": "LATIN",
+          "en": "Minere means to project, and minae means threats.",
+          "cn": "minere 意为突出，minae 意为威胁。"
+        },
+        {
+          "era": "LATIN",
+          "en": "Imminere means to overhang, and immineo means I hang over.",
+          "cn": "imminere 意为悬在上方，immineo 意为「我悬在……之上」。"
+        },
+        {
+          "era": "OLD FRENCH",
+          "en": "The adjective imminent enters French with the sense of threatening.",
+          "cn": "形容词 imminent 以「威胁性的」之意进入法语。"
+        },
+        {
+          "era": "ENGLISH, 16TH C.",
+          "en": "English adopts imminent for something about to happen.",
+          "cn": "英语在十六世纪引进 imminent，指即将发生的事。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "Modern English also uses it for neutral arrivals, as in an imminent award.",
+          "cn": "现代英语也用它形容中性事件，如奖项即将颁发。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "Imminent is a classical adjective of overhanging, easily confused with the near homophones immanent and eminent.",
+        "cn": "imminent 是表示「悬在上方」的古典形容词，容易与同音的 immanent、eminent 混淆。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "immanent",
+              "ipa": "/ˈɪmənənt/",
+              "tag": "sound-alike",
+              "definition": "present everywhere inside the world",
+              "definitionCN": "内在的；无所不在的；只是读音相近，词源不同"
+            },
+            {
+              "word": "eminent",
+              "ipa": "/ˈemɪnənt/",
+              "tag": "sound-alike",
+              "definition": "famous and respected in a field",
+              "definitionCN": "著名的；杰出的；只是读音相近，词源不同"
+            },
+            {
+              "word": "imminence",
+              "ipa": "/ˈɪmɪnəns/",
+              "tag": "derived form",
+              "definition": "the state of being about to happen",
+              "definitionCN": "迫近；即将发生"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "impending",
+              "ipa": "/ɪmˈpendɪŋ/",
+              "tag": "near meaning",
+              "definition": "about to happen soon, usually unpleasant",
+              "definitionCN": "即将发生的；逼近的"
+            },
+            {
+              "word": "forthcoming",
+              "ipa": "/ˌfɔːθˈkʌmɪŋ/",
+              "tag": "near meaning",
+              "definition": "going to happen or appear soon",
+              "definitionCN": "即将到来的；即将推出的"
+            },
+            {
+              "word": "upcoming",
+              "ipa": "/ˈʌpkʌmɪŋ/",
+              "tag": "informal",
+              "definition": "happening soon",
+              "definitionCN": "即将到来的（较轻松）"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Imminent keeps the Latin image of something hanging over your head, about to drop.",
+        "cn": "imminent 保留了拉丁语「有东西悬在头顶、即将落下」的画面。"
+      },
+      "normal": [
+        {
+          "en": "The in- prefix puts the event over you, so it hangs like a storm cloud.",
+          "cn": "前缀 in- 表示「在上面」，事情就像雷雨云一样压在你头顶。"
+        },
+        {
+          "en": "Imminent danger is the most common pair, so learn the two together.",
+          "cn": "imminent danger 是最常见的搭配，最好两个词一起记。"
+        },
+        {
+          "en": "The adverb is imminently, as in a storm that is imminently due.",
+          "cn": "副词是 imminently，例如暴风雨马上要来。"
+        },
+        {
+          "en": "Keep the double m: imminent ends in -nent, like permanent.",
+          "cn": "记住双写的 m：imminent 结尾是 -nent，和 permanent 一样。"
+        },
+        {
+          "en": "Compare impending: both mean coming soon, but imminent stresses how close it now is.",
+          "cn": "对比 impending：两者都指快来了，但 imminent 更强调「就在眼前」。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "See a heavy cloud hanging just above the roof.",
+          "cn": "想象一片沉甸甸的云就挂在屋顶上。"
+        },
+        {
+          "en": "Think of a red warning light blinking faster each second.",
+          "cn": "想象一盏红色警示灯一秒比一秒闪得快。"
+        },
+        {
+          "en": "Picture a runner leaning forward at the starting line.",
+          "cn": "想象一名短跑运动员在起跑线上身体前倾。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "The village was told that the flood was imminent.",
+        "cn": "村里接到通知，洪水即将到来。"
+      },
+      {
+        "en": "She felt the danger was so imminent that she called the police.",
+        "cn": "她感到危险迫在眉睫，于是报了警。"
+      },
+      {
+        "en": "Nobody expected the collapse of the bridge to be imminent.",
+        "cn": "没人料到桥梁的坍塌近在眼前。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「一觅们」——大家四处寻觅着出口，因为危险已经悬在头顶，马上就要来；这只是谐音联想，与词源无关。",
+      "word": "imminent"
+    },
+    "root": "拉丁语 in-（在上）＋ minere（突出、悬伸）→ imminere（悬在上方、威胁）→ 古法语 imminent → 英语 imminent，核心义「悬在头顶、即将落下」。",
+    "sensesIntro": {
+      "en": "Imminent starts as a hovering threat, keeps that force in danger phrases, then spreads to any event close in time and to official wording.",
+      "cn": "imminent 起于「悬在头顶的威胁」，在危险语境里保持这种压迫感，随后扩展到任何即将发生的事件，也成为公文用词。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: a storm cloud hanging just above the roof.",
+        "cn": "核心意象：一片乌云就悬在屋顶上方。"
+      },
+      "chain": [
+        "PROJECT",
+        "OVERHANG",
+        "THREATEN",
+        "ABOUT TO FALL",
+        "AT HAND",
+        "OFFICIAL WARNING"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "Soon to happen is the plain time sense.",
+          "cn": "「很快就要发生」是最朴素的时间义项。"
+        },
+        {
+          "senses": "02",
+          "en": "Overhanging danger is the core threat sense.",
+          "cn": "悬顶的危险是核心的威胁义项。"
+        },
+        {
+          "senses": "03",
+          "en": "Neutral arrivals show the word without fear.",
+          "cn": "中性事件的用法去掉了恐惧色彩。"
+        },
+        {
+          "senses": "04",
+          "en": "Official documents use the word for urgent risk.",
+          "cn": "公文用它表示事态紧急的风险。"
+        },
+        {
+          "senses": "05 · 01",
+          "en": "A sign that something will happen soon belongs with the time sense.",
+          "cn": "预示即将发生的迹象，与时间义项相呼应。"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Imminent is built from the Latin prefix in-, the stem min-, and the adjective ending -ent, with imminently and imminence beside it.",
+        "cn": "imminent 由前缀 in-、词干 min- 与形容词词尾 -ent 构成，同族还有 imminently 与 imminence。"
+      },
+      "latinIntro": {
+        "en": "Latin minere means to project, and imminere means to hang over.",
+        "cn": "拉丁语 minere 意为突出，imminere 意为悬在上方。"
+      },
+      "items": [
+        {
+          "word": "in-",
+          "structure": "Latin prefix",
+          "meaning": "on, over",
+          "meaningCN": "在上；向着",
+          "example": "The prefix in- places the event over our heads.",
+          "exampleCN": "前缀 in- 把事情放到头顶上方。"
+        },
+        {
+          "word": "minere",
+          "structure": "Latin verb",
+          "meaning": "to project, to overhang",
+          "meaningCN": "突出；悬伸",
+          "example": "Minere gives the projecting image.",
+          "exampleCN": "minere 提供「突出」的意象。"
+        },
+        {
+          "word": "imminere",
+          "structure": "Latin verb",
+          "meaning": "to overhang, to threaten",
+          "meaningCN": "悬在上方；威胁",
+          "example": "Imminere is the direct source of the adjective.",
+          "exampleCN": "imminere 是这个形容词的直接来源。"
+        },
+        {
+          "word": "-ent",
+          "structure": "Latin adjective ending",
+          "meaning": "being in a state",
+          "meaningCN": "处于某种状态的词尾",
+          "example": "The ending -ent forms imminent.",
+          "exampleCN": "词尾 -ent 构成 imminent。"
+        },
+        {
+          "word": "-ly",
+          "structure": "English suffix",
+          "meaning": "in this manner",
+          "meaningCN": "以……方式",
+          "example": "The suffix -ly forms imminently.",
+          "exampleCN": "词尾 -ly 构成 imminently。"
+        },
+        {
+          "word": "-ence",
+          "structure": "English suffix",
+          "meaning": "state or quality",
+          "meaningCN": "状态或性质",
+          "example": "The suffix -ence forms imminence.",
+          "exampleCN": "词尾 -ence 构成 imminence。"
+        },
+        {
+          "word": "prominent",
+          "structure": "English adjective",
+          "meaning": "standing out",
+          "meaningCN": "突出的；著名的",
+          "example": "Prominent uses pro-, meaning forward.",
+          "exampleCN": "prominent 用 pro-，表示「向前」。"
+        },
+        {
+          "word": "eminent",
+          "structure": "English adjective",
+          "meaning": "standing above others",
+          "meaningCN": "杰出的",
+          "example": "Eminent uses e-, meaning out.",
+          "exampleCN": "eminent 用 e-，表示「向外」。"
+        },
+        {
+          "word": "impending",
+          "structure": "English adjective",
+          "meaning": "about to happen",
+          "meaningCN": "即将发生的",
+          "example": "Impending comes from pendere, to hang.",
+          "exampleCN": "impending 来自 pendere（悬挂）。"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "minere",
+          "structure": "Latin verb",
+          "meaning": "to project",
+          "meaningCN": "突出；伸出"
+        },
+        {
+          "word": "minae",
+          "structure": "Latin noun",
+          "meaning": "threats",
+          "meaningCN": "威胁"
+        },
+        {
+          "word": "imminere",
+          "structure": "Latin verb",
+          "meaning": "to overhang",
+          "meaningCN": "悬在上方；威胁"
+        },
+        {
+          "word": "immineo",
+          "structure": "Latin verb",
+          "meaning": "I hang over",
+          "meaningCN": "我悬在……之上"
+        }
+      ]
+    }
+  },
+  {
+    "word": "immobile",
+    "ipa_uk": "/ɪˈməʊbaɪl/",
+    "ipa_us": "/ɪˈmoʊbl/",
+    "definition_zh": "不能移动的；固定的；一动不动的",
+    "definition_en": "unable to move, or not moving at all",
+    "core_image": "一个人僵在原地，双脚像被钉在地面上",
+    "scene": "救护车赶到时，伤者平躺在地，背和脖子都不能动。After the accident he lay immobile on the road until the ambulance arrived.",
+    "sceneCN": "这里 immobile 是「一动不动的」（第 2 个义项：身体无法活动或保持静止），句意：事故后他一动不动地躺在路上，直到救护车赶到。",
+    "pos": [
+      {
+        "tag": "adj.",
+        "zh": "不能移动的；不能活动的；静止不动的"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "remain immobile",
+        "zh": "保持不动"
+      },
+      {
+        "phrase": "lie immobile",
+        "zh": "一动不动地躺着"
+      },
+      {
+        "phrase": "hold someone immobile",
+        "zh": "使某人无法动弹"
+      },
+      {
+        "phrase": "immobile for hours",
+        "zh": "数小时动弹不得"
+      },
+      {
+        "phrase": "an immobile arm",
+        "zh": "无法活动的手臂"
+      },
+      {
+        "phrase": "immobile heavy machinery",
+        "zh": "无法移动的重型机械"
+      }
+    ],
+    "forms": [
+      {
+        "label": "比较级",
+        "form": "more immobile"
+      },
+      {
+        "label": "最高级",
+        "form": "most immobile"
+      },
+      {
+        "label": "名词",
+        "form": "immobility"
+      },
+      {
+        "label": "动词",
+        "form": "immobilize"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "immobility",
+        "pos": "n.",
+        "zh": "加名词词尾 -ity，义为「不能移动；静止不动」"
+      },
+      {
+        "word": "immobilize",
+        "pos": "v.",
+        "zh": "加动词词尾 -ize，义为「使固定不动；使无法活动」"
+      },
+      {
+        "word": "immobilized",
+        "pos": "adj.",
+        "zh": "immobilize 的过去分词，义为「被固定住的」"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "Unable to move from injury or illness",
+        "titleCN": "（身体）不能活动的；动弹不得的",
+        "definition": "not able to move the body because of injury, illness, or age",
+        "definitionCN": "因受伤、生病或年老而无法活动身体",
+        "example": "His knee was immobile for six weeks after surgery.",
+        "exampleCN": "手术后他的膝盖有六周不能活动。",
+        "why": "The Latin prefix in- means not, and mobilis means able to move, so immobile is simply not able to move.",
+        "whyCN": "拉丁语前缀 in- 表示「不」，mobilis 表示「能动的」，所以 immobile 字面上就是「不能动」。"
+      },
+      {
+        "no": "02",
+        "title": "Not moving at all",
+        "titleCN": "静止不动的",
+        "definition": "standing or lying still and making no movement",
+        "definitionCN": "站或躺着完全静止，没有任何动作",
+        "example": "The cat stood immobile beside the open door.",
+        "exampleCN": "猫一动不动地站在敞开的门边。",
+        "why": "The same word covers a short state of stillness, not just a lasting inability.",
+        "whyCN": "同一个词也涵盖短暂的静止状态，并不限于长久的不能活动。"
+      },
+      {
+        "no": "03",
+        "title": "Fixed and impossible to move",
+        "titleCN": "（物体）固定的；不能移动的",
+        "definition": "said of an object that is heavy or fixed in place and hard to shift",
+        "definitionCN": "形容物体沉重或固定在原处、难以挪动",
+        "example": "The old safe was too immobile to move upstairs.",
+        "exampleCN": "那只旧保险箱重得没法搬上楼。",
+        "why": "The prefix applies as easily to things as to bodies, so a fixed object is also immobile.",
+        "whyCN": "前缀 in- 既能加在人身上，也能加在物体上，所以固定不动的物体同样称为 immobile。"
+      },
+      {
+        "no": "04",
+        "title": "Stuck in social or economic terms",
+        "titleCN": "（人）难以流动的；困在原地的",
+        "definition": "unable to change social class, job, or position",
+        "definitionCN": "无法改变阶层、职业或处境",
+        "example": "Low wages left many workers immobile in the same job.",
+        "exampleCN": "低工资让许多工人困在同一份工作里难以流动。",
+        "why": "Social movement is imagined as physical movement, so people who cannot rise are called immobile.",
+        "whyCN": "社会流动被想象成身体的移动，所以无法向上流动的人被形容为 immobile。"
+      },
+      {
+        "no": "05",
+        "title": "Kept still by a device or restraint",
+        "titleCN": "（因固定装置而）被制动的",
+        "definition": "held still by a splint, cast, or brake",
+        "definitionCN": "由夹板、石膏或制动装置保持不动",
+        "example": "The leg stays immobile inside the cast for a month.",
+        "exampleCN": "腿在石膏里要固定一个月不动。",
+        "why": "Medicine and machines take the plain sense and apply it to concrete means of holding still.",
+        "whyCN": "医学和机械把朴素的「不能动」义应用到具体的固定手段上。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Immobile is Latin for immovable, made of in-, meaning not, and mobilis, from movere, to move.",
+        "cn": "immobile 在拉丁语中就是「不能移动的」，由 in-（不）与 mobilis（可动的，来自 movere「移动」）构成。"
+      },
+      "items": [
+        {
+          "era": "PROTO-INDO-EUROPEAN",
+          "en": "The base movere goes back to a root meaning to push away.",
+          "cn": "movere 可上溯到表示「推、推开」的古老词根。"
+        },
+        {
+          "era": "LATIN",
+          "en": "Movere means to move, and mobilis means able to be moved.",
+          "cn": "movere 意为移动，mobilis 意为可移动的。"
+        },
+        {
+          "era": "LATIN",
+          "en": "Immobilis means not movable, and immobilis is used of fixed objects.",
+          "cn": "immobilis 意为不可移动的，常用于固定的物体。"
+        },
+        {
+          "era": "OLD FRENCH",
+          "en": "French borrowed the word as immobile in the sense of unable to move.",
+          "cn": "法语借入该词为 immobile，指不能移动的。"
+        },
+        {
+          "era": "ENGLISH, 17TH C.",
+          "en": "English uses immobile for both fixed objects and still bodies.",
+          "cn": "英语在十七世纪用 immobile 形容固定物体与静止的身体。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "Modern English adds social uses, as in socially immobile groups.",
+          "cn": "现代英语又增加了社会语域的用法，如难以流动的群体。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "Immobile is a negated adjective from movere, close to mobile, mobility, and immobility, and to words for being still.",
+        "cn": "immobile 是由 movere 加否定前缀构成的形容词，与 mobile、mobility、immobility 同根，与「静止不动」一类词意义相近。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "mobile",
+              "ipa": "/ˈməʊbaɪl/",
+              "tag": "same root",
+              "definition": "able to move or be moved easily",
+              "definitionCN": "可移动的；能活动的"
+            },
+            {
+              "word": "immobility",
+              "ipa": "/ˌɪməˈbɪləti/",
+              "tag": "derived form",
+              "definition": "the state of being unable to move",
+              "definitionCN": "不能移动；静止不动"
+            },
+            {
+              "word": "immobilize",
+              "ipa": "/ɪˈməʊbəlaɪz/",
+              "tag": "derived form",
+              "definition": "to make something unable to move",
+              "definitionCN": "使固定不动；使无法活动"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "motionless",
+              "ipa": "/ˈməʊʃnləs/",
+              "tag": "near meaning",
+              "definition": "not moving at all",
+              "definitionCN": "一动不动的"
+            },
+            {
+              "word": "stationary",
+              "ipa": "/ˈsteɪʃənri/",
+              "tag": "near meaning",
+              "definition": "not moving or standing still",
+              "definitionCN": "静止的；不动的"
+            },
+            {
+              "word": "paralysed",
+              "ipa": "/ˈpærəlaɪzd/",
+              "tag": "near meaning",
+              "definition": "unable to move part of the body",
+              "definitionCN": "瘫痪的；身体无法活动的"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Immobile joins in-, the negative prefix, to mobile, from Latin movere, so it says plainly not able to move.",
+        "cn": "immobile 把否定前缀 in- 与 mobile（来自拉丁语 movere，移动）接在一起，朴素地表示「不能动」。"
+      },
+      "normal": [
+        {
+          "en": "Mobile is the positive partner, as in a mobile phone.",
+          "cn": "与之相对的是 mobile，例如 mobile phone 里的 mobile。"
+        },
+        {
+          "en": "The noun is immobility, the state of not moving.",
+          "cn": "名词是 immobility，指不能移动的状态。"
+        },
+        {
+          "en": "Immobilize is the verb used for splints and casts.",
+          "cn": "动词 immobilize 常用于夹板和石膏的语境。"
+        },
+        {
+          "en": "Compare mobility: the word keeps the same mov- stem behind both forms.",
+          "cn": "对比 mobility：两者背后是同一个 mov- 词干。"
+        },
+        {
+          "en": "Lie still is the everyday way of saying stay immobile.",
+          "cn": "日常说 stay immobile 就是「躺着别动」。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "Picture a statue that wears a coat but never walks.",
+          "cn": "想象一尊穿着外套却从不行走的雕像。"
+        },
+        {
+          "en": "See a child who freezes mid-step during a game.",
+          "cn": "想象一个孩子在游戏中迈到一半就僵住不动了。"
+        },
+        {
+          "en": "Imagine a heavy machine rooted to the factory floor.",
+          "cn": "想象一台重型机器在车间地面上生了根。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "He stayed immobile until the rescue team reached the shaft.",
+        "cn": "他一动不动，直到救援队到达竖井。"
+      },
+      {
+        "en": "Scans show the arm will be immobile for several months.",
+        "cn": "扫描显示这条手臂将有几个月不能活动。"
+      },
+      {
+        "en": "Poor road links keep the region economically immobile.",
+        "cn": "交通不畅让这个地区经济上难以流动。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「硬莫摆」——硬邦邦的，想怎么摆都摆不动，就是不能移动；这只是谐音联想，与词源无关。",
+      "word": "immobile"
+    },
+    "root": "拉丁语 in-（不）＋ mobilis（可移动的，来自 movere「移动」）→ 拉丁语 immobilis（不可移动的）→ 法语 immobile → 英语 immobile，核心义「不能动」。",
+    "sensesIntro": {
+      "en": "Immobile applies the negative in- to movere, so it covers bodies that cannot move, things that are still or fixed, and people who cannot move up in society.",
+      "cn": "immobile 把否定前缀 in- 加到 movere（移动）前，因此既能指无法活动的身体，也能指静止或固定的物体，还能指难以向上流动的人。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: a body frozen in place with feet nailed to the road.",
+        "cn": "核心意象：一个人僵在原地，双脚像被钉在地面上。"
+      },
+      "chain": [
+        "MOVE",
+        "ABLE TO MOVE",
+        "NOT ABLE TO MOVE",
+        "STILL",
+        "FIXED IN PLACE",
+        "UNABLE TO RISE"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "The inability of a body is the first sense.",
+          "cn": "身体无法活动是第一个义项。"
+        },
+        {
+          "senses": "02",
+          "en": "Standing still is the brief version of the same idea.",
+          "cn": "静止不动是同一概念短暂化的版本。"
+        },
+        {
+          "senses": "03",
+          "en": "Fixed objects show the literal sense applied to things.",
+          "cn": "固定的物体体现字面义在物体上的应用。"
+        },
+        {
+          "senses": "04",
+          "en": "Social movement borrows the image of the body.",
+          "cn": "社会流动借用了身体移动的画面。"
+        },
+        {
+          "senses": "05 · 01",
+          "en": "Splints and casts keep the limb in the first sense.",
+          "cn": "夹板与石膏让肢体保持第一个义项的状态。"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Immobile is the negative of mobile, built on the Latin stem mov-, with immobility and immobilize around it.",
+        "cn": "immobile 是 mobile 的否定形式，词干来自拉丁语 mov-，周围有 immobility 与 immobilize。"
+      },
+      "latinIntro": {
+        "en": "Latin movere means to move, and mobilis means able to be moved.",
+        "cn": "拉丁语 movere 意为移动，mobilis 意为可移动的。"
+      },
+      "items": [
+        {
+          "word": "in-",
+          "structure": "Latin prefix",
+          "meaning": "not",
+          "meaningCN": "不；非",
+          "example": "The prefix in- makes mobile into immobile.",
+          "exampleCN": "前缀 in- 把 mobile 变成 immobile。"
+        },
+        {
+          "word": "movere",
+          "structure": "Latin verb",
+          "meaning": "to move",
+          "meaningCN": "移动；推动",
+          "example": "Movere gives the moving image.",
+          "exampleCN": "movere 提供「移动」的意象。"
+        },
+        {
+          "word": "mobilis",
+          "structure": "Latin adjective",
+          "meaning": "able to be moved",
+          "meaningCN": "可移动的",
+          "example": "Mobilis is the positive base of the pair.",
+          "exampleCN": "mobilis 是这一对词的肯定基础。"
+        },
+        {
+          "word": "-ile",
+          "structure": "Latin adjective ending",
+          "meaning": "able to be",
+          "meaningCN": "能够被……的",
+          "example": "The ending -ile forms mobile.",
+          "exampleCN": "词尾 -ile 构成 mobile。"
+        },
+        {
+          "word": "-ity",
+          "structure": "English suffix",
+          "meaning": "state or condition",
+          "meaningCN": "状态或性质",
+          "example": "The suffix -ity forms immobility.",
+          "exampleCN": "词尾 -ity 构成 immobility。"
+        },
+        {
+          "word": "-ize",
+          "structure": "English suffix",
+          "meaning": "to make",
+          "meaningCN": "使成为",
+          "example": "The suffix -ize forms immobilize.",
+          "exampleCN": "词尾 -ize 构成 immobilize。"
+        },
+        {
+          "word": "mobile",
+          "structure": "English adjective",
+          "meaning": "able to move",
+          "meaningCN": "可移动的",
+          "example": "Mobile is the everyday positive form.",
+          "exampleCN": "mobile 是日常的肯定形式。"
+        },
+        {
+          "word": "moment",
+          "structure": "English noun",
+          "meaning": "a very short time",
+          "meaningCN": "片刻",
+          "example": "Moment shares the mov- stem, meaning a movement of time.",
+          "exampleCN": "moment 共享 mov- 词干，指时间的一次移动。"
+        },
+        {
+          "word": "promote",
+          "structure": "English verb",
+          "meaning": "to move forward",
+          "meaningCN": "促进；提升",
+          "example": "Promote moves someone forward.",
+          "exampleCN": "promote 表示把人往前推。"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "movere",
+          "structure": "Latin verb",
+          "meaning": "to move",
+          "meaningCN": "移动"
+        },
+        {
+          "word": "mobilis",
+          "structure": "Latin adjective",
+          "meaning": "able to be moved",
+          "meaningCN": "可移动的"
+        },
+        {
+          "word": "immobilis",
+          "structure": "Latin adjective",
+          "meaning": "not movable",
+          "meaningCN": "不可移动的"
+        }
+      ]
+    }
+  }
+]
