@@ -17,6 +17,7 @@
 - 下一批 **0109**，首词见 `node tools/next-words.js ielts 20`（`node tools/next-words.js ielts 20` 实测）。
 - 新增 `tools/audit-books.js`（词书加载自检，可 `--all` 扫未注册分片），新增 `docs/TRAE-BRIEF.md`（交给 Trae 的产品意见条款：学习模式、入门问卷、付费/免费、词书可行性、零基础书）。
 - 产品功能：免费/Plus 分层（零基础整本 + 任选一本完整；免费每日 20 词、Plus 每日 40 词；7 天试用；22 字段全部可见）、付费墙、每周复盘、事件埋点（`lizzword_events_v1`）、零基础词卡（emoji 图 + 短句 + 跟读）、入门问卷 + 今日计划卡（`books/lizz/plan-engine.js` / `onboarding.js`）、专项练习（例句填空 / 形近辨析 / 词根拆解）、错词本（`lizzword_wrong_v1`）。
+- 拼装模块（`books/lizz/assembly.js`）：写阶段有语境句走意群拼装，无句回退整词拼写；IndexedDB 存 sentence_cache / sentence_index / assembly_queue；拼装错误独立队列，不写单词卡 FSRS；免费每日 50 词、Plus 100 词。
 - 本轮新增：同根词族 500 专书（`word-family`）、计划引擎自适应、近义干扰项、周报分享图（邀请码）、计划引擎 11 条单测、分片懒加载（前 20 片立即可学）。
 - 语音已加：`LZSpeech.speakSequence` 连读队列、语速/口音偏好持久化（`lizzword_speech_v1`）、失败分级提示、中文语音缺失降级；词卡「连读（词 → 例句 → 释义）」按钮。
 - **24 本自建词书已生成并上架（2026-11-21 晚）**：17 本考试书 + `zero-basic` / `affix-roots` / `collocation` 三本配套书：english-major / kaoyan / study-abroad / pte / fce / bec / medical / business-law / coca / pets / zhuanshengben / zikao / self-study / new-concept / zhonggaozhi / ab / ket-pet，合计 7,155 条深度词条（17 本 6,159 + 配套 996）；17 本之间严格不重复；生成工具 `tools/build-exam-books.js`（--write 重跑）。`index.html` 现注册 **30 本书、33,417 词**；`sw.js` SHELL 已补 20 个主表；CEFR 推荐位已接入新书。

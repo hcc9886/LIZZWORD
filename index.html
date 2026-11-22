@@ -240,6 +240,38 @@
     .plan-pill[data-plan="plus"], .plan-pill[data-plan="pro"] { background: #eef4ff; color: #3157d5; border-color: #d6e2ff; }
 
 
+
+
+    .drill-recommend {
+      margin: 0 0 12px; padding: 12px 14px; border-radius: 12px;
+      background: #f8faff; border: 1px solid #d6e2ff;
+    }
+
+    /* ===== 写阶段：意群拼装 ===== */
+    .asm-card { margin-top: 8px; }
+    .asm-zh { margin: 0 0 4px; font-size: 0.95rem; color: #374151; }
+    .asm-tip { margin: 0 0 10px; font-size: 0.78rem; color: #9ca3af; }
+    .asm-slots {
+      display: flex; flex-wrap: wrap; gap: 8px; min-height: 46px; padding: 10px;
+      border: 1px dashed #c7d2fe; border-radius: 12px; background: #f8faff; margin-bottom: 10px;
+    }
+    .asm-slot {
+      display: inline-flex; align-items: center; gap: 6px; padding: 6px 10px;
+      border-radius: 10px; background: #3157d5; color: #fff; font-size: 0.88rem;
+    }
+    .asm-slot .asm-x { background: transparent; border: 0; color: #fff; cursor: pointer; font-size: 0.9rem; }
+    .asm-empty { color: #9ca3af; font-size: 0.84rem; }
+    .asm-pool { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 10px; }
+    .asm-chunk {
+      padding: 8px 12px; border-radius: 10px; border: 1px solid #e1e5f0; background: #fff;
+      font-size: 0.88rem; cursor: pointer;
+    }
+    .asm-chunk:disabled { opacity: 0.35; }
+    .asm-result { font-size: 0.88rem; margin: 4px 0; }
+    .asm-result.is-ok { color: #15803d; }
+    .asm-result.is-bad { color: #b91c1c; }
+    .asm-answer { font-size: 0.84rem; color: #6b7280; margin: 0 0 8px; }
+
     /* ===== 每周复盘 ===== */
     .weekly-card { padding: 8px 2px; }
     .weekly-bars { display: flex; align-items: flex-end; gap: 8px; height: 120px; margin: 14px 0 10px; }
@@ -1617,6 +1649,7 @@
   <script src="books/lizz/onboarding.js"></script>
   <script src="books/lizz/entitlements.js"></script>
   <script src="books/lizz/events.js"></script>
+  <script src="books/lizz/assembly.js"></script>
   <script src="books/manifest.js"></script>
   <script>
     // ============================================================
@@ -8929,6 +8962,157 @@
       saveState();
     }
 
+
+    // ============================================================
+    // 拼装（写阶段的可选升级）：有语境句就按意群拼，没有就整词拼写
+    // ============================================================
+    function ensureAssembly(wordItem) {
+      if (!writeCurrent || writeCurrent.assemblyChecked) return writeCurrent && writeCurrent.assembly;
+      writeCurrent.assemblyChecked = true;
+      const asm = window.LZAssembly;
+      if (!asm || !wordItem) return null;
+      try {
+        const sentence = asm.extractCuratedSentence(wordItem.word, wordItem, "");
+        if (!sentence) return null;
+        writeCurrent.assembly = { sentence, placed: [], submitted: false, result: null, errorType: "", pool: shuffle(sentence.chunks.slice()) };
+      } catch (e) {
+        writeCurrent.assembly = null;
+      }
+      return writeCurrent.assembly;
+    }
+
+    function assemblyBodyHTML(wordItem) {
+      if (!writeCurrent) return "";
+      if (writeCurrent.spellingOnly) {
+        return `
+          <div class="write-row">
+            <input class="write-input" id="writeInput" type="text" inputmode="latin" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="输入英文单词" value="${esc(writeCurrent.input)}" ${writeCurrent.submitted ? "disabled" : ""}>
+            <button type="button" class="btn-primary" id="writeSubmit" ${writeCurrent.submitted ? "disabled" : ""}>提交</button>
+          </div>
+          <p class="quiz-tip" id="writeHint">忽略大小写、首尾空格和结尾标点；回车也能提交。</p>`;
+      }
+      const asm = ensureAssembly(wordItem);
+      if (!asm) {
+        // 没有合适语境句：平滑回退到整词拼写
+        return `
+          <div class="write-row">
+            <input class="write-input" id="writeInput" type="text" inputmode="latin" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="输入英文单词" value="${esc(writeCurrent.input)}" ${writeCurrent.submitted ? "disabled" : ""}>
+            <button type="button" class="btn-primary" id="writeSubmit" ${writeCurrent.submitted ? "disabled" : ""}>提交</button>
+          </div>
+          <p class="quiz-tip" id="writeHint">看中文提示写出英文单词 · 回车也能提交。</p>`;
+      }
+      const sentence = asm.sentence;
+      const placed = asm.placed;
+      const submitted = asm.submitted;
+      return `
+        <div class="asm-card">
+          <p class="asm-zh">${esc(sentence.zh || "")}</p>
+          <p class="asm-tip">按顺序点选意群，拼成一句：目标词是重点。</p>
+          <div class="asm-slots" data-asm-slots>
+            ${placed.map((chunk, index) => `<span class="asm-slot">${esc(chunk)}<button type="button" class="asm-x" data-asm-remove="${index}" aria-label="撤销">×</button></span>`).join("")}
+            ${placed.length ? "" : `<span class="asm-empty">点击下方意群开始拼装</span>`}
+          </div>
+          ${submitted ? `
+            <p class="asm-result ${asm.result === "exact" ? "is-ok" : "is-bad"}">
+              ${asm.result === "exact" ? "拼装正确" : "还差一点：" + assemblyErrorLabel(asm.errorType)}
+            </p>
+            <p class="asm-answer">正确句子：${esc(sentence.text)}</p>`
+          : `
+            <div class="asm-pool">
+              ${asm.pool.map((chunk, index) => `<button type="button" class="asm-chunk" data-asm-chunk="${esc(chunk)}" ${placed.indexOf(chunk) >= 0 ? "disabled" : ""}>${esc(chunk)}</button>`).join("")}
+            </div>`}
+          <div class="btn-row">
+            ${submitted
+              ? `${asm.result === "exact" ? "" : `<button type="button" class="btn-ghost" data-asm-retry>再拼一次</button>`}
+                 <button type="button" class="btn-primary" data-next="write">下一个词</button>`
+              : `<button type="button" class="btn-primary" data-asm-submit ${placed.length ? "" : "disabled"}>提交拼装</button>
+                 <button type="button" class="btn-ghost" data-asm-undo>撤销一步</button>`}
+            <button type="button" class="btn-ghost" data-asm-spelling>只拼这个词</button>
+          </div>
+        </div>`;
+    }
+
+    function assemblyErrorLabel(errorType) {
+      if (errorType === "spelling") return "单词拼写";
+      if (errorType === "collocation") return "介词/搭配";
+      if (errorType === "morphology") return "词形变化";
+      return "语序";
+    }
+
+    function submitAssembly() {
+      if (!writeCurrent || !writeCurrent.assembly || writeCurrent.assembly.submitted) return;
+      const asm = writeCurrent.assembly;
+      const wordItem = getWord(writeCurrent.wordId);
+      const judged = window.LZAssembly
+        ? window.LZAssembly.judgeAndRoute(asm.placed, asm.sentence.chunks, wordItem.word)
+        : { result: "miss", errorType: "order", route: "assembly" };
+      asm.result = judged.result;
+      asm.errorType = judged.errorType;
+      asm.submitted = true;
+
+      const correct = judged.result === "exact" || (judged.result === "near" && judged.errorType === "morphology" && false);
+      if (correct) {
+        // 拼装通过：单词卡照常记为通过（写队列出队）
+        markAnswered(writeCurrent.wordId);
+        state.writeQueue = state.writeQueue.filter((id) => id !== writeCurrent.wordId);
+        if (!state.writeDone.includes(writeCurrent.wordId)) state.writeDone.push(writeCurrent.wordId);
+        if (state.writeDone.length >= sessionWordCount()) writeCurrent.finished = true;
+        if (window.LZAssembly) {
+          window.LZAssembly.scheduleAssembly({
+            sentence_id: asm.sentence.sentence_id,
+            target_word_lemma: wordItem.word,
+            chunk_granularity: "coarse"
+          }, "good");
+        }
+        saveState();
+        showToast("拼装通过，这个词进入复习池。");
+      } else {
+        // 拼装未通过：只进拼装队列与语境弱点，不碰单词卡 FSRS
+        if (window.LZAssembly) {
+          window.LZAssembly.updateContextWeakness(wordItem.word, judged.errorType);
+          window.LZAssembly.scheduleAssembly({
+            sentence_id: asm.sentence.sentence_id,
+            target_word_lemma: wordItem.word,
+            chunk_granularity: judged.errorType === "collocation" ? "fine" : "coarse"
+          }, "again");
+        }
+        trackEvent("assembly_miss", { word: wordItem.word, errorType: judged.errorType });
+        showToast("拼装错误已记入拼装队列，不影响这个词的复习进度。");
+      }
+      renderStudyView();
+    }
+
+    function assemblyPick(chunk) {
+      if (!writeCurrent || !writeCurrent.assembly || writeCurrent.assembly.submitted) return;
+      const asm = writeCurrent.assembly;
+      if (asm.placed.indexOf(chunk) >= 0) return;
+      asm.placed.push(chunk);
+      renderStudyView();
+    }
+
+    function assemblyUndo() {
+      if (!writeCurrent || !writeCurrent.assembly) return;
+      writeCurrent.assembly.placed.pop();
+      renderStudyView();
+    }
+
+    function assemblyRemoveAt(index) {
+      if (!writeCurrent || !writeCurrent.assembly) return;
+      writeCurrent.assembly.placed.splice(index, 1);
+      renderStudyView();
+    }
+
+    function assemblyRetry() {
+      if (!writeCurrent || !writeCurrent.assembly) return;
+      const asm = writeCurrent.assembly;
+      asm.placed = [];
+      asm.submitted = false;
+      asm.result = null;
+      asm.errorType = "";
+      asm.pool = shuffle(asm.sentence.chunks.slice());
+      renderStudyView();
+    }
+
     // ============================================================
     // 9. 新学：阶段 3 写
     // ============================================================
@@ -8951,7 +9135,10 @@
           correct: false,
           input: "",
           finished: false,
-          sense: pickSenseFor(getWord(wordId))
+          sense: pickSenseFor(getWord(wordId)),
+          spellingOnly: false,
+          assembly: null,
+          assemblyChecked: false
         };
       }
 
@@ -8975,19 +9162,16 @@
             `今天答错 <b>${todayWrongCount()}</b> 次`
           ])}
           <div class="quiz-body">
-            <p class="quiz-progress">看中文提示写出英文单词 · 不出现英文</p>
+            <p class="quiz-progress">${writeCurrent.spellingOnly || !writeCurrent.assembly ? "看中文提示写出英文单词 · 不出现英文" : "按意群拼装句子 · 目标词是重点"}</p>
             <div class="quiz-prompt">
               ${sceneArtHTML(writeCurrent.wordId)}
               <p class="quiz-def">${esc(wordItem.core_image)}</p>
               <p class="quiz-tip">义项：${esc(wordItem.definition_zh)}</p>
               <p class="quiz-tip">场景中文解释：${esc(sceneHintCN(wordItem))}</p>
             </div>
-            <div class="write-row">
-              <input class="write-input" id="writeInput" type="text" inputmode="latin" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="输入英文单词" value="${esc(writeCurrent.input)}" ${submitted ? "disabled" : ""}>
-              <button type="button" class="btn-primary" id="writeSubmit" ${submitted ? "disabled" : ""}>提交</button>
-            </div>
-            <p class="quiz-tip" id="writeHint">忽略大小写、首尾空格和结尾标点；回车也能提交。</p>
-            ${submitted
+            ${assemblyBodyHTML(wordItem)}
+            ${(writeCurrent.spellingOnly || !writeCurrent.assembly) ? `<p class="quiz-tip" id="writeHint">忽略大小写、首尾空格和结尾标点；回车也能提交。</p>` : ""}
+            ${(writeCurrent.spellingOnly || !writeCurrent.assembly) && submitted
               ? feedbackHTML({
                   ok: writeCurrent.correct,
                   wordItem,
@@ -9003,7 +9187,7 @@
                   nextKind: "write",
                   nextLabel: writeCurrent.finished ? "确认，查看完成页" : "确认，下一个"
                 })
-              : undoBarHTML()}
+              : (writeCurrent.spellingOnly || !writeCurrent.assembly ? undoBarHTML() : "")}
           </div>
         </section>`;
     }
@@ -9170,7 +9354,7 @@
                   nextKind: "speak",
                   nextLabel: "确认，下一个"
                 })
-              : undoBarHTML()}
+              : (writeCurrent.spellingOnly || !writeCurrent.assembly ? undoBarHTML() : "")}
           </div>
         </section>`;
     }
@@ -11357,7 +11541,7 @@
         <section class="plan-card">
           <div class="plan-main">
             <p class="plan-title">今日计划 · ${esc(plan.goalLabel)} · ${plan.minutes} 分钟</p>
-            <p class="plan-sub">新词 <b>${plan.newWords}</b> 个 · 复习 <b>${plan.reviewTarget}</b> 个 · 推荐 <b>${esc(plan.mix[0])}</b></p>
+            <p class="plan-sub">新词 <b>${plan.newWords}</b> 个 · 复习 <b>${plan.reviewTarget}</b> 个 · 推荐 <b>${esc(plan.mix[0])}</b> · 配比 ${esc(plan.mix.join(" → "))}</p>
             ${plan.examHint ? `<p class="plan-hint">${esc(plan.examHint)}</p>` : ""}
           </div>
           <button type="button" class="btn-ghost" data-plan-open>调整</button>
@@ -11777,6 +11961,15 @@
           <section class="drill-home">
             <h2 class="done-title">专项练习</h2>
             <p class="drill-sub">从当前词书里抽 10 个词，练一个专项。</p>
+            ${(() => {
+              const plan = currentPlan();
+              const modeMap = { "例句填空": "example", "形近辨析": "confusable", "词根拆解": "affix" };
+              const recommended = plan && modeMap[plan.mix[0]] ? modeMap[plan.mix[0]] : "";
+              return recommended ? `<div class="drill-recommend">
+                <p class="drill-sub">按你的计划推荐：<b>${esc(plan.mix[0])}</b></p>
+                <button type="button" class="btn-primary" data-drill-mode="${recommended}">按计划开始这组练习</button>
+              </div>` : "";
+            })()}
             <div class="drill-modes">
               ${Object.keys(DRILL_LABELS).map((mode) => `
                 <button type="button" class="drill-mode" data-drill-mode="${mode}">
@@ -12119,6 +12312,22 @@
 
       if (event.target.closest("[data-plan-open]")) {
         openPlanWizard();
+        return;
+      }
+
+      const asmChunk = event.target.closest("[data-asm-chunk]");
+      if (asmChunk) {
+        assemblyPick(asmChunk.dataset.asmChunk);
+        return;
+      }
+      if (event.target.closest("[data-asm-submit]")) { submitAssembly(); return; }
+      if (event.target.closest("[data-asm-undo]")) { assemblyUndo(); return; }
+      const asmRemove = event.target.closest("[data-asm-remove]");
+      if (asmRemove) { assemblyRemoveAt(Number(asmRemove.dataset.asmRemove)); return; }
+      if (event.target.closest("[data-asm-retry]")) { assemblyRetry(); return; }
+      if (event.target.closest("[data-asm-spelling]")) {
+        if (writeCurrent) writeCurrent.spellingOnly = true;
+        renderStudyView();
         return;
       }
 
