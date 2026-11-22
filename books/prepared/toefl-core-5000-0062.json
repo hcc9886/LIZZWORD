@@ -6,7 +6,7 @@
     "definition_zh": "辐射；放射线；辐射能；放射治疗",
     "definition_en": "energy travelling outward from a source as waves or particles, and the process by which such energy spreads",
     "core_image": "一盏灯从中心向四周射出一圈圈同心波纹，越远越淡",
-    "scene": "Thick lead shielding keeps radiation from reaching the laboratory workers.",
+    "scene": "这里指「辐射」。 Thick lead shielding keeps radiation from reaching the laboratory workers.",
     "sceneCN": "这里 radiation 指「电离辐射」（第 4 个义项：能量足以使原子电离的射线）；铅屏蔽把射线挡住，保护实验人员。图中可辨识物件：铅砖、辐射警示标志、同心波纹、盖革计数器。",
     "pos": [
       {
@@ -51,19 +51,19 @@
       },
       {
         "label": "不可数用法",
-        "form": "radiation（指能量整体时通常不加 -s）"
+        "form": "radiation -s"
       },
       {
         "label": "形容词形式",
-        "form": "radiative（辐射的）"
+        "form": "radiative"
       },
       {
         "label": "动词形式",
-        "form": "radiate（放射；发光）"
+        "form": "radiate"
       },
       {
         "label": "名词施动者",
-        "form": "radiator（散热器；辐射体）"
+        "form": "radiator"
       }
     ],
     "derivatives": [
@@ -233,7 +233,7 @@
             {
               "word": "radiate",
               "ipa": "/ˈreɪdieɪt/",
-              "tag": "verb, not noun",
+              "tag": "verb not noun",
               "definition": "The verb for sending out rays or showing a quality; it names the act, while radiation names the energy or the process as a thing.",
               "definitionCN": "动词，指发出射线或显露某种气质；它表示动作，而 radiation 把能量或过程当作事物来命名。"
             },
@@ -247,14 +247,14 @@
             {
               "word": "radiator",
               "ipa": "/ˈreɪdieɪtə(r)/",
-              "tag": "device, not energy",
+              "tag": "device not energy",
               "definition": "The physical device that gives off heat, especially in a car or a room. It is a countable object and never the heat.",
               "definitionCN": "指放出热量的实体装置，尤指汽车或房间里的散热器；是可数物件，绝不指热量。"
             },
             {
               "word": "irradiation",
               "ipa": "/ˌɪrædiˈeɪʃn/",
-              "tag": "exposure, opposite direction",
+              "tag": "exposure opposite direction",
               "definition": "The act of subjecting something to radiation. Radiation goes out from a source; irradiation is what the target receives.",
               "definitionCN": "指使某物接受辐射的处理。radiation 是源头向外发出，irradiation 是目标物受到照射。"
             }
@@ -273,7 +273,7 @@
             {
               "word": "radioactivity",
               "ipa": "/ˌreɪdiəʊækˈtɪvəti/",
-              "tag": "the property, not the rays",
+              "tag": "the property not the rays",
               "definition": "The property of unstable nuclei emitting radiation. It names the capacity, while radiation names what is actually emitted.",
               "definitionCN": "指不稳定原子核发射辐射的性质；它命名的是能力，radiation 命名的是实际发出的东西。"
             },
@@ -376,27 +376,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S2",
+          "senses": "01 · 02",
           "en": "PLAIN EMISSION: energy leaves a source, whether as a general process or as the third mode of heat transfer.",
           "cn": "单纯发射：能量离开源头，或作为一般过程，或作为第三种传热方式。"
         },
         {
-          "senses": "S3",
+          "senses": "03",
           "en": "THE WHOLE SPECTRUM: radio, light and gamma rays are one family because one mechanism emits them.",
           "cn": "整个谱段：无线电波、光与伽马射线同属一族，因为由同一种机制发出。"
         },
         {
-          "senses": "S4 · S5",
+          "senses": "04 · 05",
           "en": "HIGH ENERGY: when the rays can strip electrons, radiation becomes a hazard and also a medical tool.",
           "cn": "高能一端：当射线能够剥离电子，辐射既成为危害，也成为医疗工具。"
         },
         {
-          "senses": "S6 · S8",
+          "senses": "06 · 08",
           "en": "SPATIAL PATTERN: the spoke image returns for things spreading from a centre, including antenna power.",
           "cn": "空间格局：辐条意象回归，用于自中心扩散的事物，包括天线功率分布。"
         },
         {
-          "senses": "S7",
+          "senses": "07",
           "en": "EVOLUTIONARY BRANCHING: one ancestral stock radiates into many species, borrowing the same outward picture.",
           "cn": "进化分枝：一个祖先类群辐射成许多物种，借用的仍是同一幅向外铺开的图。"
         }
@@ -506,7 +506,7 @@
     "definition_zh": "放射性的；具放射性的；受放射性污染的",
     "definition_en": "emitting ionizing radiation because atomic nuclei are unstable, or relating to such emission",
     "core_image": "一块泛着幽绿光的矿石旁边，盖革计数器的指针猛然跳起",
-    "scene": "Uranium ore is radioactive, so it must be handled behind thick shielding.",
+    "scene": "这里指「放射性的」。 Uranium ore is radioactive, so it must be handled behind thick shielding.",
     "sceneCN": "这里 radioactive 指「具放射性的」（第 1 个义项：原子核不稳定而自发发出电离辐射）；因此铀矿石必须在厚屏蔽后处理。图中可辨识物件：铀矿石、盖革计数器、辐射标志、铅手套。",
     "pos": [
       {
@@ -547,23 +547,23 @@
     "forms": [
       {
         "label": "比较级",
-        "form": "more radioactive（更具放射性的）"
+        "form": "more radioactive"
       },
       {
         "label": "最高级",
-        "form": "most radioactive（放射性最强的）"
+        "form": "most radioactive"
       },
       {
         "label": "名词形式",
-        "form": "radioactivity（放射性）"
+        "form": "radioactivity"
       },
       {
         "label": "动词形式（罕用）",
-        "form": "radioactivate（使具放射性）"
+        "form": "radioactivate"
       },
       {
         "label": "否定形式",
-        "form": "non-radioactive（非放射性的）"
+        "form": "non-radioactive"
       }
     ],
     "derivatives": [
@@ -733,14 +733,14 @@
             {
               "word": "radiative",
               "ipa": "/ˈreɪdieɪtɪv/",
-              "tag": "about heat transfer, not nuclei",
+              "tag": "about heat transfer not nuclei",
               "definition": "Relating to radiation as a mode of energy transfer, especially heat. It says nothing about unstable nuclei or contamination.",
               "definitionCN": "指作为能量传递方式（尤指传热）的辐射，与原子核不稳定或污染无关。"
             },
             {
               "word": "radiation",
               "ipa": "/ˌreɪdiˈeɪʃn/",
-              "tag": "the rays, not the property",
+              "tag": "the rays not the property",
               "definition": "The energy or rays themselves. Radioactive describes the source; radiation is what leaves it.",
               "definitionCN": "指能量或射线本身。radioactive 描述源头，radiation 指离开源头的东西。"
             },
@@ -766,7 +766,7 @@
             {
               "word": "hot",
               "ipa": "/hɒt/",
-              "tag": "informal 'radioactive'",
+              "tag": "informal radioactive",
               "definition": "In nuclear slang, 'hot' means radioactive or highly contaminated. It is informal and depends on context.",
               "definitionCN": "在核工业俚语中，hot 指具放射性或污染严重的；属口语用法，且依赖语境。"
             },
@@ -876,27 +876,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S2",
+          "senses": "01 · 02",
           "en": "THE PROPERTY: unstable nuclei emit ionizing rays, and the adjective names that process.",
           "cn": "性质本身：不稳定核发出电离射线，形容词命名这一过程。"
         },
         {
-          "senses": "S3",
+          "senses": "03",
           "en": "SPREAD BY CONTACT: the label moves from the source to whatever touches it.",
           "cn": "接触传播：标签从源头转移到它接触过的一切。"
         },
         {
-          "senses": "S4",
+          "senses": "04",
           "en": "THE ISOTOPE: chemistry uses the adjective to separate stable from unstable nuclear species.",
           "cn": "同位素：化学用该形容词区分稳定与不稳定的核素。"
         },
         {
-          "senses": "S5 · S7",
+          "senses": "05 · 07",
           "en": "INSTRUMENTS: steady decay becomes a clock, and emitted rays become a tracer signal.",
           "cn": "工具化：稳定衰变成为时钟，发出的射线成为示踪信号。"
         },
         {
-          "senses": "S6 · S8",
+          "senses": "06 · 08",
           "en": "LONG DANGER: industrial waste keeps the physical hazard, while politics turns it into a metaphor.",
           "cn": "长期危险：工业废物保留物理危害，政治则把它变成比喻。"
         }
@@ -1006,7 +1006,7 @@
     "definition_zh": "理性；合理性；合乎逻辑的程度；理性思考能力",
     "definition_en": "the quality of being guided by reason, or the extent to which something can be justified by logic",
     "core_image": "一个人在天平两端放上证据与反证，让指针慢慢停在正中",
-    "scene": "Bounded rationality admits that real decisions are limited by time and incomplete information.",
+    "scene": "这里指「理性」。 Bounded rationality admits that real decisions are limited by time and incomplete information.",
     "sceneCN": "这里 rationality 指「理性（有限理性理论中的决策理性）」（第 4 个义项：受时间与信息限制的理性）；句意：有限理性承认真实决策受时间与不完整信息限制。图中可辨识物件：天平、证据卡片、时钟、档案夹。",
     "pos": [
       {
@@ -1047,19 +1047,19 @@
       },
       {
         "label": "形容词形式",
-        "form": "rational（理性的；合理的）"
+        "form": "rational"
       },
       {
         "label": "副词形式",
-        "form": "rationally（理性地）"
+        "form": "rationally"
       },
       {
         "label": "反义名词",
-        "form": "irrationality（非理性）"
+        "form": "irrationality"
       },
       {
         "label": "相关名词",
-        "form": "rationalism（理性主义；注意与 rationality 不同）"
+        "form": "rationalism rationality"
       }
     ],
     "derivatives": [
@@ -1229,7 +1229,7 @@
             {
               "word": "rational",
               "ipa": "/ˈræʃənl/",
-              "tag": "adjective, not noun",
+              "tag": "adjective not noun",
               "definition": "Meaning 'based on reason'. It describes a person or act, while rationality names the quality itself.",
               "definitionCN": "意为「基于理性的」，描述人或行为；rationality 则命名这种性质本身。"
             },
@@ -1243,7 +1243,7 @@
             {
               "word": "rationalism",
               "ipa": "/ˈræʃənəlɪzəm/",
-              "tag": "a doctrine, not a quality",
+              "tag": "a doctrine not a quality",
               "definition": "The philosophical position that reason is the main source of knowledge. Rationality is the capacity; rationalism is a theory about it.",
               "definitionCN": "指认为理性是知识主要来源的哲学立场。rationality 是能力，rationalism 是关于该能力的理论。"
             },
@@ -1372,27 +1372,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S2",
+          "senses": "01 · 02",
           "en": "MIND AND ARGUMENT: the faculty of reckoning, and the consistency of what it produces.",
           "cn": "心智与论证：核算能力，以及其产物的前后一致。"
         },
         {
-          "senses": "S3",
+          "senses": "03",
           "en": "CALCULATED CHOICE: economics turns reckoning into preference-maximizing selection.",
           "cn": "计算性选择：经济学把核算变成偏好最大化选择。"
         },
         {
-          "senses": "S4",
+          "senses": "04",
           "en": "LIMITS: the same choice, bounded by time and incomplete information.",
           "cn": "限度：同一种选择，被时间与不完整信息所限。"
         },
         {
-          "senses": "S5 · S6",
+          "senses": "05 · 06",
           "en": "ACCOUNTABILITY: reasons must be given, whether to a philosopher or to an institution.",
           "cn": "可交代性：无论面对哲学家还是制度，都必须给出理由。"
         },
         {
-          "senses": "S7 · S8",
+          "senses": "07 · 08",
           "en": "MACHINERY: rules can become rigid, and calculation can detach from the worth of its goal.",
           "cn": "机械性：规则会僵化，计算也会与目标的价值脱钩。"
         }
@@ -1502,7 +1502,7 @@
     "definition_zh": "理性地；合理地；合乎逻辑地；冷静地",
     "definition_en": "in a way that follows reason and evidence rather than impulse or emotion",
     "core_image": "一个人把两张写满数据的纸并排铺开，逐行比对后才点头",
-    "scene": "The committee rationally compared the costs before approving the plan.",
+    "scene": "这里指「理性地」。 The committee rationally compared the costs before approving the plan.",
     "sceneCN": "这里 rationally 是「以理性的方式」（第 1 个义项：依据推理与证据而非冲动）；句意：委员会在批准计划前理性地比较了各项成本。图中可辨识物件：数据表、双栏对比、铅笔、批准印章。",
     "pos": [
       {
@@ -1539,23 +1539,23 @@
     "forms": [
       {
         "label": "形容词形式",
-        "form": "rational（理性的）"
+        "form": "rational"
       },
       {
         "label": "比较级",
-        "form": "more rationally（更理性地）"
+        "form": "more rationally"
       },
       {
         "label": "最高级",
-        "form": "most rationally（最理性地）"
+        "form": "most rationally"
       },
       {
         "label": "名词形式",
-        "form": "rationality（理性；合理性）"
+        "form": "rationality"
       },
       {
         "label": "反义副词",
-        "form": "irrationally（非理性地）"
+        "form": "irrationally"
       }
     ],
     "derivatives": [
@@ -1742,13 +1742,6 @@
               "tag": "noun of reasons",
               "definition": "The set of reasons behind a decision; it is a thing you give, not a way you act.",
               "definitionCN": "指决策背后的理由体系；是给出的东西，不是行动方式。"
-            },
-            {
-              "word": "rationally",
-              "ipa": "/ˈræʃənəli/",
-              "tag": "adverb of manner",
-              "definition": "This word itself; it answers 'how?' rather than 'what?'",
-              "definitionCN": "本词；回答「怎样」而非「什么」。"
             }
           ]
         },
@@ -1875,27 +1868,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S2",
+          "senses": "01 · 02",
           "en": "EVERYDAY REASON: weigh evidence, then choose what common sense endorses.",
           "cn": "日常理性：权衡证据，再选择常识认可的做法。"
         },
         {
-          "senses": "S3",
+          "senses": "03",
           "en": "ECONOMIC CALCULATION: cost and benefit decide the allocation.",
           "cn": "经济核算：成本与收益决定配置。"
         },
         {
-          "senses": "S4 · S5",
+          "senses": "04 · 05",
           "en": "PROCEDURE AND LAW: order the steps, or show a reasonable link to a legitimate aim.",
           "cn": "程序与法律：安排步骤，或证明与合法目标有合理联系。"
         },
         {
-          "senses": "S6 · S7",
+          "senses": "06 · 07",
           "en": "ACCOUNTABILITY AND TEMPER: reasons must be defensible, and emotion must not drive the act.",
           "cn": "可交代与性情：理由须可辩护，情绪不得主导行为。"
         },
         {
-          "senses": "S8",
+          "senses": "08",
           "en": "INSTRUMENTAL EDGE: the most efficient route can still serve an unexamined goal.",
           "cn": "工具性边缘：最高效的路线仍可能服务于未经审视的目标。"
         }
@@ -2005,7 +1998,7 @@
     "definition_zh": "重建；重建物；复原；（语言学）构拟；重建时期",
     "definition_en": "the act or result of building something again, or of piecing together something that is no longer intact",
     "core_image": "散落一地的碎石被按编号重新拼回一座拱门",
-    "scene": "The reconstruction of the bridge took three years and twice the original budget.",
+    "scene": "这里指「重建」。 The reconstruction of the bridge took three years and twice the original budget.",
     "sceneCN": "这里 reconstruction 指「实体重建」（第 1 个义项：把被毁的结构重新建起）；句意：这座桥的重建用了三年，花费是最初预算的两倍。图中可辨识物件：编号石块、拱门、吊车、图纸。",
     "pos": [
       {
@@ -2046,19 +2039,19 @@
       },
       {
         "label": "动词形式",
-        "form": "reconstruct（重建；复原）"
+        "form": "reconstruct"
       },
       {
         "label": "形容词形式",
-        "form": "reconstructive（重建的；复原的）"
+        "form": "reconstructive"
       },
       {
         "label": "施动者名词",
-        "form": "reconstructor（重建者；重构者）"
+        "form": "reconstructor"
       },
       {
         "label": "专有名词",
-        "form": "the Reconstruction（美国重建时期，首字母大写）"
+        "form": "the Reconstruction"
       }
     ],
     "derivatives": [
@@ -2228,7 +2221,7 @@
             {
               "word": "construction",
               "ipa": "/kənˈstrʌkʃn/",
-              "tag": "first building, no re-",
+              "tag": "first building no re-",
               "definition": "The original act of building. Reconstruction adds the idea of a second time after damage.",
               "definitionCN": "指最初的建造行为。reconstruction 增加了「受损后再来一次」的意思。"
             },
@@ -2275,7 +2268,7 @@
             {
               "word": "recreation",
               "ipa": "/ˌriːkriˈeɪʃn/",
-              "tag": "making again, or leisure",
+              "tag": "making again or leisure",
               "definition": "Can mean the act of creating again, but usually means leisure activity. Context decides, and it is not a synonym for reconstruction.",
               "definitionCN": "可指再次创造，但通常指休闲活动；由语境决定，并非 reconstruction 的同义词。"
             },
@@ -2371,27 +2364,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S2",
+          "senses": "01 · 02",
           "en": "STONE AND EVENTS: either a physical structure or a sequence of happenings is put back together.",
           "cn": "石头与事件：或是一个实体结构，或是一串发生之事被重新拼合。"
         },
         {
-          "senses": "S3",
+          "senses": "03",
           "en": "LOST LANGUAGE: fragments of descendants constrain the inferred ancestor.",
           "cn": "失传语言：后代语言的碎片约束对祖语的推断。"
         },
         {
-          "senses": "S4 · S8",
+          "senses": "04 · 08",
           "en": "NATION: a whole society is rebuilt, whether as a general project or a named era.",
           "cn": "国家：整个社会被重建，或作为一般工程，或作为有名称的时代。"
         },
         {
-          "senses": "S5",
+          "senses": "05",
           "en": "BODY: surgery rebuilds a damaged part rather than merely patching its surface.",
           "cn": "身体：手术重建受损部位，而不只是修补表面。"
         },
         {
-          "senses": "S6 · S7",
+          "senses": "06 · 07",
           "en": "DATA AND MIND: computation or recall reassembles a whole from fragments, without physical rebuilding.",
           "cn": "数据与心智：计算或回忆由碎片重组整体，并无物理重建。"
         }
@@ -2501,7 +2494,7 @@
     "definition_zh": "娱乐的；休闲的；消遣性的；非医疗用途的",
     "definition_en": "relating to leisure activities done for pleasure, or describing a use that is not the officially intended or medical one",
     "core_image": "湖面上一条小船、一只钓竿和一把折叠椅，旁边立着「休闲区」木牌",
-    "scene": "The lake's recreational use is limited to boating, fishing and swimming.",
+    "scene": "这里指「娱乐的」。 The lake's recreational use is limited to boating, fishing and swimming.",
     "sceneCN": "这里 recreational 指「休闲用途的」（第 8 个义项：水域被用于消遣而非工业或供水）；句意：该湖的休闲用途限于划船、垂钓与游泳。图中可辨识物件：小船、钓竿、折叠椅、休闲区木牌。",
     "pos": [
       {
@@ -2542,23 +2535,23 @@
     "forms": [
       {
         "label": "名词形式",
-        "form": "recreation（娱乐；休闲）"
+        "form": "recreation"
       },
       {
         "label": "比较级",
-        "form": "more recreational（更具休闲性质的）"
+        "form": "more recreational"
       },
       {
         "label": "最高级",
-        "form": "most recreational（最具休闲性质的）"
+        "form": "most recreational"
       },
       {
         "label": "动词形式",
-        "form": "recreate（娱乐；消遣；另注意 re-create 意为「重新创造」）"
+        "form": "recreate re-create"
       },
       {
         "label": "副词形式",
-        "form": "recreationally（以休闲方式）"
+        "form": "recreationally"
       }
     ],
     "derivatives": [
@@ -2749,7 +2742,7 @@
             {
               "word": "recreationist",
               "ipa": "/ˌrekriˈeɪʃənɪst/",
-              "tag": "person, not adjective",
+              "tag": "person not adjective",
               "definition": "A rare noun for someone who takes part in recreation; it cannot modify a facility.",
               "definitionCN": "少见的「休闲活动参与者」名词，不能用来修饰设施。"
             }
@@ -2789,7 +2782,7 @@
             {
               "word": "informal",
               "ipa": "/ɪnˈfɔːml/",
-              "tag": "relaxed, unofficial",
+              "tag": "relaxed unofficial",
               "definition": "Relaxed in style or unofficial in status. It does not by itself mean leisure-oriented.",
               "definitionCN": "指风格随和或地位非正式；本身并不表示「以休闲为目的」。"
             }
@@ -2878,27 +2871,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S2",
+          "senses": "01 · 02",
           "en": "LEISURE SETTING: activity and the places planned for it.",
           "cn": "休闲场景：活动本身以及为其规划的场所。"
         },
         {
-          "senses": "S3",
+          "senses": "03",
           "en": "PLEASURE WITHOUT PRESCRIPTION: the same substance used for fun, with a warning built in.",
           "cn": "无处方之乐：同一种物质被用于享乐，语气自带警示。"
         },
         {
-          "senses": "S4 · S8",
+          "senses": "04 · 08",
           "en": "RESOURCE USE: fishing, hunting, boating and swimming compete with production and supply.",
           "cn": "资源利用：渔猎、划船与游泳同生产及供给争夺同一资源。"
         },
         {
-          "senses": "S5",
+          "senses": "05",
           "en": "THE VEHICLE: a machine whose whole purpose is leisure travel.",
           "cn": "交通工具：整台机器的用途就是休闲旅行。"
         },
         {
-          "senses": "S6 · S7",
+          "senses": "06 · 07",
           "en": "PLAY WITH IDEAS: puzzles and pleasure reading apply leisure to the mind.",
           "cn": "与观念游戏：谜题与消遣阅读把休闲用于心智。"
         }
@@ -3008,7 +3001,7 @@
     "definition_zh": "减少；削减；降低；还原；（数学）约简；（烹饪）收汁",
     "definition_en": "the act of making something smaller or simpler, or the amount by which it is made smaller",
     "core_image": "一块厚布被两边慢慢拉紧，最后缩成一小片",
-    "scene": "The new boiler led to a twenty percent reduction in fuel use.",
+    "scene": "这里指「减少」。 The new boiler led to a twenty percent reduction in fuel use.",
     "sceneCN": "这里 reduction 指「用量下降的幅度」（第 1 个义项：数量或程度变小）；句意：新锅炉使燃料用量减少了百分之二十。图中可辨识物件：旧锅炉、新锅炉、下降箭头、用量表。",
     "pos": [
       {
@@ -3053,19 +3046,19 @@
       },
       {
         "label": "动词形式",
-        "form": "reduce（减少；降低；使简化）"
+        "form": "reduce"
       },
       {
         "label": "形容词形式",
-        "form": "reductive（简化的；还原的）"
+        "form": "reductive"
       },
       {
         "label": "施动者名词",
-        "form": "reducer（缩减装置；还原剂）"
+        "form": "reducer"
       },
       {
         "label": "可数性说明",
-        "form": "reduction（指动作或过程时多不可数，指一次削减时可数）"
+        "form": "reduction"
       }
     ],
     "derivatives": [
@@ -3256,7 +3249,7 @@
             {
               "word": "deduction",
               "ipa": "/dɪˈdʌkʃn/",
-              "tag": "leading away, not back",
+              "tag": "leading away not back",
               "definition": "Logical inference from general to specific, from Latin deducere 'lead away'. The prefix changes the direction.",
               "definitionCN": "指从一般到具体的逻辑推理，出自拉丁 deducere「带走」；前缀改变了方向。"
             }
@@ -3385,27 +3378,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S2",
+          "senses": "01 · 02",
           "en": "AMOUNT AND PRICE: something is brought down, whether a quantity or a tag.",
           "cn": "数量与价格：被带低的东西，或是一个量，或是一个标价。"
         },
         {
-          "senses": "S3",
+          "senses": "03",
           "en": "CHEMISTRY: electrons are added and the oxidation number falls.",
           "cn": "化学：加入电子，氧化数下降。"
         },
         {
-          "senses": "S4 · S7",
+          "senses": "04 · 07",
           "en": "SIMPLIFICATION: expressions and raw data are led back to manageable forms.",
           "cn": "简化：表达式与原始数据被带回可处理的形式。"
         },
         {
-          "senses": "S5",
+          "senses": "05",
           "en": "KITCHEN: liquid volume falls while flavour concentrates.",
           "cn": "厨房：液体体积下降，风味浓缩。"
         },
         {
-          "senses": "S6 · S8",
+          "senses": "06 · 08",
           "en": "RANK AND LOGIC: a person is led down the hierarchy, or a claim is led back to absurdity.",
           "cn": "职级与逻辑：人沿等级被带下，或主张被带回到荒谬。"
         }
@@ -3515,7 +3508,7 @@
     "definition_zh": "还原论的；化约论的；还原论者",
     "definition_en": "explaining a complex whole by its simpler parts, or a person who advocates that approach",
     "core_image": "一座完整的花园被拆成一格格土壤样本，每格只标成分编号",
-    "scene": "A reductionist account of love describes only hormones and neural firing.",
+    "scene": "这里指「还原论的」。 A reductionist account of love describes only hormones and neural firing.",
     "sceneCN": "这里 reductionist 是「还原论的」（第 1 个义项：把复杂现象解释为其组成部分）；句意：对爱情的还原论解释只谈激素与神经放电。图中可辨识物件：花园平面图、编号土壤样本、放大镜、成分表。",
     "pos": [
       {
@@ -3560,19 +3553,19 @@
       },
       {
         "label": "名词（学说）",
-        "form": "reductionism（还原论）"
+        "form": "reductionism"
       },
       {
         "label": "名词（过程）",
-        "form": "reduction（减少；还原）"
+        "form": "reduction"
       },
       {
         "label": "形容词（相关）",
-        "form": "reductive（简化的；还原的）"
+        "form": "reductive"
       },
       {
         "label": "副词形式",
-        "form": "reductionistically（以还原论方式）"
+        "form": "reductionistically"
       }
     ],
     "derivatives": [
@@ -3892,27 +3885,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S2",
+          "senses": "01 · 02",
           "en": "EXPLANATION AND ITS COST: explaining by parts, and the reproach when parts replace the whole.",
           "cn": "解释与其代价：以部分解释，以及部分取代整体时招来的批评。"
         },
         {
-          "senses": "S3",
+          "senses": "03",
           "en": "THE PERSON: the stance hardens into an identity held by someone.",
           "cn": "持论者：立场固化为某人的身份。"
         },
         {
-          "senses": "S4 · S5",
+          "senses": "04 · 05",
           "en": "LEVELS OF REALITY: higher sciences or minds are said to rest on lower layers.",
           "cn": "实在层级：高层学科或心智被说成建立在低层之上。"
         },
         {
-          "senses": "S6 · S7",
+          "senses": "06 · 07",
           "en": "METHOD AND GENE: one version only studies parts, another makes a specific gene the cause.",
           "cn": "方法与基因：一种版本只研究部分，另一种把特定基因当成原因。"
         },
         {
-          "senses": "S8",
+          "senses": "08",
           "en": "THE OBJECTION: people, meanings and institutions resist being dissolved into variables.",
           "cn": "反对意见：人、意义与制度不愿被消解为变量。"
         }
@@ -4022,7 +4015,7 @@
     "definition_zh": "提及；参考；参考文献；推荐信；参照物；（计算机）引用",
     "definition_en": "a mention of something, a source consulted, or a point against which something else is judged",
     "core_image": "书桌上摊开一本厚词典，页边贴着写有编号的便签",
-    "scene": "The article makes frequent reference to earlier studies of the same lake.",
+    "scene": "这里指「提及」。 The article makes frequent reference to earlier studies of the same lake.",
     "sceneCN": "这里 reference 指「提及」（第 1 个义项：在言语或文字中说到某事物）；句意：这篇文章频繁提及对同一湖泊的早期研究。图中可辨识物件：打开的书、编号便签、书签、引用标记。",
     "pos": [
       {
@@ -4070,15 +4063,7 @@
         "form": "references"
       },
       {
-        "label": "动词三单",
-        "form": "references"
-      },
-      {
         "label": "动词过去式",
-        "form": "referenced"
-      },
-      {
-        "label": "动词过去分词",
         "form": "referenced"
       },
       {
@@ -4087,7 +4072,7 @@
       },
       {
         "label": "形容词形式",
-        "form": "referential（指称的；参照的）"
+        "form": "referential"
       }
     ],
     "derivatives": [
@@ -4264,7 +4249,7 @@
             {
               "word": "referee",
               "ipa": "/ˌrefəˈriː/",
-              "tag": "person, not source",
+              "tag": "person not source",
               "definition": "A sports official or a person who writes a recommendation. A referee is a person; a reference may be a document.",
               "definitionCN": "指体育裁判或写推荐的人。referee 是人，reference 可以是文件。"
             },
@@ -4407,27 +4392,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S2",
+          "senses": "01 · 02",
           "en": "TEXTUAL POINTING: a mention in prose, and the cited source that backs it.",
           "cn": "文本指涉：文中的提及，以及支撑它的被引出处。"
         },
         {
-          "senses": "S3 · S4",
+          "senses": "03 · 04",
           "en": "DOCUMENTS: a book made for consultation, or a letter that points an employer to a record.",
           "cn": "文件：为查阅而作的书，或把雇主引向履历的信。"
         },
         {
-          "senses": "S5",
+          "senses": "05",
           "en": "MEASUREMENT: a fixed point or frame against which things are judged.",
           "cn": "测量：用于判断事物的固定点或框架。"
         },
         {
-          "senses": "S6 · S7",
+          "senses": "06 · 07",
           "en": "SYMBOLIC POINTING: a program value or a word reaches an object without being that object.",
           "cn": "符号指涉：程序值或词语抵达对象，却不等于对象本身。"
         },
         {
-          "senses": "S8",
+          "senses": "08",
           "en": "PROCEDURE: the document sense becomes a call that checks a record.",
           "cn": "程序：文件义变成核实履历的一通电话。"
         }
@@ -4537,7 +4522,7 @@
     "definition_zh": "精炼；改良；精细化；优雅；提纯",
     "definition_en": "the act of making something more precise, polished or pure, or the quality of being polished",
     "core_image": "一块粗铁矿在炉中反复熔炼，表面逐渐变得光洁",
-    "scene": "Repeated refinement of the model reduced its error from ten percent to two.",
+    "scene": "这里指「精炼」。 Repeated refinement of the model reduced its error from ten percent to two.",
     "sceneCN": "这里 refinement 指「逐步精细化」（第 1 个义项：通过反复调整使结果更精确）；句意：对模型的反复精细化把误差从百分之十降到百分之二。图中可辨识物件：模型曲线、误差刻度、迭代箭头、砂纸。",
     "pos": [
       {
@@ -4578,19 +4563,19 @@
       },
       {
         "label": "动词形式",
-        "form": "refine（精炼；改良；使精细）"
+        "form": "refine"
       },
       {
         "label": "形容词形式",
-        "form": "refined（精炼的；优雅的）"
+        "form": "refined"
       },
       {
         "label": "施动者名词",
-        "form": "refiner（精炼者；炼油厂）"
+        "form": "refiner"
       },
       {
         "label": "名词（工厂）",
-        "form": "refinery（精炼厂）"
+        "form": "refinery"
       }
     ],
     "derivatives": [
@@ -4910,27 +4895,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S3",
+          "senses": "01 · 03",
           "en": "MATERIAL AND PROCESS: coarse matter or an imprecise result is made fine.",
           "cn": "材料与过程：粗料或不精确的结果被做细。"
         },
         {
-          "senses": "S2 · S6",
+          "senses": "02 · 06",
           "en": "SOCIAL SURFACE: roughness is removed from behaviour, and polish becomes a class marker.",
           "cn": "社交表面：举止的粗粝被去除，打磨成为阶层标记。"
         },
         {
-          "senses": "S4",
+          "senses": "04",
           "en": "NUMERICAL GRID: the mesh is made finer until the tolerance is met.",
           "cn": "数值网格：网格被加密，直到满足容差。"
         },
         {
-          "senses": "S5",
+          "senses": "05",
           "en": "THEORY: revisions remove defects from an explanation.",
           "cn": "理论：修订为解释去除缺陷。"
         },
         {
-          "senses": "S7 · S8",
+          "senses": "07 · 08",
           "en": "PERCEPTION AND DEFINITION: finer distinctions are heard, seen, or written into a statement.",
           "cn": "感知与定义：更细的差别被听见、看见，或被写进陈述。"
         }
@@ -5040,7 +5025,7 @@
     "definition_zh": "规章；规则；管理；调控；调节",
     "definition_en": "an official rule, or the act of controlling and adjusting how something operates",
     "core_image": "一只调速器在蒸汽机上方旋转，把过快的轮子压回稳定转速",
-    "scene": "New regulation requires factories to report emissions every month.",
+    "scene": "这里指「规章」。 New regulation requires factories to report emissions every month.",
     "sceneCN": "这里 regulation 指「具有约束力的规章」（第 1 个义项：官方制定的规则）；句意：新规章要求工厂每月报告排放。图中可辨识物件：法规文本、印章、排放烟囱、月度报表。",
     "pos": [
       {
@@ -5085,19 +5070,19 @@
       },
       {
         "label": "动词形式",
-        "form": "regulate（管理；调节；控制）"
+        "form": "regulate"
       },
       {
         "label": "形容词形式",
-        "form": "regulatory（监管的）"
+        "form": "regulatory"
       },
       {
         "label": "施动者名词",
-        "form": "regulator（监管机构；调节器）"
+        "form": "regulator"
       },
       {
         "label": "可数性说明",
-        "form": "regulation（指规章体系时可不可数，指一条具体规则时可数）"
+        "form": "regulation"
       }
     ],
     "derivatives": [
@@ -5120,11 +5105,6 @@
         "word": "deregulation",
         "pos": "n.",
         "zh": "放松管制"
-      },
-      {
-        "word": "regulation",
-        "pos": "n.",
-        "zh": "规章；调节"
       }
     ],
     "senses": [
@@ -5417,27 +5397,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S2",
+          "senses": "01 · 02",
           "en": "RULE AND OVERSIGHT: a single binding rule, then the whole activity of governing an industry.",
           "cn": "规则与监管：一条有约束力的规则，进而治理整个行业的活动。"
         },
         {
-          "senses": "S3",
+          "senses": "03",
           "en": "LIFE: feedback loops hold temperature and other variables near a set point.",
           "cn": "生命：反馈环路让体温等变量保持在设定点附近。"
         },
         {
-          "senses": "S4",
+          "senses": "04",
           "en": "GENES: expression is switched on, off, or turned up.",
           "cn": "基因：表达被开启、关闭或调高。"
         },
         {
-          "senses": "S5",
+          "senses": "05",
           "en": "INNER STATE: a feeling becomes something that can be monitored and adjusted.",
           "cn": "内在状态：情绪变成可被监控与调整的对象。"
         },
         {
-          "senses": "S6 · S7 · S8",
+          "senses": "06 · 07 · 08",
           "en": "MACHINES AND LAW: valves, match clocks and EU instruments each fix a standard form.",
           "cn": "机器与法律：阀门、比赛计时与欧盟条例各自固定一种标准形式。"
         }
@@ -5547,7 +5527,7 @@
     "definition_zh": "监管的；规章的；调节性的",
     "definition_en": "relating to the rules and agencies that control an activity, or to the parts that control a biological process",
     "core_image": "一块写满条款的告示牌立在工厂大门前，旁边站着检查员",
-    "scene": "The regulatory agency approved the drug after two years of review.",
+    "scene": "这里指「监管的」。 The regulatory agency approved the drug after two years of review.",
     "sceneCN": "这里 regulatory 指「监管性质的」（第 2 个义项：与监管机构及其审查有关）；句意：监管机构经两年审查后批准了该药物。图中可辨识物件：告示牌、条款、检查员证件、工厂大门。",
     "pos": [
       {
@@ -5588,23 +5568,23 @@
     "forms": [
       {
         "label": "名词形式",
-        "form": "regulation（规章；调节）"
+        "form": "regulation"
       },
       {
         "label": "动词形式",
-        "form": "regulate（监管；调节）"
+        "form": "regulate"
       },
       {
         "label": "施动者名词",
-        "form": "regulator（监管者；调节器）"
+        "form": "regulator"
       },
       {
         "label": "比较级",
-        "form": "more regulatory（更具监管性质的）"
+        "form": "more regulatory"
       },
       {
         "label": "最高级",
-        "form": "most regulatory（最具监管性质的）"
+        "form": "most regulatory"
       }
     ],
     "derivatives": [
@@ -5924,27 +5904,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S2",
+          "senses": "01 · 02",
           "en": "RULES AND BODIES: the rule system itself, and the agency that administers it.",
           "cn": "规则与机构：规则体系本身，以及执行它的机构。"
         },
         {
-          "senses": "S3 · S4",
+          "senses": "03 · 04",
           "en": "THE GATE: compliance inside the boundary, and approval before entry.",
           "cn": "闸门：边界之内的合规，以及进入之前的审批。"
         },
         {
-          "senses": "S5",
+          "senses": "05",
           "en": "THE WEIGHT: the same protection is also a cost carried by the regulated.",
           "cn": "负担：同一保护措施也成为被监管者承担的成本。"
         },
         {
-          "senses": "S6",
+          "senses": "06",
           "en": "BIOLOGY: the controlling part of a gene, not a controlling institution.",
           "cn": "生物学：基因的调控部件，而非监管机构。"
         },
         {
-          "senses": "S7 · S8",
+          "senses": "07 · 08",
           "en": "FAILURE AND SCALE: the watchdog may be captured, and rules must meet across borders.",
           "cn": "失败与尺度：看门狗可能被俘获，规则还须跨境对接。"
         }
@@ -6054,7 +6034,7 @@
     "definition_zh": "康复；复健；改造；（房屋、生态）修复",
     "definition_en": "the process of restoring someone's health, abilities or good standing, or of bringing a damaged place or system back into use",
     "core_image": "一个人在平行杠之间一步步重新学走，治疗师在旁边计数",
-    "scene": "After the stroke, months of rehabilitation helped him walk again.",
+    "scene": "这里指「康复」。 After the stroke, months of rehabilitation helped him walk again.",
     "sceneCN": "这里 rehabilitation 指「医学康复」（第 1 个义项：通过训练恢复身体功能）；句意：中风后数月的康复训练帮助他重新行走。图中可辨识物件：平行杠、治疗师、秒表、步行路线标记。",
     "pos": [
       {
@@ -6099,19 +6079,19 @@
       },
       {
         "label": "动词形式",
-        "form": "rehabilitate（使康复；改造；修复）"
+        "form": "rehabilitate"
       },
       {
         "label": "形容词形式",
-        "form": "rehabilitative（康复性的）"
+        "form": "rehabilitative"
       },
       {
         "label": "口语缩略",
-        "form": "rehab（康复治疗；戒毒所）"
+        "form": "rehab"
       },
       {
         "label": "施动者名词",
-        "form": "rehabilitator（康复师；修复者）"
+        "form": "rehabilitator"
       }
     ],
     "derivatives": [
@@ -6431,27 +6411,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S7",
+          "senses": "01 · 07",
           "en": "THE BODY: movement and speech are trained back into use.",
           "cn": "身体：运动与言语被训练回可用状态。"
         },
         {
-          "senses": "S2",
+          "senses": "02",
           "en": "WORK: ability is redefined as employability.",
           "cn": "工作：能力被重新定义为可就业性。"
         },
         {
-          "senses": "S3 · S4",
+          "senses": "03 · 04",
           "en": "BEHAVIOUR: offenders and addicts are treated as people needing restoration, not only punishment.",
           "cn": "行为：罪犯与成瘾者被当作需要恢复的人，而不只是受惩罚者。"
         },
         {
-          "senses": "S5 · S6",
+          "senses": "05 · 06",
           "en": "PLACES: a district or an ecosystem is nursed back to function.",
           "cn": "地方：街区或生态系统被调养回功能状态。"
         },
         {
-          "senses": "S8",
+          "senses": "08",
           "en": "BUILDINGS: an old structure is made serviceable instead of demolished.",
           "cn": "建筑：旧结构被重新变得可用，而非拆除。"
         }
@@ -6561,7 +6541,7 @@
     "definition_zh": "加强；增援；强化；（心理学）强化；加固",
     "definition_en": "the act of making something stronger, or additional support that strengthens a force, structure or behaviour",
     "core_image": "一面墙外侧被加上斜撑钢架，墙体因此不再晃动",
-    "scene": "Positive reinforcement made the pupils keep raising their hands.",
+    "scene": "这里指「加强」。 Positive reinforcement made the pupils keep raising their hands.",
     "sceneCN": "这里 reinforcement 指「行为强化」（第 3 个义项：用奖励提高某种行为出现的频率）；句意：正向强化让学生们持续举手。图中可辨识物件：举手的学生、星星贴纸、行为记录表、教师。",
     "pos": [
       {
@@ -6606,19 +6586,19 @@
       },
       {
         "label": "动词形式",
-        "form": "reinforce（加强；增援；强化）"
+        "form": "reinforce"
       },
       {
         "label": "形容词形式",
-        "form": "reinforced（加固的；加强的）"
+        "form": "reinforced"
       },
       {
         "label": "施动者名词",
-        "form": "reinforcer（强化物；加固材料）"
+        "form": "reinforcer"
       },
       {
         "label": "可数性说明",
-        "form": "reinforcement（指过程时多不可数，指增援部队时可数）"
+        "form": "reinforcement"
       }
     ],
     "derivatives": [
@@ -6938,27 +6918,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S2",
+          "senses": "01 · 02",
           "en": "MORE STRENGTH: an argument or an army is made stronger by addition.",
           "cn": "更强：主张或军队靠添加而变强。"
         },
         {
-          "senses": "S3 · S4",
+          "senses": "03 · 04",
           "en": "BEHAVIOUR: a reward increases a response, or the removal of something unpleasant does.",
           "cn": "行为：奖励提高反应概率，撤走不快之物也能如此。"
         },
         {
-          "senses": "S5",
+          "senses": "05",
           "en": "STRUCTURE: steel inside concrete carries the load.",
           "cn": "结构：混凝土中的钢筋承担荷载。"
         },
         {
-          "senses": "S6",
+          "senses": "06",
           "en": "MACHINE LEARNING: scores after actions reshape the policy.",
           "cn": "机器学习：行动后的评分重塑策略。"
         },
         {
-          "senses": "S7 · S8",
+          "senses": "07 · 08",
           "en": "PEOPLE AND LESSONS: approval from others, and practice, hold behaviour in place.",
           "cn": "人与课程：他人的赞许与练习把行为固定住。"
         }
@@ -7068,7 +7048,7 @@
     "definition_zh": "可靠性；可信度；可靠程度",
     "definition_en": "the quality of being dependable, or the degree to which a measurement, source or system performs consistently",
     "core_image": "同一把尺子反复测量同一块板，刻度每次都落在同一位置",
-    "scene": "The reliability of the sensor was tested by repeating the same measurement fifty times.",
+    "scene": "这里指「可靠性」。 The reliability of the sensor was tested by repeating the same measurement fifty times.",
     "sceneCN": "这里 reliability 指「测量的可靠性」（第 2 个义项：重复测量结果的一致程度）；句意：传感器的可靠性通过重复同一测量五十次来检验。图中可辨识物件：传感器、重复测量曲线、刻度尺、记录表。",
     "pos": [
       {
@@ -7113,19 +7093,19 @@
       },
       {
         "label": "形容词形式",
-        "form": "reliable（可靠的）"
+        "form": "reliable"
       },
       {
         "label": "反义形容词",
-        "form": "unreliable（不可靠的）"
+        "form": "unreliable"
       },
       {
         "label": "动词形式",
-        "form": "rely（依赖；依靠）"
+        "form": "rely"
       },
       {
         "label": "副词形式",
-        "form": "reliably（可靠地）"
+        "form": "reliably"
       }
     ],
     "derivatives": [
@@ -7316,7 +7296,7 @@
             {
               "word": "religion",
               "ipa": "/rɪˈlɪdʒən/",
-              "tag": "same root, different branch",
+              "tag": "same root different branch",
               "definition": "From Latin religio, traditionally linked to religare 'bind fast'. It shares the root with rely but has followed a separate semantic path.",
               "definitionCN": "出自拉丁 religio，传统上与 religare「牢牢绑住」相关。它与 rely 同根，但走上了独立的语义路径。"
             }
@@ -7445,27 +7425,27 @@
       ],
       "branches": [
         {
-          "senses": "S1",
+          "senses": "01",
           "en": "A PERSON: the promise is the thing that holds.",
           "cn": "人：被绑定的是承诺。"
         },
         {
-          "senses": "S2 · S6",
+          "senses": "02 · 06",
           "en": "MEASUREMENT: repeated readings and split samples test stability.",
           "cn": "测量：重复读数与拆分样本检验稳定性。"
         },
         {
-          "senses": "S3 · S7",
+          "senses": "03 · 07",
           "en": "MACHINES: components and whole grids are counted by failure and uptime.",
           "cn": "机器：部件与整个电网按故障与运行时间计量。"
         },
         {
-          "senses": "S4 · S5",
+          "senses": "04 · 05",
           "en": "JUDGEMENT: witnesses and raters are checked against one another.",
           "cn": "判断：证人与评分者被相互核对。"
         },
         {
-          "senses": "S8",
+          "senses": "08",
           "en": "MEMORY: the inward instrument may give a stable but wrong reading.",
           "cn": "记忆：内在仪器可能给出稳定却错误的读数。"
         }

@@ -50,15 +50,7 @@
         "form": "sources"
       },
       {
-        "label": "三单（he/she/it）",
-        "form": "sources"
-      },
-      {
         "label": "过去式（已经发生）",
-        "form": "sourced"
-      },
-      {
-        "label": "过去分词（完成／被动）",
         "form": "sourced"
       },
       {
@@ -370,27 +362,27 @@
       ],
       "branches": [
         {
-          "senses": "S1",
+          "senses": "01",
           "en": "WATER: the literal springhead, still the shape of every other sense.",
           "cn": "水：字面的泉源，仍是其余所有义项的形状。"
         },
         {
-          "senses": "S2",
+          "senses": "02",
           "en": "CAUSE: a spring becomes the reason later events flow from.",
           "cn": "原因：泉变成后来事件所流出的理由。"
         },
         {
-          "senses": "S3 · S4",
+          "senses": "03 · 04",
           "en": "INFORMATION: a person or a document is the point where a claim rises.",
           "cn": "信息：人或文献就是一个说法涌出的那一点。"
         },
         {
-          "senses": "S5 · S6",
+          "senses": "05 · 06",
           "en": "SUPPLY: farms, mines and power stations are springs of goods and energy.",
           "cn": "供给：农场、矿山与电站是货物与能量的泉。"
         },
         {
-          "senses": "S7 · S8 · S9",
+          "senses": "07 · 08 · 09",
           "en": "TECHNICAL AND VERBAL: code is a source file, and to source is to buy at the spring or to write the spring down.",
           "cn": "技术与动词：代码是源文件；to source 是在泉眼处采购，或把泉眼写下来。"
         }
@@ -709,7 +701,7 @@
           "cn": "specere 被追溯到原始印欧语 *spek-“观察”，也是 spectrum、specimen、inspect、spy 的词根。该重构属一般认为，中间形式并无直接实证。"
         },
         {
-          "era": "SPECIAL vs SPECIFIC",
+          "era": "SPECIAL VS SPECIFIC",
           "en": "Special comes from Latin specialis 'belonging to a kind', also from species, but it has no -ficus element. Special therefore means 'set apart, exceptional', while specific means 'made into this kind', hence 'particular, precise'. They are cousins, not synonyms.",
           "cn": "special 来自拉丁语 specialis“属于某一种类的”，同样出自 species，但没有 -ficus 成分。因此 special 表示“被单独对待的、特别的”，specific 表示“被做成这一种类的”，故有“特定的、精确的”义。二者是表亲，不是同义词。"
         },
@@ -732,7 +724,7 @@
             {
               "word": "special",
               "ipa": "/ˈspesɪəl/",
-              "tag": "same root, no facere",
+              "tag": "same root no facere",
               "definition": "exceptional, or intended for one purpose. From specialis 'belonging to a kind' without the 'making' element, so it never means 'precise'.",
               "definitionCN": "特别的，或专为某一用途的。来自 specialis“属于某一种类”，没有“做”的成分，因此从不表示“精确的”。"
             },
@@ -868,27 +860,27 @@
       ],
       "branches": [
         {
-          "senses": "S1",
+          "senses": "01",
           "en": "INSTANCE: the cut-out member shown as a concrete example.",
           "cn": "实例：被切出的成员作为具体例子展示。"
         },
         {
-          "senses": "S2",
+          "senses": "02",
           "en": "IDENTIFICATION: the label is used to point at one particular item.",
           "cn": "指认：标签被用来指向某一个特定项目。"
         },
         {
-          "senses": "S3",
+          "senses": "03",
           "en": "PRECISION: pointing at one item produces explicit, detailed instructions.",
           "cn": "精确：指向单项，自然产生明确而详细的指示。"
         },
         {
-          "senses": "S4 · S5",
+          "senses": "04 · 05",
           "en": "BOUNDARY: the kind becomes a species boundary, then a single substance measured per unit.",
           "cn": "边界：种类变成物种边界，再变成按单位量计的单一物质。"
         },
         {
-          "senses": "S6 · S7 · S8",
+          "senses": "06 · 07 · 08",
           "en": "NOUNS AND LIMITS: the cut-out items are specifics, a one-disease drug is a specific, and special marks the cousin without facere.",
           "cn": "名词与边界：切出的条目是 specifics，单病药物是 a specific，而 special 是没有 facere 的表亲。"
         }
@@ -1056,10 +1048,6 @@
         "form": "specified"
       },
       {
-        "label": "过去分词（完成／被动）",
-        "form": "specified"
-      },
-      {
         "label": "现在分词（进行体）",
         "form": "specifying"
       }
@@ -1203,7 +1191,7 @@
           "cn": "specificus = species“外观、种类”+ -ficus，后者来自 facere“做”。因此 specify 字面上是“造一个种类”：逐一点名，直到整类被一条条造出的条目取代。"
         },
         {
-          "era": "SPECIAL vs SPECIFY",
+          "era": "SPECIAL VS SPECIFY",
           "en": "Special, from specialis 'belonging to a kind', has no facere element, so it cannot mean 'name item by item'. Specify keeps the making, which is why it always implies exact, enumerated detail.",
           "cn": "special 来自 specialis“属于某一种类”，没有 facere 成分，因此不能表示“逐项点名”。specify 保留“做”的成分，因此总含“精确、逐条”的意思。"
         },
@@ -1233,14 +1221,14 @@
             {
               "word": "special",
               "ipa": "/ˈspesɪəl/",
-              "tag": "same root, no facere",
+              "tag": "same root no facere",
               "definition": "exceptional or set apart. It shares species but lacks the 'making' element, so it does not mean 'state exactly'.",
               "definitionCN": "特别的、被单独对待的。它共享 species，却缺少“做”的成分，因此不表示“精确说明”。"
             },
             {
               "word": "speechify",
               "ipa": "/ˈspiːtʃɪfaɪ/",
-              "tag": "same suffix, different root",
+              "tag": "same suffix different root",
               "definition": "to make speeches, often in a tiresome way. It has the same -ify ending but comes from speech, not species.",
               "definitionCN": "发表演说，常含贬义。它有同样的 -ify 结尾，但来自 speech，而非 species。"
             }
@@ -1362,27 +1350,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S2",
+          "senses": "01 · 02",
           "en": "NAMING: exact speech and item-by-item listing perform the original 'making a kind'.",
           "cn": "命名：精确说明与逐条列出，执行的正是最初的“造一个种类”。"
         },
         {
-          "senses": "S3",
+          "senses": "03",
           "en": "SELECTION: from the named entries, one exact item is chosen.",
           "cn": "选择：从具名条目中挑出确切的那一个。"
         },
         {
-          "senses": "S4 · S5",
+          "senses": "04 · 05",
           "en": "REQUIREMENT: the named entries become contract clauses and technical parameters.",
           "cn": "要求：具名条目变成合同条款与技术参数。"
         },
         {
-          "senses": "S6 · S7",
+          "senses": "06 · 07",
           "en": "RULES AND FORMULAS: conditions are drawn around a class, and 'as specified' points back to the written list.",
           "cn": "规则与固定说法：条件围绕类别画出边界，as specified 则指回那份写好的清单。"
         },
         {
-          "senses": "S8",
+          "senses": "08",
           "en": "BOUNDARY: mention and suggest leave the item unnamed, which is exactly what specify refuses to do.",
           "cn": "边界：mention 与 suggest 让条目保持未命名，而这正是 specify 拒绝做的事。"
         }
@@ -1859,27 +1847,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S2",
+          "senses": "01 · 02",
           "en": "GEOMETRY: the solid and its surface are the literal shell.",
           "cn": "几何：实体与表面就是字面的球壳。"
         },
         {
-          "senses": "S3 · S4",
+          "senses": "03 · 04",
           "en": "OBJECTS AND SKY: a manufactured ball, then the imagined shell of the stars.",
           "cn": "实物与天空：造出来的球，再到想象出的星空之壳。"
         },
         {
-          "senses": "S5 · S6",
+          "senses": "05 · 06",
           "en": "TERRITORY: knowledge and political reach both become bounded regions.",
           "cn": "领地：知识领域与政治影响力都变成有界区域。"
         },
         {
-          "senses": "S7 · S8",
+          "senses": "07 · 08",
           "en": "SOCIETY AND DUTY: social circles and official responsibilities are spheres with edges you do not cross.",
           "cn": "社会与职责：社会圈子与官方职责都是带边界的 sphere，边界不可随意越过。"
         },
         {
-          "senses": "S9",
+          "senses": "09",
           "en": "BOUNDARY: field and area are open; sphere is closed, which is the whole difference.",
           "cn": "边界：field 与 area 是开放的；sphere 是闭合的，这就是全部区别。"
         }
@@ -2209,7 +2197,7 @@
           "cn": "stare 被追溯到原始印欧语 *sta-“站立”，也是 stand、state、status、statue、constant、insist 的词根。该词根属一般认为，重构并无直接实证。"
         },
         {
-          "era": "STATUS vs STABLE",
+          "era": "STATUS VS STABLE",
           "en": "Status also comes from stare, but it means 'the position where one stands'; statistic reached English through German Statistik from status. Stable is 'able to stand', status is 'the place stood in' — same root, different meanings.",
           "cn": "status 同样来自 stare，但意为“所站的位置”；statistic 则经德语 Statistik 上溯 status。stable 是“站得住”，status 是“所站之处”——同源而不同义。"
         },
@@ -2368,27 +2356,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S2",
+          "senses": "01 · 02",
           "en": "BALANCE: a structure that stands, and a level that holds in time.",
           "cn": "平衡：站得住的结构，以及随时间维持住的水平。"
         },
         {
-          "senses": "S3",
+          "senses": "03",
           "en": "CHARACTER: the same balance turns inward and becomes emotional steadiness.",
           "cn": "性格：同一种平衡转向内部，成为情绪上的稳重。"
         },
         {
-          "senses": "S4 · S5",
+          "senses": "04 · 05",
           "en": "TECHNICAL: an atom or a patient that holds its structure instead of falling apart.",
           "cn": "专业：保持结构而不散架的原子或病人。"
         },
         {
-          "senses": "S6 · S7",
+          "senses": "06 · 07",
           "en": "THE NOUN: stabulum is literally a standing place, then the horses that stand in it.",
           "cn": "名词：stabulum 字面就是站立之处，再指站在其中的马。"
         },
         {
-          "senses": "S8 · S9",
+          "senses": "08 · 09",
           "en": "EXTENSION AND EDGE: talent kept like horses, and steady (a rate) versus stable (a state).",
           "cn": "延伸与边界：人才像马一样被养着；steady 讲速率，stable 讲状态。"
         }
@@ -2553,10 +2541,6 @@
       },
       {
         "label": "复数（多个统计量）",
-        "form": "statistics"
-      },
-      {
-        "label": "学科用法（statistics 作单数）",
         "form": "statistics"
       }
     ],
@@ -2736,7 +2720,7 @@
             {
               "word": "status",
               "ipa": "/ˈsteɪtəs/",
-              "tag": "same Latin root",
+              "tag": "same atin root",
               "definition": "rank or condition. It shares the status/stare family but means standing, not a data item.",
               "definitionCN": "地位或状态。它同属 status/stare 词族，但指“所站的位置”，不是一项数据。"
             }
@@ -2858,27 +2842,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S5",
+          "senses": "01 · 05",
           "en": "MEASURE: a calculated value makes a mass of data comparable.",
           "cn": "度量：一个计算值让一堆数据变得可比较。"
         },
         {
-          "senses": "S3",
+          "senses": "03",
           "en": "DISCIPLINE: statistics names the science that produces such figures.",
           "cn": "学科：statistics 命名生产这些数值的学问。"
         },
         {
-          "senses": "S4",
+          "senses": "04",
           "en": "DATA: the plural also names the collected numbers themselves.",
           "cn": "数据：复数形式也指收集起来的数字本身。"
         },
         {
-          "senses": "S2 · S6",
+          "senses": "02 · 06",
           "en": "REPORT: a figure is quoted in news, research, or sport.",
           "cn": "报告：数字被引用于新闻、研究或体育。"
         },
         {
-          "senses": "S7 · S8",
+          "senses": "07 · 08",
           "en": "REDUCTION AND BOUNDARY: a person can become a statistic, and singular versus plural marks the difference.",
           "cn": "化约与边界：人可以变成一个 statistic，而单数与复数标记出差别。"
         }
@@ -3044,10 +3028,6 @@
       {
         "label": "复数（常规）",
         "form": "statuses"
-      },
-      {
-        "label": "复数（拉丁式，罕用）",
-        "form": "status"
       }
     ],
     "derivatives": [
@@ -3219,14 +3199,14 @@
             {
               "word": "statue",
               "ipa": "/ˈstætʃuː/",
-              "tag": "same Latin root",
+              "tag": "same atin root",
               "definition": "a carved or cast figure of a person or animal. Latin statua is 'something set up', from stare.",
               "definitionCN": "人或动物的雕像。拉丁语 statua 是“被立起来的东西”，出自 stare。"
             },
             {
               "word": "statistics",
               "ipa": "/stəˈtɪstɪks/",
-              "tag": "same root, different branch",
+              "tag": "same root different branch",
               "definition": "the science or body of data. It comes from the same status family but means figures, not standing.",
               "definitionCN": "统计学或一批数据。它同出 status 词族，但指数字，不指地位。"
             }
@@ -3348,27 +3328,27 @@
       ],
       "branches": [
         {
-          "senses": "S1",
+          "senses": "01",
           "en": "RANK: the vertical place one occupies among others.",
           "cn": "等级：在他人之间所占的纵向位置。"
         },
         {
-          "senses": "S2 · S6",
+          "senses": "02 · 06",
           "en": "OFFICIAL STANDING: an authority assigns a slot, and the slot has consequences.",
           "cn": "官方身份：权威机构指派一个槽位，槽位带有后果。"
         },
         {
-          "senses": "S3 · S7",
+          "senses": "03 · 07",
           "en": "CONDITION: a person, flight, or process stands in some state at this moment.",
           "cn": "状况：人、航班或进程此刻站在某种状态里。"
         },
         {
-          "senses": "S4 · S5",
+          "senses": "04 · 05",
           "en": "ESTEEM AND PRESERVATION: rank becomes prestige, and the status quo is what still stands.",
           "cn": "敬重与维持：等级变成威望，而 status quo 是仍然站立着的现状。"
         },
         {
-          "senses": "S8",
+          "senses": "08",
           "en": "BOUNDARY: status keeps rank and official labels; state keeps condition and polity.",
           "cn": "边界：status 保留等级与官方标签；state 保留状况与政体。"
         }
@@ -3534,10 +3514,6 @@
       {
         "label": "复数（多项策略）",
         "form": "strategies"
-      },
-      {
-        "label": "不可数（战略这门学问）",
-        "form": "strategy"
       }
     ],
     "derivatives": [
@@ -3716,7 +3692,7 @@
             {
               "word": "stratagem",
               "ipa": "/ˈstrætədʒəm/",
-              "tag": "same Greek root",
+              "tag": "same reek root",
               "definition": "a trick or cunning plan to gain an advantage. Greek stratēgēma is a general's device, a much narrower word than strategy.",
               "definitionCN": "为取得优势而用的计谋。希腊语 stratēgēma 是将军的计策，比 strategy 窄得多。"
             }
@@ -3838,27 +3814,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S7",
+          "senses": "01 · 07",
           "en": "COMMAND: the art and later the academic field of directing a whole force.",
           "cn": "统帅：指挥整支力量的技艺，后来成为学术领域。"
         },
         {
-          "senses": "S2",
+          "senses": "02",
           "en": "LONG-TERM PLAN: many coordinated actions aimed at one major goal.",
           "cn": "长期计划：许多协调动作指向一个重大目标。"
         },
         {
-          "senses": "S3",
+          "senses": "03",
           "en": "TRICK: the cunning edge of the military word applied to small personal gains.",
           "cn": "计谋：军事词的机巧锋芒被用在个人的小算盘上。"
         },
         {
-          "senses": "S4 · S5",
+          "senses": "04 · 05",
           "en": "GAME: the overall plan in a contest, formalised in game theory as a rule for every case.",
           "cn": "博弈：竞赛中的全局方案，在博弈论里形式化为覆盖所有情形的规则。"
         },
         {
-          "senses": "S6 · S8",
+          "senses": "06 · 08",
           "en": "METHOD AND BOUNDARY: a learning strategy is a plan for the mind, and tactics remain the short moves.",
           "cn": "方法与边界：学习策略是给头脑的计划，而 tactics 始终是短期动作。"
         }
@@ -4026,15 +4002,7 @@
         "form": "stresses"
       },
       {
-        "label": "三单（he/she/it）",
-        "form": "stresses"
-      },
-      {
         "label": "过去式（已经发生）",
-        "form": "stressed"
-      },
-      {
-        "label": "过去分词（完成／被动）",
         "form": "stressed"
       },
       {
@@ -4211,7 +4179,7 @@
             {
               "word": "strain",
               "ipa": "/streɪn/",
-              "tag": "same Latin root",
+              "tag": "same atin root",
               "definition": "a severe demand on strength or resources, or the deformation caused by stress. It is the effort or the shape change, not the load itself.",
               "definitionCN": "对体力或资源的严苛要求，或应力造成的形变。它是承受的努力或形状改变，而不是负荷本身。"
             },
@@ -4340,27 +4308,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S7",
+          "senses": "01 · 07",
           "en": "PHYSICAL LOAD: force on a beam or a material, measured per unit area in engineering.",
           "cn": "物理负荷：加在梁或材料上的力，工程上按单位面积计量。"
         },
         {
-          "senses": "S2 · S6",
+          "senses": "02 · 06",
           "en": "MENTAL LOAD: the squeeze moves inward, and one person can also apply it to another.",
           "cn": "心理负荷：挤压转向内部，一个人也能把它施加到别人身上。"
         },
         {
-          "senses": "S3 · S5",
+          "senses": "03 · 05",
           "en": "EMPHASIS: weight placed on an idea, as noun or as verb.",
           "cn": "强调：加在观念上的重量，名词与动词皆可。"
         },
         {
-          "senses": "S4",
+          "senses": "04",
           "en": "SPEECH: a local squeeze of air makes one syllable the strong beat.",
           "cn": "语音：空气的局部挤压让某个音节成为强拍。"
         },
         {
-          "senses": "S8",
+          "senses": "08",
           "en": "BOUNDARY: stress is the load, strain the deformation, pressure the outside push, anxiety the worry.",
           "cn": "边界：stress 是负荷，strain 是形变，pressure 是外部推力，anxiety 是担忧。"
         }
@@ -4528,15 +4496,7 @@
         "form": "structures"
       },
       {
-        "label": "三单（he/she/it）",
-        "form": "structures"
-      },
-      {
         "label": "过去式（已经发生）",
-        "form": "structured"
-      },
-      {
-        "label": "过去分词（完成／被动）",
         "form": "structured"
       },
       {
@@ -4842,27 +4802,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S4",
+          "senses": "01 · 04",
           "en": "ARRANGEMENT: the order of parts, whether in a molecule, a sentence, or an essay.",
           "cn": "排列：各部分的次序，无论在分子、句子还是文章里。"
         },
         {
-          "senses": "S2",
+          "senses": "02",
           "en": "BUILT THING: when the arrangement is made of stone or steel, it becomes an object.",
           "cn": "建成之物：当排列由石头或钢铁做成，它就变成一个物体。"
         },
         {
-          "senses": "S3 · S7",
+          "senses": "03 · 07",
           "en": "SYSTEM: roles and rules, or data and links, form an invisible structure.",
           "cn": "体系：角色与规则，或数据与连接，构成看不见的结构。"
         },
         {
-          "senses": "S5",
+          "senses": "05",
           "en": "NATURE: biology and chemistry describe arrangements that were not designed by a builder.",
           "cn": "自然：生物与化学描述并非由建造者设计的排列。"
         },
         {
-          "senses": "S6 · S8",
+          "senses": "06 · 08",
           "en": "ACTION AND BOUNDARY: the verb makes the arrangement, and construction names the act of building it.",
           "cn": "动作与边界：动词制造排列，而 construction 命名建造它的行为。"
         }
@@ -5030,15 +4990,7 @@
         "form": "styles"
       },
       {
-        "label": "三单（he/she/it）",
-        "form": "styles"
-      },
-      {
         "label": "过去式（已经发生）",
-        "form": "styled"
-      },
-      {
-        "label": "过去分词（完成／被动）",
         "form": "styled"
       },
       {
@@ -5355,27 +5307,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S7",
+          "senses": "01 · 07",
           "en": "TOOL AND STALK: the physical pointed thing, whether a pen or a flower's upright column.",
           "cn": "工具与柱茎：那个有尖头的实体，既可以是一支笔，也可以是花中直立的柱状结构。"
         },
         {
-          "senses": "S2 · S9",
+          "senses": "02 · 09",
           "en": "TRACE AND COLLECTIVE TRACE: one writer's mark, then a period's shared mark.",
           "cn": "痕迹与集体痕迹：先是一个写作者的标记，后来是一个时代共同的标记。"
         },
         {
-          "senses": "S3 · S6",
+          "senses": "03 · 06",
           "en": "ACTION AND MANNER: repeated doing becomes a pattern, and the verb impresses that pattern on material.",
           "cn": "行动与方式：反复的做成为模式，而动词则是把这种模式压进材料里。"
         },
         {
-          "senses": "S4 · S5",
+          "senses": "04 · 05",
           "en": "SOCIAL SURFACE: dress, hair and objects carry the admired manner.",
           "cn": "社会表面：衣着、发型与器物承载着受人赞赏的方式。"
         },
         {
-          "senses": "S8",
+          "senses": "08",
           "en": "LABEL: a title is a mark publicly attached to a name.",
           "cn": "标签：称号是公开贴在名字上的标记。"
         }
@@ -5544,10 +5496,6 @@
       },
       {
         "label": "过去式（已经发生）",
-        "form": "submitted"
-      },
-      {
-        "label": "过去分词（完成／被动）",
         "form": "submitted"
       },
       {
@@ -5853,27 +5801,27 @@
       ],
       "branches": [
         {
-          "senses": "S1",
+          "senses": "01",
           "en": "SELF BELOW POWER: the self is lowered and the stronger party is accepted.",
           "cn": "自我低于权力：自我被放低，较强者被接受。"
         },
         {
-          "senses": "S7",
+          "senses": "07",
           "en": "INNER FORCE: the same lowering happens inside, where a feeling defeats resistance.",
           "cn": "内在力量：同样的“放低”发生在内心，情绪击败了抵抗。"
         },
         {
-          "senses": "S2 · S3",
+          "senses": "02 · 03",
           "en": "DOCUMENTS AND PROPOSALS: papers and plans are sent under review, their fate held by the receiver.",
           "cn": "文件与方案：纸张和计划被送到审阅之下，命运由接收者掌握。"
         },
         {
-          "senses": "S4 · S8",
+          "senses": "04 · 08",
           "en": "PROCEDURE: the self or a material is sent into a test or treatment rather than to a person.",
           "cn": "程序：自我或材料被送进检查、处理，而不是送给某个人。"
         },
         {
-          "senses": "S5 · S6",
+          "senses": "05 · 06",
           "en": "FORMAL RECORD: evidence and formal statements are handed to a court or assembly to be weighed.",
           "cn": "正式记录：证据与正式陈述被交给法庭或议会，供其权衡。"
         }
@@ -6343,27 +6291,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S7",
+          "senses": "01 · 07",
           "en": "TIME AND CAUSE: later in time, and often later because of what came first.",
           "cn": "时间与原因：在时间上较晚，且常常因为先前之事而较晚。"
         },
         {
-          "senses": "S2 · S8",
+          "senses": "02 · 08",
           "en": "SEQUENCE AND LINEAGE: order in a series or in generations.",
           "cn": "序列与血脉：在系列中的次序，或在世代中的次序。"
         },
         {
-          "senses": "S3",
+          "senses": "03",
           "en": "TEXT: the later page follows the earlier one for the reader.",
           "cn": "文本：对读者而言，后一页跟在前面那一页之后。"
         },
         {
-          "senses": "S4",
+          "senses": "04",
           "en": "PREPOSITIONAL USE: subsequent to packages the following relation as a formal phrase.",
           "cn": "介词用法：subsequent to 把“跟随”关系包装成正式短语。"
         },
         {
-          "senses": "S5 · S6",
+          "senses": "05 · 06",
           "en": "PROFESSIONAL ORDER: title chains and geological layers are both sequences read as time.",
           "cn": "专业次序：产权链与地质层都是被读作时间的序列。"
         }
@@ -6844,27 +6792,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S8",
+          "senses": "01 · 08",
           "en": "METAPHYSICS: what stands under appearances is real being and substance.",
           "cn": "形而上学：站在表象下面的，是真实存在与实体。"
         },
         {
-          "senses": "S2 · S7",
+          "senses": "02 · 07",
           "en": "ESSENCE VS FORM: law and philosophy separate substance from accident or mere form.",
           "cn": "本质与形式：法律和哲学把实体与偶然属性或纯形式分开。"
         },
         {
-          "senses": "S3 · S9",
+          "senses": "03 · 09",
           "en": "MASS: solid bulk becomes large amount, down to a filling meal.",
           "cn": "质量：实心体积变成大量，一直落到能吃饱的一餐。"
         },
         {
-          "senses": "S5 · S6",
+          "senses": "05 · 06",
           "en": "BEARING WEIGHT: walls and fortunes are judged by what they can support.",
           "cn": "承重：墙壁与家产都按“能撑住多少”来评判。"
         },
         {
-          "senses": "S4",
+          "senses": "04",
           "en": "CONSEQUENCE: importance is weight transferred to an argument.",
           "cn": "后果：重要性就是转移到论证上的重量。"
         }
@@ -7036,15 +6984,7 @@
         "form": "substitutes"
       },
       {
-        "label": "三单（he/she/it）",
-        "form": "substitutes"
-      },
-      {
         "label": "过去式（已经发生）",
-        "form": "substituted"
-      },
-      {
-        "label": "过去分词（完成／被动）",
         "form": "substituted"
       },
       {
@@ -7361,27 +7301,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S3",
+          "senses": "01 · 03",
           "en": "PEOPLE AND PLAYERS: a person occupies another's role, permanently or for a match.",
           "cn": "人与球员：一个人占据另一个人的角色，长期或只限一场比赛。"
         },
         {
-          "senses": "S2 · S8",
+          "senses": "02 · 08",
           "en": "OBJECTS AND INGREDIENTS: a thing performs another thing's function.",
           "cn": "物件与食材：一个东西履行另一个东西的功能。"
         },
         {
-          "senses": "S5",
+          "senses": "05",
           "en": "ACTION: the verb puts the stand-in into the slot.",
           "cn": "动作：动词把替身放进那个位置。"
         },
         {
-          "senses": "S6 · S7",
+          "senses": "06 · 07",
           "en": "TECHNICAL SLOTS: atoms and variables are positions that can be filled.",
           "cn": "技术位置：原子与变量都是可以被填上的位置。"
         },
         {
-          "senses": "S4 · S9",
+          "senses": "04 · 09",
           "en": "INSTITUTIONS AND LIMITS: temporary posts can be filled; some slots admit no substitute.",
           "cn": "制度与边界：临时职位可以填上；有些位置则不容任何替身。"
         }

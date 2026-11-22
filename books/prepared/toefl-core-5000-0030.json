@@ -7,7 +7,7 @@
     "definition_en": "the area or range that something covers, the room available for action, or an instrument used for viewing",
     "core_image": "一支镜筒对准远处的靶标，镜筒框住的那一片就是“范围”",
     "scene": "项目启动会上，负责人在白板上画了一个大圆圈，把要做的事都写进去，圈外的事则标为不在范围内。他说：Let us agree on the scope first.",
-    "sceneCN": "这里 scope 是「项目所覆盖的范围」（第 1、8 个义项：主题广度与项目边界）；句意：我们先确定项目的范围。图中可辨识物件：白板、大圆圈、清单、马克笔。",
+    "sceneCN": "这里指第 1 个义项。这里 scope 是「项目所覆盖的范围」（第 1、8 个义项：主题广度与项目边界）；句意：我们先确定项目的范围。图中可辨识物件：白板、大圆圈、清单、马克笔。",
     "pos": [
       {
         "tag": "n.",
@@ -50,15 +50,7 @@
         "form": "scopes"
       },
       {
-        "label": "三单（he/she/it）",
-        "form": "scopes"
-      },
-      {
         "label": "过去式（已经发生）",
-        "form": "scoped"
-      },
-      {
-        "label": "过去分词（完成／被动）",
         "form": "scoped"
       },
       {
@@ -196,27 +188,27 @@
       },
       "items": [
         {
-          "era": "ANCIENT GREEK skopos",
+          "era": "ANCIENT GREEK SKOPOS",
           "en": "Skopos meant 'a watcher, one who looks out; a mark or target aimed at; an object of observation'. The double sense of person and target is already present in Homeric Greek.",
           "cn": "skopos 意为“观看者、瞭望者；瞄准的标记或靶子；观察的对象”。人与靶标这两重意思在荷马时代的希腊语中就已存在。"
         },
         {
-          "era": "PIE *spek-",
+          "era": "PIE *SPEK-",
           "en": "Skopos is explained as a metathesized form of PIE *spek-yo-, from the root *spek- 'to observe'. The same root gives Greek skeptesthai 'to look at, examine' and Latin haruspex 'entrail-inspector'.",
           "cn": "skopos 被解释为原始印欧语 *spek-yo- 的换位形式，出自词根 *spek-“观察”。同一词根也给出希腊语 skeptesthai“看、审视”和拉丁语 haruspex“肠卜师”。"
         },
         {
-          "era": "LATIN scopus",
+          "era": "LATIN SCOPUS",
           "en": "Latin borrowed skopos as scopus, 'aim, purpose, object'. Roman writers used it mostly in the abstract sense of a goal one aims at rather than a physical target.",
           "cn": "拉丁语把 skopos 借作 scopus，意为“目标、目的、对象”。罗马作家多用其抽象义，指人瞄准的目的，而不是实物靶子。"
         },
         {
-          "era": "ITALIAN scopo",
+          "era": "ITALIAN SCOPO",
           "en": "Italian scopo inherited both 'aim, purpose' and 'field of view'. It was the direct source of the English word, which is why English scope carries purpose and range at once.",
           "cn": "意大利语 scopo 同时继承了“目的”与“视野范围”两义。它是英语词的直接来源，因此英语 scope 一身兼有“目的”与“范围”。"
         },
         {
-          "era": "1530s ENGLISH",
+          "era": "1530S ENGLISH",
           "en": "English first recorded scope in the 1530s meaning 'room to act, free play', and in the 1550s 'space to move in'. The classical sense 'a mark to shoot at' appears in the 1560s but is now obsolete.",
           "cn": "英语最早在 16 世纪 30 年代记录 scope，意为“行动余地、自由活动”；16 世纪 50 年代又指“可移动的空间”。古典义“射击瞄准的标记”在 16 世纪 60 年代出现，现已废弃。"
         },
@@ -279,7 +271,7 @@
             {
               "word": "purview",
               "ipa": "/ˈpɜːvjuː/",
-              "tag": "formal, authority",
+              "tag": "formal authority",
               "definition": "the scope of someone's authority or responsibility. It is formal and almost always tied to an office or a law.",
               "definitionCN": "某人的职权或责任范围。它是正式用语，几乎总与职位或法律绑定。"
             },
@@ -375,27 +367,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S3 · S4",
+          "senses": "01 · 03 · 04",
           "en": "COVERAGE: what a subject, a rule or a job includes. The circle is drawn from the outside.",
           "cn": "覆盖：一个主题、一条规则或一份职责包含什么。圆圈从外面画定。"
         },
         {
-          "senses": "S2",
+          "senses": "02",
           "en": "ROOM TO ACT: the unfilled part of the circle, which is what opportunity feels like.",
           "cn": "行动余地：圆圈里尚未填满的部分，也就是“机会”的感觉。"
         },
         {
-          "senses": "S5 · S6",
+          "senses": "05 · 06",
           "en": "SEEING: the literal field of vision and the instruments that extend it.",
           "cn": "看见：字面上的视场，以及延伸视场的仪器。"
         },
         {
-          "senses": "S7 · S8",
+          "senses": "07 · 08",
           "en": "TECHNICAL BOUNDARY: the region where a name works, and the work a project promises to do.",
           "cn": "技术边界：名字生效的区域，以及项目承诺完成的工作。"
         },
         {
-          "senses": "S9",
+          "senses": "09",
           "en": "EXAMINING: the verb returns to plain looking, the root act behind all the nouns.",
           "cn": "察看：动词回到最朴素的“看”，也就是所有名词义背后的词根动作。"
         }
@@ -565,15 +557,7 @@
         "form": "sections"
       },
       {
-        "label": "三单（he/she/it）",
-        "form": "sections"
-      },
-      {
         "label": "过去式（已经发生）",
-        "form": "sectioned"
-      },
-      {
-        "label": "过去分词（完成／被动）",
         "form": "sectioned"
       },
       {
@@ -711,17 +695,17 @@
       },
       "items": [
         {
-          "era": "LATIN secare",
+          "era": "LATIN SECARE",
           "en": "Secare meant 'to cut, cut off, divide'. It is one of the basic Latin verbs of separation and is unrelated to sequi 'to follow'.",
           "cn": "secare 意为“切、切下、分割”。它是拉丁语中最基本的“分离”动词之一，与 sequi“跟随”无关。"
         },
         {
-          "era": "LATIN sectio",
+          "era": "LATIN SECTIO",
           "en": "Sectio (genitive sectionis) meant 'a cutting, a cut, a division'. It named both the act of cutting and the part produced.",
           "cn": "sectio（属格 sectionis）意为“切割、切口、划分”。它同时指切割的动作与切出来的部分。"
         },
         {
-          "era": "LATIN sector",
+          "era": "LATIN SECTOR",
           "en": "A different derivative, sector, meant 'a cutter', from the same secare. It later became the geometric and business 'sector' - same knife, different ending.",
           "cn": "同一词根的另一个派生词 sector 意为“切割者”。它后来变成几何与商业上的“扇形、部门”——同一把刀，不同词尾。"
         },
@@ -731,7 +715,7 @@
           "cn": "英语于 15 世纪早期从古法语 section 借入，最初是“分割”或“切下的一部分”的一般义。"
         },
         {
-          "era": "1530s–1570s ENGLISH",
+          "era": "1530S–1570S ENGLISH",
           "en": "The sense 'part of a book or writing' is recorded from the 1530s. The anatomical sense 'slice of a solid body' follows in the 1570s as dissection became a science.",
           "cn": "“书或文章的一部分”这一义项于 16 世纪 30 年代有记录。随着解剖成为一门科学，解剖学上“固体切片”的义项在 16 世纪 70 年代跟进。"
         },
@@ -761,14 +745,14 @@
             {
               "word": "sector",
               "ipa": "/ˈsektə/",
-              "tag": "same root, different ending",
+              "tag": "same root different ending",
               "definition": "a part of a circle between two radii, or a distinct branch of an economy. It comes from secare through sector 'cutter', and is not interchangeable with section.",
               "definitionCN": "两条半径之间的扇形；经济中的一个部门。它经 sector“切割者”出自 secare，不能与 section 互换。"
             },
             {
               "word": "sect",
               "ipa": "/sekt/",
-              "tag": "same root, short form",
+              "tag": "same root short form",
               "definition": "a small religious group that has separated from a larger one. It is the bare Latin stem, literally 'a cut-off group'.",
               "definitionCN": "从更大团体中分离出来的小宗教派别。它是光秃秃的拉丁词干，字面就是“被切出去的一群”。"
             }
@@ -890,27 +874,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S2 · S9",
+          "senses": "01 · 02 · 09",
           "en": "PART OF A WHOLE: the plain piece, the chapter, and the citable legal clause.",
           "cn": "整体的一部分：最普通的一块、书的一章、可引用的法律条款。"
         },
         {
-          "senses": "S3 · S5",
+          "senses": "03 · 05",
           "en": "HUMAN DIVISIONS: a department cut out of an organization, a class cut out of society.",
           "cn": "人的划分：从组织切出的部门，从社会切出的阶层。"
         },
         {
-          "senses": "S4 · S8",
+          "senses": "04 · 08",
           "en": "THE CUT ITSELF: the exposed surface of a sliced solid, and the verb that makes the slice.",
           "cn": "切口本身：被切开固体的暴露面，以及做出切片的动词。"
         },
         {
-          "senses": "S6",
+          "senses": "06",
           "en": "LAND: a parcel marked off by survey lines, a cut drawn on a map.",
           "cn": "土地：被测量线划出的一块，是画在地图上的切口。"
         },
         {
-          "senses": "S7",
+          "senses": "07",
           "en": "SOUND: an orchestral family cut off from the rest by its timbre.",
           "cn": "声音：因音色而从其余部分切出的乐团声部。"
         }
@@ -1086,15 +1070,7 @@
         "form": "sectors"
       },
       {
-        "label": "三单（he/she/it）",
-        "form": "sectors"
-      },
-      {
         "label": "过去式（已经发生）",
-        "form": "sectored"
-      },
-      {
-        "label": "过去分词（完成／被动）",
         "form": "sectored"
       },
       {
@@ -1232,17 +1208,17 @@
       },
       "items": [
         {
-          "era": "LATIN secare",
+          "era": "LATIN SECARE",
           "en": "Secare 'to cut' goes back to PIE *sek- 'to cut', the root behind section, sect, dissect, insect and segment. The 'cut' image is the deepest layer of sector.",
           "cn": "secare“切”追溯到原始印欧语 *sek-“切”，也是 section、sect、dissect、insect、segment 的词根。“切”的意象是 sector 最深的一层。"
         },
         {
-          "era": "LATIN sector",
+          "era": "LATIN SECTOR",
           "en": "Classical Latin sector meant 'a cutter, one who cuts', an agent noun from sectus, the past participle of secare. Late Latin also used it to translate Greek tomeus 'cutter' for a section of a circle.",
           "cn": "古典拉丁语 sector 意为“切割者、切割的人”，是 secare 的分词 sectus 构成的施事名词。晚期拉丁语也用它翻译希腊语 tomeus“切割者”，指圆的一段。"
         },
         {
-          "era": "1560s ENGLISH",
+          "era": "1560S ENGLISH",
           "en": "English adopted sector in the 1560s specifically as the geometry term: the region between two radii and their arc. It came through Late Latin sector 'section of a circle', which had translated Archimedes' Greek.",
           "cn": "英语在 16 世纪 60 年代借入 sector，专门作几何术语：两条半径与它们所夹弧之间的区域。它经由晚期拉丁语 sector“圆的一段”传来，后者曾用于翻译阿基米德的希腊文。"
         },
@@ -1275,14 +1251,14 @@
             {
               "word": "section",
               "ipa": "/ˈsekʃn/",
-              "tag": "same root, noun of action",
+              "tag": "same root noun of action",
               "definition": "a part cut off from a whole, such as a chapter, a department or a cross-section. It names the piece, not a branch of the economy.",
               "definitionCN": "从整体切下的一部分，如章节、部门或截面。它指切下的那块，不指经济分支。"
             },
             {
               "word": "sect",
               "ipa": "/sekt/",
-              "tag": "same root, short stem",
+              "tag": "same root short stem",
               "definition": "a small religious group separated from a larger one. It is the bare Latin stem, not the agent noun.",
               "definitionCN": "从更大团体分离出的小宗教派别。它是光秃秃的拉丁词干，不是施事名词。"
             },
@@ -1411,27 +1387,27 @@
       ],
       "branches": [
         {
-          "senses": "S2 · S6",
+          "senses": "02 · 06",
           "en": "GEOMETRIC SLICES: a sector of a circle, and a wedge-shaped sector of a disk.",
           "cn": "几何切片：圆的一个扇形，以及磁盘上的楔形扇区。"
         },
         {
-          "senses": "S1 · S3 · S7",
+          "senses": "01 · 03 · 07",
           "en": "ECONOMIC AND SOCIAL SPHERES: industry branches, ownership halves, and fields of activity.",
           "cn": "经济与社会领域：产业分支、按所有制切的两半、活动领域。"
         },
         {
-          "senses": "S4 · S5",
+          "senses": "04 · 05",
           "en": "TERRITORY: a slice of a battle front, and a defined area of a city or region.",
           "cn": "地域：防线的一段，以及城市或地区中被划定的区域。"
         },
         {
-          "senses": "S8",
+          "senses": "08",
           "en": "THE CUTTER: the classical Latin sense, now only etymological.",
           "cn": "切割者：古典拉丁语义，今仅存于词源。"
         },
         {
-          "senses": "S9",
+          "senses": "09",
           "en": "THE ACT OF DIVIDING: the verb that turns a space into sectors.",
           "cn": "划分动作：把空间切成扇区的动词。"
         }
@@ -1564,7 +1540,7 @@
     "definition_en": "free from danger or care, firmly fixed, certain, or to make something safe and certain to keep",
     "core_image": "一扇上好锁的门：里面的人不必再操心，外面的人进不来",
     "scene": "银行金库里，职员把门关上、转动锁轮，红灯变绿。屏幕上显示：The vault is now secure.",
-    "sceneCN": "这里 secure 是「安全、受保护」（第 1、4 个义项：免于危险与免于未授权进入）；句意：金库现在安全了。图中可辨识物件：金库门、锁轮、指示灯、监控屏。",
+    "sceneCN": "这里指第 1 个义项。这里 secure 是「安全、受保护」（第 1、4 个义项：免于危险与免于未授权进入）；句意：金库现在安全了。图中可辨识物件：金库门、锁轮、指示灯、监控屏。",
     "pos": [
       {
         "tag": "adj.",
@@ -1616,10 +1592,6 @@
       },
       {
         "label": "过去式（已经发生）",
-        "form": "secured"
-      },
-      {
-        "label": "过去分词（完成／被动）",
         "form": "secured"
       },
       {
@@ -1757,27 +1729,27 @@
       },
       "items": [
         {
-          "era": "LATIN cura",
+          "era": "LATIN CURA",
           "en": "Cura meant 'care, concern, trouble', and also 'medical treatment' (the source of cure). To be free of cura is to have nothing to worry about.",
           "cn": "cura 意为“忧虑、关切、麻烦”，也指“治疗”（cure 的来源）。免于 cura，就是没有可操心的事。"
         },
         {
-          "era": "LATIN securus",
+          "era": "LATIN SECURUS",
           "en": "Securus, from se- 'free from' + cura, meant of persons 'free from care, quiet, easy', and of things 'tranquil, free from danger, safe'. It could also mean 'careless, reckless', since not caring can go too far.",
           "cn": "securus 由 se-“免于”加 cura 构成，指人“无忧、平静、自在”，指物“安宁、无危险、安全”。它也可表示“漫不经心、鲁莽”，因为“不在意”也能走过头。"
         },
         {
-          "era": "OLD ENGLISH sicor",
+          "era": "OLD ENGLISH SICOR",
           "en": "English borrowed the word early as sicor, which became Middle English siker. This older layer survives in the doublet sure, which came in through Old French.",
           "cn": "英语很早就借入作 sicor，后变为中古英语 siker。这一更早的层次保留在双式词 sure 中，后者是经古法语传入的。"
         },
         {
-          "era": "1530s ENGLISH secure",
+          "era": "1530S ENGLISH SECURE",
           "en": "The modern form secure is recorded from the 1530s, meaning 'without care or fear, dreading no evil'. In early use it often suggested over-confidence, 'too sure'.",
           "cn": "现代形式 secure 于 16 世纪 30 年代有记录，意为“无忧无惧、不怕灾祸”。早期用法常暗示过度自信，即“太有把握”。"
         },
         {
-          "era": "c. 1600–1841",
+          "era": "C. 1600–1841",
           "en": "By c. 1600 places were called secure when free from danger. The sense 'affording grounds for confidence' is 1580s, and the mechanical sense 'firmly fixed' is by 1841, extended from that confidence.",
           "cn": "到 1600 年前后，地方被称为 secure 是指没有危险。“令人有理由放心”的义项在 16 世纪 80 年代，机械义“牢固固定”则在 1841 年由这种“放心”延伸而来。"
         },
@@ -1800,7 +1772,7 @@
             {
               "word": "sure",
               "ipa": "/ʃʊə/",
-              "tag": "doublet, same Latin source",
+              "tag": "doublet same atin source",
               "definition": "certain or reliable. It is the same Latin securus that reached English twice, once directly and once through French.",
               "definitionCN": "确定的；可靠的。它与 secure 同出拉丁语 securus，只是分两条路进入英语，一条直接、一条经法语。"
             },
@@ -1936,27 +1908,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S5",
+          "senses": "01 · 05",
           "en": "SAFETY: physical safety and financial safety, two kinds of 'nothing can hurt me'.",
           "cn": "安全：身体安全与经济安全，两种“没有东西能伤到我”。"
         },
         {
-          "senses": "S2 · S7",
+          "senses": "02 · 07",
           "en": "FIXEDNESS: the adjective 'firmly fixed' and the verb 'to fasten down'.",
           "cn": "牢固：形容词“固定牢靠”与动词“系牢”。"
         },
         {
-          "senses": "S3 · S9",
+          "senses": "03 · 09",
           "en": "CERTAINTY: inner confidence and the guaranteeing of an outcome.",
           "cn": "确定：内心的自信与对结果的确保。"
         },
         {
-          "senses": "S4",
+          "senses": "04",
           "en": "ACCESS CONTROL: protection from anyone not allowed in.",
           "cn": "访问控制：不让未经许可者进入。"
         },
         {
-          "senses": "S6 · S8",
+          "senses": "06 · 08",
           "en": "VERB ACTIONS: making something safe, and getting something then holding it.",
           "cn": "动词动作：使某物安全，以及得到某物并握住。"
         }
@@ -2089,7 +2061,7 @@
     "definition_en": "to try to find, obtain or reach something, often by searching or asking",
     "core_image": "猎犬低头循着气味一路追下去",
     "scene": "山里天黑得很快，两个徒步者看见远处有灯光。They walked toward the light to seek shelter, and after an hour they found a small hut with a dry floor.",
-    "sceneCN": "这里 seek 是「寻找、寻求」（第 1、4 个义项：找东西、找栖身之处）；句意：他们朝着灯光去寻找栖身之处，走了一小时才找到一间地面干燥的小屋。图中可辨识物件：头灯、山路、远处小屋、地图。",
+    "sceneCN": "这里指第 1 个义项。这里 seek 是「寻找、寻求」（第 1、4 个义项：找东西、找栖身之处）；句意：他们朝着灯光去寻找栖身之处，走了一小时才找到一间地面干燥的小屋。图中可辨识物件：头灯、山路、远处小屋、地图。",
     "pos": [
       {
         "tag": "v.",
@@ -2129,10 +2101,6 @@
       },
       {
         "label": "过去式（已经发生）",
-        "form": "sought"
-      },
-      {
-        "label": "过去分词（完成／被动）",
         "form": "sought"
       },
       {
@@ -2270,17 +2238,17 @@
       },
       "items": [
         {
-          "era": "PIE *sag-",
+          "era": "PIE *SAG-",
           "en": "The reconstructed root *sag- meant 'to track down, seek out'. Latin sagire 'to perceive keenly' and sagus 'presaging' are cognates, not sources of the English word.",
           "cn": "重构词根 *sag- 意为“追踪、找出”。拉丁语 sagire“敏锐感知”与 sagus“预言的”是同源词，而不是英语词的来源。"
         },
         {
-          "era": "PROTO-GERMANIC *sokjanan",
+          "era": "PROTO-GERMANIC *SOKJANAN",
           "en": "The Germanic verb *sokjanan 'to seek' produced Old Saxon sokian, Old High German suohhan, German suchen and Gothic sokjan.",
           "cn": "日耳曼语动词 *sokjanan“寻找”产生了古撒克逊语 sokian、古高地德语 suohhan、德语 suchen 与哥特语 sokjan。"
         },
         {
-          "era": "OLD ENGLISH secan",
+          "era": "OLD ENGLISH SECAN",
           "en": "Old English secan meant 'search for; pursue, chase; long for, wish for; look for, expect from'. Its past tense was sohte, the direct ancestor of sought.",
           "cn": "古英语 secan 意为“搜寻；追捕、追赶；渴望、盼望；期待”。其过去式 sohte 正是 sought 的直接祖先。"
         },
@@ -2327,7 +2295,7 @@
             {
               "word": "beseech",
               "ipa": "/bɪˈsiːtʃ/",
-              "tag": "same root, different development",
+              "tag": "same root different development",
               "definition": "to beg urgently. It is be- + the older form of seek, and preserves the -ch- that the simple verb lost.",
               "definitionCN": "急切恳求。它是 be- 加 seek 的较早形式，保留了简单动词失掉的那个 -ch-。"
             }
@@ -2449,27 +2417,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S4 · S8",
+          "senses": "01 · 04 · 08",
           "en": "LOOKING FOR: a lost thing, a refuge, or something deliberately sought out.",
           "cn": "寻找：丢失之物、避难之处，或特意找出的东西。"
         },
         {
-          "senses": "S2 · S5",
+          "senses": "02 · 05",
           "en": "STRIVING FOR: obtaining what one needs, and pursuing a long-term goal.",
           "cn": "力争：获得所需之物，以及追求长期目标。"
         },
         {
-          "senses": "S3 · S7",
+          "senses": "03 · 07",
           "en": "ASKING: seeking advice or an answer, and the old sense of going to a person.",
           "cn": "请求：求教或求答，以及古老的“前往某人处”。"
         },
         {
-          "senses": "S6",
+          "senses": "06",
           "en": "ATTEMPT: seek to do, the try that starts before success is known.",
           "cn": "尝试：seek to do，在成败未知时开始的努力。"
         },
         {
-          "senses": "S9",
+          "senses": "09",
           "en": "MACHINE SEARCH: a disk head moving to the track that holds the data.",
           "cn": "机器搜寻：磁盘读写头移向存有数据的磁道。"
         }
@@ -2596,7 +2564,7 @@
     "definition_en": "to choose one or more from a group, or chosen for special quality or a special purpose",
     "core_image": "从一筐苹果里挑出最好的几个，单独放在另一个篮子里",
     "scene": "果园里，工人把颜色最好、没有碰伤的苹果挑出来。Workers select the apples with the best colour and no bruises for the gift boxes, and the rest go to the juice press.",
-    "sceneCN": "这里 select 是「按标准挑出」（第 3、4 个义项：从多个中选、按标准筛选）；句意：工人按颜色和有无碰伤挑出苹果装进精品箱，其余的送去榨汁。图中可辨识物件：苹果筐、精品箱、分级台、手套。",
+    "sceneCN": "这里指第 1 个义项。这里 select 是「按标准挑出」（第 3、4 个义项：从多个中选、按标准筛选）；句意：工人按颜色和有无碰伤挑出苹果装进精品箱，其余的送去榨汁。图中可辨识物件：苹果筐、精品箱、分级台、手套。",
     "pos": [
       {
         "tag": "vt.",
@@ -2644,10 +2612,6 @@
       },
       {
         "label": "过去式（已经发生）",
-        "form": "selected"
-      },
-      {
-        "label": "过去分词（完成／被动）",
         "form": "selected"
       },
       {
@@ -2793,27 +2757,27 @@
       },
       "items": [
         {
-          "era": "PIE *leg-",
+          "era": "PIE *LEG-",
           "en": "The root *leg- meant 'to collect, gather'. It also gives Latin legere 'to read' (reading as gathering letters) and English collect, elect and legible.",
           "cn": "词根 *leg- 意为“收集、聚拢”。它也给出拉丁语 legere“读”（读即收集字母）以及英语 collect、elect、legible。"
         },
         {
-          "era": "LATIN legere",
+          "era": "LATIN LEGERE",
           "en": "Legere meant 'to gather, collect; pick out; read'. In selection the gathering is deliberate: the hand goes through the pile and takes only some items.",
           "cn": "legere 意为“收集、聚拢；挑出；读”。在挑选中，收集是有意的：手穿过那一堆，只取走某些东西。"
         },
         {
-          "era": "LATIN seligere",
+          "era": "LATIN SELIGERE",
           "en": "Seligere combined se- 'apart' with legere, giving 'to choose out, single out, separate, cull'. The past participle selectus is the direct source of English select.",
           "cn": "seligere 把 se-“分开”与 legere 结合，意为“选出、挑出、分离、剔除”。其过去分词 selectus 正是英语 select 的直接来源。"
         },
         {
-          "era": "1560s ENGLISH",
+          "era": "1560S ENGLISH",
           "en": "English records both the adjective and the verb in the 1560s. The adjective first meant 'chosen on account of special excellence'; the verb meant 'single out from a number of things of the same kind'.",
           "cn": "英语在 16 世纪 60 年代同时记录形容词与动词。形容词最初指“因特别优秀而被选出”，动词指“从若干同类事物中挑出”。"
         },
         {
-          "era": "1580s–c. 1600",
+          "era": "1580S–C. 1600",
           "en": "By the 1580s the adjective also meant 'carefully picked, choice, of special excellence'. The noun 'a selected person or thing' appears c. 1600.",
           "cn": "到 16 世纪 80 年代，形容词又指“精心挑选的、上等的、特别优秀的”。名词“被选出的人或物”约在 1600 年出现。"
         },
@@ -2850,7 +2814,7 @@
             {
               "word": "collect",
               "ipa": "/kəˈlekt/",
-              "tag": "same root, different prefix",
+              "tag": "same root different prefix",
               "definition": "to gather things together. It uses the same legere 'gather' but with com- 'together' instead of se- 'apart'.",
               "definitionCN": "把东西收集到一起。它同样用 legere“收集”，但前缀是 com-“一起”而不是 se-“分开”。"
             }
@@ -2972,27 +2936,27 @@
       ],
       "branches": [
         {
-          "senses": "S3",
+          "senses": "03",
           "en": "CHOOSING: the plain act of taking some from a group.",
           "cn": "选择：从一群中取走一些的最普通动作。"
         },
         {
-          "senses": "S4",
+          "senses": "04",
           "en": "SCREENING: choosing by a standard, which is why the chosen pile has a reason.",
           "cn": "筛选：按标准选择，因此被选的那一堆有理由。"
         },
         {
-          "senses": "S1 · S2 · S6",
+          "senses": "01 · 02 · 06",
           "en": "THE CHOSEN FEW: quality, exclusiveness and the group itself.",
           "cn": "被选出的少数：品质、排他性，以及这群人本身。"
         },
         {
-          "senses": "S5 · S9",
+          "senses": "05 · 09",
           "en": "MACHINE SELECTION: highlighted text and retrieved rows, the same cut at digital speed.",
           "cn": "机器选择：高亮的文字与检索出的行，是同一刀以数字速度重演。"
         },
         {
-          "senses": "S7 · S8",
+          "senses": "07 · 08",
           "en": "INSTITUTIONAL SELECTION: a special committee and a national squad.",
           "cn": "制度性选拔：特别委员会与国家队伍。"
         }
@@ -3168,15 +3132,7 @@
         "form": "sequences"
       },
       {
-        "label": "三单（he/she/it）",
-        "form": "sequences"
-      },
-      {
         "label": "过去式（已经发生）",
-        "form": "sequenced"
-      },
-      {
-        "label": "过去分词（完成／被动）",
         "form": "sequenced"
       },
       {
@@ -3314,17 +3270,17 @@
       },
       "items": [
         {
-          "era": "PIE *sekw-",
+          "era": "PIE *SEKW-",
           "en": "The root *sekw- meant 'to follow'. It gives Latin sequi, Greek hepesthai, Sanskrit sacate and Old Irish sechim, and it underlies English sequence, sequel, second and society.",
           "cn": "词根 *sekw- 意为“跟随”。它给出拉丁语 sequi、希腊语 hepesthai、梵语 sacate 与古爱尔兰语 sechim，也是英语 sequence、sequel、second、society 的底层词根。"
         },
         {
-          "era": "LATIN sequi",
+          "era": "LATIN SEQUI",
           "en": "Sequi meant 'to follow, come after'. Its present participle sequens 'following' produced the noun sequentia, 'a following, a succession'.",
           "cn": "sequi 意为“跟随、随后而来”。其现在分词 sequens“跟随的”造出名词 sequentia，意为“跟随、接续”。"
         },
         {
-          "era": "MEDIEVAL LATIN sequentia",
+          "era": "MEDIEVAL LATIN SEQUENTIA",
           "en": "In church use sequentia named the chant that followed the Alleluia. It was a partial loan-translation of Greek akolouthia 'a following', which had the same liturgical sense.",
           "cn": "在教会用法中，sequentia 指跟随在哈利路亚之后的唱段。它是对希腊语 akolouthia“跟随”的部分仿译，后者也有同样的礼拜含义。"
         },
@@ -3334,7 +3290,7 @@
           "cn": "英语最早在 14 世纪晚期记录 sequence，指的就是这个礼拜唱段，经古法语 sequence“应答诗句”借入。"
         },
         {
-          "era": "1570s–1580s ENGLISH",
+          "era": "1570S–1580S ENGLISH",
           "en": "The general sense 'a series of things following in a certain order' is recorded by the 1570s, along with the card-game 'run'. 'Order of succession' appears in the 1580s.",
           "cn": "一般义“按某种顺序接续的一串事物”于 16 世纪 70 年代有记录，牌戏“顺子”义同时出现。“继任顺序”义在 16 世纪 80 年代出现。"
         },
@@ -3493,27 +3449,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S3",
+          "senses": "01 · 03",
           "en": "ORDER IN TIME: the sequence of events and a required order that cannot be swapped.",
           "cn": "时间中的顺序：事件序列，以及不可调换的规定次序。"
         },
         {
-          "senses": "S2 · S7",
+          "senses": "02 · 07",
           "en": "ORDERED SETS: a connected series of things, and a mathematical list ruled by a pattern.",
           "cn": "有序集合：一串相关事物，以及按规律排列的数列。"
         },
         {
-          "senses": "S4 · S5",
+          "senses": "04 · 05",
           "en": "HISTORICAL AND PLAY FORMS: the liturgical chant and the card run.",
           "cn": "历史与游戏形式：礼拜唱段与牌局顺子。"
         },
         {
-          "senses": "S6 · S9",
+          "senses": "06 · 09",
           "en": "BIOCHEMISTRY: the base order of DNA and the act of determining or arranging it.",
           "cn": "生物化学：DNA 的碱基顺序，以及测定或排列它的动作。"
         },
         {
-          "senses": "S8",
+          "senses": "08",
           "en": "FILM: a chain of shots that forms one unit and hands off to the next.",
           "cn": "电影：构成一个单元并交接给下一单元的一串镜头。"
         }
@@ -3815,27 +3771,27 @@
       },
       "items": [
         {
-          "era": "PIE *ser-",
+          "era": "PIE *SER-",
           "en": "The root *ser- meant 'to line up, arrange in a row'. It underlies Latin serere and English series, serial, insert, assert and desert.",
           "cn": "词根 *ser- 意为“排成行、排列”。它是拉丁语 serere 以及英语 series、serial、insert、assert、desert 的底层词根。"
         },
         {
-          "era": "LATIN serere",
+          "era": "LATIN SERERE",
           "en": "Serere meant 'to join, link, bind together, arrange, attach, put; join in speech'. The image is physical: things are fastened into a chain or row.",
           "cn": "serere 意为“连接、串起、绑在一起、排列、附着、放置；连起来讲”。意象是具体的：东西被系成链或排成行。"
         },
         {
-          "era": "LATIN series",
+          "era": "LATIN SERIES",
           "en": "The noun series meant 'row, chain, series, sequence, succession'. Latin already used it for both a physical row and an order of things.",
           "cn": "名词 series 意为“排、链、系列、连续、接续”。拉丁语已同时用它指实物的一排和事物的次序。"
         },
         {
-          "era": "LATE 14C. ENGLISH serie",
+          "era": "LATE 14C. ENGLISH SERIE",
           "en": "English first had serie in late 14c., meaning a 'sequence of thoughts, discussion of a subject'. The Latin-shaped series replaced it in the 17th century.",
           "cn": "英语最早在 14 世纪晚期有 serie，意为“思路的顺序、对某主题的论述”。17 世纪时，拉丁形的 series 取代了它。"
         },
         {
-          "era": "1610s ENGLISH series",
+          "era": "1610S ENGLISH SERIES",
           "en": "Series is recorded from the 1610s as 'a number or set of things of one kind arranged in a line, a continued succession of similar things'. The publishing sense follows in 1711.",
           "cn": "series 于 17 世纪 10 年代有记录，意为“同类事物排成一行的一组，类似事物的连续接续”。出版义在 1711 年跟进。"
         },
@@ -3872,7 +3828,7 @@
             {
               "word": "sequence",
               "ipa": "/ˈsiːkwəns/",
-              "tag": "different root, close meaning",
+              "tag": "different root close meaning",
               "definition": "an order of things following one another. It comes from sequi 'to follow', while series comes from serere 'to join'.",
               "definitionCN": "事物一个接一个的顺序。它出自 sequi“跟随”，而 series 出自 serere“连接”。"
             }
@@ -3994,27 +3950,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S2",
+          "senses": "01 · 02",
           "en": "ROW AND CHAIN: things arranged in a line, and events linked over time.",
           "cn": "一排与一条链：排成一行的事物，以及在时间中连起来的事件。"
         },
         {
-          "senses": "S3 · S4",
+          "senses": "03 · 04",
           "en": "PUBLISHING AND BROADCAST: a set of volumes, and a run of episodes.",
           "cn": "出版与广播：一套书，以及一轮剧集。"
         },
         {
-          "senses": "S5 · S8",
+          "senses": "05 · 08",
           "en": "COLLECTED SETS: games between the same teams, and stamps or notes issued together.",
           "cn": "成套收藏：同一两队之间的比赛，以及一起发行的邮票或纸币。"
         },
         {
-          "senses": "S6 · S7",
+          "senses": "06 · 07",
           "en": "TECHNICAL LINKING: a summed mathematical series, and components joined end to end.",
           "cn": "技术连接：求和的数学级数，以及首尾相连的电路元件。"
         },
         {
-          "senses": "S9",
+          "senses": "09",
           "en": "GEOLOGY: strata laid down one after another and treated as one unit.",
           "cn": "地质：一层接一层沉积、作为一个单元处理的岩层。"
         }
@@ -4188,16 +4144,8 @@
         "form": "shifted"
       },
       {
-        "label": "过去分词（完成／被动）",
-        "form": "shifted"
-      },
-      {
         "label": "现在分词（进行体）",
         "form": "shifting"
-      },
-      {
-        "label": "复数（多于一个）",
-        "form": "shifts"
       }
     ],
     "derivatives": [
@@ -4335,22 +4283,22 @@
           "cn": "更深的印欧来源尚未确立。该日耳曼动词被认为与古英语 sceadan“分开、分离”（现代 shed）的来源有关，但这一重构被标为不确定。"
         },
         {
-          "era": "PROTO-GERMANIC *skiftan",
+          "era": "PROTO-GERMANIC *SKIFTAN",
           "en": "The verb *skiftan meant 'to divide, arrange, distribute'. It produced Old Norse skipta, Dutch schiften, German schichten 'to classify' and Schicht 'a layer, a shift'.",
           "cn": "动词 *skiftan 意为“划分、安排、分配”。它产生古诺尔斯语 skipta、荷兰语 schiften、德语 schichten“分类”与 Schicht“层、班次”。"
         },
         {
-          "era": "OLD ENGLISH sciftan",
+          "era": "OLD ENGLISH SCIFTAN",
           "en": "Old English sciftan meant 'arrange, place, put in order', also 'divide, separate, partition; distribute, allot, share'. The dividing and the arranging were one act.",
           "cn": "古英语 sciftan 意为“安排、放置、整理”，也指“划分、分开、分隔；分配、分派、共享”。划分与安排在当时是同一个动作。"
         },
         {
-          "era": "c. 1200–1300 MIDDLE ENGLISH",
+          "era": "C. 1200–1300 MIDDLE ENGLISH",
           "en": "By c. 1200 shift meant 'dispose, make ready, set in order, control', and also 'take care of oneself'. By mid-13c. it meant 'alter, change'; by c. 1300 'go, move, depart', and also 'change one's clothes'.",
           "cn": "约 1200 年，shift 意为“处置、备好、整理、控制”，也指“照顾自己”。到 13 世纪中期意为“改变、变更”；到 1300 年前后意为“走、移动、离开”，也指“换衣服”。"
         },
         {
-          "era": "c. 1300–1809 NOUN",
+          "era": "C. 1300–1809 NOUN",
           "en": "The noun begins c. 1300 as 'a movement, a beginning'; by mid-15c. 'an attempt, expedient'; by the 1560s 'a change'. The work-period sense is recorded from 1809, originally in mining, perhaps from an older 'relay of horses' (1708).",
           "cn": "名词约 1300 年出现，意为“移动、开端”；到 15 世纪中期指“尝试、权宜手段”；到 16 世纪 60 年代指“改变”。工作时段义自 1809 年有记录，最初用于矿业，可能来自更早的“换马接力”（1708）。"
         },
@@ -4509,27 +4457,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S2",
+          "senses": "01 · 02",
           "en": "DISPLACEMENT: moving an object, and moving attention or emphasis.",
           "cn": "位移：移动物体，以及移动注意力或重点。"
         },
         {
-          "senses": "S9",
+          "senses": "09",
           "en": "THE RESULTING CHANGE: the noun for an alteration that stays in place.",
           "cn": "由此产生的改变：指留在新位置上的变更。"
         },
         {
-          "senses": "S3 · S4 · S5",
+          "senses": "03 · 04 · 05",
           "en": "RELAYS AND MECHANISMS: work shifts, gear shifts and the typewriter's shift key.",
           "cn": "接力与机构：工作班次、换挡，以及打字机的 Shift 键。"
         },
         {
-          "senses": "S6 · S7",
+          "senses": "06 · 07",
           "en": "BURDENS AND SELF-RELIANCE: transferring blame or cost, and shifting for oneself.",
           "cn": "负担与自立：转移责任或成本，以及自己设法应付。"
         },
         {
-          "senses": "S8",
+          "senses": "08",
           "en": "THE GARMENT: a change of clothes, now a historical sense.",
           "cn": "衣物：一次换衣，今为历史义。"
         }
@@ -4829,22 +4777,22 @@
       },
       "items": [
         {
-          "era": "LATIN signum",
+          "era": "LATIN SIGNUM",
           "en": "Signum meant 'a mark, token, sign, signal, standard'. Its deeper origin is uncertain, so the chain stops here rather than inventing a PIE root.",
           "cn": "signum 意为“记号、标记、标志、信号、军旗”。其更深来源不确定，因此词链到此为止，不编造原始印欧语词根。"
         },
         {
-          "era": "LATIN significare",
+          "era": "LATIN SIGNIFICARE",
           "en": "Significare meant 'to make known, show by signs, indicate, mean'. It joined signum with the root of facere 'to make, do'.",
           "cn": "significare 意为“使知晓、用记号表示、指示、意味着”。它把 signum 与 facere“做、造”的词根结合起来。"
         },
         {
-          "era": "LATIN significans",
+          "era": "LATIN SIGNIFICANS",
           "en": "The present participle significans 'making a sign, meaning' became the adjective. English took it as significant, so the word begins as 'that which signifies'.",
           "cn": "现在分词 significans“做记号、表意的”变成了形容词。英语取作 significant，因此这个词最初就是“在表意的那个”。"
         },
         {
-          "era": "1570s ENGLISH",
+          "era": "1570S ENGLISH",
           "en": "Significant is recorded from the 1570s meaning 'having a meaning, expressive', first of words and signs rather than of events.",
           "cn": "significant 于 16 世纪 70 年代有记录，意为“有意义的、表达意义的”，最初用于词语与记号，而不是事件。"
         },
@@ -4879,7 +4827,7 @@
             {
               "word": "signify",
               "ipa": "/ˈsɪɡnɪfaɪ/",
-              "tag": "same root, verb",
+              "tag": "same root verb",
               "definition": "to be a sign of; to mean. It is the verb that names the act of making a sign.",
               "definitionCN": "是……的标志；表示。它是表示“做记号”这一动作的动词。"
             },
@@ -5008,27 +4956,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S5 · S9",
+          "senses": "01 · 05 · 09",
           "en": "MEANING: plain sense, unspoken implication, and the semiotic signifying function.",
           "cn": "意义：字面意义、未说出的含义，以及符号学上的表意功能。"
         },
         {
-          "senses": "S2 · S4",
+          "senses": "02 · 04",
           "en": "CONSEQUENCE: importance that changes direction, and size large enough to notice.",
           "cn": "后果：能改变方向的重要性，以及大到值得注意的规模。"
         },
         {
-          "senses": "S3 · S6",
+          "senses": "03 · 06",
           "en": "MEASUREMENT: statistical significance and significant figures, meaning made numerical.",
           "cn": "测量：统计显著性与有效数字，把“意义”变成数字。"
         },
         {
-          "senses": "S7",
+          "senses": "07",
           "en": "SOCIAL PHRASE: the significant other, a person whose presence carries weight.",
           "cn": "社会短语：significant other，其存在自带分量的人。"
         },
         {
-          "senses": "S8",
+          "senses": "08",
           "en": "INDICATION: significant of something, the sign pointing at what it reveals.",
           "cn": "指示：significant of 某物，记号指向它所揭示的东西。"
         }
@@ -5338,22 +5286,22 @@
       },
       "items": [
         {
-          "era": "LATIN similis",
+          "era": "LATIN SIMILIS",
           "en": "Similis was a third-declension adjective meaning 'like, resembling, of the same kind'. It could describe people, things and appearances, and it took the dative: similis patri, 'like his father'.",
           "cn": "similis 是第三变格法形容词，意为“相像的、类似的、同类的”。它可以形容人、物和外观，并支配与格：similis patri，“像他父亲”。"
         },
         {
-          "era": "OLD LATIN semol",
+          "era": "OLD LATIN SEMOL",
           "en": "The older form semol meant 'together, at the same time', from PIE *sem- 'one, together'. The same root underlies Latin semel 'once' and simul 'at the same time', and is cognate with English same.",
           "cn": "更早的形式 semol 意为“一起、同时”，来自原始印欧语 *sem-“一、一起”。同一词根也支撑拉丁语 semel“一次”和 simul“同时”，并与英语 same 同源。"
         },
         {
-          "era": "FRENCH similaire",
+          "era": "FRENCH SIMILAIRE",
           "en": "Old and Middle French took the Latin adjective as a learned borrowing, similaire. English acquired the word through this French channel rather than directly from Latin.",
           "cn": "古法语和中古法语把这一拉丁形容词作为学术借词吸收进来，作 similaire。英语是通过这条法语渠道而不是直接从拉丁语获得这个词的。"
         },
         {
-          "era": "1560s–1610s ENGLISH",
+          "era": "1560S–1610S ENGLISH",
           "en": "The earlier form similary is recorded in the 1560s; the modern spelling similar appears in the 1610s. Both kept the Latin sense 'like, of the same kind'.",
           "cn": "较早的形式 similary 见于 16 世纪 60 年代；现代拼写 similar 出现于 17 世纪 10 年代。两者都保留拉丁语“相像的、同类的”之义。"
         },
@@ -5388,14 +5336,14 @@
             {
               "word": "simile",
               "ipa": "/ˈsɪməli/",
-              "tag": "same root, literary term",
+              "tag": "same root literary term",
               "definition": "a figure of speech that compares two things using 'like' or 'as'. It comes from the neuter of similis.",
               "definitionCN": "用 like 或 as 比较两事物的修辞手法。它来自 similis 的中性形式。"
             },
             {
               "word": "simulate",
               "ipa": "/ˈsɪmjuleɪt/",
-              "tag": "same root, verb",
+              "tag": "same root verb",
               "definition": "to imitate the appearance or conditions of something. It is an action, not a state.",
               "definitionCN": "模仿某物的外观或条件。它是动作，不是状态。"
             }
@@ -5517,27 +5465,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S4",
+          "senses": "01 · 04",
           "en": "RESEMBLANCE: everyday likeness, and values that sit close on a scale.",
           "cn": "相像：日常的相似，以及刻度上彼此接近的数值。"
         },
         {
-          "senses": "S2 · S7",
+          "senses": "02 · 07",
           "en": "STRUCTURE: geometric similarity and comparable scientific conditions.",
           "cn": "结构：几何相似，以及可比的科学条件。"
         },
         {
-          "senses": "S3 · S6",
+          "senses": "03 · 06",
           "en": "KIND AND FORM: the same category of thing, and similar-looking language forms.",
           "cn": "类别与形式：同一类别的事物，以及外形相近的语言形式。"
         },
         {
-          "senses": "S5 · S8",
+          "senses": "05 · 08",
           "en": "COMPARISON: the 'similar to' frame, and similarity as a measured score.",
           "cn": "比较：similar to 框架，以及作为可度量分数的相似度。"
         },
         {
-          "senses": "S9",
+          "senses": "09",
           "en": "PARALLEL REASONING: similarly, applying one pattern to a second case.",
           "cn": "并列推理：similarly，把同一模式套用到第二个案例。"
         }
@@ -5670,7 +5618,7 @@
     "definition_en": "to imitate the appearance or conditions of something, sometimes in order to deceive",
     "core_image": "飞行模拟舱里，仪表和真飞机一样转动，但窗外只是一块屏幕",
     "scene": "飞行训练中心，学员在模拟舱里练习迫降。教官说：The simulator can simulate an engine failure at 30,000 feet.",
-    "sceneCN": "这里 simulate 是「模拟、仿真」（第 2、4 个义项：用模型重现真实条件）；句意：模拟器可以模拟三万英尺高空的发动机失效。图中可辨识物件：模拟舱、仪表盘、球形屏幕、教员座椅。",
+    "sceneCN": "这里指第 1 个义项。这里 simulate 是「模拟、仿真」（第 2、4 个义项：用模型重现真实条件）；句意：模拟器可以模拟三万英尺高空的发动机失效。图中可辨识物件：模拟舱、仪表盘、球形屏幕、教员座椅。",
     "pos": [
       {
         "tag": "v.",
@@ -5718,10 +5666,6 @@
       },
       {
         "label": "过去式",
-        "form": "simulated"
-      },
-      {
-        "label": "过去分词",
         "form": "simulated"
       }
     ],
@@ -5855,22 +5799,22 @@
       },
       "items": [
         {
-          "era": "LATIN similis",
+          "era": "LATIN SIMILIS",
           "en": "Similis meant 'like, resembling'. It is the adjective behind the whole family, and its older relative semol 'together' points to PIE *sem- 'one, together'.",
           "cn": "similis 意为“相像的”。它是整个词族背后的形容词，其更早的亲属 semol“一起”指向原始印欧语 *sem-“一、一起”。"
         },
         {
-          "era": "LATIN simulare",
+          "era": "LATIN SIMULARE",
           "en": "Simulare meant 'to make like, copy, imitate, represent', and also 'to pretend'. The verb could describe an artist copying a face or a person faking a feeling.",
           "cn": "simulare 意为“使相像、复制、模仿、再现”，也可表示“假装”。这个动词既能描述画家复制一张脸，也能描述一个人伪造一种情感。"
         },
         {
-          "era": "LATIN simulatus",
+          "era": "LATIN SIMULATUS",
           "en": "The past participle simulatus 'made like, imitated, feigned' supplied the stem for the English verb. The Latin supine form simulatum also underlies the noun simulation.",
           "cn": "过去分词 simulatus“被弄得相像的、被模仿的、被假装的”为英语动词提供了词干。拉丁语动名词形式 simulatum 也是名词 simulation 的基础。"
         },
         {
-          "era": "1620s ENGLISH",
+          "era": "1620S ENGLISH",
           "en": "English simulate is first recorded in the 1620s with the sense 'to feign, pretend'. It was either a back-formation from simulation or a direct borrowing of the Latin participle.",
           "cn": "英语 simulate 最早记录于 17 世纪 20 年代，意为“假装、装作”。它要么是从 simulation 逆构而来，要么是直接借用了拉丁语分词。"
         },
@@ -6034,27 +5978,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S6",
+          "senses": "01 · 06",
           "en": "PRETENCE: faking an illness, and faking an attitude, where the inner state is missing.",
           "cn": "伪装：装病与装态度，内在状态缺席。"
         },
         {
-          "senses": "S3",
+          "senses": "03",
           "en": "IMITATION: copying a walk, a voice or a manner for display.",
           "cn": "模仿：为展示而复制步态、声音或举止。"
         },
         {
-          "senses": "S2 · S8",
+          "senses": "02 · 08",
           "en": "REPRODUCTION: recreating real physical or biological conditions for study.",
           "cn": "重现：为研究而再造真实的物理或生理条件。"
         },
         {
-          "senses": "S4 · S7",
+          "senses": "04 · 07",
           "en": "MODELLING: running a system or an outcome through a model, often on a computer.",
           "cn": "建模：用模型推演系统或结果，常在计算机上运行。"
         },
         {
-          "senses": "S5 · S9",
+          "senses": "05 · 09",
           "en": "TRAINING AND ARTIFICE: simulated practice, and the adjective for things that only resemble the real.",
           "cn": "训练与人造：模拟练习，以及表示“只是像真的”的形容词。"
         }
@@ -6230,10 +6174,6 @@
         "form": "sites"
       },
       {
-        "label": "动词第三人称单数",
-        "form": "sites"
-      },
-      {
         "label": "现在分词",
         "form": "siting"
       },
@@ -6372,22 +6312,22 @@
       },
       "items": [
         {
-          "era": "LATIN situs",
+          "era": "LATIN SITUS",
           "en": "Situs meant 'place, position, site', and also 'a leaving, a setting down'. It was the past participle of sinere, so a situs was literally 'something left or set down' in a spot.",
           "cn": "situs 意为“地点、位置、场所”，也有“放置、留下”之意。它是 sinere 的过去分词，所以 situs 字面上就是“被留在或放置在某个点上的东西”。"
         },
         {
-          "era": "LATIN sinere",
+          "era": "LATIN SINERE",
           "en": "Sinere 'to let, allow, leave' supplied the participle. The verb describes permitting something to remain where it is, and its participle came to name the place where it remained.",
           "cn": "sinere“让、允许、留下”提供了这个分词。该动词描述允许某物留在原处，其分词后来就用来命名它留下的那个地点。"
         },
         {
-          "era": "PIE *tkei- (uncertain)",
+          "era": "PIE *TKEI- (UNCERTAIN)",
           "en": "The deeper origin is uncertain. A connection with PIE *tkei- 'to settle, dwell' has been proposed, which would link situs to the idea of settling on land, but it is not firmly established.",
           "cn": "更深的来源不确定。有说法把它与原始印欧语 *tkei-“定居、居住”联系起来，这样 situs 就与“在土地上安顿下来”的观念相关，但这一联系并未牢固确立。"
         },
         {
-          "era": "ANGLO-FRENCH site",
+          "era": "ANGLO-FRENCH SITE",
           "en": "Anglo-French carried site into English in the late 14th century. The earliest uses are concrete: a place, a piece of ground, the spot where a building stands.",
           "cn": "盎格鲁-法语在 14 世纪晚期把 site 带进英语。最早的用法是具体的：一个地点、一块地面、建筑物所在的那块地。"
         },
@@ -6429,7 +6369,7 @@
             {
               "word": "situate",
               "ipa": "/ˈsɪtʃueɪt/",
-              "tag": "same root, verb",
+              "tag": "same root verb",
               "definition": "to place something in a particular position. It is the verb built on Latin situs.",
               "definitionCN": "把某物安置在特定位置。它是建立在拉丁语 situs 之上的动词。"
             }
@@ -6551,27 +6491,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S2",
+          "senses": "01 · 02",
           "en": "PHYSICAL PLACE: a located spot, and ground under construction.",
           "cn": "物理地点：可定位的一点，以及施工中的地面。"
         },
         {
-          "senses": "S3 · S5",
+          "senses": "03 · 05",
           "en": "HISTORY AND EVIDENCE: the archaeological site and the scene of an event.",
           "cn": "历史与证据：考古遗址与事件现场。"
         },
         {
-          "senses": "S6",
+          "senses": "06",
           "en": "BODY: a precise point on or in the body, such as an injection site.",
           "cn": "身体：身体表面或内部的精确位点，如注射部位。"
         },
         {
-          "senses": "S4 · S7",
+          "senses": "04 · 07",
           "en": "NETWORK: the website and the site licence, the place metaphor applied to computing.",
           "cn": "网络：网站与站点许可，把“地点”隐喻用于计算。"
         },
         {
-          "senses": "S8 · S9",
+          "senses": "08 · 09",
           "en": "ACTION AND RELATION: to site something, and the on-site/off-site contrast.",
           "cn": "动作与关系：为某物选址，以及 on-site/off-site 的对照。"
         }
@@ -6749,10 +6689,6 @@
         "form": "soles"
       },
       {
-        "label": "动词第三人称单数",
-        "form": "soles"
-      },
-      {
         "label": "现在分词",
         "form": "soling"
       },
@@ -6891,17 +6827,17 @@
       },
       "items": [
         {
-          "era": "LATIN solus",
+          "era": "LATIN SOLUS",
           "en": "Solus meant 'alone, single, only'. Its own origin is uncertain: it has been connected with se 'oneself' and with the reflexive PIE root *swo-, but no derivation is firmly established.",
           "cn": "solus 意为“独自的、单一的、唯一的”。它自身的来源不确定：有说法把它与 se“自己”以及反身代词性的原始印欧语词根 *swo- 联系起来，但没有任何派生关系被牢固确立。"
         },
         {
-          "era": "OLD FRENCH soul",
+          "era": "OLD FRENCH SOUL",
           "en": "Old French soul carried Latin solus into English in the late 14th century. The adjective kept the sense 'single, alone', and from it grew the legal sense 'exclusive'.",
           "cn": "古法语 soul 在 14 世纪晚期把拉丁语 solus 带进英语。这个形容词保留“单一的、独自的”之义，并从中生长出法律上的“独占”义。"
         },
         {
-          "era": "LATIN solea / solum",
+          "era": "LATIN SOLEA / SOLUM",
           "en": "The foot and shoe sense is a separate line: solea 'sandal, sole' came from solum 'bottom, ground, soil'. Solum's own origin is uncertain; de Vaan suggests a possible PIE *se/ol-o- 'place, habitation'.",
           "cn": "脚底与鞋底义是另一条线：solea“凉鞋、鞋底”出自 solum“底部、地面、土壤”。solum 自身的来源不确定；de Vaan 提出可能与原始印欧语 *se/ol-o-“地点、居所”有关。"
         },
@@ -6911,12 +6847,12 @@
           "cn": "名为 sole 的比目鱼记录于 13 世纪中期。它因扁平、形似鞋底的身体而得名，所以鱼义是与鞋底部件的比喻关系，而不是从鞋底义发展来的。"
         },
         {
-          "era": "1560s VERB",
+          "era": "1560S VERB",
           "en": "The verb 'to furnish a shoe with a sole' is recorded from the 1560s. English commonly turns a concrete noun into a verb this way: the object names the part being supplied.",
           "cn": "动词“给鞋装底”记录于 16 世纪 60 年代。英语常这样把具体名词变成动词：宾语命名了被提供的那一部分。"
         },
         {
-          "era": "CLEAR NOTE: NOT sol 'SUN'",
+          "era": "CLEAR NOTE: NOT SOL 'SUN'",
           "en": "Latin sol 'sun' (as in solar, solstice) is a different word with a different origin. Sole 'alone', sole 'shoe bottom' and sole 'fish' do not come from it, and the resemblance is accidental.",
           "cn": "拉丁语 sol“太阳”（见于 solar、solstice）是另一个来源不同的词。sole“独自”、sole“鞋底”与 sole“鱼”都不来自它，外形相似纯属偶然。"
         }
@@ -6948,7 +6884,7 @@
             {
               "word": "solo",
               "ipa": "/ˈsəʊləʊ/",
-              "tag": "same root, lone performance",
+              "tag": "same root lone performance",
               "definition": "performed by one person alone. It comes from Latin solus through Italian.",
               "definitionCN": "由一人独自表演的。它经意大利语来自拉丁语 solus。"
             }
@@ -7070,27 +7006,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S2",
+          "senses": "01 · 02",
           "en": "SINGLE AND EXCLUSIVE: from the number one to a right held by one party alone.",
           "cn": "单一与独占：从数量“一”到仅由一方持有的权利。"
         },
         {
-          "senses": "S3 · S4",
+          "senses": "03 · 04",
           "en": "GROUND-CONTACT LAYER: the sole of the foot and of the shoe, from solea and solum.",
           "cn": "接触地面的层：脚底与鞋底，来自 solea 与 solum。"
         },
         {
-          "senses": "S5",
+          "senses": "05",
           "en": "FISH: the flatfish named after the shape of a shoe sole.",
           "cn": "鱼：因形似鞋底而得名的鳎鱼。"
         },
         {
-          "senses": "S6 · S7",
+          "senses": "06 · 07",
           "en": "ALONE AND UNDIVIDED: the literary lone survivor and the legal sole proprietor.",
           "cn": "独自与不可分：文学中的孤身幸存者与法律上的独资业主。"
         },
         {
-          "senses": "S8 · S9",
+          "senses": "08 · 09",
           "en": "ACTION AND LIMIT: to sole a shoe, and solely as a restriction to one cause.",
           "cn": "动作与限制：给鞋换底，以及 solely 把范围限制到唯一原因。"
         }
@@ -7223,7 +7159,7 @@
     "definition_en": "to a small or moderate degree; rather",
     "core_image": "温度计停在“稍热”的那一格：不到很热，也不是不热",
     "scene": "面试结束后，招聘经理合上简历说：The interview went somewhat better than we expected.",
-    "sceneCN": "这里 somewhat 是「在某种程度上、比预料稍好一点」（第 1、2 个义项：程度介于“一点儿”和“相当”之间）；句意：面试比我们预期的稍好一些。图中可辨识物件：简历、评分表、笔、会议桌。",
+    "sceneCN": "这里指第 1 个义项。这里 somewhat 是「在某种程度上、比预料稍好一点」（第 1、2 个义项：程度介于“一点儿”和“相当”之间）；句意：面试比我们预期的稍好一些。图中可辨识物件：简历、评分表、笔、会议桌。",
     "pos": [
       {
         "tag": "adv.",
@@ -7400,12 +7336,12 @@
       },
       "items": [
         {
-          "era": "OLD ENGLISH sum + hwæt",
+          "era": "OLD ENGLISH SUM + HWÆT",
           "en": "The two parts are Old English sum 'some, a certain' and hwæt 'what'. Both are native Germanic words, so the compound was built inside English rather than borrowed.",
           "cn": "两个组成部分是古英语 sum“某个、某一”与 hwæt“什么”。两者都是本族日耳曼词，所以这个复合词是在英语内部造出来的，而不是借来的。"
         },
         {
-          "era": "c.1200 ADVERB",
+          "era": "C.1200 ADVERB",
           "en": "The adverb is recorded around 1200 with the sense 'to some extent, in some measure'. The written forms include somwhat and sumwhat.",
           "cn": "副词形式约在 1200 年见于记录，意为“在某种程度上、在某种程度上”。书写形式包括 somwhat 与 sumwhat。"
         },
@@ -7415,7 +7351,7 @@
           "cn": "名词用法在 13 世纪早期出现，意为“某物、某个东西”。这个义项现已古旧，其功能已被 something 接管。"
         },
         {
-          "era": "REPLACING sumdæl",
+          "era": "REPLACING SUMDÆL",
           "en": "The new compound largely replaced the older Old English phrases sumdæl and sume dæle 'in some part', which expressed the same partial quantity.",
           "cn": "这个新复合词在很大程度上取代了更早的古英语短语 sumdæl 与 sume dæle“在某一部分”，后者表达同样的部分数量。"
         },
@@ -7443,21 +7379,21 @@
             {
               "word": "somewhere",
               "ipa": "/ˈsʌmweə/",
-              "tag": "same prefix, place",
+              "tag": "same prefix place",
               "definition": "in or to some place. It is the place member of the some- family.",
               "definitionCN": "在某处或到某处。它是 some- 家族中表示地点的成员。"
             },
             {
               "word": "somehow",
               "ipa": "/ˈsʌmhaʊ/",
-              "tag": "same prefix, manner",
+              "tag": "same prefix manner",
               "definition": "in some way, or for some unknown reason. It is the manner member of the family.",
               "definitionCN": "以某种方式，或由于某种未知原因。它是家族中表示方式的成员。"
             },
             {
               "word": "something",
               "ipa": "/ˈsʌmθɪŋ/",
-              "tag": "same prefix, thing",
+              "tag": "same prefix thing",
               "definition": "a thing that is not specified. It took over the old noun sense of somewhat.",
               "definitionCN": "未被指明的事物。它接管了 somewhat 古老的名词义。"
             }
@@ -7579,27 +7515,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S7",
+          "senses": "01 · 07",
           "en": "DEGREE: a little but not very, and the middle position on the scale.",
           "cn": "程度：有点但不算很，以及刻度上的中间位置。"
         },
         {
-          "senses": "S2 · S6",
+          "senses": "02 · 06",
           "en": "HEDGING AND REGISTER: softening a judgement, and the formal tone of reports.",
           "cn": "模糊限制与语体：缓和判断，以及报告体的正式语气。"
         },
         {
-          "senses": "S3 · S8",
+          "senses": "03 · 08",
           "en": "COMPARISON: a modest step before a comparative, contrasted with other degree words.",
           "cn": "比较：比较级前的温和一步，并与其他程度词形成对照。"
         },
         {
-          "senses": "S4",
+          "senses": "04",
           "en": "PARTIAL IDENTITY: somewhat of a, granting a part of a title rather than the whole.",
           "cn": "部分身份：somewhat of a，给出头衔的一部分而非全部。"
         },
         {
-          "senses": "S5 · S9",
+          "senses": "05 · 09",
           "en": "WORD HISTORY: the archaic noun 'something', and the transparent some- compound.",
           "cn": "词史：古老的名词义“某物”，以及构词透明的 some- 复合词。"
         }

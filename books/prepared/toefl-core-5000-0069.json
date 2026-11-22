@@ -6,7 +6,7 @@
     "definition_zh": "无机的；不含碳化合物的；非生物来源的",
     "definition_en": "not containing carbon compounds in the chemical sense, and more broadly not arising from or belonging to living things",
     "core_image": "一块灰白石英晶体旁没有一片叶子，只有层层岩壁与矿物粉末",
-    "scene": "The geologist ruled out any biological origin and logged the crust as an inorganic deposit.",
+    "scene": "这里指「无机的」。 The geologist ruled out any biological origin and logged the crust as an inorganic deposit.",
     "sceneCN": "这里 inorganic 指「非生物来源的」（第 2 个义项：不由生命过程形成）；地质学家排除生物成因，把这一结壳记作无机沉积。图中可辨识物件：石英晶体、岩层剖面、放大镜、标本袋。",
     "pos": [
       {
@@ -43,7 +43,7 @@
     "forms": [
       {
         "label": "比较级",
-        "form": "more inorganic（化学语境一般不用比较级，需要时用 more）"
+        "form": "more inorganic more"
       },
       {
         "label": "最高级",
@@ -51,11 +51,11 @@
       },
       {
         "label": "副词形式",
-        "form": "inorganically（以无机的方式；非生物地）"
+        "form": "inorganically"
       },
       {
         "label": "作定语",
-        "form": "inorganic + 名词（如 inorganic salt、inorganic waste）"
+        "form": "inorganic +  inorganic saltinorganic waste"
       }
     ],
     "derivatives": [
@@ -237,7 +237,7 @@
             {
               "word": "nonorganic",
               "ipa": "/ˌnɒnɔːˈɡænɪk/",
-              "tag": "farming label, not chemistry",
+              "tag": "farming label not chemistry",
               "definition": "Used mainly for food grown without organic certification. It says nothing about carbon compounds, so it is not a chemical term.",
               "definitionCN": "主要用于未经有机认证生产的食品。它不涉及碳化合物，因此不是化学术语。"
             },
@@ -263,7 +263,7 @@
             {
               "word": "inanimate",
               "ipa": "/ɪnˈænɪmət/",
-              "tag": "without life, not without carbon",
+              "tag": "without life not without carbon",
               "definition": "Means 'not alive' and can describe a stone, a robot or a dull party. It says nothing about chemical composition, unlike inorganic.",
               "definitionCN": "意为「无生命的」，可形容石头、机器人或沉闷的聚会。与 inorganic 不同，它完全不涉及化学组成。"
             },
@@ -359,27 +359,27 @@
       ],
       "branches": [
         {
-          "senses": "S1",
+          "senses": "01",
           "en": "CHEMISTRY: carbon is the dividing line, so salts, metals and acids are inorganic.",
           "cn": "化学分界：碳是界线，因此盐、金属与酸都属无机。"
         },
         {
-          "senses": "S2 · S4",
+          "senses": "02 · 04",
           "en": "ORIGIN: the same line is drawn through time, asking whether life took part in forming the material.",
           "cn": "成因：同一条界线沿时间延伸，追问生命是否参与了物质的形成。"
         },
         {
-          "senses": "S3",
+          "senses": "03",
           "en": "RAW INPUT: plants absorb mineral ions as inorganic nutrients before building organic matter.",
           "cn": "原料输入：植物先吸收作为无机养分的矿质离子，再合成有机物。"
         },
         {
-          "senses": "S5",
+          "senses": "05",
           "en": "EXTERNAL GROWTH: business borrows the biology, so buying a firm is inorganic and adding customers is organic.",
           "cn": "外部增长：商业借用生物学说法，收购公司属无机，新增客户属有机。"
         },
         {
-          "senses": "S6 · S7 · S8",
+          "senses": "06 · 07 · 08",
           "en": "LIFELESS MATTER: no self-repair, no decomposition and no organic curve all follow from the same missing organisation.",
           "cn": "无生命物质：不会自愈、不会被分解、没有有机曲线，都源于同一种「缺少组织性」。"
         }
@@ -489,7 +489,7 @@
     "definition_zh": "二氧化碳（CO₂）；一种无色无味的温室气体",
     "definition_en": "a colourless, odourless gas with the formula CO2, produced by burning carbon and by respiration, and absorbed by plants in photosynthesis",
     "core_image": "一串气泡从汽水中升起，旁边一株绿植的叶片正把这些气泡吸进去",
-    "scene": "When the burners were lit, the carbon dioxide level inside the sealed chamber rose within minutes.",
+    "scene": "这里指「二氧化碳₂」。 When the burners were lit, the carbon dioxide level inside the sealed chamber rose within minutes.",
     "sceneCN": "这里 carbon dioxide 指「燃烧产生的二氧化碳气体」（第 1 个义项：CO₂ 这种物质本身）；点燃燃烧器后，密闭舱内的二氧化碳浓度几分钟内就升高了。图中可辨识物件：燃烧器、密封舱、气体检测仪、浓度曲线。",
     "pos": [
       {
@@ -526,23 +526,23 @@
     "forms": [
       {
         "label": "化学式",
-        "form": "CO₂（下标 2 表示两个氧原子）"
+        "form": "CO₂ 2"
       },
       {
         "label": "缩写",
-        "form": "CO2（键盘书写形式）"
+        "form": "CO2"
       },
       {
         "label": "不可数用法",
-        "form": "carbon dioxide（一般不加 -s；论及多种来源时可说 sources of carbon dioxide）"
+        "form": "carbon dioxide -s sources of carbon dioxide"
       },
       {
         "label": "作定语",
-        "form": "carbon-dioxide + 名词（如 carbon-dioxide emissions，加连字符）"
+        "form": "carbon-dioxide +  carbon-dioxide emissions"
       },
       {
         "label": "旧称",
-        "form": "fixed air（18 世纪对二氧化碳的旧称）"
+        "form": "fixed air18"
       }
     ],
     "derivatives": [
@@ -717,14 +717,14 @@
             {
               "word": "carbon monoxide",
               "ipa": "/ˌkɑːbən məˈnɒksaɪd/",
-              "tag": "one oxygen, deadly",
+              "tag": "one oxygen deadly",
               "definition": "CO, one carbon with one oxygen. It binds haemoglobin far more tightly than oxygen and is the commonest cause of gas poisoning.",
               "definitionCN": "CO，一个碳配一个氧。它比氧更牢地结合血红蛋白，是气体中毒最常见的原因。"
             },
             {
               "word": "carbonate",
               "ipa": "/ˈkɑːbəneɪt/",
-              "tag": "a salt, not a gas",
+              "tag": "a salt not a gas",
               "definition": "A salt containing the CO3²⁻ group, such as calcium carbonate in limestone. It is a solid ionic compound, not a molecule in the air.",
               "definitionCN": "含 CO₃²⁻ 基团的盐，如石灰石中的碳酸钙。它是固态离子化合物，而不是空气中的分子。"
             },
@@ -757,7 +757,7 @@
             {
               "word": "nitrogen",
               "ipa": "/ˈnaɪtrədʒən/",
-              "tag": "the bulk gas, not a greenhouse gas",
+              "tag": "the bulk gas not a greenhouse gas",
               "definition": "N2, about four fifths of the air. It is almost inert and contributes almost nothing to warming, so it is never grouped with carbon dioxide as a greenhouse gas.",
               "definitionCN": "N₂，约占空气的五分之四。它几乎惰性，对变暖几乎没有贡献，因此从不与二氧化碳一起归入温室气体。"
             }
@@ -846,27 +846,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S5",
+          "senses": "01 · 05",
           "en": "MAKING IT: combustion and respiration both oxidise carbon, so the gas is a shared end product.",
           "cn": "生成：燃烧与呼吸都在氧化碳，因此这种气体是共同的终产物。"
         },
         {
-          "senses": "S2",
+          "senses": "02",
           "en": "INSIDE THE BODY: the same gas becomes a physiological signal for breathing.",
           "cn": "体内：同一种气体变成控制呼吸的生理信号。"
         },
         {
-          "senses": "S3",
+          "senses": "03",
           "en": "PLANT FOOD: leaves reverse the animal direction and fix the carbon into sugar.",
           "cn": "植物养料：叶片把动物的方向反转，把碳固定成糖。"
         },
         {
-          "senses": "S4",
+          "senses": "04",
           "en": "ATMOSPHERE: because it absorbs infrared, a formula turns into a climate policy term.",
           "cn": "大气：由于吸收红外，一个化学式变成了气候政策术语。"
         },
         {
-          "senses": "S6 · S7 · S8",
+          "senses": "06 · 07 · 08",
           "en": "WORKING GAS: the same molecule cools, carbonates and extinguishes, all by being easy to compress and hard to burn.",
           "cn": "工作气体：同一分子用于制冷、碳酸化与灭火，靠的都是易压缩、不可燃。"
         }
@@ -984,7 +984,7 @@
     "definition_zh": "氧；氧气",
     "definition_en": "the chemical element of atomic number 8, a colourless gas forming about a fifth of the air and needed by most living things",
     "core_image": "一支试管里的气泡汇入呼吸面罩，面罩外的空气被画成淡蓝色的同心圈",
-    "scene": "The climbers carried oxygen cylinders because the air at that altitude holds too little of it to breathe.",
+    "scene": "这里指「氧」。 The climbers carried oxygen cylinders because the air at that altitude holds too little of it to breathe.",
     "sceneCN": "这里 oxygen 指「供呼吸用的氧气」（第 2 个义项：空气中可呼吸的氧分子）；海拔太高，空气里的氧不足以维持呼吸，登山者只能自带氧气瓶。图中可辨识物件：氧气瓶、呼吸面罩、雪线、气压表。",
     "pos": [
       {
@@ -1021,23 +1021,23 @@
     "forms": [
       {
         "label": "不可数用法",
-        "form": "oxygen（指元素或气体时不加 -s）"
+        "form": "oxygen -s"
       },
       {
         "label": "化学式",
-        "form": "O₂（双原子分子）"
+        "form": "O₂"
       },
       {
         "label": "复数（少用）",
-        "form": "oxygens（化学语境指多种氧原子或样本）"
+        "form": "oxygens"
       },
       {
         "label": "形容词形式",
-        "form": "oxygenic（产氧的；含氧的）"
+        "form": "oxygenic"
       },
       {
         "label": "相关动词",
-        "form": "oxygenate（给……加氧）"
+        "form": "oxygenate……"
       }
     ],
     "derivatives": [
@@ -1212,7 +1212,7 @@
             {
               "word": "oxide",
               "ipa": "/ˈɒksaɪd/",
-              "tag": "a compound, not the element",
+              "tag": "a compound not the element",
               "definition": "A compound in which oxygen is bonded to another element, such as iron oxide. Oxygen is the element; an oxide is what it forms.",
               "definitionCN": "氧与另一种元素结合成的化合物，如氧化铁。oxygen 是元素，oxide 是它形成的化合物。"
             },
@@ -1238,14 +1238,14 @@
             {
               "word": "air",
               "ipa": "/eə/",
-              "tag": "the mixture, not the element",
+              "tag": "the mixture not the element",
               "definition": "The mixture of gases we breathe, roughly four fifths nitrogen and one fifth oxygen. Oxygen is one component; air is the whole blend.",
               "definitionCN": "我们呼吸的混合气体，约五分之四为氮、五分之一为氧。oxygen 是其中一个成分，air 是整体混合物。"
             },
             {
               "word": "ozone",
               "ipa": "/ˈəʊzəʊn/",
-              "tag": "three atoms, not two",
+              "tag": "three atoms not two",
               "definition": "O3, a pungent gas formed from oxygen by electrical discharge. It shields the earth from ultraviolet light but is toxic to breathe.",
               "definitionCN": "O₃，由氧经放电形成的有刺激性气味的气体。它替地球挡住紫外线，但吸入有毒。"
             },
@@ -1341,27 +1341,27 @@
       ],
       "branches": [
         {
-          "senses": "S1",
+          "senses": "01",
           "en": "THE ATOM: the element is defined by its eight protons, present in water and rock alike.",
           "cn": "原子：这个元素由八个质子定义，水与岩石中同样存在。"
         },
         {
-          "senses": "S2 · S3",
+          "senses": "02 · 03",
           "en": "AVAILABLE GAS: the diatomic form is what lungs and gills can take, whether in air or dissolved in water.",
           "cn": "可用气体：双原子形式才是肺与鳃能吸收的，无论在空气中还是溶于水。"
         },
         {
-          "senses": "S4 · S7",
+          "senses": "04 · 07",
           "en": "MEASURED AND HISTORICAL: medicine doses it and geology dates the air by it.",
           "cn": "计量与历史：医学按剂量使用，地质学用它给大气定年。"
         },
         {
-          "senses": "S5",
+          "senses": "05",
           "en": "ELECTRON HUNGER: the element's reactivity is what makes fire fast.",
           "cn": "抢电子：元素的高反应性正是火之所以猛烈的原因。"
         },
         {
-          "senses": "S6 · S8",
+          "senses": "06 · 08",
           "en": "NAMING AND METAPHOR: one sense survives only inside the word's history, the other only in figurative speech.",
           "cn": "命名与隐喻：一个义项只活在词的历史里，另一个只活在比喻用法中。"
         }
@@ -1479,7 +1479,7 @@
     "definition_zh": "氧合；加氧；充氧过程",
     "definition_en": "the process of adding oxygen to a substance, to water, or to the blood",
     "core_image": "透明管路里的血液由暗红转为鲜红，旁边水槽中气泡不断翻涌",
-    "scene": "The nurse watched the monitor as blood oxygenation improved within a minute of starting the mask.",
+    "scene": "这里指「氧合」。 The nurse watched the monitor as blood oxygenation improved within a minute of starting the mask.",
     "sceneCN": "这里 oxygenation 指「血液氧合」（第 2 个义项：血液携带氧的过程）；戴上氧气面罩一分钟内，血氧就开始改善。图中可辨识物件：监护仪、氧气面罩、血液管路、血氧曲线。",
     "pos": [
       {
@@ -1516,23 +1516,23 @@
     "forms": [
       {
         "label": "不可数用法",
-        "form": "oxygenation（指过程时一般不加 -s）"
+        "form": "oxygenation -s"
       },
       {
         "label": "动词形式",
-        "form": "oxygenate（给……充氧；使氧合）"
+        "form": "oxygenate……"
       },
       {
         "label": "形容词形式",
-        "form": "oxygenated（充氧的；氧合的）"
+        "form": "oxygenated"
       },
       {
         "label": "施动名词",
-        "form": "oxygenator（氧合器；充氧装置）"
+        "form": "oxygenator"
       },
       {
         "label": "反向过程",
-        "form": "deoxygenation（脱氧）"
+        "form": "deoxygenation"
       }
     ],
     "derivatives": [
@@ -1707,7 +1707,7 @@
             {
               "word": "oxidation",
               "ipa": "/ˌɒksɪˈdeɪʃn/",
-              "tag": "electron loss, not oxygen entry",
+              "tag": "electron loss not oxygen entry",
               "definition": "The loss of electrons by a substance. It often involves oxygen, but it is defined by electron transfer, so it is not the same as adding oxygen atoms.",
               "definitionCN": "物质失去电子的过程。它常涉及氧，但定义依据是电子转移，因此与「加入氧原子」并不等同。"
             },
@@ -1733,21 +1733,21 @@
             {
               "word": "aeration",
               "ipa": "/eəˈreɪʃn/",
-              "tag": "air, not pure oxygen",
+              "tag": "air not pure oxygen",
               "definition": "The mixing of air into a liquid or a solid. Air is mostly nitrogen, so aeration adds less oxygen than oxygenation does.",
               "definitionCN": "把空气混入液体或固体。空气主要是氮，因此曝气加入的氧少于充氧。"
             },
             {
               "word": "perfusion",
               "ipa": "/pəˈfjuːʒn/",
-              "tag": "flow, not gas exchange",
+              "tag": "flow not gas exchange",
               "definition": "The passage of blood through tissue. Good perfusion is needed for oxygenation, but it names the flow rather than the loading of oxygen.",
               "definitionCN": "血液流经组织的过程。良好的灌注是氧合的前提，但它命名的是血流而不是氧的装载。"
             },
             {
               "word": "ventilation",
               "ipa": "/ˌventɪˈleɪʃn/",
-              "tag": "air movement, not oxygen loading",
+              "tag": "air movement not oxygen loading",
               "definition": "The movement of air in and out of the lungs or a room. Ventilation delivers gas to the lung; oxygenation is what the blood does with it.",
               "definitionCN": "空气进出肺或房间的运动。通气把气体送到肺泡，氧合则是血液对它的利用。"
             }
@@ -1836,27 +1836,27 @@
       ],
       "branches": [
         {
-          "senses": "S1",
+          "senses": "01",
           "en": "PLAIN ADDITION: the bare process of making oxygen enter something.",
           "cn": "单纯加入：让氧进入某物的最基本过程。"
         },
         {
-          "senses": "S2 · S7",
+          "senses": "02 · 07",
           "en": "MEDICINE: blood and pressure turn the process into a measurable clinical value.",
           "cn": "医学：血液与压力把这个过程变成可测量的临床数值。"
         },
         {
-          "senses": "S3 · S4 · S8",
+          "senses": "03 · 04 · 08",
           "en": "WATER: ponds, sewage tanks and oceans all need the same resupply to stay alive.",
           "cn": "水环境：池塘、污水池与海洋都需要同样的补给才能维持生命。"
         },
         {
-          "senses": "S5",
+          "senses": "05",
           "en": "MOLECULE: chemists narrow the word to oxygen atoms inserted into a structure.",
           "cn": "分子：化学家把词义收窄为「插入结构中的氧原子」。"
         },
         {
-          "senses": "S6",
+          "senses": "06",
           "en": "PLEASURE: at the table the same process is used for taste, not for survival.",
           "cn": "风味：在餐桌上，同一过程服务于味道而非生存。"
         }
@@ -1966,7 +1966,7 @@
     "definition_zh": "氮；氮气",
     "definition_en": "the chemical element of atomic number 7, a colourless, odourless gas that makes up about four fifths of the air",
     "core_image": "一只无色气球悬在空气中，旁边一株豆科植物的根瘤被剖开露出粉红色内部",
-    "scene": "The farmer rotated legumes to add nitrogen to the soil without buying fertilizer.",
+    "scene": "这里指「氮」。 The farmer rotated legumes to add nitrogen to the soil without buying fertilizer.",
     "sceneCN": "这里 nitrogen 指「土壤中的氮素养分」（第 3 个义项：氮肥与固氮）；豆科植物的根瘤菌把空气中的氮固定进土壤，农户因此不必买化肥。图中可辨识物件：豆科植株、根瘤剖面、土壤层、轮作示意牌。",
     "pos": [
       {
@@ -2003,23 +2003,23 @@
     "forms": [
       {
         "label": "不可数用法",
-        "form": "nitrogen（指元素或气体时不加 -s）"
+        "form": "nitrogen -s"
       },
       {
         "label": "化学式",
-        "form": "N₂（双原子分子）"
+        "form": "N₂"
       },
       {
         "label": "形容词形式",
-        "form": "nitrogenous（含氮的）"
+        "form": "nitrogenous"
       },
       {
         "label": "相关动词",
-        "form": "nitrify（硝化；使变成亚硝酸盐或硝酸盐）"
+        "form": "nitrify"
       },
       {
         "label": "化合物名词",
-        "form": "nitrate（硝酸盐）；nitrite（亚硝酸盐）"
+        "form": "nitratenitrite"
       }
     ],
     "derivatives": [
@@ -2194,7 +2194,7 @@
             {
               "word": "nitrate",
               "ipa": "/ˈnaɪtreɪt/",
-              "tag": "a salt, not the element",
+              "tag": "a salt not the element",
               "definition": "A salt or ester of nitric acid, containing the NO3 group, such as potassium nitrate in fertiliser. Nitrogen is the element; nitrate is one of its compounds.",
               "definitionCN": "硝酸的盐或酯，含 NO₃ 基团，如肥料中的硝酸钾。nitrogen 是元素，nitrate 是它的化合物之一。"
             },
@@ -2234,7 +2234,7 @@
             {
               "word": "ammonia",
               "ipa": "/əˈməʊniə/",
-              "tag": "a compound, not the element",
+              "tag": "a compound not the element",
               "definition": "NH3, a pungent gas made industrially from nitrogen and hydrogen. It is the form in which nitrogen is turned into fertiliser.",
               "definitionCN": "NH₃，工业上用氮与氢合成的刺激性气体。它正是氮被转化为肥料时所采取的形态。"
             }
@@ -2323,27 +2323,27 @@
       ],
       "branches": [
         {
-          "senses": "S1",
+          "senses": "01",
           "en": "THE ATOM: element 7 is defined by seven protons and its triple bond.",
           "cn": "原子：7 号元素由七个质子与三键定义。"
         },
         {
-          "senses": "S2",
+          "senses": "02",
           "en": "THE BULK GAS: inertness is a property, so packaging and welding value it for what it does not do.",
           "cn": "主体气体：惰性本身即特性，包装与焊接看重的正是它「不做什么」。"
         },
         {
-          "senses": "S3 · S7",
+          "senses": "03 · 07",
           "en": "THE CYCLE: soil fertility and global circulation describe the same element changing form.",
           "cn": "循环：土壤肥力与全球循环描述的是同一元素不断变换形态。"
         },
         {
-          "senses": "S4",
+          "senses": "04",
           "en": "LIFE: amino acids and DNA make nitrogen a marker of living matter.",
           "cn": "生命：氨基酸与 DNA 使氮成为生命物质的标记。"
         },
         {
-          "senses": "S5 · S6 · S8",
+          "senses": "05 · 06 · 08",
           "en": "USES AND CLAIMS: liquid coolant, polluting oxides and the nitre story all hang off the same name.",
           "cn": "用途与说法：液氮冷却、污染性氧化物与硝石故事，都挂在同一个名字上。"
         }
@@ -2461,7 +2461,7 @@
     "definition_zh": "含氮的；氮的",
     "definition_en": "containing nitrogen, or relating to nitrogen",
     "core_image": "一摊白色尿素晶体旁立着一支标着 N 的试管，气体正沿导管逸出",
-    "scene": "Fish excrete nitrogenous waste as ammonia through their gills.",
+    "scene": "这里指「含氮的」。 Fish excrete nitrogenous waste as ammonia through their gills.",
     "sceneCN": "这里 nitrogenous 指「含氮的」（第 2 个义项：含氮排泄物）；鱼把蛋白质代谢产生的氮以氨的形式经鳃排出。图中可辨识物件：鱼鳃、氨逸出示意、水槽、检测试纸。",
     "pos": [
       {
@@ -2498,7 +2498,7 @@
     "forms": [
       {
         "label": "比较级",
-        "form": "more nitrogenous（指含氮比例更高时使用）"
+        "form": "more nitrogenous"
       },
       {
         "label": "最高级",
@@ -2506,15 +2506,15 @@
       },
       {
         "label": "名词形式",
-        "form": "nitrogen（氮）"
+        "form": "nitrogen"
       },
       {
         "label": "名词化表达",
-        "form": "nitrogen content（含氮量，代替罕见的 nitrogenousness）"
+        "form": "nitrogen content nitrogenousness"
       },
       {
         "label": "作定语",
-        "form": "nitrogenous + 名词（如 nitrogenous base、nitrogenous waste）"
+        "form": "nitrogenous +  nitrogenous basenitrogenous waste"
       }
     ],
     "derivatives": [
@@ -2715,7 +2715,7 @@
             {
               "word": "proteinaceous",
               "ipa": "/ˌprəʊtiːˈneɪʃəs/",
-              "tag": "protein, not nitrogen",
+              "tag": "protein not nitrogen",
               "definition": "Made of or resembling protein. Most proteinaceous matter is nitrogenous, but the two adjectives answer different questions.",
               "definitionCN": "由蛋白质构成或类似蛋白质的。多数含蛋白质的物质确实含氮，但两个形容词回答的是不同问题。"
             },
@@ -2818,27 +2818,27 @@
       ],
       "branches": [
         {
-          "senses": "S1",
+          "senses": "01",
           "en": "PLAIN CONTENT: -ous simply says the material carries nitrogen.",
           "cn": "单纯成分：-ous 只是说这种材料带着氮。"
         },
         {
-          "senses": "S2 · S7",
+          "senses": "02 · 07",
           "en": "MEASUREMENT: waste and analytical content both describe nitrogen that can be weighed or titrated.",
           "cn": "计量：废物与分析含量描述的都是可称量、可滴定的氮。"
         },
         {
-          "senses": "S3 · S6",
+          "senses": "03 · 06",
           "en": "FOOD CHAIN: fertiliser feeds crops, and old nutrition science classified foods by the same element.",
           "cn": "食物链：肥料喂养作物，旧营养学也按同一元素给食物分类。"
         },
         {
-          "senses": "S4",
+          "senses": "04",
           "en": "CODE: the nitrogenous bases make the adjective part of the vocabulary of heredity.",
           "cn": "密码：含氮碱基让这个形容词进入遗传学的词汇。"
         },
         {
-          "senses": "S5 · S8",
+          "senses": "05 · 08",
           "en": "ENVIRONMENT: the same nitrogen becomes pollution in water and a preserved signal in stone.",
           "cn": "环境：同一种氮在水中成为污染，在石头里成为被保存的信号。"
         }
@@ -2948,7 +2948,7 @@
     "definition_zh": "氢；氢气",
     "definition_en": "the lightest chemical element, atomic number 1, a colourless gas that burns readily and combines with oxygen to form water",
     "core_image": "一只细绳牵着的气球向上飘，旁边一滴水被拆成两个小球与一个更小的球",
-    "scene": "The airship was filled with hydrogen because no other gas then available gave so much lift.",
+    "scene": "这里指「氢」。 The airship was filled with hydrogen because no other gas then available gave so much lift.",
     "sceneCN": "这里 hydrogen 指「用作浮升气体的氢气」（第 7 个义项：比空气轻、可产生浮力的气体）；当时没有别的气体能提供这么大的升力。图中可辨识物件：飞艇气囊、细绳、气压表、氢气瓶。",
     "pos": [
       {
@@ -2985,23 +2985,23 @@
     "forms": [
       {
         "label": "不可数用法",
-        "form": "hydrogen（指元素或气体时不加 -s）"
+        "form": "hydrogen -s"
       },
       {
         "label": "化学式",
-        "form": "H₂（双原子分子）"
+        "form": "H₂"
       },
       {
         "label": "形容词形式",
-        "form": "hydrogenous（含氢的，多用于地质学）"
+        "form": "hydrogenous"
       },
       {
         "label": "动词形式",
-        "form": "hydrogenate（使氢化）"
+        "form": "hydrogenate"
       },
       {
         "label": "化合物名词",
-        "form": "hydride（氢化物）；hydroxide（氢氧化物）"
+        "form": "hydridehydroxide"
       }
     ],
     "derivatives": [
@@ -3176,7 +3176,7 @@
             {
               "word": "hydroxide",
               "ipa": "/haɪˈdrɒksaɪd/",
-              "tag": "OH group, not hydrogen",
+              "tag": "group not hydrogen",
               "definition": "A compound or ion containing the OH group, such as sodium hydroxide. It contains hydrogen, but it is a distinct chemical unit.",
               "definitionCN": "含 OH 基团的化合物或离子，如氢氧化钠。它含氢，但本身是独立的化学单元。"
             },
@@ -3305,27 +3305,27 @@
       ],
       "branches": [
         {
-          "senses": "S1",
+          "senses": "01",
           "en": "THE ATOM: element 1 is defined by a single proton.",
           "cn": "原子：1 号元素由一个质子定义。"
         },
         {
-          "senses": "S2 · S3",
+          "senses": "02 · 03",
           "en": "TWO FACES: free as a flammable gas, bound as the bulk of water.",
           "cn": "两面：游离时是可燃气体，结合时是水的主体。"
         },
         {
-          "senses": "S4",
+          "senses": "04",
           "en": "ACIDITY: the bare ion is the currency of pH.",
           "cn": "酸性：裸离子是 pH 的通用单位。"
         },
         {
-          "senses": "S5 · S8",
+          "senses": "05 · 08",
           "en": "ENERGY: burning it stores power; fusing it powers stars.",
           "cn": "能量：燃烧它储存电力，聚变它点亮恒星。"
         },
         {
-          "senses": "S6 · S7",
+          "senses": "06 · 07",
           "en": "LIGHTNESS: the weakest bond and the strongest lift both come from being the smallest atom.",
           "cn": "轻：最弱的键与最大的升力都来自「它是最小的原子」。"
         }
@@ -3443,7 +3443,7 @@
     "definition_zh": "氢化；加氢作用",
     "definition_en": "the chemical process of adding hydrogen to a molecule, especially to unsaturated fats and oils",
     "core_image": "液态油在催化剂与氢气流中逐渐变成半固态的白色脂肪块",
-    "scene": "Partial hydrogenation turned the liquid oil into a spreadable fat, but it also created trans fats.",
+    "scene": "这里指「氢化」。 Partial hydrogenation turned the liquid oil into a spreadable fat, but it also created trans fats.",
     "sceneCN": "这里 hydrogenation 指「油脂氢化」（第 2 个义项：把液态油变成固态或半固态脂肪的工业过程）；部分氢化带来了可涂抹的质地，也带来了反式脂肪。图中可辨识物件：氢化反应釜、催化剂、氢气管路、油脂样本。",
     "pos": [
       {
@@ -3480,23 +3480,23 @@
     "forms": [
       {
         "label": "不可数用法",
-        "form": "hydrogenation（指工艺过程时一般不加 -s）"
+        "form": "hydrogenation -s"
       },
       {
         "label": "动词形式",
-        "form": "hydrogenate（使氢化）"
+        "form": "hydrogenate"
       },
       {
         "label": "形容词形式",
-        "form": "hydrogenated（氢化的）"
+        "form": "hydrogenated"
       },
       {
         "label": "反向过程",
-        "form": "dehydrogenation（脱氢）"
+        "form": "dehydrogenation"
       },
       {
         "label": "相关名词",
-        "form": "hydrogen（氢）；hydrogenator（氢化装置）"
+        "form": "hydrogenhydrogenator"
       }
     ],
     "derivatives": [
@@ -3680,7 +3680,7 @@
             {
               "word": "hydration",
               "ipa": "/ˈhaɪdreɪʃn/",
-              "tag": "water, not hydrogen",
+              "tag": "water not hydrogen",
               "definition": "The addition of water to a substance, or the state of being supplied with water. It is a different reaction and a different everyday word.",
               "definitionCN": "向物质加水，或获得水的状态。它是另一种反应，也是另一个日常用词。"
             }
@@ -3795,27 +3795,27 @@
       ],
       "branches": [
         {
-          "senses": "S1",
+          "senses": "01",
           "en": "PLAIN REACTION: hydrogen joins a molecule, usually across an unsaturated bond.",
           "cn": "基本反应：氢加入分子，通常发生在不饱和键上。"
         },
         {
-          "senses": "S2 · S4",
+          "senses": "02 · 04",
           "en": "FOOD TEXTURE: stopping early or going all the way gives two very different fats.",
           "cn": "食物质地：早停或走到底，得到两种很不同的脂肪。"
         },
         {
-          "senses": "S3 · S8",
+          "senses": "03 · 08",
           "en": "PUBLIC HEALTH: the side effect and the label keep the process in the news.",
           "cn": "公共健康：副产物与标签让这一工艺持续出现在新闻里。"
         },
         {
-          "senses": "S5 · S6",
+          "senses": "05 · 06",
           "en": "FUEL: refineries and coal plants use the same reaction at industrial scale.",
           "cn": "燃料：炼厂与煤化工厂以工业规模使用同一反应。"
         },
         {
-          "senses": "S7",
+          "senses": "07",
           "en": "SYNTHESIS: in the lab, hydrogen is the reagent that makes reduction concrete.",
           "cn": "合成：在实验室里，氢是把「还原」落到实处的试剂。"
         }
@@ -3925,7 +3925,7 @@
     "definition_zh": "磷",
     "definition_en": "the chemical element of atomic number 15, a non-metal that occurs in several coloured forms and glows faintly in the dark",
     "core_image": "暗室中一块蜡状白色固体发出淡绿色微光，旁边是一盒火柴",
-    "scene": "In the dark, the white phosphorus on the stick glowed with a faint green light.",
+    "scene": "这里指「磷」。 In the dark, the white phosphorus on the stick glowed with a faint green light.",
     "sceneCN": "这里 phosphorus 指「白磷」（第 2 个义项：会自燃、在暗处发光的同素异形体）；它在黑暗中缓慢氧化，发出淡绿微光。图中可辨识物件：暗室、白磷块、淡绿光晕、防火手套。",
     "pos": [
       {
@@ -3962,7 +3962,7 @@
     "forms": [
       {
         "label": "不可数用法",
-        "form": "phosphorus（元素名，一般不加 -s）"
+        "form": "phosphorus -s"
       },
       {
         "label": "化学符号",
@@ -3970,15 +3970,15 @@
       },
       {
         "label": "形容词形式",
-        "form": "phosphoric（磷酸的）；phosphorous（亚磷的；发磷光的）"
+        "form": "phosphoricphosphorous"
       },
       {
         "label": "化合物名词",
-        "form": "phosphate（磷酸盐）；phosphide（磷化物）"
+        "form": "phosphatephosphide"
       },
       {
         "label": "动词形式",
-        "form": "phosphorylate（使磷酸化）"
+        "form": "phosphorylate"
       }
     ],
     "derivatives": [
@@ -4153,21 +4153,21 @@
             {
               "word": "phosphorous",
               "ipa": "/ˈfɒsfərəs/",
-              "tag": "adjective, lower state",
+              "tag": "adjective lower state",
               "definition": "An adjective for the lower oxidation state, as in phosphorous acid. It is spelled with -ous, while the element noun ends in -us.",
               "definitionCN": "表示较低氧化态的形容词，如亚磷酸。它拼作 -ous，而元素名词以 -us 结尾。"
             },
             {
               "word": "phosphoric",
               "ipa": "/fɒsˈfɒrɪk/",
-              "tag": "adjective, higher state",
+              "tag": "adjective higher state",
               "definition": "An adjective for the higher oxidation state, as in phosphoric acid. It never names the element itself.",
               "definitionCN": "表示较高氧化态的形容词，如磷酸。它从不指元素本身。"
             },
             {
               "word": "phosphate",
               "ipa": "/ˈfɒsfeɪt/",
-              "tag": "a salt, not the element",
+              "tag": "a salt not the element",
               "definition": "A salt or ester containing the PO4 group, such as calcium phosphate in bone. Phosphorus is the element; phosphate is one of its commonest compounds.",
               "definitionCN": "含 PO₄ 基团的盐或酯，如骨中的磷酸钙。phosphorus 是元素，phosphate 是它最常见的化合物之一。"
             }
@@ -4179,7 +4179,7 @@
             {
               "word": "phosphorescence",
               "ipa": "/ˌfɒsfəˈresns/",
-              "tag": "the glow, not the element",
+              "tag": "the glow not the element",
               "definition": "The slow emission of light after exposure to radiation, named after phosphorus because both glow in the dark.",
               "definitionCN": "受辐射后缓慢发光的现象，因二者都在暗处发光而以磷命名。"
             },
@@ -4282,27 +4282,27 @@
       ],
       "branches": [
         {
-          "senses": "S1",
+          "senses": "01",
           "en": "THE ATOM: element 15 exists in several allotropes, which the next senses name by colour.",
           "cn": "原子：15 号元素有多个同素异形体，随后几个义项按颜色为它们命名。"
         },
         {
-          "senses": "S2 · S3",
+          "senses": "02 · 03",
           "en": "ALLOTROPES: one glows and burns, the other is safe enough for a matchbox.",
           "cn": "同素异形体：一个会发光自燃，另一个安全到能放在火柴盒上。"
         },
         {
-          "senses": "S4",
+          "senses": "04",
           "en": "INFORMATION: phosphate groups give DNA its charge and ATP its energy.",
           "cn": "信息：磷酸基团赋予 DNA 电荷、赋予 ATP 能量。"
         },
         {
-          "senses": "S5 · S6",
+          "senses": "05 · 06",
           "en": "BODY AND FIELD: the same element is bone mineral and the bag of fertiliser.",
           "cn": "身体与田野：同一元素既是骨矿物，也是那袋肥料。"
         },
         {
-          "senses": "S7 · S8",
+          "senses": "07 · 08",
           "en": "EXCESS AND ORIGIN: too much phosphorus ruins a lake, while the name still remembers a star.",
           "cn": "过量与起源：磷太多会毁掉湖泊，而名字仍记着一颗星。"
         }
@@ -4412,7 +4412,7 @@
     "definition_zh": "磷酸盐；磷酸根；磷酸酯",
     "definition_en": "a salt or ester of phosphoric acid, containing the phosphate group PO4",
     "core_image": "一袋白色颗粒肥料溶进土壤，旁边 DNA 双螺旋的骨架被标成亮色",
-    "scene": "The detergent was banned because its phosphate load fed algal blooms in the river.",
+    "scene": "这里指「磷酸盐」。 The detergent was banned because its phosphate load fed algal blooms in the river.",
     "sceneCN": "这里 phosphate 指「洗涤剂中的磷酸盐」（第 3 个义项：含磷洗涤剂带来的富营养化问题）；磷酸盐随污水进入河流，成了藻华的养料，因此被禁用。图中可辨识物件：洗衣粉盒、排污口、河面藻膜、监测采样瓶。",
     "pos": [
       {
@@ -4449,23 +4449,23 @@
     "forms": [
       {
         "label": "复数",
-        "form": "phosphates（指多种磷酸盐或酯时使用）"
+        "form": "phosphates"
       },
       {
         "label": "化学式",
-        "form": "PO₄³⁻（磷酸根）"
+        "form": "PO₄³⁻"
       },
       {
         "label": "形容词形式",
-        "form": "phosphatic（含磷酸盐的，多用于岩石与矿床）"
+        "form": "phosphatic"
       },
       {
         "label": "相关形容词",
-        "form": "phosphoric（磷酸的）；phosphorous（亚磷的）"
+        "form": "phosphoricphosphorous"
       },
       {
         "label": "相关动词",
-        "form": "phosphorylate（使磷酸化）"
+        "form": "phosphorylate"
       }
     ],
     "derivatives": [
@@ -4673,7 +4673,7 @@
             {
               "word": "sulfate",
               "ipa": "/ˈsʌlfeɪt/",
-              "tag": "same ending, different element",
+              "tag": "same ending different element",
               "definition": "The SO4 salt of sulfuric acid. It shares the -ate ending and the salt behaviour but carries sulfur instead of phosphorus.",
               "definitionCN": "硫酸的 SO₄ 盐。它与磷酸盐共享 -ate 词尾与盐的行为，但携带的是硫而非磷。"
             },
@@ -4769,27 +4769,27 @@
       ],
       "branches": [
         {
-          "senses": "S1",
+          "senses": "01",
           "en": "CHEMISTRY: -ate marks a salt, so phosphate is a compound and not the element.",
           "cn": "化学：-ate 标记盐，因此 phosphate 是化合物而不是元素。"
         },
         {
-          "senses": "S2 · S8",
+          "senses": "02 · 08",
           "en": "AGRICULTURE: the same salt is spread on fields and dug out of rock.",
           "cn": "农业：同一种盐既被施进田里，也被从岩石中挖出。"
         },
         {
-          "senses": "S3 · S5",
+          "senses": "03 · 05",
           "en": "WATER: a cleaning additive becomes a pollutant and then a monitored number.",
           "cn": "水：一种清洁助剂变成污染物，再变成一个被监测的数字。"
         },
         {
-          "senses": "S4",
+          "senses": "04",
           "en": "LIFE: the phosphate group carries charge and energy in DNA and ATP.",
           "cn": "生命：磷酸基团在 DNA 与 ATP 中承载电荷与能量。"
         },
         {
-          "senses": "S6 · S7",
+          "senses": "06 · 07",
           "en": "INDUSTRY AND MEDICINE: the same salt stabilises food and binds phosphorus in patients.",
           "cn": "工业与医学：同一种盐既稳定食品，也在患者体内结合磷。"
         }
@@ -4907,7 +4907,7 @@
     "definition_zh": "矿物；矿物质；（营养）无机盐",
     "definition_en": "a naturally occurring inorganic solid with a definite chemical composition and structure, and by extension such substances in nutrition",
     "core_image": "一块带晶面的矿石放在木托盘上，旁边一小堆白色晶体盐",
-    "scene": "The sample was a dark mineral with a metallic lustre, harder than glass.",
+    "scene": "这里指「矿物」。 The sample was a dark mineral with a metallic lustre, harder than glass.",
     "sceneCN": "这里 mineral 指「矿物」（第 1 个义项：天然产出的无机固体，有确定成分与结构）；它呈深色、带金属光泽，硬度超过玻璃。图中可辨识物件：矿石标本、晶面、木托盘、硬度测试片。",
     "pos": [
       {
@@ -4948,23 +4948,23 @@
     "forms": [
       {
         "label": "复数",
-        "form": "minerals（矿物；矿物质）"
+        "form": "minerals"
       },
       {
         "label": "形容词形式",
-        "form": "mineral（作定语，如 mineral water）"
+        "form": "mineral mineral water"
       },
       {
         "label": "副词形式",
-        "form": "mineralogically（从矿物学角度）"
+        "form": "mineralogically"
       },
       {
         "label": "动词形式",
-        "form": "mineralize（使矿化）"
+        "form": "mineralize"
       },
       {
         "label": "学科名词",
-        "form": "mineralogy（矿物学）"
+        "form": "mineralogy"
       }
     ],
     "derivatives": [
@@ -5263,27 +5263,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S5",
+          "senses": "01 · 05",
           "en": "GEOLOGY: the definition needs nature, no life, a fixed formula and an ordered structure.",
           "cn": "地质：定义需要天然、无生命、成分固定与结构有序四条。"
         },
         {
-          "senses": "S2",
+          "senses": "02",
           "en": "NUTRITION: the same word names the inorganic elements the body needs.",
           "cn": "营养：同一个词指身体所需的无机元素。"
         },
         {
-          "senses": "S3",
+          "senses": "03",
           "en": "PRODUCT: dissolved salts turn spring water into a branded drink.",
           "cn": "产品：溶解的盐把泉水变成有品牌的饮品。"
         },
         {
-          "senses": "S4 · S6",
+          "senses": "04 · 06",
           "en": "VALUE: rights underground and ore in the vein both measure the word in money.",
           "cn": "价值：地下的权利与矿脉中的矿石，都用钱来衡量这个词。"
         },
         {
-          "senses": "S7 · S8",
+          "senses": "07 · 08",
           "en": "CLASSIFICATION AND BEAUTY: an old kingdom and a display case are two ends of the same label.",
           "cn": "分类与美：旧时的「界」与展柜，是同一标签的两端。"
         }
@@ -5393,7 +5393,7 @@
     "definition_zh": "矿化；成矿作用；（水的）矿化度",
     "definition_en": "the process by which organic matter is converted into mineral form, or by which minerals are deposited in rock or tissue",
     "core_image": "一根骨头埋进岩层，逐渐被矿物替换，旁边是一条发亮的矿脉",
-    "scene": "The fossil's bone had undergone complete mineralization, so no original tissue remained.",
+    "scene": "这里指「矿化」。 The fossil's bone had undergone complete mineralization, so no original tissue remained.",
     "sceneCN": "这里 mineralization 指「矿化取代」（第 1 个义项：有机组织被矿物逐步替换的过程）；骨组织已被矿物完全取代，原有组织不再存在。图中可辨识物件：化石骨、岩层剖面、矿物沉积、放大镜。",
     "pos": [
       {
@@ -5430,23 +5430,23 @@
     "forms": [
       {
         "label": "不可数用法",
-        "form": "mineralization（指过程或程度，一般不加 -s）"
+        "form": "mineralization -s"
       },
       {
         "label": "动词形式",
-        "form": "mineralize（使矿化）"
+        "form": "mineralize"
       },
       {
         "label": "形容词形式",
-        "form": "mineralized（已矿化的）"
+        "form": "mineralized"
       },
       {
         "label": "反向过程",
-        "form": "demineralization（脱矿）"
+        "form": "demineralization"
       },
       {
         "label": "施动名词",
-        "form": "mineralizer（矿化剂；成矿介质）"
+        "form": "mineralizer"
       }
     ],
     "derivatives": [
@@ -5750,27 +5750,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S8",
+          "senses": "01 · 08",
           "en": "REPLACEMENT: fossils and burials survive because minerals take the place of tissue.",
           "cn": "替换：化石与墓葬之所以留存，是因为矿物取代了组织。"
         },
         {
-          "senses": "S2",
+          "senses": "02",
           "en": "RELEASE: in soil, the same word runs the other way and turns organic matter into ions.",
           "cn": "释放：在土壤中，同一个词反向运行，把有机质变成离子。"
         },
         {
-          "senses": "S3",
+          "senses": "03",
           "en": "CONCENTRATION: economic geology names the event that makes a deposit worth mining.",
           "cn": "富集：经济地质学以此命名使矿床值得开采的事件。"
         },
         {
-          "senses": "S4 · S5",
+          "senses": "04 · 05",
           "en": "BODY: cells can build mineral deliberately, or deposit it where it does not belong.",
           "cn": "身体：细胞可以有意构建矿物，也可以把它沉积在不该在的地方。"
         },
         {
-          "senses": "S6 · S7",
+          "senses": "06 · 07",
           "en": "MEASURE AND REMEDY: water reports mineralization as a number, and treatment aims for its completion.",
           "cn": "计量与治理：水以数字报告矿化度，处理则以彻底矿化为目标。"
         }
@@ -5888,7 +5888,7 @@
     "definition_zh": "养分；营养素",
     "definition_en": "a substance that provides nourishment and is needed by a living thing for growth and health",
     "core_image": "植物的根系伸向土壤颗粒，旁边一盘食物被分成几块不同颜色的区域",
-    "scene": "Nitrogen is the nutrient that limits plant growth in most temperate soils.",
+    "scene": "这里指「养分」。 Nitrogen is the nutrient that limits plant growth in most temperate soils.",
     "sceneCN": "这里 nutrient 指「限制性养分」（第 3 个义项：生态学中供应最不足、决定生长上限的那种养分）；温带土壤里最缺的往往是氮，它因此限制了植物生长。图中可辨识物件：植物根系、土壤颗粒、氮标记、生长曲线。",
     "pos": [
       {
@@ -5929,23 +5929,23 @@
     "forms": [
       {
         "label": "复数",
-        "form": "nutrients（多种养分）"
+        "form": "nutrients"
       },
       {
         "label": "作定语",
-        "form": "nutrient + 名词（如 nutrient-rich、nutrient cycling）"
+        "form": "nutrient +  nutrient-richnutrient cycling"
       },
       {
         "label": "相关形容词",
-        "form": "nutritious（有营养的）；nutritional（营养的）"
+        "form": "nutritiousnutritional"
       },
       {
         "label": "相关名词",
-        "form": "nutrition（营养）；nutrient medium（营养培养基）"
+        "form": "nutritionnutrient medium"
       },
       {
         "label": "相关动词",
-        "form": "nourish（滋养）"
+        "form": "nourish"
       }
     ],
     "derivatives": [
@@ -6249,27 +6249,27 @@
       ],
       "branches": [
         {
-          "senses": "S1",
+          "senses": "01",
           "en": "GENERAL: any substance that builds tissue or supplies energy.",
           "cn": "泛指：任何构建组织或提供能量的物质。"
         },
         {
-          "senses": "S2 · S5",
+          "senses": "02 · 05",
           "en": "HUMAN BODY: what cannot be made must be eaten, absorbed and delivered.",
           "cn": "人体：不能自造的就必须吃进、吸收并送达。"
         },
         {
-          "senses": "S3 · S7",
+          "senses": "03 · 07",
           "en": "ECOLOGY: the scarcest nutrient caps growth, and a rich medium is described by the same word.",
           "cn": "生态：最稀缺的养分决定生长上限，而富含养分的介质也用同一个词描述。"
         },
         {
-          "senses": "S4",
+          "senses": "04",
           "en": "AGRICULTURE: nitrogen, phosphorus and potassium are counted as the main plant nutrients.",
           "cn": "农业：氮、磷、钾被算作主要的植物养分。"
         },
         {
-          "senses": "S6 · S8",
+          "senses": "06 · 08",
           "en": "EXCESS AND CULTURE: too much in a river is pollution; the right mix in a dish grows microbes.",
           "cn": "过量与培养：河里太多是污染，皿里配好则培养微生物。"
         }
@@ -6379,7 +6379,7 @@
     "definition_zh": "营养；营养学",
     "definition_en": "the process by which living things obtain and use the food they need, and the scientific study of that process",
     "core_image": "一只餐盘被分成几块，旁边一本翻开的教科书与一条向上生长的曲线",
-    "scene": "Good nutrition in the first two years shapes growth for the rest of childhood.",
+    "scene": "这里指「营养」。 Good nutrition in the first two years shapes growth for the rest of childhood.",
     "sceneCN": "这里 nutrition 指「膳食质量」（第 3 个义项：一个人实际获得的营养状况）；最初两年的营养质量会影响此后整个童年的生长。图中可辨识物件：餐盘、食物分区、生长曲线、儿童身高手册。",
     "pos": [
       {
@@ -6416,23 +6416,23 @@
     "forms": [
       {
         "label": "不可数用法",
-        "form": "nutrition（指过程或学科时不加 -s）"
+        "form": "nutrition -s"
       },
       {
         "label": "形容词形式",
-        "form": "nutritional（营养的）；nutritious（有营养的）"
+        "form": "nutritionalnutritious"
       },
       {
         "label": "副词形式",
-        "form": "nutritionally（在营养方面）"
+        "form": "nutritionally"
       },
       {
         "label": "从业者名词",
-        "form": "nutritionist（营养师；营养学家）"
+        "form": "nutritionist"
       },
       {
         "label": "相关动词",
-        "form": "nourish（滋养）；nutrify（加营养，较少用）"
+        "form": "nourishnutrify"
       }
     ],
     "derivatives": [
@@ -6736,27 +6736,27 @@
       ],
       "branches": [
         {
-          "senses": "S1",
+          "senses": "01",
           "en": "THE PROCESS: food is taken in, broken down, absorbed and used.",
           "cn": "过程：食物被摄入、分解、吸收与利用。"
         },
         {
-          "senses": "S2 · S3",
+          "senses": "02 · 03",
           "en": "KNOWLEDGE AND STATE: the same noun names the field and the condition of a person's diet.",
           "cn": "知识与状态：同一个名词既指学科，也指一个人膳食的状况。"
         },
         {
-          "senses": "S4",
+          "senses": "04",
           "en": "TREATMENT: when eating fails, nutrition becomes a medical procedure.",
           "cn": "治疗：当进食失败时，营养成为医疗规程。"
         },
         {
-          "senses": "S5",
+          "senses": "05",
           "en": "PLANTS: another kingdom, the same goal of obtaining matter to grow.",
           "cn": "植物：另一个生物界，同一个「获取物质以生长」的目标。"
         },
         {
-          "senses": "S6 · S7 · S8",
+          "senses": "06 · 07 · 08",
           "en": "POPULATION AND PACKET: policy, labels and dietary shifts all use the word at scale.",
           "cn": "人群与包装：政策、标签与膳食变迁都在更大尺度上使用这个词。"
         }
@@ -6866,7 +6866,7 @@
     "definition_zh": "营养的；营养方面的",
     "definition_en": "relating to nutrition, or to the nutrients contained in a food",
     "core_image": "一个被放大的食品标签，上面的成分表被红笔圈出",
-    "scene": "The nutritional value of the flour fell when the bran was removed.",
+    "scene": "这里指「营养的」。 The nutritional value of the flour fell when the bran was removed.",
     "sceneCN": "这里 nutritional 指「营养价值的」（第 2 个义项：食物所含养分的数量与质量）；去掉麸皮后，面粉的营养价值随之下降。图中可辨识物件：面粉袋、放大镜、营养成分表、红笔圈注。",
     "pos": [
       {
@@ -6903,7 +6903,7 @@
     "forms": [
       {
         "label": "比较级",
-        "form": "more nutritional（营养更丰富的）"
+        "form": "more nutritional"
       },
       {
         "label": "最高级",
@@ -6911,15 +6911,15 @@
       },
       {
         "label": "副词形式",
-        "form": "nutritionally（在营养上）"
+        "form": "nutritionally"
       },
       {
         "label": "名词形式",
-        "form": "nutrition（营养）；nutrient（养分）"
+        "form": "nutritionnutrient"
       },
       {
         "label": "作定语",
-        "form": "nutritional + 名词（如 nutritional value、nutritional status）"
+        "form": "nutritional +  nutritional valuenutritional status"
       }
     ],
     "derivatives": [
@@ -7223,27 +7223,27 @@
       ],
       "branches": [
         {
-          "senses": "S1",
+          "senses": "01",
           "en": "GENERAL FRAME: -al simply says the topic is nutrition.",
           "cn": "泛框定：-al 只是说话题属于营养。"
         },
         {
-          "senses": "S2 · S7",
+          "senses": "02 · 07",
           "en": "MEASUREMENT: value and requirements turn nutrients into numbers to compare and prescribe.",
           "cn": "计量：价值与需求把养分变成可比较、可规定的数字。"
         },
         {
-          "senses": "S3 · S4",
+          "senses": "03 · 04",
           "en": "CLINICAL PICTURE: a deficiency is named, and a person's overall state is assessed.",
           "cn": "临床图景：命名一种缺乏，并评估一个人的整体状态。"
         },
         {
-          "senses": "S5",
+          "senses": "05",
           "en": "REMEDY: supplements and therapy fill the gap that diet leaves.",
           "cn": "补救：补充剂与治疗填上膳食留下的缺口。"
         },
         {
-          "senses": "S6 · S8",
+          "senses": "06 · 08",
           "en": "LAW AND RESEARCH: labels are regulated, and ecology studies food quality.",
           "cn": "法规与研究：标签受监管，生态学研究食物质量。"
         }

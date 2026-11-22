@@ -344,27 +344,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S2",
+          "senses": "01 · 02",
           "en": "LIFTING AND COOLING: heat takes water up, cold air turns it back into droplets.",
           "cn": "抬升与冷却：热量把水送上去，冷空气把它变回水滴。"
         },
         {
-          "senses": "S3",
+          "senses": "03",
           "en": "THE DROP: what the air can no longer hold comes down as weather.",
           "cn": "落下的那一滴：空气再也托不住的水以天气的形式落下。"
         },
         {
-          "senses": "S4 · S5",
+          "senses": "04 · 05",
           "en": "TWO RETURN ROADS: across the surface into rivers, or down into rock.",
           "cn": "两条归路：或沿地表汇入河流，或向下进入岩层。"
         },
         {
-          "senses": "S6",
+          "senses": "06",
           "en": "BALANCE: the closed loop can be audited as a budget of inputs and outputs.",
           "cn": "平衡：这个闭合回路可以当作收支账来核算。"
         },
         {
-          "senses": "S7 · S8",
+          "senses": "07 · 08",
           "en": "MODEL AND METAPHOR: the arrows teach the loop, and any returning circulation borrows its name.",
           "cn": "模型与比喻：箭头把回路教给人，而任何会返回的循环都借用它的名字。"
         }
@@ -687,7 +687,7 @@
             {
               "word": "hydrologic cycle",
               "ipa": "/ˌhaɪ.drəˈlɒdʒ.ɪk ˈsaɪkl/",
-              "tag": "American spelling",
+              "tag": "merican spelling",
               "definition": "The same term with the shorter American adjective; the meaning is identical.",
               "definitionCN": "同一术语的美式短形容词形式，含义完全相同。"
             },
@@ -701,7 +701,7 @@
             {
               "word": "hydrological model",
               "ipa": "/haɪˈdrɒl.ə.dʒɪ.kəl ˈmɒdl/",
-              "tag": "the tool, not the object",
+              "tag": "the tool not the object",
               "definition": "A computer representation of the cycle; the cycle is what the model tries to imitate.",
               "definitionCN": "循环的计算机表示；循环才是模型试图模仿的对象。"
             }
@@ -816,27 +816,27 @@
       ],
       "branches": [
         {
-          "senses": "S1",
+          "senses": "01",
           "en": "WHOLE SYSTEM: the term names the object hydrology studies before it names any part.",
           "cn": "整体系统：这个术语先命名水文学研究的对象，再命名其中任何局部。"
         },
         {
-          "senses": "S2 · S3",
+          "senses": "02 · 03",
           "en": "TWO UPWARD LINKS: water leaves by evaporation and transpiration, then travels as vapour.",
           "cn": "两条上升链：水经蒸发与蒸腾离开，再以水汽形式输送。"
         },
         {
-          "senses": "S4",
+          "senses": "04",
           "en": "THE INPUT: precipitation is the measurable income of every basin.",
           "cn": "输入项：降水是每个流域可测量的收入。"
         },
         {
-          "senses": "S5 · S6",
+          "senses": "05 · 06",
           "en": "HOLD AND RELEASE: storage delays water, discharge releases it.",
           "cn": "存与放：蓄存让水延迟，排泄把水放出。"
         },
         {
-          "senses": "S7 · S8",
+          "senses": "07 · 08",
           "en": "BALANCE AND SPEED: the loop can be closed as an equation, and warming changes only its rate.",
           "cn": "平衡与速度：这个回路可以写成闭合方程，而变暖只改变它的速率。"
         }
@@ -989,10 +989,6 @@
       {
         "label": "复数（指多个含水系统，罕用）",
         "form": "groundwaters"
-      },
-      {
-        "label": "作定语",
-        "form": "groundwater"
       },
       {
         "label": "相关名词（含水层）",
@@ -1158,7 +1154,7 @@
             {
               "word": "underground",
               "ipa": "/ˌʌn.dəˈɡraʊnd/",
-              "tag": "place, not substance",
+              "tag": "place not substance",
               "definition": "Below the surface as a position or direction; it does not name water.",
               "definitionCN": "表示地表以下的位置或方向，并不指水本身。"
             },
@@ -1287,27 +1283,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S2",
+          "senses": "01 · 02",
           "en": "FROM DRY TO FULL: the same water is named at the surface and again below the saturation line.",
           "cn": "从干到满：同一批水在地表被命名一次，在饱和线以下又被命名一次。"
         },
         {
-          "senses": "S3 · S4",
+          "senses": "03 · 04",
           "en": "TWO CATEGORIES OF SUPPLY: what is pumped from below is managed against what flows above.",
           "cn": "两类供水：从地下抽取的水与从地表流过的水被分开管理。"
         },
         {
-          "senses": "S5",
+          "senses": "05",
           "en": "CONTENTS AND CONTAINER: the aquifer holds the water, and the water takes the aquifer's name.",
           "cn": "内容与容器：含水层储存水，水也随含水层得名。"
         },
         {
-          "senses": "S6",
+          "senses": "06",
           "en": "OVERDRAFT: a slow-filling store can be spent faster than it refills.",
           "cn": "透支：补充缓慢的储库可以被花得比补充更快。"
         },
         {
-          "senses": "S7 · S8",
+          "senses": "07 · 08",
           "en": "HIDDEN RETURN AND HIDDEN RESERVE: the unseen store feeds rivers, and the same image serves for any reserve.",
           "cn": "隐性的回归与隐性的储备：看不见的储库供养河流，同一意象也可用于任何储备。"
         }
@@ -1640,7 +1636,7 @@
             {
               "word": "subterranean",
               "ipa": "/ˌsʌb.təˈreɪ.ni.ən/",
-              "tag": "Latin-based synonym",
+              "tag": "atin-based synonym",
               "definition": "Below the earth, borrowed from Latin sub plus terra; it is formal and has no secret sense.",
               "definitionCN": "地表以下，借自拉丁语 sub 加 terra；语体正式，且没有秘密含义。"
             },
@@ -1661,7 +1657,7 @@
             {
               "word": "subway",
               "ipa": "/ˈsʌb.weɪ/",
-              "tag": "American counterpart",
+              "tag": "merican counterpart",
               "definition": "The American word for an urban underground railway, and also a pedestrian underpass in Britain.",
               "definitionCN": "美式指城市地下铁路；在英国则指行人地下通道。"
             }
@@ -1750,27 +1746,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S2",
+          "senses": "01 · 02",
           "en": "POSITION AND LABEL: the same word tells where something is and what kind of thing it is.",
           "cn": "位置与标签：同一个词既说明某物在哪里，也说明它是哪一类。"
         },
         {
-          "senses": "S3 · S5",
+          "senses": "03 · 05",
           "en": "OUT OF SIGHT: secrecy and hiding reuse the physical image of being covered.",
           "cn": "不被看见：秘密与隐匿复用了「被覆盖」的物理意象。"
         },
         {
-          "senses": "S4",
+          "senses": "04",
           "en": "THE NAMED RAILWAY: a real tunnel system turns the direction into a proper noun.",
           "cn": "被命名的铁路：真实的隧道系统把方向变成了专名。"
         },
         {
-          "senses": "S6 · S7",
+          "senses": "06 · 07",
           "en": "BELOW THE MAINSTREAM: culture and architecture both build a world under the visible one.",
           "cn": "主流之下：文化与建筑都在可见世界之下造出另一个世界。"
         },
         {
-          "senses": "S8",
+          "senses": "08",
           "en": "BENEATH THE SURFACE: what is hidden is still present, only unlit.",
           "cn": "表层之下：隐藏之物仍然存在，只是不在光里。"
         }
@@ -2072,14 +2068,14 @@
             {
               "word": "aqueduct",
               "ipa": "/ˈæk.wɪ.dʌkt/",
-              "tag": "carries water, not stores it",
+              "tag": "carries water not stores it",
               "definition": "A channel or bridge built to convey water; the second element means 'lead', not 'bear'.",
               "definitionCN": "为输水而建的渠道或渡槽；第二个成分意为「引导」，不是「承载」。"
             },
             {
               "word": "aqua",
               "ipa": "/ˈæk.wə/",
-              "tag": "the Latin element",
+              "tag": "the atin element",
               "definition": "Water as a Latin word and a combining form; it is one piece of aquifer, not another kind of layer.",
               "definitionCN": "作为拉丁词与组合成分的「水」；它是 aquifer 的一个构件，而不是另一类岩层。"
             },
@@ -2215,27 +2211,27 @@
       ],
       "branches": [
         {
-          "senses": "S1",
+          "senses": "01",
           "en": "TWO CONDITIONS: storage space plus connected pores make a rock an aquifer.",
           "cn": "两个条件：储水空间加上连通的孔隙，才使岩层成为含水层。"
         },
         {
-          "senses": "S2 · S3",
+          "senses": "02 · 03",
           "en": "WITH OR WITHOUT A LID: pressure or freedom at the top separates the two types.",
           "cn": "有盖或无盖：顶部受压还是自由，区分了两种类型。"
         },
         {
-          "senses": "S4",
+          "senses": "04",
           "en": "THE WELL: supply is the layer yielding water at a usable rate.",
           "cn": "井：供水指的是以可用速率出水的那一层。"
         },
         {
-          "senses": "S5 · S7",
+          "senses": "05 · 07",
           "en": "BOUNDARIES AND RISK: mapped units have edges, and edges admit pollution.",
           "cn": "边界与风险：被制图的单元有边界，而边界会放进污染。"
         },
         {
-          "senses": "S6 · S8",
+          "senses": "06 · 08",
           "en": "BANK AND METAPHOR: water can be deposited underground, and the same image serves any hidden capacity.",
           "cn": "银行与比喻：水可以存到地下，而同一意象可用于任何隐藏容量。"
         }
@@ -2618,7 +2614,7 @@
             {
               "word": "aquifer",
               "ipa": "/ˈæk.wɪ.fə/",
-              "tag": "the layer, not the level",
+              "tag": "the layer not the level",
               "definition": "The rock body that contains the saturated zone; the table is only its top surface.",
               "definitionCN": "包含饱和带的那块岩体；潜水面只是它的上表面。"
             }
@@ -2707,27 +2703,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S2",
+          "senses": "01 · 02",
           "en": "THE LINE ITSELF: a boundary in the pores, made visible by a well.",
           "cn": "线本身：孔隙中的一条界线，借一口井显现出来。"
         },
         {
-          "senses": "S3",
+          "senses": "03",
           "en": "UP AND DOWN: recharge raises it, dry seasons lower it.",
           "cn": "上下移动：补给抬升它，旱季压低它。"
         },
         {
-          "senses": "S4 · S5",
+          "senses": "04 · 05",
           "en": "WHERE IT MEETS THE WORLD: streams are fed at its outcrop, and its depth sets building limits.",
           "cn": "与世界的接触：溪流在它的出露处获得补给，而它的埋深决定施工限制。"
         },
         {
-          "senses": "S6",
+          "senses": "06",
           "en": "A FALLING SIGNAL: a dropping level is the cheapest proof of over-pumping.",
           "cn": "下降的信号：水位降低是过度抽水最廉价的证据。"
         },
         {
-          "senses": "S7 · S8",
+          "senses": "07 · 08",
           "en": "THE OLD LEDGE AND THE METAPHOR: a projecting course sheds water, and any hidden threshold borrows the image.",
           "cn": "旧日挑檐与比喻：挑出的线脚甩开雨水，而任何隐形门槛都借用这个意象。"
         }
@@ -3056,13 +3052,6 @@
           "heading": "LOOK-ALIKE",
           "entries": [
             {
-              "word": "infiltration",
-              "ipa": "/ˌɪn.fɪlˈtreɪ.ʃən/",
-              "tag": "the noun",
-              "definition": "The action or result; the verb drops the -tion and ends in -ate.",
-              "definitionCN": "指动作或结果；动词去掉 -tion，以 -ate 结尾。"
-            },
-            {
               "word": "filtration",
               "ipa": "/fɪlˈtreɪ.ʃən/",
               "tag": "without in-",
@@ -3201,27 +3190,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S2",
+          "senses": "01 · 02",
           "en": "THE DOOR AND ITS SPEED: entry happens at a rate, and the rate has a ceiling.",
           "cn": "门与速度：进入有速率，而速率有上限。"
         },
         {
-          "senses": "S3",
+          "senses": "03",
           "en": "DOOR VERSUS CORRIDOR: infiltration is crossing the surface, percolation is travelling inside.",
           "cn": "门与走廊：下渗是穿过表面，渗滤是在内部行进。"
         },
         {
-          "senses": "S4 · S5",
+          "senses": "04 · 05",
           "en": "LINES AND ORGANISATIONS: small units pass through defences; agents pass into groups.",
           "cn": "防线与组织：小股部队穿过多道防线；人员进入团体。"
         },
         {
-          "senses": "S6 · S7",
+          "senses": "06 · 07",
           "en": "TISSUE AND CULTURE: fluid and ideas both spread quietly into a body.",
           "cn": "组织与文化：液体与观念都安静地扩散进一个整体。"
         },
         {
-          "senses": "S8",
+          "senses": "08",
           "en": "DELIBERATE FILLING: engineering reverses the worry and makes entry useful.",
           "cn": "有意的填充：工程把这种担忧反转，让进入变得有用。"
         }
@@ -3598,14 +3587,14 @@
             {
               "word": "porous",
               "ipa": "/ˈpɔː.rəs/",
-              "tag": "holes, not necessarily connection",
+              "tag": "holes not necessarily connection",
               "definition": "Full of pores; a porous material stores fluid but may not let it flow through.",
               "definitionCN": "充满孔隙；多孔材料能存流体，却不一定能让它流过去。"
             },
             {
               "word": "pervious",
               "ipa": "/ˈpɜː.vi.əs/",
-              "tag": "Latin synonym",
+              "tag": "atin synonym",
               "definition": "A rarer word for allowing passage, built from Latin via, a way, rather than from meare.",
               "definitionCN": "较少见的「可透过」同义词，由拉丁语 via「道路」构成，而非 meare。"
             },
@@ -3619,7 +3608,7 @@
             {
               "word": "absorbent",
               "ipa": "/əˈbɔː.bənt/",
-              "tag": "taking in, not passing on",
+              "tag": "taking in not passing on",
               "definition": "Taking fluid in and holding it; a permeable body lets fluid continue through.",
               "definitionCN": "吸收流体并留在内部；可渗透体则让流体继续通过。"
             }
@@ -3708,27 +3697,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S2",
+          "senses": "01 · 02",
           "en": "THE PROPERTY AND ITS USE: the adjective describes a material, and geology uses it to sort layers.",
           "cn": "属性与用途：这个形容词描述材料，地质学用它给岩层分类。"
         },
         {
-          "senses": "S3 · S4",
+          "senses": "03 · 04",
           "en": "SELECTIVE PASSAGE: membranes and boundaries admit some flows and refuse others.",
           "cn": "选择性通过：膜与边界放行某些流，拒绝另一些。"
         },
         {
-          "senses": "S5",
+          "senses": "05",
           "en": "THE OPEN MIND: influence enters without breaking the person.",
           "cn": "开放的心智：影响进入，而不使人破裂。"
         },
         {
-          "senses": "S6 · S7",
+          "senses": "06 · 07",
           "en": "ENGINEERED FLOW: clothing and models are designed around a chosen permeability.",
           "cn": "被设计的流动：服装与模型都围绕选定的渗透性来设计。"
         },
         {
-          "senses": "S8",
+          "senses": "08",
           "en": "NO SEAL: a system is called permeable when nothing closes it off.",
           "cn": "没有密封：当没有任何东西把系统封住时，就称它是可渗透的。"
         }
@@ -4080,7 +4069,7 @@
             {
               "word": "porosity",
               "ipa": "/pəˈrɒs.ə.ti/",
-              "tag": "space, not flow",
+              "tag": "space not flow",
               "definition": "The fraction of the volume that is pore space; high porosity does not guarantee high permeability.",
               "definitionCN": "孔隙所占的体积比例；孔隙率高并不保证渗透性高。"
             }
@@ -4106,7 +4095,7 @@
             {
               "word": "permittivity",
               "ipa": "/ˌpɜː.mɪˈtɪv.ə.ti/",
-              "tag": "electric, not magnetic",
+              "tag": "electric not magnetic",
               "definition": "The electric counterpart of magnetic permeability, describing a medium's response to an electric field.",
               "definitionCN": "磁导率的电学对应量，描述介质对电场的响应。"
             },
@@ -4202,27 +4191,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S2",
+          "senses": "01 · 02",
           "en": "PROPERTY AND CONSTANT: the capacity becomes a number in Darcy's law.",
           "cn": "属性与常数：这种能力在达西定律中变成一个数值。"
         },
         {
-          "senses": "S3",
+          "senses": "03",
           "en": "FIELD RATE: engineers need metres per second, so the constant is combined with the fluid.",
           "cn": "场地速率：工程师需要米每秒，于是常数与流体性质合并。"
         },
         {
-          "senses": "S4",
+          "senses": "04",
           "en": "FIELD VERSION: magnetism reuses the same ratio for a different medium.",
           "cn": "场论版本：磁学把同一比值用于另一种介质。"
         },
         {
-          "senses": "S5 · S6",
+          "senses": "05 · 06",
           "en": "SELECTIVITY AND COMPETITION: membranes choose, and two fluids share the same pores.",
           "cn": "选择与竞争：膜做选择，而两种流体共用同一批孔隙。"
         },
         {
-          "senses": "S7 · S8",
+          "senses": "07 · 08",
           "en": "INDEX AND METAPHOR: the number classifies materials, and the same number rates openness in people and institutions.",
           "cn": "指标与比喻：这个数值给材料分类，也用同一数值评价人与机构的开放程度。"
         }
@@ -4599,7 +4588,7 @@
             {
               "word": "resistant",
               "ipa": "/rɪˈzɪs.tənt/",
-              "tag": "opposing, not blocking",
+              "tag": "opposing not blocking",
               "definition": "Withstanding an effect without necessarily blocking passage.",
               "definitionCN": "能承受某种作用，但不一定阻断通过。"
             },
@@ -4695,27 +4684,27 @@
       ],
       "branches": [
         {
-          "senses": "S1",
+          "senses": "01",
           "en": "NO PASSAGE: the defining fact is the absence of a connected path.",
           "cn": "没有通路：定义性的事实是缺少连通的路径。"
         },
         {
-          "senses": "S2 · S7",
+          "senses": "02 · 07",
           "en": "CONFINEMENT AND MODELLING: the layer holds water down, and models record it as zero flow.",
           "cn": "封闭与建模：这一层把水挡在下面，模型把它记为零流量。"
         },
         {
-          "senses": "S3 · S4",
+          "senses": "03 · 04",
           "en": "EVERYDAY BARRIERS: cloth against rain, lead against rays.",
           "cn": "日常屏障：布挡雨，铅挡射线。"
         },
         {
-          "senses": "S5",
+          "senses": "05",
           "en": "THE CLOSED MIND: a person imagined as a surface nothing enters.",
           "cn": "封闭的心智：把一个人想象成什么都进不去的表面。"
         },
         {
-          "senses": "S6 · S8",
+          "senses": "06 · 08",
           "en": "CONTAINMENT AND ISOLATION: nothing escapes, and nothing is exchanged.",
           "cn": "封存与孤立：什么都出不去，也没有任何交换。"
         }
@@ -5168,27 +5157,27 @@
       ],
       "branches": [
         {
-          "senses": "S1",
+          "senses": "01",
           "en": "REFUSED ENTRY: the water runs because the ground will not take it.",
           "cn": "被拒之门外：水之所以流走，是因为地面不接受它。"
         },
         {
-          "senses": "S2 · S3",
+          "senses": "02 · 03",
           "en": "EVENT AND AMOUNT: a storm makes a pulse, and a gauge turns it into a volume.",
           "cn": "事件与数量：暴雨造出脉冲，测站把它变成水量。"
         },
         {
-          "senses": "S4 · S5",
+          "senses": "04 · 05",
           "en": "CARRIER: on farms and streets the water travels with whatever it picks up.",
           "cn": "搬运者：在农田与街道上，水带着所拾取的一切同行。"
         },
         {
-          "senses": "S6",
+          "senses": "06",
           "en": "DELAYED RELEASE: snow holds water, and melt discharges it in spring.",
           "cn": "延迟释放：雪把水存住，融化时在春天放出。"
         },
         {
-          "senses": "S7 · S8",
+          "senses": "07 · 08",
           "en": "SURPLUS DECIDES AND LEAVES: a second vote settles what the first could not, and value escapes when nothing retains it.",
           "cn": "剩余做决定并离开：第二轮投票定下第一轮定不了的事，而留不住时价值便外流。"
         }
@@ -5490,7 +5479,7 @@
             {
               "word": "surface water",
               "ipa": "/ˈsɜː.fɪs ˌwɔːtə/",
-              "tag": "the body, not the flow",
+              "tag": "the body not the flow",
               "definition": "Water standing or stored in rivers and lakes; runoff is the moving supply that reaches them.",
               "definitionCN": "停留在河流湖泊中的水；径流是到达它们的流动补给。"
             },
@@ -5619,27 +5608,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S2",
+          "senses": "01 · 02",
           "en": "LOCATION AND SPEED: the branch is defined by staying on top, and intensity sets its pace.",
           "cn": "位置与速度：这一支因停留在表面而得名，而强度决定它的快慢。"
         },
         {
-          "senses": "S3",
+          "senses": "03",
           "en": "THE PAVED CITY: hard surfaces leave almost no other route.",
           "cn": "铺装的城市：硬质表面几乎不留别的去处。"
         },
         {
-          "senses": "S4 · S5",
+          "senses": "04 · 05",
           "en": "CARRIER AND CUTTER: the flow moves fertiliser and also removes soil.",
           "cn": "搬运与切割：这股流既搬走肥料，也削去土壤。"
         },
         {
-          "senses": "S6 · S7",
+          "senses": "06 · 07",
           "en": "FAST RESPONSE AND DESIGN: it sets flood timing, and green infrastructure tries to detain it.",
           "cn": "快速响应与设计：它决定洪水时序，而绿色基础设施试图滞留它。"
         },
         {
-          "senses": "S8",
+          "senses": "08",
           "en": "VISIBLE SURPLUS: what never enters the depths stays on the face and moves quickly.",
           "cn": "可见的剩余：从未进入深处的东西留在表面，移动得很快。"
         }
@@ -5965,21 +5954,21 @@
             {
               "word": "catchment",
               "ipa": "/ˈkætʃ.mənt/",
-              "tag": "British preference",
+              "tag": "ritish preference",
               "definition": "The British term for the same area; in everyday use it can also mean the people a service serves.",
               "definitionCN": "同一区域的英式说法；日常中也可指某项服务所覆盖的人群。"
             },
             {
               "word": "watershed",
               "ipa": "/ˈwɔː.tə.ʃed/",
-              "tag": "American sense",
+              "tag": "merican sense",
               "definition": "In American English the whole basin; in British English the dividing ridge itself.",
               "definitionCN": "美式指整个流域；英式则指分水岭本身。"
             },
             {
               "word": "river basin",
               "ipa": "/ˈrɪ.və ˌbeɪ.sn/",
-              "tag": "same idea, named by the river",
+              "tag": "same idea named by the river",
               "definition": "A near synonym that stresses the river system rather than the draining.",
               "definitionCN": "几乎同义的表达，强调河系而非排水过程。"
             }
@@ -6101,27 +6090,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S2",
+          "senses": "01 · 02",
           "en": "AREA AND EDGE: one outlet defines the inside, and the slope reversal draws the edge.",
           "cn": "区域与边缘：一个出口定义内部，坡向反转画出边缘。"
         },
         {
-          "senses": "S3",
+          "senses": "03",
           "en": "MEASURED UNIT: with a boundary, the basin gains area and a single budget.",
           "cn": "测量单元：有了边界，流域就有了面积与单一收支。"
         },
         {
-          "senses": "S4 · S5",
+          "senses": "04 · 05",
           "en": "NESTING AND RESPONSE: subbasins nest by outlet, and each contributes to one hydrograph.",
           "cn": "嵌套与响应：子流域按出口嵌套，各自汇入同一条过程线。"
         },
         {
-          "senses": "S6",
+          "senses": "06",
           "en": "GOVERNANCE: the basin is the boundary that matches water's movement.",
           "cn": "治理：流域是与水的运动相符合的边界。"
         },
         {
-          "senses": "S7 · S8",
+          "senses": "07 · 08",
           "en": "CONVEYOR AND METAPHOR: material travels to one outlet, and any region with one centre borrows the image.",
           "cn": "输送与比喻：物质流向一个出口，而任何只有一个中心的区域都借用这个意象。"
         }
@@ -6571,27 +6560,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S2",
+          "senses": "01 · 02",
           "en": "STORE AND SCHEDULE: the lake holds water, and the rule decides when it leaves.",
           "cn": "储存与调度：湖把水存住，规则决定它何时离开。"
         },
         {
-          "senses": "S3 · S4",
+          "senses": "03 · 04",
           "en": "TWO DEMANDS: cities need clean water, farms and turbines need guaranteed flow.",
           "cn": "两种需求：城市要干净的水，农田与水轮机要保证的流量。"
         },
         {
-          "senses": "S5",
+          "senses": "05",
           "en": "SIDE EFFECT: still water traps sediment and rewrites the habitat.",
           "cn": "副作用：静水拦住泥沙，也改写了生境。"
         },
         {
-          "senses": "S6",
+          "senses": "06",
           "en": "SCALE DOWN: the same word serves a tank on a roof.",
           "cn": "缩小尺度：同一个词也用于屋顶水箱。"
         },
         {
-          "senses": "S7 · S8",
+          "senses": "07 · 08",
           "en": "RESERVE AND BODY: anything held back is a reservoir, including water inside a plant.",
           "cn": "储备与身体：任何被留住的东西都是储库，包括植物体内的水。"
         }
@@ -6955,16 +6944,9 @@
             {
               "word": "reservist",
               "ipa": "/rɪˈzɜː.vɪst/",
-              "tag": "person, not place",
+              "tag": "person not place",
               "definition": "A member of a military reserve force; the ending -ist marks a person.",
               "definitionCN": "预备役军人；词尾 -ist 表示人。"
-            },
-            {
-              "word": "reservoir",
-              "ipa": "/ˈrez.ə.vwɑː/",
-              "tag": "headword",
-              "definition": "The noun ending in -oir, borrowed whole from French with a characteristic silent final r.",
-              "definitionCN": "以 -oir 结尾的名词，整体借自法语，词尾的 r 常不发音。"
             }
           ]
         },
@@ -7084,27 +7066,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S2",
+          "senses": "01 · 02",
           "en": "WATER AT TWO SCALES: a valley impoundment and a tank are the same structure at different sizes.",
           "cn": "两种尺度的水：谷地拦蓄与储液罐是同一结构的不同尺寸。"
         },
         {
-          "senses": "S3",
+          "senses": "03",
           "en": "ROCK AS CONTAINER: petroleum geology reuses the water geometry for oil in pores.",
           "cn": "岩石即容器：石油地质把水的几何关系套用到孔隙中的油。"
         },
         {
-          "senses": "S4 · S5",
+          "senses": "04 · 05",
           "en": "HOLDING SOMETHING ALIVE: talent is stored, and so is a pathogen between outbreaks.",
           "cn": "留住活的东西：人才被储存，病原体也在两次暴发之间被储存。"
         },
         {
-          "senses": "S6 · S7",
+          "senses": "06 · 07",
           "en": "CAPACITY SET ASIDE: memory and service basins both reserve room for later demand.",
           "cn": "预留的容量：内存与调节池都为日后的需求留出空间。"
         },
         {
-          "senses": "S8 · S9",
+          "senses": "08 · 09",
           "en": "RESIDENCE AND PRESSURE: a pool holds a substance longer, and held feeling builds force.",
           "cn": "停留与压力：库让物质停留更久，而被压住的情绪会积聚力量。"
         }

@@ -230,7 +230,7 @@
             {
               "word": "haphazard",
               "ipa": "/ˌhæpˈhæzəd/",
-              "tag": "same element, different whole",
+              "tag": "same element different whole",
               "definition": "Built from hap, meaning chance, plus hazard: it describes something done without order or plan, not something dangerous.",
               "definitionCN": "由表示偶然的 hap 加 hazard 构成：形容做事没有条理或计划，而不是形容危险。"
             },
@@ -277,7 +277,7 @@
             {
               "word": "precarious",
               "ipa": "/prɪˈkeəriəs/",
-              "tag": "unstable, not harmful",
+              "tag": "unstable not harmful",
               "definition": "Depending on chance or on a shaky support, so it may collapse; the emphasis is instability rather than toxicity or injury.",
               "definitionCN": "依靠偶然或不稳的支撑，因而可能垮掉；侧重不稳定，而不是毒性或伤害。"
             }
@@ -366,27 +366,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S2",
+          "senses": "01 · 02",
           "en": "THE BODY: the harm is immediate for the skin and slow for the lungs.",
           "cn": "身体：对皮肤是立刻的伤害，对肺则是缓慢的伤害。"
         },
         {
-          "senses": "S3",
+          "senses": "03",
           "en": "THE ECOSYSTEM: the same test moves from people to water, soil and fish.",
           "cn": "生态系统：同一套判断标准从人移到水体、土壤与鱼。"
         },
         {
-          "senses": "S4",
+          "senses": "04",
           "en": "CONDITIONS: weather and roads can carry harm without being objects.",
           "cn": "处境：天气与路面并非物品，却同样能带来危害。"
         },
         {
-          "senses": "S5 · S8",
+          "senses": "05 · 08",
           "en": "PAPERWORK AND ZONES: harm becomes a category on a shipping form and a colour on a factory map.",
           "cn": "单据与分区：危害变成运单上的一个类别和工厂图上的一个色块。"
         },
         {
-          "senses": "S6 · S7",
+          "senses": "06 · 07",
           "en": "CHANCE: the dice game survives as a risky decision and as the older sense of luck.",
           "cn": "偶然：掷骰子的赌局残留为冒险的决定，以及旧时的运气义。"
         }
@@ -534,15 +534,7 @@
         "form": "hazards"
       },
       {
-        "label": "第三人称单数",
-        "form": "hazards"
-      },
-      {
         "label": "过去式",
-        "form": "hazarded"
-      },
-      {
-        "label": "过去分词",
         "form": "hazarded"
       },
       {
@@ -754,7 +746,7 @@
             {
               "word": "peril",
               "ipa": "/ˈperəl/",
-              "tag": "grave, literary",
+              "tag": "grave literary",
               "definition": "Serious and immediate danger of death or ruin, stronger and more literary than hazard.",
               "definitionCN": "严重而迫近的死亡或毁灭危险，比 hazard 更重、更偏文学。"
             },
@@ -850,27 +842,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S2",
+          "senses": "01 · 02",
           "en": "THING AND STATE: one sense points at the object, the other at being surrounded by such objects.",
           "cn": "物与状态：一个义项指着那个物件，另一个指着被这类物件包围的处境。"
         },
         {
-          "senses": "S3 · S4",
+          "senses": "03 · 04",
           "en": "LABELS: work and inspection turn the word into fixed compounds such as occupational hazard and fire hazard.",
           "cn": "标签：工作与检查把该词固定成 occupational hazard、fire hazard 一类复合词。"
         },
         {
-          "senses": "S5",
+          "senses": "05",
           "en": "CHANCE: the oldest layer, still visible in by hazard.",
           "cn": "偶然：最古老的一层，仍留在 by hazard 里。"
         },
         {
-          "senses": "S6",
+          "senses": "06",
           "en": "GOLF: an obstacle on the course borrows the word entire.",
           "cn": "高尔夫：球场上的障碍整体借用了这个词。"
         },
         {
-          "senses": "S7 · S8",
+          "senses": "07 · 08",
           "en": "VERBS: guessing and risking both throw something out and wait for the result.",
           "cn": "动词：猜测与冒险都是把某样东西扔出去，然后等结果。"
         }
@@ -1198,14 +1190,14 @@
             {
               "word": "chemist",
               "ipa": "/ˈkemɪst/",
-              "tag": "person, not substance",
+              "tag": "person not substance",
               "definition": "A person who practises chemistry, or in British use a pharmacist; in American English pharmacist is the usual word.",
               "definitionCN": "从事化学的人，英式英语中也指药剂师；美式英语中药剂师通常另用 pharmacist。"
             },
             {
               "word": "alchemy",
               "ipa": "/ˈælkəmi/",
-              "tag": "same Arabic article",
+              "tag": "same rabic article",
               "definition": "The older metal-transmuting craft with al- attached; chemistry is the later science that grew out of it.",
               "definitionCN": "带 al- 冠词的更早炼金术；chemistry 是从中长出的近代学科。"
             },
@@ -1224,14 +1216,14 @@
             {
               "word": "substance",
               "ipa": "/ˈsʌbstəns/",
-              "tag": "neutral, general",
+              "tag": "neutral general",
               "definition": "Any kind of matter, natural or made; chemical adds the association with laboratory or industry.",
               "definitionCN": "任何物质，天然或人造皆可；chemical 则附加了实验室或工业的联想。"
             },
             {
               "word": "compound",
               "ipa": "/ˈkɒmpaʊnd/",
-              "tag": "technical, precise",
+              "tag": "technical precise",
               "definition": "A substance made of two or more elements chemically joined; it is narrower and more technical than chemical.",
               "definitionCN": "由两种或以上元素以化学方式结合成的物质；比 chemical 更窄、更技术化。"
             },
@@ -1334,27 +1326,27 @@
       ],
       "branches": [
         {
-          "senses": "S1",
+          "senses": "01",
           "en": "DISCIPLINE: the adjective can modify laws, bonds and classrooms without naming any substance.",
           "cn": "学科：该形容词可修饰定律、化学键与课堂，而不指任何物质。"
         },
         {
-          "senses": "S2 · S8",
+          "senses": "02 · 08",
           "en": "THINGS ON A SHELF: countable bottles in a factory store and reagents in a laboratory cupboard.",
           "cn": "架上的东西：工厂仓库里可数的桶与实验室柜里的试剂。"
         },
         {
-          "senses": "S3",
+          "senses": "03",
           "en": "SCALE: the plant and the engineering turn a bench science into an industry.",
           "cn": "规模：工厂与工程把实验台上的学问变成一门工业。"
         },
         {
-          "senses": "S4 · S6 · S7",
+          "senses": "04 · 06 · 07",
           "en": "PROCESS AND PURPOSE: the change itself, the weapon built on it, and the test that detects it.",
           "cn": "过程与用途：变化本身、由它造出的武器，以及检出它的检验。"
         },
         {
-          "senses": "S5",
+          "senses": "05",
           "en": "TASTE: the everyday disapproving sense of something manufactured rather than natural.",
           "cn": "口感：日常贬义，指制造出来的而非天然的东西。"
         }
@@ -1683,7 +1675,7 @@
             {
               "word": "chemical change",
               "ipa": "/ˈkemɪkl tʃeɪndʒ/",
-              "tag": "the outcome, not the event",
+              "tag": "the outcome not the event",
               "definition": "The kind of change a reaction produces, named by its result; textbooks contrast it with physical change.",
               "definitionCN": "指反应所产生的那类变化，以结果命名；教科书把它与物理变化对照。"
             },
@@ -1826,27 +1818,27 @@
       ],
       "branches": [
         {
-          "senses": "S1",
+          "senses": "01",
           "en": "THE EVENT: atoms regroup and the starting materials are gone.",
           "cn": "事件：原子重新组合，原来的物质不再存在。"
         },
         {
-          "senses": "S2 · S3",
+          "senses": "02 · 03",
           "en": "ACCOUNTING AND NAMING: heat tells you the energy side, structure tells you the type.",
           "cn": "记账与命名：热量说明能量收支，结构说明反应类型。"
         },
         {
-          "senses": "S4 · S5",
+          "senses": "04 · 05",
           "en": "TIME: how fast it runs, and whether it can also run backwards.",
           "cn": "时间：它跑得多快，以及能否反向跑。"
         },
         {
-          "senses": "S6",
+          "senses": "06",
           "en": "CELLS: the same event, guided by enzymes, keeps an organism alive.",
           "cn": "细胞：同一事件在酶的引导下维持着生物体存活。"
         },
         {
-          "senses": "S7 · S8",
+          "senses": "07 · 08",
           "en": "METAPHOR: chains of consequences and instant attraction both borrow the laboratory image.",
           "cn": "比喻：连锁后果与即时吸引都借用了实验室的意象。"
         }
@@ -2183,21 +2175,21 @@
             {
               "word": "physical weathering",
               "ipa": "/ˈfɪzɪkl ˈweðərɪŋ/",
-              "tag": "force, not reaction",
+              "tag": "force not reaction",
               "definition": "Breakdown by frost, salt growth, pressure release or abrasion, with the mineral makeup unchanged.",
               "definitionCN": "由冰冻、盐结晶、卸荷或磨蚀造成的破碎，矿物成分不变。"
             },
             {
               "word": "biological weathering",
               "ipa": "/ˌbaɪəˈlɒdʒɪkl ˈweðərɪŋ/",
-              "tag": "agent, not mechanism",
+              "tag": "agent not mechanism",
               "definition": "Weathering in which roots, animals or microbes provide the force or the acid; chemically it may overlap with this term.",
               "definitionCN": "由根系、动物或微生物提供力或酸的风化；在化学机制上可与化学风化重叠。"
             },
             {
               "word": "erosion",
               "ipa": "/ɪˈrəʊʒn/",
-              "tag": "removal, not decay",
+              "tag": "removal not decay",
               "definition": "The transport of loosened material by water, wind or ice; weathering breaks rock, erosion carries it away.",
               "definitionCN": "被松动的物质被水、风或冰搬运走；风化把岩石弄碎，侵蚀把碎屑带走。"
             },
@@ -2326,27 +2318,27 @@
       ],
       "branches": [
         {
-          "senses": "S1",
+          "senses": "01",
           "en": "THE WHOLE: any reaction that alters rock in place belongs here.",
           "cn": "整体：任何在原地改变岩石的反应都归入此类。"
         },
         {
-          "senses": "S2 · S5",
+          "senses": "02 · 05",
           "en": "DISSOLVING: plain water takes salt away, weak acid takes limestone away.",
           "cn": "溶解：纯水带走盐，弱酸带走石灰岩。"
         },
         {
-          "senses": "S3",
+          "senses": "03",
           "en": "OXIDISING: iron plus oxygen leaves rust colours and a crumbled framework.",
           "cn": "氧化：铁加氧留下锈色与松散的骨架。"
         },
         {
-          "senses": "S4",
+          "senses": "04",
           "en": "HYDROLYSING: water rebuilds feldspar as clay.",
           "cn": "水解：水把长石重组成黏土。"
         },
         {
-          "senses": "S6 · S7 · S8",
+          "senses": "06 · 07 · 08",
           "en": "ACCELERATORS: roots and lichen speed it up, cities make it visible, and metaphor makes it a slow erosion of anything.",
           "cn": "加速者：根系与地衣加快它，城市让它显形，比喻让它成为任何事物的缓慢侵蚀。"
         }
@@ -2707,7 +2699,7 @@
             {
               "word": "disintegration",
               "ipa": "/ˌdɪsɪntɪˈɡreɪʃn/",
-              "tag": "result, not process name",
+              "tag": "result not process name",
               "definition": "Falling apart into small pieces; it describes the outcome rather than the geological category.",
               "definitionCN": "碎成小块；描述的是结果，而非地质学分类。"
             },
@@ -2810,27 +2802,27 @@
       ],
       "branches": [
         {
-          "senses": "S1",
+          "senses": "01",
           "en": "THE CATEGORY: force does the work and chemistry stays unchanged.",
           "cn": "类别：由力量做功，化学性质不变。"
         },
         {
-          "senses": "S2 · S3",
+          "senses": "02 · 03",
           "en": "GROWING THINGS IN PORES: ice and salt both push outward from inside.",
           "cn": "孔隙里的生长物：冰与盐都从内部向外顶。"
         },
         {
-          "senses": "S4",
+          "senses": "04",
           "en": "RELEASED PRESSURE: rock expands and sheets off once the load is gone.",
           "cn": "释放的压力：荷载消失后岩石膨胀并成片剥落。"
         },
         {
-          "senses": "S5 · S6",
+          "senses": "05 · 06",
           "en": "MOVEMENT AND HEAT: grinding by sediment and cracking by daily temperature swings.",
           "cn": "运动与热：泥沙的磨擦与日夜温差造成的开裂。"
         },
         {
-          "senses": "S7 · S8",
+          "senses": "07 · 08",
           "en": "OTHER AGENTS: roots act as wedges, and city stone suffers the same fate faster.",
           "cn": "其他施力者：根充当楔子，城市石材更快遭遇同样的命运。"
         }
@@ -3153,7 +3145,7 @@
             {
               "word": "bioerosion",
               "ipa": "/ˌbaɪəʊɪˈrəʊʒn/",
-              "tag": "removal, not decay",
+              "tag": "removal not decay",
               "definition": "The removal of coastal or submarine rock by boring and grazing organisms, including the transport of the debris.",
               "definitionCN": "钻孔与刮食生物把海岸或海底岩石移除，并包括碎屑的搬运。"
             },
@@ -3282,27 +3274,27 @@
       ],
       "branches": [
         {
-          "senses": "S1",
+          "senses": "01",
           "en": "THE LABEL: it names who acts, so the mechanism may be either force or reaction.",
           "cn": "标签：它命名谁在施力，因此机制可以是力，也可以是反应。"
         },
         {
-          "senses": "S2 · S6",
+          "senses": "02 · 06",
           "en": "PRESSURE: roots push and swell, both acting like small wedges.",
           "cn": "压力：根会推也会胀，都像小楔子。"
         },
         {
-          "senses": "S3 · S5",
+          "senses": "03 · 05",
           "en": "ACIDS: lichens and microbes dissolve minerals with what they release.",
           "cn": "酸：地衣与微生物用分泌物溶解矿物。"
         },
         {
-          "senses": "S4",
+          "senses": "04",
           "en": "DIGGING: animals break the crust and let water and air in.",
           "cn": "挖掘：动物破坏结皮，让水与空气进入。"
         },
         {
-          "senses": "S7 · S8",
+          "senses": "07 · 08",
           "en": "TWO SETTINGS: carved monuments lose their inscriptions, and coasts lose their rock.",
           "cn": "两个场景：雕石失去铭文，海岸失去岩石。"
         }
@@ -3462,15 +3454,7 @@
         "form": "soils"
       },
       {
-        "label": "第三人称单数（动词）",
-        "form": "soils"
-      },
-      {
         "label": "过去式",
-        "form": "soiled"
-      },
-      {
-        "label": "过去分词",
         "form": "soiled"
       },
       {
@@ -3649,14 +3633,14 @@
             {
               "word": "land",
               "ipa": "/lænd/",
-              "tag": "area, not material",
+              "tag": "area not material",
               "definition": "A measured area of ground owned or used; it is a surface unit, not the substance in it.",
               "definitionCN": "被拥有或使用的一块地面；它是个面积单位，而不是其中的物质。"
             },
             {
               "word": "mud",
               "ipa": "/mʌd/",
-              "tag": "wet, no structure",
+              "tag": "wet no structure",
               "definition": "Wet, sticky earth with no soil structure; it is what soil becomes when it is saturated.",
               "definitionCN": "湿而黏的土，没有土壤结构；它是土壤饱和后的样子。"
             }
@@ -3682,7 +3666,7 @@
             {
               "word": "contaminate",
               "ipa": "/kənˈtæmɪneɪt/",
-              "tag": "pollute, technical",
+              "tag": "pollute technical",
               "definition": "To introduce a harmful substance; soil as a verb usually means visible dirt or moral stain.",
               "definitionCN": "引入有害物质；动词 soil 通常指看得见的脏污或名誉污点。"
             },
@@ -3778,27 +3762,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S8",
+          "senses": "01 · 08",
           "en": "MATERIAL: the substance itself, and the named kinds it is sorted into.",
           "cn": "材质：物质本身，以及据此分出的各种类型。"
         },
         {
-          "senses": "S2 · S3",
+          "senses": "02 · 03",
           "en": "PLACE: ground becomes a nation, then a livelihood worked by hand.",
           "cn": "地方：地面变成国家，再变成用手劳作的生计。"
         },
         {
-          "senses": "S4 · S5",
+          "senses": "04 · 05",
           "en": "DIRT: one sense is the unclean matter, the other the act of putting it there.",
           "cn": "脏污：一个义项是不洁之物，另一个是把脏物弄上去的动作。"
         },
         {
-          "senses": "S6",
+          "senses": "06",
           "en": "REPUTATION: the same mark is made on a name rather than on cloth.",
           "cn": "名声：同样的痕迹被留在名字上，而不是布料上。"
         },
         {
-          "senses": "S7",
+          "senses": "07",
           "en": "METAPHOR: bad conditions become ground in which unwanted things grow.",
           "cn": "比喻：不良环境成了长出不受欢迎之事的土壤。"
         }
@@ -4125,7 +4109,7 @@
             {
               "word": "soil sample",
               "ipa": "/sɔɪl ˈsæmpl/",
-              "tag": "a portion, not a face",
+              "tag": "a portion not a face",
               "definition": "A small quantity taken for laboratory analysis; it carries no layered structure.",
               "definitionCN": "取来做实验室分析的小份材料；它不携带分层结构。"
             },
@@ -4144,7 +4128,7 @@
             {
               "word": "section",
               "ipa": "/ˈsekʃn/",
-              "tag": "cut surface, general",
+              "tag": "cut surface general",
               "definition": "A surface exposed by cutting through something; it is neutral and needs no layering.",
               "definitionCN": "切开某物后露出的面；中性词，不要求分层。"
             },
@@ -4254,27 +4238,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S2",
+          "senses": "01 · 02",
           "en": "FACE AND ORDER: the visible cut and the sequence it displays.",
           "cn": "壁面与次序：可见的切面，以及它所展示的排列。"
         },
         {
-          "senses": "S3",
+          "senses": "03",
           "en": "PAPER: the same information written down in a standard form.",
           "cn": "纸面：同样的信息按规范形式写下来。"
         },
         {
-          "senses": "S4",
+          "senses": "04",
           "en": "OBJECT: a face can be lifted whole and kept as a specimen.",
           "cn": "实物：壁面可以被整体取下并保存为标本。"
         },
         {
-          "senses": "S5 · S6",
+          "senses": "05 · 06",
           "en": "JUDGEMENT: how far layers have formed, and what class they place the soil in.",
           "cn": "判断：分层形成了多少，以及据此把土壤归入哪一类。"
         },
         {
-          "senses": "S7 · S8",
+          "senses": "07 · 08",
           "en": "BORROWED SETTINGS: archaeologists and engineers read the same wall for other questions.",
           "cn": "借用的场景：考古与工程人员读同一壁面，问的是别的问题。"
         }
@@ -4610,7 +4594,7 @@
             {
               "word": "soil layer",
               "ipa": "/sɔɪl ˈleɪə/",
-              "tag": "informal, general",
+              "tag": "informal general",
               "definition": "A neutral word for any band of soil; horizon implies it was formed by soil processes and can be named.",
               "definitionCN": "任何土带的中性说法；horizon 暗含它由成土过程形成、可以命名。"
             },
@@ -4746,27 +4730,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S7",
+          "senses": "01 · 07",
           "en": "BOUNDARIES: a layer is defined by the lines above and below it, and by how sharp those lines are.",
           "cn": "界线：一层由上下两条线界定，也由这两条线的清晰程度界定。"
         },
         {
-          "senses": "S2",
+          "senses": "02",
           "en": "LIFE AT THE TOP: roots and animals mix organic matter into the upper mineral band.",
           "cn": "顶部的生命：根系与动物把有机物混进上部矿质带。"
         },
         {
-          "senses": "S3 · S4",
+          "senses": "03 · 04",
           "en": "MOVEMENT: one band loses clay and iron, the band beneath stores them.",
           "cn": "迁移：一条带失去黏土与铁，下面那条把它们存起来。"
         },
         {
-          "senses": "S5",
+          "senses": "05",
           "en": "GEOLOGY: the lowest band is rock that soil processes have barely touched.",
           "cn": "地质：最下面那条是成土过程几乎未触及的岩石。"
         },
         {
-          "senses": "S6 · S8",
+          "senses": "06 · 08",
           "en": "BOOKENDS: litter above, and the diagnostic layer that gives the soil its name.",
           "cn": "两端：上方是枯落物，而诊断层则给这种土壤定名。"
         }
@@ -5134,7 +5118,7 @@
             {
               "word": "loam",
               "ipa": "/ləʊm/",
-              "tag": "a texture, not a layer",
+              "tag": "a texture not a layer",
               "definition": "A balanced mix of sand, silt and clay; a topsoil can be loam, but loam is not a position.",
               "definitionCN": "砂、粉砂与黏土的均衡混合；表土可以是壤土，但壤土不是位置。"
             },
@@ -5230,27 +5214,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S2",
+          "senses": "01 · 02",
           "en": "POSITION AND WORK: the layer at the top, and the slice a plough actually turns.",
           "cn": "位置与作业：位于顶部的那层，以及犁实际翻到的那一片。"
         },
         {
-          "senses": "S3",
+          "senses": "03",
           "en": "COMMERCE: good surface soil becomes a bagged product for gardens.",
           "cn": "买卖：优质表层土变成花园用的袋装商品。"
         },
         {
-          "senses": "S4 · S7",
+          "senses": "04 · 07",
           "en": "MOVING IT: stripped before building, put back after mining.",
           "cn": "搬运：施工前剥离，采矿后回填。"
         },
         {
-          "senses": "S5",
+          "senses": "05",
           "en": "LOSING IT: water and wind take the layer first.",
           "cn": "失去它：水与风最先带走这一层。"
         },
         {
-          "senses": "S6 · S8",
+          "senses": "06 · 08",
           "en": "LIFE AND CITY: the root zone, and the compacted urban version of the same layer.",
           "cn": "生命与城市：根区，以及同一层在城市里被压实后的样子。"
         }
@@ -5396,10 +5380,6 @@
       {
         "label": "对照术语（表土）",
         "form": "topsoil"
-      },
-      {
-        "label": "相关动词（深松）",
-        "form": "subsoil"
       },
       {
         "label": "相关名词（母质）",
@@ -5706,27 +5686,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S8",
+          "senses": "01 · 08",
           "en": "POSITION: the middle term between topsoil and parent material.",
           "cn": "位置：介于表土与母质之间的中间项。"
         },
         {
-          "senses": "S2 · S3",
+          "senses": "02 · 03",
           "en": "COMPOSITION: clay washed down, and life left behind.",
           "cn": "组成：黏土淋洗下来，生命被留在上面。"
         },
         {
-          "senses": "S4 · S5",
+          "senses": "04 · 05",
           "en": "ENGINEERING: strong enough to carry a building, dense enough to stop water.",
           "cn": "工程：强到能承重，紧到能阻水。"
         },
         {
-          "senses": "S6",
+          "senses": "06",
           "en": "EXCAVATION: any buried layer under the present surface.",
           "cn": "发掘：现今地表之下的任何埋藏层。"
         },
         {
-          "senses": "S7",
+          "senses": "07",
           "en": "MATERIAL: dug out and sold as fill.",
           "cn": "材料：被挖出并作为填方出售。"
         }
@@ -6190,27 +6170,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S5",
+          "senses": "01 · 05",
           "en": "ORIGIN: leaves and animals pass through fungi until only the stable residue remains.",
           "cn": "来源：叶子与动物经真菌作用，最后只剩下稳定残余。"
         },
         {
-          "senses": "S2",
+          "senses": "02",
           "en": "BEHAVIOUR: the crumb structure holds water and air at the same time.",
           "cn": "表现：团粒结构同时容纳水与空气。"
         },
         {
-          "senses": "S3",
+          "senses": "03",
           "en": "POSITION: where litter falls faster than it rots, humus forms its own band.",
           "cn": "位置：当枯落物落得快于腐解，腐殖质就自成一层。"
         },
         {
-          "senses": "S4",
+          "senses": "04",
           "en": "PRODUCT: a compost heap reaches the same look and feel.",
           "cn": "产品：堆肥堆最终也会达到同样的外观与手感。"
         },
         {
-          "senses": "S6 · S7 · S8",
+          "senses": "06 · 07 · 08",
           "en": "MEASUREMENT AND WATER: a fertility figure, extractable acids, and a brown stain in rivers.",
           "cn": "测定与水：一个肥力数值、可提取的酸，以及河流里的褐色。"
         }
@@ -6682,27 +6662,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S2",
+          "senses": "01 · 02",
           "en": "ORIGIN: it is defined by coming from life, including things still alive.",
           "cn": "来源：以来自生命来定义，包括仍然活着的部分。"
         },
         {
-          "senses": "S3 · S5",
+          "senses": "03 · 05",
           "en": "SIZE AND AGE: fragments you can see, and a dark residue you cannot.",
           "cn": "大小与年龄：看得见的碎片，与看不见的深色残余。"
         },
         {
-          "senses": "S4 · S6",
+          "senses": "04 · 06",
           "en": "MEASUREMENT: what passes a filter and what a soil test reports.",
           "cn": "计量：什么能通过滤膜，以及土壤检测报出什么。"
         },
         {
-          "senses": "S7",
+          "senses": "07",
           "en": "WATER: the same material becomes an oxygen demand figure.",
           "cn": "水：同一物质变成一项需氧量数值。"
         },
         {
-          "senses": "S8",
+          "senses": "08",
           "en": "DEEP TIME: buried and cooked into hydrocarbons.",
           "cn": "深时：被埋藏并热解成烃。"
         }
@@ -7038,7 +7018,7 @@
             {
               "word": "nutrition",
               "ipa": "/ˌnjuːˈtrɪʃn/",
-              "tag": "feeding, not moving",
+              "tag": "feeding not moving",
               "definition": "The taking in of food for growth and health; it describes feeding, not the return of elements.",
               "definitionCN": "为生长与健康摄入食物；描述取食，而非元素回归。"
             },
@@ -7071,7 +7051,7 @@
             {
               "word": "energy flow",
               "ipa": "/ˈenədʒi fləʊ/",
-              "tag": "one-way, not circular",
+              "tag": "one-way not circular",
               "definition": "The passage of energy through a food web, which cannot return because it is lost as heat.",
               "definitionCN": "能量在食物网中的传递，因以热的形式散失而无法返回。"
             },
@@ -7085,7 +7065,7 @@
             {
               "word": "nutrient budget",
               "ipa": "/ˈnjuːtriənt ˈbʌdʒɪt/",
-              "tag": "accounting, not circle",
+              "tag": "accounting not circle",
               "definition": "The measured inputs and outputs of a nutrient for a defined area, often used to test whether a cycle is closed.",
               "definitionCN": "某一划定区域内养分的实测输入与输出，常用来检验循环是否闭合。"
             }
@@ -7174,27 +7154,27 @@
       ],
       "branches": [
         {
-          "senses": "S1",
+          "senses": "01",
           "en": "THE IDEA: the same atoms come back rather than vanishing.",
           "cn": "核心观念：同样的原子会回来，而不是消失。"
         },
         {
-          "senses": "S2",
+          "senses": "02",
           "en": "SCALE: at planetary level rock and air join the loop.",
           "cn": "尺度：在行星层面，岩石与大气也加入这个环。"
         },
         {
-          "senses": "S3 · S5",
+          "senses": "03 · 05",
           "en": "INSIDE THE FOREST: uptake, litter fall and decay close the circle on site.",
           "cn": "森林内部：吸收、落叶与腐解在原地闭合这个圈。"
         },
         {
-          "senses": "S4 · S7 · S8",
+          "senses": "04 · 07 · 08",
           "en": "THE FARM: harvest opens the loop, losses widen it, and rotations partly close it again.",
           "cn": "农场：收获打开这个环，漏失扩大它，轮作又部分闭合它。"
         },
         {
-          "senses": "S6",
+          "senses": "06",
           "en": "WATER: the same loop becomes an overload and an algal bloom.",
           "cn": "水：同一个环变成超载与藻华。"
         }

@@ -50,10 +50,6 @@
         "form": "outbred"
       },
       {
-        "label": "过去分词",
-        "form": "outbred"
-      },
-      {
         "label": "现在分词",
         "form": "outbreeding"
       },
@@ -236,7 +232,7 @@
             {
               "word": "outcrossing",
               "ipa": "/ˌaʊtˈkrɒsɪŋ/",
-              "tag": "same act, plant term",
+              "tag": "same act plant term",
               "definition": "The crossing of two unrelated lines, the usual term in plant and animal breeding for what outbreeding names in general.",
               "definitionCN": "两个无亲缘品系的杂交，是动植物育种中对应 outbreeding 总称的常用具体说法。"
             },
@@ -372,27 +368,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S6",
+          "senses": "01 · 06",
           "en": "THE DEFINITION BY CONTRAST: outbreeding is what inbreeding is not, so the pair fixes the meaning.",
           "cn": "以对比定义：远缘繁殖就是近交的反面，两个词互为定义。"
         },
         {
-          "senses": "S2 · S3",
+          "senses": "02 · 03",
           "en": "MEASURABLE MIXING: genetics turns the pedigree move into a count of heterozygous loci.",
           "cn": "可测量的混合：遗传学把谱系上的动作变成杂合座位的计数。"
         },
         {
-          "senses": "S4",
+          "senses": "04",
           "en": "APPLIED CROSSING: plant breeders cross inbred lines and harvest the vigour.",
           "cn": "应用杂交：植物育种者杂交自交系，收获杂种优势。"
         },
         {
-          "senses": "S5 · S7",
+          "senses": "05 · 07",
           "en": "TWO OUTCOMES: bringing in outsiders can rescue a small population or break up co-adapted genes.",
           "cn": "两种结局：引入外来者既能挽救小群体，也可能拆散共适应的基因组合。"
         },
         {
-          "senses": "S8",
+          "senses": "08",
           "en": "WILD COUNTERPART: dispersal does the breeder's work without a breeder.",
           "cn": "野外的对应机制：扩散在没有育种者时完成了育种者的事。"
         }
@@ -709,7 +705,7 @@
             {
               "word": "specimen",
               "ipa": "/ˈspesɪmen/",
-              "tag": "same root, object",
+              "tag": "same root object",
               "definition": "A single sample used for study, from the same specere 'to look'. It names an object, not a process.",
               "definitionCN": "供研究用的单个样本，同出 specere「看」。它指实物，不指过程。"
             },
@@ -756,7 +752,7 @@
             {
               "word": "hybridization",
               "ipa": "/ˌhaɪbrɪdaɪˈzeɪʃn/",
-              "tag": "crossing, not splitting",
+              "tag": "crossing not splitting",
               "definition": "Crossing between distinct taxa, which can sometimes create a new species but is the opposite direction of gene flow.",
               "definitionCN": "不同类群间的杂交，有时能产生新物种，但基因流方向与分化相反。"
             }
@@ -845,27 +841,27 @@
       ],
       "branches": [
         {
-          "senses": "S1",
+          "senses": "01",
           "en": "THE WHOLE PROCESS: speciation is the name of the split itself, seen from start to finish.",
           "cn": "整个过程：speciation 就是分裂本身的名称，从开头看到结尾。"
         },
         {
-          "senses": "S2 · S3 · S4",
+          "senses": "02 · 03 · 04",
           "en": "WHERE IT HAPPENS: other land, same land and neighbouring land give the three geographical modes.",
           "cn": "发生在哪里：别的土地、同一土地、相邻土地给出三种地理模式。"
         },
         {
-          "senses": "S5",
+          "senses": "05",
           "en": "THE TEST: the split counts as complete only when interbreeding fails.",
           "cn": "判据：只有互交失败时，分裂才算完成。"
         },
         {
-          "senses": "S6",
+          "senses": "06",
           "en": "SUDDEN MODE: doubled chromosomes can finish the split within one generation.",
           "cn": "突变模式：染色体加倍能在一代之内完成分裂。"
         },
         {
-          "senses": "S7 · S8",
+          "senses": "07 · 08",
           "en": "MEASURED IN TIME: fossils give a rate per million years, cages give a rate per career.",
           "cn": "在时间中测量：化石给出每百万年的速率，笼子给出每人一生的速率。"
         }
@@ -1012,10 +1008,6 @@
     "forms": [
       {
         "label": "单数",
-        "form": "species"
-      },
-      {
-        "label": "复数",
         "form": "species"
       },
       {
@@ -1209,28 +1201,28 @@
             {
               "word": "specimen",
               "ipa": "/ˈspesɪmen/",
-              "tag": "same root, one sample",
+              "tag": "same root one sample",
               "definition": "A single individual or sample kept for study. It is one object, while species is a whole kind.",
               "definitionCN": "留作研究的单个个体或样本。它是一个物件，而 species 是整个种类。"
             },
             {
               "word": "specious",
               "ipa": "/ˈspiːʃəs/",
-              "tag": "same root, deceptive look",
+              "tag": "same root deceptive look",
               "definition": "Apparently good or true but actually not, from the 'appearance' sense of species. It is an adjective, not a rank.",
               "definitionCN": "看似良好或真实而实际不然，出自 species 的「外观」义。它是形容词，不是阶元。"
             },
             {
               "word": "specific",
               "ipa": "/spəˈsɪfɪk/",
-              "tag": "same root, particular",
+              "tag": "same root particular",
               "definition": "Clearly defined or peculiar to one thing, from specialis. It answers 'which one', while species answers 'what kind'.",
               "definitionCN": "明确界定的或某一事物特有的，出自 specialis。它回答「哪一个」，species 回答「哪一类」。"
             },
             {
               "word": "special",
               "ipa": "/ˈspeʃl/",
-              "tag": "same root, set apart",
+              "tag": "same root set apart",
               "definition": "Distinct from the ordinary, from specialis 'individual, particular'. The link to species is through 'a particular appearance'.",
               "definitionCN": "与寻常不同的，出自 specialis「个别的、特定的」。与 species 的联系经由「特定外观」这一层。"
             }
@@ -1352,27 +1344,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S2",
+          "senses": "01 · 02",
           "en": "THE UNIT AND ITS TEST: the rank is defined by interbreeding, so resemblance alone cannot make a species.",
           "cn": "单位与判据：这个阶元由互交定义，单凭相似不能构成物种。"
         },
         {
-          "senses": "S3",
+          "senses": "03",
           "en": "THE FORM: Latin left the plural unchanged, so number lives in the syntax.",
           "cn": "形式：拉丁语留下同形复数，单复数因此藏在句法里。"
         },
         {
-          "senses": "S4 · S5",
+          "senses": "04 · 05",
           "en": "THE OLD BREADTH: everyday 'a species of' and the logical species under a genus both keep the pre-biological meaning.",
           "cn": "古老的宽度：日常的「一种」与逻辑学中属下的种都保留了生物学之前的意义。"
         },
         {
-          "senses": "S6 · S7",
+          "senses": "06 · 07",
           "en": "THE COUNT AND THE MINERAL: the word serves as a countable unit in ecology and as a fixed kind in mineralogy.",
           "cn": "计数与矿物：这个词在生态学中是计数单位，在矿物学中是固定的种类。"
         },
         {
-          "senses": "S8 · S9",
+          "senses": "08 · 09",
           "en": "APPEARANCE AND ONTOLOGY: the oldest sense survives in theology, while philosophy asks what kind of thing a species is.",
           "cn": "外观与本体：最古老的义在神学中存留，哲学则追问物种是哪一类存在。"
         }
@@ -1515,10 +1507,6 @@
     "forms": [
       {
         "label": "单数",
-        "form": "subspecies"
-      },
-      {
-        "label": "复数",
         "form": "subspecies"
       },
       {
@@ -1855,27 +1843,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S2",
+          "senses": "01 · 02",
           "en": "THE RANK AND ITS ORIGIN: a step below species, usually produced by geography.",
           "cn": "阶元与来源：种下的一级，通常由地理分隔产生。"
         },
         {
-          "senses": "S3 · S4 · S5",
+          "senses": "03 · 04 · 05",
           "en": "THE NAME: three words, a code of rules, and a plural that never changes form.",
           "cn": "名称：三个词、一套规则、一个永不改变形式的复数。"
         },
         {
-          "senses": "S6",
+          "senses": "06",
           "en": "BOTANICAL ORDER: variety and forma sit still lower, so the ranks form a ladder.",
           "cn": "植物学的次序：变种与变型还在更低处，阶元因此形成梯子。"
         },
         {
-          "senses": "S7 · S8",
+          "senses": "07 · 08",
           "en": "APPLIED USES: conservation acts on the named unit, microbiology uses it for strains.",
           "cn": "应用：保护工作作用于有名称的单元，微生物学用它标记菌株。"
         },
         {
-          "senses": "S9",
+          "senses": "09",
           "en": "THE JUDGEMENT: how much difference is enough is decided, not measured.",
           "cn": "判断：差异要多大才算够，是决定的，不是测出来的。"
         }
@@ -2209,7 +2197,7 @@
             {
               "word": "classification",
               "ipa": "/ˌklæsɪfɪˈkeɪʃn/",
-              "tag": "the act, not the scheme",
+              "tag": "the act not the scheme",
               "definition": "The act or result of sorting, without the ordered whole. A classification system is the scheme that makes the act repeatable.",
               "definitionCN": "归类的动作或结果，不含有序整体。分类系统则是使这一动作可重复的方案。"
             },
@@ -2254,16 +2242,9 @@
               "definitionCN": "规则与名称本身，而非分组逻辑。系统可以健全，而名称仍在修订。"
             },
             {
-              "word": "taxonomy",
-              "ipa": "/təˈkɒnəmi/",
-              "tag": "also a metaphor",
-              "definition": "Outside biology the word names any scheme of categories, which makes it a near synonym of classification system in general use.",
-              "definitionCN": "在生物学之外，这个词泛指任何类别方案，因此在日常用法中近乎 classification system 的同义词。"
-            },
-            {
               "word": "typology",
               "ipa": "/taɪˈpɒlədʒi/",
-              "tag": "types, not ranks",
+              "tag": "types not ranks",
               "definition": "A scheme built from ideal types rather than from ranked groups; it sorts by pattern rather than by descent.",
               "definitionCN": "由理想类型而非分级群体构成的方案；按模式而非按谱系归类。"
             }
@@ -2352,27 +2333,27 @@
       ],
       "branches": [
         {
-          "senses": "S1",
+          "senses": "01",
           "en": "THE GENERAL SCHEME: categories, rules and criteria that make sorting repeatable.",
           "cn": "通用方案：使归类可重复的类别、规则与判据。"
         },
         {
-          "senses": "S2 · S3",
+          "senses": "02 · 03",
           "en": "THE TWO CLASSIC CASES: living things get a ranked ladder, books get a walkable address.",
           "cn": "两个经典情形：生物得到分级梯子，图书得到可以走到的地址。"
         },
         {
-          "senses": "S4 · S8",
+          "senses": "04 · 08",
           "en": "CONTROL AND COMMERCE: archives need closed labels, trade needs categories agreed across borders.",
           "cn": "控制与商业：档案需要封闭标签，贸易需要跨国同意的类别。"
         },
         {
-          "senses": "S5",
+          "senses": "05",
           "en": "PREDICTION: the periodic table shows that a good system says where to look next.",
           "cn": "预测：周期表表明好系统会指出下一步该去哪里找。"
         },
         {
-          "senses": "S6 · S7 · S9",
+          "senses": "06 · 07 · 09",
           "en": "WHEN THE SYSTEM MEETS PEOPLE: social categories are contested, machine labels limit models, and field use decides whether a scheme survives.",
           "cn": "系统遇到人时：社会类别引发争论，机器标签限制模型，野外使用决定方案能否存活。"
         }
@@ -2778,7 +2759,7 @@
             {
               "word": "typology",
               "ipa": "/taɪˈpɒlədʒi/",
-              "tag": "types, not rules",
+              "tag": "types not rules",
               "definition": "A scheme of ideal types rather than ranks fixed by a code; it sorts by pattern and is often qualitative.",
               "definitionCN": "以理想类型而非法规固定阶元构成的方案；按模式归类，常为定性研究。"
             }
@@ -2867,27 +2848,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S3",
+          "senses": "01 · 03",
           "en": "THE SCIENCE AND ITS LADDER: naming and ranking organisms inside one nested hierarchy.",
           "cn": "学科与其梯子：在一个嵌套层级内为生物命名并分级。"
         },
         {
-          "senses": "S2 · S8",
+          "senses": "02 · 08",
           "en": "THE GENERAL SCHEME: ordered categories travel outside biology into documents and websites.",
           "cn": "通用方案：有序类别走出生物学，进入文件与网站。"
         },
         {
-          "senses": "S4 · S5",
+          "senses": "04 · 05",
           "en": "THE WORK: alpha taxonomy describes new units, numerical taxonomy measures them.",
           "cn": "工作：甲级分类学描述新单位，数值分类学测量它们。"
         },
         {
-          "senses": "S6",
+          "senses": "06",
           "en": "THE DEEP EVIDENCE: molecular data replaced shape with sequence as the source of kinship.",
           "cn": "深层证据：分子数据以序列取代外形，成为亲缘关系的来源。"
         },
         {
-          "senses": "S7 · S9",
+          "senses": "07 · 09",
           "en": "THE WIDER LIFE: skills can be ranked, and names carry recognition and power.",
           "cn": "更广的生命：技能也能分级，而名称带来承认与权力。"
         }
@@ -3376,27 +3357,27 @@
       ],
       "branches": [
         {
-          "senses": "S1",
+          "senses": "01",
           "en": "THE SCIENCE ITSELF: the adjective's plainest job is to mark work as belonging to taxonomy.",
           "cn": "学科本身：这个形容词最基本的用途是把工作标记为属于分类学。"
         },
         {
-          "senses": "S2 · S3",
+          "senses": "02 · 03",
           "en": "THE SKELETON AND THE LABEL: rank and name are the two formal handles of any group.",
           "cn": "骨架与标签：阶元与名称是任何类群的两个正式把手。"
         },
         {
-          "senses": "S4 · S5",
+          "senses": "04 · 05",
           "en": "THE EVIDENCE AND THE RESULT: a character justifies a group, and the group is what gets counted.",
           "cn": "证据与结果：性状为类群提供依据，类群则是被计数的对象。"
         },
         {
-          "senses": "S6 · S8",
+          "senses": "06 · 08",
           "en": "THE PUBLIC ACT: revision reopens placements, authority records who fixed a name.",
           "cn": "公开行为：修订重新打开安置，权威记录谁固定了名称。"
         },
         {
-          "senses": "S7 · S9",
+          "senses": "07 · 09",
           "en": "THE LOOSE USE: diversity at higher ranks, and any sorting outside biology.",
           "cn": "宽松用法：较高级类群的多样性，以及生物学之外的任何分类。"
         }
@@ -3872,27 +3853,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S2",
+          "senses": "01 · 02",
           "en": "THE CORE ACT: measure, compare and publish the first description.",
           "cn": "核心动作：测量、比较并发表首次描述。"
         },
         {
-          "senses": "S3 · S4",
+          "senses": "03 · 04",
           "en": "THE KEEPERS: revision and curation keep the system from drifting.",
           "cn": "守护者：修订与管理使系统不致漂移。"
         },
         {
-          "senses": "S5",
+          "senses": "05",
           "en": "THE SOURCE: field notes and specimens supply what the name will rest on.",
           "cn": "源头：野外记录与标本提供名称将要依赖的东西。"
         },
         {
-          "senses": "S6",
+          "senses": "06",
           "en": "THE NEW TOOLS: sequences test groupings that shape alone could not settle.",
           "cn": "新工具：序列检验仅凭外形无法定论的类群。"
         },
         {
-          "senses": "S7 · S8 · S9",
+          "senses": "07 · 08 · 09",
           "en": "THE RECORD AND THE WORKFORCE: the author's name becomes part of the name, and amateurs and parataxonomists extend the reach.",
           "cn": "记录与人力：作者姓名成为名称的一部分，爱好者与副分类学家扩大了覆盖面。"
         }
@@ -4219,7 +4200,7 @@
             {
               "word": "genius",
               "ipa": "/ˈdʒiːniəs/",
-              "tag": "same deeper root, different noun",
+              "tag": "same deeper root different noun",
               "definition": "Inborn talent or a guiding spirit, from Latin genius 'attendant spirit', tied to gignere. It shares the root but is not the taxonomic rank.",
               "definitionCN": "天生的才能或守护神，来自拉丁 genius「守护灵」，与 gignere 相关。它共用词根，但不是分类阶元。"
             },
@@ -4240,7 +4221,7 @@
             {
               "word": "genitive",
               "ipa": "/ˈdʒenɪtɪv/",
-              "tag": "grammar, different sense",
+              "tag": "grammar different sense",
               "definition": "The case of possession, from the same Latin stock but naming a grammatical function rather than a rank.",
               "definitionCN": "表示所属的格，出自同一拉丁词源，却指语法功能而非分类阶元。"
             }
@@ -4362,27 +4343,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S2",
+          "senses": "01 · 02",
           "en": "THE RANK AND ITS ADDRESS: the genus is both a level and the street half of a binomial.",
           "cn": "阶元与地址：属既是一个层级，也是双名法地址中的街道部分。"
         },
         {
-          "senses": "S3 · S4",
+          "senses": "03 · 04",
           "en": "LOGIC AND EVERYDAY USE: containment and 'a kind of' keep the pre-biological meaning alive.",
           "cn": "逻辑与日常：包含关系与「一类」使生物学之前的意义继续存活。"
         },
         {
-          "senses": "S5",
+          "senses": "05",
           "en": "THE FORM: the Latin plural genera is obligatory in technical prose.",
           "cn": "形式：技术文献中必须使用拉丁复数 genera。"
         },
         {
-          "senses": "S6 · S7",
+          "senses": "06 · 07",
           "en": "ANCHOR AND EDGE CASE: the type genus fixes a family name, and a monotypic genus adds no information.",
           "cn": "锚点与边界情形：模式属固定科名，单型属则不增加信息。"
         },
         {
-          "senses": "S8",
+          "senses": "08",
           "en": "THE DERIVED DRIFT: generic moved from 'of a genus' to 'shared by a class' to 'unbranded'.",
           "cn": "派生漂移：generic 从「属的」变为「整类共有的」，再变为「无品牌的」。"
         }
@@ -4730,14 +4711,14 @@
             {
               "word": "familiar",
               "ipa": "/fəˈmɪliə/",
-              "tag": "same root, adjective",
+              "tag": "same root adjective",
               "definition": "Well known or close, from Latin familiaris 'of a household'. It is the adjective of family, not a second noun.",
               "definitionCN": "熟悉或亲近的，来自拉丁 familiaris「家户的」。它是 family 的形容词，不是另一个名词。"
             },
             {
               "word": "familial",
               "ipa": "/fəˈmɪliəl/",
-              "tag": "same root, clinical adjective",
+              "tag": "same root clinical adjective",
               "definition": "Relating to family, used especially in medicine and genetics, as in familial traits. It is more technical than familiar.",
               "definitionCN": "与家庭或家族有关的，尤用于医学与遗传学，如家族性性状。比 familiar 更技术化。"
             },
@@ -4873,27 +4854,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S9",
+          "senses": "01 · 09",
           "en": "THE HUMAN HOUSEHOLD: blood kin and chosen families that share care rather than descent.",
           "cn": "人的家户：血亲与以照料而非血统相联的自主家庭。"
         },
         {
-          "senses": "S2 · S3",
+          "senses": "02 · 03",
           "en": "THE TAXONOMIC RANK: a family groups genera and announces itself through -aceae or -idae.",
           "cn": "生物阶元：科聚合若干属，并以 -aceae 或 -idae 自我宣告。"
         },
         {
-          "senses": "S4 · S5",
+          "senses": "04 · 05",
           "en": "DESCENT IN LANGUAGE AND CRAFT: daughter languages and dynasties both use the household tree.",
           "cn": "语言与手艺中的传承：派生语言与世家都使用家户树。"
         },
         {
-          "senses": "S6",
+          "senses": "06",
           "en": "THE MEASURABLE FORM: nuclear and extended family give the household a shape that surveys can count.",
           "cn": "可测量的形态：核心与扩展家庭给家户一个调查可以计数的形状。"
         },
         {
-          "senses": "S7 · S8",
+          "senses": "07 · 08",
           "en": "ABSTRACT AND COMMERCIAL SETS: mathematical families and product families share a definition rather than blood.",
           "cn": "抽象与商业集合：数学族与产品族共享定义而非血缘。"
         }
@@ -5055,24 +5036,12 @@
         "form": "ordered"
       },
       {
-        "label": "过去分词",
-        "form": "ordered"
-      },
-      {
         "label": "现在分词",
         "form": "ordering"
       },
       {
-        "label": "复数（名词）",
-        "form": "orders"
-      },
-      {
         "label": "形容词（有序的）",
         "form": "orderly"
-      },
-      {
-        "label": "名词（排序；命令）",
-        "form": "ordering"
       }
     ],
     "derivatives": [
@@ -5269,28 +5238,28 @@
             {
               "word": "ordinal",
               "ipa": "/ˈɔːdɪnl/",
-              "tag": "same root, number word",
+              "tag": "same root number word",
               "definition": "A number that marks position in a series, such as first or tenth, from ordinalis. It names a place, not a command.",
               "definitionCN": "标记序列位置的数词，如第一、第十，出自 ordinalis。它指位置，不指命令。"
             },
             {
               "word": "ordinary",
               "ipa": "/ˈɔːdnri/",
-              "tag": "same root, different drift",
+              "tag": "same root different drift",
               "definition": "Common or usual, from ordinarius 'according to order'. The sense drifted from 'regular' to 'unremarkable'.",
               "definitionCN": "普通、通常的，出自 ordinarius「按次序的」。词义从「合规矩」漂移到「不出奇」。"
             },
             {
               "word": "ordinance",
               "ipa": "/ˈɔːdɪnəns/",
-              "tag": "same root, legal",
+              "tag": "same root legal",
               "definition": "A decree or regulation, from ordinare 'to arrange'. It is a law that arranges conduct, not a sequence.",
               "definitionCN": "法令或条例，出自 ordinare「安排」。它是安排行为的法规，不是顺序。"
             },
             {
               "word": "ordain",
               "ipa": "/ɔːˈdeɪn/",
-              "tag": "same root, religious",
+              "tag": "same root religious",
               "definition": "To confer holy orders or to decree, from ordinare. It names an authoritative act, not an arrangement.",
               "definitionCN": "授予圣职或颁布，出自 ordinare。它指权威性的行为，而非排列。"
             }
@@ -5412,27 +5381,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S9 · S10",
+          "senses": "01 · 09 · 10",
           "en": "THE ROW ITSELF: a sequence of items, a factor of ten, or a fixed arrangement of columns.",
           "cn": "一排本身：一串物件、十倍的级差，或柱子的固定搭配。"
         },
         {
-          "senses": "S2 · S3",
+          "senses": "02 · 03",
           "en": "THE INSTRUCTION: a command and a purchase both tell someone what to arrange.",
           "cn": "指示：命令与订单都在告诉别人该安排什么。"
         },
         {
-          "senses": "S4 · S7",
+          "senses": "04 · 07",
           "en": "THE RANK: an order in taxonomy and an honour both place a member on a graded ladder.",
           "cn": "等级：生物学的目与勋位都把成员放在分级的梯子上。"
         },
         {
-          "senses": "S5 · S8",
+          "senses": "05 · 08",
           "en": "THE RULE: social order and a point of order both concern whether rules are being kept.",
           "cn": "规则：社会秩序与程序问题都关心规则是否被遵守。"
         },
         {
-          "senses": "S6",
+          "senses": "06",
           "en": "THE COMMUNITY: a religious order is a body held together by one rule.",
           "cn": "团体：修会是由一条会规维系的群体。"
         }
@@ -5594,15 +5563,7 @@
         "form": "classes"
       },
       {
-        "label": "三单（动词）",
-        "form": "classes"
-      },
-      {
         "label": "过去式",
-        "form": "classed"
-      },
-      {
-        "label": "过去分词",
         "form": "classed"
       },
       {
@@ -5812,21 +5773,21 @@
             {
               "word": "classic",
               "ipa": "/ˈklæsɪk/",
-              "tag": "same root, judgement",
+              "tag": "same root judgement",
               "definition": "Of the highest standard, from classicus 'of the first class'. It grades quality rather than grouping students.",
               "definitionCN": "最高水准的，出自 classicus「头等的」。它评定品质，而不是把学生分组。"
             },
             {
               "word": "classify",
               "ipa": "/ˈklæsɪfaɪ/",
-              "tag": "same root, verb",
+              "tag": "same root verb",
               "definition": "To sort into classes, from classis plus facere. It names the act that produces a class.",
               "definitionCN": "归入类别，来自 classis 加 facere。它指产生类别的动作。"
             },
             {
               "word": "classy",
               "ipa": "/ˈklɑːsi/",
-              "tag": "same root, informal",
+              "tag": "same root informal",
               "definition": "Stylish or elegant, a colloquial descendant of class in its 'high grade' sense.",
               "definitionCN": "有格调、优雅的，是 class「高级」义的口语派生。"
             },
@@ -5955,27 +5916,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S2",
+          "senses": "01 · 02",
           "en": "THE SCHOOL DIVISION: the group and the hour are two faces of one word.",
           "cn": "学校里的划分：人群与课时是同一个词的两面。"
         },
         {
-          "senses": "S3",
+          "senses": "03",
           "en": "THE TAXONOMIC CUT: class is a division of a phylum, above the order.",
           "cn": "分类学的一刀：纲是门的一个划分，位于目之上。"
         },
         {
-          "senses": "S4 · S6",
+          "senses": "04 · 06",
           "en": "THE SOCIAL LADDER: class as a stratum, and class as a grade of comfort.",
           "cn": "社会的梯子：阶级作为一个层，class 也指舒适等级。"
         },
         {
-          "senses": "S5 · S7 · S8 · S9",
+          "senses": "05 · 07 · 08 · 09",
           "en": "FORMAL BOXES: categories, equivalence classes, programming templates and statistical intervals are all the same cut made precise.",
           "cn": "形式化的盒子：类别、等价类、编程模板与统计组距都是同一刀被精确化。"
         },
         {
-          "senses": "S10",
+          "senses": "10",
           "en": "THE ACT: to class something is to decide which box it goes into.",
           "cn": "动作：把某物归类，就是决定它进哪只盒子。"
         }
@@ -6455,27 +6416,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S2",
+          "senses": "01 · 02",
           "en": "THE RANK AND ITS TEST: a phylum is a great stock defined by architecture, not by breeding.",
           "cn": "阶元与判据：门是由构造而非繁殖界定的一支大种系。"
         },
         {
-          "senses": "S3 · S4",
+          "senses": "03 · 04",
           "en": "THE FORM: botanists say division for the same level, and the plural is phyla.",
           "cn": "形式：植物学家把同一层级称作部，复数则是 phyla。"
         },
         {
-          "senses": "S5",
+          "senses": "05",
           "en": "THE TEACHING SHORTLIST: a few familiar phyla stand for the whole diversity.",
           "cn": "教学短名单：少数熟悉的门代表全部多样性。"
         },
         {
-          "senses": "S6 · S7",
+          "senses": "06 · 07",
           "en": "THE REVISION: sequences reopen boundaries and reveal branches before anatomy is known.",
           "cn": "修订：序列重新打开界线，并在解剖结构已知之前揭示分支。"
         },
         {
-          "senses": "S8",
+          "senses": "08",
           "en": "NO FIXED ENDING: phylum names must be learned one by one because no code fixes their form.",
           "cn": "没有固定词尾：门名只能逐个记诵，因为法规不统一其形式。"
         }
@@ -6968,27 +6929,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S5",
+          "senses": "01 · 05",
           "en": "THE POLITICAL SHAPE: a bordered realm under one rule, kept even when the ruler is removed.",
           "cn": "政治形状：一个在一个统治之下、有边界的领域，即使去掉统治者仍保留。"
         },
         {
-          "senses": "S2 · S6 · S9",
+          "senses": "02 · 06 · 09",
           "en": "THE RANK AND ITS POPULAR LIFE: the widest biological container, vivid enough to survive technical change.",
           "cn": "阶元与它的通俗生命：最宽的生命容器，生动到能熬过技术变更。"
         },
         {
-          "senses": "S3",
+          "senses": "03",
           "en": "THE FIVE KINGDOMS: the twentieth-century standard arrangement.",
           "cn": "五界：20 世纪的标准安排。"
         },
         {
-          "senses": "S4",
+          "senses": "04",
           "en": "THE DEMOTION: molecular data placed domains above kingdoms.",
           "cn": "降级：分子数据把域放到界之上。"
         },
         {
-          "senses": "S7 · S8",
+          "senses": "07 · 08",
           "en": "THE OLDER REALMS: divine rule and a community of ends use the same image without a monarch.",
           "cn": "更古老的领域：神的统治与目的共同体使用同一意象而不设君主。"
         }
@@ -7334,28 +7295,28 @@
             {
               "word": "dominate",
               "ipa": "/ˈdɒmɪneɪt/",
-              "tag": "same root, verb",
+              "tag": "same root verb",
               "definition": "To control or tower over, from dominari 'to rule'. It names the act of holding a domain.",
               "definitionCN": "支配或高耸于，来自 dominari「统治」。它指持有领域的动作。"
             },
             {
               "word": "dominion",
               "ipa": "/dəˈmɪniən/",
-              "tag": "same root, territory",
+              "tag": "same root territory",
               "definition": "Sovereignty or a ruled territory, from dominium. It is the political twin of domain.",
               "definitionCN": "主权或被统治的领土，来自 dominium。它是 domain 的政治同义词。"
             },
             {
               "word": "domino",
               "ipa": "/ˈdɒmɪnəʊ/",
-              "tag": "same root, game piece",
+              "tag": "same root game piece",
               "definition": "A small tile used in a game, from dominus by way of the phrase 'lord' used in old game calls; unrelated in meaning.",
               "definitionCN": "游戏用的小牌，经旧时游戏呼语中的「主人」一词来自 dominus；意义上无关。"
             },
             {
               "word": "demesne",
               "ipa": "/dɪˈmeɪn/",
-              "tag": "same root, land",
+              "tag": "same root land",
               "definition": "A lord's own land kept for his use, from dominicum. It is the concrete estate behind the abstract domain.",
               "definitionCN": "领主保留自用的土地，出自 dominicum。它是抽象 domain 背后的具体产业。"
             }
@@ -7388,7 +7349,7 @@
             {
               "word": "territory",
               "ipa": "/ˈterətri/",
-              "tag": "land, including animal space",
+              "tag": "land including animal space",
               "definition": "A defined area, often one defended by an animal or claimed by a state; it stresses space more than authority.",
               "definitionCN": "被界定的区域，常由动物防卫或由国家主张；比 domain 更强调空间而非权威。"
             }
@@ -7477,27 +7438,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S6",
+          "senses": "01 · 06",
           "en": "THE OLD CORE: a master's house and a lord's land are the concrete origin of every later sense.",
           "cn": "古老核心：主人的家宅与领主的土地，是其后各义的具体源头。"
         },
         {
-          "senses": "S2 · S9",
+          "senses": "02 · 09",
           "en": "THE WIDEST AND THE FORMAL: biology's top rank and logic's universe of discourse are both total ranges.",
           "cn": "最宽与最形式化：生物学的最高阶元与逻辑学的论域都是总体范围。"
         },
         {
-          "senses": "S3 · S8",
+          "senses": "03 · 08",
           "en": "RULED CORNERS: a domain name and a security domain are network territory with one administrator.",
           "cn": "被管辖的角落：域名与安全域都是有一个管理者的网络领土。"
         },
         {
-          "senses": "S4 · S7",
+          "senses": "04 · 07",
           "en": "SELF-GOVERNING PARTS: a function acts only on its domain, and a protein domain folds on its own.",
           "cn": "自治的部分：函数只在定义域内起作用，蛋白质结构域自行折叠。"
         },
         {
-          "senses": "S5",
+          "senses": "05",
           "en": "THE ULTIMATE CLAIM: eminent domain is the state's lordship overriding a private owner.",
           "cn": "终极主张：国家征用权是国家领主权压过私人所有者。"
         }

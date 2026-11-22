@@ -6,7 +6,7 @@
     "definition_zh": "食虫动物；以昆虫为主食的动物（也指食虫植物）",
     "definition_en": "an animal or plant that feeds chiefly on insects",
     "core_image": "一只小兽扒开朽木，专挑里面的虫子吃",
-    "scene": "A shrew is a true insectivore that hunts beetles and grubs in the leaf litter.",
+    "scene": "这里指「食虫动物」。 A shrew is a true insectivore that hunts beetles and grubs in the leaf litter.",
     "sceneCN": "这里 insectivore 是「食虫动物」（第 1 个义项：以昆虫为主食的动物）；句意：鼩鼱是真正的食虫动物，在落叶层中捕食甲虫和蛴螬。",
     "pos": [
       {
@@ -43,15 +43,15 @@
       },
       {
         "label": "形容词",
-        "form": "insectivorous（食虫的）"
+        "form": "insectivorous"
       },
       {
         "label": "名词（习性）",
-        "form": "insectivory（食虫习性）"
+        "form": "insectivory"
       },
       {
         "label": "构词",
-        "form": "insect + -i- + -vore（昆虫 + 吞食者）"
+        "form": "insect + -i- + -vore +"
       }
     ],
     "derivatives": [
@@ -211,21 +211,21 @@
             {
               "word": "insectivorous",
               "ipa": "/ɪnˌsektɪˈvɔːrəs/",
-              "tag": "adjective, not the noun",
+              "tag": "adjective not the noun",
               "definition": "Describes an animal or plant with that diet; insectivore is the creature itself.",
               "definitionCN": "形容词，描述具有这种食性的动物或植物；insectivore 指生物本身。"
             },
             {
               "word": "insectivory",
               "ipa": "/ˌɪnsekˈtɪvəri/",
-              "tag": "the habit, not the creature",
+              "tag": "the habit not the creature",
               "definition": "Names the habit or diet itself, so it cannot stand for a shrew or a sundew.",
               "definitionCN": "指食虫的习性饮食本身，不能用来指鼩鼱或茅膏菜这类生物。"
             },
             {
               "word": "insect",
               "ipa": "/ˈɪnsekt/",
-              "tag": "the food, not the eater",
+              "tag": "the food not the eater",
               "definition": "The prey; it carries no information about who eats it.",
               "definitionCN": "指被捕食的昆虫，本身不包含「谁来吃」的信息。"
             }
@@ -237,7 +237,7 @@
             {
               "word": "detritivore",
               "ipa": "/dɪˈtraɪtɪvɔː(r)/",
-              "tag": "dead matter, not insects",
+              "tag": "dead matter not insects",
               "definition": "An animal that feeds on detritus, the dead and decaying fragments of organisms; the food differs, the eating pattern matches.",
               "definitionCN": "指以腐屑为食的动物，腐屑是生物死亡后破碎的残余；食物不同，但取食模式相同。"
             },
@@ -340,27 +340,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S2",
+          "senses": "01 · 02",
           "en": "THE CORE: a diet of insects defines the animal, and taxonomy once borrowed that definition as an order name.",
           "cn": "核心：昆虫食性定义了这类动物，分类学曾把这一界定借去当作目名。"
         },
         {
-          "senses": "S3 · S4",
+          "senses": "03 · 04",
           "en": "OTHER EATERS: plants and non-mammalian predators join the category whenever insects are their main food.",
           "cn": "其他取食者：只要昆虫是主要食物，植物和非哺乳类捕食者也能进入这一类别。"
         },
         {
-          "senses": "S5",
+          "senses": "05",
           "en": "THE ROLE: ecology ignores species and groups anything that eats insects into one functional guild.",
           "cn": "角色：生态学不看物种，只把所有吃昆虫的生物归入同一个功能群。"
         },
         {
-          "senses": "S6",
+          "senses": "06",
           "en": "THE HUMAN: people who eat insects are described by the same pattern, though a different technical term is usual.",
           "cn": "人类：吃昆虫的人也能套用同一模式，只是通常使用另一个专业术语。"
         },
         {
-          "senses": "S7 · S8",
+          "senses": "07 · 08",
           "en": "APPLIED VIEWS: agriculture sees a pest controller, paleontology sees a diet reconstructed from teeth.",
           "cn": "应用视角：农业看到的是害虫控制者，古生物学看到的是从牙齿重建出来的食性。"
         }
@@ -470,7 +470,7 @@
     "definition_zh": "食虫的；以昆虫为食的",
     "definition_en": "feeding chiefly on insects",
     "core_image": "一片叶子合拢，把落脚的苍蝇裹进消化液",
-    "scene": "The sundew is an insectivorous plant that digests flies on its sticky leaves.",
+    "scene": "这里指「食虫的」。 The sundew is an insectivorous plant that digests flies on its sticky leaves.",
     "sceneCN": "这里 insectivorous 是「食虫的」（第 2 个义项：植物捕食并消化昆虫）；句意：茅膏菜是食虫植物，用黏性叶片消化苍蝇。",
     "pos": [
       {
@@ -511,11 +511,11 @@
       },
       {
         "label": "名词（生物）",
-        "form": "insectivore（食虫动物）"
+        "form": "insectivore"
       },
       {
         "label": "名词（习性）",
-        "form": "insectivory（食虫性）"
+        "form": "insectivory"
       }
     ],
     "derivatives": [
@@ -675,7 +675,7 @@
             {
               "word": "insectivore",
               "ipa": "/ɪnˈsektɪvɔː(r)/",
-              "tag": "noun, not adjective",
+              "tag": "noun not adjective",
               "definition": "The creature itself; insectivorous is the form that modifies bird, plant or dentition.",
               "definitionCN": "指生物本身；修饰 bird、plant、dentition 时要用 insectivorous。"
             },
@@ -701,7 +701,7 @@
             {
               "word": "carnivorous",
               "ipa": "/kɑːˈnɪvərəs/",
-              "tag": "meat, including insects",
+              "tag": "meat including insects",
               "definition": "Feeding on animal flesh; insects count as animal prey, so insectivorous is a narrow kind of carnivorous.",
               "definitionCN": "以动物肉体为食；昆虫也算动物性猎物，因此食虫是食肉的一种窄义。"
             },
@@ -804,27 +804,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S3",
+          "senses": "01 · 03",
           "en": "THE CORE: the adjective turns the noun insectivore into a property, whether the eater is an animal or an order member.",
           "cn": "核心：形容词把名词 insectivore 变成一种属性，无论取食者是动物还是旧目成员。"
         },
         {
-          "senses": "S2",
+          "senses": "02",
           "en": "THE PLANT: botany applies the same property to a photosynthesizing organism that traps prey.",
           "cn": "植物：植物学把同一属性用在一种仍进行光合作用、却能捕捉猎物的生物上。"
         },
         {
-          "senses": "S4 · S7",
+          "senses": "04 · 07",
           "en": "BODY AND LEVEL: the diet can be read from teeth or placed as a trophic position.",
           "cn": "身体与层级：食性既可以从牙齿读出，也能被放进营养级的位置。"
         },
         {
-          "senses": "S5 · S6",
+          "senses": "05 · 06",
           "en": "ROLE AND BENEFIT: ecology turns the diet into a guild label, and agriculture turns it into a service.",
           "cn": "角色与效益：生态学把食性变成功能群标签，农业把它变成一项服务。"
         },
         {
-          "senses": "S8",
+          "senses": "08",
           "en": "HUMANS: the same adjective can describe a cultural diet rather than a biological one.",
           "cn": "人类：同一形容词可以描述文化性的饮食，而不是生物学食性。"
         }
@@ -934,7 +934,7 @@
     "definition_zh": "食腐动物；拾荒者；清除剂",
     "definition_en": "an animal or person that feeds on what others have left behind, especially dead matter",
     "core_image": "一只秃鹫落在尸体旁，把别人不要的剩肉吃干净",
-    "scene": "Vultures act as scavengers, stripping a carcass before disease can spread.",
+    "scene": "这里指「食腐动物」。 Vultures act as scavengers, stripping a carcass before disease can spread.",
     "sceneCN": "这里 scavenger 是「食腐动物」（第 1 个义项：以动物尸体为食的动物）；句意：秃鹫充当食腐动物，在疾病扩散之前把尸体清理干净。",
     "pos": [
       {
@@ -971,15 +971,11 @@
       },
       {
         "label": "动词",
-        "form": "scavenge（食腐；拾荒；清除）"
+        "form": "scavenge"
       },
       {
         "label": "现在分词",
-        "form": "scavenging（食腐；拾荒）"
-      },
-      {
-        "label": "名词（行为）",
-        "form": "scavenging（清除；食腐行为）"
+        "form": "scavenging"
       }
     ],
     "derivatives": [
@@ -1139,7 +1135,7 @@
             {
               "word": "scavenge",
               "ipa": "/ˈskævɪndʒ/",
-              "tag": "verb, not noun",
+              "tag": "verb not noun",
               "definition": "The action of feeding on remains or searching waste; scavenger is the one that does it.",
               "definitionCN": "指食腐或翻找废弃物的动作；scavenger 指实施这一动作的生物。"
             },
@@ -1172,7 +1168,7 @@
             {
               "word": "decomposer",
               "ipa": "/ˌdiːkəmˈpəʊzə(r)/",
-              "tag": "microbes, not animals",
+              "tag": "microbes not animals",
               "definition": "A bacterium or fungus that breaks matter down chemically; a scavenger eats and digests, a decomposer mineralizes.",
               "definitionCN": "通过化学方式分解物质的细菌或真菌；食腐者取食消化，分解者则把物质矿化。"
             },
@@ -1268,27 +1264,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S2",
+          "senses": "01 · 02",
           "en": "THE CORE: dead bodies supply the food, and large birds make the pattern most visible.",
           "cn": "核心：尸体提供食物，大型鸟类让这一模式最显眼。"
         },
         {
-          "senses": "S3 · S4",
+          "senses": "03 · 04",
           "en": "HUMAN WASTE: people who pick through rubbish repeat the animal relation, while the oldest sense is the paid street officer.",
           "cn": "人类废弃物：翻拣垃圾的人重复了动物的关系，而最古老义项则是受薪的街道官吏。"
         },
         {
-          "senses": "S5",
+          "senses": "05",
           "en": "THE SERVICE: ecology reads carrion eating as nutrient recycling, not as theft.",
           "cn": "服务：生态学把食腐读作养分循环，而不是「偷食」。"
         },
         {
-          "senses": "S6",
+          "senses": "06",
           "en": "THE MOLECULE: chemistry retargets the sweeping action from flesh to radicals and impurities.",
           "cn": "分子：化学把清扫动作的对象从肉体改成自由基与杂质。"
         },
         {
-          "senses": "S7 · S8",
+          "senses": "07 · 08",
           "en": "MACHINE AND METAPHOR: industry builds devices that scavenge exhaust, and critics use the word for opportunists.",
           "cn": "机器与隐喻：工业造出清除废气的装置，批评者则用这个词指机会主义者。"
         }
@@ -1379,7 +1375,7 @@
     "definition_zh": "食腐；拾荒；清除（行为）",
     "definition_en": "the activity of feeding on remains or of removing what is unwanted",
     "core_image": "一只动物沿着海岸线翻找被浪潮留下的死鱼",
-    "scene": "Scavenging by gulls increases sharply near open landfills.",
+    "scene": "这里指「食腐」。 Scavenging by gulls increases sharply near open landfills.",
     "sceneCN": "这里 scavenging 是「食腐、拾食」（第 1 个义项：动物取食尸体或残余的行为）；句意：在露天垃圾场附近，海鸥的拾食行为明显增加。",
     "pos": [
       {
@@ -1416,19 +1412,15 @@
     "forms": [
       {
         "label": "动词原形",
-        "form": "scavenge（食腐；拾荒；清除）"
+        "form": "scavenge"
       },
       {
         "label": "过去式",
         "form": "scavenged"
       },
       {
-        "label": "过去分词",
-        "form": "scavenged"
-      },
-      {
         "label": "施动者名词",
-        "form": "scavenger（食腐动物；拾荒者）"
+        "form": "scavenger"
       }
     ],
     "derivatives": [
@@ -1621,7 +1613,7 @@
             {
               "word": "decomposition",
               "ipa": "/ˌdiːkɒmpəˈzɪʃn/",
-              "tag": "breakdown, not collection",
+              "tag": "breakdown not collection",
               "definition": "The chemical breakdown of matter; scavenging removes remains, decomposition transforms them.",
               "definitionCN": "物质的化学分解；食腐是移走残余，分解是转化残余。"
             },
@@ -1717,27 +1709,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S2",
+          "senses": "01 · 02",
           "en": "THE CORE: animals and people both live by finding what has been left, whether flesh or rubbish.",
           "cn": "核心：动物与人同样靠「找到被留下的东西」生活，无论那是肉还是垃圾。"
         },
         {
-          "senses": "S3",
+          "senses": "03",
           "en": "THE OLD JOB: the municipal sense survives mainly in historical writing.",
           "cn": "古老职业：市政义项主要保存在历史写作中。"
         },
         {
-          "senses": "S4",
+          "senses": "04",
           "en": "THE PROCESS: ecology studies the activity for its effect on nutrient flow.",
           "cn": "过程：生态学研究这项活动对养分流动的影响。"
         },
         {
-          "senses": "S5 · S6",
+          "senses": "05 · 06",
           "en": "THE TECHNOLOGY: chemistry and industry remove molecules and gases with the same sweeping image.",
           "cn": "技术：化学与工业用同一个「清扫」形象来清除分子与气体。"
         },
         {
-          "senses": "S7 · S8",
+          "senses": "07 · 08",
           "en": "THE EXTENSIONS: games make collection a mechanic, and critics make it a moral charge.",
           "cn": "延伸：游戏把收集变成机制，批评者把它变成道德指控。"
         }
@@ -1828,7 +1820,7 @@
     "definition_zh": "分解；腐烂；拆解",
     "definition_en": "the process of breaking something down into simpler parts or substances",
     "core_image": "一块落叶在土里慢慢裂成看不见的碎片",
-    "scene": "Bacterial decomposition turns the fallen leaves into dark soil within a year.",
+    "scene": "这里指「分解」。 Bacterial decomposition turns the fallen leaves into dark soil within a year.",
     "sceneCN": "这里 decomposition 是「分解、腐烂」（第 2 个义项：有机物被微生物分解）；句意：细菌分解在一年之内把落叶变成深色土壤。",
     "pos": [
       {
@@ -1861,15 +1853,15 @@
     "forms": [
       {
         "label": "动词",
-        "form": "decompose（分解；腐烂）"
+        "form": "decompose"
       },
       {
         "label": "施动名词",
-        "form": "decomposer（分解者；分解装置）"
+        "form": "decomposer"
       },
       {
         "label": "形容词",
-        "form": "decomposable（可分解的）"
+        "form": "decomposable"
       },
       {
         "label": "复数（指多个分解过程）",
@@ -2033,7 +2025,7 @@
             {
               "word": "decompose",
               "ipa": "/ˌdiːkəmˈpəʊz/",
-              "tag": "verb, not noun",
+              "tag": "verb not noun",
               "definition": "The action itself; decomposition is the process noun derived from it.",
               "definitionCN": "指动作本身；decomposition 是由它派生的过程名词。"
             },
@@ -2162,27 +2154,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S2",
+          "senses": "01 · 02",
           "en": "THE CORE: a chemical combination is undone, whether in a flask or in a dead body.",
           "cn": "核心：化学组合被拆开，无论是在烧瓶里还是在尸体里。"
         },
         {
-          "senses": "S3 · S8",
+          "senses": "03 · 08",
           "en": "THE ECOSYSTEM: the process is studied for its rate and for the nutrients it releases.",
           "cn": "生态系统：人们研究这一过程的速率，以及它释放的养分。"
         },
         {
-          "senses": "S4",
+          "senses": "04",
           "en": "THE OBJECT: mathematics splits functions, matrices and graphs into simpler parts.",
           "cn": "对象：数学把函数、矩阵与图拆成更简单的部分。"
         },
         {
-          "senses": "S5",
+          "senses": "05",
           "en": "THE SYSTEM: computing splits problems into modules that can be handled separately.",
           "cn": "系统：计算把问题拆成可分别处理的模块。"
         },
         {
-          "senses": "S6 · S7",
+          "senses": "06 · 07",
           "en": "THE READING: an argument can be taken apart for analysis, and a corpse for forensic reconstruction.",
           "cn": "解读：论证可被拆解以供分析，尸体可被拆解以供法医重建。"
         }
@@ -2292,7 +2284,7 @@
     "definition_zh": "分解；腐烂；使腐败",
     "definition_en": "to break something down into simpler parts or substances",
     "core_image": "一块木头在湿土里一年年变软、变空、最后消失",
-    "scene": "Fungi decompose the fallen trunk until only a dark line of soil remains.",
+    "scene": "这里指「分解」。 Fungi decompose the fallen trunk until only a dark line of soil remains.",
     "sceneCN": "这里 decompose 是「分解、腐烂」（第 2 个义项：有机物被真菌分解）；句意：真菌分解这根倒下的树干，最后只剩一道深色的土痕。",
     "pos": [
       {
@@ -2336,16 +2328,12 @@
         "form": "decomposed"
       },
       {
-        "label": "过去分词",
-        "form": "decomposed"
-      },
-      {
         "label": "现在分词",
         "form": "decomposing"
       },
       {
         "label": "名词",
-        "form": "decomposition（分解；腐烂）"
+        "form": "decomposition"
       }
     ],
     "derivatives": [
@@ -2634,27 +2622,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S2",
+          "senses": "01 · 02",
           "en": "THE CORE: a compound or a dead body comes apart into simpler substances.",
           "cn": "核心：化合物或尸体拆解为更简单的物质。"
         },
         {
-          "senses": "S3",
+          "senses": "03",
           "en": "THE AGENT: a subject can make the breakdown happen, shifting the verb to transitive use.",
           "cn": "施动者：主语可使分解发生，动词由此转为及物用法。"
         },
         {
-          "senses": "S4 · S5",
+          "senses": "04 · 05",
           "en": "THE STRUCTURE: mathematics and computing split objects and tasks by design.",
           "cn": "结构：数学与计算按设计把对象和任务拆开。"
         },
         {
-          "senses": "S6",
+          "senses": "06",
           "en": "THE TEXT: an argument is taken apart into claims and assumptions.",
           "cn": "文本：论证被拆成主张与假设。"
         },
         {
-          "senses": "S7 · S8",
+          "senses": "07 · 08",
           "en": "THE END: a body passes through post-mortem stages, and an institution loses its internal bonds.",
           "cn": "终点：尸体经历死后阶段，机构失去内部纽带。"
         }
@@ -2764,7 +2752,7 @@
     "definition_zh": "分解者；分解生物；分解装置",
     "definition_en": "an organism or device that breaks dead matter down into simpler substances",
     "core_image": "一撮看不见的菌丝在落叶下面把整片叶子拆成养分",
-    "scene": "A decomposer such as a soil fungus returns carbon to the air and minerals to the soil.",
+    "scene": "这里指「分解者」。 A decomposer such as a soil fungus returns carbon to the air and minerals to the soil.",
     "sceneCN": "这里 decomposer 是「分解者」（第 1 个义项：生态系统中把死亡有机物分解的生物）；句意：土壤真菌这类分解者把碳送回空气，把矿物质归还土壤。",
     "pos": [
       {
@@ -2801,15 +2789,15 @@
       },
       {
         "label": "动词",
-        "form": "decompose（分解；腐烂）"
+        "form": "decompose"
       },
       {
         "label": "名词（过程）",
-        "form": "decomposition（分解）"
+        "form": "decomposition"
       },
       {
         "label": "形容词",
-        "form": "decomposable（可分解的）"
+        "form": "decomposable"
       }
     ],
     "derivatives": [
@@ -2969,7 +2957,7 @@
             {
               "word": "decompose",
               "ipa": "/ˌdiːkəmˈpəʊz/",
-              "tag": "verb, not actor",
+              "tag": "verb not actor",
               "definition": "The action of breaking down; a decomposer is what carries it out.",
               "definitionCN": "指分解动作；decomposer 是实施这一动作的主体。"
             },
@@ -3098,27 +3086,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S2",
+          "senses": "01 · 02",
           "en": "THE CORE: any organism that reduces dead matter can be called a decomposer, whatever its size.",
           "cn": "核心：任何把死亡物质还原的生物都可称为分解者，无论体型大小。"
         },
         {
-          "senses": "S3 · S4",
+          "senses": "03 · 04",
           "en": "THE COMMUNITY: gardening and wastewater treatment manage whole populations of decomposers.",
           "cn": "群体：园艺与污水处理管理的是整个分解者种群。"
         },
         {
-          "senses": "S5",
+          "senses": "05",
           "en": "THE MACHINE: industry copies the biological role in a vessel.",
           "cn": "机器：工业在容器中复制这一生物角色。"
         },
         {
-          "senses": "S6",
+          "senses": "06",
           "en": "THE REAGENT: chemistry applies the agent noun to substances that cause breakdown.",
           "cn": "试剂：化学把施动名词用在引起分解的物质上。"
         },
         {
-          "senses": "S7 · S8",
+          "senses": "07 · 08",
           "en": "THE PERSON: the same image serves for analysts who split problems and fixers who clear up remains.",
           "cn": "人：同一形象也适用于拆分问题的分析者与收拾残局的善后者。"
         }
@@ -3228,7 +3216,7 @@
     "definition_zh": "可分解的；可降解的；可拆解的",
     "definition_en": "capable of being broken down into simpler parts",
     "core_image": "一只纸袋埋在土里，几个月后只剩纤维的痕迹",
-    "scene": "The packaging is fully decomposable, so it can be buried with the food waste.",
+    "scene": "这里指「可分解的」。 The packaging is fully decomposable, so it can be buried with the food waste.",
     "sceneCN": "这里 decomposable 是「可降解的」（第 2 个义项：可被微生物降解）；句意：这种包装可完全降解，因此可以和厨余一起埋掉。",
     "pos": [
       {
@@ -3269,11 +3257,11 @@
       },
       {
         "label": "名词（能力）",
-        "form": "decomposability（可分解性）"
+        "form": "decomposability"
       },
       {
         "label": "动词",
-        "form": "decompose（分解）"
+        "form": "decompose"
       }
     ],
     "derivatives": [
@@ -3433,7 +3421,7 @@
             {
               "word": "decompose",
               "ipa": "/ˌdiːkəmˈpəʊz/",
-              "tag": "verb, not adjective",
+              "tag": "verb not adjective",
               "definition": "The action; decomposable describes the capacity, not the act.",
               "definitionCN": "指动作；decomposable 描述能力，而不是动作。"
             },
@@ -3459,7 +3447,7 @@
             {
               "word": "biodegradable",
               "ipa": "/ˌbaɪəʊdɪˈɡreɪdəbl/",
-              "tag": "microbes, by definition",
+              "tag": "microbes by definition",
               "definition": "Breakable down by living organisms; decomposable is broader because it can also mean chemical or mechanical separation.",
               "definitionCN": "可被生物分解的；decomposable 范围更宽，还可指化学或机械分离。"
             },
@@ -3473,7 +3461,7 @@
             {
               "word": "disposable",
               "ipa": "/dɪˈspəʊzəbl/",
-              "tag": "use once, then discard",
+              "tag": "use once then discard",
               "definition": "Designed to be thrown away after use; it says nothing about whether the item will break down.",
               "definitionCN": "设计为用后即弃；并不说明该物品是否会分解。"
             }
@@ -3562,27 +3550,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S3",
+          "senses": "01 · 03",
           "en": "THE CORE: possibility is attached to a compound or to dead matter that will decay.",
           "cn": "核心：可能性附着在化合物或终将腐烂的死亡物质上。"
         },
         {
-          "senses": "S2 · S7",
+          "senses": "02 · 07",
           "en": "THE MATERIAL LABEL: microbiology and waste management ask what a facility can actually process.",
           "cn": "材料标签：微生物学与废弃物管理关心的是设施实际能处理什么。"
         },
         {
-          "senses": "S4",
+          "senses": "04",
           "en": "THE OBJECT: a built thing can be separated into parts by hand.",
           "cn": "实物：人造物可以被手工拆成部件。"
         },
         {
-          "senses": "S5 · S6",
+          "senses": "05 · 06",
           "en": "THE STRUCTURE: matrices and software systems are judged by whether they admit a clean split.",
           "cn": "结构：矩阵与软件系统按「是否允许干净拆分」来评判。"
         },
         {
-          "senses": "S8",
+          "senses": "08",
           "en": "THE IDEA: a complex problem is decomposable into decisions small enough to take.",
           "cn": "观念：复杂问题可以拆成小到足以做出的决定。"
         }
@@ -3692,7 +3680,7 @@
     "definition_zh": "碎屑；腐屑；残骸",
     "definition_en": "loose fragments of dead or broken material",
     "core_image": "河湾浅水处堆积着碎叶、贝壳和细沙",
-    "scene": "The stream slows here, and detritus settles into a thick layer of leaf fragments.",
+    "scene": "这里指「碎屑」。 The stream slows here, and detritus settles into a thick layer of leaf fragments.",
     "sceneCN": "这里 detritus 是「腐屑、碎屑」（第 2 个义项：生态学中有机碎屑）；句意：溪水在这里变缓，碎屑沉积成厚厚一层叶片残片。",
     "pos": [
       {
@@ -3725,19 +3713,19 @@
     "forms": [
       {
         "label": "不可数用法",
-        "form": "detritus（指碎屑总体时不可数）"
+        "form": "detritus"
       },
       {
         "label": "形容词",
-        "form": "detrital（碎屑的）"
+        "form": "detrital"
       },
       {
         "label": "复合名词",
-        "form": "detritivore（食碎屑动物）"
+        "form": "detritivore"
       },
       {
         "label": "相关名词",
-        "form": "debris（碎片；残骸，非同源）"
+        "form": "debris"
       }
     ],
     "derivatives": [
@@ -3911,7 +3899,7 @@
             {
               "word": "detriment",
               "ipa": "/dɪˈtrɪmənt/",
-              "tag": "same root, different sense",
+              "tag": "same root different sense",
               "definition": "Harm or damage, from Latin detrimentum, 'a wearing away'; it shares deterere with detritus but long ago left the physical sense.",
               "definitionCN": "损害、伤害，来自拉丁语 detrimentum「磨损」；与 detritus 共享 deterere，但早已离开物理义。"
             }
@@ -3923,7 +3911,7 @@
             {
               "word": "debris",
               "ipa": "/ˈdebriː/",
-              "tag": "rubble, not Latin",
+              "tag": "rubble not atin",
               "definition": "Scattered fragments of destroyed material, borrowed from French; detritus is more technical and includes organic fragments.",
               "definitionCN": "被毁材料散落的碎片，借自法语；detritus 更技术化，且包含有机碎片。"
             },
@@ -4026,27 +4014,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S6",
+          "senses": "01 · 06",
           "en": "THE MINERAL: weathering breaks rock into fragments that later become sediment or soil parent material.",
           "cn": "矿物：风化把岩石打碎成碎片，这些碎片后来成为沉积物或土壤母质。"
         },
         {
-          "senses": "S2 · S5",
+          "senses": "02 · 05",
           "en": "THE ORGANIC: dead tissue becomes detritus on land, in rivers and in the deep sea.",
           "cn": "有机：死亡组织在陆地、河流与深海中都成为碎屑。"
         },
         {
-          "senses": "S3",
+          "senses": "03",
           "en": "THE RUIN: demolition and war leave the same kind of loose fragments at human scale.",
           "cn": "废墟：拆建与战争在人类尺度上留下同类松散碎片。"
         },
         {
-          "senses": "S4 · S8",
+          "senses": "04 · 08",
           "en": "THE EVIDENCE: scattered body remains and knapping chips are read as traces of past events.",
           "cn": "证据：散落的遗体残骸与打石碎片被读作往昔事件的痕迹。"
         },
         {
-          "senses": "S7",
+          "senses": "07",
           "en": "THE METAPHOR: ideas also leave small remains after the larger system declines.",
           "cn": "隐喻：更大的体系衰落后，观念同样会留下细小残余。"
         }
@@ -4156,7 +4144,7 @@
     "definition_zh": "食碎屑动物；以腐屑为食的动物",
     "definition_en": "an animal that feeds on detritus, the dead and broken fragments of other organisms",
     "core_image": "一只小虾在河底把烂叶碎片一点点送进嘴里",
-    "scene": "The mayfly larva is a detritivore that shreds leaf litter at the bottom of the stream.",
+    "scene": "这里指「食碎屑动物」。 The mayfly larva is a detritivore that shreds leaf litter at the bottom of the stream.",
     "sceneCN": "这里 detritivore 是「食碎屑动物」（第 1 个义项：以腐屑为食的动物）；句意：蜉蝣幼虫是食碎屑动物，在溪流底部把落叶撕碎取食。",
     "pos": [
       {
@@ -4193,15 +4181,15 @@
       },
       {
         "label": "形容词",
-        "form": "detritivorous（食碎屑的）"
+        "form": "detritivorous"
       },
       {
         "label": "名词（食性）",
-        "form": "detritivory（食碎屑性）"
+        "form": "detritivory"
       },
       {
         "label": "相关名词",
-        "form": "detritus（腐屑）"
+        "form": "detritus"
       }
     ],
     "derivatives": [
@@ -4490,27 +4478,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S2 · S3",
+          "senses": "01 · 02 · 03",
           "en": "THE CORE: the diet defines the animal, and the setting decides whether it shreds, mixes or grazes fragments.",
           "cn": "核心：食性定义了动物，而环境决定它是在撕碎、混合还是刮食碎片。"
         },
         {
-          "senses": "S4",
+          "senses": "04",
           "en": "THE GUILD: ecology groups all detritus feeders together regardless of species.",
           "cn": "功能群：生态学把所有食碎屑者归为一组，不论物种。"
         },
         {
-          "senses": "S5",
+          "senses": "05",
           "en": "THE DIVISION OF LABOUR: animals fragment, microbes mineralize.",
           "cn": "分工：动物负责破碎，微生物负责矿化。"
         },
         {
-          "senses": "S6 · S7",
+          "senses": "06 · 07",
           "en": "THE NAMED USERS: field guides name typical groups, and aquaculture employs them as cleaners.",
           "cn": "具名使用者：野外手册列出典型类群，水产养殖则把它们雇为清道夫。"
         },
         {
-          "senses": "S8",
+          "senses": "08",
           "en": "THE PAST: trace fossils let paleontologists infer the same role in ancient sediments.",
           "cn": "过去：遗迹化石让古生物学家在古代沉积物中推断出同样的角色。"
         }
@@ -4620,7 +4608,7 @@
     "definition_zh": "生态位；生态小生境",
     "definition_en": "the role and position a species occupies in an ecosystem, including its habitat, food and interactions",
     "core_image": "同一片树林里，每种鸟各占一层枝叶、各吃一类虫子",
-    "scene": "Each warbler occupies a different ecological niche, feeding at a different height in the canopy.",
+    "scene": "这里指「生态位」。 Each warbler occupies a different ecological niche, feeding at a different height in the canopy.",
     "sceneCN": "这里 ecological niche 是「生态位」（第 1 个义项：物种在群落中的功能位置）；句意：每种林莺占据不同的生态位，在树冠的不同高度取食。",
     "pos": [
       {
@@ -4657,15 +4645,11 @@
       },
       {
         "label": "简称",
-        "form": "niche（生态位；小生境）"
-      },
-      {
-        "label": "形容词",
-        "form": "niche（生态位的；小众的，作定语）"
+        "form": "niche"
       },
       {
         "label": "相关术语",
-        "form": "niche partitioning（生态位分配）"
+        "form": "niche partitioning"
       }
     ],
     "derivatives": [
@@ -4837,14 +4821,14 @@
             {
               "word": "habitat",
               "ipa": "/ˈhæbɪtæt/",
-              "tag": "address, not occupation",
+              "tag": "address not occupation",
               "definition": "The physical place where an organism lives; the niche is its role and resource use there.",
               "definitionCN": "指生物生活的物理场所；生态位指它在那里扮演的角色与资源利用方式。"
             },
             {
               "word": "ecosystem",
               "ipa": "/ˈiːkəʊsɪstəm/",
-              "tag": "the whole, not the slot",
+              "tag": "the whole not the slot",
               "definition": "The community plus its physical environment; a niche is one position inside that whole.",
               "definitionCN": "指群落及其物理环境；生态位是这一整体内部的一个位置。"
             }
@@ -4959,27 +4943,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S2",
+          "senses": "01 · 02",
           "en": "THE CORE: the architectural recess becomes both a functional role and a physical pocket.",
           "cn": "核心：建筑的凹处同时变成功能角色与物理小空间。"
         },
         {
-          "senses": "S3 · S4",
+          "senses": "03 · 04",
           "en": "THE TWO RANGES: theory distinguishes what could be used from what is actually held.",
           "cn": "两种范围：理论区分「本可使用」与「实际占据」。"
         },
         {
-          "senses": "S5",
+          "senses": "05",
           "en": "THE SPLIT: differentiation allows several species to share one community.",
           "cn": "分化：生态位分化让多个物种共享一个群落。"
         },
         {
-          "senses": "S6",
+          "senses": "06",
           "en": "THE BUILD: an organism can remodel the slot instead of merely filling it.",
           "cn": "构建：生物可以改造这个格子，而不只是填充它。"
         },
         {
-          "senses": "S7 · S8",
+          "senses": "07 · 08",
           "en": "THE METAPHOR: business and everyday speech reuse the idea of an open, fitting position.",
           "cn": "隐喻：商业与日常语言复用「空缺而合适的位置」这一想法。"
         }
@@ -5089,7 +5073,7 @@
     "definition_zh": "栖息地丧失；生境丧失",
     "definition_en": "the reduction or disappearance of the natural places where species live",
     "core_image": "推土机推过一片林地，鸟群在空中盘旋却无处落下",
-    "scene": "Logging caused habitat loss across most of the valley within a decade.",
+    "scene": "这里指「栖息地丧失」。 Logging caused habitat loss across most of the valley within a decade.",
     "sceneCN": "这里 habitat loss 是「栖息地丧失」（第 1 个义项：物种自然栖息地的减少或消失）；句意：伐木在十年之内造成山谷大部分地区的栖息地丧失。",
     "pos": [
       {
@@ -5122,19 +5106,19 @@
     "forms": [
       {
         "label": "不可数用法",
-        "form": "habitat loss（指过程或总体状况时不可数）"
+        "form": "habitat loss"
       },
       {
         "label": "复数（指多起损失事件）",
-        "form": "habitat losses（多起栖息地丧失事件，较少用）"
+        "form": "habitat losses"
       },
       {
         "label": "相关术语",
-        "form": "habitat degradation（栖息地退化）"
+        "form": "habitat degradation"
       },
       {
         "label": "相关术语",
-        "form": "habitat fragmentation（栖息地破碎化）"
+        "form": "habitat fragmentation"
       }
     ],
     "derivatives": [
@@ -5294,14 +5278,14 @@
             {
               "word": "habitat degradation",
               "ipa": "/ˈhæbɪtæt ˌdeɡrəˈdeɪʃn/",
-              "tag": "quality, not area",
+              "tag": "quality not area",
               "definition": "A decline in habitat quality while the area remains; habitat loss usually implies area is gone.",
               "definitionCN": "面积仍在而质量下降；habitat loss 通常意味着面积已经消失。"
             },
             {
               "word": "habitat fragmentation",
               "ipa": "/ˈhæbɪtæt ˌfræɡmenˈteɪʃn/",
-              "tag": "splitting, not vanishing",
+              "tag": "splitting not vanishing",
               "definition": "The division of habitat into isolated patches; the total area may be similar, but connectivity is lost.",
               "definitionCN": "栖息地被切成孤立斑块；总面积可能相近，但连通性丧失。"
             },
@@ -5423,27 +5407,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S2",
+          "senses": "01 · 02",
           "en": "THE CORE: the place is gone, and the loss can be measured as area.",
           "cn": "核心：场所消失，而丧失可以用面积来测量。"
         },
         {
-          "senses": "S3 · S4",
+          "senses": "03 · 04",
           "en": "THE MECHANISMS: quality can fall without area shrinking, and land can be converted to other uses.",
           "cn": "机制：面积不缩小时质量也会下降，土地也可被转为其他用途。"
         },
         {
-          "senses": "S5 · S6",
+          "senses": "05 · 06",
           "en": "THE CONSEQUENCE: conservation ranks the pressure, and extinction analysis names it as a driver.",
           "cn": "后果：保护学对它排序，灭绝分析把它列为驱动因素。"
         },
         {
-          "senses": "S7",
+          "senses": "07",
           "en": "THE RULE: law turns the loss into something to avoid, mitigate or compensate.",
           "cn": "规则：法律把这种丧失变成需要避免、减缓或补偿的事项。"
         },
         {
-          "senses": "S8",
+          "senses": "08",
           "en": "THE METAPHOR: any way of life can lose the conditions that supported it.",
           "cn": "隐喻：任何生活方式都可能失去支撑它的条件。"
         }
@@ -5553,7 +5537,7 @@
     "definition_zh": "栖息地破碎化；生境破碎化",
     "definition_en": "the division of a continuous habitat into smaller, isolated patches",
     "core_image": "一整片森林被道路和农田切成一块块孤岛",
-    "scene": "The new highway accelerated habitat fragmentation, isolating the forest into small patches.",
+    "scene": "这里指「栖息地破碎化」。 The new highway accelerated habitat fragmentation, isolating the forest into small patches.",
     "sceneCN": "这里 habitat fragmentation 是「栖息地破碎化」（第 1 个义项：连续栖息地被分割成孤立斑块的过程）；句意：新高速公路加速了栖息地破碎化，把森林分割成小片孤岛。",
     "pos": [
       {
@@ -5586,19 +5570,19 @@
     "forms": [
       {
         "label": "不可数用法",
-        "form": "habitat fragmentation（指过程或状态时不可数）"
+        "form": "habitat fragmentation"
       },
       {
         "label": "动词",
-        "form": "fragment（使破碎；分割）"
+        "form": "fragment"
       },
       {
         "label": "形容词",
-        "form": "fragmented（破碎的；分割的）"
+        "form": "fragmented"
       },
       {
         "label": "相关术语",
-        "form": "habitat loss（栖息地丧失）"
+        "form": "habitat loss"
       }
     ],
     "derivatives": [
@@ -5758,7 +5742,7 @@
             {
               "word": "habitat loss",
               "ipa": "/ˈhæbɪtæt lɒs/",
-              "tag": "area, not arrangement",
+              "tag": "area not arrangement",
               "definition": "The reduction of total habitat area; fragmentation changes arrangement and can occur without area loss.",
               "definitionCN": "指栖息地总面积的减少；破碎化改变布局，可在面积不变时发生。"
             },
@@ -5887,27 +5871,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S2",
+          "senses": "01 · 02",
           "en": "THE CORE: the process and its result share one noun, as a continuous habitat becomes patchwork.",
           "cn": "核心：过程与结果共用同一个名词，连续栖息地变成斑块拼图。"
         },
         {
-          "senses": "S3 · S4",
+          "senses": "03 · 04",
           "en": "THE MECHANISMS: movement routes disappear and edge conditions expand into the interior.",
           "cn": "机制：移动路线消失，边缘条件向内部扩张。"
         },
         {
-          "senses": "S5 · S6",
+          "senses": "05 · 06",
           "en": "THE MEASUREMENT: science separates arrangement from area and measures both at landscape scale.",
           "cn": "度量：科学把布局与面积分开，并在景观尺度上测量两者。"
         },
         {
-          "senses": "S7",
+          "senses": "07",
           "en": "THE GENETIC EFFECT: isolation becomes visible in reduced gene flow.",
           "cn": "遗传效应：隔离在基因流减少中变得可见。"
         },
         {
-          "senses": "S8",
+          "senses": "08",
           "en": "THE METAPHOR: any connected whole can be described as fragmented.",
           "cn": "隐喻：任何连通整体都可被描述为破碎化。"
         }
@@ -6017,7 +6001,7 @@
     "definition_zh": "环境保护主义；环保意识；环境主义",
     "definition_en": "a movement or belief that protecting the natural environment should guide policy and everyday behaviour",
     "core_image": "一群人站在被污染的河边，举着要求清洁水源的标语",
-    "scene": "Environmentalism turned the polluted river into a national political issue.",
+    "scene": "这里指「环境保护主义」。 Environmentalism turned the polluted river into a national political issue.",
     "sceneCN": "这里 environmentalism 是「环境保护主义」（第 1 个义项：主张保护自然环境的社会运动）；句意：环境保护主义把这条受污染的河流变成了全国性的政治议题。",
     "pos": [
       {
@@ -6050,19 +6034,19 @@
     "forms": [
       {
         "label": "不可数用法",
-        "form": "environmentalism（指运动或理念时不可数）"
+        "form": "environmentalism"
       },
       {
         "label": "形容词",
-        "form": "environmental（环境的；环保的）"
+        "form": "environmental"
       },
       {
         "label": "从业者名词",
-        "form": "environmentalist（环保主义者）"
+        "form": "environmentalist"
       },
       {
         "label": "相关名词",
-        "form": "environment（环境）"
+        "form": "environment"
       }
     ],
     "derivatives": [
@@ -6262,7 +6246,7 @@
             {
               "word": "activism",
               "ipa": "/ˈæktɪvɪzəm/",
-              "tag": "method, not cause",
+              "tag": "method not cause",
               "definition": "Campaigning and direct action for a cause; environmentalism is one cause that activists may pursue.",
               "definitionCN": "为某一事业开展运动与直接行动；环保主义是行动者可能追求的一种事业。"
             }
@@ -6351,27 +6335,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S2",
+          "senses": "01 · 02",
           "en": "THE CORE: organised campaigns and everyday concern both sit under the same name.",
           "cn": "核心：有组织的运动与日常关切都归在同一个名称之下。"
         },
         {
-          "senses": "S3 · S8",
+          "senses": "03 · 08",
           "en": "THE ARGUMENT: as a doctrine it enters policy debate as one side among others.",
           "cn": "论证：作为一种学说，它作为多方之一进入政策争论。"
         },
         {
-          "senses": "S4",
+          "senses": "04",
           "en": "THE PRACTICE: the beliefs show up in repair, recycling and low-impact choices.",
           "cn": "实践：信念体现在修理、回收与低影响选择中。"
         },
         {
-          "senses": "S5",
+          "senses": "05",
           "en": "THE STUDY: political ecology analyses the movement's actors and power relations.",
           "cn": "研究：政治生态学分析这场运动的行动者与权力关系。"
         },
         {
-          "senses": "S6 · S7",
+          "senses": "06 · 07",
           "en": "THE VARIANTS: firms adopt the language, while radicals demand structural change.",
           "cn": "变体：企业采纳其语言，激进派则要求结构改变。"
         }
@@ -6481,7 +6465,7 @@
     "definition_zh": "自然保护者；环保主义者；文物保护者",
     "definition_en": "a person who works to protect natural resources, wildlife or valued objects from loss or damage",
     "core_image": "一位护林员站在新种的树苗之间，记录着每一片恢复的林地",
-    "scene": "The conservationist spent thirty years restoring the drained marsh.",
+    "scene": "这里指「自然保护者」。 The conservationist spent thirty years restoring the drained marsh.",
     "sceneCN": "这里 conservationist 是「自然保护者」（第 1 个义项：从事自然与野生生物保护的人）；句意：这位自然保护者花了三十年恢复那片被排干的沼泽。",
     "pos": [
       {
@@ -6518,15 +6502,15 @@
       },
       {
         "label": "名词（事业）",
-        "form": "conservation（保护；节约）"
+        "form": "conservation"
       },
       {
         "label": "形容词",
-        "form": "conservationist（保护主义的，作定语）"
+        "form": "conservationist"
       },
       {
         "label": "相关名词",
-        "form": "conservationism（资源保护主义）"
+        "form": "conservationism"
       }
     ],
     "derivatives": [
@@ -6686,7 +6670,7 @@
             {
               "word": "conservation",
               "ipa": "/ˌkɒnsəˈveɪʃn/",
-              "tag": "the field, not the person",
+              "tag": "the field not the person",
               "definition": "The practice or policy of protecting resources; conservationist is the person who carries it out.",
               "definitionCN": "指保护资源的实践或政策；conservationist 是执行者。"
             },
@@ -6700,7 +6684,7 @@
             {
               "word": "conservative",
               "ipa": "/kənˈsɜːvətɪv/",
-              "tag": "same root, different field",
+              "tag": "same root different field",
               "definition": "Cautious about change, especially in politics; it shares conservare but not the environmental sense.",
               "definitionCN": "对改变持谨慎态度，尤指政治上；与 conservare 同根，但不含环境保护义。"
             }
@@ -6815,27 +6799,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S6",
+          "senses": "01 · 06",
           "en": "THE CORE: the role is to keep ecosystems and the soil beneath them intact.",
           "cn": "核心：这个角色要让生态系统与脚下土壤保持完整。"
         },
         {
-          "senses": "S2 · S5",
+          "senses": "02 · 05",
           "en": "THE RESOURCE: wise use and efficiency are forms of keeping, not of abandoning use.",
           "cn": "资源：合理利用与效率也是「保存」的形式，而不是放弃使用。"
         },
         {
-          "senses": "S3 · S8",
+          "senses": "03 · 08",
           "en": "THE FIELD: wildlife work runs from tagging animals to managing a reserve day by day.",
           "cn": "野外：从给动物戴项圈到日常管理保护区，都属于这项工作。"
         },
         {
-          "senses": "S4",
+          "senses": "04",
           "en": "THE OBJECT: museums extend the same role to paintings and buildings.",
           "cn": "物品：博物馆把同一角色延伸到绘画与建筑上。"
         },
         {
-          "senses": "S7",
+          "senses": "07",
           "en": "THE RULE: protection often has to be won through law and funding.",
           "cn": "规则：保护往往必须通过立法与资金争取。"
         }

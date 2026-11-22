@@ -6,7 +6,7 @@
     "definition_zh": "细菌的；由细菌引起的；与细菌有关的",
     "definition_en": "of, relating to, or caused by bacteria",
     "core_image": "培养皿里一排排细小的杆状菌体，在显微镜下排成整齐的短线",
-    "scene": "The bacterial culture on the plate turned cloudy within a day.",
+    "scene": "这里指「细菌的」。 The bacterial culture on the plate turned cloudy within a day.",
     "sceneCN": "这里 bacterial 是「细菌的」（第 1 个义项：与细菌这一整类生物相关）；句意：培养皿上的细菌培养物一天之内就变浑浊了。图中可辨识物件：圆形培养皿、接种环、由清变浊的菌液。",
     "pos": [
       {
@@ -43,23 +43,23 @@
     "forms": [
       {
         "label": "原级（形容词）",
-        "form": "bacterial（细菌的）"
+        "form": "bacterial"
       },
       {
         "label": "副词形式",
-        "form": "bacterially（以细菌的方式；罕用）"
+        "form": "bacterially"
       },
       {
         "label": "名词单数",
-        "form": "bacterium（细菌，单数）"
+        "form": "bacterium"
       },
       {
         "label": "名词复数",
-        "form": "bacteria（细菌，复数）"
+        "form": "bacteria"
       },
       {
         "label": "相关形容词",
-        "form": "bactericidal（杀菌的）；antibacterial（抗菌的）"
+        "form": "bactericidalantibacterial"
       }
     ],
     "derivatives": [
@@ -246,14 +246,14 @@
             {
               "word": "bacteriology",
               "ipa": "/bækˌtɪəriˈɒlədʒi/",
-              "tag": "noun, the science",
+              "tag": "noun the science",
               "definition": "The study of bacteria, not the adjective describing them. The ending -logy marks a field of study.",
               "definitionCN": "指研究细菌的学科，而不是描述细菌的形容词；词尾 -logy 表示一门学问。"
             },
             {
               "word": "bactericidal",
               "ipa": "/bækˌtɪəriˈsaɪdəl/",
-              "tag": "adjective, killing bacteria",
+              "tag": "adjective killing bacteria",
               "definition": "Killing bacteria, as opposed to merely slowing their growth. The second element comes from Latin caedere 'to cut down'.",
               "definitionCN": "指杀死细菌的，与仅仅抑制其生长不同；后半部分来自拉丁语 caedere「砍倒」。"
             }
@@ -265,28 +265,28 @@
             {
               "word": "microbial",
               "ipa": "/maɪˈkrəʊbiəl/",
-              "tag": "adjective, of microbes",
+              "tag": "adjective of microbes",
               "definition": "Of microbes in general, including fungi and protists, not only bacteria. It is broader than bacterial and is the better choice when the group is mixed.",
               "definitionCN": "指微生物的，范围包括真菌与原生生物，而不只是细菌；比 bacterial 更宽，群体混杂时更宜用这个词。"
             },
             {
               "word": "pathogenic",
               "ipa": "/ˌpæθəˈdʒenɪk/",
-              "tag": "adjective, disease-causing",
+              "tag": "adjective disease-causing",
               "definition": "Disease-causing, whether the agent is a bacterium, a virus or a fungus. It names the effect on the host, not the kind of organism.",
               "definitionCN": "指能致病的，无论病原是细菌、病毒还是真菌；它命名的是对宿主的作用，而不是生物种类。"
             },
             {
               "word": "septic",
               "ipa": "/ˈseptɪk/",
-              "tag": "adjective, infected",
+              "tag": "adjective infected",
               "definition": "Infected with pathogenic bacteria, or relating to such infection. It describes the state of a wound or a blood stream, not the bacteria themselves.",
               "definitionCN": "指被致病细菌感染的，或与这种感染有关的；描述的是伤口或血流所处的状态，而不是细菌本身。"
             },
             {
               "word": "viral",
               "ipa": "/ˈvaɪrəl/",
-              "tag": "adjective, of viruses",
+              "tag": "adjective of viruses",
               "definition": "Of or caused by viruses. It is the direct counterpart of bacterial in medical usage and must not be substituted for it.",
               "definitionCN": "指病毒的或由病毒引起的；在医学用法中与 bacterial 直接相对，不可替换使用。"
             }
@@ -375,27 +375,27 @@
       ],
       "branches": [
         {
-          "senses": "S1",
+          "senses": "01",
           "en": "CLASS: the bare relation to bacteria as a group, with no further claim.",
           "cn": "类别：只表示与细菌这一类相关，不附加其他断言。"
         },
         {
-          "senses": "S2 · S8",
+          "senses": "02 · 08",
           "en": "CAUSE: a bacterial cause can act on an animal wound or on a plant field; the adjective stays the same while the host changes.",
           "cn": "病因：细菌病因既可作用于动物伤口，也可作用于植物田地；宿主改变，形容词不变。"
         },
         {
-          "senses": "S3",
+          "senses": "03",
           "en": "STRUCTURE: the adjective can point to the cell as an object of study rather than to its effects.",
           "cn": "结构：该形容词可以指向作为研究对象的细胞本身，而不是它的影响。"
         },
         {
-          "senses": "S4 · S6",
+          "senses": "04 · 06",
           "en": "POPULATION: growth measures a multiplying population, and flora names a settled community in one place.",
           "cn": "种群：生长量衡量的是不断增殖的种群，菌群则指某处稳定居住的群落。"
         },
         {
-          "senses": "S5 · S7",
+          "senses": "05 · 07",
           "en": "THREAT: resistance is a trait kept by the organism, while contamination is unwanted bacteria entering a substance.",
           "cn": "威胁：耐药性是生物体自身保有的性状，污染则是不需要的细菌进入某物质。"
         }
@@ -513,7 +513,7 @@
     "definition_zh": "细菌（单数）；一种无细胞核的单细胞微生物",
     "definition_en": "a single-celled microorganism with no organized nucleus, usually reproducing by division",
     "core_image": "显微镜下一根短小的杆状细胞，中央正在收窄、分裂成两半",
-    "scene": "A single bacterium can double in number every twenty minutes in warm broth.",
+    "scene": "这里指「细菌单数」。 A single bacterium can double in number every twenty minutes in warm broth.",
     "sceneCN": "这里 bacterium 是「细菌（单数）」（第 1 个义项：一个单细胞个体）；句意：在温热的培养液里，一个细菌每二十分钟就能增殖一倍。图中可辨识物件：试管中的培养液、正在分裂的杆状细胞、计时器。",
     "pos": [
       {
@@ -550,27 +550,23 @@
     "forms": [
       {
         "label": "单数",
-        "form": "bacterium（一个细菌）"
+        "form": "bacterium"
       },
       {
         "label": "复数",
-        "form": "bacteria（多个细菌）"
+        "form": "bacteria"
       },
       {
         "label": "形容词形式",
-        "form": "bacterial（细菌的）"
+        "form": "bacterial"
       },
       {
         "label": "副词形式",
-        "form": "bacterially（以细菌方式地；罕用）"
+        "form": "bacterially"
       },
       {
         "label": "常见错误复数",
-        "form": "bacteriums（非标准，应作 bacteria）"
-      },
-      {
-        "label": "学名层级",
-        "form": "Bacterium（旧属名，现多并入其他属）"
+        "form": "bacteriums bacteria"
       }
     ],
     "derivatives": [
@@ -712,7 +708,7 @@
           "cn": "这个希腊词被联系到重构词根 *bak-「棍、木钉」，并被认为也构成拉丁语 baculum「杆」。但 De Vaan 怀疑它没有干净的印欧语系谱：*b 在语系中罕见，凯尔特语还出现无法解释的叠辅音，因此该词根可能是借词。这是重构形式，更深层的来源不确定。"
         },
         {
-          "era": "EHRenberg'S COINAGE",
+          "era": "EHRENBERG'S COINAGE",
           "en": "Christian Gottfried Ehrenberg introduced the word in 1838 as a scientific term for the rod-shaped microbes he studied. The plural bacteria appears in English by 1847.",
           "cn": "克里斯蒂安·戈特弗里德·埃伦贝格于 1838 年把它作为科学术语引入，用来指他研究的杆状微生物；复数 bacteria 于 1847 年出现在英语中。"
         },
@@ -759,7 +755,7 @@
             {
               "word": "bacteriology",
               "ipa": "/bækˌtɪəriˈɒlədʒi/",
-              "tag": "noun, the science",
+              "tag": "noun the science",
               "definition": "The study of bacteria. The ending -logy marks a discipline, so it is not a word for an organism.",
               "definitionCN": "研究细菌的学科；词尾 -logy 表示学科，因此它不是指某种生物的词。"
             }
@@ -785,14 +781,14 @@
             {
               "word": "pathogen",
               "ipa": "/ˈpæθədʒən/",
-              "tag": "noun, disease agent",
+              "tag": "noun disease agent",
               "definition": "Any agent that causes disease, whether bacterium, virus or fungus. Being a bacterium does not make an organism a pathogen.",
               "definitionCN": "任何引起疾病的病原，无论细菌、病毒还是真菌；是细菌并不意味着就是病原体。"
             },
             {
               "word": "prokaryote",
               "ipa": "/prəʊˈkæriəʊt/",
-              "tag": "noun, cell type",
+              "tag": "noun cell type",
               "definition": "A cell without a nucleus. Bacteria are prokaryotes, but the term also covers archaea.",
               "definitionCN": "没有细胞核的细胞；细菌属于原核生物，但该词也涵盖古菌。"
             }
@@ -881,27 +877,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S8",
+          "senses": "01 · 08",
           "en": "NUMBER: the singular names one cell, and the grammar of that singular is itself a sense because English often blurs it.",
           "cn": "数量：单数命名一个细胞，而这一单数的语法本身也算一个义项，因为英语常把它模糊掉。"
         },
         {
-          "senses": "S2 · S3",
+          "senses": "02 · 03",
           "en": "FORM: the rod shape gave the name, and the missing nucleus defines the cell type.",
           "cn": "形态：杆状给了它名字，而缺失的细胞核定义了它的细胞类型。"
         },
         {
-          "senses": "S4",
+          "senses": "04",
           "en": "HARM: one strain can cause disease, which is why the word is often met in medicine.",
           "cn": "危害：某个菌株可以致病，因此这个词常出现在医学语境。"
         },
         {
-          "senses": "S5 · S6",
+          "senses": "05 · 06",
           "en": "BENEFIT: the same cell can help a host or drive nutrient cycles in soil and water.",
           "cn": "益处：同一个细胞也能帮助宿主，或在土壤与水体中驱动养分循环。"
         },
         {
-          "senses": "S7",
+          "senses": "07",
           "en": "TOOL: biotechnology turns the cell into a production unit, a factory with a cell wall.",
           "cn": "工具：生物技术把这个细胞变成生产单元，一座带细胞壁的工厂。"
         }
@@ -1011,7 +1007,7 @@
     "definition_zh": "微生物；肉眼不可见、需借助显微镜观察的生物",
     "definition_en": "a living thing so small that it can be seen only with a microscope",
     "core_image": "一滴池塘水里挤满肉眼看不见的小生命，放大后显出球状、杆状与螺旋状的轮廓",
-    "scene": "A single microorganism in the pond water can start a whole bloom once nutrients rise.",
+    "scene": "这里指「微生物」。 A single microorganism in the pond water can start a whole bloom once nutrients rise.",
     "sceneCN": "这里 microorganism 是「微生物」（第 1 个义项：需用显微镜观察的微小生物）；句意：养分升高后，池塘水里的一个微生物就能引发整片水华。图中可辨识物件：水滴、显微镜视野、成片变绿的水面。",
     "pos": [
       {
@@ -1048,23 +1044,23 @@
     "forms": [
       {
         "label": "单数",
-        "form": "microorganism（一个微生物）"
+        "form": "microorganism"
       },
       {
         "label": "复数",
-        "form": "microorganisms（多个微生物）"
+        "form": "microorganisms"
       },
       {
         "label": "连字符变体",
-        "form": "micro-organism（英式旧式拼写，义同）"
+        "form": "micro-organism"
       },
       {
         "label": "形容词形式",
-        "form": "microbial / microorganismal（微生物的）"
+        "form": "microbial / microorganismal"
       },
       {
         "label": "学科名称",
-        "form": "microbiology（微生物学）"
+        "form": "microbiology"
       }
     ],
     "derivatives": [
@@ -1258,7 +1254,7 @@
             {
               "word": "microbiology",
               "ipa": "/ˌmaɪkrəʊbaɪˈɒlədʒi/",
-              "tag": "noun, the science",
+              "tag": "noun the science",
               "definition": "The study of microorganisms. The ending -logy marks a discipline, so it is not a word for a living thing.",
               "definitionCN": "研究微生物的学科；词尾 -logy 表示学科，因此它不是指某种生物的词。"
             }
@@ -1284,14 +1280,14 @@
             {
               "word": "bacterium",
               "ipa": "/bækˈtɪəriəm/",
-              "tag": "noun, one kingdom",
+              "tag": "noun one kingdom",
               "definition": "One kind of microorganism only. Microorganism is the wider term and can cover fungi and protists that bacterium cannot.",
               "definitionCN": "只指其中一类微生物；microorganism 是更宽的词，能涵盖 bacterium 无法涵盖的真菌与原生生物。"
             },
             {
               "word": "pathogen",
               "ipa": "/ˈpæθədʒən/",
-              "tag": "noun, disease agent",
+              "tag": "noun disease agent",
               "definition": "Any disease-causing agent, including viruses and parasitic worms. It names a role, while microorganism names a size class.",
               "definitionCN": "任何致病因子，包括病毒与寄生蠕虫；它命名的是角色，而 microorganism 命名的是尺度类别。"
             }
@@ -1380,27 +1376,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S2",
+          "senses": "01 · 02",
           "en": "SCALE AND BODY: smallness is the entry condition, and a single cell is the common body plan.",
           "cn": "尺度与身体：小是入门条件，单细胞是常见的身体构造。"
         },
         {
-          "senses": "S3",
+          "senses": "03",
           "en": "TAXONOMY: the class is defined by size, so it cuts across kingdoms and even touches the virus border.",
           "cn": "分类：这一类别按大小定义，因此横跨多个界，甚至触及病毒那条边界。"
         },
         {
-          "senses": "S4 · S5",
+          "senses": "04 · 05",
           "en": "HABITAT: the same word covers the decomposer in soil and the producer in the sea.",
           "cn": "生境：同一个词既涵盖土壤中的分解者，也涵盖海洋中的生产者。"
         },
         {
-          "senses": "S6 · S7",
+          "senses": "06 · 07",
           "en": "ROLE TOWARD HUMANS: one subset causes disease, another ferments food and makes medicine.",
           "cn": "对人的角色：一个子集致病，另一个子集发酵食物、制造药物。"
         },
         {
-          "senses": "S8",
+          "senses": "08",
           "en": "PROXY: an indicator microorganism is watched not for itself but for what its presence means.",
           "cn": "替身：监测指示微生物不是为了它本身，而是为了它的存在所意味的东西。"
         }
@@ -1512,7 +1508,7 @@
     "definition_zh": "微生物的；由微生物引起的；与微生物有关的",
     "definition_en": "of, relating to, or caused by microbes",
     "core_image": "岩石表面一层黏滑的绿色菌席，在放大镜下由无数微小细胞连成一片",
-    "scene": "The microbial mat on the rock surface turned the shallow water green.",
+    "scene": "这里指「微生物的」。 The microbial mat on the rock surface turned the shallow water green.",
     "sceneCN": "这里 microbial 是「微生物的」（第 1 个义项：与微生物相关）；句意：岩石表面的微生物席把浅水染成了绿色。图中可辨识物件：岩石、贴附其上的菌席、被映绿的水面。",
     "pos": [
       {
@@ -1549,27 +1545,27 @@
     "forms": [
       {
         "label": "原级（形容词）",
-        "form": "microbial（微生物的）"
+        "form": "microbial"
       },
       {
         "label": "另一形容词形式",
-        "form": "microbic（微生物的；罕用同义变体）"
+        "form": "microbic"
       },
       {
         "label": "副词形式",
-        "form": "microbially（以微生物方式地）"
+        "form": "microbially"
       },
       {
         "label": "名词单数",
-        "form": "microbe（微生物）"
+        "form": "microbe"
       },
       {
         "label": "名词复数",
-        "form": "microbes（微生物，复数）"
+        "form": "microbes"
       },
       {
         "label": "相关名词",
-        "form": "microbiota（微生物区系）；microbiome（微生物组）"
+        "form": "microbiotamicrobiome"
       }
     ],
     "derivatives": [
@@ -1749,7 +1745,7 @@
             {
               "word": "microbic",
               "ipa": "/maɪˈkrəʊbɪk/",
-              "tag": "adjective, rare variant",
+              "tag": "adjective rare variant",
               "definition": "An older and rarer synonym of microbial, formed with -ic instead of -ial. It appears mainly in nineteenth- and early twentieth-century writing.",
               "definitionCN": "microbial 的旧式罕用同义词，用 -ic 而非 -ial 构成；主要见于十九世纪与二十世纪初的文字。"
             },
@@ -1763,7 +1759,7 @@
             {
               "word": "microbiology",
               "ipa": "/ˌmaɪkrəʊbaɪˈɒlədʒi/",
-              "tag": "noun, the science",
+              "tag": "noun the science",
               "definition": "The study of microbes. The ending -logy marks a field, so it cannot substitute for the adjective.",
               "definitionCN": "研究微生物的学科；词尾 -logy 表示领域，不能代替形容词使用。"
             }
@@ -1775,28 +1771,28 @@
             {
               "word": "bacterial",
               "ipa": "/bækˈtɪəriəl/",
-              "tag": "adjective, narrower",
+              "tag": "adjective narrower",
               "definition": "Of bacteria only. It is the right word when the group is known to be bacterial, and microbial is the right word when fungi or protists may be involved.",
               "definitionCN": "只指细菌的；当已知是细菌时用 bacterial，当可能涉及真菌或原生生物时用 microbial。"
             },
             {
               "word": "microbiological",
               "ipa": "/ˌmaɪkrəʊbaɪəˈlɒdʒɪkəl/",
-              "tag": "adjective, of the science",
+              "tag": "adjective of the science",
               "definition": "Relating to microbiology as a discipline or to its methods, as in microbiological testing. It points to the science, not directly to the organisms.",
               "definitionCN": "与微生物学这一学科或其方法有关的，如微生物学检测；它指向学科，而不是直接指向生物体。"
             },
             {
               "word": "pathogenic",
               "ipa": "/ˌpæθəˈdʒenɪk/",
-              "tag": "adjective, harmful",
+              "tag": "adjective harmful",
               "definition": "Disease-causing. It says nothing about size or kingdom, and many microbes are not pathogenic.",
               "definitionCN": "指致病的；不涉及大小或生物界，而许多微生物并不致病。"
             },
             {
               "word": "germinal",
               "ipa": "/ˈdʒɜːmɪnəl/",
-              "tag": "adjective, of seeds or early growth",
+              "tag": "adjective of seeds or early growth",
               "definition": "Relating to a germ or seed, or to an early stage of development. It is not a synonym of microbial despite the everyday sense of germ.",
               "definitionCN": "指胚芽、种子或发育早期的；尽管 germ 有「病菌」的日常义，germinal 并不是 microbial 的同义词。"
             }
@@ -1885,27 +1881,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S2",
+          "senses": "01 · 02",
           "en": "THE CLASS AND LIFE: the broadest relation, then the same adjective applied to life as a form.",
           "cn": "类别与生命：最宽泛的关联，随后同一形容词落在作为一种形态的生命上。"
         },
         {
-          "senses": "S3 · S4",
+          "senses": "03 · 04",
           "en": "COLLECTIVE AND QUANTITATIVE: a community is organised, while growth is a population count over time.",
           "cn": "集体与数量：群落是有组织的，生长则是种群随时间的计数。"
         },
         {
-          "senses": "S5",
+          "senses": "05",
           "en": "HARM: the adjective can name a cause of disease without naming the species.",
           "cn": "危害：这个形容词可以只命名病因，而不指明物种。"
         },
         {
-          "senses": "S6 · S7",
+          "senses": "06 · 07",
           "en": "WORK: microbes are put to work in fuel cells and in the decomposition that recycles matter.",
           "cn": "工作：微生物被用于燃料电池，也用于使物质循环的分解过程。"
         },
         {
-          "senses": "S8",
+          "senses": "08",
           "en": "UNWANTED PRESENCE: contamination is the same life arriving where it is not wanted.",
           "cn": "不受欢迎的存在：污染就是同样的生命来到了不该来的地方。"
         }
@@ -2009,7 +2005,7 @@
     "definition_zh": "微生物学；研究微生物及其活动的学科",
     "definition_en": "the science that studies microorganisms, their structure, growth, and effects",
     "core_image": "实验台上成排的培养皿与显微镜，标签上写满菌种编号，一张记录表逐项填写",
-    "scene": "Clinical microbiology identified the strain before the second dose was given.",
+    "scene": "这里指「微生物学」。 Clinical microbiology identified the strain before the second dose was given.",
     "sceneCN": "这里 microbiology 是「微生物学」（第 3 个义项：临床微生物学这一分支）；句意：临床微生物学在给予第二剂之前就鉴定了菌株。图中可辨识物件：培养皿、显微镜、菌种鉴定报告。",
     "pos": [
       {
@@ -2046,23 +2042,23 @@
     "forms": [
       {
         "label": "学科名词",
-        "form": "microbiology（微生物学，不可数）"
+        "form": "microbiology"
       },
       {
         "label": "从业者",
-        "form": "microbiologist（微生物学家）"
+        "form": "microbiologist"
       },
       {
         "label": "形容词形式",
-        "form": "microbiological（微生物学的）"
+        "form": "microbiological"
       },
       {
         "label": "副词形式",
-        "form": "microbiologically（从微生物学角度地）"
+        "form": "microbiologically"
       },
       {
         "label": "研究对象",
-        "form": "microorganism / microbe（微生物）"
+        "form": "microorganism / microbe"
       }
     ],
     "derivatives": [
@@ -2242,7 +2238,7 @@
             {
               "word": "microbiologist",
               "ipa": "/ˌmaɪkrəʊbaɪˈɒlədʒɪst/",
-              "tag": "noun, person",
+              "tag": "noun person",
               "definition": "A person who practises microbiology. The ending -ist marks the practitioner, not the field.",
               "definitionCN": "从事微生物学的人；词尾 -ist 标记从业者，而不是学科。"
             },
@@ -2256,7 +2252,7 @@
             {
               "word": "microbial",
               "ipa": "/maɪˈkrəʊbiəl/",
-              "tag": "adjective, of microbes",
+              "tag": "adjective of microbes",
               "definition": "Of microbes themselves. It is the object-level adjective, while microbiological is the discipline-level one.",
               "definitionCN": "指微生物本身的形容词；它是对象层面的形容词，而 microbiological 是学科层面的。"
             }
@@ -2268,28 +2264,28 @@
             {
               "word": "bacteriology",
               "ipa": "/bækˌtɪəriˈɒlədʒi/",
-              "tag": "noun, narrower field",
+              "tag": "noun narrower field",
               "definition": "The study of bacteria only. It is a subset of microbiology and was the older name for much of the same work.",
               "definitionCN": "只研究细菌的学科；它是微生物学的子集，也曾是大部分同类工作的旧名称。"
             },
             {
               "word": "virology",
               "ipa": "/vaɪˈrɒlədʒi/",
-              "tag": "noun, viruses only",
+              "tag": "noun viruses only",
               "definition": "The study of viruses, which are not cells and are often excluded from microorganisms. It is a separate discipline with separate methods.",
               "definitionCN": "研究病毒的学科；病毒不是细胞，常被排除在微生物之外，因此它是一门有独立方法的独立学科。"
             },
             {
               "word": "mycology",
               "ipa": "/maɪˈkɒlədʒi/",
-              "tag": "noun, fungi only",
+              "tag": "noun fungi only",
               "definition": "The study of fungi, including yeasts and moulds. Many fungi are microorganisms, but the discipline is defined by the group, not the size.",
               "definitionCN": "研究真菌（包括酵母与霉菌）的学科；许多真菌是微生物，但这门学科按类群而非大小定义。"
             },
             {
               "word": "biotechnology",
               "ipa": "/ˌbaɪəʊtekˈnɒlədʒi/",
-              "tag": "noun, applied field",
+              "tag": "noun applied field",
               "definition": "The industrial use of living systems, microbes among them. It is an application of microbiology rather than a branch of it.",
               "definitionCN": "对生命系统（包括微生物）的工业利用；它是微生物学的应用，而不是其分支。"
             }
@@ -2378,27 +2374,27 @@
       ],
       "branches": [
         {
-          "senses": "S1",
+          "senses": "01",
           "en": "KNOWLEDGE: the organised study of small life is the root sense from which the others radiate.",
           "cn": "知识：关于微小生命的系统研究是根义，其他义项都由它辐射而出。"
         },
         {
-          "senses": "S2 · S7",
+          "senses": "02 · 07",
           "en": "INSTITUTION AND TEACHING: a science can be a department or a course, because people organise and teach it.",
           "cn": "建制与教学：一门科学可以是一个院系或一门课，因为人们会组织它、教授它。"
         },
         {
-          "senses": "S3 · S4",
+          "senses": "03 · 04",
           "en": "APPLIED SETTINGS: the clinic names pathogens, the factory manages cultures.",
           "cn": "应用场景：诊所命名病原，工厂管理菌种。"
         },
         {
-          "senses": "S5",
+          "senses": "05",
           "en": "ENVIRONMENT: the same methods move outdoors to soil, water and air.",
           "cn": "环境：同样的方法移到户外，用于土壤、水体与空气。"
         },
         {
-          "senses": "S6 · S8",
+          "senses": "06 · 08",
           "en": "HANDS AND OBJECT: techniques are the hands of the science, and 'the microbiology of a site' is its object standing in for it.",
           "cn": "双手与对象：技术是这门科学的双手，而「某处的微生物学」是它的研究对象代它出场。"
         }
@@ -2510,7 +2506,7 @@
     "definition_zh": "病毒；一种比细菌更小、只能在活细胞内复制的感染因子",
     "definition_en": "an infectious agent smaller than a bacterium that can reproduce only inside a living cell",
     "core_image": "一个带有多面体外壳的微小颗粒，正把自己的一小段遗传物质注入宿主细胞",
-    "scene": "The virus passes from one host cell to another within hours.",
+    "scene": "这里指「病毒」。 The virus passes from one host cell to another within hours.",
     "sceneCN": "这里 virus 是「病毒」（第 1 个义项：只能在活细胞内复制的感染因子）；句意：这种病毒在数小时内就从一个宿主细胞传到另一个宿主细胞。图中可辨识物件：多面体外壳、伸出的尾部、被注入遗传物质的宿主细胞。",
     "pos": [
       {
@@ -2547,23 +2543,23 @@
     "forms": [
       {
         "label": "单数",
-        "form": "virus（一种病毒）"
+        "form": "virus"
       },
       {
         "label": "复数",
-        "form": "viruses（多种病毒；不用 viri）"
+        "form": "viruses viri"
       },
       {
         "label": "形容词形式",
-        "form": "viral（病毒的）"
+        "form": "viral"
       },
       {
         "label": "学科名称",
-        "form": "virology（病毒学）"
+        "form": "virology"
       },
       {
         "label": "名词（颗粒）",
-        "form": "virion（病毒颗粒）"
+        "form": "virion"
       }
     ],
     "derivatives": [
@@ -2743,14 +2739,14 @@
             {
               "word": "virion",
               "ipa": "/ˈvɪriən/",
-              "tag": "noun, the particle",
+              "tag": "noun the particle",
               "definition": "One complete virus particle outside a cell: the genetic material plus its protein coat. Virus names the agent; virion names the thing you could count.",
               "definitionCN": "细胞外的一个完整病毒颗粒，即遗传物质加蛋白质外壳；virus 命名的是因子，virion 命名的是可以计数的颗粒。"
             },
             {
               "word": "virulent",
               "ipa": "/vɪˈruːlənt/",
-              "tag": "adjective, poisonous",
+              "tag": "adjective poisonous",
               "definition": "Extremely harmful or infectious, from Latin virulentus 'poisonous'. It describes strength of harm, not the kind of agent.",
               "definitionCN": "指极具危害性或传染性的，来自拉丁 virulentus「有毒的」；描述危害的强度，而不是因子种类。"
             },
@@ -2769,7 +2765,7 @@
             {
               "word": "pathogen",
               "ipa": "/ˈpæθədʒən/",
-              "tag": "noun, disease agent",
+              "tag": "noun disease agent",
               "definition": "Any agent that causes disease, including bacteria and fungi. A virus is one kind of pathogen, but most pathogens are not viruses.",
               "definitionCN": "任何引起疾病的因子，包括细菌与真菌；病毒是病原的一种，但大多数病原并非病毒。"
             },
@@ -2783,14 +2779,14 @@
             {
               "word": "bacterium",
               "ipa": "/bækˈtɪəriəm/",
-              "tag": "noun, a cell",
+              "tag": "noun a cell",
               "definition": "A single-celled organism that can live and divide on its own. It is larger than a virus and is treatable with antibiotics, which viruses are not.",
               "definitionCN": "能独立生存分裂的单细胞生物；比病毒大，可用抗生素治疗，而病毒不能。"
             },
             {
               "word": "contagion",
               "ipa": "/kənˈteɪdʒən/",
-              "tag": "noun, spread of disease",
+              "tag": "noun spread of disease",
               "definition": "The spread of disease from one person to another, or the agent that spreads it. It names transmission, while virus names the agent.",
               "definitionCN": "疾病在人与人之间的传播，或造成传播的因子；它命名传播过程，而 virus 命名因子。"
             }
@@ -2879,27 +2875,27 @@
       ],
       "branches": [
         {
-          "senses": "S1",
+          "senses": "01",
           "en": "DEFINITION: the biological agent, defined by dependence on a host cell.",
           "cn": "定义：生物因子，以依赖宿主细胞来定义。"
         },
         {
-          "senses": "S2",
+          "senses": "02",
           "en": "METONYMY: the cause stands for the illness in everyday speech.",
           "cn": "转喻：日常语言里病因代替了疾病。"
         },
         {
-          "senses": "S3 · S4 · S8",
+          "senses": "03 · 04 · 08",
           "en": "METAPHOR: the same script runs in software, in minds and in institutions, with damage growing each time.",
           "cn": "隐喻：同一剧本在软件、心智与制度中运行，破坏性逐步加重。"
         },
         {
-          "senses": "S5",
+          "senses": "05",
           "en": "HISTORY: the old sense of poison and slime survives in technical and archaic writing.",
           "cn": "历史：毒与黏液的古义仍留在技术文字与古旧文字中。"
         },
         {
-          "senses": "S6 · S7",
+          "senses": "06 · 07",
           "en": "OBJECT AND TOOL: a strain is a virus you can store, and a vaccine virus is one you can use.",
           "cn": "对象与工具：毒株是可以保存的病毒，疫苗病毒是可以使用的病毒。"
         }
@@ -3003,7 +2999,7 @@
     "definition_zh": "病毒的；由病毒引起的；像病毒一样迅速传播的",
     "definition_en": "of, caused by, or spreading like a virus",
     "core_image": "一个人把手机递给旁边的人，屏幕上的同一条内容在人群里一圈圈亮起",
-    "scene": "The viral infection cleared after two weeks of rest.",
+    "scene": "这里指「病毒的」。 The viral infection cleared after two weeks of rest.",
     "sceneCN": "这里 viral 是「由病毒引起的」（第 2 个义项：病因来自病毒）；句意：休息两周后，这场病毒性感染消退了。图中可辨识物件：病床、病历上的病毒标记、逐渐恢复的体温曲线。",
     "pos": [
       {
@@ -3040,23 +3036,23 @@
     "forms": [
       {
         "label": "原级（形容词）",
-        "form": "viral（病毒的）"
+        "form": "viral"
       },
       {
         "label": "副词形式",
-        "form": "virally（以病毒方式地；经病毒传播地）"
+        "form": "virally"
       },
       {
         "label": "名词单数",
-        "form": "virus（病毒）"
+        "form": "virus"
       },
       {
         "label": "名词复数",
-        "form": "viruses（病毒，复数）"
+        "form": "viruses"
       },
       {
         "label": "相关抽象名词",
-        "form": "virality（病毒式传播性；传播力）"
+        "form": "virality"
       }
     ],
     "derivatives": [
@@ -3250,7 +3246,7 @@
             {
               "word": "virality",
               "ipa": "/vaɪˈræləti/",
-              "tag": "noun, the quality",
+              "tag": "noun the quality",
               "definition": "The quality of spreading quickly through sharing. It is a modern marketing noun, not a medical one.",
               "definitionCN": "指通过分享迅速扩散的性质；这是现代营销名词，不是医学名词。"
             }
@@ -3262,28 +3258,28 @@
             {
               "word": "bacterial",
               "ipa": "/bækˈtɪəriəl/",
-              "tag": "adjective, contrasting cause",
+              "tag": "adjective contrasting cause",
               "definition": "Caused by bacteria. It is the clinical opposite of viral and decides whether antibiotics can help.",
               "definitionCN": "由细菌引起的；它是 viral 的临床对立面，决定抗生素是否有用。"
             },
             {
               "word": "infectious",
               "ipa": "/ɪnˈfekʃəs/",
-              "tag": "adjective, transmissible",
+              "tag": "adjective transmissible",
               "definition": "Capable of being transmitted to others. It names transmissibility, not the kind of agent, so a bacterial disease can also be infectious.",
               "definitionCN": "指能够传染给他人的；命名的是可传播性，而不是因子种类，因此细菌性疾病也可以是 infectious。"
             },
             {
               "word": "contagious",
               "ipa": "/kənˈteɪdʒəs/",
-              "tag": "adjective, easily spread",
+              "tag": "adjective easily spread",
               "definition": "Easily spread from person to person, especially by contact. It stresses ease of spread and is often used of behaviour as well as disease.",
               "definitionCN": "指容易在人与人之间传播的，尤指经接触；强调传播的容易程度，也常用于形容行为。"
             },
             {
               "word": "epidemic",
               "ipa": "/ɪˈpemɪk/",
-              "tag": "adjective/noun, wide spread",
+              "tag": "adjective noun wide spread",
               "definition": "Affecting many people at once in a region. It describes the scale of an outbreak, not its cause.",
               "definitionCN": "指在一地区同时影响许多人的；描述疫情规模，而不是病因。"
             }
@@ -3372,27 +3368,27 @@
       ],
       "branches": [
         {
-          "senses": "S1",
+          "senses": "01",
           "en": "RELATION: the bare adjective of virus, with no claim about cause or spread.",
           "cn": "关联：最朴素的病毒形容词，不涉及病因或传播。"
         },
         {
-          "senses": "S2 · S3",
+          "senses": "02 · 03",
           "en": "MEDICAL CAUSE: the adjective answers what caused the illness and names the process.",
           "cn": "医学病因：形容词回答疾病由何引起，并命名该过程。"
         },
         {
-          "senses": "S6 · S7 · S8",
+          "senses": "06 · 07 · 08",
           "en": "MEASURE AND MECHANISM: load counts the virus, replication copies it, shedding releases it.",
           "cn": "测量与机制：载量在数病毒，复制在抄病毒，排出在放病毒。"
         },
         {
-          "senses": "S4",
+          "senses": "04",
           "en": "METAPHOR OF SPREAD: the person-to-person path is borrowed for ideas and content.",
           "cn": "传播隐喻：人对人的路径被借用于观念与内容。"
         },
         {
-          "senses": "S5",
+          "senses": "05",
           "en": "RESULT: an object becomes viral once the spread is complete, so the adjective labels an outcome.",
           "cn": "结果：扩散完成后对象才成为爆款，因此形容词标的是一个结果。"
         }
@@ -3496,7 +3492,7 @@
     "definition_zh": "病毒学；研究病毒及其复制、传播与致病的学科",
     "definition_en": "the science that studies viruses, their replication, spread, and effects",
     "core_image": "高等级实验室里成排的密封操作箱，屏幕上显示着一段段病毒基因组序列",
-    "scene": "The department of virology traced the outbreak to a single bat colony.",
+    "scene": "这里指「病毒学」。 The department of virology traced the outbreak to a single bat colony.",
     "sceneCN": "这里 virology 是「病毒学」（第 2 个义项：作为院系建制）；句意：病毒学系把这次疫情追溯到一个蝙蝠群落。图中可辨识物件：密封操作箱、基因序列屏幕、采样记录。",
     "pos": [
       {
@@ -3533,23 +3529,23 @@
     "forms": [
       {
         "label": "学科名词",
-        "form": "virology（病毒学，不可数）"
+        "form": "virology"
       },
       {
         "label": "从业者",
-        "form": "virologist（病毒学家）"
+        "form": "virologist"
       },
       {
         "label": "形容词形式",
-        "form": "virological（病毒学的）"
+        "form": "virological"
       },
       {
         "label": "副词形式",
-        "form": "virologically（从病毒学角度地）"
+        "form": "virologically"
       },
       {
         "label": "研究对象",
-        "form": "virus（病毒）"
+        "form": "virus"
       }
     ],
     "derivatives": [
@@ -3729,7 +3725,7 @@
             {
               "word": "virologist",
               "ipa": "/vaɪˈrɒlədʒɪst/",
-              "tag": "noun, person",
+              "tag": "noun person",
               "definition": "A person who practises virology. The ending -ist marks the practitioner rather than the field.",
               "definitionCN": "从事病毒学的人；词尾 -ist 标记从业者，而不是学科。"
             },
@@ -3743,7 +3739,7 @@
             {
               "word": "viral",
               "ipa": "/ˈvaɪrəl/",
-              "tag": "adjective, of viruses",
+              "tag": "adjective of viruses",
               "definition": "Of or caused by a virus. It is object-level, while virological is discipline-level.",
               "definitionCN": "指病毒的或由病毒引起的；它是对象层面的形容词，而 virological 是学科层面的。"
             }
@@ -3755,28 +3751,28 @@
             {
               "word": "microbiology",
               "ipa": "/ˌmaɪkrəʊbaɪˈɒlədʒi/",
-              "tag": "noun, wider field",
+              "tag": "noun wider field",
               "definition": "The study of microorganisms. It often includes viruses by convention, though viruses are not cells, so the two fields overlap at the border.",
               "definitionCN": "研究微生物的学科；按惯例常把病毒算在内，但病毒不是细胞，因此两个领域在边界处重叠。"
             },
             {
               "word": "bacteriology",
               "ipa": "/bækˌtɪəriˈɒlədʒi/",
-              "tag": "noun, bacteria only",
+              "tag": "noun bacteria only",
               "definition": "The study of bacteria, which are cells and can be treated with antibiotics. It is not a branch of virology.",
               "definitionCN": "研究细菌的学科；细菌是细胞，可用抗生素治疗，不属病毒学的分支。"
             },
             {
               "word": "epidemiology",
               "ipa": "/ˌepɪdiːmiˈɒlədʒi/",
-              "tag": "noun, spread in populations",
+              "tag": "noun spread in populations",
               "definition": "The study of how diseases spread through populations. It asks who, where and when, while virology asks what the agent is.",
               "definitionCN": "研究疾病在人群中如何传播的学科；它问的是谁、何处、何时，而病毒学问的是因子是什么。"
             },
             {
               "word": "immunology",
               "ipa": "/ˌɪmjʊˈnɒlədʒi/",
-              "tag": "noun, host defence",
+              "tag": "noun host defence",
               "definition": "The study of the immune system. It studies the host's response to viruses rather than the viruses themselves.",
               "definitionCN": "研究免疫系统的学科；它研究宿主对病毒的反应，而不是病毒本身。"
             }
@@ -3865,27 +3861,27 @@
       ],
       "branches": [
         {
-          "senses": "S1",
+          "senses": "01",
           "en": "KNOWLEDGE: the organised study of viruses is the root sense.",
           "cn": "知识：对病毒的系统研究是根义。"
         },
         {
-          "senses": "S2",
+          "senses": "02",
           "en": "INSTITUTION: a department with a building makes the field visible as an organisation.",
           "cn": "建制：有楼有人的院系让这个领域作为组织变得可见。"
         },
         {
-          "senses": "S3 · S5",
+          "senses": "03 · 05",
           "en": "CLINICAL PATH: the clinic identifies the agent, and diagnostics types it for treatment.",
           "cn": "临床路径：诊所鉴定因子，诊断部门为治疗而分型。"
         },
         {
-          "senses": "S4 · S7",
+          "senses": "04 · 07",
           "en": "MECHANISM AND HANDS: molecular work explains entry and copying, while laboratory methods make the work safe.",
           "cn": "机制与双手：分子工作解释进入与复制，实验室方法让工作安全。"
         },
         {
-          "senses": "S6 · S8",
+          "senses": "06 · 08",
           "en": "WIDER OBJECT: plants and ecosystems are studied too, and 'the virology of a sample' is the object standing in for the field.",
           "cn": "更宽的对象：植物与生态系统也在研究之列，而「样本的病毒学」是对象代学科出场。"
         }
@@ -3997,7 +3993,7 @@
     "definition_zh": "寄生物；寄生虫；靠他人养活的人",
     "definition_en": "an organism that lives on or in another organism and feeds at its expense, or a person who lives at others' expense",
     "core_image": "一条细长的蠕虫钩在宿主肠壁上，宿主的血流在旁边经过",
-    "scene": "The parasite feeds on the host's blood without killing it at once.",
+    "scene": "这里指「寄生物」。 The parasite feeds on the host's blood without killing it at once.",
     "sceneCN": "这里 parasite 是「寄生物」（第 1 个义项：靠宿主供养的生物）；句意：这种寄生物吸食宿主的血，却不立即杀死宿主。图中可辨识物件：钩在肠壁上的蠕虫、流经的血管、宿主的身体轮廓。",
     "pos": [
       {
@@ -4034,23 +4030,23 @@
     "forms": [
       {
         "label": "单数",
-        "form": "parasite（一个寄生物）"
+        "form": "parasite"
       },
       {
         "label": "复数",
-        "form": "parasites（多个寄生物）"
+        "form": "parasites"
       },
       {
         "label": "形容词形式",
-        "form": "parasitic（寄生的）"
+        "form": "parasitic"
       },
       {
         "label": "抽象名词",
-        "form": "parasitism（寄生；寄生关系）"
+        "form": "parasitism"
       },
       {
         "label": "动词形式",
-        "form": "parasitize（寄生于）"
+        "form": "parasitize"
       }
     ],
     "derivatives": [
@@ -4197,7 +4193,7 @@
           "cn": "第一个成分是 para-「在旁边」，第二个是 sitos「谷物、面包、食物」，其来源不确定。它也出现在 syssitos「同桌吃饭的人」中。sitos 常被解释为借词或底层词；Beekes 提出可能与意为「击打」的词根有关，但这仍有争议，因此第二成分的来源不确定。"
         },
         {
-          "era": "ENGLISH, 1530s",
+          "era": "ENGLISH, 1530S",
           "en": "English borrowed parasite in the 1530s for a hanger-on or toady, a social meaning that came straight from Greek comedy. The scientific sense appears in the 1640s.",
           "cn": "英语于十六世纪三十年代借入 parasite，指攀附者或马屁精，这一社会义直接来自希腊喜剧；科学义则在十七世纪四十年代出现。"
         },
@@ -4237,7 +4233,7 @@
             {
               "word": "parasitism",
               "ipa": "/ˈpærəsaɪtɪzəm/",
-              "tag": "noun, the relationship",
+              "tag": "noun the relationship",
               "definition": "The relationship between parasite and host. It names the arrangement, while parasite names one partner.",
               "definitionCN": "寄生物与宿主之间的关系；它命名这种安排，而 parasite 命名其中一方。"
             },
@@ -4256,28 +4252,28 @@
             {
               "word": "pathogen",
               "ipa": "/ˈpæθədʒən/",
-              "tag": "noun, disease agent",
+              "tag": "noun disease agent",
               "definition": "Any agent that causes disease. A parasite may be a pathogen, but many parasites cause little or no disease, and bacteria are pathogens without being parasites.",
               "definitionCN": "任何引起疾病的因子；寄生物可能是病原，但许多寄生物几乎不致病，而细菌可以是病原却不是寄生物。"
             },
             {
               "word": "symbiont",
               "ipa": "/sɪmˈbaɪɒnt/",
-              "tag": "noun, partner",
+              "tag": "noun partner",
               "definition": "An organism living in close association with another. The term is neutral, while parasite names a cost to the host.",
               "definitionCN": "与其他生物密切共同生活的生物；这个术语是中性的，而 parasite 命名的是宿主付出的代价。"
             },
             {
               "word": "commensal",
               "ipa": "/kəˈmensəl/",
-              "tag": "noun/adjective, one who shares a table",
+              "tag": "noun adjective one who shares a ta",
               "definition": "An organism that lives with a host and takes food from it without harming it. It is literally 'at the same table', a milder version of parasite.",
               "definitionCN": "与宿主共同生活、从其处取食却不伤害它的生物；字面意为「同桌吃饭」，是 parasite 的温和版本。"
             },
             {
               "word": "freeloader",
               "ipa": "/ˈfriːləʊdə/",
-              "tag": "noun, social insult",
+              "tag": "noun social insult",
               "definition": "An informal word for a person who takes without paying. It is the everyday equivalent of the social sense, with less bite than parasite.",
               "definitionCN": "指只索取不付钱的人的非正式词；它是社会义项的日常对应词，语气比 parasite 稍轻。"
             }
@@ -4366,27 +4362,27 @@
       ],
       "branches": [
         {
-          "senses": "S1",
+          "senses": "01",
           "en": "DEFINITION: the biological core, feeding at a host's expense.",
           "cn": "定义：生物学核心，靠宿主付账取食。"
         },
         {
-          "senses": "S2 · S3",
+          "senses": "02 · 03",
           "en": "HOST KINDS: the host can be a human body or a plant, and the feeding organ changes with it.",
           "cn": "宿主种类：宿主可以是人体或植物，取食器官也随之改变。"
         },
         {
-          "senses": "S4 · S5",
+          "senses": "04 · 05",
           "en": "SOCIAL AND NEST COST: the cost can be rent-free living or childcare, not only food.",
           "cn": "社会与巢中的代价：代价可以是白住或代养，而不只是食物。"
         },
         {
-          "senses": "S6 · S7",
+          "senses": "06 · 07",
           "en": "DEGREE AND MEASURE: dependence can be obligate or facultative, and the burden can be counted as a load.",
           "cn": "程度与测量：依赖可以是专性或兼性，负担可以按负荷计数。"
         },
         {
-          "senses": "S8",
+          "senses": "08",
           "en": "ABSTRACT HOST: the metaphor can attach a company or an activity to an economy.",
           "cn": "抽象宿主：这个隐喻可以把一家公司或一项活动附着到经济体上。"
         }
@@ -4490,7 +4486,7 @@
     "definition_zh": "寄生的；寄生物引起的；依附他人而生的",
     "definition_en": "living as a parasite, caused by parasites, or dependent on others at their expense",
     "core_image": "一条丝状的寄生植物缠绕在树干上，细根扎进树皮深处",
-    "scene": "A parasitic worm was found in the fish's muscle.",
+    "scene": "这里指「寄生的」。 A parasitic worm was found in the fish's muscle.",
     "sceneCN": "这里 parasitic 是「寄生的」（第 1 个义项：以寄生方式生活）；句意：在鱼的肌肉里发现了一条寄生蠕虫。图中可辨识物件：鱼体剖面、肌肉中的蠕虫、取样镊子。",
     "pos": [
       {
@@ -4527,23 +4523,23 @@
     "forms": [
       {
         "label": "原级（形容词）",
-        "form": "parasitic（寄生的）"
+        "form": "parasitic"
       },
       {
         "label": "另一形容词形式",
-        "form": "parasitical（寄生的；旧式变体）"
+        "form": "parasitical"
       },
       {
         "label": "副词形式",
-        "form": "parasitically（以寄生方式地）"
+        "form": "parasitically"
       },
       {
         "label": "名词单数",
-        "form": "parasite（寄生物）"
+        "form": "parasite"
       },
       {
         "label": "抽象名词",
-        "form": "parasitism（寄生；寄生关系）"
+        "form": "parasitism"
       }
     ],
     "derivatives": [
@@ -4723,7 +4719,7 @@
             {
               "word": "parasitical",
               "ipa": "/ˌpærəˈsɪtɪkəl/",
-              "tag": "adjective, older variant",
+              "tag": "adjective older variant",
               "definition": "An older synonym of parasitic, formed with -al. It survives in some nineteenth-century and technical writing.",
               "definitionCN": "parasitic 的旧式同义词，用 -al 构成；仍见于部分十九世纪与技术性文字。"
             },
@@ -4749,28 +4745,28 @@
             {
               "word": "symbiotic",
               "ipa": "/ˌsɪmbaɪˈɒtɪk/",
-              "tag": "adjective, living together",
+              "tag": "adjective living together",
               "definition": "Living in close association, usually with benefit to both. It is the neutral or positive counterpart of parasitic, not a synonym.",
               "definitionCN": "指密切共同生活的，通常双方受益；它是 parasitic 的中性或正面对应词，并非同义。"
             },
             {
               "word": "commensal",
               "ipa": "/kəˈmensəl/",
-              "tag": "adjective/noun, sharing a table",
+              "tag": "adjective noun sharing a table",
               "definition": "Living with a host and taking food without harming it. It is a milder relation than parasitic, which implies a cost.",
               "definitionCN": "与宿主共同生活、取食而不伤害它；比 parasitic 温和，后者意味着代价。"
             },
             {
               "word": "infectious",
               "ipa": "/ɪnˈfekʃəs/",
-              "tag": "adjective, transmissible",
+              "tag": "adjective transmissible",
               "definition": "Capable of being transmitted. Parasitic diseases may be infectious, but the adjective describes transmission, not the mode of feeding.",
               "definitionCN": "指可传播的；寄生虫病可能具有传染性，但该形容词描述传播，而不是取食方式。"
             },
             {
               "word": "dependent",
               "ipa": "/dɪˈpendənt/",
-              "tag": "adjective, relying on another",
+              "tag": "adjective relying on another",
               "definition": "Relying on someone or something for support. In the social sense it is close to parasitic, but it carries no judgment of exploitation.",
               "definitionCN": "指依靠他人或他物支持的；在社会义上接近 parasitic，但不含「剥削」的评判。"
             }
@@ -4859,27 +4855,27 @@
       ],
       "branches": [
         {
-          "senses": "S1",
+          "senses": "01",
           "en": "MODE OF LIFE: the core adjective describes how the organism lives, not what it is.",
           "cn": "生活方式：核心形容词描述生物如何生活，而不是它是什么。"
         },
         {
-          "senses": "S2 · S3",
+          "senses": "02 · 03",
           "en": "MEDICAL CAUSE: the parasitic agent can be a worm or a protozoan, and the adjective names it as the cause.",
           "cn": "医学病因：寄生因子可以是蠕虫或原虫，形容词把它标为病因。"
         },
         {
-          "senses": "S4",
+          "senses": "04",
           "en": "BOTANY: the host becomes a plant and the feeding organ becomes a haustorium.",
           "cn": "植物学：宿主变成植物，取食器官变成吸器。"
         },
         {
-          "senses": "S5 · S7 · S8",
+          "senses": "05 · 07 · 08",
           "en": "TRANSFERRED COST: people, sentences and machines can all host a one-way drain.",
           "cn": "转移的成本：人、句子与机器都可以承载一边倒的消耗。"
         },
         {
-          "senses": "S6",
+          "senses": "06",
           "en": "ENGINEERING: unwanted capacitance is the clearest non-living parasite.",
           "cn": "工程学：不需要的电容是最清楚的非生命「寄生物」。"
         }
@@ -4991,7 +4987,7 @@
     "definition_zh": "寄生；寄生关系；靠他人供养的生存方式",
     "definition_en": "the relationship or way of life in which one organism lives at the expense of another",
     "core_image": "两种生物并列：一方贴附在另一方身上，养分的箭头只朝一个方向流动",
-    "scene": "Parasitism keeps the worm alive while slowly weakening the host.",
+    "scene": "这里指「寄生」。 Parasitism keeps the worm alive while slowly weakening the host.",
     "sceneCN": "这里 parasitism 是「寄生关系」（第 1 个义项：一方受益、一方受损的种间关系）；句意：寄生关系让蠕虫存活，同时慢慢削弱宿主。图中可辨识物件：两种生物、单向的养分箭头、逐渐虚弱的宿主轮廓。",
     "pos": [
       {
@@ -5028,23 +5024,23 @@
     "forms": [
       {
         "label": "抽象名词",
-        "form": "parasitism（寄生；寄生关系，不可数）"
+        "form": "parasitism"
       },
       {
         "label": "施动者名词",
-        "form": "parasite（寄生物）"
+        "form": "parasite"
       },
       {
         "label": "形容词形式",
-        "form": "parasitic（寄生的）"
+        "form": "parasitic"
       },
       {
         "label": "动词形式",
-        "form": "parasitize（寄生于）"
+        "form": "parasitize"
       },
       {
         "label": "学科名称",
-        "form": "parasitology（寄生虫学）"
+        "form": "parasitology"
       }
     ],
     "derivatives": [
@@ -5191,7 +5187,7 @@
           "cn": "希腊 -ismos 与拉丁 -ismus 构成表示做法、制度与学说的名词；加在 parasite 上，它造出做法之名，而不是从业者之名。"
         },
         {
-          "era": "ENGLISH, 1610s",
+          "era": "ENGLISH, 1610S",
           "en": "Parasitism is recorded from the 1610s with the sense 'a habitual living on or at the expense of another'. The first users were describing people, not worms.",
           "cn": "parasitism 记录于十七世纪十年代，义为「习惯性地靠他人供养生活」；最早的使用者描述的是人，不是蠕虫。"
         },
@@ -5224,7 +5220,7 @@
             {
               "word": "parasite",
               "ipa": "/ˈpærəsaɪt/",
-              "tag": "noun, the actor",
+              "tag": "noun the actor",
               "definition": "The organism that lives at the host's expense. Parasitism names the relationship, parasite names one partner.",
               "definitionCN": "靠宿主供养的生物；parasitism 命名关系，parasite 命名其中一方。"
             },
@@ -5250,28 +5246,28 @@
             {
               "word": "mutualism",
               "ipa": "/mjuːˈtjuːəlɪzəm/",
-              "tag": "noun, both benefit",
+              "tag": "noun both benefit",
               "definition": "A relationship in which both partners gain. It is the positive counterpart of parasitism, not a variant of it.",
               "definitionCN": "双方都获益的关系；它是 parasitism 的正面对应，而不是其变体。"
             },
             {
               "word": "commensalism",
               "ipa": "/kəˈmensəlɪzəm/",
-              "tag": "noun, one gains, one unaffected",
+              "tag": "noun one gains one unaffected",
               "definition": "A relationship in which one partner gains and the other is neither helped nor harmed. It is milder than parasitism because the host pays no cost.",
               "definitionCN": "一方获益、另一方既不受益也不受损的关系；它比 parasitism 温和，因为宿主不付代价。"
             },
             {
               "word": "exploitation",
               "ipa": "/ɪkˈsplɔɪˈteɪʃən/",
-              "tag": "noun, using another",
+              "tag": "noun using another",
               "definition": "The act of using another for one's own advantage. It is the general social meaning that parasitism narrows to a way of life.",
               "definitionCN": "为自身利益利用他者的行为；它是泛指的社会含义，parasitism 则把它收窄为一种生活方式。"
             },
             {
               "word": "parasitosis",
               "ipa": "/ˌpærəsaɪˈtəʊsɪs/",
-              "tag": "noun, the disease",
+              "tag": "noun the disease",
               "definition": "A disease caused by parasites. It names the medical condition, while parasitism names the relationship.",
               "definitionCN": "由寄生物引起的疾病；它命名医学状况，而 parasitism 命名关系。"
             }
@@ -5360,27 +5356,27 @@
       ],
       "branches": [
         {
-          "senses": "S1",
+          "senses": "01",
           "en": "RELATIONSHIP: the core abstract sense, one benefits and one is harmed.",
           "cn": "关系：核心抽象义，一方获益、一方受损。"
         },
         {
-          "senses": "S2 · S3",
+          "senses": "02 · 03",
           "en": "TRANSFERRED COST: the cost can be food, rent or parental care, and the host can be a household or a nest.",
           "cn": "转移的成本：成本可以是食物、房租或育雏，宿主可以是家庭或鸟巢。"
         },
         {
-          "senses": "S4 · S5",
+          "senses": "04 · 05",
           "en": "DEGREE: obligate and facultative measure whether the host is a necessity or an option.",
           "cn": "程度：专性与兼性衡量宿主是必需还是可选。"
         },
         {
-          "senses": "S6",
+          "senses": "06",
           "en": "LEVEL: hyperparasitism stacks the relationship so that a parasite becomes a host.",
           "cn": "层级：超寄生把关系叠起来，使寄生物反过来成为宿主。"
         },
         {
-          "senses": "S7 · S8",
+          "senses": "07 · 08",
           "en": "MEASURE AND STRATEGY: ecology counts how often it happens, and evolution treats it as a route to survival.",
           "cn": "测量与策略：生态学数它发生的频率，演化论把它当作一条生存路线。"
         }
@@ -5492,7 +5488,7 @@
     "definition_zh": "主人；宿主；（活动的）主办方；主持人；主机",
     "definition_en": "a person who receives guests, an organism that harbours another, the organiser of an event, or a computer that serves others",
     "core_image": "一扇打开的门，主人站在门内迎接客人，屋内为客人留着一间房",
-    "scene": "The host offered the guests a room for the night.",
+    "scene": "这里指「主人」。 The host offered the guests a room for the night.",
     "sceneCN": "这里 host 是「主人」（第 1 个义项：接待客人的人）；句意：主人为客人们提供了一间过夜用的房间。图中可辨识物件：打开的门、站在门内的主人、为客人准备的房间。",
     "pos": [
       {
@@ -5533,31 +5529,23 @@
     "forms": [
       {
         "label": "单数",
-        "form": "host（一位主人；一个宿主）"
+        "form": "host"
       },
       {
         "label": "复数",
-        "form": "hosts（多位主人；多个宿主）"
-      },
-      {
-        "label": "动词原形",
-        "form": "host（主办；主持）"
-      },
-      {
-        "label": "动词三单",
-        "form": "hosts（主办；主持，第三人称单数）"
+        "form": "hosts"
       },
       {
         "label": "动词过去式",
-        "form": "hosted（主办了；主持了）"
+        "form": "hosted"
       },
       {
         "label": "动词现在分词",
-        "form": "hosting（主办中；主持中）"
+        "form": "hosting"
       },
       {
         "label": "阴性名词",
-        "form": "hostess（女主人；女主持人）"
+        "form": "hostess"
       }
     ],
     "derivatives": [
@@ -5737,21 +5725,21 @@
             {
               "word": "hostess",
               "ipa": "/ˈhəʊstəs/",
-              "tag": "noun, feminine",
+              "tag": "noun feminine",
               "definition": "A female host, or a woman employed to welcome guests. It shares the hospitality root and is not a separate source word.",
               "definitionCN": "女主人，或受雇迎接客人的女性；它与待客词根同源，并非另一个来源词。"
             },
             {
               "word": "hostage",
               "ipa": "/ˈhɒstɪdʒ/",
-              "tag": "noun, captive",
+              "tag": "noun captive",
               "definition": "A person held as security for another's promise. It comes through the same hospitality root, historically from the idea of a guest handed over as a pledge.",
               "definitionCN": "被扣押以保证他人履约的人；它经同一待客词根而来，历史上源于把客人交作担保的观念。"
             },
             {
               "word": "host (army)",
               "ipa": "/həʊst/",
-              "tag": "homograph, different source",
+              "tag": "homograph different source",
               "definition": "A multitude or army, from Latin hostis 'enemy'. It looks identical to the hospitality host but descends from a different Latin word and must not be confused with it.",
               "definitionCN": "指大军或众多，来自拉丁 hostis「敌人」；它与待客义的 host 外形完全相同，却源自另一个拉丁词，不可混为一谈。"
             }
@@ -5763,28 +5751,28 @@
             {
               "word": "landlord",
               "ipa": "/ˈlændlɔːd/",
-              "tag": "noun, owner who receives",
+              "tag": "noun owner who receives",
               "definition": "The owner of a house or room who receives paying tenants. It is narrower than host and involves rent.",
               "definitionCN": "拥有房屋或房间、接待付费租客的人；比 host 窄，且涉及租金。"
             },
             {
               "word": "presenter",
               "ipa": "/prɪˈzentə/",
-              "tag": "noun, broadcast host",
+              "tag": "noun broadcast host",
               "definition": "A person who introduces and guides a programme. It is the British equivalent of the broadcast sense of host.",
               "definitionCN": "介绍并引导节目的人；在广播义上相当于英式的 host。"
             },
             {
               "word": "server",
               "ipa": "/ˈsɜːvə/",
-              "tag": "noun, computing",
+              "tag": "noun computing",
               "definition": "A computer or program that provides services to clients. In computing it overlaps with host, though host stresses the machine and server stresses the service.",
               "definitionCN": "为客户端提供服务的计算机或程序；在计算领域与 host 重叠，但 host 强调机器，server 强调服务。"
             },
             {
               "word": "emcee",
               "ipa": "/ˌemˈsiː/",
-              "tag": "noun, event host",
+              "tag": "noun event host",
               "definition": "An informal word for a master of ceremonies, the person who keeps a live event moving. It is narrower than host and belongs to entertainment.",
               "definitionCN": "指司仪的非正式词，即让现场活动顺畅进行的人；比 host 窄，属于娱乐语境。"
             }
@@ -5873,27 +5861,27 @@
       ],
       "branches": [
         {
-          "senses": "S1",
+          "senses": "01",
           "en": "HOSPITALITY: the root social sense, a person who receives guests.",
           "cn": "待客：根本的社会义，接待客人的人。"
         },
         {
-          "senses": "S2",
+          "senses": "02",
           "en": "BIOLOGY: the guest is uninvited and the cost is paid by the host's body.",
           "cn": "生物学：客人不请自来，代价由宿主的身体支付。"
         },
         {
-          "senses": "S3 · S4",
+          "senses": "03 · 04",
           "en": "PUBLIC RECEPTION: a city or an institution stages an event, a presenter guides it.",
           "cn": "公共接待：城市或机构举办活动，主持人引导活动。"
         },
         {
-          "senses": "S5",
+          "senses": "05",
           "en": "MACHINE: a host computer keeps the resource and answers requests.",
           "cn": "机器：主机保存资源并回答请求。"
         },
         {
-          "senses": "S6 · S7 · S8",
+          "senses": "06 · 07 · 08",
           "en": "OTHER SOURCES: the army and the multitude come from hostis, and the wafer comes from hostia; all three merely share a spelling.",
           "cn": "其他来源：大军与众多来自 hostis，圣体来自 hostia；三者只是共用拼写。"
         }
@@ -6003,7 +5991,7 @@
     "definition_zh": "宿主生物；寄生物或共生体所依附、并在其中生活的那一个生物",
     "definition_en": "the organism in or on which a parasite, symbiont or research agent lives",
     "core_image": "培养皿中央一只小鼠，体内标出寄生物的路径，周围是记录宿主状态的仪器",
-    "scene": "Researchers used a mouse as the host organism for the parasite.",
+    "scene": "这里指「宿主生物」。 Researchers used a mouse as the host organism for the parasite.",
     "sceneCN": "这里 host organism 是「宿主生物」（第 1 个义项：寄生物所依附的生物）；句意：研究者用小鼠作为这种寄生物的宿主生物。图中可辨识物件：小鼠、体内寄生物路径的标记、监测仪器。",
     "pos": [
       {
@@ -6040,23 +6028,23 @@
     "forms": [
       {
         "label": "单数",
-        "form": "host organism（一个宿主生物）"
+        "form": "host organism"
       },
       {
         "label": "复数",
-        "form": "host organisms（多个宿主生物）"
+        "form": "host organisms"
       },
       {
         "label": "组成词一",
-        "form": "host（宿主；主人）"
+        "form": "host"
       },
       {
         "label": "组成词二",
-        "form": "organism（生物体）"
+        "form": "organism"
       },
       {
         "label": "形容词形式",
-        "form": "host-organism（作定语时用连字符，如 host-organism specificity）"
+        "form": "host-organism host-organism specificity"
       }
     ],
     "derivatives": [
@@ -6236,21 +6224,21 @@
             {
               "word": "host cell",
               "ipa": "/həʊst sel/",
-              "tag": "noun, narrower unit",
+              "tag": "noun narrower unit",
               "definition": "The single cell in which a virus or intracellular parasite replicates. It is a level below the whole host organism.",
               "definitionCN": "病毒或胞内寄生物在其中复制的单个细胞；它是比整个宿主生物低一层的单位。"
             },
             {
               "word": "organism",
               "ipa": "/ˈɔːɡənɪzəm/",
-              "tag": "noun, living body",
+              "tag": "noun living body",
               "definition": "Any living body. It says nothing about hosting, so the phrase needs host to mark the role.",
               "definitionCN": "任何活的生物体；它不涉及宿主角色，因此必须加 host 才能标出这一角色。"
             },
             {
               "word": "host",
               "ipa": "/həʊst/",
-              "tag": "noun, the role",
+              "tag": "noun the role",
               "definition": "The receiving partner. Alone it can also mean a person or a computer, which is why organism is added for clarity.",
               "definitionCN": "指接受的一方；单独使用时也可指人或计算机，因此加上 organism 以求明确。"
             }
@@ -6262,28 +6250,28 @@
             {
               "word": "reservoir host",
               "ipa": "/rɪˈzɜːvɔɪə həʊst/",
-              "tag": "noun, long-term source",
+              "tag": "noun long-term source",
               "definition": "A host population in which a pathogen persists and from which it can spread. It is a role within the host category, not a synonym for any host organism.",
               "definitionCN": "病原在其中长期存续、并可从中扩散的宿主种群；它是宿主类别中的一种角色，并不等于任意宿主生物。"
             },
             {
               "word": "definitive host",
               "ipa": "/dɪˈfɪnɪtɪv həʊst/",
-              "tag": "noun, sexual stage",
+              "tag": "noun sexual stage",
               "definition": "The host in which a parasite reaches sexual maturity. It is defined by the parasite's life cycle, not by size or immunity.",
               "definitionCN": "寄生物在其中达到性成熟的宿主；它按寄生物生活史来定义，而不是按大小或免疫状态。"
             },
             {
               "word": "intermediate host",
               "ipa": "/ɪnˈterəmediət həʊst/",
-              "tag": "noun, larval stage",
+              "tag": "noun larval stage",
               "definition": "The host in which a parasite passes its larval or asexual stage. It is the necessary middle of a multi-host cycle.",
               "definitionCN": "寄生物在其中度过幼虫或无性阶段的宿主；它是多宿主生活史中必需的中间环节。"
             },
             {
               "word": "vector",
               "ipa": "/ˈvektə/",
-              "tag": "noun, carrier",
+              "tag": "noun carrier",
               "definition": "An organism that carries a pathogen from one host to another. It transmits rather than shelters the long-term relationship.",
               "definitionCN": "把病原从一个宿主带到另一个宿主的生物；它负责传播，而不是长期容纳这段关系。"
             }
@@ -6372,27 +6360,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S2",
+          "senses": "01 · 02",
           "en": "PARTNERSHIP: the same receiving body serves a parasite or a symbiont, and the phrase stays neutral about benefit.",
           "cn": "伙伴关系：同一个接受方身体既可服务寄生物也可服务共生体，短语对益处保持中立。"
         },
         {
-          "senses": "S3 · S7 · S8",
+          "senses": "03 · 07 · 08",
           "en": "DESIGN: research, genetic editing and industry choose the host rather than merely finding it.",
           "cn": "设计：研究、基因编辑与工业是选择宿主，而不只是发现宿主。"
         },
         {
-          "senses": "S4",
+          "senses": "04",
           "en": "MEASURE: host range turns the relationship into a countable set of species.",
           "cn": "测量：宿主范围把这段关系变成可计数的物种集合。"
         },
         {
-          "senses": "S5",
+          "senses": "05",
           "en": "DEFENCE: the host organism is also an actor that fights back.",
           "cn": "防御：宿主生物也是一个会反击的行动者。"
         },
         {
-          "senses": "S6",
+          "senses": "06",
           "en": "LANDSCAPE: ecology sees the host body as a habitat with zones and resources.",
           "cn": "景观：生态学把宿主身体看作有分区与资源的生境。"
         }
@@ -6496,7 +6484,7 @@
     "definition_zh": "共生；两种不同生物长期共同生活的状态或关系",
     "definition_en": "a long-term living together of two different organisms, often with benefit to both",
     "core_image": "珊瑚与体内的藻类并列，彼此交换养分，箭头双向流动",
-    "scene": "The symbiosis between the coral and its algae keeps both alive in poor water.",
+    "scene": "这里指「共生」。 The symbiosis between the coral and its algae keeps both alive in poor water.",
     "sceneCN": "这里 symbiosis 是「共生」（第 1 个义项：两种生物长期共同生活）；句意：珊瑚与其藻类的共生让两者在贫瘠的水中都能存活。图中可辨识物件：珊瑚、体内的藻类、双向的养分箭头。",
     "pos": [
       {
@@ -6533,27 +6521,27 @@
     "forms": [
       {
         "label": "单数",
-        "form": "symbiosis（一种共生关系）"
+        "form": "symbiosis"
       },
       {
         "label": "复数",
-        "form": "symbioses（多种共生关系）"
+        "form": "symbioses"
       },
       {
         "label": "形容词形式",
-        "form": "symbiotic（共生的）"
+        "form": "symbiotic"
       },
       {
         "label": "参与方名词",
-        "form": "symbiont（共生体；共生双方之一）"
+        "form": "symbiont"
       },
       {
         "label": "副词形式",
-        "form": "symbiotically（以共生方式地）"
+        "form": "symbiotically"
       },
       {
         "label": "动词形式（后构）",
-        "form": "symbiose（形成共生；1960 年后构）"
+        "form": "symbiose1960"
       }
     ],
     "derivatives": [
@@ -6700,7 +6688,7 @@
           "cn": "syn-「一起」是该前缀在唇音前发生同化的形式；bios 意为「生命、生命历程」。同一个 bios 也构成 biology 与 microbe。"
         },
         {
-          "era": "EARLIER ENGLISH SENSE, 1620s",
+          "era": "EARLIER ENGLISH SENSE, 1620S",
           "en": "An English sense 'communal or social life' is recorded in the 1620s, long before the biological use. It shows that the word's social application is not a modern metaphor but an old branch.",
           "cn": "英语中「共同或社会生活」的义项记录于十七世纪二十年代，远早于生物学用法；这说明该词的社会用法不是现代隐喻，而是一条古老的支线。"
         },
@@ -6733,7 +6721,7 @@
             {
               "word": "symbiont",
               "ipa": "/sɪmˈbaɪɒnt/",
-              "tag": "noun, participant",
+              "tag": "noun participant",
               "definition": "Either partner in a symbiosis. The relationship is symbiosis; the member is a symbiont.",
               "definitionCN": "共生关系中的任一方；关系本身是 symbiosis，成员则是 symbiont。"
             },
@@ -6759,28 +6747,28 @@
             {
               "word": "mutualism",
               "ipa": "/mjuːˈtjuːəlɪzəm/",
-              "tag": "noun, both benefit",
+              "tag": "noun both benefit",
               "definition": "The type of symbiosis in which both partners gain. It is a narrower and more precise term than symbiosis.",
               "definitionCN": "双方都获益的那一类共生；它比 symbiosis 更窄、更精确。"
             },
             {
               "word": "commensalism",
               "ipa": "/kəˈmensəlɪzəm/",
-              "tag": "noun, one gains, one unaffected",
+              "tag": "noun one gains one unaffected",
               "definition": "A relationship in which one partner benefits and the other is neither helped nor harmed. It is one point on the symbiosis spectrum.",
               "definitionCN": "一方获益、另一方既不受益也不受损的关系；它是共生谱系上的一个点。"
             },
             {
               "word": "parasitism",
               "ipa": "/ˈpærəsaɪtɪzəm/",
-              "tag": "noun, one benefits, one harmed",
+              "tag": "noun one benefits one harmed",
               "definition": "A relationship in which one partner gains at the other's expense. In the broad definition it counts as symbiosis; in the narrow one it does not.",
               "definitionCN": "一方以另一方为代价获益的关系；按广义定义它算共生，按狭义定义则不算。"
             },
             {
               "word": "cooperation",
               "ipa": "/kəʊˌɒpəˈreɪʃən/",
-              "tag": "noun, working together",
+              "tag": "noun working together",
               "definition": "Working together for a shared aim. It describes behaviour and need not be a long-term biological union.",
               "definitionCN": "为共同目标一起工作；它描述行为，不一定是长期的生物学结合。"
             }
@@ -6869,27 +6857,27 @@
       ],
       "branches": [
         {
-          "senses": "S1",
+          "senses": "01",
           "en": "COHABITATION: the root sense, long-term living together with no claim about benefit.",
           "cn": "共同居住：根义，长期共同生活，不宣称获益。"
         },
         {
-          "senses": "S2 · S3 · S4",
+          "senses": "02 · 03 · 04",
           "en": "THE SPECTRUM: mutualism, commensalism and parasitism are three points on the same axis.",
           "cn": "谱系：互利、偏利与寄生是同一轴上的三个点。"
         },
         {
-          "senses": "S5",
+          "senses": "05",
           "en": "SOCIETY: groups and institutions can live together and supply each other's lacks.",
           "cn": "社会：群体与机构可以共同生活，彼此补足所缺。"
         },
         {
-          "senses": "S6 · S7",
+          "senses": "06 · 07",
           "en": "INDUSTRY AND ECOSYSTEM: waste becomes input, and partnership keeps a system stable.",
           "cn": "产业与生态系统：废物变成投入，伙伴关系维持系统稳定。"
         },
         {
-          "senses": "S8",
+          "senses": "08",
           "en": "MUTUAL SHAPING: technology and society change each other, the furthest extension of cohabitation.",
           "cn": "相互塑造：技术与社会互相改变，这是共同居住最远的引申。"
         }
@@ -7001,7 +6989,7 @@
     "definition_zh": "共生的；与共生有关的；相互依赖的",
     "definition_en": "of, relating to, or depending on a symbiosis",
     "core_image": "树根与真菌菌丝交织成网，两端各有箭头交换水分与磷",
-    "scene": "The symbiotic partnership lets the tree obtain phosphorus from the fungus.",
+    "scene": "这里指「共生的」。 The symbiotic partnership lets the tree obtain phosphorus from the fungus.",
     "sceneCN": "这里 symbiotic 是「共生的」（第 1 个义项：与共生关系有关）；句意：这种共生伙伴关系让树木从真菌那里获得磷。图中可辨识物件：树根、菌丝网、双向交换的箭头。",
     "pos": [
       {
@@ -7038,23 +7026,23 @@
     "forms": [
       {
         "label": "原级（形容词）",
-        "form": "symbiotic（共生的）"
+        "form": "symbiotic"
       },
       {
         "label": "副词形式",
-        "form": "symbiotically（以共生方式地）"
+        "form": "symbiotically"
       },
       {
         "label": "名词形式",
-        "form": "symbiosis（共生；共生关系）"
+        "form": "symbiosis"
       },
       {
         "label": "参与方名词",
-        "form": "symbiont（共生体；共生双方之一）"
+        "form": "symbiont"
       },
       {
         "label": "名词复数",
-        "form": "symbioses（共生关系，复数）"
+        "form": "symbioses"
       }
     ],
     "derivatives": [
@@ -7241,7 +7229,7 @@
             {
               "word": "symbiont",
               "ipa": "/sɪmˈbaɪɒnt/",
-              "tag": "noun, participant",
+              "tag": "noun participant",
               "definition": "One of the organisms in the relationship. It is a member, not the relation or its adjective.",
               "definitionCN": "关系中的一方生物；它是成员，不是关系本身或其形容词。"
             },
@@ -7260,28 +7248,28 @@
             {
               "word": "mutualistic",
               "ipa": "/ˌmjuːtjuəˈlɪstɪk/",
-              "tag": "adjective, both benefit",
+              "tag": "adjective both benefit",
               "definition": "Describing a relationship in which both partners benefit. It is more precise than symbiotic when the benefit is known.",
               "definitionCN": "描述双方都获益的关系；当已知双方获益时，它比 symbiotic 更精确。"
             },
             {
               "word": "commensal",
               "ipa": "/kəˈmensəl/",
-              "tag": "adjective, one gains, one unaffected",
+              "tag": "adjective one gains one unaffected",
               "definition": "Describing a relationship in which one partner gains and the other is unaffected. It marks a different point on the spectrum.",
               "definitionCN": "描述一方获益、另一方不受影响的关系；它标记谱系上的另一个点。"
             },
             {
               "word": "parasitic",
               "ipa": "/ˌpærəˈsɪtɪk/",
-              "tag": "adjective, one harmed",
+              "tag": "adjective one harmed",
               "definition": "Describing a relationship in which one partner gains at the other's expense. It is the negative end of the same spectrum.",
               "definitionCN": "描述一方以另一方为代价获益的关系；它是同一谱系的负端。"
             },
             {
               "word": "interdependent",
               "ipa": "/ˌɪntədɪˈpendənt/",
-              "tag": "adjective, mutual reliance",
+              "tag": "adjective mutual reliance",
               "definition": "Relying on each other. It describes the dependence that symbiosis often creates but says nothing about biology or benefit.",
               "definitionCN": "指互相依赖的；它描述共生常造成的依赖，但不涉及生物学或获益。"
             }
@@ -7370,27 +7358,27 @@
       ],
       "branches": [
         {
-          "senses": "S1",
+          "senses": "01",
           "en": "RELATION: the bare adjective, neutral about benefit.",
           "cn": "关系：最朴素的形容词，对获益保持中立。"
         },
         {
-          "senses": "S2 · S3",
+          "senses": "02 · 03",
           "en": "PARTNERS AND MICROBES: the relationship can be named neutrally, and bacteria are its commonest members.",
           "cn": "伙伴与微生物：这种关系可以被中性命名，而细菌是其最常见的成员。"
         },
         {
-          "senses": "S4 · S5",
+          "senses": "04 · 05",
           "en": "DEPENDENCE AND GAIN: the union can be a burden or a benefit, and the adjective shades accordingly.",
           "cn": "依赖与获益：这种结合可以是负担也可以是益处，形容词的色彩随之变化。"
         },
         {
-          "senses": "S6",
+          "senses": "06",
           "en": "ROOTS: botany supplies the clearest mutual exchange, sugar for minerals.",
           "cn": "根际：植物学提供了最清楚的互利交换——糖换矿质。"
         },
         {
-          "senses": "S7 · S8",
+          "senses": "07 · 08",
           "en": "EXTENSIONS: industry reuses the image for material flows, and society for human bonds.",
           "cn": "引申：工业把这一画面用于物质流，社会把它用于人际纽带。"
         }

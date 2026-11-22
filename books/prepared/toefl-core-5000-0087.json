@@ -54,15 +54,7 @@
         "form": "swamps"
       },
       {
-        "label": "三单（he/she/it）",
-        "form": "swamps"
-      },
-      {
         "label": "过去式",
-        "form": "swamped"
-      },
-      {
-        "label": "过去分词",
         "form": "swamped"
       },
       {
@@ -241,7 +233,7 @@
             {
               "word": "swarm",
               "ipa": "/swɔːm/",
-              "tag": "crowd, not water",
+              "tag": "crowd not water",
               "definition": "A mass of insects or people moving together; it differs from swamp by one letter and has its own Germanic origin.",
               "definitionCN": "指成群移动的昆虫或人；与 swamp 只差一个字母，但另有日耳曼语来源。"
             },
@@ -327,7 +319,7 @@
         },
         {
           "en": "Nautical use survives in 'the boat was swamped by a wave', where water fills the hull.",
-          "cn": "航海用法仍见于 the boat was swamped by a wave，指浪把水灌进船体。"
+          "cn": "航海用法仍见于 「the boat was swamped by a wave」，指浪把水灌进船体。"
         }
       ],
       "abstract": [
@@ -384,27 +376,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S2",
+          "senses": "01 · 02",
           "en": "WETLAND TYPES: the noun splits by dominant plants, from trees to reeds.",
           "cn": "湿地类型：名词按优势植物分为有树与有苇两类。"
         },
         {
-          "senses": "S3",
+          "senses": "03",
           "en": "LAND FLOODED: dry ground is made into the noun's own condition.",
           "cn": "淹地：干燥地面被造成名词所指的状态。"
         },
         {
-          "senses": "S4",
+          "senses": "04",
           "en": "HULL FILLED: a boat takes on water as land does in a flood.",
           "cn": "灌船：船进水，与洪水中的陆地同理。"
         },
         {
-          "senses": "S5 · S6 · S7",
+          "senses": "05 · 06 · 07",
           "en": "OVERWHELMED: quantity or difficulty rises above capacity and pins the person down.",
           "cn": "被压垮：数量或难度超过承受力，把人困住。"
         },
         {
-          "senses": "S8",
+          "senses": "08",
           "en": "MARKET FLOODED: goods behave like floodwater and force prices down.",
           "cn": "市场被淹：商品像洪水，压低了价格。"
         }
@@ -718,21 +710,21 @@
             {
               "word": "aquatint",
               "ipa": "/ˈækwətɪnt/",
-              "tag": "same root, art term",
+              "tag": "same root art term",
               "definition": "A printmaking technique that mimics washes of tone; it is built on Italian acqua tinta 'tinted water', so it shares aqua but names no living thing.",
               "definitionCN": "一种模仿水墨浓淡的版画技法；由意大利语 acqua tinta「染色之水」构成，与 aqua 同源，却并不指生物。"
             },
             {
               "word": "aquifer",
               "ipa": "/ˈækwɪfə(r)/",
-              "tag": "same root, geology",
+              "tag": "same root geology",
               "definition": "A rock layer that holds groundwater; Latin aqua plus ferre 'to carry', so the water root is shared but the referent is stone, not life.",
               "definitionCN": "储存地下水的地层；由拉丁 aqua 加 ferre「携带」构成，水词根相同，所指却是岩层而非生命。"
             },
             {
               "word": "aquaculture",
               "ipa": "/ˈækwəkʌltʃə(r)/",
-              "tag": "same root, farming",
+              "tag": "same root farming",
               "definition": "The farming of fish, shellfish and water plants; aqua plus cultura 'cultivation', so it names an industry rather than a habitat.",
               "definitionCN": "养殖鱼、贝类与水生植物；由 aqua 加 cultura「耕作」构成，指产业而非栖息地。"
             },
@@ -861,27 +853,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S2",
+          "senses": "01 · 02",
           "en": "LIVING IN WATER: animals and plants are labelled by the medium, not by shape.",
           "cn": "生于水中：动物与植物按介质而非体型被命名。"
         },
         {
-          "senses": "S3 · S7",
+          "senses": "03 · 07",
           "en": "WATER AS SETTING: measurements and ecological divisions treat water as the frame of study.",
           "cn": "以水为场景：测量与生态分类把水当作研究框架。"
         },
         {
-          "senses": "S4",
+          "senses": "04",
           "en": "SPORT IN WATER: the adjective becomes an administrative cover term for pool and lake events.",
           "cn": "水上运动：形容词成为泳池与湖面赛事的统称。"
         },
         {
-          "senses": "S5 · S6",
+          "senses": "05 · 06",
           "en": "THE ORGANISMS THEMSELVES: noun conversion names the life, including tank-kept life.",
           "cn": "生物本身：名词化后指这些生命，也包括水箱中饲养的。"
         },
         {
-          "senses": "S8",
+          "senses": "08",
           "en": "FLUID STYLE: the water image is borrowed for smooth motion, a marginal use.",
           "cn": "流畅风格：水的意象被借来形容平滑动作，属边缘用法。"
         }
@@ -1222,21 +1214,21 @@
             {
               "word": "terrain",
               "ipa": "/teˈreɪn/",
-              "tag": "same root, land surface",
+              "tag": "same root land surface",
               "definition": "The physical surface of an area of land; it descends from Latin terrenum 'earth', so it shares terra but names ground shape, not habitat.",
               "definitionCN": "指一片土地的物质表面；源自拉丁 terrenum「土地」，与 terra 同源，但指地面形态而非栖息环境。"
             },
             {
               "word": "terrarium",
               "ipa": "/teˈreəriəm/",
-              "tag": "same root, container",
+              "tag": "same root container",
               "definition": "A glass container for land plants or small land animals; the -arium suffix makes it a place, not an adjective of habitat.",
               "definitionCN": "养陆生植物或小动物的玻璃容器；-arium 后缀使它指场所，而非栖息地形容词。"
             },
             {
               "word": "terrane",
               "ipa": "/ˈterən/",
-              "tag": "same root, geology",
+              "tag": "same root geology",
               "definition": "A crustal block with a geological history distinct from its neighbours; it is a technical geology term from the same terra stock.",
               "definitionCN": "地质历史与邻区不同的地壳块体；是同一 terra 词族的地质学专门术语。"
             },
@@ -1365,27 +1357,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S2",
+          "senses": "01 · 02",
           "en": "LAND-DWELLING LIFE: animals and plants are classified by the ground they occupy.",
           "cn": "陆生生命：动物与植物按所占地面被分类。"
         },
         {
-          "senses": "S3 · S4",
+          "senses": "03 · 04",
           "en": "LAND AS A REALM: the adjective widens from soil to the whole planet and to land transport.",
           "cn": "陆地领域：形容词从土壤扩展到整个行星与陆路运输。"
         },
         {
-          "senses": "S5",
+          "senses": "05",
           "en": "SOLID WORLDS: a rocky planet is land written at planetary scale.",
           "cn": "固体世界：岩石行星就是行星尺度的陆地。"
         },
         {
-          "senses": "S6",
+          "senses": "06",
           "en": "GROUND INFRASTRUCTURE: stations on land anchor broadcast networks.",
           "cn": "地面设施：陆地站点锚定广播网络。"
         },
         {
-          "senses": "S7 · S8",
+          "senses": "07 · 08",
           "en": "ECOLOGICAL DIVISIONS: ground versus canopy inside land, and land versus water globally.",
           "cn": "生态划分：陆地内部地面与树冠相对，全球范围内陆地与水相对。"
         }
@@ -1726,21 +1718,21 @@
             {
               "word": "mariner",
               "ipa": "/ˈmærɪnə(r)/",
-              "tag": "same root, person",
+              "tag": "same root person",
               "definition": "A sailor; it comes from Latin marinarius through French, so it shares mare but names a person, not a habitat.",
               "definitionCN": "水手；经法语来自拉丁 marinarius，与 mare 同源，但指人而非生境。"
             },
             {
               "word": "marina",
               "ipa": "/məˈriːnə/",
-              "tag": "same root, harbour",
+              "tag": "same root harbour",
               "definition": "A basin for pleasure boats; the -a ending makes it a place, while marine is the adjective.",
               "definitionCN": "供游艇停泊的小港；-a 词尾使它指场所，而 marine 是形容词。"
             },
             {
               "word": "maritime",
               "ipa": "/ˈmærɪtaɪm/",
-              "tag": "same root, legal tone",
+              "tag": "same root legal tone",
               "definition": "Relating to the sea in law, trade and defence; from Latin maritimus, it is the formal legal cousin of marine.",
               "definitionCN": "在法律、贸易与防务上与海有关的；来自拉丁 maritimus，是 marine 的正式法律近亲。"
             },
@@ -1869,27 +1861,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S2",
+          "senses": "01 · 02",
           "en": "SEA AS HABITAT: the adjective marks both the setting and the organisms in it.",
           "cn": "海作为生境：形容词既标场景，也标其中的生物。"
         },
         {
-          "senses": "S3",
+          "senses": "03",
           "en": "SEA AS ROUTE: shipping and insurance turn the sea into infrastructure.",
           "cn": "海作为航线：航运与保险把海变成基础设施。"
         },
         {
-          "senses": "S4 · S8",
+          "senses": "04 · 08",
           "en": "SEA AS SERVICE: naval troops and the marine corps make the adjective a rank and a noun.",
           "cn": "海作为军务：海军部队与陆战队使形容词兼作军种名与名词。"
         },
         {
-          "senses": "S5 · S7",
+          "senses": "05 · 07",
           "en": "SEA AS OBJECT OF STUDY: sediments and marine science name what is examined.",
           "cn": "海作为研究对象：沉积物与海洋科学指出被考察之物。"
         },
         {
-          "senses": "S6",
+          "senses": "06",
           "en": "SEA AS CLIMATE FORCE: nearby water moderates the air above it.",
           "cn": "海作为气候力量：近旁的水调节其上方的空气。"
         }
@@ -2230,28 +2222,28 @@
             {
               "word": "fresh water",
               "ipa": "/freʃ ˈwɔːtə(r)/",
-              "tag": "same words, open spelling",
+              "tag": "same words open spelling",
               "definition": "The two-word phrase for non-salty water; the closed form freshwater is preferred when the word works as a technical adjective.",
               "definitionCN": "指不咸之水的两词短语；当该词作技术形容词时，更常用闭合形式 freshwater。"
             },
             {
               "word": "freshet",
               "ipa": "/ˈfreʃɪt/",
-              "tag": "same root, flood",
+              "tag": "same root flood",
               "definition": "A sudden rise of water in a stream, especially from rain or melting snow; it shares fresh but names a flood event.",
               "definitionCN": "溪流因降雨或融雪突然涨水；与 fresh 同源，但指一次洪水事件。"
             },
             {
               "word": "refresh",
               "ipa": "/rɪˈfreʃ/",
-              "tag": "same root, renew",
+              "tag": "same root renew",
               "definition": "To make someone or something feel new again; re- 'again' plus fresh, so it is about renewal, not salinity.",
               "definitionCN": "使某人或某物重新恢复精神；由 re-「再」加 fresh 构成，讲的是更新而非盐度。"
             },
             {
               "word": "freshman",
               "ipa": "/ˈfreʃmən/",
-              "tag": "same root, person",
+              "tag": "same root person",
               "definition": "A first-year student; fresh here means 'new', so the compound has nothing to do with water.",
               "definitionCN": "一年级新生；此处 fresh 意为「新」，因此该复合词与水无关。"
             }
@@ -2373,27 +2365,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S8",
+          "senses": "01 · 08",
           "en": "THE WATER ITSELF: the noun and its open spelling both name low-salinity water.",
           "cn": "水本身：名词与分写形式都指低盐度的水。"
         },
         {
-          "senses": "S2 · S3",
+          "senses": "02 · 03",
           "en": "LIFE AND SYSTEMS: organisms and the connected inland network are labelled by the medium.",
           "cn": "生命与系统：生物与相连的内陆水网按介质被命名。"
         },
         {
-          "senses": "S4 · S5",
+          "senses": "04 · 05",
           "en": "WATER AS STOCK: supply and aquaculture treat fresh water as a resource and an industry.",
           "cn": "水作为存量：供水与养殖把淡水当作资源与产业。"
         },
         {
-          "senses": "S6",
+          "senses": "06",
           "en": "INEXPERIENCE: the landlubber idiom borrows the sailor's opposite element as an insult.",
           "cn": "缺乏经验：陆上人的习语借用与水手相反的元素作讥讽。"
         },
         {
-          "senses": "S7",
+          "senses": "07",
           "en": "CLASSIFICATION: ecology uses the word as one of three basic habitat labels.",
           "cn": "分类：生态学把它用作三个基本生境标签之一。"
         }
@@ -2715,21 +2707,21 @@
             {
               "word": "salt water",
               "ipa": "/sɔːlt ˈwɔːtə(r)/",
-              "tag": "same words, open spelling",
+              "tag": "same words open spelling",
               "definition": "The two-word phrase for salty water; the closed form saltwater is usual when the word modifies another noun.",
               "definitionCN": "指咸水的两词短语；当该词修饰另一名词时，通常用闭合形式 saltwater。"
             },
             {
               "word": "saline",
               "ipa": "/ˈsælaɪn/",
-              "tag": "same root via Latin",
+              "tag": "same root via atin",
               "definition": "Containing salt, or a salt solution used medically; it comes from Latin salinus, a cognate rather than the source of saltwater.",
               "definitionCN": "含盐的，或医用的盐溶液；来自拉丁 salinus，是 saltwater 的同源词而非其来源。"
             },
             {
               "word": "saltine",
               "ipa": "/ˈsɔːltiːn/",
-              "tag": "same root, cracker",
+              "tag": "same root cracker",
               "definition": "A thin crisp cracker made with a little salt; the salt root is shared but the referent is food.",
               "definitionCN": "加少量盐的薄脆饼干；盐词根相同，所指却是食物。"
             },
@@ -2858,27 +2850,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S2",
+          "senses": "01 · 02",
           "en": "SALTY WATER ITSELF: the compound names the medium and its largest natural body.",
           "cn": "咸水本身：复合词命名介质及其最大的天然水体。"
         },
         {
-          "senses": "S3 · S4",
+          "senses": "03 · 04",
           "en": "LIFE AND CULTURE: organisms and their farming are labelled by salinity.",
           "cn": "生命与养殖：生物及其养殖按盐度被命名。"
         },
         {
-          "senses": "S5",
+          "senses": "05",
           "en": "BRINE: salt is added on purpose, turning water into a tool.",
           "cn": "盐水：盐被刻意加入，水变成工具。"
         },
         {
-          "senses": "S6 · S7",
+          "senses": "06 · 07",
           "en": "SALINE LANDSCAPES: intrusion and coastal marshes show salt water moving into land.",
           "cn": "咸水景观：入侵与海岸沼泽显示咸水向陆地推进。"
         },
         {
-          "senses": "S8",
+          "senses": "08",
           "en": "THE SAILOR'S ELEMENT: experience at sea is named by the water itself.",
           "cn": "水手的元素：海上经验直接以这种水命名。"
         }
@@ -3200,28 +3192,28 @@
             {
               "word": "ocean",
               "ipa": "/ˈəʊʃən/",
-              "tag": "same root, noun",
+              "tag": "same root noun",
               "definition": "The sea as a whole, and the noun from which oceanic is formed by adding -ic; same Greek source, different word class.",
               "definitionCN": "指整个海洋，也是加 -ic 构成 oceanic 的基础名词；希腊来源相同，词性不同。"
             },
             {
               "word": "Oceanian",
               "ipa": "/ˌəʊsiˈeɪniən/",
-              "tag": "same root, proper name",
+              "tag": "same root proper name",
               "definition": "Of Oceania or its peoples; it is built on the continent name, not on the sea, though both go back to the same Greek word.",
               "definitionCN": "指大洋洲或其居民的；它由洲名构成而非直接由海洋，但两者都回溯到同一个希腊词。"
             },
             {
               "word": "oceanid",
               "ipa": "/əʊˈsiːənɪd/",
-              "tag": "same root, myth",
+              "tag": "same root myth",
               "definition": "One of the sea nymphs said to be daughters of Oceanus; the same root, but a mythical being rather than a quality.",
               "definitionCN": "指传说中俄刻阿诺斯的女儿们，即海中仙女；词根相同，但指神话人物而非性质。"
             },
             {
               "word": "oceanology",
               "ipa": "/ˌəʊʃəˈnɒlədʒi/",
-              "tag": "same root, older term",
+              "tag": "same root older term",
               "definition": "An older synonym of oceanography, built with -logy; same root, but it names a discipline rather than describing the sea.",
               "definitionCN": "海洋学的旧称，用 -logy 构成；词根相同，但指一门学科而非描述海洋。"
             }
@@ -3343,27 +3335,27 @@
       ],
       "branches": [
         {
-          "senses": "S1",
+          "senses": "01",
           "en": "BROAD CLASS: anything belonging to the sea rather than to the land.",
           "cn": "总类：凡属于海洋而非陆地的事物。"
         },
         {
-          "senses": "S2 · S8",
+          "senses": "02 · 08",
           "en": "OPEN WATER: the deep sea and its drifting life occupy the same habitat.",
           "cn": "开阔水域：深海与其漂流生物占据同一个生境。"
         },
         {
-          "senses": "S3",
+          "senses": "03",
           "en": "CLIMATE: the sea moderates temperature and keeps the air moist.",
           "cn": "气候：海洋调节温度，使空气湿润。"
         },
         {
-          "senses": "S4",
+          "senses": "04",
           "en": "GEOLOGY: islands and crust born in the deep basin.",
           "cn": "地质：岛屿与地壳在深海盆地中生成。"
         },
         {
-          "senses": "S5 · S6 · S7",
+          "senses": "05 · 06 · 07",
           "en": "EXTENSIONS: a science, a language family and a figure of vastness borrow the adjective.",
           "cn": "延伸：一门学科、一个语族与一种如海的修辞都借用了这个形容词。"
         }
@@ -3704,28 +3696,28 @@
             {
               "word": "costal",
               "ipa": "/ˈkɒstəl/",
-              "tag": "ribs, same root",
+              "tag": "ribs same root",
               "definition": "Of the ribs, as in costal cartilage; it is cognate with coastal through Latin costa, but it kept the anatomical sense and never means 'shore'.",
               "definitionCN": "指肋骨的，如肋软骨；它经拉丁 costa 与 coastal 同源，但保留了解剖义，从不表示「海岸」。"
             },
             {
               "word": "coast",
               "ipa": "/kəʊst/",
-              "tag": "same root, base word",
+              "tag": "same root base word",
               "definition": "The shore itself, and the verb 'to sail along it' or 'to move without power'; same root as coastal, but a noun or verb rather than an adjective.",
               "definitionCN": "指海岸本身，也指「沿岸航行」或「滑行」的动词；与 coastal 同根，但为名词或动词而非形容词。"
             },
             {
               "word": "coastline",
               "ipa": "/ˈkəʊstlaɪn/",
-              "tag": "same root, compound",
+              "tag": "same root compound",
               "definition": "The coast considered as a line, especially its shape on a map or over a long stretch; same base, but a compound noun with a geometric image.",
               "definitionCN": "指被看作一条线的海岸，尤其地图上或长距离上的走向；基础词相同，但为带几何意象的复合名词。"
             },
             {
               "word": "coaster",
               "ipa": "/ˈkəʊstə/",
-              "tag": "same root, concrete noun",
+              "tag": "same root concrete noun",
               "definition": "A ship that trades along a coast, or a small mat that slides on a table; same root, but it names an object, not a quality.",
               "definitionCN": "指沿岸贸易的船，或桌上滑动的杯垫；词根相同，但指具体物件而非性质。"
             }
@@ -3847,27 +3839,27 @@
       ],
       "branches": [
         {
-          "senses": "S1",
+          "senses": "01",
           "en": "PLAIN RELATION: the adjective simply marks what belongs to the coast.",
           "cn": "基本关系：形容词只标记什么属于海岸。"
         },
         {
-          "senses": "S2 · S5",
+          "senses": "02 · 05",
           "en": "OCCUPIED EDGE: towns, jobs and incomes sit on the strip.",
           "cn": "有人居住的边缘：城镇、工作与收入都落在这条带上。"
         },
         {
-          "senses": "S3",
+          "senses": "03",
           "en": "LIVING EDGE: salt marsh, mangrove and dune form one habitat.",
           "cn": "活的边缘：盐沼、红树林与沙丘构成同一个生境。"
         },
         {
-          "senses": "S4",
+          "senses": "04",
           "en": "DEFENDED EDGE: walls and breakwaters try to hold the line.",
           "cn": "设防的边缘：海堤与防波堤试图固定这条线。"
         },
         {
-          "senses": "S6 · S7 · S8",
+          "senses": "06 · 07 · 08",
           "en": "WORKING EDGE: shipping, planning law and sea air all describe uses of the coast.",
           "cn": "使用中的边缘：航运、规划法规与海风都描述海岸的用途。"
         }
@@ -4039,10 +4031,6 @@
       {
         "label": "复数所有格",
         "form": "shorelines'"
-      },
-      {
-        "label": "定语用法（岸线的）",
-        "form": "shoreline"
       }
     ],
     "derivatives": [
@@ -4212,14 +4200,14 @@
             {
               "word": "shore",
               "ipa": "/ʃɔː/",
-              "tag": "same root, base word",
+              "tag": "same root base word",
               "definition": "The land along the edge of a sea or lake; the first element of shoreline, but it names the land, not the boundary line.",
               "definitionCN": "指海或湖边缘的陆地；是 shoreline 的第一个成分，但它指陆地，而不是界线。"
             },
             {
               "word": "shoring",
               "ipa": "/ˈʃɔːrɪŋ/",
-              "tag": "homonym, not related",
+              "tag": "homonym not related",
               "definition": "Timber or metal props holding up a wall, trench or ship; it belongs to a separate verb shore 'to prop', so it has no connection with the coast.",
               "definitionCN": "指支撑墙体、沟槽或船体的木料或金属撑柱；它属于另一个动词 shore「支撑」，与海岸毫无关联。"
             },
@@ -4233,7 +4221,7 @@
             {
               "word": "shoreward",
               "ipa": "/ˈʃɔːwəd/",
-              "tag": "same first element, direction",
+              "tag": "same first element direction",
               "definition": "Towards the shore; same first element, but the suffix makes it a direction word rather than a boundary noun.",
               "definitionCN": "指向岸的方向；第一个成分相同，但后缀使它成为方向词而非界线名词。"
             }
@@ -4355,27 +4343,27 @@
       ],
       "branches": [
         {
-          "senses": "S1",
+          "senses": "01",
           "en": "THE LINE: the simplest reading, the boundary itself.",
           "cn": "那条线：最简单的读法，即界线本身。"
         },
         {
-          "senses": "S8",
+          "senses": "08",
           "en": "THE DRAWN LINE: maps and images turn the boundary into an outline.",
           "cn": "被画出的线：地图与影像把界线变成轮廓。"
         },
         {
-          "senses": "S2 · S3",
+          "senses": "02 · 03",
           "en": "THE ZONE AND OTHER WATERS: the edge as a strip, and the same edge on lakes and reservoirs.",
           "cn": "岸带与其他水体：边缘成了一条带，同样也出现在湖泊与水库上。"
         },
         {
-          "senses": "S4 · S5",
+          "senses": "04 · 05",
           "en": "A LINE THAT MOVES: erosion shifts it, survey measures it.",
           "cn": "会移动的线：侵蚀使它移动，测量把它量出。"
         },
         {
-          "senses": "S6 · S7",
+          "senses": "06 · 07",
           "en": "A LINE THAT IS GOVERNED AND PLANTED: plans set it back, roots hold it.",
           "cn": "被治理与被种植的线：规划让它后退，根系把它固定。"
         }
@@ -4712,28 +4700,28 @@
             {
               "word": "estival",
               "ipa": "/eˈstaɪvəl/",
-              "tag": "same Latin root, different referent",
+              "tag": "same atin root different referent",
               "definition": "From Latin aestivus 'of summer', built on the same aest- base as aestus; it means 'summery' and does not name a river mouth.",
               "definitionCN": "来自拉丁 aestivus「夏天的」，与 aestus 共用 aest- 词干；意为「夏季的」，并不指河口。"
             },
             {
               "word": "usury",
               "ipa": "/ˈjuːʒəri/",
-              "tag": "sounds close, no relation",
+              "tag": "sounds close no relation",
               "definition": "The practice of lending money at interest, from Latin usura 'use'; the -ury ending makes it sound like estuary, but the roots differ.",
               "definitionCN": "指放贷取息的行业，来自拉丁 usura「使用」；-ury 词尾使它听起来像 estuary，但词根不同。"
             },
             {
               "word": "estrange",
               "ipa": "/ɪˈstreɪndʒ/",
-              "tag": "unrelated Latin verb",
+              "tag": "unrelated atin verb",
               "definition": "To alienate someone, from Latin extraneare 'treat as a stranger'; only the opening letters resemble estuary.",
               "definitionCN": "指使某人疏远，来自拉丁 extraneare「当作陌生人对待」；只有开头几个字母与 estuary 相似。"
             },
             {
               "word": "aesthetic",
               "ipa": "/iːsˈθetɪk/",
-              "tag": "Greek, not Latin",
+              "tag": "reek not atin",
               "definition": "Concerned with beauty, from Greek aisthanesthai 'to perceive'; the shared opening sound is accidental.",
               "definitionCN": "指与美有关的，来自希腊 aisthanesthai「感知」；开头的读音相近只是巧合。"
             }
@@ -4752,7 +4740,7 @@
             {
               "word": "firth",
               "ipa": "/fɜːθ/",
-              "tag": "Scottish regional term",
+              "tag": "cottish regional term",
               "definition": "A Scottish word for a narrow sea inlet or river estuary; it overlaps with estuary but is regional.",
               "definitionCN": "苏格兰语中指狭窄的海湾或河口；与 estuary 语义重叠，但属地域用词。"
             },
@@ -4855,27 +4843,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S2",
+          "senses": "01 · 02",
           "en": "DROWNED MOUTH: the widened lower valley and its twice-daily reversal of flow.",
           "cn": "被淹的口门：加宽的下游河谷，以及一日两次反向的水流。"
         },
         {
-          "senses": "S3",
+          "senses": "03",
           "en": "BRACKISH COMMUNITY: the living community that tolerates shifting salinity.",
           "cn": "淡咸水群落：能耐受盐度变化的生物群落。"
         },
         {
-          "senses": "S4",
+          "senses": "04",
           "en": "SILT TRAP: the mouth as a basin where river sediment settles.",
           "cn": "泥沙捕集：口门作为河流沉积物沉降的盆地。"
         },
         {
-          "senses": "S5 · S6 · S7",
+          "senses": "05 · 06 · 07",
           "en": "WORKING WATER: fishing, pollution and navigation all concentrate at the same mouth.",
           "cn": "作业水域：渔业、污染与航运都集中在这同一个口门。"
         },
         {
-          "senses": "S8",
+          "senses": "08",
           "en": "MEETING GROUND: the physical mix becomes an image for any boundary between two systems.",
           "cn": "交汇地带：物理混合成为任何两个体系边界的意象。"
         }
@@ -5219,21 +5207,21 @@
             {
               "word": "rivulet",
               "ipa": "/ˈrɪvjələt/",
-              "tag": "true relative, different size",
+              "tag": "true relative different size",
               "definition": "From Latin rivulus, a diminutive of rivus, so it is a genuine cousin; it means a small stream, not a river bank.",
               "definitionCN": "来自拉丁 rivulus，是 rivus 的指小形式，因此确为同族；意为小溪，而非河岸。"
             },
             {
               "word": "rival",
               "ipa": "/ˈraɪvəl/",
-              "tag": "true relative, different sense",
+              "tag": "true relative different sense",
               "definition": "From Latin rivalis, originally one who draws water from the same stream; the root is rivus, but the modern meaning is a competitor.",
               "definitionCN": "来自拉丁 rivalis，原指从同一条溪流取水的人；词根是 rivus，但今义为竞争者。"
             },
             {
               "word": "ravine",
               "ipa": "/rəˈviːn/",
-              "tag": "different Latin root",
+              "tag": "different atin root",
               "definition": "A deep narrow valley, from Latin rapina 'violent seizure'; it sounds like riverine but belongs to a different root.",
               "definitionCN": "指深邃狭窄的谷地，来自拉丁 rapina「强夺」；读音近似 riverine，但词根不同。"
             }
@@ -5355,27 +5343,27 @@
       ],
       "branches": [
         {
-          "senses": "S1",
+          "senses": "01",
           "en": "OF THE RIVER ITSELF: the adjective qualifies the channel and its flowing water.",
           "cn": "河流本身：这个形容词修饰河道与其流水。"
         },
         {
-          "senses": "S2",
+          "senses": "02",
           "en": "OF THE BANK: the same adjective shifts from the water to the land beside it.",
           "cn": "河岸：同一个形容词由水面转向旁边的陆地。"
         },
         {
-          "senses": "S3 · S4",
+          "senses": "03 · 04",
           "en": "OF THE SYSTEM AND ITS SHAPE: ecology and geomorphology treat river and floodplain as one unit.",
           "cn": "系统与形状：生态学与地貌学把河流与洪泛区视为一个单元。"
         },
         {
-          "senses": "S5 · S6",
+          "senses": "05 · 06",
           "en": "OF PEOPLE AND TRAFFIC: settlement and transport follow the bank line.",
           "cn": "人与交通：聚落与运输都沿着河岸线展开。"
         },
         {
-          "senses": "S7 · S8",
+          "senses": "07 · 08",
           "en": "OF FLOOD AND LIFE: the flood that builds the habitat is also the hazard, and the biota depends on both.",
           "cn": "洪水与生命：造出生境的洪水也是灾害，而生物同时依赖这两面。"
         }
@@ -5716,28 +5704,28 @@
             {
               "word": "plank",
               "ipa": "/plæŋk/",
-              "tag": "board, unrelated",
+              "tag": "board unrelated",
               "definition": "A flat length of timber, from Old French planche and Latin planca; the shared plank- string is accidental.",
               "definitionCN": "指一块扁平的木板，来自古法语 planche 与拉丁 planca；共同的 plank- 字母串只是巧合。"
             },
             {
               "word": "plangent",
               "ipa": "/ˈplændʒənt/",
-              "tag": "Latin, unrelated",
+              "tag": "atin unrelated",
               "definition": "Loud and mournful, from Latin plangere 'to strike, lament'; it resembles plankton in sound but comes from a Latin verb.",
               "definitionCN": "指响亮而哀伤的，来自拉丁 plangere「击打、哀悼」；读音近似 plankton，但出自拉丁动词。"
             },
             {
               "word": "planet",
               "ipa": "/ˈplænɪt/",
-              "tag": "Greek cousin in idea",
+              "tag": "reek cousin in idea",
               "definition": "From Greek planetes 'wanderer', built on planasthai 'to wander'; it shares the notion of wandering with plankton, but the relation between the two Greek verbs is disputed and the referent is a heavenly body.",
               "definitionCN": "来自希腊 planetes「漫游者」，建于 planasthai「漫游」；它与 plankton 共享「漂泊」这一意念，但两个希腊动词之间的关系有争议，且所指为天体。"
             },
             {
               "word": "plankter",
               "ipa": "/ˈplæŋktər/",
-              "tag": "same family, one organism",
+              "tag": "same family one organism",
               "definition": "The singular term for one planktonic organism, formed from plankton; it is a derivative, not a separate root.",
               "definitionCN": "指单个浮游生物的术语，由 plankton 构成；它是派生词，并非另一词根。"
             }
@@ -5763,7 +5751,7 @@
             {
               "word": "nekton",
               "ipa": "/ˈnektɒn/",
-              "tag": "swimmers, the contrast",
+              "tag": "swimmers the contrast",
               "definition": "Organisms that can swim against a current, such as fish; Hensen coined it as the opposite of plankton.",
               "definitionCN": "能逆流游泳的生物，如鱼类；亨森把它作为 plankton 的对立类别而造出。"
             },
@@ -5859,27 +5847,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S4",
+          "senses": "01 · 04",
           "en": "THE COLLECTIVE: the mass noun names a community, whether global or local.",
           "cn": "集合体：这个集合名词命名的是一群落，无论全球还是局部。"
         },
         {
-          "senses": "S2 · S3",
+          "senses": "02 · 03",
           "en": "TWO HALVES: plants that photosynthesise and animals that graze.",
           "cn": "两半：行光合作用的植物与取食的动物。"
         },
         {
-          "senses": "S5",
+          "senses": "05",
           "en": "MEASURED MASS: abundance becomes biomass and then a visible bloom.",
           "cn": "可测的质量：丰度化为生物量，再化为肉眼可见的藻华。"
         },
         {
-          "senses": "S6 · S7",
+          "senses": "06 · 07",
           "en": "PLANETARY ROLE: food for fish and a pump that sinks carbon.",
           "cn": "行星角色：既是鱼类的食物，又是把碳沉下去的一台泵。"
         },
         {
-          "senses": "S8",
+          "senses": "08",
           "en": "DURABLE TRACE: shells survive as fossils and record ancient water.",
           "cn": "耐久的痕迹：壳作为化石留存，记录古代的水况。"
         }
@@ -6201,28 +6189,28 @@
             {
               "word": "plankton",
               "ipa": "/ˈplæŋktən/",
-              "tag": "same element, wider scope",
+              "tag": "same element wider scope",
               "definition": "Shares the -plankton element and means all drifting organisms, both photosynthetic and animal; phytoplankton is only its plant-like half.",
               "definitionCN": "共享 -plankton 构件，指全部漂移生物，既有光合的也有动物的；phytoplankton 只是其中像植物的一半。"
             },
             {
               "word": "zooplankton",
               "ipa": "/ˌzəʊəˈplæŋktən/",
-              "tag": "same element, other kingdom",
+              "tag": "same element other kingdom",
               "definition": "The animal counterpart, built from the same plankton with Greek zōion 'animal'; the two words divide the drifting community by kingdom, not by size.",
               "definitionCN": "动物的一半，用同一个 plankton 加希腊语 zōion「动物」构成；两词按界而非按体径划分漂流群落。"
             },
             {
               "word": "nanoplankton",
               "ipa": "/ˌnænəʊˈplæŋktən/",
-              "tag": "same element, size class",
+              "tag": "same element size class",
               "definition": "A size fraction of plankton between about 2 and 20 micrometres, containing both algae and tiny animals; it is not a synonym because the criterion is size.",
               "definitionCN": "粒径约 2 至 20 微米的浮游生物粒级，藻类与小动物都有；因为划分标准是体径，所以并非同义词。"
             },
             {
               "word": "plank",
               "ipa": "/plæŋk/",
-              "tag": "unrelated, means a board",
+              "tag": "unrelated means a board",
               "definition": "A flat piece of timber; the resemblance to plankton is accidental, since plank comes through Old French from Latin planca, with no link to Greek planktos.",
               "definitionCN": "一块平板木料；与 plankton 的相似纯属偶然，plank 经古法语来自拉丁 planca，与希腊 planktos 无关。"
             }
@@ -6234,7 +6222,7 @@
             {
               "word": "microalgae",
               "ipa": "/ˌmaɪkrəʊˈælɡiː/",
-              "tag": "microscopic algae, drifting or attached",
+              "tag": "microscopic algae drifting or atta",
               "definition": "Microscopic algae as a group, including attached and bottom-dwelling forms; phytoplankton is the drifting subset, so the two overlap only partly.",
               "definitionCN": "微小藻类的总称，包括附着与底栖种类；phytoplankton 是其中漂移的那一部分，两者只部分重合。"
             },
@@ -6344,27 +6332,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S2",
+          "senses": "01 · 02",
           "en": "THE COMMUNITY AND THE CELL: one word for the assemblage, one countable reading for a single cell.",
           "cn": "群落与细胞：同一个词既指整个组合，也可数地指单个细胞。"
         },
         {
-          "senses": "S3",
+          "senses": "03",
           "en": "FUNCTION, NOT TAXONOMY: the label follows photosynthesis, so bacteria are included.",
           "cn": "按功能而非分类：标签跟着光合作用走，因此细菌也被算入。"
         },
         {
-          "senses": "S4",
+          "senses": "04",
           "en": "BLOOM AS EVENT: unchecked multiplication turns the community into a visible occurrence.",
           "cn": "藻华作为事件：不受控的增殖把群落变成可见的事件。"
         },
         {
-          "senses": "S5 · S6 · S7",
+          "senses": "05 · 06 · 07",
           "en": "PRODUCTION, FLUX AND TURNOVER: the same cells are read as a rate, a carbon flow and a seasonal sequence.",
           "cn": "生产、通量与更替：同一批细胞被读成速率、碳流与季节序列。"
         },
         {
-          "senses": "S8",
+          "senses": "08",
           "en": "MEASURED OBJECT: what is sensed by satellite becomes a variable in reports.",
           "cn": "被测量的对象：卫星感知到的东西成了报告里的变量。"
         }
@@ -6686,28 +6674,28 @@
             {
               "word": "plankton",
               "ipa": "/ˈplæŋktən/",
-              "tag": "same element, wider scope",
+              "tag": "same element wider scope",
               "definition": "Shares the -plankton element and covers all drifting organisms; zooplankton is only its animal half.",
               "definitionCN": "共享 -plankton 构件，涵盖全部漂移生物；zooplankton 只是其中动物的一半。"
             },
             {
               "word": "phytoplankton",
               "ipa": "/ˌfaɪtəʊˈplæŋktən/",
-              "tag": "same element, other kingdom",
+              "tag": "same element other kingdom",
               "definition": "The plant-like counterpart, built from the same plankton with Greek phyton 'plant'; it is the food of zooplankton rather than a name for it.",
               "definitionCN": "类植物的一半，用同一个 plankton 加希腊语 phyton「植物」构成；它是浮游动物的食物，而非其别称。"
             },
             {
               "word": "zoospore",
               "ipa": "/ˈzəʊəspɔː/",
-              "tag": "same prefix, a reproductive cell",
+              "tag": "same prefix a reproductive cell",
               "definition": "A swimming spore produced by some algae and fungi; it shares zoo- in the older sense 'moving' but is a reproductive cell, not a drifting animal.",
               "definitionCN": "某些藻类与真菌产生的游动孢子；它共享 zoo- 的旧义「会动的」，但属于生殖细胞，不是浮游动物。"
             },
             {
               "word": "zoom",
               "ipa": "/zuːm/",
-              "tag": "unrelated, imitative",
+              "tag": "unrelated imitative",
               "definition": "To move quickly, or the action of a camera lens; it is imitative in origin and has no link to Greek zōion, so the resemblance is accidental.",
               "definitionCN": "指快速移动，或相机镜头的变焦动作；该词源于拟声，与希腊语 zōion 无关，相似纯属偶然。"
             }
@@ -6829,27 +6817,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S2",
+          "senses": "01 · 02",
           "en": "THE COMMUNITY AND THE ANIMAL: one word for the assemblage, one countable reading per organism.",
           "cn": "群落与个体：同一个词既指整个组合，也可按个体计数。"
         },
         {
-          "senses": "S3",
+          "senses": "03",
           "en": "THE GRAZING LINK: the animals are named by what they do to the producers.",
           "cn": "牧食关系：这些动物按它们对生产者所做的事来命名。"
         },
         {
-          "senses": "S4 · S5",
+          "senses": "04 · 05",
           "en": "DAILY RISE, ONGOING GROWTH: migration is behaviour, secondary production is the biomass it builds.",
           "cn": "每日上升与持续增长：迁移是行为，次级生产是它积累的动物生物量。"
         },
         {
-          "senses": "S6 · S7",
+          "senses": "06 · 07",
           "en": "COMPOSITION AND PREY: the assemblage indicates water bodies and feeds fish.",
           "cn": "组成与饵料：群落既指示水团，也喂养鱼类。"
         },
         {
-          "senses": "S8",
+          "senses": "08",
           "en": "THE PUMP: sinking bodies turn the community into a carbon conveyor.",
           "cn": "生物泵：下沉的躯体把群落变成一条碳的传送带。"
         }
@@ -7175,28 +7163,28 @@
             {
               "word": "alga",
               "ipa": "/ˈælɡə/",
-              "tag": "Latin singular, same word",
+              "tag": "atin singular same word",
               "definition": "The singular of algae, used for one individual thallus; the plural in -ae is the form English borrowed first.",
               "definitionCN": "algae 的单数形式，指一个单独的藻体；英语最早借入的其实是 -ae 的复数形式。"
             },
             {
               "word": "algal",
               "ipa": "/ˈælɡəl/",
-              "tag": "adjective, same stem",
+              "tag": "adjective same stem",
               "definition": "An English adjective meaning 'of or relating to algae', formed from alga plus -al; it is neither a plural nor a species name.",
               "definitionCN": "英语形容词，意为「藻的、与藻有关的」，由 alga 加 -al 构成；它既不是复数，也不是物种名。"
             },
             {
               "word": "alginate",
               "ipa": "/ˈældʒɪneɪt/",
-              "tag": "chemical product, same stem",
+              "tag": "chemical product same stem",
               "definition": "A salt of alginic acid extracted from brown algae and used as a thickener; it is a substance made from algae, not another name for them.",
               "definitionCN": "从褐藻中提取的褐藻酸盐，用作增稠剂；它是用藻做出的物质，而非藻的别称。"
             },
             {
               "word": "algid",
               "ipa": "/ˈældʒɪd/",
-              "tag": "unrelated, means cold",
+              "tag": "unrelated means cold",
               "definition": "Cold or chilly, from Latin algere 'to be cold'; it resembles alga- in spelling but has no connection with algae.",
               "definitionCN": "意为寒冷的，来自拉丁 algere「发冷」；拼写与 alga- 相近，但与藻类毫无关系。"
             }
@@ -7208,7 +7196,7 @@
             {
               "word": "seaweed",
               "ipa": "/ˈsiːwiːd/",
-              "tag": "everyday word for large marine algae",
+              "tag": "everyday word for large marine alg",
               "definition": "The everyday term for large marine algae seen on shores; it excludes most single-celled forms, which algae includes.",
               "definitionCN": "指海岸上见到的大型海生藻类的日常说法；它排除多数单细胞形态，而 algae 包含这些。"
             },
@@ -7222,7 +7210,7 @@
             {
               "word": "cyanobacteria",
               "ipa": "/ˌsaɪənəʊbækˈtɪəriə/",
-              "tag": "bacteria once called blue-green algae",
+              "tag": "bacteria once called blue-green al",
               "definition": "Photosynthetic bacteria formerly classed as blue-green algae; under modern classification they are not true algae.",
               "definitionCN": "过去被归为蓝藻的光合细菌；按现代分类它们并非真正的藻类。"
             },
@@ -7318,27 +7306,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S2",
+          "senses": "01 · 02",
           "en": "GROUP AND CELL: one collective plural, one countable reading for single cells.",
           "cn": "类群与细胞：一个集合复数，也可数地指单细胞。"
         },
         {
-          "senses": "S3 · S4",
+          "senses": "03 · 04",
           "en": "BIG AND FRESH: the same word covers seaweeds and lake filaments by habitat and size.",
           "cn": "大型与淡水：同一个词按生境与体径涵盖海藻和湖中丝状体。"
         },
         {
-          "senses": "S5",
+          "senses": "05",
           "en": "BLOOM: excess turns the group into a water-quality event.",
           "cn": "藻华：过量使这一类群变成水质事件。"
         },
         {
-          "senses": "S6",
+          "senses": "06",
           "en": "CROP: the same organisms become feed, fertiliser and fuel.",
           "cn": "作物：同一批生物成了饲料、肥料与燃料。"
         },
         {
-          "senses": "S7 · S8",
+          "senses": "07 · 08",
           "en": "PARTNER AND FOSSIL: algae live inside other bodies, and their remains tell past water.",
           "cn": "共生与化石：藻可生活在别的生物体内，其遗存也能说明古代水体。"
         }

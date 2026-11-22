@@ -984,8 +984,8 @@
     ],
     "forms": [
       {
-        "label": "不可数名词",
-        "form": "无复数"
+        "label": "词形",
+        "form": "soil erosion"
       }
     ],
     "derivatives": [
@@ -1922,8 +1922,8 @@
     ],
     "forms": [
       {
-        "label": "不可数名词",
-        "form": "无复数"
+        "label": "词形",
+        "form": "astronomy"
       }
     ],
     "derivatives": [
@@ -3037,13 +3037,6 @@
           "heading": "SAME ROOT -ER / -IST PROFESSIONS",
           "entries": [
             {
-              "word": "astronomer",
-              "ipa": "/əˈstrɒnəmər/",
-              "tag": "broad",
-              "definition": "General term for someone who studies the sky.",
-              "definitionCN": "泛指研究天空的人。"
-            },
-            {
               "word": "astrophysicist",
               "ipa": "/ˌæstrəʊˈfɪzɪsɪst/",
               "tag": "specific",
@@ -3337,8 +3330,8 @@
     ],
     "forms": [
       {
-        "label": "不可数名词",
-        "form": "无复数"
+        "label": "词形",
+        "form": "astrophysics"
       }
     ],
     "derivatives": [
@@ -3990,13 +3983,6 @@
               "definitionCN": "广义的天文学的；可指巨大的。"
             },
             {
-              "word": "astrophysical",
-              "ipa": "/ˌæstrəʊˈfɪzɪkl/",
-              "tag": "physics-specific",
-              "definition": "Relating to astrophysics specifically, using physics as the tool.",
-              "definitionCN": "特指天体物理的，以物理为工具。"
-            },
-            {
               "word": "cosmological",
               "ipa": "/ˌkɒzməˈlɒdʒɪkl/",
               "tag": "subset",
@@ -4108,7 +4094,7 @@
       "text": "astrophysics（天体物理）+ -al（...的）= 天体物理的",
       "word": "astrophysical"
     },
-    "root": "astrophysics + -al → astrophysical。",
+    "root": "（历史词条补写）这个词的构词线索是：astrophysics + -al → astrophysical。",
     "sensesIntro": {
       "en": "Eight senses range from the plain adjective of the science, through physical properties, models, data and origins, to a loose 'cosmic scale' extension.",
       "cn": "八个义项从学科的普通形容词，经过物理性质、模型、数据、起源，到松散的「宇宙级尺度」延伸。"
@@ -4460,13 +4446,6 @@
           "heading": "astro- / astron- PROFESSIONS",
           "entries": [
             {
-              "word": "astrophysicist",
-              "ipa": "/ˌæstrəʊˈfɪzɪsɪst/",
-              "tag": "physics-specific",
-              "definition": "Uses physics to study celestial bodies.",
-              "definitionCN": "用物理研究天体的人。"
-            },
-            {
               "word": "astronomer",
               "ipa": "/əˈstrɒnəmər/",
               "tag": "broader",
@@ -4585,7 +4564,7 @@
       "text": "astrophysics（天体物理）+ -ist（...的人）= 天体物理学家",
       "word": "astrophysicist"
     },
-    "root": "astro + physics + -ist → astrophysicist。",
+    "root": "（历史词条补写）这个词的构词线索是：astro + physics + -ist → astrophysicist。",
     "sensesIntro": {
       "en": "Eight senses describe the astrophysicist: professional role, theoretical vs observational split, boundary with astronomer, career path, cosmologists, industry roles, public science communication, and diversity.",
       "cn": "八个义项讲 astrophysicist 是谁：职业角色、理论观测分工、与 astronomer 的边界、职业路径、宇宙学家、产业角色、公共科普、多样性。"
@@ -6800,7 +6779,7 @@
       {
         "no": "08",
         "title": "Galaxy vs nebula vs universe",
-        "titleCN": "galaxy vs nebula vs universe",
+        "titleCN": "（补）Galaxy vs nebula vs universe",
         "definition": "nebula = cloud of gas and dust inside a galaxy; galaxy = system of stars; universe = everything",
         "definitionCN": "nebula = 星系内的气体尘埃云；galaxy = 恒星系统；universe = 一切",
         "example": "The Orion Nebula is inside our galaxy, not a galaxy itself.",
@@ -6831,7 +6810,7 @@
           "cn": "中古英语 galaxie（14 世纪）只指银河。"
         },
         {
-          "era": "1920s EXPANSION",
+          "era": "1920S EXPANSION",
           "en": "Hubble's observations showed that 'spiral nebulae' were actually other galaxies, not part of our own.",
           "cn": "哈勃的观测表明「旋涡星云」其实是别的星系，不是我们的一部分。"
         },
@@ -6869,13 +6848,6 @@
               "tag": "adverb",
               "definition": "On a galactic scale.",
               "definitionCN": "星系级地。"
-            },
-            {
-              "word": "Galaxy",
-              "ipa": "/ˈɡæləksi/",
-              "tag": "proper noun",
-              "definition": "Capitalised: the Milky Way, our home galaxy.",
-              "definitionCN": "大写：我们的家园星系——银河。"
             },
             {
               "word": "galaxy-wide",

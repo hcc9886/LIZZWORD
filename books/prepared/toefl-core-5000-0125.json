@@ -47,23 +47,23 @@
       },
       {
         "label": "相关形容词（自然的）",
-        "form": "natural（自然的；天生的）"
+        "form": "natural"
       },
       {
         "label": "相关名词（灾害）",
-        "form": "disaster（灾害；灾难）"
+        "form": "disaster"
       },
       {
         "label": "相关形容词（灾难性的）",
-        "form": "disastrous（灾难性的）"
+        "form": "disastrous"
       },
       {
         "label": "反义说法（人为灾害）",
-        "form": "man-made disaster（人为灾害）"
+        "form": "man-made disaster"
       },
       {
         "label": "相关术语（自然致灾因子）",
-        "form": "natural hazard（自然致灾因子）"
+        "form": "natural hazard"
       }
     ],
     "derivatives": [
@@ -233,7 +233,7 @@
             {
               "word": "natural hazard",
               "ipa": "/ˌnætʃrəl ˈhæzəd/",
-              "tag": "the event, not the loss",
+              "tag": "the event not the loss",
               "definition": "The physical event itself, such as a fault rupture or a storm; it becomes a disaster only where it meets exposed people.",
               "definitionCN": "指物理事件本身，如断层错动或风暴；只有在遇到暴露的人群时才成为灾害。"
             },
@@ -266,7 +266,7 @@
             {
               "word": "disaster risk",
               "ipa": "/dɪˈzɑːstə rɪsk/",
-              "tag": "probability, not event",
+              "tag": "probability not event",
               "definition": "The likelihood and scale of future loss, used in planning; it is a probability, whereas the disaster is the realised loss.",
               "definitionCN": "指未来损失的可能性与规模，用于规划；它是概率，而灾害是已经实现的损失。"
             },
@@ -287,7 +287,7 @@
             {
               "word": "relief operation",
               "ipa": "/rɪˈliːf ˌɒpəˈreɪʃn/",
-              "tag": "the response, not the cause",
+              "tag": "the response not the cause",
               "definition": "The organised delivery of aid after a disaster; it follows the event and does not name it.",
               "definitionCN": "指灾后组织化的援助行动；它发生在事件之后，并不指事件本身。"
             }
@@ -376,27 +376,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S2",
+          "senses": "01 · 02",
           "en": "CAUSE TO LABEL: the physical event becomes an official category once funds depend on it.",
           "cn": "从成因到名目：一旦资金取决于它，物理事件就变成官方类别。"
         },
         {
-          "senses": "S3 · S4",
+          "senses": "03 · 04",
           "en": "EXPOSURE AND TIME: loss needs someone in the way, and slow losses count as one event.",
           "cn": "暴露与时间：损失需要有人恰在其地，缓慢累积的损失也算一次事件。"
         },
         {
-          "senses": "S5",
+          "senses": "05",
           "en": "CHAINS: one hazard can set off the next, so the phrase covers the whole cascade.",
           "cn": "连锁：一种致灾因子能引发下一种，故短语覆盖整条连锁。"
         },
         {
-          "senses": "S6",
+          "senses": "06",
           "en": "GOVERNANCE: if harm is exposure-dependent, it can be planned down before it happens.",
           "cn": "治理：既然损害取决于暴露，就能在发生之前通过规划削减。"
         },
         {
-          "senses": "S7 · S8",
+          "senses": "07 · 08",
           "en": "METAPHOR: any shock blamed on outside forces borrows the phrase's core claim.",
           "cn": "隐喻：任何被归因于外部力量的冲击，都借用了该短语的核心主张。"
         }
@@ -553,23 +553,19 @@
       },
       {
         "label": "形容词（灾难性的）",
-        "form": "catastrophic（灾难性的）"
+        "form": "catastrophic"
       },
       {
         "label": "副词（灾难性地）",
-        "form": "catastrophically（灾难性地）"
-      },
-      {
-        "label": "形容词（悲剧结局的）",
-        "form": "catastrophic（结局性的）"
+        "form": "catastrophically"
       },
       {
         "label": "相关形容词（戏剧结局的）",
-        "form": "catastrophal（结局的，罕用）"
+        "form": "catastrophal"
       },
       {
         "label": "相关名词（灾难化思维）",
-        "form": "catastrophism（灾变论）"
+        "form": "catastrophism"
       }
     ],
     "derivatives": [
@@ -746,7 +742,7 @@
             {
               "word": "calamity",
               "ipa": "/kəˈlæməti/",
-              "tag": "suffering, not overturning",
+              "tag": "suffering not overturning",
               "definition": "From Latin calamitas 'loss, damage': it stresses the distress people feel rather than a whole order overturned.",
               "definitionCN": "来自拉丁 calamitas「损失、损害」：强调人们承受的苦难，而非整套秩序的翻转。"
             },
@@ -760,7 +756,7 @@
             {
               "word": "debacle",
               "ipa": "/dɪˈbɑːkl/",
-              "tag": "a rout, often political",
+              "tag": "a rout often political",
               "definition": "From French débâcle, a breaking up of ice in a river: a spectacular collapse or rout, usually of a plan or an army.",
               "definitionCN": "来自法语 débâcle「河中冰层崩解」：指壮观的崩溃或溃败，多用于计划或军队。"
             }
@@ -793,7 +789,7 @@
             {
               "word": "catastrophism",
               "ipa": "/kəˈtæstrəfɪzəm/",
-              "tag": "the theory, not the event",
+              "tag": "the theory not the event",
               "definition": "The geological view that Earth's history was shaped by sudden global upheavals; it is a doctrine about catastrophes, not one itself.",
               "definitionCN": "地质学观点，认为地球历史由突然的全球剧变塑造；它是关于灾变的学说，本身不是灾变。"
             }
@@ -882,27 +878,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S6",
+          "senses": "01 · 06",
           "en": "SCALE OF HARM: the overturning is measured by how many lives and systems go down with it.",
           "cn": "损害规模：翻转的轻重，取决于多少生命与体系随之倒下。"
         },
         {
-          "senses": "S2 · S7",
+          "senses": "02 · 07",
           "en": "DRAMATIC ARC: the stage reversal and the story's ending share one final turn.",
           "cn": "戏剧弧线：舞台逆转与故事结局共用同一次最终转折。"
         },
         {
-          "senses": "S3",
+          "senses": "03",
           "en": "PLAN FAILURE: nothing physical breaks, but the expectation is overturned.",
           "cn": "计划失败：没有实物破碎，被掀翻的是期待。"
         },
         {
-          "senses": "S4 · S5",
+          "senses": "04 · 05",
           "en": "SYSTEM THRESHOLD: mathematics and ecology both describe a small push that flips a state.",
           "cn": "系统阈值：数学与生态学都描述「轻推一下、状态翻面」。"
         },
         {
-          "senses": "S8",
+          "senses": "08",
           "en": "METAPHOR: only the claim of total finality survives when the word is used loosely.",
           "cn": "隐喻：宽泛使用这个词时，只剩「彻底且终结」这一主张。"
         }
@@ -1055,15 +1051,15 @@
       },
       {
         "label": "副词（灾难性地）",
-        "form": "catastrophically（灾难性地）"
+        "form": "catastrophically"
       },
       {
         "label": "名词（大灾难）",
-        "form": "catastrophe（大灾难）"
+        "form": "catastrophe"
       },
       {
         "label": "名词（灾变论）",
-        "form": "catastrophism（灾变论）"
+        "form": "catastrophism"
       }
     ],
     "derivatives": [
@@ -1254,7 +1250,7 @@
             {
               "word": "fatal",
               "ipa": "/ˈfeɪtl/",
-              "tag": "death, not scale",
+              "tag": "death not scale",
               "definition": "From Latin fatum 'fate': it means causing death or doom, and says nothing about the size of the loss.",
               "definitionCN": "来自拉丁 fatum「命运」：指致死或注定失败，不涉及损失规模。"
             }
@@ -1376,27 +1372,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S3",
+          "senses": "01 · 03",
           "en": "SCALE AND COST: physical ruin and financial ruin are both measured by how much cannot be recovered.",
           "cn": "规模与代价：物理毁灭与财务毁灭，都以「有多少无法挽回」来衡量。"
         },
         {
-          "senses": "S2 · S8",
+          "senses": "02 · 08",
           "en": "JUDGEMENT: when nothing physical breaks, the word becomes a verdict on a decision.",
           "cn": "评判：没有实物破碎时，这个词就成了对某项决定的判词。"
         },
         {
-          "senses": "S4 · S7",
+          "senses": "04 · 07",
           "en": "FINAL JUMPS: the drama's last reversal and the model's fold are both irreversible jumps.",
           "cn": "终结性跳变：戏剧的最后逆转与模型的折点，都是不可逆的跳变。"
         },
         {
-          "senses": "S5",
+          "senses": "05",
           "en": "EARTH SCALE: geology applies the adjective to change that arrives as an event, not a trend.",
           "cn": "地球尺度：地质学把这个形容词用于「以事件形式到来」而非趋势性的变化。"
         },
         {
-          "senses": "S6",
+          "senses": "06",
           "en": "MEDICAL THRESHOLD: an illness becomes catastrophic when cost and permanence cross a line.",
           "cn": "医学门槛：当费用与不可逆性越线，疾病便成为「灾难性」的。"
         }
@@ -1537,7 +1533,7 @@
     "forms": [
       {
         "label": "动词（缓解）",
-        "form": "mitigate（缓解；减轻）"
+        "form": "mitigate"
       },
       {
         "label": "三单（he/she/it）",
@@ -1548,16 +1544,12 @@
         "form": "mitigated"
       },
       {
-        "label": "过去分词",
-        "form": "mitigated"
-      },
-      {
         "label": "现在分词",
         "form": "mitigating"
       },
       {
         "label": "形容词（可减轻的）",
-        "form": "mitigable（可缓解的）"
+        "form": "mitigable"
       }
     ],
     "derivatives": [
@@ -1727,21 +1719,21 @@
             {
               "word": "mitigate",
               "ipa": "/ˈmɪtɪɡeɪt/",
-              "tag": "verb, soften",
+              "tag": "verb soften",
               "definition": "The verb behind the noun: to make a harm less severe; its root is mitis 'soft'.",
               "definitionCN": "名词背后的动词：使危害变轻；词根是 mitis「柔软」。"
             },
             {
               "word": "militate",
               "ipa": "/ˈmɪlɪteɪt/",
-              "tag": "different root, weigh against",
+              "tag": "different root weigh against",
               "definition": "From Latin miles 'soldier': to militate against something means to work against it, a common confusion with mitigate.",
               "definitionCN": "来自拉丁 miles「士兵」：militate against 指对某事起阻碍作用，常被误当成 mitigate。"
             },
             {
               "word": "meditation",
               "ipa": "/ˌmedɪˈteɪʃn/",
-              "tag": "different root, thinking",
+              "tag": "different root thinking",
               "definition": "From Latin meditari 'to ponder'; the resemblance to mitigation is accidental.",
               "definitionCN": "来自拉丁 meditari「沉思」；与 mitigation 的相似纯属偶然。"
             },
@@ -1870,27 +1862,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S8",
+          "senses": "01 · 08",
           "en": "SOFTNESS ITSELF: whether the target is a blow or a sentence, the act is the same softening.",
           "cn": "软化本身：无论对象是打击还是判词，动作都是同一种变软。"
         },
         {
-          "senses": "S2 · S6",
+          "senses": "02 · 06",
           "en": "BUILT DEFENCES: wetlands, levees and offsets are softening made into construction and permits.",
           "cn": "筑起的防线：湿地、堤坝与补偿，是把「变软」做成工程与许可。"
         },
         {
-          "senses": "S3",
+          "senses": "03",
           "en": "LEGAL LEDGER: circumstances are weighed so that the penalty lands lighter.",
           "cn": "法律账本：权衡情节，使刑罚落得更轻。"
         },
         {
-          "senses": "S4 · S5",
+          "senses": "04 · 05",
           "en": "PAIN AND CONFLICT: medicine and diplomacy both soften what cannot be removed.",
           "cn": "痛苦与冲突：医学与外交都在软化无法消除之物。"
         },
         {
-          "senses": "S7",
+          "senses": "07",
           "en": "CUTTING CAUSES: climate mitigation removes the source instead of cushioning the impact.",
           "cn": "削减成因：气候减缓去掉源头，而不是垫住冲击。"
         }
@@ -2055,23 +2047,23 @@
       },
       {
         "label": "相关形容词（环境的）",
-        "form": "environmental（环境的）"
+        "form": "environmental"
       },
       {
         "label": "相关名词（环境）",
-        "form": "environment（环境）"
+        "form": "environment"
       },
       {
         "label": "相关名词（政策）",
-        "form": "policy（政策）"
+        "form": "policy"
       },
       {
         "label": "相关名词（政策制定者）",
-        "form": "policy maker（政策制定者）"
+        "form": "policy maker"
       },
       {
         "label": "近义说法（环境法规）",
-        "form": "environmental regulation（环境法规）"
+        "form": "environmental regulation"
       }
     ],
     "derivatives": [
@@ -2241,7 +2233,7 @@
             {
               "word": "politics",
               "ipa": "/ˈpɒlətɪks/",
-              "tag": "the contest, not the course",
+              "tag": "the contest not the course",
               "definition": "The activity of competing for power, from the same Greek polis: politics is the struggle, policy is the chosen line that follows.",
               "definitionCN": "争夺权力的活动，同出希腊 polis：politics 是争斗过程，policy 是争斗之后选定的路线。"
             },
@@ -2255,14 +2247,14 @@
             {
               "word": "police",
               "ipa": "/pəˈliːs/",
-              "tag": "same root, other branch",
+              "tag": "same root other branch",
               "definition": "The force that keeps order; it shares the Greek source with policy but split off as the enforcement branch.",
               "definitionCN": "维持秩序的警力；与 policy 同出希腊语源，但分出去成为执法的一支。"
             },
             {
               "word": "politicize",
               "ipa": "/pəˈlɪtɪsaɪz/",
-              "tag": "verb, make political",
+              "tag": "verb make political",
               "definition": "To make an issue a matter of political dispute; the opposite of settling it by a standing policy.",
               "definitionCN": "使某个议题成为政治争端；与用既定政策解决它相反。"
             }
@@ -2295,7 +2287,7 @@
             {
               "word": "environmental management",
               "ipa": "/ɪnˌvaɪrənˈmentl ˈmænɪdʒmənt/",
-              "tag": "practice, not rule",
+              "tag": "practice not rule",
               "definition": "The operational practice of running sites and audits to meet environmental goals, downstream of policy.",
               "definitionCN": "为达成环境目标而运行场地与审核的实务操作，位于政策的下游。"
             }
@@ -2384,27 +2376,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S2",
+          "senses": "01 · 02",
           "en": "COURSE TO TOOLS: goals are written first, then permits and taxes make them bite.",
           "cn": "从路线到工具：先写下目标，再用许可与税费让它生效。"
         },
         {
-          "senses": "S3",
+          "senses": "03",
           "en": "BORDERLESS PROBLEMS: air and rivers ignore frontiers, so policy must be agreed across them.",
           "cn": "无界问题：空气与河流不顾边界，政策因此必须跨边界议定。"
         },
         {
-          "senses": "S4",
+          "senses": "04",
           "en": "VOLUNTARY CODE: a company borrows the phrase for promises it writes to itself.",
           "cn": "自愿守则：企业借用这个短语，指它对自己写下的承诺。"
         },
         {
-          "senses": "S5 · S6",
+          "senses": "05 · 06",
           "en": "LAND AND LIFE: zoning and reserves are the oldest, most concrete strand.",
           "cn": "土地与生命：分区与保护区是最古老、最具体的一支。"
         },
         {
-          "senses": "S7 · S8",
+          "senses": "07 · 08",
           "en": "FROM RULE TO STANCE: study and loose talk both drop the enforcement, keeping only the declared line.",
           "cn": "从规则到态度：研究与宽泛用法都去掉强制力，只留公开宣告的路线。"
         }
@@ -2549,23 +2541,23 @@
       },
       {
         "label": "相关形容词（环境的）",
-        "form": "environmental（环境的）"
+        "form": "environmental"
       },
       {
         "label": "相关名词（影响）",
-        "form": "impact（影响；冲击）"
+        "form": "impact"
       },
       {
         "label": "相关动词（影响）",
-        "form": "impact（对……产生影响）"
+        "form": "impact……"
       },
       {
         "label": "相关术语（环境影响评价）",
-        "form": "environmental impact assessment（环境影响评价）"
+        "form": "environmental impact assessment"
       },
       {
         "label": "近义说法（生态足迹）",
-        "form": "ecological footprint（生态足迹）"
+        "form": "ecological footprint"
       }
     ],
     "derivatives": [
@@ -2735,28 +2727,28 @@
             {
               "word": "impinge",
               "ipa": "/ɪmˈpɪndʒ/",
-              "tag": "same root, contact",
+              "tag": "same root contact",
               "definition": "From the same Latin pangere: to strike or encroach on something, stressing physical contact rather than the resulting change.",
               "definitionCN": "同出拉丁 pangere：撞击或侵犯某物，强调物理接触，而非由此产生的变化。"
             },
             {
               "word": "compact",
               "ipa": "/kəmˈpækt/",
-              "tag": "same root, pressed together",
+              "tag": "same root pressed together",
               "definition": "Com- plus pangere 'fasten': pressed firmly together, which is why the word is also a small case.",
               "definitionCN": "com- 加 pangere「固定」：被紧紧压在一起，因此也指小粉盒。"
             },
             {
               "word": "affect",
               "ipa": "/əˈfekt/",
-              "tag": "different root, verb",
+              "tag": "different root verb",
               "definition": "From Latin afficere 'to do to': a verb meaning to act on something, unrelated at the root to impact.",
               "definitionCN": "来自拉丁 afficere「对……施加」：动词，意为作用于某物，词根与 impact 无关。"
             },
             {
               "word": "impractical",
               "ipa": "/ɪmˈpræktɪkl/",
-              "tag": "looks alike, no relation",
+              "tag": "looks alike no relation",
               "definition": "In- plus practical: not workable. The similar opening letters are coincidence, not shared ancestry.",
               "definitionCN": "in- 加 practical：不可行。开头字母相似纯属巧合，并无共同来源。"
             }
@@ -2878,27 +2870,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S2",
+          "senses": "01 · 02",
           "en": "FROM MARK TO METHOD: a change must be predicted and written down before consent is given.",
           "cn": "从痕迹到方法：变化必须在批准之前被预测并写下。"
         },
         {
-          "senses": "S3 · S4",
+          "senses": "03 · 04",
           "en": "SIGN OF THE CHANGE: the same measure can report damage or restoration.",
           "cn": "变化的正负：同一度量既能报告损害，也能报告修复。"
         },
         {
-          "senses": "S5",
+          "senses": "05",
           "en": "ADDED SMALLNESS: many minor marks add up to one large one.",
           "cn": "小处的累加：许多轻微痕迹相加成为一个大痕迹。"
         },
         {
-          "senses": "S6 · S7",
+          "senses": "06 · 07",
           "en": "ACROSS A LIFE: counting by product and by calorie turns impact into a comparable number.",
           "cn": "跨越一生：按产品与按卡路里计算，把影响变成可比较的数字。"
         },
         {
-          "senses": "S8",
+          "senses": "08",
           "en": "AFTERWARD: the trace can outlast the activity that made it.",
           "cn": "事后：痕迹能比造成它的活动存在得更久。"
         }
@@ -3049,23 +3041,23 @@
       },
       {
         "label": "相关名词（影响）",
-        "form": "impact（影响；冲击）"
+        "form": "impact"
       },
       {
         "label": "相关名词（评估）",
-        "form": "assessment（评估）"
+        "form": "assessment"
       },
       {
         "label": "相关动词（评估）",
-        "form": "assess（评估；评定）"
+        "form": "assess"
       },
       {
         "label": "相关名词（评估者）",
-        "form": "assessor（评估人）"
+        "form": "assessor"
       },
       {
         "label": "相关术语（环境影响评价）",
-        "form": "environmental impact assessment（环境影响评价）"
+        "form": "environmental impact assessment"
       }
     ],
     "derivatives": [
@@ -3256,7 +3248,7 @@
             {
               "word": "impact analysis",
               "ipa": "/ˈɪmpækt əˈnæləsɪs/",
-              "tag": "method, not filing",
+              "tag": "method not filing",
               "definition": "The analytic work of tracing effects; it stresses the modelling, while assessment stresses the formal judgement.",
               "definitionCN": "追踪效果的分析工作；强调建模，而 assessment 强调正式判断。"
             }
@@ -3378,27 +3370,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S8",
+          "senses": "01 · 08",
           "en": "WEIGHING ITSELF: formal or private, the act is a look at consequences before acting.",
           "cn": "权衡本身：正式或私下，动作都是在行动之前先看后果。"
         },
         {
-          "senses": "S2 · S3",
+          "senses": "02 · 03",
           "en": "TWO DIRECTIONS: the same method runs from land to people.",
           "cn": "两个方向：同一方法从土地延伸到人。"
         },
         {
-          "senses": "S4",
+          "senses": "04",
           "en": "BODY ON THE TABLE: health is scored in the same grid as water and soil.",
           "cn": "把身体放上桌面：健康与水、土壤在同一张格子里被打分。"
         },
         {
-          "senses": "S5 · S6",
+          "senses": "05 · 06",
           "en": "LEVELS UP: rules and plans need review before individual projects exist.",
           "cn": "层级上移：规章与规划需要在单个项目出现之前就接受审查。"
         },
         {
-          "senses": "S7",
+          "senses": "07",
           "en": "NEW OBJECTS: when the thing predicted is a technology, the phrase follows the innovation.",
           "cn": "新对象：当预测对象是技术时，这个短语便跟着创新走。"
         }
@@ -3549,23 +3541,23 @@
       },
       {
         "label": "相关名词（生态系统）",
-        "form": "ecosystem（生态系统）"
+        "form": "ecosystem"
       },
       {
         "label": "相关名词（管理）",
-        "form": "management（管理）"
+        "form": "management"
       },
       {
         "label": "相关动词（管理）",
-        "form": "manage（管理；经营）"
+        "form": "manage"
       },
       {
         "label": "相关名词（管理者）",
-        "form": "manager（管理者）"
+        "form": "manager"
       },
       {
         "label": "近义说法（基于生态系统的管理）",
-        "form": "ecosystem-based management（基于生态系统的管理）"
+        "form": "ecosystem-based management"
       }
     ],
     "derivatives": [
@@ -3735,7 +3727,7 @@
             {
               "word": "ecosystem",
               "ipa": "/ˈiːkəsɪstəm/",
-              "tag": "the object, not the practice",
+              "tag": "the object not the practice",
               "definition": "The community of organisms plus their physical setting; ecosystem management is what people do to it.",
               "definitionCN": "生物群落加其物理环境；ecosystem management 则是人对它做的事。"
             },
@@ -3749,7 +3741,7 @@
             {
               "word": "habitat",
               "ipa": "/ˈhæbɪtæt/",
-              "tag": "one species' setting",
+              "tag": "one species setting",
               "definition": "The place where a particular species lives; it is narrower than the whole ecosystem.",
               "definitionCN": "某一特定物种生活的地方；范围比整个生态系统窄。"
             },
@@ -3878,27 +3870,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S4",
+          "senses": "01 · 04",
           "en": "UNIT OF CARE: the object is a system with a boundary, whether a reserve or a watershed.",
           "cn": "管护单位：对象是带边界的系统，无论是保护地还是流域。"
         },
         {
-          "senses": "S2",
+          "senses": "02",
           "en": "LEARNING LOOP: monitoring turns each action into an experiment.",
           "cn": "学习回路：监测把每次行动变成一次实验。"
         },
         {
-          "senses": "S3 · S5",
+          "senses": "03 · 05",
           "en": "LAND AND TREES: concrete plans assign zones, seasons and snags.",
           "cn": "土地与树木：具体计划分配分区、季节与枯立木。"
         },
         {
-          "senses": "S6 · S7",
+          "senses": "06 · 07",
           "en": "WATER AND CLIMATE: food webs and storm buffers extend the same logic.",
           "cn": "水与气候：食物网与风暴缓冲延续同一逻辑。"
         },
         {
-          "senses": "S8",
+          "senses": "08",
           "en": "BEYOND BIOLOGY: the approach survives as a way to govern any complex system.",
           "cn": "超越生物学：这一思路存续为治理任何复杂系统的方式。"
         }
@@ -4051,23 +4043,23 @@
       },
       {
         "label": "形容词（有历史意义的）",
-        "form": "historic（有历史意义的）"
+        "form": "historic"
       },
       {
         "label": "形容词（历史的；史学的）",
-        "form": "historical（历史的）"
+        "form": "historical"
       },
       {
         "label": "名词（历史学家）",
-        "form": "historian（历史学家）"
+        "form": "historian"
       },
       {
         "label": "副词（历史上地）",
-        "form": "historically（历史上地）"
+        "form": "historically"
       },
       {
         "label": "名词（史学史；编史学）",
-        "form": "historiography（编史学）"
+        "form": "historiography"
       }
     ],
     "derivatives": [
@@ -4244,7 +4236,7 @@
             {
               "word": "historic",
               "ipa": "/hɪˈstɒrɪk/",
-              "tag": "momentous, not past",
+              "tag": "momentous not past",
               "definition": "An adjective for an event important enough to enter history, not for anything old or past.",
               "definitionCN": "形容词，指重要到足以载入史册的事件，而非任何古老或过去之物。"
             },
@@ -4380,27 +4372,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S3",
+          "senses": "01 · 03",
           "en": "ASK AND WRITE: inquiry produces a record, and the record takes narrative shape.",
           "cn": "追问与书写：探究产生记录，记录又成为叙述。"
         },
         {
-          "senses": "S2",
+          "senses": "02",
           "en": "PROFESSION: once evidence has rules, the word names a discipline and its training.",
           "cn": "职业：证据一旦有了规则，这个词就指一门学科及其训练。"
         },
         {
-          "senses": "S4 · S7",
+          "senses": "04 · 07",
           "en": "SMALLER COURSES: a building or a fund also has a sequence that can be told and judged.",
           "cn": "更小的历程：一栋楼或一只基金同样有可被讲述与评判的序列。"
         },
         {
-          "senses": "S5 · S6",
+          "senses": "05 · 06",
           "en": "BORROWED FIELDS: medicine and natural science keep the same ordered-past logic.",
           "cn": "借用的领域：医学与自然科学保留了同一套「有序过去」逻辑。"
         },
         {
-          "senses": "S8",
+          "senses": "08",
           "en": "CONTESTED MEMORY: the past is carried and argued over, not merely shelved.",
           "cn": "被争辩的记忆：过去是被携带与争论的，不只是被束之高阁。"
         }
@@ -4553,23 +4545,23 @@
       },
       {
         "label": "名词（历史）",
-        "form": "history（历史）"
+        "form": "history"
       },
       {
         "label": "形容词（历史的）",
-        "form": "historical（历史的）"
+        "form": "historical"
       },
       {
         "label": "形容词（有历史意义的）",
-        "form": "historic（有历史意义的）"
+        "form": "historic"
       },
       {
         "label": "名词（编史学）",
-        "form": "historiography（编史学）"
+        "form": "historiography"
       },
       {
         "label": "副词（历史上地）",
-        "form": "historically（历史上地）"
+        "form": "historically"
       }
     ],
     "derivatives": [
@@ -4739,21 +4731,21 @@
             {
               "word": "historic",
               "ipa": "/hɪˈstɒrɪk/",
-              "tag": "adjective, momentous",
+              "tag": "adjective momentous",
               "definition": "Describes an event important enough to be remembered; it is not the person who studies events.",
               "definitionCN": "形容重要到值得被记住的事件；不是研究事件的人。"
             },
             {
               "word": "historical",
               "ipa": "/hɪˈstɒrɪkl/",
-              "tag": "adjective, relating to the past",
+              "tag": "adjective relating to the past",
               "definition": "Describes anything connected with the past or with the discipline; the person form is historian.",
               "definitionCN": "形容与过去或该学科有关的任何事物；指人的形式是 historian。"
             },
             {
               "word": "history",
               "ipa": "/ˈhɪstri/",
-              "tag": "the field, not the person",
+              "tag": "the field not the person",
               "definition": "The record, discipline or account itself; historian is the practitioner of that field.",
               "definitionCN": "指记录、学科或叙述本身；historian 是该领域的从业者。"
             },
@@ -4882,27 +4874,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S3",
+          "senses": "01 · 03",
           "en": "TRAINED READER: the professional identity rests on handling evidence correctly.",
           "cn": "受过训练的读者：专业身份建立在正确处置证据之上。"
         },
         {
-          "senses": "S2",
+          "senses": "02",
           "en": "STORYTELLER: the narrative role keeps the oldest sense of history as story.",
           "cn": "讲故事的人：叙事角色保留了 history 作为故事的最早义项。"
         },
         {
-          "senses": "S4 · S6",
+          "senses": "04 · 06",
           "en": "APPOINTED VOICE: rulers and institutions need a past written in their own files.",
           "cn": "受命发声：统治者与机构需要一段依自家档案写成的过去。"
         },
         {
-          "senses": "S5",
+          "senses": "05",
           "en": "FIELD SPECIALIST: every discipline trains its own reader of its records.",
           "cn": "领域专家：每门学科都训练自己的档案解读者。"
         },
         {
-          "senses": "S7 · S8",
+          "senses": "07 · 08",
           "en": "CARE WITHOUT A DEGREE: the role finally opens to anyone who keeps and explains the past.",
           "cn": "无关学位的用心：这一角色最终向任何守护并解释过去的人开放。"
         }
@@ -5055,15 +5047,15 @@
       },
       {
         "label": "副词（历史上地）",
-        "form": "historically（历史上地）"
+        "form": "historically"
       },
       {
         "label": "名词（历史）",
-        "form": "history（历史）"
+        "form": "history"
       },
       {
         "label": "形容词（历史的；史学的）",
-        "form": "historical（历史的）"
+        "form": "historical"
       }
     ],
     "derivatives": [
@@ -5233,7 +5225,7 @@
             {
               "word": "historical",
               "ipa": "/hɪˈstɒrɪkl/",
-              "tag": "neutral, about the past",
+              "tag": "neutral about the past",
               "definition": "Means relating to the past or to the study of it, with no claim of importance: historical documents, historical research.",
               "definitionCN": "意为与过去或史学研究有关，不含重要性判断：历史文献、历史研究。"
             },
@@ -5376,27 +5368,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S5",
+          "senses": "01 · 05",
           "en": "ENTERING THE RECORD: importance and firstness both mean the record begins or turns here.",
           "cn": "进入记录：重要与首次都意味着记录在此开始或转折。"
         },
         {
-          "senses": "S2",
+          "senses": "02",
           "en": "FIELD RECORD: a narrow discipline keeps its own ledger of turning points.",
           "cn": "领域记录：窄小学科也有自己的转折点账本。"
         },
         {
-          "senses": "S3 · S7",
+          "senses": "03 · 07",
           "en": "THINGS OF THE PAST: objects and sites belong to the documented period, with or without drama.",
           "cn": "过去之物：实物与遗址属于有文献的时期，无论是否有戏剧性。"
         },
         {
-          "senses": "S4",
+          "senses": "04",
           "en": "LAW OF PRESERVATION: belonging to the past becomes a protected status.",
           "cn": "保护之法：属于过去变成一种受保护的身份。"
         },
         {
-          "senses": "S6 · S8",
+          "senses": "06 · 08",
           "en": "GRAMMAR AND RETROSPECT: significance can be encoded in tense or granted by later telling.",
           "cn": "语法与回溯：重要性可被时态编码，也可由后来的讲述赋予。"
         }
@@ -5545,19 +5537,19 @@
       },
       {
         "label": "相关形容词（编年的）",
-        "form": "chronological（按年代的）"
+        "form": "chronological"
       },
       {
         "label": "相关副词（按年代地）",
-        "form": "chronologically（按年代顺序地）"
+        "form": "chronologically"
       },
       {
         "label": "相关名词（年代学）",
-        "form": "chronology（年代学；年表）"
+        "form": "chronology"
       },
       {
         "label": "反义说法（主题顺序）",
-        "form": "thematic order（主题顺序）"
+        "form": "thematic order"
       }
     ],
     "derivatives": [
@@ -5870,27 +5862,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S2",
+          "senses": "01 · 02",
           "en": "TIME AS RULE: narration and arrangement both obey the clock unless they choose not to.",
           "cn": "以时间为规则：叙述与排列都服从时钟，除非刻意不服从。"
         },
         {
-          "senses": "S3 · S4",
+          "senses": "03 · 04",
           "en": "EVIDENCE ORDER: layers and case files prove completeness by their sequence.",
           "cn": "证据顺序：地层与案卷靠先后证明没有遗漏。"
         },
         {
-          "senses": "S5",
+          "senses": "05",
           "en": "REVERSAL: the same rule run backwards serves readers who want the newest first.",
           "cn": "反向：同一规则倒着运行，服务想先看最新内容的读者。"
         },
         {
-          "senses": "S6 · S7",
+          "senses": "06 · 07",
           "en": "WHAT IT EXCLUDES: relative dating and thematic shows are understood against this default.",
           "cn": "它所排除的：相对测年与主题展正是对照这一默认来理解。"
         },
         {
-          "senses": "S8",
+          "senses": "08",
           "en": "BORROWED LOGIC: step-by-step procedures borrow time's irreversibility.",
           "cn": "借用的逻辑：分步流程借用了时间的不可逆性。"
         }
@@ -6041,23 +6033,23 @@
       },
       {
         "label": "动词（使文明化）",
-        "form": "civilize（使开化）"
+        "form": "civilize"
       },
       {
         "label": "形容词（文明的）",
-        "form": "civilized（文明的；有教养的）"
+        "form": "civilized"
       },
       {
         "label": "形容词（公民的；民事的）",
-        "form": "civil（公民的；民事的；有礼的）"
+        "form": "civil"
       },
       {
         "label": "名词（公民）",
-        "form": "citizen（公民）"
+        "form": "citizen"
       },
       {
         "label": "名词（礼貌；文明修养）",
-        "form": "civility（礼貌；谦恭）"
+        "form": "civility"
       }
     ],
     "derivatives": [
@@ -6227,7 +6219,7 @@
             {
               "word": "civil",
               "ipa": "/ˈsɪvl/",
-              "tag": "adjective, civic",
+              "tag": "adjective civic",
               "definition": "Of citizens or of non-military matters, and also polite; it is the adjective, while civilization is the society.",
               "definitionCN": "指公民的、非军事的，也指有礼的；它是形容词，而 civilization 是社会本身。"
             },
@@ -6260,7 +6252,7 @@
             {
               "word": "culture",
               "ipa": "/ˈkʌltʃə/",
-              "tag": "shared ways, not cities",
+              "tag": "shared ways not cities",
               "definition": "From Latin colere 'to cultivate': the learned ways of a group, which every society has, whether or not it has cities.",
               "definitionCN": "来自拉丁 colere「耕种」：一个群体习得的生活方式，任何社会都有，无论是否有城市。"
             },
@@ -6370,27 +6362,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S6",
+          "senses": "01 · 06",
           "en": "CITY AT THE CENTRE: dense settlement and division of labour define the term.",
           "cn": "城市在中心：密集定居与劳动分工界定这个词。"
         },
         {
-          "senses": "S2 · S5",
+          "senses": "02 · 05",
           "en": "PROCESS AND SCALE: the old ladder from savagery to refinement is now read as a process, not a ranking.",
           "cn": "过程与标尺：从野蛮到精致的旧阶梯，如今被读作过程而非排序。"
         },
         {
-          "senses": "S3 · S7",
+          "senses": "03 · 07",
           "en": "BOUNDED AND COLLECTIVE: one tradition can be counted, all traditions can be inherited as one.",
           "cn": "有界与集合：单个传统可计数，所有传统可作为一份遗产。"
         },
         {
-          "senses": "S4",
+          "senses": "04",
           "en": "MODERN COMFORT: hyperbole ties the word to power, plumbing and shops.",
           "cn": "现代舒适：夸张用法把这个词绑在电力、自来水与商店上。"
         },
         {
-          "senses": "S8",
+          "senses": "08",
           "en": "QUIET NORMS: the abstraction reduces the word to predictable public behaviour.",
           "cn": "无声的规范：抽象用法把这个词还原为可预期的公共行为。"
         }
@@ -6549,15 +6541,15 @@
       },
       {
         "label": "英式拼写",
-        "form": "civilised（英式拼写）"
+        "form": "civilised"
       },
       {
         "label": "动词（使开化）",
-        "form": "civilize（使开化）"
+        "form": "civilize"
       },
       {
         "label": "名词（文明）",
-        "form": "civilization（文明）"
+        "form": "civilization"
       }
     ],
     "derivatives": [
@@ -6741,7 +6733,7 @@
             {
               "word": "civilised",
               "ipa": "/ˈsɪvɪlaɪzd/",
-              "tag": "British spelling",
+              "tag": "ritish spelling",
               "definition": "The same word spelled with -s-, standard in British English; the meaning is identical.",
               "definitionCN": "同一词的英式拼写，用 -s-，含义完全相同。"
             },
@@ -6870,27 +6862,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S6",
+          "senses": "01 · 06",
           "en": "SETTLED ORDER: cities and fenced land mark where the adjective applies.",
           "cn": "定居秩序：城市与有栅栏的土地标出这个形容词的适用范围。"
         },
         {
-          "senses": "S2 · S3",
+          "senses": "02 · 03",
           "en": "VISIBLE REFINEMENT: courtesy and taste are the everyday traces of long training.",
           "cn": "可见的精致：礼貌与品味是长期训练的日常痕迹。"
         },
         {
-          "senses": "S4",
+          "senses": "04",
           "en": "SMALL COMFORTS: the moral word is lent to showers and reasonable hours.",
           "cn": "小舒适：这个道德词被借给淋浴与合理的时刻。"
         },
         {
-          "senses": "S5",
+          "senses": "05",
           "en": "A FLOOR OF DECENCY: humane treatment sets the minimum below which the word is refused.",
           "cn": "体面下限：人道对待设定最低线，低于此便不配此词。"
         },
         {
-          "senses": "S7 · S8",
+          "senses": "07 · 08",
           "en": "FROM RANKING TO APPROVAL: the old scale is rejected, leaving only 'acceptable to a reasonable person'.",
           "cn": "从排序到认可：旧标尺被拒斥，只剩「通情达理者可接受」。"
         }
@@ -7041,23 +7033,19 @@
       },
       {
         "label": "形容词（古代的；古老的）",
-        "form": "ancient（古代的）"
+        "form": "ancient"
       },
       {
         "label": "形容词（古董的）",
-        "form": "antique（古董的；古式的）"
+        "form": "antique"
       },
       {
         "label": "形容词（过时的）",
-        "form": "antiquated（过时的）"
+        "form": "antiquated"
       },
       {
         "label": "名词（古物研究者）",
-        "form": "antiquarian（古物研究者）"
-      },
-      {
-        "label": "相关名词（古物；古董）",
-        "form": "antique（古董；古物）"
+        "form": "antiquarian"
       }
     ],
     "derivatives": [
@@ -7227,14 +7215,14 @@
             {
               "word": "ancient",
               "ipa": "/ˈeɪnʃənt/",
-              "tag": "adjective, of the far past",
+              "tag": "adjective of the far past",
               "definition": "From Latin ante through French ancien: it describes what belongs to the distant past, while antiquity names that period or its remains.",
               "definitionCN": "经法语 ancien 来自拉丁 ante：形容属于遥远过去之物，而 antiquity 指那个时期或其遗存。"
             },
             {
               "word": "antique",
               "ipa": "/ænˈtiːk/",
-              "tag": "an object, and its style",
+              "tag": "an object and its style",
               "definition": "From the same antiquus: a decorative object of some age, or a style copied from the past; it does not name a historical period.",
               "definitionCN": "同出 antiquus：指有一定年代的装饰性物件，或仿古风格；不指历史时期。"
             },
@@ -7370,27 +7358,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S2",
+          "senses": "01 · 02",
           "en": "PERIOD AND FIELD: the same distance in time becomes a subject of study.",
           "cn": "时期与领域：同一段时间距离变成一门研究对象。"
         },
         {
-          "senses": "S3 · S5",
+          "senses": "03 · 05",
           "en": "THINGS LEFT: plural and singular divide a collection from one relic.",
           "cn": "留下之物：复数与单数把一批收藏与单件遗存分开。"
         },
         {
-          "senses": "S4",
+          "senses": "04",
           "en": "MEASURED AGE: any object can carry the quality the period name implies.",
           "cn": "可测的年龄：任何物件都能带上时期名称所暗示的属性。"
         },
         {
-          "senses": "S6 · S7",
+          "senses": "06 · 07",
           "en": "STYLE AND MODEL: age can be imitated, and a specific past can become a permanent example.",
           "cn": "风格与范本：年代可被模仿，某段特定过去可成为永久范例。"
         },
         {
-          "senses": "S8",
+          "senses": "08",
           "en": "SLIGHTLY COMIC DISTANCE: anything obsolete borrows the word for a laugh.",
           "cn": "略带戏谑的距离：任何过时之物都借这个词开玩笑。"
         }

@@ -54,15 +54,7 @@
         "form": "lectures"
       },
       {
-        "label": "三单（he/she/it）",
-        "form": "lectures"
-      },
-      {
         "label": "过去式（已经发生）",
-        "form": "lectured"
-      },
-      {
-        "label": "过去分词（完成／被动）",
         "form": "lectured"
       },
       {
@@ -85,11 +77,6 @@
         "word": "lecturing",
         "pos": "n.",
         "zh": "授课；讲学"
-      },
-      {
-        "word": "lecture",
-        "pos": "n./v.",
-        "zh": "讲座；讲授（名词与动词同形，零派生）"
       }
     ],
     "senses": [
@@ -246,7 +233,7 @@
             {
               "word": "legislature",
               "ipa": "/ˈledʒɪsleɪtʃə/",
-              "tag": "near spelling, different root",
+              "tag": "near spelling different root",
               "definition": "the body that makes laws. It looks as if it contains lecture's root, but it is lex 'law' plus lator 'proposer', so the meaning is law-making, not reading.",
               "definitionCN": "立法机关。它看起来含有 lecture 的词根，其实是 lex“法”加 lator“提出者”，所以意思是立法，而不是阅读。"
             }
@@ -368,27 +355,27 @@
       ],
       "branches": [
         {
-          "senses": "S1",
+          "senses": "01",
           "en": "READING: the oldest layer, when lecture names the act of reading rather than a talk.",
           "cn": "阅读：最古老的一层，此时 lecture 指的是“读”这一行为，而不是讲座。"
         },
         {
-          "senses": "S2 · S6 · S8",
+          "senses": "02 · 06 · 08",
           "en": "INSTRUCTION: the classroom talk, the verb for giving it, and the public lecture as an event.",
           "cn": "讲授：课堂讲座、表示“讲授”的动词，以及作为活动的公开讲座。"
         },
         {
-          "senses": "S3",
+          "senses": "03",
           "en": "COURSE UNIT: the talk becomes a countable slot in a timetable and a syllabus.",
           "cn": "课时：讲座变成课表与教学大纲里可计数的一格。"
         },
         {
-          "senses": "S4",
+          "senses": "04",
           "en": "WRITTEN TEXT: the spoken words are fixed on paper as a script or a printed talk.",
           "cn": "书面文本：说出的话被固定在纸上，成为讲稿或印行的讲辞。"
         },
         {
-          "senses": "S5 · S7",
+          "senses": "05 · 07",
           "en": "CORRECTION: the instructive voice turns into a long scolding, as a noun and as a verb.",
           "cn": "纠正：教导的口吻变成长篇训斥，名词与动词都走这一支。"
         }
@@ -877,27 +864,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S5",
+          "senses": "01 · 05",
           "en": "SYSTEM AND PROFESSION: law as an institution, and the people who operate it.",
           "cn": "体系与职业：作为制度的法律，以及运作它的人。"
         },
         {
-          "senses": "S2 · S8",
+          "senses": "02 · 08",
           "en": "PERMISSION: what statute allows, and, by analogy, what the rules of a game allow.",
           "cn": "许可：成文法允许的事，以及类比到游戏规则所允许的事。"
         },
         {
-          "senses": "S3",
+          "senses": "03",
           "en": "OBLIGATION: the other side of the boundary, where the law commands rather than permits.",
           "cn": "义务：界线的另一面，法律在这里不是允许而是命令。"
         },
         {
-          "senses": "S4 · S6 · S7",
+          "senses": "04 · 06 · 07",
           "en": "LEGAL EFFECT: validity, court action, and the official status that may differ from fact.",
           "cn": "法律效力：有效性、诉讼，以及可能与事实不同的官方身份。"
         },
         {
-          "senses": "S9",
+          "senses": "09",
           "en": "PAPER SIZE: a fixed attributive use, where the adjective labels a format rather than a legal idea.",
           "cn": "纸张规格：固定的定语用法，形容词在这里标记的是尺寸，而不是法律概念。"
         }
@@ -1058,10 +1045,6 @@
       },
       {
         "label": "过去式（已经发生）",
-        "form": "legislated"
-      },
-      {
-        "label": "过去分词（完成／被动）",
         "form": "legislated"
       },
       {
@@ -1271,14 +1254,14 @@
             {
               "word": "decree",
               "ipa": "/dɪˈkriː/",
-              "tag": "authority, not assembly",
+              "tag": "authority not assembly",
               "definition": "to order something by authority, often by a ruler or executive. It does not require a legislature.",
               "definitionCN": "由权威（常是统治者或行政机关）下令。它不需要立法机关。"
             },
             {
               "word": "regulate",
               "ipa": "/ˈreɡjuleɪt/",
-              "tag": "rules, not statutes",
+              "tag": "rules not statutes",
               "definition": "to control an activity by rules or supervision. It is broader and can be done by agencies without new legislation.",
               "definitionCN": "用规则或监管控制某项活动。它更宽，可由机构在没有新立法的情况下实施。"
             }
@@ -1310,7 +1293,7 @@
         },
         {
           "en": "You can't legislate for bad luck: the negative use marks the edge of what statutes can control.",
-          "cn": "you can't legislate for bad luck：否定用法标出成文法所能控制的边界。"
+          "cn": "「you can't legislate for bad luck」：否定用法标出成文法所能控制的边界。"
         }
       ],
       "abstract": [
@@ -1367,27 +1350,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S5",
+          "senses": "01 · 05",
           "en": "LAWMAKING POWER: the institution's core act and its constitutional competence to perform it.",
           "cn": "立法权：机构的核心行为，以及它履行该行为的宪法权限。"
         },
         {
-          "senses": "S2 · S6",
+          "senses": "02 · 06",
           "en": "ENACT A RESULT: a statute creates something, and the same verb extends to producing social results.",
           "cn": "以法促成：法条创设某物，同一个动词又延伸到产生社会结果。"
         },
         {
-          "senses": "S3 · S4",
+          "senses": "03 · 04",
           "en": "SUBJECT MATTER: the field the law covers, and the direction it pushes that field in.",
           "cn": "规制领域：法律覆盖的领域，以及它把该领域推向的方向。"
         },
         {
-          "senses": "S7",
+          "senses": "07",
           "en": "ORGANIZATIONAL RULES: rule-making by analogy inside bodies that are not parliaments.",
           "cn": "组织规则：类比地用于非议会机构内部的规则制定。"
         },
         {
-          "senses": "S8",
+          "senses": "08",
           "en": "LIMIT OF LAW: the negative idiom marks what statutes cannot provide for.",
           "cn": "法律的边界：否定习语标出成文法无法规定的东西。"
         }
@@ -1868,27 +1851,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S9",
+          "senses": "01 · 09",
           "en": "OPEN AND LOOSE: the same freedom applied to a mind and to a set of rules.",
           "cn": "开明与宽松：同一种自由，用在头脑上，也用在规则上。"
         },
         {
-          "senses": "S2 · S6 · S7",
+          "senses": "02 · 06 · 07",
           "en": "POLITICS AND ECONOMY: the reform label, the person who wears it, and the free-market branch.",
           "cn": "政治与经济：改革标签、持标签的人，以及自由市场分支。"
         },
         {
-          "senses": "S3 · S8",
+          "senses": "03 · 08",
           "en": "GENEROSITY: abundance in amount, and the open hand that gives to people.",
           "cn": "慷慨：数量上的充足，以及向人张开的手。"
         },
         {
-          "senses": "S4",
+          "senses": "04",
           "en": "INTERPRETATION: freedom from the literal letter in reading and translation.",
           "cn": "解释：在阅读与翻译中摆脱字面的束缚。"
         },
         {
-          "senses": "S5",
+          "senses": "05",
           "en": "EDUCATION: artes liberales, the broad curriculum of a free person.",
           "cn": "教育：artes liberales，自由人的广博课程。"
         }
@@ -2013,7 +1996,7 @@
     "definition_en": "official permission to do something, the document that proves it, or the act of granting such permission",
     "core_image": "权威递出的一把钥匙：门原本锁着，得到许可的人才能推开",
     "scene": "市政厅窗口前，申请人接过盖了钢印的执照。The clerk handed over the business license, and the applicant put it in the same folder as her driving permit.",
-    "sceneCN": "这里 license 是「官方许可证」，也落在纸质证件这一层（第 1、2 个义项：官方许可；证明许可的证件）；句意：工作人员递过营业执照，申请人把它和驾驶证一起放进文件夹。图中可辨识物件：市政厅窗口、盖钢印的执照、文件夹、驾照。",
+    "sceneCN": "这里指第 1 个义项。这里 license 是「官方许可证」，也落在纸质证件这一层（第 1、2 个义项：官方许可；证明许可的证件）；句意：工作人员递过营业执照，申请人把它和驾驶证一起放进文件夹。图中可辨识物件：市政厅窗口、盖钢印的执照、文件夹、驾照。",
     "pos": [
       {
         "tag": "n.",
@@ -2060,15 +2043,7 @@
         "form": "licenses"
       },
       {
-        "label": "三单（he/she/it）",
-        "form": "licenses"
-      },
-      {
         "label": "过去式（已经发生）",
-        "form": "licensed"
-      },
-      {
-        "label": "过去分词（完成／被动）",
         "form": "licensed"
       },
       {
@@ -2249,21 +2224,21 @@
             {
               "word": "licence",
               "ipa": "/ˈlaɪsns/",
-              "tag": "British noun spelling",
+              "tag": "ritish noun spelling",
               "definition": "The British spelling of the noun only. British usage keeps licence for the permission or the document and license for the verb; American usage uses license for both.",
               "definitionCN": "只用于英式名词的拼写。英式用法中，表示许可或许可证的名词作 licence，动词作 license；美式则两者都用 license。"
             },
             {
               "word": "licit",
               "ipa": "/ˈlɪsɪt/",
-              "tag": "same Latin root",
+              "tag": "same atin root",
               "definition": "Lawful or permitted, from Latin licitus, the participle of licere. It is an adjective, not a permit, and has no verb use.",
               "definitionCN": "合法的、获准的，来自拉丁语 licitus（licere 的分词）。它是形容词，不指证件，也没有动词用法。"
             },
             {
               "word": "licentious",
               "ipa": "/laɪˈsenʃəs/",
-              "tag": "same Latin root",
+              "tag": "same atin root",
               "definition": "Morally unrestrained, especially in sexual matters, from licentia 'freedom' plus -osus 'full of'. It carries only the excessive-liberty branch, never the permit branch.",
               "definitionCN": "道德上无节制的，尤指性方面，来自 licentia“自由”加 -osus“充满……的”。它只继承“过度自由”这一支，从不表示许可证。"
             }
@@ -2385,27 +2360,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S5",
+          "senses": "01 · 05",
           "en": "AUTHORITY: an authority lifts a ban, and the verb is that lifting done officially and out loud.",
           "cn": "权威：权威解除禁令，动词就是这一解除被正式、公开地做出。"
         },
         {
-          "senses": "S2 · S9",
+          "senses": "02 · 09",
           "en": "PAPER: permission becomes a document you carry, and compounds plus spelling freeze its noun form.",
           "cn": "纸面：许可变成随身携带的证件，而复合词与拼写规则又把名词形式固定下来。"
         },
         {
-          "senses": "S3 · S6",
+          "senses": "03 · 06",
           "en": "RIGHTS: a limited right is granted while ownership stays with the owner, in both the noun and the verb.",
           "cn": "权利：只授予有限使用权，所有权仍留给所有人；名词与动词都走这一支。"
         },
         {
-          "senses": "S4 · S8",
+          "senses": "04 · 08",
           "en": "FREEDOM: from unrestrained liberty to the artist's licensed deviation from fact and rule.",
           "cn": "自由：从不受约束的放纵，到艺术家获准偏离事实与规则。"
         },
         {
-          "senses": "S7",
+          "senses": "07",
           "en": "JUSTIFICATION: status, experience or custom acts as the authority that grants the permission.",
           "cn": "理据：地位、经验或惯例充当授予许可的“权威”。"
         }
@@ -2873,27 +2848,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S5",
+          "senses": "01 · 05",
           "en": "MANNER AND CORRESPONDENCE: one method is copied, or two things occupy matching positions.",
           "cn": "方式与对应：一种做法被复制，或两件事占据相互对应的位置。"
         },
         {
-          "senses": "S2 · S3 · S7",
+          "senses": "02 · 03 · 07",
           "en": "PARALLEL APPLICATION: the same predicate is applied to a second item, a second clause, or a second legal party.",
           "cn": "平行适用：同一个说法被施加于第二项、第二句或第二个法律主体。"
         },
         {
-          "senses": "S4",
+          "senses": "04",
           "en": "RECIPROCAL REPLY: the comparison turns back and returns the wish to the speaker.",
           "cn": "回应：比较方向转回，把祝愿送还给说话者。"
         },
         {
-          "senses": "S6",
+          "senses": "06",
           "en": "OPEN CLASS: the same kind is left open, so the list can continue without naming every member.",
           "cn": "开放类别：同类范围保持开放，列举不必点出每一个成员。"
         },
         {
-          "senses": "S8 · S9",
+          "senses": "08 · 09",
           "en": "BOUNDARIES: affirmative polarity and formal register limit where the adverb sounds natural.",
           "cn": "边界：肯定极性与正式语体限制了该副词听起来自然的范围。"
         }
@@ -3065,15 +3040,7 @@
         "form": "links"
       },
       {
-        "label": "三单（he/she/it）",
-        "form": "links"
-      },
-      {
         "label": "过去式（已经发生）",
-        "form": "linked"
-      },
-      {
-        "label": "过去分词（完成／被动）",
         "form": "linked"
       },
       {
@@ -3396,27 +3363,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S2",
+          "senses": "01 · 02",
           "en": "PHYSICAL RING: the literal chain link and any part that fastens two ends.",
           "cn": "实体环：字面的链环，以及任何接合两端的部件。"
         },
         {
-          "senses": "S3 · S8",
+          "senses": "03 · 08",
           "en": "HUMAN CONTACT: the ring becomes a bond between people or a joining of arms.",
           "cn": "人际接触：环变成人与人之间的纽带，或手臂的相互扣住。"
         },
         {
-          "senses": "S4 · S6",
+          "senses": "04 · 06",
           "en": "INFRASTRUCTURE: pipes, rails and routes are rings that join places into a network.",
           "cn": "基础设施：管道、铁路与航线都是把地点接入网络的环。"
         },
         {
-          "senses": "S5 · S9",
+          "senses": "05 · 09",
           "en": "LOGICAL CHAIN: facts are linked like rings, and a missing ring explains why a sequence fails.",
           "cn": "逻辑链：事实像环一样被串起，缺环则解释了序列为何断裂。"
         },
         {
-          "senses": "S7 · S10",
+          "senses": "07 · 10",
           "en": "DIGITAL AND COMPLETION: a hyperlink carries a reader, and link up closes the ring.",
           "cn": "数字与完成：超链接把读者带过去，link up 则把环扣合封闭。"
         }
@@ -3585,10 +3552,6 @@
       },
       {
         "label": "过去式（已经发生）",
-        "form": "located"
-      },
-      {
-        "label": "过去分词（完成／被动）",
         "form": "located"
       },
       {
@@ -3900,27 +3863,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S5",
+          "senses": "01 · 05",
           "en": "FINDING: searching ends when the exact point is identified, whether it is a person or a fault.",
           "cn": "寻找：当确切点被认出时搜索结束，无论对象是人还是故障。"
         },
         {
-          "senses": "S2 · S3",
+          "senses": "02 · 03",
           "en": "POSITION: a thing either occupies a place or is deliberately given one.",
           "cn": "位置：某物要么占据一个地点，要么被有意赋予一个地点。"
         },
         {
-          "senses": "S4 · S7",
+          "senses": "04 · 07",
           "en": "INSTITUTIONS AND TEXTS: a branch settles on a site, and a reader puts a finger on a passage.",
           "cn": "机构与文本：分支在场地落户，读者把手指按到某个段落。"
         },
         {
-          "senses": "S6 · S8",
+          "senses": "06 · 08",
           "en": "MEASUREMENT: instruments and genetic maps turn place into coordinates.",
           "cn": "测量：仪器与遗传图谱把地点变成坐标。"
         },
         {
-          "senses": "S9",
+          "senses": "09",
           "en": "BOUNDARY: locate demands an exact position, unlike the broader find.",
           "cn": "边界：locate 要求确切位置，不同于更宽泛的 find。"
         }
@@ -4392,27 +4355,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S5",
+          "senses": "01 · 05",
           "en": "THE DISCIPLINE AND ITS SYSTEMS: logic is both the study of valid form and the named formal systems it compares.",
           "cn": "学科及其体系：logic 既是对有效形式的研究，也是它所比较的各套具名形式体系。"
         },
         {
-          "senses": "S2 · S8",
+          "senses": "02 · 08",
           "en": "THE ACT AND THE SKELETON: reasoning moves from premise to conclusion, and the written argument shows that chain.",
           "cn": "行为与骨架：推理从前提到结论，书面论证则展示这条链。"
         },
         {
-          "senses": "S3 · S4",
+          "senses": "03 · 04",
           "en": "CONSISTENCY AND RATIONALE: an account holds together, and a system carries its own forced logic.",
           "cn": "一致性与内在道理：一套说明前后立得住，一个体系则带有自身强制的逻辑。"
         },
         {
-          "senses": "S6 · S7",
+          "senses": "06 · 07",
           "en": "MACHINES: Boolean gates and program rules turn inference into hardware and code.",
           "cn": "机器：布尔门与程序规则把推理变成硬件与代码。"
         },
         {
-          "senses": "S9",
+          "senses": "09",
           "en": "BOUNDARY: logic is mass-noun reasoning, countable only when separate systems are meant.",
           "cn": "边界：logic 是不可数的推理，只有指彼此独立的体系时才可数。"
         }
@@ -4577,10 +4540,6 @@
       },
       {
         "label": "过去式（已经发生）",
-        "form": "maintained"
-      },
-      {
-        "label": "过去分词（完成／被动）",
         "form": "maintained"
       },
       {
@@ -4897,27 +4856,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S2",
+          "senses": "01 · 02",
           "en": "LEVEL AND REPAIR: a hand keeps a height steady, or keeps a machine from decaying.",
           "cn": "水平与修缮：手让高度保持稳定，或让机器不至于衰败。"
         },
         {
-          "senses": "S3",
+          "senses": "03",
           "en": "PROVISION: holding someone up becomes paying for their living.",
           "cn": "供养：托住一个人变成支付他的生活所需。"
         },
         {
-          "senses": "S4 · S5",
+          "senses": "04 · 05",
           "en": "CLAIM AND DEFENCE: a proposition is held against doubt, and a position is held under attack.",
           "cn": "主张与辩护：在怀疑中托住一个命题，在攻击下守住一个立场。"
         },
         {
-          "senses": "S6 · S7",
+          "senses": "06 · 07",
           "en": "SYSTEMS: records and servers stay usable only while someone keeps holding them up.",
           "cn": "系统：记录与服务器只有在有人持续托住时才保持可用。"
         },
         {
-          "senses": "S8 · S9",
+          "senses": "08 · 09",
           "en": "BODY AND BOUNDARY: weight is kept steady, while maintain is distinguished from mere keeping by effort and formality.",
           "cn": "身体与边界：体重被保持稳定；同时 maintain 以“付出与正式度”区别于单纯的 keep。"
         }
@@ -5614,10 +5573,6 @@
         "form": "manipulated"
       },
       {
-        "label": "过去分词（完成／被动）",
-        "form": "manipulated"
-      },
-      {
         "label": "现在分词（进行体）",
         "form": "manipulating"
       }
@@ -5920,27 +5875,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S2",
+          "senses": "01 · 02",
           "en": "MATERIAL AND TOOL: clay and controls are both held and moved by practiced fingers.",
           "cn": "材料与工具：黏土和操纵装置都是被熟练手指握住并移动的对象。"
         },
         {
-          "senses": "S3",
+          "senses": "03",
           "en": "BODY: the hand works inside the body, but as a neutral medical procedure.",
           "cn": "身体：手在身体内部工作，但作为中性的医疗程序。"
         },
         {
-          "senses": "S4",
+          "senses": "04",
           "en": "MIND: the grip moves to feelings and decisions, and concealment makes it negative.",
           "cn": "心智：捏握转向情感与决定，隐瞒使它变成贬义。"
         },
         {
-          "senses": "S5 · S6",
+          "senses": "05 · 06",
           "en": "RECORDS AND MARKETS: numbers and prices are soft material, reshaped until the result looks natural.",
           "cn": "记录与市场：数字和价格是柔软的材料，被捏到结果看起来自然为止。"
         },
         {
-          "senses": "S7 · S8",
+          "senses": "07 · 08",
           "en": "SYSTEMS AND BOUNDARY: a declared variable is neutral control, and the object decides whether the word is an accusation.",
           "cn": "系统与边界：公开说明的变量是中性的控制，而对象决定这个词是否是指控。"
         }
@@ -6259,7 +6214,7 @@
           "cn": "名词义出现，指“神父使用的小型礼仪书”，来自古法语 manuel“手册”与晚期拉丁语 manuale“书套或书封、手册”。"
         },
         {
-          "era": "1530s–1760",
+          "era": "1530S–1760",
           "en": "The meaning 'a concise handbook of any sort' is recorded from the 1530s. Manual exercise, the prescribed handling of a rifle, appears in 1760.",
           "cn": "“任何类型的简明手册”义记录于 16 世纪 30 年代。manual exercise（规定的步枪操作）出现于 1760 年。"
         },
@@ -6418,27 +6373,27 @@
       ],
       "branches": [
         {
-          "senses": "S1",
+          "senses": "01",
           "en": "METHOD: work is done by hand rather than by machine.",
           "cn": "方式：工作靠手完成，而不是靠机器。"
         },
         {
-          "senses": "S2 · S5 · S6 · S7",
+          "senses": "02 · 05 · 06 · 07",
           "en": "CONTROL: a switch, a gear lever, an organ keyboard and a rifle drill all place the hand on a control.",
           "cn": "控制：开关、换挡杆、管风琴键盘与步枪操典，都把放在控制件上的手作为核心。"
         },
         {
-          "senses": "S3",
+          "senses": "03",
           "en": "LABOUR: handwork becomes a social category opposed to mental or office work.",
           "cn": "劳动：手工成为与脑力或办公室工作相对的社会类别。"
         },
         {
-          "senses": "S4",
+          "senses": "04",
           "en": "BOOK: a handbook is defined by being small enough to hold and use in one hand.",
           "cn": "书：手册之所以是手册，在于它小到可以一手拿着使用。"
         },
         {
-          "senses": "S8",
+          "senses": "08",
           "en": "BOUNDARY: manual names the instrument, not the status, so it never becomes menial by itself.",
           "cn": "边界：manual 命名工具，不命名地位，因此它本身从不等于 menial。"
         }
@@ -6599,10 +6554,6 @@
       },
       {
         "label": "复数（名词）",
-        "form": "margins"
-      },
-      {
-        "label": "三单（动词，与名词复数同形）",
         "form": "margins"
       },
       {
@@ -6923,27 +6874,27 @@
       ],
       "branches": [
         {
-          "senses": "S1",
+          "senses": "01",
           "en": "LAND: the first sense is the physical rim where water, forest or field ends.",
           "cn": "土地：最早的义项是水域、森林或田野终止的实体外缘。"
         },
         {
-          "senses": "S2 · S8",
+          "senses": "02 · 08",
           "en": "PAGE: the blank strip around text, and the act of writing notes in it.",
           "cn": "纸页：文字四周的空白条，以及在其中写批注的动作。"
         },
         {
-          "senses": "S3 · S4",
+          "senses": "03 · 04",
           "en": "GAP: the measured space between two results is also the space kept free for safety.",
           "cn": "差距：两个结果之间被量出的空间，也是为安全而预留的空间。"
         },
         {
-          "senses": "S5 · S6",
+          "senses": "05 · 06",
           "en": "MONEY: cost and price leave a strip of profit; a broker holds a strip of collateral.",
           "cn": "金钱：成本与售价之间留下利润的那一条；经纪人手里握着保证金那一条。"
         },
         {
-          "senses": "S7 · S9",
+          "senses": "07 · 09",
           "en": "SOCIETY AND BOUNDARY: people at the edge of the page become marginal, and the strip is never a hard line.",
           "cn": "社会与边界：处在纸页边缘的人变成 marginal，而这条空白从不是一条硬线。"
         }
@@ -7281,7 +7232,7 @@
           "cn": "maturus 更深层的来源不确定。一些资料谨慎地把它与“成熟”的观念或拉丁语 manus“好”相联系；这些只是推测，不是已确立的派生关系，因此不应断言某个确定的原始印欧语词根。"
         },
         {
-          "era": "1600–1650s",
+          "era": "1600–1650S",
           "en": "Of persons, 'having fully developed powers of body and mind' is recorded c. 1600. The intransitive sense 'become ripe' follows in the 1650s.",
           "cn": "用于人时，“身体与心智能力已充分发育”记录于约 1600 年。不及物义“变得成熟”随后在 17 世纪 50 年代出现。"
         },
@@ -7311,14 +7262,14 @@
             {
               "word": "immature",
               "ipa": "/ˌɪməˈtʃʊə/",
-              "tag": "same root, negated",
+              "tag": "same root negated",
               "definition": "not fully developed, or behaving below the expected adult level. It adds the negative prefix in- to maturus.",
               "definitionCN": "未充分发育的，或行为低于成年人应有水平的。它在 maturus 前加了否定前缀 in-。"
             },
             {
               "word": "premature",
               "ipa": "/ˌpriːməˈtʃʊə/",
-              "tag": "same root, prefixed",
+              "tag": "same root prefixed",
               "definition": "happening before the proper or expected time, as in a premature birth or a premature conclusion.",
               "definitionCN": "在应有或预期时间之前发生的，如早产或过早的结论。"
             }
@@ -7440,27 +7391,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S5",
+          "senses": "01 · 05",
           "en": "FRUIT AND WINE: biological ripening is the literal source of the whole family.",
           "cn": "果实与酒：生物性的成熟是整个词族最字面的来源。"
         },
         {
-          "senses": "S2 · S3",
+          "senses": "02 · 03",
           "en": "PERSON: the body finishes growing, and behaviour is expected to finish growing too.",
           "cn": "人：身体完成生长，行为也被期待完成“长大”。"
         },
         {
-          "senses": "S4 · S6",
+          "senses": "04 · 06",
           "en": "PROCESS: a plan and a market both need time before they are ready to be used.",
           "cn": "过程：计划与市场都需要时间，才能就绪可用。"
         },
         {
-          "senses": "S7",
+          "senses": "07",
           "en": "FINANCE: a debt has a season, and maturing is reaching that date.",
           "cn": "金融：债务有它的季节，到期就是走到那个日期。"
         },
         {
-          "senses": "S8 · S9",
+          "senses": "08 · 09",
           "en": "EUPHEMISM AND BOUNDARY: age is softened by the positive sense, and mature never simply means old.",
           "cn": "委婉与边界：年龄被正面义项柔化，而 mature 从不简单等于 old。"
         }

@@ -54,10 +54,6 @@
         "form": "mountains"
       },
       {
-        "label": "作定语（单数）",
-        "form": "mountain"
-      },
-      {
         "label": "形容词（多山的）",
         "form": "mountainous"
       },
@@ -376,27 +372,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S7",
+          "senses": "01 · 07",
           "en": "THE PHYSICAL SHAPE: a single raised mass, and the same noun used to mark mountain settings.",
           "cn": "实体形状：单一隆起的巨块，以及用同一名词标出山地场景的定语用法。"
         },
         {
-          "senses": "S2",
+          "senses": "02",
           "en": "THE REGION: the plural turns many peaks into one habitable highland.",
           "cn": "整片地区：复数把许多峰收成一片可居住的高地。"
         },
         {
-          "senses": "S3 · S6",
+          "senses": "03 · 06",
           "en": "HEIGHT AS QUANTITY: abstract amounts and real heaps both borrow the profile of a peak.",
           "cn": "高度即数量：抽象的数量与实物的堆都借用了山峰的轮廓。"
         },
         {
-          "senses": "S4",
+          "senses": "04",
           "en": "HEIGHT AS DIFFICULTY: what must be overcome takes the shape of a slope.",
           "cn": "高度即困难：必须克服的东西取得坡面的形状。"
         },
         {
-          "senses": "S5 · S8",
+          "senses": "05 · 08",
           "en": "BORROWED TERRAIN: waves, icebergs and ski slopes are called mountains because they rise like one.",
           "cn": "借来的地形：巨浪、冰山与雪道被称作山，是因为它们像山一样隆起。"
         }
@@ -713,7 +709,7 @@
           "cn": "拉丁 -osus 表示「充满、富于」，如 montuosus「多山的」与 formosus「形状美好的」。"
         },
         {
-          "era": "OLD FRENCH -ous",
+          "era": "OLD FRENCH -OUS",
           "en": "Old French -ous, from Latin -osus, became the productive adjective ending that English borrowed with many Romance words.",
           "cn": "古法语 -ous 来自拉丁 -osus，成为英语随大量罗曼语词借入的能产形容词词尾。"
         },
@@ -889,27 +885,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S7",
+          "senses": "01 · 07",
           "en": "THE LAND ITSELF: ordinary description and technical terrain classification.",
           "cn": "土地本身：日常描述与技术性的地形分类。"
         },
         {
-          "senses": "S2",
+          "senses": "02",
           "en": "LIFE IN THAT LAND: climate, roads and villages take the label as their setting.",
           "cn": "那片土地上的生活：气候、道路与村庄把这个标签当作自身场景。"
         },
         {
-          "senses": "S3 · S5",
+          "senses": "03 · 05",
           "en": "HEIGHT WITHOUT ROCK: waves and icebergs borrow the profile of a peak.",
           "cn": "没有岩石的高度：巨浪与冰山借用山峰的轮廓。"
         },
         {
-          "senses": "S4 · S6",
+          "senses": "04 · 06",
           "en": "SCALE AS BURDEN: huge amounts and hard tasks become mountains you must move.",
           "cn": "规模即负担：庞大数量与艰难任务变成必须搬动的山。"
         },
         {
-          "senses": "S8",
+          "senses": "08",
           "en": "THE BODY AS TERRAIN: a bulk that fills a doorway is read like a slope.",
           "cn": "身体即地形：堵住门口的巨大体量被读成一面坡。"
         }
@@ -1290,7 +1286,7 @@
             {
               "word": "cordillera",
               "ipa": "/ˌkɔːdɪˈljeərə/",
-              "tag": "Spanish loan",
+              "tag": "panish loan",
               "definition": "A long system of parallel ranges, borrowed from Spanish; it is used in geography for the largest scale.",
               "definitionCN": "由多条平行山脉组成的巨大山系，借自西班牙语；地理学用它指最大尺度。"
             },
@@ -1328,7 +1324,7 @@
         },
         {
           "en": "Fixed phrases: a long mountain range, the crest of the mountain range, cross the mountain range.",
-          "cn": "固定搭配有 a long mountain range、the crest of the mountain range、cross the mountain range。"
+          "cn": "固定搭配有 a long mountain range、「the crest of the mountain range」、cross the mountain range。"
         },
         {
           "en": "Technical synonyms split by shape: chain for links, massif for a block, sierra for a saw-toothed crest.",
@@ -1393,27 +1389,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S4",
+          "senses": "01 · 04",
           "en": "THE LINE ITSELF: what is seen first is the row, then the direction in which the row continues.",
           "cn": "线本身：最先看到的是这一排，然后是这一排继续延伸的方向。"
         },
         {
-          "senses": "S2",
+          "senses": "02",
           "en": "THE DEEP STRUCTURE: the visible row is the surface of one folded rock system.",
           "cn": "深部构造：可见的一排只是同一个褶皱岩系的表面。"
         },
         {
-          "senses": "S3 · S7",
+          "senses": "03 · 07",
           "en": "THE WHOLE TERRITORY: the line becomes a place to live in and a belt of resources.",
           "cn": "整片地域：这条线变成可居住的地方，也变成一条资源带。"
         },
         {
-          "senses": "S5 · S6",
+          "senses": "05 · 06",
           "en": "THE WALL: continuity makes the range block travel, wind and weather.",
           "cn": "墙：连续性使山脉挡住通行、风与天气。"
         },
         {
-          "senses": "S8",
+          "senses": "08",
           "en": "THE OUTLINE: from far away only the drawn edge of the row remains.",
           "cn": "轮廓：从远处看，只剩这一排画出的边缘。"
         }
@@ -1583,24 +1579,12 @@
         "form": "peaks"
       },
       {
-        "label": "动词三单",
-        "form": "peaks"
-      },
-      {
         "label": "过去式",
-        "form": "peaked"
-      },
-      {
-        "label": "过去分词",
         "form": "peaked"
       },
       {
         "label": "现在分词",
         "form": "peaking"
-      },
-      {
-        "label": "形容词（有尖顶的）",
-        "form": "peaked"
       }
     ],
     "derivatives": [
@@ -1913,27 +1897,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S7",
+          "senses": "01 · 07",
           "en": "SHAPE: any surface that ends in a point has a peak, from rock to canvas.",
           "cn": "形状：凡是收成一点的表面都有尖端，从岩石到帆布都算。"
         },
         {
-          "senses": "S2",
+          "senses": "02",
           "en": "GOAL: the top is what the climb aims at.",
           "cn": "目标：顶端就是攀登所指向的东西。"
         },
         {
-          "senses": "S3 · S4",
+          "senses": "03 · 04",
           "en": "CURVE: the best moment and the highest number are both the top of a line.",
           "cn": "曲线：最好的时刻与最高的数值都是某条线的顶端。"
         },
         {
-          "senses": "S5",
+          "senses": "05",
           "en": "TIME: the busiest hour is the hour when activity is at its top.",
           "cn": "时间：最忙的那一小时，就是活动到达顶端的那一小时。"
         },
         {
-          "senses": "S6 · S8",
+          "senses": "06 · 08",
           "en": "EDGE AND ACTION: a cap's brim is a forward point, and to peak is to reach the top.",
           "cn": "边缘与动作：帽檐是向前的尖，而 peak 作动词就是到达顶端。"
         }
@@ -2078,10 +2062,6 @@
       {
         "label": "复数",
         "form": "summits"
-      },
-      {
-        "label": "作定语",
-        "form": "summit"
       },
       {
         "label": "名词（峰会活动）",
@@ -2402,27 +2382,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S8",
+          "senses": "01 · 08",
           "en": "THE PLACE: the highest point and the small flat area that makes it usable.",
           "cn": "地点：最高点，以及使它可用的那一小块平地。"
         },
         {
-          "senses": "S2",
+          "senses": "02",
           "en": "THE ACHIEVEMENT: reaching the place completes the climb.",
           "cn": "成就：抵达该处就完成了攀登。"
         },
         {
-          "senses": "S4 · S6",
+          "senses": "04 · 06",
           "en": "THE CURVE: a career and a graph both stop rising at their summit.",
           "cn": "曲线：事业与图表都在各自的顶点停止上升。"
         },
         {
-          "senses": "S5 · S7",
+          "senses": "05 · 07",
           "en": "THE HIERARCHY: rank is height, and the highest level labels its meetings.",
           "cn": "层级：等级就是高度，最高层给它的会议贴上标签。"
         },
         {
-          "senses": "S3",
+          "senses": "03",
           "en": "THE POLITICAL METAPHOR: leaders meet at a summit of their own.",
           "cn": "政治比喻：领导人在属于他们自己的「顶端」会面。"
         }
@@ -2586,15 +2566,7 @@
         "form": "ridges"
       },
       {
-        "label": "三单",
-        "form": "ridges"
-      },
-      {
         "label": "过去式",
-        "form": "ridged"
-      },
-      {
-        "label": "过去分词",
         "form": "ridged"
       },
       {
@@ -2916,27 +2888,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S6",
+          "senses": "01 · 06",
           "en": "BIG TERRAIN: mountain ridges and undersea chains are the same long fold at two scales.",
           "cn": "大地形：山脊与海底山脉是同一种长褶皱在两个尺度上的表现。"
         },
         {
-          "senses": "S2",
+          "senses": "02",
           "en": "BUILT ROOFS: two sloping surfaces meet along one line.",
           "cn": "人造屋顶：两面坡沿一条线相交。"
         },
         {
-          "senses": "S3 · S5",
+          "senses": "03 · 05",
           "en": "SMALL STRIPS: sand, ice and soil are piled into lines by water, wind or plough.",
           "cn": "小条带：沙、冰与土被水、风或犁堆成线。"
         },
         {
-          "senses": "S4",
+          "senses": "04",
           "en": "DRAWN WEATHER: an elongated high is mapped as a ridge.",
           "cn": "画出的天气：狭长高压区被画成一条脊。"
         },
         {
-          "senses": "S7 · S8",
+          "senses": "07 · 08",
           "en": "BODY AND ACTION: the nose keeps the original back image, and the verb gives the shape to anything.",
           "cn": "身体与动作：鼻梁保留最初的「背」意象，动词则把这一形状赋予任何东西。"
         }
@@ -3081,10 +3053,6 @@
       {
         "label": "复数",
         "form": "valleys"
-      },
-      {
-        "label": "作定语",
-        "form": "valley"
       },
       {
         "label": "地貌复合词（谷底）",
@@ -3405,27 +3373,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S2",
+          "senses": "01 · 02",
           "en": "LANDFORM AND WATER: the trough and the river that made it are one system.",
           "cn": "地形与水：凹槽与造就它的河流是同一个系统。"
         },
         {
-          "senses": "S3 · S7",
+          "senses": "03 · 07",
           "en": "THE PLACE PEOPLE USE: the floor is farmland, and the noun marks valley settings.",
           "cn": "人们使用的场所：谷底是农田，该名词也标出谷地场景。"
         },
         {
-          "senses": "S4",
+          "senses": "04",
           "en": "THE GRAPH: a minimum between two maxima is drawn as a valley.",
           "cn": "图表：两个最大值之间的最小值被画成一道谷。"
         },
         {
-          "senses": "S5 · S6",
+          "senses": "05 · 06",
           "en": "THE SHAPE IN OBJECTS: grooves and roof gutters repeat the two-high, one-low profile.",
           "cn": "物体中的形状：凹槽与天沟重复了「两边高、中间低」的轮廓。"
         },
         {
-          "senses": "S8",
+          "senses": "08",
           "en": "THE RIFT: tension, not water, can also open a long trough.",
           "cn": "裂谷：造成长槽的也可以是张力，而非水。"
         }
@@ -3571,10 +3539,6 @@
       {
         "label": "复数",
         "form": "canyons"
-      },
-      {
-        "label": "作定语",
-        "form": "canyon"
       },
       {
         "label": "复合词（崖缘）",
@@ -3895,27 +3859,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S2 · S8",
+          "senses": "01 · 02 · 08",
           "en": "THE LANDFORM: the river-cut slot, the district it defines and the geological class.",
           "cn": "地貌：河流切出的窄缝、它定义的地区以及地质类别。"
         },
         {
-          "senses": "S3",
+          "senses": "03",
           "en": "UNDER WATER: the same slot forms on the continental slope.",
           "cn": "水下：同样的窄缝在大陆坡上形成。"
         },
         {
-          "senses": "S4 · S5",
+          "senses": "04 · 05",
           "en": "BUILT WALLS: streets and rock passages reproduce the geometry.",
           "cn": "人造的壁：街道与岩缝复制了这种几何。"
         },
         {
-          "senses": "S6",
+          "senses": "06",
           "en": "THE METAPHOR: a deep gap in ground becomes a deep gap between positions.",
           "cn": "比喻：地面的深缝变成立场之间的深缝。"
         },
         {
-          "senses": "S7",
+          "senses": "07",
           "en": "THE PARTS: walls, rim and floor are named by the noun in attributive use.",
           "cn": "各个部分：壁、崖缘与谷底由该名词的定语用法命名。"
         }
@@ -4079,15 +4043,7 @@
         "form": "gorges"
       },
       {
-        "label": "三单",
-        "form": "gorges"
-      },
-      {
         "label": "过去式",
-        "form": "gorged"
-      },
-      {
-        "label": "过去分词",
         "form": "gorged"
       },
       {
@@ -4262,7 +4218,7 @@
             {
               "word": "gorgeous",
               "ipa": "/ˈɡɔːdʒəs/",
-              "tag": "related form, different sense",
+              "tag": "related form different sense",
               "definition": "Extremely beautiful or fine; it may go back to Old French gorgias, of uncertain link to gorge, so it is not used here as a derivative of the valley sense.",
               "definitionCN": "极美的、华丽的；可能来自古法语 gorgias，与 gorge 的关联不确定，因此这里不把它当作山谷义的派生词。"
             },
@@ -4405,27 +4361,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S8",
+          "senses": "01 · 08",
           "en": "THE NARROW CHANNEL: a valley squeezed like a throat, and the act of cutting such a groove.",
           "cn": "窄通道：像咽喉一样被夹紧的谷，以及切出这种凹槽的动作。"
         },
         {
-          "senses": "S2 · S6",
+          "senses": "02 · 06",
           "en": "THE BODY: the passage itself and the nausea felt inside it.",
           "cn": "身体：通道本身，以及在通道里感到的恶心。"
         },
         {
-          "senses": "S3 · S4",
+          "senses": "03 · 04",
           "en": "STUFFING: eating fast and filling any container past its limit.",
           "cn": "塞满：快速进食，以及把任何容器填过极限。"
         },
         {
-          "senses": "S5",
+          "senses": "05",
           "en": "THE BLOCKED PASS: ice turns a narrow channel into a dam.",
           "cn": "被堵的通道：冰把窄通道变成一道坝。"
         },
         {
-          "senses": "S7",
+          "senses": "07",
           "en": "THE MATERIAL GROOVE: stone and wood repeat the hollow throat shape.",
           "cn": "材料上的槽：石材与木材重复了中空咽喉的形状。"
         }
@@ -4589,10 +4545,6 @@
       {
         "label": "复数（法语式）",
         "form": "plateaux"
-      },
-      {
-        "label": "动词三单",
-        "form": "plateaus"
       },
       {
         "label": "过去式",
@@ -4913,27 +4865,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S2",
+          "senses": "01 · 02",
           "en": "THE LAND: a broad high flat area and its smaller flat-topped cousin.",
           "cn": "土地：大片高而平的地区，以及它较小的平顶近亲。"
         },
         {
-          "senses": "S3 · S4 · S5",
+          "senses": "03 · 04 · 05",
           "en": "THE CURVE: learning, performance and graphs all go flat for a while.",
           "cn": "曲线：学习、表现与图表都会有一段时间走平。"
         },
         {
-          "senses": "S7",
+          "senses": "07",
           "en": "THE ACTION: to plateau is to take on that flat profile.",
           "cn": "动作：plateau 作动词就是呈现出这种平坦轮廓。"
         },
         {
-          "senses": "S6",
+          "senses": "06",
           "en": "THE BUILT FORM: a stage or platform repeats the shape.",
           "cn": "人造形态：舞台或平台重复了这一形状。"
         },
         {
-          "senses": "S8",
+          "senses": "08",
           "en": "THE OLD DISH: the French tray sense survives as a serving word.",
           "cn": "古老的盘子：法语的托盘义作为餐具词保留下来。"
         }
@@ -5300,7 +5252,7 @@
             {
               "word": "explain",
               "ipa": "/ɪkˈspleɪn/",
-              "tag": "shared root, different word",
+              "tag": "shared root different word",
               "definition": "To make something clear; Latin explanare is built on planus 'flat', so it shares the root but is not a derivative of the English plain.",
               "definitionCN": "把某事讲清楚；拉丁 explanare 建立在 planus「平的」上，因此同根，但不是英语 plain 的派生词。"
             },
@@ -5429,27 +5381,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S2",
+          "senses": "01 · 02",
           "en": "THE LAND: a flat stretch, and the plural that makes it a region.",
           "cn": "土地：一段平地，以及把它变成地区的复数。"
         },
         {
-          "senses": "S3 · S6 · S7",
+          "senses": "03 · 06 · 07",
           "en": "NOTHING ADDED: undecorated clothes, ordinary looks and plain food.",
           "cn": "没有附加：无装饰的衣服、平常的相貌与简单的食物。"
         },
         {
-          "senses": "S4",
+          "senses": "04",
           "en": "NO OBSTACLE: clear language is flat ground between speaker and listener.",
           "cn": "没有障碍：清楚的语言就是说话者与听者之间的平地。"
         },
         {
-          "senses": "S5",
+          "senses": "05",
           "en": "NO COVER: direct speech says exactly what is meant.",
           "cn": "没有遮盖：直率的话说的就是本意。"
         },
         {
-          "senses": "S8",
+          "senses": "08",
           "en": "SHEER FACT: what is obvious needs no argument, so plain intensifies.",
           "cn": "纯粹的事实：显而易见的东西无需论证，于是 plain 变成强调词。"
         }
@@ -5947,27 +5899,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S2 · S7",
+          "senses": "01 · 02 · 07",
           "en": "THE CONTAINER: a portable bowl, a fixed washbowl and a stone fountain pool.",
           "cn": "容器：可移动的盆、固定的洗脸盆与石砌喷泉水池。"
         },
         {
-          "senses": "S3",
+          "senses": "03",
           "en": "THE DRAINAGE: rain on a bowl-shaped region converges on one river.",
           "cn": "汇水：碗状地区上的雨水汇入同一条河。"
         },
         {
-          "senses": "S4 · S5",
+          "senses": "04 · 05",
           "en": "THE LANDFORM: a surface lowland and the folded rock beneath it.",
           "cn": "地貌：地表低地与其下褶皱的岩层。"
         },
         {
-          "senses": "S6",
+          "senses": "06",
           "en": "THE HARBOUR: walls make a bowl of still water for boats.",
           "cn": "港湾：墙围出一只静止的水碗供船停泊。"
         },
         {
-          "senses": "S8",
+          "senses": "08",
           "en": "THE GENERAL SHAPE: any hollow with raised edges qualifies.",
           "cn": "一般形状：任何边缘高起的凹陷都符合。"
         }
@@ -6445,27 +6397,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S2",
+          "senses": "01 · 02",
           "en": "THE MIND: clinical and everyday low mood both feel like being weighed down.",
           "cn": "心智：临床与日常的情绪低落都像被重物压住。"
         },
         {
-          "senses": "S3",
+          "senses": "03",
           "en": "THE ECONOMY: output sinks and stays low.",
           "cn": "经济：产出下沉并停在低处。"
         },
         {
-          "senses": "S4",
+          "senses": "04",
           "en": "THE AIR: low pressure is drawn as a dip on the map.",
           "cn": "空气：低气压在图上被画成凹陷。"
         },
         {
-          "senses": "S5 · S6",
+          "senses": "05 · 06",
           "en": "THE SURFACE: land and objects repeat the same sunken profile.",
           "cn": "表面：土地与物体重复同样的凹陷轮廓。"
         },
         {
-          "senses": "S7 · S8",
+          "senses": "07 · 08",
           "en": "THE ACTION AND ANGLE: pressing down, and the geometric angle of looking down.",
           "cn": "动作与角度：向下压，以及向下看的几何夹角。"
         }
@@ -6635,10 +6587,6 @@
       {
         "label": "复数",
         "form": "lowlands"
-      },
-      {
-        "label": "作定语",
-        "form": "lowland"
       },
       {
         "label": "名词（低地居民）",
@@ -6959,27 +6907,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S2",
+          "senses": "01 · 02",
           "en": "THE GROUND: a low stretch, and the plural that makes it a region.",
           "cn": "土地：一段低地，以及把它变成地区的复数。"
         },
         {
-          "senses": "S3 · S7",
+          "senses": "03 · 07",
           "en": "THE NAMES: Scotland's Lowlands and the Low Countries fix the word to real districts.",
           "cn": "名称：苏格兰低地与低地国家把这个词固定到真实地区。"
         },
         {
-          "senses": "S4 · S5",
+          "senses": "04 · 05",
           "en": "THE ALTITUDE BAND: ecology and geography use lowland as a class and a habitat label.",
           "cn": "海拔带：生态学与地理学把 lowland 用作类别与生境标签。"
         },
         {
-          "senses": "S6",
+          "senses": "06",
           "en": "THE WATER: the lowest ground floods first.",
           "cn": "水：最低的地面最先被淹。"
         },
         {
-          "senses": "S8",
+          "senses": "08",
           "en": "THE PEOPLE: where you live becomes who you are.",
           "cn": "人：住在哪里变成了「是谁」。"
         }
@@ -7116,10 +7064,6 @@
       {
         "label": "复数",
         "form": "highlands"
-      },
-      {
-        "label": "作定语",
-        "form": "highland"
       },
       {
         "label": "名词（高地居民）",
@@ -7440,27 +7384,27 @@
       ],
       "branches": [
         {
-          "senses": "S1 · S2",
+          "senses": "01 · 02",
           "en": "THE GROUND: a raised stretch, and the plural that makes it a region.",
           "cn": "土地：一段抬高的地面，以及把它变成地区的复数。"
         },
         {
-          "senses": "S3",
+          "senses": "03",
           "en": "THE NAME: the Highlands fixes the word to Scotland's uplands.",
           "cn": "名称：The Highlands 把这个词固定为苏格兰高地。"
         },
         {
-          "senses": "S4 · S5",
+          "senses": "04 · 05",
           "en": "THE BELT: altitude creates a zone with its own plants, breeds and weather.",
           "cn": "地带：海拔造出一个拥有自身植物、品种与天气的区域。"
         },
         {
-          "senses": "S6",
+          "senses": "06",
           "en": "THE PASTURE: the land's use as summer grazing.",
           "cn": "牧场：这片土地作为夏季放牧之用的角色。"
         },
         {
-          "senses": "S7 · S8",
+          "senses": "07 · 08",
           "en": "THE PEOPLE AND THE DIVISION: shared height makes shared culture and a regional half.",
           "cn": "人与划分：共同的高度造就共同的文化，也构成地区的一半。"
         }
