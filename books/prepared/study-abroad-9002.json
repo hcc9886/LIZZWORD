@@ -1,0 +1,440 @@
+[
+  {
+    "word": "plagiarism",
+    "ipa_uk": "/ˈpleɪdʒərɪzəm/",
+    "ipa_us": "/ˈpleɪdʒərɪzəm/",
+    "definition_zh": "剽窃；抄袭；抄袭行为；剽窃作品",
+    "definition_en": "the act of presenting the words or ideas of another writer as your own",
+    "core_image": "一个人把别人论文的封面换成自己的名字",
+    "scene": "学生整段照搬网络文章却不注明出处，被导师认定为抄袭。The student copied a whole paragraph from a website without a reference and was charged with plagiarism.",
+    "sceneCN": "这里 plagiarism 是「剽窃；抄袭」（第 1 个义项：把别人的文字或观点当成自己的）；句意：学生整段照搬网络文章却不注明出处，因此被认定抄袭。",
+    "pos": [
+      {
+        "tag": "n.",
+        "zh": "剽窃；抄袭；抄袭行为"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "commit plagiarism",
+        "zh": "实施抄袭"
+      },
+      {
+        "phrase": "plagiarism detection",
+        "zh": "抄袭检测"
+      },
+      {
+        "phrase": "plagiarism check",
+        "zh": "查重；抄袭检查"
+      },
+      {
+        "phrase": "accusation of plagiarism",
+        "zh": "抄袭指控"
+      },
+      {
+        "phrase": "plagiarism policy",
+        "zh": "抄袭处理政策"
+      },
+      {
+        "phrase": "avoid plagiarism",
+        "zh": "避免抄袭"
+      }
+    ],
+    "forms": [
+      {
+        "label": "复数",
+        "form": "plagiarisms"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "plagiarist",
+        "pos": "n.",
+        "zh": "剽窃者；抄袭者，由 plagiarism 换 -ism 为 -ist 构成"
+      },
+      {
+        "word": "plagiarize",
+        "pos": "v.",
+        "zh": "剽窃；抄袭，由 plagiarism 换 -ism 为 -ize 构成"
+      },
+      {
+        "word": "plagiarizer",
+        "pos": "n.",
+        "zh": "抄袭者，由 plagiarize 加 -er 构成"
+      },
+      {
+        "word": "plagiaristic",
+        "pos": "adj.",
+        "zh": "抄袭的；剽窃性质的"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "Academic theft",
+        "titleCN": "学术剽窃",
+        "definition": "the act of presenting the words or ideas of another writer as your own",
+        "definitionCN": "把另一位作者的词句或观点当成自己的东西呈现出来",
+        "example": "The journal rejected the paper because of clear plagiarism.",
+        "exampleCN": "期刊因明显的抄袭而退回了这篇论文。",
+        "why": "Plagium meant kidnapping, and plagiarism carries the same image of taking what belongs to someone else.",
+        "whyCN": "plagium 意为拐带，plagiarism 沿用了同一意象：把属于别人的东西抱走。"
+      },
+      {
+        "no": "02",
+        "title": "A copied piece of work",
+        "titleCN": "抄袭作品；被剽窃的内容",
+        "definition": "a passage or a work that has been copied and passed off as original",
+        "definitionCN": "被抄来并冒充原创的一段文字或一部作品",
+        "example": "The editor found a plagiarism of an older article in the submission.",
+        "exampleCN": "编辑在来稿中发现了一段抄自旧文的文字。",
+        "why": "The noun can name the stolen thing itself, not only the act of stealing it.",
+        "whyCN": "这个名词也能指被偷走的东西本身，而不只是偷窃行为。"
+      },
+      {
+        "no": "03",
+        "title": "Literary theft",
+        "titleCN": "文学盗用",
+        "definition": "the literary theft of work by another author, published under a false name",
+        "definitionCN": "把他人的作品署上假名发表的文学盗用行为",
+        "example": "Martial mocked a plagiarist whose verses were a plagiarism of his own.",
+        "exampleCN": "马提亚尔嘲笑一个抄袭者，那人的诗句其实抄自他自己的作品。",
+        "why": "Latin writers already used the kidnapper image for verses carried off by a rival.",
+        "whyCN": "拉丁作家早已用「拐带者」的意象，指被对手抱走的诗句。"
+      },
+      {
+        "no": "04",
+        "title": "Reuse of own work",
+        "titleCN": "自我抄袭",
+        "definition": "the reuse of work that the same author has already published, without saying so",
+        "definitionCN": "同一作者重复使用自己已发表的作品而不加说明",
+        "example": "Recycling an old chapter without a note is a form of self-plagiarism.",
+        "exampleCN": "不加说明地重复使用旧章节，是一种自我抄袭。",
+        "why": "The kidnap image extends to taking from oneself, a theft that deceives readers about what is new.",
+        "whyCN": "拐带意象扩展到「从自己那里拿」，这种取用会让读者误以为内容是新写的。"
+      },
+      {
+        "no": "05",
+        "title": "Musical plagiarism",
+        "titleCN": "音乐抄袭",
+        "definition": "the use of a substantial part of music by another composer without permission or credit",
+        "definitionCN": "未经许可、未给署名就使用另一位作曲家的大量音乐内容",
+        "example": "The band was accused of plagiarism after the melody of the single matched an old song.",
+        "exampleCN": "这首单曲的旋律与一首老歌吻合，乐队因此被指抄袭。",
+        "why": "The same taking image applies to a melody carried over from the work of someone else.",
+        "whyCN": "同样的「拿走」意象也适用于从他人作品里搬来的旋律。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Plagiarism comes from Latin plagium, kidnapping, perhaps from plaga, a snare or net; the deeper origin is uncertain.",
+        "cn": "plagiarism 来自拉丁语 plagium（拐带），可能源于 plaga（罗网、圈套），更深层的来源尚不确定。"
+      },
+      "items": [
+        {
+          "era": "LATIN",
+          "en": "Plagium means kidnapping, perhaps from plaga, a snare or net.",
+          "cn": "plagium 意为拐带，可能来自 plaga（罗网、圈套）；这一词源存疑。"
+        },
+        {
+          "era": "LATIN",
+          "en": "Plagiarius names a kidnapper of a child or a slave.",
+          "cn": "plagiarius 指拐带他人子女或奴隶的人。"
+        },
+        {
+          "era": "LATIN",
+          "en": "Martial applies plagiarius to a writer who steals verses.",
+          "cn": "马提亚尔把 plagiarius 用于偷窃诗句的写作者。"
+        },
+        {
+          "era": "ENGLISH, 17TH C.",
+          "en": "English plagiarism enters as literary theft.",
+          "cn": "英语 plagiarism 最初指文学盗用。"
+        },
+        {
+          "era": "ENGLISH, 18TH C.",
+          "en": "Plagiarist and plagiarize follow the noun into English.",
+          "cn": "plagiarist 与 plagiarize 随后也进入英语。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "Universities now treat plagiarism as a serious academic offence.",
+          "cn": "如今大学把抄袭视为严重的学术违规。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "Plagiarism belongs to the Latin kidnapping family of plagiarist and plagiarize, and it sits near copying, piracy, and appropriation.",
+        "cn": "plagiarism 属于拉丁语「拐带」词族，与 plagiarist、plagiarize 同源，并与 copying、piracy、appropriation 意义相邻。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "plagiarist",
+              "ipa": "/ˈpleɪdʒərɪst/",
+              "tag": "derived form",
+              "definition": "a person who plagiarizes",
+              "definitionCN": "剽窃者；抄袭者"
+            },
+            {
+              "word": "plagiarize",
+              "ipa": "/ˈpleɪdʒəraɪz/",
+              "tag": "derived form",
+              "definition": "to present another writer work as your own",
+              "definitionCN": "剽窃；把他人作品当成自己的"
+            },
+            {
+              "word": "plagiaristic",
+              "ipa": "/ˌpleɪdʒəˈrɪstɪk/",
+              "tag": "derived form",
+              "definition": "of the nature of plagiarism",
+              "definitionCN": "抄袭性质的"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "copying",
+              "ipa": "/ˈkɒpiɪŋ/",
+              "tag": "near meaning",
+              "definition": "the act of reproducing something",
+              "definitionCN": "复制；照抄，范围比 plagiarism 宽"
+            },
+            {
+              "word": "piracy",
+              "ipa": "/ˈpaɪrəsi/",
+              "tag": "near meaning",
+              "definition": "the unauthorized reproduction of another work",
+              "definitionCN": "盗版；未经授权复制他人作品"
+            },
+            {
+              "word": "appropriation",
+              "ipa": "/əˌprəʊpriˈeɪʃn/",
+              "tag": "near meaning",
+              "definition": "the taking of another culture or work for one own use",
+              "definitionCN": "挪用；占用他人文化或作品，常含批评意味"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Plagiarism keeps the Latin image of kidnapping: a work is carried off and given a false name.",
+        "cn": "plagiarism 保留了拉丁语「拐带」的意象：作品被人抱走，再换上一个假名字。"
+      },
+      "normal": [
+        {
+          "en": "Plagiarism and plagiarius share the Latin image of kidnapping.",
+          "cn": "plagiarism 与 plagiarius 共享拉丁语「拐带」意象。"
+        },
+        {
+          "en": "A plagiarist takes the words and leaves the name behind.",
+          "cn": "抄袭者拿走文字，却把原作者的署名丢下。"
+        },
+        {
+          "en": "Plagiarism detection compares a paper with a large database of sources.",
+          "cn": "抄袭检测把论文与大型来源数据库进行比对。"
+        },
+        {
+          "en": "Self-plagiarism reuses old work without saying so.",
+          "cn": "自我抄袭重复使用旧作而不加说明。"
+        },
+        {
+          "en": "Compare copying: copying can be legal, plagiarism always hides the source.",
+          "cn": "对比 copying：复制可能合法，抄袭则总是隐藏来源。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "Picture a hand slipping a page into another binder.",
+          "cn": "想象一只手把一页纸塞进另一个活页夹。"
+        },
+        {
+          "en": "Picture a book whose cover name has been scraped away.",
+          "cn": "想象一本书封面上的名字被刮掉。"
+        },
+        {
+          "en": "Picture a rival carrying off a rolled scroll under one arm.",
+          "cn": "想象一个对手把一卷文稿夹在腋下带走。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "The university treats plagiarism as a breach of academic honesty.",
+        "cn": "这所大学把抄袭视为对学术诚信的违背。"
+      },
+      {
+        "en": "She was accused of plagiarism after copying whole paragraphs from a thesis.",
+        "cn": "她因整段抄用一篇论文而被指抄袭。"
+      },
+      {
+        "en": "A clear citation can prevent accidental plagiarism.",
+        "cn": "清楚标注出处可以避免无意的抄袭。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「普雷杰」——雷同的杰作，其实是抄来的；谐音联想，不是词源。",
+      "word": "plagiarism"
+    },
+    "root": "拉丁语 plagiarius（拐带他人子女或奴隶的人）→ 拉丁语 plagium（拐带）→ 英语 plagiarism，核心义「把别人的东西抱走、当成自己的」。",
+    "sensesIntro": {
+      "en": "Plagiarism starts as the act of taking another work, then names the stolen text, literary theft, reuse of own work, and musical borrowing.",
+      "cn": "plagiarism 从「拿走他人作品」的行为出发，引申为被抄的文本、文学盗用、自我抄袭与音乐抄袭。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: a hand carrying off a bound manuscript under a coat.",
+        "cn": "核心意象：一只手把装订好的文稿藏在外套下带走。"
+      },
+      "chain": [
+        "KIDNAP",
+        "CARRY OFF",
+        "STEAL WORK",
+        "FALSE NAME",
+        "COPY",
+        "MISCONDUCT"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "Academic theft is the central modern sense.",
+          "cn": "学术剽窃是核心的现代义项。"
+        },
+        {
+          "senses": "02",
+          "en": "The copied work is the result sense.",
+          "cn": "被抄的作品是结果义项。"
+        },
+        {
+          "senses": "03",
+          "en": "Literary theft is the historical sense.",
+          "cn": "文学盗用是历史义项。"
+        },
+        {
+          "senses": "04",
+          "en": "Reuse of own work is the self-directed sense.",
+          "cn": "自我抄袭是指向自身的义项。"
+        },
+        {
+          "senses": "05",
+          "en": "Musical plagiarism is the melody sense.",
+          "cn": "音乐抄袭是旋律层面的义项。"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Plagiarism is built on Latin plagium, kidnapping, with the noun ending -ism; plagiarist and plagiarize replace that ending with -ist and -ize.",
+        "cn": "plagiarism 建在拉丁语 plagium（拐带）之上，名词词尾 -ism 使其成为行为或现象；plagiarist 与 plagiarize 则分别换成 -ist 与 -ize。"
+      },
+      "latinIntro": {
+        "en": "Latin plagium means kidnapping, and plagiarius means a kidnapper, later a literary thief.",
+        "cn": "拉丁语 plagium 意为拐带，plagiarius 意为拐带者，后来指文学上的偷窃者。"
+      },
+      "items": [
+        {
+          "word": "plagium",
+          "structure": "Latin noun",
+          "meaning": "kidnapping",
+          "meaningCN": "拐带；绑走他人子女或奴隶",
+          "example": "Plagium gives the kidnapping image to the word.",
+          "exampleCN": "plagium 为这个词提供「拐带」意象。"
+        },
+        {
+          "word": "plagiarius",
+          "structure": "Latin noun",
+          "meaning": "kidnapper, later a literary thief",
+          "meaningCN": "拐带者，后指文学窃贼",
+          "example": "Plagiarius is the person noun behind plagiarism.",
+          "exampleCN": "plagiarius 是 plagiarism 背后的人物名词。"
+        },
+        {
+          "word": "plagiarism",
+          "structure": "English noun",
+          "meaning": "the act of presenting another work as your own",
+          "meaningCN": "剽窃；抄袭",
+          "example": "Plagiarism turns the kidnapper into the offence.",
+          "exampleCN": "plagiarism 把「拐带者」变成一种违规行为。"
+        },
+        {
+          "word": "plagiarist",
+          "structure": "English noun",
+          "meaning": "a person who plagiarizes",
+          "meaningCN": "剽窃者；抄袭者",
+          "example": "Plagiarist swaps -ism for the person suffix -ist.",
+          "exampleCN": "plagiarist 把 -ism 换成人物后缀 -ist。"
+        },
+        {
+          "word": "plagiarize",
+          "structure": "English verb",
+          "meaning": "to present another work as your own",
+          "meaningCN": "剽窃；抄袭",
+          "example": "Plagiarize swaps -ism for the verb suffix -ize.",
+          "exampleCN": "plagiarize 把 -ism 换成动词后缀 -ize。"
+        },
+        {
+          "word": "plagiarizer",
+          "structure": "English noun",
+          "meaning": "a person who plagiarizes",
+          "meaningCN": "抄袭者",
+          "example": "Plagiarizer adds the agent suffix -er to the verb.",
+          "exampleCN": "plagiarizer 在动词后加施事后缀 -er。"
+        },
+        {
+          "word": "plagiaristic",
+          "structure": "English adjective",
+          "meaning": "of the nature of plagiarism",
+          "meaningCN": "抄袭性质的",
+          "example": "Plagiaristic adds the adjective ending -ic.",
+          "exampleCN": "plagiaristic 加了形容词词尾 -ic。"
+        },
+        {
+          "word": "-ism",
+          "structure": "English suffix",
+          "meaning": "practice or system",
+          "meaningCN": "表示行为、做法或体系的名词后缀",
+          "example": "The suffix -ism forms plagiarism from the Latin stem.",
+          "exampleCN": "后缀 -ism 从拉丁词干构成 plagiarism。"
+        },
+        {
+          "word": "-ist",
+          "structure": "English suffix",
+          "meaning": "person who practices",
+          "meaningCN": "表示从事某种行为的人",
+          "example": "The suffix -ist forms plagiarist.",
+          "exampleCN": "后缀 -ist 构成 plagiarist。"
+        },
+        {
+          "word": "-ize",
+          "structure": "English suffix",
+          "meaning": "to make or to act",
+          "meaningCN": "表示「使……化」或「从事」的动词后缀",
+          "example": "The suffix -ize forms plagiarize.",
+          "exampleCN": "后缀 -ize 构成 plagiarize。"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "plagium",
+          "structure": "Latin noun",
+          "meaning": "kidnapping",
+          "meaningCN": "拐带"
+        },
+        {
+          "word": "plagiarius",
+          "structure": "Latin noun",
+          "meaning": "kidnapper, literary thief",
+          "meaningCN": "拐带者；文学窃贼"
+        }
+      ]
+    }
+  }
+]

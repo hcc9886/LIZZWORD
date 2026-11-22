@@ -1,0 +1,2155 @@
+[
+  {
+    "word": "dosage",
+    "ipa_uk": "/ˈdəʊsɪdʒ/",
+    "ipa_us": "/ˈdoʊsɪdʒ/",
+    "definition_zh": "剂量；用量；给药量",
+    "definition_en": "the amount of a medicine or other substance given at one time, or the way such amounts are measured and scheduled",
+    "core_image": "一支量杯里的药液刚好装到刻度线",
+    "scene": "护士核对医嘱上的剂量，确认没有超过安全范围。The nurse checked the dosage on the order and found it within the safe range.",
+    "sceneCN": "这里 dosage 是「剂量、给药量」（第 1 个义项：一次给药的量）；句意：护士核对医嘱上的剂量，确认没有超过安全范围。",
+    "pos": [
+      {
+        "tag": "n.",
+        "zh": "剂量；用量；给药量"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "dosage form",
+        "zh": "剂型"
+      },
+      {
+        "phrase": "recommended dosage",
+        "zh": "推荐剂量"
+      },
+      {
+        "phrase": "daily dosage",
+        "zh": "每日剂量"
+      },
+      {
+        "phrase": "high dosage",
+        "zh": "大剂量"
+      },
+      {
+        "phrase": "adjust the dosage",
+        "zh": "调整剂量"
+      },
+      {
+        "phrase": "dosage regimen",
+        "zh": "给药方案"
+      }
+    ],
+    "forms": [
+      {
+        "label": "复数",
+        "form": "dosages"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "dose",
+        "pos": "n.",
+        "zh": "基础名词，义为「一剂药；一次用量」，dosage 由它加后缀构成"
+      },
+      {
+        "word": "dosimeter",
+        "pos": "n.",
+        "zh": "dose 加 -meter（测量器），义为「剂量计」，用来测量辐射或药物的累积剂量"
+      },
+      {
+        "word": "dosimetry",
+        "pos": "n.",
+        "zh": "dosimeter 的词族名词，义为「剂量测定」，指测量与计算剂量的技术与学科"
+      },
+      {
+        "word": "overdose",
+        "pos": "n.",
+        "zh": "over-（超过）加 dose，义为「用药过量」，指超出安全范围的剂量"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "A measured amount of medicine",
+        "titleCN": "剂量；药量",
+        "definition": "the amount of a medicine given to a patient at one time",
+        "definitionCN": "一次给病人使用的药量",
+        "example": "The label states a dosage of two tablets every eight hours.",
+        "exampleCN": "标签上写明剂量为每八小时两片。",
+        "why": "Dose came from Greek dosis, a giving, and the suffix -age turns the given portion into a measured amount.",
+        "whyCN": "dose 源自希腊语 dosis（给予），后缀 -age 把「给出的一份」变成可计量的量。"
+      },
+      {
+        "no": "02",
+        "title": "A prescribed plan of dosing",
+        "titleCN": "给药方案；用法用量",
+        "definition": "the amount and frequency of a medicine as set out in a prescription",
+        "definitionCN": "处方中规定的用量与用药次数",
+        "example": "The doctor reduced the dosage after the kidney test.",
+        "exampleCN": "肾功能检查之后，医生降低了给药量。",
+        "why": "Because -age can name a collective practice, dosage also covers the whole schedule of giving doses.",
+        "whyCN": "因为 -age 也能表示一种整体的做法，dosage 便扩展到整套给药安排。"
+      },
+      {
+        "no": "03",
+        "title": "An amount of radiation absorbed",
+        "titleCN": "辐射剂量",
+        "definition": "the quantity of radiation that a body or material receives",
+        "definitionCN": "身体或材料所接受的辐射量",
+        "example": "Workers wear badges that record their radiation dosage.",
+        "exampleCN": "工人佩戴徽章来记录所受的辐射剂量。",
+        "why": "The measured-amount sense extends to any agent delivered in controlled quantities, and radiation is one of them.",
+        "whyCN": "「可计量的量」这一义可以扩展到任何按受控量施加的因素，辐射就是其中之一。"
+      },
+      {
+        "no": "04",
+        "title": "An amount used outside medicine",
+        "titleCN": "用量；配比量",
+        "definition": "the quantity of a substance added to a process such as cleaning or treating water",
+        "definitionCN": "在清洁、水处理等过程中加入某物的量",
+        "example": "Use half the usual dosage of detergent for a light load.",
+        "exampleCN": "洗少量衣物时，用平常洗涤剂用量的一半。",
+        "why": "Once dosage means a regulated amount, it fits any product that is added by measure.",
+        "whyCN": "一旦 dosage 表示「按规定加入的量」，它便适用于任何按量添加的产品。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Dosage is dose plus the noun suffix -age. Dose goes back through French to Late Latin dosis and Greek dosis, a giving.",
+        "cn": "dosage 由 dose 加名词后缀 -age 构成。dose 经法语上溯到晚拉丁语 dosis 与希腊语 dosis，本义「给予」。"
+      },
+      "items": [
+        {
+          "era": "GREEK",
+          "en": "Dosis means a giving or a portion given, from the verb didonai, to give.",
+          "cn": "dosis 意为给予或给出的一份，来自动词 didonai（给）。"
+        },
+        {
+          "era": "LATIN",
+          "en": "Late Latin dosis takes the Greek noun into medical writing as the amount of a remedy.",
+          "cn": "晚拉丁语 dosis 把这个希腊名词引入医学写作，指药剂的用量。"
+        },
+        {
+          "era": "OLD FRENCH",
+          "en": "Dose reaches French as the amount of a medicine taken at one time.",
+          "cn": "dose 进入法语，指一次服用的药量。"
+        },
+        {
+          "era": "ENGLISH, 17TH C.",
+          "en": "English borrows dose for the quantity of a medicine given at one time.",
+          "cn": "英语借入 dose，指一次给出的药量。"
+        },
+        {
+          "era": "ENGLISH, 19TH C.",
+          "en": "The suffix -age builds dosage, first the giving of doses and then the measured amount itself.",
+          "cn": "后缀 -age 构成 dosage，先指给药这件事，再指所给的量本身。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "Modern usage adds radiation dosage and the dosage of household products.",
+          "cn": "现代用法增加了辐射剂量与日用品的用量。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "Dosage belongs to the dose family, and its nearest neighbours are words for amounts and intakes.",
+        "cn": "dosage 属于 dose 词族，最近的邻居是表示「数量、摄入量」的词。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "dose",
+              "ipa": "/dəʊs/",
+              "tag": "same root",
+              "definition": "a single measured portion of a medicine",
+              "definitionCN": "一剂药；一次用量"
+            },
+            {
+              "word": "dosimeter",
+              "ipa": "/dəʊˈsɪmɪtə/",
+              "tag": "derived form",
+              "definition": "an instrument that measures an absorbed dose",
+              "definitionCN": "测量吸收剂量的仪器"
+            },
+            {
+              "word": "dosing",
+              "ipa": "/ˈdəʊsɪŋ/",
+              "tag": "derived noun",
+              "definition": "the act of giving doses of a medicine",
+              "definitionCN": "给药；分次投药"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "amount",
+              "ipa": "/əˈmaʊnt/",
+              "tag": "near meaning",
+              "definition": "a quantity of something",
+              "definitionCN": "数量；总额"
+            },
+            {
+              "word": "quantity",
+              "ipa": "/ˈkwɒntəti/",
+              "tag": "near meaning",
+              "definition": "an amount or number of something",
+              "definitionCN": "数量"
+            },
+            {
+              "word": "intake",
+              "ipa": "/ˈɪnteɪk/",
+              "tag": "near meaning",
+              "definition": "the amount taken into the body",
+              "definitionCN": "摄入量"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Dosage is dose plus -age: the amount given, and the practice of giving it by measure.",
+        "cn": "dosage 是 dose 加 -age：既是给出的量，也是按量给药的作法。"
+      },
+      "normal": [
+        {
+          "en": "Dose is the base noun; dosage is the measured amount and its schedule.",
+          "cn": "dose 是基础名词，dosage 是可计量的量与给药安排。"
+        },
+        {
+          "en": "The suffix -age, as in mileage, names a measured total.",
+          "cn": "后缀 -age 如同 mileage，表示按量累计的总数。"
+        },
+        {
+          "en": "A dosage form is the shape a medicine takes, such as a tablet or a syrup.",
+          "cn": "dosage form 是药物的形态，例如片剂或糖浆。"
+        },
+        {
+          "en": "A dosimeter measures dose, so the two words share the dose stem.",
+          "cn": "dosimeter 测量剂量，两个词共享 dose 词干。"
+        },
+        {
+          "en": "Adjust the dosage means to change how much is given.",
+          "cn": "adjust the dosage 意为改变给药量。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "Picture a measuring cup filled exactly to the marked line.",
+          "cn": "想象一个量杯正好装到刻度线。"
+        },
+        {
+          "en": "Picture a chart with times and amounts written in two columns.",
+          "cn": "想象一张表，两列分别写着时间和用量。"
+        },
+        {
+          "en": "Picture a badge darkening as it absorbs invisible rays.",
+          "cn": "想象一枚徽章在吸收看不见的射线后颜色变深。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "The pharmacist double-checked the dosage before handing over the bottle.",
+        "cn": "药剂师在递出药瓶前再次核对了剂量。"
+      },
+      {
+        "en": "Children need a smaller dosage than adults for this syrup.",
+        "cn": "这种糖浆儿童需要的剂量比成人小。"
+      },
+      {
+        "en": "Her daily dosage was reduced from three tablets to two.",
+        "cn": "她的每日剂量从三片减到两片。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「多思剂」——给多少药要多想一想；这只是谐音联想，与词源无关。",
+      "word": "dosage"
+    },
+    "root": "希腊语 dosis（给予、给出的一份）→ 晚拉丁语 dosis（药量）→ 法语 dose → 英语 dose；再加名词后缀 -age，构成 dosage，核心义「按量给出的一份」。",
+    "sensesIntro": {
+      "en": "Dosage starts from one measured portion, widens to the whole prescribed schedule, then extends to radiation and to any product added by measure.",
+      "cn": "dosage 从「一次量出的一份」出发，扩展到整套给药安排，再延伸到辐射剂量与任何按量添加的用品。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: a measuring cup filled to the marked line.",
+        "cn": "核心意象：量杯装到刻度线。"
+      },
+      "chain": [
+        "GIVE",
+        "PORTION",
+        "MEASURE",
+        "SCHEDULE",
+        "ABSORBED DOSE",
+        "ADDED AMOUNT"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "A single measured portion is the everyday sense.",
+          "cn": "一次量出的一份是日常义项。"
+        },
+        {
+          "senses": "02",
+          "en": "A prescribed plan grows out of repeated portions.",
+          "cn": "给药方案由反复给出的份量长成。"
+        },
+        {
+          "senses": "03",
+          "en": "Radiation dose borrows the measured-amount image.",
+          "cn": "辐射剂量借用了「可计量的量」这一意象。"
+        },
+        {
+          "senses": "04",
+          "en": "Detergent dosage applies the same image outside medicine.",
+          "cn": "洗涤剂用量把同一意象用到医学之外。"
+        },
+        {
+          "senses": "01 · 02",
+          "en": "A written order joins the amount and the timetable.",
+          "cn": "一纸医嘱把用量与时间表连在一起。"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Dosage is built from dose and the noun suffix -age, with doser and dosimeter in the same family.",
+        "cn": "dosage 由 dose 与名词后缀 -age 构成，同族还有 doser 与 dosimeter。"
+      },
+      "latinIntro": {
+        "en": "Late Latin dosis, from Greek dosis, a giving, supplies the base for dose and dosage.",
+        "cn": "晚拉丁语 dosis 来自希腊语 dosis（给予），是 dose 与 dosage 的来源。"
+      },
+      "items": [
+        {
+          "word": "dose",
+          "structure": "English noun",
+          "meaning": "a measured portion of a medicine",
+          "meaningCN": "一剂药；一次用量",
+          "example": "Dose is the base noun of the family.",
+          "exampleCN": "dose 是这个词族的基础名词。"
+        },
+        {
+          "word": "dose",
+          "structure": "English verb",
+          "meaning": "to give a measured amount to someone",
+          "meaningCN": "给……服药；按剂量给药",
+          "example": "Nurses dose patients by body weight.",
+          "exampleCN": "护士按体重给病人用药。"
+        },
+        {
+          "word": "doser",
+          "structure": "English agent noun",
+          "meaning": "a person or device that gives doses",
+          "meaningCN": "给量者；按剂量给药的人或装置",
+          "example": "A doser delivers the syrup in fixed amounts.",
+          "exampleCN": "doser 按固定量送出糖浆。"
+        },
+        {
+          "word": "-age",
+          "structure": "English suffix",
+          "meaning": "a collective or measured total",
+          "meaningCN": "表示集合或计量总数的后缀",
+          "example": "The suffix -age forms dosage from dose.",
+          "exampleCN": "后缀 -age 由 dose 构成 dosage。"
+        },
+        {
+          "word": "dosage",
+          "structure": "English noun",
+          "meaning": "the amount given and its schedule",
+          "meaningCN": "剂量；给药方案",
+          "example": "Dosage names the measured amount.",
+          "exampleCN": "dosage 指可计量的给药量。"
+        },
+        {
+          "word": "dosing",
+          "structure": "English noun",
+          "meaning": "the act of giving doses",
+          "meaningCN": "给药；投药",
+          "example": "Dosing follows a fixed timetable.",
+          "exampleCN": "给药按固定时间表进行。"
+        },
+        {
+          "word": "dosimeter",
+          "structure": "English noun",
+          "meaning": "an instrument for measuring dose",
+          "meaningCN": "剂量计",
+          "example": "A dosimeter records the radiation dose.",
+          "exampleCN": "dosimeter 记录辐射剂量。"
+        },
+        {
+          "word": "dosimetry",
+          "structure": "English noun",
+          "meaning": "the science of measuring doses",
+          "meaningCN": "剂量测定；剂量学",
+          "example": "Dosimetry guides radiotherapy.",
+          "exampleCN": "剂量测定指导放射治疗。"
+        },
+        {
+          "word": "overdose",
+          "structure": "English noun",
+          "meaning": "a dose larger than is safe",
+          "meaningCN": "用药过量",
+          "example": "An overdose can be fatal.",
+          "exampleCN": "用药过量可能致命。"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "dosis",
+          "structure": "Late Latin noun",
+          "meaning": "a portion given, a dose",
+          "meaningCN": "给出的一份；药量"
+        },
+        {
+          "word": "dare",
+          "structure": "Latin verb",
+          "meaning": "to give",
+          "meaningCN": "给予"
+        }
+      ]
+    }
+  },
+  {
+    "word": "transfusion",
+    "ipa_uk": "/trænzˈfjuːʒən/",
+    "ipa_us": "/trænsˈfjuːʒən/",
+    "definition_zh": "输血；输液；输注；注入",
+    "definition_en": "the act of putting blood or another fluid into the body through a vein, or the amount so given",
+    "core_image": "一袋血液经细管缓缓流进手臂静脉",
+    "scene": "手术中出现大量失血，医生决定立刻输血。During the operation the surgeon decided to give a transfusion at once.",
+    "sceneCN": "这里 transfusion 是「输血」（第 1 个义项：把血液输入病人体内）；句意：手术中出现大量失血，医生决定立刻输血。",
+    "pos": [
+      {
+        "tag": "n.",
+        "zh": "输血；输液；输注"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "blood transfusion",
+        "zh": "输血"
+      },
+      {
+        "phrase": "transfusion reaction",
+        "zh": "输血反应"
+      },
+      {
+        "phrase": "transfusion of plasma",
+        "zh": "血浆输注"
+      },
+      {
+        "phrase": "massive transfusion",
+        "zh": "大量输血"
+      },
+      {
+        "phrase": "require a transfusion",
+        "zh": "需要输血"
+      },
+      {
+        "phrase": "transfusion service",
+        "zh": "输血科；输血服务"
+      }
+    ],
+    "forms": [
+      {
+        "label": "复数",
+        "form": "transfusions"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "transfuse",
+        "pos": "v.",
+        "zh": "动词形式，trans-（越过）加 fundere（倒），义为「输血；输注」"
+      },
+      {
+        "word": "transfusional",
+        "pos": "adj.",
+        "zh": "transfusion 加 -al，义为「输血的；与输血有关的」"
+      },
+      {
+        "word": "autotransfusion",
+        "pos": "n.",
+        "zh": "auto-（自身）加 transfusion，义为「自体输血」，把病人先前采集的血液回输"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "Blood poured into a vein",
+        "titleCN": "输血",
+        "definition": "the giving of blood from a donor into a patient vein",
+        "definitionCN": "把供血者的血液输入病人静脉",
+        "example": "She needed a transfusion after losing blood in the accident.",
+        "exampleCN": "她在事故中失血，需要输血。",
+        "why": "Latin transfundere means to pour across, so the first sense is blood poured from one body into another.",
+        "whyCN": "拉丁语 transfundere 意为「倒过去」，所以第一个义项就是把血从一具身体倒进另一具身体。"
+      },
+      {
+        "no": "02",
+        "title": "A transfusion of one component",
+        "titleCN": "成分输血；成分输注",
+        "definition": "the giving of a single blood component such as plasma, platelets, or red cells",
+        "definitionCN": "只输入某一种血液成分，如血浆、血小板或红细胞",
+        "example": "A transfusion of platelets stopped the bleeding within an hour.",
+        "exampleCN": "输注血小板后，出血在一小时内止住了。",
+        "why": "Once blood is separated into parts, each part can be poured across on its own, so the word follows the component.",
+        "whyCN": "血液被分离成各种成分后，每种成分都能单独输注，于是这个词跟着成分走。"
+      },
+      {
+        "no": "03",
+        "title": "Any fluid given by vein",
+        "titleCN": "输液；静脉输注",
+        "definition": "the slow introduction of a liquid such as saline or a drug into a vein",
+        "definitionCN": "把生理盐水或药物等液体缓慢输入静脉",
+        "example": "The nurse began a transfusion of saline before the scan.",
+        "exampleCN": "扫描前护士开始给病人输生理盐水。",
+        "why": "The pouring image does not depend on blood, so looser use extends the word to any fluid poured into a vein.",
+        "whyCN": "「倒进去」的意象并不依赖血液，较宽的用法便把此词扩到任何输入静脉的液体。"
+      },
+      {
+        "no": "04",
+        "title": "A fresh supply of something",
+        "titleCN": "注入；新鲜力量的补充",
+        "definition": "a large addition of money, ideas, or people that revives an organization",
+        "definitionCN": "为机构注入大量资金、思想或人员，使其重新振作",
+        "example": "The grant was a transfusion of money for the closing clinic.",
+        "exampleCN": "这笔拨款对那家快要关门的诊所来说是一笔输血式的资金。",
+        "why": "Because the word pictures life poured into a weak body, it easily becomes a figure for renewing anything that is failing.",
+        "whyCN": "因为这个词画的是把生机倒进虚弱的身体，它很容易变成让任何衰败事物重获生机的比喻。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Transfusion comes from Latin transfusio, a pouring across, from transfundere, to pour across: trans-, across, plus fundere, to pour.",
+        "cn": "transfusion 来自拉丁语 transfusio（倒过去），源自动词 transfundere（倒过去）：trans-（越过）加 fundere（倒）。"
+      },
+      "items": [
+        {
+          "era": "LATIN",
+          "en": "Fundere means to pour, with the supine fusum supplying the stem found in transfusion.",
+          "cn": "fundere 意为倒、倾注，其目的分词 fusum 提供 transfusion 中见到的词干。"
+        },
+        {
+          "era": "LATIN",
+          "en": "Transfundere joins trans-, across, to fundere, so the verb means to pour from one vessel into another.",
+          "cn": "transfundere 把 trans-（越过）与 fundere 结合，动词意为把液体从一器皿倒进另一器皿。"
+        },
+        {
+          "era": "LATIN",
+          "en": "Transfusio names the pouring across, first of liquids and later of blood.",
+          "cn": "transfusio 指倾倒转移，先用于液体，后来用于血液。"
+        },
+        {
+          "era": "ENGLISH, 17TH C.",
+          "en": "English adopts transfusion for the transfer of blood, after early experiments on animals.",
+          "cn": "在早期动物实验之后，英语用 transfusion 指血液的转移。"
+        },
+        {
+          "era": "ENGLISH, 19TH C.",
+          "en": "Transfusion becomes a measured clinical procedure with volumes, reactions, and records.",
+          "cn": "transfusion 成为有计量、有反应记录、有档案的临床操作。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "Component therapy extends transfusion to plasma, platelets, and red cells given separately.",
+          "cn": "成分治疗把 transfusion 扩展到分别输注的血浆、血小板与红细胞。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "Transfusion shares the -fus- pouring stem with infusion and perfusion, and sits beside words for giving fluid.",
+        "cn": "transfusion 与 infusion、perfusion 共享表示「倒」的 -fus- 词干，并与表示输入液体的词相邻。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "transfuse",
+              "ipa": "/trænzˈfjuːz/",
+              "tag": "same root",
+              "definition": "to transfer blood or fluid into a vein",
+              "definitionCN": "输血；输注"
+            },
+            {
+              "word": "transfusional",
+              "ipa": "/trænzˈfjuːʒənəl/",
+              "tag": "derived form",
+              "definition": "relating to a transfusion",
+              "definitionCN": "输血的；与输血有关的"
+            },
+            {
+              "word": "autotransfusion",
+              "ipa": "/ˌɔːtəʊtrænzˈfjuːʒən/",
+              "tag": "compound",
+              "definition": "the return of blood collected earlier from the same patient",
+              "definitionCN": "自体输血，把先前从同一病人采集的血液回输"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "infusion",
+              "ipa": "/ɪnˈfjuːʒən/",
+              "tag": "near meaning",
+              "definition": "the slow giving of fluid or a drug into a vein",
+              "definitionCN": "输液；输注"
+            },
+            {
+              "word": "injection",
+              "ipa": "/ɪnˈdʒekʃən/",
+              "tag": "near meaning",
+              "definition": "the forcing of a liquid into the body with a syringe",
+              "definitionCN": "注射"
+            },
+            {
+              "word": "drip",
+              "ipa": "/drɪp/",
+              "tag": "informal",
+              "definition": "a slow flow of fluid into a vein, or the apparatus for it",
+              "definitionCN": "静脉滴注；输液器（口语）"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Transfusion is a pouring across: trans- carries the across, and the -fus- stem carries the pour.",
+        "cn": "transfusion 是「倒过去」：trans- 带「越过」，-fus- 词干带「倒」。"
+      },
+      "normal": [
+        {
+          "en": "Trans- means across, and fundere means to pour, so a transfusion pours blood across into a vein.",
+          "cn": "trans- 意为越过，fundere 意为倒，所以 transfusion 就是把血倒进静脉。"
+        },
+        {
+          "en": "Transfuse is the verb and transfusion is the noun for the same act.",
+          "cn": "transfuse 是动词，transfusion 是同一动作的名词。"
+        },
+        {
+          "en": "A transfusion reaction means the body rejects the poured blood.",
+          "cn": "transfusion reaction 意为身体对输入的血产生排斥反应。"
+        },
+        {
+          "en": "Autotransfusion returns blood that was collected earlier to the same person.",
+          "cn": "autotransfusion 把先前采集的血回输给同一个人。"
+        },
+        {
+          "en": "In writing about money, a transfusion of funds means a fresh supply that keeps a body alive.",
+          "cn": "写资金时，a transfusion of funds 指让机构活下去的新鲜补给。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "Picture a bag of blood hanging above a bed, its tube leading to an arm.",
+          "cn": "想象一袋血挂在床头上方，细管连到手臂。"
+        },
+        {
+          "en": "Picture three small bags side by side: red cells, plasma, and platelets.",
+          "cn": "想象三个小袋并排：红细胞、血浆、血小板。"
+        },
+        {
+          "en": "Picture a clear bag of saline dripping steadily into a vein.",
+          "cn": "想象一袋清亮的生理盐水一滴一滴稳稳流入静脉。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "The patient received a transfusion of two units of blood after the crash.",
+        "cn": "事故之后，病人输了两单位血。"
+      },
+      {
+        "en": "A transfusion is ordered when the blood count falls too low.",
+        "cn": "血细胞计数过低时就会安排输血。"
+      },
+      {
+        "en": "The hospital keeps a transfusion record for every unit given.",
+        "cn": "医院为每一单位输入的血液保留输血记录。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「传思扶」——把血传过去、扶住病人；这只是谐音联想，与词源无关。",
+      "word": "transfusion"
+    },
+    "root": "拉丁语 trans-（越过、穿过）加 fundere（倒、倾注）→ transfundere（倒过去、转移）→ transfusio（倾倒、转移）→ 法语 transfusion → 英语 transfusion，核心义「把液体从一处倒进另一处」。",
+    "sensesIntro": {
+      "en": "Transfusion begins with blood poured across into a vein, narrows into single components, loosens into any fluid given by vein, and finally becomes a figure for a fresh supply.",
+      "cn": "transfusion 从「把血倒进静脉」开始，收窄为单一成分输注，放宽为任何静脉输入的液体，最后成为「注入新鲜力量」的比喻。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: a bag of blood flowing through a tube into an arm.",
+        "cn": "核心意象：一袋血经细管流入手臂。"
+      },
+      "chain": [
+        "POUR",
+        "ACROSS",
+        "TRANSFER",
+        "BLOOD",
+        "COMPONENTS",
+        "RENEWAL"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "Whole blood poured across is the original sense.",
+          "cn": "整血倒过去是最初的义项。"
+        },
+        {
+          "senses": "02",
+          "en": "Single components refine the same pouring act.",
+          "cn": "单一成分是同一「倒」的动作的细分。"
+        },
+        {
+          "senses": "03",
+          "en": "Any fluid in a vein keeps only the pouring image.",
+          "cn": "任何液体入静脉只保留了「倒」的意象。"
+        },
+        {
+          "senses": "04",
+          "en": "A grant poured into a weak body is the figurative branch.",
+          "cn": "把拨款倒进虚弱机构，是比喻分支。"
+        },
+        {
+          "senses": "01 · 03",
+          "en": "Blood and saline travel by the same tube and the same verb.",
+          "cn": "血液与盐水走同一根管子，也用同一个动词。"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Transfusion is trans- plus the -fus- stem of fundere, with transfuse and transfusional built on the same base.",
+        "cn": "transfusion 由 trans- 加 fundere 的 -fus- 词干构成，transfuse 与 transfusional 建在同一基础上。"
+      },
+      "latinIntro": {
+        "en": "Latin transfundere means to pour across, from trans-, across, and fundere, to pour.",
+        "cn": "拉丁语 transfundere 意为倒过去，由 trans-（越过）与 fundere（倒）构成。"
+      },
+      "items": [
+        {
+          "word": "trans-",
+          "structure": "Latin prefix",
+          "meaning": "across, beyond",
+          "meaningCN": "越过；穿过",
+          "example": "The prefix trans- carries the across meaning.",
+          "exampleCN": "前缀 trans- 带「越过」之义。"
+        },
+        {
+          "word": "fundere",
+          "structure": "Latin verb",
+          "meaning": "to pour",
+          "meaningCN": "倒；倾注",
+          "example": "Fundere supplies the pouring image.",
+          "exampleCN": "fundere 提供「倒」的意象。"
+        },
+        {
+          "word": "fus-",
+          "structure": "Latin stem",
+          "meaning": "the stem of fundere seen in its supine fusum",
+          "meaningCN": "fundere 的词干，见于其目的分词 fusum",
+          "example": "The stem fus- appears in transfusion.",
+          "exampleCN": "词干 fus- 出现在 transfusion 中。"
+        },
+        {
+          "word": "transfundere",
+          "structure": "Latin verb",
+          "meaning": "to pour from one vessel into another",
+          "meaningCN": "把液体从一器皿倒进另一器皿",
+          "example": "Transfundere joins across to pour.",
+          "exampleCN": "transfundere 把「越过」与「倒」结合起来。"
+        },
+        {
+          "word": "transfusio",
+          "structure": "Latin noun",
+          "meaning": "a pouring across",
+          "meaningCN": "倾倒；转移",
+          "example": "Transfusio is the direct source of the English noun.",
+          "exampleCN": "transfusio 是英语名词的直接来源。"
+        },
+        {
+          "word": "transfuse",
+          "structure": "English verb",
+          "meaning": "to transfer blood or fluid into a vein",
+          "meaningCN": "输血；输注",
+          "example": "Surgeons transfuse blood during heavy bleeding.",
+          "exampleCN": "大量出血时外科医生会给病人输血。"
+        },
+        {
+          "word": "transfusion",
+          "structure": "English noun",
+          "meaning": "the act or amount of pouring across",
+          "meaningCN": "输血；输注；输注的量",
+          "example": "Transfusion names the act and the unit given.",
+          "exampleCN": "transfusion 兼指动作与输入的量。"
+        },
+        {
+          "word": "transfusional",
+          "structure": "English adjective",
+          "meaning": "relating to transfusion",
+          "meaningCN": "输血的；与输血有关的",
+          "example": "Transfusional medicine studies reactions.",
+          "exampleCN": "输血医学研究输血反应。"
+        },
+        {
+          "word": "autotransfusion",
+          "structure": "English compound noun",
+          "meaning": "the return of blood collected from the same patient",
+          "meaningCN": "自体输血",
+          "example": "Autotransfusion avoids the need for a donor.",
+          "exampleCN": "自体输血可避免寻找供血者。"
+        },
+        {
+          "word": "infusion",
+          "structure": "English noun",
+          "meaning": "the slow introduction of fluid into a vein",
+          "meaningCN": "输液；输注",
+          "example": "Infusion shares the fundere stem but takes in- instead of trans-.",
+          "exampleCN": "infusion 共享 fundere 词干，但用 in- 而非 trans-。"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "fundere",
+          "structure": "Latin verb",
+          "meaning": "to pour",
+          "meaningCN": "倒；倾注"
+        },
+        {
+          "word": "fusum",
+          "structure": "Latin supine",
+          "meaning": "poured",
+          "meaningCN": "已倒出的（目的分词）"
+        },
+        {
+          "word": "transfundere",
+          "structure": "Latin verb",
+          "meaning": "to pour across",
+          "meaningCN": "倒过去；转移"
+        },
+        {
+          "word": "transfusio",
+          "structure": "Latin noun",
+          "meaning": "a pouring across",
+          "meaningCN": "倾倒；转移"
+        }
+      ]
+    }
+  },
+  {
+    "word": "suture",
+    "ipa_uk": "/ˈsuːtʃə/",
+    "ipa_us": "/ˈsuːtʃər/",
+    "definition_zh": "缝线；缝合；缝术；骨缝",
+    "definition_en": "a stitch or thread used to close a wound, the act of closing a wound in this way, or the seam where bones meet",
+    "core_image": "一根细线穿过裂口两侧，把皮肉拉拢在一起",
+    "scene": "医生清理完伤口，用一根细线把它缝合起来。After cleaning the wound, the doctor used a suture to close it.",
+    "sceneCN": "这里 suture 是「缝线」（第 1 个义项：缝合伤口用的线）；句意：医生清理完伤口，用一根细线把它缝合起来。",
+    "pos": [
+      {
+        "tag": "n.",
+        "zh": "缝线；缝合；骨缝"
+      },
+      {
+        "tag": "v.",
+        "zh": "缝合（伤口）"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "suture line",
+        "zh": "缝合线"
+      },
+      {
+        "phrase": "absorbable suture",
+        "zh": "可吸收缝线"
+      },
+      {
+        "phrase": "suture the wound",
+        "zh": "缝合伤口"
+      },
+      {
+        "phrase": "place a suture",
+        "zh": "缝一针；放置缝线"
+      },
+      {
+        "phrase": "suture material",
+        "zh": "缝合材料"
+      },
+      {
+        "phrase": "remove the sutures",
+        "zh": "拆线"
+      }
+    ],
+    "forms": [
+      {
+        "label": "复数",
+        "form": "sutures"
+      },
+      {
+        "label": "三单",
+        "form": "sutures"
+      },
+      {
+        "label": "过去式",
+        "form": "sutured"
+      },
+      {
+        "label": "过去分词",
+        "form": "sutured"
+      },
+      {
+        "label": "现在分词",
+        "form": "suturing"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "sutural",
+        "pos": "adj.",
+        "zh": "suture 加 -al，义为「缝的；骨缝的」，多用于解剖学"
+      },
+      {
+        "word": "suturing",
+        "pos": "n.",
+        "zh": "suture 加 -ing，义为「缝合」，指用线闭合组织的操作"
+      },
+      {
+        "word": "sutureless",
+        "pos": "adj.",
+        "zh": "suture 加 -less（没有），义为「免缝合的」，指不用缝线闭合伤口"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "The thread that closes a wound",
+        "titleCN": "缝线",
+        "definition": "a thread or stitch used by a surgeon to hold the edges of a wound together",
+        "definitionCN": "外科医生用来把伤口两侧拉在一起的线或一针",
+        "example": "The nurse counted every suture before the wound was closed.",
+        "exampleCN": "伤口闭合前，护士清点了每一根缝线。",
+        "why": "Latin sutura means a sewing, so the word first names the thread that does the sewing.",
+        "whyCN": "拉丁语 sutura 意为「缝」，所以这个词先指用来缝的那根线。"
+      },
+      {
+        "no": "02",
+        "title": "The act of stitching tissue",
+        "titleCN": "缝合",
+        "definition": "the act of joining the edges of a wound or incision with stitches",
+        "definitionCN": "用缝线把伤口或切口的边缘连起来的动作",
+        "example": "The resident practised suturing on a pad of false skin.",
+        "exampleCN": "住院医师在假皮垫上练习缝合。",
+        "why": "The same noun also names the action, because a sewing is both the thread and the work of sewing.",
+        "whyCN": "同一个名词也指动作，因为「缝」既是线，也是缝这件事。"
+      },
+      {
+        "no": "03",
+        "title": "The seam between skull bones",
+        "titleCN": "骨缝",
+        "definition": "a line where two bones of the skull are joined by thin fibrous tissue",
+        "definitionCN": "颅骨两块骨头之间由薄纤维组织相连的接缝",
+        "example": "The skull sutures allow the head to grow in childhood.",
+        "exampleCN": "颅骨骨缝让头部在童年时期得以生长。",
+        "why": "Bones that meet along a wavy line look like two pieces of cloth sewn together, so anatomy borrowed the sewing word.",
+        "whyCN": "沿波浪线相接的骨头看起来像两块布缝在一起，解剖学便借用了这个「缝」的词。"
+      },
+      {
+        "no": "04",
+        "title": "A planned method of closure",
+        "titleCN": "缝合术",
+        "definition": "a chosen surgical method of closing tissue, such as immediate or delayed closure",
+        "definitionCN": "选定的缝合方式，如立即缝合或延迟缝合",
+        "example": "The team chose a delayed suture for the infected wound.",
+        "exampleCN": "对于感染的伤口，团队选择了延迟缝合。",
+        "why": "Once stitching becomes a planned step, the word also names the technique and its timing.",
+        "whyCN": "当缝合成为计划好的一步，这个词也指这种技术及其时机。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Suture goes straight back to Latin sutura, a sewing or a seam, from suere, to sew.",
+        "cn": "suture 直接来自拉丁语 sutura（缝、接缝），源自动词 suere（缝）。"
+      },
+      "items": [
+        {
+          "era": "LATIN",
+          "en": "Suere means to sew or stitch, with the supine sutum supplying the stem.",
+          "cn": "suere 意为缝、缀，其目的分词 sutum 提供词干。"
+        },
+        {
+          "era": "LATIN",
+          "en": "Sutura is a sewing or a seam, built with the noun suffix -ura.",
+          "cn": "sutura 由名词后缀 -ura 构成，意为缝或接缝。"
+        },
+        {
+          "era": "LATIN",
+          "en": "Medical Latin uses sutura for the joining of tissue and for the seams between skull bones.",
+          "cn": "医学拉丁语用 sutura 指组织的连接，也指颅骨之间的骨缝。"
+        },
+        {
+          "era": "ENGLISH, 15TH C.",
+          "en": "English takes suture first for the seam between bones of the skull.",
+          "cn": "英语最初用 suture 指颅骨之间的骨缝。"
+        },
+        {
+          "era": "ENGLISH, 16TH C.",
+          "en": "The word widens to the act of sewing and later to the thread used by surgeons.",
+          "cn": "这个词扩展到缝合的动作，后来又指外科医生用的线。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "Absorbable threads make suturing a routine step in almost every operation.",
+          "cn": "可吸收线使缝合成为几乎每台手术的常规步骤。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "Suture is the Latin sewing word, close to its own family and to ordinary stitch words.",
+        "cn": "suture 是拉丁语中表示「缝」的词，与自己的词族以及日常的「缝」义词相邻。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "sutural",
+              "ipa": "/ˈsuːtʃərəl/",
+              "tag": "derived form",
+              "definition": "relating to a suture or to a bony seam",
+              "definitionCN": "缝的；骨缝的"
+            },
+            {
+              "word": "suturing",
+              "ipa": "/ˈsuːtʃərɪŋ/",
+              "tag": "derived noun",
+              "definition": "the act of closing tissue with stitches",
+              "definitionCN": "缝合；缝合操作"
+            },
+            {
+              "word": "sutured",
+              "ipa": "/ˈsuːtʃəd/",
+              "tag": "derived form",
+              "definition": "closed with a stitch or stitches",
+              "definitionCN": "已缝合的"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "stitch",
+              "ipa": "/stɪtʃ/",
+              "tag": "near meaning",
+              "definition": "a single short piece of thread used to close a wound",
+              "definitionCN": "一针；缝线"
+            },
+            {
+              "word": "seam",
+              "ipa": "/siːm/",
+              "tag": "near meaning",
+              "definition": "the line where two pieces are joined together",
+              "definitionCN": "接缝；缝口"
+            },
+            {
+              "word": "closure",
+              "ipa": "/ˈkləʊʒə/",
+              "tag": "near meaning",
+              "definition": "the act of closing a wound or opening",
+              "definitionCN": "闭合；关闭"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Suture carries the Latin verb for sewing, and its meanings follow the thread, the act, and the seam.",
+        "cn": "suture 带着拉丁语「缝」的动词，含义顺着线、动作、接缝三边走。"
+      },
+      "normal": [
+        {
+          "en": "Latin suere means to sew, and sutura means a seam, so the word is a sewing throughout.",
+          "cn": "拉丁语 suere 意为缝，sutura 意为接缝，这个词始终是「缝」。"
+        },
+        {
+          "en": "The noun is both the thread and the act; the verb is to close a wound.",
+          "cn": "名词既指线也指动作，动词则是缝合伤口。"
+        },
+        {
+          "en": "Absorbable sutures dissolve, so nobody has to remove them.",
+          "cn": "可吸收缝线会自行溶解，所以不必拆线。"
+        },
+        {
+          "en": "A suture line is the row of stitches left on the skin.",
+          "cn": "suture line 是皮肤上留下的一排缝线。"
+        },
+        {
+          "en": "Skull sutures borrow the sewing image for the seams between bone plates.",
+          "cn": "颅骨骨缝借「缝」的意象来指骨板之间的接缝。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "Picture a fine thread drawn through two edges of skin.",
+          "cn": "想象一根细线穿过皮肤的两侧边缘。"
+        },
+        {
+          "en": "Picture a curved needle arcing through tissue, then a knot pulled tight.",
+          "cn": "想象弯针划过组织，随后一个结被拉紧。"
+        },
+        {
+          "en": "Picture two skull plates meeting along a wavy line.",
+          "cn": "想象两块颅骨板沿一条波浪线相接。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "The surgeon placed a suture in the small cut on her hand.",
+        "cn": "外科医生在她手上的小伤口缝了一针。"
+      },
+      {
+        "en": "Absorbable sutures dissolve on their own after a few weeks.",
+        "cn": "可吸收缝线在几周后会自行溶解。"
+      },
+      {
+        "en": "The skull sutures show as thin wavy lines on the scan.",
+        "cn": "颅骨骨缝在影像上显示为细细的波浪线。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「苏彻」——伤口要缝得彻底；这只是谐音联想，与词源无关。",
+      "word": "suture"
+    },
+    "root": "拉丁语 suere（缝）→ sutura（缝、接缝）→ 英语 suture，核心义「用线把两片缝在一起」，既指动作，也指所用的线与留下的接缝。",
+    "sensesIntro": {
+      "en": "Suture moves from the thread, to the act of sewing, to the bony seam that looks sewn, and finally to the planned technique of closure.",
+      "cn": "suture 从「线」走到「缝的动作」，再走到看起来像缝出来的骨缝，最后指计划好的缝合术。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: a thread pulling two edges of tissue together.",
+        "cn": "核心意象：一根线把两侧组织拉拢。"
+      },
+      "chain": [
+        "SEW",
+        "THREAD",
+        "STITCH",
+        "CLOSE WOUND",
+        "SEAM",
+        "BONE JOINT"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "The thread itself is the concrete sense.",
+          "cn": "线本身是最具体的义项。"
+        },
+        {
+          "senses": "02",
+          "en": "The work of sewing is the action sense.",
+          "cn": "缝的动作是行为义项。"
+        },
+        {
+          "senses": "03",
+          "en": "A bony seam is the image applied to anatomy.",
+          "cn": "骨缝是把这一意象用到解剖学。"
+        },
+        {
+          "senses": "04",
+          "en": "A planned closure is the technique sense.",
+          "cn": "计划好的闭合是技术义项。"
+        },
+        {
+          "senses": "02 · 04",
+          "en": "A stitch and a closure plan both describe how tissue is joined.",
+          "cn": "一针与一套闭合方案都在讲组织如何被连起来。"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Suture is Latin sutura, a sewing, from suere, to sew; English adds sutural, suturing, and sutureless.",
+        "cn": "suture 是拉丁语 sutura（缝），源自 suere（缝）；英语又构成 sutural、suturing 与 sutureless。"
+      },
+      "latinIntro": {
+        "en": "Latin suere means to sew, and its noun sutura means a seam or the act of sewing.",
+        "cn": "拉丁语 suere 意为缝，其名词 sutura 意为接缝或缝的动作。"
+      },
+      "items": [
+        {
+          "word": "suere",
+          "structure": "Latin verb",
+          "meaning": "to sew, to stitch",
+          "meaningCN": "缝；缀",
+          "example": "Suere gives the whole family its sewing image.",
+          "exampleCN": "suere 为整个词族提供「缝」的意象。"
+        },
+        {
+          "word": "sut-",
+          "structure": "Latin stem",
+          "meaning": "the stem of suere seen in its supine sutum",
+          "meaningCN": "suere 的词干，见于其目的分词 sutum",
+          "example": "The stem sut- carries the sewing sense.",
+          "exampleCN": "词干 sut- 承载「缝」的含义。"
+        },
+        {
+          "word": "-ura",
+          "structure": "Latin suffix",
+          "meaning": "forms nouns of result or action",
+          "meaningCN": "构成表示结果或动作的名词",
+          "example": "The suffix -ura turns suere into sutura.",
+          "exampleCN": "后缀 -ura 把 suere 变成 sutura。"
+        },
+        {
+          "word": "sutura",
+          "structure": "Latin noun",
+          "meaning": "a sewing, a seam",
+          "meaningCN": "缝；接缝",
+          "example": "Sutura is the direct source of the English word.",
+          "exampleCN": "sutura 是英语词的直接来源。"
+        },
+        {
+          "word": "suture",
+          "structure": "English noun",
+          "meaning": "a stitch, the thread, or a bony seam",
+          "meaningCN": "缝线；缝合；骨缝",
+          "example": "Suture names the thread and the seam.",
+          "exampleCN": "suture 兼指缝线与接缝。"
+        },
+        {
+          "word": "suture",
+          "structure": "English verb",
+          "meaning": "to close a wound with stitches",
+          "meaningCN": "缝合伤口",
+          "example": "Surgeons suture deep cuts in layers.",
+          "exampleCN": "外科医生分层缝合深伤口。"
+        },
+        {
+          "word": "sutural",
+          "structure": "English adjective",
+          "meaning": "relating to a suture",
+          "meaningCN": "缝的；骨缝的",
+          "example": "Sutural lines mark the skull plates.",
+          "exampleCN": "骨缝线标出颅骨各板的位置。"
+        },
+        {
+          "word": "suturing",
+          "structure": "English noun",
+          "meaning": "the act of closing tissue with stitches",
+          "meaningCN": "缝合；缝合操作",
+          "example": "Suturing takes steady hands and good light.",
+          "exampleCN": "缝合需要稳定的手和良好的照明。"
+        },
+        {
+          "word": "sutureless",
+          "structure": "English adjective",
+          "meaning": "done without stitches",
+          "meaningCN": "免缝合的",
+          "example": "A sutureless clip closed the small cut.",
+          "exampleCN": "一枚免缝合夹闭合了小伤口。"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "suere",
+          "structure": "Latin verb",
+          "meaning": "to sew",
+          "meaningCN": "缝"
+        },
+        {
+          "word": "sutus",
+          "structure": "Latin participle",
+          "meaning": "sewn",
+          "meaningCN": "已缝好的"
+        },
+        {
+          "word": "sutura",
+          "structure": "Latin noun",
+          "meaning": "a sewing, a seam",
+          "meaningCN": "缝；接缝"
+        }
+      ]
+    }
+  },
+  {
+    "word": "scalpel",
+    "ipa_uk": "/ˈskælpəl/",
+    "ipa_us": "/ˈskælpəl/",
+    "definition_zh": "手术刀；解剖刀",
+    "definition_en": "a small sharp knife with a thin blade, used by surgeons and anatomists for cutting tissue",
+    "core_image": "一把窄薄的小刀，刀锋在灯下反出一道亮线",
+    "scene": "主刀医生伸出手，接过护士递来的手术刀。The surgeon held out a hand and took the scalpel from the nurse.",
+    "sceneCN": "这里 scalpel 是「手术刀」（第 1 个义项：外科切开组织用的刀）；句意：主刀医生伸出手，接过护士递来的手术刀。",
+    "pos": [
+      {
+        "tag": "n.",
+        "zh": "手术刀；解剖刀"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "scalpel blade",
+        "zh": "手术刀片"
+      },
+      {
+        "phrase": "scalpel handle",
+        "zh": "手术刀柄"
+      },
+      {
+        "phrase": "with a scalpel",
+        "zh": "用手术刀"
+      },
+      {
+        "phrase": "disposable scalpel",
+        "zh": "一次性手术刀"
+      },
+      {
+        "phrase": "sharpen the scalpel",
+        "zh": "磨手术刀"
+      }
+    ],
+    "forms": [
+      {
+        "label": "复数",
+        "form": "scalpels"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "sculpt",
+        "pos": "v.",
+        "zh": "与 scalpel 同出拉丁语 scalpere（刻），义为「雕刻；塑形」"
+      },
+      {
+        "word": "sculpture",
+        "pos": "n.",
+        "zh": "sculpt 加 -ure，义为「雕刻；雕塑品」，与 scalpel 共享「刻」的词根"
+      },
+      {
+        "word": "scalpel-like",
+        "pos": "adj.",
+        "zh": "scalpel 加 -like（像……的），义为「手术刀般的；极锋利的」"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "The knife a surgeon cuts with",
+        "titleCN": "手术刀",
+        "definition": "a short knife with a very sharp, thin blade used to make surgical incisions",
+        "definitionCN": "刀刃极薄极利、用来做外科切口的短刀",
+        "example": "The scrub nurse slapped the scalpel into the surgeon palm.",
+        "exampleCN": "器械护士把手术刀拍进外科医生掌心。",
+        "why": "Latin scalpellum is a little knife, and the operating theatre keeps that literal sense of a small blade for cutting flesh.",
+        "whyCN": "拉丁语 scalpellum 意为小刀，手术室里保留了这个字面义：切开皮肉的小刀。"
+      },
+      {
+        "no": "02",
+        "title": "The knife of the anatomy room",
+        "titleCN": "解剖刀",
+        "definition": "a fine blade used to separate and display parts of a dead body or a specimen",
+        "definitionCN": "用来分离并展示遗体或标本各部分的精细刀",
+        "example": "Students learn to hold a scalpel before they touch a specimen.",
+        "exampleCN": "学生在接触标本之前先学会握解剖刀。",
+        "why": "Because the blade cuts cleanly at a small scale, anatomy adopted it for careful separation rather than for speed.",
+        "whyCN": "因为这种刀能在很小的尺度上切得干净，解剖学便用它来细致分离，而不是求快。"
+      },
+      {
+        "no": "03",
+        "title": "A sharp tool of criticism",
+        "titleCN": "犀利的剖析；锋利的批判",
+        "definition": "something used to cut an argument or a text apart with great precision",
+        "definitionCN": "用来把论点或文本精确剖开的比喻性工具",
+        "example": "Her review used a scalpel on every weak claim in the paper.",
+        "exampleCN": "她的评论像手术刀一样剖开论文里每一处薄弱的论断。",
+        "why": "A blade that separates tissue neatly becomes a figure for analysis that separates truth from error without tearing it.",
+        "whyCN": "能整齐分开组织的刀，成了「把真与误干净分开而不撕碎」的分析比喻。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Scalpel comes from Latin scalpellum, a little knife, the diminutive of scalprum, a cutting tool, from scalpere, to cut or carve.",
+        "cn": "scalpel 来自拉丁语 scalpellum（小刀），是 scalprum（刀具）的指小形式，而 scalprum 源自动词 scalpere（切、刻）。"
+      },
+      "items": [
+        {
+          "era": "LATIN",
+          "en": "Scalpere means to cut or carve, and it also lies behind words for carving.",
+          "cn": "scalpere 意为切、刻，也是表示雕刻的一批词的来源。"
+        },
+        {
+          "era": "LATIN",
+          "en": "Scalprum names a cutting tool, a knife or a chisel.",
+          "cn": "scalprum 指切削工具，即刀或凿。"
+        },
+        {
+          "era": "LATIN",
+          "en": "Scalpellum is the diminutive of scalprum, so it means a little knife.",
+          "cn": "scalpellum 是 scalprum 的指小形式，意为小刀。"
+        },
+        {
+          "era": "LATIN",
+          "en": "Roman medical writers use scalpellum for the small blade of surgery.",
+          "cn": "罗马医学作家用 scalpellum 指外科用的小刀。"
+        },
+        {
+          "era": "ENGLISH, 18TH C.",
+          "en": "English adopts scalpel for the surgeon small knife.",
+          "cn": "英语借入 scalpel，指外科医生用的小刀。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "Blade and handle become separate standard parts, and disposable blades keep a sterile edge.",
+          "cn": "刀片与刀柄分成标准部件，一次性刀片则保持无菌的锋口。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "Scalpel looks like scalp but shares its root with sculpt and sculpture, and it sits beside other cutting instruments.",
+        "cn": "scalpel 与 scalp 只是拼写相像，真正的同根词是 sculpt 与 sculpture；它也与其它切割器械相邻。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "scalp",
+              "ipa": "/skælp/",
+              "tag": "spelling",
+              "definition": "the skin covering the top of the head",
+              "definitionCN": "头皮；只是拼写相近，词源不同"
+            },
+            {
+              "word": "sculpt",
+              "ipa": "/skʌlpt/",
+              "tag": "same root",
+              "definition": "to carve or shape a material into a form",
+              "definitionCN": "雕刻；塑形"
+            },
+            {
+              "word": "sculpture",
+              "ipa": "/ˈskʌlptʃə/",
+              "tag": "same root",
+              "definition": "a carved or shaped work of art",
+              "definitionCN": "雕刻；雕塑品"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "knife",
+              "ipa": "/naɪf/",
+              "tag": "near meaning",
+              "definition": "a blade with a handle used for cutting",
+              "definitionCN": "刀；小刀"
+            },
+            {
+              "word": "lancet",
+              "ipa": "/ˈlænsɪt/",
+              "tag": "near meaning",
+              "definition": "a small pointed surgical blade used for a tiny cut",
+              "definitionCN": "柳叶刀；小尖刀"
+            },
+            {
+              "word": "blade",
+              "ipa": "/bleɪd/",
+              "tag": "near meaning",
+              "definition": "the flat cutting part of a tool",
+              "definitionCN": "刀片；刀刃"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Scalpel is a little carving knife: Latin scalpere cuts, scalprum is the tool, and scalpellum shrinks it.",
+        "cn": "scalpel 是一把小小的刻刀：拉丁语 scalpere 是切，scalprum 是刀具，scalpellum 把它缩小。"
+      },
+      "normal": [
+        {
+          "en": "Latin scalpere means to carve, so a scalpel is a knife for carving living tissue.",
+          "cn": "拉丁语 scalpere 意为刻，所以 scalpel 就是用来「刻」活体组织的刀。"
+        },
+        {
+          "en": "The ending -ellum is a diminutive, so scalpellum is a small scalprum.",
+          "cn": "词尾 -ellum 表指小，因此 scalpellum 就是小一号的 scalprum。"
+        },
+        {
+          "en": "A scalpel blade is the cutting part, and the handle is gripped in the palm.",
+          "cn": "scalpel blade 是切割的部分，刀柄握在掌中。"
+        },
+        {
+          "en": "Scalpel and sculpture share the carving root: one cuts flesh, the other cuts stone.",
+          "cn": "scalpel 与 sculpture 共享「刻」的词根：一个切肉，一个刻石。"
+        },
+        {
+          "en": "A disposable scalpel comes sterile and is thrown away after one use.",
+          "cn": "一次性手术刀出厂无菌，用一次就丢弃。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "Picture a thin steel blade catching a line of light.",
+          "cn": "想象一片薄薄的钢刃映出一道亮线。"
+        },
+        {
+          "en": "Picture a hand holding a small knife above a pale specimen.",
+          "cn": "想象一只手握着小小的刀，悬在苍白的标本上方。"
+        },
+        {
+          "en": "Picture a critic slicing a weak argument into neat strips.",
+          "cn": "想象评论者把薄弱的论证切成整齐的细条。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "The nurse passed the scalpel to the surgeon without a word.",
+        "cn": "护士一言不发地把手术刀递给外科医生。"
+      },
+      {
+        "en": "A scalpel blade is swapped out as soon as it feels dull.",
+        "cn": "手术刀片一变钝就会被换掉。"
+      },
+      {
+        "en": "The anatomist used a scalpel to expose the nerve.",
+        "cn": "解剖学家用解剖刀暴露出那条神经。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「斯开剖」——轻轻一划就剖开；这只是谐音联想，与词源无关。",
+      "word": "scalpel"
+    },
+    "root": "拉丁语 scalpere（切、刻）→ scalprum（刀具、凿子）→ 指小形式 scalpellum（小刀）→ 英语 scalpel，核心义「用来切开的窄薄小刀」。",
+    "sensesIntro": {
+      "en": "Scalpel moves from the operating knife, to the fine blade of the anatomy room, and then to a figure for precise criticism.",
+      "cn": "scalpel 从手术室里的刀，走到解剖室里的精细刀，再成为「精确剖析」的比喻。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: a narrow blade that opens tissue along a clean line.",
+        "cn": "核心意象：窄薄的刀刃沿线干净地打开组织。"
+      },
+      "chain": [
+        "CUT",
+        "CARVE",
+        "SMALL KNIFE",
+        "BLADE",
+        "INCISION",
+        "SHARP CRITIQUE"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "The surgical knife is the literal sense.",
+          "cn": "手术刀是字面义项。"
+        },
+        {
+          "senses": "02",
+          "en": "The anatomy blade is the same knife used to separate parts.",
+          "cn": "解剖刀是同一把刀用于分离各部位。"
+        },
+        {
+          "senses": "03",
+          "en": "Precise criticism is the figurative branch.",
+          "cn": "精确的批判是比喻分支。"
+        },
+        {
+          "senses": "01 · 02",
+          "en": "Surgeon and anatomist both need a clean, small edge.",
+          "cn": "外科医生与解剖学家都需要干净而小的锋口。"
+        },
+        {
+          "senses": "01 · 03",
+          "en": "Cutting flesh and cutting an argument share the same neat separation.",
+          "cn": "切开皮肉与剖开论证共享「整齐分开」这一动作。"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Scalpel is the Latin diminutive scalpellum, while sculpt and sculpture share the carving root behind it.",
+        "cn": "scalpel 是拉丁语指小形式 scalpellum，而 sculpt 与 sculpture 共享它背后的「刻」词根。"
+      },
+      "latinIntro": {
+        "en": "Latin scalpere means to cut or carve; scalprum is a cutting tool and scalpellum is its diminutive.",
+        "cn": "拉丁语 scalpere 意为切、刻；scalprum 是刀具，scalpellum 是它的指小形式。"
+      },
+      "items": [
+        {
+          "word": "scalpere",
+          "structure": "Latin verb",
+          "meaning": "to cut, to carve",
+          "meaningCN": "切；刻",
+          "example": "Scalpere supplies the cutting image of the family.",
+          "exampleCN": "scalpere 提供这个词族的「切」意象。"
+        },
+        {
+          "word": "scalprum",
+          "structure": "Latin noun",
+          "meaning": "a cutting tool, a knife or chisel",
+          "meaningCN": "刀具；凿子",
+          "example": "Scalprum names the tool itself.",
+          "exampleCN": "scalprum 指工具本身。"
+        },
+        {
+          "word": "scalpellum",
+          "structure": "Latin noun",
+          "meaning": "a little knife, the diminutive of scalprum",
+          "meaningCN": "小刀，scalprum 的指小形式",
+          "example": "Scalpellum is the direct source of scalpel.",
+          "exampleCN": "scalpellum 是 scalpel 的直接来源。"
+        },
+        {
+          "word": "-ellum",
+          "structure": "Latin suffix",
+          "meaning": "a diminutive ending",
+          "meaningCN": "指小后缀",
+          "example": "The suffix -ellum makes the knife small.",
+          "exampleCN": "后缀 -ellum 把刀变小。"
+        },
+        {
+          "word": "scalpel",
+          "structure": "English noun",
+          "meaning": "a small surgical knife",
+          "meaningCN": "手术刀；解剖刀",
+          "example": "Scalpel keeps the small-knife sense.",
+          "exampleCN": "scalpel 保留「小刀」的含义。"
+        },
+        {
+          "word": "scalpel-like",
+          "structure": "English adjective",
+          "meaning": "as sharp or as precise as a scalpel",
+          "meaningCN": "手术刀般的；极锋利的",
+          "example": "A scalpel-like focus cuts to the point.",
+          "exampleCN": "手术刀般的专注能直切要点。"
+        },
+        {
+          "word": "sculpt",
+          "structure": "English verb",
+          "meaning": "to carve or shape a material",
+          "meaningCN": "雕刻；塑形",
+          "example": "Sculpt shares the Latin carving root.",
+          "exampleCN": "sculpt 共享拉丁语「刻」的词根。"
+        },
+        {
+          "word": "sculpture",
+          "structure": "English noun",
+          "meaning": "a carved or shaped work",
+          "meaningCN": "雕刻；雕塑品",
+          "example": "Sculpture cuts stone; a scalpel cuts tissue.",
+          "exampleCN": "sculpture 刻石头，手术刀切组织。"
+        },
+        {
+          "word": "sculptor",
+          "structure": "English noun",
+          "meaning": "a person who carves",
+          "meaningCN": "雕刻家",
+          "example": "The sculptor works with a chisel, not a blade.",
+          "exampleCN": "雕刻家用凿子，而不是手术刀。"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "scalpere",
+          "structure": "Latin verb",
+          "meaning": "to cut, to carve",
+          "meaningCN": "切；刻"
+        },
+        {
+          "word": "scalprum",
+          "structure": "Latin noun",
+          "meaning": "a cutting tool",
+          "meaningCN": "刀具；凿子"
+        },
+        {
+          "word": "scalpellum",
+          "structure": "Latin noun",
+          "meaning": "a little knife",
+          "meaningCN": "小刀"
+        }
+      ]
+    }
+  },
+  {
+    "word": "malignant",
+    "ipa_uk": "/məˈlɪɡnənt/",
+    "ipa_us": "/məˈlɪɡnənt/",
+    "definition_zh": "恶性的；恶意的；有害的",
+    "definition_en": "tending to grow and spread without control, or showing deep harmful intent",
+    "core_image": "一团暗影从墙角迅速蔓延，吞没周围的光",
+    "scene": "医生看着影像片，神情严肃地讨论肿瘤的性质。The doctor studied the scan and spoke gravely about a malignant tumour.",
+    "sceneCN": "这里 malignant 是「恶性的」（第 1 个义项：肿瘤或细胞不受控制地生长并可能转移）；句意：医生看着影像片，严肃地谈到一个恶性肿瘤。",
+    "pos": [
+      {
+        "tag": "adj.",
+        "zh": "恶性的；恶意的；有害的"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "malignant tumour",
+        "zh": "恶性肿瘤"
+      },
+      {
+        "phrase": "malignant cell",
+        "zh": "恶性细胞"
+      },
+      {
+        "phrase": "malignant growth",
+        "zh": "恶性增生"
+      },
+      {
+        "phrase": "malignant disease",
+        "zh": "恶性疾病"
+      },
+      {
+        "phrase": "malignant influence",
+        "zh": "恶劣影响"
+      },
+      {
+        "phrase": "malignant look",
+        "zh": "恶意的目光"
+      }
+    ],
+    "forms": [
+      {
+        "label": "比较级",
+        "form": "more malignant"
+      },
+      {
+        "label": "最高级",
+        "form": "most malignant"
+      },
+      {
+        "label": "副词",
+        "form": "malignantly"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "malignancy",
+        "pos": "n.",
+        "zh": "malignant 加名词后缀 -cy 构成，义为「恶性；恶性肿瘤」"
+      },
+      {
+        "word": "nonmalignant",
+        "pos": "adj.",
+        "zh": "否定前缀 non- 加 malignant 构成，义为「非恶性的」"
+      },
+      {
+        "word": "premalignant",
+        "pos": "adj.",
+        "zh": "前缀 pre-（之前）加 malignant 构成，义为「癌前的；恶性病变前的」"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "Cancerous and spreading",
+        "titleCN": "恶性的（肿瘤）",
+        "definition": "describing a tumour or cell that grows without control and can spread to other parts of the body",
+        "definitionCN": "描述不受控制地生长、并能转移到身体其他部位的肿瘤或细胞",
+        "example": "Surgeons removed the malignant growth from her liver.",
+        "exampleCN": "外科医生切除了她肝脏上的恶性肿瘤。",
+        "why": "Latin malignus means evil-natured, and medicine borrowed that sense for tissue that behaves like an invading enemy.",
+        "whyCN": "拉丁语 malignus 意为天性恶的，医学借这个意思指像入侵敌人一样行为的组织。"
+      },
+      {
+        "no": "02",
+        "title": "Severe and life-threatening",
+        "titleCN": "恶性的（疾病）；凶险的",
+        "definition": "describing a disease that is severe, progressive, and likely to cause death",
+        "definitionCN": "描述严重、持续进展并可能致命的疾病",
+        "example": "Malignant hypertension can damage the kidneys within weeks.",
+        "exampleCN": "恶性高血压可能在几周内损害肾脏。",
+        "why": "A disease that refuses to stop and destroys the body looks evil in the old moral metaphor.",
+        "whyCN": "不肯停止、不断摧毁身体的疾病，在古老的道德比喻中显得像「恶」一样。"
+      },
+      {
+        "no": "03",
+        "title": "Deeply harmful",
+        "titleCN": "有害的；恶劣的",
+        "definition": "having a destructive influence on people, institutions, or events",
+        "definitionCN": "对人、制度或事件产生破坏性影响",
+        "example": "The report exposed a malignant culture inside the agency.",
+        "exampleCN": "报告揭露了该机构内部一种有害的文化。",
+        "why": "The moral sense of evil broadens from a person to any force that corrupts what it touches.",
+        "whyCN": "「恶」的道德含义从人扩展到任何侵蚀其接触对象的力量。"
+      },
+      {
+        "no": "04",
+        "title": "Full of ill will",
+        "titleCN": "恶意的；恶毒的",
+        "definition": "showing intense spite or a desire to hurt someone",
+        "definitionCN": "表现出强烈的怨恨或伤害他人的欲望",
+        "example": "He answered with a malignant smile that chilled the room.",
+        "exampleCN": "他带着恶意的微笑回答，让全场发冷。",
+        "why": "The oldest sense is a person of evil nature, and a look or smile is the visible sign of that nature.",
+        "whyCN": "最古老的义项指天性恶的人，而目光或微笑是这种天性的外在迹象。"
+      },
+      {
+        "no": "05",
+        "title": "Threatening and ominous",
+        "titleCN": "凶险的；不祥的",
+        "definition": "threatening great harm in a way that feels like evil at work",
+        "definitionCN": "以仿佛邪恶在作祟的方式预示巨大伤害",
+        "example": "A malignant silence filled the abandoned ward.",
+        "exampleCN": "废弃病房里弥漫着不祥的寂静。",
+        "why": "Writers extend the evil-nature sense to atmospheres and places that seem to promise harm.",
+        "whyCN": "作家把「天性恶」扩展到似乎预示伤害的氛围与场所。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Malignant comes from Latin malignus, evil-natured, generally explained as male, badly, plus the root of gignere, to beget; Old French malignant brought it into English.",
+        "cn": "malignant 来自拉丁语 malignus（天性恶的），一般认为由 male（坏地）与 gignere（生出）的词根构成；古法语 malignant 把它带入英语。"
+      },
+      "items": [
+        {
+          "era": "LATIN",
+          "en": "Male is an adverb meaning badly or ill.",
+          "cn": "male 是意为「坏地、不善地」的副词。"
+        },
+        {
+          "era": "LATIN",
+          "en": "Gignere means to beget or bring forth, and is generally linked to the second element of malignus.",
+          "cn": "gignere 意为生育、产生，一般认为与 malignus 的第二部分有关。"
+        },
+        {
+          "era": "LATIN",
+          "en": "Malignus describes a person or thing of evil nature.",
+          "cn": "malignus 描述天性恶的人或事物。"
+        },
+        {
+          "era": "OLD FRENCH",
+          "en": "Malignant is the present participle of malignier, to act with evil intent.",
+          "cn": "malignant 是动词 malignier（存心作恶）的现在分词。"
+        },
+        {
+          "era": "ENGLISH, 16TH C.",
+          "en": "English adopts malignant first for evil intent and later for dangerous disease.",
+          "cn": "英语先用 malignant 表示恶意，后来才用于危险的疾病。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "Pathology makes the medical sense of invasive growth the dominant one.",
+          "cn": "病理学使「侵袭性生长」这一医学义项成为主要用法。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "Malignant shares its Latin stem with malign and malignancy, and stands opposite benign in medicine while sitting near malicious in the language of ill will.",
+        "cn": "malignant 与 malign、malignancy 共享拉丁词干，在医学上与 benign 相对，在表达恶意时又与 malicious 相邻。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "malign",
+              "ipa": "/məˈlaɪn/",
+              "tag": "same root",
+              "definition": "to speak evil of, or evil in nature",
+              "definitionCN": "诽谤；恶意的"
+            },
+            {
+              "word": "malignancy",
+              "ipa": "/məˈlɪɡnənsi/",
+              "tag": "derived noun",
+              "definition": "the state of being malignant, or a malignant tumour",
+              "definitionCN": "恶性；恶性肿瘤"
+            },
+            {
+              "word": "malignantly",
+              "ipa": "/məˈlɪɡnəntli/",
+              "tag": "derived adverb",
+              "definition": "in a malignant manner",
+              "definitionCN": "恶意地；恶性地"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "benign",
+              "ipa": "/ˈbiːnaɪn/",
+              "tag": "opposite",
+              "definition": "not cancerous, or gentle in nature",
+              "definitionCN": "良性的；温和的"
+            },
+            {
+              "word": "cancerous",
+              "ipa": "/ˈkænsərəs/",
+              "tag": "near meaning",
+              "definition": "relating to or caused by cancer",
+              "definitionCN": "癌的；癌性的"
+            },
+            {
+              "word": "malicious",
+              "ipa": "/məˈlɪʃəs/",
+              "tag": "near meaning",
+              "definition": "intending to harm someone",
+              "definitionCN": "恶意的；蓄意伤害的"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Malignant joins bad to birth: a nature that was born bad and keeps growing worse.",
+        "cn": "malignant 把「坏」与「生」连在一起：一种天生就坏、还不断恶化的天性。"
+      },
+      "normal": [
+        {
+          "en": "A malignant tumour is not benign and can spread.",
+          "cn": "恶性肿瘤不是良性的，而且可能转移。"
+        },
+        {
+          "en": "Malignant cells divide without normal limits.",
+          "cn": "恶性细胞不受正常限制地分裂。"
+        },
+        {
+          "en": "The noun malignancy names the condition or the growth.",
+          "cn": "名词 malignancy 指这种病变或肿瘤本身。"
+        },
+        {
+          "en": "Benign is the opposite of malignant in medical reports.",
+          "cn": "在医学报告中，benign 是 malignant 的反义词。"
+        },
+        {
+          "en": "Malicious describes the will to hurt; malignant adds a deep, growing evil.",
+          "cn": "malicious 指伤人的意图，malignant 则多一层深重且不断滋长的恶。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "Picture a dark stain spreading across a white wall.",
+          "cn": "想象一块暗色污迹在白墙上不断扩散。"
+        },
+        {
+          "en": "Imagine a fire that no water can stop once it starts.",
+          "cn": "想象一场一旦燃起就浇不灭的火。"
+        },
+        {
+          "en": "Think of a quiet poison leaking into a clear well.",
+          "cn": "想象一种无声的毒物渗入清澈的水井。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "The biopsy confirmed that the lump was malignant.",
+        "cn": "活检确认这个肿块是恶性的。"
+      },
+      {
+        "en": "Malignant cells can travel through the blood to other organs.",
+        "cn": "恶性细胞可以通过血液转移到其他器官。"
+      },
+      {
+        "en": "He gave the proposal a malignant review that attacked every point.",
+        "cn": "他对这份提案作了恶意的评论，逐条攻击。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「莫良」——没有良心，就会生出恶意；这只是谐音联想，并非词源。",
+      "word": "malignant"
+    },
+    "root": "拉丁语 male（坏地）+ gignere（生出）→ malignus（天性恶的）→ 古法语 malignant → 英语 malignant，核心义「天生带恶、不断扩散」。",
+    "sensesIntro": {
+      "en": "Malignant starts from a tumour that grows like an enemy, passes to severe disease, then to any harmful force, to visible ill will, and finally to an ominous atmosphere.",
+      "cn": "malignant 从像敌人一样生长的肿瘤出发，转到严重的疾病，再到任何有害的力量、可见的恶意，最后到不祥的氛围。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: a dark patch spreading from a corner and swallowing the light.",
+        "cn": "核心意象：一团暗影从墙角迅速蔓延，吞没周围的光。"
+      },
+      "chain": [
+        "EVIL NATURE",
+        "ILL WILL",
+        "HARMFUL FORCE",
+        "INVASIVE GROWTH",
+        "CANCER CELL",
+        "MALIGNANT"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "The cancerous growth is the dominant medical branch.",
+          "cn": "癌性增生是占主导的医学分支。"
+        },
+        {
+          "senses": "02",
+          "en": "Severe disease is the clinical severity branch.",
+          "cn": "严重疾病是临床严重程度的分支。"
+        },
+        {
+          "senses": "03",
+          "en": "Harmful influence is the moral force branch.",
+          "cn": "有害影响是道德力量的分支。"
+        },
+        {
+          "senses": "04",
+          "en": "Visible ill will is the personal branch.",
+          "cn": "可见的恶意是个人层面的分支。"
+        },
+        {
+          "senses": "05",
+          "en": "The ominous atmosphere is the literary branch.",
+          "cn": "不祥氛围是文学分支。"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Malignant joins the Latin root for bad to a root for begetting, and the same material yields malign, malignancy, and malignantly.",
+        "cn": "malignant 把拉丁语表示「坏」的词根与表示「生」的词根结合，同一套材料还产出 malign、malignancy 与 malignantly。"
+      },
+      "latinIntro": {
+        "en": "Latin male means badly, gignere means to beget, and malignus means evil-natured; benignus, kind-natured, is its mirror image.",
+        "cn": "拉丁语 male 意为坏地，gignere 意为生出，malignus 意为天性恶的；表示天性善的 benignus 是它的镜像。"
+      },
+      "items": [
+        {
+          "word": "male",
+          "structure": "Latin adverb",
+          "meaning": "badly, ill",
+          "meaningCN": "坏地；不善地",
+          "example": "Male supplies the bad half of malignus.",
+          "exampleCN": "male 提供 malignus 中表示「坏」的那一半。"
+        },
+        {
+          "word": "gignere",
+          "structure": "Latin verb",
+          "meaning": "to beget, to bring forth",
+          "meaningCN": "生育；产生",
+          "example": "Gignere is generally linked to the second half of malignus.",
+          "exampleCN": "gignere 一般认为与 malignus 的后半部分有关。"
+        },
+        {
+          "word": "malignus",
+          "structure": "Latin adjective",
+          "meaning": "evil-natured",
+          "meaningCN": "天性恶的",
+          "example": "Malignus is the direct Latin source.",
+          "exampleCN": "malignus 是直接的拉丁语来源。"
+        },
+        {
+          "word": "benignus",
+          "structure": "Latin adjective",
+          "meaning": "kind-natured, benign",
+          "meaningCN": "天性善的；良性的",
+          "example": "Benignus is built with bene, well, as the mirror of malignus.",
+          "exampleCN": "benignus 用 bene（好地）构成，是 malignus 的镜像。"
+        },
+        {
+          "word": "-ant",
+          "structure": "English suffix",
+          "meaning": "forming adjectives from verbs",
+          "meaningCN": "由动词构成形容词的后缀",
+          "example": "The suffix -ant turns the participle into an English adjective.",
+          "exampleCN": "后缀 -ant 把这个分词变成英语形容词。"
+        },
+        {
+          "word": "malignant",
+          "structure": "English adjective",
+          "meaning": "cancerous or deeply harmful",
+          "meaningCN": "恶性的；恶意的",
+          "example": "Malignant describes both tumours and intentions.",
+          "exampleCN": "malignant 既描述肿瘤，也描述意图。"
+        },
+        {
+          "word": "malign",
+          "structure": "English verb and adjective",
+          "meaning": "to speak evil of; evil",
+          "meaningCN": "诽谤；恶意的",
+          "example": "Malign is the shorter relative of malignant.",
+          "exampleCN": "malign 是 malignant 更短的亲缘词。"
+        },
+        {
+          "word": "malignancy",
+          "structure": "English noun",
+          "meaning": "malignant quality or growth",
+          "meaningCN": "恶性；恶性肿瘤",
+          "example": "The suffix -cy forms malignancy from malignant.",
+          "exampleCN": "后缀 -cy 从 malignant 构成 malignancy。"
+        },
+        {
+          "word": "malignantly",
+          "structure": "English adverb",
+          "meaning": "in a malignant way",
+          "meaningCN": "恶意地；恶性地",
+          "example": "The suffix -ly turns malignant into malignantly.",
+          "exampleCN": "后缀 -ly 把 malignant 变成 malignantly。"
+        },
+        {
+          "word": "premalignant",
+          "structure": "English adjective",
+          "meaning": "before a malignant stage",
+          "meaningCN": "癌前的；恶性病变前的",
+          "example": "Premalignant changes can be detected early.",
+          "exampleCN": "癌前病变可以早期发现。"
+        },
+        {
+          "word": "nonmalignant",
+          "structure": "English adjective",
+          "meaning": "not malignant",
+          "meaningCN": "非恶性的",
+          "example": "Nonmalignant growths are usually harmless.",
+          "exampleCN": "非恶性增生通常无害。"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "male",
+          "structure": "Latin adverb",
+          "meaning": "badly",
+          "meaningCN": "坏地"
+        },
+        {
+          "word": "malignus",
+          "structure": "Latin adjective",
+          "meaning": "evil-natured",
+          "meaningCN": "天性恶的"
+        },
+        {
+          "word": "gignere",
+          "structure": "Latin verb",
+          "meaning": "to beget",
+          "meaningCN": "生育；产生"
+        }
+      ]
+    }
+  }
+]
