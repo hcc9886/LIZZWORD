@@ -1,0 +1,1273 @@
+[
+  {
+    "word": "supplier",
+    "ipa_uk": "/səˈplaɪə/",
+    "ipa_us": "/səˈplaɪər/",
+    "definition_zh": "供应商；供货方；供应者",
+    "definition_en": "a company or person that provides goods or services to another business",
+    "core_image": "仓库门口，一箱箱货物交到采购方手里",
+    "scene": "工厂的装配线眼看要停，采购经理一遍遍催促供货方发货。The factory called every supplier to confirm the delivery date.",
+    "sceneCN": "这里 supplier 是「供应商」（第 1 个义项：向其他企业提供货物的一方）；句意：工厂给每一位供应商打电话确认交货日期。",
+    "pos": [
+      {
+        "tag": "n.",
+        "zh": "供应商；供货方"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "local supplier",
+        "zh": "本地供应商"
+      },
+      {
+        "phrase": "sole supplier",
+        "zh": "独家供应商"
+      },
+      {
+        "phrase": "approved supplier",
+        "zh": "合格供应商"
+      },
+      {
+        "phrase": "supplier contract",
+        "zh": "供应合同"
+      },
+      {
+        "phrase": "supplier selection",
+        "zh": "供应商遴选"
+      },
+      {
+        "phrase": "supplier of goods",
+        "zh": "货物供应商"
+      }
+    ],
+    "forms": [
+      {
+        "label": "复数",
+        "form": "suppliers"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "supply",
+        "pos": "v.",
+        "zh": "供应；提供，由拉丁语 supplere（补足）经古法语进入英语"
+      },
+      {
+        "word": "supplies",
+        "pos": "n.",
+        "zh": "供应品；物资，supply 的复数名词形式"
+      },
+      {
+        "word": "supply-side",
+        "pos": "adj.",
+        "zh": "供给侧的，经济学中描述生产一端的复合形容词"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "A company that provides goods",
+        "titleCN": "供应商；供货企业",
+        "definition": "a business that hands over goods to another business or to customers",
+        "definitionCN": "向其他企业或顾客交付货物的企业",
+        "example": "The hospital buys gloves from a local supplier.",
+        "exampleCN": "这家医院从本地供应商那里采购手套。",
+        "why": "The suffix -er names the agent, and supply comes from Latin supplere, to fill up, so the supplier is the one who fills another firm gap.",
+        "whyCN": "后缀 -er 表示施事者，而 supply 来自拉丁语 supplere（补足），所以供应商就是替另一家企业补上缺口的那一方。"
+      },
+      {
+        "no": "02",
+        "title": "The supplying party in a contract",
+        "titleCN": "供货方；合同供应方",
+        "definition": "the party named in a contract who must deliver goods or services to the other party",
+        "definitionCN": "合同中具名、负有向另一方交付货物或服务义务的一方",
+        "example": "Under clause four, the supplier bears the transport risk.",
+        "exampleCN": "根据第四条，供货方承担运输风险。",
+        "why": "Legal drafting turns the trading role into a defined party with duties, so the everyday vendor becomes a named supplier.",
+        "whyCN": "法律起草把这个交易角色变成负有义务的具名当事方，于是日常的卖货人就成为合同中的供货方。"
+      },
+      {
+        "no": "03",
+        "title": "A source of a resource or quality",
+        "titleCN": "提供者；来源",
+        "definition": "a person, place, or thing that provides something needed, such as ideas, labour, or talent",
+        "definitionCN": "提供所需之物的人、地方或事物，如想法、劳动力或人才",
+        "example": "The city is a major supplier of engineering talent.",
+        "exampleCN": "这座城市是工程人才的重要来源。",
+        "why": "The agent suffix lets the word move from goods to anything provided, so a city can supply talent just as a firm supplies parts.",
+        "whyCN": "施事后缀让这个词从货物扩展到任何被提供的东西，所以城市能提供人才，正如企业提供零件。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Supplier joins the Latin verb supplere, to fill up, with the English agent suffix -er.",
+        "cn": "supplier 由拉丁语动词 supplere（补足）加英语施事后缀 -er 构成。"
+      },
+      "items": [
+        {
+          "era": "LATIN",
+          "en": "Supplere is built from sub, under, and plere, to fill.",
+          "cn": "supplere 由 sub（在下）与 plere（填满）构成。"
+        },
+        {
+          "era": "LATIN",
+          "en": "Supplementum names the thing that fills a gap.",
+          "cn": "supplementum 指用来补上缺口的东西。"
+        },
+        {
+          "era": "OLD FRENCH",
+          "en": "Supplier means to fill up or provide in Old French.",
+          "cn": "古法语 supplier 意为补足或提供。"
+        },
+        {
+          "era": "ENGLISH, 15TH C.",
+          "en": "English supply first means to fill a need.",
+          "cn": "英语 supply 最初意为补足所需。"
+        },
+        {
+          "era": "ENGLISH, 16TH C.",
+          "en": "The agent suffix -er forms supplier, the one who supplies.",
+          "cn": "施事后缀 -er 构成 supplier，指提供货物的一方。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "Trade usage fixes supplier as the standard word for a vendor.",
+          "cn": "商业用法把 supplier 固定为「供应商」的标准说法。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "Supplier sits inside the supply family, and its nearest trade neighbours are vendor, distributor, and provider.",
+        "cn": "supplier 属于 supply 词族，最贴近的商业同类词是 vendor、distributor 与 provider。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "supply",
+              "ipa": "/ˈsʌplaɪ/",
+              "tag": "same root verb",
+              "definition": "to provide goods or services",
+              "definitionCN": "供应；提供"
+            },
+            {
+              "word": "supplies",
+              "ipa": "/ˈsʌplaɪz/",
+              "tag": "plural noun",
+              "definition": "goods and equipment provided for use",
+              "definitionCN": "供应品；物资"
+            },
+            {
+              "word": "supplement",
+              "ipa": "/ˈsʌplɪmənt/",
+              "tag": "same latin root",
+              "definition": "something added to complete a whole",
+              "definitionCN": "补充物；补充"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "vendor",
+              "ipa": "/ˈvendə/",
+              "tag": "near meaning",
+              "definition": "a firm that sells goods, especially under a contract",
+              "definitionCN": "供应商；卖方"
+            },
+            {
+              "word": "distributor",
+              "ipa": "/dɪˈstrɪbjuːtə/",
+              "tag": "near meaning",
+              "definition": "a firm that passes products from makers to buyers",
+              "definitionCN": "经销商；分销商"
+            },
+            {
+              "word": "provider",
+              "ipa": "/prəˈvaɪdə/",
+              "tag": "near meaning",
+              "definition": "a person or firm that supplies something needed",
+              "definitionCN": "提供者；供应方"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Supplier is the filler of a gap: the suffix -er turns supply into the party who makes good what is missing.",
+        "cn": "supplier 是补缺口的一方：后缀 -er 把 supply 变成把缺少的东西补上的人。"
+      },
+      "normal": [
+        {
+          "en": "Supply plus -er gives supplier, the one who supplies.",
+          "cn": "supply 加 -er 就是 supplier，提供货物的那一方。"
+        },
+        {
+          "en": "A supplier fills the gap between a factory and its raw materials.",
+          "cn": "供应商填补工厂与原料之间的缺口。"
+        },
+        {
+          "en": "The agent ending -er turns y into i in supplier.",
+          "cn": "施动词尾 -er 在 supplier 中把 y 变成 i。"
+        },
+        {
+          "en": "A sole supplier is the only vendor a buyer may use under the contract.",
+          "cn": "sole supplier 指合同下买方唯一可用的供应商。"
+        },
+        {
+          "en": "Compare vendor: vendor stresses the sale, supplier stresses the provision.",
+          "cn": "对比 vendor：vendor 强调卖出，supplier 强调提供。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "Picture a delivery van pulling up at a factory gate at dawn.",
+          "cn": "想象清晨一辆货车停在工厂门口卸货。"
+        },
+        {
+          "en": "Imagine a contract clause that pins the risk of transport on one named party.",
+          "cn": "想象一条合同条款把运输风险压在一个具名的当事方身上。"
+        },
+        {
+          "en": "Think of a city that keeps sending engineers to the whole region.",
+          "cn": "想象一座城市持续为整个地区输送工程师。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "The supplier agreed to replace the damaged parts within ten days.",
+        "cn": "供应商同意在十天内更换受损零件。"
+      },
+      {
+        "en": "Small shops often buy stock from several suppliers.",
+        "cn": "小店铺往往从几家供应商处进货。"
+      },
+      {
+        "en": "Late delivery by the supplier can trigger a penalty clause.",
+        "cn": "供应商交货延迟可能触发违约罚则。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「撒普莱尔」——谐音像「撒货上门的人」，把货撒到货架上就是供应商；这只是谐音联想，与词源无关。",
+      "word": "supplier"
+    },
+    "root": "拉丁语 sub-（在下）+ plere（填满）→ supplere（补足）→ 古法语 supplier（补足、提供）→ 英语 supply（供应），再加 -er 成为 supplier：把对方缺的东西补上的那一方。",
+    "sensesIntro": {
+      "en": "Supplier starts as the trading firm that hands over goods, narrows in contracts to the party bound to deliver, and widens again to any source of a needed resource.",
+      "cn": "supplier 先指交货的贸易企业，在合同里收窄为负有交货义务的一方，又扩大为任何所需资源的来源。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: a cart of goods filling the empty space at another firm door.",
+        "cn": "核心意象：一车货物填上另一家企业门口的缺口。"
+      },
+      "chain": [
+        "FILL A GAP",
+        "SUPPLY GOODS",
+        "TRADING FIRM",
+        "CONTRACT PARTY",
+        "SOURCE OF NEED",
+        "VENDOR ROLE"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "The everyday firm that delivers goods.",
+          "cn": "日常义项：交付货物的企业。"
+        },
+        {
+          "senses": "02",
+          "en": "The party named in a contract as the deliverer.",
+          "cn": "合同义项：被列为交货方的当事人。"
+        },
+        {
+          "senses": "03",
+          "en": "Any source of a resource or quality.",
+          "cn": "比喻义项：任何资源或特质的来源。"
+        },
+        {
+          "senses": "01 · 02",
+          "en": "Both senses name a deliverer of goods; trade usage stresses the market role, contract usage the legal duty.",
+          "cn": "两个义项都指交货方，商业用法强调市场角色，合同用法强调法律义务。"
+        },
+        {
+          "senses": "02 · 03",
+          "en": "Both describe a providing role, one fixed by contract and one figurative.",
+          "cn": "两者都描述提供者角色，一个由合同固定，一个是比喻。"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Supplier grows from the Latin verb supplere, to fill up, through English supply and the agent suffix -er.",
+        "cn": "supplier 从拉丁语动词 supplere（补足）经英语 supply 与施动词尾 -er 发展而来。"
+      },
+      "latinIntro": {
+        "en": "Latin supplere means to fill up, from sub, under, and plere, to fill.",
+        "cn": "拉丁语 supplere 意为补足，由 sub（在下）与 plere（填满）构成。"
+      },
+      "items": [
+        {
+          "word": "sub-",
+          "structure": "Latin prefix",
+          "meaning": "under, from below",
+          "meaningCN": "在下；从下面",
+          "example": "The prefix sub- appears as sup- before p.",
+          "exampleCN": "前缀 sub- 在 p 前写作 sup-。"
+        },
+        {
+          "word": "plere",
+          "structure": "Latin verb",
+          "meaning": "to fill",
+          "meaningCN": "填满",
+          "example": "Plere is the filling root.",
+          "exampleCN": "plere 是表示「填满」的词根。"
+        },
+        {
+          "word": "supplere",
+          "structure": "Latin verb",
+          "meaning": "to fill up, to complete",
+          "meaningCN": "补足；补全",
+          "example": "Supplere adds the prefix to the filling root.",
+          "exampleCN": "supplere 把前缀加到「填满」词根上。"
+        },
+        {
+          "word": "supplementum",
+          "structure": "Latin noun",
+          "meaning": "that which fills a gap",
+          "meaningCN": "用来补缺的东西",
+          "example": "Supplementum names the filler itself.",
+          "exampleCN": "supplementum 指补缺的那个东西。"
+        },
+        {
+          "word": "supply",
+          "structure": "English verb",
+          "meaning": "to provide what is needed",
+          "meaningCN": "供应；提供",
+          "example": "Supply carries the verb sense into English.",
+          "exampleCN": "supply 把动词义带入英语。"
+        },
+        {
+          "word": "supplies",
+          "structure": "English noun",
+          "meaning": "goods provided for use",
+          "meaningCN": "供应品；物资",
+          "example": "Supplies is the plural mass noun.",
+          "exampleCN": "supplies 是复数物资名词。"
+        },
+        {
+          "word": "-er",
+          "structure": "English suffix",
+          "meaning": "one who does something",
+          "meaningCN": "表示施事者的后缀",
+          "example": "The suffix -er turns verbs into agent nouns.",
+          "exampleCN": "后缀 -er 把动词变成施事名词。"
+        },
+        {
+          "word": "supplier",
+          "structure": "English noun",
+          "meaning": "a provider of goods",
+          "meaningCN": "供应商",
+          "example": "Supplier is the agent noun of supply.",
+          "exampleCN": "supplier 是 supply 的施事名词。"
+        },
+        {
+          "word": "supplement",
+          "structure": "English noun",
+          "meaning": "an addition that completes",
+          "meaningCN": "补充物",
+          "example": "Supplement comes from supplementum.",
+          "exampleCN": "supplement 来自 supplementum。"
+        },
+        {
+          "word": "supply-side",
+          "structure": "English adjective",
+          "meaning": "relating to producers",
+          "meaningCN": "供给侧的",
+          "example": "Supply-side describes a kind of economic policy.",
+          "exampleCN": "supply-side 描述一种经济政策。"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "supplere",
+          "structure": "Latin verb",
+          "meaning": "to fill up",
+          "meaningCN": "补足"
+        },
+        {
+          "word": "supplementum",
+          "structure": "Latin noun",
+          "meaning": "a filler, a completion",
+          "meaningCN": "补充物；补全之物"
+        },
+        {
+          "word": "sub",
+          "structure": "Latin prefix",
+          "meaning": "under",
+          "meaningCN": "在下"
+        }
+      ]
+    }
+  },
+  {
+    "word": "subsidy",
+    "ipa_uk": "/ˈsʌbsɪdi/",
+    "ipa_us": "/ˈsʌbsədi/",
+    "definition_zh": "补贴；补助金；津贴",
+    "definition_en": "money paid by a government to lower the cost of a good, service, or activity",
+    "core_image": "政府把一叠钞票垫在农户的账本下面",
+    "scene": "粮价太低，农户连化肥都买不起，政府决定按亩发放补助。The government offered a subsidy to every farm that switched to cleaner fuel.",
+    "sceneCN": "这里 subsidy 是「补贴」（第 1 个义项：政府为降低成本而支付的补助）；句意：政府向每一户改用清洁燃料的农场发放补贴。",
+    "pos": [
+      {
+        "tag": "n.",
+        "zh": "补贴；补助金；津贴"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "government subsidy",
+        "zh": "政府补贴"
+      },
+      {
+        "phrase": "export subsidy",
+        "zh": "出口补贴"
+      },
+      {
+        "phrase": "fuel subsidy",
+        "zh": "燃油补贴"
+      },
+      {
+        "phrase": "subsidy scheme",
+        "zh": "补贴方案"
+      },
+      {
+        "phrase": "cut a subsidy",
+        "zh": "削减补贴"
+      },
+      {
+        "phrase": "subsidy for farmers",
+        "zh": "农户补贴"
+      }
+    ],
+    "forms": [
+      {
+        "label": "复数",
+        "form": "subsidies"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "subsidize",
+        "pos": "v.",
+        "zh": "补贴；给……发补助，由 subsidy 加动词后缀 -ize 构成"
+      },
+      {
+        "word": "subsidized",
+        "pos": "adj.",
+        "zh": "获得补贴的，subsidize 的过去分词作形容词"
+      },
+      {
+        "word": "subsidization",
+        "pos": "n.",
+        "zh": "补贴行为；补贴制度，由 subsidize 加 -ation 构成"
+      },
+      {
+        "word": "subsidiary",
+        "pos": "n.",
+        "zh": "子公司；附属机构，与 subsidy 同出拉丁语 subsidium，词义转向「后备、辅助」"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "A government payment that lowers costs",
+        "titleCN": "补贴；政府补助",
+        "definition": "money a government pays to a producer or consumer so that a good or service costs less",
+        "definitionCN": "政府向生产者或消费者支付、使某项商品或服务更便宜的款项",
+        "example": "The subsidy keeps the price of bread low for poor households.",
+        "exampleCN": "这项补贴让贫困家庭买得起面包。",
+        "why": "Latin subsidium meant troops kept in reserve, so a subsidy is money held ready to back a cause when it is needed.",
+        "whyCN": "拉丁语 subsidium 指留在后方的后备部队，所以补贴就是备好、需要时用来支撑某项事业的钱。"
+      },
+      {
+        "no": "02",
+        "title": "The sum of money paid out",
+        "titleCN": "补贴金；补助款",
+        "definition": "the amount of money actually paid under a support scheme",
+        "definitionCN": "在补助方案下实际支付的金额",
+        "example": "Each family receives a monthly subsidy for heating.",
+        "exampleCN": "每户每月领取一笔取暖补贴。",
+        "why": "The scheme and the cash it pays share one word, a shift from the support itself to the money that supports.",
+        "whyCN": "方案与它付出的钱共用一词，这是从「支持」本身转到「支撑所用的钱」。"
+      },
+      {
+        "no": "03",
+        "title": "A hidden support that lowers real costs",
+        "titleCN": "变相补贴；政策性扶助",
+        "definition": "a benefit such as a tax break or a cheap loan that works like a payment because it lowers the real cost",
+        "definitionCN": "税收减免或低息贷款等好处，因降低实际成本而起到类似付款的作用",
+        "example": "A low-interest loan acts as a hidden subsidy for exporters.",
+        "exampleCN": "低息贷款对出口商来说是一种隐性补贴。",
+        "why": "Economists widen the word to cover any measure that shifts costs away from the buyer, even when no cash is handed over.",
+        "whyCN": "经济学家把这个词扩大到任何把成本从买方身上移开的措施，即使并没有现金过手。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Subsidy goes back to Latin subsidium, a body of troops held in reserve, and later any help or support.",
+        "cn": "subsidy 可追溯到拉丁语 subsidium，指留在后方的后备部队，后来泛指援助与支持。"
+      },
+      "items": [
+        {
+          "era": "LATIN",
+          "en": "Subsidium means troops kept in reserve behind the line.",
+          "cn": "subsidium 指留在战线后方的后备部队。"
+        },
+        {
+          "era": "LATIN",
+          "en": "The same noun also means help or support in general.",
+          "cn": "同一名词也泛指帮助与支援。"
+        },
+        {
+          "era": "MEDIEVAL LATIN",
+          "en": "Subsidium comes to mean a grant of money from a ruler.",
+          "cn": "在中世纪拉丁语里，subsidium 转指君主拨给的款项。"
+        },
+        {
+          "era": "ANGLO-FRENCH",
+          "en": "Subsidie passes into Anglo-French as a money grant.",
+          "cn": "subsidie 经盎格鲁法语传入，指拨付的款项。"
+        },
+        {
+          "era": "ENGLISH, 14TH C.",
+          "en": "Subsidy first names a tax granted to the Crown.",
+          "cn": "英语 subsidy 最初指议会批给王室的税款。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "Modern economics narrows subsidy to state support for producers or consumers.",
+          "cn": "现代经济学把 subsidy 收窄为政府对生产者或消费者的支持。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "Subsidy shares the reserve image with subsidize and subsidiary, and sits close to grant, allowance, and rebate.",
+        "cn": "subsidy 与 subsidize、subsidiary 共享「后备」意象，并与 grant、allowance、rebate 意义相邻。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "subsidize",
+              "ipa": "/ˈsʌbsədaɪz/",
+              "tag": "derived verb",
+              "definition": "to pay a subsidy to a person or industry",
+              "definitionCN": "补贴；资助"
+            },
+            {
+              "word": "subsidized",
+              "ipa": "/ˈsʌbsədaɪzd/",
+              "tag": "derived adjective",
+              "definition": "receiving state support",
+              "definitionCN": "获得补贴的"
+            },
+            {
+              "word": "subsidiary",
+              "ipa": "/səbˈsɪdiəri/",
+              "tag": "same root noun",
+              "definition": "a company controlled by a larger parent company",
+              "definitionCN": "子公司；附属公司"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "grant",
+              "ipa": "/ɡrɑːnt/",
+              "tag": "near meaning",
+              "definition": "money given for a specific purpose, often without repayment",
+              "definitionCN": "拨款；补助金"
+            },
+            {
+              "word": "allowance",
+              "ipa": "/əˈlaʊəns/",
+              "tag": "near meaning",
+              "definition": "a regular sum paid to someone for a stated purpose",
+              "definitionCN": "津贴；定期补助"
+            },
+            {
+              "word": "rebate",
+              "ipa": "/rɪˈbeɪt/",
+              "tag": "near meaning",
+              "definition": "a partial refund of money already paid",
+              "definitionCN": "回扣；退款"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Subsidy carries the idea of a reserve: something set aside behind the line to support the front.",
+        "cn": "subsidy 带着「后备」的意味：留在后方、随时支撑前线的东西。"
+      },
+      "normal": [
+        {
+          "en": "Subsidium first meant troops held in reserve.",
+          "cn": "subsidium 最初指留在后方的后备部队。"
+        },
+        {
+          "en": "A subsidy is money kept ready to support a cause.",
+          "cn": "补贴就是备好用来支撑某项事业的钱。"
+        },
+        {
+          "en": "Governments use a subsidy to lower a price without fixing it.",
+          "cn": "政府用补贴压低价格，而不直接定价。"
+        },
+        {
+          "en": "Subsidize is the verb and subsidized the adjective.",
+          "cn": "subsidize 是动词，subsidized 是形容词。"
+        },
+        {
+          "en": "Compare grant: a grant funds a project, a subsidy lowers a cost.",
+          "cn": "对比 grant：grant 资助项目，subsidy 降低成本。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "Picture a reserve squad sitting on the bench, ready to join the game.",
+          "cn": "想象替补队员坐在场边，随时准备上场。"
+        },
+        {
+          "en": "Imagine a wallet kept in a drawer for a day when the family needs it.",
+          "cn": "想象一只放在抽屉里的钱包，等家里需要时拿出来。"
+        },
+        {
+          "en": "Think of a shop that quietly pays part of your bill at the counter.",
+          "cn": "想象一家商店在收银台悄悄替你付掉一部分账单。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "The government pays a subsidy to farmers who plant cover crops.",
+        "cn": "政府向种植覆盖作物的农户发放补贴。"
+      },
+      {
+        "en": "Without the subsidy, the bus service would have to raise fares.",
+        "cn": "没有这笔补贴，公交服务就不得不涨价。"
+      },
+      {
+        "en": "The subsidy was cut after a review found the scheme wasteful.",
+        "cn": "审查认定该方案浪费后，补贴被削减。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「萨布西迪」——谐音像「塞补助」，就是政府塞给企业的后备钱；这只是谐音联想，与词源无关。",
+      "word": "subsidy"
+    },
+    "root": "拉丁语 sub-（在下、后方）+ sedere（坐）→ subsidium（坐在后方的后备部队、支援）→ 中世纪拉丁语「君主拨给的款项」→ 英语 subsidy（补贴）。",
+    "sensesIntro": {
+      "en": "Subsidy starts as a support scheme, then names the cash it pays, and finally widens to any benefit that lowers a real cost.",
+      "cn": "subsidy 先指一套支持方案，再指它付出的那笔钱，最后扩大到任何降低实际成本的好处。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: a reserve of money waiting behind the front line.",
+        "cn": "核心意象：一笔待在后方的备用钱。"
+      },
+      "chain": [
+        "TROOPS IN RESERVE",
+        "SUPPORT HELD READY",
+        "GRANT FROM RULER",
+        "STATE PAYMENT",
+        "LOWER COST",
+        "HIDDEN SUPPORT"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "The support scheme that lowers prices.",
+          "cn": "降低价格的补助方案。"
+        },
+        {
+          "senses": "02",
+          "en": "The cash actually paid out.",
+          "cn": "实际支付出去的钱。"
+        },
+        {
+          "senses": "03",
+          "en": "An indirect benefit that works like cash.",
+          "cn": "起到现金作用的间接好处。"
+        },
+        {
+          "senses": "01 · 02",
+          "en": "The scheme and its payment are two sides of one policy.",
+          "cn": "方案与付款是同一项政策的两个侧面。"
+        },
+        {
+          "senses": "02 · 03",
+          "en": "Cash and hidden benefit both shift cost away from the buyer.",
+          "cn": "现金与隐性好处都把成本从买方身上移开。"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Subsidy is built on the Latin verb sedere, to sit, with the prefix sub-, and it has produced a whole English family.",
+        "cn": "subsidy 建立在拉丁语动词 sedere（坐）与前缀 sub- 之上，并衍生出整族英语词。"
+      },
+      "latinIntro": {
+        "en": "Latin subsidium means a reserve or support, literally what sits behind the line.",
+        "cn": "拉丁语 subsidium 意为后备或支援，字面就是「坐在战线后面的东西」。"
+      },
+      "items": [
+        {
+          "word": "sub-",
+          "structure": "Latin prefix",
+          "meaning": "under, behind",
+          "meaningCN": "在下；在后",
+          "example": "The prefix sub- gives the idea of placing something behind.",
+          "exampleCN": "前缀 sub- 表示把某物放在后面。"
+        },
+        {
+          "word": "sedere",
+          "structure": "Latin verb",
+          "meaning": "to sit",
+          "meaningCN": "坐",
+          "example": "Sedere is the sitting root of the family.",
+          "exampleCN": "sedere 是这个词族里表示「坐」的词根。"
+        },
+        {
+          "word": "subsidium",
+          "structure": "Latin noun",
+          "meaning": "reserve troops, support",
+          "meaningCN": "后备部队；支援",
+          "example": "Subsidium is the direct source of subsidy.",
+          "exampleCN": "subsidium 是 subsidy 的直接来源。"
+        },
+        {
+          "word": "subsidiarius",
+          "structure": "Latin adjective",
+          "meaning": "of reserve, auxiliary",
+          "meaningCN": "后备的；辅助的",
+          "example": "Subsidiarius leads to the English subsidiary.",
+          "exampleCN": "subsidiarius 引出英语 subsidiary。"
+        },
+        {
+          "word": "subsidy",
+          "structure": "English noun",
+          "meaning": "state money that lowers a cost",
+          "meaningCN": "补贴",
+          "example": "Subsidy keeps the noun sense of support.",
+          "exampleCN": "subsidy 保留「支持」的名词含义。"
+        },
+        {
+          "word": "subsidize",
+          "structure": "English verb",
+          "meaning": "to give a subsidy to",
+          "meaningCN": "补贴；资助",
+          "example": "The suffix -ize turns the noun into a verb.",
+          "exampleCN": "后缀 -ize 把这个名词变成动词。"
+        },
+        {
+          "word": "subsidized",
+          "structure": "English adjective",
+          "meaning": "supported by a subsidy",
+          "meaningCN": "获得补贴的",
+          "example": "The past participle works as an adjective.",
+          "exampleCN": "过去分词在这里作形容词。"
+        },
+        {
+          "word": "subsidization",
+          "structure": "English noun",
+          "meaning": "the act of subsidizing",
+          "meaningCN": "补贴行为",
+          "example": "The suffix -ation names the process.",
+          "exampleCN": "后缀 -ation 表示过程。"
+        },
+        {
+          "word": "subsidiary",
+          "structure": "English noun",
+          "meaning": "a controlled company",
+          "meaningCN": "子公司",
+          "example": "Subsidiary keeps the auxiliary idea.",
+          "exampleCN": "subsidiary 保留「辅助」的意思。"
+        },
+        {
+          "word": "-ize",
+          "structure": "English suffix",
+          "meaning": "to make or put into",
+          "meaningCN": "使……化的动词后缀",
+          "example": "The suffix -ize forms verbs from nouns.",
+          "exampleCN": "后缀 -ize 把名词构成动词。"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "subsidium",
+          "structure": "Latin noun",
+          "meaning": "reserve troops, help",
+          "meaningCN": "后备部队；援助"
+        },
+        {
+          "word": "sedere",
+          "structure": "Latin verb",
+          "meaning": "to sit",
+          "meaningCN": "坐"
+        },
+        {
+          "word": "subsidiarius",
+          "structure": "Latin adjective",
+          "meaning": "auxiliary",
+          "meaningCN": "辅助的"
+        }
+      ]
+    }
+  },
+  {
+    "word": "customs",
+    "ipa_uk": "/ˈkʌstəmz/",
+    "ipa_us": "/ˈkʌstəmz/",
+    "definition_zh": "海关；关税；报关处",
+    "definition_en": "the government agency that controls goods crossing a border, or the tax it collects on them",
+    "core_image": "关口前排着货柜，关员在单据上盖章",
+    "scene": "跨境的货柜在港口堆了整排，报关员抱着单据来回奔走。The customs officer opened the crate and asked for the invoice.",
+    "sceneCN": "这里 customs 是「海关」（第 1 个义项：监管进出境货物并征税的政府机构）；句意：海关关员打开板条箱并要求出示发票。",
+    "pos": [
+      {
+        "tag": "n.",
+        "zh": "海关；关税；报关处"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "customs officer",
+        "zh": "海关关员"
+      },
+      {
+        "phrase": "customs duty",
+        "zh": "关税"
+      },
+      {
+        "phrase": "customs clearance",
+        "zh": "清关；结关"
+      },
+      {
+        "phrase": "customs union",
+        "zh": "关税同盟"
+      },
+      {
+        "phrase": "customs declaration",
+        "zh": "报关单"
+      },
+      {
+        "phrase": "go through customs",
+        "zh": "通过海关检查"
+      }
+    ],
+    "forms": [
+      {
+        "label": "单数（习俗义）",
+        "form": "custom"
+      },
+      {
+        "label": "复数（海关义）",
+        "form": "customs"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "customary",
+        "pos": "adj.",
+        "zh": "惯常的；按惯例的，由 custom 加形容词后缀 -ary 构成"
+      },
+      {
+        "word": "custom",
+        "pos": "n.",
+        "zh": "习俗；惯例，customs 的单数形式，与「海关」义同源"
+      },
+      {
+        "word": "customer",
+        "pos": "n.",
+        "zh": "顾客，由「惯常光顾」的 custom 义引申"
+      },
+      {
+        "word": "customhouse",
+        "pos": "n.",
+        "zh": "海关大楼；税关，custom 与 house 的复合词"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "The agency that controls goods at the border",
+        "titleCN": "海关",
+        "definition": "the government department that inspects goods and collects duties when they enter or leave a country",
+        "definitionCN": "在货物进出境时查验货物并征收关税的政府部门",
+        "example": "Customs held the container at the port for a full inspection.",
+        "exampleCN": "海关把货柜扣在港口做全面查验。",
+        "why": "Medieval tolls were called customary dues, and the office that collected them took over the plural name.",
+        "whyCN": "中世纪的通行税被称为「惯常缴纳的款项」，征收它的机构就沿用了这个复数名称。"
+      },
+      {
+        "no": "02",
+        "title": "The tax charged on imported goods",
+        "titleCN": "关税",
+        "definition": "a tax that must be paid on goods brought into a country",
+        "definitionCN": "对输入本国的货物所征的税",
+        "example": "The importer paid customs on the imported machinery.",
+        "exampleCN": "进口商为进口机械缴纳了关税。",
+        "why": "The same plural word names both the office and the payment it collects, a common transfer from institution to charge.",
+        "whyCN": "同一个复数词既指机构又指它征收的款项，这是从机构名转到费用的常见引申。"
+      },
+      {
+        "no": "03",
+        "title": "The border point where goods are checked",
+        "titleCN": "海关关卡；报关处",
+        "definition": "the place at a port, airport, or border where goods and baggage are examined",
+        "definitionCN": "港口、机场或边境上查验货物与行李的地点",
+        "example": "Please declare the samples at customs before your flight.",
+        "exampleCN": "登机前请在海关申报这些样品。",
+        "why": "Because the agency works at fixed points, its name also labels the checkpoint itself.",
+        "whyCN": "由于海关在固定地点办公，它的名称也被用来指那个检查地点本身。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Customs comes from Latin consuetudo, habit, whose plural consuetudines named the customary dues paid on goods.",
+        "cn": "customs 来自拉丁语 consuetudo（习惯），其复数 consuetudines 指对货物惯常征收的款项。"
+      },
+      "items": [
+        {
+          "era": "LATIN",
+          "en": "Consuetudo means habit or established practice.",
+          "cn": "consuetudo 意为习惯或既定惯例。"
+        },
+        {
+          "era": "LATE LATIN",
+          "en": "The plural consuetudines names customary payments and tolls.",
+          "cn": "复数 consuetudines 指按惯例缴纳的款项与通行税。"
+        },
+        {
+          "era": "OLD FRENCH",
+          "en": "Costume means custom and also a customary toll.",
+          "cn": "古法语 costume 既指习俗，也指惯常征收的通行税。"
+        },
+        {
+          "era": "ENGLISH, 14TH C.",
+          "en": "English customs first names the customary tolls on goods.",
+          "cn": "英语 customs 最初指对货物按惯例征收的税。"
+        },
+        {
+          "era": "ENGLISH, 17TH C.",
+          "en": "Customs also comes to mean the office that collects the tolls.",
+          "cn": "customs 又进而指征收这些税的机构。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "Modern usage keeps customs for both the tax and the border agency.",
+          "cn": "现代用法让 customs 同时保留「关税」与「海关机构」两个意思。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "Customs belongs to the custom family, and its closest tax neighbours are tariff, duty, and excise.",
+        "cn": "customs 属于 custom 词族，最贴近的税种同类词是 tariff、duty 与 excise。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "custom",
+              "ipa": "/ˈkʌstəm/",
+              "tag": "base noun",
+              "definition": "a habitual practice of a group or place",
+              "definitionCN": "习俗；惯例"
+            },
+            {
+              "word": "customary",
+              "ipa": "/kəˈstjuːməri/",
+              "tag": "derived adjective",
+              "definition": "following an established practice",
+              "definitionCN": "惯常的；按惯例的"
+            },
+            {
+              "word": "customer",
+              "ipa": "/ˈkʌstəmə/",
+              "tag": "derived noun",
+              "definition": "a person who buys goods from a shop",
+              "definitionCN": "顾客；由「惯常光顾」引申，与海关义无关"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "tariff",
+              "ipa": "/ˈtærɪf/",
+              "tag": "near meaning",
+              "definition": "a tax on goods entering or leaving a country",
+              "definitionCN": "关税；进出口税率表"
+            },
+            {
+              "word": "duty",
+              "ipa": "/ˈdjuːti/",
+              "tag": "near meaning",
+              "definition": "a tax paid on goods entering a country",
+              "definitionCN": "税；关税"
+            },
+            {
+              "word": "excise",
+              "ipa": "/ɪkˈsaɪz/",
+              "tag": "near meaning",
+              "definition": "a tax on goods made or sold inside a country",
+              "definitionCN": "消费税；国内货物税"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Customs began as customary payments, so the word ties habit to the tax table.",
+        "cn": "customs 最初指按惯例缴纳的款项，这个词把「习惯」和税表系在一起。"
+      },
+      "normal": [
+        {
+          "en": "Latin consuetudo means habit, and customary dues took its plural.",
+          "cn": "拉丁语 consuetudo 意为习惯，惯常缴纳的税项用了它的复数。"
+        },
+        {
+          "en": "Customs is plural in form and can take a singular or a plural verb.",
+          "cn": "customs 形式上是复数，动词可单可复。"
+        },
+        {
+          "en": "Customs duty is the tax, customs officer is the person.",
+          "cn": "customs duty 是税，customs officer 是人。"
+        },
+        {
+          "en": "Goods are cleared through customs before they enter the market.",
+          "cn": "货物进入市场前要经海关结关。"
+        },
+        {
+          "en": "Compare custom and customs: one is a habit, the other is the border agency.",
+          "cn": "对比 custom 与 customs：前者是习俗，后者是边境机构。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "Picture a ledger of old tolls kept in a border tower.",
+          "cn": "想象边境塔楼里一本记着旧通行税的账簿。"
+        },
+        {
+          "en": "Imagine a stamp coming down on a customs form.",
+          "cn": "想象一枚印章落在报关单上。"
+        },
+        {
+          "en": "Think of a gate where every truck must stop and show papers.",
+          "cn": "想象一道大门，每辆卡车都得停下出示单据。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "Customs seized the shipment because the papers were false.",
+        "cn": "海关查扣了这批货，因为单据是伪造的。"
+      },
+      {
+        "en": "The firm paid customs on every machine it imported last year.",
+        "cn": "这家公司为去年进口的每台机器都缴了关税。"
+      },
+      {
+        "en": "The goods were cleared through customs at the inland depot.",
+        "cn": "货物在内陆场站办结了海关手续。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「卡斯特姆斯」——谐音像「卡住货的税关」，货物进出都要被卡一下；这只是谐音联想，与词源无关。",
+      "word": "customs"
+    },
+    "root": "拉丁语 consuetudo（习惯，源自 consuescere「使习惯」）→ 晚期拉丁语复数 consuetudines（按惯例缴纳的款项）→ 古法语 costume（惯例；通行税）→ 英语 custom 与 customs：由「惯例」转为「按惯例征收的关税」，再指征收它的海关。",
+    "sensesIntro": {
+      "en": "Customs first names the border agency, then the tax that agency collects, and finally the checkpoint where the work is done.",
+      "cn": "customs 先指边境机构，再指该机构征收的税，最后指办理这些手续的关卡。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: a border gate where every load is stopped and stamped.",
+        "cn": "核心意象：边境关口，每一车货都要停下盖章。"
+      },
+      "chain": [
+        "HABIT",
+        "CUSTOMARY DUES",
+        "TOLL ON GOODS",
+        "IMPORT TAX",
+        "BORDER AGENCY",
+        "CHECKPOINT"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "The government body that inspects goods.",
+          "cn": "查验货物的政府机构。"
+        },
+        {
+          "senses": "02",
+          "en": "The tax collected on imports.",
+          "cn": "对进口货物征收的税。"
+        },
+        {
+          "senses": "03",
+          "en": "The place where goods are examined.",
+          "cn": "查验货物的地点。"
+        },
+        {
+          "senses": "01 · 02",
+          "en": "The agency is named by the charge it collects, so office and tax share one plural word.",
+          "cn": "机构因它征收的款项得名，所以机构与税共用一个复数词。"
+        },
+        {
+          "senses": "01 · 03",
+          "en": "The agency works at fixed points, so its name also labels the gate.",
+          "cn": "机构在固定地点办公，所以它的名称也指那道关口。"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Customs grows from the Latin noun consuetudo, habit, through the idea of dues paid by custom to the modern border agency.",
+        "cn": "customs 从拉丁语名词 consuetudo（习惯）出发，经「按惯例缴纳的款项」这一层，走到现代的边境机构。"
+      },
+      "latinIntro": {
+        "en": "Latin consuetudo means habit, and its plural consuetudines means customary payments.",
+        "cn": "拉丁语 consuetudo 意为习惯，其复数 consuetudines 意为按惯例缴纳的款项。"
+      },
+      "items": [
+        {
+          "word": "consuetudo",
+          "structure": "Latin noun",
+          "meaning": "habit, custom",
+          "meaningCN": "习惯；惯例",
+          "example": "Consuetudo is the noun behind the whole family.",
+          "exampleCN": "consuetudo 是整个词族背后的名词。"
+        },
+        {
+          "word": "consuescere",
+          "structure": "Latin verb",
+          "meaning": "to become accustomed",
+          "meaningCN": "使习惯；变得习惯",
+          "example": "Consuescere is the verb that yields the noun.",
+          "exampleCN": "consuescere 是产出这个名词的动词。"
+        },
+        {
+          "word": "consuetudines",
+          "structure": "Late Latin noun",
+          "meaning": "customary dues and tolls",
+          "meaningCN": "惯常缴纳的款项与通行税",
+          "example": "The plural name passes into English as customs.",
+          "exampleCN": "这个复数名称进入英语后成为 customs。"
+        },
+        {
+          "word": "costume",
+          "structure": "Old French noun",
+          "meaning": "custom, customary toll",
+          "meaningCN": "习俗；惯常通行税",
+          "example": "Costume carries both senses into French.",
+          "exampleCN": "costume 把两个意思带入法语。"
+        },
+        {
+          "word": "custom",
+          "structure": "English noun",
+          "meaning": "a habitual practice",
+          "meaningCN": "习俗；惯例",
+          "example": "Custom keeps the habit sense.",
+          "exampleCN": "custom 保留「习惯」义。"
+        },
+        {
+          "word": "customary",
+          "structure": "English adjective",
+          "meaning": "according to custom",
+          "meaningCN": "按惯例的；惯常的",
+          "example": "The suffix -ary forms the adjective.",
+          "exampleCN": "后缀 -ary 构成这个形容词。"
+        },
+        {
+          "word": "customs",
+          "structure": "English noun",
+          "meaning": "the border agency and its tax",
+          "meaningCN": "海关；关税",
+          "example": "Customs keeps both the office and the charge.",
+          "exampleCN": "customs 同时保留机构与费用两个意思。"
+        },
+        {
+          "word": "customer",
+          "structure": "English noun",
+          "meaning": "a regular buyer",
+          "meaningCN": "顾客；主顾",
+          "example": "Customer grows from the idea of customary patronage.",
+          "exampleCN": "customer 由「惯常光顾」的意思长出来。"
+        },
+        {
+          "word": "customs duty",
+          "structure": "English compound",
+          "meaning": "the tax on imports",
+          "meaningCN": "关税",
+          "example": "The compound names the charge precisely.",
+          "exampleCN": "这个复合词精确指出那笔费用。"
+        },
+        {
+          "word": "customs union",
+          "structure": "English compound",
+          "meaning": "a group of states with one tariff wall",
+          "meaningCN": "关税同盟",
+          "example": "The compound names a trade arrangement.",
+          "exampleCN": "这个复合词指一种贸易安排。"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "consuetudo",
+          "structure": "Latin noun",
+          "meaning": "habit",
+          "meaningCN": "习惯"
+        },
+        {
+          "word": "consuetudines",
+          "structure": "Late Latin noun",
+          "meaning": "customary dues",
+          "meaningCN": "惯常缴纳的款项"
+        },
+        {
+          "word": "consuescere",
+          "structure": "Latin verb",
+          "meaning": "to become accustomed",
+          "meaningCN": "使习惯"
+        },
+        {
+          "word": "custuma",
+          "structure": "Medieval Latin noun",
+          "meaning": "a customs duty",
+          "meaningCN": "关税"
+        }
+      ]
+    }
+  }
+]

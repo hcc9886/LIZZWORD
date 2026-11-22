@@ -1,0 +1,1343 @@
+[
+  {
+    "word": "trustee",
+    "ipa_uk": "/ˈtrʌstiː/",
+    "ipa_us": "/ˈtrʌstiː/",
+    "definition_zh": "受托人；财产管理人；理事",
+    "definition_en": "a person who holds and manages property or rights for the benefit of another",
+    "core_image": "一双手握着别人的钥匙，只按约定开哪扇门",
+    "scene": "老人立下遗嘱，把房子交给一位受托人打理，租金留给子女。The trustee must keep the house in good repair and pay the taxes from the estate.",
+    "sceneCN": "这里 trustee 是「受托人」（第 1 个义项：代他人持有并管理财产的人）；句意：受托人必须维护好房子，并从遗产中支付税款。",
+    "pos": [
+      {
+        "tag": "n.",
+        "zh": "受托人；财产管理人；理事"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "appointed trustee",
+        "zh": "被指定的受托人"
+      },
+      {
+        "phrase": "trustee in bankruptcy",
+        "zh": "破产财产管理人"
+      },
+      {
+        "phrase": "sole trustee",
+        "zh": "唯一受托人"
+      },
+      {
+        "phrase": "board of trustees",
+        "zh": "理事会；托管委员会"
+      },
+      {
+        "phrase": "act as trustee",
+        "zh": "担任受托人"
+      },
+      {
+        "phrase": "trustee of the estate",
+        "zh": "遗产受托人"
+      }
+    ],
+    "forms": [
+      {
+        "label": "复数",
+        "form": "trustees"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "trusteeship",
+        "pos": "n.",
+        "zh": "受托人职位；托管：trust + -ship（表示身份与职位的后缀）"
+      },
+      {
+        "word": "entrust",
+        "pos": "v.",
+        "zh": "委托；托付：en-（使）+ trust，把事物交到所信任的人手里"
+      },
+      {
+        "word": "trustor",
+        "pos": "n.",
+        "zh": "信托设立人；委托人：trust + -or（施动者后缀），指设立信托的一方"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "A person who holds property for another",
+        "titleCN": "受托人（代管财产的人）",
+        "definition": "a person or company that holds and manages property or money for the benefit of someone else",
+        "definitionCN": "为他人利益持有并管理财产或金钱的个人或公司",
+        "example": "The trustee holds the land for the children until they reach the age of majority.",
+        "exampleCN": "受托人为孩子们持有这块土地，直到他们成年。",
+        "why": "The ending -ee marks the receiver of an action, so a trustee is the one to whom property is entrusted.",
+        "whyCN": "-ee 标记动作的承受者，因此 trustee 就是财产被托付给的那个人。"
+      },
+      {
+        "no": "02",
+        "title": "A manager of a bankrupt estate",
+        "titleCN": "破产财产管理人",
+        "definition": "an official appointed to take control of a bankrupt person or company and to pay the creditors",
+        "definitionCN": "被指定接管破产个人或公司并偿付债权人的官员",
+        "example": "The court appointed a trustee to sell the factory and pay the creditors.",
+        "exampleCN": "法院指定了一名财产管理人，负责出售工厂并偿付债权人。",
+        "why": "When a debtor cannot pay, the law puts the property into neutral hands, and that hand is the trustee.",
+        "whyCN": "当债务人付不出钱时，法律把财产交给中立的一方，这一方就是受托人。"
+      },
+      {
+        "no": "03",
+        "title": "A member of a governing board",
+        "titleCN": "理事；董事",
+        "definition": "a member of a board that governs a school, museum, charity, or pension fund",
+        "definitionCN": "管理学校、博物馆、慈善机构或养老基金的理事会成员",
+        "example": "She served as a trustee of the museum for twelve years.",
+        "exampleCN": "她担任博物馆理事十二年。",
+        "why": "A board holds an institution in trust for the public, so each of its members is called a trustee.",
+        "whyCN": "理事会为公众托管一个机构，因此每位成员都被称作受托人。"
+      },
+      {
+        "no": "04",
+        "title": "One trusted with a duty",
+        "titleCN": "受重托者",
+        "definition": "a person trusted with responsibility for something valuable",
+        "definitionCN": "被信赖并托付贵重事物之责任的人",
+        "example": "The club made him a trustee of its small savings fund.",
+        "exampleCN": "俱乐部让他担任小额储备金的受托管理者。",
+        "why": "The ending -ee names the receiving side of trust, not only of property, so any trusted duty can carry the name.",
+        "whyCN": "-ee 词尾指接受信任的一方，并不限于财产，因此任何受重托的职责都能沿用这个名称。"
+      },
+      {
+        "no": "05",
+        "title": "The holder of legal title for a beneficiary",
+        "titleCN": "名义持有人（为受益人持有法定所有权）",
+        "definition": "the person in whom legal title to property is vested while another person enjoys the benefit",
+        "definitionCN": "财产法定所有权归于其名下、而由另一人享有利益的人",
+        "example": "Legal title sits with the trustee, while the beneficiary takes the income.",
+        "exampleCN": "法定所有权归于受托人，受益人则取得收益。",
+        "why": "Trust law splits ownership: the trustee keeps the legal title while the beneficiary keeps the use.",
+        "whyCN": "信托法把所有权拆开：受托人保留法定名义，受益人保留使用与收益。"
+      },
+      {
+        "no": "06",
+        "title": "A corporate trustee",
+        "titleCN": "法人受托机构",
+        "definition": "a trust company or bank that performs trustee duties for clients",
+        "definitionCN": "为客户履行受托职责的信托公司或银行",
+        "example": "A corporate trustee administers the fund when no individual is named.",
+        "exampleCN": "没有指定个人时，由法人受托机构管理该基金。",
+        "why": "The role can be filled by an institution, and the name follows the function rather than the body.",
+        "whyCN": "这个角色可以由机构担任，名称随职能走，而不随担任者是人还是公司走。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Trustee joins trust, a Germanic word for confidence, with -ee, the French ending for the person who receives an action.",
+        "cn": "trustee 由表示「信赖」的 trust（源自日耳曼语）加上 -ee（法语中表示动作承受者的词尾）构成。"
+      },
+      "items": [
+        {
+          "era": "PROTO-GERMANIC",
+          "en": "*traust- means help, confidence, and support.",
+          "cn": "重构形式 *traust- 意为援助、信心与支持。"
+        },
+        {
+          "era": "OLD NORSE",
+          "en": "Traust carries the sense of confidence and protection into English.",
+          "cn": "traust 把信赖与保护的意味带进英语。"
+        },
+        {
+          "era": "OLD FRENCH",
+          "en": "The ending -é, from Latin -atus, names the person who receives the action.",
+          "cn": "词尾 -é 源自拉丁语 -atus，指动作的承受者。"
+        },
+        {
+          "era": "MIDDLE ENGLISH",
+          "en": "Trust names both confidence and the property handed over in confidence.",
+          "cn": "中古英语 trust 既指信赖，也指因信赖而交付的财产。"
+        },
+        {
+          "era": "ENGLISH, 15TH C.",
+          "en": "Trustee appears as a person in whom confidence is placed.",
+          "cn": "十五世纪 trustee 出现，指受到信赖的人。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "Modern English adds the legal holder of property and the corporate trustee.",
+          "cn": "现代英语加入持有财产的法定受托人与法人受托机构。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "Trustee sits in the trust family and neighbours the officials who manage property for others.",
+        "cn": "trustee 属于 trust 词族，并与代他人管理财产的各种职务相邻。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "trust",
+              "ipa": "/trʌst/",
+              "tag": "same root",
+              "definition": "confidence, or property held for another",
+              "definitionCN": "信任；信托财产（trustee 的基础词）"
+            },
+            {
+              "word": "trusteeship",
+              "ipa": "/ˈtrʌstiːʃɪp/",
+              "tag": "derived form",
+              "definition": "the office or role of a trustee",
+              "definitionCN": "受托人的职位或身份"
+            },
+            {
+              "word": "entrust",
+              "ipa": "/ɪnˈtrʌst/",
+              "tag": "same root",
+              "definition": "to give something into the care of another",
+              "definitionCN": "委托；把事物交给他人照管"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "administrator",
+              "ipa": "/ˌædɪˈmɪstrətə/",
+              "tag": "legal term",
+              "definition": "a person appointed to manage the affairs of a company or an estate",
+              "definitionCN": "管理人；遗产管理人"
+            },
+            {
+              "word": "custodian",
+              "ipa": "/kʌˈstəʊdiən/",
+              "tag": "near meaning",
+              "definition": "a person who has care of property or valuables",
+              "definitionCN": "保管人；代管人"
+            },
+            {
+              "word": "executor",
+              "ipa": "/ɪɡˈzekjətə/",
+              "tag": "legal term",
+              "definition": "a person who carries out the terms of a will",
+              "definitionCN": "遗嘱执行人"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Trustee is built from trust plus the receiver ending -ee, so the word itself points to the person who is trusted.",
+        "cn": "trustee 由 trust 加表示承受者的词尾 -ee 构成，词形本身就在指被信任的那个人。"
+      },
+      "normal": [
+        {
+          "en": "Trust plus -ee: the ending points to the person who receives the trust.",
+          "cn": "trust 加 -ee：这个词尾指向接受信任的人。"
+        },
+        {
+          "en": "A trustee is the mirror of a trustor: one receives the property, the other hands it over.",
+          "cn": "受托人正好与信托设立人相对：一方接收财产，另一方交付财产。"
+        },
+        {
+          "en": "In bankruptcy, the trustee is the official who gathers the assets and pays the creditors.",
+          "cn": "在破产案件中，受托人是归集资产、偿付债权人的官员。"
+        },
+        {
+          "en": "Board of trustees keeps the plural because a board has many members.",
+          "cn": "「board of trustees」用复数，因为理事会由多位成员组成。"
+        },
+        {
+          "en": "Compare employee and trustee: both are -ee words naming the receiving side.",
+          "cn": "对比 employee 与 trustee：两者都是 -ee 词，指接受的一方。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "Picture two hands on one key: the owner keeps the right, the trustee keeps the key.",
+          "cn": "想象两双手共握一把钥匙：主人保留权利，受托人保管钥匙。"
+        },
+        {
+          "en": "See a locked shop, a court officer holding the key and paying the queue of creditors.",
+          "cn": "想象一家上锁的店铺，法院官员拿着钥匙，依次偿付排队的债权人。"
+        },
+        {
+          "en": "Think of a row of chairs at a museum table, each name plate reading trustee.",
+          "cn": "想象博物馆长桌旁的一排椅子，每张名牌上都写着受托人。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "The trustee sold the shares and distributed the money to the beneficiaries.",
+        "cn": "受托人卖掉了股票，把钱分给了受益人。"
+      },
+      {
+        "en": "She was appointed trustee of the charity in the spring.",
+        "cn": "她在春天被任命为这家慈善机构的受托人。"
+      },
+      {
+        "en": "Trustees must act only in the interest of the people they serve.",
+        "cn": "受托人只能为他们所服务的人的利益行事。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「托事替」——受托人替人托事、替人管事；这只是谐音联想，与词源无关。",
+      "word": "trustee"
+    },
+    "root": "trust（信赖；信托，一般认为源自古诺斯语 traust，并受古法语影响）+ -ee（被……的人，源自拉丁语 -atus）→ trustee，核心义「被托付的人」。",
+    "sensesIntro": {
+      "en": "Trustee begins with the person who holds property for another, then widens to bankruptcy managers, board members, trusted bearers of duty, legal title holders, and corporate trust companies.",
+      "cn": "trustee 从「代他人持有财产的人」出发，扩展到破产财产管理人、理事、受重托者、法定名义持有人与法人受托机构。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: two hands on one key that belongs to someone else.",
+        "cn": "核心意象：两双手共握一把属于别人的钥匙。"
+      },
+      "chain": [
+        "CONFIDENCE",
+        "ENTRUST",
+        "HOLD PROPERTY",
+        "MANAGE FOR ANOTHER",
+        "OFFICIAL CUSTODY",
+        "CORPORATE TRUST"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "Holding property for a beneficiary is the core legal sense.",
+          "cn": "为受益人持有财产是核心的法律义项。"
+        },
+        {
+          "senses": "02",
+          "en": "Court-appointed management of a bankrupt estate is the insolvency sense.",
+          "cn": "法院指定管理破产财产，是破产语境中的义项。"
+        },
+        {
+          "senses": "03",
+          "en": "Board membership borrows the name for institutional custody.",
+          "cn": "理事身份借用这个名称，指对机构的托管。"
+        },
+        {
+          "senses": "04 · 06",
+          "en": "Trusted duty and corporate trustees extend the role beyond private persons.",
+          "cn": "受重托的职责与法人受托机构，把这一角色扩展到个人之外。"
+        },
+        {
+          "senses": "01 · 05",
+          "en": "Title and benefit are split between the trustee and the beneficiary.",
+          "cn": "法定名义与受益权在受托人与受益人之间分开。"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Trustee is not built from a Latin prefix: it is trust, a Germanic word for confidence, carrying the French receiver ending -ee.",
+        "cn": "trustee 不是由拉丁语前缀构成：它是表示信赖的日耳曼语词 trust，加上法语中表示承受者的词尾 -ee。"
+      },
+      "latinIntro": {
+        "en": "The -ee ending descends from Latin -atus, the past-participle ending that Old French reduced to -é.",
+        "cn": "-ee 词尾可追溯到拉丁语 -atus，即过去分词词尾，古法语把它简化为 -é。"
+      },
+      "items": [
+        {
+          "word": "trust",
+          "structure": "English noun and verb",
+          "meaning": "confidence; property held for another",
+          "meaningCN": "信任；信托财产",
+          "example": "Trust is the base word behind trustee.",
+          "exampleCN": "trust 是 trustee 背后的基础词。"
+        },
+        {
+          "word": "-ee",
+          "structure": "English suffix",
+          "meaning": "the person who receives an action",
+          "meaningCN": "动作的承受者",
+          "example": "The suffix -ee forms trustee, employee, and nominee.",
+          "exampleCN": "词尾 -ee 构成 trustee、employee 与 nominee。"
+        },
+        {
+          "word": "trustee",
+          "structure": "English noun",
+          "meaning": "one who holds property for another",
+          "meaningCN": "受托人",
+          "example": "Trustee adds the receiver ending to trust.",
+          "exampleCN": "trustee 在 trust 后面加上承受者词尾。"
+        },
+        {
+          "word": "trusteeship",
+          "structure": "English noun",
+          "meaning": "the office or role of a trustee",
+          "meaningCN": "受托人职位",
+          "example": "Trusteeship names the office rather than the person.",
+          "exampleCN": "trusteeship 指职位，而不是指人。"
+        },
+        {
+          "word": "entrust",
+          "structure": "English verb",
+          "meaning": "to place something in the care of another",
+          "meaningCN": "委托；托付",
+          "example": "To entrust a fund is to hand it over in confidence.",
+          "exampleCN": "entrust a fund 就是把资金怀着信任交出去。"
+        },
+        {
+          "word": "trustor",
+          "structure": "English noun",
+          "meaning": "the person who creates a trust",
+          "meaningCN": "信托设立人",
+          "example": "The trustor signs the deed that creates the trust.",
+          "exampleCN": "信托设立人签署设立信托的契据。"
+        },
+        {
+          "word": "trust fund",
+          "structure": "English compound",
+          "meaning": "money held in trust for a purpose",
+          "meaningCN": "信托基金",
+          "example": "The trust fund pays for the schooling of the children.",
+          "exampleCN": "信托基金支付孩子们的学费。"
+        },
+        {
+          "word": "beneficiary",
+          "structure": "English noun",
+          "meaning": "the person who benefits from a trust",
+          "meaningCN": "受益人",
+          "example": "The beneficiary receives the income, not the title.",
+          "exampleCN": "受益人取得收益，而不是法定名义。"
+        },
+        {
+          "word": "corporate trustee",
+          "structure": "English compound",
+          "meaning": "a company that acts as a trustee",
+          "meaningCN": "法人受托机构",
+          "example": "A corporate trustee must keep separate records.",
+          "exampleCN": "法人受托机构必须保持独立的账目。"
+        },
+        {
+          "word": "breach of trust",
+          "structure": "English phrase",
+          "meaning": "a violation of a duty owed as a trustee",
+          "meaningCN": "违反信托义务",
+          "example": "Selling the land without permission is a breach of trust.",
+          "exampleCN": "未经许可出售土地构成违反信托义务。"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "-atus",
+          "structure": "Latin suffix",
+          "meaning": "past-participle ending, hence one acted upon",
+          "meaningCN": "过去分词词尾，引申为动作的承受者"
+        }
+      ]
+    }
+  },
+  {
+    "word": "insolvency",
+    "ipa_uk": "/ˌɪnˈsɒlvənsi/",
+    "ipa_us": "/ˌɪnˈsɑːlvənsi/",
+    "definition_zh": "无力偿债；资不抵债；破产",
+    "definition_en": "the state of being unable to pay debts as they fall due",
+    "core_image": "一只倒空的钱袋，账单还压在桌上",
+    "scene": "公司账面资产不少，却拿不出现金还债，只能申请无力偿债程序。The company had assets on paper but no cash, so it filed for insolvency.",
+    "sceneCN": "这里 insolvency 是「无力偿债」（第 1 个义项：无法按期清偿债务的状态）；句意：公司账面上有资产，却没有现金，于是申请无力偿债。",
+    "pos": [
+      {
+        "tag": "n.",
+        "zh": "无力偿债；资不抵债；破产"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "file for insolvency",
+        "zh": "申请破产；申请无力偿债"
+      },
+      {
+        "phrase": "insolvency proceedings",
+        "zh": "破产程序"
+      },
+      {
+        "phrase": "corporate insolvency",
+        "zh": "公司无力偿债"
+      },
+      {
+        "phrase": "insolvency law",
+        "zh": "破产法"
+      },
+      {
+        "phrase": "insolvency practitioner",
+        "zh": "破产执业人；破产管理人"
+      },
+      {
+        "phrase": "declaration of insolvency",
+        "zh": "无力偿债宣告"
+      }
+    ],
+    "forms": [
+      {
+        "label": "复数",
+        "form": "insolvencies"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "insolvent",
+        "pos": "adj.",
+        "zh": "无力偿债的：in-（否定）+ solvent（有偿付能力的）"
+      },
+      {
+        "word": "solvency",
+        "pos": "n.",
+        "zh": "偿付能力：solvent + -cy（表示状态的名词后缀）"
+      },
+      {
+        "word": "solvent",
+        "pos": "adj.",
+        "zh": "有偿付能力的：拉丁语 solvere（解开；清偿）的现在分词"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "Inability to pay debts as they fall due",
+        "titleCN": "无力偿债",
+        "definition": "the condition of a person or company that cannot pay its debts when they become due",
+        "definitionCN": "个人或公司到期无法清偿债务的状况",
+        "example": "The auditor warned that the firm was close to insolvency.",
+        "exampleCN": "审计师警告说这家公司已接近无力偿债。",
+        "why": "The prefix in- says no to solvency, and solvency is the ability to pay, so the word names the lack of that ability.",
+        "whyCN": "前缀 in- 否定了 solvency，而偿付能力就是还债的能力，所以这个词指这种能力的缺失。"
+      },
+      {
+        "no": "02",
+        "title": "The legal status of a failed debtor",
+        "titleCN": "破产状态（法律地位）",
+        "definition": "the status of a debtor once a court or a statute treats the inability to pay as established",
+        "definitionCN": "法院或成文法认定债务人无法清偿后所具有的地位",
+        "example": "Once insolvency was declared, the creditors could no longer sue for payment.",
+        "exampleCN": "一旦宣告破产，债权人就不能再起诉要求付款。",
+        "why": "The plain fact becomes a legal status once a court or a statute declares it.",
+        "whyCN": "一旦法院或成文法作出认定，单纯的事实就变成一种法律地位。"
+      },
+      {
+        "no": "03",
+        "title": "Liabilities exceeding assets",
+        "titleCN": "资不抵债",
+        "definition": "a situation in which total liabilities exceed total assets",
+        "definitionCN": "负债总额超过资产总额的情形",
+        "example": "Balance-sheet insolvency can exist even while the company still pays its bills.",
+        "exampleCN": "即使公司仍在支付账单，资产负债表意义上的资不抵债也可能已经存在。",
+        "why": "Accountants measure the same idea by setting liabilities against assets.",
+        "whyCN": "会计人员把负债与资产对照，度量的是同一种状况。"
+      },
+      {
+        "no": "04",
+        "title": "Failure of a bank or an insurer",
+        "titleCN": "金融机构无力偿债",
+        "definition": "the failure of a bank or an insurer to meet its obligations, handled under special rules",
+        "definitionCN": "银行或保险公司无法履行义务、按特殊规则处理的情形",
+        "example": "Bank insolvency is handled by the regulator rather than by ordinary creditors.",
+        "exampleCN": "银行无力偿债由监管机构处理，而不是由普通债权人处理。",
+        "why": "A bank failure touches many depositors, so the word gains a regulatory sense with special rules.",
+        "whyCN": "银行倒闭会波及众多存款人，因此这个词在特殊规则下多出一层监管含义。"
+      },
+      {
+        "no": "05",
+        "title": "Exhaustion beyond money",
+        "titleCN": "引申义：全面枯竭",
+        "definition": "a figurative state of having no resources left to meet an obligation",
+        "definitionCN": "比喻意义上再无资源履行某项义务的状态",
+        "example": "The charity reached moral insolvency after the scandal.",
+        "exampleCN": "丑闻之后，这家慈善机构在道义上已无力承担。",
+        "why": "The image of a purse with nothing in it extends to any obligation that can no longer be met.",
+        "whyCN": "钱包里空无一物这一意象，扩展到任何再也无法履行的义务。"
+      },
+      {
+        "no": "06",
+        "title": "The law and practice of failed debtors",
+        "titleCN": "破产法领域",
+        "definition": "the area of law and practice concerned with debtors who cannot pay",
+        "definitionCN": "处理无法偿债的债务人的法律与实践领域",
+        "example": "She practises insolvency and restructuring for mid-sized manufacturers.",
+        "exampleCN": "她为中型制造商处理破产与重组事务。",
+        "why": "Practice names the field after its subject matter, so insolvency also means the work itself.",
+        "whyCN": "实务界用研究对象来称呼领域，因此 insolvency 也指这项工作本身。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Insolvency comes from Latin insolventia, the state of a debtor who cannot loosen, and therefore cannot pay, a debt.",
+        "cn": "insolvency 来自拉丁语 insolventia，指债务人解不开、因而付不清债务的状态。"
+      },
+      "items": [
+        {
+          "era": "LATIN",
+          "en": "Solvere means to loosen, and by extension to pay a debt.",
+          "cn": "拉丁语 solvere 意为解开，引申为清偿债务。"
+        },
+        {
+          "era": "LATIN",
+          "en": "The prefix in- negates the word, so insolvens means not able to loosen or pay.",
+          "cn": "前缀 in- 表否定，insolvens 即解不开、付不出。"
+        },
+        {
+          "era": "LATIN",
+          "en": "Insolventia names the condition of the debtor who cannot pay.",
+          "cn": "拉丁语 insolventia 指债务人无力清偿的状态。"
+        },
+        {
+          "era": "ENGLISH, 16TH C.",
+          "en": "Insolvent enters English as an adjective for a debtor who cannot pay.",
+          "cn": "十六世纪英语 insolvent 作形容词，指无力偿债的债务人。"
+        },
+        {
+          "era": "ENGLISH, 17TH C.",
+          "en": "Insolvency turns the adjective into the name of the state.",
+          "cn": "十七世纪英语 insolvency 把形容词转为状态名词。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "Statutes and regulators give insolvency its technical legal sense.",
+          "cn": "现代英语中，成文法与监管机构赋予 insolvency 专门的法律含义。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "Insolvency is the state word of the solvere family, close to its adjective, its opposite, and the legal procedures for debt.",
+        "cn": "insolvency 是 solvere 词族中的状态名词，与它的形容词、反义词以及处理债务的法律程序相邻。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "insolvent",
+              "ipa": "/ɪnˈsɒlvənt/",
+              "tag": "derived form",
+              "definition": "unable to pay debts",
+              "definitionCN": "无力偿债的（insolvency 的形容词）"
+            },
+            {
+              "word": "solvency",
+              "ipa": "/ˈsɒlvənsi/",
+              "tag": "opposite root",
+              "definition": "the ability to pay debts",
+              "definitionCN": "偿付能力（加前缀 in- 后意义相反）"
+            },
+            {
+              "word": "solve",
+              "ipa": "/sɒlv/",
+              "tag": "same root",
+              "definition": "to find an answer to a problem",
+              "definitionCN": "解答；解决（与 solvere 同源，但义为解开难题）"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "bankruptcy",
+              "ipa": "/ˈbæŋkrʌptsi/",
+              "tag": "near meaning",
+              "definition": "a legal procedure for a debtor who cannot pay",
+              "definitionCN": "破产（处理无力偿债者的法律程序）"
+            },
+            {
+              "word": "default",
+              "ipa": "/dɪˈfɔːlt/",
+              "tag": "near meaning",
+              "definition": "failure to pay a debt when it is due",
+              "definitionCN": "违约；未按期付款"
+            },
+            {
+              "word": "liquidation",
+              "ipa": "/ˌlɪkwɪˈdeɪʃən/",
+              "tag": "near meaning",
+              "definition": "the winding up of a company by selling its assets",
+              "definitionCN": "清算；清盘"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Insolvency is built from the negative prefix in- and solvency, the ability to pay, so the word is a simple denial of that ability.",
+        "cn": "insolvency 由否定前缀 in- 与表示偿付能力的 solvency 构成，因此这个词就是对那种能力的直接否定。"
+      },
+      "normal": [
+        {
+          "en": "The prefix in- simply says no to solvency, the ability to pay.",
+          "cn": "前缀 in- 直接否定了 solvency，也就是偿付能力。"
+        },
+        {
+          "en": "Latin solvere first meant to loosen, then to loosen a debt by paying it.",
+          "cn": "拉丁语 solvere 先指解开，再指把债务解开，也就是付清。"
+        },
+        {
+          "en": "Insolvency is the state; insolvent is the person or company in that state.",
+          "cn": "insolvency 是状态，insolvent 是处于该状态的人或公司。"
+        },
+        {
+          "en": "One letter n separates solvency from insolvency and flips the meaning.",
+          "cn": "一个字母 n 把 solvency 与 insolvency 分开，也把意思翻了过来。"
+        },
+        {
+          "en": "Insolvency law deals with debtors who can no longer pay their way.",
+          "cn": "「insolvency law」处理再也付不出钱的债务人。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "Picture a purse turned upside down with nothing falling out.",
+          "cn": "想象一只倒过来的钱袋，什么也倒不出来。"
+        },
+        {
+          "en": "See a stamp landing on a court file that marks the debtor as unable to pay.",
+          "cn": "想象一枚印章落在法院卷宗上，把债务人标记为无力偿债。"
+        },
+        {
+          "en": "Think of a balance sheet whose liability column is longer than the asset column.",
+          "cn": "想象资产负债表上负债一栏比资产一栏更长。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "The group filed for insolvency after two years of losses.",
+        "cn": "该集团在连续两年亏损后申请破产。"
+      },
+      {
+        "en": "Insolvency proceedings began when the bank refused further credit.",
+        "cn": "银行拒绝继续放贷后，破产程序启动了。"
+      },
+      {
+        "en": "Directors can be liable if they trade while the company is insolvent.",
+        "cn": "如果公司在无力偿债时仍继续经营，董事可能要承担责任。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「因欠」——因为欠债太多而还不上，就是无力偿债；这只是谐音联想，与词源无关。",
+      "word": "insolvency"
+    },
+    "root": "拉丁语 in-（不）+ solvere（解开；清偿）→ insolvens（付不出的）→ insolventia（无力清偿的状态）→ 英语 insolvency，核心义「解不开债务」。",
+    "sensesIntro": {
+      "en": "Insolvency starts as the plain inability to pay, becomes a legal status and a balance-sheet measure, then branches into bank failure, figurative exhaustion, and the law of failed debtors.",
+      "cn": "insolvency 从「付不出钱」这一朴素事实出发，成为法律地位与资产负债表上的度量，再分出银行倒闭、引申的枯竭与破产法领域。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: a purse turned upside down with nothing falling out.",
+        "cn": "核心意象：倒过来的钱袋，什么也倒不出来。"
+      },
+      "chain": [
+        "LOOSEN",
+        "PAY A DEBT",
+        "CANNOT PAY",
+        "DEBT DUE",
+        "LEGAL STATUS",
+        "EXHAUSTION"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "The plain inability to pay is the everyday sense.",
+          "cn": "单纯的付不出钱，是日常义项。"
+        },
+        {
+          "senses": "02",
+          "en": "A court or a statute turns the fact into a legal status.",
+          "cn": "法院或成文法把这一事实转为法律地位。"
+        },
+        {
+          "senses": "03",
+          "en": "The balance-sheet measure sets liabilities against assets.",
+          "cn": "资产负债表上的度量，是把负债与资产对照。"
+        },
+        {
+          "senses": "04",
+          "en": "Special rules for banks add the regulatory sense.",
+          "cn": "针对银行的特殊规则，多出一层监管含义。"
+        },
+        {
+          "senses": "05 · 06",
+          "en": "Figurative exhaustion and the field of practice extend the word beyond money.",
+          "cn": "引申的枯竭与实务领域，把这个词扩展到金钱之外。"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Insolvency is built from the Latin negative prefix in- and solvere, the verb that means to loosen and therefore to pay.",
+        "cn": "insolvency 由拉丁语否定前缀 in- 与 solvere 构成，后者意为解开，因而也指清偿。"
+      },
+      "latinIntro": {
+        "en": "Latin solvere loosens a knot and loosens a debt; insolvens is the debtor who can do neither.",
+        "cn": "拉丁语 solvere 既能解开绳结，也能解开债务；insolvens 就是两者都做不到的债务人。"
+      },
+      "items": [
+        {
+          "word": "in-",
+          "structure": "Latin prefix",
+          "meaning": "not",
+          "meaningCN": "不；非",
+          "example": "The prefix in- negates solvere in insolvency.",
+          "exampleCN": "前缀 in- 在 insolvency 中否定了 solvere。"
+        },
+        {
+          "word": "solvere",
+          "structure": "Latin verb",
+          "meaning": "to loosen; to pay",
+          "meaningCN": "解开；清偿",
+          "example": "Solvere gives both solve and insolvency.",
+          "exampleCN": "solvere 既给出 solve，也给出 insolvency。"
+        },
+        {
+          "word": "insolvens",
+          "structure": "Latin participle",
+          "meaning": "not paying, unable to pay",
+          "meaningCN": "无力清偿的",
+          "example": "Insolvens describes the debtor who cannot pay.",
+          "exampleCN": "insolvens 描述付不出钱的债务人。"
+        },
+        {
+          "word": "insolvent",
+          "structure": "English adjective",
+          "meaning": "unable to pay debts",
+          "meaningCN": "无力偿债的",
+          "example": "The company was insolvent by the end of the year.",
+          "exampleCN": "这家公司在年底已无力偿债。"
+        },
+        {
+          "word": "insolvency",
+          "structure": "English noun",
+          "meaning": "the state of being unable to pay",
+          "meaningCN": "无力偿债",
+          "example": "Insolvency is the state, not the procedure.",
+          "exampleCN": "insolvency 指状态，而不是程序。"
+        },
+        {
+          "word": "solvent",
+          "structure": "English adjective",
+          "meaning": "able to pay debts",
+          "meaningCN": "有偿付能力的",
+          "example": "A solvent company can meet its bills.",
+          "exampleCN": "有偿付能力的公司能付清账单。"
+        },
+        {
+          "word": "solvency",
+          "structure": "English noun",
+          "meaning": "the ability to pay debts",
+          "meaningCN": "偿付能力",
+          "example": "Solvency is what the prefix in- removes.",
+          "exampleCN": "前缀 in- 去掉的正是 solvency。"
+        },
+        {
+          "word": "solve",
+          "structure": "English verb",
+          "meaning": "to find an answer",
+          "meaningCN": "解答；解决",
+          "example": "Solve keeps the image of loosening a knot.",
+          "exampleCN": "solve 保留了「解开绳结」的意象。"
+        },
+        {
+          "word": "solution",
+          "structure": "English noun",
+          "meaning": "an answer to a problem",
+          "meaningCN": "解决办法",
+          "example": "A solution unties the difficulty.",
+          "exampleCN": "solution 把难题解开。"
+        },
+        {
+          "word": "dissolve",
+          "structure": "English verb",
+          "meaning": "to break up or bring to an end",
+          "meaningCN": "解散；溶解",
+          "example": "Dissolve shares the loosening image of solvere.",
+          "exampleCN": "dissolve 与 solvere 共享「解开」的意象。"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "solvere",
+          "structure": "Latin verb",
+          "meaning": "to loosen, to pay",
+          "meaningCN": "解开；清偿"
+        },
+        {
+          "word": "insolvens",
+          "structure": "Latin participle",
+          "meaning": "not paying",
+          "meaningCN": "无力清偿的"
+        },
+        {
+          "word": "insolventia",
+          "structure": "Latin noun",
+          "meaning": "the state of being unable to pay",
+          "meaningCN": "无力清偿的状态"
+        }
+      ]
+    }
+  },
+  {
+    "word": "invoice",
+    "ipa_uk": "/ɪnˈvɔɪs/",
+    "ipa_us": "/ɪnˈvɔɪs/",
+    "definition_zh": "发票；货物清单；开具发票",
+    "definition_en": "a document that lists goods or services supplied and states the money owed for them",
+    "core_image": "一张写清货品与价钱的单据，随货一起递到买方手上",
+    "scene": "货已送到，卖方把一张写清数量与价钱的单据交给买方，约定期末付款。The seller sent an invoice with the goods and asked for payment within thirty days.",
+    "sceneCN": "这里 invoice 是「发票」（第 1 个义项：列明货物或服务与应付金额的单据）；句意：卖方随货寄出发票，要求三十天内付款。",
+    "pos": [
+      {
+        "tag": "n.",
+        "zh": "发票；货物清单"
+      },
+      {
+        "tag": "v.",
+        "zh": "开具发票；寄送账单"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "issue an invoice",
+        "zh": "开具发票"
+      },
+      {
+        "phrase": "invoice number",
+        "zh": "发票号码"
+      },
+      {
+        "phrase": "sales invoice",
+        "zh": "销售发票"
+      },
+      {
+        "phrase": "invoice date",
+        "zh": "开票日期"
+      },
+      {
+        "phrase": "pay an invoice",
+        "zh": "支付发票款项"
+      },
+      {
+        "phrase": "invoice for the goods",
+        "zh": "就货物开票"
+      }
+    ],
+    "forms": [
+      {
+        "label": "复数",
+        "form": "invoices"
+      },
+      {
+        "label": "三单",
+        "form": "invoices"
+      },
+      {
+        "label": "过去式",
+        "form": "invoiced"
+      },
+      {
+        "label": "过去分词",
+        "form": "invoiced"
+      },
+      {
+        "label": "现在分词",
+        "form": "invoicing"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "invoicing",
+        "pos": "n.",
+        "zh": "开票；开票业务：invoice + -ing（动作或业务名词化）"
+      },
+      {
+        "word": "invoiced",
+        "pos": "adj.",
+        "zh": "已开票的：invoice + -ed（表示已完成的过去分词后缀）"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "A bill for goods or services supplied",
+        "titleCN": "发票；账单",
+        "definition": "a document that lists goods or services supplied and states the sum to be paid",
+        "definitionCN": "列明所供货物或服务并写明应付金额的单据",
+        "example": "The invoice shows ten boxes at forty pounds each.",
+        "exampleCN": "发票上列着十箱货物，每箱四十英镑。",
+        "why": "Old French envois meant things sent, and the paper that travels with sent goods became the bill.",
+        "whyCN": "古法语 envois 意为发送之物，随货同行的单据于是成了账单。"
+      },
+      {
+        "no": "02",
+        "title": "A record of a sale kept for tax",
+        "titleCN": "销售凭证（计税用）",
+        "definition": "a sales document used to record tax and to support a claim for payment",
+        "definitionCN": "用于记录税款并作为付款请求凭据的销售单据",
+        "example": "Keep every invoice for six years for the tax office.",
+        "exampleCN": "每张发票都要保存六年，以备税务部门查验。",
+        "why": "Because the paper proves that a sale took place, it also serves tax accounting.",
+        "whyCN": "这张纸证明交易确实发生，因此也服务于税务记账。"
+      },
+      {
+        "no": "03",
+        "title": "The amount named on the bill",
+        "titleCN": "发票金额；账款",
+        "definition": "the sum of money written on a bill, treated as a debt owed",
+        "definitionCN": "账单上写明的金额，被视为应付的欠款",
+        "example": "The invoice for the repairs came to two thousand pounds.",
+        "exampleCN": "维修费发票的金额达到两千英镑。",
+        "why": "Metonymy lets the paper stand for the debt that it records.",
+        "whyCN": "借代让这张纸代表它所记录的欠款。"
+      },
+      {
+        "no": "04",
+        "title": "To send a bill to a customer",
+        "titleCN": "开票；寄送账单",
+        "definition": "to send a bill to a customer for goods or services supplied",
+        "definitionCN": "就所供货物或服务向客户寄送账单",
+        "example": "We invoice clients at the end of each month.",
+        "exampleCN": "我们在每月末给客户开票。",
+        "why": "The noun became a verb, meaning to do what one does with an invoice.",
+        "whyCN": "名词转为动词，表示做与发票相关的事。"
+      },
+      {
+        "no": "05",
+        "title": "A list of goods for customs",
+        "titleCN": "货物清单（报关用）",
+        "definition": "a detailed list of goods shipped, used by customs or carriers",
+        "definitionCN": "随货列明货物细目的清单，供海关或承运人使用",
+        "example": "The customs invoice lists each item and its value.",
+        "exampleCN": "报关发票逐项列明货物及其价值。",
+        "why": "The word began as a list of things sent, so the shipping-list sense survives in trade.",
+        "whyCN": "这个词最初指发送之物的清单，因此货运清单义在贸易中保留下来。"
+      },
+      {
+        "no": "06",
+        "title": "A digital bill issued by a system",
+        "titleCN": "电子发票",
+        "definition": "a digital bill sent through a network and recorded in a system",
+        "definitionCN": "通过网络发送并记入系统的数字账单",
+        "example": "The platform issues an electronic invoice the moment the order is paid.",
+        "exampleCN": "订单一付款，平台就开具电子发票。",
+        "why": "The document moved online, and the old name moved with it.",
+        "whyCN": "单据搬到线上，旧名称也随之搬了过去。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Invoice comes from French envois, things sent, from en voie, on the way, and ultimately from Latin via, a road.",
+        "cn": "invoice 来自法语 envois（发送之物），出自 en voie（在途中），最终可溯至拉丁语 via（道路）。"
+      },
+      "items": [
+        {
+          "era": "LATIN",
+          "en": "Via means a way or a road.",
+          "cn": "拉丁语 via 意为道路、路途。"
+        },
+        {
+          "era": "OLD FRENCH",
+          "en": "En voie means on the way, and envoyer means to send.",
+          "cn": "古法语 en voie 意为在途中，envoyer 意为发送。"
+        },
+        {
+          "era": "OLD FRENCH",
+          "en": "Envois, literally things sent, names a shipment and the list that goes with it.",
+          "cn": "古法语 envois 字面为发送之物，指一批货物及随货清单。"
+        },
+        {
+          "era": "ENGLISH, 17TH C.",
+          "en": "Invoice enters English as a list of goods shipped.",
+          "cn": "十七世纪英语 invoice 指随货运送的货物清单。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "The list of goods becomes the bill for them, and tax rules fix its form.",
+          "cn": "现代英语中货物清单转为账单，税务规则又固定了它的格式。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "Electronic invoicing keeps the old name for a digital document.",
+          "cn": "现代英语中电子开票让这个旧名沿用为数字单据。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "Invoice looks like a prefixed word but is really a French noun for things sent, and it sits beside billing and payment words.",
+        "cn": "invoice 看起来像带前缀的词，实际是法语中表示发送之物的名词，并与开票、付款类词相邻。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "voice",
+              "ipa": "/vɔɪs/",
+              "tag": "spelling",
+              "definition": "the sound a person makes when speaking",
+              "definitionCN": "嗓音；说话声（只是拼写相近，词源不同）"
+            },
+            {
+              "word": "invoiced",
+              "ipa": "/ɪnˈvɔɪst/",
+              "tag": "derived form",
+              "definition": "billed; recorded on an invoice",
+              "definitionCN": "已开票的（invoice 的过去分词）"
+            },
+            {
+              "word": "envoi",
+              "ipa": "/ˈenvɔɪ/",
+              "tag": "same root",
+              "definition": "a sending, or a closing stanza of a poem",
+              "definitionCN": "发送；诗末的跋诗（与 invoice 同出 envois）"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "bill",
+              "ipa": "/bɪl/",
+              "tag": "near meaning",
+              "definition": "a statement of money owed for goods or services",
+              "definitionCN": "账单；应付货款清单"
+            },
+            {
+              "word": "receipt",
+              "ipa": "/rɪˈsiːt/",
+              "tag": "near meaning",
+              "definition": "a written proof that payment has been made",
+              "definitionCN": "收据（证明已经付款，与发票相对）"
+            },
+            {
+              "word": "statement",
+              "ipa": "/ˈsteɪtmənt/",
+              "tag": "near meaning",
+              "definition": "a summary of amounts due or paid over a period",
+              "definitionCN": "对账单；结算单"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Invoice is a paper that travels with goods: the French source means things sent, so the word carries movement inside it.",
+        "cn": "invoice 是一张随货同行的纸：法语来源意为发送之物，所以这个词本身就带着「运送」的动感。"
+      },
+      "normal": [
+        {
+          "en": "Invoice and envois share the idea of something sent.",
+          "cn": "invoice 与 envois 共享「被发送之物」这一意思。"
+        },
+        {
+          "en": "The invoice travels with the goods, which is why the word once meant the shipping list.",
+          "cn": "发票随货同行，所以这个词曾经指货运清单。"
+        },
+        {
+          "en": "Compare bill and invoice: a bill is everyday, an invoice is the commercial record.",
+          "cn": "对比 bill 与 invoice：bill 更日常，invoice 是商业记录。"
+        },
+        {
+          "en": "Invoicing is the process; an invoice is the paper or the file.",
+          "cn": "invoicing 是流程，invoice 是那张纸或那个文件。"
+        },
+        {
+          "en": "A tax invoice must carry a number, a date, and the amount of tax.",
+          "cn": "税务发票必须载明号码、日期与税额。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "Picture a sheet of paper riding on top of a crate as it leaves the warehouse.",
+          "cn": "想象一张纸贴在木箱顶上，随箱子离开仓库。"
+        },
+        {
+          "en": "See a clerk open a folder of numbered sheets so that every sale can be proved.",
+          "cn": "想象职员打开一册编了号的单据，让每笔销售都能被证明。"
+        },
+        {
+          "en": "Think of the total at the foot of the page turning into a debt that must be paid.",
+          "cn": "想象页面底部的合计变成一笔必须偿还的欠款。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "Please send the invoice to our accounts department.",
+        "cn": "请把发票寄给我们的会计部门。"
+      },
+      {
+        "en": "The invoice was paid by bank transfer on Friday.",
+        "cn": "这张发票已在周五通过银行转账付清。"
+      },
+      {
+        "en": "Suppliers invoice the store monthly for the goods delivered.",
+        "cn": "供应商每月就所供货物向这家商店开票。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「因货」——因为发了货才开的单子，就是发票；这只是谐音联想，与词源无关。",
+      "word": "invoice"
+    },
+    "root": "古法语 envois（发送之物，出自 en voie「在途中」，可溯至拉丁语 via「道路」）→ 英语 invoice，核心义「随货发送的清单，后转指账单」。",
+    "sensesIntro": {
+      "en": "Invoice begins as a list of goods sent, becomes the bill for those goods, then splits into tax record, amount owed, verb use, customs list, and digital bill.",
+      "cn": "invoice 最初指发送货物的清单，随后成为这些货物的账单，再分出税务凭证、应付金额、动词用法、报关清单与电子单据。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: a sheet of paper travelling on top of a crate.",
+        "cn": "核心意象：一张纸贴在木箱顶上，随货前行。"
+      },
+      "chain": [
+        "SEND",
+        "GOODS ON THE WAY",
+        "LIST OF GOODS",
+        "PRICE AND TOTAL",
+        "BILL TO PAY",
+        "TAX RECORD"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "The bill for supplied goods is the everyday commercial sense.",
+          "cn": "为所供货物开具的账单，是日常商业义项。"
+        },
+        {
+          "senses": "02",
+          "en": "Tax rules turn the same paper into an accounting record.",
+          "cn": "税务规则把同一张纸变成会计记录。"
+        },
+        {
+          "senses": "03",
+          "en": "The sum written on the paper stands for the debt it records.",
+          "cn": "纸上写明的金额，代表它所记录的欠款。"
+        },
+        {
+          "senses": "04 · 06",
+          "en": "The verb and the digital bill show the document in action and online.",
+          "cn": "动词义与电子发票，分别展示这张单据的动作与线上形态。"
+        },
+        {
+          "senses": "05",
+          "en": "Customs and carriers keep the original shipping-list sense.",
+          "cn": "海关与承运人保留了最初的货运清单义。"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Invoice has no negative prefix: the in- is the tail of French envois, the word for things sent, so the spelling can mislead.",
+        "cn": "invoice 并没有否定前缀：其中的 in- 是法语 envois（发送之物）的词尾残留，因此拼写容易误导。"
+      },
+      "latinIntro": {
+        "en": "The French phrase en voie, on the way, goes back to Latin via, a road, which is the oldest layer of the word.",
+        "cn": "法语短语 en voie（在途中）可回溯到拉丁语 via（道路），这是这个词最古老的一层。"
+      },
+      "items": [
+        {
+          "word": "via",
+          "structure": "Latin noun",
+          "meaning": "road, way",
+          "meaningCN": "道路；路途",
+          "example": "Latin via is the road behind envoy and invoice.",
+          "exampleCN": "拉丁语 via 是 envoy 与 invoice 背后的那条路。"
+        },
+        {
+          "word": "en voie",
+          "structure": "Old French phrase",
+          "meaning": "on the way",
+          "meaningCN": "在途中",
+          "example": "Goods en voie are still travelling.",
+          "exampleCN": "「en voie」的货物还在途中。"
+        },
+        {
+          "word": "envoyer",
+          "structure": "Old French verb",
+          "meaning": "to send",
+          "meaningCN": "发送",
+          "example": "Envoyer sends both the goods and the paper.",
+          "exampleCN": "envoyer 既发送货物，也发送单据。"
+        },
+        {
+          "word": "envois",
+          "structure": "Old French noun",
+          "meaning": "things sent",
+          "meaningCN": "发送之物",
+          "example": "Envois is the direct source of invoice.",
+          "exampleCN": "envois 是 invoice 的直接来源。"
+        },
+        {
+          "word": "invoice",
+          "structure": "English noun",
+          "meaning": "a bill for goods or services",
+          "meaningCN": "发票；账单",
+          "example": "Invoice keeps the image of goods sent.",
+          "exampleCN": "invoice 保留了货物被发送的意象。"
+        },
+        {
+          "word": "invoiced",
+          "structure": "English adjective",
+          "meaning": "billed, recorded on an invoice",
+          "meaningCN": "已开票的",
+          "example": "The invoiced amount must match the order.",
+          "exampleCN": "已开票的金额必须与订单一致。"
+        },
+        {
+          "word": "invoicing",
+          "structure": "English noun",
+          "meaning": "the act or business of issuing invoices",
+          "meaningCN": "开票；开票业务",
+          "example": "Electronic invoicing replaced the paper book.",
+          "exampleCN": "电子开票取代了纸质票据簿。"
+        },
+        {
+          "word": "voice",
+          "structure": "English noun",
+          "meaning": "sound made in speaking",
+          "meaningCN": "嗓音",
+          "example": "Voice is only a spelling neighbour of invoice.",
+          "exampleCN": "voice 只是 invoice 的拼写邻居。"
+        },
+        {
+          "word": "bill",
+          "structure": "English noun",
+          "meaning": "a statement of money owed",
+          "meaningCN": "账单",
+          "example": "A bill is the everyday word for an invoice.",
+          "exampleCN": "bill 是 invoice 的日常说法。"
+        },
+        {
+          "word": "receipt",
+          "structure": "English noun",
+          "meaning": "proof that payment has been made",
+          "meaningCN": "收据",
+          "example": "A receipt follows an invoice once it is paid.",
+          "exampleCN": "发票付清之后会有一张收据。"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "via",
+          "structure": "Latin noun",
+          "meaning": "road, way",
+          "meaningCN": "道路；路途"
+        }
+      ]
+    }
+  }
+]
