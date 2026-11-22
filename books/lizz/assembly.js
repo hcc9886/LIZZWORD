@@ -391,6 +391,13 @@
       if (levenshtein(userText, targetText) <= 2 && userText.indexOf(normalizeText(lemma)) >= 0) {
         return { result: "miss", errorType: "spelling", route: "spelling" };
       }
+      // 少掉的词里有介词 → 搭配问题；否则算语序
+      const targetWords = targetText.split(" ").filter(Boolean);
+      const userWords = userText.split(" ").filter(Boolean);
+      const missing = targetWords.filter((w) => userWords.indexOf(w) < 0);
+      if (missing.some((w) => PREP.indexOf(w) >= 0)) {
+        return { result: "miss", errorType: "collocation", route: "assembly" };
+      }
       return { result: "miss", errorType: "order", route: "assembly" };
     }
     let diffChunks = 0;
