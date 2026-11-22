@@ -1,0 +1,1873 @@
+[
+  {
+    "word": "hygiene",
+    "ipa_uk": "/ˈhaɪdʒiːn/",
+    "ipa_us": "/ˈhaɪdʒiːn/",
+    "definition_zh": "卫生；卫生学；清洁卫生",
+    "definition_en": "the practice of keeping the body and surroundings clean in order to prevent disease",
+    "core_image": "水龙头下搓洗的双手，肥皂泡不断落下",
+    "scene": "护士在病房门口提醒实习生先洗手。Before entering the ward, the nurse reminded the intern to practise good hygiene.",
+    "sceneCN": "这里 hygiene 是「卫生」（第 1 个义项：为防病而保持清洁的日常做法）；句意：进病房前，护士提醒实习生保持良好卫生。",
+    "pos": [
+      {
+        "tag": "n.",
+        "zh": "卫生；卫生学"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "personal hygiene",
+        "zh": "个人卫生"
+      },
+      {
+        "phrase": "good hygiene",
+        "zh": "良好卫生习惯"
+      },
+      {
+        "phrase": "food hygiene",
+        "zh": "食品卫生"
+      },
+      {
+        "phrase": "hand hygiene",
+        "zh": "手部卫生"
+      },
+      {
+        "phrase": "hygiene standards",
+        "zh": "卫生标准"
+      },
+      {
+        "phrase": "hygiene education",
+        "zh": "卫生教育"
+      }
+    ],
+    "forms": [
+      {
+        "label": "同形（不可数名词）",
+        "form": "hygiene"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "hygienic",
+        "pos": "adj.",
+        "zh": "hygiene 加形容词后缀 -ic 构成，义为「卫生的；清洁的」"
+      },
+      {
+        "word": "hygienically",
+        "pos": "adv.",
+        "zh": "hygienic 加 -ally 构成，义为「卫生地；清洁地」"
+      },
+      {
+        "word": "hygienist",
+        "pos": "n.",
+        "zh": "hygiene 加表示人的后缀 -ist 构成，义为「卫生师；牙科保健员」"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "Clean habits that protect health",
+        "titleCN": "个人卫生习惯",
+        "definition": "the daily practices, such as handwashing and bathing, that keep the body clean and help prevent disease",
+        "definitionCN": "洗手、洗澡等保持身体清洁、帮助预防疾病的日常做法",
+        "example": "Good hand hygiene is the simplest way to stop infections.",
+        "exampleCN": "良好的手部卫生是阻断感染最简单的方法。",
+        "why": "Greek hygiēs means healthy, and hygieinē technē was the art of health, so the noun first names the habits that serve health.",
+        "whyCN": "希腊语 hygiēs 意为健康的，hygieinē technē 指健康之术，因此这个词最初指为健康服务的习惯。"
+      },
+      {
+        "no": "02",
+        "title": "Cleanliness of a place",
+        "titleCN": "环境卫生状况",
+        "definition": "the condition of a place being clean and free from dirt or germs",
+        "definitionCN": "某个场所干净、没有污物或细菌的状态",
+        "example": "Inspectors checked the hygiene of every kitchen in the hotel.",
+        "exampleCN": "检查员检查了酒店每间厨房的卫生状况。",
+        "why": "Health depends on surroundings as much as on the body, so the same noun shifts from personal habits to the state of a place.",
+        "whyCN": "健康既取决于身体，也取决于周围环境，于是同一个词从个人习惯扩展到场所状态。"
+      },
+      {
+        "no": "03",
+        "title": "The science of preserving health",
+        "titleCN": "卫生学",
+        "definition": "the systematic study of the conditions and rules that preserve health",
+        "definitionCN": "研究维护健康的条件与规则的系统学科",
+        "example": "She took a course in hygiene during her nursing training.",
+        "exampleCN": "她在护理培训期间修了一门卫生学课程。",
+        "why": "The Greek phrase meant the art of health as a body of knowledge, and English kept that academic sense alongside the everyday one.",
+        "whyCN": "希腊语短语本就把健康之术当作一门知识，英语因此在使用义之外保留了这一学科义。"
+      },
+      {
+        "no": "04",
+        "title": "Organized public health measures",
+        "titleCN": "公共卫生措施",
+        "definition": "collective measures, such as clean water, waste control, and vaccination, that protect a whole community",
+        "definitionCN": "清洁供水、废物控制、接种疫苗等保护整个群体的集体措施",
+        "example": "Public hygiene campaigns cut cholera deaths in the city.",
+        "exampleCN": "公共卫生运动降低了这座城市的霍乱死亡人数。",
+        "why": "When the habits of many people are organized by authorities, personal hygiene becomes a public measure.",
+        "whyCN": "当许多人的习惯由当局统一组织时，个人卫生就变成公共措施。"
+      },
+      {
+        "no": "05",
+        "title": "Care of the mind",
+        "titleCN": "心理卫生",
+        "definition": "the practice of protecting emotional and mental well-being as if it were a form of cleanliness",
+        "definitionCN": "像保持清洁一样保护情绪与心理健康的做法",
+        "example": "Rest and honest talk are basic mental hygiene.",
+        "exampleCN": "休息与坦诚交流是基本的心理卫生。",
+        "why": "The metaphor of cleanliness extends from the body to the mind, giving a figurative but well-established sense.",
+        "whyCN": "「清洁」的比喻从身体延伸到心灵，形成这个比喻化但已固定的义项。"
+      },
+      {
+        "no": "06",
+        "title": "Safe handling of food",
+        "titleCN": "食品卫生",
+        "definition": "the handling, storage, and preparation of food in conditions that prevent contamination",
+        "definitionCN": "在防止污染的条件下处理、储存和制作食物",
+        "example": "Food hygiene rules require cooks to wash their hands often.",
+        "exampleCN": "食品卫生规则要求厨师经常洗手。",
+        "why": "Food is one of the routes by which dirt and germs reach the body, so hygiene specializes to the kitchen.",
+        "whyCN": "食物是污物与细菌进入身体的通道之一，因此 hygiene 专门用于厨房场景。"
+      },
+      {
+        "no": "07",
+        "title": "Protection in the workplace",
+        "titleCN": "职业卫生",
+        "definition": "the control of workplace hazards, such as dust, noise, and chemicals, that can harm workers",
+        "definitionCN": "对粉尘、噪声、化学品等可能伤害劳动者的工作场所危害进行控制",
+        "example": "Occupational hygiene reduced lung disease among miners.",
+        "exampleCN": "职业卫生减少了矿工中的肺病。",
+        "why": "The same protective logic applies to the places where adults spend their working hours.",
+        "whyCN": "同样的保护逻辑适用于成年人度过工作时间的场所。"
+      },
+      {
+        "no": "08",
+        "title": "Infection control in hospitals",
+        "titleCN": "医院卫生与感染控制",
+        "definition": "strict cleanliness procedures in medical settings that limit the spread of germs",
+        "definitionCN": "医疗机构中限制细菌传播的严格清洁程序",
+        "example": "Hospital hygiene includes sterilizing instruments and cleaning wards.",
+        "exampleCN": "医院卫生包括器械灭菌与病房清洁。",
+        "why": "Where patients are already weak, the ordinary rules of cleanliness become strict clinical protocol.",
+        "whyCN": "在病人本就虚弱的场所，普通的清洁规则会升级为严格的临床规程。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Hygiene reaches English through French from the Greek phrase hygieinē technē, the art of health, built on hygiēs, healthy.",
+        "cn": "hygiene 经法语进入英语，源头是希腊语 hygieinē technē（健康之术），其词干 hygiēs 意为健康的。"
+      },
+      "items": [
+        {
+          "era": "GREEK",
+          "en": "Hygieia, daughter of Asclepius, was worshipped as the goddess of health.",
+          "cn": "许癸厄亚是阿斯克勒庇俄斯之女，被奉为健康女神。"
+        },
+        {
+          "era": "GREEK",
+          "en": "The adjective hygiēs describes a healthy, sound body.",
+          "cn": "形容词 hygiēs 描述健康、健全的身体。"
+        },
+        {
+          "era": "GREEK",
+          "en": "Hygieinē technē names the art of preserving health.",
+          "cn": "hygieinē technē 指保持健康的技艺。"
+        },
+        {
+          "era": "LATIN",
+          "en": "Classical Latin used sanitas rather than a borrowed Greek noun for health.",
+          "cn": "古典拉丁语表达「健康」用 sanitas，而没有借用这个希腊名词。"
+        },
+        {
+          "era": "FRENCH",
+          "en": "French hygiène carries the medical term into the modern languages.",
+          "cn": "法语 hygiène 把这个医学术语带入现代诸语言。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "English hygiene now covers personal habits, public systems, and specialized fields.",
+          "cn": "现代英语的 hygiene 已涵盖个人习惯、公共系统与专门领域。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "Hygiene is the noun of health-minded cleanliness, close to its own adjective and to the wider vocabulary of sanitation and asepsis.",
+        "cn": "hygiene 是表示「为健康而清洁」的名词，与自己的形容词以及 sanitation、asepsis 等更广的词汇相邻。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "hygienic",
+              "ipa": "/haɪˈdʒiːnɪk/",
+              "tag": "derived adjective",
+              "definition": "clean and free from disease-causing germs",
+              "definitionCN": "卫生的；清洁的"
+            },
+            {
+              "word": "hygienically",
+              "ipa": "/haɪˈdʒiːnɪkli/",
+              "tag": "derived adverb",
+              "definition": "in a way that is clean and safe for health",
+              "definitionCN": "卫生地；清洁地"
+            },
+            {
+              "word": "hygienist",
+              "ipa": "/haɪˈdʒiːnɪst/",
+              "tag": "person noun",
+              "definition": "a trained specialist who practises hygiene, especially for teeth",
+              "definitionCN": "卫生师；牙科保健员"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "cleanliness",
+              "ipa": "/ˈkliːnlɪnəs/",
+              "tag": "near meaning",
+              "definition": "the state of being clean",
+              "definitionCN": "清洁；干净"
+            },
+            {
+              "word": "sanitation",
+              "ipa": "/ˌsænɪˈteɪʃən/",
+              "tag": "related field",
+              "definition": "public systems for removing waste and supplying clean water",
+              "definitionCN": "环境卫生；排污设施"
+            },
+            {
+              "word": "asepsis",
+              "ipa": "/eɪˈsepsɪs/",
+              "tag": "medical",
+              "definition": "the absence of harmful germs, especially in surgery",
+              "definitionCN": "无菌；防腐"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Hygiene is the daily work of health: clean hands, clean food, clean rooms.",
+        "cn": "hygiene 是每天都做的健康功课：干净的手、干净的食物、干净的房间。"
+      },
+      "normal": [
+        {
+          "en": "Personal hygiene begins with clean hands and a clean body.",
+          "cn": "个人卫生从干净的手和干净的身体开始。"
+        },
+        {
+          "en": "Food hygiene keeps kitchens and cooks free from germs.",
+          "cn": "食品卫生让厨房和厨师远离细菌。"
+        },
+        {
+          "en": "Hygiene standards tell staff how clean a place must be.",
+          "cn": "卫生标准告诉员工一个场所必须清洁到什么程度。"
+        },
+        {
+          "en": "The adjective hygienic describes anything clean and safe for health.",
+          "cn": "形容词 hygienic 描述任何清洁且对健康无害的事物。"
+        },
+        {
+          "en": "A hygienist is the trained person, while hygiene is the practice.",
+          "cn": "hygienist 指受过训练的人，而 hygiene 指做法本身。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "Picture two hands rubbing soap under a running tap.",
+          "cn": "想象双手在水龙头下搓着肥皂。"
+        },
+        {
+          "en": "Imagine a hospital floor that shines because it was just mopped.",
+          "cn": "想象医院地面刚拖过，亮得反光。"
+        },
+        {
+          "en": "Think of an old medical book that teaches people how to stay well.",
+          "cn": "想象一本教人保持健康的旧医书。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "Wash your hands often to maintain good hygiene.",
+        "cn": "经常洗手以保持良好卫生。"
+      },
+      {
+        "en": "The restaurant was closed because its hygiene was poor.",
+        "cn": "这家餐馆因卫生状况差而被关停。"
+      },
+      {
+        "en": "Better hygiene has cut infection rates in the ward.",
+        "cn": "更好的卫生条件降低了病房的感染率。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「嗨，净」——把身上洗得干干净净，才算卫生；这只是谐音联想，并非词源。",
+      "word": "hygiene"
+    },
+    "root": "希腊语 hygiēs（健康的）→ hygieinē technē（健康之术）→ 法语 hygiène → 英语 hygiene，核心义「为健康而保持清洁」。",
+    "sensesIntro": {
+      "en": "Hygiene begins as personal clean habits, widens to the cleanliness of places and organized public measures, then branches into the science of health and into specialized fields such as food, work, the mind, and hospital care.",
+      "cn": "hygiene 从个人清洁习惯起步，扩展到场所的清洁与有组织的公共措施，再分出卫生学以及食品、职业、心理、医院护理等专门领域。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: a pair of hands under running water, soap bubbles falling.",
+        "cn": "核心意象：水龙头下搓洗的双手，肥皂泡不断落下。"
+      },
+      "chain": [
+        "HEALTH",
+        "CLEANLINESS",
+        "CLEAN HABIT",
+        "PREVENTION",
+        "PUBLIC HEALTH",
+        "HYGIENE SYSTEM"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "Personal habits form the first and most literal branch.",
+          "cn": "个人习惯是最早、最字面的分支。"
+        },
+        {
+          "senses": "02",
+          "en": "The cleanliness of a place is the state branch.",
+          "cn": "场所的清洁是状态分支。"
+        },
+        {
+          "senses": "03",
+          "en": "The science of health is the academic branch.",
+          "cn": "卫生学是学术分支。"
+        },
+        {
+          "senses": "04 · 08",
+          "en": "Organized measures and hospital protocol turn hygiene into public practice.",
+          "cn": "有组织的措施与医院规程把卫生变成公共实践。"
+        },
+        {
+          "senses": "05 · 06 · 07",
+          "en": "Mind, food, and work are specialized fields that inherit the same protective logic.",
+          "cn": "心理、食品与职业是继承同一保护逻辑的专门领域。"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Hygiene is a Greek medical noun that reached English through French, with hygienic and hygienist built on the same stem.",
+        "cn": "hygiene 是经法语进入英语的希腊医学名词，hygienic 与 hygienist 都建在同一词干上。"
+      },
+      "latinIntro": {
+        "en": "Greek hygiēs means healthy, and hygieinē technē means the art of health; Latin expressed the same idea with sanitas.",
+        "cn": "希腊语 hygiēs 意为健康的，hygieinē technē 意为健康之术；拉丁语表达同一概念更常用 sanitas。"
+      },
+      "items": [
+        {
+          "word": "hygiēs",
+          "structure": "Greek adjective",
+          "meaning": "healthy, sound",
+          "meaningCN": "健康的；健全的",
+          "example": "Hygieinē technē takes its first element from hygiēs.",
+          "exampleCN": "hygieinē technē 的第一部分来自 hygiēs。"
+        },
+        {
+          "word": "hygieinē",
+          "structure": "Greek adjective, feminine",
+          "meaning": "of health, health-giving",
+          "meaningCN": "健康的；有益健康的",
+          "example": "Hygieinē technē was the art of health.",
+          "exampleCN": "hygieinē technē 就是健康之术。"
+        },
+        {
+          "word": "technē",
+          "structure": "Greek noun",
+          "meaning": "art, skill",
+          "meaningCN": "技艺；技能",
+          "example": "Technē supplies the second half of the Greek phrase.",
+          "exampleCN": "technē 提供这个希腊短语的后半部分。"
+        },
+        {
+          "word": "Hygieia",
+          "structure": "Greek proper noun",
+          "meaning": "goddess of health",
+          "meaningCN": "健康女神",
+          "example": "Hygieia was honoured as the goddess of health.",
+          "exampleCN": "许癸厄亚被尊为健康女神。"
+        },
+        {
+          "word": "hygiène",
+          "structure": "French noun",
+          "meaning": "hygiene",
+          "meaningCN": "卫生；卫生学",
+          "example": "French hygiène carried the Greek term into modern languages.",
+          "exampleCN": "法语 hygiène 把这个希腊术语带入现代语言。"
+        },
+        {
+          "word": "hygiene",
+          "structure": "English noun",
+          "meaning": "cleanliness practised for health",
+          "meaningCN": "卫生",
+          "example": "English hygiene keeps the Greek sense of health.",
+          "exampleCN": "英语 hygiene 保留了希腊语中「健康」的含义。"
+        },
+        {
+          "word": "hygienic",
+          "structure": "English adjective",
+          "meaning": "clean and health-safe",
+          "meaningCN": "卫生的",
+          "example": "The suffix -ic turns hygiene into hygienic.",
+          "exampleCN": "后缀 -ic 把 hygiene 变成 hygienic。"
+        },
+        {
+          "word": "-ic",
+          "structure": "English suffix",
+          "meaning": "relating to",
+          "meaningCN": "与……有关的形容词后缀",
+          "example": "The suffix -ic forms adjectives such as hygienic.",
+          "exampleCN": "后缀 -ic 构成 hygienic 这类形容词。"
+        },
+        {
+          "word": "-ist",
+          "structure": "English suffix",
+          "meaning": "person who practises",
+          "meaningCN": "从事……的人",
+          "example": "The suffix -ist forms the noun hygienist.",
+          "exampleCN": "后缀 -ist 构成名词 hygienist。"
+        },
+        {
+          "word": "hygienist",
+          "structure": "English noun",
+          "meaning": "a hygiene specialist",
+          "meaningCN": "卫生师；牙科保健员",
+          "example": "A dental hygienist cleans teeth professionally.",
+          "exampleCN": "牙科保健员专业地清洁牙齿。"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "hygiēs",
+          "structure": "Greek adjective",
+          "meaning": "healthy",
+          "meaningCN": "健康的"
+        },
+        {
+          "word": "hygieinē",
+          "structure": "Greek adjective",
+          "meaning": "of health",
+          "meaningCN": "健康的；健康之术的"
+        },
+        {
+          "word": "Hygieia",
+          "structure": "Greek proper noun",
+          "meaning": "goddess of health",
+          "meaningCN": "健康女神"
+        }
+      ]
+    }
+  },
+  {
+    "word": "sanitation",
+    "ipa_uk": "/ˌsænɪˈteɪʃən/",
+    "ipa_us": "/ˌsænɪˈteɪʃən/",
+    "definition_zh": "环境卫生；排污设施；卫生设备",
+    "definition_en": "the systems and services that remove sewage and waste and keep public places clean and healthy",
+    "core_image": "地下管道把污水送走，地面保持干净",
+    "scene": "市政工人正在疏通下水管道，避免污水漫上街道。City workers were clearing the sewers to protect sanitation in the district.",
+    "sceneCN": "这里 sanitation 是「环境卫生」（第 2 个义项：一个地方干净、供水安全、废物不堆积的状态）；句意：市政工人疏通下水管道，以维护这一区域的环境卫生。",
+    "pos": [
+      {
+        "tag": "n.",
+        "zh": "环境卫生；排污设施"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "basic sanitation",
+        "zh": "基本卫生设施"
+      },
+      {
+        "phrase": "sanitation system",
+        "zh": "排污系统"
+      },
+      {
+        "phrase": "sanitation worker",
+        "zh": "环卫工人"
+      },
+      {
+        "phrase": "poor sanitation",
+        "zh": "卫生条件差"
+      },
+      {
+        "phrase": "water and sanitation",
+        "zh": "供水与排污"
+      },
+      {
+        "phrase": "sanitation facilities",
+        "zh": "卫生设施"
+      }
+    ],
+    "forms": [
+      {
+        "label": "同形（不可数名词）",
+        "form": "sanitation"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "sanitary",
+        "pos": "adj.",
+        "zh": "sanitation 的词干 sanit- 加形容词后缀 -ary 构成，义为「卫生的；清洁的」"
+      },
+      {
+        "word": "sanitize",
+        "pos": "v.",
+        "zh": "同一词干加动词后缀 -ize 构成，义为「消毒；使清洁卫生」"
+      },
+      {
+        "word": "sanitarian",
+        "pos": "n.",
+        "zh": "同一词干加表示人的后缀 -ian 构成，义为「公共卫生工作者；卫生学家」"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "Sewage and waste systems",
+        "titleCN": "排污设施",
+        "definition": "the physical systems, such as sewers, drains, and treatment plants, that carry sewage and waste away",
+        "definitionCN": "下水道、排水管、处理厂等把污水和废物运走的实体系统",
+        "example": "The village finally gained proper sanitation last year.",
+        "exampleCN": "这个村子去年终于有了像样的排污设施。",
+        "why": "Latin sanitas means health, and the suffix -ation names the process of making something healthy, so the noun first names the works that remove what threatens health.",
+        "whyCN": "拉丁语 sanitas 意为健康，后缀 -ation 表示使……的过程，因此这个词最初指清除健康威胁的工程设施。"
+      },
+      {
+        "no": "02",
+        "title": "Clean and healthy conditions",
+        "titleCN": "环境卫生状况",
+        "definition": "the state of a place being clean, with safe water and no accumulating waste",
+        "definitionCN": "一个地方干净、供水安全、废物不堆积的状态",
+        "example": "Poor sanitation in the camp allowed disease to spread.",
+        "exampleCN": "营地里环境卫生差，疾病得以传播。",
+        "why": "Once the works exist, the word also names the condition they produce.",
+        "whyCN": "设施建成之后，这个词也用来指这些设施带来的清洁状态。"
+      },
+      {
+        "no": "03",
+        "title": "Public sanitation services",
+        "titleCN": "公共环卫服务",
+        "definition": "the collection, treatment, and inspection services that a community provides to keep public spaces healthy",
+        "definitionCN": "社区为保持公共空间卫生而提供的收集、处理与检查服务",
+        "example": "The council spends a large share of its budget on sanitation.",
+        "exampleCN": "市政会把很大一部分预算花在公共环卫服务上。",
+        "why": "Health protection becomes an organized public duty, not only a private habit.",
+        "whyCN": "健康保护由此成为有组织的公共职责，而不只是私人习惯。"
+      },
+      {
+        "no": "04",
+        "title": "Safe food handling",
+        "titleCN": "食品卫生",
+        "definition": "the cleaning and safe handling of food and equipment in kitchens and food businesses",
+        "definitionCN": "厨房与食品企业中食物和设备的清洁与安全处理",
+        "example": "Food sanitation inspectors closed the dirty restaurant.",
+        "exampleCN": "食品卫生检查员关停了那家不洁餐馆。",
+        "why": "The same health logic narrows to the kitchen, where contamination reaches people directly.",
+        "whyCN": "同样的健康逻辑收窄到厨房，因为污染在那里直接进入人体。"
+      },
+      {
+        "no": "05",
+        "title": "Sanitary science",
+        "titleCN": "卫生学；环境卫生学",
+        "definition": "the study of the conditions and methods that protect public health",
+        "definitionCN": "研究保护公共卫生的条件与方法的学科",
+        "example": "He studied sanitation and water engineering at university.",
+        "exampleCN": "他在大学学习卫生学与水利工程。",
+        "why": "The practical works grew into a body of knowledge with its own name.",
+        "whyCN": "实务工程逐渐长成一门有自己名称的知识体系。"
+      },
+      {
+        "no": "06",
+        "title": "Ecological sanitation",
+        "titleCN": "生态卫生设施",
+        "definition": "waste systems that recover nutrients and water instead of polluting the environment",
+        "definitionCN": "回收养分和水、不污染环境的废物处理系统",
+        "example": "Ecological sanitation turns human waste into safe fertilizer.",
+        "exampleCN": "生态卫生设施把人的排泄物变成安全的肥料。",
+        "why": "New environmental priorities add a branch that treats waste as a resource.",
+        "whyCN": "新的环境诉求增加了一个把废物视为资源的分支。"
+      },
+      {
+        "no": "07",
+        "title": "Emergency sanitation",
+        "titleCN": "应急环卫设施",
+        "definition": "temporary toilets and waste systems provided after disasters or in refugee camps",
+        "definitionCN": "灾害之后或难民营中提供的临时厕所与废物处理系统",
+        "example": "Aid groups rushed emergency sanitation to the flood zone.",
+        "exampleCN": "救援组织把应急环卫设施紧急送往洪灾区。",
+        "why": "When normal systems collapse, the same need produces a temporary, crisis version.",
+        "whyCN": "当常规系统瘫痪时，同样的需求催生出临时的危机版本。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Sanitation is built on Latin sanitas, health, from sanus, healthy, with the English action suffix -ation added in the nineteenth century.",
+        "cn": "sanitation 建于拉丁语 sanitas（健康）之上，其词根 sanus 意为健康的，十九世纪再加英语后缀 -ation 构成。"
+      },
+      "items": [
+        {
+          "era": "LATIN",
+          "en": "Sanus means healthy or sound.",
+          "cn": "sanus 意为健康的、健全的。"
+        },
+        {
+          "era": "LATIN",
+          "en": "Sanitas names health or soundness of body.",
+          "cn": "sanitas 指健康或身体的健全。"
+        },
+        {
+          "era": "LATIN",
+          "en": "Sanare means to heal or to make healthy.",
+          "cn": "sanare 意为治愈或使健康。"
+        },
+        {
+          "era": "ENGLISH, 19TH C.",
+          "en": "English coins sanitation from the stem sanit- plus -ation for the work of making places sanitary.",
+          "cn": "英语用 sanit- 词干加 -ation 造出 sanitation，指使场所卫生的工作。"
+        },
+        {
+          "era": "ENGLISH, 19TH C.",
+          "en": "Reformers linked dirty water to cholera and demanded public sanitation.",
+          "cn": "改革者把污水与霍乱联系起来，要求建设公共环卫设施。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "Modern sanitation spans sewers, water treatment, and waste recycling.",
+          "cn": "现代 sanitation 涵盖下水道、水处理与废物回收。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "Sanitation is the Latin health word applied to public works, close to sanitary and sanitize and to the vocabulary of sewage and hygiene.",
+        "cn": "sanitation 是拉丁语「健康」一词用于公共工程的产物，与 sanitary、sanitize 以及 sewage、hygiene 等词汇相邻。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "sanitary",
+              "ipa": "/ˈsænɪtəri/",
+              "tag": "derived adjective",
+              "definition": "clean and designed to protect health",
+              "definitionCN": "卫生的；清洁的"
+            },
+            {
+              "word": "sanitize",
+              "ipa": "/ˈsænɪtaɪz/",
+              "tag": "derived verb",
+              "definition": "to clean something and kill germs on it",
+              "definitionCN": "消毒；使清洁卫生"
+            },
+            {
+              "word": "sanitarian",
+              "ipa": "/ˌsænɪˈteəriən/",
+              "tag": "person noun",
+              "definition": "a specialist in public health and sanitation",
+              "definitionCN": "公共卫生工作者；卫生学家"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "hygiene",
+              "ipa": "/ˈhaɪdʒiːn/",
+              "tag": "near meaning",
+              "definition": "the practices that keep people clean and healthy",
+              "definitionCN": "卫生；卫生习惯"
+            },
+            {
+              "word": "sewage",
+              "ipa": "/ˈsuːɪdʒ/",
+              "tag": "related system",
+              "definition": "waste water and refuse carried away by sewers",
+              "definitionCN": "污水；下水道污物"
+            },
+            {
+              "word": "sewerage",
+              "ipa": "/ˈsuːərɪdʒ/",
+              "tag": "related system",
+              "definition": "the network of sewers and drains",
+              "definitionCN": "排污系统；下水道网络"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Sanitation is health made public: pipes, drains, and services that keep a whole place clean.",
+        "cn": "sanitation 是被公共化的健康：管道、排水与服务共同维持一个地方的清洁。"
+      },
+      "normal": [
+        {
+          "en": "Basic sanitation means safe toilets and clean water for everyone.",
+          "cn": "基本卫生设施意味着人人有安全厕所和清洁饮水。"
+        },
+        {
+          "en": "A sanitation system carries waste away from homes.",
+          "cn": "排污系统把废物从住宅运走。"
+        },
+        {
+          "en": "Sanitation workers collect rubbish and maintain drains.",
+          "cn": "环卫工人收集垃圾并维护排水设施。"
+        },
+        {
+          "en": "The adjective sanitary describes clean, health-safe conditions.",
+          "cn": "形容词 sanitary 描述清洁、对健康无害的条件。"
+        },
+        {
+          "en": "Compare hygiene: hygiene is the habit, sanitation is the system.",
+          "cn": "对比 hygiene：hygiene 是习惯，sanitation 是设施与系统。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "Picture a sewer pipe running under a clean street.",
+          "cn": "想象一条下水管道在干净街道的地下延伸。"
+        },
+        {
+          "en": "Imagine a tap of clear water beside a row of covered drains.",
+          "cn": "想象一排加盖的排水沟旁接着一管清水。"
+        },
+        {
+          "en": "Think of a textbook on pipes and pumps that protects a city.",
+          "cn": "想象一本讲管道与泵、守护整座城市的教科书。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "The town built a modern sanitation network after the flood.",
+        "cn": "洪水过后，小镇建起了现代化的排污网络。"
+      },
+      {
+        "en": "Poor sanitation in the camp caused an outbreak of dysentery.",
+        "cn": "营地里环境卫生差，引发了痢疾暴发。"
+      },
+      {
+        "en": "Clean water and sanitation are basic public health needs.",
+        "cn": "清洁饮水与环境卫生是基本的公共卫生需求。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「三泥太深」——污水淤泥积得太深，就必须修设施治理；这只是谐音联想，并非词源。",
+      "word": "sanitation"
+    },
+    "root": "拉丁语 sanus（健康的）→ sanitas（健康）→ 词干 sanit- 加 -ation → 英语 sanitation，核心义「让环境保持健康」。",
+    "sensesIntro": {
+      "en": "Sanitation starts from the physical works that remove waste, then names the clean condition they produce and the public services that run them, before branching into food, science, ecology, and emergency relief.",
+      "cn": "sanitation 从运走废物的实体设施出发，继而指设施带来的清洁状态与运营这些设施的公共服务，再分出食品、学科、生态与应急救援等分支。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: an underground pipe carrying waste away while the street stays clean.",
+        "cn": "核心意象：地下管道把污水送走，地面保持干净。"
+      },
+      "chain": [
+        "HEALTH",
+        "CLEAN WATER",
+        "DRAINAGE",
+        "WASTE REMOVAL",
+        "PUBLIC HEALTH",
+        "SANITATION SYSTEM"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "The physical waste systems are the founding branch.",
+          "cn": "实体排污设施是最初的分支。"
+        },
+        {
+          "senses": "02",
+          "en": "The clean condition of a place is the state branch.",
+          "cn": "场所的清洁状态是状态分支。"
+        },
+        {
+          "senses": "03 · 04",
+          "en": "Public services and food inspection turn the system into daily administration.",
+          "cn": "公共服务与食品检查把系统变成日常管理。"
+        },
+        {
+          "senses": "05",
+          "en": "Sanitary science is the academic branch.",
+          "cn": "卫生学是学术分支。"
+        },
+        {
+          "senses": "06 · 07",
+          "en": "Ecology and emergencies push the system toward resources and crisis response.",
+          "cn": "生态与紧急状况把系统推向资源回收与危机应对。"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Sanitation joins the Latin health stem sanit- to the action suffix -ation, and the same stem yields sanitary, sanitize, and sanitarian.",
+        "cn": "sanitation 由拉丁语健康词干 sanit- 与表示行为的名词后缀 -ation 组合而成，同一词干还产出 sanitary、sanitize 与 sanitarian。"
+      },
+      "latinIntro": {
+        "en": "Latin sanus means healthy, sanitas means health, and sanare means to heal; all three feed the English sanit- family.",
+        "cn": "拉丁语 sanus 意为健康的，sanitas 意为健康，sanare 意为治愈；三者共同滋养英语的 sanit- 词族。"
+      },
+      "items": [
+        {
+          "word": "sanus",
+          "structure": "Latin adjective",
+          "meaning": "healthy, sound",
+          "meaningCN": "健康的；健全的",
+          "example": "Sanus is the adjective behind the whole family.",
+          "exampleCN": "sanus 是整个词族背后的形容词。"
+        },
+        {
+          "word": "sanitas",
+          "structure": "Latin noun",
+          "meaning": "health",
+          "meaningCN": "健康",
+          "example": "Sanitas gives English the stem sanit-.",
+          "exampleCN": "sanitas 为英语提供 sanit- 词干。"
+        },
+        {
+          "word": "sanare",
+          "structure": "Latin verb",
+          "meaning": "to heal, to make healthy",
+          "meaningCN": "治愈；使健康",
+          "example": "Sanare adds the idea of restoring health.",
+          "exampleCN": "sanare 增添了恢复健康的意思。"
+        },
+        {
+          "word": "sanit-",
+          "structure": "Latin stem",
+          "meaning": "health",
+          "meaningCN": "健康（词干）",
+          "example": "The stem sanit- appears in sanitary and sanitation.",
+          "exampleCN": "词干 sanit- 出现在 sanitary 与 sanitation 中。"
+        },
+        {
+          "word": "-ation",
+          "structure": "English suffix",
+          "meaning": "action or process",
+          "meaningCN": "行为；过程",
+          "example": "The suffix -ation turns the stem into a noun of action.",
+          "exampleCN": "后缀 -ation 把词干变成表示行为的名词。"
+        },
+        {
+          "word": "sanitation",
+          "structure": "English noun",
+          "meaning": "public waste and cleanliness systems",
+          "meaningCN": "环境卫生；排污设施",
+          "example": "Sanitation names the organized work of keeping places healthy.",
+          "exampleCN": "sanitation 指使场所保持卫生的有组织工作。"
+        },
+        {
+          "word": "-ary",
+          "structure": "English suffix",
+          "meaning": "relating to",
+          "meaningCN": "与……有关的形容词后缀",
+          "example": "The suffix -ary forms the adjective sanitary.",
+          "exampleCN": "后缀 -ary 构成形容词 sanitary。"
+        },
+        {
+          "word": "sanitary",
+          "structure": "English adjective",
+          "meaning": "clean and health-protecting",
+          "meaningCN": "卫生的；清洁的",
+          "example": "Sanitary conditions prevent disease.",
+          "exampleCN": "卫生的条件能预防疾病。"
+        },
+        {
+          "word": "sanitize",
+          "structure": "English verb",
+          "meaning": "to disinfect",
+          "meaningCN": "消毒；使清洁",
+          "example": "Staff sanitize the tables after every meal.",
+          "exampleCN": "员工每餐后给桌子消毒。"
+        },
+        {
+          "word": "insanitary",
+          "structure": "English adjective",
+          "meaning": "unhealthy, dirty",
+          "meaningCN": "不卫生的",
+          "example": "The prefix in- reverses sanitary into insanitary.",
+          "exampleCN": "前缀 in- 把 sanitary 反义为 insanitary。"
+        },
+        {
+          "word": "sanitarian",
+          "structure": "English noun",
+          "meaning": "a public health specialist",
+          "meaningCN": "公共卫生工作者",
+          "example": "A sanitarian inspects water and waste systems.",
+          "exampleCN": "卫生工作者检查供水与废物系统。"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "sanus",
+          "structure": "Latin adjective",
+          "meaning": "healthy",
+          "meaningCN": "健康的"
+        },
+        {
+          "word": "sanitas",
+          "structure": "Latin noun",
+          "meaning": "health",
+          "meaningCN": "健康"
+        },
+        {
+          "word": "sanare",
+          "structure": "Latin verb",
+          "meaning": "to heal",
+          "meaningCN": "治愈；使健康"
+        }
+      ]
+    }
+  },
+  {
+    "word": "pandemic",
+    "ipa_uk": "/pænˈdemɪk/",
+    "ipa_us": "/pænˈdemɪk/",
+    "definition_zh": "大流行病；全球流行的；大范围流行的",
+    "definition_en": "a disease outbreak that spreads across countries or continents, or describing such a worldwide spread",
+    "core_image": "世界地图上的红色标记连成一片",
+    "scene": "新闻主播在演播室里播报全球疫情的最新数字。The news anchor reported the latest figures on the pandemic.",
+    "sceneCN": "这里 pandemic 是「大流行病」（第 1 个义项：在多个国家或大洲传播、感染大量人口的传染病）；句意：新闻主播播报这场大流行病的最新数字。",
+    "pos": [
+      {
+        "tag": "n.",
+        "zh": "大流行病"
+      },
+      {
+        "tag": "adj.",
+        "zh": "全球流行的；大范围流行的"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "global pandemic",
+        "zh": "全球大流行"
+      },
+      {
+        "phrase": "pandemic outbreak",
+        "zh": "大流行暴发"
+      },
+      {
+        "phrase": "pandemic preparedness",
+        "zh": "大流行应对准备"
+      },
+      {
+        "phrase": "flu pandemic",
+        "zh": "流感大流行"
+      },
+      {
+        "phrase": "pandemic restrictions",
+        "zh": "大流行期间的管制措施"
+      },
+      {
+        "phrase": "declare a pandemic",
+        "zh": "宣布大流行"
+      }
+    ],
+    "forms": [
+      {
+        "label": "复数",
+        "form": "pandemics"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "pre-pandemic",
+        "pos": "adj.",
+        "zh": "前缀 pre-（之前）加 pandemic 构成，义为「大流行之前的」"
+      },
+      {
+        "word": "post-pandemic",
+        "pos": "adj.",
+        "zh": "前缀 post-（之后）加 pandemic 构成，义为「大流行之后的」"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "A disease spreading across the world",
+        "titleCN": "大流行病",
+        "definition": "an infectious disease that spreads through many countries or continents and infects a large share of the population",
+        "definitionCN": "在多个国家或大洲传播、感染大量人口的传染病",
+        "example": "The influenza pandemic of 1918 reached almost every country.",
+        "exampleCN": "1918 年流感大流行几乎波及每个国家。",
+        "why": "Greek pan means all and dēmos means the people, so a pandemic is literally a disease of all the people.",
+        "whyCN": "希腊语 pan 意为全部，dēmos 意为民众，因此 pandemic 字面上就是「全体民众的疾病」。"
+      },
+      {
+        "no": "02",
+        "title": "A spreading wave of something harmful",
+        "titleCN": "泛滥；盛行（比喻）",
+        "definition": "a harmful phenomenon that spreads widely across places, groups, or media",
+        "definitionCN": "在各地、各群体或媒体中广泛蔓延的有害现象",
+        "example": "Officials fought a pandemic of false rumours online.",
+        "exampleCN": "官员们努力遏制网络上虚假谣言的泛滥。",
+        "why": "The all-people reach of the Greek word invites figurative use for anything that spreads like an infection.",
+        "whyCN": "希腊语词义中「波及所有人」的跨度，使这个词可比喻任何像感染一样蔓延的事物。"
+      },
+      {
+        "no": "03",
+        "title": "The formal global alert",
+        "titleCN": "全球大流行（官方定性）",
+        "definition": "the official status declared when a disease spreads worldwide and meets agreed public health criteria",
+        "definitionCN": "当疾病全球传播并达到既定公共卫生标准时宣布的官方状态",
+        "example": "The agency declared a pandemic after the virus reached five continents.",
+        "exampleCN": "病毒波及五个大洲后，该机构宣布全球大流行。",
+        "why": "Public health institutions turned the descriptive word into a formal label with legal and practical consequences.",
+        "whyCN": "公共卫生机构把这个描述性词变成带有法律与实际后果的正式标签。"
+      },
+      {
+        "no": "04",
+        "title": "Worldwide in scope",
+        "titleCN": "全球流行的（疾病）",
+        "definition": "describing a disease that is epidemic over a whole country or the world",
+        "definitionCN": "描述在全国或全世界流行的疾病",
+        "example": "A pandemic virus can overwhelm hospitals on every continent.",
+        "exampleCN": "一种全球流行的病毒可能让各大洲的医院不堪重负。",
+        "why": "The adjective keeps the same all-people scope and simply moves from the event to the disease itself.",
+        "whyCN": "形容词保留同样的「波及所有人」范围，只是从事件转指疾病本身。"
+      },
+      {
+        "no": "05",
+        "title": "Present everywhere",
+        "titleCN": "普遍存在的；泛滥的",
+        "definition": "existing everywhere in a group or period, especially something undesirable",
+        "definitionCN": "在一个群体或时期中无处不在，尤指不受欢迎的事物",
+        "example": "Pandemic loneliness followed the years of isolation.",
+        "exampleCN": "多年隔离之后，孤独感普遍存在。",
+        "why": "If a disease can touch everyone, any mood or trend can be called pandemic in the same exaggerated way.",
+        "whyCN": "既然疾病能触及所有人，任何情绪或潮流都能以同样夸张的方式被称为 pandemic。"
+      },
+      {
+        "no": "06",
+        "title": "Of or for a pandemic",
+        "titleCN": "大流行病的；为大流行设置的",
+        "definition": "relating to a pandemic or to the planning and conditions it requires",
+        "definitionCN": "与大流行病相关，或与其所需的规划与条件相关",
+        "example": "Pandemic preparedness is now part of national health policy.",
+        "exampleCN": "大流行应对准备现在是国家卫生政策的一部分。",
+        "why": "Institutions need a word for the whole apparatus of planning, rules, and supplies that a pandemic demands.",
+        "whyCN": "机构需要一个词来指大流行所要求的整套规划、规则与物资。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Pandemic comes from Greek pandēmos, of all the people, built from pan, all, and dēmos, the people; French pandémie carried it into English.",
+        "cn": "pandemic 来自希腊语 pandēmos（全体民众的），由 pan（全部）与 dēmos（民众）构成；法语 pandémie 把它带入英语。"
+      },
+      "items": [
+        {
+          "era": "GREEK",
+          "en": "Pan is the prefix meaning all or every.",
+          "cn": "pan 是表示「全部、每一个」的前缀。"
+        },
+        {
+          "era": "GREEK",
+          "en": "Dēmos means the people, the same root as democracy.",
+          "cn": "dēmos 意为民众，与 democracy 同根。"
+        },
+        {
+          "era": "GREEK",
+          "en": "Pandēmos describes something affecting all the people.",
+          "cn": "pandēmos 描述影响全体民众的事物。"
+        },
+        {
+          "era": "FRENCH",
+          "en": "French pandémie names a disease present everywhere.",
+          "cn": "法语 pandémie 指无处不在的疾病。"
+        },
+        {
+          "era": "ENGLISH, 17TH C.",
+          "en": "English first uses the adjective pandemic for a universal disease.",
+          "cn": "英语最初把形容词 pandemic 用于全球性疾病。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "The noun pandemic and the formal global alert sense belong to modern public health.",
+          "cn": "名词 pandemic 以及「官方全球警报」义都属于现代公共卫生。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "Pandemic shares the dēmos root with epidemic and endemic, and sits near outbreak, plague, and contagion in the vocabulary of disease spread.",
+        "cn": "pandemic 与 epidemic、endemic 共享 dēmos 词根，并与 outbreak、plague、contagion 同处疾病传播的词场。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "epidemic",
+              "ipa": "/ɪˈpɪdemɪk/",
+              "tag": "same root",
+              "definition": "a disease spreading quickly within one region",
+              "definitionCN": "在一个地区内迅速传播的流行病"
+            },
+            {
+              "word": "endemic",
+              "ipa": "/ɪnˈdemɪk/",
+              "tag": "same root",
+              "definition": "a disease regularly present in a particular region",
+              "definitionCN": "在某一地区长期存在的流行病"
+            },
+            {
+              "word": "demotic",
+              "ipa": "/dɪˈmɒtɪk/",
+              "tag": "same root",
+              "definition": "of ordinary people or their language",
+              "definitionCN": "民众的；通俗的"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "outbreak",
+              "ipa": "/ˈaʊtbreɪk/",
+              "tag": "near meaning",
+              "definition": "the sudden start of a disease in a place",
+              "definitionCN": "疾病在某地突然暴发"
+            },
+            {
+              "word": "plague",
+              "ipa": "/pleɪɡ/",
+              "tag": "near meaning",
+              "definition": "a deadly disease that spreads rapidly",
+              "definitionCN": "迅速传播的致命瘟疫"
+            },
+            {
+              "word": "contagion",
+              "ipa": "/kənˈteɪdʒən/",
+              "tag": "related concept",
+              "definition": "the spread of disease from person to person",
+              "definitionCN": "传染；传染病"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Pandemic joins all to the people: a disease that belongs to everyone on the map.",
+        "cn": "pandemic 把「全部」与「民众」连在一起：一种属于地图上所有人的疾病。"
+      },
+      "normal": [
+        {
+          "en": "A global pandemic crosses borders and reaches many continents.",
+          "cn": "全球大流行跨越国界，波及许多大洲。"
+        },
+        {
+          "en": "Pandemic preparedness means stockpiling supplies before a crisis.",
+          "cn": "大流行应对准备意味着在危机前储备物资。"
+        },
+        {
+          "en": "The word pairs pan, all, with dēmos, the people.",
+          "cn": "这个词把表示「全部」的 pan 与表示「民众」的 dēmos 配在一起。"
+        },
+        {
+          "en": "Epidemic stays in one region; pandemic goes worldwide.",
+          "cn": "epidemic 停留在一个地区，pandemic 则走向全球。"
+        },
+        {
+          "en": "A pandemic of misinformation spreads as fast as any virus.",
+          "cn": "虚假信息的泛滥传播得和任何病毒一样快。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "Picture red dots on a world map joining into one continuous patch.",
+          "cn": "想象世界地图上的红点连成一片。"
+        },
+        {
+          "en": "Imagine a rumour multiplying like germs in every chat window.",
+          "cn": "想象谣言像细菌一样在每个聊天窗口里复制。"
+        },
+        {
+          "en": "Think of a microphone announcing one word that changes every airport.",
+          "cn": "想象一只麦克风宣布一个词，所有机场随之改变。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "The pandemic forced schools and offices to close for months.",
+        "cn": "这场大流行病迫使学校和办公室关闭数月。"
+      },
+      {
+        "en": "Scientists warned that a new pandemic could emerge at any time.",
+        "cn": "科学家警告说，新的大流行随时可能出现。"
+      },
+      {
+        "en": "Pandemic planning now includes vaccine stockpiles and border rules.",
+        "cn": "大流行规划现在包括疫苗储备与边境规则。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「喷得猛」——病毒喷得猛、传得远，正是大流行；这只是谐音联想，与词源无关。",
+      "word": "pandemic"
+    },
+    "root": "希腊语 pan-（全部）+ dēmos（民众）→ pandēmos（全体民众的）→ 法语 pandémie → 英语 pandemic，核心义「波及所有人的疾病」。",
+    "sensesIntro": {
+      "en": "Pandemic names a worldwide outbreak, then a figurative wave of anything harmful, then the official global alert; as an adjective it describes worldwide disease, universal prevalence, and the planning that a pandemic demands.",
+      "cn": "pandemic 先指全球暴发的疾病，再指任何有害事物的泛滥，最后指官方的全球警报；作形容词时描述全球性疾病、普遍存在以及大流行所需的规划。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: red marks on a world map joining into one continuous patch.",
+        "cn": "核心意象：世界地图上的红色标记连成一片。"
+      },
+      "chain": [
+        "ALL PEOPLE",
+        "DISEASE",
+        "CROSS-BORDER SPREAD",
+        "OUTBREAK",
+        "GLOBAL ALERT",
+        "PANDEMIC"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "The worldwide disease outbreak is the founding sense.",
+          "cn": "全球疾病暴发是最初的义项。"
+        },
+        {
+          "senses": "02",
+          "en": "The figurative wave of harm is the extended noun sense.",
+          "cn": "有害事物的比喻性泛滥是延伸的名词义。"
+        },
+        {
+          "senses": "03",
+          "en": "The official alert is the institutional sense.",
+          "cn": "官方警报是制度化的义项。"
+        },
+        {
+          "senses": "04 · 05",
+          "en": "The adjective covers both worldwide disease and universal prevalence.",
+          "cn": "形容词兼指全球性疾病与普遍存在。"
+        },
+        {
+          "senses": "06",
+          "en": "The planning sense names the apparatus built around a pandemic.",
+          "cn": "规划义指围绕大流行建立的一整套装置。"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Pandemic is a Greek compound built from the prefix pan- and the noun dēmos, with the adjective suffix -ic closing the word.",
+        "cn": "pandemic 是由前缀 pan- 与名词 dēmos 构成的希腊语复合词，最后以形容词后缀 -ic 收尾。"
+      },
+      "latinIntro": {
+        "en": "Greek pan- means all, dēmos means the people, and pandēmos means of all the people; the -ic suffix makes the English adjective.",
+        "cn": "希腊语 pan- 意为全部，dēmos 意为民众，pandēmos 意为全体民众的；后缀 -ic 使它成为英语形容词。"
+      },
+      "items": [
+        {
+          "word": "pan-",
+          "structure": "Greek prefix",
+          "meaning": "all, every",
+          "meaningCN": "全部；每一个",
+          "example": "The prefix pan- gives the word its worldwide reach.",
+          "exampleCN": "前缀 pan- 赋予这个词全球性的跨度。"
+        },
+        {
+          "word": "dēmos",
+          "structure": "Greek noun",
+          "meaning": "the people",
+          "meaningCN": "民众",
+          "example": "Dēmos also appears in democracy and demography.",
+          "exampleCN": "dēmos 也出现在 democracy 与 demography 中。"
+        },
+        {
+          "word": "pandēmos",
+          "structure": "Greek adjective",
+          "meaning": "of all the people",
+          "meaningCN": "全体民众的",
+          "example": "Pandēmos is the direct Greek source.",
+          "exampleCN": "pandēmos 是直接的希腊语来源。"
+        },
+        {
+          "word": "-ic",
+          "structure": "English suffix",
+          "meaning": "relating to",
+          "meaningCN": "与……有关的形容词后缀",
+          "example": "The suffix -ic forms an adjective from the Greek stem.",
+          "exampleCN": "后缀 -ic 从希腊词干构成形容词。"
+        },
+        {
+          "word": "pandemic",
+          "structure": "English adjective",
+          "meaning": "worldwide in spread",
+          "meaningCN": "全球流行的",
+          "example": "Pandemic influenza can reach every continent.",
+          "exampleCN": "全球流行的流感可以波及每个大洲。"
+        },
+        {
+          "word": "pandemic",
+          "structure": "English noun",
+          "meaning": "a worldwide outbreak",
+          "meaningCN": "大流行病",
+          "example": "The pandemic changed daily life around the world.",
+          "exampleCN": "这场大流行病改变了世界各地的日常生活。"
+        },
+        {
+          "word": "epidemic",
+          "structure": "English noun and adjective",
+          "meaning": "a regional outbreak",
+          "meaningCN": "流行病",
+          "example": "Epi- means upon, so an epidemic spreads upon one region.",
+          "exampleCN": "epi- 意为「在上」，所以 epidemic 是在一个地区上蔓延。"
+        },
+        {
+          "word": "endemic",
+          "structure": "English adjective",
+          "meaning": "regularly present in a region",
+          "meaningCN": "地方性的；地方流行的",
+          "example": "En- means in, so an endemic disease stays within a region.",
+          "exampleCN": "en- 意为「在内」，所以 endemic 疾病留在一个地区内。"
+        },
+        {
+          "word": "demography",
+          "structure": "English noun",
+          "meaning": "the study of populations",
+          "meaningCN": "人口学",
+          "example": "Demography joins dēmos, the people, to graphein, to write.",
+          "exampleCN": "demography 把表示民众的 dēmos 与表示书写的 graphein 结合。"
+        },
+        {
+          "word": "democracy",
+          "structure": "English noun",
+          "meaning": "rule by the people",
+          "meaningCN": "民主；民主制度",
+          "example": "Democracy joins dēmos to kratos, power.",
+          "exampleCN": "democracy 把 dēmos 与表示权力的 kratos 结合。"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "pan",
+          "structure": "Greek prefix",
+          "meaning": "all",
+          "meaningCN": "全部"
+        },
+        {
+          "word": "dēmos",
+          "structure": "Greek noun",
+          "meaning": "the people",
+          "meaningCN": "民众"
+        },
+        {
+          "word": "pandēmos",
+          "structure": "Greek adjective",
+          "meaning": "of all the people",
+          "meaningCN": "全体民众的"
+        }
+      ]
+    }
+  },
+  {
+    "word": "quarantine",
+    "ipa_uk": "/ˈkwærəntiːn/",
+    "ipa_us": "/ˈkwærəntiːn/",
+    "definition_zh": "隔离检疫；隔离期；对……进行隔离检疫",
+    "definition_en": "a period of isolation imposed on people or animals to prevent the spread of disease, or to impose such isolation",
+    "core_image": "一道黄色警戒线把一扇门与走廊隔开",
+    "scene": "机场的检疫人员为入境旅客安排隔离房间。The health officers at the airport arranged a quarantine for the arriving passengers.",
+    "sceneCN": "这里 quarantine 是「隔离检疫」（第 1 个义项：为防病而把可能接触疾病的人或动物隔开的一段时间）；句意：机场卫生官员为入境旅客安排了隔离。",
+    "pos": [
+      {
+        "tag": "n.",
+        "zh": "隔离检疫；隔离期；检疫站"
+      },
+      {
+        "tag": "v.",
+        "zh": "对……进行隔离检疫；隔离"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "in quarantine",
+        "zh": "处于隔离中"
+      },
+      {
+        "phrase": "quarantine period",
+        "zh": "隔离期"
+      },
+      {
+        "phrase": "lift quarantine",
+        "zh": "解除隔离"
+      },
+      {
+        "phrase": "quarantine station",
+        "zh": "检疫站"
+      },
+      {
+        "phrase": "quarantine measures",
+        "zh": "隔离措施"
+      },
+      {
+        "phrase": "quarantine a patient",
+        "zh": "隔离病人"
+      }
+    ],
+    "forms": [
+      {
+        "label": "复数",
+        "form": "quarantines"
+      },
+      {
+        "label": "三单",
+        "form": "quarantines"
+      },
+      {
+        "label": "过去式",
+        "form": "quarantined"
+      },
+      {
+        "label": "过去分词",
+        "form": "quarantined"
+      },
+      {
+        "label": "现在分词",
+        "form": "quarantining"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "quarantinable",
+        "pos": "adj.",
+        "zh": "quarantine 加后缀 -able 构成，义为「可实施隔离检疫的」"
+      },
+      {
+        "word": "quarantined",
+        "pos": "adj.",
+        "zh": "quarantine 加 -ed 构成的形容词，义为「被隔离的」"
+      },
+      {
+        "word": "pre-quarantine",
+        "pos": "adj.",
+        "zh": "前缀 pre-（之前）加 quarantine 构成，义为「隔离之前的」"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "A period of enforced isolation",
+        "titleCN": "隔离检疫期",
+        "definition": "a period during which people or animals that may have been exposed to a disease are kept apart from others",
+        "definitionCN": "可能接触过疾病的人或动物被与他人隔开的一段时间",
+        "example": "Travellers from the affected area faced a two-week quarantine.",
+        "exampleCN": "来自疫区的旅客要接受两周隔离。",
+        "why": "Italian quarantina meant forty days, the waiting period imposed on ships suspected of plague, so the noun first names a fixed stretch of isolation.",
+        "whyCN": "意大利语 quarantina 意为四十天，即对疑有瘟疫的船只强制等待的期限，因此这个词最初指一段固定的隔离时间。"
+      },
+      {
+        "no": "02",
+        "title": "A place for isolation",
+        "titleCN": "检疫站；隔离区",
+        "definition": "a place where people, animals, or ships are kept in isolation for medical inspection",
+        "definitionCN": "把人、动物或船只隔开以接受医学检查的场所",
+        "example": "The old quarantine station still stands on the harbour.",
+        "exampleCN": "那座旧检疫站仍立在港口。",
+        "why": "A period needs a place, so the word shifts from the waiting time to the building or zone where the waiting happens.",
+        "whyCN": "一段时间需要一处场所，于是这个词从等待期转指等待发生的建筑或区域。"
+      },
+      {
+        "no": "03",
+        "title": "An official movement restriction",
+        "titleCN": "隔离管制",
+        "definition": "an official restriction that keeps people, animals, or goods from moving freely in order to stop disease",
+        "definitionCN": "为阻止疾病而正式限制人、动物或货物自由移动的规定",
+        "example": "The government imposed a quarantine on the whole district.",
+        "exampleCN": "政府对整个城区实施了隔离管制。",
+        "why": "Once isolation is written into law, it becomes a restriction with legal force rather than a medical suggestion.",
+        "whyCN": "当隔离被写入法律，它就从医学建议变成具有法律效力的限制。"
+      },
+      {
+        "no": "04",
+        "title": "To isolate a person or animal",
+        "titleCN": "对……隔离检疫",
+        "definition": "to keep a person or animal apart from others for a period, usually to prevent disease spread",
+        "definitionCN": "把人或动物与他人隔开一段时间，通常为防止疾病传播",
+        "example": "Vets quarantined the imported dogs for six months.",
+        "exampleCN": "兽医对进口的狗隔离检疫了六个月。",
+        "why": "The noun became a verb by naming the action that carries out the isolation.",
+        "whyCN": "名词通过指称执行隔离的动作而转化为动词。"
+      },
+      {
+        "no": "05",
+        "title": "To detain a ship or cargo",
+        "titleCN": "对船舶或货物进行检疫隔离",
+        "definition": "to order a ship, vehicle, or cargo to stay isolated until health checks are complete",
+        "definitionCN": "命令船舶、车辆或货物保持隔离，直到卫生检查完成",
+        "example": "The port quarantined the cargo ship until its crew was cleared.",
+        "exampleCN": "港口对那艘货船进行隔离，直到船员通过检查。",
+        "why": "The original law applied to ships, and the verb keeps that maritime memory.",
+        "whyCN": "最初的法律针对船只，动词因此保留了这段海事记忆。"
+      },
+      {
+        "no": "06",
+        "title": "The forty-day waiting period",
+        "titleCN": "四十天隔离期（历史义）",
+        "definition": "the original forty-day waiting period imposed on ships suspected of carrying plague",
+        "definitionCN": "最初对疑载瘟疫的船只强制实施的四十天等待期",
+        "example": "Venetian law required a quarantine of forty days.",
+        "exampleCN": "威尼斯法律要求四十天的隔离期。",
+        "why": "The word literally contains the number forty, quaranta, and historical practice fixed that length.",
+        "whyCN": "这个词字面上就含有「四十」quaranta，历史上的做法又把这个期限固定下来。"
+      },
+      {
+        "no": "07",
+        "title": "To isolate something harmful",
+        "titleCN": "隔离；封锁（比喻）",
+        "definition": "to keep something harmful apart from others, as if it carried infection",
+        "definitionCN": "把有害事物与他物隔开，仿佛它带有传染性",
+        "example": "The lab quarantined the corrupted files on a separate drive.",
+        "exampleCN": "实验室把损坏的文件隔离在单独的硬盘上。",
+        "why": "Digital security borrowed the medical image: harmful code is kept in isolation like a infected patient.",
+        "whyCN": "数字安全借用了医学意象：有害代码像受感染的病人一样被隔离起来。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Quarantine comes from Italian quarantina, a forty-day period, from quaranta, forty, from Latin quadraginta.",
+        "cn": "quarantine 来自意大利语 quarantina（四十天的期限），源于 quaranta（四十），再上溯拉丁语 quadraginta。"
+      },
+      "items": [
+        {
+          "era": "LATIN",
+          "en": "Quadraginta is the Latin word for forty.",
+          "cn": "quadraginta 是拉丁语的「四十」。"
+        },
+        {
+          "era": "ITALIAN",
+          "en": "Quaranta is the Italian word for forty.",
+          "cn": "quaranta 是意大利语的「四十」。"
+        },
+        {
+          "era": "ITALIAN",
+          "en": "Quarantina means a period of forty days.",
+          "cn": "quarantina 意为四十天的一段时间。"
+        },
+        {
+          "era": "ITALIAN, 14TH C.",
+          "en": "Ragusa and Venice imposed forty days of isolation on ships suspected of plague.",
+          "cn": "拉古萨与威尼斯对疑有瘟疫的船只强制隔离四十天。"
+        },
+        {
+          "era": "ENGLISH, 17TH C.",
+          "en": "English borrows quarantine for the same maritime waiting period.",
+          "cn": "英语借入 quarantine，指同样的海事等待期。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "The word now covers people, animals, hospitals, and even computer files.",
+          "cn": "这个词现在涵盖人、动物、医院，甚至计算机文件。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "Quarantine carries the number forty inside it and belongs with isolation, lockdown, and seclusion in the vocabulary of separation.",
+        "cn": "quarantine 内部含着数字「四十」，并与 isolation、lockdown、seclusion 同处「隔开」的词场。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "quarter",
+              "ipa": "/ˈkwɔːtə/",
+              "tag": "same numeral root",
+              "definition": "one of four equal parts",
+              "definitionCN": "四分之一；季度"
+            },
+            {
+              "word": "quart",
+              "ipa": "/kwɔːt/",
+              "tag": "same numeral root",
+              "definition": "a unit equal to a quarter of a gallon",
+              "definitionCN": "夸脱（四分之一加仑）"
+            },
+            {
+              "word": "quaternion",
+              "ipa": "/kwəˈtɜːniən/",
+              "tag": "same numeral root",
+              "definition": "a set or group of four",
+              "definitionCN": "四个一组"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "isolation",
+              "ipa": "/ˌaɪsəˈleɪʃən/",
+              "tag": "near meaning",
+              "definition": "the state of being kept apart from others",
+              "definitionCN": "隔离；孤立"
+            },
+            {
+              "word": "lockdown",
+              "ipa": "/ˈlɒkdaʊn/",
+              "tag": "near meaning",
+              "definition": "an emergency restriction on movement",
+              "definitionCN": "封锁；活动限制"
+            },
+            {
+              "word": "seclusion",
+              "ipa": "/sɪˈkluːʒən/",
+              "tag": "near meaning",
+              "definition": "the state of being private and away from other people",
+              "definitionCN": "与世隔绝；隐居"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Quarantine is a forty-day fence: the number is buried in the word, and the fence keeps infection on the other side.",
+        "cn": "quarantine 是一道「四十天」的围栏：数字埋在词里，围栏把感染挡在另一边。"
+      },
+      "normal": [
+        {
+          "en": "A quarantine period keeps suspected cases apart from healthy people.",
+          "cn": "隔离期把疑似病例与健康人隔开。"
+        },
+        {
+          "en": "Officials lift quarantine when the danger has passed.",
+          "cn": "危险过去后，官员解除隔离。"
+        },
+        {
+          "en": "A quarantine station screens arrivals at a port or border.",
+          "cn": "检疫站在港口或边境筛查入境者。"
+        },
+        {
+          "en": "Quarantine measures can slow an outbreak before it spreads.",
+          "cn": "隔离措施能在暴发扩散前将其放慢。"
+        },
+        {
+          "en": "The verb quarantined appears in the phrase quarantined the dogs.",
+          "cn": "动词形式 quarantined 出现在「隔离这些狗」这一说法中。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "Picture a yellow tape across a doorway, with a tray left outside.",
+          "cn": "想象门口拉着黄色警戒线，门外放着一只托盘。"
+        },
+        {
+          "en": "Imagine a ship anchored alone while the harbour waits.",
+          "cn": "想象一艘船独自抛锚，整座港口静静等待。"
+        },
+        {
+          "en": "Think of a map where one district is circled in red.",
+          "cn": "想象地图上有一个城区被红笔圈住。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "She spent ten days in quarantine after returning from the outbreak area.",
+        "cn": "她从暴发地区返回后接受了十天隔离。"
+      },
+      {
+        "en": "The hospital quarantined the patient to protect other wards.",
+        "cn": "医院隔离了这名病人，以保护其他病区。"
+      },
+      {
+        "en": "Quarantine rules for imported animals are strictly enforced.",
+        "cn": "进口动物的检疫隔离规定被严格执行。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「快拦停」——可疑的人先拦停四十天；这只是谐音联想，并非词源。",
+      "word": "quarantine"
+    },
+    "root": "意大利语 quaranta（四十）→ quarantina（四十天）→ 英语 quarantine，核心义「四十天的等待与隔离」。",
+    "sensesIntro": {
+      "en": "Quarantine starts as a forty-day waiting period for ships, becomes the place of waiting and then the legal restriction, turns into a verb for people, ships, and cargo, and finally extends to anything harmful kept apart.",
+      "cn": "quarantine 最初指船只四十天的等待期，继而指等待的场所与法律限制，再转化为隔离人、船与货物的动词，最后扩展到任何被隔开的有害事物。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: a yellow warning line separating a door from the corridor.",
+        "cn": "核心意象：一道黄色警戒线把一扇门与走廊隔开。"
+      },
+      "chain": [
+        "FORTY DAYS",
+        "WAITING PERIOD",
+        "PLAGUE",
+        "PORT",
+        "ISOLATION",
+        "QUARANTINE"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "The enforced period is the founding sense.",
+          "cn": "强制隔离期是最初的义项。"
+        },
+        {
+          "senses": "02",
+          "en": "The place of isolation is the spatial branch.",
+          "cn": "隔离场所是空间分支。"
+        },
+        {
+          "senses": "03",
+          "en": "The legal restriction is the administrative branch.",
+          "cn": "法律限制是管理分支。"
+        },
+        {
+          "senses": "04 · 05",
+          "en": "The verb branches into people, animals, ships, and cargo.",
+          "cn": "动词分支涵盖人、动物、船舶与货物。"
+        },
+        {
+          "senses": "06 · 07",
+          "en": "The forty-day origin and the figurative isolation close the map.",
+          "cn": "四十天的历史来源与比喻性隔离收束整张语义图。"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Quarantine comes from the Italian numeral for forty, with English quarantined, quarantining, and quarantinable built on the same noun.",
+        "cn": "quarantine 来自意大利语表示「四十」的数词，英语的 quarantined、quarantining 与 quarantinable 都建在这个名词上。"
+      },
+      "latinIntro": {
+        "en": "Latin quadraginta means forty and Italian quaranta keeps the number; quarantina, a forty-day period, is the direct source of quarantine.",
+        "cn": "拉丁语 quadraginta 意为四十，意大利语 quaranta 保留了这个数词；表示四十天期限的 quarantina 是 quarantine 的直接来源。"
+      },
+      "items": [
+        {
+          "word": "quadraginta",
+          "structure": "Latin numeral",
+          "meaning": "forty",
+          "meaningCN": "四十",
+          "example": "Quadraginta is the Latin ancestor of the number inside the word.",
+          "exampleCN": "quadraginta 是这个词内部数字的拉丁语祖先。"
+        },
+        {
+          "word": "quaranta",
+          "structure": "Italian numeral",
+          "meaning": "forty",
+          "meaningCN": "四十",
+          "example": "Italian quaranta passes the numeral to quarantina.",
+          "exampleCN": "意大利语 quaranta 把这个数词传给 quarantina。"
+        },
+        {
+          "word": "quarantina",
+          "structure": "Italian noun",
+          "meaning": "a period of forty days",
+          "meaningCN": "四十天的一段时间",
+          "example": "Quarantina is the direct source of English quarantine.",
+          "exampleCN": "quarantina 是英语 quarantine 的直接来源。"
+        },
+        {
+          "word": "quarantine",
+          "structure": "English noun",
+          "meaning": "enforced isolation",
+          "meaningCN": "隔离检疫",
+          "example": "The noun quarantine names the period and the system.",
+          "exampleCN": "名词 quarantine 指隔离期与隔离制度。"
+        },
+        {
+          "word": "quarantine",
+          "structure": "English verb",
+          "meaning": "to isolate for health reasons",
+          "meaningCN": "对……进行隔离检疫",
+          "example": "Officers quarantine arrivals who show symptoms.",
+          "exampleCN": "官员对有症状的入境者进行隔离检疫。"
+        },
+        {
+          "word": "quarantined",
+          "structure": "English past participle and adjective",
+          "meaning": "kept in isolation",
+          "meaningCN": "被隔离的",
+          "example": "The quarantined passengers stayed in a separate hotel.",
+          "exampleCN": "被隔离的旅客住在一家单独的酒店。"
+        },
+        {
+          "word": "quarantining",
+          "structure": "English present participle",
+          "meaning": "the act of isolating",
+          "meaningCN": "正在隔离；隔离行为",
+          "example": "Quarantining new arrivals slowed the outbreak.",
+          "exampleCN": "隔离新入境者放慢了疫情。"
+        },
+        {
+          "word": "-able",
+          "structure": "English suffix",
+          "meaning": "capable of receiving an action",
+          "meaningCN": "能够……的形容词后缀",
+          "example": "The suffix -able forms quarantinable.",
+          "exampleCN": "后缀 -able 构成 quarantinable。"
+        },
+        {
+          "word": "quarantinable",
+          "structure": "English adjective",
+          "meaning": "subject to quarantine",
+          "meaningCN": "可实施隔离检疫的",
+          "example": "Some diseases are legally quarantinable.",
+          "exampleCN": "有些疾病依法可实施隔离检疫。"
+        },
+        {
+          "word": "pre-quarantine",
+          "structure": "English adjective",
+          "meaning": "before quarantine",
+          "meaningCN": "隔离之前的",
+          "example": "Pre-quarantine tests must be negative.",
+          "exampleCN": "隔离前的检测必须呈阴性。"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "quadraginta",
+          "structure": "Latin numeral",
+          "meaning": "forty",
+          "meaningCN": "四十"
+        },
+        {
+          "word": "quaranta",
+          "structure": "Italian numeral",
+          "meaning": "forty",
+          "meaningCN": "四十"
+        },
+        {
+          "word": "quarantina",
+          "structure": "Italian noun",
+          "meaning": "a period of forty days",
+          "meaningCN": "四十天的期限"
+        }
+      ]
+    }
+  }
+]

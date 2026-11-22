@@ -1,0 +1,1335 @@
+[
+  {
+    "word": "vendor",
+    "ipa_uk": "/ˈvendə/",
+    "ipa_us": "/ˈvendər/",
+    "definition_zh": "供应商；卖方；摊贩；（软件）供应商",
+    "definition_en": "a person or company that sells goods or services, especially one that supplies another business",
+    "core_image": "一辆货车停在工厂后门，司机把纸箱交给采购员",
+    "scene": "采购经理核对到货清单，确认原料由同一家供应商按时送到。Every week the purchasing manager checks that the same vendor delivers the raw materials on time.",
+    "sceneCN": "这里 vendor 是「供应商」（第 2 个义项：向企业长期供货的公司）；句意：采购经理每周核对，确认同一家供应商按时送来原料。",
+    "pos": [
+      {
+        "tag": "n.",
+        "zh": "供应商；卖方；摊贩"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "software vendor",
+        "zh": "软件供应商"
+      },
+      {
+        "phrase": "vendor selection",
+        "zh": "供应商选择"
+      },
+      {
+        "phrase": "approved vendor",
+        "zh": "合格供应商"
+      },
+      {
+        "phrase": "street vendor",
+        "zh": "街头摊贩"
+      },
+      {
+        "phrase": "vendor management",
+        "zh": "供应商管理"
+      },
+      {
+        "phrase": "vendor contract",
+        "zh": "供应商合同"
+      }
+    ],
+    "forms": [
+      {
+        "label": "复数",
+        "form": "vendors"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "vend",
+        "pos": "v.",
+        "zh": "出售；售卖，与 vendor 同出拉丁语 vendere"
+      },
+      {
+        "word": "vending",
+        "pos": "n.",
+        "zh": "售卖；自动售货，由 vend 加 -ing 构成"
+      },
+      {
+        "word": "vendible",
+        "pos": "adj.",
+        "zh": "可出售的，由 vend 加 -ible 构成"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "A person who sells",
+        "titleCN": "卖家；售卖者",
+        "definition": "a person or business that sells goods or services",
+        "definitionCN": "出售商品或服务的个人或商家",
+        "example": "A vendor was selling roasted chestnuts at the corner of the square.",
+        "exampleCN": "一位小贩在广场拐角处卖烤栗子。",
+        "why": "Vendor comes from Latin venditor, the person who sells, so the first sense is simply the seller in a deal.",
+        "whyCN": "vendor 来自拉丁语 venditor，即「卖的人」，所以第一个义项就是交易中卖方这一角色。"
+      },
+      {
+        "no": "02",
+        "title": "A business supplier",
+        "titleCN": "供应商",
+        "definition": "a company that supplies goods or materials to another company",
+        "definitionCN": "向另一家公司供应货物或材料的公司",
+        "example": "The purchasing team visited every vendor before signing the contract.",
+        "exampleCN": "采购团队在签合同前拜访了每一家供应商。",
+        "why": "Trade between firms turned the general seller into the regular supplier that stands behind a supply chain.",
+        "whyCN": "企业之间的贸易把一般的卖方固定成供应链背后的长期供应商，这是从「卖」长出的企业义。"
+      },
+      {
+        "no": "03",
+        "title": "A market stallholder",
+        "titleCN": "摊贩",
+        "definition": "a person who sells from a stall, a cart, or a small outdoor stand",
+        "definitionCN": "在摊位、推车或露天小摊上卖货的人",
+        "example": "The fruit vendor wrapped the peaches in paper.",
+        "exampleCN": "卖水果的摊贩用纸把桃子包起来。",
+        "why": "The street market kept the small, concrete seller beside the large firm, so the same word names the stallholder.",
+        "whyCN": "街头市场保留了大企业旁边那种具体而微小的卖方，于是同一个词也指摊贩。"
+      },
+      {
+        "no": "04",
+        "title": "A technology vendor",
+        "titleCN": "技术供应商",
+        "definition": "a company that sells software, hardware, or computing services",
+        "definitionCN": "出售软件、硬件或计算服务的公司",
+        "example": "The software vendor will patch the payroll system next week.",
+        "exampleCN": "软件供应商下周会修补薪资系统。",
+        "why": "In computing, the firm that sells and supports a product is still a seller, now of licences and updates.",
+        "whyCN": "在计算机行业，出售并支持产品的公司仍然是卖方，只是卖的变成了许可证与更新服务。"
+      },
+      {
+        "no": "05",
+        "title": "The seller of a property",
+        "titleCN": "房产出让人",
+        "definition": "the person or party that sells a house or land in a legal transaction",
+        "definitionCN": "在房产交易中出售房屋或土地的一方",
+        "example": "The vendor signed the transfer deed before the buyer collected the keys.",
+        "exampleCN": "卖方在买方拿钥匙之前签了过户契据。",
+        "why": "Property law kept the Latin seller as the formal role name on the deed, so vendor became a legal title.",
+        "whyCN": "不动产法律把拉丁语的「卖者」保留为契据上的正式角色名，于是 vendor 成了一个法律称谓。"
+      },
+      {
+        "no": "06",
+        "title": "An online seller",
+        "titleCN": "网络卖家",
+        "definition": "a third-party trader that sells through an online marketplace",
+        "definitionCN": "通过网络平台卖货的第三方商家",
+        "example": "The online vendor shipped the order within two days.",
+        "exampleCN": "网络卖家两天内发出了订单。",
+        "why": "Online marketplaces replaced the stall with a storefront page, but the selling party is still the vendor.",
+        "whyCN": "网络平台用店铺页面取代了摊位，但交易中卖货的一方仍然叫 vendor。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Vendor comes from Latin venditor, the seller, from vendere, to sell, itself a contraction of venum dare, to give for sale.",
+        "cn": "vendor 来自拉丁语 venditor（卖者），源于 vendere（出售），而 vendere 是 venum dare（为卖而给）的缩合形式。"
+      },
+      "items": [
+        {
+          "era": "LATIN",
+          "en": "Venum names a thing offered for sale.",
+          "cn": "venum 指拿出来出售的东西。"
+        },
+        {
+          "era": "LATIN",
+          "en": "Dare means to give, and venum dare means to give for sale.",
+          "cn": "dare 意为给，venum dare 即「为卖而给」。"
+        },
+        {
+          "era": "LATIN",
+          "en": "The phrase contracts into vendere, the verb to sell.",
+          "cn": "这个短语缩合成 vendere，即「出售」这个动词。"
+        },
+        {
+          "era": "LATIN",
+          "en": "Venditor is the seller, the agent noun of vendere.",
+          "cn": "venditor 是卖者，即 vendere 的施事名词。"
+        },
+        {
+          "era": "ANGLO-FRENCH",
+          "en": "Vendor, from vendre, to sell, names the seller in legal French.",
+          "cn": "vendor 来自 vendre（出售），在法律法语中指卖方。"
+        },
+        {
+          "era": "ENGLISH, 16TH C.",
+          "en": "English vendor begins in deeds and trade records, and later covers software and online sellers.",
+          "cn": "英语 vendor 最初见于契据与商业记录，后来覆盖软件商与网络卖家。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "Vendor belongs to the Latin selling family of vend, vending, and vendible, and sits near supplier and seller.",
+        "cn": "vendor 属于拉丁语「卖」词族，与 vend、vending、vendible 同源，并与 supplier、seller 意义相邻。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "vend",
+              "ipa": "/vend/",
+              "tag": "same root",
+              "definition": "to sell goods",
+              "definitionCN": "出售货物，与 vendor 同出拉丁语 vendere"
+            },
+            {
+              "word": "vending",
+              "ipa": "/ˈvendɪŋ/",
+              "tag": "derived form",
+              "definition": "the business of selling goods, often through machines",
+              "definitionCN": "售卖业务，常指自动售货"
+            },
+            {
+              "word": "vendible",
+              "ipa": "/ˈvendəbl/",
+              "tag": "derived form",
+              "definition": "able to be sold",
+              "definitionCN": "可以出售的"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "supplier",
+              "ipa": "/səˈplaɪə/",
+              "tag": "near meaning",
+              "definition": "a company that provides goods to another company",
+              "definitionCN": "向另一家公司供货的企业，比 vendor 更强调长期供货关系"
+            },
+            {
+              "word": "seller",
+              "ipa": "/ˈselə/",
+              "tag": "near meaning",
+              "definition": "a person or business that sells something",
+              "definitionCN": "卖方；卖家，最中性的说法"
+            },
+            {
+              "word": "merchant",
+              "ipa": "/ˈmɜːtʃənt/",
+              "tag": "near meaning",
+              "definition": "a person who buys and sells goods in large amounts",
+              "definitionCN": "商人；批发商，常指从事大宗买卖的人"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Vendor is the selling side of a deal, from the Latin verb vendere, to sell.",
+        "cn": "vendor 是交易中「卖」的一方，源自拉丁语动词 vendere（出售）。"
+      },
+      "normal": [
+        {
+          "en": "Vendor and vend share the Latin verb vendere, to sell.",
+          "cn": "vendor 与 vend 同出拉丁语 vendere（出售）。"
+        },
+        {
+          "en": "A vendor supplies goods, and a buyer pays for them.",
+          "cn": "供应商供货，买方付钱，双方构成一笔交易。"
+        },
+        {
+          "en": "Supply chains speak of vendor selection and vendor management.",
+          "cn": "供应链里会说「vendor selection」与「vendor management」这类搭配。"
+        },
+        {
+          "en": "A street vendor sells from a cart or a stall.",
+          "cn": "街头摊贩推车或摆摊卖货。"
+        },
+        {
+          "en": "Compare supplier: supplier is neutral, vendor often names the seller in a contract.",
+          "cn": "对比 supplier：supplier 更中性，vendor 常指合同中的卖方。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "Picture a hand offering goods while another hand takes the coins.",
+          "cn": "想象一只手递出货品，另一只手接过钱币。"
+        },
+        {
+          "en": "Picture a van unloading crates at the factory gate.",
+          "cn": "想象一辆货车在工厂门口卸下纸箱。"
+        },
+        {
+          "en": "Picture a striped awning over a table of fruit.",
+          "cn": "想象水果摊上方有一顶条纹遮阳篷。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "The vendor agreed to deliver the parts by Friday.",
+        "cn": "供应商同意在周五前交付零件。"
+      },
+      {
+        "en": "A street vendor sold hot noodles to the morning crowd.",
+        "cn": "一位街头摊贩把热面条卖给早高峰的人群。"
+      },
+      {
+        "en": "The software vendor offers training for every new client.",
+        "cn": "软件供应商为每位新客户提供培训。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「稳达」——货物稳定送达的卖方，就是可靠的供应商；谐音联想，不是词源。",
+      "word": "vendor"
+    },
+    "root": "拉丁语 venum dare（为卖而给）缩合为 vendere（出售）→ 拉丁语 venditor（卖者）→ 盎格鲁-法语 vendor → 英语 vendor，核心义「卖出货物的一方」。",
+    "sensesIntro": {
+      "en": "Vendor keeps the Latin sense of the seller and spreads from one trader to a firm that supplies a supply chain, a software maker, an online shop, and the seller named in a property deed.",
+      "cn": "vendor 保留拉丁语「卖者」的核心义，并从单个卖家扩展到供应链供应商、软件商、网络店铺以及房产契据上的出让人。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: a loaded van at the back door of a factory.",
+        "cn": "核心意象：一辆满载的货车停在工厂后门。"
+      },
+      "chain": [
+        "SELL",
+        "SELLER",
+        "STALL",
+        "SUPPLY",
+        "SOFTWARE",
+        "PROPERTY"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "A single seller is the everyday sense.",
+          "cn": "单个卖家是最日常的义项。"
+        },
+        {
+          "senses": "02",
+          "en": "A firm that supplies another firm is the business sense.",
+          "cn": "向另一家企业供货的公司是商务义项。"
+        },
+        {
+          "senses": "03",
+          "en": "A stallholder is the small-scale street sense.",
+          "cn": "摊贩是小规模的街头义项。"
+        },
+        {
+          "senses": "04 · 06",
+          "en": "Software and online sellers are the modern trading senses.",
+          "cn": "软件商与网络卖家是现代的买卖义项。"
+        },
+        {
+          "senses": "05",
+          "en": "The seller named in a property deed is the legal sense.",
+          "cn": "房产契据上的出让人是法律义项。"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Vendor is built on the Latin verb vendere, to sell, with the agent suffix -or marking the person who sells; English also has vend and vending from the same family.",
+        "cn": "vendor 建在拉丁语动词 vendere（出售）之上，施事后缀 -or 标记「卖的人」；英语还有同族的 vend 与 vending。"
+      },
+      "latinIntro": {
+        "en": "Latin venum dare, to give for sale, contracts into vendere, to sell, and venditor names the seller.",
+        "cn": "拉丁语 venum dare（为卖而给）缩合为 vendere（出售），venditor 则指卖者。"
+      },
+      "items": [
+        {
+          "word": "venum",
+          "structure": "Latin noun",
+          "meaning": "sale, a thing for sale",
+          "meaningCN": "出售；待售之物",
+          "example": "Venum names the object offered for sale.",
+          "exampleCN": "venum 指被拿出来出售的东西。"
+        },
+        {
+          "word": "dare",
+          "structure": "Latin verb",
+          "meaning": "to give",
+          "meaningCN": "给；给予",
+          "example": "Dare supplies the giving half of venum dare.",
+          "exampleCN": "dare 提供 venum dare 中「给」的那一半。"
+        },
+        {
+          "word": "vendere",
+          "structure": "Latin verb",
+          "meaning": "to sell",
+          "meaningCN": "出售；卖",
+          "example": "Vendere is the shortened form of venum dare.",
+          "exampleCN": "vendere 是 venum dare 的缩合形式。"
+        },
+        {
+          "word": "venditor",
+          "structure": "Latin noun",
+          "meaning": "seller",
+          "meaningCN": "卖者；卖方",
+          "example": "Venditor is the agent noun from vendere.",
+          "exampleCN": "venditor 是由 vendere 派生的施事名词。"
+        },
+        {
+          "word": "vendor",
+          "structure": "Anglo-French noun",
+          "meaning": "seller",
+          "meaningCN": "卖方",
+          "example": "Anglo-French vendor comes from vendre, to sell.",
+          "exampleCN": "盎格鲁-法语 vendor 来自 vendre（出售）。"
+        },
+        {
+          "word": "vendor",
+          "structure": "English noun",
+          "meaning": "seller or supplier",
+          "meaningCN": "卖方；供应商",
+          "example": "English vendor keeps the legal and commercial seller.",
+          "exampleCN": "英语 vendor 保留了法律与商业上的卖方含义。"
+        },
+        {
+          "word": "-or",
+          "structure": "English suffix",
+          "meaning": "person who does something",
+          "meaningCN": "表示做某事的人",
+          "example": "The suffix -or marks the person who sells.",
+          "exampleCN": "后缀 -or 标记从事出售的人。"
+        },
+        {
+          "word": "vend",
+          "structure": "English verb",
+          "meaning": "to sell",
+          "meaningCN": "出售；售卖",
+          "example": "Vend is the short verb of the same Latin family.",
+          "exampleCN": "vend 是同一拉丁词族中的简短动词。"
+        },
+        {
+          "word": "vending",
+          "structure": "English noun",
+          "meaning": "the act of selling goods",
+          "meaningCN": "售卖；自动售货",
+          "example": "Vending names the business of selling, often through machines.",
+          "exampleCN": "vending 指售卖业务，常指通过机器售卖。"
+        },
+        {
+          "word": "vendible",
+          "structure": "English adjective",
+          "meaning": "able to be sold",
+          "meaningCN": "可出售的",
+          "example": "Vendible describes goods that can be sold.",
+          "exampleCN": "vendible 描述可以卖出去的货物。"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "vendere",
+          "structure": "Latin verb",
+          "meaning": "to sell",
+          "meaningCN": "出售"
+        },
+        {
+          "word": "venum",
+          "structure": "Latin noun",
+          "meaning": "sale, a thing for sale",
+          "meaningCN": "出售；待售之物"
+        },
+        {
+          "word": "venditor",
+          "structure": "Latin noun",
+          "meaning": "seller",
+          "meaningCN": "卖者；卖方"
+        }
+      ]
+    }
+  },
+  {
+    "word": "memo",
+    "ipa_uk": "/ˈmeməʊ/",
+    "ipa_us": "/ˈmemoʊ/",
+    "definition_zh": "备忘录；便条；内部通知；记录",
+    "definition_en": "a short written note used to record information or to send a message inside an organization",
+    "core_image": "一张黄色便签贴在电脑屏幕边，上面只写三行要点",
+    "scene": "会议开始前，助理把一张写满要点的黄色便签放在经理桌上。Before the meeting, the assistant left a memo on the desk of the manager, listing the key points.",
+    "sceneCN": "这里 memo 是「办公室备忘录」（第 1 个义项：组织内部传递信息的简短书面通知）；句意：会议开始前，助理把一张写满要点的备忘录放在经理桌上。",
+    "pos": [
+      {
+        "tag": "n.",
+        "zh": "备忘录；便条；内部通知"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "write a memo",
+        "zh": "写备忘录"
+      },
+      {
+        "phrase": "internal memo",
+        "zh": "内部备忘录"
+      },
+      {
+        "phrase": "memo pad",
+        "zh": "便笺本"
+      },
+      {
+        "phrase": "memo to staff",
+        "zh": "致全体员工的备忘录"
+      },
+      {
+        "phrase": "circulate a memo",
+        "zh": "传阅备忘录"
+      },
+      {
+        "phrase": "credit memo",
+        "zh": "贷项通知单"
+      }
+    ],
+    "forms": [
+      {
+        "label": "复数",
+        "form": "memos"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "memorandum",
+        "pos": "n.",
+        "zh": "备忘录；正式纪要，是 memo 未被缩略的完整形式"
+      },
+      {
+        "word": "memorial",
+        "pos": "n.",
+        "zh": "纪念物；纪念碑，由「记忆」词根加 -ial 构成"
+      },
+      {
+        "word": "memorize",
+        "pos": "v.",
+        "zh": "记住；背诵，由「记忆」词根加 -ize 构成"
+      },
+      {
+        "word": "memorable",
+        "pos": "adj.",
+        "zh": "难忘的；值得记住的"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "An office memo",
+        "titleCN": "办公室备忘录",
+        "definition": "a short written message sent to colleagues to record or announce something",
+        "definitionCN": "发给同事、用来记录或通告某事的简短书面信息",
+        "example": "She sent a memo to all staff about the new security rules.",
+        "exampleCN": "她就新的安全规定给全体员工发了一份备忘录。",
+        "why": "Memorandum est, it must be remembered, became the note that carries a message inside an office.",
+        "whyCN": "拉丁语 memorandum est 意为「应被记住」，后来变成办公室里传递消息的那张纸条。"
+      },
+      {
+        "no": "02",
+        "title": "A quick written note",
+        "titleCN": "便条；便笺",
+        "definition": "a small piece of paper on which someone writes a reminder",
+        "definitionCN": "写有提醒事项的小纸片",
+        "example": "He jotted the phone number on a memo and stuck it to the screen.",
+        "exampleCN": "他把电话号码写在便条上，贴在屏幕边。",
+        "why": "The clipped form kept the everyday habit of writing something down so as not to forget it.",
+        "whyCN": "缩略形式保留了日常习惯：把怕忘的事写下来，便条就是记忆的临时载体。"
+      },
+      {
+        "no": "03",
+        "title": "A written record",
+        "titleCN": "记录；纪要",
+        "definition": "a note that preserves the details of a meeting or an agreement",
+        "definitionCN": "保存会议或协议细节的书面记录",
+        "example": "The memo of the meeting listed every decision and deadline.",
+        "exampleCN": "会议纪要列出了每项决定和截止日期。",
+        "why": "A memo can serve memory by recording what was said or agreed, so it grows into the record sense.",
+        "whyCN": "备忘录可以替记忆保存说过或商定的事，于是从便条长出了「记录、纪要」这一义。"
+      },
+      {
+        "no": "04",
+        "title": "A legal memorandum",
+        "titleCN": "法律备忘录",
+        "definition": "a formal note that sets out the terms of an agreement or the legal position of a case",
+        "definitionCN": "列明协议条款或案件法律立场的正式书面说明",
+        "example": "The lawyer prepared a memo on the risks of the merger.",
+        "exampleCN": "律师就并购风险准备了一份备忘录。",
+        "why": "Law and diplomacy kept the full Latin word for a document that must be remembered and consulted.",
+        "whyCN": "法律与外交保留了拉丁语全形，用来指必须留存并随时查阅的正式文件。"
+      },
+      {
+        "no": "05",
+        "title": "An electronic memo",
+        "titleCN": "电子备忘录",
+        "definition": "a memo stored and sent in an email system or a computer file",
+        "definitionCN": "保存在电子邮件系统或电脑文件中的备忘录",
+        "example": "The system files every memo under the name of its author.",
+        "exampleCN": "系统按作者姓名归档每一份备忘录。",
+        "why": "The same short message moved from paper to the inbox, but the name memo stayed.",
+        "whyCN": "同一种简短消息从纸张搬进了收件箱，但 memo 这个名字留了下来。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Memo is a clipped form of memorandum, from Latin memorandum est, it must be remembered, a gerundive of memorare, to bring to mind.",
+        "cn": "memo 是 memorandum 的缩略形式；memorandum 来自拉丁语 memorandum est（应被记住），是 memorare（使想起）的动形词。"
+      },
+      "items": [
+        {
+          "era": "LATIN",
+          "en": "Memor means mindful, the adjective behind the whole family.",
+          "cn": "memor 意为「记得的、留心的」，是整个词族的形容词源头。"
+        },
+        {
+          "era": "LATIN",
+          "en": "Memorare means to bring something to mind or to mention it.",
+          "cn": "memorare 意为使某事回到心中，或提及它。"
+        },
+        {
+          "era": "LATIN",
+          "en": "Memorandum est means it must be remembered, the heading of a note.",
+          "cn": "memorandum est 意为「应被记住」，常作便笺的抬头。"
+        },
+        {
+          "era": "ENGLISH, 15TH C.",
+          "en": "English memorandum names a note written to preserve a fact.",
+          "cn": "英语 memorandum 指为保存事实而写的记录。"
+        },
+        {
+          "era": "ENGLISH, 19TH C.",
+          "en": "Speakers clip memorandum into memo for speed.",
+          "cn": "为了省力，说话者把 memorandum 缩略成 memo。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "Memo covers office notices, legal notes, and email headers.",
+          "cn": "现代英语中，memo 覆盖办公室通知、法律备忘与邮件标题。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "Memo sits in the Latin memory family of memorandum, memorial, and memorize, and near the everyday note and notice.",
+        "cn": "memo 属于拉丁语「记忆」词族，与 memorandum、memorial、memorize 同源，并与日常的 note、notice 意义相邻。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "memorandum",
+              "ipa": "/ˌmeməˈrændəm/",
+              "tag": "same root",
+              "definition": "a formal note or a written record",
+              "definitionCN": "正式备忘录或书面记录，是 memo 的完整形式"
+            },
+            {
+              "word": "memoranda",
+              "ipa": "/ˌmeməˈrændə/",
+              "tag": "plural form",
+              "definition": "the plural of memorandum",
+              "definitionCN": "memorandum 的复数形式"
+            },
+            {
+              "word": "memorable",
+              "ipa": "/ˈmemərəbl/",
+              "tag": "same root",
+              "definition": "worth remembering",
+              "definitionCN": "值得记住的；难忘的"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "note",
+              "ipa": "/nəʊt/",
+              "tag": "near meaning",
+              "definition": "a short written record",
+              "definitionCN": "简短的书面记录；便条"
+            },
+            {
+              "word": "notice",
+              "ipa": "/ˈnəʊtɪs/",
+              "tag": "near meaning",
+              "definition": "a written announcement or warning",
+              "definitionCN": "书面通知或警告"
+            },
+            {
+              "word": "minute",
+              "ipa": "/ˈmɪnɪt/",
+              "tag": "meeting record",
+              "definition": "a written record of what was said at a meeting",
+              "definitionCN": "会议记录，通常用复数 minutes"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Memo is a clipped memorandum, the Latin note that must be remembered.",
+        "cn": "memo 是 memorandum 的缩略，本义是「应被记住的」那张纸条。"
+      },
+      "normal": [
+        {
+          "en": "Memo and memorandum share the Latin root memor, mindful.",
+          "cn": "memo 与 memorandum 同出拉丁语 memor（记得的）。"
+        },
+        {
+          "en": "An internal memo carries one message to many desks.",
+          "cn": "内部备忘录把同一条消息送到许多张办公桌。"
+        },
+        {
+          "en": "A memo pad keeps small notes within reach.",
+          "cn": "便笺本让零散的小笔记触手可及。"
+        },
+        {
+          "en": "A credit memo adjusts a customer account in accounting.",
+          "cn": "在会计中，贷项通知单用来调整客户账户。"
+        },
+        {
+          "en": "Compare memorandum: the full form sounds formal, memo sounds everyday.",
+          "cn": "对比 memorandum：完整形式更正式，memo 更日常。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "Picture a yellow sticky note on the edge of a screen.",
+          "cn": "想象一张黄色便签贴在屏幕边缘。"
+        },
+        {
+          "en": "Picture a folded note kept in a coat pocket.",
+          "cn": "想象一张折好的便条放在外套口袋里。"
+        },
+        {
+          "en": "Picture a ring binder of meeting records on a shelf.",
+          "cn": "想象书架上有一本装订好的会议记录。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "Please put the main points of the call in a short memo.",
+        "cn": "请把通话要点写进一份简短备忘录。"
+      },
+      {
+        "en": "The memo on the notice board reminded everyone of the fire drill.",
+        "cn": "公告栏上的备忘录提醒大家有消防演习。"
+      },
+      {
+        "en": "She keeps a memo pad beside the phone for quick notes.",
+        "cn": "她在电话旁放了一本便笺，方便快速记录。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「麦某」——提醒小麦某件事的小纸条；谐音联想，不是词源。",
+      "word": "memo"
+    },
+    "root": "拉丁语 memor（记得的）→ memorare（使想起）→ 动形词 memorandum（应被记住之事）→ 英语缩略为 memo，核心义「替记忆留痕的短笺」。",
+    "sensesIntro": {
+      "en": "Memo starts as a note that must be remembered, then becomes the everyday reminder, the formal record, the legal note, and the message in an inbox.",
+      "cn": "memo 从「应被记住的纸条」出发，依次引申为随手便条、正式记录、法律备忘与收件箱里的电子留言。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: a yellow note stuck beside a computer screen.",
+        "cn": "核心意象：一张贴在电脑屏幕旁的黄色便签。"
+      },
+      "chain": [
+        "REMEMBER",
+        "SHORT NOTE",
+        "OFFICE MESSAGE",
+        "RECORD",
+        "LEGAL NOTE",
+        "EMAIL"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "The office memo is the central modern sense.",
+          "cn": "办公室备忘录是核心的现代义项。"
+        },
+        {
+          "senses": "02",
+          "en": "The quick note is the small personal sense.",
+          "cn": "随手便条是私人化的细小义项。"
+        },
+        {
+          "senses": "03",
+          "en": "The record sense keeps the details of a meeting.",
+          "cn": "记录义保存会议细节。"
+        },
+        {
+          "senses": "04",
+          "en": "The legal memorandum is the formal document sense.",
+          "cn": "法律备忘录是正式文件义项。"
+        },
+        {
+          "senses": "01 · 05",
+          "en": "Paper and electronic memos carry the same kind of message.",
+          "cn": "纸质与电子备忘录传递的是同一类消息。"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Memo is a clipped form of memorandum, built on the Latin memory family of memor and memorare, with -andum marking the thing that must be remembered.",
+        "cn": "memo 是 memorandum 的缩略，建在拉丁语「记忆」词族 memor 与 memorare 之上，-andum 标记「应被记住之事」。"
+      },
+      "latinIntro": {
+        "en": "Latin memor means mindful, memorare means to bring to mind, and memorandum means that which must be remembered.",
+        "cn": "拉丁语 memor 意为记得的，memorare 意为使想起，memorandum 意为应被记住之事。"
+      },
+      "items": [
+        {
+          "word": "memor",
+          "structure": "Latin adjective",
+          "meaning": "mindful, remembering",
+          "meaningCN": "记得的；留心的",
+          "example": "Memor is the adjective at the root of the family.",
+          "exampleCN": "memor 是整个词族根部的形容词。"
+        },
+        {
+          "word": "memorare",
+          "structure": "Latin verb",
+          "meaning": "to bring to mind",
+          "meaningCN": "使想起；记住",
+          "example": "Memorare gives the verb of remembering.",
+          "exampleCN": "memorare 提供「记住」这个动词。"
+        },
+        {
+          "word": "memorandum",
+          "structure": "Latin gerundive",
+          "meaning": "that which must be remembered",
+          "meaningCN": "应被记住之事",
+          "example": "Memorandum is the gerundive form of memorare.",
+          "exampleCN": "memorandum 是 memorare 的动形词形式。"
+        },
+        {
+          "word": "-andum",
+          "structure": "Latin suffix",
+          "meaning": "gerundive ending, what must be done",
+          "meaningCN": "动形词词尾，表示「必须被……之事」",
+          "example": "The ending -andum builds memorandum from memorare.",
+          "exampleCN": "词尾 -andum 让 memorare 构成 memorandum。"
+        },
+        {
+          "word": "memo",
+          "structure": "English noun",
+          "meaning": "a short note",
+          "meaningCN": "备忘录；便条",
+          "example": "Memo clips the long Latin form for daily use.",
+          "exampleCN": "memo 把冗长的拉丁形式缩略，供日常使用。"
+        },
+        {
+          "word": "memory",
+          "structure": "English noun",
+          "meaning": "the ability to remember",
+          "meaningCN": "记忆；记忆力",
+          "example": "Memory keeps the same root in everyday English.",
+          "exampleCN": "memory 在日常英语中保留同一词根。"
+        },
+        {
+          "word": "memorize",
+          "structure": "English verb",
+          "meaning": "to learn by memory",
+          "meaningCN": "记住；背诵",
+          "example": "Memorize adds the verb suffix -ize.",
+          "exampleCN": "memorize 加了动词后缀 -ize。"
+        },
+        {
+          "word": "memorable",
+          "structure": "English adjective",
+          "meaning": "worth remembering",
+          "meaningCN": "值得记住的；难忘的",
+          "example": "Memorable adds the adjective suffix -able.",
+          "exampleCN": "memorable 加了形容词后缀 -able。"
+        },
+        {
+          "word": "memorial",
+          "structure": "English noun",
+          "meaning": "something that keeps a memory",
+          "meaningCN": "纪念物；纪念碑",
+          "example": "Memorial turns the root into a thing that remembers.",
+          "exampleCN": "memorial 把词根变成承载记忆的事物。"
+        },
+        {
+          "word": "-ize",
+          "structure": "English suffix",
+          "meaning": "to make or become",
+          "meaningCN": "使……化；使成为",
+          "example": "The suffix -ize forms memorize from memory.",
+          "exampleCN": "后缀 -ize 让 memory 构成 memorize。"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "memor",
+          "structure": "Latin adjective",
+          "meaning": "mindful",
+          "meaningCN": "记得的；留心的"
+        },
+        {
+          "word": "memorare",
+          "structure": "Latin verb",
+          "meaning": "to bring to mind",
+          "meaningCN": "使想起"
+        },
+        {
+          "word": "memorandum",
+          "structure": "Latin gerundive",
+          "meaning": "that which must be remembered",
+          "meaningCN": "应被记住之事"
+        }
+      ]
+    }
+  },
+  {
+    "word": "redundancy",
+    "ipa_uk": "/rɪˈdʌndənsi/",
+    "ipa_us": "/rɪˈdʌndənsi/",
+    "definition_zh": "裁员；冗余；多余；赘述",
+    "definition_en": "the state of having more than is needed, or a job that is no longer required and is therefore cut",
+    "core_image": "流水线旁多站了两个人，机器照常运转，他们却无事可做",
+    "scene": "公司合并后两个部门做同样的事，管理层只好裁掉多余的岗位。After the merger, the two departments did the same work, so managers had to announce a round of redundancies.",
+    "sceneCN": "这里 redundancy 是「裁员；被裁的岗位」（第 2 个义项：雇主认为不再需要而撤销的职位）；句意：合并后两个部门工作重复，管理层只好宣布一轮裁员。",
+    "pos": [
+      {
+        "tag": "n.",
+        "zh": "裁员；冗余；多余；赘述"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "redundancy pay",
+        "zh": "裁员补偿金"
+      },
+      {
+        "phrase": "voluntary redundancy",
+        "zh": "自愿裁员"
+      },
+      {
+        "phrase": "make redundancies",
+        "zh": "进行裁员"
+      },
+      {
+        "phrase": "redundancy notice",
+        "zh": "裁员通知"
+      },
+      {
+        "phrase": "redundancy package",
+        "zh": "裁员补偿方案"
+      },
+      {
+        "phrase": "system redundancy",
+        "zh": "系统冗余；系统备份"
+      }
+    ],
+    "forms": [
+      {
+        "label": "复数",
+        "form": "redundancies"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "redundant",
+        "pos": "adj.",
+        "zh": "多余的；冗余的；被裁员的，是 redundancy 的形容词形式"
+      },
+      {
+        "word": "redundantly",
+        "pos": "adv.",
+        "zh": "多余地；冗余地，由 redundant 加 -ly 构成"
+      },
+      {
+        "word": "redundance",
+        "pos": "n.",
+        "zh": "多余；冗余，与 redundancy 并行的名词形式"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "More than is needed",
+        "titleCN": "多余；冗余",
+        "definition": "the state of having more of something than is necessary",
+        "definitionCN": "某物的数量超出所需的状态",
+        "example": "The report found redundancy in the approval process.",
+        "exampleCN": "报告发现审批流程存在冗余。",
+        "why": "Redundare means to overflow, so redundancy first names an excess that spills over what is needed.",
+        "whyCN": "redundare 意为溢出，所以 redundancy 首先指超出所需、像水一样漫出来的那部分。"
+      },
+      {
+        "no": "02",
+        "title": "A job that is cut",
+        "titleCN": "裁员；被裁的岗位",
+        "definition": "a job that an employer decides is no longer needed, usually with the worker losing it",
+        "definitionCN": "雇主认定不再需要而撤销的职位，通常意味着员工失去工作",
+        "example": "The restructuring led to a wave of redundancies.",
+        "exampleCN": "这次重组引发了一轮裁员。",
+        "why": "In British labour language the overflowing part became the post that is removed, and then the dismissal itself.",
+        "whyCN": "在英式劳工用语里，溢出的那部分先变成被撤掉的岗位，再转指裁员这件事本身。"
+      },
+      {
+        "no": "03",
+        "title": "Needless repetition",
+        "titleCN": "赘述；重复",
+        "definition": "the use of more words than are needed to make a point",
+        "definitionCN": "为表达一个意思而使用了过多的词",
+        "example": "The paragraph suffers from redundancy because the same point appears three times.",
+        "exampleCN": "这段文字有赘述毛病，同一个意思出现了三次。",
+        "why": "Overflow applied to language is the extra word that adds nothing to the meaning.",
+        "whyCN": "把「溢出」用到语言上，就是那些对意思毫无贡献的多余字词。"
+      },
+      {
+        "no": "04",
+        "title": "A backup in a system",
+        "titleCN": "系统冗余；备份",
+        "definition": "extra parts or paths built into a system so that one failure cannot stop it",
+        "definitionCN": "系统里额外配置的部件或通路，使单点故障无法让系统停摆",
+        "example": "Engineers built redundancy into the control system so that one failure cannot stop the plant.",
+        "exampleCN": "工程师在控制系统中加入冗余，使单点故障无法让工厂停机。",
+        "why": "Engineering takes the overflow as a deliberate spare that keeps a system running.",
+        "whyCN": "工程学把「溢出」变成有意准备的备份，用来维持系统运转。"
+      },
+      {
+        "no": "05",
+        "title": "Repeated data",
+        "titleCN": "信息冗余；重复数据",
+        "definition": "information that is repeated in a message or a data set and can be removed without loss",
+        "definitionCN": "消息或数据集中重复出现、删去也不损失信息的部分",
+        "example": "Compression removes redundancy from the data stream.",
+        "exampleCN": "压缩会去掉数据流中的冗余。",
+        "why": "Information theory measures the overflow as the part of a message that repeats what is already known.",
+        "whyCN": "信息论把「溢出」量化为消息中重复已知内容的那一部分。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Redundancy comes from Latin redundantia, an overflow, from redundare, to overflow or run back, built on unda, a wave.",
+        "cn": "redundancy 来自拉丁语 redundantia（溢出），源于 redundare（溢出、回流），其词根是 unda（波浪）。"
+      },
+      "items": [
+        {
+          "era": "LATIN",
+          "en": "Unda means a wave or a body of water.",
+          "cn": "unda 意为波浪或一片水。"
+        },
+        {
+          "era": "LATIN",
+          "en": "Redundare means to overflow or to run back like a wave.",
+          "cn": "redundare 意为溢出，或像波浪一样回流。"
+        },
+        {
+          "era": "LATIN",
+          "en": "Redundantia names the overflow itself.",
+          "cn": "redundantia 指溢出的状态或溢出的东西。"
+        },
+        {
+          "era": "ENGLISH, 17TH C.",
+          "en": "English redundancy first names excess in speech and writing.",
+          "cn": "英语 redundancy 最早指言语和写作中的多余。"
+        },
+        {
+          "era": "ENGLISH, 20TH C.",
+          "en": "British employers use redundancy for jobs that are no longer needed.",
+          "cn": "英国雇主用 redundancy 指不再需要的岗位以及由此产生的裁员。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "The word also covers backup systems and repeated data.",
+          "cn": "这个词还覆盖备份系统与重复数据。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "Redundancy belongs to the wave family of redundant and redundance, and sits near surplus, excess, and the American layoff.",
+        "cn": "redundancy 属于「波浪、溢出」词族，与 redundant、redundance 同源，并与 surplus、excess 以及美式 layoff 意义相邻。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "redundant",
+              "ipa": "/rɪˈdʌndənt/",
+              "tag": "same root",
+              "definition": "more than is needed",
+              "definitionCN": "多余的；冗余的，是 redundancy 的形容词"
+            },
+            {
+              "word": "redundance",
+              "ipa": "/rɪˈdʌndəns/",
+              "tag": "same root",
+              "definition": "the state of being excessive",
+              "definitionCN": "多余的状态，与 redundancy 意义接近"
+            },
+            {
+              "word": "redundantly",
+              "ipa": "/rɪˈdʌndəntli/",
+              "tag": "derived form",
+              "definition": "in a way that is more than needed",
+              "definitionCN": "多余地；冗余地"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "surplus",
+              "ipa": "/ˈsɜːpləs/",
+              "tag": "near meaning",
+              "definition": "an amount left over after needs are met",
+              "definitionCN": "剩余；过剩，强调满足需求后剩下的量"
+            },
+            {
+              "word": "excess",
+              "ipa": "/ɪkˈses/",
+              "tag": "near meaning",
+              "definition": "an amount that is more than necessary",
+              "definitionCN": "过量；过度，最一般化的「超出」"
+            },
+            {
+              "word": "layoff",
+              "ipa": "/ˈleɪɒf/",
+              "tag": "us variant",
+              "definition": "the dismissal of workers because they are not needed",
+              "definitionCN": "裁员，美式说法，对应英式 redundancy 的裁员义"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Redundancy carries the Latin image of a wave that overflows its container.",
+        "cn": "redundancy 带着拉丁语意象：波浪涨满，溢出容器。"
+      },
+      "normal": [
+        {
+          "en": "Redundancy and redundant share the Latin image of a wave that overflows.",
+          "cn": "redundancy 与 redundant 共享「波浪溢出」的拉丁意象。"
+        },
+        {
+          "en": "Redundancy pay is the money offered when a post is cut.",
+          "cn": "裁员补偿金是岗位被撤时给出的钱。"
+        },
+        {
+          "en": "Voluntary redundancy means workers choose to leave.",
+          "cn": "自愿裁员指员工自己选择离开。"
+        },
+        {
+          "en": "A backup generator is redundancy built into a building.",
+          "cn": "备用发电机就是楼里预先配置的冗余。"
+        },
+        {
+          "en": "Repeated words in a sentence are redundancy in style.",
+          "cn": "句子里重复的词就是文体上的冗余。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "Picture a cup so full that water runs down the side.",
+          "cn": "想象一只杯子太满，水从杯壁流下来。"
+        },
+        {
+          "en": "Picture two workers standing idle beside a moving line.",
+          "cn": "想象两名工人站在运转的流水线旁无事可做。"
+        },
+        {
+          "en": "Picture the same sentence written twice on one page.",
+          "cn": "想象同一句话在一页纸上写了两遍。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "The company offered redundancy pay to the workers who left.",
+        "cn": "公司向离职员工提供了裁员补偿金。"
+      },
+      {
+        "en": "Voluntary redundancy avoided forced job losses at the plant.",
+        "cn": "自愿裁员让工厂避免了强制性的岗位流失。"
+      },
+      {
+        "en": "A good design adds redundancy so that a single fault does not stop the machine.",
+        "cn": "好的设计会加入冗余，使单一故障不会让机器停转。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「瑞丹登西」——人太多，岗位像水一样溢出来了；谐音联想，不是词源。",
+      "word": "redundancy"
+    },
+    "root": "拉丁语 unda（波浪）→ redundare（溢出、回流）→ redundantia（溢出）→ 英语 redundancy，核心义「超出所需而溢出的部分」。",
+    "sensesIntro": {
+      "en": "Redundancy begins as an overflow, then names excess words, a post that is cut, a deliberate backup, and repeated data.",
+      "cn": "redundancy 从「溢出」出发，依次指多余的字词、被撤掉的岗位、有意设置的备份以及重复的数据。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: water rising above the rim of a full cup.",
+        "cn": "核心意象：水涨过满杯的杯口。"
+      },
+      "chain": [
+        "WAVE",
+        "OVERFLOW",
+        "EXCESS",
+        "REPETITION",
+        "CUT POST",
+        "BACKUP"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "The general excess is the core sense.",
+          "cn": "一般性的多余是核心义项。"
+        },
+        {
+          "senses": "02",
+          "en": "The cut post is the British labour sense.",
+          "cn": "被撤岗位是英式劳工义项。"
+        },
+        {
+          "senses": "03",
+          "en": "Excess words form the stylistic sense.",
+          "cn": "多余字词构成文体义项。"
+        },
+        {
+          "senses": "04 · 05",
+          "en": "Backups and repeated data are the technical senses.",
+          "cn": "备份与重复数据是技术义项。"
+        },
+        {
+          "senses": "01 · 02",
+          "en": "A post becomes redundant when it overflows the real need for work.",
+          "cn": "岗位超出实际工作所需时，就成了可被裁掉的冗余。"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Redundancy is built from Latin unda, a wave, through redundare, to overflow, with the noun suffix -ancy marking the resulting state.",
+        "cn": "redundancy 由拉丁语 unda（波浪）经 redundare（溢出）构成，名词后缀 -ancy 标记由此形成的状态。"
+      },
+      "latinIntro": {
+        "en": "Latin unda means a wave, redundare means to overflow, and redundantia means an overflow.",
+        "cn": "拉丁语 unda 意为波浪，redundare 意为溢出，redundantia 意为溢出之物或溢出状态。"
+      },
+      "items": [
+        {
+          "word": "unda",
+          "structure": "Latin noun",
+          "meaning": "a wave",
+          "meaningCN": "波浪",
+          "example": "Unda gives the wave image behind the word.",
+          "exampleCN": "unda 提供这个词背后的波浪意象。"
+        },
+        {
+          "word": "redundare",
+          "structure": "Latin verb",
+          "meaning": "to overflow, to run back",
+          "meaningCN": "溢出；回流",
+          "example": "Redundare is the flooding verb at the centre.",
+          "exampleCN": "redundare 是处于中心的「溢出」动词。"
+        },
+        {
+          "word": "redundantia",
+          "structure": "Latin noun",
+          "meaning": "an overflow",
+          "meaningCN": "溢出；多余",
+          "example": "Redundantia turns the verb into a state.",
+          "exampleCN": "redundantia 把动词变成状态名词。"
+        },
+        {
+          "word": "redundant",
+          "structure": "English adjective",
+          "meaning": "more than needed",
+          "meaningCN": "多余的；冗余的",
+          "example": "Redundant describes what overflows the need.",
+          "exampleCN": "redundant 描述超出所需的东西。"
+        },
+        {
+          "word": "redundancy",
+          "structure": "English noun",
+          "meaning": "excess or a cut job",
+          "meaningCN": "冗余；裁员",
+          "example": "Redundancy keeps the noun state and the job sense.",
+          "exampleCN": "redundancy 保留名词状态义与裁员义。"
+        },
+        {
+          "word": "-ancy",
+          "structure": "English suffix",
+          "meaning": "state or quality",
+          "meaningCN": "表示状态或性质的名词后缀",
+          "example": "The suffix -ancy forms redundancy from redundant.",
+          "exampleCN": "后缀 -ancy 让 redundant 构成 redundancy。"
+        },
+        {
+          "word": "-ant",
+          "structure": "English suffix",
+          "meaning": "being or doing",
+          "meaningCN": "表示「处于……的」的形容词后缀",
+          "example": "The suffix -ant forms redundant from the Latin verb.",
+          "exampleCN": "后缀 -ant 从拉丁动词构成 redundant。"
+        },
+        {
+          "word": "redundantly",
+          "structure": "English adverb",
+          "meaning": "in an excessive way",
+          "meaningCN": "多余地；冗余地",
+          "example": "Redundantly adds the adverb ending -ly.",
+          "exampleCN": "redundantly 加了副词词尾 -ly。"
+        },
+        {
+          "word": "redundance",
+          "structure": "English noun",
+          "meaning": "excess",
+          "meaningCN": "多余；冗余",
+          "example": "Redundance is the older parallel noun.",
+          "exampleCN": "redundance 是较旧的并行名词形式。"
+        },
+        {
+          "word": "-ly",
+          "structure": "English suffix",
+          "meaning": "in the manner of",
+          "meaningCN": "表示「以……方式」的副词后缀",
+          "example": "The suffix -ly forms redundantly.",
+          "exampleCN": "后缀 -ly 构成 redundantly。"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "unda",
+          "structure": "Latin noun",
+          "meaning": "a wave",
+          "meaningCN": "波浪"
+        },
+        {
+          "word": "redundare",
+          "structure": "Latin verb",
+          "meaning": "to overflow",
+          "meaningCN": "溢出"
+        },
+        {
+          "word": "redundantia",
+          "structure": "Latin noun",
+          "meaning": "an overflow",
+          "meaningCN": "溢出；多余"
+        }
+      ]
+    }
+  }
+]

@@ -6,11 +6,11 @@
     {
       "id": 1,
       "name": "核心词表",
-      "count": 1908
+      "count": 1911
     }
   ],
-  "declaredTotal": 1908,
-  "importedCount": 1908,
+  "declaredTotal": 1911,
+  "importedCount": 1911,
   "entries": [
     {
       "word": "inward",
@@ -9550,6 +9550,21 @@
     {
       "word": "receipt",
       "index": 1908,
+      "tier": 1
+    },
+    {
+      "word": "vendor",
+      "index": 1909,
+      "tier": 1
+    },
+    {
+      "word": "memo",
+      "index": 1910,
+      "tier": 1
+    },
+    {
+      "word": "redundancy",
+      "index": 1911,
       "tier": 1
     }
   ]

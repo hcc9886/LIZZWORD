@@ -6,11 +6,11 @@
     {
       "id": 1,
       "name": "核心词表",
-      "count": 1910
+      "count": 1915
     }
   ],
-  "declaredTotal": 1910,
-  "importedCount": 1910,
+  "declaredTotal": 1915,
+  "importedCount": 1915,
   "entries": [
     {
       "word": "inward",
@@ -9560,6 +9560,31 @@
     {
       "word": "warranty",
       "index": 1910,
+      "tier": 1
+    },
+    {
+      "word": "trademark",
+      "index": 1911,
+      "tier": 1
+    },
+    {
+      "word": "patent",
+      "index": 1912,
+      "tier": 1
+    },
+    {
+      "word": "merger",
+      "index": 1913,
+      "tier": 1
+    },
+    {
+      "word": "subsidiary",
+      "index": 1914,
+      "tier": 1
+    },
+    {
+      "word": "antitrust",
+      "index": 1915,
       "tier": 1
     }
   ]

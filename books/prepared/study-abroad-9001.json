@@ -1,0 +1,890 @@
+[
+  {
+    "word": "thesis",
+    "ipa_uk": "/ˈθiːsɪs/",
+    "ipa_us": "/ˈθiːsɪs/",
+    "definition_zh": "学位论文；论点；论题；命题",
+    "definition_en": "a long research essay submitted for a university degree, or a proposition put forward for argument",
+    "core_image": "一叠装订好的论文放在答辩桌上，封面印着标题与作者名",
+    "scene": "答辩室里，学生把装订好的论文递给评审，然后开始陈述自己的核心论点。In the defence room, the student handed the bound thesis to the examiners and then stated the central claim.",
+    "sceneCN": "这里 thesis 是「学位论文」（第 1 个义项：为取得学位而提交的研究长文）；句意：答辩室里，学生把装订好的论文递给评审，然后陈述核心论点。",
+    "pos": [
+      {
+        "tag": "n.",
+        "zh": "学位论文；论点；命题"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "doctoral thesis",
+        "zh": "博士论文"
+      },
+      {
+        "phrase": "thesis statement",
+        "zh": "论点陈述"
+      },
+      {
+        "phrase": "defend a thesis",
+        "zh": "进行论文答辩"
+      },
+      {
+        "phrase": "thesis supervisor",
+        "zh": "论文导师"
+      },
+      {
+        "phrase": "master thesis",
+        "zh": "硕士论文"
+      },
+      {
+        "phrase": "research thesis",
+        "zh": "研究论文"
+      }
+    ],
+    "forms": [
+      {
+        "label": "复数",
+        "form": "theses"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "antithesis",
+        "pos": "n.",
+        "zh": "对立面；反题，由 anti-（相反）加 thesis 构成"
+      },
+      {
+        "word": "hypothesis",
+        "pos": "n.",
+        "zh": "假设；假说，由 hypo-（在下）加 thesis 构成，字面义为「放在下面的命题」"
+      },
+      {
+        "word": "thetic",
+        "pos": "adj.",
+        "zh": "正题的；直陈的，由 thesis 加 -tic 构成"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "A degree dissertation",
+        "titleCN": "学位论文",
+        "definition": "a long piece of writing based on research, submitted for a university degree",
+        "definitionCN": "基于研究写成、为取得大学学位而提交的长篇论文",
+        "example": "She spent two years collecting data for her doctoral thesis.",
+        "exampleCN": "她花了两年时间为博士论文收集数据。",
+        "why": "The Greek word for a placing became the written work that a candidate lays before examiners.",
+        "whyCN": "希腊语中「放置」这个词，变成了候选人摆到评审面前的那部长篇作品。"
+      },
+      {
+        "no": "02",
+        "title": "The central claim",
+        "titleCN": "中心论点",
+        "definition": "the main claim that an essay or a talk sets out to prove",
+        "definitionCN": "文章或演讲试图证明的核心主张",
+        "example": "The thesis of the article is that remote work changes office life.",
+        "exampleCN": "这篇文章的中心论点是远程工作改变了办公室生活。",
+        "why": "A thesis is a proposition laid down, so it also names the claim a writer places at the centre.",
+        "whyCN": "thesis 本是被放下的命题，因此也指作者摆到文章中心的那条主张。"
+      },
+      {
+        "no": "03",
+        "title": "A proposition for argument",
+        "titleCN": "待论证的命题",
+        "definition": "a statement put forward for discussion and proof",
+        "definitionCN": "提出来供讨论并加以证明的陈述",
+        "example": "The debate class tested each thesis with evidence and counterexamples.",
+        "exampleCN": "辩论课用证据和反例逐一检验每个命题。",
+        "why": "Logic kept the original sense of a proposition placed for argument.",
+        "whyCN": "逻辑学保留了原义：一条被摆出来、等待论证的命题。"
+      },
+      {
+        "no": "04",
+        "title": "The first term in dialectic",
+        "titleCN": "正题",
+        "definition": "the first proposition in a dialectical pattern, which is answered by an antithesis",
+        "definitionCN": "辩证模式中的第一个命题，由反题来回应",
+        "example": "In the Hegelian pattern, the thesis is met by an antithesis and resolved in a synthesis.",
+        "exampleCN": "在黑格尔式模式中，正题遭遇反题，并在合题中得到解决。",
+        "why": "Philosophy used the placing image for the first term that is set down before its opposite.",
+        "whyCN": "哲学用「放置」的意象指先被放下、随后遭遇对立面的第一个命题。"
+      },
+      {
+        "no": "05",
+        "title": "A stressed beat in music",
+        "titleCN": "强拍",
+        "definition": "the strong beat of a bar, on which the movement of a phrase lands",
+        "definitionCN": "小节中的强拍，乐句的运动在此落定",
+        "example": "The conductor marked the thesis with a firm downward stroke.",
+        "exampleCN": "指挥用一个有力的下压动作标出强拍。",
+        "why": "Greek metrics called the placing of the foot on the beat a thesis, and music kept the downbeat image.",
+        "whyCN": "希腊韵律学把脚落在拍点上称为 thesis，音乐则保留了这个「落拍」意象。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Thesis comes from Greek thesis, a placing or a proposition, from tithenai, to place or put.",
+        "cn": "thesis 来自希腊语 thesis（放置、命题），源于 tithenai（放置、安放）。"
+      },
+      "items": [
+        {
+          "era": "GREEK",
+          "en": "Tithenai means to place or to put something down.",
+          "cn": "tithenai 意为放置、把某物放下。"
+        },
+        {
+          "era": "GREEK",
+          "en": "Thesis means a placing, and then a proposition laid down.",
+          "cn": "thesis 意为放置，进而指被放下的命题。"
+        },
+        {
+          "era": "LATIN",
+          "en": "Latin borrows thesis for a proposition and for a stressed beat.",
+          "cn": "拉丁语借入 thesis，用来指命题与强拍。"
+        },
+        {
+          "era": "ENGLISH, 16TH C.",
+          "en": "English thesis first names a proposition in logic and learning.",
+          "cn": "英语 thesis 最早指逻辑与学术中的命题。"
+        },
+        {
+          "era": "ENGLISH, 17TH C.",
+          "en": "The word extends to a subject laid out for formal debate.",
+          "cn": "这个词扩展到为正式辩论而摆出的论题。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "Thesis becomes the long research essay submitted for a degree.",
+          "cn": "现代英语中，thesis 指为取得学位而提交的研究长文。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "Thesis is the Greek placing word behind antithesis and hypothesis, and it sits near dissertation, essay, and argument.",
+        "cn": "thesis 是希腊语「放置」词，构成 antithesis 与 hypothesis，并与 dissertation、essay、argument 意义相邻。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "antithesis",
+              "ipa": "/ænˈtɪθəsɪs/",
+              "tag": "same root",
+              "definition": "the opposite proposition in a dialectical pair",
+              "definitionCN": "辩证配对中的反题；对立面"
+            },
+            {
+              "word": "hypothesis",
+              "ipa": "/haɪˈpɒθəsɪs/",
+              "tag": "same root",
+              "definition": "a supposition put forward as a starting point",
+              "definitionCN": "作为出发点提出的假设"
+            },
+            {
+              "word": "thetic",
+              "ipa": "/ˈθetɪk/",
+              "tag": "derived form",
+              "definition": "positive, laid down directly",
+              "definitionCN": "正题的；直陈的"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "dissertation",
+              "ipa": "/ˌdɪsəˈteɪʃn/",
+              "tag": "near meaning",
+              "definition": "a long research essay written for a degree",
+              "definitionCN": "为取得学位而写的长篇研究论文，与 thesis 的论文义接近"
+            },
+            {
+              "word": "essay",
+              "ipa": "/ˈeseɪ/",
+              "tag": "near meaning",
+              "definition": "a short piece of writing on a subject",
+              "definitionCN": "短文；随笔，篇幅通常比 thesis 短"
+            },
+            {
+              "word": "argument",
+              "ipa": "/ˈɑːɡjʊmənt/",
+              "tag": "near meaning",
+              "definition": "a set of reasons offered for a claim",
+              "definitionCN": "论证；说理，对应 thesis 的论点义"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Thesis comes from Greek tithenai, to place, so a thesis is a claim placed before readers.",
+        "cn": "thesis 来自希腊语 tithenai（放置），所以论文与论点都是摆到读者面前的东西。"
+      },
+      "normal": [
+        {
+          "en": "Thesis and tithenai share the Greek image of placing something down.",
+          "cn": "thesis 与 tithenai 共享希腊语「把东西放下」的意象。"
+        },
+        {
+          "en": "A doctoral thesis is the long work a candidate places before examiners.",
+          "cn": "博士论文是候选人摆到评审面前的长篇作品。"
+        },
+        {
+          "en": "The thesis statement tells the reader what the essay will prove.",
+          "cn": "论点陈述告诉读者这篇文章要证明什么。"
+        },
+        {
+          "en": "To defend a thesis is to answer the questions of the examiners.",
+          "cn": "进行论文答辩，就是回答评审提出的问题。"
+        },
+        {
+          "en": "Compare dissertation: dissertation is the book, thesis can also be the claim.",
+          "cn": "对比 dissertation：dissertation 指那本书，thesis 还可以指书中的主张。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "Picture a bound volume placed on a defence table.",
+          "cn": "想象一本装订好的论文放在答辩桌上。"
+        },
+        {
+          "en": "Picture one sentence underlined at the top of a page.",
+          "cn": "想象一页纸的顶端有一句话被画了下划线。"
+        },
+        {
+          "en": "Picture a stone marker set down on a debate table.",
+          "cn": "想象一块石制标记被放在辩论桌上。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "Her thesis examines how students learn to write academic English.",
+        "cn": "她的论文研究学生如何学习学术英语写作。"
+      },
+      {
+        "en": "The supervisor asked him to state the thesis in one sentence.",
+        "cn": "导师让他用一句话说清中心论点。"
+      },
+      {
+        "en": "Several theses in the library cover the same period of history.",
+        "cn": "图书馆里有好几篇论文研究同一段历史。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「西塞斯」——西施把论文塞进书桌；谐音联想，不是词源。",
+      "word": "thesis"
+    },
+    "root": "希腊语 tithenai（放置）→ thesis（放置；被放下的命题）→ 拉丁语 thesis → 英语 thesis，核心义「把主张摆出来、放下」。",
+    "sensesIntro": {
+      "en": "Thesis moves from the act of placing to the claim placed before readers, then to the degree essay, the dialectical first term, and the musical downbeat.",
+      "cn": "thesis 从「放置」这一动作，转到摆到读者面前的论点，再引申为学位论文、辩证法正题与音乐强拍。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: a bound dissertation laid on the table of a defence room.",
+        "cn": "核心意象：一本装订好的论文放在答辩室的桌上。"
+      },
+      "chain": [
+        "PLACE",
+        "SET DOWN",
+        "PROPOSITION",
+        "ARGUMENT",
+        "DISSERTATION",
+        "DEFENCE"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "The degree dissertation is the main academic sense.",
+          "cn": "学位论文是主要的学术义项。"
+        },
+        {
+          "senses": "02",
+          "en": "The central claim is the essay sense.",
+          "cn": "中心论点是文章层面的义项。"
+        },
+        {
+          "senses": "03",
+          "en": "The proposition for argument is the logical sense.",
+          "cn": "待论证命题是逻辑义项。"
+        },
+        {
+          "senses": "04",
+          "en": "The dialectical first term is the philosophical sense.",
+          "cn": "辩证法正题是哲学义项。"
+        },
+        {
+          "senses": "05",
+          "en": "The stressed beat is the musical sense.",
+          "cn": "强拍是音乐义项。"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Thesis is built on Greek tithenai, to place, with the action-noun ending -sis; antithesis and hypothesis are the same root with different prefixes.",
+        "cn": "thesis 建在希腊语 tithenai（放置）之上，动作名词词尾 -sis 使其成为「放置」这一行为；antithesis 与 hypothesis 则是换用不同前缀的同根词。"
+      },
+      "latinIntro": {
+        "en": "Greek tithenai means to place, thesis means a placing or proposition, and Latin borrowed thesis with both senses.",
+        "cn": "希腊语 tithenai 意为放置，thesis 意为放置或命题，拉丁语把这两个含义一并借入。"
+      },
+      "items": [
+        {
+          "word": "tithenai",
+          "structure": "Greek verb",
+          "meaning": "to place, to put",
+          "meaningCN": "放置；安放",
+          "example": "Tithenai is the verb behind thesis.",
+          "exampleCN": "tithenai 是 thesis 背后的动词。"
+        },
+        {
+          "word": "thesis",
+          "structure": "Greek noun",
+          "meaning": "a placing, a proposition",
+          "meaningCN": "放置；命题",
+          "example": "Greek thesis joins the placing action with a claim.",
+          "exampleCN": "希腊语 thesis 把放置动作与主张连在一起。"
+        },
+        {
+          "word": "thesis",
+          "structure": "Latin noun",
+          "meaning": "a proposition, a stressed beat",
+          "meaningCN": "命题；强拍",
+          "example": "Latin thesis keeps the proposition and the beat.",
+          "exampleCN": "拉丁语 thesis 保留命题与强拍两个含义。"
+        },
+        {
+          "word": "-sis",
+          "structure": "Greek suffix",
+          "meaning": "action or process",
+          "meaningCN": "表示动作或过程的名词词尾",
+          "example": "The ending -sis turns a verb of placing into a noun.",
+          "exampleCN": "词尾 -sis 把「放置」动词变成名词。"
+        },
+        {
+          "word": "antithesis",
+          "structure": "Greek noun",
+          "meaning": "a placing against, the opposite proposition",
+          "meaningCN": "反题；对立面",
+          "example": "Antithesis sets a second claim against the first.",
+          "exampleCN": "antithesis 把第二个主张放到第一个的对面。"
+        },
+        {
+          "word": "hypothesis",
+          "structure": "Greek noun",
+          "meaning": "a placing under, a supposition",
+          "meaningCN": "假设；假说",
+          "example": "Hypothesis places a starting claim under an inquiry.",
+          "exampleCN": "hypothesis 把一个起点主张放在探究之下。"
+        },
+        {
+          "word": "synthesis",
+          "structure": "Greek noun",
+          "meaning": "a placing together",
+          "meaningCN": "合题；综合",
+          "example": "Synthesis places the two sides together.",
+          "exampleCN": "synthesis 把两面放到一起。"
+        },
+        {
+          "word": "parenthesis",
+          "structure": "Greek noun",
+          "meaning": "a placing beside, a bracket",
+          "meaningCN": "插入语；括号",
+          "example": "Parenthesis places extra words beside the main line.",
+          "exampleCN": "parenthesis 把额外的词放在主线旁边。"
+        },
+        {
+          "word": "thetic",
+          "structure": "English adjective",
+          "meaning": "positive, directly laid down",
+          "meaningCN": "正题的；直陈的",
+          "example": "Thetic describes a claim laid down without opposition.",
+          "exampleCN": "thetic 描述未经对立就直接放下的主张。"
+        },
+        {
+          "word": "thesis",
+          "structure": "English noun",
+          "meaning": "a degree essay or a claim",
+          "meaningCN": "学位论文；论点",
+          "example": "English thesis keeps the essay and the claim.",
+          "exampleCN": "英语 thesis 同时保留论文与论点两个含义。"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "thesis",
+          "structure": "Latin noun",
+          "meaning": "a proposition",
+          "meaningCN": "命题"
+        },
+        {
+          "word": "antithesis",
+          "structure": "Latin noun",
+          "meaning": "the opposite proposition",
+          "meaningCN": "反题；对立面"
+        }
+      ]
+    }
+  },
+  {
+    "word": "citation",
+    "ipa_uk": "/saɪˈteɪʃn/",
+    "ipa_us": "/saɪˈteɪʃən/",
+    "definition_zh": "引用；引文；传票；表彰",
+    "definition_en": "a reference to a source, an official summons to appear in court, or a formal mention of merit",
+    "core_image": "一根手指指向摊开的书页，旁边写下一行出处",
+    "scene": "法庭书记员把传票递给证人，要求他按时出庭作证。The court clerk handed the citation to the witness and told him to appear on time.",
+    "sceneCN": "这里 citation 是「传票」（第 3 个义项：法院传唤某人出庭的正式命令）；句意：书记员把传票递给证人，要求他按时出庭。",
+    "pos": [
+      {
+        "tag": "n.",
+        "zh": "引用；引文；传票；表彰"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "citation style",
+        "zh": "引用格式"
+      },
+      {
+        "phrase": "citation index",
+        "zh": "引文索引"
+      },
+      {
+        "phrase": "issue a citation",
+        "zh": "开具传票；签发嘉奖令"
+      },
+      {
+        "phrase": "traffic citation",
+        "zh": "交通罚单"
+      },
+      {
+        "phrase": "citation needed",
+        "zh": "需要出处"
+      },
+      {
+        "phrase": "full citation",
+        "zh": "完整出处"
+      }
+    ],
+    "forms": [
+      {
+        "label": "复数",
+        "form": "citations"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "cite",
+        "pos": "v.",
+        "zh": "引用；引证；传唤，是 citation 的动词形式"
+      },
+      {
+        "word": "citable",
+        "pos": "adj.",
+        "zh": "可引用的，由 cite 加 -able 构成"
+      },
+      {
+        "word": "citer",
+        "pos": "n.",
+        "zh": "引用者，由 cite 加 -er 构成"
+      },
+      {
+        "word": "citational",
+        "pos": "adj.",
+        "zh": "引用的；与引用有关的"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "A quoted passage",
+        "titleCN": "引文；引用文字",
+        "definition": "a group of words taken from a book or a speech and used in another text",
+        "definitionCN": "从书籍或演讲中取出、用于另一篇文字的一段话",
+        "example": "The opening citation from the poem sets the tone of the chapter.",
+        "exampleCN": "开篇引用的诗句为这一章定下基调。",
+        "why": "Citare means to call, so a citation calls the words of another writer into a new text.",
+        "whyCN": "citare 意为召唤，所以引文就是把别人的话叫进自己的文章里。"
+      },
+      {
+        "no": "02",
+        "title": "The act of referring",
+        "titleCN": "引用行为；引证",
+        "definition": "the act of referring to a source in support of an argument",
+        "definitionCN": "为支持论点而提及来源的行为",
+        "example": "Proper citation allows readers to check every claim.",
+        "exampleCN": "规范的引用让读者能够核查每一个论断。",
+        "why": "The act sense names the calling itself, not only the words that are called.",
+        "whyCN": "这个义项指「召唤」这个动作本身，而不只是被叫来的那些文字。"
+      },
+      {
+        "no": "03",
+        "title": "A court summons",
+        "titleCN": "传票",
+        "definition": "an official order summoning someone to appear in court",
+        "definitionCN": "法院传唤某人出庭的正式命令",
+        "example": "The court issued a citation to the witness who failed to appear.",
+        "exampleCN": "法院向未能出庭的证人发出了传票。",
+        "why": "The oldest English sense is legal: a citation calls a person to court.",
+        "whyCN": "英语里最古老的义项是法律义：传票把一个人叫到法庭上。"
+      },
+      {
+        "no": "04",
+        "title": "An official commendation",
+        "titleCN": "表彰；嘉奖",
+        "definition": "an official mention of someone brave or successful, especially in the armed forces",
+        "definitionCN": "对英勇或有功者的官方表扬，尤指军队中的嘉奖",
+        "example": "The soldier received a citation for rescuing two civilians.",
+        "exampleCN": "这名士兵因救出两名平民而获得嘉奖。",
+        "why": "A citation can also call attention to merit, a formal public naming of good service.",
+        "whyCN": "citation 也可以把功劳叫到公众面前，于是引申为对良好表现的正式公开表彰。"
+      },
+      {
+        "no": "05",
+        "title": "A supporting example",
+        "titleCN": "援引；例证",
+        "definition": "a mention of a person or a case as an example or a proof",
+        "definitionCN": "把某人或某案例作为例证或证据提出来",
+        "example": "The report includes a citation of two earlier studies on the same problem.",
+        "exampleCN": "报告援引了两项研究同一问题的早期成果。",
+        "why": "Reference to a case or an authority is another way of calling it in as support.",
+        "whyCN": "提及某个案例或权威，是把它叫进来充当支撑的另一种方式。"
+      },
+      {
+        "no": "06",
+        "title": "A reference entry",
+        "titleCN": "参考文献条目",
+        "definition": "the details of a source listed at the end of a text",
+        "definitionCN": "列在文章末尾的出处信息",
+        "example": "Every citation in the list gives the author, the title, and the year.",
+        "exampleCN": "列表中的每一条参考文献都给出作者、标题和年份。",
+        "why": "Modern publishing turns the calling into a fixed entry that lets a reader find the source.",
+        "whyCN": "现代出版把「召唤」固定成条目，读者据此可以找到原始出处。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Citation comes from Latin citatio, a summons, from citare, to summon, a frequentative of ciere, to set in motion or call.",
+        "cn": "citation 来自拉丁语 citatio（传唤），源于 citare（传唤），而 citare 是 ciere（使动、召唤）的反复动词。"
+      },
+      "items": [
+        {
+          "era": "LATIN",
+          "en": "Ciere means to set in motion or to call.",
+          "cn": "ciere 意为使动、唤起或召唤。"
+        },
+        {
+          "era": "LATIN",
+          "en": "Citare, its frequentative, means to summon or to call repeatedly.",
+          "cn": "citare 是它的反复动词，意为传唤、反复召唤。"
+        },
+        {
+          "era": "LATIN",
+          "en": "Citatio names a summons to appear.",
+          "cn": "citatio 指传唤出庭。"
+        },
+        {
+          "era": "OLD FRENCH",
+          "en": "Citation carries the summons sense into French.",
+          "cn": "citation 把传唤义带入法语。"
+        },
+        {
+          "era": "ENGLISH, 14TH C.",
+          "en": "English citation first means a summons to a court.",
+          "cn": "英语 citation 最早指法院传唤。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "The word extends to quotations, reference entries, and awards.",
+          "cn": "这个词后来扩展到引文、参考文献条目与嘉奖。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "Citation belongs to the Latin calling family of cite, citable, and recitation, and it sits near quotation, reference, and summons.",
+        "cn": "citation 属于拉丁语「召唤」词族，与 cite、citable、recitation 同源，并与 quotation、reference、summons 意义相邻。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "cite",
+              "ipa": "/saɪt/",
+              "tag": "base verb",
+              "definition": "to quote a source or to summon someone",
+              "definitionCN": "引用出处；传唤某人"
+            },
+            {
+              "word": "citable",
+              "ipa": "/ˈsaɪtəbl/",
+              "tag": "derived form",
+              "definition": "able to be cited",
+              "definitionCN": "可以引用的"
+            },
+            {
+              "word": "recitation",
+              "ipa": "/ˌresɪˈteɪʃn/",
+              "tag": "same root",
+              "definition": "the act of reciting words aloud",
+              "definitionCN": "背诵；朗诵，与 citation 同出 citare"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "quotation",
+              "ipa": "/kwəʊˈteɪʃn/",
+              "tag": "near meaning",
+              "definition": "a group of words repeated from a source",
+              "definitionCN": "引语；引用的话，强调被重复的那段文字"
+            },
+            {
+              "word": "reference",
+              "ipa": "/ˈrefrəns/",
+              "tag": "near meaning",
+              "definition": "a mention of a source or a piece of information",
+              "definitionCN": "提及；参考出处，范围比 citation 更宽"
+            },
+            {
+              "word": "summons",
+              "ipa": "/ˈsʌmənz/",
+              "tag": "legal",
+              "definition": "an official order to appear in court",
+              "definitionCN": "传票；传唤令，与 citation 的法律义接近"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Citation and cite share the Latin verb citare, to summon or to call.",
+        "cn": "citation 与 cite 同出拉丁语 citare（召唤、传唤）。"
+      },
+      "normal": [
+        {
+          "en": "Citation and cite share the Latin verb citare, to summon.",
+          "cn": "citation 与 cite 同出拉丁语 citare（召唤）。"
+        },
+        {
+          "en": "A citation in a paper calls a source to stand as evidence.",
+          "cn": "论文中的引用把某个出处叫来充当证据。"
+        },
+        {
+          "en": "Citation style fixes the order of author, title, and year.",
+          "cn": "引用格式固定作者、标题与年份的排列顺序。"
+        },
+        {
+          "en": "A traffic citation is a ticket that calls a driver to answer for a fault.",
+          "cn": "交通罚单是一张叫司机为违规作出回应的票。"
+        },
+        {
+          "en": "Compare quotation: a quotation is the words, a citation is the reference to their source.",
+          "cn": "对比 quotation：quotation 是被引的文字，citation 是对出处的指认。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "Picture a hand beckoning words out of an open book.",
+          "cn": "想象一只手从摊开的书里把文字招出来。"
+        },
+        {
+          "en": "Picture a name called across a crowded room.",
+          "cn": "想象一个名字在拥挤的房间里被叫起。"
+        },
+        {
+          "en": "Picture a sealed summons lying on a table.",
+          "cn": "想象一张封好的传票放在桌上。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "Each citation must match the style guide of the journal.",
+        "cn": "每条引用都必须符合该期刊的格式指南。"
+      },
+      {
+        "en": "The court citation ordered the company to appear next month.",
+        "cn": "法院传票命令该公司下月出庭。"
+      },
+      {
+        "en": "The officer wrote a citation for the car parked in the wrong place.",
+        "cn": "警官给停错位置的汽车开了一张罚单。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「塞太申」——把引文塞进正文，还要注明出处；谐音联想，不是词源。",
+      "word": "citation"
+    },
+    "root": "拉丁语 ciere（唤起、召唤）→ citare（召唤、引用）→ citatio（传唤）→ 古法语 citation → 英语 citation，核心义「把某人或某句话叫出来作证」。",
+    "sensesIntro": {
+      "en": "Citation starts as a court summons, then becomes the act of calling a source, the quoted words, the supporting example, the reference entry, and an award.",
+      "cn": "citation 从法院传唤出发，引申为召唤出处的行为、被引的文字、援引的例证、参考文献条目以及嘉奖。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: a finger pointing at a line in an open book.",
+        "cn": "核心意象：一根手指指向摊开书页上的一行字。"
+      },
+      "chain": [
+        "CALL",
+        "SUMMON",
+        "COURT",
+        "QUOTE",
+        "REFERENCE",
+        "HONOUR"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "The quoted passage is the textual sense.",
+          "cn": "引文是文本层面的义项。"
+        },
+        {
+          "senses": "02",
+          "en": "The act of referring is the process sense.",
+          "cn": "引用行为是过程义项。"
+        },
+        {
+          "senses": "03",
+          "en": "The court summons is the oldest legal sense.",
+          "cn": "法院传票是最古老的法律义项。"
+        },
+        {
+          "senses": "04",
+          "en": "The commendation is the public honour sense.",
+          "cn": "嘉奖是公开荣誉义项。"
+        },
+        {
+          "senses": "05 · 06",
+          "en": "Supporting examples and reference entries both point readers to a source.",
+          "cn": "援引例证与参考文献条目都把读者指向某个出处。"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Citation is built on Latin citare, to summon, with the noun ending -ation; cite and citable show the same root in English.",
+        "cn": "citation 建在拉丁语 citare（召唤）之上，名词词尾 -ation 使其成为行为或结果；cite 与 citable 是英语中同根的动词与形容词。"
+      },
+      "latinIntro": {
+        "en": "Latin ciere means to call, citare means to summon, and citatio means a summons.",
+        "cn": "拉丁语 ciere 意为召唤，citare 意为传唤，citatio 意为传唤。"
+      },
+      "items": [
+        {
+          "word": "ciere",
+          "structure": "Latin verb",
+          "meaning": "to set in motion, to call",
+          "meaningCN": "使动；唤起；召唤",
+          "example": "Ciere is the short verb at the root.",
+          "exampleCN": "ciere 是词根处的简短动词。"
+        },
+        {
+          "word": "citare",
+          "structure": "Latin verb",
+          "meaning": "to summon, to call",
+          "meaningCN": "传唤；召唤",
+          "example": "Citare is the frequentative of ciere.",
+          "exampleCN": "citare 是 ciere 的反复动词。"
+        },
+        {
+          "word": "citatio",
+          "structure": "Latin noun",
+          "meaning": "a summons",
+          "meaningCN": "传唤；传票",
+          "example": "Citatio names the legal call to appear.",
+          "exampleCN": "citatio 指传唤出庭这一法律行为。"
+        },
+        {
+          "word": "-ation",
+          "structure": "English suffix",
+          "meaning": "action or result",
+          "meaningCN": "表示行为或结果的名词词尾",
+          "example": "The ending -ation forms citation from citare.",
+          "exampleCN": "词尾 -ation 让 citare 构成 citation。"
+        },
+        {
+          "word": "citation",
+          "structure": "English noun",
+          "meaning": "a reference or a summons",
+          "meaningCN": "引用；传票",
+          "example": "Citation keeps the calling image in modern English.",
+          "exampleCN": "citation 在现代英语中保留「召唤」意象。"
+        },
+        {
+          "word": "cite",
+          "structure": "English verb",
+          "meaning": "to quote or to summon",
+          "meaningCN": "引用；传唤",
+          "example": "Cite is the short English verb of the family.",
+          "exampleCN": "cite 是这个词族里简短的英语动词。"
+        },
+        {
+          "word": "citable",
+          "structure": "English adjective",
+          "meaning": "able to be cited",
+          "meaningCN": "可引用的",
+          "example": "Citable adds the adjective suffix -able.",
+          "exampleCN": "citable 加了形容词后缀 -able。"
+        },
+        {
+          "word": "citer",
+          "structure": "English noun",
+          "meaning": "a person who cites",
+          "meaningCN": "引用者；引证者",
+          "example": "Citer adds the agent suffix -er.",
+          "exampleCN": "citer 加了施事后缀 -er。"
+        },
+        {
+          "word": "recitation",
+          "structure": "English noun",
+          "meaning": "the act of reciting aloud",
+          "meaningCN": "背诵；朗诵",
+          "example": "Recitation repeats the root with the prefix re-.",
+          "exampleCN": "recitation 用前缀 re- 重复了同一词根。"
+        },
+        {
+          "word": "-able",
+          "structure": "English suffix",
+          "meaning": "capable of being",
+          "meaningCN": "表示「可以被……」的形容词后缀",
+          "example": "The suffix -able forms citable from cite.",
+          "exampleCN": "后缀 -able 让 cite 构成 citable。"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "ciere",
+          "structure": "Latin verb",
+          "meaning": "to call",
+          "meaningCN": "召唤；唤起"
+        },
+        {
+          "word": "citare",
+          "structure": "Latin verb",
+          "meaning": "to summon",
+          "meaningCN": "传唤"
+        },
+        {
+          "word": "citatio",
+          "structure": "Latin noun",
+          "meaning": "a summons",
+          "meaningCN": "传唤；传票"
+        }
+      ]
+    }
+  }
+]

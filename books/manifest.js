@@ -785,6 +785,7 @@ window.BOOK_MANIFEST = {
     "./books/prepared/sat-0016.json",
     "./books/prepared/sat-0017.json",
     "./books/prepared/sat-0019.json",
+    "./books/prepared/study-abroad-9001.json",
     "./books/prepared/toefl-core-5000-0017.json",
     "./books/prepared/toefl-core-5000-0023.json",
     "./books/prepared/toefl-core-5000-0024.json",
@@ -1625,6 +1626,7 @@ window.BOOK_MANIFEST = {
     "./books/prepared/gaokao-0011.json"
   ],
   "bec": [
+    "./books/prepared/bec-9001.json",
     "./books/prepared/cet4-0001.json",
     "./books/prepared/cet4-0002.json",
     "./books/prepared/cet4-0003.json",
@@ -2287,6 +2289,7 @@ window.BOOK_MANIFEST = {
     "./books/prepared/medical-9002.json",
     "./books/prepared/medical-9003.json",
     "./books/prepared/medical-9004.json",
+    "./books/prepared/medical-9005.json",
     "./books/prepared/sat-0004.json",
     "./books/prepared/sat-0387.json",
     "./books/prepared/toefl-core-5000-0062.json",
@@ -2300,6 +2303,7 @@ window.BOOK_MANIFEST = {
   "business-law": [
     "./books/prepared/business-law-9001.json",
     "./books/prepared/business-law-9002.json",
+    "./books/prepared/business-law-9003.json",
     "./books/prepared/cet4-0001.json",
     "./books/prepared/cet4-0002.json",
     "./books/prepared/cet4-0003.json",

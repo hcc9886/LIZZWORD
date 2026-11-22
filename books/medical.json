@@ -6,11 +6,11 @@
     {
       "id": 1,
       "name": "核心词表",
-      "count": 1907
+      "count": 1911
     }
   ],
-  "declaredTotal": 1907,
-  "importedCount": 1907,
+  "declaredTotal": 1911,
+  "importedCount": 1911,
   "entries": [
     {
       "word": "inward",
@@ -9545,6 +9545,26 @@
     {
       "word": "prescription",
       "index": 1907,
+      "tier": 1
+    },
+    {
+      "word": "hygiene",
+      "index": 1908,
+      "tier": 1
+    },
+    {
+      "word": "sanitation",
+      "index": 1909,
+      "tier": 1
+    },
+    {
+      "word": "pandemic",
+      "index": 1910,
+      "tier": 1
+    },
+    {
+      "word": "quarantine",
+      "index": 1911,
       "tier": 1
     }
   ]
