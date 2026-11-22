@@ -789,6 +789,7 @@ window.BOOK_MANIFEST = {
     "./books/prepared/study-abroad-9002.json",
     "./books/prepared/study-abroad-9003.json",
     "./books/prepared/study-abroad-9004.json",
+    "./books/prepared/study-abroad-9005.json",
     "./books/prepared/toefl-core-5000-0017.json",
     "./books/prepared/toefl-core-5000-0023.json",
     "./books/prepared/toefl-core-5000-0024.json",
