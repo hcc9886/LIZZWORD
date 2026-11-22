@@ -237,6 +237,7 @@
       if (!String(text).split(/\s+/).some((token) => lemmaMatch(token, lemma))) return;
       candidates.push({ text: text.trim(), zh: zh || "" });
     };
+    // 例句池：examples[] 优先，其次 senses[].example，最后 scene
     if (Array.isArray(entry.examples)) {
       for (const item of entry.examples) push(item && item.en, item && item.cn);
     }

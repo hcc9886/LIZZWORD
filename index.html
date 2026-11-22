@@ -12504,6 +12504,7 @@
             <button type="button" class="btn-ghost" data-wrong-clear>清空错词本</button>
           </div>
         </section>
+        ${weaknessHTML()}
         ${asmReview ? asmReviewHTML() : `<section class="asm-review-entry">
           <p class="drill-sub">拼装队列：把「写」阶段拼错的句子单独复习，不影响单词卡进度。</p>
           <button type="button" class="btn-primary" data-asm-review-open>打开句子复习</button>
@@ -12702,6 +12703,67 @@
       openCustomBookEditor();
     }
 
+
+
+    // 事件流接 Supabase：登录后把本地事件批量写入 learning_events
+    function wireEventsRemote() {
+      const events = window.LZEvents;
+      const account = window.LIZZWORD_ACCOUNT;
+      const cfg = window.LIZZWORD_ACCOUNT_CONFIG;
+      if (!events || !account || !cfg || !cfg.url || !cfg.anonKey) return;
+      if (typeof events.setRemote !== "function") return;
+      events.setRemote(async (list) => {
+        const session = account.getSession && account.getSession();
+        if (!session || !session.access_token) return null;
+        const rows = (list || []).map((event) => ({
+          user_id: session.user && session.user.id ? session.user.id : null,
+          event_type: event.t || "unknown",
+          payload: event,
+          client_ts: event.at || new Date().toISOString()
+        }));
+        if (!rows.length) return null;
+        const url = cfg.url.replace(/\/$/, "") + "/rest/v1/learning_events";
+        const res = await fetch(url, {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            apikey: cfg.anonKey,
+            Authorization: "Bearer " + session.access_token,
+            Prefer: "return=minimal"
+          },
+          body: JSON.stringify(rows)
+        });
+        if (!res.ok) throw new Error("events insert failed: " + res.status);
+        return true;
+      });
+    }
+
+    // ---------- 拼装弱点 → 专项练习 ----------
+    function assemblyWeaknessList() {
+      const out = [];
+      try {
+        for (let i = 0; i < localStorage.length; i += 1) {
+          const key = localStorage.key(i);
+          if (!key || key.indexOf("lizzword_asm_weak:") !== 0) continue;
+          const lemma = key.slice("lizzword_asm_weak:".length);
+          let data = null;
+          try { data = JSON.parse(localStorage.getItem(key)); } catch (e) { data = null; }
+          if (!data) continue;
+          const top = Object.entries(data)
+            .filter(([k]) => ["spelling", "order", "collocation", "morphology"].indexOf(k) >= 0)
+            .sort((a, b) => Number(b[1]) - Number(a[1]) || 0)[0];
+          if (!top || Number(top[1]) <= 0) continue;
+          out.push({ lemma, type: top[0], score: Number(top[1]) });
+        }
+      } catch (e) { /* ignore */ }
+      return out.sort((a, b) => b.score - a.score);
+    }
+
+    function startWeaknessDrill(kind) {
+      const map = { collocation: "example", morphology: "confusable", order: "example", spelling: "example" };
+      startDrill(map[kind] || "example");
+    }
+
     // ---------- 句子复习（独立于单词卡的拼装队列） ----------
     function asmReviewHTML() {
       const item = asmReview;
@@ -12725,6 +12787,20 @@
             <button type="button" class="btn-ghost" data-asm-review-close>收起</button>
           </div>
         </section>`;
+    }
+
+
+    function weaknessHTML() {
+      const list = assemblyWeaknessList();
+      if (!list.length) return "";
+      const labels = { spelling: "拼写", order: "语序", collocation: "介词搭配", morphology: "词形" };
+      return '<section class="asm-review-entry">' +
+        '<p class="drill-sub">从拼装里归纳出的弱点（点进去练同类）：</p>' +
+        list.slice(0, 6).map((row) =>
+          '<p class="drill-sub">· ' + esc(row.lemma) + " · " + esc(labels[row.type] || row.type) +
+          ' <button type="button" class="btn-ghost" data-weak-drill="' + esc(row.type) + '">练这类</button></p>'
+        ).join("") +
+        "</section>";
     }
 
     function openAsmReview() {
@@ -13001,6 +13077,12 @@
       const wrongWord = event.target.closest("[data-wrong-word]");
       if (wrongWord) {
         openWordInBrowse(wrongWord.dataset.wrongWord);
+        return;
+      }
+      const weakDrill = event.target.closest("[data-weak-drill]");
+      if (weakDrill) {
+        showView("drill");
+        startWeaknessDrill(weakDrill.dataset.weakDrill);
         return;
       }
       if (event.target.closest("[data-asm-review-entry]")) {
@@ -14369,6 +14451,12 @@
     loadBookBundle(activeBookConfig, boot);
     maybeOnboard();
     refreshPlanPill();
+    wireEventsRemote();
+    document.addEventListener("lizzword:account-changed", (event) => {
+      if (event && event.detail && event.detail.session && window.LZEvents) {
+        window.LZEvents.flushRemote();
+      }
+    });
     }
 
     // 调试 / 自动化测试可直接调用这些纯函数
