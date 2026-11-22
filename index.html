@@ -316,6 +316,8 @@
     .wrong-def { grid-column: 1 / -1; font-size: 0.82rem; color: #6b7280; }
 
     /* ===== 计划卡 ===== */
+    .plan-actions { display: flex; gap: 8px; flex: 0 0 auto; }
+
     .plan-card {
       display: flex; align-items: center; justify-content: space-between; gap: 12px;
       margin: 0 0 14px; padding: 14px 16px; border-radius: 14px;
@@ -8973,12 +8975,21 @@
       if (!asm || !wordItem) return null;
       try {
         const sentence = asm.extractCuratedSentence(wordItem.word, wordItem, "");
-        if (!sentence) return null;
-        writeCurrent.assembly = { sentence, placed: [], submitted: false, result: null, errorType: "", pool: shuffle(sentence.chunks.slice()) };
-      } catch (e) {
-        writeCurrent.assembly = null;
+        if (sentence) {
+          writeCurrent.assembly = { sentence, placed: [], submitted: false, result: null, errorType: "", pool: shuffle(sentence.chunks.slice()) };
+          return writeCurrent.assembly;
+        }
+      } catch (e) { /* 抽取失败继续走异步候选 */ }
+      // 本地没有合适句：异步尝试共享句库 / 生成句（离线时自然跳过）
+      if (asm.getOrCreateSentenceForWord) {
+        const currentId = writeCurrent.wordId;
+        asm.getOrCreateSentenceForWord(wordItem.word, { entry: wordItem, level: "" }).then((found) => {
+          if (!found || !writeCurrent || writeCurrent.wordId !== currentId || writeCurrent.assembly) return;
+          writeCurrent.assembly = { sentence: found, placed: [], submitted: false, result: null, errorType: "", pool: shuffle(found.chunks.slice()) };
+          if (!writeCurrent.spellingOnly) renderStudyView();
+        }).catch(() => { /* 回退整词拼写 */ });
       }
-      return writeCurrent.assembly;
+      return null;
     }
 
     function assemblyBodyHTML(wordItem) {
@@ -11544,7 +11555,10 @@
             <p class="plan-sub">新词 <b>${plan.newWords}</b> 个 · 复习 <b>${plan.reviewTarget}</b> 个 · 推荐 <b>${esc(plan.mix[0])}</b> · 配比 ${esc(plan.mix.join(" → "))}</p>
             ${plan.examHint ? `<p class="plan-hint">${esc(plan.examHint)}</p>` : ""}
           </div>
-          <button type="button" class="btn-ghost" data-plan-open>调整</button>
+          <div class="plan-actions">
+            <button type="button" class="btn-primary" data-plan-start>按计划开始</button>
+            <button type="button" class="btn-ghost" data-plan-open>调整</button>
+          </div>
         </section>`;
     }
 
@@ -12307,6 +12321,21 @@
         wrongBookSave({});
         renderView();
         showToast("错词本已清空。");
+        return;
+      }
+
+      if (event.target.closest("[data-plan-start]")) {
+        const plan = currentPlan();
+        const modeMap = { "例句填空": "example", "形近辨析": "confusable", "词根拆解": "affix" };
+        const drillMode = plan && modeMap[plan.mix[0]];
+        if (drillMode) {
+          showView("drill");
+          startDrill(drillMode);
+        } else if (plan && plan.bookId) {
+          showView("study");
+        } else {
+          showView("drill");
+        }
         return;
       }
 

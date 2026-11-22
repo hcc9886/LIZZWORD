@@ -53,7 +53,7 @@
 
   function isPlus() {
     const plan = state().plan;
-    return plan === "plus" || plan === "pro" || plan === "trial";
+    return plan === "plus" || plan === "pro" || plan === "team" || plan === "trial";
   }
 
   function canOpenBook(bookId) {
