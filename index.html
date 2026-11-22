@@ -279,6 +279,22 @@
 
 
     .custom-list { max-height: 260px; overflow: auto; }
+
+    .class-code-box { display: flex; align-items: center; gap: 10px; padding: 10px 12px; margin-bottom: 12px;
+      border: 1px dashed #c9d9ff; border-radius: 12px; background: #f8faff; }
+    .class-code-label { font-size: 0.78rem; color: #6b7280; }
+    .class-code-value { font-weight: 700; letter-spacing: 0.06em; color: #3157d5; }
+    .class-assign-row { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+    .class-select, .class-num, .class-date { padding: 8px 10px; border-radius: 10px; border: 1px solid #e1e5f0; font-size: 0.84rem; }
+    .class-select { flex: 1 1 200px; min-width: 0; }
+    .class-num { width: 84px; }
+    .class-assign-list { list-style: none; padding: 0; margin: 10px 0 0; display: grid; gap: 6px; }
+    .class-assign-list li { display: flex; justify-content: space-between; align-items: center; font-size: 0.84rem;
+      padding: 6px 10px; border: 1px solid #eef1f6; border-radius: 10px; }
+    .class-table { width: 100%; border-collapse: collapse; font-size: 0.82rem; margin-bottom: 8px; }
+    .class-table th, .class-table td { padding: 6px 8px; border-bottom: 1px solid #eef1f6; text-align: left; }
+    .class-table th { color: #9ca3af; font-weight: 600; }
+    .class-note { font-size: 0.76rem; color: #9ca3af; margin: 0 0 8px; }
     .class-card { padding: 8px 2px; }
     .class-row { display: flex; gap: 10px; margin-bottom: 12px; }
     .class-row .write-input { flex: 1 1 auto; min-width: 0; }
@@ -12433,37 +12449,99 @@
       }).join("");
     }
 
+    function classCode() {
+      let code = "";
+      try { code = localStorage.getItem("lizzword_class_code_v1") || ""; } catch (e) { code = ""; }
+      if (code) return code;
+      const next = "LZ" + Math.random().toString(36).slice(2, 7).toUpperCase();
+      try { localStorage.setItem("lizzword_class_code_v1", next); } catch (e) { /* ignore */ }
+      return next;
+    }
+
+    function classStudentStats(name) {
+      // 本机只知道自己：其余学生按老师手填的进度显示
+      const own = Array.isArray(state.stage1Done) ? state.stage1Done.length : 0;
+      const data = classLoad();
+      const manual = (data.manual && data.manual[name]) || null;
+      if (name === "我" || (data.owner && data.owner === name)) {
+        let accuracy = 0;
+        try { accuracy = window.LZEvents ? window.LZEvents.summary(7).accuracy : 0; } catch (e) { accuracy = 0; }
+        return { learned: own, accuracy, streak: Number(state.streakDays) || 0, source: "本机" };
+      }
+      return {
+        learned: manual ? Number(manual.learned) || 0 : 0,
+        accuracy: manual ? Number(manual.accuracy) || 0 : 0,
+        streak: manual ? Number(manual.streak) || 0 : 0,
+        source: manual ? "手填" : "未填"
+      };
+    }
+
+    function classProgressTable(data) {
+      const students = data.students || [];
+      if (!students.length) return '<p class="drill-sub">还没有学生，先在上面填名单。</p>';
+      return `<table class="class-table">
+        <thead><tr><th>学生</th><th>已学</th><th>正确率</th><th>连续</th><th>来源</th></tr></thead>
+        <tbody>
+          ${students.map((name) => {
+            const st = classStudentStats(name);
+            return `<tr><td>${esc(name)}</td><td>${st.learned}</td><td>${st.accuracy}%</td><td>${st.streak} 天</td><td>${esc(st.source)}</td></tr>`;
+          }).join("")}
+        </tbody></table>`;
+    }
+
     function renderClassRoom() {
       const mount = document.getElementById("view-class");
       const data = classLoad();
       const books = BOOKS.filter((b) => b.id !== "my-words");
+      const assignments = data.assignments || [];
       mount.innerHTML = `
         <section class="class-card">
           <h2 class="done-title">教师端</h2>
-          <p class="drill-sub">建班级 → 布置词书 → 看完成率 → 导出成绩单。</p>
+          <p class="drill-sub">建班 → 布置作业 → 看进度 → 导出成绩。班级码可发给学生。</p>
+
           <div class="class-row">
             <input class="write-input" type="text" data-class-name placeholder="班级名称，例如 高三一班" value="${esc(data.name || "")}">
             <button type="button" class="btn-primary" data-class-save>保存班级</button>
           </div>
+
+          <div class="class-code-box">
+            <span class="class-code-label">班级码</span>
+            <span class="class-code-value">${esc(classCode())}</span>
+            <button type="button" class="btn-ghost" data-class-copy>复制</button>
+          </div>
+
           <div class="class-block">
-            <p class="class-label">学生（每行一个名字）</p>
+            <p class="class-label">学生名单（每行一个名字）</p>
             <textarea class="class-textarea" data-class-students placeholder="张三&#10;李四&#10;王五">${esc((data.students || []).join("\n"))}</textarea>
             <button type="button" class="btn-ghost" data-class-students-save>保存名单</button>
           </div>
+
           <div class="class-block">
-            <p class="class-label">布置词书</p>
-            <div class="class-books">
-              ${books.slice(0, 40).map((book) => `
-                <label class="class-book">
-                  <input type="checkbox" data-class-assign="${esc(book.id)}" ${data.assigned.indexOf(book.id) >= 0 ? "checked" : ""}>
-                  ${esc(book.name)}
-                </label>`).join("")}
+            <p class="class-label">布置作业</p>
+            <div class="class-assign-row">
+              <select class="class-select" data-assign-book>
+                ${books.slice(0, 60).map((book) => `<option value="${esc(book.id)}">${esc(book.name)}</option>`).join("")}
+              </select>
+              <input class="class-num" type="number" min="5" max="200" step="5" value="20" data-assign-count>
+              <input class="class-date" type="date" data-assign-due>
+              <button type="button" class="btn-primary" data-assign-add>布置</button>
             </div>
+            ${assignments.length ? `<ul class="class-assign-list">
+              ${assignments.map((a, i) => `
+                <li>
+                  <span>${esc(a.bookName || a.bookId)} · ${a.count} 词 · 截止 ${esc(a.due || "未定")}</span>
+                  <button type="button" class="layout-move" data-assign-remove="${i}">×</button>
+                </li>`).join("")}
+            </ul>` : ""}
           </div>
+
           <div class="class-block">
-            <p class="class-label">完成情况（本机记录）</p>
-            ${classProgressHTML(data)}
+            <p class="class-label">学生进度</p>
+            ${classProgressTable(data)}
+            <p class="class-note">只有本机的学习数据是真实的；其他学生可由老师手动填写进度（点击「填进度」）。</p>
+            <button type="button" class="btn-ghost" data-class-manual>填进度</button>
           </div>
+
           <div class="drill-actions">
             <button type="button" class="btn-primary" data-class-export>导出 CSV</button>
             <button type="button" class="btn-ghost" data-class-clear>清空班级数据</button>
@@ -12471,15 +12549,62 @@
         </section>`;
     }
 
+    function openManualProgress() {
+      const data = classLoad();
+      const students = data.students || [];
+      if (!students.length) { showToast("先填学生名单。"); return; }
+      const modal = document.createElement("div");
+      modal.className = "onboard-overlay";
+      modal.innerHTML = `
+        <div class="onboard-card settings-card" role="dialog" aria-modal="true" aria-label="填写进度">
+          <div class="settings-head"><h2 class="onboard-title">填写学生进度</h2>
+            <button type="button" class="settings-close" data-settings-close>×</button></div>
+          <p class="drill-sub">每行：名字, 已学词数, 正确率, 连续天数</p>
+          <textarea class="class-textarea" data-manual-text style="min-height:180px">${esc(students.map((name) => {
+            const manual = (data.manual && data.manual[name]) || {};
+            return [name, manual.learned || 0, manual.accuracy || 0, manual.streak || 0].join(", ");
+          }).join("\n"))}</textarea>
+          <div class="onboard-actions">
+            <button type="button" class="btn-ghost" data-settings-close>取消</button>
+            <button type="button" class="btn-primary" data-manual-save>保存</button>
+          </div>
+        </div>`;
+      document.body.appendChild(modal);
+      modal.addEventListener("click", (event) => {
+        if (event.target === modal || event.target.closest("[data-settings-close]")) { modal.remove(); return; }
+        if (event.target.closest("[data-manual-save]")) {
+          const text = modal.querySelector("[data-manual-text]").value;
+          const manual = {};
+          for (const line of text.split(/\n+/)) {
+            const parts = line.split(",").map((x) => x.trim());
+            if (!parts[0]) continue;
+            manual[parts[0]] = { learned: Number(parts[1]) || 0, accuracy: Number(parts[2]) || 0, streak: Number(parts[3]) || 0 };
+          }
+          const next = classLoad();
+          next.manual = manual;
+          classSave(next);
+          modal.remove();
+          renderView();
+          showToast("进度已保存。");
+        }
+      });
+    }
+
     function classExportCsv() {
       const data = classLoad();
       const today = new Date().toISOString().slice(0, 10);
-      const learned = Array.isArray(state.stage1Done) ? state.stage1Done.length : 0;
-      const lines = ["班级,学生,已学词数,今日新词,连续天数,导出日期"];
+      const lines = ["班级,班级码,学生,已学词数,正确率,连续天数,数据来源,作业数,导出日期"];
       const students = data.students.length ? data.students : ["（未填写学生）"];
       for (const name of students) {
-        lines.push([data.name || "未命名班级", name, learned, state.wordsToday || 0, state.streakDays || 0, today].join(","));
+        const st = classStudentStats(name);
+        lines.push([
+          data.name || "未命名班级", classCode(), name, st.learned, st.accuracy + "%", st.streak, st.source,
+          (data.assignments || []).length, today
+        ].join(","));
       }
+      lines.push("");
+      lines.push("作业,词数,截止日期");
+      for (const a of (data.assignments || [])) lines.push([a.bookName || a.bookId, a.count, a.due || ""].join(","));
       const blob = new Blob([lines.join("\n")], { type: "text/csv;charset=utf-8" });
       const link = document.createElement("a");
       link.href = URL.createObjectURL(blob);
@@ -12488,8 +12613,8 @@
       link.click();
       link.remove();
       setTimeout(() => URL.revokeObjectURL(link.href), 2000);
-      showToast("已导出 CSV。");
-      trackEvent("class_export", { students: students.length, books: data.assigned.length });
+      showToast("已导出 CSV（含学生进度与作业）。");
+      trackEvent("class_export", { students: students.length, books: (data.assignments || []).length });
     }
 
     // ============================================================
@@ -13466,6 +13591,35 @@
         renderView();
         return;
       }
+      if (event.target.closest("[data-class-copy]")) {
+        const code = classCode();
+        try { navigator.clipboard.writeText(code); showToast("班级码已复制：" + code); }
+        catch (e) { showToast("班级码：" + code); }
+        return;
+      }
+      if (event.target.closest("[data-assign-add]")) {
+        const data = classLoad();
+        const bookId = document.querySelector("[data-assign-book]") ? document.querySelector("[data-assign-book]").value : "";
+        const count = Number((document.querySelector("[data-assign-count]") || {}).value) || 20;
+        const due = (document.querySelector("[data-assign-due]") || {}).value || "";
+        const book = BOOKS.find((b) => b.id === bookId);
+        data.assignments = data.assignments || [];
+        data.assignments.push({ bookId, bookName: book ? book.name : bookId, count, due });
+        classSave(data);
+        renderView();
+        showToast("已布置：" + (book ? book.name : bookId) + " · " + count + " 词");
+        trackEvent("class_assign", { bookId, count });
+        return;
+      }
+      const assignRemove = event.target.closest("[data-assign-remove]");
+      if (assignRemove) {
+        const data = classLoad();
+        data.assignments = (data.assignments || []).filter((_, i) => i !== Number(assignRemove.dataset.assignRemove));
+        classSave(data);
+        renderView();
+        return;
+      }
+      if (event.target.closest("[data-class-manual]")) { openManualProgress(); return; }
       if (event.target.closest("[data-class-export]")) { classExportCsv(); return; }
       if (event.target.closest("[data-class-clear]")) {
         classSave({ name: "", students: [], assigned: [] });
