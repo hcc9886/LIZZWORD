@@ -2641,6 +2641,202 @@
     { id: "hand-plush-5", name: "龙龙玩偶", en: "Dragon Doll", category: "handheld", rarity: "legendary", price: 400, hint: "小是小，气势很足。", svg: plushProp(4, ["#7fb98a", "#a8dcc0"]) }
   ];
 
+
+  // 学习主题合集：26 件（学士帽/毕业袍/卷轴/星云之翼…），与原有 200 件同层同风格
+  const themedItems = [
+  /* ---------- 学习主题 · 配饰 8 ---------- */
+  { id: "acc-pencil-ear", name: "铅笔耳夹", en: "Pencil Clip", category: "accessory", rarity: "common", price: 38,
+    hint: "把笔别在耳边，随时记下新词。",
+    svg: `<g transform="rotate(-18 70 30)">
+      <rect x="66" y="20" width="6" height="22" rx="1.4" fill="#ffd166" stroke="#4a3b32" stroke-width="1.4"/>
+      <path d="M66 20h6l-3-5z" fill="#f4b26f" stroke="#4a3b32" stroke-width="1.2"/>
+      <path d="M66 26h6" stroke="#e2725b" stroke-width="1.4"/>
+    </g>` },
+  { id: "acc-book-nest", name: "书页发夹", en: "Page Pin", category: "accessory", rarity: "common", price: 42,
+    hint: "夹一页今天的单词，风也吹不走。",
+    svg: `<g>
+      <path d="M30 26l14-6 4 9-14 6z" fill="#fffaf2" stroke="#4a3b32" stroke-width="1.6" stroke-linejoin="round"/>
+      <path d="M34 28l8-3.4" stroke="#c9d9ff" stroke-width="1.2"/>
+    </g>` },
+  { id: "acc-grad-cap", name: "学士帽", en: "Grad Cap", category: "accessory", rarity: "rare", price: 88,
+    hint: "帽穗一甩，这一册就学完了。",
+    svg: `<g>
+      <path d="M28 24l22-9 22 9-22 9z" fill="#34456b" stroke="#4a3b32" stroke-width="1.8" stroke-linejoin="round"/>
+      <path d="M40 33l10 4 10-4v8q-10 4-20 0z" fill="#2b3a5c" stroke="#4a3b32" stroke-width="1.6"/>
+      <path d="M72 24v14" stroke="#ffd166" stroke-width="2"/>
+      <circle cx="72" cy="39" r="3" fill="#ffd166" stroke="#4a3b32" stroke-width="1.2"/>
+    </g>` },
+  { id: "acc-night-cap", name: "夜读睡帽", en: "Night Cap", category: "accessory", rarity: "common", price: 46,
+    hint: "读完这一页就睡，真的。",
+    svg: `<g>
+      <path d="M32 26q10-18 36-18 30 22l-8 4z" fill="#9fb6e8" stroke="#4a3b32" stroke-width="1.8" stroke-linejoin="round"/>
+      <circle cx="68" cy="12" r="4.6" fill="#fffaf2" stroke="#4a3b32" stroke-width="1.4"/>
+      <path d="M32 26q18 4 30 4" stroke="#7a93c9" stroke-width="1.4"/>
+    </g>` },
+  { id: "acc-visor", name: "太空面罩", en: "Space Visor", category: "accessory", rarity: "epic", price: 150,
+    hint: "隔着玻璃看单词，也看得清。",
+    svg: `<g>
+      <path d="M29 30q21-16 42 0t0 22q-21 10-42 0z" fill="#dcf3ff" opacity=".55" stroke="#4a3b32" stroke-width="1.6"/>
+      <path d="M33 28q9-6 18-1" stroke="#ffffff" stroke-width="2.4" opacity=".8"/>
+    </g>` },
+  { id: "acc-ribbon-medal", name: "奖章", en: "Medal", category: "accessory", rarity: "rare", price: 92,
+    hint: "挂在胸口，提醒自己坚持了多久。",
+    svg: `<g>
+      <path d="M44 56l-5 14h8l5-12z" fill="#e2725b" stroke="#4a3b32" stroke-width="1.4"/>
+      <path d="M56 56l5 14h-8l-5-12z" fill="#3f5f9e" stroke="#4a3b32" stroke-width="1.4"/>
+      <circle cx="50" cy="62" r="6.4" fill="#ffd166" stroke="#4a3b32" stroke-width="1.6"/>
+      <path d="M50 58l1.6 3.4 3.4.4-2.6 2.2.8 3.4-3.2-1.8-3.2 1.8.8-3.4-2.6-2.2 3.4-.4z" fill="#fffaf2" stroke="#4a3b32" stroke-width=".9"/>
+    </g>` },
+  { id: "acc-goggles-lab", name: "实验护目镜", en: "Lab Goggles", category: "accessory", rarity: "rare", price: 84,
+    hint: "看词根的时候，记得保护眼睛。",
+    svg: `<g>
+      <rect x="30" y="30" width="16" height="12" rx="5" fill="#bfe6f5" opacity=".8" stroke="#4a3b32" stroke-width="1.6"/>
+      <rect x="54" y="30" width="16" height="12" rx="5" fill="#bfe6f5" opacity=".8" stroke="#4a3b32" stroke-width="1.6"/>
+      <path d="M46 36h8" stroke="#4a3b32" stroke-width="1.6"/>
+    </g>` },
+  { id: "acc-star-clip", name: "星星发夹", en: "Star Clip", category: "accessory", rarity: "common", price: 40,
+    hint: "每记住一个词，就多一颗星。",
+    svg: `<g>
+      <path d="M68 22l2.6 5.4 5.8.8-4.2 4.2 1 5.8-5.2-2.8-5.2 2.8 1-5.8-4.2-4.2 5.8-.8z" fill="#ffd166" stroke="#4a3b32" stroke-width="1.2"/>
+    </g>` },
+
+  /* ---------- 学习主题 · 衣服 8 ---------- */
+  { id: "out-grad-robe", name: "毕业袍", en: "Gown", category: "outfit", route: "school", rarity: "rare", price: 96,
+    hint: "宽宽的袖子，走起来像风。",
+    svg: `<g>
+      <path d="M37 55q13 7 26 0l8 12-6 3-2 20q-12 3-24 0l-2-20-6-3z" fill="#34456b" stroke="#4a3b32" stroke-width="2" stroke-linejoin="round"/>
+      <path d="M43 58l7 9 7-9 3 3-10 10-10-10z" fill="#fffaf2" stroke="#4a3b32" stroke-width="1.3" stroke-linejoin="round"/>
+      <path d="M50 70v21" stroke="#2b3a5c" stroke-width="1.6"/>
+    </g>` },
+  { id: "out-coffee-jacket", name: "咖啡色针织外套", en: "Knit Cardigan", category: "outfit", route: "daily", rarity: "common", price: 52,
+    hint: "袖口卷起来，正好写字。",
+    svg: `<g>
+      <path d="M38 55q12 6 24 0l7 11-6 3-2 17q-11 3-22 0l-2-17-6-3z" fill="#b98a62" stroke="#4a3b32" stroke-width="2" stroke-linejoin="round"/>
+      <path d="M50 58v26" stroke="#8d6541" stroke-width="1.6"/>
+      <circle cx="50" cy="64" r="1.8" fill="#ffd166"/><circle cx="50" cy="72" r="1.8" fill="#ffd166"/>
+    </g>` },
+  { id: "out-rain-coat", name: "雨天斗篷", en: "Rain Cape", category: "outfit", route: "daily", rarity: "common", price: 58,
+    hint: "雨点落上去，会滑下来。",
+    svg: `<g>
+      <path d="M36 53q14 7 28 0l9 14q-23 9-46 0z" fill="#8fc7c1" stroke="#4a3b32" stroke-width="2" stroke-linejoin="round"/>
+      <path d="M41 61l-3 9M50 63v9M59 61l3 9" stroke="#6aa9a3" stroke-width="1.2"/>
+      <path d="M36 53q14 6 28 0" stroke="#4a3b32" stroke-width="1.6"/>
+    </g>` },
+  { id: "out-space-suit", name: "宇航服", en: "Space Suit", category: "outfit", route: "abstract", rarity: "epic", price: 168,
+    hint: "胸口有四个按钮，一个都没用上。",
+    svg: `<g>
+      <path d="M36 54q14 7 28 0l7 13-5 4-2 16q-14 3-28 0l-2-16-5-4z" fill="#e8eef7" stroke="#4a3b32" stroke-width="2" stroke-linejoin="round"/>
+      <rect x="42" y="62" width="8" height="6" rx="2" fill="#7aa2ff" stroke="#4a3b32" stroke-width="1.2"/>
+      <rect x="52" y="62" width="6" height="6" rx="2" fill="#ffd166" stroke="#4a3b32" stroke-width="1.2"/>
+      <path d="M36 54q14 6 28 0" stroke="#4a3b32" stroke-width="1.6"/>
+    </g>` },
+  { id: "out-hanfu", name: "书卷汉服", en: "Scholar Robe", category: "outfit", route: "glam", rarity: "rare", price: 120,
+    hint: "宽袖一展，像翻开一页纸。",
+    svg: `<g>
+      <path d="M36 54q14 7 28 0l9 15q-23 10-46 0z" fill="#cfe3f5" stroke="#4a3b32" stroke-width="2" stroke-linejoin="round"/>
+      <path d="M43 57q7 8 14 0l4 4q-11 8-22 0z" fill="#fffaf2" stroke="#4a3b32" stroke-width="1.3"/>
+      <path d="M50 66v18" stroke="#8fb3d9" stroke-width="1.6"/>
+      <path d="M34 60l-6 16M66 60l6 16" stroke="#4a3b32" stroke-width="1.4"/>
+    </g>` },
+  { id: "out-lab-coat", name: "白大褂", en: "Lab Coat", category: "outfit", route: "daily", rarity: "common", price: 50,
+    hint: "口袋里永远有一支笔。",
+    svg: `<g>
+      <path d="M37 54q13 7 26 0l6 12-5 3-2 18q-12 3-24 0l-2-18-5-3z" fill="#ffffff" stroke="#4a3b32" stroke-width="2" stroke-linejoin="round"/>
+      <path d="M44 57l6 7 6-7" fill="none" stroke="#4a3b32" stroke-width="1.4"/>
+      <rect x="42" y="68" width="16" height="6" rx="1.6" fill="none" stroke="#c9d9ff" stroke-width="1.2"/>
+    </g>` },
+  { id: "out-hoodie-word", name: "字母卫衣", en: "Letter Hoodie", category: "outfit", route: "daily", rarity: "common", price: 54,
+    hint: "胸前印着一个今天刚背的字母。",
+    svg: `<g>
+      <path d="M37 54q13 7 26 0l6 11-5 3-2 18q-12 3-24 0l-2-18-5-3z" fill="#cfd8ea" stroke="#4a3b32" stroke-width="2" stroke-linejoin="round"/>
+      <text x="50" y="72" font-size="11" font-weight="700" text-anchor="middle" fill="#34456b" font-family="serif">A</text>
+      <path d="M38 52q12 6 24 0" stroke="#4a3b32" stroke-width="1.4"/>
+    </g>` },
+  { id: "out-sweater-star", name: "星星毛衣", en: "Star Sweater", category: "outfit", route: "glam", rarity: "rare", price: 108,
+    hint: "夜里学太晚，星星会亮起来。",
+    svg: `<g>
+      <path d="M37 54q13 7 26 0l7 12-5 3-2 17q-12 3-24 0l-2-17-5-3z" fill="#f6d9a8" stroke="#4a3b32" stroke-width="2" stroke-linejoin="round"/>
+      <path d="M50 63l1.8 4 4.2.6-3 3 .6 4.2-3.6-2-3.6 2 .6-4.2-3-3 4.2-.6z" fill="#ffd166"/>
+      <path d="M37 54q13 6 26 0" stroke="#4a3b32" stroke-width="1.4"/>
+    </g>` },
+
+  /* ---------- 学习主题 · 翅膀 4 ---------- */
+  { id: "wing-pages", name: "书页之翼", en: "Page Wings", category: "wings", rarity: "rare", price: 110,
+    hint: "每一页都在托着你往上走。",
+    svg: `<g>
+      <path d="M30 58q-14-10-18 4 16 10z" fill="#fffaf2" stroke="#4a3b32" stroke-width="1.8" stroke-linejoin="round"/>
+      <path d="M70 58q14-10 18 4-16 10z" fill="#fffaf2" stroke="#4a3b32" stroke-width="1.8" stroke-linejoin="round"/>
+      <path d="M20 64l-4 5M24 66l-2 6M76 64l4 5M72 66l2 6" stroke="#c9d9ff" stroke-width="1.1"/>
+    </g>` },
+  { id: "wing-nebula", name: "星云之翼", en: "Nebula Wings", category: "wings", rarity: "epic", price: 180,
+    hint: "把整个宇宙别在背上。",
+    svg: `<g>
+      <path d="M30 60q-16-14-20 6 18 8z" fill="#9d8ff2" opacity=".85" stroke="#4a3b32" stroke-width="1.6"/>
+      <path d="M70 60q16-14 20 6-18 8z" fill="#8fb3ff" opacity=".85" stroke="#4a3b32" stroke-width="1.6"/>
+      <circle cx="22" cy="62" r="1.6" fill="#fffaf2"/><circle cx="78" cy="62" r="1.6" fill="#fffaf2"/>
+      <circle cx="26" cy="70" r="1.2" fill="#ffd166"/><circle cx="74" cy="70" r="1.2" fill="#ffd166"/>
+    </g>` },
+  { id: "wing-rain", name: "雨滴之翼", en: "Rain Wings", category: "wings", rarity: "common", price: 64,
+    hint: "下雨天也想出门学两个词。",
+    svg: `<g>
+      <path d="M32 58q-12-6-14 8 14 6z" fill="#bfe6f5" opacity=".9" stroke="#4a3b32" stroke-width="1.6"/>
+      <path d="M68 58q12-6 14 8-14 6z" fill="#bfe6f5" opacity=".9" stroke="#4a3b32" stroke-width="1.6"/>
+      <path d="M24 60v6M76 60v6M28 68v5M72 68v5" stroke="#7aa2ff" stroke-width="1.2"/>
+    </g>` },
+  { id: "wing-letters", name: "字母之翼", en: "Letter Wings", category: "wings", rarity: "rare", price: 118,
+    hint: "翅膀上印着 A 到 Z。",
+    svg: `<g>
+      <path d="M31 59q-13-8-16 7 15 7z" fill="#eaf1ff" stroke="#4a3b32" stroke-width="1.6"/>
+      <path d="M69 59q13-8 16 7-15 7z" fill="#eaf1ff" stroke="#4a3b32" stroke-width="1.6"/>
+      <text x="22" y="64" font-size="7" fill="#3157d5" font-family="serif">A</text>
+      <text x="76" y="64" font-size="7" fill="#3157d5" font-family="serif">Z</text>
+    </g>` },
+
+  /* ---------- 学习主题 · 手持物 6 ---------- */
+  { id: "hand-scroll", name: "单词卷轴", en: "Scroll", category: "handheld", rarity: "rare", price: 96,
+    hint: "摊开就是今天要背的词。",
+    svg: `<g>
+      <rect x="60" y="58" width="26" height="16" rx="3" fill="#fffaf2" stroke="#4a3b32" stroke-width="1.8"/>
+      <path d="M64 63h18M64 67h12" stroke="#8d6541" stroke-width="1.2"/>
+      <circle cx="60" cy="58" r="2.6" fill="#e3eaf4" stroke="#4a3b32" stroke-width="1.2"/>
+      <circle cx="86" cy="74" r="2.6" fill="#e3eaf4" stroke="#4a3b32" stroke-width="1.2"/>
+    </g>` },
+  { id: "hand-mug", name: "夜读马克杯", en: "Study Mug", category: "handheld", rarity: "common", price: 48,
+    hint: "里面的咖啡永远刚好不烫。",
+    svg: `<g>
+      <path d="M62 58h18v16q0 4-4 4h-10q-4 0-4-4z" fill="#f4b26f" stroke="#4a3b32" stroke-width="1.8"/>
+      <path d="M80 62q6 2 0 10" fill="none" stroke="#4a3b32" stroke-width="1.8"/>
+      <path d="M66 52q2-4 0-6M72 52q2-4 0-6" stroke="#fffaf2" stroke-width="1.4" opacity=".8"/>
+    </g>` },
+  { id: "hand-umbrella", name: "小伞", en: "Umbrella", category: "handheld", rarity: "common", price: 56,
+    hint: "撑开的时候，雨点会绕道。",
+    svg: `<g>
+      <path d="M58 62q10-14 22 0z" fill="#8fc7c1" stroke="#4a3b32" stroke-width="1.8" stroke-linejoin="round"/>
+      <path d="M69 62v12q0 4 4 4" fill="none" stroke="#4a3b32" stroke-width="2"/>
+      <path d="M62 62h14" stroke="#4a3b32" stroke-width="1.2"/>
+    </g>` },
+  { id: "hand-flashcard", name: "单词卡牌", en: "Flashcard", category: "handheld", rarity: "common", price: 44,
+    hint: "正面单词，背面释义，翻得比谁都快。",
+    svg: `<g transform="rotate(-8 70 66)">
+      <rect x="58" y="56" width="24" height="18" rx="2.6" fill="#fffaf2" stroke="#4a3b32" stroke-width="1.8"/>
+      <path d="M62 62h16M62 67h10" stroke="#3157d5" stroke-width="1.2"/>
+    </g>` },
+  { id: "hand-dict", name: "袖珍词典", en: "Pocket Dictionary", category: "handheld", rarity: "rare", price: 100,
+    hint: "厚得像块砖，轻得像片云。",
+    svg: `<g>
+      <rect x="58" y="56" width="22" height="20" rx="2" fill="#3f5f9e" stroke="#4a3b32" stroke-width="1.8"/>
+      <path d="M58 60h22M58 72h22" stroke="#fffaf2" stroke-width="1.2"/>
+      <text x="69" y="69" font-size="7" text-anchor="middle" fill="#ffe8a3" font-family="serif">Aa</text>
+    </g>` },
+  { id: "hand-hourglass", name: "小沙漏", en: "Hourglass", category: "handheld", rarity: "epic", price: 160,
+    hint: "翻过来，再给你三分钟。",
+    svg: `<g>
+      <path d="M64 56h12l-6 9 6 9h-12l6-9z" fill="#ffe8a3" opacity=".85" stroke="#4a3b32" stroke-width="1.8" stroke-linejoin="round"/>
+      <path d="M62 55h16M62 75h16" stroke="#4a3b32" stroke-width="2"/>
+      <circle cx="70" cy="70" r="1.4" fill="#c9a24a"/>
+    </g>` }
+  ];
+
   items.push(...wingItems, ...handheldItems, ...expressionItems, ...skinItems);
 
   // 肤色缩略图：把身体 / 头部的狐狸主色替换成对应调色板

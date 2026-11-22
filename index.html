@@ -369,6 +369,17 @@
 
     /* ===== 计划卡 ===== */
     .plan-actions { display: flex; gap: 8px; flex: 0 0 auto; }
+    .plan-row { display: flex; align-items: center; gap: 8px; margin-top: 8px; flex-wrap: wrap; }
+    .settings-btn { padding: 4px 12px; border-radius: 999px; border: 1px solid #e1e5f0; background: #fff; font-size: 0.76rem; cursor: pointer; }
+    .settings-card { max-height: 86vh; overflow: auto; }
+    .settings-head { display: flex; align-items: center; justify-content: space-between; margin-bottom: 6px; }
+    .settings-close { border: 0; background: transparent; font-size: 1.3rem; cursor: pointer; color: #9ca3af; }
+    .settings-plan { margin: 0 0 10px; font-size: 0.82rem; color: #6b7280; }
+    .settings-row { display: block; width: 100%; text-align: left; padding: 12px 14px; margin-bottom: 8px;
+      border: 1px solid #e1e5f0; border-radius: 12px; background: #fff; cursor: pointer; }
+    .settings-row-title { display: block; font-weight: 700; font-size: 0.9rem; }
+    .settings-row-sub { display: block; margin-top: 3px; font-size: 0.76rem; color: #9ca3af; }
+
 
     .plan-card {
       display: flex; align-items: center; justify-content: space-between; gap: 12px;
@@ -1644,7 +1655,10 @@
       </div>
       <div class="top-stats" id="topStats" aria-live="polite"></div>
       <div class="theme-row" data-theme-mount></div>
-      <div class="plan-pill" id="planPill" hidden></div>
+      <div class="plan-row">
+        <div class="plan-pill" id="planPill" hidden></div>
+        <button type="button" class="settings-btn" data-settings-open title="设置与更多">⚙ 设置</button>
+      </div>
       <div class="view-nav" id="viewNav" hidden>
         <button type="button" class="back-btn" id="backHome">← 返回主界面</button>
         <span class="view-title" id="viewTitle"></span>
@@ -8259,6 +8273,37 @@
     }
 
     // 进入新学前抽取当日队列；优先使用预抽好的下一批，保证预习看到的就是今天要学的
+
+    // 调整当前学习队列：目标变大补词，变小则移除还没学的
+    function resizeLearnQueue() {
+      const target = state.dailyTarget || 10;
+      const current = state.learnWords.length;
+      if (!current) return;
+      if (current < target) {
+        const done = new Set(state.stage1Done || []);
+        const extra = availableLearnIds()
+          .filter((id) => !state.learnWords.includes(id) && !done.has(id));
+        const add = extra.slice(0, target - current);
+        if (add.length) {
+          state.learnWords = state.learnWords.concat(add);
+          state.queue = state.queue.concat(add);
+          saveState();
+          showToast(`已补进 ${add.length} 个词，本组共 ${state.learnWords.length} 个。`);
+        } else {
+          showToast("已备内容不够，本组仍是 " + current + " 个词。");
+        }
+      } else if (current > target) {
+        const done = new Set(state.stage1Done || []);
+        const removable = state.learnWords.filter((id) => !done.has(id)).slice(current - target);
+        if (removable.length) {
+          state.learnWords = state.learnWords.filter((id) => !removable.includes(id));
+          state.queue = state.queue.filter((id) => !removable.includes(id));
+          saveState();
+          showToast(`已移出 ${removable.length} 个词，本组共 ${state.learnWords.length} 个。`);
+        }
+      }
+    }
+
     function ensureLearnSession() {
       if (state.stage !== "stage1" || state.learnWords.length || state.stage1Done.length) return;
       const available = availableLearnIds();
@@ -11578,7 +11623,7 @@
       speakCurrent = null;
       if (mode !== "library") debugArmed = false;
 
-      // 进入新学前按每日目标锁定今日队列；只抽一次，不再补词
+      // 进入新学：队列可按目标变化随时增删，不再锁定
       if (mode === "study") ensureLearnSession();
       // 每次进入预习都从这批词的第 1 个开始
       if (mode === "preview") {
@@ -11768,6 +11813,97 @@
       });
     }
 
+
+    // ============================================================
+    // 设置面板：计划 / 布局 / 语音 / 邀请码 / 关于
+    // ============================================================
+    function openSettings(pane) {
+      const ent = window.LZEntitlements;
+      const info = ent ? ent.state() : { plan: "free" };
+      const planLabel = info.forever ? "内测永久版"
+        : info.plan === "trial" ? "试用 Plus · 还剩 " + info.trialDaysLeft + " 天"
+        : info.plan === "plus" || info.plan === "pro" || info.plan === "team" ? "Plus 已开通"
+        : "免费版 · 每日 50 新词";
+      const modal = document.createElement("div");
+      modal.className = "onboard-overlay";
+      modal.innerHTML = `
+        <div class="onboard-card settings-card" role="dialog" aria-modal="true" aria-label="设置">
+          <div class="settings-head">
+            <h2 class="onboard-title">设置</h2>
+            <button type="button" class="settings-close" data-settings-close>×</button>
+          </div>
+          <p class="settings-plan">${esc(planLabel)}</p>
+
+          <button type="button" class="settings-row" data-settings-plan>
+            <span class="settings-row-title">学习计划</span>
+            <span class="settings-row-sub">目标、时长、水平、偏好</span>
+          </button>
+          <button type="button" class="settings-row" data-settings-layout>
+            <span class="settings-row-title">首页布局</span>
+            <span class="settings-row-sub">模块顺序、每行卡片数、字号</span>
+          </button>
+          <button type="button" class="settings-row" data-settings-speech>
+            <span class="settings-row-title">语音</span>
+            <span class="settings-row-sub">语速、口音、声音</span>
+          </button>
+          <button type="button" class="settings-row" data-settings-invite>
+            <span class="settings-row-title">内测邀请码</span>
+            <span class="settings-row-sub">输入邀请码开通 Plus</span>
+          </button>
+          <button type="button" class="settings-row" data-settings-about>
+            <span class="settings-row-title">关于</span>
+            <span class="settings-row-sub">31 本书 · 22 字段深度词条</span>
+          </button>
+        </div>`;
+      document.body.appendChild(modal);
+      const close = () => modal.remove();
+      modal.addEventListener("click", (event) => {
+        if (event.target === modal || event.target.closest("[data-settings-close]")) { close(); return; }
+        if (event.target.closest("[data-settings-plan]")) { close(); openPlanWizard(); return; }
+        if (event.target.closest("[data-settings-layout]")) { close(); openLayoutEditor(); return; }
+        if (event.target.closest("[data-settings-speech]")) { close(); openSpeechSettings(); return; }
+        if (event.target.closest("[data-settings-invite]")) { close(); openInviteDialog(); return; }
+        if (event.target.closest("[data-settings-about]")) {
+          modal.querySelector(".onboard-card").innerHTML = `
+            <div class="settings-head"><h2 class="onboard-title">关于</h2>
+              <button type="button" class="settings-close" data-settings-close>×</button></div>
+            <p class="drill-sub">LIZZWORD · 31 本词书 · 57,000+ 词 · 每词 22 字段深度词条。</p>
+            <p class="drill-sub">写阶段支持意群拼装；拼装错误只进独立队列，不影响单词卡进度。</p>
+            <p class="drill-sub">免费：每天 50 新词、零基础整本免费；Plus：不限新词、全部词书。</p>
+            <p class="drill-sub">数据都在本机，登录后可跨设备同步。</p>`;
+        }
+      });
+    }
+
+    function openSpeechSettings() {
+      const prefs = speechPrefs();
+      const modal = document.createElement("div");
+      modal.className = "onboard-overlay";
+      modal.innerHTML = `
+        <div class="onboard-card" role="dialog" aria-modal="true" aria-label="语音设置">
+          <div class="settings-head"><h2 class="onboard-title">语音</h2>
+            <button type="button" class="settings-close" data-settings-close>×</button></div>
+          <label class="onboard-field">语速
+            <select data-speech-rate>
+              <option value="0.7"${prefs.rate === 0.7 ? " selected" : ""}>0.7 慢</option>
+              <option value="0.9"${prefs.rate === 0.9 ? " selected" : ""}>0.9 标准</option>
+              <option value="1.1"${prefs.rate === 1.1 ? " selected" : ""}>1.1 快</option>
+            </select>
+          </label>
+          <label class="onboard-field">口音
+            <select data-speech-accent>
+              <option value="us"${prefs.accent === "us" ? " selected" : ""}>美音</option>
+              <option value="uk"${prefs.accent === "uk" ? " selected" : ""}>英音</option>
+            </select>
+          </label>
+          <div class="onboard-actions"><button type="button" class="btn-primary" data-settings-close>完成</button></div>
+        </div>`;
+      document.body.appendChild(modal);
+      modal.addEventListener("click", (event) => {
+        if (event.target === modal || event.target.closest("[data-settings-close]")) modal.remove();
+      });
+    }
+
     // ============================================================
     // 计划：入门问卷 → 今日任务卡
     // ============================================================
@@ -11819,9 +11955,6 @@
           </p>
           <div class="plan-actions">
             <button type="button" class="btn-primary plan-start" data-plan-start>开始</button>
-            <button type="button" class="btn-ghost plan-adjust" data-plan-open>调整</button>
-            <button type="button" class="btn-ghost plan-adjust" data-layout-open title="调整首页布局">布局</button>
-            <button type="button" class="btn-ghost plan-adjust" data-invite-open title="输入内测邀请码">邀请码</button>
           </div>
         </section>
         ${plan.examHint ? `<p class="plan-hint">${esc(plan.examHint)}</p>` : ""}`;
@@ -13205,6 +13338,7 @@
         return;
       }
 
+      if (event.target.closest("[data-settings-open]")) { openSettings(); return; }
       if (event.target.closest("[data-invite-open]")) {
         openInviteDialog();
         return;
@@ -13343,7 +13477,8 @@
         const dailyOptions = activeBookConfig.dailyOptions || [10, 15, 20];
         if (!dailyOptions.includes(value)) return;
         if (state.learnWords.length && state.stage !== "done") {
-          showToast("今日队列已锁定，新数量从下一组生效。");
+          resizeLearnQueue();
+          showToast("本组已调整为 " + (state.dailyTarget || 10) + " 个词。");
         }
         state.dailyTarget = value;
         // 数量只影响“下一组”：预习立即按新数量重抽，当前正在学的这组保持不变
