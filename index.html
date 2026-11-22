@@ -276,6 +276,18 @@
     .weekly-pron { margin: 8px 0; padding: 10px 12px; border-radius: 10px; background: #fff7e6; }
     .onboard-note { margin: 6px 0 0; font-size: 0.78rem; color: #9a3412; }
 
+
+
+    .custom-list { max-height: 260px; overflow: auto; }
+    .class-card { padding: 8px 2px; }
+    .class-row { display: flex; gap: 10px; margin-bottom: 12px; }
+    .class-row .write-input { flex: 1 1 auto; min-width: 0; }
+    .class-block { margin-bottom: 14px; }
+    .class-label { margin: 0 0 6px; font-size: 0.78rem; color: #9ca3af; }
+    .class-textarea { width: 100%; min-height: 96px; padding: 10px; border-radius: 10px; border: 1px solid #e1e5f0; font-size: 0.86rem; }
+    .class-books { display: flex; flex-wrap: wrap; gap: 8px; max-height: 220px; overflow: auto; }
+    .class-book { display: inline-flex; align-items: center; gap: 6px; padding: 6px 10px; border: 1px solid #e1e5f0; border-radius: 999px; font-size: 0.78rem; }
+
     /* ===== 每周复盘 ===== */
     .weekly-card { padding: 8px 2px; }
     .weekly-bars { display: flex; align-items: flex-end; gap: 8px; height: 120px; margin: 14px 0 10px; }
@@ -325,6 +337,12 @@
     .home-compact .plan-card { padding: 6px 10px; margin-bottom: 8px; }
     .home-compact .mode-strip { margin-bottom: 8px; }
     .home-compact .home-grid { gap: 8px; }
+
+    .home-font-large .home-title { font-size: 1.02rem; }
+    .home-font-large .home-sub { font-size: 0.86rem; }
+    .home-font-xlarge { font-size: 1.08em; }
+    .home-font-xlarge .home-title { font-size: 1.14rem; }
+    .home-font-xlarge .home-sub { font-size: 0.94rem; }
     .layout-list { list-style: none; padding: 0; margin: 0 0 12px; display: grid; gap: 8px; }
     .layout-row { display: flex; align-items: center; gap: 10px; padding: 8px 10px; border: 1px solid #e1e5f0; border-radius: 10px; }
     .layout-name { flex: 1 1 auto; font-size: 0.86rem; }
@@ -1662,6 +1680,9 @@
 
     <!-- 每周复盘 -->
     <main id="view-weekly" hidden></main>
+
+    <!-- 教师端 / 团队版 -->
+    <main id="view-class" hidden></main>
 
     <!-- 词库浏览：保留原来的七个分区 -->
     <main id="view-browse" hidden>
@@ -10344,9 +10365,19 @@
             <span class="home-sub">${wrongBookSummary()}</span>
           </button>
 
+          <button type="button" class="home-btn" data-custom-book>
+            <span class="home-title">我的词书</span>
+            <span class="home-sub">${customBookSummary()}</span>
+          </button>
+
           <button type="button" class="home-btn" data-asm-review-entry>
             <span class="home-title">句子复习</span>
             <span class="home-sub">拼装队列 · 写阶段拼错的句子单独练</span>
+          </button>
+
+          <button type="button" class="home-btn" data-enter="class">
+            <span class="home-title">教师端</span>
+            <span class="home-sub">${classRoomSummary()}</span>
           </button>
 
           <button type="button" class="home-btn" data-enter="games">
@@ -11492,6 +11523,7 @@
       if (viewMode === "drill") return "专项练习";
       if (viewMode === "wrong") return "错词本";
       if (viewMode === "weekly") return "每周复盘";
+      if (viewMode === "class") return "教师端 · 班级";
       return "";
     }
 
@@ -11507,7 +11539,8 @@
         "vocab-test": "view-vocab-test",
         drill: "view-drill",
         wrong: "view-wrong",
-        weekly: "view-weekly"
+        weekly: "view-weekly",
+        class: "view-class"
       };
       Object.keys(views).forEach((key) => {
         document.getElementById(views[key]).hidden = key !== viewMode;
@@ -11525,6 +11558,7 @@
       else if (viewMode === "drill") renderDrill();
       else if (viewMode === "wrong") renderWrongBook();
       else if (viewMode === "weekly") renderWeekly();
+      else if (viewMode === "class") renderClassRoom();
       else renderBrowse();
     }
 
@@ -11568,16 +11602,24 @@
     const HOME_LAYOUT_KEY = "lizzword_layout_v1";
     const HOME_SECTION_KEYS = ["plan", "modes", "grid", "progress", "quote"];
     const HOME_SECTION_NAMES = { plan: "今日计划", modes: "学习模式", grid: "功能入口", progress: "今日进度", quote: "每日一句" };
+    const HOME_GRID_COLUMNS = [2, 3, 4];
+    const HOME_FONT_SIZES = ["normal", "large", "xlarge"];
 
     function homeLayout() {
-      const fallback = { order: HOME_SECTION_KEYS.slice(), hidden: {}, compact: false };
+      const fallback = { order: HOME_SECTION_KEYS.slice(), hidden: {}, compact: false, columns: 0, font: "normal" };
       try {
         const raw = localStorage.getItem(HOME_LAYOUT_KEY);
         if (!raw) return fallback;
         const data = JSON.parse(raw) || {};
         const order = Array.isArray(data.order) ? data.order.filter((key) => HOME_SECTION_KEYS.indexOf(key) >= 0) : [];
         for (const key of HOME_SECTION_KEYS) if (order.indexOf(key) < 0) order.push(key);
-        return { order, hidden: data.hidden || {}, compact: Boolean(data.compact) };
+        return {
+          order,
+          hidden: data.hidden || {},
+          compact: Boolean(data.compact),
+          columns: HOME_GRID_COLUMNS.indexOf(Number(data.columns)) >= 0 ? Number(data.columns) : 0,
+          font: HOME_FONT_SIZES.indexOf(data.font) >= 0 ? data.font : "normal"
+        };
       } catch (e) { return fallback; }
     }
 
@@ -11590,6 +11632,13 @@
       const mount = document.getElementById("view-home");
       if (!mount) return;
       mount.classList.toggle("home-compact", layout.compact);
+      mount.classList.toggle("home-font-large", layout.font === "large");
+      mount.classList.toggle("home-font-xlarge", layout.font === "xlarge");
+      const grid = mount.querySelector(".home-grid");
+      if (grid) {
+        if (layout.columns) grid.style.gridTemplateColumns = "repeat(" + layout.columns + ", minmax(0, 1fr))";
+        else grid.style.gridTemplateColumns = "";
+      }
       const map = {
         plan: [".plan-card", ".plan-hint"],
         modes: [".mode-strip"],
@@ -11627,6 +11676,21 @@
               </li>`).join("")}
           </ul>
           <label class="onboard-field"><input type="checkbox" data-layout-compact ${layout.compact ? "checked" : ""}> 紧凑模式（缩小间距）</label>
+          <label class="onboard-field">每行卡片数
+            <select data-layout-columns>
+              <option value="0"${layout.columns === 0 ? " selected" : ""}>跟随默认</option>
+              <option value="2"${layout.columns === 2 ? " selected" : ""}>2 个</option>
+              <option value="3"${layout.columns === 3 ? " selected" : ""}>3 个</option>
+              <option value="4"${layout.columns === 4 ? " selected" : ""}>4 个</option>
+            </select>
+          </label>
+          <label class="onboard-field">字号
+            <select data-layout-font>
+              <option value="normal"${layout.font === "normal" ? " selected" : ""}>标准</option>
+              <option value="large"${layout.font === "large" ? " selected" : ""}>大</option>
+              <option value="xlarge"${layout.font === "xlarge" ? " selected" : ""}>特大</option>
+            </select>
+          </label>
           <div class="onboard-actions">
             <button type="button" class="btn-ghost" data-layout-reset>恢复默认</button>
             <button type="button" class="btn-primary" data-layout-close>完成</button>
@@ -11640,7 +11704,7 @@
           return;
         }
         if (event.target.closest("[data-layout-reset]")) {
-          saveHomeLayout({ order: HOME_SECTION_KEYS.slice(), hidden: {}, compact: false });
+          saveHomeLayout({ order: HOME_SECTION_KEYS.slice(), hidden: {}, compact: false, columns: 0, font: "normal" });
           modal.remove();
           openLayoutEditor();
           return;
@@ -11684,6 +11748,20 @@
         if (compact) {
           const next = homeLayout();
           next.compact = compact.checked;
+          saveHomeLayout(next);
+          applyHomeLayout();
+        }
+        const columns = event.target.closest("[data-layout-columns]");
+        if (columns) {
+          const next = homeLayout();
+          next.columns = Number(columns.value) || 0;
+          saveHomeLayout(next);
+          applyHomeLayout();
+        }
+        const font = event.target.closest("[data-layout-font]");
+        if (font) {
+          const next = homeLayout();
+          next.font = font.value;
           saveHomeLayout(next);
           applyHomeLayout();
         }
@@ -11808,11 +11886,13 @@
       const ent = window.LZEntitlements;
       if (!pill || !ent) return;
       const info = ent.state();
-      const label = info.plan === "trial"
-        ? `试用 Plus · 还剩 ${info.trialDaysLeft} 天`
-        : info.plan === "plus" || info.plan === "pro"
-          ? "Plus 已开通"
-          : "免费版 · 每日 20 新词";
+      const label = info.forever
+        ? "内测永久版"
+        : info.plan === "trial"
+          ? `试用 Plus · 还剩 ${info.trialDaysLeft} 天`
+          : info.plan === "plus" || info.plan === "pro" || info.plan === "team"
+            ? (info.trialDaysLeft ? `Plus · 还剩 ${info.trialDaysLeft} 天` : "Plus 已开通")
+            : "免费版 · 每日 50 新词";
       pill.textContent = label;
       pill.dataset.plan = info.plan;
       pill.hidden = false;
@@ -12017,6 +12097,120 @@
       link.remove();
       showToast("分享图已生成，邀请码 " + inviteCode() + "。");
       trackEvent("weekly_share", {});
+    }
+
+
+    // ============================================================
+    // 教师端 / 团队版：建班 → 布置词书 → 看完成率 → 导出 CSV
+    // ============================================================
+    const CLASS_KEY = "lizzword_class_v1";
+
+    function classLoad() {
+      try {
+        const raw = localStorage.getItem(CLASS_KEY);
+        const data = raw ? JSON.parse(raw) : null;
+        return data && typeof data === "object" ? data : { name: "", students: [], assigned: [] };
+      } catch (e) { return { name: "", students: [], assigned: [] }; }
+    }
+
+    function classSave(data) {
+      try { localStorage.setItem(CLASS_KEY, JSON.stringify(data)); } catch (e) { /* ignore */ }
+      return data;
+    }
+
+    function customBookSummary() {
+      const saved = customBookLoad();
+      if (!saved || !saved.entries.length) return "收藏 / 手动加词 / 做成自己的书（Plus）";
+      return saved.name + " · " + saved.entries.length + " 词";
+    }
+
+    function classRoomSummary() {
+      const data = classLoad();
+      if (!data.name) return "建班级、布置词书、看完成率（Team 版）";
+      return data.name + " · " + data.students.length + " 人 · 布置 " + data.assigned.length + " 本";
+    }
+
+    function classGate() {
+      const ent = window.LZEntitlements;
+      if (!ent) return true;
+      const info = ent.state();
+      if (info.plan === "team" || info.plan === "pro" || info.forever) return true;
+      showToast("教师端属于 Team / 内测版，可用内测邀请码开通。");
+      openInviteDialog();
+      return false;
+    }
+
+    function classProgressHTML(data) {
+      const assigned = data.assigned || [];
+      if (!assigned.length) return '<p class="drill-sub">还没有布置词书。</p>';
+      const learned = Array.isArray(state.stage1Done) ? state.stage1Done.length : 0;
+      return assigned.map((id) => {
+        const book = BOOKS.find((b) => b.id === id);
+        const isActive = book && book.id === activeBookConfig.id;
+        const total = isActive ? (bookInfo.entries || []).length : 0;
+        const pct = total ? Math.round((learned / total) * 100) : 0;
+        const name = book ? book.name : id;
+        return '<p class="drill-sub">' + esc(name) + " · 本机已学 " + learned + " 词" + (total ? " / " + total + "（" + pct + "%）" : "") + "</p>";
+      }).join("");
+    }
+
+    function renderClassRoom() {
+      const mount = document.getElementById("view-class");
+      const data = classLoad();
+      const books = BOOKS.filter((b) => b.id !== "my-words");
+      mount.innerHTML = `
+        <section class="class-card">
+          <h2 class="done-title">教师端</h2>
+          <p class="drill-sub">建班级 → 布置词书 → 看完成率 → 导出成绩单。</p>
+          <div class="class-row">
+            <input class="write-input" type="text" data-class-name placeholder="班级名称，例如 高三一班" value="${esc(data.name || "")}">
+            <button type="button" class="btn-primary" data-class-save>保存班级</button>
+          </div>
+          <div class="class-block">
+            <p class="class-label">学生（每行一个名字）</p>
+            <textarea class="class-textarea" data-class-students placeholder="张三&#10;李四&#10;王五">${esc((data.students || []).join("\n"))}</textarea>
+            <button type="button" class="btn-ghost" data-class-students-save>保存名单</button>
+          </div>
+          <div class="class-block">
+            <p class="class-label">布置词书</p>
+            <div class="class-books">
+              ${books.slice(0, 40).map((book) => `
+                <label class="class-book">
+                  <input type="checkbox" data-class-assign="${esc(book.id)}" ${data.assigned.indexOf(book.id) >= 0 ? "checked" : ""}>
+                  ${esc(book.name)}
+                </label>`).join("")}
+            </div>
+          </div>
+          <div class="class-block">
+            <p class="class-label">完成情况（本机记录）</p>
+            ${classProgressHTML(data)}
+          </div>
+          <div class="drill-actions">
+            <button type="button" class="btn-primary" data-class-export>导出 CSV</button>
+            <button type="button" class="btn-ghost" data-class-clear>清空班级数据</button>
+          </div>
+        </section>`;
+    }
+
+    function classExportCsv() {
+      const data = classLoad();
+      const today = new Date().toISOString().slice(0, 10);
+      const learned = Array.isArray(state.stage1Done) ? state.stage1Done.length : 0;
+      const lines = ["班级,学生,已学词数,今日新词,连续天数,导出日期"];
+      const students = data.students.length ? data.students : ["（未填写学生）"];
+      for (const name of students) {
+        lines.push([data.name || "未命名班级", name, learned, state.wordsToday || 0, state.streakDays || 0, today].join(","));
+      }
+      const blob = new Blob([lines.join("\n")], { type: "text/csv;charset=utf-8" });
+      const link = document.createElement("a");
+      link.href = URL.createObjectURL(blob);
+      link.download = "lizzword-class-" + today + ".csv";
+      document.body.appendChild(link);
+      link.click();
+      link.remove();
+      setTimeout(() => URL.revokeObjectURL(link.href), 2000);
+      showToast("已导出 CSV。");
+      trackEvent("class_export", { students: students.length, books: data.assigned.length });
     }
 
     // ============================================================
@@ -12380,6 +12574,132 @@
       customBookSave(dedup, name);
       renderView();
       showToast(`已生成「${name}」，共 ${dedup.length} 词，可在词书列表里选择。`);
+    }
+
+
+    function customBookEntries() {
+      const saved = customBookLoad();
+      return saved && Array.isArray(saved.entries) ? saved.entries.slice() : [];
+    }
+
+    function customBookAdd(word) {
+      const text = String(word || "").trim();
+      if (!text) return { ok: false, message: "请输入单词" };
+      const entry = getWord(text) || words.find((item) => String(item.word).toLowerCase() === text.toLowerCase());
+      if (!entry || !Array.isArray(entry.senses) || !entry.senses.length) {
+        return { ok: false, message: "书库里没有「" + text + "」的深度词条" };
+      }
+      const list = customBookEntries();
+      if (list.some((item) => String(item.word).toLowerCase() === entry.word.toLowerCase())) {
+        return { ok: false, message: "「" + entry.word + "」已经在我的词书里" };
+      }
+      list.push(entry);
+      const saved = customBookSave(list, (customBookLoad() || {}).name);
+      return { ok: true, message: "已加入「" + entry.word + "」，共 " + saved.entries.length + " 词" };
+    }
+
+    function customBookRemove(word) {
+      const list = customBookEntries().filter((item) => String(item.word).toLowerCase() !== String(word).toLowerCase());
+      customBookSave(list, (customBookLoad() || {}).name);
+      renderView();
+      return { ok: true, message: "已移除，剩 " + list.length + " 词" };
+    }
+
+    function customBookRename(name) {
+      const text = String(name || "").trim() || "我的词书";
+      customBookSave(customBookEntries(), text);
+      ensureCustomBookConfig();
+      renderView();
+      return { ok: true, message: "已改名为「" + text + "」" };
+    }
+
+    function customBookClear() {
+      try { localStorage.removeItem(CUSTOM_BOOK_KEY); } catch (e) { /* ignore */ }
+      const config = BOOKS.findIndex((book) => book.id === "my-words");
+      if (config >= 0) BOOKS.splice(config, 1);
+      renderView();
+      return { ok: true, message: "我的词书已清空" };
+    }
+
+    function openCustomBookEditor() {
+      const saved = customBookLoad();
+      const list = customBookEntries();
+      const modal = document.createElement("div");
+      modal.className = "onboard-overlay";
+      modal.innerHTML = `
+        <div class="onboard-card" role="dialog" aria-modal="true" aria-label="我的词书">
+          <h2 class="onboard-title">我的词书</h2>
+          <p class="onboard-sub">当前 ${list.length} 词。可以手动加词、删除、改名。</p>
+          <label class="onboard-field">书名
+            <input type="text" data-custom-name value="${esc((saved && saved.name) || "我的词书")}">
+          </label>
+          <div class="class-row">
+            <input class="write-input" type="text" data-custom-word placeholder="输入要加入的单词">
+            <button type="button" class="btn-primary" data-custom-add>加入</button>
+          </div>
+          <p class="onboard-note" data-custom-note></p>
+          <ul class="layout-list custom-list">
+            ${list.slice(0, 80).map((item) => `
+              <li class="layout-row">
+                <span class="layout-name">${esc(item.word)} · ${esc(String(item.definition_zh || "").slice(0, 18))}</span>
+                <button type="button" class="layout-move" data-custom-remove="${esc(item.word)}">×</button>
+              </li>`).join("") || '<li class="layout-row"><span class="layout-name">还没有词，先加一个。</span></li>'}
+          </ul>
+          <div class="onboard-actions">
+            <button type="button" class="btn-ghost" data-custom-clear>清空</button>
+            <button type="button" class="btn-primary" data-custom-close>完成</button>
+          </div>
+        </div>`;
+      document.body.appendChild(modal);
+      modal.addEventListener("change", () => {
+        const nameInput = modal.querySelector("[data-custom-name]");
+        if (nameInput) customBookRename(nameInput.value);
+      });
+      modal.addEventListener("click", (event) => {
+        if (event.target === modal || event.target.closest("[data-custom-close]")) {
+          modal.remove();
+          renderView();
+          return;
+        }
+        if (event.target.closest("[data-custom-add]")) {
+          const input = modal.querySelector("[data-custom-word]");
+          const note = modal.querySelector("[data-custom-note]");
+          const result = customBookAdd(input ? input.value : "");
+          if (note) note.textContent = result.message;
+          if (result.ok) {
+            modal.remove();
+            openCustomBookEditor();
+          }
+          return;
+        }
+        const remove = event.target.closest("[data-custom-remove]");
+        if (remove) {
+          customBookRemove(remove.dataset.customRemove);
+          modal.remove();
+          openCustomBookEditor();
+          return;
+        }
+        if (event.target.closest("[data-custom-clear]")) {
+          customBookClear();
+          modal.remove();
+          showToast("我的词书已清空。");
+          return;
+        }
+      });
+    }
+
+    function openCustomBookFromHome() {
+      const ent = window.LZEntitlements;
+      const saved = customBookLoad();
+      if (!saved || !saved.entries.length) {
+        if (ent && !ent.isPlus()) {
+          ent.openPaywall("我的词书");
+          return;
+        }
+        openCustomBookEditor();
+        return;
+      }
+      openCustomBookEditor();
     }
 
     // ---------- 句子复习（独立于单词卡的拼装队列） ----------
@@ -12762,6 +13082,47 @@
         return;
       }
 
+
+      if (event.target.closest("[data-custom-book]")) {
+        openCustomBookFromHome();
+        return;
+      }
+      if (event.target.closest("[data-class-save]")) {
+        const data = classLoad();
+        const input = document.querySelector("[data-class-name]");
+        data.name = input ? input.value.trim() : data.name;
+        classSave(data);
+        showToast("班级已保存。");
+        renderView();
+        return;
+      }
+      if (event.target.closest("[data-class-students-save]")) {
+        const data = classLoad();
+        const area = document.querySelector("[data-class-students]");
+        data.students = area ? area.value.split(/\n+/).map((x) => x.trim()).filter(Boolean) : [];
+        classSave(data);
+        showToast("名单已保存（" + data.students.length + " 人）。");
+        renderView();
+        return;
+      }
+      if (event.target.closest("[data-class-export]")) { classExportCsv(); return; }
+      if (event.target.closest("[data-class-clear]")) {
+        classSave({ name: "", students: [], assigned: [] });
+        renderView();
+        showToast("班级数据已清空。");
+        return;
+      }
+      const classAssign = event.target.closest("[data-class-assign]");
+      if (classAssign) {
+        const data = classLoad();
+        const id = classAssign.dataset.classAssign;
+        const index = data.assigned.indexOf(id);
+        if (classAssign.checked && index < 0) data.assigned.push(id);
+        if (!classAssign.checked && index >= 0) data.assigned.splice(index, 1);
+        classSave(data);
+        return;
+      }
+
       if (event.target.closest("[data-invite-open]")) {
         openInviteDialog();
         return;
@@ -12969,6 +13330,7 @@
           const active = Boolean(session && session.date === dateKey(getToday()) && !session.summary && reviewPhase(session) !== "done");
           if (getDueWords().length === 0 && !active) return;
         }
+        if (target === "class" && !classGate()) return;
         showView(target);
         return;
       }

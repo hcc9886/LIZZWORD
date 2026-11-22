@@ -46,9 +46,10 @@
 
   function state() {
     const data = ensureTrial();
-    const expired = data.expiresAt ? Date.now() > new Date(data.expiresAt).getTime() : false;
+    const expired = data.forever ? false : (data.expiresAt ? Date.now() > new Date(data.expiresAt).getTime() : false);
     const plan = expired && data.plan === "trial" ? "free" : data.plan;
-    return { plan, expiresAt: data.expiresAt || "", trialDaysLeft: expired ? 0 : Math.max(0, Math.ceil((new Date(data.expiresAt) - Date.now()) / 86400000)) };
+    const left = expired || !data.expiresAt ? 0 : Math.max(0, Math.ceil((new Date(data.expiresAt) - Date.now()) / 86400000));
+    return { plan, forever: Boolean(data.forever), expiresAt: data.expiresAt || "", trialDaysLeft: left };
   }
 
   function isPlus() {
@@ -95,6 +96,13 @@
 
   // 内测邀请码：一码一人一次，兑换后按天数延长 Plus
   const INVITE_CODES = {
+    // 永久内测码
+    "wansuiwansuiwanwansui1313113": { plan: "pro", days: 0, forever: true, label: "内测永久版" },
+    // 一年内测码
+    "nulixuexiya2027": { plan: "plus", days: 365, label: "内测一年版" },
+    // 一月内测码
+    "lizzzhaohaoyon!!!": { plan: "plus", days: 30, label: "内测一月版" },
+    // 早期公开码（保留兼容）
     LIZZBETA: { plan: "plus", days: 30, label: "内测体验 30 天" },
     TRAE2026: { plan: "plus", days: 30, label: "内测体验 30 天" },
     DEEPSEEK: { plan: "plus", days: 30, label: "内测体验 30 天" }
@@ -103,13 +111,24 @@
   function redeemCode(rawCode) {
     const code = String(rawCode || "").trim().toUpperCase();
     if (!code) return { ok: false, message: "请输入邀请码" };
-    const entry = INVITE_CODES[code];
+    let entry = INVITE_CODES[code];
+    if (!entry) {
+      // 兼容大小写：所有码按大写再匹配一次
+      for (const key of Object.keys(INVITE_CODES)) {
+        if (key.toUpperCase() === code) { entry = INVITE_CODES[key]; break; }
+      }
+    }
     if (!entry) return { ok: false, message: "邀请码无效或已过期" };
     try {
       if (global.localStorage.getItem("lizzword_invite_used_" + code)) {
         return { ok: false, message: "这个邀请码已经在本机兑换过了" };
       }
       const current = state();
+      if (entry.forever) {
+        write({ plan: entry.plan, startedAt: new Date().toISOString(), expiresAt: "", forever: true, source: "invite:" + code });
+        global.localStorage.setItem("lizzword_invite_used_" + code, "1");
+        return { ok: true, message: entry.label + "已开通（永久有效）" };
+      }
       const base = current.plan === "plus" || current.plan === "pro" || current.plan === "team"
         ? Math.max(Date.now(), new Date(current.expiresAt || 0).getTime() || 0)
         : Date.now();
