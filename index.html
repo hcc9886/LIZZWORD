@@ -272,6 +272,10 @@
     .asm-result.is-bad { color: #b91c1c; }
     .asm-answer { font-size: 0.84rem; color: #6b7280; margin: 0 0 8px; }
 
+
+    .weekly-pron { margin: 8px 0; padding: 10px 12px; border-radius: 10px; background: #fff7e6; }
+    .onboard-note { margin: 6px 0 0; font-size: 0.78rem; color: #9a3412; }
+
     /* ===== 每周复盘 ===== */
     .weekly-card { padding: 8px 2px; }
     .weekly-bars { display: flex; align-items: flex-end; gap: 8px; height: 120px; margin: 14px 0 10px; }
@@ -315,6 +319,18 @@
     .wrong-count { font-size: 0.76rem; color: #b91c1c; }
     .wrong-def { grid-column: 1 / -1; font-size: 0.82rem; color: #6b7280; }
 
+
+
+    #view-home { display: flex; flex-direction: column; }
+    .home-compact .plan-card { padding: 6px 10px; margin-bottom: 8px; }
+    .home-compact .mode-strip { margin-bottom: 8px; }
+    .home-compact .home-grid { gap: 8px; }
+    .layout-list { list-style: none; padding: 0; margin: 0 0 12px; display: grid; gap: 8px; }
+    .layout-row { display: flex; align-items: center; gap: 10px; padding: 8px 10px; border: 1px solid #e1e5f0; border-radius: 10px; }
+    .layout-name { flex: 1 1 auto; font-size: 0.86rem; }
+    .layout-hide { font-size: 0.76rem; color: #6b7280; }
+    .layout-move { width: 28px; height: 28px; border-radius: 8px; border: 1px solid #e1e5f0; background: #fff; cursor: pointer; }
+    .layout-move:disabled { opacity: 0.3; }
 
     /* ===== 紧凑计划卡 + 模式条 ===== */
     .plan-card-compact { padding: 10px 12px; gap: 8px; }
@@ -10328,6 +10344,11 @@
             <span class="home-sub">${wrongBookSummary()}</span>
           </button>
 
+          <button type="button" class="home-btn" data-asm-review-entry>
+            <span class="home-title">句子复习</span>
+            <span class="home-sub">拼装队列 · 写阶段拼错的句子单独练</span>
+          </button>
+
           <button type="button" class="home-btn" data-enter="games">
             <span class="home-title">小游戏</span>
             <span class="home-sub">翻牌配对 · 快闪辨义 · 字母重组 · 听音选词</span>
@@ -10336,6 +10357,7 @@
 
         <p class="home-progress">当前组已学 <b>${finishedToday ? target : learned}</b> / ${target} · 今日累计 <b>${state.groupsToday}</b> 组 · <b>${state.wordsToday}</b> 个词${finishedToday ? " · 已完成" : ""}</p>
         ${quoteCardHTML()}`;
+      applyHomeLayout();
     }
 
     // ============================================================
@@ -11539,6 +11561,135 @@
     }
 
 
+
+    // ============================================================
+    // 首页 DIY 布局：顺序 / 显示 / 紧凑
+    // ============================================================
+    const HOME_LAYOUT_KEY = "lizzword_layout_v1";
+    const HOME_SECTION_KEYS = ["plan", "modes", "grid", "progress", "quote"];
+    const HOME_SECTION_NAMES = { plan: "今日计划", modes: "学习模式", grid: "功能入口", progress: "今日进度", quote: "每日一句" };
+
+    function homeLayout() {
+      const fallback = { order: HOME_SECTION_KEYS.slice(), hidden: {}, compact: false };
+      try {
+        const raw = localStorage.getItem(HOME_LAYOUT_KEY);
+        if (!raw) return fallback;
+        const data = JSON.parse(raw) || {};
+        const order = Array.isArray(data.order) ? data.order.filter((key) => HOME_SECTION_KEYS.indexOf(key) >= 0) : [];
+        for (const key of HOME_SECTION_KEYS) if (order.indexOf(key) < 0) order.push(key);
+        return { order, hidden: data.hidden || {}, compact: Boolean(data.compact) };
+      } catch (e) { return fallback; }
+    }
+
+    function saveHomeLayout(next) {
+      try { localStorage.setItem(HOME_LAYOUT_KEY, JSON.stringify(next)); } catch (e) { /* ignore */ }
+    }
+
+    function applyHomeLayout() {
+      const layout = homeLayout();
+      const mount = document.getElementById("view-home");
+      if (!mount) return;
+      mount.classList.toggle("home-compact", layout.compact);
+      const map = {
+        plan: [".plan-card", ".plan-hint"],
+        modes: [".mode-strip"],
+        grid: [".home-grid"],
+        progress: [".home-progress"],
+        quote: [".quote-card"]
+      };
+      HOME_SECTION_KEYS.forEach((key, index) => {
+        const order = layout.order.indexOf(key);
+        const hidden = Boolean(layout.hidden[key]);
+        (map[key] || []).forEach((selector) => {
+          mount.querySelectorAll(selector).forEach((node) => {
+            node.style.order = String(order >= 0 ? order : index);
+            node.style.display = hidden ? "none" : "";
+          });
+        });
+      });
+    }
+
+    function openLayoutEditor() {
+      const layout = homeLayout();
+      const modal = document.createElement("div");
+      modal.className = "onboard-overlay";
+      modal.innerHTML = `
+        <div class="onboard-card" role="dialog" aria-modal="true" aria-label="调整首页布局">
+          <h2 class="onboard-title">调整首页</h2>
+          <p class="onboard-sub">上下移动模块顺序，或隐藏不常用的模块。</p>
+          <ul class="layout-list">
+            ${layout.order.map((key, index) => `
+              <li class="layout-row">
+                <span class="layout-name">${esc(HOME_SECTION_NAMES[key] || key)}</span>
+                <label class="layout-hide"><input type="checkbox" data-layout-hide="${key}" ${layout.hidden[key] ? "checked" : ""}> 隐藏</label>
+                <button type="button" class="layout-move" data-layout-up="${key}" ${index === 0 ? "disabled" : ""}>↑</button>
+                <button type="button" class="layout-move" data-layout-down="${key}" ${index === layout.order.length - 1 ? "disabled" : ""}>↓</button>
+              </li>`).join("")}
+          </ul>
+          <label class="onboard-field"><input type="checkbox" data-layout-compact ${layout.compact ? "checked" : ""}> 紧凑模式（缩小间距）</label>
+          <div class="onboard-actions">
+            <button type="button" class="btn-ghost" data-layout-reset>恢复默认</button>
+            <button type="button" class="btn-primary" data-layout-close>完成</button>
+          </div>
+        </div>`;
+      document.body.appendChild(modal);
+      modal.addEventListener("click", (event) => {
+        if (event.target === modal || event.target.closest("[data-layout-close]")) {
+          modal.remove();
+          renderView();
+          return;
+        }
+        if (event.target.closest("[data-layout-reset]")) {
+          saveHomeLayout({ order: HOME_SECTION_KEYS.slice(), hidden: {}, compact: false });
+          modal.remove();
+          openLayoutEditor();
+          return;
+        }
+        const up = event.target.closest("[data-layout-up]");
+        if (up) {
+          const next = homeLayout();
+          const i = next.order.indexOf(up.dataset.layoutUp);
+          if (i > 0) {
+            next.order.splice(i, 1);
+            next.order.splice(i - 1, 0, up.dataset.layoutUp);
+            saveHomeLayout(next);
+          }
+          modal.remove();
+          openLayoutEditor();
+          return;
+        }
+        const down = event.target.closest("[data-layout-down]");
+        if (down) {
+          const next = homeLayout();
+          const i = next.order.indexOf(down.dataset.layoutDown);
+          if (i >= 0 && i < next.order.length - 1) {
+            next.order.splice(i, 1);
+            next.order.splice(i + 1, 0, down.dataset.layoutDown);
+            saveHomeLayout(next);
+          }
+          modal.remove();
+          openLayoutEditor();
+          return;
+        }
+      });
+      modal.addEventListener("change", (event) => {
+        const hide = event.target.closest("[data-layout-hide]");
+        if (hide) {
+          const next = homeLayout();
+          next.hidden[hide.dataset.layoutHide] = hide.checked;
+          saveHomeLayout(next);
+          applyHomeLayout();
+        }
+        const compact = event.target.closest("[data-layout-compact]");
+        if (compact) {
+          const next = homeLayout();
+          next.compact = compact.checked;
+          saveHomeLayout(next);
+          applyHomeLayout();
+        }
+      });
+    }
+
     // ============================================================
     // 计划：入门问卷 → 今日任务卡
     // ============================================================
@@ -11591,6 +11742,8 @@
           <div class="plan-actions">
             <button type="button" class="btn-primary plan-start" data-plan-start>开始</button>
             <button type="button" class="btn-ghost plan-adjust" data-plan-open>调整</button>
+            <button type="button" class="btn-ghost plan-adjust" data-layout-open title="调整首页布局">布局</button>
+            <button type="button" class="btn-ghost plan-adjust" data-invite-open title="输入内测邀请码">邀请码</button>
           </div>
         </section>
         ${plan.examHint ? `<p class="plan-hint">${esc(plan.examHint)}</p>` : ""}`;
@@ -11611,6 +11764,42 @@
           renderAll();
         },
         onClose: () => renderAll()
+      });
+    }
+
+
+    // 内测邀请码弹窗
+    function openInviteDialog() {
+      const ent = window.LZEntitlements;
+      if (!ent) { showToast("权益模块未加载。"); return; }
+      const modal = document.createElement("div");
+      modal.className = "onboard-overlay";
+      modal.innerHTML = `
+        <div class="onboard-card" role="dialog" aria-modal="true" aria-label="输入邀请码">
+          <h2 class="onboard-title">内测邀请码</h2>
+          <p class="onboard-sub">输入邀请码即可开通 Plus 体验；首批内测名额有限。</p>
+          <input class="onboard-field" type="text" data-invite-input placeholder="例如 LIZZBETA" autocomplete="off">
+          <p class="onboard-note" data-invite-note></p>
+          <div class="onboard-actions">
+            <button type="button" class="btn-ghost" data-invite-close>取消</button>
+            <button type="button" class="btn-primary" data-invite-apply>兑换</button>
+          </div>
+        </div>`;
+      document.body.appendChild(modal);
+      const close = () => modal.remove();
+      modal.addEventListener("click", (event) => {
+        if (event.target === modal || event.target.closest("[data-invite-close]")) { close(); return; }
+        if (event.target.closest("[data-invite-apply]")) {
+          const input = modal.querySelector("[data-invite-input]");
+          const note = modal.querySelector("[data-invite-note]");
+          const result = ent.redeemCode(input ? input.value : "");
+          if (note) note.textContent = result.message;
+          if (result.ok) {
+            showToast(result.message);
+            refreshPlanPill();
+            window.setTimeout(close, 800);
+          }
+        }
       });
     }
 
@@ -11845,6 +12034,28 @@
       const info = events.summary(7);
       if (!info.total) return "这周还没开始，先学一组";
       return `这周 ${info.answers || info.total} 次练习 · 正确率 ${info.accuracy}%`;
+    }
+
+
+    // 发音报告（启发式归类）：从错词本里按拼写特征分三类
+    function pronunciationReportHTML() {
+      const list = wrongBookList();
+      const groups = { th: [], vw: [], vowel: [] };
+      for (const row of list) {
+        const word = String(row.word || "").toLowerCase();
+        if (word.indexOf("th") >= 0) groups.th.push(word);
+        else if (word.indexOf("v") >= 0 || word.indexOf("w") >= 0) groups.vw.push(word);
+        else if (/ee|ea|oo|ough|ai|ay/.test(word)) groups.vowel.push(word);
+      }
+      const rows = [];
+      if (groups.th.length) rows.push(`th 咬舌：${groups.th.slice(0, 5).join("、")}`);
+      if (groups.vw.length) rows.push(`v / w 混淆：${groups.vw.slice(0, 5).join("、")}`);
+      if (groups.vowel.length) rows.push(`长短元音：${groups.vowel.slice(0, 5).join("、")}`);
+      if (!rows.length) return "";
+      return `<div class="weekly-pron">
+        <p class="weekly-hint">发音弱点（按错词归类）：</p>
+        ${rows.map((line) => `<p class="weekly-hint">· ${esc(line)}</p>`).join("")}
+      </div>`;
     }
 
     function renderWeekly() {
@@ -12094,6 +12305,7 @@
           </ul>
           <div class="drill-actions">
             <button type="button" class="btn-primary" data-enter="drill">专项练习</button>
+            <button type="button" class="btn-ghost" data-wrong-study>用错词学一组</button>
             <button type="button" class="btn-ghost" data-wrong-clear>清空错词本</button>
           </div>
         </section>
@@ -12405,6 +12617,11 @@
         openWordInBrowse(wrongWord.dataset.wrongWord);
         return;
       }
+      if (event.target.closest("[data-asm-review-entry]")) {
+        showView("wrong");
+        window.setTimeout(openAsmReview, 30);
+        return;
+      }
       if (event.target.closest("[data-asm-review-open]")) { openAsmReview(); return; }
       if (event.target.closest("[data-asm-review-close]")) { asmReview = null; renderWrongBook(); return; }
       if (event.target.closest("[data-asm-review-judge]")) { asmReviewJudge(); return; }
@@ -12422,6 +12639,23 @@
       }
       if (event.target.closest("[data-weekly-share]")) {
         shareWeeklyImage();
+        return;
+      }
+      if (event.target.closest("[data-wrong-study]")) {
+        const rows = wrongBookList().slice(0, 10);
+        const ids = rows.map((row) => row.item && row.item.word).filter(Boolean);
+        if (!ids.length) { showToast("错词本还是空的。"); return; }
+        state.learnWords = ids.slice();
+        state.stage = "learn";
+        state.writeQueue = ids.slice();
+        state.writeDone = [];
+        state.stage1Done = [];
+        state.stage2Done = [];
+        state.stage2bDone = [];
+        state.speakDone = [];
+        saveState();
+        showView("study");
+        showToast(`已用 ${ids.length} 个错词开一组。`);
         return;
       }
       if (event.target.closest("[data-wrong-clear]")) {
@@ -12455,6 +12689,16 @@
         } else {
           showView("drill");
         }
+        return;
+      }
+
+      if (event.target.closest("[data-invite-open]")) {
+        openInviteDialog();
+        return;
+      }
+
+      if (event.target.closest("[data-layout-open]")) {
+        openLayoutEditor();
         return;
       }
 

@@ -25,12 +25,23 @@
     } catch (e) { /* 存储满时静默丢弃 */ }
   }
 
+  let remote = null;
+
+  function setRemote(fn) { remote = typeof fn === "function" ? fn : null; }
+
+  function flushRemote() {
+    if (!remote) return;
+    const list = read().slice(-200);
+    Promise.resolve(remote(list)).catch(() => { /* 服务端不可用时静默 */ });
+  }
+
   function track(type, payload) {
     if (!type) return null;
     const event = Object.assign({ t: String(type), at: new Date().toISOString() }, payload || {});
     const list = read();
     list.push(event);
     write(list);
+    if (remote && list.length % 20 === 0) flushRemote();
     return event;
   }
 
@@ -69,5 +80,5 @@
     };
   }
 
-  global.LZEvents = { KEY, track, summary, read };
+  global.LZEvents = { KEY, track, summary, read, setRemote, flushRemote };
 })(typeof window !== "undefined" ? window : globalThis);

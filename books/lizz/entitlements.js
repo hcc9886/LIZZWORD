@@ -18,7 +18,7 @@
     "fce", "bec", "pte", "study-abroad", "kaoyan", "english-major",
     "medical", "business-law", "affix-roots", "collocation", "confusables"
   ];
-  const TRIAL_DAYS = 7;
+  const TRIAL_DAYS = 8;
   const FREE_DAILY_NEW = 50;
   const PLUS_DAILY_NEW = Infinity;
   const PLAN_KEY = "lizzword_plan_v1";
@@ -93,6 +93,35 @@
     });
   }
 
+  // 内测邀请码：一码一人一次，兑换后按天数延长 Plus
+  const INVITE_CODES = {
+    LIZZBETA: { plan: "plus", days: 30, label: "内测体验 30 天" },
+    TRAE2026: { plan: "plus", days: 30, label: "内测体验 30 天" },
+    DEEPSEEK: { plan: "plus", days: 30, label: "内测体验 30 天" }
+  };
+
+  function redeemCode(rawCode) {
+    const code = String(rawCode || "").trim().toUpperCase();
+    if (!code) return { ok: false, message: "请输入邀请码" };
+    const entry = INVITE_CODES[code];
+    if (!entry) return { ok: false, message: "邀请码无效或已过期" };
+    try {
+      if (global.localStorage.getItem("lizzword_invite_used_" + code)) {
+        return { ok: false, message: "这个邀请码已经在本机兑换过了" };
+      }
+      const current = state();
+      const base = current.plan === "plus" || current.plan === "pro" || current.plan === "team"
+        ? Math.max(Date.now(), new Date(current.expiresAt || 0).getTime() || 0)
+        : Date.now();
+      const expiresAt = new Date(base + entry.days * 86400000).toISOString();
+      write({ plan: entry.plan, startedAt: new Date().toISOString(), expiresAt, source: "invite:" + code });
+      global.localStorage.setItem("lizzword_invite_used_" + code, "1");
+      return { ok: true, message: entry.label + "已开通" };
+    } catch (e) {
+      return { ok: false, message: "兑换失败，请稍后重试" };
+    }
+  }
+
   function openPaywall(bookName) {
     const existing = document.getElementById("paywallOverlay");
     if (existing) existing.remove();
@@ -152,6 +181,8 @@
   }
 
   global.LZEntitlements = {
+    INVITE_CODES,
+    redeemCode,
     FREE_DAILY_NEW,
     PLUS_DAILY_NEW,
     FREE_COMPLETE_BOOKS,

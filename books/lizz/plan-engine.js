@@ -80,9 +80,15 @@
         const total = Number(s.total) || 0;
         const remain = Math.max(0, total - learned);
         const need = Math.ceil(remain / daysLeft);
-        examHint = need > newWords
-          ? `距考试 ${daysLeft} 天，按当前速度学不完，建议每天 ${need} 词`
-          : `距考试 ${daysLeft} 天，按当前速度来得及`;
+        if (daysLeft <= 7) {
+          // 考前 7 天进入冲刺：只复习，不学新词
+          newWords = 0;
+          examHint = `距考试 ${daysLeft} 天：冲刺模式，只复习不学新词`;
+        } else {
+          examHint = need > newWords
+            ? `距考试 ${daysLeft} 天，按当前速度学不完，建议每天 ${need} 词`
+            : `距考试 ${daysLeft} 天，按当前速度来得及`;
+        }
       }
     }
 
@@ -105,6 +111,7 @@
       newWords,
       reviewTarget: base.review,
       minutes: profile.minutes,
+      sprint: daysLeft > 0 && daysLeft <= 7,
       recommended,
       mix,
       examHint,

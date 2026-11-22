@@ -1,0 +1,3581 @@
+{
+  "generatedAt": "2026-11-22T03:56:37.432Z",
+  "files": {
+    "books/prepared/business-law-9001.json": {
+      "size": 80711,
+      "sha1": "6dd44a60dd24608a33c12964bfe1bc0350e4f9c5"
+    },
+    "books/prepared/cet4-0001.json": {
+      "size": 290076,
+      "sha1": "e1b8652b676617f5ffac29ad475ca2045ad2246e"
+    },
+    "books/prepared/cet4-0002.json": {
+      "size": 251193,
+      "sha1": "4d581d20927de3b11872ed409cd7cc55de031b08"
+    },
+    "books/prepared/cet4-0003.json": {
+      "size": 250293,
+      "sha1": "1ef779b8a96bcdae2eea6535a5c9c44a53d59374"
+    },
+    "books/prepared/cet4-0004.json": {
+      "size": 239169,
+      "sha1": "bf6ef35aa1d35ab187b621d694673b7997fd6ceb"
+    },
+    "books/prepared/cet4-0005.json": {
+      "size": 260824,
+      "sha1": "3c0e61d5b436d6ef516510d67eb6fc9e5a64e0b8"
+    },
+    "books/prepared/cet4-0006.json": {
+      "size": 275512,
+      "sha1": "41ee13f5aef4e5814e11ed732486a2cc2df6e902"
+    },
+    "books/prepared/cet4-0007.json": {
+      "size": 286222,
+      "sha1": "0f903e9245b6261e5cf34cee087201878283cefd"
+    },
+    "books/prepared/cet4-0008.json": {
+      "size": 276843,
+      "sha1": "67eb32b24b53d43d73f17ce731237337acd13d72"
+    },
+    "books/prepared/cet4-0009.json": {
+      "size": 473461,
+      "sha1": "efd5a7edf7061a717dee38e5b464b26603374886"
+    },
+    "books/prepared/cet4-0010.json": {
+      "size": 445541,
+      "sha1": "236e15e7cb264efa4b3abf0d9484ca2742f2a619"
+    },
+    "books/prepared/cet4-0011.json": {
+      "size": 426367,
+      "sha1": "e96acccda9af154000e9fc0ab695042a78c337cc"
+    },
+    "books/prepared/cet4-0012.json": {
+      "size": 215249,
+      "sha1": "924c8900430f246d1091aadcbfd50ada1bdb3a0e"
+    },
+    "books/prepared/cet4-0013.json": {
+      "size": 223259,
+      "sha1": "526f08d8a64fe30e36e61e92503d190bd07f9c4f"
+    },
+    "books/prepared/cet4-0014.json": {
+      "size": 211037,
+      "sha1": "4a36b9f47fafc7913ccb6fd6c177458add0a9599"
+    },
+    "books/prepared/cet4-0015.json": {
+      "size": 203644,
+      "sha1": "0ed6c5aed00898be476663b8540fc8ada9cae344"
+    },
+    "books/prepared/cet4-0016.json": {
+      "size": 197401,
+      "sha1": "48de668cd6f639991fe6c14628f8a64766be6c62"
+    },
+    "books/prepared/cet4-0017.json": {
+      "size": 189178,
+      "sha1": "ca4fb20cdcb44e24e737a8c6132a325d78904a4e"
+    },
+    "books/prepared/cet4-0018.json": {
+      "size": 196485,
+      "sha1": "c196152d532147fe3948a561cc3fd7dd60a52766"
+    },
+    "books/prepared/cet4-0019.json": {
+      "size": 200488,
+      "sha1": "dba23011b1d98be0f88a58c4e0da2175b4b6b6bc"
+    },
+    "books/prepared/cet4-0020.json": {
+      "size": 203173,
+      "sha1": "c47cdaf8a975424a16c5c42a8169c9470a02afaf"
+    },
+    "books/prepared/cet4-0021.json": {
+      "size": 198532,
+      "sha1": "c761eef388ee23d610ab0da82fe4848f9da4c8db"
+    },
+    "books/prepared/cet4-0022.json": {
+      "size": 195546,
+      "sha1": "605caa2fdaca488c659bd7dfa35c55ab5c1d9773"
+    },
+    "books/prepared/cet4-0023.json": {
+      "size": 197437,
+      "sha1": "1318d41cc1587bcd2d29576a8397b407b2f2d724"
+    },
+    "books/prepared/cet4-0024.json": {
+      "size": 202194,
+      "sha1": "e5a46efd7fde05faa77080c473bcd4bd5d21f441"
+    },
+    "books/prepared/cet4-0025.json": {
+      "size": 208953,
+      "sha1": "a8230163832f74709a064747421dbb64ec50d7ef"
+    },
+    "books/prepared/cet4-0026.json": {
+      "size": 222697,
+      "sha1": "48863b2248df470f9496af3c93e4b7d8313b6479"
+    },
+    "books/prepared/cet4-0027.json": {
+      "size": 249531,
+      "sha1": "0a7e2827dc60de439761314f15760cdc51ee27ec"
+    },
+    "books/prepared/cet4-0028.json": {
+      "size": 263039,
+      "sha1": "c6a32b9855c37dc87b6d3cb07295ed124dd879be"
+    },
+    "books/prepared/cet4-0029.json": {
+      "size": 248257,
+      "sha1": "b7b2decd84fa8f689a9480cdfb7d875ab4581504"
+    },
+    "books/prepared/cet4-0030.json": {
+      "size": 242996,
+      "sha1": "f0eae08d6f9b3b5a9f02d76fb80ba140df858ea7"
+    },
+    "books/prepared/cet4-0031.json": {
+      "size": 242617,
+      "sha1": "76cc31bbefa2ea066e2f4388e0a0f727e83df9d1"
+    },
+    "books/prepared/cet4-0032.json": {
+      "size": 248288,
+      "sha1": "680bfd1789158a37f42c874adc689c0364638843"
+    },
+    "books/prepared/cet4-0033.json": {
+      "size": 247193,
+      "sha1": "e995ef9387f0ee5c23cfff2f23fce7038e0f2844"
+    },
+    "books/prepared/cet4-0034.json": {
+      "size": 249164,
+      "sha1": "4dd12c102d28727b642fddef29cf091e3e485e84"
+    },
+    "books/prepared/cet4-0035.json": {
+      "size": 253152,
+      "sha1": "4fec311a69170945954e9b7116dc578977c2845d"
+    },
+    "books/prepared/cet4-0036.json": {
+      "size": 249585,
+      "sha1": "e513566962fee35bbf25e5b96e70ecfa18803415"
+    },
+    "books/prepared/cet4-0037.json": {
+      "size": 242422,
+      "sha1": "abdbe1919d83c57d92f648c6e4548fad50ed3386"
+    },
+    "books/prepared/cet4-0038.json": {
+      "size": 247620,
+      "sha1": "ec2243c65f9167f8ae45745d00776b0d6dd2707a"
+    },
+    "books/prepared/cet4-0039.json": {
+      "size": 245572,
+      "sha1": "9817bc127335ea1bf11f1bdf5ef04bf9120feffa"
+    },
+    "books/prepared/cet4-0040.json": {
+      "size": 248981,
+      "sha1": "a2b9d103750b566bc2d6c870c8640cf1a1b6a208"
+    },
+    "books/prepared/cet4-0041.json": {
+      "size": 249510,
+      "sha1": "dc3ee083f5013a29ea6d5e0e95f73594bb149010"
+    },
+    "books/prepared/cet4-0042.json": {
+      "size": 244625,
+      "sha1": "8a5f10e1e3d7786c943cc7f9abdb7f0bf0fb8ce9"
+    },
+    "books/prepared/cet4-0043.json": {
+      "size": 244892,
+      "sha1": "487aefa93f7ec59dc9fed186b9e9c8fa5e7eef5e"
+    },
+    "books/prepared/cet4-0044.json": {
+      "size": 241894,
+      "sha1": "b74b768d9c9348ff49a9fc140b00760100b12755"
+    },
+    "books/prepared/cet4-0045.json": {
+      "size": 236164,
+      "sha1": "edc5b9a2db64e083a51951e991d137ec864d1c1e"
+    },
+    "books/prepared/cet4-0046.json": {
+      "size": 239806,
+      "sha1": "70552d5d4ac1c9b91ec77c6ef75d27cc46c3543d"
+    },
+    "books/prepared/cet4-0047.json": {
+      "size": 228297,
+      "sha1": "efbe417f1643352580ff5b03dcc34c018f24d456"
+    },
+    "books/prepared/cet4-0048.json": {
+      "size": 239446,
+      "sha1": "2510faf8cc474196c5e91263cd507c1714072815"
+    },
+    "books/prepared/cet4-0049.json": {
+      "size": 236514,
+      "sha1": "a8852512180007cf4135fef868aa439246bd6d84"
+    },
+    "books/prepared/cet4-0050.json": {
+      "size": 244378,
+      "sha1": "60d87c5bf8e538eb6b1532149826f6073bb54bff"
+    },
+    "books/prepared/cet4-0051.json": {
+      "size": 247142,
+      "sha1": "1f4f4d1d2ea9f6a019770c1b85bb17a26e71754a"
+    },
+    "books/prepared/cet4-0052.json": {
+      "size": 247604,
+      "sha1": "10f4194668728dcb2b968edebeb15b15da6494f0"
+    },
+    "books/prepared/cet4-0053.json": {
+      "size": 253217,
+      "sha1": "7c24570329045552babb1ee4be803f23e238b00e"
+    },
+    "books/prepared/cet4-0054.json": {
+      "size": 252426,
+      "sha1": "9abb4bd977f1eb203eac63990b7a5832f2a87ed9"
+    },
+    "books/prepared/cet4-0055.json": {
+      "size": 244194,
+      "sha1": "ce06b7754468a31b5391b6d34fdc992ef75dcd14"
+    },
+    "books/prepared/cet4-0056.json": {
+      "size": 248105,
+      "sha1": "e0feb65123cf69ff8c4be45c8b8f7d4c9a38c0ca"
+    },
+    "books/prepared/cet4-0057.json": {
+      "size": 227775,
+      "sha1": "bd1d000d69c926ebf0f3a521a8dcbc694e7d6ae4"
+    },
+    "books/prepared/cet4-0058.json": {
+      "size": 240624,
+      "sha1": "9702072078c1a1c3d3b8d085904b6dd4452d0926"
+    },
+    "books/prepared/cet4-0059.json": {
+      "size": 252810,
+      "sha1": "a99b41567cfe956cb9e6e6620310e0739bf2636f"
+    },
+    "books/prepared/cet4-0060.json": {
+      "size": 332068,
+      "sha1": "ea0816cfd33a3f0853e2100e501aac12307f3374"
+    },
+    "books/prepared/cet4-0061.json": {
+      "size": 370804,
+      "sha1": "73ba233149859e5b8529c4aa9894c54a611f82a6"
+    },
+    "books/prepared/cet4-0062.json": {
+      "size": 330299,
+      "sha1": "d356f79bb62514b0522d06bc21b5f6d2482994f8"
+    },
+    "books/prepared/cet4-0063.json": {
+      "size": 317503,
+      "sha1": "ba4589676f9bee390795893aa1f97fa7a3f3e0c9"
+    },
+    "books/prepared/cet4-0064.json": {
+      "size": 330805,
+      "sha1": "7c0e8cf8d6a8a4c0308e01cc175ac8d38d884426"
+    },
+    "books/prepared/cet4-0065.json": {
+      "size": 299229,
+      "sha1": "0993b044a3b0da05d8c3c1646b370591d6bfb182"
+    },
+    "books/prepared/cet4-0066.json": {
+      "size": 252990,
+      "sha1": "4a90e15b8d6e12bd7a525e746073122aed0ed217"
+    },
+    "books/prepared/cet4-0067.json": {
+      "size": 299876,
+      "sha1": "6cb7d8130f4ec0a34f28e7d431b40db56bc5db9c"
+    },
+    "books/prepared/cet4-0068.json": {
+      "size": 287136,
+      "sha1": "d3db6b970ab5ab7c4a9b378cb46a67fe65fabbf1"
+    },
+    "books/prepared/cet4-0069.json": {
+      "size": 259747,
+      "sha1": "414a9a6d66926781db3b443e526696ee6fd5da7d"
+    },
+    "books/prepared/cet4-0070.json": {
+      "size": 249932,
+      "sha1": "2048133fa5497c6d721038755914716fffb23a29"
+    },
+    "books/prepared/cet4-0071.json": {
+      "size": 250904,
+      "sha1": "3d128a364aeaafb00310997e728a1119c0d54b61"
+    },
+    "books/prepared/cet4-0072.json": {
+      "size": 267570,
+      "sha1": "5e0906e56b298bd32f8ff7d7e7be9ff67481d65f"
+    },
+    "books/prepared/cet4-0073.json": {
+      "size": 276104,
+      "sha1": "a7a0daaebcd283e3fb13926d095134a9f87b82ad"
+    },
+    "books/prepared/cet4-0074.json": {
+      "size": 275554,
+      "sha1": "ea4a14d885d5b534f10b9c510ddf1f9ea5d4c71a"
+    },
+    "books/prepared/cet4-0075.json": {
+      "size": 268075,
+      "sha1": "48c6d19fecff8cd297409e6c4320a1e8a3334b0a"
+    },
+    "books/prepared/cet4-0076.json": {
+      "size": 280315,
+      "sha1": "d7fd6ed8e5b897f3d8e6db5976cb5413b6daa1ee"
+    },
+    "books/prepared/cet4-0077.json": {
+      "size": 253569,
+      "sha1": "87af8fa5052b98349a8975ae4f47b22162777569"
+    },
+    "books/prepared/cet4-0078.json": {
+      "size": 248758,
+      "sha1": "b12d5fad0f0cff892fc4991260ccb90bccf840d4"
+    },
+    "books/prepared/cet4-0079.json": {
+      "size": 251737,
+      "sha1": "a66c8c32aee21d5266e9f87bc62ef4f77d1c55d4"
+    },
+    "books/prepared/cet4-0080.json": {
+      "size": 246926,
+      "sha1": "6e444d698992c8519d4ca656f3458d065dcb1b39"
+    },
+    "books/prepared/cet4-0081.json": {
+      "size": 245937,
+      "sha1": "c19980795929a2b413fa54b4032e6fec1655c85e"
+    },
+    "books/prepared/cet4-0082.json": {
+      "size": 232228,
+      "sha1": "2c4a557472806defcb580a126d7e801ab1fd5578"
+    },
+    "books/prepared/cet4-0083.json": {
+      "size": 237773,
+      "sha1": "4490b1b3b0061c48ac9f7213d134c11de39317ec"
+    },
+    "books/prepared/cet4-0084.json": {
+      "size": 244452,
+      "sha1": "d1e228239453347c4596eaaaedf754772e77b9bb"
+    },
+    "books/prepared/cet4-0085.json": {
+      "size": 247721,
+      "sha1": "5bd5bb55ed3e817c419ad6a09a42d0896e25dbf6"
+    },
+    "books/prepared/cet4-0086.json": {
+      "size": 261972,
+      "sha1": "d15703aa6735e15875bf6c13573dd36d88272498"
+    },
+    "books/prepared/cet4-0087.json": {
+      "size": 242317,
+      "sha1": "947cf9ea910a6ca6a478e76b2922af36ce022a40"
+    },
+    "books/prepared/cet4-0088.json": {
+      "size": 248250,
+      "sha1": "80c27a2278968dfa2bfd6094057c39626cec10f3"
+    },
+    "books/prepared/cet4-0089.json": {
+      "size": 238194,
+      "sha1": "68d9e907672384ad20f87133f409d89c492a6fbe"
+    },
+    "books/prepared/cet4-0090.json": {
+      "size": 239512,
+      "sha1": "ecdd9b6c350b92487e52b53b5c853c70458907a3"
+    },
+    "books/prepared/cet4-0091.json": {
+      "size": 238069,
+      "sha1": "8e09936a0880731277475f48e7fd004e8e4c4b67"
+    },
+    "books/prepared/cet4-0092.json": {
+      "size": 239151,
+      "sha1": "3e2f0530348c451fd3bfca093c6ca8b6ee0be21c"
+    },
+    "books/prepared/cet4-0093.json": {
+      "size": 236600,
+      "sha1": "54c551b76b40a3cafe0ce38c93f6db91521dc3c6"
+    },
+    "books/prepared/cet4-0094.json": {
+      "size": 240382,
+      "sha1": "7c96de971b8c9e2cdfc11f4c4a4f620ac9da3123"
+    },
+    "books/prepared/cet4-0095.json": {
+      "size": 236491,
+      "sha1": "5946e3e233d7cb9e083c599e5cb9c5d26c685cbd"
+    },
+    "books/prepared/cet4-0096.json": {
+      "size": 240260,
+      "sha1": "79f998970b2b123e24f2dcd8ad5fb8dacf2f5999"
+    },
+    "books/prepared/cet4-0097.json": {
+      "size": 240733,
+      "sha1": "0b52409f2a33da6e03af77d498b498cd7eb9e799"
+    },
+    "books/prepared/cet4-0098.json": {
+      "size": 236546,
+      "sha1": "1a67389e9328c43de7fb33b0d48f840b18400124"
+    },
+    "books/prepared/cet4-0102.json": {
+      "size": 314587,
+      "sha1": "8508b5973b89d85687f2551ec60eaf8068dc8864"
+    },
+    "books/prepared/cet4-0103.json": {
+      "size": 314337,
+      "sha1": "1d687913c201c925a0f73f7a70525326a50e84a0"
+    },
+    "books/prepared/cet4-0104.json": {
+      "size": 300413,
+      "sha1": "a9a77e133b1d46abf771181dda72c71d5fac66f8"
+    },
+    "books/prepared/cet4-0105.json": {
+      "size": 307028,
+      "sha1": "3c2780f0b656abcd54572cc30a1afc0c502321e7"
+    },
+    "books/prepared/cet4-0106.json": {
+      "size": 302616,
+      "sha1": "f06fedcc098848770b99b8897908569eb9818f17"
+    },
+    "books/prepared/cet4-0107.json": {
+      "size": 297431,
+      "sha1": "1c017567f2b3e41c78297216acb1e5072592bae7"
+    },
+    "books/prepared/cet4-0108.json": {
+      "size": 283730,
+      "sha1": "db829a811753253b7ae4e20423b9adf94719edbb"
+    },
+    "books/prepared/cet4-0110.json": {
+      "size": 296811,
+      "sha1": "60703405da4399cc56f6dd1cb9dce8a042f62c70"
+    },
+    "books/prepared/cet4-0112.json": {
+      "size": 313392,
+      "sha1": "dda80ab8625763f604d7c4733f24c726f89e3f01"
+    },
+    "books/prepared/cet4-0114.json": {
+      "size": 141932,
+      "sha1": "d12694a86ebde8064a2c23e9977e79b46c09c09b"
+    },
+    "books/prepared/cet4-0115.json": {
+      "size": 247737,
+      "sha1": "def98d2bd2f173715075847b1e10e2bdecd70f7a"
+    },
+    "books/prepared/cet4-0116.json": {
+      "size": 560345,
+      "sha1": "99d535dc788d89b5fe716044957b864850844d1a"
+    },
+    "books/prepared/cet4b-0001.json": {
+      "size": 791146,
+      "sha1": "62576eefbe70afb1c49b0e6ddfd0b58d5cc2bce5"
+    },
+    "books/prepared/cet4b-0002.json": {
+      "size": 351635,
+      "sha1": "9308c8f70be91e6aa0a695a970738ca1542633f1"
+    },
+    "books/prepared/cet4b-0003.json": {
+      "size": 356227,
+      "sha1": "66157cc236f2a9285fd72b617b564bd19ee7a706"
+    },
+    "books/prepared/cet4b-0004.json": {
+      "size": 337646,
+      "sha1": "a85548079f8cb8471e2212749b89b32acf60a1d2"
+    },
+    "books/prepared/cet4b-0005.json": {
+      "size": 320685,
+      "sha1": "560e473f096daae3ec014f631c3e961932091b8a"
+    },
+    "books/prepared/cet4b-0006.json": {
+      "size": 353031,
+      "sha1": "798b3164ab3742055ed902c883f8906567892c62"
+    },
+    "books/prepared/cet4b-0007.json": {
+      "size": 379067,
+      "sha1": "9666e0465b30bbadf1b98458be89ad03db5a1f84"
+    },
+    "books/prepared/cet4b-0008.json": {
+      "size": 399561,
+      "sha1": "1ffb186300e44f4af6ace0973bb3540c25b0fe65"
+    },
+    "books/prepared/cet4b-0009.json": {
+      "size": 383146,
+      "sha1": "36ec5c2cd91174ba573d255e0d96ec964cc257c5"
+    },
+    "books/prepared/cet4b-0010.json": {
+      "size": 368239,
+      "sha1": "c6dff6adc4b301426b214f9bbdde4bfb722b3e88"
+    },
+    "books/prepared/cet4b-0011.json": {
+      "size": 346221,
+      "sha1": "88d1ad5fb6550442763d31f072151b5eb0b45666"
+    },
+    "books/prepared/cet4b-0012.json": {
+      "size": 358378,
+      "sha1": "62b1e7fe75ecf4c44fcde18e5d7a0dd2767c7e8c"
+    },
+    "books/prepared/cet4b-0013.json": {
+      "size": 396463,
+      "sha1": "c4cdfb30daf3804c9244995c2b9888cc021e397e"
+    },
+    "books/prepared/cet4b-0014.json": {
+      "size": 364091,
+      "sha1": "2205f386f8270463a81e094ae847cc91c777be8d"
+    },
+    "books/prepared/cet4b-0015.json": {
+      "size": 327591,
+      "sha1": "d777a0d5ac1ab98f8275d96cbea5a111040cf11d"
+    },
+    "books/prepared/cet4b-0016.json": {
+      "size": 335812,
+      "sha1": "f20c4be9740115086308284d06759cf3b7302333"
+    },
+    "books/prepared/cet4b-0017.json": {
+      "size": 333954,
+      "sha1": "ace61c63cbb98e9bceef63ad265a29843bb2b6d1"
+    },
+    "books/prepared/cet4b-0018.json": {
+      "size": 342603,
+      "sha1": "3a313b83ab96c3edf02cdc6a5f23a8c8d636b402"
+    },
+    "books/prepared/cet4b-0019.json": {
+      "size": 305977,
+      "sha1": "422af67e140ee54c90de00b227efb2c0dcb6fc0a"
+    },
+    "books/prepared/cet4b-0020.json": {
+      "size": 319903,
+      "sha1": "5e7ba9aeaf20fe978f08f6c6e3507a815d4f95ea"
+    },
+    "books/prepared/cet4b-0021.json": {
+      "size": 387221,
+      "sha1": "6e0299c3a4d6d6c01ef5839927ca8c7d5cd07dac"
+    },
+    "books/prepared/cet4b-0022.json": {
+      "size": 374995,
+      "sha1": "eb600e19648e51808bee9c15bd4dc3827a8e1c18"
+    },
+    "books/prepared/cet4b-0023.json": {
+      "size": 302787,
+      "sha1": "d45922fb56cd76064d0916889f78404dc9f682df"
+    },
+    "books/prepared/cet4b-0024.json": {
+      "size": 351811,
+      "sha1": "b2bdcd711514633b509c4ac31eb1173b36a8ef1b"
+    },
+    "books/prepared/cet4b-0025.json": {
+      "size": 338357,
+      "sha1": "a243ed053c8ba877a2a3c6f0f22b9a831f51a663"
+    },
+    "books/prepared/cet4b-0026.json": {
+      "size": 333900,
+      "sha1": "0aa8b638c3c8cc740ddf7bce8d3c50be1e43701a"
+    },
+    "books/prepared/cet4b-0027.json": {
+      "size": 325105,
+      "sha1": "bf0ab08e0ca1155dcb30636b92372beca9cacf68"
+    },
+    "books/prepared/cet4b-0028.json": {
+      "size": 340490,
+      "sha1": "4ae6428cd42a06230dad1da6bb6722ea93a581e4"
+    },
+    "books/prepared/cet4b-0029.json": {
+      "size": 325806,
+      "sha1": "9f768de8b241b50a2503f6081121cc2d0ca932c8"
+    },
+    "books/prepared/cet4b-0030.json": {
+      "size": 370322,
+      "sha1": "feccf11f4b854096bc1545adaf667727e49ba176"
+    },
+    "books/prepared/cet4b-0031.json": {
+      "size": 388993,
+      "sha1": "c88ee9b79206f270dc6f83636498e90c6877eeb9"
+    },
+    "books/prepared/cet4b-0032.json": {
+      "size": 332917,
+      "sha1": "a951a57edd7b3fc78edaec70f2f256400eda7805"
+    },
+    "books/prepared/cet4b-0033.json": {
+      "size": 332700,
+      "sha1": "bf2893a36b6ceb40d6039a0fd898a540698dfe45"
+    },
+    "books/prepared/cet4b-0034.json": {
+      "size": 314999,
+      "sha1": "b7d556e7d1b78db34ec59f422b70e646d32f59c3"
+    },
+    "books/prepared/cet4b-0035.json": {
+      "size": 378014,
+      "sha1": "8b9e66cf7c817d373c9d9c16bbf9e1208a5919da"
+    },
+    "books/prepared/cet4b-0036.json": {
+      "size": 356557,
+      "sha1": "46ef660e430bf92a3aaba0c7fbbcd7b9d006572f"
+    },
+    "books/prepared/cet4b-0037.json": {
+      "size": 355824,
+      "sha1": "c1ed7f1e08497f641408a598f7e555a6f1c50e27"
+    },
+    "books/prepared/cet4b-0038.json": {
+      "size": 383960,
+      "sha1": "60eef809761103e9ea1985588a032eccf38f7428"
+    },
+    "books/prepared/cet4b-0039.json": {
+      "size": 375307,
+      "sha1": "a7985d2569d3e55a3a2f16e5a7a524716ed5c146"
+    },
+    "books/prepared/cet4b-0040.json": {
+      "size": 363772,
+      "sha1": "4df6947ecde23221c7f941493dbc8def4c8c3d8b"
+    },
+    "books/prepared/cet4b-0041.json": {
+      "size": 390647,
+      "sha1": "d6e9413dd8dc1cdf8385dc3d34ac105a52fb26b1"
+    },
+    "books/prepared/cet4b-0042.json": {
+      "size": 381557,
+      "sha1": "1d65ca7021b4ae5e4670fc90edc295b18652fcbf"
+    },
+    "books/prepared/cet4b-0043.json": {
+      "size": 385825,
+      "sha1": "7f9054fc5aeaf472f10e1dfe7c8dee7eee9b219e"
+    },
+    "books/prepared/cet4b-0044.json": {
+      "size": 371855,
+      "sha1": "4f4b2ed281a32a8b84d9841745324d3065509b02"
+    },
+    "books/prepared/cet4b-0045.json": {
+      "size": 340547,
+      "sha1": "c30c519d34fa812842516b5885a602ffac9fdbf5"
+    },
+    "books/prepared/cet4b-0046.json": {
+      "size": 323732,
+      "sha1": "020203d601df4402087e13bedb132be1ea0030ab"
+    },
+    "books/prepared/cet4b-0047.json": {
+      "size": 307367,
+      "sha1": "9acf90cb61f14ef67b2ff5f09badd87ae8be2a50"
+    },
+    "books/prepared/cet4b-0048.json": {
+      "size": 296180,
+      "sha1": "e434fe5c7162d01e30bf80722569b3b899cb1539"
+    },
+    "books/prepared/cet4b-0049.json": {
+      "size": 292140,
+      "sha1": "7caee84c20197902135bd7cc41e10d78ea6a6329"
+    },
+    "books/prepared/cet4b-0050.json": {
+      "size": 294740,
+      "sha1": "90414d61fdd38c860f5bb252c0404eec78463d49"
+    },
+    "books/prepared/cet4b-0051.json": {
+      "size": 317887,
+      "sha1": "948abfb135de434d2daad219df9c967db7b05539"
+    },
+    "books/prepared/cet4b-0052.json": {
+      "size": 313963,
+      "sha1": "ed34d2459f48920cba23e1f8fad2153a0c0f3406"
+    },
+    "books/prepared/cet4b-0053.json": {
+      "size": 291525,
+      "sha1": "88273e8ed88b03e2359927c4162927d40f0e0ff2"
+    },
+    "books/prepared/cet4b-0054.json": {
+      "size": 273377,
+      "sha1": "628d68a21007b6a6905eea5ccd2d9b33bb392144"
+    },
+    "books/prepared/cet4b-0055.json": {
+      "size": 253422,
+      "sha1": "b5778d36622df916d2d613b2c1eac6649f0c7660"
+    },
+    "books/prepared/cet4b-0056.json": {
+      "size": 238959,
+      "sha1": "469b43988e54f8327d3d8d6feb6c3af305013d73"
+    },
+    "books/prepared/cet4b-0057.json": {
+      "size": 246322,
+      "sha1": "5a2a4ea23bf09780c2eff5768b3a2fff4aa4e12f"
+    },
+    "books/prepared/cet4b-0058.json": {
+      "size": 249894,
+      "sha1": "01e505121667c077970c86ad71ec8ba0076f4b40"
+    },
+    "books/prepared/cet4b-0059.json": {
+      "size": 269000,
+      "sha1": "49d09edfe101f4619b1e475f58fa61f5f077e3d4"
+    },
+    "books/prepared/cet4b-0060.json": {
+      "size": 273347,
+      "sha1": "9efce30411252885b8c1913291208db53ea55717"
+    },
+    "books/prepared/cet4b-0061.json": {
+      "size": 268317,
+      "sha1": "dd25a88cfa2753527c1df17d593986cd60dc3290"
+    },
+    "books/prepared/cet4b-0062.json": {
+      "size": 264434,
+      "sha1": "6a65a39c49de286906b1686680798dcc087876ea"
+    },
+    "books/prepared/cet4b-0063.json": {
+      "size": 256691,
+      "sha1": "4c66422e7b5ac8e560df949cf78558d432f568fc"
+    },
+    "books/prepared/cet4b-0064.json": {
+      "size": 241627,
+      "sha1": "32e7a11a5ccffe5600631e543abfb8adc2008bc5"
+    },
+    "books/prepared/cet4b-0065.json": {
+      "size": 242083,
+      "sha1": "ffe55fa79b1286c81b26caadd6107a7a00e05ba9"
+    },
+    "books/prepared/cet4b-0066.json": {
+      "size": 242732,
+      "sha1": "0389492fc2e142ac0883135e0c8a9482c4967f78"
+    },
+    "books/prepared/cet4b-0067.json": {
+      "size": 231225,
+      "sha1": "3ec18f1bee5019267a22652e74d99ea59e7956d8"
+    },
+    "books/prepared/cet4b-0068.json": {
+      "size": 232314,
+      "sha1": "e2841fbb2c99321f9d4916d387717cf2f63a97a5"
+    },
+    "books/prepared/cet4b-0069.json": {
+      "size": 237115,
+      "sha1": "95d35d0d86279c20c1563a89545804ce75d320ce"
+    },
+    "books/prepared/cet4b-0070.json": {
+      "size": 238773,
+      "sha1": "7afbfbeff83410aee0ecbb3acade0ee2fae0626a"
+    },
+    "books/prepared/cet4b-0071.json": {
+      "size": 249590,
+      "sha1": "f9be92aa94f6e62c90cf4e35cb9c1507a783b7ad"
+    },
+    "books/prepared/cet4b-0072.json": {
+      "size": 241699,
+      "sha1": "847ffaa24abc413ec216ad6917bc19524bacd7fc"
+    },
+    "books/prepared/cet4b-0073.json": {
+      "size": 247905,
+      "sha1": "e3d3a740459207e233945cb2b21b0a4894eba4dd"
+    },
+    "books/prepared/cet4b-0074.json": {
+      "size": 247291,
+      "sha1": "3f273bd0331446a24cf561fc3d5ff4723049e473"
+    },
+    "books/prepared/cet4b-0075.json": {
+      "size": 241458,
+      "sha1": "9f9f3361bc0efcbf765e2fec4b3a9dab466974b4"
+    },
+    "books/prepared/cet4b-0076.json": {
+      "size": 243643,
+      "sha1": "16d6dc46d2d6541239a466047c9212dd8cd9d0a8"
+    },
+    "books/prepared/cet4b-0077.json": {
+      "size": 245437,
+      "sha1": "2da09da0abee97721360f4a870f1e9434a476c8e"
+    },
+    "books/prepared/cet4b-0078.json": {
+      "size": 240713,
+      "sha1": "a91db4b6c95c0b106553d315b0bf8f28bd8938ed"
+    },
+    "books/prepared/cet4b-0079.json": {
+      "size": 241320,
+      "sha1": "ca12d2e6fd079d33561ce106ad3d39d090fc7bdf"
+    },
+    "books/prepared/cet4b-0080.json": {
+      "size": 249268,
+      "sha1": "c6d205517ca3b061afb44865c5a7de95b9ce0e59"
+    },
+    "books/prepared/cet4b-0081.json": {
+      "size": 245001,
+      "sha1": "7fc20d0e950b564d3b421e2382490b33ff032764"
+    },
+    "books/prepared/cet4b-0082.json": {
+      "size": 242593,
+      "sha1": "10b6b3ec425841e24f3d003844ad8b04c0b5b617"
+    },
+    "books/prepared/cet4b-0083.json": {
+      "size": 244978,
+      "sha1": "6b189f8d34e043753485a8c9c36ae293a778bfc2"
+    },
+    "books/prepared/cet4b-0084.json": {
+      "size": 247895,
+      "sha1": "d58439a2e7cb1dee4c90285dacf3536371505e58"
+    },
+    "books/prepared/cet4b-0085.json": {
+      "size": 371327,
+      "sha1": "4b175b232d69d4f9cc545e5b61e31adae655bc5a"
+    },
+    "books/prepared/cet4b-0086.json": {
+      "size": 315156,
+      "sha1": "f4673a82773dd057f08c349961f3b462ebfd62e1"
+    },
+    "books/prepared/cet4b-0087.json": {
+      "size": 318842,
+      "sha1": "041f3317eaccd36fe4c809f0c5cf36cd0ed509b8"
+    },
+    "books/prepared/cet4b-0088.json": {
+      "size": 301912,
+      "sha1": "194e50e9c49bc871648b32716aa7300c7ce384d7"
+    },
+    "books/prepared/cet4b-0089.json": {
+      "size": 329444,
+      "sha1": "c96ac3af0b4858339371cee489be727567a0dd46"
+    },
+    "books/prepared/cet4b-0090.json": {
+      "size": 379709,
+      "sha1": "1a08232b9551b467472a56bf072d471bcc58c33e"
+    },
+    "books/prepared/cet4b-0091.json": {
+      "size": 414103,
+      "sha1": "7834859176aca9a8d0fc70736065700bf04b6945"
+    },
+    "books/prepared/cet4b-0092.json": {
+      "size": 351002,
+      "sha1": "038522a8c6f32c2afdfb9b0be21698f37461da88"
+    },
+    "books/prepared/cet4b-0093.json": {
+      "size": 323592,
+      "sha1": "f4ced9a59e94bee6f706a9ef80319e69e50fdec3"
+    },
+    "books/prepared/cet4b-0094.json": {
+      "size": 317071,
+      "sha1": "1f11577c05e69c2bc6a7754fecb243a1c63878d9"
+    },
+    "books/prepared/cet4b-0095.json": {
+      "size": 329289,
+      "sha1": "6083d7247f28785df16843d20a8477c3943cad81"
+    },
+    "books/prepared/cet4b-0096.json": {
+      "size": 345011,
+      "sha1": "7ccc0fc9d8716465f2ef869aa3dc89a21c4b862d"
+    },
+    "books/prepared/cet4b-0097.json": {
+      "size": 327054,
+      "sha1": "fff929da01142f4ca27dea05228f97f0e91d870b"
+    },
+    "books/prepared/cet4b-0098.json": {
+      "size": 317811,
+      "sha1": "e5e966cf599558fcdf499fd9ccdb4483fa96f259"
+    },
+    "books/prepared/cet4b-0099.json": {
+      "size": 349872,
+      "sha1": "47173671dd10e296c3a1b53f4cd05a86e2c345bb"
+    },
+    "books/prepared/cet4b-0100.json": {
+      "size": 325084,
+      "sha1": "f3163d6d894efad229f2ab2552db600a99b50d87"
+    },
+    "books/prepared/cet4b-0101.json": {
+      "size": 321028,
+      "sha1": "18feadaa6f9c71ef2f3f990226b52676f5465b88"
+    },
+    "books/prepared/cet4b-0102.json": {
+      "size": 325448,
+      "sha1": "de3967d0d9fd0b74d3d0634379e262c447dab849"
+    },
+    "books/prepared/cet4b-0103.json": {
+      "size": 331343,
+      "sha1": "e3da9a4a1db41ca83334c69abc96b0668b1e8046"
+    },
+    "books/prepared/cet4b-0104.json": {
+      "size": 309630,
+      "sha1": "28dd0a0eb0d431950d9845e02084344e44a61c90"
+    },
+    "books/prepared/cet4b-0105.json": {
+      "size": 314083,
+      "sha1": "36e6e1d1e5da7b7bedd4f8fd86131226bc781043"
+    },
+    "books/prepared/cet4b-0106.json": {
+      "size": 251561,
+      "sha1": "d8513b37cf41c90f588a42cf0ac2c6981e00aed3"
+    },
+    "books/prepared/cet4b-0107.json": {
+      "size": 299601,
+      "sha1": "5cfca7f35923b9e267efb152b5636e765c2eca31"
+    },
+    "books/prepared/cet4b-0108.json": {
+      "size": 273763,
+      "sha1": "44d221ee52d738a6aea11b5c61619a4fe94be38d"
+    },
+    "books/prepared/cet4b-0109.json": {
+      "size": 275482,
+      "sha1": "e0ef63af9aae29ca9958b0125d48bfdb29375646"
+    },
+    "books/prepared/cet4b-0110.json": {
+      "size": 354924,
+      "sha1": "31cf5d95b6e168f32135a1cf545b9a54f9915426"
+    },
+    "books/prepared/cet4b-0111.json": {
+      "size": 468180,
+      "sha1": "e3fc81709055d742b6a90d0d71f48f2e92f8567d"
+    },
+    "books/prepared/cet6-0001.json": {
+      "size": 329773,
+      "sha1": "6b4fcd6fbddad9e731739c5533fc877061b2a145"
+    },
+    "books/prepared/cet6-0002.json": {
+      "size": 330296,
+      "sha1": "698b38767abedf133a6c4787ac20f39ab97ffa91"
+    },
+    "books/prepared/cet6-0003.json": {
+      "size": 301468,
+      "sha1": "8a7ea207ba66c37424a2d49d65d5a156ab209eb8"
+    },
+    "books/prepared/cet6-0004.json": {
+      "size": 270287,
+      "sha1": "981ce259a6962f673cfd6dff163486a360a286ba"
+    },
+    "books/prepared/cet6-0005.json": {
+      "size": 347148,
+      "sha1": "e2936f9bac9108f05e873d9984731b001c35f16b"
+    },
+    "books/prepared/cet6-0006.json": {
+      "size": 332253,
+      "sha1": "538cbc53a1af33f7a4cef67a6e91d0e103d1a6b4"
+    },
+    "books/prepared/cet6-0007.json": {
+      "size": 357735,
+      "sha1": "ebf0f3f9cac498797a463e7855ca4c36e4872704"
+    },
+    "books/prepared/daily-0001.json": {
+      "size": 460758,
+      "sha1": "02116bfd743807b57775316c9af180f6a8ef98dc"
+    },
+    "books/prepared/daily-0002.json": {
+      "size": 467959,
+      "sha1": "aa62328e37853ca8b0d64f77dfc9e169a9a85389"
+    },
+    "books/prepared/daily-0003.json": {
+      "size": 438164,
+      "sha1": "04d83a9333e551366addef7e4f90aa546ec95c47"
+    },
+    "books/prepared/daily-0004.json": {
+      "size": 440900,
+      "sha1": "927e1d3e249ccb3dd28aa4e97e1e5846123da278"
+    },
+    "books/prepared/daily-0005.json": {
+      "size": 429373,
+      "sha1": "97d3d464836500a8ccd92eb146e951c752824577"
+    },
+    "books/prepared/daily-0006.json": {
+      "size": 398010,
+      "sha1": "cc05fba6dae92fd9ecc4502484d6c9db22dddc82"
+    },
+    "books/prepared/daily-0007.json": {
+      "size": 385848,
+      "sha1": "2f26b44b3fbe0ac1670678d656038f11e888c461"
+    },
+    "books/prepared/daily-0008.json": {
+      "size": 342928,
+      "sha1": "c6ec86a741cd9c81e6f396b31cb2ebb41fc2463f"
+    },
+    "books/prepared/daily-0009.json": {
+      "size": 345466,
+      "sha1": "f2aadcfb0b62aa27960e3cb3bb861b2f0c8d543d"
+    },
+    "books/prepared/daily-0010.json": {
+      "size": 251274,
+      "sha1": "82d55a5ec27fc6cdd2db8ea8b547d2c15eafb1aa"
+    },
+    "books/prepared/daily-0011.json": {
+      "size": 249796,
+      "sha1": "fdf0a58dc0c31eb7b90303decf8fff37ff4ff6ea"
+    },
+    "books/prepared/daily-0012.json": {
+      "size": 231837,
+      "sha1": "eb6b1591464dbbe6b5e5a906a65a2ea90c2837f5"
+    },
+    "books/prepared/daily-0013.json": {
+      "size": 233508,
+      "sha1": "026328259b5f084ba86eabc4e64892b8e2f535c3"
+    },
+    "books/prepared/daily-0014.json": {
+      "size": 229009,
+      "sha1": "fbd678b0342b8b1defb66d385f21de235cac5d33"
+    },
+    "books/prepared/daily-0015.json": {
+      "size": 256490,
+      "sha1": "ed87d983f88c3c739740c86b97fc77ea3c094238"
+    },
+    "books/prepared/daily-0016.json": {
+      "size": 202259,
+      "sha1": "2bf28131dd09d5bca6c45896047fe8ac8a3a9dc5"
+    },
+    "books/prepared/daily-0017.json": {
+      "size": 226320,
+      "sha1": "6e8922ebe82fd52669a4e385efdc1fb594918c2d"
+    },
+    "books/prepared/daily-0018.json": {
+      "size": 237890,
+      "sha1": "ab8bdc326a8bf83b3478cf74328eff2d22bfed1a"
+    },
+    "books/prepared/daily-0019.json": {
+      "size": 245726,
+      "sha1": "0a01c8da2c41bf94af24e284f7fe0a167f18e4b3"
+    },
+    "books/prepared/daily-0020.json": {
+      "size": 274639,
+      "sha1": "54f6bd11de1668c61ebb17cf22a8544921b9eed8"
+    },
+    "books/prepared/daily-0021.json": {
+      "size": 290666,
+      "sha1": "314897db1ee5763940cafaf791852ab79698086f"
+    },
+    "books/prepared/daily-0022.json": {
+      "size": 297173,
+      "sha1": "8f2f9e48c0ba592b2d60c78af83fe74dcd3c655a"
+    },
+    "books/prepared/daily-0023.json": {
+      "size": 282608,
+      "sha1": "ae905f6d4289a22f2dd814a7e3b0726f5b0087a5"
+    },
+    "books/prepared/daily-0024.json": {
+      "size": 290950,
+      "sha1": "ffbbf0079eadc8b984c0f5f513d3127dd74d5b46"
+    },
+    "books/prepared/daily-0025.json": {
+      "size": 281792,
+      "sha1": "fbe5d6a42c2db0cfdc80969bda0d49e9a03a27d8"
+    },
+    "books/prepared/daily-0026.json": {
+      "size": 294196,
+      "sha1": "73210c9ba352a41ab692ba855ba7af131bc8ef89"
+    },
+    "books/prepared/daily-0027.json": {
+      "size": 282831,
+      "sha1": "482f2427e019942e73e30e867a746e3141640829"
+    },
+    "books/prepared/daily-0028.json": {
+      "size": 246349,
+      "sha1": "bb94b559d945cb0591efe40c1173855f39886530"
+    },
+    "books/prepared/daily-0029.json": {
+      "size": 278475,
+      "sha1": "f1df6545a499fd0e2b3e9353f75b6205fedf9e24"
+    },
+    "books/prepared/daily-0030.json": {
+      "size": 281800,
+      "sha1": "c0a06eec100b3af9ae111d09290bebcc784fbedb"
+    },
+    "books/prepared/daily-0031.json": {
+      "size": 285422,
+      "sha1": "25f4eef44cedc5b83971e3cca9e7c205739b54d2"
+    },
+    "books/prepared/daily-0032.json": {
+      "size": 270407,
+      "sha1": "023beb54eeb92325965701685989b018a4eaa704"
+    },
+    "books/prepared/daily-0033.json": {
+      "size": 275797,
+      "sha1": "e11f48fec3c2a43c63b303aeccd449f7d933aa18"
+    },
+    "books/prepared/daily-0034.json": {
+      "size": 267003,
+      "sha1": "6c7170e17e1c3a2b6380e238a2202d5eb39aaf29"
+    },
+    "books/prepared/daily-0035.json": {
+      "size": 280245,
+      "sha1": "daad603ef75b681ce21e299131b3850db29032a3"
+    },
+    "books/prepared/daily-0036.json": {
+      "size": 279165,
+      "sha1": "5747e244a84ba7311ca5e294add171ee3d6f3dbb"
+    },
+    "books/prepared/daily-0037.json": {
+      "size": 249349,
+      "sha1": "85d6411c8f5dc0192c8db107778325ee1f10d2ce"
+    },
+    "books/prepared/daily-0038.json": {
+      "size": 290976,
+      "sha1": "90f33d5766834287c8f2becb44365aded4edd71d"
+    },
+    "books/prepared/daily-0039.json": {
+      "size": 278254,
+      "sha1": "3006d9b4a50f30ea9c3727d37c49e848f104fb46"
+    },
+    "books/prepared/daily-0040.json": {
+      "size": 267993,
+      "sha1": "494dcc84108de92f72151a5b1d68bfd569733a80"
+    },
+    "books/prepared/daily-0041.json": {
+      "size": 266272,
+      "sha1": "854bb6a076d7ec18bac591002f9394d49921ca4e"
+    },
+    "books/prepared/daily-0042.json": {
+      "size": 356216,
+      "sha1": "22011c95dc4746efe64ae37107fb97e51b1df158"
+    },
+    "books/prepared/daily-0043.json": {
+      "size": 346383,
+      "sha1": "e4079eb1fdc2067bd58095da5f5ddebc29de94c2"
+    },
+    "books/prepared/daily-0044.json": {
+      "size": 333252,
+      "sha1": "0653ea1d1e901eb9a98d8fbfe1b5ba271a85092a"
+    },
+    "books/prepared/daily-0045.json": {
+      "size": 301550,
+      "sha1": "38c64f622116271933d92c4d4f00a67795ef2511"
+    },
+    "books/prepared/daily-0046.json": {
+      "size": 278258,
+      "sha1": "a82662d7c4fc8f2c0caaf26d52642225cd82f42e"
+    },
+    "books/prepared/daily-0047.json": {
+      "size": 294223,
+      "sha1": "69a85ed4be50264c5fed31ec9b06b41c7c9b5054"
+    },
+    "books/prepared/daily-0048.json": {
+      "size": 254722,
+      "sha1": "4159bc426414b4eecf1e1886d08a754ed7992a0c"
+    },
+    "books/prepared/daily-0049.json": {
+      "size": 255961,
+      "sha1": "0545f96b7069ba6f10a37c46c8d0e848489e3de7"
+    },
+    "books/prepared/daily-0050.json": {
+      "size": 272981,
+      "sha1": "1e84434ba7c3a09c19cd28a300ab70762531d1a8"
+    },
+    "books/prepared/daily-0051.json": {
+      "size": 274665,
+      "sha1": "92885c65ac9f222195e1e444a5d624196bd4ebda"
+    },
+    "books/prepared/daily-0052.json": {
+      "size": 277565,
+      "sha1": "8cbacd87b218593fa9624e756a436f79c743143d"
+    },
+    "books/prepared/daily-0053.json": {
+      "size": 267708,
+      "sha1": "e71b9823a459a32a9013f0d9d80a0520d8ad2bad"
+    },
+    "books/prepared/daily-0054.json": {
+      "size": 263761,
+      "sha1": "da531c8d9fd9fb92e6c42e0b70b72ff1ba818b2a"
+    },
+    "books/prepared/daily-0055.json": {
+      "size": 250224,
+      "sha1": "9f32db3edce38010c7c12671dcca1a9a54626ee8"
+    },
+    "books/prepared/daily-0056.json": {
+      "size": 248959,
+      "sha1": "6a947aae2097fa070b5090a18ffa3998e95c190a"
+    },
+    "books/prepared/daily-0057.json": {
+      "size": 209395,
+      "sha1": "099782c494788d1bafaf3ea05a2d24fa097541ef"
+    },
+    "books/prepared/daily-0058.json": {
+      "size": 252320,
+      "sha1": "d5861c0f405b7ea58e3b4b982b1f7c3cbabbbb24"
+    },
+    "books/prepared/daily-0059.json": {
+      "size": 246111,
+      "sha1": "022833d6025fcbb9b7eab1d993528036123367c1"
+    },
+    "books/prepared/daily-0060.json": {
+      "size": 266050,
+      "sha1": "bb99ad42ac6581f94843103be7c0e6f6ddc0e093"
+    },
+    "books/prepared/daily-0061.json": {
+      "size": 238047,
+      "sha1": "4da0255ce6805b69f4ce38053c88a0d2d9eac0ba"
+    },
+    "books/prepared/daily-0062.json": {
+      "size": 237480,
+      "sha1": "81185cb32109cd8996e5cd7646efba059e0d7c71"
+    },
+    "books/prepared/daily-0063.json": {
+      "size": 250030,
+      "sha1": "b7a6e46a2dfa83a8e9ba744bac41ae80eca46df0"
+    },
+    "books/prepared/daily-0064.json": {
+      "size": 236653,
+      "sha1": "b9142cbe7da7a41a89c741c8a8ac36bcdc5e82d7"
+    },
+    "books/prepared/daily-0065.json": {
+      "size": 247925,
+      "sha1": "ceb60fb1fbf43014bb22fc0e284b16fe5a206a94"
+    },
+    "books/prepared/daily-0066.json": {
+      "size": 249618,
+      "sha1": "4553dc522248056f8e3f205062edb270ca26ae70"
+    },
+    "books/prepared/daily-0067.json": {
+      "size": 305454,
+      "sha1": "f7d5ea78f6a2cadd4c444c314cca51cd03fe112f"
+    },
+    "books/prepared/daily-0068.json": {
+      "size": 323505,
+      "sha1": "80a3f32190d6a1c77dc19e6e24f7d4eae8e400fa"
+    },
+    "books/prepared/daily-0069.json": {
+      "size": 421810,
+      "sha1": "3269d6226e744bbd4926a441167de4539e1057ab"
+    },
+    "books/prepared/daily-0070.json": {
+      "size": 305233,
+      "sha1": "174ed284ac213576f6f3e826991f0cf1b33c8541"
+    },
+    "books/prepared/daily-0071.json": {
+      "size": 307223,
+      "sha1": "67f380307634fbd7eaf96d5b4c76d3255738e2a1"
+    },
+    "books/prepared/daily-0072.json": {
+      "size": 299562,
+      "sha1": "a954b29882df588987777aa76c8a28e4a080ed33"
+    },
+    "books/prepared/daily-0073.json": {
+      "size": 334521,
+      "sha1": "272a3712180cf4820082a6ef680bb8b5bb640f88"
+    },
+    "books/prepared/daily-0074.json": {
+      "size": 330240,
+      "sha1": "7597aa44e17c66e2b1f06b06106e01679db3e928"
+    },
+    "books/prepared/daily-0075.json": {
+      "size": 377456,
+      "sha1": "cfbd4f116b18505be899d5f0c8b78fef804ea53a"
+    },
+    "books/prepared/daily-0076.json": {
+      "size": 373882,
+      "sha1": "acc5d7f51e65104d60f46010bff5ac2e19f061cb"
+    },
+    "books/prepared/daily-0077.json": {
+      "size": 366596,
+      "sha1": "377f66a32e79063427e48c81c70cf18e81967146"
+    },
+    "books/prepared/daily-0078.json": {
+      "size": 375276,
+      "sha1": "46eae220bc26c7ef09ac6c2e9312b95b18622f21"
+    },
+    "books/prepared/daily-0079.json": {
+      "size": 346667,
+      "sha1": "572d3623bf92c87ebb540a2f3b275a7def9247a8"
+    },
+    "books/prepared/daily-0080.json": {
+      "size": 418677,
+      "sha1": "8ca182e2cdf836bf540d8cc87e51656774b3962a"
+    },
+    "books/prepared/daily-0081.json": {
+      "size": 419877,
+      "sha1": "ec98892c778ba58b16b0a75e0572961e1c77bf0b"
+    },
+    "books/prepared/daily-0082.json": {
+      "size": 435548,
+      "sha1": "4a20c650ff1a0fd10dacee5751b31046df247e60"
+    },
+    "books/prepared/daily-0083.json": {
+      "size": 395157,
+      "sha1": "716426a8853398918160fbdbfca5a16d22b43bd4"
+    },
+    "books/prepared/daily-0084.json": {
+      "size": 418503,
+      "sha1": "6beb2b7688771b0215788e91edf55e2f3f4d91f0"
+    },
+    "books/prepared/daily-0085.json": {
+      "size": 358603,
+      "sha1": "ff3b8c93364afc8b0c9fb67b41364e5fa948baec"
+    },
+    "books/prepared/daily-0086.json": {
+      "size": 322107,
+      "sha1": "4931848f7ff5abb58c599d6eb4d646e0131e1816"
+    },
+    "books/prepared/daily-0087.json": {
+      "size": 378905,
+      "sha1": "2faf9cc7d273d246049ac065cf8ee9847ce7fbfa"
+    },
+    "books/prepared/daily-0088.json": {
+      "size": 333619,
+      "sha1": "0bf08e7e22feac327cb07e9dd0e08b66e375b220"
+    },
+    "books/prepared/daily-0089.json": {
+      "size": 387466,
+      "sha1": "6cc87f19feac9d9b495456c8f712deda90955b8c"
+    },
+    "books/prepared/daily-0090.json": {
+      "size": 431618,
+      "sha1": "8001d5b2b8388b67ac42b2a108eac21ef9c5892e"
+    },
+    "books/prepared/daily-0091.json": {
+      "size": 345197,
+      "sha1": "9b577aba488db7b7ecdc8ed3d3f8ed6ac7bba126"
+    },
+    "books/prepared/daily-0092.json": {
+      "size": 382007,
+      "sha1": "05b9843e0a185dd878f51eee0e6734d94f9b288d"
+    },
+    "books/prepared/daily-0093.json": {
+      "size": 373288,
+      "sha1": "39eb398ed757862e766d9e8df6ab6d9270678ba0"
+    },
+    "books/prepared/daily-0094.json": {
+      "size": 372526,
+      "sha1": "e36315f9fb7f37b2741657c65e7dba359b9a5e33"
+    },
+    "books/prepared/daily-0095.json": {
+      "size": 359970,
+      "sha1": "cbd358292f208fc8a44bdf9d64d99375c899975c"
+    },
+    "books/prepared/daily-0096.json": {
+      "size": 412109,
+      "sha1": "55e83b629fad3a38ef289f8c605bc4d874ec524b"
+    },
+    "books/prepared/daily-0097.json": {
+      "size": 404279,
+      "sha1": "2bb48f3a649a87c35012d1499bcfa0b1e88ce58f"
+    },
+    "books/prepared/daily-0098.json": {
+      "size": 331072,
+      "sha1": "b60a1e83bf21a85ddd7093a62cd0ef62dd338e1b"
+    },
+    "books/prepared/daily-0099.json": {
+      "size": 369912,
+      "sha1": "0437d711ac9761ee29ef8870e0c1645209af3c2e"
+    },
+    "books/prepared/daily-0100.json": {
+      "size": 408657,
+      "sha1": "641b2e7f625088cc66aa1c9a5f4e193318594448"
+    },
+    "books/prepared/daily-0101.json": {
+      "size": 398186,
+      "sha1": "7ba83ff19c8f8d5b9539cdb7185ea55e56d4bbc1"
+    },
+    "books/prepared/daily-0102.json": {
+      "size": 373007,
+      "sha1": "5be0babed449e2bfd05c1f694377622c096ecd8e"
+    },
+    "books/prepared/daily-0103.json": {
+      "size": 402118,
+      "sha1": "c807fef5b198164af6356b30b8a2aa915232ea48"
+    },
+    "books/prepared/daily-0104.json": {
+      "size": 430573,
+      "sha1": "fabfa4643f58c38a2a60dc54d28e431d07f1de4e"
+    },
+    "books/prepared/daily-0105.json": {
+      "size": 434728,
+      "sha1": "0dde1f18ce117ec44b6ab585f59e31019ac6839e"
+    },
+    "books/prepared/daily-0106.json": {
+      "size": 368790,
+      "sha1": "ef92bedff8dc27fef082167ee4126ebd8a489372"
+    },
+    "books/prepared/daily-0107.json": {
+      "size": 339847,
+      "sha1": "33cf0db8591c71305749f75f39f8d5611fd1b8f3"
+    },
+    "books/prepared/daily-0108.json": {
+      "size": 306469,
+      "sha1": "54df0d82d0cdb1a1abbca91b51d2602d5be91353"
+    },
+    "books/prepared/daily-0109.json": {
+      "size": 300885,
+      "sha1": "391c96fd5a20e936bc041a97c09a8346b6f56411"
+    },
+    "books/prepared/daily-0110.json": {
+      "size": 486684,
+      "sha1": "1dbdddd451fbc583071126503cacf0b5ed67cea6"
+    },
+    "books/prepared/daily-0111.json": {
+      "size": 308610,
+      "sha1": "45afecf8e673b7e1b2c271f0f71aa6c8b807df4f"
+    },
+    "books/prepared/daily-0112.json": {
+      "size": 313389,
+      "sha1": "f5ac5028e020eef2f2df9feaed8b9946a2faddc4"
+    },
+    "books/prepared/daily-0113.json": {
+      "size": 287646,
+      "sha1": "b0fbe27911c60cf5561040b4b17155d80f445e40"
+    },
+    "books/prepared/daily-0114.json": {
+      "size": 256952,
+      "sha1": "87b4c1ec71e0012c1fe3399bda6de8afea8320bb"
+    },
+    "books/prepared/daily-0115.json": {
+      "size": 248375,
+      "sha1": "ed027231099df9feca7a52d9cb6fb1dba4256746"
+    },
+    "books/prepared/daily-0116.json": {
+      "size": 319827,
+      "sha1": "7289704fdf038d4a23444d4a7ac17ea7ee419bda"
+    },
+    "books/prepared/daily-0117.json": {
+      "size": 205623,
+      "sha1": "177683d9240d2dc95b63a00fd4b76eeebca55b75"
+    },
+    "books/prepared/daily-0117a.json": {
+      "size": 279643,
+      "sha1": "fb08dbac0c68ddb8024ef7164022e76615efc380"
+    },
+    "books/prepared/daily-0117b.json": {
+      "size": 275192,
+      "sha1": "d8437a02e596589ea0f17217e55dd875932b4718"
+    },
+    "books/prepared/daily-0117c.json": {
+      "size": 295380,
+      "sha1": "d7c489782c10b236ce3febba6a7a87d2f7a4f80a"
+    },
+    "books/prepared/daily-0117d.json": {
+      "size": 168774,
+      "sha1": "682d5c6efe5306aa33afd9de880a2c2c9f1c83ad"
+    },
+    "books/prepared/daily-0117e.json": {
+      "size": 239478,
+      "sha1": "16e25429dde52d5ebe90b89a352916691b4a04cb"
+    },
+    "books/prepared/daily-0117f.json": {
+      "size": 238043,
+      "sha1": "c9a011c4d11a255abfa3eab913e30ea23e434ad0"
+    },
+    "books/prepared/daily-0118.json": {
+      "size": 238503,
+      "sha1": "12c653f165b509e8548ef0c9868baf78edc5ea28"
+    },
+    "books/prepared/daily-0119.json": {
+      "size": 245123,
+      "sha1": "5c97b924192844c8e72d389ca7bce4ea2c6951c5"
+    },
+    "books/prepared/daily-0120.json": {
+      "size": 243960,
+      "sha1": "e9db097fe0d5040dcdf6f89db2c504e917352127"
+    },
+    "books/prepared/daily-0121.json": {
+      "size": 419652,
+      "sha1": "f708b7b90214ef69ee6aadb402a21db3a14cf739"
+    },
+    "books/prepared/daily-0122.json": {
+      "size": 338836,
+      "sha1": "45e063ef6e3e2effa353b48e5b113fef3c261567"
+    },
+    "books/prepared/daily-0123.json": {
+      "size": 332688,
+      "sha1": "e490e0dbf4fbac067add27406c085c11bc059f45"
+    },
+    "books/prepared/daily-0124.json": {
+      "size": 244381,
+      "sha1": "b67099dc371a68079d11db8b9da474e608efe354"
+    },
+    "books/prepared/daily-0125.json": {
+      "size": 246086,
+      "sha1": "a1783005d591c6d1718a540502158fdec293cdd7"
+    },
+    "books/prepared/daily-0126.json": {
+      "size": 245674,
+      "sha1": "686e8e19530bc2f2ddcf2d7126132e44f8099698"
+    },
+    "books/prepared/daily-0127.json": {
+      "size": 256139,
+      "sha1": "3628bb43e675f6abd06666621906be02a52853fd"
+    },
+    "books/prepared/daily-0128.json": {
+      "size": 261537,
+      "sha1": "1462243c6096aa8ed4d6e599cd954508d964da2e"
+    },
+    "books/prepared/daily-0129.json": {
+      "size": 310878,
+      "sha1": "961ffe60f27758726d9e6b2ff6559775bccd4c33"
+    },
+    "books/prepared/daily-0130.json": {
+      "size": 213424,
+      "sha1": "7c81e61d494bbcf3d5382927ebfe6fa8563c0a23"
+    },
+    "books/prepared/daily-0131.json": {
+      "size": 354664,
+      "sha1": "3e339dde265f74694db6e3016b6e8a4e2ee68b10"
+    },
+    "books/prepared/daily-0132.json": {
+      "size": 303005,
+      "sha1": "9c0e3069e211f97eccbbf158581c2ac9d3c1ff74"
+    },
+    "books/prepared/daily-0133.json": {
+      "size": 289510,
+      "sha1": "3d7fd6866b6c71a338e895e79481925b082a9287"
+    },
+    "books/prepared/daily-0134.json": {
+      "size": 299480,
+      "sha1": "12e580ad5a9f1c5b17a027d0ebe32f26908a1300"
+    },
+    "books/prepared/daily-0135.json": {
+      "size": 303380,
+      "sha1": "9457a2c428b4c80cdd2197b8232694a594ee5984"
+    },
+    "books/prepared/daily-0136.json": {
+      "size": 435064,
+      "sha1": "741b94a9c3b06ad27b7a0467a92012c058c1dff4"
+    },
+    "books/prepared/daily-0137.json": {
+      "size": 353596,
+      "sha1": "878a34ba6d009a502f0c1215d8cc5af7825e1744"
+    },
+    "books/prepared/daily-0138.json": {
+      "size": 331670,
+      "sha1": "5acd75d44ba07787bac909f8775cead2ac8c12ba"
+    },
+    "books/prepared/daily-0139.json": {
+      "size": 333320,
+      "sha1": "8680c7c20f2781d37a017cffdf6439de3a16fd9f"
+    },
+    "books/prepared/daily-0140.json": {
+      "size": 376969,
+      "sha1": "82f60edc9e5d6d44f953d15e07c203a03d16c00a"
+    },
+    "books/prepared/daily-0141.json": {
+      "size": 334066,
+      "sha1": "da31cbfd242a3cf4bca937041dbc26539fb005a9"
+    },
+    "books/prepared/daily-0142.json": {
+      "size": 353642,
+      "sha1": "a0366d872882b4a89e90d01b6fe9a3015d21ec89"
+    },
+    "books/prepared/daily-0143.json": {
+      "size": 325818,
+      "sha1": "b9956876427fda426ae85c0f78a1b7edd0f5dd81"
+    },
+    "books/prepared/daily-0144.json": {
+      "size": 311170,
+      "sha1": "84b715a25ea20f436124701d4a81872bce42117d"
+    },
+    "books/prepared/gaokao-0000a.json": {
+      "size": 898387,
+      "sha1": "b9157c93bcb41c59c3fd9b3481c4622016f48f36"
+    },
+    "books/prepared/gaokao-0001.json": {
+      "size": 253848,
+      "sha1": "06b5d8a3e062279598083fa1f4f8dcef58dc4fc3"
+    },
+    "books/prepared/gaokao-0003.json": {
+      "size": 443209,
+      "sha1": "cb2d7111b512e278c6ba9c38769161df0ab6f742"
+    },
+    "books/prepared/gaokao-0005.json": {
+      "size": 371537,
+      "sha1": "bc851c5de4e981486433dad2be2b006ffbe69cac"
+    },
+    "books/prepared/gaokao-0006.json": {
+      "size": 334405,
+      "sha1": "cbd66181b5046bc30feb31b100cf31aba98d5b2a"
+    },
+    "books/prepared/gaokao-0007.json": {
+      "size": 301438,
+      "sha1": "bd5488ed3115947e3182a6bd9dfd52f8dde47814"
+    },
+    "books/prepared/gaokao-0008.json": {
+      "size": 342442,
+      "sha1": "af8d7b783e5f4deb915fbab4faf31c6bf6f0b6c6"
+    },
+    "books/prepared/gaokao-0009.json": {
+      "size": 291455,
+      "sha1": "467501f7327c44673ee24929b62618dbaa8effba"
+    },
+    "books/prepared/gaokao-0010.json": {
+      "size": 247113,
+      "sha1": "41bcde7128eb8d12c09c76f4602bff6855b2735d"
+    },
+    "books/prepared/gaokao-0011.json": {
+      "size": 283501,
+      "sha1": "9cfcac002f8bce4fc766f0e60a2b417856ee5c61"
+    },
+    "books/prepared/ielts-0001.json": {
+      "size": 598815,
+      "sha1": "47cf13b74325d984e354233502bf0e7c300b75f0"
+    },
+    "books/prepared/ielts-0002.json": {
+      "size": 424325,
+      "sha1": "217ca7e47044cecffcd082f0bfc53adb5147a031"
+    },
+    "books/prepared/ielts-0003.json": {
+      "size": 327849,
+      "sha1": "23a4e2560cb921d1f4431f9ce229fda0b2159af3"
+    },
+    "books/prepared/ielts-0004.json": {
+      "size": 310054,
+      "sha1": "d5309998c8d8f6146731931e4260f28ea9e4b871"
+    },
+    "books/prepared/ielts-0005.json": {
+      "size": 878709,
+      "sha1": "0d07a0c127dd27936e94aa4f0cf41231ec29565f"
+    },
+    "books/prepared/ielts-0006.json": {
+      "size": 336187,
+      "sha1": "7782c44542a640ced60dcca5659bbe1e7bddca68"
+    },
+    "books/prepared/ielts-0007.json": {
+      "size": 357281,
+      "sha1": "09d651fa041b85ea114f040f92ce6beb29973f3a"
+    },
+    "books/prepared/ielts-0008.json": {
+      "size": 341591,
+      "sha1": "8439e7442b5766c594d4eb036683386bffabcd91"
+    },
+    "books/prepared/ielts-0009.json": {
+      "size": 356904,
+      "sha1": "b3a586dac2066c9757964492102416aed98e7478"
+    },
+    "books/prepared/ielts-0010.json": {
+      "size": 330060,
+      "sha1": "9adeaccbf0f092d3709e7bd7c2dc1ad1a10d3636"
+    },
+    "books/prepared/ielts-0011.json": {
+      "size": 357382,
+      "sha1": "9796f9c4e2780b850ea7cea1e8bbee5fe4eb5861"
+    },
+    "books/prepared/ielts-0012.json": {
+      "size": 313113,
+      "sha1": "03fd799bfcec50e8c3947dcad1b05af930ab44b0"
+    },
+    "books/prepared/ielts-0013.json": {
+      "size": 313323,
+      "sha1": "86354484397fe63690547ceb5285f6ef2a25a5a6"
+    },
+    "books/prepared/ielts-0014.json": {
+      "size": 292498,
+      "sha1": "fe860c6acd31fa4f777ea06dea8f7fc7db996e0f"
+    },
+    "books/prepared/ielts-0015.json": {
+      "size": 332793,
+      "sha1": "c1022b7313a4700c779e169ad1b9c3153c538532"
+    },
+    "books/prepared/ielts-0016.json": {
+      "size": 390069,
+      "sha1": "6b0f0b87f5d1edb3333c2c0f2bf350426cb1022d"
+    },
+    "books/prepared/ielts-0017.json": {
+      "size": 338893,
+      "sha1": "9c88768eec9d158dea36d95209937f0cfe5144c4"
+    },
+    "books/prepared/ielts-0018.json": {
+      "size": 320937,
+      "sha1": "f7894f13444f77d3a1232fb71fa0eb193ccc2675"
+    },
+    "books/prepared/ielts-0019.json": {
+      "size": 308752,
+      "sha1": "fa4a2f31e19306000034f2f33604009c75c687b2"
+    },
+    "books/prepared/ielts-0020.json": {
+      "size": 333105,
+      "sha1": "63b8f71bef571efb9c4921f77e9939a11c752716"
+    },
+    "books/prepared/ielts-0021.json": {
+      "size": 320027,
+      "sha1": "eb6d325bae5f0a4c8b0728598a820c84a432bf34"
+    },
+    "books/prepared/ielts-0022.json": {
+      "size": 402791,
+      "sha1": "d00bf01a4da40ec7e947db276a6561eea0d7d29d"
+    },
+    "books/prepared/ielts-0023.json": {
+      "size": 311981,
+      "sha1": "11c332b4b32d673c9a01c24c1df29675c54af8bb"
+    },
+    "books/prepared/ielts-0024.json": {
+      "size": 308380,
+      "sha1": "dd5578fbd559f2117ccde29f9fb9cd6867301a7f"
+    },
+    "books/prepared/ielts-0025.json": {
+      "size": 311864,
+      "sha1": "4c0dc1e1c43f591310821248398d0b2618ea9ed2"
+    },
+    "books/prepared/ielts-0026.json": {
+      "size": 284815,
+      "sha1": "c94f52102b35021b64ddb4aeb936c8554525b469"
+    },
+    "books/prepared/ielts-0027.json": {
+      "size": 296728,
+      "sha1": "1adef6051ed8afc7f96ae9cc4d59647b0a7ae2e5"
+    },
+    "books/prepared/ielts-0028.json": {
+      "size": 263994,
+      "sha1": "050e1b30698ce50be4e79f6847816983a15ca913"
+    },
+    "books/prepared/ielts-0029.json": {
+      "size": 298890,
+      "sha1": "f3f6b60944308eb4d522850a34103bf5e446f875"
+    },
+    "books/prepared/ielts-0030.json": {
+      "size": 357027,
+      "sha1": "159d29a59b391102c1d6cdb67a8d430f0b9838d6"
+    },
+    "books/prepared/ielts-0031.json": {
+      "size": 272786,
+      "sha1": "b0d2b3e161e688e8642029b2a02311bfee1d06ad"
+    },
+    "books/prepared/ielts-0032.json": {
+      "size": 264782,
+      "sha1": "c3eeca9a5abf0eeb00f59ae267bec08f8338cdf7"
+    },
+    "books/prepared/ielts-0033.json": {
+      "size": 281873,
+      "sha1": "e98db5e7f887c1686dff34e76657cc60eadee12b"
+    },
+    "books/prepared/ielts-0034.json": {
+      "size": 273833,
+      "sha1": "14a367fd0188b459ccdfdc0b97fb20c8b1d8d0cb"
+    },
+    "books/prepared/ielts-0035.json": {
+      "size": 277187,
+      "sha1": "8ed53eff3806317508377f147828d5af3f5005a8"
+    },
+    "books/prepared/ielts-0036.json": {
+      "size": 264260,
+      "sha1": "5951a9d9be8e1644daec34523a872ef60ed2b2cf"
+    },
+    "books/prepared/ielts-0037.json": {
+      "size": 265687,
+      "sha1": "1ebd04412da445849962ec81ee113032bd9107c8"
+    },
+    "books/prepared/ielts-0038.json": {
+      "size": 276419,
+      "sha1": "758e69cd2ed2d34cd6d54bbfaac8d22242128d10"
+    },
+    "books/prepared/ielts-0039.json": {
+      "size": 301637,
+      "sha1": "ae191460acf02a0e5bfd201ee111f097b4532db1"
+    },
+    "books/prepared/ielts-0040.json": {
+      "size": 304750,
+      "sha1": "04b8ba7693e0e990243c4ca86b8e406aa81451a5"
+    },
+    "books/prepared/ielts-0041.json": {
+      "size": 284490,
+      "sha1": "0d470c94ddcee4c476e49eec4d299f40bd3208b0"
+    },
+    "books/prepared/ielts-0042.json": {
+      "size": 303420,
+      "sha1": "c7510a231d30916a718742aa8d3359089806cbf3"
+    },
+    "books/prepared/ielts-0043.json": {
+      "size": 269015,
+      "sha1": "f7a1e24159c2b45734b9a4cdf50e89b7092c8f44"
+    },
+    "books/prepared/ielts-0045.json": {
+      "size": 283378,
+      "sha1": "027aeb26b9267da57809b3a59bd52d6c9e3a4b83"
+    },
+    "books/prepared/ielts-0046.json": {
+      "size": 278829,
+      "sha1": "01bbb7db60f6be2dfdc07ee1dacad2d9bf411ff7"
+    },
+    "books/prepared/ielts-0047.json": {
+      "size": 309268,
+      "sha1": "770b3f38069f936571b54f5f59818f4eaa0c45c9"
+    },
+    "books/prepared/ielts-0048.json": {
+      "size": 258623,
+      "sha1": "4cd056617c612bda2f104ceec0e5fef4b81595fb"
+    },
+    "books/prepared/ielts-0049.json": {
+      "size": 365328,
+      "sha1": "2a68fa8eef035a46c9e5f65d2ef245a75db0428c"
+    },
+    "books/prepared/ielts-0050.json": {
+      "size": 262499,
+      "sha1": "18e59cd004d202c0cd85846386e2d3ec33d37fc1"
+    },
+    "books/prepared/ielts-0051.json": {
+      "size": 275517,
+      "sha1": "89c439e79ea3823b7e06ce9978197c970980efc2"
+    },
+    "books/prepared/ielts-0052.json": {
+      "size": 311701,
+      "sha1": "df6b93e8b5399361e663612ffc5ffa736fd0be77"
+    },
+    "books/prepared/ielts-0053.json": {
+      "size": 316318,
+      "sha1": "2918287cd569f57e129943357b8fe12b68e27a34"
+    },
+    "books/prepared/ielts-0054.json": {
+      "size": 296650,
+      "sha1": "505bec1d9e589e1b86cbe3917e38cf1fd0787620"
+    },
+    "books/prepared/ielts-0055.json": {
+      "size": 293901,
+      "sha1": "8c5f49cd98b57d254a24deee887d931a6ac62c53"
+    },
+    "books/prepared/ielts-0056.json": {
+      "size": 307297,
+      "sha1": "20dca81fe6078c245cbafabc1c57438eedd9f0d6"
+    },
+    "books/prepared/ielts-0057.json": {
+      "size": 311246,
+      "sha1": "65207e67a49d2763d64139115674ee3328a79c78"
+    },
+    "books/prepared/ielts-0058.json": {
+      "size": 287650,
+      "sha1": "0c59f0dfe268b59ae44be127d8b72e46f5f2d6da"
+    },
+    "books/prepared/ielts-0059.json": {
+      "size": 329932,
+      "sha1": "696e08ebc58207e153dd5e58c9b8482350b82ef3"
+    },
+    "books/prepared/ielts-0060.json": {
+      "size": 299188,
+      "sha1": "5d9184dc23b22e6652233ca3173fb2feef1c783f"
+    },
+    "books/prepared/ielts-0061.json": {
+      "size": 305164,
+      "sha1": "44c2dad168933d2d607f7553ea4d3fe218721ac5"
+    },
+    "books/prepared/ielts-0062.json": {
+      "size": 287320,
+      "sha1": "d77c8658a9d0fa856472583d8b10d494aee21be8"
+    },
+    "books/prepared/ielts-0063.json": {
+      "size": 287882,
+      "sha1": "f63836c87f69c12838cc97172a0bf19894f3f94f"
+    },
+    "books/prepared/ielts-0064.json": {
+      "size": 305621,
+      "sha1": "2ff5721a05d7d2707c33c8868ef0c5e9eb788e06"
+    },
+    "books/prepared/ielts-0065.json": {
+      "size": 284218,
+      "sha1": "45070f2218e22938e19d5fb0a3cf12d8dbfe7c33"
+    },
+    "books/prepared/ielts-0066.json": {
+      "size": 265591,
+      "sha1": "4ca0d6736cb3a500fb3a8873b9e852986b4f5634"
+    },
+    "books/prepared/ielts-0067.json": {
+      "size": 295793,
+      "sha1": "4521d3cc8f1155db7f16254427cdabbc7bb5a2a9"
+    },
+    "books/prepared/ielts-0068.json": {
+      "size": 260880,
+      "sha1": "192d4de068435d4c468778e3776241158cbf1d40"
+    },
+    "books/prepared/ielts-0069.json": {
+      "size": 296850,
+      "sha1": "3a5737aa9ed8da9026df2932c0fa4b313c627dcd"
+    },
+    "books/prepared/ielts-0070.json": {
+      "size": 262680,
+      "sha1": "4174c6aefab9e81daeaab52f28ca9e0022a817a3"
+    },
+    "books/prepared/ielts-0072.json": {
+      "size": 281216,
+      "sha1": "e4ce80058a57e81daf87ce62f3ed8b797f5d264b"
+    },
+    "books/prepared/ielts-0073.json": {
+      "size": 297208,
+      "sha1": "003103ab35b8283347f2255087f150ff8edf3a76"
+    },
+    "books/prepared/ielts-0074.json": {
+      "size": 337577,
+      "sha1": "1f0c891300bc8c7a2902e05f31c25626f4288003"
+    },
+    "books/prepared/ielts-0075.json": {
+      "size": 312234,
+      "sha1": "b16dc5e87f1b8010cf6e1b0ed7c1006b5ca8124e"
+    },
+    "books/prepared/ielts-0076.json": {
+      "size": 317008,
+      "sha1": "b986b8968d628a44a1e3f0c43c550811147b5207"
+    },
+    "books/prepared/ielts-0077.json": {
+      "size": 311277,
+      "sha1": "322c24acd7684e5a465c455f120596d529a3e021"
+    },
+    "books/prepared/ielts-0078.json": {
+      "size": 317211,
+      "sha1": "e0338a7555efe2e85a239698d8a1018687c349dc"
+    },
+    "books/prepared/ielts-0079.json": {
+      "size": 289038,
+      "sha1": "aa967f24e878d564d87a54884169b7b5394e6a14"
+    },
+    "books/prepared/ielts-0080.json": {
+      "size": 304208,
+      "sha1": "2a6173a7e2933505079c430773ed54c888b2de7d"
+    },
+    "books/prepared/ielts-0081.json": {
+      "size": 328723,
+      "sha1": "7cefc517b9b8947d8b8a9a4f9dfcd961a567a83e"
+    },
+    "books/prepared/ielts-0082.json": {
+      "size": 335124,
+      "sha1": "3c14fae22176b42e97dbc007ae35be4b90d24c6f"
+    },
+    "books/prepared/ielts-0083.json": {
+      "size": 294058,
+      "sha1": "4bab4ad0f0e3382432f60cd30f48c641cc89547b"
+    },
+    "books/prepared/ielts-0084.json": {
+      "size": 300510,
+      "sha1": "c1604bebfb80e26150a412f5a4a6bb8176b2e546"
+    },
+    "books/prepared/ielts-0085.json": {
+      "size": 290976,
+      "sha1": "d6e04e1d06e17ea2dc7b7ad3b966ce4665f27da7"
+    },
+    "books/prepared/ielts-0086.json": {
+      "size": 277622,
+      "sha1": "6c5deee0859045f52b6ac399656a5c9a2067557e"
+    },
+    "books/prepared/ielts-0087.json": {
+      "size": 334036,
+      "sha1": "6807f5989faab52f282adec59323afadfaa3004b"
+    },
+    "books/prepared/ielts-0088.json": {
+      "size": 330343,
+      "sha1": "75dee00f3d8c177122c9bc9add049c42fe4ac716"
+    },
+    "books/prepared/ielts-0089.json": {
+      "size": 368880,
+      "sha1": "0972bbae058453b9c6654b7c3a2d2640372a1f10"
+    },
+    "books/prepared/ielts-0090.json": {
+      "size": 322650,
+      "sha1": "aaa6c1e249a342f03fb8b2dfadade269e65d5f8b"
+    },
+    "books/prepared/ielts-0091.json": {
+      "size": 349497,
+      "sha1": "8ead94a4c4adc01a41bee43e38d715422daa0e48"
+    },
+    "books/prepared/ielts-0092.json": {
+      "size": 342503,
+      "sha1": "6f159d0e06c6ed3e7169eddf8fc7a930d5d475d7"
+    },
+    "books/prepared/ielts-0093.json": {
+      "size": 401803,
+      "sha1": "1e57e7cdcc53993b430e891ec37b97e89bf3e138"
+    },
+    "books/prepared/ielts-0094.json": {
+      "size": 339848,
+      "sha1": "87eb46ed6b1a74f6512fc99cd3ee6791caf428cf"
+    },
+    "books/prepared/ielts-0095.json": {
+      "size": 344362,
+      "sha1": "e0e1b58e9378e7067e4d91fbda02ba21b6ce1954"
+    },
+    "books/prepared/ielts-0096.json": {
+      "size": 327761,
+      "sha1": "4802a53f431607b63b123e2735b4b05e8f135e49"
+    },
+    "books/prepared/ielts-0097.json": {
+      "size": 322601,
+      "sha1": "145abb91910e7602b616653dbae498a55569def4"
+    },
+    "books/prepared/ielts-0098.json": {
+      "size": 316852,
+      "sha1": "d78bee6fd3e854c636d15f5f86410b438a3fbdb2"
+    },
+    "books/prepared/ielts-0099.json": {
+      "size": 308484,
+      "sha1": "d195f71023b724b1340d254e26c5903c3949af2e"
+    },
+    "books/prepared/ielts-0100.json": {
+      "size": 320283,
+      "sha1": "2ba18a8085a240d053607fb7ea2013a921100276"
+    },
+    "books/prepared/ielts-0101.json": {
+      "size": 333182,
+      "sha1": "157df2172e10372d82a41c017923b9c6783b33f7"
+    },
+    "books/prepared/ielts-0102.json": {
+      "size": 334935,
+      "sha1": "0b2ef78a8e9a7e42b2f56c407eddeec1aa457827"
+    },
+    "books/prepared/ielts-0103.json": {
+      "size": 333593,
+      "sha1": "457891142740214b3a2e1493a8414e93f7cd8379"
+    },
+    "books/prepared/ielts-0104.json": {
+      "size": 333983,
+      "sha1": "ba7567d262212a6fa6ef0c843fa3bbb078c5178f"
+    },
+    "books/prepared/ielts-0105.json": {
+      "size": 317062,
+      "sha1": "689ac4e09290510c853f0bf6efd39657542ac4ba"
+    },
+    "books/prepared/ielts-0106.json": {
+      "size": 323880,
+      "sha1": "ad63650dc7ec19b05f99e314bb39484e91d72ef7"
+    },
+    "books/prepared/ielts-0107.json": {
+      "size": 324260,
+      "sha1": "808e0c1626816f9c04892cfc5086f707f1c54b55"
+    },
+    "books/prepared/ielts-0108.json": {
+      "size": 356376,
+      "sha1": "68eae21e99865c42ca6d53d4b3d7aff8d21d7b66"
+    },
+    "books/prepared/medical-9001.json": {
+      "size": 55847,
+      "sha1": "24dfb551a3e83f58f78dc79459a91e15e5f89b60"
+    },
+    "books/prepared/medical-9002.json": {
+      "size": 76032,
+      "sha1": "c696dfcfc8dfbb1e5b3498b8b46072c43feabaf7"
+    },
+    "books/prepared/medical-9003.json": {
+      "size": 77319,
+      "sha1": "fcda59a0ba246594f834529be9fbc83bf499554a"
+    },
+    "books/prepared/middle-0001.json": {
+      "size": 285754,
+      "sha1": "58372d4289d08aea0fde8da71030bab5cdf12240"
+    },
+    "books/prepared/middle-0002.json": {
+      "size": 288710,
+      "sha1": "804a0a213eee0f18cf41a1c555b2ea6e699388b1"
+    },
+    "books/prepared/middle-0003.json": {
+      "size": 282318,
+      "sha1": "f320689e9894c5785f93f9c48d46bf1ae79700e4"
+    },
+    "books/prepared/middle-0004.json": {
+      "size": 281188,
+      "sha1": "c8b096749795e85d3b1821637d328db960842222"
+    },
+    "books/prepared/middle-0005.json": {
+      "size": 279200,
+      "sha1": "206e3dec75103276d35651058b1cd905ec2286b8"
+    },
+    "books/prepared/middle-0006.json": {
+      "size": 343586,
+      "sha1": "bcaf3608bc8d06b7d638a53ff40d54554e7dd225"
+    },
+    "books/prepared/middle-0007.json": {
+      "size": 344637,
+      "sha1": "10282c40c259660d00c04b9520210e7a69cc2445"
+    },
+    "books/prepared/middle-0008.json": {
+      "size": 325803,
+      "sha1": "8c46310354e5296efbc11e79657b51c1a7e98db0"
+    },
+    "books/prepared/middle-0009.json": {
+      "size": 316443,
+      "sha1": "57d9a17139f37ba328949be550498d3dc17275da"
+    },
+    "books/prepared/middle-0010.json": {
+      "size": 305889,
+      "sha1": "9ef302d328a8a780cbf72aee4a8da98d8885e9ab"
+    },
+    "books/prepared/middle-0011.json": {
+      "size": 258613,
+      "sha1": "8b000e1c8a98a07fa0f85d4de94bc1a4b2a6dd05"
+    },
+    "books/prepared/middle-0012.json": {
+      "size": 287304,
+      "sha1": "a8da952b2df16a9a1591d41ca6a123441bcb15cc"
+    },
+    "books/prepared/middle-0013.json": {
+      "size": 260698,
+      "sha1": "bbb201614d0ccd65435f2d4752f8289fc9e7627b"
+    },
+    "books/prepared/middle-0014.json": {
+      "size": 272258,
+      "sha1": "0940bd91f38d58d2418b053c150b0d88d5fbe06c"
+    },
+    "books/prepared/middle-0015.json": {
+      "size": 215493,
+      "sha1": "daf7738301b0492ac7bd6a58bad440fefa9f2ba6"
+    },
+    "books/prepared/middle-0016.json": {
+      "size": 269347,
+      "sha1": "63e120cef620d26e08005d1ae4b1960475552337"
+    },
+    "books/prepared/middle-0017.json": {
+      "size": 279639,
+      "sha1": "afa137cabe8fd9e7da9feb39fda6fbdb0b809edd"
+    },
+    "books/prepared/middle-0018.json": {
+      "size": 295142,
+      "sha1": "2fb3fdd8db5747cc56ea076d7615e4ac6718a28c"
+    },
+    "books/prepared/middle-0019.json": {
+      "size": 292138,
+      "sha1": "f265a19e54b5b78c0dbeca7426b401b3e69de535"
+    },
+    "books/prepared/middle-0020.json": {
+      "size": 289861,
+      "sha1": "64c13c531d1079c4b89afb7de59cc2a9e4b88592"
+    },
+    "books/prepared/middle-0021.json": {
+      "size": 271830,
+      "sha1": "2877237f8af616c394a4d91f324b476fddbc6baf"
+    },
+    "books/prepared/middle-0022.json": {
+      "size": 257681,
+      "sha1": "bcbfe5d3099a6e9fb590c86c2e800585ed909437"
+    },
+    "books/prepared/middle-0023.json": {
+      "size": 300116,
+      "sha1": "cee822aa2e6b189cfab879c131112b0b31af0ad2"
+    },
+    "books/prepared/middle-0024.json": {
+      "size": 306595,
+      "sha1": "592e36ffb55782807373c5bb7ec5771abbf2e709"
+    },
+    "books/prepared/middle-0025.json": {
+      "size": 332824,
+      "sha1": "4ea6c2cc73398f6b381b84def4a979cdd67c83de"
+    },
+    "books/prepared/middle-0026.json": {
+      "size": 392100,
+      "sha1": "76fd8c5cae3161b145b3a960115dde16a68396e9"
+    },
+    "books/prepared/middle-0027.json": {
+      "size": 341780,
+      "sha1": "8646b4deb0f1426dc9d2fcf7d731ce43539f2ed9"
+    },
+    "books/prepared/middle-0028.json": {
+      "size": 322842,
+      "sha1": "9a0375302b5d2b27b09c5a1fce9a6fbb6df87f5f"
+    },
+    "books/prepared/middle-0029.json": {
+      "size": 325360,
+      "sha1": "1937be1fb3ec743a3d93c318da80ffdbd0dca767"
+    },
+    "books/prepared/middle-0030.json": {
+      "size": 308976,
+      "sha1": "153cd4423f8e4d0401d21724e9130c7cf809e9bf"
+    },
+    "books/prepared/middle-0031.json": {
+      "size": 328535,
+      "sha1": "77e066ba4d0ec788b5bbfb2900e600e7dac4c6a3"
+    },
+    "books/prepared/middle-0032.json": {
+      "size": 337543,
+      "sha1": "d8a9b904343cd59ae5eb14eb2ed90fb87833e9d8"
+    },
+    "books/prepared/middle-0033.json": {
+      "size": 281609,
+      "sha1": "3a35094cc721df99bd678bf009549212feb1a6e5"
+    },
+    "books/prepared/middle-0034.json": {
+      "size": 300916,
+      "sha1": "d9e75962b72e555553fbb3d59ab6d9feb7c6c5d9"
+    },
+    "books/prepared/middle-0035.json": {
+      "size": 269164,
+      "sha1": "d5abde33666ff631c13b3e7a35b772415b4bd1ea"
+    },
+    "books/prepared/middle-0036.json": {
+      "size": 295578,
+      "sha1": "b84ad471ed2cbab7cb525aa466b4d0054875af26"
+    },
+    "books/prepared/middle-0037.json": {
+      "size": 305204,
+      "sha1": "cb27503e1cac940f063b96b3f3f0cf89dcfdfd85"
+    },
+    "books/prepared/middle-0038.json": {
+      "size": 306176,
+      "sha1": "c548809b75527555336bd7afe6391409298ae591"
+    },
+    "books/prepared/middle-0039.json": {
+      "size": 279568,
+      "sha1": "01a9282a789ab7e585c812ccf251fcde290657e6"
+    },
+    "books/prepared/middle-0040.json": {
+      "size": 302126,
+      "sha1": "6beea8a1ffa474c9c357f2394ab45d7aeaffeefc"
+    },
+    "books/prepared/middle-0041.json": {
+      "size": 326277,
+      "sha1": "98131ff661c77e782b10d132d40d1c16e6d08e9a"
+    },
+    "books/prepared/middle-0042.json": {
+      "size": 353102,
+      "sha1": "88199c883584d3eb505b610746818a568477ba04"
+    },
+    "books/prepared/middle-0043.json": {
+      "size": 358623,
+      "sha1": "0c301b183195232d37ab10bc1ade9c7f8c413664"
+    },
+    "books/prepared/middle-0044.json": {
+      "size": 324403,
+      "sha1": "5d06dbc1f7b1d3ed48aa08d14790f0189df96fad"
+    },
+    "books/prepared/middle-0045.json": {
+      "size": 391049,
+      "sha1": "397723edd68f326e1c1393fdb064863998614994"
+    },
+    "books/prepared/middle-0046.json": {
+      "size": 400696,
+      "sha1": "8b28c2b7f772ed40b59b54b1a34d66ffc5e8e57c"
+    },
+    "books/prepared/middle-0047.json": {
+      "size": 380924,
+      "sha1": "2840f14d428bda55c9f6bb9cae5171edbf809d48"
+    },
+    "books/prepared/middle-0048.json": {
+      "size": 348142,
+      "sha1": "5cfea799ff25b7a8a10a895721240a8998cf3a44"
+    },
+    "books/prepared/middle-0049.json": {
+      "size": 327872,
+      "sha1": "1122b02304f86a58b89d915b3100c49be33eb9e8"
+    },
+    "books/prepared/middle-0050.json": {
+      "size": 323185,
+      "sha1": "4a77e6766493f68147cf80a435763dd2b96ba334"
+    },
+    "books/prepared/middle-0051.json": {
+      "size": 343594,
+      "sha1": "8241b2629a38a481f049a4840988cfb0a33f6186"
+    },
+    "books/prepared/middle-0052.json": {
+      "size": 347664,
+      "sha1": "ca63ef0110c05e37095821ff3a96249bad2e26e0"
+    },
+    "books/prepared/middle-0053.json": {
+      "size": 346535,
+      "sha1": "2ceb8fe18e7a5bfa34bc36277e0429e932eb173b"
+    },
+    "books/prepared/middle-0054.json": {
+      "size": 350834,
+      "sha1": "f643aa72fc906f37bbe915c059400547c1af5b9f"
+    },
+    "books/prepared/middle-0055.json": {
+      "size": 377793,
+      "sha1": "c0234e5d00a22c26177e9167ed60518a06d6162f"
+    },
+    "books/prepared/middle-0056.json": {
+      "size": 327220,
+      "sha1": "bbf8e87a5fb113e056215823fee339b860d30a3f"
+    },
+    "books/prepared/middle-0057.json": {
+      "size": 377080,
+      "sha1": "11204d708511dc5110ff6d0be03ce91609006e08"
+    },
+    "books/prepared/middle-0058.json": {
+      "size": 402067,
+      "sha1": "5ab70cd00b0971f00fa31e449bea940ed8cde75e"
+    },
+    "books/prepared/middle-0059.json": {
+      "size": 400611,
+      "sha1": "5349af5d0092def2827acf0d265b34e9d7e25d2f"
+    },
+    "books/prepared/middle-0060.json": {
+      "size": 381002,
+      "sha1": "25513de59336d36ce13d3d65d112757af2fd08e0"
+    },
+    "books/prepared/middle-0061.json": {
+      "size": 319425,
+      "sha1": "b4dba7cfebb561ec4c878747def96289e888993a"
+    },
+    "books/prepared/middle-0062.json": {
+      "size": 302959,
+      "sha1": "4f28a257ede03e6bb9311e131e1b9bc43d6608c6"
+    },
+    "books/prepared/middle-0063.json": {
+      "size": 289731,
+      "sha1": "de822946000c5d542851ddf3285d3e1446151fcc"
+    },
+    "books/prepared/middle-0064.json": {
+      "size": 252735,
+      "sha1": "5c992092e0ad878d5741289a2d3e91d2b9f1a02c"
+    },
+    "books/prepared/middle-0065.json": {
+      "size": 268234,
+      "sha1": "043b31dcc8ce32adca4f55f3093cd6062f958302"
+    },
+    "books/prepared/middle-0066.json": {
+      "size": 269728,
+      "sha1": "d90a1d59f5a6857067ebac6afb928ab7c18eef5c"
+    },
+    "books/prepared/middle-0067.json": {
+      "size": 246199,
+      "sha1": "63c5c22ca69eb3c2f7786a1bbdc3e1229aee289c"
+    },
+    "books/prepared/middle-0068.json": {
+      "size": 240675,
+      "sha1": "4ff23e57f48a72236f40378ee8ae17ac1c4d040b"
+    },
+    "books/prepared/middle-0069.json": {
+      "size": 232873,
+      "sha1": "6e2f15baa657b632d08c8d02692c3900c08b10cf"
+    },
+    "books/prepared/middle-0070.json": {
+      "size": 244460,
+      "sha1": "e1adcaff7c5356886366480fbdf03b41a6df1229"
+    },
+    "books/prepared/middle-0071.json": {
+      "size": 225555,
+      "sha1": "07bc4fe0ddce73272340c7d3cbb2c517ce76f2f6"
+    },
+    "books/prepared/middle-0072.json": {
+      "size": 246338,
+      "sha1": "c13abe826ba4f98158d4d92dba6b0a68456db53e"
+    },
+    "books/prepared/middle-0073.json": {
+      "size": 213046,
+      "sha1": "5c83a0f2cf49924defa23d937047f1c5ef50d675"
+    },
+    "books/prepared/middle-0074.json": {
+      "size": 290000,
+      "sha1": "2885559a7fb497b9187ff8a8e23d6e7feebc4967"
+    },
+    "books/prepared/middle-0075.json": {
+      "size": 319152,
+      "sha1": "8bc2d1e3f1e722307ff3cda489f56357aa4a7b39"
+    },
+    "books/prepared/middle-0076.json": {
+      "size": 382259,
+      "sha1": "0e23cd725562e1a500312f99111c4620eb2ab7b0"
+    },
+    "books/prepared/middle-0077.json": {
+      "size": 314900,
+      "sha1": "b3f6d77f4e6a5ef390c1481e2046d23300231ef5"
+    },
+    "books/prepared/middle-0078.json": {
+      "size": 247946,
+      "sha1": "acf654e257dba7da20f4dc074c473d2b3e092749"
+    },
+    "books/prepared/middle-0079.json": {
+      "size": 331449,
+      "sha1": "337765db90fe4104af1703b139e2840840770161"
+    },
+    "books/prepared/middle-0080.json": {
+      "size": 791543,
+      "sha1": "8d1a24babc2613b58bb53f2ef35d2f3258bb0f96"
+    },
+    "books/prepared/sat-0001.json": {
+      "size": 291633,
+      "sha1": "569c4c2c5f2e4d4f82d26f4fc6521c8e38f0c89b"
+    },
+    "books/prepared/sat-0002.json": {
+      "size": 686635,
+      "sha1": "cb89a96289fd4f14b17e0241c151103c25d38970"
+    },
+    "books/prepared/sat-0003.json": {
+      "size": 667848,
+      "sha1": "7d6cf86d39b5337a2b23a4f41639d946b75fb9ea"
+    },
+    "books/prepared/sat-0004.json": {
+      "size": 577464,
+      "sha1": "5218d700cb531283d1cdc560a71d2b46aabf0dcc"
+    },
+    "books/prepared/sat-0005.json": {
+      "size": 259347,
+      "sha1": "b202f05cbb8f9b6d3cb810463088590faea02afd"
+    },
+    "books/prepared/sat-0006.json": {
+      "size": 329544,
+      "sha1": "ca6a92d384294be3c54ca2d9fea9c0785831a1d2"
+    },
+    "books/prepared/sat-0007.json": {
+      "size": 354334,
+      "sha1": "50f220733272fd653adc0577dc5166d2ec7e20b9"
+    },
+    "books/prepared/sat-0008.json": {
+      "size": 240141,
+      "sha1": "b4447a8461570e72427815722e4666b46c7fddf8"
+    },
+    "books/prepared/sat-0009.json": {
+      "size": 254916,
+      "sha1": "39d50145d52ea44f78d6079fe237ec89d1dced95"
+    },
+    "books/prepared/sat-0010.json": {
+      "size": 276922,
+      "sha1": "caa1ebc89508f0d603e764b5ef6b23ed63cde3ab"
+    },
+    "books/prepared/sat-0011.json": {
+      "size": 321729,
+      "sha1": "111818bcaf1199d3b377c0f16133744743f3c768"
+    },
+    "books/prepared/sat-0012.json": {
+      "size": 340757,
+      "sha1": "f80aba27d2ff1089560e61fe4ac19a5b0798fda4"
+    },
+    "books/prepared/sat-0013.json": {
+      "size": 323017,
+      "sha1": "5cf22d4dbec7c07dcdd1558ac980469bac3ab5a9"
+    },
+    "books/prepared/sat-0014.json": {
+      "size": 371048,
+      "sha1": "f1e15011f046236a5abbbccf6cfb8aad66b07554"
+    },
+    "books/prepared/sat-0015.json": {
+      "size": 344307,
+      "sha1": "0aa3e7751aa2da4cdcfe07e73926579b18129966"
+    },
+    "books/prepared/sat-0016.json": {
+      "size": 331853,
+      "sha1": "e85b982ddc6739763ce513d5c96a915b9775a481"
+    },
+    "books/prepared/sat-0017.json": {
+      "size": 368634,
+      "sha1": "b6852f3854b4671f60514fb37039dd3f995452dc"
+    },
+    "books/prepared/sat-0018.json": {
+      "size": 306521,
+      "sha1": "f831f33a1903f1357c3e230f66f87f186cc40458"
+    },
+    "books/prepared/sat-0019.json": {
+      "size": 269487,
+      "sha1": "2663b2e4463bc705b4d4d35ee0052f45abb7e4d7"
+    },
+    "books/prepared/sat-0201.json": {
+      "size": 18592,
+      "sha1": "aa4e019fe9717e1732635117dd204415bf951b21"
+    },
+    "books/prepared/sat-0202.json": {
+      "size": 18615,
+      "sha1": "3620f8e65c2fbce4893fcdc8a99a28b80ffbfa71"
+    },
+    "books/prepared/sat-0204.json": {
+      "size": 18348,
+      "sha1": "559bc2337f47285ee683fe0d11ed79a7c82f5e51"
+    },
+    "books/prepared/sat-0211.json": {
+      "size": 28902,
+      "sha1": "139fffcf5e7b7018952dc869fe66cc688c97af07"
+    },
+    "books/prepared/sat-0212.json": {
+      "size": 17828,
+      "sha1": "f8edf1d8a668125cd2f569b267efe98e812f7c3b"
+    },
+    "books/prepared/sat-0215.json": {
+      "size": 17778,
+      "sha1": "759aea00fec4ef28323bb60e073be5705cd41416"
+    },
+    "books/prepared/sat-0221.json": {
+      "size": 17610,
+      "sha1": "3c5b580be380f11dca041d37c5c8d7e6d3ded929"
+    },
+    "books/prepared/sat-0230.json": {
+      "size": 13773,
+      "sha1": "d11ee358983ecb127cef08b176b6c75959d4faf3"
+    },
+    "books/prepared/sat-0237.json": {
+      "size": 14497,
+      "sha1": "1563222a962c872181631cbe605e7484185a7e08"
+    },
+    "books/prepared/sat-0246.json": {
+      "size": 15234,
+      "sha1": "8fc370432219ec88609f1c1c006214c99403fa55"
+    },
+    "books/prepared/sat-0247.json": {
+      "size": 15014,
+      "sha1": "e0ecbbb1e757d115dbf2d4e4ddea0aa6428bcd81"
+    },
+    "books/prepared/sat-0249.json": {
+      "size": 13535,
+      "sha1": "59187b01753dfbc8c2d2bba5675c755bc412b31d"
+    },
+    "books/prepared/sat-0250.json": {
+      "size": 13801,
+      "sha1": "e3228e318d9f5601b117eb4b7e9ff9596567b71d"
+    },
+    "books/prepared/sat-0254.json": {
+      "size": 14249,
+      "sha1": "40cc1c397e2c127757025d5e83dc23fd1d5c9cc5"
+    },
+    "books/prepared/sat-0260.json": {
+      "size": 12889,
+      "sha1": "674acab6518660ba1169919204bab5f158531921"
+    },
+    "books/prepared/sat-0261.json": {
+      "size": 12349,
+      "sha1": "f8c23ee1dfbd5bdc10b314c2f72af363b3f3db17"
+    },
+    "books/prepared/sat-0263.json": {
+      "size": 11139,
+      "sha1": "fb5f3b08002edf05f57e17c992fb6470e45a4b17"
+    },
+    "books/prepared/sat-0265.json": {
+      "size": 11396,
+      "sha1": "b05a3b35a1a878625c1163001b3415613e4de3a3"
+    },
+    "books/prepared/sat-0267.json": {
+      "size": 11614,
+      "sha1": "fca8414a7ed9d0209a94e11b9f77f9d46f774af2"
+    },
+    "books/prepared/sat-0271.json": {
+      "size": 11090,
+      "sha1": "301e35cf0f8874ad9af687cd599c999499a3fa5d"
+    },
+    "books/prepared/sat-0272.json": {
+      "size": 11220,
+      "sha1": "4272319d78c10ece5e4ab9dbd16a9ca23bdfee19"
+    },
+    "books/prepared/sat-0301.json": {
+      "size": 26449,
+      "sha1": "213b41bdcbf7c39e77e87c8c68675a0767157f93"
+    },
+    "books/prepared/sat-0318.json": {
+      "size": 18569,
+      "sha1": "c3cf853be2a8a0962c9e463ff7b54a427b6b6877"
+    },
+    "books/prepared/sat-0327.json": {
+      "size": 18203,
+      "sha1": "c191dde9451c4a16bc4c428e06dfe8e35002e81a"
+    },
+    "books/prepared/sat-0329.json": {
+      "size": 18036,
+      "sha1": "0fa7f60e7ba8f6ad878dc8d9f0e68979cd06a06b"
+    },
+    "books/prepared/sat-0351.json": {
+      "size": 15238,
+      "sha1": "60e56f48c4403153d33e2b0e370d65b221386a9a"
+    },
+    "books/prepared/sat-0368.json": {
+      "size": 12995,
+      "sha1": "2a25347674fc51d8bab3e457e154377e8e5893c9"
+    },
+    "books/prepared/sat-0370.json": {
+      "size": 13620,
+      "sha1": "af03842ee6cb5e02d2bf0bbb5d92b704b165f878"
+    },
+    "books/prepared/sat-0381.json": {
+      "size": 13127,
+      "sha1": "06f1cd5d811da32075b108d7356ed448af24b370"
+    },
+    "books/prepared/sat-0382.json": {
+      "size": 13334,
+      "sha1": "5df48f29cb207edf535c816c50b093ea592464be"
+    },
+    "books/prepared/sat-0387.json": {
+      "size": 13698,
+      "sha1": "aa39dc5d6418fcd1104cd36671a18998b84c6f5e"
+    },
+    "books/prepared/sat-0390.json": {
+      "size": 13079,
+      "sha1": "3940fc9665798d82abb2691500a6142651b89fdf"
+    },
+    "books/prepared/sat-0392.json": {
+      "size": 13155,
+      "sha1": "da2b9ffef6488fd95e58d6116739f7f07e8d8d76"
+    },
+    "books/prepared/sat-0393.json": {
+      "size": 13506,
+      "sha1": "6d9417ba3a21f975bfb51e3ef5eb63027c469097"
+    },
+    "books/prepared/sat-0394.json": {
+      "size": 13269,
+      "sha1": "4737706a15ea69d6572a6c8178b15dd76d8e842a"
+    },
+    "books/prepared/sat-0402.json": {
+      "size": 12497,
+      "sha1": "4be5babf35f2189282011dc92244ba1ed80be22b"
+    },
+    "books/prepared/sat-0407.json": {
+      "size": 11672,
+      "sha1": "0bce7c9815c2c7173fae7f5ae10185db7200ea38"
+    },
+    "books/prepared/sat-0424.json": {
+      "size": 12308,
+      "sha1": "b9fb902f1955d57ccec39d49b8e0d638f9157237"
+    },
+    "books/prepared/sat-0441.json": {
+      "size": 20893,
+      "sha1": "d58a748c3a87d768c363f692a916dd741eb503db"
+    },
+    "books/prepared/sat-0466.json": {
+      "size": 23010,
+      "sha1": "e20572ca189b0c228a82707de19c5b1c5841dd4e"
+    },
+    "books/prepared/sat-0472.json": {
+      "size": 14533,
+      "sha1": "af6ee0171fa90eb6e532304de0d61b708327e757"
+    },
+    "books/prepared/sat-0478.json": {
+      "size": 16244,
+      "sha1": "e4c9df6242722ee45e5785cf9b97ab4b02f5de14"
+    },
+    "books/prepared/sat-0480.json": {
+      "size": 15181,
+      "sha1": "d65d4ee2984d8b66b42f32b1a8f6733de59657ee"
+    },
+    "books/prepared/sat-0487.json": {
+      "size": 15142,
+      "sha1": "7ee2dc51b31ff9ab0826fd96fb3e318289fe8af4"
+    },
+    "books/prepared/sat-0498.json": {
+      "size": 17072,
+      "sha1": "264292689727e7dbdd8224d31f81c758eb0f00dd"
+    },
+    "books/prepared/sat-0503.json": {
+      "size": 15165,
+      "sha1": "1ae5aa02ce144e721c615058fcf4350867f4be51"
+    },
+    "books/prepared/sat-0504.json": {
+      "size": 14868,
+      "sha1": "5664d8403df626712cf870a33a7c874b97cbb35f"
+    },
+    "books/prepared/sat-0507.json": {
+      "size": 14140,
+      "sha1": "50e6d0993c37a871fbc2ed981cb0e7378bc080a9"
+    },
+    "books/prepared/sat-0509.json": {
+      "size": 13937,
+      "sha1": "4f0fd3e6714ee612a82a61fd3260483d9918973e"
+    },
+    "books/prepared/sat-0510.json": {
+      "size": 14520,
+      "sha1": "6138a1808d34ceec47e7e2cfe8d3aa4caa76c835"
+    },
+    "books/prepared/sat-0513.json": {
+      "size": 15042,
+      "sha1": "2c9bdaa9ede1d2531ce723c44d1c63162389e055"
+    },
+    "books/prepared/sat-0530.json": {
+      "size": 17229,
+      "sha1": "86e665648372fb3c5c7c309a8416929c97029f4b"
+    },
+    "books/prepared/sat-0531.json": {
+      "size": 16553,
+      "sha1": "2ad1f8a8b491410b6f643b2475c96a2562196aaa"
+    },
+    "books/prepared/shanghai-0001.json": {
+      "size": 516204,
+      "sha1": "5e7e90d3f1df17aba300b85a20e31b07c0de4a98"
+    },
+    "books/prepared/shanghai-0002.json": {
+      "size": 528179,
+      "sha1": "a94063358de304f29fe8e9b52a0582a1c8025717"
+    },
+    "books/prepared/shanghai-0003.json": {
+      "size": 135894,
+      "sha1": "ed545f22e2b6f9933f0dd91004a366ad42d7645d"
+    },
+    "books/prepared/shanghai-0004.json": {
+      "size": 136592,
+      "sha1": "35b55ec7b77f15a85261cab9c60af89e5d227f5a"
+    },
+    "books/prepared/shanghai-0005.json": {
+      "size": 131993,
+      "sha1": "bfc3e05ad424d87520c3349eb510e1d23ee2aac2"
+    },
+    "books/prepared/shanghai-0006.json": {
+      "size": 130274,
+      "sha1": "65432fa30e216febffe8fd7cd1e8275a7c166f00"
+    },
+    "books/prepared/shanghai-0007.json": {
+      "size": 129060,
+      "sha1": "f0d454d3e0054d2ca6260d459a3b786b3bbc54c9"
+    },
+    "books/prepared/shanghai-0008.json": {
+      "size": 128017,
+      "sha1": "233456abebe014726fa3ca1e05681c7daba8e5da"
+    },
+    "books/prepared/shanghai-0009.json": {
+      "size": 129573,
+      "sha1": "b22123c8d582085a3c0989bdd01f6beab608e86c"
+    },
+    "books/prepared/shanghai-0010.json": {
+      "size": 128945,
+      "sha1": "a3edb81d12869478dba07e8a96f558e38c8e9dac"
+    },
+    "books/prepared/shanghai-0011.json": {
+      "size": 126751,
+      "sha1": "1160fd6d085c22b12b244e482eb0c52b6215207f"
+    },
+    "books/prepared/shanghai-0012.json": {
+      "size": 130208,
+      "sha1": "9822b649a29a9dd6708afe61f171c460f41566b6"
+    },
+    "books/prepared/shanghai-0013.json": {
+      "size": 128407,
+      "sha1": "8a177ec9bf5f71127b1db9e36485a003f3a38786"
+    },
+    "books/prepared/shanghai-0014.json": {
+      "size": 124292,
+      "sha1": "aa48ee5d26d468e6db108a48e32f2544e25ce5cd"
+    },
+    "books/prepared/shanghai-0015.json": {
+      "size": 123973,
+      "sha1": "6008ffa1d8b5bad40a9b6ca1571ec454665e0a0e"
+    },
+    "books/prepared/shanghai-0016.json": {
+      "size": 122249,
+      "sha1": "ab4715008048fedb17c0d1e91fa3c9a19f3ed12a"
+    },
+    "books/prepared/shanghai-0017.json": {
+      "size": 122863,
+      "sha1": "f35e29e593466915dd7ff120235751a67b677286"
+    },
+    "books/prepared/shanghai-0018.json": {
+      "size": 242372,
+      "sha1": "db9582036bc5d61f849a17c36ebfd593416d0409"
+    },
+    "books/prepared/shanghai-0019.json": {
+      "size": 240122,
+      "sha1": "4b2bf6aab54317f5d6fd0fd0dc49ba9452a9801c"
+    },
+    "books/prepared/shanghai-0020.json": {
+      "size": 239123,
+      "sha1": "53459701f8c8205a549765df1a185c7111da52ec"
+    },
+    "books/prepared/shanghai-0021.json": {
+      "size": 249673,
+      "sha1": "560bd2792dde7c05652fc99fd08d76dcf2a044ad"
+    },
+    "books/prepared/shanghai-0022.json": {
+      "size": 286622,
+      "sha1": "037dde48b942409d020e2e8bff26bb91c6d8df6a"
+    },
+    "books/prepared/shanghai-0023.json": {
+      "size": 270743,
+      "sha1": "5a7e5b2de27267fa2aa5b75128843f4ce9fe9008"
+    },
+    "books/prepared/shanghai-0024.json": {
+      "size": 312925,
+      "sha1": "279626e323d00e592c47b0f3a79130b2331bd614"
+    },
+    "books/prepared/shanghai-0025.json": {
+      "size": 317877,
+      "sha1": "efe3acc490b3760478bb152f33a18001fc2d16d0"
+    },
+    "books/prepared/shanghai-0026.json": {
+      "size": 307427,
+      "sha1": "884885f67eab13924f21853e18d4c20a885d4e0d"
+    },
+    "books/prepared/shanghai-0027.json": {
+      "size": 302686,
+      "sha1": "ebb5f2e7a83d8cd95c5f868968fd2312afab7d0f"
+    },
+    "books/prepared/shanghai-0028.json": {
+      "size": 302115,
+      "sha1": "dfa90710b3bb2bf17ed27003de4a220fcf18f330"
+    },
+    "books/prepared/shanghai-0029.json": {
+      "size": 305548,
+      "sha1": "07aa43ddfeb72fa213ec8dfa44d8bca40e2fb172"
+    },
+    "books/prepared/shanghai-0030.json": {
+      "size": 178427,
+      "sha1": "7efe1ea94b0c67860b7eb3e044aeece06f065038"
+    },
+    "books/prepared/shanghai-0031.json": {
+      "size": 283524,
+      "sha1": "05136ba8b7a02e2fa027acf9de8ce414bce11781"
+    },
+    "books/prepared/shanghai-0032.json": {
+      "size": 262847,
+      "sha1": "8f4234a3ace84d222944161d0e14cbd5e6970ac5"
+    },
+    "books/prepared/shanghai-0033.json": {
+      "size": 52063,
+      "sha1": "3b242e0b0bab5a7e194cd4acfe493eeee1634570"
+    },
+    "books/prepared/toefl-core-5000-0010.json": {
+      "size": 408108,
+      "sha1": "26cb71359ac6cfbf1c6bdf236e4da18bdc97a897"
+    },
+    "books/prepared/toefl-core-5000-0017.json": {
+      "size": 423117,
+      "sha1": "6e6d519c8c95c3969dbfff2b71d02c2b68827918"
+    },
+    "books/prepared/toefl-core-5000-0018.json": {
+      "size": 382450,
+      "sha1": "fde1b7c4c0ae30c563e734189471f11006bce3cb"
+    },
+    "books/prepared/toefl-core-5000-0019.json": {
+      "size": 426217,
+      "sha1": "313d194debfb1822023be9d42338adc7e175d432"
+    },
+    "books/prepared/toefl-core-5000-0022.json": {
+      "size": 413310,
+      "sha1": "24edd7e18f682c350a79f7759b4c9890411de273"
+    },
+    "books/prepared/toefl-core-5000-0023.json": {
+      "size": 395039,
+      "sha1": "f2396e7d291518550e32459f5df900bf2fb91c1d"
+    },
+    "books/prepared/toefl-core-5000-0024.json": {
+      "size": 386952,
+      "sha1": "191c905669c41d1e40d2f9eb0eb89ed1c3e48037"
+    },
+    "books/prepared/toefl-core-5000-0027.json": {
+      "size": 418143,
+      "sha1": "e351f16cf734dc1bb966abd3d22905c573a57527"
+    },
+    "books/prepared/toefl-core-5000-0030.json": {
+      "size": 394004,
+      "sha1": "a86c23e955112b15ef97ea6ecdb4295941c90fa3"
+    },
+    "books/prepared/toefl-core-5000-0033.json": {
+      "size": 322630,
+      "sha1": "c10358c96515f629584e2db38631ec340ef92d53"
+    },
+    "books/prepared/toefl-core-5000-0035.json": {
+      "size": 376293,
+      "sha1": "97d4002984e0b5f853ad2b59a24f5688927db276"
+    },
+    "books/prepared/toefl-core-5000-0036.json": {
+      "size": 467774,
+      "sha1": "a970feb63a6de179b48f9a84d06f266140d9eba6"
+    },
+    "books/prepared/toefl-core-5000-0037.json": {
+      "size": 434132,
+      "sha1": "c71e203cb055b7a3273fe27b4ef7d7c22ae7efc8"
+    },
+    "books/prepared/toefl-core-5000-0038.json": {
+      "size": 420594,
+      "sha1": "e8f6af2aa1c76729826a02758b61cae012df4900"
+    },
+    "books/prepared/toefl-core-5000-0039.json": {
+      "size": 446193,
+      "sha1": "cbcea86313fae12d6370cf729b14df89245898b0"
+    },
+    "books/prepared/toefl-core-5000-0040.json": {
+      "size": 391396,
+      "sha1": "ab29231dc8cb663b5a826cd1ebb71ab2f9ef87c0"
+    },
+    "books/prepared/toefl-core-5000-0041.json": {
+      "size": 367582,
+      "sha1": "479bdcf6f5b17fdc2b646249a6de65181a55a035"
+    },
+    "books/prepared/toefl-core-5000-0042.json": {
+      "size": 296633,
+      "sha1": "49bb527c338017a72ad4f51c0a24a24ce1173e1b"
+    },
+    "books/prepared/toefl-core-5000-0044.json": {
+      "size": 429813,
+      "sha1": "a8ddaf544c4cddbcd7e064c6888d5510f3da5963"
+    },
+    "books/prepared/toefl-core-5000-0045.json": {
+      "size": 301793,
+      "sha1": "ce918d46b0c4dac7fda89452d16aceaec943bb1b"
+    },
+    "books/prepared/toefl-core-5000-0046.json": {
+      "size": 380821,
+      "sha1": "9ec09f6827e745400731b8675d22ca2f6e5051c6"
+    },
+    "books/prepared/toefl-core-5000-0047.json": {
+      "size": 370653,
+      "sha1": "f76636393abbb523b15357f0d470d0450919ac90"
+    },
+    "books/prepared/toefl-core-5000-0048.json": {
+      "size": 387790,
+      "sha1": "ed82db1c0976b7d0c00f573447e56c3adfe1f26b"
+    },
+    "books/prepared/toefl-core-5000-0050.json": {
+      "size": 398625,
+      "sha1": "4673479956b751320e0072e8edcb3ae037a5db7a"
+    },
+    "books/prepared/toefl-core-5000-0051.json": {
+      "size": 373020,
+      "sha1": "79ba531f4f4fef5356981ad2035eb36e36ed2bbf"
+    },
+    "books/prepared/toefl-core-5000-0052.json": {
+      "size": 363157,
+      "sha1": "5b5407d692c4bf5ca06945151c02c13dff9d2767"
+    },
+    "books/prepared/toefl-core-5000-0053.json": {
+      "size": 376221,
+      "sha1": "f4055ebe26c18d8807426c165d521cdfe18fa4f5"
+    },
+    "books/prepared/toefl-core-5000-0054.json": {
+      "size": 345758,
+      "sha1": "931969a2c9cb9c70ccc88fdeb9b80f75181a1ab9"
+    },
+    "books/prepared/toefl-core-5000-0055.json": {
+      "size": 407327,
+      "sha1": "9a02a5d20707a2af9900ae0bdb9ade41f7d7d12c"
+    },
+    "books/prepared/toefl-core-5000-0056.json": {
+      "size": 374923,
+      "sha1": "1c3a3a404d34f4058e76fe5b6fd2aa1277c2f555"
+    },
+    "books/prepared/toefl-core-5000-0057.json": {
+      "size": 395870,
+      "sha1": "9c15a9d1e4e9010a7afc672861b7b212020bb05a"
+    },
+    "books/prepared/toefl-core-5000-0058.json": {
+      "size": 367763,
+      "sha1": "71f04e8a5119ae99719f04d233476ae859ac0bc2"
+    },
+    "books/prepared/toefl-core-5000-0059.json": {
+      "size": 455624,
+      "sha1": "4045ba81524ff74142f5049826575736fb4b423b"
+    },
+    "books/prepared/toefl-core-5000-0060.json": {
+      "size": 343932,
+      "sha1": "186f983cf178889118a2492d7e65004df75e87f3"
+    },
+    "books/prepared/toefl-core-5000-0061.json": {
+      "size": 365656,
+      "sha1": "e262776778a7f3ebb0da3bcb755469814a3209b7"
+    },
+    "books/prepared/toefl-core-5000-0062.json": {
+      "size": 368273,
+      "sha1": "f655da3d7033bd8a19f6f369827456805e4151c8"
+    },
+    "books/prepared/toefl-core-5000-0063.json": {
+      "size": 325833,
+      "sha1": "0a066fe9cb87bc281d79dee9c11e55f8972a6445"
+    },
+    "books/prepared/toefl-core-5000-0064.json": {
+      "size": 336529,
+      "sha1": "49bca3644b4d5967e5df55a1a2fd2dc027773e19"
+    },
+    "books/prepared/toefl-core-5000-0065.json": {
+      "size": 398478,
+      "sha1": "1cca4cdf6d3ada80ea7aab3ef7caaebf57118349"
+    },
+    "books/prepared/toefl-core-5000-0066.json": {
+      "size": 375393,
+      "sha1": "4ca579c7a7059657409d0b2e867fdc73bff3ee5d"
+    },
+    "books/prepared/toefl-core-5000-0067.json": {
+      "size": 344873,
+      "sha1": "243c790bc8813e3a62a437c4e3b72fe4bd58810e"
+    },
+    "books/prepared/toefl-core-5000-0068.json": {
+      "size": 330365,
+      "sha1": "9637c3b11d8badb6076d58cfd814f758d20ed59e"
+    },
+    "books/prepared/toefl-core-5000-0069.json": {
+      "size": 357010,
+      "sha1": "b4558f17e944588583ccd1b484d7e4e445a9a5d9"
+    },
+    "books/prepared/toefl-core-5000-0070.json": {
+      "size": 321888,
+      "sha1": "6776218115527cb4c7d33bde3ef2394cfcfc9b98"
+    },
+    "books/prepared/toefl-core-5000-0071.json": {
+      "size": 341870,
+      "sha1": "611b1a9725f205d91850137c4fcf1fa5def4a6df"
+    },
+    "books/prepared/toefl-core-5000-0072.json": {
+      "size": 388276,
+      "sha1": "005fe422e50d8ed227a5ff40d7e07b4caddf9ec2"
+    },
+    "books/prepared/toefl-core-5000-0073.json": {
+      "size": 324901,
+      "sha1": "9d5a9b87572c381783b558076c9217b23674446f"
+    },
+    "books/prepared/toefl-core-5000-0074.json": {
+      "size": 327664,
+      "sha1": "58191ed582357fddd7ee298b01a55c2e673c3294"
+    },
+    "books/prepared/toefl-core-5000-0075.json": {
+      "size": 356867,
+      "sha1": "468d77f3188f0b0fcdb70b38d2403b05147c29dd"
+    },
+    "books/prepared/toefl-core-5000-0077.json": {
+      "size": 318269,
+      "sha1": "98f01b3640bef99c9ab79cf7c4838e45e7593849"
+    },
+    "books/prepared/toefl-core-5000-0078.json": {
+      "size": 364090,
+      "sha1": "abef93462a831e9235409b814f5bdc2046816999"
+    },
+    "books/prepared/toefl-core-5000-0079.json": {
+      "size": 345078,
+      "sha1": "74ea330eb9090fb6e4035f21908848f885d837d0"
+    },
+    "books/prepared/toefl-core-5000-0080.json": {
+      "size": 384160,
+      "sha1": "a26a2f6bc2b0295fe64efafdd5f414b2b75590ba"
+    },
+    "books/prepared/toefl-core-5000-0081.json": {
+      "size": 314738,
+      "sha1": "06f9c84f27317afba0a09e0fc0ac7bb3aa81db07"
+    },
+    "books/prepared/toefl-core-5000-0082.json": {
+      "size": 308213,
+      "sha1": "f28a42ca0e9b945097639a934dc5d434dac0ddae"
+    },
+    "books/prepared/toefl-core-5000-0083.json": {
+      "size": 303036,
+      "sha1": "27635ec6895e721b4e7069b7f4a15668286e188c"
+    },
+    "books/prepared/toefl-core-5000-0084.json": {
+      "size": 318695,
+      "sha1": "df409beddc069f1184c717e898533f10bdd81ca2"
+    },
+    "books/prepared/toefl-core-5000-0085.json": {
+      "size": 352808,
+      "sha1": "10e9c0b6999bb4ad044186ad61470f2b9f9d8d41"
+    },
+    "books/prepared/toefl-core-5000-0086.json": {
+      "size": 336874,
+      "sha1": "855c8fd3fa210c9775e5e2517b17542adcb6093e"
+    },
+    "books/prepared/toefl-core-5000-0087.json": {
+      "size": 389877,
+      "sha1": "76e66251289e00af9c187d35b0e537b92506af61"
+    },
+    "books/prepared/toefl-core-5000-0088.json": {
+      "size": 345944,
+      "sha1": "899de1d6736588d69018d3d71feec25e0935613d"
+    },
+    "books/prepared/toefl-core-5000-0089.json": {
+      "size": 372973,
+      "sha1": "2f938d282f701a8c853a2baf022acf4244b94b9c"
+    },
+    "books/prepared/toefl-core-5000-0090.json": {
+      "size": 344881,
+      "sha1": "7932c2c03cbf6026459b522f7a595ddbe3548c2d"
+    },
+    "books/prepared/toefl-core-5000-0091.json": {
+      "size": 354386,
+      "sha1": "1d68173dbb37c603f618d1401513725ee47fa01b"
+    },
+    "books/prepared/toefl-core-5000-0092.json": {
+      "size": 362125,
+      "sha1": "49106ca50d480547036615403d6e13f7a1bc6294"
+    },
+    "books/prepared/toefl-core-5000-0093.json": {
+      "size": 369044,
+      "sha1": "c6de01e0fc6bcf2142abdd788ff84154a4cdde33"
+    },
+    "books/prepared/toefl-core-5000-0094.json": {
+      "size": 364620,
+      "sha1": "ec3c89c2101847b0dc060d66c1d618de87797185"
+    },
+    "books/prepared/toefl-core-5000-0095.json": {
+      "size": 346516,
+      "sha1": "e54e10c623f35cec6173b526a4405730b82abee1"
+    },
+    "books/prepared/toefl-core-5000-0096.json": {
+      "size": 374737,
+      "sha1": "f0c95db8b1c2e4b605618a316ada150c59026fcf"
+    },
+    "books/prepared/toefl-core-5000-0097.json": {
+      "size": 342178,
+      "sha1": "a5953903da93b3d889b6a64d4eb4a532ad9c47b3"
+    },
+    "books/prepared/toefl-core-5000-0098.json": {
+      "size": 371469,
+      "sha1": "4e49ad39af6003446c7b015559647901665c7203"
+    },
+    "books/prepared/toefl-core-5000-0099.json": {
+      "size": 313253,
+      "sha1": "2ecdb21e06713a83ff70a6a928a0f33da2dc6f2e"
+    },
+    "books/prepared/toefl-core-5000-0100.json": {
+      "size": 323107,
+      "sha1": "c3b3c177eae0ac609b29e9fe948a8b6e80eb68a2"
+    },
+    "books/prepared/toefl-core-5000-0101.json": {
+      "size": 313229,
+      "sha1": "31a5b36aff37731fd9098900b8970dc53565c783"
+    },
+    "books/prepared/toefl-core-5000-0102.json": {
+      "size": 344208,
+      "sha1": "dd2d5fe0eb0d69b8b5240b180e4209012b13f48a"
+    },
+    "books/prepared/toefl-core-5000-0103.json": {
+      "size": 340279,
+      "sha1": "77339ae9df4326204c567418e3f44291cf6fd6b0"
+    },
+    "books/prepared/toefl-core-5000-0104.json": {
+      "size": 289549,
+      "sha1": "97ddbd02ead56c6f0c34c9a5ac8d3c278771deba"
+    },
+    "books/prepared/toefl-core-5000-0105.json": {
+      "size": 341573,
+      "sha1": "7119a482116367904beff3681bf976e5f1e091bc"
+    },
+    "books/prepared/toefl-core-5000-0107.json": {
+      "size": 355180,
+      "sha1": "749757d0ebeb70fcefbcb21ceea1d11f9a820f5c"
+    },
+    "books/prepared/toefl-core-5000-0108.json": {
+      "size": 315416,
+      "sha1": "869209e4018ec268d68ae97d0d0f00709a860277"
+    },
+    "books/prepared/toefl-core-5000-0109.json": {
+      "size": 362617,
+      "sha1": "8d7fea3860acc3965b9e93e366e4a2629b4c6c9f"
+    },
+    "books/prepared/toefl-core-5000-0110.json": {
+      "size": 335899,
+      "sha1": "1104afce9608647fc7f7b37136f067f8d9d39687"
+    },
+    "books/prepared/toefl-core-5000-0111.json": {
+      "size": 302147,
+      "sha1": "92b041455835fac93172cd7470fa39be96ef7a52"
+    },
+    "books/prepared/toefl-core-5000-0112.json": {
+      "size": 300204,
+      "sha1": "e5d295090f96feecbb4bd1fb64045d863b9f2f0f"
+    },
+    "books/prepared/toefl-core-5000-0113.json": {
+      "size": 316415,
+      "sha1": "235d9c39f7bfc985532456ed8a8b6aa3a9fdeac1"
+    },
+    "books/prepared/toefl-core-5000-0114.json": {
+      "size": 328749,
+      "sha1": "2a81c040cf99a62daf4a69a769c7ef55ce2e8c1c"
+    },
+    "books/prepared/toefl-core-5000-0115.json": {
+      "size": 359052,
+      "sha1": "521b0d0b66a0e909b548b4ef1fa766bad7b27651"
+    },
+    "books/prepared/toefl-core-5000-0116.json": {
+      "size": 363128,
+      "sha1": "0af57a27f555a99e28b29911575e8df28a8c3128"
+    },
+    "books/prepared/toefl-core-5000-0117.json": {
+      "size": 347390,
+      "sha1": "89e5cd29a82ab654ce71587bbe2e6255b61718fa"
+    },
+    "books/prepared/toefl-core-5000-0118.json": {
+      "size": 314735,
+      "sha1": "f33f11a0204bec9d7207a0d55199778f8cf9e019"
+    },
+    "books/prepared/toefl-core-5000-0119.json": {
+      "size": 326646,
+      "sha1": "c6e2c0a3886c1cb3074d8be83526741369ebfcbb"
+    },
+    "books/prepared/toefl-core-5000-0120.json": {
+      "size": 352514,
+      "sha1": "acc968e31aa0a07413dd4b588650671589b3bb7a"
+    },
+    "books/prepared/toefl-core-5000-0121.json": {
+      "size": 385755,
+      "sha1": "1100268b03c13a275310bfce4ccbf05b6c47e26f"
+    },
+    "books/prepared/toefl-core-5000-0122.json": {
+      "size": 354895,
+      "sha1": "1cd1061f0b2c46b0998ef52e006d995cb32b5c04"
+    },
+    "books/prepared/toefl-core-5000-0123.json": {
+      "size": 370994,
+      "sha1": "cc633b7bb18453b087bd4a12e3093075004c6274"
+    },
+    "books/prepared/toefl-core-5000-0124.json": {
+      "size": 370827,
+      "sha1": "16287be1aa2f4219ed2127f715ac7a0049aed6a8"
+    },
+    "books/prepared/toefl-core-5000-0125.json": {
+      "size": 365205,
+      "sha1": "ed4b00e7e649979158fed0d7a62ff2ef14d17035"
+    },
+    "books/prepared/toefl-core-5000-0126.json": {
+      "size": 318923,
+      "sha1": "a48e835c688236adec418a4fdaab7cc78a24a051"
+    },
+    "books/prepared/toefl-core-5000-0127.json": {
+      "size": 332605,
+      "sha1": "bd92fc9c1e29b08b05da2929e0ce02591685b484"
+    },
+    "books/prepared/toefl-core-5000-0128.json": {
+      "size": 371551,
+      "sha1": "54822ac5692c97f6b78c400b10933fa57e5346ef"
+    },
+    "books/prepared/toefl-core-5000-0129.json": {
+      "size": 360346,
+      "sha1": "5d3f038fc73bb5173a3bb077b397bed82c88d862"
+    },
+    "books/prepared/toefl-core-5000-0130.json": {
+      "size": 320836,
+      "sha1": "7123f9ad45fb4262fa3a94eddb528c8bb826e259"
+    },
+    "books/prepared/toefl-core-5000-0131.json": {
+      "size": 370637,
+      "sha1": "a584739af4e1d62598d1d41dc41b501275db2e9a"
+    },
+    "books/prepared/toefl-core-5000-0132.json": {
+      "size": 347306,
+      "sha1": "47a9cdb632122f97cf36073e5c302b35f1971bac"
+    },
+    "books/prepared/toefl-core-5000-0133.json": {
+      "size": 309918,
+      "sha1": "ce5eb1f68168093090a31c058906452763845112"
+    },
+    "books/prepared/toefl-core-5000-0134.json": {
+      "size": 396236,
+      "sha1": "4ba0ff580d2b126a79a36b6a20ac71a7b75c2bc7"
+    },
+    "books/prepared/toefl-core-5000-0135.json": {
+      "size": 356603,
+      "sha1": "031f16765c57f05afdc263ae26063503e9e96904"
+    },
+    "books/prepared/toefl-core-5000-0136.json": {
+      "size": 388209,
+      "sha1": "fa8b7601ee7900b7c4065413ee8a3c11ab265824"
+    },
+    "books/prepared/toefl-core-5000-0137.json": {
+      "size": 360510,
+      "sha1": "e6b29e9c448f1cccde29a3a61ae7855747f67335"
+    },
+    "books/prepared/toefl-core-5000-0138.json": {
+      "size": 384638,
+      "sha1": "67588ecc32962ee718113bf2e2da2c0e8fb6b09a"
+    },
+    "books/prepared/toefl-core-5000-0139.json": {
+      "size": 348405,
+      "sha1": "d444b13f657d9bd8460f147587fddac22f2df413"
+    },
+    "books/prepared/toefl-core-5000-0140.json": {
+      "size": 384718,
+      "sha1": "19346b027530eb848821db7abe917f8f2a42e50b"
+    },
+    "books/prepared/toefl-core-5000-0141.json": {
+      "size": 385783,
+      "sha1": "7bc1e55d6a35665d2cf023da9f9ce42252f12218"
+    },
+    "books/prepared/toefl-core-5000-0142.json": {
+      "size": 312694,
+      "sha1": "406c20726ff3161d866c0edf0d5a1555d565d0f8"
+    },
+    "books/prepared/toefl-core-5000-0143.json": {
+      "size": 360088,
+      "sha1": "2056c544c4b2d80f16a0ce543829d0934cd1a579"
+    },
+    "books/prepared/toefl-core-5000-0144.json": {
+      "size": 338052,
+      "sha1": "98de3222bf0b93d0932946b3d98df41bc77521c1"
+    },
+    "books/prepared/toefl-core-5000-0145.json": {
+      "size": 345674,
+      "sha1": "497d059650b5a5cc3c51c04cf70f73fea7d89ddc"
+    },
+    "books/prepared/toefl-core-5000-0146.json": {
+      "size": 378817,
+      "sha1": "e729d34b554e914a40a1c5ff616d39bfa14ba7ae"
+    },
+    "books/prepared/toefl-core-5000-0147.json": {
+      "size": 362698,
+      "sha1": "5d411161079d23a999df8e88355b0de5ff5602cf"
+    },
+    "books/prepared/toefl-core-5000-0148.json": {
+      "size": 336463,
+      "sha1": "6ccc817cbd72f19d009da6da3f2895e53f2990f0"
+    },
+    "books/prepared/toefl-core-5000-0149.json": {
+      "size": 376184,
+      "sha1": "e2951af7fd96f3ff55d95747687a2e20a654ae5c"
+    },
+    "books/prepared/toefl-core-5000-0150.json": {
+      "size": 326630,
+      "sha1": "4549be629c8e33971878e54ca85302ead29cd5fc"
+    },
+    "books/prepared/toefl-core-5000-0151.json": {
+      "size": 371642,
+      "sha1": "c981e586f7a5568a4903f068a0d34ae27e7209b5"
+    },
+    "books/prepared/toefl-core-5000-0152.json": {
+      "size": 369875,
+      "sha1": "5ae9dfb0d346c7cfd57f1a2f4e0bf0ad613b8a32"
+    },
+    "books/prepared/toefl-core-5000-0153.json": {
+      "size": 370562,
+      "sha1": "ad88cbc64bf29ed38ebec8887a44725fe6ea5bbb"
+    },
+    "books/prepared/toefl-core-5000-0154.json": {
+      "size": 342306,
+      "sha1": "802ae82e07ad101197ea0544825249c64e3b37cf"
+    },
+    "books/prepared/toefl-core-5000-0155.json": {
+      "size": 339112,
+      "sha1": "59a1eb2b344fd9024161eab3949d021de6d19dac"
+    },
+    "books/prepared/toefl-core-5000-0156.json": {
+      "size": 378020,
+      "sha1": "3ea8919a3c393d05e74cf6f187deff47e76156cd"
+    },
+    "books/prepared/toefl-core-5000-0157.json": {
+      "size": 380424,
+      "sha1": "04cf7112173b8ad488c80da27cfd9216e9493342"
+    },
+    "books/prepared/toefl-core-5000-0158.json": {
+      "size": 350144,
+      "sha1": "dd0f7e95df2e6cab32814ef629a39a117dd1fb15"
+    },
+    "books/prepared/toefl-core-5000-0159.json": {
+      "size": 395681,
+      "sha1": "17d3cf756696b45d8cc1f686254a17b367c5eb9c"
+    },
+    "books/prepared/toefl-core-5000-0160.json": {
+      "size": 338958,
+      "sha1": "ec43f50c2f16927407e02aedcc7a3c2f8adf42bf"
+    },
+    "books/prepared/toefl-core-5000-0161.json": {
+      "size": 336832,
+      "sha1": "7b561d6c6daef1dca1016b9669eb06268a47b8b5"
+    },
+    "books/prepared/toefl-core-5000-0162.json": {
+      "size": 333919,
+      "sha1": "168afabe26d85ba35a60b6836c8bf3e69a68563d"
+    },
+    "books/prepared/toefl-core-5000-0163.json": {
+      "size": 308392,
+      "sha1": "8c7c3c4828d80943cae02b4d0bc07969140f6ee9"
+    },
+    "books/prepared/toefl-core-5000-0164.json": {
+      "size": 364291,
+      "sha1": "f7ccab28267574d08b31c6c7ba20140fee9f0e23"
+    },
+    "books/prepared/toefl-core-5000-0165.json": {
+      "size": 367701,
+      "sha1": "2b6eae46bfe1c41129e1509d6fe8851ec37259ee"
+    },
+    "books/prepared/toefl-core-5000-0166.json": {
+      "size": 356079,
+      "sha1": "49b1049e01eea951c4562def118af9cc0522f8cf"
+    },
+    "books/prepared/toefl-core-5000-0167.json": {
+      "size": 393134,
+      "sha1": "4f5a44f8ba5b5746d07c186a9daf9d1043e383cc"
+    },
+    "books/prepared/toefl-core-5000-0168.json": {
+      "size": 362210,
+      "sha1": "bede6f044bba4b3f4e5862ec74287c9492d27aa0"
+    },
+    "books/prepared/toefl-core-5000-0169.json": {
+      "size": 329015,
+      "sha1": "4b7af50796b4a0c47aa5d2919bc8dd9e38e1f710"
+    },
+    "books/prepared/toefl-core-5000-0171.json": {
+      "size": 415595,
+      "sha1": "f21c6650b0a5ddac37f66c9b275eb6888f8aa2e4"
+    },
+    "books/prepared/toefl-core-5000-0172.json": {
+      "size": 391947,
+      "sha1": "324839ea594308fc0b42abb41d1ae6d953e7a8a2"
+    },
+    "books/prepared/toefl-core-5000-0173.json": {
+      "size": 347631,
+      "sha1": "ac80ab1e54260de583e2004d7cf49b0572ae4f19"
+    },
+    "books/prepared/toefl-core-5000-0174.json": {
+      "size": 363270,
+      "sha1": "b3c252a22e6927a08262f6ab46c23b01fbd5661a"
+    },
+    "books/prepared/toefl-core-5000-0175.json": {
+      "size": 373550,
+      "sha1": "422c695c66dadba67fc57c21f5d4f8f6afd7bb6d"
+    },
+    "books/prepared/toefl-core-5000-0176.json": {
+      "size": 356425,
+      "sha1": "c53adf7525383ace2cf103b71b668dd89b799283"
+    },
+    "books/prepared/toefl-core-5000-0177.json": {
+      "size": 349570,
+      "sha1": "ef9ccd5a2ea07352b4c8d520493c0cc4adac34b6"
+    },
+    "books/prepared/toefl-core-5000-0178.json": {
+      "size": 311473,
+      "sha1": "10dc6b45225a1bb536050604447a4a1de61289cc"
+    },
+    "books/prepared/toefl-core-5000-0179.json": {
+      "size": 325692,
+      "sha1": "e95683a0852ed6dcb61d33c9cff58ad9857f50c6"
+    },
+    "books/prepared/toefl-core-5000-0180.json": {
+      "size": 383970,
+      "sha1": "1f8eb573c9f3aa6a976b8db0389713b7145aa317"
+    },
+    "books/prepared/toefl-core-5000-0181.json": {
+      "size": 319748,
+      "sha1": "bb8d16be8950b59e260b1e6c8123f09a44cfb53a"
+    },
+    "books/prepared/toefl-core-5000-0182.json": {
+      "size": 346166,
+      "sha1": "f40c183886fde31f13bde4e19266bf37d94ca8d6"
+    },
+    "books/prepared/toefl-core-5000-0183.json": {
+      "size": 336447,
+      "sha1": "a3b938d64f2d2b467cdee7da6b7a68e5aed2ca44"
+    },
+    "books/prepared/toefl-core-5000-0184.json": {
+      "size": 346299,
+      "sha1": "dee21258bbd355124b1f398056f691875b7d5a0a"
+    },
+    "books/prepared/toefl-core-5000-0185.json": {
+      "size": 328540,
+      "sha1": "3ebbc25cf5dd47eb7adf7f9f65ba0e6007308f76"
+    },
+    "books/prepared/toefl-core-5000-0186.json": {
+      "size": 368475,
+      "sha1": "65ada5c672962d52f7d3b3b5b5714dd6eb16bec2"
+    },
+    "books/prepared/toefl-core-5000-0187.json": {
+      "size": 348107,
+      "sha1": "d4e18995a98ab80220bdbab373b7ab272adb5334"
+    },
+    "books/prepared/toefl-core-5000-0188.json": {
+      "size": 361515,
+      "sha1": "649c3eae3a83728552d7ec2c8db77b2f161694a9"
+    },
+    "books/prepared/toefl-core-5000-0189.json": {
+      "size": 383039,
+      "sha1": "0737ad4f2d1715f42c7231d5bfc68cb217bb0500"
+    },
+    "books/prepared/toefl-core-5000-0190.json": {
+      "size": 401682,
+      "sha1": "1be6bf4d901f3b087a3b208682f801898a0ff140"
+    },
+    "books/prepared/toefl-core-5000-0191.json": {
+      "size": 341787,
+      "sha1": "d34aaba31cab62a57f0aae20938c9aa56edf2e0e"
+    },
+    "books/prepared/toefl-core-5000-0192.json": {
+      "size": 391804,
+      "sha1": "3a725a7cdf6bc7933be07aaff164639cbdec88a7"
+    },
+    "books/prepared/toefl-core-5000-0193.json": {
+      "size": 400739,
+      "sha1": "562391d57303b6d1a427e229006e9987f15a552f"
+    },
+    "books/prepared/toefl-core-5000-0194.json": {
+      "size": 344143,
+      "sha1": "de2ae707be53b5bb0fb8b97637fb1e118e332238"
+    },
+    "books/prepared/toefl-core-5000-0195.json": {
+      "size": 312369,
+      "sha1": "1910bffdd05ba640efbd5569e39269fc0258a681"
+    },
+    "books/prepared/toefl-core-5000-0196.json": {
+      "size": 408249,
+      "sha1": "51d37224f0648c3efddbb44566cc484d2bdfe61b"
+    },
+    "books/prepared/toefl-core-5000-0197.json": {
+      "size": 410669,
+      "sha1": "a651aff834fcd5bbac562d323b81ba60cae77805"
+    },
+    "books/prepared/toefl-core-5000-0198.json": {
+      "size": 369736,
+      "sha1": "ad86c5254bb134029df44172d922fd244c4c4204"
+    },
+    "books/prepared/toefl-core-5000-0199.json": {
+      "size": 319578,
+      "sha1": "0c9841addd711636dc646f054ccda22553c7654b"
+    },
+    "books/prepared/toefl-core-5000-0200.json": {
+      "size": 351496,
+      "sha1": "6700069fb994b4450eb3f27c0c495cead19ac37b"
+    },
+    "books/prepared/toefl-core-5000-0201.json": {
+      "size": 374229,
+      "sha1": "5ff5d016418d253556dc80bd5cfa6a802b710dc9"
+    },
+    "books/prepared/toefl-core-5000-0202.json": {
+      "size": 360831,
+      "sha1": "db1f936f8bfc6ada6f6d4d870601f813f698cea1"
+    },
+    "books/prepared/toefl-core-5000-0203.json": {
+      "size": 338098,
+      "sha1": "0d91919c1a1af1505cbdbb74cbfafffddd6c8d5a"
+    },
+    "books/prepared/toefl-core-5000-0204.json": {
+      "size": 340872,
+      "sha1": "f3ed10e9a9b328314e3600b25625722e075ac226"
+    },
+    "books/prepared/toefl-core-5000-0205.json": {
+      "size": 341920,
+      "sha1": "fd2b9fc41bb252b72d5c2ab1302f2ea197b5a652"
+    },
+    "books/prepared/toefl-core-5000-0206.json": {
+      "size": 376204,
+      "sha1": "ae7e33182541798d16aca09796a566a13e1161ec"
+    },
+    "books/prepared/toefl-core-5000-0207.json": {
+      "size": 345238,
+      "sha1": "ae8109472161316e4d77ff9ebab706cd7a3414af"
+    },
+    "books/prepared/toefl-core-5000-0208.json": {
+      "size": 343190,
+      "sha1": "40558a92e8a1e381cb07e913e8a9f7d5a0208d4d"
+    },
+    "books/prepared/toefl-core-5000-0209.json": {
+      "size": 342165,
+      "sha1": "23738bd62fddf8bb8598f84948d2805c5ff16c92"
+    },
+    "books/prepared/toefl-core-5000-0210.json": {
+      "size": 344537,
+      "sha1": "c574846682fd2561ba387051916a71788845c0ca"
+    },
+    "books/prepared/toefl-core-5000-0211.json": {
+      "size": 332056,
+      "sha1": "5395caddfd32a93e0d15faa4f1e9116034a48a23"
+    },
+    "books/prepared/toefl-core-5000-0212.json": {
+      "size": 318531,
+      "sha1": "b5f2fa5426f6f7177c271ffa96d7432014fdc689"
+    },
+    "books/prepared/toefl-core-5000-0213.json": {
+      "size": 356356,
+      "sha1": "fbd3d5cabf89015f7f62ab20b35fd53ba2413f0c"
+    },
+    "books/prepared/toefl-core-5000-0214.json": {
+      "size": 319726,
+      "sha1": "77259f693b3377bd9ee1e0aef1cad9ef3765f3c6"
+    },
+    "books/prepared/toefl-core-5000-0215.json": {
+      "size": 362272,
+      "sha1": "76aabbbe652aaf3daf431a5c0fdc47ed7ece81a6"
+    },
+    "books/prepared/toefl-core-5000-0216.json": {
+      "size": 359732,
+      "sha1": "30e410e20b576e0bc2b1c9b10787513f7a2ef546"
+    },
+    "books/prepared/toefl-core-5000-0217.json": {
+      "size": 352532,
+      "sha1": "441c77bc8362c617c43afa2cef169dfc1d117487"
+    },
+    "books/prepared/toefl-core-5000-0218.json": {
+      "size": 371993,
+      "sha1": "094b9a26d0c4b280e4106299312a5ae7ef006bdb"
+    },
+    "books/prepared/toefl-core-5000-0219.json": {
+      "size": 292373,
+      "sha1": "d997e0e8f4edbf22e1bb1f4b8d40c60507fd72de"
+    },
+    "books/prepared/toefl-core-5000-0220.json": {
+      "size": 346377,
+      "sha1": "8d6b3f3db5314974ffdc4bc50c35cd366d4ac097"
+    },
+    "books/prepared/toefl-core-5000-0221.json": {
+      "size": 370754,
+      "sha1": "de079a6a5a202f097ec2a4da9e191ad8393a9c64"
+    },
+    "books/prepared/toefl-core-5000-0222.json": {
+      "size": 349475,
+      "sha1": "81bc52ea65b35f2a22c9cb5e66eb7572a7ba2490"
+    },
+    "books/prepared/toefl-core-5000-0223.json": {
+      "size": 344870,
+      "sha1": "a5f9d5b0f9effc8d79216c6915f9cec9142cde83"
+    },
+    "books/prepared/toefl-core-5000-0224.json": {
+      "size": 337292,
+      "sha1": "e2e7001dea78737f9f04655c80d402011b5bf38a"
+    },
+    "books/prepared/toefl-core-5000-0225.json": {
+      "size": 353594,
+      "sha1": "c0aa18f5e11756b0b0a88a6777e4b01cd6e78be7"
+    },
+    "books/prepared/toefl-core-5000-0226.json": {
+      "size": 295697,
+      "sha1": "aab933c9b2849b06610af0840d5547c97447011c"
+    },
+    "books/prepared/toefl-core-5000-0227.json": {
+      "size": 327765,
+      "sha1": "1615deb03cd65e329523974cfda0418cb6dac819"
+    },
+    "books/prepared/toefl-core-5000-0228.json": {
+      "size": 332503,
+      "sha1": "e798c1dcb152cbe1a31f0e1c02a33bb6208c64ac"
+    },
+    "books/prepared/toefl-core-5000-0229.json": {
+      "size": 355118,
+      "sha1": "1e709c5de6b4ee0930ab5fff048e7b2cb69d0811"
+    },
+    "books/prepared/toefl-core-5000-0230.json": {
+      "size": 367738,
+      "sha1": "df3f22080a77128faf27d570edcd8d9274e4fb77"
+    },
+    "books/prepared/toefl-core-5000-0231.json": {
+      "size": 318627,
+      "sha1": "697d9d3b1bedb7b9838d8c00cefe3bb756a98b3e"
+    },
+    "books/prepared/toefl-core-5000-0232.json": {
+      "size": 349495,
+      "sha1": "87a52bb44a08445ddeee24e452adf7920804501b"
+    },
+    "books/prepared/toefl-core-5000-0233.json": {
+      "size": 332477,
+      "sha1": "b0b106c495b0f8d064c35a600b17f87ddb6de40b"
+    },
+    "books/prepared/toefl-core-5000-0234.json": {
+      "size": 348310,
+      "sha1": "81dd0e9b3ab49d3c169e15b5860a70ff1eb55872"
+    },
+    "books/prepared/toefl-core-5000-0235.json": {
+      "size": 378611,
+      "sha1": "ed592294ff91ab4eabe6c29717b18c010ec469a5"
+    },
+    "books/prepared/toefl-core-5000-0236.json": {
+      "size": 325883,
+      "sha1": "e24f35ff4e5d2649ff0c57c8e3415139551f3fb2"
+    },
+    "books/prepared/toefl-core-5000-0237.json": {
+      "size": 295436,
+      "sha1": "1c6bbdf6521f37ecab5c0131ad9bbcd6918ec485"
+    },
+    "books/prepared/toefl-core-5000-0238.json": {
+      "size": 326933,
+      "sha1": "ead973080954d60a80967059e8bec10ff0e2890f"
+    },
+    "books/prepared/toefl-core-5000-0239.json": {
+      "size": 330157,
+      "sha1": "fa2447284e60e921a6ae8479c32afbf66b323989"
+    },
+    "books/prepared/toefl-core-5000-0240.json": {
+      "size": 127653,
+      "sha1": "4aa25da28d5a11e2918111d5500e65e22d08e738"
+    }
+  }
+}

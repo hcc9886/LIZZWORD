@@ -2286,6 +2286,7 @@ window.BOOK_MANIFEST = {
     "./books/prepared/medical-9001.json",
     "./books/prepared/medical-9002.json",
     "./books/prepared/medical-9003.json",
+    "./books/prepared/medical-9004.json",
     "./books/prepared/sat-0004.json",
     "./books/prepared/sat-0387.json",
     "./books/prepared/toefl-core-5000-0062.json",
