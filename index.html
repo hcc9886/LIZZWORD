@@ -296,6 +296,14 @@
     .class-table th { color: #9ca3af; font-weight: 600; }
     .class-note { font-size: 0.76rem; color: #9ca3af; margin: 0 0 8px; }
 
+
+    .review-progress { margin: 0 0 12px; }
+    .review-progress-text { margin: 0 0 4px; font-size: 0.78rem; color: #6b7280; }
+    .review-progress-bar { height: 8px; border-radius: 999px; background: #eef1f6; overflow: hidden; }
+    .review-progress-bar span { display: block; height: 100%; background: linear-gradient(90deg, #7aa2ff, #3157d5); }
+    .learned-group-title { margin: 10px 0 6px; font-size: 0.78rem; color: #9ca3af; letter-spacing: 0.06em; }
+    .learned-badge { display: inline-block; margin-left: 6px; padding: 1px 6px; border-radius: 999px;
+      background: #fef2f2; color: #b91c1c; font-size: 0.68rem; font-weight: 600; }
     .learned-card { padding: 8px 2px; }
     .learned-stats { display: flex; flex-wrap: wrap; gap: 12px; font-size: 0.84rem; color: #4b5563; margin-bottom: 10px; }
     .learned-chips { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 10px; }
@@ -8420,6 +8428,9 @@
       if (state.stage !== "done" || state.todayDoneAt === today) return;
       resetLearnSession();
       saveState();
+      if (typeof showToast === "function") {
+        showToast("已切换到《" + config.name + "》。复习池是全书共用的，之前学过的词仍会按计划出现。");
+      }
     }
 
     // 已备内容按书序排列的词 id
@@ -9831,10 +9842,23 @@
       if (window.LZStudyTimer) window.LZStudyTimer.resumeReview();
     }
 
+    function reviewProgressHTML() {
+      const session = state.reviewSession;
+      if (!session || !Array.isArray(session.due) || !session.due.length) return "";
+      const total = session.due.length;
+      const done = total - reviewBatchWords().length;
+      const pct = Math.max(0, Math.min(100, Math.round((done / total) * 100)));
+      return `<div class="review-progress">
+        <p class="review-progress-text">今日复习 ${done} / ${total}（${pct}%）</p>
+        <div class="review-progress-bar"><span style="width:${pct}%"></span></div>
+      </div>`;
+    }
+
     function renderReviewView() {
       const session = ensureReviewSession();
       if (!session) {
         document.getElementById("view-review").innerHTML = `
+          ${reviewProgressHTML()}
           <section class="study-card">
             <h2 class="done-title">今天没有到期的复习词</h2>
             <p class="done-text">${getNextReview() ? `下一次复习：${esc(dueText(getNextReview().due))}` : "复习池里还没有词。"}</p>
@@ -10435,7 +10459,7 @@
           <button type="button" class="quick-tile" data-enter="games"><span class="quick-icon">🎮</span><span class="quick-label">小游戏</span></button>
         </section>
 
-        <p class="home-progress">当前组已学 <b>${finishedToday ? target : learned}</b> / ${target} · 今日累计 <b>${state.groupsToday}</b> 组 · <b>${state.wordsToday}</b> 个词${finishedToday ? " · 已完成" : ""}</p>
+        <p class="home-progress">${homeProgressText({ learned, target, finishedToday, due })}</p>
         ${quoteCardHTML()}`;
       applyHomeLayout();
     }
@@ -10947,7 +10971,20 @@
       }).catch((error) => showToast(`清空失败：${String(error && error.message || error)}`));
     }
 
+    function maybeMarkBookCompleted() {
+      const ent = window.LZEntitlements;
+      if (!ent || !ent.markBookCompleted) return;
+      const total = (bookInfo.entries || []).length;
+      const done = Array.isArray(state.masteredIds) ? state.masteredIds.length : 0;
+      let mastered = 0;
+      try { mastered = words.filter((item) => state.reviewPool[item.word] && state.reviewPool[item.word].mastered).length; } catch (e) { mastered = 0; }
+      if (total && mastered >= total && activeBookConfig) {
+        ent.markBookCompleted(activeBookConfig.id);
+      }
+    }
+
     function renderStageDone() {
+      maybeMarkBookCompleted();
       const summary = state.learnSummary || buildLearnSummary();
       const wrong = summary.wrong;
       const nextText = summary.nextDue ? dueText(summary.nextDue) : "暂无";
@@ -12117,6 +12154,22 @@
       return engine.buildPlan(profile, planStats(profile));
     }
 
+    function homeProgressText(ctx) {
+      const learned = Math.min(ctx.learned || 0, ctx.target || 1);
+      const target = ctx.target || 1;
+      const pct = Math.round((learned / target) * 100);
+      const lines = [];
+      if (ctx.finishedToday) lines.push("今天这组已完成，收工也不错。");
+      else if (pct >= 80) lines.push("就差一点点了，再两个词就收手。");
+      else if (pct >= 50) lines.push("过半了，节奏正好。");
+      else if (pct > 0) lines.push("开了个头，比昨天强。");
+      else lines.push("今天还没开始，先学一个也算赢。");
+      lines.push(`<span>本组 <b>${learned}</b> / ${target}（${pct}%）</span>`);
+      lines.push(`<span>今日累计 <b>${state.groupsToday}</b> 组 · <b>${state.wordsToday}</b> 词</span>`);
+      if (ctx.due) lines.push(`<span>待复习 <b>${ctx.due}</b></span>`);
+      return lines.join(" · ");
+    }
+
     function planCardHTML() {
       const plan = currentPlan();
       if (!plan) {
@@ -12472,6 +12525,22 @@
       return { total: rows.length, mastered, due, longAgo };
     }
 
+    function learnedDateGroup(row, today) {
+      const last = row.lastReviewed || "";
+      if (!last) return "还没复习";
+      if (last === today) return "今天";
+      if (last === addDaysKey(today, -1)) return "昨天";
+      if (last >= addDaysKey(today, -7)) return "本周";
+      return "更早";
+    }
+
+    function wrongCountOf(word) {
+      const map = wrongBookLoad();
+      return Number(map[String(word).toLowerCase()]) || 0;
+    }
+
+    const LEARNED_GROUP_ORDER = ["今天", "昨天", "本周", "更早", "还没复习"];
+
     function renderLearned() {
       const mount = document.getElementById("view-learned");
       const rows = learnedRows();
@@ -12483,6 +12552,7 @@
       else if (learnedFilter.status === "due") list = list.filter((r) => !r.mastered && r.due && r.due <= today);
       else if (learnedFilter.status === "learning") list = list.filter((r) => !r.mastered);
       else if (learnedFilter.status === "stale") list = list.filter((r) => !r.mastered && (!r.lastReviewed || r.lastReviewed < addDaysKey(today, -30)));
+      else if (learnedFilter.status === "wrong") list = list.filter((r) => wrongCountOf(r.word) > 0);
 
       const q = learnedFilter.query.trim().toLowerCase();
       if (q) list = list.filter((r) => r.word.toLowerCase().includes(q) || String(r.item.definition_zh || "").toLowerCase().includes(q));
@@ -12491,10 +12561,35 @@
       else if (learnedFilter.sort === "weak") list.sort((a, b) => (a.node || 0) - (b.node || 0));
       else list.sort((a, b) => (b.lastReviewed || "").localeCompare(a.lastReviewed || "") || a.word.localeCompare(b.word));
 
+      const grouped = {};
+      for (const row of list.slice(0, 200)) {
+        const group = learnedDateGroup(row, today);
+        if (!grouped[group]) grouped[group] = [];
+        grouped[group].push(row);
+      }
+
       const chip = (key, label, count) => `
         <button type="button" class="learned-chip${learnedFilter.status === key ? " is-active" : ""}" data-learned-status="${key}">
           ${esc(label)}<span class="learned-chip-count">${count}</span>
         </button>`;
+
+      const groupsHTML = LEARNED_GROUP_ORDER
+        .filter((group) => grouped[group] && grouped[group].length)
+        .map((group) => `
+          <p class="learned-group-title">${esc(group)} · ${grouped[group].length}</p>
+          <ul class="learned-list">
+            ${grouped[group].map((row) => {
+              const wrong = wrongCountOf(row.word);
+              return `
+                <li class="learned-item">
+                  <button type="button" class="learned-main" data-wrong-word="${esc(row.word)}">
+                    <span class="learned-word">${esc(row.word)}${wrong ? `<span class="learned-badge">错 ${wrong}</span>` : ""}</span>
+                    <span class="learned-def">${esc(String(row.item.definition_zh || "").slice(0, 24))}</span>
+                    <span class="learned-meta">${row.mastered ? "已掌握" : "第 " + (row.node + 1) + " 阶 · 下次 " + (row.due || "未定")}</span>
+                  </button>
+                </li>`;
+            }).join("")}
+          </ul>`).join("");
 
       mount.innerHTML = `
         <section class="learned-card">
@@ -12512,6 +12607,7 @@
             ${chip("due", "待复习", stat.due)}
             ${chip("mastered", "已掌握", stat.mastered)}
             ${chip("stale", "久未复习", stat.longAgo)}
+            ${chip("wrong", "反复错", rows.filter((r) => wrongCountOf(r.word) > 0).length)}
           </div>
 
           <div class="learned-toolbar">
@@ -12523,19 +12619,7 @@
             </select>
           </div>
 
-          ${list.length ? `<ul class="learned-list">
-            ${list.slice(0, 200).map((row) => `
-              <li class="learned-item">
-                <button type="button" class="learned-main" data-wrong-word="${esc(row.word)}">
-                  <span class="learned-word">${esc(row.word)}</span>
-                  <span class="learned-def">${esc(String(row.item.definition_zh || "").slice(0, 24))}</span>
-                <span class="learned-meta">
-                  ${row.mastered ? "已掌握" : "第 " + (row.node + 1) + " 阶 · 下次 " + (row.due || "未定")}
-                </span>
-                </button>
-              </li>`).join("")}
-          </ul>` : `<p class="drill-sub">这个筛选下还没有词。先去学一组吧。</p>`}
-
+          ${list.length ? groupsHTML : `<p class="drill-sub">这个筛选下还没有词。先去学一组吧。</p>`}
           ${list.length > 200 ? `<p class="drill-sub">只显示前 200 个，用搜索缩小范围。</p>` : ""}
           <div class="drill-actions">
             <button type="button" class="btn-primary" data-enter="study">继续新学</button>

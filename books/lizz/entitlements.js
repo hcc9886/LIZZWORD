@@ -95,6 +95,34 @@
   }
 
   // 内测邀请码：一码一人一次，兑换后按天数延长 Plus
+  // Pro 原价 258；完整学完一本词书后可领 198 折扣价（一次机会）
+  const PRO_PRICE = 258;
+  const PRO_DISCOUNT_PRICE = 198;
+  const PRO_DISCOUNT_KEY = "lizzword_pro_discount_v1";
+
+  function proDiscountState() {
+    try {
+      const raw = global.localStorage.getItem(PRO_DISCOUNT_KEY);
+      return raw ? JSON.parse(raw) : null;
+    } catch (e) { return null; }
+  }
+
+  function markBookCompleted(bookId) {
+    try {
+      const data = proDiscountState() || {};
+      data.books = data.books || [];
+      if (data.books.indexOf(bookId) < 0) data.books.push(bookId);
+      data.updatedAt = new Date().toISOString();
+      global.localStorage.setItem(PRO_DISCOUNT_KEY, JSON.stringify(data));
+      return data;
+    } catch (e) { return null; }
+  }
+
+  function proPrice() {
+    const data = proDiscountState();
+    return data && Array.isArray(data.books) && data.books.length ? PRO_DISCOUNT_PRICE : PRO_PRICE;
+  }
+
   const INVITE_CODES = {
     // 永久内测码
     "wansuiwansuiwanwansui1313113": { plan: "pro", days: 0, forever: true, label: "内测永久版" },
@@ -200,6 +228,11 @@
   }
 
   global.LZEntitlements = {
+    PRO_PRICE,
+    PRO_DISCOUNT_PRICE,
+    proPrice,
+    markBookCompleted,
+    proDiscountState,
     INVITE_CODES,
     redeemCode,
     FREE_DAILY_NEW,
