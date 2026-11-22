@@ -20,7 +20,7 @@
   ];
   const TRIAL_DAYS = 7;
   const FREE_DAILY_NEW = 50;
-  const PLUS_DAILY_NEW = 100;
+  const PLUS_DAILY_NEW = Infinity;
   const PLAN_KEY = "lizzword_plan_v1";
 
   function read() {
@@ -106,7 +106,7 @@
         <p class="paywall-sub">免费版可以完整学完 1 本（零基础整本免费），每天 50 个新词；Plus 解锁全部 30 本、每天 40 个新词、计划与跨端同步，22 个字段所有词条都可见。</p>
         <ul class="paywall-list">
           <li>全部 30 本词书：雅思 / 考研 / 专四专八 / 医护 / 商务法律 …</li>
-          <li>每日新词 100 个，考试倒计时自动排计划</li>
+          <li>新词不限量，考试倒计时自动排计划</li>
           <li>跟读评分、离线整书包、跨设备同步</li>
         </ul>
         <div class="paywall-actions">

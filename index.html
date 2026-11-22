@@ -315,6 +315,24 @@
     .wrong-count { font-size: 0.76rem; color: #b91c1c; }
     .wrong-def { grid-column: 1 / -1; font-size: 0.82rem; color: #6b7280; }
 
+
+    /* ===== 紧凑计划卡 + 模式条 ===== */
+    .plan-card-compact { padding: 10px 12px; gap: 8px; }
+    .plan-line { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin: 0; flex: 1 1 auto; }
+    .plan-day { font-weight: 700; font-size: 0.9rem; }
+    .plan-chip { font-size: 0.74rem; padding: 2px 8px; border-radius: 999px; background: #fff; border: 1px solid #e1e5f0; color: #6b7280; }
+    .plan-stat { font-size: 0.8rem; color: #374151; }
+    .plan-start { padding: 6px 14px; font-size: 0.82rem; }
+    .plan-adjust { padding: 6px 10px; font-size: 0.78rem; }
+    .mode-strip { margin: 0 0 12px; }
+    .mode-strip-title { margin: 0 0 6px; font-size: 0.74rem; color: #9ca3af; letter-spacing: 0.08em; }
+    .mode-chips { display: flex; flex-wrap: wrap; gap: 8px; }
+    .mode-chip {
+      padding: 7px 12px; border-radius: 999px; border: 1px solid #e1e5f0;
+      background: #fff; font-size: 0.82rem; cursor: pointer;
+    }
+    .mode-chip:hover { border-color: #3157d5; color: #3157d5; }
+
     /* ===== 计划卡 ===== */
     .plan-actions { display: flex; gap: 8px; flex: 0 0 auto; }
 
@@ -6908,7 +6926,7 @@
       {
         id: "bec",
         name: "BEC 商务英语核心词汇",
-        intro: "BEC 商务场景核心词（自建整理）：会议、谈判、财务、物流等高频商务表达。共 1881 词，每词均为 22 键深度词条。",
+        intro: "BEC 商务场景核心词（自建整理）：会议、谈判、财务、物流等高频商务表达。共 1908 词，每词均为 22 键深度词条。",
         bookFile: "./books/bec.json",
         preparedFiles: (window.BOOK_MANIFEST && window.BOOK_MANIFEST["bec"]) || [],
         distractorsFile: "./books/distractors.json",
@@ -6918,7 +6936,7 @@
       {
         id: "medical",
         name: "医护英语核心词汇",
-        intro: "医护英语核心词（自建整理）：临床、解剖、用药与公共卫生高频术语，非官方考纲。共 1848 词，每词均为 22 键深度词条。",
+        intro: "医护英语核心词（自建整理）：临床、解剖、用药与公共卫生高频术语，非官方考纲。共 1895 词，每词均为 22 键深度词条。",
         bookFile: "./books/medical.json",
         preparedFiles: (window.BOOK_MANIFEST && window.BOOK_MANIFEST["medical"]) || [],
         distractorsFile: "./books/distractors.json",
@@ -6928,7 +6946,7 @@
       {
         id: "business-law",
         name: "商业法律英语核心词汇",
-        intro: "商业与法律英语核心词（自建整理）：合同、诉讼、公司与贸易高频术语，非官方考纲。共 1859 词，每词均为 22 键深度词条。",
+        intro: "商业与法律英语核心词（自建整理）：合同、诉讼、公司与贸易高频术语，非官方考纲。共 1902 词，每词均为 22 键深度词条。",
         bookFile: "./books/business-law.json",
         preparedFiles: (window.BOOK_MANIFEST && window.BOOK_MANIFEST["business-law"]) || [],
         distractorsFile: "./books/distractors.json",
@@ -6958,7 +6976,7 @@
       {
         id: "study-abroad",
         name: "留学英语核心词汇",
-        intro: "留学申请与海外课堂高频词（自建整理）：涵盖申请材料、校园生活与学术写作场景。共 1823 词，每词均为 22 键深度词条。",
+        intro: "留学申请与海外课堂高频词（自建整理）：涵盖申请材料、校园生活与学术写作场景。共 1847 词，每词均为 22 键深度词条。",
         bookFile: "./books/study-abroad.json",
         preparedFiles: (window.BOOK_MANIFEST && window.BOOK_MANIFEST["study-abroad"]) || [],
         distractorsFile: "./books/distractors.json",
@@ -10247,6 +10265,18 @@
       document.getElementById("view-home").innerHTML = `
         ${homeBookBarHTML()}
         ${planCardHTML()}
+        <section class="mode-strip">
+          <p class="mode-strip-title">学习模式</p>
+          <div class="mode-chips">
+            <button type="button" class="mode-chip" data-enter="study">认词</button>
+            <button type="button" class="mode-chip" data-mode-drill="example">例句填空</button>
+            <button type="button" class="mode-chip" data-mode-drill="confusable">形近辨析</button>
+            <button type="button" class="mode-chip" data-mode-drill="affix">词根拆解</button>
+            <button type="button" class="mode-chip" data-mode-games="1">听音 / 拼写</button>
+            <button type="button" class="mode-chip" data-enter="review">复习</button>
+            <button type="button" class="mode-chip" data-enter="preview">预习</button>
+          </div>
+        </section>
         <section class="home-grid">
           <button type="button" class="home-btn" data-enter="review" ${reviewEnabled ? "" : "disabled"}>
             <span class="home-title">复习</span>
@@ -11549,17 +11579,21 @@
           </section>`;
       }
       return `
-        <section class="plan-card">
-          <div class="plan-main">
-            <p class="plan-title">今日计划 · ${esc(plan.goalLabel)} · ${plan.minutes} 分钟</p>
-            <p class="plan-sub">新词 <b>${plan.newWords}</b> 个 · 复习 <b>${plan.reviewTarget}</b> 个 · 推荐 <b>${esc(plan.mix[0])}</b> · 配比 ${esc(plan.mix.join(" → "))}</p>
-            ${plan.examHint ? `<p class="plan-hint">${esc(plan.examHint)}</p>` : ""}
-          </div>
+        <section class="plan-card plan-card-compact">
+          <p class="plan-line">
+            <span class="plan-day">今日计划</span>
+            <span class="plan-chip">${esc(plan.goalLabel)}</span>
+            <span class="plan-chip">${plan.minutes} 分钟</span>
+            <span class="plan-stat">新词 <b>${plan.newWords}</b></span>
+            <span class="plan-stat">复习 <b>${plan.reviewTarget}</b></span>
+            <span class="plan-stat">推荐 <b>${esc(plan.mix[0])}</b></span>
+          </p>
           <div class="plan-actions">
-            <button type="button" class="btn-primary" data-plan-start>按计划开始</button>
-            <button type="button" class="btn-ghost" data-plan-open>调整</button>
+            <button type="button" class="btn-primary plan-start" data-plan-start>开始</button>
+            <button type="button" class="btn-ghost plan-adjust" data-plan-open>调整</button>
           </div>
-        </section>`;
+        </section>
+        ${plan.examHint ? `<p class="plan-hint">${esc(plan.examHint)}</p>` : ""}`;
     }
 
     function openPlanWizard() {
@@ -12321,6 +12355,18 @@
         wrongBookSave({});
         renderView();
         showToast("错词本已清空。");
+        return;
+      }
+
+      const modeDrill = event.target.closest("[data-mode-drill]");
+      if (modeDrill) {
+        showView("drill");
+        startDrill(modeDrill.dataset.modeDrill);
+        return;
+      }
+      if (event.target.closest("[data-mode-games]")) {
+        publishGamesBridge();
+        location.href = "games.html";
         return;
       }
 
