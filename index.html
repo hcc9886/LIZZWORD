@@ -11906,6 +11906,10 @@
             <span class="settings-row-title">内测邀请码</span>
             <span class="settings-row-sub">输入邀请码开通 Plus</span>
           </button>
+          <button type="button" class="settings-row" data-settings-download>
+            <span class="settings-row-title">离线下载</span>
+            <span class="settings-row-sub">按需下载整本词书，断网也能学</span>
+          </button>
           <button type="button" class="settings-row" data-settings-theme>
             <span class="settings-row-title">外观与无障碍</span>
             <span class="settings-row-sub">深色模式、字号、高对比</span>
@@ -11940,6 +11944,7 @@
         if (event.target.closest("[data-settings-speech]")) { close(); openSpeechSettings(); return; }
         if (event.target.closest("[data-settings-invite]")) { close(); openInviteDialog(); return; }
         if (event.target.closest("[data-settings-lizz]")) { close(); openLizzThemes(); return; }
+        if (event.target.closest("[data-settings-download]")) { close(); openBookDownloader(); return; }
         if (event.target.closest("[data-settings-theme]")) { close(); openThemeSettings(); return; }
         if (event.target.closest("[data-settings-family]")) { close(); openFamily(); return; }
         if (event.target.closest("[data-settings-writing]")) { close(); openWritingPractice(); return; }
@@ -12714,6 +12719,49 @@
           note.textContent = `得分 ${result.score} · ` + (result.notes && result.notes.length ? result.notes.join("；") : "写得不错");
           trackEvent("writing_check", { word, score: result.score });
         }
+      });
+    }
+
+
+    // 按需下载：逐本下载分片到离线缓存（App 里等价于整本书体积控制）
+    function openBookDownloader() {
+      const PWA = window.LZPWA;
+      const modal = document.createElement("div");
+      modal.className = "onboard-overlay";
+      modal.innerHTML = `
+        <div class="onboard-card settings-card" role="dialog" aria-modal="true" aria-label="离线下载">
+          <div class="settings-head"><h2 class="onboard-title">离线下载</h2>
+            <button type="button" class="settings-close" data-settings-close>×</button></div>
+          <p class="drill-sub">${PWA && PWA.supported ? "选一本书下载，断网也能学。" : "当前浏览器不支持离线缓存。"}</p>
+          <p class="drill-sub" data-download-note></p>
+          <ul class="layout-list" data-download-list>
+            ${BOOKS.filter((b) => b.id !== "my-words").slice(0, 40).map((b) => `
+              <li class="layout-row">
+                <span class="layout-name">${esc(b.name)}<span class="learned-chip-count">${(b.preparedFiles || []).length} 片</span></span>
+                <button type="button" class="layout-move" data-download-book="${esc(b.id)}">下载</button>
+              </li>`).join("")}
+          </ul>
+        </div>`;
+      document.body.appendChild(modal);
+      modal.addEventListener("click", async (event) => {
+        if (event.target === modal || event.target.closest("[data-settings-close]")) { modal.remove(); return; }
+        const btn = event.target.closest("[data-download-book]");
+        if (!btn) return;
+        const bookId = btn.dataset.downloadBook;
+        const note = modal.querySelector("[data-download-note]");
+        const config = BOOKS.find((b) => b.id === bookId);
+        if (!PWA || !PWA.supported || !config) { note.textContent = "离线缓存不可用"; return; }
+        btn.disabled = true;
+        note.textContent = "正在下载「" + config.name + "」…";
+        try {
+          const result = await PWA.pack(offlineFilesFor(config), (data) => {
+            note.textContent = "下载中 " + data.done + " / " + data.total;
+          });
+          note.textContent = "「" + config.name + "」已离线可用（" + PWA.formatBytes(result.bytes) + "）";
+        } catch (e) {
+          note.textContent = "下载失败：" + String(e && e.message || e);
+        }
+        btn.disabled = false;
       });
     }
 
