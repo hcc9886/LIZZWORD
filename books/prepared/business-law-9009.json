@@ -1,0 +1,819 @@
+[
+  {
+    "word": "tenant",
+    "ipa_uk": "/ˈtenənt/",
+    "ipa_us": "/ˈtenənt/",
+    "definition_zh": "承租人；租户；保有者；按份共有人",
+    "definition_en": "a person who holds or occupies land or buildings that belong to someone else",
+    "core_image": "一把钥匙握在手里：房子不属于他，却由他持有和使用",
+    "scene": "房东把钥匙交给新住户，双方在租约上签字。The landlord handed the keys to the tenant and both signed the lease.",
+    "sceneCN": "这里 tenant 是「承租人」（第 1 个义项：按租约持有并使用他人房产的人）；句意：房东把钥匙交给承租人，双方在租约上签字。",
+    "pos": [
+      {
+        "tag": "n.",
+        "zh": "承租人；租户；保有者"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "tenant at will",
+        "zh": "随意租户；可随时终止租约的租户"
+      },
+      {
+        "phrase": "tenant in common",
+        "zh": "按份共有人"
+      },
+      {
+        "phrase": "sitting tenant",
+        "zh": "现租户；已入住的租户"
+      },
+      {
+        "phrase": "commercial tenant",
+        "zh": "商业承租方"
+      },
+      {
+        "phrase": "tenant of record",
+        "zh": "登记在册的承租人"
+      },
+      {
+        "phrase": "landlord and tenant",
+        "zh": "房东与租户（租赁双方）"
+      }
+    ],
+    "forms": [
+      {
+        "label": "复数",
+        "form": "tenants"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "tenancy",
+        "pos": "n.",
+        "zh": "由 tenant 加名词后缀 -cy 构成，义为「租赁；租期；保有」"
+      },
+      {
+        "word": "tenantable",
+        "pos": "adj.",
+        "zh": "由 tenant 加 -able 构成，义为「可出租的；适宜租住的」"
+      },
+      {
+        "word": "tenantry",
+        "pos": "n.",
+        "zh": "由 tenant 加集合后缀 -ry 构成，义为「全体租户；佃农群体」"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "One who holds a lease",
+        "titleCN": "承租人",
+        "definition": "a person or business that holds a lease of land or premises from a landlord",
+        "definitionCN": "从房东处取得土地或房屋租约的人或企业",
+        "example": "The tenant agreed to pay rent monthly.",
+        "exampleCN": "承租人同意按月支付租金。",
+        "why": "The Old French participle meant a holder, so a tenant is literally the one holding the leased property.",
+        "whyCN": "古法语分词本义为「持有者」，所以承租人字面上就是持有租赁物的一方，这一层「持有」正是词根 tenere 的直传。"
+      },
+      {
+        "no": "02",
+        "title": "An occupier without a written lease",
+        "titleCN": "住户；占用人",
+        "definition": "a person who occupies premises under an informal or periodic arrangement, such as a tenancy at will",
+        "definitionCN": "以非正式或周期性安排占用房屋的人，如随意租户",
+        "example": "A tenant at will may leave after giving reasonable notice.",
+        "exampleCN": "随意租户可以在发出合理通知后搬离。",
+        "why": "Holding can be practical rather than contractual, so the word also names whoever occupies the space.",
+        "whyCN": "「持有」可以只是实际占用而不必有合同，于是这个词也用来指任何占着这处房产的人，义项由此从租约扩展到占用。"
+      },
+      {
+        "no": "03",
+        "title": "A co-owner with an undivided share",
+        "titleCN": "按份共有人",
+        "definition": "one of two or more owners who each hold an undivided share of the same property, as in a tenancy in common",
+        "definitionCN": "两人或多人各自持有同一房产不可分割份额的共有人，如按份共有中的共有人",
+        "example": "Each tenant in common may sell an undivided share.",
+        "exampleCN": "每一位按份共有人都可以出售自己那份不可分割的份额。",
+        "why": "The holding root extends to any holder of a share, so property law uses tenant for co-owners too.",
+        "whyCN": "「持有」的词根可以扩展到任何持有份额的人，所以物权法也用 tenant 指共有人，这是从「持有实物」到「持有份额」的抽象化。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Tenant comes from Latin tenere, to hold, through the Old French participle tenant, the holding one.",
+        "cn": "tenant 来自拉丁语 tenere（持有），经古法语分词 tenant（持有着的）进入英语。"
+      },
+      "items": [
+        {
+          "era": "LATIN",
+          "en": "Tenere means to hold, to keep, or to keep in the hand.",
+          "cn": "tenere 意为握持、保有、握在手中。"
+        },
+        {
+          "era": "LATIN",
+          "en": "The participle tenens, tenentis describes the one who holds.",
+          "cn": "分词 tenens、tenentis 描述「正持有的人」。"
+        },
+        {
+          "era": "OLD FRENCH",
+          "en": "The verb tenir, to hold, yields the participle tenant.",
+          "cn": "动词 tenir（持有）产生分词 tenant。"
+        },
+        {
+          "era": "MIDDLE ENGLISH",
+          "en": "Tenant names the person who holds lands of a lord by some tenure.",
+          "cn": "中古英语 tenant 指按某种保有方式持有领主土地的人。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "Tenant becomes the standard word for a lessee, and for a co-owner in a tenancy in common.",
+          "cn": "现代英语中 tenant 成为承租人的标准说法，也指按份共有中的共有人。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "Tenant belongs to the Latin hold family and sits beside lease and occupancy words.",
+        "cn": "tenant 属于拉丁语「持有」词族，与租赁和占用义场的词相邻。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "tenancy",
+              "ipa": "/ˈtenənsi/",
+              "tag": "derived noun",
+              "definition": "the holding of land or premises under a lease",
+              "definitionCN": "依租约对土地或房屋的持有；租赁；租期"
+            },
+            {
+              "word": "tenement",
+              "ipa": "/ˈtenəmənt/",
+              "tag": "same root",
+              "definition": "a rented dwelling or a building divided into rented flats",
+              "definitionCN": "出租住宅；分成若干出租单元的老式楼宇"
+            },
+            {
+              "word": "tenure",
+              "ipa": "/ˈtenjʊə/",
+              "tag": "same root",
+              "definition": "the way in which land or an office is held",
+              "definitionCN": "土地或职位的保有方式；任期"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "lessee",
+              "ipa": "/ˈlesiː/",
+              "tag": "near meaning, legal",
+              "definition": "the party who holds a lease and pays rent",
+              "definitionCN": "持有租约并支付租金的一方；承租方"
+            },
+            {
+              "word": "lodger",
+              "ipa": "/ˈlɒdʒə/",
+              "tag": "near meaning",
+              "definition": "a person who rents a room in a house owned by someone else",
+              "definitionCN": "在他人所有的住宅里租住一间房的人；房客"
+            },
+            {
+              "word": "occupant",
+              "ipa": "/ˈɒkjʊpənt/",
+              "tag": "near meaning",
+              "definition": "a person who is in occupation of a place",
+              "definitionCN": "占用或使用某处场所的人；占用人"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Tenant grows from a Latin verb of holding: the person who holds land rather than owns it.",
+        "cn": "tenant 长自一个表示「持有」的拉丁语动词：持有土地而不是拥有土地的人。"
+      },
+      "normal": [
+        {
+          "en": "Ten- comes from tenere, to hold, and -ant marks the person who does it.",
+          "cn": "ten- 来自 tenere（持有），-ant 标记做这件事的人。"
+        },
+        {
+          "en": "Tenancy is the holding itself, and tenure is the way it is held.",
+          "cn": "tenancy 是持有这件事本身，tenure 是持有的方式。"
+        },
+        {
+          "en": "A tenant at will holds with no fixed term and may leave on notice.",
+          "cn": "「tenant at will」是没有固定期限、通知后即可离开的租户。"
+        },
+        {
+          "en": "A tenant in common holds an undivided share together with others.",
+          "cn": "「tenant in common」与他人共同持有一份不可分割的份额。"
+        },
+        {
+          "en": "Landlord and tenant are the two parties named in a lease.",
+          "cn": "「landlord and tenant」就是租约里写明的两方。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "A hand closes around a key to a flat that belongs to another person.",
+          "cn": "一只手握住一套不属于自己的房子的钥匙，画面突出「持有而不拥有」。"
+        },
+        {
+          "en": "A family lives month to month in a house with no written contract.",
+          "cn": "一家人按月住在一栋没有书面合同的房子里，对应无固定期限的占用人。"
+        },
+        {
+          "en": "Two people each hold one half of the same house, neither owning a fixed room.",
+          "cn": "两个人各握同一栋房子的一半，谁都没有固定的一间房，对应按份共有。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "The tenant must pay the rent on the first day of each month.",
+        "cn": "承租人必须在每月第一天支付租金。"
+      },
+      {
+        "en": "A landlord may not enter the premises without notice to the tenant.",
+        "cn": "房东未通知承租人不得进入房屋。"
+      },
+      {
+        "en": "Each tenant in common may sell an undivided share of the property.",
+        "cn": "每位按份共有人都可以出售自己那份不可分割的房产份额。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「ten + ant」——十只蚂蚁搬进别人的房子住下不走，就成了租户；这只是拆词联想，与词源无关。",
+      "word": "tenant"
+    },
+    "root": "拉丁语 tenere（持有、握持）→ 分词 tenens（持有者）→ 古法语 tenir 的分词 tenant（持有者）→ 英语 tenant，核心义「持有他人土地或房产的人」。",
+    "sensesIntro": {
+      "en": "Tenant starts as the leaseholder, widens to any occupier of premises, and finally covers a co-owner who holds an undivided share.",
+      "cn": "tenant 先指按租约持有房产的承租人，再扩展到没有书面租约的占用人，最后指按份共有中持有份额的共有人。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: a key held in the hand of someone who does not own the building.",
+        "cn": "核心意象：钥匙握在不拥有这栋房子的人手里。"
+      },
+      "chain": [
+        "HOLD",
+        "HOLDING",
+        "HOLD FROM ANOTHER",
+        "LEASE",
+        "OCCUPANCY",
+        "SHARED HOLDING"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "The leaseholder is the core legal sense of the word.",
+          "cn": "承租人这个词的核心法律义项，就是按租约持有房产的一方。"
+        },
+        {
+          "senses": "02",
+          "en": "Occupation without a written lease is the looser, practical sense.",
+          "cn": "没有书面租约的占用，是更宽松、更贴近实际的一层义项。"
+        },
+        {
+          "senses": "03",
+          "en": "A co-owner holding an undivided share is the property-law extension.",
+          "cn": "持有不可分割份额的共有人，是物权法方向的延伸义项。"
+        },
+        {
+          "senses": "01 · 02",
+          "en": "Both senses describe someone in possession of premises owned by another.",
+          "cn": "这两个义项都描述「占着别人名下房产」的人，只是有无合同不同。"
+        },
+        {
+          "senses": "02 · 03",
+          "en": "Both rest on holding rather than owning, which is the shared core.",
+          "cn": "两者都落在「持有」而不是「所有」上，这正是共同的核心。"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Tenant is built on the Latin hold family, with tenere, tenens, tenancy, tenure, and tenement around it.",
+        "cn": "tenant 建在拉丁语「持有」词族上，周围有 tenere、tenens、tenancy、tenure 与 tenement。"
+      },
+      "latinIntro": {
+        "en": "Latin tenere means to hold, and its participle tenens names the one who holds.",
+        "cn": "拉丁语 tenere 意为持有，其分词 tenens 指持有者。"
+      },
+      "items": [
+        {
+          "word": "tenere",
+          "structure": "Latin verb",
+          "meaning": "to hold, to keep",
+          "meaningCN": "持有；握持",
+          "example": "Tenere is the source of the whole family.",
+          "exampleCN": "tenere 是整个词族的来源。"
+        },
+        {
+          "word": "tenens",
+          "structure": "Latin participle",
+          "meaning": "holding",
+          "meaningCN": "持有着的",
+          "example": "The participle supplies the image of a holder.",
+          "exampleCN": "这一分词提供了「持有者」的意象。"
+        },
+        {
+          "word": "tenir",
+          "structure": "Old French verb",
+          "meaning": "to hold",
+          "meaningCN": "持有",
+          "example": "Tenir carries the Latin verb into French.",
+          "exampleCN": "tenir 把拉丁语动词带进法语。"
+        },
+        {
+          "word": "-ant",
+          "structure": "Latin suffix",
+          "meaning": "one who does",
+          "meaningCN": "表「做某事的人」",
+          "example": "The suffix -ant turns a participle into a person noun.",
+          "exampleCN": "后缀 -ant 把分词变成指人的名词。"
+        },
+        {
+          "word": "tenant",
+          "structure": "English noun",
+          "meaning": "one who holds a lease",
+          "meaningCN": "承租人",
+          "example": "Tenant is the everyday legal noun.",
+          "exampleCN": "tenant 是日常使用的法律名词。"
+        },
+        {
+          "word": "tenancy",
+          "structure": "English noun",
+          "meaning": "the holding of rented property",
+          "meaningCN": "租赁；租期",
+          "example": "Tenancy names the holding itself.",
+          "exampleCN": "tenancy 指持有租赁房产这件事。"
+        },
+        {
+          "word": "tenure",
+          "structure": "English noun",
+          "meaning": "the way land or office is held",
+          "meaningCN": "保有方式；任期",
+          "example": "Tenure describes how the holding is held.",
+          "exampleCN": "tenure 描述持有采取的方式。"
+        },
+        {
+          "word": "tenement",
+          "structure": "English noun",
+          "meaning": "a rented dwelling or divided building",
+          "meaningCN": "出租住宅；分租楼宇",
+          "example": "Tenement keeps the older sense of a holding.",
+          "exampleCN": "tenement 保留「保有物」的旧义。"
+        },
+        {
+          "word": "tenantable",
+          "structure": "English adjective",
+          "meaning": "fit to be rented",
+          "meaningCN": "可出租的；适宜租住的",
+          "example": "Tenantable describes housing fit for tenants.",
+          "exampleCN": "tenantable 描述适合租户居住的房屋。"
+        },
+        {
+          "word": "tenantless",
+          "structure": "English adjective",
+          "meaning": "without tenants",
+          "meaningCN": "无人租住的",
+          "example": "Tenantless means standing empty of renters.",
+          "exampleCN": "tenantless 表示没有租户入住。"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "tenere",
+          "structure": "Latin verb",
+          "meaning": "to hold",
+          "meaningCN": "持有"
+        },
+        {
+          "word": "tenens",
+          "structure": "Latin participle",
+          "meaning": "holding",
+          "meaningCN": "持有着的"
+        },
+        {
+          "word": "tenementum",
+          "structure": "Medieval Latin noun",
+          "meaning": "a holding of land",
+          "meaningCN": "土地的保有；保有物"
+        }
+      ]
+    }
+  },
+  {
+    "word": "notary",
+    "ipa_uk": "/ˈnəʊtəri/",
+    "ipa_us": "/ˈnoʊtəri/",
+    "definition_zh": "公证人；公证员",
+    "definition_en": "a public officer who witnesses signatures and certifies documents so that others can rely on them",
+    "core_image": "一枚印章压在纸上：为这份文书的真实性留下一个被官方承认的标记",
+    "scene": "签授权书那天，双方请来一位公证人核对身份。On the day the power of attorney was signed, the parties asked a notary to check their identity.",
+    "sceneCN": "这里 notary 是「公证人」（第 1 个义项：依法见证签署并证明文书真实的公职人员）；句意：签授权书那天，双方请来公证人核对身份。",
+    "pos": [
+      {
+        "tag": "n.",
+        "zh": "公证人；公证员"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "notary public",
+        "zh": "公证人（正式头衔）"
+      },
+      {
+        "phrase": "before a notary",
+        "zh": "在公证人面前"
+      },
+      {
+        "phrase": "notary seal",
+        "zh": "公证印章"
+      },
+      {
+        "phrase": "sworn before a notary",
+        "zh": "在公证人面前宣誓"
+      },
+      {
+        "phrase": "notary public office",
+        "zh": "公证处"
+      }
+    ],
+    "forms": [
+      {
+        "label": "复数",
+        "form": "notaries"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "notarial",
+        "pos": "adj.",
+        "zh": "由 notary 加形容词后缀 -ial 构成，义为「公证的；公证人的」"
+      },
+      {
+        "word": "notarize",
+        "pos": "v.",
+        "zh": "由 notary 加动词后缀 -ize 构成，义为「对……办理公证；公证」"
+      },
+      {
+        "word": "notarization",
+        "pos": "n.",
+        "zh": "由 notarize 加 -ation 构成，义为「公证行为；公证手续」"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "A public officer who certifies documents",
+        "titleCN": "公证人；公证员",
+        "definition": "a public officer, often a lawyer, who witnesses signatures and certifies the authenticity of documents",
+        "definitionCN": "通常是律师的公职人员，见证签署并证明文书的真实性",
+        "example": "The deed was acknowledged before a notary public.",
+        "exampleCN": "这份契据在公证人面前得到确认。",
+        "why": "Latin notarius was a clerk who wrote marks and records, and that office grew into a public certifier.",
+        "whyCN": "拉丁语 notarius 本是把要点记成记号与文书的书记，这个职务后来长成替公众作证明的人。"
+      },
+      {
+        "no": "02",
+        "title": "A civil-law officer who drafts and authenticates instruments",
+        "titleCN": "大陆法系公证人",
+        "definition": "in civil-law countries, an officer with a legal monopoly to draft and authenticate contracts, wills, and other instruments",
+        "definitionCN": "在大陆法系国家依法专职起草并认证合同、遗嘱等文书的官员",
+        "example": "In many civil-law countries a notary authenticates the sale of a house.",
+        "exampleCN": "在许多大陆法系国家，公证人负责认证房屋买卖。",
+        "why": "The continental office kept the Latin clerk role and added a state-backed monopoly over formal deeds.",
+        "whyCN": "欧洲大陆的公证职务保留了拉丁书记的写作职能，又加上国家对正式文书的专营授权，于是义项从「记录」偏向「起草并认证」。"
+      },
+      {
+        "no": "03",
+        "title": "A clerk who writes records",
+        "titleCN": "书记；记录员",
+        "definition": "historical: a clerk or secretary whose work was to write notes and keep records",
+        "definitionCN": "历史上的书记员或秘书，工作是记下要点并保存档案",
+        "example": "The notary of the guild kept the minutes of every meeting.",
+        "exampleCN": "行会的书记保存每次会议的记录。",
+        "why": "The oldest sense is simply the person who writes marks and notes, before the office became a public trust.",
+        "whyCN": "最古老的义项只是「写下记号与要点的人」，先有写字记录的人，才有后来被公众信任的证明职务。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Notary goes back to Latin nota, a mark, and notarius, the clerk who wrote marks and notes.",
+        "cn": "notary 可追到拉丁语 nota（记号）与 notarius（写下记号与要点的书记）。"
+      },
+      "items": [
+        {
+          "era": "LATIN",
+          "en": "Nota means a mark, a sign, or a written character.",
+          "cn": "nota 意为记号、标记或写下的字符。"
+        },
+        {
+          "era": "LATIN",
+          "en": "Notare means to mark or note something down in writing.",
+          "cn": "notare 意为作标记、把某事记下来。"
+        },
+        {
+          "era": "LATIN",
+          "en": "Notarius is the clerk or shorthand writer who makes such marks.",
+          "cn": "notarius 是作这类记号、速记要点的书记。"
+        },
+        {
+          "era": "OLD FRENCH",
+          "en": "Notaire carries the office and the title into French.",
+          "cn": "notaire 把这个职务与头衔带进法语。"
+        },
+        {
+          "era": "MIDDLE ENGLISH",
+          "en": "Notarie names a clerk or a public writer in English records.",
+          "cn": "中古英语 notarie 指书记，也指受雇代写文书的人。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "Notary public becomes the fixed title of the certifying officer.",
+          "cn": "现代英语中 notary public 成为这类证明官员的固定头衔。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "Notary belongs to the Latin mark family and sits beside the words for sworn statements and formal proof.",
+        "cn": "notary 属于拉丁语「标记」词族，与宣誓陈述和正式证明的词相邻。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "notarial",
+              "ipa": "/nəʊˈteəriəl/",
+              "tag": "derived adjective",
+              "definition": "relating to a notary or to notarization",
+              "definitionCN": "与公证人或公证行为有关的"
+            },
+            {
+              "word": "notarize",
+              "ipa": "/ˈnəʊtəraɪz/",
+              "tag": "derived verb",
+              "definition": "to have a document certified by a notary",
+              "definitionCN": "由公证人对文书办理公证"
+            },
+            {
+              "word": "notation",
+              "ipa": "/nəʊˈteɪʃn/",
+              "tag": "same root",
+              "definition": "a system of written marks or symbols",
+              "definitionCN": "记号法；符号系统（同出 nota 一源）"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "affidavit",
+              "ipa": "/əˈfɪdəvɪt/",
+              "tag": "near meaning, legal",
+              "definition": "a written statement sworn before an officer",
+              "definitionCN": "在官员面前宣誓后作出的书面陈述；宣誓书"
+            },
+            {
+              "word": "attest",
+              "ipa": "/əˈtest/",
+              "tag": "near meaning",
+              "definition": "to witness and confirm something formally",
+              "definitionCN": "正式见证并确认某事"
+            },
+            {
+              "word": "certify",
+              "ipa": "/ˈsɜːtɪfaɪ/",
+              "tag": "near meaning",
+              "definition": "to state officially that something is true or correct",
+              "definitionCN": "官方证明某事真实或正确"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Notary grows from Latin nota, a mark: the office began with the person who wrote marks and notes.",
+        "cn": "notary 长自拉丁语 nota（记号）：这个职务最初就是写下记号与要点的人。"
+      },
+      "normal": [
+        {
+          "en": "Nota means a mark, and notarius was the clerk who wrote such marks.",
+          "cn": "nota 意为记号，notarius 就是写这类记号的书记。"
+        },
+        {
+          "en": "Notarial is the adjective and notarize is the verb of the same family.",
+          "cn": "notarial 是同族的形容词，notarize 是同族的动词。"
+        },
+        {
+          "en": "The full English title is notary public, not merely notary.",
+          "cn": "英语里的完整头衔是「notary public」，而不只是 notary。"
+        },
+        {
+          "en": "A notary seal marks a document as certified.",
+          "cn": "「notary seal」把一份文书标记为已公证。"
+        },
+        {
+          "en": "Civil-law notaries draft deeds as well as certify them.",
+          "cn": "大陆法系的公证人既起草也认证契据。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "A stamp presses a raised seal onto a sheet of paper, leaving a mark anyone can check.",
+          "cn": "一枚印章压出一圈凸起的印痕，留下人人可查的标记，对应第 1 个义项的证明职能。"
+        },
+        {
+          "en": "An officer in a civil-law city reads a will aloud and signs it for the state.",
+          "cn": "大陆法系城市里，一位官员朗读遗嘱并代表国家签字，对应公证人的起草与认证职能。"
+        },
+        {
+          "en": "A clerk with an ink pen writes down what was said, mark after mark.",
+          "cn": "一位书记用墨水笔把听到的话一行行记下，对应最古老的记录义项。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "The notary public certified the signature on the deed.",
+        "cn": "公证人对契据上的签名作了认证。"
+      },
+      {
+        "en": "The parties signed the lease before a notary.",
+        "cn": "双方在公证人面前签署了租约。"
+      },
+      {
+        "en": "The notary kept a copy of each act in the office.",
+        "cn": "公证人在事务所里保存每一份文书的副本。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「诺特瑞」——名字里带一个「诺」，一诺千金，由他在场替你作证；这只是谐音联想，与词源无关。",
+      "word": "notary"
+    },
+    "root": "拉丁语 nota（记号、标记）→ notare（作标记）→ notarius（记录员、书记）→ 古法语 notaire → 英语 notary，核心义「作标记并把话记下来的人」。",
+    "sensesIntro": {
+      "en": "Notary begins as a clerk who writes marks, becomes the civil-law officer who drafts deeds, and in English settles as the public certifier of documents.",
+      "cn": "notary 先指写下记号的书记，再指大陆法系起草契据的官员，英语里最终落定为替公众认证文书的公证人。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: an official seal pressed onto a document to mark it as verified.",
+        "cn": "核心意象：一枚公章压上文书，为它打上可核验的标记。"
+      },
+      "chain": [
+        "MARK",
+        "NOTE",
+        "WRITTEN RECORD",
+        "CLERK",
+        "PUBLIC OFFICE",
+        "AUTHENTICATION"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "The public certifier of signatures is the modern core sense.",
+          "cn": "替公众认证签名，是现代最核心的义项。"
+        },
+        {
+          "senses": "02",
+          "en": "The civil-law officer adds drafting power to the certifying role.",
+          "cn": "大陆法系公证人在认证之外又加上起草文书的权力。"
+        },
+        {
+          "senses": "03",
+          "en": "The historical clerk is the sense closest to the Latin source.",
+          "cn": "历史上的书记义项，离拉丁语词源最近。"
+        },
+        {
+          "senses": "01 · 03",
+          "en": "Both senses are offices of writing, one public and one private.",
+          "cn": "两个义项都是「与文字打交道」的职务，只是一个为公众、一个为私人。"
+        },
+        {
+          "senses": "02 · 01",
+          "en": "Both certify authenticity, but only the civil-law officer drafts the deed.",
+          "cn": "两者都认证真实性，但只有大陆法系公证人亲自起草契据。"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Notary rests on the Latin mark family: nota, notare, notarius, with notarial and notarize built in English.",
+        "cn": "notary 建立在拉丁语「标记」词族上：nota、notare、notarius，英语里又造出 notarial 与 notarize。"
+      },
+      "latinIntro": {
+        "en": "Latin nota means a mark, notare means to mark, and notarius is the clerk who writes marks.",
+        "cn": "拉丁语 nota 意为记号，notare 意为作标记，notarius 是写下记号的书记。"
+      },
+      "items": [
+        {
+          "word": "nota",
+          "structure": "Latin noun",
+          "meaning": "a mark, a sign",
+          "meaningCN": "记号；标记",
+          "example": "Nota gives the family its core image of a mark.",
+          "exampleCN": "nota 给这个词族提供「标记」的核心意象。"
+        },
+        {
+          "word": "notare",
+          "structure": "Latin verb",
+          "meaning": "to mark, to note",
+          "meaningCN": "作标记；记录",
+          "example": "Notare turns the mark into an act of writing.",
+          "exampleCN": "notare 把记号变成写作的动作。"
+        },
+        {
+          "word": "notarius",
+          "structure": "Latin noun",
+          "meaning": "a clerk, a shorthand writer",
+          "meaningCN": "书记员；速记员",
+          "example": "Notarius is the person behind the office.",
+          "exampleCN": "notarius 就是这一职务背后的人。"
+        },
+        {
+          "word": "-ary",
+          "structure": "Latin suffix",
+          "meaning": "a person connected with",
+          "meaningCN": "表「与……相关的人」",
+          "example": "The suffix -ary forms person nouns from stems.",
+          "exampleCN": "后缀 -ary 从词干构成指人的名词。"
+        },
+        {
+          "word": "notary",
+          "structure": "English noun",
+          "meaning": "a public certifying officer",
+          "meaningCN": "公证人",
+          "example": "Notary is the shortened everyday title.",
+          "exampleCN": "notary 是日常使用的简称。"
+        },
+        {
+          "word": "notarial",
+          "structure": "English adjective",
+          "meaning": "relating to a notary",
+          "meaningCN": "公证的；公证人的",
+          "example": "Notarial describes acts done before a notary.",
+          "exampleCN": "notarial 描述在公证人面前完成的行为。"
+        },
+        {
+          "word": "notarize",
+          "structure": "English verb",
+          "meaning": "to certify by a notary",
+          "meaningCN": "办理公证；公证",
+          "example": "Notarize turns the office into an action.",
+          "exampleCN": "notarize 把这一职务变成一个动作。"
+        },
+        {
+          "word": "notarization",
+          "structure": "English noun",
+          "meaning": "the act of notarizing",
+          "meaningCN": "公证行为；公证手续",
+          "example": "Notarization names the completed procedure.",
+          "exampleCN": "notarization 指完成后的公证手续。"
+        },
+        {
+          "word": "notarized",
+          "structure": "English adjective",
+          "meaning": "certified by a notary",
+          "meaningCN": "经公证的",
+          "example": "Notarized marks a document as already certified.",
+          "exampleCN": "notarized 标记一份文书已经公证。"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "nota",
+          "structure": "Latin noun",
+          "meaning": "a mark, a sign",
+          "meaningCN": "记号；标记"
+        },
+        {
+          "word": "notare",
+          "structure": "Latin verb",
+          "meaning": "to mark",
+          "meaningCN": "作标记"
+        },
+        {
+          "word": "notarius",
+          "structure": "Latin noun",
+          "meaning": "a clerk, a shorthand writer",
+          "meaningCN": "书记员；速记员"
+        }
+      ]
+    }
+  }
+]
