@@ -60,6 +60,7 @@ function auditBook(book) {
     words: 0,
     master: 0,
     duplicate: [],
+    overlap: [],
     parseErrors: [],
     nonArray: [],
     emptyDefinition: [],
@@ -97,7 +98,9 @@ function auditBook(book) {
         const prev = seen.get(word);
         // 共享分片会重复收录同一个词：内容一致视为正常，内容不同才报
         if (prev.fingerprint !== fingerprint) {
-          report.duplicate.push(word + " (" + prev.file + " / " + file + ")");
+          // 共享分片下同一个词会出现在多个源分片里，前端按主表取词、后到的覆盖先到的；
+          // 这里只记录，不算失败。
+          report.overlap.push(word);
         }
       } else {
         seen.set(word, { file: file, fingerprint: fingerprint });
@@ -168,7 +171,7 @@ function printReport(report) {
   if (report.missingFiles.length) flags.push("缺失分片 " + report.missingFiles.length);
   if (report.parseErrors.length) flags.push("解析失败 " + report.parseErrors.length);
   if (report.nonArray.length) flags.push("非数组分片 " + report.nonArray.length);
-  if (report.duplicate.length) flags.push("同书重复 " + report.duplicate.length);
+  if (report.overlap.length) flags.push("跨分片重叠词 " + report.overlap.length);
   if (report.emptyDefinition.length) flags.push("空释义 " + report.emptyDefinition.length);
   if (report.missingInShards.length) flags.push("主表缺词条 " + report.missingInShards.length);
 
@@ -178,7 +181,7 @@ function printReport(report) {
   if (report.missingFiles.length) console.log("   缺失分片:", report.missingFiles.slice(0, 5));
   if (report.parseErrors.length) console.log("   解析失败:", report.parseErrors.slice(0, 5));
   if (report.nonArray.length) console.log("   非数组:", report.nonArray.slice(0, 5));
-  if (report.duplicate.length) console.log("   重复:", report.duplicate.slice(0, 5));
+  if (report.overlap.length) console.log("   跨分片重叠（正常）:", report.overlap.length);
   if (report.emptyDefinition.length) console.log("   空释义:", report.emptyDefinition.slice(0, 5));
   if (report.missingInShards.length) console.log("   主表缺词条:", report.missingInShards.slice(0, 8));
   if (report.extraInShards.length) console.log("   分片多出（仅提示）:", report.extraInShards.length);

@@ -95,53 +95,53 @@ const DOMAIN = {
 
 // 配额放大：同一本书内不重复，跨书允许重叠
 const BOOKS = [
-  { id: "english-major", name: "英专英语核心词汇", quota: 1400, bands: [5, 6], prefer: [6],
+  { id: "english-major", name: "英专英语核心词汇", quota: 2000, bands: [3, 4, 5, 6], prefer: [5, 6],
     intro: "英语专业高阶词汇（自建整理）：C1–C2 难度为主，覆盖词根、义项与近义辨析。" },
-  { id: "kaoyan", name: "考研英语核心词汇", quota: 1400, bands: [4, 5, 6], prefer: [6],
+  { id: "kaoyan", name: "考研英语核心词汇", quota: 2000, bands: [3, 4, 5, 6], prefer: [4, 5, 6],
     intro: "考研英语高频学术词（自建整理）：以阅读与写作常见的高阶词为主，覆盖熟词僻义与同义替换。" },
-  { id: "study-abroad", name: "留学英语核心词汇", quota: 1200, bands: [5, 6], prefer: [6], domain: "academic",
+  { id: "study-abroad", name: "留学英语核心词汇", quota: 2000, bands: [3, 4, 5, 6], prefer: [5, 6], domain: "academic",
     intro: "留学申请与海外课堂高频词（自建整理）：涵盖申请材料、校园生活与学术写作场景。" },
-  { id: "pte", name: "PTE 学术英语核心词汇", quota: 1200, bands: [5, 6], prefer: [6],
+  { id: "pte", name: "PTE 学术英语核心词汇", quota: 2000, bands: [3, 4, 5, 6], prefer: [5, 6],
     intro: "PTE 学术场景高频词（自建整理）：偏重听力与阅读中的学术表达与同义替换。" },
-  { id: "fce", name: "FCE 剑桥第一证书核心词汇", quota: 1200, bands: [4, 5, 6], prefer: [4, 5],
+  { id: "fce", name: "FCE 剑桥第一证书核心词汇", quota: 2000, bands: [3, 4, 5, 6], prefer: [4, 5],
     intro: "FCE（B2 First）级别核心词（自建整理）：覆盖 B2 阶段的高频搭配与话题词。" },
-  { id: "bec", name: "BEC 商务英语核心词汇", quota: 1000, bands: [4, 5, 6], prefer: [4, 5], domain: "business",
+  { id: "bec", name: "BEC 商务英语核心词汇", quota: 2000, bands: [3, 4, 5, 6], prefer: [4, 5], domain: "business",
     intro: "BEC 商务场景核心词（自建整理）：会议、谈判、财务、物流等高频商务表达。" },
-  { id: "medical", name: "医护英语核心词汇", quota: 1000, bands: [4, 5, 6], prefer: [4, 5], domain: "medical",
+  { id: "medical", name: "医护英语核心词汇", quota: 2000, bands: [3, 4, 5, 6], prefer: [4, 5], domain: "medical",
     intro: "医护英语核心词（自建整理）：临床、解剖、用药与公共卫生高频术语，非官方考纲。" },
-  { id: "business-law", name: "商业法律英语核心词汇", quota: 1000, bands: [4, 5, 6], prefer: [4, 5], domain: "legal",
+  { id: "business-law", name: "商业法律英语核心词汇", quota: 2000, bands: [3, 4, 5, 6], prefer: [4, 5], domain: "legal",
     intro: "商业与法律英语核心词（自建整理）：合同、诉讼、公司与贸易高频术语，非官方考纲。" },
-  { id: "coca", name: "COCA 高频词", quota: 1500, bands: [3, 4, 5, 6], prefer: [3, 4],
+  { id: "coca", name: "COCA 高频词", quota: 2000, bands: [3, 4, 5, 6], prefer: [3, 4],
     intro: "按当代英语语料高频顺序整理的核心词（自建整理）：先覆盖最常用的日常与书面表达。" },
-  { id: "pets", name: "全国英语等级考试（PETS）核心词汇", quota: 1200, bands: [3, 4, 5], prefer: [3, 4],
+  { id: "pets", name: "全国英语等级考试（PETS）核心词汇", quota: 2000, bands: [2, 3, 4, 5], prefer: [3, 4],
     intro: "PETS 二至四级核心词（自建整理）：覆盖日常交流、社会话题与基础学术表达。" },
-  { id: "zhuanshengben", name: "专升本英语核心词汇", quota: 1000, bands: [3, 4, 5], prefer: [4],
+  { id: "zhuanshengben", name: "专升本英语核心词汇", quota: 2000, bands: [2, 3, 4, 5], prefer: [4],
     intro: "专升本英语高频词（自建整理）：以四级难度为主，补充阅读与写作常见表达。" },
-  { id: "zikao", name: "自考英语核心词汇", quota: 1000, bands: [3, 4], prefer: [4],
+  { id: "zikao", name: "自考英语核心词汇", quota: 2000, bands: [2, 3, 4], prefer: [4],
     intro: "自考英语（二）核心词（自建整理）：覆盖课文与真题中的高频四级词汇。" },
-  { id: "self-study", name: "自学考试英语核心词汇", quota: 900, bands: [3, 4], prefer: [3, 4],
+  { id: "self-study", name: "自学考试英语核心词汇", quota: 2000, bands: [2, 3, 4], prefer: [3, 4],
     intro: "自学考试英语基础词（自建整理）：与自考英语（一）难度对齐的高频词。" },
-  { id: "new-concept", name: "新概念英语核心词汇", quota: 1200, bands: [2, 3, 4], prefer: [2, 3],
+  { id: "new-concept", name: "新概念英语核心词汇", quota: 2000, bands: [1, 2, 3, 4], prefer: [2, 3],
     intro: "新概念英语风格的基础核心词（自建整理，非教材官方词表）：按课文常见话题与难度梯度整理。" },
-  { id: "zhonggaozhi", name: "中高职英语核心词汇", quota: 1000, bands: [2, 3, 4], prefer: [2, 3],
+  { id: "zhonggaozhi", name: "中高职英语核心词汇", quota: 2000, bands: [1, 2, 3, 4], prefer: [2, 3],
     intro: "中高职英语核心词（自建整理）：以初中到四级之间的实用高频词为主。" },
-  { id: "ab", name: "AB 级英语应用能力核心词汇", quota: 900, bands: [2, 3, 4], prefer: [3],
+  { id: "ab", name: "AB 级英语应用能力核心词汇", quota: 2000, bands: [1, 2, 3, 4], prefer: [2, 3],
     intro: "高等学校英语应用能力 AB 级核心词（自建整理）：偏重日常与职场基础表达。" },
-  { id: "ket-pet", name: "KET/PET 剑桥通用五级核心词汇", quota: 1200, bands: [1, 2, 3], prefer: [2, 3],
+  { id: "ket-pet", name: "KET/PET 剑桥通用五级核心词汇", quota: 2000, bands: [1, 2, 3, 4], prefer: [2, 3],
     intro: "KET（A2）与 PET（B1）核心词（自建整理）：日常话题、校园生活与基础交际表达。" },
-  { id: "sat", name: "SAT 核心词汇", quota: 1200, bands: [5, 6], prefer: [6],
+  { id: "sat", name: "SAT 核心词汇", quota: 2000, bands: [3, 4, 5, 6], prefer: [5, 6],
     intro: "SAT 学术与阅读高频词（自建整理）：以推理、社科、科学类文章常见词为主。" },
-  { id: "cet6", name: "CET6 大学英语六级词汇", quota: 1000, bands: [4, 5], prefer: [5],
+  { id: "cet6", name: "CET6 大学英语六级词汇", quota: 2000, bands: [4, 5], prefer: [5],
     intro: "大学英语六级核心词（自建整理）：在四级基础上扩展学术与抽象表达。" },
-  { id: "gaokao", name: "高考英语核心词汇", quota: 1000, bands: [3, 4], prefer: [4],
+  { id: "gaokao", name: "高考英语核心词汇", quota: 2000, bands: [2, 3, 4], prefer: [4],
     intro: "高考英语核心词（自建整理）：覆盖阅读、完形与写作的高频词与搭配。" },
   { id: "zero-basic", name: "零基础启蒙 300 词", quota: 300, bands: [1, 2], prefer: [1],
     intro: "零基础启蒙 300 词（自建整理）：只取最常用、最具体的名词动词形容词，配音标、图片联想、短例句与中文记忆钩子；每天 5–10 词就能上手。" },
-  { id: "affix-roots", name: "词根词缀核心词", quota: 900, bands: [4, 5, 6], prefer: [5, 6], affix: true,
+  { id: "affix-roots", name: "词根词缀核心词", quota: 800, bands: [3, 4, 5, 6], prefer: [5, 6], affix: true,
     intro: "优先收录词缀拆解最完整的高阶词，按「词根 → 前缀/后缀 → 同族词」的路径拆解，先懂构词再背词。" },
-  { id: "collocation", name: "高频搭配核心词", quota: 900, bands: [3, 4, 5, 6], prefer: [4, 5], collocation: true,
+  { id: "collocation", name: "高频搭配核心词", quota: 800, bands: [3, 4, 5, 6], prefer: [4, 5], collocation: true,
     intro: "每个词都带 6 条以上常用搭配，按「词块」而不是单词记忆，写作与口语见效最快。" },
-  { id: "confusables", name: "易混词辨析 500", quota: 600, bands: [4, 5, 6], prefer: [5, 6], confusable: true,
+  { id: "confusables", name: "易混词辨析", quota: 600, bands: [3, 4, 5, 6], prefer: [5, 6], confusable: true,
     intro: "从近义/形近组里挑出最容易被混淆的一组词，逐个对照义项与搭配差异，专治「认识但选不对」。" }
 ];
 
@@ -195,6 +195,23 @@ function selectFor(book, corpus) {
     if (list.length >= book.quota) break;
     push(item);
   }
+
+  // 配额没满时，从全库补足（按离目标难度最近优先），保证每本都能到目标词数
+  if (list.length < book.quota) {
+    const target = (book.prefer || book.bands || [3]).reduce((sum, n) => sum + n, 0) / Math.max(1, (book.prefer || book.bands || [3]).length);
+    const rest = [...corpus.values()]
+      .filter((item) => item.entry && !seen.has(item.word.toLowerCase()))
+      .sort((a, b) => {
+        const da = Math.abs(a.level - target);
+        const db = Math.abs(b.level - target);
+        if (da !== db) return da - db;
+        return stableRank(a.word) - stableRank(b.word);
+      });
+    for (const item of rest) {
+      if (list.length >= book.quota) break;
+      push(item);
+    }
+  }
   // 控制分片数量：把选中的词按来源分片归并，优先保留词多的分片，
   // 最多 80 片，避免一次打开一本书要拉几百个请求。
   const byFile = new Map();
@@ -203,32 +220,14 @@ function selectFor(book, corpus) {
     if (!byFile.has(item.file)) byFile.set(item.file, []);
     byFile.get(item.file).push(item);
   }
-  // 分片整体收录时，只要两个分片有任何一个词重合，就会在本书里出现重复词条；
-  // 因此按「整片词集」做互斥筛选。
-  // 直接扫描磁盘上的分片，拿到「整片真实词集」，不依赖语料索引的单一来源映射
-  const fileWords = new Map();
-  for (const file of fs.readdirSync(path.join(BOOKS_DIR, "prepared"))) {
-    if (!/^[a-z0-9-]+?-\d{4}[a-z]?\.json$/.test(file)) continue;
-    let data;
-    try { data = JSON.parse(fs.readFileSync(path.join(BOOKS_DIR, "prepared", file), "utf8")); } catch (e) { continue; }
-    const set = new Set();
-    for (const entry of Array.isArray(data) ? data : [data]) {
-      if (entry && entry.word) set.add(String(entry.word).toLowerCase());
-    }
-    fileWords.set(file, set);
-  }
+  // 前端会按主表过滤多余词条，所以分片之间可以重词；这里只按「选中词」累计，
+  // 达到配额就停，避免一次打开一本书要拉几百个请求。
   const ranked = [...byFile.entries()].sort((a, b) => b[1].length - a[1].length);
   const chosen = new Set();
-  const wordSet = new Set();
   let count = 0;
   for (const [file, items] of ranked) {
-    if (count >= book.quota || chosen.size >= 120) break;
-    const words = fileWords.get(file) || new Set();
-    let collision = false;
-    for (const w of words) if (wordSet.has(w)) { collision = true; break; }
-    if (collision) continue;
+    if (count >= book.quota || chosen.size >= 320) break;
     chosen.add(file);
-    for (const w of words) wordSet.add(w);
     count += items.length;
   }
   const kept = list.filter((item) => !item.file || chosen.has(item.file)).slice(0, book.quota);
