@@ -334,6 +334,36 @@ curl -sI https://hcc9886.github.io/LIZZWORD/books/ielts.json | head -1   # 实�
 
 ---
 
+## 9.5 「写」阶段意群拼装（已实现）
+
+文件：`books/lizz/assembly.js`（独立模块，无第三方依赖）+ `index.html` 的 `renderWrite` 改造。
+
+### 四级选句（任何一步失败都不阻断流程）
+
+1. **共享语境句库**：优先读宿主注入的 `window.LZ_SHARED_SENTENCES`，其次读本地 `sentence_index` 缓存，最后尝试 `fetch LIZZREAD/sentences/index.json`（不存在就跳过）。
+2. **22 字段词条抽取**：扫 `examples[]`、`senses[].example`、`scene`，要求包含目标词 lemma、8–20 词，转成标准 Sentence，写 `sentence_cache`（`source=curated_word_entry`）。
+3. **在线生成**：只在配置了 `LZAssembly.setLLM(fn)` 且在线时调用；约束「只输出 JSON、含 lemma、8–20 词、2–5 意群、给中文」；校验失败重试一次，仍失败返回 null。
+4. **回退整词拼写**：以上都不可用，走原「写」阶段输入框，流程不中断。
+
+### 存储（IndexedDB `lizzword_local`，无 IDB 时自动降级 localStorage）
+
+- `sentence_cache`：抽取句 + 生成句，按 lemma 复用，不重复生成。
+- `sentence_index`：lemma → sentence_id 倒排缓存。
+- `assembly_queue`：拼装卡（`card_id = asm_<lemma>_<sentence_id>`），独立调度，**绝不写单词卡 FSRS**。
+
+### 判定与错误分流
+
+- `judgeAndRoute(userChunks, targetChunks, lemma)`：目标词或块内单词拼错 → `route="spelling"`，回到原拼写反馈；语序/搭配/词形 → `route="assembly"`，写 `assembly_queue` 与 `context_weakness`。
+- 粒度自适应 `nextGranularity`：默认 coarse（2–3 块），连续两次 again 或搭配错 → fine（4–5 块），连续两次 easy → whole。
+- UI 始终提供「只拼这个词」退路；离线不调用 LLM，只用缓存与抽取句。
+
+### 验收（当前状态）
+
+- 有 22 字段例句的词 → 拼装（已用 `depend` 端到端模拟通过）。
+- 无合适例句且无共享句 → 回退整词拼写（代码路径已覆盖）。
+- 拼装错误只进独立队列，单词卡进度不变（`submitAssembly` 里不调用 `bumpStageWrong`）。
+- 句子缓存命中后 `sentence_id` 不变（已验证复用）。
+
 ## 10. 免费与付费（2026-11-21 决策版）
 
 ### 10.1 已定调的三件事（用户拍板）
