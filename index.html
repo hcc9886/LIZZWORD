@@ -11885,6 +11885,7 @@
     // 18. 专项练习（例句填空 / 形近辨析 / 词根拆解）+ 错词本
     // ============================================================
     const WRONG_KEY = "lizzword_wrong_v1";
+    let asmReview = null;
     let drill = null;
 
     function wrongBookLoad() {
@@ -12095,7 +12096,64 @@
             <button type="button" class="btn-primary" data-enter="drill">专项练习</button>
             <button type="button" class="btn-ghost" data-wrong-clear>清空错词本</button>
           </div>
+        </section>
+        ${asmReview ? asmReviewHTML() : `<section class="asm-review-entry">
+          <p class="drill-sub">拼装队列：把「写」阶段拼错的句子单独复习，不影响单词卡进度。</p>
+          <button type="button" class="btn-primary" data-asm-review-open>打开句子复习</button>
+        </section>`}`;
+    }
+
+
+    // ---------- 句子复习（独立于单词卡的拼装队列） ----------
+    function asmReviewHTML() {
+      const item = asmReview;
+      if (!item) return "";
+      if (item.loading) return `<section class="asm-review-entry"><p class="drill-sub">正在读取拼装队列…</p></section>`;
+      if (item.empty) return `<section class="asm-review-entry"><p class="drill-sub">拼装队列里没有到期句子。</p>
+        <button type="button" class="btn-ghost" data-asm-review-close>收起</button></section>`;
+      const placed = item.placed || [];
+      return `
+        <section class="asm-review-entry">
+          <p class="asm-zh">${esc(item.sentence.zh || "")}</p>
+          <div class="asm-slots">
+            ${placed.map((chunk, i) => `<span class="asm-slot">${esc(chunk)}<button type="button" class="asm-x" data-asm-review-remove="${i}">×</button></span>`).join("")}
+            ${placed.length ? "" : `<span class="asm-empty">点击下方意群拼成句子</span>`}
+          </div>
+          ${item.submitted ? `<p class="asm-result ${item.ok ? "is-ok" : "is-bad"}">${item.ok ? "拼装正确" : "还差一点，再看看正确句子"}</p>
+            <p class="asm-answer">${esc(item.sentence.text)}</p>`
+          : `<div class="asm-pool">${item.pool.map((chunk) => `<button type="button" class="asm-chunk" data-asm-review-chunk="${esc(chunk)}" ${placed.indexOf(chunk) >= 0 ? "disabled" : ""}>${esc(chunk)}</button>`).join("")}</div>`}
+          <div class="drill-actions">
+            ${item.submitted ? `<button type="button" class="btn-primary" data-asm-review-open>下一句</button>` : `<button type="button" class="btn-primary" data-asm-review-judge ${placed.length ? "" : "disabled"}>提交</button>`}
+            <button type="button" class="btn-ghost" data-asm-review-close>收起</button>
+          </div>
         </section>`;
+    }
+
+    function openAsmReview() {
+      const asm = window.LZAssembly;
+      if (!asm) { showToast("拼装模块未加载。"); return; }
+      asmReview = { loading: true, placed: [] };
+      renderWrongBook();
+      Promise.all([asm.getDueAssemblyCards(Date.now()), asm._debug.all("sentence_cache")]).then(([cards, sentences]) => {
+        const due = (cards || []).filter((card) => card && card.sentence_id);
+        if (!due.length) { asmReview = { empty: true, placed: [] }; renderWrongBook(); return; }
+        const card = due[0];
+        const sentence = (sentences || []).find((row) => row && row.sentence_id === card.sentence_id)
+          || (sentences || []).find((row) => row && row.lemma === card.target_word_lemma);
+        if (!sentence) { asmReview = { empty: true, placed: [] }; renderWrongBook(); return; }
+        asmReview = { card, sentence, placed: [], submitted: false, ok: false, pool: shuffle(sentence.chunks.slice()) };
+        renderWrongBook();
+      }).catch(() => { asmReview = { empty: true, placed: [] }; renderWrongBook(); });
+    }
+
+    function asmReviewJudge() {
+      if (!asmReview || asmReview.submitted) return;
+      const asm = window.LZAssembly;
+      const judged = asm.judgeAndRoute(asmReview.placed, asmReview.sentence.chunks, asmReview.card.target_word_lemma);
+      asmReview.submitted = true;
+      asmReview.ok = judged.result === "exact";
+      asm.scheduleAssembly(asmReview.card, judged.result === "exact" ? "good" : "again");
+      renderWrongBook();
     }
 
     function openWordInBrowse(wordId) {
@@ -12345,6 +12403,21 @@
       const wrongWord = event.target.closest("[data-wrong-word]");
       if (wrongWord) {
         openWordInBrowse(wrongWord.dataset.wrongWord);
+        return;
+      }
+      if (event.target.closest("[data-asm-review-open]")) { openAsmReview(); return; }
+      if (event.target.closest("[data-asm-review-close]")) { asmReview = null; renderWrongBook(); return; }
+      if (event.target.closest("[data-asm-review-judge]")) { asmReviewJudge(); return; }
+      const asmRevChunk = event.target.closest("[data-asm-review-chunk]");
+      if (asmRevChunk && asmReview && !asmReview.submitted) {
+        asmReview.placed.push(asmRevChunk.dataset.asmReviewChunk);
+        renderWrongBook();
+        return;
+      }
+      const asmRevRemove = event.target.closest("[data-asm-review-remove]");
+      if (asmRevRemove && asmReview) {
+        asmReview.placed.splice(Number(asmRevRemove.dataset.asmReviewRemove), 1);
+        renderWrongBook();
         return;
       }
       if (event.target.closest("[data-weekly-share]")) {
