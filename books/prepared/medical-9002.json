@@ -1,0 +1,1766 @@
+[
+  {
+    "word": "pneumonia",
+    "ipa_uk": "/pjuːˈməʊniə/",
+    "ipa_us": "/pjuːˈmoʊniə/",
+    "definition_zh": "肺炎；肺部炎症；急性肺部感染",
+    "definition_en": "an infection or inflammation of the lungs that fills the air sacs with fluid and makes breathing hard",
+    "core_image": "肺泡里积了水，每次呼吸都像隔着湿棉花吹气",
+    "scene": "冬夜里，老人咳出一口带血的痰，额头烧得发烫。The doctor heard crackles in his chest and sent him to hospital with pneumonia.",
+    "sceneCN": "这里 pneumonia 是「急性肺部感染」（第 2 个义项：发烧、咳嗽、需要就医的那一种肺炎）；句意为医生听出他胸中的湿啰音，以肺炎把他送进了医院。",
+    "pos": [
+      {
+        "tag": "n.",
+        "zh": "肺炎；肺部炎症"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "catch pneumonia",
+        "zh": "患上肺炎"
+      },
+      {
+        "phrase": "walking pneumonia",
+        "zh": "轻型肺炎（仍能下地行走的非典型肺炎）"
+      },
+      {
+        "phrase": "double pneumonia",
+        "zh": "双肺肺炎"
+      },
+      {
+        "phrase": "pneumonia vaccine",
+        "zh": "肺炎疫苗"
+      },
+      {
+        "phrase": "viral pneumonia",
+        "zh": "病毒性肺炎"
+      },
+      {
+        "phrase": "recover from pneumonia",
+        "zh": "从肺炎中康复"
+      }
+    ],
+    "forms": [
+      {
+        "label": "复数（可数用法）",
+        "form": "pneumonias"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "pneumonic",
+        "pos": "adj.",
+        "zh": "肺的；肺炎的；由 pneumon（肺）加 -ic 构成"
+      },
+      {
+        "word": "pneumonitis",
+        "pos": "n.",
+        "zh": "肺组织的炎症；pneumon 加 -itis（炎症），所指比肺炎更窄"
+      },
+      {
+        "word": "bronchopneumonia",
+        "pos": "n.",
+        "zh": "支气管肺炎；由 bronch-（气管）与 pneumonia 复合而成"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "Inflammation of the lungs",
+        "titleCN": "肺炎（肺部炎症）",
+        "definition": "any inflammation of the lung tissue, whatever germ or irritant has caused it",
+        "definitionCN": "不论由何种病菌或刺激物引起，肺组织出现的炎症",
+        "example": "Pneumonia can follow a viral infection or appear on its own.",
+        "exampleCN": "肺炎可能继发于病毒感染，也可能单独出现。",
+        "why": "Greek pneumon named the lung as the breathing organ, and the ending -ia named a condition of it, so the word first described a diseased lung rather than a germ.",
+        "whyCN": "希腊语 pneumon 把肺命名为「呼吸的器官」，词尾 -ia 表示某种状态，所以这个词最初描述的是「有病的肺」，而不是某种病菌。"
+      },
+      {
+        "no": "02",
+        "title": "The acute infectious illness",
+        "titleCN": "急性肺炎（感染）",
+        "definition": "a sudden infection of the lungs with fever, cough and chest pain, usually needing medical treatment",
+        "definitionCN": "以发热、咳嗽和胸痛为表现的急性肺部感染，通常需要就医治疗",
+        "example": "He was admitted with pneumonia after two days of high fever.",
+        "exampleCN": "高烧两天之后，他因肺炎住进了医院。",
+        "why": "Once doctors learned that germs cause it, the same word came to name the illness a patient actually feels, with its fever and its cough.",
+        "whyCN": "当医生弄清了病菌才是病因，同一个词就开始命名患者真正感受到的那场病，连同它的发热与咳嗽。"
+      },
+      {
+        "no": "03",
+        "title": "A single infected lobe",
+        "titleCN": "大叶性肺炎（局部病灶）",
+        "definition": "one localized area of infected lung tissue, as seen on a chest image or heard through a stethoscope",
+        "definitionCN": "某一肺叶或某一片肺组织上的感染病灶，可在胸片或听诊中定位",
+        "example": "The scan showed pneumonia in the lower lobe of the right lung.",
+        "exampleCN": "扫描显示右肺下叶有肺炎病灶。",
+        "why": "Because the infection often settles in one lobe, doctors use the same noun for the patch as for the whole disease.",
+        "whyCN": "因为感染常常落在一个肺叶里，医生就用同一个名词既指那片病灶，也指整个疾病。"
+      },
+      {
+        "no": "04",
+        "title": "Walking pneumonia",
+        "titleCN": "轻型肺炎（可下地行走）",
+        "definition": "a mild form of pneumonia in which the patient stays active and the symptoms are easily mistaken for a cold",
+        "definitionCN": "症状较轻、患者仍能活动、容易被当成感冒的一种肺炎",
+        "example": "Walking pneumonia rarely puts a healthy adult to bed.",
+        "exampleCN": "轻型肺炎很少让健康的成年人卧床。",
+        "why": "The nickname was coined because these patients could still walk about, so the illness hid behind its mildness.",
+        "whyCN": "这个绰号来自患者仍能四处走动，于是疾病就藏在轻微的症状后面。"
+      },
+      {
+        "no": "05",
+        "title": "The friend of the aged",
+        "titleCN": "终末期肺炎；旧称「老人的朋友」",
+        "definition": "pneumonia seen as the last illness of a frail elderly person, sometimes described as a short and merciful ending",
+        "definitionCN": "体弱老人临终时所患的肺炎，旧时被说成一种短暂而少折磨的结局",
+        "example": "Old doctors sometimes called pneumonia the friend of the aged.",
+        "exampleCN": "旧时的医生有时把肺炎称作「老人的朋友」。",
+        "why": "In an age without antibiotics, pneumonia could close a long illness quickly, so the word carried a strange comfort as well as fear.",
+        "whyCN": "在没有抗生素的年代，肺炎能很快结束一场漫长的病，于是这个词既带着恐惧，也带着一点奇怪的安慰。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Pneumonia comes from Greek pneumon, the lung, a word itself built on pneuma, breath or air.",
+        "cn": "pneumonia 来自希腊语 pneumon（肺），而这个词本身又由 pneuma（气息、风）构成。"
+      },
+      "items": [
+        {
+          "era": "PROTO-INDO-EUROPEAN",
+          "en": "A reconstructed root for breathing or blowing is generally thought to lie behind pneuma; the deeper origin is uncertain.",
+          "cn": "一般认为 pneuma 背后有一个表示「呼吸、吹」的原始印欧语重构词根；更早的来源不确定。"
+        },
+        {
+          "era": "GREEK PNEUMA",
+          "en": "Pneuma meant breath, air or wind, and it also named the breath of life.",
+          "cn": "pneuma 指气息、空气或风，也用来指生命的气息。"
+        },
+        {
+          "era": "GREEK PNEUMON",
+          "en": "Pneumon named the lung, literally the organ of breathing.",
+          "cn": "pneumon 指肺，字面意思就是「用来呼吸的器官」。"
+        },
+        {
+          "era": "GREEK PNEUMONIA",
+          "en": "Hippocratic writers used pneumonia for a disease of the lungs, and the -ia ending marked a condition.",
+          "cn": "希波克拉底学派的作者用 pneumonia 指肺部疾病，-ia 词尾表示某种状态。"
+        },
+        {
+          "era": "LATIN PNEUMONIA",
+          "en": "Medical Latin kept the Greek word almost unchanged, including the pn- cluster that English now pronounces without the p.",
+          "cn": "医学拉丁语几乎原样保留了希腊词，连英语如今不发音的 pn- 也留着。"
+        },
+        {
+          "era": "ENGLISH, 17TH C.",
+          "en": "English borrowed the Latin term in the seventeenth century, and it has named the disease ever since.",
+          "cn": "英语在十七世纪借入这个拉丁词，此后一直用它命名这种病。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "The look-alike group keeps the Greek lung root in view, while the near-meaning group sorts pneumonia from the lung diseases it is often confused with.",
+        "cn": "形近组围绕希腊语「肺」这个词根；近义组则把肺炎与常被混淆的肺部疾病分开。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "pneumonic",
+              "ipa": "/pjuːˈmɒnɪk/",
+              "tag": "derived adjective",
+              "definition": "relating to the lungs or to pneumonia",
+              "definitionCN": "与肺或肺炎有关的；由 pneumonia 加 -ic 构成。"
+            },
+            {
+              "word": "pneumonitis",
+              "ipa": "/ˌpjuːməˈnaɪtɪs/",
+              "tag": "same root",
+              "definition": "inflammation of the lung tissue itself",
+              "definitionCN": "肺组织本身的炎症；与 pneumonia 同源，但 -itis 强调炎症而非感染。"
+            },
+            {
+              "word": "pneumatic",
+              "ipa": "/pjuːˈmætɪk/",
+              "tag": "same root",
+              "definition": "worked by air or gas",
+              "definitionCN": "靠空气或气体工作的；与肺炎同出 pneuma 一词，词义已转向「气」。"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "bronchitis",
+              "ipa": "/brɒŋˈkaɪtɪs/",
+              "tag": "other lung disease",
+              "definition": "inflammation of the larger airways",
+              "definitionCN": "较大气道的炎症，病变在气管分支而不在肺泡。"
+            },
+            {
+              "word": "tuberculosis",
+              "ipa": "/ˌtjuːbəˈkjʊləsɪs/",
+              "tag": "other lung disease",
+              "definition": "a bacterial infection that damages the lungs over a long period",
+              "definitionCN": "长期损害肺部的细菌感染，病程比肺炎慢得多。"
+            },
+            {
+              "word": "pleurisy",
+              "ipa": "/ˈplʊərəsi/",
+              "tag": "near chest disease",
+              "definition": "inflammation of the membrane around the lungs",
+              "definitionCN": "肺外那层胸膜的炎症，痛在胸侧而不在肺泡里。"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Pneumonia is a Greek lung word, so its parts point to breath and to the organ that does the breathing.",
+        "cn": "pneumonia 是希腊语的「肺」词，它的各部分都指向呼吸和负责呼吸的那个器官。"
+      },
+      "normal": [
+        {
+          "en": "The pn- at the start is kept from Greek, so the p is silent and the word begins with a nyu sound.",
+          "cn": "开头的 pn- 是从希腊语保留下来的，所以 p 不发音，词从「nyu」这个音开始。"
+        },
+        {
+          "en": "Pneumon means lung and -ia means a condition, so pneumonia is a condition of the lung.",
+          "cn": "pneumon 是肺，-ia 表示某种状态，所以 pneumonia 就是「肺的病态」。"
+        },
+        {
+          "en": "Pneumonic is the adjective, and pneumonitis is inflammation of the tissue rather than of the air sacs.",
+          "cn": "pneumonic 是形容词，pneumonitis 指肺组织的炎症，与肺泡里的肺炎不同。"
+        },
+        {
+          "en": "Walking pneumonia is mild enough that the patient keeps walking around.",
+          "cn": "walking pneumonia 症状轻，患者还能照常走动。"
+        },
+        {
+          "en": "Double pneumonia means both lungs are infected, not twice the severity of one lung.",
+          "cn": "double pneumonia 指两侧肺都受感染，不是单侧病情的两倍。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "Picture a sponge soaked with water, and every squeeze makes a wet crackle.",
+          "cn": "想象一块吸满水的海绵，每捏一下都发出湿漉漉的响声。"
+        },
+        {
+          "en": "Imagine a feverish patient propped on pillows, coughing until the chest hurts.",
+          "cn": "想象一位发烧的病人靠着枕头，咳到胸口发痛。"
+        },
+        {
+          "en": "Think of a chest image with one white patch marking the infected lobe.",
+          "cn": "想象一张胸片上有一块白影，标出受感染的那个肺叶。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "Pneumonia is more dangerous in very young children and in the elderly.",
+        "cn": "肺炎在幼儿和老人身上更危险。"
+      },
+      {
+        "en": "She recovered from pneumonia after a week of antibiotics.",
+        "cn": "用了一周抗生素后，她的肺炎痊愈了。"
+      },
+      {
+        "en": "Doctors listen for crackles, one of the signs of pneumonia.",
+        "cn": "医生听诊寻找湿啰音，那是肺炎的体征之一。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「牛摸你呀」——像有人摸一下胸口就让你咳起来，正合肺炎的样子；这只是谐音联想，与词源无关。",
+      "word": "pneumonia"
+    },
+    "root": "希腊语 pneuma（气息、风）→ pneumon（肺，即「呼吸的器官」）→ pneumonia（肺病）→ 拉丁语 pneumonia → 英语 pneumonia，核心义「肺里积了水、气换不动」。",
+    "sensesIntro": {
+      "en": "The word starts as a diseased lung, narrows to the acute infection a patient feels, then to the infected patch on an image, to the mild walking form, and finally to the last illness of the very old.",
+      "cn": "这个词起初指有病的肺，随后收窄为患者能感到的急性感染，再指影像上那片感染灶，又指症状轻微的「可行走」型，最后指高龄者临终时的那场病。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: air sacs filled with fluid, each breath bubbling through wet cotton.",
+        "cn": "核心意象：肺泡里积满液体，每次呼吸都像隔着湿棉花冒泡。"
+      },
+      "chain": [
+        "PNEUMA",
+        "BREATH",
+        "LUNG",
+        "FLUID IN AIR SACS",
+        "FEVER AND COUGH",
+        "LUNG INFECTION"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "A diseased lung is the oldest medical sense of the word.",
+          "cn": "「有病的肺」是这个词最古老的医学义项。"
+        },
+        {
+          "senses": "02",
+          "en": "The acute infection is what a patient feels as fever and cough.",
+          "cn": "急性感染是患者感到的发烧与咳嗽。"
+        },
+        {
+          "senses": "03",
+          "en": "One infected lobe is the same disease seen on an image.",
+          "cn": "单个受感染的肺叶，是同一疾病在影像上的样子。"
+        },
+        {
+          "senses": "04",
+          "en": "The walking form is the mild end of the same infection.",
+          "cn": "「可行走」型是同一感染中较轻的一端。"
+        },
+        {
+          "senses": "01 · 05",
+          "en": "General lung inflammation and the last illness of the aged share one word.",
+          "cn": "「肺的炎症」与「老人临终的那场病」共用一个词。"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Pneumonia joins Greek pneumon, the lung, to the noun ending -ia; English then built pneumonic, pneumonitis and bronchopneumonia on the same stem.",
+        "cn": "pneumonia 由希腊语 pneumon（肺）加名词词尾 -ia 构成；英语又用同一个词干造出 pneumonic、pneumonitis 与 bronchopneumonia。"
+      },
+      "latinIntro": {
+        "en": "The Latin layer keeps Greek pneumonia and supplies pulmo, the lung, and spirare, to breathe.",
+        "cn": "拉丁语层保留了希腊语的 pneumonia，并提供 pulmo（肺）与 spirare（呼吸）。"
+      },
+      "items": [
+        {
+          "word": "pneuma",
+          "structure": "Greek noun",
+          "meaning": "breath, air, wind",
+          "meaningCN": "气息；空气；风",
+          "example": "pneuma, pneumatic",
+          "exampleCN": "气息；气动的"
+        },
+        {
+          "word": "pneumon",
+          "structure": "Greek noun",
+          "meaning": "lung",
+          "meaningCN": "肺",
+          "example": "pneumon, pneumonia",
+          "exampleCN": "肺；肺炎"
+        },
+        {
+          "word": "-ia",
+          "structure": "Greek suffix",
+          "meaning": "condition, state",
+          "meaningCN": "状态；病症",
+          "example": "pneumonia, insomnia",
+          "exampleCN": "肺炎；失眠症"
+        },
+        {
+          "word": "pneumonia",
+          "structure": "Greek and Latin noun",
+          "meaning": "disease of the lungs",
+          "meaningCN": "肺部疾病；肺炎",
+          "example": "pneumonia, pneumonias",
+          "exampleCN": "肺炎；肺炎的复数"
+        },
+        {
+          "word": "pneumonic",
+          "structure": "English adjective",
+          "meaning": "relating to the lungs",
+          "meaningCN": "肺的；肺炎的",
+          "example": "pneumonic, pneumonic plague",
+          "exampleCN": "肺的；肺鼠疫"
+        },
+        {
+          "word": "pneumonitis",
+          "structure": "English noun",
+          "meaning": "inflammation of lung tissue",
+          "meaningCN": "肺组织的炎症",
+          "example": "pneumonitis, radiation pneumonitis",
+          "exampleCN": "肺炎症；放射性肺炎症"
+        },
+        {
+          "word": "-itis",
+          "structure": "Greek suffix",
+          "meaning": "inflammation",
+          "meaningCN": "炎症",
+          "example": "pneumonitis, bronchitis",
+          "exampleCN": "肺炎症；支气管炎"
+        },
+        {
+          "word": "pneumo-",
+          "structure": "combining form",
+          "meaning": "lung, air",
+          "meaningCN": "肺；气",
+          "example": "pneumothorax, pneumococcus",
+          "exampleCN": "气胸；肺炎球菌"
+        },
+        {
+          "word": "bronch-",
+          "structure": "Greek root",
+          "meaning": "windpipe",
+          "meaningCN": "气管",
+          "example": "bronchitis, bronchopneumonia",
+          "exampleCN": "支气管炎；支气管肺炎"
+        },
+        {
+          "word": "pulm-",
+          "structure": "Latin root",
+          "meaning": "lung",
+          "meaningCN": "肺",
+          "example": "pulmonary, pulmonology",
+          "exampleCN": "肺的；肺病学"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "pulmo",
+          "structure": "Latin noun",
+          "meaning": "lung",
+          "meaningCN": "肺",
+          "example": "Pulmo gives pulmonary and pulmonology.",
+          "exampleCN": "pulmo 生出 pulmonary 与 pulmonology。"
+        },
+        {
+          "word": "spirare",
+          "structure": "Latin verb",
+          "meaning": "to breathe",
+          "meaningCN": "呼吸",
+          "example": "Spirare gives respire and inspiration.",
+          "exampleCN": "spirare 生出 respire 与 inspiration。"
+        },
+        {
+          "word": "pneumaticus",
+          "structure": "Latin adjective",
+          "meaning": "of air or breath",
+          "meaningCN": "空气的；气息的",
+          "example": "Pneumaticus gives pneumatic.",
+          "exampleCN": "pneumaticus 生出 pneumatic。"
+        }
+      ]
+    }
+  },
+  {
+    "word": "migraine",
+    "ipa_uk": "/ˈmaɪɡreɪn; mɪˈɡreɪn/",
+    "ipa_us": "/ˈmaɪɡreɪn; maɪˈɡreɪn/",
+    "definition_zh": "偏头痛；偏头痛发作",
+    "definition_en": "a severe headache that often throbs on one side of the head and comes with nausea and a dislike of light",
+    "core_image": "一侧太阳穴里藏着一把小锤，光一亮就敲一下",
+    "scene": "下午的光线突然变强，她拉上窗帘，抱着头缩进沙发角落。A single bright shaft of light made her migraine worse within minutes.",
+    "sceneCN": "这里 migraine 是「一次偏头痛发作」（第 2 个义项：正在发生的那一阵头痛）；句意为一道强光在几分钟内就让她的偏头痛加重了。",
+    "pos": [
+      {
+        "tag": "n.",
+        "zh": "偏头痛；偏头痛发作"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "migraine attack",
+        "zh": "偏头痛发作"
+      },
+      {
+        "phrase": "chronic migraine",
+        "zh": "慢性偏头痛"
+      },
+      {
+        "phrase": "silent migraine",
+        "zh": "静默型偏头痛（只有先兆、不头痛）"
+      },
+      {
+        "phrase": "migraine aura",
+        "zh": "偏头痛先兆"
+      },
+      {
+        "phrase": "suffer from migraine",
+        "zh": "患有偏头痛"
+      },
+      {
+        "phrase": "trigger a migraine",
+        "zh": "诱发偏头痛"
+      }
+    ],
+    "forms": [
+      {
+        "label": "复数",
+        "form": "migraines"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "migrainous",
+        "pos": "adj.",
+        "zh": "偏头痛的；患偏头痛的；由 migraine 加 -ous 构成"
+      },
+      {
+        "word": "migraineur",
+        "pos": "n.",
+        "zh": "偏头痛患者；借法语 -eur（指人）加在 migraine 之后"
+      },
+      {
+        "word": "antimigraine",
+        "pos": "adj.",
+        "zh": "抗偏头痛的；anti-（抗）加 migraine，多用于描述药物"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "The recurring headache disorder",
+        "titleCN": "偏头痛（反复发作的头痛疾病）",
+        "definition": "a neurological condition that causes repeated severe headaches, often on one side of the head and often with nausea",
+        "definitionCN": "引起反复剧烈头痛的神经系统疾病，痛常在单侧，并常伴恶心",
+        "example": "Migraine runs in her family, and two of her sisters have it too.",
+        "exampleCN": "偏头痛在她家有遗传，她的两个姐妹也有。",
+        "why": "The Greek name meant half the skull, so the disorder was named for where it hurts rather than for what causes it.",
+        "whyCN": "希腊语原名意为「半边颅骨」，所以这个病是按「痛在哪里」命名的，而不是按病因命名。"
+      },
+      {
+        "no": "02",
+        "title": "A single attack",
+        "titleCN": "一次偏头痛发作",
+        "definition": "one episode of throbbing pain, usually lasting hours, sometimes with vomiting",
+        "definitionCN": "一次搏动性的疼痛发作，通常持续数小时，有时伴呕吐",
+        "example": "A migraine kept her in a dark room all afternoon.",
+        "exampleCN": "一次偏头痛让她整个下午都待在暗房里。",
+        "why": "Patients feel the disorder only during an attack, so the same noun names both the illness and the episode.",
+        "whyCN": "患者只在发作时才感到这个病，所以同一个词既指疾病，也指那一次发作。"
+      },
+      {
+        "no": "03",
+        "title": "Migraine with aura",
+        "titleCN": "有先兆偏头痛",
+        "definition": "a migraine preceded by flashing lights, a blind spot or tingling that warns of the coming pain",
+        "definitionCN": "在疼痛到来之前出现闪光、视野缺口或刺麻感的偏头痛",
+        "example": "Her migraine with aura always begins with a zigzag of light.",
+        "exampleCN": "她的有先兆偏头痛总是以一道锯齿状的光开始。",
+        "why": "The warning signals come from the brain itself, so doctors gave the word a subtype that names the visible omen.",
+        "whyCN": "这些警告信号来自大脑本身，于是医生给这个词添了一个亚型，专门命名看得见的「前兆」。"
+      },
+      {
+        "no": "04",
+        "title": "Silent migraine",
+        "titleCN": "静默型偏头痛（无头痛）",
+        "definition": "an attack with the aura and the nausea but without the headache itself",
+        "definitionCN": "有先兆与恶心、却没有头痛本身的一次发作",
+        "example": "A silent migraine can be mistaken for a stomach upset.",
+        "exampleCN": "静默型偏头痛可能被误当成肠胃不适。",
+        "why": "Because the headache can be absent, the word had to carry a form that describes the attack by its other symptoms.",
+        "whyCN": "因为头痛可以缺席，这个词只好多出一个用法，靠其他症状来描述这次发作。"
+      },
+      {
+        "no": "05",
+        "title": "The old name for half the head",
+        "titleCN": "旧称「半头症」",
+        "definition": "the older medical name hemicrania, which simply described pain in one half of the head",
+        "definitionCN": "较早的医学名称 hemicrania，字面只说「半边头在痛」",
+        "example": "Old texts called it hemicrania before the French form became migraine.",
+        "exampleCN": "在法语形式变成 migraine 之前，旧文献称它为 hemicrania。",
+        "why": "The modern word is a worn-down French version of the Greek half-head name, so the oldest layer still shows through.",
+        "whyCN": "现代这个词是希腊语「半头」之名经法语磨损后的样子，最古老的那一层至今仍透出来。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Migraine is the worn-down descendant of Greek hemikrania, a compound of hemi-, half, and kranion, skull.",
+        "cn": "migraine 是希腊语 hemikrania 磨损后的后代，那个词由 hemi-（一半）与 kranion（颅骨）复合而成。"
+      },
+      "items": [
+        {
+          "era": "GREEK HEMI-",
+          "en": "Hemi- meant half, and it still halves words such as hemisphere.",
+          "cn": "hemi- 意为「一半」，至今仍把 hemisphere 之类的词一分为二。"
+        },
+        {
+          "era": "GREEK KRANION",
+          "en": "Kranion meant the skull or the head, and it survives in cranium.",
+          "cn": "kranion 指颅骨或头部，至今留在 cranium 一词里。"
+        },
+        {
+          "era": "GREEK HEMIKRANIA",
+          "en": "Hemikrania named a pain that occupied one half of the head, a term used in Greek medical writing.",
+          "cn": "hemikrania 指占据半边头颅的疼痛，是希腊医学文献里的用语。"
+        },
+        {
+          "era": "LATIN HEMICRANIA",
+          "en": "Medical Latin took the Greek term over almost unchanged.",
+          "cn": "医学拉丁语几乎原样接收了这个希腊词。"
+        },
+        {
+          "era": "OLD FRENCH MIGRAIGNE",
+          "en": "French wore the long word down to migraigne, losing the hemi- that speakers no longer recognised.",
+          "cn": "法语把这个长词磨成 migraigne，丢掉了听者已不再辨认的 hemi-。"
+        },
+        {
+          "era": "MIDDLE ENGLISH",
+          "en": "English borrowed the French form as migrayne, and the modern spelling migraine settled later.",
+          "cn": "英语借入法语形式 migrayne，现代拼写 migraine 则是后来才固定的。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "The look-alike group follows the half-head root and its modern family, while the near-meaning group places migraine among other headaches.",
+        "cn": "形近组沿着「半头」这个词根及其现代词族；近义组把偏头痛放进其他头痛之中。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "migrainous",
+              "ipa": "/maɪˈɡreɪnəs/",
+              "tag": "derived adjective",
+              "definition": "relating to or affected by migraine",
+              "definitionCN": "偏头痛的；患偏头痛的；由 migraine 加 -ous 构成。"
+            },
+            {
+              "word": "hemicrania",
+              "ipa": "/ˌhemɪˈkreɪniə/",
+              "tag": "same root",
+              "definition": "pain in one half of the head, the old name for migraine",
+              "definitionCN": "半边头的疼痛，是偏头痛的旧名；与 migraine 同源。"
+            },
+            {
+              "word": "migraineur",
+              "ipa": "/maɪˈɡreɪnə/",
+              "tag": "derived noun",
+              "definition": "a person who suffers from migraine",
+              "definitionCN": "偏头痛患者；借法语后缀 -eur 指人。"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "headache",
+              "ipa": "/ˈhedeɪk/",
+              "tag": "near meaning",
+              "definition": "pain in the head from any cause",
+              "definitionCN": "任何原因引起的头痛，范围比偏头痛宽得多。"
+            },
+            {
+              "word": "cluster headache",
+              "ipa": "/ˈklʌstə ˈhedeɪk/",
+              "tag": "other headache type",
+              "definition": "a headache that strikes in short, extremely painful bursts around one eye",
+              "definitionCN": "围绕一只眼睛短促爆发的剧痛，属于另一种原发性头痛。"
+            },
+            {
+              "word": "cephalgia",
+              "ipa": "/sɪˈfældʒiə/",
+              "tag": "medical synonym",
+              "definition": "a medical word for headache of any kind",
+              "definitionCN": "医学上对任何头痛的称呼，并不专指偏头痛。"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Migraine is a worn-down Greek phrase for half the skull, so the word itself explains why the pain favours one side.",
+        "cn": "migraine 是希腊语「半边颅骨」磨损后的样子，词本身就解释了疼痛为何偏爱一侧。"
+      },
+      "normal": [
+        {
+          "en": "Hemi- means half and kranion means skull, so hemicrania is literally half-head pain.",
+          "cn": "hemi- 是一半，kranion 是颅骨，hemicrania 字面就是「半边头在痛」。"
+        },
+        {
+          "en": "French shortened hemicrania to migraigne, and English took that shorter form.",
+          "cn": "法语把 hemicrania 缩短成 migraigne，英语取的是这个较短的形式。"
+        },
+        {
+          "en": "Migrainous is the adjective, and a migraineur is the person who has the attacks.",
+          "cn": "migrainous 是形容词，migraineur 指经常发作的那个人。"
+        },
+        {
+          "en": "An attack is one episode, while chronic migraine is the pattern of frequent attacks.",
+          "cn": "an attack 是一次发作，而 chronic migraine 指频繁发作的模式。"
+        },
+        {
+          "en": "A silent migraine has the aura without the headache, so the name covers a whole family of attacks.",
+          "cn": "静默型偏头痛有先兆而无头痛，可见这个名字覆盖的是一整个发作类型。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "Picture a vice closing on one temple while the other side stays free.",
+          "cn": "想象一把虎钳夹住一侧太阳穴，另一侧却毫无感觉。"
+        },
+        {
+          "en": "Imagine a dark room, a cold cloth over the eyes, and a wave of nausea.",
+          "cn": "想象一间暗房、一块敷在眼睛上的冷布，还有一阵恶心。"
+        },
+        {
+          "en": "Think of a zigzag of light crawling across the view before the pain arrives.",
+          "cn": "想象一道锯齿状的光在疼痛到来之前爬过视野。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "She has had migraines since her teens, usually on the right side.",
+        "cn": "她从十几岁起就常犯偏头痛，多发生在右侧。"
+      },
+      {
+        "en": "Bright light and skipped meals can trigger a migraine.",
+        "cn": "强光和错过吃饭都可能诱发偏头痛。"
+      },
+      {
+        "en": "Migraine with aura is often preceded by flashing lights.",
+        "cn": "有先兆偏头痛常以闪光作为前奏。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「my grain」——像脑袋里有一粒麦子被磨盘来回碾过，碾得半边发痛；这只是读音联想，与词源无关。",
+      "word": "migraine"
+    },
+    "root": "希腊语 hēmi-（一半）+ kranion（颅骨）→ hēmikrania（半边头之痛）→ 拉丁语 hemicrania → 古法语 migraigne → 英语 migraine，核心义「只痛半边头」。",
+    "sensesIntro": {
+      "en": "Migraine names a disorder, then a single attack, then the aura and the headache-free form, and it still carries the Greek half-head description.",
+      "cn": "migraine 先指一种疾病，再指一次发作，又指有先兆与无头痛的类型，而它始终带着希腊语「半头」的描述。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: a small hammer behind one temple that strikes whenever light flashes.",
+        "cn": "核心意象：一侧太阳穴后面藏着一把小锤，光一闪就敲一下。"
+      },
+      "chain": [
+        "HEMI",
+        "HALF SKULL",
+        "HEMIKRANIA",
+        "MIGRAIGNE",
+        "MIGRAINE",
+        "ONE-SIDED PAIN"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "The disorder is the long condition behind every attack.",
+          "cn": "疾病是每一次发作背后那个长期存在的状况。"
+        },
+        {
+          "senses": "02",
+          "en": "One attack is the disorder felt at a single moment.",
+          "cn": "一次发作是这种病在某一刻被感受到的样子。"
+        },
+        {
+          "senses": "03",
+          "en": "The aura is the warning the brain gives before the pain.",
+          "cn": "先兆是大脑在疼痛之前给出的警告。"
+        },
+        {
+          "senses": "04",
+          "en": "Without the headache, the attack shows only its other symptoms.",
+          "cn": "头痛缺席时，这次发作只剩下别的症状。"
+        },
+        {
+          "senses": "05 · 01",
+          "en": "The Greek half-head name and the modern disorder describe the same place of pain.",
+          "cn": "希腊语的「半头」之名与今天的疾病，说的是同一个疼痛位置。"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Migraine is the worn-down French descendant of Greek hemikrania, and hemi- still halves many English words.",
+        "cn": "migraine 是希腊语 hemikrania 经法语磨损后的后代，而 hemi- 至今仍把许多英语词分成两半。"
+      },
+      "latinIntro": {
+        "en": "Latin kept hemicrania and cranium, and the Latin cranium is the same skull that Greek kranion named.",
+        "cn": "拉丁语保留了 hemicrania 与 cranium，而拉丁语的 cranium 就是希腊语 kranion 所指的那块颅骨。"
+      },
+      "items": [
+        {
+          "word": "hemi-",
+          "structure": "Greek prefix",
+          "meaning": "half",
+          "meaningCN": "一半",
+          "example": "hemicrania, hemisphere",
+          "exampleCN": "半头之痛；半球"
+        },
+        {
+          "word": "kranion",
+          "structure": "Greek noun",
+          "meaning": "skull, head",
+          "meaningCN": "颅骨；头",
+          "example": "kranion, hemicrania",
+          "exampleCN": "颅骨；半头之痛"
+        },
+        {
+          "word": "hemicrania",
+          "structure": "Greek and Latin noun",
+          "meaning": "pain in half the head",
+          "meaningCN": "半边头的疼痛",
+          "example": "hemicrania, migraine",
+          "exampleCN": "半头之痛；偏头痛"
+        },
+        {
+          "word": "migraine",
+          "structure": "French and English noun",
+          "meaning": "a one-sided recurring headache",
+          "meaningCN": "发作于一侧的反复头痛",
+          "example": "migraine, migraines",
+          "exampleCN": "偏头痛；偏头痛的复数"
+        },
+        {
+          "word": "-ous",
+          "structure": "adjective suffix",
+          "meaning": "having the quality of",
+          "meaningCN": "具有……性质的",
+          "example": "migrainous, nervous",
+          "exampleCN": "偏头痛的；神经的"
+        },
+        {
+          "word": "-eur",
+          "structure": "French suffix",
+          "meaning": "person who does something",
+          "meaningCN": "做某事的人",
+          "example": "migraineur, amateur",
+          "exampleCN": "偏头痛患者；业余爱好者"
+        },
+        {
+          "word": "anti-",
+          "structure": "Greek prefix",
+          "meaning": "against",
+          "meaningCN": "抗；反",
+          "example": "antimigraine, antibiotic",
+          "exampleCN": "抗偏头痛的；抗生素"
+        },
+        {
+          "word": "cephal-",
+          "structure": "Greek root",
+          "meaning": "head",
+          "meaningCN": "头",
+          "example": "cephalgia, cephalic",
+          "exampleCN": "头痛；头部的"
+        },
+        {
+          "word": "-algia",
+          "structure": "Greek suffix",
+          "meaning": "pain",
+          "meaningCN": "疼痛",
+          "example": "cephalalgia, neuralgia",
+          "exampleCN": "头痛；神经痛"
+        },
+        {
+          "word": "-ic",
+          "structure": "adjective suffix",
+          "meaning": "relating to",
+          "meaningCN": "与……有关的",
+          "example": "cephalic, graphic",
+          "exampleCN": "头部的；图形的"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "hemicrania",
+          "structure": "Latin noun",
+          "meaning": "pain in half the head",
+          "meaningCN": "半边头的疼痛",
+          "example": "Hemicrania is the Latin form of the Greek name.",
+          "exampleCN": "hemicrania 是那个希腊名称的拉丁形式。"
+        },
+        {
+          "word": "cranium",
+          "structure": "Latin noun",
+          "meaning": "skull",
+          "meaningCN": "颅骨",
+          "example": "Cranium gives cranial and craniology.",
+          "exampleCN": "cranium 生出 cranial 与 craniology。"
+        }
+      ]
+    }
+  },
+  {
+    "word": "insomnia",
+    "ipa_uk": "/ɪnˈsɒmniə/",
+    "ipa_us": "/ɪnˈsɑːmniə/",
+    "definition_zh": "失眠；失眠症；睡不着",
+    "definition_en": "the state of being unable to sleep, or a lasting difficulty in falling or staying asleep",
+    "core_image": "床头的钟走了一整夜，眼睛始终睁着",
+    "scene": "连续两周，他每夜只能睡两三个小时，白天靠浓咖啡撑着。By the third week, insomnia had worn him down until he could barely think.",
+    "sceneCN": "这里 insomnia 是「失眠症」（第 2 个义项：持续多夜、已成病症的那种失眠）；句意为到了第三周，失眠已经把他拖得几乎无法思考。",
+    "pos": [
+      {
+        "tag": "n.",
+        "zh": "失眠；失眠症"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "suffer from insomnia",
+        "zh": "患失眠症"
+      },
+      {
+        "phrase": "chronic insomnia",
+        "zh": "慢性失眠"
+      },
+      {
+        "phrase": "insomnia symptoms",
+        "zh": "失眠症状"
+      },
+      {
+        "phrase": "treat insomnia",
+        "zh": "治疗失眠"
+      },
+      {
+        "phrase": "insomnia treatment",
+        "zh": "失眠的治疗"
+      },
+      {
+        "phrase": "a bout of insomnia",
+        "zh": "一阵失眠"
+      }
+    ],
+    "forms": [
+      {
+        "label": "不可数名词（通常无复数）",
+        "form": "insomnia"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "insomniac",
+        "pos": "n.",
+        "zh": "失眠患者；由 insomnia 换 -ac（指人）构成，也可作形容词"
+      },
+      {
+        "word": "insomnious",
+        "pos": "adj.",
+        "zh": "失眠的；睡不着的；由拉丁语 insomnis 加 -ous 构成"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "Sleeplessness",
+        "titleCN": "失眠（睡不着）",
+        "definition": "the condition of being awake when one wants to sleep, especially on one particular night",
+        "definitionCN": "想睡却醒着的状态，尤指某一个夜里",
+        "example": "A bad cough gave him one night of insomnia.",
+        "exampleCN": "一场剧烈的咳嗽让他失眠了一夜。",
+        "why": "Latin in- denies and somnus is sleep, so the word simply states the absence of sleep.",
+        "whyCN": "拉丁语 in- 表示否定，somnus 是睡眠，所以这个词只是直白地说「没有睡眠」。"
+      },
+      {
+        "no": "02",
+        "title": "The persistent disorder",
+        "titleCN": "失眠症",
+        "definition": "a lasting pattern of poor sleep that leaves a person tired and impaired during the day",
+        "definitionCN": "长期睡不好、白天疲惫且状态受损的一种病症",
+        "example": "Insomnia is diagnosed when the problem lasts for weeks rather than for one night.",
+        "exampleCN": "失眠持续数周而不是一夜时，才会被诊断为失眠症。",
+        "why": "Medicine turned the simple absence of sleep into a disorder once doctors saw that it persists and harms the day.",
+        "whyCN": "当医生发现「睡不着」会持续下去并损害白天的状态，医学就把单纯的缺觉变成了一种病症。"
+      },
+      {
+        "no": "03",
+        "title": "Trouble falling asleep",
+        "titleCN": "入睡困难",
+        "definition": "the form of insomnia in which a person lies awake for a long time before sleeping",
+        "definitionCN": "躺了很久仍睡不着的那一类失眠",
+        "example": "Her insomnia begins at bedtime, when the lights go out.",
+        "exampleCN": "她的失眠从熄灯上床那一刻开始。",
+        "why": "Because sleep has two gates, the word splits into a failure to enter sleep and a failure to stay in it.",
+        "whyCN": "睡眠有两道门，这个词于是分成「进不去」和「待不住」两种情形。"
+      },
+      {
+        "no": "04",
+        "title": "Waking in the night",
+        "titleCN": "夜间易醒；早醒",
+        "definition": "the form of insomnia in which a person wakes repeatedly or too early and cannot sleep again",
+        "definitionCN": "夜里反复醒来或醒得太早、再难入睡的那一类失眠",
+        "example": "His insomnia shows up at three in the morning, when he cannot fall back asleep.",
+        "exampleCN": "他的失眠出现在凌晨三点，醒了就再难睡回去。",
+        "why": "Staying asleep is the second gate, and its failure earned the same name as the first.",
+        "whyCN": "「睡得住」是第二道门，它失守时也用了同一个名字。"
+      },
+      {
+        "no": "05",
+        "title": "Secondary insomnia",
+        "titleCN": "继发性失眠",
+        "definition": "insomnia caused by another condition, such as pain, a drug or anxiety",
+        "definitionCN": "由疼痛、药物或焦虑等其他状况引起的失眠",
+        "example": "The pain in his back brought on a secondary insomnia.",
+        "exampleCN": "背痛引起了他的继发性失眠。",
+        "why": "When another illness keeps a patient awake, the sleeplessness becomes a symptom that borrows the name.",
+        "whyCN": "当别的病让患者睡不着时，失眠就成了借用这个名字的一个症状。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Insomnia is Latin in-, not, plus somnus, sleep: the word spells out its own meaning.",
+        "cn": "insomnia 是拉丁语 in-（不）加 somnus（睡眠）：这个词把自己的意思直接拼了出来。"
+      },
+      "items": [
+        {
+          "era": "LATIN SOMNUS",
+          "en": "Somnus named sleep, and the god of sleep carried the same name.",
+          "cn": "somnus 指睡眠，睡神也用这个名字。"
+        },
+        {
+          "era": "LATIN IN-",
+          "en": "The prefix in- denied the word it joined, turning sleep into no sleep.",
+          "cn": "前缀 in- 否定它所接的词，把「睡眠」变成「没有睡眠」。"
+        },
+        {
+          "era": "LATIN INSOMNIS",
+          "en": "Insomnis described a person or a night without sleep.",
+          "cn": "insomnis 形容不眠的人，也形容不眠的夜。"
+        },
+        {
+          "era": "LATIN INSOMNIA",
+          "en": "Insomnia turned the adjective into a noun naming sleeplessness itself.",
+          "cn": "insomnia 把这个形容词变成名词，直接命名「睡不着」这件事。"
+        },
+        {
+          "era": "ENGLISH, 17TH C.",
+          "en": "English borrowed the Latin noun in the seventeenth century, at first for medical writing.",
+          "cn": "英语在十七世纪借入这个拉丁名词，起初用于医学写作。"
+        },
+        {
+          "era": "MODERN MEDICINE, 20TH C.",
+          "en": "Sleep medicine later defined insomnia as a disorder with a duration and a daytime cost, not merely one bad night.",
+          "cn": "睡眠医学后来把失眠症定义为有持续时间、并带来白天代价的病症，而不只是一夜没睡好。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "The look-alike group keeps the Latin sleep root, and the near-meaning group separates insomnia from the tiredness and the sleep disorders around it.",
+        "cn": "形近组守住拉丁语「睡眠」这个词根；近义组把失眠与它周围的疲惫和睡眠疾病分开。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "insomniac",
+              "ipa": "/ɪnˈsɒmniæk/",
+              "tag": "derived noun",
+              "definition": "a person who rarely sleeps well, also used as an adjective",
+              "definitionCN": "长期睡不好的人，也可作形容词；由 insomnia 换 -ac 构成。"
+            },
+            {
+              "word": "insomnious",
+              "ipa": "/ɪnˈsɒmniəs/",
+              "tag": "derived adjective",
+              "definition": "sleepless or unable to sleep",
+              "definitionCN": "失眠的；睡不着的；由拉丁语 insomnis 加 -ous 构成。"
+            },
+            {
+              "word": "somnolent",
+              "ipa": "/ˈsɒmnələnt/",
+              "tag": "same root",
+              "definition": "sleepy or inclined to sleep",
+              "definitionCN": "困倦的、想睡的；与 insomnia 同出拉丁语 somnus（睡眠）。"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "sleeplessness",
+              "ipa": "/ˈsliːpləsnəs/",
+              "tag": "near meaning",
+              "definition": "the state of not sleeping, without implying a disorder",
+              "definitionCN": "没睡着的状态，不暗示已成病症，范围比 insomnia 宽。"
+            },
+            {
+              "word": "sleep deprivation",
+              "ipa": "/sliːp dɪˌprɪˈveɪʃn/",
+              "tag": "near meaning",
+              "definition": "the condition that results from not getting enough sleep",
+              "definitionCN": "睡眠不足造成的状态，是结果，而 insomnia 是原因。"
+            },
+            {
+              "word": "narcolepsy",
+              "ipa": "/ˈnɑːkəlepsi/",
+              "tag": "opposite disorder",
+              "definition": "a disorder in which a person falls asleep uncontrollably",
+              "definitionCN": "无法控制地入睡的疾病，方向与失眠正好相反。"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Insomnia is Latin in-, not, plus somnus, sleep, so the word form already carries its meaning.",
+        "cn": "insomnia 是拉丁语 in-（不）加 somnus（睡眠），词形本身就已经带着它的意思。"
+      },
+      "normal": [
+        {
+          "en": "In- says not and somnus says sleep, so insomnia is literally no sleep.",
+          "cn": "in- 是「不」，somnus 是「睡眠」，insomnia 字面就是「没有睡眠」。"
+        },
+        {
+          "en": "Somnolent and somnambulist carry the same sleep root, one sleepy and one walking in sleep.",
+          "cn": "somnolent 与 somnambulist 共享同一个「睡眠」词根，一个指困倦，一个指梦游。"
+        },
+        {
+          "en": "An insomniac is the person, and insomnious is the rarer adjective for the sleepless state.",
+          "cn": "insomniac 指人，insomnious 是较少用的形容词，形容失眠的状态。"
+        },
+        {
+          "en": "Insomnia is uncountable, so a bout of insomnia names one episode.",
+          "cn": "insomnia 不可数，说 a bout of insomnia 才指一阵失眠。"
+        },
+        {
+          "en": "Sleep deprivation is the effect, while insomnia is the difficulty that causes it.",
+          "cn": "sleep deprivation 是结果，insomnia 则是造成它的那个困难。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "Picture a clock above the bed, its hands moving while the eyes stay open.",
+          "cn": "想象床头上方有一只钟，指针在走，眼睛却一直睁着。"
+        },
+        {
+          "en": "Imagine weeks of short nights and a face that grows grey in daylight.",
+          "cn": "想象连续数周夜夜短睡，一张脸在白天越来越灰。"
+        },
+        {
+          "en": "Think of a body lying still while the mind keeps running through the day.",
+          "cn": "想象身体躺着不动，脑子却把白天的事一遍遍过。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "Insomnia made her dread the sound of the clock at night.",
+        "cn": "失眠让她一到夜里就害怕听见钟声。"
+      },
+      {
+        "en": "He has struggled with insomnia since he changed jobs.",
+        "cn": "换工作之后，他一直受失眠困扰。"
+      },
+      {
+        "en": "Doctors first treat insomnia by changing sleep habits.",
+        "cn": "医生先通过改变睡眠习惯来治疗失眠。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「硬睡么」——躺在床上硬要睡，偏偏睡不着，正好是这个意思；这只是谐音联想，与词源无关。",
+      "word": "insomnia"
+    },
+    "root": "拉丁语 in-（不）+ somnus（睡眠）→ insomnis（不眠的）→ insomnia（失眠）→ 英语直接借入，核心义「没有睡眠」。",
+    "sensesIntro": {
+      "en": "The word runs from one sleepless night to the lasting disorder, then splits into the two gates of sleep, and finally covers sleeplessness caused by something else.",
+      "cn": "这个词从一夜没睡，走到长期的病症，再分成睡眠的两道门，最后指由别的病引起的失眠。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: a clock above the bed moving all night while the eyes stay open.",
+        "cn": "核心意象：床头的钟走了一整夜，眼睛始终睁着。"
+      },
+      "chain": [
+        "SOMNUS",
+        "SLEEP",
+        "IN-",
+        "NO SLEEP",
+        "SLEEPLESS NIGHT",
+        "INSOMNIA DISORDER"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "One sleepless night is the plain everyday sense.",
+          "cn": "一夜没睡，是最日常的义项。"
+        },
+        {
+          "senses": "02",
+          "en": "The lasting disorder is the medical sense.",
+          "cn": "长期存在的病症，是医学义项。"
+        },
+        {
+          "senses": "03",
+          "en": "Failing to enter sleep is the first of the two gates.",
+          "cn": "进不了睡眠，是两道门中的第一道。"
+        },
+        {
+          "senses": "04",
+          "en": "Waking in the night is the other gate.",
+          "cn": "夜里醒来，是另一道门。"
+        },
+        {
+          "senses": "01 · 05",
+          "en": "A single bad night and sleeplessness caused by pain share one word.",
+          "cn": "一夜没睡好，与疼痛引起的失眠，共用一个词。"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Insomnia is Latin in- plus somnus, and the same stem returns in insomniac, insomnious and somnolent.",
+        "cn": "insomnia 是拉丁语 in- 加 somnus，同一个词干还出现在 insomniac、insomnious 与 somnolent 里。"
+      },
+      "latinIntro": {
+        "en": "Latin somnus means sleep, insomnis means sleepless, and insomnia names the condition itself.",
+        "cn": "拉丁语 somnus 是睡眠，insomnis 是不眠的，insomnia 则命名这种状态本身。"
+      },
+      "items": [
+        {
+          "word": "in-",
+          "structure": "Latin prefix",
+          "meaning": "not",
+          "meaningCN": "不；非",
+          "example": "insomnia, invisible",
+          "exampleCN": "失眠；看不见的"
+        },
+        {
+          "word": "somnus",
+          "structure": "Latin noun",
+          "meaning": "sleep",
+          "meaningCN": "睡眠",
+          "example": "somnus, somnolent",
+          "exampleCN": "睡眠；困倦的"
+        },
+        {
+          "word": "insomnis",
+          "structure": "Latin adjective",
+          "meaning": "sleepless",
+          "meaningCN": "不眠的",
+          "example": "insomnis, insomnia",
+          "exampleCN": "不眠的；失眠"
+        },
+        {
+          "word": "insomnia",
+          "structure": "Latin noun",
+          "meaning": "sleeplessness",
+          "meaningCN": "失眠；睡不着",
+          "example": "insomnia, insomniac",
+          "exampleCN": "失眠；失眠患者"
+        },
+        {
+          "word": "-ia",
+          "structure": "Latin and Greek suffix",
+          "meaning": "condition, state",
+          "meaningCN": "状态；病症",
+          "example": "insomnia, anaemia",
+          "exampleCN": "失眠；贫血"
+        },
+        {
+          "word": "somn-",
+          "structure": "Latin root",
+          "meaning": "sleep",
+          "meaningCN": "睡眠",
+          "example": "somnolent, somnambulism",
+          "exampleCN": "困倦的；梦游"
+        },
+        {
+          "word": "-olent",
+          "structure": "adjective suffix",
+          "meaning": "full of",
+          "meaningCN": "充满……的",
+          "example": "somnolent, corpulent",
+          "exampleCN": "困倦的；肥胖的"
+        },
+        {
+          "word": "somnambul-",
+          "structure": "Latin root",
+          "meaning": "walking in sleep",
+          "meaningCN": "睡中行走",
+          "example": "somnambulism, somnambulist",
+          "exampleCN": "梦游；梦游者"
+        },
+        {
+          "word": "-ac",
+          "structure": "suffix",
+          "meaning": "person affected by",
+          "meaningCN": "受……影响的人",
+          "example": "insomniac, maniac",
+          "exampleCN": "失眠患者；躁狂者"
+        },
+        {
+          "word": "sopor",
+          "structure": "Latin noun",
+          "meaning": "deep sleep",
+          "meaningCN": "沉睡",
+          "example": "soporific, soporose",
+          "exampleCN": "催眠的；昏睡的"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "somnus",
+          "structure": "Latin noun",
+          "meaning": "sleep",
+          "meaningCN": "睡眠",
+          "example": "Somnus gives somnolent and insomnia.",
+          "exampleCN": "somnus 生出 somnolent 与 insomnia。"
+        },
+        {
+          "word": "insomnis",
+          "structure": "Latin adjective",
+          "meaning": "sleepless",
+          "meaningCN": "不眠的",
+          "example": "Insomnis is the adjective behind insomnia.",
+          "exampleCN": "insomnis 是 insomnia 背后的那个形容词。"
+        },
+        {
+          "word": "somnium",
+          "structure": "Latin noun",
+          "meaning": "dream",
+          "meaningCN": "梦",
+          "example": "Somnium gives somnial and somnium.",
+          "exampleCN": "somnium 生出 somnial 与 somnium。"
+        }
+      ]
+    }
+  },
+  {
+    "word": "diagnosis",
+    "ipa_uk": "/ˌdaɪəɡˈnəʊsɪs/",
+    "ipa_us": "/ˌdaɪəɡˈnoʊsɪs/",
+    "definition_zh": "诊断；诊断结论；诊断过程",
+    "definition_en": "the work of identifying a disease from its signs and symptoms, or the name given to that disease",
+    "core_image": "散落一桌的症状碎片，被拼成一张写着病名的标签",
+    "scene": "医生把化验单、听诊记录和影像片子并排摊在桌上，一条条对照。After three days of tests, the diagnosis was still unclear.",
+    "sceneCN": "这里 diagnosis 是「诊断结论」（第 2 个义项：给病情定名的那句结论）；句意为检查做了三天，诊断结论仍不清楚。",
+    "pos": [
+      {
+        "tag": "n.",
+        "zh": "诊断；诊断结论"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "make a diagnosis",
+        "zh": "作出诊断"
+      },
+      {
+        "phrase": "confirm a diagnosis",
+        "zh": "确认诊断"
+      },
+      {
+        "phrase": "differential diagnosis",
+        "zh": "鉴别诊断"
+      },
+      {
+        "phrase": "early diagnosis",
+        "zh": "早期诊断"
+      },
+      {
+        "phrase": "clinical diagnosis",
+        "zh": "临床诊断"
+      },
+      {
+        "phrase": "reach a diagnosis",
+        "zh": "得出诊断"
+      }
+    ],
+    "forms": [
+      {
+        "label": "复数",
+        "form": "diagnoses"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "diagnose",
+        "pos": "v.",
+        "zh": "诊断；由 diagnosis 逆构而来的动词"
+      },
+      {
+        "word": "diagnostic",
+        "pos": "adj.",
+        "zh": "诊断的；来自希腊语 diagnōstikos，也可作名词指诊断试剂"
+      },
+      {
+        "word": "diagnostician",
+        "pos": "n.",
+        "zh": "诊断医师；diagnostic 加 -ian 指以此为业的人"
+      },
+      {
+        "word": "diagnostics",
+        "pos": "n.",
+        "zh": "诊断学；作不可数名词，指诊断的技术与流程"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "The process of identifying a disease",
+        "titleCN": "诊断（辨认疾病的过程）",
+        "definition": "the steps by which a doctor gathers signs, symptoms and tests in order to name the condition",
+        "definitionCN": "医生汇集体征、症状与检查结果，以确定病名的整个过程",
+        "example": "Diagnosis began with a careful history and a physical examination.",
+        "exampleCN": "诊断从详细的病史和体格检查开始。",
+        "why": "Greek dia- means through or apart and gnosis means knowledge, so diagnosis is knowledge worked out by sifting.",
+        "whyCN": "希腊语 dia- 表示「穿过、分开」，gnosis 表示「知」，所以诊断就是靠分辨筛出来的那种「知」。"
+      },
+      {
+        "no": "02",
+        "title": "The named conclusion",
+        "titleCN": "诊断结论",
+        "definition": "the opinion or label that names the disease after the evidence has been weighed",
+        "definitionCN": "权衡证据之后为疾病定名的那条结论",
+        "example": "The final diagnosis was pneumonia rather than a virus.",
+        "exampleCN": "最终诊断是肺炎，而不是病毒感染。",
+        "why": "Once the sifting ends, the same word names the answer itself and not only the search.",
+        "whyCN": "分辨结束之后，同一个词就指那个答案本身，而不只是指寻找的过程。"
+      },
+      {
+        "no": "03",
+        "title": "Differential diagnosis",
+        "titleCN": "鉴别诊断",
+        "definition": "the systematic comparison of several possible diseases before one of them is chosen",
+        "definitionCN": "在选定一种病之前，系统比较几种可能疾病的做法",
+        "example": "A differential diagnosis listed four diseases and ruled out three.",
+        "exampleCN": "鉴别诊断列出四种病，又排除了其中三种。",
+        "why": "Because dia- also means apart, the word naturally covers the act of telling candidate diseases apart.",
+        "whyCN": "因为 dia- 也有「分开」的意思，这个词自然就涵盖了把几种候选疾病区分开来的做法。"
+      },
+      {
+        "no": "04",
+        "title": "A figurative assessment",
+        "titleCN": "喻指对问题的诊断",
+        "definition": "a careful judgement about what is wrong with a system, an organization or an economy",
+        "definitionCN": "对某个系统、机构或经济哪里出了问题的审慎判断",
+        "example": "The engineer gave a diagnosis of the failing network before any repair.",
+        "exampleCN": "工程师在动手修之前，先给这个出故障的网络下了一个诊断。",
+        "why": "The medical word was borrowed because every fault, like an illness, has to be named before it can be treated.",
+        "whyCN": "医学词被借走，是因为任何故障都像疾病，必须先被命名才能被处理。"
+      },
+      {
+        "no": "05",
+        "title": "Retrospective diagnosis",
+        "titleCN": "回顾性诊断",
+        "definition": "an attempt to name the illness of a person long dead, or of an event already past",
+        "definitionCN": "为早已去世的人或已经过去的事推断病名的做法",
+        "example": "Historians still argue about the retrospective diagnosis of the last illness of the composer.",
+        "exampleCN": "历史学者至今仍在争论这位作曲家临终所患何病的推断诊断。",
+        "why": "Because the tool outlived the clinic, it now reaches back into history, where the patient can no longer be examined.",
+        "whyCN": "因为这件工具活过了诊室本身，它如今伸进历史，去面对再也无法受检的病人。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Diagnosis joins Greek dia-, through or apart, to gnosis, knowledge, from the verb gignoskein, to know.",
+        "cn": "diagnosis 把希腊语 dia-（穿过、分开）与 gnosis（知）接在一起，后者来自动词 gignoskein（认识）。"
+      },
+      "items": [
+        {
+          "era": "GREEK DIA-",
+          "en": "Dia- meant through, and it also meant apart, as in separating one thing from another.",
+          "cn": "dia- 意为「穿过」，也有「分开」的意思，如把一物与另一物分开。"
+        },
+        {
+          "era": "GREEK GIGNOSKEIN",
+          "en": "Gignoskein meant to know or to recognize, especially to recognize a person.",
+          "cn": "gignoskein 意为「知道、认出」，尤指认出一个人。"
+        },
+        {
+          "era": "GREEK GNOSIS",
+          "en": "Gnosis was knowledge, and it became the second half of many learned words.",
+          "cn": "gnosis 是「知识」，后来成了许多学术词的后半截。"
+        },
+        {
+          "era": "GREEK DIAGNOSIS",
+          "en": "Diagnosis meant a distinguishing or a discerning, the act of telling one thing from another.",
+          "cn": "diagnosis 意为「辨别、辨识」，即把一物与另一物区分开的那个动作。"
+        },
+        {
+          "era": "LATIN DIAGNOSIS",
+          "en": "Medical Latin adopted the Greek noun, and it entered the European languages through medicine.",
+          "cn": "医学拉丁语采用了这个希腊名词，它又经由医学进入欧洲诸语言。"
+        },
+        {
+          "era": "ENGLISH, 17TH C.",
+          "en": "English took the word in the seventeenth century, first for medical judgement and later for any assessment.",
+          "cn": "英语在十七世纪取用这个词，起初指医学判断，后来也指任何评估。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "The look-alike group stays with the knowing root and its prefixed relatives, while the near-meaning group places diagnosis among the steps of clinical work.",
+        "cn": "形近组围绕「知」这个词根及其带前缀的同族词；近义组把诊断放进临床工作的各个环节里。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "diagnose",
+              "ipa": "/daɪˈɡnəʊz/",
+              "tag": "derived verb",
+              "definition": "to identify a disease from its signs and symptoms",
+              "definitionCN": "根据体征与症状辨认疾病；由 diagnosis 逆构出的动词。"
+            },
+            {
+              "word": "diagnostic",
+              "ipa": "/ˌdaɪəɡˈnɒstɪk/",
+              "tag": "derived adjective",
+              "definition": "used for or relating to diagnosis",
+              "definitionCN": "用于诊断的、与诊断有关的；也可作名词指诊断试剂。"
+            },
+            {
+              "word": "prognosis",
+              "ipa": "/prəˈɡnəʊsɪs/",
+              "tag": "same root",
+              "definition": "a forecast of how an illness is likely to develop",
+              "definitionCN": "对病情发展的预测；与 diagnosis 同出 gnosis，前缀 pro- 表示「在前」。"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "assessment",
+              "ipa": "/əˈsesmənt/",
+              "tag": "near meaning",
+              "definition": "the careful judging of a condition or a situation",
+              "definitionCN": "对状况或处境的仔细评估，范围比 diagnosis 宽。"
+            },
+            {
+              "word": "screening",
+              "ipa": "/ˈskriːnɪŋ/",
+              "tag": "near meaning",
+              "definition": "testing people for a disease before symptoms appear",
+              "definitionCN": "在症状出现之前筛查疾病，是诊断之前的一步。"
+            },
+            {
+              "word": "examination",
+              "ipa": "/ɪɡˌzæmɪˈneɪʃn/",
+              "tag": "near meaning",
+              "definition": "the physical checking of the body by a doctor",
+              "definitionCN": "医生对身体做的检查，是诊断的依据之一，本身不是结论。"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Diagnosis is built from dia-, through or apart, and gnosis, knowledge, so the word means knowledge sorted out by comparison.",
+        "cn": "diagnosis 由 dia-（穿过、分开）与 gnosis（知）构成，所以这个词的意思是靠比较分拣出来的「知」。"
+      },
+      "normal": [
+        {
+          "en": "Dia- means through or apart and gnosis means knowledge, so diagnosis is knowledge gained by sifting.",
+          "cn": "dia- 是穿过或分开，gnosis 是知，diagnosis 就是靠分拣得来的认识。"
+        },
+        {
+          "en": "Diagnose is the verb, diagnosis the noun, and diagnostic the adjective.",
+          "cn": "diagnose 是动词，diagnosis 是名词，diagnostic 是形容词。"
+        },
+        {
+          "en": "The plural is diagnoses, with a long ee sound before the final s.",
+          "cn": "复数是 diagnoses，末尾的 s 之前是一个长长的「伊」音。"
+        },
+        {
+          "en": "A differential diagnosis compares candidates before one of them is chosen.",
+          "cn": "differential diagnosis 先比较几种候选病，再从中选定一种。"
+        },
+        {
+          "en": "Prognosis shares gnosis but looks forward, while diagnosis looks at the present.",
+          "cn": "prognosis 共享 gnosis，却朝前看；diagnosis 看的是当下。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "Picture scattered clues on a desk being fitted together into one label.",
+          "cn": "想象桌上散落的线索被拼成一张标签。"
+        },
+        {
+          "en": "Imagine a long report with a single disease name written at the bottom.",
+          "cn": "想象一长页报告的末尾只写着一个病名。"
+        },
+        {
+          "en": "Think of three names on a whiteboard with two of them crossed out.",
+          "cn": "想象白板上写着三个病名，其中两个被划掉。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "The diagnosis was confirmed by a biopsy the next week.",
+        "cn": "诊断在下一周由活检得到确认。"
+      },
+      {
+        "en": "Doctors need several tests before they can make a diagnosis.",
+        "cn": "医生需要几项检查才能作出诊断。"
+      },
+      {
+        "en": "A delayed diagnosis can cost a patient the best window for treatment.",
+        "cn": "诊断延迟可能让患者错过最好的治疗时机。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「点个脑细思」——医生点着化验单，细细思量一番，才写下诊断；这只是谐音联想，与词源无关。",
+      "word": "diagnosis"
+    },
+    "root": "希腊语 dia-（穿过、分开）+ gignōskein（认识）→ gnōsis（知识）→ diagnosis（辨别、判断）→ 拉丁语 diagnosis → 英语 diagnosis，核心义「把病情分辨清楚」。",
+    "sensesIntro": {
+      "en": "The word moves from the sifting process to the named answer, then to the comparison of candidates, to any assessment outside medicine, and finally to a judgement about the past.",
+      "cn": "这个词从分辨的过程走到定名的答案，再走到候选病的比较，又借到医学之外的任何评估，最后指向对往事的判断。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: scattered clues fitted together into one label bearing a disease name.",
+        "cn": "核心意象：散落的线索被拼成一张写着病名的标签。"
+      },
+      "chain": [
+        "DIA-",
+        "THROUGH",
+        "GNOSIS",
+        "KNOWLEDGE",
+        "DISTINGUISH",
+        "NAMED DISEASE"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "The sifting process is the first sense of the word.",
+          "cn": "分辨的过程，是这个词的第一个义项。"
+        },
+        {
+          "senses": "02",
+          "en": "The named answer is what the process produces.",
+          "cn": "定名的答案，是这个过程产出的结果。"
+        },
+        {
+          "senses": "03",
+          "en": "Comparing candidates is the process at its most explicit.",
+          "cn": "比较候选病，是这个过程最明确的形态。"
+        },
+        {
+          "senses": "04",
+          "en": "Outside medicine the same word assesses any faulty system.",
+          "cn": "出了医学，同一个词用来评估任何出故障的系统。"
+        },
+        {
+          "senses": "01 · 05",
+          "en": "Both the clinic and the history book use the word for naming an illness from evidence.",
+          "cn": "诊室与史书都用这个词，指根据证据为疾病定名。"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Diagnosis joins Greek dia- to gnosis, and English built diagnose, diagnostic and diagnostician on the same stem.",
+        "cn": "diagnosis 把希腊语 dia- 与 gnosis 接在一起，英语又用同一词干造出 diagnose、diagnostic 与 diagnostician。"
+      },
+      "latinIntro": {
+        "en": "Latin kept the Greek diagnosis and supplied cognoscere, to know, from the same deep knowing root.",
+        "cn": "拉丁语保留了希腊语的 diagnosis，并提供 cognoscere（认识），它与这个词根同出更古老的「知」。"
+      },
+      "items": [
+        {
+          "word": "dia-",
+          "structure": "Greek prefix",
+          "meaning": "through, apart",
+          "meaningCN": "穿过；分开",
+          "example": "diagnosis, diameter",
+          "exampleCN": "诊断；直径"
+        },
+        {
+          "word": "gnosis",
+          "structure": "Greek noun",
+          "meaning": "knowledge",
+          "meaningCN": "知识",
+          "example": "gnosis, diagnosis",
+          "exampleCN": "知识；诊断"
+        },
+        {
+          "word": "gignoskein",
+          "structure": "Greek verb",
+          "meaning": "to know, to recognize",
+          "meaningCN": "知道；认出",
+          "example": "gignoskein, diagnosis",
+          "exampleCN": "认识；诊断"
+        },
+        {
+          "word": "diagnosis",
+          "structure": "Greek and Latin noun",
+          "meaning": "a distinguishing, a decision",
+          "meaningCN": "辨别；判断",
+          "example": "diagnosis, diagnoses",
+          "exampleCN": "诊断；诊断的复数"
+        },
+        {
+          "word": "diagnose",
+          "structure": "English verb",
+          "meaning": "to identify a disease",
+          "meaningCN": "诊断；辨认疾病",
+          "example": "diagnose, diagnosed",
+          "exampleCN": "诊断；被诊断"
+        },
+        {
+          "word": "diagnostic",
+          "structure": "English adjective",
+          "meaning": "relating to diagnosis",
+          "meaningCN": "诊断的",
+          "example": "diagnostic, diagnostics",
+          "exampleCN": "诊断的；诊断学"
+        },
+        {
+          "word": "-sis",
+          "structure": "Greek suffix",
+          "meaning": "action, process",
+          "meaningCN": "动作；过程",
+          "example": "diagnosis, prognosis",
+          "exampleCN": "诊断；预后"
+        },
+        {
+          "word": "pro-",
+          "structure": "Greek prefix",
+          "meaning": "before",
+          "meaningCN": "在前；预先",
+          "example": "prognosis, prologue",
+          "exampleCN": "预后；序言"
+        },
+        {
+          "word": "-ic",
+          "structure": "adjective suffix",
+          "meaning": "relating to",
+          "meaningCN": "与……有关的",
+          "example": "diagnostic, graphic",
+          "exampleCN": "诊断的；图形的"
+        },
+        {
+          "word": "-ian",
+          "structure": "suffix",
+          "meaning": "person who practises",
+          "meaningCN": "从事……的人",
+          "example": "diagnostician, physician",
+          "exampleCN": "诊断医师；内科医生"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "diagnosis",
+          "structure": "Latin noun",
+          "meaning": "a distinguishing, a decision",
+          "meaningCN": "辨别；判断",
+          "example": "Diagnosis is the Latin form of the Greek noun.",
+          "exampleCN": "diagnosis 是那个希腊名词的拉丁形式。"
+        },
+        {
+          "word": "cognoscere",
+          "structure": "Latin verb",
+          "meaning": "to know, to learn",
+          "meaningCN": "认识；了解",
+          "example": "Cognoscere gives cognition and recognise.",
+          "exampleCN": "cognoscere 生出 cognition 与 recognise。"
+        }
+      ]
+    }
+  }
+]

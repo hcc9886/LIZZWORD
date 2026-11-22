@@ -2284,6 +2284,8 @@ window.BOOK_MANIFEST = {
     "./books/prepared/ielts-0080.json",
     "./books/prepared/ielts-0089.json",
     "./books/prepared/medical-9001.json",
+    "./books/prepared/medical-9002.json",
+    "./books/prepared/medical-9003.json",
     "./books/prepared/sat-0004.json",
     "./books/prepared/sat-0387.json",
     "./books/prepared/toefl-core-5000-0062.json",
@@ -2295,6 +2297,7 @@ window.BOOK_MANIFEST = {
     "./books/prepared/toefl-core-5000-0098.json"
   ],
   "business-law": [
+    "./books/prepared/business-law-9001.json",
     "./books/prepared/cet4-0001.json",
     "./books/prepared/cet4-0002.json",
     "./books/prepared/cet4-0003.json",

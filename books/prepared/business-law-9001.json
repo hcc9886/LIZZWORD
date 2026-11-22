@@ -1,0 +1,1867 @@
+[
+  {
+    "word": "negligence",
+    "ipa_uk": "/nɪˈɡlɪdʒəns/",
+    "ipa_us": "/nɪˈɡlɪdʒəns/",
+    "definition_zh": "疏忽；过失；失职；过失侵权",
+    "definition_en": "a failure to exercise the care that a reasonable person or a competent professional should exercise",
+    "core_image": "本该伸手扶住，却把手缩了回去",
+    "scene": "仓库的叉车通道没有画线，新来的工人被撞伤了脚。The injured worker sued the warehouse for negligence in failing to mark the forklift lane.",
+    "sceneCN": "这里的 negligence 是「过失」（第 1 个义项：未尽合理注意的疏忽）；句意：受伤的工人以仓库未划出叉车通道的过失为由提出索赔。",
+    "pos": [
+      {
+        "tag": "n.",
+        "zh": "疏忽；过失；失职；（法律）过失责任"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "professional negligence",
+        "zh": "职业过失"
+      },
+      {
+        "phrase": "gross negligence",
+        "zh": "重大过失"
+      },
+      {
+        "phrase": "contributory negligence",
+        "zh": "共同过失；与有过失"
+      },
+      {
+        "phrase": "medical negligence",
+        "zh": "医疗过失"
+      },
+      {
+        "phrase": "negligence claim",
+        "zh": "过失索赔"
+      },
+      {
+        "phrase": "criminal negligence",
+        "zh": "刑事过失"
+      }
+    ],
+    "forms": [
+      {
+        "label": "无变化（不可数名词，无复数）",
+        "form": "negligence"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "negligent",
+        "pos": "adj.",
+        "zh": "由 negligence 去掉名词后缀 -ence、换成形容词后缀 -ent，义为「疏忽的；过失的」"
+      },
+      {
+        "word": "negligently",
+        "pos": "adv.",
+        "zh": "由 negligent 加副词后缀 -ly，义为「疏忽地」"
+      },
+      {
+        "word": "neglect",
+        "pos": "v.",
+        "zh": "与 negligence 同出拉丁语 neglegere，义为「忽视；疏于照管」"
+      },
+      {
+        "word": "negligible",
+        "pos": "adj.",
+        "zh": "由拉丁词干加 -ible 构成，义为「微不足道的；可忽略的」"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "Ordinary carelessness",
+        "titleCN": "疏忽；大意",
+        "definition": "a lack of the care an ordinary person would take in doing something",
+        "definitionCN": "做某事时缺少常人应有的谨慎",
+        "example": "The keys were lost through his own negligence.",
+        "exampleCN": "钥匙是因为他自己的疏忽才丢的。",
+        "why": "The Latin verb neglegere means to disregard, literally not to pick something up, so negligence is care that was never taken up.",
+        "whyCN": "拉丁语动词 neglegere 意为「不理、不顾」，字面是「不去拾起」，所以过失就是本该拾起的照料始终没有被拾起。"
+      },
+      {
+        "no": "02",
+        "title": "Breach of a duty of care",
+        "titleCN": "（法律）过失；过失侵权",
+        "definition": "in law, a failure to meet the standard of care owed to another that causes recoverable harm",
+        "definitionCN": "法律上未达到对他人应负的注意标准，并造成可获赔偿的损害",
+        "example": "The court held the hospital liable for negligence.",
+        "exampleCN": "法院认定医院应对过失承担责任。",
+        "why": "Once the law recognises a duty of care, careless conduct stops being merely unfortunate and becomes a civil wrong.",
+        "whyCN": "一旦法律承认注意义务的存在，粗心行为就不再只是运气不好，而成为一种可诉的民事不法，这正是日常疏忽长成法律概念的关键一步。"
+      },
+      {
+        "no": "03",
+        "title": "Professional negligence",
+        "titleCN": "职业过失",
+        "definition": "the failure of a professional to reach the standard expected of a competent member of that profession",
+        "definitionCN": "专业人士未达到该行业合格从业者应有的水准",
+        "example": "The solicitor was accused of professional negligence over the missed filing date.",
+        "exampleCN": "这名律师因错过提交日期被指职业过失。",
+        "why": "Where skill is promised, the measure of care rises from the ordinary person to the competent practitioner.",
+        "whyCN": "当一个人以专业技艺提供服务时，注意的尺度就从普通人提高到合格从业者，同一种疏忽因此有了更高的门槛。"
+      },
+      {
+        "no": "04",
+        "title": "Contributory negligence",
+        "titleCN": "共同过失；与有过失",
+        "definition": "the careless conduct of the claimant that helps cause the harm and reduces the damages awarded",
+        "definitionCN": "索赔人自身的疏忽行为促成了损害，因而减少可获得的赔偿",
+        "example": "Her damages were reduced by thirty per cent for contributory negligence.",
+        "exampleCN": "由于共同过失，她的赔偿金被削减了三成。",
+        "why": "Fault can be shared: the same careless thread runs through both parties, so the loss is divided instead of being laid at one door.",
+        "whyCN": "过错可以由双方分担：同一根粗心的线穿过两边，损失便按比例分开，而不是全部算在一方头上。"
+      },
+      {
+        "no": "05",
+        "title": "Gross negligence",
+        "titleCN": "重大过失",
+        "definition": "a serious departure from the care required, more blameworthy than ordinary negligence and close to recklessness",
+        "definitionCN": "严重偏离应有的注意，比一般过失更应受责难，接近轻率",
+        "example": "The carrier could not rely on the exemption clause because of gross negligence.",
+        "exampleCN": "由于存在重大过失，承运人不能援引免责条款。",
+        "why": "Courts grade carelessness by degree, and the worst degree earns a harsher label and weaker legal protection.",
+        "whyCN": "法院按程度给疏忽分级，最重的一级会得到更严厉的标签和更弱的免责保护，这是核心意象在程度上的延伸。"
+      },
+      {
+        "no": "06",
+        "title": "Criminal negligence",
+        "titleCN": "刑事过失",
+        "definition": "carelessness grave enough for the criminal law to treat it as the fault element of an offence",
+        "definitionCN": "严重到足以被刑法视为犯罪过错要件的疏忽",
+        "example": "The site manager was charged with criminal negligence after the collapse.",
+        "exampleCN": "坍塌事故后，工地经理被控刑事过失。",
+        "why": "When careless conduct kills or endangers life, the state may turn the civil failure of care into a crime.",
+        "whyCN": "当粗心行为致人死亡或危及生命时，国家会把民事上的未尽注意转化为刑事罪名，同一个疏忽因此跨进了刑法领域。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Negligence comes from Latin neglegentia, carelessness, from neglegere, to disregard.",
+        "cn": "negligence 来自拉丁语 neglegentia（疏忽），源于 neglegere（不理、忽视）。"
+      },
+      "items": [
+        {
+          "era": "LATIN",
+          "en": "Legere means to pick up, gather, or read, and the prefix neg- denies it.",
+          "cn": "legere 意为拾起、收集或阅读，前缀 neg- 把它否定。"
+        },
+        {
+          "era": "LATIN",
+          "en": "Neglegere therefore means not to pick something up, hence to disregard it.",
+          "cn": "neglegere 因此意为「不去拾起」，引申为「不予理会」。"
+        },
+        {
+          "era": "LATIN",
+          "en": "Neglegentia, the noun of carelessness, is formed from the participle stem of the verb.",
+          "cn": "表示疏忽的名词 neglegentia 由该动词的分词词干构成。"
+        },
+        {
+          "era": "OLD FRENCH",
+          "en": "Old French negligence keeps the Latin sense of carelessness.",
+          "cn": "古法语 negligence 保留了拉丁语「疏忽」的含义。"
+        },
+        {
+          "era": "MIDDLE ENGLISH",
+          "en": "English borrows the word in the fourteenth century as a general term for carelessness.",
+          "cn": "英语在十四世纪借入该词，用作泛指疏忽的词。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "Modern legal usage narrows it into a breach of the duty of care.",
+          "cn": "现代法律用法把它收窄为违反注意义务。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "Negligence sits in the family of neglegere, beside neglect, negligent, and negligible, and near the wider vocabulary of fault.",
+        "cn": "negligence 属于 neglegere 词族，与 neglect、negligent、negligible 相邻，也靠近表示过错的更大词场。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "neglect",
+              "ipa": "/nɪˈɡlekt/",
+              "tag": "same root",
+              "definition": "to fail to look after or attend to something",
+              "definitionCN": "忽视；疏于照管（与 negligence 同出 neglegere）"
+            },
+            {
+              "word": "negligent",
+              "ipa": "/nɪˈɡlɪdʒənt/",
+              "tag": "derived form",
+              "definition": "showing a lack of proper care",
+              "definitionCN": "疏忽的；过失的（由 negligence 换后缀而来的形容词）"
+            },
+            {
+              "word": "negligible",
+              "ipa": "/nɪˈɡlɪdʒəbl/",
+              "tag": "same root",
+              "definition": "so small or slight as to be unimportant",
+              "definitionCN": "微不足道的；可忽略的（同出 neglegere，但意义已经偏移）"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "carelessness",
+              "ipa": "/ˈkeələsnəs/",
+              "tag": "near meaning",
+              "definition": "the quality of not being careful",
+              "definitionCN": "粗心；不谨慎（日常近义词，不带法律含义）"
+            },
+            {
+              "word": "recklessness",
+              "ipa": "/ˈrekləsnəs/",
+              "tag": "near meaning",
+              "definition": "careless action taken without regard to an obvious risk",
+              "definitionCN": "轻率；不顾明显风险的鲁莽（程度重于 negligence）"
+            },
+            {
+              "word": "laxity",
+              "ipa": "/ˈlæksəti/",
+              "tag": "near meaning",
+              "definition": "a lack of strictness or care in supervision",
+              "definitionCN": "松懈；监管不严（多指管理上的疏忽）"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Negligence is care that was never picked up: neg- says no, legere says to gather, and the hand stays open.",
+        "cn": "negligence 是始终没有被拾起的照料：neg- 表示「不」，legere 表示「拾起」，而那只手一直松着。"
+      },
+      "normal": [
+        {
+          "en": "Neg- means not and legere means to pick up, so to neglect a duty is literally not to pick it up.",
+          "cn": "neg- 表示「不」，legere 表示「拾起」，所以 neglect a duty 字面上就是「不去拾起义务」。"
+        },
+        {
+          "en": "The family runs negligence, negligent, negligently, and neglect.",
+          "cn": "这个词族依次是 negligence、negligent、negligently 与 neglect。"
+        },
+        {
+          "en": "Learn the legal trio: duty of care, breach, and damage.",
+          "cn": "记住法律上的三件套：注意义务、违反义务、损害后果。"
+        },
+        {
+          "en": "Gross negligence is worse than ordinary negligence, while contributory negligence is the share of the claimant.",
+          "cn": "重大过失重于一般过失，共同过失则是索赔人自己那一份过错。"
+        },
+        {
+          "en": "Compare neglect: neglect is the act of leaving something unattended, while negligence names the quality or the legal wrong.",
+          "cn": "对比 neglect：neglect 指把某事搁下不管的行为，negligence 则指这种品性或法律上的过失。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "Picture a hand that opens just as a rope should be gripped.",
+          "cn": "想象一只手在该握紧绳子的时候忽然松开。"
+        },
+        {
+          "en": "Picture a driver looking down at a phone while a child steps off the kerb.",
+          "cn": "想象司机低头看手机，而一个孩子正走下路缘。"
+        },
+        {
+          "en": "Picture a surgeon ignoring a checklist pinned beside the operating table.",
+          "cn": "想象外科医生无视贴在手术台旁的核对清单。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "The loss was caused by the negligence of the warehouse.",
+        "cn": "损失是由仓库的疏忽造成的。"
+      },
+      {
+        "en": "The claim rests on negligence, not on breach of contract.",
+        "cn": "这项索赔依据的是过失，而不是违约。"
+      },
+      {
+        "en": "Gross negligence may strip a party of its contractual protection.",
+        "cn": "重大过失可能使一方失去合同保护。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「尼格利真丝」——尼格把一卷真丝随手搁在门口，任人踩来踩去，事后只说一句忘了收。",
+      "word": "negligence"
+    },
+    "root": "拉丁语 neg-（不）+ legere（拾起、理会）→ neglegere（不去理会）→ neglegentia（疏忽）→ 古法语 negligence → 英语 negligence，核心义「该拾起的照料没有拾起」。",
+    "sensesIntro": {
+      "en": "Negligence starts as everyday carelessness, becomes a legal breach of duty, and is then graded by setting, by share of fault, and by seriousness.",
+      "cn": "negligence 从日常的粗心开始，转为法律上的违反注意义务，再按场景、过错份额与严重程度分级。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: a hand opening instead of holding on.",
+        "cn": "核心意象：本该握紧的手却松开了。"
+      },
+      "chain": [
+        "DISREGARD",
+        "NOT PICK UP",
+        "CARELESSNESS",
+        "BREACH OF DUTY",
+        "CIVIL LIABILITY",
+        "GRADED FAULT"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "Everyday carelessness is the plain sense.",
+          "cn": "日常的粗心是本义。"
+        },
+        {
+          "senses": "02",
+          "en": "A recognised duty turns carelessness into a legal wrong.",
+          "cn": "被承认的注意义务把粗心变成法律上的不法。"
+        },
+        {
+          "senses": "03",
+          "en": "A professional standard raises the measure of care.",
+          "cn": "职业标准抬高了注意的尺度。"
+        },
+        {
+          "senses": "04 · 06",
+          "en": "Shared fault and criminal fault show the same failure seen from two sides.",
+          "cn": "分担过错与刑事过错是同一疏忽从两个方向看到的样子。"
+        },
+        {
+          "senses": "05",
+          "en": "Gross negligence marks the top of the scale before recklessness.",
+          "cn": "重大过失标出轻率之前的最高一级。"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Negligence is built from the Latin neg- and legere, and English has grown a whole family around it.",
+        "cn": "negligence 由拉丁语 neg- 与 legere 构成，英语围绕它长出了整个词族。"
+      },
+      "latinIntro": {
+        "en": "Latin neglegere means to disregard, and its noun neglegentia means carelessness.",
+        "cn": "拉丁语 neglegere 意为「不理」，其名词 neglegentia 意为「疏忽」。"
+      },
+      "items": [
+        {
+          "word": "neg-",
+          "structure": "Latin prefix",
+          "meaning": "not, denial",
+          "meaningCN": "不；否定",
+          "example": "The prefix neg- denies the act of picking up.",
+          "exampleCN": "前缀 neg- 否定了「拾起」这个动作。"
+        },
+        {
+          "word": "legere",
+          "structure": "Latin verb",
+          "meaning": "to pick up, gather, read",
+          "meaningCN": "拾起；收集；阅读",
+          "example": "Legere gives the image of taking something up.",
+          "exampleCN": "legere 提供「把东西拾起来」的意象。"
+        },
+        {
+          "word": "neglegere",
+          "structure": "Latin verb",
+          "meaning": "to disregard, neglect",
+          "meaningCN": "忽视；不予理会",
+          "example": "Neglegere joins the prefix to the verb.",
+          "exampleCN": "neglegere 把前缀与动词合在一起。"
+        },
+        {
+          "word": "neglegentia",
+          "structure": "Latin noun",
+          "meaning": "carelessness",
+          "meaningCN": "疏忽；大意",
+          "example": "Neglegentia is the direct source of the English noun.",
+          "exampleCN": "neglegentia 是英语名词的直接来源。"
+        },
+        {
+          "word": "negligence",
+          "structure": "English noun",
+          "meaning": "carelessness; a breach of duty",
+          "meaningCN": "疏忽；过失",
+          "example": "Negligence keeps both the everyday and the legal sense.",
+          "exampleCN": "negligence 同时保留日常与法律两种含义。"
+        },
+        {
+          "word": "-ence",
+          "structure": "English suffix",
+          "meaning": "state or quality",
+          "meaningCN": "表示状态或性质的名词后缀",
+          "example": "The suffix -ence forms negligence from the Latin stem.",
+          "exampleCN": "后缀 -ence 让拉丁词干构成 negligence。"
+        },
+        {
+          "word": "negligent",
+          "structure": "English adjective",
+          "meaning": "careless",
+          "meaningCN": "疏忽的",
+          "example": "Negligent adds the adjectival suffix -ent.",
+          "exampleCN": "negligent 加了形容词后缀 -ent。"
+        },
+        {
+          "word": "-ent",
+          "structure": "English suffix",
+          "meaning": "having a quality",
+          "meaningCN": "具有某种性质的形容词后缀",
+          "example": "The suffix -ent turns the noun into an adjective.",
+          "exampleCN": "后缀 -ent 把名词变成形容词。"
+        },
+        {
+          "word": "negligently",
+          "structure": "English adverb",
+          "meaning": "in a careless way",
+          "meaningCN": "疏忽地",
+          "example": "Negligently adds the adverb suffix -ly.",
+          "exampleCN": "negligently 加了副词后缀 -ly。"
+        },
+        {
+          "word": "neglect",
+          "structure": "English verb",
+          "meaning": "to fail to attend to",
+          "meaningCN": "忽视；疏于照管",
+          "example": "Neglect is the shorter verb from the same source.",
+          "exampleCN": "neglect 是同源而来的较短动词。"
+        },
+        {
+          "word": "negligible",
+          "structure": "English adjective",
+          "meaning": "too small to matter",
+          "meaningCN": "微不足道的",
+          "example": "Negligible shows how far the family can drift in meaning.",
+          "exampleCN": "negligible 显示这个词族的意义可以漂移多远。"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "neglegere",
+          "structure": "Latin verb",
+          "meaning": "to disregard, neglect",
+          "meaningCN": "忽视；不予理会"
+        },
+        {
+          "word": "neglegentia",
+          "structure": "Latin noun",
+          "meaning": "carelessness",
+          "meaningCN": "疏忽"
+        },
+        {
+          "word": "neglegens",
+          "structure": "Latin participle",
+          "meaning": "disregarding, careless",
+          "meaningCN": "不理会的；疏忽的"
+        },
+        {
+          "word": "legere",
+          "structure": "Latin verb",
+          "meaning": "to pick up, read",
+          "meaningCN": "拾起；阅读"
+        },
+        {
+          "word": "neg-",
+          "structure": "Latin prefix",
+          "meaning": "not",
+          "meaningCN": "不"
+        }
+      ]
+    }
+  },
+  {
+    "word": "tort",
+    "ipa_uk": "/tɔːt/",
+    "ipa_us": "/tɔːrt/",
+    "definition_zh": "侵权行为；民事不法行为",
+    "definition_en": "a civil wrong, independent of contract, that causes harm for which the injured party may sue",
+    "core_image": "一条笔直的界线被扭弯，越过去便压坏了邻人的花圃",
+    "scene": "货车的尾板没有扣好，转弯时甩出去砸坏了路边店铺的橱窗。The shopkeeper brought a claim in tort against the haulage company.",
+    "sceneCN": "这里的 tort 是「侵权行为」（第 1 个义项：造成他人损害的民事不法行为）；句意：店主以侵权为由向运输公司提出索赔。",
+    "pos": [
+      {
+        "tag": "n.",
+        "zh": "侵权行为；民事不法行为；（法律）侵权"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "tort law",
+        "zh": "侵权法"
+      },
+      {
+        "phrase": "tort claim",
+        "zh": "侵权索赔"
+      },
+      {
+        "phrase": "tort liability",
+        "zh": "侵权责任"
+      },
+      {
+        "phrase": "commit a tort",
+        "zh": "实施侵权行为"
+      },
+      {
+        "phrase": "intentional tort",
+        "zh": "故意侵权"
+      },
+      {
+        "phrase": "tort action",
+        "zh": "侵权诉讼"
+      }
+    ],
+    "forms": [
+      {
+        "label": "复数",
+        "form": "torts"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "tortious",
+        "pos": "adj.",
+        "zh": "由 tort 加形容词后缀 -ious，义为「侵权行为的；构成侵权的」"
+      },
+      {
+        "word": "tortfeasor",
+        "pos": "n.",
+        "zh": "由 tort 与表示「做者」的 feasor 合成，义为「侵权行为人」"
+      },
+      {
+        "word": "tortiously",
+        "pos": "adv.",
+        "zh": "由 tortious 加副词后缀 -ly，义为「以侵权方式地」"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "The civil wrong",
+        "titleCN": "侵权行为（总称）",
+        "definition": "a wrongful act that causes harm and is not a breach of contract, giving the injured party a right to sue",
+        "definitionCN": "造成他人损害、且不属于违约的民事不法行为，受害方因此有权起诉",
+        "example": "A claim in tort is separate from a claim under the contract.",
+        "exampleCN": "侵权索赔与依合同提出的索赔是两回事。",
+        "why": "The Latin tortum means something twisted or wrong, so a tort is conduct that has been turned away from the lawful path.",
+        "whyCN": "拉丁语 tortum 意为「被扭歪的、不正的」，所以侵权行为就是把本该走正的行为扭到一边，这正是核心意象的法律化。"
+      },
+      {
+        "no": "02",
+        "title": "A single act of injury",
+        "titleCN": "一起侵权行为",
+        "definition": "one particular wrongful act of this kind, such as damaging the property of another person",
+        "definitionCN": "此类不法行为中的某一起，例如损坏他人的财物",
+        "example": "The spill was a tort that polluted the neighbouring land.",
+        "exampleCN": "这次泄漏是一起污染邻人土地的侵权行为。",
+        "why": "The category counted one act at a time becomes a countable event that a court can examine.",
+        "whyCN": "把这个类别按单次行为来数，它就变成法院可以逐案审理的具体事件。"
+      },
+      {
+        "no": "03",
+        "title": "Intentional tort",
+        "titleCN": "故意侵权",
+        "definition": "a tort committed on purpose, such as assault, battery, or trespass",
+        "definitionCN": "故意实施的侵权行为，例如威胁、殴打或侵入他人土地",
+        "example": "Battery is an intentional tort.",
+        "exampleCN": "殴打属于故意侵权。",
+        "why": "The twisted act can be deliberate, and the law marks purpose as a distinct branch of tort.",
+        "whyCN": "被扭歪的行为可以是有意为之，法律便把「故意」标为侵权的一个独立分支。"
+      },
+      {
+        "no": "04",
+        "title": "Negligence as a tort",
+        "titleCN": "过失侵权",
+        "definition": "a tort that arises from carelessness rather than from a deliberate act",
+        "definitionCN": "由疏忽而非故意行为引起的侵权",
+        "example": "Most road accident claims are negligent torts.",
+        "exampleCN": "大多数交通事故索赔都属于过失侵权。",
+        "why": "The same twisted outcome can come from a hand that simply failed to hold, so carelessness forms its own branch.",
+        "whyCN": "同样的扭歪结果也可以出自一只没有握稳的手，于是疏忽自成一支，与故意侵权并列。"
+      },
+      {
+        "no": "05",
+        "title": "Strict liability tort",
+        "titleCN": "严格责任侵权",
+        "definition": "a tort for which the defendant is liable without proof of fault, as with dangerous animals or defective products",
+        "definitionCN": "无须证明过错即可令被告承担责任的侵权，例如危险动物或缺陷产品致害",
+        "example": "Keeping a dangerous animal can create a strict liability tort.",
+        "exampleCN": "饲养危险动物可能构成严格责任侵权。",
+        "why": "Some activities are so risky that the law stops asking about care and attaches liability to the activity itself.",
+        "whyCN": "有些活动风险太高，法律便不再追问是否小心，而把责任直接附着在活动本身，这是核心意象在风险领域的延伸。"
+      },
+      {
+        "no": "06",
+        "title": "Tort law as a field",
+        "titleCN": "侵权法（法律部门）",
+        "definition": "the branch of civil law that deals with such wrongs and their remedies",
+        "definitionCN": "处理此类不法行为及其救济的民法学分支",
+        "example": "She teaches tort alongside contract and property.",
+        "exampleCN": "她和合同法、财产法一起教授侵权法。",
+        "why": "Once the single wrongs are gathered together, they form a whole field of law with its own rules and remedies.",
+        "whyCN": "当一起起不法行为被归拢起来，它们就构成一个拥有自身规则与救济手段的完整法律领域。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Tort comes from Latin tortum, a wrong, from tortus, the past participle of torquere, to twist.",
+        "cn": "tort 来自拉丁语 tortum（不法、侵害），源于 torquere（扭、拧）的过去分词 tortus。"
+      },
+      "items": [
+        {
+          "era": "LATIN",
+          "en": "Torquere means to twist or turn, and its participle tortus means twisted.",
+          "cn": "torquere 意为扭、拧或转动，其分词 tortus 意为「被扭歪的」。"
+        },
+        {
+          "era": "LATIN",
+          "en": "Tortum, literally something twisted, comes to mean a wrong or an injustice.",
+          "cn": "tortum 字面是「被扭歪之物」，引申为不法或不公。"
+        },
+        {
+          "era": "MEDIEVAL LATIN",
+          "en": "Medieval Latin keeps tortum as the name of a wrong.",
+          "cn": "中世纪拉丁语保留 tortum 作为「不法行为」的名称。"
+        },
+        {
+          "era": "OLD FRENCH",
+          "en": "Old French tort means wrong or injury.",
+          "cn": "古法语 tort 意为不法和侵害。"
+        },
+        {
+          "era": "MIDDLE ENGLISH",
+          "en": "English borrows tort through Anglo-French as a general word for wrong.",
+          "cn": "英语经由盎格鲁法语借入 tort，泛指不法与侵害。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "From the seventeenth century the word is used for a class of civil wrongs distinct from contract.",
+          "cn": "自十七世纪起，该词被用来指与违约相区别的一类民事不法行为。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "Tort belongs to the twisted family of torquere, alongside tortious and tortuous, and to the vocabulary of civil wrongs and remedies.",
+        "cn": "tort 属于 torquere 这个「扭」的词族，与 tortious、tortuous 同源，也靠近民事不法与救济的词汇场。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "tortious",
+              "ipa": "/ˈtɔːʃəs/",
+              "tag": "derived form",
+              "definition": "of or relating to a tort",
+              "definitionCN": "侵权行为的（由 tort 派生的形容词，勿与 tortuous 混淆）"
+            },
+            {
+              "word": "tortuous",
+              "ipa": "/ˈtɔːtʃuəs/",
+              "tag": "same root",
+              "definition": "full of twists and turns, not straightforward",
+              "definitionCN": "曲折的；迂回的（同出 torquere，但与侵权无关）"
+            },
+            {
+              "word": "tortfeasor",
+              "ipa": "/ˌtɔːtˈfiːzɔː/",
+              "tag": "compound",
+              "definition": "a person who commits a tort",
+              "definitionCN": "侵权行为人（由 tort 与 feasor 合成的法律术语）"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "wrong",
+              "ipa": "/rɒŋ/",
+              "tag": "near meaning",
+              "definition": "an act that is unjust or unlawful",
+              "definitionCN": "不法行为；冤屈（比 tort 更宽泛的日常词）"
+            },
+            {
+              "word": "delict",
+              "ipa": "/dɪˈlɪkt/",
+              "tag": "legal",
+              "definition": "a civil wrong in Scots and civil law",
+              "definitionCN": "不法行为（苏格兰法与大陆法中与侵权对应的术语）"
+            },
+            {
+              "word": "injury",
+              "ipa": "/ˈɪndʒəri/",
+              "tag": "near meaning",
+              "definition": "harm done to a person or to a right",
+              "definitionCN": "损害；伤害（侵权成立所要求的后果，而不是行为本身）"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "A tort is a twist: torquere turns a lawful path aside, and the law names the injury that follows.",
+        "cn": "tort 是一次扭折：torquere 把正当的路扭向一边，法律便给随之而来的损害命名。"
+      },
+      "normal": [
+        {
+          "en": "Torquere means to twist, tortus means twisted, and a tort is conduct twisted away from what is lawful.",
+          "cn": "torquere 意为扭，tortus 意为被扭歪的，tort 则是被扭离正路的行为。"
+        },
+        {
+          "en": "Keep tortious and tortuous apart: tortious belongs to tort, while tortuous means winding.",
+          "cn": "把 tortious 与 tortuous 分开：前者属于侵权，后者意为曲折。"
+        },
+        {
+          "en": "Collocations: tort law, tort claim, tort liability, intentional tort.",
+          "cn": "常见搭配：侵权法、侵权索赔、侵权责任、故意侵权。"
+        },
+        {
+          "en": "Contrast contract: contract is a broken promise, tort is a broken duty fixed by law.",
+          "cn": "对比 contract：合同是违背承诺，侵权是违反法律固定的义务。"
+        },
+        {
+          "en": "A tortfeasor is the person who commits the tort.",
+          "cn": "tortfeasor 就是实施侵权行为的那个人。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "Picture a boundary line bent out of shape until it crosses the garden of a neighbour.",
+          "cn": "想象一条地界被扭弯，越进了邻家的花园。"
+        },
+        {
+          "en": "Picture a leaking tank left beside a field, its oil creeping into the soil.",
+          "cn": "想象一只漏油的罐子放在田边，油慢慢渗进土里。"
+        },
+        {
+          "en": "Picture a lit match held to the fence of a neighbour on purpose.",
+          "cn": "想象有人故意把点着的火柴凑到邻家的篱笆上。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "The claim in tort seeks damages for the damaged wall.",
+        "cn": "这项侵权索赔要求赔偿受损的围墙。"
+      },
+      {
+        "en": "Intentional torts require proof of intent, while negligent torts do not.",
+        "cn": "故意侵权需要证明故意，过失侵权则不需要。"
+      },
+      {
+        "en": "Tort law protects interests that the parties never agreed to protect by contract.",
+        "cn": "侵权法保护当事人从未在合同中约定保护的利益。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「托特」——托特倒车时把邻家的篱笆顶歪，还怪风向不对，邻人只好告他侵权。",
+      "word": "tort"
+    },
+    "root": "拉丁语 torquere（扭、拧）→ 过去分词 tortus（被扭歪的）→ 中性名词 tortum（不法、侵害）→ 古法语 tort → 英语 tort，核心义「被扭离正路的行为」。",
+    "sensesIntro": {
+      "en": "Tort moves from the general category of civil wrong to a single instance, then to the main types, and finally to the field of law.",
+      "cn": "tort 从民事不法的总称，走到单起行为，再分出主要类型，最后成为一个法律部门。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: a straight boundary twisted until it crosses the ground of a neighbour.",
+        "cn": "核心意象：笔直的界线被扭弯，越进邻人的地界。"
+      },
+      "chain": [
+        "TWIST",
+        "TWISTED ACT",
+        "WRONG",
+        "INJURY",
+        "CIVIL CLAIM",
+        "REMEDY"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "The broad category of civil wrong is the core sense.",
+          "cn": "民事不法的总称是核心义项。"
+        },
+        {
+          "senses": "02",
+          "en": "One instance of injury is the countable use.",
+          "cn": "单起损害事件是可数用法。"
+        },
+        {
+          "senses": "03",
+          "en": "Intentional torts are the deliberate branch.",
+          "cn": "故意侵权是有意为之的一支。"
+        },
+        {
+          "senses": "04",
+          "en": "Negligent torts are the careless branch.",
+          "cn": "过失侵权是粗心大意的一支。"
+        },
+        {
+          "senses": "05 · 06",
+          "en": "Strict liability and the field of tort law complete the map.",
+          "cn": "严格责任与侵权法这个领域补全了整张图。"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Tort is a Latin twisting noun, and English has tortious, tortfeasor, and the wider torquere family around it.",
+        "cn": "tort 是拉丁语中表示「扭」的名词，英语围绕它有 tortious、tortfeasor 以及更大的 torquere 词族。"
+      },
+      "latinIntro": {
+        "en": "Latin torquere means to twist, and tortum names the twisted thing, hence a wrong.",
+        "cn": "拉丁语 torquere 意为扭，tortum 指被扭歪之物，因此也指不法。"
+      },
+      "items": [
+        {
+          "word": "torquere",
+          "structure": "Latin verb",
+          "meaning": "to twist, turn",
+          "meaningCN": "扭；拧；转动",
+          "example": "Torquere supplies the twisting image behind tort.",
+          "exampleCN": "torquere 提供 tort 背后「扭」的意象。"
+        },
+        {
+          "word": "tortus",
+          "structure": "Latin participle",
+          "meaning": "twisted",
+          "meaningCN": "被扭歪的",
+          "example": "Tortus is the past participle of the verb.",
+          "exampleCN": "tortus 是该动词的过去分词。"
+        },
+        {
+          "word": "tortum",
+          "structure": "Latin noun",
+          "meaning": "a wrong, an injustice",
+          "meaningCN": "不法；不公",
+          "example": "Tortum is the direct source of the English word.",
+          "exampleCN": "tortum 是英语这个词的直接来源。"
+        },
+        {
+          "word": "tort",
+          "structure": "English noun",
+          "meaning": "a civil wrong",
+          "meaningCN": "侵权行为",
+          "example": "Tort narrows the old wrong into a legal category.",
+          "exampleCN": "tort 把古老的「不法」收窄为一个法律类别。"
+        },
+        {
+          "word": "tortious",
+          "structure": "English adjective",
+          "meaning": "of a tort",
+          "meaningCN": "侵权行为的",
+          "example": "Tortious adds the adjectival suffix -ious.",
+          "exampleCN": "tortious 加了形容词后缀 -ious。"
+        },
+        {
+          "word": "-ious",
+          "structure": "English suffix",
+          "meaning": "having the nature of",
+          "meaningCN": "具有……性质的形容词后缀",
+          "example": "The suffix -ious forms tortious.",
+          "exampleCN": "后缀 -ious 构成 tortious。"
+        },
+        {
+          "word": "tortfeasor",
+          "structure": "English noun",
+          "meaning": "one who commits a tort",
+          "meaningCN": "侵权行为人",
+          "example": "Tortfeasor joins tort to an old French agent word.",
+          "exampleCN": "tortfeasor 把 tort 与一个古法语施动词结合起来。"
+        },
+        {
+          "word": "tortuous",
+          "structure": "English adjective",
+          "meaning": "winding, full of twists",
+          "meaningCN": "曲折的；迂回的",
+          "example": "Tortuous keeps the literal twisting sense.",
+          "exampleCN": "tortuous 保留了字面的「扭」义。"
+        },
+        {
+          "word": "distort",
+          "structure": "English verb",
+          "meaning": "to twist out of shape",
+          "meaningCN": "扭曲；使变形",
+          "example": "Distort adds the prefix dis- to torquere.",
+          "exampleCN": "distort 在 torquere 前加了前缀 dis-。"
+        },
+        {
+          "word": "extort",
+          "structure": "English verb",
+          "meaning": "to twist something out of a person",
+          "meaningCN": "敲诈；强取",
+          "example": "Extort adds the prefix ex- to the same root.",
+          "exampleCN": "extort 在同一词根前加了前缀 ex-。"
+        },
+        {
+          "word": "contort",
+          "structure": "English verb",
+          "meaning": "to twist together",
+          "meaningCN": "扭弯；扭曲",
+          "example": "Contort adds the prefix con- to the same root.",
+          "exampleCN": "contort 在同一词根前加了前缀 con-。"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "torquere",
+          "structure": "Latin verb",
+          "meaning": "to twist",
+          "meaningCN": "扭；拧"
+        },
+        {
+          "word": "tortus",
+          "structure": "Latin participle",
+          "meaning": "twisted",
+          "meaningCN": "被扭歪的"
+        },
+        {
+          "word": "tortum",
+          "structure": "Latin noun",
+          "meaning": "a wrong",
+          "meaningCN": "不法；侵害"
+        },
+        {
+          "word": "tortuosus",
+          "structure": "Latin adjective",
+          "meaning": "full of twists",
+          "meaningCN": "曲折的"
+        },
+        {
+          "word": "tortor",
+          "structure": "Latin noun",
+          "meaning": "one who twists or tortures",
+          "meaningCN": "扭拧者；施刑者"
+        }
+      ]
+    }
+  },
+  {
+    "word": "mediation",
+    "ipa_uk": "/ˌmedɪˈeɪʃən/",
+    "ipa_us": "/ˌmedɪˈeɪʃən/",
+    "definition_zh": "调解；居中斡旋；调停",
+    "definition_en": "a process in which a neutral third party helps disputing parties reach a voluntary agreement",
+    "core_image": "一位长者隔着一道矮墙，替两户人家来回传话",
+    "scene": "两家供货商为一批迟到的货物争执不下，谁也不肯先让步。A neutral adviser brought both suppliers into mediation and helped them sign a settlement.",
+    "sceneCN": "这里的 mediation 是「调解」（第 1 个义项：由中立第三方协助当事人协商并达成协议的过程）；句意：一位中立顾问把两家供货商引入调解，帮他们签下和解协议。",
+    "pos": [
+      {
+        "tag": "n.",
+        "zh": "调解；居中斡旋；调停"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "mediation process",
+        "zh": "调解程序"
+      },
+      {
+        "phrase": "court-annexed mediation",
+        "zh": "法院附设调解"
+      },
+      {
+        "phrase": "mediation agreement",
+        "zh": "调解协议"
+      },
+      {
+        "phrase": "mediation session",
+        "zh": "调解会议"
+      },
+      {
+        "phrase": "commercial mediation",
+        "zh": "商业调解"
+      },
+      {
+        "phrase": "refer a dispute to mediation",
+        "zh": "把争议提交调解"
+      }
+    ],
+    "forms": [
+      {
+        "label": "复数",
+        "form": "mediations"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "mediator",
+        "pos": "n.",
+        "zh": "由 mediate 加表示施动者的后缀 -or，义为「调解人；斡旋者」"
+      },
+      {
+        "word": "mediate",
+        "pos": "v.",
+        "zh": "由拉丁语 mediare 而来，义为「调解；居中斡旋」"
+      },
+      {
+        "word": "mediatory",
+        "pos": "adj.",
+        "zh": "由 mediator 加形容词后缀 -y，义为「调解的；斡旋的」"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "Assisted negotiation",
+        "titleCN": "调解（过程）",
+        "definition": "a process in which a neutral person helps the parties to a dispute talk and reach their own agreement",
+        "definitionCN": "由中立者协助争议双方对话并自行达成协议的过程",
+        "example": "Mediation is often faster and cheaper than litigation.",
+        "exampleCN": "调解往往比诉讼更快、更便宜。",
+        "why": "The word comes from medius, the middle, so mediation places a neutral person in the middle of two sides.",
+        "whyCN": "这个词来自 medius（中间的），所以调解就是把一个中立者放到两方之间，核心意象正是「站在中间」。"
+      },
+      {
+        "no": "02",
+        "title": "A single mediation",
+        "titleCN": "一次调解；一起调解案件",
+        "definition": "one particular session or case in which this process is used",
+        "definitionCN": "运用这一过程的某一次会谈或某一宗案件",
+        "example": "The parties settled at their second mediation.",
+        "exampleCN": "双方在第二次调解时达成了和解。",
+        "why": "The same process, counted as an event with a date and a place, becomes a countable noun.",
+        "whyCN": "同一套过程一旦有了时间地点、可以被数出来，就成了可数名词，这是核心动作被「事件化」的结果。"
+      },
+      {
+        "no": "03",
+        "title": "Mediation inside the court system",
+        "titleCN": "法院附设调解；诉前调解",
+        "definition": "mediation encouraged or ordered by a court, often before trial, whose settlement may become a court order",
+        "definitionCN": "由法院鼓励或指令进行的调解，通常在审判之前，其和解结果可以转为法院命令",
+        "example": "The judge stayed the case and sent the parties to court-annexed mediation.",
+        "exampleCN": "法官中止了案件，把双方送去法院附设调解。",
+        "why": "When courts route cases to a mediator, the middle position gains a procedural slot before the trial.",
+        "whyCN": "当法院把案件分流给调解人时，「中间位置」就在审判之前获得了一个程序上的位置。"
+      },
+      {
+        "no": "04",
+        "title": "Mediation between states",
+        "titleCN": "国际调解；外交斡旋",
+        "definition": "mediation in which a neutral state, envoy, or organisation helps governments settle a dispute",
+        "definitionCN": "由中立国家、特使或国际组织协助政府之间解决争端的调解",
+        "example": "A regional envoy led the mediation between the two governments.",
+        "exampleCN": "一位区域特使主持了两国政府之间的调解。",
+        "why": "The middle position scales up: a neutral envoy stands between states instead of individuals.",
+        "whyCN": "「中间位置」可以放大：站在中间的不再是个人，而是国家之间的中立特使。"
+      },
+      {
+        "no": "05",
+        "title": "Mediation as a profession",
+        "titleCN": "调解业；调解工作",
+        "definition": "the professional practice of acting as a mediator, with its own training, standards, and fees",
+        "definitionCN": "以担任调解人为职业的实践，有自己的培训、规范与收费",
+        "example": "She trained in mediation before leaving private practice.",
+        "exampleCN": "她在离开私人执业之前接受过调解培训。",
+        "why": "Repeated practice turns the activity into a recognised profession with its own standards.",
+        "whyCN": "反复从事同一种活动，会使它变成一门有自身规范的职业，这是核心动作在社会分工中的延伸。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Mediation comes from Medieval Latin mediatio, from mediare, to be in the middle, from medius, middle.",
+        "cn": "mediation 来自中世纪拉丁语 mediatio，源于 mediare（居于中间），再往上溯是 medius（中间的）。"
+      },
+      "items": [
+        {
+          "era": "LATIN",
+          "en": "Medius means middle, the point between two ends.",
+          "cn": "medius 意为中间的，即两端之间的位置。"
+        },
+        {
+          "era": "LATIN",
+          "en": "Mediare means to be in the middle or to halve, and it yields the agent noun mediator.",
+          "cn": "mediare 意为居于中间或对半分，并由此产生施动名词 mediator。"
+        },
+        {
+          "era": "MEDIEVAL LATIN",
+          "en": "Mediatio names the act of coming between parties.",
+          "cn": "mediatio 指走到各方之间进行调停的行为。"
+        },
+        {
+          "era": "OLD FRENCH",
+          "en": "Old French mediation carries the sense of intervening to reconcile.",
+          "cn": "古法语 mediation 带有介入促和的含义。"
+        },
+        {
+          "era": "MIDDLE ENGLISH",
+          "en": "English adopts mediation in the fifteenth century for the act of interceding.",
+          "cn": "英语在十五世纪吸收 mediation，用来指居中斡旋的行为。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "Modern usage ties the word to structured and voluntary dispute resolution outside the courts.",
+          "cn": "现代用法把该词与法院之外有结构、自愿参与的争议解决方式联系起来。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "Mediation stands in the middle of the medius family, next to mediate and mediator, and beside the other ways of settling disputes.",
+        "cn": "mediation 站在 medius 词族的中间，与 mediate、mediator 相邻，也与其它解决争议的方式并列。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "mediate",
+              "ipa": "/ˈmedɪeɪt/",
+              "tag": "base verb",
+              "definition": "to act as a go-between in a dispute",
+              "definitionCN": "调解；居中斡旋（mediation 的动词形式）"
+            },
+            {
+              "word": "mediator",
+              "ipa": "/ˈmedɪeɪtə/",
+              "tag": "agent noun",
+              "definition": "a neutral person who conducts a mediation",
+              "definitionCN": "调解人；斡旋者（加 -or 表示施动者）"
+            },
+            {
+              "word": "immediate",
+              "ipa": "/ɪˈmiːdiət/",
+              "tag": "same root",
+              "definition": "direct, with nothing in between",
+              "definitionCN": "直接的；立即的（同出 medius，前缀 in- 表示「没有中间环节」）"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "arbitration",
+              "ipa": "/ˌɑːbɪˈtreɪʃən/",
+              "tag": "near meaning",
+              "definition": "dispute resolution in which a third party imposes a binding award",
+              "definitionCN": "仲裁（第三方作出有约束力的裁决，与调解的关键区别在此）"
+            },
+            {
+              "word": "conciliation",
+              "ipa": "/ˌkɒnsɪliˈeɪʃən/",
+              "tag": "near meaning",
+              "definition": "a process in which a third party helps the parties reconcile",
+              "definitionCN": "和解；调解（更强调促使双方和好，程序常更宽松）"
+            },
+            {
+              "word": "negotiation",
+              "ipa": "/ˌneɡəʊʃiˈeɪʃən/",
+              "tag": "near meaning",
+              "definition": "direct bargaining between the parties without a third party",
+              "definitionCN": "谈判；协商（双方直接谈，没有中立第三方）"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Mediation places a middle person between two sides: medius is the middle, and the mediator carries words across it.",
+        "cn": "mediation 把一个处在中间的人放到两方之间：medius 是中间，调解人则在中间来回传话。"
+      },
+      "normal": [
+        {
+          "en": "Medius means middle, and mediation puts a neutral person in the middle of a dispute.",
+          "cn": "medius 意为中间，mediation 则把中立者放进争议的中间。"
+        },
+        {
+          "en": "The family runs mediate, mediator, mediation, and mediatory.",
+          "cn": "这个词族依次是 mediate、mediator、mediation 与 mediatory。"
+        },
+        {
+          "en": "Collocations: mediation process, mediation agreement, court-annexed mediation.",
+          "cn": "常见搭配：调解程序、调解协议、法院附设调解。"
+        },
+        {
+          "en": "Compare arbitration: a mediator helps the parties decide, while an arbitrator decides for them.",
+          "cn": "对比 arbitration：调解人帮当事人自己作决定，仲裁人替他们作决定。"
+        },
+        {
+          "en": "A settlement reached in mediation is voluntary, which is both its strength and its limit.",
+          "cn": "调解达成的和解是自愿的，这既是它的长处，也是它的限度。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "Picture an elder standing at a low wall, passing words from one household to the other.",
+          "cn": "想象一位长者站在矮墙边，把话从一户人家传到另一户。"
+        },
+        {
+          "en": "Picture the same two sides returning for a second session, calmer than at the first.",
+          "cn": "想象同一对当事人第二次坐到一起，比第一次平静许多。"
+        },
+        {
+          "en": "Picture a judge stepping back from the bench and pointing the parties to a side room.",
+          "cn": "想象法官从审判席上退一步，把双方指向旁边的一间调解室。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "The parties chose mediation instead of a trial.",
+        "cn": "双方选择调解而不是审判。"
+      },
+      {
+        "en": "A mediation agreement is enforceable once it is signed.",
+        "cn": "调解协议一经签署即具有执行力。"
+      },
+      {
+        "en": "The court encouraged mediation before the case went to trial.",
+        "cn": "法院在案件进入审判前鼓励双方调解。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「梅迪埃申」——梅迪站在两家人中间，左一句右一句来回递话，最后两家握手言和。",
+      "word": "mediation"
+    },
+    "root": "拉丁语 medius（中间的）→ mediare（居于中间、居中）→ 中世纪拉丁语 mediatio（居中调停）→ 古法语 mediation → 英语 mediation，核心义「站在中间传话」。",
+    "sensesIntro": {
+      "en": "Mediation names the assisted process, then a single session, then the court-connected and interstate versions, and finally the profession itself.",
+      "cn": "mediation 先指受协助的协商过程，再指单次会谈，然后是法院附设与国际两种场景，最后指这门职业本身。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: a neutral person standing in the middle, passing words between two sides.",
+        "cn": "核心意象：一个中立的人站在中间，把话在两方之间传递。"
+      },
+      "chain": [
+        "MIDDLE",
+        "GO BETWEEN",
+        "TALK TO BOTH SIDES",
+        "VOLUNTARY SETTLEMENT",
+        "BINDING AGREEMENT",
+        "DISPUTE CLOSED"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "The assisted process is the core sense.",
+          "cn": "受协助的协商过程是核心义项。"
+        },
+        {
+          "senses": "02",
+          "en": "A single session is the countable use.",
+          "cn": "单次会谈是可数用法。"
+        },
+        {
+          "senses": "03",
+          "en": "Court-annexed mediation adds a procedural setting.",
+          "cn": "法院附设调解增加了程序场景。"
+        },
+        {
+          "senses": "04",
+          "en": "International mediation scales the same middle position up to states.",
+          "cn": "国际调解把同一个「中间位置」放大到国家层面。"
+        },
+        {
+          "senses": "02 · 05",
+          "en": "A session and the profession show the practice as event and as career.",
+          "cn": "单次会谈与职业化实践，是同一件事作为事件与作为职业的两种样子。"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Mediation is built on Latin medius, middle, and English has mediate, mediator, and immediate around it.",
+        "cn": "mediation 建立在拉丁语 medius（中间）之上，英语围绕它有 mediate、mediator 与 immediate。"
+      },
+      "latinIntro": {
+        "en": "Latin medius means middle; mediare means to be in the middle, and mediatio names the act.",
+        "cn": "拉丁语 medius 意为中间；mediare 意为居于中间，mediatio 则指这一行为。"
+      },
+      "items": [
+        {
+          "word": "medius",
+          "structure": "Latin adjective",
+          "meaning": "middle",
+          "meaningCN": "中间的",
+          "example": "Medius supplies the middle position of the whole family.",
+          "exampleCN": "medius 提供整个词族的「中间」位置。"
+        },
+        {
+          "word": "mediare",
+          "structure": "Latin verb",
+          "meaning": "to be in the middle, to halve",
+          "meaningCN": "居于中间；对半分",
+          "example": "Mediare turns the adjective into an action.",
+          "exampleCN": "mediare 把形容词变成动作。"
+        },
+        {
+          "word": "mediatio",
+          "structure": "Latin noun",
+          "meaning": "a coming between",
+          "meaningCN": "居中调停",
+          "example": "Mediatio is the direct source of mediation.",
+          "exampleCN": "mediatio 是 mediation 的直接来源。"
+        },
+        {
+          "word": "mediator",
+          "structure": "Latin noun",
+          "meaning": "one who comes between",
+          "meaningCN": "居中者；调解人",
+          "example": "The suffix -or marks the person who acts.",
+          "exampleCN": "后缀 -or 标出实施动作的人。"
+        },
+        {
+          "word": "mediation",
+          "structure": "English noun",
+          "meaning": "assisted dispute resolution",
+          "meaningCN": "调解",
+          "example": "Mediation keeps the procedural sense of the Latin noun.",
+          "exampleCN": "mediation 保留了拉丁名词的程序含义。"
+        },
+        {
+          "word": "-ion",
+          "structure": "English suffix",
+          "meaning": "action or process",
+          "meaningCN": "表示行为或过程的名词后缀",
+          "example": "The suffix -ion forms mediation.",
+          "exampleCN": "后缀 -ion 构成 mediation。"
+        },
+        {
+          "word": "mediate",
+          "structure": "English verb",
+          "meaning": "to act as a go-between",
+          "meaningCN": "调解；居中斡旋",
+          "example": "Mediate is the verb behind mediation.",
+          "exampleCN": "mediate 是 mediation 背后的动词。"
+        },
+        {
+          "word": "mediator",
+          "structure": "English noun",
+          "meaning": "a neutral helper",
+          "meaningCN": "调解人",
+          "example": "Mediator adds the agent suffix -or.",
+          "exampleCN": "mediator 加了施动后缀 -or。"
+        },
+        {
+          "word": "-or",
+          "structure": "English suffix",
+          "meaning": "one who acts",
+          "meaningCN": "表示施动者的名词后缀",
+          "example": "The suffix -or forms mediator and tortfeasor alike.",
+          "exampleCN": "后缀 -or 既能构成 mediator，也能构成 tortfeasor。"
+        },
+        {
+          "word": "mediatory",
+          "structure": "English adjective",
+          "meaning": "of mediation",
+          "meaningCN": "调解的",
+          "example": "Mediatory adds the adjectival suffix -y.",
+          "exampleCN": "mediatory 加了形容词后缀 -y。"
+        },
+        {
+          "word": "immediate",
+          "structure": "English adjective",
+          "meaning": "direct, with nothing in between",
+          "meaningCN": "直接的；中间没有环节的",
+          "example": "Immediate denies the middle with the prefix in-.",
+          "exampleCN": "immediate 用前缀 in- 否定了「中间」。"
+        },
+        {
+          "word": "medium",
+          "structure": "English noun",
+          "meaning": "a middle means or channel",
+          "meaningCN": "媒介；中间手段",
+          "example": "Medium keeps the literal middle sense.",
+          "exampleCN": "medium 保留了字面的「中间」含义。"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "medius",
+          "structure": "Latin adjective",
+          "meaning": "middle",
+          "meaningCN": "中间的"
+        },
+        {
+          "word": "mediare",
+          "structure": "Latin verb",
+          "meaning": "to be in the middle",
+          "meaningCN": "居于中间"
+        },
+        {
+          "word": "mediatio",
+          "structure": "Latin noun",
+          "meaning": "a coming between",
+          "meaningCN": "居中调停"
+        },
+        {
+          "word": "mediator",
+          "structure": "Latin noun",
+          "meaning": "one who comes between",
+          "meaningCN": "居中者"
+        },
+        {
+          "word": "medium",
+          "structure": "Latin noun",
+          "meaning": "a middle",
+          "meaningCN": "中间；中介"
+        }
+      ]
+    }
+  },
+  {
+    "word": "statute",
+    "ipa_uk": "/ˈstætʃuːt/",
+    "ipa_us": "/ˈstætʃuːt/",
+    "definition_zh": "成文法；法规；法令；章程",
+    "definition_en": "a written law enacted by a legislature or by another body with law-making power",
+    "core_image": "一块刻满条款的石板立在广场中央，人人都要照着它行事",
+    "scene": "市议会通过一项新条例，规定所有商店夜里必须关灯。The new statute requires every shop to switch off its lights after midnight.",
+    "sceneCN": "这里的 statute 是「成文法」（第 1 个义项：立法机关制定的成文法律）；句意：这项新法规要求所有商店午夜之后关灯。",
+    "pos": [
+      {
+        "tag": "n.",
+        "zh": "成文法；法规；法令；（机构）章程"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "statute law",
+        "zh": "成文法；制定法"
+      },
+      {
+        "phrase": "statute book",
+        "zh": "法规汇编；法令全书"
+      },
+      {
+        "phrase": "statute of limitations",
+        "zh": "诉讼时效法"
+      },
+      {
+        "phrase": "by statute",
+        "zh": "依成文法；由法规规定"
+      },
+      {
+        "phrase": "statute-barred",
+        "zh": "受法定时效限制的"
+      },
+      {
+        "phrase": "a statute comes into force",
+        "zh": "法规生效"
+      }
+    ],
+    "forms": [
+      {
+        "label": "复数",
+        "form": "statutes"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "statutory",
+        "pos": "adj.",
+        "zh": "由 statute 加形容词后缀 -ory，义为「法定的；成文法规定的」"
+      },
+      {
+        "word": "statutorily",
+        "pos": "adv.",
+        "zh": "由 statutory 加副词后缀 -ly，义为「依法定地」"
+      },
+      {
+        "word": "statute-barred",
+        "pos": "adj.",
+        "zh": "由 statute 与 barred 合成的法律形容词，义为「受法定时效限制的」"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "An enacted written law",
+        "titleCN": "成文法；法令",
+        "definition": "a written law formally enacted by a parliament, a congress, or a similar legislative body",
+        "definitionCN": "由议会、国会或类似立法机关正式制定的成文法律",
+        "example": "The statute bans the sale of single-use plastics.",
+        "exampleCN": "这项法规禁止销售一次性塑料制品。",
+        "why": "The Latin statutum is something set up and fixed, so a statute is a rule that has been stood upright and made binding.",
+        "whyCN": "拉丁语 statutum 意为被立起、被固定之物，所以成文法就是一条被立直并赋予约束力的规则。"
+      },
+      {
+        "no": "02",
+        "title": "The instrument itself",
+        "titleCN": "一部成文法律；法案文本",
+        "definition": "the enacted instrument as a document, cited by its title, sections, and date",
+        "definitionCN": "作为文件存在的法律文本，按名称、条款与日期被引用",
+        "example": "Section five of the statute defines the offence.",
+        "exampleCN": "该法第五条界定了这一罪名。",
+        "why": "Once a rule is fixed in writing, lawyers deal with the document itself, citing sections and dates.",
+        "whyCN": "规则一旦被固定在文字里，法律人面对的就是这份文件本身，按条款与日期引用，这是「石板」意象的文本化。"
+      },
+      {
+        "no": "03",
+        "title": "Law made by legislation",
+        "titleCN": "制定法；成文法体系",
+        "definition": "the part of a legal system that consists of enacted laws rather than judicial decisions",
+        "definitionCN": "法律体系中由立法制定的法律构成的部分，与司法判决相对",
+        "example": "Statute law now covers most of the field once left to the common law.",
+        "exampleCN": "制定法如今覆盖了过去多由普通法处理的领域。",
+        "why": "Counting the individual acts together gives a whole source of law, set against case law.",
+        "whyCN": "把一部部法律合起来数，就得到与判例法相对的一整个法律渊源，这是从单块石板到整面墙的扩展。"
+      },
+      {
+        "no": "04",
+        "title": "The limitation statute",
+        "titleCN": "诉讼时效法规；法定时效",
+        "definition": "the statutory period within which a claim must be brought, often called the statute in practice",
+        "definitionCN": "必须提出索赔的法定期间，实务中常直接称作 the statute",
+        "example": "The claim is barred because the statute has run.",
+        "exampleCN": "由于法定时效已过，这项索赔已不能成立。",
+        "why": "Practice shortens the phrase statute of limitations to the statute, until the time limit itself takes the name.",
+        "whyCN": "实务把 statute of limitations 简称为 the statute，久而久之，时限本身也带上了这个名字，这是固定规则在时间维度上的一个特例。"
+      },
+      {
+        "no": "05",
+        "title": "The code of an institution",
+        "titleCN": "章程；内部规章",
+        "definition": "the body of rules governing an institution such as a university, a guild, or a religious order",
+        "definitionCN": "管理大学、行会或修会等机构的整套规则",
+        "example": "The statutes of the university govern the appointment of its officers.",
+        "exampleCN": "这所大学的章程规定其管理人员的任命。",
+        "why": "Any body that sets its own rules repeats the original gesture of standing a rule up, so its code is also called statutes.",
+        "whyCN": "任何团体为自己立规，都在重复「把规则立起来」这个原始动作，所以它的整套规章也被称作 statutes。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Statute comes from Latin statutum, a thing established, from statuere, to set up, which is related to stare, to stand.",
+        "cn": "statute 来自拉丁语 statutum（被立定之物），源于 statuere（立定、设立），并与 stare（站立）同源。"
+      },
+      "items": [
+        {
+          "era": "LATIN",
+          "en": "Stare means to stand, and status means a standing position.",
+          "cn": "stare 意为站立，status 意为站立的状态或位置。"
+        },
+        {
+          "era": "LATIN",
+          "en": "Statuere means to set something up, to fix it, or to decide it.",
+          "cn": "statuere 意为把某物立起来、固定下来或作出决定。"
+        },
+        {
+          "era": "LATIN",
+          "en": "Statutum, its neuter past participle, means something established, hence a decree.",
+          "cn": "statutum 是其中性过去分词，意为被立定之物，因此指法令。"
+        },
+        {
+          "era": "MEDIEVAL LATIN",
+          "en": "Medieval Latin uses statutum for an ordinance or a law.",
+          "cn": "中世纪拉丁语用 statutum 指条例或法律。"
+        },
+        {
+          "era": "OLD FRENCH",
+          "en": "Old French statut carries the word into the language of law.",
+          "cn": "古法语 statut 把这个词带入法律语言。"
+        },
+        {
+          "era": "MIDDLE ENGLISH",
+          "en": "English adopts statute in the fourteenth century for a law made by a ruler or by parliament.",
+          "cn": "英语在十四世纪吸收 statute，指由君主或议会制定的法律。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "Statute belongs to the family of statuere, and sits close to act, legislation, and ordinance in the vocabulary of law-making.",
+        "cn": "statute 属于 statuere 词族，在立法的词汇场中与 act、legislation、ordinance 相邻。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "statue",
+              "ipa": "/ˈstætʃuː/",
+              "tag": "spelling",
+              "definition": "a carved or cast image of a person or an animal",
+              "definitionCN": "雕像（与 statute 只差一个字母；词源上与「立起」的词根相关，但义为立起的人像）"
+            },
+            {
+              "word": "status",
+              "ipa": "/ˈsteɪtəs/",
+              "tag": "same root",
+              "definition": "the legal or social standing of a person",
+              "definitionCN": "地位；法律身份（与 statute 同出 stare「站立」，义为所处的位置）"
+            },
+            {
+              "word": "statutory",
+              "ipa": "/ˈstætʃətɔːri/",
+              "tag": "derived form",
+              "definition": "created or required by statute",
+              "definitionCN": "法定的；成文法规定的（由 statute 派生的形容词）"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "act",
+              "ipa": "/ækt/",
+              "tag": "legal",
+              "definition": "a law passed by a legislature, often used in the title of a statute",
+              "definitionCN": "法令；法案（常与 statute 互换，多用于法律名称）"
+            },
+            {
+              "word": "legislation",
+              "ipa": "/ˌleɡɪsˈleɪʃən/",
+              "tag": "near meaning",
+              "definition": "the body of enacted laws, or the process of enacting them",
+              "definitionCN": "立法；法律（作集合名词，指成文法的整体或立法活动）"
+            },
+            {
+              "word": "ordinance",
+              "ipa": "/ˈɔːdɪnəns/",
+              "tag": "near meaning",
+              "definition": "a local law made by a city or by another local authority",
+              "definitionCN": "条例；地方性法规（多由市政当局制定，位阶低于 statute）"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "A statute is a rule stood up and fixed: statuere sets it upright, and writing keeps it standing.",
+        "cn": "statute 是一条被立起并固定下来的规则：statuere 把它立直，文字让它一直立着。"
+      },
+      "normal": [
+        {
+          "en": "Statuere means to set up, and a statute is a rule set up and fixed in writing.",
+          "cn": "statuere 意为立起，statute 则是被立起并用文字固定下来的规则。"
+        },
+        {
+          "en": "Watch the look-alikes: statute is the law, statue is the image, and status is the standing.",
+          "cn": "留意形近词：statute 是法律，statue 是雕像，status 是地位。"
+        },
+        {
+          "en": "Collocations: statute law, statute book, statute of limitations.",
+          "cn": "常见搭配：成文法、法规汇编、诉讼时效法。"
+        },
+        {
+          "en": "Contrast common law: common law grows from cases, while statute law is enacted.",
+          "cn": "对比 common law：普通法从判例中生长，成文法则由立法制定。"
+        },
+        {
+          "en": "Statutory is the adjective and statutorily the adverb.",
+          "cn": "statutory 是形容词，statutorily 是副词。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "Picture a stone slab carved with numbered clauses, planted upright in a market square.",
+          "cn": "想象一块石板刻满编号条款，直立在集市广场中央。"
+        },
+        {
+          "en": "Picture a clerk reading section five of a bound volume aloud in court.",
+          "cn": "想象书记员在法庭上朗读一本合订本里的第五条。"
+        },
+        {
+          "en": "Picture shelves of matching volumes standing where case reports once stood alone.",
+          "cn": "想象一排排相同的法律汇编，摆在本只剩判例汇编的书架上。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "The statute took effect at the start of the financial year.",
+        "cn": "该法规在财政年度开始时生效。"
+      },
+      {
+        "en": "Courts must interpret the statute as Parliament intended.",
+        "cn": "法院必须按议会的立法意图解释该成文法。"
+      },
+      {
+        "en": "The limitation statute barred the claim after six years.",
+        "cn": "法定时效在六年后使这项索赔失去时效保护。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "「斯塔图特」——斯塔图特把议会通过的条文刻在石板上，立在城门口，来往的人都要照着办。",
+      "word": "statute"
+    },
+    "root": "拉丁语 stare（站立）→ status（站立的状态）→ statuere（立定、设立）→ statutum（被立定之物，法令）→ 古法语 statut → 英语 statute，核心义「被立起来、固定下来的规则」。",
+    "sensesIntro": {
+      "en": "Statute begins as an enacted written law, then the instrument itself, then the whole body of enacted law, then a time limit, and finally the rules of an institution.",
+      "cn": "statute 先指立法机关制定的成文法律，再指法律文本本身，然后是整个制定法体系，接着是法定时效，最后是机构的整套章程。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: a slab of fixed clauses standing upright where everyone can see it.",
+        "cn": "核心意象：一块刻着固定条款的石板立在人人都看得见的地方。"
+      },
+      "chain": [
+        "STAND",
+        "SET UP",
+        "FIXED RULE",
+        "WRITTEN LAW",
+        "ENACTMENT",
+        "BODY OF LAW"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "An enacted written law is the core sense.",
+          "cn": "经立法制定的成文法律是核心义项。"
+        },
+        {
+          "senses": "02",
+          "en": "The instrument as a citable document is the second sense.",
+          "cn": "可作为文本引用的法律文件是第二个义项。"
+        },
+        {
+          "senses": "03",
+          "en": "Enacted law as a body is the collective use.",
+          "cn": "作为整体的制定法是集合用法。"
+        },
+        {
+          "senses": "04 · 05",
+          "en": "A time limit and an institutional code are two narrower offshoots.",
+          "cn": "法定时效与机构章程是两个更窄的分支。"
+        },
+        {
+          "senses": "02 · 03",
+          "en": "The document and the body of law are the same thing seen singly and collectively.",
+          "cn": "单份文本与整个体系，是同一事物被单数与集合地看待。"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Statute is built on Latin statuere, and English has statutory plus a cluster of look-alikes such as statue, status, and stature.",
+        "cn": "statute 建立在拉丁语 statuere 之上，英语围绕它有 statutory，以及 statue、status、stature 这一串形近词。"
+      },
+      "latinIntro": {
+        "en": "Latin stare means to stand, status means a standing, and statuere means to set up or ordain.",
+        "cn": "拉丁语 stare 意为站立，status 意为站立的状态，statuere 意为立定或设立。"
+      },
+      "items": [
+        {
+          "word": "stare",
+          "structure": "Latin verb",
+          "meaning": "to stand",
+          "meaningCN": "站立",
+          "example": "Stare supplies the standing image behind the whole family.",
+          "exampleCN": "stare 为整个词族提供「站立」的意象。"
+        },
+        {
+          "word": "status",
+          "structure": "Latin noun",
+          "meaning": "a standing, a position",
+          "meaningCN": "站立的状态；位置",
+          "example": "Status is the standing that a person or a thing holds.",
+          "exampleCN": "status 是人或物所处的位置。"
+        },
+        {
+          "word": "statuere",
+          "structure": "Latin verb",
+          "meaning": "to set up, establish",
+          "meaningCN": "立起；设立；规定",
+          "example": "Statuere turns standing into an act of setting up.",
+          "exampleCN": "statuere 把「站立」变成「立起」的动作。"
+        },
+        {
+          "word": "statutum",
+          "structure": "Latin noun",
+          "meaning": "something established, a decree",
+          "meaningCN": "被立定之物；法令",
+          "example": "Statutum is the direct source of statute.",
+          "exampleCN": "statutum 是 statute 的直接来源。"
+        },
+        {
+          "word": "statute",
+          "structure": "English noun",
+          "meaning": "a written law",
+          "meaningCN": "成文法",
+          "example": "Statute keeps the sense of a fixed, written rule.",
+          "exampleCN": "statute 保留了「固定的成文规则」这一含义。"
+        },
+        {
+          "word": "-ory",
+          "structure": "English suffix",
+          "meaning": "relating to",
+          "meaningCN": "与……有关的形容词后缀",
+          "example": "The suffix -ory forms statutory.",
+          "exampleCN": "后缀 -ory 构成 statutory。"
+        },
+        {
+          "word": "statutory",
+          "structure": "English adjective",
+          "meaning": "required by statute",
+          "meaningCN": "法定的",
+          "example": "Statutory describes what a statute requires.",
+          "exampleCN": "statutory 描述成文法所要求的内容。"
+        },
+        {
+          "word": "statutorily",
+          "structure": "English adverb",
+          "meaning": "by statute",
+          "meaningCN": "依法定地",
+          "example": "Statutorily adds the adverb suffix -ly.",
+          "exampleCN": "statutorily 加了副词后缀 -ly。"
+        },
+        {
+          "word": "statue",
+          "structure": "English noun",
+          "meaning": "a carved image",
+          "meaningCN": "雕像",
+          "example": "Statue looks like statute but names an image.",
+          "exampleCN": "statue 看起来像 statute，但指的是雕像。"
+        },
+        {
+          "word": "stature",
+          "structure": "English noun",
+          "meaning": "height, or standing in reputation",
+          "meaningCN": "身高；声望地位",
+          "example": "Stature keeps the image of standing upright.",
+          "exampleCN": "stature 保留了「直立」的意象。"
+        },
+        {
+          "word": "constitute",
+          "structure": "English verb",
+          "meaning": "to set up or make up",
+          "meaningCN": "构成；设立",
+          "example": "Constitute adds the prefix con- to statuere.",
+          "exampleCN": "constitute 在 statuere 前加了前缀 con-。"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "stare",
+          "structure": "Latin verb",
+          "meaning": "to stand",
+          "meaningCN": "站立"
+        },
+        {
+          "word": "status",
+          "structure": "Latin noun",
+          "meaning": "a standing",
+          "meaningCN": "站立的状态"
+        },
+        {
+          "word": "statuere",
+          "structure": "Latin verb",
+          "meaning": "to set up",
+          "meaningCN": "立起；设立"
+        },
+        {
+          "word": "statutum",
+          "structure": "Latin noun",
+          "meaning": "a decree",
+          "meaningCN": "法令"
+        }
+      ]
+    }
+  }
+]
