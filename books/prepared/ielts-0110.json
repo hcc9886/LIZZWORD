@@ -7045,7 +7045,7 @@
         "titleCN": "欢跃（书面与宗教语体）",
         "definition": "to jump about in joy, used especially in religious and literary writing",
         "definitionCN": "因喜悦而跳跃，尤用于宗教与文学文本",
-        "example": "The psalm calls the hills to exult before the Lord.",
+        "example": "In the old hymn, the hills exult before the Lord.",
         "exampleCN": "这首赞美诗呼唤群山在主面前欢跃。",
         "why": "The oldest layer of the word is the physical leap, and religious language keeps it because praise there is acted out with the whole body.",
         "whyCN": "这个词最古老的一层就是身体的一跃，宗教语言保留它，因为那里的赞美是用整个身体做出来的。"
@@ -7083,9 +7083,9 @@
           "cn": "英语先记录名词 exultation，即「跳跃般的喜悦」这种心境。"
         },
         {
-          "era": "ENGLISH, 17TH C.",
-          "en": "The verb exult settles into English in the seventeenth century and keeps the leap inside the joy.",
-          "cn": "动词 exult 在十七世纪进入英语，并把「跳跃」留在喜悦之中。"
+          "era": "ENGLISH, 16TH C.",
+          "en": "The verb exult appears in the sixteenth century, most likely shortened from exultation, and keeps the leap inside the joy.",
+          "cn": "动词 exult 在十六世纪出现，一般认为是 exultation 的缩短形式，并把「跳跃」这一意象留在喜悦之中。"
         }
       ]
     },
@@ -7333,16 +7333,16 @@
         {
           "word": "insult",
           "structure": "English verb and noun",
-          "meaning": "to leap at someone with words",
-          "meaningCN": "侮辱；辱骂",
+          "meaning": "to speak to or treat someone with contempt",
+          "meaningCN": "侮辱；冒犯",
           "example": "Insult comes from in- plus salire, to jump at.",
           "exampleCN": "insult 来自 in- 加 salire，意为「朝某人跳过去」。"
         },
         {
           "word": "result",
           "structure": "English noun and verb",
-          "meaning": "what springs back from an action",
-          "meaningCN": "结果；导致",
+          "meaning": "an outcome or consequence",
+          "meaningCN": "结果；后果",
           "example": "Result comes from re- plus salire, to spring back.",
           "exampleCN": "result 来自 re- 加 salire，意为「弹回来」。"
         }
@@ -7768,7 +7768,7 @@
     "ipa_uk": "/ˈaɪwɪtnəs/",
     "ipa_us": "/ˈaɪwɪtnəs/",
     "definition_zh": "目击者；见证人；目击证词；亲眼所见",
-    "definition_en": "a person who has seen an event happen and can say what happened, because the eye was there and the witness can speak",
+    "definition_en": "a person who sees an event happen and can describe it from direct observation",
     "core_image": "一个人站在街角，睁大眼睛看着事故全过程",
     "scene": "路口两车相撞，一位等公交的女士把整个过程看得清清楚楚。A woman waiting for the bus saw the whole crash and later described it to the police as an eyewitness.",
     "sceneCN": "这里 eyewitness 是「目击者」（第 1 个义项：亲眼看到事件发生的人）；句意：一位等公交的女士看见了两车相撞的全过程，后来以目击者身份向警方描述。",
@@ -7820,6 +7820,11 @@
         "word": "earwitness",
         "pos": "n.",
         "zh": "仿 eye 加 witness 构成，指只凭听说而非亲眼所见的人，与 eyewitness 相对"
+      },
+      {
+        "word": "eye-witness",
+        "pos": "n.",
+        "zh": "较早的连字符写法，与 eyewitness 同义，多见于十九世纪及以前的报刊文本"
       }
     ],
     "senses": [
@@ -8090,8 +8095,8 @@
         "cn": "eyewitness 是 eye 与 witness 构成的透明复合词，英语还按同一模式造了几个复合词。"
       },
       "latinIntro": {
-        "en": "Eyewitness has no Latin root, because eye and witness are both Old English words; the Latin words for an eye and a witness are useful only as contrasts.",
-        "cn": "eyewitness 没有拉丁词根，因为 eye 与 witness 都是古英语词；拉丁语中表示眼睛与证人的词只能作对照。"
+        "en": "Eyewitness has no Latin root, because eye and witness are both Old English words; Latin oculus is a distant cognate of eye, and Latin testis names the same role of witness.",
+        "cn": "eyewitness 没有拉丁词根，因为 eye 与 witness 都是古英语词；拉丁语 oculus 与 eye 同出原始印欧语，testis 则是拉丁语里担任「证人」这一角色的词。"
       },
       "items": [
         {
@@ -8120,7 +8125,7 @@
         },
         {
           "word": "-ness",
-          "structure": "Old English suffix",
+          "structure": "Old English suffix, later -ness",
           "meaning": "forms nouns of state or quality",
           "meaningCN": "构成状态或性质名词的词尾",
           "example": "Witnes was built with the noun suffix -nes.",
@@ -8175,7 +8180,20 @@
           "exampleCN": "目击辨认是心理学家研究的对象。"
         }
       ],
-      "latinEntries": []
+      "latinEntries": [
+        {
+          "word": "oculus",
+          "structure": "Latin noun",
+          "meaning": "eye",
+          "meaningCN": "眼睛"
+        },
+        {
+          "word": "testis",
+          "structure": "Latin noun",
+          "meaning": "witness",
+          "meaningCN": "证人；见证人"
+        }
+      ]
     }
   },
   {
