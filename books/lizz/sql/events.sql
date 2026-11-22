@@ -51,3 +51,38 @@ create policy "read own profile" on public.profiles
   using (id = auth.uid());
 
 -- 注意：不要在客户端写 profiles.plan；由 Edge Function / webhook 用 service_role 写。
+
+-- 班级与成员（教师端多设备共享）
+create table if not exists public.classes (
+  code text primary key,
+  name text not null default '',
+  students jsonb not null default '[]'::jsonb,
+  assignments jsonb not null default '[]'::jsonb,
+  owner_id uuid references auth.users (id) on delete set null,
+  updated_at timestamptz not null default now()
+);
+
+create table if not exists public.class_members (
+  code text references public.classes (code) on delete cascade,
+  user_id uuid references auth.users (id) on delete cascade,
+  learned integer not null default 0,
+  updated_at timestamptz not null default now(),
+  primary key (code, user_id)
+);
+
+alter table public.classes enable row level security;
+alter table public.class_members enable row level security;
+
+create policy "teacher manage own class" on public.classes
+  for all to authenticated using (owner_id = auth.uid()) with check (owner_id = auth.uid());
+
+create policy "members read joined class" on public.classes
+  for select to authenticated using (true);
+
+create policy "member upsert self" on public.class_members
+  for all to authenticated using (user_id = auth.uid()) with check (user_id = auth.uid());
+
+create policy "teacher reads members" on public.class_members
+  for select to authenticated using (
+    exists (select 1 from public.classes c where c.code = class_members.code and c.owner_id = auth.uid())
+  );

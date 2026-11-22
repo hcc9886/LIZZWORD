@@ -12722,6 +12722,128 @@
         </tbody></table>`;
     }
 
+
+    // ============================================================
+    // 班级上云：教师端数据同步 Supabase + 学生用班级码加入
+    // ============================================================
+    const CLASS_CLOUD_TABLE = "classes";
+    const CLASS_MEMBER_TABLE = "class_members";
+
+    function classCloudConfig() {
+      const cfg = window.LIZZWORD_ACCOUNT_CONFIG;
+      const account = window.LIZZWORD_ACCOUNT;
+      if (!cfg || !cfg.url || !cfg.anonKey || !account) return null;
+      const session = account.getSession && account.getSession();
+      if (!session || !session.access_token) return null;
+      return { url: cfg.url.replace(/\/$/, ""), key: cfg.anonKey, token: session.access_token, userId: session.user && session.user.id };
+    }
+
+    async function classCloudPush() {
+      const cfg = classCloudConfig();
+      if (!cfg) return { ok: false, message: "未登录或云端未配置" };
+      const data = classLoad();
+      const body = [{
+        code: classCode(),
+        name: data.name || "",
+        students: data.students || [],
+        assignments: data.assignments || [],
+        owner_id: cfg.userId,
+        updated_at: new Date().toISOString()
+      }];
+      const res = await fetch(cfg.url + "/rest/v1/" + CLASS_CLOUD_TABLE + "?on_conflict=code", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          apikey: cfg.key,
+          Authorization: "Bearer " + cfg.token,
+          Prefer: "resolution=merge-duplicates,return=minimal"
+        },
+        body: JSON.stringify(body)
+      });
+      if (!res.ok) return { ok: false, message: "同步失败：" + res.status };
+      return { ok: true, message: "班级已同步到云端" };
+    }
+
+    async function classCloudPull(code) {
+      const cfg = classCloudConfig();
+      if (!cfg) return { ok: false, message: "未登录或云端未配置" };
+      const res = await fetch(cfg.url + "/rest/v1/" + CLASS_CLOUD_TABLE + "?code=eq." + encodeURIComponent(code) + "&select=*", {
+        headers: { apikey: cfg.key, Authorization: "Bearer " + cfg.token }
+      });
+      if (!res.ok) return { ok: false, message: "读取失败：" + res.status };
+      const rows = await res.json();
+      if (!rows.length) return { ok: false, message: "没有找到这个班级码" };
+      const row = rows[0];
+      const next = classLoad();
+      next.name = row.name || next.name;
+      next.cloudCode = row.code;
+      next.cloudStudents = row.students || [];
+      next.cloudAssignments = row.assignments || [];
+      classSave(next);
+      return { ok: true, message: "已加入班级「" + (row.name || row.code) + "」", row };
+    }
+
+    async function classStudentJoin(code) {
+      const cfg = classCloudConfig();
+      const pulled = await classCloudPull(code);
+      if (!pulled.ok) return pulled;
+      const data = classLoad();
+      data.joinedCode = code;
+      classSave(data);
+      if (cfg) {
+        const learned = Array.isArray(state.stage1Done) ? state.stage1Done.length : 0;
+        fetch(cfg.url + "/rest/v1/" + CLASS_MEMBER_TABLE + "?on_conflict=code,user_id", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            apikey: cfg.key,
+            Authorization: "Bearer " + cfg.token,
+            Prefer: "resolution=merge-duplicates,return=minimal"
+          },
+          body: JSON.stringify([{
+            code,
+            user_id: cfg.userId,
+            learned,
+            updated_at: new Date().toISOString()
+          }])
+        }).catch(() => { /* 上报失败不影响本地 */ });
+      }
+      return pulled;
+    }
+
+    function openClassJoin() {
+      const modal = document.createElement("div");
+      modal.className = "onboard-overlay";
+      modal.innerHTML = `
+        <div class="onboard-card" role="dialog" aria-modal="true" aria-label="加入班级">
+          <div class="settings-head"><h2 class="onboard-title">加入班级</h2>
+            <button type="button" class="settings-close" data-settings-close>×</button></div>
+          <p class="drill-sub">输入老师给的班级码，加入后进度会自动上报。</p>
+          <input class="onboard-field" type="text" data-join-code placeholder="例如 LZABC12" autocomplete="off">
+          <p class="onboard-note" data-join-note></p>
+          <div class="onboard-actions">
+            <button type="button" class="btn-ghost" data-settings-close>取消</button>
+            <button type="button" class="btn-primary" data-join-confirm>加入</button>
+          </div>
+        </div>`;
+      document.body.appendChild(modal);
+      modal.addEventListener("click", async (event) => {
+        if (event.target === modal || event.target.closest("[data-settings-close]")) { modal.remove(); return; }
+        if (event.target.closest("[data-join-confirm]")) {
+          const code = (modal.querySelector("[data-join-code]").value || "").trim().toUpperCase();
+          const note = modal.querySelector("[data-join-note]");
+          if (!code) { note.textContent = "请输入班级码"; return; }
+          note.textContent = "正在加入…";
+          const result = await classStudentJoin(code);
+          note.textContent = result.message;
+          if (result.ok) {
+            renderView();
+            setTimeout(() => modal.remove(), 900);
+          }
+        }
+      });
+    }
+
     function renderClassRoom() {
       const mount = document.getElementById("view-class");
       const data = classLoad();
@@ -12777,6 +12899,9 @@
 
           <div class="drill-actions">
             <button type="button" class="btn-primary" data-class-export>导出 CSV</button>
+            <button type="button" class="btn-ghost" data-class-sync>同步到云端</button>
+            <button type="button" class="btn-ghost" data-class-join>加入别人的班级</button>
+            <button type="button" class="btn-ghost" data-export-report>导出学习报告 PDF</button>
             <button type="button" class="btn-ghost" data-class-clear>清空班级数据</button>
           </div>
         </section>`;
@@ -12821,6 +12946,33 @@
           showToast("进度已保存。");
         }
       });
+    }
+
+    function exportLearningReport() {
+      const stat = learnedStat();
+      const events = window.LZEvents ? window.LZEvents.summary(7) : { total: 0, answers: 0, accuracy: 0 };
+      const win = window.open("", "_blank");
+      if (!win) { showToast("浏览器拦截了新窗口，请允许弹窗。"); return; }
+      const rows = learnedRows().slice(0, 300).map((r) => `<tr><td>${esc(r.word)}</td><td>${esc(String(r.item.definition_zh || "").slice(0, 20))}</td><td>${r.mastered ? "已掌握" : "第 " + (r.node + 1) + " 阶"}</td><td>${esc(r.due || "-")}</td></tr>`).join("");
+      win.document.write(`<!doctype html><html><head><meta charset="utf-8"><title>LIZZWORD 学习报告</title>
+        <style>body{font-family:-apple-system,Segoe UI,sans-serif;padding:28px;color:#1f2937}
+        h1{font-size:22px;margin:0 0 6px}h2{font-size:15px;margin:20px 0 8px}
+        .meta{color:#6b7280;font-size:12px}
+        table{width:100%;border-collapse:collapse;font-size:12px}
+        th,td{border-bottom:1px solid #e5e7eb;padding:6px;text-align:left}
+        .print{margin-top:20px;color:#9ca3af;font-size:11px}</style></head><body>
+        <h1>LIZZWORD 学习报告</h1>
+        <p class="meta">${esc(activeBookConfig.name)} · ${new Date().toLocaleString()} · 邀请码 ${esc(inviteCode())}</p>
+        <h2>概览</h2>
+        <p class="meta">累计学过 ${stat.total} · 已掌握 ${stat.mastered} · 待复习 ${stat.due} · 久未复习 ${stat.longAgo}</p>
+        <p class="meta">近 7 天：答题 ${events.answers} 次 · 正确率 ${events.accuracy}% · 连续 ${state.streakDays || 0} 天</p>
+        <h2>已学词汇（前 300）</h2>
+        <table><thead><tr><th>单词</th><th>释义</th><th>状态</th><th>下次复习</th></tr></thead><tbody>${rows}</tbody></table>
+        <p class="print">按 Ctrl+P / ⌘P 可保存为 PDF。</p>
+        <script>window.onload=function(){setTimeout(function(){window.print()},400)}<\/script>
+        </body></html>`);
+      win.document.close();
+      trackEvent("report_export", { words: stat.total });
     }
 
     function classExportCsv() {
@@ -13872,6 +14024,12 @@
         return;
       }
       if (event.target.closest("[data-class-manual]")) { openManualProgress(); return; }
+      if (event.target.closest("[data-export-report]")) { exportLearningReport(); return; }
+      if (event.target.closest("[data-class-sync]")) {
+        classCloudPush().then((r) => showToast(r.message));
+        return;
+      }
+      if (event.target.closest("[data-class-join]")) { openClassJoin(); return; }
       if (event.target.closest("[data-class-export]")) { classExportCsv(); return; }
       if (event.target.closest("[data-class-clear]")) {
         classSave({ name: "", students: [], assigned: [] });
