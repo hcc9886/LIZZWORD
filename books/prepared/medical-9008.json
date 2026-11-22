@@ -1,0 +1,1321 @@
+[
+  {
+    "word": "sprain",
+    "ipa_uk": "/spreɪn/",
+    "ipa_us": "/spreɪn/",
+    "definition_zh": "扭伤；关节扭伤；韧带扭伤",
+    "definition_en": "an injury to a joint caused by a sudden twist, or to twist a joint so that its ligaments are stretched or torn",
+    "core_image": "脚掌踩实，脚踝却向外一歪，韧带被拉扯过度",
+    "scene": "篮球场上一次落地不稳，队医立刻跑进场内。He sprained his ankle when he landed after a jump shot.",
+    "sceneCN": "这里 sprain 是「扭伤」（第 1 个义项：突然扭转造成的关节韧带损伤）；句意：他跳投落地时扭伤了脚踝。",
+    "pos": [
+      {
+        "tag": "n.",
+        "zh": "扭伤；关节扭伤"
+      },
+      {
+        "tag": "v.",
+        "zh": "扭伤（关节）"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "sprain an ankle",
+        "zh": "扭伤脚踝"
+      },
+      {
+        "phrase": "a bad sprain",
+        "zh": "严重的扭伤"
+      },
+      {
+        "phrase": "ankle sprain",
+        "zh": "踝关节扭伤"
+      },
+      {
+        "phrase": "sprain a wrist",
+        "zh": "扭伤手腕"
+      },
+      {
+        "phrase": "a sprained ligament",
+        "zh": "扭伤的韧带"
+      },
+      {
+        "phrase": "recover from a sprain",
+        "zh": "从扭伤中恢复"
+      }
+    ],
+    "forms": [
+      {
+        "label": "第三人称单数",
+        "form": "sprains"
+      },
+      {
+        "label": "过去式",
+        "form": "sprained"
+      },
+      {
+        "label": "过去分词",
+        "form": "sprained"
+      },
+      {
+        "label": "现在分词",
+        "form": "spraining"
+      },
+      {
+        "label": "复数",
+        "form": "sprains"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "sprained",
+        "pos": "adj.",
+        "zh": "由过去分词转成形容词，义为「扭伤的；因扭伤而受损的」"
+      },
+      {
+        "word": "spraining",
+        "pos": "n.",
+        "zh": "由现在分词转成动名词，义为「扭伤这一动作」"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "A joint injury from a sudden twist",
+        "titleCN": "扭伤（伤）",
+        "definition": "an injury to a joint caused by a sudden twist that stretches or tears its ligaments",
+        "definitionCN": "关节因突然扭转而使韧带被拉伸或撕裂所造成的损伤",
+        "example": "A bad sprain kept her off the court for six weeks.",
+        "exampleCN": "一次严重的扭伤让她六周没能上场。",
+        "why": "The Latin source means to press out, so a sprain is a joint pressed past its safe range.",
+        "whyCN": "拉丁语来源意为「挤出」，所以扭伤就是关节被挤出了安全的活动范围。"
+      },
+      {
+        "no": "02",
+        "title": "To twist a joint and hurt it",
+        "titleCN": "扭伤（动作）",
+        "definition": "to hurt a joint suddenly by twisting it beyond its normal range",
+        "definitionCN": "突然把关节拧到正常活动范围之外而使其受伤",
+        "example": "He sprained his wrist while lifting the heavy box.",
+        "exampleCN": "他搬那个重箱子时扭伤了手腕。",
+        "why": "The noun turned into a verb, naming the exact moment when the twist happens.",
+        "whyCN": "名词转化为动词，指的正是那一下扭转发生的瞬间。"
+      },
+      {
+        "no": "03",
+        "title": "A ligament injury graded by doctors",
+        "titleCN": "韧带扭伤（医学分级）",
+        "definition": "a clinical injury of the ligaments around a joint, often graded as mild, moderate, or severe",
+        "definitionCN": "关节周围韧带的临床损伤，常分为轻度、中度与重度",
+        "example": "The doctor graded the ankle sprain as moderate.",
+        "exampleCN": "医生把这次脚踝扭伤定为中度。",
+        "why": "Clinical use narrows the everyday twist to damage of the ligaments themselves.",
+        "whyCN": "临床用法把日常的「扭一下」收窄为韧带本身的损伤。"
+      },
+      {
+        "no": "04",
+        "title": "A painful twist that is not a broken bone",
+        "titleCN": "日常说的扭伤（非骨折）",
+        "definition": "a painful joint injury that people treat at home because no bone is broken",
+        "definitionCN": "人们在家处理的一种疼痛性关节损伤，因为骨头并没有断",
+        "example": "Rest and ice are enough for most sprains.",
+        "exampleCN": "大多数扭伤只要休息和冰敷就够了。",
+        "why": "Everyday speech uses the word to separate a sprain from a fracture.",
+        "whyCN": "日常说法用这个词把扭伤和骨折区分开来。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Sprain traces back through Old French espreindre to Latin exprimere, to press out.",
+        "cn": "sprain 经古法语 espreindre 上溯到拉丁语 exprimere（挤出、压出）。"
+      },
+      "items": [
+        {
+          "era": "LATIN",
+          "en": "Exprimo, exprimere means to press or squeeze something out.",
+          "cn": "exprimo、exprimere 意为把某物压出、挤出。"
+        },
+        {
+          "era": "LATIN",
+          "en": "The participle expressus means pressed out, and it also feeds the word express.",
+          "cn": "分词 expressus 意为「被压出的」，它也是 express 的来源。"
+        },
+        {
+          "era": "OLD FRENCH",
+          "en": "Espreindre means to press or squeeze, keeping the Latin image of pressure.",
+          "cn": "espreindre 意为挤压，保留了拉丁语「加压」的意象。"
+        },
+        {
+          "era": "MIDDLE ENGLISH",
+          "en": "Spraynen appears in the fourteenth century with the sense of wrenching a limb.",
+          "cn": "spraynen 在十四世纪出现，义为猛扭肢体。"
+        },
+        {
+          "era": "ENGLISH, 14TH CENTURY",
+          "en": "The verb sprain settles on the violent twist that hurts a joint.",
+          "cn": "动词 sprain 固定为「伤到关节的猛扭」。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "The later noun sprain names the injury itself, not only the act.",
+          "cn": "较晚出现的名词 sprain 指损伤本身，而不只是动作。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "Sprain sits beside strain and other twist words, and beside the clinical vocabulary of joint injuries.",
+        "cn": "sprain 与 strain 等表示「拧、拉」的词相邻，也与关节损伤的临床词汇相邻。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "strain",
+              "ipa": "/streɪn/",
+              "tag": "spelling",
+              "definition": "to injure a muscle or tendon by overstretching it",
+              "definitionCN": "拉伤肌肉或肌腱；只是拼写与 sprain 相近，词源不同"
+            },
+            {
+              "word": "sprang",
+              "ipa": "/spræŋ/",
+              "tag": "past tense",
+              "definition": "the past tense of spring",
+              "definitionCN": "spring 的过去式；只是拼写相近，词源不同"
+            },
+            {
+              "word": "spray",
+              "ipa": "/spreɪ/",
+              "tag": "spelling",
+              "definition": "liquid sent through the air in tiny drops",
+              "definitionCN": "喷雾；只是拼写相近，词源不同"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "twist",
+              "ipa": "/twɪst/",
+              "tag": "near meaning",
+              "definition": "a sudden turn that can hurt a joint",
+              "definitionCN": "突然的扭转，可能伤到关节"
+            },
+            {
+              "word": "wrench",
+              "ipa": "/rentʃ/",
+              "tag": "near meaning",
+              "definition": "a violent twist or pull",
+              "definitionCN": "猛扭；猛拉"
+            },
+            {
+              "word": "tear",
+              "ipa": "/teə/",
+              "tag": "near meaning",
+              "definition": "to pull something apart by force",
+              "definitionCN": "撕裂；把某物强行扯开"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Sprain is a joint squeezed past its limit, and its forms and collocations are all regular.",
+        "cn": "sprain 是关节被挤到限度之外，它的形式与搭配都很规则。"
+      },
+      "normal": [
+        {
+          "en": "Sprain and strain are different: a sprain damages ligaments, a strain damages muscles.",
+          "cn": "sprain 与 strain 不同：前者伤韧带，后者伤肌肉。"
+        },
+        {
+          "en": "An ankle sprain is one of the most common injuries in basketball.",
+          "cn": "脚踝扭伤是篮球运动中最常见的损伤之一。"
+        },
+        {
+          "en": "The verb is regular, so the forms are sprains, sprained, and spraining.",
+          "cn": "动词变化规则，形式为 sprains、sprained、spraining。"
+        },
+        {
+          "en": "Rest, ice, and a tight bandage help most sprains heal.",
+          "cn": "休息、冰敷和绷带有助于大多数扭伤愈合。"
+        },
+        {
+          "en": "The Old French source meant to squeeze, and a sprain does squeeze a joint.",
+          "cn": "古法语来源意为「挤压」，而扭伤正是把关节挤压了一下。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "Picture an ankle rolling outward while the foot stays planted.",
+          "cn": "想象脚掌踩实，脚踝却向外一歪。"
+        },
+        {
+          "en": "Imagine wringing a wet towel until the cloth twists tight.",
+          "cn": "想象拧一条湿毛巾，布被拧得紧紧的。"
+        },
+        {
+          "en": "Think of a rubber band stretched to its limit but not snapped.",
+          "cn": "想象一根橡皮筋被拉到极限却还没崩断。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "She sprained her ankle during the warm-up.",
+        "cn": "她在热身时扭伤了脚踝。"
+      },
+      {
+        "en": "A bad sprain can take six weeks to heal.",
+        "cn": "严重的扭伤可能要六周才能痊愈。"
+      },
+      {
+        "en": "The coach wrapped the sprained wrist in tape.",
+        "cn": "教练用胶布把扭伤的手腕缠了起来。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "谐音「死拼」——带伤硬拼上场，落地一歪就扭伤；这只是谐音联想，与词源无关。",
+      "word": "sprain"
+    },
+    "root": "拉丁语 exprimere（挤出、压出）→ 古法语 espreindre（挤压）→ 中古英语 spraynen（猛扭）→ 英语 sprain，核心义「把关节挤到超出限度」。",
+    "sensesIntro": {
+      "en": "Sprain names the injury first, then the act of twisting, then clinical ligament damage, and finally the everyday injury that is not a break.",
+      "cn": "sprain 先指扭伤这一损伤，再指扭转的动作，继而指临床上的韧带损伤，最后指日常说的、并非骨折的扭伤。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: an ankle rolling outward while the foot stays planted.",
+        "cn": "核心意象：脚掌落地时脚踝向外一歪。"
+      },
+      "chain": [
+        "TWIST",
+        "PRESS OUT",
+        "STRETCH",
+        "LIGAMENT",
+        "TEAR",
+        "JOINT INJURY"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "The injury noun is the everyday sense.",
+          "cn": "表示损伤的名词是日常义项。"
+        },
+        {
+          "senses": "02",
+          "en": "The verb names the twisting action itself.",
+          "cn": "动词义项指扭转动作本身。"
+        },
+        {
+          "senses": "03",
+          "en": "Doctors grade ligament damage as a sprain.",
+          "cn": "医生把韧带损伤分级称为扭伤。"
+        },
+        {
+          "senses": "04",
+          "en": "Everyday talk contrasts a sprain with a break.",
+          "cn": "日常说法把扭伤与骨折作对照。"
+        },
+        {
+          "senses": "01 · 02",
+          "en": "The injury and the act are two sides of one event.",
+          "cn": "损伤与动作是同一件事的两面。"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Sprain grows from the Latin verb exprimere, to press out, through Old French and Middle English.",
+        "cn": "sprain 从拉丁语动词 exprimere（挤出）经古法语与中古英语演变而来。"
+      },
+      "latinIntro": {
+        "en": "Latin ex- means out, and premere means to press, so exprimere means to press out.",
+        "cn": "拉丁语 ex- 表示「向外」，premere 表示「压」，exprimere 即「压出、挤出」。"
+      },
+      "items": [
+        {
+          "word": "ex-",
+          "structure": "Latin prefix",
+          "meaning": "out, outward",
+          "meaningCN": "向外；出",
+          "example": "The prefix marks movement outward.",
+          "exampleCN": "这个前缀标出向外的动作。"
+        },
+        {
+          "word": "premere",
+          "structure": "Latin verb",
+          "meaning": "to press, to squeeze",
+          "meaningCN": "压；挤",
+          "example": "Premere supplies the pressing action.",
+          "exampleCN": "premere 提供「压」的动作。"
+        },
+        {
+          "word": "exprimere",
+          "structure": "Latin verb",
+          "meaning": "to press out, to squeeze out",
+          "meaningCN": "挤出；压出",
+          "example": "The verb exprimere gives the squeezing image.",
+          "exampleCN": "动词 exprimere 提供挤压的意象。"
+        },
+        {
+          "word": "expressus",
+          "structure": "Latin participle",
+          "meaning": "pressed out",
+          "meaningCN": "被压出的",
+          "example": "The participle expressus means pressed out.",
+          "exampleCN": "分词 expressus 意为「被压出的」。"
+        },
+        {
+          "word": "espreindre",
+          "structure": "Old French verb",
+          "meaning": "to press, to squeeze",
+          "meaningCN": "挤压",
+          "example": "Old French espreindre carries the Latin pressure forward.",
+          "exampleCN": "古法语 espreindre 把拉丁语的「压」延续下来。"
+        },
+        {
+          "word": "spraynen",
+          "structure": "Middle English verb",
+          "meaning": "to wrench, to twist",
+          "meaningCN": "猛扭；拧",
+          "example": "Middle English spraynen names a wrenching of the body.",
+          "exampleCN": "中古英语 spraynen 指猛扭身体。"
+        },
+        {
+          "word": "sprain",
+          "structure": "English noun",
+          "meaning": "a joint injury from a twist",
+          "meaningCN": "扭伤",
+          "example": "The noun sprain names the injury itself.",
+          "exampleCN": "名词 sprain 指损伤本身。"
+        },
+        {
+          "word": "sprain",
+          "structure": "English verb",
+          "meaning": "to twist and injure a joint",
+          "meaningCN": "扭伤关节",
+          "example": "The verb sprain names the act.",
+          "exampleCN": "动词 sprain 指这个动作。"
+        },
+        {
+          "word": "-ed",
+          "structure": "English suffix",
+          "meaning": "past tense ending",
+          "meaningCN": "过去式词尾",
+          "example": "The ending -ed forms sprained.",
+          "exampleCN": "词尾 -ed 构成 sprained。"
+        },
+        {
+          "word": "-ing",
+          "structure": "English suffix",
+          "meaning": "present participle ending",
+          "meaningCN": "现在分词词尾",
+          "example": "The ending -ing forms spraining.",
+          "exampleCN": "词尾 -ing 构成 spraining。"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "exprimere",
+          "structure": "Latin verb",
+          "meaning": "to press out",
+          "meaningCN": "挤出；压出"
+        },
+        {
+          "word": "premere",
+          "structure": "Latin verb",
+          "meaning": "to press",
+          "meaningCN": "压；挤"
+        },
+        {
+          "word": "expressus",
+          "structure": "Latin participle",
+          "meaning": "pressed out",
+          "meaningCN": "被压出的"
+        }
+      ]
+    }
+  },
+  {
+    "word": "transplant",
+    "ipa_uk": "/trænzˈplɑːnt; ˈtrænzplɑːnt/",
+    "ipa_us": "/trænzˈplænt; ˈtrænzplænt/",
+    "definition_zh": "移植；移栽；迁移；搬迁",
+    "definition_en": "to move a plant, organ, or piece of tissue from one place to another, or such a move",
+    "core_image": "一棵带土球的树被抬到新坑里，根须还带着旧地的泥",
+    "scene": "医院走廊里，护士推着装有捐献器官的保温箱快步走向手术室。The surgeons will transplant the donated kidney into the young patient.",
+    "sceneCN": "这里 transplant 是「移植」（第 1 个义项：把器官或组织移到另一个身体）；句意：外科医生将把这颗捐献的肾脏移植到这位年轻患者体内。",
+    "pos": [
+      {
+        "tag": "n.",
+        "zh": "移植；移植手术"
+      },
+      {
+        "tag": "v.",
+        "zh": "移植；移栽；迁移"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "organ transplant",
+        "zh": "器官移植"
+      },
+      {
+        "phrase": "heart transplant",
+        "zh": "心脏移植"
+      },
+      {
+        "phrase": "transplant a kidney",
+        "zh": "移植肾脏"
+      },
+      {
+        "phrase": "transplant seedlings",
+        "zh": "移栽幼苗"
+      },
+      {
+        "phrase": "bone marrow transplant",
+        "zh": "骨髓移植"
+      },
+      {
+        "phrase": "transplant recipient",
+        "zh": "移植受者"
+      }
+    ],
+    "forms": [
+      {
+        "label": "第三人称单数",
+        "form": "transplants"
+      },
+      {
+        "label": "过去式",
+        "form": "transplanted"
+      },
+      {
+        "label": "过去分词",
+        "form": "transplanted"
+      },
+      {
+        "label": "现在分词",
+        "form": "transplanting"
+      },
+      {
+        "label": "复数",
+        "form": "transplants"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "transplantation",
+        "pos": "n.",
+        "zh": "动词加 -ation 构成名词，义为「移植；移植术」"
+      },
+      {
+        "word": "transplantable",
+        "pos": "adj.",
+        "zh": "动词加 -able 构成形容词，义为「可移植的」"
+      },
+      {
+        "word": "transplanter",
+        "pos": "n.",
+        "zh": "动词加 -er 构成名词，义为「移栽者；移栽机」"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "Moving an organ into another body",
+        "titleCN": "器官移植",
+        "definition": "a medical operation that moves a healthy organ or tissue from one body to another",
+        "definitionCN": "把健康的器官或组织从一个身体移到另一个身体的医疗手术",
+        "example": "The kidney transplant took five hours.",
+        "exampleCN": "这台肾脏移植手术做了五个小时。",
+        "why": "Trans- means across and plantare means to plant, so the organ is planted in a new body.",
+        "whyCN": "trans- 意为「越过」，plantare 意为「栽种」，所以器官是被栽进一个新的身体。"
+      },
+      {
+        "no": "02",
+        "title": "Replanting a plant in a new place",
+        "titleCN": "移栽",
+        "definition": "to dig up a growing plant and plant it again in another spot",
+        "definitionCN": "把正在生长的植物挖起，再种到另一个地方",
+        "example": "We transplant the tomato seedlings in late spring.",
+        "exampleCN": "我们在晚春移栽番茄幼苗。",
+        "why": "The oldest sense is agricultural: a plant is carried across and set into new soil.",
+        "whyCN": "最古老的义项属于农业：植物被带过一段距离，安放进新的土壤。"
+      },
+      {
+        "no": "03",
+        "title": "Moving people or things to a new place",
+        "titleCN": "迁移；搬迁",
+        "definition": "to move a person, group, or thing to a different place or setting",
+        "definitionCN": "把人、群体或事物移到另一个地方或环境",
+        "example": "The whole office was transplanted to a building near the river.",
+        "exampleCN": "整个办公室被搬到了河边的一栋楼里。",
+        "why": "The agricultural image widens into any move that gives something a new setting.",
+        "whyCN": "农业意象扩大为任何「给某物一个新环境」的迁移。"
+      },
+      {
+        "no": "04",
+        "title": "A piece of living tissue moved by grafting",
+        "titleCN": "组织移植",
+        "definition": "a piece of living tissue moved from one site to another, as in a skin graft",
+        "definitionCN": "把一块活组织从一个部位移到另一个部位，如皮肤移植",
+        "example": "The burn unit used a skin transplant from the thigh of the patient.",
+        "exampleCN": "烧伤科用患者大腿上的一块皮肤做了移植。",
+        "why": "A graft is a transplant on a small scale, moving living tissue from one site to another.",
+        "whyCN": "移植物是小规模的移植，把活组织从一个部位挪到另一个部位。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Transplant joins Latin trans, across, with plantare, to plant, and reaches English through French.",
+        "cn": "transplant 由拉丁语 trans（越过）与 plantare（栽种）组合，经法语进入英语。"
+      },
+      "items": [
+        {
+          "era": "LATIN",
+          "en": "Trans means across, beyond, or to the other side.",
+          "cn": "trans 意为「越过、穿过、到另一边」。"
+        },
+        {
+          "era": "LATIN",
+          "en": "Plantare means to plant, from planta, a shoot or the sole of the foot.",
+          "cn": "plantare 意为栽种，源自 planta（幼苗；脚掌）。"
+        },
+        {
+          "era": "MEDIEVAL LATIN",
+          "en": "Transplantare is recorded for planting something again elsewhere.",
+          "cn": "中世纪拉丁语 transplantare 指把某物移种到别处。"
+        },
+        {
+          "era": "FRENCH",
+          "en": "French transplanter carries the word into gardening and, later, medicine.",
+          "cn": "法语 transplanter 把这个词带入园艺，后来又带入医学。"
+        },
+        {
+          "era": "ENGLISH, 16TH CENTURY",
+          "en": "English transplant first names the moving of trees and plants.",
+          "cn": "英语 transplant 最初指搬运树木与植物。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "Modern English extends transplant to organs, tissue, and whole communities.",
+          "cn": "现代英语把 transplant 扩展到器官、组织与整个群体。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "The look-alike group holds the plantare family; the near-meaning group holds words for grafts, implants, and moves.",
+        "cn": "形近组收录 plantare 词族；近义组收录表示嫁接、植入与搬迁的词。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "transplantation",
+              "ipa": "/ˌtrænzplɑːnˈteɪʃn/",
+              "tag": "derived form",
+              "definition": "the act or operation of transplanting",
+              "definitionCN": "移植的行为或手术"
+            },
+            {
+              "word": "transplantable",
+              "ipa": "/trænzˈplɑːntəbl/",
+              "tag": "derived form",
+              "definition": "able to be transplanted",
+              "definitionCN": "可移植的"
+            },
+            {
+              "word": "plant",
+              "ipa": "/plɑːnt/",
+              "tag": "same root",
+              "definition": "to put a seed or young plant into the ground",
+              "definitionCN": "把种子或幼苗种进土里"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "graft",
+              "ipa": "/ɡrɑːft/",
+              "tag": "near meaning",
+              "definition": "living tissue fixed onto another body or plant",
+              "definitionCN": "嫁接到另一个身体或植物上的活组织"
+            },
+            {
+              "word": "implant",
+              "ipa": "/ɪmˈplɑːnt/",
+              "tag": "near meaning",
+              "definition": "a device or tissue placed inside the body",
+              "definitionCN": "植入体内的装置或组织"
+            },
+            {
+              "word": "relocate",
+              "ipa": "/rɪˈləʊkeɪt/",
+              "tag": "near meaning",
+              "definition": "to move to another place",
+              "definitionCN": "迁到另一个地方"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Transplant is a crossing plus a planting: something living is carried over and set down again.",
+        "cn": "transplant 是「越过」加「栽种」：有生命的东西被带过去，再安放下来。"
+      },
+      "normal": [
+        {
+          "en": "Trans- means across and plantare means to plant, so a transplant crosses space to be planted.",
+          "cn": "trans- 意为「越过」，plantare 意为「栽种」，所以移植就是跨过一段距离去栽种。"
+        },
+        {
+          "en": "A heart transplant moves a healthy heart into a patient whose own heart is failing.",
+          "cn": "心脏移植是把健康的心脏移入心脏衰竭的患者体内。"
+        },
+        {
+          "en": "Gardeners transplant seedlings when they outgrow the seed tray.",
+          "cn": "幼苗长得超出育苗盘时，园丁就会移栽。"
+        },
+        {
+          "en": "The noun and the verb share one spelling: a transplant, to transplant.",
+          "cn": "名词与动词拼写相同：a transplant 与 to transplant。"
+        },
+        {
+          "en": "Do not confuse transplant with implant: an implant is placed inside, a transplant arrives from another body.",
+          "cn": "别把 transplant 与 implant 混淆：implant 是放入体内，transplant 来自另一个身体。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "Picture a donor organ carried in a cold box into a new body.",
+          "cn": "想象一颗捐献器官装在冷藏箱里，被送进一个新的身体。"
+        },
+        {
+          "en": "Imagine a seedling lifted with its roots and set into fresh soil.",
+          "cn": "想象一株幼苗连根被捧起，放进新鲜的土里。"
+        },
+        {
+          "en": "Think of a whole office packed up and reopened in another city.",
+          "cn": "想象整个办公室被打包，在另一座城市重新开张。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "The hospital performed a heart transplant last night.",
+        "cn": "这家医院昨晚做了一台心脏移植手术。"
+      },
+      {
+        "en": "Farmers transplant rice seedlings in early summer.",
+        "cn": "农民在初夏移栽水稻秧苗。"
+      },
+      {
+        "en": "The transplanted tissue was accepted by the patient.",
+        "cn": "移植的组织被患者接受了。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "谐音「穿石烂种」——把苗穿过石缝硬栽下去，居然活了；这只是谐音联想，与词源无关。",
+      "word": "transplant"
+    },
+    "root": "拉丁语 trans-（越过、穿过）+ plantare（栽种，源自 planta「幼苗；脚掌」）→ 中世纪拉丁语 transplantare → 英语 transplant，核心义「连根带土挪到别处栽下」。",
+    "sensesIntro": {
+      "en": "Transplant moves from plants to organs, then widens to people and things, and finally narrows to a graft of tissue.",
+      "cn": "transplant 从植物移栽出发，转向器官移植，再扩大到人与物的迁移，最后收窄为组织移植。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: a tree with its root ball carried to a new pit.",
+        "cn": "核心意象：一棵带着土球的树被抬到新坑里。"
+      },
+      "chain": [
+        "ACROSS",
+        "CARRY",
+        "REPLANT",
+        "NEW SOIL",
+        "ORGAN",
+        "NEW BODY"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "The organ sense is the medical branch.",
+          "cn": "器官义项是医学分支。"
+        },
+        {
+          "senses": "02",
+          "en": "The plant sense is the oldest branch.",
+          "cn": "植物义项是最古老的分支。"
+        },
+        {
+          "senses": "03",
+          "en": "The moving sense covers people and things.",
+          "cn": "迁移义项覆盖人与物。"
+        },
+        {
+          "senses": "04",
+          "en": "The tissue sense is a small-scale graft.",
+          "cn": "组织义项是小规模的移植。"
+        },
+        {
+          "senses": "01 · 04",
+          "en": "Both move living material into another body or site.",
+          "cn": "两者都把活体材料移入另一个身体或部位。"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Transplant is built from the Latin prefix trans- and the verb plantare, with English derivatives around it.",
+        "cn": "transplant 由拉丁语前缀 trans- 与动词 plantare 构成，周围有一组英语派生词。"
+      },
+      "latinIntro": {
+        "en": "Latin trans means across, and plantare means to plant, from planta, a shoot.",
+        "cn": "拉丁语 trans 意为「越过」，plantare 意为「栽种」，源自 planta（幼苗）。"
+      },
+      "items": [
+        {
+          "word": "trans-",
+          "structure": "Latin prefix",
+          "meaning": "across, beyond",
+          "meaningCN": "越过；穿过",
+          "example": "The prefix marks a crossing from one place to another.",
+          "exampleCN": "这个前缀标出从一处到另一处的跨越。"
+        },
+        {
+          "word": "plantare",
+          "structure": "Latin verb",
+          "meaning": "to plant",
+          "meaningCN": "栽种",
+          "example": "Plantare supplies the planting action.",
+          "exampleCN": "plantare 提供「栽种」的动作。"
+        },
+        {
+          "word": "planta",
+          "structure": "Latin noun",
+          "meaning": "a shoot, a sprout, the sole",
+          "meaningCN": "幼苗；脚掌",
+          "example": "Planta is the noun behind plantare.",
+          "exampleCN": "planta 是 plantare 背后的名词。"
+        },
+        {
+          "word": "transplantare",
+          "structure": "Medieval Latin verb",
+          "meaning": "to plant again elsewhere",
+          "meaningCN": "移种到别处",
+          "example": "Transplantare joins the prefix and the verb.",
+          "exampleCN": "transplantare 把前缀与动词连在一起。"
+        },
+        {
+          "word": "transplanter",
+          "structure": "French verb",
+          "meaning": "to transplant",
+          "meaningCN": "移植；移栽",
+          "example": "French transplanter passes the compound to English.",
+          "exampleCN": "法语 transplanter 把这个复合词传给英语。"
+        },
+        {
+          "word": "transplant",
+          "structure": "English verb",
+          "meaning": "to move and plant again",
+          "meaningCN": "移植；移栽",
+          "example": "The verb transplant names the move.",
+          "exampleCN": "动词 transplant 指这一移动。"
+        },
+        {
+          "word": "transplant",
+          "structure": "English noun",
+          "meaning": "an organ or plant moved elsewhere",
+          "meaningCN": "移植的器官；移栽的植株",
+          "example": "The noun transplant names the thing moved.",
+          "exampleCN": "名词 transplant 指被移走的东西。"
+        },
+        {
+          "word": "transplantation",
+          "structure": "English noun",
+          "meaning": "the act of transplanting",
+          "meaningCN": "移植；移植术",
+          "example": "The suffix -ation forms transplantation.",
+          "exampleCN": "词尾 -ation 构成 transplantation。"
+        },
+        {
+          "word": "-ation",
+          "structure": "English suffix",
+          "meaning": "action or result",
+          "meaningCN": "动作或结果",
+          "example": "It turns a verb into a noun of action.",
+          "exampleCN": "它把动词变成表示动作的名词。"
+        },
+        {
+          "word": "transplantable",
+          "structure": "English adjective",
+          "meaning": "able to be transplanted",
+          "meaningCN": "可移植的",
+          "example": "The suffix -able forms transplantable.",
+          "exampleCN": "词尾 -able 构成 transplantable。"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "trans",
+          "structure": "Latin prefix",
+          "meaning": "across, beyond",
+          "meaningCN": "越过；穿过"
+        },
+        {
+          "word": "plantare",
+          "structure": "Latin verb",
+          "meaning": "to plant",
+          "meaningCN": "栽种"
+        },
+        {
+          "word": "planta",
+          "structure": "Latin noun",
+          "meaning": "a shoot, the sole",
+          "meaningCN": "幼苗；脚掌"
+        },
+        {
+          "word": "transplantare",
+          "structure": "Medieval Latin verb",
+          "meaning": "to plant again elsewhere",
+          "meaningCN": "移种到别处"
+        }
+      ]
+    }
+  },
+  {
+    "word": "physiotherapy",
+    "ipa_uk": "/ˌfɪziəʊˈθerəpi/",
+    "ipa_us": "/ˌfɪzioʊˈθerəpi/",
+    "definition_zh": "物理治疗；理疗；康复治疗",
+    "definition_en": "the treatment of injury or disease by physical methods such as exercise, massage, heat, and electricity rather than by drugs or surgery",
+    "core_image": "治疗师扶着病人的小腿，一点点把膝盖弯到能重新走路的角度",
+    "scene": "康复室里，治疗师扶着病人慢慢抬起小腿，墙上挂着训练计划。After the knee operation, she went to physiotherapy three times a week.",
+    "sceneCN": "这里 physiotherapy 是「物理治疗」（第 1 个义项：用运动、按摩、热疗等物理手段治疗）；句意：膝盖手术后，她每周去做三次物理治疗。",
+    "pos": [
+      {
+        "tag": "n.",
+        "zh": "物理治疗；理疗"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "physiotherapy session",
+        "zh": "物理治疗疗程"
+      },
+      {
+        "phrase": "physiotherapy clinic",
+        "zh": "物理治疗诊所"
+      },
+      {
+        "phrase": "course of physiotherapy",
+        "zh": "一个疗程的物理治疗"
+      },
+      {
+        "phrase": "physiotherapy treatment",
+        "zh": "物理治疗"
+      },
+      {
+        "phrase": "physiotherapy department",
+        "zh": "物理治疗科"
+      },
+      {
+        "phrase": "refer for physiotherapy",
+        "zh": "转诊去做物理治疗"
+      }
+    ],
+    "forms": [
+      {
+        "label": "复数",
+        "form": "physiotherapies"
+      }
+    ],
+    "derivatives": [
+      {
+        "word": "physiotherapist",
+        "pos": "n.",
+        "zh": "由 physiotherapy 加 -ist 构成，义为「物理治疗师」"
+      },
+      {
+        "word": "physiotherapeutic",
+        "pos": "adj.",
+        "zh": "由 physiotherapy 加 -ic 构成，义为「物理治疗的」"
+      },
+      {
+        "word": "physio",
+        "pos": "n.",
+        "zh": "physiotherapy 的口语缩略形式，义为「理疗；物理治疗师」"
+      }
+    ],
+    "senses": [
+      {
+        "no": "01",
+        "title": "Treatment by physical methods",
+        "titleCN": "物理治疗（方法）",
+        "definition": "treatment of pain or injury with movement, massage, heat, or electric currents rather than drugs",
+        "definitionCN": "用运动、按摩、热疗或电流而不是药物来治疗疼痛或损伤",
+        "example": "Physiotherapy began two days after the operation.",
+        "exampleCN": "手术两天后就开始做物理治疗。",
+        "why": "Physis means nature and therapeia means healing, so the cure works with natural forces.",
+        "whyCN": "physis 意为「自然」，therapeia 意为「治疗」，所以这种疗法顺着自然之力起效。"
+      },
+      {
+        "no": "02",
+        "title": "The profession and its service",
+        "titleCN": "物理治疗（专业）",
+        "definition": "the profession or clinic service that provides such treatment",
+        "definitionCN": "提供这种治疗的专业或诊所服务",
+        "example": "The team includes a physiotherapy department and two assistants.",
+        "exampleCN": "这个团队包括一个物理治疗科和两名助手。",
+        "why": "A method of treatment also names the profession that delivers it.",
+        "whyCN": "一种治疗方法也会用来命名提供它的专业。"
+      },
+      {
+        "no": "03",
+        "title": "A planned course of treatment",
+        "titleCN": "理疗疗程",
+        "definition": "a planned series of sessions of such treatment",
+        "definitionCN": "按计划进行的一系列此类治疗",
+        "example": "The doctor referred her for a course of physiotherapy.",
+        "exampleCN": "医生转介她去做一个疗程的物理治疗。",
+        "why": "The uncountable method is counted into sessions, giving a course of treatment.",
+        "whyCN": "不可数的疗法被按次数计数，就成了一个疗程。"
+      },
+      {
+        "no": "04",
+        "title": "Rehabilitation after injury or surgery",
+        "titleCN": "术后或伤后康复",
+        "definition": "the work of restoring movement and strength after an injury or an operation",
+        "definitionCN": "在受伤或手术后恢复活动能力与力量的工作",
+        "example": "Physiotherapy restored the full range of motion in his shoulder.",
+        "exampleCN": "物理治疗让他肩膀的活动范围完全恢复了。",
+        "why": "The natural image turns into a practical goal: the body is guided back to its own power.",
+        "whyCN": "「自然」的意象落成一个实际目标：引导身体回到自身的力量。"
+      }
+    ],
+    "etymology": {
+      "intro": {
+        "en": "Physiotherapy joins Greek physis, nature, with therapeia, healing, in a modern medical coinage.",
+        "cn": "physiotherapy 把希腊语 physis（自然）与 therapeia（治疗）组合成一个现代医学术语。"
+      },
+      "items": [
+        {
+          "era": "GREEK",
+          "en": "Physis means nature or the natural order of a thing.",
+          "cn": "physis 意为「自然」或事物的自然秩序。"
+        },
+        {
+          "era": "GREEK",
+          "en": "Therapeia means service, attendance, or healing.",
+          "cn": "therapeia 意为「侍奉、照料、治疗」。"
+        },
+        {
+          "era": "LATIN",
+          "en": "Physica, the Latin title of works on nature, carries physis into learned English.",
+          "cn": "physica 是论自然的著作的拉丁语标题，把 physis 带入学术英语。"
+        },
+        {
+          "era": "MEDIEVAL LATIN",
+          "en": "Therapia is the Latinized form of therapeia used in medical writing.",
+          "cn": "therapia 是 therapeia 在医学写作中使用的拉丁化形式。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "Nineteenth-century medicine coins physiotherapy from the two Greek roots.",
+          "cn": "十九世纪的医学从这两个希腊词根造出 physiotherapy。"
+        },
+        {
+          "era": "MODERN ENGLISH",
+          "en": "The word spreads with the growth of rehabilitation after the World Wars.",
+          "cn": "随着两次世界大战后康复事业的发展，这个词传播开来。"
+        }
+      ]
+    },
+    "similar": {
+      "note": {
+        "en": "The look-alike group holds the therapy family; the near-meaning group holds rehabilitation and body-work words.",
+        "cn": "形近组收录 therapy 词族；近义组收录康复与身体手法相关的词。"
+      },
+      "groups": [
+        {
+          "heading": "LOOK-ALIKE",
+          "entries": [
+            {
+              "word": "physiotherapist",
+              "ipa": "/ˌfɪziəʊˈθerəpɪst/",
+              "tag": "derived form",
+              "definition": "a person trained to give physiotherapy",
+              "definitionCN": "受过训练、提供物理治疗的人"
+            },
+            {
+              "word": "physiotherapeutic",
+              "ipa": "/ˌfɪziəʊθerəˈpjuːtɪk/",
+              "tag": "derived form",
+              "definition": "relating to physiotherapy",
+              "definitionCN": "与物理治疗相关的"
+            },
+            {
+              "word": "physio",
+              "ipa": "/ˈfɪziəʊ/",
+              "tag": "short form",
+              "definition": "the informal short form of physiotherapy",
+              "definitionCN": "physiotherapy 的非正式简称"
+            }
+          ]
+        },
+        {
+          "heading": "NEAR MEANING",
+          "entries": [
+            {
+              "word": "rehabilitation",
+              "ipa": "/ˌriːhəˈbɪlɪteɪʃn/",
+              "tag": "near meaning",
+              "definition": "the process of restoring health and function",
+              "definitionCN": "恢复健康与功能的过程"
+            },
+            {
+              "word": "massage",
+              "ipa": "/ˈmæsɑːʒ/",
+              "tag": "near meaning",
+              "definition": "rubbing and kneading the body to relieve pain",
+              "definitionCN": "揉捏身体以缓解疼痛"
+            },
+            {
+              "word": "chiropractic",
+              "ipa": "/ˌkaɪrəʊˈpræktɪk/",
+              "tag": "near meaning",
+              "definition": "treatment by adjusting the bones of the spine",
+              "definitionCN": "通过调整脊椎来治疗的方法"
+            }
+          ]
+        }
+      ]
+    },
+    "mnemonics": {
+      "normalIntro": {
+        "en": "Physiotherapy is nature plus healing: the body is treated by movement, touch, heat, and current.",
+        "cn": "physiotherapy 是「自然」加「治疗」：用运动、手法、热与电流来对待身体。"
+      },
+      "normal": [
+        {
+          "en": "Physio- comes from Greek physis, nature, and -therapy from therapeia, healing.",
+          "cn": "physio- 来自希腊语 physis（自然），-therapy 来自 therapeia（治疗）。"
+        },
+        {
+          "en": "A physiotherapist teaches exercises instead of prescribing pills.",
+          "cn": "物理治疗师教你做练习，而不是开药。"
+        },
+        {
+          "en": "Physiotherapy is common after a knee or shoulder operation.",
+          "cn": "膝盖或肩膀手术后常要做物理治疗。"
+        },
+        {
+          "en": "In speech, physiotherapy is often shortened to physio.",
+          "cn": "口语里 physiotherapy 常缩略为 physio。"
+        },
+        {
+          "en": "Physiotherapy and drug therapy differ: one uses movement, the other uses medicine.",
+          "cn": "物理治疗与药物治疗不同：一个用运动，一个用药。"
+        }
+      ],
+      "abstract": [
+        {
+          "en": "Picture a therapist guiding a stiff knee through a slow bend.",
+          "cn": "想象治疗师托着僵硬的膝盖，慢慢把它弯下去。"
+        },
+        {
+          "en": "Imagine a clinic room with mats, weights, and a treatment table.",
+          "cn": "想象一间诊室，里面有垫子、哑铃和治疗床。"
+        },
+        {
+          "en": "Think of a calendar with two sessions marked each week.",
+          "cn": "想象一张日历，每周都标着两次治疗。"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "en": "She had physiotherapy for six weeks after the accident.",
+        "cn": "事故之后，她做了六周物理治疗。"
+      },
+      {
+        "en": "Physiotherapy helped him walk without crutches.",
+        "cn": "物理治疗帮助他不用拐杖走路。"
+      },
+      {
+        "en": "The clinic offers physiotherapy for sports injuries.",
+        "cn": "这家诊所为运动损伤提供物理治疗。"
+      }
+    ],
+    "dict_mnemonic": {
+      "note": "谐音记忆 · 非词源",
+      "text": "谐音「肺舒疗」——把身体舒展开、让肿痛消散的疗法；这只是谐音联想，与词源无关。",
+      "word": "physiotherapy"
+    },
+    "root": "希腊语 physis（自然、本性）+ therapeia（照料、治疗）→ 拉丁语 physica 与中世纪拉丁语 therapia 保留两个词根 → 十九世纪英语合成 physiotherapy，核心义「顺着身体本性，用运动与手法帮助恢复」。",
+    "sensesIntro": {
+      "en": "Physiotherapy first names a method, then the profession, then a counted course, and finally the rehabilitation it delivers.",
+      "cn": "physiotherapy 先指一种疗法，再指这门专业，继而指可计数的疗程，最后指它带来的康复。"
+    },
+    "semanticMap": {
+      "core": {
+        "en": "CORE IMAGE: a therapist guiding a stiff joint back into motion.",
+        "cn": "核心意象：治疗师引导僵硬的关节重新动起来。"
+      },
+      "chain": [
+        "NATURE",
+        "HEALING",
+        "MOVEMENT",
+        "MASSAGE",
+        "REHABILITATION",
+        "RECOVERY"
+      ],
+      "branches": [
+        {
+          "senses": "01",
+          "en": "The method sense is the medical core.",
+          "cn": "方法义项是医学核心。"
+        },
+        {
+          "senses": "02",
+          "en": "The profession sense names the people and the clinic.",
+          "cn": "专业义项指人与诊所。"
+        },
+        {
+          "senses": "03",
+          "en": "The course sense counts the sessions.",
+          "cn": "疗程义项把治疗按次数计算。"
+        },
+        {
+          "senses": "04",
+          "en": "The rehabilitation sense names the goal.",
+          "cn": "康复义项指最终目标。"
+        },
+        {
+          "senses": "01 · 04",
+          "en": "The method exists to bring the body back to movement.",
+          "cn": "方法的存在就是为了让身体重新动起来。"
+        }
+      ]
+    },
+    "affixes": {
+      "intro": {
+        "en": "Physiotherapy is built from two Greek roots, physis and therapeia, joined in modern medical language.",
+        "cn": "physiotherapy 由两个希腊词根 physis 与 therapeia 构成，在现代医学语言里合成。"
+      },
+      "latinIntro": {
+        "en": "Latin physica and Medieval Latin therapia carried the two Greek roots into European medical writing.",
+        "cn": "拉丁语 physica 与中世纪拉丁语 therapia 把这两个希腊词根带入欧洲医学写作。"
+      },
+      "items": [
+        {
+          "word": "physis",
+          "structure": "Greek noun",
+          "meaning": "nature, natural order",
+          "meaningCN": "自然；本性",
+          "example": "Physis gives the first half of the word.",
+          "exampleCN": "physis 提供这个词的前半部分。"
+        },
+        {
+          "word": "therapeia",
+          "structure": "Greek noun",
+          "meaning": "healing, service",
+          "meaningCN": "治疗；照料",
+          "example": "Therapeia gives the therapy half.",
+          "exampleCN": "therapeia 提供 therapy 这一半。"
+        },
+        {
+          "word": "physio-",
+          "structure": "English combining form",
+          "meaning": "nature, physical",
+          "meaningCN": "自然；身体的",
+          "example": "The form physio- begins the compound.",
+          "exampleCN": "构词成分 physio- 位于复合词开头。"
+        },
+        {
+          "word": "-therapy",
+          "structure": "English combining form",
+          "meaning": "treatment",
+          "meaningCN": "治疗",
+          "example": "The form -therapy ends many medical words.",
+          "exampleCN": "构词成分 -therapy 出现在许多医学词末尾。"
+        },
+        {
+          "word": "physiotherapy",
+          "structure": "English noun",
+          "meaning": "treatment by physical means",
+          "meaningCN": "物理治疗",
+          "example": "The compound names the method.",
+          "exampleCN": "这个复合词命名该方法。"
+        },
+        {
+          "word": "physiotherapist",
+          "structure": "English noun",
+          "meaning": "a person who gives physiotherapy",
+          "meaningCN": "物理治疗师",
+          "example": "The suffix -ist marks the person.",
+          "exampleCN": "词尾 -ist 标出从事的人。"
+        },
+        {
+          "word": "physiotherapeutic",
+          "structure": "English adjective",
+          "meaning": "relating to physiotherapy",
+          "meaningCN": "物理治疗的",
+          "example": "The suffix -ic forms the adjective.",
+          "exampleCN": "词尾 -ic 构成形容词。"
+        },
+        {
+          "word": "physio",
+          "structure": "English noun",
+          "meaning": "the short form of physiotherapy",
+          "meaningCN": "物理治疗（简称）",
+          "example": "Speech shortens the long compound to physio.",
+          "exampleCN": "口语把长复合词缩短为 physio。"
+        },
+        {
+          "word": "-ist",
+          "structure": "English suffix",
+          "meaning": "person who does",
+          "meaningCN": "从事……的人",
+          "example": "It turns the method into a profession name.",
+          "exampleCN": "它把疗法变成职业名称。"
+        },
+        {
+          "word": "-ic",
+          "structure": "English suffix",
+          "meaning": "relating to",
+          "meaningCN": "与……相关的",
+          "example": "It turns the noun into an adjective.",
+          "exampleCN": "它把名词变成形容词。"
+        }
+      ],
+      "latinEntries": [
+        {
+          "word": "physica",
+          "structure": "Latin noun",
+          "meaning": "natural science",
+          "meaningCN": "自然科学"
+        },
+        {
+          "word": "therapia",
+          "structure": "Medieval Latin noun",
+          "meaning": "treatment, healing",
+          "meaningCN": "治疗；疗法"
+        }
+      ]
+    }
+  }
+]
